@@ -54,3 +54,26 @@ def task_migrate_issue(self, pid, data):
             controller.PublishIssueError,
             ) as e:
         logging.error(e)
+
+
+def migrate_documents(source_file_path, connection):
+    controller.connect(connection)
+    for pid, data in controller.get_classic_website_records("artigo", source_file_path):
+        task_migrate_document.delay(pid, data)
+
+
+@celery_app.task(bind=True, max_retries=3)
+def task_migrate_document(self, pid, data):
+    try:
+        controller.migrate_document(pid, data)
+    except (
+            controller.MigratedDocumentSaveError,
+            controller.DocumentMigrationTrackSaveError,
+            ) as e:
+        logging.error(e)
+    try:
+        controller.publish_document(pid)
+    except (
+            controller.PublishDocumentError,
+            ) as e:
+        logging.error(e)

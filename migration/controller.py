@@ -1,17 +1,21 @@
 from libs.dsm.classic_ws import classic_ws
 from libs.dsm.publication.journals import JournalToPublish
 from libs.dsm.publication.issues import IssueToPublish, get_bundle_id
+from libs.dsm.publication.documents import DocumentToPublish
 from libs.dsm.publication import db
 from libs.dsm.publication.exceptions import (
     PublishJournalError,
     PublishIssueError,
+    PublishDocumentError,
     JournalPublicationForbiddenError,
     IssuePublicationForbiddenError,
+    DocumentPublicationForbiddenError,
 )
 
 from .models import (
     JournalMigrationTracker, MigratedJournal,
     IssueMigrationTracker, MigratedIssue,
+    DocumentMigrationTracker, MigratedDocument,
 )
 from .choices import MS_MIGRATED, MS_PUBLISHED
 from .exceptions import (
@@ -19,6 +23,8 @@ from .exceptions import (
     MigratedJournalSaveError,
     IssueMigrationTrackSaveError,
     MigratedIssueSaveError,
+    DocumentMigrationTrackSaveError,
+    MigratedDocumentSaveError,
 )
 
 
@@ -237,7 +243,10 @@ def migrate_issue(issue_pid, data, force_update=False):
         )
 
     try:
+        issue_migration.issue_pid = classic_ws_i.issue_pid
         issue_migration.acron = classic_ws_i.acron
+        issue_migration.scielo_issn = classic_ws_i.scielo_issn
+        issue_migration.year = classic_ws_i.year
         issue_migration.isis_created_date = classic_ws_i.isis_created_date
         issue_migration.isis_updated_date = classic_ws_i.isis_updated_date
         issue_migration.status = MS_MIGRATED
@@ -308,3 +317,180 @@ def publish_issue(issue_pid):
             "Unable to upate issue_migration status %s %s" % (issue_pid, e)
         )
 
+
+###############################################################################
+def get_migrated_doc(**kwargs):
+    try:
+        j = MigratedDocument.objects.get(**kwargs)
+    except MigratedDocument.DoesNotExist:
+        j = MigratedDocument()
+    return j
+
+
+def get_doc_migration_tracker(**kwargs):
+    try:
+        j = DocumentMigrationTracker.objects.get(**kwargs)
+    except DocumentMigrationTracker.DoesNotExist:
+        j = DocumentMigrationTracker()
+    return j
+
+
+def migrate_document(pid, data, force_update=False):
+    """
+    Create/update MigratedDocument e DocumentMigrationTracker
+
+    """
+    doc_migration = get_doc_migration_tracker(pid=pid)
+    classic_ws_doc = classic_ws.Document(data)
+
+    if not force_update:
+        # check if it needs to be update
+        if doc_migration.isis_updated_date == classic_ws_doc.isis_updated_date:
+            # nao precisa atualizar
+            return
+    try:
+        migrated = get_migrated_doc(pid=pid)
+        migrated.pid = pid
+        migrated.record = data
+        migrated.save()
+    except Exception as e:
+        raise MigratedDocumentSaveError(
+            "Unable to save migrated document %s %s" %
+            (pid, e)
+        )
+
+    try:
+        doc_migration.pid = classic_ws_doc.pid
+        doc_migration.acron = classic_ws_doc.acron
+        doc_migration.scielo_issn = classic_ws_doc.scielo_issn
+        doc_migration.year = classic_ws_doc.year
+        doc_migration.isis_created_date = classic_ws_doc.isis_created_date
+        doc_migration.isis_updated_date = classic_ws_doc.isis_updated_date
+        doc_migration.status = MS_MIGRATED
+        doc_migration.migrated_doc = migrated
+
+        doc_migration.save()
+    except Exception as e:
+        raise DocumentMigrationTrackSaveError(
+            "Unable to save document migration track %s %s" %
+            (pid, e)
+        )
+
+
+def publish_document(pid):
+    """
+    Raises
+    ------
+    PublishDocumentError
+    """
+    try:
+        doc_migration = DocumentMigrationTracker.objects.get(pid=pid)
+    except DocumentMigrationTracker.DoesNotExist as e:
+        raise PublishDocumentError(
+            "DocumentMigrationTracker does not exists %s %s" % (pid, e))
+
+    if doc_migration.status != MS_MIGRATED:
+        raise DocumentPublicationForbiddenError(
+            "DocumentMigrationTracker.status of %s is not MS_MIGRATED" %
+            pid
+        )
+
+    try:
+        classic_ws_doc = classic_ws.Document(
+            doc_migration.migrated_doc.records)
+        # TODO
+        v3 = "xxxxx"
+        doc_to_publish = DocumentToPublish(v3)
+
+        # IDS
+        doc_to_publish.add_identifiers(
+            classic_ws_doc.scielo_pid_v2,
+            classic_ws_doc.publisher_ahead_id,
+        )
+
+        # MAIN METADATA
+        doc_to_publish.add_document_type(classic_ws_doc.document_type)
+        doc_to_publish.add_main_metadata(
+            classic_ws_doc.title,
+            classic_ws_doc.section,
+            classic_ws_doc.abstract,
+            classic_ws_doc.lang,
+            classic_ws_doc.doi,
+        )
+        for item in classic_ws_doc.authors:
+            doc_to_publish.add_author_meta(
+                item['surname'], item['given_names'],
+                item.get("suffix"),
+                item.get("affiliation"),
+                item.get("orcid"),
+            )
+
+        # ISSUE
+        year = classic_ws_doc.document_publication_date[:4]
+        month = classic_ws_doc.document_publication_date[4:6]
+        day = classic_ws_doc.document_publication_date[6:]
+        doc_to_publish.add_publication_date(year, month, day)
+
+        doc_to_publish.add_in_issue(
+            classic_ws_doc.order,
+            classic_ws_doc.fpage,
+            classic_ws_doc.fpage_seq,
+            classic_ws_doc.lpage,
+            classic_ws_doc.elocation,
+        )
+
+        # ISSUE
+        bundle_id = get_bundle_id(
+            classic_ws_doc.journal,
+            classic_ws_doc.year,
+            classic_ws_doc.volume,
+            classic_ws_doc.number,
+            classic_ws_doc.supplement,
+        )
+        doc_to_publish.add_issue(bundle_id)
+
+        # JOURNAL
+        doc_to_publish.add_journal(classic_ws_doc.journal)
+
+        # IDIOMAS
+        for item in classic_ws_doc.doi_with_lang:
+            doc_to_publish.add_doi_with_lang(item["language"], item["doi"])
+
+        for item in classic_ws_doc.abstracts:
+            doc_to_publish.add_abstract(item['language'], item['text'])
+
+        for item in classic_ws_doc.translated_sections:
+            doc_to_publish.add_section(item['language'], item['text'])
+
+        for item in classic_ws_doc.translated_titles:
+            doc_to_publish.add_translated_titles(
+                item['language'], item['text'],
+            )
+        for lang, keywords in classic_ws_doc.keywords_groups.items():
+            doc_to_publish.add_keywords(lang, keywords)
+
+        # ARQUIVOS
+        # doc_to_publish.add_xml(xml)
+        # for item in classic_ws_doc.htmls:
+        #     doc_to_publish.add_html(language, uri)
+        # for item in classic_ws_doc.mat_suppl_items:
+        #     doc_to_publish.add_mat_suppl(lang, url, ref_id, filename)
+        # for item in classic_ws_doc.pdf:
+        #     doc_to_publish.add_pdf(lang, url, filename, type)
+
+        # RELATED
+        # doc_to_publish.add_related_article(doi, ref_id, related_type)
+
+        doc_to_publish.publish_document()
+    except Exception as e:
+        raise PublishDocumentError(
+            "Unable to publish %s %s" % (pid, e)
+        )
+
+    try:
+        doc_migration.status = MS_PUBLISHED
+        doc_migration.save()
+    except Exception as e:
+        raise PublishDocumentError(
+            "Unable to upate doc_migration status %s %s" % (pid, e)
+        )
