@@ -51,7 +51,7 @@ class MigratedJournal(CommonControlField):
         return f"{self.acron} {self.scielo_issn} {self.title}"
 
 
-class IssueMigrationTracker(CommonControlField):
+class IssueMigration(CommonControlField):
 
     scielo_issn = models.CharField(
         _('SciELO ISSN'), max_length=9, null=False, blank=False)
@@ -77,21 +77,32 @@ class IssueMigrationTracker(CommonControlField):
         default=choices.MS_TO_MIGRATE,
     )
 
-    migrated_issue = models.ForeignKey('MigratedIssue')
+    record = models.JSONField(blank=False)
 
     def __str__(self):
         return f"{self.acron} {self.issue_pid} {self.status}"
 
 
-class MigratedIssue(CommonControlField):
+class IssueFilesMigration(CommonControlField):
 
+    acron = models.CharField(
+        _('Acronym'), max_length=20, null=False, blank=False)
+    issue_folder = models.CharField(
+        _('IssueFiles PID'), max_length=20, null=False, blank=False)
     issue_pid = models.CharField(
-        _('Issue PID'), max_length=9, null=False, blank=False)
-    # registro no formato json correspondente ao conteúdo da base isis
-    records = models.JSONField(blank=False)
+        _('Issue PID'), max_length=17, null=False, blank=False)
+
+    # status do registro quanto aos metadados
+    status = models.CharField(
+        _('Status'), max_length=20,
+        choices=choices.MIGRATION_STATUS,
+        default=choices.MS_TO_MIGRATE,
+    )
+
+    info = models.JSONField(blank=False)
 
     def __str__(self):
-        return f"{self.issue_pid}"
+        return f"{self.acron} {self.issue_folder} {self.status}"
 
 
 class DocumentMigrationTracker(CommonControlField):

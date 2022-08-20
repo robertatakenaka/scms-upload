@@ -14,7 +14,7 @@ from libs.dsm.publication.exceptions import (
 
 from .models import (
     JournalMigrationTracker, MigratedJournal,
-    IssueMigrationTracker, MigratedIssue,
+    IssueMigration, IssueFilesMigration,
     DocumentMigrationTracker, MigratedDocument,
 )
 from .choices import MS_MIGRATED, MS_PUBLISHED
@@ -202,28 +202,20 @@ def publish_journal(journal_id):
 ##################################################################
 # ISSUE
 
-def get_migrated_issue(**kwargs):
+def get_issue_migration(**kwargs):
     try:
-        j = MigratedIssue.objects.get(**kwargs)
-    except MigratedIssue.DoesNotExist:
-        j = MigratedIssue()
-    return j
-
-
-def get_issue_migration_tracker(**kwargs):
-    try:
-        j = IssueMigrationTracker.objects.get(**kwargs)
-    except IssueMigrationTracker.DoesNotExist:
-        j = IssueMigrationTracker()
+        j = IssueMigration.objects.get(**kwargs)
+    except IssueMigration.DoesNotExist:
+        j = IssueMigration()
     return j
 
 
 def migrate_issue(issue_pid, data, force_update=False):
     """
-    Create/update MigratedIssue e IssueMigrationTracker
+    Create/update MigratedIssue e IssueMigration
 
     """
-    issue_migration = get_issue_migration_tracker(issue_pid=issue_pid)
+    issue_migration = get_issue_migration(issue_pid=issue_pid)
     classic_ws_i = classic_ws.Issue(data)
 
     if not force_update:
@@ -231,16 +223,6 @@ def migrate_issue(issue_pid, data, force_update=False):
         if issue_migration.isis_updated_date == classic_ws_i.isis_updated_date:
             # nao precisa atualizar
             return
-    try:
-        migrated = get_migrated_issue(issue_pid=issue_pid)
-        migrated.issue_pid = issue_pid
-        migrated.record = data
-        migrated.save()
-    except Exception as e:
-        raise MigratedIssueSaveError(
-            "Unable to save migrated issue %s %s" %
-            (issue_pid, e)
-        )
 
     try:
         issue_migration.issue_pid = classic_ws_i.issue_pid
@@ -250,11 +232,11 @@ def migrate_issue(issue_pid, data, force_update=False):
         issue_migration.isis_created_date = classic_ws_i.isis_created_date
         issue_migration.isis_updated_date = classic_ws_i.isis_updated_date
         issue_migration.status = MS_MIGRATED
-        issue_migration.migrated_issue = migrated
+        issue_migration.record = data
 
         issue_migration.save()
     except Exception as e:
-        raise IssueMigrationTrackSaveError(
+        raise MigratedIssueSaveError(
             "Unable to save issue migration track %s %s" %
             (issue_pid, e)
         )
@@ -267,20 +249,20 @@ def publish_issue(issue_pid):
     PublishIssueError
     """
     try:
-        issue_migration = IssueMigrationTracker.objects.get(
+        issue_migration = IssueMigration.objects.get(
             pid=issue_pid)
-    except IssueMigrationTracker.DoesNotExist as e:
+    except IssueMigration.DoesNotExist as e:
         raise PublishIssueError(
-            "IssueMigrationTracker does not exists %s %s" % (issue_pid, e))
+            "IssueMigration does not exists %s %s" % (issue_pid, e))
 
     if issue_migration.status != MS_MIGRATED:
         raise IssuePublicationForbiddenError(
-            "IssueMigrationTracker.status of %s is not MS_MIGRATED" %
+            "IssueMigration.status of %s is not MS_MIGRATED" %
             issue_pid
         )
 
     try:
-        classic_ws_i = classic_ws.Issue(issue_migration.migrated_issue.record)
+        classic_ws_i = classic_ws.Issue(issue_migration.record)
         published_id = get_bundle_id(
             classic_ws_i.journal,
             classic_ws_i.year,
