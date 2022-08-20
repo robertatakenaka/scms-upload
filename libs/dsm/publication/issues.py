@@ -6,7 +6,7 @@ from . import exceptions
 from . import db
 
 
-def get_issue(issue_id):
+def get_issue(**kwargs):
     """
     Get registered issue or new issue
 
@@ -19,7 +19,7 @@ def get_issue(issue_id):
     Issue
     """
     try:
-        issue = Issue.objects.get(_id=issue_id)
+        issue = Issue.objects.get(**kwargs)
     except Issue.DoesNotExist:
         issue = Issue()
         issue._id = issue_id
@@ -78,7 +78,7 @@ def get_bundle_id(issn_id, year, volume=None, number=None, supplement=None):
 
 class IssueToPublish:
     def __init__(self, issue_id):
-        self.issue = get_issue(issue_id)
+        self.issue = get_issue(_id=issue_id)
         self._has_docs = None
 
     def add_journal(self, journal):

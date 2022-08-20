@@ -17,23 +17,23 @@ from . import exceptions
 from .db import save_data
 
 
-def get_document(doc_id):
+def get_document(**kwargs):
     try:
-        doc = Article.objects.get(_id=doc_id)
+        doc = Article.objects.get(**kwargs)
     except Article.DoesNotExist:
         doc = Article()
-        doc._id = doc_id
-        doc.aid = doc_id
     return doc
 
 
-class Document:
+class DocumentToPublish:
     # https://github.com/scieloorg/opac-airflow/blob/4103e6cab318b737dff66435650bc4aa0c794519/airflow/dags/operations/sync_kernel_to_website_operations.py#L82
 
     def __init__(self, doc_id):
-        self.doc = get_document(doc_id)
+        self.doc = get_document(_id=doc_id)
+        self.doc._id = doc_id
+        self.doc.aid = doc_id
 
-    def add_identifiers(self, v2, aop_pid, other_pids):
+    def add_identifiers(self, v2, aop_pid, other_pids=None):
         # Identificadores
         self.doc.pid = v2
 
@@ -109,7 +109,7 @@ class Document:
         )
         self.doc.authors.append(_author)
 
-    def add_translated_title(self, text, language):
+    def add_translated_title(self, language, text):
         # translated_titles = EmbeddedDocumentListField(TranslatedTitle))
         if self.doc.translated_titles is None:
             self.doc.translated_titles = []
@@ -118,7 +118,7 @@ class Document:
         _translated_title.language = language
         self.doc.translated_titles.append(_translated_title)
 
-    def add_section(self, text, language):
+    def add_section(self, language, text):
         # sections = EmbeddedDocumentListField(TranslatedSection))
         if self.doc.translated_sections is None:
             self.doc.translated_sections = []
@@ -127,7 +127,7 @@ class Document:
         _translated_section.language = language
         self.doc.translated_sections.append(_translated_section)
 
-    def add_abstract(self, text, language):
+    def add_abstract(self, language, text):
         # abstracts = EmbeddedDocumentListField(Abstract))
         if self.doc.abstracts is None:
             self.doc.abstracts = []
@@ -145,7 +145,7 @@ class Document:
         _kwd_group.keywords = keywords
         self.doc.kwd_groups.append(_kwd_group)
 
-    def add_doi_with_lang(self, doi, language):
+    def add_doi_with_lang(self, language, doi):
         # doi_with_lang = EmbeddedDocumentListField(DOIWithLang))
         if self.doc.doi_with_lang_items is None:
             self.doc.doi_with_lang_items = []
@@ -195,7 +195,7 @@ class Document:
             )
         )
 
-    def add_mat_suppl(self, url, lang, ref_id, filename):
+    def add_mat_suppl(self, lang, url, ref_id, filename):
         # mat_suppl = EmbeddedDocumentListField(MatSuppl))
         if self.doc.mat_suppl_items is None:
             self.doc.mat_suppl_items = []

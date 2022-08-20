@@ -8,7 +8,7 @@ from . import exceptions
 from .db import save_data
 
 
-def get_journal(journal_id):
+def get_journal(**kwargs):
     """
     Get registered journal or new journal
 
@@ -21,16 +21,15 @@ def get_journal(journal_id):
     opac_schema.v1.models.Journal
     """
     try:
-        journal = Journal.objects.get(_id=journal_id)
+        journal = Journal.objects.get(**kwargs)
     except Journal.DoesNotExist:
         journal = Journal()
-        journal._id = journal_id
     return journal
 
 
 class JournalToPublish:
     def __init__(self, journal_id):
-        self.journal = get_journal(journal_id)
+        self.journal = get_journal(_id=journal_id)
 
     def add_journal_titles(self, title, title_iso, short_title):
         self.journal.title = title
