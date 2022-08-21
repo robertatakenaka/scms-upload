@@ -100,6 +100,7 @@ class IssueFilesMigration(CommonControlField):
     )
 
     info = models.JSONField(blank=False)
+    paths = models.JSONField(blank=False)
 
     def __str__(self):
         return f"{self.acron} {self.issue_folder} {self.status}"
