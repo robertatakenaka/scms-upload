@@ -8,6 +8,88 @@ from core.models import CommonControlField
 from . import choices
 
 
+class PDFIssueFiles:
+    def __init__(self):
+        self.pdfs = None
+
+    def add_item(self, key, lang, name, uri):
+        if not self.pdfs:
+            self.pdfs.setdefault(key, {})
+        self.pdfs[key][lang] = {
+            "name": name,
+            "uri": uri,
+        }
+
+    def get_item(self, key, lang):
+        return self.pdfs[key][lang]
+
+
+class PDFIssueFiles:
+    def __init__(self, items=None):
+        self.items = items
+
+    def add_item(self, key, lang, name, uri):
+        if not self.items:
+            self.items = {}
+            self.items.setdefault(key, {})
+        self.items[key][lang] = {
+            "name": name,
+            "uri": uri,
+        }
+
+    def get_item(self, key, lang):
+        return self.items[key][lang]
+
+
+class XMLIssueFiles:
+    def __init__(self, items=None):
+        self.items = items
+
+    def add_item(self, key, name, uri):
+        if not self.items:
+            self.items = {}
+            self.items.setdefault(key, {})
+        self.items[key] = {
+            "name": name,
+            "uri": uri,
+        }
+
+    def get_item(self, key):
+        return self.items[key]
+
+
+class AssetIssueFiles:
+    def __init__(self, items=None):
+        self.items = items
+
+    def add_item(self, name, uri):
+        if not self.items:
+            self.items = {}
+            self.items.setdefault(key, {})
+        self.items[name] = uri
+
+    def get_item(self, name):
+        return self.items[name]
+
+
+class HTMLIssueFiles:
+    def __init__(self, items=None):
+        self.items = items
+
+    def add_item(self, key, lang, name, uri, part):
+        if not self.items:
+            self.items = {}
+            self.items.setdefault(key, {})
+        self.items[key][lang].setdefault(part, {})
+        self.items[key][lang][part] = {
+            "name": name,
+            "uri": uri,
+        }
+
+    def get_item(self, key, lang):
+        return self.items[key][lang][part]
+
+
 class JournalMigration(CommonControlField):
 
     scielo_issn = models.CharField(
@@ -85,8 +167,10 @@ class IssueFilesMigration(CommonControlField):
         default=choices.MS_TO_MIGRATE,
     )
 
-    info = models.JSONField(blank=False)
-    paths = models.JSONField(blank=False)
+    xmls = models.JSONField(blank=False)
+    htmls = models.JSONField(blank=False)
+    pdfs = models.JSONField(blank=False)
+    assets = models.JSONField(blank=False)
 
     def __str__(self):
         return f"{self.acron} {self.issue_folder} {self.status}"
@@ -119,6 +203,33 @@ class DocumentMigration(CommonControlField):
     )
 
     records = models.JSONField(blank=False)
+
+    def __str__(self):
+        return f"{self.acron} {self.pid} {self.status}"
+
+
+class DocumentFilesMigration(CommonControlField):
+
+    pid = models.CharField(
+        _('Document PID'), max_length=9, null=False, blank=False)
+    acron = models.CharField(
+        _('Acronym'), max_length=20, null=False, blank=False)
+    issue_folder = models.CharField(
+        _('Issue folder'), max_length=20, null=False, blank=False)
+    filename_without_extension = models.CharField(
+        _('File name'), max_length=20, null=False, blank=False)
+
+    # status do registro quanto aos metadados
+    status = models.CharField(
+        _('Status'), max_length=20,
+        choices=choices.MIGRATION_STATUS,
+        default=choices.MS_TO_MIGRATE,
+    )
+
+    htmls = models.JSONField(blank=False)
+    xmls = models.JSONField(blank=False)
+    pdfs = models.JSONField(blank=False)
+    assets = models.JSONField(blank=False)
 
     def __str__(self):
         return f"{self.acron} {self.pid} {self.status}"

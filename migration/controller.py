@@ -12,21 +12,26 @@ from libs.dsm.publication.exceptions import (
     JournalPublicationForbiddenError,
     IssuePublicationForbiddenError,
     DocumentPublicationForbiddenError,
+    DocumentFilesMigrationGetError,
 )
-from libs.dsm.files_storage.minio import MinioStorage
 from .models import (
-    JournalMigration, MigratedJournal,
+    JournalMigration,
     IssueMigration, IssueFilesMigration,
-    DocumentMigration, MigratedDocument,
+    DocumentMigration,
+    DocumentFilesMigration,
+    XMLIssueFiles,
+    HTMLIssueFiles,
+    AssetIssueFiles,
+    PDFIssueFiles,
 )
 from .choices import MS_MIGRATED, MS_PUBLISHED
 from .exceptions import (
     JournalMigrationSaveError,
-    MigratedJournalSaveError,
-    MigratedIssueSaveError,
+    IssueMigrationSaveError,
     IssueFilesMigrationGetError,
     IssueFilesMigrationSaveError,
     DocumentMigrationSaveError,
+    DocumentFilesMigrationSaveError,
 )
 
 
@@ -226,7 +231,7 @@ def migrate_issue(issue_pid, data, force_update=False):
 
         issue_migration.save()
     except Exception as e:
-        raise MigratedIssueSaveError(
+        raise IssueMigrationSaveError(
             "Unable to save issue migration %s %s" %
             (issue_pid, e)
         )
@@ -320,15 +325,20 @@ def migrate_issue_files(issue_pid, record, files_storage, force_update=False):
         )
 
     try:
-        paths = {}
-        for file_path in classic_website_files['paths']:
+        groups = dict(
+            xml=XMLIssueFiles(),
+            pdf=PDFIssueFiles(),
+            html=HTMLIssueFiles(),
+            asset=AssetIssueFiles(),
+        )
+        for info in classic_website_files:
             subdirs = os.path.join(
                 "public", acron, issue_folder,
             )
-            paths[os.path.basename(file_path)] = files_storage.register(
-                file_path, subdirs=subdirs, preserve_name=True)
+            info['uri'] = files_storage.register(
+                info['path'], subdirs=subdirs, preserve_name=True)
+            _set_info(groups, **info)
 
-        issue_files_migration.paths = paths
     except Exception as e:
         raise IssueFilesMigrationSaveError(
             "Unable to register issue files %s %s" %
@@ -336,7 +346,10 @@ def migrate_issue_files(issue_pid, record, files_storage, force_update=False):
         )
 
     try:
-        issue_files_migration.info = classic_website_files["info"]
+        issue_files_migration.xmls = groups.get("xml").items
+        issue_files_migration.htmls = groups.get("html").items
+        issue_files_migration.pdfs = groups.get("pdf").items
+        issue_files_migration.assets = groups.get("asset").items
 
         issue_files_migration.issue_pid = classic_ws_i.issue_pid
         issue_files_migration.acron = acron
@@ -351,6 +364,79 @@ def migrate_issue_files(issue_pid, record, files_storage, force_update=False):
         )
 
 
+def _set_info(groups, type_, uri, name, key=None, lang=None, part=None):
+    kwargs = {}
+    if key:
+        kwargs['key'] = key
+    if lang:
+        kwargs['lang'] = lang
+    if part:
+        kwargs['part'] = part
+    if uri:
+        kwargs['uri'] = uri
+    if name:
+        kwargs['name'] = name
+    groups[type_].add_item(**kwargs)
+
+
+###############################################################################
+def get_doc_files_migration(**kwargs):
+    try:
+        j = DocumentFilesMigration.objects.get(**kwargs)
+    except DocumentFilesMigration.DoesNotExist:
+        j = DocumentFilesMigration()
+    return j
+
+
+def migrate_document_files(pid, data, force_update=False):
+    """
+    Create/update DocumentMigration
+
+    """
+    doc_files_migration = get_doc_files_migration(pid=pid)
+
+    # check if it needs to be update
+    if doc_files_migration.status == MS_MIGRATED:
+        if not force_update:
+            # nao precisa atualizar
+            return
+
+    try:
+        classic_ws_doc = classic_ws.Document(data)
+        issue_files_migration = get_issue_files_migration(
+            acron=classic_ws_doc.acron,
+            issue_folder=classic_ws_doc.issue_label,
+        )
+        if issue_files_migration.status != MS_MIGRATED:
+            raise DocumentFilesMigrationGetError(
+                "Unable to get issue files migration %s %s" %
+                (classic_ws_doc.acron, classic_ws_doc.issue_label)
+            )
+    except Exception as e:
+        raise DocumentFilesMigrationGetError(
+            "Unable to get issue files migration %s %s" %
+            (classic_ws_doc.acron, classic_ws_doc.issue_label)
+        )
+
+    try:
+        doc_files_migration.pid = classic_ws_doc.pid
+        doc_files_migration.acron = classic_ws_doc.acron
+        doc_files_migration.issue_folder = classic_ws_doc.issue_label
+        doc_files_migration.status = MS_MIGRATED
+        doc_files_migration.filename_without_extension = classic_ws_doc.filename_without_extension
+        # doc_files_migration.htmls = 
+        # doc_files_migration.xmls = issue_files_migration.
+        # doc_files_migration.pdfs = 
+        # doc_files_migration.assets = 
+
+        doc_files_migration.save()
+    except Exception as e:
+        raise DocumentFilesMigrationSaveError(
+            "Unable to save document migration %s %s" %
+            (pid, e)
+        )
+
+
 ###############################################################################
 def get_doc_migration(**kwargs):
     try:
@@ -362,7 +448,7 @@ def get_doc_migration(**kwargs):
 
 def migrate_document(pid, data, force_update=False):
     """
-    Create/update MigratedDocument e DocumentMigration
+    Create/update DocumentMigration
 
     """
     doc_migration = get_doc_migration(pid=pid)
