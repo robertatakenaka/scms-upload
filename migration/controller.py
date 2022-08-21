@@ -1,3 +1,5 @@
+import os
+
 from libs.dsm.classic_ws import classic_ws
 from libs.dsm.publication.journals import JournalToPublish
 from libs.dsm.publication.issues import IssueToPublish, get_bundle_id
@@ -11,7 +13,7 @@ from libs.dsm.publication.exceptions import (
     IssuePublicationForbiddenError,
     DocumentPublicationForbiddenError,
 )
-
+from libs.dsm.files_storage.minio import MinioStorage
 from .models import (
     JournalMigrationTracker, MigratedJournal,
     IssueMigration, IssueFilesMigration,
@@ -23,6 +25,8 @@ from .exceptions import (
     MigratedJournalSaveError,
     IssueMigrationTrackSaveError,
     MigratedIssueSaveError,
+    IssueFilesMigrationGetError,
+    IssueFilesMigrationSaveError,
     DocumentMigrationTrackSaveError,
     MigratedDocumentSaveError,
 )
@@ -297,6 +301,73 @@ def publish_issue(issue_pid):
     except Exception as e:
         raise PublishIssueError(
             "Unable to upate issue_migration status %s %s" % (issue_pid, e)
+        )
+
+
+###############################################################################
+def get_issue_files_migration(**kwargs):
+    try:
+        j = IssueFilesMigration.objects.get(**kwargs)
+    except IssueFilesMigration.DoesNotExist:
+        j = IssueFilesMigration()
+    return j
+
+
+def migrate_issue_files(issue_pid, files_storage, force_update=False):
+    """
+    Create/update MigratedIssue e IssueMigration
+
+    """
+    issue_files_migration = get_issue_files_migration(issue_pid=issue_pid)
+    if issue_files_migration.status == MS_PUBLISHED and not force_update:
+        return
+
+    issue_migration = get_issue_migration(issue_pid=issue_pid)
+    if not issue_migration.record:
+        raise IssueFilesMigrationGetError(
+            "Unable to get issue migration data %s" %
+            issue_pid
+        )
+
+    try:
+        classic_ws_i = classic_ws.Issue(issue_migration.record)
+        classic_website_files = classic_ws.get_issue_files(
+            classic_ws_i.acron, classic_ws_i.issue_label)
+    except Exception as e:
+        raise IssueFilesMigrationGetError(
+            "Unable to get issue files %s %s" %
+            (issue_pid, e)
+        )
+
+    try:
+        paths = {}
+        for file_path in classic_website_files['paths']:
+            subdirs = os.path.join(
+                "public", classic_ws_i.acron, classic_ws_i.issue_label,
+            )
+            paths[os.path.basename(file_path)] = files_storage.register(
+                file_path, subdirs=subdirs, preserve_name=True)
+
+        issue_files_migration.paths = paths
+    except Exception as e:
+        raise IssueFilesMigrationSaveError(
+            "Unable to register issue files %s %s" %
+            (issue_pid, e)
+        )
+
+    try:
+        issue_files_migration.info = classic_website_files["info"]
+
+        issue_files_migration.issue_pid = classic_ws_i.issue_pid
+        issue_files_migration.acron = classic_ws_i.acron
+        issue_files_migration.issue_folder = classic_ws_i.issue_label
+        issue_files_migration.status = MS_PUBLISHED
+
+        issue_files_migration.save()
+    except Exception as e:
+        raise IssueFilesMigrationSaveError(
+            "Unable to save issue files migration %s %s" %
+            (issue_pid, e)
         )
 
 
