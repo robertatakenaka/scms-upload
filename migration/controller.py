@@ -19,10 +19,6 @@ from .models import (
     IssueMigration, IssueFilesMigration,
     DocumentMigration,
     DocumentFilesMigration,
-    XMLIssueFiles,
-    HTMLIssueFiles,
-    AssetIssueFiles,
-    PDFIssueFiles,
 )
 from .choices import MS_MIGRATED, MS_PUBLISHED
 from .exceptions import (
@@ -424,10 +420,17 @@ def migrate_document_files(pid, data, force_update=False):
         doc_files_migration.issue_folder = classic_ws_doc.issue_label
         doc_files_migration.status = MS_MIGRATED
         doc_files_migration.filename_without_extension = classic_ws_doc.filename_without_extension
-        # doc_files_migration.htmls = 
-        # doc_files_migration.xmls = issue_files_migration.
-        # doc_files_migration.pdfs = 
-        # doc_files_migration.assets = 
+
+        key = classic_ws_doc.filename_without_extension
+        text_langs = issue_files_migration.htmls.get_langs(key) or []
+        doc_files_migration.text_langs = (
+            [{"lang": classic_ws_doc.original_language}] +
+            text_langs
+        )
+        doc_files_migration.pdfs = issue_files_migration.pdfs.get_list(key)
+
+        # doc_files_migration.xmls = todo
+        # doc_files_migration.assets = todo
 
         doc_files_migration.save()
     except Exception as e:
@@ -492,6 +495,18 @@ def publish_document(pid):
     if doc_migration.status != MS_MIGRATED:
         raise DocumentPublicationForbiddenError(
             "DocumentMigration.status of %s is not MS_MIGRATED" %
+            pid
+        )
+
+    try:
+        doc_files_migration = DocumentFilesMigration.objects.get(pid=pid)
+    except DocumentFilesMigration.DoesNotExist as e:
+        raise PublishDocumentError(
+            "DocumentFilesMigration does not exists %s %s" % (pid, e))
+
+    if doc_files_migration.status != MS_MIGRATED:
+        raise DocumentPublicationForbiddenError(
+            "DocumentFilesMigration.status of %s is not MS_MIGRATED" %
             pid
         )
 
@@ -571,12 +586,12 @@ def publish_document(pid):
 
         # ARQUIVOS
         # doc_to_publish.add_xml(xml)
-        # for item in classic_ws_doc.htmls:
-        #     doc_to_publish.add_html(language, uri)
+        for item in doc_files_migration.htmls:
+            doc_to_publish.add_html(item["lang"], item.get("uri"))
         # for item in classic_ws_doc.mat_suppl_items:
         #     doc_to_publish.add_mat_suppl(lang, url, ref_id, filename)
-        # for item in classic_ws_doc.pdf:
-        #     doc_to_publish.add_pdf(lang, url, filename, type)
+        for item in doc_files_migration.pdfs:
+            doc_to_publish.add_pdf(**item)
 
         # RELATED
         # doc_to_publish.add_related_article(doi, ref_id, related_type)
@@ -594,3 +609,83 @@ def publish_document(pid):
         raise PublishDocumentError(
             "Unable to upate doc_migration status %s %s" % (pid, e)
         )
+
+############################################################################
+
+class PDFIssueFiles:
+    def __init__(self, items=None):
+        self.items = items
+
+    def add_item(self, key, lang, name, uri):
+        if not self.items:
+            self.items = {}
+            self.items.setdefault(key, {})
+        self.items[key][lang] = {
+            "name": name,
+            "uri": uri,
+        }
+
+    def get_item(self, key, lang):
+        return self.items[key][lang]
+
+    def get_list(self, key):
+        items = []
+        for lang, name_and_uri in self.items[key]:
+            items.append(
+                {"lang": lang, "url": name_and_uri['uri'],
+                 "filename": name_and_uri['name'], "type": "pdf"})
+        return items
+
+
+class XMLIssueFiles:
+    def __init__(self, items=None):
+        self.items = items
+
+    def add_item(self, key, name, uri):
+        if not self.items:
+            self.items = {}
+            self.items.setdefault(key, {})
+        self.items[key] = {
+            "name": name,
+            "uri": uri,
+        }
+
+    def get_item(self, key):
+        return self.items[key]
+
+
+class AssetIssueFiles:
+    def __init__(self, items=None):
+        self.items = items
+
+    def add_item(self, name, uri):
+        if not self.items:
+            self.items = {}
+        self.items[name] = uri
+
+    def get_item(self, name):
+        return self.items[name]
+
+
+class HTMLIssueFiles:
+    def __init__(self, items=None):
+        self.items = items
+
+    def add_item(self, key, lang, name, uri, part):
+        if not self.items:
+            self.items = {}
+            self.items.setdefault(key, {})
+        self.items[key][lang].setdefault(part, {})
+        self.items[key][lang][part] = {
+            "name": name,
+            "uri": uri,
+        }
+
+    def get_item(self, key, lang, part):
+        return self.items[key][lang][part]
+
+    def get_langs(self, key):
+        items = []
+        for k, v in self.items[key]:
+            items.append({"lang": k})
+        return items
