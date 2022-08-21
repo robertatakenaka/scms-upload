@@ -20,3 +20,7 @@ class MigratedDocumentSaveError(Exception):
 
 class DocumentMigrationTrackSaveError(Exception):
     ...
+
+
+class MigratedIssueFilesSaveError(Exception):
+	...
