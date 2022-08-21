@@ -34,9 +34,11 @@ def task_migrate_journal(self, pid, data):
 
 
 def migrate_issues(source_file_path, connection, files_storage_config):
+    files_storage_config["bucket_subdir"] = "public"
     controller.connect(connection)
     for pid, data in controller.get_classic_website_records("issue", source_file_path):
-        task_migrate_issue.delay(pid, data, files_storage_config)
+        task_migrate_issue.delay(pid, data)
+        task_migrate_issue_files.delay(pid, data, files_storage_config)
 
 
 def get_files_storage(files_storage_config):
@@ -53,7 +55,7 @@ def get_files_storage(files_storage_config):
 
 
 @celery_app.task(bind=True, max_retries=3)
-def task_migrate_issue(self, pid, data, files_storage_config):
+def task_migrate_issue(self, pid, data):
     try:
         controller.migrate_issue(pid, data)
     except (
@@ -63,19 +65,21 @@ def task_migrate_issue(self, pid, data, files_storage_config):
         logging.error(e)
 
     try:
-        files_storage_config["bucket_subdir"] = "public"
-        files_storage = get_files_storage(files_storage_config)
-        controller.migrate_issue_files(pid, files_storage)
-    except (
-            controller.IssueFilesMigrationSaveError,
-            controller.IssueFilesMigrationGetError,
-            ) as e:
-        logging.error(e)
-
-    try:
         controller.publish_issue(pid)
     except (
             controller.PublishIssueError,
+            ) as e:
+        logging.error(e)
+
+
+@celery_app.task(bind=True, max_retries=3)
+def task_migrate_issue_files(self, pid, data, files_storage_config):
+    try:
+        files_storage = get_files_storage(files_storage_config)
+        controller.migrate_issue_files(pid, data, files_storage)
+    except (
+            controller.IssueFilesMigrationSaveError,
+            controller.IssueFilesMigrationGetError,
             ) as e:
         logging.error(e)
 
