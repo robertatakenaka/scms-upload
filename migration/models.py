@@ -8,12 +8,14 @@ from core.models import CommonControlField
 from . import choices
 
 
-class JournalMigrationTracker(CommonControlField):
+class JournalMigration(CommonControlField):
 
     scielo_issn = models.CharField(
         _('SciELO ISSN'), max_length=9, null=False, blank=False)
     acron = models.CharField(
         _('Acronym'), max_length=20, null=False, blank=False)
+    title = models.CharField(
+        _('Title'), max_length=200, null=False, blank=False)
 
     # datas no registro da base isis para identificar
     # se houve mudança durante a migração
@@ -29,26 +31,10 @@ class JournalMigrationTracker(CommonControlField):
         default=choices.MS_TO_MIGRATE,
     )
 
-    journal = models.ForeignKey('MigratedJournal')
-
-    def __str__(self):
-        return f"{self.acron} {self.scielo_issn} {self.status}"
-
-
-class MigratedJournal(CommonControlField):
-
-    scielo_issn = models.CharField(
-        _('SciELO ISSN'), max_length=9, null=False, blank=False)
-    acron = models.CharField(
-        _('Acronym'), max_length=20, null=False, blank=False)
-    title = models.CharField(
-        _('Title'), max_length=200, null=False, blank=False)
-
-    # registro no formato json correspondente ao conteúdo da base isis
     record = models.JSONField(blank=False)
 
     def __str__(self):
-        return f"{self.acron} {self.scielo_issn} {self.title}"
+        return f"{self.acron} {self.scielo_issn} {self.status}"
 
 
 class IssueMigration(CommonControlField):
@@ -106,7 +92,7 @@ class IssueFilesMigration(CommonControlField):
         return f"{self.acron} {self.issue_folder} {self.status}"
 
 
-class DocumentMigrationTracker(CommonControlField):
+class DocumentMigration(CommonControlField):
 
     scielo_issn = models.CharField(
         _('SciELO ISSN'), max_length=9, null=False, blank=False)
@@ -132,18 +118,7 @@ class DocumentMigrationTracker(CommonControlField):
         default=choices.MS_TO_MIGRATE,
     )
 
-    migrated_doc = models.ForeignKey('MigratedDocument')
+    records = models.JSONField(blank=False)
 
     def __str__(self):
         return f"{self.acron} {self.pid} {self.status}"
-
-
-class MigratedDocument(CommonControlField):
-
-    pid = models.CharField(
-        _('Document PID'), max_length=23, null=False, blank=False)
-    # registro no formato json correspondente ao conteúdo da base isis
-    record = models.JSONField(blank=False)
-
-    def __str__(self):
-        return f"{self.pid}"

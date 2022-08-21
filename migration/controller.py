@@ -15,20 +15,18 @@ from libs.dsm.publication.exceptions import (
 )
 from libs.dsm.files_storage.minio import MinioStorage
 from .models import (
-    JournalMigrationTracker, MigratedJournal,
+    JournalMigration, MigratedJournal,
     IssueMigration, IssueFilesMigration,
-    DocumentMigrationTracker, MigratedDocument,
+    DocumentMigration, MigratedDocument,
 )
 from .choices import MS_MIGRATED, MS_PUBLISHED
 from .exceptions import (
-    JournalMigrationTrackSaveError,
+    JournalMigrationSaveError,
     MigratedJournalSaveError,
-    IssueMigrationTrackSaveError,
     MigratedIssueSaveError,
     IssueFilesMigrationGetError,
     IssueFilesMigrationSaveError,
-    DocumentMigrationTrackSaveError,
-    MigratedDocumentSaveError,
+    DocumentMigrationSaveError,
 )
 
 
@@ -50,52 +48,40 @@ def get_migrated_journal(**kwargs):
     return j
 
 
-def get_journal_migration_tracker(**kwargs):
+def get_journal_migration(**kwargs):
     try:
-        j = JournalMigrationTracker.objects.get(**kwargs)
-    except JournalMigrationTracker.DoesNotExist:
-        j = JournalMigrationTracker()
+        j = JournalMigration.objects.get(**kwargs)
+    except JournalMigration.DoesNotExist:
+        j = JournalMigration()
     return j
 
 
 def migrate_journal(journal_id, data, force_update=False):
     """
-    Create/update MigratedJournal e JournalMigrationTracker
+    Create/update MigratedJournal e JournalMigration
 
     """
-    journal_migration = get_journal_migration_tracker(scielo_issn=journal_id)
+    journal_migration = get_journal_migration(scielo_issn=journal_id)
     classic_ws_j = classic_ws.Journal(data)
 
-    if not force_update:
-        # check if it needs to be update
-        if journal_migration.isis_updated_date == classic_ws_j.isis_updated_date:
+    # check if it needs to be update
+    if journal_migration.isis_updated_date == classic_ws_j.isis_updated_date:
+        if not force_update:
             # nao precisa atualizar
             return
 
     try:
-        migrated = get_migrated_journal(scielo_issn=journal_id)
-        migrated.scielo_issn = journal_id
-        migrated.acron = classic_ws_j.acron
-        migrated.title = classic_ws_j.title
-        migrated.record = data
-        migrated.save()
-    except Exception as e:
-        raise MigratedJournalSaveError(
-            "Unable to save migrated journal %s %s" %
-            (journal_id, e)
-        )
-
-    try:
+        journal_migration.title = classic_ws_j.title
         journal_migration.acron = classic_ws_j.acron
         journal_migration.isis_created_date = classic_ws_j.isis_created_date
         journal_migration.isis_updated_date = classic_ws_j.isis_updated_date
         journal_migration.status = MS_MIGRATED
-        journal_migration.journal = migrated
+        journal_migration.record = data
 
         journal_migration.save()
     except Exception as e:
-        raise JournalMigrationTrackSaveError(
-            "Unable to save journal migration track %s %s" %
+        raise JournalMigrationSaveError(
+            "Unable to save journal migration %s %s" %
             (journal_id, e)
         )
 
@@ -107,15 +93,15 @@ def publish_journal(journal_id):
     PublishJournalError
     """
     try:
-        journal_migration = JournalMigrationTracker.objects.get(
+        journal_migration = JournalMigration.objects.get(
             scielo_issn=journal_id)
-    except JournalMigrationTracker.DoesNotExist as e:
+    except JournalMigration.DoesNotExist as e:
         raise PublishJournalError(
-            "JournalMigrationTracker does not exists %s %s" % (journal_id, e))
+            "JournalMigration does not exists %s %s" % (journal_id, e))
 
     if journal_migration.status != MS_MIGRATED:
         raise JournalPublicationForbiddenError(
-            "JournalMigrationTracker.status of %s is not MS_MIGRATED" %
+            "JournalMigration.status of %s is not MS_MIGRATED" %
             journal_id
         )
 
@@ -241,7 +227,7 @@ def migrate_issue(issue_pid, data, force_update=False):
         issue_migration.save()
     except Exception as e:
         raise MigratedIssueSaveError(
-            "Unable to save issue migration track %s %s" %
+            "Unable to save issue migration %s %s" %
             (issue_pid, e)
         )
 
@@ -366,28 +352,20 @@ def migrate_issue_files(issue_pid, record, files_storage, force_update=False):
 
 
 ###############################################################################
-def get_migrated_doc(**kwargs):
+def get_doc_migration(**kwargs):
     try:
-        j = MigratedDocument.objects.get(**kwargs)
-    except MigratedDocument.DoesNotExist:
-        j = MigratedDocument()
-    return j
-
-
-def get_doc_migration_tracker(**kwargs):
-    try:
-        j = DocumentMigrationTracker.objects.get(**kwargs)
-    except DocumentMigrationTracker.DoesNotExist:
-        j = DocumentMigrationTracker()
+        j = DocumentMigration.objects.get(**kwargs)
+    except DocumentMigration.DoesNotExist:
+        j = DocumentMigration()
     return j
 
 
 def migrate_document(pid, data, force_update=False):
     """
-    Create/update MigratedDocument e DocumentMigrationTracker
+    Create/update MigratedDocument e DocumentMigration
 
     """
-    doc_migration = get_doc_migration_tracker(pid=pid)
+    doc_migration = get_doc_migration(pid=pid)
     classic_ws_doc = classic_ws.Document(data)
 
     if not force_update:
@@ -396,17 +374,6 @@ def migrate_document(pid, data, force_update=False):
             # nao precisa atualizar
             return
     try:
-        migrated = get_migrated_doc(pid=pid)
-        migrated.pid = pid
-        migrated.record = data
-        migrated.save()
-    except Exception as e:
-        raise MigratedDocumentSaveError(
-            "Unable to save migrated document %s %s" %
-            (pid, e)
-        )
-
-    try:
         doc_migration.pid = classic_ws_doc.pid
         doc_migration.acron = classic_ws_doc.acron
         doc_migration.scielo_issn = classic_ws_doc.scielo_issn
@@ -414,12 +381,12 @@ def migrate_document(pid, data, force_update=False):
         doc_migration.isis_created_date = classic_ws_doc.isis_created_date
         doc_migration.isis_updated_date = classic_ws_doc.isis_updated_date
         doc_migration.status = MS_MIGRATED
-        doc_migration.migrated_doc = migrated
+        doc_migration.records = data
 
         doc_migration.save()
     except Exception as e:
-        raise DocumentMigrationTrackSaveError(
-            "Unable to save document migration track %s %s" %
+        raise DocumentMigrationSaveError(
+            "Unable to save document migration %s %s" %
             (pid, e)
         )
 
@@ -431,14 +398,14 @@ def publish_document(pid):
     PublishDocumentError
     """
     try:
-        doc_migration = DocumentMigrationTracker.objects.get(pid=pid)
-    except DocumentMigrationTracker.DoesNotExist as e:
+        doc_migration = DocumentMigration.objects.get(pid=pid)
+    except DocumentMigration.DoesNotExist as e:
         raise PublishDocumentError(
-            "DocumentMigrationTracker does not exists %s %s" % (pid, e))
+            "DocumentMigration does not exists %s %s" % (pid, e))
 
     if doc_migration.status != MS_MIGRATED:
         raise DocumentPublicationForbiddenError(
-            "DocumentMigrationTracker.status of %s is not MS_MIGRATED" %
+            "DocumentMigration.status of %s is not MS_MIGRATED" %
             pid
         )
 

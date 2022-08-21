@@ -1,26 +1,26 @@
-class MigratedJournalSaveError(Exception):
+class JournalMigrationSaveError(Exception):
     ...
 
 
-class JournalMigrationTrackSaveError(Exception):
+class IssueMigrationSaveError(Exception):
     ...
 
 
-class MigratedIssueSaveError(Exception):
+class IssueFilesMigrationGetError(Exception):
     ...
 
 
-class IssueMigrationTrackSaveError(Exception):
+class IssueFilesMigrationSaveError(Exception):
     ...
 
 
-class MigratedDocumentSaveError(Exception):
+class DocumentMigrationSaveError(Exception):
     ...
 
 
-class DocumentMigrationTrackSaveError(Exception):
+class DocumentFilesMigrationSaveError(Exception):
     ...
 
 
-class MigratedIssueFilesSaveError(Exception):
-	...
+class DocumentFilesMigrationGetError(Exception):
+    ...
