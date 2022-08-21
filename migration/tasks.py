@@ -33,14 +33,27 @@ def task_migrate_journal(self, pid, data):
         logging.error(e)
 
 
-def migrate_issues(source_file_path, connection):
+def migrate_issues(source_file_path, connection, files_storage_config):
     controller.connect(connection)
     for pid, data in controller.get_classic_website_records("issue", source_file_path):
-        task_migrate_issue.delay(pid, data)
+        task_migrate_issue.delay(pid, data, files_storage_config)
+
+
+def get_files_storage(files_storage_config):
+
+    return controller.MinioStorage(
+        minio_host=files_storage_config["host"],
+        minio_access_key=files_storage_config["access_key"],
+        minio_secret_key=files_storage_config["secret_key"],
+        bucket_root=files_storage_config["bucket_root"],
+        bucket_subdir=files_storage_config["bucket_subdir"],
+        minio_secure=True,
+        minio_http_client=None,
+    )
 
 
 @celery_app.task(bind=True, max_retries=3)
-def task_migrate_issue(self, pid, data):
+def task_migrate_issue(self, pid, data, files_storage_config):
     try:
         controller.migrate_issue(pid, data)
     except (
@@ -48,6 +61,17 @@ def task_migrate_issue(self, pid, data):
             controller.IssueMigrationTrackSaveError,
             ) as e:
         logging.error(e)
+
+    try:
+        files_storage_config["bucket_subdir"] = "public"
+        files_storage = get_files_storage(files_storage_config)
+        controller.migrate_issue_files(pid, files_storage)
+    except (
+            controller.IssueFilesMigrationSaveError,
+            controller.IssueFilesMigrationGetError,
+            ) as e:
+        logging.error(e)
+
     try:
         controller.publish_issue(pid)
     except (
