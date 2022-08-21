@@ -313,7 +313,7 @@ def get_issue_files_migration(**kwargs):
     return j
 
 
-def migrate_issue_files(issue_pid, files_storage, force_update=False):
+def migrate_issue_files(issue_pid, record, files_storage, force_update=False):
     """
     Create/update MigratedIssue e IssueMigration
 
@@ -322,17 +322,11 @@ def migrate_issue_files(issue_pid, files_storage, force_update=False):
     if issue_files_migration.status == MS_PUBLISHED and not force_update:
         return
 
-    issue_migration = get_issue_migration(issue_pid=issue_pid)
-    if not issue_migration.record:
-        raise IssueFilesMigrationGetError(
-            "Unable to get issue migration data %s" %
-            issue_pid
-        )
-
     try:
-        classic_ws_i = classic_ws.Issue(issue_migration.record)
-        classic_website_files = classic_ws.get_issue_files(
-            classic_ws_i.acron, classic_ws_i.issue_label)
+        classic_ws_i = classic_ws.Issue(record)
+        acron = classic_ws_i.acron
+        issue_folder = classic_ws_i.issue_label
+        classic_website_files = classic_ws.get_issue_files(acron, issue_folder)
     except Exception as e:
         raise IssueFilesMigrationGetError(
             "Unable to get issue files %s %s" %
@@ -343,7 +337,7 @@ def migrate_issue_files(issue_pid, files_storage, force_update=False):
         paths = {}
         for file_path in classic_website_files['paths']:
             subdirs = os.path.join(
-                "public", classic_ws_i.acron, classic_ws_i.issue_label,
+                "public", acron, issue_folder,
             )
             paths[os.path.basename(file_path)] = files_storage.register(
                 file_path, subdirs=subdirs, preserve_name=True)
@@ -359,9 +353,9 @@ def migrate_issue_files(issue_pid, files_storage, force_update=False):
         issue_files_migration.info = classic_website_files["info"]
 
         issue_files_migration.issue_pid = classic_ws_i.issue_pid
-        issue_files_migration.acron = classic_ws_i.acron
-        issue_files_migration.issue_folder = classic_ws_i.issue_label
-        issue_files_migration.status = MS_PUBLISHED
+        issue_files_migration.acron = acron
+        issue_files_migration.issue_folder = issue_folder
+        issue_files_migration.status = MS_MIGRATED
 
         issue_files_migration.save()
     except Exception as e:
