@@ -113,7 +113,7 @@ class MinioStorage:
             self.bucket_root, json.dumps(self.POLICY_READ_ONLY)
         )
 
-    def _generator_object_name(self, file_path, subdirs, preserve_name):
+    def build_object_name(self, file_path, subdirs, preserve_name):
         """
         2 niveis de Pastas onde :
             * o primeiro representando o periódico por meio do ISSN+Acrônimo
@@ -133,7 +133,7 @@ class MinioStorage:
         return url.split("?")[0]
 
     def register(self, file_path, subdirs="", original_uri=None, preserve_name=False) -> str:
-        object_name = self._generator_object_name(file_path, subdirs, preserve_name)
+        object_name = self.build_object_name(file_path, subdirs, preserve_name)
         metadata = {"origin_name": os.path.basename(file_path)}
         if original_uri is not None:
             metadata.update({"origin_uri": original_uri})
@@ -155,13 +155,37 @@ class MinioStorage:
                 self._create_bucket()
                 return self.register(file_path, subdirs)
 
+        metadata.update(
+            {"object_name": object_name, "uri": self.get_urls(object_name)}
+        )
+        return metadata
+
+    def fput(self, file_path, object_name) -> str:
+        metadata = {"origin_name": os.path.basename(file_path)}
+        logger.debug(
+            "Registering %s in %s with metadata %s", file_path, object_name, metadata
+        )
+        try:
+            self._client.fput_object(
+                self.bucket_root,
+                object_name=object_name,
+                file_path=file_path,
+                content_type=get_mimetype(file_path),
+            )
+
+        except S3Error as err:
+            logger.error(err)
+            if err.code == "NoSuchBucket":
+                self._create_bucket()
+                return self.fput(file_path, object_name)
+
         return self.get_urls(object_name)
 
     def remove(self, object_name: str) -> None:
         # Remove an object.
         self._client.remove_object(self.bucket_root, object_name)
 
-    def get_file(self, object_name, downloaded_file_path=None):
+    def fget(self, object_name, downloaded_file_path=None):
         """
         https://docs.min.io/docs/python-client-api-reference.html#fget_object
         """
@@ -192,7 +216,7 @@ class MinioStorage:
         if not downloaded_folder_path:
             downloaded_folder_path = tempfile.TemporaryDirectory()
 
-        zip_path = self.get_file(object_name)
+        zip_path = self.fget(object_name)
 
         files = {}
         with ZipFile(zip_path) as zf:
