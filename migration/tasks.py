@@ -34,7 +34,6 @@ def task_migrate_journal(self, pid, data):
 
 
 def migrate_issues(source_file_path, connection, files_storage_config):
-    files_storage_config["bucket_subdir"] = "public"
     controller.connect(connection)
     for pid, data in controller.get_classic_website_records("issue", source_file_path):
         task_migrate_issue.delay(pid, data)
@@ -48,7 +47,6 @@ def get_files_storage(files_storage_config):
         minio_access_key=files_storage_config["access_key"],
         minio_secret_key=files_storage_config["secret_key"],
         bucket_root=files_storage_config["bucket_root"],
-        bucket_subdir=files_storage_config["bucket_subdir"],
         minio_secure=True,
         minio_http_client=None,
     )
@@ -76,7 +74,8 @@ def task_migrate_issue(self, pid, data):
 def task_migrate_issue_files(self, pid, data, files_storage_config):
     try:
         files_storage = get_files_storage(files_storage_config)
-        controller.migrate_issue_files(pid, data, files_storage)
+
+        controller.migrate_issue_files(pid, data, files_storage, files_storage_config)
     except (
             controller.IssueFilesMigrationSaveError,
             controller.IssueFilesMigrationGetError,
