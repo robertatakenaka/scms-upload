@@ -145,7 +145,7 @@ class DocumentFilesMigration(CommonControlField):
     )
 
     htmls = models.JSONField(null=True, blank=True)
-    xmls = models.JSONField(null=True, blank=True)
+    xml = models.JSONField(null=True, blank=True)
     pdfs = models.JSONField(null=True, blank=True)
     assets = models.JSONField(null=True, blank=True)
 

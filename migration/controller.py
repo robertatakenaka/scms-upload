@@ -1,6 +1,8 @@
 import os
 
 from packtools.sps.models.article_assets import ArticleAssets
+
+from libs.xml_utils import read_xml_file, tostring
 from libs.dsm.classic_ws import classic_ws
 from libs.dsm.publication.journals import JournalToPublish
 from libs.dsm.publication.issues import IssueToPublish, get_bundle_id
@@ -13,7 +15,6 @@ from libs.dsm.publication.exceptions import (
     JournalPublicationForbiddenError,
     IssuePublicationForbiddenError,
     DocumentPublicationForbiddenError,
-    DocumentFilesMigrationGetError,
 )
 from .models import (
     JournalMigration,
@@ -281,9 +282,9 @@ def get_issue_files_migration(**kwargs):
     return j
 
 
-def migrate_issue_files(issue_pid, record, files_storage, force_update=False):
+def migrate_issue_files(issue_pid, record, files_storage, SUBDIRS, force_update=False):
     """
-    Create/update MigratedIssue e IssueMigration
+    Create/update IssueFilesMigration
 
     """
     issue_files_migration = get_issue_files_migration(issue_pid=issue_pid)
@@ -309,11 +310,17 @@ def migrate_issue_files(issue_pid, record, files_storage, force_update=False):
             asset=AssetIssueFiles(),
         )
         for info in classic_website_files:
+            name, ext = os.path.splitext(info['path'])
+            if ext in (".xml", ".html"):
+                subdir = SUBDIRS["migration"]
+            else:
+                subdir = SUBDIRS["publication"]
             subdirs = os.path.join(
-                "public", acron, issue_folder,
+                subdir, acron, issue_folder,
             )
-            info['uri'] = files_storage.register(
+            response = files_storage.register(
                 info['path'], subdirs=subdirs, preserve_name=True)
+            info.update(response)
             _set_info(groups, **info)
 
     except Exception as e:
@@ -341,7 +348,7 @@ def migrate_issue_files(issue_pid, record, files_storage, force_update=False):
         )
 
 
-def _set_info(groups, type_, uri, name, key=None, lang=None, part=None):
+def _set_info(groups, type_, uri, name, key=None, lang=None, part=None, object_name=None):
     kwargs = {}
     if key:
         kwargs['key'] = key
@@ -353,6 +360,8 @@ def _set_info(groups, type_, uri, name, key=None, lang=None, part=None):
         kwargs['uri'] = uri
     if name:
         kwargs['name'] = name
+    if object_name:
+        kwargs['object_name'] = object_name
     groups[type_].add_item(**kwargs)
 
 
@@ -365,7 +374,7 @@ def get_doc_files_migration(**kwargs):
     return j
 
 
-def migrate_document_files(pid, data, force_update=False):
+def migrate_document_files(pid, data, files_storage, subdir, force_update=False):
     """
     Create/update DocumentMigration
 
@@ -385,35 +394,43 @@ def migrate_document_files(pid, data, force_update=False):
             issue_folder=classic_ws_doc.issue_label,
         )
         if issue_files_migration.status != MS_MIGRATED:
-            raise DocumentFilesMigrationGetError(
+            raise IssueFilesMigrationGetError(
                 "Unable to get issue files migration %s %s" %
                 (classic_ws_doc.acron, classic_ws_doc.issue_label)
             )
     except Exception as e:
-        raise DocumentFilesMigrationGetError(
+        raise IssueFilesMigrationGetError(
             "Unable to get issue files migration %s %s" %
             (classic_ws_doc.acron, classic_ws_doc.issue_label)
         )
 
     try:
-        doc_files_migration.pid = classic_ws_doc.pid
+        doc_files_migration.pid = pid
         doc_files_migration.acron = classic_ws_doc.acron
         doc_files_migration.issue_folder = classic_ws_doc.issue_label
         doc_files_migration.status = MS_MIGRATED
         doc_files_migration.filename_without_extension = classic_ws_doc.filename_without_extension
 
         key = classic_ws_doc.filename_without_extension
-        text_langs = issue_files_migration.htmls.get_langs(key) or []
+
+        issue_htmls = HTMLIssueFiles(issue_files_migration.htmls)
+        issue_xmls = XMLIssueFiles(issue_files_migration.xmls)
+        issue_pdfs = PDFIssueFiles(issue_files_migration.pdfs)
+        issue_assets = AssetIssueFiles(issue_files_migration.assets)
+
         doc_files_migration.text_langs = (
             [{"lang": classic_ws_doc.original_language}] +
-            text_langs
+            issue_htmls.get_langs(key)
         )
-        doc_files_migration.pdfs = issue_files_migration.pdfs.get_list(key)
+        doc_files_migration.pdfs = issue_pdfs.get_list(key)
 
-        # doc_files_migration.xmls = todo
-        # doc_files_migration.assets = todo
-        # >>> from lxml import etree
-        # >>> fp = etree.parse(io.BytesIO())
+        add_xml_and_assets(
+            doc_files_migration,
+            issue_xmls.get_item(key),
+            issue_assets,
+            files_storage,
+            subdir,
+        )
 
         doc_files_migration.save()
     except Exception as e:
@@ -421,6 +438,52 @@ def migrate_document_files(pid, data, force_update=False):
             "Unable to save document migration %s %s" %
             (pid, e)
         )
+
+
+def add_xml_and_assets(
+            doc_files_migration,
+            stored_original_xml,
+            issue_assets,
+            files_storage,
+            subdir,
+        ):
+    # obtém o xml original migrado armazenado no files_storage
+    local_path = files_storage.fget(stored_original_xml['object_name'])
+    article_assets = ArticleAssets(read_xml_file(local_path))
+
+    # obtém as uri dos ativos digitais para cada ativo digital mencionado no XML
+    _article_assets = {}
+    from_to = {}
+    for asset_in_xml in article_assets.article_assets:
+        # set with {"uri": "", "object_name": ""}
+        name = asset_in_xml.name
+        _article_assets[name] = issue_assets.get_item(name)
+        from_to[name] = _article_assets[name]['uri']
+
+    # atualiza o XML trocando name por uri
+    article_assets.replace_names(from_to)
+
+    # build XML object name
+    subdirs = os.path.join(
+        subdir, doc_files_migration.acron, doc_files_migration.issue_folder,
+    )
+    object_name = files_storage.build_object_name(
+        stored_original_xml['name'], subdirs, preserve_name=True)
+
+    # store xml with assests names replaced by assests uri
+    uri = files_storage.fput_content(
+        tostring(article_assets.xmltree),
+        object_name,
+        'application/xml'
+    )
+    doc_files_migration.xml = {
+        "name": stored_original_xml['name'],
+        "uri": uri,
+        "object_name": object_name,
+    }
+
+    # atualiza a lista de ativos digitais do documento
+    doc_files_migration.assets = _article_assets
 
 
 ###############################################################################
@@ -595,17 +658,19 @@ def publish_document(pid):
 
 ############################################################################
 
+
 class PDFIssueFiles:
     def __init__(self, items=None):
         self.items = items
 
-    def add_item(self, key, lang, name, uri):
+    def add_item(self, key, lang, name, uri, object_name):
         if not self.items:
             self.items = {}
             self.items.setdefault(key, {})
         self.items[key][lang] = {
             "name": name,
             "uri": uri,
+            "object_name": object_name,
         }
 
     def get_item(self, key, lang):
@@ -624,13 +689,14 @@ class XMLIssueFiles:
     def __init__(self, items=None):
         self.items = items
 
-    def add_item(self, key, name, uri):
+    def add_item(self, key, name, uri, object_name):
         if not self.items:
             self.items = {}
             self.items.setdefault(key, {})
         self.items[key] = {
             "name": name,
             "uri": uri,
+            "object_name": object_name,
         }
 
     def get_item(self, key):
@@ -641,20 +707,26 @@ class AssetIssueFiles:
     def __init__(self, items=None):
         self.items = items
 
-    def add_item(self, name, uri):
+    def add_item(self, name, uri, object_name):
         if not self.items:
             self.items = {}
-        self.items[name] = uri
+        self.items[name] = {"uri": uri, "object_name": object_name}
 
     def get_item(self, name):
         return self.items[name]
+
+    def get_items(self, names):
+        for name in names:
+            d = {"name": name}
+            d.update(self.get_item(name))
+            yield d
 
 
 class HTMLIssueFiles:
     def __init__(self, items=None):
         self.items = items
 
-    def add_item(self, key, lang, name, uri, part):
+    def add_item(self, key, lang, name, uri, part, object_name):
         if not self.items:
             self.items = {}
             self.items.setdefault(key, {})
@@ -662,6 +734,7 @@ class HTMLIssueFiles:
         self.items[key][lang][part] = {
             "name": name,
             "uri": uri,
+            "object_name": object_name,
         }
 
     def get_item(self, key, lang, part):
