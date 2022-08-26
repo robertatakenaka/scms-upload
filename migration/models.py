@@ -85,10 +85,10 @@ class IssueFilesMigration(CommonControlField):
         default=choices.MS_TO_MIGRATE,
     )
 
-    xmls = models.JSONField(blank=False)
-    htmls = models.JSONField(blank=False)
-    pdfs = models.JSONField(blank=False)
-    assets = models.JSONField(blank=False)
+    htmls = models.JSONField(null=True, blank=True)
+    xmls = models.JSONField(null=True, blank=True)
+    pdfs = models.JSONField(null=True, blank=True)
+    assets = models.JSONField(null=True, blank=True)
 
     def __str__(self):
         return f"{self.acron} {self.issue_folder} {self.status}"
@@ -101,7 +101,7 @@ class DocumentMigration(CommonControlField):
     acron = models.CharField(
         _('Acronym'), max_length=20, null=False, blank=False)
     pid = models.CharField(
-        _('Document PID'), max_length=9, null=False, blank=False)
+        _('Document PID'), max_length=23, null=False, blank=False)
     year = models.CharField(
         _('Publication Year'), max_length=4, null=False, blank=False
     )
@@ -123,13 +123,13 @@ class DocumentMigration(CommonControlField):
     records = models.JSONField(blank=False)
 
     def __str__(self):
-        return f"{self.acron} {self.pid} {self.status}"
+        return f"{self.acron} {self.issue_folder} {self.pid} {self.status}"
 
 
 class DocumentFilesMigration(CommonControlField):
 
     pid = models.CharField(
-        _('Document PID'), max_length=9, null=False, blank=False)
+        _('Document PID'), max_length=23, null=False, blank=False)
     acron = models.CharField(
         _('Acronym'), max_length=20, null=False, blank=False)
     issue_folder = models.CharField(
@@ -144,10 +144,10 @@ class DocumentFilesMigration(CommonControlField):
         default=choices.MS_TO_MIGRATE,
     )
 
-    htmls = models.JSONField(blank=False)
-    xmls = models.JSONField(blank=False)
-    pdfs = models.JSONField(blank=False)
-    assets = models.JSONField(blank=False)
+    htmls = models.JSONField(null=True, blank=True)
+    xmls = models.JSONField(null=True, blank=True)
+    pdfs = models.JSONField(null=True, blank=True)
+    assets = models.JSONField(null=True, blank=True)
 
     def __str__(self):
-        return f"{self.acron} {self.pid} {self.status}"
+        return f"{self.acron} {self.issue_folder} {self.pid} {self.status}"

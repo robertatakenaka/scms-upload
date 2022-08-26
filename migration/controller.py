@@ -1,5 +1,6 @@
 import os
 
+from packtools.sps.models.article_assets import ArticleAssets
 from libs.dsm.classic_ws import classic_ws
 from libs.dsm.publication.journals import JournalToPublish
 from libs.dsm.publication.issues import IssueToPublish, get_bundle_id
@@ -39,14 +40,6 @@ def connect(connection):
 
 def get_classic_website_records(db_type, source_file_path):
     return classic_ws.get_records_by_source_path(db_type, source_file_path)
-
-
-def get_migrated_journal(**kwargs):
-    try:
-        j = MigratedJournal.objects.get(**kwargs)
-    except MigratedJournal.DoesNotExist:
-        j = MigratedJournal()
-    return j
 
 
 def get_journal_migration(**kwargs):
@@ -93,13 +86,7 @@ def publish_journal(journal_id):
     ------
     PublishJournalError
     """
-    try:
-        journal_migration = JournalMigration.objects.get(
-            scielo_issn=journal_id)
-    except JournalMigration.DoesNotExist as e:
-        raise PublishJournalError(
-            "JournalMigration does not exists %s %s" % (journal_id, e))
-
+    journal_migration = get_journal_migration(scielo_issn=journal_id)
     if journal_migration.status != MS_MIGRATED:
         raise JournalPublicationForbiddenError(
             "JournalMigration.status of %s is not MS_MIGRATED" %
@@ -141,12 +128,12 @@ def publish_journal(journal_id):
 
         previous_journal = next_journal_title = None
         if classic_ws_j.previous_title:
-            previous_journal = get_migrated_journal(
+            previous_journal = get_journal_migration(
                 title=classic_ws_j.previous_title)
             if not previous_journal.scielo_issn:
                 previous_journal = None
         if classic_ws_j.next_title:
-            next_journal = get_migrated_journal(title=classic_ws_j.next_title)
+            next_journal = get_journal_migration(title=classic_ws_j.next_title)
             if next_journal.scielo_issn:
                 next_journal_title = classic_ws_j.next_title
         if previous_journal or next_journal_title:
@@ -209,9 +196,9 @@ def migrate_issue(issue_pid, data, force_update=False):
     issue_migration = get_issue_migration(issue_pid=issue_pid)
     classic_ws_i = classic_ws.Issue(data)
 
-    if not force_update:
-        # check if it needs to be update
-        if issue_migration.isis_updated_date == classic_ws_i.isis_updated_date:
+    # check if it needs to be update
+    if issue_migration.isis_updated_date == classic_ws_i.isis_updated_date:
+        if not force_update:
             # nao precisa atualizar
             return
 
@@ -239,13 +226,7 @@ def publish_issue(issue_pid):
     ------
     PublishIssueError
     """
-    try:
-        issue_migration = IssueMigration.objects.get(
-            pid=issue_pid)
-    except IssueMigration.DoesNotExist as e:
-        raise PublishIssueError(
-            "IssueMigration does not exists %s %s" % (issue_pid, e))
-
+    issue_migration = get_issue_migration(pid=issue_pid)
     if issue_migration.status != MS_MIGRATED:
         raise IssuePublicationForbiddenError(
             "IssueMigration.status of %s is not MS_MIGRATED" %
@@ -431,6 +412,8 @@ def migrate_document_files(pid, data, force_update=False):
 
         # doc_files_migration.xmls = todo
         # doc_files_migration.assets = todo
+        # >>> from lxml import etree
+        # >>> fp = etree.parse(io.BytesIO())
 
         doc_files_migration.save()
     except Exception as e:
