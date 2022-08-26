@@ -181,6 +181,12 @@ class MinioStorage:
 
         return self.get_urls(object_name)
 
+    def fput_content(self, content, object_name) -> str:
+        tf = tempfile.NamedTemporaryFile(delete=False)
+        with open(tf.name, "w") as fp:
+            fp.write(content)
+        return self.fput(tf.name, object_name)
+
     def remove(self, object_name: str) -> None:
         # Remove an object.
         self._client.remove_object(self.bucket_root, object_name)
