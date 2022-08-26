@@ -141,26 +141,14 @@ class MinioStorage:
         logger.debug(
             "Registering %s in %s with metadata %s", file_path, object_name, metadata
         )
-        try:
-            self._client.fput_object(
-                self.bucket_root,
-                object_name=object_name,
-                file_path=file_path,
-                content_type=get_mimetype(file_path),
-            )
-
-        except S3Error as err:
-            logger.error(err)
-            if err.code == "NoSuchBucket":
-                self._create_bucket()
-                return self.register(file_path, subdirs)
+        uri = self.fput(file_path, object_name)
 
         metadata.update(
-            {"object_name": object_name, "uri": self.get_urls(object_name)}
+            {"object_name": object_name, "uri": uri}
         )
         return metadata
 
-    def fput(self, file_path, object_name) -> str:
+    def fput(self, file_path, object_name, mimetype=None) -> str:
         metadata = {"origin_name": os.path.basename(file_path)}
         logger.debug(
             "Registering %s in %s with metadata %s", file_path, object_name, metadata
@@ -170,22 +158,22 @@ class MinioStorage:
                 self.bucket_root,
                 object_name=object_name,
                 file_path=file_path,
-                content_type=get_mimetype(file_path),
+                content_type=mimetype or get_mimetype(file_path),
             )
 
         except S3Error as err:
             logger.error(err)
             if err.code == "NoSuchBucket":
                 self._create_bucket()
-                return self.fput(file_path, object_name)
+                return self.fput(file_path, object_name, mimetype)
 
         return self.get_urls(object_name)
 
-    def fput_content(self, content, object_name) -> str:
+    def fput_content(self, content, mimetype, object_name) -> str:
         tf = tempfile.NamedTemporaryFile(delete=False)
         with open(tf.name, "w") as fp:
             fp.write(content)
-        return self.fput(tf.name, object_name)
+        return self.fput(tf.name, object_name, mimetype)
 
     def remove(self, object_name: str) -> None:
         # Remove an object.
