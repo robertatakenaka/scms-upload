@@ -148,6 +148,20 @@ class DocumentFilesMigration(CommonControlField):
     xml = models.JSONField(null=True, blank=True)
     pdfs = models.JSONField(null=True, blank=True)
     assets = models.JSONField(null=True, blank=True)
+    suppl_mats = models.JSONField(null=True, blank=True)
 
     def __str__(self):
         return f"{self.acron} {self.issue_folder} {self.pid} {self.status}"
+
+
+class MigrationFailure(CommonControlField):
+    pid = models.CharField(
+        _('Document PID'), max_length=23, null=False, blank=False)
+    exception_type = modelsCharField(
+        _('Exception Type'), null=True, blank=True)
+    exception_msg = modelsCharField(
+        _('Exception Type'), null=True, blank=True)
+    action_name = modelsCharField(
+        _('Action'), null=True, blank=True)
+    object_name = modelsCharField(
+        _('Object'), null=True, blank=True)

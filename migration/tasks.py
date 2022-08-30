@@ -18,19 +18,7 @@ def migrate_journals(source_file_path, connection):
 
 @celery_app.task(bind=True, max_retries=3)
 def task_migrate_journal(self, pid, data):
-    try:
-        controller.migrate_journal(pid, data)
-    except (
-            controller.MigratedJournalSaveError,
-            controller.JournalMigrationTrackSaveError,
-            ) as e:
-        logging.error(e)
-    try:
-        controller.publish_journal(pid)
-    except (
-            controller.PublishJournalError,
-            ) as e:
-        logging.error(e)
+    controller.migrate_and_publish_journal(pid, data)
 
 
 def migrate_issues(source_file_path, connection, files_storage_config):
@@ -40,82 +28,22 @@ def migrate_issues(source_file_path, connection, files_storage_config):
         task_migrate_issue_files.delay(pid, data, files_storage_config)
 
 
-def get_files_storage(files_storage_config):
-
-    return controller.MinioStorage(
-        minio_host=files_storage_config["host"],
-        minio_access_key=files_storage_config["access_key"],
-        minio_secret_key=files_storage_config["secret_key"],
-        bucket_root=files_storage_config["bucket_root"],
-        minio_secure=True,
-        minio_http_client=None,
-    )
-
-
 @celery_app.task(bind=True, max_retries=3)
 def task_migrate_issue(self, pid, data):
-    try:
-        controller.migrate_issue(pid, data)
-    except (
-            controller.MigratedIssueSaveError,
-            controller.IssueMigrationTrackSaveError,
-            ) as e:
-        logging.error(e)
-
-    try:
-        controller.publish_issue(pid)
-    except (
-            controller.PublishIssueError,
-            ) as e:
-        logging.error(e)
+    controller.migrate_and_publish_issue(pid, data)
 
 
 @celery_app.task(bind=True, max_retries=3)
 def task_migrate_issue_files(self, pid, data, files_storage_config):
-    try:
-        files_storage = get_files_storage(files_storage_config)
-
-        controller.migrate_issue_files(pid, data, files_storage, files_storage_config)
-    except (
-            controller.IssueFilesMigrationSaveError,
-            controller.IssueFilesMigrationGetError,
-            ) as e:
-        logging.error(e)
+    controller.migrate_issue_files(pid, data, files_storage_config)
 
 
 def migrate_documents(source_file_path, connection, files_storage_config):
     controller.connect(connection)
     for pid, data in controller.get_classic_website_records("artigo", source_file_path):
-        task_migrate_document.delay(pid, data)
-        task_migrate_document_files.delay(pid, data, files_storage_config)
+        task_migrate_document.delay(pid, data, files_storage_config)
 
 
 @celery_app.task(bind=True, max_retries=3)
-def task_migrate_document(self, pid, data):
-    try:
-        controller.migrate_document(pid, data)
-    except (
-            controller.MigratedDocumentSaveError,
-            controller.DocumentMigrationTrackSaveError,
-            ) as e:
-        logging.error(e)
-    try:
-        controller.publish_document(pid)
-    except (
-            controller.PublishDocumentError,
-            ) as e:
-        logging.error(e)
-
-
-@celery_app.task(bind=True, max_retries=3)
-def task_migrate_document_files(self, pid, data, files_storage_config):
-    try:
-        files_storage = get_files_storage(files_storage_config)
-
-        controller.migrate_document_files(
-            pid, data, files_storage, files_storage_config['publication'])
-    except (
-            controller.DocumentFilesMigrationSaveError,
-            controller.DocumentFilesMigrationGetError,
-            ) as e:
-        logging.error(e)
+def task_migrate_document(self, pid, data, files_storage_config):
+    controller.migrate_and_publish_document(pid, data, files_storage_config)

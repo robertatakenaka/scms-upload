@@ -24,3 +24,8 @@ class DocumentFilesMigrationSaveError(Exception):
 
 class DocumentFilesMigrationGetError(Exception):
     ...
+
+
+class GetFilesStorageError(Exception):
+    ...
+
