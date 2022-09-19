@@ -22,13 +22,14 @@ class MigrationFailureAdminInspectView(InspectView):
 
 
 class MigrationFailureAdmin(ModelAdmin):
+    list_per_page = 10
     model = MigrationFailure
     button_helper_class = MigrationFailureButtonHelper
     permission_helper_class = MigrationFailurePermissionHelper
     # create_view_class = MigrationFailureCreateView
     inspect_view_enabled = True
     inspect_view_class = MigrationFailureAdminInspectView
-    menu_label = _('MigrationFailures')
+    menu_label = _('Migration Failures')
     menu_icon = 'folder'
     menu_order = 200
     add_to_settings_menu = False
@@ -39,17 +40,15 @@ class MigrationFailureAdmin(ModelAdmin):
         'object_name',
         'pid',
         'exception_type',
+        'exception_msg',
+        'updated',
     )
     list_filter = (
         'action_name',
         'object_name',
-        'exception_type',
     )
     search_fields = (
-        'action_name',
-        'object_name',
         'pid',
-        'exception_type',
     )
     inspect_view_fields = (
         'action_name',
@@ -57,6 +56,8 @@ class MigrationFailureAdmin(ModelAdmin):
         'pid',
         'exception_type',
         'exception_msg',
+        'traceback',
+        'updated',
     )
 
     def get_queryset(self, request):

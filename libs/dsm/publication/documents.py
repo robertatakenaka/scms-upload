@@ -230,10 +230,9 @@ class DocumentToPublish:
             # atualiza status
             self.doc.issue.is_public = True
             self.doc.is_public = True
-            save_data(self.doc)
+            return save_data(self.doc)
         except Exception as e:
             raise exceptions.PublishDocumentError(e)
-        return self.doc
 
 
 def format_author_name(surname, given_names, suffix):
