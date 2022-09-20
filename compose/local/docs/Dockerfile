@@ -23,6 +23,8 @@ RUN apt-get update && apt-get install --no-install-recommends -y \
 COPY ./requirements /requirements
 
 # create python dependency wheels
+RUN python -m pip install --upgrade pip
+
 RUN pip wheel --no-cache-dir --no-deps --wheel-dir /usr/src/app/wheels  \
   -r /requirements/local.txt -r /requirements/production.txt \
   && rm -rf /requirements

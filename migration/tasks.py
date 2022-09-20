@@ -9,6 +9,24 @@ from celery.exceptions import SoftTimeLimitExceeded
 from . import controller
 
 
+@celery_app.task(bind=True, name=_('Migrate and publish journals'))
+def task_migrate_and_publish_journals(
+        self,
+        user_id,
+        collection_acron,
+        source_file_path=None,
+        force_update=False,
+        db_uri=None,
+        ):
+    controller.migrate_and_publish_journals(
+        user_id,
+        collection_acron,
+        source_file_path,
+        force_update,
+        db_uri,
+    )
+
+
 @celery_app.task(bind=True, name=_('Migrate journals'))
 def task_migrate_journals(
         self,

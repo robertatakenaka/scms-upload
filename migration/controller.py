@@ -2,6 +2,7 @@ import os
 import logging
 import traceback
 import sys
+from datetime import datetime
 
 from django.utils.translation import gettext_lazy as _
 from django.contrib.auth import get_user_model
@@ -22,6 +23,8 @@ from packtools.sps.models.article_renditions import (
 
 # from scielo_classic_website import migration as classic_ws
 from scielo_classic_website import classic_ws
+
+from django_celery_beat.models import PeriodicTask
 
 from libs.dsm.files_storage.minio import MinioStorage
 from libs.dsm.publication.db import mk_connection
@@ -96,17 +99,124 @@ def register_failure(collection_acron, action_name, object_name, pid, e,
     migration_failure.save()
 
 
+def get_or_create_crontab_schedule(day_of_week=None, hour=None, minute=None):
+    try:
+        crontab_schedule, status = CrontabSchedule.objects.get_or_create(
+            day_of_week=day_of_week or '*',
+            hour=hour or '*',
+            minute=minute or '*',
+        )
+    except Exception as e:
+        raise exceptions.GetOrCreateCrontabScheduleError(
+            _('Unable to get_or_create_crontab_schedule {} {} {}').format(
+                crontab_schedule_acron, type(e), e
+            )
+        )
+    return crontab_schedule
+
+
+def get_files_storage(files_storage_config):
+
+    try:
+        return MinioStorage(
+            minio_host=files_storage_config.host,
+            minio_access_key=files_storage_config.access_key,
+            minio_secret_key=files_storage_config.secret_key,
+            bucket_root=files_storage_config.bucket_root,
+            bucket_subdir=(
+                files_storage_config.bucket_subdir or
+                files_storage_config.bucket_public_subdir),
+            minio_secure=True,
+            minio_http_client=None,
+        )
+    except AttributeError:
+        try:
+            return MinioStorage(
+                minio_host=files_storage_config["host"],
+                minio_access_key=files_storage_config["access_key"],
+                minio_secret_key=files_storage_config["secret_key"],
+                bucket_root=files_storage_config["bucket_root"],
+                bucket_subdir=(
+                    files_storage_config.get("bucket_subdir") or
+                    files_storage_config["bucket_public_subdir"]),
+                minio_secure=True,
+                minio_http_client=None,
+            )
+        except Exception as e:
+            raise exceptions.GetFilesStorageError(
+                _("Unable to get MinioStorage {} {} {}").format(
+                    files_storage_config, type(e), e)
+            )
+
+
 def get_migration_configuration(collection_acron):
     try:
         configuration = MigrationConfiguration.objects.get(
-            classic_website_configuration__collection__acron=collection_acron)
+            classic_website_config__collection__acron=collection_acron)
     except Exception as e:
         raise exceptions.GetMigrationConfigurationError(
             _('Unable to get_migration_configuration {} {} {}').format(
                 collection_acron, type(e), e
             )
         )
-    return configuration
+
+    config = {}
+    try:
+        config['db_uri'] = configuration.new_website_config.db_uri
+    except Exception as e:
+        raise exceptions.GetMigrationConfigurationError(
+            _('Unable to get db_uri {} {} {}').format(
+                collection_acron, type(e), e
+            )
+        )
+
+    config['classic_website'] = configuration.classic_website_config
+    if not config['classic_website']:
+        raise exceptions.GetMigrationConfigurationError(
+            _('Unable to get classic_website configuration {} {} {}').format(
+                collection_acron, type(e), e
+            )
+        )
+
+    config['files_storage'] = get_files_storage(
+        configuration.files_storage_config)
+    return config
+
+
+def get_or_create_migration_starter_tasks(collection_acron, user_id):
+    items = (
+        ("title", "journals", 1),
+        ("issue", "issues", 2),
+    )
+
+    for db_name, elem_name, hours_after_now in items:
+        for kind in ("full", "incremental"):
+            name = f'{collection_acron} | {db_name} | {kind}'
+            try:
+                periodic_task = PeriodicTask.objects.get(name=name)
+            except PeriodicTask.DoesNotExist:
+                now = datetime.utcnow()
+                periodic_task = PeriodicTask()
+                periodic_task.name = name
+                periodic_task.task = _('Migrate and publish {}').format(elem_name)
+                periodic_task.kwargs = dict(
+                    collection_acron=collection_acron,
+                    user_id=user_id,
+                    force_update=(kind == "full"),
+                )
+                if kind == "full":
+                    periodic_task.enabled = True
+                    periodic_task.one_off = True
+                    periodic_task.crontab = get_or_create_crontab_schedule(
+                        hour=(now.hour + hours_after_now) % 24,
+                    )
+                else:
+                    periodic_task.enabled = True
+                    periodic_task.one_off = False
+                    periodic_task.crontab = get_or_create_crontab_schedule(
+                        minute=now.minute,
+                    )
+                periodic_task.save()
 
 
 def get_or_create_journal_migration(scielo_journal, creator_id):
@@ -127,28 +237,61 @@ def get_or_create_journal_migration(scielo_journal, creator_id):
     return jm
 
 
-# def migrate_and_publish_migrated_journals(
-#         user_id, db_uri, source_file_path,
-#         collection_acron,
-#         force_update=False,
-#         ):
-#     mk_connection(db_uri)
-#     for scielo_issn, journal_data in classic_ws.get_records_by_source_path("title", source_file_path):
-#         try:
-#             logging.info(_("Migrating journal {} {}").format(collection_acron, scielo_issn))
-#             action = "migrate"
-#             journal_migration = migrate_journal(
-#                 user_id, collection_acron,
-#                 scielo_issn, journal_data[0], force_update)
-#             logging.info(_("Publish journal {}").format(journal_migration))
-#             publish_migrated_journal(journal_migration)
-#             logging.info(_("Migrated and published journal {}").format(journal_migration))
-#         except Exception as e:
-#             exc_type, exc_value, exc_traceback = sys.exc_info()
-#             register_failure(
-#                 collection_acron, action, "journal", scielo_issn, e,
-#                 exc_type, exc_value, exc_traceback, user_id,
-#             )
+def get_journal_migration_status(scielo_issn):
+    """
+    Returns a JournalMigration status
+    """
+    try:
+        return JournalMigration.objects.get(
+            scielo_journal__scielo_issn=scielo_issn,
+        ).status
+    except Exception as e:
+        raise exceptions.GetJournalMigratioStatusError(
+            _('Unable to get_journal_migration_status {} {} {}').format(
+                scielo_issn, type(e), e
+            )
+        )
+
+
+def migrate_and_publish_journals(
+        user_id,
+        collection_acron,
+        source_file_path=None,
+        force_update=False,
+        db_uri=None,
+        ):
+    try:
+        if not db_uri or not source_file_path:
+            config = get_migration_configuration(collection_acron)
+            if not source_file_path:
+                source_file_path = config['classic_website'].title_path
+            if not db_uri:
+                db_uri = config.get("db_uri")
+
+        mk_connection(db_uri)
+
+        for scielo_issn, journal_data in classic_ws.get_records_by_source_path("title", source_file_path):
+            try:
+                logging.info(_("Migrating journal {} {}").format(collection_acron, scielo_issn))
+                action = "migrate"
+                journal_migration = migrate_journal(
+                    user_id, collection_acron,
+                    scielo_issn, journal_data[0], force_update)
+                logging.info(_("Publish journal {}").format(journal_migration))
+                publish_migrated_journal(journal_migration)
+                logging.info(_("Migrated and published journal {}").format(journal_migration))
+            except Exception as e:
+                exc_type, exc_value, exc_traceback = sys.exc_info()
+                register_failure(
+                    collection_acron, action, "journal", scielo_issn, e,
+                    exc_type, exc_value, exc_traceback, user_id,
+                )
+    except Exception as e:
+        exc_type, exc_value, exc_traceback = sys.exc_info()
+        register_failure(
+            collection_acron, "migrate and publish", "journal", "GENERAL", e,
+            exc_type, exc_value, exc_traceback, user_id,
+        )
 
 
 def migrate_journals(user_id,
@@ -159,9 +302,8 @@ def migrate_journals(user_id,
 
     try:
         if not source_file_path:
-            classic_website_configuration = get_classic_website_configuration(
-                collection_acron)
-            source_file_path = classic_website_configuration.title_path
+            config = get_migration_configuration(collection_acron)
+            source_file_path = config['classic_website'].title_path
 
         for scielo_issn, journal_data in classic_ws.get_records_by_source_path("title", source_file_path):
             try:
@@ -212,7 +354,6 @@ def migrate_journal(user_id, collection_acron, scielo_issn, journal_data,
         if journal.publication_status != CURRENT:
             journal_migration.status = MS_TO_IGNORE
         journal_migration.data = journal_data
-
         journal_migration.save()
         return journal_migration
     except Exception as e:
@@ -228,16 +369,12 @@ def publish_migrated_journals(
         collection_acron,
         db_uri=None,
         ):
-
     try:
         if not db_uri:
-            migration_configuration = get_migration_configuration(collection_acron)
-            db_uri = migration_configuration.new_website_configuration.db_uri
-    except Exception as e:
-        db_uri = OPAC_STRING_CONNECTION
+            config = get_migration_configuration(collection_acron)
+            db_uri = config.get("db_uri")
 
-    try:
-        mk_connection(db_uri or OPAC_STRING_CONNECTION)
+        mk_connection(db_uri)
 
         for journal_migration in JournalMigration.objects.filter(
                 scielo_journal__collection__acron=collection_acron,
@@ -387,6 +524,52 @@ def get_or_create_issue_migration(scielo_issue, creator_id):
     return jm
 
 
+def migrate_and_publish_issues(
+        user_id,
+        collection_acron,
+        source_file_path=None,
+        force_update=False,
+        db_uri=None,
+        ):
+    try:
+        if not db_uri or not source_file_path:
+            config = get_migration_configuration(collection_acron)
+            if not source_file_path:
+                source_file_path = config['classic_website'].title_path
+            if not db_uri:
+                db_uri = config.get("db_uri")
+
+        mk_connection(db_uri)
+
+        for scielo_issn, issue_data in classic_ws.get_records_by_source_path("issue", source_file_path):
+            try:
+                logging.info(_("Migrating issue {} {}").format(collection_acron, scielo_issn))
+                action = "migrate"
+                issue_migration = migrate_issue(
+                    user_id=user_id,
+                    collection_acron=collection_acron,
+                    scielo_issn=issue_pid[:9],
+                    issue_pid=issue_pid,
+                    issue_data=issue_data[0],
+                    force_update=force_update,
+                )
+                logging.info(_("Publish issue {}").format(issue_migration))
+                publish_migrated_issue(issue_migration)
+                logging.info(_("Migrated and published issue {}").format(issue_migration))
+            except Exception as e:
+                exc_type, exc_value, exc_traceback = sys.exc_info()
+                register_failure(
+                    collection_acron, action, "issue", scielo_issn, e,
+                    exc_type, exc_value, exc_traceback, user_id,
+                )
+    except Exception as e:
+        exc_type, exc_value, exc_traceback = sys.exc_info()
+        register_failure(
+            collection_acron, "migrate and publish", "issue", "GENERAL", e,
+            exc_type, exc_value, exc_traceback, user_id,
+        )
+
+
 def migrate_issues(
         user_id,
         collection_acron,
@@ -396,12 +579,16 @@ def migrate_issues(
 
     try:
         if not source_file_path:
-            classic_website_configuration = get_classic_website_configuration(
-                collection_acron)
-            source_file_path = classic_website_configuration.issue_path
+            config = get_migration_configuration(collection_acron)
+            source_file_path = config['classic_website'].issue_path
 
         for issue_pid, issue_data in classic_ws.get_records_by_source_path("issue", source_file_path):
             try:
+                if get_journal_migration_status(issue_pid[:9]) != MS_PUBLISHED:
+                    logging.info(
+                        _("Skip migrate issue {} because its journal is not published").format(issue_pid)
+                    )
+                    continue
                 migrate_issue(
                     user_id=user_id,
                     collection_acron=collection_acron,
@@ -491,13 +678,10 @@ def publish_migrated_issues(
 
     try:
         if not db_uri:
-            migration_configuration = get_migration_configuration(collection_acron)
-            db_uri = migration_configuration.new_website_configuration.db_uri
-    except Exception as e:
-        db_uri = OPAC_STRING_CONNECTION
+            config = get_migration_configuration(collection_acron)
+            db_uri = config.get("db_uri")
 
-    try:
-        mk_connection(db_uri or OPAC_STRING_CONNECTION)
+        mk_connection(db_uri)
 
         for issue_migration in IssueMigration.objects.filter(
                 scielo_issue__scielo_journal__collection__acron=collection_acron,
@@ -508,7 +692,6 @@ def publish_migrated_issues(
                 logging.info(_("Publish issue {}").format(issue_migration))
                 publish_migrated_issue(issue_migration)
             except Exception as e:
-                raise e
                 exc_type, exc_value, exc_traceback = sys.exc_info()
                 register_failure(
                     collection_acron, "publication", "issue",
@@ -517,7 +700,6 @@ def publish_migrated_issues(
                 )
 
     except Exception as e:
-        raise e
         exc_type, exc_value, exc_traceback = sys.exc_info()
         register_failure(
             collection_acron, "publication", "issue",
@@ -579,23 +761,6 @@ def publish_migrated_issue(issue_migration):
             _("Unable to upate issue_migration status {} {}").format(
                 issue_migration.scielo_issue.issue_pid, e)
         )
-
-
-def get_files_storage(files_storage_config):
-    try:
-        return MinioStorage(
-            minio_host=files_storage_config.host,
-            minio_access_key=files_storage_config.access_key,
-            minio_secret_key=files_storage_config.secret_key,
-            bucket_root=files_storage_config.bucket_root,
-            bucket_subdir=(
-                files_storage_config.bucket_subdir or
-                files_storage_config.bucket_public_subdir),
-            minio_secure=True,
-            minio_http_client=None,
-        )
-    except KeyError as e:
-        raise exceptions.GetFilesStorageError(e)
 
 
 def get_or_create_issue_files_migration(scielo_issue, creator_id):

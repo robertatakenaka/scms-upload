@@ -75,4 +75,12 @@ class PublishJournalError(Exception):
 
 
 class GetMigrationConfigurationError(Exception):
-	...
+    ...
+
+
+class GetOrCreateCrontabScheduleError(Exception):
+    ...
+
+
+class GetJournalMigratioStatusError(Exception):
+    ...

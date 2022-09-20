@@ -20,13 +20,8 @@ def task_run(request):
 
     task = current_app.tasks.get(p_task.task)
 
-    args = json.loads(p_task.args)
-
-    kwargs = json.loads(p_task.kwargs)
-    kwargs['user'] = request.user.id
-
-    task.apply_async(args=args,
-                     kwargs=kwargs,
+    task.apply_async(args=json.loads(p_task.args),
+                     kwargs=json.loads(p_task.kwargs),
                      queue=p_task.queue,
                      periodic_task_name=p_task.name)
 

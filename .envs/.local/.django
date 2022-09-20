@@ -12,3 +12,6 @@ REDIS_URL=redis://redis:6379/0
 # Flower
 CELERY_FLOWER_USER=PhFRdLexbrsBvrrbSXxjcMMOcVOavCrZ
 CELERY_FLOWER_PASSWORD=QgScyefPrYhHgO6onW61u0nazc5xdBuP4sM7jMRrBBFuA2RjsFhZLp7xbVYZbrwR
+
+# mongodb://{login}:{password}@{host}:{port}/{database}
+OPAC_STRING_CONNECTION=mongodb://192.168.1.19:27017/scielo_qa

@@ -47,7 +47,7 @@ minio==7.1.0
 # Upload
 # ------------------------------------------------------------------------------
 lxml==4.9.1 # https://github.com/lxml/lxml
--e git+https://github.com/scieloorg/packtools@2.11.2#egg=packtools
+-e git+https://github.com/scieloorg/packtools.git@7275906b2a66266551a0e0259e5e60ff9a61fdfd#egg=packtools
 
 # DSM Publication
 # ------------------------------------------------------------------------------
@@ -59,4 +59,4 @@ tenacity==8.0.1
 # Migration
 # ------------------------------------------------------------------------------
 # Classic website
--e git+https://github.com/scieloorg/scielo_migration@0.1#egg=scielo_classic_website
+#-e git+https://github.com/scieloorg/scielo_migration@0eb9db59ec55f9608fbe99814883e169f53fb93f#egg=scielo_classic_website

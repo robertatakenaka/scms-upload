@@ -17,19 +17,19 @@ from . import choices
 
 class MigrationConfiguration(CommonControlField):
 
-    classic_website_configuration = models.ForeignKey(
+    classic_website_config = models.ForeignKey(
         ClassicWebsiteConfiguration, on_delete=models.CASCADE)
-    new_website_configuration = models.ForeignKey(
+    new_website_config = models.ForeignKey(
         NewWebSiteConfiguration, on_delete=models.CASCADE)
     files_storage_config = models.ForeignKey(
         FilesStorageConfiguration, on_delete=models.CASCADE)
 
     def __str__(self):
-        return f"{self.classic_website_configuration}"
+        return f"{self.classic_website_config}"
 
     class Meta:
         indexes = [
-            models.Index(fields=['classic_website_configuration']),
+            models.Index(fields=['classic_website_config']),
         ]
 
 
