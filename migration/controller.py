@@ -3,9 +3,11 @@ import logging
 import traceback
 import sys
 from datetime import datetime
+from random import randint
 
 from django.utils.translation import gettext_lazy as _
 from django.contrib.auth import get_user_model
+from django.db.models import Q
 
 from defusedxml.ElementTree import parse
 from defusedxml.ElementTree import tostring as defusedxml_tostring
@@ -183,13 +185,13 @@ def get_migration_configuration(collection_acron):
     return config
 
 
-def get_or_create_migration_starter_tasks(collection_acron, user_id):
+def create_migration_starter_tasks(collection_acron, user_id):
     items = (
-        ("title", "journals", 1),
-        ("issue", "issues", 2),
+        ("title", _("Migrate and publish journals"), 1),
+        ("issue", _("Migrate and publish issues"), 2),
     )
 
-    for db_name, elem_name, hours_after_now in items:
+    for db_name, task, hours_after_now in items:
         for kind in ("full", "incremental"):
             name = f'{collection_acron} | {db_name} | {kind}'
             try:
@@ -198,7 +200,7 @@ def get_or_create_migration_starter_tasks(collection_acron, user_id):
                 now = datetime.utcnow()
                 periodic_task = PeriodicTask()
                 periodic_task.name = name
-                periodic_task.task = _('Migrate and publish {}').format(elem_name)
+                periodic_task.task = task
                 periodic_task.kwargs = dict(
                     collection_acron=collection_acron,
                     user_id=user_id,
@@ -217,6 +219,35 @@ def get_or_create_migration_starter_tasks(collection_acron, user_id):
                         minute=now.minute,
                     )
                 periodic_task.save()
+
+
+def create_tasks_to_migrate_issue_files_by_journal_acron(collection_acron, user_id):
+    """
+    Cria tarefas periódicas para migrar issues files por journal acron
+    distribuídas em 1h a 24h após a execução desta função
+    """
+    for migration in JournalMigration.objects.filter(
+            Q(status=MS_PUBLISHED) | Q(status=MS_MIGRATED)):
+        name = f'{collection_acron} | issue files | {migration.scielo_journal.acron}'
+        try:
+            periodic_task = PeriodicTask.objects.get(name=name)
+        except PeriodicTask.DoesNotExist:
+            now = datetime.utcnow()
+            periodic_task = PeriodicTask()
+            periodic_task.name = name
+            periodic_task.task = _('Migrate issue files')
+            periodic_task.kwargs = dict(
+                collection_acron=collection_acron,
+                user_id=user_id,
+                scielo_issn=migration.scielo_journal.scielo_issn,
+                force_update=True,
+            )
+            periodic_task.enabled = True
+            periodic_task.one_off = True
+            periodic_task.crontab = get_or_create_crontab_schedule(
+                hour=(now.hour + randint(0, 23)) % 24,
+            )
+            periodic_task.save()
 
 
 def get_or_create_journal_migration(scielo_journal, creator_id):
@@ -341,6 +372,13 @@ def migrate_journal(user_id, collection_acron, scielo_issn, journal_data,
     )
     journal_migration = get_or_create_journal_migration(
         journal_controller.scielo_journal, creator_id=user_id)
+
+    if not journal_controller.scielo_journal.publication_status or not journal_controller.scielo_journal.title:
+        if not journal_controller.scielo_journal.publication_status:
+            journal_controller.scielo_journal.publication_status = journal.publication_status
+        if not journal_controller.scielo_journal.title:
+            journal_controller.scielo_journal.title = journal.title
+        journal_controller.scielo_journal.save()
 
     # check if it needs to be update
     if journal_migration.isis_updated_date == journal.isis_updated_date:
@@ -646,6 +684,10 @@ def migrate_issue(
     issue_migration = get_or_create_issue_migration(
         issue_controller.scielo_issue, creator_id=user_id)
 
+    if not issue_controller.scielo_issue.pub_year:
+        issue_controller.scielo_issue.pub_year = issue.publication_year
+        issue_controller.scielo_issue.save()
+
     # check if it needs to be update
     if issue_migration.isis_updated_date == issue.isis_updated_date:
         if not force_update:
@@ -781,124 +823,130 @@ def get_or_create_issue_files_migration(scielo_issue, creator_id):
     return jm
 
 
-# def migrate_issues_files(
-#         user_id,
-#         collection_acron,
-#         files_storage_config=None,
-#         classic_ws_config=None,
-#         ):
+def migrate_issues_files(
+        user_id,
+        collection_acron,
+        scielo_issn=None,
+        publication_year=None,
+        files_storage_config=None,
+        classic_ws_config=None,
+        ):
 
-#     for issue_migration in IssueMigration.objects.filter(
-#             scielo_issue__scielo_journal__collection__acron=collection_acron,
-#             status=MS_MIGRATED,
-#             ):
-#         try:
-#             issue_files_migration = migrate_issue_files(
-#                 user_id=user_id,
-#                 issue_migration=issue_migration,
-#                 files_storage_config=files_storage_config,
-#                 classic_ws_config=classic_ws_config,
-#             )
-#             logging.info(_("Migrated issue files {} {}").format(collection_acron, issue_files_migration))
-#         except Exception as e:
-#             exc_type, exc_value, exc_traceback = sys.exc_info()
-#             register_failure(
-#                 collection_acron, "migrate_files", "issue",
-#                 issue_migration.scielo_issue.issue_pid, e,
-#                 exc_type, exc_value, exc_traceback, user_id,
-#             )
-
-
-# def migrate_issue_files(
-#         user_id,
-#         issue_migration,
-#         files_storage_config,
-#         classic_ws_config,
-#         ):
-#     """
-#     Create/update IssueFilesMigration
-#     """
-#     scielo_issue = issue_migration.scielo_issue
-#     logging.info(_("Migrating issue files {} {}").format(scielo_issue, issue_migration))
-
-#     issue_files_migration = get_or_create_issue_files_migration(
-#         scielo_issue, creator_id=user_id)
-
-#     if issue_files_migration.status == MS_PUBLISHED:
-#         return issue_files_migration
-
-#     try:
-#         issue = classic_ws.Issue(issue_migration.data)
-#         for item in store_issue_files(
-#                 files_storage_config,
-#                 scielo_issue.scielo_journal.acron,
-#                 scielo_issue.issue_folder,
-#                 classic_ws_config,
-#                 ):
-#             item['file_id'] = item.pop('key')
-
-#             type = item.pop('type')
-#             if type == "pdf":
-#                 ClassFile = SciELOFileWithLang
-#                 files = issue_files_migration.pdfs
-#             elif type == "html":
-#                 ClassFile = SciELOHTMLFile
-#                 files = issue_files_migration.htmls
-#             elif type == "xml":
-#                 ClassFile = SciELOFile
-#                 files = issue_files_migration.xmls
-#             else:
-#                 ClassFile = SciELOFile
-#                 files = issue_files_migration.assets
-#             files.add(ClassFile(**item))
-
-#         issue_files_migration.status = MS_MIGRATED
-#         issue_files_migration.save()
-#         return issue_files_migration
-#     except Exception as e:
-#         raise exceptions.IssueFilesMigrationSaveError(
-#             _("Unable to save issue files migration {} {}").format(
-#                 scielo_issue, e)
-#         )
+    if scielo_issn and publication_year:
+        IssueMigration.objects.filter(
+            scielo_issue__scielo_journal__collection__acron=collection_acron,
+            scielo_issue__scielo_journal__scielo_issn=scielo_issn,
+            scielo_issue__issue_pid__startswith=scielo_issn+publication_year,
+            status=MS_MIGRATED,
+            )
+    for issue_migration in items:
+        try:
+            issue_files_migration = migrate_issue_files(
+                user_id=user_id,
+                issue_migration=issue_migration,
+                files_storage_config=files_storage_config,
+                classic_ws_config=classic_ws_config,
+            )
+            logging.info(_("Migrated issue files {} {}").format(collection_acron, issue_files_migration))
+        except Exception as e:
+            exc_type, exc_value, exc_traceback = sys.exc_info()
+            register_failure(
+                collection_acron, "migrate_files", "issue",
+                issue_migration.scielo_issue.issue_pid, e,
+                exc_type, exc_value, exc_traceback, user_id,
+            )
 
 
-# def store_issue_files(files_storage_config, journal_acron, issue_folder, classic_ws_config):
-#     try:
-#         issue_files = classic_ws.get_issue_files(journal_acron, issue_folder, classic_ws_config)
-#     except Exception as e:
-#         raise exceptions.IssueFilesStoreError(
-#             _("Unable to issue files from classic website {} {} {}").format(
-#                 journal_acron, issue_folder, e,
-#             )
-#         )
-#     try:
-#         files_storage = get_files_storage(files_storage_config)
-#     except Exception as e:
-#         raise exceptions.IssueFilesStoreError(
-#             _("Unable to get files storage {} {} {} {}").format(
-#                 files_storage_config, journal_acron, issue_folder, e,
-#             )
-#         )
+def migrate_issue_files(
+        user_id,
+        issue_migration,
+        files_storage_config,
+        classic_ws_config,
+        ):
+    """
+    Create/update IssueFilesMigration
+    """
+    scielo_issue = issue_migration.scielo_issue
+    logging.info(_("Migrating issue files {} {}").format(scielo_issue, issue_migration))
 
-#     for info in issue_files:
-#         try:
-#             logging.info(info)
-#             name, ext = os.path.splitext(info['path'])
-#             if ext in (".xml", ".html"):
-#                 subdir = files_storage_config["migration"]
-#             else:
-#                 subdir = files_storage_config["publication"]
-#             subdirs = os.path.join(
-#                 subdir, journal_acron, issue_folder,
-#             )
-#             response = files_storage.register(
-#                 info['path'], subdirs=subdirs, preserve_name=True)
-#             info.update(response)
-#             yield info
+    issue_files_migration = get_or_create_issue_files_migration(
+        scielo_issue, creator_id=user_id)
 
-#         except Exception as e:
-#             raise exceptions.IssueFilesStoreError(
-#                 _("Unable to store issue files {} {} {}").format(
-#                     journal_acron, issue_folder, e,
-#                 )
-#             )
+    if issue_files_migration.status == MS_PUBLISHED:
+        return issue_files_migration
+
+    try:
+        issue = classic_ws.Issue(issue_migration.data)
+        for item in store_issue_files(
+                files_storage_config,
+                scielo_issue.scielo_journal.acron,
+                scielo_issue.issue_folder,
+                classic_ws_config,
+                ):
+            item['file_id'] = item.pop('key')
+
+            type = item.pop('type')
+            if type == "pdf":
+                ClassFile = SciELOFileWithLang
+                files = issue_files_migration.pdfs
+            elif type == "html":
+                ClassFile = SciELOHTMLFile
+                files = issue_files_migration.htmls
+            elif type == "xml":
+                ClassFile = SciELOFile
+                files = issue_files_migration.xmls
+            else:
+                ClassFile = SciELOFile
+                files = issue_files_migration.assets
+            files.add(ClassFile(**item))
+
+        issue_files_migration.status = MS_MIGRATED
+        issue_files_migration.save()
+        return issue_files_migration
+    except Exception as e:
+        raise exceptions.IssueFilesMigrationSaveError(
+            _("Unable to save issue files migration {} {}").format(
+                scielo_issue, e)
+        )
+
+
+def store_issue_files(files_storage_config, journal_acron, issue_folder, classic_ws_config):
+    try:
+        issue_files = classic_ws.get_issue_files(journal_acron, issue_folder, classic_ws_config)
+    except Exception as e:
+        raise exceptions.IssueFilesStoreError(
+            _("Unable to issue files from classic website {} {} {}").format(
+                journal_acron, issue_folder, e,
+            )
+        )
+    try:
+        files_storage = get_files_storage(files_storage_config)
+    except Exception as e:
+        raise exceptions.IssueFilesStoreError(
+            _("Unable to get files storage {} {} {} {}").format(
+                files_storage_config, journal_acron, issue_folder, e,
+            )
+        )
+
+    for info in issue_files:
+        try:
+            logging.info(info)
+            name, ext = os.path.splitext(info['path'])
+            if ext in (".xml", ".html"):
+                subdir = files_storage_config["migration"]
+            else:
+                subdir = files_storage_config["publication"]
+            subdirs = os.path.join(
+                subdir, journal_acron, issue_folder,
+            )
+            response = files_storage.register(
+                info['path'], subdirs=subdirs, preserve_name=True)
+            info.update(response)
+            yield info
+
+        except Exception as e:
+            raise exceptions.IssueFilesStoreError(
+                _("Unable to store issue files {} {} {}").format(
+                    journal_acron, issue_folder, e,
+                )
+            )

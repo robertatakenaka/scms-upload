@@ -94,6 +94,7 @@ class SciELOIssue(CommonControlField):
     issue_pid = models.CharField(_('Issue PID'), max_length=17, null=False, blank=False)
     # v30n1 ou 2019nahead
     issue_folder = models.CharField(_('Issue Folder'), max_length=17, null=False, blank=False)
+    pub_year = models.CharField(_('Publicatin year'), max_length=4, null=True, blank=True)
 
     class Meta:
         unique_together = [
@@ -105,6 +106,7 @@ class SciELOIssue(CommonControlField):
             models.Index(fields=['scielo_journal']),
             models.Index(fields=['issue_pid']),
             models.Index(fields=['issue_folder']),
+            models.Index(fields=['pub_year']),
         ]
 
 

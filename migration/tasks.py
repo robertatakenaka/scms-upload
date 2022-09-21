@@ -90,19 +90,21 @@ def task_publish_migrated_issues(
     )
 
 
-# @celery_app.task(bind=True, name=_('Migrate issues files'))
-# def task_migrate_issues_files(
-#         self,
-#         user_id,
-#         collection_acron,
-#         files_storage_config,
-#         classic_ws_config,
-#         ):
-#     controller.migrate_issues_files(
-#         user_id,
-#         collection_acron,
-#         files_storage_config,
-#         classic_ws_config,
-#     )
+@celery_app.task(bind=True, name=_('Migrate issues files'))
+def task_migrate_issues_files(
+        self,
+        user_id,
+        collection_acron,
+        scielo_issn=None,
+        files_storage_config=None,
+        classic_ws_config=None,
+        ):
+    controller.migrate_issues_files(
+        user_id,
+        collection_acron,
+        scielo_issn=None,
+        files_storage_config=None,
+        classic_ws_config=None,
+    )
 
 
