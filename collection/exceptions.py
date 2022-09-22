@@ -64,3 +64,7 @@ class GetSciELODocumentError(Exception):
 
 class GetClassicWebsiteConfigurationError(Exception):
     ...
+
+
+class GetDocumentError(Exception):
+    ...

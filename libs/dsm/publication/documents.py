@@ -28,13 +28,13 @@ def get_document(**kwargs):
 class DocumentToPublish:
     # https://github.com/scieloorg/opac-airflow/blob/4103e6cab318b737dff66435650bc4aa0c794519/airflow/dags/operations/sync_kernel_to_website_operations.py#L82
 
-    def __init__(self, doc_id):
-        self.doc = get_document(_id=doc_id)
-        self.doc._id = doc_id
-        self.doc.aid = doc_id
+    def __init__(self, pid):
+        self.doc = get_document(pid=pid)
 
-    def add_identifiers(self, v2, aop_pid, other_pids=None):
+    def add_identifiers(self, v3, v2, aop_pid, other_pids=None):
         # Identificadores
+        self.doc._id = v3
+        self.doc.aid = v3
         self.doc.pid = v2
 
         self.doc.scielo_pids = {}

@@ -579,6 +579,11 @@ class PeriodicTask(models.Model):
         verbose_name = _('periodic task')
         verbose_name_plural = _('periodic tasks')
 
+        indexes = [
+            models.Index(fields=['name']),
+            models.Index(fields=['task']),
+        ]
+
     def validate_unique(self, *args, **kwargs):
         super().validate_unique(*args, **kwargs)
 

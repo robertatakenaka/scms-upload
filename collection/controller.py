@@ -12,7 +12,7 @@ from .models import (
 )
 from journal.controller import get_or_create_official_journal
 from issue.controller import get_or_create_official_issue
-from article.controller import get_or_create_official_article
+from article.controller import get_or_create_official_document
 
 from . import exceptions
 
@@ -261,7 +261,7 @@ def get_or_create_scielo_document(scielo_issue, pid, file_id, user_id):
 def get_or_create_document_in_collections(official_doc, scielo_document, user_id):
     try:
         scielo_document, status = DocumentInCollections.objects.get_or_create(
-            official_doc=official_doc,
+            official_document=official_doc,
             creator_id=user_id,
         )
     except Exception as e:
@@ -444,12 +444,12 @@ class DocumentController:
     def __init__(self, user_id, issue_pid, issue_folder,
                  file_id,
                  pid,
-                 document_data,
+                 xmltree,
                  ):
         self._user_id = user_id
         self._issue_pid = issue_pid
         self._issue_folder = issue_folder
-        self._document_data = document_data
+        self._xmltree = xmltree
         self._pid = pid
         self._file_id = file_id
 
@@ -485,10 +485,8 @@ class DocumentController:
     @property
     def official_document(self):
         if not hasattr(self, '_official_document') or not self._official_document:
-            self._official_document = get_or_create_official_article(
-                self.official_issue,
-                self._user_id,
-                **self._document_data,
+            self._official_document = get_or_create_official_document(
+                self._xmltree
             )
         return self._official_document
 

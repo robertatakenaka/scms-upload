@@ -4,6 +4,8 @@ from django.utils.translation import gettext_lazy as _
 from core.models import CommonControlField
 from journal.models import OfficialJournal
 from issue.models import Issue
+from article.models import Article
+
 from .choices import JOURNAL_PUBLICATION_STATUS, WEBSITE_KIND
 
 
@@ -31,7 +33,7 @@ class SciELOJournal(CommonControlField):
     acron = models.CharField(_('Acronym'), max_length=25, null=True, blank=True)
     title = models.CharField(_('Title'), max_length=255, null=True, blank=True)
     publication_status = models.CharField(
-        _('Publication Status'), max_length=2, null=True, blank=True,
+        _('Publication Status'), max_length=10, null=True, blank=True,
         choices=JOURNAL_PUBLICATION_STATUS)
 
     # TODO acrescentar
@@ -141,9 +143,8 @@ class SciELODocument(CommonControlField):
     def __str__(self):
         return u'%s %s' % (self.scielo_issue, self.pid)
 
-    # official_doc = models.ForeignKey(Article, on_delete=models.CASCADE)
     scielo_issue = models.ForeignKey(SciELOIssue, on_delete=models.CASCADE)
-    pid = models.CharField(_('PID'), max_length=17, null=True, blank=True)
+    pid = models.CharField(_('PID'), max_length=23, null=True, blank=True)
     file_id = models.CharField(_('File ID'), max_length=17, null=True, blank=True)
 
     class Meta:
@@ -165,18 +166,18 @@ class DocumentInCollections(CommonControlField):
     """
 
     def __unicode__(self):
-        return u'%s %s' % ('self.official_document', " | ".join([str(item) for item in self.scielo_documents]))
+        return u'%s %s' % (self.official_document, " | ".join([str(item) for item in self.scielo_documents]))
 
     def __str__(self):
-        return u'%s %s' % ('self.official_document', " | ".join([str(item) for item in self.scielo_documents]))
+        return u'%s %s' % (self.official_document, " | ".join([str(item) for item in self.scielo_documents]))
 
-    #official_document = models.ForeignKey(Article, on_delete=models.CASCADE)
+    official_document = models.ForeignKey(Article, on_delete=models.CASCADE, null=True, blank=True)
     scielo_documents = models.ManyToManyField(SciELODocument)
 
-    # class Meta:
-    #     indexes = [
-    #         models.Index(fields=['official_document']),
-    #     ]
+    class Meta:
+        indexes = [
+            models.Index(fields=['official_document']),
+        ]
 
 
 class NewWebSiteConfiguration(CommonControlField):
@@ -202,19 +203,20 @@ class FilesStorageConfiguration(CommonControlField):
     bucket_root = models.CharField(
         _('Bucket root'), max_length=255, null=True, blank=True)
     bucket_subdir = models.CharField(
-        _('Bucket subdir'), max_length=255, null=True, blank=True)
+        _('Bucket subdir'), max_length=64, null=True, blank=True)
     bucket_public_subdir = models.CharField(
-        _('Bucket public subdir'), max_length=255, null=True, blank=True)
+        _('Bucket public subdir'), max_length=64, null=True, blank=True)
     bucket_migration_subdir = models.CharField(
-        _('Bucket migration subdir'), max_length=255, null=True, blank=True)
+        _('Bucket migration subdir'), max_length=64, null=True, blank=True)
     bucket_temp_subdir = models.CharField(
-        _('Bucket temp subdir'), max_length=255, null=True, blank=True)
+        _('Bucket temp subdir'), max_length=64, null=True, blank=True)
     bucket_versions_subdir = models.CharField(
-        _('Bucket versions subdir'), max_length=255, null=True, blank=True)
+        _('Bucket versions subdir'), max_length=64, null=True, blank=True)
     access_key = models.CharField(
         _('Access key'), max_length=255, null=True, blank=True)
     secret_key = models.CharField(
         _('Secret key'), max_length=255, null=True, blank=True)
+    secure = models.BooleanField(_('Secure'), default=True)
 
     def __str__(self):
         return f"{self.host} {self.bucket_root}"
@@ -256,6 +258,9 @@ class ClassicWebsiteConfiguration(CommonControlField):
     issue_path = models.CharField(
         _('Issue path'), max_length=255, null=True, blank=True,
         help_text=_('Issue path: issue.id path or issue.mst path without extension'))
+    serial_path = models.CharField(
+        _('Serial path'), max_length=255, null=True, blank=True,
+        help_text=_('Serial path'))
 
     def __str__(self):
         return f"{self.collection}"

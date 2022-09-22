@@ -69,7 +69,7 @@ class MigrationFailure(CommonControlField):
     exception_type = models.CharField(
         _('Exception Type'), max_length=255, null=False, blank=False)
     exception_msg = models.CharField(
-        _('Exception Msg'), max_length=255, null=False, blank=False)
+        _('Exception Msg'), max_length=555, null=False, blank=False)
     traceback = models.JSONField(null=True, blank=True)
 
     class Meta:
@@ -96,6 +96,9 @@ class JournalMigration(MigratedData):
 class IssueMigration(MigratedData):
 
     scielo_issue = models.ForeignKey(SciELOIssue, on_delete=models.CASCADE)
+
+    def __unicode__(self):
+        return f"{self.scielo_issue} {self.status}"
 
     def __str__(self):
         return f"{self.scielo_issue} {self.status}"
