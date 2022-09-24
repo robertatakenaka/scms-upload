@@ -1,0 +1,2405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.1" specific-use="sps-1.9" xml:lang="pt" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="nlm-ta">Rev Lat Am Enfermagem</journal-id>
+			<journal-id journal-id-type="publisher-id">rlae</journal-id>
+			<journal-title-group>
+				<journal-title>Revista Latino-Americana de Enfermagem</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Rev. Latino-Am. Enfermagem</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="epub">1518-8345</issn>
+			<issn pub-type="ppub">0104-1169</issn>
+			<publisher>
+				<publisher-name>Escola de Enfermagem de Ribeirão Preto / Universidade de São Paulo</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="other">00329</article-id>
+			<article-id pub-id-type="doi">10.1590/1518-8345.5868.3607</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artigo Original</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title><italic>Authentic Leadership Questionnaire</italic> aplicado a enfermeiros brasileiros: evidências de validade</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-0359-8365</contrib-id>
+					<name>
+						<surname>Maziero</surname>
+						<given-names>Vanessa Gomes</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-0911-3728</contrib-id>
+					<name>
+						<surname>Rocha</surname>
+						<given-names>Fernanda Ludmilla Rossi</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-7123-5585</contrib-id>
+					<name>
+						<surname>Campos</surname>
+						<given-names>Juliana Alvares Duarte Bonini</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>3</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-7346-4848</contrib-id>
+					<name>
+						<surname>Dias</surname>
+						<given-names>Bruna Moreno</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-3757-1061</contrib-id>
+					<name>
+						<surname>Balsanelli</surname>
+						<given-names>Alexandre Pazetto</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff4"><sup>4</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-2666-2849</contrib-id>
+					<name>
+						<surname>Gabriel</surname>
+						<given-names>Carmen Silvia</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+					<xref ref-type="aff" rid="aff5"><sup>5</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-9861-2050</contrib-id>
+					<name>
+						<surname>Bernardes</surname>
+						<given-names>Andrea</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+					<xref ref-type="aff" rid="aff5"><sup>5</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>1</label>
+				<institution content-type="original"> Universidade de São Paulo, Escola de Enfermagem de Ribeirão Preto, Centro Colaborador da OPAS/OMS para o Desenvolvimento da Pesquisa em Enfermagem, Ribeirão Preto, SP, Brasil.</institution>
+				<institution content-type="normalized">Universidade de São Paulo</institution>
+				<institution content-type="orgname">Universidade de São Paulo</institution>
+				<institution content-type="orgdiv1">Escola de Enfermagem de Ribeirão Preto</institution>
+				<institution content-type="orgdiv2">Centro Colaborador da OPAS/OMS para o Desenvolvimento da Pesquisa em Enfermagem</institution>
+				<addr-line>
+					<city>Ribeirão Preto</city>
+					<state>SP</state>
+				</addr-line>
+				<country country="BR">Brazil</country>
+			</aff>
+			<aff id="aff2">
+				<label>2</label>
+				<institution content-type="original"> Empresa Brasileira de Serviços Hospitalares, Campo Grande, MS, Brasil.</institution>
+				<institution content-type="orgname">Empresa Brasileira de Serviços Hospitalares</institution>
+				<addr-line>
+					<city>Campo Grande</city>
+					<state>MS</state>
+				</addr-line>
+				<country country="BR">Brasil</country>
+			</aff>
+			<aff id="aff3">
+				<label>3</label>
+				<institution content-type="original"> Universidade Estadual Paulista, Faculdade de Ciências Farmacêuticas, Araraquara, SP, Brasil.</institution>
+				<institution content-type="normalized">Universidade Estadual Paulista</institution>
+				<institution content-type="orgname">Universidade Estadual Paulista</institution>
+				<institution content-type="orgdiv1">Faculdade de Ciências Farmacêuticas</institution>
+				<addr-line>
+					<city>Araraquara</city>
+					<state>SP</state>
+				</addr-line>
+				<country country="BR">Brazil</country>
+			</aff>
+			<aff id="aff4">
+				<label>4</label>
+				<institution content-type="original"> Universidade Federal de São Paulo, Escola Paulista de Enfermagem, São Paulo, SP, Brasil.</institution>
+				<institution content-type="normalized">Universidade Federal de São Paulo</institution>
+				<institution content-type="orgname">Universidade Federal de São Paulo</institution>
+				<institution content-type="orgdiv1">Escola Paulista de Enfermagem</institution>
+				<addr-line>
+					<city>São Paulo</city>
+					<state>SP</state>
+				</addr-line>
+				<country country="BR">Brazil</country>
+			</aff>
+			<aff id="aff5">
+				<label>5</label>
+				<institution content-type="original"> Bolsista do Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq), Brasil.</institution>
+				<institution content-type="normalized">Conselho Nacional de Desenvolvimento Científico e Tecnológico</institution>
+				<institution content-type="orgname">Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq)</institution>
+				<country country="BR">Brazil</country>
+			</aff>
+			<author-notes>
+				<corresp id="c1">
+					<label>Autor correspondente</label> Andrea Bernardes E-mail: <email>andreab@eerp.usp.br</email>
+				</corresp>
+				<fn fn-type="edited-by" id="fn1">
+					<label>Editor Associado</label>
+					<p> Ricardo Alexandre Arcêncio</p>
+				</fn>
+				<fn fn-type="con" id="fn2">
+					<label>Contribuição dos autores</label>
+					<p><bold>Concepção e desenho da pesquisa:</bold> Vanessa Gomes Maziero, Andrea Bernardes. <bold>Obtenção de dados:</bold> Vanessa Gomes Maziero. <bold>Análise e interpretação dos dados:</bold> Vanessa Gomes Maziero, Fernanda Ludmilla Rossi Rocha, Juliana Alvares Duarte Bonini Campos, Bruna Moreno Dias, Alexandre Pazetto Balsanelli, Carmen Silvia Gabriel, Andrea Bernardes. <bold>Análise estatística:</bold> Fernanda Ludmilla Rossi Rocha, Juliana Alvares Duarte Bonini Campos. <bold>Redação do manuscrito:</bold> Vanessa Gomes Maziero, Fernanda Ludmilla Rossi Rocha, Juliana Alvares Duarte Bonini Campos, Bruna Moreno Dias, Alexandre Pazetto Balsanelli, Carmen Silvia Gabriel, Andrea Bernardes. <bold>Revisão crítica do manuscrito quanto ao conteúdo intelectual importante:</bold> Vanessa Gomes Maziero, Fernanda Ludmilla Rossi Rocha, Juliana Alvares Duarte Bonini Campos, Bruna Moreno Dias, Alexandre Pazetto Balsanelli, Carmen Silvia Gabriel, Andrea Bernardes. <bold>Outros (Aprovação final):</bold> Vanessa Gomes Maziero, Fernanda Ludmilla Rossi Rocha, Juliana Alvares Duarte Bonini Campos, Bruna Moreno Dias, Alexandre Pazetto Balsanelli, Carmen Silvia Gabriel, Andrea Bernardes. <bold>Outros (Formatação conforme checklist do periódico):</bold> Bruna Moreno Dias. <bold>Outros (Orientação do manuscrito):</bold> Andrea Bernardes. Todos os autores aprovaram a versão final do texto.</p>
+				</fn>
+				<fn fn-type="conflict" id="fn3">
+					<label>Conflito de interesse</label>
+					<p> Os autores declararam que não há conflito de interesse.</p>
+				</fn>
+			</author-notes>
+			<pub-date date-type="collection" publication-format="electronic">
+				<year>2022</year>
+			</pub-date>
+			<pub-date date-type="pub" publication-format="electronic">
+				<day>15</day>
+				<month>07</month>
+				<year>2022</year>
+			</pub-date>
+			<volume>30</volume>
+			<elocation-id>e3607</elocation-id>
+			<history>
+				<date date-type="received">
+					<day>23</day>
+					<month>11</month>
+					<year>2021</year>
+				</date>
+				<date date-type="accepted">
+					<day>10</day>
+					<month>03</month>
+					<year>2022</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="pt">
+					<license-p>Este é um artigo publicado em acesso aberto sob uma licença Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>Resumo</title>
+				<sec>
+					<title>Objetivo:</title>
+					<p> estimar as propriedades psicométricas do <italic>Authentic Leadership Questionnaire</italic> (ALQ) aplicado a enfermeiros brasileiros. </p>
+				</sec>
+				<sec>
+					<title>Método:</title>
+					<p> estudo observacional transversal com amostragem não probabilística. As propriedades psicométricas das versões RATER e SELF do ALQ foram estimadas utilizando-se análise fatorial confirmatória com método de estimação robusto WLSMV. Como índices de qualidade de ajustamento dos modelos, foram utilizados: razão do qui-quadrado pelos graus de liberdade (χ<sup>2</sup>/gl), <italic>Tucker-Lewis Index</italic> (TLI), <italic>Comparative Fit Index</italic> (CFI), <italic>Root Mean Square Error of Aproximation</italic> (RMSEA) e <italic>Standardized Root Mean Squared Residual</italic> (SRMR). A confiabilidade dos dados foi analisada por meio do coeficiente alfa ordinal e da confiabilidade composta. </p>
+				</sec>
+				<sec>
+					<title>Resultados:</title>
+					<p> participaram 181 enfermeiros (sexo feminino: 80,1%; média de idade de 34,6 anos; tempo de trabalho inferior a cinco anos: 76,3%). Os modelos completos da ALQ RATER e ALQ SELF não apresentaram ajustamento adequado. Porquanto, o modelo refinado apresentou melhor ajustamento para a amostra (ALQ RATER: χ<sup>2</sup>/gl=2,77; CFI=0,97; TLI=0,97; RMSEA=0,10; SRMR=0,05; ALQ SELF: χ<sup>2</sup>/gl=2,74; CFI=0,94; TLI=0,92; RMSEA=0,10; SRMR=0,08). No modelo ALQ RATER, foram removidos os itens 1, 7 e 13. Devido à alta correlação entre os fatores Transparência Relacional e Perspectiva Moral, foi proposto um modelo trifatorial com base na junção dos fatores acima citados. No modelo ALQ SELF, foram retirados os itens 2, 5, 9 e 10. Do mesmo modo, foi proposto um modelo trifatorial baseado na junção de dois fatores agora denominado Equilíbrio Autoconsciência. </p>
+				</sec>
+				<sec>
+					<title>Conclusão:</title>
+					<p> os dados obtidos com <italic>Authentic Leadership Questionnaire</italic> com enfermeiros brasileiros foram válidos e confiáveis.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="pt">
+				<title>Descritores:</title>
+				<kwd>Liderança</kwd>
+				<kwd>Organização e Administração</kwd>
+				<kwd>Serviços de Saúde</kwd>
+				<kwd>Equipe de Enfermagem</kwd>
+				<kwd>Estudo de Validação</kwd>
+				<kwd>Psicometria</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="12"/>
+				<table-count count="3"/>
+				<equation-count count="0"/>
+				<ref-count count="31"/>
+				<page-count count="0"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<boxed-text id="bx1">
+			<sec>
+				<title>Destaques</title>
+				<p>(1) A validação de um questionário de liderança autêntica é inovador no cenário nacional. </p>
+				<p>(2) A liderança autêntica é um modelo ainda pouco adotado no cenário brasileiro. </p>
+				<p>(3) As escalas validadas permitirão avaliar a liderança autêntica dos enfermeiros.</p>
+			</sec>
+		</boxed-text>
+		<sec sec-type="intro">
+			<title>Introdução</title>
+			<p>O conceito de “autenticidade” está relacionado com psicologia positiva e tem suas raízes na filosofia grega, sendo que as primeiras aplicações deste construto surgiram nos campos da sociologia e educação<xref ref-type="bibr" rid="B1"><sup>1</sup></xref>. Em 2003, contudo, passou-se a dar maior ênfase ao conceito na área de gestão e liderança de modo que líderes autênticos foram definidos como aqueles que estão cientes de como pensam e se comportam, além de serem percebidos pelos outros como cientes de seus próprios valores, perspectivas morais, conhecimento e forças dos outros<xref ref-type="bibr" rid="B1"><sup>1</sup></xref>. </p>
+			<p>A autenticidade necessita de confiança, otimismo, resiliência e alto caráter moral, estando relacionada com ser verdadeiro consigo mesmo. O modelo teórico de Liderança Autêntica se distingue, então, pela transparência nos relacionamentos, pelo compartilhamento de informações e sentimentos bem como pelo comprometimento organizacional e satisfação no desempenho por meio de conduta consistente com o sistema de valores pessoais e convicções. A Liderança Autêntica é capaz de resultar em maior motivação para o engajamento em papéis de liderança pela criação de um ambiente de trabalho saudável e promoção de autoeficácia de liderança<xref ref-type="bibr" rid="B2"><sup>2</sup></xref>. Ademais, estudo sugere que a Liderança Autêntica pode prenunciar a qualidade do atendimento ao cliente<xref ref-type="bibr" rid="B3"><sup>3</sup></xref>.</p>
+			<p>A <italic>American Association of Critical-Care Nurses</italic> indica a liderança autêntica como modelo de liderança principal, também, nesse cenário de cuidado crítico, capaz de criar e sustentar ambientes de trabalho saudáveis<xref ref-type="bibr" rid="B4"><sup>4</sup></xref>. Baseados nos pressupostos desse modelo, os liderados têm a oportunidade de encontrar maior sentido nas atividades exercidas e maior comprometimento no trabalho, promovendo um ambiente que apoia tanto os líderes quanto seus liderados.</p>
+			<p>A teoria que sustenta a Liderança Autêntica se pauta em quatro pilares: Autoconsciência (disposição do líder em analisar seus pontos fortes e oportunidades de melhoria constantemente); Transparência Relacional (capacidade que o líder possui de se manter coerente com seus valores no relacionamento com o liderado); Processamento Equilibrado (tomar decisões de forma não tendenciosa) e Perspectiva Moral Internalizada (os valores do líder culminam com sua conduta moral)<xref ref-type="bibr" rid="B5"><sup>5</sup></xref>.</p>
+			<p>Com o intuito de avaliar a autenticidade do líder, abrangendo as suas características éticas, morais, comportamentais e organizacionais, em 2007, foram criadas as versões originais do <italic>Authentic Leadership Questionnaire - ALQ</italic><xref ref-type="bibr" rid="B6"><sup>6</sup></xref> testadas em duas amostras independentes dos Estados Unidos e da China. A amostra dos EUA consistiu em funcionários de uma indústria de alta tecnologia, enquanto a amostra chinesa foi composta de funcionários de uma grande empresa estatal. O ALQ foi publicado na língua inglesa em duas versões: escala RATER voltada para a avaliação da liderança exercida pelo líder do participante e a escala SELF, para avaliação do perfil de liderança do próprio participante. Posteriormente, estudos de validação do ALQ foram realizados para sua utilização em várias culturas, a exemplo da Espanha<xref ref-type="bibr" rid="B7"><sup>7</sup></xref>, França<xref ref-type="bibr" rid="B8"><sup>8</sup></xref> e Paquistão<xref ref-type="bibr" rid="B9"><sup>9</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B10"><sup>10</sup></xref>.</p>
+			<p>Críticas ao estudo original de 2008<xref ref-type="bibr" rid="B6"><sup>6</sup></xref> se deram pelo fato de estes pesquisadores não relatarem o uso de índices de modificações relacionados com os testes e ajustamento de modelos. Neste sentido, os autores buscaram encorajar outros pesquisadores para a realização de novos estudos, nos quais sejam explicitadas e detalhadas todas as análises realizadas<xref ref-type="bibr" rid="B11"><sup>11</sup></xref>. </p>
+			<p>Pesquisa recente reportou que os quatro fatores que compõem o ALQ (Autoconsciência; Transparência Relacional; Processamento Equilibrado; e Perspectiva Moral Internalizada) explicam a composição da Liderança Autêntica<xref ref-type="bibr" rid="B11"><sup>11</sup></xref>. </p>
+			<p>Faz-se importante ressaltar que até o momento não há evidências científicas de validação deste instrumento na língua portuguesa e para amostras brasileiras, tampouco que tenha suas propriedades psicométricas avaliadas em amostra de enfermeiros atuantes em ambiente hospitalar. Entretanto, sendo uma das medidas mais utilizadas para medir o estilo de liderança<xref ref-type="bibr" rid="B10"><sup>10</sup></xref>, a adaptação cultural do ALQ para o português brasileiro é premente bem como sua avaliação por líderes atuantes na área da saúde, o que poderá ampliar a identificação de estratégias que possa contribuir para um exercício de liderança mais eficaz por meio de uma gestão justa e autêntica e uma liderança transformadora. </p>
+			<p>Com base no exposto, realizou-se esse estudo com o objetivo de estimar as propriedades psicométricas preliminares (validade da estrutura interna) do <italic>Authentic Leadership Questionnaire (ALQ)</italic> aplicado a enfermeiros brasileiros.</p>
+		</sec>
+		<sec sec-type="methods">
+			<title>Método</title>
+			<sec>
+				<title>Desenho do estudo</title>
+				<p>Trata-se de estudo observacional transversal com amostragem não probabilística, realizado em dois hospitais gerais localizados na Região Centro-Oeste do Brasil. </p>
+			</sec>
+			<sec>
+				<title>População e amostra</title>
+				<p>A primeira instituição (Hospital A) é um hospital de ensino, público, com 210 leitos de internação em diversas especialidades e apresenta cerca de 1.600 profissionais dos quais 230 são enfermeiros. A segunda instituição (Hospital B) é uma entidade privada, sem fins lucrativos, sob gestão municipal, com 671 leitos e com mais de 3.600 profissionais contratados, destes, 260 são enfermeiros<xref ref-type="bibr" rid="B12"><sup>12</sup></xref>.</p>
+				<p>A população-alvo desse estudo foi composta de enfermeiros atuantes nas referidas instituições. Como critério de inclusão, foram considerados enfermeiros com vínculo ativo às instituições, sendo considerados elegíveis 300 enfermeiros. A estimativa do tamanho mínimo amostral para a realização da análise fatorial foi realizada considerando cinco a 10 sujeitos por parâmetro do modelo fatorial a ser estimado<xref ref-type="bibr" rid="B13"><sup>13</sup></xref>. Como o ALQ (SELF e RATER) possui 38 parâmetros (16 itens, 16 erros e 6 correlações entre os fatores), o tamanho mínimo amostral foi estimado entre 190 e 380 participantes. Os enfermeiros foram abordados, individualmente, em seu local de trabalho e convidados a participar do estudo. Nessa ocasião, foram entregues as duas versões do ALQ em instrumento impresso e recolhidas após cinco dias. Desta forma, o participante pôde responder ao instrumento, atentamente na ocasião e no espaço em que julgou mais adequados para tal, reduzindo riscos de interrupções e/ou exposição e constrangimento. Dos 300 enfermeiros elegíveis, 250 receberam o instrumento impresso, 50 não foram localizados por motivo de férias, afastamento, realocação, entre outros. Dos 250 instrumentos aplicados aos enfermeiros, apenas 200 foram devolvidos. A coleta de dados ocorreu no período de dezembro de 2017 a março de 2018. </p>
+			</sec>
+			<sec>
+				<title>Instrumentos</title>
+				<p>Para caracterização da amostra, foi elaborado um questionário composto de questões demográficas e ocupacionais, a saber: sexo (feminino ou masculino), titulação (graduação, especialização/residência, mestrado/doutorado), setor de trabalho (Administração/Direção, Clínica/Centro Cirúrgico, Materno-Infantil, Pronto Atendimento Médico, Unidade Coronariana, Unidade de Internação Adulto, Unidade de Terapia Intensiva, dentre outros), turno (manhã, tarde, noite, integral), tempo de experiência profissional (em anos) e tempo de atuação no hospital (em anos).</p>
+				<p>Como instrumento de medida, utilizou-se o <italic>Authentic Leadership Questionnaire - ALQ</italic> que foi aplicado a todos os participantes em suas duas versões com propósitos distintos: a escala RATER para avaliação de liderança do líder do participante e a escala SELF para avaliação do perfil de liderança do próprio participante. </p>
+				<p>Cada versão (SELF e RATER) apresenta 16 itens distribuídos em quatro fatores: Transparência Relacional (TR - itens 1 a 5); Perspectiva Moral (PM - itens 6 a 9); Processamento Equilibrado (PE - itens 10 a 12); e Autoconsciência (AC - itens 13 a 16). A escala de resposta aos itens é do tipo Likert de cinco pontos (0: Raramente/nunca, 1 de vez em quando, 2: às vezes, 3: frequentemente e 4: muitas vezes, quase sempre)<xref ref-type="bibr" rid="B6"><sup>6</sup></xref>.</p>
+				<p>A autorização para utilização do ALQ foi concedida diretamente pela <italic>Mind Garden, Inc.</italic>, empresa responsável por licenciar o questionário, representando o Dr. Bruce J. Avolio.</p>
+			</sec>
+			<sec>
+				<title>Propriedades psicométricas do ALQ - avaliação da estrutura interna</title>
+				<p>Foram estimadas a sensibilidade psicométrica dos itens, a validade de construto fatorial, convergente e discriminante e a confiabilidade do instrumento para a amostra (estrutura interna).</p>
+				<p>A sensibilidade psicométrica foi estimada utilizando as medidas de resumo (média, mediana e desvio-padrão) e de forma (assimetria e curtose) da distribuição das respostas dadas aos itens e foi considerada adequada quando os valores absolutos de assimetria e curtose foram inferiores a três e a sete, respectivamente<xref ref-type="bibr" rid="B14"><sup>14</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B15"><sup>15</sup></xref>.</p>
+				<p>A validade de construto fatorial foi testada por meio da Análise Fatorial Confirmatória (AFC) utilizando o método de estimação robusto de mínimos quadrados ponderados ajustados para média e variância (WLSMV). Para avaliar a qualidade do ajustamento do modelo à amostra, foram analisados os índices razão do qui-quadrado pelos graus de liberdade (χ<sup>2</sup>/gl), <italic>Comparative Fit Index</italic> (CFI), <italic>Tucker-Lewis Index</italic> (TLI), <italic>Root Mean Square Error of Approximation</italic> (RMSEA) e <italic>Standardized Root Mean Squared Residual</italic> (SRMR). Foram considerados adequados os valores de: χ<sup>2</sup>/gl ≤ 2,0; CFI e TLI ≥ 0,90; e RMSEA ≤ 0,10<xref ref-type="bibr" rid="B16"><sup>16</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B17"><sup>17</sup></xref>. Além disso, foram avaliados os pesos fatoriais (λ) considerados adequados se ≥ 0,50. Os índices de modificação, calculados pelo método dos multiplicadores de Lagrange (LM) foram inspecionados para saber se LM &gt;11<xref ref-type="bibr" rid="B13"><sup>13</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B15"><sup>15</sup></xref>.</p>
+				<p>A validade de construto convergente foi avaliada com base na Variância Extraída Média (VEM) e considerada adequada se VEM ≥ 0,50<xref ref-type="bibr" rid="B18"><sup>18</sup></xref>. Para avaliar a validade de construto discriminante, foi considerada a proposta a proposta de 1981<xref ref-type="bibr" rid="B18"><sup>18</sup></xref> que afirma que que se VEM<sub>i</sub> e VEM<sub>j</sub> ≥ ρ<sub>ij</sub><sup>2</sup>, pode-se confirmar a existência de validade discriminante. </p>
+				<p>A confiabilidade dos fatores foi avaliada por meio do Coeficiente alfa ordinal (α) e pela Confiabilidade Composta (CC). Valores de α e CC superiores a 0,70 foram considerados indicadores de confiabilidade adequados<xref ref-type="bibr" rid="B15"><sup>15</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B18"><sup>18</sup></xref>.</p>
+				<p>Depois de ter sido realizado o ajustamento dos modelos fatoriais das escalas ALQ RATER e SELF para a amostra, foi proposto um modelo hierárquico de segunda ordem (MHSO) no sentido de verificar a contribuição de cada fator para o construto geral de liderança.</p>
+				<p>O programa MPLUS v.8.3 (Muthén e Muthén, 2019, Los Angeles) e R (R Core Team, 2016) com os pacotes “lavaan”<xref ref-type="bibr" rid="B19"><sup>19</sup></xref> e “semTools”<xref ref-type="bibr" rid="B20"><sup>20</sup></xref> foram utilizados para realização das análises.</p>
+			</sec>
+			<sec>
+				<title>Aspectos éticos</title>
+				<p>Foram seguidos os preceitos éticos sobre as diretrizes e normas de pesquisas envolvendo seres humanos contidos na Resolução n.º 466, de 12 de dezembro de 2012 do Conselho Nacional de Saúde. O estudo obteve aprovação do Comitê de Ética em Pesquisa da Escola de Enfermagem da Universidade de São Paulo (CAAE: 67343717100005393).</p>
+			</sec>
+		</sec>
+		<sec sec-type="results">
+			<title>Resultados</title>
+			<p>Dos 300 enfermeiros elegíveis, 200 responderam ao questionário (taxa de adesão=66,7%), destes, 19 foram excluídos por preenchimento inconsistente, perfazendo a amostra com 181 participantes. Destes, 63,5% (n=115) trabalhavam no hospital A e os profissionais eram, predominantemente, do sexo feminino (145; 80,1%), idade média de 34,6 anos (desvio-padrão=6,7), possuíam titulação de especialização ou residência (138; 76,2%), atuavam nos hospitais por período inferior a cinco anos (138; 76,2%) e possuíam experiência profissional superior a cinco anos (123; 67,3%). A caracterização demográfica e ocupacional dos enfermeiros é apresentada na <xref ref-type="table" rid="t1">Tabela 1</xref>.</p>
+			<p>
+				<table-wrap id="t1">
+					<label>Tabela 1</label>
+					<caption>
+						<title>Caracterização demográfica e ocupacional dos enfermeiros (n=181). Campo Grande, MS, Brasil, 2018</title>
+					</caption>
+					<table>
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left">Característica</th>
+								<th align="left">n</th>
+								<th align="left">%</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td align="left" colspan="3"><bold>Sexo</bold></td>
+							</tr>
+							<tr>
+								<td align="left">Feminino</td>
+								<td align="left">145</td>
+								<td align="left">80,1</td>
+							</tr>
+							<tr>
+								<td align="left">Masculino</td>
+								<td align="left">34</td>
+								<td align="left">18,8</td>
+							</tr>
+							<tr>
+								<td align="left">Não responderam</td>
+								<td align="left">2</td>
+								<td align="left">1,1</td>
+							</tr>
+							<tr>
+								<td align="left" colspan="3"><bold>Faixa etária</bold></td>
+							</tr>
+							<tr>
+								<td align="left">20 a 29 anos</td>
+								<td align="left">47</td>
+								<td align="left">26,0</td>
+							</tr>
+							<tr>
+								<td align="left">30 a 39 anos</td>
+								<td align="left">92</td>
+								<td align="left">50,8</td>
+							</tr>
+							<tr>
+								<td align="left">40 a 49 anos</td>
+								<td align="left">37</td>
+								<td align="left">20,4</td>
+							</tr>
+							<tr>
+								<td align="left">50 anos ou mais</td>
+								<td align="left">3</td>
+								<td align="left">1,7</td>
+							</tr>
+							<tr>
+								<td align="left">Não responderam</td>
+								<td align="left">2</td>
+								<td align="left">1,1</td>
+							</tr>
+							<tr>
+								<td align="left" colspan="3"><bold>Maior titulação</bold></td>
+							</tr>
+							<tr>
+								<td align="left">Graduação</td>
+								<td align="left">21</td>
+								<td align="left">11,6</td>
+							</tr>
+							<tr>
+								<td align="left">Especialização/ residência</td>
+								<td align="left">138</td>
+								<td align="left">76,2</td>
+							</tr>
+							<tr>
+								<td align="left">Mestrado/Doutorado</td>
+								<td align="left">21</td>
+								<td align="left">11,6</td>
+							</tr>
+							<tr>
+								<td align="left">Não responderam</td>
+								<td align="left">1</td>
+								<td align="left">0,6</td>
+							</tr>
+							<tr>
+								<td align="left" colspan="3"><bold>Instituição</bold></td>
+							</tr>
+							<tr>
+								<td align="left">Hospital A</td>
+								<td align="left">115</td>
+								<td align="left">63,5</td>
+							</tr>
+							<tr>
+								<td align="left">Hospital B</td>
+								<td align="left">66</td>
+								<td align="left">36,5</td>
+							</tr>
+							<tr>
+								<td align="left" colspan="3"><bold>Setor de Trabalho</bold></td>
+							</tr>
+							<tr>
+								<td align="left">Unidade de Terapia Intensiva</td>
+								<td align="left">41</td>
+								<td align="left">22,7</td>
+							</tr>
+							<tr>
+								<td align="left">Outro</td>
+								<td align="left">41</td>
+								<td align="left">22,7</td>
+							</tr>
+							<tr>
+								<td align="left">Unidade de Internação Adulto</td>
+								<td align="left">29</td>
+								<td align="left">16,0</td>
+							</tr>
+							<tr>
+								<td align="left">Materno-Infantil</td>
+								<td align="left">23</td>
+								<td align="left">12,7</td>
+							</tr>
+							<tr>
+								<td align="left">Clínica/ Centro Cirúrgico</td>
+								<td align="left">20</td>
+								<td align="left">11,0</td>
+							</tr>
+							<tr>
+								<td align="left">Unidade Coronariana</td>
+								<td align="left">12</td>
+								<td align="left">6,6</td>
+							</tr>
+							<tr>
+								<td align="left">Pronto Atendimento Médico</td>
+								<td align="left">9</td>
+								<td align="left">5,0</td>
+							</tr>
+							<tr>
+								<td align="left">Administração/ Direção</td>
+								<td align="left">6</td>
+								<td align="left">3,3</td>
+							</tr>
+							<tr>
+								<td align="left" colspan="3"><bold>Turno de Trabalho</bold></td>
+							</tr>
+							<tr>
+								<td align="left">Manhã</td>
+								<td align="left">58</td>
+								<td align="left">32,0</td>
+							</tr>
+							<tr>
+								<td align="left">Noite</td>
+								<td align="left">57</td>
+								<td align="left">31,5</td>
+							</tr>
+							<tr>
+								<td align="left">Tarde</td>
+								<td align="left">42</td>
+								<td align="left">23,2</td>
+							</tr>
+							<tr>
+								<td align="left">Integral</td>
+								<td align="left">23</td>
+								<td align="left">12,7</td>
+							</tr>
+							<tr>
+								<td align="left">Não responderam</td>
+								<td align="left">1</td>
+								<td align="left">0,6</td>
+							</tr>
+							<tr>
+								<td align="left" colspan="3"><bold>Experiência Profissional</bold></td>
+							</tr>
+							<tr>
+								<td align="left">Menos de 1 ano</td>
+								<td align="left">13</td>
+								<td align="left">7,2</td>
+							</tr>
+							<tr>
+								<td align="left">De 1 a 5 anos</td>
+								<td align="left">45</td>
+								<td align="left">24,9</td>
+							</tr>
+							<tr>
+								<td align="left">5 a 10 anos</td>
+								<td align="left">52</td>
+								<td align="left">28,7</td>
+							</tr>
+							<tr>
+								<td align="left">De 10 a 20 anos</td>
+								<td align="left">56</td>
+								<td align="left">30,9</td>
+							</tr>
+							<tr>
+								<td align="left">Acima de 20 anos</td>
+								<td align="left">14</td>
+								<td align="left">7,7</td>
+							</tr>
+							<tr>
+								<td align="left">Não responderam</td>
+								<td align="left">1</td>
+								<td align="left">0,6</td>
+							</tr>
+							<tr>
+								<td align="left" colspan="3"><bold>Tempo de atuação no Hospital</bold></td>
+							</tr>
+							<tr>
+								<td align="left">Menos de 1 ano</td>
+								<td align="left">30</td>
+								<td align="left">16,6</td>
+							</tr>
+							<tr>
+								<td align="left">De 1 a 5 anos</td>
+								<td align="left">108</td>
+								<td align="left">59,7</td>
+							</tr>
+							<tr>
+								<td align="left">5 a 10 anos</td>
+								<td align="left">13</td>
+								<td align="left">7,2</td>
+							</tr>
+							<tr>
+								<td align="left">Acima de 10 anos</td>
+								<td align="left">30</td>
+								<td align="left">16,6</td>
+							</tr>
+						</tbody>
+					</table>
+				</table-wrap>
+			</p>
+			<p>Em relação à análise das propriedades psicométricas do ALQ para a amostra, as AFC dos modelos completo e refinado do ALQ RATER estão apresentados na <xref ref-type="fig" rid="f1">Figura 1</xref>.</p>
+			<p>
+				<fig id="f1">
+					<label>Figura 1</label>
+					<caption>
+						<title>Análise Fatorial Confirmatória dos modelos completo (A) e refinado (B) do ALQ RATER (n=181). Ribeirão Preto, SP, Brasil, 2021</title>
+					</caption>
+					<graphic xlink:href="1518-8345-rlae-30-e3607-gf1.png"/>
+				</fig>
+			</p>
+			<p>O modelo completo (A) da ALQ RATER não apresentou ajustamento adequado para a amostra (χ<sup>2</sup>/gl=4,42; CFI=0,94; TLI=0,92; RMSEA=0,14; SRMR=0,08). Os itens 1 e 7 apresentaram baixos pesos fatoriais e o item 13 exibiu alta correlação com o fator PE do instrumento (LM=40,51-61,09); portanto, esses itens foram removidos. O modelo refinado (B) apresentou melhor ajustamento para a amostra (χ<sup>2</sup>/gl=2,78; CFI=0,98; TLI=0,97; RMSEA=0,10; SRMR=0,05). A validade convergente dos fatores da escala ALQ RATER foi adequada (VEM=0,50-0,78). Porém, a validade discriminante dos fatores do instrumento não foi atestada (r<sup>2</sup>=0,60-1,00), dadas as fortes correlações entre eles. Em relação à confiabilidade, foram verificados valores de α ordinal (0,74-0,91) e CC (0,69-0,88) aceitáveis. </p>
+			<p>No intuito de avaliar a contribuição dos fatores para o conceito de liderança, um modelo hierárquico de segunda ordem (MHSO) foi proposto para o ALQ RATER (<xref ref-type="fig" rid="f2">Figura 2</xref>).</p>
+			<p>
+				<fig id="f2">
+					<label>Figura 2</label>
+					<caption>
+						<title>Análise Fatorial Confirmatória do modelo hierárquico de segunda ordem do ALQ RATER (n=181). Ribeirão Preto, SP, Brasil, 2021</title>
+					</caption>
+					<graphic xlink:href="1518-8345-rlae-30-e3607-gf2.png"/>
+				</fig>
+			</p>
+			<p>O MHSO do ALQ RATER apresentou ajustamento aceitável para amostra (χ<sup>2</sup>/gl=2,89; CFI=0,97; TLI=0,97; RMSEA=0,10), pesos fatoriais adequados (λ=0,63-0,94) e alta contribuição dos fatores e o construto da liderança (β=0,86-1,00; p&lt;0,001).</p>
+			<p>Apesar disso, com base na observação da alta correlação entre os fatores TR e PM (<xref ref-type="fig" rid="f1">Figura 1</xref>), foi proposto um modelo trifatorial para o ALQ RATER (<xref ref-type="fig" rid="f3">Figura 3</xref>), formado pelos fatores originais PE e AC e pela junção dos fatores TR e PM (denominado, então, Relacional e Moral - RM), composto dos itens TR2, TR3, TR4, TR5, PM6, PM8, e PM9 e apresentou ajustamento adequado para a amostra (χ<sup>2</sup>/gl=2,77; CFI=0,97; TLI=0,97; RMSEA=0,10; SRMR=0,05).</p>
+			<p>
+				<fig id="f3">
+					<label>Figura 3</label>
+					<caption>
+						<title>Análise Fatorial Confirmatória do modelo trifatorial do ALQ RATER (n=181). Ribeirão Preto, SP, Brasil, 2021</title>
+					</caption>
+					<graphic xlink:href="1518-8345-rlae-30-e3607-gf3.png"/>
+				</fig>
+			</p>
+			<p>Verificou-se que este modelo trifatorial apresentou: pesos fatoriais λ≥0,65; fortes correlações entre os fatores (r=0,81-0,93); e validade convergente adequada (VEM=0,52-0,78). A validade discriminante entre os fatores não foi atestada (r<sup>2</sup>=0.66-0.86) e foram observados valores de α ordinal (0,85-0,91) e CC (0,83-0,88) adequados.</p>
+			<p>No tocante ao ALQ SELF, o modelo completo tetrafatorial não se ajustou à amostra (χ<sup>2</sup>/gl=3,85; CFI=0,84; TLI=0,81; RMSEA=0,13; SRMR=0,11). A maioria dos itens apresentou baixos pesos fatoriais e os itens 9 e 10 apresentaram correlação com outros fatores do instrumento (LM=48,15-61,22). Foram observadas correlações moderadas entre a maioria dos fatores (r=0,48-0,68) e forte correlação entre os fatores PE e AC (r=0,97).</p>
+			<p>Durante o ajustamento, entretanto, verificou-se que o fator PE seria composto apenas dos itens 11 e 12, sendo, então, proposto um modelo trifatorial ajustado à amostra após a união dos fatores PE e AC. Este modelo trifatorial, dessa forma, passou a ser constituído pelos fatores TR, PM e pela junção de PE e AC (denominado então Equilíbrio Autoconsciência - EAC), composto dos itens PE11, PE12, AC13, AC14, AC15 e AC16 e apresentou ajustamento adequado à amostra (χ<sup>2</sup>/gl=2,74; CFI=0,94; TLI=0,92; RMSEA=0,10; SRMR=0,08). As AFC do modelo completo (tetrafatorial) e do modelo refinado (trifatorial) do ALQ SELF para a amostra estão apresentadas na <xref ref-type="fig" rid="f4">Figura 4</xref>.</p>
+			<p>
+				<fig id="f4">
+					<label>Figura 4</label>
+					<caption>
+						<title>Análise Fatorial Confirmatória dos modelos completo tetrafatorial (A) e refinado trifatorial (B) do ALQ SELF (n=181). Ribeirão Preto, SP, Brasil, 2021</title>
+					</caption>
+					<graphic xlink:href="1518-8345-rlae-30-e3607-gf4.png"/>
+				</fig>
+			</p>
+			<p>Foram atestadas a validade convergente (VEM=0,48-0,57) e discriminante (r<sup>2</sup>=0,10-0,25) dos fatores do modelo refinado do ALQ SELF para a amostra. Em relação à confiabilidade dos itens, foram verificados valores adequados (α=0,71-0.88; CC=0,67-0,84). Em decorrência das correlações moderadas entre os fatores, não foi proposto um MHSO do ALQ SELF para a amostra.</p>
+		</sec>
+		<sec sec-type="discussion">
+			<title>Discussão</title>
+			<p>No que se refere ao ALQ RATER, a alta correlação entre os fatores Transparência Relacional e Perspectiva Moral possibilitou a junção desses fatores, justificada pela relação direta entre os conceitos teóricos dos mesmos, uma vez que mostrar o “eu” verdadeiro para o outro (transparência relacional) é característica essencial de quem se comporta de acordo com os valores pessoais (perspectiva moral). Além disso, compreende-se que as pessoas tendem a perceber e avaliar a transparência com base em suas estruturas, valores, emoções e limitações cognitivas<xref ref-type="bibr" rid="B21"><sup>21</sup></xref>, e que a transparência relacional requer genuinidade e transparência da parte do líder, de modo a conseguir confiança dos seguidores<xref ref-type="bibr" rid="B22"><sup>22</sup></xref>, propagar o que pensam e buscar harmonia no grupo<xref ref-type="bibr" rid="B9"><sup>9</sup></xref>.</p>
+			<p>Importante ressaltar que é necessário investir no fortalecimento das relações interpessoais entre líder e liderados para que se possa ter uma comunicação mais assertiva bem como desenvolver a autoconfiança na equipe<xref ref-type="bibr" rid="B23"><sup>23</sup></xref>. De forma análoga, a perspectiva moral prevê que o líder cultive e seja capaz de promover valores, de modo que tome decisões justas, baseadas em elevados padrões éticos<xref ref-type="bibr" rid="B6"><sup>6</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B22"><sup>22</sup></xref>. Assim, os fatores Relacional e Moral compõem a transparência e a ética, que devem caminhar em conjunto. Corroborando o exposto, estudo realizado na Bélgica mostra que a liderança autêntica e a integridade comportamental do líder estão relacionadas com o desempenho e comprometimento organizacional do seguidor e que este relacionamento se mantém ao controlar a cultura organizacional ética<xref ref-type="bibr" rid="B24"><sup>24</sup></xref> aproximando, portanto, os fatores Transparência Relacional da Perspectiva Moral.</p>
+			<p>Em relação à exclusão dos itens 1 e 7 do novo fator Relacional e Moral e do item 13 do fator Autoconsciência, considera-se aceitável do ponto de vista teórico, uma vez que os itens remanescentes são capazes de expressar os conceitos de transparência relacional (o líder se mostra tal como é), perspectiva moral (o líder demonstra valores e conduta ética) e autoconsciência (líder tem consciência de suas potencialidades e fragilidades)<xref ref-type="bibr" rid="B7"><sup>7</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B21"><sup>21</sup></xref>. Ademais, os itens nem sempre estão correlacionados com um único fator, havendo algum grau de associação aos fatores conceitualmente relacionados<xref ref-type="bibr" rid="B25"><sup>25</sup></xref>. Na Espanha, o ALQ foi aplicado em uma amostra de 623 trabalhadores de organizações públicas e privadas de setores variados e, assim como ocorreu no Brasil, houve a necessidade de exclusão de três itens<xref ref-type="bibr" rid="B7"><sup>7</sup></xref>.</p>
+			<p>A partir da observação do modelo hierárquico de segunda ordem proposto para o ALQ RATER, verificou-se que os fatores Transparência Relacional, Perspectiva Moral e Processamento Equilibrado foram os que mais colaboraram para a elaboração do construto liderança com enfermeiros brasileiros. Este fato difere daquele evidenciado em estudo realizado com 1861 funcionários de organizações de vários setores e portes cuja dimensão com maior poder explicativo na avaliação do líder foi a Autoconsciência, seguida do Processamento Equilibrado<xref ref-type="bibr" rid="B26"><sup>26</sup></xref>. Para a amostra, que comparou 1019 funcionários brasileiros aos 842 portugueses, a fundamentação teórica consistiu no fato de que o autoconhecimento do líder e sua relação com os liderados são essenciais para o exercício da liderança autêntica<xref ref-type="bibr" rid="B26"><sup>26</sup></xref>.</p>
+			<p>Assim como na escala RATER, a exclusão dos itens 2, 5, 9 e 10 pode ser justificada teoricamente por não comprometer os conceitos dos diferentes fatores, já que os itens que permaneceram são capazes de contemplar a definição de cada um deles. Faz-se também importante destacar que é possível a sobreposição entre os fatores<xref ref-type="bibr" rid="B25"><sup>25</sup></xref> como ocorreu entre Processamento Equilibrado e Autoconsciência, que apresentaram correlação perfeita. Foi, então, proposto um único fator (Equilíbrio e Autoconsciência), justificado a partir do referencial teórico do instrumento, considerando que para se tomar uma decisão de forma coerente é necessário analisá-la antes (processamento equilibrado), tendo consciência das próprias fragilidades e potencialidades (autoconsciência). Processamento equilibrado faz referência às capacidades do líder de analisar cuidadosamente uma situação antes de tomar decisões, sendo capaz de aceitar outros pontos de vista, ainda que sejam diferentes dos seus<xref ref-type="bibr" rid="B1"><sup>1</sup></xref>. Nessa mesma direção, a autoconsciência remete à profunda percepção de seus valores e crenças bem como de como se comportam e são percebidos pelos outros<xref ref-type="bibr" rid="B1"><sup>1</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B27"><sup>27</sup></xref>. Cabe destacar, ainda, que o próprio idealizador do instrumento sugere não ser adequado conceituar os quatro fatores do ALQ como avaliações inteiramente separadas e construções distintas<xref ref-type="bibr" rid="B6"><sup>6</sup></xref>.</p>
+			<p>Dado o exposto, a avaliação psicométrica do ALQ indicou validade da estrutura interna adequada para os modelos trifatoriais nas versões RATER e SELF. Contrariamente, no Paquistão<xref ref-type="bibr" rid="B9"><sup>9</sup></xref>, Nova Zelândia<xref ref-type="bibr" rid="B28"><sup>28</sup></xref>, Espanha<xref ref-type="bibr" rid="B7"><sup>7</sup></xref>, Bélgica<xref ref-type="bibr" rid="B24"><sup>24</sup></xref>, Portugal<xref ref-type="bibr" rid="B29"><sup>29</sup></xref>, Turquia<xref ref-type="bibr" rid="B30"><sup>30</sup></xref>, foi constatada a validade do modelo tetrafatorial<xref ref-type="bibr" rid="B7"><sup>7</sup></xref>.</p>
+			<p>No tocante às diferenças de ajustamento das duas versões (SELF e RATER), entende-se que quando os participantes se veem como líderes, eles conseguem ver em si mesmos o processamento equilibrado, sendo capazes em seu entender de tomar decisões de maneira não tendenciosa; o mesmo ocorre com a autoconsciência, uma vez que os indivíduos acreditam entender o impacto que podem causar nas pessoas<xref ref-type="bibr" rid="B5"><sup>5</sup></xref>. Contudo, os participantes apresentam dificuldades em compreender a importância da transparência relacional e a perspectiva moral entre o líder e liderados, caracterizadas pela exigência de elevados padrões éticos que conduzem o comportamento<xref ref-type="bibr" rid="B5"><sup>5</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B6"><sup>6</sup></xref>.</p>
+			<p>Nesta investigação, o modelo hierárquico de segunda ordem só foi possível para a escala RATER que evidenciou a forte correlação entre os fatores. Este resultado corrobora o estudo dos idealizadores do ALQ<xref ref-type="bibr" rid="B6"><sup>6</sup></xref> que destaca que os quatro fatores (Transparência Relacional, Perspectiva Moral, Processamento Equilibrado e Autoconsciência) não são independentes e que o construto liderança, um único fator de segunda ordem, explica essa dependência. </p>
+			<p>A revisão da validação pelos autores da versão original do ALQ<xref ref-type="bibr" rid="B11"><sup>11</sup></xref> em consonância com o artigo original de 2008<xref ref-type="bibr" rid="B6"><sup>6</sup></xref> reforçou a importância dos quatro componentes teóricos do modelo de Liderança Autêntica; contudo, os autores estimulam o desenvolvimento de outros estudos de validação do modelo<xref ref-type="bibr" rid="B11"><sup>11</sup></xref>. </p>
+			<p>Destarte, as análises de validação do ALQ propostas poderão contribuir para ampliar os conhecimentos de profissionais e pesquisadores das áreas de enfermagem e de gestão hospitalar, uma vez que o estudo apresenta a adaptação cultural do ALQ para a língua portuguesa do Brasil<xref ref-type="bibr" rid="B31"><sup>31</sup></xref> bem como evidências relacionadas com a validade da estrutura interna do instrumento aplicado a enfermeiros atuantes em hospitais brasileiros. </p>
+			<p>As limitações deste estudo se referem à utilização do método de amostragem não probabilística e ao tamanho amostral, aspectos esses que impedem a generalização dos resultados. No entanto, ressalta-se que o ALQ nas versões SELF e RATER foi considerado um instrumento válido e confiável para ser aplicado à população de enfermeiros, o que certamente contribuirá para o aprimoramento das investigações acerca da liderança autêntica nos cenários da saúde brasileiros.</p>
+		</sec>
+		<sec sec-type="conclusions">
+			<title>Conclusão</title>
+			<p>As escalas SELF e RATER do <italic>Authentic Leadership Questionnaire</italic> (ALQ) aplicadas a uma amostra de enfermeiros brasileiros permitiram o levantamento de informações válidas e confiáveis que possibilitaram a avaliação da liderança autêntica destes profissionais. Entretanto, para que o ALQ pudesse ser utilizado, adaptações da estrutura interna do instrumento foram necessárias. </p>
+			<p>A utilização das escalas SELF e RATER pode ser realizada de forma independente, podendo ser aplicada aos enfermeiros brasileiros atuantes no contexto hospitalar. A aplicabilidade da escala poderá fornecer evidências relacionadas com a autenticidade do enfermeiro líder e sua influência nas organizações hospitalares, abrindo espaço para reflexão, discussão e futuro emprego dessa ferramenta para rastreamento e monitoramento de características relacionadas com a liderança autêntica nesse contexto.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>Referências</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. Avolio BJ, Gardner WL. Authentic leadership development: Getting to the root of positive forms of leadership. Leadersh Q. 2005;16(3):315-38. http://doi.org/10.1016/j.leaqua.2005.03.001</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Avolio</surname>
+							<given-names>BJ</given-names>
+						</name>
+						<name>
+							<surname>Gardner</surname>
+							<given-names>WL</given-names>
+						</name>
+					</person-group>
+					<article-title>Authentic leadership development: Getting to the root of positive forms of leadership</article-title>
+					<source>Leadersh Q</source>
+					<year>2005</year>
+					<volume>16</volume>
+					<issue>3</issue>
+					<fpage>315</fpage>
+					<lpage>338</lpage>
+					<pub-id pub-id-type="doi">10.1016/j.leaqua.2005.03.001</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. Labrague LJ, Al Sabei S, Al Rawajfah O, AbuAlRub R, Burney I. Authentic leadership and nurses' motivation to engage in leadership roles: The mediating effects of nurse work environment and leadership self-efficacy. J Nurs Manag. 2021;29(8):2444-52. https://doi.org/10.1111/jonm.13448</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Labrague</surname>
+							<given-names>LJ</given-names>
+						</name>
+						<name>
+							<surname>Al Sabei</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Al Rawajfah</surname>
+							<given-names>O</given-names>
+						</name>
+						<name>
+							<surname>AbuAlRub</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Burney</surname>
+							<given-names>I</given-names>
+						</name>
+					</person-group>
+					<article-title>Authentic leadership and nurses' motivation to engage in leadership roles: The mediating effects of nurse work environment and leadership self-efficacy</article-title>
+					<source>J Nurs Manag</source>
+					<year>2021</year>
+					<volume>29</volume>
+					<issue>8</issue>
+					<fpage>2444</fpage>
+					<lpage>2452</lpage>
+					<pub-id pub-id-type="doi">10.1111/jonm.13448</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. Puni A, Hilton SK. Dimensions of authentic leadership and patient care quality. Leadersh Health Serv (Bradf Engl). 2020;33(4):365-83. http://doi.org/10.1108/LHS-11-2019-0071</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Puni</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Hilton</surname>
+							<given-names>SK</given-names>
+						</name>
+					</person-group>
+					<article-title>Dimensions of authentic leadership and patient care quality</article-title>
+					<source>Leadersh Health Serv (Bradf Engl)</source>
+					<year>2020</year>
+					<volume>33</volume>
+					<issue>4</issue>
+					<fpage>365</fpage>
+					<lpage>383</lpage>
+					<pub-id pub-id-type="doi">10.1108/LHS-11-2019-0071</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. Alexander C, Lopez RP. A Thematic Analysis of Self-described Authentic Leadership Behaviors Among Experienced Nurse Executives. JONA J Nurs Adm. 2018;48(1):38-43. http://doi.org/10.1111/jan.13922</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Alexander</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Lopez</surname>
+							<given-names>RP</given-names>
+						</name>
+					</person-group>
+					<article-title>A Thematic Analysis of Self-described Authentic Leadership Behaviors Among Experienced Nurse Executives</article-title>
+					<source>JONA J Nurs Adm</source>
+					<year>2018</year>
+					<volume>48</volume>
+					<issue>1</issue>
+					<fpage>38</fpage>
+					<lpage>43</lpage>
+					<pub-id pub-id-type="doi">10.1111/jan.13922</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Mehmood Q, Hamstra MRW, Schreurs B. Employees' perceptions of their manager's authentic leadership. Pers Rev. 2019;49(1):202-14. http://doi.org/10.1108/PR-03-2019-0097</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Mehmood</surname>
+							<given-names>Q</given-names>
+						</name>
+						<name>
+							<surname>Hamstra</surname>
+							<given-names>MRW</given-names>
+						</name>
+						<name>
+							<surname>Schreurs</surname>
+							<given-names>B</given-names>
+						</name>
+					</person-group>
+					<article-title>Employees' perceptions of their manager's authentic leadership</article-title>
+					<source>Pers Rev</source>
+					<year>2019</year>
+					<volume>49</volume>
+					<issue>1</issue>
+					<fpage>202</fpage>
+					<lpage>214</lpage>
+					<pub-id pub-id-type="doi">10.1108/PR-03-2019-0097</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. Walumbwa FO, Avolio BJ, Gardner WL, Wernsing TS, Peterson SJ. Authentic Leadership: Development and Validation of a Theory-Based Measure. J Manage. 2008;34(1):89-126. http://doi.org/10.1177/0149206307308913</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Walumbwa</surname>
+							<given-names>FO</given-names>
+						</name>
+						<name>
+							<surname>Avolio</surname>
+							<given-names>BJ</given-names>
+						</name>
+						<name>
+							<surname>Gardner</surname>
+							<given-names>WL</given-names>
+						</name>
+						<name>
+							<surname>Wernsing</surname>
+							<given-names>TS</given-names>
+						</name>
+						<name>
+							<surname>Peterson</surname>
+							<given-names>SJ</given-names>
+						</name>
+					</person-group>
+					<article-title>Authentic Leadership: Development and Validation of a Theory-Based Measure</article-title>
+					<source>J Manage</source>
+					<year>2008</year>
+					<volume>34</volume>
+					<issue>1</issue>
+					<fpage>89</fpage>
+					<lpage>126</lpage>
+					<pub-id pub-id-type="doi">10.1177/0149206307308913</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. Moriano JA, Molero F, Lévy Mangin JP. Authentic leadership. Concept and validation of the ALQ in Spain. Psicothema [Internet]. 2011 [cited 2021 Nov 23];23(2):336-41. Available from: <ext-link ext-link-type="uri" xlink:href="http://www.psicothema.com/PDF/3891.pdf">http://www.psicothema.com/PDF/3891.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Moriano</surname>
+							<given-names>JA</given-names>
+						</name>
+						<name>
+							<surname>Molero</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Lévy Mangin</surname>
+							<given-names>JP</given-names>
+						</name>
+					</person-group>
+					<article-title>Authentic leadership. Concept and validation of the ALQ in Spain</article-title>
+					<source>Psicothema</source>
+					<year>2011</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-11-23">2021 Nov 23</date-in-citation>
+					<volume>23</volume>
+					<issue>2</issue>
+					<fpage>336</fpage>
+					<lpage>341</lpage>
+					<comment>Available from: <ext-link ext-link-type="uri" xlink:href="http://www.psicothema.com/PDF/3891.pdf">http://www.psicothema.com/PDF/3891.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Nelson K, Boudrias JS, Brunet L, Morin D, De Civita M, Savoie A, et al. Authentic leadership and psychological well-being at work of nurses: The mediating role of work climate at the individual level of analysis. Burn Res. 2014;1(2):90-101. https://doi.org/10.1016/j.burn.2014.08.001</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Nelson</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Boudrias</surname>
+							<given-names>JS</given-names>
+						</name>
+						<name>
+							<surname>Brunet</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Morin</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>De Civita</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Savoie</surname>
+							<given-names>A</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Authentic leadership and psychological well-being at work of nurses: The mediating role of work climate at the individual level of analysis</article-title>
+					<source>Burn Res</source>
+					<year>2014</year>
+					<volume>1</volume>
+					<issue>2</issue>
+					<fpage>90</fpage>
+					<lpage>101</lpage>
+					<pub-id pub-id-type="doi">10.1016/j.burn.2014.08.001</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. Bakari H, Hunjra AI, Niazi GSK. How Does Authentic Leadership Influence Planned Organizational Change? The Role of Employees' Perceptions: Integration of Theory of Planned Behavior and Lewin's Three Step Model. J Chang Manag. 2017;17(2):155-87. https://doi.org/10.1080/14697017.2017.1299370</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bakari</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Hunjra</surname>
+							<given-names>AI</given-names>
+						</name>
+						<name>
+							<surname>Niazi</surname>
+							<given-names>GSK</given-names>
+						</name>
+					</person-group>
+					<article-title>Does Authentic Leadership Influence Planned Organizational Change? The Role of Employees' Perceptions: Integration of Theory of Planned Behavior and Lewin's Three Step Model</article-title>
+					<source>J Chang Manag</source>
+					<year>2017</year>
+					<volume>17</volume>
+					<issue>2</issue>
+					<fpage>155</fpage>
+					<lpage>187</lpage>
+					<pub-id pub-id-type="doi">10.1080/14697017.2017.1299370</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. Akbar F, Ali Z, Ahmad I. Validation of Authentic Leadership Questionnaire in Pakistani Context: Evidence form Higher Education Institutions of Khyber Pakhtunkhwa. Abasyn J Soc Sci. 2019;12(1). https://doi.org/10.34091/AJSS.12.1.08%0A%0A</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Akbar</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Ali</surname>
+							<given-names>Z</given-names>
+						</name>
+						<name>
+							<surname>Ahmad</surname>
+							<given-names>I</given-names>
+						</name>
+					</person-group>
+					<article-title>Validation of Authentic Leadership Questionnaire in Pakistani Context: Evidence form Higher Education Institutions of Khyber Pakhtunkhwa</article-title>
+					<source>Abasyn J Soc Sci</source>
+					<year>2019</year>
+					<volume>12</volume>
+					<issue>1</issue>
+					<pub-id pub-id-type="doi">10.34091/AJSS.12.1.08%0A%0A</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. Avolio BJ, Wernsing T, Gardner WL. Revisiting the Development and Validation of the Authentic Leadership Questionnaire: Analytical Clarifications. J Manage. 2018;44(2):399-411. http://doi.org/10.1177/0149206317739960</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Avolio</surname>
+							<given-names>BJ</given-names>
+						</name>
+						<name>
+							<surname>Wernsing</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Gardner</surname>
+							<given-names>WL</given-names>
+						</name>
+					</person-group>
+					<article-title>Revisiting the Development and Validation of the Authentic Leadership Questionnaire: Analytical Clarifications</article-title>
+					<source>J Manage</source>
+					<year>2018</year>
+					<volume>44</volume>
+					<issue>2</issue>
+					<fpage>399</fpage>
+					<lpage>411</lpage>
+					<pub-id pub-id-type="doi">10.1177/0149206317739960</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. Ministério da Saúde (BR), Cadastro Nacional de Estabelecimentos de Saúde. Consulta estabelecimento - Identificação [Homepage]. 2020 [cited 2020 Jun 21]. Available from: <ext-link ext-link-type="uri" xlink:href="http://cnes.datasus.gov.br/pages/estabelecimentos/consulta.jsp?search=HOSPITAL">http://cnes.datasus.gov.br/pages/estabelecimentos/consulta.jsp?search=HOSPITAL</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="database">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR), Cadastro Nacional de Estabelecimentos de Saúde</collab>
+					</person-group>
+					<source>Consulta estabelecimento - Identificação</source>
+					<comment>Homepage</comment>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-06-21">2020 Jun 21</date-in-citation>
+					<comment>Available from: <ext-link ext-link-type="uri" xlink:href="http://cnes.datasus.gov.br/pages/estabelecimentos/consulta.jsp?search=HOSPITAL">http://cnes.datasus.gov.br/pages/estabelecimentos/consulta.jsp?search=HOSPITAL</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. Hair J Junior, Black WC, Babin BJ, Anderson RE. Multivariate data analysis. 7. ed. Upper Saddle River: Prentice Hall; 2010.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hair</surname>
+							<given-names>J</given-names>
+							<suffix>Junior</suffix>
+						</name>
+						<name>
+							<surname>Black</surname>
+							<given-names>WC</given-names>
+						</name>
+						<name>
+							<surname>Babin</surname>
+							<given-names>BJ</given-names>
+						</name>
+						<name>
+							<surname>Anderson</surname>
+							<given-names>RE</given-names>
+						</name>
+					</person-group>
+					<source>Multivariate data analysis</source>
+					<year>2010</year>
+					<edition>7</edition>
+					<publisher-loc>Upper Saddle River</publisher-loc>
+					<publisher-name>Prentice Hall</publisher-name>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. Kline RB. Principles and practice of structural equation modeling. New York: The Guilford Press; 1998.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kline</surname>
+							<given-names>RB</given-names>
+						</name>
+					</person-group>
+					<source>Principles and practice of structural equation modeling</source>
+					<year>1998</year>
+					<publisher-loc>New York</publisher-loc>
+					<publisher-name>The Guilford Press</publisher-name>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. Marôco J. Análise de Equações Estruturais - Fundamentos teóricos, Software e Aplicações. 2. ed. Lisboa: ReportNumber; 2014.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Marôco</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<source>Análise de Equações Estruturais - Fundamentos teóricos, Software e Aplicações</source>
+					<year>2014</year>
+					<edition>2</edition>
+					<publisher-loc>Lisboa</publisher-loc>
+					<publisher-name>ReportNumber</publisher-name>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. Arbuckle JL. AMOS 17.0 user's guide (Manual software). Chicago: Statistical Package for the Social Sciences; 2008.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Arbuckle</surname>
+							<given-names>JL</given-names>
+						</name>
+					</person-group>
+					<source>AMOS 17.0 user's guide (Manual software)</source>
+					<year>2008</year>
+					<publisher-loc>Chicago</publisher-loc>
+					<publisher-name>Statistical Package for the Social Sciences</publisher-name>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Bentler PM. Comparative fit indexes in structural models. Psychol Bull. 1990;107(2):238-46. http://doi.org/10.1037/0033-2909.107.2.238</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bentler</surname>
+							<given-names>PM</given-names>
+						</name>
+					</person-group>
+					<article-title>Comparative fit indexes in structural models</article-title>
+					<source>Psychol Bull</source>
+					<year>1990</year>
+					<volume>107</volume>
+					<issue>2</issue>
+					<fpage>238</fpage>
+					<lpage>246</lpage>
+					<pub-id pub-id-type="doi">10.1037/0033-2909.107.2.238</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18. Fornell C, Larcker DF. Evaluating Structural Equation Models with Unobservable Variables and Measurement Error. J Mark Res. 1981;18(1):39. http://doi.org/10.2307/3151312</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Fornell</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Larcker</surname>
+							<given-names>DF</given-names>
+						</name>
+					</person-group>
+					<article-title>Evaluating Structural Equation Models with Unobservable Variables and Measurement Error</article-title>
+					<source>J Mark Res</source>
+					<year>1981</year>
+					<volume>18</volume>
+					<issue>1</issue>
+					<fpage>39</fpage>
+					<lpage>39</lpage>
+					<pub-id pub-id-type="doi">10.2307/3151312</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19. Rosseel Y. lavaan : An R Package for Structural Equation Modeling. J Stat Softw. 2012;48(2). https://doi.org/10.18637/jss.v048.i02</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rosseel</surname>
+							<given-names>Y</given-names>
+						</name>
+					</person-group>
+					<article-title>lavaan : An R Package for Structural Equation Modeling</article-title>
+					<source>J Stat Softw</source>
+					<year>2012</year>
+					<volume>48</volume>
+					<issue>2</issue>
+					<pub-id pub-id-type="doi">10.18637/jss.v048.i02</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20. Jorgensen TD, Pornprasertmanit S, Schoemann AM. semTools: Useful tools for structural equation modeling. R Packag Version 05-4 2019.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Jorgensen</surname>
+							<given-names>TD</given-names>
+						</name>
+						<name>
+							<surname>Pornprasertmanit</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Schoemann</surname>
+							<given-names>AM</given-names>
+						</name>
+					</person-group>
+					<source>semTools: Useful tools for structural equation modeling</source>
+					<version>R Packag Version 05-4</version>
+					<year>2019</year>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>21. Alvesson M, Einola K. Warning for excessive positivity: Authentic leadership and other traps in leadership studies. Leadersh Q. 2019;30(4):383-95. https://doi.org/10.1016/j.leaqua.2019.04.001</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Alvesson</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Einola</surname>
+							<given-names>K</given-names>
+						</name>
+					</person-group>
+					<article-title>Warning for excessive positivity: Authentic leadership and other traps in leadership studies</article-title>
+					<source>Leadersh Q</source>
+					<year>2019</year>
+					<volume>30</volume>
+					<issue>4</issue>
+					<fpage>383</fpage>
+					<lpage>395</lpage>
+					<pub-id pub-id-type="doi">10.1016/j.leaqua.2019.04.001</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>22. Johnson SL. Authentic Leadership Theory and Practical Applications in Nuclear Medicine. J Nucl Med Technol. 2019;47(3):181-8. https://doi.org/10.2967/jnmt.118.222851</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Johnson</surname>
+							<given-names>SL</given-names>
+						</name>
+					</person-group>
+					<article-title>Authentic Leadership Theory and Practical Applications in Nuclear Medicine</article-title>
+					<source>J Nucl Med Technol</source>
+					<year>2019</year>
+					<volume>47</volume>
+					<issue>3</issue>
+					<fpage>181</fpage>
+					<lpage>188</lpage>
+					<pub-id pub-id-type="doi">10.2967/jnmt.118.222851</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>23. Castillo ALR, Padilla MER, Hernández DG. Self-evaluation and evaluation of nursing leaders' Leadership Styles. Rev. Latino-Am. Enfermagem. 2021;29. https://doi.org/10.1590/1518-8345.3435.3393</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Castillo</surname>
+							<given-names>ALR</given-names>
+						</name>
+						<name>
+							<surname>Padilla</surname>
+							<given-names>MER</given-names>
+						</name>
+						<name>
+							<surname>Hernández</surname>
+							<given-names>DG</given-names>
+						</name>
+					</person-group>
+					<article-title>Self-evaluation and evaluation of nursing leaders' Leadership Styles</article-title>
+					<source>Rev. Latino-Am. Enfermagem</source>
+					<year>2021</year>
+					<volume>29</volume>
+					<pub-id pub-id-type="doi">10.1590/1518-8345.3435.3393</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>24. Leroy H, Palanski ME, Simons T. Authentic Leadership and Behavioral Integrity as Drivers of Follower Commitment and Performance. J Bus Ethics. 2012;107(3):255-64. https://doi.org/10.1007/s10551-011-1036-1</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Leroy</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Palanski</surname>
+							<given-names>ME</given-names>
+						</name>
+						<name>
+							<surname>Simons</surname>
+							<given-names>T</given-names>
+						</name>
+					</person-group>
+					<article-title>Authentic Leadership and Behavioral Integrity as Drivers of Follower Commitment and Performance</article-title>
+					<source>J Bus Ethics</source>
+					<year>2012</year>
+					<volume>107</volume>
+					<issue>3</issue>
+					<fpage>255</fpage>
+					<lpage>264</lpage>
+					<pub-id pub-id-type="doi">10.1007/s10551-011-1036-1</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>25. Levesque-Côté J, Fernet C, Austin S, Morin AJS. New Wine in a New Bottle: Refining The Assessment of Authentic Leadership Using Exploratory Structural Equation Modeling (ESEM). J Bus Psychol. 2018;33(5):611-28. http://doi.org/10.1007/s10869-017-9512-y</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Levesque-Côté</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Fernet</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Austin</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Morin</surname>
+							<given-names>AJS</given-names>
+						</name>
+					</person-group>
+					<article-title>New Wine in a New Bottle: Refining The Assessment of Authentic Leadership Using Exploratory Structural Equation Modeling (ESEM)</article-title>
+					<source>J Bus Psychol</source>
+					<year>2018</year>
+					<volume>33</volume>
+					<issue>5</issue>
+					<fpage>611</fpage>
+					<lpage>628</lpage>
+					<pub-id pub-id-type="doi">10.1007/s10869-017-9512-y</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation>26. Cervo CS, Mónico LSM, Santos NR, Hutz CS, Pais L. Authentic Leadership Questionnaire: invariance between samples of Brazilian and Portuguese employees. Psicol Reflexão Crítica. 2016;29(1):40. http://doi.org/10.1186/s41155-016-0046-4</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cervo</surname>
+							<given-names>CS</given-names>
+						</name>
+						<name>
+							<surname>Mónico</surname>
+							<given-names>LSM</given-names>
+						</name>
+						<name>
+							<surname>Santos</surname>
+							<given-names>NR</given-names>
+						</name>
+						<name>
+							<surname>Hutz</surname>
+							<given-names>CS</given-names>
+						</name>
+						<name>
+							<surname>Pais</surname>
+							<given-names>L</given-names>
+						</name>
+					</person-group>
+					<article-title>Authentic Leadership Questionnaire: invariance between samples of Brazilian and Portuguese employees</article-title>
+					<source>Psicol Reflexão Crítica</source>
+					<year>2016</year>
+					<volume>29</volume>
+					<issue>1</issue>
+					<fpage>40</fpage>
+					<lpage>40</lpage>
+					<pub-id pub-id-type="doi">10.1186/s41155-016-0046-4</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<mixed-citation>27. Wong CA, Walsh EJ. Reflections on a decade of authentic leadership research in health care. J Nurs Manag. 2020;28(1):1-3. https://doi.org/10.1111/jonm.12861</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Wong</surname>
+							<given-names>CA</given-names>
+						</name>
+						<name>
+							<surname>Walsh</surname>
+							<given-names>EJ</given-names>
+						</name>
+					</person-group>
+					<article-title>Reflections on a decade of authentic leadership research in health care</article-title>
+					<source>J Nurs Manag</source>
+					<year>2020</year>
+					<volume>28</volume>
+					<issue>1</issue>
+					<fpage>1</fpage>
+					<lpage>3</lpage>
+					<pub-id pub-id-type="doi">10.1111/jonm.12861</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<mixed-citation>28. Caza A, Bagozzi RP, Woolley L, Levy L, Barker Caza B. Psychological capital and authentic leadership. Asia-Pacific J Bus Adm. 2010;2(1):53-70. https://doi.org/10.1108/17574321011028972</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Caza</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Bagozzi</surname>
+							<given-names>RP</given-names>
+						</name>
+						<name>
+							<surname>Woolley</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Levy</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Barker Caza</surname>
+							<given-names>B</given-names>
+						</name>
+					</person-group>
+					<article-title>Psychological capital and authentic leadership</article-title>
+					<source>Asia-Pacific J Bus Adm</source>
+					<year>2010</year>
+					<volume>2</volume>
+					<issue>1</issue>
+					<fpage>53</fpage>
+					<lpage>70</lpage>
+					<pub-id pub-id-type="doi">10.1108/17574321011028972</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B29">
+				<label>29</label>
+				<mixed-citation>29. Rego A, Sousa F, Marques C, Cunha MP. Authentic leadership promoting employees' psychological capital and creativity. J Bus Res. 2012;65(3):429-37. https://doi.org/10.1016/j.jbusres.2011.10.003</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rego</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Sousa</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Marques</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Cunha</surname>
+							<given-names>MP</given-names>
+						</name>
+					</person-group>
+					<article-title>Authentic leadership promoting employees' psychological capital and creativity</article-title>
+					<source>J Bus Res</source>
+					<year>2012</year>
+					<volume>65</volume>
+					<issue>3</issue>
+					<fpage>429</fpage>
+					<lpage>437</lpage>
+					<pub-id pub-id-type="doi">10.1016/j.jbusres.2011.10.003</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B30">
+				<label>30</label>
+				<mixed-citation>30. Müceldili B, Turan H, Erdil O. The Influence of Authentic Leadership on Creativity and Innovativeness. Procedia Soc Behav Sci. 2013;99:673-81. https://doi.org/10.1016/j.sbspro.2013.10.538</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Müceldili</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Turan</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Erdil</surname>
+							<given-names>O</given-names>
+						</name>
+					</person-group>
+					<article-title>The Influence of Authentic Leadership on Creativity and Innovativeness</article-title>
+					<source>Procedia Soc Behav Sci</source>
+					<year>2013</year>
+					<volume>99</volume>
+					<fpage>673</fpage>
+					<lpage>681</lpage>
+					<pub-id pub-id-type="doi">10.1016/j.sbspro.2013.10.538</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B31">
+				<label>31</label>
+				<mixed-citation>31. Vasconcelos RMA. Adaptação cultural do Authentic Leadership Questionnaire (ALQ) para o contexto da enfermagem brasileira. 2018. Tese (Doutorado), 2018, Ribeirão Preto, USP, Escola de Enfermagem de Ribeirão Preto. Available from: http://doi.org/10.11606/T.22.2018.tde-03072018-154029</mixed-citation>
+				<element-citation publication-type="thesis">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Vasconcelos</surname>
+							<given-names>RMA</given-names>
+						</name>
+					</person-group>
+					<source>Adaptação cultural do Authentic Leadership Questionnaire (ALQ) para o contexto da enfermagem brasileira</source>
+					<year>2018</year>
+					<comment content-type="degree">Doutorado</comment>
+					<publisher-loc>Ribeirão Preto</publisher-loc>
+					<publisher-name>USP, Escola de Enfermagem de Ribeirão Preto</publisher-name>
+					<pub-id pub-id-type="doi">10.11606/T.22.2018.tde-03072018-154029</pub-id>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="presented-at" id="fn4">
+				<p>Artigo extraído da tese de doutorado “Análise da Validade do Questionário de Liderança Autêntica”, apresentada à Universidade de São Paulo, Escola de Enfermagem de Ribeirão Preto, Centro Colaborador da OPAS/OMS para o Desenvolvimento da Pesquisa em Enfermagem, Ribeirão Preto, SP, Brasil.</p>
+			</fn>
+		</fn-group>
+	</back>
+	<sub-article article-type="translation" id="s1" xml:lang="en">
+		<front-stub>
+			<article-id pub-id-type="doi">10.1590/1518-8345.5868.3546</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Original Article</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Authentic Leadership Questionnaire applied to Brazilian nurses: evidence of validity</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-0359-8365</contrib-id>
+					<name>
+						<surname>Maziero</surname>
+						<given-names>Vanessa Gomes</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff6"><sup>1</sup></xref>
+					<xref ref-type="aff" rid="aff7"><sup>2</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-0911-3728</contrib-id>
+					<name>
+						<surname>Rocha</surname>
+						<given-names>Fernanda Ludmilla Rossi</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff6"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-7123-5585</contrib-id>
+					<name>
+						<surname>Campos</surname>
+						<given-names>Juliana Alvares Duarte Bonini</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff8"><sup>3</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-7346-4848</contrib-id>
+					<name>
+						<surname>Dias</surname>
+						<given-names>Bruna Moreno</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff6"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-3757-1061</contrib-id>
+					<name>
+						<surname>Balsanelli</surname>
+						<given-names>Alexandre Pazetto</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff9"><sup>4</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-2666-2849</contrib-id>
+					<name>
+						<surname>Gabriel</surname>
+						<given-names>Carmen Silvia</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff6"><sup>1</sup></xref>
+					<xref ref-type="aff" rid="aff10"><sup>5</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-9861-2050</contrib-id>
+					<name>
+						<surname>Bernardes</surname>
+						<given-names>Andrea</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff6"><sup>1</sup></xref>
+					<xref ref-type="aff" rid="aff10"><sup>5</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff6">
+				<label>1</label>
+				<institution content-type="original"> Universidade de São Paulo, Escola de Enfermagem de Ribeirão Preto, PAHO/WHO Collaborating Centre for Nursing Research Development, Ribeirão Preto, SP, Brazil.</institution>
+			</aff>
+			<aff id="aff7">
+				<label>2</label>
+				<institution content-type="original"> Empresa Brasileira de Serviços Hospitalares, Campo Grande, MS, Brazil.</institution>
+			</aff>
+			<aff id="aff8">
+				<label>3</label>
+				<institution content-type="original"> Universidade Estadual Paulista, Faculdade de Ciências Farmacêuticas, Araraquara, SP, Brazil.</institution>
+			</aff>
+			<aff id="aff9">
+				<label>4</label>
+				<institution content-type="original"> Universidade Federal de São Paulo, Escola Paulista de Enfermagem, São Paulo, SP, Brazil.</institution>
+			</aff>
+			<aff id="aff10">
+				<label>5</label>
+				<institution content-type="original"> Scholarship holder at the Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq), Brazil.</institution>
+			</aff>
+			<author-notes>
+				<corresp id="c2">
+					<label>Corresponding author</label> Andrea Bernardes E-mail: <email>andreab@eerp.usp.br</email>
+				</corresp>
+				<fn fn-type="edited-by" id="fn5">
+					<label>Associate Editor</label>
+					<p> Ricardo Alexandre Arcêncio</p>
+				</fn>
+				<fn fn-type="con" id="fn6">
+					<label>Authors’ contribution</label>
+					<p><bold>Study concept and design:</bold> Vanessa Gomes Maziero, Andrea Bernardes. <bold>Obtaining data:</bold> Vanessa Gomes Maziero. <bold>Data analysis and interpretation:</bold> Vanessa Gomes Maziero, Fernanda Ludmilla Rossi Rocha, Juliana Alvares Duarte Bonini Campos, Bruna Moreno Dias, Alexandre Pazetto Balsanelli, Carmen Silvia Gabriel, Andrea Bernardes. <bold>Statistical analysis:</bold> Fernanda Ludmilla Rossi Rocha, Juliana Alvares Duarte Bonini Campos. <bold>Drafting the manuscript:</bold> Vanessa Gomes Maziero, Fernanda Ludmilla Rossi Rocha, Juliana Alvares Duarte Bonini Campos, Bruna Moreno Dias, Alexandre Pazetto Balsanelli, Carmen Silvia Gabriel, Andrea Bernardes. <bold>Critical review of the manuscript as to its relevant intellectual content:</bold> Vanessa Gomes Maziero, Fernanda Ludmilla Rossi Rocha, Juliana Alvares Duarte Bonini Campos, Bruna Moreno Dias, Alexandre Pazetto Balsanelli, Carmen Silvia Gabriel, Andrea Bernardes. <bold>Others (Final approval):</bold> Vanessa Gomes Maziero, Fernanda Ludmilla Rossi Rocha, Juliana Alvares Duarte Bonini Campos, Bruna Moreno Dias, Alexandre Pazetto Balsanelli, Carmen Silvia Gabriel, Andrea Bernardes. <bold>Others (Formatting according to the journal’s checklist):</bold> Bruna Moreno Dias. <bold>Others (Manuscript orientation):</bold> Andrea Bernardes. All authors approved the final version of the text.</p>
+				</fn>
+				<fn fn-type="conflict" id="fn7">
+					<label>Conflict of interest</label>
+					<p> The authors have declared that there is no conflict of interest.</p>
+				</fn>
+			</author-notes>
+			<abstract>
+				<title>Abstract</title>
+				<sec>
+					<title>Objective:</title>
+					<p> to establish the psychometric properties of the Authentic Leadership Questionnaire <italic>(ALQ)</italic> applied to Brazilian nurses. </p>
+				</sec>
+				<sec>
+					<title>Method:</title>
+					<p> cross-sectional observational study with a non-probabilistic sample. The psychometric properties of the RATER and SELF versions of the ALQ were calculated using confirmatory factor analysis with the WLSMV robust estimation method. The following indices were used to assess the goodness-of-fit of the model: chi-square by degrees of freedom (χ<sup>2</sup>/df), Tucker-Lewis Index (TLI), Comparative Fit Index (CFI), Root Mean Square Error of Approximation (RMSEA) and Standardized Root Mean Squared Residual (SRMR). Data reliability was analyzed using the ordinal coefficient alpha and composite reliability. </p>
+				</sec>
+				<sec>
+					<title>Results:</title>
+					<p> 181 nurses participated of the study (female gender: 80.1%; mean age of 34.6 years; working time of less than five years: 76.3%). The complete ALQ RATER and ALQ SELF models did not present an adequate fit. Therefore, the refined models presented a better fit to the sample data (ALQ RATER: χ<sup>2</sup>/df=2.77; CFI=0.97; TLI=0.97; RMSEA=0.10; SRMR=0.05; ALQ SELF: χ<sup>2</sup>/df=2.74; CFI=0.94; TLI=0.92; RMSEA=0.10; SRMR=0.08). In the ALQ RATER model, items 1, 7 and 13 were excluded. Due to the high correlation between the factors Relational Transparency and Moral Perspective, a three-factor model based on the combination of the factors mentioned above was proposed. In the ALQ SELF model, items 2, 5, 9 and 10 were excluded. Likewise, a three-factor model based on the combination of two factors, now called Self-Awareness Balance, was proposed. </p>
+				</sec>
+				<sec>
+					<title>Conclusion:</title>
+					<p> the data obtained with the Authentic Leadership Questionnaire with Brazilian nurses were valid and reliable.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="en">
+				<title>Descriptors:</title>
+				<kwd>Leadership</kwd>
+				<kwd>Organization and Administration</kwd>
+				<kwd>Health Services</kwd>
+				<kwd>Nursing, Team</kwd>
+				<kwd>Validation Study</kwd>
+				<kwd>Psychometrics</kwd>
+			</kwd-group>
+		</front-stub>
+		<body>
+			<boxed-text id="bx2">
+				<sec>
+					<title>Highlights</title>
+					<p>(1) The validation of an authentic leadership questionnaire is innovative in the country.</p>
+					<p>(2) Authentic leadership is a model still little used in the Brazilian scenario.</p>
+					<p>(3) The validated scales will allow the assessment of nurses’ authentic leadership.</p>
+				</sec>
+			</boxed-text>
+			<sec sec-type="intro">
+				<title>Introduction</title>
+				<p>The concept of “authenticity” is related to positive psychology and has its roots in Greek philosophy. It has first been applied in the fields of sociology and education<xref ref-type="bibr" rid="B1"><sup>1</sup></xref>, but, in 2003, the construct gained greater prominence in the area of management and leadership, and authentic leaders began to be defined as those who are aware of how they think and behave and are perceived by others as aware of their own values, moral perspectives and knowledge and of the strengths of others<xref ref-type="bibr" rid="B1"><sup>1</sup></xref>.</p>
+				<p>Authenticity requires trust, optimism, resilience and high moral character and is related to being true to yourself. The theoretical model of Authentic Leadership is characterized by transparency in relationships, sharing of information and feelings, organizational commitment, and satisfaction in performance through conduct consistent with a system of personal values and convictions. Authentic Leadership can result in greater motivation to engage in leadership roles as it creates a healthy work environment and promotes leadership self-efficacy<xref ref-type="bibr" rid="B2"><sup>2</sup></xref>. Furthermore, a study suggests that Authentic Leadership is associated with the quality of customer service<xref ref-type="bibr" rid="B3"><sup>3</sup></xref>.</p>
+				<p>The American Association of Critical-Care Nurses considers authentic leadership as the main leadership model and claims that it is capable of creating and sustaining healthy work environments in critical care settings<xref ref-type="bibr" rid="B4"><sup>4</sup></xref>. Based on the assumptions of this model, those who are led can find greater meaning in the activities performed and greater commitment to work, creating an environment that supports both leaders and their subordinates.</p>
+				<p>The theory that supports Authentic Leadership is based on four pillars: Self-awareness (leaders’ willingness to constantly analyze their strengths and opportunities for improvement); Relational Transparency (leaders’ ability to remain consistent with their values in the relationship with subordinates); Balanced Processing (unbiased decision making) and Internalized Moral Perspective (leaders’ values are consistent with their moral conduct)<xref ref-type="bibr" rid="B5"><sup>5</sup></xref>.</p>
+				<p>Aiming to assess the authenticity of leaders, evaluating their ethical, moral, behavioral and organizational characteristics, in 2007, the original versions of the Authentic Leadership Questionnaire - ALQ<xref ref-type="bibr" rid="B6"><sup>6</sup></xref> were created and tested in two independent samples from the United States and China. The US sample consisted of employees of a high-tech industry, while the Chinese sample was composed of employees of a large state-owned enterprise. The ALQ was published in English in two different versions: the RATER scale, aimed at assessing the leadership exercised by the respondents’ leader; and the SELF scale, to assess the participant’s own leadership profile. Subsequently, validation studies of the ALQ were carried out for its use in various countries, such as Spain<xref ref-type="bibr" rid="B7"><sup>7</sup></xref>, France<xref ref-type="bibr" rid="B8"><sup>8</sup></xref> and Pakistan<xref ref-type="bibr" rid="B9"><sup>9</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B10"><sup>10</sup></xref>.</p>
+				<p>Criticism of the original 2008 study<xref ref-type="bibr" rid="B6"><sup>6</sup></xref> pointed out that the researchers did not report the use of modification indices related to the tests or the adjustment of models. In this sense, the authors encouraged other researchers to carry out new studies to explain and detail the analyzed performed<xref ref-type="bibr" rid="B11"><sup>11</sup></xref>.</p>
+				<p>Recent research reported that the four factors that make up the ALQ (Self-awareness; Relational Transparency; Balanced Processing; and Moral Perspective) explain the composition of Authentic Leadership<xref ref-type="bibr" rid="B11"><sup>11</sup></xref>.</p>
+				<p>It is important to emphasize that so far this instrument has not been validated in Portuguese nor for Brazilian people, and its psychometric properties have not been evaluated in a sample of nurses working in a hospital environment. However, as it one of the most used instruments to asses leadership style<xref ref-type="bibr" rid="B10"><sup>10</sup></xref>, the cultural adaptation of the ALQ to Brazilian Portuguese and its evaluation by leaders working in the health area are urgent matters. This may help to design strategies that can contribute to a more effective leadership through fair and authentic management and transformative leadership.</p>
+				<p>Based on the above, this study was carried out with the objective of establishing the preliminary psychometric properties (validity of the internal structure) of the Authentic Leadership Questionnaire <italic>(ALQ)</italic> applied to Brazilian nurses.</p>
+			</sec>
+			<sec sec-type="methods">
+				<title>Method</title>
+				<sec>
+					<title>Study design</title>
+					<p>This is a cross-sectional observational study with a non-probabilistic sample, carried out in two general hospitals located in the Center-West Region of Brazil.</p>
+				</sec>
+				<sec>
+					<title>Population and sample</title>
+					<p>The first institution (Hospital A) is a public teaching hospital with 210 inpatient beds in different specialties and approximately 1,600 professionals, of which 230 are nurses. The second institution (Hospital B) is a private, non-profit entity, under municipal management, with 671 beds and more than 3,600 professionals, of whom 260 are nurses<xref ref-type="bibr" rid="B12"><sup>12</sup></xref>.</p>
+					<p>The target population of this study was composed of nurses working in these institutions. The inclusion criteria were nurses with an active bond with the institutions, and a total of 300 nurses were considered eligible. The minimum sample size for the factor analysis was calculated considering five to 10 subjects per parameter of the factor model<xref ref-type="bibr" rid="B13"><sup>13</sup></xref>. As the ALQ (SELF and RATER) has 38 parameters (16 items, 16 errors and 6 correlations between factors), the minimum sample size estimated ranges between 190 and 380 participants. Nurses were approached individually at their workplace and invited to participate in the study. On that occasion, the two versions of the ALQ were delivered in printed form and then collected after five days. In this way, the participant was able to respond to the instrument with attention, at their own time and space, reducing the risk of interruptions and/or exposure and embarrassment. Of the 300 eligible nurses, 250 received the printed instruments and 50 were not located due to vacation, absence, relocation, among others. Of the 250 instruments delivered to nurses, only 200 were returned. Data was collected from December 2017 to March 2018.</p>
+				</sec>
+				<sec>
+					<title>Instruments</title>
+					<p>A questionnaire composed of demographic and occupational questions was elaborated to characterize the sample. The questionnaire included: gender (female or male), degree (undergraduate, specialization/residence, master’s/doctorate), work sector (Administration/Management, Clinic/Surgical Unit, Maternal-Infant Care, Emergency Medical Care, Coronary Care Unit, Adult Inpatient Unit, Intensive Care Unit, among others), shift (morning, afternoon, evening, full-time), time of professional experience (in years) and time working in the hospital (in years).</p>
+					<p>The measurement instrument used was the Authentic Leadership Questionnaire - ALQ, which was applied to all participants in its two versions with different purposes: the RATER scale was used to assess the leadership of the respondents’ leader and the SELF scale was used to assess the leadership profile of the respondents’ themselves.</p>
+					<p>Each version (SELF and RATER) has 16 items distributed in four factors: Relational Transparency (RT - items 1 to 5); Moral Perspective (MP - items 6 to 9); Balanced Processing (BP - items 10 to 12); and Self-awareness (SA - items 13 to 16). The responses are on a five-point Likert scale (0: Rarely/never, 1: Occasionally, 2: Sometimes, 3: Often and 4: Very often, almost always)<xref ref-type="bibr" rid="B6"><sup>6</sup></xref>.</p>
+					<p>The authorization to use the ALQ was granted directly by Mind Garden, Inc<italic>.</italic>, the company responsible for licensing the questionnaire, representing Dr. Bruce J. Avolio.</p>
+				</sec>
+				<sec>
+					<title>Psychometric properties of the ALQ - evaluation of the internal structure</title>
+					<p>The psychometric sensitivity of the items, the factorial, convergent, and discriminant construct validity, and the reliability of the instrument for the sample (internal structure) were estimated.</p>
+					<p>Psychometric sensitivity was estimated using summary (mean, median and standard deviation) and shape measures (asymmetry and kurtosis) of the distribution of the responses to the items and was considered adequate when the absolute values of asymmetry and kurtosis were less than three and seven, respectively<xref ref-type="bibr" rid="B14"><sup>14</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B15"><sup>15</sup></xref>.</p>
+					<p>The factorial validity was tested by means of Confirmatory Factor Analysis (CFA) using the robust estimation method of mean- and variance-adjusted weighted least squares (WLSMV). The following indices were used to assess the goodness-of-fit to the sample data: chi-square by degrees of freedom (χ<sup>2</sup>/df), Comparative Fit Index (CFI), Tucker-Lewis Index (TLI), Root Mean Square Error of Approximation (RMSEA) and Standardized Root Mean Squared Residual (SRMR). The following values were considered adequate: χ<sup>2</sup>/df ≤ 2.0; CFI and TLI ≥ 0.90; and RMSEA ≤ 0.10<xref ref-type="bibr" rid="B16"><sup>16</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B17"><sup>17</sup></xref>. In addition, factor loadings (λ) were evaluated and considered adequate if ≥ 0.50. The modification indices calculated using the method of Lagrange multipliers (<italic>LM</italic>) were inspected to see if LM&gt;11<xref ref-type="bibr" rid="B13"><sup>13</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B15"><sup>15</sup></xref>.</p>
+					<p>Convergent validity was evaluated by Average Variance Extracted (AVE) and considered adequate if AVE ≥ 0.50<xref ref-type="bibr" rid="B18"><sup>18</sup></xref>. The method used to assess the validity of the discriminant construct was the one was the one proposed in 1981<xref ref-type="bibr" rid="B18"><sup>18</sup></xref>, which considered that if AVE<sub>i</sub> and AVE<sub>j</sub> ≥ ρ<sub>ij</sub><sup>2</sup>, the existence of discriminant validity can be confirmed.</p>
+					<p>The reliability of the factors was evaluated using the ordinal coefficient alpha (α) and the Composite Reliability (CR). Values of α and CR greater than 0.70 were considered indicators of reliability<xref ref-type="bibr" rid="B15"><sup>15</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B18"><sup>18</sup></xref>.</p>
+					<p>After the factor adjustment of the ALQ RATER and SELF scales, a second-order hierarchical model (SOHM) was proposed in order to verify the contribution of each factor to the general construct of leadership.</p>
+					<p>The programs MPLUS v.8.3 (Muthén and Muthén, 2019, Los Angeles) and R (R Core Team, 2016) with the packages “lavaan”<xref ref-type="bibr" rid="B19"><sup>19</sup></xref> and “semTools”<xref ref-type="bibr" rid="B20"><sup>20</sup></xref> were used to perform the analyses.</p>
+				</sec>
+				<sec>
+					<title>Ethical aspects</title>
+					<p>The ethical precepts on the guidelines and standards for research involving human beings contained in Resolution No. 466 of the National Health Council of December 12, 2012 were followed. The study was approved by the Research Ethics Committee of the Nursing School of the University of São Paulo (CAAE: 67343717100005393).</p>
+				</sec>
+			</sec>
+			<sec sec-type="results">
+				<title>Results</title>
+				<p>Of the 300 eligible nurses, 200 responded to the questionnaire (adherence rate=66.7%) but 19 were excluded due to inconsistent responses, resulting in a sample of 181 participants. Among these, 63.5% (n=115) worked in hospital A and most were female (145; 80.1%). The mean age was 34.6 years old (standard deviation=6.7) and most participants had a specialization or residency degree (138; 76.2%), had worked in hospitals for less than five years (138; 76.2%) and had more than five years of professional experience (123; 67.3%). The demographic and occupational characteristics of nurses is presented in <xref ref-type="table" rid="t2">Table 1</xref>.</p>
+				<p>
+					<table-wrap id="t2">
+						<label>Table 1</label>
+						<caption>
+							<title>Demographic and occupational characteristics of nurses (n=181). Campo Grande, MS, Brazil, 2018</title>
+						</caption>
+						<table>
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left">Characteristic</th>
+									<th align="left">No</th>
+									<th align="left">%</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td align="left" colspan="3"><bold>Gender</bold></td>
+								</tr>
+								<tr>
+									<td align="left">Female</td>
+									<td align="left">145</td>
+									<td align="left">80.1</td>
+								</tr>
+								<tr>
+									<td align="left">Male</td>
+									<td align="left">34</td>
+									<td align="left">18.8</td>
+								</tr>
+								<tr>
+									<td align="left">Did not answer</td>
+									<td align="left">2</td>
+									<td align="left">1.1</td>
+								</tr>
+								<tr>
+									<td align="left" colspan="3"><bold>Age group</bold></td>
+								</tr>
+								<tr>
+									<td align="left">20 to 29 years</td>
+									<td align="left">47</td>
+									<td align="left">26.0</td>
+								</tr>
+								<tr>
+									<td align="left">30 to 39 years</td>
+									<td align="left">92</td>
+									<td align="left">50.8</td>
+								</tr>
+								<tr>
+									<td align="left">40 to 49 years</td>
+									<td align="left">37</td>
+									<td align="left">20.4</td>
+								</tr>
+								<tr>
+									<td align="left">50 years or older</td>
+									<td align="left">3</td>
+									<td align="left">1.7</td>
+								</tr>
+								<tr>
+									<td align="left">Did not answer</td>
+									<td align="left">2</td>
+									<td align="left">1.1</td>
+								</tr>
+								<tr>
+									<td align="left" colspan="3"><bold>Highest degree</bold></td>
+								</tr>
+								<tr>
+									<td align="left">Undergraduate</td>
+									<td align="left">21</td>
+									<td align="left">11.6</td>
+								</tr>
+								<tr>
+									<td align="left">Specialization/residency</td>
+									<td align="left">138</td>
+									<td align="left">76.2</td>
+								</tr>
+								<tr>
+									<td align="left">Master’s/PhD</td>
+									<td align="left">21</td>
+									<td align="left">11.6</td>
+								</tr>
+								<tr>
+									<td align="left">Did not answer</td>
+									<td align="left">1</td>
+									<td align="left">0.6</td>
+								</tr>
+								<tr>
+									<td align="left" colspan="3"><bold>Institution</bold></td>
+								</tr>
+								<tr>
+									<td align="left">Hospital A</td>
+									<td align="left">115</td>
+									<td align="left">63.5</td>
+								</tr>
+								<tr>
+									<td align="left">Hospital B</td>
+									<td align="left">66</td>
+									<td align="left">36.5</td>
+								</tr>
+								<tr>
+									<td align="left" colspan="3"><bold>Work Sector</bold></td>
+								</tr>
+								<tr>
+									<td align="left">Intensive care unit</td>
+									<td align="left">41</td>
+									<td align="left">22.7</td>
+								</tr>
+								<tr>
+									<td align="left">Other</td>
+									<td align="left">41</td>
+									<td align="left">22.7</td>
+								</tr>
+								<tr>
+									<td align="left">Adult Inpatient Unit</td>
+									<td align="left">29</td>
+									<td align="left">16.0</td>
+								</tr>
+								<tr>
+									<td align="left">Maternal-infant Care</td>
+									<td align="left">23</td>
+									<td align="left">12.7</td>
+								</tr>
+								<tr>
+									<td align="left">Clinic/Surgical Unit</td>
+									<td align="left">20</td>
+									<td align="left">11.0</td>
+								</tr>
+								<tr>
+									<td align="left">Coronary Care Unit</td>
+									<td align="left">12</td>
+									<td align="left">6.6</td>
+								</tr>
+								<tr>
+									<td align="left">Emergency Medical Care</td>
+									<td align="left">9</td>
+									<td align="left">5.0</td>
+								</tr>
+								<tr>
+									<td align="left">Administration/Management</td>
+									<td align="left">6</td>
+									<td align="left">3.3</td>
+								</tr>
+								<tr>
+									<td align="left" colspan="3"><bold>Work shift</bold></td>
+								</tr>
+								<tr>
+									<td align="left">Morning</td>
+									<td align="left">58</td>
+									<td align="left">32.0</td>
+								</tr>
+								<tr>
+									<td align="left">Night</td>
+									<td align="left">57</td>
+									<td align="left">31.5</td>
+								</tr>
+								<tr>
+									<td align="left">Afternoon</td>
+									<td align="left">42</td>
+									<td align="left">23.2</td>
+								</tr>
+								<tr>
+									<td align="left">Full-time</td>
+									<td align="left">23</td>
+									<td align="left">12.7</td>
+								</tr>
+								<tr>
+									<td align="left">Did not answer</td>
+									<td align="left">1</td>
+									<td align="left">0.6</td>
+								</tr>
+								<tr>
+									<td align="left" colspan="3"><bold>Professional experience</bold></td>
+								</tr>
+								<tr>
+									<td align="left">Less than 1 year</td>
+									<td align="left">13</td>
+									<td align="left">7.2</td>
+								</tr>
+								<tr>
+									<td align="left">1 to 5 years</td>
+									<td align="left">45</td>
+									<td align="left">24.9</td>
+								</tr>
+								<tr>
+									<td align="left">5 to 10 years</td>
+									<td align="left">52</td>
+									<td align="left">28.7</td>
+								</tr>
+								<tr>
+									<td align="left">10 to 20 years</td>
+									<td align="left">56</td>
+									<td align="left">30.9</td>
+								</tr>
+								<tr>
+									<td align="left">Over 20 years</td>
+									<td align="left">14</td>
+									<td align="left">7.7</td>
+								</tr>
+								<tr>
+									<td align="left">Did not answer</td>
+									<td align="left">1</td>
+									<td align="left">0.6</td>
+								</tr>
+								<tr>
+									<td align="left" colspan="3"><bold>Time working in the Hospital</bold></td>
+								</tr>
+								<tr>
+									<td align="left">Less than 1 year</td>
+									<td align="left">30</td>
+									<td align="left">16.6</td>
+								</tr>
+								<tr>
+									<td align="left">1 to 5 years</td>
+									<td align="left">108</td>
+									<td align="left">59.7</td>
+								</tr>
+								<tr>
+									<td align="left">5 to 10 years</td>
+									<td align="left">13</td>
+									<td align="left">7.2</td>
+								</tr>
+								<tr>
+									<td align="left">Over 10 years</td>
+									<td align="left">30</td>
+									<td align="left">16.6</td>
+								</tr>
+							</tbody>
+						</table>
+					</table-wrap>
+				</p>
+				<p>Regarding the analysis of the psychometric properties of the ALQ for the sample, the CFA of the complete and refined models of the ALQ RATER are shown in <xref ref-type="fig" rid="f5">Figure 1</xref>.</p>
+				<p>
+					<fig id="f5">
+						<label>Figure 1</label>
+						<caption>
+							<title>Confirmatory Factor Analysis of the complete (A) and refined (B) ALQ RATER models (n=181). Ribeirão Preto, SP, Brazil, 2021</title>
+						</caption>
+						<graphic xlink:href="1518-8345-rlae-30-e3607-gf5.png"/>
+					</fig>
+				</p>
+				<p>The complete model (A) of the ALQ RATER did not present an adequate fit to the sample data (χ<sup>2</sup>/df=4.42; CFI=0.94; TLI=0.92; RMSEA=0.14; SRMR=0.08). Items 1 and 7 showed low factor loadings and item 13 showed a high correlation with the instrument’s BP factor (LM=40.51-61.09); therefore, these items were removed. The refined model (B) showed the best fit to the sample data (χ<sup>2</sup>/df=2.78; CFI=0.98; TLI=0.97; RMSEA=0.10; SRMR=0.05). The convergent validity of the ALQ RATER scale factors was adequate (VEM=0.50-0.78). However, the discriminant validity of the instrument’s factors was not confirmed (r<sup>2</sup>=0.60-1.00) due to the strong correlations between them. As for reliability, acceptable values of ordinal α (0.74-0.91) and CR (0.69-0.88) were found.</p>
+				<p>In order to assess the contribution of factors to the concept of leadership, a second-order hierarchical model (SOHM) was proposed for the ALQ RATER (<xref ref-type="fig" rid="f6">Figure 2</xref>).</p>
+				<p>
+					<fig id="f6">
+						<label>Figure 2</label>
+						<caption>
+							<title>Confirmatory Factor Analysis of the ALQ RATER second-order hierarchical model (n=181). Ribeirão Preto, SP, Brazil, 2021</title>
+						</caption>
+						<graphic xlink:href="1518-8345-rlae-30-e3607-gf6.png"/>
+					</fig>
+				</p>
+				<p>The SOHM of the ALQ RATER presented an adequate fit to the sample data (χ<sup>2</sup>/df=2.89; CFI=0.97; TLI=0.97; RMSEA=0.10), adequate factor loadings (λ=0.63-0.94) and high contribution of factors to the leadership construct (β=0.86-1.00; p&lt;0.001).</p>
+				<p>Nevertheless, based on the observation of the high correlation between the factors RT and MP factors (<xref ref-type="fig" rid="f5">Figure 1</xref>), a three-factor model was proposed for the ALQ RATER (<xref ref-type="fig" rid="f7">Figure 3</xref>), with the original factors BP and SA and a third factor combining the RT and MP factors (called Relational and Moral - RM), composed of items RT2, RT3, RT4, RT5, MP6, MP8, and MP9. The model presented an adequate fit to the sample data (χ<sup>2</sup>/df=2.77; CFI=0.97; TLI=0.97; RMSEA=0.10; SRMR=0.05).</p>
+				<p>
+					<fig id="f7">
+						<label>Figure 3</label>
+						<caption>
+							<title>Confirmatory Factor Analysis of the ALQ RATER three-factor model (n=181). Ribeirão Preto, SP, Brazil, 2021</title>
+						</caption>
+						<graphic xlink:href="1518-8345-rlae-30-e3607-gf7.png"/>
+					</fig>
+				</p>
+				<p>This three-factor model presented factor loadings λ ≥0.65, strong correlations between factors (r=0.81-0.93), and adequate convergent validity (AVE=0.52-0.78). The discriminant validity between the factors was not confirmed (r<sup>2</sup> =0.66-0.86) and adequate ordinal α (0.85-0.91) and CR (0.83-0.88) values were found.</p>
+				<p>As for the ALQ SELF, the complete four-factor model did not fit the sample data (χ<sup>2</sup>/df=3.85; CFI=0.84; TLI=0.81; RMSEA=0.13; SRMR=0.11). Most items had low factor loadings, and items 9 and 10 were correlated with other factors in the instrument (LM=48.15-61.22). There were moderate correlations between most factors (r=0.48-0.68) and strong correlations between the BP and SA factors (r=0.97).</p>
+				<p>However, during the adjustment, it was found that the BP factor would be composed only of items 11 and 12. Therefore, a three-factor model adjusted to the sample and combining the BP and SA factors was proposed. This three-factor model contained the factors RT, MP and the combination of BP and SA (called Self-Awareness Balance - SAB), composed of items BP11, BP12, SA13, SA14, SA15 and SA16. The model presented an adequate fit to the sample data (χ<sup>2</sup>/df=2.74; CFI=0.94; TLI=0.92; RMSEA=0.10; SRMR=0.08). The CFAs of the full model (four-factor) and of the refined model (three-factor) of the ALQ SELF are shown in <xref ref-type="fig" rid="f8">Figure 4</xref>.</p>
+				<p>
+					<fig id="f8">
+						<label>Figure 4</label>
+						<caption>
+							<title>Confirmatory Factor Analysis of the complete four-factor (A) and refined three-factor (B) ALQ SELF models (n=181). Ribeirão Preto, SP, Brazil, 2021</title>
+						</caption>
+						<graphic xlink:href="1518-8345-rlae-30-e3607-gf8.png"/>
+					</fig>
+				</p>
+				<p>The convergent (AVE=0.48-0.57) and discriminant (r<sup>2</sup>=0.10-0.25) validity of the factors of the ALQ SELF refined were confirmed. Regarding the reliability of the items, adequate values were found (α=0.71-0.88; CR=0.67-0.84). Due to the moderate correlations between the factors, an ALQ SELF SOHM was not proposed for the sample.</p>
+			</sec>
+			<sec sec-type="discussion">
+				<title>Discussion</title>
+				<p>In the ALQ RATER scale, the high correlation between the factors Relational Transparency and Moral Perspective made it possible to combine these factors. This is justified by the direct relationship between their theoretical concepts, since showing the true self to others (relational transparency) is an essential characteristic of those who behave according to their personal values (moral perspective). In addition, it is known that people tend to perceive and evaluate transparency based on their own structures, values, emotions and cognitive limitations<xref ref-type="bibr" rid="B21"><sup>21</sup></xref>, and that relational transparency requires genuineness and transparency of leaders to gain the trust of their followers<xref ref-type="bibr" rid="B22"><sup>22</sup></xref>, propagate their thoughts and seek harmony in the group<xref ref-type="bibr" rid="B9"><sup>9</sup></xref>.</p>
+				<p>It is important to emphasize that it is necessary to invest in strengthening interpersonal relationships between leaders and team members, so that communication can be more assertive and self-confidence can be developed in the team<xref ref-type="bibr" rid="B23"><sup>23</sup></xref>. Similarly, moral perspective requires a leader that can cultivate and promote values, so that they can make fair decisions based on high ethical standards<xref ref-type="bibr" rid="B6"><sup>6</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B22"><sup>22</sup></xref>. Thus, the Relational and Moral factors are associated with transparency and ethics, which must go hand in hand. Corroborating the above, a study carried out in Belgium shows that the authentic leadership and behavioral integrity of the leader are related to follower performance and organizational commitment, and that this relationship is maintained by controlling the ethical organizational culture<xref ref-type="bibr" rid="B24"><sup>24</sup></xref>, correlating the factors Relational Transparency and Moral Perspective.</p>
+				<p>The exclusion of items 1 and 7 of the new Relational and Moral factor and item 13 of the Self-Awareness factor is considered acceptable from a theoretical point of view, since the remaining items are capable of expressing the concepts of relational transparency (leaders show themselves as they are), moral perspective (leaders demonstrate values and ethical conduct) and self-awareness (leaders are aware of their strengths and weaknesses)<xref ref-type="bibr" rid="B7"><sup>7</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B21"><sup>21</sup></xref>. Furthermore, the items are not always correlated with a single factor, as there is some degree of association with conceptually related factors<xref ref-type="bibr" rid="B25"><sup>25</sup></xref>. In Spain, the ALQ was applied to a sample of 623 workers from public and private organizations from different sectors and, as in Brazil, there was a need to exclude three items<xref ref-type="bibr" rid="B7"><sup>7</sup></xref>.</p>
+				<p>The second-order hierarchical model proposed for the ALQ RATER showed that the factors Relational Transparency, Moral Perspective and Balanced Processing were the ones that most contributed to the elaboration of the leadership construct with Brazilian nurses. This result differs from those of study carried out with 1861 employees from organizations of various sectors and sizes, which found that the dimension with the greatest explanatory power for the leader’s assessment was Self-awareness, followed by Balanced Processing<xref ref-type="bibr" rid="B26"><sup>26</sup></xref>. In this sample, which compared 1019 Brazilian employees to 842 Portuguese employees, the theoretical explanation for this fact was that leaders’ self-knowledge and relationship with subordinates are essential for an authentic leadership<xref ref-type="bibr" rid="B26"><sup>26</sup></xref>.</p>
+				<p>As in the RATER scale, the exclusion of items 2, 5, 9 and 10 can be theoretically justified, as it does not compromise the concepts of the different factors, since the remaining items can contemplate the definition of each one of the factors. It is also important to highlight that it is possible for the factors to overlap<xref ref-type="bibr" rid="B25"><sup>25</sup></xref>, as occurred between Balanced Processing and Self-Awareness, which showed perfect correlation. For this reason, a single factor was proposed (Balance and Self-Awareness). This can be justified using the theoretical framework of the instrument itself, considering that in order to make a coherent decision it is necessary to analyze it beforehand (balanced processing) and to be aware of one’s own weaknesses and strengths (self-awareness). Balanced processing refers to the leaders’ ability to carefully analyze a situation before making decisions, while also being able to accept other points of view, even if they are different from their own<xref ref-type="bibr" rid="B1"><sup>1</sup></xref>. Similarly, self-awareness refers to the deep perception of their values and beliefs and to how they behave and are perceived by others<xref ref-type="bibr" rid="B1"><sup>1</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B27"><sup>27</sup></xref>. It is also worth noting that the creator of the instrument himself suggests that it is not reasonable to conceptualize the four factors of the ALQ as assessing entirely separate and distinct constructs<xref ref-type="bibr" rid="B6"><sup>6</sup></xref>.</p>
+				<p>Given the above, the psychometric evaluation of the ALQ indicated the validity of the internal structure of the three-factor models of the RATER and SELF versions. In contrast, in Pakistan<xref ref-type="bibr" rid="B9"><sup>9</sup></xref>, New Zealand<xref ref-type="bibr" rid="B28"><sup>28</sup></xref>, Spain<xref ref-type="bibr" rid="B7"><sup>7</sup></xref>, Belgium<xref ref-type="bibr" rid="B24"><sup>24</sup></xref><sup>),</sup>, Portugal<xref ref-type="bibr" rid="B29"><sup>29</sup></xref> and Turkey<xref ref-type="bibr" rid="B30"><sup>30</sup></xref>, the validity of the four-factor model was confirmed<xref ref-type="bibr" rid="B7"><sup>7</sup></xref>.</p>
+				<p>Regarding the differences in the adjustment of the two versions (SELF and RATER), when participants assess themselves as leaders, they are able to perceive balanced processing, being able, in their opinion, to make unbiased decisions; the same occurs with self-awareness, as individuals believe they understand the impact they can have on people<xref ref-type="bibr" rid="B5"><sup>5</sup></xref>. However, the participants present difficulties in understanding the importance of relational transparency and moral perspective between the leader and the subordinates, which are characterized by high ethical standards guiding the behavior<xref ref-type="bibr" rid="B5"><sup>5</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B6"><sup>6</sup></xref>.</p>
+				<p>In this investigation, the second-order hierarchical model was only possible for the RATER scale, which showed a strong correlation between the factors. This result corroborates the study by the creators of the ALQ<xref ref-type="bibr" rid="B6"><sup>6</sup></xref>, which highlights that the four factors (Relational Transparency, Moral Perspective, Balanced Processing and Self-Awareness) are not independent and that the leadership construct, a single second-order factor, can explain this dependence.</p>
+				<p>The review of the validation by the authors of the original version of the ALQ<xref ref-type="bibr" rid="B11"><sup>11</sup></xref>, in line with the original 2008 article<xref ref-type="bibr" rid="B6"><sup>6</sup></xref> reinforced the importance of the four theoretical components of the Authentic Leadership model. However, the authors encourage the development of other model validation studies<xref ref-type="bibr" rid="B11"><sup>11</sup></xref>.</p>
+				<p>Thus, the proposed ALQ validation analysis may contribute to expanding the knowledge of professionals and researchers in the areas of nursing and hospital management, as the study presents the cultural adaptation of the ALQ to Brazilian Portuguese<xref ref-type="bibr" rid="B31"><sup>31</sup></xref> as well as evidence related to the validity of the instrument’s internal structure when applied to nurses working in Brazilian hospitals.</p>
+				<p>The limitations of this study refer to the use of a non-probabilistic sample and to the sample size, aspects that prevent the generalization of the results. However, it is worth noting that the SELF and RATER versions of the ALQ were considered valid and reliable instruments to be applied to the population of nurses, which will certainly contribute to the improvement of investigations on authentic leadership in Brazilian healthcare settings.</p>
+			</sec>
+			<sec sec-type="conclusions">
+				<title>Conclusion</title>
+				<p>The SELF and RATER scales of the Authentic Leadership Questionnaire (ALQ) applied to a sample of Brazilian nurses allowed the collection of valid and reliable information, which made it possible to assess the authentic leadership of these professionals. However, for the ALQ to be used, it was necessary to make adaptations in the instrument’s internal structure.</p>
+				<p>The SELF and RATER scales can be used independently and can be applied to Brazilian nurses working in hospital settings. The application of the scale may provide evidence related to the authenticity of the nurse leader and their influence in hospital organizations, opening space for reflection, discussion and future use of this tool for tracking and monitoring characteristics related to authentic leadership in this context. </p>
+			</sec>
+		</body>
+		<back>
+			<fn-group>
+				<fn fn-type="presented-at" id="fn8">
+					<p>Paper extracted from doctoral dissertation “Analysis of the validity of the Authentic Leadership Questionnaire”, presented to Universidade de São Paulo, Escola de Enfermagem de Ribeirão Preto, PAHO/WHO Collaborating Centre for Nursing Research Development, Ribeirão Preto, SP, Brazil.</p>
+				</fn>
+			</fn-group>
+		</back>
+	</sub-article>
+	<sub-article article-type="translation" id="s2" xml:lang="es">
+		<front-stub>
+			<article-id pub-id-type="doi">10.1590/1518-8345.5868.3606</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artículo Original</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title><italic>Authentic Leadership Questionnaire</italic> aplicado a enfermeros brasileños: evidencias de validez</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-0359-8365</contrib-id>
+					<name>
+						<surname>Maziero</surname>
+						<given-names>Vanessa Gomes</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff11"><sup>1</sup></xref>
+					<xref ref-type="aff" rid="aff12"><sup>2</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-0911-3728</contrib-id>
+					<name>
+						<surname>Rocha</surname>
+						<given-names>Fernanda Ludmilla Rossi</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff11"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-7123-5585</contrib-id>
+					<name>
+						<surname>Campos</surname>
+						<given-names>Juliana Alvares Duarte Bonini</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff13"><sup>3</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-7346-4848</contrib-id>
+					<name>
+						<surname>Dias</surname>
+						<given-names>Bruna Moreno</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff11"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-3757-1061</contrib-id>
+					<name>
+						<surname>Balsanelli</surname>
+						<given-names>Alexandre Pazetto</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff14"><sup>4</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-2666-2849</contrib-id>
+					<name>
+						<surname>Gabriel</surname>
+						<given-names>Carmen Silvia</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff11"><sup>1</sup></xref>
+					<xref ref-type="aff" rid="aff15"><sup>5</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-9861-2050</contrib-id>
+					<name>
+						<surname>Bernardes</surname>
+						<given-names>Andrea</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff11"><sup>1</sup></xref>
+					<xref ref-type="aff" rid="aff15"><sup>5</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff11">
+				<label>1</label>
+				<institution content-type="original"> Universidade de São Paulo, Escola de Enfermagem de Ribeirão Preto, Centro Colaborador de la OPS/OMS para el Desarrollo de la Investigación en Enfermería, Ribeirão Preto, SP, Brasil.</institution>
+			</aff>
+			<aff id="aff12">
+				<label>2</label>
+				<institution content-type="original"> Empresa Brasileira de Serviços Hospitalares, Campo Grande, MS, Brasil.</institution>
+			</aff>
+			<aff id="aff13">
+				<label>3</label>
+				<institution content-type="original"> Universidade Estadual Paulista, Faculdade de Ciências Farmacêuticas, Araraquara, SP, Brasil.</institution>
+			</aff>
+			<aff id="aff14">
+				<label>4</label>
+				<institution content-type="original"> Universidade Federal de São Paulo, Escola Paulista de Enfermagem, São Paulo, SP, Brasil.</institution>
+			</aff>
+			<aff id="aff15">
+				<label>5</label>
+				<institution content-type="original"> Becaria del Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq), Brasil.</institution>
+			</aff>
+			<author-notes>
+				<corresp id="c3">
+					<label>Autor de correspondencia</label> Andrea Bernardes E-mail: <email>andreab@eerp.usp.br</email>
+				</corresp>
+				<fn fn-type="edited-by" id="fn9">
+					<label>Editor Asociado</label>
+					<p> Ricardo Alexandre Arcêncio</p>
+				</fn>
+				<fn fn-type="con" id="fn10">
+					<label>Contribución de los autores</label>
+					<p><bold>Concepción y dibujo de la pesquisa:</bold> Vanessa Gomes Maziero, Andrea Bernardes. <bold>Obtención de datos:</bold> Vanessa Gomes Maziero. <bold>Análisis e interpretación de los datos:</bold> Vanessa Gomes Maziero, Fernanda Ludmilla Rossi Rocha, Juliana Alvares Duarte Bonini Campos, Bruna Moreno Dias, Alexandre Pazetto Balsanelli, Carmen Silvia Gabriel, Andrea Bernardes. <bold>Análisis estadístico:</bold> Fernanda Ludmilla Rossi Rocha, Juliana Alvares Duarte Bonini Campos. <bold>Redacción del manuscrito:</bold> Vanessa Gomes Maziero, Fernanda Ludmilla Rossi Rocha, Juliana Alvares Duarte Bonini Campos, Bruna Moreno Dias, Alexandre Pazetto Balsanelli, Carmen Silvia Gabriel, Andrea Bernardes. <bold>Revisión crítica del manuscrito en cuanto al contenido intelectual importante</bold> Vanessa Gomes Maziero, Fernanda Ludmilla Rossi Rocha, Juliana Alvares Duarte Bonini Campos, Bruna Moreno Dias, Alexandre Pazetto Balsanelli, Carmen Silvia Gabriel, Andrea Bernardes. <bold>Otros (Aprobacíon final):</bold> Vanessa Gomes Maziero, Fernanda Ludmilla Rossi Rocha, Juliana Alvares Duarte Bonini Campos, Bruna Moreno Dias, Alexandre Pazetto Balsanelli, Carmen Silvia Gabriel, Andrea Bernardes. <bold>Otros (Formato de acuerdo con la lista de verificación de la revista):</bold> Bruna Moreno Dias. <bold>Otros (orientación del manuscrito):</bold> Andrea Bernardes. Todos los autores aprobaron la versión final del texto.</p>
+				</fn>
+				<fn fn-type="conflict" id="fn11">
+					<label>Conflicto de intereses</label>
+					<p> Los autores han declarado que no existe ningún conflicto de intereses.</p>
+				</fn>
+			</author-notes>
+			<abstract>
+				<title>Resumen</title>
+				<sec>
+					<title>Objetivo:</title>
+					<p> estimar las propiedades psicométricas del <italic>Authentic Leadership Questionnaire</italic> (ALQ) aplicado a enfermeros brasileños. </p>
+				</sec>
+				<sec>
+					<title>Método:</title>
+					<p> estudio observacional transversal con muestreo no probabilístico. Las propiedades psicométricas de las versiones RATER y SELF del ALQ se estimaron mediante análisis factorial confirmatorio con el método de estimación robusta WLSMV. Como índices de calidad de ajuste de los modelos se utilizó: razón de chi-cuadrado por grados de libertad (χ<sup>2</sup>/gl), <italic>Tucker-Lewis Index</italic> (TLI), <italic>Comparative Fit Index</italic> (CFI), <italic>Root Mean Square Error of Approximation</italic> (RMSEA) y <italic>Standardized Root Mean Squared Residual</italic> (SRMR). La confiabilidad de los datos se analizó mediante el coeficiente alfa ordinal y la confiabilidad compuesta. </p>
+				</sec>
+				<sec>
+					<title>Resultados:</title>
+					<p> participaron 181 enfermeros (sexo femenino: 80,1%; edad media de 34,6 años; tiempo de trabajo inferior a cinco años: 76,3%). Los modelos completos ALQ RATER y ALQ SELF no mostraron un ajuste adecuado. Por lo tanto, el modelo refinado presentó un mejor ajuste para la muestra (ALQ RATER: χ<sup>2</sup>/gl=2,77; CFI=0,97; TLI=0,97; RMSEA=0,10; SRMR=0,05; ALQ SELF: χ<sup>2</sup>/gl=2,74; CFI=0,94, TLI=0,92, RMSEA=0,10, SRMR=0,08). En el modelo ALQ RATER se eliminaron los ítems 1, 7 y 13. Debido a la alta correlación entre los factores Transparencia Relacional y Perspectiva Moral, se propuso un modelo de tres factores basado en la unión de los factores mencionados anteriormente. En el modelo ALQ SELF se eliminaron los ítems 2, 5, 9 y 10. Asimismo, se propuso un modelo trifactorial basado en la unión de dos factores, ahora denominado Equilibrio de Autoconciencia. </p>
+				</sec>
+				<sec>
+					<title>Conclusión:</title>
+					<p> los datos obtenidos con el <italic>Authentic Leadership Questionnaire</italic> con enfermeros brasileños fueron válidos y confiables.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="es">
+				<title>Descriptores:</title>
+				<kwd>Liderazgo</kwd>
+				<kwd>Organización y Administración</kwd>
+				<kwd>Servicios de Salud</kwd>
+				<kwd>Grupo de Enfermería</kwd>
+				<kwd>Estudio de Validación</kwd>
+				<kwd>Psicometría</kwd>
+			</kwd-group>
+		</front-stub>
+		<body>
+			<boxed-text id="bx3">
+				<sec>
+					<title>Destacados</title>
+					<p>(1) La validación de un cuestionario auténtico de liderazgo es innovadora en el escenario nacional. </p>
+					<p>(2) El liderazgo auténtico es un modelo que aún no ha sido adoptado en el escenario brasileño.</p>
+					<p>(3) Las escalas validadas permitirán evaluar el liderazgo auténtico de los enfermeros.</p>
+				</sec>
+			</boxed-text>
+			<sec sec-type="intro">
+				<title>Introducción</title>
+				<p>El concepto de “autenticidad” está relacionado con la psicología positiva y tiene sus raíces en la filosofía griega, apareciendo las primeras aplicaciones de este constructo en los campos de la sociología y la educación<xref ref-type="bibr" rid="B1"><sup>1</sup></xref>. En 2003, sin embargo, se puso mayor énfasis en el concepto en el área de gestión y liderazgo, de modo que se definió a los auténticos líderes como aquellos que son conscientes de cómo piensan y se comportan, además de ser percibidos por los demás como conscientes de sus propios valores, perspectivas morales, conocimientos y fortalezas de los demás<xref ref-type="bibr" rid="B1"><sup>1</sup></xref>.</p>
+				<p>La autenticidad necesita de la confianza, el optimismo, la resiliencia y un alto carácter moral, estando relacionada con ser fiel a uno mismo. El modelo teórico de Liderazgo Auténtico se distingue, entonces, por la transparencia en las relaciones, por compartir información y sentimientos, así como por el compromiso organizacional y la satisfacción en el desempeño a través de una conducta coherente con el sistema de valores y convicciones personales. El Liderazgo Auténtico es capaz de resultar en una mayor motivación para participar en roles de liderazgo al crear un ambiente de trabajo saludable y promover la autoeficacia del liderazgo<xref ref-type="bibr" rid="B2"><sup>2</sup></xref>. Además, un estudio sugiere que el Liderazgo Auténtico puede presagiar la calidad del servicio al cliente<xref ref-type="bibr" rid="B3"><sup>3</sup></xref>.</p>
+				<p>La <italic>American Association of Critical-Care Nurses</italic> indica el liderazgo auténtico como modelo principal de liderazgo, también en este escenario de cuidados críticos, capaz de crear y sostener ambientes de trabajo saludables<xref ref-type="bibr" rid="B4"><sup>4</sup></xref>. Con base en los supuestos de este modelo, los liderados tienen la oportunidad de encontrar un mayor significado en las actividades realizadas y un mayor compromiso con el trabajo, promoviendo un ambiente que apoye tanto a los líderes como a sus liderados.</p>
+				<p>La teoría que sustenta el Liderazgo Auténtico se basa en cuatro pilares: Autoconocimiento (disposición del líder a analizar constantemente sus fortalezas y oportunidades de mejora); Transparencia Relacional (la capacidad del líder de mantenerse coherente con sus valores en la relación con la persona dirigida); Procesamiento Equilibrado (tomar decisiones de manera no sesgada) y Perspectiva Moral Interiorizada (los valores del líder culminan en su conducta moral)<xref ref-type="bibr" rid="B5"><sup>5</sup></xref>.</p>
+				<p>Con el objetivo de evaluar la autenticidad del líder, abarcando sus características éticas, morales, comportamentales y organizacionales, en 2007 se crearon las versiones originales del <italic>Authentic Leadership Questionnaire - ALQ</italic><xref ref-type="bibr" rid="B6"><sup>6</sup></xref>, testadas en dos muestras independientes de Estados Unidos y China. La muestra de EE. UU. estaba formada por empleados de una industria de alta tecnología, mientras que la muestra china estaba formada por empleados de una gran empresa estatal. El ALQ se publicó en inglés en dos versiones: la escala RATER, destinada a evaluar el liderazgo ejercido por el líder del participante, y la escala SELF, para evaluar el propio perfil de liderazgo del participante. Posteriormente, se realizaron estudios de validación del ALQ para su uso en diversas culturas, como España<xref ref-type="bibr" rid="B7"><sup>7</sup></xref>, Francia<xref ref-type="bibr" rid="B8"><sup>8</sup></xref> y Pakistán<xref ref-type="bibr" rid="B9"><sup>9</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B10"><sup>10</sup></xref>.</p>
+				<p>Las críticas al estudio original de 2008<xref ref-type="bibr" rid="B6"><sup>6</sup></xref> se debieron a que estos investigadores no relataron el uso de índices de modificaciones relacionados con las pruebas y ajuste de modelos. En ese sentido, los autores buscaron incentivar a otros investigadores a realizar nuevos estudios, en los que se explican y detallan todos los análisis realizados<xref ref-type="bibr" rid="B11"><sup>11</sup></xref>. </p>
+				<p>Investigación reciente informó que los cuatro factores que componen el ALQ (Autoconciencia, Transparencia Relacional, Procesamiento Equilibrado y Perspectiva Moral Interiorizada) explican la composición del Liderazgo Auténtico<xref ref-type="bibr" rid="B11"><sup>11</sup></xref>. </p>
+				<p>Es importante destacar que hasta el momento no existe evidencia científica de validación de este instrumento en muestras en la lengua portuguesa y para muestras brasileñas, ni que sus propiedades psicométricas hayan sido evaluadas en una muestra de enfermeros que actúan en ambiente hospitalario. Sin embargo, siendo una de las medidas más utilizadas para medir el estilo de liderazgo<xref ref-type="bibr" rid="B10"><sup>10</sup></xref>, es urgente la adaptación cultural del ALQ al portugués brasileño, así como su evaluación por los líderes que actúan en el área de la salud, lo que puede ampliar la identificación de estrategias que puedan contribuir a un ejercicio de liderazgo más eficaz a través de una gestión justa y auténtica y un liderazgo transformador. </p>
+				<p>Con base en lo anterior, este estudio fue realizado con el objetivo de estimar las propiedades psicométricas preliminares (validez de la estructura interna) del <italic>Authentic Leadership Questionnaire</italic> (ALQ) aplicado a enfermeros brasileños.</p>
+			</sec>
+			<sec sec-type="methods">
+				<title>Método</title>
+				<sec>
+					<title>Diseño del estudio</title>
+					<p>Se trata de un estudio observacional transversal con muestreo no probabilístico, realizado en dos hospitales generales ubicados en la Región Centro-Oeste de Brasil.</p>
+				</sec>
+				<sec>
+					<title>Población y muestra</title>
+					<p>La primera institución (Hospital A) es un hospital público de enseñanza con 210 camas de hospitalización en diferentes especialidades y cuenta con alrededor de 1.600 profesionales, de los cuales 230 son enfermeros. La segunda institución (Hospital B) es una entidad privada, sin fines de lucro, de gestión municipal, con 671 camas y más de 3.600 profesionales contratados, de los cuales 260 son enfermeros<xref ref-type="bibr" rid="B12"><sup>12</sup></xref>.</p>
+					<p>La población objetivo de este estudio estuvo compuesta por enfermeros que actúan en estas instituciones. Como criterio de inclusión fueron considerados enfermeros con vinculación activa a las instituciones, siendo considerados elegibles 300 enfermeros. La estimación del tamaño mínimo de la muestra para realizar el análisis factorial se realizó considerando de cinco a 10 sujetos por parámetro del modelo factorial a estimar<xref ref-type="bibr" rid="B13"><sup>13</sup></xref>. Como el ALQ (SELF y RATER) tiene 38 parámetros (16 ítems, 16 errores y 6 correlaciones entre factores), el tamaño mínimo de la muestra se estimó entre 190 y 380 participantes. Los enfermeros fueron abordados individualmente en su lugar de trabajo e invitadas a participar en el estudio. En esa ocasión, las dos versiones del ALQ fueron entregadas en instrumento impreso y recogidas a los cinco días. De esta forma, el participante pudo responder al instrumento, atentamente en el momento y en el espacio que juzgó más adecuado para ello, reduciendo el riesgo de interrupciones y/o exposición y vergüenza. De los 300 enfermeros elegibles, 250 recibieron el instrumento impreso, 50 no fueron localizados por vacaciones, ausencia, traslado, entre otros. De los 250 instrumentos aplicados a los enfermeros, sólo 200 fueron devueltos. La recolección de datos se llevó a cabo de diciembre de 2017 a marzo de 2018.</p>
+				</sec>
+				<sec>
+					<title>Instrumentos</title>
+					<p>Para la caracterización de la muestra se elaboró un cuestionario compuesto por preguntas demográficas y ocupacionales, a saber: sexo (femenino o masculino), título (licenciatura, especialización/residencia, maestría/doctorado), sector de trabajo (Administración/Gerencia, Clínica/Centro Quirúrgico, Materno-Infantil, Atención Médica de Urgencias, Unidad de Cuidados Coronarios, Unidad de Internación de Adultos, Unidad de Cuidados Intensivos, entre otros), turno (mañana, tarde, noche, tiempo integral), tiempo de experiencia profesional (en años) y tiempo de trabajo en el hospital (en años).</p>
+					<p>Como instrumento de medición se utilizó el <italic>Authentic Leadership Questionnaire - ALQ</italic>, el cual se aplicó a todos los participantes en sus dos versiones con diferentes propósitos: la escala RATER para evaluar el liderazgo del líder del participante y la escala SELF para evaluar el perfil de liderazgo del propio participante.</p>
+					<p>Cada versión (SELF y RATER) tiene 16 ítems distribuidos en cuatro factores: Transparencia Relacional (TR - ítems 1 a 5); Perspectiva Moral (PM - ítems 6 a 9); Procesamiento Equilibrado (PE - ítems 10 a 12); y Autoconocimiento (AC - ítems 13 a 16). La escala de respuesta a los ítems es del tipo Likert de cinco puntos (0: Pocas veces/nunca, 1: ocasionalmente, 2: a veces, 3: muchas veces y 4: muchas veces, casi siempre)<xref ref-type="bibr" rid="B6"><sup>6</sup></xref>.</p>
+					<p>La autorización para utilizar el ALQ fue concedida directamente por <italic>Mind Garden, Inc.</italic>, la empresa responsable de la licencia del cuestionario, en representación del Dr. Bruce J. Avolio.</p>
+				</sec>
+				<sec>
+					<title>Propiedades psicométricas de ALQ - evaluación de la estructura interna</title>
+					<p>Se estimó la sensibilidad psicométrica de los ítems, la validez de constructo factorial, convergente y discriminante y la confiabilidad del instrumento para la muestra (estructura interna).</p>
+					<p>La sensibilidad psicométrica se estimó utilizando medidas de resumen (media, mediana y desviación estándar) y forma (asimetría y curtosis) de la distribución de respuestas dadas a los ítems y se consideró adecuada cuando los valores absolutos de asimetría y curtosis fueron menores a tres y siete, respectivamente<xref ref-type="bibr" rid="B14"><sup>14</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B15"><sup>15</sup></xref>.</p>
+					<p>La validez de constructo factorial se probó mediante Análisis Factorial Confirmatorio (AFC) utilizando el método de estimación robusta de mínimos cuadrados ponderados ajustados por media y varianza (WLSMV). Para evaluar la calidad del ajuste del modelo a la muestra, se analizaron la razón chi-cuadrado por grados de libertad (χ<sup>2</sup>/gl), <italic>Comparative Fit Index</italic> (CFI), <italic>Tucker-Lewis Index</italic> (TLI), <italic>Root Mean Square Error of Approximation</italic> (RMSEA) y el <italic>Standardized Root Mean Squared Residual</italic> (SRMR). Se consideraron adecuados valores de: χ<sup>2</sup>/gl ≤ 2,0; CFI y TLI ≥ 0,90; y RMSEA ≤ 0,10<xref ref-type="bibr" rid="B16"><sup>16</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B17"><sup>17</sup></xref>. Además, los pesos factoriales (λ) se consideraron adecuados si se evaluaron ≥ 0,50. Los índices de modificación, calculados por el método de los multiplicadores de Lagrange (LM) fueron inspeccionados para ver si LM &gt;11<xref ref-type="bibr" rid="B13"><sup>13</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B15"><sup>15</sup></xref>.</p>
+					<p>La validez de constructo convergente se evaluó con base en la Varianza Extraída de la Media (VEM) y se consideró adecuada si VEM ≥ 0,50<xref ref-type="bibr" rid="B18"><sup>18</sup></xref>. Para evaluar la validez del constructo discriminante se consideró la la propuesta de 1981<xref ref-type="bibr" rid="B18"><sup>18</sup></xref> que afirma que si VEMi y VEMj ≥ ρij<sup>2</sup>, se puede confirmar la existencia de validez discriminante.</p>
+					<p>La confiabilidad de los factores se evaluó mediante el coeficiente alfa ordinal (α) y la Confiabilidad Compuesta (CC). Valores de α y CC superiores a 0,70 fueron considerados indicadores de confiabilidad adecuados<xref ref-type="bibr" rid="B15"><sup>15</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B18"><sup>18</sup></xref>.</p>
+					<p>Después de ajustar los modelos factoriales de las escalas ALQ RATER y SELF para la muestra, se propuso un modelo jerárquico de segundo orden (MHSO) con el fin de verificar la contribución de cada factor al constructo general de liderazgo.</p>
+					<p>Para realizar los análisis se utilizó el programa MPLUS v.8.3 (Muthén y Muthén, 2019, Los Ángeles) y R (R Core Team, 2016) con los paquetes “lavaan”<xref ref-type="bibr" rid="B19"><sup>19</sup></xref> y “semTools”<xref ref-type="bibr" rid="B20"><sup>20</sup></xref>.</p>
+				</sec>
+				<sec>
+					<title>Aspectos éticos</title>
+					<p>Se siguieron los preceptos éticos sobre las directrices y normas de investigación con seres humanos contenidos en la Resolución n° 466, de 12 de diciembre de 2012, del Conselho Nacional de Saúde. El estudio fue aprobado por el Comité de Ética en Investigación de la <italic>Escola de Enfermagem da Universidade de São Paulo</italic> (CAAE: 67343717100005393).</p>
+				</sec>
+			</sec>
+			<sec sec-type="results">
+				<title>Resultados</title>
+				<p>De los 300 enfermeros elegibles, 200 respondieron al cuestionario (tasa de adhesión=66,7%), de los cuales 19 fueron excluidos debido al llenado inconsistente y por falta de cumplimentación, resultando una muestra de 181 participantes. De estos, 63,5% (n=115) trabajaban en el hospital A y los profesionales eran predominantemente del sexo femenino (145; 80,1%), edad media de 34,6 años (desviación estándar=6,7), tenían título de especialización o residencia (138; 76,2%), actuaban en hospitales a menos de cinco años (138; 76,2%) y tenía más de cinco años de experiencia profesional (123; 67,3%). La caracterización demográfica y ocupacional de los enfermeros se presenta en la <xref ref-type="table" rid="t3">Tabla 1</xref>.</p>
+				<p>
+					<table-wrap id="t3">
+						<label>Tabla 1</label>
+						<caption>
+							<title>Caracterización demográfica y ocupacional de los enfermeros (n=181). Campo Grande, MS, Brasil, 2018</title>
+						</caption>
+						<table>
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left">Característica</th>
+									<th align="left">n</th>
+									<th align="left">%</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td align="left" colspan="3"><bold>Sexo</bold></td>
+								</tr>
+								<tr>
+									<td align="left">Femenino</td>
+									<td align="left">145</td>
+									<td align="left">80,1</td>
+								</tr>
+								<tr>
+									<td align="left">Masculino</td>
+									<td align="left">34</td>
+									<td align="left">18,8</td>
+								</tr>
+								<tr>
+									<td align="left">No respondieron</td>
+									<td align="left">2</td>
+									<td align="left">1,1</td>
+								</tr>
+								<tr>
+									<td align="left" colspan="3"><bold>Grupo etario</bold></td>
+								</tr>
+								<tr>
+									<td align="left">20 a 29 años</td>
+									<td align="left">47</td>
+									<td align="left">26,0</td>
+								</tr>
+								<tr>
+									<td align="left">30 a 39 años</td>
+									<td align="left">92</td>
+									<td align="left">50,8</td>
+								</tr>
+								<tr>
+									<td align="left">40 a 49 años</td>
+									<td align="left">37</td>
+									<td align="left">20,4</td>
+								</tr>
+								<tr>
+									<td align="left">50 años o más</td>
+									<td align="left">3</td>
+									<td align="left">1,7</td>
+								</tr>
+								<tr>
+									<td align="left">No respondieron</td>
+									<td align="left">2</td>
+									<td align="left">1,1</td>
+								</tr>
+								<tr>
+									<td align="left" colspan="3"><bold>Grado académico más alto</bold></td>
+								</tr>
+								<tr>
+									<td align="left">Grado</td>
+									<td align="left">21</td>
+									<td align="left">11,6</td>
+								</tr>
+								<tr>
+									<td align="left">Especialización/ residencia</td>
+									<td align="left">138</td>
+									<td align="left">76,2</td>
+								</tr>
+								<tr>
+									<td align="left">Maestría/Doctorado</td>
+									<td align="left">21</td>
+									<td align="left">11,6</td>
+								</tr>
+								<tr>
+									<td align="left">No respondieron</td>
+									<td align="left">1</td>
+									<td align="left">0,6</td>
+								</tr>
+								<tr>
+									<td align="left" colspan="3"><bold>Institución</bold></td>
+								</tr>
+								<tr>
+									<td align="left">Hospital A</td>
+									<td align="left">115</td>
+									<td align="left">63,5</td>
+								</tr>
+								<tr>
+									<td align="left">Hospital B</td>
+									<td align="left">66</td>
+									<td align="left">36,5</td>
+								</tr>
+								<tr>
+									<td align="left" colspan="3"><bold>Sector de Trabajo</bold></td>
+								</tr>
+								<tr>
+									<td align="left">Unidad de Terapia Intensiva</td>
+									<td align="left">41</td>
+									<td align="left">22,7</td>
+								</tr>
+								<tr>
+									<td align="left">Otro</td>
+									<td align="left">41</td>
+									<td align="left">22,7</td>
+								</tr>
+								<tr>
+									<td align="left">Unidad de Internación de Adultos</td>
+									<td align="left">29</td>
+									<td align="left">16,0</td>
+								</tr>
+								<tr>
+									<td align="left">Materno-Infantil</td>
+									<td align="left">23</td>
+									<td align="left">12,7</td>
+								</tr>
+								<tr>
+									<td align="left">Clínica/Centro Quirúrgico</td>
+									<td align="left">20</td>
+									<td align="left">11,0</td>
+								</tr>
+								<tr>
+									<td align="left">Unidad de Cuidados Coronarios</td>
+									<td align="left">12</td>
+									<td align="left">6,6</td>
+								</tr>
+								<tr>
+									<td align="left">Atención Médica de Emergencia</td>
+									<td align="left">9</td>
+									<td align="left">5,0</td>
+								</tr>
+								<tr>
+									<td align="left">Administración/Gerencia</td>
+									<td align="left">6</td>
+									<td align="left">3,3</td>
+								</tr>
+								<tr>
+									<td align="left" colspan="3"><bold>Turno de Trabajo</bold></td>
+								</tr>
+								<tr>
+									<td align="left">Mañana </td>
+									<td align="left">58</td>
+									<td align="left">32,0</td>
+								</tr>
+								<tr>
+									<td align="left">Noche</td>
+									<td align="left">57</td>
+									<td align="left">31,5</td>
+								</tr>
+								<tr>
+									<td align="left">Tarde</td>
+									<td align="left">42</td>
+									<td align="left">23,2</td>
+								</tr>
+								<tr>
+									<td align="left">Integral</td>
+									<td align="left">23</td>
+									<td align="left">12,7</td>
+								</tr>
+								<tr>
+									<td align="left">No respondieron</td>
+									<td align="left">1</td>
+									<td align="left">0,6</td>
+								</tr>
+								<tr>
+									<td align="left" colspan="3"><bold>Experiencia Profesional</bold></td>
+								</tr>
+								<tr>
+									<td align="left">Menos de 1 año</td>
+									<td align="left">13</td>
+									<td align="left">7,2</td>
+								</tr>
+								<tr>
+									<td align="left">De 1 a 5 años</td>
+									<td align="left">45</td>
+									<td align="left">24,9</td>
+								</tr>
+								<tr>
+									<td align="left">5 a 10 años</td>
+									<td align="left">52</td>
+									<td align="left">28,7</td>
+								</tr>
+								<tr>
+									<td align="left">De 10 a 20 años</td>
+									<td align="left">56</td>
+									<td align="left">30,9</td>
+								</tr>
+								<tr>
+									<td align="left">Más de 20 años</td>
+									<td align="left">14</td>
+									<td align="left">7,7</td>
+								</tr>
+								<tr>
+									<td align="left">No respondieron</td>
+									<td align="left">1</td>
+									<td align="left">0,6</td>
+								</tr>
+								<tr>
+									<td align="left" colspan="3"><bold>Tiempo de actuación en el Hospital</bold></td>
+								</tr>
+								<tr>
+									<td align="left">Menos de 1 año</td>
+									<td align="left">30</td>
+									<td align="left">16,6</td>
+								</tr>
+								<tr>
+									<td align="left">De 1 a 5 años</td>
+									<td align="left">108</td>
+									<td align="left">59,7</td>
+								</tr>
+								<tr>
+									<td align="left">5 a 10 años</td>
+									<td align="left">13</td>
+									<td align="left">7,2</td>
+								</tr>
+								<tr>
+									<td align="left">Más de 10 anos</td>
+									<td align="left">30</td>
+									<td align="left">16,6</td>
+								</tr>
+							</tbody>
+						</table>
+					</table-wrap>
+				</p>
+				<p>En cuanto al análisis de las propiedades psicométricas del ALQ para la muestra, los AFC de los modelos completos y refinados del ALQ RATER se muestran en la <xref ref-type="fig" rid="f9">Figura 1</xref>
+				</p>
+				<p>
+					<fig id="f9">
+						<label>Figura 1</label>
+						<caption>
+							<title>Análisis Factorial Confirmatorio de los modelos completo (A) y refinado (B) del ALQ RATER (n=181). Ribeirão Preto, SP, Brasil, 2021</title>
+						</caption>
+						<graphic xlink:href="1518-8345-rlae-30-e3607-gf9.png"/>
+					</fig>
+				</p>
+				<p>El modelo completo (A) del ALQ RATER no mostró un ajuste adecuado para la muestra (χ<sup>2</sup>/gl=4,42; CFI=0,94; TLI=0,92; RMSEA=0,14; SRMR=0,08). Los ítems 1 y 7 presentaron bajos pesos factoriales y el ítem 13 presentó alta correlación con el factor PE del instrumento (LM=40,51-61,09); por lo tanto, estos elementos se han eliminado. El modelo refinado (B) mostró el mejor ajuste para la muestra (χ<sup>2</sup>/gl=2,78; CFI=0,98; TLI=0,97; RMSEA=0,10; SRMR=0,05). La validez convergente de los factores de la escala ALQ RATER fue adecuada (VEM=0,50-0,78). Sin embargo, no se comprobó la validez discriminante de los factores del instrumento (r2=0,60-1,00), dadas las fuertes correlaciones entre ellos. En cuanto a la confiabilidad, se verificaron valores aceptables de ordinal α (0,74-0,91) y CC (0,69-0,88). </p>
+				<p>Para evaluar la contribución de los factores al concepto de liderazgo, se propuso un modelo jerárquico de segundo orden (MHSO) para el ALQ RATER (<xref ref-type="fig" rid="f10">Figura 2</xref>).</p>
+				<p>
+					<fig id="f10">
+						<label>Figura 2</label>
+						<caption>
+							<title>Análisis Factorial Confirmatorio del modelo jerárquico de segundo orden ALQ RATER (n=181). Ribeirão Preto, SP, Brasil, 2021</title>
+						</caption>
+						<graphic xlink:href="1518-8345-rlae-30-e3607-gf10.png"/>
+					</fig>
+				</p>
+				<p>El MHSO del ALQ RATER presentó un ajuste aceptable para la muestra (χ<sup>2</sup>/gl=2,89; CFI=0,97; TLI=0,97; RMSEA=0,10), pesos factoriales adecuados (λ=0,63-0,94) y alta contribución de factores y el constructo de liderazgo (β=0.86-1.00; p&lt;0.001).</p>
+				<p>No obstante, a partir de la observación de la alta correlación entre los factores TR y PM (<xref ref-type="fig" rid="f9">Figura 1</xref>), se propuso un modelo trifactorial para el ALQ RATER (<xref ref-type="fig" rid="f11">Figura 3</xref>), formado por los factores originales PE y AC y la combinación de los Factores TR y PM (entonces denominados Relacional y Moral - RM), compuestos por los ítems TR2, TR3, TR4, TR5, PM6, PM8 y PM9 y presentaron ajuste adecuado para la muestra (χ<sup>2</sup>/gl=2,77; CFI=0,97; TLI=0,97, RMSEA=0,10, SRMR=0,05).</p>
+				<p>
+					<fig id="f11">
+						<label>Figura 3</label>
+						<caption>
+							<title>Análisis Factorial Confirmatorio del modelo trifactorial ALQ RATER (n=181). Ribeirão Preto, SP, Brasil, 2021</title>
+						</caption>
+						<graphic xlink:href="1518-8345-rlae-30-e3607-gf11.png"/>
+					</fig>
+				</p>
+				<p>Se encontró que este modelo de tres factores presentó: pesos factoriales λ≥0,65; fuertes correlaciones entre factores (r=0,81-0,93); y validez convergente adecuada (VEM=0,52-0,78). No se comprobó la validez discriminante entre los factores (r2=0,66-0,86) y se observaron valores adecuados de ordinal α (0,85-0,91) y CC (0,83-0,88).</p>
+				<p>En cuanto al ALQ SELF, el modelo completo de cuatro factores no se ajustó a la muestra (χ<sup>2</sup>/gl=3,85; CFI=0,84; TLI=0,81; RMSEA=0,13; SRMR=0,11). La mayoría de los ítems tenían pesos factoriales bajos y los ítems 9 y 10 se correlacionaron con otros factores del instrumento (LM=48,15-61,22). Se observaron correlaciones moderadas entre la mayoría de los factores (r=0,48-0,68) y fuertes correlaciones entre los factores PE y AC (r=0,97).</p>
+				<p>Durante el ajuste, sin embargo, se encontró que el factor PE estaría compuesto solo por los ítems 11 y 12, y luego se propuso un modelo de tres factores ajustado a la muestra luego de la unión de los factores PE y AC. Este modelo de tres factores, entonces, pasó a estar constituido por los factores TR, PM y por la unión de PE y AC (entonces llamado Equilibrio Autoconsciencia - EAC), compuesto por los ítems PE11, PE12, AC13, AC14, AC15 y AC16 y presentó adecuado ajuste a la muestra (χ<sup>2/</sup>gl=2,74; CFI=0,94; TLI=0,92; RMSEA=0,10; SRMR=0,08). Los AFC del modelo completo (cuatro factores) y del modelo refinado (tres factores) del ALQ SELF para la muestra se presentan en la <xref ref-type="fig" rid="f12">Figura 4</xref>.</p>
+				<p>
+					<fig id="f12">
+						<label>Figura 4</label>
+						<caption>
+							<title>Análisis Factorial Confirmatorio de los modelos completo de cuatro factores (A) y refinado de tres factores (B) del ALQ SELF (n=181). Ribeirão Preto, SP, Brasil, 2021</title>
+						</caption>
+						<graphic xlink:href="1518-8345-rlae-30-e3607-gf12.png"/>
+					</fig>
+				</p>
+				<p>Se comprobó la validez convergente (VEM=0,48-0,57) y discriminante (r2=0,10-0,25) de los factores del modelo refinado del ALQ SELF para la muestra. En cuanto a la confiabilidad de los ítems, se encontraron valores adecuados (α=0,71-0,88; CC=0,67-0,84). Debido a las correlaciones moderadas entre los factores, no se propuso un MHSO del ALQ SELF para la muestra.</p>
+			</sec>
+			<sec sec-type="discussion">
+				<title>Discusión</title>
+				<p>En cuanto al ALQ RATER, la alta correlación entre los factores Transparencia Relacional y Perspectiva Moral permitió combinar estos factores, justificado por la relación directa entre sus conceptos teóricos, ya que mostrar el verdadero “yo” al otro (transparencia relacional) es una característica esencial de quienes se comportan de acuerdo con los valores personales (perspectiva moral). Además, se entiende que las personas tienden a percibir y evaluar la transparencia a partir de sus estructuras, valores, emociones y limitaciones cognitivas<xref ref-type="bibr" rid="B21"><sup>21</sup></xref>, y que la transparencia relacional requiere autenticidad y transparencia por parte del líder, para lograr la confianza de los demás seguidores<xref ref-type="bibr" rid="B22"><sup>22</sup></xref>, propagar lo que piensan y buscar la armonía en el grupo<xref ref-type="bibr" rid="B9"><sup>9</sup></xref>.</p>
+				<p>Es importante destacar que es necesario invertir en el fortalecimiento de las relaciones interpersonales entre el líder y los miembros del equipo para que se logre una comunicación más asertiva, así como el desarrollo de la autoconfianza en el equipo<xref ref-type="bibr" rid="B23"><sup>23</sup></xref>. Del mismo modo, la perspectiva moral predice que el líder cultive y sea capaz de promover valores, para que tome decisiones justas, basadas en altos estándares éticos<xref ref-type="bibr" rid="B6"><sup>6</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B22"><sup>22</sup></xref>. Así, los factores Relacional y Moral conforman la transparencia y la ética, que deben ir de la mano. Corroborando lo anterior, un estudio realizado en Bélgica muestra que el liderazgo auténtico y la integridad de comportamiento del líder están relacionados con el desempeño y el compromiso organizacional del seguidor y que esta relación se mantiene al controlar la cultura organizacional ética<xref ref-type="bibr" rid="B24"><sup>24</sup></xref>, acercándose así a los factores Transparencia Relacional desde la Perspectiva Moral.</p>
+				<p>En cuanto a la exclusión de los ítems 1 y 7 del nuevo factor Relacional y Moral y del ítem 13 del factor Autoconciencia, se considera aceptable desde el punto de vista teórico, ya que los ítems restantes son capaces de expresar los conceptos de transparencia relacional (el líder se muestra como es), perspectiva moral (el líder demuestra valores y conducta ética) y autoconciencia (el líder es consciente de sus fortalezas y debilidades)<xref ref-type="bibr" rid="B7"><sup>7</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B21"><sup>21</sup></xref>. Además, los ítems no siempre están correlacionados con un solo factor, con algún grado de asociación con factores relacionados conceptualmente<xref ref-type="bibr" rid="B25"><sup>25</sup></xref>. En España, el ALQ se aplicó a una muestra de 623 trabajadores de organizaciones públicas y privadas de diferentes sectores y, al igual que en Brasil, hubo necesidad de excluir tres ítems<xref ref-type="bibr" rid="B7"><sup>7</sup></xref>.</p>
+				<p>A partir de la observación del modelo jerárquico de segundo orden propuesto para el ALQ RATER, se constató que los factores Transparencia Relacional, Perspectiva Moral y Procesamiento Equilibrado fueron los que más contribuyeron para el desarrollo del constructo de liderazgo con enfermeros brasileños. Este hecho difiere de lo evidenciado en un estudio realizado con 1861 empleados de organizaciones de diversos sectores y tamaños cuya dimensión con mayor poder explicativo en la evaluación del líder fue la Autoconciencia, seguida del Procesamiento Equilibrado<xref ref-type="bibr" rid="B26"><sup>26</sup></xref>. Para la muestra, que comparó 1019 empleados brasileños con 842 empleados portugueses, el fundamento teórico consistió en que el autoconocimiento del líder y su relación con aquellos a los que dirige son esenciales para el ejercicio de un auténtico liderazgo<xref ref-type="bibr" rid="B26"><sup>26</sup></xref>.</p>
+				<p>Al igual que en la escala RATER, la exclusión de los ítems 2, 5, 9 y 10 puede justificarse teóricamente por no comprometer los conceptos de los diferentes factores, ya que los ítems restantes son capaces de contemplar la definición de cada uno de ellos. También es importante destacar que es posible que los factores se superpongan<xref ref-type="bibr" rid="B25"><sup>25</sup></xref>, como ocurrió entre el Procesamiento Equilibrado y la Autoconciencia, que mostró una correlación perfecta. Se propuso entonces un único factor (Equilibrio y Autoconciencia), justificado desde el marco teórico del instrumento, considerando que para tomar una decisión coherente es necesario analizarlo previamente (procesamiento equilibrado), siendo conscientes de sus propias debilidades y potencialidades (autoconciencia). El procesamiento equilibrado se refiere a las habilidades del líder para analizar cuidadosamente una situación antes de tomar decisiones, siendo capaz de aceptar otros puntos de vista, incluso si son diferentes al suyo<xref ref-type="bibr" rid="B1"><sup>1</sup></xref>. En la misma dirección, la autoconciencia se refiere a la percepción profunda de sus valores y creencias, así como de cómo se comportan y son percibidos por los demás<xref ref-type="bibr" rid="B1"><sup>1</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B27"><sup>27</sup></xref>. También vale la pena señalar que el propio creador del instrumento sugiere que no es apropiado conceptualizar los cuatro factores del ALQ como evaluaciones completamente separadas y construcciones distintas<xref ref-type="bibr" rid="B6"><sup>6</sup></xref>.</p>
+				<p>Dado lo anterior, la evaluación psicométrica del ALQ indicó la validez de la estructura interna adecuada para los modelos de tres factores en las versiones RATER y SELF. En contraste, en Pakistán<xref ref-type="bibr" rid="B9"><sup>9</sup></xref>, Nueva Zelanda<xref ref-type="bibr" rid="B28"><sup>28</sup></xref>, España<xref ref-type="bibr" rid="B7"><sup>7</sup></xref>, Bélgica<xref ref-type="bibr" rid="B24"><sup>24</sup></xref>, Portugal<xref ref-type="bibr" rid="B29"><sup>29</sup></xref>, Turquía<xref ref-type="bibr" rid="B30"><sup>30</sup></xref>, se encontró la validez del modelo de cuatro factores<xref ref-type="bibr" rid="B7"><sup>7</sup></xref>.</p>
+				<p>En cuanto a las diferencias en el ajuste de las dos versiones (SELF y RATER), se entiende que cuando los participantes se ven a sí mismos como líderes, son capaces de ver en sí mismos el procesamiento equilibrado, pudiendo, en su opinión, tomar decisiones en una manera imparcial; lo mismo ocurre con la autoconciencia, ya que los individuos creen comprender el impacto que pueden tener en las personas<xref ref-type="bibr" rid="B5"><sup>5</sup></xref>. Sin embargo, los participantes tienen dificultades para comprender la importancia de la transparencia relacional y la perspectiva moral entre el líder y los subordinados, caracterizada por la exigencia de altos estándares éticos que orienten el comportamiento<xref ref-type="bibr" rid="B5"><sup>5</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B6"><sup>6</sup></xref>.</p>
+				<p>En esta investigación, el modelo jerárquico de segundo orden solo fue posible para la escala RATER, que mostró una fuerte correlación entre los factores. Este resultado corrobora el estudio de los creadores del ALQ<xref ref-type="bibr" rid="B6"><sup>6</sup></xref> que destaca que los cuatro factores (Transparencia Relacional, Perspectiva Moral, Procesamiento Equilibrado y Autoconciencia) no son independientes y que el constructo liderazgo, un único factor de segundo orden, explica esta dependencia.</p>
+				<p>La revisión de la validación por los autores de la versión original del ALQ<xref ref-type="bibr" rid="B11"><sup>11</sup></xref> en línea con el artículo original de 2008<xref ref-type="bibr" rid="B6"><sup>6</sup></xref> reforzó la importancia de los cuatro componentes teóricos del modelo de Liderazgo Auténtico; sin embargo, los autores alientan el desarrollo de otros estudios de validación de modelos<xref ref-type="bibr" rid="B11"><sup>11</sup></xref>.</p>
+				<p>Así, los análisis de validación del ALQ propuestos podrán contribuir para ampliar el conocimiento de profesionales e investigadores en las áreas de enfermería y gestión hospitalaria, una vez que el estudio presenta la adaptación cultural del ALQ a la lengua portuguesa de Brasil<xref ref-type="bibr" rid="B31"><sup>31</sup></xref>, así como evidencias relacionadas a la validez de la estructura interna del instrumento aplicado a enfermeros que actúan en hospitales brasileños.</p>
+				<p>Las limitaciones de este estudio se refieren al uso del método de muestreo no probabilístico y al tamaño de la muestra, aspectos que impiden la generalización de los resultados. Sin embargo, se destaca que el ALQ en las versiones SELF y RATER fue considerado un instrumento válido y confiable para ser aplicado a la población de enfermeros, lo que seguramente contribuirá para la mejora de las investigaciones sobre el liderazgo auténtico en los entornos de salud brasileños.</p>
+			</sec>
+			<sec sec-type="conclusions">
+				<title>Conclusión</title>
+				<p>Las escalas SELF y RATER del <italic>Authentic Leadership Questionnaire</italic> (ALQ) aplicadas a una muestra de enfermeros brasileños permitieron recolectar informaciones válidas y confiables que posibilitaron la evaluación del liderazgo auténtico de esos profesionales. Sin embargo, para que el ALQ fuera utilizado, fueron necesarias adaptaciones de la estructura interna del instrumento.</p>
+				<p>El uso de las escalas SELF y RATER se puede realizar de forma independiente y se puede aplicar a los enfermeros brasileños que actúan en el contexto hospitalario. La aplicabilidad de la escala puede proporcionar evidencias relacionadas con la autenticidad del enfermero líder y su influencia en las organizaciones hospitalarias, abriendo espacio para la reflexión, discusión y uso futuro de esta herramienta para el rastreo y monitoreo de las características relacionadas con el liderazgo auténtico en este contexto.</p>
+			</sec>
+		</body>
+		<back>
+			<fn-group>
+				<fn fn-type="presented-at" id="fn12">
+					<p>Artículo parte de la tesis de doctorado “Análisis de la validez del Cuestionario de Liderazgo Auténtico”, presentada en la Universidade de São Paulo, Escola de Enfermagem de Ribeirão Preto, Centro Colaborador de la OPS/OMS para el Desarrollo de la Investigación en Enfermería, Ribeirão Preto, SP, Brasil.</p>
+				</fn>
+			</fn-group>
+		</back>
+	</sub-article>
+</article>

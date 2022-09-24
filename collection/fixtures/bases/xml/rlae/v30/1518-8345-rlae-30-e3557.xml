@@ -1,0 +1,2945 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.1" specific-use="sps-1.9" xml:lang="pt" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="nlm-ta">Rev Lat Am Enfermagem</journal-id>
+			<journal-id journal-id-type="publisher-id">rlae</journal-id>
+			<journal-title-group>
+				<journal-title>Revista Latino-Americana de Enfermagem</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Rev. Latino-Am. Enfermagem</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="epub">1518-8345</issn>
+			<issn pub-type="ppub">0104-1169</issn>
+			<publisher>
+				<publisher-name>Escola de Enfermagem de Ribeirão Preto / Universidade de São Paulo</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="other">00308</article-id>
+			<article-id pub-id-type="doi">10.1590/1518-8345.5581.3557</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artigo Original</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Impacto do tamanho das instituições de longa permanência na adesão às orientações de prevenção de infecções por COVID-19</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-4474-009X</contrib-id>
+					<name>
+						<surname>Wachholz</surname>
+						<given-names>Patrick Alexander</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-9713-8617</contrib-id>
+					<name>
+						<surname>Melo</surname>
+						<given-names>Ruth Caldeira de</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-1977-5880</contrib-id>
+					<name>
+						<surname>Jacinto</surname>
+						<given-names>Alessandro Ferrari</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>3</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-9876-3222</contrib-id>
+					<name>
+						<surname>Villas Boas</surname>
+						<given-names>Paulo José Fortes</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>1 </label>
+				<institution content-type="original">Universidade Estadual Paulista, Faculdade de Medicina de Botucatu, Botucatu, SP, Brasil.</institution>
+				<institution content-type="normalized">Universidade Estadual Paulista</institution>
+				<institution content-type="orgname">Universidade Estadual Paulista</institution>
+				<institution content-type="orgdiv1">Faculdade de Medicina de Botucatu</institution>
+				<addr-line>
+					<city>Botucatu</city>
+					<state>SP</state>
+				</addr-line>
+				<country country="BR">Brasil</country>
+			</aff>
+			<aff id="aff2">
+				<label>2</label>
+				<institution content-type="original"> Universidade de São Paulo, Escola de Artes, Ciências e Humanidades, São Paulo, SP, Brasil.</institution>
+				<institution content-type="normalized">Universidade de São Paulo</institution>
+				<institution content-type="orgname">Universidade de São Paulo</institution>
+				<institution content-type="orgdiv1">Escola de Artes, Ciências e Humanidades</institution>
+				<addr-line>
+					<city>São Paulo</city>
+					<state>SP</state>
+				</addr-line>
+				<country country="BR">Brasil</country>
+			</aff>
+			<aff id="aff3">
+				<label>3</label>
+				<institution content-type="original"> Universidade Federal de São Paulo, Escola Paulista de Medicina, São Paulo, SP, Brasil.</institution>
+				<institution content-type="normalized">Universidade Federal de São Paulo</institution>
+				<institution content-type="orgname">Universidade Federal de São Paulo</institution>
+				<institution content-type="orgdiv1">Escola Paulista de Medicina</institution>
+				<addr-line>
+					<city>São Paulo</city>
+					<state>SP</state>
+				</addr-line>
+				<country country="BR">Brasil</country>
+			</aff>
+			<author-notes>
+				<corresp id="c1">
+					<label>Autor correspondente:</label> Patrick Alexander Wachholz. E-mail: <email>patrick.wachholz@unesp.br</email>
+				</corresp>
+				<fn fn-type="edited-by" id="fn1">
+					<label>Editora Associada</label>
+					<p> Rosalina Aparecida Partezani Rodrigues</p>
+				</fn>
+				<fn fn-type="con" id="fn2">
+					<label>Contribuição dos autores</label>
+					<p><bold>Concepção e desenho da pesquisa:</bold> Patrick Alexander Wachholz, Ruth Caldeira de Melo. <bold>Obtenção de dados:</bold> Patrick Alexander Wachholz, Ruth Caldeira de Melo, Alessandro Ferrari Jacinto, Paulo José Fortes Villas Boas. <bold>Análise e interpretação dos dados:</bold> Patrick Alexander Wachholz, Ruth Caldeira de Melo, Alessandro Ferrari Jacinto, Paulo José Fortes Villas Boas. <bold>Análise estatística:</bold> Patrick Alexander Wachholz, Ruth Caldeira de Melo, Alessandro Ferrari Jacinto, Paulo José Fortes Villas Boas. <bold>Redação do manuscrito:</bold> Patrick Alexander Wachholz, Ruth Caldeira de Melo, Alessandro Ferrari Jacinto, Paulo José Fortes Villas Boas. <bold>Revisão crítica do manuscrito quanto ao conteúdo intelectual importante:</bold> Patrick Alexander Wachholz, Ruth Caldeira de Melo, Alessandro Ferrari Jacinto, Paulo José Fortes Villas Boas. Todos os autores aprovaram a versão final do texto.</p>
+				</fn>
+				<fn fn-type="conflict" id="fn3">
+					<label>Conflito de interesse</label>
+					<p> Os autores declararam que não há conflito de interesse.</p>
+				</fn>
+			</author-notes>
+			<pub-date date-type="collection" publication-format="electronic">
+				<year>2022</year>
+			</pub-date>
+			<pub-date date-type="pub" publication-format="electronic">
+				<day>29</day>
+				<month>04</month>
+				<year>2022</year>
+			</pub-date>
+			<volume>30</volume>
+			<elocation-id>e3557</elocation-id>
+			<history>
+				<date date-type="received">
+					<day>21</day>
+					<month>07</month>
+					<year>2021</year>
+				</date>
+				<date date-type="accepted">
+					<day>28</day>
+					<month>12</month>
+					<year>2021</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="pt">
+					<license-p>Este é um artigo publicado em acesso aberto sob uma licença Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>Resumo</title>
+				<sec>
+					<title>Objetivo:</title>
+					<p> avaliar a adesão das instituições de longa permanência brasileiras às orientações de Prevenção e Controle de Infecções da Organização Mundial da Saúde, observando a associação entre seu porte e a adesão a essas recomendações.</p>
+				</sec>
+				<sec>
+					<title>Método:</title>
+					<p> estudo transversal realizado com gestores de estabelecimentos. Os autores desenvolveram um questionário de 20 itens, com base nessas orientações, e um escore global de adesão, com base na adesão a essas recomendações. A adesão foi classificada como (1) excelente para aquelas que atenderam ≥14 de 20 recomendações, (2) bom para 10 a 13 itens e (3) baixo para aquelas com menos de dez itens. O tamanho das instalações foi classificado como pequeno, médio e grande, de acordo com uma análise de cluster em duas etapas. Estatística descritiva e teste de qui-quadrado foram utilizados com nível de significância de 5%.</p>
+				</sec>
+				<sec>
+					<title>Resultados:</title>
+					<p> das 362 instituições incluídas, 308 (85,1%) aderiram a 14 ou mais recomendações. Em relação ao seu tamanho, a adesão à triagem de sintomas de COVID-19 dos visitantes (p=0,037) e ao isolamento de pacientes até que tenham dois exames laboratoriais negativos (p=0,032) foi menor em estabelecimentos maiores, em comparação com estabelecimentos de médio e pequeno porte.</p>
+				</sec>
+				<sec>
+					<title>Conclusão:</title>
+					<p> a adesão às medidas de mitigação da COVID-19 nas unidades brasileiras foi considerada excelente para a maioria das recomendações, independentemente do porte das unidades.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="pt">
+				<title>Descriptores:</title>
+				<kwd>Idoso</kwd>
+				<kwd>COVID-19</kwd>
+				<kwd>Fidelidade a Diretrizes</kwd>
+				<kwd>Assistência de Longa Duração</kwd>
+				<kwd>Coronavirus</kwd>
+				<kwd>Instituição de Longa Permanência para Idosos</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="3"/>
+				<table-count count="12"/>
+				<equation-count count="0"/>
+				<ref-count count="34"/>
+				<page-count count="0"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<boxed-text id="bx1">
+			<sec>
+				<title>Destaques:</title>
+				<p>(1) A prevenção é um fator crítico no controle de infecções durante infecções emergentes. </p>
+				<p>(2) A COVID-19 afetou desproporcionalmente as Instituições de Longa Permanência para Idosos (ILPIs).</p>
+				<p>(3) A preparação para mitigar a COVID-19 nas ILPIs brasileiras foi considerada excelente. </p>
+				<p>(4) A adesão às medidas de prevenção e controle de infecções (PCI) para COVID-19 não foi influenciada pelo tamanho das unidades. </p>
+				<p>(5) As principais dificuldades estavam relacionadas a problemas financeiros e gerenciamento da equipe de trabalho.</p>
+			</sec>
+		</boxed-text>
+		<sec sec-type="intro">
+			<title>Introdução</title>
+			<p>Os idosos que vivem em Instituições de Longa Permanência para Idosos (ILPIs) foram afetados desproporcionalmente pela pandemia de COVID-19<xref ref-type="bibr" rid="B1"><sup>1</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B6"><sup>6</sup></xref>. A pandemia sobrecarregou os sistemas de saúde em todo o mundo e realçou as fraquezas (ou a falta) da base de dados nacional e das práticas de prevenção e controle de infecções (PCI) em ILPIs<xref ref-type="bibr" rid="B7"><sup>7</sup></xref>. </p>
+			<p>A prevalência de COVID-19 na comunidade é um forte preditor do número de casos e óbitos em ILPIs<xref ref-type="bibr" rid="B4"><sup>4</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B8"><sup>8</sup></xref>. As taxas de mortalidade aumentaram significativamente entre os idosos mais frágeis e entre os que vivem em instituições mais lotadas<xref ref-type="bibr" rid="B9"><sup>9</sup></xref>. Além disso, observou-se que a probabilidade de ocorrência de casos de COVID-19 é maior em instituições grandes, sem fins lucrativos e em regiões metropolitanas. Corroborando esses achados, examinaram-se as características das ILPIs norte-americanas com casos documentados de COVID-19 e descobriram que as infecções estavam relacionadas à localização (urbana) e ao tamanho (maior que 50 leitos) das instituições<xref ref-type="bibr" rid="B1"><sup>1</sup></xref>.</p>
+			<p>Por outro lado, mostrou-se que um alto número de auxiliares de enfermagem e o total de horas de enfermagem contribuem para mitigar as infecções por COVID-19 em ILPIs<xref ref-type="bibr" rid="B4"><sup>4</sup></xref>. Equipes maiores<xref ref-type="bibr" rid="B9"><sup>9</sup></xref> e práticas precoces e robustas de PCI<xref ref-type="bibr" rid="B8"><sup>8</sup></xref> parecem estar associadas a menores taxas de casos de COVID-19 e de mortalidade entre idosos que vivem nesses ambientes.</p>
+			<p>Desde o início da pandemia, a Organização Mundial da Saúde (OMS), os Centros de Controle e Prevenção de Doenças (CDC) e as organizações regionais publicaram recomendações e ações políticas para mitigar o impacto da COVID-19 entre pessoas que dependem do setor de cuidados de longo prazo<xref ref-type="bibr" rid="B10"><sup>10</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B13"><sup>13</sup></xref>. Contudo, até onde sabemos, a preparação para COVID-19 em ILPIs e a adesão a essas recomendações não foram suficientemente investigadas. </p>
+			<p>Um estudo norte-americano com uma amostra pequena evidenciou que as recomendações do CDC para PCI foram as mais utilizadas (88%), seguidas pelas recomendações das secretarias estaduais ou locais de saúde (84%) e pelas orientações da OMS (48%)<xref ref-type="bibr" rid="B14"><sup>14</sup></xref>. Mais da metade dos gerentes (54%) tinha planos separados para lidar com a COVID-19, quase todos (96%) tinham políticas para triagem de visitantes e a maioria (68%) indicou ter um hospital de referência local aceitando seus pacientes sob suspeita de infecção por COVID-19. Quase 83% esperavam uma escassez significativa de pessoal e 66% relataram ter acesso a testes de COVID-19<xref ref-type="bibr" rid="B14"><sup>14</sup></xref>.</p>
+			<p>A implementação da prática clínica baseada em evidência não é fácil e nem rápida. Barreiras e facilitadores precisam ser abordados com urgência e de forma correta, principalmente no nível organizacional<xref ref-type="bibr" rid="B15"><sup>15</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B17"><sup>17</sup></xref>. Não está claro se o tamanho das ILPIs pode ser uma barreira para a implementação de estratégias para mitigar a disseminação da COVID-19. Por exemplo, em ILPIs maiores, quanto maior o número de residentes, colaboradores e visitantes, maior é o número de trabalhadores, a necessidade de treinamento e de elaboração de escalas de rodízio para suprir abstenções por possíveis afastamentos, as demandas de contratação por rotatividade/retenção e o risco de desabastecimento<xref ref-type="bibr" rid="B18"><sup>18</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B19"><sup>19</sup></xref>.</p>
+			<p>Este estudo teve como objetivo avaliar a adesão dos gestores de ILPIs brasileiras às orientações de PCI da OMS, observando a associação entre o tamanho da instituição e a sua adesão às recomendações para mitigação da COVID-19.</p>
+		</sec>
+		<sec sec-type="methods">
+			<title>Método</title>
+			<sec>
+				<title>Aspectos éticos</title>
+				<p>Este estudo transversal foi aprovado pelo Comitê de Ética da Faculdade de Medicina de Botucatu, da Universidade Estadual Paulista “Júlio de Mesquita Filho” - UNESP (CAAE 30577520.0.0000.0008, protocolo nº 4.012.489). Todos os participantes assinaram um termo de consentimento esclarecido on-line. Os conjuntos de dados que apoiam os achados deste estudo estão disponíveis<xref ref-type="fn" rid="fn10"><sup>1</sup></xref>. Para os fins deste estudo, uma ILPI é uma instituição que presta cuidados de longa duração e/ou reabilitação, restauração e cuidados de fim de vida a residentes que necessitam de assistência em atividades da vida diária, incluindo uma variedade de serviços (sociais, médicos e pessoais) a pessoas incapazes de viver de forma independente. </p>
+			</sec>
+			<sec>
+				<title>Desenho do estudo e participantes</title>
+				<p>Este estudo transversal foi realizado exclusivamente por meio de plataformas eletrônicas, durante doze semanas consecutivas, a partir de 5 de maio de 2020, utilizando o <italic>Google Forms</italic>. A população de interesse foi composta por gestores de ILPIs brasileiras, cujos contatos foram obtidos por meio de listagens em domínios disponíveis na Internet, incluindo busca ativa em secretarias de saúde, vigilância epidemiológica, acionistas, Sistema Único de Assistência Social (SUAS) e grupos de apoio às ILPIs, incluindo sites e grupos de redes sociais. Não houve restrições quanto a tamanho, localização ou tipo de instituição. </p>
+			</sec>
+			<sec>
+				<title>Coleta de dados</title>
+				<p>A Organização Mundial da Saúde publicou, em 21 de março de 2020, o documento “Orientações sobre prevenção e controle de infecção para instituições de longa permanência no contexto da COVID-19”, com o objetivo de oferecer orientações sobre práticas de PCI nesse setor para evitar que o vírus entre nas instituições e se espalhe dentro e fora delas<xref ref-type="bibr" rid="B10"><sup>10</sup></xref>. Inicialmente elaborado em inglês, o documento foi posteriormente traduzido para o português pela Organização Pan-Americana da Saúde<xref ref-type="bibr" rid="B10"><sup>10</sup></xref>. Ao contrário de outras ferramentas de avaliação desenvolvidas pela OMS<xref ref-type="bibr" rid="B20"><sup>20</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B21"><sup>21</sup></xref>, esse guia provisório foi pensado para informar e apoiar os gestores de ILPIs na implementação dos requisitos mínimos para práticas de PCI no setor. O objetivo não era ser usado como uma ferramenta de auditoria, mas sim ajudar a avaliar, planejar, organizar e implementar práticas e atividades de PCI em um contexto inicial com pouca disponibilidade de evidências de apoio.</p>
+				<p>Com base nas recomendações da OMS<xref ref-type="bibr" rid="B10"><sup>10</sup></xref>, os autores desenvolveram um questionário de 20 itens com questões de múltipla escolha e questões dicotômicas. Como até no momento atual faltam dados nacionais confiáveis sobre o setor, foram incluídas vinte e seis questões adicionais, com o objetivo de fornecer informações sobre a caracterização das ILPIs, provisão/disponibilidade de equipamentos de proteção individual, infraestrutura para gestão de casos suspeitos/infectados e óbitos, além de planos de contingência para possíveis surtos. Também foi incluída uma pergunta aberta sobre as dificuldades mais significativas enfrentadas pela instituição no combate à pandemia. O questionário foi dividido em nove seções: prevenção, distanciamento físico dentro da instituição, regras para visitantes, vigilância prospectiva para COVID-19 entre residentes, vigilância prospectiva entre funcionários, controle de fonte, restrições de circulação e transporte, fornecimento e disponibilidade de equipamentos de proteção individual e equipamentos de limpeza, suporte técnico para enfrentar a pandemia.</p>
+				<p>Os autores desenvolveram um escore global de adesão às 20 questões com base na orientação original da OMS (<xref ref-type="table" rid="t2">Tabelas 2</xref> e <xref ref-type="table" rid="t3">3</xref>). Para este estudo, a adesão foi classificada como (1) <bold>excelente</bold> para ILPIs que atenderam pelo menos 14 itens das 20 recomendações (ou seja, 70%), (2) <bold>bom</bold> para ILPIs que atenderam de 10 a 13 itens (ou seja, 50 a 69%) e (3) <bold>baixa</bold> para aquelas que atenderam menos de dez itens (ou seja, &lt;49%). </p>
+				<p>O tempo estimado para o preenchimento do questionário foi de 30 minutos. Os respondentes tiveram a liberdade de participar mais de uma vez, mas cada ILPIs foi incluída apenas uma vez no estudo, com a resposta mais completa e recente sendo utilizada para a análise.</p>
+			</sec>
+			<sec>
+				<title>Tratamento e análise de dados</title>
+				<p>A análise estatística foi realizada no programa SPSS versão 20. Quando os respondentes não informaram dados para uma ou mais variáveis, estas foram descritas como ausentes e sua proporção informada na tabela. Como não há uma definição padrão para a classificação de tamanho de ILPIs, tendo em vista os propósitos deste artigo, uma análise de <italic>cluster</italic> em duas etapas foi aplicada à variável contínua “número de residentes” usando o algoritmo de agrupamento automático no SPSS versão 20. Três agrupamentos foram estabelecidos: pequenas, médias e grandes instituições. Estatística descritiva e testes do qui-quadrado foram utilizados com nível de significância de 5%.</p>
+				<p>A questão aberta foi analisada a partir da análise temática de conteúdo<xref ref-type="bibr" rid="B22"><sup>22</sup></xref>, dividida em três etapas: pré-análise, exploração do material e tratamento dos resultados. Na primeira etapa, foi realizada uma leitura flutuante para identificar as principais dificuldades enfrentadas nas ILPIs. Em seguida, o material foi explorado para estabelecer os temas centrais e as subcategorias. As respostas foram codificadas, permitindo o cálculo da frequência de cada categoria e a extração de partes do texto, de modo a criar um diagrama de Venn.</p>
+			</sec>
+		</sec>
+		<sec sec-type="results">
+			<title>Resultados</title>
+			<p>Um total de 374 respostas foi recebido durante as 12 semanas de investigação. Cinco gestores responderam ao questionário duas vezes, sendo excluídas suas respostas mais antigas e incompletas. Além disso, uma resposta de ILPI não brasileira também foi excluída. Seis gestores não informaram dados sobre o número de residentes, não sendo incluídas, portanto, suas respostas. </p>
+			<p>Ao todo, foram incluídas 362 ILPIs, com uma população total de 11.903 idosos. A região Sudeste do Brasil concentra a maior proporção de unidades incluídas (53,8%), principalmente aquelas com fins lucrativos (39,7%) e sem fins lucrativos que recebem subsídios governamentais/não governamentais (37,5%). A <xref ref-type="table" rid="t1">Tabela 1</xref> apresenta uma caracterização geral da amostra, segundo uma divisão de três tamanhos de ILPIs.</p>
+			<p>
+				<table-wrap id="t1">
+					<label>Tabela 1</label>
+					<caption>
+						<title>Características de 362 instituições brasileiras de longa permanência para idosos de acordo com o porte da instituição, cujos gestores responderam a um questionário online para identificar sua preparação para a pandemia de COVID-19 (n=362). Botucatu, SP, Brasil, 2020</title>
+					</caption>
+					<table>
+						<colgroup>
+							<col/>
+							<col span="3"/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left" rowspan="2">Características da amostra</th>
+								<th align="center" colspan="3">Tamanho da instituição </th>
+							</tr>
+							<tr>
+								<th align="center">Instituições pequenas (n= 172)</th>
+								<th align="center">Instituições médias (n= 157)</th>
+								<th align="center">Instituições grandes (n= 33)</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td align="left" colspan="4"><bold>Número de residentes</bold></td>
+							</tr>
+							<tr>
+								<td align="left">Mediana (IC 95%)</td>
+								<td align="center">18 (16,8 - 18,5)</td>
+								<td align="center">37 (37,5 - 40,3)</td>
+								<td align="center">76 (74,6 - 92,2)</td>
+							</tr>
+							<tr>
+								<td align="left">Média (DP)</td>
+								<td align="center">17,7 (5,7)</td>
+								<td align="center">38,9 (8,8)</td>
+								<td align="center">83,4 (24,8)</td>
+							</tr>
+							<tr>
+								<td align="left" colspan="4"><bold>Fonte de financiamento, n (%)</bold></td>
+							</tr>
+							<tr>
+								<td align="left">Público</td>
+								<td align="center">10 (5,8)</td>
+								<td align="center">6 (3,8)</td>
+								<td align="center">2 (6,0)</td>
+							</tr>
+							<tr>
+								<td align="left">Fins lucrativos</td>
+								<td align="center">98 (56,9)</td>
+								<td align="center">40 (25,5)</td>
+								<td align="center">4 (12,1)</td>
+							</tr>
+							<tr>
+								<td align="left">Sem fins lucrativos tipo 1<sup>*</sup></td>
+								<td align="center">43 (25,0)</td>
+								<td align="center">76 (48,4)</td>
+								<td align="center">18 (54,5)</td>
+							</tr>
+							<tr>
+								<td align="left">Sem fins lucrativos tipo 2<sup>†</sup></td>
+								<td align="center">21 (12,2)</td>
+								<td align="center">35 (22,2)</td>
+								<td align="center">9 (27,3)</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN1">
+							<p><sup>*</sup>Instituições de cuidados de longo prazo que recebem subsídios governamentais/não governamentais; <sup>†</sup>Instituições de cuidados de longo prazo que trabalham para outros que não seus fundadores ou diretores e podem ser reembolsadas por seus serviços (geralmente entidades de caridade).</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>Cento e sessenta e seis ILPIs (45,1%), independentemente do tipo de financiamento, declararam não ter recebido subsídios ou financiamentos externos para se preparar e enfrentar a pandemia, incluindo treinamentos e aquisição de equipamentos de proteção e adaptação de infraestrutura para o isolamento respiratório de casos suspeitos. Duzentos e trinta e cinco (64,9%; 74 respostas ausentes) gestores responderam que suas instalações já possuíam a infraestrutura necessária para lidar com casos suspeitos de COVID-19, incluindo acomodações com banheiros individuais, com espaços suficientes para a realização de medidas preventivas de higiene e proteção para trabalhadores e residentes. A disponibilidade de testes para influenza e coronavírus foi baixa: 23,5% (n=85) não tiveram acesso a ambos os testes e 17,4% (n=63) tiveram acesso apenas aos kits de teste rápido para SARS-Cov-2. </p>
+			<p>As <xref ref-type="table" rid="t2">Tabelas 2</xref> e <xref ref-type="table" rid="t3">3</xref> resumem a adesão aos 20 itens com base nas orientações de PCI da OMS. Trezentos e oito gestores (85,1%) aderiram a 14 ou mais recomendações de orientação do IPC, três foram classificados como baixa adesão e 35 (9,7%) não responderam. Em relação ao tamanho das ILPIs, a adesão à triagem de sinais e sintomas de COVID-19 dos visitantes (p=0,037) e ao isolamento de pacientes com COVID-19 até que tivessem dois exames laboratoriais negativos (p=0,032) foi menor nas unidades maiores, em comparação com as unidades de médio e pequeno porte. Não foram encontradas diferenças significativas para as demais orientações da OMS entre os três tamanhos de ILPIs estudados.</p>
+			<p>
+				<table-wrap id="t2">
+					<label>Tabela 2</label>
+					<caption>
+						<title>Adesão às orientações da Organização Mundial da Saúde para instituições de longa permanência no contexto da COVID-19 em estabelecimentos brasileiros (n=362). Botucatu, SP, Brasil, 2020</title>
+					</caption>
+					<table>
+						<colgroup>
+							<col/>
+							<col span="5"/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left" rowspan="2">Recomendações</th>
+								<th align="center" colspan="5">Adesão em N (%) </th>
+							</tr>
+							<tr>
+								<th align="center">Total (n=362)</th>
+								<th align="center">Pequena (n=172)</th>
+								<th align="center">Média (n=157)</th>
+								<th align="center">Grande (n=33)</th>
+								<th align="center">valor-p</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td align="left" colspan="6"><bold>Prevenção</bold></td>
+							</tr>
+							<tr>
+								<td align="left">Oferecer treinamento sobre PCI<sup>*</sup> no contexto da COVID-19 para todos os funcionários</td>
+								<td align="center">288 (79,6)</td>
+								<td align="center">132 (76,7)</td>
+								<td align="center">128 (81,5)</td>
+								<td align="center">28 (84,8)</td>
+								<td align="center">0,611</td>
+							</tr>
+							<tr>
+								<td align="left">Oferecer sessões informativas sobre COVID-19 para os residentes</td>
+								<td align="center">258 (71,3)</td>
+								<td align="center">121 (70,3)</td>
+								<td align="center">109 (69,4)</td>
+								<td align="center">28 (84,8)</td>
+								<td align="center">0,241</td>
+							</tr>
+							<tr>
+								<td align="left">Realizar regularmente auditorias sobre práticas de PCI*</td>
+								<td align="center">320 (88,4)</td>
+								<td align="center">146 (84,9)</td>
+								<td align="center">145 (92,4)</td>
+								<td align="center">29 (87,9)</td>
+								<td align="center">0,108</td>
+							</tr>
+							<tr>
+								<td align="left">Oferecer vacinação anual de acordo com as políticas locais</td>
+								<td align="center">344 (95,0)</td>
+								<td align="center">162 (93,6)</td>
+								<td align="center">151 (96,2)</td>
+								<td align="center">32 (97,0)</td>
+								<td align="center">0,720</td>
+							</tr>
+							<tr>
+								<td align="left" colspan="6"><bold>Distanciamento físico na instituição</bold></td>
+							</tr>
+							<tr>
+								<td align="left">Afixar avisos, cartazes e panfletos em toda a instituição</td>
+								<td align="center">302 (83,4)</td>
+								<td align="center">148 (86,0)</td>
+								<td align="center">125 (79,6)</td>
+								<td align="center">29 (87,9)</td>
+								<td align="center">0,423</td>
+							</tr>
+							<tr>
+								<td align="left">Distanciamento físico na unidade (em atividades em grupo)</td>
+								<td align="center">305 (84,3)</td>
+								<td align="center">146 (84,9)</td>
+								<td align="center">132 (84,1)</td>
+								<td align="center">27 (81,8)</td>
+								<td align="center">0,894</td>
+							</tr>
+							<tr>
+								<td align="left">Distanciamento físico na unidade (durante as refeições)</td>
+								<td align="center">212 (58,6)</td>
+								<td align="center">103 (59,9)</td>
+								<td align="center">92 (58,6)</td>
+								<td align="center">17 (51,5)</td>
+								<td align="center">0,772</td>
+							</tr>
+							<tr>
+								<td align="left">Exigir que os residentes e funcionários evitem se tocar</td>
+								<td align="center">344 (95,0)</td>
+								<td align="center">163 (94,8)</td>
+								<td align="center">148 (94,3)</td>
+								<td align="center">33 (100)</td>
+								<td align="center">0,539</td>
+							</tr>
+							<tr>
+								<td align="left" colspan="6"><bold>Regras para visitantes</bold></td>
+							</tr>
+							<tr>
+								<td align="left">Triagem para detectar sinais e sintomas ou risco de COVID-19</td>
+								<td align="center">337 (93,1)</td>
+								<td align="center">161 (93,6)</td>
+								<td align="center">148 (94,3)</td>
+								<td align="center">28 (84,8)</td>
+								<td align="center">0,037</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN2">
+							<p>*PCI = Prevenção e controle de infecções.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>
+				<table-wrap id="t3">
+					<label>Tabela 3</label>
+					<caption>
+						<title>Adesão às orientações da Organização Mundial da Saúde para instituições de longa permanência no contexto da COVID-19 (n= 362). Botucatu, SP, Brasil, 2020</title>
+					</caption>
+					<table>
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left">Vigilância prospectiva entre residentes</th>
+								<th align="center">Total (n=362)</th>
+								<th align="center">Pequena (n=172)</th>
+								<th align="center">Média (n=157)</th>
+								<th align="center">Grande (n=33)</th>
+								<th align="center">valor-p</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td align="left">Avaliar o estado de saúde de todo novo residente quando admitido</td>
+								<td align="center">344 (95,0)</td>
+								<td align="center">164 (95,3)</td>
+								<td align="center">148 (94,3)</td>
+								<td align="center">32 (97,0)</td>
+								<td align="center">0,700</td>
+							</tr>
+							<tr>
+								<td align="left">Avaliar cada residente duas vezes ao dia para acompanhar sintomas</td>
+								<td align="center">336 (92,8)</td>
+								<td align="center">160 (93,0)</td>
+								<td align="center">146 (93,0)</td>
+								<td align="center">30 (90,9)</td>
+								<td align="center">0,206</td>
+							</tr>
+							<tr>
+								<td align="left">Reportar imediatamente caso um residente apresente febre ou sintomas respiratórios</td>
+								<td align="center">358 (98,9)</td>
+								<td align="center">168 (97,7)</td>
+								<td align="center">157 (100)</td>
+								<td align="center">33 (100)</td>
+								<td align="center">0,346</td>
+							</tr>
+							<tr>
+								<td align="left" colspan="6"><bold>Vigilância prospectiva entre funcionários</bold></td>
+							</tr>
+							<tr>
+								<td align="left">Vigilância prospectiva de funcionário (em caso de sintomas)</td>
+								<td align="center">355 (98,1)</td>
+								<td align="center">168 (97,7)</td>
+								<td align="center">156 (99,4)</td>
+								<td align="center">31 (93,9)</td>
+								<td align="center">0,223</td>
+							</tr>
+							<tr>
+								<td align="left">Monitorar os funcionários com faltas sem justificativa</td>
+								<td align="center">328 (90,6)</td>
+								<td align="center">157 (91,3)</td>
+								<td align="center">142 (90,4)</td>
+								<td align="center">29 (87,9)</td>
+								<td align="center">0,568</td>
+							</tr>
+							<tr>
+								<td align="left">Realizar verificações de temperatura em todos os funcionários ao entrarem na instituição</td>
+								<td align="center">275 (76,0)</td>
+								<td align="center">128 (74,4)</td>
+								<td align="center">122 (77,7)</td>
+								<td align="center">25 (75,8)</td>
+								<td align="center">0,777</td>
+							</tr>
+							<tr>
+								<td align="left" colspan="6"><bold>Disponibilidade de equipamentos de proteção individual</bold></td>
+							</tr>
+							<tr>
+								<td align="left">Funcionários devem tomar precauções de contato e para gotículas</td>
+								<td align="center">327 (90,3)</td>
+								<td align="center">155 (90,1)</td>
+								<td align="center">143 (91,1)</td>
+								<td align="center">29 (87,9)</td>
+								<td align="center">0,792</td>
+							</tr>
+							<tr>
+								<td align="left">EPIs* devem ser usados de acordo com os procedimentos recomendados para evitar contaminação</td>
+								<td align="center">345 (95,3)</td>
+								<td align="center">162 (94,2)</td>
+								<td align="center">152 (96,8)</td>
+								<td align="center">31 (93,9)</td>
+								<td align="center">0,386</td>
+							</tr>
+							<tr>
+								<td align="left" colspan="6"><bold>Controle de fontes</bold></td>
+							</tr>
+							<tr>
+								<td align="left">Notificar as autoridades locais sobre qualquer casosuspeito e isolar os residentes que comecem a apresentar sintomas respiratórios</td>
+								<td align="center">228 (63,0)</td>
+								<td align="center">101 (59,7)</td>
+								<td align="center">100 (43,9)</td>
+								<td align="center">27 (81,8)</td>
+								<td align="center">0,190</td>
+							</tr>
+							<tr>
+								<td align="left" colspan="6"><bold>Restrições de movimentação e transporte</bold></td>
+							</tr>
+							<tr>
+								<td align="left">Pacientes que sejam casos confirmados não devem sair de seus quartos enquanto estiverem doentes.</td>
+								<td align="center">338 (93,4)</td>
+								<td align="center">162 (94,2)</td>
+								<td align="center">147 (93,6)</td>
+								<td align="center">29 (87,9)</td>
+								<td align="center">0,057</td>
+							</tr>
+							<tr>
+								<td align="left">Isolar os pacientes com COVID-19 até que tenham dois resultados negativos dos testes laboratoriais </td>
+								<td align="center">329 (90,9)</td>
+								<td align="center">158 (91,9)</td>
+								<td align="center">142 (90,4)</td>
+								<td align="center">29 (87,9)</td>
+								<td align="center">0,032</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN3">
+							<p>*EPI = Equipamento de proteção individual.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>A <xref ref-type="table" rid="t4">Tabela 4</xref> mostra os problemas que podem influenciar a preparação e adesão às recomendações adicionais de suporte técnico para enfrentar a pandemia de COVID-19 em ILPIs em relação a questões não incluídas na pontuação global de adesão. As questões mais frequentes foram relacionadas ao apoio externo (74,3% não receberam apoio para planejar e executar os planos de treinamento e contingência), seguido por dificuldades para adquirir equipamentos de proteção individual para residentes e funcionários (47,0%) e gerenciar casos de óbito (46,1 %). Um comitê de planejamento multidisciplinar, criado especificamente para lidar com questões relacionadas à COVID-19, foi menos frequente nas ILPIs pequenas (49,4%), em comparação às médias (65,0) e grandes (75,8) (p=0,034).</p>
+			<p>
+				<table-wrap id="t4">
+					<label>Tabela 4</label>
+					<caption>
+						<title>Preparação e adesão às recomendações de suporte técnico para o enfrentamento da pandemia de COVID-19 em 362 instituições de longa permanência brasileiras (n=362). Botucatu, SP, Brasil, 2020</title>
+					</caption>
+					<table>
+						<colgroup>
+							<col/>
+							<col span="5"/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left" rowspan="2">Recomendações</th>
+								<th align="center" colspan="5">Adesão n (%) </th>
+							</tr>
+							<tr>
+								<th align="center">Total (n=362)</th>
+								<th align="center">Pequena (n=172)</th>
+								<th align="center">Média (n=157)</th>
+								<th align="center">Grande (n=33)</th>
+								<th align="center">valor-p</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td align="left" colspan="6"><bold>Plano de contingência</bold></td>
+							</tr>
+							<tr>
+								<td align="left">Gestores discutiram, analisaram ou consideraram a criação de um plano de contingência para identificar o número mínimo de funcionários necessário para funcionar com segurança. </td>
+								<td align="center">276 (72,7)</td>
+								<td align="center">128 (74,4)</td>
+								<td align="center">124 (79,0)</td>
+								<td align="center">24 (72,7)</td>
+								<td align="center">0,838</td>
+							</tr>
+							<tr>
+								<td align="left">Os gerentes implementaram efetivamente um plano de contingência para identificar o número mínimo de funcionários necessário para funcionar com segurança e como contratá-los ou recrutá-los. </td>
+								<td align="center">241 (66,6)</td>
+								<td align="center">110 (64,0)</td>
+								<td align="center">109 (69,4)</td>
+								<td align="center">22 (66,7)</td>
+								<td align="center">0,304</td>
+							</tr>
+							<tr>
+								<td align="left">Uma comissão de planejamento multidisciplinar foi criada especificamente para decidir e discutir o planejamento das ações de prevenção e combate à COVID-19.</td>
+								<td align="center">212 (58,6)</td>
+								<td align="center">85 (49,4)</td>
+								<td align="center">102 (65,0)</td>
+								<td align="center">25 (75,8)</td>
+								<td align="center">0,034</td>
+							</tr>
+							<tr>
+								<td align="left" colspan="6"><bold>Equipamento de proteção individual</bold></td>
+							</tr>
+							<tr>
+								<td align="left">Moradores e funcionários têm acesso confortável e suficiente aos EPIs*.</td>
+								<td align="center">323 (89,2)</td>
+								<td align="center">156 (90,7)</td>
+								<td align="center">137 (87,3)</td>
+								<td align="center">30 (90,9)</td>
+								<td align="center">0,716</td>
+							</tr>
+							<tr>
+								<td align="left">A instituição está enfrentando dificuldades para comprar ou manter materiais de limpeza e EPIs* para moradores e funcionários. </td>
+								<td align="center">192 (53,0)</td>
+								<td align="center">89 (51,7)</td>
+								<td align="center">89 (56,7)</td>
+								<td align="center">14 (42,2)</td>
+								<td align="center">0,499</td>
+							</tr>
+							<tr>
+								<td align="left" colspan="6"><bold>Gestão de casos suspeitos/infectados e mortes</bold></td>
+							</tr>
+							<tr>
+								<td align="left">A unidade estabeleceu fluxos de atendimento com autoridades de saúde locais ou unidades de referência para transferência de casos suspeitos.</td>
+								<td align="center">228 (63,0)</td>
+								<td align="center">101 (58,7)</td>
+								<td align="center">100 (63,7)</td>
+								<td align="center">27 (81,8)</td>
+								<td align="center">0,199</td>
+							</tr>
+							<tr>
+								<td align="left">Os gestores criaram um plano de contingência para lidar com os casos de óbito dentro da unidade.</td>
+								<td align="center">195 (53,9)</td>
+								<td align="center">80 (46,5)</td>
+								<td align="center">95 (60,5)</td>
+								<td align="center">20 (60,6)</td>
+								<td align="center">0,249</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN4">
+							<p>*EPI = Equipamento de proteção individual.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>A análise das respostas dos gestores à questão aberta demonstrou que a maioria (98%) das ILPIs enfrentou dificuldades para lidar com a pandemia de COVID-19. De acordo com os gestores, as áreas mais afetadas foram as seguintes: disponibilidade de materiais suficientes (42%) (por exemplo, EPIs, higiene e limpeza, testes de COVID-19); dificuldades financeiras (39%) (por exemplo, o custo extra com materiais, o custo adicional com pessoal e questões de captação de recursos); e gerenciamento de pessoal (24%) (por exemplo, ausências e substituições, conscientização e cumprimento de protocolo, qualificação e treinamento, e sofrimento emocional). Problemas com infraestrutura (adaptação para isolamento de casos suspeitos/confirmados e espaço suficiente para procedimentos de distanciamento social) e com os residentes (conscientização e cumprimento do protocolo, sofrimento emocional, distanciamento social, gerenciamento de demência, restrição social e de visitas e ausência de contato familiar) foram relatados por 14% das ILPIs. </p>
+			<p>A <xref ref-type="fig" rid="f1">Figura 1</xref> ilustra a sobreposição entre os problemas enfrentados nas ILPIs, segundo seus gestores. A principal sobreposição detectada foi entre questões financeiras e materiais (8,2%), seguidas por financeira vs. equipe de trabalho (2,4%) e financeira vs. materiais vs. equipe de trabalho (2,4%). Uma sobreposição de 2,2% também foi observada para questões financeiras e infraestrutura, materiais e equipe de trabalho e equipe de trabalho e questões dos residentes. As demais combinações de problemas enfrentados nas ILPIs estiveram presentes em menos de 2,0% das respostas.</p>
+			<p>
+				<fig id="f1">
+					<label>Figura 1</label>
+					<caption>
+						<title>Diagrama de Venn mostrando a sobreposição entre os problemas enfrentados nas instituições de longa permanência. Botucatu, SP, Brasil, 2020</title>
+					</caption>
+					<graphic xlink:href="1518-8345-rlae-30-e3557-gf1.png"/>
+					<attrib>O símbolo * indica sobreposição inferior a 2,0%</attrib>
+				</fig>
+			</p>
+		</sec>
+		<sec sec-type="discussion">
+			<title>Discussão</title>
+			<p>Neste estudo transversal, a maioria dos gestores das ILPIs brasileiras (85,1%) relatou excelente adesão às recomendações gerais baseadas nas orientações de PCI da OMS para mitigar a COVID-19. Apesar disso, 98% das instituições relataram dificuldades com escassez de insumos, EPIs e materiais, problemas financeiros e dificuldades de gestão da equipe de trabalho. </p>
+			<p>Apesar de evidências anteriores que sugerem que o tamanho da ILPI está associado a um risco maior de surtos e mortes e, possivelmente, a dificuldades de adesão às medidas de PC<xref ref-type="bibr" rid="B1"><sup>1</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B4"><sup>4</sup></xref>, as ILPIs deste estudo obtiveram uma alta taxa de adesão geral, independentemente de seu tamanho. A pontuação global foi um pouco menor em ILPIs maiores para “triagem de visitantes externos” e “isolamento de moradores contaminados”. A adesão à recomendação de estabelecimento de comitês multidisciplinares de combate à COVID-19 foi menor em ILPIs menores.</p>
+			<p>Embora o tamanho das instalações não tenha sido avaliado em uma revisão sistemática recente<xref ref-type="bibr" rid="B23"><sup>23</sup></xref> sobre a epidemiologia e as características clínicas dos surtos de COVID-19 em instituições de cuidados a idosos, instituições maiores foram previamente correlacionadas com a disseminação de infecções<xref ref-type="bibr" rid="B23"><sup>23</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B24"><sup>24</sup></xref>. No entanto, aumentar a capacidade de testagem e atualizar os protocolos de vigilância podem facilitar a detecção precoce de surtos, ajudando essas unidades no gerenciamento da oferta de profissionais de saúde e da qualidade das casas de repouso, especialmente em relação à sua resposta a doenças infecciosas<xref ref-type="bibr" rid="B24"><sup>24</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B25"><sup>25</sup></xref>.</p>
+			<p>Muitas ILPIs perceberam um aumento considerável na carga de trabalho durante a pandemia de COVID-19. Tarefas e atividades que exigem envolvimento direto dos funcionários, como cuidar de residentes infectados (particularmente aqueles com deficiência funcional e déficit cognitivo) e realizar a triagem de visitantes externos, têm um impacto mais significativo nas instituições com um maior número de residentes. Esse impacto, no entanto, não foi suficiente para reduzir a adesão às recomendações do IPC.</p>
+			<p>A mortalidade por COVID-19 foi maior em unidades com maior aglomeração (9,7% vs. 4,5% em baixa aglomeração) nos EUA, independentemente do tamanho da unidade<xref ref-type="bibr" rid="B26"><sup>26</sup></xref>. No Canadá, o tamanho da ILPI foi fortemente associado a surtos de COVID-19 (<italic>odds ratio</italic> por cada aumento de 20 leitos 3·35, IC 95% 1·99-5·63)<xref ref-type="bibr" rid="B27"><sup>27</sup></xref>. No Reino Unido, a probabilidade de propagação foi maior em ILPIs maiores (&gt; 20 leitos) quando trabalhadores e instalações não aderiram às medidas de PCI para mitigar a infecção<xref ref-type="bibr" rid="B28"><sup>28</sup></xref>. No entanto, a preparação e a adesão a essas recomendações em ILPIs não foram suficientemente descritas em países de baixa e média renda (LMIC).</p>
+			<p>A prevenção é um fator crítico no controle de infecções, especialmente durante infecções emergentes. O setor de cuidados de longo prazo em ILPIs permanece subdesenvolvido. Assim, estratégias específicas devem ser consideradas e adaptadas para promover e implementar com sucesso protocolos e diretrizes de PCI. A implementação das práticas de PCI em populações de alto risco diferiu significativamente entre os grupos de prevalência mais alta e mais baixa nas categorias de distanciamento social e uso de EPI em um país de alta renda<xref ref-type="bibr" rid="B26"><sup>26</sup></xref>. </p>
+			<p>Outros fatores podem influenciar a adesão às práticas de PCI, atuando como facilitadores ou barreiras para sua implementação. A prevalência de COVID-19 na comunidade, a disponibilidade de testes e a taxa de infecção entre os trabalhadores (incluindo rotatividade e retenção de pessoal) podem influenciar a adesão a algumas das recomendações de PCI. A taxa de ocupação da instituição, as medidas inadequadas de PCI entre os funcionários para minimizar a transmissão entre a equipe, o atraso no reconhecimento de casos em residentes devido a um baixo índice de suspeita e o compartilhamento de um mesmo local por residentes com risco de morbidade grave e morte também são fatores que podem influenciar a adesão<xref ref-type="bibr" rid="B28"><sup>28</sup></xref>.</p>
+			<p>Dados de estudos anteriores realizados com 23.896 respondentes brasileiros (idade média: 47,4 anos) revelaram que os participantes aderiram de forma satisfatória às diretrizes nacionais de prevenção da COVID-19. Pessoas mais jovens, do sexo masculino, moradores de zona rural/aldeias ou bairros populares, estudantes e trabalhadores relataram menor adesão aos comportamentos preventivos<xref ref-type="bibr" rid="B29"><sup>29</sup></xref>.</p>
+			<p>Os resultados deste estudo apresentam limitações inerentes ao desenho transversal adotado e ao viés de memória. Da mesma forma, potenciais vieses de seleção podem ter privilegiado ILPIs com acesso à internet e equipes mais completas, incluindo trabalhadores dedicados às atividades administrativas. Embora tenham sido elaboradas pelos autores com base nas orientações da OMS, as perguntas não pretendem ser uma ferramenta de avaliação ou auditoria, já que as respostas fornecidas pelos gestores das ILPI podem não refletir a situação real das unidades incluídas. Da mesma forma, não há pontos de corte estabelecidos para classificar as instalações por tamanho, o que pode ter influenciado os achados. Apesar disso, todas as definições adotadas para este estudo foram definidas <italic>a priori</italic>, sendo incluído um número grande e nacionalmente representativo de unidades.</p>
+			<p>A COVID-19 tem sido uma pandemia ou sindemia<xref ref-type="bibr" rid="B30"><sup>30</sup></xref> de desigualdades: países com respostas bem-sucedidas desenvolveram parcerias em vários níveis entre setores governamentais, fizeram testagens em tempo oportuno e realizaram encaminhamentos de casos suspeitos<xref ref-type="bibr" rid="B31"><sup>31</sup></xref>. Parte do drama observado no início da pandemia, quando a mortalidade por COVID-19 entre os residentes de ILPIs era brutalmente alta em alguns países, foi devido à ausência de guias e regulamentações oficiais para pandemias e desastres naturais em todo o mundo<xref ref-type="bibr" rid="B32"><sup>32</sup></xref>. </p>
+			<p>Poucas iniciativas no Brasil têm se dedicado a recomendar as melhores práticas na mitigação da COVID-19 no setor de cuidados nas ILPIs. Entre as mais representativas, como as lideradas pela Frente Nacional de Fortalecimento à ILPI<xref ref-type="bibr" rid="B33"><sup>33</sup></xref> e pela Sociedade Brasileira de Geriatria e Gerontologia<xref ref-type="bibr" rid="B34"><sup>34</sup></xref>, nenhuma foi investigada quanto à sua eficácia até o presente momento. Ao identificar a taxa de adesão às recomendações de PCI, os gestores de ILPIs e suas equipes de trabalho podem reconhecer a eficácia dessas ações, traçando e adaptando planos de contingência que possam preparar o setor para novas ameaças emergentes. Da mesma forma, em termos práticos, a equipe de enfermagem das ILPIs pode utilizar o roteiro de perguntas para verificar as melhores práticas de PCI no setor.</p>
+		</sec>
+		<sec sec-type="conclusions">
+			<title>Conclusão</title>
+			<p>Em conclusão, a adesão às recomendações da orientação de PCI da OMS foi considerada excelente para a maioria dos itens propostos, independentemente do tamanho das unidades. Apenas a adesão à triagem de sintomas de COVID-19 dos visitantes e ao isolamento de pacientes até que tenham dois exames laboratoriais negativos foi menor em estabelecimentos maiores, em comparação com estabelecimentos de médio e pequeno porte. De acordo com os gestores, a maioria das ILPIs enfrentou dificuldades para lidar com a pandemia de COVID-19, relacionadas principalmente às dificuldades financeiras, à falta de materiais de proteção individual, de higiene e limpeza, assim como ao gerenciamento de pessoal.</p>
+		</sec>
+	</body>
+	<back>
+		<ack>
+			<title>Agradecimentos</title>
+			<p>Nossos agradecimentos são destinados à pesquisadora Helena Akemi Wada Watanabe, da Frente Nacional de Fortalecimento à ILPI, e ao grupo de profissionais e pesquisadores do site <ext-link ext-link-type="uri" xlink:href="https://www.ilpi.me/">https://www.ilpi.me/</ext-link> pelo apoio na realização deste estudo.</p>
+		</ack>
+		<ref-list>
+			<title>Referências</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. Abrams HR, Loomer L, Gandhi A, Grabowski DC. Characteristics of U.S. Nursing Homes with COVID-19 Cases. J Am Geriatr Soc. 2020;68:1653-6. doi: http://doi.org/10.1111/jgs.16661</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Abrams</surname>
+							<given-names>HR</given-names>
+						</name>
+						<name>
+							<surname>Loomer</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Gandhi</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Grabowski</surname>
+							<given-names>DC</given-names>
+						</name>
+					</person-group>
+					<article-title>Characteristics of U S. Nursing Homes with COVID-19 Cases</article-title>
+					<source>J Am Geriatr Soc</source>
+					<year>2020</year>
+					<volume>68</volume>
+					<fpage>1653</fpage>
+					<lpage>1656</lpage>
+					<pub-id pub-id-type="doi">10.1111/jgs.16661</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. Comas-Herrera A, Zalakaín J, Lemmon E, Litwin C, Hsu AT, Schmidt AE, et al. Mortality associated with COVID-19 in care homes: international evidence [Internet]. 2020 [cited 2021 May 10]. Available from: <ext-link ext-link-type="uri" xlink:href="https://ltccovid.org/wp-content/uploads/2020/10/Mortality-associated-with-COVID-among-people-living-in-care-homes-14-October-2020-3.pdf">https://ltccovid.org/wp-content/uploads/2020/10/Mortality-associated-with-COVID-among-people-living-in-care-homes-14-October-2020-3.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Comas-Herrera</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Zalakaín</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Lemmon</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Litwin</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Hsu</surname>
+							<given-names>AT</given-names>
+						</name>
+						<name>
+							<surname>Schmidt</surname>
+							<given-names>AE</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<source>Mortality associated with COVID-19 in care homes: international evidence</source>
+					<comment>Internet</comment>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-05-10">2021 May 10</date-in-citation>
+					<comment>Available from: <ext-link ext-link-type="uri" xlink:href="https://ltccovid.org/wp-content/uploads/2020/10/Mortality-associated-with-COVID-among-people-living-in-care-homes-14-October-2020-3.pdf">https://ltccovid.org/wp-content/uploads/2020/10/Mortality-associated-with-COVID-among-people-living-in-care-homes-14-October-2020-3.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. American Geriatrics Society. American Geriatrics Society Policy Brief: COVID-19 and Nursing Homes. J Am Geriatr Soc. 2020;68:908-11. doi: http://doi.org/10.1111/jgs.16477</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<collab>American Geriatrics Society</collab>
+					</person-group>
+					<article-title>American Geriatrics Society Policy Brief: COVID-19 and Nursing Homes</article-title>
+					<source>J Am Geriatr Soc</source>
+					<year>2020</year>
+					<volume>68</volume>
+					<fpage>908</fpage>
+					<lpage>911</lpage>
+					<pub-id pub-id-type="doi">10.1111/jgs.16477</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. Gorges RJ, Konetzka RT. Staffing Levels and COVID-19 Cases and Outbreaks in U.S. Nursing Homes. J Am Geriatr Soc. 2020. doi: <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1111/jgs.16787">http://doi.org/10.1111/jgs.16787</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Gorges</surname>
+							<given-names>RJ</given-names>
+						</name>
+						<name>
+							<surname>Konetzka</surname>
+							<given-names>RT</given-names>
+						</name>
+					</person-group>
+					<article-title>Staffing Levels and COVID-19 Cases and Outbreaks in U.S. Nursing Homes</article-title>
+					<source>J Am Geriatr Soc</source>
+					<year>2020</year>
+					<ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1111/jgs.16787">http://doi.org/10.1111/jgs.16787</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Watanabe HAW, Domingues MARC, Duarte YAO. COVID-19 and homes for the aged: care or an announced death? Geriatr Gerontol Aging. 2020;14:143-5. doi: http://doi.org/10.5327/Z2447-2123202020142LTTR</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Watanabe</surname>
+							<given-names>HAW</given-names>
+						</name>
+						<name>
+							<surname>Domingues</surname>
+							<given-names>MARC</given-names>
+						</name>
+						<name>
+							<surname>Duarte</surname>
+							<given-names>YAO</given-names>
+						</name>
+					</person-group>
+					<article-title>COVID-19 and homes for the aged: care or an announced death?</article-title>
+					<source>Geriatr Gerontol Aging</source>
+					<year>2020</year>
+					<volume>14</volume>
+					<fpage>143</fpage>
+					<lpage>145</lpage>
+					<pub-id pub-id-type="doi">10.5327/Z2447-2123202020142LTTR</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. Wachholz PA, Moreira VG, Oliveira D, Watanabe HAW, Boas PJFV. Estimates of infection and mortality from COVID-19 in care homes for older people in Brazil. Geriatr Gerontol Aging. 2020;14:290-3. doi: http://doi.org/10.5327/Z2447-212320202000127</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Wachholz</surname>
+							<given-names>PA</given-names>
+						</name>
+						<name>
+							<surname>Moreira</surname>
+							<given-names>VG</given-names>
+						</name>
+						<name>
+							<surname>Oliveira</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Watanabe</surname>
+							<given-names>HAW</given-names>
+						</name>
+						<name>
+							<surname>Boas</surname>
+							<given-names>PJFV</given-names>
+						</name>
+					</person-group>
+					<article-title>Estimates of infection and mortality from COVID-19 in care homes for older people in Brazil</article-title>
+					<source>Geriatr Gerontol Aging</source>
+					<year>2020</year>
+					<volume>14</volume>
+					<fpage>290</fpage>
+					<lpage>293</lpage>
+					<pub-id pub-id-type="doi">10.5327/Z2447-212320202000127</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. Hanratty B, Burton JK, Goodman C, Gordon AL, Spilsbury K. Covid-19 and lack of linked datasets for care homes. BMJ. 2020;369. doi: <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1136/bmj.m2463">http://doi.org/10.1136/bmj.m2463</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hanratty</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Burton</surname>
+							<given-names>JK</given-names>
+						</name>
+						<name>
+							<surname>Goodman</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Gordon</surname>
+							<given-names>AL</given-names>
+						</name>
+						<name>
+							<surname>Spilsbury</surname>
+							<given-names>K</given-names>
+						</name>
+					</person-group>
+					<article-title>Covid-19 and lack of linked datasets for care homes</article-title>
+					<source>BMJ</source>
+					<year>2020</year>
+					<volume>369</volume>
+					<ext-link ext-link-type="uri" xlink:href="http://doi.org/10.1136/bmj.m2463">http://doi.org/10.1136/bmj.m2463</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Sepulveda ER, Stall NM, Sinha SK. A Comparison of COVID-19 Mortality Rates Among Long-Term Care Residents in 12 OECD Countries. J Am Med Dir Assoc. 2020;21:1572-1574.e3. doi: http://doi.org/10.1016/j.jamda.2020.08.039</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sepulveda</surname>
+							<given-names>ER</given-names>
+						</name>
+						<name>
+							<surname>Stall</surname>
+							<given-names>NM</given-names>
+						</name>
+						<name>
+							<surname>Sinha</surname>
+							<given-names>SK</given-names>
+						</name>
+					</person-group>
+					<article-title>A Comparison of COVID-19 Mortality Rates Among Long-Term Care Residents in 12 OECD Countries</article-title>
+					<source>J Am Med Dir Assoc</source>
+					<year>2020</year>
+					<volume>21</volume>
+					<fpage>1572</fpage>
+					<lpage>1574.e3</lpage>
+					<pub-id pub-id-type="doi">10.1016/j.jamda.2020.08.039</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. Fisman DN, Bogoch I, Lapointe-Shaw L, McCready J, Tuite AR. Risk Factors Associated With Mortality Among Residents With Coronavirus Disease 2019 (COVID-19) in Long-term Care Facilities in Ontario, Canada. JAMA Netw Open. 2020;3:e2015957. doi: http://doi.org/10.1001/jamanetworkopen.2020.15957</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Fisman</surname>
+							<given-names>DN</given-names>
+						</name>
+						<name>
+							<surname>Bogoch</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Lapointe-Shaw</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>McCready</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Tuite</surname>
+							<given-names>AR</given-names>
+						</name>
+					</person-group>
+					<article-title>Risk Factors Associated With Mortality Among Residents With Coronavirus Disease 2019 (COVID-19) in Long-term Care Facilities in Ontario, Canada</article-title>
+					<source>JAMA Netw Open</source>
+					<year>2020</year>
+					<volume>3</volume>
+					<elocation-id>e2015957</elocation-id>
+					<pub-id pub-id-type="doi">10.1001/jamanetworkopen.2020.15957</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. World Health Organization. Infection prevention and control guidance for long-term care facilities in the context of COVID-19: interim guidance, 21 March 2020 [Internet]. 2020 [cited 2020 Oct 28]. Available from: <ext-link ext-link-type="uri" xlink:href="https://apps.who.int/iris/handle/10665/331508">https://apps.who.int/iris/handle/10665/331508</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>World Health Organization</collab>
+					</person-group>
+					<source>Infection prevention and control guidance for long-term care facilities in the context of COVID-19: interim guidance, 21 March 2020</source>
+					<comment>Internet</comment>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-10-28">2020 Oct 28</date-in-citation>
+					<comment>Available from: <ext-link ext-link-type="uri" xlink:href="https://apps.who.int/iris/handle/10665/331508">https://apps.who.int/iris/handle/10665/331508</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. Center for Disease Control and Prevention. Interim Infection Prevention and Control Recommendations to Prevent SARS-CoV-2 Spread in Nursing Homes [Internet]. [cited 2020 Oct 28]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.cdc.gov/coronavirus/2019-ncov/hcp/long-term-care.html">https://www.cdc.gov/coronavirus/2019-ncov/hcp/long-term-care.html</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Center for Disease Control and Prevention</collab>
+					</person-group>
+					<source>Interim Infection Prevention and Control Recommendations to Prevent SARS-CoV-2 Spread in Nursing Homes</source>
+					<comment>Internet</comment>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-10-28">2020 Oct 28</date-in-citation>
+					<comment>Available from: <ext-link ext-link-type="uri" xlink:href="https://www.cdc.gov/coronavirus/2019-ncov/hcp/long-term-care.html">https://www.cdc.gov/coronavirus/2019-ncov/hcp/long-term-care.html</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. British Geriatric Society. Managing the COVID-19 Pandemic in Care Homes [Internet]. London: British Geriatric Society; 2020 [cited 2020 Sept 5]. Available from: <ext-link ext-link-type="uri" xlink:href="http://www.bgs.org.uk/COVID-19">http://www.bgs.org.uk/COVID-19</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>British Geriatric Society</collab>
+					</person-group>
+					<source>Managing the COVID-19 Pandemic in Care Homes</source>
+					<year>2020</year>
+					<comment>[Internet]</comment>
+					<publisher-loc>London</publisher-loc>
+					<publisher-name>British Geriatric Society</publisher-name>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-09-05">2020 Sept 5</date-in-citation>
+					<comment>Available from: <ext-link ext-link-type="uri" xlink:href="http://www.bgs.org.uk/COVID-19">http://www.bgs.org.uk/COVID-19</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. Comas-Herrera A, Fernández-Plotka JL. Summary of international policy measures to limit impact of COVID19 on people who rely on the Long-Term Care sector [Internet]. March 29 2020 [cited 2020 Oct 28]. Available from: <ext-link ext-link-type="uri" xlink:href="https://ltccovid.org/2020/03/29/summary-of-international-policy-measures-to-limit-impact-of-covid19-on-people-who-rely-on-the-long-term-care-sector">https://ltccovid.org/2020/03/29/summary-of-international-policy-measures-to-limit-impact-of-covid19-on-people-who-rely-on-the-long-term-care-sector</ext-link>/</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Comas-Herrera</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Fernández-Plotka</surname>
+							<given-names>JL</given-names>
+						</name>
+					</person-group>
+					<source>Summary of international policy measures to limit impact of COVID19 on people who rely on the Long-Term Care sector</source>
+					<comment>Internet</comment>
+					<month>03</month>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-10-28">2020 Oct 28</date-in-citation>
+					<comment>Available from: <ext-link ext-link-type="uri" xlink:href="https://ltccovid.org/2020/03/29/summary-of-international-policy-measures-to-limit-impact-of-covid19-on-people-who-rely-on-the-long-term-care-sector">https://ltccovid.org/2020/03/29/summary-of-international-policy-measures-to-limit-impact-of-covid19-on-people-who-rely-on-the-long-term-care-sector</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. Quigley DD, Dick A, Agarwal M, Jones KM, Mody L, Stone PW. COVID-19 Preparedness in Nursing Homes in the Midst of the Pandemic. J Am Geriatr Soc. 2020;68:1164-6. doi: http://doi.org/10.1111/jgs.16520</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Quigley</surname>
+							<given-names>DD</given-names>
+						</name>
+						<name>
+							<surname>Dick</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Agarwal</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Jones</surname>
+							<given-names>KM</given-names>
+						</name>
+						<name>
+							<surname>Mody</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Stone</surname>
+							<given-names>PW</given-names>
+						</name>
+					</person-group>
+					<article-title>COVID-19 Preparedness in Nursing Homes in the Midst of the Pandemic</article-title>
+					<source>J Am Geriatr Soc</source>
+					<year>2020</year>
+					<volume>68</volume>
+					<fpage>1164</fpage>
+					<lpage>1166</lpage>
+					<pub-id pub-id-type="doi">10.1111/jgs.16520</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. Damschroder LJ, Aron DC, Keith RE, Kirsh SR, Alexander JA, Lowery JC. Fostering implementation of health services research findings into practice: a consolidated framework for advancing implementation science. Implementation Sci. 2009;4:50. doi: http://doi.org/10.1186/1748-5908-4-50</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Damschroder</surname>
+							<given-names>LJ</given-names>
+						</name>
+						<name>
+							<surname>Aron</surname>
+							<given-names>DC</given-names>
+						</name>
+						<name>
+							<surname>Keith</surname>
+							<given-names>RE</given-names>
+						</name>
+						<name>
+							<surname>Kirsh</surname>
+							<given-names>SR</given-names>
+						</name>
+						<name>
+							<surname>Alexander</surname>
+							<given-names>JA</given-names>
+						</name>
+						<name>
+							<surname>Lowery</surname>
+							<given-names>JC</given-names>
+						</name>
+					</person-group>
+					<article-title>Fostering implementation of health services research findings into practice: a consolidated framework for advancing implementation science</article-title>
+					<source>Implementation Sci</source>
+					<year>2009</year>
+					<volume>4</volume>
+					<fpage>50</fpage>
+					<lpage>50</lpage>
+					<pub-id pub-id-type="doi">10.1186/1748-5908-4-50</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. Babar Z, Austin Z. Encyclopedia of Pharmacy Practice and Clinical Pharmacy. Amsterdam: Elsevier; 2019.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Babar</surname>
+							<given-names>Z</given-names>
+						</name>
+						<name>
+							<surname>Austin</surname>
+							<given-names>Z</given-names>
+						</name>
+					</person-group>
+					<source>Encyclopedia of Pharmacy Practice and Clinical Pharmacy</source>
+					<year>2019</year>
+					<publisher-loc>Amsterdam</publisher-loc>
+					<publisher-name>Elsevier</publisher-name>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Helfrich CD, Li YF, Sharp ND, Sales AE. Organizational readiness to change assessment (ORCA): Development of an instrument based on the Promoting Action on Research in Health Services (PARIHS) framework. Implementation Sci. 2009;4:38. doi: http://doi.org/10.1186/1748-5908-4-38</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Helfrich</surname>
+							<given-names>CD</given-names>
+						</name>
+						<name>
+							<surname>Li</surname>
+							<given-names>YF</given-names>
+						</name>
+						<name>
+							<surname>Sharp</surname>
+							<given-names>ND</given-names>
+						</name>
+						<name>
+							<surname>Sales</surname>
+							<given-names>AE</given-names>
+						</name>
+					</person-group>
+					<article-title>Organizational readiness to change assessment (ORCA): Development of an instrument based on the Promoting Action on Research in Health Services (PARIHS) framework</article-title>
+					<source>Implementation Sci</source>
+					<year>2009</year>
+					<volume>4</volume>
+					<fpage>38</fpage>
+					<lpage>38</lpage>
+					<pub-id pub-id-type="doi">10.1186/1748-5908-4-38</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18. Zúñiga F, Chu CH, Boscart V, Fagertun A, Gea-Sánchez M, Meyer J, et al. Recommended Common Data Elements for International Research in Long-Term Care Homes: Exploring the Workforce and Staffing Concepts of Staff Retention and Turnover. Gerontol Geriatr Med. 2019;5:2333721419844344. doi: http://doi.org/10.1177/2333721419844344</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Zúñiga</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Chu</surname>
+							<given-names>CH</given-names>
+						</name>
+						<name>
+							<surname>Boscart</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Fagertun</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Gea-Sánchez</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Meyer</surname>
+							<given-names>J</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Recommended Common Data Elements for International Research in Long-Term Care Homes: Exploring the Workforce and Staffing Concepts of Staff Retention and Turnover</article-title>
+					<source>Gerontol Geriatr Med</source>
+					<year>2019</year>
+					<volume>5</volume>
+					<fpage>2333721419844344</fpage>
+					<lpage>2333721419844344</lpage>
+					<pub-id pub-id-type="doi">10.1177/2333721419844344</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19. Lepore M, Scales K, Anderson RA, Porter K, Thach T, McConnell E, et al. Person-directed care planning in nursing homes: A scoping review. Int J Older People Nurs. 2018;13:e12212. doi: http://doi.org/10.1111/opn.12212</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lepore</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Scales</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Anderson</surname>
+							<given-names>RA</given-names>
+						</name>
+						<name>
+							<surname>Porter</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Thach</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>McConnell</surname>
+							<given-names>E</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Person-directed care planning in nursing homes: A scoping review</article-title>
+					<source>Int J Older People Nurs</source>
+					<year>2018</year>
+					<volume>13</volume>
+					<elocation-id>e12212</elocation-id>
+					<pub-id pub-id-type="doi">10.1111/opn.12212</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20. World Health Organization. Instructions for the National Infection Prevention and Control Assessment Tool 2 (IPCAT2) [Internet]. Geneva: World Health Organization; 2017 [cited 2021 Nov 20]. Available from: https://apps.who.int/iris/handle/10665/330078</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>World Health Organization</collab>
+					</person-group>
+					<source>Instructions for the National Infection Prevention and Control Assessment Tool 2 (IPCAT2)</source>
+					<year>2017</year>
+					<comment>[Internet]</comment>
+					<publisher-loc>Geneva</publisher-loc>
+					<publisher-name>World Health Organization</publisher-name>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-11-20">2021 Nov 20</date-in-citation>
+					<comment>Available from: <ext-link ext-link-type="uri" xlink:href="https://apps.who.int/iris/handle/10665/330078">https://apps.who.int/iris/handle/10665/330078 </ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>21. World Health Organization. Assessment tool of the minimum requirements for infection prevention and control programmes at the national level [Internet]. Geneva: World Health Organization; 2021 [cited 2021 Nov 23]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.who.int/publications/m/item/assessment-tool-of-the-minimum-requirements-for-infection-prevention-and-control-programmes-at-the-national-level">https://www.who.int/publications/m/item/assessment-tool-of-the-minimum-requirements-for-infection-prevention-and-control-programmes-at-the-national-level</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>World Health Organization</collab>
+					</person-group>
+					<source>Assessment tool of the minimum requirements for infection prevention and control programmes at the national level</source>
+					<year>2021</year>
+					<publisher-loc>Geneva</publisher-loc>
+					<publisher-name>World Health Organization</publisher-name>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-11-23">2021 Nov 23</date-in-citation>
+					<comment>Available from: <ext-link ext-link-type="uri" xlink:href="https://www.who.int/publications/m/item/assessment-tool-of-the-minimum-requirements-for-infection-prevention-and-control-programmes-at-the-national-level">https://www.who.int/publications/m/item/assessment-tool-of-the-minimum-requirements-for-infection-prevention-and-control-programmes-at-the-national-level</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>22. Bardin L. L'analyse de contenu. Paris: Presses Univ. de France; 2005.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bardin</surname>
+							<given-names>L</given-names>
+						</name>
+					</person-group>
+					<source>L'analyse de contenu</source>
+					<publisher-loc>Paris</publisher-loc>
+					<publisher-name>Presses Univ. de France</publisher-name>
+					<year>2005</year>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>23. Hashan MR, Smoll N, King C, Ockenden-Muldoon H, Walker J, Wattiaux A, et al. Epidemiology and clinical features of COVID-19 outbreaks in aged care facilities: A systematic review and meta-analysis. EClinicalMedicine. 2021;33:100771. doi: http://doi.org/10.1016/j.eclinm.2021.100771</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hashan</surname>
+							<given-names>MR</given-names>
+						</name>
+						<name>
+							<surname>Smoll</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>King</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Ockenden-Muldoon</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Walker</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Wattiaux</surname>
+							<given-names>A</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Epidemiology and clinical features of COVID-19 outbreaks in aged care facilities: A systematic review and meta-analysis</article-title>
+					<source>EClinicalMedicine</source>
+					<year>2021</year>
+					<volume>33</volume>
+					<fpage>100771</fpage>
+					<lpage>100771</lpage>
+					<pub-id pub-id-type="doi">10.1016/j.eclinm.2021.100771</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>24. Bagchi S, Mak J, Li Q, Sheriff E, Mungai E, Anttila A, et al. Rates of COVID-19 Among Residents and Staff Members in Nursing Homes - United States, May 25-November 22, 2020. MMWR Morb Mortal Wkly Rep. 2021;70:52-5. doi: http://doi.org/10.15585/mmwr.mm7002e2</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bagchi</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Mak</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Li</surname>
+							<given-names>Q</given-names>
+						</name>
+						<name>
+							<surname>Sheriff</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Mungai</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Anttila</surname>
+							<given-names>A</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Rates of COVID-19 Among Residents and Staff Members in Nursing Homes - United States, May 25-November 22, 2020</article-title>
+					<source>MMWR Morb Mortal Wkly Rep</source>
+					<year>2021</year>
+					<volume>70</volume>
+					<fpage>52</fpage>
+					<lpage>55</lpage>
+					<pub-id pub-id-type="doi">10.15585/mmwr.mm7002e2</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>25. Abe K, Kawachi I. Deaths in Nursing Homes During the COVID-19 Pandemic - Lessons from Japan. JAMA Health Forum. 2021;2:e210054. doi: http://doi.org/10.1001/jamahealthforum.2021.0054</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Abe</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Kawachi</surname>
+							<given-names>I</given-names>
+						</name>
+					</person-group>
+					<article-title>Deaths in Nursing Homes During the COVID-19 Pandemic - Lessons from Japan</article-title>
+					<source>JAMA Health Forum</source>
+					<year>2021</year>
+					<volume>2</volume>
+					<elocation-id>e210054</elocation-id>
+					<pub-id pub-id-type="doi">10.1001/jamahealthforum.2021.0054</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation>26. Telford CT, Bystrom C, Fox T, Holland DP, Wiggins-Benn S, Mandani A, et al. COVID-19 Infection Prevention and Control Adherence in Long-Term Care Facilities, Atlanta, Georgia. J Am Geriatr Soc. 2021;69:581-6. doi: http://doi.org/10.1111/jgs.17001</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Telford</surname>
+							<given-names>CT</given-names>
+						</name>
+						<name>
+							<surname>Bystrom</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Fox</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Holland</surname>
+							<given-names>DP</given-names>
+						</name>
+						<name>
+							<surname>Wiggins-Benn</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Mandani</surname>
+							<given-names>A</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>COVID-19 Infection Prevention and Control Adherence in Long-Term Care Facilities, Atlanta, Georgia</article-title>
+					<source>J Am Geriatr Soc</source>
+					<year>2021</year>
+					<volume>69</volume>
+					<fpage>581</fpage>
+					<lpage>586</lpage>
+					<pub-id pub-id-type="doi">10.1111/jgs.17001</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<mixed-citation>27. Burton JK, Bayne G, Evans C, Garbe F, Gorman D, Honhold N, et al. Evolution and effects of COVID-19 outbreaks in care homes: a population analysis in 189 care homes in one geographical region of the UK. Lancet Healthy Longevity. 2020;1:e21-e31. doi: http://doi.org/10.1016/S2666-7568(20)30012-X</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Burton</surname>
+							<given-names>JK</given-names>
+						</name>
+						<name>
+							<surname>Bayne</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Evans</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Garbe</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Gorman</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Honhold</surname>
+							<given-names>N</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Evolution and effects of COVID-19 outbreaks in care homes: a population analysis in 189 care homes in one geographical region of the UK</article-title>
+					<source>Lancet Healthy Longevity</source>
+					<year>2020</year>
+					<volume>1</volume>
+					<fpage>e21</fpage>
+					<lpage>e31</lpage>
+					<pub-id pub-id-type="doi">10.1016/S2666-7568(20)30012-X</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<mixed-citation>28. European Centre for Disease Prevention and Control. Increase in fatal cases of COVID-19 among long-term care facility residents in the EU/EEA and the UK [Internet]. 2020 [cited 2020 Mar 19]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.ecdc.europa.eu/sites/default/files/documents/Increase-fatal-cases-of-COVID-19-among-long-term-care-facility-residents.pdf">https://www.ecdc.europa.eu/sites/default/files/documents/Increase-fatal-cases-of-COVID-19-among-long-term-care-facility-residents.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>European Centre for Disease Prevention and Control</collab>
+					</person-group>
+					<source>Increase in fatal cases of COVID-19 among long-term care facility residents in the EU/EEA and the UK</source>
+					<comment>Internet</comment>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2020-03-19">2020 Mar 19</date-in-citation>
+					<comment>Available from: <ext-link ext-link-type="uri" xlink:href="https://www.ecdc.europa.eu/sites/default/files/documents/Increase-fatal-cases-of-COVID-19-among-long-term-care-facility-residents.pdf">https://www.ecdc.europa.eu/sites/default/files/documents/Increase-fatal-cases-of-COVID-19-among-long-term-care-facility-residents.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B29">
+				<label>29</label>
+				<mixed-citation>29. Faria de Moura Villela E, López RVM, Sato APS, Oliveira FM, Waldman EA, Van den Bergh R, et al. COVID-19 outbreak in Brazil: adherence to national preventive measures and impact on people's lives, an online survey. BMC Public Health. 2021;21:152. doi: http://doi.org/10.1186/s12889-021-10222-z</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Faria de Moura Villela</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>López</surname>
+							<given-names>RVM</given-names>
+						</name>
+						<name>
+							<surname>Sato</surname>
+							<given-names>APS</given-names>
+						</name>
+						<name>
+							<surname>Oliveira</surname>
+							<given-names>FM</given-names>
+						</name>
+						<name>
+							<surname>Waldman</surname>
+							<given-names>EA</given-names>
+						</name>
+						<name>
+							<surname>Van den Bergh</surname>
+							<given-names>R</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>COVID-19 outbreak in Brazil: adherence to national preventive measures and impact on people's lives, an online survey</article-title>
+					<source>BMC Public Health</source>
+					<year>2021</year>
+					<volume>21</volume>
+					<fpage>152</fpage>
+					<lpage>152</lpage>
+					<pub-id pub-id-type="doi">10.1186/s12889-021-10222-z</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B30">
+				<label>30</label>
+				<mixed-citation>30. Mendenhall E. The COVID-19 syndemic is not global: context matters. Lancet. 2020;396:1731. doi: https://doi.org/10.1016/S0140-6736(20)32218-2</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Mendenhall</surname>
+							<given-names>E</given-names>
+						</name>
+					</person-group>
+					<article-title>The COVID-19 syndemic is not global: context matters</article-title>
+					<source>Lancet</source>
+					<year>2020</year>
+					<volume>396</volume>
+					<fpage>1731</fpage>
+					<lpage>1731</lpage>
+					<pub-id pub-id-type="doi">https://doi.org/10.1016/S0140-6736(20)32218-2</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B31">
+				<label>31</label>
+				<mixed-citation>31. Sirleaf EJ, Clark H. Report of the Independent Panel for Pandemic Preparedness and Response: making COVID-19 the last pandemic. Lancet. 2021:S0140673621010953. doi: http://doi.org/10.1016/S0140-6736(21)01095-3</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sirleaf</surname>
+							<given-names>EJ</given-names>
+						</name>
+						<name>
+							<surname>Clark</surname>
+							<given-names>H</given-names>
+						</name>
+					</person-group>
+					<article-title>Report of the Independent Panel for Pandemic Preparedness and Response: making COVID-19 the last pandemic</article-title>
+					<source>Lancet</source>
+					<year>2021</year>
+					<fpage>S0140673621010953</fpage>
+					<lpage>S0140673621010953</lpage>
+					<pub-id pub-id-type="doi">10.1016/S0140-6736(21)01095-3</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B32">
+				<label>32</label>
+				<mixed-citation>32. Thompson DC, Barbu MG, Beiu C, Popa LG, Mihai MM, Berteanu M, et al. The Impact of COVID-19 Pandemic on Long-Term Care Facilities Worldwide: An Overview on International Issues. BioMed Res Int. 2020;2020:1-7. doi: http://doi.org/10.1155/2020/8870249</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Thompson</surname>
+							<given-names>DC</given-names>
+						</name>
+						<name>
+							<surname>Barbu</surname>
+							<given-names>MG</given-names>
+						</name>
+						<name>
+							<surname>Beiu</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Popa</surname>
+							<given-names>LG</given-names>
+						</name>
+						<name>
+							<surname>Mihai</surname>
+							<given-names>MM</given-names>
+						</name>
+						<name>
+							<surname>Berteanu</surname>
+							<given-names>M</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>The Impact of COVID-19 Pandemic on Long-Term Care Facilities Worldwide: An Overview on International Issues</article-title>
+					<source>BioMed Res Int</source>
+					<year>2020</year>
+					<volume>2020</volume>
+					<fpage>1</fpage>
+					<lpage>7</lpage>
+					<pub-id pub-id-type="doi">10.1155/2020/8870249</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B33">
+				<label>33</label>
+				<mixed-citation>33. Giacomin KC, coord. Instituições de Longa Permanência para Idosos e o Enfrentamento da Pandemia de COVID-19: subsídios para a Comissão de Defesa dos Direitos do Idoso da Câmara Federal - Relatório técnico [Internet]. Brasília: Frente Nacional de Fortalecimento às Instituições de Longa Permanência para Idosos; 2020 [cited 2021 Nov 24]. Available from: https://sbgg.org.br/wp-content/uploads/2020/06/Relato%CC%81rio-final-FN_fichaC.pdf</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Giacomin</surname>
+							<given-names>KC</given-names>
+						</name>
+					</person-group>
+					<pub-id pub-id-type="other">Instituições de Longa Permanência para Idosos e o Enfrentamento da Pandemia de COVID-19: subsídios para a Comissão de Defesa dos Direitos do Idoso da Câmara Federal - Relatório técnico</pub-id>
+					<year>2020</year>
+					<publisher-loc>Brasília</publisher-loc>
+					<publisher-name>Frente Nacional de Fortalecimento às Instituições de Longa Permanência para Idosos</publisher-name>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-11-24">2021 Nov 24</date-in-citation>
+					<comment>Available from: <ext-link ext-link-type="uri" xlink:href="https://sbgg.org.br/wp-content/uploads/2020/06/Relato%CC%81rio-final-FN_fichaC.pdf">https://sbgg.org.br/wp-content/uploads/2020/06/Relato%CC%81rio-final-FN_fichaC.pdf </ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B34">
+				<label>34</label>
+				<mixed-citation>34. Special Commission COVID-19, Brazilian Society of Geriatrics and Gerontology. Recommendations for the prevention and control of coronavirus infections (SARS-CoV-2) in long term care facilities. Geriatr Gerontol Aging. 2020;14:134-7. doi: http://doi.org/10.5327/Z2447-2123202020142ESP3</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<collab>Special Commission COVID-19. Brazilian Society of Geriatrics and Gerontology</collab>
+					</person-group>
+					<article-title>Recommendations for the prevention and control of coronavirus infections in long term care facilities</article-title>
+					<source>Geriatr Gerontol Aging</source>
+					<year>2020</year>
+					<volume>14</volume>
+					<fpage>134</fpage>
+					<lpage>137</lpage>
+					<pub-id pub-id-type="doi">10.5327/Z2447-2123202020142ESP3</pub-id>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="other" id="fn10">
+				<label>*</label>
+				<p>Dados disponíveis em <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7910/DVN/LXBFQG">https://doi.org/10.7910/DVN/LXBFQG</ext-link>
+				</p>
+			</fn>
+		</fn-group>
+	</back>
+	<sub-article article-type="translation" id="s1" xml:lang="en">
+		<front-stub>
+			<article-id pub-id-type="doi">10.1590/1518-8345.5581.3516</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Original Article</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Impact of long-term care facilities’ size on adherence to COVID-19’ infection prevention guidance</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-4474-009X</contrib-id>
+					<name>
+						<surname>Wachholz</surname>
+						<given-names>Patrick Alexander</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff4"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-9713-8617</contrib-id>
+					<name>
+						<surname>Melo</surname>
+						<given-names>Ruth Caldeira de</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff5"><sup>2</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-1977-5880</contrib-id>
+					<name>
+						<surname>Jacinto</surname>
+						<given-names>Alessandro Ferrari</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff6"><sup>3</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-9876-3222</contrib-id>
+					<name>
+						<surname>Villas Boas</surname>
+						<given-names>Paulo José Fortes</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff4"><sup>1</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff4">
+				<label>1</label>
+				<institution content-type="original"> Universidade Estadual Paulista, Faculdade de Medicina de Botucatu, Botucatu, SP, Brazil.</institution>
+				<institution content-type="normalized">Universidade Estadual Paulista</institution>
+				<institution content-type="orgname">Universidade Estadual Paulista</institution>
+				<institution content-type="orgdiv1">Faculdade de Medicina de Botucatu</institution>
+				<addr-line>
+					<city>Botucatu</city>
+					<state>SP</state>
+				</addr-line>
+				<country country="BR">Brazil</country>
+			</aff>
+			<aff id="aff5">
+				<label>2</label>
+				<institution content-type="original"> Universidade de São Paulo, Escola de Artes, Ciências e Humanidades, São Paulo, SP, Brazil.</institution>
+				<institution content-type="normalized">Universidade de São Paulo</institution>
+				<institution content-type="orgname">Universidade de São Paulo</institution>
+				<institution content-type="orgdiv1">Escola de Artes, Ciências e Humanidades</institution>
+				<addr-line>
+					<city>São Paulo</city>
+					<state>SP</state>
+				</addr-line>
+				<country country="BR">Brazil</country>
+			</aff>
+			<aff id="aff6">
+				<label>3</label>
+				<institution content-type="original"> Universidade Federal de São Paulo, Escola Paulista de Medicina, São Paulo, SP, Brazil.</institution>
+				<institution content-type="normalized">Universidade Federal de São Paulo</institution>
+				<institution content-type="orgname">Universidade Federal de São Paulo</institution>
+				<institution content-type="orgdiv1">Escola Paulista de Medicina</institution>
+				<addr-line>
+					<city>São Paulo</city>
+					<state>SP</state>
+				</addr-line>
+				<country country="BR">Brazil</country>
+			</aff>
+			<author-notes>
+				<corresp id="c2">
+					<label>Corresponding author:</label> Patrick Alexander Wachholz. E-mail: <email>patrick.wachholz@unesp.br</email>
+				</corresp>
+				<fn fn-type="edited-by" id="fn4">
+					<label>Associate Editor</label>
+					<p> Rosalina Aparecida Partezani Rodrigues</p>
+				</fn>
+				<fn fn-type="con" id="fn5">
+					<label>Authors’ contribution</label>
+					<p><bold>Study concept and design:</bold> Patrick Alexander Wachholz, Ruth Caldeira de Melo. <bold>Obtaining data:</bold> Patrick Alexander Wachholz, Ruth Caldeira de Melo, Alessandro Ferrari Jacinto, Paulo José Fortes Villas Boas. <bold>Data analysis and interpretation:</bold> Patrick Alexander Wachholz, Ruth Caldeira de Melo, Alessandro Ferrari Jacinto, Paulo José Fortes Villas Boas. <bold>Statistical analysis:</bold> Patrick Alexander Wachholz, Ruth Caldeira de Melo, Alessandro Ferrari Jacinto, Paulo José Fortes Villas Boas. <bold>Drafting the manuscript:</bold> Patrick Alexander Wachholz, Ruth Caldeira de Melo, Alessandro Ferrari Jacinto, Paulo José Fortes Villas Boas. <bold>Critical review of the manuscript as to its relevant intellectual content:</bold> Patrick Alexander Wachholz, Ruth Caldeira de Melo, Alessandro Ferrari Jacinto, Paulo José Fortes Villas Boas. All authors approved the final version of the text.</p>
+				</fn>
+				<fn fn-type="conflict" id="fn6">
+					<label>Conflict of interest</label>
+					<p> The authors have declared that there is no conflict of interest.</p>
+				</fn>
+			</author-notes>
+			<abstract>
+				<title>Abstract</title>
+				<sec>
+					<title>Objective:</title>
+					<p> to evaluate the adherence of Brazilian long-term care facilities to the World Health Organization Infection Prevention and Control guidance, and assess the association of their size with the adherence to these recommendations.</p>
+				</sec>
+				<sec>
+					<title>Method:</title>
+					<p> cross-sectional study conducted with facilities’ managers. Authors developed a 20-item questionnaire based on this guidance, and a global score of adherence, based on the adoption of these recommendations. Adherence was classified as (1) excellent for those who attended ≥14 out of 20 recommendations; (2) good for 10 to 13 items; and (3) low for those with less than ten items. Facilities’ sizes were established as small, intermediate, and large according to a two-step cluster analysis. Descriptive statistics and chi-square tests were used at a 5% significance level. </p>
+				</sec>
+				<sec>
+					<title>Results:</title>
+					<p> among 362 included facilities, 308 (85.1%) adhered to 14 or more recommendations. Regarding its size, adherence to screening COVID-19 symptoms of visitors (p=0.037) and isolating patients until they have had two negative laboratory tests (p=0.032) were lower on larger ones compared to medium and small facilities. </p>
+				</sec>
+				<sec>
+					<title>Conclusion:</title>
+					<p> adherence to COVID-19 mitigation measures in Brazilian facilities was considered excellent for most of the recommendations, regardless of the size of the units. </p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="en">
+				<title>Descriptors:</title>
+				<kwd>Aged</kwd>
+				<kwd>COVID-19</kwd>
+				<kwd>Guideline Adherence</kwd>
+				<kwd>Long-Term Care</kwd>
+				<kwd>Coronavirus</kwd>
+				<kwd>Homes for the Aged</kwd>
+			</kwd-group>
+		</front-stub>
+		<body>
+			<boxed-text id="bx2">
+				<sec>
+					<title>Highlights:</title>
+					<p>(1) Prevention is a critical component of infection control during emerging infections. </p>
+					<p>(2) COVID-19 disproportionately affected the long-term care facilities (LTCF). </p>
+					<p>(3) The preparedness for mitigating COVID-19 in Brazilian LTCF was considered excellent. </p>
+					<p>(4) Adherence to COVID-19 infection prevention and control (IPC) measures was not influenced by the size of the facilities. </p>
+					<p>(5) Difficulties were mostly related to financial distress and managing the workforce</p>
+				</sec>
+			</boxed-text>
+			<sec sec-type="intro">
+				<title>Introduction</title>
+				<p>Older people living in long-term care facilities (LTCF) have been disproportionately affected by the COVID-19 pandemic<xref ref-type="bibr" rid="B1"><sup>1</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B6"><sup>6</sup></xref>. The pandemic overwhelmed health systems worldwide and placed a spotlight on the weaknesses (or absence) of national datasets and of infection prevention and control (IPC) practices for LTCF<xref ref-type="bibr" rid="B7"><sup>7</sup></xref>. </p>
+				<p>The prevalence of COVID-19 in the community is a strong predictor of the number of cases and deaths in LTCF<xref ref-type="bibr" rid="B4"><sup>4</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B8"><sup>8</sup></xref>. Mortality rates were markedly increased among the most frail residents, just like for those living in more crowded facilities<xref ref-type="bibr" rid="B9"><sup>9</sup></xref>. Moreover, the probability for COVID-19 cases seems to be higher among large, non-for-profit, and metropolitan county facilities<xref ref-type="bibr" rid="B4"><sup>4</sup></xref>. Corroborating these findings, the characteristics of North-American LTCFs were examined with documented COVID-19 cases and it was found that infections were related to facility location (i.e, urban) and size (i.e, with 50 beds or more)<xref ref-type="bibr" rid="B1"><sup>1</sup></xref>.</p>
+				<p>On the other hand, other authors showed that high nurse aides and total nursing hours contribute to mitigating the COVID-19 infection in LTCF<xref ref-type="bibr" rid="B4"><sup>4</sup></xref>. High staffing ratios<xref ref-type="bibr" rid="B9"><sup>9</sup></xref> and early and robust IPC practices<xref ref-type="bibr" rid="B8"><sup>8</sup></xref> seem to be associated with low COVID-19 cases and death rates among older adults living in these settings.</p>
+				<p>Early on, the World Health Organization (WHO), the Centers for Disease Control (CDC), and regional organizations had published recommendations and policy actions to mitigate the impact of COVID-19 on people who rely on the long-term care sector<xref ref-type="bibr" rid="B10"><sup>10</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B13"><sup>13</sup></xref>. To the best of our knowledge, however, the COVID-19 preparedness in LTCF and the adherence to these recommendations have not been sufficiently investigated. </p>
+				<p>A North-American small sampled study found that the CDC recommendations were most used (88%) IPC guidance, followed by state or local health departments (84%), and by the WHO guidance (48%)<xref ref-type="bibr" rid="B14"><sup>14</sup></xref>. More than half of the managers (54%) had separate COVID-19 plans, almost all (96%) had policies for screening visitors, and most (68%) indicated they had a local referral hospital accepting their patients under investigation for COVID-19. Near to 83% expected significant staff shortages, while 66% reported access to COVID-19 testing<xref ref-type="bibr" rid="B14"><sup>14</sup></xref>.</p>
+				<p>The implementation of evidence in clinical practices is neither easy nor fast. Barriers and facilitators need to be promptly and correctly addressed, particularly at the organizational level<xref ref-type="bibr" rid="B15"><sup>15</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B17"><sup>17</sup></xref>. It is not clear if the sizes of LTCFs might be a barrier to implementing strategies to mitigate COVID-19 dissemination. For example, in larger LTCFs, the greater the number of residents, collaborators, and visitors, the greater the number of workers and training needs, the preparation of rotation schedules for abstaining due to potential leaves, and employment demands for turnover/retention, and the risk for a shortage of supplies<xref ref-type="bibr" rid="B18"><sup>18</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B19"><sup>19</sup></xref>.</p>
+				<p>This study aimed to evaluate the adherence of Brazilian LTCF managers to the WHO IPC guidance and assess the association of their size with the adherence to the recommendations for COVID-19 mitigation.</p>
+			</sec>
+			<sec sec-type="methods">
+				<title>Method</title>
+				<sec>
+					<title>Ethical aspects</title>
+					<p>Ethical approval was provided by the institutional review board from the Botucatu Medical School, São Paulo State University - UNESP, for this cross-sectional study (CAAE 30577520.0.0000.0008, protocol No. 4.012.489), and all participants provided online informed consents. The datasets supporting the findings of this study are available<xref ref-type="fn" rid="fn11"><sup>2</sup></xref>. For the purposes of this study, a LTCF provides long-term care and/or rehabilitative, restorative, and end-of-life care to residents in need of assistance with activities of daily living, including a variety of services (social, medical and personal care) to people who are unable to live independently. </p>
+				</sec>
+				<sec>
+					<title>Design and participants</title>
+					<p>This cross-sectional study was conducted exclusively through electronic platforms for twelve consecutive weeks from May 5<sup>th</sup>, 2020, using Google Forms. Managers from Brazilian LTCF for older people were the population of interest. We obtained their contacts through listings with domains available on the Internet, including active search with health secretariats, epidemiological surveillance, stakeholders, the Brazilian Unified Social Assistance System (SUAS), and LTCF support groups, including websites and social media groups. We did not apply restrictions regarding the size, location, or type of facility. </p>
+				</sec>
+				<sec>
+					<title>Data collection</title>
+					<p>The World Health Organization published the “Infection Prevention and Control Guidance for Long-Term Care Facilities in the Context of COVID-19” on March 21<sup>st</sup>, 2020, intending to guide IPC practices for this sector to prevent the virus from entering the facility and spreading within and outside the facility<xref ref-type="bibr" rid="B10"><sup>10</sup></xref>. Initially prepared in English, the guidance was later translated into Portuguese by the Pan American Health Organization<xref ref-type="bibr" rid="B10"><sup>10</sup></xref>. Unlike other assessment tools developed by WHO<xref ref-type="bibr" rid="B20"><sup>20</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B21"><sup>21</sup></xref>, this interim guidance was thought to inform and support LTCF managers in implementing minimum requirements for IPC practices in the sector; it was not intended to be used as an audit tool but to help assess, plan, organize and implement IPC practices and activities in an early context of low availability of supporting evidence.</p>
+					<p>Based on the recommendations from the WHO guidance<xref ref-type="bibr" rid="B10"><sup>10</sup></xref> the authors developed a 20-item questionnaire, using multiple-choice and dichotomous questions. Since to date reliable national data on the sector is missing, twenty-six additional questions were included, aiming to provide information on LTCF characterization, and provision/availability of personal protective equipment, infrastructure for management of suspected/infected cases and deaths, and contingency plans for potential outbreaks. An open question about the most significant difficulties faced by the facility in tackling the pandemic was also included. The questionnaire was divided into nine sections: prevention, physical distance within the institution, rules for visitors, prospective surveillance for COVID-19 among residents, prospective surveillance among employees, source control, restrictions on movement and transportation, provision and availability of personal protective and cleaning equipment, technical support to face the pandemic.</p>
+					<p>The authors developed a global score of adherence to the 20 questions based on the original WHO guidance (<xref ref-type="table" rid="t6">Tables 2</xref> and <xref ref-type="table" rid="t7">3</xref>). For the purposes of this study, adherence was classified as (1) <bold>excellent</bold> for those LTCF that attended at least 14 items out of the 20 recommendations (i.e.,70%); (2) <bold>good</bold> for those LTCF that attended 10 to 13 items (i.e., 50 to 69%); and (3) <bold>low</bold> for those that attended less than ten items (i.e.,&lt;49%). </p>
+					<p>The estimated time to complete the questionnaire was 30 minutes. Respondents were free to participate more than once, but each LTCF was included only once in the study, having been chosen the most complete and recent answer for the analysis.</p>
+				</sec>
+				<sec>
+					<title>Data treatment and analysis</title>
+					<p>Statistical analysis was performed using SPSS version 20. When respondents did not report data for one or more variables, we described them as missing, informing their proportional representation. As there is no standard definition for the LTCF size classification, for the purpose of this paper, a two-step cluster analysis was applied to the continuous variable “number of residents” using the automatic clustering algorithm in SPSS version 20. Three cluster groupings were established: small, intermediate and large facilities. Descriptive statistics and chi-square tests were used at a 5% significance level.</p>
+					<p>The open question was analyzed based on the thematic content analysis<xref ref-type="bibr" rid="B22"><sup>22</sup></xref>, divided into three steps: pre-analysis, material exploration, and treatment of results. In the first step, a fluctuating reading was performed to identify the main difficulties faced by the LTCF. After that, the material was explored to establish central themes and related subcategories. The answers were codified, allowing the calculation of each category’s frequency and extraction of parts of the text related, creating a Venn diagram.</p>
+				</sec>
+			</sec>
+			<sec sec-type="results">
+				<title>Results</title>
+				<p>We received 374 contributions during the 12-week investigation period. Five managers answered the questionnaire twice; their oldest and incomplete responses were excluded, as well as one not-Brazilian LTCF answer. Six managers did not inform data on the number of residents, so their responses were not included. </p>
+				<p>Altogether, 362 LTCF accommodated a population of 11 903 older adults. The Brazilian Southeast region concentrates the largest proportion of included facilities (53.8%), mostly for-profit (39.7%) and not-for-profit centers receiving government/non-government subsidies (37.5%). <xref ref-type="table" rid="t5">Table 1</xref> presents an overview characterization of the sample, according to a three clustering LTCF size division.</p>
+				<p>
+					<table-wrap id="t5">
+						<label>Table 1</label>
+						<caption>
+							<title>Characteristics of 362 Brazilian long-term care facilities for older people according to the facility’s size, whose managers answered an online questionnaire to identify their preparedness for the COVID-19 pandemic (n=362). Botucatu, SP, Brazil, 2020</title>
+						</caption>
+						<table>
+							<colgroup>
+								<col/>
+								<col span="3"/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left" rowspan="2">Sample characteristics</th>
+									<th align="center" colspan="3">Size of the facility </th>
+								</tr>
+								<tr>
+									<th align="center">Small facilities (n= 172)</th>
+									<th align="center">Intermediate facilities (n= 157)</th>
+									<th align="center">Large facilities (n= 33)</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td align="left" colspan="4"><bold>Number of Residents</bold></td>
+								</tr>
+								<tr>
+									<td align="left">Median (95%CI)</td>
+									<td align="center">18 (16.8 - 18.5)</td>
+									<td align="center">37 (37.5 - 40.3)</td>
+									<td align="center">76 (74.6 - 92.2)</td>
+								</tr>
+								<tr>
+									<td align="left">Mean (SD)</td>
+									<td align="center">17.7 (5.7)</td>
+									<td align="center">38.9 (8.8)</td>
+									<td align="center">83.4 (24.8)</td>
+								</tr>
+								<tr>
+									<td align="left" colspan="4"><bold>Funding Source, n (%)</bold></td>
+								</tr>
+								<tr>
+									<td align="left">Public</td>
+									<td align="center">10 (5.8)</td>
+									<td align="center">6 (3.8)</td>
+									<td align="center">2 (6.0)</td>
+								</tr>
+								<tr>
+									<td align="left">Profit</td>
+									<td align="center">98 (56.9)</td>
+									<td align="center">40 (25.5)</td>
+									<td align="center">4 (12.1)</td>
+								</tr>
+								<tr>
+									<td align="left">Not-for-profit type 1<sup>*</sup></td>
+									<td align="center">43 (25.0)</td>
+									<td align="center">76 (48.4)</td>
+									<td align="center">18 (54.5)</td>
+								</tr>
+								<tr>
+									<td align="left">Not-for-profit type 2<sup>†</sup></td>
+									<td align="center">21 (12.2)</td>
+									<td align="center">35 (22.2)</td>
+									<td align="center">9 (27.3)</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN5">
+								<p><sup>*</sup>Long-term care facilities that receive government/non-government subsidies; <sup>†</sup>Long-term care facilities that work on behalf of others than their founders or directors and can be reimbursed for their services (usually charity entities).</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p>One hundred and sixty-six LTCF (45.1%), regardless of the type of funding, declared that they had not received subsidies or external financing to prepare and face the pandemic, including training, protective equipment purchase, and infrastructure adaptations for the respiratory isolation of suspected cases. </p>
+				<p>Two hundred and thirty-five (64.9%; missing 74 answers) answered that their facilities already had the necessary infrastructure to accommodate COVID-19 suspected cases, including accommodation with individual bathrooms, with sufficient spaces to carry out preventive, hygiene, and protection measures for workers and residents. The availability of laboratory testing for influenza and coronavirus was low: 23.5% (n = 85) did not have access to both testing, and 17.4% (n=63) had access only to SARS-Cov-2 rapid test kits. </p>
+				<p>
+					<xref ref-type="table" rid="t6">Table 2</xref> and <xref ref-type="table" rid="t7">3</xref> summarizes the adherence to the 20 items based on WHO IPC guidance in the sample. Three hundred and eight managers (85.1%) adhered to 14 or more IPC guidance recommendations; three were classified as low adherent, and 35 (9.7%) were missing cases. Regarding LTCF size, adherence to screening COVID-19 signs and symptoms of visitors (p=0.037) and isolating COVID-19 patients until they have two negative laboratory tests (p=0.032) were lower on larger ones compared to medium and small facilities. No significant differences were found for the other WHO’s guidance among the three sizes of LTCF studied.</p>
+				<p>
+					<table-wrap id="t6">
+						<label>Table 2</label>
+						<caption>
+							<title>Adherence to the World Health Organization guidance for care homes in the context of COVID-19 in 362 Brazilian facilities (n=362). Botucatu, SP, Brazil, 2020</title>
+						</caption>
+						<table>
+							<colgroup>
+								<col/>
+								<col span="5"/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left" rowspan="2">Recommendations</th>
+									<th align="center" colspan="5">Adherence n (%) </th>
+								</tr>
+								<tr>
+									<th align="center">Total(n=362)</th>
+									<th align="center">Small (n=172)</th>
+									<th align="center">Intermediate(n=157)</th>
+									<th align="center">Large(n=33)</th>
+									<th align="center">p-value</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td align="left" colspan="6"><bold>Prevention</bold></td>
+								</tr>
+								<tr>
+									<td align="left">Provide COVID-19 IPC* training to all employees</td>
+									<td align="center">288 (79.6)</td>
+									<td align="center">132 (76.7)</td>
+									<td align="center">128 (81.5)</td>
+									<td align="center">28 (84.8)</td>
+									<td align="center">0.611</td>
+								</tr>
+								<tr>
+									<td align="left">Provide information sessions for residents</td>
+									<td align="center">258 (71.3)</td>
+									<td align="center">121 (70.3)</td>
+									<td align="center">109 (69.4)</td>
+									<td align="center">28 (84.8)</td>
+									<td align="center">0.241</td>
+								</tr>
+								<tr>
+									<td align="left">Regularly audit IPC* practices</td>
+									<td align="center">320 (88.4)</td>
+									<td align="center">146 (84.9)</td>
+									<td align="center">145 (92.4)</td>
+									<td align="center">29 (87.9)</td>
+									<td align="center">0.108</td>
+								</tr>
+								<tr>
+									<td align="left">According to local policies, provide annual vaccination</td>
+									<td align="center">344 (95.0)</td>
+									<td align="center">162 (93.6)</td>
+									<td align="center">151 (96.2)</td>
+									<td align="center">32 (97.0)</td>
+									<td align="center">0.720</td>
+								</tr>
+								<tr>
+									<td align="left" colspan="6"><bold>Physical distance within the institution</bold></td>
+								</tr>
+								<tr>
+									<td align="left">Post reminders, posters, flyers around the facility</td>
+									<td align="center">302 (83.4)</td>
+									<td align="center">148 (86.0)</td>
+									<td align="center">125 (79.6)</td>
+									<td align="center">29 (87.9)</td>
+									<td align="center">0.423</td>
+								</tr>
+								<tr>
+									<td align="left">Physical distancing in the facility (for group activities)</td>
+									<td align="center">305 (84.3)</td>
+									<td align="center">146 (84.9)</td>
+									<td align="center">132 (84.1)</td>
+									<td align="center">27 (81.8)</td>
+									<td align="center">0.894</td>
+								</tr>
+								<tr>
+									<td align="left">Physical distancing in the facility (for meals)</td>
+									<td align="center">212 (58.6)</td>
+									<td align="center">103 (59.9)</td>
+									<td align="center">92 (58.6)</td>
+									<td align="center">17 (51.5)</td>
+									<td align="center">0.772</td>
+								</tr>
+								<tr>
+									<td align="left">Require residents and employees to avoid touching </td>
+									<td align="center">344 (95.0)</td>
+									<td align="center">163 (94.8)</td>
+									<td align="center">148 (94.3)</td>
+									<td align="center">33 (100)</td>
+									<td align="center">0.539</td>
+								</tr>
+								<tr>
+									<td align="left" colspan="6"><bold>Rules for visitors</bold></td>
+								</tr>
+								<tr>
+									<td align="left">Screen for signs and symptoms or risk for COVID-19</td>
+									<td align="center">337 (93.1)</td>
+									<td align="center">161 (93.6)</td>
+									<td align="center">148 (94.3)</td>
+									<td align="center">28 (84.8)</td>
+									<td align="center">0.037</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN6">
+								<p>*IPC = Infection prevention and control.</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p>
+					<table-wrap id="t7">
+						<label>Table 3</label>
+						<caption>
+							<title>Adherence to the World Health Organization guidance for care homes in the context of COVID-19 (n=362). Botucatu, SP, Brazil, 2020</title>
+						</caption>
+						<table>
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left">Prospective surveillance among residents</th>
+									<th align="center">Total (n=362)</th>
+									<th align="center">Small (n=172)</th>
+									<th align="center">Intermediate (n=157)</th>
+									<th align="center">Large (n=33)</th>
+									<th align="center">p-value</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td align="left">Assess the health status of any new residents at admission</td>
+									<td align="center">344 (95.0)</td>
+									<td align="center">164 (95.3)</td>
+									<td align="center">148 (94.3)</td>
+									<td align="center">32 (97.0)</td>
+									<td align="center">0.700</td>
+								</tr>
+								<tr>
+									<td align="left">Assess each resident twice daily for signs</td>
+									<td align="center">336 (92.8)</td>
+									<td align="center">160 (93.0)</td>
+									<td align="center">146 (93.0)</td>
+									<td align="center">30 (90.9)</td>
+									<td align="center">0.206</td>
+								</tr>
+								<tr>
+									<td align="left">Immediately report residents with fever or respiratory symptoms</td>
+									<td align="center">358 (98.9)</td>
+									<td align="center">168 (97.7)</td>
+									<td align="center">157 (100)</td>
+									<td align="center">33 (100)</td>
+									<td align="center">0.346</td>
+								</tr>
+								<tr>
+									<td align="left" colspan="6"><bold>Prospective surveillance among employees</bold></td>
+								</tr>
+								<tr>
+									<td align="left">Prospective surveillance for employees (in case of symptoms)</td>
+									<td align="center">355 (98.1)</td>
+									<td align="center">168 (97.7)</td>
+									<td align="center">156 (99.4)</td>
+									<td align="center">31 (93.9)</td>
+									<td align="center">0.223</td>
+								</tr>
+								<tr>
+									<td align="left">Follow up on employees with unexplained absences</td>
+									<td align="center">328 (90.6)</td>
+									<td align="center">157 (91.3)</td>
+									<td align="center">142 (90.4)</td>
+									<td align="center">29 (87.9)</td>
+									<td align="center">0.568</td>
+								</tr>
+								<tr>
+									<td align="left">Undertake temperature checks for all employees at the facility entrance</td>
+									<td align="center">275 (76.0)</td>
+									<td align="center">128 (74.4)</td>
+									<td align="center">122 (77.7)</td>
+									<td align="center">25 (75.8)</td>
+									<td align="center">0.777</td>
+								</tr>
+								<tr>
+									<td align="left" colspan="6"><bold>Availability of personal protective equipment</bold></td>
+								</tr>
+								<tr>
+									<td align="left">Employees should use contact and droplet precautions</td>
+									<td align="center">327 (90.3)</td>
+									<td align="center">155 (90.1)</td>
+									<td align="center">143 (91.1)</td>
+									<td align="center">29 (87.9)</td>
+									<td align="center">0.792</td>
+								</tr>
+								<tr>
+									<td align="left">PPE* usage following recommended procedures to avoid contamination</td>
+									<td align="center">345 (95.3)</td>
+									<td align="center">162 (94.2)</td>
+									<td align="center">152 (96.8)</td>
+									<td align="center">31 (93.9)</td>
+									<td align="center">0.386</td>
+								</tr>
+								<tr>
+									<td align="left" colspan="6"><bold>Source control</bold></td>
+								</tr>
+								<tr>
+									<td align="left">Notify local authorities about any suspected case and isolate residents with the onset of respiratory symptoms</td>
+									<td align="center">228 (63.0)</td>
+									<td align="center">101 (59.7)</td>
+									<td align="center">100 (43.9)</td>
+									<td align="center">27 (81.8)</td>
+									<td align="center">0.190</td>
+								</tr>
+								<tr>
+									<td align="left" colspan="6"><bold>Restrictions on movement and transportation</bold></td>
+								</tr>
+								<tr>
+									<td align="left">Confirmed patients should not leave their rooms while ill.</td>
+									<td align="center">338 (93.4)</td>
+									<td align="center">162 (94.2)</td>
+									<td align="center">147 (93.6)</td>
+									<td align="center">29 (87.9)</td>
+									<td align="center">0.057</td>
+								</tr>
+								<tr>
+									<td align="left">Isolate COVID-19 patients until they have two negative laboratory tests </td>
+									<td align="center">329 (90.9)</td>
+									<td align="center">158 (91.9)</td>
+									<td align="center">142 (90.4)</td>
+									<td align="center">29 (87.9)</td>
+									<td align="center">0.032</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN7">
+								<p>*PPE = Personal protective equipment.</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p>
+					<xref ref-type="table" rid="t8">Table 4</xref> describes the issues that could influence preparedness and adherence to additional technical support recommendations to face the pandemic of COVID-19 in LTCF regarding questions not included in the global adherence score. The most frequent issues identified were related to external support (74.3% did not receive support to plan and execute the training and contingency plans), followed by difficulties to acquire personal protective equipment for residents and employees (47.0%) and management of death cases (46.1%). A multidisciplinary planning committee, created specifically to deal with COVID-19 issues, was less frequent in small LTCF (49.4%) compared to intermediate (65.0) and large ones (75.8) (p=0.034).</p>
+				<p>
+					<table-wrap id="t8">
+						<label>Table 4</label>
+						<caption>
+							<title>Preparedness and adherence to technical support recommendations to face the pandemic of COVID-19 in 362 Brazilian long-term care facilities (n=362). Botucatu, SP, Brazil, 2020</title>
+						</caption>
+						<table>
+							<colgroup>
+								<col/>
+								<col span="5"/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="center" rowspan="2">Recommendations</th>
+									<th align="center" colspan="5">Adherence n (%)</th>
+								</tr>
+								<tr>
+									<th align="center">Total (n=362)</th>
+									<th align="center">Small (n=172)</th>
+									<th align="center">Intermediate (n=157)</th>
+									<th align="center">Large (n=33)</th>
+									<th align="center">p-value</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td align="left" colspan="6"><bold>Contingency plan</bold></td>
+								</tr>
+								<tr>
+									<td align="left">Managers discussed, analyzed, or considered creating a contingency plan to identify the minimum number of employees needed to operate safely. </td>
+									<td align="left">276 (72.7)</td>
+									<td align="left">128 (74.4)</td>
+									<td align="left">124 (79.0)</td>
+									<td align="left">24 (72.7)</td>
+									<td align="left">0.838</td>
+								</tr>
+								<tr>
+									<td align="left">Managers effectively implemented a contingency plan to identify the minimum number of employees needed to operate safely and how to hire or recruit them. </td>
+									<td align="left">241 (66.6)</td>
+									<td align="left">110 (64.0)</td>
+									<td align="left">109 (69.4)</td>
+									<td align="left">22 (66.7)</td>
+									<td align="left">0.304</td>
+								</tr>
+								<tr>
+									<td align="left">A multidisciplinary planning committee was created specifically to decide and discuss the planning of actions to prevent and combat COVID-19</td>
+									<td align="left">212 (58.6)</td>
+									<td align="left">85 (49.4)</td>
+									<td align="left">102 (65.0)</td>
+									<td align="left">25 (75.8)</td>
+									<td align="left">0.034</td>
+								</tr>
+								<tr>
+									<td align="left" colspan="6"><bold>Personal protective equipment</bold></td>
+								</tr>
+								<tr>
+									<td align="left">Residents and employees have comfortable and sufficient access to PPE*</td>
+									<td align="left">323 (89.2)</td>
+									<td align="left">156 (90.7)</td>
+									<td align="left">137 (87.3)</td>
+									<td align="left">30 (90.9)</td>
+									<td align="left">0.716</td>
+								</tr>
+								<tr>
+									<td align="left">The facility is facing difficulties to buy or keep its cleaning supplies and PPE* for residents and employees. </td>
+									<td align="left">192 (53.0)</td>
+									<td align="left">89 (51.7)</td>
+									<td align="left">89 (56.7)</td>
+									<td align="left">14 (42.2)</td>
+									<td align="left">0.499</td>
+								</tr>
+								<tr>
+									<td align="left" colspan="6"><bold>Management of suspected/infected cases and deaths</bold></td>
+								</tr>
+								<tr>
+									<td align="left">The facility has established care flows with local health authorities or referral units to transfer suspected cases.</td>
+									<td align="left">228 (63.0)</td>
+									<td align="left">101 (58.7)</td>
+									<td align="left">100 (63.7)</td>
+									<td align="left">27 (81.8)</td>
+									<td align="left">0.199</td>
+								</tr>
+								<tr>
+									<td align="left">Managers created a contingency plan to deal with death cases within the unit.</td>
+									<td align="left">195 (53.9)</td>
+									<td align="left">80 (46.5)</td>
+									<td align="left">95 (60.5)</td>
+									<td align="left">20 (60.6)</td>
+									<td align="left">0.249</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN8">
+								<p>*PPE = Personal protective equipment</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p>The analysis of the manager’s answers to the open question demonstrated that the majority (98%) of LTCF were having difficulties facing the COVID-19 pandemic. According to the managers, the most affected areas were related to maintaining sufficient materials (42%) (e.g., PPE, hygiene and clean, COVID-19 tests); financial distress (39%) (e.g., the extra cost with materials, the additional cost with staff, and fundraising issues); and manage the workforce (24%) (e.g., absence and replacement, awareness and protocol compliance, qualification and training, and emotional distress). Problems with infrastructure (i.e., adaptation for isolation suspected/confirmed case and enough room for maintenance of distancing procedures), and residents (e.g., awareness and protocol compliance, emotional distress, keep social distancing, management of dementia, social, and visits restriction and absence of family contact) were reported by 14% of the LTCF. </p>
+				<p>
+					<xref ref-type="fig" rid="f2">Figure 1</xref> illustrates the overlap among the issues faced by the LTCF, according to their managers. The main overlapping detected was between financial and materials issues (8.2%), followed by financial vs. workforce (2.4%) and financial vs. materials vs. workforce (2.4%). A 2.2% of overlapping was also observed for financial vs. infrastructure, materials vs. workforce, and workforce vs. resident’s issues. The remaining combinations of issues faced by LTCF were present in lower than 2.0% of responses.</p>
+				<p>
+					<fig id="f2">
+						<label>Figure 1</label>
+						<caption>
+							<title>Venn diagram showing the overlap among the issues faced by the long-term care facilities. Botucatu, SP, Brazil, 2020</title>
+						</caption>
+						<graphic xlink:href="1518-8345-rlae-30-e3557-gf2.png"/>
+						<attrib>The symbol * indicates overlap of less than 2,0%</attrib>
+					</fig>
+				</p>
+			</sec>
+			<sec sec-type="discussion">
+				<title>Discussion</title>
+				<p>In this cross-sectional study, most Brazilian LTCFs (85.1%) reported an excellent adherence to the overall recommendations based on WHO IPC guidance to mitigate COVID-19, albeit 98% declared difficulties with a shortage of supplies, PPE and materials, financial problems, and managing the workforce. </p>
+				<p>Although previous evidence clearly suggested that the size of LTCF was associated with an increased risk of outbreaks and deaths, and possibly with difficulties in adhering to IPC measures<xref ref-type="bibr" rid="B1"><sup>1</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B4"><sup>4</sup></xref>, we found a high overall adherence rate regardless of their size. The global score was slightly smaller in larger LTCF for “screening external visitors”, and “isolating contaminated residents”. The adherence to the recommendation of establishing multidisciplinary committees to combat COVID-19 was lower as smaller were the LTCF.</p>
+				<p>Although the size of facilities has not been assessed in a recent systematic review<xref ref-type="bibr" rid="B23"><sup>23</sup></xref> on the epidemiology and clinical features of COVID-19 outbreaks in aged care facilities, larger facilities were previously found to be correlated with the spread of infection<xref ref-type="bibr" rid="B23"><sup>23</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B24"><sup>24</sup></xref>. However, increasing testing capacity and updating surveillance protocols accordingly could facilitate earlier detection of emerging outbreaks, and help these units manage the supply of care workers and quality of nursing homes, especially their response to infectious diseases<xref ref-type="bibr" rid="B24"><sup>24</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B25"><sup>25</sup></xref>.</p>
+				<p>Many LTCFs perceived a considerable workload during the COVID-19 pandemic. Tasks and activities that require direct involvement of the workforce, such as caring for infected residents (particularly those with functional impairment and cognitive decline) and screening external visitors, would be expected to have the most significant impact on facilities with the highest number of residents. This impact, however, was not sufficient to reduce the adherence to IPC recommendations significantly.</p>
+				<p>COVID-19 mortality was found to be higher in facilities with more significant crowding (9.7% vs. 4.5% in low crowding) in the U.S.A., regardless of the unit’s size<xref ref-type="bibr" rid="B26"><sup>26</sup></xref>. In Canada, the size of LTCF was strongly associated with COVID-19 outbreaks (odds ratio <italic>per</italic> 20-bed increase 3·35, 95% CI 1·99-5·63)<xref ref-type="bibr" rid="B27"><sup>27</sup></xref>. Meanwhile, in the U.K., the likelihood of spread was higher for larger LTCF (&gt;20 beds) and when workers and facilities did not adhere to IPC measures to mitigate infection<xref ref-type="bibr" rid="B28"><sup>28</sup></xref>. Preparedness and adherence to recommendations by LCTF, however, were poorly described in low- and middle-income countries (LMIC).</p>
+				<p>Prevention is a critical component of infection control, particularly during emerging infections. The long-term care sector in LMICs remains mostly underdeveloped, and specific strategies must be considered and suited to promote and successfully implement IPC protocols and guidelines. IPC implementation significantly differed among high-risk populations between higher - and lower -prevalence groups in the social distancing and PPE categories in a high-income country<xref ref-type="bibr" rid="B26"><sup>26</sup></xref>.</p>
+				<p>Other factors may potentially influence the adherence to IPC, acting as facilitators or barriers to its implementation. The community prevalence of COVID-19, the availability of screening tests, and the rate of infection among workers (including staff turnover and retention) may influence the adherence to some of the IPC recommendations. The facility’s occupancy, inadequate staff IPC measures to minimize staff-to-staff transmission, delayed recognition of cases in residents because of a low index of suspicion, and residents at risk for severe morbidity and death sharing a location are also factors that may influence affect adherence<xref ref-type="bibr" rid="B28"><sup>28</sup></xref>.</p>
+				<p>Data from previous works conducted with 23 896 Brazilian respondents (mean age: 47.4 years) found that participants showed a satisfactory level of adherence to national COVID-19 prevention guidelines. Younger people, males, persons living in a rural area/village or popular neighborhoods, students, and workers reported less preventive behavior<xref ref-type="bibr" rid="B29"><sup>29</sup></xref>.</p>
+				<p>The results of this study have limitations inherent to the cross-sectional design adopted and to recall bias. Likewise, potential selection bias may have privileged LTCF with access to the internet and those with more complete teams, including workers dedicated to administrative activities. Although the questions were developed by the authors based on the WHO guidance, they were not intended to be an assessment or audit tool, and answers provided by LTCF managers may not reflect the real situation in the included facilities. Likewise, there are no cutoff points established to classify facilities by their size, which could influence the findings. Despite this, all the definitions adopted for the purpose of this study were defined <italic>a priori</italic>, and a large and nationally representative number of units were included.</p>
+				<p>COVID-19 has been a pandemic, or a syndemic<xref ref-type="bibr" rid="B30"><sup>30</sup></xref>, of inequalities: countries with successful responses developed partnerships on multiple levels across government sectors, had timely triage and referral of suspected cases<xref ref-type="bibr" rid="B31"><sup>31</sup></xref>. Part of the drama observed at the beginning of the pandemic when mortality by COVID-19 among residents was brutally high in some countries was partly due to the absence of official guides and regulations in natural disasters pandemics worldwide<xref ref-type="bibr" rid="B32"><sup>32</sup></xref>. </p>
+				<p>Few initiatives in Brazil have been dedicated to recommending best practices in COVID-19 mitigation in the LTC sector. Of the most representative ones, such as those led by the National Front for Strengthening the LTCF<xref ref-type="bibr" rid="B33"><sup>33</sup></xref> and the Brazilian Society of Geriatrics and Gerontology<xref ref-type="bibr" rid="B34"><sup>34</sup></xref>, none so far has been investigated for its effectiveness. By identifying the adherence rate to IPC recommendations, LTCF managers and their workforce can potentially recognize the effectiveness of these actions, drawing and adapting better contingency plans that may allow the sector to be prepared for new emerging threats. Likewise, in practical terms, nursing staff from LTCF may find this script of questions useful when checking for best IPC practices in the sector.</p>
+			</sec>
+			<sec sec-type="conclusions">
+				<title>Conclusion</title>
+				<p>In conclusion, the adherence to the recommendations from WHO IPC guidance was considered excellent for most of the proposed items, regardless of the size of the units. Adherence to screening COVID-19 symptoms of visitors and isolating patients until they have two negative laboratory tests were the only aspects that were lower on larger facilities compared to medium and small ones. According to the managers, most of the ILPIs faced difficulties dealing with the COVID-19 pandemic, which are mainly related to financial difficulties, lack of personal protective equipment, and hygiene and cleaning </p>
+			</sec>
+		</body>
+		<back>
+			<ack>
+				<title>Acknowledgments</title>
+				<p>Our thanks to the researcher Helena Akemi Wada Watanabe, the Frente Nacional de Fortalecimento à ILPI, and to the group of professionals and researchers from the <ext-link ext-link-type="uri" xlink:href="https://www.ilpi.me/">https://www.ilpi.me/</ext-link> website for their support in carrying out this study.</p>
+			</ack>
+			<fn-group>
+				<fn fn-type="other" id="fn11">
+					<label>*</label>
+					<p>Available from: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7910/DVN/LXBFQG">https://doi.org/10.7910/DVN/LXBFQG</ext-link>
+					</p>
+				</fn>
+			</fn-group>
+		</back>
+	</sub-article>
+	<sub-article article-type="translation" id="s2" xml:lang="es">
+		<front-stub>
+			<article-id pub-id-type="doi">10.1590/1518-8345.5581.3556</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artículo Original</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Impacto del tamaño de las instituciones de larga estancia en la adhesión a las orientaciones de prevención de infecciones por COVID-19</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-4474-009X</contrib-id>
+					<name>
+						<surname>Wachholz</surname>
+						<given-names>Patrick Alexander</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff7"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-9713-8617</contrib-id>
+					<name>
+						<surname>Melo</surname>
+						<given-names>Ruth Caldeira de</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff8"><sup>2</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-1977-5880</contrib-id>
+					<name>
+						<surname>Jacinto</surname>
+						<given-names>Alessandro Ferrari</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff9"><sup>3</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-9876-3222</contrib-id>
+					<name>
+						<surname>Villas Boas</surname>
+						<given-names>Paulo José Fortes</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff7"><sup>1</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff7">
+				<label>1</label>
+				<institution content-type="original"> Universidade Estadual Paulista, Faculdade de Medicina de Botucatu, Botucatu, SP, Brasil.</institution>
+				<institution content-type="normalized">Universidade Estadual Paulista</institution>
+				<institution content-type="orgname">Universidade Estadual Paulista</institution>
+				<institution content-type="orgdiv1">Faculdade de Medicina de Botucatu</institution>
+				<addr-line>
+					<city>Botucatu</city>
+					<state>SP</state>
+				</addr-line>
+				<country country="BR">Brazil</country>
+			</aff>
+			<aff id="aff8">
+				<label>2</label>
+				<institution content-type="original"> Universidade de São Paulo, Escola de Artes, Ciências e Humanidades, São Paulo, SP, Brasil.</institution>
+				<institution content-type="normalized">Universidade de São Paulo</institution>
+				<institution content-type="orgname">Universidade de São Paulo</institution>
+				<institution content-type="orgdiv1">Escola de Artes, Ciências e Humanidades</institution>
+				<addr-line>
+					<city>São Paulo</city>
+					<state>SP</state>
+				</addr-line>
+				<country country="BR">Brazil</country>
+			</aff>
+			<aff id="aff9">
+				<label>3</label>
+				<institution content-type="original"> Universidade Federal de São Paulo, Escola Paulista de Medicina, São Paulo, SP, Brasil.</institution>
+				<institution content-type="normalized">Universidade Federal de São Paulo</institution>
+				<country country="BR">Brazil</country>
+			</aff>
+			<author-notes>
+				<corresp id="c3">
+					<label>Autor de correspondencia:</label> Patrick Alexander Wachholz. E-mail: <email>patrick.wachholz@unesp.br</email>
+				</corresp>
+				<fn fn-type="edited-by" id="fn7">
+					<label>Editora Asociada</label>
+					<p> Rosalina Aparecida Partezani Rodrigues</p>
+				</fn>
+				<fn fn-type="con" id="fn8">
+					<label>Contribución de los autores</label>
+					<p><bold>Concepción y dibujo de la pesquisa:</bold> Patrick Alexander Wachholz, Ruth Caldeira de Melo. <bold>Obtención de datos:</bold> Patrick Alexander Wachholz, Ruth Caldeira de Melo, Alessandro Ferrari Jacinto, Paulo José Fortes Villas Boas. <bold>Análisis e interpretación de los datos:</bold> Patrick Alexander Wachholz, Ruth Caldeira de Melo, Alessandro Ferrari Jacinto, Paulo José Fortes Villas Boas. <bold>Análisis estadístico:</bold> Patrick Alexander Wachholz, Ruth Caldeira de Melo, Alessandro Ferrari Jacinto, Paulo José Fortes Villas Boas. <bold>Redacción del manuscrito:</bold> Patrick Alexander Wachholz, Ruth Caldeira de Melo, Alessandro Ferrari Jacinto, Paulo José Fortes Villas Boas. <bold>Revisión crítica del manuscrito en cuanto al contenido intelectual importante:</bold> Patrick Alexander Wachholz, Ruth Caldeira de Melo, Alessandro Ferrari Jacinto, Paulo José Fortes Villas Boas. Todos los autores aprobaron la versión final del texto.</p>
+				</fn>
+				<fn fn-type="conflict" id="fn9">
+					<label>Conflicto de intereses</label>
+					<p> Los autores han declarado que no existe ningún conflicto de intereses.</p>
+				</fn>
+			</author-notes>
+			<abstract>
+				<title>Resumen</title>
+				<sec>
+					<title>Objetivo:</title>
+					<p> evaluar la adhesión de instituciones brasileñas de larga estancia a las orientaciones de Prevención y Control de Infecciones de la Organización Mundial de la Salud y evaluar la asociación entre su tamaño y la adhesión a esas recomendaciones. </p>
+				</sec>
+				<sec>
+					<title>Método:</title>
+					<p> estudio transversal realizado con gerentes de establecimientos. Los autores desarrollaron un cuestionario de 20 ítems basado en estas directrices y un puntaje general de cumplimiento acorde a la observancia de estas recomendaciones. La adhesión se calificó (1) excelente para aquellas que cumplieron con ≥14 de 20 recomendaciones; (2) buena para 10 a 13 artículos; y (3) baja para aquellas con menos de diez elementos. El tamaño de las instalaciones se clasificó como pequeños, medianos y grandes de acuerdo con un análisis de clúster de dos pasos. Se utilizó estadística descriptiva y la prueba de chi-cuadrado con un nivel de significancia del 5%. </p>
+				</sec>
+				<sec>
+					<title>Resultados:</title>
+					<p> de las 362 instituciones incluidas, 308 (85,1%) se adhirieron a 14 o más recomendaciones. En cuanto a su tamaño, la adhesión al cribado de síntomas de COVID-19 de los visitantes (p=0,037) y al aislamiento de los pacientes hasta que tengan dos pruebas de laboratorio negativas (p=0,032) fue menor en los establecimientos más grandes en comparación con los establecimientos medianos y pequeños. </p>
+				</sec>
+				<sec>
+					<title>Conclusión:</title>
+					<p> la adhesión a las medidas de mitigación de la COVID-19 en las unidades brasileñas fue considerada excelente para la mayoría de las recomendaciones, independientemente del tamaño de las unidades.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="es">
+				<title>Descriptores:</title>
+				<kwd>Anciano</kwd>
+				<kwd>COVID-19</kwd>
+				<kwd>Adhesión a Directriz</kwd>
+				<kwd>Cuidados a Largo Plazo</kwd>
+				<kwd>Coronavírus</kwd>
+				<kwd>Hogares para Ancianos</kwd>
+			</kwd-group>
+		</front-stub>
+		<body>
+			<boxed-text id="bx3">
+				<sec>
+					<title>Destacados:</title>
+					<p>(1) La prevención es un factor crítico en el control de infecciones durante las infecciones emergentes. </p>
+					<p>(2) El COVID-19 ha afectado de manera desproporcionada a las instituciones de larga estancia para personas mayores (asilos). </p>
+					<p>(3) La preparación para mitigar el COVID-19 en los asilos brasileños se consideró excelente. </p>
+					<p>(4) El tamaño de las unidades no influyó en la adhesión a las medidas de prevención y control de infecciones (PCI) para COVID-19. </p>
+					<p>(5) Las principales dificultades estuvieron relacionadas con dificultades financieras y de gestión del equipo de trabajo.</p>
+				</sec>
+			</boxed-text>
+			<sec sec-type="intro">
+				<title>Introducción</title>
+				<p>Las personas mayores que viven en Instituciones de Larga Estancia para Personas Mayores (Asilos) se han visto afectadas de manera desproporcionada por la pandemia de COVID-19<xref ref-type="bibr" rid="B1"><sup>1</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B6"><sup>6</sup></xref>. La pandemia ha abrumado los sistemas de salud de todo el mundo y ha puesto de relieve las debilidades (o la falta) de la base de datos nacional y de las prácticas de prevención y control de infecciones (PCI) en los asilos<xref ref-type="bibr" rid="B7"><sup>7</sup></xref>.</p>
+				<p>La prevalencia de COVID-19 en la comunidad es un fuerte predictor del número de casos y muertes en asilos<xref ref-type="bibr" rid="B4"><sup>4</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B8"><sup>8</sup></xref>. Las tasas de mortalidad aumentaron significativamente entre las personas mayores más frágiles y entre los que viven en instituciones más pobladas<xref ref-type="bibr" rid="B9"><sup>9</sup></xref>. Además, se observó que la probabilidad de ocurrencia de casos de COVID-19 es mayor en las grandes instituciones sin fines de lucro y en las regiones metropolitanas<xref ref-type="bibr" rid="B4"><sup>4</sup></xref>. Corroborando estos hallazgos, se examinaron las características de los asilos de América del Norte con casos documentados de COVID-19 y se encontró que las infecciones estaban relacionadas con la ubicación (urbana) y el tamaño (más de 50 camas) de las instituciones<xref ref-type="bibr" rid="B1"><sup>1</sup></xref>.</p>
+				<p>Por otro lado, otros autores han demonstrado que un alto número de auxiliares de enfermería y el total de horas de enfermería contribuyen a mitigar las infecciones por COVID-19 en los asilos<xref ref-type="bibr" rid="B4"><sup>4</sup></xref>. Los equipos más grandes<xref ref-type="bibr" rid="B9"><sup>9</sup></xref> y las prácticas tempranas y sólidas de PCI<xref ref-type="bibr" rid="B8"><sup>8</sup></xref> parecen estar asociadas con tasas más bajas de casos de COVID-19 y mortalidad entre los adultos mayores que viven en estos entornos.</p>
+				<p>Desde el inicio de la pandemia, la Organización Mundial de la Salud (OMS), los Centros para el Control y la Prevención de Enfermedades (CDC) y organismos regionales han publicado recomendaciones y acciones políticas para mitigar el impacto del COVID-19 entre las personas que dependen del sector de cuidado a largo plazo<xref ref-type="bibr" rid="B10"><sup>10</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B13"><sup>13</sup></xref>. Sin embargo, hasta donde sabemos, la preparación para COVID-19 en ILEPM y el cumplimiento de estas recomendaciones no se han investigado lo suficiente.</p>
+				<p>Un estudio norteamericano con una muestra pequeña evidenció que las recomendaciones de los CDC para PCI fueron las más utilizadas (88%), seguidas por las recomendaciones de los departamentos de salud estatales o locales (84%) y por las orientaciones de la OMS (48%)<xref ref-type="bibr" rid="B14"><sup>14</sup></xref>. Más de la mitad de los gerentes (54%) tenían planes separados para lidiar con el COVID-19, casi todos (96%) tenían políticas para evaluar a los visitantes y la mayoría (68%) indicó tener un hospital de referencia local que acepta a sus pacientes bajo sospecha de infección por COVID-19. Casi el 83% esperaba una escasez significativa de personal y el 66 % informó tener acceso a las pruebas de COVID-19<xref ref-type="bibr" rid="B14"><sup>14</sup></xref>.</p>
+				<p>La implementación de la práctica clínica basada en la evidencia no es fácil ni rápida. Las barreras y los facilitadores necesitan ser abordados de manera urgente y correcta, especialmente a nivel organizacional<xref ref-type="bibr" rid="B15"><sup>15</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B17"><sup>17</sup></xref>. No está claro si el tamaño de los asilos puede ser una barrera para implementar estrategias para mitigar la propagación de COVID-19. Por ejemplo, en los asilos más grandes, cuanto mayor es el número de residentes, empleados y visitantes, mayor es el número de trabajadores, la necesidad de capacitación y el desarrollo de horarios de rotación para suplir las abstenciones por posibles bajas, las demandas de contratación por rotación/retención y el riesgo de desabastecimiento<xref ref-type="bibr" rid="B18"><sup>18</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B19"><sup>19</sup></xref>.</p>
+				<p>Este estudio tuvo como objetivo evaluar la adhesión de los gerentes de los asilos brasileños a las directrices de PCI de la OMS y evaluar la asociación entre el tamaño de la institución y su adhesión a las recomendaciones para mitigar el COVID-19.</p>
+			</sec>
+			<sec sec-type="methods">
+				<title>Método</title>
+				<sec>
+					<title>Aspectos éticos</title>
+					<p>Este estudio transversal fue aprobado por el <italic>Comitê de Ética da Faculdade de Medicina de Botucatu da Universidade Estadual Paulista “Júlio de Mesquita Filho”- UNESP</italic> (CAAE 30577520.0.0000.0008, protocolo nº 4.012.489), y todos los participantes firmaron un formulario de consentimiento informado <italic>on line</italic>. Los conjuntos de datos que respaldan los hallazgos de este estudio están disponibles<xref ref-type="fn" rid="fn12"><sup>3</sup></xref>. A los fines de este estudio, un asilo es una institución que brinda atención a largo plazo y/o rehabilitación, restauración y atención al final de la vida a los residentes que requieren asistencia con las actividades de la vida diaria, incluida una variedad de servicios (sociales, médicos y personales) a las personas que no pueden vivir de forma independiente.</p>
+				</sec>
+				<sec>
+					<title>Diseño del estudio y participantes</title>
+					<p>Este estudio transversal se realizó exclusivamente por intermedio de plataformas electrónicas, durante doce semanas consecutivas, a partir del 5 de mayo de 2020, utilizando <italic>Google Forms</italic>. La población de interés estuvo compuesta por gerentes de los asilos brasileños, cuyos contactos fueron obtenidos a través de listados en dominios disponibles en Internet, incluidas búsquedas activas en departamentos de salud, vigilancia epidemiológica, accionistas, el <italic>Sistema Único de Assistência Social</italic> (SUAS) y grupos de apoyo para los asilos incluidos los sitios y grupos de redes sociales. No hubo restricciones de tamaño, ubicación o tipo de institución.</p>
+				</sec>
+				<sec>
+					<title>Recolección de datos</title>
+					<p>La Organización Mundial de la Salud publicó, el 21 de marzo de 2020, el documento “Prevención y control de infecciones en los centros de atención de larga estancia en el contexto de la COVID-19”, con el objetivo de brindar orientación sobre las prácticas de PCI en este sector para prevenir que el virus ingrese a las instituciones y se propague dentro y fuera de ellas<xref ref-type="bibr" rid="B10"><sup>10</sup></xref>. Preparado inicialmente en inglés, el documento fue posteriormente traducido al portugués por la Organización Panamericana de la Salud<xref ref-type="bibr" rid="B10"><sup>10</sup></xref>. A diferencia de otras herramientas de evaluación desarrolladas por la OMS<xref ref-type="bibr" rid="B20"><sup>20</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B21"><sup>21</sup></xref>, esta guía provisional fue diseñada para informar y apoyar a los gerentes de los asilos en la implementación de los requisitos mínimos para las prácticas de PCI en el sector. El objetivo no era ser utilizado como una herramienta de auditoría, sino ayudar a evaluar, planificar, organizar e implementar prácticas y actividades de PCI en un contexto inicial con poca disponibilidad de evidencias de respaldo.</p>
+					<p>Con base en las recomendaciones de la OMS<xref ref-type="bibr" rid="B10"><sup>10</sup></xref>, los autores desarrollaron un cuestionario de 20 ítems con preguntas de opción múltiple y dicotómicas. Como hasta el momento se carece de datos nacionales confiables sobre el sector, se incluyeron 26 preguntas adicionales, con el objetivo de brindar informaciones acerca de la caracterización de los asilos, provisión/disponibilidad de equipos de protección personal, infraestructura para el manejo de casos sospechosos/infectados y muertes, y planes de contingencia ante posibles brotes. También se incluyó una pregunta abierta sobre las dificultades más significativas que enfrenta la institución para combatir la pandemia. El cuestionario se dividió en nueve secciones: prevención, distanciamiento físico dentro de la institución, reglas para visitantes, vigilancia prospectiva de COVID-19 entre residentes, vigilancia prospectiva entre empleados, control de fuentes, restricciones de movimiento y transporte, suministro y disponibilidad de equipos de seguridad, equipos de protección personal y limpieza, apoyo técnico para enfrentar la pandemia.</p>
+					<p>Los autores desarrollaron una puntuación general de cumplimiento de las 20 preguntas basándose en la orientación original de la OMS (<xref ref-type="table" rid="t10">Tablas 2</xref> y <xref ref-type="table" rid="t11">3</xref>). Para este estudio, la adhesión se calificó como (1) <bold>excelente</bold> para los asilos que cumplieron con al menos 14 elementos de las 20 recomendaciones (es decir, 70%); (2) <bold>bueno</bold> para los asilos que cumplieron con 10 a 13 elementos (es decir, 50 a 69%); y (3) <bold>bajo</bold> para aquellas que cumplieron con menos de diez ítems (es decir, &lt;49%).</p>
+					<p>El tiempo estimado para completar el cuestionario fue de 30 minutos. Los encuestados tenían la libertad de participar más de una vez, pero cada asilo se incluyó solo una vez en el estudio, y se utilizó la respuesta más completa y reciente para el análisis.</p>
+				</sec>
+				<sec>
+					<title>Procesamiento y análisis de datos</title>
+					<p>El análisis estadístico se realizó con el programa SPSS versión 20. Cuando los encuestados no proporcionaron datos para una o más variables, se los describió como ausentes y su proporción se informó en la tabla. Como no existe una definición estándar para la clasificación por tamaño de los asilos para los fines de este artículo, se aplicó un análisis de clúster de dos pasos a la variable continua “número de residentes” utilizando el algoritmo de conglomerado automático en el SPSS versión 20. Se seleccionaron tres conglomerados establecidos: instituciones pequeñas, medianas y grandes. Se utilizó estadística descriptiva y pruebas de chi-cuadrado con un nivel de significancia del 5%.</p>
+					<p>La pregunta abierta fue analizada a partir del análisis de contenido temático<xref ref-type="bibr" rid="B22"><sup>22</sup></xref>, dividida en tres etapas: preanálisis, exploración del material y tratamiento de los resultados. En la primera etapa, se realizó una lectura flotante para identificar las principales dificultades enfrentadas en los asilos. Luego se exploró el material para establecer los temas centrales y las subcategorías. Las respuestas fueron codificadas, permitiendo el cálculo de la frecuencia de cada categoría y la extracción de partes del texto, creando un diagrama de Venn.</p>
+				</sec>
+			</sec>
+			<sec sec-type="results">
+				<title>Resultados</title>
+				<p>Se recibieron un total de 374 respuestas durante las 12 semanas de investigación. Cinco gerentes respondieron el cuestionario dos veces; se excluyeron sus respuestas más antiguas e incompletas. También se excluyó una respuesta de un asilo, no brasileño. Seis gerentes no proporcionaron datos sobre el número de residentes, por lo que no se incluyeron sus respuestas.</p>
+				<p>En total, se incluyeron 362 asilos con una población total de 11.903 personas mayores. La región Sudeste de Brasil concentra la mayor proporción de unidades incluidas (53,8%), principalmente unidades con fines de lucro (39,7%) y sin fines de lucro que reciben subsidios gubernamentales/no gubernamentales (37,5%). La <xref ref-type="table" rid="t9">Tabla 1</xref> presenta una caracterización general de la muestra, según una división de tres tamaños de asilos.</p>
+				<p>
+					<table-wrap id="t9">
+						<label>Tabla 1</label>
+						<caption>
+							<title>Características de 362 instituciones de larga estancia para personas mayores brasileñas según el tamaño de la institución, cuyos directores respondieron un cuestionario en línea para identificar su preparación para la pandemia de COVID-19 (n=362). Botucatu, SP, Brasil, 2020</title>
+						</caption>
+						<table>
+							<colgroup>
+								<col/>
+								<col span="3"/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left" rowspan="2">Características de la muestra</th>
+									<th align="center" colspan="3">Tamaño de la institución </th>
+								</tr>
+								<tr>
+									<th align="center">Instituciones pequeñas (n= 172)</th>
+									<th align="center">Instituciones medianas (n= 157)</th>
+									<th align="center">Instituciones grandes (n= 33)</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td align="left" colspan="4"><bold>Número de residentes</bold></td>
+								</tr>
+								<tr>
+									<td align="left">Mediana (IC 95%)</td>
+									<td align="left">18 (16,8 - 18,5)</td>
+									<td align="left">37 (37,5 - 40,3)</td>
+									<td align="left">76 (74,6 - 92,2)</td>
+								</tr>
+								<tr>
+									<td align="left">Promedio (DE)</td>
+									<td align="left">17,7 (5,7)</td>
+									<td align="left">38,9 (8,8)</td>
+									<td align="left">83,4 (24,8)</td>
+								</tr>
+								<tr>
+									<td align="left" colspan="4"><bold>Fuente de financiamiento, n (%)</bold></td>
+								</tr>
+								<tr>
+									<td align="left">Público</td>
+									<td align="left">10 (5,8)</td>
+									<td align="left">6 (3,8)</td>
+									<td align="left">2 (6,0)</td>
+								</tr>
+								<tr>
+									<td align="left">Fines de lucro</td>
+									<td align="left">98 (56,9)</td>
+									<td align="left">40 (25,5)</td>
+									<td align="left">4 (12,1)</td>
+								</tr>
+								<tr>
+									<td align="left">Sin fines de lucro tipo 1<sup>*</sup></td>
+									<td align="left">43 (25,0)</td>
+									<td align="left">76 (48,4)</td>
+									<td align="left">18 (54,5)</td>
+								</tr>
+								<tr>
+									<td align="left">Sin fines de lucro tipo 2<sup>†</sup></td>
+									<td align="left">21 (12,2)</td>
+									<td align="left">35 (22,2)</td>
+									<td align="left">9 (27,3)</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN9">
+								<p><sup>*</sup>Instituciones de atención de larga estancia que reciben subsidios gubernamentales/no gubernamentales; <sup>†</sup>Instituciones de atención de larga estancia que trabajan para otros que no sean sus fundadores o directores y pueden recibir reembolso por sus servicios (generalmente organizaciones benéficas)</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p>Ciento sesenta y seis asilos (45,1%), independientemente del tipo de financiamiento, declararon no haber recibido subsidios o financiamiento externo para prepararse y enfrentar la pandemia, incluida la capacitación, la compra de equipos de protección y la adecuación de la infraestructura para el aislamiento respiratorio de casos sospechosos.</p>
+				<p>Doscientos treinta y cinco (64,9%; 74 respuestas ausentes) gerentes respondieron que sus establecimientos ya contaban con la infraestructura necesaria para atender casos sospechosos de COVID-19, incluyendo alojamientos con baños individuales, con espacios suficientes para realizar las medidas preventivas de higiene y protección para trabajadores y residentes. La disponibilidad de pruebas para influenza y coronavirus fue baja: el 23,5% (n=85) no tuvo acceso a ambas pruebas y el 17,4% (n=63) tuvo acceso solo a kits de prueba rápida para SARS-Cov-2.</p>
+				<p>Las <xref ref-type="table" rid="t10">Tablas 2</xref> y <xref ref-type="table" rid="t11">3</xref> resumen el cumplimiento de los 20 elementos según las pautas de PCI de la OMS. Trescientos ocho gerentes (85,1%) se adhirieron a 14 o más recomendaciones de orientación de IPC; tres fueron clasificados como de baja adhesión y 35 (9,7%) no respondieron. En cuanto al tamaño de los asilos, la adhesión al tamizaje de signos y síntomas de COVID-19 de los visitantes (p=0,037) y al aislamiento de los pacientes con COVID-19 hasta que tengan dos pruebas de laboratorio negativas (p=0,032) fue menor en las unidades más grandes en comparación con unidades medianas y pequeñas. No se encontraron diferencias significativas para las otras orientaciones de la OMS entre los tres tamaños de los asilos estudiados.</p>
+				<p>
+					<table-wrap id="t10">
+						<label>Tabla 2</label>
+						<caption>
+							<title>Adhesión a las directrices de la Organización Mundial de la Salud para instituciones de larga estancia en el contexto de COVID-19 en establecimientos brasileños (n=362). Botucatu, SP, Brasil, 2020</title>
+						</caption>
+						<table>
+							<colgroup>
+								<col/>
+								<col span="5"/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left" rowspan="2">Recomendaciones</th>
+									<th align="center" colspan="5">Adhesión n (%) </th>
+								</tr>
+								<tr>
+									<th align="center">Total(n=362)</th>
+									<th align="center">Pequeña (n=172)</th>
+									<th align="center">Mediana(n=157)</th>
+									<th align="center">Grande(n=33)</th>
+									<th align="center">valor-p</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td align="left" colspan="6"><bold>Prevención</bold></td>
+								</tr>
+								<tr>
+									<td align="left">Brindar capacitación sobre PCI<sup>*</sup> en el contexto de COVID-19 a todos los empleados</td>
+									<td align="center">288 (79,6)</td>
+									<td align="center">132 (76,7)</td>
+									<td align="center">128 (81,5)</td>
+									<td align="center">28 (84,8)</td>
+									<td align="center">0,611</td>
+								</tr>
+								<tr>
+									<td align="left">Ofrecer sesiones informativas sobre el COVID-19 para los residentes</td>
+									<td align="center">258 (71,3)</td>
+									<td align="center">121 (70,3)</td>
+									<td align="center">109 (69,4)</td>
+									<td align="center">28 (84,8)</td>
+									<td align="center">0,241</td>
+								</tr>
+								<tr>
+									<td align="left">Llevar a cabo auditorías periódicas de las prácticas PCI*</td>
+									<td align="center">320 (88,4)</td>
+									<td align="center">146 (84,9)</td>
+									<td align="center">145 (92,4)</td>
+									<td align="center">29 (87,9)</td>
+									<td align="center">0,108</td>
+								</tr>
+								<tr>
+									<td align="left">Ofrecer vacunación anual de acuerdo con las políticas locales</td>
+									<td align="center">344 (95,0)</td>
+									<td align="center">162 (93,6)</td>
+									<td align="center">151 (96,2)</td>
+									<td align="center">32 (97,0)</td>
+									<td align="center">0,720</td>
+								</tr>
+								<tr>
+									<td align="left" colspan="6"><bold>Distanciamiento físico en la institución</bold></td>
+								</tr>
+								<tr>
+									<td align="left">Publicar avisos, carteles, volantes en toda la institución.</td>
+									<td align="center">302 (83,4)</td>
+									<td align="center">148 (86,0)</td>
+									<td align="center">125 (79,6)</td>
+									<td align="center">29 (87,9)</td>
+									<td align="center">0,423</td>
+								</tr>
+								<tr>
+									<td align="left">Distanciamiento físico en la unidad (en actividades grupales)</td>
+									<td align="center">305 (84,3)</td>
+									<td align="center">146 (84,9)</td>
+									<td align="center">132 (84,1)</td>
+									<td align="center">27 (81,8)</td>
+									<td align="center">0,894</td>
+								</tr>
+								<tr>
+									<td align="left">Distanciamiento físico en la unidad (durante las comidas)</td>
+									<td align="center">212 (58,6)</td>
+									<td align="center">103 (59,9)</td>
+									<td align="center">92 (58,6)</td>
+									<td align="center">17 (51,5)</td>
+									<td align="center">0,772</td>
+								</tr>
+								<tr>
+									<td align="left">Requerir que los residentes y el personal eviten tocarse entre sí</td>
+									<td align="center">344 (95,0)</td>
+									<td align="center">163 (94,8)</td>
+									<td align="center">148 (94,3)</td>
+									<td align="center">33 (100)</td>
+									<td align="center">0,539</td>
+								</tr>
+								<tr>
+									<td align="left" colspan="6"><bold>Reglas para visitantes</bold></td>
+								</tr>
+								<tr>
+									<td align="left">Tamizaje para detectar signos y síntomas o riesgo de COVID-19</td>
+									<td align="center">337 (93,1)</td>
+									<td align="center">161 (93,6)</td>
+									<td align="center">148 (94,3)</td>
+									<td align="center">28 (84,8)</td>
+									<td align="center">0,037</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN10">
+								<p><sup>*</sup>PCI = Prácticas de prevención y control de infecciones.</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p>
+					<table-wrap id="t11">
+						<label>Tabla 3</label>
+						<caption>
+							<title>Adhesión a las directrices de la Organización Mundial de la Salud para instituciones de larga estancia en el contexto de COVID-19 (n=362) Botucatu, SP, Brasil, 2020</title>
+						</caption>
+						<table>
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left">Vigilancia prospectiva entre residentes</th>
+									<th align="center">TOTAL (n=362)</th>
+									<th align="center">Pequeña (n=172)</th>
+									<th align="center">Mediana (n=157)</th>
+									<th align="center">Grande (n=33)</th>
+									<th align="center">valor-p</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td align="left">Evaluar el estado de salud de cada nuevo residente cuando ingresa</td>
+									<td align="center">344 (95,0)</td>
+									<td align="center">164 (95,3)</td>
+									<td align="center">148 (94,3)</td>
+									<td align="center">32 (97,0)</td>
+									<td align="center">0,700</td>
+								</tr>
+								<tr>
+									<td align="left">Evaluar a cada residente dos veces al día para detectar síntomas</td>
+									<td align="center">336 (92,8)</td>
+									<td align="center">160 (93,0)</td>
+									<td align="center">146 (93,0)</td>
+									<td align="center">30 (90,9)</td>
+									<td align="center">0,206</td>
+								</tr>
+								<tr>
+									<td align="left">Informar de inmediato si un residente tiene fiebre o síntomas respiratorios</td>
+									<td align="center">358 (98,9)</td>
+									<td align="center">168 (97,7)</td>
+									<td align="center">157 (100)</td>
+									<td align="center">33 (100)</td>
+									<td align="center">0,346</td>
+								</tr>
+								<tr>
+									<td align="left" colspan="6"><bold>Vigilancia prospectiva entre empleados</bold></td>
+								</tr>
+								<tr>
+									<td align="left">Vigilancia prospectiva de los empleados (en caso de síntomas)</td>
+									<td align="center">355 (98,1)</td>
+									<td align="center">168 (97,7)</td>
+									<td align="center">156 (99,4)</td>
+									<td align="center">31 (93,9)</td>
+									<td align="center">0,223</td>
+								</tr>
+								<tr>
+									<td align="left">Supervisar a los empleados con ausencias injustificadas</td>
+									<td align="center">328 (90,6)</td>
+									<td align="center">157 (91,3)</td>
+									<td align="center">142 (90,4)</td>
+									<td align="center">29 (87,9)</td>
+									<td align="center">0,568</td>
+								</tr>
+								<tr>
+									<td align="left">Realizar controles de temperatura a todos los empleados al ingresar a las instalaciones.</td>
+									<td align="center">275 (76,0)</td>
+									<td align="center">128 (74,4)</td>
+									<td align="center">122 (77,7)</td>
+									<td align="center">25 (75,8)</td>
+									<td align="center">0,777</td>
+								</tr>
+								<tr>
+									<td align="left" colspan="6"><bold>Disponibilidad de equipos de protección individual</bold></td>
+								</tr>
+								<tr>
+									<td align="left">Empleados deben tomar precauciones de contacto y gotitas</td>
+									<td align="center">327 (90,3)</td>
+									<td align="center">155 (90,1)</td>
+									<td align="center">143 (91,1)</td>
+									<td align="center">29 (87,9)</td>
+									<td align="center">0,792</td>
+								</tr>
+								<tr>
+									<td align="left">Los EPP* deben usarse de acuerdo con los procedimientos recomendados para evitar la contaminación.</td>
+									<td align="center">345 (95,3)</td>
+									<td align="center">162 (94,2)</td>
+									<td align="center">152 (96,8)</td>
+									<td align="center">31 (93,9)</td>
+									<td align="center">0,386</td>
+								</tr>
+								<tr>
+									<td align="left" colspan="6"><bold>Control de fuentes</bold></td>
+								</tr>
+								<tr>
+									<td align="left">Notificar a las autoridades locales de cualquier caso sospechoso y aislar a los residentes que comienzan a experimentar síntomas respiratorios</td>
+									<td align="center">228 (63,0)</td>
+									<td align="center">101 (59,7)</td>
+									<td align="center">100 (43,9)</td>
+									<td align="center">27 (81,8)</td>
+									<td align="center">0,190</td>
+								</tr>
+								<tr>
+									<td align="left" colspan="6"><bold>Restricciones de manejo y transporte</bold></td>
+								</tr>
+								<tr>
+									<td align="left">Pacientes con casos confirmados no deben salir de sus habitaciones mientras estén enfermos.</td>
+									<td align="center">338 (93,4)</td>
+									<td align="center">162 (94,2)</td>
+									<td align="center">147 (93,6)</td>
+									<td align="center">29 (87,9)</td>
+									<td align="center">0,057</td>
+								</tr>
+								<tr>
+									<td align="left">Aislar a los pacientes con COVID-19 hasta que tengan dos resultados negativos en las pruebas de laboratorio</td>
+									<td align="center">329 (90,9)</td>
+									<td align="center">158 (91,9)</td>
+									<td align="center">142 (90,4)</td>
+									<td align="center">29 (87,9)</td>
+									<td align="center">0,032</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN11">
+								<p>*EPP = Equipo de protección personal.</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p>La <xref ref-type="table" rid="t12">Tabla 4</xref> muestra los problemas que pueden influir en la preparación y el cumplimiento de las recomendaciones de apoyo técnico adicionales para enfrentar la pandemia de COVID-19 en los asilos en relación con los problemas no incluidos en el puntaje general de cumplimiento. Los problemas más frecuentes estuvieron relacionados con el apoyo externo (74,3% no recibió apoyo para planificar y ejecutar planes de capacitación y contingencia), seguido de las dificultades para adquirir equipos de protección personal para residentes y empleados (47,0 %) y el manejo de casos de muerte (46,1%). Un comité de planificación multidisciplinario, creado específicamente para tratar temas relacionados con COVID-19, fue menos frecuente en los asilos pequeños (49,4%) en comparación con las medianos (65,0) y grandes (75,8) (p=0,034).</p>
+				<p>
+					<table-wrap id="t12">
+						<label>Tabla 4</label>
+						<caption>
+							<title>Preparación y adhesión a las recomendaciones de soporte técnico para enfrentar la pandemia de COVID-19 en instituciones de larga estancia brasileñas (n=362). Botucatu, SP, Brasil, 2020</title>
+						</caption>
+						<table>
+							<colgroup>
+								<col/>
+								<col span="5"/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left" rowspan="2">Recomendaciones</th>
+									<th align="center" colspan="5">Adhesión n (%) </th>
+								</tr>
+								<tr>
+									<th align="center">Total (n=362)</th>
+									<th align="center">Pequeña (n=172)</th>
+									<th align="center">Mediana (n=157)</th>
+									<th align="center">Grande (n=33)</th>
+									<th align="center">valor-p</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td align="left" colspan="6"><bold>Plan de contingencia</bold></td>
+								</tr>
+								<tr>
+									<td align="left">Gerentes discutieron, analizaron o consideraron crear un plan de contingencia para identificar la cantidad mínima de empleados necesarios para funcionar de manera segura.</td>
+									<td align="center">276 (72,7)</td>
+									<td align="center">128 (74,4)</td>
+									<td align="center">124 (79,0)</td>
+									<td align="center">24 (72,7)</td>
+									<td align="center">0,838</td>
+								</tr>
+								<tr>
+									<td align="left">Gerentes implementaron efectivamente un plan de contingencia para identificar la cantidad mínima de empleados necesarios para funcionar de manera segura y cómo contratarlos o reclutarlos.</td>
+									<td align="center">241 (66,6)</td>
+									<td align="center">110 (64,0)</td>
+									<td align="center">109 (69,4)</td>
+									<td align="center">22 (66,7)</td>
+									<td align="center">0,304</td>
+								</tr>
+								<tr>
+									<td align="left">Una comisión de planificación multidisciplinaria específicamente para decidir y discutir la planificación de acciones para prevenir y combatir el COVID-19.</td>
+									<td align="center">212 (58,6)</td>
+									<td align="center">85 (49,4)</td>
+									<td align="center">102 (65,0)</td>
+									<td align="center">25 (75,8)</td>
+									<td align="center">0,034</td>
+								</tr>
+								<tr>
+									<td align="left" colspan="6"><bold>Equipo de protección individual</bold></td>
+								</tr>
+								<tr>
+									<td align="left">Residentes y el personal tienen acceso cómodo y suficiente a los EPP*.</td>
+									<td align="center">323 (89,2)</td>
+									<td align="center">156 (90,7)</td>
+									<td align="center">137 (87,3)</td>
+									<td align="center">30 (90,9)</td>
+									<td align="center">0,716</td>
+								</tr>
+								<tr>
+									<td align="left">La institución enfrenta dificultades para comprar o mantener materiales de limpieza y EPP para residentes y empleados.</td>
+									<td align="center">192 (53,0)</td>
+									<td align="center">89 (51,7)</td>
+									<td align="center">89 (56,7)</td>
+									<td align="center">14 (42,2)</td>
+									<td align="center">0,499</td>
+								</tr>
+								<tr>
+									<td align="left" colspan="6"><bold>Manejo de casos sospechosos/infectados y defunciones</bold></td>
+								</tr>
+								<tr>
+									<td align="left">La unidad estableció flujos de atención con las autoridades sanitarias locales o unidades de referencia para el traslado de casos sospechosos.</td>
+									<td align="center">228 (63,0)</td>
+									<td align="center">101 (58,7)</td>
+									<td align="center">100 (63,7)</td>
+									<td align="center">27 (81,8)</td>
+									<td align="center">0,199</td>
+								</tr>
+								<tr>
+									<td align="left">Los gerentes crearon un plan de contingencia para hacer frente a los casos de muerte dentro de la unidad.</td>
+									<td align="center">195 (53,9)</td>
+									<td align="center">80 (46,5)</td>
+									<td align="center">95 (60,5)</td>
+									<td align="center">20 (60,6)</td>
+									<td align="center">0,249</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN12">
+								<p><sup>*</sup>EPP = Equipo de protección personal.</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p>El análisis de las respuestas de los gerentes a la pregunta abierta mostró que la mayoría (98%) de los asilos enfrentarón dificultades para encarar la pandemia de COVID-19. Según los gerentes, las áreas más afectadas fueron: disponibilidad de materiales suficientes (42%) (por ejemplo, EPP, higiene y limpieza, pruebas de COVID-19); dificultades financieras (39%) (por ejemplo, el costo adicional de materiales, el costo adicional de personal y problemas de recaudación de fondos); y gestión de personal (24%) (por ejemplo, ausencias y sustituciones, conocimiento y cumplimiento del protocolo, cualificación y formación, y malestar emocional). Problemas con la infraestructura (adecuación para el aislamiento de casos sospechosos/confirmados y espacio suficiente para los procedimientos de distanciamiento social) y con los residentes (concienciación y cumplimiento del protocolo, malestar emocional, distanciamiento social, manejo de la demencia, restricción social y de visitas y ausencia de contacto familiar) fueron informados por el 14% de los asilos.</p>
+				<p>La <xref ref-type="fig" rid="f3">Figura 1</xref> ilustra la superposición entre los problemas que enfrentan los asilos, según sus gerentes. La principal superposición detectada fue entre cuestiones financieras y materiales (8,2%), seguida de cuestiones financieras vs. equipo de trabajo (2,4%) y financiero vs. materiales contra equipo de trabajo (2,4%). También se observó una superposición del 2,2% en temas financieros y de infraestructura, materiales y personal y personal y residentes. Las otras combinaciones de problemas enfrentados en los asilos estuvieron presentes en menos del 2,0% de las respuestas.</p>
+				<p>
+					<fig id="f3">
+						<label>Figura 1</label>
+						<caption>
+							<title>Diagrama de Venn que muestra la superposición entre los problemas que enfrentan las instituciones de larga estancia. Botucatu, SP, Brasil, 2020</title>
+						</caption>
+						<graphic xlink:href="1518-8345-rlae-30-e3557-gf3.png"/>
+						<attrib>El símbolo * indica una superposición de menos del 2.0%.</attrib>
+					</fig>
+				</p>
+			</sec>
+			<sec sec-type="discussion">
+				<title>Discusión</title>
+				<p>En este estudio transversal, la mayoría de los gestores de los asilos brasileños (85,1%) informó una excelente adhesión a las recomendaciones generales basadas en las pautas de PCI de la OMS para mitigar el COVID-19. A pesar de eso, el 98% de las instituciones reportaron dificultades con escasez de insumos, EPP y materiales, problemas financieros y dificultades en la gestión del equipo de trabajo.</p>
+				<p>A pesar de las evidencias previas que sugieren que el tamaño del asilo se asocia con un mayor riesgo de brotes y muertes y, posiblemente, con dificultades para adherirse a las medidas de PCI<xref ref-type="bibr" rid="B1"><sup>1</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B4"><sup>4</sup></xref>, los asilos en este estudio tuvieron una alta tasa de adhesión general, independientemente de su tamaño. El puntaje general fue ligeramente más bajo en los asilos más grandes para “control de visitantes externos” y “aislamiento de residentes contaminados”. La adhesión a la recomendación de establecer comités multidisciplinarios para combatir el COVID-19 fue menor en los asilos más pequeños.</p>
+				<p>Aunque el tamaño de las instalaciones no se evaluó en una revisión sistemática reciente<xref ref-type="bibr" rid="B23"><sup>23</sup></xref> sobre la epidemiología y las características clínicas de los brotes de COVID-19 en las instituciones de cuidado de personas mayores, las instituciones más grandes se han correlacionado previamente con la propagación de infecciones<xref ref-type="bibr" rid="B23"><sup>23</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B24"><sup>24</sup></xref>. Sin embargo, el aumento de la capacidad de prueba y la actualización de los protocolos de vigilancia pueden facilitar la detección temprana de brotes y ayudar a estos establecimientos a gestionar la oferta de trabajadores de la salud y la calidad de los hogares de reposo, especialmente en relación con su respuesta a las enfermedades infecciosas<xref ref-type="bibr" rid="B24"><sup>24</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B25"><sup>25</sup></xref>.</p>
+				<p>Muchos asilos han notado un aumento considerable en la carga de trabajo durante la pandemia de COVID-19. Las tareas y actividades que requieren la participación directa de los empleados, como el cuidado de los residentes infectados (en particular, aquellos con deterioro funcional y deterioro cognitivo) y el control de visitantes externos, tienen un impacto más significativo en las instituciones con un mayor número de residentes. Este impacto, sin embargo, no fue suficiente para reducir la adhesión a las recomendaciones del IPC.</p>
+				<p>La mortalidad por COVID-19 fue mayor en unidades con más aglomeración (9,7% vs. 4,5% en baja aglomeración) en EE. UU., independientemente del tamaño de la unidad<xref ref-type="bibr" rid="B26"><sup>26</sup></xref>. En Canadá, el tamaño del asilo estuvo fuertemente asociado con los brotes de COVID-19 (<italic>odds ratio</italic> para cada aumento de 20 camas 3·35, IC 95% 1·99-5·63)<xref ref-type="bibr" rid="B27"><sup>27</sup></xref>. En el Reino Unido, la probabilidad de propagación fue mayor en los asilos más grandes (&gt; 20 camas) cuando los trabajadores y las instalaciones no se adhirieron a las medidas de PCI para mitigar la infección<xref ref-type="bibr" rid="B28"><sup>28</sup></xref>. Sin embargo, la preparación y el cumplimiento de estas recomendaciones en los asilos no se han descrito suficientemente en los países de ingresos bajos y medios (LMIC).</p>
+				<p>La prevención es un factor crítico en el control de infecciones, especialmente durante las infecciones emergentes. El sector de atención de larga estancia en los asilos sigue estando subdesarrollado, y se deben considerar y adaptar estrategias específicas para promover e implementar con éxito los protocolos y las pautas de PCI. La implementación de prácticas de PCI en poblaciones de alto riesgo difirió significativamente entre los grupos de mayor y menor prevalencia en las categorías de distanciamiento social y uso de EPP en un país de altos ingresos<xref ref-type="bibr" rid="B26"><sup>26</sup></xref>.</p>
+				<p>Otros factores pueden influir en la adhesión a las prácticas de PCI, actuando como facilitadores o barreras para su implementación. La prevalencia de COVID-19 en la comunidad, la disponibilidad de pruebas y la tasa de infección entre los trabajadores (incluida la rotación y retención del personal) pueden influir en el cumplimiento de algunas de las recomendaciones de PCI. El índice de ocupación de la institución, las medidas inadecuadas de PCI entre el personal para minimizar la transmisión entre el equipo, la demora en el reconocimiento de los casos en los residentes por un bajo índice de sospecha y residentes con riesgo de morbilidad severa y muerte que comparten una ubicación también son factores que pueden influir a la adhesión<xref ref-type="bibr" rid="B28"><sup>28</sup></xref>.</p>
+				<p>Los datos de estudios previos realizados con 23.896 encuestados brasileños (edad promedio: 47,4 años) revelaron que los participantes se adhirieron satisfactoriamente a las pautas nacionales de prevención de COVID-19. Los más jóvenes, del sexo masculino, residentes de áreas rurales/aldeas o barrios populares, estudiantes y trabajadores relataron menor adhesión a conductas preventivas<xref ref-type="bibr" rid="B29"><sup>29</sup></xref>.</p>
+				<p>Los resultados de este estudio tienen limitaciones inherentes al diseño transversal adoptado y al sesgo de memoria. Asimismo, potenciales sesgos de selección pueden haber privilegiado los asilos con acceso a internet y con equipos más completos, incluyendo trabajadores dedicados a actividades administrativas. Aunque las preguntas hayan sido desarrolladas por los autores con base en las pautas de la OMS, ellas no pretenden ser una herramienta de evaluación o auditoría, y las respuestas proporcionadas por los gerentes de los asilos pueden no reflejar la situación real de las unidades incluidas. Asimismo, no existen puntos de corte establecidos para clasificar las instalaciones por tamaño, lo que puede haber influido en los hallazgos. A pesar de ello, todas las definiciones adoptadas para este estudio fueron definidas <italic>a priori</italic>, y se incluyeron un gran número de unidades representativas a nivel nacional.</p>
+				<p>El COVID-19 ha sido una pandemia o sindemia<xref ref-type="bibr" rid="B30"><sup>30</sup></xref> de desigualdades: los países con respuestas exitosas han desarrollado alianzas en varios niveles entre sectores gubernamentales, realizaron pruebas en tiempo oportuno e hicieron derivaciones de casos sospechosos<xref ref-type="bibr" rid="B31"><sup>31</sup></xref>. Parte del drama observado al inicio de la pandemia, cuando la mortalidad por COVID-19 entre los residentes de los asilos era brutalmente alta en algunos países, se debió a la ausencia de guías y reglamentos oficiales para pandemias y desastres naturales a nivel mundial<xref ref-type="bibr" rid="B32"><sup>32</sup></xref>.</p>
+				<p>Pocas iniciativas en Brasil se han dedicado a recomendar las mejores prácticas en la mitigación del COVID-19 en el sector de los cuidados en los asilos. Entre las más representativas, como las lideradas por la <italic>Frente Nacional de Fortalecimento à ILPI</italic><xref ref-type="bibr" rid="B33"><sup>33</sup></xref> y por la <italic>Sociedade Brasileira de Geriatria e Gerontologia</italic><xref ref-type="bibr" rid="B34"><sup>34</sup></xref>, ninguna ha sido investigada en cuanto a su efectividad hasta la fecha. Al identificar la tasa de adhesión a las recomendaciones de PCI, los gerentes de los asilos y sus equipos de trabajo pueden reconocer la efectividad de estas acciones, trazando y adaptando planes de contingencia que pueden preparar al sector para nuevas amenazas emergentes. Asimismo, en términos prácticos, el personal de enfermería de los asilos ILEPM puede utilizar esta guía de preguntas para verificar las mejores prácticas de PCI en el sector.</p>
+			</sec>
+			<sec sec-type="conclusions">
+				<title>Conclusión</title>
+				<p>En conclusión, el cumplimiento de las recomendaciones de la guía del PCI de la OMS se consideró excelente para la mayoría de los elementos propuestos, independientemente del tamaño de la unidad. Solo el cumplimiento del cribado de síntomas de COVID-19 para evaluar a los visitantes y aislar a los pacientes hasta que tengan dos pruebas de laboratorio negativas fue menor en las instalaciones más grandes en comparación con las instalaciones medianas y pequeñas. Según los gerentes, la mayoría de las ILEPM enfrentaron dificultades para hacer frente a la pandemia de COVID-19, principalmente relacionadas con las dificultades financieras, la falta de materiales de protección personal, higiene y limpieza, así como la gestión del personal.</p>
+			</sec>
+		</body>
+		<back>
+			<ack>
+				<title>Agradecimientos</title>
+				<p>Nuestros agradecimientos a la investigadora Helena Akemi Wada Watanabe, de la <italic>Frente Nacional de Fortalecimento à ILPI</italic>, y al grupo de profesionales e investigadores del sitio <ext-link ext-link-type="uri" xlink:href="https://www.ilpi.me/">https://www.ilpi.me/</ext-link> por su apoyo en la realización de este estudio.</p>
+			</ack>
+			<fn-group>
+				<fn fn-type="other" id="fn12">
+					<label>*</label>
+					<p>Disponible en <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7910/DVN/LXBFQG">https://doi.org/10.7910/DVN/LXBFQG</ext-link>
+					</p>
+				</fn>
+			</fn-group>
+		</back>
+	</sub-article>
+</article>

@@ -1,0 +1,3035 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.1" specific-use="sps-1.9" xml:lang="pt" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="nlm-ta">Rev Lat Am Enfermagem</journal-id>
+			<journal-id journal-id-type="publisher-id">rlae</journal-id>
+			<journal-title-group>
+				<journal-title>Revista Latino-Americana de Enfermagem</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Rev. Latino-Am. Enfermagem</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="epub">1518-8345</issn>
+			<issn pub-type="ppub">0104-1169</issn>
+			<publisher>
+				<publisher-name>Escola de Enfermagem de Ribeirão Preto / Universidade de São Paulo</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="other">00300</article-id>
+			<article-id pub-id-type="doi">10.1590/1518-8345.5568.3512</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artigo Original</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Validação de livro eletrônico interativo para redução do risco cardiovascular em pessoas vivendo com HIV<xref ref-type="fn" rid="fn1"><sup>*</sup></xref>
+				</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-7322-9370</contrib-id>
+					<name>
+						<surname>Melo</surname>
+						<given-names>Elizabete Santos</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+					<xref ref-type="aff" rid="aff3"><sup>3</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-4711-4788</contrib-id>
+					<name>
+						<surname>Antonini</surname>
+						<given-names>Marcela</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>3</sup></xref>
+					<xref ref-type="aff" rid="aff4"><sup>4</sup></xref>
+					<xref ref-type="corresp" rid="c1">*</xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-6124-8243</contrib-id>
+					<name>
+						<surname>Costa</surname>
+						<given-names>Christefany Régia Braz</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>3</sup></xref>
+					<xref ref-type="aff" rid="aff4"><sup>4</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-1318-8431</contrib-id>
+					<name>
+						<surname>Pontes</surname>
+						<given-names>Priscila Silva</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff4"><sup>4</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-3757-4900</contrib-id>
+					<name>
+						<surname>Gir</surname>
+						<given-names>Elucir</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff4"><sup>4</sup></xref>
+					<xref ref-type="aff" rid="aff5"><sup>5</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-0681-4721</contrib-id>
+					<name>
+						<surname>Reis</surname>
+						<given-names>Renata Karina</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff4"><sup>4</sup></xref>
+					<xref ref-type="aff" rid="aff5"><sup>5</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>1</label>
+				<institution content-type="original"> Universidade Paulista, Instituto de Ciências da Saúde, São José do Rio Preto, SP, Brasil.</institution>
+				<institution content-type="normalized">Univerisidade Paulista</institution>
+				<institution content-type="orgname">Universidade Paulista</institution>
+				<institution content-type="orgdiv1">Instituto de Ciências da Saúde</institution>
+				<addr-line>
+					<city>São José do Rio Preto</city>
+					<state>SP</state>
+				</addr-line>
+				<country country="BR">Brazil</country>
+			</aff>
+			<aff id="aff2">
+				<label>2</label>
+				<institution content-type="original"> Universidade Brasil, Campus Fernandópolis, Fernandópolis, SP, Brasil.</institution>
+				<institution content-type="orgname">Universidade Brasil</institution>
+				<addr-line>
+					<city>Fernandópolis</city>
+					<state>SP</state>
+				</addr-line>
+				<country country="BR">Brasil</country>
+			</aff>
+			<aff id="aff3">
+				<label>3</label>
+				<institution content-type="original"> Bolsista da Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES), Brasil.</institution>
+				<institution content-type="orgname">Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES)</institution>
+				<country country="BR">Brasil</country>
+			</aff>
+			<aff id="aff4">
+				<label>4</label>
+				<institution content-type="original"> Universidade de São Paulo, Escola de Enfermagem de Ribeirão Preto, Centro Colaborador da OPAS/OMS para o Desenvolvimento da Pesquisa em Enfermagem, Ribeirão Preto, SP, Brasil.</institution>
+				<institution content-type="normalized">Universidade de São Paulo</institution>
+				<institution content-type="orgname">Universidade de São Paulo</institution>
+				<institution content-type="orgdiv1">Escola de Enfermagem de Ribeirão Preto</institution>
+				<institution content-type="orgdiv2">Centro Colaborador da OPAS/OMS para o Desenvolvimento da Pesquisa em Enfermagem</institution>
+				<addr-line>
+					<city>Ribeirão Preto</city>
+					<state>SP</state>
+				</addr-line>
+				<country country="BR">Brazil</country>
+			</aff>
+			<aff id="aff5">
+				<label>5</label>
+				<institution content-type="original"> Bolsista do Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq), Brasil.</institution>
+				<institution content-type="normalized">Conselho Nacional de Desenvolvimento Científico e Tecnológico</institution>
+				<institution content-type="orgname">Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq)</institution>
+				<country country="BR">Brazil</country>
+			</aff>
+			<author-notes>
+				<corresp id="c1">
+					<label>*</label>Autor Correspondente: <bold>Marcela Antonini</bold> <italic>E-mail</italic>: <email>marcela.antonini@usp.br</email>
+				</corresp>
+				<fn fn-type="edited-by" id="fn13">
+					<label>Editora Associada</label>
+					<p>Maria Lúcia Zanetti</p>
+				</fn>
+				<fn fn-type="con" id="fn4">
+					<label>Contribuição dos Autores</label>
+					<p><bold>Concepção e desenho da pesquisa:</bold> Elizabete Santos Melo, Elucir Gir, Renata Karina Reis. <bold>Obtenção de dados:</bold> Elizabete Santos Melo, Marcela Antonini, Christefany Régia Braz Costa, Priscila Silva Pontes, Renata Karina Reis. <bold>Análise e interpretação dos dados:</bold> Elizabete Santos Melo, Marcela Antonini, Christefany Régia Braz Costa, Priscila Silva Pontes, Renata Karina Reis. <bold>Análise estatística:</bold> Elizabete Santos Melo, Marcela Antonini, Christefany Régia Braz Costa, Priscila Silva Pontes, Renata Karina Reis. <bold>Obtenção de financiamento:</bold> Elucir Gir, Renata Karina Reis. <bold>Redação do manuscrito:</bold> Elizabete Santos Melo, Marcela Antonini, Christefany Régia Braz Costa, Priscila Silva Pontes, Elucir Gir, Renata Karina Reis. <bold>Revisão crítica do manuscrito quanto ao conteúdo intelectual importante:</bold> Elizabete Santos Melo, Marcela Antonini, Christefany Régia Braz Costa, Priscila Silva Pontes, Elucir Gir, Renata Karina Reis. Todos os autores aprovaram a versão final do texto.</p>
+				</fn>
+				<fn fn-type="conflict" id="fn7">
+					<label>Conflito de interesse</label>
+					<p>Os autores declararam que não há conflito de interesse.</p>
+				</fn>
+			</author-notes>
+			<pub-date date-type="collection" publication-format="electronic">
+				<year>2022</year>
+			</pub-date>
+			<pub-date date-type="pub" publication-format="electronic">
+				<day>11</day>
+				<month>03</month>
+				<year>2022</year>
+			</pub-date>
+			<volume>30</volume>
+			<elocation-id>e3512</elocation-id>
+			<history>
+				<date date-type="received">
+					<day>08</day>
+					<month>07</month>
+					<year>2021</year>
+				</date>
+				<date date-type="accepted">
+					<day>01</day>
+					<month>10</month>
+					<year>2021</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="pt">
+					<license-p>Este é um artigo publicado em acesso aberto sob uma licença Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>Resumo</title>
+				<sec>
+					<title>Objetivo</title>
+					<p>Validar um material educativo digital interativo no formato de livro eletrônico sobre prevenção e redução do risco cardiovascular na perspectiva das pessoas vivendo com vírus da imunodeficiência humana.</p>
+				</sec>
+				<sec>
+					<title>Método</title>
+					<p> Trata-se de um estudo metodológico baseado na teoria de pesquisa de avaliação, do tipo análise de resultados, que envolve produção tecnológica. Os dados foram coletados em todo o Brasil por meio de um questionário virtual composto por itens para avaliação geral, visual, linguagem, usabilidade, conteúdo e aparência do material educativo. Para atestar a validade, adotou-se o Índice de Concordância mínimo de 80%.</p>
+				</sec>
+				<sec>
+					<title>Resultados</title>
+					<p> Participaram do estudo 309 pessoas vivendo com vírus da imunodeficiência humana, a maioria (84,3%) do sexo masculino, com idade entre 19 e 65 anos e ensino superior completo (29,3%). Mais de 90% dos participantes avaliaram o livro como adequado para tirar dúvidas e realizar cuidados preventivos à saúde cardiovascular. Todos os itens avaliados alcançaram índice acima de 0,80. A avaliação geral de todos os itens alcançou média de 0,92, sendo a avaliação geral (0,97) e o conteúdo (0,94).</p>
+				</sec>
+				<sec>
+					<title>Conclusão</title>
+					<p> O material educativo mostrou-se válido, adequado e pertinente para promover a alfabetização em saúde, e poderá contribuir com a promoção da saúde e prevenção de doenças cardiovasculares.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="pt">
+				<title>Descritores:</title>
+				<kwd>HIV</kwd>
+				<kwd>Doenças Cardiovasculares</kwd>
+				<kwd>Educação em Saúde</kwd>
+				<kwd>Letramento em Saúde</kwd>
+				<kwd>Tecnologia Educacional</kwd>
+				<kwd>Estudo de Validação</kwd>
+			</kwd-group>
+			<funding-group>
+				<award-group award-type="contract">
+					<funding-source>Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq)</funding-source>
+					<award-id>Edital Universal 428304/2008-4</award-id>
+				</award-group>
+				<funding-statement>Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq), Edital Universal 428304/2008-4, Brasil</funding-statement>
+			</funding-group>
+			<counts>
+				<fig-count count="3"/>
+				<table-count count="9"/>
+				<equation-count count="0"/>
+				<ref-count count="38"/>
+				<page-count count="0"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<boxed-text id="bx1">
+			<sec>
+				<title>Destaques</title>
+				<p>(1) Mais de 80% dos participantes referiram motivação em ler o <italic>e-book</italic>. (2) Conteúdo abordado pertinente para planejar o autocuidado da saúde cardiovascular. (3) Material seguro e eficaz como um facilitador para a mudança do estilo de vida. (4) Alfabetização em saúde de PVHIV por meio de tecnologias digitais como o <italic>e-book</italic>. (5) <italic>E-book</italic> inédito está disponível gratuitamente, podendo atingir as PVHIV.</p>
+			</sec>
+		</boxed-text>
+		<sec sec-type="intro">
+			<title>Introdução</title>
+			<p>O advento e a disponibilização em larga escala da terapia antirretroviral (TARV) transformou a infecção pelo vírus da imunodeficiência humana (HIV) em doença crônica<xref ref-type="bibr" rid="B1"><sup>1</sup></xref>. O tratamento reduziu o número de óbitos atribuídos a infecções oportunistas e aumentou a longevidade das pessoas que vivem com o HIV (PVHIV). Contudo, outras comorbidades crônicas emergiram, como as doenças cardiovasculares (DCV), que se tornou uma das principais causas de morbidade nesta população<xref ref-type="bibr" rid="B2"><sup>2</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B3"><sup>3</sup></xref>.</p>
+			<p>Tradicionalmente, as DCV resultam da interação de múltiplos fatores de risco dicotomizados entre modificáveis (tabagismo, alimentação inadequada, sedentarismo, dislipidemia, hipertensão e diabetes) e não modificáveis (idade avançada e histórico familiar)<xref ref-type="bibr" rid="B4"><sup>4</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B5"><sup>5</sup></xref>. As DCV também estão relacionadas a desordens metabólicas persistentes por longo prazo, como a resistência à insulina e alteração da distribuição de gordura (lipodistrofia)<xref ref-type="bibr" rid="B4"><sup>4</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B6"><sup>6</sup></xref>.</p>
+			<p>Ademais, estudos têm mostrado que estes fatores de risco para DCV são mais frequentes nas PVHIV em TARV regular, evidenciando o viver com a infecção como um fator de risco específico para DCV<xref ref-type="bibr" rid="B3"><sup>3</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B6"><sup>6</sup></xref> e que, somado aos fatores tradicionais, predispõem as PVHIV a um risco ainda maior para o desenvolvimento de doenças<xref ref-type="bibr" rid="B6"><sup>6</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B7"><sup>7</sup></xref>. </p>
+			<p>Desta forma, modificar os hábitos de vida, tal como o aumento da atividade física, a redução do peso e a educação sobre práticas alimentares saudáveis são fundamentais para mitigar os fatores de risco modificáveis para DCV em PVHIV<xref ref-type="bibr" rid="B7"><sup>7</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B8"><sup>8</sup></xref>. Tais mudanças podem ser alcançadas por meio da educação em saúde na qual busca aumentar o empoderamento das pessoas em relação ao seu cuidado em saúde<xref ref-type="bibr" rid="B9"><sup>9</sup></xref>, bem como melhorar a alfabetização em saúde que tem papel de destaque na prevenção primária e secundária da DCV<xref ref-type="bibr" rid="B10"><sup>10</sup></xref>. </p>
+			<p>A alfabetização em saúde tem emergido como uma grande área de interesse, sendo essencial para a pesquisa e assistência à saúde em diversas condições de doenças crônicas. É definida como “o grau em que os indivíduos têm a capacidade de encontrar, entender e usar informações e serviços para tomar decisões e ações relacionadas à saúde para si e para os outros”<xref ref-type="bibr" rid="B11"><sup>11</sup></xref>. A baixa alfabetização em saúde está associada a desafios para aqueles que vivem com HIV, incluindo a não adesão medicamentosa e piores desfechos de saúde<xref ref-type="bibr" rid="B12"><sup>12</sup></xref>.</p>
+			<p>A dificuldade de acesso a informações confiáveis e/ou a não compreensão configuram-se como barreiras significativas para a efetividade da alfabetização em saúde<xref ref-type="bibr" rid="B13"><sup>13</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B14"><sup>14</sup></xref>, por isso, a elaboração de materiais educativos em linguagem acessível, bem como a validação do mesmo por seu público alvo, podem contribuir para a reduzir tais barreiras.</p>
+			<p>Nesse contexto, os materiais educativos digitais, incluindo o livro eletrônico interativo (<italic>e-book</italic>), são tecnologias de informação que têm proporcionado maior grau de interação com o conhecimento em saúde<xref ref-type="bibr" rid="B15"><sup>15</sup></xref>, especialmente quando comparado com o aprendizado passivo realizado através de fontes informativas estáticas<xref ref-type="bibr" rid="B16"><sup>16</sup></xref>. </p>
+			<p>Os <italic>e-books</italic> representam uma importante estratégia para melhorar a alfabetização em saúde e trabalhar o autocuidado por meio da mudança de comportamento, complementando os esforços educacionais tradicionais da equipe de saúde para diminuir o risco e prevenir as DCV entre as PVHIV<xref ref-type="bibr" rid="B16"><sup>16</sup></xref>. </p>
+			<p>Portanto, este estudo teve como objetivo validar um material educativo digital interativo no formato de livro eletrônico (<italic>e-book</italic>) sobre prevenção e redução do risco cardiovascular na perspectiva das pessoas vivendo com HIV/aids (PVHIV).</p>
+		</sec>
+		<sec sec-type="materials|methods">
+			<title>Método</title>
+			<sec>
+				<title>Delineamento do estudo</title>
+				<p>Este estudo fez parte de um projeto maior intitulado “Desenvolvimento, validação e efetividade de tecnologias educativas com enfoque no comportamento, práticas preventivas e estilo de vida de pessoas que vivem com o HIV/aids”. Tratou-se de um estudo metodológico baseado na teoria de pesquisa de avaliação, do tipo análise de resultados, que envolve produção tecnológica<xref ref-type="bibr" rid="B17"><sup>17</sup></xref>. O <italic>e-book</italic> teve enfoque na redução do risco cardiovascular em PVHIV. </p>
+				<p>O estudo foi conduzido em três etapas. As duas primeiras tiveram início com o processo de construção e validação de conteúdo e aparência por especialistas da área da saúde (com relação ao conteúdo e ao <italic>layout</italic>) e com especialistas da área da informática (avaliando as interfaces e funcionalidades do <italic>e-book</italic>). Para isso, foi realizada uma revisão da literatura e em seguida foi construído o livro em formato digital e validado, conforme descrito no estudo prévio<xref ref-type="bibr" rid="B18"><sup>18</sup></xref>.</p>
+				<p>Nesta terceira etapa, com o intuito de dar continuidade ao processo de validação do material, foi realizada a validação com o público-alvo quanto à avaliação geral e aspectos como visual, aparência, linguagem, usabilidade e conteúdo do <italic>e-book</italic> com o objetivo de obtenção da versão final do material<xref ref-type="bibr" rid="B19"><sup>19</sup></xref>. </p>
+				<p>O <italic>e-book</italic> intitulado “Cuide do seu coração: estratégias para redução do risco cardiovascular em pessoas que vivem com HIV/aids”<xref ref-type="bibr" rid="B20"><sup>20</sup></xref> tem sua interface construída no HTML5 e Java Script e gerou um arquivo no formato <italic>Eletronic Publication</italic> (ePUB). O conteúdo foi escrito de modo a atender às necessidades da população, portanto, foi utilizada uma linguagem acessível e livre de termos técnicos para auxiliar na compreensão do conteúdo. Desse modo, com vistas a facilitar a interpretação do mesmo, foram criados infográficos e vídeos para tornar o Ambiente Virtual de Aprendizagem (AVA) mais dinâmico e interativo<xref ref-type="bibr" rid="B18"><sup>18</sup></xref>. </p>
+				<p>O <italic>e-book</italic> foi construído com o objetivo de promover a usabilidade e a acessibilidade<xref ref-type="bibr" rid="B18"><sup>18</sup></xref>, proporcionando ao usuário uma ferramenta de fácil utilização, dinâmica e interativa e encontra-se disponível gratuitamente para download na <italic>Apple Books</italic> na plataforma iOS® ou <italic>Google Play</italic> na plataforma <italic>Android</italic>®, podendo atingir amplamente as PVHIV de todo o Brasil. </p>
+				<p>De maneira geral, o material inclui orientações sobre o conhecimento do risco para DCV e aborda aspectos sobre os fatores de risco modificáveis - tabagismo, sedentarismo, estresse, obesidade, diabetes mellitus, hipertensão e dislipidemia. Ademais, valorizou-se o conteúdo sobre o risco para DCV em PVHIV e as intervenções/estratégias para a redução que incluem a alimentação saudável, cessação do tabagismo, estímulo da prática de atividade física e alívio do estresse com base na literatura científica<xref ref-type="bibr" rid="B4"><sup>4</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B19"><sup>19</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B21"><sup>21</sup></xref>.</p>
+			</sec>
+			<sec>
+				<title>Local do estudo</title>
+				<p>A coleta de dados foi realizada em ambiente virtual com abrangência nacional nas cinco regiões do Brasil (Norte, Nordeste, Centro-Oeste, Sudeste e Sul).</p>
+			</sec>
+			<sec>
+				<title>Período</title>
+				<p>A coleta de dados compreendeu o período entre 31 de março de 2020 a 1 de março de 2021.</p>
+			</sec>
+			<sec>
+				<title>População, critérios de inclusão e amostra</title>
+				<p>A população do estudo foi constituída por 312 pessoas vivendo com HIV alfabetizadas e tinham acesso à internet. Configuraram-se como critérios de inclusão ter conhecimento da sua condição sorológica para o HIV, independente do estágio de infecção, ser maior de 18 anos, ser alfabetizado e ter acesso à internet. Foram excluídos três participantes que não responderam ao questionário de forma completa. Assim, a amostra foi composta de 309 pessoas vivendo com HIV que atenderam os critérios de inclusão. </p>
+			</sec>
+			<sec>
+				<title>Variáveis do estudo</title>
+				<p>O questionário <italic>online</italic> foi elaborado contendo variáveis sociodemográficas e comportamentais: sexo, idade (anos completos), escolaridade, situação de trabalho atual, renda individual (salários mínimos), região do Brasil em que reside.</p>
+			</sec>
+			<sec>
+				<title>Instrumento utilizado para coleta das informações</title>
+				<p>Para a validação com os participantes pertencentes ao público-alvo foi elaborado um questionário que avaliou o aspecto visual, a linguagem, a usabilidade, o conteúdo, a aparência e a avaliação geral do material educativo, em escala tipo Likert, com cinco níveis de julgamento<xref ref-type="bibr" rid="B22"><sup>22</sup></xref>. Para a avaliação geral: Excelente, Bom, Indiferente, Ruim e Muito ruim, para a variável visual: Ótimo, Bom, Regular, Ruim e Muito ruim para as variáveis linguagem, usabilidade, conteúdo e aparência: Concordo Totalmente (CT), Concordo (C), Nem Concordo e Nem Discordo (N), Discordo Totalmente (DT) e Discordo (D). </p>
+			</sec>
+			<sec>
+				<title>Coleta de dados</title>
+				<p>Para realização da coleta de dados, foram enviados convites em grupos de PVHIV em todo o Brasil através das mídias sociais (<italic>Facebook</italic>® e <italic>Instagram</italic>®), em grupos de <italic>WhatsApp</italic>®, bem como no perfil do grupo de pesquisa nestas páginas de redes sociais. Ademais, o convite também foi postado em páginas oficiais de parceiros de pesquisa e de outros pesquisadores e profissionais de saúde de diferentes regiões do país. Ainda foram impressos <italic>flyers</italic> com um QR <italic>Code</italic> para acesso direto ao questionário do estudo e distribuídos em Serviços de Atendimento Especializado (SAE) às PVHIV.</p>
+				<p>O convite de recrutamento consistia em um breve texto de apresentação do estudo com os critérios de inclusão seguidos do link ou QR <italic>Code</italic> que direcionava os participantes para a plataforma virtual de coleta de dados <italic>on-line</italic> (<italic>Survey Monkey</italic>®). A página inicial do estudo já apresentava o Termo de Consentimento Livre e Esclarecido (TCLE) completo. Após a leitura, os participantes tinham como selecionar duas opções de respostas possíveis, “concordo em participar da pesquisa” ou “não concordo em participar da pesquisa”. Os que concordaram em participar do estudo receberam o questionário <italic>online</italic> que foi disponibilizado para acesso por computador ou dispositivos móveis (celulares). </p>
+			</sec>
+			<sec>
+				<title>Análise dos dados</title>
+				<p>Os dados coletados na plataforma <italic>Survey Monkey</italic>® foram transferidos para uma planilha do Excel e para o programa estatístico <italic>Statistical Package for the Social Sciences</italic> (SPSS)® versão 22.0. Foram realizadas análises de estatística descritiva por meio do cálculo das frequências absolutas e relativas para as variáveis qualitativas e, para as variáveis quantitativas, os cálculos de tendência central (média). Para atestar a validade de cada item abordado nos instrumentos de avaliação, foi adotado o Índice de Concordância (IC) mínimo de 80% entre os participantes, seguindo os valores de referência de outros estudos de validação<xref ref-type="bibr" rid="B23"><sup>23</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B24"><sup>24</sup></xref>.</p>
+				<p>Para avaliação do grau de concordância interavaliadores foi realizado o coeficiente de confiabilidade entre avaliadores (<italic>first-order agreement coefficient</italic> - AC1). A AC1 tem como vantagens a resistência com relação à homogeneidade marginal e o traço de prevalência, além de possuir a mesma interpretação da estatística Kappa [leve (0,0-0,2); aceitável (0,21-0,40); moderada (0,41-0,60); considerável (0,61-0,80); quase perfeita (0,81-1,00)]<xref ref-type="bibr" rid="B25"><sup>25</sup></xref>.</p>
+				<p>Além disso, as variáveis foram classificadas conforme proposto em 1997<xref ref-type="bibr" rid="B25"><sup>25</sup></xref>, separando as questões em Grupo 1: linguagem, usabilidade conteúdo, aparência e Grupo 2: figuras, motivação para ler, temas abordados e indicação do <italic>e-book</italic> para outra pessoa. </p>
+			</sec>
+			<sec>
+				<title>Aspectos éticos</title>
+				<p>O projeto foi submetido e aprovado junto ao Comitê de Ética em Pesquisa, sob nº de parecer 3.915.295. A todos os participantes da pesquisa foi garantido o caráter sigiloso dos dados e o anonimato.</p>
+			</sec>
+		</sec>
+		<sec sec-type="results">
+			<title>Resultados</title>
+			<p>As 309 PVHIV participantes eram provenientes de 25 estados, contemplando as cinco regiões do Brasil, sendo a maior participação da região Sudeste com 50,5% (n=156) e Nordeste com 24,3% (n=75). Na <xref ref-type="table" rid="t1">Tabela 1</xref>, observa-se que a amostra foi composta predominantemente por homens, com 84,8%, (n=262) e idade entre 19 e 65 anos e média de 32,7 anos (±9,6). </p>
+			<p>Ademais, a maioria dos participantes possuía escolaridade em nível superior completo, 29,1% (n=90); 65,0% (n=201) estavam inseridos no mercado formal ou informal de trabalho e 38,2% (n=118) possuíam renda de um a dois salários mínimos.</p>
+			<p>
+				<table-wrap id="t1">
+					<label>Tabela 1</label>
+					<caption>
+						<title>Caracterização das pessoas que vivem com HIV/aids quanto às variáveis sociodemográficas (n=309). Brasil, 2020-2021</title>
+					</caption>
+					<table>
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left">Variáveis</th>
+								<th align="center">n (309)</th>
+								<th align="center">% (100)</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td align="left" colspan="3"><bold>Sexo</bold></td>
+							</tr>
+							<tr>
+								<td align="left">Masculino</td>
+								<td align="center">262</td>
+								<td align="center">84,8</td>
+							</tr>
+							<tr>
+								<td align="left">Feminino</td>
+								<td align="center">47</td>
+								<td align="center">15,2</td>
+							</tr>
+							<tr>
+								<td align="left" colspan="3"><bold>Escolaridade</bold></td>
+							</tr>
+							<tr>
+								<td align="left">Fundamental incompleto</td>
+								<td align="center">06</td>
+								<td align="center">1,9</td>
+							</tr>
+							<tr>
+								<td align="left">Fundamental completo</td>
+								<td align="center">07</td>
+								<td align="center">2,2</td>
+							</tr>
+							<tr>
+								<td align="left">Médio incompleto</td>
+								<td align="center">09</td>
+								<td align="center">2,9</td>
+							</tr>
+							<tr>
+								<td align="left">Médio completo</td>
+								<td align="center">44</td>
+								<td align="center">14,2</td>
+							</tr>
+							<tr>
+								<td align="left">Superior incompleto</td>
+								<td align="center">81</td>
+								<td align="center">26,2</td>
+							</tr>
+							<tr>
+								<td align="left">Superior completo</td>
+								<td align="center">90</td>
+								<td align="center">29,1</td>
+							</tr>
+							<tr>
+								<td align="left">Pós-graduação</td>
+								<td align="center">72</td>
+								<td align="center">23,3</td>
+							</tr>
+							<tr>
+								<td align="left" colspan="3"><bold>Situação de Trabalho</bold></td>
+							</tr>
+							<tr>
+								<td align="left">Ativo</td>
+								<td align="center">201</td>
+								<td align="center">65,0</td>
+							</tr>
+							<tr>
+								<td align="left">Inativo</td>
+								<td align="center">87</td>
+								<td align="center">28,1</td>
+							</tr>
+							<tr>
+								<td align="left">Aposentado</td>
+								<td align="center">05</td>
+								<td align="center">1,6</td>
+							</tr>
+							<tr>
+								<td align="left">Afastado</td>
+								<td align="center">16</td>
+								<td align="center">5,2</td>
+							</tr>
+							<tr>
+								<td align="left" colspan="3"><bold>Região</bold></td>
+							</tr>
+							<tr>
+								<td align="left">Norte</td>
+								<td align="center">14</td>
+								<td align="center">4,5</td>
+							</tr>
+							<tr>
+								<td align="left">Nordeste</td>
+								<td align="center">75</td>
+								<td align="center">24,3</td>
+							</tr>
+							<tr>
+								<td align="left">Centro-Oeste</td>
+								<td align="center">22</td>
+								<td align="center">7,1</td>
+							</tr>
+							<tr>
+								<td align="left">Sudeste</td>
+								<td align="center">156</td>
+								<td align="center">50,5</td>
+							</tr>
+							<tr>
+								<td align="left">Sul</td>
+								<td align="center">42</td>
+								<td align="center">13,6</td>
+							</tr>
+							<tr>
+								<td align="left" colspan="3"><bold>Renda individual (salários mínimos)*</bold></td>
+							</tr>
+							<tr>
+								<td align="left">Sem rendimentos</td>
+								<td align="center">24</td>
+								<td align="center">7,8</td>
+							</tr>
+							<tr>
+								<td align="left">&lt;1</td>
+								<td align="center">54</td>
+								<td align="center">17,5</td>
+							</tr>
+							<tr>
+								<td align="left">1 a 2</td>
+								<td align="center">118</td>
+								<td align="center">38,2</td>
+							</tr>
+							<tr>
+								<td align="left">3 a 4</td>
+								<td align="center">45</td>
+								<td align="center">14,6</td>
+							</tr>
+							<tr>
+								<td align="left">Acima de 4</td>
+								<td align="center">68</td>
+								<td align="center">22,0</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN1">
+							<p>*Salário mínimo 2020 (Brasil): R$ 1045,00 (mil e quarenta e cinco reais)</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>A <xref ref-type="table" rid="t2">Tabela 2</xref> apresenta as respostas e o Índice de Concordância (IC) de cada item de avaliação entre elas. Na avaliação geral de todos os itens, a média de 0,92 foi alcançada no IC. Os itens avaliação geral e conteúdo obtiveram maior IC com valor igual a 0,97 e 0,94, respectivamente. E o item sobre aparência obteve o menor valor de 0,86 no IC. Todos os outros itens avaliados alcançaram o IC acima de 0,80.</p>
+			<p>
+				<table-wrap id="t2">
+					<label>Tabela 2</label>
+					<caption>
+						<title>Avaliação de concordância entre os participantes quanto à adequação e pertinência do <italic>e-book</italic> (n=309). Brasil, 2020-2021</title>
+					</caption>
+					<table>
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left" colspan="7">Itens de avaliação</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td align="left"><bold>Avaliação Geral</bold></td>
+								<td align="center">Excelente</td>
+								<td align="center">Bom</td>
+								<td align="center">Indiferente</td>
+								<td align="center">Ruim</td>
+								<td align="center">Muito ruim</td>
+								<td align="center">IC</td>
+							</tr>
+							<tr>
+								<td align="left">De uma maneira geral, como você avalia o <italic>e-book</italic></td>
+								<td align="center">160</td>
+								<td align="center">141</td>
+								<td align="center">08</td>
+								<td align="center">00</td>
+								<td align="center">00</td>
+								<td align="center">0,97</td>
+							</tr>
+							<tr>
+								<td align="left">Visual</td>
+								<td align="center">Ótimo</td>
+								<td align="center">Bom</td>
+								<td align="center">Regular</td>
+								<td align="center">Ruim</td>
+								<td align="center">Muito ruim</td>
+								<td align="center">IC</td>
+							</tr>
+							<tr>
+								<td align="left">O que achou do visual do <italic>e-book</italic>?</td>
+								<td align="center">145</td>
+								<td align="center">141</td>
+								<td align="center">00</td>
+								<td align="center">21</td>
+								<td align="center">02</td>
+								<td align="center">0,93</td>
+							</tr>
+							<tr>
+								<td align="left">Linguagem</td>
+								<td align="center">CT*</td>
+								<td align="center">C<sup>†</sup></td>
+								<td align="center">N<sup>‡</sup></td>
+								<td align="center">D<sup>§</sup></td>
+								<td align="center">DT<sup>║</sup></td>
+								<td align="center">IC<sup>¶</sup></td>
+							</tr>
+							<tr>
+								<td align="left">A linguagem utilizada nas informações é de fácil compreensão?</td>
+								<td align="center">130</td>
+								<td align="center">145</td>
+								<td align="center">32</td>
+								<td align="center">02</td>
+								<td align="center">00</td>
+								<td align="center">0,89</td>
+							</tr>
+							<tr>
+								<td align="left" colspan="7"><bold>Usabilidade</bold></td>
+							</tr>
+							<tr>
+								<td align="left">O <italic>e-book</italic>é fácil de usar?</td>
+								<td align="center">128</td>
+								<td align="center">156</td>
+								<td align="center">24</td>
+								<td align="center">01</td>
+								<td align="center">00</td>
+								<td align="center">0,92</td>
+							</tr>
+							<tr>
+								<td align="left" colspan="7"><bold>Conteúdo</bold></td>
+							</tr>
+							<tr>
+								<td align="left">O conteúdo abordado é relevante para a sua saúde?</td>
+								<td align="center">161</td>
+								<td align="center">130</td>
+								<td align="center">18</td>
+								<td align="center">00</td>
+								<td align="center">00</td>
+								<td align="center">0,94</td>
+							</tr>
+							<tr>
+								<td align="left">As orientações contidas no <italic>e-book</italic> podem te ajudar a melhorar sua saúde?</td>
+								<td align="center">152</td>
+								<td align="center">138</td>
+								<td align="center">19</td>
+								<td align="center">00</td>
+								<td align="center">00</td>
+								<td align="center">0,94</td>
+							</tr>
+							<tr>
+								<td align="left" colspan="7"><bold>Aparência</bold></td>
+							</tr>
+							<tr>
+								<td align="left">Os vídeos do <italic>e-book</italic> são interessantes?</td>
+								<td align="center">116</td>
+								<td align="center">150</td>
+								<td align="center">43</td>
+								<td align="center">00</td>
+								<td align="center">00</td>
+								<td align="center">0,86</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN2">
+							<p>*CT = Concordo totalmente; <sup>†</sup>C = Concordo; <sup>‡</sup>N = Nem concordo e nem discordo; <sup>§</sup>D = Discordo; <sup>||</sup>DT = Discordo totalmente; <sup>¶</sup>IC = Índice de concordância</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>A maioria dos participantes 293 (94,8%) apontou que materiais educativos podem ajudar a tirar dúvidas sobre prevenção de doenças cardiovasculares. Do total, 301 (97,4%) destacaram que os assuntos abordados são necessários para que os pacientes com HIV possam realizar os cuidados adequados para a saúde cardiovascular.</p>
+			<p>Quanto à pertinência do conteúdo, a compreensão, motivação para a leitura e a sequência do <italic>e-book</italic>, os participantes sinalizaram para uma aprovação maior que 80% de concordância em todas as perguntas, com destaque para os conteúdos abordados, apontados como pertinentes por 97,4% (n=301) dos participantes (<xref ref-type="fig" rid="f1">Figura 1</xref>).</p>
+			<p>
+				<fig id="f1">
+					<label>Figura 1</label>
+					<caption>
+						<title>Concordância dos participantes quanto à pertinência do conteúdo, compreensão, interesse e motivação da leitura (n=309). Brasil, 2020-2021</title>
+					</caption>
+					<graphic xlink:href="1518-8345-rlae-30-e3512-gf1.png"/>
+				</fig>
+			</p>
+			<p>Na <xref ref-type="table" rid="t3">Tabela 3</xref> estão apresentados os dados relacionados à avaliação da concordância interavaliadores do <italic>e-book</italic> que mostrou “concordância quase perfeita” entre os avaliadores quanto aos aspectos avaliados no Grupo 2 e “ concordância aceitável” entre os avaliadores quanto aos aspectos avaliados no Grupo 1.</p>
+			<p>
+				<table-wrap id="t3">
+					<label>Tabela 3</label>
+					<caption>
+						<title>Medida de concordância interavaliadores relacionada à validação do <italic>e-book</italic> quanto à adequação e pertinência (n=309). Brasil, 2020-2021</title>
+					</caption>
+					<table>
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left">Validação</th>
+								<th align="center">*AC1</th>
+								<th align="center">EP_AC1<sup>†</sup></th>
+								<th align="center">p-valor</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td align="left">Grupo 1</td>
+								<td align="center">0,287</td>
+								<td align="center">0,017</td>
+								<td align="center">0,0001</td>
+							</tr>
+							<tr>
+								<td align="left">Grupo 2</td>
+								<td align="center">0,921</td>
+								<td align="center">0,061</td>
+								<td align="center">0,0001</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN3">
+							<p>*AC1 = Coeficiente de confiabilidade entre avaliadores; <sup>†</sup>EP_AC1 = Erro Padrão de confiabilidade entre avaliadores. Nota: Nível de significância de 5% (p&lt;0,05)</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+		</sec>
+		<sec sec-type="discussion">
+			<title>Discussão</title>
+			<p>Neste estudo, verificou-se que o <italic>e-book</italic> elaborado foi considerado válido na perspectiva do público-alvo quanto ao visual, à linguagem, à usabilidade, ao conteúdo, à aparência e à avaliação geral. Destaca-se que a validação de materiais é uma etapa importante para a elaboração de materiais educativos<xref ref-type="bibr" rid="B26"><sup>26</sup></xref> e a validação pelo seu público-alvo permite identificar e trabalhar os aspectos que evidenciam a sua legibilidade.</p>
+			<p>Um estudo conduzido nos Estados Unidos mostrou que todos os tipos de materiais educativos relacionados à saúde cardiovascular excedem a capacidade de leitura de seu público-alvo e que essa distância entre a legibilidade do material e o nível de leitura da população implica negativamente na compreensão das informações ofertadas e, consequentemente, no sucesso de sua utilização como base para a tomada de decisão voltada ao autocuidado<xref ref-type="bibr" rid="B13"><sup>13</sup></xref>. </p>
+			<p>Transpondo esta problemática à realidade do Brasil, onde a maioria da população territorial (50,4%) não completou o ensino fundamental<xref ref-type="bibr" rid="B27"><sup>27</sup></xref>, faz-se necessário o desenvolvimento de materiais educativos interativos, de fácil compreensão, que promovam e facilitem a autogestão em saúde dessa população<xref ref-type="bibr" rid="B14"><sup>14</sup></xref>.</p>
+			<p>Os conteúdos abordados foram considerados pertinentes e incluem aspectos relacionados aos principais fatores de risco cardiovascular e orientações voltadas para a prevenção<xref ref-type="bibr" rid="B4"><sup>4</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B28"><sup>28</sup></xref>. Nossos achados corroboram com outro estudo brasileiro, que aponta que a abordagem das DCV entre a PVHIV é uma prioridade e enfatiza a importância de gerenciar tanto os fatores de risco tradicionais quanto os específicos relacionados à infecção pelo HIV para reduzir o risco de DCV nestes indivíduos<xref ref-type="bibr" rid="B29"><sup>29</sup></xref>. </p>
+			<p>A construção e validação de materiais educativos digitais interativos possibilita que a população em geral tenha acesso a conteúdos relevantes e adequados para a promoção da saúde e prevenção de doenças pautadas em evidências científicas. Isso é relevante, visto que grande parte do conteúdo produzido pela ciência acaba sem divulgação e/ou aplicação prática, alimentando um círculo vicioso de exclusão da maioria da população que não tem acesso a esse meio<xref ref-type="bibr" rid="B30"><sup>30</sup></xref>.</p>
+			<p>Apesar das DCV terem mecanismos complexos e etiologias difíceis de compreensão<xref ref-type="bibr" rid="B13"><sup>13</sup></xref> observou-se que, quanto à legibilidade do <italic>e-book</italic>, o texto foi considerado interessante, com sequência adequada e de fácil compreensão. </p>
+			<p>A avaliação da legibilidade é primordial e é considerada como métrica da qualidade que deve ser avaliada antes da publicação <italic>online</italic> de qualquer material educativo<xref ref-type="bibr" rid="B13"><sup>13</sup></xref>. Tal aspecto é relevante, pois materiais educativos e instruções educacionais rotineiramente incluem linguagem técnica e explicações complexas ou não incluem ilustrações compreensíveis, tornando-as difíceis de compreensão pelo público-alvo<xref ref-type="bibr" rid="B10"><sup>10</sup></xref>. A comunicação clara e simples ajuda as pessoas a se sentirem mais envolvidas em seus cuidados de saúde e aumenta as chances de seguirem seus planos de cuidado e adesão ao tratamento<xref ref-type="bibr" rid="B26"><sup>26</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B31"><sup>31</sup></xref>. </p>
+			<p>Nesse contexto, o conteúdo e a linguagem abordada também devem ser ressaltados, uma vez que devem ser acessíveis e livres de termos técnicos para auxiliar na compreensão do conteúdo, além de proporcionar interatividade entre o leitor e o material educativo. Além disso, na elaboração de materiais educativos, a linguagem deve ser objetiva, evitando a utilização de frases longas e detalhadas, visto que podem propiciar dispersão e tornar a leitura cansativa<xref ref-type="bibr" rid="B31"><sup>31</sup></xref>.</p>
+			<p>No presente estudo, mais de 80,0% dos participantes referiram motivação em ler o <italic>e-book</italic> e avaliaram o conteúdo abordado como pertinente para planejar o autocuidado da saúde cardiovascular. Para que o material educativo seja atual e relevante é imprescindível que o mesmo esteja inserido no contexto social da população-alvo, e que atenda às suas necessidades e particularidades<xref ref-type="bibr" rid="B32"><sup>32</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B33"><sup>33</sup></xref>. Portanto, temas e tópicos contemplados em conteúdos educativos devem ir ao encontro das necessidades das pessoas, propiciando empoderamento sobre o assunto abordado<xref ref-type="bibr" rid="B31"><sup>31</sup></xref>.</p>
+			<p>Em relação à usabilidade do <italic>e-book</italic>, os participantes do estudo o avaliaram como de fácil utilização. É composto por vídeos, áudios e <italic>links</italic> de acesso a outras páginas que suplementam o conteúdo abordado e que tornam o seu uso mais lúdico, além de fácil acesso e compartilhamento por meio das redes sociais. Portanto, a facilidade do uso de uma ferramenta está diretamente relacionada ao nível de satisfação do usuário que a consome, uma vez que interfaces mal projetadas podem resultar em desinteresse ou descrédito pelo usuário<xref ref-type="bibr" rid="B34"><sup>34</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B35"><sup>35</sup></xref>.</p>
+			<p>Os materiais educativos disponibilizados virtualmente têm sido utilizados como ferramentas para melhorar o conhecimento, a adesão ao tratamento e o autocuidado, numa perspectiva de promoção da saúde e prevenção de doenças<xref ref-type="bibr" rid="B10"><sup>10</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B36"><sup>36</sup></xref>. Quando os mesmos são produzidos por profissionais da saúde, eles possuem o poder de fortalecer as orientações verbalizadas durante os atendimentos, além de sanar alguns questionamentos. A abordagem utilizada na construção do material educativo permite identificar as necessidades do público-alvo, sobretudo quando a validação é feita pelo próprio público ao qual o material se destina.</p>
+			<p>Diante do exposto, outro ponto desafiador é a utilização básica dos recursos digitais (alfabetização digital) e a capacidade do público-alvo de explorar os recursos de maneira mais ampla (letramento digital)<xref ref-type="bibr" rid="B13"><sup>13</sup></xref>. Neste estudo, o material educativo foi validado por PVHIV de todas as regiões do Brasil com os mais variados tipos de escolaridade, porém a maioria tinha nível superior e muitos cursaram pós-graduação, portanto, estão condizentes com o perfil de indivíduos que possuem maior acesso à internet, à informação e maior letramento digital. </p>
+			<p>Assim, melhorar a alfabetização em saúde entre aqueles com menor escolaridade representa um desafio único para os profissionais de saúde, pois apesar dos benefícios do uso de tecnologia da informação em saúde, é possível que tais informações não atinjam grupos que, porventura, possuem menos acesso à internet e estejam em grupos voltados para esta população nas redes sociais. Desta forma, sugerimos que este material educativo seja uma opção de recurso educativo na prática clínica de PVHIV.</p>
+			<p>Um aspecto relevante deste estudo é que o mesmo foi validado por participantes provenientes de todas as regiões do país, sendo predominantes as regiões Sudeste e Nordeste. A heterogeneidade das regiões brasileiras está relacionada com a diversidade do perfil epidemiológico da infecção pelo HIV no país e com as diferentes condições de acesso a tecnologias entre os estados. </p>
+			<p>Na evolução histórica da aids no Brasil, os primeiros casos foram diagnosticados no Sudeste até alcançarem as regiões Norte e Nordeste do país. A distribuição proporcional dos casos de aids identificados de 1980 até junho de 2019 mostra diferentes concentrações nas regiões do Brasil, Sudeste (51,3%), Sul (19,9%), Nordeste (16,1%), Norte (6,6%) e Centro-Oeste (6,1%)<xref ref-type="bibr" rid="B37"><sup>37</sup></xref>. Essa heterogeneidade das regiões também carrega peculiaridades quanto aos meios de produção, cultura, educação e acesso aos serviços, o que faz a assistência à saúde não ser universal e equitativa no Brasil, dificultando o acesso ao diagnóstico e tratamento. As regiões Sudeste e Sul ganham destaque quanto ao desenvolvimento da educação, o que impacta na detecção, tratamento e prevenção da doença. Já o Nordeste apresenta-se como a segunda região mais populosa do Brasil e possui um dos menores indicadores na avaliação do desempenho do sistema educacional<xref ref-type="bibr" rid="B38"><sup>38</sup></xref>. </p>
+			<p>Assim, nossos resultados reafirmam o quanto a utilização de materiais educativos em formato digital e a internet se mostram como novas possibilidades que podem ajudar a promover a alfabetização em saúde e até mesmo o cuidado contínuo e integral, transformando essa tecnologia em uma nova opção de pensar e planejar as intervenções em saúde nos mais variados cenários.</p>
+			<p>Além do conhecimento, a autoeficácia e a motivação dos sujeitos são consideradas como base para a mudança do comportamento<xref ref-type="bibr" rid="B18"><sup>18</sup></xref>. Portanto, o uso da tecnologia, associado à informação de qualidade, pode promover maior interesse por parte dos sujeitos e, com isso, fomentar o conhecimento e a motivação para a mudança com vistas a uma melhor qualidade de vida<xref ref-type="bibr" rid="B18"><sup>18</sup></xref>.</p>
+			<p>Ademais, ressaltamos que o material educativo pode ser utilizado durante as consultas de enfermagem, bem como de outros profissionais de saúde e/ou atividades de alfabetização em saúde, para complementar e reforçar as informações fornecidas. Destaca-se que o enfermeiro desempenha papel fundamental no desenvolvimento de intervenções educativas nos serviços de saúde, e em particular, pode se beneficiar do uso de tecnologias digitais para melhorar a alfabetização em saúde das PVHIV. </p>
+			<p>Assim, ratificamos a importância da construção e validação de materiais educativos com a população-alvo, a fim de proporcionar um material seguro e eficaz que funcione como um facilitador para a mudança do estilo de vida, em busca de estimular a realização de atividades que promovam hábitos de vida mais saudável. Disponibiliza-se para as PVHIV um <italic>e-book</italic> interativo de fácil compreensão, acesso, usabilidade, conteúdo atualizado e disponível gratuitamente.</p>
+			<p>A limitação encontrada no estudo refere-se à restrição dos resultados a grupos que possuem acesso à internet, com elevada escolaridade e mais habituados ao manuseio de ferramentas informatizadas, apresentando, portanto, mais facilidade para consumir tecnologias educativas construídas neste formato.</p>
+		</sec>
+		<sec sec-type="conclusions">
+			<title>Conclusão</title>
+			<p>O material educativo interativo elaborado “Cuide do seu coração” foi considerado válido pelas PVHIV. Destaca-se ainda, que foi um estudo inédito nessa temática no Brasil, e proporcionou a geração de um produto composto por conteúdos relevantes, de fácil acesso e que está disponível gratuitamente para a população. </p>
+			<p>A partir disso, ressalta-se a relevância do processo de validação clínica com a população-alvo, visto que o material construído deve ser de fácil entendimento e leitura para aqueles aos quais se destina, de modo que o seu objetivo possa ser atingido. </p>
+			<p>Sugere-se que novos estudos possam abordar a aplicação deste <italic>e-book</italic> para grupos populacionais específicos, tais como idosos, mulheres, pessoas de baixa escolaridade e de baixa renda que vivem com HIV, a fim de identificar novas lacunas que porventura não foram atendidas.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>Referências</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. Deeks SG, Lewin SR, Havlir DV. The end of AIDS: HIV infection as a chronic disease. Lancet. 2013;382(9903):1525-33. doi: https://doi.org/10.1016/S0140-6736(13)61809-7</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Deeks</surname>
+							<given-names>SG</given-names>
+						</name>
+						<name>
+							<surname>Lewin</surname>
+							<given-names>SR</given-names>
+						</name>
+						<name>
+							<surname>Havlir</surname>
+							<given-names>DV</given-names>
+						</name>
+					</person-group>
+					<article-title>The end of AIDS: HIV infection as a chronic disease</article-title>
+					<source>Lancet</source>
+					<year>2013</year>
+					<volume>382</volume>
+					<issue>9903</issue>
+					<fpage>1525</fpage>
+					<lpage>1533</lpage>
+					<pub-id pub-id-type="doi">10.1016/S0140-6736(13)61809-7</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. Takada S, Ober AJ, Currier JS, Goldstein NJ, Horwich TB, Mittman BS, et al. Reducing cardiovascular risk among people living with HIV: Rationale and design of the INcreasing Statin Prescribing in HIV Behavioral Economics REsearch (INSPIRE) randomized controlled trial. Prog Cardiovasc Dis. 2020;63(2):109-17. doi: https://doi.org/10.1016/j.pcad.2020.02.012</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Takada</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Ober</surname>
+							<given-names>AJ</given-names>
+						</name>
+						<name>
+							<surname>Currier</surname>
+							<given-names>JS</given-names>
+						</name>
+						<name>
+							<surname>Goldstein</surname>
+							<given-names>NJ</given-names>
+						</name>
+						<name>
+							<surname>Horwich</surname>
+							<given-names>TB</given-names>
+						</name>
+						<name>
+							<surname>Mittman</surname>
+							<given-names>BS</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Reducing cardiovascular risk among people living with HIV Rationale and design of the INcreasing Statin Prescribing in HIV Behavioral Economics REsearch (INSPIRE) randomized controlled trial</article-title>
+					<source>Prog Cardiovasc Dis</source>
+					<year>2020</year>
+					<volume>63</volume>
+					<issue>2</issue>
+					<fpage>109</fpage>
+					<lpage>117</lpage>
+					<pub-id pub-id-type="doi">10.1016/j.pcad.2020.02.012</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3 Muller EV, Gimeno SGA. Risk factors for cardiovascular disease in HIV/AIDS patients treated with highly active antiretroviral therapy (HAART) in the central-southern region of the state of Paraná - Brazil. Ciênc Saúde Colet. 2019;24(5):1903-14. doi: https://doi.org/10.1590/1413-81232018245.16682017</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Muller</surname>
+							<given-names>EV</given-names>
+						</name>
+						<name>
+							<surname>Gimeno</surname>
+							<given-names>SGA</given-names>
+						</name>
+					</person-group>
+					<article-title>Risk factors for cardiovascular disease in HIV/AIDS patients treated with highly active antiretroviral therapy (HAART) in the central-southern region of the state of Paraná - Brazil</article-title>
+					<source>Ciênc Saúde Colet</source>
+					<year>2019</year>
+					<volume>24</volume>
+					<issue>5</issue>
+					<fpage>1903</fpage>
+					<lpage>1914</lpage>
+					<pub-id pub-id-type="doi">10.1590/1413-81232018245.16682017</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4 Faludi AA, Izar MCO, Kerr SJF, Marte CAP, Bianco HT, Afiune NA, et al. Atualização da Diretriz Brasileira de Dislipidemias e Prevenção da Aterosclerose - 2017. Arq Bras Cardiol. 2017 Jul;109(2 Suppl 1):1-76. doi: https://doi.org/0.5935/abc.2017012</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Faludi</surname>
+							<given-names>AA</given-names>
+						</name>
+						<name>
+							<surname>Izar</surname>
+							<given-names>MCO</given-names>
+						</name>
+						<name>
+							<surname>Kerr</surname>
+							<given-names>SJF</given-names>
+						</name>
+						<name>
+							<surname>Marte</surname>
+							<given-names>CAP</given-names>
+						</name>
+						<name>
+							<surname>Bianco</surname>
+							<given-names>HT</given-names>
+						</name>
+						<name>
+							<surname>Afiune</surname>
+							<given-names>NA</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Atualização da Diretriz Brasileira de Dislipidemias e Prevenção da Aterosclerose - 2017</article-title>
+					<source>Arq Bras Cardiol</source>
+					<volume>109</volume>
+					<issue>2 Suppl 1</issue>
+					<fpage>1</fpage>
+					<lpage>76</lpage>
+					<year>2017</year>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Shah ASV, Stelzle D, Lee KK, Beck EJ, Alam S, Clifford S, et al. Global Burden of Atherosclerotic Cardiovascular Disease in People Living With HIV: Systematic Review and Meta-Analysis. Circulation. 2018;138(11):1100-12. doi: https://doi.org/10.1161/CIRCULATIONAHA.117.033369</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Shah</surname>
+							<given-names>ASV</given-names>
+						</name>
+						<name>
+							<surname>Stelzle</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Lee</surname>
+							<given-names>KK</given-names>
+						</name>
+						<name>
+							<surname>Beck</surname>
+							<given-names>EJ</given-names>
+						</name>
+						<name>
+							<surname>Alam</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Clifford</surname>
+							<given-names>S</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Global Burden of Atherosclerotic Cardiovascular Disease in People Living With HIV: Systematic Review and Meta-Analysis</article-title>
+					<source>Circulation</source>
+					<year>2018</year>
+					<volume>138</volume>
+					<issue>11</issue>
+					<fpage>1100</fpage>
+					<lpage>1112</lpage>
+					<pub-id pub-id-type="doi">10.1161/CIRCULATIONAHA.117.033369</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. Webel AR, Schexnayder J, Cioe PA, Zuñiga Julie A. A Review of Chronic Comorbidities in Adults Living With HIV State of the Science. JANAC. 2021;32(3):322-46. doi: https://doi.org/10.1097/JNC.0000000000000240</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Webel</surname>
+							<given-names>AR</given-names>
+						</name>
+						<name>
+							<surname>Schexnayder</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Cioe</surname>
+							<given-names>PA</given-names>
+						</name>
+						<name>
+							<surname>Zuñiga Julie</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>A Review of Chronic Comorbidities in Adults Living With HIV State of the Science</article-title>
+					<source>JANAC</source>
+					<year>2021</year>
+					<volume>32</volume>
+					<issue>3</issue>
+					<fpage>322</fpage>
+					<lpage>346</lpage>
+					<pub-id pub-id-type="doi">10.1097/JNC.0000000000000240</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. Melo ES, Antonini M, Costa CRB, Sorensen W, Gir E, Reis RK. Evaluation of cardiovascular risk factors in people living with HIV in São Paulo, Brazil. J Infect Dev Ctries. 2020;14(1):89-96. doi: https://doi.org/10.3855/jidc.11326</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Melo</surname>
+							<given-names>ES</given-names>
+						</name>
+						<name>
+							<surname>Antonini</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Costa</surname>
+							<given-names>CRB</given-names>
+						</name>
+						<name>
+							<surname>Sorensen</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Gir</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Reis</surname>
+							<given-names>RK</given-names>
+						</name>
+					</person-group>
+					<article-title>Evaluation of cardiovascular risk factors in people living with HIV in São Paulo, Brazil</article-title>
+					<source>J Infect Dev Ctries</source>
+					<year>2020</year>
+					<volume>14</volume>
+					<issue>1</issue>
+					<fpage>89</fpage>
+					<lpage>96</lpage>
+					<pub-id pub-id-type="doi">10.3855/jidc.11326</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Cioe PA, Merrill JE, Gordon REF, Guthrie KM, Freiberg M, Williams DM. Personalized feedback improves cardiovascular risk perception and physical activity levels in persons with HIV: results of a pilot randomized clinical trial. Aids Care. 2021;33(6):786-94. doi: https://doi.org/10.1080/09540121.2021.1874271</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cioe</surname>
+							<given-names>PA</given-names>
+						</name>
+						<name>
+							<surname>Merrill</surname>
+							<given-names>JE</given-names>
+						</name>
+						<name>
+							<surname>Gordon</surname>
+							<given-names>REF</given-names>
+						</name>
+						<name>
+							<surname>Guthrie</surname>
+							<given-names>KM</given-names>
+						</name>
+						<name>
+							<surname>Freiberg</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Williams</surname>
+							<given-names>DM</given-names>
+						</name>
+					</person-group>
+					<article-title>Personalized feedback improves cardiovascular risk perception and physical activity levels in persons with HIV: results of a pilot randomized clinical trial</article-title>
+					<source>Aids Care</source>
+					<year>2021</year>
+					<volume>33</volume>
+					<issue>6</issue>
+					<fpage>786</fpage>
+					<lpage>794</lpage>
+					<pub-id pub-id-type="doi">10.1080/09540121.2021.1874271</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. Villa-Vélez L. Education for health and social justice based on the focus on capabilities: An opportunity for public health development. Ciênc Saúde Coletiva. 2020;25(4):1539-46. doi: https://doi.org/10.1590/1413-81232020254.19052018</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Villa-Vélez</surname>
+							<given-names>L</given-names>
+						</name>
+					</person-group>
+					<article-title>Education for health and social justice based on the focus on capabilities: An opportunity for public health development</article-title>
+					<source>Ciênc Saúde Coletiva</source>
+					<year>2020</year>
+					<volume>25</volume>
+					<issue>4</issue>
+					<fpage>1539</fpage>
+					<lpage>1546</lpage>
+					<pub-id pub-id-type="doi">10.1590/1413-81232020254.19052018</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. Magnani JW, Mujahid MS, Aronow HD, Cené CW, Dickson VV, Havranek E, et al. Health literacy and cardiovascular disease: fundamental relevance to primary and secondary prevention: a scientific statement from the American Heart Association. Circulation. 2018;138(2):e48-e74. doi: https://doi.org/10.1161/CIR.0000000000000579</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Magnani</surname>
+							<given-names>JW</given-names>
+						</name>
+						<name>
+							<surname>Mujahid</surname>
+							<given-names>MS</given-names>
+						</name>
+						<name>
+							<surname>Aronow</surname>
+							<given-names>HD</given-names>
+						</name>
+						<name>
+							<surname>Cené</surname>
+							<given-names>CW</given-names>
+						</name>
+						<name>
+							<surname>Dickson</surname>
+							<given-names>VV</given-names>
+						</name>
+						<name>
+							<surname>Havranek</surname>
+							<given-names>E</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Health literacy and cardiovascular disease fundamental relevance to primary and secondary prevention: a scientific statement from the American Heart Association</article-title>
+					<source>Circulation</source>
+					<year>2018</year>
+					<volume>138</volume>
+					<issue>2</issue>
+					<fpage>e48</fpage>
+					<lpage>e74</lpage>
+					<pub-id pub-id-type="doi">10.1161/CIR.0000000000000579</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. Centers for Disease Control and Prevention (US). What Is Health Literacy? [Internet]. 2021 [cited 2021 Jun 05]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.cdc.gov/healthliteracy/learn">https://www.cdc.gov/healthliteracy/learn</ext-link>/</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Centers for Disease Control and Prevention (US)</collab>
+					</person-group>
+					<source>What Is Health Literacy?</source>
+					<comment>Internet</comment>
+					<year>2021</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-06-05">2021 Jun 05</date-in-citation>
+					<comment>Available from: <ext-link ext-link-type="uri" xlink:href="https://www.cdc.gov/healthliteracy/learn">https://www.cdc.gov/healthliteracy/learn</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. Reynolds R, Smoller S, Allen A, Nicholas PK. Health Literacy and Health Outcomes in Persons Living with HIV Disease: A Systematic Review. AIDS Behav. 2019;23:3024-43. doi: https://doi.org/10.1007/s10461-019-02432-9</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Reynolds</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Smoller</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Allen</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Nicholas</surname>
+							<given-names>PK</given-names>
+						</name>
+					</person-group>
+					<article-title>Health Literacy and Health Outcomes in Persons Living with HIV Disease: A Systematic Review</article-title>
+					<source>AIDS Behav</source>
+					<year>2019</year>
+					<volume>23</volume>
+					<fpage>3024</fpage>
+					<lpage>3043</lpage>
+					<pub-id pub-id-type="doi">10.1007/s10461-019-02432-9</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. Ayyaswami V, Padmanabhan D, Patel M, Prabhu AV, Hansberry DR, Agarwal N, et al. A readability analysis of online cardiovascular disease-related health education materials. Health Lit Res Pract. 2019;3(2):e75-e80. doi: https://doi.org/10.3928/24748307-20190306-03</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ayyaswami</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Padmanabhan</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Patel</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Prabhu</surname>
+							<given-names>AV</given-names>
+						</name>
+						<name>
+							<surname>Hansberry</surname>
+							<given-names>DR</given-names>
+						</name>
+						<name>
+							<surname>Agarwal</surname>
+							<given-names>N</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>A readability analysis of online cardiovascular disease-related health education materials</article-title>
+					<source>Health Lit Res Pract</source>
+					<year>2019</year>
+					<volume>3</volume>
+					<issue>2</issue>
+					<fpage>e75</fpage>
+					<lpage>e80</lpage>
+					<pub-id pub-id-type="doi">10.3928/24748307-20190306-03</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. Han HR, Hong H, Starbird LE, Ge S, Ford AD, Renda S, et al. eHealth literacy in people living with HIV: systematic review. JMIR Public Health Surveill. 2018;4(3):e64. doi: https://doi.org/10.2196/publichealth.9687</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Han</surname>
+							<given-names>HR</given-names>
+						</name>
+						<name>
+							<surname>Hong</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Starbird</surname>
+							<given-names>LE</given-names>
+						</name>
+						<name>
+							<surname>Ge</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Ford</surname>
+							<given-names>AD</given-names>
+						</name>
+						<name>
+							<surname>Renda</surname>
+							<given-names>S</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>eHealth literacy in people living with HIV: systematic reviewJMIR Public Health</article-title>
+					<source>Surveill</source>
+					<year>2018</year>
+					<volume>4</volume>
+					<issue>3</issue>
+					<elocation-id>e64</elocation-id>
+					<pub-id pub-id-type="doi">10.2196/publichealth.9687</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. Norman CD, Skinner HA. eHealth literacy: essential skills for consumer health in a networked world. J Med Internet Res. 2006;8(2):e9. doi: https://doi.org/10.2196/jmir.8.2.e9</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Norman</surname>
+							<given-names>CD</given-names>
+						</name>
+						<name>
+							<surname>Skinner</surname>
+							<given-names>HA</given-names>
+						</name>
+					</person-group>
+					<article-title>eHealth literacy: essential skills for consumer health in a networked world</article-title>
+					<source>J Med Internet Res</source>
+					<year>2006</year>
+					<volume>8</volume>
+					<issue>2</issue>
+					<elocation-id>e9</elocation-id>
+					<pub-id pub-id-type="doi">10.2196/jmir.8.2.e9</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. Sahyouni R, Mahmoodi A, Mahmoodi A, Rajaii RR, Hasjim BJ, Bustillo D, et al. Interactive iBook-Based Patient Education in a NeuroTrauma Clinic. Neurosurgery. 2017;81(5):787-94. doi: https://doi.org/10.1093/neuros/nyx095</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sahyouni</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Mahmoodi</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Mahmoodi</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Rajaii</surname>
+							<given-names>RR</given-names>
+						</name>
+						<name>
+							<surname>Hasjim</surname>
+							<given-names>BJ</given-names>
+						</name>
+						<name>
+							<surname>Bustillo</surname>
+							<given-names>D</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Interactive iBook-Based Patient Education in a NeuroTrauma Clinic</article-title>
+					<source>Neurosurgery</source>
+					<year>2017</year>
+					<volume>81</volume>
+					<issue>5</issue>
+					<fpage>787</fpage>
+					<lpage>794</lpage>
+					<pub-id pub-id-type="doi">10.1093/neuros/nyx095</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Polit DF, Beck CT. Essentials of Nursing Research: appraising evidence for nursing practice. 7. ed. Porto Alegre: ArtMed; 2011. 323 p.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Polit</surname>
+							<given-names>DF</given-names>
+						</name>
+						<name>
+							<surname>Beck</surname>
+							<given-names>CT</given-names>
+						</name>
+					</person-group>
+					<source>Essentials of Nursing Research: appraising evidence for nursing practice</source>
+					<year>2011</year>
+					<edition>7</edition>
+					<publisher-loc>Porto Alegre</publisher-loc>
+					<publisher-name>ArtMed</publisher-name>
+					<size units="pages">323</size>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18. Melo ES. Construction and validation of digital educational material to reduce cardiovascular risk in people living with HIV. [dissertation]. Ribeirão Preto: Escola de Enfermagem de Ribeirão Preto, Universidade de São Paulo; 2019 [cited 2021 Jun 02]. doi: https://doi.org/10.11606/T.22.2019.tde-23102019-142537</mixed-citation>
+				<element-citation publication-type="thesis">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Melo</surname>
+							<given-names>ES</given-names>
+						</name>
+					</person-group>
+					<source>Construction and validation of digital educational material to reduce cardiovascular risk in people living with HIV</source>
+					<year>2019</year>
+					<comment content-type="degree">dissertation</comment>
+					<publisher-loc>Ribeirão Preto</publisher-loc>
+					<publisher-name>Escola de Enfermagem de Ribeirão Preto, Universidade de São Paulo</publisher-name>
+					<pub-id pub-id-type="doi">10.11606/T.22.2019.tde-23102019-142537</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19. Loch MR, Lemos ECD, Jaime PC, Rech CR. Development and validation of an instrument to evaluate interventions in relation to Health Promotion principles. Epidemiol Serv Saúde. 2021;30:e2020627. doi: https://doi.org/10.1590/S1679-49742021000300005</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Loch</surname>
+							<given-names>MR</given-names>
+						</name>
+						<name>
+							<surname>Lemos</surname>
+							<given-names>ECD</given-names>
+						</name>
+						<name>
+							<surname>Jaime</surname>
+							<given-names>PC</given-names>
+						</name>
+						<name>
+							<surname>Rech</surname>
+							<given-names>CR</given-names>
+						</name>
+					</person-group>
+					<article-title>Development and validation of an instrument to evaluate interventions in relation to Health Promotion principles</article-title>
+					<source>Epidemiol Serv Saúde</source>
+					<year>2021</year>
+					<volume>30</volume>
+					<elocation-id>e2020627</elocation-id>
+					<pub-id pub-id-type="doi">10.1590/S1679-49742021000300005</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20. Melo ES. Cuide do Seu Coração: Estratégias para redução do risco cardiovascular em pessoas que vivem com HIV [E-book on the Internet]. Ribeirão Preto: Tecc; 2017 [cited 2021 Jun 02]. 80 p. Available from: https://play.google.com/books/reader?id=OlXaDwAAQBAJ&amp;hl=pt</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Melo</surname>
+							<given-names>ES</given-names>
+						</name>
+					</person-group>
+					<source>Cuide do Seu Coração: Estratégias para redução do risco cardiovascular em pessoas que vivem com HIV</source>
+					<year>2017</year>
+					<publisher-loc>Ribeirão Preto</publisher-loc>
+					<publisher-name>Tecc</publisher-name>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>21. Ministério da Saúde (BR). Protocolo Clínico e Diretrizes Terapêuticas para o Manejo da Infecção pelo HIV em adultos. [Internet]. Brasília: Ministério da Saúde; 2018 [cited 2021 Mar 20]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.aids.gov.br/pt-br/pub/2013/protocolo-clinico-e-diretrizes-terapeuticas-para-manejo-da-infeccao-pelo-hiv-em-adultos">https://www.aids.gov.br/pt-br/pub/2013/protocolo-clinico-e-diretrizes-terapeuticas-para-manejo-da-infeccao-pelo-hiv-em-adultos</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde</collab>
+					</person-group>
+					<source>Protocolo Clínico e Diretrizes Terapêuticas para o Manejo da Infecção pelo HIV em adultos.</source>
+					<year>2018</year>
+					<publisher-loc>Brasília</publisher-loc>
+					<publisher-name>Ministério da Saúde</publisher-name>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-03-20">2021 Mar 20</date-in-citation>
+					<comment>Available from: <ext-link ext-link-type="uri" xlink:href="https://www.aids.gov.br/pt-br/pub/2013/protocolo-clinico-e-diretrizes-terapeuticas-para-manejo-da-infeccao-pelo-hiv-em-adultos">https://www.aids.gov.br/pt-br/pub/2013/protocolo-clinico-e-diretrizes-terapeuticas-para-manejo-da-infeccao-pelo-hiv-em-adultos</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>22. Ferreira MVF. Dressing of central venous catheters: supports for nursing teaching and care. 2013. 228 f. [dissertation]. Ribeirão Preto: Escola de Enfermagem de Ribeirão Preto, Universidade de São Paulo; 2013 [cited 2021 Aug 31]. Available from: https://doi.org/10.11606/T.22.2013.tde-26092013-185000</mixed-citation>
+				<element-citation publication-type="thesis">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ferreira</surname>
+							<given-names>MVF</given-names>
+						</name>
+					</person-group>
+					<source>Dressing of central venous catheters: supports for nursing teaching and care</source>
+					<year>2013</year>
+					<size units="pages">228</size>
+					<comment content-type="degree">Dissertation</comment>
+					<publisher-loc>Ribeirão Preto</publisher-loc>
+					<publisher-name>Escola de Enfermagem de Ribeirão Preto, Universidade de São Paulo</publisher-name>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>23. Cruz FOAM, Faria ET, Reis PED. Validation of an educational manual for breast cancer patients undergoing radiotherapy. Rev. Latino-Am. Enfermagem. 2020;28:e3384. doi: https://doi.org/10.1590/1518-8345.3197.3384</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cruz</surname>
+							<given-names>FOAM</given-names>
+						</name>
+						<name>
+							<surname>Faria</surname>
+							<given-names>ET</given-names>
+						</name>
+						<name>
+							<surname>Reis</surname>
+							<given-names>PED</given-names>
+						</name>
+					</person-group>
+					<article-title>Validation of an educational manual for breast cancer patients undergoing radiotherapy</article-title>
+					<source>Rev. Latino-Am. Enfermagem</source>
+					<year>2020</year>
+					<volume>28</volume>
+					<elocation-id>e3384</elocation-id>
+					<pub-id pub-id-type="doi">10.1590/1518-8345.3197.3384</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>24. Jesus GJ, Caliari JS, Oliveira LB, Queiroz AAFLN, Figueiredo RM, Reis RK. Construction and validation of educational material for the health promotion of individuals with HIV. Rev. Latino-Am. Enfermagem. 2020;28:e3322. doi: https://doi.org/10.1590/1518-8345.3748.3322</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Jesus</surname>
+							<given-names>GJ</given-names>
+						</name>
+						<name>
+							<surname>Caliari</surname>
+							<given-names>JS</given-names>
+						</name>
+						<name>
+							<surname>Oliveira</surname>
+							<given-names>LB</given-names>
+						</name>
+						<name>
+							<surname>Queiroz</surname>
+							<given-names>AAFLN</given-names>
+						</name>
+						<name>
+							<surname>Figueiredo</surname>
+							<given-names>RM</given-names>
+						</name>
+						<name>
+							<surname>Reis</surname>
+							<given-names>RK</given-names>
+						</name>
+					</person-group>
+					<article-title>Construction and validation of educational material for the health promotion of individuals with HIV</article-title>
+					<source>. Rev. Latino-Am. Enfermagem</source>
+					<year>2020</year>
+					<volume>28</volume>
+					<elocation-id>e3322</elocation-id>
+					<pub-id pub-id-type="doi">10.1590/1518-8345.3748.3322</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>25. Landis JR, Koch GG. The Measurement of Observer Agreement for Categorical Data. Biometrics. 1997;33(1):159-74. doi: https://doi.org/10.2307/2529310</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Landis</surname>
+							<given-names>JR</given-names>
+						</name>
+						<name>
+							<surname>Koch</surname>
+							<given-names>GG</given-names>
+						</name>
+					</person-group>
+					<article-title>The Measurement of Observer Agreement for Categorical Data</article-title>
+					<source>Biometrics</source>
+					<year>1997</year>
+					<volume>33</volume>
+					<issue>1</issue>
+					<fpage>159</fpage>
+					<lpage>174</lpage>
+					<pub-id pub-id-type="doi">10.2307/2529310</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation>26. Brega AG, Freedman MA, LeBlanc WG, Barnard J, Mabachi NM, Cifuentes M, et al. Using the Health Literacy Universal Precautions Toolkit to Improve the Quality of Patient Materials. J Health Commun. 2015;20(Suppl 2):69-76. doi: https://doi.org/10.1080/10810730.2015.1081997</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Brega</surname>
+							<given-names>AG</given-names>
+						</name>
+						<name>
+							<surname>Freedman</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>LeBlanc</surname>
+							<given-names>WG</given-names>
+						</name>
+						<name>
+							<surname>Barnard</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Mabachi</surname>
+							<given-names>NM</given-names>
+						</name>
+						<name>
+							<surname>Cifuentes</surname>
+							<given-names>M</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Using the Health Literacy Universal Precautions Toolkit to Improve the Quality of Patient Materials</article-title>
+					<source>J Health Commun</source>
+					<year>2015</year>
+					<volume>20</volume>
+					<issue>Suppl 2</issue>
+					<fpage>69</fpage>
+					<lpage>76</lpage>
+					<pub-id pub-id-type="doi">10.1080/10810730.2015.1081997</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<mixed-citation>27. Instituto Brasileiro de Geografia e Estatística. Tabela 5919: População por níveis de instrução [Internet]. Rio de Janeiro: IBGE; 2021 [cited 2021 Apr 19]. Disponível em: <ext-link ext-link-type="uri" xlink:href="https://sidra.ibge.gov.br/tabela/5919">https://sidra.ibge.gov.br/tabela/5919</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="database">
+					<person-group person-group-type="author">
+						<collab>Instituto Brasileiro de Geografia e Estatística</collab>
+					</person-group>
+					<source>Tabela 5919: População por níveis de instrução</source>
+					<year>2021</year>
+					<publisher-loc>Rio de Janeiro</publisher-loc>
+					<publisher-name>IBGE</publisher-name>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-04-19">2021 Apr 19</date-in-citation>
+					<comment>Disponível em: <ext-link ext-link-type="uri" xlink:href="https://sidra.ibge.gov.br/tabela/5919">https://sidra.ibge.gov.br/tabela/5919</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<mixed-citation>28. Targino MG. The obvious on scientific information: access and use. Transinformação. 2007;19(2):97-105. doi: https://doi.org/10.1590/S0103-37862007000200001</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Targino</surname>
+							<given-names>MG</given-names>
+						</name>
+					</person-group>
+					<article-title>The obvious on scientific information: access and use</article-title>
+					<source>Transinformação</source>
+					<year>2007</year>
+					<volume>19</volume>
+					<issue>2</issue>
+					<fpage>97</fpage>
+					<lpage>105</lpage>
+					<pub-id pub-id-type="doi">10.1590/S0103-37862007000200001</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B29">
+				<label>29</label>
+				<mixed-citation>29. Boettiger DC, Escuder MM, Law MG, Veloso V, Souza RA, Ikeda MLR, et al. Cardiovascular disease among people living with HIV in Brazil. Trop Med Int Health. 2020;25(7):886-96. doi: https://doi.org/10.1111/tmi.13405</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Boettiger</surname>
+							<given-names>DC</given-names>
+						</name>
+						<name>
+							<surname>Escuder</surname>
+							<given-names>MM</given-names>
+						</name>
+						<name>
+							<surname>Law</surname>
+							<given-names>MG</given-names>
+						</name>
+						<name>
+							<surname>Veloso</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Souza</surname>
+							<given-names>RA</given-names>
+						</name>
+						<name>
+							<surname>Ikeda</surname>
+							<given-names>MLR</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Cardiovascular disease among people living with HIV in Brazil</article-title>
+					<source>Trop Med Int Health</source>
+					<year>2020</year>
+					<volume>25</volume>
+					<issue>7</issue>
+					<fpage>886</fpage>
+					<lpage>896</lpage>
+					<pub-id pub-id-type="doi">10.1111/tmi.13405</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B30">
+				<label>30</label>
+				<mixed-citation>30. Souza EG. The information society and the restructuring of production: a critique of the utilitarian dimension of knowledge. Transinformação. 2011;23(3):219-26. doi: https://doi.org/10.1590/S0103-37862011000300004</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Souza</surname>
+							<given-names>EG</given-names>
+						</name>
+					</person-group>
+					<article-title>The information society and the restructuring of production: a critique of the utilitarian dimension of knowledge</article-title>
+					<source>Transinformação</source>
+					<year>2011</year>
+					<volume>23</volume>
+					<issue>3</issue>
+					<fpage>219</fpage>
+					<lpage>226</lpage>
+					<pub-id pub-id-type="doi">10.1590/S0103-37862011000300004</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B31">
+				<label>31</label>
+				<mixed-citation>31. Leite PSC. Proposal of collective evaluation of educational materials in professional master's degrees in the area of teaching. Campo Abierto. [Internet]. 2019 [cited 2021 Jul 08];38(2):185-98. Available from: <ext-link ext-link-type="uri" xlink:href="https://dehesa.unex.es/bitstream/10662/10066/1/0213-9529_38_2_185.pdf">https://dehesa.unex.es/bitstream/10662/10066/1/0213-9529_38_2_185.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Leite</surname>
+							<given-names>PSC</given-names>
+						</name>
+					</person-group>
+					<article-title>Proposal of collective evaluation of educational materials in professional master's degrees in the area of teaching</article-title>
+					<source>Campo Abierto</source>
+					<year>2019</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-07-08">2021 Jul 08</date-in-citation>
+					<volume>38</volume>
+					<issue>2</issue>
+					<fpage>185</fpage>
+					<lpage>198</lpage>
+					<comment>Available from: <ext-link ext-link-type="uri" xlink:href="https://dehesa.unex.es/bitstream/10662/10066/1/0213-9529_38_2_185.pdf">https://dehesa.unex.es/bitstream/10662/10066/1/0213-9529_38_2_185.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B32">
+				<label>32</label>
+				<mixed-citation>32. Hamine S, Gerth-Guyette E, Faulx D, Green BB, Ginsburg AS. Impact of mHealth Chronic Disease Management on Treatment Adherence and Patient Outcomes: A Systematic Review. J Med Internet Res. 2015;17(2):e52. doi: https://doi.org/10.2196/jmir.3951</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hamine</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Gerth-Guyette</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Faulx</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Green</surname>
+							<given-names>BB</given-names>
+						</name>
+						<name>
+							<surname>Ginsburg</surname>
+							<given-names>AS</given-names>
+						</name>
+					</person-group>
+					<article-title>Impact of mHealth Chronic Disease Management on Treatment Adherence and Patient Outcomes: A Systematic Review</article-title>
+					<source>J Med Internet Res</source>
+					<year>2015</year>
+					<volume>17</volume>
+					<issue>2</issue>
+					<elocation-id>e52</elocation-id>
+					<pub-id pub-id-type="doi">10.2196/jmir.3951</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B33">
+				<label>33</label>
+				<mixed-citation>33. Simoni JM, Kutner BA, Horvath KJ. Opportunities and Challenges of Digital Technology for HIV Treatment and Prevention. Curr HIV/AIDS Rep. 2015;12:437-40. doi: https://doi.org/10.1007/s11904-015-0289-1</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Simoni</surname>
+							<given-names>JM</given-names>
+						</name>
+						<name>
+							<surname>Kutner</surname>
+							<given-names>BA</given-names>
+						</name>
+						<name>
+							<surname>Horvath</surname>
+							<given-names>KJ</given-names>
+						</name>
+					</person-group>
+					<article-title>Opportunities and Challenges of Digital Technology for HIV Treatment and Prevention</article-title>
+					<source>Curr HIV/AIDS Rep</source>
+					<year>2015</year>
+					<volume>12</volume>
+					<fpage>437</fpage>
+					<lpage>440</lpage>
+					<pub-id pub-id-type="doi">10.1007/s11904-015-0289-1</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B34">
+				<label>34</label>
+				<mixed-citation>34. Carvalho LRD, Évora YDM, Zem-Mascarenhas SH. Assessment of the usability of a digital learning technology prototype for monitoring intracranial pressure. Rev. Latino-Am. Enfermagem. 2016;24:e2777. doi: https://doi.org/10.1590/1518-8345.1054.2777</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Carvalho</surname>
+							<given-names>LRD</given-names>
+						</name>
+						<name>
+							<surname>Évora</surname>
+							<given-names>YDM</given-names>
+						</name>
+						<name>
+							<surname>Zem-Mascarenhas</surname>
+							<given-names>SH</given-names>
+						</name>
+					</person-group>
+					<article-title>Assessment of the usability of a digital learning technology prototype for monitoring intracranial pressure</article-title>
+					<source>Rev. Latino-Am. Enfermagem</source>
+					<year>2016</year>
+					<volume>24</volume>
+					<elocation-id>e2777</elocation-id>
+					<pub-id pub-id-type="doi">10.1590/1518-8345.1054.2777</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B35">
+				<label>35</label>
+				<mixed-citation>35. Ruggeri BFF, Voci SM, Borges CA, Slater B. Assessment of the usability of a nutritional epidemiology computerized system. Rev Bras Epidemiol. 2013;16(4):966-75. doi: https://doi.org/10.1590/S1415-790X2013000400016</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ruggeri</surname>
+							<given-names>BFF</given-names>
+						</name>
+						<name>
+							<surname>Voci</surname>
+							<given-names>SM</given-names>
+						</name>
+						<name>
+							<surname>Borges</surname>
+							<given-names>CA</given-names>
+						</name>
+						<name>
+							<surname>Slater</surname>
+							<given-names>B</given-names>
+						</name>
+					</person-group>
+					<article-title>Assessment of the usability of a nutritional epidemiology computerized system</article-title>
+					<source>Rev Bras Epidemiol</source>
+					<year>2013</year>
+					<volume>16</volume>
+					<issue>4</issue>
+					<fpage>966</fpage>
+					<lpage>975</lpage>
+					<pub-id pub-id-type="doi">10.1590/S1415-790X2013000400016</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B36">
+				<label>36</label>
+				<mixed-citation>36. Mahmood A, Kedia S, Wyant DK, Ahn SN, Bhuyan SS. Use of mobile health applications for health-promoting behavior among individuals with chronic medical conditions. Digital Health. 2019;5:1-17. doi: https://doi.org/10.1177/2055207619882181</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Mahmood</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Kedia</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Wyant</surname>
+							<given-names>DK</given-names>
+						</name>
+						<name>
+							<surname>Ahn</surname>
+							<given-names>SN</given-names>
+						</name>
+						<name>
+							<surname>Bhuyan</surname>
+							<given-names>SS</given-names>
+						</name>
+					</person-group>
+					<article-title>Use of mobile health applications for health-promoting behavior among individuals with chronic medical conditions</article-title>
+					<source>Digital Health</source>
+					<year>2019</year>
+					<volume>5</volume>
+					<fpage>1</fpage>
+					<lpage>17</lpage>
+					<pub-id pub-id-type="doi">10.1177/2055207619882181</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B37">
+				<label>37</label>
+				<mixed-citation>37. Ministério da Saúde (BR). Departamento de Doenças de Condições Crônicas e Infecções Sexualmente Transmissíveis. Boletim Epidemiológico HIV/Aids 2020. [Internet]. Brasília: Ministério da Saúde; 2020 [cited 2021 Aug 27]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.aids.gov.br/pt-br/pub/2020/boletim-epidemiologico-hivaids-2020">https://www.aids.gov.br/pt-br/pub/2020/boletim-epidemiologico-hivaids-2020</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde. Departamento de Doenças de Condições Crônicas e Infecções Sexualmente Transmissíveis</collab>
+					</person-group>
+					<source>Boletim Epidemiológico HIV/Aids 2020</source>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-08-27">2021/08/27</date-in-citation>
+					<publisher-loc>Brasília</publisher-loc>
+					<publisher-name>Ministério da Saúde</publisher-name>
+					<comment>Available from: <ext-link ext-link-type="uri" xlink:href="https://www.aids.gov.br/pt-br/pub/2020/boletim-epidemiologico-hivaids-2020">https://www.aids.gov.br/pt-br/pub/2020/boletim-epidemiologico-hivaids-2020</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B38">
+				<label>38</label>
+				<mixed-citation>38. Ministério da Educação. Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (BR). Resumo técnico - Resultados do índice de desenvolvimento da Educação Básica 2019. [Internet]. Brasília: Ministério da Educação; 2021 [cited 2021 Aug 29]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/ideb/resultados">https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/ideb/resultados</ext-link>.</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Ministério da Educação. Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira</collab>
+					</person-group>
+					<source>Resumo técnico - Resultados do índice de desenvolvimento da Educação Básica 2019.</source>
+					<year>2021</year>
+					<publisher-loc>Brasília</publisher-loc>
+					<publisher-name>Ministério da Educação</publisher-name>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-08-29">2021 Aug 29</date-in-citation>
+					<comment>Available from: <ext-link ext-link-type="uri" xlink:href="https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/ideb/resultados">https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/ideb/resultados</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="other" id="fn1">
+				<label>*</label>
+				<p>Artigo extraído da tese de doutorado “Construção e validação de material educativo digital para redução do risco cardiovascular em pessoas vivendo com HIV”, apresentada à Universidade de São Paulo, Escola de Enfermagem de Ribeirão Preto, Centro Colaborador da OPAS/OMS para o Desenvolvimento da Pesquisa em Enfermagem, Ribeirão Preto, SP, Brasil.</p>
+			</fn>
+			<fn fn-type="financial-disclosure" id="fn10">
+				<label>Apoio Financeiro</label>
+				<p>Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq), Edital Universal 428304/2008-4, Brasil.</p>
+			</fn>
+		</fn-group>
+	</back>
+	<sub-article article-type="translation" id="s1" xml:lang="en">
+		<front-stub>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Original Article</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Validation of an interactive electronic book for cardiovascular risk reduction in people living with HIV<xref ref-type="fn" rid="fn2"><sup>*</sup></xref>
+				</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-7322-9370</contrib-id>
+					<name>
+						<surname>Melo</surname>
+						<given-names>Elizabete Santos</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff6"><sup>1</sup></xref>
+					<xref ref-type="aff" rid="aff7"><sup>2</sup></xref>
+					<xref ref-type="aff" rid="aff8"><sup>3</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-4711-4788</contrib-id>
+					<name>
+						<surname>Antonini</surname>
+						<given-names>Marcela</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff8"><sup>3</sup></xref>
+					<xref ref-type="aff" rid="aff9"><sup>4</sup></xref>
+					<xref ref-type="corresp" rid="c2">*</xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-6124-8243</contrib-id>
+					<name>
+						<surname>Costa</surname>
+						<given-names>Christefany Régia Braz</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff8"><sup>3</sup></xref>
+					<xref ref-type="aff" rid="aff9"><sup>4</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-1318-8431</contrib-id>
+					<name>
+						<surname>Pontes</surname>
+						<given-names>Priscila Silva</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff9"><sup>4</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-3757-4900</contrib-id>
+					<name>
+						<surname>Gir</surname>
+						<given-names>Elucir</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff9"><sup>4</sup></xref>
+					<xref ref-type="aff" rid="aff10"><sup>5</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-0681-4721</contrib-id>
+					<name>
+						<surname>Reis</surname>
+						<given-names>Renata Karina</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff9"><sup>4</sup></xref>
+					<xref ref-type="aff" rid="aff10"><sup>5</sup></xref>
+				</contrib>
+				<aff id="aff6">
+					<label>1</label>
+					<institution content-type="original"> Universidade Paulista, Instituto de Ciências da Saúde, São José do Rio Preto, SP, Brazil.</institution>
+					<institution content-type="normalized">Universidade Paulista</institution>
+					<institution content-type="orgname">Universidade Paulista</institution>
+					<institution content-type="orgdiv1">Instituto de Ciências da Saúde</institution>
+					<addr-line>
+						<city>São José do Rio Preto</city>
+						<state>SP</state>
+					</addr-line>
+					<country country="BR">Brazil</country>
+				</aff>
+				<aff id="aff7">
+					<label>2</label>
+					<institution content-type="original"> Universidade Brasil, Campus Fernandópolis, Fernandópolis, SP, Brazil.</institution>
+					<institution content-type="orgname">Universidade Brasil</institution>
+					<addr-line>
+						<city>Fernandópolis</city>
+						<state>SP</state>
+					</addr-line>
+					<country country="BR">Brazil</country>
+				</aff>
+				<aff id="aff8">
+					<label>3</label>
+					<institution content-type="original">Scholarship holder at the Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES), Brazil.</institution>
+					<institution content-type="orgname">Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES)</institution>
+					<country country="BR">Brazil</country>
+				</aff>
+				<aff id="aff9">
+					<label>4</label>
+					<institution content-type="original"> Universidade de São Paulo, Escola de Enfermagem de Ribeirão Preto, PAHO/WHO Collaborating Centre for Nursing Research Development, Ribeirão Preto, SP, Brazil.</institution>
+					<institution content-type="normalized">Universidade de São Paulo</institution>
+					<institution content-type="orgname">Universidade de São Paulo</institution>
+					<institution content-type="orgdiv1">Escola de Enfermagem de Ribeirão Preto</institution>
+					<institution content-type="orgdiv2">PAHO/WHO Collaborating Centre for Nursing Research Development</institution>
+					<addr-line>
+						<city>Ribeirão Preto</city>
+						<state>SP</state>
+					</addr-line>
+					<country country="BR">Brazil</country>
+				</aff>
+				<aff id="aff10">
+					<label>5</label>
+					<institution content-type="original"> Scholarship holder at the Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq), Brazil.</institution>
+					<institution content-type="normalized">Conselho Nacional de Desenvolvimento Científico e Tecnológico</institution>
+					<institution content-type="orgname">Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq)</institution>
+					<country country="BR">Brazil</country>
+				</aff>
+			</contrib-group>
+			<author-notes>
+				<corresp id="c2">
+					<label>*</label> Corresponding Author: <bold>Marcela Antonini</bold>. Email:<email>marcela.antonini@usp.br</email>
+				</corresp>
+				<fn fn-type="con" id="fn5">
+					<label>Authors’ Contribution</label>
+					<p><bold>Study concept and design:</bold> Elizabete Santos Melo, Elucir Gir, Renata Karina Reis. <bold>Obtaining data:</bold> Elizabete Santos Melo, Marcela Antonini, Christefany Régia Braz Costa, Priscila Silva Pontes, Renata Karina Reis. <bold>Data analysis and interpretation:</bold> Elizabete Santos Melo, Marcela Antonini, Christefany Régia Braz Costa, Priscila Silva Pontes, Renata Karina Reis. <bold>Statistical analysis:</bold> Elizabete Santos Melo, Marcela Antonini, Christefany Régia Braz Costa, Priscila Silva Pontes, Renata Karina Reis. <bold>Obtaining financing:</bold> Elucir Gir, Renata Karina Reis. <bold>Drafting the manuscript:</bold> Elizabete Santos Melo, Marcela Antonini, Christefany Régia Braz Costa, Priscila Silva Pontes, Elucir Gir, Renata Karina Reis. <bold>Critical review of the manuscript as to its relevant intellectual content:</bold> Elizabete Santos Melo, Marcela Antonini, Christefany Régia Braz Costa, Priscila Silva Pontes, Elucir Gir, Renata Karina Reis. All authors approved the final version of the text.</p>
+				</fn>
+				<fn fn-type="con" id="fn8">
+					<label>Conflict of interest</label>
+					<p>The authors have declared that there is no conflict of interest.</p>
+				</fn>
+				<fn fn-type="edited-by" id="fn14">
+					<label>Associate Editor</label>
+					<p>Maria Lúcia Zanetti</p>
+				</fn>
+			</author-notes>
+			<abstract>
+				<sec>
+					<title>Abstract</title>
+					<sec>
+						<title>Objective</title>
+						<p> To validate interactive digital educational material in the form of an electronic book about the prevention and reduction of cardiovascular risk from the perspective of people living with the Human Immunodeficiency Virus.</p>
+					</sec>
+					<sec>
+						<title>Method</title>
+						<p> This is a methodological study based on the theory of evaluation research, of the results analysis type, which involves technological production. The data were collected throughout Brazil by means of a virtual questionnaire consisting of items for general, visual, language, usability, content and appearance assessment of the educational material. A minimum Agreement Index of 80% was adopted in order to certify validity.</p>
+					</sec>
+					<sec>
+						<title>Results</title>
+						<p> 309 individuals living with the Human Immunodeficiency Virus participated in the study, the majority (84.3%) being male, aged between 19 and 65 years old and with complete higher education (29.3%). More than 90% of the participants assessed the book as suitable for solving doubts and providing preventive care for cardiovascular health. All the items evaluated reached an index above 0.80. The general evaluation of all the items reached a mean of 0.92, with general assessment (0.97) and content assessment (0.94).</p>
+					</sec>
+					<sec>
+						<title>Conclusion</title>
+						<p> The educational material proved to be valid, adequate and relevant to promote literacy in health, and could contribute to health promotion and to the prevention of cardiovascular diseases.</p>
+					</sec>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="en">
+				<title>Descriptors:</title>
+				<kwd>HIV</kwd>
+				<kwd>Cardiovascular Diseases</kwd>
+				<kwd>Health Education</kwd>
+				<kwd>Health Literacy</kwd>
+				<kwd>Educational Technology</kwd>
+				<kwd>Validation Study</kwd>
+			</kwd-group>
+			<funding-group>
+				<award-group award-type="contract">
+					<funding-source>Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq)</funding-source>
+					<award-id>Edital Universal 428304/2008-4</award-id>
+				</award-group>
+				<funding-statement>Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq), Edital Universal 428304-2008-4, Brazil</funding-statement>
+			</funding-group>
+		</front-stub>
+		<body>
+			<boxed-text id="bx2">
+				<sec>
+					<title>Highlights</title>
+					<p>(1) More than 80% of the participants reported motivation to read the e-book. (2) The e-book is relevant for planning cardiovascular health self-care. (3) It is a safe and reliant material as a facilitator for a lifestyle change. (4) Health literacy of PLHIV through digital technologies such as e-books. (5) The e-book is available for free download and can reach PLHIV.</p>
+				</sec>
+			</boxed-text>
+			<sec sec-type="intro">
+				<title>Introduction</title>
+				<p>The advent and large-scale availability of the anti-retroviral therapy (ART) has transformed the Human Immunodeficiency Virus (HIV) infection into a chronic disease<xref ref-type="bibr" rid="B1"><sup>1</sup></xref>. Treatment reduced the number of deaths attributed to opportunistic infections and increased the longevity of people living with HIV (PLHIV). However, other chronic comorbidities have emerged, such as cardiovascular diseases (CVDs), which became one of the main causes of morbidity in this population<xref ref-type="bibr" rid="B2"><sup>2</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B3"><sup>3</sup></xref>.</p>
+				<p>Traditionally, CVDs result from the interaction of multiple risk factors dichotomized between modifiable (smoking, inadequate diet, sedentary lifestyle, dyslipidemia, hypertension and diabetes) and non-modifiable (advanced age and family history)<xref ref-type="bibr" rid="B4"><sup>4</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B5"><sup>5</sup></xref>. CVDs are also related to long-term persistent metabolic disorders, such as insulin resistance and altered fat distribution (lipodystrophy)<xref ref-type="bibr" rid="B4"><sup>4</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B6"><sup>6</sup></xref>.</p>
+				<p>In addition, a number of studies have shown that these risk factors for CVDs are more frequent in PLHIV undergoing regular ART, evidencing living with the infection as a specific risk factor for CVDs<xref ref-type="bibr" rid="B3"><sup>3</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B6"><sup>6</sup></xref> and that, added to the traditional factors, they predispose PLHIV to an even greater risk for the development of diseases<xref ref-type="bibr" rid="B6"><sup>6</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B7"><sup>7</sup></xref>. </p>
+				<p>Thus, changing the lifestyle habits, such as increased physical activity, weight reduction and education about healthy eating practices is essential to mitigate the modifiable risk factors for CVDs in PLHIV<xref ref-type="bibr" rid="B7"><sup>7</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B8"><sup>8</sup></xref>. Such changes can be achieved through education in health, which seeks to increase people’s empowerment in relation to their health care<xref ref-type="bibr" rid="B9"><sup>9</sup></xref>, as well as improving literacy in health, which plays a prominent role in the primary and secondary prevention of CVDs<xref ref-type="bibr" rid="B10"><sup>10</sup></xref>. </p>
+				<p>Literacy in health has emerged as a major area of interest, being essential for research and health care in various chronic disease conditions. It is defined as “the degree to which individuals can find, understand and use information and services to make health-related decisions and initiate actions for themselves and others”<xref ref-type="bibr" rid="B11"><sup>11</sup></xref>. Low literacy in health is associated with challenges for those living with HIV, including drug non-adherence and worse health outcomes<xref ref-type="bibr" rid="B12"><sup>12</sup></xref>.</p>
+				<p>Difficulty accessing reliable information and/or lack of understanding are significant barriers to the effectiveness of literacy in health<xref ref-type="bibr" rid="B13"><sup>13</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B14"><sup>14</sup></xref>; therefore, the elaboration of educational materials in accessible language, as well as their validation by their target audience, can contribute to reducing such barriers.</p>
+				<p>In this context, digital educational materials, including the interactive electronic book (e-book), are information technologies that have provided a greater degree of interaction with health knowledge<xref ref-type="bibr" rid="B15"><sup>15</sup></xref>, especially when compared to passive learning carried out through static information sources<xref ref-type="bibr" rid="B16"><sup>16</sup></xref>. </p>
+				<p>E-books represent an important strategy to improve literacy in health and work on self-care through behavioral change, complementing the health team’s traditional educational efforts to reduce risk and prevent CVDs among PLHIV<xref ref-type="bibr" rid="B16"><sup>16</sup></xref>. </p>
+				<p>Therefore, this study aimed at validating interactive digital educational material in the form of an e-book about the prevention and reduction of cardiovascular risk from the perspective of people living with HIV/AIDS (PLHIV). </p>
+			</sec>
+			<sec sec-type="materials|methods">
+				<title>Method</title>
+				<sec>
+					<title>Study design</title>
+					<p>This study was part of a larger project entitled “Development, validation and effectiveness of educational technologies focused on the behavior, preventive practices and lifestyle of people living with HIV/AIDS”. This was a methodological study based on the theory of evaluation research, of the results analysis type, which involves technological production<xref ref-type="bibr" rid="B17"><sup>17</sup></xref>. The e-book focused on reducing cardiovascular risk in PLHIV. </p>
+					<p>The study was conducted in three stages. The first two began with the process of construction and validation of content and appearance by health experts (in relation to content and layout) and with experts in the field of information technology (evaluating the interfaces and functionalities of the e-book). For this, a literature review was conducted and then the book was built in digital format and validated, as described in the previous study<xref ref-type="bibr" rid="B18"><sup>18</sup></xref>.</p>
+					<p>In this third stage, in order to continue the validation process of the material, validation was carried out with the target audience regarding the general assessment and aspects such as visual, appearance, language, usability and content of the e-book in order to obtain the final version of the material<xref ref-type="bibr" rid="B19"><sup>19</sup></xref>. </p>
+					<p>The e-book entitled “Take care of your heart: Strategies to reduce cardiovascular risk in people living with HIV/AIDS”<xref ref-type="bibr" rid="B20"><sup>20</sup></xref> has its interface built in HTML5 and Java Script and generated a file in the Electronic Publication (ePUB) format. The content was written in order to meet the needs of the population; therefore, an accessible language with no technical terms was used to assist in understanding the content. Thus, in order to facilitate its interpretation, infographics and videos were created to make the Virtual Learning Environment (VLE) more dynamic and interactive<xref ref-type="bibr" rid="B18"><sup>18</sup></xref>. </p>
+					<p>The e-book was built with the aim of promoting usability and accessibility<xref ref-type="bibr" rid="B18"><sup>18</sup></xref>, providing the user with an easy-to-use, dynamic and interactive tool, and is available for free download at Apple Books on the iOS® platform or in Google Play on the Android® platform, being able to broadly reach PLHIV throughout Brazil. </p>
+					<p>In general, the material includes guidelines on knowledge about the risk for CVDs and addresses aspects of the modifiable risk factors: smoking, sedentary lifestyle, stress, obesity, diabetes mellitus, hypertension and dyslipidemia. In addition, the content about the risk for CVDs in PLHIV and the interventions/strategies for their reduction was assessed, including healthy eating, smoking cessation, encouragement of physical activity and stress relief based on the scientific literature<xref ref-type="bibr" rid="B4"><sup>4</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B19"><sup>19</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B21"><sup>21</sup></xref>. </p>
+				</sec>
+				<sec>
+					<title>Study locus</title>
+					<p>Data collection was carried out in a virtual environment with national coverage in the five Brazilian regions (North, Northeast, Midwest, Southeast and South).</p>
+				</sec>
+				<sec>
+					<title>Period</title>
+					<p>Data collection covered the period from March 31<sup>st</sup>, 2020 to March 1<sup>st</sup>, 2021.</p>
+				</sec>
+				<sec>
+					<title>Population, selection criteria and sample</title>
+					<p>The study sample consisted of 312 people living with HIV who were literate and had access to the Internet. The following inclusion criteria were established: knowledge of one’s HIV status, regardless of the stage of infection, being over 18 years old, literate and having access to the Internet. Three participants who did not complete the questionnaire were excluded. Thus, the sample consisted of 309 people living with HIV who met the selection criteria.</p>
+				</sec>
+				<sec>
+					<title>Study variables</title>
+					<p>The <italic>online</italic> quiz was elaborated containing sociodemographic and behavioral variables: gender, age (full years old), schooling, current work situation, individual income (minimum wages), Brazilian region of residence.</p>
+				</sec>
+				<sec>
+					<title>Instrument used to collect the information</title>
+					<p>For validation with the participants belonging to the target audience, a questionnaire was developed that assessed the visual aspect, language, usability, content, appearance and general evaluation of the educational material, on a Likert-type scale, with five levels of judgment<xref ref-type="bibr" rid="B22"><sup>22</sup></xref>. For the general evaluation: Excellent, Good, Indifferent, Bad and Very Bad; for the visual variable: Excellent, Good, Fair, Bad and Very Bad; for the language, usability, content and appearance variables: Totally Agree (TA), Agree (A), Neither Agree nor Disagree (N), Totally Disagree (TD) and Disagree (D). </p>
+				</sec>
+				<sec>
+					<title>Data collection</title>
+					<p>To carry out data collection, invitations were sent to PLHIV groups throughout Brazil via social media (Facebook® and Instagram®) and in WhatsApp® groups, as well as on the profile of the research group on the pages of these social media. In addition, the invitation was also posted on official pages of research partners and other researchers and health professionals from different regions of the country. Fliers with a QR code were also printed for direct access to the study questionnaire and distributed in Specialized Care Services (SCSs) to PLHIV.</p>
+					<p>The recruitment invitation consisted of a brief exposition text presenting the study with the inclusion criteria followed by the link or QR code that directed the participants to the virtual data collection platform (Survey Monkey®). The study home page already presented the full Free and Informed Consent Form (FICF). After reading it, the participants were able to select two possible answer options: “I agree to participate in the research” or “I do not agree to participate in the research”. Those who agreed to participate in the study received the online questionnaire, which was made available for access via computers or mobile devices (cell phones). </p>
+				</sec>
+				<sec>
+					<title>Data analysis</title>
+					<p>The data collected on the Survey Monkey® platform were transferred to an Excel spreadsheet and to the Statistical Package for the Social Sciences (SPSS)® statistical program, version 22.0. Descriptive statistical analyses were performed by calculating absolute and relative frequencies for the qualitative variables and, for the quantitative variables, calculations of central tendency (mean) were used. To certify the validity of each item addressed in the assessment instruments, a minimum Agreement Index (CI) of 80% was adopted among the participants, following the reference values of other validation studies<xref ref-type="bibr" rid="B23"><sup>23</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B24"><sup>24</sup></xref>.</p>
+					<p>To assess the degree of inter-rater agreement, the inter-rater reliability coefficient was used (first-order agreement coefficient - AC1). AC1 has the advantages of resistance in relation to marginal homogeneity and the prevalence trait, in addition to having the same interpretation of the Kappa statistic [slight (0.0-0.2); acceptable (0.21-0.40); moderate (0.41-0.60); considerable (0.61-0.80); and almost perfect (0.81-1.00)]<xref ref-type="bibr" rid="B25"><sup>25</sup></xref>.</p>
+					<p>In addition to that, the variables were classified as proposed in 1997<xref ref-type="bibr" rid="B25"><sup>25</sup></xref>, separating the questions into Group 1: language, usability, content, appearance and Group 2: pictures, motivation to read, topics covered and indication of the e-book to someone else. </p>
+				</sec>
+				<sec>
+					<title>Ethical aspects</title>
+					<p>The project was submitted and approved by the Research Ethics Committee, under opinion number 3,915,295. Data confidentiality and anonymity was guaranteed to all the research participants.</p>
+				</sec>
+			</sec>
+			<sec sec-type="results">
+				<title>Results</title>
+				<p>The 309 PLHIV who participated in the study came from 25 states, covering the five Brazilian regions, with the largest share being from the Southeast with 50.5% (n=156) and the Northeast with 24.3% (n=75). <xref ref-type="table" rid="t4">Table 1</xref> shows that the sample was predominantly made up of men, with 84.8% (n=262), aged between 19 and 65 years old and with a mean of 32.7 years old (±9.6). </p>
+				<p>In addition, most of the participants had completed higher education, 29.1% (n=90); 65.0% (n=201) were inserted in the formal or informal labor market; and 38.2% (n=118) had an income of one to two minimum wages.</p>
+				<p>
+					<table-wrap id="t4">
+						<label>Table 1</label>
+						<caption>
+							<title>Characterization of the people living with HIV/AIDS regarding the sociodemographic variables (n=309). Brazil, 2020-2021</title>
+						</caption>
+						<table>
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left">Variables</th>
+									<th align="center">n (309)</th>
+									<th align="center">% (100)</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td align="left" colspan="3"><bold>Gender</bold></td>
+								</tr>
+								<tr>
+									<td align="left">Male</td>
+									<td align="center">262</td>
+									<td align="center">84.8</td>
+								</tr>
+								<tr>
+									<td align="left">Female</td>
+									<td align="center">47</td>
+									<td align="center">15.2</td>
+								</tr>
+								<tr>
+									<td align="left" colspan="3"><bold>Schooling</bold></td>
+								</tr>
+								<tr>
+									<td align="left">Incomplete Elementary School</td>
+									<td align="center">06</td>
+									<td align="center">1.9</td>
+								</tr>
+								<tr>
+									<td align="left">Complete Elementary School</td>
+									<td align="center">07</td>
+									<td align="center">2.2</td>
+								</tr>
+								<tr>
+									<td align="left">Incomplete High School</td>
+									<td align="center">09</td>
+									<td align="center">2.9</td>
+								</tr>
+								<tr>
+									<td align="left">Complete High School</td>
+									<td align="center">44</td>
+									<td align="center">14.2</td>
+								</tr>
+								<tr>
+									<td align="left">Incomplete Higher Education</td>
+									<td align="center">81</td>
+									<td align="center">26.2</td>
+								</tr>
+								<tr>
+									<td align="left">Complete Higher Education</td>
+									<td align="center">90</td>
+									<td align="center">29.1</td>
+								</tr>
+								<tr>
+									<td align="left">Graduate studies</td>
+									<td align="center">72</td>
+									<td align="center">23.3</td>
+								</tr>
+								<tr>
+									<td align="left" colspan="3"><bold>Work Situation</bold></td>
+								</tr>
+								<tr>
+									<td align="left">Active</td>
+									<td align="center">201</td>
+									<td align="center">65.0</td>
+								</tr>
+								<tr>
+									<td align="left">Inactive</td>
+									<td align="center">87</td>
+									<td align="center">28.1</td>
+								</tr>
+								<tr>
+									<td align="left">Retired</td>
+									<td align="center">05</td>
+									<td align="center">1.6</td>
+								</tr>
+								<tr>
+									<td align="left">Distanced from work</td>
+									<td align="center">16</td>
+									<td align="center">5.2</td>
+								</tr>
+								<tr>
+									<td align="left" colspan="3"><bold>Region</bold></td>
+								</tr>
+								<tr>
+									<td align="left">North</td>
+									<td align="center">14</td>
+									<td align="center">4.5</td>
+								</tr>
+								<tr>
+									<td align="left">Northeast</td>
+									<td align="center">75</td>
+									<td align="center">24.3</td>
+								</tr>
+								<tr>
+									<td align="left">Midwest</td>
+									<td align="center">22</td>
+									<td align="center">7.1</td>
+								</tr>
+								<tr>
+									<td align="left">Southeast</td>
+									<td align="center">156</td>
+									<td align="center">50.5</td>
+								</tr>
+								<tr>
+									<td align="left">South</td>
+									<td align="center">42</td>
+									<td align="center">13.6</td>
+								</tr>
+								<tr>
+									<td align="left" colspan="3"><bold>Individual income (minimum wages)*</bold></td>
+								</tr>
+								<tr>
+									<td align="left">No income</td>
+									<td align="center">24</td>
+									<td align="center">7.8</td>
+								</tr>
+								<tr>
+									<td align="left">&lt;1</td>
+									<td align="center">54</td>
+									<td align="center">17.5</td>
+								</tr>
+								<tr>
+									<td align="left">1-2</td>
+									<td align="center">118</td>
+									<td align="center">38.2</td>
+								</tr>
+								<tr>
+									<td align="left">3-4</td>
+									<td align="center">45</td>
+									<td align="center">14.6</td>
+								</tr>
+								<tr>
+									<td align="left">More than 4</td>
+									<td align="center">68</td>
+									<td align="center">22.0</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN4">
+								<p>*Minimum Wage 2020 (Brazil): R$ 1,045.00 (one thousand and forty-five reais)</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p>
+					<xref ref-type="table" rid="t5">Table 2</xref> presents the answers and the Agreement Index (AI) of each assessment item among them. In the general evaluation of all the items, a mean of 0.92 was reached in the AI. The general evaluation and content items obtained the highest AIs with values equal to 0.97 and 0.94, respectively; and the item about appearance had the lowest value (0.86) in the AI. All the other items evaluated reached an AI above 0.80.</p>
+				<p>
+					<table-wrap id="t5">
+						<label>Table 2</label>
+						<caption>
+							<title>Assessment of the agreement among the participants regarding adequacy and relevance of the e-book (n=309). Brazil, 2020-2021</title>
+						</caption>
+						<table>
+							<colgroup>
+								<col span="7"/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left" colspan="7">Evaluation items</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td align="left"><bold>General Evaluation</bold></td>
+									<td align="center">Excellent</td>
+									<td align="center">Good</td>
+									<td align="center">Indifferent</td>
+									<td align="center">Bad</td>
+									<td align="center">Very bad</td>
+									<td align="center">AI</td>
+								</tr>
+								<tr>
+									<td align="left">In general, how do you assess the e-book</td>
+									<td align="center">160</td>
+									<td align="center">141</td>
+									<td align="center">08</td>
+									<td align="center">00</td>
+									<td align="center">00</td>
+									<td align="center">0.97</td>
+								</tr>
+								<tr>
+									<td align="left">Visual</td>
+									<td align="center">Excellent</td>
+									<td align="center">Good</td>
+									<td align="center">Fair</td>
+									<td align="center">Bad</td>
+									<td align="center">Very bad</td>
+									<td align="center">AI</td>
+								</tr>
+								<tr>
+									<td align="left">What did you think about the e-book’s visual aspect?</td>
+									<td align="center">145</td>
+									<td align="center">141</td>
+									<td align="center">00</td>
+									<td align="center">21</td>
+									<td align="center">02</td>
+									<td align="center">0.93</td>
+								</tr>
+								<tr>
+									<td align="left">Language</td>
+									<td align="center">TA*</td>
+									<td align="center">A<sup>†</sup></td>
+									<td align="center">N<sup>‡</sup></td>
+									<td align="center">D<sup>§</sup></td>
+									<td align="center">TD<sup>║</sup></td>
+									<td align="center">AI<sup>¶</sup></td>
+								</tr>
+								<tr>
+									<td align="left">Is the language used in the information easy to understand?</td>
+									<td align="center">130</td>
+									<td align="center">145</td>
+									<td align="center">32</td>
+									<td align="center">02</td>
+									<td align="center">00</td>
+									<td align="center">0.89</td>
+								</tr>
+								<tr>
+									<td align="left" colspan="7"><bold>Usability</bold></td>
+								</tr>
+								<tr>
+									<td align="left">Is the e-book easy to use?</td>
+									<td align="center">128</td>
+									<td align="center">156</td>
+									<td align="center">24</td>
+									<td align="center">01</td>
+									<td align="center">00</td>
+									<td align="center">0.92</td>
+								</tr>
+								<tr>
+									<td align="left" colspan="7"><bold>Content</bold></td>
+								</tr>
+								<tr>
+									<td align="left">Is the content covered relevant to your health?</td>
+									<td align="center">161</td>
+									<td align="center">130</td>
+									<td align="center">18</td>
+									<td align="center">00</td>
+									<td align="center">00</td>
+									<td align="center">0.94</td>
+								</tr>
+								<tr>
+									<td align="left">Can the guidelines contained in the e-book help you improve your health?</td>
+									<td align="center">152</td>
+									<td align="center">138</td>
+									<td align="center">19</td>
+									<td align="center">00</td>
+									<td align="center">00</td>
+									<td align="center">0.94</td>
+								</tr>
+								<tr>
+									<td align="left" colspan="7"><bold>Appearance</bold></td>
+								</tr>
+								<tr>
+									<td align="left">Are the e-book’s videos interesting?</td>
+									<td align="center">116</td>
+									<td align="center">150</td>
+									<td align="center">43</td>
+									<td align="center">00</td>
+									<td align="center">00</td>
+									<td align="center">0.86</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN5">
+								<p>*TA = Totally agree; <sup>†</sup>A = Agree; <sup>‡</sup>N = Neither agree nor disagree; <sup>§</sup>D = Disagree; <sup>||</sup>TD = Totally disagree; <sup>¶</sup>AI = Agreement Index</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p>When asked, most of the 293 participants (94.8%) indicated that educational materials can help solve doubts about the prevention of cardiovascular diseases. Of the total, 301 (97.4%) highlighted that the issues addressed are necessary for the patients with HIV to be able to perform the adequate care measures for cardiovascular health.</p>
+				<p>When asked about pertinence of the content, understanding, motivation for reading and sequencing of the e-book, the participants indicated approval with more than 80% of agreement in all questions, with emphasis on the contents addressed, pointed out as pertinent by 97.4% (n=301) of the participants (<xref ref-type="fig" rid="f2">Figure 1</xref>). </p>
+				<p>
+					<fig id="f2">
+						<label>Figure 1</label>
+						<caption>
+							<title>Participants’ agreement regarding pertinence of the content, understanding, interest and motivation for reading (n=309). Brazil, 2020-2021</title>
+						</caption>
+						<graphic xlink:href="1518-8345-rlae-30-e3512-gf2.png"/>
+					</fig>
+				</p>
+				<p>
+					<xref ref-type="table" rid="t6">Table 3</xref> shows the data related to the assessment of the inter-rater agreement of the e-book, which showed “almost perfect agreement” among the evaluators regarding the aspects assessed in Group 2 and “acceptable agreement” among the evaluators regarding the aspects assessed in Group 1.</p>
+				<p>
+					<table-wrap id="t6">
+						<label>Table 3</label>
+						<caption>
+							<title>Inter-rater agreement measure related to the validation of the e-book as for adequacy and pertinence (n=309). Brazil, 2020-2021</title>
+						</caption>
+						<table>
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left">Validation</th>
+									<th align="center">*AC1</th>
+									<th align="center">SE_AC1<sup>†</sup></th>
+									<th align="center">p-value</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td align="left">Group 1</td>
+									<td align="center">0.287</td>
+									<td align="center">0.017</td>
+									<td align="center">0.0001</td>
+								</tr>
+								<tr>
+									<td align="left">Group 2</td>
+									<td align="center">0.921</td>
+									<td align="center">0.061</td>
+									<td align="center">0.0001</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN6">
+								<p>*AC1 = Inter-evaluator reliability coefficient; <sup>†</sup>SE_AC1 = Standard Error of reliability among the evaluators. Note: Significance level: 5% (p&lt;0.05).</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+			</sec>
+			<sec sec-type="discussion">
+				<title>Discussion</title>
+				<p>In this study, it was verified that the <italic>e-book</italic> elaborated was considered valid from the perspective of the target audience in terms of visual, language, usability, content, appearance and general evaluation. It is noteworthy that validation of materials is an important stage for the development of educational materials<xref ref-type="bibr" rid="B26"><sup>26</sup></xref> and validation by its target audience allows identifying and working on the aspects that evidence its readability.</p>
+				<p>A study conducted in the United States showed that all types of educational materials related to cardiovascular health exceed the reading ability of their target audience and that this distance between readability of the material and the population’s reading level negatively affects understanding of the information offered and, consequently, success of their use as a basis for decision-making focused on self-care<xref ref-type="bibr" rid="B13"><sup>13</sup></xref>.</p>
+				<p>Transposing this issue to the Brazilian reality, where the majority of the territorial population (50.4%) has not completed elementary school<xref ref-type="bibr" rid="B27"><sup>27</sup></xref>, it is necessary to develop interactive educational materials, easy to understand and that promote and facilitate self-management in health for this population<xref ref-type="bibr" rid="B14"><sup>14</sup></xref>.</p>
+				<p>The contents covered were considered pertinent and include aspects related to the main cardiovascular risk factors and guidelines aimed at prevention<xref ref-type="bibr" rid="B4"><sup>4</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B28"><sup>28</sup></xref>. Our findings corroborate another Brazilian study, which points out that addressing CVDs among PLHIV is a priority and emphasizes the importance of managing both traditional and specific risk factors related to HIV infection to reduce the risk of CVDs in these individuals<xref ref-type="bibr" rid="B29"><sup>29</sup></xref>. </p>
+				<p>The construction and validation of interactive digital educational materials allows the general population to have access to relevant and appropriate contents for health promotion and disease prevention based on scientific evidence. This is relevant, since a large part of the content produced by science ends up without dissemination and/or practical application, feeding a vicious circle of exclusion of the majority of the population that does not have access to this means<xref ref-type="bibr" rid="B30"><sup>30</sup></xref>.</p>
+				<p>Although CVDs have complex mechanisms and etiologies that are difficult to understand<xref ref-type="bibr" rid="B13"><sup>13</sup></xref>, it was observed that, regarding readability of the e-book, the text was considered interesting, with an adequate sequence and easy to understand. </p>
+				<p>The readability assessment is paramount and is considered as a quality metric that should be evaluated before online publication of any educational material<xref ref-type="bibr" rid="B13"><sup>13</sup></xref>. This aspect is relevant, as educational materials and instructions routinely include technical language and complex explanations or do not contain understandable illustrations, making them difficult for the target audience to understand<xref ref-type="bibr" rid="B10"><sup>10</sup></xref>. Clear and simple communication helps people feel more involved in their health care and increases their chances of following their care plans and adherence to the treatment<xref ref-type="bibr" rid="B26"><sup>26</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B31"><sup>31</sup></xref>. </p>
+				<p>In this context, the content and language addressed should also be highlighted, as they must be accessible and free of technical terms to assist in understanding the content, in addition to providing interactivity between the reader and the educational material. In addition to that, in the development of educational materials, the language must be objective, avoiding the use of long and detailed sentences, as they can provide dispersion and make reading tiring<xref ref-type="bibr" rid="B31"><sup>31</sup></xref>.</p>
+				<p>In this study, more than 80.0% of the participants reported motivation to read the e-book and assessed the content addressed as pertinent to planning self-care for cardiovascular health. For the educational material to be current and relevant, it is indispensable that it is inserted in the social context of the target population, and that it meets its needs and particularities<xref ref-type="bibr" rid="B32"><sup>32</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B33"><sup>33</sup></xref>. Therefore, themes and topics covered in educational contents must meet the needs of people, providing empowerment on the topic addressed<xref ref-type="bibr" rid="B31"><sup>31</sup></xref>.</p>
+				<p>Regarding usability of the e-book, the study participants rated it as easy to use. It consists of videos, audios and links to access other pages that supplement the content addressed and make its use more playful, in addition to easy access and sharing through the social networks. Therefore, the ease of use of a tool is directly related to the level of satisfaction of the user who consumes it, since poorly designed interfaces can result in disinterest or discredit by the user<xref ref-type="bibr" rid="B34"><sup>34</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B35"><sup>35</sup></xref>.</p>
+				<p>Educational materials made available virtually have been used as tools to improve knowledge, adherence to the treatment and self-care, from a perspective of health promotion and disease prevention<xref ref-type="bibr" rid="B10"><sup>10</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B36"><sup>36</sup></xref>. When produced by health professionals, they have the power to strengthen the guidelines verbalized during the appointments, in addition to answering some questions. The approach used in the construction of the educational material allows identifying the needs of the target audience, especially when validation is carried out by such population.</p>
+				<p>Given the above, another challenging point is the basic use of digital resources (digital literacy) and the target audience’s ability to explore resources more broadly (digital literacy)<xref ref-type="bibr" rid="B13"><sup>13</sup></xref>. In this study, the educational material was validated by PLHIV from all the Brazilian regions with the most varied types of schooling, although most had higher education and many attended graduate courses; therefore, they are consistent with the profile of individuals who have greater access to the Internet, information and more digital literacy. </p>
+				<p>Thus, improving literacy in health among those with lower schooling levels represents a unique challenge for health professionals since, despite the benefits of using health information technology, it is possible that such information does not reach groups that perhaps have less access to the Internet and is included in groups aimed at this population on the social networks. Therefore, we suggest that this educational material is an educational resource option in the clinical practice for PLHIV.</p>
+				<p>A relevant aspect of this study is that it was validated by participants from all regions of the country, predominantly the Southeast and Northeast. The heterogeneity of Brazilian regions is related to the diversity of the HIV infection epidemiological profile in the country and to the different conditions of access to technologies across the states. </p>
+				<p>In the historical evolution of AIDS in Brazil, the first cases were diagnosed in the Southeast until reaching the North and Northeast regions of the country. The proportional distribution of AIDS cases identified from 1980 to June 2019 shows different concentrations in the following Brazilian regions: Southeast (51.3%), South (19.9%), Northeast (16.1%), North (6.6%) and Midwest (6.1%)<xref ref-type="bibr" rid="B37"><sup>37</sup></xref>. This heterogeneity of regions also implies peculiarities regarding the means of production, culture, education and access to the services, which makes health care not universal and equitable in Brazil, hindering access to diagnosis and treatment. The Southeast and South regions stand out in terms of the development of education, which exerts an impact on the detection, treatment and prevention of the disease. The Northeast region, on the other hand, is the second most populous region in Brazil and has one of the lowest indicators in the evaluation of the educational system’s performance<xref ref-type="bibr" rid="B38"><sup>38</sup></xref>. </p>
+				<p>Thus, our results reassert how the use of educational materials in digital format and the Internet show themselves as new possibilities that can help promote literacy in health, and even continuous and comprehensive care, transforming this technology into a new option for thinking and planning health interventions in the most varied scenarios.</p>
+				<p>In addition to knowledge, the subjects’ self-efficacy and motivation are considered as the basis for behavioral change<xref ref-type="bibr" rid="B18"><sup>18</sup></xref>. Therefore, the use of technology, associated with quality information, can promote greater interest on the part of the subjects and, therefore, foster knowledge and motivation for change with a view to a better quality of life<xref ref-type="bibr" rid="B18"><sup>18</sup></xref>.</p>
+				<p>In addition, we emphasize that the educational material can be used during Nursing consultations, as well as by other health professionals and/or literacy in health activities, to complement and reinforce the information provided. It is noteworthy that nurses play a fundamental role in the development of educational interventions in the health services and, in particular, they can benefit from the use of digital technologies to improve PLHIV’s literacy in health. </p>
+				<p>Thus, we ratify the importance of elaborating and validating educational materials with the target population, in order to provide a safe and effective material that works as a facilitator for lifestyle change, seeking to encourage the performance of activities that promote healthier lifestyle habits. An easy-to-understand, interactive, accessible, usable, up-to-date and freely available content e-book is made available to PLHIV.</p>
+				<p>The limitation found in the study refers to the restriction of the results to groups that have access to the Internet, with a high schooling level and more used to handling computerized tools; therefore, with more ease to consume educational technologies built in this format.</p>
+			</sec>
+			<sec sec-type="conclusions">
+				<title>Conclusion</title>
+				<p>The interactive educational material elaborated called “Take care of your heart” was considered valid by the PLHIV. It is also noteworthy that it was an unprecedented study on this topic in Brazil, and that it allowed creating a product consisting in relevant contents, easily accessible and freely available to the population. </p>
+				<p>From this, the relevance of the clinical validation process with the target population is highlighted, as the material elaborated must be easy to understand and read by those for whom it is intended, so that its objective can be achieved. </p>
+				<p>It is suggested that new studies address the application of this e-book for specific population groups, such as older adults, women, and low-educated and low-income people living with HIV, in order to identify new gaps that may have not yet been addressed.</p>
+			</sec>
+		</body>
+		<back>
+			<fn-group>
+				<fn fn-type="other" id="fn2">
+					<label>*</label>
+					<p>Paper extracted from doctoral dissertation “Construction and validation of digital educational material to reduce cardiovascular risk in people living with HIV”, presented to Universidade de São Paulo, Escola de Enfermagem de Ribeirão Preto, PAHO/WHO Collaborating Centre for Nursing Research Development, Ribeirão Preto, SP, Brazil.</p>
+				</fn>
+				<fn fn-type="financial-disclosure" id="fn11">
+					<label>Supported by</label>
+					<p>Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq), Edital Universal 428304/2008-4, Brazil.</p>
+				</fn>
+			</fn-group>
+		</back>
+	</sub-article>
+	<sub-article article-type="translation" id="s2" xml:lang="es">
+		<front-stub>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artigo Original</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Validación de un libro electrónico interactivo para la reducción del riesgo cardiovascular en personas que viven con VIH<xref ref-type="fn" rid="fn3"><sup>*</sup></xref>
+				</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-7322-9370</contrib-id>
+					<name>
+						<surname>Melo</surname>
+						<given-names>Elizabete Santos</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff11"><sup>1</sup></xref>
+					<xref ref-type="aff" rid="aff12"><sup>2</sup></xref>
+					<xref ref-type="aff" rid="aff13"><sup>3</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-4711-4788</contrib-id>
+					<name>
+						<surname>Antonini</surname>
+						<given-names>Marcela</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff13"><sup>3</sup></xref>
+					<xref ref-type="aff" rid="aff14"><sup>4</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-6124-8243</contrib-id>
+					<name>
+						<surname>Costa</surname>
+						<given-names>Christefany Régia Braz</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff13"><sup>3</sup></xref>
+					<xref ref-type="aff" rid="aff14"><sup>4</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-1318-8431</contrib-id>
+					<name>
+						<surname>Pontes</surname>
+						<given-names>Priscila Silva</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff14"><sup>4</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-3757-4900</contrib-id>
+					<name>
+						<surname>Gir</surname>
+						<given-names>Elucir</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff14"><sup>4</sup></xref>
+					<xref ref-type="aff" rid="aff15"><sup>5</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-0681-4721</contrib-id>
+					<name>
+						<surname>Reis</surname>
+						<given-names>Renata Karina</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff14"><sup>4</sup></xref>
+					<xref ref-type="aff" rid="aff15"><sup>5</sup></xref>
+				</contrib>
+				<aff id="aff11">
+					<label>1</label>
+					<institution content-type="original"> Universidade Paulista, Instituto de Ciências da Saúde, São José do Rio Preto, SP, Brasil.</institution>
+					<institution content-type="normalized">Univerisidade Paulista</institution>
+					<institution content-type="orgname">Universidade Paulista</institution>
+					<institution content-type="orgdiv1">Instituto de Ciências da Saúde</institution>
+					<addr-line>
+						<city>São José do Rio Preto</city>
+						<state>SP</state>
+					</addr-line>
+					<country country="BR">Brazil</country>
+				</aff>
+				<aff id="aff12">
+					<label>2</label>
+					<institution content-type="original">Universidade Brasil, Campus Fernandópolis, Fernandópolis, SP, Brasil.</institution>
+					<institution content-type="orgname">Universidade Brasil</institution>
+					<addr-line>
+						<city>Fernandópolis</city>
+						<state>SP</state>
+					</addr-line>
+					<country country="BR">Brasil</country>
+				</aff>
+				<aff id="aff13">
+					<label>3</label>
+					<institution content-type="original"> Becaria de la Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES), Brasil.</institution>
+					<institution content-type="orgname">Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES)</institution>
+					<country country="BR">Brasil</country>
+				</aff>
+				<aff id="aff14">
+					<label>4</label>
+					<institution content-type="original"> Universidade de São Paulo, Escola de Enfermagem de Ribeirão Preto, Centro Colaborador de la OPS/OMS para el Desarrollo de la Investigación en Enfermería, Ribeirão Preto, SP, Brasil.</institution>
+					<institution content-type="normalized">Universidade de São Paulo</institution>
+					<institution content-type="orgname">Universidade de São Paulo</institution>
+					<institution content-type="orgdiv1">Escola de Enfermagem de Ribeirão Preto</institution>
+					<institution content-type="orgdiv2">Centro Colaborador de la OPS/OMS para el Desarrollo de la Investigación en Enfermería</institution>
+					<addr-line>
+						<city>Ribeirão Preto</city>
+						<state>SP</state>
+					</addr-line>
+					<country country="BR">Brazil</country>
+				</aff>
+				<aff id="aff15">
+					<label>5</label>
+					<institution content-type="original"> Becaria del Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq), Brasil.</institution>
+					<institution content-type="normalized">Conselho Nacional de Desenvolvimento Científico e Tecnológico</institution>
+					<institution content-type="orgname">Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq)</institution>
+					<country country="BR">Brazil</country>
+				</aff>
+			</contrib-group>
+			<author-notes>
+				<corresp id="c3">
+					<label>*</label> Autor de correspondencia: <bold>Marcela Antonini</bold>. <email>marcela.antonini@usp.br</email>
+				</corresp>
+				<fn fn-type="edited-by" id="fn15">
+					<label>Editora Associada</label>
+					<p>Maria Lúcia Zanetti</p>
+				</fn>
+				<fn fn-type="con" id="fn6">
+					<label>Contribución de los Autores</label>
+					<p><bold>Concepción y dibujo de la pesquisa:</bold> Elizabete Santos Melo, Elucir Gir, Renata Karina Reis. <bold>Obtención de datos:</bold> Elizabete Santos Melo, Marcela Antonini, Christefany Régia Braz Costa, Priscila Silva Pontes, Renata Karina Reis. <bold>Análisis e interpretación de los datos:</bold> Elizabete Santos Melo, Marcela Antonini, Christefany Régia Braz Costa, Priscila Silva Pontes, Renata Karina Reis. <bold>Análisis estadístico:</bold> Elizabete Santos Melo, Marcela Antonini, Christefany Régia Braz Costa, Priscila Silva Pontes, Renata Karina Reis. <bold>Obtención de financiación:</bold> Elucir Gir<bold>,</bold> Renata Karina Reis. <bold>Redacción del manuscrito:</bold> Elizabete Santos Melo, Marcela Antonini, Christefany Régia Braz Costa, Priscila Silva Pontes, Elucir Gir, Renata Karina Reis. <bold>Revisión crítica del manuscrito en cuanto al contenido intelectual importante:</bold> Elizabete Santos Melo, Marcela Antonini, Christefany Régia Braz Costa, Priscila Silva Pontes, Elucir Gir, Renata Karina Reis. Todos los autores aprobaron la versión final del texto.</p>
+				</fn>
+				<fn fn-type="conflict" id="fn9">
+					<label>Conflicto de intereses</label>
+					<p>Los autores han declarado que no existe ningún conflicto de intereses</p>
+				</fn>
+			</author-notes>
+			<abstract>
+				<title>Resumen</title>
+				<sec>
+					<title>Objetivo</title>
+					<p>Validar un material educativo digital interactivo en forma de libro electrónico sobre prevención y reducción del riesgo cardiovascular desde la perspectiva de las personas que viven con el virus de la inmunodeficiencia humana.</p>
+				</sec>
+				<sec>
+					<title>Método</title>
+					<p>Se trata de un estudio metodológico basado en la teoría de la investigación evaluativa, del tipo análisis de resultados, que incluye producción tecnológica. Los datos fueron recolectados en todo Brasil a través de un cuestionario virtual compuesto por ítems de evaluación general e ítems que evalúan el aspecto visual, el lenguaje, la usabilidad, el contenido y la apariencia del material educativo. Para comprobar la validez se adoptó un Índice de Concordancia mínimo del 80%.</p>
+				</sec>
+				<sec>
+					<title>Resultados</title>
+					<p>Participaron en el estudio 309 personas que viven con el virus de la inmunodeficiencia humana, la mayoría (84,3%) era del sexo masculino, tenía entre 19 y 65 años y estudios superiores completos (29,3%). Más del 90% de los participantes calificaron el libro como adecuado para aclarar dudas y realizar cuidados preventivos para la salud cardiovascular. Todos los ítems evaluados alcanzaron un índice superior a 0,80. La evaluación general de todos los ítems alcanzó una media de 0,92, la evaluación general fue 0,97 y la de contenido 0,94.</p>
+				</sec>
+				<sec>
+					<title>Conclusión</title>
+					<p>El material educativo demostró ser válido, adecuado y relevante para promover la alfabetización en salud y puede contribuir a la promoción de la salud y a la prevención de enfermedades cardiovasculares.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="es">
+				<title>Descriptores:</title>
+				<kwd>VIH</kwd>
+				<kwd>Enfermedades Cardiovasculares</kwd>
+				<kwd>Educación en Salud</kwd>
+				<kwd>Alfabetizacíon em Salud</kwd>
+				<kwd>Tecnología Educacional</kwd>
+				<kwd>Estudio de Validación</kwd>
+			</kwd-group>
+			<funding-group>
+				<award-group award-type="contract">
+					<funding-source>Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq)</funding-source>
+					<award-id>Edital Universal 428304/2008-4</award-id>
+				</award-group>
+				<funding-statement>Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq), Edital Universal 428304/2008-4, Brasil</funding-statement>
+			</funding-group>
+		</front-stub>
+		<body>
+			<boxed-text id="bx3">
+				<sec>
+					<title>Destacados</title>
+					<p>(1) Más del 80% de los participantes reportaron motivación para leer el <italic>e-book</italic>. (2) Contenido relevante para la planificación del autocuidado de la salud cardiovascular. (3) Material seguro y eficaz como facilitador del cambio de estilo de vida. (4) Alfabetización en salud de las PVVIH a través de tecnologías digitales como <italic>e-book</italic>. (4) El libro electrónico inédito está disponible gratuitamente para el uso de las PVVIH</p>
+				</sec>
+			</boxed-text>
+			<sec sec-type="intro">
+				<title>Introducción</title>
+				<p>El advenimiento y la disponibilidad a gran escala de la terapia antirretroviral (TAR) ha transformado la infección por el virus de la inmunodeficiencia humana (VIH) en una enfermedad crónica<xref ref-type="bibr" rid="B1"><sup>1</sup></xref>. El tratamiento redujo el número de muertes atribuidas a infecciones oportunistas y aumentó la longevidad de las personas que viven con VIH (PVVIH). Sin embargo, surgieron otras comorbilidades crónicas, como las enfermedades cardiovasculares (ECV), que se convirtieron en una de las principales causas de morbilidad en esta población<xref ref-type="bibr" rid="B2"><sup>2</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B3"><sup>3</sup></xref>.</p>
+				<p>Tradicionalmente, las ECV resultan de la interacción de múltiples factores de riesgo dicotomizados entre modificables (tabaquismo, dieta inadecuada, sedentarismo, dislipidemia, hipertensión y diabetes) y no modificables (edad avanzada y antecedentes familiares)<xref ref-type="bibr" rid="B4"><sup>4</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B5"><sup>5</sup></xref>. Las ECV también están relacionadas con trastornos metabólicos persistentes a largo plazo, como la resistencia a la insulina y los cambios en la distribución de la grasa (lipodistrofia)<xref ref-type="bibr" rid="B4"><sup>4</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B6"><sup>6</sup></xref>.</p>
+				<p>Además, los estudios han demostrado que los factores de riesgo de ECV son más frecuentes en las PVVIH en TAR regular, esto indica que vivir con la infección es un factor de riesgo específico de ECV<xref ref-type="bibr" rid="B3"><sup>3</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B6"><sup>6</sup></xref> y que, sumado a los factores tradicionales, predisponen a las PVVIH a un riesgo aún mayor de desarrollar enfermedades<xref ref-type="bibr" rid="B6"><sup>6</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B7"><sup>7</sup></xref>.</p>
+				<p>Por lo tanto, modificar hábitos de vida, como el aumento de la actividad física, la reducción de peso y la educación sobre hábitos alimentarios saludables, son esenciales para disminuir los factores de riesgo modificables de ECV en las PVVIH<xref ref-type="bibr" rid="B7"><sup>7</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B8"><sup>8</sup></xref>. Tales cambios se pueden lograr a través de la educación para la salud, que busca aumentar el empoderamiento de las personas para que cuiden de su salud<xref ref-type="bibr" rid="B9"><sup>9</sup></xref>, así como también mejorar la alfabetización en salud, que juega un papel destacado en la prevención primaria y secundaria de las ECV<xref ref-type="bibr" rid="B10"><sup>10</sup></xref>.</p>
+				<p>La alfabetización en salud surgió como una importante área de interés, dado que es fundamental para la investigación y atención en salud de diversas enfermedades crónicas. Se define como “el grado de capacidad de las personas para encontrar, comprender y utilizar información y servicios para tomar decisiones y acciones relacionadas con la salud para sí mismos y para los demás”<xref ref-type="bibr" rid="B11"><sup>11</sup></xref>. La baja alfabetización en salud está relacionada con los desafíos que enfrentan las personas que viven con VIH, como falta de adhesión al uso de los medicamentos y peores resultados de salud<xref ref-type="bibr" rid="B12"><sup>12</sup></xref>.</p>
+				<p>La dificultad para acceder a información confiable y/o no comprenderla son barreras importantes para la efectividad de la alfabetización en salud<xref ref-type="bibr" rid="B13"><sup>13</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B14"><sup>14</sup></xref>, por lo tanto, el desarrollo de materiales educativos con lenguaje accesible y la validación del mismo por parte del público objetivo, pueden contribuir a reducir las barreras.</p>
+				<p>En este caso, los materiales educativos digitales, incluido el libro electrónico interactivo (<italic>e-book</italic>), son tecnologías de la información que han generado un mayor grado de interacción con el conocimiento en salud<xref ref-type="bibr" rid="B15"><sup>15</sup></xref>, especialmente si se las compara con el aprendizaje pasivo realizado a través de fuentes informativas estáticas<xref ref-type="bibr" rid="B16"><sup>16</sup></xref>.</p>
+				<p>Los <italic>e-books</italic> representan una estrategia importante para mejorar la alfabetización en salud y trabajar en el autocuidado a través del cambio de comportamiento, complementando los esfuerzos educativos tradicionales del equipo de salud para reducir el riesgo y prevenir las ECV en las PVVIH<xref ref-type="bibr" rid="B16"><sup>16</sup></xref>.</p>
+				<p>Por lo tanto, este estudio tuvo como objetivo validar un material educativo digital interactivo en forma de libro electrónico (<italic>e-book</italic>) sobre prevención y reducción del riesgo cardiovascular desde la perspectiva de las personas que viven con VIH/SIDA (PVVIH).</p>
+			</sec>
+			<sec sec-type="materials|methods">
+				<title>Método</title>
+				<sec>
+					<title>Diseño del estudio</title>
+					<p>Este estudio formó parte de un proyecto más amplio titulado “Desarrollo, validación y eficacia de tecnologías educativas centradas en el comportamiento, las prácticas preventivas y el estilo de vida de las personas que viven con VIH/SIDA” (<italic>Desenvolvimento, validação e efetividade de tecnologias educativas com enfoque no comportamento, práticas preventivas e estilo de vida de pessoas que vivem com o HIV/aids</italic>). Se trataba de un estudio metodológico basado en la teoría de la investigación evaluativa, del tipo análisis de resultados, que incluía producción tecnológica<xref ref-type="bibr" rid="B17"><sup>17</sup></xref>. El objetivo del <italic>e-book</italic> era reducir el riesgo cardiovascular en las PVVIH.</p>
+					<p>El estudio se realizó en tres etapas. Las dos primeras comenzaron con el proceso de elaboración y validación del contenido y de la apariencia por parte de especialistas en salud (para el contenido y <italic>layout</italic>) y con especialistas del área de la informática (que evaluaron las interfaces y funcionalidades del <italic>e-book</italic>). Para ello, se realizó una revisión de la literatura y luego se construyó el libro en formato digital y se validó, como se describe en el estudio anterior<xref ref-type="bibr" rid="B18"><sup>18</sup></xref>.</p>
+					<p>En la tercera etapa, a fin de continuar con el proceso de validación del material, se realizó la validación con el público objetivo, se llevó a cabo una evaluación general y de cuestiones tales como el aspecto visual, la apariencia, el lenguaje, la usabilidad y el contenido del <italic>e-book</italic> con el propósito de obtener la versión final del material<xref ref-type="bibr" rid="B19"><sup>19</sup></xref>. </p>
+					<p>La interfaz del <italic>e-book</italic> titulado “Cuida tu corazón: estrategias para reducir el riesgo cardiovascular en personas que viven con VIH/SIDA” (<italic>Cuide do seu coração: estratégias para redução do risco cardiovascular em pessoas que vivem com HIV/aids</italic>)<xref ref-type="bibr" rid="B20"><sup>20</sup></xref> fue creada en HTML5 y Java Script y generó un archivo en formato <italic>Eletronic Publication</italic> (ePUB). El contenido fue redactado con el fin de satisfacer las necesidades de la población, por lo que se utilizó un lenguaje accesible y sin términos técnicos que les ayudara a comprender el contenido. Por ende, para facilitar su interpretación, se crearon infografías y videos para hacer más dinámico e interactivo el Entorno Virtual de Aprendizaje (AVA)<xref ref-type="bibr" rid="B18"><sup>18</sup></xref>.</p>
+					<p>El <italic>e-book</italic> se creó con el objetivo de promover la usabilidad y la accesibilidad<xref ref-type="bibr" rid="B18"><sup>18</sup></xref>, proporcionándole al usuario una herramienta fácil de usar, dinámica e interactiva, y está disponible para su descarga gratuita en <italic>Apple Books</italic> en la plataforma iOS® y en <italic>Google Play</italic> en la plataforma <italic>Android</italic>®, para que pueda llegar a las PVVIH de todo Brasil.</p>
+					<p>En general, el material incluye indicaciones sobre el riesgo de ECV y aborda ciertos aspectos de los factores de riesgo modificables: tabaquismo, sedentarismo, estrés, obesidad, diabetes mellitus, hipertensión y dislipidemia. Se valoró el contenido sobre el riesgo de ECV en PVVIH y las intervenciones/estrategias de reducción, que incluyen alimentación saludable, abandono del tabaquismo, fomento de la actividad física y alivio del estrés con base en la literatura científica<xref ref-type="bibr" rid="B4"><sup>4</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B19"><sup>19</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B21"><sup>21</sup></xref>.</p>
+				</sec>
+				<sec>
+					<title>Lugar del estudio</title>
+					<p>La recolección de datos se realizó en un entorno virtual con cobertura nacional en las cinco regiones de Brasil (Norte, Noreste, Centro Oeste, Sudeste y Sur).</p>
+				</sec>
+				<sec>
+					<title>Periodo</title>
+					<p>La recolección de datos se realizó entre el 31 de marzo de 2020 y el 1 de marzo de 2021.</p>
+				</sec>
+				<sec>
+					<title>Población, criterios de inclusión y muestra</title>
+					<p>La muestra del estudio consistió en 312 personas que vivían con VIH, que estaban alfabetizadas y tenían acceso a Internet. Como criterio de inclusión, se estableció que la persona conociera su estado serológico, independientemente del estadio de la infección, sea mayor de 18 años, esté alfabetizada y tenga acceso a internet. Se excluyó tres participantes que no completaron el cuestionario. Así, la muestra estuvo formada por 309 personas viviendo con VIH que cumplieron con los criterios de inclusión.</p>
+				</sec>
+				<sec>
+					<title>Variables del estudio</title>
+					<p>El cuestionario <italic>online</italic> se elaboró con variables sociodemográficas y comportamentales: género, edad (años cumplidos), educación, situación laboral actual, ingreso individual (salario mínimo), región de Brasil donde vive.</p>
+				</sec>
+				<sec>
+					<title>Instrumento utilizado para recabar información</title>
+					<p>Para la validación con los participantes pertenecientes al público objetivo, se desarrolló un cuestionario que evaluó el aspecto visual, el lenguaje, la usabilidad, el contenido, la apariencia y la evaluación general del material educativo, en una escala tipo Likert, con cinco niveles de evaluación<xref ref-type="bibr" rid="B22"><sup>22</sup></xref>. Para la evaluación general: Excelente, Bueno, Indiferente, Malo y Muy malo, para la variable aspecto visual: Excelente, Bueno, Regular, Malo y Muy malo para las variables lenguaje, usabilidad, contenido y apariencia: estoy Totalmente de Acuerdo (TA), estoy de Acuerdo (A), No estoy de acuerdo ni en desacuerdo (N), estoy Totalmente en Desacuerdo (TD) y estoy en Desacuerdo (D). </p>
+				</sec>
+				<sec>
+					<title>Recolección de datos</title>
+					<p>Para realizar la recolección de datos, se enviaron invitaciones a grupos de PVVIH en todo Brasil a través de las redes sociales (<italic>Facebook</italic>® e <italic>Instagram</italic>®), a los grupos de <italic>WhatsApp</italic>®, y se publicaron en el perfil del grupo de investigación las redes sociales. Además, la invitación se publicó en páginas oficiales de compañeros de investigación y otros investigadores y profesionales de la salud de diferentes regiones del país. También se imprimieron folletos con un código QR para acceder directamente al cuestionario del estudio y se distribuyeron en los Servicios de Atención Especializada (SAE) para las PVVIH.</p>
+					<p>La invitación de reclutamiento consistió en un breve texto que presentaba el estudio con los criterios de inclusión seguido del <italic>link</italic> o código QR que redireccionaba a los participantes a la plataforma virtual de recolección de datos <italic>online</italic> (<italic>Survey Monkey</italic>®). La página de inicio del estudio ya tenía el Formulario de Consentimiento Libre e Informado completo (FCLI). Después de leer, los participantes podían elegir entre dos posibles opciones de respuesta, “Acepto participar en el estudio” o “No acepto participar en el estudio”. Quienes aceptaron participar en el estudio recibieron el cuestionario <italic>online</italic> disponible al que se podía acceder por computadora o dispositivo móvil (teléfono celular). </p>
+				</sec>
+				<sec>
+					<title>Análisis de los datos</title>
+					<p>Los datos recolectados en la plataforma <italic>Survey Monkey</italic>® se transfirieron a una hoja de cálculo Excel y al programa estadístico <italic>Statistical Package for the Social Sciences</italic> (SPSS)® versión 22.0. Los análisis de estadística descriptiva se realizaron calculando frecuencias absolutas y relativas para variables cualitativas y, para variables cuantitativas, cálculos de tendencia central (media). Para comprobar la validez de cada ítem abordado en los instrumentos de evaluación, se adoptó un Índice de Concordancia (IC) mínimo del 80% entre los participantes, siguiendo los valores de referencia de otros estudios de validación<xref ref-type="bibr" rid="B23"><sup>23</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B24"><sup>24</sup></xref>.</p>
+					<p>Para evaluar el grado de acuerdo de los evaluadores, se utilizó el coeficiente de confiabilidad de los evaluadores (<italic>first-order agreement coeficiente</italic> - AC1). Las ventajas del AC1 son la resistencia sobre la homogeneidad marginal y el rasgo de prevalencia, además tiene la misma interpretación que el Índice Kappa [bajo (0,0-0,2); aceptable (0,21-0,40); moderado (0,41-0,60); bueno (0,61-0,80); muy bueno (0,81-1,00)]<xref ref-type="bibr" rid="B25"><sup>25</sup></xref>.</p>
+					<p>Por otro lado, las variables se clasificaron según lo propuesto en 1997<xref ref-type="bibr" rid="B25"><sup>25</sup></xref>, separando las preguntas en Grupo 1: lenguaje, usabilidad, contenido, apariencia y Grupo 2: imágenes, motivación para leer, temas tratados e indicación del <italic>e-book</italic> a otra persona. </p>
+				</sec>
+				<sec>
+					<title>Aspectos éticos</title>
+					<p>El proyecto fue presentado y aprobado por el Comité de Ética en Investigación, bajo el dictamen número 3.915.295. A todos los participantes de la investigación se les garantizó la confidencialidad de los datos y el anonimato.</p>
+				</sec>
+			</sec>
+			<sec sec-type="results">
+				<title>Resultados</title>
+				<p>Las 309 PVVIH que participaron en el estudio procedían de 25 estados, lo que incluye las cinco regiones de Brasil, la mayor proporción pertenecía a la región Sudeste con el 50,5% (n=156) y a la región Nordeste con el 24,3% (n=75). La <xref ref-type="table" rid="t7">Tabla 1</xref> revela que la muestra estuvo compuesta predominantemente por hombres, 84,8% (n=262), de entre 19 y 65 años y con una media de 32,7 años (± 9,6).</p>
+				<p>Además, la mayoría de los participantes tenía educación superior completa, 29,1% (n=90); el 65,0% (n = 201) estaba inserto en el mercado laboral formal o informal y el 38,2% (n = 118) tenía un ingreso de uno a dos salarios mínimos.</p>
+				<p>
+					<table-wrap id="t7">
+						<label>Tabla 1</label>
+						<caption>
+							<title>Caracterización de las personas que viven con VIH/SIDA en relación a las variables sociodemográficas (n=309). Brasil, 2020-2021</title>
+						</caption>
+						<table>
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left">Variables</th>
+									<th align="center">n (309)</th>
+									<th align="center">% (100)</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td align="left" colspan="3"><bold>Sexo</bold></td>
+								</tr>
+								<tr>
+									<td align="left">Masculino</td>
+									<td align="center">262</td>
+									<td align="center">84,8</td>
+								</tr>
+								<tr>
+									<td align="left">Femenino</td>
+									<td align="center">47</td>
+									<td align="center">15,2</td>
+								</tr>
+								<tr>
+									<td align="left" colspan="3"><bold>Educación</bold></td>
+								</tr>
+								<tr>
+									<td align="left">Primaria incompleta</td>
+									<td align="center">06</td>
+									<td align="center">1,9</td>
+								</tr>
+								<tr>
+									<td align="left">Primaria completa</td>
+									<td align="center">07</td>
+									<td align="center">2,2</td>
+								</tr>
+								<tr>
+									<td align="left">Secundaria incompleta</td>
+									<td align="center">09</td>
+									<td align="center">2,9</td>
+								</tr>
+								<tr>
+									<td align="left">Secundaria completa</td>
+									<td align="center">44</td>
+									<td align="center">14,2</td>
+								</tr>
+								<tr>
+									<td align="left">Superior incompleta</td>
+									<td align="center">81</td>
+									<td align="center">26,2</td>
+								</tr>
+								<tr>
+									<td align="left">Superior completa</td>
+									<td align="center">90</td>
+									<td align="center">29,1</td>
+								</tr>
+								<tr>
+									<td align="left">Posgrado</td>
+									<td align="center">72</td>
+									<td align="center">23,3</td>
+								</tr>
+								<tr>
+									<td align="left" colspan="3"><bold>Situación Laboral</bold></td>
+								</tr>
+								<tr>
+									<td align="left">Activo</td>
+									<td align="center">201</td>
+									<td align="center">65,0</td>
+								</tr>
+								<tr>
+									<td align="left">Inactivo</td>
+									<td align="center">87</td>
+									<td align="center">28,1</td>
+								</tr>
+								<tr>
+									<td align="left">Jubilado</td>
+									<td align="center">05</td>
+									<td align="center">1,6</td>
+								</tr>
+								<tr>
+									<td align="left">De licencia</td>
+									<td align="center">16</td>
+									<td align="center">5,2</td>
+								</tr>
+								<tr>
+									<td align="left" colspan="3"><bold>Región</bold></td>
+								</tr>
+								<tr>
+									<td align="left">Norte</td>
+									<td align="center">14</td>
+									<td align="center">4,5</td>
+								</tr>
+								<tr>
+									<td align="left">Noreste</td>
+									<td align="center">75</td>
+									<td align="center">24,3</td>
+								</tr>
+								<tr>
+									<td align="left">Centro Oeste</td>
+									<td align="center">22</td>
+									<td align="center">7,1</td>
+								</tr>
+								<tr>
+									<td align="left">Sudeste</td>
+									<td align="center">156</td>
+									<td align="center">50,5</td>
+								</tr>
+								<tr>
+									<td align="left">Sur</td>
+									<td align="center">42</td>
+									<td align="center">13,6</td>
+								</tr>
+								<tr>
+									<td align="left" colspan="3"><bold>Ingreso individual (salarios mínimos)*</bold></td>
+								</tr>
+								<tr>
+									<td align="left">Sin ingresos</td>
+									<td align="center">24</td>
+									<td align="center">7,8</td>
+								</tr>
+								<tr>
+									<td align="left">&lt;1</td>
+									<td align="center">54</td>
+									<td align="center">17,5</td>
+								</tr>
+								<tr>
+									<td align="left">1 a 2</td>
+									<td align="center">118</td>
+									<td align="center">38,2</td>
+								</tr>
+								<tr>
+									<td align="left">3 a 4</td>
+									<td align="center">45</td>
+									<td align="center">14,6</td>
+								</tr>
+								<tr>
+									<td align="left">Más de 4</td>
+									<td align="center">68</td>
+									<td align="center">22,0</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN7">
+								<p>*Salario mínimo 2020 (Brasil): R$ 1045,00 (mil cuarenta y cinco reales)</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p>La <xref ref-type="table" rid="t8">Tabla 2</xref> presenta las respuestas y el Índice de Concordancia (IC) de cada ítem de evaluación entre ellas. En la evaluación general de todos los ítems, se alcanzó una media de 0,92 en el IC. Los ítems evaluación general y contenido obtuvieron los IC más altos con valores de 0,97 y 0,94, respectivamente. Y el ítem sobre apariencia tuvo el valor más bajo de IC que fue de 0,86. Todos los demás ítems evaluados alcanzaron un IC superior a 0,80.</p>
+				<p>
+					<table-wrap id="t8">
+						<label>Tabla 2</label>
+						<caption>
+							<title>Evaluación de la concordancia de los participantes sobre la adecuación y pertinencia del <italic>e-book</italic> (n=309). Brasil, 2020-2021</title>
+						</caption>
+						<table>
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left" colspan="7">Ítems de evaluación</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td align="left"><bold>Evaluación General</bold></td>
+									<td align="center">Excelente</td>
+									<td align="center">Bueno</td>
+									<td align="center">Indiferente</td>
+									<td align="center">Malo</td>
+									<td align="center">Muy malo</td>
+									<td align="center">IC</td>
+								</tr>
+								<tr>
+									<td align="left">En general, ¿cómo calificas el <italic>e-book</italic>?</td>
+									<td align="center">160</td>
+									<td align="center">141</td>
+									<td align="center">08</td>
+									<td align="center">00</td>
+									<td align="center">00</td>
+									<td align="center">0,97</td>
+								</tr>
+								<tr>
+									<td align="left">Aspecto Visual</td>
+									<td align="center">Excelente</td>
+									<td align="center">Bueno</td>
+									<td align="center">Regular</td>
+									<td align="center">Malo</td>
+									<td align="center">Muy malo</td>
+									<td align="center">IC</td>
+								</tr>
+								<tr>
+									<td align="left">¿Qué te pareció el aspecto del <italic>e-book</italic>?</td>
+									<td align="center">145</td>
+									<td align="center">141</td>
+									<td align="center">00</td>
+									<td align="center">21</td>
+									<td align="center">02</td>
+									<td align="center">0,93</td>
+								</tr>
+								<tr>
+									<td align="left">Lenguaje</td>
+									<td align="center">TA*</td>
+									<td align="center">A<sup>†</sup></td>
+									<td align="center">N<sup>‡</sup></td>
+									<td align="center">D<sup>§</sup></td>
+									<td align="center">TD<sup>║</sup></td>
+									<td align="center">IC<sup>¶</sup></td>
+								</tr>
+								<tr>
+									<td align="left">¿El lenguaje utilizado para brindar información es fácil de entender?</td>
+									<td align="center">130</td>
+									<td align="center">145</td>
+									<td align="center">32</td>
+									<td align="center">02</td>
+									<td align="center">00</td>
+									<td align="center">0,89</td>
+								</tr>
+								<tr>
+									<td align="left" colspan="7"><bold>Usabilidad</bold></td>
+								</tr>
+								<tr>
+									<td align="left">¿El <italic>e-book</italic> es fácil de usar?</td>
+									<td align="center">128</td>
+									<td align="center">156</td>
+									<td align="center">24</td>
+									<td align="center">01</td>
+									<td align="center">00</td>
+									<td align="center">0,92</td>
+								</tr>
+								<tr>
+									<td align="left" colspan="7"><bold>Contenido</bold></td>
+								</tr>
+								<tr>
+									<td align="left">¿El contenido abordado es relevante para tu salud?</td>
+									<td align="center">161</td>
+									<td align="center">130</td>
+									<td align="center">18</td>
+									<td align="center">00</td>
+									<td align="center">00</td>
+									<td align="center">0,94</td>
+								</tr>
+								<tr>
+									<td align="left">¿Las indicaciones que tiene el <italic>e-book</italic> te pueden ayudar a mejorar tu salud?</td>
+									<td align="center">152</td>
+									<td align="center">138</td>
+									<td align="center">19</td>
+									<td align="center">00</td>
+									<td align="center">00</td>
+									<td align="center">0,94</td>
+								</tr>
+								<tr>
+									<td align="left" colspan="7"><bold>Apariencia</bold></td>
+								</tr>
+								<tr>
+									<td align="left">¿Los videos del <italic>e-book</italic> son interesantes?</td>
+									<td align="center">116</td>
+									<td align="center">150</td>
+									<td align="center">43</td>
+									<td align="center">00</td>
+									<td align="center">00</td>
+									<td align="center">0,86</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN8">
+								<p>*TA = Totalmente de acuerdo; <sup>†</sup>A = De acuerdo; <sup>‡</sup>N = Ni de acuerdo ni en desacuerdo; <sup>§</sup>D = En desacuerdo; <sup>||</sup>TD = Totalmente en desacuerdo; <sup>¶</sup>IC = Índice de concordancia.</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p>Cuando se les preguntó, la mayoría de los 293 participantes (94,8%) dijo que los materiales educativos pueden ayudar a responder preguntas sobre la prevención de enfermedades cardiovasculares. Del total, 301 (97,4%) destacaron que los temas abordados son necesarios para que los pacientes con VIH puedan cuidar adecuadamente su salud cardiovascular.</p>
+				<p>Cuando se les preguntó a los participantes sobre la pertinencia del contenido, la comprensión, la motivación para leer y la secuencia del <italic>e-book</italic>, se obtuvo una aprobación superior al 80% de concordancia en todas las preguntas, principalmente sobre el contenido abordado, considerado pertinente por el 97,4% (n=301) de los participantes (<xref ref-type="fig" rid="f3">Figura 1</xref>).</p>
+				<p>
+					<fig id="f3">
+						<label>Figura 1</label>
+						<caption>
+							<title>Concordancia de los participantes sobre la pertinencia del contenido, comprensión, interés y motivación para leer (n=309). Brasil, 2020-2021.</title>
+						</caption>
+						<graphic xlink:href="1518-8345-rlae-30-e3512-gf3.png"/>
+					</fig>
+				</p>
+				<p>En la <xref ref-type="table" rid="t9">Tabla 3</xref> se muestran los datos relacionados con la evaluación de la concordancia de los evaluadores del <italic>e-book</italic>, en el Grupo 2 los evaluadores manifestaron “muy buena concordancia” sobre los aspectos evaluados y en el Grupo 1 los evaluadores manifestaron una “concordancia aceptable” sobre los aspectos evaluados.</p>
+				<p>
+					<table-wrap id="t9">
+						<label>Tabla 3</label>
+						<caption>
+							<title>Medida de concordancia de los evaluadores con respecto a la validación del <italic>e-book</italic> sobre la adecuación y pertinencia (n=309). Brasil, 2020-2021</title>
+						</caption>
+						<table>
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left">Validación</th>
+									<th align="center">*AC1</th>
+									<th align="center">EE_AC1<sup>†</sup></th>
+									<th align="center">p-valor</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td align="left">Grupo 1</td>
+									<td align="center">0,287</td>
+									<td align="center">0,017</td>
+									<td align="center">0,0001</td>
+								</tr>
+								<tr>
+									<td align="left">Grupo 2</td>
+									<td align="center">0,921</td>
+									<td align="center">0,061</td>
+									<td align="center">0,0001</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN9">
+								<p>*AC1 = Coeficiente de confiabilidad de los evaluadores; <sup>†</sup>EE_AC1 = Error estándar de confiabilidad de los evaluadores. Nota: Nivel de significancia del 5% (p&lt;0,05).</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+			</sec>
+			<sec sec-type="discussion">
+				<title>Discusión</title>
+				<p>En este estudio, se observó que el <italic>e-book</italic> que se elaboró fue considerado válido por el público objetivo en cuanto a su aspecto visual, lenguaje, usabilidad, contenido, apariencia y evaluación general. Cabe destacar que la validación de materiales es un paso importante para el desarrollo de materiales educativos<xref ref-type="bibr" rid="B26"><sup>26</sup></xref> y la validación de su público objetivo permite identificar y trabajar los aspectos que revelan su legibilidad.</p>
+				<p>Un estudio realizado en Estados Unidos demostró que todos los materiales educativos relacionados con la salud cardiovascular superan la capacidad lectora de su público objetivo y que esta distancia entre la legibilidad del material y el nivel de lectura de la población impacta negativamente en la comprensión de la información brindada y, por ende, en el éxito de su uso como base para la toma de decisiones centradas en el autocuidado<xref ref-type="bibr" rid="B13"><sup>13</sup></xref>.</p>
+				<p>Al extrapolar dicho problema a la realidad brasileña, donde la mayor parte de la población (50,4%) no completó la educación primaria<xref ref-type="bibr" rid="B27"><sup>27</sup></xref>, se nota que es necesario desarrollar materiales educativos interactivos, de fácil comprensión, que promuevan y faciliten la autogestión en la salud de esta población<xref ref-type="bibr" rid="B14"><sup>14</sup></xref>.</p>
+				<p>Los contenidos abordados se consideraron relevantes e incluyen aspectos relacionados con los principales factores de riesgo cardiovascular y guías de prevención<xref ref-type="bibr" rid="B4"><sup>4</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B28"><sup>28</sup></xref>. Nuestros hallazgos coinciden con los de otro estudio brasileño, que señala que es prioritario abordar el tema de las ECV en las PVVIH y enfatiza la importancia de controlar los factores de riesgo tradicionales y específicos relacionados con la infección por VIH para reducir el riesgo de ECV en estas personas<xref ref-type="bibr" rid="B29"><sup>29</sup></xref>.</p>
+				<p>La construcción y validación de materiales educativos digitales interactivos permite que la población en general tenga acceso a contenidos relevantes y adecuados para la promoción de la salud y la prevención de enfermedades basados en evidencia científica. Esto es importante, ya que gran parte del contenido producido por la ciencia termina siendo no divulgado y/o no aplicado en la práctica, lo que alimenta un círculo vicioso que excluye a la mayor parte de la población que no tiene acceso a este medio<xref ref-type="bibr" rid="B30"><sup>30</sup></xref>.</p>
+				<p>Si bien las ECV tienen mecanismos y etiologías complejas difíciles de comprender<xref ref-type="bibr" rid="B13"><sup>13</sup></xref>, se observó que en lo que respecta a la legibilidad del <italic>e-book</italic>, el texto se consideró interesante, con una secuencia adecuada y fácil de entender.</p>
+				<p>La evaluación de la legibilidad es fundamental y es considerada una métrica de calidad que debe ser evaluada antes de publicar cualquier material educativo <italic>online</italic><xref ref-type="bibr" rid="B13"><sup>13</sup></xref>. Este es un aspecto importante, dado que los materiales educativos y las instrucciones educativas incluyen habitualmente lenguaje técnico y explicaciones complejas o no incluyen ilustraciones comprensibles, lo que hace que sean difíciles de comprender para el público objetivo<xref ref-type="bibr" rid="B10"><sup>10</sup></xref>. La comunicación clara y sencilla ayuda a las personas a sentirse más involucradas en el cuidado de su salud y aumenta las posibilidades de que sigan sus planes de cuidado y adhieran al tratamiento<xref ref-type="bibr" rid="B26"><sup>26</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B31"><sup>31</sup></xref>.</p>
+				<p>En este caso, también hay que hacer hincapié en el contenido y el lenguaje abordado, que deben ser accesibles y no usar términos técnicos para ayudar en la comprensión del contenido y proporcionar interactividad entre el lector y el material educativo. Además, en la elaboración de materiales educativos, el lenguaje debe ser objetivo, evitando el uso de oraciones largas y detalladas, dado que pueden fomentar la dispersión y hacer agotadora la lectura<xref ref-type="bibr" rid="B31"><sup>31</sup></xref>.</p>
+				<p>En el presente estudio, más del 80,0% de los participantes informó que se sentía motivado para leer el <italic>e-book</italic> y consideró que el contenido abordado era relevante para planificar el autocuidado de la salud cardiovascular. Para que el material educativo sea actual y relevante, es fundamental que se inserte en el contexto social de la población objetivo, y que responda a sus necesidades y particularidades<xref ref-type="bibr" rid="B32"><sup>32</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B33"><sup>33</sup></xref>. Por lo tanto, los temas y tópicos que se incluyen en los contenidos educativos deben satisfacer las necesidades de las personas, brindando empoderamiento sobre el tema abordado<xref ref-type="bibr" rid="B31"><sup>31</sup></xref>.</p>
+				<p>La usabilidad del <italic>e-book</italic> fue calificada por los participantes del estudio como fácil de usar. Consta de videos, audios y <italic>links</italic> para acceder a otras páginas que complementan el contenido abordado y hacen más lúdico su uso, facilitan el acceso y que se pueda compartir a través de las redes sociales. Por lo tanto, la facilidad de uso de una herramienta está directamente relacionada con el nivel de satisfacción del usuario que la usa, ya que interfaces mal diseñadas pueden generar el desinterés o descrédito del usuario<xref ref-type="bibr" rid="B34"><sup>34</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B35"><sup>35</sup></xref>.</p>
+				<p>Los materiales educativos disponibles de forma virtual se han utilizado como herramientas para mejorar el conocimiento, la adherencia al tratamiento y el autocuidado, a fin de promover la salud y prevenir enfermedades<xref ref-type="bibr" rid="B10"><sup>10</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B36"><sup>36</sup></xref>. Cuando son elaborados por profesionales de la salud, tienen el poder de fortalecer las indicaciones dadas durante las consultas, además de resolver algunas cuestiones. El enfoque utilizado en la construcción del material educativo nos permite identificar las necesidades del público objetivo, especialmente cuando la validación la realiza el público al cual está dirigido.</p>
+				<p>Por ende, otro punto desafiante es el uso básico de los recursos digitales (alfabetización digital) y la capacidad del público objetivo para explorar los recursos de manera más amplia (alfabetización digital)<xref ref-type="bibr" rid="B13"><sup>13</sup></xref>. En este estudio, el material educativo fue validado por PVVIH de todas las regiones de Brasil con diferentes niveles de educación, pero la mayoría tenía educación superior y muchos realizaron cursos de posgrado, por lo tanto, coinciden con el perfil de las personas que tienen mayor acceso a internet, a información y mayor alfabetización digital.</p>
+				<p>Por lo tanto, mejorar la alfabetización en salud de quienes tienen menos educación representa un desafío único para los profesionales de la salud, dado que a pesar de los beneficios que tiene el uso de la tecnología de la información en salud, es posible que dicha información no llegue a los grupos que quizás tienen menos acceso a internet y está en grupos dirigidos a esta población en las redes sociales. Por eso, sugerimos que este material educativo sea considerado como un recurso educativo en la práctica clínica para las PVVIH.</p>
+				<p>Un aspecto relevante de este estudio es que fue validado por participantes de todas las regiones del país, predominantemente de las regiones Sudeste y Noreste. La heterogeneidad de las regiones brasileñas está relacionada con la diversidad del perfil epidemiológico de la infección por VIH en el país y con las diferentes condiciones de acceso a las tecnologías entre los estados.</p>
+				<p>En la evolución histórica del SIDA en Brasil, los primeros casos se diagnosticaron en el Sudeste y avanzaron hasta llegar a las regiones Norte y Noreste del país. La distribución proporcional de los casos de SIDA identificados desde 1980 hasta junio de 2019 muestra diferentes concentraciones en las regiones de Brasil, Sudeste (51,3%), Sur (19,9%), Noreste (16,1%), Norte (6,6%) y Centro Oeste (6,1%)<xref ref-type="bibr" rid="B37"><sup>37</sup></xref>. La heterogeneidad de las regiones también incluye particularidades en cuanto a los medios de producción, cultura, educación y acceso a los servicios, eso hace que la atención de la salud no sea universal y equitativa en Brasil, y dificulta el acceso al diagnóstico y tratamiento. Las regiones Sudeste y Sur se destacan por el desarrollo de su educación, lo que incide en la detección, tratamiento y prevención de la enfermedad. El Nordeste, por su parte, es la segunda región más poblada de Brasil y tiene uno de los indicadores más bajos en la evaluación de desempeño del sistema educativo<xref ref-type="bibr" rid="B38"><sup>38</sup></xref>.</p>
+				<p>Por ende, nuestros resultados confirman cómo el uso de material educativo en formato digital e internet se presenta como una posibilidad que ayudar a promover la alfabetización en salud, e incluso la atención continua e integral, transformando esta tecnología en una nueva opción para pensar y planificar intervenciones de salud en diferentes escenarios.</p>
+				<p>El conocimiento, la autoeficacia y la motivación de los sujetos se consideran la base del cambio de comportamiento<xref ref-type="bibr" rid="B18"><sup>18</sup></xref>. Por lo tanto, el uso de la tecnología, asociada a la calidad de la información, puede promover un mayor interés en los sujetos y, por ende, fomentar el conocimiento y la motivación para el cambio con miras a una mejor calidad de vida<xref ref-type="bibr" rid="B18"><sup>18</sup></xref>.</p>
+				<p>Además, destacamos que el material educativo puede ser utilizado durante las consultas de enfermería, así como por otros profesionales de la salud y/o para actividades de alfabetización en salud, para complementar y reforzar la información brindada. Cabe destacar que el enfermero juega un papel fundamental en el desarrollo de intervenciones educativas en los servicios de salud y, en particular, puede beneficiarse del uso de tecnologías digitales para mejorar la alfabetización en salud de las PVVIH.</p>
+				<p>Por lo tanto, ratificamos la importancia de elaborar y validar material educativo para la población objetivo, a fin de brindar un material seguro y efectivo que funcione como facilitador para el cambio de estilo de vida, que incentive la realización de actividades que promuevan hábitos de vida más saludables. A las PVVIH se les proporciona un <italic>e-book</italic> interactivo que es de fácil comprensión, acceso y usabilidad, además tiene contenido actualizado y disponible de forma gratuita.</p>
+				<p>Se considera una limitación del presente estudio que los resultados se circunscriban a grupos que tienen acceso a internet, un alto nivel educativo y que están más acostumbrados al manejo de herramientas informáticas, lo que les facilita el consumo de tecnologías educativas creadas en este formato.</p>
+			</sec>
+			<sec sec-type="conclusions">
+				<title>Conclusión</title>
+				<p>El material educativo interactivo elaborado “Cuida tu corazón” fue considerado válido por las PVVIH. Hay que destacar que fue un estudio inédito sobre este tema en Brasil, y permitió que se creara un producto con contenido relevante, de fácil acceso y que está disponible de forma gratuita para la población.</p>
+				<p>Por consiguiente, hay que destacar la relevancia que tiene el proceso de validación clínica con la población objetivo, dado que el material elaborado debe ser de fácil comprensión y lectura para aquellos a quienes va dirigido, para que cumpla con su propósito.</p>
+				<p>Se sugiere que se realicen nuevos estudios que aborden la aplicación de este <italic>e-book</italic> a grupos poblacionales específicos, como personas mayores, mujeres, personas con bajo nivel educativo y de bajos ingresos que viven con VIH, para identificar nuevas lagunas que quizás no fueron consideradas.</p>
+			</sec>
+		</body>
+		<back>
+			<fn-group>
+				<fn fn-type="other" id="fn3">
+					<label>*</label>
+					<p>Artículo parte de la tesis de doctorado “Construção e validação de material educativo digital para redução do risco cardiovascular em pessoas vivendo com HIV”, presentada en la Universidade de São Paulo, Escola de Enfermagem de Ribeirão Preto, Centro Colaborador de la OPS/OMS para el Desarrollo de la Investigación en Enfermería, Ribeirão Preto, SP, Brasil.</p>
+				</fn>
+				<fn fn-type="financial-disclosure" id="fn12">
+					<label>Apoyo Financiero</label>
+					<p>Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq), Edital Universal 428304/2008-4, Brasil.</p>
+				</fn>
+			</fn-group>
+		</back>
+	</sub-article>
+</article>

@@ -1,0 +1,2772 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.1" specific-use="sps-1.9" xml:lang="pt" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="nlm-ta">Rev Lat Am Enfermagem</journal-id>
+			<journal-id journal-id-type="publisher-id">rlae</journal-id>
+			<journal-title-group>
+				<journal-title>Revista Latino-Americana de Enfermagem</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Rev. Latino-Am. Enfermagem</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="epub">1518-8345</issn>
+			<issn pub-type="ppub">0104-1169</issn>
+			<publisher>
+				<publisher-name>Escola de Enfermagem de Ribeirão Preto / Universidade de São Paulo</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="other">00336</article-id>
+			<article-id pub-id-type="doi">10.1590/1518-8345.5869.3620</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artigo Original</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Estabilidade do cloridrato de vancomicina empregado em soluções de selo antimicrobiano de cateteres intravenosos centrais</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-4388-3793</contrib-id>
+					<name>
+						<surname>Barros</surname>
+						<given-names>Daniele Porto</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-8830-0993</contrib-id>
+					<name>
+						<surname>Onofre</surname>
+						<given-names>Priscilla Sete de Carvalho</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+					<xref ref-type="aff" rid="aff2"><sup>2</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-1223-1589</contrib-id>
+					<name>
+						<surname>Fonseca</surname>
+						<given-names>Fernando Luiz Affonso</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>3</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-3665-8878</contrib-id>
+					<name>
+						<surname>Rosa</surname>
+						<given-names>Paulo César Pires</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff4"><sup>4</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-9246-2354</contrib-id>
+					<name>
+						<surname>Pedreira</surname>
+						<given-names>Mavilde da Luz Gonçalves</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-1769-4662</contrib-id>
+					<name>
+						<surname>Peterlini</surname>
+						<given-names>Maria Angélica Sorgini</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>1</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>1 </label>
+				<institution content-type="original">Universidade Federal de São Paulo, Escola Paulista de Enfermagem, São Paulo, SP, Brasil.</institution>
+				<institution content-type="normalized">Universidade Federal de São Paulo</institution>
+				<institution content-type="orgname">Universidade Federal de São Paulo</institution>
+				<institution content-type="orgdiv1">Escola Paulista de Enfermagem</institution>
+				<addr-line>
+					<city>São Paulo</city>
+					<state>SP</state>
+				</addr-line>
+				<country country="BR">Brazil</country>
+			</aff>
+			<aff id="aff2">
+				<label>2 </label>
+				<institution content-type="original">Bolsista da Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES), Brasil.</institution>
+				<institution content-type="orgname">Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES)</institution>
+				<country country="BR">Brasil</country>
+			</aff>
+			<aff id="aff3">
+				<label>3 </label>
+				<institution content-type="original">Universidade Estadual de Campinas, Faculdade de Ciências Farmacêuticas, Campinas, SP, Brasil.</institution>
+				<institution content-type="normalized">Universidade Estadual de Campinas</institution>
+				<institution content-type="orgname">Universidade Estadual de Campinas</institution>
+				<institution content-type="orgdiv1">Faculdade de Ciências Farmacêuticas</institution>
+				<addr-line>
+					<city>Campinas</city>
+					<state>SP</state>
+				</addr-line>
+				<country country="BR">Brazil</country>
+			</aff>
+			<aff id="aff4">
+				<label>4 </label>
+				<institution content-type="original">Universidade Federal de São Paulo, Instituto de Ciências Ambientais, Químicas e Farmacêuticas, Diadema, SP, Brasil.</institution>
+				<institution content-type="normalized">Universidade Federal de São Paulo</institution>
+				<institution content-type="orgname">Universidade Federal de São Paulo</institution>
+				<institution content-type="orgdiv1">Instituto de Ciências Ambientais, Químicas e Farmacêuticas</institution>
+				<addr-line>
+					<city>Diadema</city>
+					<state>SP</state>
+				</addr-line>
+				<country country="BR">Brazil</country>
+			</aff>
+			<author-notes>
+				<corresp id="c1">
+					<label>Autor correspondente</label> Daniele Porto Barros. E-mail: <email>danipbarros@yahoo.com.br</email>
+				</corresp>
+				<fn fn-type="edited-by" id="fn1">
+					<label>Editora Associada</label>
+					<p> Maria Lúcia Zanetti</p>
+				</fn>
+				<fn fn-type="con" id="fn2">
+					<label>Contribuição dos autores</label>
+					<p><bold>Concepção e desenho da pesquisa:</bold> Fernando Luiz Affonso Fonseca, Paulo César Pires Rosa, Mavilde da Luz Gonçalves Pedreira, Maria Angélica Sorgini Peterlini. <bold>Obtenção de dados:</bold> Daniele Porto Barros, Priscilla Sete de Carvalho Onofre, Fernando Luiz Affonso Fonseca, Paulo César Pires Rosa. <bold>Análise e interpretação dos dados:</bold> Daniele Porto Barros, Priscilla Sete de Carvalho Onofre, Fernando Luiz Affonso Fonseca, Paulo César Pires Rosa, Mavilde da Luz Gonçalves Pedreira, Maria Angélica Sorgini Peterlini. <bold>Análise estatística:</bold> Daniele Porto Barros, Priscilla Sete de Carvalho Onofre, Mavilde da Luz Gonçalves Pedreira. <bold>Obtenção de financiamento:</bold> Maria Angélica Sorgini Peterlini. <bold>Redação do manuscrito:</bold> Daniele Porto Barros, Priscilla Sete de Carvalho Onofre, Mavilde da Luz Gonçalves Pedreira, Maria Angélica Sorgini Peterlini. <bold>Revisão crítica do manuscrito quanto ao conteúdo intelectual importante:</bold> Fernando Luiz Affonso Fonseca, Paulo César Pires Rosa, Mavilde da Luz Gonçalves Pedreira, Maria Angélica Sorgini Peterlini. Todos os autores aprovaram a versão final do texto.</p>
+				</fn>
+				<fn fn-type="conflict" id="fn3">
+					<label>Conflito de interesse</label>
+					<p> Os autores declararam que não há conflito de interesse.</p>
+				</fn>
+			</author-notes>
+			<pub-date date-type="collection" publication-format="electronic">
+				<year>2022</year>
+			</pub-date>
+			<pub-date date-type="pub" publication-format="electronic">
+				<day>01</day>
+				<month>08</month>
+				<year>2022</year>
+			</pub-date>
+			<volume>30</volume>
+			<elocation-id>e3620</elocation-id>
+			<history>
+				<date date-type="received">
+					<day>09</day>
+					<month>12</month>
+					<year>2021</year>
+				</date>
+				<date date-type="accepted">
+					<day>28</day>
+					<month>03</month>
+					<year>2022</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="pt">
+					<license-p>Este é um artigo publicado em acesso aberto sob uma licença Creative Commons</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>Resumo</title>
+				<sec>
+					<title>Objetivo: </title>
+					<p>verificar a estabilidade do cloridrato de vancomicina em soluções de selo antimicrobiano sem e com associação de heparina sódica segundo a temperatura e tempo de associação. </p>
+				</sec>
+				<sec>
+					<title>Método:</title>
+					<p> estudo experimental delineado para análise de potencial hidrogeniônico e concentração por cromatografia líquida de alta eficiência de soluções de cloridrato de vancomicina (n=06) e cloridrato de vancomicina e heparina sódica (n=06). Submeteram-se as soluções estudadas à ausência de luz, 22°C e 37°C. Análises em triplicadas (n=192) ocorreram no momento inicial (T0), três (T3), oito (T8) e 24 horas (T24) após preparo. Os dados foram submetidos à análise de variância (p≤0,05). </p>
+				</sec>
+				<sec>
+					<title>Resultados: </title>
+					<p>a concentração do antimicrobiano a 22°C apresentou redução (T0-T8) e posterior elevação (T24); o potencial hidrogeniônico diminuiu significativamente ao longo do tempo. Em 37°C a concentração aumentou em até T3 e reduziu em T24, com redução de potencial hidrogeniônico até 24 horas. A concentração das soluções de cloridrato de vancomicina e heparina sódica apresentaram variação com redução a 22°C acompanhada de aumento de potencial hidrogeniônico. Observou-se formação de precipitado por inspeção visual da associação cloridrato de vancomicina e heparina sódica (T3). </p>
+				</sec>
+				<sec>
+					<title>Conclusão:</title>
+					<p> evidenciou-se estabilidade farmacológica do cloridrato de vancomicina (5 mg/mL) e incompatibilidade física com heparina sódica (100 UI/mL) após três horas de associação nas soluções de selo antimicrobiano estudadas.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="pt">
+				<title>Descritores:</title>
+				<kwd>Infecções Relacionadas a Cateter</kwd>
+				<kwd>Estabilidade de Medicamentos</kwd>
+				<kwd>Infusões Intravenosas</kwd>
+				<kwd>Vancomicina</kwd>
+				<kwd>Heparina</kwd>
+				<kwd>Enfermagem</kwd>
+			</kwd-group>
+			<funding-group>
+				<award-group award-type="contract">
+					<funding-source>Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq)</funding-source>
+					<award-id>311296/2013-0</award-id>
+					<award-id>462183/2014-9</award-id>
+				</award-group>
+				<funding-statement>Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq), Processo 311296/2013-0 e 462183/2014-9, Brasil</funding-statement>
+			</funding-group>
+			<counts>
+				<fig-count count="9"/>
+				<table-count count="3"/>
+				<equation-count count="0"/>
+				<ref-count count="34"/>
+				<page-count count="0"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<boxed-text id="bx1">
+			<sec>
+				<title>Destaques</title>
+				<p>(1) Ambas temperaturas acarretaram modificação do pH e concentração do antimicrobiano. </p>
+				<p>(2) Cloridrato de vancomicina a 22°C obteve menor variação no comportamento químico. </p>
+				<p>(3) A associação dos fármacos resultou em modificação da estabilidade física. </p>
+				<p>(4) A associação dos fármacos resultou em solução com incompatibilidade física.</p>
+			</sec>
+		</boxed-text>
+		<sec sec-type="intro">
+			<title>Introdução</title>
+			<p>Pacientes gravemente enfermos necessitam, frequentemente, de múltiplos fármacos, sendo quase a totalidade por administrações intravenosas, a fim de garantir os níveis plasmáticos na concentração e no tempo necessário para a adequada resposta terapêutica<xref ref-type="bibr" rid="B1"><sup>1</sup></xref>. Consequentemente, o uso de cateteres intravenosos centrais (CICs) vem sendo indicado, em decorrência das características da maioria dos fármacos empregados, a osmolaridade e o potencial hidrogeniônico (pH), dentre outras<xref ref-type="bibr" rid="B2"><sup>2</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B4"><sup>4</sup></xref>. </p>
+			<p>A preservação do CIC em portadores de doenças crônicas é essencial. No entanto, o prolongamento do tempo de uso desses dispositivos é fator predisponente à infecção da corrente sanguínea relacionada ao cateter central (ICSRC)<xref ref-type="bibr" rid="B5"><sup>5</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B6"><sup>6</sup></xref>, devido à formação de biofilme no lúmen do cateter<xref ref-type="bibr" rid="B7"><sup>7</sup></xref>. A intervenção tradicional envolve a retirada do dispositivo. Contudo, isto nem sempre é viável para esses pacientes, devido à rede vascular restrita decorrente de múltiplas punções e do tratamento bem como a condição clínica, fatores que dificultam intervenções ou procedimentos invasivos. </p>
+			<p>Desta forma, o uso da técnica de selo com antimicrobianos em CICs surge como adjuvante no tratamento<xref ref-type="bibr" rid="B2"><sup>2</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B5"><sup>5</sup></xref>. Compreende a administração de antimicrobiano com forte recomendação para o uso do cloridrato de vancomicina<xref ref-type="bibr" rid="B5"><sup>5</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B8"><sup>8</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B9"><sup>9</sup></xref> no lúmen do cateter em concentração 100 a 1.000 vezes superior à inibitória mínima usada habitualmente para terapia sistêmica<xref ref-type="bibr" rid="B8"><sup>8</sup></xref>, sendo frequentemente utilizado em combinação com heparina sódica<xref ref-type="bibr" rid="B10"><sup>10</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B11"><sup>11</sup></xref>. </p>
+			<p>A solução utilizada no lúmen do CIC tem a função de descontaminação, sendo condição <italic>sine qua non</italic> para a manutenção da estabilidade dos fármacos dentro do dispositivo durante o período indicado para o efeito esperado<xref ref-type="bibr" rid="B8"><sup>8</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B11"><sup>11</sup></xref>. </p>
+			<p>Estudos indicam que o selo com antimicrobiano pode permanecer no lúmen do cateter intravenoso por longo período, com a finalidade de ultrapassar a barreira formada pelo biofilme microbiano<xref ref-type="bibr" rid="B8"><sup>8</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B9"><sup>9</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B11"><sup>11</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B12"><sup>12</sup></xref>. </p>
+			<p>Entretanto, não há evidências relacionadas ao volume máximo a ser administrado, o tempo de permanência da solução no lúmen do cateter, frequência de utilização, concentração adequada bem como a associação com anticoagulante<xref ref-type="bibr" rid="B5"><sup>5</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B8"><sup>8</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B12"><sup>12</sup></xref>. A maioria dos estudos clínicos propõe o mínimo de oito horas por dia para atingir a ação esperada<xref ref-type="bibr" rid="B8"><sup>8</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B9"><sup>9</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B12"><sup>12</sup></xref>. No entanto, encontra-se também a recomendação de permanência da solução entre 24 e 48 horas no interior do CIC<xref ref-type="bibr" rid="B8"><sup>8</sup></xref>. </p>
+			<p>Dessa forma, permanece a preocupação quanto à estabilidade do antimicrobiano em associação à heparina sódica. Embora esses fenômenos sejam dependentes, entre outros fatores, da concentração dos fármacos, a exposição a temperaturas mais altas e o tempo de contato entre os medicamentos, também devem ser avaliados<xref ref-type="bibr" rid="B9"><sup>9</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B11"><sup>11</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B12"><sup>12</sup></xref>.</p>
+			<p>Assim, o objetivo deste estudo foi verificar a estabilidade físico-química do cloridrato de vancomicina em soluções de selo antimicrobiano sem e com heparina sódica segundo temperatura e tempo de associação. </p>
+		</sec>
+		<sec sec-type="methods">
+			<title>Método</title>
+			<sec>
+				<title>Delineamento do estudo</title>
+				<p>Pesquisa do tipo experimental, mimetizando a prática clínica de administração de selo de antimicrobianos em CICs.</p>
+			</sec>
+			<sec>
+				<title>Local do estudo</title>
+				<p>Laboratório de Experimentos de Enfermagem (LEEnf) da Escola Paulista de Enfermagem da Universidade Federal de São Paulo, São Paulo, SP, Brasil.</p>
+			</sec>
+			<sec>
+				<title>Período de coleta de dados</title>
+				<p>A coleta de dados ocorreu entre os meses de maio e julho de 2018.</p>
+			</sec>
+			<sec>
+				<title>Amostra</title>
+				<p>Soluções de cloridrato de vancomicina em solução fisiológica (SF) e em associação à heparina sódica, equivalente às empregadas na técnica de selo com antimicrobianos em cateteres intravenosos centrais.</p>
+			</sec>
+			<sec>
+				<title>Definição da amostra</title>
+				<p>A amostra foi composta de 12 soluções, sendo três de cloridrato de vancomicina a 22°C, três de cloridrato de vancomicina a 37°C, três contendo a associação do antimicrobiano e heparina sódica a 22°C e três contendo a associação do antimicrobiano e heparina sódica a 37°C. As soluções foram preparadas por um único pesquisador e as medidas de pH e de concentração ocorreram no momento inicial (T0), três (T3), oito (T8) e 24 horas (T24). As verificações das concentrações aconteceram em triplicatas, resultando em 192 aferições (48 de pH e 144 de concentração). </p>
+			</sec>
+			<sec>
+				<title>Variáveis do estudo</title>
+				<p>Simulando a prática clínica de administração de selo de antimicrobianos, os experimentos ocorreram sob condições controladas de luz e temperatura. A temperatura de 37°C objetivou mimetizar a temperatura corporal. As concentrações dos fármacos foram baseadas nas Diretrizes Práticas da <italic>Infectious Diseases Society of America</italic> (IDSA)<xref ref-type="bibr" rid="B13"><sup>13</sup></xref>. Foram estudadas duas soluções distintas, cloridrato de vancomicina (5 mg/mL) e a associação do antimicrobiano (5 mg/mL) com heparina sódica (100 U.I./mL). As condições para a análise programadas no cromatógrafo foram: fase móvel (FM) em modo isocrático, fluxo a 1 mL/min; temperatura da coluna de 30ºC, detector ultravioleta (UV) com comprimento de onda em 220 nanômetros (nm), injeção de 20 microlitros (µL) e tempo de corrida analítica de 14 minutos (min.). </p>
+			</sec>
+			<sec>
+				<title>Instrumentos utilizados para a coleta das informações</title>
+				<p>Foram estudados o pH das soluções por medidor digital de bancada (Kasvi<sup>®</sup> K39-2014B, Curitiba, Brasil) e a concentração do antimicrobiano por metodologia analítica de cromatografia líquida de alta eficiência - CLAE (HPLC Modular Agilent Technologies<sup>®</sup> - 1260 Infinity Series HPLC), utilizando coluna de fase reversa do tipo C18 de 4,6 x 250 mm e tamanho das partículas de 5 micrômetros (µm) (Thermo Scientific<sup>®</sup> - ODS Hypersil, Massachussetts, Estados Unidos da América, lote: 13359). Para o procedimento diário de limpeza da coluna analítica do equipamento de CLAE, foi estabelecida solução composta pela mistura na proporção de 80% de metanol e 20% de água deionizada, por 20 minutos, com fluxo a 1 mL/min. Na sequência, realizava-se a programação dos parâmetros cromatográficos. As condições para a análise programadas no equipamento foram: fase móvel - FM (acetonitrila 8% e solução de pareamento iônico 92%) em modo isocrático, fluxo a 1 mL/min; temperatura da coluna de 30ºC, detector UV com comprimento de onda em 220 nm, injeção de 20 µL e tempo de corrida analítica de 14 minutos. O preparo das soluções aconteceu em capela de exaustão de gases (Sppencer<sup>®</sup> SP1050-25, São Paulo, Brasil), com técnica asséptica, com seringas de polipropileno (3 mL e 10 mL) e agulhas de aço inoxidável (30,0 x 0,8 mm) estéreis. Foram utilizados cloridrato de vancomicina (500 mg), heparina sódica (5.000 - U.I./mL) e SF em bolsa flexível de polipropileno transparente de 100 mL. Os fármacos, os diluentes e os materiais descartáveis utilizados no experimento eram do mesmo lote de fabricação e respeitando o prazo de validade. As soluções experimentais foram acondicionadas em frascos de vidros âmbar, a fim de mimetizar a ausência de luz a que as soluções são submetidas quando no interior dos cateteres.</p>
+			</sec>
+			<sec>
+				<title>Coleta de dados</title>
+				<p>Antecedendo a verificação da concentração do cloridrato de vancomicina, realizou-se a validação da metodologia analítica por CLAE com base nas premissas estabelecidas na Resolução RE número 166 de 2017 da Agência Nacional de Vigilância Sanitária (ANVISA)<xref ref-type="bibr" rid="B14"><sup>14</sup></xref>, no guia ICH Q2(R1) da <italic>International Conference on Harmonization</italic> de 2005<xref ref-type="bibr" rid="B15"><sup>15</sup></xref> e na Farmacopeia dos Estados Unidos da América (United States Pharmacopeia - USP 32)<xref ref-type="bibr" rid="B16"><sup>16</sup></xref> para os parâmetros de seletividade, linearidade, precisão e exatidão. Depois do preparo das soluções, foram realizados a inspeção visual e o controle de pH. Para a análise das concentrações de cloridrato de vancomicina, foi necessária a adequação à condição cromatográfica com ajuste da amostra do fármaco para a faixa linear de trabalho de 0,1 mg/mL. </p>
+			</sec>
+			<sec>
+				<title>Tratamento e análise dos dados</title>
+				<p>Os resultados são apresentados com base nas médias das triplicatas das verificações do pH e das concentrações em porcentagem e em miligramas por mililitros, calculadas levando em conta a área do pico cromatográfico do cloridrato de vancomicina de cada amostra nos tempos estabelecidos. A análise estatística foi realizada por meio do modelo de regressão linear multinível, análise de variâncias (ANOVA) e comparações múltiplas com correção de Bonferroni. Para todos os testes estatísticos, foi adotado nível de significância de 5%. As análises estatísticas foram realizadas utilizando-se os programas SPSS 20.0 e Stata 12.</p>
+			</sec>
+			<sec>
+				<title>Aspectos éticos</title>
+				<p>O estudo foi submetido à avaliação do Comitê de Ética em Pesquisa (CEP) da Unifesp e aprovado sob o parecer N.º 8942030117.</p>
+			</sec>
+		</sec>
+		<sec sec-type="results">
+			<title>Resultados</title>
+			<p>Os resultados do estudo da concentração e do pH foram obtidos por meio da análise de 12 soluções de cloridrato de vancomicina e da associação de cloridrato de vancomicina e heparina sódica. A <xref ref-type="table" rid="t1">Tabela 1</xref> demonstra os resultados do estudo da concentração e pH das soluções segundo variação de tempo e temperatura.</p>
+			<p>
+				<table-wrap id="t1">
+					<label>Tabela 1</label>
+					<caption>
+						<title>Concentração e potencial hidrogeniônico de soluções de cloridrato de vancomicina (n=6) e da associação de cloridrato de vancomicina e heparina sódica (n=6) segundo temperatura e tempo. São Paulo, SP, Brasil, 2018</title>
+					</caption>
+					<table>
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left">Temperatura</th>
+								<th align="left">Tipo de solução</th>
+								<th align="center">Tempo</th>
+								<th align="center">Concentração (%) média ± dp (mín-máx)</th>
+								<th align="center">Concentração (mg/mL) média ± dp (mín-máx)</th>
+								<th align="center">Potencial hidrogeniônico média ± dp (mín-máx)</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td align="left" rowspan="18">22ºC</td>
+								<td align="left" rowspan="9">Solução de cloridrato de vancomicina</td>
+								<td align="center" rowspan="2">T0</td>
+								<td align="center">101,93 ± 1,66*</td>
+								<td align="center">5,10 ± 0,08*</td>
+								<td align="center">3,76 ± 0,05*</td>
+							</tr>
+							<tr>
+								<td align="center">(100,75-104,33)</td>
+								<td align="center">(5,04-5,22)</td>
+								<td align="center">(3,73-3,82)</td>
+							</tr>
+							<tr>
+								<td align="center" rowspan="2">T3</td>
+								<td align="center">101,45 ± 1,46</td>
+								<td align="center">5,07 ± 0,07</td>
+								<td align="center">3,73 ± 0,01*</td>
+							</tr>
+							<tr>
+								<td align="center">(99,54-103,58)</td>
+								<td align="center">(4,98-5,18)</td>
+								<td align="center">(3,73-3,74)</td>
+							</tr>
+							<tr>
+								<td align="center" rowspan="2">T8</td>
+								<td align="center">100,31 ± 0,87<sup>†</sup></td>
+								<td align="center">5,02 ± 0,04<sup>†</sup></td>
+								<td align="center">3,74 ± 0,01*</td>
+							</tr>
+							<tr>
+								<td align="center">(99,39-101,39)</td>
+								<td align="center">(4,97-5,07)</td>
+								<td align="center">(3,73-3,75)</td>
+							</tr>
+							<tr>
+								<td align="center" rowspan="2">T24</td>
+								<td align="center">102,50 ± 1,46*</td>
+								<td align="center">5,12 ± 0,07*</td>
+								<td align="center">3,59 ± 0,03<sup>†</sup></td>
+							</tr>
+							<tr>
+								<td align="center">(100,52-104,44)</td>
+								<td align="center">(5,03-5,22)</td>
+								<td align="center">(3,56-3,62)</td>
+							</tr>
+							<tr>
+								<td align="center">p</td>
+								<td align="center">&lt;0,05</td>
+								<td align="center">&lt;0,05</td>
+								<td align="center">&lt;0,05</td>
+							</tr>
+							<tr>
+								<td align="left" rowspan="9">Solução de cloridrato de vancomicina e heparina sódica</td>
+								<td align="center" rowspan="2">T0</td>
+								<td align="center">101,73 ± 3,81*</td>
+								<td align="center">5,09 ± 0,19*</td>
+								<td align="center">3,63 ± 0,03<sup>†</sup></td>
+							</tr>
+							<tr>
+								<td align="center">(95,50-106,64)</td>
+								<td align="center">(4,78-5,33)</td>
+								<td align="center">(3,60-3,65)</td>
+							</tr>
+							<tr>
+								<td align="center" rowspan="2">T3</td>
+								<td align="center">99,01 ± 1,56<sup>†</sup></td>
+								<td align="center">4,95 ± 0,08<sup>†</sup></td>
+								<td align="center">3,59 ± 0,02<sup>†</sup></td>
+							</tr>
+							<tr>
+								<td align="center">(97,49-101,24)</td>
+								<td align="center">(4,87-5,06)</td>
+								<td align="center">(3,58-3,61)</td>
+							</tr>
+							<tr>
+								<td align="center" rowspan="2">T8</td>
+								<td align="center">97,38 ± 1,20<sup>†</sup></td>
+								<td align="center">4,87 ± 0,06<sup>†</sup></td>
+								<td align="center">3,64 ± 0,04<sup>†</sup></td>
+							</tr>
+							<tr>
+								<td align="center">(95,60-98,80)</td>
+								<td align="center">(4,78-4,94)</td>
+								<td align="center">(3,61-3,69)</td>
+							</tr>
+							<tr>
+								<td align="center" rowspan="2">T24</td>
+								<td align="center">96,34 ± 1,70<sup>†</sup></td>
+								<td align="center">4,82 ± 0,08<sup>†</sup></td>
+								<td align="center">4,00 ± 0,02*</td>
+							</tr>
+							<tr>
+								<td align="center">(94,36-99,44)</td>
+								<td align="center">(4,72-4,97)</td>
+								<td align="center">(3,99-4,02)</td>
+							</tr>
+							<tr>
+								<td align="center">p</td>
+								<td align="center">&lt;0,05</td>
+								<td align="center">&lt;0,05</td>
+								<td align="center">&lt;0,05</td>
+							</tr>
+							<tr>
+								<td align="left" rowspan="18">37ºC</td>
+								<td align="left" rowspan="9">Solução de cloridrato de vancomicina</td>
+								<td align="center" rowspan="2">T0</td>
+								<td align="center">97,79 ± 0,69<sup>†</sup></td>
+								<td align="center">4,89 ± 0,03<sup>†</sup></td>
+								<td align="center">3,73 ± 0,02*</td>
+							</tr>
+							<tr>
+								<td align="center">(96,99-98,97)</td>
+								<td align="center">(4,85-4,95)</td>
+								<td align="center">(3,71-3,74)</td>
+							</tr>
+							<tr>
+								<td align="center" rowspan="2">T3</td>
+								<td align="center">101,96 ± 1,13*</td>
+								<td align="center">5,10 ± 0,06*</td>
+								<td align="center">3,69 ± 0,02<sup>†</sup></td>
+							</tr>
+							<tr>
+								<td align="center">(100,25-102,92)</td>
+								<td align="center">(5,01-5,15)</td>
+								<td align="center">(3,68-3,71)</td>
+							</tr>
+							<tr>
+								<td align="center" rowspan="2">T8</td>
+								<td align="center">100,73 ± 1,69*</td>
+								<td align="center">5,04 ± 0,08*</td>
+								<td align="center">3,67 ± 0,01<sup>†</sup></td>
+							</tr>
+							<tr>
+								<td align="center">(98,77-102,58)</td>
+								<td align="center">(4,94-5,13)</td>
+								<td align="center">(3,66-3,68)</td>
+							</tr>
+							<tr>
+								<td align="center" rowspan="2">T24</td>
+								<td align="center">98,35 ± 2,80<sup>†</sup></td>
+								<td align="center">4,92 ± 0,14<sup>†</sup></td>
+								<td align="center">3,68 ± 0,02<sup>†</sup></td>
+							</tr>
+							<tr>
+								<td align="center">(95,41-101,83)</td>
+								<td align="center">(4,77-5,09)</td>
+								<td align="center">(3,66-3,69)</td>
+							</tr>
+							<tr>
+								<td align="center">p</td>
+								<td align="center">&lt;0,05</td>
+								<td align="center">&lt;0,05</td>
+								<td align="center">0,05</td>
+							</tr>
+							<tr>
+								<td align="left" rowspan="9">Solução de cloridrato de vancomicina e heparina sódica</td>
+								<td align="center" rowspan="2">T0</td>
+								<td align="center">94,91 ± 1,76<sup>†</sup></td>
+								<td align="center">4,75 ± 0,09<sup>†</sup></td>
+								<td align="center">3,80 ± 0,02</td>
+							</tr>
+							<tr>
+								<td align="center">(92,68-96,80)</td>
+								<td align="center">(4,63-4,84)</td>
+								<td align="center">(3,78-3,82)</td>
+							</tr>
+							<tr>
+								<td align="center" rowspan="2">T3</td>
+								<td align="center">95,12 ± 1,29<sup>†</sup></td>
+								<td align="center">4,76 ± 0,06<sup>†</sup></td>
+								<td align="center">3,75 ± 0,07</td>
+							</tr>
+							<tr>
+								<td align="center">(93,19-96,80)</td>
+								<td align="center">(4,66-4,84)</td>
+								<td align="center">(3,68-3,82)</td>
+							</tr>
+							<tr>
+								<td align="center" rowspan="2">T8</td>
+								<td align="center">95,05 ± 3,15<sup>†</sup></td>
+								<td align="center" rowspan="2">4,75 ± 0,16<sup>†</sup> (4,54-4,97)</td>
+								<td align="center">3,75 ± 0,04</td>
+							</tr>
+							<tr>
+								<td align="center">(90,84-99,43)</td>
+								<td align="center">(3,72-3,79)</td>
+							</tr>
+							<tr>
+								<td align="center" rowspan="2">T24</td>
+								<td align="center">96,94 ± 1,23*</td>
+								<td align="center">4,85 ± 0,06*</td>
+								<td align="center">3,78 ± 0,01</td>
+							</tr>
+							<tr>
+								<td align="center">(94,94-98,42)</td>
+								<td align="center">(4,75-4,92)</td>
+								<td align="center">(3,78-3,79)</td>
+							</tr>
+							<tr>
+								<td align="center">p</td>
+								<td align="center">0,001</td>
+								<td align="center">0,001</td>
+								<td align="center">0,389</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN1">
+							<p>*Análise de variâncias (ANOVA); <sup>†</sup>Comparações múltiplas com correção de Bonferroni; (*) e (<sup>†</sup>) apresentam médias distintas entre momentos de avaliação para cada tratamento. Resultados expressos por média ± desvio padrão.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>Na <xref ref-type="table" rid="t1">Tabela 1</xref> evidenciou-se redução da concentração do cloridrato de vancomicina a 22°C em T0 e T8 com posterior elevação T24. Com relação ao pH, houve redução no decorrer do tempo. </p>
+			<p>Sob influência da temperatura de 37°C, a concentração do cloridrato de vancomicina apresentou aumento no momento inicial bem como em três horas do preparo e posterior queda em 24 horas (<xref ref-type="table" rid="t1">Tabela 1</xref>). Quanto ao pH, não apresentou variação significativa em relação aos valores encontrados nas soluções de cloridrato de vancomicina a 22°C com redução na escala de pH do momento inicial até 24 horas conforme é mostrado na <xref ref-type="table" rid="t1">Tabela 1</xref>. </p>
+			<p>Com relação à solução de associação do cloridrato de vancomicina e heparina sódica a 22°C, observou-se quanto ao pH, menor valor em três horas do preparo e maior em 24 horas. No que se refere à concentração, apresentou queda nos valores em torno de 5% do antimicrobiano no decorrer do tempo (<xref ref-type="table" rid="t1">Tabela 1</xref>). </p>
+			<p>Nas soluções de cloridrato de vancomicina com heparina sódica, quando submetidas a 37ºC no que se refere ao pH, nota-se que apresentaram valor mais elevado em T0, porém com variação mais reduzida. Quanto à concentração, apresentaram queda com menor valor no momento inicial, alcançando sua concentração máxima 24 horas após o preparo das soluções (<xref ref-type="table" rid="t1">Tabela 1</xref>).</p>
+			<p>Para demonstrar graficamente a variação da concentração e do pH obtidos no estudo, os resultados, de acordo com o tempo de preparo das soluções, são apresentados na <xref ref-type="fig" rid="f1">Figura 1</xref>.</p>
+			<p>
+				<fig id="f1">
+					<label>Figura 1</label>
+					<caption>
+						<title>Médias de concentração e potencial hidrogeniônico das soluções de cloridrato de vancomicina e de associação do cloridrato de vancomicina e heparina sódica segundo tempo de utilização e temperatura de exposição. São Paulo, SP, Brasil, 2018</title>
+					</caption>
+					<graphic xlink:href="1518-8345-rlae-30-e3620-gf1.png"/>
+					<graphic xlink:href="1518-8345-rlae-30-e3620-gf2.png"/>
+					<attrib>*A = Concentração; <sup>†</sup>B = Potencial hidrogeniônico</attrib>
+				</fig>
+			</p>
+			<p>Na <xref ref-type="fig" rid="f1">Figura 1</xref>, observa-se que a temperatura de 22°C provocou menor variação nas concentrações; todavia, nas soluções de associação do antimicrobiano com heparina sódica, foi possível observar redução da concentração, inclusive, a 22°C., No entanto, na solução de cloridrato de vancomicina e heparina sódica a 37°C, a concentração iniciou, imediatamente após o preparo, com valor inferior à concentração teórica esperada (5 mg/mL).</p>
+			<p>Quanto à análise do pH do antimicrobiano, em ambas as temperaturas, observou-se que os valores permaneceram semelhantes, com exceção de 24 horas a 22°C, o qual se mostrou mais ácido (<xref ref-type="table" rid="t1">Tabela 1</xref>).</p>
+			<p>Múltiplas comparações foram realizadas com as soluções de cloridrato de vancomicina e cloridrato de vancomicina em associação à heparina sódica em ambas as temperaturas e nos quatro intervalos de tempo estabelecidos como mostra a <xref ref-type="fig" rid="f2">Figura 2</xref>.</p>
+			<p>
+				<fig id="f2">
+					<label>Figura 2</label>
+					<caption>
+						<title>Concentração e potencial hidrogeniônico de soluções de cloridrato de vancomicina e de associação de cloridrato de vancomicina e heparina sódica segundo a influência do tempo e da temperatura em múltiplas comparações pareadas (teste <italic>posteriori</italic> de Bonferroni). São Paulo, SP, Brasil, 2018</title>
+					</caption>
+					<graphic xlink:href="1518-8345-rlae-30-e3620-gf3.png"/>
+					<graphic xlink:href="1518-8345-rlae-30-e3620-gf4.png"/>
+					<attrib>*A = Concentração; <sup>†</sup>B = Potencial hidrogeniônico</attrib>
+				</fig>
+			</p>
+			<p>As múltiplas comparações matemáticas realizadas no estudo das soluções de cloridrato de vancomicina mostraram redução estatisticamente significante da concentração do antimicrobiano em associação à heparina sódica com elevação do pH nas soluções submetidas a 37ºC (<xref ref-type="fig" rid="f2">Figura 2</xref>).</p>
+			<p>A inspeção visual das soluções evidenciou formação de precipitado na associação de cloridrato de vancomicina e heparina sódica, em três horas, independentemente da temperatura (<xref ref-type="fig" rid="f3">Figura 3</xref>).</p>
+			<p>
+				<fig id="f3">
+					<label>Figura 3</label>
+					<caption>
+						<title>Solução de cloridrato de vancomicina e heparina sódica nos momentos: inicial; após três; oito; e 24 horas de utilização das soluções em temperatura de 22°C; e com formação de solução turva em três horas de preparo. São Paulo, SP, Brasil, 2018</title>
+					</caption>
+					<graphic xlink:href="1518-8345-rlae-30-e3620-gf5.png"/>
+				</fig>
+			</p>
+		</sec>
+		<sec sec-type="discussion">
+			<title>Discussão</title>
+			<p>O corrente estudo foi realizado pelo processo de mimetização da prática clínica da técnica de selo com antimicrobianos em CICs, em temperaturas de 22°C e 37°C. As concentrações das soluções de cloridrato de vancomicina em ambas as temperaturas foram próximas de 100% (concentração teórica esperada de 5 mg/mL); ainda, se mantiveram equivalentes durante as 24 horas após o preparo, o que corrobora a arguição a respeito da avaliação da concentração do cloridrato de vancomicina pelo método CLAE que revelou estabilidade farmacológica do antimicrobiano por até 24 horas em temperatura ambiente<xref ref-type="bibr" rid="B17"><sup>17</sup></xref>.</p>
+			<p>No entanto, a associação do cloridrato de vancomicina com heparina sódica resultou em formação de precipitado em três horas em ambas as temperaturas bem como redução da concentração do antimicrobiano quando a 37°C. </p>
+			<p>Sabe-se que o perfil predominante das incompatibilidades medicamentosas com potenciais riscos ao paciente está relacionado com a classe dos antimicrobianos, podendo a associação entre fármacos inativar o princípio ativo do produto ou levar a um quadro de toxicidade, resultando na incerteza da eficácia terapêutica<xref ref-type="bibr" rid="B18"><sup>18</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B19"><sup>19</sup></xref>. O reconhecimento de incompatibilidades farmacológicas possibilita evitar situações adversas assim como o aparecimento de toxicidade<xref ref-type="bibr" rid="B20"><sup>20</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B21"><sup>21</sup></xref>.</p>
+			<p>Para assegurar a eficácia do cloridrato de vancomicina na descontaminação de CICs, deve-se manter a concentração do fármaco a uma variação inferior a 10% durante todo o período em que a solução permanecer no interior do dispositivo intravenoso, levando-se em consideração, inclusive, os materiais dos CICs<xref ref-type="bibr" rid="B22"><sup>22</sup></xref>. </p>
+			<p>Analisando as concentrações da solução de cloridrato de vancomicina a 22°C no atual experimento, no qual as soluções se mantiveram acondicionadas em frascos de vidro âmbares, nota-se que, apesar da tênue alteração nos valores, a maior variação aconteceu dentro de um período de oito e 24 horas com aumento de 2% na concentração do antimicrobiano em 24 horas de utilização da solução (p&gt;0,05), do qual se depreende a probabilidade da influência do tempo na estabilidade do fármaco.</p>
+			<p>Com relação ao pH, a solução de cloridrato de vancomicina a temperatura de 22ºC apresentou redução no decorrer do tempo, acentuando o perfil ácido do fármaco. Nesta situação, obteve-se o valor extremo de acidez de todas as aferições; no entanto, o comportamento do pH no decorrer do tempo foi semelhante. Tais valores compreendem a faixa de referência do antimicrobiano de 2,5 a 5,5 de acordo com o fabricante<xref ref-type="bibr" rid="B23"><sup>23</sup></xref>.</p>
+			<p>Estudo acerca de estabilidade medicamentosa afirma que valores extremos de pH podem ocasionar a instabilidade das soluções e são considerados elementos-chave para compatibilidade físico-química das soluções<xref ref-type="bibr" rid="B24"><sup>24</sup></xref>.</p>
+			<p>Alterações na temperatura às quais as soluções estão submetidas podem causar modificações do pH e consequente instabilidade farmacológica<xref ref-type="bibr" rid="B18"><sup>18</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B21"><sup>21</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B25"><sup>25</sup></xref>. No entanto, nesta pesquisa, referente ao pH, as soluções de cloridrato de vancomicina se mantiveram equivalentes no decorrer do tempo a 37°C. Ainda, ao comparar as soluções de cloridrato de vancomicina a 22°C com as soluções do antimicrobiano a 37°C, nota-se comportamento semelhante com redução dos valores no decorrer do tempo e com variação inferior a 0,1 ponto na escala de pH.</p>
+			<p>Quando submetida à temperatura de 37°C, a solução de cloridrato de vancomicina em associação à heparina sódica apresentou média de pH superior às demais encontradas na pesquisa, porém, com redução de 0,02 ponto de pH desde o momento inicial até 24 horas após o preparo. A maior variação ocorreu nas soluções de associação do antimicrobiano à heparina sódica a 22°C com aumento de 0,37 ponto de pH no decorrer do tempo. Portanto, pode-se sugerir que neste experimento, a temperatura elevada não afetou o grau de concentração de íons de hidrogênio das soluções de cloridrato de vancomicina; no entanto, houve alteração em relação à redução da concentração do antimicrobiano, quando em associação à heparina sódica após 24 horas.</p>
+			<p>Segundo a Farmacopeia Americana<xref ref-type="bibr" rid="B16"><sup>16</sup></xref>, o medicamento deve compreender de 90% a 110% da concentração rotulada. Ao comparar as concentrações das soluções imediatamente após o preparo, foi possível constatar variação na concentração do cloridrato de vancomicina no momento inicial de preparo dos frascos-ampola, porém, dentro do limite de tolerância estabelecido. Contudo, ao se avaliar a concentração do cloridrato de vancomicina quando em associação com a heparina sódica a 22°C, foi possível observar redução superior a 5% nos valores desde o momento inicial até 24 horas de utilização das soluções. </p>
+			<p>Ao estabelecer uma comparação, na presente investigação, entre as soluções submetidas a 22°C, foi possível observar que a maior variação da concentração ocorreu na associação à heparina sódica com decréscimo da concentração do antimicrobiano no decorrer do tempo. Quando submetida a 37°C, a solução contendo cloridrato de vancomicina e heparina sódica apresentou valores de concentração inferiores aos demais encontrados no experimento. Com relação ao pH, o maior valor obtido no experimento foi alcançado nas soluções de cloridrato de vancomicina e heparina sódica a 22°C em 24 horas, alcançando valor de 4,0; portanto, 0,41 ponto superior ao valor obtido na solução do antimicrobiano à mesma temperatura e no mesmo período de tempo, fato que sugere a interferência do anticoagulante na estabilidade do cloridrato de vancomicina.</p>
+			<p>Soluções de cloridrato de vancomicina isolado ou associado à heparina sódica foram apontadas como as melhores alternativas para tratamento de ICSRC para microorganismos Gram-positivos<xref ref-type="bibr" rid="B26"><sup>26</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B27"><sup>27</sup></xref>. No entanto, no que se refere à estabilidade dos fármacos, os resultados foram contraditórios, especialmente, para soluções de associação do antimicrobiano à heparina sódica, pois, embora em uma pesquisa<xref ref-type="bibr" rid="B28"><sup>28</sup></xref> o cloridrato de vancomicina (5 mg/mL) tenha sido compatível com a heparina sódica (2.5000 U.I./mL), outras, por sua vez, indicaram que concentrações elevadas do antimicrobiano (10 mg/mL) podem aumentar o risco de precipitação das soluções, inclusive, com baixas doses de anticoagulante (100 U.I./mL)<xref ref-type="bibr" rid="B29"><sup>29</sup></xref>.</p>
+			<p>Na atual pesquisa, quando a 22°C, houve redução da concentração do cloridrato de vancomicina após a associação à heparina sódica na avaliação da solução após três horas do preparo de 2,72%. Em similar investigação, foi demonstrada redução de concentração de antimicrobiano em soluções contendo cloridrato de vancomicina e heparina sódica no interior de CIC após 72 horas, sugerindo, entre outros, a interação entre os fármacos assim como entre as soluções e o material do dispositivo intravenoso<xref ref-type="bibr" rid="B30"><sup>30</sup></xref>. </p>
+			<p>Estudo realizado em um hospital verificou que a maior parte dos erros de medicação observados estavam relacionados com a incompatibilidade medicamentosa ou a falta de evidências para a administração associada aos fármacos<xref ref-type="bibr" rid="B31"><sup>31</sup></xref>. Incompatibilidade medicamentosa ocorre quando dois ou mais fármacos reagem ou interagem de forma que exista alteração da atividade normal de um ou mais componentes, fato que pode inviabilizar a terapêutica clínica, resultando em alteração do princípio ativo, precipitação ou turvação da solução e mudança de coloração do medicamento<xref ref-type="bibr" rid="B20"><sup>20</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B21"><sup>21</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B32"><sup>32</sup></xref>.</p>
+			<p>Pesquisa referente à estabilidade de cloridrato de vancomicina demonstrou formação de precipitados e turvação quando em associação à heparina sódica a partir de cinco minutos de preparo da solução<xref ref-type="bibr" rid="B29"><sup>29</sup></xref>. Notou-se, no presente estudo, alteração no aspecto físico das soluções de cloridrato de vancomicina em associação à heparina sódica, evidenciada por turvação com formação de precipitado em três horas a temperaturas de 22ºC e 37ºC, o que sugere interação entre os fármacos. Ademais, a formação de precipitado pode resultar em obstrução do dispositivo intravenoso e/ou risco de causar embolia no paciente, não sendo recomendada a associação entre os mesmos.</p>
+			<p>A viabilidade da ocorrência de incompatibilidade medicamentosa e a escassez de evidências científicas são dificuldades presentes na prática diária do enfermeiro. Vale lembrar que a realização de associações de fármacos sem evidência científica incorre em erro de medicação<xref ref-type="bibr" rid="B33"><sup>33</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B34"><sup>34</sup></xref>. No que diz respeito à concentração dos fármacos e soluções, é possível que esta possa causar instabilidade farmacológica e comprometer a eficácia da técnica de selos em CICs. Para tanto, visando retratar melhor a prática clínica, sugere-se a investigação da estabilidade de cloridrato de vancomicina com possível interferência de diferentes materiais de CICs, vinculado ao tempo de permanência no sistema de administração bem como na associação entre fármacos e soluções.</p>
+			<p>Destaca-se como limitação do estudo a realização dos experimentos em frascos de vidro, bem como a utilização de uma única dosagem de heparina sódica. Adicionalmente, realizou-se apenas uma concentração do antimicrobiano (5 mg/mL). Sugere-se, para futuros estudos, a investigação da estabilidade e da concentração do cloridrato de vancomicina, quando em associação à heparina sódica sob a possível interferência do material dos dispositivos intravenosos e em concentração de 10 mg/mL.</p>
+		</sec>
+		<sec sec-type="conclusions">
+			<title>Conclusão</title>
+			<p>Houve alteração da estabilidade física na solução de cloridrato de vancomicina (5 mg/mL) e heparina sódica (100 U.I./mL) em três horas de associação com redução inferior a 10% na concentração do antimicrobiano, evidenciando instabilidade química com degradação do fármaco, porém, com estabilidade farmacológica.</p>
+			<p>As soluções de cloridrato de vancomicina mantidas a 22°C apresentaram as menores variações no pH. Contudo, a temperatura não aparece como fator ambiental desencadeador de diferenças consideráveis no comportamento químico das soluções estudadas.</p>
+			<p>Dessa forma, este estudo evidenciou que a associação de cloridrato de vancomicina à heparina sódica em soluções utilizadas em selos para descontaminação de CICs, independentemente da temperatura, apresentou instabilidade química e incompatibilidade medicamentosa. Recomenda-se, portanto, apesar da manutenção da estabilidade farmacológica, a não utilização destes compostos em associação na técnica de selo com antimicrobiano.</p>
+		</sec>
+	</body>
+	<back>
+		<ack>
+			<title>Agradecimentos</title>
+			<p>Agradecemos aos membros do Grupo de Pesquisa SEGTEC - Segurança e Tecnologia - Grupo de pesquisas de enfermagem em segurança do paciente, cuidados intensivos e terapia intravenosa em pediatria (Brasil) pelo apoio durante a coleta de dados.</p>
+			<p>À equipe do Laboratório de Experimentos de Enfermagem (LEEnf).</p>
+		</ack>
+		<ref-list>
+			<title>Referências</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. Sandoval LJS, Lima FET, Gurgel SS, Freitas I, Barbosa LP, Almeida PC. Translation and cross-cultural adaptation of the instrument patient safety in pediatric drug administration: spanish version. Esc Anna Nery. 2021;25(4). https://doi.org/10.1590/2177-9465-EAN-2020-0333</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sandoval</surname>
+							<given-names>LJS</given-names>
+						</name>
+						<name>
+							<surname>Lima</surname>
+							<given-names>FET</given-names>
+						</name>
+						<name>
+							<surname>Gurgel</surname>
+							<given-names>SS</given-names>
+						</name>
+						<name>
+							<surname>Freitas</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Barbosa</surname>
+							<given-names>LP</given-names>
+						</name>
+						<name>
+							<surname>Almeida</surname>
+							<given-names>PC</given-names>
+						</name>
+					</person-group>
+					<article-title>Translation and cross-cultural adaptation of the instrument patient safety in pediatric drug administration: spanish version</article-title>
+					<source>Esc Anna Nery</source>
+					<year>2021</year>
+					<volume>25</volume>
+					<issue>4</issue>
+					<pub-id pub-id-type="doi">10.1590/2177-9465-EAN-2020-0333</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. Anttila VJ. Central venous catheter care for children with cancer should focus on early infections. Acta Paediatr. 2019 Feb;108(2):204-5. https://doi.org/10.1111/apa.14548</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Anttila</surname>
+							<given-names>VJ</given-names>
+						</name>
+					</person-group>
+					<article-title>Central venous catheter care for children with cancer should focus on early infections</article-title>
+					<source>Acta Paediatr</source>
+					<month>02</month>
+					<year>2019</year>
+					<volume>108</volume>
+					<issue>2</issue>
+					<fpage>204</fpage>
+					<lpage>205</lpage>
+					<pub-id pub-id-type="doi">10.1111/apa.14548</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. Benlabed M, Perez M, Gaudy R, Genay S, Lannoy D, Barthélémy C, et al. Clinical implications of intravenous drug incompatibilities in critically ill patients, Anaesth Crit Care Pain Med. 2019;38(2):173-80. https://doi.org/10.1016/j.accpm.2018.04.003</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Benlabed</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Perez</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Gaudy</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Genay</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Lannoy</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Barthélémy</surname>
+							<given-names>C</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Clinical implications of intravenous drug incompatibilities in critically ill patients</article-title>
+					<source>Anaesth Crit Care Pain Med</source>
+					<year>2019</year>
+					<volume>38</volume>
+					<issue>2</issue>
+					<fpage>173</fpage>
+					<lpage>180</lpage>
+					<pub-id pub-id-type="doi">10.1016/j.accpm.2018.04.003</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. Manrique-Rodríguez S, Heras-Hidalgo I, Pernia-López MS, Herranz-Alonso A, Pisabarro MCDR, Suárez-Mier MB, et al. Standardization and chemical characterization of intravenous therapy in adult patients: a step further in medication safety. Drugs RD. 2021;21:39-64. https://doi.org/10.1007/s40268-020-00329-w</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Manrique-Rodríguez</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Heras-Hidalgo</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Pernia-López</surname>
+							<given-names>MS</given-names>
+						</name>
+						<name>
+							<surname>Herranz-Alonso</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Pisabarro</surname>
+							<given-names>MCDR</given-names>
+						</name>
+						<name>
+							<surname>Suárez-Mier</surname>
+							<given-names>MB</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Standardization and chemical characterization of intravenous therapy in adult patients: a step further in medication safety</article-title>
+					<source>Drugs RD</source>
+					<year>2021</year>
+					<volume>21</volume>
+					<fpage>39</fpage>
+					<lpage>64</lpage>
+					<pub-id pub-id-type="doi">10.1007/s40268-020-00329-w</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Ardura MI. Overview of infections complicating pediatric hematopoietic cell transplantation. Infect Dis Clin North Am. 2018;32(1):237-52. https://doi.org/10.1016/j.idc.2017.11.003</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ardura</surname>
+							<given-names>MI</given-names>
+						</name>
+					</person-group>
+					<article-title>Overview of infections complicating pediatric hematopoietic cell transplantation</article-title>
+					<source>Infect Dis Clin North Am</source>
+					<year>2018</year>
+					<volume>32</volume>
+					<issue>1</issue>
+					<fpage>237</fpage>
+					<lpage>252</lpage>
+					<pub-id pub-id-type="doi">10.1016/j.idc.2017.11.003</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. Torre FPF, Baldanzi G, Troster EJ. Risk factors for vascular catheter-related bloodstream infections in pediatric intensive care units. Rev Bras Ter Intensiva. 2018;30(4):436-42. https://doi.org/10.5935/0103-507X.20180066</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Torre</surname>
+							<given-names>FPF</given-names>
+						</name>
+						<name>
+							<surname>Baldanzi</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Troster</surname>
+							<given-names>EJ</given-names>
+						</name>
+					</person-group>
+					<article-title>Risk factors for vascular catheter-related bloodstream infections in pediatric intensive care units</article-title>
+					<source>Rev Bras Ter Intensiva</source>
+					<year>2018</year>
+					<volume>30</volume>
+					<issue>4</issue>
+					<fpage>436</fpage>
+					<lpage>442</lpage>
+					<pub-id pub-id-type="doi">10.5935/0103-507X.20180066</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. Higgins M, Zhang L, Ford R, Brownlie J, Kleidon T, Rickard CM, et al. The microbial biofilm composition on peripherally inserted central catheters: a comparison of polyurethane and hydrophobic catheters collected from paediatric patients. J Vasc Access. 2021;22(3):388-93. https://doi.org/10.1177/1129729820932423</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Higgins</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Zhang</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Ford</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Brownlie</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Kleidon</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Rickard</surname>
+							<given-names>CM</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>The microbial biofilm composition on peripherally inserted central catheters: a comparison of polyurethane and hydrophobic catheters collected from paediatric patients</article-title>
+					<source>J Vasc Access</source>
+					<year>2021</year>
+					<volume>22</volume>
+					<issue>3</issue>
+					<fpage>388</fpage>
+					<lpage>393</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Qureshi S, Fatima P, Mukhtar A, Zehra A, Qamar FN. Clinical profile and outcome of antibiotic lock therapy for bloodstream infections in pediatric hematology/oncology patients in a tertiary care hospital, Karachi, Pakistan. Int J Pediatr Adolesc Med. 2019 Mar;6(1):25-8. https://doi.org/10.1016/j.ijpam.2019.01.004</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Qureshi</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Fatima</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Mukhtar</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Zehra</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Qamar</surname>
+							<given-names>FN</given-names>
+						</name>
+					</person-group>
+					<article-title>Clinical profile and outcome of antibiotic lock therapy for bloodstream infections in pediatric hematology/oncology patients in a tertiary care hospital, Karachi, Pakistan</article-title>
+					<source>Int J Pediatr Adolesc Med</source>
+					<month>03</month>
+					<year>2019</year>
+					<volume>6</volume>
+					<issue>1</issue>
+					<fpage>25</fpage>
+					<lpage>28</lpage>
+					<pub-id pub-id-type="doi">10.1016/j.ijpam.2019.01.004</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. Liang H, Zhang L, Guo X, Sun L. Vancomycin-lock therapy for prevention of catheter-related bloodstream infection in very low body weight infants. BMC Pediatr. 2021;21(3). https://doi.org/10.1186/s12887-020-02482-2</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Liang</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Zhang</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Guo</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Sun</surname>
+							<given-names>L</given-names>
+						</name>
+					</person-group>
+					<article-title>Vancomycin-lock therapy for prevention of catheter-related bloodstream infection in very low body weight infants</article-title>
+					<source>BMC Pediatr</source>
+					<year>2021</year>
+					<volume>21</volume>
+					<issue>3</issue>
+					<pub-id pub-id-type="doi">10.1186/s12887-020-02482-2</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. Bookstaver PB, Premnath P, Wright K, McInnes C. Compatibility and stability of daptomycin lock solutions in combination with gentamicin, azithromycin, heparin and trisodium citrate. Preprints 2019; https://doi.org/10.20944/preprints201909.0107.v1</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bookstaver</surname>
+							<given-names>PB</given-names>
+						</name>
+						<name>
+							<surname>Premnath</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Wright</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>McInnes</surname>
+							<given-names>C</given-names>
+						</name>
+					</person-group>
+					<article-title>Compatibility and stability of daptomycin lock solutions in combination with gentamicin, azithromycin, heparin and trisodium citrate</article-title>
+					<source>Preprints</source>
+					<year>2019</year>
+					<pub-id pub-id-type="doi">10.20944/preprints201909.0107.v1</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. Ranch-Lundin M, Schedin A, Björkhem-Bergman L. Equal effect of vancomycin lock with or without heparin in treatment of central venous catheter related blood stream infections - an observational study in palliative home care. Infect Dis (Lond). 2021 Sep;53(9):719-23. https://doi.org/10.1080/23744235.2021.1922752</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ranch-Lundin</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Schedin</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Björkhem-Bergman</surname>
+							<given-names>L</given-names>
+						</name>
+					</person-group>
+					<article-title>Equal effect of vancomycin lock with or without heparin in treatment of central venous catheter related blood stream infections - an observational study in palliative home care</article-title>
+					<source>Infect Dis (Lond)</source>
+					<month>09</month>
+					<year>2021</year>
+					<volume>53</volume>
+					<issue>9</issue>
+					<fpage>719</fpage>
+					<lpage>723</lpage>
+					<pub-id pub-id-type="doi">10.1080/23744235.2021.1922752</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. Fatima M, Akash MSH, Rasool MF, Rehman K. Chemical kinetics and its applications in drug stability. In: Akash MSH, Rehman K, editors. Drug Stability and Chemical Kinetics [Internet]. Singapore: Springer; 2020 [cited 2021 Dec 9]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.semanticscholar.org/paper/Drug-Stability-and-Chemical-Kinetics-Akash-Rehman/2eed3743025cb69bdc4fd360c3fa459a433eb97b">https://www.semanticscholar.org/paper/Drug-Stability-and-Chemical-Kinetics-Akash-Rehman/2eed3743025cb69bdc4fd360c3fa459a433eb97b</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Fatima</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Akash</surname>
+							<given-names>MSH</given-names>
+						</name>
+						<name>
+							<surname>Rasool</surname>
+							<given-names>MF</given-names>
+						</name>
+						<name>
+							<surname>Rehman</surname>
+							<given-names>K</given-names>
+						</name>
+					</person-group>
+					<person-group person-group-type="author">
+						<name>
+							<surname>Akash</surname>
+							<given-names>MSH</given-names>
+						</name>
+						<name>
+							<surname>Rehman</surname>
+							<given-names>K</given-names>
+						</name>
+					</person-group>
+					<source>Drug Stability and Chemical Kinetics</source>
+					<chapter-title>Chemical kinetics and its applications in drug stability</chapter-title>
+					<year>2020</year>
+					<publisher-loc>Singapore</publisher-loc>
+					<publisher-name>Springer</publisher-name>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-12-09">2021 Dec 9</date-in-citation>
+					<comment>Available from: <ext-link ext-link-type="uri" xlink:href="https://www.semanticscholar.org/paper/Drug-Stability-and-Chemical-Kinetics-Akash-Rehman/2eed3743025cb69bdc4fd360c3fa459a433eb97b">https://www.semanticscholar.org/paper/Drug-Stability-and-Chemical-Kinetics-Akash-Rehman/2eed3743025cb69bdc4fd360c3fa459a433eb97b</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. Liu C, Bayer A, Cosgrove SE, Daum RS, Fridkin SK, Gorwitz RJ, et al. Diretrizes práticas da Infectious Diseases Society of America para o tratamento de infecções por Staphylococcus aureus resistente à meticilina em adultos e crianças. Clin Infect Dis [Internet]. 2011 Fev [cited 2021 Dec 9];52(3):e18-55. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.sbp.com.br/fileadmin/user_upload/pdfs/diretrizes_idsa_tratamento_infec_mrsa_adul_crian.pdf">https://www.sbp.com.br/fileadmin/user_upload/pdfs/diretrizes_idsa_tratamento_infec_mrsa_adul_crian.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Liu</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Bayer</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Cosgrove</surname>
+							<given-names>SE</given-names>
+						</name>
+						<name>
+							<surname>Daum</surname>
+							<given-names>RS</given-names>
+						</name>
+						<name>
+							<surname>Fridkin</surname>
+							<given-names>SK</given-names>
+						</name>
+						<name>
+							<surname>Gorwitz</surname>
+							<given-names>RJ</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Diretrizes práticas da Infectious Diseases Society of America para o tratamento de infecções por Staphylococcus aureus resistente à meticilina em adultos e crianças</article-title>
+					<source>Clin Infect Dis</source>
+					<comment>Internet</comment>
+					<month>02</month>
+					<year>2011</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-12-09">2021 Dec 9</date-in-citation>
+					<volume>52</volume>
+					<issue>3</issue>
+					<fpage>e18</fpage>
+					<lpage>e55</lpage>
+					<comment>Available from: <ext-link ext-link-type="uri" xlink:href="https://www.sbp.com.br/fileadmin/user_upload/pdfs/diretrizes_idsa_tratamento_infec_mrsa_adul_crian.pdf">https://www.sbp.com.br/fileadmin/user_upload/pdfs/diretrizes_idsa_tratamento_infec_mrsa_adul_crian.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. Ministério da Saúde (BR), Agência Nacional de Vigilância Sanitária. Resolução RDC no 166, de 24 de julho de 2017. Dispõe sobre a validação de métodos analíticos e dá outras providências [Internet]. Diário Oficial da União, 25 jul. 2017 [cited 2021 Dec 9]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.in.gov.br/materia/-/asset_publisher/Kujrw0TZC2Mb/content/id/19194581/do1-2017-07-25-resolucao-rdc-n-166-de-24-de-julho-de-2017-19194412">https://www.in.gov.br/materia/-/asset_publisher/Kujrw0TZC2Mb/content/id/19194581/do1-2017-07-25-resolucao-rdc-n-166-de-24-de-julho-de-2017-19194412</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="legal-doc">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+						<collab>Agência Nacional de Vigilância Sanitária</collab>
+					</person-group>
+					<article-title>Resolução RDC no 166, de 24 de julho de 2017. Dispõe sobre a validação de métodos analíticos e dá outras providências</article-title>
+					<comment>Internet</comment>
+					<source>Diário Oficial da União</source>
+					<year>2017</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-12-09">2021 Dec 9</date-in-citation>
+					<comment>Available from: <ext-link ext-link-type="uri" xlink:href="https://www.in.gov.br/materia/-/asset_publisher/Kujrw0TZC2Mb/content/id/19194581/do1-2017-07-25-resolucao-rdc-n-166-de-24-de-julho-de-2017-19194412">https://www.in.gov.br/materia/-/asset_publisher/Kujrw0TZC2Mb/content/id/19194581/do1-2017-07-25-resolucao-rdc-n-166-de-24-de-julho-de-2017-19194412</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. International Conference on Harmonisation (ICH), Expert Working Group. Harmonised tripartite guideline - validation of analytical procedures: text and methodology Q2(R1). In: International Conference on Harmonisation of Technical Requirements for Registration of Pharmaceuticals for Human Use [Internet]. Geneva: ICH Expert Working Group; 2005 [cited 2021 Dec 9]. Available from: <ext-link ext-link-type="uri" xlink:href="https://database.ich.org/sites/default/files/Q2%28R1%29%20Guideline.pdf">https://database.ich.org/sites/default/files/Q2%28R1%29%20Guideline.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>International Conference on Harmonisation. Expert Working Group</collab>
+					</person-group>
+					<source>International Conference on Harmonisation of Technical Requirements for Registration of Pharmaceuticals for Human Use</source>
+					<chapter-title>Harmonised tripartite guideline - validation of analytical procedures: text and methodology Q2(R1)</chapter-title>
+					<year>2005</year>
+					<publisher-loc>Geneva</publisher-loc>
+					<publisher-name>ICH Expert Working Group</publisher-name>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-12-09">2021 Dec 9</date-in-citation>
+					<comment>Available from: <ext-link ext-link-type="uri" xlink:href="https://database.ich.org/sites/default/files/Q2%28R1%29%20Guideline.pdf">https://database.ich.org/sites/default/files/Q2%28R1%29%20Guideline.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. United States Pharmacopeial Convention. USP 32-NF 27 [Homepage]. Rockville, MD: USP Convention; 2009 [cited 2021 Dec 9]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.uspnf.com/official-text/proposal-statuscommentary/usp-32-nf-27">https://www.uspnf.com/official-text/proposal-statuscommentary/usp-32-nf-27</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>United States Pharmacopeial Convention</collab>
+					</person-group>
+					<source>USP 32-NF 27</source>
+					<year>2009</year>
+					<publisher-loc>Rockville, MD</publisher-loc>
+					<publisher-name>USP Convention</publisher-name>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-12-09">2021 Dec 9</date-in-citation>
+					<comment>Available from: <ext-link ext-link-type="uri" xlink:href="https://www.uspnf.com/official-text/proposal-statuscommentary/usp-32-nf-27">https://www.uspnf.com/official-text/proposal-statuscommentary/usp-32-nf-27</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Masse M, Genay S, Mena AM, Carta N, Lannoy D, Barthélémy C, et al. Evaluation of the stability of vancomycin solutions at concentrations used in clinical services. Eur J Hosp Pharmacy. 2020;27:e87-e92. https://doi.org/10.1136/ejhpharm-2019-002076</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Masse</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Genay</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Mena</surname>
+							<given-names>AM</given-names>
+						</name>
+						<name>
+							<surname>Carta</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Lannoy</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Barthélémy</surname>
+							<given-names>C</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Evaluation of the stability of vancomycin solutions at concentrations used in clinical services</article-title>
+					<source>Eur J Hosp Pharmacy</source>
+					<year>2020</year>
+					<volume>27</volume>
+					<fpage>e87</fpage>
+					<lpage>e92</lpage>
+					<pub-id pub-id-type="doi">10.1136/ejhpharm-2019-002076</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18. Kuscu F, Ulu A, Inal AS, Suntur BM, Aydemir H, Gul S, et al. Potential drug-drug interactions with antimicrobials in hospitalized patients: a multicenter point-prevalence study. Med Sci Monit. 2018 Jun 20;24:4240-7. https://doi.org/10.12659/MSM.908589</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kuscu</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Ulu</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Inal</surname>
+							<given-names>AS</given-names>
+						</name>
+						<name>
+							<surname>Suntur</surname>
+							<given-names>BM</given-names>
+						</name>
+						<name>
+							<surname>Aydemir</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Gul</surname>
+							<given-names>S</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Potential drug-drug interactions with antimicrobials in hospitalized patients: a multicenter point-prevalence study</article-title>
+					<source>Med Sci Monit</source>
+					<month>06</month>
+					<year>2018</year>
+					<volume>24</volume>
+					<fpage>4240</fpage>
+					<lpage>4247</lpage>
+					<pub-id pub-id-type="doi">10.12659/MSM.908589</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19. Smeringaiova I, Nyc O, Trosan P, Spatenka J, Burkert J, Bednar J, et al. Antimicrobial efficiency and stability of two decontamination solutions. Cell Tissue Bank. 2018;19:581-9. https://doi.org/10.1007/s10561-018-9707-0</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Smeringaiova</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Nyc</surname>
+							<given-names>O</given-names>
+						</name>
+						<name>
+							<surname>Trosan</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Spatenka</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Burkert</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Bednar</surname>
+							<given-names>J</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Antimicrobial efficiency and stability of two decontamination solutions</article-title>
+					<source>Cell Tissue Bank</source>
+					<year>2018</year>
+					<volume>19</volume>
+					<fpage>581</fpage>
+					<lpage>589</lpage>
+					<pub-id pub-id-type="doi">10.1007/s10561-018-9707-0</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20. Begum S, Reddy Y, Divya B, Komali P, Sushmitha K, Ruksar S. Pharmaceutical incompatibilites: a review. Asian J Pharm Res Dev. 2018;6(6):56-61. https://doi.org/10.22270/ajprd.v6i6.448</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Begum</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Reddy</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Divya</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Komali</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Sushmitha</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Ruksar</surname>
+							<given-names>S</given-names>
+						</name>
+					</person-group>
+					<article-title>Pharmaceutical incompatibilites: a review</article-title>
+					<source>Asian J Pharm Res Dev</source>
+					<year>2018</year>
+					<volume>6</volume>
+					<issue>6</issue>
+					<fpage>56</fpage>
+					<lpage>61</lpage>
+					<pub-id pub-id-type="doi">10.22270/ajprd.v6i6.448</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>21. Wilder AG, Foushee JA, Fox LM, Navalle J, Wright AM, Greer MA. Physical compatibility of medications used in critically ill patients with balanced fluid solutions. Int J Pharm Compd [Internet]. 2020 May-Jun [cited 2021 Dec 9];24(3):238-41. Avalilable from: <ext-link ext-link-type="uri" xlink:href="https://ijpc.com/Abstracts/Abstract.cfm?ABS=4804">https://ijpc.com/Abstracts/Abstract.cfm?ABS=4804</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Wilder</surname>
+							<given-names>AG</given-names>
+						</name>
+						<name>
+							<surname>Foushee</surname>
+							<given-names>JA</given-names>
+						</name>
+						<name>
+							<surname>Fox</surname>
+							<given-names>LM</given-names>
+						</name>
+						<name>
+							<surname>Navalle</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Wright</surname>
+							<given-names>AM</given-names>
+						</name>
+						<name>
+							<surname>Greer</surname>
+							<given-names>MA</given-names>
+						</name>
+					</person-group>
+					<article-title>Physical compatibility of medications used in critically ill patients with balanced fluid solutions</article-title>
+					<source>Int J Pharm Compd</source>
+					<comment>Internet</comment>
+					<season>May-Jun</season>
+					<year>2020</year>
+					<date-in-citation content-type="access-date" iso-8601-date="2021-12-09">2021 Dec 9</date-in-citation>
+					<volume>24</volume>
+					<issue>3</issue>
+					<fpage>238</fpage>
+					<lpage>241</lpage>
+					<comment> Avalilable from: <ext-link ext-link-type="uri" xlink:href="https://ijpc.com/Abstracts/Abstract.cfm?ABS=4804">https://ijpc.com/Abstracts/Abstract.cfm?ABS=4804</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>22. Trissel LA. Handbook on Injectable Drugs. 19. ed. Bethesda, MD: ASHP; 2017.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Trissel</surname>
+							<given-names>LA</given-names>
+						</name>
+					</person-group>
+					<source>Handbook on Injectable Drugs</source>
+					<year>2017</year>
+					<edition>19</edition>
+					<publisher-loc>Bethesda, MD</publisher-loc>
+					<publisher-name>ASHP</publisher-name>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>23. Antibióticos do Brasil Ltda. Vancomicina: o antibacteriano glicopeptídeo mais utilizado no mundo tem novas diretrizes de uso. Rev Hospital in Foco. 2009 Set;1(3).</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<collab>Antibióticos do Brasil Ltda</collab>
+					</person-group>
+					<article-title>Vancomicina: o antibacteriano glicopeptídeo mais utilizado no mundo tem novas diretrizes de uso</article-title>
+					<source>Rev Hospital in Foco</source>
+					<month>09</month>
+					<year>2009</year>
+					<volume>1</volume>
+					<issue>3</issue>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>24. Maison O, Tardy C, Cabelguenne D, Parat S, Ducastelle S, Piriou V, et al. Drug incompatibilities in intravenous therapy: evaluation and proposition of preventive tools in intensive care and hematology units. Eur J Clin Pharmacol. 2019 Feb;75(2):179-87. https://doi.org/10.1007/s00228-018-2602-6</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Maison</surname>
+							<given-names>O</given-names>
+						</name>
+						<name>
+							<surname>Tardy</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Cabelguenne</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Parat</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Ducastelle</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Piriou</surname>
+							<given-names>V</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Drug incompatibilities in intravenous therapy: evaluation and proposition of preventive tools in intensive care and hematology units</article-title>
+					<source>Eur J Clin Pharmacol</source>
+					<month>02</month>
+					<year>2019</year>
+					<volume>75</volume>
+					<issue>2</issue>
+					<fpage>179</fpage>
+					<lpage>187</lpage>
+					<pub-id pub-id-type="doi">10.1007/s00228-018-2602-6</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>25. Freire MP, Pierrotti LC, Zerati AE, Benites L, Motta-Leal JM Filho, Ibrahim KY, et al. Role of lock therapy for long-term catheter-related infections by multidrug-resistant bacteria. Antimicrob Agents Chemother. 2018 Aug 27;62(9):e00569-18. https://doi.org/10.1128/AAC.00569-18</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Freire</surname>
+							<given-names>MP</given-names>
+						</name>
+						<name>
+							<surname>Pierrotti</surname>
+							<given-names>LC</given-names>
+						</name>
+						<name>
+							<surname>Zerati</surname>
+							<given-names>AE</given-names>
+						</name>
+						<name>
+							<surname>Benites</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Motta-Leal</surname>
+							<given-names>JM</given-names>
+							<suffix>Filho</suffix>
+						</name>
+						<name>
+							<surname>Ibrahim</surname>
+							<given-names>KY</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Role of lock therapy for long-term catheter-related infections by multidrug-resistant bacteria</article-title>
+					<source>Antimicrob Agents Chemother</source>
+					<month>08</month>
+					<year>2018</year>
+					<volume>62</volume>
+					<issue>9</issue>
+					<elocation-id>e00569-18</elocation-id>
+					<pub-id pub-id-type="doi">10.1128/AAC.00569-18</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation>26. Alonso B, Fernández-Cruz A, Díaz M, Sánchez-Carrillo C, Martín-Rabadán P, Bouza E, et al. Can vancomycin lock therapy extend the retention time of infected long-term catheters? APMIS. 2020;128(6):433-9. https://doi.org/10.1111/apm.13033</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Alonso</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Fernández-Cruz</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Díaz</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Sánchez-Carrillo</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Martín-Rabadán</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Bouza</surname>
+							<given-names>E</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Can vancomycin lock therapy extend the retention time of infected long-term catheters?</article-title>
+					<source>APMIS</source>
+					<year>2020</year>
+					<volume>128</volume>
+					<issue>6</issue>
+					<fpage>433</fpage>
+					<lpage>439</lpage>
+					<pub-id pub-id-type="doi">10.1111/apm.13033</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<mixed-citation>27. Shahkarami S, Mehdizadeh M, Roshanzamiri S, Tavakoli Ardakani M. Effect of vancomycin as antibiotic lock technique in prevention of catheter-associated infection in stemcell transplantation patients: vancomycin lock after HSCT. Int Pharmacy Acta. 2021;4(1):4e10:1-8. https://doi.org/10.22037/ipa.v4i1.35723</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Shahkarami</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Mehdizadeh</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Roshanzamiri</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Tavakoli Ardakani</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>Effect of vancomycin as antibiotic lock technique in prevention of catheter-associated infection in stemcell transplantation patients: vancomycin lock after HSCT</article-title>
+					<source>Int Pharmacy Acta</source>
+					<year>2021</year>
+					<volume>4</volume>
+					<issue>1</issue>
+					<fpage>4e10:1</fpage>
+					<lpage>4e10:8</lpage>
+					<pub-id pub-id-type="doi">10.22037/ipa.v4i1.35723</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<mixed-citation>28. Najari Z, Rusho WJ. Compatibility of commonly used bone marrow transplant drugs during Y-site delivery. Am J Health Syst Pharm. 1997 Jan 15;54(2):181-4. http://doi.org/10.1093/ajhp/54.2.181</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Najari</surname>
+							<given-names>Z</given-names>
+						</name>
+						<name>
+							<surname>Rusho</surname>
+							<given-names>WJ</given-names>
+						</name>
+					</person-group>
+					<article-title>Compatibility of commonly used bone marrow transplant drugs during Y-site delivery</article-title>
+					<source>Am J Health Syst Pharm</source>
+					<month>01</month>
+					<year>1997</year>
+					<volume>54</volume>
+					<issue>2</issue>
+					<fpage>181</fpage>
+					<lpage>184</lpage>
+					<pub-id pub-id-type="doi">10.1093/ajhp/54.2.181</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B29">
+				<label>29</label>
+				<mixed-citation>29. Vercaigne LM, Sitar DS, Penner SB, Bernstein K, Wang GQ, Burczynski FJ. Antibiotic-heparin lock: in vitro antibiotic stability combined with heparin in a central venous catheter. Pharmacotherapy. 2000 Apr;20(4):394-9. https://doi.org/10.1592/phco.20.5.394.35063</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Vercaigne</surname>
+							<given-names>LM</given-names>
+						</name>
+						<name>
+							<surname>Sitar</surname>
+							<given-names>DS</given-names>
+						</name>
+						<name>
+							<surname>Penner</surname>
+							<given-names>SB</given-names>
+						</name>
+						<name>
+							<surname>Bernstein</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>GQ</given-names>
+						</name>
+						<name>
+							<surname>Burczynski</surname>
+							<given-names>FJ</given-names>
+						</name>
+					</person-group>
+					<article-title>Antibiotic-heparin lock: in vitro antibiotic stability combined with heparin in a central venous catheter</article-title>
+					<source>Pharmacotherapy</source>
+					<month>04</month>
+					<year>2000</year>
+					<volume>20</volume>
+					<issue>4</issue>
+					<fpage>394</fpage>
+					<lpage>399</lpage>
+					<pub-id pub-id-type="doi">10.1592/phco.20.5.394.35063</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B30">
+				<label>30</label>
+				<mixed-citation>30. Sabzi Z, Mohammadi R, Talebi R, Roshandel GR. Medication errors and their relationship with care complexity and work dynamics. Open Access Maced J Med Sci. 2019 Oct 10;7(21):3579-83. https://doi.org/10.3889/oamjms.2019.722</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sabzi</surname>
+							<given-names>Z</given-names>
+						</name>
+						<name>
+							<surname>Mohammadi</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Talebi</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Roshandel</surname>
+							<given-names>GR</given-names>
+						</name>
+					</person-group>
+					<article-title>Medication errors and their relationship with care complexity and work dynamics</article-title>
+					<comment>Open Access</comment>
+					<source>Maced J Med Sci</source>
+					<month>10</month>
+					<year>2019</year>
+					<volume>7</volume>
+					<issue>21</issue>
+					<fpage>3579</fpage>
+					<lpage>3583</lpage>
+					<pub-id pub-id-type="doi">10.3889/oamjms.2019.722</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B31">
+				<label>31</label>
+				<mixed-citation>31. Sriram S, Aishwarya S, Moithu A, Sebastian A, Kumar A. Intravenous drug incompatibilities in the intensive care unit of a tertiary care hospital in India: are they preventable? J Res Pharm Pract. 2020 Apr-Jun;9(2):106--11. https://doi.org/10.4103/jrpp.JRPP_20_11</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sriram</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Aishwarya</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Moithu</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Sebastian</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Kumar</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Intravenous drug incompatibilities in the intensive care unit of a tertiary care hospital in India: are they preventable?</article-title>
+					<source>J Res Pharm Pract</source>
+					<season>Apr-Jun</season>
+					<year>2020</year>
+					<volume>9</volume>
+					<issue>2</issue>
+					<fpage>106</fpage>
+					<lpage>-11</lpage>
+					<pub-id pub-id-type="doi">10.4103/jrpp.JRPP_20_11</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B32">
+				<label>32</label>
+				<mixed-citation>32. Sutherland A, Canobbio M, Clarke J, Randall M, Skelland T, Weston E. Incidence and prevalence of intravenous medication errors in the UK: a systematic review. Eur J Hosp Pharm. 2020 Jan;27(1):3-8. https://doi.org/10.1136/ejhpharm-2018-001624</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sutherland</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Canobbio</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Clarke</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Randall</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Skelland</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Weston</surname>
+							<given-names>E</given-names>
+						</name>
+					</person-group>
+					<article-title>Incidence and prevalence of intravenous medication errors in the UK: a systematic review</article-title>
+					<source>Eur J Hosp Pharm</source>
+					<month>01</month>
+					<year>2020</year>
+					<volume>27</volume>
+					<issue>1</issue>
+					<fpage>3</fpage>
+					<lpage>8</lpage>
+					<pub-id pub-id-type="doi">10.1136/ejhpharm-2018-001624</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B33">
+				<label>33</label>
+				<mixed-citation>33. Elliott RA, Camacho E, Jankovic D, Sculpher MJ, Faria R. Economic analysis of the prevalence and clinical and economic burden of medication error in England. BMJ Qual Saf. 2021 Feb;30(2):96-105. https://doi.org/10.1136/bmjqs-2019-010206</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Elliott</surname>
+							<given-names>RA</given-names>
+						</name>
+						<name>
+							<surname>Camacho</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Jankovic</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Sculpher</surname>
+							<given-names>MJ</given-names>
+						</name>
+						<name>
+							<surname>Faria</surname>
+							<given-names>R</given-names>
+						</name>
+					</person-group>
+					<article-title>Economic analysis of the prevalence and clinical and economic burden of medication error in England</article-title>
+					<source>BMJ Qual Saf</source>
+					<month>02</month>
+					<year>2021</year>
+					<volume>30</volume>
+					<issue>2</issue>
+					<fpage>96</fpage>
+					<lpage>105</lpage>
+					<pub-id pub-id-type="doi">10.1136/bmjqs-2019-010206</pub-id>
+				</element-citation>
+			</ref>
+			<ref id="B34">
+				<label>34</label>
+				<mixed-citation>34. Härkänen M, Turunen H, Vehviläinen-Julkunen K. Differences between methods of detecting medication errors: a secondary analysis of medication administration errors using incident reports, the global trigger tool method, and observations. J Patient Saf. 2020;16(2):168-76. https://doi.org/10.1097/PTS.0000000000000261</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Härkänen</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Turunen</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Vehviläinen-Julkunen</surname>
+							<given-names>K</given-names>
+						</name>
+					</person-group>
+					<article-title>Differences between methods of detecting medication errors: a secondary analysis of medication administration errors using incident reports, the global trigger tool method, and observations</article-title>
+					<source>J Patient Saf</source>
+					<year>2020</year>
+					<volume>16</volume>
+					<issue>2</issue>
+					<fpage>168</fpage>
+					<lpage>176</lpage>
+					<pub-id pub-id-type="doi">10.1097/PTS.0000000000000261</pub-id>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="presented-at" id="fn4">
+				<p>Artigo extraído da tese de doutorado “Estabilidade do cloridrato de vancomicina empregado na técnica de selo com antimicrobianos para descontaminação de cateteres intravenosos centrais”, apresentada à Universidade Federal de São Paulo, Escola Paulista de Enfermagem, São Paulo, SP, Brasil. Este artigo refere-se à chamada temática “Inovação na prática, no ensino ou na pesquisa em saúde e Enfermagem”.</p>
+			</fn>
+			<fn fn-type="financial-disclosure" id="fn5">
+				<label>Apoio financeiro</label>
+				<p> Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq), Processo 311296/2013-0 e 462183/2014-9, Brasil.</p>
+			</fn>
+		</fn-group>
+	</back>
+	<sub-article article-type="translation" id="s1" xml:lang="en">
+		<front-stub>
+			<article-id pub-id-type="doi">10.1590/1518.8345.5869.3621</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Original Article</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Stability of vancomycin hydrochloride employed in antimicrobial seal solutions of central intravenous catheters</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-4388-3793</contrib-id>
+					<name>
+						<surname>Barros</surname>
+						<given-names>Daniele Porto</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff5"><sup>1</sup></xref>
+					<xref ref-type="aff" rid="aff6"><sup>2</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-8830-0993</contrib-id>
+					<name>
+						<surname>Onofre</surname>
+						<given-names>Priscilla Sete de Carvalho</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff5"><sup>1</sup></xref>
+					<xref ref-type="aff" rid="aff6"><sup>2</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-1223-1589</contrib-id>
+					<name>
+						<surname>Fonseca</surname>
+						<given-names>Fernando Luiz Affonso</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff7"><sup>3</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-3665-8878</contrib-id>
+					<name>
+						<surname>Rosa</surname>
+						<given-names>Paulo César Pires</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff8"><sup>4</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-9246-2354</contrib-id>
+					<name>
+						<surname>Pedreira</surname>
+						<given-names>Mavilde da Luz Gonçalves</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff5"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-1769-4662</contrib-id>
+					<name>
+						<surname>Peterlini</surname>
+						<given-names>Maria Angélica Sorgini</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff5"><sup>1</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff5">
+				<label>1 </label>
+				<institution content-type="original">Universidade Federal de São Paulo, Escola Paulista de Enfermagem, São Paulo, SP, Brazil.</institution>
+			</aff>
+			<aff id="aff6">
+				<label>2 </label>
+				<institution content-type="original">Scholarship holder at the Coordenação de Aperfeiçoamento de Pessoal de Nível </institution>
+			</aff>
+			<aff id="aff7">
+				<label>3 </label>
+				<institution content-type="original">Universidade Estadual de Campinas, Faculdade de Ciências Farmacêuticas, Campinas, SP, Brazil.</institution>
+			</aff>
+			<aff id="aff8">
+				<label>4 </label>
+				<institution content-type="original">Universidade Federal de São Paulo, Instituto de Ciências Ambientais, Químicas e Farmacêuticas, Diadema, SP, Brazil.</institution>
+			</aff>
+			<author-notes>
+				<corresp id="c2">
+					<label>Corresponding author</label> Daniele Porto Barros. E-mail: <email>danipbarros@yahoo.com.br</email>
+				</corresp>
+				<fn fn-type="edited-by" id="fn6">
+					<label>Associate Editor</label>
+					<p> Maria Lúcia Zanetti</p>
+				</fn>
+				<fn fn-type="con" id="fn7">
+					<label>Authors’ contribution</label>
+					<p><bold>Study concept and design:</bold> Fernando Luiz Affonso Fonseca, Paulo César Pires Rosa, Mavilde da Luz Gonçalves Pedreira, Maria Angélica Sorgini Peterlini. <bold>Obtaining data:</bold> Daniele Porto Barros, Priscilla Sete de Carvalho Onofre, Fernando Luiz Affonso Fonseca, Paulo César Pires Rosa. <bold>Data analysis and interpretation:</bold> Daniele Porto Barros, Priscilla Sete de Carvalho Onofre, Fernando Luiz Affonso Fonseca, Paulo César Pires Rosa, Mavilde da Luz Gonçalves Pedreira, Maria Angélica Sorgini Peterlini. <bold>Statistical analysis:</bold> Daniele Porto Barros, Priscilla Sete de Carvalho Onofre, Mavilde da Luz Gonçalves Pedreira. <bold>Obtaining financing:</bold> Maria Angélica Sorgini Peterlini. <bold>Drafting the manuscript:</bold> Daniele Porto Barros, Priscilla Sete de Carvalho Onofre, Mavilde da Luz Gonçalves Pedreira, Maria Angélica Sorgini Peterlini. <bold>Critical review of the manuscript as to its relevant intellectual content:</bold> Fernando Luiz Affonso Fonseca, Paulo César Pires Rosa, Mavilde da Luz Gonçalves Pedreira, Maria Angélica Sorgini Peterlini. All authors approved the final version of the text.</p>
+				</fn>
+				<fn fn-type="conflict" id="fn8">
+					<label>Conflict of interest</label>
+					<p> The authors have declared that there is no conflict of interest.</p>
+				</fn>
+			</author-notes>
+			<abstract>
+				<title>Abstract</title>
+				<sec>
+					<title>Objective: </title>
+					<p>to verify the stability of vancomycin hydrochloride in antimicrobial seal solutions with and without association of heparin sodium according to temperature and association time. </p>
+				</sec>
+				<sec>
+					<title>Method:</title>
+					<p> an experimental study designed for the analysis of hydrogenionic potential and concentration by means of high-efficiency liquid chromatography of vancomycin hydrochloride (n=06) and vancomycin hydrochloride and heparin sodium (n=06). The solutions studied were submitted to absence of light, as well as to 22°C and 37°C. Analyses in triplicate (n=192) were performed at the initial moment (T0) and three (T3), eight (T8) and 24 hours (T24) after preparation. The data were submitted to analysis of variance (p≤0.05). </p>
+				</sec>
+				<sec>
+					<title>Results: </title>
+					<p>concentration of the antimicrobial at 22°C presented a reduction (T0-T8) and a subsequent increase (T24); hydrogenionic potential decreased significantly over time. At 37°C, the concentration increased up to T3 and decreased at T24, with a reduction of hydrogenionic potential up to 24 hours. Concentration of the vancomycin hydrochloride and heparin sodium solutions varied with a reduction at 22°C, accompanied by increased hydrogenionic potential. Precipitate formation was observed by visual inspection of the vancomycin hydrochloride-heparin sodium association (T3). </p>
+				</sec>
+				<sec>
+					<title>Conclusion:</title>
+					<p> pharmacological stability of vancomycin hydrochloride (5 mg/mL) and physical incompatibility with heparin sodium (100 IU/mL) were evidenced after three hours of association in the antimicrobial seal solutions studied.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="en">
+				<title>Descriptor:</title>
+				<kwd>Catheter-Related Infections</kwd>
+				<kwd>Drug Stability</kwd>
+				<kwd>Infusions, Intravenous</kwd>
+				<kwd>Vancomycin</kwd>
+				<kwd>Heparin</kwd>
+				<kwd>Nursing</kwd>
+			</kwd-group>
+		</front-stub>
+		<body>
+			<boxed-text id="bx2">
+				<sec>
+					<title>Highlights</title>
+					<p>(1) Both temperatures led to a change in pH and concentration of the antimicrobial. </p>
+					<p>(2) Vancomycin hydrochloride at 22°C obtained less variation in chemical behavior. </p>
+					<p>(3) Association of the drugs resulted in a change in physical stability. </p>
+					<p>(4) Association of the drugs resulted in a solution with physical incompatibility.</p>
+				</sec>
+			</boxed-text>
+			<sec sec-type="intro">
+				<title>Introduction</title>
+				<p>Critically-ill patients often require multiple drugs, almost all of them intravenously, in order to guarantee the plasma levels in the concentration and time required for an adequate therapeutic response<xref ref-type="bibr" rid="B1"><sup>1</sup></xref>. Consequently, the use of central intravenous catheters (CICs) has been indicated, due to the characteristics of most of the drugs employed, osmolarity and hydrogenionic potential (pH), among others<xref ref-type="bibr" rid="B2"><sup>2</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B4"><sup>4</sup></xref>. </p>
+				<p>CIC preservation in patients with chronic diseases is essential. However, prolongation of the use time of these devices is a predisposing factor for central catheter-related bloodstream infection (CCRBSI)<xref ref-type="bibr" rid="B5"><sup>5</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B6"><sup>6</sup></xref>, due to biofilm formation in the lumen of the catheter<xref ref-type="bibr" rid="B7"><sup>7</sup></xref>. The traditional intervention involves removal of the device. However, this is not always feasible for these patients due to the restricted vascular network resulting from multiple punctures and treatment, as well as from the clinical condition, factors that hinder invasive interventions or procedures. </p>
+				<p>Thus, use of the seal technique with antimicrobials in CICs emerges as an adjuvant in the treatment<xref ref-type="bibr" rid="B2"><sup>2</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B5"><sup>5</sup></xref>. It comprises the administration of antimicrobials with a strong recommendation for the use of vancomycin hydrochloride<xref ref-type="bibr" rid="B5"><sup>5</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B8"><sup>8</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B9"><sup>9</sup></xref> in the lumen of the catheter at a concentration 100 to 1,000 times higher than the minimum inhibitory value usually employed for systemic therapy<xref ref-type="bibr" rid="B8"><sup>8</sup></xref>, being frequently used in combination with heparin sodium<xref ref-type="bibr" rid="B10"><sup>10</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B11"><sup>11</sup></xref>. </p>
+				<p>The solution used in the lumen of the CIC has the function of decontamination, being a <italic>sine qua non</italic> condition for maintaining stability of the drugs within the device during the period indicated for the expected effect<xref ref-type="bibr" rid="B8"><sup>8</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B11"><sup>11</sup></xref>. </p>
+				<p>A number of studies indicate that the antimicrobial seal may remain in the lumen of the intravenous catheter for a long period of time, in order to overcome the barrier formed by the microbial biofilm<xref ref-type="bibr" rid="B8"><sup>8</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B9"><sup>9</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B11"><sup>11</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B12"><sup>12</sup></xref>. </p>
+				<p>However, there is no evidence related to the maximum volume to be administered, permanence time of the solution in the catheter lumen, use frequency and adequate concentration, as well as the association with an anticoagulant<xref ref-type="bibr" rid="B5"><sup>5</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B8"><sup>8</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B12"><sup>12</sup></xref>. Most clinical studies propose a minimum of eight hours a day to achieve the expected action<xref ref-type="bibr" rid="B8"><sup>8</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B9"><sup>9</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B12"><sup>12</sup></xref>. However, there is also the recommendation for the solution to remain between 24 and 48 hours inside the CIC<xref ref-type="bibr" rid="B8"><sup>8</sup></xref>. </p>
+				<p>Thus, the concern about antimicrobial stability in association with heparin sodium remains. Although these phenomena are dependent, among other factors, on concentration of the drugs, exposure to higher temperatures and contact time between the medications should also be evaluated<xref ref-type="bibr" rid="B9"><sup>9</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B11"><sup>11</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B12"><sup>12</sup></xref>.</p>
+				<p>Thus, the objective of this study was to verify the physical-chemical stability of vancomycin hydrochloride in antimicrobial seal solutions with and without heparin sodium according to temperature and association time.</p>
+			</sec>
+			<sec sec-type="methods">
+				<title>Method</title>
+				<sec>
+					<title>Study design</title>
+					<p>An experimental research study, mimicking the clinical practice of antimicrobial seal administration in CICs.</p>
+				</sec>
+				<sec>
+					<title>Study locus</title>
+					<p>Laboratory of Nursing Experiments (<italic>Laboratório de Experimentos de Enfermagem</italic>, LEEnf) of the São Paulo Nursing School, Federal University of São Paulo, São Paulo, SP, Brazil.</p>
+				</sec>
+				<sec>
+					<title>Data collection period</title>
+					<p>Data collection took place between May and July 2018.</p>
+				</sec>
+				<sec>
+					<title>Samples</title>
+					<p>Vancomycin hydrochloride solutions in physiological serum (PhS) and in association with heparin sodium, equivalent to those employed in the antimicrobial seal technique in central intravenous catheters.</p>
+				</sec>
+				<sec>
+					<title>Sample definition</title>
+					<p>The sample consisted of 12 solutions, namely: three of vancomycin hydrochloride at 22°C, three of vancomycin hydrochloride at 37°C, three containing the association of antimicrobial and heparin sodium at 22°C, and three containing the association of antimicrobial and heparin sodium at 37°C. The solutions were prepared by a single researcher and the pH and concentration measurements occurred at the initial moment (T0) and at three (T3), eight (T8) and 24 hours (T24). Concentration checks were carried out in triplicates, resulting in 192 measurements (48 for pH and 144 for concentration). </p>
+				</sec>
+				<sec>
+					<title>Study variables</title>
+					<p>Simulating the clinical practice of antimicrobial seal administration, the experiments took place under controlled light and temperature conditions. The 37°C temperature aimed at mimicking body temperature. The drug concentrations were based on the Infectious Diseases Society of America (IDSA) Practice Guidelines<xref ref-type="bibr" rid="B13"><sup>13</sup></xref>. Two different solutions were studied: vancomycin hydrochloride (5 mg/mL) and the association of the antimicrobial (5 mg/mL) with heparin sodium (100 I.U./mL). The conditions for the analysis programmed in the chromatograph were as follows: mobile phase (MP) in isocratic mode, flow at 1 mL/min; 30ºC column temperature, ultraviolet (UV) detector with wavelength at 220 nanometers (nm), injection of 20 microliters (μL) and analytical running time of 14 minutes (min.). </p>
+				</sec>
+				<sec>
+					<title>Instruments used for collecting the information</title>
+					<p>The pH of the solutions was studied in a digital bench top meter (Kasvi<sup>®</sup> K39-2014B, Curitiba, Brazil) and the antimicrobial concentration by means of the high-efficiency liquid chromatography analytical methodology - HPLC (HPLC Modular Agilent Technologies<sup>®</sup> - 1260 Infinity Series HPLC), using a 4.6 x 250 mm C18 reverse phase column and particle size of 5 micrometers (μm) (Thermo Scientific<sup>®</sup> - ODS Hypersil, Massachussetts, United States of America, batch: 13359). For the daily cleaning procedure of the analytical column of the HPLC equipment, a solution composed of the mixture was established in the proportion of 80% methanol and 20% deionized water, for 20 minutes, with a 1 mL/min flow. Subsequently, the chromatographic parameters were programed. The conditions for the analysis programmed in the equipment were as follows: Mobile phase - MP (acetonitrile 8% and ionic pairing solution 92%) in isocratic mode, flow at 1 mL/min; 30ºC column temperature, UV detector with wavelength at 220 nm, injection of 20 μL and analytical running time of 14 minutes. Preparation of the solutions took place in a gas exhaust chapel (Sppencer<sup>®</sup> SP1050-25, São Paulo, Brazil), with aseptic technique, with polypropylene syringes (3 mL and 10 mL) and sterile stainless steel needles (30.0 x 0.8 mm). Vancomycin hydrochloride (500 mg), heparin sodium (5,000 IU/mL) and PhS in a 100 mL flexible transparent polypropylene bag were used. The drugs, diluents and disposable materials used in the experiment were from the same manufacturing batch and respected shelf life. The experimental solutions were packed in amber glass bottles in order to mimic the absence of light to which the solutions are subjected when inside the catheters.</p>
+				</sec>
+				<sec>
+					<title>Data collection</title>
+					<p>Validation of the analytical methodology was carried out by means of HPLC, prior to verifying the vancomycin hydrochloride concentration, based on the premises established in RE Resolution Number 166 of 2017 of the National Health Surveillance Agency (<italic>Agência Nacional de Vigilância Sanitária</italic>, ANVISA)<xref ref-type="bibr" rid="B14"><sup>14</sup></xref>, in the ICH Q2(R1) guide of the 2005 International Conference on Harmonization<xref ref-type="bibr" rid="B15"><sup>15</sup></xref>, and in the United States Pharmacopeia - USP 32<xref ref-type="bibr" rid="B16"><sup>16</sup></xref> for the selectivity, linearity, precision and accuracy parameters. After preparing the solutions, visual inspection and pH control were performed. To analyze the vancomycin hydrochloride concentrations, it was necessary to adapt to the chromatographic condition with adjustment of the drug sample for the linear working range of 0.1 mg/mL. </p>
+				</sec>
+				<sec>
+					<title>Data treatment and analysis</title>
+					<p>The results are presented based on the means of the triplicates of the pH checks and those of the concentrations in percentage and milligrams <italic>per</italic> milliliters, calculated taking into account the chromatographic peak area of vancomycin hydrochloride of each sample in the times established. Statistical analysis was performed using the multilevel linear regression model, analysis of variance (ANOVA) and multiple comparisons with Bonferroni correction. A 5% significance level was adopted for all the statistical analyses. The statistical analyses were performed using the SPSS 20.0 and Stata 12 programs.</p>
+				</sec>
+				<sec>
+					<title>Ethical aspects</title>
+					<p>The study was submitted to the evaluation of Unifesp’s Research Ethics Committee (<italic>Comitê de Ética em Pesquisa</italic>, CEP) and approved under opinion No. 8942030117.</p>
+				</sec>
+			</sec>
+			<sec sec-type="results">
+				<title>Results</title>
+				<p>The results of the concentration and pH study were obtained by analyzing 12 vancomycin hydrochloride solutions and solutions containing the vancomycin hydrochloride-heparin sodium association. <xref ref-type="table" rid="t2">Table 1</xref> shows the results of the concentration and pH study corresponding to the solutions according to time and temperature variations.</p>
+				<p>
+					<table-wrap id="t2">
+						<label>Table 1</label>
+						<caption>
+							<title>Concentration and hydrogenionic potential of vancomycin hydrochloride solutions (n=6) and of the vancomycin hydrochloride-heparin sodium association (n=6) according to temperature and time. São Paulo, SP, Brazil, 2018</title>
+						</caption>
+						<table>
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left">Temperature</th>
+									<th align="left">Type of solution</th>
+									<th align="center">Moment</th>
+									<th align="center">Concentration (%) Mean ± SD (Min-Max)</th>
+									<th align="center">Concentration (mg/mL) Mean ± SD (Min-Max)</th>
+									<th align="center">Hydrogenioninc potential Mean ± SD (Min-Max)</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td align="left" rowspan="18">22ºC</td>
+									<td align="left" rowspan="9">Vancomycin hydrochloride solution</td>
+									<td align="center" rowspan="2">T0</td>
+									<td align="center">101.93 ± 1.66*</td>
+									<td align="center">5.10 ± 0.08*</td>
+									<td align="center">3.76 ± 0.05*</td>
+								</tr>
+								<tr>
+									<td align="center">(100.75-104.33)</td>
+									<td align="center">(5.04-5.22)</td>
+									<td align="center">(3.73-3.82)</td>
+								</tr>
+								<tr>
+									<td align="center" rowspan="2">T3</td>
+									<td align="center">101.45 ± 1.46</td>
+									<td align="center">5.07 ± 0.07</td>
+									<td align="center">3.73 ± 0.01*</td>
+								</tr>
+								<tr>
+									<td align="center">(99.54-103.58)</td>
+									<td align="center">(4.98-5.18)</td>
+									<td align="center">(3.73-3.74)</td>
+								</tr>
+								<tr>
+									<td align="center" rowspan="2">T8</td>
+									<td align="center">100.31 ± 0.87<sup>†</sup></td>
+									<td align="center">5.02 ± 0.04<sup>†</sup></td>
+									<td align="center">3.74 ± 0.01*</td>
+								</tr>
+								<tr>
+									<td align="center">(99.39-101.39)</td>
+									<td align="center">(4.97-5.07)</td>
+									<td align="center">(3.73-3.75)</td>
+								</tr>
+								<tr>
+									<td align="center" rowspan="2">T24</td>
+									<td align="center">102.50 ± 1.46*</td>
+									<td align="center">5.12 ± 0.07*</td>
+									<td align="center">3.59 ± 0.03<sup>†</sup></td>
+								</tr>
+								<tr>
+									<td align="center">(100.52-104.44)</td>
+									<td align="center">(5.03-5.22)</td>
+									<td align="center">(3.56-3.62)</td>
+								</tr>
+								<tr>
+									<td align="center">p</td>
+									<td align="center">&lt;0.05</td>
+									<td align="center">&lt;0.05</td>
+									<td align="center">&lt;0.05</td>
+								</tr>
+								<tr>
+									<td align="left" rowspan="9">Vancomycin hydrochloride and heparin sodium solution</td>
+									<td align="center" rowspan="2">T0</td>
+									<td align="center">101.73 ± 3.81*</td>
+									<td align="center">5.09 ± 0.19*</td>
+									<td align="center">3.63 ± 0.03<sup>†</sup></td>
+								</tr>
+								<tr>
+									<td align="center">(95.50-106.64)</td>
+									<td align="center">(4.78-5.33)</td>
+									<td align="center">(3.60-3.65)</td>
+								</tr>
+								<tr>
+									<td align="center" rowspan="2">T3</td>
+									<td align="center">99.01 ± 1.56<sup>†</sup></td>
+									<td align="center">4.95 ± 0.08<sup>†</sup></td>
+									<td align="center">3.59 ± 0.02<sup>†</sup></td>
+								</tr>
+								<tr>
+									<td align="center">(97.49-101.24)</td>
+									<td align="center">(4.87-5.06)</td>
+									<td align="center">(3.58-3.61)</td>
+								</tr>
+								<tr>
+									<td align="center" rowspan="2">T8</td>
+									<td align="center">97.38 ± 1.20<sup>†</sup></td>
+									<td align="center">4.87 ± 0.06<sup>†</sup></td>
+									<td align="center">3.64 ± 0.04<sup>†</sup></td>
+								</tr>
+								<tr>
+									<td align="center">(95.60-98.80)</td>
+									<td align="center">(4.78-4.94)</td>
+									<td align="center">(3.61-3.69)</td>
+								</tr>
+								<tr>
+									<td align="center" rowspan="2">T24</td>
+									<td align="center">96.34 ± 1.70<sup>†</sup></td>
+									<td align="center">4.82 ± 0.08<sup>†</sup></td>
+									<td align="center">4.00 ± 0.02*</td>
+								</tr>
+								<tr>
+									<td align="center">(94.36-99.44)</td>
+									<td align="center">(4.72-4.97)</td>
+									<td align="center">(3.99-4.02)</td>
+								</tr>
+								<tr>
+									<td align="center">p</td>
+									<td align="center">&lt;0.05</td>
+									<td align="center">0.05</td>
+									<td align="center">&lt;0.05</td>
+								</tr>
+								<tr>
+									<td align="left" rowspan="18">37ºC</td>
+									<td align="left" rowspan="9">Vancomycin hydrochloride solution</td>
+									<td align="center" rowspan="2">T0</td>
+									<td align="center">97.79 ± 0.69<sup>†</sup></td>
+									<td align="center">4.89 ± 0.03<sup>†</sup></td>
+									<td align="center">3.73 ± 0.02*</td>
+								</tr>
+								<tr>
+									<td align="center">(96.99-98.97)</td>
+									<td align="center">(4.85-4.95)</td>
+									<td align="center">(3.71-3.74)</td>
+								</tr>
+								<tr>
+									<td align="center" rowspan="2">T3</td>
+									<td align="center">101.96 ± 1.13*</td>
+									<td align="center">5.10 ± 0.06*</td>
+									<td align="center">3.69 ± 0.02<sup>†</sup></td>
+								</tr>
+								<tr>
+									<td align="center">(100.25-102.92)</td>
+									<td align="center">(5.01-5.15)</td>
+									<td align="center">(3.68-3.71)</td>
+								</tr>
+								<tr>
+									<td align="center" rowspan="2">T8</td>
+									<td align="center">100.73 ± 1.69*</td>
+									<td align="center">5.04 ± 0.08*</td>
+									<td align="center">3.67 ± 0.01<sup>†</sup></td>
+								</tr>
+								<tr>
+									<td align="center">(98.77-102.58)</td>
+									<td align="center">(4.94-5.13)</td>
+									<td align="center">(3.66-3.68)</td>
+								</tr>
+								<tr>
+									<td align="center" rowspan="2">T24</td>
+									<td align="center">98.35 ± 2.80<sup>†</sup></td>
+									<td align="center">4.92 ± 0.14<sup>†</sup></td>
+									<td align="center">3.68 ± 0.02<sup>†</sup></td>
+								</tr>
+								<tr>
+									<td align="center">(95.41-101.83)</td>
+									<td align="center">(4.77-5.09)</td>
+									<td align="center">(3.66-3.69)</td>
+								</tr>
+								<tr>
+									<td align="center">p</td>
+									<td align="center">&lt;0.05</td>
+									<td align="center">&lt;0.05</td>
+									<td align="center">0.05</td>
+								</tr>
+								<tr>
+									<td align="left" rowspan="9">Vancomycin hydrochloride and heparin sodium solution</td>
+									<td align="center" rowspan="2">T0</td>
+									<td align="center">94.91 ± 1.76<sup>†</sup></td>
+									<td align="center">4.75 ± 0.09<sup>†</sup></td>
+									<td align="center">3.80 ± 0.02</td>
+								</tr>
+								<tr>
+									<td align="center">(92.68-96.80)</td>
+									<td align="center">(4.63-4.84)</td>
+									<td align="center">(3.78-3.82)</td>
+								</tr>
+								<tr>
+									<td align="center" rowspan="2">T3</td>
+									<td align="center">95.12 ± 1.29<sup>†</sup></td>
+									<td align="center">4.76 ± 0.06<sup>†</sup></td>
+									<td align="center">3.75 ± 0.07</td>
+								</tr>
+								<tr>
+									<td align="center">(93.19-96.80)</td>
+									<td align="center">(4.66-4.84)</td>
+									<td align="center">(3.68-3.82)</td>
+								</tr>
+								<tr>
+									<td align="center" rowspan="2">T8</td>
+									<td align="center">95.05 ± 3.15<sup>†</sup></td>
+									<td align="center" rowspan="2">4.75 ± 0.16<sup>†</sup> (4.54-4.97)</td>
+									<td align="center">3.75 ± 0.04</td>
+								</tr>
+								<tr>
+									<td align="center">(90.84-99.43)</td>
+									<td align="center">(3.72-3.79)</td>
+								</tr>
+								<tr>
+									<td align="center" rowspan="2">T24</td>
+									<td align="center">96.94 ± 1.23*</td>
+									<td align="center">4.85 ± 0.06*</td>
+									<td align="center">3.78 ± 0.01</td>
+								</tr>
+								<tr>
+									<td align="center">(94.94-98.42)</td>
+									<td align="center">(4.75-4.92)</td>
+									<td align="center">(3.78-3.79)</td>
+								</tr>
+								<tr>
+									<td align="center">p</td>
+									<td align="center">0.001</td>
+									<td align="center">0.001</td>
+									<td align="center">0.389</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN2">
+								<p><sup>*</sup>Analysis of variance (ANOVA); <sup>†</sup>Multiple comparisons Bonferroni correction; (<sup>*</sup>) and (<sup>†</sup>) present different means between the evaluation moments for each. The results are expressed through mean ± standard deviation</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p>
+					<xref ref-type="table" rid="t2">Table 1</xref> shows a reduction in the concentration of vancomycin hydrochloride at 22°C at T0 and T8 with a subsequent increase in T24. Regarding the pH, there was a reduction over time.</p>
+				<p>Under the influence of the 37°C temperature, the vancomycin hydrochloride concentration was increased at the initial moment, as well as at three hours of preparation with a subsequent decrease at 24 hours (<xref ref-type="table" rid="t2">Table 1</xref>). Regarding pH, there was no significant variation in relation to the values found in the vancomycin hydrochloride solutions at 22°C with a reduction in the pH scale from the initial moment up to 24 hours, as shown in <xref ref-type="table" rid="t2">Table 1</xref>. </p>
+				<p>In relation to the vancomycin hydrochloride-heparin sodium association solution at 22°C, regarding pH, a lower value was observed at three hours of preparation, and a higher value at 24 hours. Regarding the concentration, it presented a drop of around 5% in the antimicrobial values over time (<xref ref-type="table" rid="t2">Table 1</xref>). </p>
+				<p>In the vancomycin hydrochloride with heparin sodium solutions, when submitted to 37ºC and with regard to pH, it is noted that they presented a higher value at T0, although with a smaller variation. As for the concentration, they presented a drop at the initial moment, reaching their maximum concentration 24 hours after preparation of the solutions (<xref ref-type="table" rid="t2">Table 1</xref>).</p>
+				<p>To graphically show the variation in concentration and pH obtained in the study, the results, according to the preparation time of the solutions, are presented in <xref ref-type="fig" rid="f4">Figure 1</xref>.</p>
+				<p>
+					<fig id="f4">
+						<label>Figure 1</label>
+						<caption>
+							<title>Mean values of concentration and hydrogenionic potential of the vancomycin hydrochloride solutions and of those of the vancomycin hydrochloride-heparin sodium association, according use time and exposure temperature. São Paulo, SP, Brazil, 2018</title>
+						</caption>
+						<graphic xlink:href="1518-8345-rlae-30-e3620-gf6.png"/>
+						<attrib>*A = Concentration; <sup>†</sup> B = Hydrogenionic potential</attrib>
+					</fig>
+				</p>
+				<p>
+					<xref ref-type="fig" rid="f4">Figure 1</xref> shows that the 22°C temperature caused less variation in the concentrations; however, in the solutions containing the association of the antimicrobial with heparin sodium, it was possible to observe a reduction in concentration, even at 22°C. However, in the vancomycin hydrochloride-heparin sodium solution at 37°C, immediately after preparation, the concentration started with a value lower than the expected theoretical concentration (5 mg/mL).</p>
+				<p>Regarding the analysis of antimicrobial pH at both temperatures, it was observed that the values remained similar, except for 24 hours at 22°C, which proved to be more acidic (<xref ref-type="table" rid="t2">Table 1</xref>).</p>
+				<p>Multiple comparisons were made with vancomycin hydrochloride solutions and solutions containing vancomycin hydrochloride in association with heparin sodium, at both temperatures and in the four time intervals established, as shown in <xref ref-type="fig" rid="f5">Figure 2</xref>.</p>
+				<p>
+					<fig id="f5">
+						<label>Figure 2</label>
+						<caption>
+							<title>Concentration and hydrogenionic potential of the vancomycin hydrochloride solutions and of those containing the vancomycin hydrochloride-heparin sodium association, according to the influence of time and temperature on multiple paired comparisons (<italic>a posteriori</italic> Bonferroni test). São Paulo, SP, Brazil, 2018</title>
+						</caption>
+						<graphic xlink:href="1518-8345-rlae-30-e3620-gf7.png"/>
+						<attrib>*A = Concentration; <sup>†</sup>B = Hydrogenionic potential</attrib>
+					</fig>
+				</p>
+				<p>The multiple mathematical comparisons performed in the study of the vancomycin hydrochloride solutions showed a statistically significant reduction in concentration of the antimicrobial in association with heparin sodium with pH elevation in the solutions submitted to 37ºC (<xref ref-type="fig" rid="f5">Figure 2</xref>).</p>
+				<p>Visual inspection of the solutions evidenced precipitate formation in the vancomycin hydrochloride-heparin sodium association at three hours, regardless of temperature (<xref ref-type="fig" rid="f6">Figure 3</xref>).</p>
+				<p>
+					<fig id="f6">
+						<label>Figure 3</label>
+						<caption>
+							<title>Vancomycin hydrochloride and heparin sodium solution at the different moment: initial; and after three, eight and 24 hours of use of the solutions at a temperature of 22°C; and with formation of a cloudy solution at three hours of preparation. São Paulo, SP, Brazil, 2018</title>
+						</caption>
+						<graphic xlink:href="1518-8345-rlae-30-e3620-gf8.png"/>
+					</fig>
+				</p>
+			</sec>
+			<sec sec-type="discussion">
+				<title>Discussion</title>
+				<p>The current study was carried out by means of a mimicking process of the clinical practice of the seal technique with antimicrobials in CICs, at temperatures of 22°C and 37°C. The concentrations of the vancomycin hydrochloride solutions at both temperatures were close to 100% (theoretical expected concentration of 5 mg/mL); they remained equivalent during the 24 hours after preparation, which corroborates the research regarding the evaluation of vancomycin hydrochloride concentration by the HPLC method that revealed pharmacological stability of the antimicrobial for up to 24 hours at room temperature<xref ref-type="bibr" rid="B17"><sup>17</sup></xref>.</p>
+				<p>However, the association of vancomycin hydrochloride with heparin sodium resulted in precipitate formation at three hours at both temperatures, as well as in reduced antimicrobial concentration when at 37°C. </p>
+				<p>It is known that the predominant profile of drug incompatibilities with potential risks for the patient is related to the class of antimicrobials, and the association between drugs may inactivate the active ingredient of the product or lead to toxicity, resulting in uncertainty of therapeutic efficacy<xref ref-type="bibr" rid="B18"><sup>18</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B19"><sup>19</sup></xref>. Recognition of pharmacological incompatibilities makes it possible to avoid adverse situations, as well as the emergence of toxicity<xref ref-type="bibr" rid="B20"><sup>20</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B21"><sup>21</sup></xref>.</p>
+				<p>To ensure the efficacy of vancomycin hydrochloride in decontamination of CICs, concentration of the drug should be maintained at a variation of less than 10% throughout the period in which the solution remains inside the intravenous device, also taking into account the materials of the CICs<xref ref-type="bibr" rid="B22"><sup>22</sup></xref>. </p>
+				<p>Analyzing the concentrations of the vancomycin hydrochloride solution at 22°C in the current experiment, in which the solutions remained packed in amber glass vials, it is noted that, despite the tenuous change in the values, the greatest variation occurred within periods of eight and 24 hours with a 2% increase in concentration of the antimicrobial at 24 hours of use of the solution (p&gt;0.05), which decants the probability of the influence of time on stability of the drug.</p>
+				<p>Regarding pH, the vancomycin hydrochloride solution at 22ºC presented a reduction over time, accentuating the acid profile of the drug. In this situation, an extreme acidity value of all measurements was obtained; however, pH behavior over time was similar. Such values comprise the antimicrobial reference range from 2.5 to 5.5 according to the manufacturer<xref ref-type="bibr" rid="B23"><sup>23</sup></xref>.</p>
+				<p>A study on drug stability states that extreme pH values can cause instability of the solutions and are considered key elements for physical-chemical compatibility of the solutions<xref ref-type="bibr" rid="B24"><sup>24</sup></xref>.</p>
+				<p>Changes in the temperature to which the solutions are submitted can cause pH changes and consequent pharmacological instability<xref ref-type="bibr" rid="B18"><sup>18</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B21"><sup>21</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B25"><sup>25</sup></xref>. However, in this research, regarding pH, the vancomycin hydrochloride solutions remained equivalent over time at 37°C. In addition, when comparing the vancomycin hydrochloride solutions at 22°C with the antimicrobial solutions at 37°C, a similar behavior is noted with reduced values over time and with a variation of less than 0.1 points in the pH scale.</p>
+				<p>When submitted to the 37°C temperature, the solution containing vancomycin hydrochloride in association with heparin sodium presented a higher pH mean value than the others found in the study, although with a reduction of 0.02 pH points from the initial moment to 24 hours after preparation. The greatest variation occurred in the solutions containing the association of the antimicrobial with heparin sodium at 22°C, with an increase of 0.37 pH points over time. Therefore, it can be suggested that in this experiment, high temperature did not affect the degree of concentration of hydrogen ions of the vancomycin hydrochloride solutions; however, there was a change in relation to the reduction of the antimicrobial concentration when in association with heparin sodium after 24 hours.</p>
+				<p>According to the American Pharmacopoeia<xref ref-type="bibr" rid="B16"><sup>16</sup></xref>, the drug should comprise 90% to 110% of the labeled concentration. When comparing the concentrations of the solutions immediately after preparation, it was possible to observe a variation in the vancomycin hydrochloride concentration at the initial moment of preparation of the vials, although within the tolerance limit established. However, when evaluating the vancomycin hydrochloride concentration when in association with heparin sodium at 22°C, it was possible to observe a reduction of more than 5% in the values from the initial moment to 24 hours of use of the solutions. </p>
+				<p>When establishing a comparison in this research between the solutions submitted to 22°C, it was possible to observe that the greatest variation in concentration occurred in the association with heparin sodium, with decreased antimicrobial concentration over time. When submitted to 37°C, the solution containing vancomycin hydrochloride and heparin sodium presented lower concentration values than the others found in the experiment. Regarding pH, the highest value obtained in the experiment was achieved in the vancomycin hydrochloride and heparin sodium solutions at 22°C at 24 hours, reaching a value of 4.0; therefore, 0.41 points higher than the value obtained in the antimicrobial solution at the same temperature and in the same period of time, a fact that suggests the interference of the anticoagulant in stability of vancomycin hydrochloride.</p>
+				<p>Solutions of vancomycin hydrochloride isolated or associated with heparin sodium were identified as the best alternatives for the treatment of CCRBSIs for Gram-positive microorganisms<xref ref-type="bibr" rid="B26"><sup>26</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B27"><sup>27</sup></xref>. However, with regard to drug stability, the results were contradictory, especially for antimicrobial-heparin sodium association solutions since, although in one study<xref ref-type="bibr" rid="B28"><sup>28</sup></xref> vancomycin hydrochloride (5 mg/mL) was compatible with heparin sodium (2.5000 IU/mL), others, in turn, indicated that high concentrations of antimicrobial (10 mg/mL) can increase the risk for precipitation of the solutions, even with low doses of anticoagulant (100 IU/mL)<xref ref-type="bibr" rid="B29"><sup>29</sup></xref>.</p>
+				<p>In this study, when at 22°C, there was a reduction in the vancomycin hydrochloride concentration after the association with heparin sodium in the evaluation of the solution after 3 hours of the 2.72% preparation. In a similar research study, a reduction in antimicrobial concentration was demonstrated in solutions containing vancomycin hydrochloride and heparin sodium inside CICs after 72 hours, suggesting, among other things, the interaction between the drugs as well as between the solutions and the intravenous device material<xref ref-type="bibr" rid="B30"><sup>30</sup></xref>. </p>
+				<p>A study conducted in a hospital found that most of the medication errors observed were related to drug incompatibility or to lack of evidence for administration associated to the drugs<xref ref-type="bibr" rid="B31"><sup>31</sup></xref>. Drug incompatibility occurs when two or more drugs react or interact in a way that there is a change in the normal activity of one or more components, a fact that can derail clinical therapy, resulting in alteration of the active ingredient, precipitation or clouding of the solution and change in the color of the drug<xref ref-type="bibr" rid="B20"><sup>20</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B21"><sup>21</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B32"><sup>32</sup></xref>.</p>
+				<p>A research on study vancomycin hydrochloride stability showed precipitate formation and turbidity when in association with heparin sodium from five minutes of solution preparation<xref ref-type="bibr" rid="B29"><sup>29</sup></xref>. In the current study, changes were observed in the physical aspect of the solutions containing vancomycin hydrochloride in association with heparin sodium, evidenced by turbidity with precipitate formation at three hours at temperatures of 22ºC and 37ºC, suggesting interaction between the drugs. In addition, the formation of precipitate may result in obstruction of the intravenous device and/or risk of causing embolism in the patient, and the association between them is not recommended.</p>
+				<p>Feasibility of the occurrence of drug incompatibility and the scarcity of scientific evidence are difficulties found in nurses’ daily practice. It is to be remembered that performing drug associations without scientific evidence incurs in medication errors<xref ref-type="bibr" rid="B33"><sup>33</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B34"><sup>34</sup></xref>. With regard to concentration of the drugs and solutions, it is possible that this may cause pharmacological instability and compromise effectiveness of the seal technique in CICs. Therefore, in order to better portray the clinical practice, it is suggested to investigate stability of vancomycin hydrochloride with a possible interference of different CIC materials, linked to the permanence time in the administration system as well as in the association between drugs and solutions.</p>
+				<p>The following stand out as study limitations: conduction of the experiments in glass vials, as well as the use of a single dosage of heparin sodium. Additionally, only one concentration of the antimicrobial (5 mg/mL) was performed. For future studies, it is suggested to investigate stability and concentration of vancomycin hydrochloride, when in association with heparin sodium under the possible interference of the material of intravenous devices and at a concentration of 10 mg/mL.</p>
+			</sec>
+			<sec sec-type="conclusions">
+				<title>Conclusion</title>
+				<p>There was a change in physical stability in the vancomycin hydrochloride (5 mg/mL) and heparin sodium (100 I.U./mL) solution at three hours of association with a reduction of less than 10% in antimicrobial concentration, evidencing chemical instability with drug degradation, although with pharmacological stability.</p>
+				<p>The vancomycin hydrochloride solutions maintained at 22°C presented the smallest variations in pH. However, temperature does not seem to be an environmental factor triggering considerable differences in the chemical behavior of the solutions studied.</p>
+				<p>Thus, this study evidenced that, regardless of temperature, the association of vancomycin hydrochloride with heparin sodium in solutions used in seals for CIC decontamination presented chemical instability and drug incompatibility. Despite maintenance of pharmacological stability, it is therefore recommended to adopt non-use of these compounds in association in the seal technique with an antimicrobial.</p>
+			</sec>
+		</body>
+		<back>
+			<ack>
+				<title>Acknowledgments</title>
+				<p>We thank the members of the <italic>SEGTEC - Segurança e Tecnologia</italic> Research Group - Nursing research study group on patient safety, intensive care and intravenous therapy in pediatrics (Brazil) for their support during data collection. </p>
+				<p>To the team of the Laboratory of Nursing Experiments (LEEnf).</p>
+			</ack>
+			<fn-group>
+				<fn fn-type="presented-at" id="fn9">
+					<p>Paper extracted from doctoral dissertation “Stability of vancomycin hydrochloride for antimicrobial lock technique used for decontamination of central intravenous catheters”, presented to Universidade Federal de São Paulo, Escola Paulista de Enfermagem, São Paulo, SP, Brazil. This article refers to the call “Innovation in practice, teaching or research in health and nursing”. </p>
+				</fn>
+				<fn fn-type="financial-disclosure" id="fn10">
+					<label>Supported by</label>
+					<p> Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq), Grant # 311296/2013-0 and 462183/2014-9, Brazil.</p>
+				</fn>
+			</fn-group>
+		</back>
+	</sub-article>
+	<sub-article article-type="translation" id="s2" xml:lang="es">
+		<front-stub>
+			<article-id pub-id-type="doi">10.1590/1518.8345.5869.3622</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artículo Original</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Estabilidad del clorhidrato de vancomicina utilizado en soluciones de sellado antimicrobiano para catéteres intravenosos centrales</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-4388-3793</contrib-id>
+					<name>
+						<surname>Barros</surname>
+						<given-names>Daniele Porto</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff9"><sup>1</sup></xref>
+					<xref ref-type="aff" rid="aff10"><sup>2</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-8830-0993</contrib-id>
+					<name>
+						<surname>Onofre</surname>
+						<given-names>Priscilla Sete de Carvalho</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff9"><sup>1</sup></xref>
+					<xref ref-type="aff" rid="aff10"><sup>2</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-1223-1589</contrib-id>
+					<name>
+						<surname>Fonseca</surname>
+						<given-names>Fernando Luiz Affonso</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff11"><sup>3</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-3665-8878</contrib-id>
+					<name>
+						<surname>Rosa</surname>
+						<given-names>Paulo César Pires</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff12"><sup>4</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-9246-2354</contrib-id>
+					<name>
+						<surname>Pedreira</surname>
+						<given-names>Mavilde da Luz Gonçalves</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff9"><sup>1</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-1769-4662</contrib-id>
+					<name>
+						<surname>Peterlini</surname>
+						<given-names>Maria Angélica Sorgini</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff9"><sup>1</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff9">
+				<label>1 </label>
+				<institution content-type="original">Universidade Federal de São Paulo, Escola Paulista de Enfermagem, São Paulo, SP, Brasil.</institution>
+			</aff>
+			<aff id="aff10">
+				<label>2 </label>
+				<institution content-type="original">Becaria de la Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES), Brasil.</institution>
+			</aff>
+			<aff id="aff11">
+				<label>3 </label>
+				<institution content-type="original">Universidade Estadual de Campinas, Faculdade de Ciências Farmacêuticas, Campinas, SP, Brasil.</institution>
+			</aff>
+			<aff id="aff12">
+				<label>4 </label>
+				<institution content-type="original">Universidade Federal de São Paulo, Instituto de Ciências Ambientais, Químicas e Farmacêuticas, Diadema, SP, Brasil.</institution>
+			</aff>
+			<author-notes>
+				<corresp id="c3">
+					<label>Autor de correspondencia</label> Daniele Porto Barros. E-mail: <email>danipbarros@yahoo.com.br</email>
+				</corresp>
+				<fn fn-type="edited-by" id="fn11">
+					<label>Editora Asociada</label>
+					<p> Maria Lúcia Zanetti</p>
+				</fn>
+				<fn fn-type="con" id="fn12">
+					<label>Contribución de los autores</label>
+					<p><bold>Concepción y dibujo de la pesquisa:</bold> Fernando Luiz Affonso Fonseca, Paulo César Pires Rosa, Mavilde da Luz Gonçalves Pedreira, Maria Angélica Sorgini Peterlini. <bold>Obtención de datos:</bold> Daniele Porto Barros, Priscilla Sete de Carvalho Onofre, Fernando Luiz Affonso Fonseca, Paulo César Pires Rosa. <bold>Análisis e interpretación de los datos:</bold> Daniele Porto Barros, Priscilla Sete de Carvalho Onofre, Fernando Luiz Affonso Fonseca, Paulo César Pires Rosa, Mavilde da Luz Gonçalves Pedreira, Maria Angélica Sorgini Peterlini. <bold>Análisis estadístico:</bold> Daniele Porto Barros, Priscilla Sete de Carvalho Onofre, Mavilde da Luz Gonçalves Pedreira. <bold>Obtención de financiación:</bold> Maria Angélica Sorgini Peterlini. <bold>Redacción del manuscrito:</bold> Daniele Porto Barros, Priscilla Sete de Carvalho Onofre, Mavilde da Luz Gonçalves Pedreira, Maria Angélica Sorgini Peterlini. <bold>Revisión crítica del manuscrito en cuanto al contenido intelectual importante:</bold> Fernando Luiz Affonso Fonseca, Paulo César Pires Rosa, Mavilde da Luz Gonçalves Pedreira, Maria Angélica Sorgini Peterlini. Todos los autores aprobaron la versión final del texto.</p>
+				</fn>
+				<fn fn-type="conflict" id="fn13">
+					<label>Conflicto de intereses</label>
+					<p> Los autores han declarado que no existe ningún conflicto de intereses.</p>
+				</fn>
+			</author-notes>
+			<abstract>
+				<title>Resumen</title>
+				<sec>
+					<title>Objetivo: </title>
+					<p>verificar la estabilidad del clorhidrato de vancomicina en soluciones de sellado antimicrobiano solo y combinado con heparina sódica según la temperatura y el tiempo de combinación. </p>
+				</sec>
+				<sec>
+					<title>Método:</title>
+					<p> estudio experimental diseñado para analizar el potencial de hidrógeno y la concentración por cromatografía líquida de alta resolución de soluciones de clorhidrato de vancomicina (n=06) y de clorhidrato de vancomicina y heparina sódica (n=06). Las soluciones estudiadas fueron sometidas a ausencia de luz, 22°C y 37°C. Se realizaron análisis por triplicado (n=192) en el momento inicial (T0), a las tres (T3), ocho (T8) y 24 horas (T24) después de la preparación. Los datos fueron sometidos a análisis de varianza (p≤0,05). </p>
+				</sec>
+				<sec>
+					<title>Resultados:</title>
+					<p> la concentración de antimicrobiano a 22°C mostró una reducción (T0-T8) y un posterior aumento (T24); el potencial de hidrógeno disminuyó significativamente con el tiempo. A 37°C, la concentración aumentó hasta T3 y disminuyó en T24, el potencial de hidrógeno disminuyó hasta las 24 horas. La concentración de las soluciones de clorhidrato de vancomicina y heparina sódica mostró variación con la reducción a 22°C acompañada de un aumento del potencial de hidrógeno. Mediante inspección visual se observó la formación de un precipitado al combinar clorhidrato de vancomicina y heparina sódica (T3). </p>
+				</sec>
+				<sec>
+					<title>Conclusión:</title>
+					<p> el clorhidrato de vancomicina (5 mg/ml) presentó evidencia de estabilidad farmacológica e incompatibilidad física con la heparina sódica (100 UI/ml) después de las tres horas de haberse realizado la combinación en las soluciones de sellado antimicrobiano estudiadas.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="es">
+				<title>Descriptores:</title>
+				<kwd>Infecciones Relacionadas con Catéteres</kwd>
+				<kwd>Estabilidad de Medicamentos</kwd>
+				<kwd>Infusiones Intravenosas</kwd>
+				<kwd>Vancomicina</kwd>
+				<kwd>Heparina</kwd>
+				<kwd>Enfermería</kwd>
+			</kwd-group>
+		</front-stub>
+		<body>
+			<p>Destacados: </p>
+			<p>(1) Ambas temperaturas provocaron un cambio en el pH y la concentración del antimicrobiano. </p>
+			<p>(2) El clorhidrato de vancomicina a 22°C presentó menos variación en el comportamiento químico. </p>
+			<p>(3) La combinación de fármacos dio como resultado una modificación de la estabilidad física. </p>
+			<p>(4) La combinación de fármacos dio como resultado una solución con incompatibilidad física.</p>
+			<sec sec-type="intro">
+				<title>Introducción</title>
+				<p>Los pacientes graves suelen necesitar múltiples fármacos, casi todos administrados por vía intravenosa, con el fin de garantizar niveles plasmáticos en la concentración y tiempo necesarios para una adecuada respuesta terapéutica<xref ref-type="bibr" rid="B1"><sup>1</sup></xref>. Por ende, se indica el uso de catéteres intravenosos centrales (CIC), debido a las características de la mayoría de los fármacos utilizados, osmolaridad y potencial de hidrógeno (pH), entre otras<xref ref-type="bibr" rid="B2"><sup>2</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B4"><sup>4</sup></xref>.</p>
+				<p>Es fundamental preservar el CIC en pacientes con enfermedades crónicas. Sin embargo, el uso prolongado de estos dispositivos es un factor que predispone a la infección del torrente sanguíneo asociada al catéter central (ITSAC)<xref ref-type="bibr" rid="B5"><sup>5</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B6"><sup>6</sup></xref>, debido a la formación de biofilm en el lumen del catéter<xref ref-type="bibr" rid="B7"><sup>7</sup></xref>. La intervención tradicional consiste en retirar el dispositivo. Sin embargo, esto no siempre es factible para dichos pacientes, dado que el acceso a la red vascular se encuentra restringido debido a múltiples punciones y tratamientos, y a la condición clínica, factores que dificultan las intervenciones o los procedimientos invasivos.</p>
+				<p>Por ende, el uso de la técnica de sellado con antimicrobianos en CIC se presenta como coadyuvante en el tratamiento<xref ref-type="bibr" rid="B2"><sup>2</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B5"><sup>5</sup></xref>. Comprende la administración de un antimicrobiano, preferentemente clorhidrato de vancomicina<xref ref-type="bibr" rid="B5"><sup>5</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B8"><sup>8</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B9"><sup>9</sup></xref>, en el lumen del catéter a una concentración de 100 a 1.000 veces mayor que el inhibidor mínimo habitualmente utilizado para el tratamiento sistémico<xref ref-type="bibr" rid="B8"><sup>8</sup></xref>, que a menudo se utiliza en combinación con heparina sódica<xref ref-type="bibr" rid="B10"><sup>10</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B11"><sup>11</sup></xref>.</p>
+				<p>La solución utilizada en el lumen del CIC tiene la función de descontaminación, condición <italic>sine qua non</italic> para mantener la estabilidad de los fármacos en el interior del dispositivo durante el tiempo indicado para el efecto esperado<xref ref-type="bibr" rid="B8"><sup>8</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B11"><sup>11</sup></xref>. </p>
+				<p>Hay estudios indican que el sellado antimicrobiano puede permanecer en el lumen del catéter intravenoso por un largo período, con el fin de superar la barrera formada por el biofilm microbiano<xref ref-type="bibr" rid="B8"><sup>8</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B9"><sup>9</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B11"><sup>11</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B12"><sup>12</sup></xref>.</p>
+				<p>Sin embargo, no hay evidencias relacionadas con el volumen máximo que se puede administrar, el tiempo de permanencia de la solución en el lumen del catéter, la frecuencia de uso, la concentración adecuada y la combinación con anticoagulante<xref ref-type="bibr" rid="B5"><sup>5</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B8"><sup>8</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B12"><sup>12</sup></xref>. La mayoría de los estudios clínicos proponen un mínimo de ocho horas al día para lograr la acción esperada<xref ref-type="bibr" rid="B8"><sup>8</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B9"><sup>9</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B12"><sup>12</sup></xref>. Pero, también se recomienda que la solución permanezca entre 24 y 48 horas dentro del CIC<xref ref-type="bibr" rid="B8"><sup>8</sup></xref>.</p>
+				<p>Por ende, la estabilidad del antimicrobiano cuando se lo combina con heparina sódica aún genera preocupación. Si bien estos fenómenos dependen, entre otros factores, de la concentración del fármaco, también es necesario evaluar la exposición a temperaturas más altas y el tiempo de contacto entre los fármacos<xref ref-type="bibr" rid="B9"><sup>9</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B11"><sup>11</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B12"><sup>12</sup></xref>.</p>
+				<p>Por lo tanto, el objetivo de este estudio fue verificar la estabilidad fisicoquímica del clorhidrato de vancomicina en soluciones de sellado antimicrobiano solo y combinado con heparina sódica según la temperatura y el tiempo de combinación.</p>
+			</sec>
+			<sec sec-type="methods">
+				<title>Método</title>
+				<sec>
+					<title>Diseño del estudio</title>
+					<p>Investigación de tipo experimental, que imita la práctica clínica de administración de sellados antimicrobianos en CIC.</p>
+				</sec>
+				<sec>
+					<title>Lugar del estudio</title>
+					<p>Laboratorio de Experimentos de Enfermería (LEEnf) de la Escuela Paulista de Enfermería de la Universidad Federal de São Paulo, São Paulo, SP, Brasil.</p>
+				</sec>
+				<sec>
+					<title>Periodo de recolección de datos</title>
+					<p>La recolección de datos se llevó a cabo entre mayo y julio de 2018.</p>
+				</sec>
+				<sec>
+					<title>Muestra</title>
+					<p>Soluciones de clorhidrato de vancomicina en solución salina (SF) y combinada con heparina sódica, similares a las que se utilizan en la técnica de sellado antimicrobiano en catéteres intravenosos centrales.</p>
+				</sec>
+				<sec>
+					<title>Definición de la muestra</title>
+					<p>La muestra estuvo compuesta por 12 soluciones, tres de clorhidrato de vancomicina a 22°C, tres de clorhidrato de vancomicina a 37°C, tres que contenían la combinación del antimicrobiano y heparina sódica a 22°C y tres que contenían la combinación del antimicrobiano y heparina sódica a 37°C. Las soluciones fueron preparadas por un solo investigador y las mediciones de pH y concentración se realizaron en el momento inicial (T0), a las tres (T3), ocho (T8) y 24 horas (T24). Los controles de concentración se realizaron por triplicado, lo que dio como resultado 192 mediciones (48 de pH y 144 de concentración). </p>
+				</sec>
+				<sec>
+					<title>Variables del estudio</title>
+					<p>Para simular la práctica clínica de administración de sellados antimicrobianos, los experimentos se realizaron en condiciones controladas de luz y temperatura. La temperatura elegida para imitar la temperatura corporal fue de 37°C. Las concentraciones de fármacos se basaron en las Directrices Prácticas de la <italic>Infectious Diseases Society of America</italic> (IDSA)<xref ref-type="bibr" rid="B13"><sup>13</sup></xref>. Se estudiaron dos soluciones diferentes, clorhidrato de vancomicina (5 mg/ml) y la combinación del antimicrobiano (5 mg/ml) con heparina sódica (100 UI/ml). Las condiciones de análisis programadas en el cromatógrafo fueron: fase móvil (FM) en modo isocrático, flujo de 1 ml/min; temperatura de la columna de 30ºC, detector ultravioleta (UV) con longitud de onda de 220 nanómetros (nm), inyección de 20 microlitros (µL) y tiempo de corrida analítica de 14 minutos (min.). </p>
+				</sec>
+				<sec>
+					<title>Instrumentos utilizados para la recolección de la información</title>
+					<p>Se midió el pH de las soluciones utilizando un medidor digital de mesa (Kasvi<sup>®</sup> K39-2014B, Curitiba, Brasil) y la concentración del agente antimicrobiano mediante metodología analítica de cromatografía líquida de alta resolución - CLAE (HPLC Modular Agilent Technologies<sup>®</sup> - 1260 Infinity Series HPLC), utilizando una columna de fase reversa tipo C18 de 4,6 x 250 mm y un tamaño de partícula de 5 micrómetros (µm) (Thermo Scientific<sup>®</sup> - ODS Hypersil, Massachussetts, Estados Unidos, lote: 13359). Para el procedimiento diario de limpieza de la columna analítica del equipo CLAE, se estableció una solución compuesta por 80% de metanol y 20% de agua desionizada, durante 20 minutos, con un flujo de 1 ml/min. A continuación, se programaron los parámetros cromatográficos. Las condiciones de análisis programadas en el equipo fueron: fase móvil - FM (acetonitrilo al 8% y solución de apareamiento iónico al 92%) en modo isocrático, flujo de 1 ml/min; temperatura de la columna de 30ºC, detector UV con longitud de onda de 220 nm, inyección de 20 µL y tiempo de corrida analítica de 14 minutos. Las soluciones fueron preparadas en campana extractora (Sppencer<sup>®</sup> SP1050-25, São Paulo, Brasil), utilizando técnica aséptica, con jeringas de polipropileno (3 ml y 10 ml) y agujas de acero inoxidable (30,0 x 0,8 mm) estériles. Se utilizó clorhidrato de vancomicina (500 mg), heparina sódica (5.000 - UI/ml) y SF en bolsa flexible de polipropileno transparente de 100 ml. Los medicamentos, diluyentes y materiales desechables que se utilizaron en el experimento pertenecían al mismo lote de fabricación y estaban dentro de la fecha de caducidad. Las soluciones experimentales se colocaron en frascos de vidrio color ámbar, con el fin de imitar la ausencia de luz a la que están sometidas las soluciones cuando están dentro de los catéteres.</p>
+				</sec>
+				<sec>
+					<title>Recolección de datos</title>
+					<p>Antes de la verificación de la concentración de clorhidrato de vancomicina, se realizó la validación de la metodología analítica por CLAE con base en las premisas establecidas en la Resolución RE número 166 de 2017 de la Agencia Nacional de Vigilancia Sanitaria (ANVISA)<xref ref-type="bibr" rid="B14"><sup>14</sup></xref> de Brasil, en la guía ICH Q2(R1) de la <italic>International Conference on Harmonization</italic> de 2005<xref ref-type="bibr" rid="B15"><sup>15</sup></xref> y en la Farmacopea de los Estados Unidos (<italic>United States Pharmacopeia</italic> - USP 32)<xref ref-type="bibr" rid="B16"><sup>16</sup></xref> para los parámetros de selectividad, linealidad, precisión y exactitud. Después de preparar las soluciones, se realizó la inspección visual y el control de pH. Para analizar las concentraciones de clorhidrato de vancomicina fue necesario adaptar la condición cromatográfica ajustando la muestra del fármaco al rango de trabajo lineal de 0,1 mg/ml. </p>
+				</sec>
+				<sec>
+					<title>Procesamiento y análisis de datos</title>
+					<p>Los resultados se presentan en función de las medias de mediciones de pH y concentración por triplicado en porcentaje y en miligramos por mililitro, calculados teniendo en cuenta el área del pico cromatográfico de clorhidrato de vancomicina de cada muestra en los tiempos establecidos. El análisis estadístico se realizó mediante el modelo de regresión lineal multinivel, análisis de varianza (ANOVA) y comparaciones múltiples con corrección de Bonferroni. Para todas las pruebas estadísticas se adoptó un nivel de significación del 5%. Los análisis estadísticos se realizaron utilizando los programas SPSS 20.0 y Stata 12.</p>
+				</sec>
+				<sec>
+					<title>Aspectos éticos</title>
+					<p>El estudio fue sometido a la evaluación del Comité de Ética en Investigación (CEI) de la Unifesp y aprobado bajo el dictamen N.º 8942030117.</p>
+				</sec>
+			</sec>
+			<sec sec-type="results">
+				<title>Resultados</title>
+				<p>Los resultados del estudio de concentración y pH se obtuvieron mediante el análisis de 12 soluciones de clorhidrato de vancomicina y de la combinación de clorhidrato de vancomicina y heparina sódica. En la <xref ref-type="table" rid="t3">Tabla 1</xref> se muestran los resultados del estudio de la concentración y del pH de las soluciones según la variación de tiempo y temperatura.</p>
+				<p>
+					<table-wrap id="t3">
+						<label>Tabla 1</label>
+						<caption>
+							<title>Concentración y potencial de hidrógeno de las soluciones de clorhidrato de vancomicina (n=6) y de la combinación de clorhidrato de vancomicina y heparina sódica (n=6) según temperatura y tiempo. São Paulo, SP, Brasil, 2018</title>
+						</caption>
+						<table>
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left">Temperatura</th>
+									<th align="left">Tipo de solución</th>
+									<th align="center">Tiempo</th>
+									<th align="center">Concentración (%) media ± de (mín-máx)</th>
+									<th align="center">Concentración (mg/ml) media ± de (mín-máx)</th>
+									<th align="center">Potencial de hidrógeno media ± de (mín-máx)</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td align="left" rowspan="18">22ºC</td>
+									<td align="left" rowspan="9">Solución de clorhidrato de vancomicina</td>
+									<td align="center" rowspan="2">T0</td>
+									<td align="center">101,93 ± 1,66*</td>
+									<td align="center">5,10 ± 0,08*</td>
+									<td align="center">3,76 ± 0,05*</td>
+								</tr>
+								<tr>
+									<td align="center">(100,75-104,33)</td>
+									<td align="center">(5,04-5,22)</td>
+									<td align="center">(3,73-3,82)</td>
+								</tr>
+								<tr>
+									<td align="center" rowspan="2">T3</td>
+									<td align="center">101,45 ± 1,46</td>
+									<td align="center">5,07 ± 0,07</td>
+									<td align="center">3,73 ± 0,01*</td>
+								</tr>
+								<tr>
+									<td align="center">(99,54-103,58)</td>
+									<td align="center">(4,98-5,18)</td>
+									<td align="center">(3,73-3,74)</td>
+								</tr>
+								<tr>
+									<td align="center" rowspan="2">T8</td>
+									<td align="center">100,31 ± 0,87<sup>†</sup></td>
+									<td align="center">5,02 ± 0,04<sup>†</sup></td>
+									<td align="center">3,74 ± 0,01*</td>
+								</tr>
+								<tr>
+									<td align="center">(99,39-101,39)</td>
+									<td align="center">(4,97-5,07)</td>
+									<td align="center">(3,73-3,75)</td>
+								</tr>
+								<tr>
+									<td align="center" rowspan="2">T24</td>
+									<td align="center">102,50 ± 1,46*</td>
+									<td align="center">5,12 ± 0,07*</td>
+									<td align="center">3,59 ± 0,03<sup>†</sup></td>
+								</tr>
+								<tr>
+									<td align="center">(100,52-104,44)</td>
+									<td align="center">(5,03-5,22)</td>
+									<td align="center">(3,56-3,62)</td>
+								</tr>
+								<tr>
+									<td align="center">p</td>
+									<td align="center">&lt;0,05</td>
+									<td align="center">&lt;0,05</td>
+									<td align="center">&lt;0,05</td>
+								</tr>
+								<tr>
+									<td align="left" rowspan="9">Solución de clorhidrato de vancomicina y heparina sódica</td>
+									<td align="center" rowspan="2">T0</td>
+									<td align="center">101,73 ± 3,81*</td>
+									<td align="center">5,09 ± 0,19*</td>
+									<td align="center">3,63 ± 0,03<sup>†</sup></td>
+								</tr>
+								<tr>
+									<td align="center">(95,50-106,64)</td>
+									<td align="center">(4,78-5,33)</td>
+									<td align="center">(3,60-3,65)</td>
+								</tr>
+								<tr>
+									<td align="center" rowspan="2">T3</td>
+									<td align="center">99,01 ± 1,56<sup>†</sup></td>
+									<td align="center">4,95 ± 0,08<sup>†</sup></td>
+									<td align="center">3,59 ± 0,02<sup>†</sup></td>
+								</tr>
+								<tr>
+									<td align="center">(97,49-101,24)</td>
+									<td align="center">(4,87-5,06)</td>
+									<td align="center">(3,58-3,61)</td>
+								</tr>
+								<tr>
+									<td align="center" rowspan="2">T8</td>
+									<td align="center">97,38 ± 1,20<sup>†</sup></td>
+									<td align="center">4,87 ± 0,06<sup>†</sup></td>
+									<td align="center">3,64 ± 0,04<sup>†</sup></td>
+								</tr>
+								<tr>
+									<td align="center">(95,60-98,80)</td>
+									<td align="center">(4,78-4,94)</td>
+									<td align="center">(3,61-3,69)</td>
+								</tr>
+								<tr>
+									<td align="center" rowspan="2">T24</td>
+									<td align="center">96,34 ± 1,70<sup>†</sup></td>
+									<td align="center">4,82 ± 0,08<sup>†</sup></td>
+									<td align="center">4,00 ± 0,02*</td>
+								</tr>
+								<tr>
+									<td align="center">(94,36-99,44)</td>
+									<td align="center">(4,72-4,97)</td>
+									<td align="center">(3,99-4,02)</td>
+								</tr>
+								<tr>
+									<td align="center">p</td>
+									<td align="center">&lt;0,05</td>
+									<td align="center">&lt;0,05</td>
+									<td align="center">&lt;0,05</td>
+								</tr>
+								<tr>
+									<td align="left" rowspan="18">37ºC</td>
+									<td align="left" rowspan="9">Solución de clorhidrato de vancomicina</td>
+									<td align="center" rowspan="2">T0</td>
+									<td align="center">97,79 ± 0,69<sup>†</sup></td>
+									<td align="center">4,89 ± 0,03<sup>†</sup></td>
+									<td align="center">3,73 ± 0,02*</td>
+								</tr>
+								<tr>
+									<td align="center">(96,99-98,97)</td>
+									<td align="center">(4,85-4,95)</td>
+									<td align="center">(3,71-3,74)</td>
+								</tr>
+								<tr>
+									<td align="center" rowspan="2">T3</td>
+									<td align="center">101,96 ± 1,13*</td>
+									<td align="center">5,10 ± 0,06*</td>
+									<td align="center">3,69 ± 0,02<sup>†</sup></td>
+								</tr>
+								<tr>
+									<td align="center">(100,25-102,92)</td>
+									<td align="center">(5,01-5,15)</td>
+									<td align="center">(3,68-3,71)</td>
+								</tr>
+								<tr>
+									<td align="center" rowspan="2">T8</td>
+									<td align="center">100,73 ± 1,69*</td>
+									<td align="center">5,04 ± 0,08*</td>
+									<td align="center">3,67 ± 0,01<sup>†</sup></td>
+								</tr>
+								<tr>
+									<td align="center">(98,77-102,58)</td>
+									<td align="center">(4,94-5,13)</td>
+									<td align="center">(3,66-3,68)</td>
+								</tr>
+								<tr>
+									<td align="center" rowspan="2">T24</td>
+									<td align="center">98,35 ± 2,80<sup>†</sup></td>
+									<td align="center">4,92 ± 0,14<sup>†</sup></td>
+									<td align="center">3,68 ± 0,02<sup>†</sup></td>
+								</tr>
+								<tr>
+									<td align="center">(95,41-101,83)</td>
+									<td align="center">(4,77-5,09)</td>
+									<td align="center">(3,66-3,69)</td>
+								</tr>
+								<tr>
+									<td align="center">p</td>
+									<td align="center">&lt;0,05</td>
+									<td align="center">&lt;0,05</td>
+									<td align="center">0,05</td>
+								</tr>
+								<tr>
+									<td align="left" rowspan="9">Solución de clorhidrato de vancomicina y heparina sódica</td>
+									<td align="center" rowspan="2">T0</td>
+									<td align="center">94,91 ± 1,76<sup>†</sup></td>
+									<td align="center">4,75 ± 0,09<sup>†</sup></td>
+									<td align="center">3,80 ± 0,02</td>
+								</tr>
+								<tr>
+									<td align="center">(92,68-96,80)</td>
+									<td align="center">(4,63-4,84)</td>
+									<td align="center">(3,78-3,82)</td>
+								</tr>
+								<tr>
+									<td align="center" rowspan="2">T3</td>
+									<td align="center">95,12 ± 1,29<sup>†</sup></td>
+									<td align="center">4,76 ± 0,06<sup>†</sup></td>
+									<td align="center">3,75 ± 0,07</td>
+								</tr>
+								<tr>
+									<td align="center">(93,19-96,80)</td>
+									<td align="center">(4,66-4,84)</td>
+									<td align="center">(3,68-3,82)</td>
+								</tr>
+								<tr>
+									<td align="center" rowspan="2">T8</td>
+									<td align="center">95,05 ± 3,15<sup>†</sup></td>
+									<td align="center" rowspan="2">4,75 ± 0,16<sup>†</sup> (4,54-4,97)</td>
+									<td align="center">3,75 ± 0,04</td>
+								</tr>
+								<tr>
+									<td align="center">(90,84-99,43)</td>
+									<td align="center">(3,72-3,79)</td>
+								</tr>
+								<tr>
+									<td align="center" rowspan="2">T24</td>
+									<td align="center">96,94 ± 1,23*</td>
+									<td align="center">4,85 ± 0,06*</td>
+									<td align="center">3,78 ± 0,01</td>
+								</tr>
+								<tr>
+									<td align="center">(94,94-98,42)</td>
+									<td align="center">(4,75-4,92)</td>
+									<td align="center">(3,78-3,79)</td>
+								</tr>
+								<tr>
+									<td align="center">p</td>
+									<td align="center">0,001</td>
+									<td align="center">0,001</td>
+									<td align="center">0,389</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN3">
+								<p><sup>*</sup>Análisis de variancia (ANOVA); <sup>†</sup>Comparaciones múltiples con corrección de Bonferroni; (<sup>*</sup>) y (<sup>†</sup>) presentan diferentes medias entre los momentos de evaluación para cada tratamiento. Los resultados se expresan en media ± desviación estándar</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p>La <xref ref-type="table" rid="t3">Tabla 1</xref> muestra una reducción en la concentración de clorhidrato de vancomicina a 22°C en T0 y T8 con un aumento posterior en T24. En cuanto al pH, hubo una reducción con el tiempo.</p>
+				<p>La concentración de clorhidrato de vancomicina sometida a una temperatura de 37°C presentó un aumento tanto en el momento inicial como a las tres horas de la preparación y un posterior descenso a las 24 horas (<xref ref-type="table" rid="t3">Tabla 1</xref>). En cuanto al pH, no hubo una variación significativa con respecto a los valores registrados en las soluciones de clorhidrato de vancomicina a 22°C, se registró una reducción en la escala de pH desde el momento inicial hasta las 24 horas como se muestra en la <xref ref-type="table" rid="t3">Tabla 1</xref>.</p>
+				<p>En cuanto a la solución en la que se combina clorhidrato de vancomicina y heparina sódica a 22°C, se observó que el pH fue menor a las tres horas de la preparación y mayor a las 24 horas. En que lo que respecta a la concentración, hubo una disminución de los valores de alrededor del 5% del antimicrobiano a lo largo del tiempo (<xref ref-type="table" rid="t3">Tabla 1</xref>).</p>
+				<p>Se observó que las soluciones de clorhidrato de vancomicina con heparina sódica, al ser sometidas a 37ºC, presentaron el mayor valor de pH en T0, pero con menor variación. En cuanto a la concentración, mostraron una disminución con el valor más bajo en el momento inicial, alcanzando su concentración máxima a las 24 horas de la preparación de las soluciones (<xref ref-type="table" rid="t3">Tabla 1</xref>).</p>
+				<p>Para demostrar gráficamente la variación de concentración y pH obtenida en el estudio, se presentan en la <xref ref-type="fig" rid="f7">Figura 1</xref> los resultados según el tiempo de preparación de las soluciones.</p>
+				<p>
+					<fig id="f7">
+						<label>Figura 1</label>
+						<caption>
+							<title>Medias de concentración y potencial de hidrógeno de las soluciones de clorhidrato de vancomicina y de la combinación de clorhidrato de vancomicina y heparina sódica según tiempo de uso y temperatura de exposición. São Paulo, SP, Brasil, 2018</title>
+						</caption>
+						<graphic xlink:href="1518-8345-rlae-30-e3620-gf9.png"/>
+						<graphic xlink:href="1518-8345-rlae-30-e3620-gf10.png"/>
+						<attrib>*A = Concentración; <sup>†</sup>B = Potencial de hidrógeno</attrib>
+					</fig>
+				</p>
+				<p>En la <xref ref-type="fig" rid="f7">Figura 1</xref> se observa que la temperatura de 22°C provocó menor variación en las concentraciones, pero que las soluciones que combinaban el antimicrobiano con heparina sódica registraron reducción en la concentración, incluso a 22°C. Sin embargo, en la solución de clorhidrato de vancomicina y heparina sódica a 37°C, la concentración comenzó a disminuir, inmediatamente después de la preparación, a un valor inferior a la concentración teórica esperada (5 mg/ml).</p>
+				<p>En cuanto al análisis del pH del antimicrobiano, a ambas temperaturas, se observó que los valores se mantuvieron similares, excepto a las 24 horas a 22°C, que fue más ácido (<xref ref-type="table" rid="t3">Tabla 1</xref>).</p>
+				<p>Se realizaron múltiples comparaciones entre las soluciones de clorhidrato de vancomicina y las que combinaban clorhidrato de vancomicina y heparina sódica a ambas temperaturas y en los cuatro intervalos de tiempo establecidos como se muestra en la <xref ref-type="fig" rid="f8">Figura 2</xref>.</p>
+				<p>
+					<fig id="f8">
+						<label>Figura 2</label>
+						<caption>
+							<title>Concentración y potencial de hidrógeno de las soluciones de clorhidrato de vancomicina y de la combinación de clorhidrato de vancomicina y heparina sódica según la influencia del tiempo y de la temperatura en múltiples comparaciones pareadas (prueba <italic>posteriori</italic> de Bonferroni). São Paulo, SP, Brasil, 2018</title>
+						</caption>
+						<graphic xlink:href="1518-8345-rlae-30-e3620-gf11.png"/>
+						<graphic xlink:href="1518-8345-rlae-30-e3620-gf12.png"/>
+						<attrib>*A = Concentración; <sup>†</sup>B = Potencial de hidrógeno</attrib>
+					</fig>
+				</p>
+				<p>Las múltiples comparaciones matemáticas realizadas en el estudio de las soluciones de clorhidrato de vancomicina mostraron una reducción estadísticamente significativa en la concentración del antimicrobiano en combinación con la heparina sódica con el aumento del pH en las soluciones sometidas a 37ºC (<xref ref-type="fig" rid="f8">Figura 2</xref>).</p>
+				<p>La inspección visual de las soluciones mostró la formación de precipitado en la combinación de clorhidrato de vancomicina y heparina sódica, a las tres horas, independientemente de la temperatura (<xref ref-type="fig" rid="f9">Figura 3</xref>).</p>
+				<p>
+					<fig id="f9">
+						<label>Figura 3</label>
+						<caption>
+							<title>Solución de clorhidrato de vancomicina y heparina sódica en los siguientes tiempos: momento inicial; a las tres; ocho y 24 horas de uso de las soluciones a una temperatura de 22°C; y con formación de una solución turbia a las tres horas de preparación. São Paulo, SP, Brasil, 2018</title>
+						</caption>
+						<graphic xlink:href="1518-8345-rlae-30-e3620-gf13.png"/>
+					</fig>
+				</p>
+			</sec>
+			<sec sec-type="discussion">
+				<title>Discusión</title>
+				<p>El estudio actual se llevó a cabo mediante un proceso que imita la práctica clínica de la técnica de sellado con antimicrobianos en CIC, a temperaturas de 22°C y 37°C. Las concentraciones de las soluciones de clorhidrato de vancomicina a ambas temperaturas fueron cercanas al 100% (concentración teórica esperada de 5 mg/ml); además, se mantuvieron durante las 24 horas posteriores a la preparación, lo que confirma el argumento sobre la evaluación de la concentración de clorhidrato de vancomicina mediante el método CLAE, que reveló la estabilidad farmacológica del antimicrobiano hasta por 24 horas a temperatura ambiente<xref ref-type="bibr" rid="B17"><sup>17</sup></xref>.</p>
+				<p>Sin embargo, la combinación de clorhidrato de vancomicina con heparina sódica generó la formación de un precipitado dentro de las tres horas a ambas temperaturas, así como una reducción en la concentración del antimicrobiano a 37°C.</p>
+				<p>Se sabe que el perfil predominante de las incompatibilidades entre los medicamentos con los riesgos potenciales para el paciente está relacionado con la clase de antimicrobianos, y que la combinación de medicamentos puede inactivar el principio activo del producto o provocar un cuadro de toxicidad, lo que genera incertidumbre en la eficacia terapéutica<xref ref-type="bibr" rid="B18"><sup>18</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B19"><sup>19</sup></xref>. El reconocimiento de las incompatibilidades farmacológicas permite evitar tanto situaciones adversas como la aparición de toxicidad<xref ref-type="bibr" rid="B20"><sup>20</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B21"><sup>21</sup></xref>.</p>
+				<p>Para asegurar la eficacia del clorhidrato de vancomicina en la descontaminación de los CIC, la variación de la concentración del fármaco debe ser inferior al 10% durante todo el tiempo que la solución permanezca en el interior del dispositivo intravenoso, teniendo en cuenta, incluso, los materiales de los CIC<xref ref-type="bibr" rid="B22"><sup>22</sup></xref>. </p>
+				<p>Al analizar las concentraciones de la solución de clorhidrato de vancomicina a 22°C en el presente experimento, en el cual las soluciones se mantuvieron en frascos de vidrio color ámbar, se observa que, a pesar de que hubo un ligero cambio en los valores, la mayor variación se registró en un período de ocho y 24 horas, el aumento de la concentración del antimicrobiano a las 24 horas de uso de la solución fue del 2% (p&gt;0,05), por lo que se puede inferir que es probable que el tiempo influya en la estabilidad del fármaco.</p>
+				<p>En cuanto al pH, la solución de clorhidrato de vancomicina a una temperatura de 22ºC mostró una reducción con el tiempo, lo que acentúa el perfil ácido del fármaco. En ese caso se obtuvo el mayor índice de acidez de todas las mediciones; sin embargo, el comportamiento del pH en el tiempo fue similar. Dichos valores comprenden el rango de referencia antimicrobiano que especifica el fabricante, de 2,5 a 5,5<xref ref-type="bibr" rid="B23"><sup>23</sup></xref>.</p>
+				<p>Un estudio sobre estabilidad de fármacos afirma que los valores extremos de pH pueden hacer que las soluciones se vuelvan inestables y se consideran elementos clave para la compatibilidad fisicoquímica de las soluciones<xref ref-type="bibr" rid="B24"><sup>24</sup></xref>.</p>
+				<p>Los cambios de temperatura a los que se someten las soluciones pueden provocar cambios en el pH y, por ende, inestabilidad farmacológica<xref ref-type="bibr" rid="B18"><sup>18</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B21"><sup>21</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B25"><sup>25</sup></xref>. Sin embargo, en esta investigación, en lo que respecta al pH, las soluciones de clorhidrato de vancomicina registraron pocas variaciones en el tiempo a 37°C. Asimismo, al comparar las soluciones de clorhidrato de vancomicina a 22°C con las soluciones del antimicrobiano a 37°C se observa un comportamiento similar, con una reducción de los valores a lo largo del tiempo y con una variación de menos de 0,1 punto en la escala de pH.</p>
+				<p>Al ser sometida a una temperatura de 37°C, la solución de clorhidrato de vancomicina y heparina sódica registró una media de pH superior a la de las demás medias obtenidas en la investigación, pero con una reducción del pH de 0,02 punto desde el momento inicial hasta las 24 horas posteriores a la preparación. La mayor variación se presentó en las soluciones que combinaban el antimicrobiano con la heparina sódica a 22°C, registrando un aumento del pH de 0,37 punto en el tiempo. Por lo tanto, se puede considerar que, en este experimento, el aumento de la temperatura no afectó el grado de concentración de iones de hidrógeno de las soluciones de clorhidrato de vancomicina; pero si generó una reducción de la concentración del antimicrobiano después de 24 horas cuando se lo combinó con heparina sódica.</p>
+				<p>Según la Farmacopea Americana<xref ref-type="bibr" rid="B16"><sup>16</sup></xref>, el fármaco debe tener del 90% al 110% de la concentración indicada en la etiqueta. Al comparar las concentraciones de las soluciones inmediatamente después de su preparación, se pudo observar que hubo una variación en la concentración de clorhidrato de vancomicina en el momento inicial de preparación de las ampollas, pero se encontraba dentro del límite de tolerancia establecido. Sin embargo, al evaluar la concentración de clorhidrato de vancomicina cuando se lo combinó con heparina sódica a 22°C, se pudo observar una reducción de más del 5% en los valores desde el momento inicial hasta las 24 horas de uso de las soluciones.</p>
+				<p>Al establecer una comparación, en la presente investigación, entre las soluciones sometidas a 22°C, se observó que la mayor variación de concentración del fármaco se dio en las soluciones que lo combinaban con heparina sódica, donde se registró una disminución de la concentración del antimicrobiano a lo largo del tiempo. Cuando la solución que contenía clorhidrato de vancomicina y heparina sódica fue sometida a 37°C, presentó valores de concentración inferiores a los del resto de las soluciones del experimento. En cuanto al pH, el mayor valor obtenido en el experimento se registró en las soluciones de clorhidrato de vancomicina y heparina sódica a 22°C en 24 horas, que alcanzó un valor de 4,0; o sea, 0,41 punto más que el valor que arrojó la solución del antimicrobiano a la misma temperatura y en el mismo período de tiempo, este hecho sugiere que el anticoagulante interfiere en la estabilidad del clorhidrato de vancomicina.</p>
+				<p>Las soluciones de clorhidrato de vancomicina solo o combinado con heparina sódica han sido identificadas como las mejores alternativas para tratar la ITSAC por microorganismos Gram positivos<xref ref-type="bibr" rid="B26"><sup>26</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B27"><sup>27</sup></xref>. Mientras que en lo que respecta a la estabilidad del fármaco, los resultados fueron contradictorios, especialmente para las soluciones que combinaban el antimicrobiano con heparina sódica, ya que, aunque en un estudio<xref ref-type="bibr" rid="B28"><sup>28</sup></xref> el clorhidrato de vancomicina (5 mg/ml) fue compatible con la heparina sódica (2.5000 UI /ml), en otros, a su vez, se indicó que altas concentraciones del antimicrobiano (10 mg/ml) pueden aumentar el riesgo de precipitación de las soluciones, incluso con dosis bajas de anticoagulante (100 UI/ml)<xref ref-type="bibr" rid="B29"><sup>29</sup></xref>.</p>
+				<p>En la presente investigación, cuando se sometió a una temperatura de 22°C la solución en la que se combinó clorhidrato de vancomicina y heparina sódica, se registró en la evaluación de la solución, después de 3 horas de preparación, una reducción en la concentración del 2,72%. En una investigación similar, se demostró que había una reducción de la concentración del antimicrobiano en soluciones que contenían clorhidrato de vancomicina y heparina sódica dentro del CIC después de 72 horas, sugiriendo, entre otras, que había una interacción entre los medicamentos y entre las soluciones y el material del dispositivo intravenoso<xref ref-type="bibr" rid="B30"><sup>30</sup></xref>.</p>
+				<p>Un estudio realizado en un hospital detectó que la mayoría de los errores de medicación observados estaban relacionados con la incompatibilidad de los medicamentos o la falta de evidencia para la administración combinada de los fármacos<xref ref-type="bibr" rid="B31"><sup>31</sup></xref>. Hay incompatibilidad entre medicamentos cuando dos o más fármacos reaccionan o interactúan de tal manera que hay un cambio en la actividad normal de uno o más componentes, lo que puede tornar inviable el tratamiento médico, que provocan un cambio en el principio activo, precipitación o turbidez de la solución y un cambio en el color del medicamento<xref ref-type="bibr" rid="B20"><sup>20</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B21"><sup>21</sup></xref><sup>,</sup><xref ref-type="bibr" rid="B32"><sup>32</sup></xref>.</p>
+				<p>Investigaciones sobre la estabilidad del clorhidrato de vancomicina demostraron la formación de precipitados y turbidez cuando se lo combina con heparina sódica después de cinco minutos de haber preparado la solución<xref ref-type="bibr" rid="B29"><sup>29</sup></xref>. En el presente estudio se observó un cambio en el aspecto físico de las soluciones que combinaban clorhidrato de vancomicina y heparina sódica, que se manifestó mediante la presencia de turbidez debido a la formación de un precipitado a las tres horas a 22ºC y 37ºC, lo que sugiere que hay una interacción entre los fármacos. Además, la formación de precipitado puede provocar obstrucción del dispositivo intravenoso y/o generar riesgo de embolia en el paciente, por lo que no es recomendable la combinación de los mismos.</p>
+				<p>La viabilidad de la existencia de incompatibilidad entre medicamentos y la escasez de evidencia científica son dificultades presentes en la práctica diaria de los enfermeros. Cabe recordar que realizar combinaciones de medicamentos sin evidencia científica implica errores de medicación<xref ref-type="bibr" rid="B33"><sup>33</sup></xref><sup>-</sup><xref ref-type="bibr" rid="B34"><sup>34</sup></xref>. En cuanto a la concentración de fármacos y soluciones, es posible que esta pueda causar inestabilidad farmacológica y comprometer la efectividad de la técnica de sellado en CIC. Por lo tanto, para describir mejor la práctica clínica, se sugiere que se investigue la estabilidad del clorhidrato de vancomicina con la posible interferencia de diferentes materiales de los CIC, relacionada con el tiempo de permanencia en el sistema de administración y con la combinación entre fármacos y soluciones.</p>
+				<p>Se consideran limitaciones del estudio la realización de experimentos en frascos de vidrio y el uso de una única dosis de heparina sódica. Además, solo se utilizó una concentración del antimicrobiano (5 mg/ml). Para futuros estudios, se sugiere que se investigue la estabilidad y concentración del clorhidrato de vancomicina, cuando se lo combina con heparina sódica con la posible interferencia del material de los dispositivos intravenosos y en una concentración de 10 mg/ml.</p>
+			</sec>
+			<sec sec-type="conclusions">
+				<title>Conclusión</title>
+				<p>Se registró un cambio en la estabilidad física de la solución de clorhidrato de vancomicina (5 mg/ml) y heparina sódica (100 UI/ml) a las tres horas de la combinación que provocó una reducción menor al 10% de la concentración del antimicrobiano, lo que manifestó que había inestabilidad química debido a la degradación del fármaco, pero que mantuvo la estabilidad farmacológica.</p>
+				<p>Las soluciones de clorhidrato de vancomicina a 22°C registraron las menores variaciones de pH. Sin embargo, la temperatura no se considera un factor ambiental que genere diferencias considerables en el comportamiento químico de las soluciones estudiadas.</p>
+				<p>Por lo tanto, este estudio demostró que la combinación de clorhidrato de vancomicina y heparina sódica en soluciones utilizadas en sellados para descontaminación de los CIC, independientemente de la temperatura, presentaba inestabilidad química e incompatibilidad farmacológica. Por lo tanto, a pesar de que se mantuvo la estabilidad farmacológica, se recomienda no utilizar estos compuestos combinados en la técnica de sellado antimicrobiano.</p>
+			</sec>
+		</body>
+		<back>
+			<ack>
+				<title>Agradecimientos</title>
+				<p>Agradecemos a los miembros del Grupo de Investigación SEGTEC - Seguridad y Tecnología - Grupo de investigación en enfermería en seguridad del paciente, cuidados intensivos y terapia intravenosa en pediatría (Brasil) por su apoyo durante la recolección de datos.</p>
+				<p>Al equipo del Laboratorio de Experimentos de Enfermería (LEEnf).</p>
+			</ack>
+			<fn-group>
+				<fn fn-type="presented-at" id="fn14">
+					<p>Artículo parte de la tesis de doctorado “Estabilidad del clorhidrato de vancomicina utilizado en la técnica de sellado antimicrobiano para la descontaminación de catéteres intravenosos centrales”, presentada en la Universidade Federal de São Paulo, Escola Paulista de Enfermagem, São Paulo, SP, Brasil. Este artículo hace referencia a la convocatoria “Innovación en la práctica, docencia o investigación en salud y enfermería”. </p>
+				</fn>
+				<fn fn-type="financial-disclosure" id="fn15">
+					<label>Apoyo financiero</label>
+					<p> Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq), Proceso 311296/2013-0 y 462183/2014-9, Brasil.</p>
+				</fn>
+			</fn-group>
+		</back>
+	</sub-article>
+</article>
