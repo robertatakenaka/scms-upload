@@ -71,3 +71,6 @@ python-magic==0.4.27
 # ------------------------------------------------------------------------------
 -e git+https://github.com/scieloorg/scielo_migration.git@0.1.6#egg=scielo_classic_website
 python-dateutil==2.8.2
+
+# API
+djangorestframework==3.14.0
