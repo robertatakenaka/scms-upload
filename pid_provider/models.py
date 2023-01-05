@@ -87,6 +87,11 @@ class BaseArticle(CommonControlField):
     versions = models.ManyToManyField(MinioFile)
 
     @property
+    def xml_uri(self):
+        if self.latest_version:
+            return self.latest_version.uri
+
+    @property
     def latest_version(self):
         if self.versions.count():
             return self.versions.latest('created')
@@ -154,4 +159,22 @@ class XMLArticle(BaseArticle):
             models.Index(fields=['fpage']),
             models.Index(fields=['fpage_seq']),
             models.Index(fields=['lpage']),
+        ]
+
+
+class PidV3(models.Model):
+
+    aop = models.ForeignKey(XMLAOPArticle, on_delete=models.SET_NULL,  null=True, blank=True)
+    vor = models.ForeignKey(XMLArticle, on_delete=models.SET_NULL,  null=True, blank=True)
+
+    def __str__(self):
+        if self.vor:
+            return str(self.vor)
+        if self.aop:
+            return str(self.aop)
+
+    class Meta:
+        indexes = [
+            models.Index(fields=['aop']),
+            models.Index(fields=['vor']),
         ]

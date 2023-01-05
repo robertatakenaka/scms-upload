@@ -374,10 +374,17 @@ WAGTAIL_CONTENT_LANGUAGES =  [
     ('en', "English"),
     ('es', "Spanish"),
     ('pt-BR', "Portuguese"),
-    ('it', "Italian")
 ]
 
 NOCAPTCHA = True
 
 RECAPTCHA_PUBLIC_KEY = env.str("RECAPTCHA_PUBLIC_KEY", default='')
 RECAPTCHA_PRIVATE_KEY = env.str("RECAPTCHA_PRIVATE_KEY", default='')
+
+REST_FRAMEWORK = {
+    # Use Django's standard `django.contrib.auth` permissions,
+    # or allow read-only access for unauthenticated users.
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
+    ]
+}
