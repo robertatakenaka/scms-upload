@@ -6,7 +6,7 @@ from django.utils.translation import gettext as _
 
 from config import celery_app
 from libs.dsm.publication.documents import get_document
-from libs.dsm.publication.db import mk_connection
+from libs.dsm.publication.db import mk_connection, disconnect
 from .controller import PidRequester
 from .models import PidV3
 from publication.models import PublicationArticle
@@ -50,6 +50,11 @@ def request_pid_for_new_website_docs(
 
 
 def _get_new_website_xmls(pids_file_path, db_uri):
+
+    try:
+        disconnect()
+    except:
+        pass
     mk_connection(host=db_uri, alias=None)
 
     output_file = pids_file_path + ".pids.out"

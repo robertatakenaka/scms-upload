@@ -3,7 +3,7 @@ import json
 from django.contrib.auth import get_user_model
 from django.utils.translation import gettext_lazy as _
 
-from .models import (
+from ..models import (
     Collection,
     ClassicWebsiteConfiguration,
     NewWebSiteConfiguration,
@@ -38,6 +38,11 @@ def load_config(user):
     except Exception as e:
         raise exceptions.StartCollectionConfigurationError(
             _("Unable to start system %s") % e)
+
+
+"""
+python manage.py runscript load_config --script-args 1
+"""
 
 
 def run(user_id=None):

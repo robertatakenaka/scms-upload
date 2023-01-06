@@ -211,12 +211,13 @@ class AOP(CommonControlField):
         return self.aop_pid
 
     @classmethod
-    def get_or_create(cls, aop_pid):
+    def get_or_create(cls, aop_pid, user):
         try:
             return cls.objects.get(aop_pid=aop_pid)
         except cls.DoesNotExist:
             obj = cls()
             obj.aop_pid = aop_pid
+            obj.creator = user
             obj.save()
             return obj
 
@@ -248,6 +249,7 @@ class VOR(CommonControlField):
     fpage = models.CharField(_("fpage"), max_length=10, null=True, blank=True)
     fpage_seq = models.CharField(_("fpage_seq"), max_length=10, null=True, blank=True)
     lpage = models.CharField(_("lpage"), max_length=10, null=True, blank=True)
+    versions = models.ManyToManyField(MinioFile)
 
     def __str__(self):
         return f'{self.issue or ""} {self.v2 or ""}'
@@ -388,7 +390,7 @@ class PidV3(CommonControlField):
 
             if not registered:
                 # cria registro
-                registered = PidV3._register_new_document(xml_adapter, user)
+                registered = cls._register_new_document(xml_adapter, user)
                 logging.info("new %s" % registered)
 
             if registered:
@@ -400,18 +402,14 @@ class PidV3(CommonControlField):
                 )
                 return {"registered": registered, "xml_changed": xml_changed}
 
-        except exceptions.FoundAOPPublishedInAnIssueError:
-            logging.exception(e)
-            raise exceptions.NotAllowedRequestDocumentIDsForAOPVersionOfArticlePublishedInAnIssueError(
-                _("Not allowed to ingress document {} as ahead of print, "
-                  "because it is already published in an issue").format(registered)
-            )
+        except exceptions.FoundAOPPublishedInAnIssueError as e:
+            return {"error": str(e)}
 
         except Exception as e:
             logging.exception(e)
             raise exceptions.RequestDocumentIDsError(
                 _("Unable to request document IDs for {} {} {}").format(
-                    xml_with_pre, type(e), str(e))
+                    filename, type(e), str(e))
             )
 
     @classmethod
@@ -672,9 +670,9 @@ class PidV3(CommonControlField):
                 xml_adapter.journal_issn_electronic,
                 xml_adapter.journal_issn_print,
             )
-            doc = models.PidV3()
+            doc = cls()
             if xml_adapter.is_aop:
-                doc.aop = AOP.get_or_create(xml_adapter.v2)
+                doc.aop = AOP.get_or_create(xml_adapter.v2, user)
             else:
                 doc.vor = VOR.get_or_create(
                     xml_adapter.v2,
@@ -688,6 +686,7 @@ class PidV3(CommonControlField):
                     xml_adapter.pages.get("fpage"),
                     xml_adapter.pages.get("fpage_seq"),
                     xml_adapter.pages.get("lpage"),
+                    user,
                 )
             doc.journal = journal
             doc.v3 = xml_adapter.v3
@@ -705,7 +704,8 @@ class PidV3(CommonControlField):
         except Exception as e:
             logging.exception(e)
             raise exceptions.RegisterPidV3Error(
-                "Register new document error: %s %s %s" % (type(e), e, data)
+                "Register new document error: %s %s %s" %
+                (type(e), e, xml_adapter)
             )
 
     @classmethod
@@ -912,7 +912,10 @@ def _query_document_args(xml_adapter, filter_by_issue=False, aop_version=False):
         if filter_by_issue:
             for k, v in xml_adapter.issue.items():
                 _params[f"vor__issue__{k}"] = v
-            _params.update(xml_adapter.pages)
+            for k, v in xml_adapter.pages.items():
+                if k == "elocation_id":
+                    continue
+                _params[f"vor__{k}"] = v
 
     params = _set_isnull_parameters(_params)
     logging.info(dict(filter_by_issue=filter_by_issue, aop_version=aop_version))

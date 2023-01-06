@@ -5,12 +5,15 @@ from zipfile import ZipFile
 
 import requests
 from requests.auth import HTTPBasicAuth
+from django.contrib.auth import get_user_model
 from django.utils.translation import gettext as _
 
 from files_storage.controller import FilesStorageManager
 from core.libs import xml_sps_lib
 from .models import PidV3
 
+
+User = get_user_model()
 
 LOGGER = logging.getLogger(__name__)
 LOGGER_FMT = "%(asctime)s [%(levelname)s] %(name)s: %(message)s"
@@ -20,10 +23,12 @@ class PidRequester:
 
     def __init__(self, files_storage_name, api_uri=None, timeout=None):
         self.local_pid_provider = PidProvider(files_storage_name)
-        self.api_uri = api_uri
+        self.api_uri = api_uri or 'http://0.0.0.0:8000/pidv3/'
         self.timeout = timeout or 15
 
     def request_doc_ids(self, xml_with_pre, name, user):
+
+        user = user or User.objects.iterator().first()
         response = None
         if self.api_uri:
             response = self._api_request_doc_ids(xml_with_pre, name, user)
@@ -36,6 +41,8 @@ class PidRequester:
                 xml_with_pre, name, user)
 
         if result:
+            if result.get("error"):
+                return result
             return {
                 "v3": result['registered'].v3,
                 "xml_changed": result['xml_changed'],
@@ -69,7 +76,7 @@ class PidRequester:
             return requests.post(
                 self.api_uri,
                 files={"zip_xml_file_path": fp},
-                auth=auth,
+                # auth=auth,
                 timeout=timeout,
             )
         except Exception as e:
