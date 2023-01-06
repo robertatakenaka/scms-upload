@@ -26,12 +26,12 @@ from packtools.sps.models.article_renditions import (
 from scielo_classic_website import classic_ws
 
 from core.controller import parse_yyyymmdd, insert_hyphen_in_YYYYMMMDD
-from libs.xml_sps_utils import get_xml_with_pre_from_uri
 from libs.dsm.publication.db import mk_connection
 from libs.dsm.publication.journals import JournalToPublish
 from libs.dsm.publication.issues import IssueToPublish, get_bundle_id
 from libs.dsm.publication.documents import DocumentToPublish
-from pid_provider.controller import PidRequester, get_xml_uri
+from pid_provider.models import PidV3
+from pid_provider.controller import PidRequester
 from core.controller import parse_non_standard_date, parse_months_names
 from collection.choices import CURRENT
 from collection.exceptions import (
@@ -1129,7 +1129,7 @@ def migrate_document(
         article = PublicationArticle.get_or_create(
             response['v3'],
             user,
-            get_xml_uri(response['v3']),
+            PidV3.get_xml_uri(response['v3']),
             PUBLICATION_STATUS_PUBLISHED
         )
 
@@ -1189,28 +1189,37 @@ def scielo_document_update(
 
 def add_xml_generated_from_html(scielo_document, document, mcc, user):
     try:
-        content = document.xml_from_html
-        for item in scielo_document.html_files.iterator():
-            xml_from_html = document.filename_without_extension + ".xml"
-            subdirs = "/".join(
-                item.relative_path.split("/")[-3:-1])
-            data = {
-                'scielo_issue': item.scielo_issue,
-                'key': document.filename_without_extension,
-                'relative_path': os.path.join(subdirs, xml_from_html),
-                'name': xml_from_html,
-            }
-            xml_file = XMLFile.create_or_update(data)
-            mcc.fs_managers['migration'].push_xml_content(
-                xml_file,
-                xml_from_html,
-                subdirs,
-                document.xml_from_html,
-                user,
+        langs = {}
+        for lang, html_text in scielo_document.html_texts.items():
+            document.add_translated_html_body_by_lang(
+                lang,
+                html_text['before references'],
+                html_text['after references']
             )
-            scielo_document.xml_files.add(xml_file)
-            scielo_document.xml_files.save()
+        xml_content = document.xml_from_html
+        xml_from_html = document.filename_without_extension + ".xml"
+
+        for html_file in scielo_document.html_files.iterator():
+            subdirs = "/".join(
+                html_file.relative_path.split("/")[-3:-1])
             break
+        data = {
+            'scielo_issue': scielo_document.scielo_issue,
+            'key': document.filename_without_extension,
+            'relative_path': os.path.join(subdirs, xml_from_html),
+            'name': xml_from_html,
+        }
+        xml_file = XMLFile.create_or_update(data)
+        mcc.fs_managers['migration'].push_xml_content(
+            xml_file,
+            xml_from_html,
+            subdirs,
+            xml_content,
+            user,
+        )
+        scielo_document.xml_files.add(xml_file)
+        scielo_document.xml_files.save()
+
     except AttributeError as e:
         logging.exception(e)
 

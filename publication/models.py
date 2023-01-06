@@ -5,7 +5,6 @@ from django.db import models
 from django.utils.translation import gettext_lazy as _
 
 from core.models import CommonControlField
-from libs.xml_sps_utils import get_xml_with_pre_from_uri
 from . import choices
 
 User = get_user_model()
@@ -48,7 +47,3 @@ class PublicationArticle(CommonControlField):
         item.status = item.status or status
         item.save()
         return item
-
-    @property
-    def xml_with_pre(self):
-        return get_xml_with_pre_from_uri(self.xml_uri)

@@ -18,4 +18,4 @@ BASE_ARTICLE_FIELDS = [
 class PidV3Serializer(serializers.ModelSerializer):
     class Meta:
         model = models.PidV3
-        fields = ['aop', 'vor', ]
+        fields = BASE_ARTICLE_FIELDS

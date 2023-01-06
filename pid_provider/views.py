@@ -15,3 +15,8 @@ class PidV3ViewSet(GenericViewSet,  # generic view functionality
 
     serializer_class = serializers.PidV3Serializer
     queryset = models.PidV3.objects.all()
+
+    def list(self, request):
+        queryset = PidV3.objects.all()
+        serializer = PidV3Serializer(queryset, many=True)
+        return Response(serializer.data)

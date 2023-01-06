@@ -1,3 +1,11 @@
+class RegisterPidV3Error(Exception):
+    ...
+
+
+class QueryDocumentError(Exception):
+    ...
+
+
 class ForbiddenUpdatingAOPVersionOfArticlePublishedInAnIssueError(Exception):
     ...
 
@@ -54,13 +62,13 @@ class SaveXMLFileError(Exception):
     ...
 
 
-class IsRegisteredError(Exception):
+class GetRegisteredError(Exception):
     ...
 
 
-class IsRegisteredForXMLUriError(Exception):
+class GetRegisteredForXMLUriError(Exception):
     ...
 
 
-class IsRegisteredXMLZipError(Exception):
+class GetRegisteredXMLZipError(Exception):
     ...

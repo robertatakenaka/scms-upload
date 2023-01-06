@@ -2,6 +2,7 @@ import logging
 from datetime import datetime
 from copy import deepcopy
 
+import requests
 from django.db import models
 from django.utils.translation import gettext_lazy as _
 from packtools.sps.models.article_renditions import ArticleRenditions
@@ -11,15 +12,15 @@ from packtools.sps.models.article_assets import (
     SupplementaryMaterials,
 )
 from packtools.sps.models.article_ids import ArticleIds
+
 from core.models import CommonControlField
 from core.forms import CoreAdminModelForm
-
+from core.libs.xml_sps_utils import get_xml_with_pre_from_uri
 from journal.models import OfficialJournal
 from issue.models import Issue
 from article.models import Article
 from .choices import JOURNAL_AVAILABILTY_STATUS, WEBSITE_KIND
 from . import exceptions
-from libs.xml_sps_utils import get_xml_with_pre_from_uri
 from files_storage.models import MinioFile
 
 
@@ -347,6 +348,15 @@ class SciELODocument(CommonControlField):
         self.update = datetime.utcnow()
         self.save()
 
+    @property
+    def html_texts(self):
+        langs = {}
+        for html_file in self.html_files.iterator():
+            langs.setdefault(html_file.lang, {})
+            part = f"{html_file.part} references"
+            langs[html_file.lang][part] = html_file.text
+        return langs
+
     def set_langs(self):
         for xml_file in self.xml_files.iterator():
             xml_file.set_langs()
@@ -580,6 +590,15 @@ class SciELOHTMLFile(FileWithLang):
     part = models.CharField(
         _('Part'), max_length=6, null=False, blank=False)
     assets_files = models.ManyToManyField('AssetFile')
+
+    @property
+    def text(self):
+        try:
+            response = requests.get(self.uri, timeout=10)
+        except Exception as e:
+            return "Unable to get text from {}".format(self.uri)
+        else:
+            return response.content
 
     def __str__(self):
         return f"{self.scielo_issue} {self.name} {self.lang} {self.part}"
