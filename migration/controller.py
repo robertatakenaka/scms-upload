@@ -72,11 +72,6 @@ def read_xml_file(file_path):
     return etree.parse(file_path)
 
 
-def tostring(xmltree):
-    # garante que os diacríticos estarão devidamente representados
-    return etree.tostring(xmltree, encoding="utf-8").decode("utf-8")
-
-
 def _get_classic_website_rel_path(file_path):
     if 'htdocs' in file_path:
         return file_path[file_path.find("htdocs"):]

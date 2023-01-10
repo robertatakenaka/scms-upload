@@ -21,7 +21,12 @@ def request_pid_for_new_website_docs(
         self, pids_file_path, db_uri, user_id, files_storage_app_name):
     creator = User.objects.get(pk=user_id)
     documents = _get_new_website_xmls(pids_file_path, db_uri)
-    pid_requester = PidRequester(files_storage_app_name)
+
+    # FIXME core pid provider uri
+    pid_requester = PidRequester(
+        files_storage_app_name,
+        'http://0.0.0.0:8000/pidv3/',
+    )
 
     output_file = pids_file_path + ".requests.out"
     with open(output_file, "w") as fp:

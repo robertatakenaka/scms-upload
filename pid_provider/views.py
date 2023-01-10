@@ -28,8 +28,10 @@ class PidV3ViewSet(GenericViewSet,  # generic view functionality
     the `format=None` keyword argument for each action.
     """
 
-    # def list(self, request):
-    #     pass
+    def list(self, request, pk=None):
+        queryset = models.PidV3.objects.filter(synchronized=False)
+        content = {'message': 'list'}
+        return Response(content)
 
     def create(self, request):
         try:
@@ -64,14 +66,21 @@ class PidV3ViewSet(GenericViewSet,  # generic view functionality
                 status=status.HTTP_400_BAD_REQUEST)
 
     def retrieve(self, request, pk=None):
-        v3 = request.data['v3']
-        xml_uri = controller.get_xml_uri(v3=v3)
-        if xml_uri:
-            content = {'v3': v3, "xml_uri": xml_uri}
-            return Response(content, status=status.HTTP_200_OK)
-        else:
-            content = {'v3': v3, 'error': 'not found'}
-            return Response(content, status=status.HTTP_404_NOT_FOUND)
+        content = {
+            'message':
+            'Hello, %s!' % (pk or self.request.data.get("v3") or '')
+        }
+        return Response(content)
+
+    # def retrieve(self, request, pk=None):
+    #     v3 = request.data['v3']
+    #     xml_uri = controller.get_xml_uri(v3=v3)
+    #     if xml_uri:
+    #         content = {'v3': v3, "xml_uri": xml_uri}
+    #         return Response(content, status=status.HTTP_200_OK)
+    #     else:
+    #         content = {'v3': v3, 'error': 'not found'}
+    #         return Response(content, status=status.HTTP_404_NOT_FOUND)
 
     # def update(self, request, pk=None):
     #     pass

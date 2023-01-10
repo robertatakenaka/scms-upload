@@ -72,3 +72,7 @@ class GetRegisteredForXMLUriError(Exception):
 
 class GetRegisteredXMLZipError(Exception):
     ...
+
+
+class APIPidProviderPostError(Exception):
+	...

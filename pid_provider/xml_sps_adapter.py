@@ -22,6 +22,9 @@ class XMLAdapter:
         except:
             raise AttributeError(f"XMLAdapter.{name} does not exist")
 
+    def tostring(self):
+        return self.xml_with_pre.tostring()
+
     @property
     def v2_prefix(self):
         return f"S{self.journal_issn_electronic or self.journal_issn_print}{self.issue['pub_year']}"

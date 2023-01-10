@@ -25,6 +25,10 @@ def utcnow():
     # return datetime.utcnow().isoformat().replace("T", " ") + "Z"
 
 
+def is_equal_versions(latest, new_version):
+    return latest and new_version.finger_print == latest.finger_print
+
+
 class XMLJournal(models.Model):
     """
     <journal-meta>
@@ -139,7 +143,7 @@ class BaseArticle(CommonControlField):
 
     def add_version(self, version):
         if version:
-            if self.latest_version and version.finger_print == self.latest_version.finger_print:
+            if is_equal_versions(self.latest_version, version):
                 return
             self.versions.add(version)
 
@@ -233,7 +237,7 @@ class AOP(CommonControlField):
 
     def add_version(self, version):
         if version:
-            if self.latest_version and version.finger_print == self.latest_version.finger_print:
+            if is_equal_versions(self.latest_version, version):
                 return
             self.versions.add(version)
 
@@ -282,7 +286,7 @@ class VOR(CommonControlField):
 
     def add_version(self, version):
         if version:
-            if self.latest_version and version.finger_print == self.latest_version.finger_print:
+            if is_equal_versions(self.latest_version, version):
                 return
             self.versions.add(version)
 
@@ -308,6 +312,7 @@ class PidV3(CommonControlField):
     journal = models.ForeignKey('XMLJournal', on_delete=models.SET_NULL, null=True, blank=True)
     aop = models.ForeignKey(AOP, on_delete=models.SET_NULL, null=True, blank=True)
     vor = models.ForeignKey(VOR, on_delete=models.SET_NULL, null=True, blank=True)
+    synchronized = models.BooleanField(null=True, blank=True, default=False)
 
     @property
     def is_aop(self):
@@ -339,10 +344,9 @@ class PidV3(CommonControlField):
             return self.aop.latest_version
 
     def add_version(self, version):
-        if version.is_aop:
-            return self.aop.add_version(version)
-        else:
+        if self.vor:
             return self.vor.add_version(version)
+        return self.aop.add_version(version)
 
     def __str__(self):
         return f'{self.v3}'
@@ -355,7 +359,8 @@ class PidV3(CommonControlField):
             return None
 
     @classmethod
-    def request_document_ids(cls, xml_with_pre, filename, user, register_pid_provider_xml):
+    def request_document_ids(cls, xml_with_pre, filename, user,
+                             register_pid_provider_xml, synchronized):
         """
         Request PID v3
 
@@ -394,6 +399,7 @@ class PidV3(CommonControlField):
                 logging.info("new %s" % registered)
 
             if registered:
+                registered.synchronized = synchronized
                 register_pid_provider_xml(
                     registered,
                     filename,
@@ -412,8 +418,15 @@ class PidV3(CommonControlField):
                     filename, type(e), str(e))
             )
 
+    def set_synchronized(self, value):
+        self.synchronized = value
+        self.updated_by = self.creator
+        self.updated = datetime.utcnow()
+        self.save()
+
     @classmethod
-    def request_document_ids_for_xml_zip(cls, zip_xml_file_path, user, register_pid_provider_xml):
+    def request_document_ids_for_xml_zip(cls, zip_xml_file_path, user,
+                                         register_pid_provider_xml, synchronized):
         """
         Request PID v3
 
@@ -439,7 +452,9 @@ class PidV3(CommonControlField):
                 try:
                     # {"filename": item: "xml": xml}
                     registered = cls.request_document_ids(
-                        item['xml_with_pre'], item["filename"], user)
+                        item['xml_with_pre'], item["filename"], user,
+                        register_pid_provider_xml, synchronized,
+                        )
                     if registered:
                         item.update(registered)
                     yield item
@@ -458,7 +473,8 @@ class PidV3(CommonControlField):
             )
 
     @classmethod
-    def request_document_ids_for_xml_uri(cls, xml_uri, filename, user, register_pid_provider_xml):
+    def request_document_ids_for_xml_uri(cls, xml_uri, filename, user,
+                                         register_pid_provider_xml, synchronized):
         """
         Request PID v3 for xml uri
 
@@ -478,7 +494,10 @@ class PidV3(CommonControlField):
         """
         try:
             xml_with_pre = xml_sps_lib.get_xml_with_pre_from_uri(xml_uri)
-            return cls.request_document_ids(xml_with_pre, filename, user)
+            return cls.request_document_ids(
+                xml_with_pre, filename, user,
+                register_pid_provider_xml, synchronized
+            )
         except Exception as e:
             logging.exception(e)
             raise exceptions.RequestDocumentIDsForXMLUriError(
@@ -486,6 +505,10 @@ class PidV3(CommonControlField):
                     xml_uri, type(e), e
                 )
             )
+
+    def is_equal_to(self, xml_with_pre):
+        if self.latest_version:
+            return self.latest_version.finger_print == xml_with_pre.finger_print
 
     @classmethod
     def get_registered(cls, xml_with_pre):

@@ -1,5 +1,3 @@
-import hashlib
-
 from django.db import models
 from django.utils.translation import gettext_lazy as _
 from wagtail.admin.edit_handlers import (
@@ -8,14 +6,8 @@ from wagtail.admin.edit_handlers import (
 from core.models import CommonControlField
 from core.forms import CoreAdminModelForm
 from core import choices as core_choices
+from core.utils.finger_print import generate_finger_print
 from . import exceptions
-
-
-def generate_finger_print(content):
-    if not content:
-        return None
-    content = (content or '').strip().upper()
-    return hashlib.sha256(content.encode("utf-8")).hexdigest()
 
 
 class MinioFile(CommonControlField):

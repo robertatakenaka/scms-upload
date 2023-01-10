@@ -1,8 +1,3 @@
-from django.utils.translation import gettext as _
-
-from lxml import etree
-import requests
-
 import hashlib
 import logging
 import os
@@ -11,9 +6,8 @@ from shutil import copyfile
 from tempfile import mkdtemp
 
 from django.utils.translation import gettext as _
-
+import requests
 from lxml import etree
-
 from packtools.sps.models.article_ids import ArticleIds
 from packtools.sps.models.article_doi_with_lang import DoiWithLang
 from packtools.sps.models.front_journal_meta import ISSN
@@ -23,6 +17,8 @@ from packtools.sps.models.article_titles import ArticleTitles
 from packtools.sps.models.body import Body
 from packtools.sps.models.dates import ArticleDates
 from packtools.sps.models.related_articles import RelatedItems
+
+from core.utils.finger_print import generate_finger_print
 
 
 LOGGER = logging.getLogger(__name__)
@@ -199,6 +195,10 @@ class XMLWithPre:
             self.xmlpre +
             etree.tostring(self.xmltree, encoding="utf-8").decode("utf-8")
         )
+
+    @property
+    def finger_print(self):
+        return generate_finger_print(self.tostring())
 
     def update_ids(self, v3, v2, aop_pid):
         # update IDs
