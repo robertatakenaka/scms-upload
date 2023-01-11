@@ -1,7 +1,6 @@
 import os
 import logging
 from tempfile import TemporaryDirectory
-from zipfile import ZipFile
 
 import requests
 from requests.auth import HTTPBasicAuth
@@ -24,7 +23,6 @@ class PidRequester:
     """
     Faz registro de pid local e remotamente, mantém os registros sincronizados
     """
-
     def __init__(self, files_storage_name, api_uri=None, timeout=None):
         self.local_pid_provider = PidProvider(files_storage_name)
         self.api_uri = api_uri
@@ -139,31 +137,25 @@ class PidRequester:
         name : str
             nome do arquivo xml
         """
-
         with TemporaryDirectory() as tmpdirname:
             zip_xml_file_path = os.path.join(tmpdirname, name + ".zip")
+            xml_sps_lib.create_xml_zip_file(
+                zip_xml_file_path, xml_with_pre.tostring())
+            return self._api_request_post(
+                zip_xml_file_path, user, self.timeout)
 
-            xml_filename = name
-            name, ext = os.path.splitext(xml_filename)
-
-            with ZipFile(zip_xml_file_path, "w") as zf:
-                zf.writestr(xml_filename, xml_with_pre.tostring())
-
-            with open(zip_xml_file_path, "rb") as fp:
-                # {"v3": v3, "xml_uri": xml_uri}
-                return self._api_request_post(
-                    fp, xml_filename, user, self.timeout)
-
-    def _api_request_post(self, fp, xml_filename, user, timeout):
+    def _api_request_post(self, zip_xml_file_path, user, timeout):
         # TODO retry
         """
-        curl -F 'zip_xml_file_path=@4Fk4QXbF3YLW46LTwhbFh6K.xml.zip' http://127.0.0.1:8000/pidv3/
+        curl -F 'zip_xml_file_path=@4Fk4QXbF3YLW46LTwhbFh6K.xml.zip' \
+           --user "adm:adm" \
+           http://127.0.0.1:8000/pidv3/
         """
         try:
             auth = HTTPBasicAuth(user.name, user.password)
             return requests.post(
                 self.api_uri,
-                files={"zip_xml_file_path": fp},
+                files={"zip_xml_file_path": zip_xml_file_path},
                 auth=auth,
                 timeout=timeout,
             )
@@ -171,7 +163,7 @@ class PidRequester:
             # TODO tratar as exceções
             raise exceptions.APIPidProviderPostError(
                 _("Unable to request pid to central pid provider {} {} {}").format(
-                    xml_filename, type(e), e,
+                    zip_xml_file_path, type(e), e,
                 )
             )
 

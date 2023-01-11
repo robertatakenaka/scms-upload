@@ -44,6 +44,7 @@ class XMLJournal(models.Model):
       </publisher>
     </journal-meta>
     """
+    title = models.CharField(_("title"), max_length=256, null=True, blank=True)
     issn_electronic = models.CharField(_("issn_epub"), max_length=9, null=True, blank=True)
     issn_print = models.CharField(_("issn_ppub"), max_length=9, null=True, blank=True)
 
@@ -315,6 +316,11 @@ class PidV3(CommonControlField):
     synchronized = models.BooleanField(null=True, blank=True, default=False)
 
     @property
+    def issue(self):
+        if self.vor:
+            return self.vor.issue
+
+    @property
     def is_aop(self):
         if self.vor:
             return False
@@ -354,9 +360,11 @@ class PidV3(CommonControlField):
     @classmethod
     def get_xml_uri(cls, v3):
         try:
-            return cls.objects.get(v3=v3).xml_uri
+            item = cls.objects.get(v3=v3)
         except cls.DoesNotExist:
             return None
+        else:
+            return item.xml_uri
 
     @classmethod
     def request_document_ids(cls, xml_with_pre, filename, user,

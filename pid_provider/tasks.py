@@ -25,7 +25,7 @@ def request_pid_for_new_website_docs(
     # FIXME core pid provider uri
     pid_requester = PidRequester(
         files_storage_app_name,
-        'http://0.0.0.0:8000/pidv3/',
+        'http://0.0.0.0:8000/pid_provider/',
     )
 
     output_file = pids_file_path + ".requests.out"
