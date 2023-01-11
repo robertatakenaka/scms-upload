@@ -9,6 +9,7 @@ from rest_framework.viewsets import GenericViewSet
 from . import models
 from . import serializers
 from . import controller
+from . import exceptions
 
 
 class PidV3ViewSet(GenericViewSet,  # generic view functionality
@@ -40,12 +41,13 @@ class PidV3ViewSet(GenericViewSet,  # generic view functionality
             provider = controller.PidProvider('pid-provider')
             results = provider.request_document_ids_for_xml_zip(
                 zip_xml_file_path=zip_xml_file_path,
-                user=user)
+                user=user,
+            )
 
             items = []
             errors = []
             for result in results:
-                registered = result.get("registered")
+                registered = result and result.get("registered")
                 if registered:
                     items.append({
                         "filename": result['filename'],
@@ -53,7 +55,7 @@ class PidV3ViewSet(GenericViewSet,  # generic view functionality
                         "xml_uri": registered.xml_uri,
                     })
                 else:
-                    errors.append(Response)
+                    errors.append(result)
             if items and errors:
                 return Response(items + errors, status=status.HTTP_201_CREATED)
             elif items:

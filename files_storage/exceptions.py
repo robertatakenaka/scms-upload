@@ -6,5 +6,17 @@ class GetFilesStorageError(Exception):
     ...
 
 
-class SavingError(Exception):
+class MinioFileCreateError(Exception):
+    ...
+
+
+class RegisterPidProviderXMLError(Exception):
+    ...
+
+
+class PushFileError(Exception):
+    ...
+
+
+class PutXMLContentError(Exception):
     ...

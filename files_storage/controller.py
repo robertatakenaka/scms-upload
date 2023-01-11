@@ -37,59 +37,80 @@ class FilesStorageManager:
         self.files_storage = get_files_storage(self.config)
 
     def register_pid_provider_xml(self, versions, filename, content, creator):
-        finger_print = generate_finger_print(content)
-        if versions and versions.latest_version and finger_print == versions.latest_version.finger_print:
-            return
-        name, extension = os.path.splitext(filename)
-        if extension == '.xml':
-            mimetype = "text/xml"
+        try:
+            finger_print = generate_finger_print(content)
+            if versions and versions.latest_version and finger_print == versions.latest_version.finger_print:
+                return
+            name, extension = os.path.splitext(filename)
+            if extension == '.xml':
+                mimetype = "text/xml"
 
-        object_name = f"{name}/{finger_print}/{name}{extension}"
-        uri = self.files_storage.fput_content(
-            content,
-            mimetype=mimetype,
-            object_name=f"{self.config.bucket_app_subdir}/{object_name}",
-        )
-        logging.info(uri)
-        versions.add_version(
-            MinioFile.create(creator, uri, finger_print)
-        )
-        versions.save()
+            object_name = f"{name}/{finger_print}/{name}{extension}"
+            uri = self.files_storage.fput_content(
+                content,
+                mimetype=mimetype,
+                object_name=f"{self.config.bucket_app_subdir}/{object_name}",
+            )
+            logging.info(uri)
+            versions.add_version(
+                MinioFile.create(creator, uri, finger_print)
+            )
+            versions.save()
+        except Exception as e:
+            raise exceptions.RegisterPidProviderXMLError(
+                _("Unable to register pid provider XML {} {} {}").format(
+                    filename, type(e), e
+                )
+            )
 
     def push_file(self, versions, source_filename, subdirs, preserve_name, creator):
-        with open(source_filename, "r") as fp:
-            finger_print = generate_finger_print(fp.read())
+        try:
+            with open(source_filename, "r") as fp:
+                finger_print = generate_finger_print(fp.read())
 
-        if versions and versions.latest_version and finger_print == versions.latest_version.finger_print:
-            return
+            if versions and versions.latest_version and finger_print == versions.latest_version.finger_print:
+                return
 
-        response = self.files_storage.register(
-            source_filename,
-            subdirs=os.path.join(self.config.bucket_app_subdir, subdirs),
-            preserve_name=preserve_name,
-        )
-        versions.add_version(
-            MinioFile.create(creator, response['uri'], finger_print)
-        )
-        versions.save()
-        return response
+            response = self.files_storage.register(
+                source_filename,
+                subdirs=os.path.join(self.config.bucket_app_subdir, subdirs),
+                preserve_name=preserve_name,
+            )
+            versions.add_version(
+                MinioFile.create(creator, response['uri'], finger_print)
+            )
+            versions.save()
+            return response
+        except Exception as e:
+            raise exceptions.PushFileError(
+                _("Unable to push file {} {} {} {}").format(
+                    source_filename, subdirs, type(e), e
+                )
+            )
 
     def push_xml_content(self, versions, filename, subdirs, content, creator):
-        finger_print = generate_finger_print(content)
-        if versions and versions.latest_version and finger_print == versions.latest_version.finger_print:
-            return
+        try:
+            finger_print = generate_finger_print(content)
+            if versions and versions.latest_version and finger_print == versions.latest_version.finger_print:
+                return
 
-        name, extension = os.path.splitext(filename)
-        if extension == '.xml':
-            mimetype = "text/xml"
+            name, extension = os.path.splitext(filename)
+            if extension == '.xml':
+                mimetype = "text/xml"
 
-        object_name = f"{subdirs}/{name}/{finger_print}/{name}{extension}"
-        uri = self.files_storage.fput_content(
-            content,
-            mimetype=mimetype,
-            object_name=f"{self.config.bucket_app_subdir}/{object_name}",
-        )
-        versions.add_version(
-            MinioFile.create(creator, uri, filename, finger_print)
-        )
-        versions.save()
+            object_name = f"{subdirs}/{name}/{finger_print}/{name}{extension}"
+            uri = self.files_storage.fput_content(
+                content,
+                mimetype=mimetype,
+                object_name=f"{self.config.bucket_app_subdir}/{object_name}",
+            )
+            versions.add_version(
+                MinioFile.create(creator, uri, filename, finger_print)
+            )
+            versions.save()
+        except Exception as e:
+            raise exceptions.PutXMLContentError(
+                _("Unable to push file {} {} {} {}").format(
+                    filename, subdirs, type(e), e
+                )
+            )

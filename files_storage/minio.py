@@ -18,15 +18,39 @@ def get_mimetype(file_path):
 
 
 class SHA1Error(Exception):
-    pass
+    ...
 
 
-class FileStorageResponseError(Exception):
-    pass
+class MinioStorageFPutContentError(Exception):
+    ...
 
 
-class GetZipFileItemsError(Exception):
-    pass
+class MinioStorageFPutError(Exception):
+    ...
+
+
+class MinioStorageGetUrlsError(Exception):
+    ...
+
+
+class MinioStorageRegisterError(Exception):
+    ...
+
+
+class MinioStorageFgetError(Exception):
+    ...
+
+
+class MinioStorageGetZipFileItemsError(Exception):
+    ...
+
+
+class MinioStorageCreateBucketError(Exception):
+    ...
+
+
+class MinioStorageSetPublicBucketError(Exception):
+    ...
 
 
 def sha1(path):
@@ -105,16 +129,28 @@ class MinioStorage:
         return self._client_instance
 
     def _create_bucket(self):
-        # Make a bucket with the make_bucket API call.
-        self._client.make_bucket(
-            self.bucket_root, location=self.bucket_subdir
-        )
-        self._set_public_bucket()
+        try:
+            # Make a bucket with the make_bucket API call.
+            self._client.make_bucket(
+                self.bucket_root, location=self.bucket_subdir
+            )
+            self._set_public_bucket()
+        except Exception as e:
+            raise MinioStorageCreateBucketError(
+                "Unable to create bucket %s %s %s" %
+                (self.bucket_root, type(e), e)
+            )
 
     def _set_public_bucket(self):
-        self._client.set_bucket_policy(
-            self.bucket_root, json.dumps(self.POLICY_READ_ONLY)
-        )
+        try:
+            self._client.set_bucket_policy(
+                self.bucket_root, json.dumps(self.POLICY_READ_ONLY)
+            )
+        except Exception as e:
+            raise MinioStorageSetPublicBucketError(
+                "Unable to set public bucket %s %s %s" %
+                (self.bucket_root, type(e), e)
+            )
 
     def build_object_name(self, file_path, subdirs, preserve_name):
         """
@@ -132,51 +168,76 @@ class MinioStorage:
         return os.path.join(subdirs, f"{n_filename}{file_extension}")
 
     def get_urls(self, media_path: str) -> str:
-        url = self._client.presigned_get_object(self.bucket_root, media_path)
-        return url.split("?")[0]
-
-    def register(self, file_path, subdirs="", original_uri=None, preserve_name=False) -> str:
-        object_name = self.build_object_name(file_path, subdirs, preserve_name)
-        metadata = {"origin_name": os.path.basename(file_path)}
-        if original_uri is not None:
-            metadata.update({"origin_uri": original_uri})
-
-        logger.debug(
-            "Registering %s in %s with metadata %s", file_path, object_name, metadata
-        )
-        uri = self.fput(file_path, object_name)
-
-        metadata.update(
-            {"object_name": object_name, "uri": uri}
-        )
-        return metadata
-
-    def fput(self, file_path, object_name, mimetype=None) -> str:
-        metadata = {"origin_name": os.path.basename(file_path)}
-        logger.debug(
-            "Registering %s in %s with metadata %s", file_path, object_name, metadata
-        )
         try:
-            self._client.fput_object(
-                self.bucket_root,
-                object_name=object_name,
-                file_path=file_path,
-                content_type=mimetype or get_mimetype(file_path),
+            url = self._client.presigned_get_object(
+                self.bucket_root, media_path)
+            return url.split("?")[0]
+        except Exception as e:
+            raise MinioStorageGetUrlsError(
+                "Unable to get urls %s %s %s %s" %
+                (self.bucket_root, media_path, type(e), e)
             )
 
-        except S3Error as err:
-            logger.error(err)
-            if err.code == "NoSuchBucket":
-                self._create_bucket()
-                return self.fput(file_path, object_name, mimetype)
+    def register(self, file_path, subdirs="", original_uri=None, preserve_name=False) -> str:
+        try:
+            object_name = self.build_object_name(file_path, subdirs, preserve_name)
+            metadata = {"origin_name": os.path.basename(file_path)}
+            if original_uri is not None:
+                metadata.update({"origin_uri": original_uri})
 
-        return self.get_urls(object_name)
+            logger.debug(
+                "Registering %s in %s with metadata %s", file_path, object_name, metadata
+            )
+            uri = self.fput(file_path, object_name)
+
+            metadata.update(
+                {"object_name": object_name, "uri": uri}
+            )
+            return metadata
+        except Exception as e:
+            raise MinioStorageRegisterError(
+                "Unable to register %s %s %s %s" %
+                (file_path, subdirs, type(e), e)
+            )
+
+    def fput(self, file_path, object_name, mimetype=None) -> str:
+        try:
+            metadata = {"origin_name": os.path.basename(file_path)}
+            logger.debug(
+                "Registering %s in %s with metadata %s",
+                file_path, object_name, metadata
+            )
+            try:
+                self._client.fput_object(
+                    self.bucket_root,
+                    object_name=object_name,
+                    file_path=file_path,
+                    content_type=mimetype or get_mimetype(file_path),
+                )
+
+            except S3Error as err:
+                logger.error(err)
+                if err.code == "NoSuchBucket":
+                    self._create_bucket()
+                    return self.fput(file_path, object_name, mimetype)
+            return self.get_urls(object_name)
+        except Exception as e:
+            raise MinioStorageFPutError(
+                "Unable to execute fput for %s %s %s %s" %
+                (file_path, object_name, type(e), e)
+            )
 
     def fput_content(self, content, mimetype, object_name) -> str:
-        tf = tempfile.NamedTemporaryFile(delete=False)
-        with open(tf.name, "w") as fp:
-            fp.write(content)
-        return self.fput(tf.name, object_name, mimetype)
+        try:
+            tf = tempfile.NamedTemporaryFile(delete=False)
+            with open(tf.name, "w") as fp:
+                fp.write(content)
+            return self.fput(tf.name, object_name, mimetype)
+        except Exception as e:
+            raise MinioStorageFPutContentError(
+                "Unable to create temporary file %s %s %s" %
+                (object_name, type(e), e)
+            )
 
     def remove(self, object_name: str) -> None:
         # Remove an object.
@@ -187,17 +248,20 @@ class MinioStorage:
         """
         https://docs.min.io/docs/python-client-api-reference.html#fget_object
         """
-        if not downloaded_file_path:
-            tf = tempfile.NamedTemporaryFile(delete=False)
-            downloaded_file_path = tf.name
-
         try:
+            if not downloaded_file_path:
+                tf = tempfile.NamedTemporaryFile(delete=False)
+                downloaded_file_path = tf.name
+
             self._client.fget_object(
                 self.bucket_root, object_name, downloaded_file_path)
-        except Exception as err:
-            raise FileStorageResponseError(err)
 
-        return downloaded_file_path
+            return downloaded_file_path
+        except Exception as err:
+            raise MinioStorageFgetError(
+                "Unable to fget %s %s %s" %
+                (object_name, type(e), e)
+            )
 
     def get_zip_file_items(self, object_name, downloaded_folder_path=None):
         """
@@ -211,21 +275,26 @@ class MinioStorage:
                 "item2": "/tmp/zip_file_item_2",
             }
         """
-        if not downloaded_folder_path:
-            downloaded_folder_path = tempfile.TemporaryDirectory()
-
-        zip_path = self.fget(object_name)
-
-        files = {}
         try:
+            source = object_name
+
+            zip_path = self.fget(object_name)
+            source = zip_path
+
             with ZipFile(zip_path) as zf:
+                if not downloaded_folder_path:
+                    downloaded_folder_path = tempfile.TemporaryDirectory()
+
+                files = {}
                 for filename in zf.namelist():
                     file_path = os.path.join(downloaded_folder_path, filename)
-                    with open(file_path, "wb") as wfp:
-                        with zf.open(filename, "rb") as fp:
+                    with zf.open(filename, "rb") as fp:
+                        with open(file_path, "wb") as wfp:
                             wfp.write(fp.read())
-                        files[filename] = file_path
-        except BadZipFile as e:
-            raise GetZipFileItemsError(
-                "Unable to get items from %s %s" % (object_name, e))
-        return files
+                    files[filename] = file_path
+            return files
+        except Exception as e:
+            raise MinioStorageGetZipFileItemsError(
+                "Unable to get items from %s %s %s" %
+                (source, type(e), e)
+            )

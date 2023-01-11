@@ -21,6 +21,9 @@ LOGGER_FMT = "%(asctime)s [%(levelname)s] %(name)s: %(message)s"
 
 
 class PidRequester:
+    """
+    Faz registro de pid local e remotamente, mantém os registros sincronizados
+    """
 
     def __init__(self, files_storage_name, api_uri=None, timeout=None):
         self.local_pid_provider = PidProvider(files_storage_name)
@@ -34,7 +37,7 @@ class PidRequester:
         do_remote_registration = True
         do_local_registration = True
 
-        registered = PidV3.get_registered(xml_with_pre)
+        registered = self.local_pid_provider.get_registered(xml_with_pre)
         if registered:
             if registered.is_equal_to(xml_with_pre):
                 # skip local registration
@@ -55,7 +58,7 @@ class PidRequester:
         estão sincronizados com o pid provider remoto (central) e
         faz a sincronização, registrando o XML local no pid provider remoto
         """
-        for item in PidV3.objects.filter(synchronized=False).iterator():
+        for item in self.local_pid_provider.get_items_to_synchronize:
             try:
                 xml_with_pre = xml_sps_lib.get_xml_with_pre_from_uri(
                     item.xml_uri)
@@ -67,8 +70,9 @@ class PidRequester:
                     item.set_synchronized(True)
             except Exception as e:
                 logging.exception(
-                    "Unable to do remote pid registration %s %s %s" %
-                    (name, type(e), e)
+                    _("Unable to do remote pid registration {} {} {}").format(
+                        name, type(e), e,
+                    )
                 )
 
     def request_doc_ids(self, xml_with_pre, name, user):
@@ -89,35 +93,39 @@ class PidRequester:
                 "xml_uri": registered.xml_uri,
             }
 
-        response = None
+        api_response = None
         if do_remote_registration and self.api_uri:
             # realizar registro remoto
             try:
-                response = self._api_request_doc_ids(xml_with_pre, name, user)
+                api_response = self._api_request_doc_ids(
+                    xml_with_pre, name, user)
             except Exception as e:
                 logging.exception(
-                    "Unable to do remote pid registration %s %s %s" %
-                    (name, type(e), e)
+                    _("Unable to do remote pid registration {} {} {}").format(
+                        name, type(e), e)
+                )
+                raise exceptions.APIPidProviderPostError(
+                    _("Unable to request pid to central pid provider {} {} {}").format(
+                        name, type(e), e,
+                    )
                 )
 
         if do_local_registration:
             # realizar registro local
             # FIXME exceção?
-            if response:
-                result = self.local_pid_provider.request_document_ids_for_xml_uri(
-                    response["xml_uri"], name, user, synchronized=True)
-            else:
-                result = self.local_pid_provider.request_document_ids(
-                    xml_with_pre, name, user, synchronized=False)
-
-            if result:
-                if result.get("error"):
-                    return result
+            if api_response:
+                xml_with_pre = xml_sps_lib.get_xml_with_pre_from_uri(
+                    api_response["xml_uri"])
+            result = self.local_pid_provider.request_document_ids(
+                    xml_with_pre, name, user, synchronized=bool(api_response))
+            if result and result.get("registered"):
                 return {
                     "v3": result['registered'].v3,
                     "xml_changed": result['xml_changed'],
                     "xml_uri": result['registered'].xml_uri,
                 }
+            else:
+                return result
         else:
             # não precisa fazer registro local, retorna os dados atuais
             return {
@@ -163,8 +171,9 @@ class PidRequester:
             # TODO tratar as exceções
             raise exceptions.APIPidProviderPostError(
                 _("Unable to request pid to central pid provider {} {} {}").format(
-                    xml_filename, type(e), e
-                    ))
+                    xml_filename, type(e), e,
+                )
+            )
 
     def request_doc_ids_for_xml_uri(self, xml_uri, name, user):
         xml_with_pre = xml_sps_lib.get_xml_with_pre_from_uri(xml_uri)
@@ -176,32 +185,100 @@ class PidProvider:
     def __init__(self, files_storage_name):
         self.files_storage_manager = FilesStorageManager(files_storage_name)
 
-    def request_document_ids(self, xml_with_pre, filename, user, synchronized):
+    def request_document_ids(self, xml_with_pre, filename, user, synchronized=None):
         return PidV3.request_document_ids(
             xml_with_pre, filename, user,
             self.files_storage_manager.register_pid_provider_xml,
             synchronized,
         )
 
-    def request_document_ids_for_xml_zip(self, zip_xml_file_path, user, synchronized):
-        return PidV3.request_document_ids_for_xml_zip(
-            zip_xml_file_path, user,
-            self.files_storage_manager.register_pid_provider_xml,
-            synchronized,
-        )
+    def request_document_ids_for_xml_zip(self, zip_xml_file_path, user, synchronized=None):
+        try:
+            for item in xml_sps_lib.get_xml_items(zip_xml_file_path):
+                try:
+                    # {"filename": item: "xml": xml}
+                    registered = self.request_document_ids(
+                        item['xml_with_pre'], item["filename"], user,
+                        synchronized,
+                    )
+                    if registered:
+                        item.update(registered)
+                    yield item
+                except Exception as e:
+                    logging.exception(e)
+                    item['error'] = (
+                        _("Unable to request document IDs for {} {} {} {}").format(
+                            zip_xml_file_path, item['filename'], type(e), e,
+                        )
+                    )
+                    yield item
+        except Exception as e:
+            logging.exception(e)
+            raise exceptions.RequestDocumentIDsForXMLZipFileError(
+                _("Unable to request document IDs for {} {} {}").format(
+                    zip_xml_file_path, type(e), e,
+                )
+            )
 
-    def request_document_ids_for_xml_uri(self, xml_uri, filename, user, synchronized):
-        return PidV3.request_document_ids_for_xml_uri(
-            xml_uri, filename, user,
-            self.files_storage_manager.register_pid_provider_xml,
-            synchronized,
-        )
+    def request_document_ids_for_xml_uri(self, xml_uri, filename, user, synchronized=None):
+        try:
+            xml_with_pre = xml_sps_lib.get_xml_with_pre_from_uri(xml_uri)
+            return self.request_document_ids(
+                xml_with_pre, filename, user, synchronized
+            )
+        except Exception as e:
+            logging.exception(e)
+            raise exceptions.RequestDocumentIDsForXMLUriError(
+                _("Unable to request document ids for xml uri {} {} {}").format(
+                    xml_uri, type(e), e,
+                )
+            )
 
     def get_registered(self, xml_with_pre):
         return PidV3.get_registered(xml_with_pre)
 
     def get_registered_xml_zip(self, zip_xml_file_path):
-        return PidV3.get_registered_xml_zip(zip_xml_file_path)
+        try:
+            for item in xml_sps_lib.get_xml_items(zip_xml_file_path):
+                try:
+                    # {"filename": item: "xml": xml}
+                    registered = self.get_registered(item['xml_with_pre'])
+                    if registered:
+                        item['registered'] = registered
+                    yield item
+                except Exception as e:
+                    logging.exception(e)
+                    item['error'] = (
+                        _("Unable to get registered XML for {} {} {} {}").format(
+                            zip_xml_file_path, item['filename'], type(e), e,
+                        )
+                    )
+                    yield item
+        except Exception as e:
+            logging.exception(e)
+            raise exceptions.GetRegisteredXMLZipError(
+                _("Unable to get registered XML for {} {} {}").format(
+                    zip_xml_file_path, type(e), e,
+                )
+            )
 
     def get_registered_xml_uri(self, xml_uri):
-        return PidV3.get_registered_xml_uri(xml_uri)
+        try:
+            xml_with_pre = xml_sps_lib.get_xml_with_pre_from_uri(xml_uri)
+            return self.get_registered(xml_with_pre)
+        except Exception as e:
+            logging.exception(e)
+            raise exceptions.GetRegisteredXMLUriError(
+                _("Unable to get registered xml uri {} {} {}").format(
+                    xml_uri, type(e), e,
+                )
+            )
+
+    @property
+    def get_items_to_synchronize(self):
+        """
+        Identifica no pid provider local os registros que não
+        estão sincronizados com o pid provider remoto (central) e
+        faz a sincronização, registrando o XML local no pid provider remoto
+        """
+        return PidV3.objects.filter(synchronized=False).iterator()

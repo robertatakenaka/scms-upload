@@ -360,7 +360,7 @@ class PidV3(CommonControlField):
 
     @classmethod
     def request_document_ids(cls, xml_with_pre, filename, user,
-                             register_pid_provider_xml, synchronized):
+                             register_pid_provider_xml, synchronized=None):
         """
         Request PID v3
 
@@ -377,25 +377,34 @@ class PidV3(CommonControlField):
         Raises
         ------
         exceptions.RequestDocumentIDsError
-        exceptions.NotAllowedRequestDocumentIDsForAOPVersionOfArticlePublishedInAnIssueError
+        exceptions.ForbiddenPidRequestError
 
         """
         try:
-            # obtém o registro do documento
             logging.info("request_document_ids for {}".format(filename))
 
             # adaptador do xml with pre
             xml_adapter = xml_sps_adapter.XMLAdapter(xml_with_pre)
 
-            registered = cls.find_match(xml_adapter)
-            logging.info("REGISTERED? %s" % registered)
+            # obtém item registrado
+            registered = cls._query_document(xml_adapter)
+
+            if registered and xml_adapter.is_aop and not registered.is_aop:
+                # levanta exceção se está requisitando pid para um XML contendo
+                # dados de AOP, mas artigo já foi publicado em fascículo
+                logging.exception(e)
+                raise exceptions.ForbiddenPidRequestError(
+                    _("The XML content is an ahead of print version "
+                      "but the document {} is already published in an issue"
+                      ).format(registered)
+                )
 
             # verfica os PIDs encontrados no XML / atualiza-os se necessário
-            xml_changed = cls._check_xml_pids(xml_adapter, registered)
+            xml_changed = cls._complete_pids(xml_adapter, registered)
 
             if not registered:
                 # cria registro
-                registered = cls._register_new_document(xml_adapter, user)
+                registered = cls._register_new_pid(xml_adapter, user)
                 logging.info("new %s" % registered)
 
             if registered:
@@ -408,7 +417,7 @@ class PidV3(CommonControlField):
                 )
                 return {"registered": registered, "xml_changed": xml_changed}
 
-        except exceptions.FoundAOPPublishedInAnIssueError as e:
+        except exceptions.ForbiddenPidRequestError as e:
             return {"error": str(e)}
 
         except Exception as e:
@@ -424,88 +433,6 @@ class PidV3(CommonControlField):
         self.updated = datetime.utcnow()
         self.save()
 
-    @classmethod
-    def request_document_ids_for_xml_zip(cls, zip_xml_file_path, user,
-                                         register_pid_provider_xml, synchronized):
-        """
-        Request PID v3
-
-        Parameters
-        ----------
-        zip_xml_file_path : str
-            XML URI
-        user : User
-
-        Returns
-        -------
-            iterator of dict {
-                "registered": PidV3, "pids_updated": boolean,
-                'xml_with_pre': XMLWithPre, "filename": str,
-            }
-
-        Raises
-        ------
-        exceptions.RequestDocumentIDsForXMLZipFileError
-        """
-        try:
-            for item in xml_sps_lib.get_xml_items(zip_xml_file_path):
-                try:
-                    # {"filename": item: "xml": xml}
-                    registered = cls.request_document_ids(
-                        item['xml_with_pre'], item["filename"], user,
-                        register_pid_provider_xml, synchronized,
-                        )
-                    if registered:
-                        item.update(registered)
-                    yield item
-                except Exception as e:
-                    logging.exception(e)
-                    raise exceptions.RequestDocumentIDsForXMLZipFileError(
-                        _("Unable to request document IDs for {} {}").format(
-                            zip_xml_file_path, item['filename'],
-                            )
-                    )
-        except Exception as e:
-            logging.exception(e)
-            raise exceptions.RequestDocumentIDsForXMLZipFileError(
-                _("Unable to request document IDs for {}").format(
-                    zip_xml_file_path)
-            )
-
-    @classmethod
-    def request_document_ids_for_xml_uri(cls, xml_uri, filename, user,
-                                         register_pid_provider_xml, synchronized):
-        """
-        Request PID v3 for xml uri
-
-        Parameters
-        ----------
-        xml_uri : str
-        filename : str
-        user : User
-
-        Returns
-        -------
-            dict or None
-                {"registered": PidV3, "pids_updated": boolean}
-        Raises
-        ------
-        exceptions.RequestDocumentIDsForXMLUriError
-        """
-        try:
-            xml_with_pre = xml_sps_lib.get_xml_with_pre_from_uri(xml_uri)
-            return cls.request_document_ids(
-                xml_with_pre, filename, user,
-                register_pid_provider_xml, synchronized
-            )
-        except Exception as e:
-            logging.exception(e)
-            raise exceptions.RequestDocumentIDsForXMLUriError(
-                _("Unable to request document ids for xml uri {} {} {}").format(
-                    xml_uri, type(e), e
-                )
-            )
-
     def is_equal_to(self, xml_with_pre):
         if self.latest_version:
             return self.latest_version.finger_print == xml_with_pre.finger_print
@@ -513,7 +440,7 @@ class PidV3(CommonControlField):
     @classmethod
     def get_registered(cls, xml_with_pre):
         """
-        Check if article is registered
+        Get registered
 
         Parameters
         ----------
@@ -532,66 +459,18 @@ class PidV3(CommonControlField):
             # adaptador do xml with pre
             xml_adapter = xml_sps_adapter.XMLAdapter(xml_with_pre)
             return cls._query_document(xml_adapter)
-
         except Exception as e:
             logging.exception(e)
             raise exceptions.GetRegisteredError(
-                _("Unable to request document IDs for {}").format(xml_with_pre)
+                _("Unable to get registered item {} {} {}").format(
+                    xml_with_pre, type(e), e,
+                )
             )
-
-    @classmethod
-    def get_registered_xml_zip(cls, zip_xml_file_path):
-        """
-        Check if article is registered
-
-        Parameters
-        ----------
-        zip_xml_file_path : str
-            XML URI
-
-        Returns
-        -------
-            PidV3
-
-        Raises
-        ------
-        exceptions.GetRegisteredXMLZipError
-        """
-        try:
-            for item in xml_sps_lib.get_xml_items(zip_xml_file_path):
-                try:
-                    # {"filename": item: "xml": xml}
-                    registered = cls.get_registered(item['xml_with_pre'])
-                    if registered:
-                        item.update({"registered": registered})
-                    yield item
-                except Exception as e:
-                    logging.exception(e)
-                    raise exceptions.GetRegisteredXMLZipError(
-                        _("Unable to request document IDs for {} {}").format(
-                            zip_xml_file_path, item['filename'],
-                            )
-                    )
-        except Exception as e:
-            logging.exception(e)
-            raise exceptions.GetRegisteredXMLZipError(
-                _("Unable to request document IDs for {}").format(
-                    zip_xml_file_path)
-            )
-
-    @classmethod
-    def get_registered_xml_uri(cls, xml_uri):
-        try:
-            xml_with_pre = xml_sps_lib.get_xml_with_pre_from_uri(xml_uri)
-            return cls.get_registered(xml_with_pre)
-        except Exception as e:
-            logging.exception(e)
-            raise exceptions.GetRegisteredForXMLUriError(e)
 
     @classmethod
     def _query_document(cls, xml_adapter):
         """
-        Get registered document
+        Query document
 
         Arguments
         ---------
@@ -599,11 +478,11 @@ class PidV3(CommonControlField):
 
         Returns
         -------
-        None or models.PidV3
+        None or PidV3
 
         # Raises
         # ------
-        # models.PidV3.MultipleObjectsReturned
+        # PidV3.MultipleObjectsReturned
         """
         logging.info("xml_adapter.is_aop: %s" % xml_adapter.is_aop)
         if xml_adapter.is_aop:
@@ -647,47 +526,7 @@ class PidV3(CommonControlField):
                         xml_adapter, type(e), str(e)))
 
     @classmethod
-    def find_match(cls, xml_adapter):
-        """
-        Get registered
-
-        Parameters
-        ----------
-        xml_adapter : XMLAdapter
-
-        Returns
-        -------
-            None or PidV3
-
-        Raises
-        ------
-        exceptions.FoundAOPPublishedInAnIssueError
-        exceptions.GetRegisteredXMLError
-        """
-        try:
-            # obtém o registro do documento
-            logging.info(xml_adapter)
-            registered = cls._query_document(xml_adapter)
-
-            if registered and xml_adapter.is_aop and not registered.is_aop:
-                # levanta exceção se está sendo ingressada uma versão aop de
-                # artigo já publicado em fascículo
-                logging.exception(e)
-                raise exceptions.FoundAOPPublishedInAnIssueError(
-                    _("The XML content is an ahead of print version "
-                      "but the document {} is already published in an issue"
-                      ).format(registered)
-                )
-            return registered
-        except Exception as e:
-            logging.exception(e)
-            raise exceptions.GetRegisteredXMLError(
-                _("Unable to get registered XML {} {} {}").format(
-                    xml_adapter, type(e), str(e))
-            )
-
-    @classmethod
-    def _register_new_document(cls, xml_adapter, user):
+    def _register_new_pid(cls, xml_adapter, user):
         try:
             journal = XMLJournal.get_or_create(
                 xml_adapter.journal_issn_electronic,
@@ -726,9 +565,10 @@ class PidV3(CommonControlField):
 
         except Exception as e:
             logging.exception(e)
-            raise exceptions.RegisterPidV3Error(
-                "Register new document error: %s %s %s" %
-                (type(e), e, xml_adapter)
+            raise exceptions.RegisterNewPidError(
+                _("Register new pid error: {} {} {}").format(
+                    type(e), e, xml_adapter,
+                )
             )
 
     @classmethod
@@ -742,11 +582,11 @@ class PidV3(CommonControlField):
         """
         while True:
             generated = v3_gen.generates()
-            if not cls._is_registered(v3=generated):
+            if not cls._is_registered_pid(v3=generated):
                 return generated
 
     @classmethod
-    def _is_registered(cls, v2=None, v3=None, aop_pid=None):
+    def _is_registered_pid(cls, v2=None, v3=None, aop_pid=None):
         if v3:
             kwargs = {'v3': v3}
         elif v2:
@@ -783,11 +623,11 @@ class PidV3(CommonControlField):
         """
         while True:
             generated = cls._v2_generates(xml_adapter)
-            if not cls._is_registered(v2=generated):
+            if not cls._is_registered_pid(v2=generated):
                 return generated
 
     @classmethod
-    def _check_xml_pids(cls, xml_adapter, registered):
+    def _complete_pids(cls, xml_adapter, registered):
         """
         Update `xml_adapter` pids with `registered` pids or
         create `xml_adapter` pids
@@ -795,26 +635,24 @@ class PidV3(CommonControlField):
         Parameters
         ----------
         xml_adapter: XMLAdapter
-        registered: models.XMLArticle or models.XMLAOPArticle
+        registered: PidV3
 
         Returns
         -------
         bool
 
         """
-        xml_ids = (xml_adapter.v2, xml_adapter.v3, xml_adapter.aop_pid)
+        before = (xml_adapter.v2, xml_adapter.v3, xml_adapter.aop_pid)
 
         # adiciona os pids faltantes aos dados de entrada
         cls._add_pid_v3(xml_adapter, registered)
         cls._add_pid_v2(xml_adapter, registered)
         cls._add_aop_pid(xml_adapter, registered)
 
-        # print(ids, new_ids)
-        logging.info(
-            "%s %s" %
-            (xml_ids, (xml_adapter.v2, xml_adapter.v3, xml_adapter.aop_pid))
-        )
-        return xml_ids != (xml_adapter.v2, xml_adapter.v3, xml_adapter.aop_pid)
+        after = (xml_adapter.v2, xml_adapter.v3, xml_adapter.aop_pid)
+
+        logging.info("%s %s" % (before, after))
+        return old != new
 
     @classmethod
     def _add_pid_v3(cls, xml_adapter, registered):
@@ -824,13 +662,13 @@ class PidV3(CommonControlField):
         Arguments
         ---------
         xml_adapter: XMLAdapter
-        registered: models.XMLArticle or models.XMLAOPArticle or None
+        registered: PidV3
 
         """
         if registered:
             xml_adapter.v3 = registered.v3
         else:
-            if not xml_adapter.v3 or cls._is_registered(v3=xml_adapter.v3):
+            if not xml_adapter.v3 or cls._is_registered_pid(v3=xml_adapter.v3):
                 xml_adapter.v3 = cls._get_unique_v3()
 
     @classmethod
@@ -921,7 +759,9 @@ def _query_document_args(xml_adapter, filter_by_issue=False, aop_version=False):
         if not xml_adapter.partial_body:
             logging.exception(e)
             raise exceptions.NotEnoughParametersToGetDocumentRecordError(
-                "No attribute to use for disambiguations"
+                _("No attribute to use for disambiguations {} {} {}").format(
+                    _params, type(e), e,
+                )
             )
         _params["partial_body"] = xml_adapter.partial_body
     if aop_version:

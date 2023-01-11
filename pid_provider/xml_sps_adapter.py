@@ -22,8 +22,8 @@ class XMLAdapter:
         except:
             raise AttributeError(f"XMLAdapter.{name} does not exist")
 
-    def tostring(self):
-        return self.xml_with_pre.tostring()
+    # def tostring(self):
+    #     return self.xml_with_pre.tostring()
 
     @property
     def v2_prefix(self):

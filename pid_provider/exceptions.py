@@ -1,4 +1,4 @@
-class RegisterPidV3Error(Exception):
+class RegisterNewPidError(Exception):
     ...
 
 
@@ -10,10 +10,6 @@ class ForbiddenUpdatingAOPVersionOfArticlePublishedInAnIssueError(Exception):
     ...
 
 
-class FoundAOPPublishedInAnIssueError(Exception):
-    ...
-
-
 class GetRegisteredXMLError(Exception):
     ...
 
@@ -22,7 +18,7 @@ class GetXMLFromURIError(Exception):
     ...
 
 
-class NotAllowedRequestDocumentIDsForAOPVersionOfArticlePublishedInAnIssueError(Exception):
+class ForbiddenPidRequestError(Exception):
     ...
 
 
@@ -66,7 +62,7 @@ class GetRegisteredError(Exception):
     ...
 
 
-class GetRegisteredForXMLUriError(Exception):
+class GetRegisteredXMLUriError(Exception):
     ...
 
 
@@ -75,4 +71,9 @@ class GetRegisteredXMLZipError(Exception):
 
 
 class APIPidProviderPostError(Exception):
-	...
+    ...
+
+
+class FindMatchError(Exception):
+    ...
+

@@ -27,7 +27,7 @@ class MinioFile(CommonControlField):
             obj.save()
             return obj
         except Exception as e:
-            raise exceptions.SavingError(
+            raise exceptions.MinioFileCreateError(
                 "Unable to create file: %s %s %s" %
                 (type(e), e, obj)
             )
