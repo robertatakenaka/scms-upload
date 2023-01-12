@@ -8,7 +8,7 @@ from django.contrib.auth import get_user_model
 from django.utils.translation import gettext as _
 
 from files_storage.controller import FilesStorageManager
-from core.libs import xml_sps_lib
+from xmlsps import xml_sps_lib
 from .models import PidV3
 from . import exceptions
 

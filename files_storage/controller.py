@@ -3,7 +3,7 @@ import os
 
 from django.utils.translation import gettext_lazy as _
 
-from core.utils.finger_print import generate_finger_print
+from .utils import generate_finger_print
 from .models import (
     Configuration,
     MinioFile,

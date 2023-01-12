@@ -15,7 +15,7 @@ from packtools.sps.models.article_ids import ArticleIds
 
 from core.models import CommonControlField
 from core.forms import CoreAdminModelForm
-from core.libs.xml_sps_lib import get_xml_with_pre_from_uri
+from xmlsps.xml_sps_lib import get_xml_with_pre_from_uri
 from journal.models import OfficialJournal
 from issue.models import Issue
 from article.models import Article

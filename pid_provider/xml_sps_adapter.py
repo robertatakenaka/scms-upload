@@ -56,6 +56,12 @@ class XMLAdapter:
         return self._links
 
     @property
+    def main_toc_section(self):
+        if not hasattr(self, '_main_toc_section') or not self._main_toc_section:
+            self._main_toc_section = _str_with_64_char(self.xml_with_pre.main_toc_section)
+        return self._main_toc_section
+
+    @property
     def collab(self):
         if not hasattr(self, '_collab') or not self._collab:
             self._collab = _str_with_64_char(self.xml_with_pre.collab)

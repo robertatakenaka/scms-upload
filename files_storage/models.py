@@ -6,7 +6,7 @@ from wagtail.admin.edit_handlers import (
 from core.models import CommonControlField
 from core.forms import CoreAdminModelForm
 from core import choices as core_choices
-from core.utils.finger_print import generate_finger_print
+from .utils import generate_finger_print
 from . import exceptions
 
 

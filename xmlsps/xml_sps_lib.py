@@ -18,7 +18,7 @@ from packtools.sps.models.body import Body
 from packtools.sps.models.dates import ArticleDates
 from packtools.sps.models.related_articles import RelatedItems
 
-from core.utils.finger_print import generate_finger_print
+from files_storage.utils import generate_finger_print
 
 
 LOGGER = logging.getLogger(__name__)
@@ -263,6 +263,22 @@ class XMLWithPre:
             doi_with_lang = DoiWithLang(self.xmltree)
             self._main_doi = doi_with_lang.main_doi
         return self._main_doi
+
+    @property
+    def main_toc_section(self):
+        """
+        <subj-group subj-group-type="heading">
+            <subject>Articles</subject>
+        </subj-group>
+        """
+        if not hasattr(self, '_main_toc_section') or not self._main_toc_section:
+            # [{"lang": "en", "value": "DOI"}]
+            node = self.xmltree.find('//subj-group[@subj-group-type="heading"]')
+            if node is None:
+                self._main_toc_section = None
+            else:
+                self._main_toc_section = node.find("subject")
+        return self._main_toc_section
 
     @property
     def issns(self):
