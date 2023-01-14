@@ -6,7 +6,6 @@ from django.db import migrations
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('pid_provider', '0005_auto_20221231_2043'),
         ('collection', '0008_auto_20221231_2043'),
         ('files_storage', '0004_remove_fileversions_versions'),
     ]

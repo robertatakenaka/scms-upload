@@ -61,7 +61,7 @@ class XMLAdapter:
             # list of dict which keys are
             # href, ext-link-type, related-article-type
             self._related_items = [
-                _str_with_64_char(item['href'])
+                item['href']
                 for item in self.xml_with_pre.related_items
             ]
         return self._related_items
@@ -71,12 +71,6 @@ class XMLAdapter:
         if not hasattr(self, '_main_doi') or not self._main_doi:
             self._main_doi = _str_with_64_char(self.xml_with_pre.main_doi)
         return self._main_doi
-
-    @property
-    def main_toc_section(self):
-        if not hasattr(self, '_main_toc_section') or not self._main_toc_section:
-            self._main_toc_section = _str_with_64_char(self.xml_with_pre.main_toc_section)
-        return self._main_toc_section
 
     @property
     def collab(self):
@@ -138,6 +132,10 @@ class XMLAdapter:
             }
             self._issue['pub_year'] = int(self._issue['pub_year'])
         return self._issue
+
+    @property
+    def article_publication_date(self):
+        return self.xml_with_pre.article_publication_date
 
 
 def _standardize(text):

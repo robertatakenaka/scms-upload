@@ -33,7 +33,7 @@ urlpatterns = [
     # Alternatively, if you want Wagtail pages to be served from a subpath
     # of your site, rather than the site root:
     #    url(r"^pages/", include(wagtail_urls)),
-    path("", include("pid_provider.urls", namespace="pidv3")),
+    path("", include("xmlsps.urls", namespace="pidv3")),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 # Translatable URLs

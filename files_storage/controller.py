@@ -53,9 +53,8 @@ class FilesStorageManager:
             )
             logging.info(uri)
             versions.add_version(
-                MinioFile.create(creator, uri, finger_print)
+                MinioFile.create(creator, uri, finger_print),
             )
-            versions.save()
         except Exception as e:
             raise exceptions.RegisterPidProviderXMLError(
                 _("Unable to register pid provider XML {} {} {}").format(

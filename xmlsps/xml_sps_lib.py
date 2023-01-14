@@ -1,3 +1,4 @@
+from datetime import datetime, date
 import hashlib
 import logging
 import os
@@ -273,11 +274,11 @@ class XMLWithPre:
         """
         if not hasattr(self, '_main_toc_section') or not self._main_toc_section:
             # [{"lang": "en", "value": "DOI"}]
-            node = self.xmltree.find('//subj-group[@subj-group-type="heading"]')
+            node = self.xmltree.find('.//subj-group[@subj-group-type="heading"]')
             if node is None:
                 self._main_toc_section = None
             else:
-                self._main_toc_section = node.find("subject")
+                self._main_toc_section = node.findtext("./subject")
         return self._main_toc_section
 
     @property
@@ -370,3 +371,16 @@ class XMLWithPre:
                 for item in self.issns
             }
         return self._journal
+
+    @property
+    def article_publication_date(self):
+        if not hasattr(self, '_article_publication_date') or not self._article_publication_date:
+            # ("year", "month", "season", "day")
+            _date = ArticleDates(self.xmltree).article_date
+            logging.info(_date)
+            self._article_publication_date = date(
+                int(_date['year']),
+                int(_date['month']),
+                int(_date['day']),
+            )
+        return self._article_publication_date

@@ -8,7 +8,6 @@ from django.db import models
 from django.utils.translation import gettext as _
 from wagtail.admin.edit_handlers import FieldPanel
 
-from core.libs import xml_sps_lib
 from core.models import CommonControlField
 from files_storage.models import MinioFile
 from . import xml_sps_adapter
@@ -20,342 +19,107 @@ LOGGER = logging.getLogger(__name__)
 LOGGER_FMT = "%(asctime)s [%(levelname)s] %(name)s: %(message)s"
 
 
-def utcnow():
-    return datetime.utcnow()
-    # return datetime.utcnow().isoformat().replace("T", " ") + "Z"
-
-
-def is_equal_versions(latest, new_version):
-    return latest and new_version.finger_print == latest.finger_print
-
-
-class XMLJournal(models.Model):
-    """
-    <journal-meta>
-      <journal-id journal-id-type="nlm-ta">J Bras Pneumol</journal-id>
-      <journal-id journal-id-type="publisher-id">jbpneu</journal-id>
-      <journal-title-group>
-        <journal-title>Jornal Brasileiro de Pneumologia</journal-title>
-        <abbrev-journal-title abbrev-type="publisher">J. bras. pneumol.</abbrev-journal-title>
-      </journal-title-group>
-      <issn pub-type="epub">1806-3756</issn>
-      <publisher>
-        <publisher-name>Sociedade Brasileira de Pneumologia e Tisiologia</publisher-name>
-      </publisher>
-    </journal-meta>
-    """
-    title = models.CharField(_("title"), max_length=256, null=True, blank=True)
-    issn_electronic = models.CharField(_("issn_epub"), max_length=9, null=True, blank=True)
-    issn_print = models.CharField(_("issn_ppub"), max_length=9, null=True, blank=True)
-
-    def __str__(self):
-        return f'{self.issn_electronic} {self.issn_print}'
-
-    @classmethod
-    def get_or_create(cls, issn_electronic, issn_print):
-        try:
-            params = {
-                "issn_electronic": issn_electronic,
-                "issn_print": issn_print,
-            }
-            kwargs = _set_isnull_parameters(params)
-            logging.info("Search {}".format(kwargs))
-            return cls.objects.get(**kwargs)
-        except cls.DoesNotExist:
-            params = {k: v for k, v in params.items() if v}
-            logging.info("Create {}".format(params))
-            journal = cls(**params)
-            journal.save()
-            return journal
-
-    class Meta:
-        unique_together = [
-            ['issn_electronic', 'issn_print'],
-        ]
-        indexes = [
-            models.Index(fields=['issn_electronic']),
-            models.Index(fields=['issn_print']),
-        ]
-
-
-class XMLIssue(models.Model):
-    volume = models.CharField(_("volume"), max_length=10, null=True, blank=True)
-    number = models.CharField(_("number"), max_length=10, null=True, blank=True)
-    suppl = models.CharField(_("suppl"), max_length=10, null=True, blank=True)
-    pub_year = models.IntegerField(_("pub_year"), null=False)
+class PidV3(CommonControlField):
     journal = models.ForeignKey('XMLJournal', on_delete=models.SET_NULL, null=True, blank=True)
+    issue = models.ForeignKey('XMLIssue', on_delete=models.SET_NULL, null=True, blank=True)
+    related_items = models.ManyToManyField('self', symmetrical=False, related_name='related_to')
+    aop_xml_versions = models.ManyToManyField(MinioFile, related_name='aop_xml_versions')
+    xml_versions = models.ManyToManyField(MinioFile, related_name='xml_versions')
 
-    def __str__(self):
-        return f'{self.journal} {self.volume or ""} {self.number or ""} {self.suppl or ""}'
-
-    @classmethod
-    def get_or_create(cls, journal, volume, number, suppl, pub_year):
-        try:
-            params = {
-                "volume": volume,
-                "number": number,
-                "suppl": suppl,
-                "journal": journal,
-                "pub_year": pub_year and int(pub_year) or None,
-            }
-            kwargs = _set_isnull_parameters(params)
-            logging.info("Search {}".format(kwargs))
-            return cls.objects.get(**kwargs)
-        except cls.DoesNotExist:
-            params = {k: v for k, v in params.items() if v}
-            logging.info("Create {}".format(params))
-            issue = cls(**params)
-            issue.save()
-            return issue
-
-    class Meta:
-        unique_together = [
-            ['journal', 'pub_year', 'volume', 'number', 'suppl'],
-        ]
-        indexes = [
-            models.Index(fields=['journal']),
-            models.Index(fields=['volume']),
-            models.Index(fields=['number']),
-            models.Index(fields=['suppl']),
-            models.Index(fields=['pub_year']),
-        ]
-
-
-class BaseArticle(CommonControlField):
     v3 = models.CharField(_("v3"), max_length=23, null=True, blank=True)
-    main_doi = models.CharField(_("main_doi"), max_length=265, null=True, blank=True)
-    elocation_id = models.CharField(_("elocation_id"), max_length=23, null=True, blank=True)
-    article_titles_texts = models.CharField(_("article_titles_texts"), max_length=64, null=True, blank=True)
-    surnames = models.CharField(_("surnames"), max_length=64, null=True, blank=True)
-    collab = models.CharField(_("collab"), max_length=64, null=True, blank=True)
-    links = models.CharField(_("links"), max_length=64, null=True, blank=True)
-    partial_body = models.CharField(_("partial_body"), max_length=64, null=True, blank=True)
-    versions = models.ManyToManyField(MinioFile)
+    v2 = models.CharField(_("v2"), max_length=23, null=True, blank=True)
+    aop_pid = models.CharField(_("AOP PID"), max_length=23, null=True, blank=True)
 
-    @property
-    def xml_uri(self):
-        if self.latest_version:
-            return self.latest_version.uri
+    fpage = models.CharField(_("fpage"), max_length=10, null=True, blank=True)
+    fpage_seq = models.CharField(_("fpage_seq"), max_length=10, null=True, blank=True)
+    lpage = models.CharField(_("lpage"), max_length=10, null=True, blank=True)
+    article_publication_date = models.DateField(_("Document Publication Date"), null=True, blank=True)
 
-    @property
-    def latest_version(self):
-        if self.versions.count():
-            return self.versions.latest('created')
+    z_elocation_id = models.CharField(_("elocation_id"), max_length=64, null=True, blank=True)
+    z_main_doi = models.CharField(_("DOI"), max_length=64, null=True, blank=True)
+    z_main_toc_section = models.CharField(_("main_toc_section"), max_length=64, null=True, blank=True)
+    z_article_titles_texts = models.CharField(_("article_titles_texts"), max_length=64, null=True, blank=True)
+    z_surnames = models.CharField(_("surnames"), max_length=64, null=True, blank=True)
+    z_collab = models.CharField(_("collab"), max_length=64, null=True, blank=True)
+    z_links = models.CharField(_("links"), max_length=64, null=True, blank=True)
+    z_partial_body = models.CharField(_("partial_body"), max_length=64, null=True, blank=True)
 
-    def add_version(self, version):
-        if version:
-            if is_equal_versions(self.latest_version, version):
-                return
-            self.versions.add(version)
+    synchronized = models.BooleanField(null=True, blank=True, default=False)
+
+    # ForeignKey
+    # contributors
+    # affiliations
+    # funding-group (sponsors e process number)
+
+    # lang dependent / ManyToMany
+    # doi
+    # toc_sections
+    # kwd-groups
+    # titles
+    # abstracts
+    # figs / lang
+    # tables / lang
+    # equations
+
+    # counts
+    # history
+    # license
+
+    # references | ManyToMany
+    # Open Science indicators
 
     def __str__(self):
         return f'{self.v3}'
 
     class Meta:
         indexes = [
-            models.Index(fields=['v3']),
-            models.Index(fields=['main_doi']),
-            models.Index(fields=['article_titles_texts']),
-            models.Index(fields=['surnames']),
-            models.Index(fields=['collab']),
-            models.Index(fields=['links']),
-            models.Index(fields=['partial_body']),
-            models.Index(fields=['elocation_id']),
-        ]
-
-
-class XMLAOPArticle(BaseArticle):
-    journal = models.ForeignKey('XMLJournal', on_delete=models.SET_NULL, null=True, blank=True)
-    aop_pid = models.CharField(_("aop_pid"), max_length=23, null=True, blank=True)
-    published_in_issue = models.ForeignKey('XMLArticle', on_delete=models.SET_NULL, null=True, blank=True)
-
-    @property
-    def is_aop(self):
-        return True
-
-    def __str__(self):
-        return f'{self.journal} {self.v3 or ""} {self.uri or ""}'
-
-    class Meta:
-        indexes = [
             models.Index(fields=['journal']),
-            models.Index(fields=['aop_pid']),
-            models.Index(fields=['published_in_issue']),
-        ]
-
-
-class XMLArticle(BaseArticle):
-    v2 = models.CharField(_("v2"), max_length=23, null=True, blank=True)
-    issue = models.ForeignKey('XMLIssue', on_delete=models.SET_NULL, null=True, blank=True)
-    fpage = models.CharField(_("fpage"), max_length=10, null=True, blank=True)
-    fpage_seq = models.CharField(_("fpage_seq"), max_length=10, null=True, blank=True)
-    lpage = models.CharField(_("lpage"), max_length=10, null=True, blank=True)
-
-    @property
-    def is_aop(self):
-        return False
-
-    def __str__(self):
-        return f'{self.issue and self.issue.journal or ""} {self.v3 or ""}'
-
-    class Meta:
-        indexes = [
-            models.Index(fields=['v2']),
             models.Index(fields=['issue']),
+            models.Index(fields=['related_items']),
+            models.Index(fields=['aop_xml_versions']),
+            models.Index(fields=['xml_versions']),
+            models.Index(fields=['v3']),
+            models.Index(fields=['v2']),
+            models.Index(fields=['aop_pid']),
             models.Index(fields=['fpage']),
             models.Index(fields=['fpage_seq']),
             models.Index(fields=['lpage']),
+            models.Index(fields=['article_publication_date']),
+            models.Index(fields=['z_elocation_id']),
+            models.Index(fields=['z_main_doi']),
+            models.Index(fields=['z_main_toc_section']),
+            models.Index(fields=['z_article_titles_texts']),
+            models.Index(fields=['z_surnames']),
+            models.Index(fields=['z_collab']),
+            models.Index(fields=['z_links']),
+            models.Index(fields=['z_partial_body']),
+            models.Index(fields=['synchronized']),
         ]
-
-
-class AOP(CommonControlField):
-    aop_pid = models.CharField(_("aop_pid"), max_length=23, null=True, blank=True)
-    versions = models.ManyToManyField(MinioFile)
-
-    def __str__(self):
-        return self.aop_pid
-
-    @classmethod
-    def get_or_create(cls, aop_pid, user):
-        try:
-            return cls.objects.get(aop_pid=aop_pid)
-        except cls.DoesNotExist:
-            obj = cls()
-            obj.aop_pid = aop_pid
-            obj.creator = user
-            obj.save()
-            return obj
-
-    @property
-    def xml_uri(self):
-        if self.latest_version:
-            return self.latest_version.uri
-
-    @property
-    def latest_version(self):
-        if self.versions.count():
-            return self.versions.latest('created')
-
-    def add_version(self, version):
-        if version:
-            if is_equal_versions(self.latest_version, version):
-                return
-            self.versions.add(version)
-
-    class Meta:
-        indexes = [
-            models.Index(fields=['aop_pid']),
-        ]
-
-
-class VOR(CommonControlField):
-    v2 = models.CharField(_("v2"), max_length=23, null=True, blank=True)
-    issue = models.ForeignKey('XMLIssue', on_delete=models.SET_NULL, null=True, blank=True)
-    fpage = models.CharField(_("fpage"), max_length=10, null=True, blank=True)
-    fpage_seq = models.CharField(_("fpage_seq"), max_length=10, null=True, blank=True)
-    lpage = models.CharField(_("lpage"), max_length=10, null=True, blank=True)
-    versions = models.ManyToManyField(MinioFile)
-
-    def __str__(self):
-        return f'{self.issue or ""} {self.v2 or ""}'
-
-    @classmethod
-    def get_or_create(cls, v2, issue, fpage=None, fpage_seq=None,
-                      lpage=None, creator=None):
-        try:
-            return cls.objects.get(v2=v2)
-        except cls.DoesNotExist:
-            obj = cls()
-            obj.v2 = v2
-            obj.issue = issue
-            obj.fpage = fpage or None
-            obj.fpage_seq = fpage_seq or None
-            obj.lpage = lpage or None
-            obj.creator = creator
-            obj.save()
-            return obj
-
-    @property
-    def xml_uri(self):
-        if self.latest_version:
-            return self.latest_version.uri
-
-    @property
-    def latest_version(self):
-        if self.versions.count():
-            return self.versions.latest('created')
-
-    def add_version(self, version):
-        if version:
-            if is_equal_versions(self.latest_version, version):
-                return
-            self.versions.add(version)
-
-    class Meta:
-        indexes = [
-            models.Index(fields=['v2']),
-            models.Index(fields=['issue']),
-            models.Index(fields=['fpage']),
-            models.Index(fields=['fpage_seq']),
-            models.Index(fields=['lpage']),
-        ]
-
-
-class PidV3(CommonControlField):
-    v3 = models.CharField(_("v3"), max_length=23, null=True, blank=True)
-    main_doi = models.CharField(_("main_doi"), max_length=265, null=True, blank=True)
-    elocation_id = models.CharField(_("elocation_id"), max_length=23, null=True, blank=True)
-    article_titles_texts = models.CharField(_("article_titles_texts"), max_length=64, null=True, blank=True)
-    surnames = models.CharField(_("surnames"), max_length=64, null=True, blank=True)
-    collab = models.CharField(_("collab"), max_length=64, null=True, blank=True)
-    links = models.CharField(_("links"), max_length=64, null=True, blank=True)
-    partial_body = models.CharField(_("partial_body"), max_length=64, null=True, blank=True)
-    journal = models.ForeignKey('XMLJournal', on_delete=models.SET_NULL, null=True, blank=True)
-    aop = models.ForeignKey(AOP, on_delete=models.SET_NULL, null=True, blank=True)
-    vor = models.ForeignKey(VOR, on_delete=models.SET_NULL, null=True, blank=True)
-    synchronized = models.BooleanField(null=True, blank=True, default=False)
-
-    @property
-    def issue(self):
-        if self.vor:
-            return self.vor.issue
 
     @property
     def is_aop(self):
-        if self.vor:
+        if self.issue:
             return False
-        if self.aop:
+        if self.aop_pid:
             return True
 
     @property
-    def aop_pid(self):
-        if self.aop:
-            self.aop.aop_pid
-
-    @property
-    def v2(self):
-        if self.vor:
-            self.vor.v2
-
-    @property
     def xml_uri(self):
         if self.latest_version:
             return self.latest_version.uri
 
     @property
     def latest_version(self):
-        if self.vor:
-            return self.vor.latest_version
-        if self.aop:
-            return self.aop.latest_version
+        if self.xml_versions:
+            return self.xml_versions.latest
+        if self.aop_xml_versions:
+            return self.aop_xml_versions.latest_version
 
     def add_version(self, version):
-        if self.vor:
-            return self.vor.add_version(version)
-        return self.aop.add_version(version)
-
-    def __str__(self):
-        return f'{self.v3}'
+        if version.is_aop:
+            return self.aop_xml_versions.add_version(version)
+        else:
+            return self.xml_versions.add_version(version)
 
     @classmethod
     def get_xml_uri(cls, v3):
@@ -381,7 +145,7 @@ class PidV3(CommonControlField):
         Returns
         -------
             dict or None
-                {"registered": PidV3, "pids_updated": boolean}
+                {"registered": XMLArticle, "pids_updated": boolean}
         Raises
         ------
         exceptions.RequestDocumentIDsError
@@ -412,17 +176,17 @@ class PidV3(CommonControlField):
 
             if not registered:
                 # cria registro
-                registered = cls._register_new_pid(xml_adapter, user)
+                registered = cls._register_new(xml_adapter, user)
                 logging.info("new %s" % registered)
 
             if registered:
-                registered.synchronized = synchronized
                 register_pid_provider_xml(
                     registered,
                     filename,
                     xml_adapter.tostring(),
                     user,
                 )
+                registered.set_synchronized(synchronized, user)
                 return {"registered": registered, "xml_changed": xml_changed}
 
         except exceptions.ForbiddenPidRequestError as e:
@@ -435,9 +199,9 @@ class PidV3(CommonControlField):
                     filename, type(e), str(e))
             )
 
-    def set_synchronized(self, value):
+    def set_synchronized(self, value, user):
         self.synchronized = value
-        self.updated_by = self.creator
+        self.updated_by = user
         self.updated = datetime.utcnow()
         self.save()
 
@@ -452,11 +216,11 @@ class PidV3(CommonControlField):
 
         Parameters
         ----------
-        xml : XMLWithPre
+        xml_with_pre : XMLWithPre
 
         Returns
         -------
-            None or PidV3
+            None or XMLArticle
 
         Raises
         ------
@@ -466,7 +230,9 @@ class PidV3(CommonControlField):
         try:
             # adaptador do xml with pre
             xml_adapter = xml_sps_adapter.XMLAdapter(xml_with_pre)
-            return cls._query_document(xml_adapter)
+            registered = cls._query_document(xml_adapter)
+            if registered:
+                return PidV3Serializer(registered).data
         except Exception as e:
             logging.exception(e)
             raise exceptions.GetRegisteredError(
@@ -486,11 +252,11 @@ class PidV3(CommonControlField):
 
         Returns
         -------
-        None or PidV3
+        None or XMLArticle
 
         # Raises
         # ------
-        # PidV3.MultipleObjectsReturned
+        # XMLArticle.MultipleObjectsReturned
         """
         logging.info("xml_adapter.is_aop: %s" % xml_adapter.is_aop)
         if xml_adapter.is_aop:
@@ -534,39 +300,49 @@ class PidV3(CommonControlField):
                         xml_adapter, type(e), str(e)))
 
     @classmethod
-    def _register_new_pid(cls, xml_adapter, user):
+    def _register_new(cls, xml_adapter, user):
         try:
-            journal = XMLJournal.get_or_create(
+            doc = cls()
+            doc.journal = XMLJournal.get_or_create(
                 xml_adapter.journal_issn_electronic,
                 xml_adapter.journal_issn_print,
             )
-            doc = cls()
             if xml_adapter.is_aop:
-                doc.aop = AOP.get_or_create(xml_adapter.v2, user)
+                doc.issue = None
             else:
-                doc.vor = VOR.get_or_create(
-                    xml_adapter.v2,
-                    XMLIssue.get_or_create(
-                        journal,
-                        xml_adapter.issue.get("volume"),
-                        xml_adapter.issue.get("number"),
-                        xml_adapter.issue.get("suppl"),
-                        xml_adapter.issue.get("pub_year"),
-                    ),
-                    xml_adapter.pages.get("fpage"),
-                    xml_adapter.pages.get("fpage_seq"),
-                    xml_adapter.pages.get("lpage"),
-                    user,
+                doc.issue = XMLIssue.get_or_create(
+                    doc.journal,
+                    xml_adapter.issue.get("volume"),
+                    xml_adapter.issue.get("number"),
+                    xml_adapter.issue.get("suppl"),
+                    xml_adapter.issue.get("pub_year"),
                 )
-            doc.journal = journal
+                doc.fpage = xml_adapter.pages.get("fpage")
+                doc.fpage_seq = xml_adapter.pages.get("fpage_seq")
+                doc.lpage = xml_adapter.pages.get("lpage")
+
+            for item in xml_adapter.related_items:
+                try:
+                    related = cls.objects.get(z_main_doi=item)
+                except (cls.DoesNotExist, KeyError):
+                    pass
+                else:
+                    doc.related_items.add(related)
+
+            doc.article_publication_date = xml_adapter.article_publication_date
             doc.v3 = xml_adapter.v3
-            doc.main_doi = xml_adapter.main_doi
-            doc.article_titles_texts = xml_adapter.article_titles_texts
-            doc.surnames = xml_adapter.surnames
-            doc.collab = xml_adapter.collab
-            doc.links = xml_adapter.links
-            doc.partial_body = xml_adapter.partial_body
-            doc.elocation_id = xml_adapter.pages.get("elocation_id")
+            doc.v2 = xml_adapter.v2
+            doc.aop_pid = xml_adapter.aop_pid
+
+            doc.z_main_doi = xml_adapter.main_doi
+            doc.z_main_toc_section = xml_adapter.main_toc_section
+            doc.z_article_titles_texts = xml_adapter.article_titles_texts
+            doc.z_surnames = xml_adapter.surnames
+            doc.z_collab = xml_adapter.collab
+            doc.z_links = xml_adapter.links
+            doc.z_partial_body = xml_adapter.partial_body
+            doc.z_elocation_id = xml_adapter.elocation_id
+
             doc.creator = user
             doc.save()
             return doc
@@ -598,9 +374,9 @@ class PidV3(CommonControlField):
         if v3:
             kwargs = {'v3': v3}
         elif v2:
-            kwargs = {'vor__v2': v2}
+            kwargs = {'v2': v2}
         elif aop_pid:
-            kwargs = {'aop__aop_pid': aop_pid}
+            kwargs = {'aop_pid': aop_pid}
 
         if kwargs:
             try:
@@ -643,7 +419,7 @@ class PidV3(CommonControlField):
         Parameters
         ----------
         xml_adapter: XMLAdapter
-        registered: PidV3
+        registered: XMLArticle
 
         Returns
         -------
@@ -670,7 +446,7 @@ class PidV3(CommonControlField):
         Arguments
         ---------
         xml_adapter: XMLAdapter
-        registered: PidV3
+        registered: XMLArticle
 
         """
         if registered:
@@ -687,7 +463,7 @@ class PidV3(CommonControlField):
         Arguments
         ---------
         xml_adapter: XMLAdapter
-        registered: PidV3
+        registered: XMLArticle
 
         Returns
         -------
@@ -704,7 +480,7 @@ class PidV3(CommonControlField):
         Arguments
         ---------
         xml_adapter: XMLAdapter
-        registered: PidV3
+        registered: XMLArticle
 
         Returns
         -------
@@ -715,20 +491,6 @@ class PidV3(CommonControlField):
                 xml_adapter.v2 = registered.v2
         if not xml_adapter.v2:
             xml_adapter.v2 = cls._get_unique_v2(xml_adapter)
-
-    class Meta:
-        indexes = [
-            models.Index(fields=['v3']),
-            models.Index(fields=['aop']),
-            models.Index(fields=['vor']),
-            models.Index(fields=['main_doi']),
-            models.Index(fields=['article_titles_texts']),
-            models.Index(fields=['surnames']),
-            models.Index(fields=['collab']),
-            models.Index(fields=['links']),
-            models.Index(fields=['partial_body']),
-            models.Index(fields=['elocation_id']),
-        ]
 
 
 def _set_isnull_parameters(kwargs):
@@ -748,20 +510,25 @@ def _query_document_args(xml_adapter, filter_by_issue=False, aop_version=False):
     Arguments
     ---------
     xml_adapter : XMLAdapter
-    aop_version: bool
     filter_by_issue: bool
+    aop_version: bool
 
     Returns
     -------
     dict
     """
     _params = dict(
-        surnames=xml_adapter.surnames or None,
-        article_titles_texts=xml_adapter.article_titles_texts or None,
-        collab=xml_adapter.collab or None,
-        links=xml_adapter.links or None,
-        main_doi=xml_adapter.main_doi or None,
+        journal__issn_print=xml_adapter.journal_issn_print or None,
+        journal__issn_electronic=xml_adapter.journal_issn_electronic or None,
+        z_surnames=xml_adapter.surnames or None,
+        z_article_titles_texts=xml_adapter.article_titles_texts or None,
+        z_collab=xml_adapter.collab or None,
+        z_links=xml_adapter.links or None,
+        z_main_doi=xml_adapter.main_doi or None,
+        z_main_toc_section=xml_adapter.main_toc_section or None,
+        z_elocation_id=xml_adapter.elocation_id,
     )
+
     if not any(_params.values()):
         # nenhum destes, então procurar pelo início do body
         if not xml_adapter.partial_body:
@@ -771,23 +538,15 @@ def _query_document_args(xml_adapter, filter_by_issue=False, aop_version=False):
                     _params, type(e), e,
                 )
             )
-        _params["partial_body"] = xml_adapter.partial_body
+        _params["z_partial_body"] = xml_adapter.partial_body
     if aop_version:
-        _params['aop__isnull'] = False
-        _params['journal__issn_print'] = xml_adapter.journal_issn_print
-        _params['journal__issn_electronic'] = xml_adapter.journal_issn_electronic
+        _params['issue__isnull'] = True
     else:
-        _params['vor__issue__journal__issn_print'] = xml_adapter.journal_issn_print
-        _params['vor__issue__journal__issn_electronic'] = xml_adapter.journal_issn_electronic
-
         if filter_by_issue:
             for k, v in xml_adapter.issue.items():
-                _params[f"vor__issue__{k}"] = v
+                _params[f"issue__{k}"] = v
             for k, v in xml_adapter.pages.items():
-                if k == "elocation_id":
-                    continue
-                _params[f"vor__{k}"] = v
-
+                _params[k] = v
     params = _set_isnull_parameters(_params)
     logging.info(dict(filter_by_issue=filter_by_issue, aop_version=aop_version))
     logging.info(params)

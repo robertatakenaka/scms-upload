@@ -2,7 +2,7 @@ from . import models
 from rest_framework import serializers
 
 
-class JournalSerializer(serializers.ModelSerializer):
+class XMLJournalSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.XMLJournal
         fields = (
@@ -12,7 +12,7 @@ class JournalSerializer(serializers.ModelSerializer):
         )
 
 
-class IssueSerializer(serializers.ModelSerializer):
+class XMLIssueSerializer(serializers.ModelSerializer):
     class Meta:
         model = models.XMLIssue
         fields = (
@@ -23,12 +23,12 @@ class IssueSerializer(serializers.ModelSerializer):
         )
 
 
-class PidV3Serializer(serializers.ModelSerializer):
-    journal = JournalSerializer()
-    issue = IssueSerializer()
+class XMLArticleSerializer(serializers.ModelSerializer):
+    journal = XMLJournalSerializer()
+    issue = XMLIssueSerializer()
 
     class Meta:
-        model = models.PidV3
+        model = models.EncodedXMLArticle
         fields = (
             'xml_uri',
             'v2', 'aop_pid', 'v3',

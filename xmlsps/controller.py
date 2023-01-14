@@ -1,3 +1,4 @@
+
 import os
 import logging
 from tempfile import TemporaryDirectory
@@ -9,8 +10,7 @@ from django.utils.translation import gettext as _
 
 from files_storage.controller import FilesStorageManager
 from xmlsps import xml_sps_lib
-from .models import PidV3
-from .serializers import PidV3Serializer
+from .models import EncodedXMLArticle
 from . import exceptions
 
 
@@ -18,6 +18,40 @@ User = get_user_model()
 
 LOGGER = logging.getLogger(__name__)
 LOGGER_FMT = "%(asctime)s [%(levelname)s] %(name)s: %(message)s"
+
+
+class XMLArticleRegister:
+    """
+    Faz registro do XML local e remotamente, mantém os registros sincronizados
+    """
+    def __init__(self, files_storage_name, pid_provider_api_uri=None, timeout=None):
+        self._pid_requester = PidRequester(
+            files_storage_name, pid_provider_api_uri, timeout)
+
+    def register(self, xml_with_pre, name, user):
+        """
+        Realiza os registros local e remoto de acordo com a necessidade
+        """
+        return self._pid_requester.request_doc_ids(xml_with_pre, name, user)
+
+    def register_for_xml_uri(self, xml_uri, name, user):
+        return self._pid_requester.request_doc_ids_for_xml_uri(
+            xml_uri, name, user)
+
+    def get_registered(self, xml_with_pre):
+        return self._pid_requester.local_pid_provider.get_registered(
+            xml_with_pre)
+
+    def get_registered_xml_zip(self, zip_xml_file_path):
+        return self._pid_requester.local_pid_provider.get_registered_xml_zip(
+            zip_xml_file_path)
+
+    def get_registered_xml_uri(self, xml_uri):
+        return self._pid_requester.local_pid_provider.get_registered_xml_uri(
+            xml_uri)
+
+    def get_xml_uri(self, v3):
+        return self._pid_requester.local_pid_provider.get_xml_uri(v3)
 
 
 class PidRequester:
@@ -174,12 +208,17 @@ class PidRequester:
 
 
 class PidProvider:
-
+    """
+    Registra EncodedXMLArticle local ou remoto
+    """
     def __init__(self, files_storage_name):
         self.files_storage_manager = FilesStorageManager(files_storage_name)
 
+    def get_xml_uri(self, v3):
+        return EncodedXMLArticle.get_xml_uri(v3)
+
     def request_document_ids(self, xml_with_pre, filename, user, synchronized=None):
-        return PidV3.request_document_ids(
+        return EncodedXMLArticle.request_document_ids(
             xml_with_pre, filename, user,
             self.files_storage_manager.register_pid_provider_xml,
             synchronized,
@@ -228,9 +267,9 @@ class PidProvider:
             )
 
     def get_registered(self, xml_with_pre):
-        return PidV3Serializer(PidV3.get_registered(xml_with_pre)).data
+        return EncodedXMLArticle.get_registered(xml_with_pre)
 
-    def get_registered_xml_zip(self, zip_xml_file_path):
+    def get_registered_for_xml_zip(self, zip_xml_file_path):
         try:
             for item in xml_sps_lib.get_xml_items(zip_xml_file_path):
                 try:
@@ -255,7 +294,7 @@ class PidProvider:
                 )
             )
 
-    def get_registered_xml_uri(self, xml_uri):
+    def get_registered_for_xml_uri(self, xml_uri):
         try:
             xml_with_pre = xml_sps_lib.get_xml_with_pre_from_uri(xml_uri)
             return self.get_registered(xml_with_pre)
@@ -274,4 +313,4 @@ class PidProvider:
         estão sincronizados com o pid provider remoto (central) e
         faz a sincronização, registrando o XML local no pid provider remoto
         """
-        return PidV3.objects.filter(synchronized=False).iterator()
+        return EncodedXMLArticle.objects.filter(synchronized=False).iterator()

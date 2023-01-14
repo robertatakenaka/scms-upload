@@ -30,8 +30,7 @@ from libs.dsm.publication.db import mk_connection
 from libs.dsm.publication.journals import JournalToPublish
 from libs.dsm.publication.issues import IssueToPublish, get_bundle_id
 from libs.dsm.publication.documents import DocumentToPublish
-from pid_provider.models import PidV3
-from pid_provider.controller import PidRequester
+from xmlsps.controller import XMLArticleRegister
 from core.controller import parse_non_standard_date, parse_months_names
 from collection.choices import CURRENT
 from collection.exceptions import (
@@ -441,12 +440,16 @@ class MigrationConfigurationController:
                 self.config.migration_files_storage_config.name),
         )
         self.user = user
-        self.pid_requester = PidRequester('website')
+        # FIXME
+        self.xml_register = XMLArticleRegister(
+            'website',
+            'http://0.0.0.0:8000/pid_provider/',
+        )
 
     def request_v3(self, xml_with_pre, name, user):
         # TODO
         # {"v3": '', "xml_file_versions": ""}
-        return self.pid_requester.request_doc_ids(xml_with_pre, name, user)
+        return self.xml_register.register(xml_with_pre, name, user)
 
     def connect_db(self):
         try:
@@ -1124,7 +1127,7 @@ def migrate_document(
         article = PublicationArticle.get_or_create(
             response['v3'],
             user,
-            PidV3.get_xml_uri(response['v3']),
+            mcc.xml_register.get_xml_uri(response['v3']),
             PUBLICATION_STATUS_PUBLISHED
         )
 
