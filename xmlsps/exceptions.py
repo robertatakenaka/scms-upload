@@ -1,3 +1,7 @@
+class AddIssueError(Exception):
+    ...
+
+
 class RegisterNewPidError(Exception):
     ...
 

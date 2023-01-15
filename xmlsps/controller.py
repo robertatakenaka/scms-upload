@@ -1,4 +1,3 @@
-
 import os
 import logging
 from tempfile import TemporaryDirectory
@@ -32,22 +31,22 @@ class XMLArticleRegister:
         """
         Realiza os registros local e remoto de acordo com a necessidade
         """
-        return self._pid_requester.request_doc_ids(xml_with_pre, name, user)
+        return self._pid_requester.request_pids(xml_with_pre, name, user)
 
     def register_for_xml_uri(self, xml_uri, name, user):
-        return self._pid_requester.request_doc_ids_for_xml_uri(
+        return self._pid_requester.request_pids_for_xml_uri(
             xml_uri, name, user)
 
     def get_registered(self, xml_with_pre):
         return self._pid_requester.local_pid_provider.get_registered(
             xml_with_pre)
 
-    def get_registered_xml_zip(self, zip_xml_file_path):
-        return self._pid_requester.local_pid_provider.get_registered_xml_zip(
+    def get_registered_for_xml_zip(self, zip_xml_file_path):
+        return self._pid_requester.local_pid_provider.get_registered_for_xml_zip(
             zip_xml_file_path)
 
-    def get_registered_xml_uri(self, xml_uri):
-        return self._pid_requester.local_pid_provider.get_registered_xml_uri(
+    def get_registered_for_xml_uri(self, xml_uri):
+        return self._pid_requester.local_pid_provider.get_registered_for_xml_uri(
             xml_uri)
 
     def get_xml_uri(self, v3):
@@ -70,15 +69,13 @@ class PidRequester:
         do_remote_registration = True
         do_local_registration = True
 
-        registered = self.local_pid_provider.get_registered(xml_with_pre)
+        registered, equal = self.local_pid_provider.is_registered_and_equal(
+            xml_with_pre)
         if registered:
-            if registered.is_equal_to(xml_with_pre):
+            if equal:
                 # skip local registration
                 do_local_registration = False
-                if registered.synchronized:
-                    # skip remote registration
-                    do_remote_registration = False
-
+                do_remote_registration = not registered['synchronized']
         return dict(
             registered=registered,
             do_local_registration=do_local_registration,
@@ -96,8 +93,9 @@ class PidRequester:
                 xml_with_pre = xml_sps_lib.get_xml_with_pre_from_uri(
                     item.xml_uri)
                 name = os.path.basename(item.xml_uri)
-                response = self._api_request_doc_ids(
+                response = self._api_provide_pids(
                     xml_with_pre, name, item.creator)
+                logging.info(response)
                 if response and response.get("xml_uri"):
                     # muda status para sincronizado
                     item.set_synchronized(True)
@@ -108,29 +106,27 @@ class PidRequester:
                     )
                 )
 
-    def request_doc_ids(self, xml_with_pre, name, user):
+    def request_pids(self, xml_with_pre, name, user):
         """
         Realiza os registros local e remoto de acordo com a necessidade
         """
         # verifica a necessidade de registro
         demand = self.get_registration_demand(xml_with_pre)
+        logging.info(demand)
         registered = demand['registered']
         do_local_registration = demand['do_local_registration']
         do_remote_registration = demand['do_remote_registration']
 
         if not do_local_registration and not do_remote_registration:
             # não é necessário registrar, retornar os dados atuais
-            return {
-                "v3": registered.v3,
-                "xml_changed": False,
-                "xml_uri": registered.xml_uri,
-            }
+            return registered
 
         api_response = None
+        logging.info((do_remote_registration, self.api_uri))
         if do_remote_registration and self.api_uri:
             # realizar registro remoto
             try:
-                api_response = self._api_request_doc_ids(
+                api_response = self._api_provide_pids(
                     xml_with_pre, name, user)
             except Exception as e:
                 logging.exception(
@@ -149,25 +145,14 @@ class PidRequester:
             if api_response:
                 xml_with_pre = xml_sps_lib.get_xml_with_pre_from_uri(
                     api_response["xml_uri"])
-            result = self.local_pid_provider.request_document_ids(
+            return self.local_pid_provider.provide_pids(
                     xml_with_pre, name, user, synchronized=bool(api_response))
-            if result and result.get("registered"):
-                return {
-                    "v3": result['registered'].v3,
-                    "xml_changed": result['xml_changed'],
-                    "xml_uri": result['registered'].xml_uri,
-                }
-            else:
-                return result
+            
         else:
             # não precisa fazer registro local, retorna os dados atuais
-            return {
-                "v3": registered.v3,
-                "xml_changed": False,
-                "xml_uri": registered.xml_uri,
-            }
+            return registered
 
-    def _api_request_doc_ids(self, xml_with_pre, name, user):
+    def _api_provide_pids(self, xml_with_pre, name, user):
         """
         name : str
             nome do arquivo xml
@@ -190,7 +175,7 @@ class PidRequester:
             auth = HTTPBasicAuth(user.name, user.password)
             return requests.post(
                 self.api_uri,
-                files={"zip_xml_file_path": zip_xml_file_path},
+                files={"file": zip_xml_file_path},
                 auth=auth,
                 timeout=timeout,
             )
@@ -202,9 +187,9 @@ class PidRequester:
                 )
             )
 
-    def request_doc_ids_for_xml_uri(self, xml_uri, name, user):
+    def request_pids_for_xml_uri(self, xml_uri, name, user):
         xml_with_pre = xml_sps_lib.get_xml_with_pre_from_uri(xml_uri)
-        return self.request_doc_ids(xml_with_pre, name, user)
+        return self.request_pids(xml_with_pre, name, user)
 
 
 class PidProvider:
@@ -214,27 +199,36 @@ class PidProvider:
     def __init__(self, files_storage_name):
         self.files_storage_manager = FilesStorageManager(files_storage_name)
 
+    def is_registered_and_equal(self, xml_with_pre):
+        return EncodedXMLArticle.is_registered_and_equal(xml_with_pre)
+
     def get_xml_uri(self, v3):
         return EncodedXMLArticle.get_xml_uri(v3)
 
-    def request_document_ids(self, xml_with_pre, filename, user, synchronized=None):
-        return EncodedXMLArticle.request_document_ids(
+    def provide_pids(self, xml_with_pre, filename, user, synchronized=None):
+        return EncodedXMLArticle.provide_pids(
             xml_with_pre, filename, user,
             self.files_storage_manager.register_pid_provider_xml,
             synchronized,
         )
 
-    def request_document_ids_for_xml_zip(self, zip_xml_file_path, user, synchronized=None):
+    def provide_pids_for_xml_zip(self, zip_xml_file_path, user, synchronized=None):
         try:
+            logging.info("provide_pids_for_xml_zip")
+            logging.info(os.path.isfile(zip_xml_file_path))
+            items = []
             for item in xml_sps_lib.get_xml_items(zip_xml_file_path):
+                xml_with_pre = item.pop("xml_with_pre")
+                logging.info(item)
                 try:
                     # {"filename": item: "xml": xml}
-                    registered = self.request_document_ids(
-                        item['xml_with_pre'], item["filename"], user,
+                    registered = self.provide_pids(
+                        xml_with_pre, item["filename"], user,
                         synchronized,
                     )
                     if registered:
                         item.update(registered)
+                    logging.info(item)
                     yield item
                 except Exception as e:
                     logging.exception(e)
@@ -244,6 +238,7 @@ class PidProvider:
                         )
                     )
                     yield item
+            return items
         except Exception as e:
             logging.exception(e)
             raise exceptions.RequestDocumentIDsForXMLZipFileError(
@@ -252,10 +247,10 @@ class PidProvider:
                 )
             )
 
-    def request_document_ids_for_xml_uri(self, xml_uri, filename, user, synchronized=None):
+    def provide_pids_for_xml_uri(self, xml_uri, filename, user, synchronized=None):
         try:
             xml_with_pre = xml_sps_lib.get_xml_with_pre_from_uri(xml_uri)
-            return self.request_document_ids(
+            return self.provide_pids(
                 xml_with_pre, filename, user, synchronized
             )
         except Exception as e:

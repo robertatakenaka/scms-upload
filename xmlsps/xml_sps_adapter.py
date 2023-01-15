@@ -69,7 +69,7 @@ class XMLAdapter:
     @property
     def main_doi(self):
         if not hasattr(self, '_main_doi') or not self._main_doi:
-            self._main_doi = _str_with_64_char(self.xml_with_pre.main_doi)
+            self._main_doi = self.xml_with_pre.main_doi
         return self._main_doi
 
     @property

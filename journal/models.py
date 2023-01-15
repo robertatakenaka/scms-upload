@@ -76,6 +76,7 @@ class OfficialJournal(CommonControlField):
             logging.info("Get or create Official Journal {} {} {} {}".format(
                 title, issn_l, e_issn, print_issn
             ))
+            logging.info(kwargs)
             return cls.objects.get(**kwargs)
         except cls.DoesNotExist:
             official_journal = cls()

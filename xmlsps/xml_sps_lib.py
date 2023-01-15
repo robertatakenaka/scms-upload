@@ -34,6 +34,14 @@ class GetXmlWithPreFromURIError(Exception):
     ...
 
 
+class GetXMLItemsError(Exception):
+    ...
+
+
+class GetXMLItemsFromZipFileError(Exception):
+    ...
+
+
 def get_xml_items(xml_sps_file_path, filenames=None):
     """
     Get XML items from XML file or Zip file
@@ -53,9 +61,10 @@ def get_xml_items(xml_sps_file_path, filenames=None):
         if ext == ".xml":
             xml = get_xml_from_xml_file(xml_sps_file_path)
             item = os.path.basename(xml_sps_file_path)
-            yield {"filename": item, "xml": xml}
+            return {"filename": item, "xml": xml}
 
     except Exception as e:
+        LOGGER.exception(e)
         raise GetXMLItemsError(
             _("Unable to get xml items from {}: {} {}").format(
                 xml_sps_file_path, type(e), e)
@@ -76,21 +85,24 @@ def get_xml_items_from_zip_file(xml_sps_file_path, filenames=None):
     str
     """
     try:
-        filenames = filenames or []
         with ZipFile(xml_sps_file_path) as zf:
-            for item in filenames or zf.namelist():
+            filenames = filenames or zf.namelist() or []
+            for item in filenames:
                 if item.endswith(".xml"):
                     try:
                         yield {
                             "filename": item,
-                            "xml_with_pre": get_xml_with_pre(zf.read(item).decode("utf-8")),
+                            "xml_with_pre": get_xml_with_pre(
+                                zf.read(item).decode("utf-8")),
                         }
                     except GetXmlWithPreError as e:
+                        LOGGER.exception(e)
                         raise GetXMLItemsFromZipFileError(
                             _("Unable to get xml {} from zip file {}: {} {}").format(
                                 item, xml_sps_file_path, type(e), e)
                         )
     except Exception as e:
+        LOGGER.exception(e)
         raise GetXMLItemsFromZipFileError(
             _("Unable to get xml items from zip file {}: {} {}").format(
                 xml_sps_file_path, type(e), e)
@@ -377,7 +389,6 @@ class XMLWithPre:
         if not hasattr(self, '_article_publication_date') or not self._article_publication_date:
             # ("year", "month", "season", "day")
             _date = ArticleDates(self.xmltree).article_date
-            logging.info(_date)
             self._article_publication_date = date(
                 int(_date['year']),
                 int(_date['month']),

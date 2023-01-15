@@ -58,7 +58,7 @@ class XMLArticle(CommonControlField):
     @classmethod
     def register(cls, xml_with_pre, filename, user,
                  register_pid_provider_xml, synchronized=None):
-        return EncodedXMLArticle.request_document_ids(
+        return EncodedXMLArticle.provide_pids(
             xml_with_pre, filename, user,
             register_pid_provider_xml, synchronized
         )
@@ -94,13 +94,11 @@ class XMLJournal(models.Model):
 
     @property
     def data(self):
-        return {
-            "journal": dict(
-                title=self.title,
-                issn_electronic=self.issn_electronic,
-                issn_print=self.issn_print,
-            )
-        }
+        return dict(
+            title=self.title,
+            issn_electronic=self.issn_electronic,
+            issn_print=self.issn_print,
+        )
 
     @classmethod
     def get_or_create(cls, issn_electronic, issn_print):
@@ -110,11 +108,11 @@ class XMLJournal(models.Model):
                 "issn_print": issn_print,
             }
             kwargs = _set_isnull_parameters(params)
-            logging.info("Search {}".format(kwargs))
+            LOGGER.debug("Search {}".format(kwargs))
             return cls.objects.get(**kwargs)
         except cls.DoesNotExist:
             params = {k: v for k, v in params.items() if v}
-            logging.info("Create {}".format(params))
+            LOGGER.debug("Create {}".format(params))
             journal = cls(**params)
             journal.save()
             return journal
@@ -141,15 +139,13 @@ class XMLIssue(models.Model):
 
     @property
     def data(self):
-        return {
-            "issue": dict(
-                journal=self.journal.data,
-                pub_year=self.pub_year,
-                volume=self.volume,
-                number=self.number,
-                suppl=self.suppl,
-            )
-        }
+        return dict(
+            journal=self.journal.data,
+            pub_year=self.pub_year,
+            volume=self.volume,
+            number=self.number,
+            suppl=self.suppl,
+        )
 
     @classmethod
     def get_or_create(cls, journal, volume, number, suppl, pub_year):
@@ -162,11 +158,11 @@ class XMLIssue(models.Model):
                 "pub_year": pub_year and int(pub_year) or None,
             }
             kwargs = _set_isnull_parameters(params)
-            logging.info("Search {}".format(kwargs))
+            LOGGER.debug("Search {}".format(kwargs))
             return cls.objects.get(**kwargs)
         except cls.DoesNotExist:
             params = {k: v for k, v in params.items() if v}
-            logging.info("Create {}".format(params))
+            LOGGER.debug("Create {}".format(params))
             issue = cls(**params)
             issue.save()
             return issue
@@ -234,7 +230,7 @@ class EncodedXMLArticle(CommonControlField):
     # Open Science indicators
 
     def __str__(self):
-        return f'{self.v3}'
+        return str(self.data)
 
     class Meta:
         indexes = [
@@ -265,8 +261,8 @@ class EncodedXMLArticle(CommonControlField):
             v2=self.v2,
             aop_pid=self.aop_pid,
             v3=self.v3,
-            created=self.created,
-            updated=self.updated,
+            created=self.created.isoformat(),
+            updated=self.updated.isoformat(),
             synchronized=self.synchronized,
             journal=self.journal.data,
             issue=self.issue.data,
@@ -308,8 +304,8 @@ class EncodedXMLArticle(CommonControlField):
             return item.xml_uri
 
     @classmethod
-    def request_document_ids(cls, xml_with_pre, filename, user,
-                             register_pid_provider_xml, synchronized=None):
+    def provide_pids(cls, xml_with_pre, filename, user,
+                     register_pid_provider_xml, synchronized=None):
         """
         Request PID v3
 
@@ -330,18 +326,18 @@ class EncodedXMLArticle(CommonControlField):
 
         """
         try:
-            logging.info("request_document_ids for {}".format(filename))
+            LOGGER.debug("provide_pids for {}".format(filename))
 
             # adaptador do xml with pre
             xml_adapter = xml_sps_adapter.XMLAdapter(xml_with_pre)
 
             # obtém item registrado
             registered = cls._query_document(xml_adapter)
-
+            LOGGER.debug(registered)
             if registered and xml_adapter.is_aop and not registered.is_aop:
                 # levanta exceção se está requisitando pid para um XML contendo
                 # dados de AOP, mas artigo já foi publicado em fascículo
-                logging.exception(e)
+                LOGGER.exception(e)
                 raise exceptions.ForbiddenPidRequestError(
                     _("The XML content is an ahead of print version "
                       "but the document {} is already published in an issue"
@@ -350,11 +346,17 @@ class EncodedXMLArticle(CommonControlField):
 
             # verfica os PIDs encontrados no XML / atualiza-os se necessário
             xml_changed = cls._complete_pids(xml_adapter, registered)
+            LOGGER.debug(xml_changed)
 
-            if not registered:
+            if registered:
+                if registered.is_aop and not xml_adapter.is_aop:
+                    # mudou de AOP para VOR, atualizar
+                    registered._add_issue(xml_adapter, user)
+                    LOGGER.debug("add_issue %s" % registered)
+            else:
                 # cria registro
                 registered = cls._register_new(xml_adapter, user)
-                logging.info("new %s" % registered)
+                LOGGER.debug("new %s" % registered)
 
             if registered:
                 register_pid_provider_xml(
@@ -364,13 +366,14 @@ class EncodedXMLArticle(CommonControlField):
                     user,
                 )
                 registered.set_synchronized(synchronized, user)
-                return {"registered": registered, "xml_changed": xml_changed}
+                return {"registered": registered.data, "xml_changed": xml_changed}
 
         except exceptions.ForbiddenPidRequestError as e:
+            LOGGER.exception(e)
             return {"error": str(e)}
 
         except Exception as e:
-            logging.exception(e)
+            LOGGER.exception(e)
             raise exceptions.RequestDocumentIDsError(
                 _("Unable to request document IDs for {} {} {}").format(
                     filename, type(e), str(e))
@@ -382,9 +385,18 @@ class EncodedXMLArticle(CommonControlField):
         self.updated = datetime.utcnow()
         self.save()
 
-    def is_equal_to(self, xml_with_pre):
-        if self.latest_version:
-            return self.latest_version.finger_print == xml_with_pre.finger_print
+    @classmethod
+    def is_registered_and_equal(cls, xml_with_pre):
+        xml_adapter = xml_sps_adapter.XMLAdapter(xml_with_pre)
+        registered = cls._query_document(xml_adapter)
+        if registered:
+            equal = bool(
+                registered.latest_version and
+                registered.latest_version.finger_print == xml_with_pre.finger_print
+            )
+            return registered.data, equal
+        else:
+            return None, False
 
     @classmethod
     def get_registered(cls, xml_with_pre):
@@ -409,9 +421,9 @@ class EncodedXMLArticle(CommonControlField):
             xml_adapter = xml_sps_adapter.XMLAdapter(xml_with_pre)
             registered = cls._query_document(xml_adapter)
             if registered:
-                return PidV3Serializer(registered).data
+                return registered.data
         except Exception as e:
-            logging.exception(e)
+            LOGGER.exception(e)
             raise exceptions.GetRegisteredError(
                 _("Unable to get registered item {} {} {}").format(
                     xml_with_pre, type(e), e,
@@ -435,7 +447,7 @@ class EncodedXMLArticle(CommonControlField):
         # ------
         # XMLArticle.MultipleObjectsReturned
         """
-        logging.info("xml_adapter.is_aop: %s" % xml_adapter.is_aop)
+        LOGGER.debug("xml_adapter.is_aop: %s" % xml_adapter.is_aop)
         if xml_adapter.is_aop:
             # o documento de entrada é um AOP
             try:
@@ -525,9 +537,57 @@ class EncodedXMLArticle(CommonControlField):
             return doc
 
         except Exception as e:
-            logging.exception(e)
+            LOGGER.exception(e)
             raise exceptions.RegisterNewPidError(
                 _("Register new pid error: {} {} {}").format(
+                    type(e), e, xml_adapter,
+                )
+            )
+
+    def _add_issue(self, xml_adapter, user):
+        try:
+            self.issue = XMLIssue.get_or_create(
+                self.journal,
+                xml_adapter.issue.get("volume"),
+                xml_adapter.issue.get("number"),
+                xml_adapter.issue.get("suppl"),
+                xml_adapter.issue.get("pub_year"),
+            )
+            self.fpage = xml_adapter.pages.get("fpage")
+            self.fpage_seq = xml_adapter.pages.get("fpage_seq")
+            self.lpage = xml_adapter.pages.get("lpage")
+
+            for item in xml_adapter.related_items:
+                try:
+                    related = cls.objects.get(main_doi=item)
+                except (cls.DoesNotExist, KeyError):
+                    pass
+                else:
+                    self.related_items.add(related)
+
+            self.article_publication_date = xml_adapter.article_publication_date
+            self.v3 = xml_adapter.v3
+            self.v2 = xml_adapter.v2
+            self.aop_pid = xml_adapter.aop_pid
+
+            self.main_doi = xml_adapter.main_doi
+            self.main_toc_section = xml_adapter.main_toc_section
+            self.z_article_titles_texts = xml_adapter.article_titles_texts
+            self.z_surnames = xml_adapter.surnames
+            self.z_collab = xml_adapter.collab
+            self.z_links = xml_adapter.links
+            self.z_partial_body = xml_adapter.partial_body
+            self.z_elocation_id = xml_adapter.elocation_id
+
+            self.updated_by = user
+            self.updated = datetime.utcnow()
+            self.save()
+            return doc
+
+        except Exception as e:
+            LOGGER.exception(e)
+            raise exceptions.AddIssueError(
+                _("Add issue error: {} {} {}").format(
                     type(e), e, xml_adapter,
                 )
             )
@@ -564,7 +624,7 @@ class EncodedXMLArticle(CommonControlField):
                 return True
 
     @classmethod
-    def _v2_generates(xml_adapter):
+    def _v2_generates(cls, xml_adapter):
         # '2022-10-19T13:51:33.830085'
         utcnow = datetime.utcnow()
         yyyymmddtime = "".join(
@@ -612,7 +672,7 @@ class EncodedXMLArticle(CommonControlField):
 
         after = (xml_adapter.v2, xml_adapter.v3, xml_adapter.aop_pid)
 
-        logging.info("%s %s" % (before, after))
+        LOGGER.debug("%s %s" % (before, after))
         return before != after
 
     @classmethod
@@ -708,7 +768,7 @@ def _query_document_args(xml_adapter, filter_by_issue=False, aop_version=False):
     if not any(_params.values()):
         # nenhum destes, então procurar pelo início do body
         if not xml_adapter.partial_body:
-            logging.exception(e)
+            LOGGER.exception(e)
             raise exceptions.NotEnoughParametersToGetDocumentRecordError(
                 _("No attribute to use for disambiguations {} {} {}").format(
                     _params, type(e), e,
@@ -724,6 +784,6 @@ def _query_document_args(xml_adapter, filter_by_issue=False, aop_version=False):
             for k, v in xml_adapter.pages.items():
                 _params[k] = v
     params = _set_isnull_parameters(_params)
-    logging.info(dict(filter_by_issue=filter_by_issue, aop_version=aop_version))
-    logging.info(params)
+    LOGGER.debug(dict(filter_by_issue=filter_by_issue, aop_version=aop_version))
+    LOGGER.debug(params)
     return params

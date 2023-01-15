@@ -24,7 +24,7 @@ def request_pid_for_new_website_docs(
     # FIXME core pid provider uri
     xml_register = XMLArticleRegister(
         files_storage_app_name,
-        # 'http://0.0.0.0:8000/pid_provider/',
+        'http://192.168.1.19:8000/pid_provider/',
     )
 
     output_file = pids_file_path + ".requests.out"

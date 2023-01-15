@@ -13,4 +13,5 @@ router.register('xml', XMLViewSet, basename='xml')
 app_name = 'xmlsps'
 urlpatterns = [
     re_path('^', include(router.urls)),
+    re_path(r'^pid_provider/(?P<filename>[^/]+)$', PidProviderViewSet)
 ]

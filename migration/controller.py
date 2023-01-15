@@ -443,10 +443,10 @@ class MigrationConfigurationController:
         # FIXME
         self.xml_register = XMLArticleRegister(
             'website',
-            'http://0.0.0.0:8000/pid_provider/',
+            'http://192.168.1.19:8000/pid_provider/',
         )
 
-    def request_v3(self, xml_with_pre, name, user):
+    def register_xml(self, xml_with_pre, name, user):
         # TODO
         # {"v3": '', "xml_file_versions": ""}
         return self.xml_register.register(xml_with_pre, name, user)
@@ -538,6 +538,7 @@ def migrate_journals(
 
         for scielo_issn, journal_data in classic_ws.get_records_by_source_path("title", source_file_path):
             try:
+                logging.info((scielo_issn, journal_data))
                 action = "import"
                 journal_migration = import_data_from_title_database(
                     user, collection_acron,
@@ -573,6 +574,7 @@ def import_data_from_title_database(user, collection_acron,
         classic_website_journal = classic_ws.Journal(journal_data)
 
         year, month, day = parse_yyyymmdd(classic_website_journal.first_year)
+        logging.info((year, month, day))
         # cria ou obtém official_journal
         official_journal = OfficialJournal.get_or_create(
             title=classic_website_journal.title,
@@ -581,6 +583,7 @@ def import_data_from_title_database(user, collection_acron,
             print_issn=classic_website_journal.print_issn,
             creator=user,
         )
+        logging.info(official_journal)
         official_journal.update(
             user,
             short_title=classic_website_journal.title_iso,
@@ -591,6 +594,7 @@ def import_data_from_title_database(user, collection_acron,
         )
 
         # cria ou obtém scielo_journal
+        logging.info((collection_acron, scielo_issn))
         scielo_journal = SciELOJournal.get_or_create(
             collection_acron, scielo_issn, user)
         scielo_journal.update(
@@ -1092,18 +1096,14 @@ def migrate_document(
     # instancia Document com registros de title, issue e artigo
     pid = document.pid
 
-    scielo_issue = SciELOIssue.get(
-        issue_pid,
-        document.issue.issue_label,
-    )
+    scielo_issue = SciELOIssue.get(issue_pid, document.issue.issue_label)
     scielo_document = SciELODocument.get_or_create(
         scielo_issue,
         pid,
         document.filename_without_extension,
         user,
     )
-    issue_files_controller = IssueFilesController(
-        scielo_document.scielo_issue)
+    issue_files_controller = IssueFilesController(scielo_document.scielo_issue)
 
     scielo_document_update(
         document,
@@ -1118,7 +1118,7 @@ def migrate_document(
         scielo_document.get_xml_with_pre_with_remote_assets(
             issue_files_controller.uris))
     if xml_pre_with_remote_assets:
-        response = mcc.request_v3(
+        response = mcc.register_xml(
             xml_with_pre=xml_pre_with_remote_assets['xml_with_pre'],
             name=xml_pre_with_remote_assets['name'],
             user=user)
