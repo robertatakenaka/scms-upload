@@ -9,7 +9,11 @@ from django.core.files import File
 from django.core.files.storage import FileSystemStorage
 from rest_framework.exceptions import ParseError
 from rest_framework.parsers import FileUploadParser
-from rest_framework.authentication import SessionAuthentication, BasicAuthentication
+from rest_framework.authentication import (
+    SessionAuthentication, BasicAuthentication,
+    TokenAuthentication,
+)
+from django.contrib.auth import authenticate, login
 from rest_framework.permissions import IsAuthenticated
 from rest_framework import status
 from rest_framework import viewsets
@@ -95,8 +99,12 @@ class PidProviderViewSet(
 
     parser_classes = (FileUploadParser, )
     http_method_names = ['post', 'get', 'head']
-    # authentication_classes = [SessionAuthentication, BasicAuthentication]
-    authentication_classes = [BasicAuthentication]
+
+    authentication_classes = [
+        # SessionAuthentication,
+        BasicAuthentication,
+        # TokenAuthentication,
+    ]
     # permission_classes = [IsAuthenticated]
 
     serializer_class = serializers.XMLArticleSerializer
@@ -107,6 +115,21 @@ class PidProviderViewSet(
         if not hasattr(self, '_pid_provider') or not self._pid_provider:
             self._pid_provider = controller.PidProvider('pid-provider')
         return self._pid_provider
+
+    def _authenticate(self, request):
+        try:
+            username = request.data['username']
+            password = request.data['password']
+        except:
+            pass
+        try:
+            logging.info(request.headers)
+        except:
+            pass
+
+        user = authenticate(request, username=username, password=password)
+        if user is not None:
+            login(request, user)
 
     def list(self, request, pk=None):
         """
@@ -162,6 +185,7 @@ class PidProviderViewSet(
             list of dict (filename, xml_changed, registered or error)
         """
         try:
+            self._authenticate(request)
             logging.info(request.data)
             logging.info(request.FILES)
             if 'file' not in request.data:
@@ -174,7 +198,7 @@ class PidProviderViewSet(
             downloaded_file = fs.save(uploaded_file.name, uploaded_file)
             downloaded_file_path = fs.path(downloaded_file)
 
-            results = self.pid_provider.request_document_ids_for_xml_zip(
+            results = self.pid_provider.provide_pids_for_xml_zip(
                 zip_xml_file_path=downloaded_file_path,
                 user=request.user,
             )
@@ -223,9 +247,13 @@ class PidRequesterViewSet(
         ListModelMixin):  # handles GETs for many Companies
 
     http_method_names = ['get', 'head']
-    # authentication_classes = [SessionAuthentication, BasicAuthentication]
-    authentication_classes = [BasicAuthentication]
-    permission_classes = [IsAuthenticated]
+
+    authentication_classes = [
+        # SessionAuthentication,
+        BasicAuthentication,
+        # TokenAuthentication,
+    ]
+    # permission_classes = [IsAuthenticated]
 
     serializer_class = serializers.XMLArticleSerializer
     queryset = models.EncodedXMLArticle.objects.all()

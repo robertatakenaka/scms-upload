@@ -10,6 +10,7 @@ from wagtail.admin.edit_handlers import FieldPanel
 
 from core.models import CommonControlField
 from files_storage.models import MinioFile
+from .xml_sps_lib import get_xml_with_pre_from_uri
 from . import xml_sps_adapter
 from . import exceptions
 from . import v3_gen
@@ -253,6 +254,26 @@ class EncodedXMLArticle(CommonControlField):
             models.Index(fields=['z_partial_body']),
             models.Index(fields=['synchronized']),
         ]
+
+    @property
+    def article_in_issue(self):
+        try:
+            return self.xml_with_pre.article_in_issue
+        except exceptions.EncodedXMLArticleXMLWithPreError:
+            return None
+
+    @property
+    def xml_with_pre(self):
+        if not hasattr(self, '_xml_with_pre') or not self._xml_with_pre:
+            try:
+                self._xml_with_pre = get_xml_with_pre_from_uri(self.xml_uri)
+            except Exception as e:
+                raise exceptions.EncodedXMLArticleXMLWithPreError(
+                    _("Unable to get xml with pre (EncodedXMLArticle) {}: {} {}").format(
+                        self.xml_uri, type(e), e
+                    )
+                )
+        return self._xml_with_pre
 
     @property
     def data(self):

@@ -37,4 +37,5 @@ class XMLArticleSerializer(serializers.ModelSerializer):
             'journal',
             'issue',
             'is_aop',
+            'article_in_issue',
         )

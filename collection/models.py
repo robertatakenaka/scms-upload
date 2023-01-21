@@ -511,8 +511,8 @@ class XMLFile(FileWithLang):
             try:
                 self._xml_with_pre = get_xml_with_pre_from_uri(self.uri)
             except Exception as e:
-                raise exceptions.AddLangsToXMLFilesError(
-                    _("Unable to set main lang to xml {}: {} {}").format(
+                raise exceptions.XMLFileXMLWithPreError(
+                    _("Unable to get XML with pre (XMLFile) {}: {} {}").format(
                         self.uri, type(e), e
                     )
                 )

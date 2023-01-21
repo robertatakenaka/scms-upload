@@ -1,3 +1,11 @@
+class EncodedXMLArticleXMLWithPreError(Exception):
+    ...
+
+
+class GetAPITokenError(Exception):
+    ...
+
+
 class AddIssueError(Exception):
     ...
 

@@ -1,3 +1,6 @@
+class XMLFileXMLWithPreError(Exception):
+	...
+
 class GetClassicWebsiteConfigurationError(Exception):
     ...
 

@@ -59,7 +59,10 @@ class PidRequester:
     """
     def __init__(self, files_storage_name, api_uri=None, timeout=None):
         self.local_pid_provider = PidProvider(files_storage_name)
+        url = api_uri[:-1]
+        url = url[:url.rfind("/")]
         self.api_uri = api_uri
+        self.api_uri_token = f"{url}/api-token-auth/"
         self.timeout = timeout or 15
 
     def get_registration_demand(self, xml_with_pre):
@@ -128,6 +131,7 @@ class PidRequester:
             try:
                 api_response = self._api_provide_pids(
                     xml_with_pre, name, user)
+                logging.info(api_response)
             except Exception as e:
                 logging.exception(
                     _("Unable to do remote pid registration {} {} {}").format(
@@ -147,7 +151,6 @@ class PidRequester:
                     api_response["xml_uri"])
             return self.local_pid_provider.provide_pids(
                     xml_with_pre, name, user, synchronized=bool(api_response))
-            
         else:
             # não precisa fazer registro local, retorna os dados atuais
             return registered
@@ -172,10 +175,14 @@ class PidRequester:
            http://127.0.0.1:8000/pidv3/
         """
         try:
+            # token = self._get_token(user, timeout)
+
+            # logging.info(token)
             auth = HTTPBasicAuth(user.name, user.password)
             return requests.post(
                 self.api_uri,
                 files={"file": zip_xml_file_path},
+                # headers={'Authorization': f"Token {token['token']}"},
                 auth=auth,
                 timeout=timeout,
             )
@@ -184,6 +191,29 @@ class PidRequester:
             raise exceptions.APIPidProviderPostError(
                 _("Unable to request pid to central pid provider {} {} {}").format(
                     zip_xml_file_path, type(e), e,
+                )
+            )
+
+    def _get_token(self, user, timeout):
+        # TODO retry
+        """
+        curl -X POST -F 'username="adm"' -F 'password="adm"' \
+            127.0.0.1:8000/api-token-auth/
+        """
+        try:
+            auth = HTTPBasicAuth(user.name, user.password)
+            logging.info(self.api_uri_token)
+            return requests.post(
+                self.api_uri_token,
+                data={'username': user.name, "password": user.password},
+                auth=auth,
+                timeout=timeout,
+            )
+        except Exception as e:
+            # TODO tratar as exceções
+            raise exceptions.GetAPITokenError(
+                _("Unable to get api token {} {} {}").format(
+                    user, type(e), e,
                 )
             )
 
