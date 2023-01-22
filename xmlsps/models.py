@@ -10,6 +10,8 @@ from wagtail.admin.edit_handlers import FieldPanel
 
 from core.models import CommonControlField
 from files_storage.models import MinioFile
+from files_storage.exceptions import PushPidProviderXMLError
+from collection.models import FileWithLang, XMLFile, FilesStorageManager
 from .xml_sps_lib import get_xml_with_pre_from_uri
 from . import xml_sps_adapter
 from . import exceptions
@@ -23,52 +25,6 @@ LOGGER_FMT = "%(asctime)s [%(levelname)s] %(name)s: %(message)s"
 def utcnow():
     return datetime.utcnow()
     # return datetime.utcnow().isoformat().replace("T", " ") + "Z"
-
-
-def are_same_version(latest, new_version):
-    return latest and new_version.finger_print == latest.finger_print
-
-
-class XMLArticle(CommonControlField):
-    # Para evitar inconsistência entre XML e registro
-    # deve-se usar o controller.XMLArticleRegister
-    # Os dados devem ser lidos e modificados no XML, não no registro
-    # As apps: migration, publication, upload devem usar
-    # controller.XMLArticleRegister para obter / atualizar o registro do XML
-    # As demais apps, que usem os dados do XML, podem criar modelos próprios
-    # derivados do XMLArticle e de seus atributos,
-    # por exemplo, pode haver uma app para normalizar afiliações, sponsors,
-    # fazer registro de DOI, etc, que usam XMLArticle
-    # combinado com os módulos de packtools.sps.models,
-    # para obter dados, mas não devem fazer alterações em seu conteúdo
-
-    encoded_xml = models.ForeignKey('EncodedXMLArticle', on_delete=models.SET_NULL, null=True, blank=True)
-
-    class Meta:
-        indexes = [
-            models.Index(fields=['encoded_xml']),
-        ]
-
-    @property
-    def xml_uri(self):
-        return encoded_xml.xml_uri
-
-    def get_xml_uri(cls, v3):
-        return EncodedXMLArticle.get_xml_uri(v3)
-
-    @classmethod
-    def register(cls, xml_with_pre, filename, user,
-                 register_pid_provider_xml, synchronized=None):
-        return EncodedXMLArticle.provide_pids(
-            xml_with_pre, filename, user,
-            register_pid_provider_xml, synchronized
-        )
-
-    @classmethod
-    def get_registered(cls, xml_with_pre):
-        registered = EncodedXMLArticle.get_registered(xml_with_pre)
-        if registered:
-            return registered.data
 
 
 class XMLJournal(models.Model):
@@ -181,7 +137,32 @@ class XMLIssue(models.Model):
         ]
 
 
-class EncodedXMLArticle(CommonControlField):
+class SyncFailure(CommonControlField):
+    message = models.CharField(
+        _('Message'), max_length=255, null=True, blank=True)
+    exception_type = models.CharField(
+        _('Exception Type'), max_length=255, null=True, blank=True)
+    exception_msg = models.CharField(
+        _('Exception Msg'), max_length=555, null=True, blank=True)
+    traceback = models.JSONField(null=True, blank=True)
+
+    @classmethod
+    def create(cls, message, e, creator):
+        exc_type, exc_value, exc_traceback = sys.exc_info()
+        obj = cls()
+        obj.message = message
+        obj.exception_msg = str(e)[:555]
+        obj.traceback = [
+            str(item)
+            for item in traceback.extract_tb(exc_traceback)
+        ]
+        obj.exception_type = str(type(e))
+        obj.creator = creator
+        obj.save()
+    return obj
+
+
+class XMLDocPid(CommonControlField):
     journal = models.ForeignKey('XMLJournal', on_delete=models.SET_NULL, null=True, blank=True)
     issue = models.ForeignKey('XMLIssue', on_delete=models.SET_NULL, null=True, blank=True)
     related_items = models.ManyToManyField('self', symmetrical=False, related_name='related_to')
@@ -207,6 +188,31 @@ class EncodedXMLArticle(CommonControlField):
     z_partial_body = models.CharField(_("partial_body"), max_length=64, null=True, blank=True)
 
     synchronized = models.BooleanField(null=True, blank=True, default=False)
+    sync_failure = models.ForeignKey(
+        SyncFailure, null=True, blank=True, on_delete=models.SET_NULL)
+
+    class Meta:
+        indexes = [
+            models.Index(fields=['journal']),
+            models.Index(fields=['issue']),
+            models.Index(fields=['v3']),
+            models.Index(fields=['v2']),
+            models.Index(fields=['aop_pid']),
+            models.Index(fields=['fpage']),
+            models.Index(fields=['fpage_seq']),
+            models.Index(fields=['lpage']),
+            models.Index(fields=['article_publication_date']),
+            models.Index(fields=['main_toc_section']),
+            models.Index(fields=['z_elocation_id']),
+            models.Index(fields=['main_doi']),
+            models.Index(fields=['z_article_titles_texts']),
+            models.Index(fields=['z_surnames']),
+            models.Index(fields=['z_collab']),
+            models.Index(fields=['z_links']),
+            models.Index(fields=['z_partial_body']),
+            models.Index(fields=['synchronized']),
+            models.Index(fields=['sync_failure']),
+        ]
 
     # ForeignKey
     # contributors
@@ -233,33 +239,20 @@ class EncodedXMLArticle(CommonControlField):
     def __str__(self):
         return str(self.data)
 
-    class Meta:
-        indexes = [
-            models.Index(fields=['journal']),
-            models.Index(fields=['issue']),
-            models.Index(fields=['v3']),
-            models.Index(fields=['v2']),
-            models.Index(fields=['aop_pid']),
-            models.Index(fields=['fpage']),
-            models.Index(fields=['fpage_seq']),
-            models.Index(fields=['lpage']),
-            models.Index(fields=['article_publication_date']),
-            models.Index(fields=['main_toc_section']),
-            models.Index(fields=['z_elocation_id']),
-            models.Index(fields=['main_doi']),
-            models.Index(fields=['z_article_titles_texts']),
-            models.Index(fields=['z_surnames']),
-            models.Index(fields=['z_collab']),
-            models.Index(fields=['z_links']),
-            models.Index(fields=['z_partial_body']),
-            models.Index(fields=['synchronized']),
-        ]
+    @classmethod
+    def unsynchronized(cls):
+        """
+        Identifica no pid provider local os registros que não
+        estão sincronizados com o pid provider remoto (central) e
+        faz a sincronização, registrando o XML local no pid provider remoto
+        """
+        return cls.objects.filter(synchronized=False).iterator()
 
     @property
     def article_in_issue(self):
         try:
             return self.xml_with_pre.article_in_issue
-        except exceptions.EncodedXMLArticleXMLWithPreError:
+        except exceptions.XMLDocPidXMLWithPreError:
             return None
 
     @property
@@ -268,8 +261,8 @@ class EncodedXMLArticle(CommonControlField):
             try:
                 self._xml_with_pre = get_xml_with_pre_from_uri(self.xml_uri)
             except Exception as e:
-                raise exceptions.EncodedXMLArticleXMLWithPreError(
-                    _("Unable to get xml with pre (EncodedXMLArticle) {}: {} {}").format(
+                raise exceptions.XMLDocPidXMLWithPreError(
+                    _("Unable to get xml with pre (XMLDocPid) {}: {} {}").format(
                         self.xml_uri, type(e), e
                     )
                 )
@@ -325,8 +318,8 @@ class EncodedXMLArticle(CommonControlField):
             return item.xml_uri
 
     @classmethod
-    def provide_pids(cls, xml_with_pre, filename, user,
-                     register_pid_provider_xml, synchronized=None):
+    def register(cls, xml_with_pre, filename, user,
+                 register_pid_provider_xml, synchronized=None):
         """
         Request PID v3
 
@@ -339,15 +332,17 @@ class EncodedXMLArticle(CommonControlField):
         Returns
         -------
             dict or None
-                {"registered": XMLArticle, "pids_updated": boolean}
+                {"registered": XMLArticle.data, "xml_changed": boolean,
+                 "error": str(ForbiddenXMLDocPidRegistrationError)}
         Raises
         ------
-        exceptions.RequestDocumentIDsError
-        exceptions.ForbiddenPidRequestError
+        exceptions.XMLDocPidRegisterError
+        exceptions.ForbiddenXMLDocPidRegistrationError
+        PushPidProviderXMLError
 
         """
         try:
-            LOGGER.debug("provide_pids for {}".format(filename))
+            LOGGER.debug("register for {}".format(filename))
 
             # adaptador do xml with pre
             xml_adapter = xml_sps_adapter.XMLAdapter(xml_with_pre)
@@ -359,7 +354,7 @@ class EncodedXMLArticle(CommonControlField):
                 # levanta exceção se está requisitando pid para um XML contendo
                 # dados de AOP, mas artigo já foi publicado em fascículo
                 LOGGER.exception(e)
-                raise exceptions.ForbiddenPidRequestError(
+                raise exceptions.ForbiddenXMLDocPidRegistrationError(
                     _("The XML content is an ahead of print version "
                       "but the document {} is already published in an issue"
                       ).format(registered)
@@ -389,13 +384,15 @@ class EncodedXMLArticle(CommonControlField):
                 registered.set_synchronized(synchronized, user)
                 return {"registered": registered.data, "xml_changed": xml_changed}
 
-        except exceptions.ForbiddenPidRequestError as e:
+        except PushPidProviderXMLError as e:
+            raise e
+        except exceptions.ForbiddenXMLDocPidRegistrationError as e:
             LOGGER.exception(e)
             return {"error": str(e)}
 
         except Exception as e:
             LOGGER.exception(e)
-            raise exceptions.RequestDocumentIDsError(
+            raise exceptions.XMLDocPidRegisterError(
                 _("Unable to request document IDs for {} {} {}").format(
                     filename, type(e), str(e))
             )
@@ -407,17 +404,31 @@ class EncodedXMLArticle(CommonControlField):
         self.save()
 
     @classmethod
-    def is_registered_and_equal(cls, xml_with_pre):
+    def get_registration_demand(cls, xml_with_pre):
+        """
+        Verifica se há necessidade de registrar local e/ou remotamente
+        """
+        do_remote_registration = True
+        do_local_registration = True
+
         xml_adapter = xml_sps_adapter.XMLAdapter(xml_with_pre)
         registered = cls._query_document(xml_adapter)
+        equal = False
         if registered:
             equal = bool(
                 registered.latest_version and
                 registered.latest_version.finger_print == xml_with_pre.finger_print
             )
-            return registered.data, equal
-        else:
-            return None, False
+            if equal:
+                # skip local registration
+                do_local_registration = False
+                do_remote_registration = not registered.synchronized
+
+        return dict(
+            registered=registered.data,
+            do_local_registration=do_local_registration,
+            do_remote_registration=do_remote_registration,
+        )
 
     @classmethod
     def get_registered(cls, xml_with_pre):
@@ -430,7 +441,7 @@ class EncodedXMLArticle(CommonControlField):
 
         Returns
         -------
-            None or XMLArticle
+            None or XMLDocPid.data (dict)
 
         Raises
         ------

@@ -41,7 +41,7 @@ class XMLViewSet(
     # permission_classes = [IsAuthenticated]
 
     serializer_class = serializers.XMLArticleSerializer
-    queryset = models.EncodedXMLArticle.objects.all()
+    queryset = models.XMLDocPid.objects.all()
 
     def list(self, request, pk=None):
         from_date = request.query_params.get('from_date')
@@ -72,17 +72,17 @@ class XMLViewSet(
                 q = item
 
         if q:
-            queryset = models.EncodedXMLArticle.objects.filter(q, **params).iterator()
+            queryset = models.XMLDocPid.objects.filter(q, **params).iterator()
         elif params:
-            queryset = models.EncodedXMLArticle.objects.filter(**params).iterator()
+            queryset = models.XMLDocPid.objects.filter(**params).iterator()
         else:
-            queryset = models.EncodedXMLArticle.objects.iterator()
+            queryset = models.XMLDocPid.objects.iterator()
         serializer = serializers.XMLArticleSerializer(queryset, many=True)
         return Response(serializer.data)
 
     def retrieve(self, request, pk=None):
         v3 = pk
-        xml_uri = models.EncodedXMLArticle.get_xml_uri(v3=v3)
+        xml_uri = models.XMLDocPid.get_xml_uri(v3=v3)
         if xml_uri:
             content = {'v3': v3, "xml_uri": xml_uri}
             return Response(content, status=status.HTTP_200_OK)
@@ -108,7 +108,7 @@ class PidProviderViewSet(
     # permission_classes = [IsAuthenticated]
 
     serializer_class = serializers.XMLArticleSerializer
-    queryset = models.EncodedXMLArticle.objects.all()
+    queryset = models.XMLDocPid.objects.all()
 
     @property
     def pid_provider(self):
@@ -167,11 +167,11 @@ class PidProviderViewSet(
                 q = item
 
         if q:
-            queryset = models.EncodedXMLArticle.objects.filter(q, **params).iterator()
+            queryset = models.XMLDocPid.objects.filter(q, **params).iterator()
         elif params:
-            queryset = models.EncodedXMLArticle.objects.filter(**params).iterator()
+            queryset = models.XMLDocPid.objects.filter(**params).iterator()
         else:
-            queryset = models.EncodedXMLArticle.objects.iterator()
+            queryset = models.XMLDocPid.objects.iterator()
         serializer = serializers.XMLArticleSerializer(queryset, many=True)
         return Response(serializer.data)
 
@@ -256,19 +256,19 @@ class PidRequesterViewSet(
     # permission_classes = [IsAuthenticated]
 
     serializer_class = serializers.XMLArticleSerializer
-    queryset = models.EncodedXMLArticle.objects.all()
+    queryset = models.XMLDocPid.objects.all()
 
     def list(self, request, pk=None):
         """
         List the records which synchronized = false
         """
-        queryset = models.EncodedXMLArticle.objects.filter(synchronized=False)
+        queryset = models.XMLDocPid.objects.filter(synchronized=False)
         serializer = serializers.XMLArticleSerializer(queryset, many=True)
         return Response(serializer.data)
 
     # def retrieve(self, request, pk=None):
     #     v3 = pk
-    #     xml_uri = models.EncodedXMLArticle.get_xml_uri(v3=v3)
+    #     xml_uri = models.XMLDocPid.get_xml_uri(v3=v3)
     #     if xml_uri:
     #         content = {'v3': v3, "xml_uri": xml_uri}
     #         return Response(content, status=status.HTTP_200_OK)

@@ -36,7 +36,7 @@ class FilesStorageManager:
         self.config = Configuration.get_or_create(name=files_storage_name)
         self.files_storage = get_files_storage(self.config)
 
-    def register_pid_provider_xml(self, versions, filename, content, creator):
+    def push_pid_provider_xml(self, versions, filename, content, creator):
         try:
             finger_print = generate_finger_print(content)
             if versions and versions.latest_version and finger_print == versions.latest_version.finger_print:
@@ -53,32 +53,33 @@ class FilesStorageManager:
             )
             logging.info(uri)
             versions.add_version(
-                MinioFile.create(creator, uri, finger_print),
+                MinioFile.create(creator, uri, finger_print, filename),
             )
         except Exception as e:
-            raise exceptions.RegisterPidProviderXMLError(
+            raise exceptions.PushPidProviderXMLError(
                 _("Unable to register pid provider XML {} {} {}").format(
                     filename, type(e), e
                 )
             )
 
-    def push_file(self, versions, source_filename, subdirs, preserve_name, creator):
+    def push_file(self, file, source_filename, subdirs, preserve_name, creator):
         try:
             with open(source_filename, "r") as fp:
                 finger_print = generate_finger_print(fp.read())
 
-            if versions and versions.latest_version and finger_print == versions.latest_version.finger_print:
+            if file.remote_file and finger_print == file.remote_file.finger_print:
                 return
+
+            basename = os.path.basename(source_filename)
 
             response = self.files_storage.register(
                 source_filename,
                 subdirs=os.path.join(self.config.bucket_app_subdir, subdirs),
                 preserve_name=preserve_name,
             )
-            versions.add_version(
-                MinioFile.create(creator, response['uri'], finger_print)
-            )
-            versions.save()
+            file.remote_file = MinioFile.create(
+                creator, response['uri'], finger_print, basename)
+            file.save()
             return response
         except Exception as e:
             raise exceptions.PushFileError(
@@ -87,10 +88,10 @@ class FilesStorageManager:
                 )
             )
 
-    def push_xml_content(self, versions, filename, subdirs, content, creator):
+    def push_xml_content(self, file, filename, subdirs, content, creator):
         try:
             finger_print = generate_finger_print(content)
-            if versions and versions.latest_version and finger_print == versions.latest_version.finger_print:
+            if file.remote_file and finger_print == file.remote_file.finger_print:
                 return
 
             name, extension = os.path.splitext(filename)
@@ -103,10 +104,9 @@ class FilesStorageManager:
                 mimetype=mimetype,
                 object_name=f"{self.config.bucket_app_subdir}/{object_name}",
             )
-            versions.add_version(
-                MinioFile.create(creator, uri, filename, finger_print)
-            )
-            versions.save()
+            file.remote_file = MinioFile.create(
+                creator, uri, finger_print, filename)
+            file.save()
         except Exception as e:
             raise exceptions.PutXMLContentError(
                 _("Unable to push file {} {} {} {}").format(

@@ -28,7 +28,7 @@ class XMLArticleSerializer(serializers.ModelSerializer):
     issue = XMLIssueSerializer()
 
     class Meta:
-        model = models.EncodedXMLArticle
+        model = models.XMLDocPid
         fields = (
             'xml_uri',
             'v2', 'aop_pid', 'v3',

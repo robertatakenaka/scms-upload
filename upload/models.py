@@ -9,7 +9,7 @@ from wagtail.admin.edit_handlers import FieldPanel, MultiFieldPanel
 from article.models import Article
 from core.models import CommonControlField
 from issue.models import Issue
-
+from files_storage.models import MinioFile
 from . import choices
 from .forms import UploadPackageForm, ValidationResultForm
 from .permission_helper import ACCESS_ALL_PACKAGES, ASSIGN_PACKAGE, ANALYSE_VALIDATION_ERROR_RESOLUTION, FINISH_DEPOSIT, SEND_VALIDATION_ERROR_RESOLUTION
@@ -17,6 +17,36 @@ from .utils import file_utils
 
 
 User = get_user_model()
+
+
+class Event(models.Model):
+    date = models.DateField(_('Date'), null=True, blank=True, auto_now=True)
+    user = models.ForeignKey(User, blank=True, null=True, on_delete=models.SET_NULL)
+    event = models.CharField(_("Event"), max_length=255, null=True, blank=True)
+    status = models.CharField(_('Status'), max_length=32, choices=choices.PACKAGE_STATUS, default=choices.PS_ENQUEUED_FOR_VALIDATION)
+
+    class Meta:
+
+        indexes = [
+            models.Index(fields=['date']),
+            models.Index(fields=['user']),
+            models.Index(fields=['event']),
+            models.Index(fields=['status']),
+        ]
+
+
+class Assignee(models.Model):
+    date = models.DateField(_('Date'), null=True, blank=True, auto_now=True)
+    user = models.ForeignKey(User, blank=True, null=True, on_delete=models.SET_NULL)
+    task = models.CharField(_("Task"), max_length=255, null=True, blank=True)
+
+    class Meta:
+
+        indexes = [
+            models.Index(fields=['date']),
+            models.Index(fields=['user']),
+            models.Index(fields=['task']),
+        ]
 
 
 class Package(CommonControlField):
@@ -69,6 +99,70 @@ class Package(CommonControlField):
             (ACCESS_ALL_PACKAGES, _("Can access all packages from all users")),
             (ASSIGN_PACKAGE, _("Can assign package")),
         )
+
+
+class ArticlePkg(CommonControlField):
+    received_zip_file = models.ForeignKey(MinioFile, _('Received Zip File'), null=False, blank=False, related_name='received_zip_file')
+    optimized_zip_file = models.ForeignKey(MinioFile, _('Optimized Zip File'), null=False, blank=False, related_name='optimized_zip_file')
+    category = models.CharField(_('Category'), max_length=32, choices=choices.PACKAGE_CATEGORY, null=False, blank=False)
+    assignee_hist = models.ManyToManyField(User)
+    status_hist = models.ManyToManyField(Event)
+    v3 = models.CharField(_('PID v3'), max_length=23, null=True, blank=True)
+
+    @property
+    def signature(self):
+        return received_zip_file.remote_file.finger_print
+
+    class Meta:
+
+        indexes = [
+            models.Index(fields=['v3']),
+            models.Index(fields=['category']),
+            models.Index(fields=['assignee_hist']),
+            models.Index(fields=['status_hist']),
+        ]
+
+    @classmethod
+    def check_ingress_permission(cls, v3):
+        latest = ArticlePkg.objects.filter(v3=registered['v3']).latest("updated")
+        if latest:
+            latest_event = latest.status_hist.latest("updated")
+            # TODO
+            if latest_event.status in ('ERRATA_REQUIRED', 'UPDATE_REQUIRED'):
+                return True
+            return False
+        return True
+
+
+class Ingress(CommonControlField):
+    v3 = models.CharField(_('PID v3'), max_length=23, null=True, blank=True)
+    intents = models.ManyToManyField(ArticlePkg)
+    expiration_date = models.DateField(_('Expiration date'), null=True, blank=True)
+
+    class Meta:
+
+        indexes = [
+            models.Index(fields=['v3']),
+            models.Index(fields=['intents']),
+            models.Index(fields=['expiration_date']),
+        ]
+
+    @classmethod
+    def start(cls, v3, creator=None, days_to_expiration=30):
+        obj = cls()
+        obj.v3 = v3
+        obj.creator = creator
+        obj.expiration_date = date.today() + timedelta(days=days_to_expiration)
+        obj.save()
+        return obj
+
+    @classmethod
+    def check_permission(cls, xml_article_register, zip_file_path):
+        # TODO
+        # verifica se está registrado
+        # verifica se está esperando atualização ou correção (errata)
+        # verifica se conteúdo é de atualização ou correção
+        pass
 
 
 class QAPackage(Package):

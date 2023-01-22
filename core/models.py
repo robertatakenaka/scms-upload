@@ -12,6 +12,7 @@ from . import choices
 User = get_user_model()
 
 
+
 class CommonControlField(models.Model):
     """
     Class with common control fields.
@@ -336,3 +337,49 @@ class FlexibleDateFieldAdapter:
     @year.setter
     def year(self, value):
         self._year = int(value)
+
+
+class Language(CommonControlField):
+    """
+    Represent the list of states
+
+    Fields:
+        name
+        code2
+    """
+    name = models.CharField(_("Language Name"), blank=True, null=True, max_length=255)
+    code2 = models.CharField(_("Language code 2"), blank=True, null=True, max_length=3)
+
+    class Meta:
+        verbose_name = _("Language")
+        verbose_name_plural = _("Languages")
+
+    def __unicode__(self):
+        return u'%s %s' % (self.name, self.code2)
+
+    def __str__(self):
+        return u'%s %s' % (self.name, self.code2)
+
+    @classmethod
+    def get_or_create(cls, name=None, code2=None, creator=None):
+
+        if code2:
+            try:
+                return cls.objects.get(code2__icontains=code2)
+            except:
+                pass
+
+        if name:
+            try:
+                return cls.objects.get(name__icontains=name)
+            except:
+                pass
+
+        if name or code2:
+            obj = Language()
+            obj.name = name
+            obj.code2 = code2 or ''
+            obj.creator = creator or ''
+            obj.save()
+
+            return obj

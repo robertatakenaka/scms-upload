@@ -10,7 +10,7 @@ class AddSupplementaryMaterialFlagToAssetError(Exception):
     ...
 
 
-class DocumentMigrationSaveError(Exception):
+class MigratedDocumentError(Exception):
     ...
 
 
@@ -30,15 +30,15 @@ class GetOrCreateCrontabScheduleError(Exception):
     ...
 
 
-class GetOrCreateDocumentMigrationError(Exception):
+class GetOrCreateMigratedDocumentError(Exception):
     ...
 
 
-class GetOrCreateIssueMigrationError(Exception):
+class GetOrCreateMigratedIssueError(Exception):
     ...
 
 
-class GetOrCreateJournalMigrationError(Exception):
+class GetOrCreateMigratedJournalError(Exception):
     ...
 
 
@@ -46,7 +46,7 @@ class GetSciELOIssueError(Exception):
     ...
 
 
-class IssueFilesMigrationSaveError(Exception):
+class IssueFilesMigrationError(Exception):
     ...
 
 
@@ -54,9 +54,12 @@ class IssueFilesStoreError(Exception):
     ...
 
 
-class IssueMigrationSaveError(Exception):
+class IssueMigrationError(Exception):
     ...
 
+
+class JournalMigrationError(Exception):
+    ...
 
 class JournalMigrationSaveError(Exception):
     ...
@@ -83,4 +86,4 @@ class SetOfficialIssueToSciELOIssueError(Exception):
 
 
 class GetOrCreateOfficialIssueError(Exception):
-	...
+    ...

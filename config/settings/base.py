@@ -398,3 +398,9 @@ FILE_UPLOAD_HANDLERS = [
     "django.core.files.uploadhandler.MemoryFileUploadHandler",
     "django.core.files.uploadhandler.TemporaryFileUploadHandler",
  ]
+
+# PID PROVIDER
+API_PID_PROVIDER_URI = env.str(
+    "API_PID_PROVIDER_URI", "https://192.168.1.19/pid_provider/")
+API_PID_PROVIDER_TOKEN_URI = env.str(
+    "API_PID_PROVIDER_TOKEN_URI", "https://192.168.1.19/api-token-auth/")

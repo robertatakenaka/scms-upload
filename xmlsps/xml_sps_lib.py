@@ -4,7 +4,6 @@ import logging
 import os
 from zipfile import ZipFile, BadZipFile
 from shutil import copyfile
-from tempfile import mkdtemp
 
 from django.utils.translation import gettext as _
 import requests
@@ -55,20 +54,20 @@ def get_xml_items(xml_sps_file_path, filenames=None):
     dict
     """
     name, ext = os.path.splitext(xml_sps_file_path)
-    try:
-        if ext == ".zip":
-            return get_xml_items_from_zip_file(xml_sps_file_path, filenames)
-        if ext == ".xml":
-            xml = get_xml_from_xml_file(xml_sps_file_path)
-            item = os.path.basename(xml_sps_file_path)
-            return {"filename": item, "xml": xml}
-
-    except Exception as e:
-        LOGGER.exception(e)
-        raise GetXMLItemsError(
-            _("Unable to get xml items from {}: {} {}").format(
-                xml_sps_file_path, type(e), e)
-        )
+    if ext == ".zip":
+        return get_xml_items_from_zip_file(xml_sps_file_path, filenames)
+    if ext == ".xml":
+        try:
+            with open(xml_sps_file_path) as fp:
+                xml = get_xml_with_pre(fp.read())
+                item = os.path.basename(xml_sps_file_path)
+                return {"filename": item, "xml": xml}
+        except Exception as e:
+            LOGGER.exception(e)
+            raise GetXMLItemsError(
+                _("Unable to get xml items from {}: {} {}").format(
+                    xml_sps_file_path, type(e), e)
+            )
 
 
 def get_xml_items_from_zip_file(xml_sps_file_path, filenames=None):

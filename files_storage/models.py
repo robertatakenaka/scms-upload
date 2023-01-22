@@ -11,6 +11,7 @@ from . import exceptions
 
 
 class MinioFile(CommonControlField):
+    basename = models.URLField(_('Basename'), max_length=255, null=True, blank=True)
     uri = models.URLField(_('URI'), max_length=255, null=True, blank=True)
     finger_print = models.CharField('Finger print', max_length=64, null=True, blank=True)
 
@@ -18,11 +19,27 @@ class MinioFile(CommonControlField):
         return f"{self.uri} {self.created}"
 
     @classmethod
-    def create(cls, creator, uri, finger_print=None):
+    def get_or_create(cls, creator, uri, finger_print=None, basename=None):
+        try:
+            if finger_print:
+                return cls.objects.get(finger_print=finger_print)
+            else:
+                return cls.create(creator, uri, finger_print, basename)
+        except cls.DoesNotExist:
+            return cls.create(creator, uri, finger_print, basename)
+        except Exception as e:
+            raise exceptions.MinioFileCreateError(
+                "Unable to create file: %s %s %s" %
+                (type(e), e, obj)
+            )
+
+    @classmethod
+    def create(cls, creator, uri, finger_print=None, basename=None):
         try:
             obj = cls()
             obj.creator = creator
             obj.uri = uri
+            obj.basename = basename
             obj.finger_print = finger_print
             obj.save()
             return obj
@@ -35,6 +52,7 @@ class MinioFile(CommonControlField):
     class Meta:
 
         indexes = [
+            models.Index(fields=['basename']),
             models.Index(fields=['creator']),
             models.Index(fields=['created']),
             models.Index(fields=['finger_print']),

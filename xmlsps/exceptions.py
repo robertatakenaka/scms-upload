@@ -1,4 +1,4 @@
-class EncodedXMLArticleXMLWithPreError(Exception):
+class XMLDocPidXMLWithPreError(Exception):
     ...
 
 
@@ -22,15 +22,11 @@ class ForbiddenUpdatingAOPVersionOfArticlePublishedInAnIssueError(Exception):
     ...
 
 
-class GetRegisteredXMLError(Exception):
-    ...
-
-
 class GetXMLFromURIError(Exception):
     ...
 
 
-class ForbiddenPidRequestError(Exception):
+class ForbiddenXMLDocPidRegistrationError(Exception):
     ...
 
 
@@ -46,23 +42,19 @@ class RegisteredXMLDoesNotExistError(Exception):
     ...
 
 
-class RequestDocumentIDsError(Exception):
+class RegisterXMLError(Exception):
     ...
 
 
-class RequestDocumentIDsForXMLUriError(Exception):
+class RegisterXMLForUriError(Exception):
     ...
 
 
-class RequestDocumentIDsForXMLZipFileError(Exception):
+class RegisterXMLForZipFileError(Exception):
     ...
 
 
 class SavingError(Exception):
-    ...
-
-
-class RequestDocumentIDsForXMLPreError(Exception):
     ...
 
 
@@ -74,11 +66,11 @@ class GetRegisteredError(Exception):
     ...
 
 
-class GetRegisteredXMLUriError(Exception):
+class GetRegisteredForUriError(Exception):
     ...
 
 
-class GetRegisteredXMLZipError(Exception):
+class GetRegisteredForZipError(Exception):
     ...
 
 
@@ -89,3 +81,30 @@ class APIPidProviderPostError(Exception):
 class FindMatchError(Exception):
     ...
 
+
+class XMLDocPidRegisterError(Exception):
+    ...
+
+
+class PidProviderRegisterError(Exception):
+    ...
+
+
+class PidProviderRegisterZipError(Exception):
+    ...
+
+
+class PidProviderRegisterUriError(Exception):
+    ...
+
+
+class PidRequesterRegisterError(Exception):
+    ...
+
+
+class PidRequesterRegisterZipError(Exception):
+    ...
+
+
+class PidRequesterRegisterUriError(Exception):
+    ...

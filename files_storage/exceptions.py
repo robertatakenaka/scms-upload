@@ -10,7 +10,7 @@ class MinioFileCreateError(Exception):
     ...
 
 
-class RegisterPidProviderXMLError(Exception):
+class PushPidProviderXMLError(Exception):
     ...
 
 

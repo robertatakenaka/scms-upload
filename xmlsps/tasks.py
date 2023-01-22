@@ -7,7 +7,6 @@ from django.utils.translation import gettext as _
 from config import celery_app
 from libs.dsm.publication.documents import get_document
 from libs.dsm.publication.db import mk_connection, disconnect
-from .controller import XMLArticleRegister
 from publication.models import PublicationArticle
 from publication.choices import PUBLICATION_STATUS_PUBLISHED
 
@@ -21,25 +20,19 @@ def request_pid_for_new_website_docs(
     creator = User.objects.get(pk=user_id)
     documents = _get_new_website_xmls(pids_file_path, db_uri)
 
-    # FIXME core pid provider uri
-    xml_register = XMLArticleRegister(
-        files_storage_app_name,
-        'http://192.168.1.19:8000/pid_provider/',
-    )
-
     output_file = pids_file_path + ".requests.out"
     with open(output_file, "w") as fp:
         fp.write("")
 
     for doc in documents:
         try:
-            xml_register.register_for_xml_uri(
+            PublicationArticle.register_for_xml_uri(
                 doc['xml'], doc['v3'] + ".xml",
                 creator,
             )
             PublicationArticle.create_or_update(
                 doc['v3'], creator,
-                xml_uri=xml_register.get_xml_uri(doc['v3']),
+                xml_uri=PublicationArticle.get_xml_uri(doc['v3']),
                 status=PUBLICATION_STATUS_PUBLISHED
             )
         except KeyError:
