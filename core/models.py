@@ -1,13 +1,10 @@
-import os
-from datetime import datetime
-
 from django.db import models
 from django.contrib.auth import get_user_model
 from django.utils.translation import gettext as _
 from wagtail.core.fields import RichTextField
 from wagtail.admin.edit_handlers import FieldPanel
-from wagtail.snippets.models import register_snippet
 from . import choices
+
 
 User = get_user_model()
 
@@ -57,11 +54,58 @@ class CommonControlField(models.Model):
         abstract = True
 
 
+
+
+class Language(CommonControlField):
+    """
+    Represent the list of states
+
+    Fields:
+        name
+        code2
+    """
+    name = models.CharField(_("Language Name"), blank=True, null=True, max_length=255)
+    code2 = models.CharField(_("Language code 2"), blank=True, null=True, max_length=3)
+
+    class Meta:
+        verbose_name = _("Language")
+        verbose_name_plural = _("Languages")
+
+    def __unicode__(self):
+        return u'%s %s' % (self.name, self.code2)
+
+    def __str__(self):
+        return u'%s %s' % (self.name, self.code2)
+
+    @classmethod
+    def get_or_create(cls, name=None, code2=None, creator=None):
+
+        if code2:
+            try:
+                return cls.objects.get(code2__icontains=code2)
+            except:
+                pass
+
+        if name:
+            try:
+                return cls.objects.get(name__icontains=name)
+            except:
+                pass
+
+        if name or code2:
+            obj = Language()
+            obj.name = name
+            obj.code2 = code2 or ''
+            obj.creator = creator or ''
+            obj.save()
+            return obj
+
+
 class RichTextWithLang(models.Model):
     text = RichTextField(null=False, blank=False)
     language = models.CharField(_('Language'), max_length=2, choices=choices.LANGUAGE, null=False, blank=False)
 
-    panels=[
+    panels = [
         FieldPanel('text'),
         FieldPanel('language')
     ]
@@ -76,7 +120,7 @@ class TextWithLangAndValidity(models.Model):
     initial_date = models.DateField(null=True, blank=True)
     final_date = models.DateField(null=True, blank=True)
 
-    panels=[
+    panels = [
         FieldPanel('text'),
         FieldPanel('language'),
         FieldPanel('initial_date'),
@@ -91,7 +135,7 @@ class RichTextWithLangAndValidity(RichTextWithLang):
     initial_date = models.DateField(null=True, blank=True)
     final_date = models.DateField(null=True, blank=True)
 
-    panels=[
+    panels = [
         FieldPanel('text'),
         FieldPanel('language'),
         FieldPanel('initial_date'),
@@ -106,7 +150,7 @@ class TextWithLang(models.Model):
     text = models.CharField(_('Text'), max_length=255, null=False, blank=False)
     language = models.CharField(_('Language'), max_length=2, choices=choices.LANGUAGE, null=False, blank=False)
 
-    panels=[
+    panels = [
         FieldPanel('text'),
         FieldPanel('language')
     ]
