@@ -52,7 +52,7 @@ class Issue(CommonControlField, IssuePublicationDate):
             self.supplement or '',
         ))
 
-    official_journal = models.ForeignKey(OfficialJournal, on_delete=models.CASCADE)
+    official_journal = models.ForeignKey(OfficialJournal, on_delete=models.SET_NULL, null=True, blank=True)
     volume = models.CharField(_('Volume'), max_length=255, null=True, blank=True)
     number = models.CharField(_('Number'), max_length=255, null=True, blank=True)
     supplement = models.CharField(_('Supplement'), max_length=255, null=True, blank=True)

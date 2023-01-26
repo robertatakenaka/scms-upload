@@ -143,7 +143,7 @@ class NonOfficialJournalTitle(ClusterableModel, CommonControlField):
     def __str__(self):
         return u'%s' % (self.official_journal.title)
 
-    official_journal = models.ForeignKey('OfficialJournal', null=True, blank=True, related_name='OfficialJournal', on_delete=models.CASCADE)
+    official_journal = models.ForeignKey('OfficialJournal', null=True, blank=True, related_name='OfficialJournal', on_delete=models.SET_NULL)
 
     panels = [
         FieldPanel('official_journal'),
@@ -159,28 +159,31 @@ class NonOfficialTitle(Orderable):
 
 
 class JournalMission(ClusterableModel):
-    official_journal = models.ForeignKey('OfficialJournal', null=True, blank=True, related_name='JournalMission_OfficialJournal', on_delete=models.CASCADE)
+    official_journal = models.ForeignKey('OfficialJournal', null=True, blank=True, related_name='JournalMission_OfficialJournal', on_delete=models.SET_NULL)
 
-    panels=[
+    panels = [
         FieldPanel('official_journal'),
         InlinePanel('mission', label=_('Mission'), classname="collapsed")
     ]
 
 
 class FieldMission(Orderable, RichTextWithLang):
-    page = ParentalKey(JournalMission, on_delete=models.CASCADE, related_name='mission')
+    page = ParentalKey(JournalMission,
+                       on_delete=models.SET_NULL, null=True, blank=True,
+                       related_name='mission')
+
     def __unicode__(self):
         return u'%s %s' % (self.text, self.language)
 
     def __str__(self):
         return u'%s %s' % (self.text, self.language)
-        
+
 
 class SocialNetwork(models.Model):
     name = models.CharField(_('Name'), max_length=255, choices=choices.SOCIAL_NETWORK_NAMES, null=False, blank=False)
     url = models.URLField(_("URL"), max_length=255, null=True, blank=False)
 
-    panels=[
+    panels = [
         FieldPanel('name'),
         FieldPanel('url')
     ]
@@ -192,7 +195,7 @@ class SocialNetwork(models.Model):
 class Journal(ClusterableModel, SocialNetwork):
     short_title = models.CharField(_('Short Title'), max_length=100, null=True, blank=True)
     nlm_title = models.CharField(_('NLM Title'), max_length=256, null=True, blank=True)
-    official_journal = models.ForeignKey('OfficialJournal', null=True, blank=True, related_name='+', on_delete=models.CASCADE)
+    official_journal = models.ForeignKey('OfficialJournal', null=True, blank=True, related_name='+', on_delete=models.SET_NULL)
     logo = models.ForeignKey(
         'wagtailimages.Image',
         null=True,
@@ -200,7 +203,7 @@ class Journal(ClusterableModel, SocialNetwork):
         on_delete=models.SET_NULL,
         related_name='+'
     )
-    submission_online_url =  models.URLField(_("Submission online URL"), max_length=255, null=True, blank=True)
+    submission_online_url = models.URLField(_("Submission online URL"), max_length=255, null=True, blank=True)
 
     class Meta:
         indexes = [
@@ -254,25 +257,37 @@ class Journal(ClusterableModel, SocialNetwork):
 
 
 class Mission(Orderable, RichTextWithLang):
-    page = ParentalKey(Journal, on_delete=models.CASCADE, related_name='mission')
+    page = ParentalKey(Journal,
+                       on_delete=models.SET_NULL, null=True, blank=True,
+                       related_name='mission')
 
 
 class Owner(Orderable, InstitutionHistory):
-    page = ParentalKey(Journal, on_delete=models.CASCADE, related_name='owner')
+    page = ParentalKey(Journal,
+                       on_delete=models.SET_NULL, null=True, blank=True,
+                       related_name='owner')
 
 
 class EditorialManager(Orderable, InstitutionHistory):
-    page = ParentalKey(Journal, on_delete=models.CASCADE, related_name='editorialmanager')
+    page = ParentalKey(Journal,
+                       on_delete=models.SET_NULL, null=True, blank=True,
+                       related_name='editorialmanager')
 
 
 class Publisher(Orderable, InstitutionHistory):
-    page = ParentalKey(Journal, on_delete=models.CASCADE, related_name='publisher')
+    page = ParentalKey(Journal,
+                       on_delete=models.SET_NULL, null=True, blank=True,
+                       related_name='publisher')
 
 
 class Sponsor(Orderable, InstitutionHistory):
-    page = ParentalKey(Journal, on_delete=models.CASCADE, related_name='sponsor')
+    page = ParentalKey(Journal,
+                       on_delete=models.SET_NULL, null=True, blank=True,
+                       related_name='sponsor')
 
 
 class JournalSocialNetwork(Orderable, SocialNetwork):
-    page = ParentalKey(Journal, on_delete=models.CASCADE, related_name='journalsocialnetwork')
+    page = ParentalKey(Journal,
+                       on_delete=models.SET_NULL, null=True, blank=True,
+                       related_name='journalsocialnetwork')
 

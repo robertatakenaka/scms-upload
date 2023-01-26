@@ -47,10 +47,13 @@ class Researcher(ClusterableModel, CommonControlField):
 
 
 class FieldEmail(Orderable):
-    page = ParentalKey(Researcher, on_delete=models.CASCADE, related_name='page_email')
+    page = ParentalKey(Researcher,
+                       on_delete=models.SET_NULL, null=True, blank=True,
+                       related_name='page_email')
     email = models.EmailField(_('Email'), max_length=128, blank=True, null=True)
 
+
 class FieldAffiliation(Orderable, InstitutionHistory):
-    page = ParentalKey(Researcher, on_delete=models.CASCADE, related_name='affiliation')
-
-
+    page = ParentalKey(Researcher,
+                       on_delete=models.SET_NULL, null=True, blank=True,
+                       related_name='affiliation')

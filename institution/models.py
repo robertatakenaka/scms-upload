@@ -89,7 +89,7 @@ class Institution(CommonControlField, ClusterableModel):
 
 
 class InstitutionHistory(models.Model):
-    institution = models.ForeignKey('Institution', null=True, blank=True, related_name='+', on_delete=models.CASCADE)
+    institution = models.ForeignKey('Institution', null=True, blank=True, related_name='+', on_delete=models.SET_NULL)
     initial_date = models.DateField(_('Initial Date'), null=True, blank=True)
     final_date = models.DateField(_('Final Date'), null=True, blank=True)
 
