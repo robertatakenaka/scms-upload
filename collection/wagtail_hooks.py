@@ -10,11 +10,11 @@ from wagtail.contrib.modeladmin.options import (
     ModelAdminGroup,
     modeladmin_register,
 )
+from files_storage.wagtail_hooks import MinioConfigurationAdmin
 
 from .models import (
     Collection,
     NewWebSiteConfiguration,
-    FilesStorageConfiguration,
     ClassicWebsiteConfiguration,
 )
 
@@ -80,31 +80,7 @@ class NewWebSiteConfigurationModelAdmin(ModelAdmin):
     )
 
 
-class FilesStorageConfigurationModelAdmin(ModelAdmin):
-    model = FilesStorageConfiguration
-    menu_label = _('Files Storage Configuration')
-    menu_icon = 'doc-full'
-    menu_order = 200
-    exclude_from_explorer = False
-    inspect_view_enabled = False
 
-    create_view_class = CoreCreateView
-
-    list_display = (
-        'host',
-        'bucket_root',
-        'created',
-        'updated',
-        'updated_by',
-    )
-    list_filter = (
-        'host',
-        'bucket_root',
-    )
-    search_fields = (
-        'host',
-        'bucket_root',
-    )
 
 
 class ClassicWebsiteConfigurationModelAdmin(ModelAdmin):
@@ -132,9 +108,9 @@ class CollectionModelAdminGroup(ModelAdminGroup):
     menu_order = get_menu_order('collection')
     items = (
         CollectionModelAdmin,
-        NewWebSiteConfigurationModelAdmin,
-        FilesStorageConfigurationModelAdmin,
         ClassicWebsiteConfigurationModelAdmin,
+        NewWebSiteConfigurationModelAdmin,
+        MinioConfigurationAdmin,
     )
 
 
