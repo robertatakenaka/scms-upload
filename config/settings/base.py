@@ -124,7 +124,8 @@ LOCAL_APPS = [
     "researcher",
     # evitar problema de migração por enquanto
     # "upload",
-    "controlled_lists"
+    "controlled_lists",
+    "files_storage",
 ]
 
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
