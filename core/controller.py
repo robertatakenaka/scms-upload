@@ -1,7 +1,8 @@
 from dateutil.parser import parse
+from datetime import datetime
 
 
-def parse_yyyymmdd(date):
+def parse_yyyymmdd(YYYYMMDD):
     """
     Get year, month and day from date format which MM and DD can be 00
     """
@@ -18,11 +19,20 @@ def parse_yyyymmdd(date):
         _day = int(YYYYMMDD[6:])
         d = datetime(year, month, _day)
         day = _day
-
     except:
         pass
-
     return year, month, day
+
+
+def insert_hyphen_in_YYYYMMMDD(YYYYMMMDD):
+    year, month, day = parse_yyyymmdd(YYYYMMMDD)
+    try:
+        return datetime(year, month, day).isoformat()[:10]
+    except (TypeError, ValueError):
+        year = year and str(year).zfill(4)
+        month = month and str(month).zfill(2)
+        day = day and str(day).zfill(2)
+        return "-".join([item for item in (year, month, day) if item])
 
 
 def parse_months_names(months_names):
