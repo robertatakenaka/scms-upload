@@ -138,6 +138,145 @@ class XMLIssue(models.Model):
         ]
 
 
+class XMLArticle(CommonControlField):
+    xml_file = models.ForeignKey(XMLFile)
+
+    def __str__(self):
+        return f"{super()}"
+
+    def tostring(self):
+        return self.xml_with_pre.tostring()
+
+    @property
+    def uri(self):
+        if self.xml_file and self.xml_file.remote_file:
+            return self.xml_file.remote_file.uri
+
+    @property
+    def xml_with_pre(self):
+        if not hasattr(self, '_xml_with_pre') or not self._xml_with_pre:
+            try:
+                self._xml_with_pre = get_xml_with_pre_from_uri(self.uri)
+            except Exception as e:
+                raise exceptions.XMLFileXMLWithPreError(
+                    _("Unable to get XML with pre (XMLFile) {}: {} {}").format(
+                        self.uri, type(e), e
+                    )
+                )
+        return self._xml_with_pre
+
+    @property
+    def related_articles(self):
+        if not hasattr(self, '_related_articles') or not self._related_articles:
+            self._related_articles = self.xml_with_pre.related_items
+        return self._related_articles
+
+    @property
+    def supplementary_materials(self):
+        if not hasattr(self, '_supplementary_materials') or not self._supplementary_materials:
+            supplmats = SupplementaryMaterials(self.xml_with_pre.xmltree)
+            self._supplementary_materials = []
+            names = [item.name for item in suppl_mats.items]
+            for asset_file in self.assets_files:
+                if asset_file.name in names:
+                    asset_file.is_supplementary_material = True
+                    asset_file.save()
+                if asset_file.is_supplementary_material:
+                    self._supplementary_materials.append({
+                        "uri": asset_file.uri,
+                        "lang": self.lang,
+                        "ref_id": None,
+                        "filename": asset_file.name,
+                    })
+        return self._supplementary_materials
+
+    def add_assets(self, issue_assets_dict):
+        """
+        Atribui asset_files
+        """
+        try:
+            # obtém os assets do XML
+            article_assets = ArticleAssets(self.xml_with_pre.xmltree)
+            for asset_in_xml in article_assets.article_assets:
+                asset = issue_assets_dict.get(asset_in_xml.name)
+                if asset:
+                    # FIXME tratar asset_file nao encontrado
+                    self.assets_files.add(asset)
+            self.save()
+        except Exception as e:
+            raise exceptions.AddAssetFilesError(
+                _("Unable to add assets to public XML to {} {} {})").format(
+                    xml_file, type(e), e
+                ))
+
+    def get_xml_with_pre_with_remote_assets(self, issue_assets_uris):
+        # FIXME assets de artigo pode estar em qq outra pasta do periódico
+        # há casos em que os assets do artigo VoR está na pasta ahead
+        xml_with_pre = deepcopy(self.xml_with_pre)
+        article_assets = ArticleAssets(xml_with_pre.xmltree)
+        article_assets.replace_names(issue_assets_uris)
+        return {"xml_with_pre": xml_with_pre, "name": self.pkg_name}
+
+    def set_langs(self):
+        try:
+            article = ArticleRenditions(self.xml_with_pre.xmltree)
+            renditions = article.article_renditions
+            self.lang = renditions[0].language
+            for rendition in renditions:
+                self.langs.add(
+                    Language.get_or_create(code2=rendition.language)
+                )
+            self.save()
+        except Exception as e:
+            raise exceptions.AddLangsToXMLFilesError(
+                _("Unable to set main lang to xml {}: {} {}").format(
+                    self.uri, type(e), e
+                )
+            )
+
+    @property
+    def languages(self):
+        return [
+            {"lang": lang.code2 for lang in self.langs.iterator()}
+        ]
+
+    # FIXME
+    # @property
+    # def xml_files_with_lang(self):
+    #     if not hasattr(self, '_xml_files_with_lang') or not self._xml_files_with_lang:
+    #         self._xml_files_with_lang = {}
+    #         for xml_file in self.xml_files:
+    #             self._xml_files_with_lang[xml_file.lang] = xml_file
+    #     return self._xml_files_with_lang
+
+    # @property
+    # def text_langs(self):
+    #     if not hasattr(self, '_text_langs') or not self._text_langs:
+    #         self._text_langs = [
+    #             {"lang": lang}
+    #             for lang in self.xml_files_with_lang.keys()
+    #         ]
+    #     return self._text_langs
+
+    # @property
+    # def related_items(self):
+    #     if not hasattr(self, '_related_items') or not self._related_items:
+    #         items = []
+    #         for lang, xml_file in self.xml_files_with_lang.items():
+    #             items.extend(xml_file.related_articles)
+    #         self._related_items = items
+    #     return self._related_items
+
+    # @property
+    # def supplementary_materials(self):
+    #     if not hasattr(self, '_supplementary_materials') or not self._supplementary_materials:
+    #         items = []
+    #         for lang, xml_file in self.xml_files_with_lang.items():
+    #             items.extend(xml_file.supplementary_materials)
+    #         self._supplementary_materials = items
+    #     return self._supplementary_materials
+
+
 class SyncFailure(CommonControlField):
     message = models.CharField(
         _('Message'), max_length=255, null=True, blank=True)
