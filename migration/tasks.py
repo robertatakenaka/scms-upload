@@ -1,8 +1,12 @@
 from django.utils.translation import gettext_lazy as _
+from django.contrib.auth import get_user_model
 
 from config import celery_app
 
 from . import controller
+
+
+User = get_user_model()
 
 
 @celery_app.task(bind=True, name=_('Start'))
@@ -11,9 +15,9 @@ def start(
         user_id=None,
         ):
     try:
-        controller.start(self.request.user.id)
+        controller.start(self.request.user)
     except AttributeError:
-        controller.start(user_id=user_id or 1)
+        controller.start(User.objects.get(pk=user_id or 1))
 
 
 @celery_app.task(bind=True, name=_('Schedule journals and issues migrations'))
@@ -23,7 +27,8 @@ def task_schedule_journals_and_issues_migrations(
         collection_acron,
         force_update=False,
         ):
-    controller.schedule_journals_and_issues_migrations(collection_acron, user_id)
+    user = User.objects.get(pk=user_id or 1)
+    controller.schedule_journals_and_issues_migrations(collection_acron, user)
 
 
 @celery_app.task(bind=True, name=_('Migrate journals'))
@@ -33,8 +38,9 @@ def task_migrate_journals(
         collection_acron,
         force_update=False,
         ):
+    user = User.objects.get(pk=user_id or 1)
     controller.migrate_journals(
-        user_id,
+        user,
         collection_acron,
         force_update,
     )
@@ -47,8 +53,9 @@ def task_migrate_issues(
         collection_acron,
         force_update=False,
         ):
+    user = User.objects.get(pk=user_id or 1)
     controller.migrate_issues(
-        user_id,
+        user,
         collection_acron,
         force_update,
     )
@@ -63,8 +70,9 @@ def task_import_issues_files_and_migrate_documents(
         publication_year=None,
         force_update=False,
         ):
+    user = User.objects.get(pk=user_id or 1)
     controller.import_issues_files_and_migrate_documents(
-        user_id,
+        user,
         collection_acron,
         scielo_issn,
         publication_year,

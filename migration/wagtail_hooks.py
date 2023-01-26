@@ -86,8 +86,8 @@ class MigrationConfigurationModelAdmin(ModelAdmin):
 
 
 class JournalMigrationModelAdmin(ModelAdmin):
-    model = models.JournalMigration
-    menu_label = _('Journal Migration')
+    model = models.MigratedJournal
+    menu_label = _('Migrated Journal')
     menu_icon = 'doc-full'
     menu_order = 300
     add_to_settings_menu = False
@@ -98,26 +98,34 @@ class JournalMigrationModelAdmin(ModelAdmin):
     create_view_class = CoreCreateView
 
     list_display = (
-        'scielo_journal',
-        'status',
+        'title',
+        'scielo_issn',
+        'acron',
+        'collection',
         'isis_updated_date',
+        'updated',
+        'status',
     )
     list_filter = (
         'status',
+        'collection',
     )
     search_fields = (
-        'scielo_journal__acron',
+        'acron',
+        'title',
+        'scielo_issn',
     )
     inspect_view_fields = (
         'scielo_journal',
         'status',
         'isis_updated_date',
+        'updated',
         'data',
     )
 
 
 class IssueMigrationModelAdmin(ModelAdmin):
-    model = models.IssueMigration
+    model = models.MigratedIssue
     menu_label = _('Issue Migration')
     menu_icon = 'doc-full'
     menu_order = 300
@@ -129,29 +137,34 @@ class IssueMigrationModelAdmin(ModelAdmin):
     create_view_class = CoreCreateView
 
     list_display = (
-        'scielo_issue',
-        'status',
+        'official_issue',
         'isis_updated_date',
+        'updated',
+        'status',
+        'files_status',
     )
     list_filter = (
         'status',
+        'files_status',
     )
     search_fields = (
-        'scielo_issue__scielo_journal__title',
-        'scielo_issue__scielo_journal__acron',
-        'scielo_issue__publication_date__year',
-        'scielo_issue__issue_folder',
+        'migrated_journal__title',
+        'migrated_journal__acron',
+        'official_issue__publication_date__year',
+        'issue_folder',
     )
     inspect_view_fields = (
-        'scielo_issue',
-        'status',
+        'official_issue',
         'isis_updated_date',
+        'updated',
+        'status',
+        'files_status',
         'data',
     )
 
 
 class DocumentMigrationModelAdmin(ModelAdmin):
-    model = models.DocumentMigration
+    model = models.MigratedDocument
     menu_label = _('Document Migration')
     menu_icon = 'doc-full'
     menu_order = 300
@@ -163,24 +176,37 @@ class DocumentMigrationModelAdmin(ModelAdmin):
     create_view_class = CoreCreateView
 
     list_display = (
-        'scielo_document',
+        'v3',
+        'v2',
+        'aop_pid',
+        'key',
+        'migrated_issue',
         'status',
+        'files_status',
         'isis_updated_date',
+        'updated',
     )
     list_filter = (
         'status',
+        'files_status',
     )
     search_fields = (
-        'scielo_document__scielo_issue__scielo_journal__title',
-        'scielo_document__scielo_issue__scielo_journal__acron',
-        'scielo_document__scielo_issue__publication_date__year',
-        'scielo_document__scielo_issue__issue_folder',
-        'scielo_document__pid',
+        'v3',
+        'v2',
+        'aop_pid',
+        'key',
     )
     inspect_view_fields = (
-        'scielo_document',
+        'v3',
+        'v2',
+        'aop_pid',
+        'key',
+        'migrated_issue',
         'status',
+        'files_status',
         'isis_updated_date',
+        'updated',
+        'data',
     )
 
 
