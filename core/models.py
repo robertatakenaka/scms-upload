@@ -9,6 +9,10 @@ from . import choices
 User = get_user_model()
 
 
+def get_sentinel_user():
+    return get_user_model().objects.get_or_create(username='deleted')[0]
+
+
 class CommonControlField(models.Model):
     """
     Class with common control fields.
@@ -36,7 +40,7 @@ class CommonControlField(models.Model):
         verbose_name=_("Creator"),
         related_name="%(class)s_creator",
         editable=False,
-        on_delete=models.CASCADE,
+        on_delete=models.SET(get_sentinel_user),
     )
 
     # Last modifier user
@@ -47,13 +51,11 @@ class CommonControlField(models.Model):
         editable=False,
         null=True,
         blank=True,
-        on_delete=models.CASCADE,
+        on_delete=models.SET_NULL,
     )
 
     class Meta:
         abstract = True
-
-
 
 
 class Language(CommonControlField):
