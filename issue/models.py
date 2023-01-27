@@ -33,6 +33,34 @@ class Issue(CommonControlField, IssuePublicationDate):
     """
     Class that represent Issue
     """
+    official_journal = models.ForeignKey(OfficialJournal, on_delete=models.SET_NULL, null=True, blank=True)
+    volume = models.CharField(_('Volume'), max_length=255, null=True, blank=True)
+    number = models.CharField(_('Number'), max_length=255, null=True, blank=True)
+    supplement = models.CharField(_('Supplement'), max_length=255, null=True, blank=True)
+
+    class Meta:
+        unique_together = [
+            [
+                'official_journal',
+                'publication_year',
+                'volume',
+                'number',
+                'supplement'
+            ],
+            [
+                'official_journal',
+                'volume',
+                'number',
+                'supplement'
+            ],
+        ]
+        indexes = [
+            models.Index(fields=['official_journal']),
+            models.Index(fields=['publication_year']),
+            models.Index(fields=['volume']),
+            models.Index(fields=['number']),
+            models.Index(fields=['supplement']),
+        ]
 
     def __unicode__(self):
         return (u'%s %s %s %s %s' % (
@@ -51,11 +79,6 @@ class Issue(CommonControlField, IssuePublicationDate):
             self.number or '',
             self.supplement or '',
         ))
-
-    official_journal = models.ForeignKey(OfficialJournal, on_delete=models.SET_NULL, null=True, blank=True)
-    volume = models.CharField(_('Volume'), max_length=255, null=True, blank=True)
-    number = models.CharField(_('Number'), max_length=255, null=True, blank=True)
-    supplement = models.CharField(_('Supplement'), max_length=255, null=True, blank=True)
 
     autocomplete_search_field = 'official_journal__title'
 
@@ -122,27 +145,3 @@ class Issue(CommonControlField, IssuePublicationDate):
     ]
 
     base_form_class = IssueForm
-
-    class Meta:
-        unique_together = [
-            [
-                'official_journal',
-                'publication_year',
-                'volume',
-                'number',
-                'supplement'
-            ],
-            [
-                'official_journal',
-                'volume',
-                'number',
-                'supplement'
-            ],
-        ]
-        indexes = [
-            models.Index(fields=['official_journal']),
-            models.Index(fields=['publication_year']),
-            models.Index(fields=['volume']),
-            models.Index(fields=['number']),
-            models.Index(fields=['supplement']),
-        ]
