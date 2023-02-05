@@ -10,9 +10,8 @@ from wagtail.admin.edit_handlers import FieldPanel
 
 from core.models import CommonControlField
 from files_storage.controller import FilesStorageManager
-from files_storage.models import MinioFile
+from files_storage.models import MinioFile, FileWithLang, XMLFile
 from files_storage.exceptions import PushPidProviderXMLError
-from collection.models import FileWithLang, XMLFile
 from .xml_sps_lib import get_xml_with_pre_from_uri
 from . import xml_sps_adapter
 from . import exceptions
@@ -47,6 +46,15 @@ class XMLJournal(models.Model):
     issn_electronic = models.CharField(_("issn_epub"), max_length=9, null=True, blank=True)
     issn_print = models.CharField(_("issn_ppub"), max_length=9, null=True, blank=True)
 
+    class Meta:
+        unique_together = [
+            ['issn_electronic', 'issn_print'],
+        ]
+        indexes = [
+            models.Index(fields=['issn_electronic']),
+            models.Index(fields=['issn_print']),
+        ]
+
     def __str__(self):
         return f'{self.issn_electronic} {self.issn_print}'
 
@@ -66,23 +74,14 @@ class XMLJournal(models.Model):
                 "issn_print": issn_print,
             }
             kwargs = _set_isnull_parameters(params)
-            LOGGER.debug("Search {}".format(kwargs))
+            LOGGER.info("Search {}".format(kwargs))
             return cls.objects.get(**kwargs)
         except cls.DoesNotExist:
             params = {k: v for k, v in params.items() if v}
-            LOGGER.debug("Create {}".format(params))
+            LOGGER.info("Create {}".format(params))
             journal = cls(**params)
             journal.save()
             return journal
-
-    class Meta:
-        unique_together = [
-            ['issn_electronic', 'issn_print'],
-        ]
-        indexes = [
-            models.Index(fields=['issn_electronic']),
-            models.Index(fields=['issn_print']),
-        ]
 
 
 class XMLIssue(models.Model):
@@ -91,6 +90,18 @@ class XMLIssue(models.Model):
     volume = models.CharField(_("volume"), max_length=10, null=True, blank=True)
     number = models.CharField(_("number"), max_length=10, null=True, blank=True)
     suppl = models.CharField(_("suppl"), max_length=10, null=True, blank=True)
+
+    class Meta:
+        unique_together = [
+            ['journal', 'pub_year', 'volume', 'number', 'suppl'],
+        ]
+        indexes = [
+            models.Index(fields=['journal']),
+            models.Index(fields=['volume']),
+            models.Index(fields=['number']),
+            models.Index(fields=['suppl']),
+            models.Index(fields=['pub_year']),
+        ]
 
     def __str__(self):
         return f'{self.journal} {self.volume or ""} {self.number or ""} {self.suppl or ""}'
@@ -116,165 +127,14 @@ class XMLIssue(models.Model):
                 "pub_year": pub_year and int(pub_year) or None,
             }
             kwargs = _set_isnull_parameters(params)
-            LOGGER.debug("Search {}".format(kwargs))
+            LOGGER.info("Search {}".format(kwargs))
             return cls.objects.get(**kwargs)
         except cls.DoesNotExist:
             params = {k: v for k, v in params.items() if v}
-            LOGGER.debug("Create {}".format(params))
+            LOGGER.info("Create {}".format(params))
             issue = cls(**params)
             issue.save()
             return issue
-
-    class Meta:
-        unique_together = [
-            ['journal', 'pub_year', 'volume', 'number', 'suppl'],
-        ]
-        indexes = [
-            models.Index(fields=['journal']),
-            models.Index(fields=['volume']),
-            models.Index(fields=['number']),
-            models.Index(fields=['suppl']),
-            models.Index(fields=['pub_year']),
-        ]
-
-
-class XMLArticle(CommonControlField):
-    xml_file = models.ForeignKey(XMLFile)
-
-    def __str__(self):
-        return f"{super()}"
-
-    def tostring(self):
-        return self.xml_with_pre.tostring()
-
-    @property
-    def uri(self):
-        if self.xml_file and self.xml_file.remote_file:
-            return self.xml_file.remote_file.uri
-
-    @property
-    def xml_with_pre(self):
-        if not hasattr(self, '_xml_with_pre') or not self._xml_with_pre:
-            try:
-                self._xml_with_pre = get_xml_with_pre_from_uri(self.uri)
-            except Exception as e:
-                raise exceptions.XMLFileXMLWithPreError(
-                    _("Unable to get XML with pre (XMLFile) {}: {} {}").format(
-                        self.uri, type(e), e
-                    )
-                )
-        return self._xml_with_pre
-
-    @property
-    def related_articles(self):
-        if not hasattr(self, '_related_articles') or not self._related_articles:
-            self._related_articles = self.xml_with_pre.related_items
-        return self._related_articles
-
-    @property
-    def supplementary_materials(self):
-        if not hasattr(self, '_supplementary_materials') or not self._supplementary_materials:
-            supplmats = SupplementaryMaterials(self.xml_with_pre.xmltree)
-            self._supplementary_materials = []
-            names = [item.name for item in suppl_mats.items]
-            for asset_file in self.assets_files:
-                if asset_file.name in names:
-                    asset_file.is_supplementary_material = True
-                    asset_file.save()
-                if asset_file.is_supplementary_material:
-                    self._supplementary_materials.append({
-                        "uri": asset_file.uri,
-                        "lang": self.lang,
-                        "ref_id": None,
-                        "filename": asset_file.name,
-                    })
-        return self._supplementary_materials
-
-    def add_assets(self, issue_assets_dict):
-        """
-        Atribui asset_files
-        """
-        try:
-            # obtém os assets do XML
-            article_assets = ArticleAssets(self.xml_with_pre.xmltree)
-            for asset_in_xml in article_assets.article_assets:
-                asset = issue_assets_dict.get(asset_in_xml.name)
-                if asset:
-                    # FIXME tratar asset_file nao encontrado
-                    self.assets_files.add(asset)
-            self.save()
-        except Exception as e:
-            raise exceptions.AddAssetFilesError(
-                _("Unable to add assets to public XML to {} {} {})").format(
-                    xml_file, type(e), e
-                ))
-
-    def get_xml_with_pre_with_remote_assets(self, issue_assets_uris):
-        # FIXME assets de artigo pode estar em qq outra pasta do periódico
-        # há casos em que os assets do artigo VoR está na pasta ahead
-        xml_with_pre = deepcopy(self.xml_with_pre)
-        article_assets = ArticleAssets(xml_with_pre.xmltree)
-        article_assets.replace_names(issue_assets_uris)
-        return {"xml_with_pre": xml_with_pre, "name": self.pkg_name}
-
-    def set_langs(self):
-        try:
-            article = ArticleRenditions(self.xml_with_pre.xmltree)
-            renditions = article.article_renditions
-            self.lang = renditions[0].language
-            for rendition in renditions:
-                self.langs.add(
-                    Language.get_or_create(code2=rendition.language)
-                )
-            self.save()
-        except Exception as e:
-            raise exceptions.AddLangsToXMLFilesError(
-                _("Unable to set main lang to xml {}: {} {}").format(
-                    self.uri, type(e), e
-                )
-            )
-
-    @property
-    def languages(self):
-        return [
-            {"lang": lang.code2 for lang in self.langs.iterator()}
-        ]
-
-    # FIXME
-    # @property
-    # def xml_files_with_lang(self):
-    #     if not hasattr(self, '_xml_files_with_lang') or not self._xml_files_with_lang:
-    #         self._xml_files_with_lang = {}
-    #         for xml_file in self.xml_files:
-    #             self._xml_files_with_lang[xml_file.lang] = xml_file
-    #     return self._xml_files_with_lang
-
-    # @property
-    # def text_langs(self):
-    #     if not hasattr(self, '_text_langs') or not self._text_langs:
-    #         self._text_langs = [
-    #             {"lang": lang}
-    #             for lang in self.xml_files_with_lang.keys()
-    #         ]
-    #     return self._text_langs
-
-    # @property
-    # def related_items(self):
-    #     if not hasattr(self, '_related_items') or not self._related_items:
-    #         items = []
-    #         for lang, xml_file in self.xml_files_with_lang.items():
-    #             items.extend(xml_file.related_articles)
-    #         self._related_items = items
-    #     return self._related_items
-
-    # @property
-    # def supplementary_materials(self):
-    #     if not hasattr(self, '_supplementary_materials') or not self._supplementary_materials:
-    #         items = []
-    #         for lang, xml_file in self.xml_files_with_lang.items():
-    #             items.extend(xml_file.supplementary_materials)
-    #         self._supplementary_materials = items
-    #     return self._supplementary_materials
 
 
 class SyncFailure(CommonControlField):
@@ -461,7 +321,7 @@ class XMLDocPid(CommonControlField):
     def register(cls, xml_with_pre, filename, user,
                  register_pid_provider_xml, synchronized=None):
         """
-        Request PID v3
+        Evaluate the XML data and returns corresponding PID v3, v2, aop_pid
 
         Parameters
         ----------
@@ -482,18 +342,20 @@ class XMLDocPid(CommonControlField):
 
         """
         try:
-            LOGGER.debug("register for {}".format(filename))
+            logging.info("XMLDocPid.register {}".format(filename))
 
             # adaptador do xml with pre
+            logging.info("XMLDocPid {} {} {}".format(
+                xml_with_pre.v3, xml_with_pre.v2, xml_with_pre.aop_pid))
             xml_adapter = xml_sps_adapter.XMLAdapter(xml_with_pre)
 
             # obtém item registrado
             registered = cls._query_document(xml_adapter)
-            LOGGER.debug(registered)
+            logging.info(registered)
             if registered and xml_adapter.is_aop and not registered.is_aop:
                 # levanta exceção se está requisitando pid para um XML contendo
                 # dados de AOP, mas artigo já foi publicado em fascículo
-                LOGGER.exception(e)
+                logging.exception(e)
                 raise exceptions.ForbiddenXMLDocPidRegistrationError(
                     _("The XML content is an ahead of print version "
                       "but the document {} is already published in an issue"
@@ -502,17 +364,17 @@ class XMLDocPid(CommonControlField):
 
             # verfica os PIDs encontrados no XML / atualiza-os se necessário
             xml_changed = cls._complete_pids(xml_adapter, registered)
-            LOGGER.debug(xml_changed)
+            logging.info("XMLDocPid xml_changed %s" % xml_changed)
 
             if registered:
                 if registered.is_aop and not xml_adapter.is_aop:
                     # mudou de AOP para VOR, atualizar
                     registered._add_issue(xml_adapter, user)
-                    LOGGER.debug("add_issue %s" % registered)
+                    logging.info("XMLDocPid add_issue %s" % registered)
             else:
                 # cria registro
                 registered = cls._register_new(xml_adapter, user)
-                LOGGER.debug("new %s" % registered)
+                logging.info("XMLDocPid new %s" % registered)
 
             if registered:
                 register_pid_provider_xml(
@@ -527,11 +389,11 @@ class XMLDocPid(CommonControlField):
         except PushPidProviderXMLError as e:
             raise e
         except exceptions.ForbiddenXMLDocPidRegistrationError as e:
-            LOGGER.exception(e)
+            logging.exception(e)
             return {"error": str(e)}
 
         except Exception as e:
-            LOGGER.exception(e)
+            logging.exception(e)
             raise exceptions.XMLDocPidRegisterError(
                 _("Unable to request document IDs for {} {} {}").format(
                     filename, type(e), str(e))
@@ -548,8 +410,8 @@ class XMLDocPid(CommonControlField):
         """
         Verifica se há necessidade de registrar local e/ou remotamente
         """
-        do_remote_registration = True
-        do_local_registration = True
+        required_remote = True
+        required_local = True
 
         xml_adapter = xml_sps_adapter.XMLAdapter(xml_with_pre)
         registered = cls._query_document(xml_adapter)
@@ -561,13 +423,13 @@ class XMLDocPid(CommonControlField):
             )
             if equal:
                 # skip local registration
-                do_local_registration = False
-                do_remote_registration = not registered.synchronized
+                required_local = False
+                required_remote = not registered.synchronized
 
         return dict(
-            registered=registered.data,
-            do_local_registration=do_local_registration,
-            do_remote_registration=do_remote_registration,
+            registered=registered and registered.data or {},
+            required_local=required_local,
+            required_remote=required_remote,
         )
 
     @classmethod
@@ -619,7 +481,7 @@ class XMLDocPid(CommonControlField):
         # ------
         # XMLArticle.MultipleObjectsReturned
         """
-        LOGGER.debug("xml_adapter.is_aop: %s" % xml_adapter.is_aop)
+        LOGGER.info("xml_adapter.is_aop: %s" % xml_adapter.is_aop)
         if xml_adapter.is_aop:
             # o documento de entrada é um AOP
             try:
@@ -844,7 +706,7 @@ class XMLDocPid(CommonControlField):
 
         after = (xml_adapter.v2, xml_adapter.v3, xml_adapter.aop_pid)
 
-        LOGGER.debug("%s %s" % (before, after))
+        LOGGER.info("%s %s" % (before, after))
         return before != after
 
     @classmethod
@@ -956,6 +818,6 @@ def _query_document_args(xml_adapter, filter_by_issue=False, aop_version=False):
             for k, v in xml_adapter.pages.items():
                 _params[k] = v
     params = _set_isnull_parameters(_params)
-    LOGGER.debug(dict(filter_by_issue=filter_by_issue, aop_version=aop_version))
-    LOGGER.debug(params)
+    LOGGER.info(dict(filter_by_issue=filter_by_issue, aop_version=aop_version))
+    LOGGER.info(params)
     return params

@@ -17,13 +17,15 @@ class XMLAdapter:
         # try:
         #     return getattr(self, name)
         # except:
+        logging.debug(type(self.xml_with_pre))
         try:
             return getattr(self.xml_with_pre, name)
         except:
             raise AttributeError(f"XMLAdapter.{name} does not exist")
 
-    # def tostring(self):
-    #     return self.xml_with_pre.tostring()
+    @property
+    def is_aop(self):
+        return self.xml_with_pre.is_aop
 
     @property
     def v2_prefix(self):

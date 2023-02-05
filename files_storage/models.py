@@ -1,3 +1,6 @@
+import os
+import logging
+
 from django.db import models
 from django.utils.translation import gettext_lazy as _
 from wagtail.admin.edit_handlers import (
@@ -12,6 +15,15 @@ class MinioFile(CommonControlField):
     basename = models.URLField(_('Basename'), max_length=255, null=True, blank=True)
     uri = models.URLField(_('URI'), max_length=255, null=True, blank=True)
     finger_print = models.CharField('Finger print', max_length=64, null=True, blank=True)
+
+    class Meta:
+
+        indexes = [
+            models.Index(fields=['basename']),
+            models.Index(fields=['creator']),
+            models.Index(fields=['created']),
+            models.Index(fields=['finger_print']),
+        ]
 
     def __str__(self):
         return f"{self.uri} {self.created}"
@@ -46,15 +58,6 @@ class MinioFile(CommonControlField):
                 "Unable to create file: %s %s %s" %
                 (type(e), e, obj)
             )
-
-    class Meta:
-
-        indexes = [
-            models.Index(fields=['basename']),
-            models.Index(fields=['creator']),
-            models.Index(fields=['created']),
-            models.Index(fields=['finger_print']),
-        ]
 
 
 class MinioConfiguration(CommonControlField):
@@ -107,7 +110,7 @@ class MinioConfiguration(CommonControlField):
         try:
             return cls.objects.get(name=name)
         except cls.DoesNotExist:
-            files_storage = Configuration()
+            files_storage = cls()
             files_storage.name = name
             files_storage.host = host
             files_storage.secure = secure
@@ -157,15 +160,17 @@ class SciELOFile(CommonControlField):
             return cls.objects.get(relative_path=item['relative_path'])
         except cls.DoesNotExist:
             file = cls()
-            file.pkg_name = item['key']
-            file.relative_path = item.get('relative_path')
+            logging.info(item)
+            file.pkg_name = item.get("key") or item.get("pkg_name")
+            file.relative_path = item['relative_path']
             file.creator = creator
             file.save()
             return file
 
     @classmethod
     def create_or_update(cls, item, push_file, subdirs, preserve_name, creator):
-        obj = cls.get_or_create(item)
+        logging.info(item)
+        obj = cls.get_or_create(item, creator)
 
         response = push_file(
             obj,
@@ -174,9 +179,8 @@ class SciELOFile(CommonControlField):
             preserve_name,
             creator,
         )
-        for k in item.keys():
-            if hasattr(obj, k):
-                setattr(obj, k, getattr(obj, k) or item[k])
+        logging.info(response)
+
         return obj
 
 
@@ -191,6 +195,26 @@ class FileWithLang(SciELOFile):
         indexes = [
             models.Index(fields=['lang']),
         ]
+
+    @classmethod
+    def get_or_create(cls, item, creator):
+        logging.info("FileWithLang.get_or_create %s" % item)
+        try:
+            return cls.objects.get(relative_path=item['relative_path'])
+        except cls.DoesNotExist:
+            file = cls()
+            logging.info(item)
+            file.pkg_name = item.get("key") or item.get("pkg_name")
+            try:
+                code2 = item['lang']
+                file.lang = Language.get_or_create(
+                    code2=code2, creator=creator)
+            except KeyError:
+                code2 = None
+            file.relative_path = item['relative_path']
+            file.creator = creator
+            file.save()
+            return file
 
 
 class AssetFile(SciELOFile):
@@ -225,6 +249,30 @@ class SciELOHTMLFile(FileWithLang):
         _('Part'), max_length=6, null=False, blank=False)
     assets_files = models.ManyToManyField(AssetFile)
 
+    class Meta:
+
+        indexes = [
+            models.Index(fields=['part']),
+        ]
+
+    def __str__(self):
+        return f"{super()} {self.part}"
+
+    @classmethod
+    def get_or_create(cls, item, creator):
+        try:
+            return cls.objects.get(relative_path=item['relative_path'])
+        except cls.DoesNotExist:
+            file = cls()
+            logging.info(item)
+            file.pkg_name = item.get("key") or item.get("pkg_name")
+            file.lang = Language.get_or_create(code2=item['lang'], creator=creator)
+            file.part = item['part']
+            file.relative_path = item['relative_path']
+            file.creator = creator
+            file.save()
+            return file
+
     @property
     def text(self):
         try:
@@ -233,12 +281,3 @@ class SciELOHTMLFile(FileWithLang):
             return "Unable to get text from {}".format(self.uri)
         else:
             return response.content
-
-    def __str__(self):
-        return f"{super()} {self.part}"
-
-    class Meta:
-
-        indexes = [
-            models.Index(fields=['part']),
-        ]

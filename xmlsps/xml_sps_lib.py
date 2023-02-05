@@ -1,7 +1,8 @@
-from datetime import datetime, date
 import hashlib
 import logging
 import os
+from copy import deepcopy
+from datetime import datetime, date
 from zipfile import ZipFile, BadZipFile
 from shutil import copyfile
 
@@ -17,6 +18,13 @@ from packtools.sps.models.article_titles import ArticleTitles
 from packtools.sps.models.body import Body
 from packtools.sps.models.dates import ArticleDates
 from packtools.sps.models.related_articles import RelatedItems
+from packtools.sps.models.article_assets import (
+    ArticleAssets,
+    SupplementaryMaterials,
+)
+from packtools.sps.models.article_renditions import (
+    ArticleRenditions,
+)
 
 from files_storage.utils import generate_finger_print
 
@@ -210,7 +218,8 @@ class XMLWithPre:
 
     @property
     def finger_print(self):
-        return generate_finger_print(self.tostring())
+        return generate_finger_print(
+            etree.tostring(self.xmltree, encoding="utf-8"))
 
     def update_ids(self, v3, v2, aop_pid):
         # update IDs
@@ -394,3 +403,66 @@ class XMLWithPre:
                 int(_date['day']),
             )
         return self._article_publication_date
+
+    @property
+    def related_articles(self):
+        if not hasattr(self, '_related_articles') or not self._related_articles:
+            self._related_articles = self.xml_with_pre.related_items
+        return self._related_articles
+
+    @property
+    def supplementary_materials(self):
+        if not hasattr(self, '_supplementary_materials') or not self._supplementary_materials:
+            supplmats = SupplementaryMaterials(self.xml_with_pre.xmltree)
+            self._supplementary_materials = []
+            names = [item.name for item in suppl_mats.items]
+            for asset_file in self.assets_files:
+                if asset_file.name in names:
+                    asset_file.is_supplementary_material = True
+                    asset_file.save()
+                if asset_file.is_supplementary_material:
+                    self._supplementary_materials.append({
+                        "uri": asset_file.uri,
+                        "lang": self.lang,
+                        "ref_id": None,
+                        "filename": asset_file.name,
+                    })
+        return self._supplementary_materials
+
+    def get_assets(self, issue_assets_dict):
+        """
+        Atribui asset_files
+        """
+        if not hasattr(self, '_assets') or not self._assets:
+            self._assets = []
+            # obtém os assets do XML
+            article_assets = ArticleAssets(self.xml_with_pre.xmltree)
+            for asset_in_xml in article_assets.article_assets:
+                asset = issue_assets_dict.get(asset_in_xml.name)
+                if asset:
+                    # FIXME tratar asset_file nao encontrado
+                    self._assets.append(asset)
+        return self._assets
+
+    def get_xml_with_pre_with_remote_assets(self, v3, v2, aop_pid, issue_assets_uris):
+        # FIXME assets de artigo pode estar em qq outra pasta do periódico
+        # há casos em que os assets do artigo VoR está na pasta ahead
+        if not hasattr(self, '_remote_xml') or not self._remote_xml:
+            xml_with_pre = deepcopy(self)
+            xml_with_pre.v2 = v2
+            xml_with_pre.v3 = v3
+            xml_with_pre.aop_pid = aop_pid
+            article_assets = ArticleAssets(xml_with_pre.xmltree)
+            article_assets.replace_names(issue_assets_uris)
+            self._remote_xml = xml_with_pre
+        return self._remote_xml
+
+    @property
+    def langs(self):
+        if not hasattr(self, '_langs') or not self._langs:
+            article = ArticleRenditions(self.xml_with_pre.xmltree)
+            renditions = article.article_renditions
+            self._langs = []
+            for rendition in renditions:
+                self._langs.append(rendition.language)
+        return self._langs

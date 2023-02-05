@@ -4,5 +4,12 @@ import hashlib
 def generate_finger_print(content):
     if not content:
         return None
-    content = (content or '').strip().upper()
-    return hashlib.sha256(content.encode("utf-8")).hexdigest()
+    if isinstance(content, str):
+        content = content.upper()
+        content = content.encode("utf-8")
+    return hashlib.sha256(content).hexdigest()
+
+
+def get_file_finger_print(source_filename):
+    with open(source_filename, "rb") as fp:
+        return generate_finger_print(fp.read())

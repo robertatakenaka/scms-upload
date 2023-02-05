@@ -1,4 +1,5 @@
 import os
+import json
 import logging
 from tempfile import TemporaryDirectory
 
@@ -13,7 +14,7 @@ from config.settings.base import (
 
 from files_storage.controller import FilesStorageManager
 from xmlsps import xml_sps_lib
-from .models import XMLDocPid
+from xmlsps.models import XMLDocPid
 from . import exceptions
 
 
@@ -23,7 +24,7 @@ LOGGER = logging.getLogger(__name__)
 LOGGER_FMT = "%(asctime)s [%(levelname)s] %(name)s: %(message)s"
 
 
-class PidRequester:
+class ArticleXMLRegistration:
     """
     Faz registro de pid local e central, mantém os registros sincronizados
     """
@@ -33,55 +34,16 @@ class PidRequester:
         self.api_token_uri = API_PID_PROVIDER_TOKEN_URI
         self.timeout = 15
 
-    def register_for_xml_uri(self, xml_uri, name, user):
-        xml_with_pre = xml_sps_lib.get_xml_with_pre_from_uri(xml_uri)
-        return self.register(xml_with_pre, name, user)
-
     def register(self, xml_with_pre, name, user):
-        """
-        Realiza os registros local e remoto de acordo com a necessidade
-        """
-        # verifica a necessidade de registro
-        demand = XMLDocPid.get_registration_demand(xml_with_pre)
-        logging.info(demand)
-        registered = demand['registered']
-        do_local_registration = demand['do_local_registration']
-        do_remote_registration = demand['do_remote_registration']
+        registered = self._request_pid_v3(xml_with_pre, name, user)
+        return registered
 
-        if not do_local_registration and not do_remote_registration:
-            # não é necessário registrar, retornar os dados atuais
-            return registered
+    def register_xml_uri(self, xml_uri, name, user):
+        xml_with_pre = xml_sps_lib.get_xml_with_pre_from_uri(xml_uri)
+        registered = self._request_pid_v3(xml_with_pre, name, user)
+        return registered
 
-        api_response = None
-        logging.info((do_remote_registration, self.api_uri))
-        if do_remote_registration and self.api_uri:
-            # realizar registro remoto
-            try:
-                api_response = self._register_in_core(xml_with_pre, name, user)
-                logging.info(api_response)
-            except Exception as e:
-                logging.exception(
-                    _("Unable to do remote pid registration {} {} {}").format(
-                        name, type(e), e)
-                )
-                raise exceptions.APIPidProviderPostError(
-                    _("Unable to request pid to central pid provider {} {} {}").format(
-                        name, type(e), e,
-                    )
-                )
-
-        if do_local_registration:
-            # realizar registro local
-            if api_response:
-                xml_with_pre = xml_sps_lib.get_xml_with_pre_from_uri(
-                    api_response["xml_uri"])
-            return self.local_pid_provider.register(
-                    xml_with_pre, name, user, synchronized=bool(api_response))
-        else:
-            # não precisa fazer registro local, retorna os dados atuais
-            return registered
-
-    def register_for_xml_zip(self, zip_xml_file_path, user, synchronized=None):
+    def register_xml_zip(self, zip_xml_file_path, user, synchronized=None):
         """
         Returns
         -------
@@ -92,22 +54,48 @@ class PidRequester:
         """
         for item in xml_sps_lib.get_xml_items(zip_xml_file_path):
             xml_with_pre = item.pop("xml_with_pre")
+            registered = self._request_pid_v3(
+                xml_with_pre, item["filename"], user, synchronized,
+            )
+            item.update(registered or {})
+            yield item
+
+    def _request_pid_v3(self, xml_with_pre, name, user):
+        """
+        Realiza os registros local e remoto de acordo com a necessidade
+        """
+        # verifica a necessidade de registro
+        demand = XMLDocPid.get_registration_demand(xml_with_pre)
+
+        logging.info(demand)
+        registered = demand['registered']
+        required_local = demand['required_local']
+        required_remote = demand['required_remote']
+
+        if not required_local and not required_remote:
+            # não é necessário registrar, retornar os dados atuais
+            return registered
+
+        api_response = None
+
+        if required_remote and self.api_uri:
+            # TODO remover o tratamento de exceção
             try:
-                registered = self.register(
-                    xml_with_pre, item["filename"], user, synchronized,
-                )
-                if registered:
-                    item.update(registered)
-                logging.info(item)
-                yield item
-            except Exception as e:
+                api_response = self._register_in_core(xml_with_pre, name, user)
+                logging.info("api_response=%s" % api_response)
+            except exceptions.APIPidProviderPostError as e:
                 logging.exception(e)
-                item['error'] = (
-                    _("Unable to request document IDs for {} {} {} {}").format(
-                        zip_xml_file_path, item['filename'], type(e), e,
-                    )
-                )
-                yield item
+
+        if required_local:
+            # realizar registro local
+            if api_response:
+                xml_with_pre = xml_sps_lib.get_xml_with_pre_from_uri(
+                    api_response["xml_uri"])
+            return self.local_pid_provider.register(
+                    xml_with_pre, name, user, synchronized=bool(api_response))
+        else:
+            # não precisa fazer registro local, retorna os dados atuais
+            return registered
 
     def _register_in_core(self, xml_with_pre, name, user):
         """
@@ -116,32 +104,58 @@ class PidRequester:
         """
         with TemporaryDirectory() as tmpdirname:
             zip_xml_file_path = os.path.join(tmpdirname, name + ".zip")
+
             xml_sps_lib.create_xml_zip_file(
                 zip_xml_file_path, xml_with_pre.tostring())
-            return self._api_request_post(
+
+            response = self._api_request_post(
                 zip_xml_file_path, user, self.timeout)
+            data = json.loads(response)
+            for item in data:
+                try:
+                    return item['registered']
+                except KeyError:
+                    return item
 
     def _api_request_post(self, zip_xml_file_path, user, timeout):
         # TODO retry
         """
-        curl -F 'zip_xml_file_path=@4Fk4QXbF3YLW46LTwhbFh6K.xml.zip' \
-           --user "adm:adm" \
-           http://127.0.0.1:8000/pidv3/
+        curl -X POST -S \
+            -H "Content-Disposition: attachment;filename=pacote_xml.zip" \
+            -F "file=@/path/pacote_xml.zip;type=application/zip" \
+            --user "adm:adm" \
+            127.0.0.1:8000/pid_provider/
         """
         try:
             # token = self._get_token(user, timeout)
-
             # logging.info(token)
-            auth = HTTPBasicAuth(user.name, user.password)
-            return requests.post(
+            auth = HTTPBasicAuth(user.username, 'adm')
+            basename = os.path.basename(zip_xml_file_path)
+            file_info = (
+                basename,
+                open(zip_xml_file_path, 'rb'),
+                'application/zip',
+            )
+            files = {
+                'file':
+                file_info
+            }
+            header = {
+                'content-type': 'multi-part/form-data',
+                'Content-Disposition': 'attachment; filename=%s' % basename,
+            }
+            response = requests.post(
                 self.api_uri,
-                files={"file": zip_xml_file_path},
-                headers={'Authorization': f"Token {token['token']}"},
+                files=files,
+                headers=header,
                 auth=auth,
                 timeout=timeout,
+                verify=False,
             )
+            logging.info(response.text)
+            return response.text
         except Exception as e:
-            # TODO tratar as exceções
+            logging.exception(e)
             raise exceptions.APIPidProviderPostError(
                 _("Unable to request pid to central pid provider {} {} {}").format(
                     zip_xml_file_path, type(e), e,
@@ -149,20 +163,28 @@ class PidRequester:
             )
 
     def _get_token(self, user, timeout):
-        # TODO retry
         """
-        curl -X POST -F 'username="adm"' -F 'password="adm"' \
-            127.0.0.1:8000/api-token-auth/
+        curl -X POST 127.0.0.1:8000/api-token-auth/ \
+            --data 'username=x&password=x'
         """
         try:
-            auth = HTTPBasicAuth(user.name, user.password)
+            auth = HTTPBasicAuth('adm', 'adm')
             logging.info(self.api_token_uri)
-            return requests.post(
+            username = 'adm'
+            password = 'adm'
+            response = requests.post(
                 self.api_token_uri,
-                data={'username': user.name, "password": user.password},
+                data={'username': username, "password": password},
                 auth=auth,
                 timeout=timeout,
             )
+            logging.info(type(response))
+            logging.info(str(response))
+            logging.info(response.text)
+            logging.info(response.content)
+            logging.info(type(response.content))
+
+            return response.json
         except Exception as e:
             # TODO tratar as exceções
             raise exceptions.GetAPITokenError(
@@ -222,11 +244,11 @@ class PidProvider:
         """
         return XMLDocPid.register(
             xml_with_pre, filename, user,
-            self.files_storage_manager.register_pid_provider_xml,
+            self.files_storage_manager.push_pid_provider_xml,
             synchronized,
         )
 
-    def register_for_xml_zip(self, zip_xml_file_path, user, synchronized=None):
+    def register_xml_zip(self, zip_xml_file_path, user, synchronized=None):
         """
         Returns
         -------
@@ -235,28 +257,16 @@ class PidProvider:
                  registered": dict (XMLDocPid.data),
                  "xml_changed": boolean}
         """
-        items = []
         for item in xml_sps_lib.get_xml_items(zip_xml_file_path):
             xml_with_pre = item.pop("xml_with_pre")
-            try:
-                # {"filename": item: "xml": xml}
-                registered = self.register(
-                    xml_with_pre, item["filename"], user, synchronized,
-                )
-                if registered:
-                    item.update(registered)
-                yield item
-            except Exception as e:
-                logging.exception(e)
-                item['error'] = (
-                    _("Unable to request document IDs for {} {} {} {}").format(
-                        zip_xml_file_path, item['filename'], type(e), e,
-                    )
-                )
-                yield item
-        return items
+            # {"filename": item: "xml": xml}
+            registered = self.register(
+                xml_with_pre, item["filename"], user, synchronized,
+            )
+            item.update(registered or {})
+            yield item
 
-    def register_for_xml_uri(self, xml_uri, filename, user, synchronized=None):
+    def register_xml_uri(self, xml_uri, filename, user, synchronized=None):
         """
         Returns
         -------
@@ -276,7 +286,7 @@ class PidProvider:
         return XMLDocPid.get_registered(xml_with_pre)
 
     @classmethod
-    def get_registered_for_xml_uri(cls, xml_uri):
+    def get_registered_xml_uri(cls, xml_uri):
         """
         Returns
         -------
@@ -286,7 +296,7 @@ class PidProvider:
         return cls.get_registered(xml_with_pre)
 
     @classmethod
-    def get_registered_for_xml_zip(cls, zip_xml_file_path):
+    def get_registered_xml_zip(cls, zip_xml_file_path):
         """
         Returns
         -------
@@ -295,17 +305,7 @@ class PidProvider:
                  "registered": dict (XMLDocPid.data)}
         """
         for item in xml_sps_lib.get_xml_items(zip_xml_file_path):
-            try:
-                # {"filename": item: "xml": xml}
-                registered = cls.get_registered(item['xml_with_pre'])
-                if registered:
-                    item['registered'] = registered
-                yield item
-            except Exception as e:
-                logging.exception(e)
-                item['error'] = (
-                    _("Unable to get registered XML for {} {} {} {}").format(
-                        zip_xml_file_path, item['filename'], type(e), e,
-                    )
-                )
-                yield item
+            # {"filename": item: "xml": xml}
+            registered = cls.get_registered(item['xml_with_pre'])
+            if registered:
+                item['registered'] = registered

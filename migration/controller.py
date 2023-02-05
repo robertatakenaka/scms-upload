@@ -26,20 +26,15 @@ from packtools.sps.models.article_renditions import (
 )
 from scielo_classic_website import classic_ws
 
+from publication.db import mk_connection
 from core.controller import parse_yyyymmdd, insert_hyphen_in_YYYYMMMDD
-from libs.dsm.publication.db import mk_connection
-from libs.dsm.publication.journals import JournalToPublish
-from libs.dsm.publication.issues import IssueToPublish, get_bundle_id
 from core.controller import parse_non_standard_date, parse_months_names
 from collection.choices import CURRENT
-from collection.exceptions import (
-    GetSciELOJournalError,
-)
 from collection.models import (
     ClassicWebsiteConfiguration,
     NewWebSiteConfiguration,
 )
-from files_storage.models import Configuration as FilesStorageConfiguration
+from files_storage.models import MinioConfiguration
 from files_storage.controller import FilesStorageManager
 from .models import (
     MigratedJournal,
@@ -52,8 +47,7 @@ from .choices import MS_IMPORTED, MS_PUBLISHED, MS_TO_IGNORE
 from . import exceptions
 from journal.models import OfficialJournal
 from issue.models import Issue
-from publication.models import PublicationArticle
-from publication.choices import PUBLICATION_STATUS_PUBLISHED
+from pid_provider.controller import ArticleXMLRegistration
 
 
 User = get_user_model()
@@ -75,8 +69,8 @@ def start(user):
         migration_configuration = MigrationConfiguration.get_or_create(
             ClassicWebsiteConfiguration.objects.all().first(),
             NewWebSiteConfiguration.objects.all().first(),
-            FilesStorageConfiguration.get_or_create(name='website'),
-            FilesStorageConfiguration.get_or_create(name='migration'),
+            MinioConfiguration.get_or_create(name='website'),
+            MinioConfiguration.get_or_create(name='migration'),
             user,
         )
 
@@ -86,6 +80,7 @@ def start(user):
         )
 
     except Exception as e:
+        logging.exception(e)
         raise exceptions.MigrationStartError(
             "Unable to start migration %s" % e)
 
@@ -286,6 +281,7 @@ def get_or_create_crontab_schedule(day_of_week=None, hour=None, minute=None):
             minute=minute or '*',
         )
     except Exception as e:
+        logging.exception(e)
         raise exceptions.GetOrCreateCrontabScheduleError(
             _('Unable to get_or_create_crontab_schedule {} {} {} {} {}').format(
                 day_of_week, hour, minute, type(e), e
@@ -314,6 +310,7 @@ class MigrationConfigurationController:
         try:
             return mk_connection(self.config.new_website_config.db_uri)
         except Exception as e:
+            logging.exception(e)
             raise exceptions.GetMigrationConfigurationError(
                 _("Unable to connect db {} {}").format(type(e), e)
             )
@@ -336,8 +333,11 @@ class MigrationConfigurationController:
         try:
             artigo_source_files_paths = classic_ws.get_artigo_db_path(
                 journal_acron, issue_folder, self.classic_website)
+            logging.info("paths %s" % artigo_source_files_paths)
+
         except Exception as e:
-            raise exceptions.IssueFilesStoreError(
+            logging.exception(e)
+            raise exceptions.GetArticleDatabaseToMigrateError(
                 _("Unable to get artigo db paths from classic website {} {} {}").format(
                     journal_acron, issue_folder, e,
                 )
@@ -346,34 +346,24 @@ class MigrationConfigurationController:
         return artigo_source_files_paths
 
     def get_classic_website_issue_files(self, journal_acron, issue_folder):
-        try:
-            classic_website_paths = {
-                "BASES_TRANSLATION_PATH": self.classic_website.bases_translation_path,
-                "BASES_PDF_PATH": self.classic_website.bases_pdf_path,
-                "HTDOCS_IMG_REVISTAS_PATH": self.classic_website.htdocs_img_revistas_path,
-                "BASES_XML_PATH": self.classic_website.bases_xml_path,
-            }
-        except Exception as e:
-            raise exceptions.GetMigrationConfigurationError(
-                _("Unable to get classic website paths {} {}").format(
-                    type(e), e)
-            )
-        try:
-            issue_files = classic_ws.get_issue_files(
-                journal_acron, issue_folder, classic_website_paths)
-        except Exception as e:
-            raise exceptions.IssueFilesStoreError(
-                _("Unable to get issue files from classic website {} {} {}").format(
-                    journal_acron, issue_folder, e,
-                )
-            )
-
+        classic_website_paths = {
+            "BASES_TRANSLATION_PATH": self.classic_website.bases_translation_path,
+            "BASES_PDF_PATH": self.classic_website.bases_pdf_path,
+            "HTDOCS_IMG_REVISTAS_PATH": self.classic_website.htdocs_img_revistas_path,
+            "BASES_XML_PATH": self.classic_website.bases_xml_path,
+        }
+        logging.info(classic_website_paths)
+        issue_files = classic_ws.get_issue_files(
+            journal_acron, issue_folder, classic_website_paths)
         for info in issue_files:
+            logging.info(info)
             try:
                 info['relative_path'] = _get_classic_website_rel_path(info['path'])
             except Exception as e:
+                logging.exception(e)
                 info['error'] = str(e)
                 info['error_type'] = str(type(e))
+            logging.info(info)
             yield info
 
     def get_files_storage(self, filename):
@@ -401,6 +391,7 @@ def migrate_journals(
                 user, collection_acron,
                 scielo_issn, journal_data[0], force_update)
     except Exception as e:
+        logging.exception(e)
         raise exceptions.JournalMigrationError(
             _("Unable to migrate journals {}").format(collection_acron)
         )
@@ -448,112 +439,13 @@ def import_data_from_title_database(user, collection_acron,
         )
         return migrated_journal
     except Exception as e:
+        logging.exception(e)
         migrated_journal.failures.add(
             MigrationFailure.create(
                 _("Unable to migrate journal {} {}").format(
                     collection_acron, scielo_issn),
-                action, e, user))
+                "migrate", e, user))
         migrated_journal.save()
-
-
-def publish_imported_journal(migrated_journal):
-    journal = classic_ws.Journal(migrated_journal.data)
-    if journal.current_status != CURRENT:
-        # journal must not be published
-        return
-
-    if migrated_journal.status != MS_IMPORTED:
-        return
-
-    try:
-        journal_to_publish = JournalToPublish(journal.scielo_issn)
-        journal_to_publish.add_contact(
-            " | ".join(journal.publisher_name),
-            journal.publisher_email,
-            ", ".join(journal.publisher_address),
-            journal.publisher_city,
-            journal.publisher_state,
-            journal.publisher_country,
-        )
-
-        for mission in journal.mission:
-            journal_to_publish.add_item_to_mission(
-                mission["language"], mission["text"])
-
-        for item in journal.status_history:
-            journal_to_publish.add_item_to_timeline(
-                item["status"],
-                insert_hyphen_in_YYYYMMMDD(item["date"]),
-                item.get("reason"),
-            )
-        journal_to_publish.add_journal_issns(
-            journal.scielo_issn,
-            journal.electronic_issn,
-            journal.print_issn,
-        )
-        journal_to_publish.add_journal_titles(
-            journal.title,
-            journal.abbreviated_iso_title,
-            journal.abbreviated_title,
-        )
-
-        journal_to_publish.add_online_submission_url(journal.submission_url)
-
-        # TODO links previous e next
-        # previous_journal = next_journal_title = None
-        # if journal.previous_title:
-        #     try:
-        #         previous_journal = get_migrated_journal_by_title(
-        #             journal.previous_title)
-        #     except GetSciELOJournalError:
-        #         previous_journal = None
-        # if journal.next_title:
-        #     try:
-        #         next_journal = get_migrated_journal_by_title(journal.next_title)
-        #         next_journal_title = journal.next_title
-        #     except GetSciELOJournalError:
-        #         next_journal_title = None
-        # if previous_journal or next_journal_title:
-        #     journal_to_publish.add_related_journals(
-        #         previous_journal, next_journal_title,
-        #     )
-        for item in journal.sponsors:
-            journal_to_publish.add_sponsor(item)
-
-        # TODO confirmar se subject_categories é subject_descriptors
-        journal_to_publish.add_thematic_scopes(
-            journal.subject_descriptors, journal.subject_areas,
-        )
-
-        # journal não tem este dado
-        # journal_to_publish.add_issue_count(
-        #     journal.issue_count,
-        # )
-
-        # journal não tem este dado
-        # journal_to_publish.add_item_to_metrics(
-        #     journal.total_h5_index,
-        #     journal.total_h5_median,
-        #     journal.h5_metric_year,
-        # )
-        # journal não tem este dado
-        # journal_to_publish.add_logo_url(journal.logo_url)
-        journal_to_publish.add_acron(journal.acronym)
-        journal_to_publish.publish_journal()
-    except Exception as e:
-        raise exceptions.PublishJournalError(
-            _("Unable to publish {} {} {}").format(
-                migrated_journal, type(e), e)
-        )
-
-    try:
-        migrated_journal.status = MS_PUBLISHED
-        migrated_journal.save()
-    except Exception as e:
-        raise exceptions.PublishJournalError(
-            _("Unable to publish {} {} {}").format(
-                migrated_journal, type(e), e)
-        )
 
 
 def migrate_issues(
@@ -586,6 +478,7 @@ def migrate_issues(
                 )
                 # publish_imported_issue(migrated_issue)
         except Exception as e:
+            logging.exception(e)
             migrated_issue.failures.add(
                 MigrationFailure.create(
                     _("Error migrating issue {} {}").format(collection_acron, issue_pid),
@@ -621,11 +514,14 @@ def import_data_from_issue_database(
             classic_website_issue, collection_acron,
             scielo_issn, issue_pid, user
         )
+        logging.info("Force %s" % force_update)
         migrated_issue.update(
             classic_website_issue, official_issue, issue_data, force_update
         )
+        logging.info(migrated_issue.status)
         return migrated_issue
     except Exception as e:
+        logging.exception(e)
         logging.error(_("Error importing issue {} {} {}").format(
             collection_acron, issue_pid, issue_data))
         logging.exception(e)
@@ -680,63 +576,11 @@ def create_official_issue(classic_website_issue, collection_acron,
             final_month_name=months.get("final_month_name"),
         )
     except Exception as e:
+        logging.exception(e)
         raise exceptions.GetOrCreateOfficialIssueError(
             _("Unable to set official issue to SciELO issue {} {} {}").format(
                 classic_website_issue, type(e), e
             )
-        )
-
-
-def publish_imported_issue(migrated_issue):
-    """
-    Raises
-    ------
-    PublishIssueError
-    """
-    issue = classic_ws.Issue(migrated_issue.data)
-
-    if migrated_issue.status != MS_IMPORTED:
-        logging.info("Skipped: publish issue {}".format(migrated_issue))
-        return
-    try:
-        published_id = get_bundle_id(
-            issue.journal,
-            issue.publication_year,
-            issue.volume,
-            issue.number,
-            issue.supplement,
-        )
-        issue_to_publish = IssueToPublish(published_id)
-
-        issue_to_publish.add_identification(
-            issue.volume,
-            issue.number,
-            issue.supplement)
-        issue_to_publish.add_journal(issue.journal)
-        issue_to_publish.add_order(int(issue.order[4:]))
-        issue_to_publish.add_pid(issue.pid)
-        issue_to_publish.add_publication_date(
-            issue.publication_year,
-            issue.start_month,
-            issue.end_month)
-        # FIXME indica se há artigos / documentos
-        # para uso de indicação fascículo aop "desativado"
-        issue_to_publish.has_docs = []
-
-        issue_to_publish.publish_issue()
-    except Exception as e:
-        raise exceptions.PublishIssueError(
-            _("Unable to publish {} {}").format(
-                migrated_issue.issue_pid, e)
-        )
-
-    try:
-        migrated_issue.status = MS_PUBLISHED
-        migrated_issue.save()
-    except Exception as e:
-        raise exceptions.PublishIssueError(
-            _("Unable to upate migrated_issue status {} {}").format(
-                migrated_issue.issue_pid, e)
         )
 
 
@@ -749,19 +593,12 @@ def import_issues_files_and_migrate_documents(
         ):
 
     params = {
-        'migrated_issue__migrated_journal__collection__acron': collection_acron
+        'migrated_journal__collection__acron': collection_acron
     }
     if scielo_issn:
-        params['migrated_issue__migrated_journal__scielo_issn'] = scielo_issn
+        params['migrated_journal__scielo_issn'] = scielo_issn
     if publication_year:
-        params['migrated_issue__official_issue__publication_year'] = publication_year
-
-    logging.info(params)
-
-    items = IssueMigration.objects.filter(
-        Q(status=MS_PUBLISHED) | Q(status=MS_IMPORTED),
-        **params,
-    )
+        params['official_issue__publication_year'] = publication_year
 
     mcc = MigrationConfigurationController(collection_acron, user)
     # mcc.connect_db()
@@ -770,15 +607,19 @@ def import_issues_files_and_migrate_documents(
     # dos metadados, e geração de XML, pois
     # há casos que os HTML mencionam arquivos de pastas diferentes
     # da sua pasta do fascículo
-    for migrated_issue in items:
-        import_issue_files(
-            migrated_issue=migrated_issue,
-            mcc=mcc,
-            force_update=force_update,
-        )
-
-    for migrated_issue in items:
+    items = MigratedIssue.objects.filter(
+        Q(status=MS_PUBLISHED) | Q(status=MS_IMPORTED),
+        **params,
+    )
+    for migrated_issue in items.iterator():
+        logging.info(migrated_issue)
         try:
+            import_issue_files(
+                migrated_issue=migrated_issue,
+                mcc=mcc,
+                force_update=force_update,
+                user=user,
+            )
             for source_file_path in mcc.get_artigo_source_files_paths(
                     migrated_issue.migrated_journal.acron,
                     migrated_issue.issue_folder,
@@ -795,6 +636,7 @@ def import_issues_files_and_migrate_documents(
                 )
 
         except Exception as e:
+            logging.exception(e)
             migrated_issue.failures.add(
                 MigrationFailure.create(
                     _("Error importing documents of {}").format(migrated_issue),
@@ -811,6 +653,7 @@ def import_issue_files(
         migrated_issue,
         mcc,
         force_update,
+        user,
         ):
     """135
     Migra os arquivos do fascículo (pdf, img, xml ou html)
@@ -833,6 +676,8 @@ def import_issue_files(
             creator=user,
         )
     except Exception as e:
+        logging.exception(e)
+
         migrated_issue.failures.add(
             MigrationFailure.create(
                 _("Error import isse files of {}").format(migrated_issue),
@@ -892,6 +737,7 @@ def migrate_documents(
                     force_update=force_update,
                 )
             except Exception as e:
+                logging.exception(e)
                 migrated_issue.failures.add(
                     MigrationFailure.create(
                         _('Error migrating documents {}').format(migrated_issue),
@@ -902,6 +748,7 @@ def migrate_documents(
                 )
                 migrated_issue.save()
     except Exception as e:
+        logging.exception(e)
         migrated_issue.failures.add(
             MigrationFailure.create(
                 _('Error migrating documents {}').format(migrated_issue),
@@ -925,7 +772,10 @@ def migrate_document(
         ):
     try:
         # instancia Document com registros de title, issue e artigo
-        pid = document.pid
+        pid = document.scielo_pid_v2 or (issue_pid + document.order.zfill(5))
+
+        if document.scielo_pid_v2 != pid:
+            document.scielo_pid_v2 = pid
 
         migrated_journal = MigratedJournal.get_or_create(
                 collection_acron, scielo_issn, user)
@@ -936,6 +786,8 @@ def migrate_document(
             pid=pid,
             key=document.filename_without_extension,
             migrated_issue=migrated_issue,
+            aop_pid=document.aop_pid,
+            v3=document.scielo_pid_v3,
             creator=user,
         )
         migrated_document.add_files(
@@ -945,21 +797,44 @@ def migrate_document(
             updated_by=user,
         )
         # solicitar pid v3
+        logging.debug("XML WITH PRE %s" % type(migrated_document.xml_with_pre))
+        logging.info("migrated_document.xml_with_pre ids %s %s %s" %
+            (
+                migrated_document.xml_with_pre.v3,
+                migrated_document.xml_with_pre.v2,
+                migrated_document.xml_with_pre.aop_pid,
+                ))
+        logging.info("document ids %s %s %s" %
+            (
+                document.scielo_pid_v3,
+                document.scielo_pid_v2,
+                document.aop_pid,
+                ))
         # cria / atualiza artigo de app publication
-        article = PublicationArticle.register(
+        response = ArticleXMLRegistration().register(
             xml_with_pre=migrated_document.xml_with_pre,
-            name=migrated_document.pkg_name + ".xml",
+            name=migrated_document.key + ".xml",
             user=user,
+            # pdfs=migrated_document.rendition_files,
         )
-        article.pdf_files.set(migrated_document.rendition_files)
-
-        # atualiza status da migração
-        migrated_document.add_data(
-            document,
-            journal_issue_and_document_data,
-            force_update,
-        )
+        logging.info("response %s " % response)
+        try:
+            migrated_document.pid = response['registered'].get("v2")
+            migrated_document.v3 = response['registered'].get("v3")
+            migrated_document.aop_pid = response['registered'].get("aop_pid")
+            migrated_document.save()
+        except KeyError:
+            # TODO o que fazer quando response['error']
+            logging.exception(response)
+        else:
+            # atualiza status da migração
+            migrated_document.add_data(
+                document,
+                journal_issue_and_document_data,
+                force_update,
+            )
     except Exception as e:
+        logging.exception(e)
         migrated_document.failures.add(
             MigrationFailure.create(
                 _("Unable to migrate document {} {} {}").format(

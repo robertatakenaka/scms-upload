@@ -3,9 +3,9 @@ import os
 
 from django.utils.translation import gettext_lazy as _
 
-from .utils import generate_finger_print
+from .utils import generate_finger_print, get_file_finger_print
 from .models import (
-    Configuration,
+    MinioConfiguration,
     MinioFile,
 )
 from .minio import MinioStorage
@@ -33,14 +33,13 @@ def get_files_storage(files_storage_config):
 class FilesStorageManager:
 
     def __init__(self, files_storage_name):
-        self.config = Configuration.get_or_create(name=files_storage_name)
+        self.config = MinioConfiguration.get_or_create(name=files_storage_name)
         self.files_storage = get_files_storage(self.config)
 
     def push_pid_provider_xml(self, versions, filename, content, creator):
         try:
             finger_print = generate_finger_print(content)
-            if versions and versions.latest_version and finger_print == versions.latest_version.finger_print:
-                return
+
             name, extension = os.path.splitext(filename)
             if extension == '.xml':
                 mimetype = "text/xml"
@@ -64,19 +63,19 @@ class FilesStorageManager:
 
     def push_file(self, file, source_filename, subdirs, preserve_name, creator):
         try:
-            with open(source_filename, "r") as fp:
-                finger_print = generate_finger_print(fp.read())
-
-            if file.remote_file and finger_print == file.remote_file.finger_print:
-                return
+            finger_print = get_file_finger_print(source_filename)
 
             basename = os.path.basename(source_filename)
+            subdirs = os.path.join(self.config.bucket_app_subdir, subdirs)
+            logging.info("Files storage {} {}".format(
+                source_filename, subdirs))
 
             response = self.files_storage.register(
                 source_filename,
-                subdirs=os.path.join(self.config.bucket_app_subdir, subdirs),
+                subdirs=subdirs,
                 preserve_name=preserve_name,
             )
+            logging.info("Push file %s %s" % (source_filename, response))
             file.remote_file = MinioFile.create(
                 creator, response['uri'], finger_print, basename)
             file.save()
@@ -91,8 +90,6 @@ class FilesStorageManager:
     def push_xml_content(self, file, filename, subdirs, content, creator):
         try:
             finger_print = generate_finger_print(content)
-            if file.remote_file and finger_print == file.remote_file.finger_print:
-                return
 
             name, extension = os.path.splitext(filename)
             if extension == '.xml':

@@ -105,11 +105,12 @@ THIRD_PARTY_APPS = [
     "wagtailcaptcha",
     "wagtailmenus",
     "rest_framework",
-    "core",
+    "rest_framework.authtoken",
     "wagtailautocomplete",
 ]
 
 LOCAL_APPS = [
+    "core",
     "core.users",
     "core_settings",
     # Your stuff: custom apps go here
@@ -126,6 +127,8 @@ LOCAL_APPS = [
     # "upload",
     "controlled_lists",
     "files_storage",
+    "pid_provider",
+    "xmlsps",
 ]
 
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
@@ -379,3 +382,31 @@ NOCAPTCHA = True
 
 RECAPTCHA_PUBLIC_KEY = env.str("RECAPTCHA_PUBLIC_KEY", default='')
 RECAPTCHA_PRIVATE_KEY = env.str("RECAPTCHA_PRIVATE_KEY", default='')
+REST_FRAMEWORK = {
+    'DEFAULT_PERMISSION_CLASSES': (
+        'rest_framework.permissions.IsAuthenticated',
+    ),
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework.authentication.SessionAuthentication',
+        'rest_framework.authentication.BasicAuthentication',
+        'rest_framework.authentication.TokenAuthentication',
+    ),
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
+    'PAGE_SIZE': 10
+}
+FILE_UPLOAD_HANDLERS = [
+    "django.core.files.uploadhandler.MemoryFileUploadHandler",
+    "django.core.files.uploadhandler.TemporaryFileUploadHandler",
+ ]
+
+# PID PROVIDER
+# django
+# API_PID_PROVIDER_URI = env.str(
+#     "API_PID_PROVIDER_URI", "http://django:8000/pid_provider/")
+# API_PID_PROVIDER_TOKEN_URI = env.str(
+#     "API_PID_PROVIDER_TOKEN_URI", "http://django:8000/api-token-auth/")
+
+API_PID_PROVIDER_URI = env.str(
+    "API_PID_PROVIDER_URI", "http://192.168.1.19:8000/pid_provider/")
+API_PID_PROVIDER_TOKEN_URI = env.str(
+    "API_PID_PROVIDER_TOKEN_URI", "http://192.168.1.19:8000/api-token-auth/")

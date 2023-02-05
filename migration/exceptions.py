@@ -1,3 +1,7 @@
+class UpdateMigratedJournalError(Exception):
+    ...
+
+
 class AddLangsToXMLFilesError(Exception):
     ...
 
@@ -50,7 +54,11 @@ class IssueFilesMigrationError(Exception):
     ...
 
 
-class IssueFilesStoreError(Exception):
+class AddFilesToMigratedDocumentError(Exception):
+    ...
+
+
+class GetArticleDatabaseToMigrateError(Exception):
     ...
 
 

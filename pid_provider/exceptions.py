@@ -1,7 +1,3 @@
-class XMLArticleDataExtractorXMLWithPreError(Exception):
-    ...
-
-
 class XMLDocPidXMLWithPreError(Exception):
     ...
 
