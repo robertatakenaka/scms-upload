@@ -335,6 +335,9 @@ class MigratedIssue(MigratedData):
         return obj
 
     def get_files(self, item_type, pkg_name=None, lang=None):
+        logging.info(
+            "MigratedIssue.get_files %s %s %s" %
+            (item_type, pkg_name, lang))
         if item_type == "asset":
             files = self.assets
         elif item_type == "pdf":
@@ -352,7 +355,7 @@ class MigratedIssue(MigratedData):
     def add_files(self, classic_issue_files=None, get_files_storage=None,
                   creator=None,
                   ):
-        logging.debug("MigratedIssue input {}".format(self))
+        logging.info("MigratedIssue input {}".format(self))
 
         result = {"failures": [], "success": []}
 
@@ -387,7 +390,7 @@ class MigratedIssue(MigratedData):
             self.files_status = MS_IMPORTED
         self.files = result
         self.save()
-        logging.debug("MigratedIssue output {}".format(result))
+        logging.info("MigratedIssue output {}".format(result))
         return result
 
     @property
@@ -493,6 +496,7 @@ class MigratedDocument(MigratedData):
     def add_files(self, classic_website_document, original_language,
                   migration_fs_manager, updated_by,
                   ):
+        logging.info("MigratedDocument.add_files")
         try:
             self.main_lang = original_language
             self.updated_by = updated_by
@@ -518,8 +522,11 @@ class MigratedDocument(MigratedData):
                 return
         self.isis_created_date = classic_website_document.isis_created_date
         self.isis_updated_date = classic_website_document.isis_updated_date
-        self.status = MS_IMPORTED
         self.data = document_data
+        self.save()
+
+    def finish(self):
+        self.status = MS_IMPORTED
         self.save()
 
     @property
@@ -529,7 +536,7 @@ class MigratedDocument(MigratedData):
         """
         if not hasattr(self, '_xml_with_pre') or not self._xml_with_pre:
             for xml_file in self.xmls.iterator():
-                logging.debug("xml_with_pre {}".format(xml_file.uri))
+                logging.info("xml_with_pre {}".format(xml_file.uri))
                 _xml_with_pre = get_xml_with_pre_from_uri(xml_file.uri)
                 self._xml_with_pre = _xml_with_pre.get_xml_with_pre_with_remote_assets(
                     v3=self.v3,
@@ -545,17 +552,17 @@ class MigratedDocument(MigratedData):
         if not hasattr(self, '_html_texts') or not self._html_texts:
             self._html_texts = {}
             for html_file in self.htmls.iterator():
-                logging.debug("{} {}".format(html_file.lang, html_file))
+                logging.info("{} {}".format(html_file.lang, html_file))
                 self._html_texts.setdefault(html_file.lang, {})
                 part = f"{html_file.part} references"
                 self._html_texts[html_file.lang][part] = html_file.text
         return self._html_texts
 
     def set_pdf_files(self):
-        logging.debug("MigratedDocument.set_pdf_files {}".format(self))
+        logging.info("MigratedDocument.set_pdf_files {}".format(self))
         pdfs = self.migrated_issue.get_files('pdf', self.key)
         for pdf in pdfs:
-            logging.debug(pdf)
+            logging.info(pdf)
             if pdf.lang.code2 == "main":
                 pdf.lang = Language.get_or_create(
                     code2=self.main_lang,
@@ -565,19 +572,19 @@ class MigratedDocument(MigratedData):
         self.save()
 
     def set_xmls(self, document, migration_fs_manager, user):
-        logging.debug("MigratedDocument.set_xmls {}".format(self))
+        logging.info("MigratedDocument.set_xmls {}".format(self))
         for xml in self.migrated_issue.get_files('xml', self.key):
-            logging.debug(xml)
+            logging.info(xml)
             self.xmls.add(xml)
 
         selected = None
         for xml_body_file in self.body_xmls.iterator():
-            logging.debug(xml_body_file)
+            logging.info(xml_body_file)
             selected = xml_body_file
             if xml_body_file.selected:
                 break
         if selected:
-            logging.debug("Generate XML from HTML")
+            logging.info("Generate XML from HTML")
 
             # gera xml a partir dos metadados da base isis + body + back
             xml_content = document.generate_full_xml(
@@ -592,9 +599,9 @@ class MigratedDocument(MigratedData):
         self.save()
 
     def set_body_xmls(self, document, migration_fs_manager, user):
-        logging.debug("MigratedDocument.set_body_xmls {}".format(self))
+        logging.info("MigratedDocument.set_body_xmls {}".format(self))
         for html in self.migrated_issue.get_files("html", self.key):
-            logging.debug(html)
+            logging.info("html=%s" % html)
             self.htmls.add(html)
         self.save()
 
@@ -609,6 +616,6 @@ class MigratedDocument(MigratedData):
                 self.key + f".{i}.xml",
                 os.path.join("xml_body", subdirs),
                 xml, user)
-            logging.debug(xml_body_file)
+            logging.info(xml_body_file)
             self.body_xmls.add(xml_body_file)
         self.save()

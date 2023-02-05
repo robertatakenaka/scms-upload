@@ -117,6 +117,10 @@ class ClassicWebsiteConfiguration(CommonControlField):
     def __str__(self):
         return f"{self.collection}"
 
+    @property
+    def bases_path(self):
+    	return self.bases_work_path.replace("bases-work", "bases")
+
     @classmethod
     def get_or_create(cls, collection, config, user):
         try:

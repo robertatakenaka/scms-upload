@@ -24,7 +24,7 @@ from packtools.sps.models.related_articles import (
 from packtools.sps.models.article_renditions import (
     ArticleRenditions,
 )
-from scielo_classic_website import classic_ws
+from scielo_classic_website.classic_ws import ClassicWebsite
 
 from publication.db import mk_connection
 from core.controller import parse_yyyymmdd, insert_hyphen_in_YYYYMMMDD
@@ -55,13 +55,6 @@ User = get_user_model()
 
 def read_xml_file(file_path):
     return etree.parse(file_path)
-
-
-def _get_classic_website_rel_path(file_path):
-    if 'htdocs' in file_path:
-        return file_path[file_path.find("htdocs"):]
-    if 'base' in file_path:
-        return file_path[file_path.find("base"):]
 
 
 def start(user):
@@ -297,7 +290,19 @@ class MigrationConfigurationController:
             MigrationConfiguration.objects.get(
                 classic_website_config__collection__acron=collection_acron)
         )
-        self.classic_website = self.config.classic_website_config
+        classic_website_config = self.config.classic_website_config
+
+        self.classic_website = ClassicWebsite(
+            bases_path=classic_website_config.bases_path,
+            bases_translation_path=classic_website_config.bases_translation_path,
+            bases_pdf_path=classic_website_config.bases_pdf_path,
+            bases_xml_path=classic_website_config.bases_xml_path,
+            htdocs_img_revistas_path=classic_website_config.htdocs_img_revistas_path,
+            serial_path=classic_website_config.serial_path,
+            cisis_path=classic_website_config.cisis_path,
+            title_path=classic_website_config.title_path,
+            issue_path=classic_website_config.issue_path,
+        )
         self.fs_managers = dict(
             website=FilesStorageManager(
                 self.config.public_files_storage_config.name),
@@ -315,56 +320,19 @@ class MigrationConfigurationController:
                 _("Unable to connect db {} {}").format(type(e), e)
             )
 
-    def get_source_file_path(self, db_name):
-        try:
-            return getattr(self.classic_website, f'{db_name}_path')
-        except AttributeError:
-            raise exceptions.GetMigrationConfigurationError(
-                _("Unable to get path of {} {} {}").format(
-                    db_name, type(e), e)
-            )
+    def get_journals_pids_and_records(self):
+        return self.classic_website.get_journals_pids_and_records()
 
-    def get_artigo_source_files_paths(self, journal_acron, issue_folder):
-        """
-        Apesar de fornecer `issue_folder` o retorno pode ser a base de dados
-        inteira do `journal_acron`
-        """
-        logging.info("Harvest classic website records {} {}".format(journal_acron, issue_folder))
-        try:
-            artigo_source_files_paths = classic_ws.get_artigo_db_path(
-                journal_acron, issue_folder, self.classic_website)
-            logging.info("paths %s" % artigo_source_files_paths)
+    def get_issues_pids_and_records(self):
+        return self.classic_website.get_issues_pids_and_records()
 
-        except Exception as e:
-            logging.exception(e)
-            raise exceptions.GetArticleDatabaseToMigrateError(
-                _("Unable to get artigo db paths from classic website {} {} {}").format(
-                    journal_acron, issue_folder, e,
-                )
-            )
-        logging.info(artigo_source_files_paths)
-        return artigo_source_files_paths
+    def get_documents_pids_and_records(self, journal_acron, issue_folder):
+        return self.classic_website.get_documents_pids_and_records(
+            journal_acron, issue_folder)
 
     def get_classic_website_issue_files(self, journal_acron, issue_folder):
-        classic_website_paths = {
-            "BASES_TRANSLATION_PATH": self.classic_website.bases_translation_path,
-            "BASES_PDF_PATH": self.classic_website.bases_pdf_path,
-            "HTDOCS_IMG_REVISTAS_PATH": self.classic_website.htdocs_img_revistas_path,
-            "BASES_XML_PATH": self.classic_website.bases_xml_path,
-        }
-        logging.info(classic_website_paths)
-        issue_files = classic_ws.get_issue_files(
-            journal_acron, issue_folder, classic_website_paths)
-        for info in issue_files:
-            logging.info(info)
-            try:
-                info['relative_path'] = _get_classic_website_rel_path(info['path'])
-            except Exception as e:
-                logging.exception(e)
-                info['error'] = str(e)
-                info['error_type'] = str(type(e))
-            logging.info(info)
-            yield info
+        return self.classic_website.get_issue_files(
+            journal_acron, issue_folder)
 
     def get_files_storage(self, filename):
         name, ext = os.path.splitext(filename)
@@ -382,11 +350,7 @@ def migrate_journals(
     try:
         action = "migrate"
         mcc = MigrationConfigurationController(collection_acron, user)
-        # mcc.connect_db()
-        source_file_path = mcc.get_source_file_path("title")
-
-        for scielo_issn, journal_data in classic_ws.get_records_by_source_path(
-                "title", source_file_path):
+        for scielo_issn, journal_data in mcc.get_journals_pids_and_records():
             migrated_journal = import_data_from_title_database(
                 user, collection_acron,
                 scielo_issn, journal_data[0], force_update)
@@ -455,9 +419,7 @@ def migrate_issues(
         ):
     mcc = MigrationConfigurationController(collection_acron, user)
     # mcc.connect_db()
-    source_file_path = mcc.get_source_file_path("issue")
-
-    for issue_pid, issue_data in classic_ws.get_records_by_source_path("issue", source_file_path):
+    for issue_pid, issue_data in mcc.get_issues_pids_and_records():
         try:
             action = "import"
             migrated_issue = import_data_from_issue_database(
@@ -620,20 +582,15 @@ def import_issues_files_and_migrate_documents(
                 force_update=force_update,
                 user=user,
             )
-            for source_file_path in mcc.get_artigo_source_files_paths(
-                    migrated_issue.migrated_journal.acron,
-                    migrated_issue.issue_folder,
-                    ):
-                # migra os documentos da base de dados `source_file_path`
-                # que não contém necessariamente os dados de só 1 fascículo
-                migrate_documents(
-                    mcc.user,
-                    collection_acron,
-                    source_file_path,
-                    migrated_issue,
-                    mcc,
-                    force_update,
-                )
+            # migra os documentos da base de dados `source_file_path`
+            # que não contém necessariamente os dados de só 1 fascículo
+            migrate_documents(
+                mcc.user,
+                collection_acron,
+                migrated_issue,
+                mcc,
+                force_update,
+            )
 
         except Exception as e:
             logging.exception(e)
@@ -692,7 +649,6 @@ def import_issue_files(
 def migrate_documents(
         user,
         collection_acron,
-        source_file_path,
         migrated_issue,
         mcc,
         force_update=False,
@@ -713,11 +669,16 @@ def migrate_documents(
         # do fascículo de migrated_issue
         # possivelmente source_file pode conter registros de outros fascículos
         # se source_file for acrônimo
-        logging.info("Importing documents records from source_file_path={}".format(source_file_path))
-        for grp_id, grp_records in classic_ws.get_records_by_source_path(
-                "artigo", source_file_path):
+        logging.info("Importing documents records {} {}".format(
+            migrated_issue.migrated_journal.acron,
+            migrated_issue.issue_folder,
+        ))
+        for grp_id, grp_records in mcc.get_documents_pids_and_records(
+                migrated_issue.migrated_journal.acron,
+                migrated_issue.issue_folder,
+                ):
             try:
-                logging.info(_("Get {} from {}").format(grp_id, source_file_path))
+                logging.info(_("Get {}").format(grp_id))
                 if len(grp_records) == 1:
                     # é possível que em source_file_path exista registro tipo i
                     journal_issue_and_document_data['issue'] = grp_records[0]
@@ -790,6 +751,11 @@ def migrate_document(
             v3=document.scielo_pid_v3,
             creator=user,
         )
+        migrated_document.add_data(
+            document,
+            journal_issue_and_document_data,
+            force_update,
+        )
         migrated_document.add_files(
             classic_website_document=document,
             original_language=document.original_language,
@@ -827,12 +793,7 @@ def migrate_document(
             # TODO o que fazer quando response['error']
             logging.exception(response)
         else:
-            # atualiza status da migração
-            migrated_document.add_data(
-                document,
-                journal_issue_and_document_data,
-                force_update,
-            )
+            migrated_document.finish()
     except Exception as e:
         logging.exception(e)
         migrated_document.failures.add(
