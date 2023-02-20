@@ -67,17 +67,17 @@ class Language(CommonControlField):
         code2
     """
     name = models.CharField(_("Language Name"), blank=True, null=True, max_length=255)
-    code2 = models.CharField(_("Language code 2"), blank=True, null=True, max_length=5)
+    code2 = models.CharField(_("Language code 2"), blank=True, null=True, max_length=2)
 
     class Meta:
         verbose_name = _("Language")
         verbose_name_plural = _("Languages")
 
     def __unicode__(self):
-        return u'%s %s' % (self.name, self.code2)
+        return self.code2 or 'idioma ausente / não informado'
 
     def __str__(self):
-        return u'%s %s' % (self.name, self.code2)
+        return self.code2 or 'idioma ausente / não informado'
 
     @classmethod
     def get_or_create(cls, name=None, code2=None, creator=None):

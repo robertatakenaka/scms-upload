@@ -6,6 +6,9 @@ from datetime import datetime
 
 from django.db import models
 from django.utils.translation import gettext_lazy as _
+from packtools.sps.models.article_assets import (
+    ArticleAssets,
+)
 
 from core.choices import LANGUAGE
 from core.models import CommonControlField, Language
@@ -21,11 +24,7 @@ from journal.models import OfficialJournal
 from issue.models import Issue
 from files_storage.models import (
     MinioConfiguration,
-    FileWithLang,
-    AssetFile,
-    XMLFile,
-    SciELOHTMLFile,
-    BodyAndBackXMLFile,
+    MinioFile,
 )
 from xmlsps.xml_sps_lib import get_xml_with_pre_from_uri
 from . import choices
@@ -88,14 +87,14 @@ class MigrationConfiguration(CommonControlField):
 
 
 class MigrationFailure(CommonControlField):
-    action_name = models.CharField(
-        _('Action'), max_length=255, null=True, blank=True)
-    message = models.CharField(
-        _('Message'), max_length=255, null=True, blank=True)
-    exception_type = models.CharField(
-        _('Exception Type'), max_length=255, null=True, blank=True)
-    exception_msg = models.CharField(
-        _('Exception Msg'), max_length=555, null=True, blank=True)
+    action_name = models.TextField(
+        _('Action'), null=True, blank=True)
+    message = models.TextField(
+        _('Message'), null=True, blank=True)
+    exception_type = models.TextField(
+        _('Exception Type'), null=True, blank=True)
+    exception_msg = models.TextField(
+        _('Exception Msg'), null=True, blank=True)
     traceback = models.JSONField(null=True, blank=True)
 
     class Meta:
@@ -124,17 +123,17 @@ class MigratedData(CommonControlField):
 
     # datas no registro da base isis para identificar
     # se houve mudança nos dados durante a migração
-    isis_updated_date = models.CharField(
+    isis_updated_date = models.TextField(
         _('ISIS updated date'), max_length=8, null=True, blank=True)
-    isis_created_date = models.CharField(
+    isis_created_date = models.TextField(
         _('ISIS created date'), max_length=8, null=True, blank=True)
 
     # dados migrados
     data = models.JSONField(blank=True, null=True)
 
     # status da migração
-    status = models.CharField(
-        _('Status'), max_length=20,
+    status = models.TextField(
+        _('Status'),
         choices=choices.MIGRATION_STATUS,
         default=choices.MS_TO_MIGRATE,
     )
@@ -147,6 +146,165 @@ class MigratedData(CommonControlField):
         ]
 
 
+class MigratedFile(MinioFile):
+    # identifica os arquivos do mesmo documento
+    pkg_name = models.TextField(_('Package name'), null=True, blank=True)
+    relative_path = models.TextField(_('Relative Path'), null=True, blank=True)
+
+    class Meta:
+        indexes = [
+            models.Index(fields=['pkg_name']),
+            models.Index(fields=['basename']),
+            models.Index(fields=['relative_path']),
+        ]
+
+    def __str__(self):
+        return self.relative_path
+
+    def __unicode__(self):
+        return self.relative_path
+
+    @classmethod
+    def get_or_create(cls, item, creator):
+        try:
+            return cls.objects.get(relative_path=item['relative_path'])
+        except cls.DoesNotExist:
+            file = cls()
+            logging.info(item)
+            file.basename = item.get("basename")
+            file.pkg_name = item.get("key") or item.get("pkg_name")
+            file.relative_path = item['relative_path']
+            file.creator = creator
+            file.save()
+            return file
+
+    @classmethod
+    def push(cls, item, push_file, subdirs, preserve_name, creator):
+        logging.info(item)
+        obj = cls.get_or_create(item, creator)
+
+        response = push_file(
+            item['path'],
+            subdirs,
+            preserve_name,
+        )
+        obj.basename = response["basename"]
+        obj.uri = response["uri"]
+        obj.save()
+        logging.info(response)
+        return obj
+
+
+class MigratedPdfFile(MigratedFile):
+    lang = models.ForeignKey(Language, null=True, blank=True, on_delete=models.SET_NULL)
+
+    class Meta:
+        indexes = [
+            models.Index(fields=['lang']),
+        ]
+
+    @classmethod
+    def get_or_create(cls, item, creator):
+        logging.info("MigratedPdfFile.get_or_create %s" % item)
+        obj = super().get_or_create(cls, item, creator)
+        if not obj.lang and item.get("lang"):
+            obj.lang = Language.get_or_create(
+                code2=item['lang'], creator=creator)
+            obj.save()
+        return obj
+
+
+class MigratedAssetFile(MigratedFile):
+    pass
+
+
+class MigratedXMLFile(MigratedFile):
+    assets_files = models.ManyToManyField(MigratedAssetFile)
+
+    @property
+    def xml_with_pre_with_remote_assets(self):
+        """
+        XML with pre, remote assets
+        """
+        if not hasattr(self, '_get_xml_with_pre_with_remote_assets') or not self._get_xml_with_pre_with_remote_assets:
+            logging.info("xml_with_pre {}".format(self.uri))
+            self._get_xml_with_pre_with_remote_assets = (
+                self.xml_with_pre.get_xml_with_pre_with_remote_assets(
+                    v3=self.v3,
+                    v2=self.pid,
+                    aop_pid=self.aop_pid,
+                    assets_uris={
+                        asset_file.name: asset_file.uri
+                        for asset_file in self.assets_files.iterator()
+                    }
+                ))
+        return self._get_xml_with_pre_with_remote_assets
+
+    @property
+    def xml_with_pre(self):
+        """
+        XML with pre, remote assets
+        """
+        if not hasattr(self, '_xml_with_pre') or not self._xml_with_pre:
+            logging.info("xml_with_pre {}".format(self.uri))
+            self._xml_with_pre = get_xml_with_pre_from_uri(self.uri)
+        return self._xml_with_pre
+
+    def add_assets(self, issue_assets):
+        xml_assets = ArticleAssets(self.xml_with_pre.xmltree).article_assets
+
+        for xml_asset in xml_assets:
+            href = os.path.basename(xml_asset.name)
+            try:
+                registered_asset = issue_assets.get(name=href)
+            except MigratedAssetFile.DoesNotExist:
+                try:
+                    registered_asset = MigratedAssetFile.objects.get(
+                        relative_path=xml_asset.name)
+                except MigratedAssetFile.DoesNotExist:
+                    # TODO not found
+                    registered_asset = None
+            if registered_asset:
+                self.assets_files.add(registered_asset)
+                self.save()
+
+
+class MigratedHTMLFile(MigratedFile):
+    lang = models.ForeignKey(Language, null=True, blank=True, on_delete=models.SET_NULL)
+    part = models.TextField(_('Part'), null=False, blank=False)
+    replacements = models.JSONField(null=True, blank=True)
+
+    class Meta:
+        indexes = [
+            models.Index(fields=['lang']),
+            models.Index(fields=['part']),
+        ]
+
+    @classmethod
+    def get_or_create(cls, item, creator):
+        obj = super().get_or_create(cls, item, creator)
+        if not obj.lang and item.get("lang"):
+            obj.lang = Language.get_or_create(
+                code2=item['lang'], creator=creator)
+            obj.part = item['part']
+            obj.replacements = item['replacements']
+            obj.save()
+        return obj
+
+    @property
+    def text(self):
+        if not hasattr(self, '_text') or not self._text:
+            try:
+                response = requests.get(self.uri, timeout=10)
+            except Exception as e:
+                return "Unable to get text from {}".format(self.uri)
+            else:
+                self._text = response.content
+            for old, new in self.replacements.items():
+                self._text = self._text.replace(f'"{old}"', f'"{new}"')
+        return self._text
+
+
 class MigratedJournal(MigratedData):
     """
     Class that represents journals data in a SciELO Collection context
@@ -154,11 +312,11 @@ class MigratedJournal(MigratedData):
     For official data, use Journal model
     """
     collection = models.ForeignKey(Collection, on_delete=models.SET_NULL, null=True, blank=True)
-    scielo_issn = models.CharField(_('SciELO ISSN'), max_length=9, null=False, blank=False)
-    acron = models.CharField(_('Acronym'), max_length=25, null=True, blank=True)
-    title = models.CharField(_('Title'), max_length=255, null=True, blank=True)
-    availability_status = models.CharField(
-        _('Availability Status'), max_length=10, null=True, blank=True,
+    scielo_issn = models.TextField(_('SciELO ISSN'), max_length=9, null=False, blank=False)
+    acron = models.TextField(_('Acronym'), null=True, blank=True)
+    title = models.TextField(_('Title'), null=True, blank=True)
+    availability_status = models.TextField(
+        _('Availability Status'), null=True, blank=True,
         choices=JOURNAL_AVAILABILTY_STATUS)
     official_journal = models.ForeignKey(
         OfficialJournal, on_delete=models.SET_NULL, null=True, blank=True)
@@ -177,9 +335,6 @@ class MigratedJournal(MigratedData):
         ]
 
     def __unicode__(self):
-        return u'%s %s' % (self.collection, self.scielo_issn)
-
-    def __str__(self):
         return u'%s %s' % (self.collection, self.scielo_issn)
 
     def __str__(self):
@@ -247,16 +402,16 @@ class MigratedIssue(MigratedData):
     migrated_journal = models.ForeignKey(MigratedJournal, on_delete=models.SET_NULL, null=True, blank=True)
     official_issue = models.ForeignKey(Issue, on_delete=models.SET_NULL, null=True, blank=True)
 
-    issue_pid = models.CharField(_('Issue PID'), max_length=23, null=False, blank=False)
+    issue_pid = models.TextField(_('Issue PID'), max_length=23, null=False, blank=False)
     # v30n1 ou 2019nahead
-    issue_folder = models.CharField(_('Issue Folder'), max_length=23, null=False, blank=False)
+    issue_folder = models.TextField(_('Issue Folder'), max_length=23, null=False, blank=False)
 
-    htmls = models.ManyToManyField(SciELOHTMLFile, related_name='issue_htmls')
-    xmls = models.ManyToManyField(XMLFile, related_name='issue_xmls')
-    pdfs = models.ManyToManyField(FileWithLang, related_name='issue_pdfs')
-    assets = models.ManyToManyField(AssetFile, related_name='issue_assets')
-    files_status = models.CharField(
-        _('Status'), max_length=20,
+    htmls = models.ManyToManyField(MigratedHTMLFile, related_name='issue_htmls')
+    xmls = models.ManyToManyField(MigratedXMLFile, related_name='issue_xmls')
+    pdfs = models.ManyToManyField(MigratedPdfFile, related_name='issue_pdfs')
+    assets = models.ManyToManyField(MigratedAssetFile, related_name='issue_assets')
+    files_status = models.TextField(
+        _('Status'),
         choices=choices.MIGRATION_STATUS,
         default=choices.MS_TO_MIGRATE,
     )
@@ -309,17 +464,17 @@ class MigratedIssue(MigratedData):
     @property
     def ClassFileModels(self):
         return {
-            "asset": AssetFile,
-            "pdf": FileWithLang,
-            "xml": XMLFile,
-            "html": SciELOHTMLFile,
+            "asset": MigratedAssetFile,
+            "pdf": MigratedPdfFile,
+            "xml": MigratedXMLFile,
+            "html": MigratedHTMLFile,
         }
 
     def add_file(self, item, push_file, subdirs, preserve_name, creator):
         item_type = item.pop('type')
         logging.info("MigrateIssue.add_file %s " % item)
         ClassFile = self.ClassFileModels[item_type]
-        obj = ClassFile.create_or_update(
+        obj = ClassFile.push(
             item, push_file, subdirs, preserve_name, creator)
         if item_type == "asset":
             self.assets.add(obj)
@@ -393,24 +548,6 @@ class MigratedIssue(MigratedData):
         logging.info("MigratedIssue output {}".format(result))
         return result
 
-    @property
-    def assets_uris(self):
-        if not hasattr(self, '_assets_uris') or not self._assets_uris:
-            self._assets_uris = {
-                name: asset.uri
-                for name, asset in self.assets_dict.items()
-            }
-        return self._assets_uris
-
-    @property
-    def assets_dict(self):
-        if not hasattr(self, '_assets_as_dict') or not self._assets_as_dict:
-            self._assets_as_dict = {
-                asset.name: asset
-                for asset in self.assets.iterator()
-            }
-        return self._assets_as_dict
-
     def update(self, classic_issue, official_issue, issue_data, force_update):
         logging.info((
             self.isis_updated_date,
@@ -429,52 +566,58 @@ class MigratedIssue(MigratedData):
         self.save()
 
 
+class BodyAndBackXMLFile(MinioFile):
+    selected = models.BooleanField(default=False)
+    version = models.IntegerField(_("Version"), null=True, blank=True)
+
+    def __str__(self):
+        return f"{self.migrated_document} {self.version} {self.selected}"
+
+
 class MigratedDocument(MigratedData):
 
     migrated_issue = models.ForeignKey(MigratedIssue, on_delete=models.SET_NULL, null=True, blank=True)
-    v3 = models.CharField(_('PID v3'), max_length=23, null=True, blank=True)
-    pid = models.CharField(_('PID v2'), max_length=23, null=True, blank=True)
-    aop_pid = models.CharField(_('AOP PID'), max_length=23, null=True, blank=True)
+    v3 = models.TextField(_('PID v3'), max_length=23, null=True, blank=True)
+    pid = models.TextField(_('PID v2'), max_length=23, null=True, blank=True)
+    aop_pid = models.TextField(_('AOP PID'), max_length=23, null=True, blank=True)
     # filename without extension
-    key = models.CharField(_('File key'), max_length=50, null=True, blank=True)
-    main_lang = models.CharField(_("Language"), max_length=5, choices=LANGUAGE, null=True, blank=True)
+    pkg_name = models.TextField(_('Package name'), null=True, blank=True)
+    main_lang = models.ForeignKey(Language, on_delete=models.SET_NULL, null=True, blank=True)
 
-    xmls = models.ManyToManyField(XMLFile, related_name='xmls')
-    pdfs = models.ManyToManyField(FileWithLang, related_name='pdfs')
-    htmls = models.ManyToManyField(SciELOHTMLFile, related_name='htmls')
-    body_xmls = models.ManyToManyField(BodyAndBackXMLFile, related_name='body_xmls')
-    files_status = models.CharField(
-        _('Status'), max_length=20,
+    body_and_back_xmls = models.ManyToManyField(BodyAndBackXMLFile)
+    xmls = models.ManyToManyField(MigratedXMLFile, related_name='xmls')
+    pdfs = models.ManyToManyField(MigratedPdfFile, related_name='pdfs')
+    htmls = models.ManyToManyField(MigratedHTMLFile, related_name='htmls')
+    files_status = models.TextField(
+        _('Status'),
         choices=choices.MIGRATION_STATUS,
         default=choices.MS_TO_MIGRATE,
     )
 
-    def __str__(self):
-        return f"{self.migrated_issue} {self.key} data: {self.status} | files: {self.files_status}"
-
     def __unicode__(self):
-        return u'%s %s' % (self.migrated_issue, self.key)
+        return u'%s %s' % (self.migrated_issue, self.pkg_name)
 
     def __str__(self):
-        return u'%s %s' % (self.migrated_issue, self.key)
+        return u'%s %s' % (self.migrated_issue, self.pkg_name)
 
     class Meta:
         indexes = [
             models.Index(fields=['migrated_issue']),
+            models.Index(fields=['v3']),
             models.Index(fields=['pid']),
-            models.Index(fields=['key']),
-            models.Index(fields=['main_lang']),
+            models.Index(fields=['aop_pid']),
+            models.Index(fields=['pkg_name']),
             models.Index(fields=['files_status']),
         ]
 
     @classmethod
-    def get_or_create(cls, pid, key, migrated_issue, creator=None, aop_pid=None, v3=None):
+    def get_or_create(cls, pid, pkg_name, migrated_issue, creator=None, aop_pid=None, v3=None):
         try:
-            logging.info("Migrated Document %s %s %s" % (pid, key, migrated_issue))
+            logging.info("Migrated Document %s %s %s" % (pid, pkg_name, migrated_issue))
             return cls.objects.get(
                 migrated_issue=migrated_issue,
                 pid=pid,
-                key=key,
+                pkg_name=pkg_name,
             )
         except cls.DoesNotExist:
             item = cls()
@@ -482,40 +625,18 @@ class MigratedDocument(MigratedData):
             item.migrated_issue = migrated_issue
             item.pid = pid
             item.aop_pid = aop_pid
-            item.key = key
+            item.pkg_name = pkg_name
             item.v3 = v3
             item.save()
             return item
         except Exception as e:
             raise exceptions.GetOrCreateMigratedDocumentError(
                 _('Unable to get_or_create_document_migration {} {} {} {}').format(
-                    migrated_issue, key, type(e), e
+                    migrated_issue, pkg_name, type(e), e
                 )
             )
 
-    def add_files(self, classic_website_document, original_language,
-                  migration_fs_manager, updated_by,
-                  ):
-        logging.info("MigratedDocument.add_files")
-        try:
-            self.main_lang = original_language
-            self.updated_by = updated_by
-            self.set_pdf_files()
-            self.set_body_xmls(
-                classic_website_document, migration_fs_manager, updated_by)
-            self.set_xmls(
-                classic_website_document, migration_fs_manager, updated_by)
-            # salva os dados
-            self.save()
-            return self
-        except Exception as e:
-            raise exceptions.AddFilesToMigratedDocumentError(
-                _('Unable to get_or_create_migrated_document {} {} {} {}').format(
-                    self.migrated_issue, self.key, type(e), e
-                )
-            )
-
-    def add_data(self, classic_website_document, document_data, force_update):
+    def add_data(self, classic_website_document, document_data, force_update, updated_by):
         if self.isis_updated_date == classic_website_document.isis_updated_date:
             if not force_update:
                 # nao precisa atualizar
@@ -523,99 +644,195 @@ class MigratedDocument(MigratedData):
         self.isis_created_date = classic_website_document.isis_created_date
         self.isis_updated_date = classic_website_document.isis_updated_date
         self.data = document_data
+        self.updated_by = updated_by
+        self.updated = datetime.utcnow()
         self.save()
 
-    def finish(self):
+    def add_files(self, original_language, updated_by):
+        self.main_lang = Language.get_or_create(
+                    code2=original_language,
+                    creator=self.updated_by or self.creator)
+        self.add_pdfs()
+        self.add_htmls()
+        self.add_xmls()
+        self.updated_by = updated_by
+        self.updated = datetime.utcnow()
+        self.save()
+        return self
+
+    def add_xmls(
+            self, classic_website_document, migration_fs_manager, updated_by,
+            force_update,
+            ):
+        self._add_migrated_xmls()
+        if self.xmls is None or self.xmls.count() == 0 or force_update:
+            if self.htmls.count():
+                self._add_generated_xmls(
+                    classic_website_document, migration_fs_manager, updated_by)
+        return self
+
+    def finish(self, updated_by):
         self.status = MS_IMPORTED
+        self.updated_by = updated_by
+        self.updated = datetime.utcnow()
         self.save()
 
     @property
-    def xml_with_pre(self):
+    def xml_with_pre_with_remote_assets(self):
+        # FIXME
         """
         XML with pre, remote assets
         """
-        if not hasattr(self, '_xml_with_pre') or not self._xml_with_pre:
+        if not hasattr(self, '_xml_with_pre_with_remote_assets') or not self._xml_with_pre_with_remote_assets:
             for xml_file in self.xmls.iterator():
-                logging.info("xml_with_pre {}".format(xml_file.uri))
-                _xml_with_pre = get_xml_with_pre_from_uri(xml_file.uri)
-                self._xml_with_pre = _xml_with_pre.get_xml_with_pre_with_remote_assets(
-                    v3=self.v3,
-                    v2=self.pid,
-                    aop_pid=self.aop_pid,
-                    issue_assets_uris=self.migrated_issue.assets_uris
+                self._xml_with_pre_with_remote_assets = (
+                    xml_file.xml_with_pre_with_remote_assets
                 )
                 break
-        return self._xml_with_pre
+        return self._xml_with_pre_with_remote_assets
+
+    def add_pdfs(self):
+        logging.info("MigratedDocument.add_pdfs {}".format(self))
+        pdfs = self.migrated_issue.get_files('pdf', self.pkg_name)
+        for pdf in pdfs:
+            logging.info(pdf)
+            if pdf.lang.code2 is None:
+                pdf.lang = self.main_lang
+                pdf.save()
+            self.pdfs.add(pdf)
+        self.save()
+
+    def _add_migrated_xmls(self):
+        logging.info("MigratedDocument._add_migrated_xmls {}".format(self))
+        # obtém os arquivos XML (originais) do fascículo
+        for xml in self.migrated_issue.get_files('xml', self.pkg_name):
+            logging.info(xml)
+            xml.add_assets(self.migrated_issue.assets)
+            self.xmls.add(xml)
+        self.save()
+
+    def add_htmls(self):
+        logging.info("MigratedDocument.add_htmls {}".format(self))
+        for html in self.migrated_issue.get_files("html", self.pkg_name):
+            logging.info("html=%s" % html)
+            self.htmls.add(html)
+        self.save()
 
     @property
     def html_texts(self):
         if not hasattr(self, '_html_texts') or not self._html_texts:
             self._html_texts = {}
             for html_file in self.htmls.iterator():
-                logging.info("{} {}".format(html_file.lang, html_file))
-                self._html_texts.setdefault(html_file.lang, {})
+                lang = html_file.lang.code2
+                logging.info("html_file: {} {}".format(lang, html_file.part))
+                self._html_texts.setdefault(lang, {})
                 part = f"{html_file.part} references"
-                self._html_texts[html_file.lang][part] = html_file.text
+                self._html_texts[lang][part] = html_file.text
         return self._html_texts
 
-    def set_pdf_files(self):
-        logging.info("MigratedDocument.set_pdf_files {}".format(self))
-        pdfs = self.migrated_issue.get_files('pdf', self.key)
-        for pdf in pdfs:
-            logging.info(pdf)
-            if pdf.lang.code2 == "main":
-                pdf.lang = Language.get_or_create(
-                    code2=self.main_lang,
-                    creator=self.updated_by or self.creator)
-            pdf.save()
-            self.pdfs.add(pdf)
-        self.save()
+    def _add_generated_xmls(self, document, migration_fs_manager, user):
+        """
+        Obtém os trechos que correspondem aos elementos body e back do XML
+        a partir dos registros de parágrafos e dos arquivos HTML,
+        converte os elementos HTML nos elementos de XML,
+        monta versões de XML contendo apenas article/body, article/back,
+        article/sub-article/body, article/sub-article/back.
+        Armazena as versões geradas no minio e registra na base de dados
+        """
+        logging.info("MigratedDocument.set_body_and_back_xmls {}".format(self))
+        if not self.html_texts:
+            return
 
-    def set_xmls(self, document, migration_fs_manager, user):
-        logging.info("MigratedDocument.set_xmls {}".format(self))
-        for xml in self.migrated_issue.get_files('xml', self.key):
-            logging.info(xml)
-            self.xmls.add(xml)
+        document.generate_body_and_back_from_html(self.html_texts)
 
-        selected = None
-        for xml_body_file in self.body_xmls.iterator():
-            logging.info(xml_body_file)
-            selected = xml_body_file
-            if xml_body_file.selected:
-                break
+        xml_body_and_back = None
+        for i, xml_body_and_back in enumerate(document.xml_body_and_back):
+            self.set_body_and_back_xml(
+                xml_body_and_back, i+1, migration_fs_manager, user)
+
+        if xml_body_and_back:
+            xml_content = document.generate_full_xml(xml_body_and_back)
+            self._push_and_register_xmls(
+                xml_content, migration_fs_manager, user)
+
+    @property
+    def xml_body_and_back(self):
+        logging.info("MigratedDocument.xml_body_and_back {}".format(self))
+        selected = (
+            self.body_and_back_xmls.filter(
+                migrated_document=self, selected=True).first() or
+            self.body_and_back_xmls.filter(
+                migrated_document=self).latest("updated"))
+
         if selected:
-            logging.info("Generate XML from HTML")
+            xml_with_pre = get_xml_with_pre_from_uri(selected.uri)
+            return xml_with_pre.tostring()
 
-            # gera xml a partir dos metadados da base isis + body + back
-            xml_content = document.generate_full_xml(
-                selected and selected.tostring())
+    def set_body_and_back_xml(self, xml_body_and_back, version,
+                              migration_fs_manager, user):
+        """
+        Obtém os trechos que correspondem aos elementos body e back do XML
+        a partir dos registros de parágrafos e dos arquivos HTML,
+        converte os elementos HTML nos elementos de XML,
+        monta versões de XML contendo apenas article/body, article/back,
+        article/sub-article/body, article/sub-article/back.
+        Armazena as versões geradas no minio e registra na base de dados
+        """
+        logging.info("MigratedDocument.generate_body_and_back_from_html {}".format(self))
+        subdirs = self.migrated_issue.subdirs
+        try:
 
+            body_and_back_xml_file = self.body_and_back_xmls.objects.get(
+                version=version)
+        except:
+            body_and_back_xml_file = BodyAndBackXMLFile(
+                version=version,
+                creator=user,
+            )
+
+        try:
+            response = migration_fs_manager.push_xml_content(
+                f"{self.pkg_name}.{version}.xml",
+                os.path.join("xml_body_and_back", subdirs),
+                xml_body_and_back,
+            )
+            body_and_back_xml_file.uri = response["uri"]
+            body_and_back_xml_file.basename = response["basename"]
+            body_and_back_xml_file.save()
+
+        except Exception as e:
+            raise exceptions.SetBodyAndBackXMLError(
+                _("Unable to register body_and_back_xml {} {}").format(
+                    self, i)
+            )
+
+    def _push_and_register_xmls(self, xml_from_html,
+                               migration_fs_manager, user):
+        logging.info("MigratedDocument.push_and_register_xml_content {}".format(self))
+        try:
             # obtém os dados para registrar o arquivo XML
             subdirs = self.migrated_issue.subdirs
-            xml_file = XMLFile()
-            migration_fs_manager.push_xml_content(
-                xml_file, self.key + ".xml", subdirs, xml_content, user)
+            basename = self.pkg_name + ".xml"
+            item = dict(
+                relative_path=os.path.join(
+                    "xml", self.migrated_issue.subdirs, basename),
+                basename=basename,
+                pkg_name=self.pkg_name,
+            )
+            xml_file = MigratedXMLFile.get_or_create(item, user)
+            response = migration_fs_manager.push_xml_content(
+                basename, subdirs, xml_from_html)
+            xml_file.uri = response["uri"]
+            xml_file.basename = response["basename"]
+            xml_file.add_assets(self.migrated_issue.assets)
+
+            # TODO set_assets
+
+            xml_file.save()
             self.xmls.add(xml_file)
-        self.save()
-
-    def set_body_xmls(self, document, migration_fs_manager, user):
-        logging.info("MigratedDocument.set_body_xmls {}".format(self))
-        for html in self.migrated_issue.get_files("html", self.key):
-            logging.info("html=%s" % html)
-            self.htmls.add(html)
-        self.save()
-
-        subdirs = self.migrated_issue.subdirs
-        # armazena os xmls gerados a cada etapa de conversão do html
-        items = document.generate_body_and_back_from_html(self.html_texts)
-        for i, xml in enumerate(items or []):
-            xml_body_file = BodyAndBackXMLFile()
-            xml_body_file.version = i + 1
-            migration_fs_manager.push_xml_content(
-                xml_body_file,
-                self.key + f".{i}.xml",
-                os.path.join("xml_body", subdirs),
-                xml, user)
-            logging.info(xml_body_file)
-            self.body_xmls.add(xml_body_file)
-        self.save()
+            self.save()
+        except Exception as e:
+            raise exceptions.SetXmlsGeneratedFromHTMLError(
+                _("Unable to set xmls generated from html {} {}").format(
+                    self, i)
+            )

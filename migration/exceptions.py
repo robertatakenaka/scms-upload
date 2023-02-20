@@ -95,3 +95,11 @@ class SetOfficialIssueToSciELOIssueError(Exception):
 
 class GetOrCreateOfficialIssueError(Exception):
     ...
+
+
+class SetBodyAndBackXMLError(Exception):
+    ...
+
+
+class SetXmlsGeneratedFromHTMLError(Exception):
+    ...

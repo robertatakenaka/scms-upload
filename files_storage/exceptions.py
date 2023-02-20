@@ -10,6 +10,10 @@ class MinioFileCreateError(Exception):
     ...
 
 
+class MinioFileGetOrCreateError(Exception):
+    ...
+
+
 class PushPidProviderXMLError(Exception):
     ...
 

@@ -444,7 +444,7 @@ class XMLWithPre:
                     self._assets.append(asset)
         return self._assets
 
-    def get_xml_with_pre_with_remote_assets(self, v3, v2, aop_pid, issue_assets_uris):
+    def get_xml_with_pre_with_remote_assets(self, v3, v2, aop_pid, assets_uris):
         # FIXME assets de artigo pode estar em qq outra pasta do periódico
         # há casos em que os assets do artigo VoR está na pasta ahead
         if not hasattr(self, '_remote_xml') or not self._remote_xml:
@@ -453,7 +453,7 @@ class XMLWithPre:
             xml_with_pre.v3 = v3
             xml_with_pre.aop_pid = aop_pid
             article_assets = ArticleAssets(xml_with_pre.xmltree)
-            article_assets.replace_names(issue_assets_uris)
+            article_assets.replace_names(assets_uris)
             self._remote_xml = xml_with_pre
         return self._remote_xml
 

@@ -13,18 +13,7 @@ from django.utils.translation import gettext_lazy as _
 from django.contrib.auth import get_user_model
 from django.db.models import Q
 from django_celery_beat.models import PeriodicTask, CrontabSchedule
-from lxml import etree
-from packtools.sps.models.article_assets import (
-    ArticleAssets,
-    SupplementaryMaterials,
-)
-from packtools.sps.models.related_articles import (
-    RelatedItems,
-)
-from packtools.sps.models.article_renditions import (
-    ArticleRenditions,
-)
-from scielo_classic_website.classic_ws import ClassicWebsite
+from scielo_classic_website import classic_ws
 
 from publication.db import mk_connection
 from core.controller import parse_yyyymmdd, insert_hyphen_in_YYYYMMMDD
@@ -51,10 +40,6 @@ from pid_provider.controller import ArticleXMLRegistration
 
 
 User = get_user_model()
-
-
-def read_xml_file(file_path):
-    return etree.parse(file_path)
 
 
 def start(user):
@@ -292,8 +277,9 @@ class MigrationConfigurationController:
         )
         classic_website_config = self.config.classic_website_config
 
-        self.classic_website = ClassicWebsite(
+        self.classic_website = classic_ws.ClassicWebsite(
             bases_path=classic_website_config.bases_path,
+            bases_work_path=classic_website_config.bases_work_path,
             bases_translation_path=classic_website_config.bases_translation_path,
             bases_pdf_path=classic_website_config.bases_pdf_path,
             bases_xml_path=classic_website_config.bases_xml_path,
@@ -310,6 +296,10 @@ class MigrationConfigurationController:
                 self.config.migration_files_storage_config.name),
         )
         self.user = user
+
+    @property
+    def article_ids_provider(self):
+        return ArticleXMLRegistration()
 
     def connect_db(self):
         try:
@@ -563,6 +553,7 @@ def import_issues_files_and_migrate_documents(
         params['official_issue__publication_year'] = publication_year
 
     mcc = MigrationConfigurationController(collection_acron, user)
+    article_ids_provider = mcc.article_ids_provider
     # mcc.connect_db()
 
     # Melhor importar todos os arquivos e depois tratar da carga
@@ -589,6 +580,7 @@ def import_issues_files_and_migrate_documents(
                 collection_acron,
                 migrated_issue,
                 mcc,
+                article_ids_provider,
                 force_update,
             )
 
@@ -651,6 +643,7 @@ def migrate_documents(
         collection_acron,
         migrated_issue,
         mcc,
+        article_ids_provider,
         force_update=False,
         ):
     """
@@ -689,6 +682,7 @@ def migrate_documents(
 
                 migrate_document(
                     mcc,
+                    article_ids_provider,
                     user,
                     collection_acron,
                     scielo_issn=document.journal.scielo_issn,
@@ -723,6 +717,7 @@ def migrate_documents(
 
 def migrate_document(
         mcc,
+        article_ids_provider,
         user,
         collection_acron,
         scielo_issn,
@@ -742,7 +737,6 @@ def migrate_document(
                 collection_acron, scielo_issn, user)
         migrated_issue = MigratedIssue.get_or_create(
             migrated_journal, issue_pid, document.issue.issue_label, user)
-
         migrated_document = MigratedDocument.get_or_create(
             pid=pid,
             key=document.filename_without_extension,
@@ -751,16 +745,21 @@ def migrate_document(
             v3=document.scielo_pid_v3,
             creator=user,
         )
+        logging.info(len(document.document_records.get_record("p")))
         migrated_document.add_data(
             document,
             journal_issue_and_document_data,
             force_update,
         )
         migrated_document.add_files(
-            classic_website_document=document,
             original_language=document.original_language,
+            updated_by=user,
+        )
+        migrated_document.add_xmls(
+            classic_website_document=document,
             migration_fs_manager=mcc.fs_managers['migration'],
             updated_by=user,
+            force_update=force_update,
         )
         # solicitar pid v3
         logging.debug("XML WITH PRE %s" % type(migrated_document.xml_with_pre))
@@ -777,17 +776,18 @@ def migrate_document(
                 document.aop_pid,
                 ))
         # cria / atualiza artigo de app publication
-        response = ArticleXMLRegistration().register(
+        response = article_ids_provider.register(
             xml_with_pre=migrated_document.xml_with_pre,
-            name=migrated_document.key + ".xml",
+            name=migrated_document.pkg_name + ".xml",
             user=user,
             # pdfs=migrated_document.rendition_files,
         )
         logging.info("response %s " % response)
         try:
-            migrated_document.pid = response['registered'].get("v2")
-            migrated_document.v3 = response['registered'].get("v3")
-            migrated_document.aop_pid = response['registered'].get("aop_pid")
+            registered = response['registered']
+            migrated_document.pid = .get("v2")
+            migrated_document.v3 = registered.get("v3")
+            migrated_document.aop_pid = registered.get("aop_pid")
             migrated_document.save()
         except KeyError:
             # TODO o que fazer quando response['error']

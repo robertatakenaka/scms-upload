@@ -52,7 +52,8 @@ class FilesStorageManager:
             )
             logging.info(uri)
             versions.add_version(
-                MinioFile.create(creator, uri, finger_print, filename),
+                MinioFile.get_or_create(
+                    uri=uri, creator=creator, basename=f"{name}{extension}")
             )
         except Exception as e:
             raise exceptions.PushPidProviderXMLError(
@@ -61,25 +62,19 @@ class FilesStorageManager:
                 )
             )
 
-    def push_file(self, file, source_filename, subdirs, preserve_name, creator):
+    def push_file(self, source_filename, subdirs, preserve_name):
         try:
-            finger_print = get_file_finger_print(source_filename)
-
             basename = os.path.basename(source_filename)
             subdirs = os.path.join(self.config.bucket_app_subdir, subdirs)
-            logging.info("Files storage {} {}".format(
-                source_filename, subdirs))
+            logging.info("Register {} {}".format(source_filename, subdirs))
 
             response = self.files_storage.register(
                 source_filename,
                 subdirs=subdirs,
                 preserve_name=preserve_name,
             )
-            logging.info("Push file %s %s" % (source_filename, response))
-            file.remote_file = MinioFile.create(
-                creator, response['uri'], finger_print, basename)
-            file.save()
-            return response
+            logging.info("Response %s %s" % (source_filename, response))
+            return {"uri": response['uri'], "basename": basename}
         except Exception as e:
             raise exceptions.PushFileError(
                 _("Unable to push file {} {} {} {}").format(
@@ -87,23 +82,19 @@ class FilesStorageManager:
                 )
             )
 
-    def push_xml_content(self, file, filename, subdirs, content, creator):
+    def push_xml_content(self, filename, subdirs, content):
         try:
-            finger_print = generate_finger_print(content)
-
             name, extension = os.path.splitext(filename)
             if extension == '.xml':
                 mimetype = "text/xml"
 
             object_name = f"{subdirs}/{name}/{finger_print}/{name}{extension}"
             uri = self.files_storage.fput_content(
-                content,
+                content.decode("utf-8"),
                 mimetype=mimetype,
                 object_name=f"{self.config.bucket_app_subdir}/{object_name}",
             )
-            file.remote_file = MinioFile.create(
-                creator, uri, finger_print, filename)
-            file.save()
+            return {"uri": response['uri'], "basename": basename}
         except Exception as e:
             raise exceptions.PutXMLContentError(
                 _("Unable to push file {} {} {} {}").format(
