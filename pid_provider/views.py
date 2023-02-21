@@ -18,7 +18,7 @@ from rest_framework.mixins import (
 )
 from rest_framework.viewsets import GenericViewSet
 
-from xmlsps import models
+from pid_provider import models
 from pid_provider.serializer import XMLArticleSerializer
 from pid_provider import controller
 
@@ -177,9 +177,9 @@ class PidProviderViewSet(
 
         curl -X POST -S \
             -H "Content-Disposition: attachment;filename=pacote_xml.zip" \
-            -F "file=@/path/pacote_xml.zip;type=application/zip" \
+            -F "file=@pacote_xml.zip;type=application/zip" \
             --user "adm:adm" \
-            127.0.0.1:8000/pid_provider/
+            127.0.0.1:8000/pid_provider/ --output output.txt
 
         Return
         ------
@@ -189,8 +189,6 @@ class PidProviderViewSet(
             # self._authenticate(request)
             logging.info("Receiving files %s" % request.FILES)
             logging.info("Receiving data %s" % request.data)
-            # if 'file' not in request.data:
-            #     raise ParseError("Empty content")
 
             uploaded_file = request.FILES["file"]
             logging.info("Receiving file name %s" % uploaded_file.name)
@@ -209,10 +207,12 @@ class PidProviderViewSet(
                 if item.get("error"):
                     return Response(results,
                                     status=status.HTTP_400_BAD_REQUEST)
-            return Response(results, status=status.HTTP_201_CREATED)
+            response = Response(results, status=status.HTTP_201_CREATED)
         except Exception as e:
             logging.exception(e)
-            return Response(
+            response = Response(
                 [{"request data": request.data,
                   "error": str(e), "type_error": str(type(e))}],
                 status=status.HTTP_400_BAD_REQUEST)
+        logging.info(results)
+        return response

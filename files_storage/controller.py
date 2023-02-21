@@ -39,6 +39,8 @@ class FilesStorageManager:
     def push_pid_provider_xml(self, versions, filename, content, creator):
         try:
             finger_print = generate_finger_print(content)
+            if versions.latest_version and finger_print == versions.latest_version.finger_print:
+                return
 
             name, extension = os.path.splitext(filename)
             if extension == '.xml':
@@ -52,8 +54,8 @@ class FilesStorageManager:
             )
             logging.info(uri)
             versions.add_version(
-                MinioFile.get_or_create(
-                    uri=uri, creator=creator, basename=f"{name}{extension}")
+                uri=uri, creator=creator, basename=f"{name}{extension}",
+                finger_print=finger_print,
             )
         except Exception as e:
             raise exceptions.PushPidProviderXMLError(
@@ -84,6 +86,7 @@ class FilesStorageManager:
 
     def push_xml_content(self, filename, subdirs, content):
         try:
+            finger_print = generate_finger_print(content)
             name, extension = os.path.splitext(filename)
             if extension == '.xml':
                 mimetype = "text/xml"
@@ -94,7 +97,7 @@ class FilesStorageManager:
                 mimetype=mimetype,
                 object_name=f"{self.config.bucket_app_subdir}/{object_name}",
             )
-            return {"uri": response['uri'], "basename": basename}
+            return {"uri": uri, "basename": filename}
         except Exception as e:
             raise exceptions.PutXMLContentError(
                 _("Unable to push file {} {} {} {}").format(

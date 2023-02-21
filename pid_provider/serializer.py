@@ -1,4 +1,4 @@
-from xmlsps.models import XMLJournal, XMLIssue, XMLDocPid
+from pid_provider.models import XMLJournal, XMLIssue, XMLDocPid
 from rest_framework import serializers
 
 

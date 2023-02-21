@@ -66,8 +66,8 @@ class Language(CommonControlField):
         name
         code2
     """
-    name = models.CharField(_("Language Name"), blank=True, null=True, max_length=255)
-    code2 = models.CharField(_("Language code 2"), blank=True, null=True, max_length=2)
+    name = models.TextField(_("Language Name"), blank=True, null=True)
+    code2 = models.TextField(_("Language code 2"), blank=True, null=True)
 
     class Meta:
         verbose_name = _("Language")

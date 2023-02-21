@@ -1,3 +1,11 @@
+class MigratedDocumentXmlWithPreError(Exception):
+	...
+
+
+class RegisterXmlGeneratedFromHTMLError(Exception):
+	...
+
+
 class UpdateMigratedJournalError(Exception):
     ...
 
@@ -97,9 +105,9 @@ class GetOrCreateOfficialIssueError(Exception):
     ...
 
 
-class SetBodyAndBackXMLError(Exception):
+class AddBodyAndBackXMLError(Exception):
     ...
 
 
-class SetXmlsGeneratedFromHTMLError(Exception):
+class RegisterXmlGeneratedFromHTMLError(Exception):
     ...

@@ -444,16 +444,26 @@ class XMLWithPre:
                     self._assets.append(asset)
         return self._assets
 
-    def get_xml_with_pre_with_remote_assets(self, v3, v2, aop_pid, assets_uris):
+    def get_xml_with_pre_with_remote_assets(self, v3=None, v2=None, aop_pid=None, assets_uris=None):
         # FIXME assets de artigo pode estar em qq outra pasta do periódico
         # há casos em que os assets do artigo VoR está na pasta ahead
         if not hasattr(self, '_remote_xml') or not self._remote_xml:
             xml_with_pre = deepcopy(self)
-            xml_with_pre.v2 = v2
-            xml_with_pre.v3 = v3
-            xml_with_pre.aop_pid = aop_pid
-            article_assets = ArticleAssets(xml_with_pre.xmltree)
-            article_assets.replace_names(assets_uris)
+            if v2:
+                xml_with_pre.v2 = v2
+            if v3:
+                xml_with_pre.v3 = v3
+            if aop_pid:
+                xml_with_pre.aop_pid = aop_pid
+            if assets_uris:
+                logging.info(f"REMOTE {assets_uris}")
+                article_assets = ArticleAssets(xml_with_pre.xmltree)
+                for item in article_assets.article_assets:
+                    logging.info(item.name)
+                not_found = article_assets.replace_names(assets_uris)
+                for item in article_assets.article_assets:
+                    logging.info(item.name)
+                logging.info(not_found)
             self._remote_xml = xml_with_pre
         return self._remote_xml
 

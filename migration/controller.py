@@ -110,22 +110,6 @@ def schedule_journals_and_issues_migrations(collection_acron, user):
     logging.info(_("Scheduled journals and issues migrations tasks"))
 
 
-def schedule_issues_documents_migration(collection_acron, user):
-    """
-    Agenda tarefas para migrar e publicar todos os documentos
-    """
-    for migrated_issue in MigratedIssue.objects.filter(
-            migrated_journal__collection__acron=collection_acron):
-
-        journal_acron = migrated_issue.migrated_journal.acron
-        scielo_issn = migrated_issue.migrated_journal.scielo_issn
-        publication_year = migrated_issue.official_issue.publication_year
-
-        schedule_issue_documents_migration(
-            collection_acron, journal_acron,
-            scielo_issn, publication_year, user)
-
-
 def schedule_issue_documents_migration(collection_acron,
                                        journal_acron,
                                        scielo_issn,
@@ -276,7 +260,6 @@ class MigrationConfigurationController:
                 classic_website_config__collection__acron=collection_acron)
         )
         classic_website_config = self.config.classic_website_config
-
         self.classic_website = classic_ws.ClassicWebsite(
             bases_path=classic_website_config.bases_path,
             bases_work_path=classic_website_config.bases_work_path,
@@ -316,9 +299,28 @@ class MigrationConfigurationController:
     def get_issues_pids_and_records(self):
         return self.classic_website.get_issues_pids_and_records()
 
-    def get_documents_pids_and_records(self, journal_acron, issue_folder):
-        return self.classic_website.get_documents_pids_and_records(
-            journal_acron, issue_folder)
+    def get_documents_pids_and_records(self, journal_acron, issue_folder, issue_pid):
+        """
+        obtém registros da base "artigo" que não necessariamente é só
+        do fascículo de migrated_issue
+        possivelmente source_file pode conter registros de outros fascículos
+        se source_file for acrônimo
+        """
+        logging.info(
+            f"Importing documents records {journal_acron} {issue_folder}")
+        issue = {"issue_pid": issue_pid, }
+        for grp_id, grp_records in self.classic_website.get_documents_pids_and_records(
+                journal_acron, issue_folder, issue_pid):
+
+            if len(grp_records) == 1:
+                # é possível que em source_file_path exista registro tipo i
+                issue = {"issue_pid": grp_id, "issue_records": grp_records}
+                continue
+
+            data = {"pid": grp_id, "records": grp_records}
+            data.update(issue)
+            issue = {}
+            yield data
 
     def get_classic_website_issue_files(self, journal_acron, issue_folder):
         return self.classic_website.get_issue_files(
@@ -337,69 +339,12 @@ def migrate_journals(
         collection_acron,
         force_update=False,
         ):
-    try:
-        action = "migrate"
-        mcc = MigrationConfigurationController(collection_acron, user)
-        for scielo_issn, journal_data in mcc.get_journals_pids_and_records():
-            migrated_journal = import_data_from_title_database(
-                user, collection_acron,
-                scielo_issn, journal_data[0], force_update)
-    except Exception as e:
-        logging.exception(e)
-        raise exceptions.JournalMigrationError(
-            _("Unable to migrate journals {}").format(collection_acron)
-        )
-
-
-def import_data_from_title_database(user, collection_acron,
-                                    scielo_issn,
-                                    journal_data, force_update=False):
-    """
-    Create/update JournalMigration
-    """
-    try:
-        # obtém classic website journal
-        classic_website_journal = classic_ws.Journal(journal_data)
-
-        year, month, day = parse_yyyymmdd(classic_website_journal.first_year)
-        logging.info((year, month, day))
-        # cria ou obtém official_journal
-        official_journal = OfficialJournal.get_or_create(
-            title=classic_website_journal.title,
-            issn_l=None,
-            e_issn=classic_website_journal.electronic_issn,
-            print_issn=classic_website_journal.print_issn,
-            creator=user,
-        )
-        logging.info(official_journal)
-        official_journal.update(
-            user,
-            short_title=classic_website_journal.title_iso,
-            foundation_date=classic_website_journal.first_year,
-            foundation_year=year,
-            foundation_month=month,
-            foundation_day=day,
-        )
-        migrated_journal = MigratedJournal.get_or_create(
-            collection_acron, scielo_issn, user)
-        migrated_journal.update(
-            user,
-            classic_website_journal, force_update,
-            journal_data=journal_data,
-            acron=classic_website_journal.acronym,
-            title=classic_website_journal.title,
-            availability_status=classic_website_journal.current_status,
-            official_journal=official_journal,
-        )
-        return migrated_journal
-    except Exception as e:
-        logging.exception(e)
-        migrated_journal.failures.add(
-            MigrationFailure.create(
-                _("Unable to migrate journal {} {}").format(
-                    collection_acron, scielo_issn),
-                "migrate", e, user))
-        migrated_journal.save()
+    mcc = MigrationConfigurationController(collection_acron, user)
+    for scielo_issn, journal_data in mcc.get_journals_pids_and_records():
+        journal_migration = JournalMigration(
+            user, collection_acron, scielo_issn,
+            journal_data[0], force_update)
+        journal_migration.import_data_from_title_database()
 
 
 def migrate_issues(
@@ -410,130 +355,16 @@ def migrate_issues(
     mcc = MigrationConfigurationController(collection_acron, user)
     # mcc.connect_db()
     for issue_pid, issue_data in mcc.get_issues_pids_and_records():
-        try:
-            action = "import"
-            migrated_issue = import_data_from_issue_database(
-                user=user,
-                collection_acron=collection_acron,
-                scielo_issn=issue_pid[:9],
-                issue_pid=issue_pid,
-                issue_data=issue_data[0],
-                force_update=force_update,
-            )
-            if migrated_issue.status == MS_IMPORTED:
-                schedule_issue_documents_migration(
-                    collection_acron=collection_acron,
-                    journal_acron=migrated_issue.migrated_journal.acron,
-                    scielo_issn=migrated_issue.migrated_journal.scielo_issn,
-                    publication_year=migrated_issue.official_issue.publication_year,
-                    user=user,
-                )
-                # publish_imported_issue(migrated_issue)
-        except Exception as e:
-            logging.exception(e)
-            migrated_issue.failures.add(
-                MigrationFailure.create(
-                    _("Error migrating issue {} {}").format(collection_acron, issue_pid),
-                    action, e, user))
-            migrated_issue.save()
-
-
-def import_data_from_issue_database(
-        user,
-        collection_acron,
-        scielo_issn,
-        issue_pid,
-        issue_data,
-        force_update=False,
-        ):
-    """
-    Create/update IssueMigration
-    """
-    try:
-        logging.info("Import data from database issue {} {} {}".format(
-            collection_acron, scielo_issn, issue_pid))
-
-        classic_website_issue = classic_ws.Issue(issue_data)
-
-        migrated_issue = MigratedIssue.get_or_create(
-            migrated_journal=MigratedJournal.get_or_create(
-                collection_acron=collection_acron,
-                scielo_issn=scielo_issn),
-            issue_pid=issue_pid,
-            issue_folder=classic_website_issue.issue_label,
-            creator=user)
-        official_issue = create_official_issue(
-            classic_website_issue, collection_acron,
-            scielo_issn, issue_pid, user
-        )
-        logging.info("Force %s" % force_update)
-        migrated_issue.update(
-            classic_website_issue, official_issue, issue_data, force_update
-        )
-        logging.info(migrated_issue.status)
-        return migrated_issue
-    except Exception as e:
-        logging.exception(e)
-        logging.error(_("Error importing issue {} {} {}").format(
-            collection_acron, issue_pid, issue_data))
-        logging.exception(e)
-        raise exceptions.IssueMigrationSaveError(
-            _("Unable to save {} migration {} {} {}").format(
-                "issue", collection_acron, issue_pid, e
-            )
-        )
-
-
-def _get_months_from_issue(classic_website_issue):
-    """
-    Get months from issue (classic_website.Issue)
-    """
-    months_names = {}
-    for item in classic_website_issue.bibliographic_strip_months:
-        if item.get("text"):
-            months_names[item['lang']] = item.get("text")
-    if months_names:
-        return months_names.get("en") or months_names.values()[0]
-
-
-def create_official_issue(classic_website_issue, collection_acron,
-                          scielo_issn, issue_pid,
-                          user):
-    if classic_website_issue.is_press_release:
-        # press release não é um documento oficial,
-        # sendo assim, não será criado official issue correspondente
-        return
-
-    try:
-        # obtém ou cria official_issue
-        logging.info(_("Create official issue {}").format(
-            classic_website_issue))
-
-        flexible_date = parse_non_standard_date(
-            classic_website_issue.publication_date)
-        months = parse_months_names(_get_months_from_issue(
-            classic_website_issue))
-        official_journal = MigratedJournal.get_or_create(
+        issue_migration = IssueMigration(
+            user=user,
             collection_acron=collection_acron,
-            scielo_issn=scielo_issn).official_journal
-        return Issue.get_or_create(
-            official_journal,
-            classic_website_issue.publication_year,
-            classic_website_issue.volume,
-            classic_website_issue.number,
-            classic_website_issue.supplement,
-            user,
-            initial_month_number=flexible_date.get("month_number"),
-            initial_month_name=months.get("initial_month_name"),
-            final_month_name=months.get("final_month_name"),
+            scielo_issn=issue_pid[:9],
+            issue_pid=issue_pid,
+            issue_data=issue_data[0],
+            force_update=force_update,
         )
-    except Exception as e:
-        logging.exception(e)
-        raise exceptions.GetOrCreateOfficialIssueError(
-            _("Unable to set official issue to SciELO issue {} {} {}").format(
-                classic_website_issue, type(e), e
-            )
-        )
+        issue_migration.import_data_from_issue_database()
+        issue_migration.schedule_issue_documents_migration()
 
 
 def import_issues_files_and_migrate_documents(
@@ -544,223 +375,289 @@ def import_issues_files_and_migrate_documents(
         force_update=False,
         ):
 
-    params = {
-        'migrated_journal__collection__acron': collection_acron
-    }
-    if scielo_issn:
-        params['migrated_journal__scielo_issn'] = scielo_issn
-    if publication_year:
-        params['official_issue__publication_year'] = publication_year
+    docs_migration = DocumentsMigration(
+        collection_acron, scielo_issn, publication_year, force_update, user)
 
-    mcc = MigrationConfigurationController(collection_acron, user)
-    article_ids_provider = mcc.article_ids_provider
-    # mcc.connect_db()
+    for migrated_issue in docs_migration.choose_issues():
+        docs_migration.migrate_documents(migrated_issue)
 
-    # Melhor importar todos os arquivos e depois tratar da carga
-    # dos metadados, e geração de XML, pois
-    # há casos que os HTML mencionam arquivos de pastas diferentes
-    # da sua pasta do fascículo
-    items = MigratedIssue.objects.filter(
-        Q(status=MS_PUBLISHED) | Q(status=MS_IMPORTED),
-        **params,
-    )
-    for migrated_issue in items.iterator():
-        logging.info(migrated_issue)
+
+class JournalMigration:
+
+    def __init__(self, user, collection_acron,
+                 scielo_issn,
+                 journal_data, force_update=False):
+        self.user = user
+        self.collection_acron = collection_acron
+        self.scielo_issn = scielo_issn
+        self.journal_data = journal_data
+        self.force_update = force_update
+
+    @property
+    def classic_website_journal(self):
+        if not hasattr(self, '_journal') or not self._journal:
+            self._journal = classic_ws.Journal(self.journal_data)
+        return self._journal
+
+    @property
+    def official_journal(self):
+        if not hasattr(self, '_official_journal') or not self._official_journal:
+            self._official_journal = OfficialJournal.get_or_create(
+                title=self.classic_website_journal.title,
+                issn_l=None,
+                e_issn=self.classic_website_journal.electronic_issn,
+                print_issn=self.classic_website_journal.print_issn,
+                creator=self.user,
+            )
+            year, month, day = parse_yyyymmdd(self.classic_website_journal.first_year)
+            self._official_journal.update(
+                self.user,
+                short_title=self.classic_website_journal.title_iso,
+                foundation_date=self.classic_website_journal.first_year,
+                foundation_year=year,
+                foundation_month=month,
+                foundation_day=day,
+            )
+        return self._official_journal
+
+    def import_data_from_title_database(self):
+        migrated_journal = MigratedJournal.get_or_create(
+            self.collection_acron, self.scielo_issn, self.user)
+        migrated_journal.update(
+            self.user,
+            self.classic_website_journal, self.force_update,
+            journal_data=self.journal_data,
+            acron=self.classic_website_journal.acronym,
+            title=self.classic_website_journal.title,
+            availability_status=self.classic_website_journal.current_status,
+            official_journal=self.official_journal,
+        )
+        return migrated_journal
+
+
+class IssueMigration:
+
+    def __init__(self, user,
+                 collection_acron,
+                 scielo_issn,
+                 issue_pid,
+                 issue_data,
+                 force_update,
+                 ):
+        self.user = user
+        self.collection_acron = collection_acron
+        self.scielo_issn = scielo_issn
+        self.issue_pid = issue_pid
+        self.force_update = force_update
+        self.issue_data = issue_data
+
+    @property
+    def classic_website_issue(self):
+        if not hasattr(self, '_classic_website_issue') or not self._classic_website_issue:
+            self._classic_website_issue = classic_ws.Issue(self.issue_data)
+        return self._classic_website_issue
+
+    @property
+    def migrated_issue(self):
+        if not hasattr(self, '_migrated_issue') or not self._migrated_issue:
+            self._migrated_issue = MigratedIssue.get_or_create(
+                migrated_journal=MigratedJournal.get_or_create(
+                    collection_acron=self.collection_acron,
+                    scielo_issn=self.scielo_issn),
+                issue_pid=self.issue_pid,
+                issue_folder=self.classic_website_issue.issue_label,
+                creator=self.user)
+        return self._migrated_issue
+
+    def import_data_from_issue_database(self):
         try:
-            import_issue_files(
-                migrated_issue=migrated_issue,
-                mcc=mcc,
-                force_update=force_update,
-                user=user,
-            )
-            # migra os documentos da base de dados `source_file_path`
-            # que não contém necessariamente os dados de só 1 fascículo
-            migrate_documents(
-                mcc.user,
-                collection_acron,
-                migrated_issue,
-                mcc,
-                article_ids_provider,
-                force_update,
-            )
+            logging.info("Import data from database issue {} {} {}".format(
+                self.collection_acron, self.scielo_issn, self.issue_pid))
 
+            self.migrated_issue.add_data(
+                self.classic_website_issue,
+                self.official_issue,
+                self.issue_data,
+                self.force_update,
+            )
+            logging.info(self.migrated_issue.status)
+            return self.migrated_issue
         except Exception as e:
             logging.exception(e)
-            migrated_issue.failures.add(
-                MigrationFailure.create(
-                    _("Error importing documents of {}").format(migrated_issue),
-                    "import issue documents",
-                    e,
-                    user,
+            logging.error(_("Error importing issue {} {} {}").format(
+                collection_acron, issue_pid, issue_data))
+            logging.exception(e)
+            raise exceptions.IssueMigrationSaveError(
+                _("Unable to save {} migration {} {} {}").format(
+                    "issue", collection_acron, issue_pid, e
                 )
             )
-            migrated_issue.save()
+
+    def schedule_issue_documents_migration(self):
+        if self.migrated_issue.status == MS_IMPORTED:
+            schedule_issue_documents_migration(
+                collection_acron=self.collection_acron,
+                journal_acron=self.migrated_issue.migrated_journal.acron,
+                scielo_issn=self.migrated_issue.migrated_journal.scielo_issn,
+                publication_year=self.migrated_issue.official_issue.publication_year,
+                user=self.user,
+            )
+
+    def _get_months_from_issue(self):
+        """
+        Get months from issue (classic_website.Issue)
+        """
+        months_names = {}
+        for item in self.classic_website_issue.bibliographic_strip_months:
+            if item.get("text"):
+                months_names[item['lang']] = item.get("text")
+        if months_names:
+            return months_names.get("en") or months_names.values()[0]
+
+    @property
+    def official_journal(self):
+        if not hasattr(self, '_official_journal') or not self._official_journal:
+            self._official_journal = MigratedJournal.get_or_create(
+                    collection_acron=self.collection_acron,
+                    scielo_issn=self.scielo_issn).official_journal
+        return self._official_journal
+
+    @property
+    def official_issue(self):
+        if self.classic_website_issue.is_press_release:
+            # press release não é um documento oficial,
+            # sendo assim, não será criado official issue correspondente
+            self._official_issue = None
+            return self._official_issue
+
+        if not hasattr(self, '_official_issue') or not self._official_issue:
+            # obtém ou cria official_issue
+            logging.info(_("Create official issue {}").format(
+                self.classic_website_issue))
+
+            flexible_date = parse_non_standard_date(
+                self.classic_website_issue.publication_date)
+            months = parse_months_names(self._get_months_from_issue())
+
+            self._official_issue = Issue.get_or_create(
+                self.official_journal,
+                self.classic_website_issue.publication_year,
+                self.classic_website_issue.volume,
+                self.classic_website_issue.number,
+                self.classic_website_issue.supplement,
+                self.user,
+                initial_month_number=flexible_date.get("month_number"),
+                initial_month_name=months.get("initial_month_name"),
+                final_month_name=months.get("final_month_name"),
+            )
+        return self._official_issue
 
 
-# FIXME remover user_id
-def import_issue_files(
-        migrated_issue,
-        mcc,
-        force_update,
-        user,
-        ):
-    """135
-    Migra os arquivos do fascículo (pdf, img, xml ou html)
-    """
-    logging.info("Import issue files {}".format(migrated_issue))
-    if migrated_issue.files_status == MS_IMPORTED and not force_update:
-        logging.info("Skipped: Import files from classic website {}".format(
-            migrated_issue))
-        return
+class DocumentsMigration:
 
-    try:
-        classic_issue_files = mcc.get_classic_website_issue_files(
+    def __init__(self, collection_acron, scielo_issn, publication_year, force_update, user):
+        self.collection_acron = collection_acron
+        self.scielo_issn = scielo_issn
+        self.publication_year = publication_year
+        self.force_update = force_update
+        self.user = user
+        self.mcc = MigrationConfigurationController(collection_acron, user)
+        self.article_ids_provider = self.mcc.article_ids_provider
+
+    def choose_issues(self):
+        params = {
+            'migrated_journal__collection__acron': self.collection_acron
+        }
+        if self.scielo_issn:
+            params['migrated_journal__scielo_issn'] = self.scielo_issn
+        if self.publication_year:
+            params['official_issue__publication_year'] = self.publication_year
+        return MigratedIssue.objects.filter(
+            Q(status=MS_PUBLISHED) | Q(status=MS_IMPORTED),
+            **params,
+        ).iterator()
+
+    def migrate_documents(self, default_migrated_issue):
+        # get_documents_pids_and_records obtém registros de artigo
+        # de serial, bases-work etc, assim sendo pode retornar artigos
+        # de mais de um fascículo
+        migrated_issue = default_migrated_issue
+        journal_acron = migrated_issue.migrated_journal.acron
+        issue_folder = migrated_issue.issue_folder
+        issue_pid = migrated_issue.issue_pid
+
+        for item in self.mcc.get_documents_pids_and_records(
+                journal_acron, issue_folder, issue_pid):
+            issue_pid = item.get("issue_pid")
+            if issue_pid and issue_pid != default_migrated_issue.issue_pid:
+                migrated_issue = MigratedIssue.objects.get(
+                    migrated_journal__collection__acron=self.collection_acron,
+                    issue_pid=issue_pid,
+                )
+
+            self.import_issue_files(migrated_issue)
+            journal_issue_and_document_data = {
+                'title': migrated_issue.migrated_journal.data,
+                'issue': migrated_issue.data,
+                'article': item['records'],
+            }
+            migrated_document = self.migrate_document(
+                migrated_issue, item['pid'], journal_issue_and_document_data)
+            self.request_pids(migrated_document)
+
+    def import_issue_files(self, migrated_issue):
+        logging.info(f"Import issue files {migrated_issue}")
+        if migrated_issue.files_status == MS_IMPORTED and not self.force_update:
+            logging.info("Skip")
+            return
+        classic_issue_files = self.mcc.get_classic_website_issue_files(
             migrated_issue.migrated_journal.acron,
             migrated_issue.issue_folder,
         )
-
         migrated_issue.add_files(
             classic_issue_files=classic_issue_files,
-            get_files_storage=mcc.get_files_storage,
-            creator=user,
-        )
-    except Exception as e:
-        logging.exception(e)
-
-        migrated_issue.failures.add(
-            MigrationFailure.create(
-                _("Error import isse files of {}").format(migrated_issue),
-                "import issue files",
-                e,
-                user,
-            )
+            get_files_storage=self.mcc.get_files_storage,
+            creator=self.user,
         )
         migrated_issue.save()
 
+    def migrate_document(self, migrated_issue, article_pid,
+                         journal_issue_and_document_data):
+        issue_pid = migrated_issue.issue_pid
+        document = classic_ws.Document(journal_issue_and_document_data)
 
-def migrate_documents(
-        user,
-        collection_acron,
-        migrated_issue,
-        mcc,
-        article_ids_provider,
-        force_update=False,
-        ):
-    """
-    Importa os registros presentes na base de dados `source_file_path`
-    Importa os arquivos dos documentos (xml, pdf, html, imagens)
-    Publica os artigos no site
-    """
-    try:
-        # obtém os registros de title e issue
-        journal_issue_and_document_data = {
-            'title': migrated_issue.migrated_journal.data,
-            'issue': migrated_issue.data,
-        }
-
-        # obtém registros da base "artigo" que não necessariamente é só
-        # do fascículo de migrated_issue
-        # possivelmente source_file pode conter registros de outros fascículos
-        # se source_file for acrônimo
-        logging.info("Importing documents records {} {}".format(
-            migrated_issue.migrated_journal.acron,
-            migrated_issue.issue_folder,
-        ))
-        for grp_id, grp_records in mcc.get_documents_pids_and_records(
-                migrated_issue.migrated_journal.acron,
-                migrated_issue.issue_folder,
-                ):
-            try:
-                logging.info(_("Get {}").format(grp_id))
-                if len(grp_records) == 1:
-                    # é possível que em source_file_path exista registro tipo i
-                    journal_issue_and_document_data['issue'] = grp_records[0]
-                    continue
-
-                journal_issue_and_document_data['article'] = grp_records
-                document = classic_ws.Document(journal_issue_and_document_data)
-
-                migrate_document(
-                    mcc,
-                    article_ids_provider,
-                    user,
-                    collection_acron,
-                    scielo_issn=document.journal.scielo_issn,
-                    issue_pid=document.issue.pid,
-                    document=document,
-                    journal_issue_and_document_data=journal_issue_and_document_data,
-                    force_update=force_update,
-                )
-            except Exception as e:
-                logging.exception(e)
-                migrated_issue.failures.add(
-                    MigrationFailure.create(
-                        _('Error migrating documents {}').format(migrated_issue),
-                        'migrate issue documents',
-                        e,
-                        user,
-                    )
-                )
-                migrated_issue.save()
-    except Exception as e:
-        logging.exception(e)
-        migrated_issue.failures.add(
-            MigrationFailure.create(
-                _('Error migrating documents {}').format(migrated_issue),
-                'migrate issue documents',
-                e,
-                user,
-            )
-        )
-        migrated_issue.save()
-
-
-def migrate_document(
-        mcc,
-        article_ids_provider,
-        user,
-        collection_acron,
-        scielo_issn,
-        issue_pid,
-        document,
-        journal_issue_and_document_data,
-        force_update,
-        ):
-    try:
         # instancia Document com registros de title, issue e artigo
-        pid = document.scielo_pid_v2 or (issue_pid + document.order.zfill(5))
+        pid = document.scielo_pid_v2 or article_pid
 
         if document.scielo_pid_v2 != pid:
             document.scielo_pid_v2 = pid
 
-        migrated_journal = MigratedJournal.get_or_create(
-                collection_acron, scielo_issn, user)
-        migrated_issue = MigratedIssue.get_or_create(
-            migrated_journal, issue_pid, document.issue.issue_label, user)
         migrated_document = MigratedDocument.get_or_create(
             pid=pid,
-            key=document.filename_without_extension,
+            pkg_name=document.filename_without_extension,
             migrated_issue=migrated_issue,
             aop_pid=document.aop_pid,
             v3=document.scielo_pid_v3,
-            creator=user,
+            creator=self.user,
         )
-        logging.info(len(document.document_records.get_record("p")))
         migrated_document.add_data(
             document,
             journal_issue_and_document_data,
-            force_update,
+            self.force_update,
+            self.user,
         )
-        migrated_document.add_files(
-            original_language=document.original_language,
-            updated_by=user,
+        migrated_document.add_pdfs(self.force_update)
+        migrated_document.add_htmls(self.force_update)
+        migrated_document.add_migrated_xmls(self.force_update)
+        migrated_document.add_generated_xmls(
+            document=document,
+            migration_fs_manager=self.mcc.fs_managers['migration'],
+            user=self.user,
+            force_update=self.force_update,
         )
-        migrated_document.add_xmls(
-            classic_website_document=document,
-            migration_fs_manager=mcc.fs_managers['migration'],
-            updated_by=user,
-            force_update=force_update,
-        )
+        return migrated_document
+
+    def request_pids(self, migrated_document):
         # solicitar pid v3
         logging.debug("XML WITH PRE %s" % type(migrated_document.xml_with_pre))
         logging.info("migrated_document.xml_with_pre ids %s %s %s" %
@@ -769,23 +666,17 @@ def migrate_document(
                 migrated_document.xml_with_pre.v2,
                 migrated_document.xml_with_pre.aop_pid,
                 ))
-        logging.info("document ids %s %s %s" %
-            (
-                document.scielo_pid_v3,
-                document.scielo_pid_v2,
-                document.aop_pid,
-                ))
         # cria / atualiza artigo de app publication
-        response = article_ids_provider.register(
+        response = self.article_ids_provider.register(
             xml_with_pre=migrated_document.xml_with_pre,
             name=migrated_document.pkg_name + ".xml",
-            user=user,
+            user=self.user,
             # pdfs=migrated_document.rendition_files,
         )
         logging.info("response %s " % response)
         try:
             registered = response['registered']
-            migrated_document.pid = .get("v2")
+            migrated_document.pid = registered.get("v2")
             migrated_document.v3 = registered.get("v3")
             migrated_document.aop_pid = registered.get("aop_pid")
             migrated_document.save()
@@ -793,16 +684,4 @@ def migrate_document(
             # TODO o que fazer quando response['error']
             logging.exception(response)
         else:
-            migrated_document.finish()
-    except Exception as e:
-        logging.exception(e)
-        migrated_document.failures.add(
-            MigrationFailure.create(
-                _("Unable to migrate document {} {} {}").format(
-                    migrated_journal, migrated_issue, pid
-                ),
-                "document migration",
-                e, user,
-            )
-        )
-        migrated_document.save()
+            migrated_document.finish(self.user)

@@ -20,17 +20,6 @@ def start(
         controller.start(User.objects.get(pk=user_id or 1))
 
 
-@celery_app.task(bind=True, name=_('Schedule journals and issues migrations'))
-def task_schedule_journals_and_issues_migrations(
-        self,
-        user_id,
-        collection_acron,
-        force_update=False,
-        ):
-    user = User.objects.get(pk=user_id or 1)
-    controller.schedule_journals_and_issues_migrations(collection_acron, user)
-
-
 @celery_app.task(bind=True, name=_('Migrate journals'))
 def task_migrate_journals(
         self,

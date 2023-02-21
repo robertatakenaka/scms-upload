@@ -14,7 +14,7 @@ from config.settings.base import (
 
 from files_storage.controller import FilesStorageManager
 from xmlsps import xml_sps_lib
-from xmlsps.models import XMLDocPid
+from pid_provider.models import XMLDocPid
 from . import exceptions
 
 
@@ -29,6 +29,7 @@ class ArticleXMLRegistration:
     Faz registro de pid local e central, mantém os registros sincronizados
     """
     def __init__(self):
+        # para PidProvider local, files_storage_name == 'website'
         self.local_pid_provider = PidProvider(files_storage_name='website')
         self.api_uri = API_PID_PROVIDER_URI
         self.api_token_uri = API_PID_PROVIDER_TOKEN_URI
@@ -103,6 +104,7 @@ class ArticleXMLRegistration:
             nome do arquivo xml
         """
         with TemporaryDirectory() as tmpdirname:
+            name, ext = os.path.splitext(name)
             zip_xml_file_path = os.path.join(tmpdirname, name + ".zip")
 
             xml_sps_lib.create_xml_zip_file(
@@ -110,8 +112,8 @@ class ArticleXMLRegistration:
 
             response = self._api_request_post(
                 zip_xml_file_path, user, self.timeout)
-            data = json.loads(response)
-            for item in data:
+
+            for item in response:
                 try:
                     return item['registered']
                 except KeyError:
@@ -152,8 +154,7 @@ class ArticleXMLRegistration:
                 timeout=timeout,
                 verify=False,
             )
-            logging.info(response.text)
-            return response.text
+            return json.loads(response.text)
         except Exception as e:
             logging.exception(e)
             raise exceptions.APIPidProviderPostError(
