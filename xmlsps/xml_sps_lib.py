@@ -18,7 +18,7 @@ from packtools.sps.models.article_titles import ArticleTitles
 from packtools.sps.models.body import Body
 from packtools.sps.models.dates import ArticleDates
 from packtools.sps.models.front_articlemeta_issue import ArticleMetaIssue
-from packtools.sps.models.front_journal_meta import ISSN
+from packtools.sps.models.journal_meta import ISSN
 from packtools.sps.models.related_articles import RelatedItems
 
 LOGGER = logging.getLogger(__name__)
