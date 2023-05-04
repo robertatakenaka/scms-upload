@@ -115,6 +115,7 @@ LOCAL_APPS = [
     # Your stuff: custom apps go here
     "article",
     "collection",
+    "controlled_lists",
     "doi",
     "institution",
     "issue",
@@ -122,9 +123,7 @@ LOCAL_APPS = [
     "location",
     "migration",
     "researcher",
-    # evitar problema de migração por enquanto
     "upload",
-    "controlled_lists",
 ]
 
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
