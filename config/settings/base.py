@@ -105,7 +105,6 @@ THIRD_PARTY_APPS = [
     "wagtailcaptcha",
     "wagtailmenus",
     "rest_framework",
-    "core",
     "wagtailautocomplete",
 ]
 
@@ -116,6 +115,7 @@ LOCAL_APPS = [
     "article",
     "collection",
     "controlled_lists",
+    "core",
     "doi",
     "files_storage",
     "institution",
