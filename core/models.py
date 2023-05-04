@@ -332,3 +332,48 @@ class FlexibleDateFieldAdapter:
     @year.setter
     def year(self, value):
         self._year = int(value)
+
+
+class Language(CommonControlField):
+    """
+    Represent the list of languages
+
+    Fields:
+        name
+        code2
+    """
+
+    name = models.TextField(_("Language Name"), blank=True, null=True)
+    code2 = models.TextField(_("Language code 2"), blank=True, null=True)
+
+    class Meta:
+        verbose_name = _("Language")
+        verbose_name_plural = _("Languages")
+
+    def __unicode__(self):
+        return self.code2 or "idioma ausente / não informado"
+
+    def __str__(self):
+        return self.code2 or "idioma ausente / não informado"
+
+    @classmethod
+    def get_or_create(cls, name=None, code2=None, creator=None):
+        if code2:
+            try:
+                return cls.objects.get(code2__icontains=code2)
+            except cls.DoesNotExist:
+                pass
+
+        if name:
+            try:
+                return cls.objects.get(name__icontains=name)
+            except cls.DoesNotExist:
+                pass
+
+        if name or code2:
+            obj = Language()
+            obj.name = name
+            obj.code2 = code2 or ""
+            obj.creator = creator
+            obj.save()
+            return obj
