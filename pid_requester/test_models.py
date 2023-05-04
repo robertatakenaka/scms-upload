@@ -349,16 +349,17 @@ class PidRequesterXMLGetRegisteredTest(TestCase):
         mock_query_document,
         mock_xml_uri,
     ):
-        xml_doc_pid = models.PidRequesterXML()
-        xml_doc_pid.v2 = "registered_v2"
-        xml_doc_pid.v3 = "registered_v3"
-        xml_doc_pid.aop_pid = "registered_aop_pid"
-        xml_doc_pid.created = datetime(2023, 2, 20)
-        xml_doc_pid.updated = datetime(2023, 2, 20)
+        pid_req_xml = models.PidRequesterXML()
+        pid_req_xml.pkg_name = "registered_pkg_name"
+        pid_req_xml.v2 = "registered_v2"
+        pid_req_xml.v3 = "registered_v3"
+        pid_req_xml.aop_pid = "registered_aop_pid"
+        pid_req_xml.created = datetime(2023, 2, 20)
+        pid_req_xml.updated = datetime(2023, 2, 20)
 
         mock_xml_uri.return_value = "registered_xml_uri"
 
-        mock_query_document.return_value = xml_doc_pid
+        mock_query_document.return_value = pid_req_xml
 
         result = models.PidRequesterXML.get_registered(self.xml_with_pre)
         expected = {
@@ -367,6 +368,7 @@ class PidRequesterXMLGetRegisteredTest(TestCase):
             "aop_pid": "registered_aop_pid",
             "xml_uri": "registered_xml_uri",
             "article": None,
+            "pkg_name": "registered_pkg_name",
             "created": "2023-02-20T00:00:00",
             "updated": "2023-02-20T00:00:00",
         }
@@ -664,7 +666,8 @@ class PidRequesterXMLAddPidV3Test(TestCase):
 
 
 @patch(
-    "pid_requester.models.PidRequesterXML.current_version", new_callable=mock.PropertyMock
+    "pid_requester.models.PidRequesterXML.current_version",
+    new_callable=mock.PropertyMock,
 )
 class PidRequesterXMLIsEqualToTest(TestCase):
     def test_is_equal_to_returns_false(self, mock_last_version):

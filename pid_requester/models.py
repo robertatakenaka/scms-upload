@@ -27,6 +27,56 @@ def utcnow():
     # return datetime.utcnow().isoformat().replace("T", " ") + "Z"
 
 
+class PidProviderConfig(CommonControlField):
+    """
+    Tem função de guardar XML que falhou no registro
+    """
+
+    pid_provider_api_post_xml = models.TextField(_("XML Post URI"), null=True, blank=True)
+    pid_provider_api_get_token = models.TextField(_("Get Token URI"), null=True, blank=True)
+    timeout = models.IntegerField(_("Timeout"), null=True, blank=True)
+    api_username = models.TextField(_("API Username"), null=True, blank=True)
+    api_password = models.TextField(_("API Password"), null=True, blank=True)
+
+    def __unicode__(self):
+        return f"{self.pid_provider_api_post_xml}"
+
+    def __str__(self):
+        return f"{self.pid_provider_api_post_xml}"
+
+    @classmethod
+    def get_or_create(
+            cls,
+            creator=None,
+            pid_provider_api_post_xml=None,
+            pid_provider_api_get_token=None,
+            api_username=None,
+            api_password=None,
+            timeout=None,
+            ):
+        obj = cls.objects.first()
+        if obj is None:
+            obj = cls()
+            obj.pid_provider_api_post_xml = pid_provider_api_post_xml
+            obj.pid_provider_api_get_token = pid_provider_api_get_token
+            obj.api_username = api_username
+            obj.api_password = api_password
+            obj.timeout = timeout
+            obj.creator = creator
+            obj.save()
+        return obj
+
+    panels = [
+        FieldPanel("pid_provider_api_post_xml"),
+        FieldPanel("pid_provider_api_get_token"),
+        FieldPanel("api_username"),
+        FieldPanel("api_password"),
+        FieldPanel("timeout"),
+    ]
+
+    base_form_class = CoreAdminModelForm
+
+
 class PidRequesterBadRequest(CommonControlField):
     """
     Tem função de guardar XML que falhou no registro
