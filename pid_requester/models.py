@@ -380,7 +380,7 @@ class PidRequesterXML(CommonControlField):
     @classmethod
     def unsynchronized(cls):
         """
-        Identifica no pid requester local os registros que não
+        Identifica no pid requester os registros que não
         estão sincronizados com o pid provider (central) e
         faz a sincronização, registrando o XML local no pid provider
         """
