@@ -123,6 +123,7 @@ LOCAL_APPS = [
     "journal",
     "location",
     "migration",
+    "pid_requester",
     "researcher",
     "upload",
 ]
