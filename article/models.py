@@ -553,9 +553,9 @@ class ArticlePackages(CommonControlField):
     def publish_package(self, minio_push_file_content, user):
         logging.info(f"ArticlePackages.publish_package {self.article}")
         try:
-            journal = self.article.issue.official_journal
+            journal = self.article.issue.journal.official_journal
         except AttributeError:
-            journal = self.article.official_journal
+            journal = self.article.journal.official_journal
 
         mimetypes.init()
 
