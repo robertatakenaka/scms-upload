@@ -11,10 +11,10 @@ from wagtail.contrib.modeladmin.views import CreateView
 
 from config.menu import get_menu_order
 from migration.models import ClassicWebsiteConfiguration
+from publication.models import NewWebSiteConfiguration
 from .models import (
     Collection,
     FilesStorageConfiguration,
-    NewWebSiteConfiguration,
 )
 
 
@@ -63,13 +63,18 @@ class NewWebSiteConfigurationModelAdmin(ModelAdmin):
     create_view_class = CoreCreateView
 
     list_display = (
+        "collection",
         "url",
         "created",
         "updated",
         "updated_by",
     )
-    list_filter = ("url",)
-    search_fields = ("url",)
+    list_filter = ("collection", "purpose")
+    search_fields = (
+        "collection__name",
+        "collection__acron",
+        "url",
+    )
 
 
 class FilesStorageConfigurationModelAdmin(ModelAdmin):

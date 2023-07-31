@@ -23,12 +23,3 @@ JOURNAL_AVAILABILTY_STATUS = [
     (UNKNOWN, _("Unknown")),
     (CURRENT, _("Current")),
 ]
-
-
-QA = "QA"
-PUBLIC = "PUBLIC"
-
-WEBSITE_KIND = [
-    (QA, _("QA")),
-    (PUBLIC, _("PUBLIC")),
-]

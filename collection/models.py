@@ -4,8 +4,6 @@ from django.utils.translation import gettext_lazy as _
 from core.forms import CoreAdminModelForm
 from core.models import CommonControlField
 
-from .choices import JOURNAL_AVAILABILTY_STATUS, WEBSITE_KIND
-
 
 class Collection(CommonControlField):
     """
@@ -34,27 +32,6 @@ class Collection(CommonControlField):
             collection.creator = user
             collection.save()
             return collection
-
-
-class NewWebSiteConfiguration(CommonControlField):
-    url = models.CharField(_("New website url"), max_length=255, null=True, blank=True)
-    db_uri = models.CharField(
-        _("Mongodb Info"),
-        max_length=255,
-        null=True,
-        blank=True,
-        help_text=_("mongodb://login:password@host:port/database"),
-    )
-
-    def __str__(self):
-        return f"{self.url}"
-
-    class Meta:
-        indexes = [
-            models.Index(fields=["url"]),
-        ]
-
-    base_form_class = CoreAdminModelForm
 
 
 class FilesStorageConfiguration(CommonControlField):
