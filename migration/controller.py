@@ -435,6 +435,7 @@ class IssueMigration:
                     part=file.get("part"),
                     pkg_name=file.get("key"),
                     creator=self.user,
+                    force_update=self.force_update,
                 )
             except Exception as e:
                 message = _("Unable to migrate issue files {} {}").format(

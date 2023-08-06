@@ -299,6 +299,10 @@ class MigratedFile(CommonControlField):
                 sps_pkg_name=sps_pkg_name,
             )
 
+    def is_out_of_date(self, source_path, file_content):
+        # TODO faz compações
+        return self.file is None
+
     @classmethod
     def create_or_update(
         cls,
@@ -313,6 +317,7 @@ class MigratedFile(CommonControlField):
         pkg_name=None,
         sps_pkg_name=None,
         creator=None,
+        force_update=None,
     ):
         try:
             logging.info(
@@ -329,8 +334,10 @@ class MigratedFile(CommonControlField):
                 pkg_name=pkg_name,
                 sps_pkg_name=sps_pkg_name,
             )
-            obj.updated_by = creator
-            obj.updated = datetime.utcnow()
+            if force_update or obj.is_out_of_date(source_path, file_content):
+                obj.updated_by = creator
+            else:
+                return obj
         except cls.DoesNotExist:
             obj = cls()
             obj.creator = creator
@@ -418,9 +425,17 @@ class MigratedJournal(MigratedData):
         logging.info(f"MigratedJournal.create_or_update {scielo_journal}")
         try:
             obj = cls.get(scielo_journal=scielo_journal)
-            logging.info("Update MigratedJournal {}".format(obj))
-            obj.updated_by = creator
-            obj.updated = datetime.utcnow()
+
+            if (
+                force_update
+                or obj.isis_updated_date < isis_updated_date
+                or data != obj.data
+            ):
+                logging.info("Update MigratedJournal {}".format(obj))
+                obj.updated_by = creator
+            else:
+                logging.info("Skip updating")
+                return obj
         except cls.DoesNotExist:
             obj = cls()
             obj.scielo_journal = scielo_journal
@@ -428,13 +443,12 @@ class MigratedJournal(MigratedData):
             logging.info("Create MigratedJournal {}".format(obj))
 
         try:
-            if force_update or obj.isis_updated_date != isis_updated_date:
-                obj.isis_created_date = isis_created_date or obj.isis_created_date
-                obj.isis_updated_date = isis_updated_date or obj.isis_updated_date
-                obj.status = status or obj.status
-                obj.data = data or obj.data
-                obj.save()
-                logging.info("Created / Updated MigratedJournal {}".format(obj))
+            obj.isis_created_date = isis_created_date or obj.isis_created_date
+            obj.isis_updated_date = isis_updated_date or obj.isis_updated_date
+            obj.status = status or obj.status
+            obj.data = data or obj.data
+            obj.save()
+            logging.info("Created / Updated MigratedJournal {}".format(obj))
             return obj
         except Exception as e:
             raise exceptions.CreateOrUpdateMigratedJournalError(
@@ -510,9 +524,16 @@ class MigratedIssue(MigratedData):
         logging.info("Create or Update MigratedIssue {}".format(scielo_issue))
         try:
             obj = cls.objects.get(scielo_issue=scielo_issue)
-            logging.info("Update MigratedIssue {}".format(obj))
-            obj.updated_by = creator
-            obj.updated = datetime.utcnow()
+            if (
+                force_update
+                or obj.isis_updated_date < isis_updated_date
+                or obj.data != data
+            ):
+                logging.info("Update MigratedIssue {}".format(obj))
+                obj.updated_by = creator
+            else:
+                logging.info("Skip updating")
+                return obj
         except cls.DoesNotExist:
             obj = cls()
             obj.scielo_issue = scielo_issue
@@ -521,14 +542,13 @@ class MigratedIssue(MigratedData):
             logging.info("Create MigratedIssue {}".format(obj))
 
         try:
-            if force_update or obj.isis_updated_date != isis_updated_date:
-                obj.migrated_journal = migrated_journal or obj.migrated_journal
-                obj.isis_created_date = isis_created_date or obj.isis_created_date
-                obj.isis_updated_date = isis_updated_date or obj.isis_updated_date
-                obj.status = status or obj.status
-                obj.data = data or obj.data
-                obj.save()
-                logging.info("Created / Updated MigratedIssue {}".format(obj))
+            obj.migrated_journal = migrated_journal or obj.migrated_journal
+            obj.isis_created_date = isis_created_date or obj.isis_created_date
+            obj.isis_updated_date = isis_updated_date or obj.isis_updated_date
+            obj.status = status or obj.status
+            obj.data = data or obj.data
+            obj.save()
+            logging.info("Created / Updated MigratedIssue {}".format(obj))
             return obj
         except Exception as e:
             raise exceptions.CreateOrUpdateMigratedIssueError(
@@ -621,9 +641,16 @@ class MigratedDocument(MigratedData):
                 pid=pid,
                 pkg_name=pkg_name,
             )
-            logging.info("Update MigratedDocument {}".format(obj))
-            obj.updated_by = creator
-            obj.updated = datetime.utcnow()
+            if (
+                force_update
+                or obj.isis_updated_date < isis_updated_date
+                or obj.data != data
+            ):
+                logging.info("Update MigratedDocument {}".format(obj))
+                obj.updated_by = creator
+            else:
+                logging.info("Skip updating {}".format(obj))
+                return obj
         except cls.DoesNotExist:
             obj = cls()
             obj.migrated_issue = migrated_issue
@@ -631,26 +658,25 @@ class MigratedDocument(MigratedData):
             logging.info("Create MigratedDocument {}".format(obj))
 
         try:
-            if force_update or obj.isis_updated_date != isis_updated_date:
-                obj.pkg_name = pkg_name or obj.pkg_name
-                obj.pid = pid or obj.pid
-                obj.isis_created_date = isis_created_date
-                obj.isis_updated_date = isis_updated_date
-                obj.status = status or obj.status
-                obj.article = article or obj.article
-                obj.sps_pkg_name = sps_pkg_name or obj.sps_pkg_name
-                obj.data = data or obj.data
+            obj.pkg_name = pkg_name or obj.pkg_name
+            obj.pid = pid or obj.pid
+            obj.isis_created_date = isis_created_date
+            obj.isis_updated_date = isis_updated_date
+            obj.status = status or obj.status
+            obj.article = article or obj.article
+            obj.sps_pkg_name = sps_pkg_name or obj.sps_pkg_name
+            obj.data = data or obj.data
 
-                if pid or pid_v3 or aop_pid:
-                    obj.add_aids(
-                        pid_v3=pid_v3,
-                        pid_v2=pid,
-                        aop_pid=aop_pid,
-                        creator=creator,
-                        collection=migrated_issue.migrated_journal.collection,
-                    )
-                obj.save()
-                logging.info("Created / Updated MigratedDocument {}".format(obj))
+            if pid or pid_v3 or aop_pid:
+                obj.add_aids(
+                    pid_v3=pid_v3,
+                    pid_v2=pid,
+                    aop_pid=aop_pid,
+                    creator=creator,
+                    collection=migrated_issue.migrated_journal.collection,
+                )
+            obj.save()
+            logging.info("Created / Updated MigratedDocument {}".format(obj))
             return obj
         except Exception as e:
             raise exceptions.CreateOrUpdateMigratedDocumentError(
