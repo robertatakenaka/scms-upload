@@ -158,6 +158,19 @@ def task_migrate_one_issue_document_records(
     )
 
 
+@celery_app.task(bind=True, name="generate_sps_packages")
+def task_generate_sps_packages(
+    self,
+    username,
+    collection_acron,
+):
+    user = _get_user(self.request, username)
+    controller.generate_sps_packages(
+        user,
+        collection_acron,
+    )
+
+
 @celery_app.task(bind=True, name=_("run_migrations"))
 def task_run_migrations(
     self,
