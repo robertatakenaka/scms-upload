@@ -483,15 +483,13 @@ class IssueMigration:
                     continue
 
                 journal_issue_and_doc_data["article"] = doc_records
-                classic_ws_doc = classic_ws.Document(journal_issue_and_doc_data)
-
-                migrated_document = self.migrate_document(
-                    classic_ws_doc=classic_ws_doc,
+                migrated_document = self.migrate_document_records(
                     journal_issue_and_doc_data=journal_issue_and_doc_data,
                 )
-                document_migration = DocumentMigration(migrated_document, self.user)
-                document_migration.generate_xml_from_html(classic_ws_doc)
-                document_migration.build_sps_package()
+                # document_migration = DocumentMigration(migrated_document, self.user)
+                # document_migration.generate_xml_from_html()
+                # document_migration.build_sps_package()
+                _generate_sps_package(migrated_document, self.user)
 
             except Exception as e:
                 message = _("Unable to migrate documents {} {} {} {}").format(
@@ -520,8 +518,9 @@ class IssueMigration:
             creator=self.user,
         )
 
-    def migrate_document(self, classic_ws_doc, journal_issue_and_doc_data):
+    def migrate_document_records(self, journal_issue_and_doc_data):
         try:
+            classic_ws_doc = classic_ws.Document(journal_issue_and_doc_data)
             # instancia Document com registros de title, issue e artigo
             pid = classic_ws_doc.scielo_pid_v2 or (
                 "S" + self.issue_pid + classic_ws_doc.order.zfill(5)
@@ -601,6 +600,7 @@ class DocumentMigration:
         self._xml_with_pre = None
         self._sps_pkg_name = None
         self.article_pkgs = None
+        self.classic_ws_doc = classic_ws.Document(migrated_document.data)
 
     def register_failure(
         self, e, migrated_item_name, migrated_item_id, message, action_name
@@ -633,55 +633,12 @@ class DocumentMigration:
             self._xml_with_pre = _get_xml(migrated_xml["path"])
         return self._xml_with_pre
 
-    def build_sps_pkg_name(self):
-        issue = self.migrated_issue.scielo_issue.official_issue
-        journal = issue.official_journal
-
-        suppl = issue.supplement
-        try:
-            if suppl and int(suppl) == 0:
-                suppl = "suppl"
-        except TypeError:
-            pass
-
-        parts = [
-            journal.issn_electronic or journal.issn_print or journal.issnl,
-            self.migrated_issue.migrated_journal.acron,
-            issue.volume,
-            issue.number and issue.number.zfill(2),
-            suppl,
-            self._get_pkg_name_suffix() or self.migrated_document.pkg_name,
-        ]
-        return "-".join([part for part in parts if part])
-
     @property
     def sps_pkg_name(self):
         if not self._sps_pkg_name:
-            self.sps_pkg_name = self.build_sps_pkg_name()
+            self.sps_pkg_name = self.xml_with_pre.sps_pkg_name
+            self.migrated_document.sps_pkg_name = self.sps_pkg_name
         return self._sps_pkg_name
-
-    @sps_pkg_name.setter
-    def sps_pkg_name(self, value):
-        self._sps_pkg_name = value
-        self.migrated_document.sps_pkg_name = value
-        self.migrated_document.save()
-
-    def _get_pkg_name_suffix(self):
-        xml_with_pre = self.xml_with_pre
-        if xml_with_pre.is_aop and xml_with_pre.main_doi:
-            doi = xml_with_pre.main_doi
-            if "/" in doi:
-                doi = doi[doi.find("/") + 1 :]
-            return doi.replace(".", "-")
-        if xml_with_pre.elocation_id:
-            return xml_with_pre.elocation_id
-        if xml_with_pre.fpage:
-            try:
-                fpage = int(xml_with_pre.fpage)
-            except TypeError:
-                pass
-            if fpage != 0:
-                return xml_with_pre.fpage + (xml_with_pre.fpage_seq or "")
 
     def build_sps_package(self):
         """
@@ -865,13 +822,13 @@ class DocumentMigration:
                 action_name="build-sps-package",
             )
 
-    def generate_xml_from_html(self, classic_ws_doc):
+    def generate_xml_from_html(self):
         html_texts = self.migrated_document.html_texts
         if not html_texts:
             return
 
         pkg_name = self.migrated_document.pkg_name
-
+        classic_ws_doc = self.classic_ws_doc
         try:
             # obtém um XML com body e back a partir dos arquivos HTML / traduções
             classic_ws_doc.generate_body_and_back_from_html(html_texts)
@@ -920,3 +877,30 @@ class DocumentMigration:
                     message=message,
                     action_name="xml-to-html",
                 )
+
+
+def generate_sps_packages(user, collection_acron):
+    for migrate_document in MigratedDocument.objects.filter(
+        migrated_issue__migrated_journal__scielo_journal__collection__acron=collection_acron,
+        article__isnull=True,
+    ).iterator():
+        _generate_sps_package(migrate_document, user)
+
+
+def _generate_sps_package(migrate_document, user):
+    try:
+        document_migration = DocumentMigration(migrated_document, user)
+        document_migration.generate_xml_from_html()
+        document_migration.build_sps_package()
+    except Exception as e:
+        migrated_item_id = f"{migrate_document.sps_pkg_name}"
+        message = _("Unable to generate SPS Package {}").format(
+            migrated_item_id
+        )
+        self.register_failure(
+            e,
+            migrated_item_name="sps_pkg_name",
+            migrated_item_id=migrated_item_id,
+            message=message,
+            action_name="generate_sps_pkg_name",
+        )
