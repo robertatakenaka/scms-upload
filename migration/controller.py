@@ -541,6 +541,7 @@ class IssueMigration:
                 isis_updated_date=classic_ws_doc.isis_updated_date,
                 data=journal_issue_and_doc_data,
                 status=MS_IMPORTED,
+                file_type=classic_ws_doc.file_type,
                 force_update=self.force_update,
             )
         except Exception as e:
@@ -879,12 +880,25 @@ class DocumentMigration:
                 )
 
 
-def generate_sps_packages(user, collection_acron):
-    for migrate_document in MigratedDocument.objects.filter(
-        migrated_issue__migrated_journal__scielo_journal__collection__acron=collection_acron,
-        article__isnull=True,
-    ).iterator():
-        _generate_sps_package(migrate_document, user)
+def generate_sps_packages(user, collection_acron, kwargs=None):
+    try:
+        for migrate_document in MigratedDocument.objects.filter(
+            migrated_issue__migrated_journal__scielo_journal__collection__acron=collection_acron,
+            **kwargs,
+        ).iterator():
+            _generate_sps_package(migrate_document, user)
+    except Exception as e:
+        migrated_item_id = f"{kwargs}"
+        message = _("Unable to generate SPS Package {}").format(
+            migrated_item_id
+        )
+        self.register_failure(
+            e,
+            migrated_item_name="sps_pkg_name",
+            migrated_item_id=migrated_item_id,
+            message=message,
+            action_name="generate_sps_pkg_name",
+        )
 
 
 def _generate_sps_package(migrate_document, user):

@@ -163,11 +163,13 @@ def task_generate_sps_packages(
     self,
     username,
     collection_acron,
+    kwargs=None,
 ):
     user = _get_user(self.request, username)
     controller.generate_sps_packages(
         user,
         collection_acron,
+        kwargs,
     )
 
 
@@ -204,5 +206,13 @@ def task_run_migrations(
             "username": username,
             "collection_acron": collection_acron,
             "force_update": force_update,
+        }
+    )
+    # gera pacote sps dos dados e arquivos de migrated document
+    task_generate_sps_packages.apply_async(
+        kwargs={
+            "username": username,
+            "collection_acron": collection_acron,
+            "kwargs": {},
         }
     )
