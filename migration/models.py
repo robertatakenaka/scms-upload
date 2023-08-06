@@ -569,9 +569,10 @@ class MigratedDocument(MigratedData):
     article = models.ForeignKey(
         Article, null=True, blank=True, on_delete=models.SET_NULL
     )
-    pid = models.TextField(_("Package name"), null=True, blank=True)
+    pid = models.CharField(_("PID"), max_length=23, null=True, blank=True)
     pkg_name = models.TextField(_("Package name"), null=True, blank=True)
     sps_pkg_name = models.TextField(_("New Package name"), null=True, blank=True)
+    file_type = models.CharField(_("File type"), max_length=5, null=True, blank=True)
 
     def __unicode__(self):
         return "%s %s %s" % (self.migrated_issue, self.pkg_name, self.pid)
@@ -625,6 +626,7 @@ class MigratedDocument(MigratedData):
         status=None,
         article=None,
         sps_pkg_name=None,
+        file_type=None,
         force_update=None,
     ):
         logging.info(
@@ -658,6 +660,7 @@ class MigratedDocument(MigratedData):
             logging.info("Create MigratedDocument {}".format(obj))
 
         try:
+            obj.file_type = file_type or obj.file_type
             obj.pkg_name = pkg_name or obj.pkg_name
             obj.pid = pid or obj.pid
             obj.isis_created_date = isis_created_date
