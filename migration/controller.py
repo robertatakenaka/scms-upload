@@ -17,11 +17,12 @@ from core.controller import parse_yyyymmdd
 from core.utils.scheduler import schedule_task
 from issue.models import Issue, SciELOIssue
 from journal.models import Journal, OfficialJournal, SciELOJournal
-from scielo_classic_website import classic_ws
 from packtools.sps.pid_provider.xml_sps_lib import XMLWithPre
+from scielo_classic_website import classic_ws
+from scielo_classic_website.htmlbody.html_body import HTMLContent
 
 from . import exceptions
-from .choices import MS_IMPORTED, MS_PUBLISHED, MS_TO_IGNORE
+from .choices import MS_TO_MIGRATE, MS_IMPORTED, MS_PUBLISHED, MS_TO_IGNORE
 from .models import (
     BodyAndBackFile,
     ClassicWebsiteConfiguration,
@@ -43,17 +44,18 @@ def schedule_migrations(user, collection_acron=None):
         collections = Collection.objects.iterator()
     for collection in collections:
         collection_acron = collection.acron
-        _schedule_title_migration(user, collection_acron)
-        _schedule_issue_migration(user, collection_acron)
-        _schedule_issue_files_migration(user, collection_acron)
-        _schedule_article_migration(user, collection_acron)
+        _schedule_title_db_migration(user, collection_acron)
+        _schedule_issue_db_migration(user, collection_acron)
+        _schedule_documents_migration(user, collection_acron)
+        _schedule_one_issue_migration(user, collection_acron)
+        _schedule_generate_sps_packages(user, collection_acron)
 
         _schedule_run_migrations(user, collection_acron)
 
 
-def _schedule_title_migration(user, collection_acron):
+def _schedule_title_db_migration(user, collection_acron):
     """
-    Cria o agendamento da tarefa de migrar os registros da base de dados TITLE
+    Agenda a tarefa de migrar os registros da base de dados TITLE
     Deixa a tarefa desabilitada
     """
     schedule_task(
@@ -65,7 +67,7 @@ def _schedule_title_migration(user, collection_acron):
             force_update=False,
         ),
         description=_("Migra os registros da base de dados TITLE"),
-        priority=1,
+        priority=0,
         enabled=False,
         run_once=True,
         day_of_week="*",
@@ -74,86 +76,113 @@ def _schedule_title_migration(user, collection_acron):
     )
 
 
-def _schedule_issue_migration(user, collection_acron):
+def _schedule_issue_db_migration(user, collection_acron):
     """
-    Cria o agendamento da tarefa de migrar os registros da base de dados ISSUE
+    Agenda a tarefa de migrar os registros da base de dados ISSUE
     Deixa a tarefa abilitada
     """
     schedule_task(
-        task="migrate_issue_records_and_files",
-        name="migrate_issue_records_and_files",
+        task="migrate_issue_records",
+        name="migrate_issue_records",
         kwargs=dict(
             collection_acron=collection_acron,
             username=user.username,
             force_update=False,
         ),
         description=_(
-            "Migra os registros da base de dados ISSUE e os arquivos de artigos"
+            "Migra os registros da base de dados ISSUE"
         ),
         priority=1,
         enabled=True,
         run_once=False,
         day_of_week="*",
         hour="*",
-        minute="5,15,25,35,45,55",
+        minute="2,12,22,32,42,52",
     )
 
 
-def _schedule_issue_files_migration(user, collection_acron):
+def _schedule_documents_migration(user, collection_acron):
     """
-    Cria o agendamento da tarefa de migrar os arquivos dos artigos
+    Agenda a tarefa de migrar os arquivos e registros dos artigos
     Deixa a tarefa desabilitada
     Quando usuário quiser executar, deve preencher os valores e executar
     """
     schedule_task(
-        task="migrate_set_of_issue_files",
-        name="migrate_set_of_issue_files",
+        task="migrate_document_files_and_records",
+        name="migrate_document_files_and_records",
         kwargs=dict(
             username=user.username,
             collection_acron=collection_acron,
-            scielo_issn=None,
+            journal_acron=None,
             publication_year=None,
             force_update=False,
         ),
-        description=_("Migra os arquivos de artigos"),
-        priority=1,
-        enabled=False,
-        run_once=True,
-        day_of_week="*",
-        hour="*",
-        minute="10,30,50",
-    )
-
-
-def _schedule_article_migration(user, collection_acron):
-    """
-    Cria o agendamento da tarefa de migrar os registros dos artigos
-    Deixa a tarefa desabilitada
-    Quando usuário quiser executar, deve preencher os valores e executar
-    """
-    schedule_task(
-        task="migrate_set_of_issue_document_records",
-        name="migrate_set_of_issue_document_records",
-        kwargs=dict(
-            username=user.username,
-            collection_acron=collection_acron,
-            scielo_issn=None,
-            publication_year=None,
-            force_update=False,
-        ),
-        description=_("Migra os registros de artigos"),
+        description=_("Migra os arquivos e registros de artigos"),
         priority=2,
         enabled=False,
         run_once=True,
         day_of_week="*",
         hour="*",
-        minute="15,35,55",
+        minute="5,15,25,35,45,55",
+    )
+
+
+def _schedule_one_issue_migration(user, collection_acron):
+    """
+    Agenda a tarefa de migrar os arquivos e registros dos artigos
+    de um dado fascículo
+    Deixa a tarefa desabilitada
+    Quando usuário quiser executar, deve preencher os valores e executar
+    """
+    schedule_task(
+        task="migrate_one_issue_documents",
+        name="migrate_one_issue_documents",
+        kwargs=dict(
+            username=user.username,
+            collection_acron=collection_acron,
+            journal_acron=None,
+            issue_folder=None,
+            force_update=False,
+        ),
+        description=_("Migra os arquivos e registros de artigos de um dado fascículo"),
+        priority=3,
+        enabled=False,
+        run_once=True,
+        day_of_week="*",
+        hour="*",
+        minute="10",
+    )
+
+
+def _schedule_generate_sps_packages(user, collection_acron):
+    """
+    Agenda a tarefa de gerar os pacotes SPS dos documentos migrados
+    Deixa a tarefa desabilitada
+    Quando usuário quiser executar, deve preencher os valores e executar
+    """
+    schedule_task(
+        task="generate_sps_packages",
+        name="generate_sps_packages",
+        kwargs=dict(
+            username=user.username,
+            collection_acron=collection_acron,
+            journal_acron=None,
+            issue_folder=None,
+            force_update=False,
+        ),
+        description=_("Gera os pacotes SPS"),
+        priority=4,
+        enabled=False,
+        run_once=True,
+        day_of_week="*",
+        hour="*",
+        minute="10",
     )
 
 
 def _schedule_run_migrations(user, collection_acron):
     """
-    Cria o agendamento da tarefa de migrar os registros da base de dados TITLE
+    Agenda a tarefa de migrar os registros da base de dados TITLE
     Deixa a tarefa desabilitada
     """
     schedule_task(
@@ -278,13 +307,13 @@ def import_data_from_title_database(
         )
 
 
-def migrate_issue_records_and_files(
+def migrate_issue_records(
     user,
     collection_acron,
     force_update=False,
 ):
     """
-    Migra os registros dos fascículos e arquivos dos artigos dos fascículos
+    Migra os registros da base de dados issue
     """
     collection = Collection.get_or_create(acron=collection_acron)
     classic_website = get_classic_website(collection_acron)
@@ -297,13 +326,6 @@ def migrate_issue_records_and_files(
             issue_data=issue_data[0],
             force_update=force_update,
         )
-        if migrated_issue:
-            migrate_one_issue_files(
-                user,
-                migrated_issue,
-                collection_acron,
-                force_update=force_update,
-            )
 
 
 def import_data_from_issue_database(
@@ -344,14 +366,17 @@ def import_data_from_issue_database(
             issue_folder=classic_website_issue.issue_label,
             official_issue=issue,
         )
-
+        if classic_website_issue.is_press_release:
+            status = MS_TO_IGNORE
+        else:
+            status = MS_TO_MIGRATE
         migrated_issue = MigratedIssue.create_or_update(
             scielo_issue=scielo_issue,
             migrated_journal=migrated_journal,
             creator=user,
             isis_created_date=classic_website_issue.isis_created_date,
             isis_updated_date=classic_website_issue.isis_updated_date,
-            status=MS_IMPORTED,
+            status=status,
             data=issue_data,
             force_update=force_update,
         )
@@ -405,7 +430,7 @@ class IssueMigration:
         return file["type"]
 
     def import_issue_files(self):
-        """135
+        """
         Migra os arquivos do fascículo (pdf, img, xml ou html)
         """
         logging.info(f"Import issue files {self.migrated_issue}")
@@ -457,10 +482,7 @@ class IssueMigration:
         }
 
         logging.info(
-            "Importing documents records {} {}".format(
-                self.journal_acron,
-                self.issue_folder,
-            )
+            f"Importing documents records {self.migrated_issue}"
         )
         # obtém registros da base "artigo" que não necessariamente é só
         # do fascículo de migrated_issue
@@ -472,18 +494,18 @@ class IssueMigration:
             self.issue_pid,
         ):
             try:
+                logging.info(_("Get self.issue_pid={}").format(self.issue_pid))
                 logging.info(_("Get doc_id={}").format(doc_id))
+
                 if len(doc_records) == 1:
                     # é possível que em source_file_path exista registro tipo i
                     journal_issue_and_doc_data["issue"] = doc_records[0]
                     continue
 
                 journal_issue_and_doc_data["article"] = doc_records
+
                 migrated_document = self.migrate_one_document_records(
                     journal_issue_and_doc_data=journal_issue_and_doc_data,
-                )
-                _generate_sps_package(
-                    self.collection_acron, self.user, migrated_document
                 )
 
             except Exception as e:
@@ -515,14 +537,16 @@ class IssueMigration:
 
     def migrate_one_document_records(self, journal_issue_and_doc_data):
         try:
+            logging.info(f"migrate_one_document_records: {journal_issue_and_doc_data.keys()}")
+
             # instancia Document com registros de title, issue e artigo
             classic_ws_doc = classic_ws.Document(journal_issue_and_doc_data)
 
             # pkg_name
             pkg_name = classic_ws_doc.filename_without_extension
             logging.info(f"pkg_name={pkg_name}")
-            logging.info(f"pid={classic_ws_doc.scielo_pid_v2}")
             logging.info(f"order={classic_ws_doc.order.zfill(5)}")
+            logging.info(f"pid={classic_ws_doc.scielo_pid_v2}")
 
             pid = classic_ws_doc.scielo_pid_v2 or (
                 "S" + self.issue_pid + classic_ws_doc.order.zfill(5)
@@ -542,7 +566,7 @@ class IssueMigration:
                 isis_created_date=classic_ws_doc.isis_created_date,
                 isis_updated_date=classic_ws_doc.isis_updated_date,
                 data=journal_issue_and_doc_data,
-                status=MS_IMPORTED,
+                status=MS_TO_MIGRATE,
                 file_type=classic_ws_doc.file_type,
                 force_update=self.force_update,
             )
@@ -558,13 +582,13 @@ class IssueMigration:
             )
 
 
-def migrate_one_issue_files(
+def migrate_one_issue_documents(
     user,
     migrated_issue,
     collection_acron,
     force_update=False,
 ):
-    logging.info(migrated_issue)
+    logging.info(f"migrate_one_issue_document: {migrated_issue}")
     migration = IssueMigration(user, collection_acron, migrated_issue, force_update)
 
     # Melhor importar todos os arquivos e depois tratar da carga
@@ -573,23 +597,12 @@ def migrate_one_issue_files(
     # da sua pasta do fascículo
     migration.import_issue_files()
 
-
-def migrate_one_issue_document_records(
-    user,
-    migrated_issue,
-    collection_acron,
-    force_update=False,
-):
-    logging.info(migrated_issue)
-    migration = IssueMigration(user, collection_acron, migrated_issue, force_update)
     # migra os documentos da base de dados `source_file_path`
     # que não contém necessariamente os dados de só 1 fascículo
     migration.migrate_document_records()
 
-
-def _get_xml(path):
-    for item in XMLWithPre.create(path=path):
-        return item
+    migrated_issue.status = MS_IMPORTED
+    migrated_issue.save()
 
 
 class DocumentMigration:
@@ -830,7 +843,7 @@ class DocumentMigration:
         try:
             # obtém as traduções
             translated_texts = self.migrated_document.html_texts
-            logging.info(f"translated_texts: {translated_texts}")
+            logging.info(f"translated_texts: {translated_texts.keys()}")
             # obtém um XML com body e back a partir dos arquivos HTML / traduções
             classic_ws_doc.generate_body_and_back_from_html(translated_texts)
         except Exception as e:
@@ -880,34 +893,13 @@ class DocumentMigration:
                 )
 
 
-def generate_sps_packages(user, collection_acron, kwargs=None):
-    try:
-        for migrated_document in MigratedDocument.objects.filter(
-            migrated_issue__migrated_journal__scielo_journal__collection__acron=collection_acron,
-            **kwargs,
-        ).iterator():
-            _generate_sps_package(collection_acron, user, migrated_document)
-    except Exception as e:
-        migrated_item_id = f"{kwargs}"
-        message = _("Unable to generate SPS Package {}").format(migrated_item_id)
-        logging.info(message)
-        logging.exception(e)
-        MigrationFailure.create(
-            collection_acron=collection_acron,
-            migrated_item_name="sps_pkg_name",
-            migrated_item_id=migrated_item_id,
-            message=message,
-            action_name="generate_sps_pkg_name",
-            e=e,
-            creator=user,
-        )
-
-
-def _generate_sps_package(collection_acron, user, migrated_document):
+def generate_sps_package(collection_acron, user, migrated_document):
     try:
         document_migration = DocumentMigration(migrated_document, user)
         document_migration.generate_xml_from_html()
         document_migration.build_sps_package()
+        migrated_document.status = MS_IMPORTED
+        migrated_document.save()
     except Exception as e:
         migrated_item_id = f"{migrated_document.sps_pkg_name}"
         message = _("Unable to generate SPS Package {}").format(migrated_item_id)
