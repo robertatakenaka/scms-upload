@@ -177,7 +177,7 @@ def _schedule_run_migrations(user, collection_acron):
 def get_classic_website(collection_acron):
     config = ClassicWebsiteConfiguration.objects.get(collection__acron=collection_acron)
     return classic_ws.ClassicWebsite(
-        bases_path=os.path.dirname(config.bases_work_path),
+        bases_path=os.path.join(os.path.dirname(config.bases_work_path), "bases"),
         bases_work_path=config.bases_work_path,
         bases_translation_path=config.bases_translation_path,
         bases_pdf_path=config.bases_pdf_path,
@@ -355,7 +355,6 @@ def import_data_from_issue_database(
             data=issue_data,
             force_update=force_update,
         )
-        logging.info(migrated_issue.status)
         return migrated_issue
     except Exception as e:
         logging.exception(e)
@@ -386,12 +385,11 @@ class IssueMigration:
     def _get_classic_website_rel_path(self, file_path):
         if "htdocs" in file_path:
             return file_path[file_path.find("htdocs") :]
-        if "base" in file_path:
-            return file_path[file_path.find("base") :]
+        if "bases" in file_path:
+            return file_path[file_path.find("bases") :]
 
     def check_category(self, file):
         if file["type"] == "pdf":
-            logging.info(file)
             check = file["name"]
             try:
                 check = check.replace(file["lang"] + "_", "")
@@ -401,7 +399,6 @@ class IssueMigration:
                 check = check.replace(file["key"], "")
             except (KeyError, TypeError):
                 pass
-            logging.info(check)
             if check == ".pdf":
                 return "rendition"
             return "supplmat"
@@ -425,7 +422,6 @@ class IssueMigration:
             {"type": "asset", "path": item, "name": os.path.basename(item)}
             """
             try:
-                logging.info(file)
                 migrated_file = MigratedFile.create_or_update(
                     migrated_issue=self.migrated_issue,
                     original_path=self._get_classic_website_rel_path(file["path"]),
@@ -476,20 +472,19 @@ class IssueMigration:
             self.issue_pid,
         ):
             try:
-                logging.info(_("Get {}").format(doc_id))
+                logging.info(_("Get doc_id={}").format(doc_id))
                 if len(doc_records) == 1:
                     # é possível que em source_file_path exista registro tipo i
                     journal_issue_and_doc_data["issue"] = doc_records[0]
                     continue
 
                 journal_issue_and_doc_data["article"] = doc_records
-                migrated_document = self.migrate_document_records(
+                migrated_document = self.migrate_one_document_records(
                     journal_issue_and_doc_data=journal_issue_and_doc_data,
                 )
-                # document_migration = DocumentMigration(migrated_document, self.user)
-                # document_migration.generate_xml_from_html()
-                # document_migration.build_sps_package()
-                _generate_sps_package(migrated_document, self.user)
+                _generate_sps_package(
+                    self.collection_acron, self.user, migrated_document
+                )
 
             except Exception as e:
                 message = _("Unable to migrate documents {} {} {} {}").format(
@@ -518,14 +513,21 @@ class IssueMigration:
             creator=self.user,
         )
 
-    def migrate_document_records(self, journal_issue_and_doc_data):
+    def migrate_one_document_records(self, journal_issue_and_doc_data):
         try:
-            classic_ws_doc = classic_ws.Document(journal_issue_and_doc_data)
             # instancia Document com registros de title, issue e artigo
+            classic_ws_doc = classic_ws.Document(journal_issue_and_doc_data)
+
+            # pkg_name
+            pkg_name = classic_ws_doc.filename_without_extension
+            logging.info(f"pkg_name={pkg_name}")
+            logging.info(f"pid={classic_ws_doc.scielo_pid_v2}")
+            logging.info(f"order={classic_ws_doc.order.zfill(5)}")
+
             pid = classic_ws_doc.scielo_pid_v2 or (
                 "S" + self.issue_pid + classic_ws_doc.order.zfill(5)
             )
-            pkg_name = classic_ws_doc.filename_without_extension
+            logging.info(f"pid={pid}")
 
             if classic_ws_doc.scielo_pid_v2 != pid:
                 classic_ws_doc.scielo_pid_v2 = pid
@@ -619,26 +621,17 @@ class DocumentMigration:
         )
 
     @property
-    def xml_name(self):
-        if not self._xml_name:
-            migrated_xml = self.migrated_document.migrated_xml
-            self._xml_name = migrated_xml["name"]
-            self._xml_with_pre = _get_xml(migrated_xml["path"])
-        return self._xml_name
-
-    @property
     def xml_with_pre(self):
         if not self._xml_with_pre:
-            migrated_xml = self.migrated_document.migrated_xml
-            self._xml_name = migrated_xml["name"]
-            self._xml_with_pre = _get_xml(migrated_xml["path"])
+            self._xml_with_pre = self.migrated_document.migrated_xml.xml_with_pre
         return self._xml_with_pre
 
     @property
     def sps_pkg_name(self):
         if not self._sps_pkg_name:
-            self.sps_pkg_name = self.xml_with_pre.sps_pkg_name
-            self.migrated_document.sps_pkg_name = self.sps_pkg_name
+            self._sps_pkg_name = self.xml_with_pre.sps_pkg_name
+            self.migrated_document.sps_pkg_name = self._sps_pkg_name
+            self.migrated_document.save()
         return self._sps_pkg_name
 
     def build_sps_package(self):
@@ -660,6 +653,7 @@ class DocumentMigration:
 
                 self.article_pkgs = ArticlePackages.get_or_create(
                     sps_pkg_name=self.sps_pkg_name,
+                    creator=self.user,
                 )
                 with ZipFile(tmp_sps_pkg_zip_path, "w") as zf:
                     # adiciona XML em zip
@@ -695,7 +689,7 @@ class DocumentMigration:
     def _build_sps_package_add_xml(self, zf):
         try:
             sps_xml_name = self.sps_pkg_name + ".xml"
-            zf.writestr(self.sps_pkg_name + ".xml", self.xml_with_pre.tostring())
+            zf.writestr(sps_xml_name, self.xml_with_pre.tostring())
             self.article_pkgs.add_component(
                 sps_filename=sps_xml_name,
                 user=self.user,
@@ -757,19 +751,24 @@ class DocumentMigration:
                     original_name=xml_graphic.name,
                 )
             except MigratedFile.DoesNotExist as e:
+                logging.info(f"Not found {xml_graphic.name}")
                 name, ext = os.path.splitext(xml_graphic.name)
                 try:
+                    logging.info(f"Try {name}")
                     alternative = MigratedFile.get(
                         migrated_issue=self.migrated_issue,
                         original_name=name,
                     )
                 except MigratedFile.DoesNotExist as e:
+                    logging.info(f"Try {name}.*")
                     alternative = MigratedFile.objects.filter(
                         migrated_issue=self.migrated_issue,
                         original_name__startswith=name + ".",
                     ).first()
                 if alternative:
                     alternatives[xml_graphic.name] = alternative.original_name
+                else:
+                    logging.info(f"Not found alternative to {xml_graphic.name}")
         sps_article_assets.replace_names(alternatives)
 
     def _build_sps_package_add_assets(self, zf, article_assets):
@@ -824,15 +823,16 @@ class DocumentMigration:
             )
 
     def generate_xml_from_html(self):
-        html_texts = self.migrated_document.html_texts
-        if not html_texts:
-            return
-
         pkg_name = self.migrated_document.pkg_name
+        logging.info(f"DocumentMigration.generate_xml_from_html {pkg_name}")
+
         classic_ws_doc = self.classic_ws_doc
         try:
+            # obtém as traduções
+            translated_texts = self.migrated_document.html_texts
+            logging.info(f"translated_texts: {translated_texts}")
             # obtém um XML com body e back a partir dos arquivos HTML / traduções
-            classic_ws_doc.generate_body_and_back_from_html(html_texts)
+            classic_ws_doc.generate_body_and_back_from_html(translated_texts)
         except Exception as e:
             migrated_item_id = f"{self.collection_acron} {self.pid}"
             message = _("Unable to generate body and back from HTML {}").format(
@@ -882,39 +882,43 @@ class DocumentMigration:
 
 def generate_sps_packages(user, collection_acron, kwargs=None):
     try:
-        for migrate_document in MigratedDocument.objects.filter(
+        for migrated_document in MigratedDocument.objects.filter(
             migrated_issue__migrated_journal__scielo_journal__collection__acron=collection_acron,
             **kwargs,
         ).iterator():
-            _generate_sps_package(migrate_document, user)
+            _generate_sps_package(collection_acron, user, migrated_document)
     except Exception as e:
         migrated_item_id = f"{kwargs}"
-        message = _("Unable to generate SPS Package {}").format(
-            migrated_item_id
-        )
-        self.register_failure(
-            e,
+        message = _("Unable to generate SPS Package {}").format(migrated_item_id)
+        logging.info(message)
+        logging.exception(e)
+        MigrationFailure.create(
+            collection_acron=collection_acron,
             migrated_item_name="sps_pkg_name",
             migrated_item_id=migrated_item_id,
             message=message,
             action_name="generate_sps_pkg_name",
+            e=e,
+            creator=user,
         )
 
 
-def _generate_sps_package(migrate_document, user):
+def _generate_sps_package(collection_acron, user, migrated_document):
     try:
         document_migration = DocumentMigration(migrated_document, user)
         document_migration.generate_xml_from_html()
         document_migration.build_sps_package()
     except Exception as e:
-        migrated_item_id = f"{migrate_document.sps_pkg_name}"
-        message = _("Unable to generate SPS Package {}").format(
-            migrated_item_id
-        )
-        self.register_failure(
-            e,
+        migrated_item_id = f"{migrated_document.sps_pkg_name}"
+        message = _("Unable to generate SPS Package {}").format(migrated_item_id)
+        logging.info(message)
+        logging.exception(e)
+        MigrationFailure.create(
+            collection_acron=collection_acron,
             migrated_item_name="sps_pkg_name",
             migrated_item_id=migrated_item_id,
             message=message,
             action_name="generate_sps_pkg_name",
+            e=e,
+            creator=user,
         )
