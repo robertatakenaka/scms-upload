@@ -30,6 +30,7 @@ from researcher.models import Researcher
 from . import choices
 from .forms import ArticleForm, RelatedItemForm, RequestArticleChangeForm
 from .permission_helper import MAKE_ARTICLE_CHANGE, REQUEST_ARTICLE_CHANGE
+from . import exceptions
 
 User = get_user_model()
 
@@ -180,23 +181,22 @@ class Article(ClusterableModel, CommonControlField):
                     )
                 )
 
-            if issn_electronic or issn_print or issnl:
-                official_journal = OfficialJournal.get_or_create(
+            try:
+                official_journal = OfficialJournal.get(
                     issn_print=issn_print,
                     issn_electronic=issn_electronic,
                     issnl=issnl,
                 )
-                obj.journal = Journal.get_or_create(official_journal)
 
-                if volume or number or suppl or publication_year:
-                    obj.issue = Issue.get_or_create(
-                        official_journal=obj.journal.official_journal,
-                        volume=volume,
-                        supplement=suppl,
-                        number=number,
-                        publication_year=publication_year,
-                        user=creator,
-                    )
+                obj.journal = Journal.get(official_journal)
+                obj.issue = Issue.get(
+                    official_journal=official_journal,
+                    volume=volume,
+                    supplement=suppl,
+                    number=number,
+                )
+            except Exception as e:
+                pass
             obj.save()
             return obj
 
@@ -240,20 +240,9 @@ class Article(ClusterableModel, CommonControlField):
     def add_journal(
         self,
         official_journal=None,
-        publication_year=None,
-        volume=None,
-        number=None,
-        suppl=None,
         user=None,
     ):
-        self.issue = Issue.get_or_create(
-            official_journal,
-            volume,
-            suppl,
-            number,
-            publication_year,
-            user,
-        )
+        self.journal = Journal.create_or_update(user, official_journal)
 
     autocomplete_search_field = "pid_v3"
 
@@ -404,12 +393,12 @@ class RequestArticleChange(CommonControlField):
 
 def not_optimised_sps_packages_directory_path(instance, filename):
     # pacote padrão recebido de produtores de xml mas com PID v3 validado
-    return f"not_optimised_sps_packages/{instance.subdirs}.zip"
+    return f"sps_pkgs/{instance.subdirs}/not_optimised/{filename}"
 
 
 def optimised_sps_packages_directory_path(instance, filename):
     # pacote pronto para publicar com href com conteúdo registrado no minio
-    return f"optimised_sps_packages/{instance.subdirs}.zip"
+    return f"sps_pkgs/{instance.subdirs}/optimised/{filename}"
 
 
 class ArticlePackages(CommonControlField):
@@ -441,28 +430,18 @@ class ArticlePackages(CommonControlField):
 
     @property
     def subdirs(self):
-        issn = (
-            self.official_journal.issnl
-            or self.official_journal.issn_electronic
-            or self.official_journal.issn_print
-            or "issn"
-        )
-        return f"{issn}/{self.article.issue.publication_year}/{self.sps_pkg_name}"
-
-    @property
-    def official_journal(self):
-        try:
-            return self.article.journal.official_journal
-        except AttributeError:
-            return self.article.issue.official_journal
+        return "/".join(self.sps_pkg_name.split("-"))
 
     @classmethod
     def get(cls, article=None, sps_pkg_name=None):
         logging.info(f"Get ArticlePackages {article} {sps_pkg_name}")
-        if article:
-            return cls.objects.get(article=article)
         if sps_pkg_name:
             return cls.objects.get(sps_pkg_name=sps_pkg_name)
+        if article:
+            return cls.objects.get(article=article)
+        raise ArticlePackagesGetError(
+            _("ArticlePackages.get requires article or sps_pkg_name")
+        )
 
     @classmethod
     def get_or_create(cls, article=None, sps_pkg_name=None, creator=None):
@@ -730,7 +709,7 @@ class ArticleComponent(CommonControlField):
             obj.category = category or obj.category
             obj.uri = uri or obj.uri
             if lang:
-                obj.lang = Language.get_or_create(code2=lang, user=user)
+                obj.lang = Language.get_or_create(code2=lang, creator=user)
             obj.save()
             return obj
         except Exception as e:
