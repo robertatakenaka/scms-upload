@@ -4,11 +4,13 @@ import os
 from datetime import datetime
 from tempfile import TemporaryDirectory
 from zipfile import ZipFile
+from lxml import etree
 
 from django.contrib.auth import get_user_model
 from django.db.models import Q
 from django.utils.translation import gettext_lazy as _
-from packtools.sps.models.article_assets import ArticleAssets
+from packtools.sps.models.v2.article_assets import ArticleAssets
+from packtools.sps.pid_provider.xml_sps_lib import XMLWithPre
 
 from article.choices import AS_READ_TO_PUBLISH
 from article.models import ArticlePackages
@@ -17,12 +19,11 @@ from core.controller import parse_yyyymmdd
 from core.utils.scheduler import schedule_task
 from issue.models import Issue, SciELOIssue
 from journal.models import Journal, OfficialJournal, SciELOJournal
-from packtools.sps.pid_provider.xml_sps_lib import XMLWithPre
 from scielo_classic_website import classic_ws
 from scielo_classic_website.htmlbody.html_body import HTMLContent
 
 from . import exceptions
-from .choices import MS_TO_MIGRATE, MS_IMPORTED, MS_PUBLISHED, MS_TO_IGNORE
+from .choices import MS_IMPORTED, MS_PUBLISHED, MS_TO_IGNORE, MS_TO_MIGRATE
 from .models import (
     BodyAndBackFile,
     ClassicWebsiteConfiguration,
@@ -44,12 +45,12 @@ def schedule_migrations(user, collection_acron=None):
         collections = Collection.objects.iterator()
     for collection in collections:
         collection_acron = collection.acron
+        _schedule_one_issue_migration(user, collection_acron)
         _schedule_title_db_migration(user, collection_acron)
         _schedule_issue_db_migration(user, collection_acron)
         _schedule_documents_migration(user, collection_acron)
-        _schedule_one_issue_migration(user, collection_acron)
         _schedule_generate_sps_packages(user, collection_acron)
-
+        _schedule_html_to_xmls(user, collection_acron)
         _schedule_run_migrations(user, collection_acron)
 
 
@@ -89,9 +90,7 @@ def _schedule_issue_db_migration(user, collection_acron):
             username=user.username,
             force_update=False,
         ),
-        description=_(
-            "Migra os registros da base de dados ISSUE"
-        ),
+        description=_("Migra os registros da base de dados ISSUE"),
         priority=1,
         enabled=True,
         run_once=False,
@@ -154,6 +153,32 @@ def _schedule_one_issue_migration(user, collection_acron):
     )
 
 
+def _schedule_html_to_xmls(user, collection_acron):
+    """
+    Agenda a tarefa de gerar os pacotes SPS dos documentos migrados
+    Deixa a tarefa desabilitada
+    Quando usuário quiser executar, deve preencher os valores e executar
+    """
+    schedule_task(
+        task="html_to_xmls",
+        name="html_to_xmls",
+        kwargs=dict(
+            username=user.username,
+            collection_acron=collection_acron,
+            journal_acron=None,
+            issue_folder=None,
+            force_update=False,
+        ),
+        description=_("Converte HTML em XML"),
+        priority=4,
+        enabled=False,
+        run_once=True,
+        day_of_week="*",
+        hour="*",
+        minute="10",
+    )
+
+
 def _schedule_generate_sps_packages(user, collection_acron):
     """
     Agenda a tarefa de gerar os pacotes SPS dos documentos migrados
@@ -198,8 +223,8 @@ def _schedule_run_migrations(user, collection_acron):
         enabled=True,
         run_once=False,
         day_of_week="*",
-        hour="*",
-        minute="7",
+        hour="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
+        minute="5,10,15,20,25,30,35,40,45,50,55",
     )
 
 
@@ -370,6 +395,7 @@ def import_data_from_issue_database(
             status = MS_TO_IGNORE
         else:
             status = MS_TO_MIGRATE
+        logging.info(f"status = {status}")
         migrated_issue = MigratedIssue.create_or_update(
             scielo_issue=scielo_issue,
             migrated_journal=migrated_journal,
@@ -447,6 +473,7 @@ class IssueMigration:
             {"type": "asset", "path": item, "name": os.path.basename(item)}
             """
             try:
+                logging.info(f"file: {file}")
                 migrated_file = MigratedFile.create_or_update(
                     migrated_issue=self.migrated_issue,
                     original_path=self._get_classic_website_rel_path(file["path"]),
@@ -481,9 +508,7 @@ class IssueMigration:
             "issue": self.migrated_issue.data,
         }
 
-        logging.info(
-            f"Importing documents records {self.migrated_issue}"
-        )
+        logging.info(f"Importing documents records {self.migrated_issue}")
         # obtém registros da base "artigo" que não necessariamente é só
         # do fascículo de migrated_issue
         # possivelmente source_file pode conter registros de outros fascículos
@@ -496,6 +521,7 @@ class IssueMigration:
             try:
                 logging.info(_("Get self.issue_pid={}").format(self.issue_pid))
                 logging.info(_("Get doc_id={}").format(doc_id))
+                logging.info(_("records={}").format(len(doc_records)))
 
                 if len(doc_records) == 1:
                     # é possível que em source_file_path exista registro tipo i
@@ -504,9 +530,11 @@ class IssueMigration:
 
                 journal_issue_and_doc_data["article"] = doc_records
 
+                logging.info(".......")
                 migrated_document = self.migrate_one_document_records(
                     journal_issue_and_doc_data=journal_issue_and_doc_data,
                 )
+                logging.info(":::::::")
 
             except Exception as e:
                 message = _("Unable to migrate documents {} {} {} {}").format(
@@ -523,8 +551,11 @@ class IssueMigration:
     def register_failure(
         self, e, migrated_item_name, migrated_item_id, message, action_name
     ):
+        logging.info("!!!!!!!!!")
         logging.info(message)
+        logging.info(".........")
         logging.exception(e)
+        logging.info("_________")
         MigrationFailure.create(
             collection_acron=self.collection_acron,
             migrated_item_name=migrated_item_name,
@@ -537,7 +568,9 @@ class IssueMigration:
 
     def migrate_one_document_records(self, journal_issue_and_doc_data):
         try:
-            logging.info(f"migrate_one_document_records: {journal_issue_and_doc_data.keys()}")
+            logging.info(
+                f"migrate_one_document_records: {journal_issue_and_doc_data.keys()}"
+            )
 
             # instancia Document com registros de title, issue e artigo
             classic_ws_doc = classic_ws.Document(journal_issue_and_doc_data)
@@ -560,8 +593,6 @@ class IssueMigration:
                 migrated_issue=self.migrated_issue,
                 pid=pid,
                 pkg_name=pkg_name,
-                aop_pid=classic_ws_doc.aop_pid,
-                pid_v3=classic_ws_doc.scielo_pid_v3,
                 creator=self.user,
                 isis_created_date=classic_ws_doc.isis_created_date,
                 isis_updated_date=classic_ws_doc.isis_updated_date,
@@ -571,6 +602,7 @@ class IssueMigration:
                 force_update=self.force_update,
             )
         except Exception as e:
+            raise
             migrated_item_id = f"{self.collection_acron} {pid}"
             message = _("Unable to migrate document {}").format(migrated_item_id)
             self.register_failure(
@@ -596,13 +628,15 @@ def migrate_one_issue_documents(
     # há casos que os HTML mencionam arquivos de pastas diferentes
     # da sua pasta do fascículo
     migration.import_issue_files()
+    logging.info(f"Imported issue files {migrated_issue}")
 
     # migra os documentos da base de dados `source_file_path`
     # que não contém necessariamente os dados de só 1 fascículo
     migration.migrate_document_records()
+    logging.info(f"Imported records {migrated_issue}")
 
-    migrated_issue.status = MS_IMPORTED
-    migrated_issue.save()
+    # migrated_issue.status = MS_IMPORTED
+    # migrated_issue.save()
 
 
 class DocumentMigration:
@@ -617,6 +651,7 @@ class DocumentMigration:
         self._sps_pkg_name = None
         self.article_pkgs = None
         self.classic_ws_doc = classic_ws.Document(migrated_document.data)
+        self.missing_assets = []
 
     def register_failure(
         self, e, migrated_item_name, migrated_item_id, message, action_name
@@ -635,12 +670,15 @@ class DocumentMigration:
 
     @property
     def xml_with_pre(self):
+        logging.info(f"_xml_with_pre = {self._xml_with_pre}")
         if not self._xml_with_pre:
-            self._xml_with_pre = self.migrated_document.migrated_xml.xml_with_pre
+            self._xml_with_pre = self.migrated_document.xml_with_pre
+        logging.info(id(self._xml_with_pre.xmltree))
         return self._xml_with_pre
 
     @property
     def sps_pkg_name(self):
+        logging.info(f"_sps_pkg_name = {self._sps_pkg_name}")
         if not self._sps_pkg_name:
             self._sps_pkg_name = self.xml_with_pre.sps_pkg_name
             self.migrated_document.sps_pkg_name = self._sps_pkg_name
@@ -669,16 +707,15 @@ class DocumentMigration:
                     creator=self.user,
                 )
                 with ZipFile(tmp_sps_pkg_zip_path, "w") as zf:
-                    # adiciona XML em zip
-                    self._build_sps_package_add_xml(zf)
-
                     # add renditions (pdf) to zip
                     self._build_sps_package_add_renditions(zf)
 
                     # A partir do XML, obtém os nomes dos arquivos dos ativos digitais
-                    assets = ArticleAssets(self.xml_with_pre.xmltree)
-                    self._build_sps_package_replace_asset_href(assets)
-                    self._build_sps_package_add_assets(zf, assets.article_assets)
+                    article_assets = ArticleAssets(self.xml_with_pre.xmltree)
+                    self._build_sps_package_add_assets(zf, article_assets)
+
+                    # adiciona XML em zip
+                    self._build_sps_package_add_xml(zf)
 
                 with open(tmp_sps_pkg_zip_path, "rb") as fp:
                     # guarda o pacote compactado
@@ -755,63 +792,42 @@ class DocumentMigration:
                     action_name="build-sps-package",
                 )
 
-    def _build_sps_package_replace_asset_href(self, sps_article_assets):
-        alternatives = {}
-        for xml_graphic in sps_article_assets.article_assets:
+    def _build_sps_package_add_assets(self, zf, sps_article_assets):
+        replacements = {}
+        for xml_graphic in sps_article_assets.items:
+            logging.info(f"Find asset: {xml_graphic.xlink_href}")
+            asset_file = None
             try:
                 asset_file = MigratedFile.get(
                     migrated_issue=self.migrated_issue,
-                    original_name=xml_graphic.name,
+                    original_href=xml_graphic.xlink_href,
                 )
             except MigratedFile.DoesNotExist as e:
-                logging.info(f"Not found {xml_graphic.name}")
-                name, ext = os.path.splitext(xml_graphic.name)
                 try:
-                    logging.info(f"Try {name}")
-                    alternative = MigratedFile.get(
+                    logging.info(f"Try {basename}.*")
+                    asset_file = MigratedFile.objects.filter(
                         migrated_issue=self.migrated_issue,
-                        original_name=name,
-                    )
-                except MigratedFile.DoesNotExist as e:
-                    logging.info(f"Try {name}.*")
-                    alternative = MigratedFile.objects.filter(
-                        migrated_issue=self.migrated_issue,
-                        original_name__startswith=name + ".",
+                        original_name__startswith=basename + ".",
                     ).first()
-                if alternative:
-                    alternatives[xml_graphic.name] = alternative.original_name
-                else:
-                    logging.info(f"Not found alternative to {xml_graphic.name}")
-        sps_article_assets.replace_names(alternatives)
+                except MigratedFile.DoesNotExist as e:
+                    logging.info(f"Not found {xml_graphic.xlink_href}")
+                    self.missing_assets.append(xml_graphic.xlink_href)
+            if asset_file:
+                self._build_sps_package_add_asset(
+                    zf, asset_file, xml_graphic, replacements)
 
-    def _build_sps_package_add_assets(self, zf, article_assets):
-        for xml_graphic in article_assets:
-            try:
-                asset_file = MigratedFile.get(
-                    migrated_issue=self.migrated_issue,
-                    original_name=xml_graphic.name,
-                )
-            except MigratedFile.DoesNotExist as e:
-                message = _("Unable to _build_sps_package_add_assets {} {} {}").format(
-                    self.collection_acron, self.sps_pkg_name, xml_graphic.name
-                )
-                self.register_failure(
-                    e=e,
-                    migrated_item_name="asset",
-                    migrated_item_id=xml_graphic.name,
-                    message=message,
-                    action_name="build-sps-package",
-                )
-                continue
-            else:
-                self._build_sps_package_add_asset(zf, asset_file, xml_graphic)
-
-    def _build_sps_package_add_asset(self, zf, asset_file, xml_graphic):
+    def _build_sps_package_add_asset(self, zf, asset_file, xml_graphic, replacements):
         try:
-            logging.info(f"Add asset {asset_file.original_path}")
+            logging.info(f"Add asset {asset_file.original_href}")
+
             # obtém o nome do arquivo no padrão sps
             sps_filename = xml_graphic.name_canonical(self.sps_pkg_name)
-            logging.info(sps_filename)
+            logging.info(xml_graphic.id)
+            logging.info(f"sps filename: {sps_filename}")
+
+            # indica a troca de href original para o padrão SPS
+            replacements[asset_file.original_href] = sps_filename
+            logging.info(f"replacements: {replacements}")
 
             # adiciona componente ao pacote
             self.article_pkgs.add_component(
@@ -836,18 +852,34 @@ class DocumentMigration:
             )
 
     def generate_xml_from_html(self):
+        migrated_item_id = f"{self.migrated_document}"
+
         pkg_name = self.migrated_document.pkg_name
         logging.info(f"DocumentMigration.generate_xml_from_html {pkg_name}")
 
         classic_ws_doc = self.classic_ws_doc
         try:
             # obtém as traduções
-            translated_texts = self.migrated_document.html_texts
-            logging.info(f"translated_texts: {translated_texts.keys()}")
+            translated_texts = self.migrated_document.translations
+            logging.info(f"translated_texts: {translated_texts}")
+
             # obtém um XML com body e back a partir dos arquivos HTML / traduções
             classic_ws_doc.generate_body_and_back_from_html(translated_texts)
+
+            logging.info(
+                f"classic_ws_doc.xml_body_and_back: {len(classic_ws_doc.xml_body_and_back)}"
+            )
+
+            for i, xml_body_and_back in enumerate(classic_ws_doc.xml_body_and_back):
+                # guarda cada versão de body/back
+                migrated_item_id = f"{self.migrated_document} {i}"
+                migrated_file = BodyAndBackFile.create_or_update(
+                    migrated_document=self.migrated_document,
+                    creator=self.user,
+                    file_content=xml_body_and_back,
+                    version=i,
+                )
         except Exception as e:
-            migrated_item_id = f"{self.collection_acron} {self.pid}"
             message = _("Unable to generate body and back from HTML {}").format(
                 migrated_item_id
             )
@@ -860,46 +892,59 @@ class DocumentMigration:
             )
             return
 
-        for i, xml_body_and_back in enumerate(classic_ws_doc.xml_body_and_back):
-            try:
-                # para cada versão de body/back, guarda a versão de body/back
-                migrated_file = BodyAndBackFile.create_or_update(
-                    migrated_issue=self.migrated_issue,
-                    pkg_name=pkg_name,
-                    creator=self.user,
-                    file_content=xml_body_and_back,
-                    version=i,
-                )
-                # para cada versão de body/back, guarda uma versão de XML
-                xml_content = classic_ws_doc.generate_full_xml(xml_body_and_back)
-                migrated_file = GeneratedXMLFile.create_or_update(
-                    migrated_issue=self.migrated_issue,
-                    pkg_name=pkg_name,
-                    creator=self.user,
-                    file_content=xml_content,
-                    version=i,
-                )
-            except Exception as e:
-                migrated_item_id = f"{self.collection_acron} {self.pid}"
-                message = _("Unable to generate XML from HTML {}").format(
-                    migrated_item_id
-                )
-                self.register_failure(
-                    e,
-                    migrated_item_name="document",
-                    migrated_item_id=migrated_item_id,
-                    message=message,
-                    action_name="xml-to-html",
-                )
+        try:
+            xml_body_and_back = classic_ws_doc.xml_body_and_back[-1]
+            xml_content = classic_ws_doc.generate_full_xml(xml_body_and_back)
+            migrated_file = GeneratedXMLFile.create_or_update(
+                migrated_document=self.migrated_document,
+                creator=self.user,
+                file_content=xml_content,
+            )
+        except Exception as e:
+            migrated_item_id = f"{self.migrated_document}"
+            message = _("Unable to generate XML from HTML {}").format(migrated_item_id)
+            self.register_failure(
+                e,
+                migrated_item_name="document",
+                migrated_item_id=migrated_item_id,
+                message=message,
+                action_name="xml-to-html",
+            )
 
 
-def generate_sps_package(collection_acron, user, migrated_document):
+def generate_sps_package(collection_acron, user, migrated_document, html_to_xml=False):
     try:
         document_migration = DocumentMigration(migrated_document, user)
-        document_migration.generate_xml_from_html()
+        if (
+            html_to_xml
+            or migrated_document.file_type == "html"
+            and not migrated_document.generated_xml
+        ):
+            logging.info("try to generate xml from html")
+            document_migration.generate_xml_from_html()
+
+        logging.info(f"html_to_xml: {html_to_xml}")
+        logging.info(f"file_type: {migrated_document.file_type}")
+        logging.info(f"generated_xml: {migrated_document.generated_xml}")
+
         document_migration.build_sps_package()
-        migrated_document.status = MS_IMPORTED
+
+        # XML_WIP or MISSING_ASSETS or XML_WIP_AND_MISSING_ASSETS
+        migrated_document.status = migrated_document.sps_status
         migrated_document.save()
+
+        logging.info(
+            f"migrated document: {migrated_document} {migrated_document.status}"
+        )
+        status = set()
+        for item in MigratedDocument.objects.filter(
+            migrated_issue=migrated_document.migrated_issue,
+        ).iterator():
+            status.add(item.status)
+        if len(status) == 1 and status == set([MS_IMPORTED]):
+            migrated_document.migrated_issue.status = MS_IMPORTED
+            migrated_document.migrated_issue.save()
+            migrated_document.save()
     except Exception as e:
         migrated_item_id = f"{migrated_document.sps_pkg_name}"
         message = _("Unable to generate SPS Package {}").format(migrated_item_id)
@@ -914,3 +959,7 @@ def generate_sps_package(collection_acron, user, migrated_document):
             e=e,
             creator=user,
         )
+
+
+def html_to_xml(collection_acron, user, migrated_document):
+    generate_sps_package(collection_acron, user, migrated_document, html_to_xml=True)

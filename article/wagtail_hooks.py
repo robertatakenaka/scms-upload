@@ -14,7 +14,7 @@ from wagtail.contrib.modeladmin.views import CreateView, InspectView
 from config.menu import get_menu_order
 
 from .button_helper import ArticleButtonHelper, RequestArticleChangeButtonHelper
-from .models import Article, RelatedItem, RequestArticleChange, choices
+from .models import Article, ArticlePackages, RelatedItem, RequestArticleChange, choices
 from .permission_helper import ArticlePermissionHelper
 
 # from upload import exceptions as upload_exceptions
@@ -32,6 +32,38 @@ class RelatedItemCreateView(CreateView):
     def form_valid(self, form):
         self.object = form.save_all(self.request.user)
         return HttpResponseRedirect(self.get_success_url())
+
+
+class ArticlePackagesModelCreateView(CreateView):
+    def form_valid(self, form):
+        self.object = form.save_all(self.request.user)
+        return HttpResponseRedirect(self.get_success_url())
+
+
+class ArticlePackagesModelAdmin(ModelAdmin):
+    list_per_page = 10
+    model = ArticlePackages
+    inspect_view_enabled = True
+    menu_label = _("Article packages")
+    create_view_class = ArticlePackagesModelCreateView
+    menu_icon = "folder"
+    menu_order = 300
+    add_to_settings_menu = False
+    exclude_from_explorer = False
+
+    list_display = (
+        "pid_v3",
+        "sps_pkg_name",
+        "optimised_zip_file",
+        "not_optimised_zip_file",
+        "created",
+        "updated",
+    )
+    search_fields = (
+        "pid_v3",
+        "sps_pkg_name",
+    )
+    list_filter = ("article__status",)
 
 
 class RequestArticleChangeCreateView(CreateView):
@@ -243,7 +275,12 @@ class ArticleModelAdminGroup(ModelAdminGroup):
     menu_label = _("Articles")
     menu_icon = "folder-open-inverse"
     menu_order = get_menu_order("article")
-    items = (ArticleModelAdmin, RelatedItemModelAdmin, RequestArticleChangeModelAdmin)
+    items = (
+        ArticleModelAdmin,
+        RelatedItemModelAdmin,
+        RequestArticleChangeModelAdmin,
+        ArticlePackagesModelAdmin,
+    )
 
 
 modeladmin_register(ArticleModelAdminGroup)

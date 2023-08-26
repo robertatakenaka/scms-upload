@@ -4,16 +4,26 @@ from datetime import datetime
 
 from django.core.files.base import ContentFile
 from django.db import models
+from django.db.models import Q
 from django.utils.translation import gettext_lazy as _
+from packtools.sps.pid_provider.xml_sps_lib import XMLWithPre
 
-from article.models import Article, CollectionArticleId
 from collection.models import Collection, Language
 from core.forms import CoreAdminModelForm
 from core.models import CommonControlField
 from issue.models import SciELOIssue
 from journal.models import SciELOJournal
+from scielo_classic_website.htmlbody.html_body import HTMLContent
 
 from . import choices, exceptions
+
+
+def now():
+    return datetime.utcnow().isoformat().replace(":", "-").replace(".", "-")
+
+
+class MigratedFileGetError(Exception):
+    ...
 
 
 class ClassicWebsiteConfiguration(CommonControlField):
@@ -146,7 +156,7 @@ class MigratedData(CommonControlField):
     # status da migração
     status = models.CharField(
         _("Status"),
-        max_length=20,
+        max_length=26,
         choices=choices.MIGRATION_STATUS,
         default=choices.MS_TO_MIGRATE,
     )
@@ -200,7 +210,13 @@ class MigrationFailure(CommonControlField):
 
 def migrated_files_directory_path(instance, filename):
     # file will be uploaded to MEDIA_ROOT/user_<id>/<filename>
-    return f"migrated_files/{instance.migrated_issue.issue_pid}/{filename}"
+    issue_pid = instance.migrated_issue.issue_pid
+    return (
+        f"migration/{issue_pid[:9]}/"
+        f"{issue_pid[9:13]}/"
+        f"{issue_pid[13:]}/{instance.pkg_name}/"
+        f"{filename}"
+    )
 
 
 class MigratedFile(CommonControlField):
@@ -250,13 +266,41 @@ class MigratedFile(CommonControlField):
             pass
 
     def __str__(self):
-        return f"{self.original_path}"
+        if self.original_path:
+            return self.original_path
+        return f"{self.pkg_name} {self.category} {self.lang} {self.part}"
 
     def save_file(self, name, content):
-        logging.info(f"Save {name}")
+        if self.file:
+            try:
+                with open(self.file.path, "rb") as fp:
+                    c = fp.read()
+                    if c == content:
+                        logging.info("skip save file")
+                        return
+            except Exception as e:
+                pass
         self.file.save(name, ContentFile(content))
-        logging.info(self.file.path)
-        logging.info(os.path.isfile(self.file.path))
+        logging.info(f"Saved {self.file.path}")
+
+    @property
+    def text(self):
+        if self.category == "xml":
+            with open(self.file.path, "r") as fp:
+                return fp.read()
+        if self.category == "html":
+            try:
+                with open(self.file.path, mode="r", encoding="iso-8859-1") as fp:
+                    return fp.read()
+            except:
+                with open(self.file.path, mode="r", encoding="utf-8") as fp:
+                    return fp.read()
+
+    @property
+    def xml_with_pre(self):
+        if self.category == "xml":
+            for item in XMLWithPre.create(path=self.file.path):
+                return item
 
     @classmethod
     def get(
@@ -266,8 +310,12 @@ class MigratedFile(CommonControlField):
         original_name=None,
         original_href=None,
         pkg_name=None,
-        sps_pkg_name=None,
+        category=None,
+        part=None,
+        lang=None,
     ):
+        if not migrated_issue:
+            raise MigratedFileGetError(_("MigratedFile.get requires migrated_issue"))
         if original_href:
             # /pdf/acron/volume/file.pdf
             return cls.objects.get(
@@ -283,25 +331,34 @@ class MigratedFile(CommonControlField):
         if original_path:
             # bases/pdf/acron/volume/file.pdf
             return cls.objects.get(
-                migrated_issue=migrated_issue,
                 original_path=original_path,
             )
-        if pkg_name:
-            # file
+
+        if category and lang and part and pkg_name:
+            # bases/pdf/acron/volume/file.pdf
             return cls.objects.get(
                 migrated_issue=migrated_issue,
                 pkg_name=pkg_name,
+                category=category,
+                lang=lang,
+                part=part,
             )
-        if sps_pkg_name:
-            # ISSN-acron-VV-NN-SS-lang.pdf
-            return cls.objects.get(
-                migrated_issue=migrated_issue,
-                sps_pkg_name=sps_pkg_name,
+        raise MigratedFileGetError(
+            _(
+                "MigratedFile.get requires original_path or original_name or"
+                " original_href or pkg_name or category and lang and part"
             )
+        )
 
-    def is_out_of_date(self, source_path, file_content):
-        # TODO faz compações
-        return self.file is None
+    def is_out_of_date(self, file_content):
+        if not self.file:
+            return True
+        try:
+            with open(self.file.path, "rb") as fp:
+                c = fp.read()
+            return c != file_content
+        except Exception as e:
+            return True
 
     @classmethod
     def create_or_update(
@@ -320,25 +377,32 @@ class MigratedFile(CommonControlField):
         force_update=None,
     ):
         try:
-            logging.info(
-                "Create or update MigratedFile {} {} {} {}".format(
-                    migrated_issue,
-                    original_path,
-                    pkg_name,
-                    sps_pkg_name,
-                )
-            )
-            obj = cls.get(
-                migrated_issue,
+            input_data = dict(
+                migrated_issue=migrated_issue,
                 original_path=original_path,
+                # original_name=original_name,
+                # original_href=original_href,
                 pkg_name=pkg_name,
-                sps_pkg_name=sps_pkg_name,
+                lang=lang,
+                part=part,
+                category=category,
             )
-            if force_update or obj.is_out_of_date(source_path, file_content):
+            logging.info(f"Create or update MigratedFile {input_data}")
+
+            if source_path:
+                with open(source_path, "rb") as fp:
+                    file_content = fp.read()
+
+            obj = cls.get(**input_data)
+
+            if force_update or obj.is_out_of_date(file_content):
+                logging.info(f"Update MigratedFile {input_data}")
                 obj.updated_by = creator
             else:
+                logging.info(f"MigratedFile is already up-to-date")
                 return obj
         except cls.DoesNotExist:
+            logging.info(f"Create MigratedFile {input_data}")
             obj = cls()
             obj.creator = creator
 
@@ -350,26 +414,15 @@ class MigratedFile(CommonControlField):
             obj.sps_pkg_name = sps_pkg_name
             obj.pkg_name = pkg_name
             obj.category = category
-            obj.lang = lang and Language.get_or_create(code2=lang, creator=creator)
+            if lang:
+                obj.lang = Language.get_or_create(code2=lang, creator=creator)
             obj.part = part
             obj.save()
 
             # cria / atualiza arquivo
-            collection_acron = migrated_issue.migrated_journal.collection.acron
-            journal_acron = migrated_issue.migrated_journal.acron
-            issue_folder = migrated_issue.issue_folder
-            basename = os.path.basename(original_path)
-            file_name = (
-                file_name
-                or f"{collection_acron}_{journal_acron}_{issue_folder}_{basename}"
-            )
-            if source_path:
-                with open(source_path, "rb") as fp:
-                    file_content = fp.read()
-            if file_content:
-                obj.save_file(file_name, file_content)
-                obj.save()
-            logging.info("Created {}".format(obj))
+            obj.save_file(file_name or obj.filename, file_content)
+            obj.save()
+            logging.info(f"Created {obj}")
             return obj
         except Exception as e:
             raise exceptions.CreateOrUpdateMigratedFileError(
@@ -377,6 +430,14 @@ class MigratedFile(CommonControlField):
                     migrated_issue, original_path, type(e), e
                 )
             )
+
+    @property
+    def filename(self):
+        collection_acron = self.migrated_issue.migrated_journal.collection.acron
+        journal_acron = self.migrated_issue.migrated_journal.scielo_journal.acron
+        issue_folder = self.migrated_issue.issue_folder
+        basename = os.path.basename(self.original_path)
+        return f"{collection_acron}_{journal_acron}_{issue_folder}_{basename}"
 
 
 class MigratedJournal(MigratedData):
@@ -394,7 +455,7 @@ class MigratedJournal(MigratedData):
         ]
 
     def __str__(self):
-        return f"{self.scielo_journal} {self.status}"
+        return f"{self.scielo_journal.scielo_issn} ({self.scielo_journal.acron})"
 
     @classmethod
     def get(cls, collection=None, scielo_issn=None, scielo_journal=None):
@@ -428,13 +489,14 @@ class MigratedJournal(MigratedData):
 
             if (
                 force_update
+                or not obj.isis_updated_date
                 or obj.isis_updated_date < isis_updated_date
                 or data != obj.data
             ):
                 logging.info("Update MigratedJournal {}".format(obj))
                 obj.updated_by = creator
             else:
-                logging.info("Skip updating")
+                logging.info("Skip updating journal")
                 return obj
         except cls.DoesNotExist:
             obj = cls()
@@ -492,10 +554,10 @@ class MigratedIssue(MigratedData):
         ]
 
     def __unicode__(self):
-        return f"{self.scielo_issue} | {self.status}"
+        return f"{self.scielo_issue}"
 
     def __str__(self):
-        return f"{self.scielo_issue} | {self.status}"
+        return f"{self.scielo_issue}"
 
     @property
     def issue_pid(self):
@@ -508,6 +570,26 @@ class MigratedIssue(MigratedData):
     @property
     def publication_year(self):
         return self.scielo_issue.official_issue.publication_year
+
+    @classmethod
+    def get(
+        cls,
+        collection_acron=None,
+        journal_acron=None,
+        issue_folder=None,
+        scielo_issue=None,
+    ):
+        if scielo_issue:
+            return cls.objects.get(scielo_issue=scielo_issue)
+        if collection_acron and journal_acron and issue_folder:
+            return cls.objects.get(
+                migrated_journal__scielo_journal__collection__acron=collection_acron,
+                migrated_journal__scielo_journal__acron=journal_acron,
+                scielo_issue__issue_folder=issue_folder,
+            )
+        raise ValueError(
+            "MigratedIssue.get requires scielo_issue or collection and journal_acron and issue_folder"
+        )
 
     @classmethod
     def create_or_update(
@@ -526,20 +608,20 @@ class MigratedIssue(MigratedData):
             obj = cls.objects.get(scielo_issue=scielo_issue)
             if (
                 force_update
+                or not obj.isis_updated_date
                 or obj.isis_updated_date < isis_updated_date
                 or obj.data != data
             ):
-                logging.info("Update MigratedIssue {}".format(obj))
+                logging.info(f"Update MigratedIssue {obj}")
                 obj.updated_by = creator
             else:
-                logging.info("Skip updating")
+                logging.info(f"Skip updating issue {obj}")
                 return obj
         except cls.DoesNotExist:
             obj = cls()
             obj.scielo_issue = scielo_issue
-            obj.status = choices.MS_IMPORTED
             obj.creator = creator
-            logging.info("Create MigratedIssue {}".format(obj))
+            logging.info(f"Create MigratedIssue {obj}")
 
         try:
             obj.migrated_journal = migrated_journal or obj.migrated_journal
@@ -548,7 +630,7 @@ class MigratedIssue(MigratedData):
             obj.status = status or obj.status
             obj.data = data or obj.data
             obj.save()
-            logging.info("Created / Updated MigratedIssue {}".format(obj))
+            logging.info(f"Created / Updated MigratedIssue {obj}")
             return obj
         except Exception as e:
             raise exceptions.CreateOrUpdateMigratedIssueError(
@@ -562,23 +644,17 @@ class MigratedDocument(MigratedData):
     migrated_issue = models.ForeignKey(
         MigratedIssue, null=True, blank=True, on_delete=models.SET_NULL
     )
-    # os PIDs de artigos podem divergir dentre as coleções
-    aids = models.ForeignKey(
-        CollectionArticleId, null=True, blank=True, on_delete=models.SET_NULL
-    )
-    article = models.ForeignKey(
-        Article, null=True, blank=True, on_delete=models.SET_NULL
-    )
     pid = models.CharField(_("PID"), max_length=23, null=True, blank=True)
     pkg_name = models.TextField(_("Package name"), null=True, blank=True)
     sps_pkg_name = models.TextField(_("New Package name"), null=True, blank=True)
     file_type = models.CharField(_("File type"), max_length=5, null=True, blank=True)
+    missing_assets = models.JSONField(null=True, blank=True)
 
     def __unicode__(self):
-        return "%s %s %s" % (self.migrated_issue, self.pkg_name, self.pid)
+        return f"{self.migrated_issue} {self.pkg_name}"
 
     def __str__(self):
-        return "%s %s %s" % (self.migrated_issue, self.pkg_name, self.pid)
+        return f"{self.migrated_issue} {self.pkg_name}"
 
     class Meta:
         indexes = [
@@ -586,17 +662,6 @@ class MigratedDocument(MigratedData):
             models.Index(fields=["pid"]),
             models.Index(fields=["pkg_name"]),
         ]
-
-    def add_aids(
-        self, pid_v3=None, collection=None, pid_v2=None, aop_pid=None, creator=None
-    ):
-        self.aids = CollectionArticleId.create_or_update(
-            collection=collection,
-            pid_v3=pid_v3,
-            pid_v2=pid_v2,
-            aop_pid=aop_pid,
-            creator=creator,
-        )
 
     @classmethod
     def get(cls, migrated_issue, pid=None, pkg_name=None):
@@ -618,24 +683,20 @@ class MigratedDocument(MigratedData):
         pid=None,
         pkg_name=None,
         creator=None,
-        pid_v3=None,
-        aop_pid=None,
         isis_created_date=None,
         isis_updated_date=None,
         data=None,
         status=None,
-        article=None,
         sps_pkg_name=None,
         file_type=None,
         force_update=None,
     ):
-        logging.info(
-            "Create or Update MigratedDocument {} {} {}".format(
-                migrated_issue,
-                pid,
-                pkg_name,
-            )
+        key = dict(
+            migrated_issue=migrated_issue,
+            pid=pid,
+            pkg_name=pkg_name,
         )
+        logging.info(f"Create or Update MigratedDocument {key}")
 
         try:
             obj = cls.get(
@@ -645,20 +706,31 @@ class MigratedDocument(MigratedData):
             )
             if (
                 force_update
+                or not obj.isis_updated_date
                 or obj.isis_updated_date < isis_updated_date
                 or obj.data != data
             ):
                 logging.info("Update MigratedDocument {}".format(obj))
                 obj.updated_by = creator
             else:
-                logging.info("Skip updating {}".format(obj))
+                logging.info("Skip updating document {}".format(obj))
                 return obj
+        except cls.MultipleObjectsReturned as e:
+            logging.exception(e)
+            cls.objects.filter(
+                migrated_issue=migrated_issue,
+                pid=pid,
+                pkg_name=pkg_name,
+            ).delete()
+            obj = cls()
+            obj.migrated_issue = migrated_issue
+            obj.creator = creator
+            logging.info("Create MigratedDocument {}".format(obj))
         except cls.DoesNotExist:
             obj = cls()
             obj.migrated_issue = migrated_issue
             obj.creator = creator
             logging.info("Create MigratedDocument {}".format(obj))
-
         try:
             obj.file_type = file_type or obj.file_type
             obj.pkg_name = pkg_name or obj.pkg_name
@@ -666,18 +738,8 @@ class MigratedDocument(MigratedData):
             obj.isis_created_date = isis_created_date
             obj.isis_updated_date = isis_updated_date
             obj.status = status or obj.status
-            obj.article = article or obj.article
             obj.sps_pkg_name = sps_pkg_name or obj.sps_pkg_name
             obj.data = data or obj.data
-
-            if pid or pid_v3 or aop_pid:
-                obj.add_aids(
-                    pid_v3=pid_v3,
-                    pid_v2=pid,
-                    aop_pid=aop_pid,
-                    creator=creator,
-                    collection=migrated_issue.migrated_journal.collection,
-                )
             obj.save()
             logging.info("Created / Updated MigratedDocument {}".format(obj))
             return obj
@@ -689,7 +751,14 @@ class MigratedDocument(MigratedData):
             )
 
     @property
-    def html_texts(self):
+    def html_translations(self):
+        """
+        {
+            "pt": {"before references": [], "after references": []},
+            "es": {"before references": [], "after references": []},
+        }
+        """
+        logging.info(f"html_translations: {self.migrated_issue} {self.pkg_name}")
         _html_texts = {}
         for html_file in MigratedFile.objects.filter(
             migrated_issue=self.migrated_issue,
@@ -703,38 +772,121 @@ class MigratedDocument(MigratedData):
         return _html_texts
 
     @property
+    def xhtml_translations(self):
+        """
+        {
+            "pt": {"before references": [], "after references": []},
+            "es": {"before references": [], "after references": []},
+        }
+        """
+        logging.info(f"xhtml_translations: {self.migrated_issue} {self.pkg_name}")
+        xhtmls = {}
+        for html_file in MigratedFile.objects.filter(
+            migrated_issue=self.migrated_issue,
+            pkg_name=self.pkg_name,
+            category="xhtml",
+        ).iterator():
+            logging.info(f"get xhtml {html_file}")
+            lang = html_file.lang.code2
+            logging.info(f"lang={lang}")
+            xhtmls.setdefault(lang, {})
+            part = f"{html_file.part} references"
+            xhtmls[lang][part] = html_file.text
+            logging.info(xhtmls.keys())
+        return xhtmls
+
+    def html2xhtml(self):
+        for html_file in MigratedFile.objects.filter(
+            migrated_issue=self.migrated_issue,
+            pkg_name=self.pkg_name,
+            category="html",
+        ).iterator():
+            hc = HTMLContent(html_file.text)
+            # FIXME
+            logging.info(f"lang={html_file.lang.code2}")
+            migrated_file = MigratedFile.create_or_update(
+                migrated_issue=html_file.migrated_issue,
+                file_content=hc.content,
+                file_name=f"{html_file.pkg_name}-{html_file.lang.code2}-{html_file.part}.xhtml",
+                category="xhtml",
+                lang=html_file.lang.code2,
+                part=html_file.part,
+                pkg_name=html_file.pkg_name,
+                creator=html_file.creator,
+            )
+
+    @property
+    def translations(self):
+        logging.info(f"translations: {self.xhtml_translations.keys()}")
+        logging.info(len(self.xhtml_translations.items()))
+        if not self.xhtml_translations:
+            self.html2xhtml()
+        return self.xhtml_translations
+
+    @property
     def migrated_xml(self):
         for item in MigratedFile.objects.filter(
             migrated_issue=self.migrated_issue,
             pkg_name=self.pkg_name,
             category="xml",
         ).iterator():
-            return {"path": item.file.path, "name": item.original_name}
+            logging.info("found xml")
+            return item
 
-        item = GeneratedXMLFile.latest(
-            migrated_issue=self.migrated_issue,
-            pkg_name=self.pkg_name,
-        )
-        if item:
-            return {"path": item.file.path, "name": item.original_name}
+    @property
+    def generated_xml(self):
+        return GeneratedXMLFile.get(migrated_document=self)
 
-        raise exceptions.MigratedXMLFileNotFoundError(
-            _("Migrated XML file not found: {} {}").format(
-                self.migrated_issue,
-                self.pkg_name,
-            )
-        )
+    @property
+    def xml_with_pre(self):
+        logging.info("xml_with_pre...")
+        if self.migrated_xml:
+            logging.info("return migrated_xml.xml_with_pre")
+            return self.migrated_xml.xml_with_pre
+        if self.generated_xml:
+            logging.info("return generated_xml.xml_with_pre")
+            return self.generated_xml.xml_with_pre
+        logging.info("Not found xml_with_pre")
+
+    @property
+    def sps_status(self):
+        xml_status = None
+        if self.file_type == "html":
+            try:
+                if self.generated_xml.status != choices.HTML2XML_DONE:
+                    xml_status = choices.MS_XML_WIP
+            except AttributeError:
+                xml_status = choices.MS_XML_WIP
+
+        if self.missing_assets:
+            if xml_status:
+                return choices.MS_XML_WIP_AND_MISSING_ASSETS
+            return choices.MS_MISSING_ASSETS
+        return choices.MS_IMPORTED
+
+    @property
+    def xml(self):
+        if self.migrated_xml:
+            return self.migrated_xml.file
+        if self.generated_xml:
+            return self.generated_xml.file
 
 
 def body_and_back_directory_path(instance, filename):
     # file will be uploaded to MEDIA_ROOT/user_<id>/<filename>
-    return f"body_and_back/{instance.migrated_issue.issue_pid}/{filename}"
+    pid = instance.migrated_document.pid
+    return (
+        f"migration/{pid[1:10]}/"
+        f"{pid[10:14]}/{pid[14:18]}/"
+        f"{instance.migrated_document.pkg_name}/"
+        f"body/"
+        f"{instance.version}/{filename}"
+    )
 
 
 class BodyAndBackFile(CommonControlField):
-    pkg_name = models.TextField(_("Package name"), null=True, blank=True)
-    migrated_issue = models.ForeignKey(
-        "MigratedIssue", on_delete=models.SET_NULL, null=True, blank=True
+    migrated_document = models.ForeignKey(
+        "MigratedDocument", on_delete=models.SET_NULL, null=True, blank=True
     )
     file = models.FileField(
         upload_to=body_and_back_directory_path, null=True, blank=True
@@ -743,164 +895,155 @@ class BodyAndBackFile(CommonControlField):
 
     class Meta:
         indexes = [
-            models.Index(fields=["pkg_name"]),
-            models.Index(fields=["migrated_issue"]),
+            models.Index(fields=["migrated_document"]),
             models.Index(fields=["version"]),
         ]
 
     def __str__(self):
-        return f"{self.migrated_issue} {self.pkg_name} {self.version}"
+        return f"{self.migrated_document} {self.version}"
 
     def save_file(self, name, content):
-        logging.info(f"Save {name}")
+        if self.file:
+            try:
+                with open(self.file.path, "rb") as fp:
+                    c = fp.read()
+                    if c == content:
+                        logging.info("skip save file")
+                        return
+            except Exception as e:
+                pass
         self.file.save(name, ContentFile(content))
-        logging.info(self.file.path)
-        logging.info(os.path.isfile(self.file.path))
+        logging.info(f"Saved {self.file.path}")
 
     @classmethod
-    def get(cls, migrated_issue, pkg_name, version):
-        logging.info(
-            "Get BodyAndBackFile {} {} {}".format(
-                migrated_issue,
-                pkg_name,
-                version,
-            )
-        )
+    def get(cls, migrated_document, version):
+        logging.info(f"Get BodyAndBackFile {migrated_document} {version}")
         return cls.objects.get(
-            migrated_issue=migrated_issue,
-            pkg_name=pkg_name,
+            migrated_document=migrated_document,
             version=version,
         )
 
     @classmethod
-    def create_or_update(cls, migrated_issue, pkg_name, version, file_content, creator):
+    def create_or_update(cls, migrated_document, version, file_content, creator):
         try:
             logging.info(
-                "Create or update BodyAndBackFile {} {} {}".format(
-                    migrated_issue, pkg_name, version
-                )
+                f"Create or update BodyAndBackFile {migrated_document} {version}"
             )
-            obj = cls.get(migrated_issue, pkg_name, version)
+            obj = cls.get(migrated_document, version)
             obj.updated_by = creator
             obj.updated = datetime.utcnow()
         except cls.DoesNotExist:
             obj = cls()
             obj.creator = creator
-            obj.migrated_issue = migrated_issue
+            obj.migrated_document = migrated_document
 
         try:
             obj.version = version
-            obj.pkg_name = pkg_name
             obj.save()
 
             # cria / atualiza arquivo
-            collection_acron = migrated_issue.migrated_journal.collection.acron
-            journal_acron = migrated_issue.migrated_journal.acron
-            issue_folder = migrated_issue.issue_folder
-            basename = os.path.basename(original_path)
-            file_name = f"{collection_acron}_{journal_acron}_{issue_folder}_{pkg_name}_{version}.xml"
-            obj.save_file(file_name, file_content)
+            obj.save_file(obj.filename, file_content)
             obj.save()
             logging.info("Created {}".format(obj))
             return obj
         except Exception as e:
             raise exceptions.CreateOrUpdateBodyAndBackFileError(
-                _(
-                    "Unable to create_or_update_body and back file {} {} {} {} {}"
-                ).format(migrated_issue, pkg_name, version, type(e), e)
+                _("Unable to create_or_update_body and back file {} {} {} {}").format(
+                    migrated_document, version, type(e), e
+                )
             )
+
+    @property
+    def filename(self):
+        return f"{now()}.xml"
 
 
 def generated_xml_directory_path(instance, filename):
-    # file will be uploaded to MEDIA_ROOT/user_<id>/<filename>
-    return f"generated_xml/{instance.migrated_issue.issue_pid}/{filename}"
+    pid = instance.migrated_document.pid
+    return (
+        f"migration/{pid[1:10]}/"
+        f"{pid[10:14]}/{pid[14:18]}/"
+        f"{instance.migrated_document.pkg_name}/"
+        f"gen_xml/"
+        f"{filename}"
+    )
 
 
 class GeneratedXMLFile(CommonControlField):
-    pkg_name = models.TextField(_("Package name"), null=True, blank=True)
-    migrated_issue = models.ForeignKey(
-        "MigratedIssue", on_delete=models.SET_NULL, null=True, blank=True
+    migrated_document = models.ForeignKey(
+        MigratedDocument, on_delete=models.SET_NULL, null=True, blank=True
     )
     file = models.FileField(
         upload_to=generated_xml_directory_path, null=True, blank=True
     )
-    version = models.IntegerField()
+    status = models.CharField(
+        _("status"),
+        max_length=25,
+        choices=choices.HTML2XML_STATUS,
+        default=choices.HTML2XML_NOT_EVALUATED,
+    )
 
     class Meta:
         indexes = [
-            models.Index(fields=["pkg_name"]),
-            models.Index(fields=["migrated_issue"]),
-            models.Index(fields=["version"]),
+            models.Index(fields=["migrated_document"]),
         ]
 
     def __str__(self):
-        return f"{self.migrated_issue} {self.pkg_name} {self.version}"
+        return f"{self.migrated_document}"
 
     def save_file(self, name, content):
-        logging.info(f"Save {name}")
+        if self.file:
+            try:
+                with open(self.file.path, "rb") as fp:
+                    c = fp.read()
+                    if c == content:
+                        logging.info("skip save file")
+                        return
+            except Exception as e:
+                pass
         self.file.save(name, ContentFile(content))
-        logging.info(self.file.path)
-        logging.info(os.path.isfile(self.file.path))
+        logging.info(f"Saved {self.file.path}")
 
     @classmethod
-    def latest(cls, migrated_issue, pkg_name):
-        try:
-            return cls.objects.filter(
-                migrated_issue=migrated_issue,
-                pkg_name=pkg_name,
-            ).latest("version")
-        except (cls.DoesNotExist, AttributeError):
-            return None
-
-    @classmethod
-    def get(cls, migrated_issue, pkg_name, version):
-        logging.info(
-            "Get GeneratedXMLFile {} {} {}".format(
-                migrated_issue,
-                pkg_name,
-                version,
-            )
-        )
+    def get(cls, migrated_document):
+        logging.info(f"Get GeneratedXMLFile {migrated_document}")
         return cls.objects.get(
-            migrated_issue=migrated_issue,
-            pkg_name=pkg_name,
-            version=version,
+            migrated_document=migrated_document,
         )
 
     @classmethod
-    def create_or_update(cls, migrated_issue, pkg_name, version, file_content, creator):
+    def create_or_update(cls, migrated_document, file_content, creator):
         try:
             logging.info(
-                "Create or update GeneratedXMLFile {} {} {}".format(
-                    migrated_issue, pkg_name, version
-                )
+                "Create or update GeneratedXMLFile {}".format(migrated_document)
             )
-            obj = cls.get(migrated_issue, pkg_name, version)
+            obj = cls.get(migrated_document)
             obj.updated_by = creator
             obj.updated = datetime.utcnow()
         except cls.DoesNotExist:
             obj = cls()
             obj.creator = creator
-
+            obj.migrated_document = migrated_document
         try:
-            obj.migrated_issue = migrated_issue
-            obj.version = version
-            obj.pkg_name = pkg_name
             obj.save()
 
             # cria / atualiza arquivo
-            collection_acron = migrated_issue.migrated_journal.collection.acron
-            journal_acron = migrated_issue.migrated_journal.acron
-            issue_folder = migrated_issue.issue_folder
-            basename = os.path.basename(original_path)
-            file_name = f"{collection_acron}_{journal_acron}_{issue_folder}_{pkg_name}_{version}.xml"
-            obj.save_file(file_name, file_content)
+            obj.save_file(obj.filename, file_content)
             obj.save()
             logging.info("Created {}".format(obj))
             return obj
         except Exception as e:
             raise exceptions.CreateOrUpdateGeneratedXMLFileError(
-                _(
-                    "Unable to create_or_update_generated xml file {} {} {} {} {}"
-                ).format(migrated_issue, pkg_name, version, type(e), e)
+                _("Unable to create_or_update_generated xml file {} {} {}").format(
+                    migrated_document, type(e), e
+                )
             )
+
+    @property
+    def filename(self):
+        return f"{now()}.xml"
+
+    @property
+    def xml_with_pre(self):
+        for item in XMLWithPre.create(path=self.file.path):
+            return item
