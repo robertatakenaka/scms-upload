@@ -1,0 +1,1711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.1" specific-use="sps-1.9" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="nlm-ta">Rev Saude Publica</journal-id>
+			<journal-id journal-id-type="publisher-id">rsp</journal-id>
+			<journal-title-group>
+				<journal-title>Revista de Saúde Pública</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Rev. Saúde Pública</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="ppub">0034-8910</issn>
+			<issn pub-type="epub">1518-8787</issn>
+			<publisher>
+				<publisher-name>Faculdade de Saúde Pública da Universidade de São Paulo</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="other">00281</article-id>
+			<article-id pub-id-type="doi">10.11606/s1518-8787.2022056004160</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Original Article</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Effect of ribociclib on productivity losses due to breast cancer in young women in Brazil</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-2892-2560</contrib-id>
+					<name>
+						<surname>Buehler</surname>
+						<given-names>Anna Maria</given-names>
+					</name>
+					<role>Study design and planning</role>
+					<role>Data collection</role>
+					<role>analysis and interpretation</role>
+					<role>Manuscript drafting or review</role>
+					<role>Approval of the final version</role>
+					<role>Public responsibility for the content of the article</role>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+					<xref ref-type="corresp" rid="c1"/>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-6260-5599</contrib-id>
+					<name>
+						<surname>Dionne</surname>
+						<given-names>Pierre-Alexandre</given-names>
+					</name>
+					<role>Study design and planning</role>
+					<role>Data collection</role>
+					<role>analysis and interpretation</role>
+					<role>Manuscript drafting or review</role>
+					<role>Approval of the final version</role>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-5651-564X</contrib-id>
+					<name>
+						<surname>Chandiwana</surname>
+						<given-names>David</given-names>
+					</name>
+					<role>Study design and planning</role>
+					<role>Data collection</role>
+					<role>analysis and interpretation</role>
+					<role>Manuscript drafting or review</role>
+					<role>Approval of the final version</role>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-6225-9128</contrib-id>
+					<name>
+						<surname>Pathak</surname>
+						<given-names>Purnima</given-names>
+					</name>
+					<role>Data collection</role>
+					<role>analysis and interpretation</role>
+					<role>Manuscript drafting or review</role>
+					<role>Approval of the final version</role>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-9809-4791</contrib-id>
+					<name>
+						<surname>Igho-Osagie</surname>
+						<given-names>Ebuwa</given-names>
+					</name>
+					<role>Study design and planning</role>
+					<role>Data collection</role>
+					<role>analysis and interpretation</role>
+					<role>Manuscript drafting or review</role>
+					<role>Approval of the final version</role>
+					<xref ref-type="aff" rid="aff3"><sup>III</sup></xref>
+				</contrib>
+				<aff id="aff1">
+					<label>I</label>
+					<institution content-type="orgname">Novartis Biociências S.A.</institution>
+					<addr-line>
+						<named-content content-type="city">São Paulo</named-content>
+						<named-content content-type="state">SP</named-content>
+					</addr-line>
+					<country country="BR">Brasil</country>
+					<institution content-type="original">Novartis Biociências S.A. São Paulo, SP, Brasil</institution>
+				</aff>
+				<aff id="aff2">
+					<label>II</label>
+					<institution content-type="orgname">Novartis Global</institution>
+					<addr-line>
+						<named-content content-type="city">East Hanover</named-content>
+						<named-content content-type="state">NJ</named-content>
+					</addr-line>
+					<country country="US">USA</country>
+					<institution content-type="original">Novartis Global. East Hanover, NJ, USA</institution>
+				</aff>
+				<aff id="aff3">
+					<label>III</label>
+					<institution content-type="orgname">Novartis Global</institution>
+					<institution content-type="orgdiv1">Business Flagship Programs</institution>
+					<addr-line>
+						<named-content content-type="city">East Hanover</named-content>
+						<named-content content-type="state">NJ</named-content>
+					</addr-line>
+					<country country="US">USA</country>
+					<institution content-type="original">Novartis Global, Business Flagship Programs. East Hanover, NJ, USA</institution>
+				</aff>
+			</contrib-group>
+			<author-notes>
+				<corresp id="c1"><bold>Correspondence:</bold> Anna Maria Buehler, Av. Professor Vicente Rao, <postal-code>90 04636-000</postal-code> São Paulo, SP, Brasil, E-mail: <email>anna.buehler@novartis.com</email>
+				</corresp>
+				<fn fn-type="conflict">
+					<p><bold>Conflict of Interest:</bold> The authors are collaborators of the company Novartis, manufacturer of the drug ribociclib.</p>
+				</fn>
+			</author-notes>
+			<pub-date date-type="pub" publication-format="electronic">
+				<day>09</day>
+				<month>12</month>
+				<year>2022</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">
+				<year>2022</year>
+			</pub-date>
+			<volume>56</volume>
+			<elocation-id>100</elocation-id>
+			<history>
+				<date date-type="received">
+					<day>23</day>
+					<month>08</month>
+					<year>2021</year>
+				</date>
+				<date date-type="accepted">
+					<day>04</day>
+					<month>02</month>
+					<year>2022</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="en">
+					<license-p>This is an Open Access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>ABSTRACT</title>
+				<sec>
+					<title>OBJETIVE</title>
+					<p>To evaluate the effect of ribociclib <italic>versus</italic> endocrine therapy on productivity losses due to advanced breast cancer.</p>
+				</sec>
+				<sec>
+					<title>METHODS</title>
+					<p>Productivity data from the MONALEESA-7 trial, obtained from the results of the application of the Work Productivity and Activity Impairment (WPAI) questionnaire on progression-free survival state (43-month follow-up), were extrapolated to the 10,936 Brazilian prevalent cases of premenopausal women with hormone receptor positive/human epidermal growth factor receptor 2 negative (HR+/HER2-) breast cancer. Productivity loss was determined by quantifying the economic costs of workforce dropout over time in both treatment arms and by discounting the economic costs of absenteeism and presenteeism from workforce retention. A human capital approach was used.</p>
+				</sec>
+				<sec>
+					<title>RESULTS</title>
+					<p>Net productivity gains in the ribociclib arm were estimated at USD 4,285,525.00, representing 316,609 added work hours over 43 months and a mean of 2,009 added work weeks per year.</p>
+				</sec>
+				<sec>
+					<title>CONCLUSIONS</title>
+					<p>The phase III MONALEESA-7 trial productivity results applied to the Brazilian premenopausal prevalent cases of hormone receptor positive/human epidermal growth factor receptor 2 negative (HR+/HER2-) breast cancer showed that treatment with ribociclib + endocrine therapy improves workforce participation compared with endocrine therapy alone in premenopausal women with hormone receptor positive/human epidermal growth factor receptor 2 negative (HR+/HER2-) metastatic breast cancer, with potential economic gains for the Brazilian society.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="en">
+				<title>DESCRIPTORS</title>
+				<kwd>Women</kwd>
+				<kwd>Premenopause</kwd>
+				<kwd>Breast Neoplasms, therapy</kwd>
+				<kwd>Absenteeism</kwd>
+				<kwd>Workforce, economics</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="0"/>
+				<table-count count="3"/>
+				<equation-count count="0"/>
+				<ref-count count="30"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>INTRODUCTION</title>
+			<p>Breast cancer is the most common type of malignancy in women, accounting for 24.5% of all women<sup><xref ref-type="bibr" rid="B1">1</xref></sup>. Its diagnosis is histological and typically described by the presence or absence of particular molecular receptors. Approximately 70% of breast cancers express estrogen receptor alpha (ER-α) or progesterone receptor (PR) and are referred to as hormone receptor positive (HR+)<sup><xref ref-type="bibr" rid="B2">2</xref></sup>. Between 10% and 20% overexpress or amplify human epidermal growth factor receptor 2 (HER2) and are referred to as HER2 positive (HER2+)<sup><xref ref-type="bibr" rid="B2">2</xref></sup>. Those that do not express ER-α, PR, or HER2+ are referred to as triple-negative<sup><xref ref-type="bibr" rid="B2">2</xref></sup>. Roughly 70% to 75% of all breast cancers are both HR+ and HER2 negative (HER2-). They are the most common type of cancer and often referred to as HR+/HER2-<sup><xref ref-type="bibr" rid="B2">2</xref></sup>.</p>
+			<p>Although breast cancer mortality has declined in high-income countries in the past 20 to 30 years<sup><xref ref-type="bibr" rid="B3">3</xref></sup>, it remains the worldwide leading cause of cancer death among women. Breast cancers become increasingly life-threatening as they progress to metastasis. Despite innovative therapies, about 30% of women with breast cancer will develop metastasis<sup><xref ref-type="bibr" rid="B4">4</xref></sup>. Five-year survival in patients with early disease ranges from 94% to 99%<sup><xref ref-type="bibr" rid="B2">2</xref></sup>, but patients with metastasis tend to have a median survival as low as one year<sup><xref ref-type="bibr" rid="B2">2</xref></sup>. Breast cancer has a worse prognosis among premenopausal women. Tumors tend to be more aggressive and invasive and are associated with higher recurrence and mortality<sup><xref ref-type="bibr" rid="B5">5</xref></sup>. A study showed that premenopausal women with breast cancer, aged ≤ 40 years, had a 40% higher mortality risk than older women<sup><xref ref-type="bibr" rid="B6">6</xref></sup>, and women aged ≤ 40 years with HR+/HER2- breast cancer had a two-fold higher mortality risk than older women with the same type of disease<sup><xref ref-type="bibr" rid="B6">6</xref></sup>.</p>
+			<sec>
+				<title>Productivity Burden</title>
+				<p>Women with breast cancer experience pain, fatigue, and mental health deterioration that decrease quality of life and reduce work-related productivity and participation in the workforce<sup><xref ref-type="bibr" rid="B7">7</xref></sup>. Besides productivity losses due to premature mortality, breast cancer contributes to significant direct and indirect costs to society. Reyes et al.<sup><xref ref-type="bibr" rid="B8">8</xref></sup> estimated the mean annual costs of health care services for nonmetastatic and metastatic breast cancer to be USD $78,560 (SD = USD $95,874) and USD $183,337 (SD = USD $151,412), respectively, in the 2014 exchange rate<sup><xref ref-type="bibr" rid="B8">8</xref></sup>. Women with breast cancer are also more likely to lose their jobs<sup><xref ref-type="bibr" rid="B7">7</xref></sup>, increasing the economic burden of treatment costs placed on society. Metastatic breast cancer places a larger burden on society than nonmetastatic disease. Yin et al.<sup><xref ref-type="bibr" rid="B7">7</xref></sup> observed that women with metastasis had more missed work hours (101 <italic>versus</italic> 84 hours; p &lt; 0.001) per person-quarter, were 35% less likely to be employed than women with localized disease, and, when employed, caused a mean work productivity loss of USD $30,666 per year, which is USD $6,500 more than the cost associated with lost work time of women with local or locally advanced disease<sup><xref ref-type="bibr" rid="B7">7</xref></sup>.</p>
+			</sec>
+			<sec>
+				<title>Health-related Quality of Life</title>
+				<p>Besides economic losses, young women with metastatic breast cancer experience a significant decrease in health-related quality of life due to reproductive health challenges<sup><xref ref-type="bibr" rid="B5">5</xref></sup>. With systemic treatment, many women express concerns about fertility and experience a sudden onset of menopause caused by ovarian suppression<sup><xref ref-type="bibr" rid="B5">5</xref></sup>. They show concerns about body image and sexuality, and those who plan to have children fear how pregnancy might affect their risk of recurrence<sup><xref ref-type="bibr" rid="B9">9</xref></sup>. Because younger premenopausal women are likely to be in the workforce, their clinical condition or treatment can interrupt their careers and have a lasting negative effect on household income. These concerns about sexual and reproductive health, career and work, job insecurity and the uncertainty of disease recurrence indicate lower health-related quality of life and greater financial burden among younger women compared with older postmenopausal women with the same disease<sup><xref ref-type="bibr" rid="B10">10</xref></sup>.</p>
+			</sec>
+			<sec>
+				<title>Metastatic Breast Cancer in Brazil</title>
+				<p>Incidence of breast cancer is increasing in Brazil. A 74% increase in prevalence of metastasis was noted between 2008–2018<sup><xref ref-type="bibr" rid="B11">11</xref></sup>. The prevalence of metastatic breast cancer is 41 per 100,000 women, with a median overall survival (OS) after metastasis diagnosis of approximately 26.2 months<sup><xref ref-type="bibr" rid="B11">11</xref></sup>. Affected women have a mean five-year survival rate of 9%<sup><xref ref-type="bibr" rid="B11">11</xref></sup>. Besides mortality effects, the indirect costs of breast cancer in Brazil are substantial. Pearce et al.<sup><xref ref-type="bibr" rid="B12">12</xref></sup> estimated annual productivity losses of US$350 million, in the 2012 exchange rate, from breast cancer mortality, which is the second highest economic effect among all invasive forms of cancer<sup><xref ref-type="bibr" rid="B12">12</xref></sup>. Alexandre et al.<sup><xref ref-type="bibr" rid="B13">13</xref></sup> estimated annual productivity losses due to absenteeism among Brazilian women with metastatic breast cancer to be BRL 23.2 million. Losses from premature mortality were estimated to be BRL 1.37 billion and worth 15 productivity years<sup><xref ref-type="bibr" rid="B13">13</xref></sup>.</p>
+			</sec>
+			<sec>
+				<title>Treatment of Metastatic Breast Cancer with Ribociclib</title>
+				<p>Current clinical guidelines recommend using a CDK4/6 inhibitor combined with endocrine therapy as first-line treatment for metastatic breast cancer<sup><xref ref-type="bibr" rid="B11">11</xref></sup>. CDK4/6 inhibitors treat cancer by targeting cyclin-dependent kinases 4 and 6 (CDK4 and CDK6) to trigger cell arrest and halt cell cycle progression. They are essential to treat metastatic breast cancer due to their ability to improve progression-free survival (PFS) and OS in women with metastatic breast cancer, and due to their low levels of toxicity<sup><xref ref-type="bibr" rid="B14">14</xref></sup>.</p>
+				<p>Ribociclib is an orally available CDK4/6 inhibitor that received regulatory approval from the U.S. Food and Drug Administration (FDA) for the treatment of HR+/HER2- advanced or metastatic breast cancer in postmenopausal women in August 2016. In 2018, this therapy was expanded to treat premenopausal women with metastatic breast cancer (combined with tamoxifen or an aromatase inhibitor). In Brazil, ribociclib was approved for all its indications by the <italic>Agência Nacional de Vigilância Sanitária</italic> (ANVISA – National Health Surveillance Agency) in July 2018. Ribociclib showed a significant effect on PFS and OS<sup><xref ref-type="bibr" rid="B14">14</xref></sup>. Patients receiving ribociclib combined with fulvestrant showed longer PFS than those receiving fulvestrant alone (median, 20.5 <italic>versus</italic> 12.8 months; hazard ratio, 0.59; 95% confidence interval, 0.48 to 0.73; p &lt; 0.001)<sup><xref ref-type="bibr" rid="B15">15</xref></sup>, and 28% lower mortality risk<sup><xref ref-type="bibr" rid="B16">16</xref></sup>. We observed a 29% mortality reduction in the ribociclib arm (p = 0.00973)<sup><xref ref-type="bibr" rid="B17">17</xref></sup> in the MONALEESA-7 trial with premenopausal and perimenopausal women. A total of 70.2% of the patients randomized to ribociclib + endocrine therapy were alive at 42 months compared with 46.0% of the patients alive in the endocrine therapy alone group<sup><xref ref-type="bibr" rid="B18">18</xref></sup>.</p>
+				<p>Considering its efficacy, the inaccessibility to ribociclib in Brazil will lead to higher mortality and impaired quality of life in patients with metastatic breast cancer. Reinert et al.<sup><xref ref-type="bibr" rid="B19">19</xref></sup> estimated that administering ribociclib combined with endocrine therapy to one-year incident cases of HR+/HER2- metastatic breast cancer in Brazil would prevent 538 deaths over six years, compared with endocrine therapy alone. Our study complements Reinert et al.<sup><xref ref-type="bibr" rid="B19">19</xref></sup> by estimating productivity gains that would benefit the Brazilian society due to access to ribociclib.</p>
+			</sec>
+		</sec>
+		<sec sec-type="methods">
+			<title>METHODS</title>
+			<p>The study was exempted from the research ethics committee approval due to the secondary nature of the data used for analysis. We did not have access to any information allowing the identification of patients, only to the results of the questionnaires.</p>
+			<p>We extrapolated productivity data from the MONALEESA-7 trial to a 2020 prevalent HR+/HER2- metastatic breast cancer cohort in Brazil and estimated productivity gains that would benefit premenopausal women receiving ribociclib as first-line therapy for HR+/HER2- metastatic breast cancer. Productivity losses were defined as the result of permanent workforce dropout minus productivity losses due to absenteeism and presenteeism. These estimates were obtained from the results of the application of the Work Productivity and Activity Impairment (WPAI) questionnaire, as recommended by the second panel on cost-effectiveness in health and medicine<sup><xref ref-type="bibr" rid="B20">20</xref></sup>. Our analysis was based on the summarized individual patient data of MONALEESA-7 trial and was limited to the progression-free period, i.e., for as long as patients continued to receive ribociclib or placebo.</p>
+			<sec>
+				<title>MONALEESA-7 Trial</title>
+				<p>MONALEESA-7 was an international, randomized, double-blind, placebo-controlled, phase III trial that compared ribociclib with placebo, combined with tamoxifen or a nonsteroidal aromatase inhibitor (NSAI) and goserelin, as first-line therapy in premenopausal patients with HR+/HER2- advanced breast cancer<sup><xref ref-type="bibr" rid="B18">18</xref></sup>. The primary objective was to assess PFS in both comparator arms and the secondary was OS. The trial examined work productivity and activity impairment as secondary objectives. <xref ref-type="table" rid="t1">Table 1</xref> shows the clinical and demographic characteristics of study participants.</p>
+				<table-wrap id="t1">
+					<label>Table 1</label>
+					<caption>
+						<title>Demographic and clinical characteristics of participants in the MONALEESA-7 trial.</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup width="24%">
+							<col width="1%"/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead style="border-top: thin solid; border-bottom: thin solid; border-color: #000000">
+							<tr style="background-color:#D4DBEC">
+								<th align="left" colspan="2" valign="middle">Variable</th>
+								<th align="center" valign="middle">Ribociclib + ET (n = 335)</th>
+								<th align="center" valign="middle">Placebo + ET (n = 337)</th>
+								<th align="center" valign="middle">Total (n = 672)</th>
+							</tr>
+						</thead>
+						<tbody style="border-bottom: thin solid; border-color: #000000">
+							<tr>
+								<td align="left" colspan="2" valign="middle">Age (years), median (min-max)</td>
+								<td align="center" valign="middle">43 (25–58)</td>
+								<td align="center" valign="middle">45 (25–58)</td>
+								<td align="center" valign="middle">44 (25–58)</td>
+							</tr>
+							<tr style="background-color:#EEF0F7">
+								<td align="left" colspan="5" valign="middle">Race/skin color</td>
+							</tr>
+							<tr>
+								<td align="left" valign="middle"/>
+								<td align="left" valign="middle">Asian</td>
+								<td align="center" valign="middle">99 (29.6)</td>
+								<td align="center" valign="middle">99 (29.4)</td>
+								<td align="center" valign="middle">198 (29.5)</td>
+							</tr>
+							<tr style="background-color:#EEF0F7">
+								<td align="left" valign="middle"/>
+								<td align="left" valign="middle">Black</td>
+								<td align="center" valign="middle">10 (3.0)</td>
+								<td align="center" valign="middle">9 (2.7)</td>
+								<td align="center" valign="middle">19 (2.8)</td>
+							</tr>
+							<tr>
+								<td align="left" valign="middle"/>
+								<td align="left" valign="middle">White</td>
+								<td align="center" valign="middle">187 (55.8)</td>
+								<td align="center" valign="middle">201 (59.6)</td>
+								<td align="center" valign="middle">388 (57.7)</td>
+							</tr>
+							<tr style="background-color:#EEF0F7">
+								<td align="left" valign="middle"/>
+								<td align="left" valign="middle">Other</td>
+								<td align="center" valign="middle">39 (11.6)</td>
+								<td align="center" valign="middle">28 (8.3)</td>
+								<td align="center" valign="middle">67 (10.0)</td>
+							</tr>
+							<tr>
+								<td align="left" colspan="5" valign="middle">ECOG performance status – n (%) at baseline</td>
+							</tr>
+							<tr style="background-color:#EEF0F7">
+								<td align="left" valign="middle"/>
+								<td align="left" valign="middle">0</td>
+								<td align="center" valign="middle">245 (73.1)</td>
+								<td align="center" valign="middle">255 (75.7)</td>
+								<td align="center" valign="middle">500 (74.4)</td>
+							</tr>
+							<tr>
+								<td align="left" valign="middle"/>
+								<td align="left" valign="middle">1</td>
+								<td align="center" valign="middle">87 (26.0)</td>
+								<td align="center" valign="middle">78 (23.1)</td>
+								<td align="center" valign="middle">165 (24.6)</td>
+							</tr>
+							<tr style="background-color:#EEF0F7">
+								<td align="left" valign="middle"/>
+								<td align="left" valign="middle">2</td>
+								<td align="center" valign="middle">0 (0.0)</td>
+								<td align="center" valign="middle">1 (0.3)</td>
+								<td align="center" valign="middle">1 (0.3)</td>
+							</tr>
+							<tr>
+								<td align="left" valign="middle"/>
+								<td align="left" valign="middle">Missing</td>
+								<td align="center" valign="middle">3 (0.9)</td>
+								<td align="center" valign="middle">3 (0.9)</td>
+								<td align="center" valign="middle">6 (0.9)</td>
+							</tr>
+							<tr style="background-color:#EEF0F7">
+								<td align="left" colspan="5" valign="middle">Disease status at study entry</td>
+							</tr>
+							<tr>
+								<td align="left" valign="middle"/>
+								<td align="left" valign="middle">Locally advanced</td>
+								<td align="center" valign="middle">1 (0.3)</td>
+								<td align="center" valign="middle">1 (0.3)</td>
+								<td align="center" valign="middle">2 (0.3)</td>
+							</tr>
+							<tr style="background-color:#EEF0F7">
+								<td align="left" valign="middle"/>
+								<td align="left" valign="middle">Distally metastatic</td>
+								<td align="center" valign="middle">334 (99.7)</td>
+								<td align="center" valign="middle">336 (99.7)</td>
+								<td align="center" valign="middle">670 (99.7)</td>
+							</tr>
+							<tr>
+								<td align="left" colspan="5" valign="middle">Hormone receptor status</td>
+							</tr>
+							<tr style="background-color:#EEF0F7">
+								<td align="left" valign="middle"/>
+								<td align="left" valign="middle">Estrogen receptor positive</td>
+								<td align="center" valign="middle">331 (99.0)</td>
+								<td align="center" valign="middle">335 (99.0)</td>
+								<td align="center" valign="middle">666 (99.0)</td>
+							</tr>
+							<tr>
+								<td align="left" valign="middle"/>
+								<td align="left" valign="middle">Progesterone receptor positive</td>
+								<td align="center" valign="middle">290 (87.0)</td>
+								<td align="center" valign="middle">288 (85.0)</td>
+								<td align="center" valign="middle">578 (86.0)</td>
+							</tr>
+							<tr style="background-color:#EEF0F7">
+								<td align="left" colspan="5" valign="middle">Previous surgery</td>
+							</tr>
+							<tr>
+								<td align="left" valign="middle"/>
+								<td align="left" valign="middle">Yes</td>
+								<td align="center" valign="middle">202 (60.6)</td>
+								<td align="center" valign="middle">194 (58.2)</td>
+								<td align="center" valign="middle">396 (59.4)</td>
+							</tr>
+							<tr style="background-color:#EEF0F7">
+								<td align="left" valign="middle"/>
+								<td align="left" valign="middle">No</td>
+								<td align="center" valign="middle">133 (39.9)</td>
+								<td align="center" valign="middle">143 (43.5)</td>
+								<td align="center" valign="middle">276 (41.4)</td>
+							</tr>
+							<tr>
+								<td align="left" colspan="5" valign="middle">Previous radiotherapy</td>
+							</tr>
+							<tr style="background-color:#EEF0F7">
+								<td align="left" valign="middle"/>
+								<td align="left" valign="middle">Yes</td>
+								<td align="center" valign="middle">161 (48.3)</td>
+								<td align="center" valign="middle">183 (54.9)</td>
+								<td align="center" valign="middle">344 (51.6)</td>
+							</tr>
+							<tr>
+								<td align="left" valign="middle"/>
+								<td align="left" valign="middle">No</td>
+								<td align="center" valign="middle">174 (52.2)</td>
+								<td align="center" valign="middle">154 (46.2)</td>
+								<td align="center" valign="middle">328 (49.2)</td>
+							</tr>
+							<tr style="background-color:#EEF0F7">
+								<td align="left" colspan="5" valign="middle">Previous chemotherapy</td>
+							</tr>
+							<tr>
+								<td align="left" valign="middle"/>
+								<td align="left" valign="middle">For advanced disease</td>
+								<td align="center" valign="middle">47 (14.0)</td>
+								<td align="center" valign="middle">47 (13.9)</td>
+								<td align="center" valign="middle">94 (14.0)</td>
+							</tr>
+							<tr style="background-color:#EEF0F7">
+								<td align="left" valign="middle"/>
+								<td align="left" valign="middle">Neoadjuvant or adjuvant only</td>
+								<td align="center" valign="middle">138 (41.2)</td>
+								<td align="center" valign="middle">138 (41.0)</td>
+								<td align="center" valign="middle">276 (41.1)</td>
+							</tr>
+							<tr>
+								<td align="left" valign="middle"/>
+								<td align="left" valign="middle">None</td>
+								<td align="center" valign="middle">150 (44.8)</td>
+								<td align="center" valign="middle">152 (45.1)</td>
+								<td align="center" valign="middle">302 (45.0)</td>
+							</tr>
+							<tr style="background-color:#EEF0F7">
+								<td align="left" colspan="5" valign="middle">Disease-free interval<xref ref-type="table-fn" rid="TFN2">a</xref>
+								</td>
+							</tr>
+							<tr>
+								<td align="left" valign="middle"/>
+								<td align="left" valign="middle">Newly diagnosed disease</td>
+								<td align="center" valign="middle">136 (40.6)</td>
+								<td align="center" valign="middle">141 (40.4)</td>
+								<td align="center" valign="middle">267 (40.2)</td>
+							</tr>
+							<tr style="background-color:#EEF0F7">
+								<td align="left" valign="middle"/>
+								<td align="left" valign="middle">Existing disease</td>
+								<td align="center" valign="middle">199 (59.4)</td>
+								<td align="center" valign="middle">203 (60.6)</td>
+								<td align="center" valign="middle">402 (59.8)</td>
+							</tr>
+							<tr>
+								<td align="left" valign="middle"/>
+								<td align="left" valign="middle">≤ 12 months</td>
+								<td align="center" valign="middle">23 (6.9)</td>
+								<td align="center" valign="middle">13 (3.9)</td>
+								<td align="center" valign="middle">40 (5.9)</td>
+							</tr>
+							<tr style="background-color:#EEF0F7">
+								<td align="left" valign="middle"/>
+								<td align="left" valign="middle">&gt; 12 months</td>
+								<td align="center" valign="middle">176 (52.5)</td>
+								<td align="center" valign="middle">190 (56.7)</td>
+								<td align="center" valign="middle">366 (54.0)</td>
+							</tr>
+							<tr>
+								<td align="left" colspan="5" valign="middle">Work productivity and activity impairment</td>
+							</tr>
+							<tr style="background-color:#EEF0F7">
+								<td align="left" valign="middle"/>
+								<td align="left" valign="middle">Participants in the workforce at baseline (%)</td>
+								<td align="center" valign="middle">35.7</td>
+								<td align="center" valign="middle">40.4</td>
+								<td align="center" valign="middle">38.1</td>
+							</tr>
+							<tr>
+								<td align="left" valign="middle"/>
+								<td align="left" valign="middle">Presenteeism at baseline (%)</td>
+								<td align="center" valign="middle">48.0</td>
+								<td align="center" valign="middle">46.2</td>
+								<td align="center" valign="middle">47.1</td>
+							</tr>
+							<tr style="background-color:#EEF0F7">
+								<td align="left" valign="middle"/>
+								<td align="left" valign="middle">Absenteeism at baseline (%)</td>
+								<td align="center" valign="middle">28.4</td>
+								<td align="center" valign="middle">24.9</td>
+								<td align="center" valign="middle">26.7</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN1">
+							<p>ET: endocrine therapy; ECOG: Eastern Cooperative Oncology Group.</p>
+						</fn>
+						<fn id="TFN2">
+							<label>a</label>
+							<p>Newly diagnosed disease: participants without a history of first recurrence or progression, or without first recurrence or progression within 90 days of diagnosis.</p>
+						</fn>
+						<fn id="TFN3">
+							<p>Disease-free interval for patients with existing disease was defined as the time from initial diagnosis to first recurrence or progression<sup><xref ref-type="bibr" rid="B17">17</xref></sup>.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</sec>
+			<sec>
+				<title>Participants</title>
+				<p>The study population included premenopausal or perimenopausal women aged 18-59 years diagnosed with HR+/HER2- advanced breast cancer who had not received prior hormone therapy and had adequate bone marrow and organ function. Women with inflammatory breast disease, central nervous system metastases, HIV, or other severe chronic conditions were excluded from the study.</p>
+			</sec>
+			<sec>
+				<title>Treatment</title>
+				<p>Patients were randomly assigned in a 1:1 ratio to one of the following treatment arms: ribociclib arm – patients received ribociclib + tamoxifen or an NSAI (letrozole or anastrozole) + goserelin; placebo arm – patients received placebo + tamoxifen or an NSAI (letrozole or anastrozole) + goserelin. According to the study protocol, participants continued to receive the study medicines until disease progression (or death).</p>
+			</sec>
+			<sec>
+				<title>The Work Productivity and Activity Impairment (WPAI) Questionnaire</title>
+				<p>The WPAI questionnaire is a validated patient-reported outcome instrument used to measure the following productivity components: workforce participation, absenteeism, presenteeism, and impairment in daily life activities<sup><xref ref-type="bibr" rid="B21">21</xref></sup>. Details of questionnaire items and scoring systems have been covered elsewhere<sup><xref ref-type="bibr" rid="B21">21</xref></sup>. In this study, the WPAI questionnaire was administered at treatment initiation/screening and bi-monthly to participants who remained progression free.</p>
+			</sec>
+			<sec>
+				<title>Productivity Estimation</title>
+				<p>Productivity loss was estimated by quantifying the economic costs of workforce dropout over time in both treatment arms and by discounting the economic costs of absenteeism and presenteeism from workforce retention. A human capital approach was used to estimate productivity losses. This approach assumes that productivity contributions to society lost due to illness or death are irreplaceable<sup><xref ref-type="bibr" rid="B20">20</xref></sup>. Therefore, productivity loss is estimated as the cost of an individual's work when they are out of the workforce, regardless of replacement by substitute workers. The human capital approach is recommended for productivity estimation by the second panel on cost-effectiveness in health and medicine<sup><xref ref-type="bibr" rid="B20">20</xref></sup>.</p>
+				<p>Because the WPAI questionnaire was administered to participants at baseline and bi-monthly thereafter, it was possible to track workforce participation during the treatment period. Workforce dropout over time was defined as the percentage reduction of formally employed participants at baseline. Absenteeism was defined as the percentage of time formally employed participants spent away from work due to illness. Presenteeism was defined as the percentage of time formally employed participants spent away from work tasks while at work due to illness<sup><xref ref-type="bibr" rid="B20">20</xref></sup>. Absenteeism, presenteeism and workforce dropout figures from the MONALEESA-7 trial were subsequently extrapolated to a premenopausal population-based<sup><xref ref-type="bibr" rid="B11">11</xref></sup> cohort of the prevalence of women with HR+/HER2- metastatic breast cancer in Brazil in 2020, representing 39% of breast cancer prevalent cases in Brazil (n = 10,936)<sup><xref ref-type="bibr" rid="B19">19</xref></sup>. All costs were estimated in Brazilian reals and converted to 2020 U.S. dollars at the prevailing exchange rate of USD $1 = BRL 5.3, obtained from the Brazilian Central Bank website calculator<sup><xref ref-type="bibr" rid="B22">22</xref></sup>.</p>
+			</sec>
+			<sec>
+				<title>Statistical Analysis</title>
+				<p>The annual costs of workforce dropout over time in both treatment arms were estimated by multiplying a worker's payment in Brazil by the extrapolated number of patients who would leave the workforce over time. The 44-hour work per week established in Brazil and a mean daily wage rate of USD $13.54 were applied. The mean daily wage rate was estimated based on the results from the first quarter of 2020 reported by the National Household Sample Survey<sup><xref ref-type="bibr" rid="B23">23</xref></sup>. The monetary value of productivity losses due to absenteeism was determined by multiplying the number of missed workdays in each month by the mean daily wage rate in Brazil and by the extrapolated number of formally employed patients in each treatment arm. Presenteeism was estimated by discounting the economic value of workdays from the proportion of time of each workday spent not working at the workplace due to illness.</p>
+			</sec>
+		</sec>
+		<sec sec-type="results">
+			<title>RESULTS</title>
+			<p>At baseline in the MONALEESA-7 trial, 35.7% and 40.4% of women in the ribociclib and placebo arms, respectively, reported being formally employed. We applied the 38.1% mean of this sample to estimate the proportion of women with HR+/HER2- metastatic breast cancer in Brazil who participated in the workforce. By the end of the study (median of 43 months), 12.8% and 6.0% of participants in the respective treatment arms remained progression free. Figure 1 shows workforce dropout over time in the MONALEESA-7 trial.</p>
+			<sec>
+				<title>Extrapolation to a Brazilian Prevalence Cohort</title>
+				<p>We applied the rate of workforce dropout obtained in the MONALEESA-7 trial to a Brazilian population-based cohort of 10,936 premenopausal women with HR+/HER2- metastatic breast cancer<sup><xref ref-type="bibr" rid="B11">11</xref>,<xref ref-type="bibr" rid="B19">19</xref></sup>. <xref ref-type="table" rid="t2">Table 2</xref> shows the results over the treatment period in both comparator arms. Productivity losses due to workforce dropout over the 43-month treatment period were estimated at USD $111,443,068.85 for women treated with ribociclib + endocrine therapy and $124,822,445.64 for those treated with placebo + endocrine therapy, which results in productivity gains of USD $13,379,376.79 in favor of treatment with add-on ribociclib. However, productivity losses due to absenteeism and presenteeism were higher in the ribociclib arm. Estimated costs for absenteeism were USD $12,423,315.29 in the ribociclib arm and USD $7,133,598.11 in the placebo arm, and USD $11,295,708.67 and USD $7,491,574.06, respectively, for presenteeism. In total, net productivity gains of USD $4,285,525.00 were achieved in the ribociclib arm, and this would result in 316,609 added work hours over 43 months – a mean of 2,009 added work weeks per year (<xref ref-type="table" rid="t3">Table 3</xref>).</p>
+				<table-wrap id="t2">
+					<label>Table 2</label>
+					<caption>
+						<title>Breakdown of productivity losses in U.S. dollars<xref ref-type="table-fn" rid="TFN5">a</xref> by treatment arm extrapolated to a Brazilian population-based cohort of 10,936 women with HR+/HER2- metastatic breast cancer.</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup width="25%">
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead style="border-top: thin solid; border-bottom: thin solid; border-color: #000000">
+							<tr style="background-color:#D4DBEC">
+								<th align="left" valign="middle">Productivity component</th>
+								<th align="center" valign="middle">Ribociclib + ET (USD)</th>
+								<th align="center" valign="middle">Placebo + ET (USD)</th>
+								<th align="center" valign="middle">Difference (USD) (Ribo – placebo)</th>
+							</tr>
+						</thead>
+						<tbody style="border-bottom: thin solid; border-color: #000000">
+							<tr>
+								<td align="left" valign="middle">Workforce dropout</td>
+								<td align="center" valign="middle">111,443,068.85</td>
+								<td align="center" valign="middle">124,822,445.64</td>
+								<td align="center" valign="middle">−13,379,376.79</td>
+							</tr>
+							<tr style="background-color:#EEF0F7">
+								<td align="left" valign="middle">Absenteeism</td>
+								<td align="center" valign="middle">12,423,315.29</td>
+								<td align="center" valign="middle">7,133,598.11</td>
+								<td align="center" valign="middle">3,616,361.53</td>
+							</tr>
+							<tr>
+								<td align="left" style="border-bottom: thin solid; border-color: #000000;" valign="middle">Presenteeism</td>
+								<td align="center" style="border-bottom: thin solid; border-color: #000000;" valign="middle">11,295,708.67</td>
+								<td align="center" style="border-bottom: thin solid; border-color: #000000;" valign="middle">7,491,574.06</td>
+								<td align="center" style="border-bottom: thin solid; border-color: #000000;" valign="middle">2,600,729.98</td>
+							</tr>
+							<tr style="background-color:#EEF0F7">
+								<td align="left" valign="middle">Total</td>
+								<td align="center" valign="middle">135,162,092.81</td>
+								<td align="center" valign="middle">139,447,617.81</td>
+								<td align="center" valign="middle">−4,285,525.00</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN4">
+							<p>ET: endocrine therapy.</p>
+						</fn>
+						<fn id="TFN5">
+							<label>a</label>
+							<p>All costs were estimated in Brazilian reals and converted to 2020 U.S. dollars at the prevailing exchange rate of USD 1 = BRL 5.3, obtained from the Brazilian Central Bank website calculator<sup><xref ref-type="bibr" rid="B23">23</xref></sup>.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+				<table-wrap id="t3">
+					<label>Table 3</label>
+					<caption>
+						<title>Breakdown of net productivity gains in U.S. dollars<xref ref-type="table-fn" rid="TFN6">a</xref> in the ribociclib arm extrapolated to a Brazilian population-based cohort of 10,936 women with HR+/HER2- metastatic breast cancer.</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup width="50%">
+							<col/>
+							<col/>
+						</colgroup>
+						<thead style="border-top: thin solid; border-bottom: thin solid; border-color: #000000">
+							<tr style="background-color:#D4DBEC">
+								<th align="left" valign="middle">Productivity variable</th>
+								<th align="center" valign="middle">Estimate</th>
+							</tr>
+						</thead>
+						<tbody style="border-bottom: thin solid; border-color: #000000">
+							<tr>
+								<td align="left" valign="middle">Net productivity gain</td>
+								<td align="center" valign="middle">USD $4,285,525.00</td>
+							</tr>
+							<tr style="background-color:#EEF0F7">
+								<td align="left" valign="middle">Difference per year</td>
+								<td align="center" valign="middle">USD $1,195,960.47</td>
+							</tr>
+							<tr>
+								<td align="left" valign="middle">Number of weeks gained over a 43-month treatment period</td>
+								<td align="center" valign="middle">7,195.66 weeks</td>
+							</tr>
+							<tr style="background-color:#EEF0F7">
+								<td align="left" valign="middle">Number of weeks gained each year</td>
+								<td align="center" valign="middle">2,008.09 weeks</td>
+							</tr>
+							<tr>
+								<td align="left" valign="middle">Number of hours gained over a 43-month treatment period</td>
+								<td align="center" valign="middle">316,609.04 hours</td>
+							</tr>
+							<tr style="background-color:#EEF0F7">
+								<td align="left" valign="middle">Number of hours gained each year</td>
+								<td align="center" valign="middle">88,356.01 hours</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN6">
+							<label>a</label>
+							<p>All costs were estimated in Brazilian reals and converted to 2020 U.S. dollars at the prevailing exchange rate of USD 1 = BRL 5.3, obtained from the Brazilian Central Bank website calculator<sup><xref ref-type="bibr" rid="B23">23</xref></sup>.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</sec>
+		</sec>
+		<sec sec-type="discussion">
+			<title>DISCUSSION</title>
+			<p>This study assessed productivity gains from treating premenopausal women with HR+/HER2- metastatic breast cancer in Brazil with ribociclib. The results showed that women treated with ribociclib remained in the workforce at a higher rate than women treated with endocrine therapy alone, and this could lead to productivity gains of USD $13,379,376.79 over 43 months. Productivity losses associated with metastatic breast cancer in younger women must be measured, and previous studies report the negative effect of breast cancer on productivity<sup><xref ref-type="bibr" rid="B7">7</xref>,<xref ref-type="bibr" rid="B8">8</xref>,<xref ref-type="bibr" rid="B12">12</xref>,<xref ref-type="bibr" rid="B13">13</xref></sup>. Productivity losses from metastatic breast cancer place a significant economic burden on patients and on society in general. Women with advanced breast cancer cause a mean of USD $6,166 (SD, USD $9,194) in short-term disability costs per year, compared with only USD $558 (SD, USD $2,487) for healthy controls<sup><xref ref-type="bibr" rid="B24">24</xref></sup>. Short-term disability costs are 47% higher in women with metastatic breast cancer than in those with early breast disease<sup><xref ref-type="bibr" rid="B24">24</xref></sup>. In the United States, total productivity loss from missed home and work productivity was estimated at U$313 million per year, in the 2015 exchange rate, in a population-based cohort of women aged 18-64 years, while productivity loss from years of potential life lost was USD $5.7 billion<sup><xref ref-type="bibr" rid="B25">25</xref></sup>. A recent study estimating social costs due to work productivity loss, with ribociclib + endocrine therapy among premenopausal women with HR+/HER2- advanced breast cancer, has also been conducted from the Brazilian perspective. In that study, the same data of MONALEESA-7 trial were used but extrapolated to women at the retirement age of 62 years. Thus, the study showed that ribociclib + endocrine therapy would potentially yield BRL 71.61 million less social costs than endocrine therapy alone<sup><xref ref-type="bibr" rid="B26">26</xref></sup>.</p>
+			<p>Results from this study complement existing evidence on the suitability and importance of ribociclib as an add-on treatment. Treatment with ribociclib can benefit premenopausal women, as well as all women with HR+/HER2- advanced breast cancer and in first and second lines of treatment. In studies of postmenopausal women, MONALEESA-2<sup><xref ref-type="bibr" rid="B27">27</xref></sup> and MONALEESA-3<sup><xref ref-type="bibr" rid="B15">15</xref>,<xref ref-type="bibr" rid="B16">16</xref></sup>, the addition of ribociclib to endocrine therapy promoted significant gains in PFS and OS, with maintenance of health-related quality of life. Moreover, in premenopausal women, the MONALEESA-7 trial showed that ribociclib + an aromatase inhibitor benefitted patients’ quality of life, decreasing the time to deterioration of quality of life and pain by &gt; 10%<sup><xref ref-type="bibr" rid="B28">28</xref></sup>. These findings indicate that treatment with ribociclib may substantially improve social value and emphasize the need for new, innovative medicines to improve the quality of life of women with HR+/HER2- advanced breast cancer, as well as to prolong OS. Therefore, ribociclib reaches 100% of the objectives of a palliative treatment by prolonging patients’ life, improved quality of life, and postponing the need for chemotherapy. This clinical differentiation of ribociclib compared to other CDK4/6 inhibitors was recognized by the European Society for Medical Oncology (ESMO), in which ribociclib was the only CDK4/6 inhibitor that reached a maximum score of 5/5 on the clinical benefit magnitude scale in its latest guideline update<sup><xref ref-type="bibr" rid="B29">29</xref></sup>.</p>
+			<p>The estimates from this study are considered conservative. Our estimates were limited to the progression-free period aligned with the primary objective of the MONALESSA-7 trial<sup><xref ref-type="bibr" rid="B18">18</xref>,<xref ref-type="bibr" rid="B28">28</xref></sup>. Since ribociclib significantly prolongs OS compared to endocrine therapy alone, our study ignores productivity gains that would benefit from years of potential life lost and net productivity gains that would benefit in the post-progression period. By focusing only on the progression-free period, our study adopts a national payer and social perspective to answer how much the Brazilian society would benefit from treatment with ribociclib. It also addresses questions on whether clinical end points, such as PFS, are meaningful to patients’ experiences and daily functioning. Studies further exploring the association between clinical end points and quality of life in women treated with ribociclib are underway.</p>
+			<p>To our knowledge, the MONALEESA-7 trial is the first to monitor patients’ employment status and work functioning prospectively for an extended period. The WPAI questionnaire was administered monthly for 43 months, and we observed high completion rates in the trial: 99% at baseline and 98% at the end of treatment. This shows the acceptability of the WPAI questionnaire by patients and support the arguments by Basch<sup><xref ref-type="bibr" rid="B30">30</xref></sup> that patients with metastatic cancer are willing to provide patient-reported outcome information during clinical trials<sup><xref ref-type="bibr" rid="B30">30</xref></sup>.</p>
+		</sec>
+		<sec sec-type="conclusions">
+			<title>CONCLUSION</title>
+			<p>The phase III MONALEESA-7 trial productivity results applied to the Brazilian premenopausal prevalent cases showed that treatment with ribociclib + endocrine therapy improves workforce participation compared with endocrine therapy alone in premenopausal women with HR+/HER2- metastatic breast cancer. Besides significantly prolonging the life of premenopausal patients with advanced breast cancer, improving their quality of life, workforce retention due to ribociclib yields economic productivity gains to society, thus supporting its use combined with endocrine therapy for premenopausal women with HR+/HER2- metastatic breast disease.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>REFERENCES</title>
+			<ref id="B1">
+				<label>1</label>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ferlay</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Ervik</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Lam</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Colombet</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Mery</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Piñeros</surname>
+							<given-names>M</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<source>Global Cancer Observatory: cancer today</source>
+					<publisher-loc>Lyon (FR)</publisher-loc>
+					<publisher-name>International Agency for Research on Cancer</publisher-name>
+					<year>2020</year>
+					<date-in-citation content-type="access-date">cited 2021 Dec 13</date-in-citation>
+					<comment>Available from: <ext-link ext-link-type="uri" xlink:href="https://gco.iarc.fr/today">https://gco.iarc.fr/today</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>1 Ferlay J, Ervik M, Lam F, Colombet M, Mery L, Piñeros M, et al. Global Cancer Observatory: cancer today. Lyon (FR): International Agency for Research on Cancer; 2020 [cited 2021 Dec 13]. Available from: <ext-link ext-link-type="uri" xlink:href="https://gco.iarc.fr/today">https://gco.iarc.fr/today</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Waks</surname>
+							<given-names>AG</given-names>
+						</name>
+						<name>
+							<surname>Winer</surname>
+							<given-names>EP</given-names>
+						</name>
+					</person-group>
+					<article-title>Breast cancer treatment: a review</article-title>
+					<source>JAMA</source>
+					<year>2019</year>
+					<volume>321</volume>
+					<issue>3</issue>
+					<fpage>288</fpage>
+					<lpage>300</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1001/jama.2018.19323">https://doi.org/10.1001/jama.2018.19323</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>2 Waks AG, Winer EP. Breast cancer treatment: a review. JAMA. 2019;321(3):288-300. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1001/jama.2018.19323">https://doi.org/10.1001/jama.2018.19323</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>DeSantis</surname>
+							<given-names>CE</given-names>
+						</name>
+						<name>
+							<surname>Bray</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Ferlay</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Lortet-Tieulent</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Anderson</surname>
+							<given-names>BO</given-names>
+						</name>
+						<name>
+							<surname>Jemal</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>International variation in female breast cancer incidence and mortality rates</article-title>
+					<source>Cancer Epidemiol Biomarkers Prev</source>
+					<year>2015</year>
+					<volume>24</volume>
+					<issue>10</issue>
+					<fpage>1495</fpage>
+					<lpage>1506</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1158/1055-9965.EPI-15-0535">https://doi.org/10.1158/1055-9965.EPI-15-0535</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>3 DeSantis CE, Bray F, Ferlay J, Lortet-Tieulent J, Anderson BO, Jemal A. International variation in female breast cancer incidence and mortality rates. Cancer Epidemiol Biomarkers Prev. 2015;24(10):1495-506. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1158/1055-9965.EPI-15-0535">https://doi.org/10.1158/1055-9965.EPI-15-0535</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>O’Shaughnessy</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>Extending survival with chemotherapy in metastatic breast cancer</article-title>
+					<source>Oncologist</source>
+					<year>2005</year>
+					<volume>10</volume>
+					<supplement>Suppl 3</supplement>
+					<fpage>20</fpage>
+					<lpage>29</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1634/theoncologist.10-90003-20">https://doi.org/10.1634/theoncologist.10-90003-20</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>4 O’Shaughnessy J. Extending survival with chemotherapy in metastatic breast cancer. Oncologist. 2005;10 Suppl 3:20-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1634/theoncologist.10-90003-20">https://doi.org/10.1634/theoncologist.10-90003-20</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Axelrod</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Smith</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Kornreich</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Grinstead</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Singh</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Cangiarella</surname>
+							<given-names>J</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Breast cancer in young women</article-title>
+					<source>J Am Coll Surg</source>
+					<year>2008</year>
+					<volume>206</volume>
+					<issue>6</issue>
+					<fpage>1193</fpage>
+					<lpage>1203</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jamcollsurg.2007.12.026">https://doi.org/10.1016/j.jamcollsurg.2007.12.026</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>5 Axelrod D, Smith J, Kornreich D, Grinstead E, Singh B, Cangiarella J, et al. Breast cancer in young women. J Am Coll Surg. 2008;206(6):1193-203. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jamcollsurg.2007.12.026">https://doi.org/10.1016/j.jamcollsurg.2007.12.026</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Partridge</surname>
+							<given-names>AH</given-names>
+						</name>
+						<name>
+							<surname>Hughes</surname>
+							<given-names>ME</given-names>
+						</name>
+						<name>
+							<surname>Warner</surname>
+							<given-names>ET</given-names>
+						</name>
+						<name>
+							<surname>Ottesen</surname>
+							<given-names>RA</given-names>
+						</name>
+						<name>
+							<surname>Wong</surname>
+							<given-names>YN</given-names>
+						</name>
+						<name>
+							<surname>Edge</surname>
+							<given-names>SB</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Subtype-dependent relationship between young age at diagnosis and breast cancer survival</article-title>
+					<source>J Clin Oncol</source>
+					<year>2016</year>
+					<volume>34</volume>
+					<issue>27</issue>
+					<fpage>3308</fpage>
+					<lpage>3314</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1200/JCO.2015.65.8013">https://doi.org/10.1200/JCO.2015.65.8013</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>6 Partridge AH, Hughes ME, Warner ET, Ottesen RA, Wong YN, Edge SB, et al. Subtype-dependent relationship between young age at diagnosis and breast cancer survival. J Clin Oncol. 2016;34(27):3308-14. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1200/JCO.2015.65.8013">https://doi.org/10.1200/JCO.2015.65.8013</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Yin</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Horblyuk</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Perkins</surname>
+							<given-names>JJ</given-names>
+						</name>
+						<name>
+							<surname>Sison</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Smith</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Snider</surname>
+							<given-names>JT</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Association between breast cancer disease progression and workplace productivity in the United States</article-title>
+					<source>J Occup Environ Med</source>
+					<year>2017</year>
+					<volume>59</volume>
+					<issue>2</issue>
+					<fpage>198</fpage>
+					<lpage>204</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/JOM.0000000000000936">https://doi.org/10.1097/JOM.0000000000000936</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>7 Yin W, Horblyuk R, Perkins JJ, Sison S, Smith G, Snider JT, et al. Association between breast cancer disease progression and workplace productivity in the United States. J Occup Environ Med. 2017;59(2):198-204. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/JOM.0000000000000936">https://doi.org/10.1097/JOM.0000000000000936</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Reyes</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Engel-Nitz</surname>
+							<given-names>NM</given-names>
+						</name>
+						<name>
+							<surname>DaCosta Byfield</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Ravelo</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Ogale</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Bancroft</surname>
+							<given-names>T</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Cost of disease progression in patients with metastatic breast, lung, and colorectal cancer</article-title>
+					<source>Oncologist</source>
+					<year>2019</year>
+					<volume>24</volume>
+					<issue>9</issue>
+					<fpage>1209</fpage>
+					<lpage>1218</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1634/theoncologist.2018-0018">https://doi.org/10.1634/theoncologist.2018-0018</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>8 Reyes C, Engel-Nitz NM, DaCosta Byfield S, Ravelo A, Ogale S, Bancroft T, et al. Cost of disease progression in patients with metastatic breast, lung, and colorectal cancer. Oncologist. 2019;24(9):1209-18. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1634/theoncologist.2018-0018">https://doi.org/10.1634/theoncologist.2018-0018</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Dunn</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Steginga</surname>
+							<given-names>SK</given-names>
+						</name>
+					</person-group>
+					<article-title>Young women's experience of breast cancer: defining young and identifying concerns</article-title>
+					<source>Psychooncology</source>
+					<year>2000</year>
+					<volume>9</volume>
+					<issue>2</issue>
+					<fpage>137</fpage>
+					<lpage>146</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/(sici)1099-1611(200003/04)9:2&lt;137::aid-pon442&gt;3.0.co;2-0">https://doi.org/10.1002/(sici)1099-1611(200003/04)9:2&lt;137::aid-pon442&gt;3.0.co;2-0</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>9 Dunn J, Steginga SK. Young women's experience of breast cancer: defining young and identifying concerns. Psychooncology. 2000;9(2):137-46. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/(sici)1099-1611(200003/04)9:2&lt;137::aid-pon442&gt;3.0.co;2-0">https://doi.org/10.1002/(sici)1099-1611(200003/04)9:2&lt;137::aid-pon442&gt;3.0.co;2-0</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Mor</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Malin</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Allen</surname>
+							<given-names>S</given-names>
+						</name>
+					</person-group>
+					<article-title>Age differences in the psychosocial problems encountered by breast cancer patients</article-title>
+					<source>J Natl Cancer Inst Monogr</source>
+					<year>1994</year>
+					<volume>16</volume>
+					<fpage>191</fpage>
+					<lpage>197</lpage>
+				</element-citation>
+				<mixed-citation>10 Mor V, Malin M, Allen S. Age differences in the psychosocial problems encountered by breast cancer patients. J Natl Cancer Inst Monogr. 1994;16):191-7.</mixed-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Reinert</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Pellegrini</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Rol</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Werutsky</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Barrios</surname>
+							<given-names>CH</given-names>
+						</name>
+					</person-group>
+					<article-title>Estimation of the number of Brazilian women living with metastatic breast cancer</article-title>
+					<source>JCO Glob Oncol</source>
+					<year>2020</year>
+					<volume>6</volume>
+					<fpage>307</fpage>
+					<lpage>312</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1200/JGO.19.00404">https://doi.org/10.1200/JGO.19.00404</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>11 Reinert T, Pellegrini R, Rol R, Werutsky G, Barrios CH. Estimation of the number of Brazilian women living with metastatic breast cancer. JCO Glob Oncol. 2020;6:307-12. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1200/JGO.19.00404">https://doi.org/10.1200/JGO.19.00404</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pearce</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Sharp</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Hanly</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Barchuk</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Bray</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Cancela</surname>
+							<given-names>MC</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Productivity losses due to premature mortality from cancer in Brazil, Russia, India, China, and South Africa (BRICS): a population-based comparison</article-title>
+					<source>Cancer Epidemiol</source>
+					<year>2018</year>
+					<volume>53</volume>
+					<fpage>27</fpage>
+					<lpage>34</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.canep.2017.12.013">https://doi.org/10.1016/j.canep.2017.12.013</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>12 Pearce A, Sharp L, Hanly P, Barchuk A, Bray F, Cancela MC, et al. Productivity losses due to premature mortality from cancer in Brazil, Russia, India, China, and South Africa (BRICS): a population-based comparison. Cancer Epidemiol. 2018;53:27-34. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.canep.2017.12.013">https://doi.org/10.1016/j.canep.2017.12.013</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Alexandre</surname>
+							<given-names>RF</given-names>
+						</name>
+						<name>
+							<surname>Santana</surname>
+							<given-names>CF</given-names>
+						</name>
+						<name>
+							<surname>Squiassi</surname>
+							<given-names>HB</given-names>
+						</name>
+					</person-group>
+					<article-title>Social and economic impact of patients with metastatic breast cancer in Brazil</article-title>
+					<source>Value Health</source>
+					<year>2018</year>
+					<volume>21</volume>
+					<supplement>Suppl 1</supplement>
+					<fpage>S26</fpage>
+					<lpage>S26</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jval.2018.04.161">https://doi.org/10.1016/j.jval.2018.04.161</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>13 Alexandre RF, Santana CF, Squiassi HB. Social and economic impact of patients with metastatic breast cancer in Brazil. Value Health. 2018;21 Suppl 1:S26. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jval.2018.04.161">https://doi.org/10.1016/j.jval.2018.04.161</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kwapisz</surname>
+							<given-names>D</given-names>
+						</name>
+					</person-group>
+					<article-title>Cyclin-dependent kinase 4/6 inhibitors in breast cancer: palbociclib, ribociclib, and abemaciclib</article-title>
+					<source>Breast Cancer Res Treat</source>
+					<year>2017</year>
+					<volume>166</volume>
+					<issue>1</issue>
+					<fpage>41</fpage>
+					<lpage>54</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s10549-017-4385-3">https://doi.org/10.1007/s10549-017-4385-3</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>14 Kwapisz D. Cyclin-dependent kinase 4/6 inhibitors in breast cancer: palbociclib, ribociclib, and abemaciclib. Breast Cancer Res Treat. 2017;166(1):41-54. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s10549-017-4385-3">https://doi.org/10.1007/s10549-017-4385-3</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Slamon</surname>
+							<given-names>DJ</given-names>
+						</name>
+						<name>
+							<surname>Neven</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Chia</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Fasching</surname>
+							<given-names>PA</given-names>
+						</name>
+						<name>
+							<surname>De Laurentiis</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Im</surname>
+							<given-names>SA</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Phase III randomized study of ribociclib and fulvestrant in hormone receptor-positive, human epidermal growth factor receptor 2-negative advanced breast cancer: MONALEESA-3</article-title>
+					<source>J Clin Oncol</source>
+					<year>2018</year>
+					<volume>36</volume>
+					<issue>24</issue>
+					<fpage>2465</fpage>
+					<lpage>2472</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1200/JCO.2018.78.9909">https://doi.org/10.1200/JCO.2018.78.9909</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>15 Slamon DJ, Neven P, Chia S, Fasching PA, De Laurentiis M, Im SA, et al. Phase III randomized study of ribociclib and fulvestrant in hormone receptor-positive, human epidermal growth factor receptor 2-negative advanced breast cancer: MONALEESA-3. J Clin Oncol. 2018;36(24):2465-72. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1200/JCO.2018.78.9909">https://doi.org/10.1200/JCO.2018.78.9909</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Slamon</surname>
+							<given-names>DJ</given-names>
+						</name>
+						<name>
+							<surname>Neven</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Chia</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Fasching</surname>
+							<given-names>PA</given-names>
+						</name>
+						<name>
+							<surname>De Laurentiis</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Im</surname>
+							<given-names>SA</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Overall survival with ribociclib plus fulvestrant in advanced breast cancer</article-title>
+					<source>N Engl J Med</source>
+					<year>2020</year>
+					<volume>382</volume>
+					<issue>6</issue>
+					<fpage>514</fpage>
+					<lpage>524</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1056/NEJMoa1911149">https://doi.org/10.1056/NEJMoa1911149</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>16 Slamon DJ, Neven P, Chia S, Fasching PA, De Laurentiis M, Im SA, et al. Overall survival with ribociclib plus fulvestrant in advanced breast cancer. N Engl J Med. 2020;382(6):514-24. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1056/NEJMoa1911149">https://doi.org/10.1056/NEJMoa1911149</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Im</surname>
+							<given-names>SA</given-names>
+						</name>
+						<name>
+							<surname>Lu</surname>
+							<given-names>YS</given-names>
+						</name>
+						<name>
+							<surname>Bardia</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Harbeck</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Colleoni</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Franke</surname>
+							<given-names>F</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Overall survival with ribociclib plus endocrine therapy in breast cancer</article-title>
+					<source>N Engl J Med</source>
+					<year>2019</year>
+					<volume>381</volume>
+					<issue>4</issue>
+					<fpage>307</fpage>
+					<lpage>316</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1056/NEJMoa1903765">https://doi.org/10.1056/NEJMoa1903765</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>17 Im SA, Lu YS, Bardia A, Harbeck N, Colleoni M, Franke F, et al. Overall survival with ribociclib plus endocrine therapy in breast cancer. N Engl J Med. 2019;381(4):307-16. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1056/NEJMoa1903765">https://doi.org/10.1056/NEJMoa1903765</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Tripathy</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Im</surname>
+							<given-names>SA</given-names>
+						</name>
+						<name>
+							<surname>Colleoni</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Franke</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Bardia</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Harbeck</surname>
+							<given-names>N</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Ribociclib plus endocrine therapy for premenopausal women with hormone-receptor-positive, advanced breast cancer (MONALEESA-7): a randomised phase 3 trial</article-title>
+					<source>Lancet Oncol</source>
+					<year>2018</year>
+					<volume>19</volume>
+					<issue>7</issue>
+					<fpage>904</fpage>
+					<lpage>915</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S1470-2045(18)30292-4">https://doi.org/10.1016/S1470-2045(18)30292-4</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>18 Tripathy D, Im SA, Colleoni M, Franke F, Bardia A, Harbeck N, et al. Ribociclib plus endocrine therapy for premenopausal women with hormone-receptor-positive, advanced breast cancer (MONALEESA-7): a randomised phase 3 trial. Lancet Oncol. 2018;19(7):904-15. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S1470-2045(18)30292-4">https://doi.org/10.1016/S1470-2045(18)30292-4</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Reinert</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Pellegrini</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Barrios</surname>
+							<given-names>CH</given-names>
+						</name>
+					</person-group>
+					<article-title>Lack of access to CDK4/6 inhibitors for premenopausal patients with metastatic breast cancer in Brazil: estimation of the number of premature deaths</article-title>
+					<source>Ecancermedicalscience</source>
+					<year>2020</year>
+					<volume>14</volume>
+					<fpage>1081</fpage>
+					<lpage>1081</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3332/ecancer.2020.1081">https://doi.org/10.3332/ecancer.2020.1081</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>19 Reinert T, Pellegrini R, Barrios CH. Lack of access to CDK4/6 inhibitors for premenopausal patients with metastatic breast cancer in Brazil: estimation of the number of premature deaths. Ecancermedicalscience. 2020;14:1081. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3332/ecancer.2020.1081">https://doi.org/10.3332/ecancer.2020.1081</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<element-citation publication-type="book">
+					<person-group person-group-type="editor">
+						<name>
+							<surname>Neumann</surname>
+							<given-names>PJ</given-names>
+						</name>
+						<name>
+							<surname>Ganiats</surname>
+							<given-names>TG</given-names>
+						</name>
+						<name>
+							<surname>Russell</surname>
+							<given-names>LB</given-names>
+						</name>
+						<name>
+							<surname>Sanders</surname>
+							<given-names>GD</given-names>
+						</name>
+						<name>
+							<surname>Siegel</surname>
+							<given-names>JE</given-names>
+						</name>
+					</person-group>
+					<source>Cost-effectiveness in health and medicine</source>
+					<edition>2. ed.</edition>
+					<publisher-loc>New York</publisher-loc>
+					<publisher-name>Oxford University Press</publisher-name>
+					<year>2016</year>
+				</element-citation>
+				<mixed-citation>20 Neumann PJ, Ganiats TG, Russell LB, Sanders GD, Siegel JE, editors. Cost-effectiveness in health and medicine. 2. ed. New York: Oxford University Press; 2016.</mixed-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Reilly</surname>
+							<given-names>MC</given-names>
+						</name>
+						<name>
+							<surname>Zbrozek</surname>
+							<given-names>AS</given-names>
+						</name>
+						<name>
+							<surname>Dukes</surname>
+							<given-names>EM</given-names>
+						</name>
+					</person-group>
+					<article-title>The validity and reproducibility of a work productivity and activity impairment instrument</article-title>
+					<source>Pharmacoeconomics</source>
+					<year>1993</year>
+					<volume>4</volume>
+					<issue>5</issue>
+					<fpage>353</fpage>
+					<lpage>365</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2165/00019053-199304050-00006">https://doi.org/10.2165/00019053-199304050-00006</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>21 Reilly MC, Zbrozek AS, Dukes EM. The validity and reproducibility of a work productivity and activity impairment instrument. Pharmacoeconomics. 1993;4(5):353-65. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2165/00019053-199304050-00006">https://doi.org/10.2165/00019053-199304050-00006</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Banco Central do Brasil</collab>
+					</person-group>
+					<source>Conversor de moedas</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<publisher-name>BCB</publisher-name>
+					<year>2020</year>
+					<date-in-citation content-type="access-date">cited 2021 Apr 16</date-in-citation>
+					<comment>Available from: <ext-link ext-link-type="uri" xlink:href="https://www.bcb.gov.br/conversao23">https://www.bcb.gov.br/conversao23</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>22 Banco Central do Brasil. Conversor de moedas. Brasília, DF: BCB; 2020[cited 2021 Apr 16]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.bcb.gov.br/conversao23">https://www.bcb.gov.br/conversao23</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Instituto Brasileiro de Geografia e Estatística</collab>
+					</person-group>
+					<source>Sistema de Recuperação Automática (SIDRA)</source>
+					<publisher-loc>Rio de Janeiro (BR)</publisher-loc>
+					<publisher-name>IBGE</publisher-name>
+					<year>2020</year>
+					<date-in-citation content-type="access-date">cited 2021 Apr 16</date-in-citation>
+					<comment>Available from: <ext-link ext-link-type="uri" xlink:href="https://sidra.ibge.gov.br/pesquisa/pnadcm/tabelas">https://sidra.ibge.gov.br/pesquisa/pnadcm/tabelas</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>23 Instituto Brasileiro de Geografia e Estatística. Sistema de Recuperação Automática (SIDRA). Rio de Janeiro (BR): IBGE; 2020 [cited 2021 Apr 16]. Available from: <ext-link ext-link-type="uri" xlink:href="https://sidra.ibge.gov.br/pesquisa/pnadcm/tabelas">https://sidra.ibge.gov.br/pesquisa/pnadcm/tabelas</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Wan</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Gao</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Mehta</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>Z</given-names>
+						</name>
+						<name>
+							<surname>Faria</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Schwartzberg</surname>
+							<given-names>L</given-names>
+						</name>
+					</person-group>
+					<article-title>Indirect costs associated with metastatic breast cancer</article-title>
+					<source>J Med Econ</source>
+					<year>2013</year>
+					<volume>16</volume>
+					<issue>10</issue>
+					<fpage>1169</fpage>
+					<lpage>1178</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3111/13696998.2013.826228">https://doi.org/10.3111/13696998.2013.826228</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>24 Wan Y, Gao X, Mehta S, Wang Z, Faria C, Schwartzberg L. Indirect costs associated with metastatic breast cancer. J Med Econ. 2013;16(10):1169-78. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3111/13696998.2013.826228">https://doi.org/10.3111/13696998.2013.826228</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ekwueme</surname>
+							<given-names>DU</given-names>
+						</name>
+						<name>
+							<surname>Trogdon</surname>
+							<given-names>JG</given-names>
+						</name>
+						<name>
+							<surname>Khavjou</surname>
+							<given-names>OA</given-names>
+						</name>
+						<name>
+							<surname>Guy</surname>
+							<given-names>GP</given-names>
+							<suffix>Jr.</suffix>
+						</name>
+					</person-group>
+					<article-title>Productivity costs associated with breast cancer among survivors aged 18-44 years</article-title>
+					<source>Am J Prev Med</source>
+					<year>2016</year>
+					<volume>50</volume>
+					<issue>2</issue>
+					<fpage>286</fpage>
+					<lpage>294</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.amepre.2015.10.006">https://doi.org/10.1016/j.amepre.2015.10.006</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>25 Ekwueme DU, Trogdon JG, Khavjou OA, Guy GP Jr. Productivity costs associated with breast cancer among survivors aged 18-44 years. Am J Prev Med. 2016;50(2):286-94. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.amepre.2015.10.006">https://doi.org/10.1016/j.amepre.2015.10.006</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Curteis</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Chandiwana</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Pathak</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Lanoue</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Buehler</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Pencheva</surname>
+							<given-names>R</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Analysis of societal costs due to work productivity loss and activity impairment from the Monaleesa-7 trial of ribociclib + endocrine therapy (ET) in premenopausal women with HR+/HER2– advanced breast cancer (ABC) in Brazil</article-title>
+					<source>Value Health</source>
+					<year>2021</year>
+					<volume>24</volume>
+					<supplement>Suppl 1</supplement>
+					<fpage>S27</fpage>
+					<lpage>S27</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jval.2021.04.137">https://doi.org/10.1016/j.jval.2021.04.137</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>26 Curteis T, Chandiwana D, Pathak P, Lanoue B, Buehler A, Pencheva R, et al. Analysis of societal costs due to work productivity loss and activity impairment from the Monaleesa-7 trial of ribociclib + endocrine therapy (ET) in premenopausal women with HR+/HER2– advanced breast cancer (ABC) in Brazil. Value Health. 2021;24 Suppl 1:S27. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jval.2021.04.137">https://doi.org/10.1016/j.jval.2021.04.137</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hortobagyi</surname>
+							<given-names>GN</given-names>
+						</name>
+						<name>
+							<surname>Stemmer</surname>
+							<given-names>SM</given-names>
+						</name>
+						<name>
+							<surname>Burris</surname>
+							<given-names>HA</given-names>
+						</name>
+						<name>
+							<surname>Yap</surname>
+							<given-names>YS</given-names>
+						</name>
+						<name>
+							<surname>Sonke</surname>
+							<given-names>GS</given-names>
+						</name>
+						<name>
+							<surname>Paluch-Shimon</surname>
+							<given-names>S</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Updated results from MONALEESA-2, a phase III trial of first-line ribociclib plus letrozole versus placebo plus letrozole in hormone receptor-positive, HER2-negative advanced breast cancer</article-title>
+					<source>Ann Oncol</source>
+					<year>2018</year>
+					<volume>29</volume>
+					<issue>7</issue>
+					<fpage>1541</fpage>
+					<lpage>1547</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/annonc/mdy155">https://doi.org/10.1093/annonc/mdy155</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>27 Hortobagyi GN, Stemmer SM, Burris HA, Yap YS, Sonke GS, Paluch-Shimon S, et al. Updated results from MONALEESA-2, a phase III trial of first-line ribociclib plus letrozole versus placebo plus letrozole in hormone receptor-positive, HER2-negative advanced breast cancer. Ann Oncol. 2018;29(7):1541-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/annonc/mdy155">https://doi.org/10.1093/annonc/mdy155</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Harbeck</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Franke</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Villanueva-Vazquez</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Lu</surname>
+							<given-names>YS</given-names>
+						</name>
+						<name>
+							<surname>Tripathy</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Chow</surname>
+							<given-names>L</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Health-related quality of life in premenopausal women with hormone-receptor-positive, HER2-negative advanced breast cancer treated with ribociclib plus endocrine therapy: results from a phase III randomized clinical trial (MONALEESA-7)</article-title>
+					<source>Ther Adv Med Oncol</source>
+					<year>2020</year>
+					<volume>12</volume>
+					<comment>1758835920943065. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/1758835920943065">https://doi.org/10.1177/1758835920943065</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>28 Harbeck N, Franke F, Villanueva-Vazquez R, Lu YS, Tripathy D, Chow L, et al. Health-related quality of life in premenopausal women with hormone-receptor-positive, HER2-negative advanced breast cancer treated with ribociclib plus endocrine therapy: results from a phase III randomized clinical trial (MONALEESA-7). Ther Adv Med Oncol. 2020;12:1758835920943065. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/1758835920943065">https://doi.org/10.1177/1758835920943065</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B29">
+				<label>29</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cardoso</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Paluch-Shimon</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Senkus</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Curigliano</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Aapro</surname>
+							<given-names>MS</given-names>
+						</name>
+						<name>
+							<surname>Andre</surname>
+							<given-names>F</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>5th ESO-ESMO international consensus guidelines for advanced breast cancer (ABC 5)</article-title>
+					<source>Ann Oncol</source>
+					<year>2020</year>
+					<volume>31</volume>
+					<issue>12</issue>
+					<fpage>1623</fpage>
+					<lpage>1649</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.annonc.2020.09.010">https://doi.org/10.1016/j.annonc.2020.09.010</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>29 Cardoso F, Paluch-Shimon S, Senkus E, Curigliano G, Aapro MS, Andre F, et al. 5th ESO-ESMO international consensus guidelines for advanced breast cancer (ABC 5). Ann Oncol. 2020;31(12):1623-49. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.annonc.2020.09.010">https://doi.org/10.1016/j.annonc.2020.09.010</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B30">
+				<label>30</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Basch</surname>
+							<given-names>E</given-names>
+						</name>
+					</person-group>
+					<article-title>High compliance rates with patient-reported outcomes in oncology trials submitted to the US Food and Drug Administration</article-title>
+					<source>J Natl Cancer Inst</source>
+					<year>2019</year>
+					<volume>111</volume>
+					<issue>5</issue>
+					<fpage>437</fpage>
+					<lpage>439</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/jnci/djy183">https://doi.org/10.1093/jnci/djy183</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>30 Basch E. High compliance rates with patient-reported outcomes in oncology trials submitted to the US Food and Drug Administration. J Natl Cancer Inst. 2019;111(5):437-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/jnci/djy183">https://doi.org/10.1093/jnci/djy183</ext-link>
+				</mixed-citation>
+			</ref>
+		</ref-list>
+	</back>
+</article>

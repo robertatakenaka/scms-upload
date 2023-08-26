@@ -1,0 +1,1822 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.1" specific-use="sps-1.9" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="nlm-ta">Rev Saude Publica</journal-id>
+			<journal-id journal-id-type="publisher-id">rsp</journal-id>
+			<journal-title-group>
+				<journal-title>Revista de Saúde Pública</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Rev. Saúde Pública</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="ppub">0034-8910</issn>
+			<issn pub-type="epub">1518-8787</issn>
+			<publisher>
+				<publisher-name>Faculdade de Saúde Pública da Universidade de São Paulo</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="other">00284</article-id>
+			<article-id pub-id-type="doi">10.11606/s1518-8787.2022056004064</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Original Article</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Birth weight is related with bone mineral content in adulthood: results of ELSA-Brasil</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-3365-9552</contrib-id>
+					<name>
+						<surname>Tavares</surname>
+						<given-names>Nayranne Hivina Carvalho</given-names>
+					</name>
+					<role>Study design and planning</role>
+					<role>Data collection</role>
+					<role>analysis and interpretation</role>
+					<role>Manuscript drafting or review</role>
+					<role>Approval of the final version</role>
+					<role>Public responsibility for the content of the article</role>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-7294-3724</contrib-id>
+					<name>
+						<surname>Coelho</surname>
+						<given-names>Carolina Gomes</given-names>
+					</name>
+					<role>Study design and planning</role>
+					<role>Data collection</role>
+					<role>analysis and interpretation</role>
+					<role>Manuscript drafting or review</role>
+					<role>Approval of the final version</role>
+					<role>Public responsibility for the content of the article</role>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-7383-7811</contrib-id>
+					<name>
+						<surname>Barreto</surname>
+						<given-names>Sandhi M.</given-names>
+					</name>
+					<role>Data collection</role>
+					<role>analysis and interpretation</role>
+					<role>Manuscript drafting or review</role>
+					<role>Approval of the final version</role>
+					<role>Public responsibility for the content of the article</role>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+					<xref ref-type="corresp" rid="c1"/>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-5454-2460</contrib-id>
+					<name>
+						<surname>Giatti</surname>
+						<given-names>Luana</given-names>
+					</name>
+					<role>Data collection</role>
+					<role>analysis and interpretation</role>
+					<role>Manuscript drafting or review</role>
+					<role>Approval of the final version</role>
+					<role>Public responsibility for the content of the article</role>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-6695-0365</contrib-id>
+					<name>
+						<surname>Araújo</surname>
+						<given-names>Larissa Fortunato</given-names>
+					</name>
+					<role>Study design and planning</role>
+					<role>Data collection</role>
+					<role>analysis and interpretation</role>
+					<role>Manuscript drafting or review</role>
+					<role>Approval of the final version</role>
+					<role>Public responsibility for the content of the article</role>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<aff id="aff1">
+					<label>I</label>
+					<institution content-type="orgname">Universidade Federal do Ceará</institution>
+					<institution content-type="orgdiv1">Faculdade de Medicina</institution>
+					<institution content-type="orgdiv2">Programa de Pós-Graduação em Saúde Pública</institution>
+					<addr-line>
+						<named-content content-type="city">Fortaleza</named-content>
+						<named-content content-type="state">CE</named-content>
+					</addr-line>
+					<country country="BR">Brasil</country>
+					<institution content-type="original">Universidade Federal do Ceará. Faculdade de Medicina. Programa de Pós-Graduação em Saúde Pública. Fortaleza, CE, Brasil</institution>
+				</aff>
+				<aff id="aff2">
+					<label>II</label>
+					<institution content-type="orgname">Universidade Federal de Minas Gerais</institution>
+					<institution content-type="orgdiv1">Faculdade de Medicina</institution>
+					<institution content-type="orgdiv2">Departamento de Medicina Preventiva e Social</institution>
+					<addr-line>
+						<named-content content-type="city">Belo Horizonte</named-content>
+						<named-content content-type="state">MG</named-content>
+					</addr-line>
+					<country country="BR">Brasil</country>
+					<institution content-type="original">Universidade Federal de Minas Gerais. Faculdade de Medicina. Departamento de Medicina Preventiva e Social. Belo Horizonte, MG, Brasil</institution>
+				</aff>
+			</contrib-group>
+			<author-notes>
+				<corresp id="c1"><bold>Correspondence:</bold> Sandhi M. Barreto, Av. Antônio Carlos, 6.627 - Pampulha Reitoria - 2° andar <postal-code>31270-901</postal-code> Belo Horizonte, MG, Brasil, E-mail: <email>sandhi.barreto@gmail.com</email>
+				</corresp>
+				<fn fn-type="conflict">
+					<p><bold>Conflict of Interest:</bold> The authors declare no conflict of interest.</p>
+				</fn>
+			</author-notes>
+			<pub-date date-type="pub" publication-format="electronic">
+				<day>09</day>
+				<month>12</month>
+				<year>2022</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">
+				<year>2022</year>
+			</pub-date>
+			<volume>56</volume>
+			<elocation-id>103</elocation-id>
+			<history>
+				<date date-type="received">
+					<day>15</day>
+					<month>07</month>
+					<year>2021</year>
+				</date>
+				<date date-type="accepted">
+					<day>11</day>
+					<month>01</month>
+					<year>2022</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="en">
+					<license-p>This is an Open Access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>ABSTRACT</title>
+				<sec>
+					<title>OBJECTIVE</title>
+					<p>To investigate the association between birth weight and bone mineral content (BMC), and whether this relationship differs between men and women.</p>
+				</sec>
+				<sec>
+					<title>METHODS</title>
+					<p>A total of 10,159 participants from the ELSA-Brasil cohort were eligible for this analysis. The outcome was the z-score of the ratio BMC (kg)/height (m). The exposure was the low birth weight (&lt; 2.5kg). The magnitude of the associations was estimated by mean differences and their respective 95% confidence intervals (95%CI) using linear regression. All analyses were presented for the total population and stratified by sex.</p>
+				</sec>
+				<sec>
+					<title>RESULTS</title>
+					<p>Most were women (54.98%), and the mean age was 52.72 years (SD ± 6.6). In the crude model, we observed that low birth weight was associated with a lower mean BMC/height z-score, compared to adequate birth weight (mean difference: −0.30; 95%CI: −0.39 to −0.21), and this effect was stronger in men (mean difference: −0.43; 95%CI: −0.56 to −0.30) than in women (mean difference: −0.31; 95%CI: −0.44 to −0.19). After adjusting for age, sex per total population, race/skin color, maternal education, individual education, and current weight, there was a considerable reduction in the magnitude of the association (total population: −0.10; 95%CI: −0.14 to −0.06; men: −0.13; 95%CI: −0.21 to −0.06; women: −0.13; 95%CI: −0.21 to −0.05).</p>
+				</sec>
+				<sec>
+					<title>CONCLUSION</title>
+					<p>Low birth weight is related to BMC/height z-score in both sexes with no indication of differences by sex. The magnitude of the associations was attenuated after adjustment for the current weight.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="en">
+				<title>DESCRIPTORS</title>
+				<kwd>Bone Density</kwd>
+				<kwd>Birth Weight</kwd>
+				<kwd>Embryonic and Fetal Development</kwd>
+				<kwd>Sex Distribution</kwd>
+			</kwd-group>
+			<funding-group>
+				<award-group>
+					<funding-source>Brazilian Ministry of Health (Department of Science and Technology) and the Brazilian Ministry of Science, Technology and Innovation, FINEP, Conselho Nacional de Desenvolvimento Científico e Tecnológico</funding-source>
+					<award-id>01 06 0010.00 RS</award-id>
+					<award-id>01 06 0212.00 BA</award-id>
+					<award-id>01 06 0300.00 ES</award-id>
+					<award-id>01 06 0278.00 MG</award-id>
+					<award-id>01 06 0115.00 SP</award-id>
+					<award-id>01 06 0071.00 RJ</award-id>
+				</award-group>
+				<award-group>
+					<funding-source>Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Brasil</funding-source>
+					<award-id>001</award-id>
+				</award-group>
+				<funding-statement>Brazilian Ministry of Health (Department of Science and Technology) and the Brazilian Ministry of Science, Technology and Innovation (<italic>Financiadora de Estudos e Projetos</italic>, FINEP; and <italic>Conselho Nacional de Desenvolvimento Científico e Tecnológico</italic>, CNPq), through grant [n. 01 06 0010.00 RS, 01 06 0212.00 BA, 01 06 0300.00 ES, 01 06 0278.00 MG, 01 06 0115.00 SP and 01 06 0071.00 RJ]. This study was financed in part by the <italic>Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Brasil</italic> (Capes - Finance Code 001).</funding-statement>
+			</funding-group>
+			<counts>
+				<fig-count count="0"/>
+				<table-count count="4"/>
+				<equation-count count="0"/>
+				<ref-count count="31"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>INTRODUCTION</title>
+			<p>Bone mineral content (BMC) is the amount of bone mass and when divided by bone size results in bone mineral density (BMD). Osteopenia, a decrease in BMD, may progress to osteoporosis (one of the main causes of morbidity and mortality in older adults, also affecting the health system with its high treatment costs) and is associated with a higher occurrence of bone fractures, pain, secondary complications, and decreased quality of life and life expectancy<sup><xref ref-type="bibr" rid="B1">1</xref></sup>.</p>
+			<p>Low birth weight (LBW), defined as birth weight lower than 2,500g<sup><xref ref-type="bibr" rid="B2">2</xref></sup>, is a marker of intrauterine growth and an important parameter used to assess the health conditions of newborns. Given its influence on various health outcomes, such as a higher incidence of chronic diseases in adulthood, LBW is a significant preventable public health problem<sup><xref ref-type="bibr" rid="B3">3</xref></sup>. In developed countries, LBW rates vary between 5% and 6%. In Brazil, a low middle-income country, 8.7% of newborns had low birth weight in 2019. High LBW rates is an indicator of low levels of socioeconomic development and maternal and child care<sup><xref ref-type="bibr" rid="B4">4</xref></sup>. Prematurity, intrauterine growth restriction (IUGR), or a combination of both are the leading causes of LBW<sup><xref ref-type="bibr" rid="B3">3</xref></sup>. Additionally, insufficient fetal nutrition, which can lead to IUGR, can cause permanent changes in metabolism and neuroendocrine development, influencing bone development<sup><xref ref-type="bibr" rid="B5">5</xref></sup>.</p>
+			<p>Thus, in addition to heredity, sex, and modifiable factors, such as diet, physical activity, and endocrine profile<sup><xref ref-type="bibr" rid="B6">6</xref></sup>, birth weight appears as an additional factor in this causal model. Shortage of nutrients in the uterus can lead to changes in the secretion of growth hormone (GH) and insulin-like growth factor 1 (IGF-I), which are critical factors in fetal growth and childhood development<sup><xref ref-type="bibr" rid="B5">5</xref>,<xref ref-type="bibr" rid="B6">6</xref></sup>. Despite previous evidence pointing out that LBW is related to bone health, predicting low BMC in childhood and adolescence<sup><xref ref-type="bibr" rid="B7">7</xref></sup>, and in adulthood<sup><xref ref-type="bibr" rid="B8">8</xref>–<xref ref-type="bibr" rid="B11">11</xref></sup>. This association is still conflicting, and the mechanism linking bisphosphonate (BPN) to bone mass is not yet fully elucidated.</p>
+			<p>In addition to GH and IGF-I, sexual steroids can influence the acquisition and loss of bone mass during puberty, differing between sexes<sup><xref ref-type="bibr" rid="B6">6</xref></sup>, explaining the lower loss of bone mass among aging men. Other factors, such as body size and composition and growth pattern throughout life<sup><xref ref-type="bibr" rid="B10">10</xref>,<xref ref-type="bibr" rid="B12">12</xref></sup>, also seem to explain differences in bone mass between men and women.</p>
+			<p>Previous studies have investigated the association between LBW and BMC in young adults<sup><xref ref-type="bibr" rid="B9">9</xref>–<xref ref-type="bibr" rid="B11">11</xref></sup> and in older adults<sup><xref ref-type="bibr" rid="B8">8</xref>,<xref ref-type="bibr" rid="B13">13</xref></sup>, but few were conducted in low and middle-income countries<sup><xref ref-type="bibr" rid="B9">9</xref></sup>, and few analyzed this association separately by sex<sup><xref ref-type="bibr" rid="B8">8</xref>,<xref ref-type="bibr" rid="B10">10</xref>,<xref ref-type="bibr" rid="B13">13</xref></sup>. Thus, in a multicenter study, we intend to investigate the association of low birth weight with BMC in young and middle-aged adults, regardless of sociodemographic factors and current weight, and to verify within the total population if this relationship differs between men and women.</p>
+		</sec>
+		<sec sec-type="methods">
+			<title>METHODS</title>
+			<sec>
+				<title>Study Population and Settings</title>
+				<p>This is a cross-sectional study using data from participants of the second wave of the Brazilian Longitudinal Study of Adult Health (ELSA-Brasil), conducted in 2012–2014. ELSA-Brasil is a multicenter cohort study of 15,105 active and retired civil servants, aged 35 to 74 years at baseline, from universities and research institutions located in six Brazilian municipalities: Belo Horizonte, Porto Alegre, Rio de Janeiro, São Paulo, Vitória, and Salvador<sup><xref ref-type="bibr" rid="B14">14</xref></sup>. In the second wave, complete follow-up information was available for 14,014 participants (203 deaths, 640 refusals, and 248 incomplete follow-up information). The ELSA-Brasil was approved by the Ethics and Research Committees of the six participating institutions, and all participants signed an informed consent form. Details of the study design and cohort characteristics have been described in previous publications<sup><xref ref-type="bibr" rid="B14">14</xref>,<xref ref-type="bibr" rid="B15">15</xref></sup>.</p>
+				<p>The exclusion criteria for the present analysis were participants aged 65 years or older (n = 2,469), with a body mass index (BMI) lower than 18.5kg/m² (n = 95), those who self-reported premature birth (n = 552), and with missing data for BMC (n = 739). Underweight older adults were also excluded since these conditions can naturally influence bone mass status, not necessarily reflecting the effect of LBW. There is a natural age-related bone loss that starts shortly after peak bone mass is reached. Furthermore, lower BMI values are also associated with a higher risk of osteopenia<sup><xref ref-type="bibr" rid="B16">16</xref></sup>. Although LBW may be due to prematurity, those who reported premature birth were excluded since this condition does not only affect birth weight, but it can also compromise growth development through other mechanisms unrelated to nutritional restrictions. Changes in the placental transfer of calcium, magnesium, and phosphorus to the newborn, which occurs in the last trimester of pregnancy, combined with living conditions outside the uterus make bone strengthening difficult, affecting bone mass by other mechanisms not considered in the analysis<sup><xref ref-type="bibr" rid="B17">17</xref></sup>. In the end, 10,159 participants were eligible for this analysis.</p>
+			</sec>
+			<sec>
+				<title>Outcome Variable</title>
+				<p>The outcome was measured by the z-score obtained from the ratio between bone mineral content in kilograms (kg) and current height (meters). The BMC was assessed by a vertical direct segmental tetrapolar multifrequency electrical bioimpedance device (InBody 230; BioSpace, Seoul, South Korea), and the BMC information was obtained by the Lookin’Body LBM.1.2.0.16 software version. The volunteers were instructed to fast for at least 4 hours, to previously empty the bladder, to refrain from strenuous exercise and alcohol 24 hours prior, and to not wear metal fittings during the test. The current height (meters) was measured using Seca<sup>®</sup> wall stadiometer (Hamburg, BRD), accurate to 1 mm, and affixed to the wall. The participant remained supine, barefoot, leaning their head, buttocks, and heels on the wall, staring on the horizontal plane. Their height was verified during the inspiratory period of the breathing cycle<sup><xref ref-type="bibr" rid="B18">18</xref>–<xref ref-type="bibr" rid="B20">20</xref></sup>.</p>
+			</sec>
+			<sec>
+				<title>Explanatory Variable of Interest</title>
+				<p>Birth weight was obtained through the question: “According to the information you have, what was your birth weight?” We asked participants to indicate their birth weight in categories: “less than 2.5 kg,” “2.5–4.0 kg,” “greater than 4.0 kg,” or “I don't know.” Individuals with a birth weight in the category “less than 2.5 kg” were classified as “low birth weight.”</p>
+			</sec>
+			<sec>
+				<title>Covariables</title>
+				<p>The following covariates were considered:</p>
+				<p><bold>Socioeconomic</bold> – age (continuous in years); educational level (University degree or more, secondary education, complete primary education, and incomplete primary education); maternal educational level (University degree or more, secondary education, complete primary education, incomplete primary education, or never attended school); and self-reported race/skin color (white, mixed, Black, Asian descent, and Indigenous).</p>
+				<p><bold>Anthropometric</bold> – current weight (kg) measurement performed with the participant barefoot, fasting, and wearing a standard uniform and underwear; gauged by a Toledo<sup>®</sup> Model 2096PP electronic scale, with a capacity of 200 Kg and a precision of 50g.</p>
+			</sec>
+			<sec>
+				<title>Statistical Analysis</title>
+				<p>Due to the high percentage (12.30%) of missing information on birth weight, we performed multiple imputations on birth weight by logistic regression. The following variables were used to estimate the missing birth weight data: gender, age, educational level, and maternal educational level. We assumed that missing information about birth weight was not due to any specific variable for which information was lost. Each missing information was imputed ten times, given its binary nature and the large amount of missing data set. Their final results were combined according to the rule of Rubin<sup><xref ref-type="bibr" rid="B21">21</xref></sup>. The birth weight was imputed for the participants with term birth, and the imputed variable was used only in the linear regression analyses.</p>
+				<p>All analyses were presented for the total population and stratified by sex. The characteristics of the study population were compared by sex using analysis of variance (Anova) for continuous variables with a normal distribution (mean and standard deviation-SD) and Pearson's chi-square test for categorical variables (frequencies). The means (SD) of BMC, height, and the ratio between BMC and height were compared by birth weight categories using Anova, with a 5% significance level.</p>
+				<p>Linear regression was used to investigate the association of low birth weight on the z-score of the ratio between BMC and height. Three models were constructed: initially, an unadjusted association was estimated (Model 1), then adjustments were incorporated by age, self-reported race/skin color, maternal and individual's educational attainment, and sex per total population (Model 2), and finally, adjustment were included for the current weight (Model 3). The magnitudes of these associations were estimated by the mean differences and their 95% confidence intervals (95%CI). Regression diagnostics were run to assess if the full models violate the assumptions for linear regression (i.e., normality of the error distribution, linearity, homoscedasticity) and if the outcome variable had normal distribution. To evaluate if those who do not have information of birth weight are different from those that have it, we performed an analysis of sensibility (<xref ref-type="table" rid="t1">Table 1</xref>). Analyzes were performed using Stata 13.0 (Stata Corporation, College Station, USA).</p>
+				<table-wrap id="t1">
+					<label>Table 1</label>
+					<caption>
+						<title>Socioeconomic characteristics and current body size of the study population, Longitudinal Adult Health Study (ELSA-Brasil).</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup width="19%">
+							<col width="1%"/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead style="border-top: thin solid; border-bottom: thin solid; border-color: #000000">
+							<tr style="background-color:#D4DBEC">
+								<th align="left" colspan="2" rowspan="2" valign="middle"/>
+								<th align="center" colspan="2" style="border-bottom: thin solid; border-color: #000000;" valign="middle">Total population</th>
+								<th align="center" colspan="2" style="border-bottom: thin solid; border-color: #000000;" valign="middle">Population without data missing</th>
+							</tr>
+							<tr style="background-color:#D4DBEC">
+								<th align="center" valign="middle">Men (n = 4,574)</th>
+								<th align="center" valign="middle">Women (n = 5,585)</th>
+								<th align="center" valign="middle">Men (n = 3,997)</th>
+								<th align="center" valign="middle">Women (n = 4,912)</th>
+							</tr>
+						</thead>
+						<tbody style="border-bottom: thin solid; border-color: #000000">
+							<tr>
+								<td align="left" colspan="2" valign="middle">Age<sup>a</sup></td>
+								<td align="center" valign="middle">52.5 (52.3–52.7)</td>
+								<td align="center" valign="middle">52.8 (52.7–53.06)</td>
+								<td align="center" valign="middle">52.2 (52.0–52.4)</td>
+								<td align="center" valign="middle">52.5 (52.4–52.7)</td>
+							</tr>
+							<tr style="background-color:#EEF0F7">
+								<td align="left" colspan="6" valign="middle">Self-reported race/skin color<xref ref-type="table-fn" rid="TFN3">b</xref>
+								</td>
+							</tr>
+							<tr>
+								<td align="left" valign="middle"/>
+								<td align="left" valign="middle">White</td>
+								<td align="center" valign="middle">51.1 (49.7–52.6)</td>
+								<td align="center" valign="middle">51.4 (50.1–52.7)</td>
+								<td align="center" valign="middle">52.6 (51.0–54.1)</td>
+								<td align="center" valign="middle">53.4 (52.0–54.8)</td>
+							</tr>
+							<tr style="background-color:#EEF0F7">
+								<td align="left" valign="middle"/>
+								<td align="left" valign="middle">Mixed race</td>
+								<td align="center" valign="middle">31.5 (30.2–32.9)</td>
+								<td align="center" valign="middle">27.2 (26.0–28.4)</td>
+								<td align="center" valign="middle">30.9 (29.4–32.3)</td>
+								<td align="center" valign="middle">26.0 (24.8–27.2)</td>
+							</tr>
+							<tr>
+								<td align="left" valign="middle"/>
+								<td align="left" valign="middle">Black</td>
+								<td align="center" valign="middle">14.3 (13.3–15.3)</td>
+								<td align="center" valign="middle">17.8 (16.8–18.8)</td>
+								<td align="center" valign="middle">13.8 (12.8–14.9)</td>
+								<td align="center" valign="middle">17.2 (16.2–18.3)</td>
+							</tr>
+							<tr style="background-color:#EEF0F7">
+								<td align="left" valign="middle"/>
+								<td align="left" valign="middle">Asian descent</td>
+								<td align="center" valign="middle">1.6 (1.3–2.0)</td>
+								<td align="center" valign="middle">2.6 (2.2–3.1)</td>
+								<td align="center" valign="middle">1.4 (1.1–1.8)</td>
+								<td align="center" valign="middle">2.5 (2.1–3.0)</td>
+							</tr>
+							<tr>
+								<td align="left" valign="middle"/>
+								<td align="left" valign="middle">Indigenous</td>
+								<td align="center" valign="middle">1.3 (1.0–1.6)</td>
+								<td align="center" valign="middle">0.7 (0.5–1.2)</td>
+								<td align="center" valign="middle">1.1 (0.8–1.5)</td>
+								<td align="center" valign="middle">0.6 (0.4–0.9)</td>
+							</tr>
+							<tr style="background-color:#EEF0F7">
+								<td align="left" colspan="6" valign="middle">Maternal educational level<xref ref-type="table-fn" rid="TFN3">b</xref>
+								</td>
+							</tr>
+							<tr>
+								<td align="left" valign="middle"/>
+								<td align="left" valign="middle">University degree or more</td>
+								<td align="center" valign="middle">7.4 (6.6–8.2)</td>
+								<td align="center" valign="middle">6.8 (6.1–7.5)</td>
+								<td align="center" valign="middle">7.8 (7.06–8.7)</td>
+								<td align="center" valign="middle">7.4 (6.7–8.2)</td>
+							</tr>
+							<tr>
+								<td align="left" valign="middle"/>
+								<td align="left" valign="middle">Secondary education</td>
+								<td align="center" valign="middle">18.5 (17.4–19.7)</td>
+								<td align="center" valign="middle">16.1 (15.2–17.1)</td>
+								<td align="center" valign="middle">19.1 (17.9–20.4)</td>
+								<td align="center" valign="middle">17.2 (16.2–18.3)</td>
+							</tr>
+							<tr style="background-color:#EEF0F7">
+								<td align="left" valign="middle"/>
+								<td align="left" valign="middle">Complete primary education</td>
+								<td align="center" valign="middle">19.3 (18.2–20.5)</td>
+								<td align="center" valign="middle">19.6 (18.6–20.7)</td>
+								<td align="center" valign="middle">19.9 (18.6–21.1)</td>
+								<td align="center" valign="middle">20.2 (19.0–21.3)</td>
+							</tr>
+							<tr style="background-color:#EEF0F7">
+								<td align="left" valign="middle"/>
+								<td align="left" valign="middle">Incomplete primary education</td>
+								<td align="center" valign="middle">41.5 (40.1–43.0)</td>
+								<td align="center" valign="middle">45.9 (44.5–47.2)</td>
+								<td align="center" valign="middle">41.5 (39.9–43.0)</td>
+								<td align="center" valign="middle">45.4 (44.0–46.9)</td>
+							</tr>
+							<tr>
+								<td align="left" valign="middle"/>
+								<td align="left" valign="middle">Never attended school</td>
+								<td align="center" valign="middle">13.0 (12.1–14.1)</td>
+								<td align="center" valign="middle">11.3 (10.5–12.2)</td>
+								<td align="center" valign="middle">11.5 (10.5–12.6)</td>
+								<td align="center" valign="middle">9.6 (8.8–10.4)</td>
+							</tr>
+							<tr style="background-color:#EEF0F7">
+								<td align="left" colspan="6" valign="middle">Educational level<xref ref-type="table-fn" rid="TFN3">b</xref>
+								</td>
+							</tr>
+							<tr>
+								<td align="left" valign="middle"/>
+								<td align="left" valign="middle">University degree or more</td>
+								<td align="center" valign="middle">53.4 (52.0–54.9)</td>
+								<td align="center" valign="middle">60.6 (59.3–61.9)</td>
+								<td align="center" valign="middle">55.1 (53.6–56.6)</td>
+								<td align="center" valign="middle">63.3 (61.9–64.6)</td>
+							</tr>
+							<tr style="background-color:#EEF0F7">
+								<td align="left" valign="middle"/>
+								<td align="left" valign="middle">Secondary education</td>
+								<td align="center" valign="middle">33.2 (31.8–34.6)</td>
+								<td align="center" valign="middle">32.9 (31.6–34.1)</td>
+								<td align="center" valign="middle">32.8 (31.3–34.2)</td>
+								<td align="center" valign="middle">31.4 (30.1–32.7)</td>
+							</tr>
+							<tr style="background-color:#EEF0F7">
+								<td align="left" valign="middle"/>
+								<td align="left" valign="middle">Complete primary education</td>
+								<td align="center" valign="middle">7.0 (6.3–7.8)</td>
+								<td align="center" valign="middle">4.1 (3.6–4.6)</td>
+								<td align="center" valign="middle">6.7 (6.0–7.6)</td>
+								<td align="center" valign="middle">3.6 (3.1–4.1)</td>
+							</tr>
+							<tr style="background-color:#EEF0F7">
+								<td align="left" valign="middle"/>
+								<td align="left" valign="middle">Incomplete primary education</td>
+								<td align="center" valign="middle">6.2 (5.5–7.0)</td>
+								<td align="center" valign="middle">2.2 (1.9–2.6)</td>
+								<td align="center" valign="middle">5.2 (4.5–5.9)</td>
+								<td align="center" valign="middle">1.6 (1.3–2.04)</td>
+							</tr>
+							<tr>
+								<td align="left" colspan="2" valign="middle">Current weight<xref ref-type="table-fn" rid="TFN2">a</xref>
+								</td>
+								<td align="center" valign="middle">81.9 (81.5–82.3)</td>
+								<td align="center" valign="middle">70.5 (70.2–70.9)</td>
+								<td align="center" valign="middle">82.3 (81.9–82.8)</td>
+								<td align="center" valign="middle">70.8 (70.4–71.2)</td>
+							</tr>
+							<tr style="background-color:#EEF0F7">
+								<td align="left" colspan="2" valign="middle">Current height<xref ref-type="table-fn" rid="TFN2">a</xref>
+								</td>
+								<td align="center" valign="middle">1.7 (1.7–1.7)</td>
+								<td align="center" valign="middle">1.5 (1.5–1.5)</td>
+								<td align="center" valign="middle">1.7 (1.7–1.7)</td>
+								<td align="center" valign="middle">1.5 (1.5–1.5)</td>
+							</tr>
+							<tr>
+								<td align="left" colspan="2" valign="middle">BMC<xref ref-type="table-fn" rid="TFN2">a</xref>
+								</td>
+								<td align="center" valign="middle">3.2 (3.2–3.2)</td>
+								<td align="center" valign="middle">2.4 (2.4–2.4)</td>
+								<td align="center" valign="middle">3.2 (3.2–3.2)</td>
+								<td align="center" valign="middle">2.4 (2.4–2.4)</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN1">
+							<p>SD: standard deviation; BMC: bone mineral content.</p>
+						</fn>
+						<fn id="TFN2">
+							<label>a</label>
+							<p>Mean (confidence interval of 95%).</p>
+						</fn>
+						<fn id="TFN3">
+							<label>b</label>
+							<p>Proportion (confidence interval of 95%).</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</sec>
+		</sec>
+		<sec sec-type="results">
+			<title>RESULTS</title>
+			<p>Of the 10,159 participants in this study, 54.98% were women, and the mean age was of 52 years (SD for men ± 6.65; SD for women ± 6.57). Most participants self-reported white as their race/skin color, had secondary education or more, and mothers with incomplete primary education. For both sexes, approximately 5% were born with low birth weight (<xref ref-type="table" rid="t2">Table 2</xref>).</p>
+			<table-wrap id="t2">
+				<label>Table 2</label>
+				<caption>
+					<title>Socioeconomic characteristics and current body size of the study population, Longitudinal Adult Health Study (ELSA-Brasil).</title>
+				</caption>
+				<table frame="hsides" rules="groups">
+					<colgroup width="24%">
+						<col width="1%"/>
+						<col/>
+						<col/>
+						<col/>
+						<col/>
+					</colgroup>
+					<thead style="border-top: thin solid; border-bottom: thin solid; border-color: #000000">
+						<tr style="background-color:#EEF0F7">
+							<th align="center" colspan="2" valign="middle"/>
+							<th align="center" valign="middle">Total (n = 10,159)</th>
+							<th align="center" valign="middle">Men (n = 4,574)</th>
+							<th align="center" valign="middle">Women (n = 5,585)</th>
+						</tr>
+					</thead>
+					<tbody style="border-bottom: thin solid; border-color: #000000">
+						<tr>
+							<td align="left" colspan="2" valign="middle">Age, mean (SD)<xref ref-type="table-fn" rid="TFN5">a</xref>
+							</td>
+							<td align="center" valign="middle">52.72 (6.6)</td>
+							<td align="center" valign="middle">52.51 (6.6)</td>
+							<td align="center" valign="middle">52.89 (6.5)<xref ref-type="table-fn" rid="TFN7">c</xref>
+							</td>
+						</tr>
+						<tr style="background-color:#EEF0F7">
+							<td align="left" colspan="5" valign="middle">Self-reported race/skin color, n (%)<xref ref-type="table-fn" rid="TFN6">b</xref>
+							</td>
+						</tr>
+						<tr>
+							<td align="left" valign="middle"/>
+							<td align="left" valign="middle">White</td>
+							<td align="center" valign="middle">5,158 (51.3)</td>
+							<td align="center" valign="middle">2,310 (51.1)</td>
+							<td align="center" valign="middle">2,848 (51.4)<xref ref-type="table-fn" rid="TFN7">c</xref>
+							</td>
+						</tr>
+						<tr style="background-color:#EEF0F7">
+							<td align="left" valign="middle"/>
+							<td align="left" valign="middle">Mixed race</td>
+							<td align="center" valign="middle">2,933 (29.1)</td>
+							<td align="center" valign="middle">1,424 (31.5)</td>
+							<td align="center" valign="middle">1,509 (27.2)</td>
+						</tr>
+						<tr>
+							<td align="left" valign="middle"/>
+							<td align="left" valign="middle">Black</td>
+							<td align="center" valign="middle">1,635 (16.2)</td>
+							<td align="center" valign="middle">646 (14.3)</td>
+							<td align="center" valign="middle">989 (17.8)</td>
+						</tr>
+						<tr style="background-color:#EEF0F7">
+							<td align="left" valign="middle"/>
+							<td align="left" valign="middle">Asian descent</td>
+							<td align="center" valign="middle">224 (2.2)</td>
+							<td align="center" valign="middle">75 (1.6)</td>
+							<td align="center" valign="middle">149 (2.6)</td>
+						</tr>
+						<tr>
+							<td align="left" valign="middle"/>
+							<td align="left" valign="middle">Indigenous</td>
+							<td align="center" valign="middle">101 (1.0)</td>
+							<td align="center" valign="middle">59 (1.3)</td>
+							<td align="center" valign="middle">42 (0.7)</td>
+						</tr>
+						<tr style="background-color:#EEF0F7">
+							<td align="left" colspan="5" valign="middle">Maternal educational level, n (%)<xref ref-type="table-fn" rid="TFN6">b</xref>
+							</td>
+						</tr>
+						<tr>
+							<td align="left" valign="middle"/>
+							<td align="left" valign="middle">University degree or more</td>
+							<td align="center" valign="middle">692 (7.1)</td>
+							<td align="center" valign="middle">325 (7.4)</td>
+							<td align="center" valign="middle">367 (6.8)<xref ref-type="table-fn" rid="TFN7">c</xref>
+							</td>
+						</tr>
+						<tr style="background-color:#EEF0F7">
+							<td align="left" valign="middle"/>
+							<td align="left" valign="middle">Secondary education</td>
+							<td align="center" valign="middle">1,678 (17.2)</td>
+							<td align="center" valign="middle">809 (18.5)</td>
+							<td align="center" valign="middle">869 (16.1)</td>
+						</tr>
+						<tr>
+							<td align="left" valign="middle"/>
+							<td align="left" valign="middle">Complete primary education</td>
+							<td align="center" valign="middle">1,906 (19.5)</td>
+							<td align="center" valign="middle">847 (19.3)</td>
+							<td align="center" valign="middle">1,059 (19.6)</td>
+						</tr>
+						<tr style="background-color:#EEF0F7">
+							<td align="left" valign="middle"/>
+							<td align="left" valign="middle">Incomplete primary education</td>
+							<td align="center" valign="middle">4,284 (43.9)</td>
+							<td align="center" valign="middle">1,815 (41.5)</td>
+							<td align="center" valign="middle">2,469 (45.9)</td>
+						</tr>
+						<tr>
+							<td align="left" valign="middle"/>
+							<td align="left" valign="middle">Never attended school</td>
+							<td align="center" valign="middle">1,183 (12.1)</td>
+							<td align="center" valign="middle">571 (13.0)</td>
+							<td align="center" valign="middle">612 (11.3)</td>
+						</tr>
+						<tr style="background-color:#EEF0F7">
+							<td align="left" colspan="5" valign="middle">Educational level, n (%)<xref ref-type="table-fn" rid="TFN6">b</xref>
+							</td>
+						</tr>
+						<tr>
+							<td align="left" valign="middle"/>
+							<td align="left" valign="middle">University degree or more</td>
+							<td align="center" valign="middle">5,832 (57.4)</td>
+							<td align="center" valign="middle">2,443 (53.4)</td>
+							<td align="center" valign="middle">3,389 (60.6)<xref ref-type="table-fn" rid="TFN7">c</xref>
+							</td>
+						</tr>
+						<tr style="background-color:#EEF0F7">
+							<td align="left" valign="middle"/>
+							<td align="left" valign="middle">Secondary education</td>
+							<td align="center" valign="middle">3,357 (33.0)</td>
+							<td align="center" valign="middle">1,519 (33.2)</td>
+							<td align="center" valign="middle">1,838 (32.9)</td>
+						</tr>
+						<tr>
+							<td align="left" valign="middle"/>
+							<td align="left" valign="middle">Complete primary education</td>
+							<td align="center" valign="middle">552 (5.4)</td>
+							<td align="center" valign="middle">321 (7.0)</td>
+							<td align="center" valign="middle">231 (4.1)</td>
+						</tr>
+						<tr style="background-color:#EEF0F7">
+							<td align="left" valign="middle"/>
+							<td align="left" valign="middle">Incomplete primary education</td>
+							<td align="center" valign="middle">413 (4.1)</td>
+							<td align="center" valign="middle">286 (6.2)</td>
+							<td align="center" valign="middle">127 (2.2)</td>
+						</tr>
+						<tr>
+							<td align="left" valign="middle"/>
+							<td align="left" valign="middle">Current weight, mean (SD)<xref ref-type="table-fn" rid="TFN5">a</xref>
+							</td>
+							<td align="center" valign="middle">75.70 (15.3)</td>
+							<td align="center" valign="middle">81.96 (14.5)</td>
+							<td align="center" valign="middle">70.58 (14.1)<xref ref-type="table-fn" rid="TFN7">c</xref>
+							</td>
+						</tr>
+						<tr style="background-color:#EEF0F7">
+							<td align="left" valign="middle"/>
+							<td align="left" valign="middle">Current height, mean (SD)<xref ref-type="table-fn" rid="TFN5">a</xref>
+							</td>
+							<td align="center" valign="middle">1.65 (9.3)</td>
+							<td align="center" valign="middle">1.72 (6.9)</td>
+							<td align="center" valign="middle">1.59 (6.3)<xref ref-type="table-fn" rid="TFN7">c</xref>
+							</td>
+						</tr>
+						<tr>
+							<td align="left" colspan="5" valign="middle">Birth weight, n (%)<xref ref-type="table-fn" rid="TFN6">b</xref>
+							</td>
+						</tr>
+						<tr style="background-color:#EEF0F7">
+							<td align="left" valign="middle"/>
+							<td align="left" valign="middle">Adequate</td>
+							<td align="center" valign="middle">8,416 (94.4)</td>
+							<td align="center" valign="middle">3,781 (82.6)</td>
+							<td align="center" valign="middle">4,635 (82.9)</td>
+						</tr>
+						<tr>
+							<td align="left" valign="middle"/>
+							<td align="left" valign="middle">Low</td>
+							<td align="center" valign="middle">493 (4.8)</td>
+							<td align="center" valign="middle">216 (4.7)</td>
+							<td align="center" valign="middle">277 (4.9)</td>
+						</tr>
+						<tr style="background-color:#EEF0F7">
+							<td align="left" valign="middle"/>
+							<td align="left" valign="middle">Missings</td>
+							<td align="center" valign="middle">1,250 (12.3)</td>
+							<td align="center" valign="middle">577 (12.6)</td>
+							<td align="center" valign="middle">673 (12.0)</td>
+						</tr>
+						<tr>
+							<td align="left" valign="middle"/>
+							<td align="left" valign="middle">BMC, mean (SD)<xref ref-type="table-fn" rid="TFN5">a</xref>
+							</td>
+							<td align="center" valign="middle">2.82 (0.5)</td>
+							<td align="center" valign="middle">3.26 (0.4)</td>
+							<td align="center" valign="middle">2.46 (0.3)<xref ref-type="table-fn" rid="TFN7">c</xref>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<table-wrap-foot>
+					<fn id="TFN4">
+						<p>SD: standard deviation; BMC: bone mineral content.</p>
+					</fn>
+					<fn id="TFN5">
+						<label>a</label>
+						<p>Analysis of variance (Anova).</p>
+					</fn>
+					<fn id="TFN6">
+						<label>b</label>
+						<p>Pearson's chi-square test.</p>
+					</fn>
+					<fn id="TFN7">
+						<label>c</label>
+						<p>p-value &lt; 0.005.</p>
+					</fn>
+				</table-wrap-foot>
+			</table-wrap>
+			<p>We observed lower mean values of height, weight, BMI, bone mineral content, and BMC/height ratio for those with low birth weight, when compared with adequate birth weight (p &lt; 0.05). In the comparison between sexes, women had lower values than men for all measures, except for BMI (<xref ref-type="table" rid="t3">Table 3</xref>).</p>
+			<table-wrap id="t3">
+				<label>Table 3</label>
+				<caption>
+					<title>Distribution of bone mineral content, height, weight, body mass index, and ratio BMC/height according to birth weight, Longitudinal Adult Health Study (ELSA-Brasil).</title>
+				</caption>
+				<table frame="hsides" rules="groups">
+					<colgroup width="14%">
+						<col/>
+						<col/>
+						<col/>
+						<col/>
+						<col/>
+						<col/>
+						<col/>
+					</colgroup>
+					<thead style="border-top: thin solid; border-bottom: thin solid; border-color: #000000">
+						<tr style="background-color:#D4DBEC">
+							<th align="left" rowspan="3" valign="middle"/>
+							<th align="center" colspan="6" style="border-bottom: thin solid; border-color: #000000;" valign="middle">Birth weight</th>
+						</tr>
+						<tr style="background-color:#D4DBEC">
+							<th align="center" colspan="3" style="border-bottom: thin solid; border-color: #000000;" valign="middle">Adequate weight (≥ 2.5kg)</th>
+							<th align="center" colspan="3" style="border-bottom: thin solid; border-color: #000000;" valign="middle">Low weight (&lt; 2.5kg)</th>
+						</tr>
+						<tr style="background-color:#D4DBEC">
+							<th align="center" valign="middle">Total</th>
+							<th align="center" valign="middle">Men</th>
+							<th align="center" valign="middle">Women</th>
+							<th align="center" valign="middle">Total</th>
+							<th align="center" valign="middle">Men</th>
+							<th align="center" valign="middle">Women</th>
+						</tr>
+					</thead>
+					<tbody style="border-bottom: thin solid; border-color: #000000">
+						<tr>
+							<td align="left" valign="middle"><bold>Height, m</bold> Mean (SD)</td>
+							<td align="center" valign="middle">1.65 (0.09)<xref ref-type="table-fn" rid="TFN10">a</xref>
+							</td>
+							<td align="center" valign="middle">1.72 (0.06)</td>
+							<td align="center" valign="middle">1.59 (0.06)<xref ref-type="table-fn" rid="TFN10">a</xref>
+							</td>
+							<td align="center" valign="middle">1.62 (0.09)</td>
+							<td align="center" valign="middle">1.69 (0.07)</td>
+							<td align="center" valign="middle">1.56 (0.06)<xref ref-type="table-fn" rid="TFN10">a</xref>
+							</td>
+						</tr>
+						<tr style="background-color:#EEF0F7">
+							<td align="left" valign="middle"><bold>Weight, kg</bold> Mean (SD)</td>
+							<td align="center" valign="middle">76.23 (15.44)<xref ref-type="table-fn" rid="TFN10">a</xref>
+							</td>
+							<td align="center" valign="middle">82.62 (14.51)</td>
+							<td align="center" valign="middle">71.01 (14.16)<xref ref-type="table-fn" rid="TFN10">a</xref>
+							</td>
+							<td align="center" valign="middle">72.13 (14.91)</td>
+							<td align="center" valign="middle">77.59 (14.44)</td>
+							<td align="center" valign="middle">67.87 (13.87)<xref ref-type="table-fn" rid="TFN10">a</xref>
+							</td>
+						</tr>
+						<tr>
+							<td align="left" valign="middle"><bold>Body mass index, kg/m²</bold> Mean (SD)</td>
+							<td align="center" valign="middle">27.72 (4.90)<xref ref-type="table-fn" rid="TFN10">a</xref>
+							</td>
+							<td align="center" valign="middle">27.60 (4.36)<xref ref-type="table-fn" rid="TFN10">a</xref>
+							</td>
+							<td align="center" valign="middle">27.83 (5.30)</td>
+							<td align="center" valign="middle">27.26 (4.86)</td>
+							<td align="center" valign="middle">26.92 (4.40)<xref ref-type="table-fn" rid="TFN10">a</xref>
+							</td>
+							<td align="center" valign="middle">27.53 (5.19)</td>
+						</tr>
+						<tr style="background-color:#EEF0F7">
+							<td align="left" valign="middle"><bold>Bone mineral content, kg</bold> Mean (SD)</td>
+							<td align="center" valign="middle">2.85 (0.57)<xref ref-type="table-fn" rid="TFN10">a</xref>
+							</td>
+							<td align="center" valign="middle">3.29 (0.48)</td>
+							<td align="center" valign="middle">2.49 (0.35)<xref ref-type="table-fn" rid="TFN10">a</xref>
+							</td>
+							<td align="center" valign="middle">2.65 (0.54)</td>
+							<td align="center" valign="middle">3.04 (0.49)</td>
+							<td align="center" valign="middle">2.34 (0.35)<xref ref-type="table-fn" rid="TFN10">a</xref>
+							</td>
+						</tr>
+						<tr>
+							<td align="left" valign="middle"><bold>BMC/height, kg/m</bold> Mean (SD)</td>
+							<td align="center" valign="middle">1.70 (0.26)<xref ref-type="table-fn" rid="TFN10">a</xref>
+							</td>
+							<td align="center" valign="middle">1.89 (0.22)</td>
+							<td align="center" valign="middle">1.55 (0.17)<xref ref-type="table-fn" rid="TFN10">a</xref>
+							</td>
+							<td align="center" valign="middle">1.62 (0.25)</td>
+							<td align="center" valign="middle">1.78 (0.23)</td>
+							<td align="center" valign="middle">1.48 (0.18)<xref ref-type="table-fn" rid="TFN10">a</xref>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<table-wrap-foot>
+					<fn id="TFN8">
+						<p>Kg = kilogram; m = meter; SD = standard deviation; BMC = bone mineral content.</p>
+					</fn>
+					<fn id="TFN9">
+						<p>Performed analysis of variance (Anova).</p>
+					</fn>
+					<fn id="TFN10">
+						<label>a</label>
+						<p>p-value &lt; 0.05.</p>
+					</fn>
+				</table-wrap-foot>
+			</table-wrap>
+			<p>
+				<xref ref-type="table" rid="t4">Table 4</xref> describes the associations among low birth weight and the z-score of the BMC/height ratio. In model 1, those with low birth weight were associated with a higher mean reduction of the BMC/height ratio compared to those with adequate birth weight (mean difference for total population: −0.30; 95%CI: −0.39 to −0.21), and this effect was stronger in men (mean difference: −0.43; 95%CI: −0.56 to −0.30) than women (mean difference: −0.31; 95%CI: −0.44 to −0.19). After adjusting for age, self-reported race/skin color, maternal and individual education, and sex per total population (Model 2), we observed no significant changes in the magnitudes of associations. However, when adjusting for current weight (Model 3), there was a reduction in the association magnitudes in the total population (-0.09; 95%CI: −0.14 to −0.03), as well as for men (-0.13; 95%CI: −0.21 to −0.06) and for women (-0.13; 95%CI: - 0.21 to - 0.05).</p>
+			<table-wrap id="t4">
+				<label>Table 4</label>
+				<caption>
+					<title>Association between low birth weight and bone mineral content, Longitudinal Adult Health Study (ELSA-Brasil).</title>
+				</caption>
+				<table frame="hsides" rules="groups">
+					<colgroup width="25%">
+						<col/>
+						<col/>
+						<col/>
+						<col/>
+					</colgroup>
+					<thead style="border-top: thin solid; border-bottom: thin solid; border-color: #000000">
+						<tr style="background-color:#D4DBEC">
+							<th align="center" rowspan="2" valign="middle">Low birth weight (&lt; 2.5kg)</th>
+							<th align="center" colspan="3" style="border-bottom: thin solid; border-color: #000000;" valign="middle">Mean difference (95%CI)</th>
+						</tr>
+						<tr style="background-color:#D4DBEC">
+							<th align="center" valign="middle">Total</th>
+							<th align="center" valign="middle">Men</th>
+							<th align="center" valign="middle">Women</th>
+						</tr>
+					</thead>
+					<tbody style="border-bottom: thin solid; border-color: #000000">
+						<tr>
+							<td align="left" valign="middle">Model 1</td>
+							<td align="center" valign="middle">-0.30 (-0.39 to −0.21)</td>
+							<td align="center" valign="middle">-0.43 (-0.56 to −0.30)</td>
+							<td align="center" valign="middle">-0.31 (-0.44 to −0.19)</td>
+						</tr>
+						<tr style="background-color:#EEF0F7">
+							<td align="left" valign="middle">Model 2</td>
+							<td align="center" valign="middle">-0.23 (-0.29 to −0.16)</td>
+							<td align="center" valign="middle">-0.34 (-0.47 to −0.21)</td>
+							<td align="center" valign="middle">-0.26 (-0.39 to −0.14)</td>
+						</tr>
+						<tr>
+							<td align="left" valign="middle">Model 3</td>
+							<td align="center" valign="middle">-0.10 (-0.14 to −0.06)</td>
+							<td align="center" valign="middle">-0.13 (-0.21 to −0.06)</td>
+							<td align="center" valign="middle">-0.13 (-0.21 to −0.05)</td>
+						</tr>
+					</tbody>
+				</table>
+				<table-wrap-foot>
+					<fn id="TFN11">
+						<p>Model 1: crude model; Model 2: adjustment for age, self-reported color/skin race, maternal and individual's educational level, and sex for total population; Model 3: Model 2 + current weight.</p>
+					</fn>
+					<fn id="TFN12">
+						<p>95%CI: 95% confidence interval.</p>
+					</fn>
+					<fn id="TFN13">
+						<p>Performed linear regression.</p>
+					</fn>
+				</table-wrap-foot>
+			</table-wrap>
+		</sec>
+		<sec sec-type="discussion">
+			<title>DISCUSSION</title>
+			<p>In our study, we observed that individuals who reported low birth weight had a higher mean reduction in the BMC/height ratio than those born with adequate weight after adjusting for sociodemographic characteristics, and with a considerable reduction in their magnitudes after including current weight adjustment. Although this effect was stronger in men in the unadjusted model, men and women presented similar associations magnitudes in the fully adjusted model. Barker's theory postulates that health in adulthood depends on the programming of the fetal and infant environment<sup><xref ref-type="bibr" rid="B22">22</xref></sup>, as supported by the epidemiology studies on the critical period model of life course<sup><xref ref-type="bibr" rid="B23">23</xref></sup>. Thus, appropriate early growth, marked by birth weight, will positively affect bone size and BMC in adulthood<sup><xref ref-type="bibr" rid="B8">8</xref></sup>. The bone formation occurs mainly due to growth hormone and IGF-I, which control the accumulation of bone mass in childhood<sup><xref ref-type="bibr" rid="B6">6</xref></sup>. This theory supports our results and those of previous studies<sup><xref ref-type="bibr" rid="B9">9</xref>,<xref ref-type="bibr" rid="B10">10</xref>,<xref ref-type="bibr" rid="B11">11</xref>,<xref ref-type="bibr" rid="B13">13</xref></sup>. A Finnish study found that those who had intrauterine growth delay (babies born small for gestational age) were 2.5 times more likely of having low BMC at age 31 than those with normal intrauterine growth, even after adjusting for the current BMI<sup><xref ref-type="bibr" rid="B11">11</xref></sup>.</p>
+			<p>Another study investigated this relationship in young Brazilian men (n = 496, mean age 23.54 ± 0.50) and observed that those in the highest tertile of birth weight had greater bone area and BMC in the lumbar spine, femoral neck, and total proximal femur when compared with those born in the lower tertile<sup><xref ref-type="bibr" rid="B9">9</xref></sup>. Similar results were observed in studies carried out in developed countries<sup><xref ref-type="bibr" rid="B11">11</xref></sup>. Pearce et al.<sup><xref ref-type="bibr" rid="B13">13</xref></sup> pointed out that the standardized increase in birth weight (standard deviation of 0.94 in men and 1.1 in women) was predictive of an increase in the total bone area (cm²) for both sexes (p ≤ 0.001) in middle-aged adults (49–51 years). After adjusting for height and weight, the relationship remained significant only among men (r = 1.11; 95%CI: 0.04–2.18). However, in a study with Sweden women, the lowest amounts of full-body BMC (femur, neck, hip, and lumbar spine) were also observed among those with lower birth weight values, compared to those with higher birth weight values<sup><xref ref-type="bibr" rid="B24">24</xref></sup>.</p>
+			<p>To the best our knowledge, this is the first study with a large sample in Brazil that investigates the association between birth weight and BMC in middle-aged men and women. Interestingly, our results did not show differences in the association of LBW and BMC between the sexes. In general, men have more favorable conditions for bone development than women<sup><xref ref-type="bibr" rid="B6">6</xref>,<xref ref-type="bibr" rid="B10">10</xref></sup>, partly due to the action of sex hormones<sup><xref ref-type="bibr" rid="B7">7</xref></sup>. Thus, our findings suggest that the action of androgen on BMC in men can be significantly affected by low weight in life. On the other hand, after adjusting for the current weight, the magnitudes of the associations were similar between the sexes (p-value = 0.073 for interaction between LBW and sex, data not shown), showing a possible effect of recovery and maintenance of adequate weight on adult life, which needs to be further explored.</p>
+			<p>It is worth considering that the results of some studies on LBW and BMC disagree with ours. For example, among English children with nine years of age, the highest birth weight was related to the lowest BMC corrected for the area (bone size corrected by linear regression to approximate a volumetric measure of BMD), even after removing weight and height<sup><xref ref-type="bibr" rid="B12">12</xref></sup>. Moreover, no association was found between LBW and total BMD after adjusting for age, sex, adult height and weight, and lean and fat mass in the young Dutch population<sup><xref ref-type="bibr" rid="B10">10</xref></sup>. Thus, further research is needed on how intrauterine growth can affect bone health in adulthood, aiming at active and healthy aging, which is one of the guidelines of the National Health Policy for Older Adults (<italic>Política Nacional de Saúde da Pessoa Idosa</italic> – 2006)<sup><xref ref-type="bibr" rid="B25">25</xref></sup>.</p>
+			<p>Investments to promote an individual's health from the moment of conception are needed to guarantee their proper development. In this scenario, Brazil has strategies, such as the National Policy for Comprehensive Child Health Care, to promote and protect the health of children starting at conception to nine years of age, humanized care for low-birth-weight newborns, through the “Kangaroo Method,” and the <italic>Rede Cegonha</italic> (Stork Network), also with the objective of promoting healthcare from pregnancy to childbirth, including care for children<sup><xref ref-type="bibr" rid="B26">26</xref></sup>.</p>
+			<p>Our analyses show that individuals born with adequate weight have higher mean bone mineral content and BMC/height, when compared with those who had LBW. Additionally, individuals with low birth weight have elevated current BMI (overweight). However, growth and weight gain throughout life is considered a mediator in the relationship between birth weight and BMC<sup><xref ref-type="bibr" rid="B10">10</xref></sup>. In our study the current weight was measured at the same time of BMC, being difficult to verify causal temporality as mediator. Thus, we chose to include current weight as adjustment to assess the independent effect on associations magnitudes between birth weight and BMC. However, considering that only 15.3% of the Brazilian population has a university degree or more<sup><xref ref-type="bibr" rid="B27">27</xref></sup>, we emphasize that the effect of low birth weight on BMC can be stronger in the general population of Brazil. Our studied population comprises civil servants from universities, reflecting on the high educational level reached by them (60.37%), considered a marker of adequate socioeconomic, nutritional, and health conditions throughout life.</p>
+			<p>In this scenario, it is necessary to consider that the health budget, at the federal level, was recently frozen for 20 years by Constitutional Amendment 95, allowing only inflation readjustments. This amendment disregards, among other things, the dynamics of the population's health needs, population growth, the increased burden of non-communicable diseases, and the need to expand the public network<sup><xref ref-type="bibr" rid="B28">28</xref></sup>, leading to more significant disability and spendings in the future.</p>
+			<p>Some limitations need to be considered in our study. First, since it is a cross-sectional analysis, factors that interfere in obtaining the peak of bone mass accumulation may not have been considered, such as maternal factors, growth trajectory, poverty conditions, behaviors and health conditions, especially in critical periods of growth (childhood and adolescence). Nevertheless, these data could explain how adverse conditions during fetal life on bone health can be mitigated. Second, birth weight was self-reported, thus subject to error, but it is unlikely that individuals’ memory was affected by BMC in adulthood.</p>
+			<p>Moreover, some studies have already demonstrated the validity of self-reported birth weight in cohorts with large samples and with middle-aged adults, comparing this information with birth records. The reported and recorded weights had good correlations and, given the impossibility of accessing official birth records, it is a possible strategy to allow the study of early exposures and health impacts in adulthood<sup><xref ref-type="bibr" rid="B29">29</xref></sup>.</p>
+			<p>Since the percentage of missing birth weight was high, we performed several imputations for this variable so that the final OR (95%CI) reported for birth weight considered the uncertainty due to missing data values<sup><xref ref-type="bibr" rid="B30">30</xref></sup>. We also performed a complete analysis considering only the participants who had information about all the variables considered in the analysis, and the results were similar to those presented here (the magnitude of associations in the final model was: total population −0.12; 95%CI: −0.16 to −0.07; for men −0.16; 95%CI: −0.23 to −0.08 and for women −0.15; 95%CI −0.23 to −0.07, data not shown). Third, BMC estimation using bioelectrical impedance analysis (BIA) has its methodological limitations, even though it is less costly and more accessible to researchers and health services. However, the estimate of BMC obtained indirectly from BIA can be used for longitudinal monitoring of the CMO to predict decline and possible health problems.</p>
+			<p>Despite this, our study has a large sample of a multicenter study, including individuals with different physiological characteristics and biotypes. We also stratified the analysis by sex to better understand the differences in the relationship between LBW and BMC between men and women. Additionally, we use height-corrected BMC, since BMC is a parameter dependent on bone size, and small bones weigh less than large bones, even if individuals with smaller bones are completely healthy<sup><xref ref-type="bibr" rid="B31">31</xref></sup>.</p>
+		</sec>
+		<sec sec-type="conclusions">
+			<title>CONCLUSION</title>
+			<p>From the intrauterine period to adulthood, adequate growth seems to have a fundamental role in maintaining bone health, especially for women. Although positive postnatal growth seems to mitigate part of the effect of low birth weight on bone health, our findings reinforce the importance of the continued implementation of policies and programs toward care during pregnancy and childhood, impacting long-term health, in addition to bone health monitoring strategies to ensure healthy and active aging.</p>
+		</sec>
+	</body>
+	<back>
+		<fn-group>
+			<fn fn-type="financial-disclosure" id="fn1">
+				<p><bold>Funding:</bold> Brazilian Ministry of Health (Department of Science and Technology) and the Brazilian Ministry of Science, Technology and Innovation (<italic>Financiadora de Estudos e Projetos</italic>, FINEP; and <italic>Conselho Nacional de Desenvolvimento Científico e Tecnológico</italic>, CNPq), through grant [n. 01 06 0010.00 RS, 01 06 0212.00 BA, 01 06 0300.00 ES, 01 06 0278.00 MG, 01 06 0115.00 SP and 01 06 0071.00 RJ]. This study was financed in part by the <italic>Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Brasil</italic> (Capes - Finance Code 001).</p>
+			</fn>
+		</fn-group>
+		<ref-list>
+			<title>REFERENCES</title>
+			<ref id="B1">
+				<label>1</label>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>WHO Scientific Group</collab>
+					</person-group>
+					<source>Prevention and management of osteoporosis</source>
+					<publisher-loc>Geneva (CH)</publisher-loc>
+					<publisher-name>World Health Organization</publisher-name>
+					<year>2003</year>
+					<date-in-citation content-type="access-date">cited 2014 Jan 30</date-in-citation>
+					<comment>Available from: <ext-link ext-link-type="uri" xlink:href="https://apps.who.int/iris/handle/10665/42841">https://apps.who.int/iris/handle/10665/42841</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>1 WHO Scientific Group. Prevention and management of osteoporosis. Geneva (CH): World Health Organization; 2003 [cited 2014 Jan 30]. Available from: <ext-link ext-link-type="uri" xlink:href="https://apps.who.int/iris/handle/10665/42841">https://apps.who.int/iris/handle/10665/42841</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>World Health Organization</collab>
+					</person-group>
+					<source>ICD-10: international statistical classification of diseases and related health problems: tenth revision</source>
+					<edition>2nd ed.</edition>
+					<publisher-loc>Geneva (CH)</publisher-loc>
+					<publisher-name>WHO</publisher-name>
+					<year>2004</year>
+					<date-in-citation content-type="access-date">cited 2021 May 3</date-in-citation>
+					<comment>Available from: <ext-link ext-link-type="uri" xlink:href="https://apps.who.int/iris/handle/10665/42980">https://apps.who.int/iris/handle/10665/42980</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>2 World Health Organization. ICD-10: international statistical classification of diseases and related health problems: tenth revision; 2nd ed. Geneva (CH): WHO; 2004 [cited 2021 May 3]. Available from: <ext-link ext-link-type="uri" xlink:href="https://apps.who.int/iris/handle/10665/42980">https://apps.who.int/iris/handle/10665/42980</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Tourinho</surname>
+							<given-names>AB</given-names>
+						</name>
+						<name>
+							<surname>Reis</surname>
+							<given-names>LBSM</given-names>
+						</name>
+					</person-group>
+					<article-title>Birth weight: a nutritional approach</article-title>
+					<source>Comun Cienc Saude</source>
+					<year>2012</year>
+					<volume>23</volume>
+					<issue>1</issue>
+					<fpage>19</fpage>
+					<lpage>30</lpage>
+				</element-citation>
+				<mixed-citation>3 Tourinho AB, Reis LBSM. Birth weight: a nutritional approach. Comun Cienc Saude. 2012;23(1):19-30.</mixed-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+					</person-group>
+					<chapter-title>Secretaria de Vigilância em Saúde, Departamento de Análise em Saúde e Vigilância das Doenças Não Transmissíveis. Sistema de Informações sobre Nascidos Vivos – SINASC</chapter-title>
+					<source>Painel de Monitoramento de Nascidos Vivos</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<year>2021</year>
+					<date-in-citation content-type="access-date">cited 2021 May 3</date-in-citation>
+					<comment>Available from: <ext-link ext-link-type="uri" xlink:href="http://svs.aids.gov.br/dantps/centrais-de-conteudos/paineis-de-monitoramento/natalidade/nascidos-vivos/">http://svs.aids.gov.br/dantps/centrais-de-conteudos/paineis-de-monitoramento/natalidade/nascidos-vivos/</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>4 Ministério da Saúde (BR), Secretaria de Vigilância em Saúde, Departamento de Análise em Saúde e Vigilância das Doenças Não Transmissíveis. Sistema de Informações sobre Nascidos Vivos – SINASC. Painel de Monitoramento de Nascidos Vivos. Brasília, DF; 2021 [cited 2021 May 3]. Available from: <ext-link ext-link-type="uri" xlink:href="http://svs.aids.gov.br/dantps/centrais-de-conteudos/paineis-de-monitoramento/natalidade/nascidos-vivos/">http://svs.aids.gov.br/dantps/centrais-de-conteudos/paineis-de-monitoramento/natalidade/nascidos-vivos/</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Zadik</surname>
+							<given-names>Z</given-names>
+						</name>
+					</person-group>
+					<article-title>Maternal nutrition, fetal weight, body composition and disease in later life</article-title>
+					<source>J Endocrinol Invest</source>
+					<year>2003</year>
+					<volume>26</volume>
+					<issue>9</issue>
+					<fpage>941</fpage>
+					<lpage>945</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/BF03345248">https://doi.org/10.1007/BF03345248</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>5 Zadik Z. Maternal nutrition, fetal weight, body composition and disease in later life. J Endocrinol Invest. 2003;26(9):941-5. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/BF03345248">https://doi.org/10.1007/BF03345248</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cooper</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Westlake</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Harvey</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Javaid</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Dennison</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Hanson</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>Review: developmental origins of osteoporotic fracture</article-title>
+					<source>Osteoporos Int</source>
+					<year>2005</year>
+					<volume>17</volume>
+					<issue>3</issue>
+					<fpage>337</fpage>
+					<lpage>347</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s00198-005-2039-5">https://doi.org/10.1007/s00198-005-2039-5</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>6 Cooper C, Westlake S, Harvey N, Javaid K, Dennison E, Hanson M. Review: developmental origins of osteoporotic fracture. Osteoporos Int. 2005;17(3):337-47. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s00198-005-2039-5">https://doi.org/10.1007/s00198-005-2039-5</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cho</surname>
+							<given-names>WK</given-names>
+						</name>
+						<name>
+							<surname>Ahn</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Jeon</surname>
+							<given-names>YJ</given-names>
+						</name>
+						<name>
+							<surname>Jung</surname>
+							<given-names>IA</given-names>
+						</name>
+						<name>
+							<surname>Kim</surname>
+							<given-names>SH</given-names>
+						</name>
+						<name>
+							<surname>Cho</surname>
+							<given-names>KS</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Birth weight could influence bone mineral contents of 10- to 18-year-old Korean adolescents: results from the Korea National Health and Nutrition Examination Survey (KNHANES) 2010</article-title>
+					<source>Horm Res Paediatr</source>
+					<year>2016</year>
+					<volume>85</volume>
+					<issue>2</issue>
+					<fpage>125</fpage>
+					<lpage>130</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1159/000443236">https://doi.org/10.1159/000443236</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>7 Cho WK, Ahn M, Jeon YJ, Jung IA, Kim SH, Cho KS, et al. Birth weight could influence bone mineral contents of 10- to 18-year-old Korean adolescents: results from the Korea National Health and Nutrition Examination Survey (KNHANES) 2010. Horm Res Paediatr. 2016;85(2):125-30. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1159/000443236">https://doi.org/10.1159/000443236</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Dennison</surname>
+							<given-names>EM</given-names>
+						</name>
+						<name>
+							<surname>Syddall</surname>
+							<given-names>HE</given-names>
+						</name>
+						<name>
+							<surname>Sayer</surname>
+							<given-names>AA</given-names>
+						</name>
+						<name>
+							<surname>Gilbody</surname>
+							<given-names>HJ</given-names>
+						</name>
+						<name>
+							<surname>Cooper</surname>
+							<given-names>C</given-names>
+						</name>
+					</person-group>
+					<article-title>Birth weight and weight at 1 year are independent determinants of bone mass in the seventh decade: The Hertfordshire Cohort Study</article-title>
+					<source>Pediatr Res</source>
+					<year>2005</year>
+					<volume>57</volume>
+					<issue>4</issue>
+					<fpage>582</fpage>
+					<lpage>586</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1203/01.PDR.0000155754.67821.CA">https://doi.org/10.1203/01.PDR.0000155754.67821.CA</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>8 Dennison EM, Syddall HE, Sayer AA, Gilbody HJ, Cooper C. Birth weight and weight at 1 year are independent determinants of bone mass in the seventh decade: The Hertfordshire Cohort Study. Pediatr Res. 2005;57(4):582-6. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1203/01.PDR.0000155754.67821.CA">https://doi.org/10.1203/01.PDR.0000155754.67821.CA</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Schlüssel</surname>
+							<given-names>MM</given-names>
+						</name>
+						<name>
+							<surname>Castro</surname>
+							<given-names>JAS</given-names>
+						</name>
+						<name>
+							<surname>Kac</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Silva</surname>
+							<given-names>AAM</given-names>
+						</name>
+						<name>
+							<surname>Cardoso</surname>
+							<given-names>VC</given-names>
+						</name>
+						<name>
+							<surname>Bettiol</surname>
+							<given-names>H</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Birth weight and bone mass in young adults from Brazil</article-title>
+					<source>Bone</source>
+					<year>2010</year>
+					<volume>46</volume>
+					<issue>4</issue>
+					<fpage>957</fpage>
+					<lpage>963</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.bone.2010.01.365">https://doi.org/10.1016/j.bone.2010.01.365</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>9 Schlüssel MM, Castro JAS, Kac G, Silva AAM, Cardoso VC, Bettiol H, et al. Birth weight and bone mass in young adults from Brazil. Bone. 2010;46(4):957-63. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.bone.2010.01.365">https://doi.org/10.1016/j.bone.2010.01.365</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Leunissen</surname>
+							<given-names>RWJ</given-names>
+						</name>
+						<name>
+							<surname>Stijnen</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Boot</surname>
+							<given-names>AM</given-names>
+						</name>
+						<name>
+							<surname>Hokken-Koelega</surname>
+							<given-names>ACS</given-names>
+						</name>
+					</person-group>
+					<article-title>Influence of birth size and body composition on bone mineral density in early adulthood: the PROGRAM study</article-title>
+					<source>Clin Endocrinol</source>
+					<year>2008</year>
+					<volume>69</volume>
+					<issue>3</issue>
+					<fpage>386</fpage>
+					<lpage>392</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1365-2265.2008.03226.x">https://doi.org/10.1111/j.1365-2265.2008.03226.x</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>10 Leunissen RWJ, Stijnen T, Boot AM, Hokken-Koelega ACS. Influence of birth size and body composition on bone mineral density in early adulthood: the PROGRAM study. Clin Endocrinol. 2008;69(3):386-92. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1365-2265.2008.03226.x">https://doi.org/10.1111/j.1365-2265.2008.03226.x</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Laitinen</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Kiukaanniemi</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Heikkinen</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Sovio</surname>
+							<given-names>U</given-names>
+						</name>
+						<name>
+							<surname>Keinänen-Kiukaanniemi</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Järvelin</surname>
+							<given-names>MR</given-names>
+						</name>
+					</person-group>
+					<article-title>Body size from birth to adulthood and bone mineral content and density at 31 years of age: results from the northern Finland 1966 birth cohort study</article-title>
+					<source>Osteoporos Int</source>
+					<year>2005</year>
+					<volume>16</volume>
+					<issue>11</issue>
+					<fpage>1417</fpage>
+					<lpage>1424</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s00198-005-1857-9">https://doi.org/10.1007/s00198-005-1857-9</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>11 Laitinen J, Kiukaanniemi K, Heikkinen J, Sovio U, Keinänen-Kiukaanniemi S, Järvelin MR. Body size from birth to adulthood and bone mineral content and density at 31 years of age: results from the northern Finland 1966 birth cohort study. Osteoporos Int. 2005;16(11):1417-24. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s00198-005-1857-9">https://doi.org/10.1007/s00198-005-1857-9</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Steer</surname>
+							<given-names>CD</given-names>
+						</name>
+						<name>
+							<surname>Tobias</surname>
+							<given-names>JH</given-names>
+						</name>
+					</person-group>
+					<article-title>Insights into the programming of bone development from the Avon Longitudinal Study of Parents and Children (ALSPAC)</article-title>
+					<source>Am J Clin Nutr</source>
+					<year>2011</year>
+					<volume>94</volume>
+					<supplement>6 Suppl</supplement>
+					<fpage>1861S</fpage>
+					<lpage>1864S</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3945/ajcn.110.001495">https://doi.org/10.3945/ajcn.110.001495</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>12 Steer CD, Tobias JH. Insights into the programming of bone development from the Avon Longitudinal Study of Parents and Children (ALSPAC). Am J Clin Nutr. 2011;94(6 Suppl)):1861S-4S. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3945/ajcn.110.001495">https://doi.org/10.3945/ajcn.110.001495</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pearce</surname>
+							<given-names>MS</given-names>
+						</name>
+						<name>
+							<surname>Birrell</surname>
+							<given-names>FN</given-names>
+						</name>
+						<name>
+							<surname>Francis</surname>
+							<given-names>RM</given-names>
+						</name>
+						<name>
+							<surname>Rawlings</surname>
+							<given-names>DJ</given-names>
+						</name>
+						<name>
+							<surname>Tuck</surname>
+							<given-names>SP</given-names>
+						</name>
+						<name>
+							<surname>Parker</surname>
+							<given-names>L</given-names>
+						</name>
+					</person-group>
+					<article-title>Lifecourse study of bone health at age 49-51 years: the Newcastle thousand families cohort study</article-title>
+					<source>J Epidemiol Community Health</source>
+					<year>2005</year>
+					<volume>59</volume>
+					<issue>6</issue>
+					<fpage>475</fpage>
+					<lpage>480</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/jech.2004.025999">https://doi.org/10.1136/jech.2004.025999</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>13 Pearce MS, Birrell FN, Francis RM, Rawlings DJ, Tuck SP, Parker L. Lifecourse study of bone health at age 49-51 years: the Newcastle thousand families cohort study. J Epidemiol Community Health. 2005;59(6):475-80. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/jech.2004.025999">https://doi.org/10.1136/jech.2004.025999</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Aquino</surname>
+							<given-names>EML</given-names>
+						</name>
+						<name>
+							<surname>Barreto</surname>
+							<given-names>SM</given-names>
+						</name>
+						<name>
+							<surname>Bensenor</surname>
+							<given-names>IM</given-names>
+						</name>
+						<name>
+							<surname>Carvalho</surname>
+							<given-names>MS</given-names>
+						</name>
+						<name>
+							<surname>Chor</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Duncan</surname>
+							<given-names>BB</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Brazilian Longitudinal Study of Adult Health (ELSA-Brasil): objectives and design</article-title>
+					<source>Am J Epidemiol</source>
+					<year>2012</year>
+					<volume>175</volume>
+					<issue>4</issue>
+					<fpage>315</fpage>
+					<lpage>324</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/aje/kwr294">https://doi.org/10.1093/aje/kwr294</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>14 Aquino EML, Barreto SM, Bensenor IM, Carvalho MS, Chor D, Duncan BB, et al. Brazilian Longitudinal Study of Adult Health (ELSA-Brasil): objectives and design. Am J Epidemiol. 2012;175 (4):315-24. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/aje/kwr294">https://doi.org/10.1093/aje/kwr294</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Aquino</surname>
+							<given-names>EML</given-names>
+						</name>
+						<name>
+							<surname>Vasconcellos-Silva</surname>
+							<given-names>PR</given-names>
+						</name>
+						<name>
+							<surname>Coeli</surname>
+							<given-names>CM</given-names>
+						</name>
+						<name>
+							<surname>Araújo</surname>
+							<given-names>MJ</given-names>
+						</name>
+						<name>
+							<surname>Santos</surname>
+							<given-names>SM</given-names>
+						</name>
+						<name>
+							<surname>Figueiredo</surname>
+							<given-names>RC</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Ethical issues in longitudinal studies: the case of ELSA-Brasil</article-title>
+					<source>Rev Saude Publica</source>
+					<year>2013</year>
+					<volume>47</volume>
+					<supplement>Suppl 2</supplement>
+					<fpage>19</fpage>
+					<lpage>26</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0034-8910.2013047003804">https://doi.org/10.1590/S0034-8910.2013047003804</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>15 Aquino EML, Vasconcellos-Silva PR, Coeli CM, Araújo MJ, Santos SM, Figueiredo RC, et al. Ethical issues in longitudinal studies: the case of ELSA-Brasil. Rev Saude Publica. 2013;47 Suppl 2:19-26. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0034-8910.2013047003804">https://doi.org/10.1590/S0034-8910.2013047003804</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Silva</surname>
+							<given-names>ACV</given-names>
+						</name>
+						<name>
+							<surname>Rosa</surname>
+							<given-names>MI</given-names>
+						</name>
+						<name>
+							<surname>Fernandes</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Lumertz</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Diniz</surname>
+							<given-names>RM</given-names>
+						</name>
+						<name>
+							<surname>Damiani</surname>
+							<given-names>MEFR</given-names>
+						</name>
+					</person-group>
+					<article-title>Fatores associados à osteopenia e osteoporose em mulheres submetidas à densitometria óssea</article-title>
+					<source>Rev Bras Reumatol</source>
+					<year>2005</year>
+					<volume>55</volume>
+					<issue>3</issue>
+					<fpage>223</fpage>
+					<lpage>228</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.rbr.2014.08.012">https://doi.org/10.1016/j.rbr.2014.08.012</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>16 Silva ACV, Rosa MI, Fernandes B, Lumertz S, Diniz RM; Damiani MEFR. Fatores associados à osteopenia e osteoporose em mulheres submetidas à densitometria óssea. Rev Bras Reumatol. 2005;55(3):223-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.rbr.2014.08.012">https://doi.org/10.1016/j.rbr.2014.08.012</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Embleton</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Wood</surname>
+							<given-names>CL</given-names>
+						</name>
+					</person-group>
+					<article-title>Growth, bone health, and later outcomes in infants born preterm</article-title>
+					<source>J Pediatr (Rio J)</source>
+					<year>2014</year>
+					<volume>90</volume>
+					<issue>6</issue>
+					<fpage>529</fpage>
+					<lpage>532</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jped.2014.08.002">https://doi.org/10.1016/j.jped.2014.08.002</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>17 Embleton N, Wood CL. Growth, bone health, and later outcomes in infants born preterm. J Pediatr (Rio J). 2014;90(6):529-32. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jped.2014.08.002">https://doi.org/10.1016/j.jped.2014.08.002</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lohman</surname>
+							<given-names>TG</given-names>
+						</name>
+						<name>
+							<surname>Roche</surname>
+							<given-names>AF</given-names>
+						</name>
+						<name>
+							<surname>Martorel</surname>
+							<given-names>R</given-names>
+						</name>
+					</person-group>
+					<source>Anthropometric standardization reference manual</source>
+					<publisher-loc>Champaign, IL</publisher-loc>
+					<publisher-name>Human Kinetics Books</publisher-name>
+					<year>1988</year>
+				</element-citation>
+				<mixed-citation>18 Lohman TG, Roche AF, Martorel R. Anthropometric standardization reference manual. Champaign, IL: Human Kinetics Books; 1988.</mixed-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Centers for Disease Control and Prevention</collab>
+					</person-group>
+					<source>National Health and Nutrition Examination Survey (NHANES): anthropometry procedures manual</source>
+					<publisher-loc>Atlanta, GA</publisher-loc>
+					<publisher-name>CDC</publisher-name>
+					<year>2004</year>
+				</element-citation>
+				<mixed-citation>19 Centers for Disease Control and Prevention. National Health and Nutrition Examination Survey (NHANES): anthropometry procedures manual. Atlanta, GA: CDC; 2004.</mixed-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bensenor</surname>
+							<given-names>IM</given-names>
+						</name>
+						<name>
+							<surname>Griep</surname>
+							<given-names>RH</given-names>
+						</name>
+						<name>
+							<surname>Pinto</surname>
+							<given-names>KA</given-names>
+						</name>
+						<name>
+							<surname>Faria</surname>
+							<given-names>CP</given-names>
+						</name>
+						<name>
+							<surname>Felisbino-Mendes</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Caetano</surname>
+							<given-names>EI</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Routines of organization of clinical tests and interviews in the ELSA-Brasil investigation center</article-title>
+					<source>Rev Saude Publica</source>
+					<year>2013</year>
+					<volume>47</volume>
+					<supplement>Suppl 2</supplement>
+					<fpage>37</fpage>
+					<lpage>47</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0034-8910.2013047003780">https://doi.org/10.1590/S0034-8910.2013047003780</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>20 Bensenor IM, Griep RH, Pinto KA, Faria CP, Felisbino-Mendes M, Caetano EI, et al. Routines of organization of clinical tests and interviews in the ELSA-Brasil investigation center. Rev Saude Publica. 2013;47 Suppl 2:37-47. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0034-8910.2013047003780">https://doi.org/10.1590/S0034-8910.2013047003780</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rubim</surname>
+							<given-names>BD</given-names>
+						</name>
+					</person-group>
+					<source>Multiple imputation for non-response in survey</source>
+					<publisher-loc>New York</publisher-loc>
+					<publisher-name>Wiley</publisher-name>
+					<year>1987</year>
+				</element-citation>
+				<mixed-citation>21 Rubim BD. Multiple imputation for non-response in survey. New York: Wiley, 1987.</mixed-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Barker</surname>
+							<given-names>DJP</given-names>
+						</name>
+						<name>
+							<surname>Godfrey</surname>
+							<given-names>KM</given-names>
+						</name>
+						<name>
+							<surname>Gluckman</surname>
+							<given-names>PD</given-names>
+						</name>
+						<name>
+							<surname>Harding</surname>
+							<given-names>JE</given-names>
+						</name>
+						<name>
+							<surname>Owens</surname>
+							<given-names>JA</given-names>
+						</name>
+						<name>
+							<surname>Robinson</surname>
+							<given-names>JS</given-names>
+						</name>
+					</person-group>
+					<article-title>Fetal nutrition and cardiovascular disease in adult life</article-title>
+					<source>Lancet</source>
+					<year>1993</year>
+					<volume>341</volume>
+					<issue>8850</issue>
+					<fpage>938</fpage>
+					<lpage>941</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/0140-6736(93)91224-a">https://doi.org/10.1016/0140-6736(93)91224-a</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>22 Barker DJP, Godfrey KM, Gluckman PD, Harding JE, Owens JA, Robinson JS. Fetal nutrition and cardiovascular disease in adult life. Lancet. 1993;341(8850):938-41. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/0140-6736(93)91224-a">https://doi.org/10.1016/0140-6736(93)91224-a</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ben-Shlomo</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Kuh</surname>
+							<given-names>D</given-names>
+						</name>
+					</person-group>
+					<article-title>A life course approach to chronic disease epidemiology: conceptual models, empirical challenges and interdisciplinary perspectives</article-title>
+					<source>Int J Epidemiol</source>
+					<year>2002</year>
+					<volume>31</volume>
+					<issue>2</issue>
+					<fpage>285</fpage>
+					<lpage>293</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/ije/31.2.285">https://doi.org/10.1093/ije/31.2.285</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>23 Ben-Shlomo Y, Kuh D. A life course approach to chronic disease epidemiology: conceptual models, empirical challenges and interdisciplinary perspectives. Int J Epidemiol. 2002;31(2):285-93. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/ije/31.2.285">https://doi.org/10.1093/ije/31.2.285</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Callréus</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>McGuigan</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Åkesson</surname>
+							<given-names>K</given-names>
+						</name>
+					</person-group>
+					<article-title>Birth weight is more important for peak bone mineral content than for bone density: the PEAK-25 study of 1,061 young adult women</article-title>
+					<source>Osteoporos Int</source>
+					<year>2012</year>
+					<volume>24</volume>
+					<issue>4</issue>
+					<fpage>1347</fpage>
+					<lpage>1355</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s00198-012-2077-8">https://doi.org/10.1007/s00198-012-2077-8</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>24 Callréus M, McGuigan F, Åkesson K. Birth weight is more important for peak bone mineral content than for bone density: the PEAK-25 study of 1,061 young adult women. Osteoporos Int. 2012;24(4):1347-55. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s00198-012-2077-8">https://doi.org/10.1007/s00198-012-2077-8</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+					</person-group>
+					<comment>Portaria N° 2.528 de 19 de outubro de 2006</comment>
+					<source>Aprova a Política Nacional de Saúde da Pessoa Idosa</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<year>2006</year>
+					<date-in-citation content-type="access-date">cited 2021 May 1</date-in-citation>
+					<comment>Available from: <ext-link ext-link-type="uri" xlink:href="https://bvsms.saude.gov.br/bvs/saudelegis/gm/2006/prt2528_19_10_2006.html">https://bvsms.saude.gov.br/bvs/saudelegis/gm/2006/prt2528_19_10_2006.html</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>25 Ministério da Saúde (BR). Portaria N° 2.528 de 19 de outubro de 2006. Aprova a Política Nacional de Saúde da Pessoa Idosa. Brasília, DF; 2006 [cited 2021 May 1]. Available from: <ext-link ext-link-type="uri" xlink:href="https://bvsms.saude.gov.br/bvs/saudelegis/gm/2006/prt2528_19_10_2006.html">https://bvsms.saude.gov.br/bvs/saudelegis/gm/2006/prt2528_19_10_2006.html</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+					</person-group>
+					<chapter-title>Secretaria de Atenção à Saúde, Departamento de Ações Programáticas e Estratégicas</chapter-title>
+					<source>Política Nacional de Atenção Integral à Saúde da Criança: orientações para implementação</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<year>2018</year>
+					<date-in-citation content-type="access-date">cited 2021 May 3</date-in-citation>
+					<comment>Available from: <ext-link ext-link-type="uri" xlink:href="https://portaldeboaspraticas.iff.fiocruz.br/wp-content/uploads/2018/07/Pol%C3%ADtica-Nacional-de-Aten%C3%A7%C3%A3o-Integral-%C3%A0-Sa%C3%BAde-da-Crian%C3%A7a-PNAISC-Vers%C3%A3o-Eletr%C3%B4nica.pdf">https://portaldeboaspraticas.iff.fiocruz.br/wp-content/uploads/2018/07/Pol%C3%ADtica-Nacional-de-Aten%C3%A7%C3%A3o-Integral-%C3%A0-Sa%C3%BAde-da-Crian%C3%A7a-PNAISC-Vers%C3%A3o-Eletr%C3%B4nica.pdf</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>26 Ministério da Saúde (BR), Secretaria de Atenção à Saúde, Departamento de Ações Programáticas e Estratégicas. Política Nacional de Atenção Integral à Saúde da Criança: orientações para implementação. Brasília, DF; 2018 [cited 2021 May 3]. Available from: <ext-link ext-link-type="uri" xlink:href="https://portaldeboaspraticas.iff.fiocruz.br/wp-content/uploads/2018/07/Pol%C3%ADtica-Nacional-de-Aten%C3%A7%C3%A3o-Integral-%C3%A0-Sa%C3%BAde-da-Crian%C3%A7a-PNAISC-Vers%C3%A3o-Eletr%C3%B4nica.pdf">https://portaldeboaspraticas.iff.fiocruz.br/wp-content/uploads/2018/07/Pol%C3%ADtica-Nacional-de-Aten%C3%A7%C3%A3o-Integral-%C3%A0-Sa%C3%BAde-da-Crian%C3%A7a-PNAISC-Vers%C3%A3o-Eletr%C3%B4nica.pdf</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Instituto Brasileiro de Geografia e Estatística</collab>
+					</person-group>
+					<source>Pesquisa Nacional por Amostra de Domicílios - Contínua (PNAD)</source>
+					<publisher-loc>Rio de Janeiro</publisher-loc>
+					<publisher-name>IBGE</publisher-name>
+					<year>2016</year>
+					<date-in-citation content-type="access-date">cited 2019 Nov 4</date-in-citation>
+					<comment>Available from: <ext-link ext-link-type="uri" xlink:href="https://www.ibge.gov.br/estatisticas/sociais/educacao/17270-pnad-continua.html?=&amp;t=o-que-e">https://www.ibge.gov.br/estatisticas/sociais/educacao/17270-pnad-continua.html?=&amp;t=o-que-e</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>27 Instituto Brasileiro de Geografia e Estatística. Pesquisa Nacional por Amostra de Domicílios - Contínua (PNAD). Rio de Janeiro: IBGE; 2016 [cited 2019 Nov 4]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.ibge.gov.br/estatisticas/sociais/educacao/17270-pnad-continua.html?=&amp;t=o-que-e">https://www.ibge.gov.br/estatisticas/sociais/educacao/17270-pnad-continua.html?=&amp;t=o-que-e</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Menezes</surname>
+							<given-names>APR</given-names>
+						</name>
+						<name>
+							<surname>Moretti</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Reis</surname>
+							<given-names>AAC</given-names>
+						</name>
+					</person-group>
+					<article-title>The future of the SUS: impacts of neoliberal reforms on public health – austerity versus universality</article-title>
+					<source>Saude Debate</source>
+					<year>2019</year>
+					<volume>43</volume>
+					<issue>5 Spec</issue>
+					<fpage>58</fpage>
+					<lpage>70</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0103-11042019S505">https://doi.org/10.1590/0103-11042019S505</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>28 Menezes APR, Moretti B, Reis AAC. The future of the SUS: impacts of neoliberal reforms on public health – austerity versus universality. Saude Debate. 2019;43(5 Spec):58-70. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0103-11042019S505">https://doi.org/10.1590/0103-11042019S505</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B29">
+				<label>29</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Nilsen</surname>
+							<given-names>TS</given-names>
+						</name>
+						<name>
+							<surname>Kutschke</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Brandt</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Harris</surname>
+							<given-names>JR</given-names>
+						</name>
+					</person-group>
+					<article-title>Validity of self-reported birth weight: results from a Norwegian twin sample</article-title>
+					<source>Twin Res Hum Genet</source>
+					<year>2017</year>
+					<volume>20</volume>
+					<issue>5</issue>
+					<fpage>406</fpage>
+					<lpage>413</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1017/thg.2017.44">https://doi.org/10.1017/thg.2017.44</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>29 Nilsen TS, Kutschke J, Brandt I, Harris JR. Validity of self-reported birth weight: results from a Norwegian twin sample. Twin Res Hum Genet. 2017;20(5):406-13. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1017/thg.2017.44">https://doi.org/10.1017/thg.2017.44</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B30">
+				<label>30</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Donders</surname>
+							<given-names>ART</given-names>
+						</name>
+						<name>
+							<surname>Heijden</surname>
+							<given-names>GJMG</given-names>
+						</name>
+						<name>
+							<surname>Stijnen</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Moons</surname>
+							<given-names>KGM</given-names>
+						</name>
+					</person-group>
+					<article-title>Review: a gentle introduction to imputation of missing values</article-title>
+					<source>J Clin Epidemiol</source>
+					<year>2006</year>
+					<volume>59</volume>
+					<issue>10</issue>
+					<fpage>1087</fpage>
+					<lpage>1091</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jclinepi.2006.01.014">https://doi.org/10.1016/j.jclinepi.2006.01.014</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>30 Donders ART, Heijden GJMG, Stijnen T, Moons KGM. Review: a gentle introduction to imputation of missing values. J Clin Epidemiol. 2006;59(10):1087-91. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jclinepi.2006.01.014">https://doi.org/10.1016/j.jclinepi.2006.01.014</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B31">
+				<label>31</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Schoenau</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Land</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Stabrey</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Remer</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Kroke</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>The bone mass concept: problems in short stature</article-title>
+					<source>Eur J Endocrinol</source>
+					<year>2004</year>
+					<volume>151</volume>
+					<supplement>Suppl 1</supplement>
+					<fpage>S87</fpage>
+					<lpage>S91</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1530/eje.0.151s087">https://doi.org/10.1530/eje.0.151s087</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>31 Schoenau E, Land C, Stabrey A, Remer T, Kroke A. The bone mass concept: problems in short stature. Eur J Endocrinol. 2004;151 Suppl 1:S87-S91. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1530/eje.0.151s087">https://doi.org/10.1530/eje.0.151s087</ext-link>
+				</mixed-citation>
+			</ref>
+		</ref-list>
+	</back>
+</article>

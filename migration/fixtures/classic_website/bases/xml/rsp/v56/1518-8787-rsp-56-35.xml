@@ -1,0 +1,1613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.1" specific-use="sps-1.9" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="nlm-ta">Rev Saude Publica</journal-id>
+			<journal-id journal-id-type="publisher-id">rsp</journal-id>
+			<journal-title-group>
+				<journal-title>Revista de Saúde Pública</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Rev. Saúde Pública</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="ppub">0034-8910</issn>
+			<issn pub-type="epub">1518-8787</issn>
+			<publisher>
+				<publisher-name>Faculdade de Saúde Pública da Universidade de São Paulo</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="other">00228</article-id>
+			<article-id pub-id-type="doi">10.11606/s1518-8787.2022056004047</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Original Article</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Recent HIV infections: evaluation of a simple identification score for newly diagnosed patients</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-0254-4154</contrib-id>
+					<name>
+						<surname>Matsuda</surname>
+						<given-names>Elaine Monteiro</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-8233-0369</contrib-id>
+					<name>
+						<surname>Ahagon</surname>
+						<given-names>Cintia Mayumi</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-8564-7935</contrib-id>
+					<name>
+						<surname>Coelho</surname>
+						<given-names>Luana Portes Ozório</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-0334-0572</contrib-id>
+					<name>
+						<surname>Campos</surname>
+						<given-names>Ivana Barros de</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>III</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-5901-2095</contrib-id>
+					<name>
+						<surname>Colpas</surname>
+						<given-names>Daniela Rodrigues</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>III</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-0602-4623</contrib-id>
+					<name>
+						<surname>Carmo</surname>
+						<given-names>Andreia Moreira dos Santos</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>III</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-1022-7837</contrib-id>
+					<name>
+						<surname>Brígido</surname>
+						<given-names>Luís Fernando de Macedo</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>I</label>
+				<institution content-type="orgname">Secretaria Municipal de Saúde</institution>
+				<addr-line>
+					<named-content content-type="city">Santo André</named-content>
+					<named-content content-type="state">SP</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Secretaria Municipal de Saúde. Santo André, SP, Brasil</institution>
+			</aff>
+			<aff id="aff2">
+				<label>II</label>
+				<institution content-type="orgname">Instituto Adolfo Lutz</institution>
+				<institution content-type="orgdiv1">Centro de Virologia</institution>
+				<addr-line>
+					<named-content content-type="city">São Paulo</named-content>
+					<named-content content-type="state">SP</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Instituto Adolfo Lutz. Centro de Virologia. São Paulo, SP, Brasil</institution>
+			</aff>
+			<aff id="aff3">
+				<label>III</label>
+				<institution content-type="orgname">Instituto Adolfo Lutz</institution>
+				<institution content-type="orgdiv1">Centro Regional de Santo André</institution>
+				<addr-line>
+					<named-content content-type="city">Santo André</named-content>
+					<named-content content-type="state">SP</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Instituto Adolfo Lutz. Centro Regional de Santo André. Santo André, SP, Brasil</institution>
+			</aff>
+			<author-notes>
+				<corresp id="c01"> Correspondence: Luís Fernando de Macedo Brígido Instituto Adolfo Lutz Avenida Doutor Arnaldo, 355 01246-902 São Paulo, SP, Brasil E-mail: <email>lubrigido@gmail.com</email>
+				</corresp>
+				<fn fn-type="con">
+					<p><bold>Authors’ Contribution:</bold> Study design and planning: EMM, LFMB. Data collection, analysis and interpretation: EMM, LFMB, CMA, LPOC, IBC, DRC, AMSC. Manuscript drafting or review: EMM, LFMB, IBC. Approval of the final version: EMM, LFMB, CMA, LPOC, IBC, DRC, AMSC. Public responsibility for the content of the article: EMM, LFMB.</p>
+				</fn>
+				<fn fn-type="conflict">
+					<p><bold>Conflict of Interest:</bold> The authors declare no conflict of interest.</p>
+				</fn>
+			</author-notes>
+			<pub-date date-type="pub" publication-format="electronic">
+				<day>06</day>
+				<month>05</month>
+				<year>2022</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">
+				<year>2022</year>
+			</pub-date>
+			<volume>56</volume>
+			<elocation-id>35</elocation-id>
+			<history>
+				<date date-type="received">
+					<day>9</day>
+					<month>07</month>
+					<year>2021</year>
+				</date>
+				<date date-type="accepted">
+					<day>9</day>
+					<month>10</month>
+					<year>2021</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="en">
+					<license-p> This is an Open Access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. </license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>ABSTRACT</title>
+				<sec>
+					<title>OBJECTIVE</title>
+					<p> Recognize incident infection to better characterize the groups that fuel HIV epidemic. We propose a simple score to identify recent infections among newly diagnosed patients as a HIV surveillance tool.</p>
+				</sec>
+				<sec>
+					<title>METHODS</title>
+					<p> Newly diagnosed patients were defined as recent infections when a negative serological test in the previous year was available. Laboratory tests, such as the avidity index (Bio-Rad, according to the CEPHIA protocol), chemiluminescent intensity (CMIA, architect, Abbott), and the nucleotide ambiguity index of partial <italic>pol</italic> sequences were used as proxies of recency. A simple score based on clinical symptoms of acute retroviral syndrome during the previous year, CD4+ T cell count, and viral load at admission was tested to assess the predictive power, using receiver operating characteristic (ROC) curves, to identify recent cases of infection.</p>
+				</sec>
+				<sec>
+					<title>RESULTS</title>
+					<p> We evaluated 204 recently diagnosed patients who were admitted to the <italic>Ambulatório de Referência em Moléstias Infecciosas de Santo André</italic> (Santo André Reference Infectious Diseases Outpatient Clinic), in the metropolitan region of São Paulo, Brazil, recruited between 2011 and 2018. An HIV-negative test in the year prior to enrollment was documented in 37% of participants. The proportion of cases classified as recent infections (less than one year), according to the laboratory proxies were: 37% (67/181) for an avidity index &lt; 40%, 22% (30/137) for a CMIA &lt; 200, and 68% (124/181) for an ambiguity index &lt; 0.5%. Using different combinations of recency definitions, our score showed an area under the ROC curve from 0.66 to 0.87 to predict recency.</p>
+				</sec>
+				<sec>
+					<title>CONCLUSIONS</title>
+					<p> Using data from patients’ interviews and routine laboratory tests at admission, a simple score may provide information on HIV recency and thus, a proxy for HIV incidence to guide public policies. This simple for the Brazilian public health system and other low- and middle-income countries.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="en">
+				<kwd>Acquired Immunodeficiency Syndrome, epidemiology</kwd>
+				<kwd>AIDS Serodiagnosis, classification</kwd>
+				<kwd>Early Diagnosis</kwd>
+				<kwd>Time-to-Treatment</kwd>
+				<kwd>Epidemiologic Surveillance Services</kwd>
+			</kwd-group>
+			<funding-group>
+				<award-group>
+					<funding-source>Fundação de Amparo à Pesquisa do Estado de São Paulo</funding-source>
+					<award-id>2018/14384-9</award-id>
+				</award-group>
+				<award-group>
+					<funding-source>Fundação de Amparo à Pesquisa do Estado de São Paulo</funding-source>
+					<award-id>2016/14813-1</award-id>
+				</award-group>
+				<award-group>
+					<funding-source>Conselho Nacional de Desenvolvimento Científico e Tecnológico</funding-source>
+					<award-id>442776/2019-5</award-id>
+				</award-group>
+				<funding-statement>Funding: Fundação de Amparo à Pesquisa do Estado de São Paulo ( Fapesp -PDID/PPPP - 2018/14384-9, PPSUS - 2016/14813-1). Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq - Process 442776/2019-5).</funding-statement>
+			</funding-group>
+			<counts>
+				<fig-count count="1"/>
+				<table-count count="3"/>
+				<equation-count count="0"/>
+				<ref-count count="26"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>INTRODUCTION</title>
+			<p>Forty years into the Aids epidemic, the current number of deaths from the disease is the lowest for the last 20 years (690,000 HIV-related deaths in 2019). However, estimates suggest that 1.5 million new infections still occur annually<sup><xref ref-type="bibr" rid="B1">1</xref></sup>. The number of new infections fuels the epidemic, which seems to have increased in many areas. Due to different obstacles, added now by the COVID-19 pandemic, which also affected people living with HIV care<sup><xref ref-type="bibr" rid="B2">2</xref></sup>, most countries will fail to reach the 90-90-90 goal in the near future.</p>
+			<p>Despite many different interventions, HIV infection in Brazil shows signs of continued expansion. In 1996, the Brazilian government initiated free treatment policies, along with prevention campaigns and free tools, such as condoms, post-exposure prophylaxis and, more recently, pre-exposure prophylaxis, but all these initiatives have been insufficient to restrain the epidemic. Brazil has had an estimated 40,000 new HIV cases annually in the last five years<sup><xref ref-type="bibr" rid="B5">5</xref></sup>, with increasing trends in some populations, such as men who have sex with men<sup><xref ref-type="bibr" rid="B6">6</xref></sup>. Still, information on the incidence of HIV infection is limited.</p>
+			<p>Viral load testing of seronegative individuals with recent risk of exposure is the most reliable way to identify a very early (acute) infection, and, despite proposals of clinical algorithms to screen eligible patients<sup><xref ref-type="bibr" rid="B7">7</xref></sup>, costs and logistic issues limits routine use. Identifying incident cases with information available at routine admissions to health services in low- and middle-income countries may provide a practical and useful tool to help public health policies to target segments of the population which are more vulnerable to HIV infection, thus improving diagnosis, linkage to care, and providing epidemiological information relevant to the understanding of the HIV epidemic.</p>
+			<p>This study aims to evaluate laboratory proxies to identify recently infected HIV patients and to assess a simple score to predict recency based on information available at admission, a tool that could be integrated into the case notification of HIV surveillance services without additional costs, especially in low- and middle-income countries where resources are scarce.</p>
+		</sec>
+		<sec sec-type="methods">
+			<title>METHODS</title>
+			<sec>
+				<title>Patients and Methods</title>
+				<p>Participants were enrolled among newly diagnosed patients, recruited from 2011 to 2018. Patients were informed of our study and included if had a first HIV positive test recently and agreed to participate in the study, signing an informed consent form. Data from the Brazilian surveillance system were also included. This study was registered and approved by institutional ethics committees (CAAE: 39967314.5.0000.5484 and CAAE: 39967314.5.3001.0059).</p>
+				<p>Participants were included in our analyses if they met one of the following criteria: i) patients recently diagnosed by serological testing (both recent and chronic HIV infections), admitted to the <italic>Ambulatório de Referência em Moléstias Infecciosas de Santo André</italic>, in the metropolitan region of São Paulo, Brazil; ii) patients with acute HIV infections diagnosed by viral load (&gt; 5,000 copies/mL), and lacking criteria for the serological diagnosis of HIV infection; and iii) patients evaluated for the clinical symptoms of dengue infection lacking its serological markers, but with a detected HIV viral load and negative or indeterminate HIV serological results<sup><xref ref-type="bibr" rid="B8">8</xref></sup>.</p>
+				<p>To exclude patients already in follow-up, cases were further validated as actual new HIV diagnoses by a review of public health electronic databases which verified the absence of previous antiretroviral registries at either the <italic>Sistema de Controle Logístico de Medicamentos</italic> (the Brazilian drug logistics management system - SICLOM), or at the viral load and CD4+ T cell count registries at the <italic>Sistema de Controle de Exames Laboratoriais</italic> (Laboratory Examinations Control System - SISCEL). CD4+ T cell count was performed by ﬂow cytometry (BD, USA), and HIV viral load by reverse transcription-quantitative polymerase chain reaction (RT-qPCR) (Abbott, USA) at accredited laboratories of the national HIV laboratory network.</p>
+				<p>To estimate the time of HIV infection, especially for cases without a previous seronegative test, three assays were used; i) the avidity index, based on the commercially available ELISA kit (Genetic Systems HIV-1/HIV-2 Plus EIA, Bio-Rad, USA) performed with modifications based on the DEA-EIA, CEPHIA protocol<sup><xref ref-type="bibr" rid="B9">9</xref></sup>. Briefly, 100 μL of serum were diluted in an incubation buffer at a 1:10 ratio and incubated in the presence or absence (in parallel) of 0.1 M diethylamine (DEA). The optical density pairs (OD 450nm) of the samples (with and without DEA) were used to estimate the avidity index according to the following equation: avidity index % = [OD 450nm (with DEA) / OD 450 nm (without DEA)] × 100. Two cases of acute infection with no change in OD after modification due to a lack of reactivity even in regular serological tests were classified, for this study, as an avidity index of 0%. A second serological proxy for recency was the chemiluminescent microparticle immunoassay (CMIA), its values were generated by the architect microparticle based immunoassay (Abbott USA), a fourth-generation serological test, performed according to the manufacturers’ instructions. Time of infection was additionally estimated by the sequence ambiguity index, based on partial polymerase sequences. Briefly, sequences were generated from retrotranscribed plasma RNA by one-step RT-PCR using High Fidelity Taq platinum and Superscript III, followed by nested PCR and Big Dye (Life) incorporation, resolved in an ABI 3130XL<sup><xref ref-type="bibr" rid="B10">10</xref></sup>. Sequences were edited with the Sequencer 4.7 software (Gene Codes) and/or with Recall (http://pssm.cfenet.ubc.ca/), subsequently analyzed at NCBI (www.ncbi.nlm.nih.gov/projects/genotyping/help.html) and REGA Genotyping tools (http://www.bioafrica.net/rega-genotype/html/). To estimate the ambiguity index, the number of positions with possible nucleotide mixtures observed in the sequence was divided by the total number of nucleotides and multiplied by 100. The unresolved mix of all nucleotides (N) was excluded from both the denominator and the numerator of the calculation. The percentages of the ambiguous bases (R, Y, K, M, S, W, B, D, H, V) in each sequence were estimated with BioEdit<sup><xref ref-type="bibr" rid="B11">11</xref></sup> and Excel softwares.</p>
+				<p>The recency cutoffs used were as suggested by the literature, such as defining recent infections by an avidity index below 40%<sup><xref ref-type="bibr" rid="B9">9</xref></sup> and a cut-off below 0.5% of the ambiguous positions<sup><xref ref-type="bibr" rid="B12">12</xref></sup>. For CMIA, although a signal/cut-off (S/CO) limit of 400<sup><xref ref-type="bibr" rid="B13">13</xref></sup> or 418 (IQR25–75 384–449)<sup><xref ref-type="bibr" rid="B14">14</xref></sup> units was used by some studies as a proxy for recent infection, a stringent cutoff of an S/CO below 200 units<sup><xref ref-type="bibr" rid="B15">15</xref></sup> was chosen.</p>
+				<p>To define chronic cases, less stringent definitions were used, such as including all non-acute volunteers without a negative serology in the year prior to sampling, as well as considering chronic cases with only some laboratory evidence of chronic infection, such as a sequence ambiguity above 0.5%, an avidity index above 80%<sup><xref ref-type="bibr" rid="B16">16</xref></sup>, or a high CMIA. Since the literature lacks a clear value to define what a high CMIA is, a more conservative definition was assumed based on our tested cases, in which the cutoff was defined as a CMIA value above the median of volunteers lacking previous negative test, i.e., 821 units. This value is above the 400 units used in some previous studies as a proxy for chronic cases<sup><xref ref-type="bibr" rid="B13">13</xref>,<xref ref-type="bibr" rid="B14">14</xref></sup>.</p>
+			</sec>
+			<sec>
+				<title>A Score to Identify Recent Infections</title>
+				<p>Simple clinical and epidemiological criteria available at admission as part of routine patient enrolment into care were given points, resulting in a score to access the likelihood of recent infections:</p>
+				<list list-type="roman-lower">
+					<list-item>
+						<p>Viral load (VL) at admission (VL log<sub>10</sub> ≥ 5 to 5.9: score +5; VL log<sub>10</sub> ≥ 6 to 6.9: score +6, and VL log<sub>10</sub> ≥ 7: score +7).</p>
+					</list-item>
+					<list-item>
+						<p>CD4+ T cell count at admission (CD4+ &lt; 100 cells/mm<sup>3</sup>: score -7; CD4 + 100 to 199 cells/mm<sup>3</sup>: score -5; CD4+ 200 to 349 cells/mm<sup>3</sup>: score -3, and CD4+ ≥ 350 cells /mm<sup>3</sup>: score 0).</p>
+					</list-item>
+					<list-item>
+						<p>Clinical history of symptoms in the 365 days prior to diagnosis suggestive of acute retroviral syndrome (ARS): score of +7 if fever accompanied by at least two of the following symptoms: headache, myalgia, arthralgia, rash, oral or genital ulcers, malaise, diarrhea, and lymphadenopathy.</p>
+					</list-item>
+					<list-item>
+						<p>Unprotected sex with HIV-positive individuals or unknown serological status in the last year: score +10.</p>
+					</list-item>
+				</list>
+			</sec>
+			<sec>
+				<title>Definitions of Recent Infections</title>
+				<p>Different associations of three laboratory proxies of infection time; serological (CMIA and avidity) and molecular (ambiguity) were tested with the proposed score. These laboratory proxies were considered by themselves and with the documented, serological evidence of seroconversion in the year prior to sampling.</p>
+			</sec>
+			<sec>
+				<title>Statistical Analysis</title>
+				<p>Continuous variables were shown as the median and interquartile ranges (IQR), and categorical variables, as proportions. To assess the recency of infection among this population, alternative definitions were tested to categorize cases as recent or chronic infections according to laboratory recency tests and seroconversion data. ROC curves (Stata version 10) were used to determine the best score to discriminate recent infections and evaluate the sensitivity and specificity of the score regarding our definitions. Spearman correlation (Stata version 10) was used to measures the strength and direction of correlation between continuous variables.</p>
+			</sec>
+		</sec>
+		<sec sec-type="results">
+			<title>RESULTS</title>
+			<p>We included 204 newly diagnosed cases. <xref ref-type="table" rid="t1">Table 1</xref> shows the demographic and laboratory data of all cases at admission.</p>
+			<p>
+				<table-wrap id="t1">
+					<label>Table 1</label>
+					<caption>
+						<title>Demographic and laboratory data of the studied population.</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left">Age (years) (n = 204)</th>
+								<th>27 (IQR25–75: 23–34)</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Men</td>
+								<td align="center">87% 178/204</td>
+							</tr>
+							<tr>
+								<td>MSM</td>
+								<td align="center">81% 145/178</td>
+							</tr>
+							<tr>
+								<td>CD4+ T cells/mm<sup>3</sup> (n = 199)</td>
+								<td align="center">528 (IQR25–75: 353–769)</td>
+							</tr>
+							<tr>
+								<td>Viral load (log<sub>10</sub>) (n = 203)</td>
+								<td align="center">4.67 (IQR25–75: 4.06–5.19)</td>
+							</tr>
+							<tr>
+								<td>Avidity index % (n = 181)</td>
+								<td align="center">73% (IQR25–75: 21–100)</td>
+							</tr>
+							<tr>
+								<td>Avidity index &lt; 40%</td>
+								<td align="center">37% 67/181</td>
+							</tr>
+							<tr>
+								<td>CMIA (n = 137)</td>
+								<td align="center">580 (IQR25–75: 250–899)</td>
+							</tr>
+							<tr>
+								<td>CMIA % of cases with index &lt; 200</td>
+								<td align="center">22% 30/137</td>
+							</tr>
+							<tr>
+								<td>Ambiguity index (n = 181)</td>
+								<td align="center">0.20% (IQR25–75: 0.00–0.59)</td>
+							</tr>
+							<tr>
+								<td>Ambiguity index &lt; 0.5%</td>
+								<td align="center">68% 124/181</td>
+							</tr>
+							<tr>
+								<td>Subtype <italic>pol</italic> (NCBI/REGA) (n = 181)</td>
+								<td align="center">B 75.7%, C 10.5%, F 5.5%, Rec 8.3%</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN1">
+							<p>MSM: men who have sex with men; Avidity index: Bio-Rad-Avidity assay serology test (CEPHIA protocol). CMIA: chemiluminescence microparticle immunoassay (Architect HIV Ag/Ab, Abbott, USA). Ambiguity index: the number of nucleotide mixtures (excluding four unresolved nucleotides) divided by the total number of nucleotides analyzed. Rec: recombinants at partial <italic>pol</italic> (4 AG, 3 BC, and 8 BF). Continuous variables are shown as median and percentile 25th-75th (IQR), and categorical variables, as proportions.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>We evaluated associations of the three proxies of recency, with a Spearman’s rank correlation varying from 0.65 rho for the two serological assays (avidity and CMIA indices) to 0.46 rho for avidity and ambiguity indices (p &lt; 0.0001).</p>
+			<sec>
+				<title>Definitions Used to Classify Cases as Recent or Chronic</title>
+				<p>In total, 37% of our cases showed a negative test for seroconversion within one year (SC1year), the gold standard for recent infections. Thus, most newly diagnosed cases lacked previous serology, therefore potentially including either untested recent infections or chronic cases. To evaluate if we could use these laboratory proxies to identify additional recent infections among these patients, we first compared the values of these laboratory proxies of recency for cases with one-year seroconversion to all others. This comparison shows a significant difference: CMIA, 251 (IQR25–75 : 98–557) vs 729 (IQR25–75 : 507–1,045) (p &lt; 0.0001); avidity index, 24% (IQR25–75 : 11–77) vs 91% (IQR25–75 : 40–100) (p &lt; 0.0001), and ambiguity index, 0.09 (IQR25–75 : 0–0.3) vs 0.37 (IQR25–75 : 0.09–0.64) (p = 0.0005). Assuming that these proxies could identify additional recently infected individuals, we constructed different recent/chronic definitions to evaluate the consistency of the proposed score.</p>
+				<p>The area under the ROC curve (AUC) varied from 0.66 (using only the ambiguity index) to 0.87 for the serological indices. <xref ref-type="table" rid="t2">Table 2</xref> shows some of the definitions and respective AUC values obtained.</p>
+				<p>
+					<table-wrap id="t2">
+						<label>Table 2</label>
+						<caption>
+							<title>The area under the ROC curve (AUC) of different definitions evaluated.</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left" style="font-weight:normal">
+									</th>
+									<th>n</th>
+									<th>AUC</th>
+									<th>95%CI</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>SC1YEAR vs all others</td>
+									<td align="center">204</td>
+									<td align="center">0.79</td>
+									<td align="center">0.72–0.87</td>
+								</tr>
+								<tr>
+									<td>SC1YEAR vs avidity &gt; 80%</td>
+									<td align="center">118</td>
+									<td align="center">0.84</td>
+									<td align="center">0.76–0.91</td>
+								</tr>
+								<tr>
+									<td>SC1YEAR vs avidity &gt; 80% or CMIA &gt; 821</td>
+									<td align="center">125</td>
+									<td align="center">0.84</td>
+									<td align="center">0.77–0.91</td>
+								</tr>
+								<tr>
+									<td>SC1YEAR vs either avidity &gt; 80%, CMIA &gt; 821, or ambiguity &gt; 0.5%, except if avidity &lt; 40% or CMIA &lt; 200 (Definition A)</td>
+									<td align="center">133</td>
+									<td align="center">0.85</td>
+									<td align="center">0.78–0.92</td>
+								</tr>
+								<tr>
+									<td>SC1YEAR vs avidity &gt; 80% &amp; CMIA &gt; 821</td>
+									<td align="center">76</td>
+									<td align="center">0.84</td>
+									<td align="center">0.75–0.93</td>
+								</tr>
+								<tr>
+									<td>SC1YEAR vs avidity &gt; 80% &amp; CMIA &gt; 821 or CDC93 C (Aids)</td>
+									<td align="center">86</td>
+									<td align="center">0.87</td>
+									<td align="center">0.80–0.94</td>
+								</tr>
+								<tr>
+									<td>SC1YEAR &amp; avidity &lt; 40% or CMIA &lt; 200 vs avidity &gt; 80% or CMIA &gt; 821</td>
+									<td align="center">170</td>
+									<td align="center">0.76</td>
+									<td align="center">0.69–0.83</td>
+								</tr>
+								<tr>
+									<td>SC1YEAR or avidity &lt; 40% or CMIA &lt; 200 vs avidity &gt; 80% or CMIA &gt; 821</td>
+									<td align="center">182</td>
+									<td align="center">0.78</td>
+									<td align="center">0.71–0.84</td>
+								</tr>
+								<tr>
+									<td>Ambiguity - low (&lt; 0.5) vs high (&gt; 0.5)</td>
+									<td align="center">181</td>
+									<td align="center">0.66</td>
+									<td align="center">0.58–0.75</td>
+								</tr>
+								<tr>
+									<td>Avidity - low (&lt; 40%) vs high (&gt; 80%)</td>
+									<td align="center">147</td>
+									<td align="center">0.71</td>
+									<td align="center">0.63–0.79</td>
+								</tr>
+								<tr>
+									<td>Avidity &lt; 40% vs avidity &gt; 40%</td>
+									<td align="center">181</td>
+									<td align="center">0.74</td>
+									<td align="center">0.64–0.84</td>
+								</tr>
+								<tr>
+									<td>CMIA &lt; 200 vs CMIA &gt; 821</td>
+									<td align="center">72</td>
+									<td align="center">0.77</td>
+									<td align="center">0.66–0.88</td>
+								</tr>
+								<tr>
+									<td>CMIA &lt; 200 vs CMIA &gt; 400</td>
+									<td align="center">121</td>
+									<td align="center">0.71</td>
+									<td align="center">0.61–0.81</td>
+								</tr>
+								<tr>
+									<td>CMIA &lt; 200 vs CMIA &gt; 200</td>
+									<td align="center">137</td>
+									<td align="center">0.71</td>
+									<td align="center">0.60–0.81</td>
+								</tr>
+								<tr>
+									<td>CMIA &lt; 400 vs CMIA &gt; 400</td>
+									<td align="center">137</td>
+									<td align="center">0.74</td>
+									<td align="center">0.66–0.83</td>
+								</tr>
+								<tr>
+									<td>CMIA &lt; 400 vs CMIA &gt; 821</td>
+									<td align="center">88</td>
+									<td align="center">0.78</td>
+									<td align="center">0.68–0.87</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN2">
+								<p>AUC: the area under the ROC curve. SC1YEAR: documented one-year seroconversion. Vs: versus. CDC93: Center of disease control 1993 HIV infection staging classification. Avidity index: Bio-Rad-Avidity assay serology test (CEPHIA protocol). CMIA: chemiluminescence microparticle immunoassay Architect HIV Ag/Ab, Abbott, USA). Ambiguity index: the number of nucleotide mixtures (excluding four unresolved nucleotides) divided by the total number of nucleotides analyze. 95%CI: confidence interval of the AUC generated at Stata version 10.</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p>The definition of recent and chronic infections that had the best area under the curve (0.87 AUC), but includes clinical information such as chronic infection classification and has a smaller sample size (n = 86). So we adopted the second-best AUC, 0.85 (definition A). This definition compares SC1year (recent) to chronic cases defined as either an avidity &gt; 80%, a CMIA &gt; 821, or an ambiguity &gt; 0.5, except if avidity &lt; 40% or CMIA &lt; 200 (n = 133). This definition includes as chronic all three laboratory cutoffs but excludes any case with one of the proxies of recency. <xref ref-type="table" rid="t3">Table 3</xref> shows the sensitivity and specificity (ROC) curve of the score with this adopted definition (A), and <xref ref-type="fig" rid="f01">Figure</xref>, its respective ROC graph.</p>
+				<p>
+					<table-wrap id="t3">
+						<label>Table 3</label>
+						<caption>
+							<title>Sensitivity, specificity and other parameters of ROC curve for the score obtained with definition A. Detailed report of sensitivity and specificity.</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th colspan="6">Correctly</th>
+								</tr>
+								<tr>
+									<th align="left">Cut point</th>
+									<th>Sensitivity</th>
+									<th>Specificity</th>
+									<th>Classified</th>
+									<th>LR+</th>
+									<th>LR-</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>≥ 3</td>
+									<td align="center">100.00%</td>
+									<td align="center">0.00%</td>
+									<td align="center">31.58%</td>
+									<td align="center">1.0000</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>≥ 7</td>
+									<td align="center">100.00%</td>
+									<td align="center">4.40%</td>
+									<td align="center">34.59%</td>
+									<td align="center">1.0460</td>
+									<td align="center">0.0000</td>
+								</tr>
+								<tr>
+									<td>≥ 8</td>
+									<td align="center">100.00%</td>
+									<td align="center">7.69%</td>
+									<td align="center">36.84%</td>
+									<td align="center">1.0833</td>
+									<td align="center">0.0000</td>
+								</tr>
+								<tr>
+									<td>≥ 9</td>
+									<td align="center">100.00%</td>
+									<td align="center">21.98%</td>
+									<td align="center">46.62%</td>
+									<td align="center">1.2817</td>
+									<td align="center">0.0000</td>
+								</tr>
+								<tr>
+									<td>≥ 10</td>
+									<td align="center">100.00%</td>
+									<td align="center">25.27%</td>
+									<td align="center">48.87%</td>
+									<td align="center">1.3382</td>
+									<td align="center">0.0000</td>
+								</tr>
+								<tr>
+									<td>≥ 12</td>
+									<td align="center">83.33%</td>
+									<td align="center">68.13%</td>
+									<td align="center">72.93%</td>
+									<td align="center">2.6149</td>
+									<td align="center">0.2446</td>
+								</tr>
+								<tr>
+									<td>≥ 13</td>
+									<td align="center">83.33%</td>
+									<td align="center">73.63%</td>
+									<td align="center">76.69%</td>
+									<td align="center">3.1597</td>
+									<td align="center">0.2264</td>
+								</tr>
+								<tr>
+									<td>≥ 15</td>
+									<td align="center">83.33%</td>
+									<td align="center">78.02%</td>
+									<td align="center">79.70%</td>
+									<td align="center">3.7917</td>
+									<td align="center">0.2136</td>
+								</tr>
+								<tr>
+									<td>≥ 16</td>
+									<td align="center">69.05%</td>
+									<td align="center">85.71%</td>
+									<td align="center">80.45%</td>
+									<td align="center">4.8333</td>
+									<td align="center">0.3611</td>
+								</tr>
+								<tr>
+									<td>≥ 17</td>
+									<td align="center">66.67%</td>
+									<td align="center">85.71%</td>
+									<td align="center">79.70%</td>
+									<td align="center">4.6667</td>
+									<td align="center">0.3889</td>
+								</tr>
+								<tr>
+									<td>≥ 20</td>
+									<td align="center">42.86%</td>
+									<td align="center">94.51%</td>
+									<td align="center">78.20%</td>
+									<td align="center">7.8000</td>
+									<td align="center">0.6047</td>
+								</tr>
+								<tr>
+									<td>≥ 21</td>
+									<td align="center">40.48%</td>
+									<td align="center">95.60%</td>
+									<td align="center">78.20%</td>
+									<td align="center">9.2083</td>
+									<td align="center">0.6226</td>
+								</tr>
+								<tr>
+									<td>≥ 22</td>
+									<td align="center">38.10%</td>
+									<td align="center">95.60%</td>
+									<td align="center">77.44%</td>
+									<td align="center">8.6667</td>
+									<td align="center">0.6475</td>
+								</tr>
+								<tr>
+									<td>≥ 23</td>
+									<td align="center">11.90%</td>
+									<td align="center">100.00%</td>
+									<td align="center">72.18%</td>
+									<td align="center">0.8810</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>≥ 24</td>
+									<td align="center">7.14%</td>
+									<td align="center">100.00%</td>
+									<td align="center">70.68%</td>
+									<td>
+									</td>
+									<td align="center">0.9286</td>
+								</tr>
+								<tr>
+									<td>&gt; 24</td>
+									<td align="center">0.00%</td>
+									<td align="center">100.00%</td>
+									<td align="center">68.42%</td>
+									<td>
+									</td>
+									<td align="center">1.0000</td>
+								</tr>
+								<tr>
+									<td align="center" colspan="3"><bold>ROC</bold></td>
+									<td align="center" colspan="2"><bold>Asymptotic Normal</bold></td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td align="center"><bold>Obs</bold></td>
+									<td align="center"><bold>Area</bold></td>
+									<td align="center"><bold>Std. Err.</bold></td>
+									<td align="center"><bold>[95% Conf.</bold></td>
+									<td align="center"><bold>Interval]</bold></td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td align="center">133</td>
+									<td align="center">0.8503</td>
+									<td align="center">0.0343</td>
+									<td align="center">0.78311</td>
+									<td align="center">0.91757</td>
+									<td>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN3">
+								<p>Definition A: only recent cases with documented seroconversion within one year (SC1year) versus either the avidity index &gt; 80% (Bio-Rad-Avidity assay serology test, CEPHIA protocol), CMIA &gt; 821 (chemiluminescence microparticle immunoassay Architect HIV Ag/Ab, Abbott, USA), ambiguity index &gt; 0.5% (the number of nucleotide mixtures, excluding four unresolved nucleotides divided by the total number of nucleotides analyzed), except if avidity index &lt; 40% or CMIA &lt; 200.</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p>
+					<fig id="f01">
+						<label>Figure</label>
+						<caption>
+							<title>The ROC graph of the score for definition A.</title>
+						</caption>
+						<graphic xlink:href="1518-8787-rsp-56-35-gf01.tif"/>
+					</fig>
+				</p>
+			</sec>
+		</sec>
+		<sec sec-type="discussion">
+			<title>DISCUSSION</title>
+			<p>Serious challenges remain in addressing the global HIV/Aids pandemic, so it is imperative that we maximally implement the effective prevention and treatment tools already available to us<sup><xref ref-type="bibr" rid="B12">12</xref></sup>. Among these are instruments to better identify the source of new infections in the universe of prevalent cases, fundamental to the better understanding of HIV incidence. Identifying incident/recent infections has been a challenge, but it is a key metric for epidemiological monitoring and intervention. Therefore, estimating the incidence or the number of new infections at a certain time is a major tool for preventive interventions<sup><xref ref-type="bibr" rid="B17">17</xref></sup>.</p>
+			<p>Cohorts of seroincidence are costly, and inclusion and retention biases may distort estimates. A large CEPHIA consortium has concatenated different efforts in the field to provide tests that may evaluate the recency of HIV infections in samples with known time of infection. Many of these approaches use modified serological tests, such as the avidity index<sup><xref ref-type="bibr" rid="B15">15</xref>,<xref ref-type="bibr" rid="B18">18</xref></sup>, and, more recently, results from regular serological assays, such as the fourth-generation serological test (CMIA, Architect Abbott, USA), which can provide a dynamic range of chemiluminescence that allows recency estimation<sup><xref ref-type="bibr" rid="B15">15</xref></sup>. Molecular methodologies, including the percentage of nucleotide ambiguity in viral sequences, as other proposals<sup><xref ref-type="bibr" rid="B12">12</xref></sup>, are expensive and generally unavailable in routine workups. The immediate treatment policy<sup><xref ref-type="bibr" rid="B19">19</xref>,<xref ref-type="bibr" rid="B20">20</xref></sup> will further limit the use of serological tests to classify HIV recency in future samples, as antiretroviral drugs (ARVs) may modify the maturation of serological responses<sup><xref ref-type="bibr" rid="B21">21</xref>,<xref ref-type="bibr" rid="B22">22</xref></sup>.</p>
+			<p>We evaluated this small cohort of newly diagnosed cases to characterize the time of infection using three laboratory proxies of infection time (CMIA, avidity and ambiguity indices) from known, well-characterized, untreated patients. These measures were highly correlated, suggesting their usefulness, individually or associated to improve specificity.</p>
+			<p>As a gold standard for defining recency, we used the results of negative HIV tests in the year prior to enrollment, but only 37% (75/204) of individuals had this information. Reports, or even documentation of previous serological tests, do not guarantee actual seronegative status as they depend on the quality of the information provided by volunteers (a problem for self-reported seroconversion), as well as potential false-negative point-of-care tests<sup><xref ref-type="bibr" rid="B23">23</xref></sup>, a possibility for both reported and documented tests. However, even considering other biological causes of false negativity, such as during the eclipse or early Fiebig stages in very recent infections, this information, when available, may allow the estimation of the duration of infection<sup><xref ref-type="bibr" rid="B24">24</xref></sup>.</p>
+			<p>As many patients do not repeat HIV tests regularly, we use the three laboratory proxies performed (CMIA, avidity and ambiguity indices) to define recent and chronic cases. A simple tool for measuring the incidence of HIV infection has been a goal of public health authorities for a long time<sup><xref ref-type="bibr" rid="B25">25</xref></sup>. As many cases<sup><xref ref-type="bibr" rid="B23">23</xref></sup> report information compatible with the acute retroviral syndrome during the admission routine and laboratory parameters (CD4+ T cell count and viral load) are generally available, this information could help to discriminate between recent and chronic cases. Thus, we proposed and evaluated a score to identify incident cases which is applicable to environments with limited resources.</p>
+			<p>The probability of a recent infection decreases with CD4+ T cell counts. CD4+ T cell count based incidence models predict, on average, 3–4 years until CD4+ T cells drop below 350<sup><xref ref-type="bibr" rid="B26">26</xref></sup>. So, we assigned negative score points to cases in which CD4+ T cells counts were below 350 cells/mm<sup><xref ref-type="bibr" rid="B3">3</xref></sup>. Seroconversion studies show that the highest viremia values occur about one week after the onset of symptoms<sup><xref ref-type="bibr" rid="B23">23</xref>,<xref ref-type="bibr" rid="B24">24</xref></sup>. Thus, we attributed more points to higher viremias. We combined these parameters, available in many HIV surveillance systems, along with risk exposure, to score the likelihood of a recent infection.</p>
+			<p>Several countries have used models based on CD4+ T cell values close to diagnosis to estimate the number of incident infections. Brazil has a national information system (SISCEL) that monitors CD4+ T cells and HIV viral load data to evaluate patients’ treatment with antiretroviral therapy. The system is considered complete because it is based on government reimbursement. However, SISCEL lacks tests in the private sector (estimated to be 28%)<sup><xref ref-type="bibr" rid="B25">25</xref></sup>. Including this information in notification forms and linking the prescription of antiretroviral drugs to notification would possibly contribute to expanding the knowledge of public health systems on HIV incidence.</p>
+			<p>We assessed this score with different definitions of recency and chronicity and found comparable results, suggesting it could provide a useful instrument to monitor the HIV epidemic, an example that additional tools can improve and complement. This pilot study needs validation with a larger and diverse populations. Our proposal fails to identify all incident cases. However, implementing a score for surveillance may prove useful. It is nevertheless also important to continue to improve surveillance by incorporating additional tools once they become available, such as the commercially available Asante test (http://www.sediabio.com/products/asante-rapid-hiv-1-recency-assay), a rapid point-of-care test that has included a recency band<sup><xref ref-type="bibr" rid="B26">26</xref></sup>. As point-of-care viral load testing is increasingly used; these and other tools may allow a more precise understanding of the recency of all new HIV diagnoses tested at HIV-testing services, forming the basis of real-time surveillance.</p>
+			<p>This study has many limitations, such as its small number of subjects, the fact that most cases involve male homosexuals from a same geographical area, as well as the lack of samples from some cases to perform all three recency tests. However, the fact that the three tests reasonably correlated to each other allowed the classification of cases based on available tests. Recognizing incident infections is relevant to prioritize public policies which would direct resources to prevention and diagnosis campaigns in key populations. These initiatives may help programs to improve epidemiological metrics and focus interventions on those that need them the most<sup><xref ref-type="bibr" rid="B17">17</xref></sup>.</p>
+		</sec>
+		<sec sec-type="conclusions">
+			<title>CONCLUSION</title>
+			<p>An easy-to-apply score with information available at routine admission of healthcare centers allowed us to identify recent infections, which could contribute to identifying incident cases and may be incorporated in the surveillance forms (surveillance of HIV/Aids infections) at no additional cost. A better understanding of the dynamics of the HIV epidemic would allow public health systems to prioritize prevention interventions to populations at greater risk of acquiring the infection, providing an additional surveillance metric that may promote early diagnosis, link to treatment and viral suppression, with benefits for individuals’ health and the community.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>REFERENCES</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. World Health Organization. Global health observatory data repository Last updated: 2021-10-11. Geneva (CH): WHO; Available from: <ext-link ext-link-type="uri" xlink:href="https://www.who.int/data/gho/data/indicators/indicator-details/GHO/number-of-new-hiv-infections">https://www.who.int/data/gho/data/indicators/indicator-details/GHO/number-of-new-hiv-infections</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>World Health Organization</collab>
+					</person-group>
+					<source>Global health observatory data repository Last updated: 2021-10-11</source>
+					<publisher-loc>Geneva (CH)</publisher-loc>
+					<publisher-name>WHO</publisher-name>
+					<ext-link ext-link-type="uri" xlink:href="https://www.who.int/data/gho/data/indicators/indicator-details/GHO/number-of-new-hiv-infections">https://www.who.int/data/gho/data/indicators/indicator-details/GHO/number-of-new-hiv-infections</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. Quiros-Roldan E, Magro P, Carriero C, Chiesa A, El Hamad I, Tratta E, et al. Consequences of the COVID-19 pandemic on the continuum of care in a cohort of people living with HIV followed in a single center of Northern Italy. AIDS Res Ther. 2020;17:59. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12981-020-00314-y">https://doi.org/10.1186/s12981-020-00314-y</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Quiros-Roldan</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Magro</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Carriero</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Chiesa</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>El Hamad</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Tratta</surname>
+							<given-names>E</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Consequences of the COVID-19 pandemic on the continuum of care in a cohort of people living with HIV followed in a single center of Northern Italy</article-title>
+					<source>AIDS Res Ther</source>
+					<year>2020</year>
+					<volume>17</volume>
+					<size units="pages">59</size>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12981-020-00314-y">https://doi.org/10.1186/s12981-020-00314-y</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. Brown LB, Spinelli MA, Gandhi M. The interplay between HIV and COVID-19: summary of the data and responses to date. Curr Opin HIV AIDS. 2021;16(1):63-73. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/COH.0000000000000659">https://doi.org/10.1097/COH.0000000000000659</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Brown</surname>
+							<given-names>LB</given-names>
+						</name>
+						<name>
+							<surname>Spinelli</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Gandhi</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>The interplay between HIV and COVID-19: summary of the data and responses to date</article-title>
+					<source>Curr Opin HIV AIDS</source>
+					<year>2021</year>
+					<volume>16</volume>
+					<issue>1</issue>
+					<fpage>63</fpage>
+					<lpage>73</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/COH.0000000000000659">https://doi.org/10.1097/COH.0000000000000659</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. Ministério da Saúde (BR), Secretaria de Vigilância em Saúde, Departamento de Condições Crônicas e Infecções Sexualmente Transmissíveis. Painel de monitoramento de dados de HIV durante a pandemia da COVID-19. Brasília, DF; 2020 [cited 2020 Jan 30]. Available from: <ext-link ext-link-type="uri" xlink:href="http://www.aids.gov.br/pt-br/painelcovidHIV">http://www.aids.gov.br/pt-br/painelcovidHIV</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+						<collab>Secretaria de Vigilância em Saúde</collab>
+						<collab>Departamento de Condições Crônicas e Infecções Sexualmente Transmissíveis</collab>
+					</person-group>
+					<source>Painel de monitoramento de dados de HIV durante a pandemia da COVID-19</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<year>2020</year>
+					<date-in-citation content-type="cited-date">cited 2020 Jan 30</date-in-citation>
+					<ext-link ext-link-type="uri" xlink:href="http://www.aids.gov.br/pt-br/painelcovidHIV">http://www.aids.gov.br/pt-br/painelcovidHIV</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Ministério da Saúde (BR), Secretaria de Vigilância em Saúde, Departamento de Doenças de Condições Crônicas e Infecções Sexualmente Transmissíveis. Relatório de monitoramento clínico do HIV. Brasília, DF; 2019 [cited 2020 Oct 18]. Available from: <ext-link ext-link-type="uri" xlink:href="http://www.aids.gov.br/pt-br/search/content/monitoramento%20clinico%202019">http://www.aids.gov.br/pt-br/search/content/monitoramento%20clinico%202019</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+						<collab>Secretaria de Vigilância em Saúde</collab>
+						<collab>Departamento de Doenças de Condições Crônicas e Infecções Sexualmente Transmissíveis</collab>
+					</person-group>
+					<source>Relatório de monitoramento clínico do HIV</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<year>2019</year>
+					<date-in-citation content-type="cited-date">cited 2020 Oct 18</date-in-citation>
+					<ext-link ext-link-type="uri" xlink:href="http://www.aids.gov.br/pt-br/search/content/monitoramento%20clinico%202019">http://www.aids.gov.br/pt-br/search/content/monitoramento%20clinico%202019</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. Kerr L, Kendall C, Guimarães MDC, Mota RS, Veras MA, Dourado I, et al. HIV prevalence among men who have sex with men in Brazil: results of the 2nd national survey using respondent-driven sampling. Medicine (Baltimore). 2018;97(1Suppl):S9-15. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/MD.0000000000010573">https://doi.org/10.1097/MD.0000000000010573</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kerr</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Kendall</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Guimarães</surname>
+							<given-names>MDC</given-names>
+						</name>
+						<name>
+							<surname>Mota</surname>
+							<given-names>RS</given-names>
+						</name>
+						<name>
+							<surname>Veras</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Dourado</surname>
+							<given-names>I</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>HIV prevalence among men who have sex with men in Brazil: results of the 2nd national survey using respondent-driven sampling</article-title>
+					<source>Medicine (Baltimore)</source>
+					<year>2018</year>
+					<volume>97</volume>
+					<supplement>1Suppl</supplement>
+					<fpage>S9</fpage>
+					<lpage>15</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/MD.0000000000010573">https://doi.org/10.1097/MD.0000000000010573</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. Dijkstra M, Bree GJ, Stolte IG, Davidovich U, Sanders EJ, Prins M, et al. Correction to: Development and validation of a risk score to assist screening for acute HIV-1 infection among men who have sex with men. BMC Infect Dis. 2017;17(1):691. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12879-017-2805-y">https://doi.org/10.1186/s12879-017-2805-y</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Dijkstra</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Bree</surname>
+							<given-names>GJ</given-names>
+						</name>
+						<name>
+							<surname>Stolte</surname>
+							<given-names>IG</given-names>
+						</name>
+						<name>
+							<surname>Davidovich</surname>
+							<given-names>U</given-names>
+						</name>
+						<name>
+							<surname>Sanders</surname>
+							<given-names>EJ</given-names>
+						</name>
+						<name>
+							<surname>Prins</surname>
+							<given-names>M</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Correction to: Development and validation of a risk score to assist screening for acute HIV-1 infection among men who have sex with men</article-title>
+					<source>BMC Infect Dis</source>
+					<year>2017</year>
+					<volume>17</volume>
+					<issue>1</issue>
+					<size units="pages">691</size>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12879-017-2805-y">https://doi.org/10.1186/s12879-017-2805-y</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Matsuda EM, Colpas DR, Campos NC, Coelho LPO, Carmo AMS, Brígido LFM. Undiagnosed acute HIV infection identified through RNA testing of pooled serum samples obtained during a dengue outbreak in São Paulo, Brazil. Rev Soc Bras Med Trop. 2017;50(1):110-2. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0037-8682-0370-2016">https://doi.org/10.1590/0037-8682-0370-2016</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Matsuda</surname>
+							<given-names>EM</given-names>
+						</name>
+						<name>
+							<surname>Colpas</surname>
+							<given-names>DR</given-names>
+						</name>
+						<name>
+							<surname>Campos</surname>
+							<given-names>NC</given-names>
+						</name>
+						<name>
+							<surname>Coelho</surname>
+							<given-names>LPO</given-names>
+						</name>
+						<name>
+							<surname>Carmo</surname>
+							<given-names>AMS</given-names>
+						</name>
+						<name>
+							<surname>Brígido</surname>
+							<given-names>LFM</given-names>
+						</name>
+					</person-group>
+					<article-title>Undiagnosed acute HIV infection identified through RNA testing of pooled serum samples obtained during a dengue outbreak in São Paulo, Brazil</article-title>
+					<source>Rev Soc Bras Med Trop</source>
+					<year>2017</year>
+					<volume>50</volume>
+					<issue>1</issue>
+					<fpage>110</fpage>
+					<lpage>112</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0037-8682-0370-2016">https://doi.org/10.1590/0037-8682-0370-2016</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. Hofmann A, Hauser A, Zimmermann R, Santos-Hövener C, Bätzing-Feigenbaum J, Wildner S, et al. Surveillance of recent HIV infections among newly diagnosed HIV cases in Germany between 2008 and 2014. BMC Infect Dis. 2017;17:484. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12879-017-2585-4">https://doi.org/10.1186/s12879-017-2585-4</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hofmann</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Hauser</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Zimmermann</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Santos-Hövener</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Bätzing-Feigenbaum</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Wildner</surname>
+							<given-names>S</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Surveillance of recent HIV infections among newly diagnosed HIV cases in Germany between 2008 and 2014</article-title>
+					<source>BMC Infect Dis</source>
+					<year>2017</year>
+					<volume>17</volume>
+					<size units="pages">484</size>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12879-017-2585-4">https://doi.org/10.1186/s12879-017-2585-4</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. Guimarães PMS, Ferreira JLP, Coelho LPO, Cavalcanti JS, Lopes GIS, Matsuda EM, et al. Transmitted drug resistance among recently diagnosed adults and children in São Paulo, Brazil. AIDS Res Hum Retroviruses. 2015;31(12):1219-24. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1089/AID.2014.0354">https://doi.org/10.1089/AID.2014.0354</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Guimarães</surname>
+							<given-names>PMS</given-names>
+						</name>
+						<name>
+							<surname>Ferreira</surname>
+							<given-names>JLP</given-names>
+						</name>
+						<name>
+							<surname>Coelho</surname>
+							<given-names>LPO</given-names>
+						</name>
+						<name>
+							<surname>Cavalcanti</surname>
+							<given-names>JS</given-names>
+						</name>
+						<name>
+							<surname>Lopes</surname>
+							<given-names>GIS</given-names>
+						</name>
+						<name>
+							<surname>Matsuda</surname>
+							<given-names>EM</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Transmitted drug resistance among recently diagnosed adults and children in São Paulo, Brazil</article-title>
+					<source>AIDS Res Hum Retroviruses.</source>
+					<year>2015</year>
+					<volume>31</volume>
+					<issue>12</issue>
+					<fpage>1219</fpage>
+					<lpage>1224</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1089/AID.2014.0354">https://doi.org/10.1089/AID.2014.0354</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. Hall TA. BioEdit: a user-friendly biological sequence alignment editor and analysis program for Windows 95/98/NT. Nucleic Acids Symp Ser (Oxf). 1999;41:95-8.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hall</surname>
+							<given-names>TA</given-names>
+						</name>
+					</person-group>
+					<article-title>BioEdit: a user-friendly biological sequence alignment editor and analysis program for Windows 95/98/NT</article-title>
+					<source>Nucleic Acids Symp Ser (Oxf)</source>
+					<year>1999</year>
+					<volume>41</volume>
+					<fpage>95</fpage>
+					<lpage>98</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. Kouyos RD, Wyl V, Yerly S, Böni J, Rieder P, Joos B, et al; Swiss HIV Cohort Study. Ambiguous nucleotide calls from population-based sequencing of HIV-1 are a marker for viral diversity and the age of infection. Clin Infect Dis. 2011;52(4):532-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/cid/ciq164">https://doi.org/10.1093/cid/ciq164</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kouyos</surname>
+							<given-names>RD</given-names>
+						</name>
+						<name>
+							<surname>Wyl</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Yerly</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Böni</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Rieder</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Joos</surname>
+							<given-names>B</given-names>
+						</name>
+						<etal>et al</etal>
+						<collab>Swiss HIV Cohort Study</collab>
+					</person-group>
+					<article-title>Ambiguous nucleotide calls from population-based sequencing of HIV-1 are a marker for viral diversity and the age of infection</article-title>
+					<source>Clin Infect Dis</source>
+					<year>2011</year>
+					<volume>52</volume>
+					<issue>4</issue>
+					<fpage>532</fpage>
+					<lpage>539</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/cid/ciq164">https://doi.org/10.1093/cid/ciq164</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. Curtis KA, Rudolph DL, Pan Y, Delaney K, Anastos K, DeHovitz J, et al. Evaluation of the Abbott ARCHITECT HIV Ag/Ab Combo Assay for determining recent HIV-1 infection. bioRxiv [Preprint]. [posted 2020 Nov 9]. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1101/2020.11.09.374017">https://doi.org/10.1101/2020.11.09.374017</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Curtis</surname>
+							<given-names>KA</given-names>
+						</name>
+						<name>
+							<surname>Rudolph</surname>
+							<given-names>DL</given-names>
+						</name>
+						<name>
+							<surname>Pan</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Delaney</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Anastos</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>DeHovitz</surname>
+							<given-names>J</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Evaluation of the Abbott ARCHITECT HIV Ag/Ab Combo Assay for determining recent HIV-1 infection</article-title>
+					<source>bioRxiv</source>
+					<comment>Preprint</comment>
+					<year>2020</year>
+					<month>11</month>
+					<day>9</day>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1101/2020.11.09.374017">https://doi.org/10.1101/2020.11.09.374017</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. Ramos EM, Ortega J, Daza G, Namkung Y, Harb S, Dragavon J, et al. Use of the sample-to-Cutoff Ratio (S/CO) to identify recency of HIV-1 Infection. In: Conference on Retroviruses and Opportunistic Infections - CROI; 2015 Feb 23-27; Seattle, WA. San Francisco, CA: CROI Foundation; International Antiviral Society (IAS); 2015 [cited 2020 Feb 1]. Abstract 627. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.croiconference.org/abstract/use-sample-cutoff-ratio-sco-identify-recency-hiv-1-infection/">https://www.croiconference.org/abstract/use-sample-cutoff-ratio-sco-identify-recency-hiv-1-infection/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="confproc">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ramos</surname>
+							<given-names>EM</given-names>
+						</name>
+						<name>
+							<surname>Ortega</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Daza</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Namkung</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Harb</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Dragavon</surname>
+							<given-names>J</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<source>Use of the sample-to-Cutoff Ratio (S/CO) to identify recency of HIV-1 Infection</source>
+					<conf-name>Conference on Retroviruses and Opportunistic Infections - CROI</conf-name>
+					<conf-date>2015 Feb 23-27</conf-date>
+					<conf-loc>Seattle, WA</conf-loc>
+					<publisher-loc>San Francisco, CA</publisher-loc>
+					<publisher-name>CROI Foundation; International Antiviral Society (IAS)</publisher-name>
+					<year>2015</year>
+					<date-in-citation content-type="cited-date">cited 2020 Feb 1</date-in-citation>
+					<ext-link ext-link-type="uri" xlink:href="https://www.croiconference.org/abstract/use-sample-cutoff-ratio-sco-identify-recency-hiv-1-infection/">https://www.croiconference.org/abstract/use-sample-cutoff-ratio-sco-identify-recency-hiv-1-infection/</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. Grebe E, Facente SN, Bingham J, Pilcher CD, Powrie A, Gerber J, et al; Consortium for the Evaluation and Performance of HIV Incidence Assays (CEPHIA). Interpreting HIV diagnostic histories into infection time estimates: analytical framework and online tool. BMC Infect Dis. 2019;19:894. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12879-019-4543-9">https://doi.org/10.1186/s12879-019-4543-9</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Grebe</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Facente</surname>
+							<given-names>SN</given-names>
+						</name>
+						<name>
+							<surname>Bingham</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Pilcher</surname>
+							<given-names>CD</given-names>
+						</name>
+						<name>
+							<surname>Powrie</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Gerber</surname>
+							<given-names>J</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<person-group person-group-type="author">
+						<collab>Consortium for the Evaluation and Performance of HIV Incidence Assays (CEPHIA)</collab>
+					</person-group>
+					<article-title>Interpreting HIV diagnostic histories into infection time estimates: analytical framework and online tool</article-title>
+					<source>BMC Infect Dis</source>
+					<year>2019</year>
+					<volume>19</volume>
+					<size units="pages">894</size>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12879-019-4543-9">https://doi.org/10.1186/s12879-019-4543-9</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. Eshleman SH, Hughes JP, Laeyendecker O, Wang J, Brookmeyer R, Johnson-Lewis L, et al. Use of a multifaceted approach to analyze HIV incidence in a cohort study of women in the United States: HIV Prevention Trials Network 064 Study. J Infect Dis. 2013;207(2):223-31. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/infdis/jis658">https://doi.org/10.1093/infdis/jis658</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Eshleman</surname>
+							<given-names>SH</given-names>
+						</name>
+						<name>
+							<surname>Hughes</surname>
+							<given-names>JP</given-names>
+						</name>
+						<name>
+							<surname>Laeyendecker</surname>
+							<given-names>O</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Brookmeyer</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Johnson-Lewis</surname>
+							<given-names>L</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Use of a multifaceted approach to analyze HIV incidence in a cohort study of women in the United States: HIV Prevention Trials Network 064 Study</article-title>
+					<source>J Infect Dis</source>
+					<year>2013</year>
+					<volume>207</volume>
+					<issue>2</issue>
+					<fpage>223</fpage>
+					<lpage>231</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/infdis/jis658">https://doi.org/10.1093/infdis/jis658</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Kim AA, Behel S, Northbrook S, Parekh BS. Tracking with recency assays to control the epidemic: real-time HIV surveillance and public health response. AIDS. 2019;33(9):1527-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/QAD.0000000000002239">https://doi.org/10.1097/QAD.0000000000002239</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kim</surname>
+							<given-names>AA</given-names>
+						</name>
+						<name>
+							<surname>Behel</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Northbrook</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Parekh</surname>
+							<given-names>BS</given-names>
+						</name>
+					</person-group>
+					<article-title>Tracking with recency assays to control the epidemic: real-time HIV surveillance and public health response</article-title>
+					<source>AIDS</source>
+					<year>2019</year>
+					<volume>33</volume>
+					<issue>9</issue>
+					<fpage>1527</fpage>
+					<lpage>1529</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/QAD.0000000000002239">https://doi.org/10.1097/QAD.0000000000002239</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18. Kassanjee R, Pilcher CD, Busch MP, Murphy G, Facente SN, Keating SM, et al; Consortium for the Evaluation and Performance of HIV Incidence Assays (CEPHIA). Viral load criteria and threshold optimization to improve HIV incidence assay characteristics. AIDS. 2016;30(15):2361-71. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/QAD.0000000000001209">https://doi.org/10.1097/QAD.0000000000001209</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kassanjee</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Pilcher</surname>
+							<given-names>CD</given-names>
+						</name>
+						<name>
+							<surname>Busch</surname>
+							<given-names>MP</given-names>
+						</name>
+						<name>
+							<surname>Murphy</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Facente</surname>
+							<given-names>SN</given-names>
+						</name>
+						<name>
+							<surname>Keating</surname>
+							<given-names>SM</given-names>
+						</name>
+						<etal>et al</etal>
+						<collab>Consortium for the Evaluation and Performance of HIV Incidence Assays (CEPHIA)</collab>
+					</person-group>
+					<article-title>Viral load criteria and threshold optimization to improve HIV incidence assay characteristics</article-title>
+					<source>AIDS</source>
+					<year>2016</year>
+					<volume>30</volume>
+					<issue>15</issue>
+					<fpage>2361</fpage>
+					<lpage>2371</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/QAD.0000000000001209">https://doi.org/10.1097/QAD.0000000000001209</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19. Rutstein SE, Ananworanich J, Fidler S, Johnson C, Sanders EJ, Sued O, et al. Clinical and public health implications of acute and early HIV detection and treatment: a scoping review. J Int AIDS Soc. 2017;20(1):21579. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7448/IAS.20.1.21579">https://doi.org/10.7448/IAS.20.1.21579</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rutstein</surname>
+							<given-names>SE</given-names>
+						</name>
+						<name>
+							<surname>Ananworanich</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Fidler</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Johnson</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Sanders</surname>
+							<given-names>EJ</given-names>
+						</name>
+						<name>
+							<surname>Sued</surname>
+							<given-names>O</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Clinical and public health implications of acute and early HIV detection and treatment: a scoping review</article-title>
+					<source>J Int AIDS Soc</source>
+					<year>2017</year>
+					<volume>20</volume>
+					<issue>1</issue>
+					<fpage>21579</fpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7448/IAS.20.1.21579">https://doi.org/10.7448/IAS.20.1.21579</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20. Pilcher CD, Ospina-Norvell C, Dasgupta A, Jones D, Hartogensis W, Torres S, et al. The effect of same-day observed initiation of Antiretroviral Therapy on HIV viral load and treatment outcomes in a US public health setting. J Acquir Immune Defic Syndr. 2017;74(1):44-51. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/QAI.0000000000001134">https://doi.org/10.1097/QAI.0000000000001134</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pilcher</surname>
+							<given-names>CD</given-names>
+						</name>
+						<name>
+							<surname>Ospina-Norvell</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Dasgupta</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Jones</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Hartogensis</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Torres</surname>
+							<given-names>S</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>The effect of same-day observed initiation of Antiretroviral Therapy on HIV viral load and treatment outcomes in a US public health setting</article-title>
+					<source>J Acquir Immune Defic Syndr</source>
+					<year>2017</year>
+					<volume>74</volume>
+					<issue>1</issue>
+					<fpage>44</fpage>
+					<lpage>51</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/QAI.0000000000001134">https://doi.org/10.1097/QAI.0000000000001134</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>21. Souza MS, Pinyakorn S, Akapirat S, Pattanachaiwit S, Fletcher JL, Chomchey N, et al; RV254/SEARCH010 Study Group. Initiation of antiretroviral therapy during acute HIV-1 infection leads to a high rate of nonreactive HIV serology. Clin Infect Dis. 2016;63(4):555-61. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/cid/ciw365">https://doi.org/10.1093/cid/ciw365</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Souza</surname>
+							<given-names>MS</given-names>
+						</name>
+						<name>
+							<surname>Pinyakorn</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Akapirat</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Pattanachaiwit</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Fletcher</surname>
+							<given-names>JL</given-names>
+						</name>
+						<name>
+							<surname>Chomchey</surname>
+							<given-names>N</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<person-group person-group-type="author">
+						<collab>RV254/SEARCH010 Study Group</collab>
+					</person-group>
+					<article-title>Initiation of antiretroviral therapy during acute HIV-1 infection leads to a high rate of nonreactive HIV serology</article-title>
+					<source>Clin Infect Dis</source>
+					<year>2016</year>
+					<volume>63</volume>
+					<issue>4</issue>
+					<fpage>555</fpage>
+					<lpage>561</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/cid/ciw365">https://doi.org/10.1093/cid/ciw365</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>22. Shahar E, Shapiro A, Baskin L, Oz ZK. Antiretroviral therapy-induced negative HIV antibody test following diagnosis of HIV infection. AIDS; 2019;33(11):1804-5. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/QAD.0000000000002261">https://doi.org/10.1097/QAD.0000000000002261</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Shahar</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Shapiro</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Baskin</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Oz</surname>
+							<given-names>ZK</given-names>
+						</name>
+					</person-group>
+					<article-title>Antiretroviral therapy-induced negative HIV antibody test following diagnosis of HIV infection</article-title>
+					<source>AIDS</source>
+					<year>2019</year>
+					<volume>33</volume>
+					<issue>11</issue>
+					<fpage>1804</fpage>
+					<lpage>1805</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/QAD.0000000000002261">https://doi.org/10.1097/QAD.0000000000002261</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>23. Mayaphi SH, Martin DJ, Quinn TC, Laeyendecker O, Olorunju SAS, Tintinger GR, et al. Detection of acute and early HIV-1 infections in an HIV hyper-endemic area with limited resources. PLoS One. 2016;11(10):e0164943. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0164943">https://doi.org/10.1371/journal.pone.0164943</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Mayaphi</surname>
+							<given-names>SH</given-names>
+						</name>
+						<name>
+							<surname>Martin</surname>
+							<given-names>DJ</given-names>
+						</name>
+						<name>
+							<surname>Quinn</surname>
+							<given-names>TC</given-names>
+						</name>
+						<name>
+							<surname>Laeyendecker</surname>
+							<given-names>O</given-names>
+						</name>
+						<name>
+							<surname>Olorunju</surname>
+							<given-names>SAS</given-names>
+						</name>
+						<name>
+							<surname>Tintinger</surname>
+							<given-names>GR</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Detection of acute and early HIV-1 infections in an HIV hyper-endemic area with limited resources</article-title>
+					<source>PLoS One</source>
+					<year>2016</year>
+					<volume>11</volume>
+					<issue>10</issue>
+					<elocation-id>e0164943</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0164943">https://doi.org/10.1371/journal.pone.0164943</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>24. Fiebig EW, Wright DJ, Rawal BD, Garrett PE, Schumacher RT, Peddada L, et al. Dynamics of HIV viremia and antibody seroconversion in plasma donors: implications for diagnosis and staging of primary HIV infection. AIDS. 2003;17(13):1871-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/00002030-200309050-00005">https://doi.org/10.1097/00002030-200309050-00005</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Fiebig</surname>
+							<given-names>EW</given-names>
+						</name>
+						<name>
+							<surname>Wright</surname>
+							<given-names>DJ</given-names>
+						</name>
+						<name>
+							<surname>Rawal</surname>
+							<given-names>BD</given-names>
+						</name>
+						<name>
+							<surname>Garrett</surname>
+							<given-names>PE</given-names>
+						</name>
+						<name>
+							<surname>Schumacher</surname>
+							<given-names>RT</given-names>
+						</name>
+						<name>
+							<surname>Peddada</surname>
+							<given-names>L</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Dynamics of HIV viremia and antibody seroconversion in plasma donors: implications for diagnosis and staging of primary HIV infection</article-title>
+					<source>AIDS</source>
+					<year>2003</year>
+					<volume>17</volume>
+					<issue>13</issue>
+					<fpage>1871</fpage>
+					<lpage>1879</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/00002030-200309050-00005">https://doi.org/10.1097/00002030-200309050-00005</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>25. UNAIDS/WHO Working Group on Global HIV/AIDS and STI Surveillance. Estimating HIV incidence using HIV case surveillance: WHO Working Group on HIV Incidence Assays Meeting Report, 10-11 December 2015; Glion, Switzerland. Geneva (CH): WHO; 2017 [cited 2020 Feb 1]. Available from: <ext-link ext-link-type="uri" xlink:href="https://apps.who.int/iris/bitstream/handle/10665/254867/WHO-HIV-2017.03-eng.pdf">https://apps.who.int/iris/bitstream/handle/10665/254867/WHO-HIV-2017.03-eng.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>UNAIDS/WHO Working Group on Global HIV/AIDS and STI Surveillance</collab>
+					</person-group>
+					<source>Estimating HIV incidence using HIV case surveillance: WHO Working Group on HIV Incidence Assays Meeting Report, 10-11 December 2015; Glion, Switzerland</source>
+					<publisher-loc>Geneva (CH)</publisher-loc>
+					<publisher-name>WHO</publisher-name>
+					<year>2017</year>
+					<date-in-citation content-type="cited-date">cited 2020 Feb 1</date-in-citation>
+					<ext-link ext-link-type="uri" xlink:href="https://apps.who.int/iris/bitstream/handle/10665/254867/WHO-HIV-2017.03-eng.pdf">https://apps.who.int/iris/bitstream/handle/10665/254867/WHO-HIV-2017.03-eng.pdf</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation>26. Granade TC, Nguyen S, Kuehl DS, Parekh BS. Development of a novel rapid HIV test for simultaneous detection of recent or long-term HIV type 1 infection using a single testing device. AIDS Res Hum Retroviruses. 2013;29(1):61-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1089/aid.2012.0121">https://doi.org/10.1089/aid.2012.0121</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Granade</surname>
+							<given-names>TC</given-names>
+						</name>
+						<name>
+							<surname>Nguyen</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Kuehl</surname>
+							<given-names>DS</given-names>
+						</name>
+						<name>
+							<surname>Parekh</surname>
+							<given-names>BS</given-names>
+						</name>
+					</person-group>
+					<article-title>Development of a novel rapid HIV test for simultaneous detection of recent or long-term HIV type 1 infection using a single testing device</article-title>
+					<source>AIDS Res Hum Retroviruses</source>
+					<year>2013</year>
+					<volume>29</volume>
+					<issue>1</issue>
+					<fpage>61</fpage>
+					<lpage>67</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1089/aid.2012.0121">https://doi.org/10.1089/aid.2012.0121</ext-link>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="financial-disclosure" id="fn2">
+				<p><bold>Funding:</bold> <italic>Fundação de Amparo à Pesquisa do Estado de São Paulo</italic> ( Fapesp -PDID/PPPP - 2018/14384-9, PPSUS - 2016/14813-1). <italic>Conselho Nacional de Desenvolvimento Científico e Tecnológico</italic> (CNPq - Process 442776/2019-5).</p>
+			</fn>
+		</fn-group>
+	</back>
+</article>

@@ -1,0 +1,3230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.1" specific-use="sps-1.9" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="nlm-ta">Rev Saude Publica</journal-id>
+			<journal-id journal-id-type="publisher-id">rsp</journal-id>
+			<journal-title-group>
+				<journal-title>Revista de Saúde Pública</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Rev. Saúde Pública</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="ppub">0034-8910</issn>
+			<issn pub-type="epub">1518-8787</issn>
+			<publisher>
+				<publisher-name>Faculdade de Saúde Pública da Universidade de São Paulo</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="other">00243</article-id>
+			<article-id pub-id-type="doi">10.11606/s1518-8787.2022056003672</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Original Article</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Mortality from chronic respiratory disease in Brazil: time trend and forecasts</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-2880-1603</contrib-id>
+					<name>
+						<surname>Oliveira</surname>
+						<given-names>Marcio Sacramento de</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-3298-4967</contrib-id>
+					<name>
+						<surname>Montovani</surname>
+						<given-names>Elisa Hypólito</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-2554-5125</contrib-id>
+					<name>
+						<surname>Santana</surname>
+						<given-names>Maria de Fátima Ebole de</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-0704-5215</contrib-id>
+					<name>
+						<surname>Ponce de Leon</surname>
+						<given-names>Antonio Carlos Monteiro</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-0566-1209</contrib-id>
+					<name>
+						<surname>Marques</surname>
+						<given-names>Márcio Candeias</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>III</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>I</label>
+				<institution content-type="orgname">Fundação Oswaldo Cruz</institution>
+				<institution content-type="orgdiv1">Instituto de Comunicação e Informação Científica e Tecnológica em Saúde</institution>
+				<addr-line>
+					<named-content content-type="city">Rio de Janeiro</named-content>
+					<named-content content-type="state">RJ</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Fundação Oswaldo Cruz. Instituto de Comunicação e Informação Científica e Tecnológica em Saúde. Rio de Janeiro, RJ, Brasil</institution>
+			</aff>
+			<aff id="aff2">
+				<label>II</label>
+				<institution content-type="orgname">Universidade do Estado do Rio de Janeiro</institution>
+				<institution content-type="orgdiv1">Instituto de Medicina Social</institution>
+				<addr-line>
+					<named-content content-type="city">Rio de Janeiro</named-content>
+					<named-content content-type="state">RJ</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Universidade do Estado do Rio de Janeiro. Instituto de Medicina Social. Rio de Janeiro, RJ, Brasil</institution>
+			</aff>
+			<aff id="aff3">
+				<label>III</label>
+				<institution content-type="orgname">Fundação Oswaldo Cruz</institution>
+				<institution content-type="orgdiv1">Escola Politécnica de Saúde Joaquim Venâncio</institution>
+				<addr-line>
+					<named-content content-type="city">Rio de Janeiro</named-content>
+					<named-content content-type="state">RJ</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Fundação Oswaldo Cruz. Escola Politécnica de Saúde Joaquim Venâncio. Rio de Janeiro, RJ, Brasil</institution>
+			</aff>
+			<author-notes>
+				<corresp id="c01"> Correspondence: Marcio Sacramento de Oliveira Av. Brasil, 4.365 Pavilhão Haity Moussatché 21040-900 Manguinhos, RJ, Brasil E-mail: <email>marcio.sacramento@icict.fiocruz.br</email>
+				</corresp>
+				<fn fn-type="con">
+					<p><bold>Authors’ Contribution:</bold> Study design and planning: MSO, MCM. Data collection, analysis, and interpretation: MSO, EHM, MFES, ACMPL, MCM. Draft writing or review: MSO, EHM, MFES, ACMPL, MCM. Final draft approval: MSO, EHM, MFES, ACMPL, MCM. Public responsibility for the content of the article: MSO, EHM, MFES, ACMPL, MCM.</p>
+				</fn>
+				<fn fn-type="conflict">
+					<p><bold>Conflict of Interest:</bold> The authors declare no conflict of interest.</p>
+				</fn>
+			</author-notes>
+			<pub-date date-type="pub" publication-format="electronic">
+				<day>13</day>
+				<month>06</month>
+				<year>2022</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">
+				<year>2022</year>
+			</pub-date>
+			<volume>56</volume>
+			<elocation-id>52</elocation-id>
+			<history>
+				<date date-type="received">
+					<day>17</day>
+					<month>03</month>
+					<year>2021</year>
+				</date>
+				<date date-type="accepted">
+					<day>26</day>
+					<month>07</month>
+					<year>2021</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="en">
+					<license-p> This is an Open Access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. </license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>ABSTRACT</title>
+				<sec>
+					<title>OBJECTIVE</title>
+					<p> To analyze the time trend of monthly mortality rates from chronic respiratory diseases in Brazil from 1996 to 2017, with forecasts for 2022, besides analyzing the possibility of achieving the goal of the <italic>Plano de Ações Estratégicas para o Enfrentamento das Doenças Crônicas Não Transmissíveis no Brasil</italic> (Strategic Action Plan to Tackle Chronic Noncommunicable Diseases in Brazil) from 2011 to 2022.</p>
+				</sec>
+				<sec>
+					<title>METHODS</title>
+					<p> This is an ecological study that uses data from <italic>Sistema de Informações sobre Mortalidade</italic> (SIM – Mortality Information System), S<italic>istema de Informações Demográficas e Socioeconômicas</italic> (Demographic and Socioeconomic Information System) and <italic>Pesquisa Nacional por Amostra de Domicílios Contínua</italic> (PNAD Contínua – Continuous National Household Sample Survey). We established the age range between 30 and 69 years old and the evolution of the rates over time was made by autoregressive integrated moving average models in R statistical tool.</p>
+				</sec>
+				<sec>
+					<title>RESULTS</title>
+					<p> Premature mortality rates from chronic respiratory diseases are decreasing in Brazil as a whole, mostly in state capitals. There is also a trend to reach the Ministry of Health’s goal in most of the country. For capitals that tend not to reach the goal, there is an association between mortality and social indicators, healthcare network and frequency of smoking.</p>
+				</sec>
+				<sec>
+					<title>CONCLUSION</title>
+					<p> This study intends to improve planning of the public health system for the control of chronic respiratory diseases.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="en">
+				<kwd>Respiratory Tract Diseases, mortality</kwd>
+				<kwd>Chronic Disease Indicators</kwd>
+				<kwd>Health Programs and Plans, trends</kwd>
+				<kwd>Ecological Studies</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="4"/>
+				<table-count count="6"/>
+				<equation-count count="2"/>
+				<ref-count count="30"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>INTRODUCTION</title>
+			<p>The worldwide premature mortality rate from chronic noncommunicable diseases (NCDs) dropped by 18% at the beginning of this century<sup><xref ref-type="bibr" rid="B1">1</xref></sup>. However, this progress was not sustained since the decline of mortality from NCDs slowed down<sup><xref ref-type="bibr" rid="B1">1</xref></sup>. These diseases, mainly cardiovascular diseases, cancers, chronic respiratory diseases and diabetes, correspond to the largest number of deaths in the world (63% annually) and, once demographic changes compensate for the drop in mortality rates, NCDs are taking an even higher proportion of total deaths<sup><xref ref-type="bibr" rid="B1">1</xref>,<xref ref-type="bibr" rid="B2">2</xref></sup>.</p>
+			<p>In the Americas, the percentage reduction rate of premature mortality from NCDs also decreased<sup><xref ref-type="bibr" rid="B3">3</xref></sup>. Despite leading as the cause of morbidity and mortality in Brazil, there was a 20% decline in the mortality rate from NCD between 1996 and 2007<sup><xref ref-type="bibr" rid="B4">4</xref></sup>, and a reduction in the premature mortality rate (30 to 69 years old) from NCDs, from 2000 to 2013 (2.5% per year), with chronic respiratory diseases (CRD) leading the percentage variation (4.1%)<sup><xref ref-type="bibr" rid="B5">5</xref></sup>.</p>
+			<p>The CRD alone was the third cause of death (7%) in the world in 2017, after cardiovascular and neoplastic diseases, especially chronic obstructive pulmonary disease (COPD) and asthma<sup><xref ref-type="bibr" rid="B6">6</xref></sup>. Between 1990 and 2017, the total number of deaths caused by CRD increased worldwide, whereas the age-standardized mortality rate decreased<sup><xref ref-type="bibr" rid="B6">6</xref>,<xref ref-type="bibr" rid="B7">7</xref></sup>. The CRD scenario in Brazil followed the global trend, with COPD being the fourth cause of death in 2019, with an absolute increase in the number of deaths from CRD and a reduction in age-adjusted mortality rates<sup><xref ref-type="bibr" rid="B5">5</xref>,<xref ref-type="bibr" rid="B8">8</xref></sup>.</p>
+			<p>The NCDs mainly affect low-income and low-education populations, as they are more exposed to risk factors and have reduced access to health services<sup><xref ref-type="bibr" rid="B4">4</xref>,<xref ref-type="bibr" rid="B11">11</xref></sup>. In the case of CRD, it is not different. Smoking is the main risk factor associated with years of life adjusted for disability<sup><xref ref-type="bibr" rid="B8">8</xref></sup>. In this context, studies show that less socioeconomically favored groups are more prone to use tobacco frequently<sup><xref ref-type="bibr" rid="B12">12</xref></sup>. Moreover, data from <italic>Vigilância de Fatores de Risco e Proteção para Doenças Crônicas por Inquérito Telefônico</italic> (Vigitel – Surveillance System for Risk and Protective Factors for Chronic Diseases by Telephone Survey)<sup><xref ref-type="bibr" rid="B13">13</xref></sup> indicate lower frequency of smoking with higher schooling. Furthermore, the poorest are less diagnosed with CRD and those who use fewer medications<sup><xref ref-type="bibr" rid="B14">14</xref></sup>.</p>
+			<p>Facing the impact of NCDs, global and national policies are committed to addressing these diseases. The first High-Level Meeting on the Prevention and Control of NCDs in 2011; target 3.4 from Sustainable Development Goals (SDG), of reducing by one-third premature mortality from these diseases by 2030; and the Global Action Plan for the Prevention and Control of Noncommunicable Diseases 2013–2020 were highlights on the world agenda<sup><xref ref-type="bibr" rid="B2">2</xref>,<xref ref-type="bibr" rid="B15">15</xref></sup>.</p>
+			<p>In Brazil, the implementation of the Surveillance System for NCDs was relevant and allowed structuring actions to monitor risk factors, morbidity and mortality of NCDs<sup><xref ref-type="bibr" rid="B4">4</xref>,<xref ref-type="bibr" rid="B16">16</xref></sup>. The Ministry of Health (MS) also built the <italic>Plano de Ações Estratégicas para o Enfrentamento das Doenças Crônicas Não Transmissíveis</italic> (Strategic Action Plan to Tackle NCDs) in Brazil, 2011–2022, having as one of the goals reducing the premature mortality rate from NCDs by 2% per year<sup><xref ref-type="bibr" rid="B4">4</xref></sup>.</p>
+			<p>The country has been considered an example in the fight against smoking, recognized by world organizations, with emphasis on the increase in the tax on cigarettes and the increase in warnings on packaging, by Law No. 12,546 of 2011<sup><xref ref-type="bibr" rid="B16">16</xref></sup>.</p>
+			<p>However, globally, CRD received fewer resources for research and less public attention than other diseases, such as cardiovascular and neoplastic ones<sup><xref ref-type="bibr" rid="B17">17</xref></sup>. The present study intends to analyze the time trend of mortality from CRD in Brazil, forecasting rates for 2022, besides analyzing, for each state capital, the possibility of achieving the goal of the Strategic Action Plan to Tackle NCDs in Brazil, 2011–2022.</p>
+		</sec>
+		<sec sec-type="methods">
+			<title>METHODS</title>
+			<p>This is a time-series ecological study of monthly mortality rates from CRD (ICD-10: J30–J98) between 1996 and 2017, with forecast for 2022, in Brazilian capitals and in Brazil as a whole. Data on deaths were obtained from the Brazilian Unified Health System Computer Department (Datasus) Mortality Information System – Ministry of Health (SIM/MS), and population data from 1996 to 2015 were acquired from the Demographic and Socioeconomic Information System, also from Datasus/MS. The estimated total population for 2016 and 2017 was made based on the continuous <italic>Pesquisa Nacional por Amostra de Domicílios</italic> (PNAD – National Household Sample Survey), using weighed samples to calculate the total population.</p>
+			<p>The monthly general crude mortality rates from CRD and monthly age-standardized rates were calculated using the method of direct standardization, which enabled the comparison of the results of the different populations by age group. The method selects a standard population and applies the mortality rate of all units to that same population. The Brazilian population in 2010 (census year) was used; mortality rates were calculated and represented by 100,000 inhabitants.</p>
+			<p>The chosen age range was 30 to 69 years and allowed us to compare the time trend of mortality from CRD in Brazil and the goal proposed by the Strategic Action Plan to Tackle NCDs.</p>
+			<p>Descriptive data analysis was used to explore the behavior of monthly mortality rates from CRD, obtaining values of minimum, first quartile, median, mean, third quartile, maximum and standard deviation. Based on the mean and standard deviation, one can calculate the coefficient of variation of the rates, which is important to express the dispersion of the data and compare values without the influence of the differences in magnitude of the variable.</p>
+			<p>The evolution of mortality rates in relation to time (months/years) was made by autoregressive integrated moving average (ARIMA) models. The time-series models of this type allow the dependent variable, mortality from CRD, to be represented by Y<sub>t</sub> and explained by lagged values (Y<sub>t-n</sub>), from Y<sub>t</sub> itself, different from the regression models, in which Y<sub>t</sub> is explained by the regressors μ, X1, X2, X3, ... Xn, without influence of time<sup><xref ref-type="bibr" rid="B18">18</xref></sup>. Thus, μ is the constant of the model and X1, X2, X3, ... Xn are explanatory variables. To complement ARIMA models, the model with autoregressive distributed lag (dynamic regression) was also used. The variables used were the standardized mortality rate, the time and this same rate delayed in time (t-1).</p>
+			<p>Assuming that the mortality rate follows a normal distribution (Gaussian) and that it is a realization of a stationary stochastic process, we applied the dynamic regression for each capital, as well as for Brazil. The lag order for each capital and Brazil (t-1) was determined by the autocorrelation function. Being the model in general given by:</p>
+			<disp-formula id="e1">
+				<mml:math>
+					<mml:msub>
+						<mml:mi>y</mml:mi>
+						<mml:mi>t</mml:mi>
+					</mml:msub>
+					<mml:mo>
+					</mml:mo>
+					<mml:mo>
+					</mml:mo>
+					<mml:mo>=</mml:mo>
+					<mml:mo>
+					</mml:mo>
+					<mml:mi>α</mml:mi>
+					<mml:mo>
+					</mml:mo>
+					<mml:mo>+</mml:mo>
+					<mml:mo>
+					</mml:mo>
+					<mml:mi>β</mml:mi>
+					<mml:msub>
+						<mml:mi>x</mml:mi>
+						<mml:mi>t</mml:mi>
+					</mml:msub>
+					<mml:mo>
+					</mml:mo>
+					<mml:mo>
+					</mml:mo>
+					<mml:mo>+</mml:mo>
+					<mml:mo>
+					</mml:mo>
+					<mml:msub>
+						<mml:mi>γ</mml:mi>
+						<mml:mn>1</mml:mn>
+					</mml:msub>
+					<mml:mo>
+					</mml:mo>
+					<mml:msub>
+						<mml:mi>y</mml:mi>
+						<mml:mrow>
+							<mml:mi>t</mml:mi>
+							<mml:mo>-</mml:mo>
+							<mml:mn>1</mml:mn>
+						</mml:mrow>
+					</mml:msub>
+					<mml:mo>+</mml:mo>
+					<mml:mo>
+					</mml:mo>
+					<mml:msub>
+						<mml:mi>γ</mml:mi>
+						<mml:mn>2</mml:mn>
+					</mml:msub>
+					<mml:mo>
+					</mml:mo>
+					<mml:msub>
+						<mml:mi>y</mml:mi>
+						<mml:mrow>
+							<mml:mi>t</mml:mi>
+							<mml:mo>-</mml:mo>
+							<mml:mn>2</mml:mn>
+						</mml:mrow>
+					</mml:msub>
+					<mml:mo>+</mml:mo>
+					<mml:mo>
+					</mml:mo>
+					<mml:msub>
+						<mml:mi>γ</mml:mi>
+						<mml:mn>3</mml:mn>
+					</mml:msub>
+					<mml:mo>
+					</mml:mo>
+					<mml:msub>
+						<mml:mi>y</mml:mi>
+						<mml:mrow>
+							<mml:mi>t</mml:mi>
+							<mml:mo>-</mml:mo>
+							<mml:mn>3</mml:mn>
+						</mml:mrow>
+					</mml:msub>
+					<mml:mo>+</mml:mo>
+					<mml:mo>
+					</mml:mo>
+					<mml:msub>
+						<mml:mi>θ</mml:mi>
+						<mml:mn>1</mml:mn>
+					</mml:msub>
+					<mml:mo>
+					</mml:mo>
+					<mml:msub>
+						<mml:mi>u</mml:mi>
+						<mml:mrow>
+							<mml:mi>t</mml:mi>
+							<mml:mo>-</mml:mo>
+							<mml:mn>1</mml:mn>
+						</mml:mrow>
+					</mml:msub>
+					<mml:mo>+</mml:mo>
+					<mml:mo>
+					</mml:mo>
+					<mml:msub>
+						<mml:mi>θ</mml:mi>
+						<mml:mn>2</mml:mn>
+					</mml:msub>
+					<mml:mo>
+					</mml:mo>
+					<mml:msub>
+						<mml:mi>u</mml:mi>
+						<mml:mrow>
+							<mml:mi>t</mml:mi>
+							<mml:mo>-</mml:mo>
+							<mml:mn>2</mml:mn>
+						</mml:mrow>
+					</mml:msub>
+					<mml:mo>+</mml:mo>
+					<mml:mo>
+					</mml:mo>
+					<mml:msub>
+						<mml:mi>θ</mml:mi>
+						<mml:mn>3</mml:mn>
+					</mml:msub>
+					<mml:mo>
+					</mml:mo>
+					<mml:msub>
+						<mml:mi>u</mml:mi>
+						<mml:mrow>
+							<mml:mi>t</mml:mi>
+							<mml:mo>-</mml:mo>
+							<mml:mn>3</mml:mn>
+						</mml:mrow>
+					</mml:msub>
+					<mml:mo>+</mml:mo>
+					<mml:mo>
+					</mml:mo>
+					<mml:msub>
+						<mml:mi>Θ</mml:mi>
+						<mml:mn>1</mml:mn>
+					</mml:msub>
+					<mml:mo>
+					</mml:mo>
+					<mml:msub>
+						<mml:mi>u</mml:mi>
+						<mml:mrow>
+							<mml:mi>t</mml:mi>
+							<mml:mo>-</mml:mo>
+							<mml:mn>12</mml:mn>
+						</mml:mrow>
+					</mml:msub>
+					<mml:mo>+</mml:mo>
+					<mml:mo>
+					</mml:mo>
+					<mml:msub>
+						<mml:mi>Γ</mml:mi>
+						<mml:mn>1</mml:mn>
+					</mml:msub>
+					<mml:mo>
+					</mml:mo>
+					<mml:msub>
+						<mml:mi>y</mml:mi>
+						<mml:mrow>
+							<mml:mi>t</mml:mi>
+							<mml:mo>-</mml:mo>
+							<mml:mn>12</mml:mn>
+						</mml:mrow>
+					</mml:msub>
+					<mml:mo>+</mml:mo>
+					<mml:mo>
+					</mml:mo>
+					<mml:msub>
+						<mml:mi>u</mml:mi>
+						<mml:mi>t</mml:mi>
+					</mml:msub>
+				</mml:math>
+			</disp-formula>
+			<p>Where <italic>Y</italic><sub>t</sub> is the value of the dependent variable at instant <italic>t</italic>; γ is the parameter attached to the autoregressive operator; θ is the parameter attached to the moving average operator; and Θ and Γ are seasonal factors. For ARIMA models, the first difference was denoted as <inline-formula>
+					<mml:math>
+						<mml:mo>∆</mml:mo>
+						<mml:msub>
+							<mml:mi>z</mml:mi>
+							<mml:mi>t</mml:mi>
+						</mml:msub>
+						<mml:mo>
+						</mml:mo>
+						<mml:mo>
+						</mml:mo>
+						<mml:mo>=</mml:mo>
+						<mml:mo>
+						</mml:mo>
+						<mml:msub>
+							<mml:msub>
+								<mml:mi>z</mml:mi>
+								<mml:mi>t</mml:mi>
+							</mml:msub>
+							<mml:mo>
+							</mml:mo>
+						</mml:msub>
+						<mml:mo>–</mml:mo>
+						<mml:mo>
+						</mml:mo>
+						<mml:msub>
+							<mml:mi>z</mml:mi>
+							<mml:mrow>
+								<mml:mi>t</mml:mi>
+								<mml:mo>-</mml:mo>
+								<mml:mn>1</mml:mn>
+							</mml:mrow>
+						</mml:msub>
+					</mml:math>
+				</inline-formula> being <italic>Y</italic><sub><italic>t</italic></sub> = ∆<italic>z</italic><sub><italic>t</italic></sub> for the purpose of writing the estimated models. The components trend, seasonality, cycle and error were decomposed by the X12-ARIMA methodology and the trend evaluated as increasing or decreasing. The Dickey-Fuller test increased was performed for all series, which presented unit root, and, for this reason, the first difference was used. Autocorrelation functions also presented a slow decay.</p>
+			<p>The model was estimated by the function of maximum likelihood. For the modeling process, the first three years of Rio de Janeiro were suppressed.</p>
+			<p>Regarding 19 capitals (Belém, Boa Vista, Macapá, Manaus, Palmas, Porto Velho, Rio Branco, João Pessoa, Maceió, Salvador, São Luís, Teresina, Brasília, Campo Grande, Cuiabá, Goiânia, Vitória, Curitiba and Florianópolis), the outliers had to be replaced with the mean mortality rates of their respective years to achieve better adequacy of the models.</p>
+			<p>The evaluation of the overall performance of the model was based on the prediction of monthly mortality rates from CRD for 2017 and the comparison with the actual values of that year, which made it possible to calculate the percentage of the mean absolute percentage error (MAPE). In this procedure, the rates for 2017 were deleted from the model and estimated in the remainder. The maximum MAPE value for the model to be considered valid for forecasting was defined as 50%. After the validating the model, forecast until December 2022 was made.</p>
+			<p>The predicted percentage change for the mortality rate was calculated based on the value of the 2011 standardized annual rate, the year of preparation of the Ministry of Health plan, and the expected mortality rate for 2022. The result of each Brazilian capital was compared, as well as the one of all Brazil, with the document proposal (a 19.93% drop in the premature mortality rate until 2022, value obtained from the calculation of the accumulated rate of 2% per year), evaluating which units show a trend or not to reach the target.</p>
+			<p>Data were analyzed in R statistical tool<sup><xref ref-type="bibr" rid="B19">19</xref></sup>, version 3.6.3, using the Forecast<sup><xref ref-type="bibr" rid="B20">20</xref></sup>and Imtest<sup><xref ref-type="bibr" rid="B21">21</xref></sup>packages.</p>
+		</sec>
+		<sec sec-type="results">
+			<title>RESULTS</title>
+			<p>From the analysis of minimum and maximum values from mortality rates, presented in <xref ref-type="table" rid="t1">Table 1</xref>, we observed the lowest monthly rates in Boa Vista, Palmas, Porto Velho, Rio Branco, Aracaju, João Pessoa, São Luís, Teresina, Campo Grande, Vitória and Florianópolis; the highest value was found in Boa Vista (15.04%).</p>
+			<p>
+				<table-wrap id="t1">
+					<label>Table 1</label>
+					<caption>
+						<title>Descriptive analysis of monthly mortality rates from chronic respiratory diseases, per 100,000 inhabitants, in Brazilian capitals and Brazil as a whole, 1996–2017.</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left">Location</th>
+								<th>Min.</th>
+								<th>Q1</th>
+								<th>Median</th>
+								<th>Mean</th>
+								<th>Q3</th>
+								<th>Max.</th>
+								<th>SD</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Brasil</td>
+								<td align="center">1.32</td>
+								<td align="center">1.88</td>
+								<td align="center">2.19</td>
+								<td align="center">2.33</td>
+								<td align="center">2.72</td>
+								<td align="center">4.59</td>
+								<td align="center">0.59</td>
+							</tr>
+							<tr>
+								<td>Belém</td>
+								<td align="center">0.60</td>
+								<td align="center">2.02</td>
+								<td align="center">2.72</td>
+								<td align="center">3.05</td>
+								<td align="center">3.82</td>
+								<td align="center">8.38</td>
+								<td align="center">1.44</td>
+							</tr>
+							<tr>
+								<td>Boa Vista</td>
+								<td align="center">0.00</td>
+								<td align="center">0.00</td>
+								<td align="center">1.34</td>
+								<td align="center">1.87</td>
+								<td align="center">2.71</td>
+								<td align="center">15.04</td>
+								<td align="center">2.33</td>
+							</tr>
+							<tr>
+								<td>Macapá</td>
+								<td align="center">0.26</td>
+								<td align="center">0.99</td>
+								<td align="center">1.50</td>
+								<td align="center">1.59</td>
+								<td align="center">2.02</td>
+								<td align="center">5.32</td>
+								<td align="center">0.78</td>
+							</tr>
+							<tr>
+								<td>Manaus</td>
+								<td align="center">0.31</td>
+								<td align="center">1.23</td>
+								<td align="center">1.83</td>
+								<td align="center">1.92</td>
+								<td align="center">2.46</td>
+								<td align="center">4.82</td>
+								<td align="center">0.88</td>
+							</tr>
+							<tr>
+								<td>Palmas</td>
+								<td align="center">0.00</td>
+								<td align="center">0.00</td>
+								<td align="center">0.93</td>
+								<td align="center">1.74</td>
+								<td align="center">2.85</td>
+								<td align="center">20.09</td>
+								<td align="center">2.60</td>
+							</tr>
+							<tr>
+								<td>Porto Velho</td>
+								<td align="center">0.00</td>
+								<td align="center">1.43</td>
+								<td align="center">2.66</td>
+								<td align="center">3.18</td>
+								<td align="center">4.23</td>
+								<td align="center">12.54</td>
+								<td align="center">2.40</td>
+							</tr>
+							<tr>
+								<td>Rio Branco</td>
+								<td align="center">0.00</td>
+								<td align="center">1.67</td>
+								<td align="center">3.22</td>
+								<td align="center">3.40</td>
+								<td align="center">4.87</td>
+								<td align="center">12.71</td>
+								<td align="center">2.28</td>
+							</tr>
+							<tr>
+								<td>Aracaju</td>
+								<td align="center">0.00</td>
+								<td align="center">1.08</td>
+								<td align="center">1.92</td>
+								<td align="center">2.33</td>
+								<td align="center">3.42</td>
+								<td align="center">7.83</td>
+								<td align="center">1.56</td>
+							</tr>
+							<tr>
+								<td>Fortaleza</td>
+								<td align="center">0.44</td>
+								<td align="center">1.46</td>
+								<td align="center">2.10</td>
+								<td align="center">2.33</td>
+								<td align="center">3.04</td>
+								<td align="center">5.66</td>
+								<td align="center">1.06</td>
+							</tr>
+							<tr>
+								<td>João Pessoa</td>
+								<td align="center">0.00</td>
+								<td align="center">1.32</td>
+								<td align="center">1.92</td>
+								<td align="center">2.14</td>
+								<td align="center">2.80</td>
+								<td align="center">7.29</td>
+								<td align="center">1.20</td>
+							</tr>
+							<tr>
+								<td>Maceió</td>
+								<td align="center">0.35</td>
+								<td align="center">1.61</td>
+								<td align="center">2.45</td>
+								<td align="center">2.78</td>
+								<td align="center">3.64</td>
+								<td align="center">8.61</td>
+								<td align="center">1.50</td>
+							</tr>
+							<tr>
+								<td>Natal</td>
+								<td align="center">0.00</td>
+								<td align="center">0.79</td>
+								<td align="center">1.21</td>
+								<td align="center">1.33</td>
+								<td align="center">1.71</td>
+								<td align="center">4.25</td>
+								<td align="center">0.80</td>
+							</tr>
+							<tr>
+								<td>Recife</td>
+								<td align="center">1.21</td>
+								<td align="center">2.34</td>
+								<td align="center">2.88</td>
+								<td align="center">2.99</td>
+								<td align="center">3.57</td>
+								<td align="center">6.22</td>
+								<td align="center">0.90</td>
+							</tr>
+							<tr>
+								<td>Salvador</td>
+								<td align="center">0.72</td>
+								<td align="center">2.24</td>
+								<td align="center">3.41</td>
+								<td align="center">3.54</td>
+								<td align="center">4.63</td>
+								<td align="center">8.94</td>
+								<td align="center">1.56</td>
+							</tr>
+							<tr>
+								<td>São Luís</td>
+								<td align="center">0.00</td>
+								<td align="center">1.19</td>
+								<td align="center">1.77</td>
+								<td align="center">1.97</td>
+								<td align="center">2.50</td>
+								<td align="center">5.72</td>
+								<td align="center">1.08</td>
+							</tr>
+							<tr>
+								<td>Teresina</td>
+								<td align="center">0.00</td>
+								<td align="center">1.07</td>
+								<td align="center">1.70</td>
+								<td align="center">1.88</td>
+								<td align="center">2.50</td>
+								<td align="center">7.08</td>
+								<td align="center">1.14</td>
+							</tr>
+							<tr>
+								<td>Brasília</td>
+								<td align="center">0.26</td>
+								<td align="center">0.99</td>
+								<td align="center">1.50</td>
+								<td align="center">1.59</td>
+								<td align="center">2.02</td>
+								<td align="center">5.32</td>
+								<td align="center">0.78</td>
+							</tr>
+							<tr>
+								<td>Campo Grande</td>
+								<td align="center">0.00</td>
+								<td align="center">1.33</td>
+								<td align="center">2.02</td>
+								<td align="center">2.10</td>
+								<td align="center">2.74</td>
+								<td align="center">6.12</td>
+								<td align="center">1.05</td>
+							</tr>
+							<tr>
+								<td>Cuiabá</td>
+								<td align="center">0.00</td>
+								<td align="center">1.44</td>
+								<td align="center">2.38</td>
+								<td align="center">2.59</td>
+								<td align="center">3.39</td>
+								<td align="center">9.43</td>
+								<td align="center">1.55</td>
+							</tr>
+							<tr>
+								<td>Goiânia</td>
+								<td align="center">0.58</td>
+								<td align="center">1.79</td>
+								<td align="center">2.46</td>
+								<td align="center">2.61</td>
+								<td align="center">3.19</td>
+								<td align="center">6.63</td>
+								<td align="center">1.14</td>
+							</tr>
+							<tr>
+								<td>Belo Horizonte</td>
+								<td align="center">0.52</td>
+								<td align="center">1.18</td>
+								<td align="center">1.68</td>
+								<td align="center">1.92</td>
+								<td align="center">2.46</td>
+								<td align="center">6.25</td>
+								<td align="center">0.97</td>
+							</tr>
+							<tr>
+								<td>Rio de Janeiro</td>
+								<td align="center">1.20</td>
+								<td align="center">1.83</td>
+								<td align="center">2.24</td>
+								<td align="center">2.42</td>
+								<td align="center">2.88</td>
+								<td align="center">5.15</td>
+								<td align="center">0.78</td>
+							</tr>
+							<tr>
+								<td>São Paulo</td>
+								<td align="center">1.13</td>
+								<td align="center">1.70</td>
+								<td align="center">2.12</td>
+								<td align="center">2.25</td>
+								<td align="center">2.73</td>
+								<td align="center">5.07</td>
+								<td align="center">0.70</td>
+							</tr>
+							<tr>
+								<td>Vitória</td>
+								<td align="center">0.00</td>
+								<td align="center">0.56</td>
+								<td align="center">1.14</td>
+								<td align="center">1.29</td>
+								<td align="center">1.90</td>
+								<td align="center">3.94</td>
+								<td align="center">0.97</td>
+							</tr>
+							<tr>
+								<td>Curitiba</td>
+								<td align="center">0.35</td>
+								<td align="center">1.26</td>
+								<td align="center">1.93</td>
+								<td align="center">2.23</td>
+								<td align="center">2.93</td>
+								<td align="center">7.88</td>
+								<td align="center">1.31</td>
+							</tr>
+							<tr>
+								<td>Florianópolis</td>
+								<td align="center">0.00</td>
+								<td align="center">0.93</td>
+								<td align="center">1.62</td>
+								<td align="center">1.92</td>
+								<td align="center">2.59</td>
+								<td align="center">7.09</td>
+								<td align="center">1.32</td>
+							</tr>
+							<tr>
+								<td>Porto Alegre</td>
+								<td align="center">0.93</td>
+								<td align="center">2.08</td>
+								<td align="center">2.73</td>
+								<td align="center">3.06</td>
+								<td align="center">3.88</td>
+								<td align="center">9.90</td>
+								<td align="center">1.43</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN1">
+							<p>Q1: first quartile; Q3: third quartile; SD: standard deviation.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>The comparison between the mean and median data in <xref ref-type="table" rid="t1">Table 1</xref>, for the mortality rates of each capital, showed that Palmas has the highest number of outliers.</p>
+			<p>We observed a significant variation in the monthly mortality rates from CRD in all units studied, which can be noted from their mean and standard deviation values presented in <xref ref-type="table" rid="t1">Table 1</xref>. All capitals, and Brazil as a whole, presented a coefficient of variation higher than 25%, with the lowest value calculated for the country (25.14%). In turn, Boa Vista and Palmas showed coefficients of variation higher than 100% (respectively, 124.41% and 149.49%).</p>
+			<p>Regarding the accuracy of the forecasts, we observed in the MAPE, in <xref ref-type="table" rid="t2">Table 2</xref>, that the models of Brazil (2.94%), São Paulo (12.93%) and Rio de Janeiro (13.81%) have the lowest average percentage error in relation to the others. The models of Boa Vista, Macapá, Manaus, Aracaju, João Pessoa, Campo Grande and Vitória presented high error values, showing a low-accurate forecasting capacity. The error values of the capitals Porto Velho, Rio Branco, Natal, Teresina and Cuiabá show that their models are not suitable for forecasting. Cuiabá, besides the medium-high percentage error, showed a model with behavior in levels, making it difficult to analyze the trend.</p>
+			<p>
+				<table-wrap id="t2">
+					<label>Table 2</label>
+					<caption>
+						<title>Predictive model, performance and trend of monthly mortality rates from chronic respiratory diseases, per 100,000 inhabitants, from Brazilian capitals and Brazil as a whole, 1996–2017.</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left">Location</th>
+								<th>Equation</th>
+								<th>Sigma2</th>
+								<th>MAPE (%)</th>
+								<th>Trend</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Brasil</td>
+								<td align="center">∆<italic>ẑ</italic><sub><italic>t</italic></sub> = 0,5785∆<italic>z</italic><sub><italic>t</italic>–1</sub> – 0,9253<italic>u</italic><sub><italic>t</italic>–1</sub> – 0,4879<italic>u</italic><sub><italic>t</italic>–12</sub> –0,2251<italic>u</italic><sub><italic>t</italic>–13</sub></td>
+								<td align="center">0.02</td>
+								<td align="center">2.94</td>
+								<td align="center">Decreasing</td>
+							</tr>
+							<tr>
+								<td>Belém</td>
+								<td align="center">∆<italic>ẑ</italic><sub><italic>t</italic></sub> = –0,4177∆<italic>z</italic><sub><italic>t</italic>–1</sub> – 0,3695<italic>u</italic><sub><italic>t</italic>–1</sub> – 0,4865<italic>u</italic><sub><italic>t</italic>–2</sub> – 0,8696∆<italic>z</italic><sub><italic>t</italic>–12</sub> + 0,0281<italic>u</italic><sub><italic>t</italic>–1<italic>2</italic></sub> – 0,7212<italic>u</italic><sub><italic>t</italic>–13</sub> – 0,0964<italic>u</italic><sub><italic>t</italic>–14</sub> – 0,2105<italic>u</italic><sub><italic>t</italic>–15</sub></td>
+								<td align="center">1.06</td>
+								<td align="center">29.16</td>
+								<td align="center">Increasing</td>
+							</tr>
+							<tr>
+								<td>Boa Vista</td>
+								<td align="center">∆<italic>ẑ</italic><sub><italic>t</italic></sub> = –0,8365∆<italic>z</italic><sub><italic>t</italic>–1</sub> – 0,1131<italic>u</italic><sub><italic>t</italic>–1</sub> – 0,8126<italic>u</italic><sub><italic>t</italic>–2</sub> + 0,2129∆<italic>z</italic><sub><italic>t</italic>–12</sub> – 0,1860<italic>u</italic><sub><italic>t</italic>–12</sub> – 0,0713<italic>u</italic><sub><italic>t</italic>–2</sub></td>
+								<td align="center">2.34</td>
+								<td align="center">39.13</td>
+								<td align="center">Decreasing</td>
+							</tr>
+							<tr>
+								<td>Macapá</td>
+								<td align="center">∆<italic>ẑ</italic><sub><italic>t</italic></sub> = –0,1152∆<italic>z</italic><sub><italic>t</italic>–1</sub> –0,9375<italic>u</italic><sub><italic>t</italic>–1</sub> –0,610∆<italic>z</italic><sub><italic>t</italic>–12</sub> + 0,6822<italic>u</italic><sub><italic>t</italic>–12</sub> + 0,1924<italic>u</italic><sub><italic>t</italic>–13</sub> –0,0045<italic>x</italic><sub><italic>t</italic></sub></td>
+								<td align="center">1.79</td>
+								<td align="center">41.33</td>
+								<td align="center">Decreasing</td>
+							</tr>
+							<tr>
+								<td>Manaus</td>
+								<td align="center">∆<italic>ẑ</italic><sub><italic>t</italic></sub> = –0,0755∆<italic>z</italic><sub><italic>t</italic>–1</sub>–0,9305<italic>u</italic><sub><italic>t</italic>–1</sub> + 0,8866∆<italic>z</italic><sub><italic>t</italic>–12</sub> –0,8506<italic>u</italic><sub><italic>t</italic>–12</sub> + 0,1254<italic>u</italic><sub><italic>t</italic>–13</sub> –0,0042<italic>x</italic><sub><italic>t</italic></sub></td>
+								<td align="center">0.58</td>
+								<td align="center">44.37</td>
+								<td align="center">Decreasing</td>
+							</tr>
+							<tr>
+								<td>Palmas</td>
+								<td align="center">∆<italic>ẑ</italic><sub><italic>t</italic></sub> = –0,6530∆<italic>z</italic><sub><italic>t</italic>–1</sub> – 0,2855<italic>u</italic><sub><italic>t</italic>–1</sub> – 0,6947<italic>u</italic><sub><italic>t</italic>–2</sub> + 0,1092<italic>u</italic><sub><italic>t</italic>–3</sub> – 0,1290<italic>u</italic><sub><italic>t</italic>–4</sub> – 0,4751∆<italic>z</italic><sub><italic>t</italic>–12</sub></td>
+								<td align="center">3.69</td>
+								<td align="center">29.42</td>
+								<td align="center">Increasing</td>
+							</tr>
+							<tr>
+								<td>Porto Velho</td>
+								<td align="center">∆<italic>ẑ</italic><sub><italic>t</italic></sub> = –0,8657<italic>u</italic><sub><italic>t</italic>–1</sub>–0,1249<italic>u</italic><sub><italic>t</italic>–12</sub></td>
+								<td align="center">2.86</td>
+								<td align="center">69.79</td>
+								<td align="center">NA</td>
+							</tr>
+							<tr>
+								<td>Rio Branco</td>
+								<td align="center">∆<italic>ẑ</italic><sub><italic>t</italic></sub> = –0,7347∆<italic>z</italic><sub><italic>t</italic>–1</sub> – 0,5022∆<italic>z</italic><sub><italic>t</italic>–2</sub> – 0,3746∆<italic>z</italic><sub><italic>t</italic>–3</sub> – 0,2346∆<italic>z</italic><sub><italic>t</italic>–4</sub></td>
+								<td align="center">5.23</td>
+								<td align="center">83.79</td>
+								<td align="center">NA</td>
+							</tr>
+							<tr>
+								<td>Aracaju</td>
+								<td align="center">∆<italic>ẑ</italic><sub><italic>t</italic></sub> = –0,0973∆<italic>z</italic><sub><italic>t</italic>–1</sub> + 0,0956∆<italic>z</italic><sub><italic>t</italic>–2</sub> – 0,2061∆<italic>z</italic><sub><italic>t</italic>–3</sub> – 0,8573<italic>u</italic><sub><italic>t</italic>–1</sub></td>
+								<td align="center">1.52</td>
+								<td align="center">40.99</td>
+								<td align="center">Decreasing</td>
+							</tr>
+							<tr>
+								<td>Fortaleza</td>
+								<td align="center">∆<italic>ẑ</italic><sub><italic>t</italic></sub> = 0,2635∆<italic>z</italic><sub><italic>t</italic>–1</sub> – 0,9302<italic>u</italic><sub><italic>t</italic>–1</sub> – 0,0085<italic>x</italic><sub><italic>t</italic></sub></td>
+								<td align="center">0.48</td>
+								<td align="center">28.87</td>
+								<td align="center">Decreasing</td>
+							</tr>
+							<tr>
+								<td>João Pessoa</td>
+								<td align="center">∆<italic>ẑ</italic><sub><italic>t</italic></sub> = –0,7849∆<italic>z</italic><sub><italic>t</italic>–1</sub> – 0,0480<italic>u</italic><sub><italic>t</italic>–1</sub> – 0,7135<italic>u</italic><sub><italic>t</italic>–2</sub> – 0,0083<italic>x</italic><sub><italic>t</italic></sub></td>
+								<td align="center">0.92</td>
+								<td align="center">49.62</td>
+								<td align="center">Decreasing</td>
+							</tr>
+							<tr>
+								<td>Maceió</td>
+								<td align="center">∆<italic>ẑ</italic><sub><italic>t</italic></sub> = –0,8756∆<italic>z</italic><sub><italic>t</italic>–1</sub> + 0,0225∆<italic>z</italic><sub><italic>t</italic>–12</sub> – 0,0163<italic>u</italic><sub><italic>t</italic>–12</sub> – 0,0104<italic>x</italic><sub><italic>t</italic></sub></td>
+								<td align="center">1.16</td>
+								<td align="center">34.27</td>
+								<td align="center">Decreasing</td>
+							</tr>
+							<tr>
+								<td>Natal</td>
+								<td align="center">∆<italic>ẑ</italic><sub><italic>t</italic></sub> = –0,8459<italic>u</italic><sub><italic>t</italic>–1</sub></td>
+								<td align="center">0.42</td>
+								<td align="center">91.66</td>
+								<td align="center">NA</td>
+							</tr>
+							<tr>
+								<td>Recife</td>
+								<td align="center">∆<italic>ẑ</italic><sub><italic>t</italic></sub> = –0,8636<italic>u</italic><sub><italic>t</italic>–1</sub> – 0,7568∆<italic>z</italic><sub><italic>t</italic>–12</sub> – 0,0654∆<italic>z</italic><sub><italic>t</italic>–13</sub> + 0,7071<italic>u</italic><sub><italic>t</italic>–12</sub></td>
+								<td align="center">0.76</td>
+								<td align="center">22.81</td>
+								<td align="center">Increasing</td>
+							</tr>
+							<tr>
+								<td>Salvador</td>
+								<td align="center">∆<italic>ẑ</italic><sub><italic>t</italic></sub> = 0,2305∆<italic>z</italic><sub><italic>t</italic>–1</sub> – 0,9429<italic>u</italic><sub><italic>t</italic>–1</sub> – 0,0161<italic>x</italic><sub><italic>t</italic></sub></td>
+								<td align="center">0.60</td>
+								<td align="center">28.55</td>
+								<td align="center">Decreasing</td>
+							</tr>
+							<tr>
+								<td>São Luís</td>
+								<td align="center">∆<italic>ẑ</italic><sub><italic>t</italic></sub> = 0,1169∆<italic>z</italic><sub><italic>t</italic>–1</sub> – 0,6843∆<italic>z</italic><sub><italic>t</italic>–2</sub> – 0,9558<italic>u</italic><sub><italic>t</italic>–1</sub> + 0,5828<italic>u</italic><sub><italic>t</italic>–2</sub> – 0,4866<italic>u</italic><sub><italic>t</italic>–3</sub> – 0,0225<italic>u</italic><sub><italic>t</italic>–4</sub> – 0,0824<italic>u</italic><sub><italic>t</italic>–5</sub></td>
+								<td align="center">0.63</td>
+								<td align="center">35.33</td>
+								<td align="center">Increasing</td>
+							</tr>
+							<tr>
+								<td>Teresina</td>
+								<td align="center">∆<italic>ẑ</italic><sub><italic>t</italic></sub> = 0,1373∆<italic>z</italic><sub><italic>t</italic>–1</sub> – 0,9492<italic>u</italic><sub><italic>t</italic>–1</sub> + 0,1342∆<italic>z</italic><sub><italic>t</italic>–12</sub> – 0,0171∆<italic>z</italic><sub><italic>t</italic>–13</sub></td>
+								<td align="center">0.70</td>
+								<td align="center">104.75</td>
+								<td align="center">NA</td>
+							</tr>
+							<tr>
+								<td>Brasília</td>
+								<td align="center">∆<italic>ẑ</italic><sub><italic>t</italic></sub> = –0,1638∆<italic>z</italic><sub><italic>t</italic>–1</sub> – 0,8374∆<italic>z</italic><sub><italic>t</italic>–2</sub> – 0,0663∆<italic>z</italic><sub><italic>t</italic>–3</sub> – 0,4886∆<italic>z</italic><sub><italic>t</italic>–4</sub> – 0,6258<italic>u</italic><sub><italic>t</italic>–1</sub> + 0,9044<italic>u</italic><sub><italic>t</italic>–2</sub> – 0,9111<italic>u</italic><sub><italic>t</italic>–3</sub> + 0,4809<italic>u</italic><sub><italic>t</italic>–4</sub> – 0,7722<italic>u</italic><sub><italic>t</italic>–5</sub> + 0,0348∆<italic>z</italic><sub><italic>t</italic>–12</sub> + 0,1801∆<italic>z</italic><sub><italic>t</italic>–13</sub> – 0,0076<italic>x</italic><sub><italic>t</italic></sub></td>
+								<td align="center">0.27</td>
+								<td align="center">41.60</td>
+								<td align="center">Decreasing</td>
+							</tr>
+							<tr>
+								<td>Campo Grande</td>
+								<td align="center">∆<italic>ẑ</italic><sub><italic>t</italic></sub> = –0,7989∆<italic>z</italic><sub><italic>t</italic>–1</sub> + 0,1317∆<italic>z</italic><sub><italic>t</italic>–2</sub> + 0,1151∆<italic>z</italic><sub><italic>t</italic>–3</sub>–0,1016<italic>u</italic><sub><italic>t</italic>–1</sub>–0,8287<italic>u</italic><sub><italic>t</italic>–2</sub> + 0,0206∆<italic>z</italic><sub><italic>t</italic>–12</sub> + 0,0883∆<italic>z</italic><sub><italic>t</italic>–13</sub></td>
+								<td align="center">0.78</td>
+								<td align="center">33.33</td>
+								<td align="center">Increasing</td>
+							</tr>
+							<tr>
+								<td>Cuiabá</td>
+								<td align="center">∆<italic>ẑ</italic><sub><italic>t</italic></sub> = –0,9197<italic>u</italic><sub><italic>t</italic>–1</sub></td>
+								<td align="center">1.40</td>
+								<td align="center">162.21</td>
+								<td align="center">NA</td>
+							</tr>
+							<tr>
+								<td>Goiânia</td>
+								<td align="center">∆<italic>ẑ</italic><sub><italic>t</italic></sub> = 0,0376∆<italic>z</italic><sub><italic>t</italic>–1</sub> + 0,1849∆<italic>z</italic><sub><italic>t</italic>–2</sub> – 0,8867<italic>u</italic><sub><italic>t</italic>–1</sub> – 0,6050∆<italic>z</italic><sub><italic>t</italic>–12</sub> – 0,2614∆<italic>z</italic><sub><italic>t</italic>–13</sub></td>
+								<td align="center">0.86</td>
+								<td align="center">33.58</td>
+								<td align="center">Decreasing</td>
+							</tr>
+							<tr>
+								<td>Belo Horizonte</td>
+								<td align="center">∆<italic>ẑ</italic><sub><italic>t</italic></sub> = –0,6022∆<italic>z</italic><sub><italic>t</italic>–1</sub> – 0,8742∆<italic>z</italic><sub><italic>t</italic>–2</sub> – 0,2019<italic>u</italic><sub><italic>t</italic>–1</sub> + 0,3535<italic>u</italic><sub><italic>t</italic>–2</sub> – 0,7581<italic>u</italic><sub><italic>t</italic>–3</sub> – 0,2362<italic>u</italic><sub><italic>t</italic>–4</sub> + 0,2448∆<italic>z</italic><sub><italic>t</italic>–12</sub> – 0,010<italic>x</italic><sub><italic>t</italic></sub></td>
+								<td align="center">0.28</td>
+								<td align="center">25.10</td>
+								<td align="center">Decreasing</td>
+							</tr>
+							<tr>
+								<td>Rio de Janeiro</td>
+								<td align="center">∆<italic>ẑ</italic><sub><italic>t</italic></sub> = 0,3222∆<italic>z</italic><sub><italic>t</italic>–1</sub> + 0,1314∆<italic>z</italic><sub><italic>t</italic>–2</sub> – 0,9127<italic>u</italic><sub><italic>t</italic>–1</sub> + 0,1836∆<italic>z</italic><sub><italic>t</italic>–12</sub> – 0,0110<italic>x</italic><sub><italic>t</italic></sub></td>
+								<td align="center">0.15</td>
+								<td align="center">13.81</td>
+								<td align="center">Decreasing</td>
+							</tr>
+							<tr>
+								<td>São Paulo</td>
+								<td align="center">∆<italic>ẑ</italic><sub><italic>t</italic></sub> = 0,3580∆<italic>z</italic><sub><italic>t</italic>–1</sub> – 0,9188<italic>u</italic><sub><italic>t</italic>–1</sub> + 0,2552<italic>u</italic><sub><italic>t</italic>–12</sub> + 0,2628<italic>u</italic><sub><italic>t</italic>–13</sub> – 0,0071<italic>x</italic><sub><italic>t</italic></sub></td>
+								<td align="center">0.12</td>
+								<td align="center">12.93</td>
+								<td align="center">Decreasing</td>
+							</tr>
+							<tr>
+								<td>Vitória</td>
+								<td align="center">∆<italic>ẑ</italic><sub><italic>t</italic></sub> = –0,7866∆<italic>z</italic><sub><italic>t</italic>–1</sub> – 0,1029∆<italic>z</italic><sub><italic>t</italic>–2</sub> – 0,1812<italic>u</italic><sub><italic>t</italic>–1</sub> – 0,7338<italic>u</italic><sub><italic>t</italic>–2</sub> + 0,4307∆<italic>z</italic><sub><italic>t</italic>–12</sub> – 0,4943<italic>u</italic><sub><italic>t</italic>–12</sub></td>
+								<td align="center">0.91</td>
+								<td align="center">47.10</td>
+								<td align="center">Increasing</td>
+							</tr>
+							<tr>
+								<td>Curitiba</td>
+								<td align="center">∆<italic>ẑ</italic><sub><italic>t</italic></sub> = 0,02542∆<italic>z</italic><sub><italic>t</italic>–1</sub> – 0,9633<italic>u</italic><sub><italic>t</italic>–1</sub> – 0,7916∆<italic>z</italic><sub><italic>t</italic>–12</sub> + 0,139<italic>u</italic><sub><italic>t</italic>–12</sub> – 0,5454<italic>u</italic><sub><italic>t</italic>–13</sub></td>
+								<td align="center">0.52</td>
+								<td align="center">35.63</td>
+								<td align="center">Increasing</td>
+							</tr>
+							<tr>
+								<td>Florianópolis</td>
+								<td align="center">∆<italic>ẑ</italic><sub><italic>t</italic></sub> = –0,9353<italic>u</italic><sub><italic>t</italic>–1</sub> – 0,8766<italic>u</italic><sub><italic>t</italic>–12</sub></td>
+								<td align="center">1.10</td>
+								<td align="center">37.01</td>
+								<td align="center">Decreasing</td>
+							</tr>
+							<tr>
+								<td>Porto Alegre</td>
+								<td align="center">∆<italic>ẑ</italic><sub><italic>t</italic></sub> = 0,0204∆<italic>z</italic><sub><italic>t</italic>–1</sub> – 0,7605∆<italic>z</italic><sub><italic>t</italic>–2</sub> – 0,6562<italic>u</italic><sub><italic>t</italic>–1</sub> + 0,6890<italic>u</italic><sub><italic>t</italic>–2</sub> – 0,7344<italic>u</italic><sub><italic>t</italic>–3</sub> – 0,1944<italic>u</italic><sub><italic>t</italic>–4</sub> + 0,3525∆<italic>z</italic><sub><italic>t</italic>–12</sub> + 0,2395∆<italic>z</italic><sub><italic>t</italic>–13</sub></td>
+								<td align="center">0.80</td>
+								<td align="center">34.00</td>
+								<td align="center">Decreasing</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN2">
+							<p>NA: not applicable; MAPE: mean absolute percentage error.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>Based on <xref ref-type="table" rid="t2">Table 2</xref> and <xref ref-type="fig" rid="f01">Figures 1</xref> and <xref ref-type="fig" rid="f02">2</xref>, we note that premature mortality rates are decreasing in Brazil and in 15 of the 22 capitals that had their models validated. Belém, Palmas, Recife, São Luís, Campo Grande, Vitória and Curitiba, on the other hand, show these rates in an increasing trend. For Rio de Janeiro, mortality from CRD data between 1996 and 1998 were much lower than the others, indicating a probable underreporting during this period and, therefore, they were disregarded.</p>
+			<p>
+				<fig id="f01">
+					<label>Figure 1</label>
+					<caption>
+						<title>Monthly mortality rates from chronic respiratory diseases adjusted for Brazil as a whole, Belém, Boa Vista, Macapá, Manaus, Palmas, Aracaju, Fortaleza, João Pessoa, Maceió, Recife and Salvador – from 1996 to 2016, with 2017 for validation and forecast of monthly mortality rates from CRD from 01/01/2017 to 12/12/2022 – Forecast by ARIMA model.</title>
+					</caption>
+					<graphic xlink:href="1518-8787-rsp-56-52-gf01.tif"/>
+					<attrib>CRD: chronic respiratory diseases; ARIMA: autoregressive integrated moving average.</attrib>
+				</fig>
+			</p>
+			<p>
+				<fig id="f02">
+					<label>Figure 2</label>
+					<caption>
+						<title>Monthly mortality rates from chronic respiratory diseases adjusted for Brasília, Campo Grande, Goiânia, Belo Horizonte, Rio de Janeiro, São Paulo, Vitória, Curitiba, Florianópolis and Porto Alegre – from 1996 to 2016, with 2017 for validation and forecast of monthly mortality rates from CRD from 01/01/2017 to 12/12/2022 – Forecast by ARIMA model.</title>
+					</caption>
+					<graphic xlink:href="1518-8787-rsp-56-52-gf02.tif"/>
+					<attrib>CRD: chronic respiratory diseases; ARIMA: autoregressive integrated moving average.</attrib>
+				</fig>
+			</p>
+			<p>According to <xref ref-type="table" rid="t3">Table 3</xref>, we also verified that Brazil as a whole and 16 of the 22 capitals tend to reach the goal of the Strategic Action Plan to Tackle NCDs, as they present a higher-than-expected predicted percentage variation for the premature mortality rates from CRD (19.92%). For Boa Vista, Recife, São Luís, Campo Grande and Vitória, the results show a trend not to reach the goal. The capital Boa Vista showed the lowest rate in 2011 (10.04), whereas the highest was seen in Rio Branco (36.76).</p>
+			<p>
+				<table-wrap id="t3">
+					<label>Table 3</label>
+					<caption>
+						<title>Mortality rates from chronic respiratory diseases, per 100,000 inhabitants, expected for 2022, and evaluation of the achievement of the goal of the Strategic Action Plan to Tackle NCDs, for Brazil and Brazilian capitals.</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left">Location</th>
+								<th>Standardized rate, 2011</th>
+								<th>Standardized rate, 2022 (National Plan)</th>
+								<th>Standardized rate, 2022 (expected)</th>
+								<th>Expected variation % (2011–2022)</th>
+								<th>National Plan’s Goal</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Brazil</td>
+								<td align="center">23.65</td>
+								<td align="center">18.94</td>
+								<td align="center">17.45</td>
+								<td align="center">-26.22</td>
+								<td align="center">Tends to reach</td>
+							</tr>
+							<tr>
+								<td>Belém</td>
+								<td align="center">23.11</td>
+								<td align="center">18.51</td>
+								<td align="center">14.28</td>
+								<td align="center">-38.19</td>
+								<td align="center">Tends to reach</td>
+							</tr>
+							<tr>
+								<td>Boa Vista</td>
+								<td align="center">10.04</td>
+								<td align="center">8.04</td>
+								<td align="center">13.63</td>
+								<td align="center">+35.80</td>
+								<td align="center">Tends not to reach</td>
+							</tr>
+							<tr>
+								<td>Macapá</td>
+								<td align="center">14.85</td>
+								<td align="center">11.89</td>
+								<td align="center">11.03</td>
+								<td align="center">-25.69</td>
+								<td align="center">Tends to reach</td>
+							</tr>
+							<tr>
+								<td>Manaus</td>
+								<td align="center">20.51</td>
+								<td align="center">16.42</td>
+								<td align="center">10.69</td>
+								<td align="center">-47.86</td>
+								<td align="center">Tends to reach</td>
+							</tr>
+							<tr>
+								<td>Palmas</td>
+								<td align="center">18.69</td>
+								<td align="center">14.97</td>
+								<td align="center">10.28</td>
+								<td align="center">-44.98</td>
+								<td align="center">Tends to reach</td>
+							</tr>
+							<tr>
+								<td>Porto Velho</td>
+								<td align="center">30.51</td>
+								<td align="center">24.43</td>
+								<td align="center">NA</td>
+								<td align="center">NA</td>
+								<td align="center">NA</td>
+							</tr>
+							<tr>
+								<td>Rio Branco</td>
+								<td align="center">36.76</td>
+								<td align="center">29.43</td>
+								<td align="center">NA</td>
+								<td align="center">NA</td>
+								<td align="center">NA</td>
+							</tr>
+							<tr>
+								<td>Aracaju</td>
+								<td align="center">18.40</td>
+								<td align="center">14.74</td>
+								<td align="center">7.94</td>
+								<td align="center">-56.87</td>
+								<td align="center">Tends to reach</td>
+							</tr>
+							<tr>
+								<td>Fortaleza</td>
+								<td align="center">19.23</td>
+								<td align="center">15.40</td>
+								<td align="center">7.28</td>
+								<td align="center">-62.14</td>
+								<td align="center">Tends to reach</td>
+							</tr>
+							<tr>
+								<td>João Pessoa</td>
+								<td align="center">21.74</td>
+								<td align="center">17.41</td>
+								<td align="center">6.22</td>
+								<td align="center">-71.39</td>
+								<td align="center">Tends to reach</td>
+							</tr>
+							<tr>
+								<td>Maceió</td>
+								<td align="center">28.71</td>
+								<td align="center">22.99</td>
+								<td align="center">4.78</td>
+								<td align="center">-83.35</td>
+								<td align="center">Tends to reach</td>
+							</tr>
+							<tr>
+								<td>Natal</td>
+								<td align="center">13.35</td>
+								<td align="center">10.69</td>
+								<td align="center">NA</td>
+								<td align="center">NA</td>
+								<td align="center">NA</td>
+							</tr>
+							<tr>
+								<td>Recife</td>
+								<td align="center">35.64</td>
+								<td align="center">28.54</td>
+								<td align="center">32.43</td>
+								<td align="center">-9.01</td>
+								<td align="center">Tends not to reach</td>
+							</tr>
+							<tr>
+								<td>Salvador</td>
+								<td align="center">33.30</td>
+								<td align="center">26.66</td>
+								<td align="center">4.86</td>
+								<td align="center">-84.41</td>
+								<td align="center">Tends to reach</td>
+							</tr>
+							<tr>
+								<td>São Luís</td>
+								<td align="center">16.28</td>
+								<td align="center">13.04</td>
+								<td align="center">17.01</td>
+								<td align="center">+4.50</td>
+								<td align="center">Tends not to reach</td>
+							</tr>
+							<tr>
+								<td>Teresina</td>
+								<td align="center">20.37</td>
+								<td align="center">16.31</td>
+								<td align="center">NA</td>
+								<td align="center">NA</td>
+								<td align="center">NA</td>
+							</tr>
+							<tr>
+								<td>Brasília</td>
+								<td align="center">13.94</td>
+								<td align="center">11.16</td>
+								<td align="center">3.11</td>
+								<td align="center">-77.70</td>
+								<td align="center">Tends to reach</td>
+							</tr>
+							<tr>
+								<td>Campo Grande</td>
+								<td align="center">19.92</td>
+								<td align="center">15.95</td>
+								<td align="center">18.11</td>
+								<td align="center">-9.13</td>
+								<td align="center">Tends not to reach</td>
+							</tr>
+							<tr>
+								<td>Cuiabá</td>
+								<td align="center">21.84</td>
+								<td align="center">17.49</td>
+								<td align="center">NA</td>
+								<td align="center">NA</td>
+								<td align="center">NA</td>
+							</tr>
+							<tr>
+								<td>Goiânia</td>
+								<td align="center">22.96</td>
+								<td align="center">18.38</td>
+								<td align="center">8.30</td>
+								<td align="center">-63.84</td>
+								<td align="center">Tends to reach</td>
+							</tr>
+							<tr>
+								<td>Belo Horizonte</td>
+								<td align="center">15.72</td>
+								<td align="center">12.59</td>
+								<td align="center">2.72</td>
+								<td align="center">-82.67</td>
+								<td align="center">Tends to reach</td>
+							</tr>
+							<tr>
+								<td>Rio de Janeiro</td>
+								<td align="center">24.58</td>
+								<td align="center">19.68</td>
+								<td align="center">8.94</td>
+								<td align="center">-63.61</td>
+								<td align="center">Tends to reach</td>
+							</tr>
+							<tr>
+								<td>São Paulo</td>
+								<td align="center">22.47</td>
+								<td align="center">17.99</td>
+								<td align="center">11.55</td>
+								<td align="center">-48.62</td>
+								<td align="center">Tends to reach</td>
+							</tr>
+							<tr>
+								<td>Vitória</td>
+								<td align="center">15.11</td>
+								<td align="center">12.10</td>
+								<td align="center">12.41</td>
+								<td align="center">-17.86</td>
+								<td align="center">Tends not to reach</td>
+							</tr>
+							<tr>
+								<td>Curitiba</td>
+								<td align="center">16.57</td>
+								<td align="center">13.27</td>
+								<td align="center">7.79</td>
+								<td align="center">-52.97</td>
+								<td align="center">Tends to reach</td>
+							</tr>
+							<tr>
+								<td>Florianópolis</td>
+								<td align="center">17.56</td>
+								<td align="center">14.06</td>
+								<td align="center">6.28</td>
+								<td align="center">-64.20</td>
+								<td align="center">Tends to reach</td>
+							</tr>
+							<tr>
+								<td>Porto Alegre</td>
+								<td align="center">30.89</td>
+								<td align="center">24.73</td>
+								<td align="center">23.25</td>
+								<td align="center">-24.73</td>
+								<td align="center">Tends to reach</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN3">
+							<p>NCDs: chronic noncommunicable diseases; NA: not applicable.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+		</sec>
+		<sec sec-type="discussion">
+			<title>DISCUSSION</title>
+			<p>The downward trend in premature mortality rates from CRD in most of Brazil coincides with results of global research, which show the largest reductions in the burden of CRD in Latin America, and other Brazilian studies that indicate a decrease in those rates in the five regions of the country<sup><xref ref-type="bibr" rid="B5">5</xref>,<xref ref-type="bibr" rid="B6">6</xref>,<xref ref-type="bibr" rid="B8">8</xref></sup>. This decline has been attributed, among other factors, to advances in the fight against smoking<sup><xref ref-type="bibr" rid="B5">5</xref></sup>. Actions in this sense are related to <italic>Eixo II</italic> – <italic>Promoção da Saúde – do Plano de Ações Estratégicas para o enfrentamento das DCNT</italic> (Axis II – Health Promotion – of the Strategic Action Plan to Tackle NCDs) in Brazil. The increase in the access and use of health services also seems to corroborate, according to a study that assessed data from the 2013 <italic>Pesquisa Nacional de Saúde</italic> (PNS – National Health Survey)<sup><xref ref-type="bibr" rid="B22">22</xref></sup>.</p>
+			<p>According to the <italic>Síntese de Indicadores Sociais</italic> (SIS – Summary of Social Indicators), from the <italic>Instituto Brasileiro de Geografia e Estatística</italic> (IBGE – Brazilian Institute of Geography and Statistics), there was a drop in the proportion of people living below the poverty line between 2012 and 2014, an important social determinant in the health-disease process, but it grew again since 2015<sup><xref ref-type="bibr" rid="B23">23</xref></sup>. Another significant determinant is schooling, which presented an increase in the level of education over the last decades that may be related to the reduction of exposure to CRD risk factors, although this higher schooling occurred unequally among different socioeconomic classes<sup><xref ref-type="bibr" rid="B23">23</xref></sup>. In this context, there seems to be a relation between asthma mortality and factors such as schooling and income distribution, explaining the low mortality from this disease in high-income countries<sup><xref ref-type="bibr" rid="B24">24</xref></sup>. For COPD, this association is less monotonic and results from increased air pollution and smoking in countries in demographic and epidemiological transition, a causality that deserves specific research in a future study<sup><xref ref-type="bibr" rid="B24">24</xref></sup>.</p>
+			<p>Knowing that the highest mortality rates from CRD were found in South Asia, a study that analyzed the trend of prevalence, lethality and risk factors for CRD in India allows comparing the evolution of tackling these chronic diseases in another developing country to the situation in Brazil<sup><xref ref-type="bibr" rid="B6">6</xref>,<xref ref-type="bibr" rid="B25">25</xref></sup>. India’s 2017 National Health Policy recommends reducing mortality from NCDs, including CRD, by 25% by 2025, whereas the study showed decreases greater than 30% in crude mortality rates from COPD and asthma between 1990 and 2016<sup><xref ref-type="bibr" rid="B25">25</xref></sup>.</p>
+			<p>The trend of reaching the goal in most of Brazil corroborates a study by Malta (2016), who described the advances in MS’s plan after five years of implementation, in which monitoring by Vigitel demonstrated a reduction in premature mortality from the four main groups of NCDs, and a decrease in tobacco consumption<sup><xref ref-type="bibr" rid="B26">26</xref></sup>. The study highlights other actions in surveillance such as the performance of the PNS in 2013 and the <italic>Pesquisa Nacional de Saúde do Escolar</italic> (PeNSE – National Survey on Students’ Health) since 2009; besides initiatives in health and comprehensive care promotion, such as the redefinition of the <italic>Rede de Atenção à Pessoa com Doença Crônica</italic> (Care for People with Chronic Diseases Network), the release of the <italic>Programa Nacional de Melhoria do Acesso e da Qualidade da Atenção Básica</italic> (PMAQ – National Program for Access and Quality Improvement in Primary Care) and the <italic>Programa Farmácia Popular do Brasil</italic> (Brazilian Popular Pharmacy Program)<sup><xref ref-type="bibr" rid="B26">26</xref></sup>. The partnerships with educational and research institutions in structuring NCDs surveillance and funding, in 2011, the implementation of MS’s plan are also notewhorthy<sup><xref ref-type="bibr" rid="B16">16</xref></sup>.</p>
+			<p>To better interpret the results of the trend to reach or not the goal, we investigated some factors: health care situation; social indicators; and exposure to smoking.</p>
+			<p>We studied the situation of health care by the <italic>Cadastro Nacional de Estabelecimentos de Saúde</italic> (CNES – National Registry of Health Facilities) and an article that estimated access to drug treatment of CRD<sup><xref ref-type="bibr" rid="B14">14</xref>,<xref ref-type="bibr" rid="B26">26</xref></sup>. São Luís and Boa Vista, capitals that tend not to reach the goal, have a high relationship between population number and number of health facilities, the first one with 1,056.15 inhabitants for each establishment and the second one with 1,055.17 people per unit, what demonstrates possible health system overload in these municipalities<sup><xref ref-type="bibr" rid="B26">26</xref></sup>. However, considering only public establishments, the ratio between population and number of establishments ranks Boa Vista as the capital with the second-best relation, showing less overload of the public health system. Therefore, although this ratio is high, 3,485.26 inhabitants per public establishment, alone it does not justify the trend of the municipality not to reach the goal of MS’s plan, demonstrating probable influence of other factors.</p>
+			<p>Another capital that tends not to reach the goal is Recife, which has a ratio of 720.19 inhabitants per health facility, the 12th worst ratio, improving six positions when the restriction to public units is made. Vitória and Campo Grande have worse overload placements when disregarded private establishments, the first one presenting the best relation between all capitals when considered public and private establishments. Thus, the private sphere would be responsible for reducing the health system overload in these capitals, which could not possibly solve the issue of CRD, once most people depend on the Brazilian Unified Health System (SUS). Thus, it is possible that there is a relation between the ratio between population and number of health facilities and the time trend of mortality from CRD, which is best seen for São Luís and Boa Vista, but this influence is unclear and cannot be analyzed without considering other factors.</p>
+			<p>About access to medicines for CRD, Leal et al.<sup><xref ref-type="bibr" rid="B14">14</xref></sup> (2018) observed that, for individuals who claimed to have medical indication for pharmacological treatment, the prevalence of the use of medicines was lower among residents from North of Brazil (84%), followed by Northeast (92.8%)<sup><xref ref-type="bibr" rid="B14">14</xref></sup>. As two of the five capitals that tend not to reach the reduction target belong to the northeast region, and one to the north region, there may be a relation between this trend and low access to drug treatment, which is not valid for Campo Grande, because Midwest obtained the best prevalence (98%) of access to medicines for CRD. Southeast region of Brazil presented an 89.7% prevalence, ranking third in the country.</p>
+			<p>Regarding social indicators, on the one hand, São Luís is the second capital with the lowest mean monthly household income <italic>per capita</italic> (R$ 1,043.00), higher only than Macapá’s income. On the other hand, Vitória, which also tends not to reach the goal, has the highest mean income (R$ 2,988.00) among all capitals<sup><xref ref-type="bibr" rid="B22">22</xref></sup>. About concentration of wealth, we observed, from the Gini index, a classic inequality index that shows the distribution of <italic>per capita</italic> household income, in which Recife stands out for the greater inequality in income distribution<sup><xref ref-type="bibr" rid="B27">27</xref></sup>.</p>
+			<p>São Luís and Recife, as well as Boa Vista, also present a high proportion of people below the poverty line, which corroborates the idea that social indicators influence the trend of mortality from CRD in these capitals<sup><xref ref-type="bibr" rid="B23">23</xref></sup>. The issue of schooling, an index in which Recife and São Luís showed lower rates than most capitals (98.80% and 98.50%, respectively),<sup><xref ref-type="bibr" rid="B28">28</xref></sup> among people aged between six and 14 years old, is also included. In an opposite way, Vitória and Campo Grande showed 100% schooling for this age group<sup><xref ref-type="bibr" rid="B28">28</xref></sup>.</p>
+			<p>The frequency of adults who smoke is the highest in Porto Alegre (14.40%) and lowest in São Luís (4.80%)<sup><xref ref-type="bibr" rid="B13">13</xref></sup>; Campo Grande also has a high rate in relation to other capitals (10.80%), whereas the frequency in Boa Vista represents the median (7.20%), the same value observed in Recife and close to the one from Vitória (7.60%)<sup><xref ref-type="bibr" rid="B13">13</xref></sup>. The distribution is similar for the percentage of adults who smoke 20 or more cigarettes per day, with Porto Alegre leading, the frequency of São Luís being higher only than the one from Macapá<sup><xref ref-type="bibr" rid="B13">13</xref></sup>. Therefore, the association between the frequency of this risk factor and mortality from CRD is better seen in Campo Grande.</p>
+			<p>We based the choice of the SIM as the source of death data on studies that show its adequate performance, being well evaluated in usability, reliability, safety and quality in use<sup><xref ref-type="bibr" rid="B29">29</xref></sup>. SIM is MS’s oldest information system, implemented in 1976 and, since then, expanding its stability and geographic coverage<sup><xref ref-type="bibr" rid="B29">29</xref>,<xref ref-type="bibr" rid="B30">30</xref></sup>. However, studies indicate limitations, mostly in interoperability and, especially in the North and Northeast, high under-registration and number of deaths from undefined causes<sup><xref ref-type="bibr" rid="B29">29</xref>,<xref ref-type="bibr" rid="B30">30</xref></sup>. Another limitation of the study is the generation of large confidence intervals of ARIMA models, for the forecast for 2022, even with a reasonable predictive capacity with 32.21% average percentage error for 2017, year left out of the estimate in order to test the forecasts.</p>
+		</sec>
+		<sec sec-type="conclusions">
+			<title>CONCLUSIONS</title>
+			<p>The study demonstrates that early mortality rates from CRD are decreasing in Brazil as a whole and in most capitals, and we can observe in most of the country the trend to achieve the goal of the <italic>Plano de Ações Estratégicas para o Enfrentamento das DCNT</italic> (Strategic Action Plan to Tackle NCDs) in Brazil, 2011–2022, of reducing these rates by 2% per year. Such decline is consistent with the results of national and international studies, and may be assigned to initiatives in health, surveillance and comprehensive care promotion. The fight against smoking, the realization of the PNS, the monitoring by Vigitel and the redefinition of the Care for People with Chronic Diseases Network are noteworthy actions. The increased access to health services and the improvement of social indicators also seem to support the decreasing trend.</p>
+			<p>However, we observed that five capitals tend not to reach the goal: Boa Vista, Recife, São Luís, Campo Grande and Vitória. Among the factors that may explain this propensity are the health services overload (a relation better seen in São Luís and Boa Vista), low access to medicines for CRD in some regions, unfavorable social indicators and higher frequency of smoking (association more noted in Campo Grande). Nevertheless, it is possible to conjecture that there is influence of other factors in the time evolution of monthly mortality rates from CRD, especially for Vitória, capital with the highest average monthly household income <italic>per capita</italic> and schooling from six to 14 years of 100%.</p>
+			<p>Considering that CRD receive less investments in research and public attention, compared to other NCDs, this article contributes to a greater epidemiological knowledge of this group of diseases and to the monitoring of public health policies. We hope that this study allows a better planning of the public health system for the control of CRD and promotes initiatives in the research, surveillance and health care areas, especially in the capitals, and results show a trend not to achieve the goal of the Brazilian Ministry of Health.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>REFERENCES</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. World Health Organization. World Health Statistics 2020. Geneva (CH): WHO; 2020.</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>World Health Organization</collab>
+					</person-group>
+					<source>World Health Statistics 2020</source>
+					<publisher-loc>Geneva (CH)</publisher-loc>
+					<publisher-name>WHO</publisher-name>
+					<year>2020</year>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. World Health Organization. Global Action Plan for the Prevention and Control of NCDs 2013-2020. Geneva (CH): WHO; 2013 [cited 2020 Oct 14]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.who.int/publications/i/item/9789241506236">https://www.who.int/publications/i/item/9789241506236</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>World Health Organization</collab>
+					</person-group>
+					<source>Global Action Plan for the Prevention and Control of NCDs 2013-2020</source>
+					<publisher-loc>Geneva (CH)</publisher-loc>
+					<publisher-name>WHO</publisher-name>
+					<year>2013</year>
+					<date-in-citation content-type="cited-date">cited 2020 Oct 14</date-in-citation>
+					<ext-link ext-link-type="uri" xlink:href="https://www.who.int/publications/i/item/9789241506236">https://www.who.int/publications/i/item/9789241506236</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. Martinez R, Soliz P, Caixeta R, Ordunez P. Reflection on modern methods: years of life lost due to premature mortality: a versatile and comprehensive measure for monitoring non-communicable disease mortality. Int J Epidemiol. 2019;48(4):1367-76. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/ije/dyy254">https://doi.org/10.1093/ije/dyy254</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Martinez</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Soliz</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Caixeta</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Ordunez</surname>
+							<given-names>P</given-names>
+						</name>
+					</person-group>
+					<article-title>Reflection on modern methods: years of life lost due to premature mortality: a versatile and comprehensive measure for monitoring non-communicable disease mortality</article-title>
+					<source>Int J Epidemiol</source>
+					<year>2019</year>
+					<volume>48</volume>
+					<issue>4</issue>
+					<fpage>1367</fpage>
+					<lpage>1376</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/ije/dyy254">https://doi.org/10.1093/ije/dyy254</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. Ministério da Saúde (BR), Secretaria de Vigilância em Saúde, Departamento de Análise de Situação de Saúde. Plano de ações estratégicas para o enfrentamento das doenças crônicas não transmissíveis (DCNT) no Brasil 2011-2022. Brasília, DF; 2011 [cited 2020 Oct 14]. (Série B. Textos Básicos de Saúde). Available from: <ext-link ext-link-type="uri" xlink:href="https://bvsms.saude.gov.br/bvs/publicacoes/plano_acoes_enfrent_dcnt_2011.pdf">https://bvsms.saude.gov.br/bvs/publicacoes/plano_acoes_enfrent_dcnt_2011.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+						<collab>Secretaria de Vigilância em Saúde</collab>
+						<collab>Departamento de Análise de Situação de Saúde</collab>
+					</person-group>
+					<source>Plano de ações estratégicas para o enfrentamento das doenças crônicas não transmissíveis (DCNT) no Brasil 2011-2022</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<year>2011</year>
+					<date-in-citation content-type="cited-date">cited 2020 Oct 14</date-in-citation>
+					<comment>Série B. Textos Básicos de Saúde</comment>
+					<ext-link ext-link-type="uri" xlink:href="https://bvsms.saude.gov.br/bvs/publicacoes/plano_acoes_enfrent_dcnt_2011.pdf">https://bvsms.saude.gov.br/bvs/publicacoes/plano_acoes_enfrent_dcnt_2011.pdf</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Malta DC, Andrade SSCA, Oliveira TP, Moura L, Prado RR, Souza MF. Probabilidade de morte prematura por doenças crônicas não transmissíveis, Brasil e regiões, projeções para 2025. Rev Bras Epidemiol. 2019;22:E190030. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1980-549720190030">https://doi.org/10.1590/1980-549720190030</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Malta</surname>
+							<given-names>DC</given-names>
+						</name>
+						<name>
+							<surname>Andrade</surname>
+							<given-names>SSCA</given-names>
+						</name>
+						<name>
+							<surname>Oliveira</surname>
+							<given-names>TP</given-names>
+						</name>
+						<name>
+							<surname>Moura</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Prado</surname>
+							<given-names>RR</given-names>
+						</name>
+						<name>
+							<surname>Souza</surname>
+							<given-names>MF</given-names>
+						</name>
+					</person-group>
+					<article-title>Probabilidade de morte prematura por doenças crônicas não transmissíveis, Brasil e regiões, projeções para 2025</article-title>
+					<source>Rev Bras Epidemiol</source>
+					<year>2019</year>
+					<volume>22</volume>
+					<elocation-id>E190030</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1980-549720190030">https://doi.org/10.1590/1980-549720190030</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. GBD Chronic Respiratory Disease Collaborators. Prevalence and attributable health burden of chronic respiratory diseases, 1990-2017: a systematic analysis for the Global Burden of Disease Study 2017. Lancet Respir Med. 2020;8(6):585-96. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S2213-2600(20)30105-3">https://doi.org/10.1016/S2213-2600(20)30105-3</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<collab>GBD Chronic Respiratory Disease Collaborators</collab>
+					</person-group>
+					<article-title>Prevalence and attributable health burden of chronic respiratory diseases, 1990-2017: a systematic analysis for the Global Burden of Disease Study 2017</article-title>
+					<source>Lancet Respir Med</source>
+					<year>2020</year>
+					<volume>8</volume>
+					<issue>6</issue>
+					<fpage>585</fpage>
+					<lpage>596</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S2213-2600(20)30105-3">https://doi.org/10.1016/S2213-2600(20)30105-3</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. Li X, Cao X, Guo M, Xie M, Liu X. Trends and risk factors of mortality and disability adjusted life years for chronic respiratory diseases from 1990 to 2017: systematic analysis for the Global Burden of Disease Study 2017. BMJ. 2020;368:m234. <ext-link ext-link-type="uri" xlink:href="https://doi.org/">https://doi.org/</ext-link> 10.1136/bmj.m234</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Li</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Cao</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Guo</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Xie</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Liu</surname>
+							<given-names>X</given-names>
+						</name>
+					</person-group>
+					<article-title>Trends and risk factors of mortality and disability adjusted life years for chronic respiratory diseases from 1990 to 2017: systematic analysis for the Global Burden of Disease Study 2017</article-title>
+					<source>BMJ</source>
+					<year>2020</year>
+					<volume>368</volume>
+					<fpage>m234</fpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/">https://doi.org/</ext-link>
+					<issue-id pub-id-type="doi">10.1136/bmj.m234</issue-id>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Leal LF, Cousin E, Bidinotto AB, Sganzerla D, Borges RB, Malta DC, et al. Epidemiology and burden of chronic respiratory diseases in Brazil from 1990 to 2017: analysis for the Global Burden of Disease 2017 Study. Rev Bras Epidemiol. 2020;23:e200031. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1980-549720200031">https://doi.org/10.1590/1980-549720200031</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Leal</surname>
+							<given-names>LF</given-names>
+						</name>
+						<name>
+							<surname>Cousin</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Bidinotto</surname>
+							<given-names>AB</given-names>
+						</name>
+						<name>
+							<surname>Sganzerla</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Borges</surname>
+							<given-names>RB</given-names>
+						</name>
+						<name>
+							<surname>Malta</surname>
+							<given-names>DC</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Epidemiology and burden of chronic respiratory diseases in Brazil from 1990 to 2017: analysis for the Global Burden of Disease 2017 Study</article-title>
+					<source>Rev Bras Epidemiol</source>
+					<year>2020</year>
+					<volume>23</volume>
+					<elocation-id>e200031</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1980-549720200031">https://doi.org/10.1590/1980-549720200031</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. Ministério da Saúde (BR), Secretaria de Vigilância em Saúde. Perfil da morbimortalidade por doenças respiratórias crônicas no Brasil, 2003 a 2013. Bol Epidemiol. 2016 [cited 2020 Oct 14];47(19):1-9. Available from: <ext-link ext-link-type="uri" xlink:href="https://portalarquivos2.saude.gov.br/images/pdf/2016/maio/06/2015-026-doencas-respiratorias-cronicas.pdf">https://portalarquivos2.saude.gov.br/images/pdf/2016/maio/06/2015-026-doencas-respiratorias-cronicas.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+						<collab>Secretaria de Vigilância em Saúde</collab>
+					</person-group>
+					<article-title>Perfil da morbimortalidade por doenças respiratórias crônicas no Brasil, 2003 a 2013</article-title>
+					<source>Bol Epidemiol</source>
+					<year>2016</year>
+					<date-in-citation content-type="cited-date">cited 2020 Oct 14</date-in-citation>
+					<volume>47</volume>
+					<issue>19</issue>
+					<fpage>1</fpage>
+					<lpage>9</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://portalarquivos2.saude.gov.br/images/pdf/2016/maio/06/2015-026-doencas-respiratorias-cronicas.pdf">https://portalarquivos2.saude.gov.br/images/pdf/2016/maio/06/2015-026-doencas-respiratorias-cronicas.pdf</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. GBD 2019 Diseases and Injuries Collaborators. Global burden of 369 diseases and injuries in 204 countries and territories, 1990-2019: a systematic analysis for the Global Burden of Disease Study 2019. Lancet. 2020;396:1204-22. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(20)30925-9">https://doi.org/10.1016/S0140-6736(20)30925-9</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<collab>GBD 2019 Diseases and Injuries Collaborators</collab>
+					</person-group>
+					<article-title>Global burden of 369 diseases and injuries in 204 countries and territories, 1990-2019: a systematic analysis for the Global Burden of Disease Study 2019</article-title>
+					<source>Lancet.</source>
+					<year>2020</year>
+					<volume>396</volume>
+					<fpage>1204</fpage>
+					<lpage>1222</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(20)30925-9">https://doi.org/10.1016/S0140-6736(20)30925-9</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. Malta DC, Bernal, RTI, Lima MG, Araújo SSC, Silva MMA, Freitas MIF, et al. Doenças crônicas não transmissíveis e a utilização de serviços de saúde: análise da Pesquisa Nacional de Saúde no Brasil. Rev Saude Publica. 2017;51 Supl 1:4s. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S1518-8787.2017051000090">https://doi.org/10.1590/S1518-8787.2017051000090</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Malta</surname>
+							<given-names>DC</given-names>
+						</name>
+						<name>
+							<surname>Bernal</surname>
+							<given-names>RTI</given-names>
+						</name>
+						<name>
+							<surname>Lima</surname>
+							<given-names>MG</given-names>
+						</name>
+						<name>
+							<surname>Araújo</surname>
+							<given-names>SSC</given-names>
+						</name>
+						<name>
+							<surname>Silva</surname>
+							<given-names>MMA</given-names>
+						</name>
+						<name>
+							<surname>Freitas</surname>
+							<given-names>MIF</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Doenças crônicas não transmissíveis e a utilização de serviços de saúde: análise da Pesquisa Nacional de Saúde no Brasil</article-title>
+					<source>Rev Saude Publica</source>
+					<year>2017</year>
+					<volume>51</volume>
+					<supplement>Supl 1</supplement>
+					<size units="pages">4s</size>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S1518-8787.2017051000090">https://doi.org/10.1590/S1518-8787.2017051000090</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. Allen L, Williams J, Townsend N, Mikkelsen B, Roberts N, Foster C, et al. Socioeconomic status and non-communicable disease behavioural risk factors in low-income and lower-middle-income countries: a systematic review. Lancet Glob Health. 2017;5(3):e277-89. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S2214-109X(17)30058-X">https://doi.org/10.1016/S2214-109X(17)30058-X</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Allen</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Williams</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Townsend</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Mikkelsen</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Roberts</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Foster</surname>
+							<given-names>C</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Socioeconomic status and non-communicable disease behavioural risk factors in low-income and lower-middle-income countries: a systematic review</article-title>
+					<source>Lancet Glob Health</source>
+					<year>2017</year>
+					<volume>5</volume>
+					<issue>3</issue>
+					<fpage>e277</fpage>
+					<lpage>e289</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S2214-109X(17)30058-X">https://doi.org/10.1016/S2214-109X(17)30058-X</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. Ministério da Saúde (BR), Secretaria de Vigilância em Saúde, Departamento de Vigilância de Doenças e Agravos não Transmissíveis e Promoção da Saúde. Vigitel Brasil 2017: vigilância de fatores de risco e proteção para doenças crônicas por inquérito telefônico. Brasília, DF; 2018 [cited 2020 Oct 14]. Available from: <ext-link ext-link-type="uri" xlink:href="https://bvsms.saude.gov.br/bvs/publicacoes/vigitel_brasil_2017_vigilancia_fatores_riscos.pdf">https://bvsms.saude.gov.br/bvs/publicacoes/vigitel_brasil_2017_vigilancia_fatores_riscos.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+						<collab>Secretaria de Vigilância em Saúde</collab>
+						<collab>Departamento de Vigilância de Doenças e Agravos não Transmissíveis e Promoção da Saúde</collab>
+					</person-group>
+					<source>Vigitel Brasil 2017: vigilância de fatores de risco e proteção para doenças crônicas por inquérito telefônico</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<year>2018</year>
+					<date-in-citation content-type="cited-date">cited 2020 Oct 14</date-in-citation>
+					<ext-link ext-link-type="uri" xlink:href="https://bvsms.saude.gov.br/bvs/publicacoes/vigitel_brasil_2017_vigilancia_fatores_riscos.pdf">https://bvsms.saude.gov.br/bvs/publicacoes/vigitel_brasil_2017_vigilancia_fatores_riscos.pdf</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. Leal LF, Bertoldi AD, Menezes AMB, Borges RB, Mengue SS, Gazzana MB, et al. Indicação, acesso e utilização de medicamentos para doenças respiratórias crônicas no Brasil: resultados da Pesquisa Nacional sobre Acesso, Utilização e Promoção do Uso Racional de Medicamentos no Brasil (PNAUM), 2014. Cad Saude Publica. 2018;34(10):e00202817. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0102-311X00208217">https://doi.org/10.1590/0102-311X00208217</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Leal</surname>
+							<given-names>LF</given-names>
+						</name>
+						<name>
+							<surname>Bertoldi</surname>
+							<given-names>AD</given-names>
+						</name>
+						<name>
+							<surname>Menezes</surname>
+							<given-names>AMB</given-names>
+						</name>
+						<name>
+							<surname>Borges</surname>
+							<given-names>RB</given-names>
+						</name>
+						<name>
+							<surname>Mengue</surname>
+							<given-names>SS</given-names>
+						</name>
+						<name>
+							<surname>Gazzana</surname>
+							<given-names>MB</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Indicação, acesso e utilização de medicamentos para doenças respiratórias crônicas no Brasil: resultados da Pesquisa Nacional sobre Acesso, Utilização e Promoção do Uso Racional de Medicamentos no Brasil (PNAUM), 2014</article-title>
+					<source>Cad Saude Publica</source>
+					<year>2018</year>
+					<volume>34</volume>
+					<issue>10</issue>
+					<elocation-id>e00202817</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0102-311X00208217">https://doi.org/10.1590/0102-311X00208217</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. NCD Countdown 2030 collaborators. NCD Countdown 2030: worldwide trends in non-communicable disease mortality and progress towards Sustainable Development Goal target 3.4. Lancet. 2018;392(10152):1072-88. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(18)31992-5">https://doi.org/10.1016/S0140-6736(18)31992-5</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<collab>NCD Countdown 2030 collaborators</collab>
+					</person-group>
+					<article-title>NCD Countdown 2030: worldwide trends in non-communicable disease mortality and progress towards Sustainable Development Goal target 3.4</article-title>
+					<source>Lancet</source>
+					<year>2018</year>
+					<volume>392</volume>
+					<issue>10152</issue>
+					<fpage>1072</fpage>
+					<lpage>1088</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(18)31992-5">https://doi.org/10.1016/S0140-6736(18)31992-5</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. Malta DC, Silva MMA, Moura L, Morais Neto OL. A implantação do Sistema de Vigilância de Doenças Crônicas Não Transmissíveis no Brasil, 2003 a 2015: alcances e desafios. Rev Bras Epidemiol. 2017;20(4):661-75. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1980-5497201700040009">https://doi.org/10.1590/1980-5497201700040009</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Malta</surname>
+							<given-names>DC</given-names>
+						</name>
+						<name>
+							<surname>Silva</surname>
+							<given-names>MMA</given-names>
+						</name>
+						<name>
+							<surname>Moura</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Morais</surname>
+							<given-names>OL</given-names>
+							<suffix>Neto</suffix>
+						</name>
+					</person-group>
+					<article-title>A implantação do Sistema de Vigilância de Doenças Crônicas Não Transmissíveis no Brasil, 2003 a 2015: alcances e desafios</article-title>
+					<source>Rev Bras Epidemiol</source>
+					<year>2017</year>
+					<volume>20</volume>
+					<issue>4</issue>
+					<fpage>661</fpage>
+					<lpage>675</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1980-5497201700040009">https://doi.org/10.1590/1980-5497201700040009</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Labaki WW, Han MK. Chronic respiratory diseases: a global view. Lancet. 2020;8(6):531-3. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S2213-2600(20)30157-0">https://doi.org/10.1016/S2213-2600(20)30157-0</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Labaki</surname>
+							<given-names>WW</given-names>
+						</name>
+						<name>
+							<surname>Han</surname>
+							<given-names>MK</given-names>
+						</name>
+					</person-group>
+					<article-title>Chronic respiratory diseases: a global view</article-title>
+					<source>Lancet</source>
+					<year>2020</year>
+					<volume>8</volume>
+					<issue>6</issue>
+					<fpage>531</fpage>
+					<lpage>533</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S2213-2600(20)30157-0">https://doi.org/10.1016/S2213-2600(20)30157-0</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18. Gujarati DN, Porter DC. Basic econometrics. 5. ed. New York: The McGraw-Hill Education; 2008.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Gujarati</surname>
+							<given-names>DN</given-names>
+						</name>
+						<name>
+							<surname>Porter</surname>
+							<given-names>DC</given-names>
+						</name>
+					</person-group>
+					<source>Basic econometrics</source>
+					<edition>5</edition>
+					<publisher-loc>New York</publisher-loc>
+					<publisher-name>The McGraw-Hill Education</publisher-name>
+					<year>2008</year>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19. R Core Team. R: a language and environment for statistical computing. Vienna (AT). R Foundation for Statistical Computing; 2020 [cited 2020 Oct 14]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.R-project.org/">https://www.R-project.org/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>R Core Team</collab>
+					</person-group>
+					<source>R: a language and environment for statistical computing</source>
+					<publisher-loc>Vienna (AT)</publisher-loc>
+					<publisher-name>R Foundation for Statistical Computing</publisher-name>
+					<year>2020</year>
+					<date-in-citation content-type="cited-date">cited 2020 Oct 14</date-in-citation>
+					<ext-link ext-link-type="uri" xlink:href="https://www.R-project.org/">https://www.R-project.org/</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20. Hyndman R, Athanasopoulos G, Bergmeir C, Caceres G, Chhay L, O’Hara-Wild M, et al. Forecasting functions for time series and linear models: R package version 8.12. 2020 [cited 2020 Oct 14]. Available from: <ext-link ext-link-type="uri" xlink:href="http://pkg.robjhyndman.com/forecast">http://pkg.robjhyndman.com/forecast</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hyndman</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Athanasopoulos</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Bergmeir</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Caceres</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Chhay</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>O’Hara-Wild</surname>
+							<given-names>M</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<source>Forecasting functions for time series and linear models: R package version 8.12</source>
+					<year>2020</year>
+					<date-in-citation content-type="cited-date">cited 2020 Oct 14</date-in-citation>
+					<ext-link ext-link-type="uri" xlink:href="http://pkg.robjhyndman.com/forecast">http://pkg.robjhyndman.com/forecast</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>21. Zeileis A, Hothorn T. Diagnostic checking in regression relationships. R News. 2002;2(3):7-10 [cited 2020 Oct 14]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.r-project.org/doc/Rnews/Rnews_2002-3.pdf">https://www.r-project.org/doc/Rnews/Rnews_2002-3.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Zeileis</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Hothorn</surname>
+							<given-names>T</given-names>
+						</name>
+					</person-group>
+					<article-title>Diagnostic checking in regression relationships</article-title>
+					<source>R News</source>
+					<year>2002</year>
+					<volume>2</volume>
+					<issue>3</issue>
+					<fpage>7</fpage>
+					<lpage>10</lpage>
+					<date-in-citation content-type="cited-date">cited 2020 Oct 14</date-in-citation>
+					<ext-link ext-link-type="uri" xlink:href="https://www.r-project.org/doc/Rnews/Rnews_2002-3.pdf">https://www.r-project.org/doc/Rnews/Rnews_2002-3.pdf</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>22. Stopa SR, Malta DC, Monteiro CN, Szwarcwald CL, Goldbaum M, Cesar CLG. Acesso e uso de serviços de saúde pela população brasileira, Pesquisa Nacional de Saúde 2013. Rev Saude Publica. 2017;51 Supl 1:3s. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S1518-8787.2017051000074">https://doi.org/10.1590/S1518-8787.2017051000074</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Stopa</surname>
+							<given-names>SR</given-names>
+						</name>
+						<name>
+							<surname>Malta</surname>
+							<given-names>DC</given-names>
+						</name>
+						<name>
+							<surname>Monteiro</surname>
+							<given-names>CN</given-names>
+						</name>
+						<name>
+							<surname>Szwarcwald</surname>
+							<given-names>CL</given-names>
+						</name>
+						<name>
+							<surname>Goldbaum</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Cesar</surname>
+							<given-names>CLG</given-names>
+						</name>
+					</person-group>
+					<article-title>Acesso e uso de serviços de saúde pela população brasileira, Pesquisa Nacional de Saúde 2013</article-title>
+					<source>Rev Saude Publica</source>
+					<year>2017</year>
+					<volume>51</volume>
+					<supplement>Supl 1</supplement>
+					<size units="pages">3s</size>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S1518-8787.2017051000074">https://doi.org/10.1590/S1518-8787.2017051000074</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>23. Instituto Brasileiro de Geografia e Estatística. Síntese de indicadores sociais: uma análise das condições de vida da população brasileira. Rio de Janeiro: IBGE; 2019 [cited 2020 Oct 14]. (Estudos e pesquisas. Informação demográfica e socioeconômica; nº 40). Available from: <ext-link ext-link-type="uri" xlink:href="https://biblioteca.ibge.gov.br/visualizacao/livros/liv101678.pdf">https://biblioteca.ibge.gov.br/visualizacao/livros/liv101678.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>Instituto Brasileiro de Geografia e Estatística</collab>
+					</person-group>
+					<source>Síntese de indicadores sociais: uma análise das condições de vida da população brasileira</source>
+					<publisher-loc>Rio de Janeiro</publisher-loc>
+					<publisher-name>IBGE</publisher-name>
+					<year>2019</year>
+					<date-in-citation content-type="cited-date">cited 2020 Oct 14</date-in-citation>
+					<comment>Estudos e pesquisas. Informação demográfica e socioeconômica; nº 40</comment>
+					<ext-link ext-link-type="uri" xlink:href="https://biblioteca.ibge.gov.br/visualizacao/livros/liv101678.pdf">https://biblioteca.ibge.gov.br/visualizacao/livros/liv101678.pdf</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>24. GBD 2015 Chronic Respiratory Disease Collaborators. Global, regional, and national deaths, prevalence, disability-adjusted life years, and years lived with disability for chronic obstructive pulmonary disease and asthma, 1990-2015: a systematic analysis for the Global Burden of Disease Study 2015. Lancet Respir Med. 2017;5(9):691-706. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S2213-2600(17)30293-X">https://doi.org/10.1016/S2213-2600(17)30293-X</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<collab>GBD 2015 Chronic Respiratory Disease Collaborators</collab>
+					</person-group>
+					<article-title>Global, regional, and national deaths, prevalence, disability-adjusted life years, and years lived with disability for chronic obstructive pulmonary disease and asthma, 1990-2015: a systematic analysis for the Global Burden of Disease Study 2015</article-title>
+					<source>Lancet Respir Med</source>
+					<year>2017</year>
+					<volume>5</volume>
+					<issue>9</issue>
+					<fpage>691</fpage>
+					<lpage>706</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S2213-2600(17)30293-X">https://doi.org/10.1016/S2213-2600(17)30293-X</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>25. India State-Level Disease Burden Initiative CRD Collaborators. The burden of chronic respiratory diseases and their heterogeneity across the states of India: the Global Burden of Disease Study 1990–2016. Lancet Glob Health. 2018;6(12):e1363-74. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S2214-109X(18)30409-1">https://doi.org/10.1016/S2214-109X(18)30409-1</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<collab>India State-Level Disease Burden Initiative CRD Collaborators</collab>
+					</person-group>
+					<article-title>The burden of chronic respiratory diseases and their heterogeneity across the states of India: the Global Burden of Disease Study 1990–2016</article-title>
+					<source>Lancet Glob Health</source>
+					<year>2018</year>
+					<volume>6</volume>
+					<issue>12</issue>
+					<fpage>e1363</fpage>
+					<lpage>e1374</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S2214-109X(18)30409-1">https://doi.org/10.1016/S2214-109X(18)30409-1</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation>26. Ministério da Saúde (BR), Departamento de Informática do SUS (DATASUS). Informações de Saúde: Rede Assistencial. Brasília, DF; 2017 [cited 2020 Oct 14]. Available from: <ext-link ext-link-type="uri" xlink:href="http://www2.datasus.gov.br/DATASUS/index.php?area=0204">http://www2.datasus.gov.br/DATASUS/index.php?area=0204</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+						<collab>Departamento de Informática do SUS (DATASUS)</collab>
+					</person-group>
+					<source>Informações de Saúde: Rede Assistencial</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<year>2017</year>
+					<date-in-citation content-type="cited-date">cited 2020 Oct 14</date-in-citation>
+					<ext-link ext-link-type="uri" xlink:href="http://www2.datasus.gov.br/DATASUS/index.php?area=0204">http://www2.datasus.gov.br/DATASUS/index.php?area=0204</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<mixed-citation>27. Instituto Brasileiro de Geografia e Estatística. Síntese de Indicadores Sociais: uma análise das condições de vida da população brasileira. Rio de Janeiro: IBGE; 2017 [cited 2020 Oct 14]. (Estudos e pesquisas. Informação demográfica e socioeconômica; nº 37). Available from: <ext-link ext-link-type="uri" xlink:href="https://renastonline.ensp.fiocruz.br/sites/default/files/arquivos/recursos/liv101459.pdf">https://renastonline.ensp.fiocruz.br/sites/default/files/arquivos/recursos/liv101459.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>Instituto Brasileiro de Geografia e Estatística</collab>
+					</person-group>
+					<source>Síntese de Indicadores Sociais: uma análise das condições de vida da população brasileira</source>
+					<publisher-loc>Rio de Janeiro</publisher-loc>
+					<publisher-name>IBGE</publisher-name>
+					<year>2017</year>
+					<date-in-citation content-type="cited-date">cited 2020 Oct 14</date-in-citation>
+					<comment>Estudos e pesquisas. Informação demográfica e socioeconômica; nº 37</comment>
+					<ext-link ext-link-type="uri" xlink:href="https://renastonline.ensp.fiocruz.br/sites/default/files/arquivos/recursos/liv101459.pdf">https://renastonline.ensp.fiocruz.br/sites/default/files/arquivos/recursos/liv101459.pdf</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<mixed-citation>28. Instituto Brasileiro de Geografia e Estatística. Pesquisa Nacional por Amostra de Domicílios Contínua - PNAD Contínua. Rio de Janeiro: IBGE; 2017 [cited 2020 Oct 14]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.ibge.gov.br/estatisticas/sociais/educacao/17270-pnad-continua.html?edicao=21073&amp;t=sobre">https://www.ibge.gov.br/estatisticas/sociais/educacao/17270-pnad-continua.html?edicao=21073&amp;t=sobre</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>Instituto Brasileiro de Geografia e Estatística</collab>
+					</person-group>
+					<source>Pesquisa Nacional por Amostra de Domicílios Contínua - PNAD Contínua</source>
+					<publisher-loc>Rio de Janeiro</publisher-loc>
+					<publisher-name>IBGE</publisher-name>
+					<year>2017</year>
+					<date-in-citation content-type="cited-date">cited 2020 Oct 14</date-in-citation>
+					<ext-link ext-link-type="uri" xlink:href="https://www.ibge.gov.br/estatisticas/sociais/educacao/17270-pnad-continua.html?edicao=21073&amp;t=sobre">https://www.ibge.gov.br/estatisticas/sociais/educacao/17270-pnad-continua.html?edicao=21073&amp;t=sobre</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B29">
+				<label>29</label>
+				<mixed-citation>29. Morais RM, Costa AC. Uma avaliação do Sistema de Informações sobre Mortalidade. Saude Debate. 2017;41 Nº Espec:101-17. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0103-11042017s09">https://doi.org/10.1590/0103-11042017s09</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Morais</surname>
+							<given-names>RM</given-names>
+						</name>
+						<name>
+							<surname>Costa</surname>
+							<given-names>AC</given-names>
+						</name>
+					</person-group>
+					<article-title>Uma avaliação do Sistema de Informações sobre Mortalidade</article-title>
+					<source>Saude Debate</source>
+					<year>2017</year>
+					<volume>41</volume>
+					<issue>Espec</issue>
+					<fpage>101</fpage>
+					<lpage>117</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0103-11042017s09">https://doi.org/10.1590/0103-11042017s09</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B30">
+				<label>30</label>
+				<mixed-citation>30. Pinto LF, Freitas MPS, Figueiredo AWS. Sistemas Nacionais de Informação e levantamentos populacionais: algumas contribuições do Ministério da Saúde e do IBGE para a análise das capitais brasileiras nos últimos 30 anos. Cienc Saude Coletiva. 2018;23(6):1859-70. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1413-81232018236.05072018">https://doi.org/10.1590/1413-81232018236.05072018</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pinto</surname>
+							<given-names>LF</given-names>
+						</name>
+						<name>
+							<surname>Freitas</surname>
+							<given-names>MPS</given-names>
+						</name>
+						<name>
+							<surname>Figueiredo</surname>
+							<given-names>AWS</given-names>
+						</name>
+					</person-group>
+					<article-title>Sistemas Nacionais de Informação e levantamentos populacionais: algumas contribuições do Ministério da Saúde e do IBGE para a análise das capitais brasileiras nos últimos 30 anos</article-title>
+					<source>Cienc Saude Coletiva</source>
+					<year>2018</year>
+					<volume>23</volume>
+					<issue>6</issue>
+					<fpage>1859</fpage>
+					<lpage>1870</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1413-81232018236.05072018">https://doi.org/10.1590/1413-81232018236.05072018</ext-link>
+				</element-citation>
+			</ref>
+		</ref-list>
+	</back>
+	<sub-article article-type="translation" id="TRpt" xml:lang="pt">
+		<front-stub>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artigo Original</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Mortalidade por doença respiratória crônica no Brasil: tendência temporal e projeções</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-2880-1603</contrib-id>
+					<name>
+						<surname>Oliveira</surname>
+						<given-names>Marcio Sacramento de</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-3298-4967</contrib-id>
+					<name>
+						<surname>Montovani</surname>
+						<given-names>Elisa Hypólito</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-2554-5125</contrib-id>
+					<name>
+						<surname>Santana</surname>
+						<given-names>Maria de Fátima Ebole de</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-0704-5215</contrib-id>
+					<name>
+						<surname>Ponce de Leon</surname>
+						<given-names>Antonio Carlos Monteiro</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2002"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-0566-1209</contrib-id>
+					<name>
+						<surname>Marques</surname>
+						<given-names>Márcio Candeias</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3002"><sup>III</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1002">
+				<label>I</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Fundação Oswaldo Cruz. Instituto de Comunicação e Informação Científica e Tecnológica em Saúde. Rio de Janeiro, RJ, Brasil</institution>
+			</aff>
+			<aff id="aff2002">
+				<label>II</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Universidade do Estado do Rio de Janeiro. Instituto de Medicina Social. Rio de Janeiro, RJ, Brasil</institution>
+			</aff>
+			<aff id="aff3002">
+				<label>III</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Fundação Oswaldo Cruz. Escola Politécnica de Saúde Joaquim Venâncio. Rio de Janeiro, RJ, Brasil</institution>
+			</aff>
+			<author-notes>
+				<corresp id="c01002"> Correspondência: Marcio Sacramento de Oliveira Av. Brasil, 4.365 Pavilhão Haity Moussatché 21040-900 Manguinhos, RJ, Brasil E-mail: marcio.sacramento@icict.fiocruz.br </corresp>
+				<fn fn-type="con">
+					<p><bold>Contribuição dos Autores:</bold> Concepção e planejamento do estudo: MSO, MCM. Coleta, análise e interpretação dos dados: MSO, EHM, MFES, ACMPL, MCM. Elaboração ou revisão do manuscrito: MSO, EHM, MFES, ACMPL, MCM. Aprovação da versão final: MSO, EHM, MFES, ACMPL, MCM. Responsabilidade pública pelo conteúdo do artigo: MSO, EHM, MFES, ACMPL, MCM.</p>
+				</fn>
+				<fn fn-type="conflict">
+					<p><bold>Conflito de Interesses:</bold> Os autores declaram não haver conflito de interesses.</p>
+				</fn>
+			</author-notes>
+			<abstract>
+				<title>RESUMO</title>
+				<sec>
+					<title>OBJETIVO</title>
+					<p> Analisar a tendência temporal das taxas mensais de mortalidade por doenças respiratórias crônicas no Brasil de 1996 até 2017, com projeções para 2022, além de analisar a possibilidade de cumprimento da meta do Plano de Ações Estratégicas para o Enfrentamento das Doenças Crônicas Não Transmissíveis no Brasil de 2011 até 2022.</p>
+				</sec>
+				<sec>
+					<title>MÉTODOS</title>
+					<p> Trata-se de estudo ecológico que utiliza dados do Sistema de Informações sobre Mortalidade, do Sistema de Informações Demográficas e Socioeconômicas e da Pesquisa Nacional por Amostra de Domicílios Contínua. O recorte etário foi estabelecido entre 30 e 69 anos e a evolução das taxas no tempo foi feita por meio de modelos autorregressivos integrados de média móvel em plataforma estatística R.</p>
+				</sec>
+				<sec>
+					<title>RESULTADOS</title>
+					<p> As taxas de mortalidade precoce por doenças respiratórias crônicas apresentam-se decrescentes no Brasil como um todo e na maior parte das capitais, assim como, há tendência a atingir a meta do Ministério da Saúde na maior parte do país. Para capitais que tendem a não atingir a meta, verifica-se associação entre mortalidade e indicadores sociais, rede assistencial de saúde e frequência do tabagismo.</p>
+				</sec>
+				<sec>
+					<title>CONCLUSÃO</title>
+					<p> Pretende-se que o estudo possibilite um melhor planejamento do sistema público de saúde para o controle das doenças respiratórias crônicas.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="pt">
+				<kwd>Doenças Respiratórias, mortalidade</kwd>
+				<kwd>Indicadores de Doenças Crônicas</kwd>
+				<kwd>Planos e Programas de Saúde, tendências</kwd>
+				<kwd>Estudos Ecológicos</kwd>
+			</kwd-group>
+		</front-stub>
+		<body>
+			<sec sec-type="intro">
+				<title>INTRODUÇÃO</title>
+				<p>A taxa de mortalidade prematura global por doenças crônicas não transmissíveis (DCNT) sofreu redução de 18% no início deste século<sup><xref ref-type="bibr" rid="B1">1</xref></sup>. Entretanto, tal progresso não foi sustentado, visto que se observou desaceleração no declínio da taxa de mortalidade por DCNT<sup><xref ref-type="bibr" rid="B1">1</xref></sup>. Essas doenças, principalmente cardiovasculares, cânceres, doenças respiratórias crônicas e diabetes, correspondem à maior parcela de mortes no mundo (63% anualmente) e, uma vez que mudanças demográficas compensam a queda nas taxas de mortalidade, as DCNT estão assumindo uma proporção ainda maior do total de óbitos<sup><xref ref-type="bibr" rid="B1">1</xref>,<xref ref-type="bibr" rid="B2">2</xref></sup>.</p>
+				<p>Nas Américas, a taxa de redução percentual da mortalidade prematura por DCNT também diminuiu<sup><xref ref-type="bibr" rid="B3">3</xref></sup>. No Brasil, apesar de liderarem como causa de morbimortalidade, houve declínio de 20% na taxa de mortalidade por DCNT no período entre 1996 e 2007<sup><xref ref-type="bibr" rid="B4">4</xref></sup>, e redução na taxa de mortalidade prematura (30 a 69 anos) por DCNT, de 2000 a 2013 (2,5% ao ano), com liderança das doenças respiratórias crônicas (DRC) na variação percentual (4,1%)<sup><xref ref-type="bibr" rid="B5">5</xref></sup>.</p>
+				<p>Somente as DRC foram a terceira causa de morte (7%) no mundo em 2017, atrás de doenças cardiovasculares e neoplasias, com destaque para doença pulmonar obstrutiva crônica (DPOC) e asma<sup><xref ref-type="bibr" rid="B6">6</xref></sup>. Entre 1990 e 2017, o número total de mortes causadas por DRC aumentou mundialmente, enquanto a taxa de mortalidade padronizada por idade diminuiu<sup><xref ref-type="bibr" rid="B6">6</xref>,<xref ref-type="bibr" rid="B7">7</xref></sup>. O cenário das DRC no Brasil seguiu a tendência global, sendo a DPOC a quarta causa de óbitos em 2019, com aumento absoluto do número de mortes por DRC e redução das taxas de mortalidade quando ajustadas por idade<sup><xref ref-type="bibr" rid="B5">5</xref>,<xref ref-type="bibr" rid="B8">8</xref></sup>.</p>
+				<p>As DCNT afetam principalmente populações de baixa renda e escolaridade, pois estão mais expostas aos fatores de risco e têm menor acesso aos serviços de saúde<sup><xref ref-type="bibr" rid="B4">4</xref>,<xref ref-type="bibr" rid="B11">11</xref></sup>. No caso das DRC não é diferente. O tabagismo é o principal fator de risco associado a anos de vida ajustados por incapacidade<sup><xref ref-type="bibr" rid="B8">8</xref></sup>. Nesse contexto, estudos revelam que grupos menos favorecidos socioeconomicamente são mais propensos ao uso frequente do tabaco<sup><xref ref-type="bibr" rid="B12">12</xref></sup>. Somam-se a isso, dados da Vigilância de Fatores de Risco e Proteção para Doenças Crônicas por Inquérito Telefônico (Vigitel)<sup><xref ref-type="bibr" rid="B13">13</xref></sup>, que sinalizam diminuição da frequência do tabagismo com o aumento da escolaridade. Além disso, os mais pobres são menos diagnosticados com DRC e os que utilizam menos medicamentos<sup><xref ref-type="bibr" rid="B14">14</xref></sup>.</p>
+				<p>Diante do impacto das DCNT, políticas globais e nacionais firmaram o compromisso de enfrentamento dessas doenças. Destaques na agenda mundial foram: a primeira Reunião de Alto Nível das Nações Unidas sobre prevenção e controle de DCNT em 2011; a meta 3.4 do Objetivo de Desenvolvimento Sustentável (ODS), de reduzir em um terço a mortalidade prematura por essas doenças até 2030; e o Plano de Ação Global da Organização Mundial da Saúde para a Prevenção e Controle das DCNT 2013–2020<sup><xref ref-type="bibr" rid="B2">2</xref>,<xref ref-type="bibr" rid="B15">15</xref></sup>.</p>
+				<p>No Brasil, foi relevante a organização da Vigilância de DCNT, que permitiu estruturar ações para monitoramento de fatores de risco, morbidade e mortalidade das DCNT<sup><xref ref-type="bibr" rid="B4">4</xref>,<xref ref-type="bibr" rid="B16">16</xref></sup>. O Ministério da Saúde (MS) também construiu o Plano de Ações Estratégicas para o Enfrentamento das DCNT no Brasil, 2011–2022, tendo como uma das metas reduzir a taxa de mortalidade prematura por DCNT em 2% ao ano<sup><xref ref-type="bibr" rid="B4">4</xref></sup>.</p>
+				<p>O país tem sido considerado um exemplo no enfrentamento ao tabagismo, reconhecido por órgãos mundiais, com destaque para o aumento da taxação aos cigarros e o aumento de advertências nas embalagens, pela Lei nº 12.546 de 2011<sup><xref ref-type="bibr" rid="B16">16</xref></sup>.</p>
+				<p>Entretanto, globalmente, as DRC receberam menos recursos para pesquisa e menor atenção pública do que outras doenças, como as cardiovasculares e neoplasias<sup><xref ref-type="bibr" rid="B17">17</xref></sup>. Assim, o presente estudo pretende analisar a tendência temporal da mortalidade por DRC no Brasil, fazendo-se previsão dessas taxas para 2022, além de analisar, para cada capital, a possibilidade de cumprimento da meta do Plano de Ações Estratégicas para o Enfrentamento das DCNT no Brasil de 2011 a 2022.</p>
+			</sec>
+			<sec sec-type="methods">
+				<title>MÉTODOS</title>
+				<p>Trata-se de um estudo ecológico de séries temporais das taxas mensais de mortalidade por DRC (CID-10: J30-J98) no período entre 1996 e 2017 com previsão para 2022, nas capitais brasileiras e no Brasil como um todo. Os dados de óbito foram obtidos a partir do Sistema de Informações sobre Mortalidade do Datasus – Ministério da Saúde (SIM/MS), enquanto os dados populacionais dos anos de 1996 a 2015 foram adquiridos do Sistema de Informações Demográficas e Socioeconômicas, também do Datasus – MS. A estimativa do total populacional para 2016 e 2017 foi realizada a partir da Pesquisa Nacional por Amostra de Domicílios contínua, utilizando-se os pesos amostrais para o cálculo do total populacional.</p>
+				<p>Foram calculadas as taxas de mortalidade geral bruta mensais por DRC, e as taxas padronizadas por idade mensais, por meio do método de padronização direto, possibilitando a comparação dos resultados das diferentes populações por faixa etária. O método seleciona uma população padrão e aplica a taxa de mortalidade de todas as unidades para essa mesma população. Foi utilizada a população do Brasil em 2010, ano censitário. As taxas de mortalidade foram calculadas e representadas por 100.000 habitantes.</p>
+				<p>O recorte etário selecionado foi o de 30 a 69 anos, permitindo comparar a tendência temporal de mortalidade por DRC no Brasil e a meta proposta pelo Plano de Ações Estratégicas para o Enfrentamento das DCNT.</p>
+				<p>Para explorar o comportamento das taxas mensais de mortalidade por DRC, realizou-se análise descritiva dos dados, com obtenção de valores de mínimo, primeiro quartil, mediana, média, terceiro quartil, máximo e desvio padrão. Com base em média e desvio padrão, pode-se calcular o coeficiente de variação das taxas, importante para expressar a dispersão dos dados e compará-los sem influência das diferenças de magnitude da variável.</p>
+				<p>A evolução das taxas de mortalidade com relação ao tempo (meses/anos) foi feita por meio de modelos autorregressivos integrados de média móvel (ARIMA - do inglês <italic>autoregressive integrated moving average</italic>). Os modelos de séries temporais desse tipo permitem que a variável dependente, mortalidade por DRC, seja representado por Y<sub>t</sub>, explicado por valores defasados (Y<sub>t</sub>-<sub>n</sub>), do próprio Y<sub>t</sub>, diferente dos modelos de regressão, no qual Y<sub>t</sub> é explicado pelos regressores µ, X1, X2, X3, … Xn, sem influência do tempo<sup><xref ref-type="bibr" rid="B18">18</xref></sup>. Assim, µ é a constante do modelo e X1, X2, X3, … Xn são variáveis explicativas. Para complementar os modelos ARIMA, foi utilizado também o modelo com defasamento distribuído autorregressivo (regressão dinâmica). As variáveis utilizadas foram a taxa de mortalidade padronizada, o tempo e a própria taxa de mortalidade defasada no tempo (t-1).</p>
+				<p>Assumindo que a taxa de mortalidade segue uma distribuição normal (gaussiana) e que é uma realização de um processo estocástico estacionário, aplicou-se a regressão dinâmica para cada capital, bem como para o Brasil. A ordem de defasagem para cada capital e Brasil (t-1) foi determinada pela função de autocorrelação. Sendo o modelo de forma geral dado por:</p>
+				<disp-formula id="e1002">
+					<mml:math>
+						<mml:msub>
+							<mml:mi>y</mml:mi>
+							<mml:mi>t</mml:mi>
+						</mml:msub>
+						<mml:mo>
+						</mml:mo>
+						<mml:mo>
+						</mml:mo>
+						<mml:mo>=</mml:mo>
+						<mml:mo>
+						</mml:mo>
+						<mml:mi>α</mml:mi>
+						<mml:mo>
+						</mml:mo>
+						<mml:mo>+</mml:mo>
+						<mml:mo>
+						</mml:mo>
+						<mml:mi>β</mml:mi>
+						<mml:msub>
+							<mml:mi>x</mml:mi>
+							<mml:mi>t</mml:mi>
+						</mml:msub>
+						<mml:mo>
+						</mml:mo>
+						<mml:mo>
+						</mml:mo>
+						<mml:mo>+</mml:mo>
+						<mml:mo>
+						</mml:mo>
+						<mml:msub>
+							<mml:mi>γ</mml:mi>
+							<mml:mn>1</mml:mn>
+						</mml:msub>
+						<mml:mo>
+						</mml:mo>
+						<mml:msub>
+							<mml:mi>y</mml:mi>
+							<mml:mrow>
+								<mml:mi>t</mml:mi>
+								<mml:mo>-</mml:mo>
+								<mml:mn>1</mml:mn>
+							</mml:mrow>
+						</mml:msub>
+						<mml:mo>+</mml:mo>
+						<mml:mo>
+						</mml:mo>
+						<mml:msub>
+							<mml:mi>γ</mml:mi>
+							<mml:mn>2</mml:mn>
+						</mml:msub>
+						<mml:mo>
+						</mml:mo>
+						<mml:msub>
+							<mml:mi>y</mml:mi>
+							<mml:mrow>
+								<mml:mi>t</mml:mi>
+								<mml:mo>-</mml:mo>
+								<mml:mn>2</mml:mn>
+							</mml:mrow>
+						</mml:msub>
+						<mml:mo>+</mml:mo>
+						<mml:mo>
+						</mml:mo>
+						<mml:msub>
+							<mml:mi>γ</mml:mi>
+							<mml:mn>3</mml:mn>
+						</mml:msub>
+						<mml:mo>
+						</mml:mo>
+						<mml:msub>
+							<mml:mi>y</mml:mi>
+							<mml:mrow>
+								<mml:mi>t</mml:mi>
+								<mml:mo>-</mml:mo>
+								<mml:mn>3</mml:mn>
+							</mml:mrow>
+						</mml:msub>
+						<mml:mo>+</mml:mo>
+						<mml:mo>
+						</mml:mo>
+						<mml:msub>
+							<mml:mi>θ</mml:mi>
+							<mml:mn>1</mml:mn>
+						</mml:msub>
+						<mml:mo>
+						</mml:mo>
+						<mml:msub>
+							<mml:mi>u</mml:mi>
+							<mml:mrow>
+								<mml:mi>t</mml:mi>
+								<mml:mo>-</mml:mo>
+								<mml:mn>1</mml:mn>
+							</mml:mrow>
+						</mml:msub>
+						<mml:mo>+</mml:mo>
+						<mml:mo>
+						</mml:mo>
+						<mml:msub>
+							<mml:mi>θ</mml:mi>
+							<mml:mn>2</mml:mn>
+						</mml:msub>
+						<mml:mo>
+						</mml:mo>
+						<mml:msub>
+							<mml:mi>u</mml:mi>
+							<mml:mrow>
+								<mml:mi>t</mml:mi>
+								<mml:mo>-</mml:mo>
+								<mml:mn>2</mml:mn>
+							</mml:mrow>
+						</mml:msub>
+						<mml:mo>+</mml:mo>
+						<mml:mo>
+						</mml:mo>
+						<mml:msub>
+							<mml:mi>θ</mml:mi>
+							<mml:mn>3</mml:mn>
+						</mml:msub>
+						<mml:mo>
+						</mml:mo>
+						<mml:msub>
+							<mml:mi>u</mml:mi>
+							<mml:mrow>
+								<mml:mi>t</mml:mi>
+								<mml:mo>-</mml:mo>
+								<mml:mn>3</mml:mn>
+							</mml:mrow>
+						</mml:msub>
+						<mml:mo>+</mml:mo>
+						<mml:mo>
+						</mml:mo>
+						<mml:msub>
+							<mml:mi>Θ</mml:mi>
+							<mml:mn>1</mml:mn>
+						</mml:msub>
+						<mml:mo>
+						</mml:mo>
+						<mml:msub>
+							<mml:mi>u</mml:mi>
+							<mml:mrow>
+								<mml:mi>t</mml:mi>
+								<mml:mo>-</mml:mo>
+								<mml:mn>12</mml:mn>
+							</mml:mrow>
+						</mml:msub>
+						<mml:mo>+</mml:mo>
+						<mml:mo>
+						</mml:mo>
+						<mml:msub>
+							<mml:mi>Γ</mml:mi>
+							<mml:mn>1</mml:mn>
+						</mml:msub>
+						<mml:mo>
+						</mml:mo>
+						<mml:msub>
+							<mml:mi>y</mml:mi>
+							<mml:mrow>
+								<mml:mi>t</mml:mi>
+								<mml:mo>-</mml:mo>
+								<mml:mn>12</mml:mn>
+							</mml:mrow>
+						</mml:msub>
+						<mml:mo>+</mml:mo>
+						<mml:mo>
+						</mml:mo>
+						<mml:msub>
+							<mml:mi>u</mml:mi>
+							<mml:mi>t</mml:mi>
+						</mml:msub>
+					</mml:math>
+				</disp-formula>
+				<p>Onde <italic>Y</italic><sub>t</sub> é o valor da variável dependente no instante <italic>t</italic>; γ é o parâmetro ligado ao operador autorregressivo; θ é o parâmetro ligado ao operador de média móvel; e Θ e Γ são fatores sazonais. Para modelos ARIMA a primeira diferença foi denotada como <inline-formula>
+						<mml:math>
+							<mml:mo>∆</mml:mo>
+							<mml:msub>
+								<mml:mi>z</mml:mi>
+								<mml:mi>t</mml:mi>
+							</mml:msub>
+							<mml:mo>
+							</mml:mo>
+							<mml:mo>
+							</mml:mo>
+							<mml:mo>=</mml:mo>
+							<mml:mo>
+							</mml:mo>
+							<mml:msub>
+								<mml:msub>
+									<mml:mi>z</mml:mi>
+									<mml:mi>t</mml:mi>
+								</mml:msub>
+								<mml:mo>
+								</mml:mo>
+							</mml:msub>
+							<mml:mo>–</mml:mo>
+							<mml:mo>
+							</mml:mo>
+							<mml:msub>
+								<mml:mi>z</mml:mi>
+								<mml:mrow>
+									<mml:mi>t</mml:mi>
+									<mml:mo>-</mml:mo>
+									<mml:mn>1</mml:mn>
+								</mml:mrow>
+							</mml:msub>
+						</mml:math>
+					</inline-formula>, sendo <italic>Y</italic><sub><italic>t</italic></sub> = ∆<italic>z</italic><sub><italic>t</italic></sub> para efeito da escrita dos modelos estimados. As componentes tendência, sazonalidade, ciclo e erro foram decompostas pela metodologia X12-ARIMA e a tendência avaliada como crescente ou decrescente. Foi realizado o teste Dickey-Fuller aumentado para todas as séries, que apresentaram raiz unitária, por essa, razão foi trabalhada a primeira diferença. Foi também observado um decaimento lento das funções de autocorrelação.</p>
+				<p>A estimação do modelo foi feita pela função de máxima verossimilhança. Para o processo de modelagem, suprimiram-se os três primeiros anos do Rio de Janeiro.</p>
+				<p>Já em relação a 19 capitais (Belém, Boa Vista, Macapá, Manaus, Palmas, Porto Velho, Rio Branco, João Pessoa, Maceió, Salvador, São Luís, Teresina, Brasília, Campo Grande, Cuiabá, Goiânia, Vitória, Curitiba e Florianópolis), foi necessário substituir os <italic>outliers</italic> pelas médias das taxas de mortalidade de seus respectivos anos para que se alcançasse melhor adequação dos modelos.</p>
+				<p>O desempenho geral do modelo foi avaliado a partir da previsão das taxas mensais de mortalidade por DRC para 2017 e da comparação aos valores reais desse ano, o que possibilitou calcular o percentual do erro médio absoluto das previsões (<italic>mean absolute percentage error</italic> – MAPE). Nesse procedimento, as taxas de 2017 foram suprimidas do modelo e estimou-se o modelo no restante. Definiu-se como 50% o valor máximo do MAPE para que o modelo fosse considerado válido para previsão. Após o modelo validado, foi realizada a previsão até dezembro de 2022.</p>
+				<p>Foi calculada a variação percentual prevista para a taxa de mortalidade com base no valor da taxa padronizada anual de 2011, ano de elaboração do plano do Ministério da Saúde, e na taxa de mortalidade prevista para 2022. O resultado de cada capital brasileira, bem como o de todo Brasil, foi comparado à proposta do documento (queda de 19,93% na taxa de mortalidade prematura até 2022, valor obtido a partir do cálculo da taxa acumulada de 2% ao ano), avaliando-se quais unidades demonstram tendência ou não a atingir a meta.</p>
+				<p>Os dados foram analisados em plataforma estatística R<sup><xref ref-type="bibr" rid="B19">19</xref></sup>, versão 3.6.3 utilizando os pacotes Forecast<sup><xref ref-type="bibr" rid="B20">20</xref></sup> e Imtest<sup><xref ref-type="bibr" rid="B21">21</xref></sup>.</p>
+			</sec>
+			<sec sec-type="results">
+				<title>RESULTADOS</title>
+				<p>A partir da análise de valores mínimos e máximos das taxas de mortalidade, apresentados na <xref ref-type="table" rid="t1002">Tabela 1</xref>, as taxas mensais mais baixas foram observadas em Boa Vista, Palmas, Porto Velho, Rio Branco, Aracaju, João Pessoa, São Luís, Teresina, Campo Grande, Vitória e Florianópolis. Já o valor mais alto foi encontrado em Boa Vista (15,04%).</p>
+				<p>
+					<table-wrap id="t1002">
+						<label>Tabela 1</label>
+						<caption>
+							<title>Análise descritiva das taxas mensais de mortalidade por doenças respiratórias crônicas, por 100.000 habitantes, das capitais brasileiras e do Brasil como um todo, 1996–2017.</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left">Local</th>
+									<th>Min.</th>
+									<th>Q1</th>
+									<th>Mediana</th>
+									<th>Média</th>
+									<th>Q3</th>
+									<th>Max.</th>
+									<th>DP</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Brasil</td>
+									<td align="center">1,32</td>
+									<td align="center">1,88</td>
+									<td align="center">2,19</td>
+									<td align="center">2,33</td>
+									<td align="center">2,72</td>
+									<td align="center">4,59</td>
+									<td align="center">0,59</td>
+								</tr>
+								<tr>
+									<td>Belém</td>
+									<td align="center">0,60</td>
+									<td align="center">2,02</td>
+									<td align="center">2,72</td>
+									<td align="center">3,05</td>
+									<td align="center">3,82</td>
+									<td align="center">8,38</td>
+									<td align="center">1,44</td>
+								</tr>
+								<tr>
+									<td>Boa Vista</td>
+									<td align="center">0,00</td>
+									<td align="center">0,00</td>
+									<td align="center">1,34</td>
+									<td align="center">1,87</td>
+									<td align="center">2,71</td>
+									<td align="center">15,04</td>
+									<td align="center">2,33</td>
+								</tr>
+								<tr>
+									<td>Macapá</td>
+									<td align="center">0,26</td>
+									<td align="center">0,99</td>
+									<td align="center">1,50</td>
+									<td align="center">1,59</td>
+									<td align="center">2,02</td>
+									<td align="center">5,32</td>
+									<td align="center">0,78</td>
+								</tr>
+								<tr>
+									<td>Manaus</td>
+									<td align="center">0,31</td>
+									<td align="center">1,23</td>
+									<td align="center">1,83</td>
+									<td align="center">1,92</td>
+									<td align="center">2,46</td>
+									<td align="center">4,82</td>
+									<td align="center">0,88</td>
+								</tr>
+								<tr>
+									<td>Palmas</td>
+									<td align="center">0,00</td>
+									<td align="center">0,00</td>
+									<td align="center">0,93</td>
+									<td align="center">1,74</td>
+									<td align="center">2,85</td>
+									<td align="center">20,09</td>
+									<td align="center">2,60</td>
+								</tr>
+								<tr>
+									<td>Porto Velho</td>
+									<td align="center">0,00</td>
+									<td align="center">1,43</td>
+									<td align="center">2,66</td>
+									<td align="center">3,18</td>
+									<td align="center">4,23</td>
+									<td align="center">12,54</td>
+									<td align="center">2,40</td>
+								</tr>
+								<tr>
+									<td>Rio Branco</td>
+									<td align="center">0,00</td>
+									<td align="center">1,67</td>
+									<td align="center">3,22</td>
+									<td align="center">3,40</td>
+									<td align="center">4,87</td>
+									<td align="center">12,71</td>
+									<td align="center">2,28</td>
+								</tr>
+								<tr>
+									<td>Aracaju</td>
+									<td align="center">0,00</td>
+									<td align="center">1,08</td>
+									<td align="center">1,92</td>
+									<td align="center">2,33</td>
+									<td align="center">3,42</td>
+									<td align="center">7,83</td>
+									<td align="center">1,56</td>
+								</tr>
+								<tr>
+									<td>Fortaleza</td>
+									<td align="center">0,44</td>
+									<td align="center">1,46</td>
+									<td align="center">2,10</td>
+									<td align="center">2,33</td>
+									<td align="center">3,04</td>
+									<td align="center">5,66</td>
+									<td align="center">1,06</td>
+								</tr>
+								<tr>
+									<td>João Pessoa</td>
+									<td align="center">0,00</td>
+									<td align="center">1,32</td>
+									<td align="center">1,92</td>
+									<td align="center">2,14</td>
+									<td align="center">2,80</td>
+									<td align="center">7,29</td>
+									<td align="center">1,20</td>
+								</tr>
+								<tr>
+									<td>Maceió</td>
+									<td align="center">0,35</td>
+									<td align="center">1,61</td>
+									<td align="center">2,45</td>
+									<td align="center">2,78</td>
+									<td align="center">3,64</td>
+									<td align="center">8,61</td>
+									<td align="center">1,50</td>
+								</tr>
+								<tr>
+									<td>Natal</td>
+									<td align="center">0,00</td>
+									<td align="center">0,79</td>
+									<td align="center">1,21</td>
+									<td align="center">1,33</td>
+									<td align="center">1,71</td>
+									<td align="center">4,25</td>
+									<td align="center">0,80</td>
+								</tr>
+								<tr>
+									<td>Recife</td>
+									<td align="center">1,21</td>
+									<td align="center">2,34</td>
+									<td align="center">2,88</td>
+									<td align="center">2,99</td>
+									<td align="center">3,57</td>
+									<td align="center">6,22</td>
+									<td align="center">0,90</td>
+								</tr>
+								<tr>
+									<td>Salvador</td>
+									<td align="center">0,72</td>
+									<td align="center">2,24</td>
+									<td align="center">3,41</td>
+									<td align="center">3,54</td>
+									<td align="center">4,63</td>
+									<td align="center">8,94</td>
+									<td align="center">1,56</td>
+								</tr>
+								<tr>
+									<td>São Luís</td>
+									<td align="center">0,00</td>
+									<td align="center">1,19</td>
+									<td align="center">1,77</td>
+									<td align="center">1,97</td>
+									<td align="center">2,50</td>
+									<td align="center">5,72</td>
+									<td align="center">1,08</td>
+								</tr>
+								<tr>
+									<td>Teresina</td>
+									<td align="center">0,00</td>
+									<td align="center">1,07</td>
+									<td align="center">1,70</td>
+									<td align="center">1,88</td>
+									<td align="center">2,50</td>
+									<td align="center">7,08</td>
+									<td align="center">1,14</td>
+								</tr>
+								<tr>
+									<td>Brasília</td>
+									<td align="center">0,26</td>
+									<td align="center">0,99</td>
+									<td align="center">1,50</td>
+									<td align="center">1,59</td>
+									<td align="center">2,02</td>
+									<td align="center">5,32</td>
+									<td align="center">0,78</td>
+								</tr>
+								<tr>
+									<td>Campo Grande</td>
+									<td align="center">0,00</td>
+									<td align="center">1,33</td>
+									<td align="center">2,02</td>
+									<td align="center">2,10</td>
+									<td align="center">2,74</td>
+									<td align="center">6,12</td>
+									<td align="center">1,05</td>
+								</tr>
+								<tr>
+									<td>Cuiabá</td>
+									<td align="center">0,00</td>
+									<td align="center">1,44</td>
+									<td align="center">2,38</td>
+									<td align="center">2,59</td>
+									<td align="center">3,39</td>
+									<td align="center">9,43</td>
+									<td align="center">1,55</td>
+								</tr>
+								<tr>
+									<td>Goiânia</td>
+									<td align="center">0,58</td>
+									<td align="center">1,79</td>
+									<td align="center">2,46</td>
+									<td align="center">2,61</td>
+									<td align="center">3,19</td>
+									<td align="center">6,63</td>
+									<td align="center">1,14</td>
+								</tr>
+								<tr>
+									<td>Belo Horizonte</td>
+									<td align="center">0,52</td>
+									<td align="center">1,18</td>
+									<td align="center">1,68</td>
+									<td align="center">1,92</td>
+									<td align="center">2,46</td>
+									<td align="center">6,25</td>
+									<td align="center">0,97</td>
+								</tr>
+								<tr>
+									<td>Rio de Janeiro</td>
+									<td align="center">1,20</td>
+									<td align="center">1,83</td>
+									<td align="center">2,24</td>
+									<td align="center">2,42</td>
+									<td align="center">2,88</td>
+									<td align="center">5,15</td>
+									<td align="center">0,78</td>
+								</tr>
+								<tr>
+									<td>São Paulo</td>
+									<td align="center">1,13</td>
+									<td align="center">1,70</td>
+									<td align="center">2,12</td>
+									<td align="center">2,25</td>
+									<td align="center">2,73</td>
+									<td align="center">5,07</td>
+									<td align="center">0,70</td>
+								</tr>
+								<tr>
+									<td>Vitória</td>
+									<td align="center">0,00</td>
+									<td align="center">0,56</td>
+									<td align="center">1,14</td>
+									<td align="center">1,29</td>
+									<td align="center">1,90</td>
+									<td align="center">3,94</td>
+									<td align="center">0,97</td>
+								</tr>
+								<tr>
+									<td>Curitiba</td>
+									<td align="center">0,35</td>
+									<td align="center">1,26</td>
+									<td align="center">1,93</td>
+									<td align="center">2,23</td>
+									<td align="center">2,93</td>
+									<td align="center">7,88</td>
+									<td align="center">1,31</td>
+								</tr>
+								<tr>
+									<td>Florianópolis</td>
+									<td align="center">0,00</td>
+									<td align="center">0,93</td>
+									<td align="center">1,62</td>
+									<td align="center">1,92</td>
+									<td align="center">2,59</td>
+									<td align="center">7,09</td>
+									<td align="center">1,32</td>
+								</tr>
+								<tr>
+									<td>Porto Alegre</td>
+									<td align="center">0,93</td>
+									<td align="center">2,08</td>
+									<td align="center">2,73</td>
+									<td align="center">3,06</td>
+									<td align="center">3,88</td>
+									<td align="center">9,90</td>
+									<td align="center">1,43</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN1002">
+								<p>Q1: primeiro quartil ; Q3: terceiro quartil; DP: desvio padrão.</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p>A comparação entre os dados de média e mediana da <xref ref-type="table" rid="t1002">Tabela 1</xref>, para as taxas de mortalidade de cada capital, demonstraram que Palmas tem o maior número de <italic>outliers</italic>.</p>
+				<p>Foi observada variação significativa nas taxas mensais de mortalidade por DRC em todas as unidades estudadas, o que pode ser notado a partir dos seus valores de média e desvio padrão apresentados na <xref ref-type="table" rid="t1002">Tabela 1</xref>. Todas as capitais, assim como o Brasil como um todo, apresentaram coeficiente de variação superior a 25%, sendo o menor valor calculado para o país (25,14%). Por sua vez, Boa Vista e Palmas revelaram coeficientes de variação superiores a 100% (respectivamente, 124,41% e 149,49%).</p>
+				<p>Sobre a precisão das previsões, observa-se no MAPE, na <xref ref-type="table" rid="t2002">Tabela 2</xref>, que os modelos do Brasil (2,94%), São Paulo (12,93%) e Rio de Janeiro (13,81%) possuem o menor erro percentual médio em relação aos demais. Já os modelos de Boa Vista, Macapá, Manaus, Aracaju, João Pessoa, Campo Grande e Vitória apresentaram altos valores de erro, revelando uma capacidade de previsão pouco precisa. Já as capitais Porto Velho, Rio Branco, Natal, Teresina e Cuiabá, os valores do erro traduzem que seus modelos não são adequados para realizar previsão. Cuiabá, além do erro percentual médio alto, revelou um modelo com comportamento em níveis, tornando difícil a análise da tendência.</p>
+				<p>
+					<table-wrap id="t2002">
+						<label>Tabela 2</label>
+						<caption>
+							<title>Modelo preditivo, desempenho e tendência das taxas mensais de mortalidade por doenças respiratórias crônicas, por 100.000 habitantes, das capitais brasileiras e do Brasil como um todo, 1996–2017.</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left">Local</th>
+									<th>Equação</th>
+									<th>Sigma2</th>
+									<th>MAPE (%)</th>
+									<th>Tendência</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Brasil</td>
+									<td align="center">∆<italic>ẑ</italic><sub><italic>t</italic></sub> = 0,5785∆<italic>z</italic><sub><italic>t</italic>–1</sub> – 0,9253<italic>u</italic><sub><italic>t</italic>–1</sub> – 0,4879<italic>u</italic><sub><italic>t</italic>–12</sub> –0,2251<italic>u</italic><sub><italic>t</italic>–13</sub></td>
+									<td align="center">0,02</td>
+									<td align="center">2,94</td>
+									<td align="center">Decrescente</td>
+								</tr>
+								<tr>
+									<td>Belém</td>
+									<td align="center">∆<italic>ẑ</italic><sub><italic>t</italic></sub> = –0,4177∆<italic>z</italic><sub><italic>t</italic>–1</sub> – 0,3695<italic>u</italic><sub><italic>t</italic>–1</sub> – 0,4865<italic>u</italic><sub><italic>t</italic>–2</sub> – 0,8696∆<italic>z</italic><sub><italic>t</italic>–12</sub> + 0,0281<italic>u</italic><sub><italic>t</italic>–1<italic>2</italic></sub> – 0,7212<italic>u</italic><sub><italic>t</italic>–13</sub> – 0,0964<italic>u</italic><sub><italic>t</italic>–14</sub> – 0,2105<italic>u</italic><sub><italic>t</italic>–15</sub></td>
+									<td align="center">1,06</td>
+									<td align="center">29,16</td>
+									<td align="center">Crescente</td>
+								</tr>
+								<tr>
+									<td>Boa Vista</td>
+									<td align="center">∆<italic>ẑ</italic><sub><italic>t</italic></sub> = –0,8365∆<italic>z</italic><sub><italic>t</italic>–1</sub> – 0,1131<italic>u</italic><sub><italic>t</italic>–1</sub> – 0,8126<italic>u</italic><sub><italic>t</italic>–2</sub> + 0,2129∆<italic>z</italic><sub><italic>t</italic>–12</sub> – 0,1860<italic>u</italic><sub><italic>t</italic>–12</sub> – 0,0713<italic>u</italic><sub><italic>t</italic>–2</sub></td>
+									<td align="center">2,34</td>
+									<td align="center">39,13</td>
+									<td align="center">Decrescente</td>
+								</tr>
+								<tr>
+									<td>Macapá</td>
+									<td align="center">∆<italic>ẑ</italic><sub><italic>t</italic></sub> = –0,1152∆<italic>z</italic><sub><italic>t</italic>–1</sub> –0,9375<italic>u</italic><sub><italic>t</italic>–1</sub> –0,610∆<italic>z</italic><sub><italic>t</italic>–12</sub> + 0,6822<italic>u</italic><sub><italic>t</italic>–12</sub> + 0,1924<italic>u</italic><sub><italic>t</italic>–13</sub> –0,0045<italic>x</italic><sub><italic>t</italic></sub></td>
+									<td align="center">1,79</td>
+									<td align="center">41,33</td>
+									<td align="center">Decrescente</td>
+								</tr>
+								<tr>
+									<td>Manaus</td>
+									<td align="center">∆<italic>ẑ</italic><sub><italic>t</italic></sub> = –0,0755∆<italic>z</italic><sub><italic>t</italic>–1</sub>–0,9305<italic>u</italic><sub><italic>t</italic>–1</sub> + 0,8866∆<italic>z</italic><sub><italic>t</italic>–12</sub> –0,8506<italic>u</italic><sub><italic>t</italic>–12</sub> + 0,1254<italic>u</italic><sub><italic>t</italic>–13</sub> –0,0042<italic>x</italic><sub><italic>t</italic></sub></td>
+									<td align="center">0,58</td>
+									<td align="center">44,37</td>
+									<td align="center">Decrescente</td>
+								</tr>
+								<tr>
+									<td>Palmas</td>
+									<td align="center">∆<italic>ẑ</italic><sub><italic>t</italic></sub> = –0,6530∆<italic>z</italic><sub><italic>t</italic>–1</sub> – 0,2855<italic>u</italic><sub><italic>t</italic>–1</sub> – 0,6947<italic>u</italic><sub><italic>t</italic>–2</sub> + 0,1092<italic>u</italic><sub><italic>t</italic>–3</sub> – 0,1290<italic>u</italic><sub><italic>t</italic>–4</sub> – 0,4751∆<italic>z</italic><sub><italic>t</italic>–12</sub></td>
+									<td align="center">3,69</td>
+									<td align="center">29,42</td>
+									<td align="center">Crescente</td>
+								</tr>
+								<tr>
+									<td>Porto Velho</td>
+									<td align="center">∆<italic>ẑ</italic><sub><italic>t</italic></sub> = –0,8657<italic>u</italic><sub><italic>t</italic>–1</sub>–0,1249<italic>u</italic><sub><italic>t</italic>–12</sub></td>
+									<td align="center">2,86</td>
+									<td align="center">69,79</td>
+									<td align="center">NA</td>
+								</tr>
+								<tr>
+									<td>Rio Branco</td>
+									<td align="center">∆<italic>ẑ</italic><sub><italic>t</italic></sub> = –0,7347∆<italic>z</italic><sub><italic>t</italic>–1</sub> – 0,5022∆<italic>z</italic><sub><italic>t</italic>–2</sub> – 0,3746∆<italic>z</italic><sub><italic>t</italic>–3</sub> – 0,2346∆<italic>z</italic><sub><italic>t</italic>–4</sub></td>
+									<td align="center">5,23</td>
+									<td align="center">83,79</td>
+									<td align="center">NA</td>
+								</tr>
+								<tr>
+									<td>Aracaju</td>
+									<td align="center">∆<italic>ẑ</italic><sub><italic>t</italic></sub> = –0,0973∆<italic>z</italic><sub><italic>t</italic>–1</sub> + 0,0956∆<italic>z</italic><sub><italic>t</italic>–2</sub> – 0,2061∆<italic>z</italic><sub><italic>t</italic>–3</sub> – 0,8573<italic>u</italic><sub><italic>t</italic>–1</sub></td>
+									<td align="center">1,52</td>
+									<td align="center">40,99</td>
+									<td align="center">Decrescente</td>
+								</tr>
+								<tr>
+									<td>Fortaleza</td>
+									<td align="center">∆<italic>ẑ</italic><sub><italic>t</italic></sub> = 0,2635∆<italic>z</italic><sub><italic>t</italic>–1</sub> – 0,9302<italic>u</italic><sub><italic>t</italic>–1</sub> – 0,0085<italic>x</italic><sub><italic>t</italic></sub></td>
+									<td align="center">0,48</td>
+									<td align="center">28,87</td>
+									<td align="center">Decrescente</td>
+								</tr>
+								<tr>
+									<td>João Pessoa</td>
+									<td align="center">∆<italic>ẑ</italic><sub><italic>t</italic></sub> = –0,7849∆<italic>z</italic><sub><italic>t</italic>–1</sub> – 0,0480<italic>u</italic><sub><italic>t</italic>–1</sub> – 0,7135<italic>u</italic><sub><italic>t</italic>–2</sub> – 0,0083<italic>x</italic><sub><italic>t</italic></sub></td>
+									<td align="center">0,92</td>
+									<td align="center">49,62</td>
+									<td align="center">Decrescente</td>
+								</tr>
+								<tr>
+									<td>Maceió</td>
+									<td align="center">∆<italic>ẑ</italic><sub><italic>t</italic></sub> = –0,8756∆<italic>z</italic><sub><italic>t</italic>–1</sub> + 0,0225∆<italic>z</italic><sub><italic>t</italic>–12</sub> – 0,0163<italic>u</italic><sub><italic>t</italic>–12</sub> – 0,0104<italic>x</italic><sub><italic>t</italic></sub></td>
+									<td align="center">1,16</td>
+									<td align="center">34,27</td>
+									<td align="center">Decrescente</td>
+								</tr>
+								<tr>
+									<td>Natal</td>
+									<td align="center">∆<italic>ẑ</italic><sub><italic>t</italic></sub> = –0,8459<italic>u</italic><sub><italic>t</italic>–1</sub></td>
+									<td align="center">0,42</td>
+									<td align="center">91,66</td>
+									<td align="center">NA</td>
+								</tr>
+								<tr>
+									<td>Recife</td>
+									<td align="center">∆<italic>ẑ</italic><sub><italic>t</italic></sub> = –0,8636<italic>u</italic><sub><italic>t</italic>–1</sub> – 0,7568∆<italic>z</italic><sub><italic>t</italic>–12</sub> – 0,0654∆<italic>z</italic><sub><italic>t</italic>–13</sub> + 0,7071<italic>u</italic><sub><italic>t</italic>–12</sub></td>
+									<td align="center">0,76</td>
+									<td align="center">22,81</td>
+									<td align="center">Crescente</td>
+								</tr>
+								<tr>
+									<td>Salvador</td>
+									<td align="center">∆<italic>ẑ</italic><sub><italic>t</italic></sub> = 0,2305∆<italic>z</italic><sub><italic>t</italic>–1</sub> – 0,9429<italic>u</italic><sub><italic>t</italic>–1</sub> – 0,0161<italic>x</italic><sub><italic>t</italic></sub></td>
+									<td align="center">0,60</td>
+									<td align="center">28,55</td>
+									<td align="center">Decrescente</td>
+								</tr>
+								<tr>
+									<td>São Luís</td>
+									<td align="center">∆<italic>ẑ</italic><sub><italic>t</italic></sub> = 0,1169∆<italic>z</italic><sub><italic>t</italic>–1</sub> – 0,6843∆<italic>z</italic><sub><italic>t</italic>–2</sub> – 0,9558<italic>u</italic><sub><italic>t</italic>–1</sub> + 0,5828<italic>u</italic><sub><italic>t</italic>–2</sub> – 0,4866<italic>u</italic><sub><italic>t</italic>–3</sub> – 0,0225<italic>u</italic><sub><italic>t</italic>–4</sub> – 0,0824<italic>u</italic><sub><italic>t</italic>–5</sub></td>
+									<td align="center">0,63</td>
+									<td align="center">35,33</td>
+									<td align="center">Crescente</td>
+								</tr>
+								<tr>
+									<td>Teresina</td>
+									<td align="center">∆<italic>ẑ</italic><sub><italic>t</italic></sub> = 0,1373∆<italic>z</italic><sub><italic>t</italic>–1</sub> – 0,9492<italic>u</italic><sub><italic>t</italic>–1</sub> + 0,1342∆<italic>z</italic><sub><italic>t</italic>–12</sub> – 0,0171∆<italic>z</italic><sub><italic>t</italic>–13</sub></td>
+									<td align="center">0,70</td>
+									<td align="center">104,75</td>
+									<td align="center">NA</td>
+								</tr>
+								<tr>
+									<td>Brasília</td>
+									<td align="center">∆<italic>ẑ</italic><sub><italic>t</italic></sub> = –0,1638∆<italic>z</italic><sub><italic>t</italic>–1</sub> – 0,8374∆<italic>z</italic><sub><italic>t</italic>–2</sub> – 0,0663∆<italic>z</italic><sub><italic>t</italic>–3</sub> – 0,4886∆<italic>z</italic><sub><italic>t</italic>–4</sub> – 0,6258<italic>u</italic><sub><italic>t</italic>–1</sub> + 0,9044<italic>u</italic><sub><italic>t</italic>–2</sub> – 0,9111<italic>u</italic><sub><italic>t</italic>–3</sub> + 0,4809<italic>u</italic><sub><italic>t</italic>–4</sub> – 0,7722<italic>u</italic><sub><italic>t</italic>–5</sub> + 0,0348∆<italic>z</italic><sub><italic>t</italic>–12</sub> + 0,1801∆<italic>z</italic><sub><italic>t</italic>–13</sub> – 0,0076<italic>x</italic><sub><italic>t</italic></sub></td>
+									<td align="center">0,27</td>
+									<td align="center">41,60</td>
+									<td align="center">Decrescente</td>
+								</tr>
+								<tr>
+									<td>Campo Grande</td>
+									<td align="center">∆<italic>ẑ</italic><sub><italic>t</italic></sub> = –0,7989∆<italic>z</italic><sub><italic>t</italic>–1</sub> + 0,1317∆<italic>z</italic><sub><italic>t</italic>–2</sub> + 0,1151∆<italic>z</italic><sub><italic>t</italic>–3</sub>–0,1016<italic>u</italic><sub><italic>t</italic>–1</sub>–0,8287<italic>u</italic><sub><italic>t</italic>–2</sub> + 0,0206∆<italic>z</italic><sub><italic>t</italic>–12</sub> + 0,0883∆<italic>z</italic><sub><italic>t</italic>–13</sub></td>
+									<td align="center">0,78</td>
+									<td align="center">33,33</td>
+									<td align="center">Crescente</td>
+								</tr>
+								<tr>
+									<td>Cuiabá</td>
+									<td align="center">∆<italic>ẑ</italic><sub><italic>t</italic></sub> = –0,9197<italic>u</italic><sub><italic>t</italic>–1</sub></td>
+									<td align="center">1,40</td>
+									<td align="center">162,21</td>
+									<td align="center">NA</td>
+								</tr>
+								<tr>
+									<td>Goiânia</td>
+									<td align="center">∆<italic>ẑ</italic><sub><italic>t</italic></sub> = 0,0376∆<italic>z</italic><sub><italic>t</italic>–1</sub> + 0,1849∆<italic>z</italic><sub><italic>t</italic>–2</sub> – 0,8867<italic>u</italic><sub><italic>t</italic>–1</sub> – 0,6050∆<italic>z</italic><sub><italic>t</italic>–12</sub> – 0,2614∆<italic>z</italic><sub><italic>t</italic>–13</sub></td>
+									<td align="center">0,86</td>
+									<td align="center">33,58</td>
+									<td align="center">Decrescente</td>
+								</tr>
+								<tr>
+									<td>Belo Horizonte</td>
+									<td align="center">∆<italic>ẑ</italic><sub><italic>t</italic></sub> = –0,6022∆<italic>z</italic><sub><italic>t</italic>–1</sub> – 0,8742∆<italic>z</italic><sub><italic>t</italic>–2</sub> – 0,2019<italic>u</italic><sub><italic>t</italic>–1</sub> + 0,3535<italic>u</italic><sub><italic>t</italic>–2</sub> – 0,7581<italic>u</italic><sub><italic>t</italic>–3</sub> – 0,2362<italic>u</italic><sub><italic>t</italic>–4</sub> + 0,2448∆<italic>z</italic><sub><italic>t</italic>–12</sub> – 0,010<italic>x</italic><sub><italic>t</italic></sub></td>
+									<td align="center">0,28</td>
+									<td align="center">25,10</td>
+									<td align="center">Decrescente</td>
+								</tr>
+								<tr>
+									<td>Rio de Janeiro</td>
+									<td align="center">∆<italic>ẑ</italic><sub><italic>t</italic></sub> = 0,3222∆<italic>z</italic><sub><italic>t</italic>–1</sub> + 0,1314∆<italic>z</italic><sub><italic>t</italic>–2</sub> – 0,9127<italic>u</italic><sub><italic>t</italic>–1</sub> + 0,1836∆<italic>z</italic><sub><italic>t</italic>–12</sub> – 0,0110<italic>x</italic><sub><italic>t</italic></sub></td>
+									<td align="center">0,15</td>
+									<td align="center">13,81</td>
+									<td align="center">Decrescente</td>
+								</tr>
+								<tr>
+									<td>São Paulo</td>
+									<td align="center">∆<italic>ẑ</italic><sub><italic>t</italic></sub> = 0,3580∆<italic>z</italic><sub><italic>t</italic>–1</sub> – 0,9188<italic>u</italic><sub><italic>t</italic>–1</sub> + 0,2552<italic>u</italic><sub><italic>t</italic>–12</sub> + 0,2628<italic>u</italic><sub><italic>t</italic>–13</sub> – 0,0071<italic>x</italic><sub><italic>t</italic></sub></td>
+									<td align="center">0,12</td>
+									<td align="center">12,93</td>
+									<td align="center">Decrescente</td>
+								</tr>
+								<tr>
+									<td>Vitória</td>
+									<td align="center">∆<italic>ẑ</italic><sub><italic>t</italic></sub> = –0,7866∆<italic>z</italic><sub><italic>t</italic>–1</sub> – 0,1029∆<italic>z</italic><sub><italic>t</italic>–2</sub> – 0,1812<italic>u</italic><sub><italic>t</italic>–1</sub> – 0,7338<italic>u</italic><sub><italic>t</italic>–2</sub> + 0,4307∆<italic>z</italic><sub><italic>t</italic>–12</sub> – 0,4943<italic>u</italic><sub><italic>t</italic>–12</sub></td>
+									<td align="center">0,91</td>
+									<td align="center">47,10</td>
+									<td align="center">Crescente</td>
+								</tr>
+								<tr>
+									<td>Curitiba</td>
+									<td align="center">∆<italic>ẑ</italic><sub><italic>t</italic></sub> = 0,02542∆<italic>z</italic><sub><italic>t</italic>–1</sub> – 0,9633<italic>u</italic><sub><italic>t</italic>–1</sub> – 0,7916∆<italic>z</italic><sub><italic>t</italic>–12</sub> + 0,139<italic>u</italic><sub><italic>t</italic>–12</sub> – 0,5454<italic>u</italic><sub><italic>t</italic>–13</sub></td>
+									<td align="center">0,52</td>
+									<td align="center">35,63</td>
+									<td align="center">Crescente</td>
+								</tr>
+								<tr>
+									<td>Florianópolis</td>
+									<td align="center">∆<italic>ẑ</italic><sub><italic>t</italic></sub> = –0,9353<italic>u</italic><sub><italic>t</italic>–1</sub> – 0,8766<italic>u</italic><sub><italic>t</italic>–12</sub></td>
+									<td align="center">1,10</td>
+									<td align="center">37,01</td>
+									<td align="center">Decrescente</td>
+								</tr>
+								<tr>
+									<td>Porto Alegre</td>
+									<td align="center">∆<italic>ẑ</italic><sub><italic>t</italic></sub> = 0,0204∆<italic>z</italic><sub><italic>t</italic>–1</sub> – 0,7605∆<italic>z</italic><sub><italic>t</italic>–2</sub> – 0,6562<italic>u</italic><sub><italic>t</italic>–1</sub> + 0,6890<italic>u</italic><sub><italic>t</italic>–2</sub> – 0,7344<italic>u</italic><sub><italic>t</italic>–3</sub> – 0,1944<italic>u</italic><sub><italic>t</italic>–4</sub> + 0,3525∆<italic>z</italic><sub><italic>t</italic>–12</sub> + 0,2395∆<italic>z</italic><sub><italic>t</italic>–13</sub></td>
+									<td align="center">0,80</td>
+									<td align="center">34,00</td>
+									<td align="center">Decrescente</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN2002">
+								<p>NA: não se aplica; MAPE: do inglês <italic>mean absolute percentage error</italic>.</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p>Com base na <xref ref-type="table" rid="t2002">Tabela 2</xref> e nas <xref ref-type="fig" rid="f01002">Figuras 1</xref> e <xref ref-type="fig" rid="f02002">2</xref>, nota-se que as taxas de mortalidade precoce por DRC apresentam-se decrescentes no Brasil e em 15 das 22 capitais que tiveram os modelos validados. Belém, Palmas, Recife, São Luís, Campo Grande, Vitória e Curitiba, por outro lado, mostram essas taxas em uma tendência crescente. Para o Rio de Janeiro, os dados de mortalidade por DRC nos anos entre 1996 e 1998 foram muito abaixo dos demais, indicando uma provável subnotificação nesse período e, portanto, foram desconsiderados.</p>
+				<p>
+					<fig id="f01002">
+						<label>Figura 1</label>
+						<caption>
+							<title>Taxas mensais de mortalidade por doenças respiratórias crônicas ajustadas para Brasil como um todo, Belém, Boa Vista, Macapá, Manaus, Palmas, Aracaju, Fortaleza, João Pessoa, Maceió, Recife e Salvador – de 1996 a 2016, com 2017 para validação e previsão das taxas mensais de mortalidade por DRC de 01/01/2017 a 12/12/2022 – Previsão a partir de um modelo ARIMA.</title>
+						</caption>
+						<graphic xlink:href="1518-8787-rsp-56-52-gf01-pt.tif"/>
+						<attrib>DRC: doenças respiratórias crônicas; ARIMA: do inglês <italic>autoregressive integrated moving average</italic>.</attrib>
+					</fig>
+				</p>
+				<p>
+					<fig id="f02002">
+						<label>Figura 2</label>
+						<caption>
+							<title>Taxas mensais de mortalidade por doenças respiratórias crônicas ajustadas para Brasília, Campo Grande, Goiânia, Belo Horizonte, Rio de Janeiro, São Paulo, Vitória, Curitiba, Florianópolis e Porto Alegre – de 1996 a 2016, com 2017 para validação e previsão das taxas mensais de mortalidade por DRC de 01/01/2017 a 12/12/2022 – Previsão a partir de um modelo ARIMA.</title>
+						</caption>
+						<graphic xlink:href="1518-8787-rsp-56-52-gf02-pt.tif"/>
+						<attrib>DRC: doenças respiratórias crônicas; ARIMA: do inglês <italic>autoregressive integrated moving average</italic>.</attrib>
+					</fig>
+				</p>
+				<p>Também se verifica, segundo a <xref ref-type="table" rid="t3002">Tabela 3</xref>, que o Brasil como um todo e 16 das 22 capitais tendem a atingir a meta do Plano de Ações Estratégicas para o Enfrentamento das DCNT, pois apresentam variação percentual prevista para as taxas de mortalidade precoce por DRC superior àquela esperada (19,92%). Já para Boa Vista, Recife, São Luís, Campo Grande e Vitória, os resultados revelam tendência a não atingir a meta. A capital Boa Vista revelou a menor taxa em 2011 (10,04), enquanto a maior foi vista em Rio Branco (36,76).</p>
+				<p>
+					<table-wrap id="t3002">
+						<label>Tabela 3</label>
+						<caption>
+							<title>Taxas de mortalidade por doenças respiratórias crônicas, por 100.000 habitantes, previstas para 2022 e avaliação do cumprimento da meta do Plano de Ações Estratégicas para o Enfrentamento das DCNT, para Brasil e capitais brasileiras.</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left">Local</th>
+									<th>Taxa padronizada 2011</th>
+									<th>Taxa padronizada 2022 (Plano Nacional)</th>
+									<th>Taxa padronizada 2022 (prevista)</th>
+									<th>Variação % prevista (2011–2022)</th>
+									<th>Meta do Plano Nacional</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Brasil</td>
+									<td align="center">23,65</td>
+									<td align="center">18,94</td>
+									<td align="center">17,45</td>
+									<td align="center">-26,22</td>
+									<td align="center">Tende a atingir</td>
+								</tr>
+								<tr>
+									<td>Belém</td>
+									<td align="center">23,11</td>
+									<td align="center">18,51</td>
+									<td align="center">14,28</td>
+									<td align="center">-38,19</td>
+									<td align="center">Tende a atingir</td>
+								</tr>
+								<tr>
+									<td>Boa Vista</td>
+									<td align="center">10,04</td>
+									<td align="center">8,04</td>
+									<td align="center">13,63</td>
+									<td align="center">+35,80</td>
+									<td align="center">Tende a não atingir</td>
+								</tr>
+								<tr>
+									<td>Macapá</td>
+									<td align="center">14,85</td>
+									<td align="center">11,89</td>
+									<td align="center">11,03</td>
+									<td align="center">-25,69</td>
+									<td align="center">Tende a atingir</td>
+								</tr>
+								<tr>
+									<td>Manaus</td>
+									<td align="center">20,51</td>
+									<td align="center">16,42</td>
+									<td align="center">10,69</td>
+									<td align="center">-47,86</td>
+									<td align="center">Tende a atingir</td>
+								</tr>
+								<tr>
+									<td>Palmas</td>
+									<td align="center">18,69</td>
+									<td align="center">14,97</td>
+									<td align="center">10,28</td>
+									<td align="center">-44,98</td>
+									<td align="center">Tende a atingir</td>
+								</tr>
+								<tr>
+									<td>Porto Velho</td>
+									<td align="center">30,51</td>
+									<td align="center">24,43</td>
+									<td align="center">NA</td>
+									<td align="center">NA</td>
+									<td align="center">NA</td>
+								</tr>
+								<tr>
+									<td>Rio Branco</td>
+									<td align="center">36,76</td>
+									<td align="center">29,43</td>
+									<td align="center">NA</td>
+									<td align="center">NA</td>
+									<td align="center">NA</td>
+								</tr>
+								<tr>
+									<td>Aracaju</td>
+									<td align="center">18,40</td>
+									<td align="center">14,74</td>
+									<td align="center">7,94</td>
+									<td align="center">-56,87</td>
+									<td align="center">Tende a atingir</td>
+								</tr>
+								<tr>
+									<td>Fortaleza</td>
+									<td align="center">19,23</td>
+									<td align="center">15,40</td>
+									<td align="center">7,28</td>
+									<td align="center">-62,14</td>
+									<td align="center">Tende a atingir</td>
+								</tr>
+								<tr>
+									<td>João Pessoa</td>
+									<td align="center">21,74</td>
+									<td align="center">17,41</td>
+									<td align="center">6,22</td>
+									<td align="center">-71,39</td>
+									<td align="center">Tende a atingir</td>
+								</tr>
+								<tr>
+									<td>Maceió</td>
+									<td align="center">28,71</td>
+									<td align="center">22,99</td>
+									<td align="center">4,78</td>
+									<td align="center">-83,35</td>
+									<td align="center">Tende a atingir</td>
+								</tr>
+								<tr>
+									<td>Natal</td>
+									<td align="center">13,35</td>
+									<td align="center">10,69</td>
+									<td align="center">NA</td>
+									<td align="center">NA</td>
+									<td align="center">NA</td>
+								</tr>
+								<tr>
+									<td>Recife</td>
+									<td align="center">35,64</td>
+									<td align="center">28,54</td>
+									<td align="center">32,43</td>
+									<td align="center">-9,01</td>
+									<td align="center">Tende a não atingir</td>
+								</tr>
+								<tr>
+									<td>Salvador</td>
+									<td align="center">33,30</td>
+									<td align="center">26,66</td>
+									<td align="center">4,86</td>
+									<td align="center">-84,41</td>
+									<td align="center">Tende a atingir</td>
+								</tr>
+								<tr>
+									<td>São Luís</td>
+									<td align="center">16,28</td>
+									<td align="center">13,04</td>
+									<td align="center">17,01</td>
+									<td align="center">+4,50</td>
+									<td align="center">Tende a não atingir</td>
+								</tr>
+								<tr>
+									<td>Teresina</td>
+									<td align="center">20,37</td>
+									<td align="center">16,31</td>
+									<td align="center">NA</td>
+									<td align="center">NA</td>
+									<td align="center">NA</td>
+								</tr>
+								<tr>
+									<td>Brasília</td>
+									<td align="center">13,94</td>
+									<td align="center">11,16</td>
+									<td align="center">3,11</td>
+									<td align="center">-77,70</td>
+									<td align="center">Tende a atingir</td>
+								</tr>
+								<tr>
+									<td>Campo Grande</td>
+									<td align="center">19,92</td>
+									<td align="center">15,95</td>
+									<td align="center">18,11</td>
+									<td align="center">-9,13</td>
+									<td align="center">Tende a não atingir</td>
+								</tr>
+								<tr>
+									<td>Cuiabá</td>
+									<td align="center">21,84</td>
+									<td align="center">17,49</td>
+									<td align="center">NA</td>
+									<td align="center">NA</td>
+									<td align="center">NA</td>
+								</tr>
+								<tr>
+									<td>Goiânia</td>
+									<td align="center">22,96</td>
+									<td align="center">18,38</td>
+									<td align="center">8,30</td>
+									<td align="center">-63,84</td>
+									<td align="center">Tende a atingir</td>
+								</tr>
+								<tr>
+									<td>Belo Horizonte</td>
+									<td align="center">15,72</td>
+									<td align="center">12,59</td>
+									<td align="center">2,72</td>
+									<td align="center">-82,67</td>
+									<td align="center">Tende a atingir</td>
+								</tr>
+								<tr>
+									<td>Rio de Janeiro</td>
+									<td align="center">24,58</td>
+									<td align="center">19,68</td>
+									<td align="center">8,94</td>
+									<td align="center">-63,61</td>
+									<td align="center">Tende a atingir</td>
+								</tr>
+								<tr>
+									<td>São Paulo</td>
+									<td align="center">22,47</td>
+									<td align="center">17,99</td>
+									<td align="center">11,55</td>
+									<td align="center">-48,62</td>
+									<td align="center">Tende a atingir</td>
+								</tr>
+								<tr>
+									<td>Vitória</td>
+									<td align="center">15,11</td>
+									<td align="center">12,10</td>
+									<td align="center">12,41</td>
+									<td align="center">-17,86</td>
+									<td align="center">Tende a não atingir</td>
+								</tr>
+								<tr>
+									<td>Curitiba</td>
+									<td align="center">16,57</td>
+									<td align="center">13,27</td>
+									<td align="center">7,79</td>
+									<td align="center">-52,97</td>
+									<td align="center">Tende a atingir</td>
+								</tr>
+								<tr>
+									<td>Florianópolis</td>
+									<td align="center">17,56</td>
+									<td align="center">14,06</td>
+									<td align="center">6,28</td>
+									<td align="center">-64,20</td>
+									<td align="center">Tende a atingir</td>
+								</tr>
+								<tr>
+									<td>Porto Alegre</td>
+									<td align="center">30,89</td>
+									<td align="center">24,73</td>
+									<td align="center">23,25</td>
+									<td align="center">-24,73</td>
+									<td align="center">Tende a atingir</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN3002">
+								<p>DCNT: doenças crônicas não transmissíveis; NA: não se aplica.</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+			</sec>
+			<sec sec-type="discussion">
+				<title>DISCUSSÃO</title>
+				<p>A tendência de queda nas taxas de mortalidade precoce por DRC na maior parte do Brasil coincide com resultados de pesquisas globais, que revelam as maiores reduções na carga de DRC na América Latina, e de outros estudos brasileiros que apontam diminuição nessas taxas nas cinco regiões do país<sup><xref ref-type="bibr" rid="B5">5</xref>,<xref ref-type="bibr" rid="B6">6</xref>,<xref ref-type="bibr" rid="B8">8</xref></sup>. Esse declínio tem sido atribuído, entre outros fatores, aos avanços no combate ao tabagismo<sup><xref ref-type="bibr" rid="B5">5</xref></sup>. Ações nesse sentido estão relacionadas ao Eixo II – Promoção da Saúde – do Plano de Ações Estratégicas para o enfrentamento das DCNT no Brasil<sup><xref ref-type="bibr" rid="B4">4</xref></sup>. Também parece corroborar o aumento de acesso e uso de serviços de saúde, segundo estudo que avaliou dados da Pesquisa Nacional de Saúde (PNS) de 2013<sup><xref ref-type="bibr" rid="B22">22</xref></sup>.</p>
+				<p>Segundo a Síntese de Indicadores Sociais, do IBGE, houve queda na proporção de pessoas vivendo abaixo da linha da pobreza entre 2012 e 2014, um determinante social importante no processo saúde-doença, porém voltou a crescer a partir de 2015<sup><xref ref-type="bibr" rid="B23">23</xref></sup>. Outro determinante significativo é a escolaridade, que apresentou aumento no nível de instrução ao longo das últimas décadas pode ser relacionado com a redução da exposição aos fatores de risco para DRC, apesar de essa maior escolarização ter ocorrido de forma desigual entre as diferentes classes socioeconômicas<sup><xref ref-type="bibr" rid="B23">23</xref></sup>. Nesse contexto, parece haver relação entre mortalidade por asma e fatores como escolaridade e distribuição de renda, explicando a baixa mortalidade por essa doença em países de alta renda<sup><xref ref-type="bibr" rid="B24">24</xref></sup>. Já para DPOC, essa associação é menos monotônica e decorre de aumento da poluição do ar e tabagismo nos países em transição demográfica e epidemiológica, causalidade que merece investigação específica em estudo futuro<sup><xref ref-type="bibr" rid="B24">24</xref></sup>.</p>
+				<p>Sabendo-se que as maiores taxas de mortalidade por DRC foram encontradas no Sul da Ásia, um estudo que analisou a tendência de prevalência, letalidade e fatores de risco para DRC na Índia permite comparar a evolução do enfrentamento dessas doenças crônicas em outro país em desenvolvimento com a situação do Brasil<sup><xref ref-type="bibr" rid="B6">6</xref>,<xref ref-type="bibr" rid="B25">25</xref></sup>. A Política Nacional de Saúde da Índia de 2017 recomenda a redução da mortalidade por DCNT, inclusive por DRC, em 25% até 2025, enquanto o estudo revelou quedas maiores que 30% nas taxas brutas de letalidade para DPOC e asma entre 1990 e 2016<sup><xref ref-type="bibr" rid="B25">25</xref></sup>.</p>
+				<p>A tendência a atingir a meta na maior parte do Brasil está de acordo com estudo de Malta (2016), que descreveu os avanços do plano do MS após cinco anos de implementação, em que o monitoramento pelo Vigitel demonstrou redução na mortalidade prematura pelos quatro grupos principais de DCNT e diminuição do consumo de tabaco<sup><xref ref-type="bibr" rid="B26">26</xref></sup>. A pesquisa destaca outras ações em vigilância como a realização da PNS em 2013 e da Pesquisa Nacional de Saúde do Escolar desde 2009; além de iniciativas em promoção da saúde e cuidado integral, como a redefinição da Rede de Atenção à Pessoa com Doença Crônica, o lançamento do Programa Nacional de Melhoria do Acesso e da Qualidade e do Programa Farmácia Popular do Brasil<sup><xref ref-type="bibr" rid="B26">26</xref></sup>. Também se destacam as parcerias com instituições de ensino e pesquisa na estruturação de vigilância das DCNT e financiamento em 2011 para a implantação do plano do MS<sup><xref ref-type="bibr" rid="B16">16</xref></sup>.</p>
+				<p>Para melhor interpretar os resultados de tendência a atingir ou não atingir a meta, alguns fatores foram investigados: a situação da assistência em saúde; os indicadores sociais; e a exposição ao tabagismo.</p>
+				<p>A situação da assistência em saúde foi estudada por meio do Cadastro Nacional de Estabelecimentos de Saúde e de artigo que estimou o acesso ao tratamento medicamentoso de DRC<sup><xref ref-type="bibr" rid="B14">14</xref>,<xref ref-type="bibr" rid="B26">26</xref></sup>. São Luís e Boa Vista, capitais que tendem a não atingir a meta, apresentam elevada relação entre número populacional e número de estabelecimentos de saúde, a primeira com 1.056,15 habitantes para cada estabelecimento e a segunda com 1.055,17 pessoas por unidade, o que demonstra possível sobrecarga do sistema de saúde nesses municípios<sup><xref ref-type="bibr" rid="B26">26</xref></sup>. Entretanto, considerando apenas estabelecimentos de esfera jurídica pública, a razão entre população e número de estabelecimentos coloca Boa Vista como a capital com a segunda melhor relação, revelando menor sobrecarga do sistema público de saúde. Assim, ainda que essa razão seja alta, de 3.485,26 habitantes por estabelecimento público, sozinha não justifica a tendência do município de não atingir a meta do plano do MS, demonstrando provável influência de outros fatores.</p>
+				<p>Outra capital que tende a não atingir a meta é Recife, que tem uma relação de 720,19 habitantes por estabelecimento de saúde, a 12ª pior razão, melhorando seis posições quando feita a restrição às unidades públicas. Já Vitória e Campo Grande apresentam piores colocações em sobrecarga quando desconsiderados os estabelecimentos de esfera jurídica privada, a primeira apresentando a melhor relação entre todas as capitais quando considerados estabelecimentos públicos e privados. Portanto, a esfera privada seria a responsável pela redução da sobrecarga do sistema de saúde nessas capitais, que possivelmente não conseguiriam resolver a questão das DRC, uma vez que a maior parte das pessoas dependem do SUS. Desse modo, é possível que haja relação da razão entre população e número de estabelecimentos de saúde com a tendência temporal da mortalidade por DRC, o que é mais bem visto para São Luís e Boa Vista, mas essa influência não é clara e não pode ser analisada sem a consideração de outros fatores.</p>
+				<p>Sobre o acesso aos medicamentos para DRC, Leal et al.<sup><xref ref-type="bibr" rid="B14">14</xref></sup> (2018) observou que, para indivíduos que afirmavam ter indicação médica de tratamento farmacológico, a prevalência do uso de medicamentos foi menor entre os residentes da região Norte (84%), seguida do Nordeste (92,8%)<sup><xref ref-type="bibr" rid="B14">14</xref></sup>. Como duas das cinco capitais que tendem a não atingir a meta de redução pertencem à região Nordeste, e uma à Norte, pode haver relação entre essa tendência e o baixo acesso ao tratamento medicamentoso, o que não é válido para Campo Grande, pois a região Centro-Oeste obteve a melhor prevalência (98%) de acesso aos medicamentos de DRC. Já a região Sudeste revelou prevalência de 89,7%, ficando em terceiro lugar<sup><xref ref-type="bibr" rid="B14">14</xref></sup>.</p>
+				<p>Quanto aos indicadores sociais, por um lado, São Luís é a segunda capital com menor rendimento médio mensal domiciliar <italic>per capita</italic> (R$ 1.043,00), maior apenas que o rendimento do Macapá. Por outro, Vitória, que também tende a não atingir a meta, tem o maior rendimento médio (R$ 2.988,00) entre todas as capitais<sup><xref ref-type="bibr" rid="B22">22</xref></sup>. Sobre concentração de renda, observou-se, a partir do Índice de Gini, índice clássico de desigualdade que revela a distribuição do rendimento domiciliar <italic>per capita</italic>, que Recife se destaca pela maior desigualdade na distribuição de renda<sup><xref ref-type="bibr" rid="B27">27</xref></sup>.</p>
+				<p>São Luís e Recife, assim como Boa Vista, também apresentam elevada proporção de pessoas abaixo da linha da pobreza, o que corrobora a ideia de que há influência dos indicadores sociais para a tendência da mortalidade por DRC nessas capitais<sup><xref ref-type="bibr" rid="B23">23</xref></sup>. Soma-se ainda a questão da escolarização, índice em que Recife e São Luís revelaram taxas inferiores à maior parte das capitais (98,80% e 98,50% respectivamente)<sup><xref ref-type="bibr" rid="B28">28</xref></sup> entre pessoas com idades entre seis e 14 anos. De modo contrário, Vitória e Campo Grande mostraram escolarização dessa faixa etária de 100%<sup><xref ref-type="bibr" rid="B28">28</xref></sup>.</p>
+				<p>A frequência de adultos que fumam é maior em Porto Alegre (14,40%) e menor em São Luís (4,80%)<sup><xref ref-type="bibr" rid="B13">13</xref></sup>, Campo Grande também apresenta taxa elevada em relação às demais capitais (10,80%), enquanto a frequência em Boa Vista representa a mediana (7,20%), mesmo valor observado em Recife e próximo ao de Vitória (7,60%)<sup><xref ref-type="bibr" rid="B13">13</xref></sup>. A distribuição é parecida para o percentual de adultos que fumam 20 ou mais cigarros por dia, com liderança de Porto Alegre, sendo a frequência de São Luís superior apenas à de Macapá<sup><xref ref-type="bibr" rid="B13">13</xref></sup>. Logo, a associação entre a frequência desse fator de risco e a mortalidade por DRC é mais bem vista em Campo Grande.</p>
+				<p>A escolha do SIM como fonte dos dados de óbito baseou-se em estudos que revelam seu desempenho adequado, sendo bem avaliado em usabilidade, confiabilidade, segurança e qualidade em uso<sup><xref ref-type="bibr" rid="B29">29</xref></sup>. O SIM é o sistema de informação mais antigo do MS, implantado em 1976 e, desde então, amplia sua estabilidade e cobertura geográfica<sup><xref ref-type="bibr" rid="B29">29</xref>,<xref ref-type="bibr" rid="B30">30</xref></sup>. Contudo, estudos apontam limitações, sobretudo em interoperabilidade e, especialmente nas regiões Norte e Nordeste, elevados sub-registro e número de óbitos com causas não definidas<sup><xref ref-type="bibr" rid="B29">29</xref>,<xref ref-type="bibr" rid="B30">30</xref></sup>. Outra limitação do estudo está na geração de grandes intervalos de confiança dos modelos ARIMA, para a previsão para o ano de 2022, mesmo apresentando uma razoável capacidade preditiva com um erro percentual médio de 32,21% para 2017, ano deixado de fora da estimativa para fins de teste das previsões.</p>
+			</sec>
+			<sec sec-type="conclusions">
+				<title>CONCLUSÕES</title>
+				<p>O estudo demonstra que as taxas de mortalidade precoce por DRC apresentam-se decrescentes no Brasil como um todo e na maioria das capitais, bem como é observada na maior parte do país a tendência de atingir a meta do Plano de Ações Estratégicas para o Enfrentamento das DCNT no Brasil, 2011–2022, de redução dessas taxas em 2% ao ano. Verificou-se que tal declínio é coerente com resultados de pesquisas nacionais e internacionais, e pode ser atribuído a iniciativas nos eixos de promoção da saúde, vigilância e cuidado integral. Destacam-se o enfrentamento ao tabagismo, a realização da PNS, o monitoramento pelo Vigitel e a redefinição da Rede de Atenção à Pessoa com Doença Crônica. O aumento do acesso aos serviços de saúde e a melhoria dos indicadores sociais também parecem corroborar para a tendência de decrescimento.</p>
+				<p>Entretanto, observou-se que cinco capitais tendem a não atingir a meta: Boa Vista, Recife, São Luís, Campo Grande e Vitória. Entre os fatores que podem explicar tal propensão, estão a sobrecarga dos serviços de saúde (relação mais bem vista para São Luís e Boa Vista), baixo acesso aos medicamentos para DRC em algumas regiões, indicadores sociais desfavoráveis e maior frequência do tabagismo (associação mais notada para Campo Grande). Ainda assim, é possível conjecturar que há influência de outros fatores na evolução temporal das taxas mensais de mortalidade por DRC, especialmente para Vitória, capital com o maior rendimento médio mensal domiciliar <italic>per capita</italic> e escolarização de seis a 14 anos de 100%.</p>
+				<p>Considerando que as DRC recebem menores investimentos em pesquisa e atenção pública, comparada a outras DCNT, o presente artigo contribui para um maior conhecimento epidemiológico desse grupo de doenças e para o monitoramento das políticas públicas de saúde. Aspira-se que o estudo possibilite um melhor planejamento do sistema público de saúde para o controle das DRC e fomente iniciativas dos setores de pesquisa, vigilância e atenção em saúde, em especial nas capitais cujos resultados mostram tendência a não cumprir a meta do Ministério da Saúde.</p>
+			</sec>
+		</body>
+	</sub-article>
+</article>

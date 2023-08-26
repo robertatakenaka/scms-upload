@@ -1,0 +1,1504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.1" specific-use="sps-1.9" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="nlm-ta">Rev Saude Publica</journal-id>
+			<journal-id journal-id-type="publisher-id">rsp</journal-id>
+			<journal-title-group>
+				<journal-title>Revista de Saúde Pública</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Rev. Saúde Pública</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="ppub">0034-8910</issn>
+			<issn pub-type="epub">1518-8787</issn>
+			<publisher>
+				<publisher-name>Faculdade de Saúde Pública da Universidade de São Paulo</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="other">00211</article-id>
+			<article-id pub-id-type="doi">10.11606/s1518-8787.2022056003876</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Original Article</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Management in the care of people with HIV in primary health care in times of the new coronavirus</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-2518-6644</contrib-id>
+					<name>
+						<surname>Celuppi</surname>
+						<given-names>Ianka Cristina</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-1940-1608</contrib-id>
+					<name>
+						<surname>Meirelles</surname>
+						<given-names>Betina Hörner Schlindwein</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-5935-8849</contrib-id>
+					<name>
+						<surname>Lanzoni</surname>
+						<given-names>Gabriela Marcellino de Melo</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-2259-7429</contrib-id>
+					<name>
+						<surname>Geremia</surname>
+						<given-names>Daniela Savi</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-7833-0438</contrib-id>
+					<name>
+						<surname>Metelski</surname>
+						<given-names>Fernanda Karla</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff3"><sup>III</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>I</label>
+				<institution content-type="orgname">Universidade Federal de Santa Catarina</institution>
+				<institution content-type="orgdiv1">Centro de Ciências da Saúde</institution>
+				<institution content-type="orgdiv2">Programa de Pós-Graduação em Enfermagem</institution>
+				<addr-line>
+					<named-content content-type="city">Florianópolis</named-content>
+					<named-content content-type="state">SC</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Universidade Federal de Santa Catarina. Centro de Ciências da Saúde. Programa de Pós-Graduação em Enfermagem. Florianópolis, SC, Brasil</institution>
+			</aff>
+			<aff id="aff2">
+				<label>II</label>
+				<institution content-type="orgname">Universidade Federal da Fronteira Sul</institution>
+				<institution content-type="orgdiv1">Faculdade de Enfermagem</institution>
+				<addr-line>
+					<named-content content-type="city">Chapecó</named-content>
+					<named-content content-type="state">SC</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Universidade Federal da Fronteira Sul. Faculdade de Enfermagem. Chapecó, SC, Brasil</institution>
+			</aff>
+			<aff id="aff3">
+				<label>III</label>
+				<institution content-type="orgname">Universidade do Estado de Santa Catarina</institution>
+				<institution content-type="orgdiv1">Centro de Educação Superior do Oeste</institution>
+				<institution content-type="orgdiv2">Departamento de Enfermagem</institution>
+				<addr-line>
+					<named-content content-type="city">Chapecó</named-content>
+					<named-content content-type="state">SC</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Universidade do Estado de Santa Catarina. Centro de Educação Superior do Oeste. Departamento de Enfermagem. Chapecó, SC, Brasil</institution>
+			</aff>
+			<author-notes>
+				<corresp id="c01"> Correspondence: Ianka Cristina Celuppi Campus Reitor João David Ferreira Lima Rua Delfino Conti, s/n – Bairro Trindade 88040-900 Florianópolis, SC, Brasil E-mail: <email>iankacristinaceluppi@gmail.com</email>
+				</corresp>
+				<fn fn-type="con">
+					<p><bold>Authors’ Contribution:</bold> Study design and planning: ICC, BHSM. Data collection, analysis, and interpretation: ICC, BHSM, GMML, DSG, FKM. Draft writing or review: ICC, BHSM, GMML, DSG, FKM. Final draft approval: ICC, BHSM, GMML, DSG, FKM. Public responsibility for the content of the article: ICC, BHSM, GMML, DSG, FKM.</p>
+				</fn>
+				<fn fn-type="conflict">
+					<p><bold>Conflict of Interest:</bold> The authors declare no conflict of interest.</p>
+				</fn>
+			</author-notes>
+			<pub-date date-type="pub" publication-format="electronic">
+				<day>01</day>
+				<month>04</month>
+				<year>2022</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">
+				<year>2022</year>
+			</pub-date>
+			<volume>56</volume>
+			<elocation-id>13</elocation-id>
+			<history>
+				<date date-type="received">
+					<day>18</day>
+					<month>05</month>
+					<year>2021</year>
+				</date>
+				<date date-type="accepted">
+					<day>4</day>
+					<month>12</month>
+					<year>2021</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="en">
+					<license-p> This is an Open Access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. </license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>ABSTRACT</title>
+				<sec>
+					<title>OBJECTIVE</title>
+					<p> To understand management practices in the care of people living with the human immunodeficiency virus (HIV) in primary health care in a Brazilian capital, in times of the new coronavirus (covid-19) pandemic.</p>
+				</sec>
+				<sec>
+					<title>METHOD</title>
+					<p> Qualitative research, anchored in the methodological-analytical framework of the grounded theory, constructivist aspect. Data were collected by using intensive online interviews with nurses from health centers and managers of the municipal health department. Data collection and analysis occurred concomitantly in two phases of analysis: initial and focused coding.</p>
+				</sec>
+				<sec>
+					<title>RESULTS</title>
+					<p> They point to the development of best care practices, with emphasis on initiatives for coordination of care, decentralization of clinical management for primary health care services, establishment of protocols and flows, agreement of intersectoral partnerships, use of groups and social networks, use of tools such as teleconsultation and health surveillance spreadsheet and formation of support networks.</p>
+				</sec>
+				<sec>
+					<title>CONCLUSION</title>
+					<p> The Brazilian capital restructured its network of health services with the implementation of clinical and management protocols, seeking to maintain care for people living with HIV. We highlighted the incorporation of non-face-to-face care technologies and the facilitation of routines, as strategies for expanding access.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="en">
+				<kwd>HIV</kwd>
+				<kwd>HIV Long-Term Survivors</kwd>
+				<kwd>Continuity of Patient Care</kwd>
+				<kwd>COVID-19</kwd>
+				<kwd>Qualitative Research</kwd>
+			</kwd-group>
+			<funding-group>
+				<award-group>
+					<funding-source>Capes</funding-source>
+					<award-id>001</award-id>
+				</award-group>
+				<award-group>
+					<funding-source>CNPq</funding-source>
+					<award-id>134112/2019-9</award-id>
+				</award-group>
+				<funding-statement>Funding: OAcademic Excellence Program (PROEX). Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (Capes – Funding Code 001) Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq – Process 134112/2019-9). Postgraduate Program UNIEDU/FUMDES - doctoral scholarship.</funding-statement>
+			</funding-group>
+			<counts>
+				<fig-count count="2"/>
+				<table-count count="2"/>
+				<equation-count count="0"/>
+				<ref-count count="26"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>INTRODUCTION</title>
+			<p>The pandemic of the new coronavirus disease (covid-19), caused by the SARS-CoV-2 virus, has caused significant morbidity and mortality worldwide<sup><xref ref-type="bibr" rid="B1">1</xref>,<xref ref-type="bibr" rid="B2">2</xref></sup>. This scenario has fostered discussions about the forms of organization and adaptation of health services in the face of new demands that emerged with the pandemic, seeking to develop tools and strategies to comply with the guidelines and principles of the Brazilian Unified Health System (SUS). Primary health care (PHC) is the priority gateway into the SUS, to order and coordinate the health care network and, therefore, plays a fundamental role in coping with the covid-19 pandemic<sup><xref ref-type="bibr" rid="B3">3</xref></sup>.</p>
+			<p>Some axes of PHC action in this context stand out, such as health surveillance in the territories, care for users with suspected or confirmed cases of covid-19 without severity, social support to vulnerable groups and continuity of care directed to priority groups for this level of health care. Thus, the Brazilian model centered on the family health strategy with a territorial focus already has positive impacts on the health of the population and becomes promising as a strategy for community approach, necessary to cope with any pandemic<sup><xref ref-type="bibr" rid="B4">4</xref></sup>.</p>
+			<p>The covid-19 pandemic and the actions taken in response to it are expected to have far-reaching consequences in other diseases<sup><xref ref-type="bibr" rid="B5">5</xref></sup>. The impacts on the care of other ailments are directly related to interruptions in the usual activities and services to meet the demand for covid-19<sup><xref ref-type="bibr" rid="B6">6</xref>,<xref ref-type="bibr" rid="B7">7</xref></sup>.</p>
+			<p>Studies show that comorbidities associated with chronic conditions are determining factors for covid-19 mortality, which warns about the need for greater care and caution regarding people living with HIV (PLHIV)<sup><xref ref-type="bibr" rid="B8">8</xref>,<xref ref-type="bibr" rid="B9">9</xref></sup>, who, have a greater need for social distancing due to their immunodeficiency status. In places with high HIV loads, care interruptions during the covid-19 pandemic are estimated to cause an increase in HIV deaths of up to 10%<sup><xref ref-type="bibr" rid="B7">7</xref></sup>.</p>
+			<p>This scenario emphasizes the importance of attention to the multimorbidity of PLHIV and ensuring the provision of antiretroviral treatment (ART), without detriment to compliance and to clinical follow-up<sup><xref ref-type="bibr" rid="B9">9</xref></sup>. However, although international institutions and government agencies have already expressed concern about the HIV epidemic over the years, the covid-19 pandemic presents numerous barriers and challenges to the continuity of care<sup><xref ref-type="bibr" rid="B10">10</xref></sup>.</p>
+			<p>Considering that, we elected the following question as the guide of the study: How are management practices carried out in the care of PLHIV in times of covid-19 pandemic? This study proposes to understand the covid-19 pandemic, an emerging and impactful phenomenon in world public health, focusing on the best practices of health care of PLHIV, a population considered a priority by health policies. Best practices are those presenting the best results, being useful tools for the dissemination of innovations in care<sup><xref ref-type="bibr" rid="B11">11</xref></sup>.</p>
+			<p>Thus, the study aimed to understand the management practices in the care of PLHIV in PHC in a Brazilian capital in times of covid-19 pandemic.</p>
+		</sec>
+		<sec sec-type="methods">
+			<title>METHODS</title>
+			<p>This is exploratory research of qualitative nature, anchored in the methodological-analytical framework of the grounded theory, in the constructivist aspect, idealized by Kathy Charmaz<sup><xref ref-type="bibr" rid="B12">12</xref></sup>.</p>
+			<p>The study was conducted in the municipality of Florianópolis, considered the capital with the highest performance in the national program to improve access and quality of primary care, higher percentage of family health strategy coverage and shared and decentralized care offer in PHC to PVHIV, a national reference in the management and provision of PHC services<sup><xref ref-type="bibr" rid="B13">13</xref></sup>.</p>
+			<p>Data collection occurred from July to September 2020, initially interviewing nursing professionals from four PHC centers and subsequently managers in the sectors of specialized care, clinic management, care integration, and epidemiological surveillance of the municipal health department. As recommended by the grounded theory, we opted for the initial selection of nurses due to the different competencies assumed by these professionals in health care, considered a leadership for the management of the work of the multidisciplinary team.</p>
+			<p>The participants who composed the initial sampling were intentionally selected, considering the inclusion criteria of being a care nurse, coordinator, or resident in PHC and having experience in the management of PLHIV care for at least six months at the date of data collection.</p>
+			<p>The invitation to join the study was made via e-mail and/or by telephone. The informed consent form was sent virtually to the participants and authorized by using Google Forms<sup>Ⓡ</sup> , a copy was filed with the researcher.</p>
+			<p>The intensive interviews took place in non-face-to-face format due to the covid-19 pandemic, by video call using the Google Meet communication system<sup>Ⓡ</sup> . The first sample group had as its initial question: Tell me about care practices directed at PLHIV in times of covid-19 pandemic. This group consisted of 12 nurses.</p>
+			<p>From the analysis of the interviews of the first sample group, we hypothesized that the practices of care for PLHIV during the covid-19 pandemic were related to the decentralization of clinical management to PHC, the restructuring of services, and the establishment of protocols and scientific evidence guides.</p>
+			<p>Therefore, the need to constitute the second sample group with managers of the municipal health department from Florianópolis was identified. The interviews aimed to explore aspects of the establishment of clinical management protocols directed at HIV, and mechanisms for the adequacy of health services for the covid-19 pandemic scenario based on the question: Tell me about managing care for people living with HIV/SIDA in times of pandemic. Thus, the inclusion criterion for this second group was working in management positions in the Florianópolis municipal health department for more than six months at the date of data collection.</p>
+			<p>Professionals who were away from work during the data collection period, regardless of the reason were excluded from both sample groups. At the end of the interviews of the second sample group, data saturation was achieved with five managers and information to support the investigated phenomenon, totaling 17 participants.</p>
+			<p>The data were collected by the researchers by interviews recorded in audio, which were transcribed into Word<sup>Ⓡ</sup> and organized for analysis in the NVIVO10<sup>Ⓡ</sup> software. The average duration of each interview was 29 minutes. To ensure the anonymity of the participants, the speeches were identified by codes. To obtain the data to ensure the quality and reliability of the study, the principles of the consolidated criteria for reporting qualitative research were followed.</p>
+			<p>The concomitant analysis of the data, according to the guidelines of the constructivist grounded theory, was performed in two phases. In the first, the initial codification was performed, in which the incidents were coded to understand the information from the participants’ meanings and experiences, constituting the first dimensions of the analyzed experience. In the second phase, focused coding occurred, in which the codes of greater expressiveness were grouped, to form abstract categories to synthesize a given data fragment<sup><xref ref-type="bibr" rid="B12">12</xref></sup>. Memorandums and diagrams were elaborated to assist the analytical development of the data, leading to the understanding of the phenomenon.</p>
+			<p>This study respected the ethical precepts of research with human beings, according to Resolution No. 466/2012 and its complementary, including the new procedures for conducting research in a virtual environment, according to Circular Office No. 02/2021.</p>
+		</sec>
+		<sec sec-type="results">
+			<title>RESULTS</title>
+			<p>The <xref ref-type="table" rid="t1">Box</xref> shows the categories and subcategories that emerged during the analysis process and that, interrelated, support the phenomenon of study.</p>
+			<p>
+				<table-wrap id="t1">
+					<label>Box</label>
+					<caption>
+						<title>Representation of the phenomenon, category, and subcategories of the study.</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th colspan="2">Unveiling the best management practices in the care of people living with HIV related to decentralized, shared, and evidence-based care</th>
+							</tr>
+							<tr>
+								<th align="left">Category</th>
+								<th>Subcategories</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td align="left" rowspan="12" valign="top">Developing better practices for PLHIV care in the face of the covid-19 pandemic</td>
+								<td align="center">Prioritizing the care of people living with HIV.</td>
+							</tr>
+							<tr>
+								<td align="center">Facilitating scan routines (CD4, viral load) and antiretroviral treatment.</td>
+							</tr>
+							<tr>
+								<td align="center">Sharing the care of people living with HIV among the health team.</td>
+							</tr>
+							<tr>
+								<td align="center">Encouraging social distancing for immunodepressed people in times of pandemic.</td>
+							</tr>
+							<tr>
+								<td align="center">Strengthening the bond with people living with HIV via groups and social networks.</td>
+							</tr>
+							<tr>
+								<td align="center">Agreeing on intersectoral care strategies/initiatives.</td>
+							</tr>
+							<tr>
+								<td align="center">Accompanying people living with HIV by the health surveillance worksheet.</td>
+							</tr>
+							<tr>
+								<td align="center">Identifying decreased screening of new cases in pandemic times.</td>
+							</tr>
+							<tr>
+								<td align="center">Learning to use tools for non-face-to-face clinical management.</td>
+							</tr>
+							<tr>
+								<td align="center">Establishing eligibility criteria for face-to-face consultation and teleconsultation.</td>
+							</tr>
+							<tr>
+								<td align="center">Facilitating access to PHC services with teleconsultation and hosting via digital platforms.</td>
+							</tr>
+							<tr>
+								<td align="center">Using a protocol to guide clinical management in teleconsultation.</td>
+							</tr>
+						</tbody>
+					</table>
+				</table-wrap>
+			</p>
+			<disp-quote>
+				<p><italic>Unveiling management best practices in the care of people living with HIV.</italic></p>
+			</disp-quote>
+			<p>The prioritization and concern with the provision of care and monitoring of PLHIV stood out.</p>
+			<disp-quote>
+				<p><italic>Priority service! We have an internal communication</italic> […] <italic>which accounts for priority care for patients with chronic diseases, infectious diseases, and urgent demands</italic>. (G1E03)</p>
+			</disp-quote>
+			<p>The services also adopted the practice of sending requests for exams and prescriptions via mobile, which facilitates access and continuity of care in a scenario of social distancing.</p>
+			<disp-quote>
+				<p><italic>We’re doing all recipe renewals by teleconsultation on WhatsApp.</italic> (G1E03)</p>
+				<p><italic>One thing we’ve done is renew recipes in an easier way. So, the patient doesn’t need an appointment for every renewal. We try to make the recipe for longer if the patient is stable. Sometimes we see that it is time already to make the viral load or CD4 and we give them the test request beforehand</italic> […] <italic>the consultation will be later, when he has the test result.</italic> (G1E04)</p>
+			</disp-quote>
+			<p>With the decentralization of care to PLHIV for PHC, care was consequently shared among the health team, with division of responsibilities and attributions, including in times of pandemic.</p>
+			<disp-quote>
+				<p><italic>From the moment the patient contacted the team, we keep giving this follow-up, this care, which is usually monthly.</italic> (G1E01)</p>
+				<p><italic>This management of care is done shared with the team, we doctors and nurses, we work a lot together. We say we have a shoulder-to-shoulder job.</italic> (G1E04)</p>
+			</disp-quote>
+			<p>The professionals also emphasized the importance of social distancing for immunosuppressed patients, such as PLHIV.</p>
+			<disp-quote>
+				<p><italic>What’s changed is the entry into the healthcare center. We have a fully organized work process so that people come as little as possible in the healthcare center.</italic> (G1E03)</p>
+				<p><italic>The healthcare center became a hostile environment for them</italic> [the PLHIV]. <italic>So, they didn’t want to come, and that was good because we didn’t want them to come either.</italic> (G1E04)</p>
+			</disp-quote>
+			<p>Initiatives related to the expansion of access and the creation of bonds with PLHIV also stood out. The participants point out the different approaches to communication, among which are the groups and social networks.</p>
+			<disp-quote>
+				<p><italic>Even on Instagram there are PrEP and PEP groups, and they are always sharing information with patients from our network.</italic> (G1E02)</p>
+				<p><italic>There is a manual for using social networks with patients and we received the cell phone for each team.</italic> (G1E03)</p>
+			</disp-quote>
+			<p>Thinking about the continuity of care and treatment of PLHIV, a support network was established with non-governmental organizations (NGOs) so that people who could not retrieve the ART at the distribution center could receive them at home or at the nearest health center. The telephone number of four centers for testing and rapid response was disclosed so that users could communicate their difficulties regarding treatment and request help from this support network.</p>
+			<disp-quote>
+				<p><italic>Throughout the network we have the articulation with GAPA</italic><sup><xref ref-type="fn" rid="fna">a</xref></sup> <italic>that receives the medicines for people who can’t go get them because of displacement and financial issues.</italic> (G2G02)</p>
+				<p><italic>One of the things we did was helping the ART retrieval, which became impossible for some people without public transportation. So, I chose three NGO leaders, held a meeting with them and said, “guys you’re going to have to help list the names and we help with distribution.”</italic> (G2G01)</p>
+			</disp-quote>
+			<p><italic>We made a lot of divulgation through the local health council, community leaders, residents’ association.</italic> (G1E04)</p>
+			<p>The use of management tools, such as surveillance spreadsheets, facilitated the monitoring of PLHIV. This instrument stood out by enabling the visualization of all PLHIV in the territory, and their situation of treatment, medication, examinations, consultations, among others.</p>
+			<disp-quote>
+				<p><italic>We are keeping an eye on the surveillance worksheet because that’s how we will follow-up these patients.</italic> (G1E04)</p>
+				<p><italic>The monitoring worksheet has the name, date of birth, date of diagnosis, date of when they started using antiretrovirals, date of last CD4 and result, date of last viral load and result.</italic> (G1E10)</p>
+			</disp-quote>
+			<p>The professionals identified that prioritizing face-to-face care for the management of respiratory symptoms led to a decrease in the screening of new HIV cases, which results from the decrease in routine consultations for the population without ailments, which were disregarded due to the scarce human resources.</p>
+			<disp-quote>
+				<p><italic>What’s been happening is that our screenings have been slowing down right now. So, I have a patient who has no symptoms and who comes to me for checkup: in case he has no risk situation, I’m telling him to wait a little longer. I have analyzed that our HIV diagnoses in the pandemic have been quite few. If we don’t do serology, we’re going to stop making a diagnosis and leave people with HIV without knowing they have it.</italic> (G1E04)</p>
+			</disp-quote>
+			<p>Furthermore, new ways of accessing the population were incorporated, such as receiving of demands via WhatsApp<sup>Ⓡ</sup>, email, telephone, and video call. Thus, the professionals had to grasp the use and functionality of these technologies and adapt to the new model of care imposed by the pandemic.</p>
+			<disp-quote>
+				<p><italic>It’s a challenge doing and having people qualified to do that</italic> [teleconsultation]<italic>, because it’s not just having people, sometimes I have a person, but they can’t write well, they have a hard time understanding.</italic> (G1E03)</p>
+			</disp-quote>
+			<p>Thus, teleconsultation was instituted for routine care without severity and that did not require an initial physical examination. In situations that required face-to-face follow-up, users were instructed to attend the health center for scheduled care.</p>
+			<disp-quote>
+				<p><italic>We make teleconsultation via WhatsApp, both by video, audio, message, you know? In each case we evaluate the best way. And that makes things a lot easier because people have to avoid leaving home. Sometimes, it’s about specific questions of patients that we already follow-up on. So, we can give this support via teleconsultation.</italic> (G1E01)</p>
+				<p><italic>If necessary, we weigh risk-benefit and make a face-to-face assessment of the patient.</italic> (G1E07)</p>
+			</disp-quote>
+			<p>The various technologies incorporated in the health work process improved contact with PLHIV to expand their access to services, which previously occurred in the face-to-face modality. The use of digital means for teleconsultation is a promising tool for health services.</p>
+			<disp-quote>
+				<p><italic>I think these new technologies come to aggregate and facilitate access, this often facilitates and improves the bond in some cases.</italic> (G1E08)</p>
+				<p><italic>We have offered teleconsultation to maintain follow-up in the context of the pandemic. So, teleconsultation is a tool that came to add up at this moment when we are instructing people to stay at home.</italic> (G1E04)</p>
+			</disp-quote>
+			<p>A protocol was elaborated authorizing and regulating teleconsultation to collaborate in the care of users during the covid-19 pandemic.</p>
+			<disp-quote>
+				<p><italic>They created the protocol that tells us what ethical procedures we should perform, how to make a standard evolution, all the guidelines. So, this protocol came to support us because, at first, we knew nothing about it and did not know the over the phone consultation would be.</italic> (G1E05)</p>
+			</disp-quote>
+			<p>We can understand that PHC services were reconfigured in the face of the pandemic scenario, to transform the workflow, clinical, and managerial practices and incorporate new technologies in the care process, ensuring continuity of care to priority populations for the PHC. The decentralization of care added to the greater autonomy of professionals, represent a potential for the development of better health practices.</p>
+			<p>The <xref ref-type="fig" rid="f01">Figure</xref> shows the meanings attributed to the best management practices in the care of PLHIV, illustrating the initiatives instituted in the study scenario.</p>
+			<p>
+				<fig id="f01">
+					<label>Figure</label>
+					<caption>
+						<title>Developing better care practices for PLHIV in the face of the covid-19 pandemic</title>
+					</caption>
+					<graphic xlink:href="1518-8787-rsp-56-13-gf01.tif"/>
+				</fig>
+			</p>
+		</sec>
+		<sec sec-type="discussion">
+			<title>DISCUSSION</title>
+			<p>We understand that the best practices of care for PLHIV identified in this study constitute “innovations in care” and are associated with strategies and tools instituted in PHC in the municipality of Florianópolis, with emphasis on establishing mechanisms of communication and access to services and protocols and guidelines for clinical management, forming intersectoral partnerships, and monitoring and managing remote care. These initiatives promote the coordination of care to PLHIV and reinforce important discussions about the attributes of PHC as the guide of health policy in Brazil.</p>
+			<p>Reorganizing of PHC services in times of covid-19 pandemic, seeking to simultaneously meet the demand of respiratory symptomatic patients and of regular actions that were already monitored at this level of health care, is imperative to the sustainability of the SUS care model<sup><xref ref-type="bibr" rid="B14">14</xref>,<xref ref-type="bibr" rid="B15">15</xref></sup>. Thus, care flows have been implemented for the management of these different audiences, with a distinction between mild, severe, and non-symptomatic respiratory conditions<sup><xref ref-type="bibr" rid="B4">4</xref>,<xref ref-type="bibr" rid="B5">5</xref></sup>.</p>
+			<p>All team professionals, especially community health agents, who have a greater approach to the community, should encourage social distancing mobilizing local leaders for the wide dissemination of information and taking measures necessary to the context<sup><xref ref-type="bibr" rid="B4">4</xref></sup>. Therefore, the vital role of community and intersectoral work in the logistical and operational support of care to PLHIV in times of pandemic is evidenced.</p>
+			<p>In the scenario of our study, the community and NGO partnerships, such as GAPA, aimed at the transport and distribution of ART, which resulted in access to treatment for countless people who found themselves unable to retrieve it themselves. Studies indicate positive results of the work developed by non-governmental organizations aimed at the prevention, treatment, and monitoring of PLHIV, highlighting improvements in harm reduction, access to condoms and ART, linkage to care and access to health services<sup><xref ref-type="bibr" rid="B16">16</xref>,<xref ref-type="bibr" rid="B17">17</xref></sup>. Articulating solutions in the face of adverse scenarios requires coordinated action in the territory with local leaders, equipment, and institutions, highlighting community engagement and intersectoral actions as important strategies to cope with the covid-19 syndemic<sup><xref ref-type="bibr" rid="B18">18</xref></sup>.</p>
+			<p>The concept of syndemic consists of the interaction between two or more epidemics, which produce an increase in the burden of diseases of the population<sup><xref ref-type="bibr" rid="B19">19</xref></sup>. In other words, the covid-19 pandemic joins the HIV epidemic and creates another health problem for PLHIV, such as decreased access to health services. In this case, with encouraged social distancing and decreased flow of people in health services, the strategy is the management of non-face-to-face care, which can be done with spreadsheets containing clinical data and shared among the health team, and the use of digital communication tools.</p>
+			<p>The use of management instruments is opportune for maintaining adherence to treatment, identifying gaps and monitoring viral load, CD4, and CD8 tests. However, we highlight some difficulties faced for non-face-to-face clinical monitoring of PLHIV, such as the out-of-date of information, lack of human and material resources, little communication among team professionals, divergent opinions regarding the importance of clinical follow-up, and resistance to changes in work processes<sup><xref ref-type="bibr" rid="B20">20</xref></sup>.</p>
+			<p>The covid-19 pandemic has led to the emergence of non-face-to-face health care technologies, such as teleconsultation, which enables the provision of care by using information and communication technologies in the health area<sup><xref ref-type="bibr" rid="B21">21</xref></sup>. Implementing the teleconsultation in PHC in Florianópolis allowed ensuring access to users who needed health services. Thus, it can be considered a crucial tool of care organization for coping with the pandemic.</p>
+			<p>We emphasize that teleconsultation should be established in PHC based on protocols that regulate the workflow and establish guidelines<sup><xref ref-type="bibr" rid="B23">23</xref></sup>, which requires telephony and internet resources, and qualification of professionals and users to take advantage of this new possibility of care<sup><xref ref-type="bibr" rid="B22">22</xref></sup>.</p>
+			<p>The use of applications such as WhatsApp<sup>Ⓡ</sup> and phone calls ensure the offer of actions in a safe way<sup><xref ref-type="bibr" rid="B4">4</xref></sup> favoring the continuity of care. The PHC services under study applied these technologies in different situations of PLHIV care, such as to respond to ART related demands, request for routine tests, and receive clinical complaints.</p>
+			<p>Based on the results of our study, we observe that care management and clinical management, made possible by flows, protocols, and integrated health policy, are fundamental for developing better practices. The restructuring of the health care network and the autonomy, competence and skills of professionals and managers in this scenario of action can effectively intervene in factors that determine the management of health conditions in times of covid-19.</p>
+			<p>The need for efforts and initiatives to build a strong, vigilant, capillarized PHC, adapted to the pandemic context and faithful to its principles is evidenced. The emerging health crisis with the covid-19 pandemic is sanitary, political, economic, and social, and requires the transformation of the ways of doing health<sup><xref ref-type="bibr" rid="B4">4</xref></sup>, without forgetting the continuity of the monitoring of priority groups.</p>
+			<p>Our study analyzed the meanings of the best management practices in care attributed by nurses of health centers and municipal managers, thus presenting limitations regarding the lack of exploration of the perspective of PLHIV on the same phenomenon. Another limitation pertains to the online interviews since we believe that face-to-face interviews could result in greater interaction between interviewer and participant, favoring the deepening of the phenomenon.</p>
+			<p>Our study contributes to scientific knowledge about the management of care in coping with the covid-19 pandemic and maintenance of PLHIV care, especially regarding the tools, strategies, and technologies used to disseminate the initiatives implemented in the health network studied, which have the potential for replication in other scenarios in which primary health care practices occur.</p>
+		</sec>
+		<sec sec-type="conclusions">
+			<title>CONCLUSION</title>
+			<p>This study comprised the management practices in the care of PLHIV in the face of the covid-19 pandemic in the PHC in a Brazilian capital, which restructured its network of health services and implemented changes in clinical and management practices to meet the new demands resulting from the covid-19 pandemic and, at the same time, maintain care to PLHIV with quality and effectiveness. The incorporation of technologies and tools for the management of non-face-to-face care as a strategy to expand access and the guarantee of equity and integrality to the care of users in a scenario in which social distancing is reinforced stood out as the best practices.</p>
+			<p>We highlight the implementation of protocols and flows to guide access to health services to systematize new ways of providing care in times of pandemic, with tools of a digital and technological nature. In this regard, WhatsApp<sup>Ⓡ</sup> has gained prominence as a tool for receiving demands, doing teleconsultations, requesting exams, renewing recipes, and scheduling of face-to-face activities when necessary.</p>
+			<p>To that we add the importance of facilitating the routines of performing follow-up exams and retrieving ART. However, the access restrictions resulting from the covid-19 pandemic for routine follow-up of users without aggravated or priority conditions also evidently culminated in the decrease in screening of new HIV cases and control of other chronic conditions.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>REFERENCES</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. Governo Federal do Brasil. Painel coronavírus. Brasília, DF; 2021 [cited 2020 Apr 13]. Available from: <ext-link ext-link-type="uri" xlink:href="https://covid.saude.gov.br/">https://covid.saude.gov.br/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Governo Federal do Brasil</collab>
+					</person-group>
+					<source>Painel coronavírus</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<year>2021</year>
+					<date-in-citation content-type="cited-date">cited 2020 Apr 13</date-in-citation>
+					<ext-link ext-link-type="uri" xlink:href="https://covid.saude.gov.br/">https://covid.saude.gov.br/</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. World Health Organization. Coronavirus (COVID-19). Geneva (CH): WHO; 2021 [cited 2020 Apr 13]. Available from: <ext-link ext-link-type="uri" xlink:href="https://covid19.who.int/">https://covid19.who.int/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>World Health Organization</collab>
+					</person-group>
+					<source>Coronavirus (COVID-19)</source>
+					<publisher-loc>Geneva (CH)</publisher-loc>
+					<publisher-name>WHO</publisher-name>
+					<year>2021</year>
+					<date-in-citation content-type="cited-date">cited 2020 Apr 13</date-in-citation>
+					<ext-link ext-link-type="uri" xlink:href="https://covid19.who.int/">https://covid19.who.int/</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. Giovanella L, Franco CM, Almeida PF. Política Nacional de Atenção Básica: para onde vamos? Cienc Saude Coletiva. 2020;25(4):1475-82. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1413-81232020254.01842020">https://doi.org/10.1590/1413-81232020254.01842020</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Giovanella</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Franco</surname>
+							<given-names>CM</given-names>
+						</name>
+						<name>
+							<surname>Almeida</surname>
+							<given-names>PF</given-names>
+						</name>
+					</person-group>
+					<article-title>Política Nacional de Atenção Básica: para onde vamos?</article-title>
+					<source>Cienc Saude Coletiva</source>
+					<year>2020</year>
+					<volume>25</volume>
+					<issue>4</issue>
+					<fpage>1475</fpage>
+					<lpage>1482</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1413-81232020254.01842020">https://doi.org/10.1590/1413-81232020254.01842020</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. Medina MG, Giovanella L, Bousquat A, Mendonça MH, Aquino R. Atenção primária à saúde em tempos de COVID-19: o que fazer? Cad Saude Publica. 2020;36(8):e00149720. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0102-311X00149720">https://doi.org/10.1590/0102-311X00149720</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Medina</surname>
+							<given-names>MG</given-names>
+						</name>
+						<name>
+							<surname>Giovanella</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Bousquat</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Mendonça</surname>
+							<given-names>MH</given-names>
+						</name>
+						<name>
+							<surname>Aquino</surname>
+							<given-names>R</given-names>
+						</name>
+					</person-group>
+					<article-title>Atenção primária à saúde em tempos de COVID-19: o que fazer?</article-title>
+					<source>Cad Saude Publica</source>
+					<year>2020</year>
+					<volume>36</volume>
+					<issue>8</issue>
+					<elocation-id>e00149720</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0102-311X00149720">https://doi.org/10.1590/0102-311X00149720</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Sarti TD, Lazarini WS, Fontenelle LF, Almeida APSC. Qual o papel da Atenção Primária à Saúde diante da pandemia provocada pela COVID-19? Epidemiol Serv Saude. 2020;29(2):e2020166. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5123/S1679-49742020000200024">https://doi.org/10.5123/S1679-49742020000200024</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sarti</surname>
+							<given-names>TD</given-names>
+						</name>
+						<name>
+							<surname>Lazarini</surname>
+							<given-names>WS</given-names>
+						</name>
+						<name>
+							<surname>Fontenelle</surname>
+							<given-names>LF</given-names>
+						</name>
+						<name>
+							<surname>Almeida</surname>
+							<given-names>APSC</given-names>
+						</name>
+					</person-group>
+					<article-title>Qual o papel da Atenção Primária à Saúde diante da pandemia provocada pela COVID-19?</article-title>
+					<source>Epidemiol Serv Saude</source>
+					<year>2020</year>
+					<volume>29</volume>
+					<issue>2</issue>
+					<elocation-id>e2020166</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5123/S1679-49742020000200024">https://doi.org/10.5123/S1679-49742020000200024</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. Silva-Sobrinho RA, Zilly A, Silva RMM, Arcoverde MAM, Deschutter EJ, Palha PF, et al. Coping with COVID-19 in an international border region: health and economy. Rev Lat Am Enfermagem. 2021;29:e3398. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1518-8345.4659.3398">https://doi.org/10.1590/1518-8345.4659.3398</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Silva</surname>
+							<given-names>RA</given-names>
+							<suffix>Sobrinho</suffix>
+						</name>
+						<name>
+							<surname>Zilly</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Silva</surname>
+							<given-names>RMM</given-names>
+						</name>
+						<name>
+							<surname>Arcoverde</surname>
+							<given-names>MAM</given-names>
+						</name>
+						<name>
+							<surname>Deschutter</surname>
+							<given-names>EJ</given-names>
+						</name>
+						<name>
+							<surname>Palha</surname>
+							<given-names>PF</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Coping with COVID-19 in an international border region: health and economy</article-title>
+					<source>Rev Lat Am Enfermagem</source>
+					<year>2021</year>
+					<volume>29</volume>
+					<elocation-id>e3398</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1518-8345.4659.3398">https://doi.org/10.1590/1518-8345.4659.3398</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. Hogan AB, Jewell BL, Sherrard-Smith E, Vesga JF, Watson OJ, Whittaker C, et al. Potential impact of the COVID-19 pandemic on HIV, tuberculosis, and malaria in low-income and middle-income countries: a modelling study. Lancet Glob Health. 2020;8(9):e1132-41. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S2214-109X(20)30288-6">https://doi.org/10.1016/S2214-109X(20)30288-6</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hogan</surname>
+							<given-names>AB</given-names>
+						</name>
+						<name>
+							<surname>Jewell</surname>
+							<given-names>BL</given-names>
+						</name>
+						<name>
+							<surname>Sherrard-Smith</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Vesga</surname>
+							<given-names>JF</given-names>
+						</name>
+						<name>
+							<surname>Watson</surname>
+							<given-names>OJ</given-names>
+						</name>
+						<name>
+							<surname>Whittaker</surname>
+							<given-names>C</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Potential impact of the COVID-19 pandemic on HIV, tuberculosis, and malaria in low-income and middle-income countries: a modelling study</article-title>
+					<source>Lancet Glob Health</source>
+					<year>2020</year>
+					<volume>8</volume>
+					<issue>9</issue>
+					<fpage>e1132</fpage>
+					<lpage>e1141</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S2214-109X(20)30288-6">https://doi.org/10.1016/S2214-109X(20)30288-6</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Wang B, Li R, Lu Z, Huang Y. Does comorbidity increase the risk of patients with COVID-19: evidence from meta-analysis. Aging (Albany NY). 2020;15;12(7):6049-57. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.18632/aging.103000">https://doi.org/10.18632/aging.103000</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Wang</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Li</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Lu</surname>
+							<given-names>Z</given-names>
+						</name>
+						<name>
+							<surname>Huang</surname>
+							<given-names>Y</given-names>
+						</name>
+					</person-group>
+					<article-title>Does comorbidity increase the risk of patients with COVID-19: evidence from meta-analysis</article-title>
+					<source>Aging (Albany NY)</source>
+					<year>2020</year>
+					<comment>15</comment>
+					<volume>12</volume>
+					<issue>7</issue>
+					<fpage>6049</fpage>
+					<lpage>6057</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.18632/aging.103000">https://doi.org/10.18632/aging.103000</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. Mirzaei H, McFarland W, Karamouzian M, Sharifi H. COVID-19 among people living with HIV: a systematic review. AIDS Behav. 2020;25:85-92. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s10461-020-02983-2">https://doi.org/10.1007/s10461-020-02983-2</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Mirzaei</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>McFarland</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Karamouzian</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Sharifi</surname>
+							<given-names>H</given-names>
+						</name>
+					</person-group>
+					<article-title>COVID-19 among people living with HIV: a systematic review</article-title>
+					<source>AIDS Behav</source>
+					<year>2020</year>
+					<volume>25</volume>
+					<fpage>85</fpage>
+					<lpage>92</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s10461-020-02983-2">https://doi.org/10.1007/s10461-020-02983-2</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. Jiang H, Zhou Y, Tang W. Maintaining HIV care during the COVID-19 pandemic. Lancet HIV. 2020;7(5):e308-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S2352-3018(20)30105-3">https://doi.org/10.1016/S2352-3018(20)30105-3</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Jiang</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Zhou</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Tang</surname>
+							<given-names>W</given-names>
+						</name>
+					</person-group>
+					<article-title>Maintaining HIV care during the COVID-19 pandemic</article-title>
+					<source>Lancet HIV</source>
+					<year>2020</year>
+					<volume>7</volume>
+					<issue>5</issue>
+					<fpage>e308</fpage>
+					<lpage>e309</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S2352-3018(20)30105-3">https://doi.org/10.1016/S2352-3018(20)30105-3</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. Higa DH, Crepaz N, Mullins MM; The Prevention Research Synthesis Project. Identifying best practices for increasing linkage to, retention, and re-engagement in HIV Medical Care: findings from a systematic review, 1996-2014. AIDS Behav. 2016;20(5):951-66. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s10461-015-1204-x">https://doi.org/10.1007/s10461-015-1204-x</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Higa</surname>
+							<given-names>DH</given-names>
+						</name>
+						<name>
+							<surname>Crepaz</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Mullins</surname>
+							<given-names>MM</given-names>
+						</name>
+						<collab>The Prevention Research Synthesis Project</collab>
+					</person-group>
+					<article-title>Identifying best practices for increasing linkage to, retention, and re-engagement in HIV Medical Care: findings from a systematic review, 1996-2014</article-title>
+					<source>AIDS Behav</source>
+					<year>2016</year>
+					<volume>20</volume>
+					<issue>5</issue>
+					<fpage>951</fpage>
+					<lpage>966</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s10461-015-1204-x">https://doi.org/10.1007/s10461-015-1204-x</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. Charmaz K. A construção da teoria fundamentada: guia prático para análise qualitativa. Porto Alegre, RS: Artmed; 2009.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Charmaz</surname>
+							<given-names>K</given-names>
+						</name>
+					</person-group>
+					<source>A construção da teoria fundamentada: guia prático para análise qualitativa</source>
+					<publisher-loc>Porto Alegre, RS</publisher-loc>
+					<publisher-name>Artmed</publisher-name>
+					<year>2009</year>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. Carvalho VKA, Godoi DF, Perini FB, Vidor AC. Cuidado compartilhado de pessoas vivendo com HIV/AIDS na Atenção Primária: resultados da descentralização em Florianópolis. Rev Bras Med Fam Comun. 2020;30;15(42):2066-. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5712/rbmfc15(42)2066">https://doi.org/10.5712/rbmfc15(42)2066</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Carvalho</surname>
+							<given-names>VKA</given-names>
+						</name>
+						<name>
+							<surname>Godoi</surname>
+							<given-names>DF</given-names>
+						</name>
+						<name>
+							<surname>Perini</surname>
+							<given-names>FB</given-names>
+						</name>
+						<name>
+							<surname>Vidor</surname>
+							<given-names>AC</given-names>
+						</name>
+					</person-group>
+					<article-title>Cuidado compartilhado de pessoas vivendo com HIV/AIDS na Atenção Primária: resultados da descentralização em Florianópolis</article-title>
+					<source>Rev Bras Med Fam Comun</source>
+					<year>2020</year>
+					<comment>30</comment>
+					<volume>15</volume>
+					<issue>42</issue>
+					<fpage>2066</fpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5712/rbmfc15(42)2066">https://doi.org/10.5712/rbmfc15(42)2066</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. Daumas RP, Silva GA, Tasca R, Leite IC, Brasil P, Greco DB, et al. The role of primary care in the Brazilian healthcare system: limits and possibilities for fighting COVID-19. Cad Saude Publica. 2020;36(6):e00104120. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0102-311X00104120">https://doi.org/10.1590/0102-311X00104120</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Daumas</surname>
+							<given-names>RP</given-names>
+						</name>
+						<name>
+							<surname>Silva</surname>
+							<given-names>GA</given-names>
+						</name>
+						<name>
+							<surname>Tasca</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Leite</surname>
+							<given-names>IC</given-names>
+						</name>
+						<name>
+							<surname>Brasil</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Greco</surname>
+							<given-names>DB</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>The role of primary care in the Brazilian healthcare system: limits and possibilities for fighting COVID-19</article-title>
+					<source>Cad Saude Publica</source>
+					<year>2020</year>
+					<volume>36</volume>
+					<issue>6</issue>
+					<elocation-id>e00104120</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0102-311X00104120">https://doi.org/10.1590/0102-311X00104120</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. Aquino EML, Silveira IH, Pescarini JM, Aquino R, Souza-Filho JA. Social distancing measures to control the COVID-19 pandemic: potential impacts and challenges in Brazil. Cienc Saude Coletiva. 2020;25 Suppl 1:2423-46. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1413-81232020256.1.10502020">https://doi.org/10.1590/1413-81232020256.1.10502020</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Aquino</surname>
+							<given-names>EML</given-names>
+						</name>
+						<name>
+							<surname>Silveira</surname>
+							<given-names>IH</given-names>
+						</name>
+						<name>
+							<surname>Pescarini</surname>
+							<given-names>JM</given-names>
+						</name>
+						<name>
+							<surname>Aquino</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Souza-Filho</surname>
+							<given-names>JA</given-names>
+						</name>
+					</person-group>
+					<article-title>Social distancing measures to control the COVID-19 pandemic: potential impacts and challenges in Brazil</article-title>
+					<source>Cienc Saude Coletiva</source>
+					<year>2020</year>
+					<volume>25</volume>
+					<supplement>Suppl 1</supplement>
+					<fpage>2423</fpage>
+					<lpage>2446</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1413-81232020256.1.10502020">https://doi.org/10.1590/1413-81232020256.1.10502020</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. Trickey A, Stone J, Semchuk N, Saliuk T, Sazonova Y, Varetska O, et al. Is contact between men who have sex with men and non‐governmental organizations providing harm reduction associated with improved HIV outcomes? HIV Med. 2020;22(4):262-72. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/hiv.13010">https://doi.org/10.1111/hiv.13010</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Trickey</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Stone</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Semchuk</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Saliuk</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Sazonova</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Varetska</surname>
+							<given-names>O</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Is contact between men who have sex with men and non‐governmental organizations providing harm reduction associated with improved HIV outcomes?</article-title>
+					<source>HIV Med</source>
+					<year>2020</year>
+					<volume>22</volume>
+					<issue>4</issue>
+					<fpage>262</fpage>
+					<lpage>272</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/hiv.13010">https://doi.org/10.1111/hiv.13010</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Shamu S, Slabbert J, Guloba G, Blom D, Khupakonke S, Masihleho N, et al. Linkage to care of HIV positive clients in a community based HIV counselling and testing programme: a success story of non-governmental organisations in a South African district. PloS One. 2019;14(1):e0210826. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0210826">https://doi.org/10.1371/journal.pone.0210826</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Shamu</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Slabbert</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Guloba</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Blom</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Khupakonke</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Masihleho</surname>
+							<given-names>N</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Linkage to care of HIV positive clients in a community based HIV counselling and testing programme: a success story of non-governmental organisations in a South African district</article-title>
+					<source>PloS One</source>
+					<year>2019</year>
+					<volume>14</volume>
+					<issue>1</issue>
+					<elocation-id>e0210826</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0210826">https://doi.org/10.1371/journal.pone.0210826</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18. Geremia DS, Vendruscolo C, Celuppi IC, Adamy EK, Toso BRGO, Souza JB. 200 Years of Florence and the challenges of nursing practices management in the COVID-19 pandemic. Rev Lat Am Enfermagem. 2020;28:e3358. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1518-8345.4576.3358">https://doi.org/10.1590/1518-8345.4576.3358</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Geremia</surname>
+							<given-names>DS</given-names>
+						</name>
+						<name>
+							<surname>Vendruscolo</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Celuppi</surname>
+							<given-names>IC</given-names>
+						</name>
+						<name>
+							<surname>Adamy</surname>
+							<given-names>EK</given-names>
+						</name>
+						<name>
+							<surname>Toso</surname>
+							<given-names>BRGO</given-names>
+						</name>
+						<name>
+							<surname>Souza</surname>
+							<given-names>JB</given-names>
+						</name>
+					</person-group>
+					<article-title>200 Years of Florence and the challenges of nursing practices management in the COVID-19 pandemic</article-title>
+					<source>Rev Lat Am Enfermagem</source>
+					<year>2020</year>
+					<volume>28</volume>
+					<elocation-id>e3358</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1518-8345.4576.3358">https://doi.org/10.1590/1518-8345.4576.3358</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19. Shiau S, Krause KD, Valera P, Swaminathan S, Halkitis PN. The burden of COVID-19 in people living with HIV: a syndemic perspective. AIDS Behav. 2020;24(8):2244-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s10461-020-02871-9">https://doi.org/10.1007/s10461-020-02871-9</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Shiau</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Krause</surname>
+							<given-names>KD</given-names>
+						</name>
+						<name>
+							<surname>Valera</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Swaminathan</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Halkitis</surname>
+							<given-names>PN</given-names>
+						</name>
+					</person-group>
+					<article-title>The burden of COVID-19 in people living with HIV: a syndemic perspective</article-title>
+					<source>AIDS Behav</source>
+					<year>2020</year>
+					<volume>24</volume>
+					<issue>8</issue>
+					<fpage>2244</fpage>
+					<lpage>2249</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s10461-020-02871-9">https://doi.org/10.1007/s10461-020-02871-9</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20. Loch AP, Caraciolo JMM, Rocha SQ, Fonsi M, Souza RD, Gianna MC, et al. An intervention for the implementation of clinical monitoring in specialized care services to people living with HIV/AIDS. Cad Saude Publica. 2020;36(5):e00136219. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0102-311X00136219">https://doi.org/10.1590/0102-311X00136219</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Loch</surname>
+							<given-names>AP</given-names>
+						</name>
+						<name>
+							<surname>Caraciolo</surname>
+							<given-names>JMM</given-names>
+						</name>
+						<name>
+							<surname>Rocha</surname>
+							<given-names>SQ</given-names>
+						</name>
+						<name>
+							<surname>Fonsi</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Souza</surname>
+							<given-names>RD</given-names>
+						</name>
+						<name>
+							<surname>Gianna</surname>
+							<given-names>MC</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>An intervention for the implementation of clinical monitoring in specialized care services to people living with HIV/AIDS</article-title>
+					<source>Cad Saude Publica</source>
+					<year>2020</year>
+					<volume>36</volume>
+					<issue>5</issue>
+					<elocation-id>e00136219</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0102-311X00136219">https://doi.org/10.1590/0102-311X00136219</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>21. Celuppi IC, Lima GD, Rossi E, Wazlawick RS, Dalmarco EM. An analysis of the development of digital health technologies to fight COVID-19 in Brazil and the world. Cad Saude Publica. 2021;37(3):e00243220. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0102-311X00243220">https://doi.org/10.1590/0102-311X00243220</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Celuppi</surname>
+							<given-names>IC</given-names>
+						</name>
+						<name>
+							<surname>Lima</surname>
+							<given-names>GD</given-names>
+						</name>
+						<name>
+							<surname>Rossi</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Wazlawick</surname>
+							<given-names>RS</given-names>
+						</name>
+						<name>
+							<surname>Dalmarco</surname>
+							<given-names>EM</given-names>
+						</name>
+					</person-group>
+					<article-title>An analysis of the development of digital health technologies to fight COVID-19 in Brazil and the world</article-title>
+					<source>Cad Saude Publica</source>
+					<year>2021</year>
+					<volume>37</volume>
+					<issue>3</issue>
+					<elocation-id>e00243220</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0102-311X00243220">https://doi.org/10.1590/0102-311X00243220</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>22. Catapan SD, Calvo MC. Teleconsultation: an integrative review of the doctor-patient interaction mediated by technology. Rev Bras Educ Med. 2020;44(1):e002. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1981-5271v44.1-20190224.ing">https://doi.org/10.1590/1981-5271v44.1-20190224.ing</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Catapan</surname>
+							<given-names>SD</given-names>
+						</name>
+						<name>
+							<surname>Calvo</surname>
+							<given-names>MC</given-names>
+						</name>
+					</person-group>
+					<article-title>Teleconsultation: an integrative review of the doctor-patient interaction mediated by technology</article-title>
+					<source>Rev Bras Educ Med</source>
+					<year>2020</year>
+					<volume>44</volume>
+					<issue>1</issue>
+					<elocation-id>e002</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1981-5271v44.1-20190224.ing">https://doi.org/10.1590/1981-5271v44.1-20190224.ing</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>23. Greenhalgh T, Koh GCH, Car J. Covid-19: a remote assessment in primary care. BMJ. 2020;368:m1182. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/bmj.m1182">https://doi.org/10.1136/bmj.m1182</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Greenhalgh</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Koh</surname>
+							<given-names>GCH</given-names>
+						</name>
+						<name>
+							<surname>Car</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>Covid-19: a remote assessment in primary care</article-title>
+					<source>BMJ</source>
+					<year>2020</year>
+					<volume>368</volume>
+					<fpage>m1182</fpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/bmj.m1182">https://doi.org/10.1136/bmj.m1182</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>24. Conselho Federal de Enfermagem. Resolução Nº 634/2020. Autoriza e normatiza, “ad referendum” do Plenário do Cofen, a teleconsulta de enfermagem como forma de combate à pandemia provocada pelo novo coronavírus (Sars-Cov-2), mediante consultas, esclarecimentos, encaminhamentos e orientações com uso de meios tecnológicos, e dá outras providências. Brasília, DF: Cofen; 2020 [cited 2020 Apr 13]. Available from: <ext-link ext-link-type="uri" xlink:href="http://www.cofen.gov.br/resolucao-cofen-no-0634-2020_78344.html">http://www.cofen.gov.br/resolucao-cofen-no-0634-2020_78344.html</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>Conselho Federal de Enfermagem</collab>
+					</person-group>
+					<source>Resolução Nº 634/2020. Autoriza e normatiza, “ad referendum” do Plenário do Cofen, a teleconsulta de enfermagem como forma de combate à pandemia provocada pelo novo coronavírus (Sars-Cov-2), mediante consultas, esclarecimentos, encaminhamentos e orientações com uso de meios tecnológicos, e dá outras providências</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<publisher-name>Cofen</publisher-name>
+					<year>2020</year>
+					<date-in-citation content-type="cited-date">cited 2020 Apr 13</date-in-citation>
+					<ext-link ext-link-type="uri" xlink:href="http://www.cofen.gov.br/resolucao-cofen-no-0634-2020_78344.html">http://www.cofen.gov.br/resolucao-cofen-no-0634-2020_78344.html</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>25. Secretaria Municipal de Saúde de Florianópolis, Comissão Permanente de Sistematização da Assistência de Enfermagem. Guia de orientação para teleconsulta em enfermagem. Florianópolis, SC; 2020 [cited 2020 Apr 13]. Available from: <ext-link ext-link-type="uri" xlink:href="https://redeaps.org.br/wp-content/uploads/2020/04/Guia-de-orientac%CC%A7a%CC%83o-para-Teleconsulta-em-Enfermagem-versa%CC%83o-17.04.2020.pdf">https://redeaps.org.br/wp-content/uploads/2020/04/Guia-de-orientac%CC%A7a%CC%83o-para-Teleconsulta-em-Enfermagem-versa%CC%83o-17.04.2020.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>Secretaria Municipal de Saúde de Florianópolis</collab>
+						<collab>Comissão Permanente de Sistematização da Assistência de Enfermagem</collab>
+					</person-group>
+					<source>Guia de orientação para teleconsulta em enfermagem</source>
+					<publisher-loc>Florianópolis, SC</publisher-loc>
+					<year>2020</year>
+					<date-in-citation content-type="cited-date">cited 2020 Apr 13</date-in-citation>
+					<ext-link ext-link-type="uri" xlink:href="https://redeaps.org.br/wp-content/uploads/2020/04/Guia-de-orientac%CC%A7a%CC%83o-para-Teleconsulta-em-Enfermagem-versa%CC%83o-17.04.2020.pdf">https://redeaps.org.br/wp-content/uploads/2020/04/Guia-de-orientac%CC%A7a%CC%83o-para-Teleconsulta-em-Enfermagem-versa%CC%83o-17.04.2020.pdf</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation>26. Paula AC, Maldonado JMSV, Gadelha CAG. Healthcare telemonitoring and business dynamics: challenges and opportunities for SUS. Rev Saude Publica. 2020;54:65. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.11606/s1518-8787.2020054001996">https://doi.org/10.11606/s1518-8787.2020054001996</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Paula</surname>
+							<given-names>AC</given-names>
+						</name>
+						<name>
+							<surname>Maldonado</surname>
+							<given-names>JMSV</given-names>
+						</name>
+						<name>
+							<surname>Gadelha</surname>
+							<given-names>CAG</given-names>
+						</name>
+					</person-group>
+					<article-title>Healthcare telemonitoring and business dynamics: challenges and opportunities for SUS</article-title>
+					<source>Rev Saude Publica</source>
+					<year>2020</year>
+					<volume>54</volume>
+					<fpage>65</fpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.11606/s1518-8787.2020054001996">https://doi.org/10.11606/s1518-8787.2020054001996</ext-link>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="other" id="fna">
+				<label>a</label>
+				<p>Acronym for AIDS Prevention Support Group, in Portuguese <italic>Grupo de Apoio à Prevenção da Aids</italic>.</p>
+			</fn>
+		</fn-group>
+		<fn-group>
+			<fn fn-type="financial-disclosure">
+				<p><bold>Funding:</bold> OAcademic Excellence Program (PROEX). Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (Capes – Funding Code 001) Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq – Process 134112/2019-9). Postgraduate Program UNIEDU/FUMDES - doctoral scholarship.</p>
+			</fn>
+		</fn-group>
+	</back>
+	<sub-article article-type="translation" id="TRpt" xml:lang="pt">
+		<front-stub>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artigo Original</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Gestão no cuidado às pessoas com HIV na Atenção Primária à Saúde em tempos do novo coronavírus</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-2518-6644</contrib-id>
+					<name>
+						<surname>Celuppi</surname>
+						<given-names>Ianka Cristina</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-1940-1608</contrib-id>
+					<name>
+						<surname>Meirelles</surname>
+						<given-names>Betina Hörner Schlindwein</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-5935-8849</contrib-id>
+					<name>
+						<surname>Lanzoni</surname>
+						<given-names>Gabriela Marcellino de Melo</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-2259-7429</contrib-id>
+					<name>
+						<surname>Geremia</surname>
+						<given-names>Daniela Savi</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2002"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-7833-0438</contrib-id>
+					<name>
+						<surname>Metelski</surname>
+						<given-names>Fernanda Karla</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff3002"><sup>III</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1002">
+				<label>I</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Universidade Federal de Santa Catarina. Centro de Ciências da Saúde. Programa de Pós-Graduação em Enfermagem. Florianópolis, SC, Brasil</institution>
+			</aff>
+			<aff id="aff2002">
+				<label>II</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Universidade Federal da Fronteira Sul. Faculdade de Enfermagem. Chapecó, SC, Brasil</institution>
+			</aff>
+			<aff id="aff3002">
+				<label>III</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Universidade do Estado de Santa Catarina. Centro de Educação Superior do Oeste. Departamento de Enfermagem. Chapecó, SC, Brasil</institution>
+			</aff>
+			<author-notes>
+				<corresp id="c01002"> Correspondência: Ianka Cristina Celuppi Campus Reitor João David Ferreira Lima Rua Delfino Conti, s/n – Bairro Trindade 88040-900 Florianópolis, SC, Brasil E-mail: iankacristinaceluppi@gmail.com </corresp>
+				<fn fn-type="con">
+					<p><bold>Contribuição dos Autores:</bold> Concepção e planejamento do estudo: ICC, BHSM. Coleta, análise e interpretação dos dados: ICC, BHSM, GMML, DSG, FKM. Elaboração ou revisão do manuscrito: ICC, BHSM, GMML, DSG, FKM. Aprovação da versão final: ICC, BHSM, GMML, DSG, FKM. Responsabilidade pública pelo conteúdo do artigo: ICC, BHSM, GMML, DSG, FKM.</p>
+				</fn>
+				<fn fn-type="conflict">
+					<p><bold>Conflito de Interesses:</bold> Os autores declaram não haver conflito de interesses.</p>
+				</fn>
+			</author-notes>
+			<abstract>
+				<title>RESUMO</title>
+				<sec>
+					<title>OBJETIVO</title>
+					<p> Compreender as práticas de gestão no cuidado às pessoas que vivem com o vírus da imunodeficiência humana (HIV) na Atenção Primária à Saúde de uma capital brasileira, em tempos de pandemia do novo coronavírus (covid-19).</p>
+				</sec>
+				<sec>
+					<title>MÉTODO</title>
+					<p> Trata-se de uma pesquisa qualitativa, ancorada no referencial metodológico-analítico da teoria fundamentada nos dados, vertente construtivista. Os dados foram coletados por entrevistas intensivas online, com enfermeiros de centros de saúde e gestores da secretaria municipal. A coleta e análise dos dados ocorreram de maneira concomitante, em duas fases de análise: a codificação inicial e focalizada.</p>
+				</sec>
+				<sec>
+					<title>RESULTADOS</title>
+					<p> Apontam para o desenvolvimento das melhores práticas de cuidado, com destaque para iniciativas de coordenação do cuidado, descentralização do manejo clínico para os serviços de APS, instituição de protocolos e fluxos, pactuação de parcerias intersetoriais, utilização de grupos e redes sociais, uso de ferramentas como a teleconsulta e planilha de vigilância em saúde e formação de redes de apoio.</p>
+				</sec>
+				<sec>
+					<title>CONCLUSÃO</title>
+					<p> A capital brasileira reestruturou sua rede de serviços de saúde com a implementação de protocolos clínicos e gerenciais, buscando manter a continuidade do cuidado às pessoas que vivem com o HIV. Destacou-se a incorporação de tecnologias de cuidado não presencial e a facilitação de rotinas, como estratégias para ampliação do acesso.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="pt">
+				<kwd>HIV</kwd>
+				<kwd>Sobreviventes de Longo Prazo ao HIV</kwd>
+				<kwd>Continuidade da Assistência ao Paciente</kwd>
+				<kwd>COVID-19</kwd>
+				<kwd>Pesquisa Qualitativa</kwd>
+			</kwd-group>
+		</front-stub>
+		<body>
+			<sec sec-type="intro">
+				<title>INTRODUÇÃO</title>
+				<p>A pandemia da doença do novo coronavírus (covid-19), causada pelo vírus SARS-CoV-2, tem ocasionado morbidade e mortalidade significativas em todo o mundo<sup><xref ref-type="bibr" rid="B1">1</xref>,<xref ref-type="bibr" rid="B2">2</xref></sup>. Diante desse cenário, tem-se fomentado discussões sobre as formas de organização e adaptação dos serviços de saúde frente às novas demandas que emergiram com a pandemia, buscando desenvolver ferramentas e estratégias para cumprir com as diretrizes e princípios do Sistema Único de Saúde (SUS). A atenção primária à saúde (APS) é a porta de entrada prioritária para o SUS, de modo a ordenar e coordenar a rede de atenção à saúde (RAS) e, por isso, desempenha papel fundamental no enfrentamento à pandemia de covid-19<sup><xref ref-type="bibr" rid="B3">3</xref></sup>.</p>
+				<p>Destacam-se alguns eixos de atuação da APS nesse contexto, como a vigilância em saúde nos territórios, atenção aos usuários suspeitos ou casos confirmados de covid-19 sem gravidade, suporte social a grupos vulneráveis e continuidade do cuidado direcionado a grupos de prioridade para esse nível de atenção à saúde. Desse modo, o modelo brasileiro centrado na estratégia de saúde da família (ESF) com enfoque territorial, já apresenta impactos positivos na saúde da população e torna-se promissor enquanto estratégia para abordagem comunitária, necessária ao enfrentamento de qualquer pandemia<sup><xref ref-type="bibr" rid="B4">4</xref></sup>.</p>
+				<p>Acredita-se que a pandemia de covid-19 e as ações tomadas em resposta, terão consequências de longo alcance em outras doenças<sup><xref ref-type="bibr" rid="B5">5</xref></sup>. Os impactos no cuidado a outros agravos estão diretamente relacionados às interrupções nas atividades e serviços usuais para o atendimento da demanda de covid-19<sup><xref ref-type="bibr" rid="B6">6</xref>,<xref ref-type="bibr" rid="B7">7</xref></sup>.</p>
+				<p>Estudos evidenciam que as comorbidades associadas às condições crônicas são fatores determinantes para a mortalidade por covid-19, o que alerta sobre a necessidade de maior cuidado e precaução com relação às pessoas que vivem com HIV (PVHIV)<sup><xref ref-type="bibr" rid="B8">8</xref>,<xref ref-type="bibr" rid="B9">9</xref></sup>, que têm maior necessidade de distanciamento social devido sua condição de imunodeficiência. Estima-se que em locais com altas cargas de HIV, as interrupções do cuidado durante a pandemia de covid-19 possam causar um aumento de óbitos por HIV de até 10%<sup><xref ref-type="bibr" rid="B7">7</xref></sup>.</p>
+				<p>Tal cenário enfatiza a importância da atenção à multimorbidade das PVHIV, bem como garantir o fornecimento de tratamento antirretroviral (TARV), sem prejuízos à adesão e ao acompanhamento clínico<sup><xref ref-type="bibr" rid="B9">9</xref></sup>. No entanto, embora instituições internacionais e órgãos governamentais já venham demonstrando preocupação com a epidemia de HIV ao longo dos anos, a pandemia de covid-19 apresenta inúmeras barreiras e desafios à continuidade do cuidado<sup><xref ref-type="bibr" rid="B10">10</xref></sup>.</p>
+				<p>Pensando nisso, elegeu-se a seguinte questão como norteadora do estudo: Como são realizadas as práticas de gestão no cuidado às PVHIV em tempos de pandemia de covid-19? Este estudo propõe compreender um fenômeno emergente e impactante na saúde pública mundial, a pandemia de covid-19, com foco nas melhores práticas de cuidado à saúde das PVHIV, uma população considerada prioritária pelas políticas de saúde. Entende-se por melhores práticas aquelas que apresentam os melhores resultados, sendo ferramentas úteis para a disseminação de inovações no cuidado<sup><xref ref-type="bibr" rid="B11">11</xref></sup>.</p>
+				<p>Assim, o estudo teve como objetivo compreender as práticas de gestão no cuidado às PVHIV na APS de uma capital brasileira em tempos de pandemia de covid-19.</p>
+			</sec>
+			<sec sec-type="methods">
+				<title>MÉTODOS</title>
+				<p>Trata-se de uma pesquisa exploratória de natureza qualitativa, ancorada no referencial metodológico-analítico da Teoria Fundamentada nos Dados (TFD), na vertente construtivista, idealizada por Kathy Charmaz<sup><xref ref-type="bibr" rid="B12">12</xref></sup>.</p>
+				<p>O estudo foi realizado em Florianópolis, considerada a capital com maior desempenho no programa nacional de melhoria do acesso e da qualidade da atenção básica (PMAQ), maior porcentagem de cobertura de ESF e oferta cuidado compartilhado e descentralizado na APS às PVHIV, uma referência nacional na gestão e prestação de serviços de APS<sup><xref ref-type="bibr" rid="B13">13</xref></sup>.</p>
+				<p>A coleta de dados ocorreu no período de julho a setembro de 2020, entrevistando inicialmente profissionais enfermeiros de quatro centros de saúde da APS e subsequentemente gestores nos setores de atenção especializada, gestão da clínica, integração assistencial e vigilância epidemiológica da Secretaria Municipal de Saúde (SMS). Conforme preconiza a TFD, optou-se pela seleção inicial de enfermeiros em razão das diferentes competências assumidas por esses profissionais no cuidado em saúde, considerados uma liderança para gestão do trabalho da equipe multidisciplinar.</p>
+				<p>Os participantes que compuseram a amostragem inicial foram selecionados intencionalmente, considerando os seguintes critérios de inclusão: atuar como enfermeiro assistencial, coordenador ou residente na APS, bem como possuir experiência na gestão do cuidado às PVHIV de no mínimo seis meses em relação à data de coleta de dados.</p>
+				<p>O convite para integrar a pesquisa foi realizado via e-mail e/ou por telefone. O termo de consentimento livre e esclarecido foi enviado virtualmente aos participantes e autorizado por meio do <italic>Google Forms</italic><sup></sup>, sendo uma via arquivada com a pesquisadora.</p>
+				<p>As entrevistas intensivas aconteceram no formato não presencial devido à pandemia de covid-19, por chamada de vídeo, utilizando o sistema de comunicação <italic>Google Meet</italic><sup></sup>. O primeiro grupo amostral teve como pergunta inicial: Fale-me sobre as práticas de cuidado direcionadas às PVHIV em tempos de pandemia de covid-19. Esse grupo foi composto por 12 enfermeiros.</p>
+				<p>A partir da análise das entrevistas do primeiro grupo amostral, emergiu a hipótese de que as práticas de cuidado às PVHIV durante a pandemia de covid-19 estavam relacionadas com a descentralização do manejo clínico para APS, reestruturação dos serviços e instituição de protocolos e guias de evidências científicas.</p>
+				<p>Diante disso, identificou-se a necessidade de constituir o segundo grupo amostral com gestores da SMS de Florianópolis. O objetivo das entrevistas foi explorar aspectos relacionados à instituição de protocolos de manejo clínico direcionados ao HIV, bem como mecanismos de adequação dos serviços de saúde para o cenário de pandemia de covid-19 com base no questionamento: Fale-me sobre a gestão do cuidado às PVHA em tempos de pandemia. Assim, o critério de inclusão para esse segundo grupo foi atuar em cargos de gestão na SMS de Florianópolis há mais de seis meses em relação à data de coleta de dados.</p>
+				<p>Como critério de exclusão, para os dois grupos amostrais, se considerou os profissionais que estivessem afastados do trabalho durante o período de coleta de dados, independentemente do motivo. Ao final das entrevistas do segundo grupo amostral, alcançou-se a saturação dos dados com cinco gestores e informações para sustentar o fenômeno investigado, totalizando 17 participantes.</p>
+				<p>Os dados foram coletados pelas pesquisadoras por entrevistas gravadas em áudio, que foram transcritas para o <italic>Word</italic><sup></sup> e organizadas para análise no <italic>software NVIVO10</italic><sup>®</sup>. O tempo médio de duração de cada entrevista foi de 29 minutos. Para garantir o anonimato dos participantes, as falas foram identificadas por códigos. Para obtenção dos dados de modo a assegurar a qualidade e confiabilidade do estudo, seguiu-se os princípios do <italic>consolidated criteria for reporting qualitative research</italic> (COREQ).</p>
+				<p>A análise concomitante dos dados, segundo as orientações da teoria fundamentada nos dados construtivista, foi realizada em duas fases. Na primeira, foi realizada a codificação inicial, na qual os incidentes foram codificados com o intuito de compreender as informações a partir dos significados e das experiências dos participantes, constituindo as primeiras dimensões da experiência analisada. Na segunda fase ocorreu a codificação focalizada, na qual os códigos de maior expressividade foram agrupados, de modo a formar categorias abstratas para sintetizar determinado fragmento de dados<sup><xref ref-type="bibr" rid="B12">12</xref></sup>. Foram elaborados memorandos e diagramas para auxiliar o desenvolvimento analítico dos dados, levando ao desvelamento do fenômeno.</p>
+				<p>Esta pesquisa respeitou os preceitos éticos de pesquisa com seres humanos, segundo as Resoluções nº 466/2012 e suas complementares e, inclusive os novos procedimentos para a realização de pesquisas em ambiente virtual, de acordo com o Ofício Circular nº 02/2021.</p>
+			</sec>
+			<sec sec-type="results">
+				<title>RESULTADOS</title>
+				<p>O <xref ref-type="table" rid="t1002">Quadro</xref> apresenta as categorias e subcategorias que emergiram durante o processo de análise e que, inter-relacionadas, sustentam o fenômeno de estudo.</p>
+				<p>
+					<table-wrap id="t1002">
+						<label>Quadro</label>
+						<caption>
+							<title>Representação do fenômeno, categoria e subcategorias da pesquisa.</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th colspan="2">Desvelando as melhores práticas de gestão no cuidado às pessoas que vivem com HIV relacionadas com o cuidado descentralizado, compartilhado e baseado em evidências</th>
+								</tr>
+								<tr>
+									<th>Categoria</th>
+									<th>Subcategorias</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td rowspan="12">Desenvolvendo melhores práticas de cuidado às PVHIV frente à pandemia de covid-19</td>
+									<td>Priorizando o atendimento das pessoas que vivem com HIV.</td>
+								</tr>
+								<tr>
+									<td>Facilitando as rotinas de exames (CD4, carga viral) e tratamento antirretroviral.</td>
+								</tr>
+								<tr>
+									<td>Partilhando o cuidado das pessoas que vivem com HIV entre a equipe de saúde.</td>
+								</tr>
+								<tr>
+									<td>Incentivando o distanciamento social das pessoas imunodeprimidas em tempos de pandemia.</td>
+								</tr>
+								<tr>
+									<td>Fortalecendo o vínculo com as pessoas que vivem com HIV via grupos e redes sociais.</td>
+								</tr>
+								<tr>
+									<td>Pactuando estratégias/iniciativas de cuidado intersetoriais.</td>
+								</tr>
+								<tr>
+									<td>Acompanhando as pessoas que vivem com HIV pela planilha de vigilância em saúde.</td>
+								</tr>
+								<tr>
+									<td>Identificando a diminuição de rastreamento de novos casos em tempos de pandemia.</td>
+								</tr>
+								<tr>
+									<td>Aprendendo a utilizar ferramentas para o manejo clínico não presencial.</td>
+								</tr>
+								<tr>
+									<td>Estabelecendo critérios de elegibilidade para consulta presencial e teleconsulta.</td>
+								</tr>
+								<tr>
+									<td>Facilitando o acesso aos serviços de APS com teleconsulta e acolhimento via plataformas digitais.</td>
+								</tr>
+								<tr>
+									<td>Utilizando protocolo para orientação do manejo clínico em teleconsulta.</td>
+								</tr>
+							</tbody>
+						</table>
+					</table-wrap>
+				</p>
+				<disp-quote>
+					<p><italic>Desvelando as melhores práticas de gestão no cuidado às pessoas que vivem com HIV.</italic></p>
+				</disp-quote>
+				<p>Destacou-se a priorização e preocupação com a oferta de cuidados e acompanhamento das PVHIV.</p>
+				<disp-quote>
+					<p><italic>Atendimento priorizado! A gente tem uma comunicação interna</italic> […] <italic>que prevê o atendimento como prioridade a pacientes com doenças crônicas, infectocontagiosas e com demandas de urgência</italic>. (G1E03)</p>
+				</disp-quote>
+				<p>Os serviços também adotaram a prática de enviar solicitações de exames e receituários via celular, o que facilita o acesso e a continuidade do cuidado em um cenário de orientação para o distanciamento social.</p>
+				<disp-quote>
+					<p><italic>As renovações de receitas estão sendo feitas todas por teleconsulta em WhatsApp.</italic> (G1E03)</p>
+					<p><italic>Uma coisa que a gente fez é renovar receita de forma facilitada. Então, não é a cada renovação que o paciente precisa consultar. A gente tenta fazer a receita para mais tempo quando ele está estável. Às vezes a gente já vê que está no momento de fazer a carga viral ou CD4 e a gente já deixa o pedido junto</italic> […] <italic>e a consulta vai ser depois, quando ele tiver o resultado do exame.</italic> (G1E04)</p>
+				</disp-quote>
+				<p>Com a descentralização do cuidado às PVHIV para a APS houve um consequente compartilhamento do cuidado entre a equipe de saúde, com divisão de responsabilidades e atribuições, inclusive em tempos de pandemia.</p>
+				<disp-quote>
+					<p><italic>A partir do momento que o paciente entrou em contato com a equipe, a gente segue dando esse acompanhamento, esse cuidado, que é geralmente mensal.</italic> (G1E01)</p>
+					<p><italic>Essa gestão do cuidado é feita compartilhada com a equipe, nós médicos e enfermeiros, a gente trabalha muito juntos. A gente fala que tem um trabalho ombro a ombro.</italic> (G1E04)</p>
+				</disp-quote>
+				<p>Os profissionais também enfatizaram a importância do distanciamento social para os pacientes imunodeprimidos, como as PVHIV.</p>
+				<disp-quote>
+					<p><italic>O que mudou é a entrada na unidade. A gente tem um processo de trabalho todo organizado para que as pessoas venham o mínimo possível na unidade.</italic> (G1E03)</p>
+					<p><italic>A unidade se tornou um ambiente hostil para eles</italic> [as PVHIV]<italic>. Então, eles não queriam vir, e isso foi bom porque a gente também não queria que eles viessem.</italic> (G1E04)</p>
+				</disp-quote>
+				<p>Também foram evidenciadas iniciativas relacionadas à ampliação do acesso e criação de vínculo com as PVHIV. Os participantes sinalizam as diferentes abordagens de comunicação, dentre elas se destacam os grupos e redes sociais.</p>
+				<disp-quote>
+					<p><italic>Até no Instagram tem grupo de PREP, de PEP, e sempre estão dando informações aos pacientes que são da nossa rede.</italic> (G1E02)</p>
+					<p><italic>Tem um manual de uso das redes sociais com os pacientes e a gente recebeu o celular por equipe.</italic> (G1E03)</p>
+				</disp-quote>
+				<p>Pensando na continuidade do cuidado e adesão ao tratamento das PVHIV foi instituída uma rede de apoio com Organizações não Governamentais (ONG) para que as pessoas que não conseguissem retirar o TARV na Central de Dispensação pudessem recebê-los em casa ou no Centro de Saúde mais próximo. Foi divulgado o telefone de quatro Centros de Testagem e Resposta Rápida (CTRR) para que os usuários pudessem comunicar suas dificuldades em relação ao tratamento e solicitar ajuda a essa rede de apoio.</p>
+				<disp-quote>
+					<p><italic>Em toda a rede tem a articulação com o Gapa</italic><sup><xref ref-type="fn" rid="fna002">a</xref></sup> <italic>que faz o recebimento dos medicamentos para as pessoas que não podem ir buscar devido à questão de falta de deslocamento e questões financeiras.</italic> (G2G02)</p>
+					<p><italic>Uma das coisas que a gente fez foi auxiliar na retirada da TARV, que ficou impossível para algumas pessoas quando não tinha transporte coletivo. Então, eu peguei três lideranças de ONG, fiz uma reunião com eles e falei “pessoal vocês vão ter que ajudar a captar os nomes e a gente ajuda na distribuição”.</italic> (G2G01)</p>
+					<p><italic>A gente divulgou muito por meio do Conselho local de saúde, dos líderes comunitários, Associação de Moradores.</italic> (G1E04)</p>
+				</disp-quote>
+				<p>O monitoramento das PVHIV foi facilitado pelo uso de instrumentos de gestão, como planilhas de vigilância. Esse instrumento recebeu destaque ao possibilitar a visualização de todas as PVHIV no território, bem como sua situação de adesão ao tratamento, medicação, realização de exames, consultas, dentre outros.</p>
+				<disp-quote>
+					<p><italic>A gente está muito mais de olho na planilha de vigilância, porque ali que a gente vai acompanhar esses pacientes.</italic> (G1E04)</p>
+					<p><italic>Na planilha de monitoramento tem o nome, data de nascimento, data do diagnóstico, data de quando começou a utilizar antirretrovirais, data do último CD4 e resultado, data da última carga viral e resultado.</italic> (G1E10)</p>
+				</disp-quote>
+				<p>Com a priorização dos atendimentos presenciais para manejo de sintomáticos respiratórios, os profissionais identificaram uma diminuição do rastreamento de novos casos de HIV, o que é resultante da diminuição das consultas de rotina para a população sem agravos, que não foram priorizadas devido à escassez de recursos humanos.</p>
+				<disp-quote>
+					<p><italic>O que tem acontecido é que os nossos rastreamentos têm diminuído nesse momento. Então, eu tenho um paciente que não tem sintoma e que me procura para fazer o check-up: caso ele não tenha nenhuma situação de risco, ele está sendo orientado a aguardar um pouco mais. Eu tenho analisado que os nossos diagnósticos de HIV na pandemia tem sido bem poucos. Se a gente não faz sorologia, a gente vai deixar de fazer diagnóstico e vai deixar as pessoas com HIV sem saber que tem.</italic> (G1E04)</p>
+				</disp-quote>
+				<p>Ainda, foram incorporadas novas maneiras de acesso à população, como o acolhimento de demandas via <italic>WhatsApp</italic><sup>Ⓡ</sup> , e-mail, ligação telefônica e chamada de vídeo. Desse modo, os profissionais precisaram se apoderar das maneiras de uso e funcionalidades dessas tecnologias e se adaptar ao novo modelo de cuidado imposto pela pandemia.</p>
+				<disp-quote>
+					<p><italic>É um desafio fazer</italic> [teleconsulta] <italic>e ter gente habilitada para fazer isso, porque não é só ter gente, às vezes eu tenho uma pessoa, mas ela não sabe escrever direito, tem dificuldade de entender.</italic> (G1E03)</p>
+				</disp-quote>
+				<p>Com isso, foi instituída a prática da teleconsulta para os cuidados de rotina sem gravidade e que em primeiro momento não necessitavam de exame físico. Em situações que se necessitava um acompanhamento presencial, os usuários eram orientados a comparecerem no centro de saúde para um atendimento agendado.</p>
+				<disp-quote>
+					<p><italic>A gente faz teleconsulta via WhatsApp, tanto por vídeo, áudio, mensagem, né? Em cada caso a gente avalia a melhor forma. E isso facilita muito porque as pessoas têm que evitar sair de casa. Às vezes, são questões pontuais de pacientes que a gente já acompanha. Então, têm como dar esse suporte via teleconsulta.</italic> (G1E01)</p>
+					<p><italic>Se há necessidade a gente pesa risco-benefício e faz avaliação presencial do paciente.</italic> (G1E07)</p>
+				</disp-quote>
+				<p>As diversas tecnologias incorporadas no processo de trabalho em saúde melhoraram o contato com as PVHIV de modo a ampliar seu acesso aos serviços, que anteriormente ocorriam na modalidade presencial. O uso de meios digitais para a realização de teleconsulta se mostra uma ferramenta promissora para os serviços de saúde.</p>
+				<disp-quote>
+					<p><italic>Eu acho que essas novas tecnologias vêm para agregar e facilitar o acesso, muitas vezes isso facilita e melhora o vínculo em alguns casos.</italic> (G1E08)</p>
+					<p><italic>A gente tem oferecido a teleconsulta como maneira de manutenção do acompanhamento no contexto da pandemia. Então, a teleconsulta é uma ferramenta que veio para somar nesse momento em que a nossa orientação é que a pessoa ficasse em casa.</italic> (G1E04)</p>
+				</disp-quote>
+				<p>Foi elaborado um protocolo que autoriza e normatiza a teleconsulta como forma de colaborar no atendimento aos usuários durante a pandemia de covid-19.</p>
+				<disp-quote>
+					<p><italic>Criaram o protocolo que fala quais procedimentos éticos a gente deve realizar, como realizar uma evolução padrão, todas as orientações. Então, esse protocolo veio para dar apoio porque no início a gente não conhecia e não sabia como iria ser uma consulta pelo telefone.</italic> (G1E05)</p>
+				</disp-quote>
+				<p>Pode-se compreender que os serviços de APS se reconfiguraram diante do cenário de pandemia, de modo a transformar o fluxo de trabalho, as práticas clínicas e gerenciais e incorporar novas tecnologias no processo de cuidado, garantindo continuidade da assistência às populações prioritárias para a APS. A descentralização de cuidados somada a maior autonomia dos profissionais, representam potencialidades para o desenvolvimento de melhores práticas de saúde.</p>
+				<p>A <xref ref-type="fig" rid="f01002">Figura</xref> sintetiza os significados atribuídos às melhores práticas de gestão no cuidado às PVHIV, e portanto, ilustra as iniciativas instituídas no cenário do estudo.</p>
+				<p>
+					<fig id="f01002">
+						<label>Figura</label>
+						<caption>
+							<title>Desenvolvendo melhores práticas de cuidado às PVHIV frente à pandemia de covid-19.</title>
+						</caption>
+						<graphic xlink:href="1518-8787-rsp-56-13-gf01-pt.tif"/>
+					</fig>
+				</p>
+			</sec>
+			<sec sec-type="discussion">
+				<title>DISCUSSÃO</title>
+				<p>Entende-se que as melhores práticas de cuidado às PVHIV identificadas neste estudo constituem “inovações no cuidado” e estão associadas a estratégias e ferramentas instituídas na APS de Florianópolis, com destaque para a instituição de mecanismos de comunicação e de acesso aos serviços, protocolos e guias de orientação para o manejo clínico, formação de parcerias intersetoriais e realização de monitoramento e gestão do cuidado remoto. Essas iniciativas fomentam a coordenação do cuidado às PVHIV, e reforçam importantes discussões sobre os atributos da APS enquanto norteadores da política de saúde no Brasil.</p>
+				<p>É imperativo à sustentabilidade do modelo de cuidado do SUS a reorganização dos serviços de APS em tempos de pandemia de covid-19, buscando atender simultaneamente à demanda de sintomáticos respiratórios e às ações regulares que já eram acompanhadas nesse nível de atenção à saúde<sup><xref ref-type="bibr" rid="B14">14</xref>,<xref ref-type="bibr" rid="B15">15</xref></sup>. Desse modo, têm-se implementado fluxos de cuidado para o manejo desses diferentes públicos, com distinção entre quadros leves, graves e não sintomáticos respiratórios<sup><xref ref-type="bibr" rid="B4">4</xref>,<xref ref-type="bibr" rid="B5">5</xref></sup>.</p>
+				<p>O distanciamento social deve ser incentivado por todos os profissionais da equipe, principalmente pelos agentes comunitários de saúde, que têm uma aproximação maior com a comunidade, mobilizando lideranças locais para a ampla divulgação de informações e realização de medidas necessárias ao contexto<sup><xref ref-type="bibr" rid="B4">4</xref></sup>. Logo, evidencia-se o importante papel do trabalho comunitário e intersetorial no apoio logístico e operacional de cuidado às PVHIV em tempos de pandemia.</p>
+				<p>No cenário do estudo, a realização de parcerias comunitárias e com ONG, como o Gapa, visou o transporte e distribuição de TARV, o que resultou no acesso ao tratamento de inúmeras pessoas que se encontraram impossibilitadas de retirá-lo. Estudos apontam resultados positivos dos trabalhos desenvolvidos por organizações não governamentais destinadas à prevenção, tratamento e acompanhamento das PVHIV, na qual se destacam melhorias na redução de danos, acesso a preservativos e à TARV, vinculação ao cuidado e acesso aos serviços de saúde<sup><xref ref-type="bibr" rid="B16">16</xref>,<xref ref-type="bibr" rid="B17">17</xref></sup>. A articulação de soluções frente a cenários adversos exige uma ação coordenada no território com as lideranças, equipamentos e instituições locais, destacando-se o engajamento comunitário e as ações intersetoriais como importantes estratégias de enfrentamento da sindemia de covid-19<sup><xref ref-type="bibr" rid="B18">18</xref></sup>.</p>
+				<p>O conceito de sindemia consiste na interação entre duas ou mais epidemias, que produzem um aumento da carga de doenças da população<sup><xref ref-type="bibr" rid="B19">19</xref></sup>. Ou seja, a pandemia de covid-19 junta-se à epidemia de HIV e cria outro problema de saúde para as PVHIV, como a diminuição do acesso aos serviços de saúde. Nesse caso, onde se orienta o distanciamento social e diminuição do fluxo de pessoas nos serviços de saúde, aponta-se como estratégia a gestão do cuidado não presencial, que pode ser realizada com planilhas contendo dados clínicos e compartilhadas entre a equipe de saúde, bem como o uso de ferramentas digitais de comunicação.</p>
+				<p>O uso de instrumentos de gestão se mostra oportuno para a manutenção da adesão ao tratamento, identificação de <italic>gaps</italic> e acompanhamento de exames de carga viral, CD4 e CD8. Contudo, destacam-se algumas dificuldades enfrentadas para o monitoramento clínico não presencial das PVHIV, como a desatualização das informações, déficit de recursos humanos e materiais, pouca comunicação entre os profissionais da equipe, opiniões divergentes quanto à importância do acompanhamento clínico e resistências às mudanças nos processos de trabalho<sup><xref ref-type="bibr" rid="B20">20</xref></sup>.</p>
+				<p>A pandemia de covid-19 fez emergir tecnologias de cuidado não presencial em saúde, como a teleconsulta, que viabiliza a oferta de cuidados pelo uso das tecnologias de informação e comunicação na área saúde<sup><xref ref-type="bibr" rid="B21">21</xref></sup>. A implementação da teleconsulta na APS em Florianópolis permitiu garantir acesso aos usuários que necessitavam dos serviços de saúde. Desse modo, pode ser considerada uma importante ferramenta de organização assistencial para o enfrentamento da pandemia.</p>
+				<p>Ressalta-se que a instituição da teleconsulta na APS deve ser realizada com base em protocolos que regulamentam o fluxo de trabalho e estabelecem diretrizes<sup><xref ref-type="bibr" rid="B23">23</xref></sup>, o que requer recursos relacionados à telefonia e internet, bem como qualificação dos profissionais e usuários para usufruir dessa nova possibilidade de cuidado<sup><xref ref-type="bibr" rid="B22">22</xref></sup>.</p>
+				<p>O uso de aplicações como <italic>WhatsApp</italic><sup>®</sup> e chamada telefônica garantem a oferta de ações de forma segura<sup><xref ref-type="bibr" rid="B4">4</xref></sup> favorecendo a continuidade do cuidado. Nos serviços de APS em estudo, essas tecnologias foram utilizadas em diferentes situações da atenção às PVHIV, como para responder demandas relacionadas à TARV, solicitação de exames de rotina e acolhimento de queixas clínicas.</p>
+				<p>A partir dos resultados do estudo, observa-se que a gestão do cuidado e o manejo clínico, possibilitados pelos fluxos, protocolos e pela política integrada de saúde, são fundamentais para o desenvolvimento das melhores práticas. Por meio da reestruturação da RAS, da autonomia, competência e habilidades dos profissionais e gestores nesse cenário de atuação, pode-se alcançar efetiva intervenção em fatores determinantes para o manejo das condições de saúde em tempos de covid-19.</p>
+				<p>Evidencia-se a necessidade de esforços e iniciativas para constituir uma APS forte, vigilante, capilarizada, adaptada ao contexto pandêmico e fiel aos seus princípios. A crise de saúde emergente com a pandemia de covid-19 é sanitária, política, econômica e social, bem como exige a transformação dos modos de fazer saúde<sup><xref ref-type="bibr" rid="B4">4</xref></sup>, sem esquecer da continuidade do acompanhamento de grupos prioritários.</p>
+				<p>Esta pesquisa analisou os significados acerca das melhores práticas de gestão no cuidado atribuídos pelos enfermeiros dos centros de saúde e gestores municipais, desse modo, apresenta limitações relacionadas a não ter sido explorada a perspectiva das PVHIV sobre o mesmo fenômeno. Também apresenta limitações quanto à realização de entrevistas online, pois se acredita que entrevistas presenciais poderiam resultar em maior interação entre entrevistador e participante, de modo a favorecer o aprofundamento do fenômeno.</p>
+				<p>Esta pesquisa contribui para o conhecimento científico sobre a gestão do cuidado no enfrentamento à pandemia de covid-19 e manutenção dos cuidados às PVHIV, especialmente no que tange às ferramentas, estratégias e tecnologias utilizadas de modo a disseminar as iniciativas implementadas na rede de saúde estudada, que têm potencial de replicação em outros cenários em que ocorrem práticas de atenção primária à saúde.</p>
+			</sec>
+			<sec sec-type="conclusions">
+				<title>CONCLUSÃO</title>
+				<p>Este estudo compreendeu as práticas de gestão no cuidado às PVHIV frente à pandemia de covid-19 na APS de uma capital do país, que reestruturou sua rede de serviços de saúde e implementou mudanças nas práticas clínicas e gerenciais, com o intuito de atender às novas demandas resultantes da pandemia da covid-19 e, ao mesmo tempo, manter o cuidado às PVHIV com qualidade e efetividade. Destacaram-se como melhores práticas a incorporação de tecnologias e ferramentas de gestão do cuidado não presencial como estratégia para ampliação do acesso, garantia de equidade e integralidade aos atendimentos dos usuários em um cenário no qual se orienta o distanciamento social.</p>
+				<p>Destaca-se a implantação de protocolos e fluxos para orientar o acesso aos serviços de saúde com o intuito de sistematizar as novas maneiras de prestar cuidado em tempos de pandemia, com ferramentas de natureza digital e tecnológica. A respeito disso, a utilização do <italic>WhatsApp</italic><sup>®</sup> ganhou destaque enquanto ferramenta para o acolhimento de demandas, realização de teleconsultas, solicitação de exames, renovação de receitas e agendamento de atividades presenciais quando necessário.</p>
+				<p>Acrescenta-se a importância da facilitação das rotinas de realização de exames de acompanhamento e de retirada da TARV. No entanto, evidencia-se que as restrições de acesso decorrentes da pandemia de covid-19 para acompanhamentos de rotina de usuários sem condições agravadas ou prioritárias, também culminaram com a diminuição do rastreamento de novos casos de HIV e controle das demais condições crônicas.</p>
+			</sec>
+		</body>
+		<back>
+			<fn-group>
+				<fn id="fna002">
+					<label>a</label>
+					<p>Sigla para Grupo de Apoio à Prevenção da Aids.</p>
+				</fn>
+			</fn-group>
+			<fn-group>
+				<fn fn-type="financial-disclosure">
+					<p><bold>Financiamento:</bold> Programa de Excelência Acadêmica (PROEX). Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (Capes - Código de financiamento 001). Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq- Processo 134112/2019-9). Programa de pós-graduação UNIEDU/FUMDES - bolsa de doutorado.</p>
+				</fn>
+			</fn-group>
+		</back>
+	</sub-article>
+</article>

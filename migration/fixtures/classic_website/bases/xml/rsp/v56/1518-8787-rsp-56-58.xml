@@ -1,0 +1,2550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.1" specific-use="sps-1.9" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="nlm-ta">Rev Saude Publica</journal-id>
+			<journal-id journal-id-type="publisher-id">rsp</journal-id>
+			<journal-title-group>
+				<journal-title>Revista de Saúde Pública</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Rev. Saúde Pública</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="ppub">0034-8910</issn>
+			<issn pub-type="epub">1518-8787</issn>
+			<publisher>
+				<publisher-name>Faculdade de Saúde Pública da Universidade de São Paulo</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="other">00248</article-id>
+			<article-id pub-id-type="doi">10.11606/s1518-8787.2022056003898</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Original Article</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Public policy coverage and access to medicines in Brazil</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-4462-7190</contrib-id>
+					<name>
+						<surname>Moraes</surname>
+						<given-names>Ricardo Montes de</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-7547-3537</contrib-id>
+					<name>
+						<surname>Santos</surname>
+						<given-names>Maria Angelica Borges dos</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>III</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-7377-7302</contrib-id>
+					<name>
+						<surname>Vieira</surname>
+						<given-names>Fabiola Sulpino</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff4"><sup>IV</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-4196-2682</contrib-id>
+					<name>
+						<surname>Almeida</surname>
+						<given-names>Rosimary Terezinha de</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>I</label>
+				<institution content-type="orgname">Instituto Brasileiro de Geografia e Estatística</institution>
+				<addr-line>
+					<named-content content-type="city">Rio de Janeiro</named-content>
+					<named-content content-type="state">RJ</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Instituto Brasileiro de Geografia e Estatística. Rio de Janeiro, RJ, Brasil</institution>
+			</aff>
+			<aff id="aff2">
+				<label>II</label>
+				<institution content-type="orgname">Universidade Federal do Rio de Janeiro</institution>
+				<institution content-type="orgdiv1">Instituto Alberto Luiz Coimbra de Pós-Graduação e Pesquisa em Engenharia</institution>
+				<institution content-type="orgdiv2">Programa de Engenharia Biomédica</institution>
+				<addr-line>
+					<named-content content-type="city">Rio de Janeiro</named-content>
+					<named-content content-type="state">RJ</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Universidade Federal do Rio de Janeiro.Instituto Alberto Luiz Coimbra de Pós-Graduação e Pesquisa em Engenharia. Programa de Engenharia Biomédica. Rio de Janeiro, RJ, Brasil</institution>
+			</aff>
+			<aff id="aff3">
+				<label>III</label>
+				<institution content-type="orgname">Fundação Oswaldo Cruz</institution>
+				<institution content-type="orgdiv1">Escola Nacional de Saúde Pública</institution>
+				<addr-line>
+					<named-content content-type="city">Rio de Janeiro</named-content>
+					<named-content content-type="state">RJ</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Fundação Oswaldo Cruz.Escola Nacional de Saúde Pública. Rio de Janeiro, RJ, Brasil</institution>
+			</aff>
+			<aff id="aff4">
+				<label>IV</label>
+				<institution content-type="orgname">Instituto de Pesquisa Econômica Aplicada</institution>
+				<addr-line>
+					<named-content content-type="city">Brasília</named-content>
+					<named-content content-type="state">DF</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Instituto de Pesquisa Econômica Aplicada. Brasília, DF, Brasil</institution>
+			</aff>
+			<author-notes>
+				<corresp id="c01"> Correspondence: Ricardo Montes de Moraes Instituto Brasileiro de Geografia e Estatística Av. República do Chile, 500, 6º andar 20031-170 Rio de Janeiro, RJ, Brasil E-mail: <email>ricardo.moraes@ibge.gov.br</email>
+				</corresp>
+				<fn fn-type="con">
+					<p>Authors’ Contribution: Study conception and planning: RMM, MABS, FSV and RTA. Data collection, analysis and interpretation: RMM, MABS, FSV, RTA. Manuscript elaboration or review: RMM, MABS, FSV, RTA. Final version approval: RMM, MABS, FSV, RTA. Public responsibility for the article’s content: RMM, MABS, FSV, RTA.</p>
+				</fn>
+				<fn fn-type="conflict">
+					<p>Conflict of Interest: The authors declare there is no conflict of interest.</p>
+				</fn>
+			</author-notes>
+			<pub-date date-type="pub" publication-format="electronic">
+				<day>24</day>
+				<month>06</month>
+				<year>2022</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">
+				<year>2022</year>
+			</pub-date>
+			<volume>56</volume>
+			<elocation-id>58</elocation-id>
+			<history>
+				<date date-type="received">
+					<day>25</day>
+					<month>05</month>
+					<year>2021</year>
+				</date>
+				<date date-type="accepted">
+					<day>3</day>
+					<month>08</month>
+					<year>2021</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="en">
+					<license-p> This is an Open Access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. </license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>ABSTRACT</title>
+				<sec>
+					<title>OBJECTIVE</title>
+					<p> Describe consumption patterns for monetary and non-monetary acquisition of medicines according to age and income groups, highlighting pharmaceuticals associated with health programs with specific access guarantees.</p>
+				</sec>
+				<sec>
+					<title>METHODS</title>
+					<p> Descriptive observational study using microdata from the 2017–2018 <italic>Pesquisa de Orçamentos Familiares</italic> (Household Budget Survey, POF/IBGE). We initially reviewed programs/policies with specific guarantees of access to medicines in the SUS. Using the pharmaceutical product list of POF-4 (chart 29 of the questionnaire on individual expenditures), we selected the medicines related to these programs. We then described frequencies and percentages for not reporting medicine consumption and for reporting consumption (either through monetary or non-monetary acquisition) according to age and income groups. For medicines with distinctive access guarantees, we compared average monthly values of acquisitions and consumption patterns by age and income.</p>
+				</sec>
+				<sec>
+					<title>RESULTS</title>
+					<p> 63% of those in the ≤ 2 minimum wage (MW) household income group did not report consuming medicines in the last month. Among those earning &gt; 25 MW, 44.3% did not report consumption. Non-monetary acquisitions of medicines were mainly reported for the &lt; 10 MW group and for the elderly and accounted for 20.5% of the total consumption of medicines (in value). For policies with specific access guarantees, non-monetary acquisitions reached 33.6% of total consumption. This percentage varied for the various selected medicines: vaccines, 83.3%; cancer drugs, 70.3%; diabetes, 47.9%; hypertension, 35.9%; asthma and bronchitis, 29.2%; eye problems, 14%; prostate and urinary tract, 10.7%; gynecological, 11.6%; and contraceptives, 9.7%.</p>
+				</sec>
+				<sec>
+					<title>CONCLUSION</title>
+					<p> Shares for non-monetary acquisitions of medicines are still low but benefit mainly lower-income and older age groups. Policies and programs with specific access guarantees to medicines have increased access. Results suggest the need to strengthen and expand pharmaceutical care policies.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="en">
+				<kwd>Health Services Accessibility</kwd>
+				<kwd>National Policy of Pharmaceutical Assistance</kwd>
+				<kwd>Drugs of Continuous Use</kwd>
+				<kwd>Drugs, Essential</kwd>
+				<kwd>Program Evaluation</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="2"/>
+				<table-count count="8"/>
+				<equation-count count="0"/>
+				<ref-count count="32"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>INTRODUCTION</title>
+			<p>Pharmaceuticals are a significant component of the global health spending. Among Organization for Economic Cooperation and Development (OECD) member countries, they account for 20% of total health expenditures<sup><xref ref-type="bibr" rid="B1">1</xref></sup>. In Brazil, they account for 18.4% of the country´s expenditures on health goods and services, and for 29.2% of household health expenditures<sup><xref ref-type="bibr" rid="B2">2</xref></sup>, especially compromising the most vulnerable<sup><xref ref-type="bibr" rid="B3">3</xref></sup>. This highlights the importance of public funding in access to medicines.</p>
+			<p>Public policies on pharmaceutical coverage are defined according to their breadth, scope, and depth (whether copayment is required to obtain medicines)<sup><xref ref-type="bibr" rid="B4">4</xref></sup>. Pharmaceutical market regulatory and pricing policies<sup><xref ref-type="bibr" rid="B3">3</xref>,<xref ref-type="bibr" rid="B5">5</xref></sup> determine expenditures incurred by households and, ultimately, their access to medicines.</p>
+			<p>The breadth of pharmaceutical coverage defines the percentage of the population having access via public funding. OECD countries usually provide comprehensive coverage for medicines through government reimbursement schemes or specific insurance schemes<sup><xref ref-type="bibr" rid="B6">6</xref></sup>. Restrictions concern the scope of medicines available (positive and negative lists for government funding)<sup><xref ref-type="bibr" rid="B7">7</xref></sup>and whether copayment is required<sup><xref ref-type="bibr" rid="B6">6</xref></sup>. Emerging countries, on the other hand, do not provide full public coverage. In practice, they restrict public funding to specific demographic or population segments or diseases, with a limited scope of medicines available<sup><xref ref-type="bibr" rid="B4">4</xref></sup>.</p>
+			<p>In Brazil, the <italic>Política Nacional de Medicamentos</italic> (PNM – National Medicine Policy) and the <italic>Política Nacional de Assistência Farmacêutica</italic> (PNAF – National Pharmaceutical Care Policy), issued in 1998 and 2004, respectively, established guidelines and strategic axes to secure access to medicines and to promote their rational use. They also defined the <italic>Relação Nacional de Medicamentos Essenciais</italic> (Rename – National List of Essential Medicines)<sup><xref ref-type="bibr" rid="B8">8</xref>,<xref ref-type="bibr" rid="B9">9</xref></sup>. As of 2012, the Rename lost its role in guiding public supply of medicines and started being considered a positive list for public funding by the three spheres of government<sup><xref ref-type="bibr" rid="B10">10</xref></sup>.</p>
+			<p>In addition to the expectation of securing access to medicines in the Rename, the Brazilian National Health System (SUS) has organized its pharmaceutical care (PC) around several programs and policies targeting specific population segments or diseases. These include, in variably explicit ways, distinctive guarantees of access to medicines. Mapping the policies that provide these distinctive guarantees is a good starting point to monitor performance in this area.</p>
+			<p>Nationwide studies on the extent of pharmaceutical coverage in Brazil are scarce. Data on public procurement may be obtained from government administrative records and used to produce information on the availability of medicines. There are significant gaps in these data, notably regarding purchases by states and municipalities. In addition, data lack information on the scope and population coverage by the PC policies.</p>
+			<p>The <italic>Pesquisa de Orçamentos Familiares</italic> (POF – Household Budget Survey)<sup><xref ref-type="bibr" rid="B11">11</xref></sup>is an infrequently used source that may allow us to obtain more details on coverage by type of medicine, beneficiary and consumption (divided into monetary and non-monetary acquisitions). In addition to reporting out of pocket (OOP) expenditures on pharmaceuticals (monetary acquisitions), the POF asks respondents to estimate the monetary values of medicines obtained as non-monetary acquisitions. This provides potential information on public funding for medicines. The POF also allows us to describe the distribution of consumption by income and age groups, both for monetary and non-monetary acquisitions.</p>
+			<p>Starting by systematizing SUS programs and policies containing explicit PC guarantees, we sought to identify patterns of coverage and consumption for non-monetary acquisition by income and age groups. Understanding who benefits from non-monetary acquisitions is crucial to monitor and evaluate policy results in this area.</p>
+		</sec>
+		<sec sec-type="methods">
+			<title>METHODS</title>
+			<p>This is an observational study using data from the <italic>Pesquisa de Orçamentos Familiares</italic> (POF) of the <italic>Instituto Brasileiro de Geografia e Estatística</italic> (IBGE – Brazilian Institute of Geography and Statistics). We initially reviewed the Health Legislation for laws, ordinances and norms related to health programs specifically including the provision of medicines among their objectives. We then went on to identify the main current specific guarantees of access to pharmaceutical coverage in the SUS.</p>
+			<p>The POF is a household survey with a sample of 57,920 households selected in conglomerates at the different strata of the survey. It has national representativeness and aims to describe the consumption and income patterns, as well as the living conditions of Brazilian households. Using the variables in chart 29 of the POF’s individual expenditure questionnaire (Questionnaire 4), comprising 88 types of pharmaceutical products, we prepared translators to associate each of the previously identified programs with the corresponding POF’s types of pharmaceutical products. Two authors - a physician and a pharmacist - selected and matched the pharmaceutical product types to the related PC programs. Both authors were seasoned in public health management.</p>
+			<p>We used the latest edition of the POF, covering from July 11, 2017 to July 9, 2018. Data on pharmaceutical products in the survey refer to those obtained in the 30 days preceding the interview.</p>
+			<p>The survey provides data on consumption expenditures and mode of acquisition (variable <italic>V9002</italic>), divided into ‘monetary acquisition’ and ‘non-monetary acquisition’ (without OOP payment by those obtaining the medicine). For the non-monetary acquisitions, respondents also report their estimated values for the medicines obtained. The POF microdata also include deflated values for the January 2018 reference period (variable <italic>V8000_defla</italic>) to prevent price variations over the data collection period from distorting the interpretation of results<sup><xref ref-type="bibr" rid="B11">11</xref></sup>.</p>
+			<p>For each type of pharmaceutical product listed in the POF, the number of people reporting consumption and the reported values for monetary and non-monetary acquisitions were aggregated according to age (<italic>V0403</italic>) and income groups (variable <italic>Renda_total (Total_household_income)</italic> for those obtaining the medicine).</p>
+			<p>Aggregation by age groups covers 14 age ranges from 0–19 years-old to &gt; 80 years-old, at five or ten-year intervals. Aggregations by income include seven ranges: ≤ two minimum wages (MW), 2–3 MW, 3–6 MW, 6–10 MW, 10–15 MW, 15–25 MW, and &gt; 25 MW.</p>
+			<p>To check the consistency between values estimated by respondents for non-monetary acquisitions and those informed for monetary acquisitions (proxy of market prices), we calculated the average monthly values for monetary and non-monetary acquisitions for each type of pharmaceutical product.</p>
+			<p>A descriptive analysis, with one-off and interval-based estimates, was carried out for: (a) average monthly values and percentages of subjects reporting consumption; (b) total consumption of medicines; (c) percentage of subjects reporting non-monetary acquisitions among those obtaining medicines from programs with specific guarantees of access.</p>
+			<p>Variables with small frequencies in the sample were excluded from tables. Analyses were performed using the <italic>R</italic> software (version 4.0.3), and the <italic>survey</italic> package (version 4.0), which considers the sampling design of the survey. The share of subjects reporting non-monetary acquisition in total consumption was described by age and income groups. We used the <italic>svyciprop</italic> function to calculate 95% confidence intervals<sup><xref ref-type="bibr" rid="B12">12</xref></sup>.</p>
+		</sec>
+		<sec sec-type="results">
+			<title>RESULTS</title>
+			<p>Brazil has several health programs or policies involving specific guarantees of access to medicines. In addition to the PNM and the PNAF, which are more comprehensive, we identified those policies and programs and related them to the specific types of pharmaceutical products surveyed in the POF (<xref ref-type="table" rid="t4">Box</xref>).</p>
+			<p>
+				<table-wrap id="t4">
+					<label>Box</label>
+					<caption>
+						<title>Specific guarantees of access to medicines in health policies and programs, according to POF types of pharmaceutical products.</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left">Policies/Programs</th>
+								<th>Specific guarantees of access to medicines</th>
+								<th>POF pharmaceutical product type</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><italic>Política Nacional de Atenção em Oftalmologia</italic> (National Eye Care Policy)</td>
+								<td align="center">Pharmaceutical Care in SUS as a policy issue, focusing on glaucoma treatment. Medicines included in the <italic>Componente Especializado da Assistência Farmacêutica</italic> (CEAF – Specialized Pharmaceutical Care Component)<sup>3,14</sup>.</td>
+								<td align="center">For eye disorders (ophthalmology)</td>
+							</tr>
+							<tr>
+								<td rowspan="2"><italic>Política Nacional de Atenção Integral à Saúde da Mulher</italic> (National Policy for Women’s Healthcare)</td>
+								<td align="center" rowspan="2">Provision of contraceptive methods to the fertile population. It includes oral and injectable contraceptives, intrauterine device (IUD), and diaphragm<sup>13,14</sup>.</td>
+								<td align="center">Contraceptive</td>
+							</tr>
+							<tr>
+								<td align="center">For gynecological disorder</td>
+							</tr>
+							<tr>
+								<td><italic>Política Nacional para a Prevenção e Controle do Câncer na Rede de Atenção à Saúde das Pessoas com Doenças Crônicas</italic> (National Policy for Cancer Prevention and Control in the Health Care Network for Chronic Diseases)</td>
+								<td align="center">Access to chemotherapy. With the emergenceof oral chemotherapy drugs, the high complexity oncology centers (<italic>Centros de Alta Complexidade em Oncologia</italic>, CACON) and the high complexity oncology care units (<italic>Unidades de Assistência em Alta Complexidade em Oncologia</italic>, UNACON) started dispensing chemotherapy drugs for use by patients at home. The Ministry of Health performs centralized purchase of some antineoplastic drugs aiming to reduce the cost of treatment in SUS, and increase the population’s access to treatment<sup>13,15</sup>.</td>
+								<td align="center">For cancer</td>
+							</tr>
+							<tr>
+								<td rowspan="4"><italic>Política de Saúde Mental</italic> (Mental Health Policy)</td>
+								<td align="center" rowspan="4">Access to medicines for mental suffering or disorder. The <italic>Relação Nacional de Medicamentos Essenciais</italic> (Rename – National List of Essential Medicines) includes medicines for the treatment of several health conditions in this field: anxiolytics, antidepressants, and antipsychotics, among others<sup>13,14,16</sup>.</td>
+								<td align="center">For autism</td>
+							</tr>
+							<tr>
+								<td align="center">For depression (antidepressant)</td>
+							</tr>
+							<tr>
+								<td align="center">For stress (tranquilizer)</td>
+							</tr>
+							<tr>
+								<td align="center">For the nervous system</td>
+							</tr>
+							<tr>
+								<td><italic>Política Nacional de Transplantes de Órgãos e Tecidos</italic> (National Policy on Organ and Tissue Transplant)</td>
+								<td align="center">There is no formal policy with this denomination There is, however, a National Transplant System, in addition to clinical protocols and therapeutic guidelines that establish the use of immunosuppressants and other drugs in the treatment of transplanted patients. Medicines listed in the protocols are part of the Rename<sup>14,17</sup>.</td>
+								<td align="center">Immunosuppressants</td>
+							</tr>
+							<tr>
+								<td><italic>Política Nacional de Atenção Integral da Saúde do Homem</italic> (National Policy for Men’s Healthcare)</td>
+								<td align="center">Its guidelines include, among others, the treatment of male diseases and illnesses. The Rename includes drugs for the treatment of benign prostatic hyperplasia<sup>13,14</sup>.</td>
+								<td align="center">For prostate and urinary tract</td>
+							</tr>
+							<tr>
+								<td rowspan="5"><italic>Programa Farmácia Popular do Brasil</italic> (Popular Pharmacy Program in Brazil)</td>
+								<td align="center" rowspan="5">Dispensing by private pharmacies, upon users’ co-payment, of a list of drugs used to treat dyslipidemia, osteoporosis, glaucoma, rhinitis, and Parkinson’s disease, as well as contraceptives, and geriatric diapers. Free dispensing to the patient of Programa Farmácia Popular do Brasil (Popular Pharmacy Program in Brazil) used in the treatment of hypertension, diabetes, and asthma<sup>18,19</sup>.</td>
+								<td align="center">For asthma and bronchitis</td>
+							</tr>
+							<tr>
+								<td align="center">For diabetes</td>
+							</tr>
+							<tr>
+								<td align="center">For bones and joints</td>
+							</tr>
+							<tr>
+								<td align="center">For high blood pressure (antihypertensive)</td>
+							</tr>
+							<tr>
+								<td align="center">For lowering cholesterol or triglycerides</td>
+							</tr>
+							<tr>
+								<td><italic>Programa Nacional de Controle do Tabagismo</italic> (Brazilian Tobacco Control Program)</td>
+								<td align="center">Access to medicines to combat smoking<sup>14,16</sup>.</td>
+								<td align="center">Combat alcoholism and smoking</td>
+							</tr>
+							<tr>
+								<td rowspan="2"><italic>Programa Nacional de DST/aids</italic> (National STDs/Aids Program)</td>
+								<td align="center" rowspan="2">Access to antiretroviral drugs, and other drugs for treatment of opportunistic diseases<sup>14,20</sup>.</td>
+								<td align="center">For Aids</td>
+							</tr>
+							<tr>
+								<td align="center">Condom and intimate lubricant</td>
+							</tr>
+							<tr>
+								<td><italic>Programa Nacional de Imunizações</italic> (National Immunization Program)</td>
+								<td align="center">Access to vaccines and serums<sup>14,21</sup>.</td>
+								<td align="center">Vaccines</td>
+							</tr>
+							<tr>
+								<td><italic>Programas Estratégicos de Saúde</italic> (Strategic Health Programs)</td>
+								<td align="center">There is no formal program with this denomination. It includes a set of health programs, such as control of tuberculosis, leprosy, focal endemics, flu (influenza), as well as prevention of nutritional deficiencies, and the blood and blood products program<sup>14,22</sup>.</td>
+								<td align="center">For infectious and endemic diseases</td>
+							</tr>
+							<tr>
+								<td colspan="3">
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN7">
+							<p>POF: Pesquisa de Orçamentos Familiares; STDs: sexually transmitted diseases.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>When considering the universe of pharmaceutical products with data collected in the POF (and not just those with specific guarantees of access in the SUS), 63% of the ≤ 2 MWs household income group did not report obtaining medicines in the last month. In the &gt; 25 MWs group, this percentage was 44.3% (<xref ref-type="fig" rid="f01">Figure</xref>). Consumption percentages decrease along income groups, suggesting budgetary restrictions to consumption in lower income groups and/or excessive consumption in higher income groups.</p>
+			<p>
+				<fig id="f01">
+					<label>Figure</label>
+					<caption>
+						<title>Mode of acquisition of medicines in the last 30-days (% in total consumption) according to age and income groups. Brazil, 2017–2018.</title>
+					</caption>
+					<graphic xlink:href="1518-8787-rsp-56-58-gf01.tif"/>
+					<attrib>Source: data from the <italic>Pesquisa de Orçamentos Familiares</italic> (POF), 2017–2018.</attrib>
+				</fig>
+			</p>
+			<p>Subjects earning &lt; 10 MWs have the greatest shares of non-monetary acquisitions. Nevertheless, shares for non-monetary acquisitions are low across all income groups, varying from 5.8% to 1.7% for exclusively non-monetary acquisition (<xref ref-type="fig" rid="f01">Figure</xref>).</p>
+			<p>Starting from the 2–3 MWs group, non-monetary acquisitions - including the ‘both monetary and non-monetary acquisition’ category depicted in <xref ref-type="fig" rid="f01">Figure</xref> - decrease as income increases. The lowest share for this compound non-monetary acquisitions is seen in the &gt; 25 MWs group (4.5%). For the ≤ 2 MWs group, this percentage is 9.9%.</p>
+			<p>In the analysis by age group, non-monetary acquisition of medicines is higher among the elderly, where most subjects regularly consume medicines. Also, 39.2% of the non-monetary acquisitions are concentrated in the &gt; 60 year-old groups. In the 70–74 years-old age group, 77.3% reported monetary and/or non-monetary consumption of medicines in the month prior to the survey.</p>
+			<p>Considering both monetary and non-monetary acquisitions recorded in the POF, medicines related to specific PC programs accounted for 41.4% of the total consumption value, but concentrate 67.8% of the non-monetary acquisitions. Among all medicines with specific guarantees of access with reported consumption, 33.6% were non-monetary acquisitions. In other words, even though most of the medicines obtained by non-monetary means are related to PC programs, non-monetary acquisitions represent only one-third of their total consumption.</p>
+			<p>Over half of pharmaceutical products listed in the POF (58.6%) are not related to any health program or policy. In this group, 11.3% of the consumption value refers to non-monetary acquisitions.</p>
+			<p>
+				<xref ref-type="table" rid="t1">Table 1</xref> presents average monthly values for monetary and non-monetary acquisitions for the selected access-related POF pharmaceutical products, in addition to monetary acquisitions (value and subjects) as a share of total consumption. For hypertension, cholesterol, prostate, and urinary tract pharmaceuticals, the average monthly value of monetary acquisitions was higher than for non-monetary acquisitions. For eye conditions the opposite occurred, with a higher average value for non-monetary acquisitions. For the other products, price differences (average value per purchase) were within the confidence intervals.</p>
+			<p>
+				<table-wrap id="t1">
+					<label>Table 1</label>
+					<caption>
+						<title>Average monthly values (R$) for monetary and non-monetary acquisitions and share (95%CI) of monetary acquisitions (values and persons) in total expenditure for selected pharmaceuticals with SUS specific policy-related guarantees.</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left">Pharmaceutical product</th>
+								<th>Average monthly monetary acquisition (R$)</th>
+								<th>Average monthly non-monetary acquisition (R$)</th>
+								<th>Monetary acquisitions as a share (%) of total expenditure</th>
+								<th>Subjects (%) reporting monetary acquisition</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Vaccines</td>
+								<td align="center">181.9 (89.5–274.3)</td>
+								<td align="center">143.2 (109.0–177.4)</td>
+								<td align="center">16.7 (6.5–26.9)</td>
+								<td align="center">13.6 (7.4–19.8)</td>
+							</tr>
+							<tr>
+								<td>For cancer</td>
+								<td align="center">234.7 (160.5–308.8)</td>
+								<td align="center">307.4 (174.6–440.2)</td>
+								<td align="center">29.7 (17.1–42.4)</td>
+								<td align="center">36.2 (24.9–47.5)</td>
+							</tr>
+							<tr>
+								<td>For diabetes</td>
+								<td align="center">96.1 (89.5–102.8)</td>
+								<td align="center">70.9 (64.1–77.6)</td>
+								<td align="center">52.1 (48.5–55.7)</td>
+								<td align="center">45.8 (43.9–47.7)</td>
+							</tr>
+							<tr>
+								<td>For infectious and endemic diseases</td>
+								<td align="center">147.1 (124.3–169.9)</td>
+								<td align="center">207.2 (162.6–251.8)</td>
+								<td align="center">58.5 (46.9–70.0)</td>
+								<td align="center">69.5 (60.6–78.4)</td>
+							</tr>
+							<tr>
+								<td>For high blood pressure (antihypertensive)</td>
+								<td align="center">47.9 (46.3–49.6)</td>
+								<td align="center">34.8 (33.3–36.3)</td>
+								<td align="center">64.1 (62.4–65.9)</td>
+								<td align="center">57.7 (56.4–59.0)</td>
+							</tr>
+							<tr>
+								<td>For lowering cholesterol or triglycerides</td>
+								<td align="center">48.6 (46.2–51.0)</td>
+								<td align="center">39.3 (35.1–43.5)</td>
+								<td align="center">68.7 (65.2–72.2)</td>
+								<td align="center">64.7 (62.3–67.0)</td>
+							</tr>
+							<tr>
+								<td>For the nervous system</td>
+								<td align="center">117.9 (109.3–126.5)</td>
+								<td align="center">116.8 (102.0–131.6)</td>
+								<td align="center">70.0 (66.1–73.8)</td>
+								<td align="center">72.6 (70.2–75.0)</td>
+							</tr>
+							<tr>
+								<td>For asthma and bronchitis</td>
+								<td align="center">93.5 (84.1–103.0)</td>
+								<td align="center">98.8 (84.2–113.5)</td>
+								<td align="center">70.8 (64.5–77.1)</td>
+								<td align="center">74.1 (68.9–79.4)</td>
+							</tr>
+							<tr>
+								<td>For depression (antidepressant)</td>
+								<td align="center">110.7 (103.3–118.1)</td>
+								<td align="center">95.2 (83.4–106.9)</td>
+								<td align="center">74.3 (70.9–77.8)</td>
+								<td align="center">72.6 (70.3–74.9)</td>
+							</tr>
+							<tr>
+								<td>Condom and intimate gels</td>
+								<td align="center">15.6 (10.3–21.0)</td>
+								<td align="center">13.8 (11.8–15.9)</td>
+								<td align="center">75.3 (67.5–83.1)</td>
+								<td align="center">73.3 (68.8–77.8)</td>
+							</tr>
+							<tr>
+								<td>For stress (tranquilizer)</td>
+								<td align="center">59.9 (56.2–63.7)</td>
+								<td align="center">52.5 (44.0–60.9)</td>
+								<td align="center">77.4 (74.0–80.9)</td>
+								<td align="center">76.0 (73.6–78.4)</td>
+							</tr>
+							<tr>
+								<td>For bones and joints</td>
+								<td align="center">97.8 (90.0–105.6)</td>
+								<td align="center">93.4 (79.5–107.3)</td>
+								<td align="center">81.8 (78.0–85.6)</td>
+								<td align="center">82.3 (79.3–85.2)</td>
+							</tr>
+							<tr>
+								<td>For eye disorders (ophthalmology)</td>
+								<td align="center">65.2 (60.7–69.9)</td>
+								<td align="center">89.6 (73.0–106.2)</td>
+								<td align="center">86.0 (83.0–89.1)</td>
+								<td align="center">90.7 (89.1–92.2)</td>
+							</tr>
+							<tr>
+								<td>For gynecological disorder</td>
+								<td align="center">58.6 (51.7–65.5)</td>
+								<td align="center">54.3 (29.4–79.2)</td>
+								<td align="center">88.4 (82.1–94.7)</td>
+								<td align="center">87.6 (84.4–90.9)</td>
+							</tr>
+							<tr>
+								<td>For prostate and urinary tract</td>
+								<td align="center">85.5 (78.8–92.2)</td>
+								<td align="center">57.8 (46.2–69.5)</td>
+								<td align="center">89.3 (85.6–93.0)</td>
+								<td align="center">85.0 (80.6–89.4)</td>
+							</tr>
+							<tr>
+								<td>Contraceptive</td>
+								<td align="center">23.5 (22.6–24.5)</td>
+								<td align="center">20.2 (18.4–21.9)</td>
+								<td align="center">90.3 (89.0–91.6)</td>
+								<td align="center">89.0 (87.8–90.1)</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<attrib>Source: data from the <italic>Pesquisa de Orçamentos Familiares</italic> (POF), 2017–2018.</attrib>
+						<fn id="TFN1">
+							<p>95%CI: confidence interval of 95%; SUS: <italic>Sistema Único de Saúde</italic> (National Health System).</p>
+						</fn>
+						<fn id="TFN2">
+							<p>Note: medications with small sample size or non-significant results were not included.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>Ranking medicines according to monetary acquisitions as a percentage of the total consumption evidences a relationship between this percentage and the average monthly value per purchase. The share of monetary acquisitions is usually higher for the lower- priced medicines.</p>
+			<p>Considering expenditures (values) reported for all the pharmaceutical products listed in the POF, 20.5% referred to non-monetary acquisitions. Although most of the pharmaceutical consumption in Brazil relies on out of pocket payment (OOP) by households (monetary acquisition), there are items which are mainly obtained by non-monetary means. This is the case of vaccines (83.3% not depending on OOP). <xref ref-type="table" rid="t2">Table 2</xref> shows the estimated values for monthly acquisitions and the number of subjects obtaining medicines through monetary and non-monetary acquisition according to policy and POF type of pharmaceutical product.</p>
+			<p>
+				<table-wrap id="t2">
+					<label>Table 2</label>
+					<caption>
+						<title>Monthly monetary and non-monetary consumption of medicines with specific guarantees provided, in amount (R$ million) and number of subjects obtaining them (in thousands) (95%CI).</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left">Policies and programs / POF pharmaceutical products</th>
+								<th>Monetary acquisitions (million R$)</th>
+								<th>Non-monetary acquisitions (million R$)</th>
+								<th>Monetary acquisitions (in thousand inhabitants)</th>
+								<th>Non- monetary acquisitions (in thousand inhabitants)</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><italic>Política Nacional de Atenção em Oftalmologia</italic> (National Eye Care Policy)</td>
+								<td align="center"><bold>168.2 (151.7–184.7)</bold></td>
+								<td align="center"><bold>27.4 (20.9–33.8)</bold></td>
+								<td align="center"><bold>2,578.4 (2,397.8–2,759.0)</bold></td>
+								<td align="center"><bold>305.4 (250.3–360.6)</bold></td>
+							</tr>
+							<tr>
+								<td>For eye disorders (ophthalmology)</td>
+								<td align="center">168.2 (151.7–184.7)</td>
+								<td align="center">27.4 (20.9–33.8)</td>
+								<td align="center">2,578.4 (2,397.8–2,759.0)</td>
+								<td align="center">305.4 (250.3–360.6)</td>
+							</tr>
+							<tr>
+								<td><italic>Política Nacional de Atenção Integral à Saúde da Mulher</italic> (National Policy for Women’s Healthcare)</td>
+								<td align="center"><bold>192.0 (179.9–204.1)</bold></td>
+								<td align="center"><bold>21.6 (17.9–25.3)</bold></td>
+								<td align="center"><bold>7,138.0 (6,792.0–7,484.0)</bold></td>
+								<td align="center"><bold>910.2 (816.4–1,003.9)</bold></td>
+							</tr>
+							<tr>
+								<td>Contraceptive</td>
+								<td align="center">153.9 (143.8–164.1)</td>
+								<td align="center">16.6 (14.3–18.9)</td>
+								<td align="center">6,543.2 (6,213.9–6,872.4)</td>
+								<td align="center">821.4 (730.5–912.3)</td>
+							</tr>
+							<tr>
+								<td>For gynecological disorder</td>
+								<td align="center">38.1 (31.8–44.3)</td>
+								<td align="center">5.0 (2.1–8.0)</td>
+								<td align="center">650.1 (573.2–727.0)</td>
+								<td align="center">92.5 (66.8–118.1)</td>
+							</tr>
+							<tr>
+								<td><italic>Política Nacional de Atenção Oncológica</italic> (Brazilian Policy on Oncology Care)</td>
+								<td align="center"><bold>18.8 (10.5–27.1)</bold></td>
+								<td align="center"><bold>44.4 (25.9–63.0)</bold></td>
+								<td align="center"><bold>80.1 (54.8–105.6)</bold></td>
+								<td align="center"><bold>144.6 (92.8–196.3)</bold></td>
+							</tr>
+							<tr>
+								<td>For cancer</td>
+								<td align="center">18.8 (10.5–27.1)</td>
+								<td align="center">44.4 (25.9–63.0)</td>
+								<td align="center">80.1 (54.8–105.5)</td>
+								<td align="center">144.6 (92.8–196.3)</td>
+							</tr>
+							<tr>
+								<td><italic>Política Nacional de Saúde Mental</italic> (Brazilian Mental Health Policy)</td>
+								<td align="center">825.5 (777.0–874.1)</td>
+								<td align="center">299.3 (268.0–330.6)</td>
+								<td align="center">7,858.0 (7,527.0–8,190.0)</td>
+								<td align="center">2,982.9 (2,792.5–3,173.4)</td>
+							</tr>
+							<tr>
+								<td>For depression (antidepressant)</td>
+								<td align="center">331.1 (300.5–361.7)</td>
+								<td align="center">114.3 (96.7–132.0)</td>
+								<td align="center">2,991.4 (2,801.1–3,181.6)</td>
+								<td align="center">1,201.3 (1,091.3–1,311.3)</td>
+							</tr>
+							<tr>
+								<td>For stress (tranquilizer)</td>
+								<td align="center">194.1 (176.7–211.6)</td>
+								<td align="center">56.6 (45.3–67.8)</td>
+								<td align="center">3,239.2 (3,038.9–3,439.6)</td>
+								<td align="center">1,078.1 (957.9–1,198.4)</td>
+							</tr>
+							<tr>
+								<td>For the nervous system</td>
+								<td align="center">299.1 (270.5–327.6)</td>
+								<td align="center">128.4 (107.1–149.7)</td>
+								<td align="center">2,537.3 (2,364.2–2,710.5)</td>
+								<td align="center">1,099.6 (984.4–1,214.7)</td>
+							</tr>
+							<tr>
+								<td><italic>Política Nacional de Atenção Integral da Saúde do Homem</italic> (National Policy for Men’s Healthcare)</td>
+								<td align="center"><bold>48.9 (42.1–55.8)</bold></td>
+								<td align="center"><bold>5.9 (3.8–8.0)</bold></td>
+								<td align="center"><bold>572.2 (501.5–642.9)</bold></td>
+								<td align="center"><bold>101.5 (69.0–134.0)</bold></td>
+							</tr>
+							<tr>
+								<td>For prostate and urinary tract</td>
+								<td align="center">48.9 (42.1–55.8)</td>
+								<td align="center">5.9 (3.8–8.0)</td>
+								<td align="center">572.2 (501.5–642.9)</td>
+								<td align="center">101.5 (69.0–134.0)</td>
+							</tr>
+							<tr>
+								<td><italic>Programa Farmácia Popular do Brasil</italic> (Popular Pharmacy Program in Brazil)</td>
+								<td align="center"><bold>1,336.3 (1,275.0–1,397.5)</bold></td>
+								<td align="center"><bold>796.1 (748.2–844.0)</bold></td>
+								<td align="center"><bold>18,374.0 (17,841.0–18,908.0)</bold></td>
+								<td align="center"><bold>13,233.0 (12,775.5–13,690.5)</bold></td>
+							</tr>
+							<tr>
+								<td>For asthma and bronchitis</td>
+								<td align="center">60.8 (51.2–70.4)</td>
+								<td align="center">25.1 (18.6–31.5)</td>
+								<td align="center">650 (569.4–730.5)</td>
+								<td align="center">253.5 (195.2–311.8)</td>
+							</tr>
+							<tr>
+								<td>For diabetes</td>
+								<td align="center">328.5 (298–359.1)</td>
+								<td align="center">302.2 (268.4–336.0)</td>
+								<td align="center">3,418 (3,225.7–3,610.3)</td>
+								<td align="center">4,264 (4,043.3–4,484.7)</td>
+							</tr>
+							<tr>
+								<td>For bones and joints</td>
+								<td align="center">123.2 (107.6–138.7)</td>
+								<td align="center">27.5 (21.2–33.7)</td>
+								<td align="center">1,260 (1,139–1,381)</td>
+								<td align="center">294.1 (243.2–345)</td>
+							</tr>
+							<tr>
+								<td>For high blood pressure (antihypertensive)</td>
+								<td align="center">639.8 (609.5–670.1)</td>
+								<td align="center">357.7 (336.2–379.2)</td>
+								<td align="center">13,352.7 (12,923.5–13,781.9)</td>
+								<td align="center">10,277.5 (9,874.6–10,680.4)</td>
+							</tr>
+							<tr>
+								<td>For lowering cholesterol or triglycerides</td>
+								<td align="center">184 (168.9–199.1)</td>
+								<td align="center">83.7 (71.5–95.9)</td>
+								<td align="center">3,782.8 (3,541.5–4,024.2)</td>
+								<td align="center">2,129.3 (1,960.2–2,298.5)</td>
+							</tr>
+							<tr>
+								<td><italic>Programa Nacional de DST/aids</italic> (National STDs/Aids Program)</td>
+								<td align="center"><bold>13.6 (8.6–18.6)</bold></td>
+								<td align="center"><bold>56.4 (24.8–88.0)</bold></td>
+								<td align="center"><bold>873.4 (740.4–1,006.5)</bold></td>
+								<td align="center"><bold>360.0 (293.9–426.1)</bold></td>
+							</tr>
+							<tr>
+								<td>Condom and intimate lubricant</td>
+								<td align="center">13.6 (8.6–18.6)</td>
+								<td align="center">4.5 (3.5–5.4)</td>
+								<td align="center">873.4 (740.4–1,006.5)</td>
+								<td align="center">323.3 (260.8–385.8)</td>
+							</tr>
+							<tr>
+								<td><italic>Programa Nacional de Imunizações</italic> (National Immunization Program)</td>
+								<td align="center"><bold>8.8 (3.0–14.5)</bold></td>
+								<td align="center"><bold>43.8 (28.8–58.7)</bold></td>
+								<td align="center"><bold>48.2 (24.6–71.8)</bold></td>
+								<td align="center"><bold>305.6 (231.3–379.9)</bold></td>
+							</tr>
+							<tr>
+								<td>Vaccines</td>
+								<td align="center">8.8 (3.0–14.5)</td>
+								<td align="center">43.8 (28.8–58.7)</td>
+								<td align="center">48.2 (24.6–71.8)</td>
+								<td align="center">305.6 (231.3–379.9)</td>
+							</tr>
+							<tr>
+								<td><italic>Programas Estratégicos de Saúde</italic> (Strategic Health Programs)</td>
+								<td align="center"><bold>29.6 (21.4–37.8)</bold></td>
+								<td align="center"><bold>21.1 (12.3–29.8)</bold></td>
+								<td align="center"><bold>201.3 (152.0–250.7)</bold></td>
+								<td align="center"><bold>101.6 (67.7–135.5)</bold></td>
+							</tr>
+							<tr>
+								<td>For infectious and endemic diseases</td>
+								<td align="center">29.6 (21.4–37.8)</td>
+								<td align="center">21.1 (12.3–29.8)</td>
+								<td align="center">201.3 (152.0–250.7)</td>
+								<td align="center">101.6 (67.7–135.5)</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<attrib>Source: data from the <italic>Pesquisa de Orçamentos Familiares</italic> (POF), 2017–2018.</attrib>
+						<fn id="TFN3">
+							<p>95%CI: confidence interval of 95%; STDs: sexually transmitted diseases.</p>
+						</fn>
+						<fn id="TFN4">
+							<p>Note: medicines and programs with small sample size or non-significant results were not included.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>In addition to vaccines, cancer drugs were also mainly obtained by non-monetary means (70.3%). Two of the three classes of medicines for chronic diseases dispensed in SUS units and by the <italic>Programa Farmácia Popular</italic> (Popular Pharmacy Program) stand out: medicines for diabetes and for hypertension. The POF does not specifically discriminate data for asthma medicines, another item in the <italic>Programa Farmácia Popular</italic> for which no copayment is required. However, medicines for “asthma and bronchitis” in the POF have 29.2% of their values in non-monetary acquisitions.</p>
+			<p>The POF did not report monetary acquisitions for Aids medicines, as they are not sold at commercial pharmacies. Thus, there is no price reference for respondents in their value estimates of non-monetary acquisitions. Small samples reporting consumption of medicines for Aids, autism, alcoholism, smoking and immunosuppressants preclude a robust estimate of monthly averages for these pharmaceuticals.</p>
+			<p>Non-monetary acquisitions also had significant shares in medicines for: infectious or endemic diseases (41.5%); cholesterol-lowering (31.3%); and nervous system (30%). Contraceptives (9.7%); prostate and urinary tract medicines (10.7%); medicines for gynecological problems (11.6%); and for eye conditions (14%) hold the smallest shares for non-monetary acquisitions in total consumption.</p>
+			<p>
+				<xref ref-type="table" rid="t3">Table 3</xref> shows the percentages of non-monetary acquisitions for medicines related to each health program or policy by age and income groups.</p>
+			<p>
+				<table-wrap id="t3">
+					<label>Table 3</label>
+					<caption>
+						<title>Non-monetary acquisitions as shares (%) of consumption for medicines with specific guarantees of access, according to policy or program, age and income (in minimum wages) groups (95%CI).</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left">Age groups</th>
+								<th><italic>Programa Nacional de DST/aids</italic> (National STDs/Aids Program)</th>
+								<th><italic>Programa Farmácia Popular no Brasil</italic> (Popular Pharmacy Program in Brazil)</th>
+								<th><italic>Programa Nacional de Imunizações</italic> (National Immunization Program)</th>
+								<th><italic>Política Nacional de Atenção em Oftalmologia</italic> (National Eye Care Policy)</th>
+								<th><italic>Política Nacional de Saúde Mental</italic> (Brazilian Mental Health Policy)</th>
+								<th><italic>Política Nacional de Atenção Integral à Saúde da Mulher</italic> (National Policy for Women’s Healthcare)</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>&lt; 20</td>
+								<td align="center">41.3 (28.2–55.7)</td>
+								<td align="center">38.5 (26.6–51.9)</td>
+								<td align="center">82.9 (61.9–93.5)</td>
+								<td align="center">18.6 (7.5–39.1)</td>
+								<td align="center">36.8 (28.4–46.1)</td>
+								<td align="center">14.3 (10.9–18.5)</td>
+							</tr>
+							<tr>
+								<td>20–29</td>
+								<td align="center">30.6 (23.6–38.6)</td>
+								<td align="center">29.9 (24.2–36.2)</td>
+								<td align="center">81.8 (63.0–92.2)</td>
+								<td align="center">7.7 (3.2–17.1)</td>
+								<td align="center">28.9 (23.0–35.5)</td>
+								<td align="center">11.4 (9.7–13.4)</td>
+							</tr>
+							<tr>
+								<td>30–39</td>
+								<td align="center">20.9 (15.0–28.3)</td>
+								<td align="center">33.7 (30.1–37.6)</td>
+								<td align="center">88.6 (74.4–95.4)</td>
+								<td align="center">8.9 (4.5–16.7)</td>
+								<td align="center">25.2 (21.7–29.0)</td>
+								<td align="center">10.7 (8.9–12.8)</td>
+							</tr>
+							<tr>
+								<td>40–49</td>
+								<td align="center">23.3 (14.8–34.7)</td>
+								<td align="center">41.8 (39.3–44.3)</td>
+								<td align="center">83.9 (64.1–93.8)</td>
+								<td align="center">5.9 (3.3–10.2)</td>
+								<td align="center">29.9 (26.6–33.5)</td>
+								<td align="center">9.8 (7.5–12.7)</td>
+							</tr>
+							<tr>
+								<td>50–59</td>
+								<td align="center">55.2 (33.4–75.2)</td>
+								<td align="center">47.3 (45.2–49.3)</td>
+								<td align="center">79.3 (54.2–92.6)</td>
+								<td align="center">6.8 (4.5–10.3)</td>
+								<td align="center">31.5 (28.5–34.6)</td>
+								<td align="center">15.2 (9.7–23.1)</td>
+							</tr>
+							<tr>
+								<td>60–69</td>
+								<td align="center">54.6 (22.9–82.9)</td>
+								<td align="center">48.8 (46.9–50.8)</td>
+								<td align="center">95.2 (69.5–99.4)</td>
+								<td align="center">15.2 (10.9–20.7)</td>
+								<td align="center">29.5 (25.9–33.3)</td>
+								<td align="center">9.8 (2.7–30.1)</td>
+							</tr>
+							<tr>
+								<td>70–79</td>
+								<td align="center">9.7 (0.2–82.8)</td>
+								<td align="center">48.9 (46.6–51.2)</td>
+								<td align="center">100.0 (NA)</td>
+								<td align="center">15.4 (11.0–21.0)</td>
+								<td align="center">26.6 (22.5–31.2)</td>
+								<td align="center">25.1 (5.5–65.8)</td>
+							</tr>
+							<tr>
+								<td>&gt; 79</td>
+								<td align="center">NA</td>
+								<td align="center">41.8 (38.3–45.4)</td>
+								<td align="center">100.0 (NA)</td>
+								<td align="center">9.5 (4.9–17.4)</td>
+								<td align="center">18.9 (14.1–24.9)</td>
+								<td align="center">22.0 (3.2–70.9)</td>
+							</tr>
+							<tr>
+								<td><bold>Income groups</bold></td>
+								<td align="center"><bold><italic>Programa Nacional de DST/aids</italic> (National STDs/Aids Program)</bold></td>
+								<td align="center"><bold><italic>Programa Farmácia Popular no Brasil</italic> (Popular Pharmacy Program in Brazil)</bold></td>
+								<td align="center"><bold><italic>Programa Nacional de Imunizações</italic> (National Immunization Program)</bold></td>
+								<td align="center"><bold><italic>Política Nacional de Atenção em Oftalmologia</italic> (National Eye Care Policy)</bold></td>
+								<td align="center"><bold><italic>Política Nacional de Saúde Mental</italic> (Brazilian Mental Health Policy)</bold></td>
+								<td align="center"><bold><italic>Política Nacional de Atenção Integral à Saúde da Mulher</italic> (National Policy for Women’s Healthcare)</bold></td>
+							</tr>
+							<tr>
+								<td>&lt; 2</td>
+								<td align="center">44.3 (34.2–54.9)</td>
+								<td align="center">50.0 (47.8–52.1)</td>
+								<td align="center">100.0 (NA)</td>
+								<td align="center">15.1 (10.6–21.1)</td>
+								<td align="center">33.8 (30.4–37.4)</td>
+								<td align="center">16.0 (13.4–19.0)</td>
+							</tr>
+							<tr>
+								<td>2–3</td>
+								<td align="center">34.6 (25.9–44.4)</td>
+								<td align="center">50.7 (48.9–52.5)</td>
+								<td align="center">94.5 (84.6–98.1)</td>
+								<td align="center">13.2 (10.2–17.0)</td>
+								<td align="center">34.9 (32.3–37.6)</td>
+								<td align="center">12.1 (10.2–14.2)</td>
+							</tr>
+							<tr>
+								<td>3–6</td>
+								<td align="center">31.7 (21.4–44.0)</td>
+								<td align="center">51.5 (49.2–53.8)</td>
+								<td align="center">88.6 (70.1–96.2)</td>
+								<td align="center">11.4 (7.9–16.2)</td>
+								<td align="center">36.4 (32.9–40.1)</td>
+								<td align="center">15.4 (12.5–18.8)</td>
+							</tr>
+							<tr>
+								<td>6–10</td>
+								<td align="center">13.6 (4.9–32.9)</td>
+								<td align="center">30.7 (27.4–34.2)</td>
+								<td align="center">74.3 (39.0–92.9)</td>
+								<td align="center">4.5 (1.5–12.6)</td>
+								<td align="center">12.4 (8.9–16.9)</td>
+								<td align="center">5.6 (3.5–9.1)</td>
+							</tr>
+							<tr>
+								<td>10–15</td>
+								<td align="center">20.4 (13.2–30.2)</td>
+								<td align="center">43.3 (40.6–46.1)</td>
+								<td align="center">82.8 (55.8–94.8)</td>
+								<td align="center">8.3 (5.1–13.2)</td>
+								<td align="center">23.4 (20.0–27.2)</td>
+								<td align="center">8.1 (6.2–10.6)</td>
+							</tr>
+							<tr>
+								<td>15–25</td>
+								<td align="center">8.4 (2.7–23.0)</td>
+								<td align="center">24.9 (20.9–29.4)</td>
+								<td align="center">52.1 (28.7–74.7)</td>
+								<td align="center">4.1 (1.3–12.1)</td>
+								<td align="center">9.8 (6.4–14.6)</td>
+								<td align="center">5.7 (2.5–12.5)</td>
+							</tr>
+							<tr>
+								<td>&gt; 25</td>
+								<td align="center">6.5 (1.3–26.4)</td>
+								<td align="center">13.5 (10.2–17.8)</td>
+								<td align="center">65.8 (30.3–89.5)</td>
+								<td align="center">3.8 (0.5–22.2)</td>
+								<td align="center">4.4 (1.9–9.7)</td>
+								<td align="center">4.1 (1.3–12.4)</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<attrib>Source: data from the <italic>Pesquisa de Orçamentos Familiares</italic> (POF), 2017–2018.</attrib>
+						<fn id="TFN5">
+							<p>95%CI: confidence interval of 95%; NA: not available; STDs: sexually transmitted diseases.</p>
+						</fn>
+						<fn id="TFN6">
+							<p>Note: health programs with small sample size or non-significant results were not included.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>For most programs and policies with specific medicine guarantees, differences between age groups were not significant. Sample size did not allow disaggregation by age and income in some cases.</p>
+			<p>Income groups in the 0-15 MWs range reported higher percentages of non-monetary acquisitions for the programs studied, with the exception of medicines related to the <italic>Política Nacional de Atenção em Oftalmologia</italic> (National Eye Care Policy), with a confidence interval too wide to support this conclusion. Households with incomes &gt; 15 MWs showed lower shares of non-monetary acquisitions for medicines (<xref ref-type="table" rid="t3">Table 3</xref>).</p>
+		</sec>
+		<sec sec-type="discussion">
+			<title>DISCUSSION</title>
+			<p>Non-monetary acquisition by households accounted for 20.5% of the total value of pharmaceutical consumption in the POF. The highest shares for non-monetary acquisitions were reported by households in the &lt; 10 MW income groups and for older age groups. The share of public funding in pharmaceutical consumption is notoriously low in Brazil, far below the OECD average of 58%<sup><xref ref-type="bibr" rid="B23">23</xref></sup>.</p>
+			<p>In the <italic>Conta-Satélite de Saúde</italic> (Brazilian Health Satellite Accounts)<sup><xref ref-type="bibr" rid="B2">2</xref></sup>, an IBGE publication with aggregate data for health-related goods and services, non-monetary medicine consumption by Brazilian households represented 7.5% of total pharmaceutical consumption. The main reason for the difference in non-monetary consumption between the POF and the <italic>Conta-Satélite</italic> concerns prices and the type of pharmaceutical purchased by the government. The government provides medicines based on medical prescriptions and rational use. It also buys in larger scale and pays lower prices comparatively to households, as it uses the <italic>Preços Máximos de Venda Governamental</italic> (Government Maximum Sales Prices), which are below market prices in some cases. Thus, with equal resources, the government will buy more units of pharmaceuticals than households. On assuming similar prices for monetary and non-monetary acquisitions, one could say that the POF’s percentage for non-monetary acquisitions provides a fairer description of shares in terms of physical quantities than values obtained from the <italic>Conta-Satélite</italic><sup><xref ref-type="bibr" rid="B24">24</xref></sup>.</p>
+			<p>The distinctive access guarantees contained in some specific health policies and programs (such as the <italic>Programa Nacional de Imunizações</italic> [Brazilian Immunization Program] and in the <italic>Programa Farmácia Popular</italic> [Popular Pharmacy Program]) have apparently secured greater non-monetary access than the list of general guarantees in the PNAF. Brazil seems thus to evidence similarities to other developing countries, which tend to concentrate public funding for PC in specific niches of populations or diseases<sup><xref ref-type="bibr" rid="B4">4</xref></sup>.</p>
+			<p>Even specific guarantees of access to medicines may lead to very different coverages. Among the medicines with the highest shares of non-monetary acquisition, vaccines (83.3%), and cancer drugs (70.3%) stand out. On the other end, contraceptives (9.7%), medicines for prostate and the urinary tract (10.7%), for gynecological problems (11.6%), and for eye conditions (14%) show low percentages of non-monetary obtention.</p>
+			<p>Non-monetary access to medicines for hypertension and diabetes via the <italic>Programa Farmácia Popular</italic> prevented hospitalizations in the SUS, and deaths related to these diseases in the municipalities hosting the program<sup><xref ref-type="bibr" rid="B25">25</xref></sup>. The free availability of medicines in <italic>Programa Farmácia Popular</italic> and the end of copayment increased their use. This suggests that, for many people, price is a barrier to access, even if products are dispensed in pharmacies of the SUS health units<sup><xref ref-type="bibr" rid="B26">26</xref>,<xref ref-type="bibr" rid="B27">27</xref></sup>.</p>
+			<p>Lower income groups obtain medicines by non-monetary means more often than higher income groups. As price is a more frequent barrier to access<sup><xref ref-type="bibr" rid="B26">26</xref></sup> for them, obtaining medicines at no cost prevents the worsening of health status, potential hospitalizations and early death due to interruptions in treatment of previously diagnosed chronic diseases<sup><xref ref-type="bibr" rid="B25">25</xref></sup>.</p>
+			<p>This implies that the decrease in public funding for medicines reported in administrative records since 2016 may have grave effects both on population health and on expenditure on services, overloading the hospital network with preventable cases<sup><xref ref-type="bibr" rid="B25">25</xref></sup>.</p>
+			<p>Women’s care was the PC-sponsored program with lowest coverage. This was a surprising finding considering the prominence of this policy segment, related to goals 3 and 5 of the Sustainable Development Goals (SDG)<sup><xref ref-type="bibr" rid="B28">28</xref></sup>. Policies on men’s health care, eye care, and tobacco control also recorded low shares for non-monetary acquisition of medicines. Among the more recent policies, OOP values required to buy some medications with low prices in private pharmacies, such as contraceptives, may be one of the reasons for the low coverage seen for these policies. High prices and low barriers to access in SUS probably act as incentives for seeking medicines through public provision. Complexity in procedures to obtain these medicines may discourage this demand, specially burdening those with lower income. This suggests a need to simplify the procedures for medicine obtention for products reporting low shares of non-monetary acquisitions, as in the case of contraceptives.</p>
+			<p>The good coverage for the so-called ‘poverty medicines’ (vaccines and endemic diseases) draws attention. These products focus on communicable diseases and imply the oldest specific guarantees in PC, as the <italic>Programa Nacional de Imunizações</italic> preceded the PNAF<sup><xref ref-type="bibr" rid="B29">29</xref></sup>.</p>
+			<p>This study has some limitations. For the very advanced ages, small sample size leads to frail estimates, given data variability. For less-used medicines (such as for smoking or cancer), small samples produce large variances preventing meaningful analyses by age or income groups.</p>
+			<p>There are also differences between POF results for non-monetary acquisition of medicines and government administrative records for expenditures in specific programs, such as for Aids. This limitation of the database reflects the estimation of non-monetary acquisition values by POF respondents and the small sample sizes for medicines used by a small part of the population.</p>
+			<p>The survey does not record medicine acquisition by under-10-year-olds. It also reports acquisition and not actual use of the medication. So one can presume that the acquisitions made for use of younger age groups are largely made by their parents and recorded as parental acquisitions. This leads to potential overestimation of consumption for groups in charge of children or minors.</p>
+			<p>The distribution of free samples of medicines<sup><xref ref-type="bibr" rid="B30">30</xref></sup> and, since 2014, the provision of oral antineoplastics and medicines for chemotherapy side effects by health plans<sup><xref ref-type="bibr" rid="B31">31</xref></sup>need to be acknowledged, as they may account for part of the non-monetary acquisitions. It would be thus incorrect to suppose that all non-monetary medicine acquisitions in the POF reflect SUS funding.</p>
+			<p>Estimation of values for non-monetary acquisitions by POF respondents has generated some mistrust regarding data, and could be considered a limitation. However, on comparing average monthly values for monetary and non-monetary acquisitions of the selected pharmaceuticals in our study no substantial differences were found. This strengthens the case for the use of these data. The use of POF non-monetary acquisition data is one of the positive contributions of this article to the study of PC coverage.</p>
+			<p>The policies and programs highlighted in this study provide specific medicines to their beneficiaries. It should be remembered, however, that the right to comprehensive therapeutic care is an integral part of the right to health. To ensure it, central and sub-national governments in Brazil have implemented several measures to strengthen PC in the SUS. A large network of public pharmacies is responsible for delivering PC throughout the country. However, the low availability of medicines in these pharmacies<sup><xref ref-type="bibr" rid="B32">32</xref></sup> may partly explain the high percentage of monetary acquisitions for highly prevalent diseases, even when additional guarantees defined in specific policies and programs are in place. This suggests the existence of barriers to access to these products in the SUS.</p>
+			<p>The results of this article suggest the need to strengthen and expand PC policies. They have mainly benefited groups with lower income or higher age-related consumption. Data on monetary and non-monetary medicine acquisitions provided in the POF, albeit indirectly, help to describe the scope of these policies regarding access to medications.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>REFERENCES</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. Belloni A, Morgan D, Paris V. Pharmaceutical expenditure and policies: past trends and future challenges. Paris (FR): OECD; 2016. (OECD Health Working Papers; nº 87). <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1787/5jm0q1f4cdq7-en">https://doi.org/10.1787/5jm0q1f4cdq7-en</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Belloni</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Morgan</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Paris</surname>
+							<given-names>V</given-names>
+						</name>
+					</person-group>
+					<source>Pharmaceutical expenditure and policies: past trends and future challenges</source>
+					<publisher-loc>Paris (FR)</publisher-loc>
+					<publisher-name>OECD</publisher-name>
+					<year>2016</year>
+					<comment>OECD Health Working Papers; nº 87</comment>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1787/5jm0q1f4cdq7-en">https://doi.org/10.1787/5jm0q1f4cdq7-en</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. Instituto Brasileiro de Geografia e Estatística. Conta-satélite de saúde: Brasil: 2010-2017. Rio de Janeiro: IBGE; 2019 [cited 2021 Feb 17]. Available from: <ext-link ext-link-type="uri" xlink:href="http://informe.ensp.fiocruz.br/assets/anexos/6c3e434126a948bd2b5aec4eede17f92ed6ac3c8.PDF">http://informe.ensp.fiocruz.br/assets/anexos/6c3e434126a948bd2b5aec4eede17f92ed6ac3c8.PDF</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Instituto Brasileiro de Geografia e Estatística</collab>
+					</person-group>
+					<source>Conta-satélite de saúde: Brasil: 2010-2017</source>
+					<publisher-loc>Rio de Janeiro</publisher-loc>
+					<publisher-name>IBGE</publisher-name>
+					<year>2019</year>
+					<date-in-citation content-type="cited-date">cited 2021 Feb 17</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="http://informe.ensp.fiocruz.br/assets/anexos/6c3e434126a948bd2b5aec4eede17f92ed6ac3c8.PDF">http://informe.ensp.fiocruz.br/assets/anexos/6c3e434126a948bd2b5aec4eede17f92ed6ac3c8.PDF</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. Boing AC, Bertoldi AD, Posenato LG, Peres KG. Influência dos gastos em saúde no empobrecimento de domicílios no Brasil. RevSaude Publica. 2014;48(5):797-807. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0034-8910.2014048005113">https://doi.org/10.1590/S0034-8910.2014048005113</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Boing</surname>
+							<given-names>AC</given-names>
+						</name>
+						<name>
+							<surname>Bertoldi</surname>
+							<given-names>AD</given-names>
+						</name>
+						<name>
+							<surname>Posenato</surname>
+							<given-names>LG</given-names>
+						</name>
+						<name>
+							<surname>Peres</surname>
+							<given-names>KG</given-names>
+						</name>
+					</person-group>
+					<article-title>Influência dos gastos em saúde no empobrecimento de domicílios no Brasil</article-title>
+					<source>RevSaude Publica</source>
+					<year>2014</year>
+					<volume>48</volume>
+					<issue>5</issue>
+					<fpage>797</fpage>
+					<lpage>807</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0034-8910.2014048005113">https://doi.org/10.1590/S0034-8910.2014048005113</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. Maniadakis N, Kourlaba G, Shen J, Holtorf A. Comprehensive taxonomy and worldwide trends in pharmaceutical policies in relation to country income status. BMC Health Serv Res. 2017;17:371. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12913-017-2304-2">https://doi.org/10.1186/s12913-017-2304-2</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Maniadakis</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Kourlaba</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Shen</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Holtorf</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Comprehensive taxonomy and worldwide trends in pharmaceutical policies in relation to country income status</article-title>
+					<source>BMC Health Serv Res</source>
+					<year>2017</year>
+					<volume>17</volume>
+					<size units="pages">371</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12913-017-2304-2">https://doi.org/10.1186/s12913-017-2304-2</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Dias LLS, Santos MAB, Pinto CDBS. Regulação contemporânea de preços de medicamentos no Brasil - uma análise crítica. Saude Debate;43(121):543-58. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0103-1104201912120">https://doi.org/10.1590/0103-1104201912120</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Dias</surname>
+							<given-names>LLS</given-names>
+						</name>
+						<name>
+							<surname>Santos</surname>
+							<given-names>MAB</given-names>
+						</name>
+						<name>
+							<surname>Pinto</surname>
+							<given-names>CDBS</given-names>
+						</name>
+					</person-group>
+					<article-title>Regulação contemporânea de preços de medicamentos no Brasil - uma análise crítica</article-title>
+					<source>Saude Debate</source>
+					<volume>43</volume>
+					<issue>121</issue>
+					<fpage>543</fpage>
+					<lpage>558</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0103-1104201912120">https://doi.org/10.1590/0103-1104201912120</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. Vogler S, Haasis MA, Dedet G, Lam J, Pedersen HB. Medicines reimbursement policies in Europe. Copenhaguen (DK): WHO Regional Office for Europe; 2018 [cited 2021 May 21]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.euro.who.int/__data/assets/pdf_file/0011/376625/pharmaceutical-reimbursement-eng.pdf">https://www.euro.who.int/__data/assets/pdf_file/0011/376625/pharmaceutical-reimbursement-eng.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Vogler</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Haasis</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Dedet</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Lam</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Pedersen</surname>
+							<given-names>HB</given-names>
+						</name>
+					</person-group>
+					<source>Medicines reimbursement policies in Europe</source>
+					<publisher-loc>Copenhaguen (DK)</publisher-loc>
+					<publisher-name>WHO Regional Office for Europe</publisher-name>
+					<year>2018</year>
+					<date-in-citation content-type="cited-date">cited 2021 May 21</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.euro.who.int/__data/assets/pdf_file/0011/376625/pharmaceutical-reimbursement-eng.pdf">https://www.euro.who.int/__data/assets/pdf_file/0011/376625/pharmaceutical-reimbursement-eng.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. Barnieh L, Clement F, Harris A, Blom M, Donaldson C, Klarenbach S, et al. A systematic review of cost-sharing strategies used within publicly-funded drug plans in member countries of the Organisation for Economic Co-Operation and Development. PLoS One. 2014;9(3):e90434. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0090434">https://doi.org/10.1371/journal.pone.0090434</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Barnieh</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Clement</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Harris</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Blom</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Donaldson</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Klarenbach</surname>
+							<given-names>S</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>A systematic review of cost-sharing strategies used within publicly-funded drug plans in member countries of the Organisation for Economic Co-Operation and Development</article-title>
+					<source>PLoS One</source>
+					<year>2014</year>
+					<volume>9</volume>
+					<issue>3</issue>
+					<elocation-id>e90434</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0090434">https://doi.org/10.1371/journal.pone.0090434</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Ministério da Saúde (BR). Portaria Nº 3.916, de 30 de outubro de 1998. Aprova a Política Nacional de Medicamentos. Brasília, DF; 1998 [cited 2021 Feb 17]. Available from: <ext-link ext-link-type="uri" xlink:href="https://bvsms.saude.gov.br/bvs/saudelegis/gm/1998/prt3916_30_10_1998.html">https://bvsms.saude.gov.br/bvs/saudelegis/gm/1998/prt3916_30_10_1998.html</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+					</person-group>
+					<source>Portaria Nº 3.916, de 30 de outubro de 1998. Aprova a Política Nacional de Medicamentos</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<year>1998</year>
+					<date-in-citation content-type="cited-date">cited 2021 Feb 17</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://bvsms.saude.gov.br/bvs/saudelegis/gm/1998/prt3916_30_10_1998.html">https://bvsms.saude.gov.br/bvs/saudelegis/gm/1998/prt3916_30_10_1998.html</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. Ministério da Saúde (BR), Conselho Nacional de Saúde. Resolução Nº 338, de 6 de maio de 2004. Aprova a Política Nacional de Assistência Farmacêutica. Brasília, DF: CNS; 2004 [cited 2021 Feb 17]. Available from: <ext-link ext-link-type="uri" xlink:href="https://bvsms.saude.gov.br/bvs/saudelegis/cns/2004/res0338_06_05_2004.html">https://bvsms.saude.gov.br/bvs/saudelegis/cns/2004/res0338_06_05_2004.html</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+						<collab>Conselho Nacional de Saúde</collab>
+					</person-group>
+					<source>Resolução Nº 338, de 6 de maio de 2004. Aprova a Política Nacional de Assistência Farmacêutica</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<publisher-name>CNS</publisher-name>
+					<year>2004</year>
+					<date-in-citation content-type="cited-date">cited 2021 Feb 17</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://bvsms.saude.gov.br/bvs/saudelegis/cns/2004/res0338_06_05_2004.html">https://bvsms.saude.gov.br/bvs/saudelegis/cns/2004/res0338_06_05_2004.html</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. Santos-Pinto CDB, Ventura M, Pepe VLE, Osorio-de-Castro CGS. Novos delineamentos da Assistência Farmacêutica frente à regulamentação da Lei Orgânica da Saúde. CadSaude Publica. 2013;29(6):1056-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0102-311X2013000600002">https://doi.org/10.1590/S0102-311X2013000600002</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Santos-Pinto</surname>
+							<given-names>CDB</given-names>
+						</name>
+						<name>
+							<surname>Ventura</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Pepe</surname>
+							<given-names>VLE</given-names>
+						</name>
+						<name>
+							<surname>Osorio-de-Castro</surname>
+							<given-names>CGS</given-names>
+						</name>
+					</person-group>
+					<article-title>Novos delineamentos da Assistência Farmacêutica frente à regulamentação da Lei Orgânica da Saúde</article-title>
+					<source>CadSaude Publica</source>
+					<year>2013</year>
+					<volume>29</volume>
+					<issue>6</issue>
+					<fpage>1056</fpage>
+					<lpage>1058</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0102-311X2013000600002">https://doi.org/10.1590/S0102-311X2013000600002</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. Instituto Brasileiro de Geografia e Estatística, Diretoria de Pesquisas, Coordenação de Trabalho e Rendimento. Pesquisa de Orçamentos Familiares: primeiros resultados: 2017-2018. Rio de Janeiro: IBGE; 2019 [cited 2021 Feb 17]. Available from: <ext-link ext-link-type="uri" xlink:href="https://biblioteca.ibge.gov.br/visualizacao/livros/liv101670.pdf">https://biblioteca.ibge.gov.br/visualizacao/livros/liv101670.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Instituto Brasileiro de Geografia e Estatística</collab>
+						<collab>Diretoria de Pesquisas</collab>
+						<collab>Coordenação de Trabalho e Rendimento</collab>
+					</person-group>
+					<source>Pesquisa de Orçamentos Familiares: primeiros resultados: 2017-2018</source>
+					<publisher-loc>Rio de Janeiro</publisher-loc>
+					<publisher-name>IBGE</publisher-name>
+					<year>2019</year>
+					<date-in-citation content-type="cited-date">cited 2021 Feb 17</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://biblioteca.ibge.gov.br/visualizacao/livros/liv101670.pdf">https://biblioteca.ibge.gov.br/visualizacao/livros/liv101670.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. Lumley T. The Analysis of Complex Survey Samples. Wien (AT): CRAN; 2020 [cited 2021 May 21]. Available from: <ext-link ext-link-type="uri" xlink:href="https://cran.r-project.org/web//packages/survey/survey.pdf">https://cran.r-project.org/web//packages/survey/survey.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lumley</surname>
+							<given-names>T</given-names>
+						</name>
+					</person-group>
+					<source>The Analysis of Complex Survey Samples</source>
+					<publisher-loc>Wien (AT)</publisher-loc>
+					<publisher-name>CRAN</publisher-name>
+					<year>2020</year>
+					<date-in-citation content-type="cited-date">cited 2021 May 21</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://cran.r-project.org/web//packages/survey/survey.pdf">https://cran.r-project.org/web//packages/survey/survey.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. Ministério da Saúde (BR). Portaria de Consolidação Nº 2, de 28 de setembro de 2017. Consolidação das normas sobre as políticas nacionais de saúde do Sistema Único de Saúde. Brasília, DF; 2017 [cited 2021 Mar 11]. Available from: <ext-link ext-link-type="uri" xlink:href="http://www.cvs.saude.sp.gov.br/zip/U_PRC-MS-GM-2_280917.pdf">http://www.cvs.saude.sp.gov.br/zip/U_PRC-MS-GM-2_280917.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+					</person-group>
+					<source>Portaria de Consolidação Nº 2, de 28 de setembro de 2017. Consolidação das normas sobre as políticas nacionais de saúde do Sistema Único de Saúde</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<year>2017</year>
+					<date-in-citation content-type="cited-date">cited 2021 Mar 11</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="http://www.cvs.saude.sp.gov.br/zip/U_PRC-MS-GM-2_280917.pdf">http://www.cvs.saude.sp.gov.br/zip/U_PRC-MS-GM-2_280917.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. Ministério da Saúde (BR),Secretaria de Ciência, Tecnologia, Inovação e Insumos Estratégicos em Saúde, Departamento de Assistência Farmacêutica e Insumos Estratégicos em Saúde. Relação Nacional de Medicamentos Essenciais 2020. Brasília, DF; 2020 [cited 2021 Mar 11]. Available from: <ext-link ext-link-type="uri" xlink:href="https://bvsms.saude.gov.br/bvs/publicacoes/relacao_medicamentos_rename_2020.pdf">https://bvsms.saude.gov.br/bvs/publicacoes/relacao_medicamentos_rename_2020.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+						<collab>Secretaria de Ciência, Tecnologia, Inovação e Insumos Estratégicos em Saúde</collab>
+						<collab>Departamento de Assistência Farmacêutica e Insumos Estratégicos em Saúde</collab>
+					</person-group>
+					<source>Relação Nacional de Medicamentos Essenciais 2020</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<year>2020</year>
+					<date-in-citation content-type="cited-date">cited 2021 Mar 11</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://bvsms.saude.gov.br/bvs/publicacoes/relacao_medicamentos_rename_2020.pdf">https://bvsms.saude.gov.br/bvs/publicacoes/relacao_medicamentos_rename_2020.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. Ministério da Saúde (BR), Secretaria de Atenção à Saúde, Departamento de Regulação, Avaliação e Controle, Coordenação-Geral de Sistemas de Informação. Manual de bases técnicas da oncologia - SIA/SUS. 21. ed. Brasília, DF; 2015. [cited 2021 Mar 11]. Available from: <ext-link ext-link-type="uri" xlink:href="https://portalarquivos.saude.gov.br/images/pdf/2015/outubro/16/Manual-Oncologia-21-edi----o-14-09-2015.pdf">https://portalarquivos.saude.gov.br/images/pdf/2015/outubro/16/Manual-Oncologia-21-edi----o-14-09-2015.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+						<collab>Secretaria de Atenção à Saúde</collab>
+						<collab>Departamento de Regulação, Avaliação e Controle</collab>
+						<collab>Coordenação-Geral de Sistemas de Informação</collab>
+					</person-group>
+					<source>Manual de bases técnicas da oncologia - SIA/SUS</source>
+					<edition>21</edition>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<year>2015</year>
+					<date-in-citation content-type="cited-date">cited 2021 Mar 11</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://portalarquivos.saude.gov.br/images/pdf/2015/outubro/16/Manual-Oncologia-21-edi----o-14-09-2015.pdf">https://portalarquivos.saude.gov.br/images/pdf/2015/outubro/16/Manual-Oncologia-21-edi----o-14-09-2015.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. Ministério da Saúde (BR). Portaria de Consolidação Nº 3, de 28 de setembro de 2017. Consolidação das normas sobre as redes do Sistema Único de Saúde. Brasília, DF; 2017 [cited 2021 Mar 11]. Available from: <ext-link ext-link-type="uri" xlink:href="https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/prc0003_03_10_2017.html">https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/prc0003_03_10_2017.html</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+					</person-group>
+					<source>Portaria de Consolidação Nº 3, de 28 de setembro de 2017. Consolidação das normas sobre as redes do Sistema Único de Saúde</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<year>2017</year>
+					<date-in-citation content-type="cited-date">cited 2021 Mar 11</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/prc0003_03_10_2017.html">https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/prc0003_03_10_2017.html</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Ministério da Saúde (BR). Portaria de Consolidação Nº 4, de 28 de setembro de 2017. Consolidação das normas sobre os sistemas e os subsistemas do Sistema Único de Saúde. Brasília, DF; 2017 [cited 2021 Mar 11]. Available from: <ext-link ext-link-type="uri" xlink:href="https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/MatrizesConsolidacao/Matriz-4-Sistemas.html">https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/MatrizesConsolidacao/Matriz-4-Sistemas.html</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+					</person-group>
+					<source>Portaria de Consolidação Nº 4, de 28 de setembro de 2017. Consolidação das normas sobre os sistemas e os subsistemas do Sistema Único de Saúde</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<year>2017</year>
+					<date-in-citation content-type="cited-date">cited 2021 Mar 11</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/MatrizesConsolidacao/Matriz-4-Sistemas.html">https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/MatrizesConsolidacao/Matriz-4-Sistemas.html</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18. Brasil. Decreto Nº 5.090, de 20 de maio de 2004. Regulamenta a Lei no 10.858, de 13 de abril de 2004, e institui o programa “Farmácia Popular do Brasil”, e dá outras providências. Brasília, DF; 2004 [cited 2021 Mar 11]. Available from: <ext-link ext-link-type="uri" xlink:href="http://www.planalto.gov.br/ccivil_03/_ato2004-2006/2004/decreto/d5090.htm">http://www.planalto.gov.br/ccivil_03/_ato2004-2006/2004/decreto/d5090.htm</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Brasil</collab>
+					</person-group>
+					<source>Decreto Nº 5.090, de 20 de maio de 2004. Regulamenta a Lei no 10.858, de 13 de abril de 2004, e institui o programa “Farmácia Popular do Brasil”, e dá outras providências</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<year>2004</year>
+					<date-in-citation content-type="cited-date">cited 2021 Mar 11</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="http://www.planalto.gov.br/ccivil_03/_ato2004-2006/2004/decreto/d5090.htm">http://www.planalto.gov.br/ccivil_03/_ato2004-2006/2004/decreto/d5090.htm</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19. Ministério da Saúde (BR). Farmácia Popular. Brasília, DF; 2021 [cited 2021 Mar 11]. Available from: <ext-link ext-link-type="uri" xlink:href="https://antigo.saude.gov.br/acoes-e-programas/farmacia-popular">https://antigo.saude.gov.br/acoes-e-programas/farmacia-popular</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+					</person-group>
+					<source>Farmácia Popular</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<year>2021</year>
+					<date-in-citation content-type="cited-date">cited 2021 Mar 11</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://antigo.saude.gov.br/acoes-e-programas/farmacia-popular">https://antigo.saude.gov.br/acoes-e-programas/farmacia-popular</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20. Brasil. Lei Nº 9.313, de 13 de novembro de 1996. Dispõe sobre a distribuição gratuita de medicamentos aos portadores do HIV e doentes de AIDS. Brasília, DF; 1996 [cited 2021 Mar 11]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.planalto.gov.br/ccivil_03/leis/l9313.htm">https://www.planalto.gov.br/ccivil_03/leis/l9313.htm</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Brasil</collab>
+					</person-group>
+					<source>Lei Nº 9.313, de 13 de novembro de 1996. Dispõe sobre a distribuição gratuita de medicamentos aos portadores do HIV e doentes de AIDS</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<year>1996</year>
+					<date-in-citation content-type="cited-date">cited 2021 Mar 11</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.planalto.gov.br/ccivil_03/leis/l9313.htm">https://www.planalto.gov.br/ccivil_03/leis/l9313.htm</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>21. Ministério da Saúde (BR). Programa Nacional de Imunizações: 30 anos. Brasília, DF; 2003 [cited 2021 Mar 11]. (Série C. Projetos e Programas e Relatórios). Available from: <ext-link ext-link-type="uri" xlink:href="https://bvsms.saude.gov.br/bvs/publicacoes/livro_30_anos_pni.pdf">https://bvsms.saude.gov.br/bvs/publicacoes/livro_30_anos_pni.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+					</person-group>
+					<source>Programa Nacional de Imunizações: 30 anos</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<year>2003</year>
+					<date-in-citation content-type="cited-date">cited 2021 Mar 11</date-in-citation>
+					<comment>Série C. Projetos e Programas e Relatórios</comment>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://bvsms.saude.gov.br/bvs/publicacoes/livro_30_anos_pni.pdf">https://bvsms.saude.gov.br/bvs/publicacoes/livro_30_anos_pni.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>22. Secretaria de Estado da Saúde do Espírito Santo. Programas do Componente Estratégico. Vitória; SD [cited 2021 Mar 11]. Available from: <ext-link ext-link-type="uri" xlink:href="https://farmaciacidada.es.gov.br/programas-do-componente-estrategico">https://farmaciacidada.es.gov.br/programas-do-componente-estrategico</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Secretaria de Estado da Saúde do Espírito Santo</collab>
+					</person-group>
+					<source>Programas do Componente Estratégico</source>
+					<publisher-loc>Vitória</publisher-loc>
+					<publisher-name>SD</publisher-name>
+					<date-in-citation content-type="cited-date">cited 2021 Mar 11</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://farmaciacidada.es.gov.br/programas-do-componente-estrategico">https://farmaciacidada.es.gov.br/programas-do-componente-estrategico</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>23. Organisation for Economic Co-operation and Development. Health at a glance: OECD indicators 2019. Paris (FR): OECD; 2019. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1787/4dd50c09-en">https://doi.org/10.1787/4dd50c09-en</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Organisation for Economic Co-operation and Development</collab>
+					</person-group>
+					<source>Health at a glance: OECD indicators 2019</source>
+					<publisher-loc>Paris (FR)</publisher-loc>
+					<publisher-name>OECD</publisher-name>
+					<year>2019</year>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1787/4dd50c09-en">https://doi.org/10.1787/4dd50c09-en</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>24. Vieira FS, Santos MAB. O setor farmacêutico no Brasil sob as lentes da conta-satélite de saúde. Brasília, DF: Ipea; 2020 [cited 2021 May 6]. (Texto para Discussão; nº 2615). Available from: <ext-link ext-link-type="uri" xlink:href="http://repositorio.ipea.gov.br/bitstream/11058/10328/1/td_2615.pdf">http://repositorio.ipea.gov.br/bitstream/11058/10328/1/td_2615.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Vieira</surname>
+							<given-names>FS</given-names>
+						</name>
+						<name>
+							<surname>Santos</surname>
+							<given-names>MAB</given-names>
+						</name>
+					</person-group>
+					<source>O setor farmacêutico no Brasil sob as lentes da conta-satélite de saúde</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<publisher-name>Ipea</publisher-name>
+					<year>2020</year>
+					<date-in-citation content-type="cited-date">cited 2021 May 6</date-in-citation>
+					<comment>Texto para Discussão; nº 2615</comment>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="http://repositorio.ipea.gov.br/bitstream/11058/10328/1/td_2615.pdf">http://repositorio.ipea.gov.br/bitstream/11058/10328/1/td_2615.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>25. Almeida ATC, Sá EB, Vieira FS, Benevides RPS. Impacts of a Brazilian pharmaceutical program on the health of chronic patients. RevSaude Publica. 2019;53: 20.<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.11606/S1518-8787.2019053000733">https://doi.org/10.11606/S1518-8787.2019053000733</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Almeida</surname>
+							<given-names>ATC</given-names>
+						</name>
+						<name>
+							<surname>Sá</surname>
+							<given-names>EB</given-names>
+						</name>
+						<name>
+							<surname>Vieira</surname>
+							<given-names>FS</given-names>
+						</name>
+						<name>
+							<surname>Benevides</surname>
+							<given-names>RPS</given-names>
+						</name>
+					</person-group>
+					<article-title>Impacts of a Brazilian pharmaceutical program on the health of chronic patients</article-title>
+					<source>RevSaude Publica</source>
+					<year>2019</year>
+					<volume>53</volume>
+					<size units="pages">20</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.11606/S1518-8787.2019053000733">https://doi.org/10.11606/S1518-8787.2019053000733</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation>26. Emmerick ICM, Campos MR, Luiza VL, Chaves LA, Bertoldi AD, Ross-Degnan D. Retrospective interrupted time series examining hypertension and diabetes medicines usage following changes in patient cost sharing in the ‘Farmácia Popular’ programme in Brazil. BMJ Open. 2017;7(11):e017308.<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/bmjopen-2017-017308">https://doi.org/10.1136/bmjopen-2017-017308</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Emmerick</surname>
+							<given-names>ICM</given-names>
+						</name>
+						<name>
+							<surname>Campos</surname>
+							<given-names>MR</given-names>
+						</name>
+						<name>
+							<surname>Luiza</surname>
+							<given-names>VL</given-names>
+						</name>
+						<name>
+							<surname>Chaves</surname>
+							<given-names>LA</given-names>
+						</name>
+						<name>
+							<surname>Bertoldi</surname>
+							<given-names>AD</given-names>
+						</name>
+						<name>
+							<surname>Ross-Degnan</surname>
+							<given-names>D</given-names>
+						</name>
+					</person-group>
+					<article-title>Retrospective interrupted time series examining hypertension and diabetes medicines usage following changes in patient cost sharing in the ‘Farmácia Popular’ programme in Brazil</article-title>
+					<source>BMJ Open</source>
+					<year>2017</year>
+					<volume>7</volume>
+					<issue>11</issue>
+					<elocation-id>e017308</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/bmjopen-2017-017308">https://doi.org/10.1136/bmjopen-2017-017308</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<mixed-citation>27. Almeida ATC, Vieira FS. Copagamento dos usuários no programa Farmácia Popular do Brasil: um estudo exploratório da rede conveniada. Brasília, DF: Ipea; 2020 [cited 2021 Feb 17]. (Texto para Discussão; nº 2585). Available from: <ext-link ext-link-type="uri" xlink:href="http://repositorio.ipea.gov.br/bitstream/11058/10218/1/td_2585.pdf">http://repositorio.ipea.gov.br/bitstream/11058/10218/1/td_2585.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Almeida</surname>
+							<given-names>ATC</given-names>
+						</name>
+						<name>
+							<surname>Vieira</surname>
+							<given-names>FS</given-names>
+						</name>
+					</person-group>
+					<source>Copagamento dos usuários no programa Farmácia Popular do Brasil: um estudo exploratório da rede conveniada</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<publisher-name>Ipea</publisher-name>
+					<year>2020</year>
+					<date-in-citation content-type="cited-date">cited 2021 Feb 17</date-in-citation>
+					<comment>Texto para Discussão; nº 2585</comment>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="http://repositorio.ipea.gov.br/bitstream/11058/10218/1/td_2585.pdf">http://repositorio.ipea.gov.br/bitstream/11058/10218/1/td_2585.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<mixed-citation>28. World Health Organization. Sustainable Development Goals (SDGs). Geneva (CH): WHO; c2021 [cited 2021 May 21]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.who.int/health-topics/sustainable-development-goals#tab=tab_3">https://www.who.int/health-topics/sustainable-development-goals#tab=tab_3</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>World Health Organization</collab>
+					</person-group>
+					<source>Sustainable Development Goals (SDGs)</source>
+					<publisher-loc>Geneva (CH)</publisher-loc>
+					<publisher-name>WHO</publisher-name>
+					<year>c2021</year>
+					<date-in-citation content-type="cited-date">cited 2021 May 21</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.who.int/health-topics/sustainable-development-goals#tab=tab_3">https://www.who.int/health-topics/sustainable-development-goals#tab=tab_3</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B29">
+				<label>29</label>
+				<mixed-citation>29. Santana RS, Lupatini EO, Leite SN. Registro e incorporação de tecnologias no SUS: barreiras de acesso a medicamentos para doenças da pobreza? CiencSaudeColetiva. 2017;22(5):1417-28.<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1413-81232017225.32762016">https://doi.org/10.1590/1413-81232017225.32762016</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Santana</surname>
+							<given-names>RS</given-names>
+						</name>
+						<name>
+							<surname>Lupatini</surname>
+							<given-names>EO</given-names>
+						</name>
+						<name>
+							<surname>Leite</surname>
+							<given-names>SN</given-names>
+						</name>
+					</person-group>
+					<article-title>Registro e incorporação de tecnologias no SUS: barreiras de acesso a medicamentos para doenças da pobreza?</article-title>
+					<source>CiencSaudeColetiva</source>
+					<year>2017</year>
+					<volume>22</volume>
+					<issue>5</issue>
+					<fpage>1417</fpage>
+					<lpage>1428</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1413-81232017225.32762016">https://doi.org/10.1590/1413-81232017225.32762016</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B30">
+				<label>30</label>
+				<mixed-citation>30. Ministério da Saúde (BR), Agência Nacional de Vigilância Sanitária. Resolução-RDC Nº 60, de 26 de novembro de 2009. Dispõe sobre a produção, dispensação e controle de amostras grátis de medicamentos e dá outras providências. Brasília, DF: Anvisa; 2009 [cited 2021 May 21]. Available from: <ext-link ext-link-type="uri" xlink:href="https://bvsms.saude.gov.br/bvs/saudelegis/anvisa/2009/rdc0060_26_11_2009.html">https://bvsms.saude.gov.br/bvs/saudelegis/anvisa/2009/rdc0060_26_11_2009.html</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+						<collab>Agência Nacional de Vigilância Sanitária</collab>
+					</person-group>
+					<source>Resolução-RDC Nº 60, de 26 de novembro de 2009. Dispõe sobre a produção, dispensação e controle de amostras grátis de medicamentos e dá outras providências</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<publisher-name>Anvisa</publisher-name>
+					<year>2009</year>
+					<date-in-citation content-type="cited-date">cited 2021 May 21</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://bvsms.saude.gov.br/bvs/saudelegis/anvisa/2009/rdc0060_26_11_2009.html">https://bvsms.saude.gov.br/bvs/saudelegis/anvisa/2009/rdc0060_26_11_2009.html</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B31">
+				<label>31</label>
+				<mixed-citation>31. Brasil. Lei Nº 12.880 de 13 de novembro de 2013. Altera a Lei nº 9656 de 3 de junho de 1998, que dispõe sobre os planos e seguros privados de “assistência à saúde”, para incluir tratamentos entre as coberturas obrigatórias. Brasília, DF; 2013 [cited 2021 May 21]. Available from: <ext-link ext-link-type="uri" xlink:href="https://presrepublica.jusbrasil.com.br/legislacao/112108327/lei-12880-13">https://presrepublica.jusbrasil.com.br/legislacao/112108327/lei-12880-13</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Brasil</collab>
+					</person-group>
+					<source>Lei Nº 12.880 de 13 de novembro de 2013. Altera a Lei nº 9656 de 3 de junho de 1998, que dispõe sobre os planos e seguros privados de “assistência à saúde”, para incluir tratamentos entre as coberturas obrigatórias</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<year>2013</year>
+					<date-in-citation content-type="cited-date">cited 2021 May 21</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://presrepublica.jusbrasil.com.br/legislacao/112108327/lei-12880-13">https://presrepublica.jusbrasil.com.br/legislacao/112108327/lei-12880-13</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B32">
+				<label>32</label>
+				<mixed-citation>32. Nascimento RCRM, Álvares J, Guerra Junior AA, Gomes IC, Costa EA, Leite SN, et al. Disponibilidade de medicamentos essenciais na atenção primária do Sistema Único de Saúde. RevSaude Publica. 2017; 51 Supl 2:10s.<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.11606/s1518-8787.2017051007062">https://doi.org/10.11606/s1518-8787.2017051007062</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Nascimento</surname>
+							<given-names>RCRM</given-names>
+						</name>
+						<name>
+							<surname>Álvares</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Guerra</surname>
+							<given-names>AA</given-names>
+							<suffix>Junior</suffix>
+						</name>
+						<name>
+							<surname>Gomes</surname>
+							<given-names>IC</given-names>
+						</name>
+						<name>
+							<surname>Costa</surname>
+							<given-names>EA</given-names>
+						</name>
+						<name>
+							<surname>Leite</surname>
+							<given-names>SN</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Disponibilidade de medicamentos essenciais na atenção primária do Sistema Único de Saúde</article-title>
+					<source>RevSaude Publica</source>
+					<year>2017</year>
+					<volume>51</volume>
+					<supplement>Supl 2</supplement>
+					<size units="pages">10s</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.11606/s1518-8787.2017051007062">https://doi.org/10.11606/s1518-8787.2017051007062</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="financial-disclosure" id="fn2">
+				<p>Funding: Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (Capes - article publication fee).</p>
+			</fn>
+		</fn-group>
+	</back>
+	<sub-article article-type="translation" id="TRpt" xml:lang="pt">
+		<front-stub>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artigo Original</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Cobertura de políticas públicas e acesso a medicamentos no Brasil</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-4462-7190</contrib-id>
+					<name>
+						<surname>Moraes</surname>
+						<given-names>Ricardo Montes de</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff2002"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-7547-3537</contrib-id>
+					<name>
+						<surname>Santos</surname>
+						<given-names>Maria Angelica Borges dos</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3002"><sup>III</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-7377-7302</contrib-id>
+					<name>
+						<surname>Vieira</surname>
+						<given-names>Fabiola Sulpino</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff4002"><sup>IV</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-4196-2682</contrib-id>
+					<name>
+						<surname>Almeida</surname>
+						<given-names>Rosimary Terezinha de</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2002"><sup>II</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1002">
+				<label>I</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Instituto Brasileiro de Geografia e Estatística. Rio de Janeiro, RJ, Brasil</institution>
+			</aff>
+			<aff id="aff2002">
+				<label>II</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Universidade Federal do Rio de Janeiro. Instituto Alberto Luiz Coimbra de Pós-Graduação e Pesquisa em Engenharia. Programa de Engenharia Biomédica. Rio de Janeiro, RJ, Brasil</institution>
+			</aff>
+			<aff id="aff3002">
+				<label>III</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Fundação Oswaldo Cruz. Escola Nacional de Saúde Pública. Rio de Janeiro, RJ, Brasil</institution>
+			</aff>
+			<aff id="aff4002">
+				<label>IV</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Instituto de Pesquisa Econômica Aplicada. Brasília, DF, Brasil</institution>
+			</aff>
+			<author-notes>
+				<corresp id="c01002"> Correspondência: Ricardo Montes de Moraes Instituto Brasileiro de Geografia e Estatística Av. República do Chile, 500, 6º andar 20031-170 Rio de Janeiro, RJ, Brasil E-mail: ricardo.moraes@ibge.gov.br </corresp>
+				<fn fn-type="con">
+					<p>Contribuição dos Autores: Concepção e planejamento do estudo: RMM, MABS, FSV e RTA. Coleta, análise e interpretação dos dados: RMM, MABS, FSV, RTA. Elaboração ou revisão do manuscrito: RMM, MABS, FSV, RTA. Aprovação da versão final: RMM, MABS, FSV, RTA. Responsabilidade pública pelo conteúdo do artigo: RMM, MABS, FSV, RTA.</p>
+				</fn>
+				<fn fn-type="conflict">
+					<p>Conflito de Interesses: Os autores declaram não haver conflito de interesses.</p>
+				</fn>
+			</author-notes>
+			<abstract>
+				<title>RESUMO</title>
+				<sec>
+					<title>OBJETIVO</title>
+					<p> Descrever padrões de consumo de medicamentos com e sem desembolso direto de recursos, segundo faixas de idade e de renda, destacando os fármacos associados a programas de saúde com garantias específicas de acesso.</p>
+				</sec>
+				<sec>
+					<title>MÉTODOS</title>
+					<p>Estudo descritivo observacional usando microdados da <italic>Pesquisa de Orçamentos Familiares</italic> (POF/IBGE) 2017–2018. Inicialmente, foram definidas as garantias específicas de acesso a medicamentos do SUS pela sistematização de programas/políticas com essa previsão. A partir dos medicamentos do quadro 29 do questionário de despesas individuais (POF-4), foram selecionados tipos de medicamentos associados a essas garantias. Foram descritas as frequências e os percentuais de pessoas sem consumo e com consumo (aquisição com e sem desembolso direto de recursos), segundo faixas de idade e de renda. Para medicamentos vinculados a garantias específicas, comparou-se valores médios mensais de aquisições e padrões de consumo por faixa etária e renda.</p>
+				</sec>
+				<sec>
+					<title>RESULTADOS</title>
+					<p> Entre as pessoas com renda domiciliar até dois salários mínimos, 63% não declararam consumo de medicamentos no mês. Entre as acima de 25 salários mínimos, foram 44,3%. Aquisições sem desembolso direto foram feitas principalmente por pessoas na faixa com até 10 salários mínimos e entre os mais idosos. O consumo sem desembolso direto representou 20,5% do consumo total de medicamentos (em valor). Para políticas com garantias específicas de acesso, o consumo sem desembolso foi de 33,6% com variações desse percentual entre os medicamentos selecionados no estudo: vacinas, 83,3%; medicamentos para câncer, 70,3%; diabetes, 47,9%; hipertensão, 35,9%; asma e bronquite, 29,2%; problemas oftalmológicos, 14%; medicamentos para próstata e vias urinárias, 10,7%; para problemas ginecológicos, 11,6%; e anticoncepcionais, 9,7%.</p>
+				</sec>
+				<sec>
+					<title>CONCLUSÃO</title>
+					<p> O consumo sem desembolso ainda é baixo, mas beneficia principalmente pessoas de menor renda e idosos. Políticas e programas com garantias específicas de acesso a medicamentos têm aumentado esse acesso. Os resultados sugerem a necessidade de fortalecer e ampliar as políticas de assistência farmacêutica.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="pt">
+				<kwd>Acesso aos Serviços de Saúde</kwd>
+				<kwd>Política Nacional de Assistência Farmacêutica</kwd>
+				<kwd>Medicamentos de Uso Contínuo</kwd>
+				<kwd>Medicamentos Essenciais</kwd>
+				<kwd>Avaliação de Programas e Projetos de Saúde</kwd>
+			</kwd-group>
+		</front-stub>
+		<body>
+			<sec sec-type="intro">
+				<title>INTRODUÇÃO</title>
+				<p>Medicamentos são um componente expressivo dos gastos em saúde no mundo. Em países da Organização para a Cooperação e Desenvolvimento Econômico (OCDE), eles respondem por 20% do total dos gastos em saúde<sup><xref ref-type="bibr" rid="B1">1</xref></sup>. No Brasil, representam 18,4% das despesas com bens e serviços de saúde e 29,2% dos gastos das famílias com saúde<sup><xref ref-type="bibr" rid="B2">2</xref></sup>, onerando especialmente as mais vulneráveis<sup><xref ref-type="bibr" rid="B3">3</xref></sup>. Essa realidade realça a importância do financiamento público do acesso a medicamentos.</p>
+				<p>As políticas públicas de cobertura farmacêutica são definidas segundo sua amplitude (<italic>breadth</italic>), seu escopo (<italic>scope</italic>) e a exigência ou não de copagamento (<italic>depth</italic>) para obtenção do medicamento<sup><xref ref-type="bibr" rid="B4">4</xref></sup>. Com as políticas de regulação e precificação do mercado farmacêutico<sup><xref ref-type="bibr" rid="B3">3</xref>,<xref ref-type="bibr" rid="B5">5</xref></sup>, essas políticas determinam as despesas incorridas pelas famílias e, em última instância, seu acesso a medicamentos.</p>
+				<p>A amplitude da cobertura farmacêutica define o percentual da população com acesso a medicamentos via financiamento público. Países da OCDE em geral disponibilizam amplitude plena de cobertura para medicamentos mediante esquemas de reembolso governamental ou de seguros específicos<sup><xref ref-type="bibr" rid="B6">6</xref></sup>. As restrições dizem respeito ao escopo de medicamentos disponibilizado (listas positivas e negativas de medicamentos para financiamento governamental)<sup><xref ref-type="bibr" rid="B7">7</xref></sup>e à exigência ou não de copagamento<sup><xref ref-type="bibr" rid="B6">6</xref></sup>. Países emergentes, por outro lado, não disponibilizam cobertura pública plena. Na prática, restringem o financiamento público a segmentos demográficos ou populacionais específicos ou a algumas doenças determinadas, com um escopo reduzido de medicamentos<sup><xref ref-type="bibr" rid="B4">4</xref></sup>.</p>
+				<p>No Brasil, a Política Nacional de Medicamentos (PNM) e a Política Nacional de Assistência Farmacêutica (PNAF), aprovadas em 1998 e 2004 respectivamente, estabeleceram, entre suas diretrizes e eixos estratégicos, a garantia do acesso da população a medicamentos e a promoção do seu uso racional. Definiram ainda como lista orientadora da oferta pública, a Relação Nacional de Medicamentos Essenciais (Rename)<sup><xref ref-type="bibr" rid="B8">8</xref>,<xref ref-type="bibr" rid="B9">9</xref></sup>. A partir de 2012, a Rename perdeu seu caráter norteador e passou a ser tratada como uma lista positiva para financiamento público pelas três esferas de governo<sup><xref ref-type="bibr" rid="B10">10</xref></sup>.</p>
+				<p>Além da garantia esperada para os medicamentos na Rename, o Sistema Único de Saúde (SUS) estruturou sua assistência farmacêutica (AF) em torno de diversos programas e políticas para segmentos populacionais ou doenças específicas que incluem, de forma mais ou menos explícita, garantias distintivas de acesso a medicamentos. Mapear os segmentos em que há garantias específicas de acesso a medicamentos é um bom ponto de partida para monitorar o desempenho nessa área.</p>
+				<p>São escassos os estudos de abrangência nacional sobre a amplitude da cobertura farmacêutica no Brasil. Dados sobre compras públicas podem ser obtidos em registros administrativos do governo e usados para produzir informações sobre a disponibilidade de medicamentos. Mas há lacunas significativas nesses dados – em especial no que se refere às compras feitas por estados e municípios. Além disso, os dados não têm informações sobre o escopo e a cobertura populacional das políticas de AF.</p>
+				<p>Uma fonte relativamente pouco usada e que pode aumentar o detalhamento a esse respeito – por tipo de medicamento, de beneficiário e de consumo (aquisições com e sem desembolso direto) – é a Pesquisa de Orçamentos Familiares (POF)<sup><xref ref-type="bibr" rid="B11">11</xref></sup>. Além de informações sobre gastos, a POF pergunta aos entrevistados o valor estimado da aquisição de medicamentos obtidos sem desembolso direto – o que fornece informação potencial sobre financiamento público de medicamentos. A POF permite também conhecer a distribuição do consumo por faixas de renda e idade, tanto para as aquisições com quanto para as sem desembolso.</p>
+				<p>Assim, a partir de uma sistematização de programas e políticas que explicitem garantias específicas de AF no SUS, buscou-se identificar padrões de cobertura e consumo de medicamentos segundo faixas de renda e de idade daqueles que fazem aquisições sem desembolso direto de recursos. Entender quem se beneficia dessas aquisições é fundamental para monitorar e avaliar resultados de políticas nessa área.</p>
+			</sec>
+			<sec sec-type="methods">
+				<title>MÉTODOS</title>
+				<p>Trata-se de estudo observacional, usando dados da Pesquisa de Orçamentos Familiares (POF), do Instituto Brasileiro de Geografia e Estatística (IBGE). Inicialmente, foram pesquisadas no Sistema de Legislação da Saúde leis, portarias e normas relacionadas a programas que incluíssem como parte de seus objetivos o fornecimento de medicamentos. A partir dessa pesquisa, foram identificadas as principais garantias específicas de acesso com previsão de cobertura farmacêutica em vigor no SUS.</p>
+				<p>A POF é uma pesquisa domiciliar com amostra de 57.920 domicílios – selecionados em conglomerados nos diferentes estratos da pesquisa. Ela tem representatividade nacional e seu objetivo é descrever as estruturas de consumo e renda das famílias e também suas condições de vida. Com as variáveis do <xref ref-type="table" rid="t4002">quadro</xref> 29 do questionário de despesas individuais da POF (Questionário 4), que discrimina 88 produtos farmacêuticos, foram elaborados tradutores para associar cada um dos programas previamente identificados aos tipos de medicamento da POF correspondentes. A seleção e compatibilização entre tipos de medicamento e programas de AF foi realizada por duas das autoras – uma médica e uma farmacêutica – com experiência em gestão de saúde pública.</p>
+				<p>Foi usada a edição mais recente da POF, apurada entre 11 de julho de 2017 e 9 de julho de 2018. Os dados sobre medicamentos na pesquisa se referem aos obtidos nos últimos 30 dias antes de cada entrevista.</p>
+				<p>Na pesquisa foram apurados os valores e a forma de aquisição de medicamentos (variável <italic>V9002</italic>), classificada como ‘com desembolso’ (aquisição monetária) e ‘sem desembolso’ (sem um pagamento direto de quem recebe o medicamento). No caso das aquisições sem desembolso, os entrevistados declararam valores estimados para os medicamentos obtidos. Os microdados da POF incluem também valores deflacionados para o período de referência de janeiro de 2018 (variável <italic>V8000_defla</italic>) para evitar que variações de preço ao longo dos meses da coleta de dados distorçam a interpretação dos resultados<sup><xref ref-type="bibr" rid="B11">11</xref></sup>.</p>
+				<p>Para cada tipo de medicamento listado na POF, foram agregados os valores e a quantidade de pessoas que reportaram aquisições com e sem desembolso segundo a faixa de idade (<italic>V0403</italic>) e a faixa de renda (variável <italic>Renda_total</italic> do domicílio de quem obteve o medicamento).</p>
+				<p>As agregações por idade abrangem 14 faixas entre 0–19 anos e 80 anos ou mais, com intervalos de cinco e de dez anos. As agregações por renda incluem sete faixas: até dois salários-mínimos (SM), 2–3 SM, 3–6 SM, 6–10 SM, 10–15 SM, 15–25 SM e &gt; 25 SM.</p>
+				<p>Para verificar a consistência entre os valores estimados pelos entrevistados nas aquisições sem desembolso e os declarados nas aquisições com desembolso (<italic>proxy</italic> de preços de mercado) calculou-se, para cada tipo de medicamento, o valor médio mensal das aquisições com e sem desembolso de quem adquiriu o produto.</p>
+				<p>Uma análise descritiva, com estimativas pontuais e intervalares, foi realizada para: (a) valores médios mensais e percentuais de pessoas declarando consumo; (b) consumo total de medicamentos; (c) percentual de pessoas sem desembolso entre as que obtiveram medicamentos de programas com garantias específicas de acesso.</p>
+				<p>Cruzamentos de variáveis em que a frequência observada na amostra foi pequena foram excluídos das tabelas. As análises foram realizadas com o software <italic>R</italic> (versão 4.0.3) e o pacote <italic>survey</italic> (versão 4.0), que leva em conta o desenho do plano amostral da pesquisa. A participação das pessoas sem desembolso no total das que adquiriram medicamentos em cada grupo etário e de renda foi estimada com a função <italic>svyciprop</italic> para o cálculo do intervalo de confiança de 95%<sup><xref ref-type="bibr" rid="B12">12</xref></sup>.</p>
+			</sec>
+			<sec sec-type="results">
+				<title>RESULTADOS</title>
+				<p>O Brasil tem vários programas ou políticas de saúde que envolvem garantias específicas de acesso a medicamentos. Para além das políticas mais abrangentes, PNM e PNAF, identificou-se as que têm relação com tipos específicos de medicamentos pesquisados na POF (<xref ref-type="table" rid="t4002">Quadro</xref>).</p>
+				<p>Quando se considera o total de produtos farmacêuticos com dados apurados na POF e não apenas os medicamentos com garantias específicas de acesso no SUS, 63% das pessoas com renda domiciliar de até dois SM não consumiram medicamentos. Na faixa acima de 25 SM, esse percentual foi de 44,3% (<xref ref-type="fig" rid="f01002">Figura</xref>). O percentual de pessoas sem consumo diminui ao longo das faixas de renda, sugerindo que há restrições orçamentárias ao consumo nas faixas de renda mais baixas e/ou consumo excessivo nas faixas de renda mais altas.</p>
+				<p>
+					<fig id="f01002">
+						<label>Figura</label>
+						<caption>
+							<title>Percentual de pessoas por forma de aquisição de medicamentos e por faixas de idade e renda no período de um mês. Brasil, 2017–2018.</title>
+						</caption>
+						<graphic xlink:href="1518-8787-rsp-56-58-gf01-pt.tif"/>
+						<attrib>Fonte: dados da Pesquisa de Orçamentos Familiares (POF), 2017–2018.</attrib>
+					</fig>
+				</p>
+				<p>Pessoas com renda inferior a10 SM são as que mais têm consumo sem desembolso. Ainda assim, a proporção de aquisições sem desembolso é baixa em todas as faixas de renda, variando de 5,8% a 1,7% para as pessoas com aquisições apenas sem desembolso (<xref ref-type="fig" rid="f01002">Figura</xref>).</p>
+				<p>A partir da faixa de 2–3 SM, as aquisições sem desembolso – incluindo as pessoas com os dois tipos de aquisição no mês (categoria “Com e sem desembolso<italic>”,</italic> na <xref ref-type="fig" rid="f01002">figura</xref>) – diminuem com o aumento da renda. A menor proporção de pessoas com aquisições sem desembolso é a da faixa &gt; 25 SM (4,5%). Na faixa até dois SM, esse percentual é de 9,9%.</p>
+				<p>Na análise por faixas etárias, o uso de medicamentos sem desembolso é mais expressivo entre os idosos, grupo em que grande parte das pessoas consome medicamentos de forma regular (39,2% dos usuários de medicamentos sem desembolso têm 60 anos ou mais). Na faixa etária de 70–74 anos, 77,3% das pessoas obtiveram medicamentos (com ou sem desembolso) no mês anterior à pesquisa.</p>
+				<p>Os medicamentos associados a programas de AF específicos responderam por 41,4% do valor do consumo total (com e sem desembolso) registrado na POF, mas concentram 67,8% do consumo sem desembolso de recursos. Do total de medicamentos com garantias específicas de acesso, 33,6% foram obtidos sem desembolso direto de recursos, ou seja, embora a maior parte dos medicamentos obtidos sem desembolso esteja associada a programas de AF, essas obtenções ainda representam apenas um terço do total para esses tipos de medicamento (uso sem desembolso como proporção do valor total das aquisições do medicamento).</p>
+				<p>Do total de produtos farmacêuticos listados na POF, 58,6% não está associado a nenhum programa ou política de saúde. Nesse grupo, 11,3% do valor foi de aquisições sem desembolso.</p>
+				<p>A <xref ref-type="table" rid="t1002">Tabela 1</xref> apresenta valores médios mensais de aquisições com e sem desembolso e o percentual do valor das aquisições e de pessoas com desembolso por tipo de medicamento da POF abrangido nas garantias específicas de acesso. Nas aquisições de medicamentos para hipertensão, colesterol, próstata e vias urinárias, o valor médio mensal de aquisições com desembolso foi maior do que para aquisições sem desembolso. Em medicamentos para problemas oculares ocorreu o oposto: o valor médio das aquisições sem desembolso foi maior. Para os outros produtos, as diferenças de preço (valor médio por aquisição) ficaram dentro dos intervalos de confiança.</p>
+				<p>
+					<table-wrap id="t1002">
+						<label>Tabela 1</label>
+						<caption>
+							<title>Valor médio mensal com e sem desembolso direto de recursos e percentual de valores e de pessoas que compraram medicamentos com previsão de garantias específicas no SUS (IC95%).</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left">Medicamento</th>
+									<th>Valor de aquisição médio mensal com desembolso (R$)</th>
+									<th>Valor de aquisição médio mensal sem desembolso (R$)</th>
+									<th>Percentual do valor das aquisições com desembolso</th>
+									<th>Percentual de pessoas com desembolso</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Vacinas</td>
+									<td align="center">181,9 (89,5–274,3)</td>
+									<td align="center">143,2 (109,0–177,4)</td>
+									<td align="center">16,7 (6,5–26,9)</td>
+									<td align="center">13,6 (7,4–19,8)</td>
+								</tr>
+								<tr>
+									<td>Para câncer</td>
+									<td align="center">234,7 (160,5–308,8)</td>
+									<td align="center">307,4 (174,6–440,2)</td>
+									<td align="center">29,7 (17,1–42,4)</td>
+									<td align="center">36,2 (24,9–47,5)</td>
+								</tr>
+								<tr>
+									<td>Para diabetes</td>
+									<td align="center">96,1 (89,5–102,8)</td>
+									<td align="center">70,9 (64,1–77,6)</td>
+									<td align="center">52,1 (48,5–55,7)</td>
+									<td align="center">45,8 (43,9–47,7)</td>
+								</tr>
+								<tr>
+									<td>Para doenças infecciosas e endêmicas</td>
+									<td align="center">147,1 (124,3–169,9)</td>
+									<td align="center">207,2 (162,6–251,8)</td>
+									<td align="center">58,5 (46,9–70,0)</td>
+									<td align="center">69,5 (60,6–78,4)</td>
+								</tr>
+								<tr>
+									<td>Para pressão alta (anti-hipertensivo)</td>
+									<td align="center">47,9 (46,3–49,6)</td>
+									<td align="center">34,8 (33,3–36,3)</td>
+									<td align="center">64,1 (62,4–65,9)</td>
+									<td align="center">57,7 (56,4–59,0)</td>
+								</tr>
+								<tr>
+									<td>Para redução de colesterol ou triglicerídeos</td>
+									<td align="center">48,6 (46,2–51,0)</td>
+									<td align="center">39,3 (35,1–43,5)</td>
+									<td align="center">68,7 (65,2–72,2)</td>
+									<td align="center">64,7 (62,3–67,0)</td>
+								</tr>
+								<tr>
+									<td>Para o sistema nervoso</td>
+									<td align="center">117,9 (109,3–126,5)</td>
+									<td align="center">116,8 (102,0–131,6)</td>
+									<td align="center">70,0 (66,1–73,8)</td>
+									<td align="center">72,6 (70,2–75,0)</td>
+								</tr>
+								<tr>
+									<td>Para asma e bronquite</td>
+									<td align="center">93,5 (84,1–103,0)</td>
+									<td align="center">98,8 (84,2–113,5)</td>
+									<td align="center">70,8 (64,5–77,1)</td>
+									<td align="center">74,1 (68,9–79,4)</td>
+								</tr>
+								<tr>
+									<td>Para depressão (antidepressivo)</td>
+									<td align="center">110,7 (103,3–118,1)</td>
+									<td align="center">95,2 (83,4–106,9)</td>
+									<td align="center">74,3 (70,9–77,8)</td>
+									<td align="center">72,6 (70,3–74,9)</td>
+								</tr>
+								<tr>
+									<td>Preservativo e lubrificante íntimo</td>
+									<td align="center">15,6 (10,3–21,0)</td>
+									<td align="center">13,8 (11,8–15,9)</td>
+									<td align="center">75,3 (67,5–83,1)</td>
+									<td align="center">73,3 (68,8–77,8)</td>
+								</tr>
+								<tr>
+									<td>Para estresse (calmante)</td>
+									<td align="center">59,9 (56,2–63,7)</td>
+									<td align="center">52,5 (44,0–60,9)</td>
+									<td align="center">77,4 (74,0–80,9)</td>
+									<td align="center">76,0 (73,6–78,4)</td>
+								</tr>
+								<tr>
+									<td>Para os ossos e articulações</td>
+									<td align="center">97,8 (90,0–105,6)</td>
+									<td align="center">93,4 (79,5–107,3)</td>
+									<td align="center">81,8 (78,0–85,6)</td>
+									<td align="center">82,3 (79,3–85,2)</td>
+								</tr>
+								<tr>
+									<td>Para problema ocular (oftalmológico)</td>
+									<td align="center">65,2 (60,7–69,9)</td>
+									<td align="center">89,6 (73,0–106,2)</td>
+									<td align="center">86,0 (83,0–89,1)</td>
+									<td align="center">90,7 (89,1–92,2)</td>
+								</tr>
+								<tr>
+									<td>Para problema ginecológico</td>
+									<td align="center">58,6 (51,7–65,5)</td>
+									<td align="center">54,3 (29,4–79,2)</td>
+									<td align="center">88,4 (82,1–94,7)</td>
+									<td align="center">87,6 (84,4–90,9)</td>
+								</tr>
+								<tr>
+									<td>Para próstata e vias urinárias</td>
+									<td align="center">85,5 (78,8–92,2)</td>
+									<td align="center">57,8 (46,2–69,5)</td>
+									<td align="center">89,3 (85,6–93,0)</td>
+									<td align="center">85,0 (80,6–89,4)</td>
+								</tr>
+								<tr>
+									<td>Anticoncepcional</td>
+									<td align="center">23,5 (22,6–24,5)</td>
+									<td align="center">20,2 (18,4–21,9)</td>
+									<td align="center">90,3 (89,0–91,6)</td>
+									<td align="center">89,0 (87,8–90,1)</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<attrib>Fonte: dados da Pesquisa de Orçamentos Familiares (POF), 2017–2018.</attrib>
+							<fn id="TFN1002">
+								<p>IC95% : intervalo de confiança de 95%.</p>
+							</fn>
+							<fn id="TFN2002">
+								<p>Nota: medicamentos com amostra pequena ou resultados não significativos não foram incluídos.</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p>Ordenando os medicamentos de acordo com o percentual das aquisições com desembolso no total, é possível ver uma relação entre esse percentual e o valor médio mensal por aquisição. O percentual de pessoas com desembolso entre as que obtiveram cada medicamento é, em geral, maior para os medicamentos com preços mais baixos.</p>
+				<p>Para o total dos produtos farmacêuticos listados na POF, 20,5% do valor foi de aquisições sem desembolso de recursos. Embora a maior parte do consumo de medicamentos no país dependa de desembolso direto das famílias, há itens para os quais a maior parte das aquisições ocorre sem desembolso. É o caso das vacinas (83,3% sem desembolso). As estimativas de valor das aquisições mensais e do número de pessoas que obtiveram medicamentos com e sem desembolso direto, por política e tipo de medicamento da POF, são apresentadas na <xref ref-type="table" rid="t2002">Tabela 2</xref>.</p>
+				<p>
+					<table-wrap id="t2002">
+						<label>Tabela 2</label>
+						<caption>
+							<title>Consumo mensal de medicamentos com previsão de garantias específicas, em valor (R$ milhões) e quantidade de pessoas que os obtiveram (em milhares) com e sem desembolso direto (IC95%).</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left">Políticas e programas / tipos de medicamentos da POF</th>
+									<th>Valores com desembolso</th>
+									<th>Valores sem desembolso</th>
+									<th>Pessoas com desembolso</th>
+									<th>Pessoas sem desembolso</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Política Nacional de Atenção em Oftalmologia</td>
+									<td align="center"><bold>168,2 (151,7–184,7)</bold></td>
+									<td align="center"><bold>27,4 (20,9–33,8)</bold></td>
+									<td align="center"><bold>2.578,4 (2.397,8–2.759,0)</bold></td>
+									<td align="center"><bold>305,4 (250,3–360,6)</bold></td>
+								</tr>
+								<tr>
+									<td>Para problema ocular (oftalmológico)</td>
+									<td align="center">168,2 (151,7–184,7)</td>
+									<td align="center">27,4 (20,9–33,8)</td>
+									<td align="center">2.578,4 (2.397,8–2.759,0)</td>
+									<td align="center">305,4 (250,3–360,6)</td>
+								</tr>
+								<tr>
+									<td>Política Nacional de Atenção Integral à Saúde da Mulher</td>
+									<td align="center"><bold>192,0 (179,9–204,1)</bold></td>
+									<td align="center"><bold>21,6 (17,9–25,3)</bold></td>
+									<td align="center"><bold>7.138,0 (6.792,0–7.484,0)</bold></td>
+									<td align="center"><bold>910,2 (816,4–1.003,9)</bold></td>
+								</tr>
+								<tr>
+									<td>Anticoncepcional</td>
+									<td align="center">153,9 (143,8–164,1)</td>
+									<td align="center">16,6 (14,3–18,9)</td>
+									<td align="center">6.543,2 (6.213,9–6.872,4)</td>
+									<td align="center">821,4 (730,5–912,3)</td>
+								</tr>
+								<tr>
+									<td>Para problema ginecológico</td>
+									<td align="center">38,1 (31,8–44,3)</td>
+									<td align="center">5,0 (2,1–8,0)</td>
+									<td align="center">650,1 (573,2–727,0)</td>
+									<td align="center">92,5 (66,8–118,1)</td>
+								</tr>
+								<tr>
+									<td>Política Nacional de Atenção Oncológica</td>
+									<td align="center"><bold>18,8 (10,5–27,1)</bold></td>
+									<td align="center"><bold>44,4 (25,9–63,0)</bold></td>
+									<td align="center"><bold>80,1 (54,8–105,6)</bold></td>
+									<td align="center"><bold>144,6 (92,8–196,3)</bold></td>
+								</tr>
+								<tr>
+									<td>Para câncer</td>
+									<td align="center">18,8 (10,5–27,1)</td>
+									<td align="center">44,4 (25,9–63,0)</td>
+									<td align="center">80,1 (54,8–105,5)</td>
+									<td align="center">144,6 (92,8–196,3)</td>
+								</tr>
+								<tr>
+									<td>Política Nacional de Saúde Mental</td>
+									<td align="center"><bold>825,5 (777,0–874,1)</bold></td>
+									<td align="center"><bold>299,3 (268,0–330,6)</bold></td>
+									<td align="center"><bold>7.858,0 (7.527,0–8.190,0)</bold></td>
+									<td align="center"><bold>2.982,9 (2.792,5–3.173,4)</bold></td>
+								</tr>
+								<tr>
+									<td>Para depressão (antidepressivo)</td>
+									<td align="center">331,1 (300,5–361,7)</td>
+									<td align="center">114,3 (96,7–132,0)</td>
+									<td align="center">2.991,4 (2.801,1–3.181,6)</td>
+									<td align="center">1.201,3 (1.091,3–1.311,3)</td>
+								</tr>
+								<tr>
+									<td>Para estresse (calmante)</td>
+									<td align="center">194,1 (176,7–211,6)</td>
+									<td align="center">56,6 (45,3–67,8)</td>
+									<td align="center">3.239,2 (3.038,9–3.439,6)</td>
+									<td align="center">1.078,1 (957,9–1.198,4)</td>
+								</tr>
+								<tr>
+									<td>Para o sistema nervoso</td>
+									<td align="center">299,1 (270,5–327,6)</td>
+									<td align="center">128,4 (107,1–149,7)</td>
+									<td align="center">2.537,3 (2.364,2–2.710,5)</td>
+									<td align="center">1.099,6 (984,4–1.214,7)</td>
+								</tr>
+								<tr>
+									<td>Política Nacional de Atenção Integral da Saúde do Homem</td>
+									<td align="center"><bold>48,9 (42,1–55,8)</bold></td>
+									<td align="center"><bold>5,9 (3,8–8,0)</bold></td>
+									<td align="center"><bold>572,2 (501,5–642,9)</bold></td>
+									<td align="center"><bold>101,5 (69,0–134,0)</bold></td>
+								</tr>
+								<tr>
+									<td>Para próstata e vias urinárias</td>
+									<td align="center">48,9 (42,1–55,8)</td>
+									<td align="center">5,9 (3,8–8,0)</td>
+									<td align="center">572,2 (501,5–642,9)</td>
+									<td align="center">101,5 (69,0–134,0)</td>
+								</tr>
+								<tr>
+									<td>Programa Farmácia Popular do Brasil</td>
+									<td align="center"><bold>1.336,3 (1.275,0–1.397,5)</bold></td>
+									<td align="center"><bold>796,1 (748,2–844,0)</bold></td>
+									<td align="center"><bold>18.374,0 (17.841,0–18.908,0)</bold></td>
+									<td align="center"><bold>13.233,0 (12.775,5–13.690,5)</bold></td>
+								</tr>
+								<tr>
+									<td>Para asma e bronquite</td>
+									<td align="center">60,8 (51,2–70,4)</td>
+									<td align="center">25,1 (18,6–31,5)</td>
+									<td align="center">650 (569,4–730,5)</td>
+									<td align="center">253,5 (195,2–311,8)</td>
+								</tr>
+								<tr>
+									<td>Para diabetes</td>
+									<td align="center">328,5 (298–359,1)</td>
+									<td align="center">302,2 (268,4–336,0)</td>
+									<td align="center">3.418 (3.225,7–3.610,3)</td>
+									<td align="center">4.264 (4.043,3–4.484,7)</td>
+								</tr>
+								<tr>
+									<td>Para os ossos e articulações</td>
+									<td align="center">123,2 (107,6–138,7)</td>
+									<td align="center">27,5 (21,2–33,7)</td>
+									<td align="center">1.260 (1.139–1.381)</td>
+									<td align="center">294,1 (243,2–345)</td>
+								</tr>
+								<tr>
+									<td>Para pressão alta (anti-hipertensivo)</td>
+									<td align="center">639,8 (609,5–670,1)</td>
+									<td align="center">357,7 (336,2–379,2)</td>
+									<td align="center">13.352,7 (12.923,5–13.781,9)</td>
+									<td align="center">10.277,5 (9.874,6–10.680,4)</td>
+								</tr>
+								<tr>
+									<td>Para redução de colesterol ou triglicerídeos</td>
+									<td align="center">184 (168,9–199,1)</td>
+									<td align="center">83,7 (71,5–95,9)</td>
+									<td align="center">3.782,8 (3.541,5–4.024,2)</td>
+									<td align="center">2.129,3 (1.960,2–2.298,5)</td>
+								</tr>
+								<tr>
+									<td>Programa Nacional de DST/aids</td>
+									<td align="center"><bold>13,6 (8,6–18,6)</bold></td>
+									<td align="center"><bold>56,4 (24,8–88,0)</bold></td>
+									<td align="center"><bold>873,4 (740,4–1.006,5)</bold></td>
+									<td align="center"><bold>360,0 (293,9–426,1)</bold></td>
+								</tr>
+								<tr>
+									<td>Preservativo e lubrificante íntimo</td>
+									<td align="center">13,6 (8,6–18,6)</td>
+									<td align="center">4,5 (3,5–5,4)</td>
+									<td align="center">873,4 (740,4–1.006,5)</td>
+									<td align="center">323,3 (260,8–385,8)</td>
+								</tr>
+								<tr>
+									<td>Programa Nacional de Imunizações</td>
+									<td align="center"><bold>8,8 (3,0–14,5)</bold></td>
+									<td align="center"><bold>43,8 (28,8–58,7)</bold></td>
+									<td align="center"><bold>48,2 (24,6–71,8)</bold></td>
+									<td align="center"><bold>305,6 (231,3–379,9)</bold></td>
+								</tr>
+								<tr>
+									<td>Vacinas</td>
+									<td align="center">8,8 (3,0–14,5)</td>
+									<td align="center">43,8 (28,8–58,7)</td>
+									<td align="center">48,2 (24,6–71,8)</td>
+									<td align="center">305,6 (231,3–379,9)</td>
+								</tr>
+								<tr>
+									<td>Programas Estratégicos de Saúde</td>
+									<td align="center"><bold>29,6 (21,4–37,8)</bold></td>
+									<td align="center"><bold>21,1 (12,3–29,8)</bold></td>
+									<td align="center"><bold>201,3 (152,0–250,7)</bold></td>
+									<td align="center"><bold>101,6 (67,7–135,5)</bold></td>
+								</tr>
+								<tr>
+									<td>Para doenças infecciosas e endêmicas</td>
+									<td align="center">29,6 (21,4–37,8)</td>
+									<td align="center">21,1 (12,3–29,8)</td>
+									<td align="center">201,3 (152,0–250,7)</td>
+									<td align="center">101,6 (67,7–135,5)</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<attrib>Fonte: dados da Pesquisa de Orçamentos Familiares (POF), 2017–2018.</attrib>
+							<fn id="TFN3002">
+								<p>IC95%: intervalo de confiança de 95%; DST: doenças sexualmente transmissíveis.</p>
+							</fn>
+							<fn id="TFN4002">
+								<p>Nota: medicamentos e programas com amostra pequena ou resultados não significativos não foram incluídos.</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p>Além das vacinas, os medicamentos para câncer também foram, em sua maior parte, consumo sem desembolso (70,3%). Em seguida, destacam-se duas das três classes de medicamentos para doenças crônicas dispensadas em unidades do SUS e pelo Programa Farmácia Popular: medicamentos para diabetes e para hipertensão. A POF não tem dados separados para asma – o terceiro item com medicamentos sem copagamento no Programa Farmácia Popular. Entretanto os medicamentos “para asma e bronquite” na POF, têm participação de 29,2% para o valor do consumo sem desembolso.</p>
+				<p>No caso dos medicamentos para aids, a POF não apurou ocorrência de aquisição com desembolso, pois medicamentos para aids não são vendidos em farmácias comerciais. Assim, não há referência de preço para os usuários em suas estimativas de valor. Amostras pequenas no consumo de medicamentos para aids, autismo, alcoolismo e tabagismo e imunossupressores não permitiram uma estimativa robusta de médias mensais para esses itens.</p>
+				<p>Aquisições sem desembolso também tiveram participações expressivas em medicamentos para: doenças infecciosas ou endêmicas (41,5%), redução de colesterol (31,3%) e sistema nervoso (30%). Com percentuais menores para o valor do total de aquisições sem desembolso estão: anticoncepcionais (9,7%), medicamentos para próstata e vias urinárias (10,7%), medicamentos para problemas ginecológicos (11,6%) e medicamentos para problemas oftalmológicos (14%).</p>
+				<p>A <xref ref-type="table" rid="t3002">Tabela 3</xref> mostra o detalhamento, por faixas de idade e de renda, do percentual de pessoas sem desembolso entre as que obtiveram medicamentos relacionados a cada programa ou política de saúde.</p>
+				<p>
+					<table-wrap id="t3002">
+						<label>Tabela 3</label>
+						<caption>
+							<title>Percentual de pessoas sem desembolso direto entre as que obtiveram medicamentos com garantias específicas de acesso, por politica ou programa associado ao medicamento, faixa de idade e faixa de renda domiciliar (em salários mínimos) (IC95%).</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left">Faixas de idade</th>
+									<th>Programa Nacional de DST/aids</th>
+									<th>Programa Farmácia Popular do Brasil</th>
+									<th>Programa Nacional de Imunizações</th>
+									<th>Política Nacional de Atenção em Oftalmologia</th>
+									<th>Política Nacional de Saúde Mental</th>
+									<th>Política Nacional de Atenção Integral à Saúde da Mulher</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>&lt; 20</td>
+									<td align="center">41,3 (28,2–55,7)</td>
+									<td align="center">38,5 (26,6–51,9)</td>
+									<td align="center">82,9 (61,9–93,5)</td>
+									<td align="center">18,6 (7,5–39,1)</td>
+									<td align="center">36,8 (28,4–46,1)</td>
+									<td align="center">14,3 (10,9–18,5)</td>
+								</tr>
+								<tr>
+									<td>20–29</td>
+									<td align="center">30,6 (23,6–38,6)</td>
+									<td align="center">29,9 (24,2–36,2)</td>
+									<td align="center">81,8 (63,0–92,2)</td>
+									<td align="center">7,7 (3,2–17,1)</td>
+									<td align="center">28,9 (23,0–35,5)</td>
+									<td align="center">11,4 (9,7–13,4)</td>
+								</tr>
+								<tr>
+									<td>30–39</td>
+									<td align="center">20,9 (15,0–28,3)</td>
+									<td align="center">33,7 (30,1–37,6)</td>
+									<td align="center">88,6 (74,4–95,4)</td>
+									<td align="center">8,9 (4,5–16,7)</td>
+									<td align="center">25,2 (21,7–29,0)</td>
+									<td align="center">10,7 (8,9–12,8)</td>
+								</tr>
+								<tr>
+									<td>40–49</td>
+									<td align="center">23,3 (14,8–34,7)</td>
+									<td align="center">41,8 (39,3–44,3)</td>
+									<td align="center">83,9 (64,1–93,8)</td>
+									<td align="center">5,9 (3,3–10,2)</td>
+									<td align="center">29,9 (26,6–33,5)</td>
+									<td align="center">9,8 (7,5–12,7)</td>
+								</tr>
+								<tr>
+									<td>50–59</td>
+									<td align="center">55,2 (33,4–75,2)</td>
+									<td align="center">47,3 (45,2–49,3)</td>
+									<td align="center">79,3 (54,2–92,6)</td>
+									<td align="center">6,8 (4,5–10,3)</td>
+									<td align="center">31,5 (28,5–34,6)</td>
+									<td align="center">15,2 (9,7–23,1)</td>
+								</tr>
+								<tr>
+									<td>60–69</td>
+									<td align="center">54,6 (22,9–82,9)</td>
+									<td align="center">48,8 (46,9–50,8)</td>
+									<td align="center">95,2 (69,5–99,4)</td>
+									<td align="center">15,2 (10,9–20,7)</td>
+									<td align="center">29,5 (25,9–33,3)</td>
+									<td align="center">9,8 (2,7–30,1)</td>
+								</tr>
+								<tr>
+									<td>70–79</td>
+									<td align="center">9,7 (0,2–82,8)</td>
+									<td align="center">48,9 (46,6–51,2)</td>
+									<td align="center">100,0 (ND)</td>
+									<td align="center">15,4 (11,0–21,0)</td>
+									<td align="center">26,6 (22,5–31,2)</td>
+									<td align="center">25,1 (5,5–65,8)</td>
+								</tr>
+								<tr>
+									<td>&gt; 79</td>
+									<td align="center">ND</td>
+									<td align="center">41,8 (38,3–45,4)</td>
+									<td align="center">100,0 (ND)</td>
+									<td align="center">9,5 (4,9–17,4)</td>
+									<td align="center">18,9 (14,1–24,9)</td>
+									<td align="center">22,0 (3,2–70,9)</td>
+								</tr>
+								<tr>
+									<td><bold>Faixas de renda</bold></td>
+									<td align="center"><bold>Programa Nacional de DST/aids</bold></td>
+									<td align="center"><bold>Programa Farmácia Popular do Brasil</bold></td>
+									<td align="center"><bold>Programa Nacional de Imunizações</bold></td>
+									<td align="center"><bold>Política Nacional de Atenção em Oftalmologia</bold></td>
+									<td align="center"><bold>Política Nacional de Saúde Mental</bold></td>
+									<td align="center"><bold>Política Nacional de Atenção Integral à Saúde da Mulher</bold></td>
+								</tr>
+								<tr>
+									<td>&lt; 2</td>
+									<td align="center">44,3 (34,2–54,9)</td>
+									<td align="center">50,0 (47,8–52,1)</td>
+									<td align="center">100,0 (ND)</td>
+									<td align="center">15,1 (10,6–21,1)</td>
+									<td align="center">33,8 (30,4–37,4)</td>
+									<td align="center">16,0 (13,4–19,0)</td>
+								</tr>
+								<tr>
+									<td>2–3</td>
+									<td align="center">34,6 (25,9–44,4)</td>
+									<td align="center">50,7 (48,9–52,5)</td>
+									<td align="center">94,5 (84,6–98,1)</td>
+									<td align="center">13,2 (10,2–17,0)</td>
+									<td align="center">34,9 (32,3–37,6)</td>
+									<td align="center">12,1 (10,2–14,2)</td>
+								</tr>
+								<tr>
+									<td>3–6</td>
+									<td align="center">31,7 (21,4–44,0)</td>
+									<td align="center">51,5 (49,2–53,8)</td>
+									<td align="center">88,6 (70,1–96,2)</td>
+									<td align="center">11,4 (7,9–16,2)</td>
+									<td align="center">36,4 (32,9–40,1)</td>
+									<td align="center">15,4 (12,5–18,8)</td>
+								</tr>
+								<tr>
+									<td>6–10</td>
+									<td align="center">13,6 (4,9–32,9)</td>
+									<td align="center">30,7 (27,4–34,2)</td>
+									<td align="center">74,3 (39,0–92,9)</td>
+									<td align="center">4,5 (1,5–12,6)</td>
+									<td align="center">12,4 (8,9–16,9)</td>
+									<td align="center">5,6 (3,5–9,1)</td>
+								</tr>
+								<tr>
+									<td>10–15</td>
+									<td align="center">20,4 (13,2–30,2)</td>
+									<td align="center">43,3 (40,6–46,1)</td>
+									<td align="center">82,8 (55,8–94,8)</td>
+									<td align="center">8,3 (5,1–13,2)</td>
+									<td align="center">23,4 (20,0–27,2)</td>
+									<td align="center">8,1 (6,2–10,6)</td>
+								</tr>
+								<tr>
+									<td>15–25</td>
+									<td align="center">8,4 (2,7–23,0)</td>
+									<td align="center">24,9 (20,9–29,4)</td>
+									<td align="center">52,1 (28,7–74,7)</td>
+									<td align="center">4,1 (1,3–12,1)</td>
+									<td align="center">9,8 (6,4–14,6)</td>
+									<td align="center">5,7 (2,5–12,5)</td>
+								</tr>
+								<tr>
+									<td>&gt; 25</td>
+									<td align="center">6,5 (1,3–26,4)</td>
+									<td align="center">13,5 (10,2–17,8)</td>
+									<td align="center">65,8 (30,3–89,5)</td>
+									<td align="center">3,8 (0,5–22,2)</td>
+									<td align="center">4,4 (1,9–9,7)</td>
+									<td align="center">4,1 (1,3–12,4)</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<attrib>Fonte: dados da Pesquisa de Orçamentos Familiares (POF), 2017–2018.</attrib>
+							<fn id="TFN5002">
+								<p>IC95%: intervalo de confiança de 95%; ND: não disponível; DST: doenças sexualmente transmissíveis.</p>
+							</fn>
+							<fn id="TFN6002">
+								<p>Nota: programas com amostra pequena ou resultados não significativos não foram incluídos.</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p>Na maioria dos programas e políticas com garantias específicas para medicamentos, as diferenças entre as faixas de idade não foram significativas. No caso de algumas políticas de saúde, o tamanho da amostra não permitiu a desagregação por faixas de idade e renda.</p>
+				<p>Exceto pela Política Nacional de Atenção em Oftalmologia (com intervalo de confiança muito largo para permitir essa conclusão), para os programas estudados, as faixas de zero a 15 salários mínimos tiveram percentuais mais altos de pessoas que obtiveram medicamentos sem desembolso. As pessoas em domicílios com renda acima de 15 salários mínimos formam um outro grupo, com menor participação das que obtiveram medicamentos sem desembolso (<xref ref-type="table" rid="t3002">Tabela 3</xref>).</p>
+			</sec>
+			<sec sec-type="discussion">
+				<title>DISCUSSÃO</title>
+				<p>A POF mostra que 20,5% do consumo de medicamentos (em valor) ocorreu sem desembolso das famílias. A maior parte das aquisições de medicamentos sem desembolso foi feita por pessoas nas faixas de renda domiciliar até 10 salários mínimos e nas faixas etárias mais altas. Ainda assim, a participação do financiamento público no consumo de medicamentos é notoriamente baixa no Brasil e está longe da média da OECD, de 58%<sup><xref ref-type="bibr" rid="B23">23</xref></sup>.</p>
+				<p>Na Conta-Satélite de Saúde<sup><xref ref-type="bibr" rid="B2">2</xref></sup>, publicação do IBGE com dados agregados sobre bens e serviços relacionados à saúde, o consumo de medicamentos sem desembolso direto das famílias brasileiras representa 7,5% do consumo total. A principal razão para a diferença entre os percentuais sem desembolso na POF e na Conta-Satélite tem relação com preços e com o tipo de medicamento comprado pelo governo. O governo disponibiliza medicamentos com base em prescrições médicas e uso racional e paga preços menores do que os praticados para venda às famílias, pois conta com os Preços Máximos de Venda Governamental, abaixo dos de mercado para alguns medicamentos, e compra em escalas maiores. Assim, para um mesmo total de recursos, o governo compra mais unidades de medicamentos do que as famílias. É possível dizer que, estimado com preços similares para as aquisições com e sem desembolso, o percentual sem desembolso da POF está mais perto de descrever a proporção dessas aquisições em termos de quantidades físicas do que a comparação de valores feita na Conta-Satélite<sup><xref ref-type="bibr" rid="B24">24</xref></sup>.</p>
+				<p>As garantias específicas contidas em determinadas políticas e programas específicos (como o Programa Nacional de Imunizações e o Programa Farmácia Popular) parecem ter assegurado um acesso sem desembolso superior ao da lista de garantias gerais da PNAF. Isso configura um padrão semelhante ao de países em desenvolvimento, que tendem a concentrar o financiamento público da AF em nichos específicos de populações ou doenças<sup><xref ref-type="bibr" rid="B4">4</xref></sup>.</p>
+				<p>Entretanto, as garantias específicas de acesso a medicamentos têm coberturas muito distintas. Entre os medicamentos analisados com maior participação do consumo sem desembolso estão as vacinas (83,3%) e os medicamentos para câncer (70,3%). No outro extremo, com baixo percentual de aquisições sem desembolso, estão anticoncepcionais (9,7%), medicamentos para próstata e vias urinárias (10,7%), para problemas ginecológicos (11,6%) e para problemas oftalmológicos (14%).</p>
+				<p>O acesso sem desembolso a medicamentos para hipertensão e diabetes via Programa Farmácia Popular evitou internações no SUS e mortes relacionadas a essas doenças nos municípios em que o programa foi implementado<sup><xref ref-type="bibr" rid="B25">25</xref></sup>. Quando esses medicamentos passaram a ter distribuição gratuita, sem copagamento, seu uso aumentou, indicando que, para muitas pessoas, o preço é uma barreira ao acesso, ainda que esses produtos sejam dispensados em farmácias das unidades de saúde do SUS<sup><xref ref-type="bibr" rid="B26">26</xref>,<xref ref-type="bibr" rid="B27">27</xref></sup>.</p>
+				<p>Pessoas com menor renda obtêm medicamentos sem desembolso com mais frequência que pessoas nas faixas mais altas. Como, para elas, o preço é mais frequentemente uma barreira ao acesso<sup><xref ref-type="bibr" rid="B26">26</xref></sup>, a obtenção sem desembolso contribui para evitar a piora de seu estado de saúde, possíveis internações e também mortes precoces por interrupção do tratamento de doenças crônicas já diagnosticadas<sup><xref ref-type="bibr" rid="B25">25</xref></sup>.</p>
+				<p>Depreende-se que a redução do financiamento público de medicamentos, observada em registros administrativos desde 2016, pode ter efeitos graves não só sobre a saúde da população como sobre as despesas com serviços – sobrecarregando a rede hospitalar com casos evitáveis<sup><xref ref-type="bibr" rid="B25">25</xref></sup>.</p>
+				<p>O programa de AF de menor cobertura foi o de atenção à mulher. Esse foi um achado surpreendente considerando o destaque desse segmento de políticas – relacionadas às metas três e cinco dos Objetivos de Desenvolvimento Sustentável (ODS)<sup><xref ref-type="bibr" rid="B28">28</xref></sup>. As políticas de atenção à saúde do homem, atenção em oftalmologia e controle do tabagismo também tiveram baixa participação de medicamentos obtidos sem desembolso direto. Entre as políticas mais recentes, o baixo desembolso exigido para acesso a alguns medicamentos, como os anticoncepcionais, vendidos a preços mais baixos em farmácias privadas, pode ser um dos motivos da baixa cobertura nesses segmentos. O incentivo para buscar medicamentos públicos está provavelmente ligado aos altos preços e às baixas barreiras de acesso. Procedimentos complexos para obter os medicamentos podem desmotivar essa procura, penalizando em especial aqueles com menor renda. Isso sugere a necessidade de simplificar procedimentos de acesso a medicamentos em que a obtenção sem desembolso tem sido baixa, como no caso de anticoncepcionais.</p>
+				<p>Chama atenção a boa cobertura nos chamados “medicamentos da pobreza” (vacinas e para doenças endêmicas). Esses medicamentos têm foco em doenças transmissíveis e figuram entre as mais antigas garantias específicas na AF, com o Programa Nacional de Imunização precedendo inclusive à PNAF<sup><xref ref-type="bibr" rid="B29">29</xref></sup>.</p>
+				<p>Este estudo tem algumas limitações. Para idades muito avançadas, a amostra pequena conduz a estimativas pouco robustas, dada a variabilidade dos dados. No caso de medicamentos menos usados (como os para tabagismo ou para câncer), amostras pequenas produzem variâncias grandes impedindo uma análise significativa por faixa de idade ou de renda.</p>
+				<p>Há diferenças entre os valores apresentados na POF para obtenção de medicamentos sem desembolso e os registros administrativos do governo para despesas com programas específicos – como o para aids. Essa limitação da base de dados está relacionada à atribuição de valores, pelos entrevistados na POF, para os medicamentos obtidos sem desembolso e também ao tamanho da amostra no caso de medicamentos usados por uma parte pequena da população.</p>
+				<p>A pesquisa não registra aquisições de medicamentos por pessoas com menos de 10 anos de idade. Como o registro está associado a quem fez a aquisição (e não a quem usou o medicamento), pode-se supor que a aquisição para pessoas na faixa mais baixa é, em grande parte, feita por seus pais e registrada como deles, levando à possível superestimativa no consumo das faixas etárias com filhos ou dependentes menores.</p>
+				<p>Merecem também menção a distribuição gratuita de medicamentos vinculada à amostra grátis<sup><xref ref-type="bibr" rid="B30">30</xref></sup>e, desde 2014, a distribuição de antineoplásicos orais e medicamentos para combate a efeitos colaterais da quimioterapia por planos de saúde<sup><xref ref-type="bibr" rid="B31">31</xref></sup>, que podem responder por parte do consumo sem desembolso. Seria incorreto afirmar que toda a aquisição de medicamentos sem desembolso na POF está relacionada a financiamentos do SUS.</p>
+				<p>O fato de os valores do consumo sem desembolso (aquisições não monetárias, na POF) serem estimados pelos declarantes tem motivado desconfiança em relação a esses dados e poderia ser considerado uma limitação. Entretanto, comparando valores médios mensais para aquisições com e sem desembolso para os tipos de medicamentos estudados, não foram encontradas diferenças substanciais – o que justifica o uso desses dados. O uso dos dados de aquisições não monetárias é uma das contribuições positivas deste artigo para o estudo da cobertura da AF.</p>
+				<p>As políticas e programas analisados receberam destaque neste estudo porque têm previsão de oferta de medicamentos de forma específica para seus beneficiários. Mas é importante lembrar que o direito à assistência terapêutica integral é componente do direito à saúde e que, para garanti-lo, os entes da Federação têm implementado uma série de medidas para o fortalecimento da AF no SUS. Uma ampla rede de farmácias públicas é responsável por sua dispensação em todo o país. Contudo, a baixa disponibilidade de medicamentos nessas farmácias<sup><xref ref-type="bibr" rid="B32">32</xref></sup> pode explicar, em parte, os percentuais elevados de aquisição de medicamentos com desembolso direto, mesmo para aqueles que têm garantias extras definidas em políticas e programas específicos e para tratamento de doenças de alta prevalência. Essa situação indica a existência de barreiras de acesso a esses produtos no SUS.</p>
+				<p>Os resultados deste artigo sugerem a necessidade de fortalecer e ampliar as políticas de AF, que têm beneficiado principalmente pessoas de menor renda ou maior consumo relacionado à idade. Os dados sobre aquisições monetárias e não monetárias de medicamentos da POF, ainda que de maneira indireta, ajudam a descrever o alcance dessas políticas no que se refere ao acesso a medicamentos.</p>
+				<p>
+					<table-wrap id="t4002">
+						<label>Quadro</label>
+						<caption>
+							<title>Garantias específicas de acesso a medicamentos em políticas e programas de saúde, segundo tipos de medicamento da POF.</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left">Políticas/Programas</th>
+									<th>Garantias específicas de acesso a medicamentos</th>
+									<th>Tipos de medicamentos da POF</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Política Nacional de Atenção em Oftalmologia</td>
+									<td align="center">Assistência farmacêutica no SUS como elemento da política, com foco no tratamento do glaucoma. Inclusão de medicamentos no Componente Especializado da Assistência Farmacêutica (CEAF)<sup>13,14</sup>.</td>
+									<td align="center">Para problema ocular (oftalmológico)</td>
+								</tr>
+								<tr>
+									<td rowspan="2">Política Nacional de Atenção Integral à Saúde da Mulher</td>
+									<td align="center" rowspan="2">Oferta de métodos anticoncepcionais para a população em idade reprodutiva. Inclui contraceptivos orais e injetáveis, dispositivo intrauterino (DIU) e diafragma<sup>13,14</sup>.</td>
+									<td align="center">Anticoncepcional</td>
+								</tr>
+								<tr>
+									<td align="center">Para problema ginecológico</td>
+								</tr>
+								<tr>
+									<td>Política Nacional para a Prevenção e Controle do Câncer na Rede de Atenção à Saúde das Pessoas com Doenças Crônicas</td>
+									<td align="center">Acesso dos pacientes à quimioterapia. Com o lançamento de quimioterápicos de uso oral, os centros de alta complexidade em oncologia (CACON) e as unidades de assistência em alta complexidade em oncologia (UNACON) passaram a dispensar medicamentos quimioterápicos para uso pelos pacientes em seus domicílios. O Ministério da Saúde realiza a compra centralizada de alguns antineoplásicos com o objetivo de reduzir o custo dos tratamentos no SUS e aumentar o acesso da população ao tratamento<sup>13,15</sup>.</td>
+									<td align="center">Para câncer</td>
+								</tr>
+								<tr>
+									<td rowspan="4">Política de Saúde Mental</td>
+									<td align="center" rowspan="4">Acesso a medicamentos para pessoas com sofrimento ou transtorno mental. Na Relação Nacional de Medicamentos Essenciais (Rename) estão incluídos medicamentos para tratamento de diversos problemas de saúde nessa área: ansiolíticos, antidepressivos, antipsicóticos, entre outros<sup>13,14,16</sup>.</td>
+									<td align="center">Para autismo</td>
+								</tr>
+								<tr>
+									<td align="center">Para depressão (antidepressivo)</td>
+								</tr>
+								<tr>
+									<td align="center">Para estresse (calmante)</td>
+								</tr>
+								<tr>
+									<td align="center">Para o sistema nervoso</td>
+								</tr>
+								<tr>
+									<td>Política Nacional de Transplantes de Órgãos e Tecidos</td>
+									<td align="center">Não existe uma política formal com essa denominação. Mas, sim, um Sistema Nacional de Transplantes, além de protocolos clínicos e diretrizes terapêuticas que estabelecem o uso de imunossupressores e de outros medicamentos no tratamento dos pacientes transplantados. Os medicamentos constantes dos protocolos estão incluídos na Rename<sup>14,17</sup>.</td>
+									<td align="center">Medicamentos imunossupressores</td>
+								</tr>
+								<tr>
+									<td>Política Nacional de Atenção Integral da Saúde do Homem</td>
+									<td align="center">Prevê entre as suas diretrizes o tratamento dos agravos e enfermidades do homem. Na Rename, estão incluídos medicamentos para o tratamento da hiperplasia prostática benigna<sup>13,14</sup>.</td>
+									<td align="center">Para próstata e vias urinárias</td>
+								</tr>
+								<tr>
+									<td rowspan="5">Programa Farmácia Popular do Brasil</td>
+									<td align="center" rowspan="5">Dispensação por farmácias privadas, mediante copagamento dos usuários, de uma lista de medicamentos usados no tratamento da dislipidemia, osteoporose, glaucoma, rinite e doença de Parkinson, além de contraceptivos e fraldas geriátricas. Dispensação gratuita ao paciente de medicamentos usados no tratamento da hipertensão, diabetes e asma<sup>18,19</sup>.</td>
+									<td align="center">Para asma e bronquite</td>
+								</tr>
+								<tr>
+									<td align="center">Para diabetes</td>
+								</tr>
+								<tr>
+									<td align="center">Para os ossos e articulações</td>
+								</tr>
+								<tr>
+									<td align="center">Para pressão alta (anti-hipertensivo)</td>
+								</tr>
+								<tr>
+									<td align="center">Para redução de colesterol ou triglicerídeos</td>
+								</tr>
+								<tr>
+									<td>Programa Nacional de Controle do Tabagismo</td>
+									<td align="center">Acesso a medicamentos para tratamento das pessoas tabagistas<sup>14,16</sup>.</td>
+									<td align="center">Combate ao alcoolismo e tabagismo</td>
+								</tr>
+								<tr>
+									<td rowspan="2">Programa Nacional de DST/aids</td>
+									<td align="center" rowspan="2">Acesso a medicamentos antirretrovirais e a outros medicamentos para tratamento de doenças oportunistas<sup>14,20</sup>.</td>
+									<td align="center">Para aids</td>
+								</tr>
+								<tr>
+									<td align="center">Preservativo e lubrificante íntimo</td>
+								</tr>
+								<tr>
+									<td>Programa Nacional de Imunizações</td>
+									<td align="center">Acesso a vacinas e soros<sup>14,21</sup>.</td>
+									<td align="center">Vacinas</td>
+								</tr>
+								<tr>
+									<td>Programas Estratégicos de Saúde</td>
+									<td align="center">Não existe um programa formal com essa denominação. Agrega um conjunto de programas em saúde, tais como controle da tuberculose, da hanseníase, das endemias focais, da gripe (Influenza), além da prevenção de deficiências nutricionais e do programa de sangue e hemoderivados<sup>14,22</sup>.</td>
+									<td align="center">Para doenças infecciosas e endêmicas</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN7002">
+								<p>POF: Pesquisa de Orçamentos Familiares; DST: doenças sexualmente transmissíveis.</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+			</sec>
+		</body>
+		<back>
+			<fn-group>
+				<fn fn-type="financial-disclosure" id="fn2002">
+					<p>Financiamento: Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (Capes - taxa de publicação do artigo).</p>
+				</fn>
+			</fn-group>
+		</back>
+	</sub-article>
+</article>

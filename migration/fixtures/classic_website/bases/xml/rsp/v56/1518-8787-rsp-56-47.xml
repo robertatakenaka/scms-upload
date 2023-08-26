@@ -1,0 +1,3065 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.1" specific-use="sps-1.9" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="nlm-ta">Rev Saude Publica</journal-id>
+			<journal-id journal-id-type="publisher-id">rsp</journal-id>
+			<journal-title-group>
+				<journal-title>Revista de Saúde Pública</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Rev. Saúde Pública</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="ppub">0034-8910</issn>
+			<issn pub-type="epub">1518-8787</issn>
+			<publisher>
+				<publisher-name>Faculdade de Saúde Pública da Universidade de São Paulo</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="other">00238</article-id>
+			<article-id pub-id-type="doi">10.11606/s1518-8787.2022056003299</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Original Article</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Factors related to healthcare costs of road traffic accidents in Bucaramanga, Colombia</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-0666-9285</contrib-id>
+					<name>
+						<surname>Rivera-Carvajal</surname>
+						<given-names>Raquel</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-0010-7564</contrib-id>
+					<name>
+						<surname>Páez-Esteban</surname>
+						<given-names>Astrid Nathalia</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-7064-9380</contrib-id>
+					<name>
+						<surname>Torres-Contreras</surname>
+						<given-names>Claudia Consuelo</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-5476-0281</contrib-id>
+					<name>
+						<surname>Esquiaqui-Felipe</surname>
+						<given-names>Rafael Enrique</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+					<xref ref-type="aff" rid="aff3"><sup>III</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-7695-3321</contrib-id>
+					<name>
+						<surname>González</surname>
+						<given-names>Nixon Ricardo</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff4"><sup>IV</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-5047-9943</contrib-id>
+					<name>
+						<surname>Mejía-Muñoz</surname>
+						<given-names>Claudia Celmira</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff5"><sup>V</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>I</label>
+				<institution content-type="orgname">Universidad de Santander</institution>
+				<institution content-type="orgdiv1">Facultad de Ciencias Medicas y de la Salud</institution>
+				<institution content-type="orgdiv2">Instituto Masira</institution>
+				<addr-line>
+					<named-content content-type="city">Bucaramanga</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+				<institution content-type="original">Universidad de Santander. Facultad de Ciencias Medicas y de la Salud. Instituto Masira, Grupo Everest. Bucaramanga, Colombia</institution>
+			</aff>
+			<aff id="aff2">
+				<label>II</label>
+				<institution content-type="orgname">Universidad de Santander</institution>
+				<institution content-type="orgdiv1">Facultad de Ciencias Medicas y de la Salud</institution>
+				<institution content-type="orgdiv2">Instituto Masira</institution>
+				<addr-line>
+					<named-content content-type="city">Bucaramanga</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+				<institution content-type="original">Universidad de Santander. Facultad de Ciencias Medicas y de la Salud. Instituto Masira, Grupo de Salud Pública. Bucaramanga, Colombia</institution>
+			</aff>
+			<aff id="aff3">
+				<label>III</label>
+				<institution content-type="orgname">Secretaria de Salud de Bucaramanga</institution>
+				<institution content-type="orgdiv1">Observatorio Digital Municipal</institution>
+				<addr-line>
+					<named-content content-type="city">Bucaramanga</named-content>
+					<named-content content-type="state">Santander</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+				<institution content-type="original">Secretaria de Salud de Bucaramanga. Observatorio Digital Municipal. Bucaramanga, Santander, Colombia</institution>
+			</aff>
+			<aff id="aff4">
+				<label>IV</label>
+				<institution content-type="orgname">Dirección de Transito de Bucaramanga</institution>
+				<institution content-type="orgdiv1">División Estadísticas</institution>
+				<addr-line>
+					<named-content content-type="city">Bucaramanga</named-content>
+					<named-content content-type="state">Santander</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+				<institution content-type="original">Dirección de Transito de Bucaramanga. División Estadísticas. Bucaramanga, Santander, Colombia</institution>
+			</aff>
+			<aff id="aff5">
+				<label>V</label>
+				<institution content-type="orgname">Dirección de Transito de Bucaramanga</institution>
+				<institution content-type="orgdiv1">Subdirección Técnica</institution>
+				<addr-line>
+					<named-content content-type="city">Bucaramanga</named-content>
+					<named-content content-type="state">Santander</named-content>
+				</addr-line>
+				<country country="CO">Colombia</country>
+				<institution content-type="original">Dirección de Transito de Bucaramanga. Subdirección Técnica. Bucaramanga, Santander, Colombia</institution>
+			</aff>
+			<author-notes>
+				<corresp id="c01"> Correspondence: Raquel Rivera Carvajal Calle, 70 55-210 Bucaramanga, Santander, Colombia E-mail: <email>raquelrivera_c@hotmail.com</email>
+				</corresp>
+				<fn fn-type="con">
+					<p><bold>Authors’ Contribution:</bold> Study design and planning: RRC, ANPE, CCTC, REEF. Data collection, analysis and interpretation: RRC, REEF, NRG, CCMM. Manuscript drafting or review: RRC, ANPE, CCTC, REEF, NRG, CCMM. Approval of the final version: RRC, ANPE, CCTC, REEF, NRG, CCMM. Public responsibility for the content of the article: RRC, ANPE, CCTC, REEF, NRG, CCMM.</p>
+				</fn>
+				<fn fn-type="conflict">
+					<p><bold>Conflict of Interest:</bold> The authors declare no conflict of interest.</p>
+				</fn>
+			</author-notes>
+			<pub-date date-type="pub" publication-format="electronic">
+				<day>13</day>
+				<month>06</month>
+				<year>2022</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">
+				<year>2022</year>
+			</pub-date>
+			<volume>56</volume>
+			<elocation-id>47</elocation-id>
+			<history>
+				<date date-type="received">
+					<day>29</day>
+					<month>10</month>
+					<year>2020</year>
+				</date>
+				<date date-type="accepted">
+					<day>23</day>
+					<month>07</month>
+					<year>2021</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="en">
+					<license-p> This is an Open Access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. </license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>ABSTRACT</title>
+				<sec>
+					<title>OBJECTIVE</title>
+					<p> To determine the factors related to overall healthcare costs of road traffic accidents in Bucaramanga, Colombia.</p>
+				</sec>
+				<sec>
+					<title>METHODS</title>
+					<p> A descriptive cross-sectional study was conducted through the analysis of road traffic accident records that took place in 2019 in Bucaramanga, Colombia. Cost quartiles in dollars were compared using Pearson’s chi-squared and Fisher’s exact tests. Odds ratios were also calculated in logistic regression.</p>
+				</sec>
+				<sec>
+					<title>RESULTS</title>
+					<p> 3,150 road accidents were reported in 2019 involving 7,038 people, of which 812 had information related to healthcare costs in health care institutions. The median cost was 56.59 USD (RI = 29.35–140.15), average cost of 290.11 USD ± 731.22 (95%CI: 239.74–340.48). A higher possibility to be in the 4th quartile was found when persons were under 18 years of age (OR = 4.88; 95%CI: 1.30–18.32) or 46–60 years (OR = 3.66; 95%CI: 1.01–13.30), the type of vehicle involved is motorcycle (OR = 2.79; 95%CI: 1.25–6.24), bicycle (OR = 7.66; 95%CI: 2.70–21.68), having a head injury (OR = 4.50; 95%CI: 2.61–7.76) and hypothetical drunk driving (OR = 12.44; 95%CI: 2.01–76.87).</p>
+				</sec>
+				<sec>
+					<title>CONCLUSIONS</title>
+					<p> Relevant factors in healthcare costs were riding a motorcycle or bicycle, having a head injury, being under 18 years of age or 46 to 60 years of age and hypothetical drunk driving. It is important to implement prevention measures based on identified factors to reduce road accident rate and therefore, its socioeconomic costs.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="en">
+				<kwd>Accidents, Traffic</kwd>
+				<kwd>Health Expenditures</kwd>
+				<kwd>Factores de Riesgo</kwd>
+				<kwd>Estudios Transversales</kwd>
+			</kwd-group>
+			<funding-group>
+				<award-group>
+					<funding-source>Universidad de Santander</funding-source>
+					<award-id>CIF0315-9</award-id>
+				</award-group>
+				<funding-statement>Funding: Universidad de Santander (UDES – intern call nº CIF0315-9). Dirección de Transito de Bucaramanga. Secretaria de Salud de Bucaramanga.</funding-statement>
+			</funding-group>
+			<counts>
+				<fig-count count="2"/>
+				<table-count count="6"/>
+				<equation-count count="0"/>
+				<ref-count count="28"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>INTRODUCTION</title>
+			<p>Traffic accidents or crashes represent a worldwide public health problem. The global burden of disease from road traffic crashes or accidents was 877.4 per 100,000 inhabitants (age-standardized rate) in 2016, being more frequent in Central and Eastern European countries<sup><xref ref-type="bibr" rid="B1">1</xref> , <xref ref-type="bibr" rid="B2">2</xref></sup> . Mortality due to this matter was 18.3 and years of life lost was 817.4 per 100,000 inhabitants<sup><xref ref-type="bibr" rid="B2">2</xref></sup> .</p>
+			<p>In Colombia, during 2019 the rate of traffic accidents was 1,214, with a mortality rate of 14.6 (95%CI: 11.1–18.6) per 100,000 inhabitants, the latter corresponds to 3.13% of the total deaths in the country, positioning it as the ninth cause of death. Mortality is higher in men (24 per 100,000 inhabitants) than in women (5.9 per 100,000 habitants); it is also more frequent in people over 70 years of age. Likewise, the years of life lost were 701.7 per 100,000 ihabitants, which places it in sixth place<sup><xref ref-type="bibr" rid="B3">3</xref></sup> .</p>
+			<p>Many factors can be associated with traffic accidents occurrence. A classification conducted in Mexico<sup><xref ref-type="bibr" rid="B4">4</xref></sup> suggests that factors can be classified into three stages: before, during and after the event. In addition, factors can be grouped into individual factors (pedestrians, motorcyclists and/or drivers), vehicle factors (equipment and protection elements) and environmental factors (climatic factors and infrastructure), some of which can be opportunities for public health research and intervention<sup><xref ref-type="bibr" rid="B5">5</xref></sup> .</p>
+			<p>In addition, timely emergency care saves lives and reduces disabilities. It is estimated that if low-and middle-income countries had the same mortality rates from severe injuries that of high-income countries, 500,000 deaths caused by road crashes could be avoided each year<sup><xref ref-type="bibr" rid="B6">6</xref></sup> .</p>
+			<p>In this light, emergency care (pre-hospital, transport and services in healthcare provider institutions) should involve basic aspects such as ensuring access to emergency care, providing main structural components for prehospital care, implementing basic emergency service packages at each level of care, creating a national lead agency and evaluating the emergency care system<sup><xref ref-type="bibr" rid="B6">6</xref></sup> . The above is to reduce deaths and disabilities due to road traffic injuries, lower socioeconomic costs related to countries, families and individuals, have more efficient and effective use of existing healthcare resources at all levels of the system and expand emergency care capacity and resilience of the system to maintain service provision even during crashes with multiple victims.</p>
+			<p>Traffic accidents are estimated to take about 1 to 4% of the gross domestic product (GDP) in developing countries<sup><xref ref-type="bibr" rid="B7">7</xref></sup> . In Colombia, although healthcare service costs are covered by the Compulsory Traffic Accident Insurance (SOAT for its acronym in Spanish), which must be purchased for each vehicle, sometimes this insurance is not enough to cover these costs. Therefore, after exceeding insurance coverage limits, the bill is covered by health promoting entities. In Bogotá, healthcare costs of traffic accidents were estimated at $1,112,000 COP per patient ($278 USD), inpatient day at $1,200,000 and outpatient care at $247,400 COP<sup><xref ref-type="bibr" rid="B8">8</xref></sup> .</p>
+			<p>As previously described, this study was meant to determinate the different factors related with the total costs generated during heath care attentions for traffic accidents in Bucaramanga, Santander, Colombia, during 2019.</p>
+		</sec>
+		<sec sec-type="methods">
+			<title>METHODS</title>
+			<sec>
+				<title>Study Design and Population</title>
+				<p>A descriptive cross-sectional study was conducted by analyzing secondary data from traffic accident records in Bucaramanga in 2019 provided by the Traffic Directorate and the Municipal Digital Observatory of Bucaramanga using census sampling.</p>
+			</sec>
+			<sec>
+				<title>Data Collection</title>
+				<p>Based on 7,038 records from people involved in 3,150 traffic accidents that took place in Bucaramanga during 2019 reported by the Traffic Directorate and the healthcare data reported by the Municipal Digital Observatory from healthcare provider institutions, it was possible to obtain costs for 812 people treated in multiple healthcare institutions around the city. Databases were extracted, cleaned-up and cross-referenced afterward ( <xref ref-type="fig" rid="f01">Figure</xref> ).</p>
+				<p>
+					<fig id="f01">
+						<label>Figure</label>
+						<caption>
+							<title>Process of obtaining information.</title>
+						</caption>
+						<graphic xlink:href="1518-8787-rsp-56-47-gf01.tif"/>
+					</fig>
+				</p>
+				<p>The dependent variable was direct healthcare costs (such as emergency care, in-patient care, surgical procedures, etc.) reported by healthcare institutions to the Bucaramanga Secretary of Health, including medical examination/care (by general practitioners, medical specialists and nursing), diagnostic aids (laboratory tests, X-rays, CT scans, MRI scans, etc.) and treatments (medication, surgical procedures.)</p>
+				<p>In addition, the following covariates were considered: identifier, gender (male, female), age (in years and categories of &lt; 18, 18–25, 26–35, 36–45, 46–60 and &gt; 60 years), type of vehicle involved (car, motorcycle, SUV, truck, bus), accident hypothesis (failure to obey traffic signals and rules, failure to keep safe distance, sharp turns, inexperienced driving, speeding, improper overtaking, etc.), place of occurrence, bearing a driving license and compulsory traffic accident insurance, location of healthcare institution, severity, date of occurrence, day of the week (Monday, Tuesday, Wednesday, Thursday, Friday, Saturday or Sunday), district, healthcare provider institution, surgery requirement, death, affected body part (head, neck, thorax, abdomen, upper limbs, lower limbs, several parts of the body, soft tissues, genitalia - of the International Classification of Diseases, 10th edition - ICD-10 based variable), diagnosis, road users and general healthcare costs in Colombian pesos.</p>
+			</sec>
+			<sec>
+				<title>Data Analysis and Treatment</title>
+				<p>Variables were described by using proportions of qualitative variables, average, standard deviation, median and interquartile range according to the normal distribution of quantitative variables. The variable “costs” was converted into dollars (1 dollar = 4,000 COP according to the representative exchange rate on March 31, 2020 provided by the Financial Superintendence of Colombia). Quartiles were calculated afterward. Differences between quartiles were studied in relation to the variables age, sex, type of vehicle involved, day of the week, accident hypothesis, bearing a driving license and mandatory traffic accident insurance, affected body part, in addition to other traffic accident variables through Pearson’s chi-square and Fisher’s exact tests. Statistical significance was considered when the p-value was &lt; 0.05.</p>
+				<p>Odds ratios were calculated by logistic regression, representing an increase in the possibility of being in the 4th quartile at a 95% confidence interval for the category of interest with respect to the reference category (assigned as “1”). As for the affected body part variable, the reference was several parts of the body when referring to injuries in several parts of the body. Data analysis was performed using the Stata 11.0 software (StataCorp College Station, United States.)</p>
+			</sec>
+			<sec>
+				<title>Ethical Considerations</title>
+				<p>The project was approved under an internal call for proposals (code CIF0315-19) at the <italic>Universidad de Santander</italic> (UDES) by the University Ethics Committee (Minutes 019 of 2019) and the <italic>Empresa Social del Estado Hospital Universitario de Santander</italic> - HUS (Santander University Hospital) as recorded in Minutes 09 of 2019, classified as a minimal risk study according to the Colombian regulations, Resolution 8430 of 1993 by the Ministry of Health. Data was processed in accordance with the provisions of the Colombian Statutory Law 1581 of 2012 (Habeas Data Law), which establishes personal data protection regulations.</p>
+			</sec>
+		</sec>
+		<sec sec-type="results">
+			<title>RESULTS</title>
+			<p>According to the Municipal Traffic Directorate, 7,038 people were involved in 3,150 traffic accidents in 2019. Of these people, a high proportion was male at 88.48% (6,227) and 29.67% (2,088) were in the 26–35 age range. Median age was 34 years of age (RI = 26–46). In addition, 81.15% (5,711) had a driving license and 93.81% (6,602) had compulsory insurance. The most relevant accident hypotheses were failure to obey traffic signals and rules, failure to keep a safe distance, making a sharp turn, driver inexperience and speeding, respectively. Regarding the type of vehicle involved, cars and motorcycles were the most relevant. Saturdays and Tuesdays had the highest number of people injured in accidents ( <xref ref-type="table" rid="t1">Table 1</xref> ). In addition, 51.66% (3,636) had some type of injury, 0.84% (59) died and 47.50% (3,343) had no severe injuries.</p>
+			<p>
+				<table-wrap id="t1">
+					<label>Table 1</label>
+					<caption>
+						<title>Characteristics of people involved in road traffic accidents - Bucaramanga, Santander, Colombia, 2019.</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left">Characteristics</th>
+								<th>%(n) (n = 7,038)</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Gender</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Female</td>
+								<td align="center">11.52 (811)</td>
+							</tr>
+							<tr>
+								<td>Male</td>
+								<td align="center">88.48 (6,227)</td>
+							</tr>
+							<tr>
+								<td>Age Median (RI)</td>
+								<td align="center">34 (26–46)</td>
+							</tr>
+							<tr>
+								<td>Age range</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>&lt; 18 years</td>
+								<td align="center">5.36 (377)</td>
+							</tr>
+							<tr>
+								<td>18–25 years</td>
+								<td align="center">19.37 (1,363)</td>
+							</tr>
+							<tr>
+								<td>26–35 years</td>
+								<td align="center">29.67 (2,088)</td>
+							</tr>
+							<tr>
+								<td>36–45 years</td>
+								<td align="center">19.51 (1,373)</td>
+							</tr>
+							<tr>
+								<td>46–60 years</td>
+								<td align="center">19.34 (1,361)</td>
+							</tr>
+							<tr>
+								<td>&gt; 60 years</td>
+								<td align="center">6.76 (476)</td>
+							</tr>
+							<tr>
+								<td>Driving license</td>
+								<td align="center">81.15 (5,711)</td>
+							</tr>
+							<tr>
+								<td>Mandatory insurance</td>
+								<td align="center">93.81 (6,602)</td>
+							</tr>
+							<tr>
+								<td>Relevant accident hypothesis</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Failure to obey traffic signals and rules</td>
+								<td align="center">25.69 (1,808)</td>
+							</tr>
+							<tr>
+								<td>Failure to keep a safe distance</td>
+								<td align="center">21.81 (1,535)</td>
+							</tr>
+							<tr>
+								<td>Making sharp turns</td>
+								<td align="center">3.59 (253)</td>
+							</tr>
+							<tr>
+								<td>Inexperienced driving</td>
+								<td align="center">3.38 (238)</td>
+							</tr>
+							<tr>
+								<td>Speeding</td>
+								<td align="center">2.71 (191)</td>
+							</tr>
+							<tr>
+								<td>Improper overtaking</td>
+								<td align="center">2.02 (142)</td>
+							</tr>
+							<tr>
+								<td>Type of vehicle involved</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Car</td>
+								<td align="center">39.41 (2,774)</td>
+							</tr>
+							<tr>
+								<td>Motorbike</td>
+								<td align="center">34.27 (2,412)</td>
+							</tr>
+							<tr>
+								<td>SUV</td>
+								<td align="center">11.41 (803)</td>
+							</tr>
+							<tr>
+								<td>Truck</td>
+								<td align="center">3.42 (241)</td>
+							</tr>
+							<tr>
+								<td>Bus</td>
+								<td align="center">3.00 (211)</td>
+							</tr>
+							<tr>
+								<td>Day of the week</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Monday</td>
+								<td align="center">14.22 (1,001)</td>
+							</tr>
+							<tr>
+								<td>Tuesday</td>
+								<td align="center">16.01 (1,127)</td>
+							</tr>
+							<tr>
+								<td>Wednesday</td>
+								<td align="center">14.54 (1,023)</td>
+							</tr>
+							<tr>
+								<td>Thursday</td>
+								<td align="center">14.45 (1,017)</td>
+							</tr>
+							<tr>
+								<td>Friday</td>
+								<td align="center">14.48 (1,019)</td>
+							</tr>
+							<tr>
+								<td>Saturday</td>
+								<td align="center">16.03 (1,128)</td>
+							</tr>
+							<tr>
+								<td>Sunday</td>
+								<td align="center">10.27 (723)</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<attrib>Source: data from <italic>Dirección de Tránsito Municipal de Bucaramanga, Santander, Colombia.</italic></attrib>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>According to the records provided by healthcare provider institutions in Bucaramanga, 874 people were admitted in 2019 from which it was possible to identify the most common body part affected in 665 people, being lower limbs, upper limbs, thorax and head the most affected parts, respectively ( <xref ref-type="table" rid="t2">Table 2</xref> ).</p>
+			<p>
+				<table-wrap id="t2">
+					<label>Table 2</label>
+					<caption>
+						<title>Type of injuries of people involved in road traffic accidents - Bucaramanga, Santander, Colombia, 2019.</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left">Characteristics</th>
+								<th>%(n)</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Severity reported by the traffic directorate</td>
+								<td align="center">n = 7,038</td>
+							</tr>
+							<tr>
+								<td>Injured</td>
+								<td align="center">51.66 (3,636)</td>
+							</tr>
+							<tr>
+								<td>Died</td>
+								<td align="center">0.84 (59)</td>
+							</tr>
+							<tr>
+								<td>Not seriously injured</td>
+								<td align="center">47.50 (3,343)</td>
+							</tr>
+							<tr>
+								<td>Assisted in healthcare institutions</td>
+								<td align="center">27.12 (1,912)</td>
+							</tr>
+							<tr>
+								<td>Affected body part reported by the Secretary of Health</td>
+								<td align="center">n = 874</td>
+							</tr>
+							<tr>
+								<td>Head</td>
+								<td align="center">10.18 (89)</td>
+							</tr>
+							<tr>
+								<td>Neck</td>
+								<td align="center">1.72 (15)</td>
+							</tr>
+							<tr>
+								<td>Thorax</td>
+								<td align="center">11.44 (100)</td>
+							</tr>
+							<tr>
+								<td>Abdomen</td>
+								<td align="center">0.69 (6)</td>
+							</tr>
+							<tr>
+								<td>Upper limbs</td>
+								<td align="center">13.39 (117)</td>
+							</tr>
+							<tr>
+								<td>Lower limbs</td>
+								<td align="center">18.31 (160)</td>
+							</tr>
+							<tr>
+								<td>Several body parts</td>
+								<td align="center">18.76 (164)</td>
+							</tr>
+							<tr>
+								<td>Soft tissues</td>
+								<td align="center">1.37 (12)</td>
+							</tr>
+							<tr>
+								<td>Genitalia</td>
+								<td align="center">0.23 (2)</td>
+							</tr>
+							<tr>
+								<td>Other</td>
+								<td align="center">23.91 (209)</td>
+							</tr>
+							<tr>
+								<td>Cost in USD (1 USD = 4,000 COP)</td>
+								<td align="center">n = 812</td>
+							</tr>
+							<tr>
+								<td>Median (RI)</td>
+								<td align="center">56.59 (29.35–140.15)</td>
+							</tr>
+							<tr>
+								<td>Median ± DE (95%CI)</td>
+								<td align="center">290.11 ± 731.22 (239.74–340.48)</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<attrib>Source: data from <italic>Dirección de Tránsito Municipal</italic> and <italic>Secretaría de Salud de Bucaramanga.</italic></attrib>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>Regarding costs, data from 812 people injured in traffic accidents helped to identify a median of $56.59 USD (RI = 29,35–140.15) and an average of $290.11 USD ± 731.22 (95%CI: 239.74–340.48).</p>
+			<p>Differences were observed in relation to the distribution of some sociodemographic variables among quartiles. Regarding gender, no significant differences were identified among quartiles. However, male gender had percentages higher than 83% in all quartiles. Regarding age, significant differences were identified (p-value of &lt; 0.001) in which people under the age of 18 accounted for 10.84% (22) in the fourth quartile but lower than 7% in other quartiles. In addition, people between 46 and 60 years accounted for 13.79% (28) in the fourth quartile but lower than 10.50% in other quartiles. Thus, the ORs are significant for these two categories, compared to those over 60 years of age ( <xref ref-type="table" rid="t3">Table 3</xref> ).</p>
+			<p>
+				<table-wrap id="t3">
+					<label>Table 3</label>
+					<caption>
+						<title>Differences in cost quartile and OR to be in cost Q4 as per sociodemographic variables related to road accidents - Bucaramanga, Santander, Colombia, 2019.</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left" rowspan="5" scope="col">Characteristic</th>
+								<th rowspan="3" scope="col">Total</th>
+								<th scope="col">Q1</th>
+								<th scope="col">Q2</th>
+								<th scope="col">Q3</th>
+								<th scope="col">Q4</th>
+								<th rowspan="5" scope="col">p</th>
+								<th rowspan="5" scope="col">OR (95%CI)</th>
+							</tr>
+							<tr>
+								<th scope="col">
+									<hr/>
+								</th>
+								<th scope="col">
+									<hr/>
+								</th>
+								<th scope="col">
+									<hr/>
+								</th>
+								<th scope="col">
+									<hr/>
+								</th>
+							</tr>
+							<tr>
+								<th scope="col">(0.53–29.35)</th>
+								<th scope="col">(29.36–56.55)</th>
+								<th scope="col">(56.62–139.9)</th>
+								<th scope="col">(140.31–6754)</th>
+							</tr>
+							<tr>
+								<th scope="col">
+									<hr/>
+								</th>
+								<th scope="col">
+									<hr/>
+								</th>
+								<th scope="col">
+									<hr/>
+								</th>
+								<th scope="col">
+									<hr/>
+								</th>
+								<th scope="col">
+									<hr/>
+								</th>
+							</tr>
+							<tr>
+								<th scope="col">(812) % (n)</th>
+								<th scope="col">(203) % (n)</th>
+								<th scope="col">(203) % (n)</th>
+								<th scope="col">(203) % (n)</th>
+								<th scope="col">(203) % (n)</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Gender</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td align="center">0.051</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Male</td>
+								<td align="center">86.45 (702)</td>
+								<td align="center">92.12 (187)</td>
+								<td align="center">85.71 (174)</td>
+								<td align="center">83.74 (170)</td>
+								<td align="center">84.24 (171)</td>
+								<td>
+								</td>
+								<td align="center">1</td>
+							</tr>
+							<tr>
+								<td>Female</td>
+								<td align="center">13.55 (110)</td>
+								<td align="center">7.88 (16)</td>
+								<td align="center">14.29 (29)</td>
+								<td align="center">16.26 (33)</td>
+								<td align="center">15.76 (32)</td>
+								<td>
+								</td>
+								<td align="center">0.78 (0.50–1.22)</td>
+							</tr>
+							<tr>
+								<td>Age range</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td align="center"><bold>&lt; 0.001</bold></td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>&lt; 18 years</td>
+								<td align="center">6.77 (55)</td>
+								<td align="center">5.42 (11)</td>
+								<td align="center">6.40 (13)</td>
+								<td align="center">4.43 (9)</td>
+								<td align="center"><bold>10.84 (22)</bold></td>
+								<td>
+								</td>
+								<td align="center"><bold>4.88 (1.30–18.32)</bold></td>
+							</tr>
+							<tr>
+								<td>18–25 years</td>
+								<td align="center">30.17 (245)</td>
+								<td align="center">36.95 (75)</td>
+								<td align="center">28.57 (58)</td>
+								<td align="center">31.03 (63)</td>
+								<td align="center">24.14 (49)</td>
+								<td>
+								</td>
+								<td align="center">1.83 (0.52–6.37)</td>
+							</tr>
+							<tr>
+								<td>26–35 years</td>
+								<td align="center">34.11 (277)</td>
+								<td align="center">22.66 (46)</td>
+								<td align="center">39.90 (81)</td>
+								<td align="center">36.45 (74)</td>
+								<td align="center">37.44 (76)</td>
+								<td>
+								</td>
+								<td align="center">2.77 (0.80–9.53)</td>
+							</tr>
+							<tr>
+								<td>36–45 years</td>
+								<td align="center">15.52 (126)</td>
+								<td align="center">19.70 (40)</td>
+								<td align="center">14.29 (29)</td>
+								<td align="center">15.76 (32)</td>
+								<td align="center">12.32 (25)</td>
+								<td>
+								</td>
+								<td align="center">1.81 (0.50–6.54)</td>
+							</tr>
+							<tr>
+								<td>46–60 years</td>
+								<td align="center">10.34 (84)</td>
+								<td align="center">7.39 (15)</td>
+								<td align="center">10.34 (21)</td>
+								<td align="center">9.85 (20)</td>
+								<td align="center"><bold>13.79 (28)</bold></td>
+								<td>
+								</td>
+								<td align="center"><bold>3.66 (1.01–13.30)</bold></td>
+							</tr>
+							<tr>
+								<td>&gt; 60 years</td>
+								<td align="center">3.08 (25)</td>
+								<td align="center">7.88 (16)</td>
+								<td align="center">0.49 (1)</td>
+								<td align="center">2.46 (5)</td>
+								<td align="center">1.48 (3)</td>
+								<td>
+								</td>
+								<td align="center">1</td>
+							</tr>
+							<tr>
+								<td>Driving license</td>
+								<td align="center">75.86 (616)</td>
+								<td align="center">81.28 (165)</td>
+								<td align="center">78.82 (160)</td>
+								<td align="center">78.33 (159)</td>
+								<td align="center"><bold>65.02 (132)</bold></td>
+								<td align="center"><bold>&lt; 0.001</bold></td>
+								<td align="center"><bold>0.48 (0.33–0.68)</bold></td>
+							</tr>
+							<tr>
+								<td>Valid mandatory traffic accident insurance</td>
+								<td align="center">92.12 (748)</td>
+								<td align="center">93.10 (189)</td>
+								<td align="center">93.10 (189)</td>
+								<td align="center">95.07 (193)</td>
+								<td align="center"><bold>87.19 (177)</bold></td>
+								<td align="center"><bold>0.021</bold></td>
+								<td align="center"><bold>0.45 (0.26–0.76)</bold></td>
+							</tr>
+							<tr>
+								<td colspan="4">Severity reported by the municipal traffic directorate</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td align="center"><bold>0.044</bold></td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Injured</td>
+								<td align="center">92.24 (749)</td>
+								<td align="center">91.13 (185)</td>
+								<td align="center">89.66 (182)</td>
+								<td align="center">93.60 (190)</td>
+								<td align="center">94.58 (192)</td>
+								<td>
+								</td>
+								<td align="center">1</td>
+							</tr>
+							<tr>
+								<td>Died</td>
+								<td align="center">1.60 (13)</td>
+								<td align="center">0.49 (1)</td>
+								<td align="center">2.96 (6)</td>
+								<td align="center">0.49 (1)</td>
+								<td align="center">2.46 (5)</td>
+								<td>
+								</td>
+								<td align="center"><bold>0.39 (0.16–0.94)</bold></td>
+							</tr>
+							<tr>
+								<td>Not seriously injured</td>
+								<td align="center">6.16 (50)</td>
+								<td align="center">8.37 (17)</td>
+								<td align="center">7.39 (15)</td>
+								<td align="center">5.91 (12)</td>
+								<td align="center">2.96 (6)</td>
+								<td>
+								</td>
+								<td align="center"><bold>0.34 (0.29–0.40)</bold></td>
+							</tr>
+							<tr>
+								<td colspan="2">Accident hypothesis</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td align="center">0.086</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Failure to obey traffic signals and rules</td>
+								<td align="center">39.16 (318)</td>
+								<td align="center">35.47 (72)</td>
+								<td align="center">44.83 (91)</td>
+								<td align="center">37.93 (77)</td>
+								<td align="center">38.42 (78)</td>
+								<td>
+								</td>
+								<td align="center">1.51 (0.42–5.41)</td>
+							</tr>
+							<tr>
+								<td>Failure to keep a safe distance</td>
+								<td align="center">10.22 (83)</td>
+								<td align="center">11.82 (24)</td>
+								<td align="center">11.33 (23)</td>
+								<td align="center">9.85 (20)</td>
+								<td align="center">7.88 (16)</td>
+								<td>
+								</td>
+								<td align="center">1.11 (0.28–4.34)</td>
+							</tr>
+							<tr>
+								<td>Running a red light</td>
+								<td align="center">4.19 (34)</td>
+								<td align="center">2.96 (6)</td>
+								<td align="center">1.97 (4)</td>
+								<td align="center">5.42 (11)</td>
+								<td align="center">6.40 (13)</td>
+								<td>
+								</td>
+								<td align="center">2.88 (0.69–12.02)</td>
+							</tr>
+							<tr>
+								<td>Speeding</td>
+								<td align="center">4.19 (34)</td>
+								<td align="center">3.94 (8)</td>
+								<td align="center">4.93 (10)</td>
+								<td align="center">3.45 (7)</td>
+								<td align="center">4.43 (9)</td>
+								<td>
+								</td>
+								<td align="center">1.68 (0.38–7.24)</td>
+							</tr>
+							<tr>
+								<td>Hypothetical drunk driving</td>
+								<td align="center">1.35 (11)</td>
+								<td align="center">1.48 (3)</td>
+								<td align="center">0</td>
+								<td align="center">0</td>
+								<td align="center">3.94 (8)</td>
+								<td>
+								</td>
+								<td align="center"><bold>12.44 (2.01–76.87)</bold></td>
+							</tr>
+							<tr>
+								<td>Inexperienced driving</td>
+								<td align="center">2.71 (22)</td>
+								<td align="center">4.93 (10)</td>
+								<td align="center">0.49 (1)</td>
+								<td align="center">2.46 (5)</td>
+								<td align="center">2.96 (6)</td>
+								<td>
+								</td>
+								<td align="center">1.75 (0.36–8.33)</td>
+							</tr>
+							<tr>
+								<td>Driving against traffic flow</td>
+								<td align="center">1.85 (15)</td>
+								<td align="center">1.48 (3)</td>
+								<td align="center">2.46 (5)</td>
+								<td align="center">0.99 (2)</td>
+								<td align="center">2.46 (5)</td>
+								<td>
+								</td>
+								<td align="center">2.33 (0.45–12.09)</td>
+							</tr>
+							<tr>
+								<td>Priority to the right</td>
+								<td align="center">1.48 (12)</td>
+								<td align="center">1.97 (4)</td>
+								<td align="center">0.99 (2)</td>
+								<td align="center">1.48 (3)</td>
+								<td align="center">0.99 (3)</td>
+								<td>
+								</td>
+								<td align="center">1.86 (0.23–14.64)</td>
+							</tr>
+							<tr>
+								<td>Improper overtaking</td>
+								<td align="center">9.85 (20)</td>
+								<td align="center">0.98 (2)</td>
+								<td align="center">4.43 (9)</td>
+								<td align="center">1.48 (3)</td>
+								<td align="center">2.95 (6)</td>
+								<td>
+								</td>
+								<td align="center">2.12 (0.41–10.87)</td>
+							</tr>
+							<tr>
+								<td>Overtaking on right</td>
+								<td align="center">1.23 (10)</td>
+								<td align="center">0.49 (1)</td>
+								<td align="center">0.99 (2)</td>
+								<td align="center">1.48 (3)</td>
+								<td align="center">1.97 (4)</td>
+								<td>
+								</td>
+								<td align="center">3.11 (0.52–18.38)</td>
+							</tr>
+							<tr>
+								<td>Overtaking by closing</td>
+								<td align="center">2.09 (17)</td>
+								<td align="center">2.96 (6)</td>
+								<td align="center">1.97 (4)</td>
+								<td align="center">1.97 (4)</td>
+								<td align="center">1.48 (3)</td>
+								<td>
+								</td>
+								<td align="center">1</td>
+							</tr>
+							<tr>
+								<td>Making sharp turns</td>
+								<td align="center">5.54 (45)</td>
+								<td align="center">9.85 (20)</td>
+								<td align="center">1.97 (4)</td>
+								<td align="center">0</td>
+								<td align="center">0</td>
+								<td>
+								</td>
+								<td align="center">0.85 (0.19–3.79)</td>
+							</tr>
+							<tr>
+								<td colspan="3">Type of vehicle involved</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td align="center">0.064</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Motorbike</td>
+								<td align="center">85.71 (696)</td>
+								<td align="center">83.74 (170)</td>
+								<td align="center">83.25 (169)</td>
+								<td align="center">88.18 (179)</td>
+								<td align="center">87.68 (178)</td>
+								<td>
+								</td>
+								<td align="center"><bold>2.79 (1.25–6.24)</bold></td>
+							</tr>
+							<tr>
+								<td>Car</td>
+								<td align="center">7.88 (64)</td>
+								<td align="center">10.84 (22)</td>
+								<td align="center">11.33 (5)</td>
+								<td align="center">5.91 (12)</td>
+								<td align="center">3.45 (7)</td>
+								<td>
+								</td>
+								<td align="center">1</td>
+							</tr>
+							<tr>
+								<td>Bicycle</td>
+								<td align="center">4.06 (33)</td>
+								<td align="center">2.96 (6)</td>
+								<td align="center">2.46 (5)</td>
+								<td align="center">2.96 (6)</td>
+								<td align="center">7.88 (16)</td>
+								<td>
+								</td>
+								<td align="center"><bold>7.66 (2.70–21.68)</bold></td>
+							</tr>
+							<tr>
+								<td>SUV</td>
+								<td align="center">1.48 (12)</td>
+								<td align="center">1.97 (4)</td>
+								<td align="center">1.48 (3)</td>
+								<td align="center">1.48 (3)</td>
+								<td align="center">0.99 (2)</td>
+								<td>
+								</td>
+								<td align="center">1.62 (0.29–8.99)</td>
+							</tr>
+							<tr>
+								<td>Truck</td>
+								<td align="center">0.12 (1)</td>
+								<td align="center">0</td>
+								<td align="center">0.49 (1)</td>
+								<td align="center">0</td>
+								<td align="center">0</td>
+								<td>
+								</td>
+								<td align="center">-</td>
+							</tr>
+							<tr>
+								<td>Jeep</td>
+								<td align="center">0.12 (1)</td>
+								<td align="center">0</td>
+								<td align="center">0</td>
+								<td align="center">0.49 (1)</td>
+								<td align="center">0</td>
+								<td>
+								</td>
+								<td align="center">-</td>
+							</tr>
+							<tr>
+								<td>Dump truck</td>
+								<td align="center">0.12 (1)</td>
+								<td align="center">0</td>
+								<td align="center">0</td>
+								<td align="center">0.49 (1)</td>
+								<td align="center">0</td>
+								<td>
+								</td>
+								<td align="center">-</td>
+							</tr>
+							<tr>
+								<td>Minibus</td>
+								<td align="center">0.25 (2)</td>
+								<td align="center">0</td>
+								<td align="center">0.49 (1)</td>
+								<td align="center">0.49 (1)</td>
+								<td align="center">0</td>
+								<td>
+								</td>
+								<td align="center">-</td>
+							</tr>
+							<tr>
+								<td>Bus</td>
+								<td align="center">0.25 (2)</td>
+								<td align="center">0.49 (1)</td>
+								<td align="center">0.49 (1)</td>
+								<td align="center">0</td>
+								<td align="center">0</td>
+								<td>
+								</td>
+								<td align="center">-</td>
+							</tr>
+							<tr>
+								<td colspan="4">Affected body part reported by the Secretary of Health</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td align="center"><bold>&lt; 0.001</bold></td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Head</td>
+								<td align="center">15.91 (95)</td>
+								<td align="center">7.69 (11)</td>
+								<td align="center">9.79 (14)</td>
+								<td align="center">11.18 (17)</td>
+								<td align="center"><bold>33.33 (53)</bold></td>
+								<td>
+								</td>
+								<td align="center"><bold>4.50 (2.61–7.76)</bold></td>
+							</tr>
+							<tr>
+								<td>Thorax</td>
+								<td align="center">14.91 (89)</td>
+								<td align="center">12.59 (18)</td>
+								<td align="center">16.78 (24)</td>
+								<td align="center">16.45 (25)</td>
+								<td align="center">13.84 (22)</td>
+								<td>
+								</td>
+								<td align="center">1.17 (0.64–2.14)</td>
+							</tr>
+							<tr>
+								<td>Upper limbs</td>
+								<td align="center">16.42 (98)</td>
+								<td align="center">15.38 (22)</td>
+								<td align="center">21.68 (31)</td>
+								<td align="center">19.74 (30)</td>
+								<td align="center">9.43 (15)</td>
+								<td>
+								</td>
+								<td align="center">0.64 (0.33–1.24)</td>
+							</tr>
+							<tr>
+								<td>Lower limbs</td>
+								<td align="center">24.46 (146)</td>
+								<td align="center">20.28 (29)</td>
+								<td align="center">32.17 (46)</td>
+								<td align="center">25.66 (39)</td>
+								<td align="center"><bold>20.13 (32)</bold></td>
+								<td>
+								</td>
+								<td align="center">1.00 (0.58–1.71)</td>
+							</tr>
+							<tr>
+								<td>Several body parts</td>
+								<td align="center">28.31 (169)</td>
+								<td align="center">44.06 (63)</td>
+								<td align="center">19.58 (28)</td>
+								<td align="center">26.97 (41)</td>
+								<td align="center">23.27 (37)</td>
+								<td>
+								</td>
+								<td align="center">1</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<attrib>Source: data from <italic>Dirección de Tránsito Municipal</italic> and <italic>Secretaría de Salud de Bucaramanga</italic> .</attrib>
+						<fn id="TFN1">
+							<p>p-value: pearson’s chi-square and Fisher’s exact tests; OR: Odds Ratio; (95%CI): 95% confidence interval.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>Regarding variables related to regulatory compliance, those who bear a driving license and mandatory insurance represented a lower percentage in Q4 than Q1-Q3. Here, ORs are protective and their confidence intervals are less than “1”. According to the severity reported by Municipal Traffic Directorate officials based on the people who attended healthcare institutions in Bucaramanga, 92.24% (749) were classified as injured, 1.60% (13) died and 6.16% (50) had no severe injuries. The ORs and CIs of the latter two categories are less than 1.</p>
+			<p>Regarding accident hypothesis, no statistically significant differences were found that could affect costs when comparing quartiles. However, ORs were 12.44 (95%CI: 2.01–76.87) for people with hypothetical drunk driving ( <xref ref-type="table" rid="t3">Table 3</xref> ).</p>
+			<p>The main type of vehicle involved in patients attending healthcare institutions is motorcycle, having percentages higher than 83% in every quartile. Bicycles also ranked second having 7.88% in Q4. Thus, ORs identified were 2.79 (95%CI: 1.25– 6.24) and 7.66 (95%CI: 2.70–21.68) when comparing accidents involving cars.</p>
+			<p>Regarding body part affected, 33.33% (53) were head injuries having the highest proportion in Q4, followed by lower limb injuries at 20.13% (32). OR in head injuries was 4.50 (95%CI: 2.61–7.76) compared to the category involving other body parts ( <xref ref-type="table" rid="t3">Table 3</xref> ).</p>
+		</sec>
+		<sec sec-type="discussion">
+			<title>DISCUSSION</title>
+			<p>Only a few studies have reported characteristics and costs of road traffic injuries. In Colombia, few studies have described incidences, associated factors and injury characteristics in these events, reporting that motorcyclists suffer the most injuries<sup><xref ref-type="bibr" rid="B4">4</xref> , <xref ref-type="bibr" rid="B9">9</xref></sup> ; most affected body parts are head and limbs<sup><xref ref-type="bibr" rid="B9">9</xref></sup> , from which cranioencephalic trauma is highly associated with mortality<sup><xref ref-type="bibr" rid="B4">4</xref> , <xref ref-type="bibr" rid="B10">10</xref></sup> ; and disobeying traffic rules<sup><xref ref-type="bibr" rid="B4">4</xref></sup> and reckless driving<sup><xref ref-type="bibr" rid="B10">10</xref></sup> were found to be as risk factors.</p>
+			<p>In our study, many traffic accidents involved young men bearing a valid driving license but did not follow traffic signals/rules or speed, which is consistent with the findings reported by other authors<sup><xref ref-type="bibr" rid="B11">11</xref></sup> .</p>
+			<p>Regarding the type of vehicle involved, cars were found to be in the first place after motorcycles<sup><xref ref-type="bibr" rid="B14">14</xref></sup> . However, according to the data from those attending healthcare institutions, the main vehicle involved was motorcycle as same as in other studies<sup><xref ref-type="bibr" rid="B12">12</xref> , <xref ref-type="bibr" rid="B16">16</xref></sup> .</p>
+			<p>Regarding injuries, in our study the most common body parts affected were upper limbs, lower limbs and head, in contrast to a study conducted in Brazil in which head injuries were identified as the most common body part affected. However, only motorcycle accidents were analyzed in the latter<sup><xref ref-type="bibr" rid="B17">17</xref></sup> .</p>
+			<p>In addition, the median cost per traffic accident was $56 USD (RI = 29.35–140.15) and the average was 290.11 ± 731.22, (95%CI: 239.74–340.48) only for medical expenses derived from in-patient care, which could be considered low compared to a study conducted in Iran where the average cost is $9,024 USD<sup><xref ref-type="bibr" rid="B11">11</xref></sup> . However, our study did not include indirect costs and costs of lost productivity derived from accidents, which according to other studies have shown to be higher than those purely related to healthcare due to accidents<sup><xref ref-type="bibr" rid="B15">15</xref> , <xref ref-type="bibr" rid="B18">18</xref> , <xref ref-type="bibr" rid="B19">19</xref></sup> .</p>
+			<p>Thus, costs derived from traffic accidents may have a social and economic impact on the community. Therefore, it is important to adopt preventive measures aimed at reducing their occurrence. One of these measures is to take actions to reduce traffic congestion as some studies have found that high levels of congestion can increase accident probability as a result of having more cars on the road. However, it should be considered that accidents are also frequent in low levels of congestion as a result of speeding. The latter suggests the need to intervene in regulations and speed controls on the road<sup><xref ref-type="bibr" rid="B20">20</xref></sup> .</p>
+			<p>Regarding this finding, it is suggested to continue exploring the effects of traffic congestion on road accidents, given the results shown in this study, such as failure to yield the right of way, overtaking by encroaching, overtaking on the right and making sharp turns, could indicate a behavior resulting from rushing or haste after a period of vehicular traffic.</p>
+			<p>In our study, a statistically significant relationship was found between traffic accident costs and age, possession of a valid driving license and insurance, road accident severity based on the classification made by the traffic directorate and affected body parts, similar to that reported in a study conducted in Iran<sup><xref ref-type="bibr" rid="B11">11</xref></sup> . A statistically significant relationship was also observed between injury severity and cost increase, similar to that reported in a study in Haiti where patients injured in road accidents represented the highest cost averaging $1,220 USD<sup><xref ref-type="bibr" rid="B22">22</xref></sup> .</p>
+			<p>In Argentina, Brazil, Colombia and Mexico, cumulative GDP loss was estimated at 13.540 USD million between 2006 and 2015 due to frequent chronic noncommunicable diseases, heart disease, stroke and diabetes<sup><xref ref-type="bibr" rid="B23">23</xref></sup> . In Colombia, the <italic>Universidad de los Andes</italic> estimated traffic accident costs to be close to 1% of GDP between 2008 and 2010. The above included medical, human and administrative costs, as well as economic losses due to property damage. In 2016, traffic accident costs incurred by the Compulsory Traffic Accident Insurance and the Administrator of the Resources of the General System of Social Security in Health were estimated at 1.5 COP billion per year<sup><xref ref-type="bibr" rid="B24">24</xref></sup> .</p>
+			<p>Although our study did not find a statistically significant relationship between gender and costs, a higher number of accidents involved men, which could be considered a risk factor and focus of preventive measures in this population, as identified in Brazil<sup><xref ref-type="bibr" rid="B14">14</xref></sup> where this condition was considered a factor for increased sequelae and therefore, increased costs due to loss of production capacity.</p>
+			<p>Study results showed the need to have a prevention focus on the most frequent factors identified in traffic accidents such as male gender, young age, motorcycle as vehicle type and the prevalence of some inappropriate driving behaviors, which are not related to having a valid driving license insurance documentation. This suggests that educational actions should be focused on generating collective awareness to change risk behaviors in accidents. It is worth noting that several countries are now implementing a point-based driving license<sup><xref ref-type="bibr" rid="B25">25</xref></sup> as a way to monitor and re-educate drivers. This would reduce traffic accident expenses in the healthcare system and the community, enabling resource allocation to supply other basic needs of the population and thereby likely reducing the nation’s economic burden<sup><xref ref-type="bibr" rid="B22">22</xref></sup> .</p>
+			<p>This study had some recognized limitations such as the lack of information from healthcare institutions located in other municipalities of the metropolitan area (Floridablanca, Piedecuesta and Girón). In addition, as for the ICD-10 data reported by healthcare institutions, 209 records did not provide any information on the body part that was specifically affected, assigning ICD-10 to the road user (pedestrian, cyclist, motorcyclist, falling.)</p>
+			<p>In addition, generated costs may be lower given that human and technological resources for healthcare may be lower than those of developed countries. In addition, in future studies it will be worth linking variables such as alcohol intake, road conditions where traffic accidents occurred, use of personal protection, complications due to surgical procedures and analysis of indirect costs such as loss of production capacity due to sequelae after accidents, thus providing a broader view for budget allocation and rates foreseen by insurance companies to cover these events, as suggested in other studies<sup><xref ref-type="bibr" rid="B19">19</xref> , <xref ref-type="bibr" rid="B26">26</xref></sup> , besides breaking down costs of direct medical care by professionals, medications, transportation, diagnostic aids and devices<sup><xref ref-type="bibr" rid="B15">15</xref> , <xref ref-type="bibr" rid="B19">19</xref></sup> . In addition, analyzing the quality of motorcycles, personal protective equipment and their proper use is highly suggested.</p>
+			<p>Finally, a considerable increase in traffic accident costs was identified when the type of vehicle involved is motorcycle or bicycle, the age of the injured person is under 18 years of age or between 46 and 60 years of age, affected body part is head and accident hypothesis is drunk driving. In contrast, a decrease in traffic accident costs was identified when the driver complied with bearing a regulatory driving license and mandatory accident insurance policy. Identifying mechanisms to reduce these types of events is highly relevant as traffic accidents can be preventable, measures can be implemented to reduce their severity and therefore, their costs and consequences for society.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>REFERENCES</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. GBD 2016 Mortality Collaborators. Global, regional, and national under-5 mortality, adult mortality, age-specific mortality, and life expectancy, 1970-2016: a systematic analysis for the Global Burden of Disease Study 2016. Lancet. 2017;390(10100):1084-150. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(17)31833-0">https://doi.org/10.1016/S0140-6736(17)31833-0</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<collab>GBD 2016 Mortality Collaborators</collab>
+					</person-group>
+					<article-title>Global, regional, and national under-5 mortality, adult mortality, age-specific mortality, and life expectancy, 1970-2016: a systematic analysis for the Global Burden of Disease Study 2016</article-title>
+					<source>Lancet</source>
+					<year>2017</year>
+					<volume>390</volume>
+					<issue>10100</issue>
+					<fpage>1084</fpage>
+					<lpage>1150</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(17)31833-0">https://doi.org/10.1016/S0140-6736(17)31833-0</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. GBD 2016 Causes of Death Collaborators. Global, regional, and national age-sex specific mortality for 264 causes of death, 1980-2016: a systematic analysis for the Global Burden of Disease Study 2016. Lancet. 2017;390(10100):1151-210. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(17)32152-9">https://doi.org/10.1016/S0140-6736(17)32152-9</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<collab>GBD 2016 Causes of Death Collaborators</collab>
+					</person-group>
+					<article-title>Global, regional, and national age-sex specific mortality for 264 causes of death, 1980-2016: a systematic analysis for the Global Burden of Disease Study 2016</article-title>
+					<source>Lancet</source>
+					<year>2017</year>
+					<volume>390</volume>
+					<issue>10100</issue>
+					<fpage>1151</fpage>
+					<lpage>1210</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(17)32152-9">https://doi.org/10.1016/S0140-6736(17)32152-9</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. GBD Compare | IHME Viz Hub. Seattle, WA: Institute for Health Metrics and Evaluation; 2019 [cited 2022 Jan 10]. Available from: <ext-link ext-link-type="uri" xlink:href="http://vizhub.healthdata.org/gbd-compare">http://vizhub.healthdata.org/gbd-compare</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>GBD Compare</collab>
+					</person-group>
+					<source>IHME Viz Hub</source>
+					<publisher-loc>Seattle, WA</publisher-loc>
+					<publisher-name>Institute for Health Metrics and Evaluation</publisher-name>
+					<year>2019</year>
+					<date-in-citation content-type="cited-date">cited 2022 Jan 10</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="http://vizhub.healthdata.org/gbd-compare">http://vizhub.healthdata.org/gbd-compare</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. Rodriguez Hernández JM. Factores de riesgo asociados a lesiones causadas por el tránsito y propuestas de intervenciones para el contexto colombiano. Bogotá (CO): Universidad Javeriana; Ecoe Ediciones; 2015 [cited 2018 Jun 18]. Available from: <ext-link ext-link-type="uri" xlink:href="http://www.javeriana.edu.co/documents/12789/4434885/Lesiones+de+tránsito.pdf/58bcf670-9e1c-4ec4-b428-163c9ca3673b">http://www.javeriana.edu.co/documents/12789/4434885/Lesiones+de+tránsito.pdf/58bcf670-9e1c-4ec4-b428-163c9ca3673b</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rodriguez Hernández</surname>
+							<given-names>JM</given-names>
+						</name>
+					</person-group>
+					<source>Factores de riesgo asociados a lesiones causadas por el tránsito y propuestas de intervenciones para el contexto colombiano</source>
+					<publisher-loc>Bogotá (CO)</publisher-loc>
+					<publisher-name>Universidad Javeriana; Ecoe Ediciones</publisher-name>
+					<year>2015</year>
+					<date-in-citation content-type="cited-date">cited 2018 Jun 18</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="http://www.javeriana.edu.co/documents/12789/4434885/Lesiones+de+tránsito.pdf/58bcf670-9e1c-4ec4-b428-163c9ca3673b">http://www.javeriana.edu.co/documents/12789/4434885/Lesiones+de+tránsito.pdf/58bcf670-9e1c-4ec4-b428-163c9ca3673b</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Gómez Pineda OD. Régimen jurídico del tránsito terrestre en Colombia. 2.ed. Bogotá (CO): Corporación Fondo de Previsión Vial; 2012 [cited 2020 Feb 15]. Available from: <ext-link ext-link-type="uri" xlink:href="http://www.transitodegiron.com.co/tg/archivos/Regimen_juridico_transito.pdf">http://www.transitodegiron.com.co/tg/archivos/Regimen_juridico_transito.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Gómez Pineda</surname>
+							<given-names>OD</given-names>
+						</name>
+					</person-group>
+					<source>Régimen jurídico del tránsito terrestre en Colombia</source>
+					<edition>2</edition>
+					<publisher-loc>Bogotá (CO)</publisher-loc>
+					<publisher-name>Corporación Fondo de Previsión Vial</publisher-name>
+					<year>2012</year>
+					<date-in-citation content-type="cited-date">cited 2020 Feb 15</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="http://www.transitodegiron.com.co/tg/archivos/Regimen_juridico_transito.pdf">http://www.transitodegiron.com.co/tg/archivos/Regimen_juridico_transito.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. Organización Mundial de la Salud. Salve vidas: paquete de medidas tecnicas de seguridad vial. Ginebra (CH): OMS; 2017 [cited 2020 Feb 15]. Available from: <ext-link ext-link-type="uri" xlink:href="https://apps.who.int/iris/handle/10665/255308">https://apps.who.int/iris/handle/10665/255308</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Organización Mundial de la Salud</collab>
+					</person-group>
+					<source>Salve vidas: paquete de medidas tecnicas de seguridad vial</source>
+					<publisher-loc>Ginebra (CH)</publisher-loc>
+					<publisher-name>OMS</publisher-name>
+					<year>2017</year>
+					<date-in-citation content-type="cited-date">cited 2020 Feb 15</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://apps.who.int/iris/handle/10665/255308">https://apps.who.int/iris/handle/10665/255308</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. World Health Organization. Global status report on road safety 2015. Geneva (CH): WHO; 2015 [cited 2020 Jan 23]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.afro.who.int/sites/default/files/2017-06/9789241565066_eng.pdf">https://www.afro.who.int/sites/default/files/2017-06/9789241565066_eng.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>World Health Organization</collab>
+					</person-group>
+					<source>Global status report on road safety 2015</source>
+					<publisher-loc>Geneva (CH)</publisher-loc>
+					<publisher-name>WHO</publisher-name>
+					<year>2015</year>
+					<date-in-citation content-type="cited-date">cited 2020 Jan 23</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.afro.who.int/sites/default/files/2017-06/9789241565066_eng.pdf">https://www.afro.who.int/sites/default/files/2017-06/9789241565066_eng.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Gómez-Restrepo C, Quitian H, Maldonado P, Naranjo-Lujan S, Rondón M, Acosta A, Arango-Villegas C, et al. Costos directos de atención médica de accidentes de tránsito en Bogotá D.C. Rev. Salud Publica. 2014;16(5):673-82. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.15446/rsap.v16n5.44080">https://doi.org/10.15446/rsap.v16n5.44080</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Gómez-Restrepo</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Quitian</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Maldonado</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Naranjo-Lujan</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Rondón</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Acosta</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Arango-Villegas</surname>
+							<given-names>C</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Costos directos de atención médica de accidentes de tránsito en Bogotá D.C</article-title>
+					<source>Rev. Salud Publica</source>
+					<year>2014</year>
+					<volume>16</volume>
+					<issue>5</issue>
+					<fpage>673</fpage>
+					<lpage>682</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.15446/rsap.v16n5.44080">https://doi.org/10.15446/rsap.v16n5.44080</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. Espinosa López A, Cabrera Arana G, Velásquez Osorio N. Epidemiología de incidentes viales Medellín-Colombia, 2010-2015. Rev Fac Nac Salud Publica. 2017;35(1):7-15. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.17533/udea.rfnsp.v35n1a02">https://doi.org/10.17533/udea.rfnsp.v35n1a02</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Espinosa López</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Cabrera Arana</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Velásquez Osorio</surname>
+							<given-names>N</given-names>
+						</name>
+					</person-group>
+					<article-title>Epidemiología de incidentes viales Medellín-Colombia, 2010-2015</article-title>
+					<source>Rev Fac Nac Salud Publica</source>
+					<year>2017</year>
+					<volume>35</volume>
+					<issue>1</issue>
+					<fpage>7</fpage>
+					<lpage>15</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.17533/udea.rfnsp.v35n1a02">https://doi.org/10.17533/udea.rfnsp.v35n1a02</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. Rodríguez C, Pacavita D, Peña C, Pérez OG, Izquierdo M. Incidencia de traumas por accidentes de tránsito que ingresan al servicio de urgencias del Hospital Universitario Erasmo Meoz, La Clínica Santa Ana S.A, e IPS Unipamplona. INBIOM. 2017;4(1):34-43 [cited 2020 Jan 23]. Available from: <ext-link ext-link-type="uri" xlink:href="http://revistas.unipamplona.edu.co/ojs_viceinves/index.php/INBIOM/article/view/2558">http://revistas.unipamplona.edu.co/ojs_viceinves/index.php/INBIOM/article/view/2558</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rodríguez</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Pacavita</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Peña</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Pérez</surname>
+							<given-names>OG</given-names>
+						</name>
+						<name>
+							<surname>Izquierdo</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>Incidencia de traumas por accidentes de tránsito que ingresan al servicio de urgencias del Hospital Universitario Erasmo Meoz, La Clínica Santa Ana S.A, e IPS Unipamplona</article-title>
+					<source>INBIOM</source>
+					<year>2017</year>
+					<volume>4</volume>
+					<issue>1</issue>
+					<fpage>34</fpage>
+					<lpage>43</lpage>
+					<date-in-citation content-type="cited-date">cited 2020 Jan 23</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="http://revistas.unipamplona.edu.co/ojs_viceinves/index.php/INBIOM/article/view/2558">http://revistas.unipamplona.edu.co/ojs_viceinves/index.php/INBIOM/article/view/2558</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. Hashempour R, Tahmasebi A, Veysi M, Amini M, Tavakoli N. Cost analysis of accidents according to demographic factors in Iran. Iran J Public Health 2019;48(7):1346-1353. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.18502/ijph.v48i7.2965">https://doi.org/10.18502/ijph.v48i7.2965</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hashempour</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Tahmasebi</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Veysi</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Amini</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Tavakoli</surname>
+							<given-names>N</given-names>
+						</name>
+					</person-group>
+					<article-title>Cost analysis of accidents according to demographic factors in Iran</article-title>
+					<source>Iran J Public Health</source>
+					<year>2019</year>
+					<volume>48</volume>
+					<issue>7</issue>
+					<fpage>1346</fpage>
+					<lpage>1353</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.18502/ijph.v48i7.2965">https://doi.org/10.18502/ijph.v48i7.2965</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. You X, Liew BS, Rosman AK, Dcsn, Musa KI, Idris Z. The estimated cost of surgically managed isolated traumatic head injury secondary to road traffic accidents. Neurosurg Focus. 2018;44(5):E7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3171/2018.1.FOCUS17796">https://doi.org/10.3171/2018.1.FOCUS17796</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>You</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Liew</surname>
+							<given-names>BS</given-names>
+						</name>
+						<name>
+							<surname>Rosman</surname>
+							<given-names>AK</given-names>
+						</name>
+						<name>
+							<surname>Dcsn</surname>
+						</name>
+						<name>
+							<surname>Musa</surname>
+							<given-names>KI</given-names>
+						</name>
+						<name>
+							<surname>Idris</surname>
+							<given-names>Z</given-names>
+						</name>
+					</person-group>
+					<article-title>The estimated cost of surgically managed isolated traumatic head injury secondary to road traffic accidents</article-title>
+					<source>Neurosurg Focus</source>
+					<year>2018</year>
+					<volume>44</volume>
+					<issue>5</issue>
+					<size units="pages">E7</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3171/2018.1.FOCUS17796">https://doi.org/10.3171/2018.1.FOCUS17796</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. Silva PF, Silva AS, Olegário WKB, Furtado BMASM. Caracterização das vítimas de traumatismo encefálico que evoluíram para morte encefálica. Rev Cuidarte. 2018;9(3):2349-60. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.15649/cuidarte.v9i3.565">https://doi.org/10.15649/cuidarte.v9i3.565</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Silva</surname>
+							<given-names>PF</given-names>
+						</name>
+						<name>
+							<surname>Silva</surname>
+							<given-names>AS</given-names>
+						</name>
+						<name>
+							<surname>Olegário</surname>
+							<given-names>WKB</given-names>
+						</name>
+						<name>
+							<surname>Furtado</surname>
+							<given-names>BMASM</given-names>
+						</name>
+					</person-group>
+					<article-title>Caracterização das vítimas de traumatismo encefálico que evoluíram para morte encefálica</article-title>
+					<source>Rev Cuidarte</source>
+					<year>2018</year>
+					<volume>9</volume>
+					<issue>3</issue>
+					<fpage>2349</fpage>
+					<lpage>2360</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.15649/cuidarte.v9i3.565">https://doi.org/10.15649/cuidarte.v9i3.565</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. Santos GM, Nery AA, Constâncio TOS, Oliveira JS, Carmo EA, Silva VAC, et al. Atendimentos do componente móvel da rede de atenção às urgências e emergências. Rev Cuidarte. 2019;10(3):e779. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.15649/cuidarte.v10i3.779">https://doi.org/10.15649/cuidarte.v10i3.779</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Santos</surname>
+							<given-names>GM</given-names>
+						</name>
+						<name>
+							<surname>Nery</surname>
+							<given-names>AA</given-names>
+						</name>
+						<name>
+							<surname>Constâncio</surname>
+							<given-names>TOS</given-names>
+						</name>
+						<name>
+							<surname>Oliveira</surname>
+							<given-names>JS</given-names>
+						</name>
+						<name>
+							<surname>Carmo</surname>
+							<given-names>EA</given-names>
+						</name>
+						<name>
+							<surname>Silva</surname>
+							<given-names>VAC</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Atendimentos do componente móvel da rede de atenção às urgências e emergências</article-title>
+					<source>Rev Cuidarte</source>
+					<year>2019</year>
+					<volume>10</volume>
+					<issue>3</issue>
+					<elocation-id>e779</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.15649/cuidarte.v10i3.779">https://doi.org/10.15649/cuidarte.v10i3.779</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. Paixão J, Andrade EL, Nery L, Andrarde P. Custos de produtividade entre pessoas envolvidas em acidentes de trânsito. Cienc Saude Coletiva. 2020;25(2):749-60. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1413-81232020252.15232018">https://doi.org/10.1590/1413-81232020252.15232018</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Paixão</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Andrade</surname>
+							<given-names>EL</given-names>
+						</name>
+						<name>
+							<surname>Nery</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Andrarde</surname>
+							<given-names>P</given-names>
+						</name>
+					</person-group>
+					<article-title>Custos de produtividade entre pessoas envolvidas em acidentes de trânsito</article-title>
+					<source>Cienc Saude Coletiva</source>
+					<year>2020</year>
+					<volume>25</volume>
+					<issue>2</issue>
+					<fpage>749</fpage>
+					<lpage>760</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1413-81232020252.15232018">https://doi.org/10.1590/1413-81232020252.15232018</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. Andrade SSCA, Jorge MHPM. Internações hospitalares por lesões decorrentes de acidente de transporte terrestre no Brasil, 2013: permanência e gastos. Epidemiol Serv Saude. 2017;26(1):31-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5123/S1679-49742017000100004">https://doi.org/10.5123/S1679-49742017000100004</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Andrade</surname>
+							<given-names>SSCA</given-names>
+						</name>
+						<name>
+							<surname>Jorge</surname>
+							<given-names>MHPM</given-names>
+						</name>
+					</person-group>
+					<article-title>Internações hospitalares por lesões decorrentes de acidente de transporte terrestre no Brasil, 2013: permanência e gastos</article-title>
+					<source>Epidemiol Serv Saude</source>
+					<year>2017</year>
+					<volume>26</volume>
+					<issue>1</issue>
+					<fpage>31</fpage>
+					<lpage>38</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5123/S1679-49742017000100004">https://doi.org/10.5123/S1679-49742017000100004</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Vieira RCA, Hora EC, Oliveira DV, Vaez AC. Levantamento epidemiológico dos acidentes moto ciclísticos atendidos em um Centro de Referência ao Trauma de Sergipe. Rev Esc Enferm USP. 2011;45(6):1359-63. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0080-62342011000600012">https://doi.org/10.1590/S0080-62342011000600012</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Vieira</surname>
+							<given-names>RCA</given-names>
+						</name>
+						<name>
+							<surname>Hora</surname>
+							<given-names>EC</given-names>
+						</name>
+						<name>
+							<surname>Oliveira</surname>
+							<given-names>DV</given-names>
+						</name>
+						<name>
+							<surname>Vaez</surname>
+							<given-names>AC</given-names>
+						</name>
+					</person-group>
+					<article-title>Levantamento epidemiológico dos acidentes moto ciclísticos atendidos em um Centro de Referência ao Trauma de Sergipe</article-title>
+					<source>Rev Esc Enferm USP</source>
+					<year>2011</year>
+					<volume>45</volume>
+					<issue>6</issue>
+					<fpage>1359</fpage>
+					<lpage>1363</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0080-62342011000600012">https://doi.org/10.1590/S0080-62342011000600012</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18. Cardoso JP, Mota ELA, Ferreira LN, Rios PAA. Custos de produtividade entre pessoas envolvidas em acidentes de trânsito. Cienc Saude Coletiva. 2020;25(2):749-60. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1413-81232020252.15232018">https://doi.org/10.1590/1413-81232020252.15232018</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cardoso</surname>
+							<given-names>JP</given-names>
+						</name>
+						<name>
+							<surname>Mota</surname>
+							<given-names>ELA</given-names>
+						</name>
+						<name>
+							<surname>Ferreira</surname>
+							<given-names>LN</given-names>
+						</name>
+						<name>
+							<surname>Rios</surname>
+							<given-names>PAA</given-names>
+						</name>
+					</person-group>
+					<article-title>Custos de produtividade entre pessoas envolvidas em acidentes de trânsito</article-title>
+					<source>Cienc Saude Coletiva</source>
+					<year>2020</year>
+					<volume>25</volume>
+					<issue>2</issue>
+					<fpage>749</fpage>
+					<lpage>760</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1413-81232020252.15232018">https://doi.org/10.1590/1413-81232020252.15232018</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19. Rahmati F, Doosti M, Bahreini M. The cost analysis of patients with traffic traumatic injuries presenting to emergency department; a cross-sectional study. Adv J Emerg Med. 2019;3(1):e2. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.22114/AJEM.v0i0.108">https://doi.org/10.22114/AJEM.v0i0.108</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rahmati</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Doosti</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Bahreini</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>The cost analysis of patients with traffic traumatic injuries presenting to emergency department; a cross-sectional study</article-title>
+					<source>Adv J Emerg Med</source>
+					<year>2019</year>
+					<volume>3</volume>
+					<issue>1</issue>
+					<elocation-id>e2</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.22114/AJEM.v0i0.108">https://doi.org/10.22114/AJEM.v0i0.108</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20. Retallack AE, Ostendorf B. Current understanding of the effects of congestion on traffic accidents. Int J Environ Res Public Health. 2019;16(18):3400. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3390/ijerph16183400">https://doi.org/10.3390/ijerph16183400</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Retallack</surname>
+							<given-names>AE</given-names>
+						</name>
+						<name>
+							<surname>Ostendorf</surname>
+							<given-names>B</given-names>
+						</name>
+					</person-group>
+					<article-title>Current understanding of the effects of congestion on traffic accidents</article-title>
+					<source>Int J Environ Res Public Health</source>
+					<year>2019</year>
+					<volume>16</volume>
+					<issue>18</issue>
+					<size units="pages">3400</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3390/ijerph16183400">https://doi.org/10.3390/ijerph16183400</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>21. Marsicano JA, Cavalleri NZ, Cordeiro DM, Mori GG, Silveira JLGC, Prado RL. Epidemiolog of Maxillofacial Trauma in a Prehospital Service in Brazil. J Trauma Nurs. 2019;26(6):323–327. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/JTN.0000000000000470">https://doi.org/10.1097/JTN.0000000000000470</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Marsicano</surname>
+							<given-names>JA</given-names>
+						</name>
+						<name>
+							<surname>Cavalleri</surname>
+							<given-names>NZ</given-names>
+						</name>
+						<name>
+							<surname>Cordeiro</surname>
+							<given-names>DM</given-names>
+						</name>
+						<name>
+							<surname>Mori</surname>
+							<given-names>GG</given-names>
+						</name>
+						<name>
+							<surname>Silveira</surname>
+							<given-names>JLGC</given-names>
+						</name>
+						<name>
+							<surname>Prado</surname>
+							<given-names>RL</given-names>
+						</name>
+					</person-group>
+					<article-title>Epidemiolog of Maxillofacial Trauma in a Prehospital Service in Brazil</article-title>
+					<source>J Trauma Nurs</source>
+					<year>2019</year>
+					<volume>26</volume>
+					<issue>6</issue>
+					<fpage>323</fpage>
+					<lpage>327</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/JTN.0000000000000470">https://doi.org/10.1097/JTN.0000000000000470</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>22. Zuraik C, Sampalis J, Brierre A. The Economic and Social Burden of Traumatic Injuries: Evidence from a Trauma Hospital in Port-au-Prince, Haiti. World J Surg. 2017; 42(6):1639-1646. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s00268-017-4360-5">https://doi.org/10.1007/s00268-017-4360-5</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Zuraik</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Sampalis</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Brierre</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>The Economic and Social Burden of Traumatic Injuries: Evidence from a Trauma Hospital in Port-au-Prince, Haiti</article-title>
+					<source>World J Surg</source>
+					<year>2017</year>
+					<volume>42</volume>
+					<issue>6</issue>
+					<fpage>1639</fpage>
+					<lpage>1646</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s00268-017-4360-5">https://doi.org/10.1007/s00268-017-4360-5</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>23. Organización Mundial de la Salud. La carga económica de las enfermedades no transmisibles en la región de las Américas. 2011. Available in: <ext-link ext-link-type="uri" xlink:href="https://www.paho.org/hq/dmdocuments/2011/paho-policy-brief3-sp1.pdf">https://www.paho.org/hq/dmdocuments/2011/paho-policy-brief3-sp1.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Organización Mundial de la Salud</collab>
+					</person-group>
+					<source>La carga económica de las enfermedades no transmisibles en la región de las Américas</source>
+					<year>2011</year>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.paho.org/hq/dmdocuments/2011/paho-policy-brief3-sp1.pdf">https://www.paho.org/hq/dmdocuments/2011/paho-policy-brief3-sp1.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>24. Federación de Aseguradores Colombianos. Costos de la accidentalidad vial en Colombia. 2018. Available in: <ext-link ext-link-type="uri" xlink:href="https://fasecolda.com/cms/wp-content/uploads/2019/09/costos-de-la-accidentalidad-vial-en-colombia-2018.pdf">https://fasecolda.com/cms/wp-content/uploads/2019/09/costos-de-la-accidentalidad-vial-en-colombia-2018.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Federación de Aseguradores Colombianos</collab>
+					</person-group>
+					<source>Costos de la accidentalidad vial en Colombia</source>
+					<year>2018</year>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://fasecolda.com/cms/wp-content/uploads/2019/09/costos-de-la-accidentalidad-vial-en-colombia-2018.pdf">https://fasecolda.com/cms/wp-content/uploads/2019/09/costos-de-la-accidentalidad-vial-en-colombia-2018.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>25. Sanchez MP, Escribano F, Tejada A. Ahorros de costes provinciales en los accidentes viales en España (2000-2014). Gac Sanit. 2019;30(20):1-8 <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.gaceta.2019.05.010">https://doi.org/10.1016/j.gaceta.2019.05.010</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sanchez</surname>
+							<given-names>MP</given-names>
+						</name>
+						<name>
+							<surname>Escribano</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Tejada</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Ahorros de costes provinciales en los accidentes viales en España (2000-2014)</article-title>
+					<source>Gac Sanit</source>
+					<year>2019</year>
+					<volume>30</volume>
+					<issue>20</issue>
+					<fpage>1</fpage>
+					<lpage>8</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.gaceta.2019.05.010">https://doi.org/10.1016/j.gaceta.2019.05.010</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation>26. Silva EM, Silva RKS, Carvalho SB, Façanha DMA, Carvalho REFL, Pereira FGF. Fatores de risco para infecção de sítio cirúrgico em cirurgias traumato-ortopédicas. Rev Cuidarte. 2021;12(2):e1292. <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.15649/cuidarte.1292">http://dx.doi.org/10.15649/cuidarte.1292</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Silva</surname>
+							<given-names>EM</given-names>
+						</name>
+						<name>
+							<surname>Silva</surname>
+							<given-names>RKS</given-names>
+						</name>
+						<name>
+							<surname>Carvalho</surname>
+							<given-names>SB</given-names>
+						</name>
+						<name>
+							<surname>Façanha</surname>
+							<given-names>DMA</given-names>
+						</name>
+						<name>
+							<surname>Carvalho</surname>
+							<given-names>REFL</given-names>
+						</name>
+						<name>
+							<surname>Pereira</surname>
+							<given-names>FGF</given-names>
+						</name>
+					</person-group>
+					<article-title>Fatores de risco para infecção de sítio cirúrgico em cirurgias traumato-ortopédicas</article-title>
+					<source>Rev Cuidarte</source>
+					<year>2021</year>
+					<volume>12</volume>
+					<issue>2</issue>
+					<elocation-id>e1292</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.15649/cuidarte.1292">http://dx.doi.org/10.15649/cuidarte.1292</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<mixed-citation>27. Assunção MCT, Aquino CMF, Sousa IMC, Carvalho Neto MR, Jordão VP, Bezerra AFB. Cost analysis in a Traditional, Complementary and Integrative Medicine unit in Brazil. Rev Saude Publica. 2020;54:145. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.11606/s1518-8787.2020054001649">https://doi.org/10.11606/s1518-8787.2020054001649</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Assunção</surname>
+							<given-names>MCT</given-names>
+						</name>
+						<name>
+							<surname>Aquino</surname>
+							<given-names>CMF</given-names>
+						</name>
+						<name>
+							<surname>Sousa</surname>
+							<given-names>IMC</given-names>
+						</name>
+						<name>
+							<surname>Carvalho</surname>
+							<given-names>MR</given-names>
+							<suffix>Neto</suffix>
+						</name>
+						<name>
+							<surname>Jordão</surname>
+							<given-names>VP</given-names>
+						</name>
+						<name>
+							<surname>Bezerra</surname>
+							<given-names>AFB</given-names>
+						</name>
+					</person-group>
+					<article-title>Cost analysis in a Traditional, Complementary and Integrative Medicine unit in Brazil</article-title>
+					<source>Rev Saude Publica</source>
+					<year>2020</year>
+					<volume>54</volume>
+					<size units="pages">145</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.11606/s1518-8787.2020054001649">https://doi.org/10.11606/s1518-8787.2020054001649</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<mixed-citation>28. Shannon D, Murphy F, Mullins M, Eggert J. Applying crash data to injury claims - an investigation of determinant factors in severe motor vehicle accidents. Accident Analysis &amp; Prevention. 2018;113:244–256. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.aap.2018.01.037">https://doi.org/10.1016/j.aap.2018.01.037</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Shannon</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Murphy</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Mullins</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Eggert</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>Applying crash data to injury claims - an investigation of determinant factors in severe motor vehicle accidents</article-title>
+					<source>Accident Analysis &amp; Prevention</source>
+					<year>2018</year>
+					<volume>113</volume>
+					<fpage>244</fpage>
+					<lpage>256</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.aap.2018.01.037">https://doi.org/10.1016/j.aap.2018.01.037</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="financial-disclosure" id="fn2">
+				<p><bold>Funding:</bold>
+ <italic>Universidad de Santander</italic> (UDES – intern call nº CIF0315-9). <italic>Dirección de Transito de Bucaramanga. Secretaria de Salud de Bucaramanga</italic> .</p>
+			</fn>
+		</fn-group>
+	</back>
+	<sub-article article-type="translation" id="TRes" xml:lang="es">
+		<front-stub>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artículo Original</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Factores relacionados con costos por atención médica de siniestros de tránsito en Bucaramanga, Colombia</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-0666-9285</contrib-id>
+					<name>
+						<surname>Rivera-Carvajal</surname>
+						<given-names>Raquel</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1003"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-0010-7564</contrib-id>
+					<name>
+						<surname>Páez-Esteban</surname>
+						<given-names>Astrid Nathalia</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2003"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-7064-9380</contrib-id>
+					<name>
+						<surname>Torres-Contreras</surname>
+						<given-names>Claudia Consuelo</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1003"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-5476-0281</contrib-id>
+					<name>
+						<surname>Esquiaqui-Felipe</surname>
+						<given-names>Rafael Enrique</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2003"><sup>II</sup></xref>
+					<xref ref-type="aff" rid="aff3003"><sup>III</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-7695-3321</contrib-id>
+					<name>
+						<surname>González</surname>
+						<given-names>Nixon Ricardo</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff4003"><sup>IV</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-5047-9943</contrib-id>
+					<name>
+						<surname>Mejía-Muñoz</surname>
+						<given-names>Claudia Celmira</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff5003"><sup>V</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1003">
+				<label>I</label>
+				<country country="CO">Colombia</country>
+				<institution content-type="original">Universidad de Santander. Facultad de Ciencias Medicas y de la Salud. Instituto Masira, Grupo Everest. Bucaramanga, Colombia</institution>
+			</aff>
+			<aff id="aff2003">
+				<label>II</label>
+				<country country="CO">Colombia</country>
+				<institution content-type="original">Universidad de Santander. Facultad de Ciencias Medicas y de la Salud. Instituto Masira, Grupo de Salud Pública. Bucaramanga, Colombia</institution>
+			</aff>
+			<aff id="aff3003">
+				<label>III</label>
+				<country country="CO">Colombia</country>
+				<institution content-type="original">Secretaria de Salud de Bucaramanga. Observatorio Digital Municipal. Bucaramanga, Santander, Colombia</institution>
+			</aff>
+			<aff id="aff4003">
+				<label>IV</label>
+				<country country="CO">Colombia</country>
+				<institution content-type="original">Dirección de Transito de Bucaramanga. División Estadísticas. Bucaramanga, Santander, Colombia</institution>
+			</aff>
+			<aff id="aff5003">
+				<label>V</label>
+				<country country="CO">Colombia</country>
+				<institution content-type="original">Dirección de Transito de Bucaramanga. Subdirección Técnica. Bucaramanga, Santander, Colombia</institution>
+			</aff>
+			<author-notes>
+				<corresp id="c01003">Correspondencia: Raquel Rivera Carvajal Calle, 70 55-210 Bucaramanga, Santander, Colombia E-mail: raquelrivera_c@hotmail.com</corresp>
+				<fn fn-type="con">
+					<p><bold>Participación de los autores:</bold> Diseño y planificación del estudio: RRC, ANPE, CCTC, REEF. Recopilación, análisis e interpretación de los datos: RRC, REEF, NRG, CCMM. Redacción o revisión del manuscrito: RRC, ANPE, CCTC, REEF, NRG, CCMM. Aprobación de la versión final: RRC, ANPE, CCTC, REEF, NRG, CCMM. Responsabilidad pública por el contenido del artículo: RRC, ANPE, CCTC, REEF, NRG, CCMM.</p>
+				</fn>
+				<fn fn-type="conflict">
+					<p><bold>Conflicto de Intereses:</bold> Los autores declaran no haber conflicto de intereses.</p>
+				</fn>
+			</author-notes>
+			<abstract>
+				<title>RESUMEN</title>
+				<sec>
+					<title>OBJETIVO</title>
+					<p>Determinar los factores relacionados con los costos generales durante la atención en salud de siniestros de tránsito en Bucaramanga, Colombia.</p>
+				</sec>
+				<sec>
+					<title>MÉTODOS</title>
+					<p>Estudio descriptivo, transversal, con análisis de registros de siniestros de tránsito durante 2019 en Bucaramanga, Colombia. Se realizó una comparación entre cuartiles de los costos en dólares con pruebas estadísticas de Chi-cuadrado de Pearson y exacta de Fisher. También, se calcularon <italic>odds ratio</italic> en regresión logística.</p>
+				</sec>
+				<sec>
+					<title>RESULTADOS</title>
+					<p>En 2019 se registraron 3.150 siniestros, con 7.038 personas involucradas, de los cuales 812 tenían información de costos generados por atención en instituciones de salud. La mediana de costos fue US$ 56,59 (RI = 29,35–140,15), promedio de US$ 290,11 ± 731,22 (IC95% 239,74–340,48). Se observó mayor posibilidad para estar en cuartil 4 de los costos si la persona tenía menos de 18 años (OR = 4,88; IC95% 1,30–18,32) o entre los 46–60 años de edad (OR = 3,66; IC95% 1,01–13,30), cuando el tipo de vehículo es la motocicleta (OR = 2,79; IC95% 1,25–6,24) y la bicicleta (OR = 7,66; IC95% 2,70–21,68), si la lesión ocurre en la cabeza (OR = 4,50; IC95% 2,61–7,76) y si la hipótesis está relacionada con embriaguez (OR = 12,44; IC95% 2,01–76,87).</p>
+				</sec>
+				<sec>
+					<title>CONCLUSIÓN</title>
+					<p>Los factores relevantes en los costos fueron la motocicleta, bicicleta, lesión en la cabeza, ser menor de 18 años o tener entre los 46 años y los 60 años y embriaguez como hipótesis. Es relevante implementar medidas de prevención según los factores identificados para disminuir la accidentalidad y, por ende, sus costos socioeconómicos.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="es">
+				<kwd>Accidentes de Tránsito</kwd>
+				<kwd>Gastos en Salud</kwd>
+				<kwd>Risk Factors</kwd>
+				<kwd>Cross-Sectional Studies</kwd>
+			</kwd-group>
+		</front-stub>
+		<body>
+			<sec sec-type="intro">
+				<title>INTRODUCCIÓN</title>
+				<p>Los accidentes o siniestros de tránsito representan un problema de salud pública mundial. En el 2016, la carga global de la enfermedad por siniestros de tránsito fue de 877,4 por cada 100.000 habitantes (tasa estandarizada por edad), siendo más frecuente en los países de Europa central y oriental<sup><xref ref-type="bibr" rid="B1">1</xref> , <xref ref-type="bibr" rid="B2">2</xref></sup> . La mortalidad por esta problemática fue de 18,3, y los años de vida perdidos fueron 817,4 por cada 100.000 habitantes<sup><xref ref-type="bibr" rid="B2">2</xref></sup> .</p>
+				<p>En Colombia, durante el año 2019 la tasa de siniestros de tránsito fue de 1.214, con tasa de mortalidad de 14,6 (IC95% 11,1–18,6) por 100.000 habitantes, esta última corresponde al 3,13% del total de muertes en el país, posicionándose en la novena causa de muerte. La mortalidad es mayor en hombres con 24 por 100.000 hab. que en mujeres 5,9 por 100.000 hab.; también, es más frecuente en personas mayores de 70 años de edad. Asimismo, los años de vida perdidos fueron 701,7 por 100.000 habitantes, lo cual lo ubica en el sexto lugar<sup><xref ref-type="bibr" rid="B3">3</xref></sup> .</p>
+				<p>Son múltiples los factores que pueden asociarse con el desarrollo de los siniestros de tránsito. En una clasificación realizada en México<sup><xref ref-type="bibr" rid="B4">4</xref></sup> , se plantea que se pueden subdividir en tres momentos: antes, durante y posterior al evento. Además, los factores se agrupan en individuales (características del peatón, motociclista y/o conductor), del vehículo (elementos de equipamiento y protección) y del ambiente (factores climáticos e infraestructura), algunos de estos factores son oportunidades de investigación e intervención en salud pública<sup><xref ref-type="bibr" rid="B5">5</xref></sup> .</p>
+				<p>Por otro lado, la atención oportuna de emergencias salva vidas y reduce las discapacidades. Se estima que si los países de medios y bajos ingresos tuvieran las mismas tasas de letalidad derivadas de traumatismos graves que los países de ingresos altos, se podrían evitar cada año 500.000 defunciones causadas por accidentes de tránsito<sup><xref ref-type="bibr" rid="B6">6</xref></sup> .</p>
+				<p>En este sentido, la atención de las emergencias (prehospitalaria, transporte y los servicios en las instituciones prestadoras de servicios de salud) debe involucrar los siguientes aspectos básicos: garantizar el acceso a la atención de emergencias; garantizar los principales componentes estructurales de la atención prehospitalaria; establecer un paquete básico de servicios médicos de emergencias para cada nivel de atención; establecer un organismo director a escala nacional; y realizar evaluación del sistema de atención de emergencias<sup><xref ref-type="bibr" rid="B6">6</xref></sup> . Esto permite reducir las defunciones y discapacidades debidas a traumatismos por siniestros de tránsito, disminuir los costos socioeconómicos vinculados para los países, las familias y las personas, uso más eficiente y eficaz de los recursos de atención sanitaria existentes en todos los niveles del sistema y mayor capacidad de atención de emergencia y resiliencia del sistema para mantener la prestación del servicio aun en casos de accidentes con múltiples víctimas.</p>
+				<p>Se estima que los siniestros de tránsito consumen entre el 1% al 4% del producto interno bruto (PIB) en países en desarrollo<sup><xref ref-type="bibr" rid="B7">7</xref></sup> . En Colombia, los gastos de la atención de servicios de salud son asumidos por el Seguro Obligatorio para Accidente de Tránsito (SOAT), el cual es adquirido para cada automotor, en ocasiones este rubro no es suficiente para cubrirlos, por lo tanto, después de pasar ese límite, la cuenta es asumida por las Entidades Promotoras de Salud. Los costos de la atención de los accidentes de tránsito en Bogotá en 2013 fueron estimados en promedio por paciente en $1.112.000 pesos colombianos (en dólares US$ 278), el día de hospitalización en $1.200.000 y pacientes con atención ambulatoria en $247.400<sup><xref ref-type="bibr" rid="B8">8</xref></sup> .</p>
+				<p>Por lo anteriormente descrito, en este estudio se pretende determinar los factores relacionados con los costos totales generados durante la atención en salud de los siniestros de tránsito en Bucaramanga, Santander, Colombia, durante el 2019.</p>
+			</sec>
+			<sec sec-type="methods">
+				<title>MÉTODO</title>
+				<sec>
+					<title>Diseño del Estudio y Población</title>
+					<p>Este es un estudio descriptivo, transversal, con análisis de datos secundarios provenientes de los registros de accidentes de tránsito de Bucaramanga en 2019, proporcionados por la Dirección de Tránsito y el Observatorio Digital Municipal de Bucaramanga, muestreo tipo censo.</p>
+				</sec>
+				<sec>
+					<title>Recolección de Datos</title>
+					<p>Con base en los 7.038 registros de personas involucrados de un total de 3.150 siniestros de tránsito ocurridos en Bucaramanga en 2019 reportados por la Dirección de Tránsito y la información de atención en salud del Observatorio Digital Municipal de Bucaramanga a partir de las diferentes instituciones prestadoras de salud (IPS), se obtuvo información de costos de 812 personas atendidas en las IPS de la ciudad; posteriormente, se realizó la extracción, depuración y cruzamiento de las bases de datos ( <xref ref-type="fig" rid="f01003">Figura</xref> ).</p>
+					<p>
+						<fig id="f01003">
+							<label>Figura</label>
+							<caption>
+								<title>Proceso de obtención de la información.</title>
+							</caption>
+							<graphic xlink:href="1518-8787-rsp-56-47-gf01-es.tif"/>
+							<attrib>IPS: institución prestadora de salud.</attrib>
+						</fig>
+					</p>
+					<p>La variable dependiente fue costos directos derivados de la atención en salud (urgencias, hospitalización, quirófanos), que las IPS reportaron a la Secretaría de Salud de Bucaramanga que incluyen la valoración/atención (médico general, especialista y atención de enfermería), las ayudas diagnosticas (laboratorios, rayos X, tomografías, resonancias, etc.) y tratamientos instaurados (medicamentos, procedimientos quirúrgicos).</p>
+					<p>Además, se tuvieron en cuenta las siguientes covariables: identificador, genero (femenino, masculino), edad (en años y en categorías de &lt; 18 años, 18–25, 26–35, 36–45, 46–60 y &gt; 60 años), tipo de vehículo involucrado (automóvil, motocicleta, camioneta, camión, bus), hipótesis del accidente (desobedecer señales y normas de tránsito, no mantener la distancia segura, girar bruscamente, impericia en el manejo, exceso de velocidad, adelantar invadiendo el carril), lugar de ocurrencia, porte de licencia, porte del seguro obligatorio de accidente de tránsito, sitio de atención en salud, gravedad, fecha de ocurrencia, día de la semana (lunes, martes, miércoles, jueves, viernes, sábado o domingo), comuna, instituciones prestadoras de servicios de salud, requerimiento de cirugía, muerte, parte del cuerpo afectada (cabeza, cuello, tórax, abdomen, miembros superiores, miembros inferiores, diferentes partes del cuerpo, tejidos blandos, genitales, esta variable organizada con base en los códigos de la Clasificación Internacional de Enfermedades, 10.ª edición – CIE-10), diagnóstico, actor vial y costo general de la atención en salud en pesos colombianos.</p>
+				</sec>
+				<sec>
+					<title>Análisis y Tratamiento de los Datos</title>
+					<p>La descripción de las variables se realizó por medio de proporciones para variables cualitativas; promedios, desviación estándar, mediana y rango intercuartílico según la distribución normal o no de las variables cuantitativas. La variable costos se transformó a dólares, 4.000 pesos colombianos equivalen a 1 dólar según la tasa representativa del mercado a 31 de marzo del 2020 de la Superintendencia Financiera de Colombia, posteriormente, se calcularon sus cuartiles. Se exploraron diferencias entre los cuartiles con relación a las variables edad, sexo, tipo de vehículo involucrado, día de la semana, hipótesis de accidente, porte de licencia de conducción, porte de seguro obligatorio de accidentes de tránsito, parte del cuerpo afectada, además de otras variables del accidente de tránsito, a través de las pruebas estadísticas de chi-cuadrado de Pearson y exacta de Fisher. Se consideró significancia estadísticamente significativa cuando el valor de p es &lt; 0,05.</p>
+					<p>También, se calcularon <italic>odds ratio</italic> (OR) con sus respectivos intervalos de confianza del 95% mediante regresión logística. Los OR representan la razón de posibilidades de estar en el último cuartil (Q4) de costos para la categoría de interés respecto a la categoría de referencia (se representa con el número “1”) de la variable evaluada. Para la variable parte del cuerpo afectada la categoría de referencia fue diferentes partes del cuerpo, la cual fue construida cuando los participantes referían lesiones en varias partes del cuerpo. El análisis de datos fue realizado con el software Stata 11.0 (StataCorp, College Station, Estados Unidos).</p>
+				</sec>
+				<sec>
+					<title>Aspectos Éticos</title>
+					<p>El proyecto fue aprobado por la convocatoria interna de la Universidad de Santander (UDES) con el código CIF0315-19, por el Comité de Bioética de la Universidad de Santander (Acta 019 de 2019) y de la Empresa Social del Estado Hospital Universitario de Santander (HUS) (Acta 09 de 2019). El estudio fue catalogado como riesgo mínimo según la normatividad colombiana, Resolución 8430 de 1993 del Ministerio de Salud. El manejo de los datos se realizó conforme a lo estipulado por la Ley Estatutaria 1581 de 2012, Habeas Data de Colombia, que establece la protección de los datos personales.</p>
+				</sec>
+			</sec>
+			<sec sec-type="results">
+				<title>RESULTADOS</title>
+				<p>Según la Dirección de Tránsito Municipal, hubo 7.038 personas involucradas en 3.150 siniestros de tránsito durante 2019. De las personas involucradas, la mayor proporción corresponden al género masculino con el 88,48% (6.227) y rango de edad entre 26 y 35 años el 29,67% (2.088); mediana de edad de 34 años (RI = 26–46). Además, se tiene registro de que portaban la licencia de conducir el 81,15% (5.711) y el seguro obligatorio el 93,81% (6.602). Las hipótesis de accidentes más relevantes fueron desobedecer señales y normas de tránsito, no mantener la distancia segura, girar bruscamente, impericia al manejo y exceso de velocidad, en su orden. Con relación al tipo de vehículo involucrado, los más relevantes fueron automóvil y motocicleta. Los días sábado y martes fueron los que presentaron mayor número de personas lesionadas por estos eventos ( <xref ref-type="table" rid="t1003">Tabla 1</xref> ). Asimismo, el 51,66% (3.636) presentaron algún tipo de lesión, el 0,84% (59) fallecieron y el 47,50% (3.343) no tuvieron gravedad o lesión.</p>
+				<p>
+					<table-wrap id="t1003">
+						<label>Tabla 1</label>
+						<caption>
+							<title>Características de personas involucradas en siniestros de tránsito en Bucaramanga, Santander, Colombia, 2019.</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left">Características</th>
+									<th>% (n) (n = 7.038)</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Género</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Femenino</td>
+									<td align="center">11,52 (811)</td>
+								</tr>
+								<tr>
+									<td> Masculino</td>
+									<td align="center">88,48 (6.227)</td>
+								</tr>
+								<tr>
+									<td>Edad. Mediana (RI)</td>
+									<td align="center">34 (26–46)</td>
+								</tr>
+								<tr>
+									<td>Rango de edad</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td> &lt; 18 años</td>
+									<td align="center">5,36 (377)</td>
+								</tr>
+								<tr>
+									<td> 18–25 años</td>
+									<td align="center">19,37 (1.363)</td>
+								</tr>
+								<tr>
+									<td> 26–35 años</td>
+									<td align="center">29,67 (2.088)</td>
+								</tr>
+								<tr>
+									<td> 36–45 años</td>
+									<td align="center">19,51 (1.373)</td>
+								</tr>
+								<tr>
+									<td>46–60 años</td>
+									<td align="center">19,34 (1.361)</td>
+								</tr>
+								<tr>
+									<td> &gt; 60 años</td>
+									<td align="center">6,76 (476)</td>
+								</tr>
+								<tr>
+									<td>Porta licencia</td>
+									<td align="center">81,15 (5.711)</td>
+								</tr>
+								<tr>
+									<td>Porta seguro obligatorio</td>
+									<td align="center">93,81 (6.602)</td>
+								</tr>
+								<tr>
+									<td>Hipótesis relevantes del siniestro</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td> Desobedece señales y normas de tránsito</td>
+									<td align="center">25,69 (1.808)</td>
+								</tr>
+								<tr>
+									<td> No mantiene la distancia segura</td>
+									<td align="center">21,81 (1.535)</td>
+								</tr>
+								<tr>
+									<td> Girar bruscamente</td>
+									<td align="center">3,59 (253)</td>
+								</tr>
+								<tr>
+									<td> Impericia en el manejo</td>
+									<td align="center">3,38 (238)</td>
+								</tr>
+								<tr>
+									<td> Exceso de velocidad</td>
+									<td align="center">2,71 (191)</td>
+								</tr>
+								<tr>
+									<td> Adelantar invadiendo el carril</td>
+									<td align="center">2,02 (142)</td>
+								</tr>
+								<tr>
+									<td>Tipo de vehículo involucrado</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td> Automóvil</td>
+									<td align="center">39,41 (2.774)</td>
+								</tr>
+								<tr>
+									<td> Motocicleta</td>
+									<td align="center">34,27 (2.412)</td>
+								</tr>
+								<tr>
+									<td> Camioneta</td>
+									<td align="center">11,41 (803)</td>
+								</tr>
+								<tr>
+									<td> Camión</td>
+									<td align="center">3,42 (241)</td>
+								</tr>
+								<tr>
+									<td> Bus</td>
+									<td align="center">3,00 (211)</td>
+								</tr>
+								<tr>
+									<td>Día de la semana</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td> Lunes</td>
+									<td align="center">14,22 (1.001)</td>
+								</tr>
+								<tr>
+									<td> Martes</td>
+									<td align="center">16,01 (1.127)</td>
+								</tr>
+								<tr>
+									<td> Miércoles</td>
+									<td align="center">14,54 (1.023)</td>
+								</tr>
+								<tr>
+									<td> Jueves</td>
+									<td align="center">14,45 (1.017)</td>
+								</tr>
+								<tr>
+									<td> Viernes</td>
+									<td align="center">14,48 (1.019)</td>
+								</tr>
+								<tr>
+									<td> Sábado</td>
+									<td align="center">16,03 (1.128)</td>
+								</tr>
+								<tr>
+									<td> Domingo</td>
+									<td align="center">10,27 (723)</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<attrib>Fuente: datos de la Dirección de Tránsito de Bucaramanga, Santander, Colombia.</attrib>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p>De acuerdo a los registros proporcionados por las IPS de Bucaramanga en 2019, ingresaron 874 personas a estas instituciones, de las cuales se obtuvo información de la parte del cuerpo afectada de 665 personas, siendo las más frecuentes en su orden: miembros inferiores, miembros superiores, tórax y cabeza ( <xref ref-type="table" rid="t2003">Tabla 2</xref> ).</p>
+				<p>
+					<table-wrap id="t2003">
+						<label>Tabla 2</label>
+						<caption>
+							<title>Tipo de lesiones en siniestros de tránsito en Bucaramanga, Santander, Colombia, 2019.</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left">Características</th>
+									<th>% (n)</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Gravedad dato Dirección de Tránsito Municipal</td>
+									<td align="center">n = 7.038</td>
+								</tr>
+								<tr>
+									<td> Herido</td>
+									<td align="center">51,66 (3.636)</td>
+								</tr>
+								<tr>
+									<td> Muerto</td>
+									<td align="center">0,84 (59)</td>
+								</tr>
+								<tr>
+									<td> Sin gravedad</td>
+									<td align="center">47,50 (3.343)</td>
+								</tr>
+								<tr>
+									<td>Atención en IPS</td>
+									<td align="center">27,12 (1.912)</td>
+								</tr>
+								<tr>
+									<td>Parte del cuerpo afectada, dato Secretaría de Salud</td>
+									<td align="center">n = 874</td>
+								</tr>
+								<tr>
+									<td> Cabeza</td>
+									<td align="center">10,18 (89)</td>
+								</tr>
+								<tr>
+									<td> Cuello</td>
+									<td align="center">1,72 (15)</td>
+								</tr>
+								<tr>
+									<td> Tórax</td>
+									<td align="center">11,44 (100)</td>
+								</tr>
+								<tr>
+									<td> Abdomen</td>
+									<td align="center">0,69 (6)</td>
+								</tr>
+								<tr>
+									<td> Miembros superiores</td>
+									<td align="center">13,39 (117)</td>
+								</tr>
+								<tr>
+									<td> Miembros inferiores</td>
+									<td align="center">18,31 (160)</td>
+								</tr>
+								<tr>
+									<td>Diferentes partes del cuerpo</td>
+									<td align="center">18,76 (164)</td>
+								</tr>
+								<tr>
+									<td> Tejidos blandos</td>
+									<td align="center">1,37 (12)</td>
+								</tr>
+								<tr>
+									<td> Genitales</td>
+									<td align="center">0,23 (2)</td>
+								</tr>
+								<tr>
+									<td> Otros</td>
+									<td align="center">23,91 (209)</td>
+								</tr>
+								<tr>
+									<td>Costos U$ dólares (4.000 pesos)</td>
+									<td align="center">n = 812</td>
+								</tr>
+								<tr>
+									<td> Mediana (RI)</td>
+									<td align="center">56,59 (29,35–140,15)</td>
+								</tr>
+								<tr>
+									<td> Media ± DE (IC95%)</td>
+									<td align="center">290,11 ± 731,22 (239,74–340,48)</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<attrib>Fuente: datos de la Dirección de Tránsito Municipal y la Secretaría de Salud de Bucaramanga.</attrib>
+							<fn id="TFN1003">
+								<p>IPS: institución prestadora de salud.</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p>Con relación a los costos, se obtuvo información de 812 personas lesionadas por siniestros de tránsito y se identificó una mediana de US$ 56,59 (RI = 29,35–140,15) y un promedio de US$ 290,11 ± 731,22 (IC95% 239,74–340,48).</p>
+				<p>Se observaron diferencias en la distribución de algunas variables sociodemográficas entre los cuartiles. No se identificaron diferencias significativas entre los cuartiles en relación al género, sin embargo, en todos los cuartiles, el género masculino tiene porcentajes mayores al 83%. En cuanto a la edad, se identificaron diferencias significativas (valor p &lt; 0,001); en el cuarto cuartil las personas menores de 18 años representan el 10,84% (22) y en los otros cuartiles representan porcentajes inferiores al 7%. Además, en el cuarto cuartil las personas de 46 a 60 años corresponden al 13,79% (28) y en los otros cuartiles los porcentajes son menores al 10,50%. De esta forma, los OR son significativos para estas dos categorías, en comparación con los mayores de 60 años ( <xref ref-type="table" rid="t3003">Tabla 3</xref> ).</p>
+				<p>
+					<table-wrap id="t3003">
+						<label>Tabla 3</label>
+						<caption>
+							<title>Diferencias en el cuartil de costos y OR para estar en el Q4 de los costos según variables sociodemográficas y relacionadas con el siniestro en Bucaramanga, Santander, Colombia, 2019.</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left" rowspan="5">Característica</th>
+									<th rowspan="3">Total</th>
+									<th>Q1</th>
+									<th>Q2</th>
+									<th>Q3</th>
+									<th>Q4</th>
+									<th rowspan="5">p</th>
+									<th rowspan="5">OR (IC95%)</th>
+								</tr>
+								<tr>
+									<th>
+										<hr/>
+									</th>
+									<th>
+										<hr/>
+									</th>
+									<th>
+										<hr/>
+									</th>
+									<th>
+										<hr/>
+									</th>
+								</tr>
+								<tr>
+									<th>(0,53–29,35)</th>
+									<th>(29,36–56,55)</th>
+									<th>(56,62–139,9)</th>
+									<th>(140,31–6.754)</th>
+								</tr>
+								<tr>
+									<th>
+										<hr/>
+									</th>
+									<th>
+										<hr/>
+									</th>
+									<th>
+										<hr/>
+									</th>
+									<th>
+										<hr/>
+									</th>
+									<th>
+										<hr/>
+									</th>
+								</tr>
+								<tr>
+									<th>(812) %(n)</th>
+									<th>(203) %(n)</th>
+									<th>(203) %(n)</th>
+									<th>(203) %(n)</th>
+									<th>(203) %(n)</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Género</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td align="center">0,051</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td> Masculino</td>
+									<td align="center">86,45 (702)</td>
+									<td align="center">92,12 (187)</td>
+									<td align="center">85,71 (174)</td>
+									<td align="center">83,74 (170)</td>
+									<td align="center">84,24 (171)</td>
+									<td>
+									</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td> Femenino</td>
+									<td align="center">13,55 (110)</td>
+									<td align="center">7,88 (16)</td>
+									<td align="center">14,29 (29)</td>
+									<td align="center">16,26 (33)</td>
+									<td align="center">15,76 (32)</td>
+									<td>
+									</td>
+									<td align="center">0,78 (0,50–1,22)</td>
+								</tr>
+								<tr>
+									<td>Rango de edad</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td align="center"><bold>&lt; 0,001</bold></td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td> &lt; 18 años</td>
+									<td align="center">6,77 (55)</td>
+									<td align="center">5,42 (11)</td>
+									<td align="center">6,40 (13)</td>
+									<td align="center">4,43 (9)</td>
+									<td align="center"><bold>10,84 (22)</bold></td>
+									<td>
+									</td>
+									<td align="center"><bold>4,88 (1,30–18,32)</bold></td>
+								</tr>
+								<tr>
+									<td> 18–25 años</td>
+									<td align="center">30,17 (245)</td>
+									<td align="center">36,95 (75)</td>
+									<td align="center">28,57 (58)</td>
+									<td align="center">31,03 (63)</td>
+									<td align="center">24,14 (49)</td>
+									<td>
+									</td>
+									<td align="center">1,83 (0,52–6,37)</td>
+								</tr>
+								<tr>
+									<td> 26–35 años</td>
+									<td align="center">34,11 (277)</td>
+									<td align="center">22,66 (46)</td>
+									<td align="center">39,90 (81)</td>
+									<td align="center">36,45 (74)</td>
+									<td align="center">37,44 (76)</td>
+									<td>
+									</td>
+									<td align="center">2,77 (0,80–9,53)</td>
+								</tr>
+								<tr>
+									<td> 36–45 años</td>
+									<td align="center">15,52 (126)</td>
+									<td align="center">19,70 (40)</td>
+									<td align="center">14,29 (29)</td>
+									<td align="center">15,76 (32)</td>
+									<td align="center">12,32 (25)</td>
+									<td>
+									</td>
+									<td align="center">1,81 (0,50–6,54)</td>
+								</tr>
+								<tr>
+									<td> 46–60 años</td>
+									<td align="center">10,34 (84)</td>
+									<td align="center">7,39 (15)</td>
+									<td align="center">10,34 (21)</td>
+									<td align="center">9,85 (20)</td>
+									<td align="center"><bold>13,79 (28)</bold></td>
+									<td>
+									</td>
+									<td align="center"><bold>3,66 (1,01–13,30)</bold></td>
+								</tr>
+								<tr>
+									<td> &gt; 60 años</td>
+									<td align="center">3,08 (25)</td>
+									<td align="center">7,88 (16)</td>
+									<td align="center">0,49 (1)</td>
+									<td align="center">2,46 (5)</td>
+									<td align="center">1,48 (3)</td>
+									<td>
+									</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Porta licencia</td>
+									<td align="center">75,86 (616)</td>
+									<td align="center">81,28 (165)</td>
+									<td align="center">78,82 (160)</td>
+									<td align="center">78,33 (159)</td>
+									<td align="center"><bold>65,02 (132)</bold></td>
+									<td align="center"><bold>&lt; 0,001</bold></td>
+									<td align="center"><bold>0,48 (0,33–0,68)</bold></td>
+								</tr>
+								<tr>
+									<td>Seguro obligatorio de accidente al día</td>
+									<td align="center">92,12 (748)</td>
+									<td align="center">93,10 (189)</td>
+									<td align="center">93,10 (189)</td>
+									<td align="center">95,07 (193)</td>
+									<td align="center"><bold>87,19 (177)</bold></td>
+									<td align="center"><bold>0,021</bold></td>
+									<td align="center"><bold>0,45 (0,26–0,76)</bold></td>
+								</tr>
+								<tr>
+									<td colspan="4">Gravedad según dato Dirección de Tránsito Municipal</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td align="center"><bold>0,044</bold></td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td> Herido</td>
+									<td align="center">92,24 (749)</td>
+									<td align="center">91,13 (185)</td>
+									<td align="center">89,66 (182)</td>
+									<td align="center">93,60 (190)</td>
+									<td align="center">94,58 (192)</td>
+									<td>
+									</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td> Muerto</td>
+									<td align="center">1,60 (13)</td>
+									<td align="center">0,49 (1)</td>
+									<td align="center">2,96 (6)</td>
+									<td align="center">0,49 (1)</td>
+									<td align="center">2,46 (5)</td>
+									<td>
+									</td>
+									<td align="center"><bold>0,39 (0,16–0,94)</bold></td>
+								</tr>
+								<tr>
+									<td> Sin gravedad</td>
+									<td align="center">6,16 (50)</td>
+									<td align="center">8,37 (17)</td>
+									<td align="center">7,39 (15)</td>
+									<td align="center">5,91 (12)</td>
+									<td align="center">2,96 (6)</td>
+									<td>
+									</td>
+									<td align="center"><bold>0,34 (0,29–0,40)</bold></td>
+								</tr>
+								<tr>
+									<td colspan="2">Hipótesis del accidente</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td align="center">0,086</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td> Desobedecer señales o normas de tránsito</td>
+									<td align="center">39,16 (318)</td>
+									<td align="center">35,47 (72)</td>
+									<td align="center">44,83 (91)</td>
+									<td align="center">37,93 (77)</td>
+									<td align="center">38,42 (78)</td>
+									<td>
+									</td>
+									<td align="center">1,51 (0,42–5,41)</td>
+								</tr>
+								<tr>
+									<td> No mantener la distancia</td>
+									<td align="center">10,22 (83)</td>
+									<td align="center">11,82 (24)</td>
+									<td align="center">11,33 (23)</td>
+									<td align="center">9,85 (20)</td>
+									<td align="center">7,88 (16)</td>
+									<td>
+									</td>
+									<td align="center">1,11 (0,28–4,34)</td>
+								</tr>
+								<tr>
+									<td> Semáforo rojo</td>
+									<td align="center">4,19 (34)</td>
+									<td align="center">2,96 (6)</td>
+									<td align="center">1,97 (4)</td>
+									<td align="center">5,42 (11)</td>
+									<td align="center">6,40 (13)</td>
+									<td>
+									</td>
+									<td align="center">2,88 (0,69–12,02)</td>
+								</tr>
+								<tr>
+									<td> Exceso de velocidad</td>
+									<td align="center">4,19 (34)</td>
+									<td align="center">3,94 (8)</td>
+									<td align="center">4,93 (10)</td>
+									<td align="center">3,45 (7)</td>
+									<td align="center">4,43 (9)</td>
+									<td>
+									</td>
+									<td align="center">1,68 (0,38–7,24)</td>
+								</tr>
+								<tr>
+									<td> Embriaguez aparente</td>
+									<td align="center">1,35 (11)</td>
+									<td align="center">1,48 (3)</td>
+									<td align="center">0</td>
+									<td align="center">0</td>
+									<td align="center"><bold>3,94 (8)</bold></td>
+									<td>
+									</td>
+									<td align="center"><bold>12,44 (2,01–76,87)</bold></td>
+								</tr>
+								<tr>
+									<td> Impericia en el manejo</td>
+									<td align="center">2,71 (22)</td>
+									<td align="center">4,93 (10)</td>
+									<td align="center">0,49 (1)</td>
+									<td align="center">2,46 (5)</td>
+									<td align="center">2,96 (6)</td>
+									<td>
+									</td>
+									<td align="center">1,75 (0,36–8,33)</td>
+								</tr>
+								<tr>
+									<td> Transitar contravía</td>
+									<td align="center">1,85 (15)</td>
+									<td align="center">1,48 (3)</td>
+									<td align="center">2,46 (5)</td>
+									<td align="center">0,99 (2)</td>
+									<td align="center">2,46 (5)</td>
+									<td>
+									</td>
+									<td align="center">2,33 (0,45–12,09)</td>
+								</tr>
+								<tr>
+									<td> No respetar prelación</td>
+									<td align="center">1,48 (12)</td>
+									<td align="center">1,97 (4)</td>
+									<td align="center">0,99 (2)</td>
+									<td align="center">1,48 (3)</td>
+									<td align="center">0,99 (3)</td>
+									<td>
+									</td>
+									<td align="center">1,86 (0,23–14,64)</td>
+								</tr>
+								<tr>
+									<td> Adelantar invadiendo</td>
+									<td align="center">9,85 (20)</td>
+									<td align="center">0,98 (2)</td>
+									<td align="center">4,43 (9)</td>
+									<td align="center">1,48 (3)</td>
+									<td align="center">2,95 (6)</td>
+									<td>
+									</td>
+									<td align="center">2,12 (0,41–10,87)</td>
+								</tr>
+								<tr>
+									<td> Adelantar por la derecha</td>
+									<td align="center">1,23 (10)</td>
+									<td align="center">0,49 (1)</td>
+									<td align="center">0,99 (2)</td>
+									<td align="center">1,48 (3)</td>
+									<td align="center">1,97 (4)</td>
+									<td>
+									</td>
+									<td align="center">3,11 (0,52–18,38)</td>
+								</tr>
+								<tr>
+									<td> Adelantar cerrando</td>
+									<td align="center">2,09 (17)</td>
+									<td align="center">2,96 (6)</td>
+									<td align="center">1,97 (4)</td>
+									<td align="center">1,97 (4)</td>
+									<td align="center">1,48 (3)</td>
+									<td>
+									</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td> Girar bruscamente</td>
+									<td align="center">5,54 (45)</td>
+									<td align="center">9,85 (20)</td>
+									<td align="center">1,97 (4)</td>
+									<td align="center">0</td>
+									<td align="center">0</td>
+									<td>
+									</td>
+									<td align="center">0,85 (0,19–3,79)</td>
+								</tr>
+								<tr>
+									<td colspan="3">Tipo de vehículo involucrado</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td align="center">0,064</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td> Motocicleta</td>
+									<td align="center">85,71 (696)</td>
+									<td align="center">83,74 (170)</td>
+									<td align="center">83,25 (169)</td>
+									<td align="center">88,18 (179)</td>
+									<td align="center"><bold>87,68 (178)</bold></td>
+									<td>
+									</td>
+									<td align="center"><bold>2,79 (1,25–6,24)</bold></td>
+								</tr>
+								<tr>
+									<td> Automóvil</td>
+									<td align="center">7,88 (64)</td>
+									<td align="center">10,84 (22)</td>
+									<td align="center">11,33 (5)</td>
+									<td align="center">5,91 (12)</td>
+									<td align="center">3,45 (7)</td>
+									<td>
+									</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td> Bicicleta</td>
+									<td align="center">4,06 (33)</td>
+									<td align="center">2,96 (6)</td>
+									<td align="center">2,46 (5)</td>
+									<td align="center">2,96 (6)</td>
+									<td align="center"><bold>7,88 (16)</bold></td>
+									<td>
+									</td>
+									<td align="center"><bold>7,66 (2,70–21,68)</bold></td>
+								</tr>
+								<tr>
+									<td> Camioneta</td>
+									<td align="center">1,48 (12)</td>
+									<td align="center">1,97 (4)</td>
+									<td align="center">1,48 (3)</td>
+									<td align="center">1,48 (3)</td>
+									<td align="center">0,99 (2)</td>
+									<td>
+									</td>
+									<td align="center">1,62 (0,29–8,99)</td>
+								</tr>
+								<tr>
+									<td> Camión</td>
+									<td align="center">0,12 (1)</td>
+									<td align="center">0</td>
+									<td align="center">0,49 (1)</td>
+									<td align="center">0</td>
+									<td align="center">0</td>
+									<td>
+									</td>
+									<td align="center">-</td>
+								</tr>
+								<tr>
+									<td> Campero</td>
+									<td align="center">0,12 (1)</td>
+									<td align="center">0</td>
+									<td align="center">0</td>
+									<td align="center">0,49 (1)</td>
+									<td align="center">0</td>
+									<td>
+									</td>
+									<td align="center">-</td>
+								</tr>
+								<tr>
+									<td> Volqueta</td>
+									<td align="center">0,12 (1)</td>
+									<td align="center">0</td>
+									<td align="center">0</td>
+									<td align="center">0,49 (1)</td>
+									<td align="center">0</td>
+									<td>
+									</td>
+									<td align="center">-</td>
+								</tr>
+								<tr>
+									<td> Buseta</td>
+									<td align="center">0,25 (2)</td>
+									<td align="center">0</td>
+									<td align="center">0,49 (1)</td>
+									<td align="center">0,49 (1)</td>
+									<td align="center">0</td>
+									<td>
+									</td>
+									<td align="center">-</td>
+								</tr>
+								<tr>
+									<td> Bus</td>
+									<td align="center">0,25 (2)</td>
+									<td align="center">0,49 (1)</td>
+									<td align="center">0,49 (1)</td>
+									<td align="center">0</td>
+									<td align="center">0</td>
+									<td>
+									</td>
+									<td align="center">-</td>
+								</tr>
+								<tr>
+									<td colspan="4">Parte del cuerpo afectada, dato Secretaría de Salud</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td align="center"><bold>&lt; 0,001</bold></td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td> Cabeza</td>
+									<td align="center">15,91 (95)</td>
+									<td align="center">7,69 (11)</td>
+									<td align="center">9,79 (14)</td>
+									<td align="center">11,18 (17)</td>
+									<td align="center"><bold>33,33 (53)</bold></td>
+									<td>
+									</td>
+									<td align="center"><bold>4,50 (2,61</bold> – <bold>7,76)</bold></td>
+								</tr>
+								<tr>
+									<td> Tórax</td>
+									<td align="center">14,91 (89)</td>
+									<td align="center">12,59 (18)</td>
+									<td align="center">16,78 (24)</td>
+									<td align="center">16,45 (25)</td>
+									<td align="center">13,84 (22)</td>
+									<td>
+									</td>
+									<td align="center">1,17 (0,64–2,14)</td>
+								</tr>
+								<tr>
+									<td> Miembros superiores</td>
+									<td align="center">16,42 (98)</td>
+									<td align="center">15,38 (22)</td>
+									<td align="center">21,68 (31)</td>
+									<td align="center">19,74 (30)</td>
+									<td align="center">9,43 (15)</td>
+									<td>
+									</td>
+									<td align="center">0,64 (0,33–1,24)</td>
+								</tr>
+								<tr>
+									<td> Miembros inferiores</td>
+									<td align="center">24,46 (146)</td>
+									<td align="center">20,28 (29)</td>
+									<td align="center">32,17 (46)</td>
+									<td align="center">25,66 (39)</td>
+									<td align="center">20,13 (32)</td>
+									<td>
+									</td>
+									<td align="center">1,00 (0,58–1,71)</td>
+								</tr>
+								<tr>
+									<td> Diferentes partes del cuerpo</td>
+									<td align="center">28,31 (169)</td>
+									<td align="center">44,06 (63)</td>
+									<td align="center">19,58 (28)</td>
+									<td align="center">26,97 (41)</td>
+									<td align="center">23,27 (37)</td>
+									<td>
+									</td>
+									<td align="center">1</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<attrib>Fuente: datos de la Dirección de Tránsito Municipal y la Secretaría de Salud de Bucaramanga.</attrib>
+							<fn id="TFN2003">
+								<p>p-valor: prueba chi-cuadrado de Pearson y Exacta de Fisher; OR: <italic>odds ratio</italic> ; (IC95%): intervalo de confianza del 95%.</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p>Referente a las variables relacionadas con el cumplimiento de normas, se identificó que quienes portan la licencia y seguro obligatorio representan un menor porcentaje en el Q4 que en los Q1-Q3. Los OR son protectores con intervalos de confianza que no atraviesan el valor de asociación nula. Por otra parte, la gravedad reportada por la Dirección de Tránsito Municipal considera que de quienes acudieron a las IPS de Bucaramanga el 92,24% (749) fueron clasificados como lesionados, el 1,60% (13) fallecieron y el 6,16% (50) sin gravedad, los OR e IC de estas dos últimas categorías son inferiores a 1.</p>
+				<p>Respecto a la hipótesis del siniestro, no se identificaron diferencias estadísticamente significativas que afecten el costo en la comparación por cuartiles; sin embargo, cuando la hipótesis del siniestro fue embriaguez el OR fue de 12,44 (IC95% 2,01–76,87) ( <xref ref-type="table" rid="t3003">Tabla 3</xref> ).</p>
+				<p>El tipo de vehículo involucrado en los pacientes que acuden a las IPS es principalmente la motocicleta, con porcentajes mayores al 83% en todos los cuartiles; además, en el Q4 sobresale, en segundo lugar, la bicicleta con el 7,88% (16). De esta forma, los OR identificados fueron 2,79 (IC95% 1,25–6,24) y 7,66 (IC95% 2,70–21,68) al comparar con los siniestros que involucran automóvil, respectivamente.</p>
+				<p>Para la parte del cuerpo afectada, se aprecia que las lesiones en la cabeza tienen mayor proporción en el Q4 con el 33,33% (53), seguidamente las lesiones por miembros inferiores con el 20,13% (32). Si la parte del cuerpo afectada es la cabeza, el OR fue de 4,50 (IC95% 2,61–7,76) en comparación con la categoría que asume diferentes partes del cuerpo ( <xref ref-type="table" rid="t3003">Tabla 3</xref> ).</p>
+			</sec>
+			<sec sec-type="discussion">
+				<title>DISCUSIÓN</title>
+				<p>Son pocos los estudios que informan las características y costos de las lesiones ocurridas por siniestros de tránsito. En Colombia, algunos estudios han descrito la incidencia, los factores asociados y las características de las lesiones ocurridas, y han reportado que los motociclistas son quienes más sufren lesiones<sup><xref ref-type="bibr" rid="B4">4</xref> , <xref ref-type="bibr" rid="B9">9</xref></sup> , las partes del cuerpo más afectadas son la cabeza y las extremidades<sup><xref ref-type="bibr" rid="B9">9</xref></sup> , el trauma craneoencefálico está asociado a la mortalidad<sup><xref ref-type="bibr" rid="B4">4</xref> , <xref ref-type="bibr" rid="B10">10</xref></sup> y entre los factores de riesgo se identifican el desacato a las normas de tránsito<sup><xref ref-type="bibr" rid="B4">4</xref></sup> y la imprudencia del conductor<sup><xref ref-type="bibr" rid="B10">10</xref></sup> .</p>
+				<p>En nuestro estudio, los siniestros de tránsito se presentan más en hombres, jóvenes, con licencia de conducción al día, que en su mayoría manejaron con exceso de velocidad y desobedecieron las señales o normas de tránsito, hallazgos similares a lo reportado por otros autores<sup><xref ref-type="bibr" rid="B11">11</xref></sup> .</p>
+				<p>En relación al tipo de vehículo involucrado, primero, se encontró el automóvil, seguido de la motocicleta<sup><xref ref-type="bibr" rid="B14">14</xref> , <xref ref-type="bibr" rid="B15">15</xref></sup> . Sin embargo, cuando se consideran solo los datos de quienes acudieron a instituciones de salud, el principal vehículo involucrado fue la motocicleta, al igual que en otros estudios<sup><xref ref-type="bibr" rid="B12">12</xref> , <xref ref-type="bibr" rid="B16">16</xref></sup> .</p>
+				<p>En cuanto a las lesiones presentadas, en nuestro estudio las principales partes afectadas fueron miembros superiores, miembros inferiores y cabeza, a diferencia del estudio en Brasil que identificó lesiones en la cabeza, sin embargo, en esta última se analizaron solo accidentes en moto<sup><xref ref-type="bibr" rid="B17">17</xref></sup> .</p>
+				<p>Por otra parte, la mediana de costos por siniestro de tránsito fue de US$ 56 (RI = 29,35–140,15) y el promedio 290,11 ± 731,22 (IC95% 239,74–340,48) correspondiente solo a los gastos médicos derivados de su permanencia en el hospital, podría considerarse como un costo bajo comparado con el estudio realizado en Irán donde el promedio del costo está en US$ 9,024<sup><xref ref-type="bibr" rid="B11">11</xref></sup> , pero se debe tener en cuenta que en nuestro estudio no se incluyeron costos indirectos, costos por pérdida de productividad derivada del accidente que, según otros estudios, pueden ser más altos que los netamente relacionados a la atención en salud debido al accidente<sup><xref ref-type="bibr" rid="B15">15</xref> , <xref ref-type="bibr" rid="B18">18</xref> , <xref ref-type="bibr" rid="B19">19</xref></sup> .</p>
+				<p>De esta manera, los costos derivados de los siniestros de tránsito pueden generar impacto socioeconómico a la comunidad, por ello la importancia de adoptar medidas de prevención encaminadas a reducir la ocurrencia de los mismos. Una de esas medidas puede ser la toma de acciones para mejorar la congestión vehicular, ya que algunos estudios han encontrado que volúmenes de tráfico alto pueden aumentar la probabilidad de accidentes debido a que hay más automóviles en la carretera. Sin embargo, hay que tener en cuenta que, en volúmenes de tráfico bajo, los accidentes también son frecuentes como resultado de altas velocidades; esto último sugiere intervenciones en regulaciones y controles de velocidad en las carreteras<sup><xref ref-type="bibr" rid="B20">20</xref> , <xref ref-type="bibr" rid="B21">21</xref></sup> .</p>
+				<p>En cuanto a este hallazgo es conveniente continuar explorando los efectos de la congestión vehicular en los accidentes de tránsito, dado que los resultados del presente estudio, como no respetar la prelación, adelantar invadiendo, adelantar por derecha y girar bruscamente, podrían suponer comportamientos derivados del afán o premura luego de pasar por un periodo de tráfico vehicular.</p>
+				<p>En nuestro estudio se encontró una relación estadísticamente significativa de los costos por accidentes de tránsito con la edad, portar licencia y seguro al día, la gravedad del accidente según la clasificación realizada por la dirección de tránsito y la parte del cuerpo afectada, similar a lo reportado en estudio llevado a cabo en Irán<sup><xref ref-type="bibr" rid="B11">11</xref></sup> . También, se observó relación estadísticamente significativa entre la gravedad de la lesión y el aumento de los costos similar a lo reportado en un estudio en Haití donde los pacientes lesionados en accidentes de carretera representaron el mayor costo con un valor promedio de US$ 1,220<sup><xref ref-type="bibr" rid="B22">22</xref></sup> .</p>
+				<p>En Argentina, Brasil, Colombia y México, entre los años 2006 y 2015 se calculó en 13.540 millones de dólares la pérdida acumulativa del PIB causada por las enfermedades crónicas no transmisibles más frecuentes, cardiopatías, los accidentes cerebrovasculares y la diabetes<sup><xref ref-type="bibr" rid="B23">23</xref></sup> . En Colombia, para el periodo 2008–2010 la Universidad de los Andes calculó el costo de los accidentes de tránsito alrededor del 1% del PIB, valor que contempla los costos médicos, humanos, administrativos y las pérdidas económicas por daños a la propiedad<sup><xref ref-type="bibr" rid="B24">24</xref></sup> . En el 2016 se estimó en 1,52 billones de pesos anuales el costo de los accidentes de tránsito asumido por el Seguro Obligatorio de Accidentes de Tránsito y la Administradora de los Recursos del Sistema General de Seguridad Social en Salud<sup><xref ref-type="bibr" rid="B24">24</xref></sup> .</p>
+				<p>A pesar que en nuestro estudio no se encontró relación estadísticamente significativa entre el género y los costos, sí se observó mayor número de accidentes en hombres, lo cual podría ser considerado como un factor de riesgo y enfoque de las medidas de prevención en esta población. Esta condición también se identificó en Brasil<sup><xref ref-type="bibr" rid="B14">14</xref></sup> donde fue asumida como un factor en el que se presenta aumento de las secuelas y, por ende, de los costos por pérdida de capacidad de producción.</p>
+				<p>Los resultados del estudio ponen de manifiesto la necesidad de centrar la prevención en los factores identificados con mayor frecuencia en este tipo de accidentes como el género masculino, la edad joven, la motocicleta como vehículo de transporte y la prevalencia de algunos comportamientos no adecuados en el momento de manejar, sin que esto se relacione con el tener la licencia y documentación de seguros en regla. De esta manera, se deben enfocar acciones educativas que generen una conciencia colectiva frente al cambio de comportamientos de riesgo para accidentarse. Es de resaltar que en varios países se están implementando una licencia de conducción por puntos<sup><xref ref-type="bibr" rid="B25">25</xref></sup> , como una manera de vigilar y estar reeducando a los conductores. Lo anterior permitiría reducir los gastos derivados de los accidentes de tránsito en el sistema de salud y en la comunidad que permitan derivar los recursos hacia la suplencia de otras necesidades básicas de la población y, así, probablemente reducirían la carga económica de la nación<sup><xref ref-type="bibr" rid="B22">22</xref></sup> .</p>
+				<p>Para el presente estudio se reconocen limitaciones como: no se obtuvo información de costos de atención de IPS de otros municipios del área metropolitana (Floridablanca, Piedecuesta y Girón); además, en la información reportada por las IPS respecto de la CIE-10, 209 registros no proporcionaban datos sobre la parte del cuerpo afectada específicamente y asignaron un CIE-10 referente al actor vial (peatón, ciclista, motociclista, caída).</p>
+				<p>También se debe tener en cuenta que los costos generados pueden ser inferiores, dado que los recursos humanos y tecnológicos para la atención en salud pueden ser menores que los de países desarrollados. De otra parte, sería interesante en estudios futuros vincular variables, como ingesta de alcohol, condiciones de las vías donde ocurrió el siniestro de tránsito, uso de elementos de proyección personal, y analizar los costos indirectos como la pérdida de la capacidad de producción por las secuelas dejadas por el accidente, de esta manera se podría brindar una proyección más amplia para las asignaciones presupuestales a estos eventos y las tarifas previstas por las aseguradoras para atender esta situación, tal como nos plantean otros estudios<sup><xref ref-type="bibr" rid="B19">19</xref> , <xref ref-type="bibr" rid="B26">26</xref></sup> ; además, desglosar los costos de atención medica directa por profesionales, medicamentos, transporte, ayudas diagnósticas y dispositivos<sup><xref ref-type="bibr" rid="B15">15</xref> , <xref ref-type="bibr" rid="B19">19</xref></sup> . Adicionalmente, vale la pena indagar respecto de la calidad de las motocicletas, de los elementos de protección personal y el uso adecuado de los mismos.</p>
+				<p>Finalmente, se identificó que los factores relevantes de un aumento considerable de los costos en los accidentes de tránsito fueron la motocicleta, la bicicleta, ser menor de 18 años o tener entre los 46 y los 60 años, lesión en la cabeza y embriaguez como hipótesis. Contrariamente se encontró una disminución de los costos en los accidentes de tránsito en los casos que el conductor cumplía con la normatividad de portar licencia de conducción y póliza de seguro obligatorio de accidente. Es relevante identificar mecanismos para disminuir este tipo de eventos, siendo conocedores de que son prevenibles, se pueden implementar medidas para disminuir su severidad y, por ende, los costos y secuelas para la sociedad.</p>
+			</sec>
+		</body>
+		<back>
+			<fn-group>
+				<fn fn-type="financial-disclosure" id="fn2003">
+					<p><bold>Financiamiento:</bold> Universidad de Santander (UDES - convocatoria interna nº CIF0315-9). Dirección de Transito de Bucaramanga. Secretaria de Salud de Bucaramanga.</p>
+				</fn>
+			</fn-group>
+		</back>
+	</sub-article>
+</article>

@@ -1,0 +1,4949 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.1" specific-use="sps-1.9" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="nlm-ta">Rev Saude Publica</journal-id>
+			<journal-id journal-id-type="publisher-id">rsp</journal-id>
+			<journal-title-group>
+				<journal-title>Revista de Saúde Pública</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Rev. Saúde Pública</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="ppub">0034-8910</issn>
+			<issn pub-type="epub">1518-8787</issn>
+			<publisher>
+				<publisher-name>Faculdade de Saúde Pública da Universidade de São Paulo</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="other">00206</article-id>
+			<article-id pub-id-type="doi">10.11606/s1518-8787.2022056004122</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Original Article</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Mental health of nursing professionals during the COVID-19 pandemic: a cross-sectional study</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-9726-3162</contrib-id>
+					<name>
+						<surname>Kantorski</surname>
+						<given-names>Luciane Prado</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-7914-9339</contrib-id>
+					<name>
+						<surname>Oliveira</surname>
+						<given-names>Michele Mandagará de</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-0440-9108</contrib-id>
+					<name>
+						<surname>Treichel</surname>
+						<given-names>Carlos Alberto dos Santos</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-4800-1630</contrib-id>
+					<name>
+						<surname>Bakolis</surname>
+						<given-names>Ioannis</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>III</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-6800-9536</contrib-id>
+					<name>
+						<surname>Alves</surname>
+						<given-names>Poliana Farias</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-5327-0141</contrib-id>
+					<name>
+						<surname>Coimbra</surname>
+						<given-names>Valéria Cristina Christello</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-3280-8579</contrib-id>
+					<name>
+						<surname>Cavada</surname>
+						<given-names>Gustavo Pachon</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-9654-7470</contrib-id>
+					<name>
+						<surname>Sperb</surname>
+						<given-names>Lilian Cruz Souto de Oliveira</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-5269-787X</contrib-id>
+					<name>
+						<surname>Guedes</surname>
+						<given-names>Ariane da Cruz</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-8365-9318</contrib-id>
+					<name>
+						<surname>Antonacci</surname>
+						<given-names>Milena Hohmann</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-7427-9305</contrib-id>
+					<name>
+						<surname>Willrich</surname>
+						<given-names>Janaína Quinzen</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>I</label>
+				<institution content-type="orgname">Universidade Federal de Pelotas</institution>
+				<institution content-type="orgdiv1">Faculdade de Enfermagem</institution>
+				<institution content-type="orgdiv2">Departamento de Saúde Coletiva</institution>
+				<addr-line>
+					<named-content content-type="city">Pelotas</named-content>
+					<named-content content-type="state">RS</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Universidade Federal de Pelotas. Faculdade de Enfermagem. Departamento de Saúde Coletiva. Pelotas, RS, Brasil</institution>
+			</aff>
+			<aff id="aff2">
+				<label>II</label>
+				<institution content-type="orgname">Universidade de Campinas</institution>
+				<institution content-type="orgdiv1">Departamento de Saúde Coletiva</institution>
+				<institution content-type="orgdiv2">Escola de Ciências Médicas</institution>
+				<addr-line>
+					<named-content content-type="city">Campinas</named-content>
+					<named-content content-type="state">SP</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Universidade de Campinas. Departamento de Saúde Coletiva. Escola de Ciências Médicas. Campinas, SP, Brasil</institution>
+			</aff>
+			<aff id="aff3">
+				<label>III</label>
+				<institution content-type="orgname">Kings College</institution>
+				<institution content-type="orgdiv1">Institute of Psychiatry, Psychology and Neuroscience</institution>
+				<addr-line>
+					<named-content content-type="city">London</named-content>
+				</addr-line>
+				<country country="GB">United Kingdom</country>
+				<institution content-type="original">Kings College. Institute of Psychiatry, Psychology and Neuroscience. London, United Kingdom</institution>
+			</aff>
+			<author-notes>
+				<corresp id="c01"> Correspondence: Poliana Farias Alves Rua Gomes Carneiro, nº 1, Centro 96010-610 Pelotas, RS, Brasil E-mail: <email>polibrina@hotmail.com</email>
+				</corresp>
+				<fn fn-type="con">
+					<p><bold>Authors’ Contribution:</bold> Study design and planning: LPK, MMO, PFA, CAST. Data collection, analysis and interpretation: LPK, MMO, PFA, GPC, LCSOS, CAST, IB, MHA, ACG, JQW. Manuscript drafting or review: LPK, MMO, PFA, CAST, IB, LCSOS, MHA, VCCC, ACG, JQW. Approval of the final version: LPK, MMO, CAST, PFA, VCCC, LCSOS, GPC, IB, ACG, MHA, VCCC, JQW. Public responsibility for the content of the article: LPK, MMO, CAST, PFA, IB, VCCC, GPC, LCSOS, ACG, MHA, JQW.</p>
+				</fn>
+				<fn fn-type="conflict">
+					<p><bold>Conflict of Interest:</bold> The authors declare no conflict of interest.</p>
+				</fn>
+			</author-notes>
+			<pub-date date-type="pub" publication-format="electronic">
+				<day>14</day>
+				<month>03</month>
+				<year>2022</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">
+				<year>2022</year>
+			</pub-date>
+			<volume>56</volume>
+			<elocation-id>8</elocation-id>
+			<history>
+				<date date-type="received">
+					<day>4</day>
+					<month>08</month>
+					<year>2021</year>
+				</date>
+				<date date-type="accepted">
+					<day>4</day>
+					<month>11</month>
+					<year>2021</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="en">
+					<license-p> This is an Open Access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. </license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>ABSTRACT</title>
+				<sec>
+					<title>OBJECTIVE</title>
+					<p> To identify the prevalence of and factors associated with: (1) major depressive episodes; (2) minor psychiatric disorders (MPDs); and (3) suicidal ideation among nursing professionals from a municipality in southern Brazil.</p>
+				</sec>
+				<sec>
+					<title>METHODS</title>
+					<p> Using a cross-sectional design, we recruited 890 nursing professionals linked to 50 Primary Care units, 2 walk-in clinics, 2 hospital services, 1 emergency room service, 1 mobile emergency care service, and 1 teleconsultation service, in addition to the municipal epidemiological surveillance service and the vacancy regulation center between June and July 2020. We used the Patient Health Questionnaire-9 and the Self-Reporting Questionnaire to evaluate the studied outcomes. Associations between the outcomes and variables related to sociodemographic profile, work, health conditions, and daily life were explored using Poisson regression models with robust variance estimators.</p>
+				</sec>
+				<sec>
+					<title>RESULTS</title>
+					<p> The observed prevalence of depression, MPDs, and suicidal ideation were 36.6%, 44%, and 7.4%, respectively. MPDs were associated with the assessment of support received by the service as ‘regular’ (PR: 1.48; 95% CI: 1.19–1.85) or ‘poor’ (PR: 1.54; 95% CI: 1.23–1.94), with a reported moderate (PR: 1.63; 95% CI: 1.29–2.07), or heavy (PR: 2.54; 95% CI: 2.05–3.15) workload, and with suspected COVID-19 infection (PR: 1.44; 95% CI: 1.25–1.66). Major depressive episodes were associated with a reported lack of personal protective equipment (PR: 1.20; 95% CI: 1.01–1.42), whereas suicidal ideation was inversely related to per capita income &gt; 3 minimum monthly wages (PR: 0.28; 95% CI: 0.11–0.68), and positively related to the use of psychotropic drugs (PR: 3.14; 95% CI: 1.87–5.26).</p>
+				</sec>
+				<sec>
+					<title>CONCLUSION</title>
+					<p> Our results suggest that nursing professionals’ working conditions are associated with their mental health status. The need to improve working conditions through adequate dimensioning, support and proper biosafety measures is only heightened in the context of the COVID-19 pandemic.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="en">
+				<kwd>Nursing, Team, psychology</kwd>
+				<kwd>COVID-19, nursing</kwd>
+				<kwd>Mental Disorders, epidemiology</kwd>
+				<kwd>Mental Health</kwd>
+				<kwd>Occupational Health</kwd>
+				<kwd>Cross-Sectional Studies</kwd>
+			</kwd-group>
+			<funding-group>
+				<award-group>
+					<funding-source>Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul</funding-source>
+					<award-id>06/2020</award-id>
+				</award-group>
+				<funding-statement>Funding: Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul (Fapergs Emergency Notice nº 06/2020 - Science and technology in the fight against COVID-19). Ioannis Bakolis is supported by the NIHR Maudsley Biomedical Research Centre and by the NIHR Collaboration for Leadership in Applied Health Research and Care South London at King’s College Hospital NHS Foundation Trust, King’s College London.</funding-statement>
+			</funding-group>
+			<counts>
+				<fig-count count="0"/>
+				<table-count count="4"/>
+				<equation-count count="0"/>
+				<ref-count count="33"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>INTRODUCTION</title>
+			<p>The COVID-19 pandemic has challenged health systems worldwide<sup><xref ref-type="bibr" rid="B1">1</xref></sup> . Nursing professionals constitute approximately half of the global health workforce<sup><xref ref-type="bibr" rid="B2">2</xref></sup> , and in the current pandemic, they perform the majority of tasks related to preventing and containing infections. Nursing professionals’ role in caring for COVID-19-infected patients and patients’ family members may have negative consequences to their mental health<sup><xref ref-type="bibr" rid="B3">3</xref></sup> .</p>
+			<p>Increasing COVID-19 cases have coincided with increased workloads, particularly for front-line healthcare professionals. Recognizing potential adverse effects on the mental health of these professionals has instigated research efforts in several countries. Findings, such as the high prevalence of depression, anxiety, sleep disorders, and Minor Psychiatric Disorders (MPDs), stand out<sup><xref ref-type="bibr" rid="B4">4</xref></sup> , and some studies point to a higher prevalence of these outcomes among nursing professionals<sup><xref ref-type="bibr" rid="B8">8</xref> , <xref ref-type="bibr" rid="B9">9</xref></sup> . In a comparison of reported hopelessness and anxiety among nurses, doctors, and other health professionals, we observed that nurses’ hopelessness and anxiety levels were significantly higher than the other two groups<sup><xref ref-type="bibr" rid="B8">8</xref></sup> .</p>
+			<p>Daily challenges experienced by nursing professionals are exacerbated by a myriad of psychological stressors during the COVID-19 pandemic, such as high workload, lack of knowledge on the disease, lack of adequate personal protective equipment, and fear of becoming infected and/or infecting loved ones<sup><xref ref-type="bibr" rid="B3">3</xref> , <xref ref-type="bibr" rid="B4">4</xref> , <xref ref-type="bibr" rid="B10">10</xref> , <xref ref-type="bibr" rid="B11">11</xref></sup> . In one study, nursing professionals demonstrated a prevalence of 53.5%, 47%, and 38.2% for depression, anxiety, and insomnia, respectively, which were high in comparison to other professionals<sup><xref ref-type="bibr" rid="B6">6</xref></sup> .</p>
+			<p>Despite the high number of recently published studies on health professionals’ mental health in the context of the pandemic, more high-quality investigations are needed. Several published studies on this topic did not employ explicit sample frames and/or had low response rates, which challenges the representativeness of their results<sup><xref ref-type="bibr" rid="B12">12</xref></sup> .</p>
+			<p>In order to increase the evidence base, this study sought to identify the prevalence of, and factors associated with: (1) major depressive episodes; (2) MPDs; and (3) suicidal ideation among nursing professionals from Pelotas, a municipality in the state of Rio Grande do Sul, in southern Brazil. We hypothesized that nursing professionals working in the front lines of the pandemic and those who reported experiencing inadequate working conditions would be more likely to present with adverse mental health outcomes.</p>
+		</sec>
+		<sec sec-type="methods">
+			<title>METHODS</title>
+			<sec>
+				<title>Study Design and Sample</title>
+				<p>We conducted a cross-sectional study from June to July 2020 with nursing professionals from the municipality of Pelotas (population: 343,132), which serves as a health service and technology reference for 21 other small cities in the surrounding area<sup><xref ref-type="bibr" rid="B13">13</xref></sup> . We recruited participants through services aimed at combating the pandemic; namely, 50 Primary Care units, 2 walk-in clinics, 2 hospital services, 1 emergency room service, 1 mobile emergency care service, and 1 teleconsultation service, in addition to the municipal epidemiological surveillance service and the vacancy regulation center. According to the city’s Municipal Health Department, a total of 1,297 nursing professionals worked in these services.</p>
+				<p>Inclusion criteria for the study were employment as a nursing professional, aging &gt; 18 years, holding a registration with the Regional Nursing Council (COREN), and attending a current employment in a service actively combating the COVID-19 pandemic in the municipality of Pelotas. Exclusion criteria were being on vacation or otherwise absent from work during the data collection period. In addition, a total of 21 professionals who did not provide valid contact information were excluded.</p>
+				<p>Data collection was conducted using an online, self-administered questionnaire. If they agreed to participate, the nursing professionals were contacted about joining the study and were sent a link to the questionnaire. However, they were required to read and sign an informed consent form before receiving access to begin the questionnaire. This explained the purpose of the study, the participant’s right to decline participation or cease participation at any time, and their right to remain anonymous.</p>
+				<p>Thus, a total of 944 successful contacts were made among 1,186 eligible professionals; 242 individuals could not be reached. Finally, 54 of those successfully contacted declined to participate, resulting in a 75% response rate (n = 890).</p>
+			</sec>
+			<sec>
+				<title>Measures</title>
+				<p>The frequency of depressive symptoms in the past 2 weeks was assessed using the 9-question Patient Health Questionnaire (PHQ-9). This instrument scores responses from 0 to 3, and according to a validation study for the general Brazilian population<sup><xref ref-type="bibr" rid="B14">14</xref></sup> , a score ≥ 9 provides the highest sensitivity (77.5%; 61.5–89.2) and specificity (86.7%; 83.0–89.9) for screening for major depressive episodes.</p>
+				<p>The presence of MPDs was assessed using the 20-item Self-Reporting Questionnaire (SRQ-20). The SRQ-20 was also validated for use in Brazil<sup><xref ref-type="bibr" rid="B15">15</xref></sup> , and it includes questions on anxiety, depression, and somatic symptoms. All questions are answered with “yes” (1 point) or “no” (0 points), with the highest score being 20 points, and 7 points, identifying the presence or absence of the outcome.</p>
+				<p>Consistent with previous studies conducted in Brazil<sup><xref ref-type="bibr" rid="B16">16</xref></sup> , question 17 of the SRQ-20 instrument was used to screen suicidal ideation. The question asked if the individual “has ever thought about ending their life” in the past 30 days. Suicidal ideation was considered present in participants who answered affirmatively to this question.</p>
+			</sec>
+			<sec>
+				<title>Covariates</title>
+				<p>Sociodemographic and other COVID-19-related background data were collected using a questionnaire developed by our team. Sociodemographic data consisted of: gender; ethnicity; age; education level; per capita income; type of service; length of service in the nursing field and at the institution; nursing category; workload; information on secondary employment, if applicable; COVID-19-specific training; evaluations of working conditions and support at work; currently perceived burden, and a comparison of burden pre- and post-pandemic period; involvement level with COVID-19 cases; the proportion of the workload involving COVID-19 cases; lack of Personal Protective Equipment (PPE); suspected COVID-19 infection; absence from work due to suspected infection; family members or close friends diagnosed with COVID-19; degree of social distancing/isolation; belonging to the risk group (i.e. those with comorbidities, such as hypertension, diabetes, chronic heart, or respiratory disease, as well as those who had undergone a transplant or were using immunosuppressive drugs); problems with or abuse of alcohol or tobacco; and current use of psychotropic drugs.</p>
+			</sec>
+			<sec>
+				<title>Statistical Analysis</title>
+				<p>Statistical analyses were conducted using the Stata 16 software program (Stata Corporation, College Station, Texas USA). The prevalence of depression, MPDs, and suicidal ideation were calculated for the full sample and by covariate. Associations of depression, MPDs, and suicidal ideation with the studied covariates were tested using unadjusted and adjusted Poisson regression models with robust variance estimators. The forward stepwise selection was used to select covariates for inclusion in the adjusted analysis following the criterion p ≤ 0.20<sup><xref ref-type="bibr" rid="B17">17</xref></sup> .</p>
+				<p>Potential confounders common to the three outcomes studied (i.e. depression, MPDs, and suicidal ideation) were initially identified. These confounders were gender, age, and per capita income, which composed the first model (model 1) for which each variable was adjusted for each outcome. Next, the confounders for each outcome were identified and a model to adjust the studied variables related to each outcome was created. In Model 2, the dependent variable was major depressive episodes and the covariates entered as potential confounders were gender, age, education, per capita income, evaluation of support at work, burden, lack of PPE, suspected COVID-19 infection, use of tobacco, and use of psychotropic drugs.</p>
+				<p>The dependent variable in Model 3 was MPD and covariates entered as potential confounders were gender, age, per capita income, evaluation of support at work, burden, suspected COVID-19 infection, use of tobacco, and use of psychotropic drugs. Finally, the dependent variable in Model 4 was suicidal ideation, and covariates included as potential confounders were per capita income, length of service at the institution, workload, secondary employment, evaluation of conditions at work, comparison of burden pre- and post-pandemic, diagnosis of COVID-19 in a family member or close friend, problems with alcohol, and the use of psychotropic drugs.</p>
+			</sec>
+			<sec>
+				<title>Ethical Procedures</title>
+				<p>The study was reviewed and approved by the Ethics Research Committee in accordance with Brazilian guidelines and standards regulating research involving human beings (Resolution 466/2012) and the Declaration of Helsinki. Ethical principles were upheld as subjects were informed of their right to not participate in the research upon first contact, and a fully informed consent form was signed by all participants. As part of the informed consent process, participants agreed for their anonymized data to be disclosed for scientific purposes. This study adhered to the Guidelines for Strengthening the Reporting of Observational Studies in Epidemiology (STROBE).</p>
+			</sec>
+		</sec>
+		<sec sec-type="results">
+			<title>RESULTS</title>
+			<sec>
+				<title>Characterization of Participants</title>
+				<p>A total of 944 successful contacts were made among 1,186 eligible professionals; 242 individuals could not be reached because their contact information was either incorrect or no answers were obtained after 10-call attempts on different days, according to a pre-established data collection protocol. In addition, 54 of those successfully contacted declined to participate, resulting in a 75% response rate (n = 890).</p>
+				<p>
+					<xref ref-type="table" rid="t1">Table 1</xref> shows descriptive statistics for the 890 nursing professionals who completed the online questionnaire <italic>.</italic> In the final sample, 319 (35.8%) were registered nurses, 501 (56.3%) were nursing technicians, and 70 (7.9%) were nursing assistants. Most participants were female (n = 755, 84.8%), and the average age was 40.4 years (SD = 8.58). The majority of participants work in a hospital service (n = 577, 64.8%) or in Primary Care (n = 92, 10.3%). Variables with missing data were per capita income (n = 80) and length of service at the institution (n = 5).</p>
+				<p>
+					<table-wrap id="t1">
+						<label>Table 1</label>
+						<caption>
+							<title>Descriptive statistics for the sample of nursing professionals included in the study (n = 890) (Pelotas-RS, 2020).</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup width="33%">
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left" style="font-weight:normal">
+									</th>
+									<th>n</th>
+									<th>%</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Gender</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Female</td>
+									<td align="center">755</td>
+									<td align="center">84.8</td>
+								</tr>
+								<tr>
+									<td>Male</td>
+									<td align="center">135</td>
+									<td align="center">15.2</td>
+								</tr>
+								<tr>
+									<td>Ethnicity</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>White</td>
+									<td align="center">665</td>
+									<td align="center">74.7</td>
+								</tr>
+								<tr>
+									<td>Brown</td>
+									<td align="center">122</td>
+									<td align="center">13.7</td>
+								</tr>
+								<tr>
+									<td>Black</td>
+									<td align="center">103</td>
+									<td align="center">11.6</td>
+								</tr>
+								<tr>
+									<td>Age</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Up to 30</td>
+									<td align="center">117</td>
+									<td align="center">13.2</td>
+								</tr>
+								<tr>
+									<td>31 to 40</td>
+									<td align="center">365</td>
+									<td align="center">41.0</td>
+								</tr>
+								<tr>
+									<td>41 to 50</td>
+									<td align="center">292</td>
+									<td align="center">32.8</td>
+								</tr>
+								<tr>
+									<td>≥ 51</td>
+									<td align="center">116</td>
+									<td align="center">13.0</td>
+								</tr>
+								<tr>
+									<td>Education level</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>High School</td>
+									<td align="center">330</td>
+									<td align="center">37.1</td>
+								</tr>
+								<tr>
+									<td>Undergraduate</td>
+									<td align="center">212</td>
+									<td align="center">23.8</td>
+								</tr>
+								<tr>
+									<td>Graduate</td>
+									<td align="center">348</td>
+									<td align="center">39.1</td>
+								</tr>
+								<tr>
+									<td>Per capita income</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Up to 1 minimum wage</td>
+									<td align="center">205</td>
+									<td align="center">25.3</td>
+								</tr>
+								<tr>
+									<td>Up to 2 minimum wages</td>
+									<td align="center">305</td>
+									<td align="center">37.7</td>
+								</tr>
+								<tr>
+									<td>Up to 3 minimum wages</td>
+									<td align="center">132</td>
+									<td align="center">16.3</td>
+								</tr>
+								<tr>
+									<td>&gt; 3 minimum wages</td>
+									<td align="center">168</td>
+									<td align="center">20.7</td>
+								</tr>
+								<tr>
+									<td>Type of service</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Primary Care</td>
+									<td align="center">118</td>
+									<td align="center">13.3</td>
+								</tr>
+								<tr>
+									<td>Outpatient</td>
+									<td align="center">92</td>
+									<td align="center">10.3</td>
+								</tr>
+								<tr>
+									<td>Emergency</td>
+									<td align="center">84</td>
+									<td align="center">9.5</td>
+								</tr>
+								<tr>
+									<td>Hospital</td>
+									<td align="center">577</td>
+									<td align="center">64.8</td>
+								</tr>
+								<tr>
+									<td>Administrative</td>
+									<td align="center">19</td>
+									<td align="center">2.1</td>
+								</tr>
+								<tr>
+									<td>Length of service in the nursing field</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Up to 5 years</td>
+									<td align="center">175</td>
+									<td align="center">19.7</td>
+								</tr>
+								<tr>
+									<td>Up to 10 years</td>
+									<td align="center">221</td>
+									<td align="center">24.8</td>
+								</tr>
+								<tr>
+									<td>Up to 15 years</td>
+									<td align="center">217</td>
+									<td align="center">24.4</td>
+								</tr>
+								<tr>
+									<td>Up to 20 years</td>
+									<td align="center">139</td>
+									<td align="center">15.6</td>
+								</tr>
+								<tr>
+									<td>≥ 20 years</td>
+									<td align="center">138</td>
+									<td align="center">15.5</td>
+								</tr>
+								<tr>
+									<td>Nursing category</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Registered Nurse</td>
+									<td align="center">319</td>
+									<td align="center">35.8</td>
+								</tr>
+								<tr>
+									<td>Nurse technician</td>
+									<td align="center">501</td>
+									<td align="center">56.3</td>
+								</tr>
+								<tr>
+									<td>Nursing assistant</td>
+									<td align="center">70</td>
+									<td align="center">7.9</td>
+								</tr>
+								<tr>
+									<td>Length of service at institution</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Up to 5 years</td>
+									<td align="center">520</td>
+									<td align="center">58.8</td>
+								</tr>
+								<tr>
+									<td>Up to 10 years</td>
+									<td align="center">160</td>
+									<td align="center">18.1</td>
+								</tr>
+								<tr>
+									<td>Up to 15 years</td>
+									<td align="center">71</td>
+									<td align="center">8.0</td>
+								</tr>
+								<tr>
+									<td>≥ 15 years</td>
+									<td align="center">134</td>
+									<td align="center">15.1</td>
+								</tr>
+								<tr>
+									<td>Workload</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Up to 30h</td>
+									<td align="center">194</td>
+									<td align="center">21.8</td>
+								</tr>
+								<tr>
+									<td>Up to 36h</td>
+									<td align="center">473</td>
+									<td align="center">53.2</td>
+								</tr>
+								<tr>
+									<td>36h+</td>
+									<td align="center">223</td>
+									<td align="center">25.0</td>
+								</tr>
+								<tr>
+									<td>Risk group</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Does not belong to</td>
+									<td align="center">606</td>
+									<td align="center">68.1</td>
+								</tr>
+								<tr>
+									<td>Does belong to</td>
+									<td align="center">284</td>
+									<td align="center">31.9</td>
+								</tr>
+								<tr>
+									<td>Involvement with COVID-19 cases</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>None</td>
+									<td align="center">288</td>
+									<td align="center">32.4</td>
+								</tr>
+								<tr>
+									<td>Indirect work (e.g., administrative)</td>
+									<td align="center">65</td>
+									<td align="center">7.3</td>
+								</tr>
+								<tr>
+									<td>Contact with suspect cases</td>
+									<td align="center">310</td>
+									<td align="center">34.8</td>
+								</tr>
+								<tr>
+									<td>Contact with confirmed cases</td>
+									<td align="center">277</td>
+									<td align="center">25.5</td>
+								</tr>
+								<tr>
+									<td>COVID-19 workload proportion</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>None</td>
+									<td align="center">288</td>
+									<td align="center">32.4</td>
+								</tr>
+								<tr>
+									<td>Up to one third</td>
+									<td align="center">169</td>
+									<td align="center">19.0</td>
+								</tr>
+								<tr>
+									<td>Up to two thirds</td>
+									<td align="center">166</td>
+									<td align="center">18.6</td>
+								</tr>
+								<tr>
+									<td>&gt; two thirds</td>
+									<td align="center">267</td>
+									<td align="center">30.0</td>
+								</tr>
+							</tbody>
+						</table>
+					</table-wrap>
+				</p>
+			</sec>
+			<sec>
+				<title>Major Depressive Episodes</title>
+				<p>Screening indicated a prevalence of 36.6% for major depressive episodes among study participants. <xref ref-type="table" rid="t2">Table 2</xref> shows the prevalence of this outcome in association with the study variables of interest and unadjusted and adjusted prevalence ratios.</p>
+				<p>
+					<table-wrap id="t2">
+						<label>Table 2</label>
+						<caption>
+							<title>Prevalence and unadjusted and adjusted associations between depression and study covariates estimated using Poisson regression models. Data are prevalence ratios (PR) with corresponding 95% confidence intervals (CIs) (n = 890) (Pelotas-RS, 2020).</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup width="17%">
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left" style="font-weight:normal">
+									</th>
+									<th>n</th>
+									<th>%</th>
+									<th style="font-weight:normal">Crude PR (95% CI)</th>
+									<th style="font-weight:normal">Adjusted<sup>a</sup> PR (95% CI)</th>
+									<th style="font-weight:normal">Adjusted<sup>b</sup> PR (95% CI)</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Gender</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Female</td>
+									<td align="center">755</td>
+									<td align="center">39.2</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Male</td>
+									<td align="center">135</td>
+									<td align="center">22.2</td>
+									<td align="center">0.56 (0.40–0.78)<sup>c</sup></td>
+									<td align="center">0.60 (0.42–0.85)<sup>d</sup></td>
+									<td align="center">0.66 (0.48–0.91)<sup>d</sup></td>
+								</tr>
+								<tr>
+									<td>Ethnicity</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>White</td>
+									<td align="center">665</td>
+									<td align="center">31.1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Brown</td>
+									<td align="center">122</td>
+									<td align="center">36.9</td>
+									<td align="center">0.99 (0.77–1.27)</td>
+									<td align="center">1.03 (0.79–1.34)</td>
+									<td align="center">0.88 (0.68–1.14)</td>
+								</tr>
+								<tr>
+									<td>Black</td>
+									<td align="center">103</td>
+									<td align="center">33.0</td>
+									<td align="center">0.88 (0.66–1.19)</td>
+									<td align="center">0.87 (0.63–1.19)</td>
+									<td align="center">0.96 (0.73–1.26)</td>
+								</tr>
+								<tr>
+									<td>Age</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Up to 30</td>
+									<td align="center">117</td>
+									<td align="center">36.7</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>31 to 40</td>
+									<td align="center">365</td>
+									<td align="center">43.3</td>
+									<td align="center">1.17 (0.90–1.53)</td>
+									<td align="center">1.07 (0.82–1.41)</td>
+									<td align="center">0.89 (0.69–1.16)</td>
+								</tr>
+								<tr>
+									<td>41 to 50</td>
+									<td align="center">292</td>
+									<td align="center">33.6</td>
+									<td align="center">0.91 (0.68–1.21)</td>
+									<td align="center">0.83 (0.62–1.11)</td>
+									<td align="center">0.69 (0.53–0.91)<sup>d</sup></td>
+								</tr>
+								<tr>
+									<td>≥ 51</td>
+									<td align="center">116</td>
+									<td align="center">23.3</td>
+									<td align="center">0.63 (0.42–0.95)<sup>d</sup></td>
+									<td align="center">0.61 (0.40–0.92)<sup>d</sup></td>
+									<td align="center">0.55 (0.38–0.80)<sup>d</sup></td>
+								</tr>
+								<tr>
+									<td>Education level</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>High School</td>
+									<td align="center">330</td>
+									<td align="center">37.6</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Undergraduate</td>
+									<td align="center">212</td>
+									<td align="center">36.3</td>
+									<td align="center">0.96 (0.77–1.21)</td>
+									<td align="center">1.01 (0.79–1.28)</td>
+									<td align="center">1.04 (0.83–1.30)</td>
+								</tr>
+								<tr>
+									<td>Graduate</td>
+									<td align="center">348</td>
+									<td align="center">35.9</td>
+									<td align="center">0.95 (0.78–1.16)</td>
+									<td align="center">1.20 (0.95–1.50)</td>
+									<td align="center">1.26 (1.03–1.56)<sup>d</sup></td>
+								</tr>
+								<tr>
+									<td>Per capita income</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Up to 1 minimum wage</td>
+									<td align="center">205</td>
+									<td align="center">44.4</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Up to 2 minimum wages</td>
+									<td align="center">305</td>
+									<td align="center">38.0</td>
+									<td align="center">0.85 (0.69–1.05)</td>
+									<td align="center">0.92 (0.75–1.14)</td>
+									<td align="center">0.79 (0.64–0.96)<sup>d</sup></td>
+								</tr>
+								<tr>
+									<td>Up to 3 minimum wages</td>
+									<td align="center">132</td>
+									<td align="center">32.6</td>
+									<td align="center">0.73 (0.54–0.98)<sup>d</sup></td>
+									<td align="center">0.76 (0.57–1.01)</td>
+									<td align="center">0.66 (0.50–0.86)<sup>d</sup></td>
+								</tr>
+								<tr>
+									<td>&gt; 3 minimum wages</td>
+									<td align="center">168</td>
+									<td align="center">29.8</td>
+									<td align="center">0.67 (0.50–0.88)<sup>d</sup></td>
+									<td align="center">0.70 (0.53–0.92)<sup>d</sup></td>
+									<td align="center">0.58 (0.44–0.77)<sup>c</sup></td>
+								</tr>
+								<tr>
+									<td>Type of service</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Primary Care</td>
+									<td align="center">118</td>
+									<td align="center">33.0</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Outpatient</td>
+									<td align="center">92</td>
+									<td align="center">34.8</td>
+									<td align="center">1.05 (0.71–1.53)</td>
+									<td align="center">0.90 (0.60–1.34)</td>
+									<td align="center">1.10 (0.78–1.56)</td>
+								</tr>
+								<tr>
+									<td>Emergency</td>
+									<td align="center">84</td>
+									<td align="center">36.9</td>
+									<td align="center">1.11 (0.76–1.63)</td>
+									<td align="center">1.27 (0.87–1.86)</td>
+									<td align="center">1.11 (0.78–1.57)</td>
+								</tr>
+								<tr>
+									<td>Hospital</td>
+									<td align="center">577</td>
+									<td align="center">37.9</td>
+									<td align="center">1.14 (0.87–1.51)</td>
+									<td align="center">1.12 (0.84–1.49)</td>
+									<td align="center">1.16 (0.91–1.49)</td>
+								</tr>
+								<tr>
+									<td>Administrative</td>
+									<td align="center">19</td>
+									<td align="center">26.3</td>
+									<td align="center">0.79 (0.35–1.76)</td>
+									<td align="center">0.83 (0.39–1.77)</td>
+									<td align="center">1.28 (0.61–2.65)</td>
+								</tr>
+								<tr>
+									<td>Length of service in the nursing field</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Up to 5 years</td>
+									<td align="center">175</td>
+									<td align="center">38.9</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Up to 10 years</td>
+									<td align="center">221</td>
+									<td align="center">39.4</td>
+									<td align="center">1.01 (0.79–1.29)</td>
+									<td align="center">1.02 (0.79–1.33)</td>
+									<td align="center">0.85 (0.65–1.10)</td>
+								</tr>
+								<tr>
+									<td>Up to 15 years</td>
+									<td align="center">217</td>
+									<td align="center">37.8</td>
+									<td align="center">0.97 (0.75–1.25)</td>
+									<td align="center">1.06 (0.80–1.41)</td>
+									<td align="center">0.85 (0.65–1.13)</td>
+								</tr>
+								<tr>
+									<td>Up to 20 years</td>
+									<td align="center">139</td>
+									<td align="center">37.4</td>
+									<td align="center">0.96 (0.72–1.27)</td>
+									<td align="center">1.27 (0.92–1.76)</td>
+									<td align="center">0.93 (0.67–1.29)</td>
+								</tr>
+								<tr>
+									<td>≥ 20 years</td>
+									<td align="center">138</td>
+									<td align="center">26.8</td>
+									<td align="center">0.69 (0.49–0.96)</td>
+									<td align="center">1.13 (0.73–1.75)</td>
+									<td align="center">0.91 (0.60–1.37)</td>
+								</tr>
+								<tr>
+									<td>Nursing category</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Registered Nurse</td>
+									<td align="center">319</td>
+									<td align="center">38.6</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Nurse technician</td>
+									<td align="center">501</td>
+									<td align="center">36.3</td>
+									<td align="center">0.94 (0.78–1.12)</td>
+									<td align="center">0.75 (0.61–0.93)<sup>d</sup></td>
+									<td align="center">0.77 (0.59–1.00)</td>
+								</tr>
+								<tr>
+									<td>Nursing assistant</td>
+									<td align="center">70</td>
+									<td align="center">30.0</td>
+									<td align="center">0.77 (0.52–1.14)</td>
+									<td align="center">0.95 (0.63–1.44)</td>
+									<td align="center">1.12 (0.76–1.65)</td>
+								</tr>
+								<tr>
+									<td>Length of service at institution</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Up to 5 years</td>
+									<td align="center">520</td>
+									<td align="center">38.5</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Up to 10 years</td>
+									<td align="center">160</td>
+									<td align="center">43.1</td>
+									<td align="center">1.12 (0.91–1.38)</td>
+									<td align="center">1.06 (0.85–1.31)</td>
+									<td align="center">096 (0.79–1.18)</td>
+								</tr>
+								<tr>
+									<td>Up to 15 years</td>
+									<td align="center">71</td>
+									<td align="center">28.2</td>
+									<td align="center">0.73 (0.49–1.07)</td>
+									<td align="center">0.72 (0.49–1.06)</td>
+									<td align="center">0.75 (0.52–1.08)</td>
+								</tr>
+								<tr>
+									<td>≥ 15 years</td>
+									<td align="center">134</td>
+									<td align="center">25.4</td>
+									<td align="center">0.65 (0.47–0.89)<sup>d</sup></td>
+									<td align="center">0.90 (0.63–1.29)</td>
+									<td align="center">0.86 (0.62–1.19)</td>
+								</tr>
+								<tr>
+									<td>Workload</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Up to 30h</td>
+									<td align="center">194</td>
+									<td align="center">27.3</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Up to 36h</td>
+									<td align="center">473</td>
+									<td align="center">40.2</td>
+									<td align="center">1.47 (1.13–1.89)<sup>d</sup></td>
+									<td align="center">1.27 (0.97–1.65)</td>
+									<td align="center">1.03 (0.80–1.32)</td>
+								</tr>
+								<tr>
+									<td>36h+</td>
+									<td align="center">223</td>
+									<td align="center">37.2</td>
+									<td align="center">1.36 (1.02–1.81)<sup>d</sup></td>
+									<td align="center">1.18 (0.88–1.58)</td>
+									<td align="center">1.08 (0.83–1.40)</td>
+								</tr>
+								<tr>
+									<td>Second job</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>No</td>
+									<td align="center">645</td>
+									<td align="center">35.7</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Yes</td>
+									<td align="center">245</td>
+									<td align="center">39.2</td>
+									<td align="center">1.09 (0.91–1.32)</td>
+									<td align="center">1.16 (0.95–1.41)</td>
+									<td align="center">1.06 (0.89–1.27)</td>
+								</tr>
+								<tr>
+									<td>COVID-19-specific training</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>No</td>
+									<td align="center">319</td>
+									<td align="center">39.5</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Yes</td>
+									<td align="center">571</td>
+									<td align="center">35.0</td>
+									<td align="center">0.88 (0.74–1.05)</td>
+									<td align="center">0.91 (0.76–1.09)</td>
+									<td align="center">0.98 (0.83–1.15)</td>
+								</tr>
+								<tr>
+									<td>Evaluation of working conditions</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Good</td>
+									<td align="center">325</td>
+									<td align="center">27.1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Regular</td>
+									<td align="center">409</td>
+									<td align="center">38.9</td>
+									<td align="center">1.43 (1.15–1.78)<sup>d</sup></td>
+									<td align="center">1.41 (1.13–1.75)<sup>d</sup></td>
+									<td align="center">0.91 (0.72–1.15)</td>
+								</tr>
+								<tr>
+									<td>Poor</td>
+									<td align="center">156</td>
+									<td align="center">54.6</td>
+									<td align="center">1.87 (1.47–2.36)<sup>c</sup></td>
+									<td align="center">1.81 (1.42–2.31)<sup>c</sup></td>
+									<td align="center">0.87 (0.64–1.19)</td>
+								</tr>
+								<tr>
+									<td>Evaluation of support at work</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Good</td>
+									<td align="center">263</td>
+									<td align="center">22.8</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Regular</td>
+									<td align="center">363</td>
+									<td align="center">38.6</td>
+									<td align="center">1.69 (1.30–2.18)<sup>c</sup></td>
+									<td align="center">1.71 (1.32–2.26)<sup>c</sup></td>
+									<td align="center">1.46 (1.14–1.86)<sup>d</sup></td>
+								</tr>
+								<tr>
+									<td>Poor</td>
+									<td align="center">264</td>
+									<td align="center">47.7</td>
+									<td align="center">2.09 (1.61–2.70)<sup>c</sup></td>
+									<td align="center">2.05 (1.57–2.66)<sup>c</sup></td>
+									<td align="center">1.33 (1.03–1.72)<sup>d</sup></td>
+								</tr>
+								<tr>
+									<td>Burden</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Light</td>
+									<td align="center">343</td>
+									<td align="center">18.9</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Moderate</td>
+									<td align="center">262</td>
+									<td align="center">34.0</td>
+									<td align="center">1.79 (1.35–2.36)<sup>c</sup></td>
+									<td align="center">1.83 (1.38–2.42)<sup>c</sup></td>
+									<td align="center">1.67 (1.27–2.18)<sup>c</sup></td>
+								</tr>
+								<tr>
+									<td>Heavy</td>
+									<td align="center">285</td>
+									<td align="center">60.3</td>
+									<td align="center">3.18 (2.50–4.04)<sup>c</sup></td>
+									<td align="center">3.26 (2.55–4.16)<sup>c</sup></td>
+									<td align="center">2.77 (2.16–3.54)<sup>c</sup></td>
+								</tr>
+								<tr>
+									<td>Current burden compared to that pre- COVID-19</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Same or decreased</td>
+									<td align="center">337</td>
+									<td align="center">23.7</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Increased</td>
+									<td align="center">553</td>
+									<td align="center">44.5</td>
+									<td align="center">1.87 (1.51–2.31)<sup>c</sup></td>
+									<td align="center">1.87 (1.51–2.33)<sup>c</sup></td>
+									<td align="center">1.11 (0.89–1.40)</td>
+								</tr>
+								<tr>
+									<td>Involvement with COVID-19 cases</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>None</td>
+									<td align="center">288</td>
+									<td align="center">35.1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Indirect work (e.g., administrative)</td>
+									<td align="center">65</td>
+									<td align="center">30.8</td>
+									<td align="center">0.87 (0.58–1.30)</td>
+									<td align="center">0.95 (0.64–1.41)</td>
+									<td align="center">1.07 (0.73–1.55)</td>
+								</tr>
+								<tr>
+									<td>Contact with suspect cases</td>
+									<td align="center">310</td>
+									<td align="center">35.8</td>
+									<td align="center">1.02 (0.82–1.26)</td>
+									<td align="center">0.97 (0.78–1.21)</td>
+									<td align="center">0.84 (0.68–1.03)</td>
+								</tr>
+								<tr>
+									<td>Contact with confirmed cases</td>
+									<td align="center">277</td>
+									<td align="center">41.4</td>
+									<td align="center">1.18 (0.94–1.47)</td>
+									<td align="center">1.18 (0.94–1.49)</td>
+									<td align="center">1.03 (0.83–1.29)</td>
+								</tr>
+								<tr>
+									<td>COVID-19 workload proportion</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>None</td>
+									<td align="center">288</td>
+									<td align="center">35.1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Up to one third</td>
+									<td align="center">169</td>
+									<td align="center">30.8</td>
+									<td align="center">0.87 (0.66–1.15)</td>
+									<td align="center">0.84 (0.63–1.12)</td>
+									<td align="center">0.77 (0.59–0.99)<sup>d</sup></td>
+								</tr>
+								<tr>
+									<td>Up to two thirds</td>
+									<td align="center">166</td>
+									<td align="center">35.5</td>
+									<td align="center">1.01 (0.78–1.31)</td>
+									<td align="center">0.98 (0.75–1.27)</td>
+									<td align="center">0.94 (0.73–1.19)</td>
+								</tr>
+								<tr>
+									<td>&gt; two thirds</td>
+									<td align="center">267</td>
+									<td align="center">42.7</td>
+									<td align="center">1.21 (0.98–1.50)</td>
+									<td align="center">1.23 (0.99–1.53)</td>
+									<td align="center">1.01 (0.82–1.25)</td>
+								</tr>
+								<tr>
+									<td>Lack of Personal Protective Equipment</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>No</td>
+									<td align="center">508</td>
+									<td align="center">30.7</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Yes</td>
+									<td align="center">382</td>
+									<td align="center">44.5</td>
+									<td align="center">1.44 (1.21–1.72)<sup>c</sup></td>
+									<td align="center">1.42 (1.19–1.69)<sup>c</sup></td>
+									<td align="center">1.20 (1.01–1.42)<sup>d</sup></td>
+								</tr>
+								<tr>
+									<td>Suspected COVID-19 infection</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>No</td>
+									<td align="center">574</td>
+									<td align="center">30.5</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Yes</td>
+									<td align="center">316</td>
+									<td align="center">47.8</td>
+									<td align="center">1.56 (1.32–1.85)<sup>c</sup></td>
+									<td align="center">1.57 (1.32–1.87)<sup>c</sup></td>
+									<td align="center">1.29 (1.09–1.53)<sup>d</sup></td>
+								</tr>
+								<tr>
+									<td>Absence from work due to suspected infection</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>No</td>
+									<td align="center">746</td>
+									<td align="center">34.6</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Yes</td>
+									<td align="center">144</td>
+									<td align="center">47.2</td>
+									<td align="center">1.36 (1.11–1.66)<sup>d</sup></td>
+									<td align="center">1.35 (1.10–1.66)<sup>d</sup></td>
+									<td align="center">1.06 (0.86–1.32)</td>
+								</tr>
+								<tr>
+									<td>Family or close friend with COVID-19</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>No</td>
+									<td align="center">616</td>
+									<td align="center">34.1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Yes</td>
+									<td align="center">274</td>
+									<td align="center">42.3</td>
+									<td align="center">1.24 (1.04–1.48)<sup>d</sup></td>
+									<td align="center">1.20 (1.00–1.44)<sup>d</sup></td>
+									<td align="center">1.01 (0.85–1.20)</td>
+								</tr>
+								<tr>
+									<td>Degree of social distancing</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Light</td>
+									<td align="center">227</td>
+									<td align="center">29.5</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Moderate</td>
+									<td align="center">568</td>
+									<td align="center">41.2</td>
+									<td align="center">1.39 (1.11–1.74)<sup>d</sup></td>
+									<td align="center">1.35 (1.07–1.71)<sup>d</sup></td>
+									<td align="center">1.24 (0.99–1.54)</td>
+								</tr>
+								<tr>
+									<td>Intense</td>
+									<td align="center">95</td>
+									<td align="center">26.3</td>
+									<td align="center">0.89 (0.60–1.31)</td>
+									<td align="center">0.88 (0.59–1.31)</td>
+									<td align="center">0.88 (0.61–1.26)</td>
+								</tr>
+								<tr>
+									<td>Risk group</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>No</td>
+									<td align="center">606</td>
+									<td align="center">32.7</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Yes</td>
+									<td align="center">284</td>
+									<td align="center">45.1</td>
+									<td align="center">1.37 (1.16–1.63)<sup>c</sup></td>
+									<td align="center">1.46 (1.22–1.74)<sup>c</sup></td>
+									<td align="center">1.18 (0.99–1.40)</td>
+								</tr>
+								<tr>
+									<td>Problems with/abuse of alcohol</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>No</td>
+									<td align="center">824</td>
+									<td align="center">34.9</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Yes</td>
+									<td align="center">66</td>
+									<td align="center">57.6</td>
+									<td align="center">1.64 (1.31–2.06)<sup>c</sup></td>
+									<td align="center">1.62 (1.28–2.05)<sup>c</sup></td>
+									<td align="center">1.18 (0.94–1.47)</td>
+								</tr>
+								<tr>
+									<td>Tobacco use</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>No</td>
+									<td align="center">748</td>
+									<td align="center">34.4</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Yes</td>
+									<td align="center">142</td>
+									<td align="center">48.6</td>
+									<td align="center">1.41 (1.16–1.72)<sup>c</sup></td>
+									<td align="center">1.45 (1.18–1.77)<sup>c</sup></td>
+									<td align="center">1.32 (1.07–1.62)<sup>d</sup></td>
+								</tr>
+								<tr>
+									<td>Current use of psychotropic drugs</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>No</td>
+									<td align="center">703</td>
+									<td align="center">31.9</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Yes</td>
+									<td align="center">187</td>
+									<td align="center">54.5</td>
+									<td align="center">1.71 (1.44–2.02)<sup>c</sup></td>
+									<td align="center">1.74 (1.46–2.07)<sup>c</sup></td>
+									<td align="center">1.59 (1.34–1.89)<sup>c</sup></td>
+								</tr>
+								<tr>
+									<td colspan="6">
+										<hr/>
+									</td>
+								</tr>
+								<tr>
+									<td><bold>TOTAL</bold></td>
+									<td align="center"><bold>880</bold></td>
+									<td align="center"><bold>36.6</bold></td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN1">
+								<p><sup>a</sup> Adjusted for: gender; age; and per capita income.</p>
+							</fn>
+							<fn id="TFN2">
+								<p><sup>b</sup> Adjusted for: gender; age; education level; per capita income; work support evaluation; burden; lack of Personal Protective Equipment; suspected contagion; tobacco problems; and current use of psychotropic drugs.</p>
+							</fn>
+							<fn id="TFN3">
+								<p><sup>c</sup> p-value &lt; 0.001</p>
+							</fn>
+							<fn id="TFN4">
+								<p><sup>d</sup> p-value &lt; 0.05</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p>We observed evidence of an inverse association between screening positive for major depressive episodes and being male (PR: 0.66; 95% CI: 0.48–0.91), aging between 41 and 50 (PR: 0.69; 95% CI: 0.53–0.91), or above 51 years of age (PR: 0.55; 95% CI: 0.38–0.80). A lower prevalence ratio was associated with higher income, for example, professionals whose per capita income was greater than three minimum monthly wage (PR: 0.58 (95% CI: 0.44–0.77).</p>
+				<p>Having up to one-third of the workload devoted to caring for patients with COVID-19 was inversely associated with major depressive episodes (PR: 0.77; 95% CI: 0.59–0.99). However, no associations were observed in cases where nursing professionals reported dedicating more than one-third of their workload to pandemic-related duties. At the same time, we found evidence for associations among major depressive episodes; having a graduate-level education (PR: 1.26; 95% CI: 1.03–1.56); assessing support from the service as regular (PR: 1.46; 95% CI: 1.14–1.86), or poor (PR: 1.33; 95% CI: 1.03–1.72); reporting a moderate (PR: 1.67; 95% CI: 1.27–2.18) or heavy (PR: 2.77; 95% CI: 2.16–3.54) burden at work; lack of PPE (PR: 1.20; 95% CI: 1.01–1.42); suspected COVID-19 infection (PR: 1.29; 95% CI: 1.09–1.53); use of tobacco (PR: 1.32; 95% CI: 1.07–1.62); and current use of psychotropic drugs (PR: 1.59; 95% CI: 1.34–1.89).</p>
+				<p>In the model where the adjustment was performed for all potential confounders related to the outcome, the variable related to the evaluation of working conditions showed an association direction contrary to that observed in the crude analysis and in the first model. This appeared to be due to the influence of the variable assessing support received at work. Following the removal of the support variable, however, the working conditions variable was not associated with the outcome, adjusting for other confounders.</p>
+			</sec>
+			<sec>
+				<title>Minor Psychiatric Disorders (MPDs)</title>
+				<p>The prevalence of MPDs in the sample was 43.9% (n = 391). <xref ref-type="table" rid="t3">Table 3</xref> shows the prevalence of this outcome in association with the study variables of interest and unadjusted and adjusted prevalence ratios.</p>
+				<p>
+					<table-wrap id="t3">
+						<label>Table 3</label>
+						<caption>
+							<title>Prevalence and unadjusted and adjusted associations between minor psychiatric disorders and studied covariates estimated using Poisson regression models. Data are prevalence ratios (PR) and 95% confidence intervals (CIs) (n = 890) (Pelotas-RS, 2020).</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup width="17%">
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left" style="font-weight:normal">
+									</th>
+									<th>n</th>
+									<th>%</th>
+									<th style="font-weight:normal">Crude PR (95% CI)</th>
+									<th style="font-weight:normal">Adjusted<sup>a</sup> PR (95% CI)</th>
+									<th style="font-weight:normal">Adjusted<sup>b</sup> PR (95% CI)</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Gender</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Female</td>
+									<td align="center">755</td>
+									<td align="center">47.0</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Male</td>
+									<td align="center">135</td>
+									<td align="center">26.7</td>
+									<td align="center">0.56 (0.42–0.75)<sup>c</sup></td>
+									<td align="center">0.54 (0.39–0.75)<sup>c</sup></td>
+									<td align="center">0.57 (0.42–0.77)<sup>c</sup></td>
+								</tr>
+								<tr>
+									<td>Ethnicity</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>White</td>
+									<td align="center">665</td>
+									<td align="center">43.3</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Brown</td>
+									<td align="center">122</td>
+									<td align="center">50.8</td>
+									<td align="center">1.17 (0.96–1.42)</td>
+									<td align="center">1.22 (1.00–1.50)<sup>d</sup></td>
+									<td align="center">1.03 (0.85–1.24)</td>
+								</tr>
+								<tr>
+									<td>Black</td>
+									<td align="center">103</td>
+									<td align="center">39.8</td>
+									<td align="center">0.91 (0.71–1.18)</td>
+									<td align="center">0.91 (0.68–1.20)</td>
+									<td align="center">0.94 (0.74–1.19)</td>
+								</tr>
+								<tr>
+									<td>Age</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Up to 30</td>
+									<td align="center">117</td>
+									<td align="center">47.9</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>31 to 40</td>
+									<td align="center">365</td>
+									<td align="center">52.0</td>
+									<td align="center">1.08 (0.87–1.34)</td>
+									<td align="center">1.07 (0.85–1.34)</td>
+									<td align="center">0.93 (0.75–1.14)</td>
+								</tr>
+								<tr>
+									<td>41 to 50</td>
+									<td align="center">292</td>
+									<td align="center">39.0</td>
+									<td align="center">0.81 (0.64–1.03)</td>
+									<td align="center">0.80 (0.62–1.03)</td>
+									<td align="center">0.71 (0.56–0.90)<sup>d</sup></td>
+								</tr>
+								<tr>
+									<td>≥ 51</td>
+									<td align="center">116</td>
+									<td align="center">26.7</td>
+									<td align="center">0.55 (0.39–0.79)<sup>d</sup></td>
+									<td align="center">0.56 (0.39–0.82)<sup>d</sup></td>
+									<td align="center">0.56 (0.40–0.78)<sup>d</sup></td>
+								</tr>
+								<tr>
+									<td>Education level</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>High School</td>
+									<td align="center">330</td>
+									<td align="center">44.2</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Undergraduate</td>
+									<td align="center">212</td>
+									<td align="center">43.9</td>
+									<td align="center">0.99 (0.81–1.20)</td>
+									<td align="center">1.02 (0.83–1.25)</td>
+									<td align="center">1.05 (0.87–1.26)</td>
+								</tr>
+								<tr>
+									<td>Graduate</td>
+									<td align="center">348</td>
+									<td align="center">43.7</td>
+									<td align="center">0.98 (0.83–1.17)</td>
+									<td align="center">1.07 (0.88–1.31)</td>
+									<td align="center">1.12 (0.93–1.34)</td>
+								</tr>
+								<tr>
+									<td>Per capita income</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Up to 1 minimum wage</td>
+									<td align="center">205</td>
+									<td align="center">49.8</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Up to 2 minimum wages</td>
+									<td align="center">305</td>
+									<td align="center">42.9</td>
+									<td align="center">0.86 (0.71–1.04)</td>
+									<td align="center">0.94 (0.78–1.13)</td>
+									<td align="center">0.85 (0.72–1.01)</td>
+								</tr>
+								<tr>
+									<td>Up to 3 minimum wages</td>
+									<td align="center">132</td>
+									<td align="center">40.1</td>
+									<td align="center">0.80 (0.62–1.03)</td>
+									<td align="center">0.84 (0.66–1.07)</td>
+									<td align="center">0.81 (0.66–0.99)<sup>d</sup></td>
+								</tr>
+								<tr>
+									<td>&gt; 3 minimum wages</td>
+									<td align="center">168</td>
+									<td align="center">39.3</td>
+									<td align="center">0.78 (0.62–0.99)</td>
+									<td align="center">0.83 (0.66–1.05)</td>
+									<td align="center">0.79 (0.64–0.98)<sup>d</sup></td>
+								</tr>
+								<tr>
+									<td>Type of service</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Primary Care</td>
+									<td align="center">118</td>
+									<td align="center">43.2</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Outpatient</td>
+									<td align="center">92</td>
+									<td align="center">40.2</td>
+									<td align="center">0.93 (0.67–1.28)</td>
+									<td align="center">0.80 (0.57–1.12)</td>
+									<td align="center">0.91 (0.68–1.22)</td>
+								</tr>
+								<tr>
+									<td>Emergency</td>
+									<td align="center">84</td>
+									<td align="center">32.1</td>
+									<td align="center">0.74 (0.51–1.08)</td>
+									<td align="center">0.80 (0.55–1.18)</td>
+									<td align="center">0.68 (0.47–0.97)<sup>d</sup></td>
+								</tr>
+								<tr>
+									<td>Hospital</td>
+									<td align="center">577</td>
+									<td align="center">46.8</td>
+									<td align="center">1.08 (0.86–1.35)</td>
+									<td align="center">1.00 (0.80–1.26)</td>
+									<td align="center">1.00 (0.82–1.23)</td>
+								</tr>
+								<tr>
+									<td>Administrative</td>
+									<td align="center">19</td>
+									<td align="center">31.6</td>
+									<td align="center">0.73 (0.36–1.46)</td>
+									<td align="center">0.74 (0.38–1.43)</td>
+									<td align="center">1.14 (0.60–2.16)</td>
+								</tr>
+								<tr>
+									<td>Length of service in the nursing field</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Up to 5 years</td>
+									<td align="center">175</td>
+									<td align="center">47.4</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Up to 10 years</td>
+									<td align="center">221</td>
+									<td align="center">48.9</td>
+									<td align="center">1.03 (0.83–1.26)</td>
+									<td align="center">1.06 (0.84–1.33)</td>
+									<td align="center">0.96 (0.78–1.18)</td>
+								</tr>
+								<tr>
+									<td>Up to 15 years</td>
+									<td align="center">217</td>
+									<td align="center">45.2</td>
+									<td align="center">0.95 (0.76–1.17)</td>
+									<td align="center">1.07 (0.84–1.37)</td>
+									<td align="center">0.94 (0.76–1.17)</td>
+								</tr>
+								<tr>
+									<td>Up to 20 years</td>
+									<td align="center">139</td>
+									<td align="center">41.7</td>
+									<td align="center">0.87 (0.68–1.13)</td>
+									<td align="center">1.17 (0.88–1.56)</td>
+									<td align="center">0.99 (0.76–1.28)</td>
+								</tr>
+								<tr>
+									<td>≥ 20 years</td>
+									<td align="center">138</td>
+									<td align="center">31.9</td>
+									<td align="center">0.67 (0.50–0.89)<sup>d</sup></td>
+									<td align="center">1.06 (0.72–1.56)</td>
+									<td align="center">1.00 (0.71–1.42)</td>
+								</tr>
+								<tr>
+									<td>Nursing category</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Registered Nurse</td>
+									<td align="center">319</td>
+									<td align="center">46.1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Nurse technician</td>
+									<td align="center">501</td>
+									<td align="center">43.9</td>
+									<td align="center">0.95 (0.81–1.11)</td>
+									<td align="center">0.87 (0.72–1.06)</td>
+									<td align="center">0.86 (0.72–1.02)</td>
+								</tr>
+								<tr>
+									<td>Nursing assistant</td>
+									<td align="center">70</td>
+									<td align="center">34.3</td>
+									<td align="center">0.74 (0.52–1.05)</td>
+									<td align="center">0.96 (0.64–1.42)</td>
+									<td align="center">1.11 (0.77–1.59)</td>
+								</tr>
+								<tr>
+									<td>Length of service at institution</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Up to 5 years</td>
+									<td align="center">520</td>
+									<td align="center">46.1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Up to 10 years</td>
+									<td align="center">160</td>
+									<td align="center">50.6</td>
+									<td align="center">1.09 (0.91–1.31)</td>
+									<td align="center">1.03 (0.85–1.25)</td>
+									<td align="center">0.97 (0.81–1.16)</td>
+								</tr>
+								<tr>
+									<td>Up to 15 years</td>
+									<td align="center">71</td>
+									<td align="center">35.2</td>
+									<td align="center">0.76 (0.54–1.06)</td>
+									<td align="center">0.79 (0.57–1.09)</td>
+									<td align="center">0.80 (0.60–1.06)</td>
+								</tr>
+								<tr>
+									<td>≥ 15 years</td>
+									<td align="center">134</td>
+									<td align="center">31.3</td>
+									<td align="center">0.67 (0.51–0.88)<sup>d</sup></td>
+									<td align="center">0.97 (0.71–1.33)</td>
+									<td align="center">0.98 (0.74–1.29)</td>
+								</tr>
+								<tr>
+									<td>Workload</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Up to 30h</td>
+									<td align="center">194</td>
+									<td align="center">35.0</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Up to 36h</td>
+									<td align="center">473</td>
+									<td align="center">48.2</td>
+									<td align="center">1.37 (1.11–1.70)<sup>d</sup></td>
+									<td align="center">1.21 (0.96–1.52)</td>
+									<td align="center">0.95 (0.78–1.17)</td>
+								</tr>
+								<tr>
+									<td>36h+</td>
+									<td align="center">223</td>
+									<td align="center">42.6</td>
+									<td align="center">1.21 (0.95–1.55)</td>
+									<td align="center">1.10 (0.85–1.42)</td>
+									<td align="center">0.97 (0.78–1.21)</td>
+								</tr>
+								<tr>
+									<td>Second job</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>No</td>
+									<td align="center">645</td>
+									<td align="center">45.1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Yes</td>
+									<td align="center">245</td>
+									<td align="center">40.8</td>
+									<td align="center">0.90 (0.76–1.07)</td>
+									<td align="center">0.96 (0.80–1.15)</td>
+									<td align="center">0.87 (0.74–1.02)</td>
+								</tr>
+								<tr>
+									<td>COVID-19-specific training</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>No</td>
+									<td align="center">319</td>
+									<td align="center">43.9</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Yes</td>
+									<td align="center">571</td>
+									<td align="center">44.0</td>
+									<td align="center">1.00 (0.85–1.16)</td>
+									<td align="center">1.01 (0.86–1.18)</td>
+									<td align="center">1.10 (0.95–1.27)</td>
+								</tr>
+								<tr>
+									<td>Evaluation of working conditions</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Good</td>
+									<td align="center">325</td>
+									<td align="center">29.8</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Regular</td>
+									<td align="center">409</td>
+									<td align="center">47.2</td>
+									<td align="center">1.58 (1.29–1.92)<sup>c</sup></td>
+									<td align="center">1.59 (1.30–1.94)<sup>c</sup></td>
+									<td align="center">1.13 (0.90–1.41)</td>
+								</tr>
+								<tr>
+									<td>Poor</td>
+									<td align="center">156</td>
+									<td align="center">64.7</td>
+									<td align="center">2.16 (1.77–2.65)<sup>c</sup></td>
+									<td align="center">2.19 (1.77–1.94)<sup>c</sup></td>
+									<td align="center">1.17 (0.89–1.53)</td>
+								</tr>
+								<tr>
+									<td>Evaluation of support at work</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Good</td>
+									<td align="center">263</td>
+									<td align="center">26.2</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Regular</td>
+									<td align="center">363</td>
+									<td align="center">44.9</td>
+									<td align="center">1.71 (1.35–2.15)<sup>c</sup></td>
+									<td align="center">1.74 (1.37–2.20)<sup>c</sup></td>
+									<td align="center">1.48 (1.19–1.85)<sup>c</sup></td>
+								</tr>
+								<tr>
+									<td>Poor</td>
+									<td align="center">264</td>
+									<td align="center">60.2</td>
+									<td align="center">2.29 (1.83–2.87)<sup>c</sup></td>
+									<td align="center">2.27 (1.79–2.86)<sup>c</sup></td>
+									<td align="center">1.54 (1.23–1.94)<sup>c</sup></td>
+								</tr>
+								<tr>
+									<td>Burden</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Light</td>
+									<td align="center">343</td>
+									<td align="center">23.6</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Moderate</td>
+									<td align="center">262</td>
+									<td align="center">42.0</td>
+									<td align="center">1.77 (1.40–2.25)<sup>c</sup></td>
+									<td align="center">1.79 (1.40–2.29)<sup>c</sup></td>
+									<td align="center">1.63 (1.29–2.07)<sup>c</sup></td>
+								</tr>
+								<tr>
+									<td>Heavy</td>
+									<td align="center">285</td>
+									<td align="center">70.2</td>
+									<td align="center">2.97 (2.42–3.64)<sup>c</sup></td>
+									<td align="center">3.02 (2.44–3.74)<sup>c</sup></td>
+									<td align="center">2.54 (2.05–3.15)<sup>c</sup></td>
+								</tr>
+								<tr>
+									<td>Current burden compared to that pre- COVID-19</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Same or decreased</td>
+									<td align="center">337</td>
+									<td align="center">28.8</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Increased</td>
+									<td align="center">553</td>
+									<td align="center">53.2</td>
+									<td align="center">1.84 (1.53–2.22)<sup>c</sup></td>
+									<td align="center">1.87 (1.54–2.27)<sup>c</sup></td>
+									<td align="center">1.16 (0.94–1.42)</td>
+								</tr>
+								<tr>
+									<td>Involvement with COVID-19 cases</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>None</td>
+									<td align="center">288</td>
+									<td align="center">41.3</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Indirect work (e.g., administrative)</td>
+									<td align="center">65</td>
+									<td align="center">44.6</td>
+									<td align="center">1.07 (0.79–1.46)</td>
+									<td align="center">1.07 (0.79–1.46)</td>
+									<td align="center">1.22 (0.92–1.61)</td>
+								</tr>
+								<tr>
+									<td>Contact with suspect cases</td>
+									<td align="center">310</td>
+									<td align="center">42.9</td>
+									<td align="center">1.03 (0.86–1.25)</td>
+									<td align="center">0.99 (0.81–1.19)</td>
+									<td align="center">0.88 (0.74–1.05)</td>
+								</tr>
+								<tr>
+									<td>Contact with confirmed cases</td>
+									<td align="center">277</td>
+									<td align="center">48.5</td>
+									<td align="center">1.17 (0.96–1.42)</td>
+									<td align="center">1.13 (0.92–1.39)</td>
+									<td align="center">1.01 (0.83–1.21)</td>
+								</tr>
+								<tr>
+									<td>COVID-19 workload proportion</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>None</td>
+									<td align="center">288</td>
+									<td align="center">41.3</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Up to one third</td>
+									<td align="center">169</td>
+									<td align="center">42.6</td>
+									<td align="center">1.03 (0.82–1.28)</td>
+									<td align="center">0.99 (0.79–1.24)</td>
+									<td align="center">0.94 (0.77–1.15)</td>
+								</tr>
+								<tr>
+									<td>Up to two thirds</td>
+									<td align="center">166</td>
+									<td align="center">42.7</td>
+									<td align="center">1.03 (0.82–1.29)</td>
+									<td align="center">0.97 (0.77–1.23)</td>
+									<td align="center">0.95 (0.77–1.18)</td>
+								</tr>
+								<tr>
+									<td>&gt; two thirds</td>
+									<td align="center">267</td>
+									<td align="center">48.3</td>
+									<td align="center">1.16 (0.97–1.40)</td>
+									<td align="center">1.14 (0.94–1.38)</td>
+									<td align="center">0.96 (0.81–1.15)</td>
+								</tr>
+								<tr>
+									<td>Lack of Personal Protective Equipment</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>No</td>
+									<td align="center">508</td>
+									<td align="center">37.4</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Yes</td>
+									<td align="center">382</td>
+									<td align="center">52.6</td>
+									<td align="center">1.40 (1.21–1.63)<sup>c</sup></td>
+									<td align="center">1.39 (1.19–1.62)<sup>c</sup></td>
+									<td align="center">1.13 (0.98–1.31)</td>
+								</tr>
+								<tr>
+									<td>Suspected COVID-19 infection</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>No</td>
+									<td align="center">574</td>
+									<td align="center">35.4</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Yes</td>
+									<td align="center">316</td>
+									<td align="center">59.5</td>
+									<td align="center">1.68 (1.45–1.94)<sup>c</sup></td>
+									<td align="center">1.68 (1.45–1.96)<sup>c</sup></td>
+									<td align="center">1.44 (1.25–1.66)<sup>c</sup></td>
+								</tr>
+								<tr>
+									<td>Absence from work due to suspected infection</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>No</td>
+									<td align="center">746</td>
+									<td align="center">41.4</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Yes</td>
+									<td align="center">144</td>
+									<td align="center">56.9</td>
+									<td align="center">1.37 (1.16–1.62)<sup>c</sup></td>
+									<td align="center">1.35 (1.14–1.61)<sup>c</sup></td>
+									<td align="center">0.98 (0.82–1.17)</td>
+								</tr>
+								<tr>
+									<td>Family or close friend with COVID-19</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>No</td>
+									<td align="center">616</td>
+									<td align="center">39.9</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Yes</td>
+									<td align="center">274</td>
+									<td align="center">52.9</td>
+									<td align="center">1.32 (1.14–1.53)<sup>c</sup></td>
+									<td align="center">1.28 (1.10–1.50)<sup>d</sup></td>
+									<td align="center">1.07 (0.93–1.24)</td>
+								</tr>
+								<tr>
+									<td>Degree of social distancing</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Light</td>
+									<td align="center">227</td>
+									<td align="center">36.6</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Moderate</td>
+									<td align="center">568</td>
+									<td align="center">47.2</td>
+									<td align="center">1.29 (1.06–1.56)<sup>d</sup></td>
+									<td align="center">1.30 (1.05–1.59)<sup>d</sup></td>
+									<td align="center">1.19 (0.99–1.44)</td>
+								</tr>
+								<tr>
+									<td>Intense</td>
+									<td align="center">95</td>
+									<td align="center">42.1</td>
+									<td align="center">1.15 (0.86–1.54)</td>
+									<td align="center">1.19 (0.88–1.61)</td>
+									<td align="center">1.14 (0.87–1.50)</td>
+								</tr>
+								<tr>
+									<td>Risk group</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>No</td>
+									<td align="center">606</td>
+									<td align="center">40.8</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Yes</td>
+									<td align="center">284</td>
+									<td align="center">50.7</td>
+									<td align="center">1.24 (1.07–1.44)<sup>d</sup></td>
+									<td align="center">1.40 (1.20–1.63)<sup>c</sup></td>
+									<td align="center">1.14 (0.99–1.32)</td>
+								</tr>
+								<tr>
+									<td>Problems with/abuse of alcohol</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>No</td>
+									<td align="center">824</td>
+									<td align="center">42.3</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Yes</td>
+									<td align="center">66</td>
+									<td align="center">63.6</td>
+									<td align="center">1.50 (1.23–1.83)<sup>c</sup></td>
+									<td align="center">1.51 (1.23–1.84)<sup>c</sup></td>
+									<td align="center">1.14 (0.94–1.38)</td>
+								</tr>
+								<tr>
+									<td>Tobacco use</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>No</td>
+									<td align="center">748</td>
+									<td align="center">41.3</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Yes</td>
+									<td align="center">142</td>
+									<td align="center">57.7</td>
+									<td align="center">1.39 (1.18–1.64)<sup>c</sup></td>
+									<td align="center">1.39 (1.17–1.65)<sup>c</sup></td>
+									<td align="center">1.22 (1.03–1.45)<sup>d</sup></td>
+								</tr>
+								<tr>
+									<td>Current use of psychotropic drugs</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>No</td>
+									<td align="center">703</td>
+									<td align="center">40.3</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Yes</td>
+									<td align="center">187</td>
+									<td align="center">57.7</td>
+									<td align="center">1.43 (1.23–1.67)<sup>c</sup></td>
+									<td align="center">1.46 (1.25–1.71)<sup>c</sup></td>
+									<td align="center">1.34 (1.15–1.57)<sup>c</sup></td>
+								</tr>
+								<tr>
+									<td colspan="6">
+										<hr/>
+									</td>
+								</tr>
+								<tr>
+									<td><bold>TOTAL</bold></td>
+									<td align="center"><bold>880</bold></td>
+									<td align="center"><bold>43.9</bold></td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN5">
+								<p><sup>a</sup> Adjusted for: gender; age; and per capita income.</p>
+							</fn>
+							<fn id="TFN6">
+								<p><sup>b</sup> Adjusted for: gender; age; per capita income; work support evaluation; burden; suspected contagion; tobacco problems; and current use of psychotropic drugs.</p>
+							</fn>
+							<fn id="TFN7">
+								<p><sup>c</sup> p-value &lt; 0.001</p>
+							</fn>
+							<fn id="TFN8">
+								<p><sup>d</sup> p-value &lt; 0.05</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p>Similar to the major depressive episode outcome, we observed an inverse association between screening for MPDs and the male gender (PR: 0.57; 95% CI: 0.42–0.77), aging between 41 and 50 years (PR: 0.71; 95% CI: 0.56–0.90), or above 51 years of age (PR: 0.56; 95% CI: 0.40–0.78). A lower prevalence ratio of MPD was also found for professionals working in emergency services (PR: 0.68; 95% CI: 0.47–0.97), and for those whose per capita income was up to three minimum monthly (PR: 0.81; 95% CI: 0.66–0.99), or greater than three minimum monthly wages (PR: 0.79; 95% CI: 0.64–0.98).</p>
+				<p>We found evidence for positive associations of MPD with the following variables: assessment of support received by the service as regular (PR: 1.48; 95% CI: 1.19–1.85) or poor (PR: 1.54; 95% CI: 1.23–1.94); reported moderate (PR: 1.63; 95% CI: 1.29-2.07) or heavy (PR: 2.54; 95% CI: 2.05–3.15) burden at work; suspected COVID-19 infection (PR: 1.44; 95% CI: 1.25–1.66); current use of psychotropic drugs (PR: 1.34; 95% CI: 1.15–1.57); and tobacco use (PR: 1.22; 95% CI: 1.03–1.45).</p>
+			</sec>
+			<sec>
+				<title>Suicidal Ideation</title>
+				<p>The prevalence of suicidal ideation in our sample in the 30 days prior to completing the questionnaire was 7.4% (n = 66). <xref ref-type="table" rid="t4">Table 4</xref> shows the prevalence of this outcome in association with the study variables of interest and unadjusted and adjusted prevalence ratios.</p>
+				<p>
+					<table-wrap id="t4">
+						<label>Table 4</label>
+						<caption>
+							<title>Prevalence and unadjusted and adjusted associations between suicidal ideation and studied covariates estimated using Poisson regression models. Data are prevalence ratios (PR) and corresponding 95% confidence intervals (CIs) (n = 890) (Pelotas-RS, 2020).</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup width="17%">
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left" style="font-weight:normal">
+									</th>
+									<th>n</th>
+									<th>%</th>
+									<th style="font-weight:normal">Crude PR (95% CI)</th>
+									<th style="font-weight:normal">Adjusted<sup>a</sup> PR (95% CI)</th>
+									<th style="font-weight:normal">Adjusted<sup>b</sup> PR (95% CI)</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Gender</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Female</td>
+									<td align="center">755</td>
+									<td align="center">7.55</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Male</td>
+									<td align="center">135</td>
+									<td align="center">6.67</td>
+									<td align="center">0.88 (0.44–1.74)</td>
+									<td align="center">1.11 (0.53–2.34)</td>
+									<td align="center">1.55 (0.71–3.37)</td>
+								</tr>
+								<tr>
+									<td>Ethnicity</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>White</td>
+									<td align="center">665</td>
+									<td align="center">7.4</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Brown</td>
+									<td align="center">122</td>
+									<td align="center">6.6</td>
+									<td align="center">0.88 (0.43–1.83)</td>
+									<td align="center">1.06 (0.50–2.26)</td>
+									<td align="center">0.92 (0.44–1.90)</td>
+								</tr>
+								<tr>
+									<td>Black</td>
+									<td align="center">103</td>
+									<td align="center">8.7</td>
+									<td align="center">1.18 (0.60–2.34)</td>
+									<td align="center">1.39 (0.71–2.69)</td>
+									<td align="center">1.46 (0.77–2.79)</td>
+								</tr>
+								<tr>
+									<td>Age</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Up to 30</td>
+									<td align="center">117</td>
+									<td align="center">8.5</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>31 to 40</td>
+									<td align="center">365</td>
+									<td align="center">6.8</td>
+									<td align="center">0.80 (0.39–1.61)</td>
+									<td align="center">0.94 (0.42–2.11)</td>
+									<td align="center">0.83 (0.38–1.83)</td>
+								</tr>
+								<tr>
+									<td>41 to 50</td>
+									<td align="center">292</td>
+									<td align="center">7.5</td>
+									<td align="center">0.88 (0.43–1.80)</td>
+									<td align="center">0.97 (0.42–2.21)</td>
+									<td align="center">0.93 (0.43–2.03)</td>
+								</tr>
+								<tr>
+									<td>≥ 51</td>
+									<td align="center">116</td>
+									<td align="center">7.8</td>
+									<td align="center">0.90 (0.38–2.15)</td>
+									<td align="center">1.25 (0.48–3.23)</td>
+									<td align="center">1.45 (0.48–4.37)</td>
+								</tr>
+								<tr>
+									<td>Education level</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>High School</td>
+									<td align="center">330</td>
+									<td align="center">8.5</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Undergraduate</td>
+									<td align="center">212</td>
+									<td align="center">8.0</td>
+									<td align="center">0.94 (0.53–1.68)</td>
+									<td align="center">1.04 (0.55–1.94)</td>
+									<td align="center">1.03 (0.56–1.92)</td>
+								</tr>
+								<tr>
+									<td>Graduate</td>
+									<td align="center">348</td>
+									<td align="center">6.0</td>
+									<td align="center">0.71 (0.41–1.22)</td>
+									<td align="center">1.01 (0.53–1.94)</td>
+									<td align="center">1.19 (0.61–2.29)</td>
+								</tr>
+								<tr>
+									<td>Per capita income</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Up to 1 minimum wage</td>
+									<td align="center">205</td>
+									<td align="center">11.7</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Up to 2 minimum wages</td>
+									<td align="center">305</td>
+									<td align="center">6.6</td>
+									<td align="center">0.56 (0.31–0.98)</td>
+									<td align="center">0.54 (0.30–0.98)</td>
+									<td align="center">0.58 (0.33–1.01)</td>
+								</tr>
+								<tr>
+									<td>Up to 3 minimum wages</td>
+									<td align="center">132</td>
+									<td align="center">5.3</td>
+									<td align="center">0.45 (0.20–1.02)</td>
+									<td align="center">0.44 (0.19–1.00)</td>
+									<td align="center">0.49 (0.21–1.14)</td>
+								</tr>
+								<tr>
+									<td>&gt; 3 minimum wages</td>
+									<td align="center">168</td>
+									<td align="center">3.6</td>
+									<td align="center">0.30 (0.12–0.72)<sup>c</sup></td>
+									<td align="center">0.29 (0.12–0.69)<sup>c</sup></td>
+									<td align="center">0.28 (0.11–0.68)<sup>c</sup></td>
+								</tr>
+								<tr>
+									<td>Type of service</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Primary Care</td>
+									<td align="center">118</td>
+									<td align="center">8.5</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Outpatient</td>
+									<td align="center">92</td>
+									<td align="center">4.3</td>
+									<td align="center">0.51 (0.16–1.58)</td>
+									<td align="center">0.47 (0.12–1.80)</td>
+									<td align="center">0.49 (0.12–2.01)</td>
+								</tr>
+								<tr>
+									<td>Emergency</td>
+									<td align="center">84</td>
+									<td align="center">8.3</td>
+									<td align="center">0.98 (0.38–2.48)</td>
+									<td align="center">1.09 (0.37–3.23)</td>
+									<td align="center">0.78 (0.24–2.45)</td>
+								</tr>
+								<tr>
+									<td>Hospital</td>
+									<td align="center">577</td>
+									<td align="center">7.8</td>
+									<td align="center">0.92 (0.47–1.77)</td>
+									<td align="center">1.07 (0.50–2.26)</td>
+									<td align="center">0.75 (0.32–1.79)</td>
+								</tr>
+								<tr>
+									<td>Administrative</td>
+									<td align="center">19</td>
+									<td align="center">–</td>
+									<td align="center">–</td>
+									<td align="center">–</td>
+									<td align="center">–</td>
+								</tr>
+								<tr>
+									<td>Length of service in the nursing field</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Up to 5 years</td>
+									<td align="center">175</td>
+									<td align="center">5.7</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Up to 10 years</td>
+									<td align="center">221</td>
+									<td align="center">9.9</td>
+									<td align="center">1.74 (0.84–3.58)</td>
+									<td align="center">1.88 (0.85–4.13)</td>
+									<td align="center">1.35 (0.56–3.24)</td>
+								</tr>
+								<tr>
+									<td>Up to 15 years</td>
+									<td align="center">217</td>
+									<td align="center">7.8</td>
+									<td align="center">1.37 (0.64–2.91)</td>
+									<td align="center">1.76 (0.78–3.97)</td>
+									<td align="center">1.50 (0.65–3.47)</td>
+								</tr>
+								<tr>
+									<td>Up to 20 years</td>
+									<td align="center">139</td>
+									<td align="center">7.2</td>
+									<td align="center">1.25 (0.53–2.94)</td>
+									<td align="center">1.54 (0.62–3.48)</td>
+									<td align="center">1.19 (0.45–3.11)</td>
+								</tr>
+								<tr>
+									<td>≥ 20 years</td>
+									<td align="center">138</td>
+									<td align="center">5.1</td>
+									<td align="center">0.88 (0.34–2.27)</td>
+									<td align="center">0.81 (0.28–2.33)</td>
+									<td align="center">0.83 (0.28–2.43)</td>
+								</tr>
+								<tr>
+									<td>Nursing category</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Registered Nurse</td>
+									<td align="center">319</td>
+									<td align="center">6.0</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Nurse technician</td>
+									<td align="center">501</td>
+									<td align="center">8.2</td>
+									<td align="center">1.37 (0.81–2.32)</td>
+									<td align="center">0.96 (0.51–1.83)</td>
+									<td align="center">0.80 (0.40–1.56)</td>
+								</tr>
+								<tr>
+									<td>Nursing assistant</td>
+									<td align="center">70</td>
+									<td align="center">8.6</td>
+									<td align="center">1.43 (0.59–3.47)</td>
+									<td align="center">1.09 (0.38–3.10)</td>
+									<td align="center">2.53 (0.80–7.97)</td>
+								</tr>
+								<tr>
+									<td>Length of service at institution</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Up to 5 years</td>
+									<td align="center">520</td>
+									<td align="center">7.1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Up to 10 years</td>
+									<td align="center">160</td>
+									<td align="center">11.2</td>
+									<td align="center">1.58 (0.92–2.69)</td>
+									<td align="center">1.45 (0.81–2.59)</td>
+									<td align="center">1.10 (0.61–1.98)</td>
+								</tr>
+								<tr>
+									<td>Up to 15 years</td>
+									<td align="center">71</td>
+									<td align="center">2.8</td>
+									<td align="center">0.39 (0.09–1.60)</td>
+									<td align="center">0.37 (0.09–1.53)</td>
+									<td align="center">0.38 (0.10–1.49)</td>
+								</tr>
+								<tr>
+									<td>≥ 15 years</td>
+									<td align="center">134</td>
+									<td align="center">5.2</td>
+									<td align="center">0.73 (0.33–1.61)</td>
+									<td align="center">0.57 (0.22–1.47)</td>
+									<td align="center">0.72 (0.30–1.68)</td>
+								</tr>
+								<tr>
+									<td>Workload</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Up to 30h</td>
+									<td align="center">194</td>
+									<td align="center">6.7</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Up to 36h</td>
+									<td align="center">473</td>
+									<td align="center">8.7</td>
+									<td align="center">1.29 (0.70–2.36)</td>
+									<td align="center">1.43 (0.72–2.86)</td>
+									<td align="center">1.05 (0.57–1.95)</td>
+								</tr>
+								<tr>
+									<td>36h+</td>
+									<td align="center">223</td>
+									<td align="center">5.4</td>
+									<td align="center">0.80 (0.37–1.71)</td>
+									<td align="center">0.72 (0.30–1.76)</td>
+									<td align="center">0.57 (0.25–1.27)</td>
+								</tr>
+								<tr>
+									<td>Second job</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>No</td>
+									<td align="center">645</td>
+									<td align="center">8.2</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Yes</td>
+									<td align="center">245</td>
+									<td align="center">5.3</td>
+									<td align="center">0.64 (0.35–1.16)</td>
+									<td align="center">0.61 (0.31–1.21)</td>
+									<td align="center">0.60 (0.32–1.13)</td>
+								</tr>
+								<tr>
+									<td>COVID-19-specific training</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>No</td>
+									<td align="center">319</td>
+									<td align="center">7.2</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Yes</td>
+									<td align="center">571</td>
+									<td align="center">7.5</td>
+									<td align="center">1.04 (0.64–1.70)</td>
+									<td align="center">1.01 (0.60–1.71)</td>
+									<td align="center">0.93 (0.55–1.56)</td>
+								</tr>
+								<tr>
+									<td>Evaluation of working conditions</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Good</td>
+									<td align="center">325</td>
+									<td align="center">5.5</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Regular</td>
+									<td align="center">409</td>
+									<td align="center">6.6</td>
+									<td align="center">1.19 (0.66–2.12)</td>
+									<td align="center">1.27 (0.68–2.36)</td>
+									<td align="center">1.22 (0.66–2.26)</td>
+								</tr>
+								<tr>
+									<td>Poor</td>
+									<td align="center">156</td>
+									<td align="center">13.5</td>
+									<td align="center">2.43 (1.33–4.42)<sup>c</sup></td>
+									<td align="center">2.16 (1.13–4.13)<sup>c</sup></td>
+									<td align="center">1.53 (0.77–3.03)</td>
+								</tr>
+								<tr>
+									<td>Evaluation of support at work</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Good</td>
+									<td align="center">263</td>
+									<td align="center">6.1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Regular</td>
+									<td align="center">363</td>
+									<td align="center">6.1</td>
+									<td align="center">0.99 (0.53–1.86)</td>
+									<td align="center">1.10 (0.58–2.11)</td>
+									<td align="center">0.92 (0.35–2.42)</td>
+								</tr>
+								<tr>
+									<td>Poor</td>
+									<td align="center">264</td>
+									<td align="center">10.6</td>
+									<td align="center">1.74 (0.96–3.14)</td>
+									<td align="center">1.58 (0.81–3.05)</td>
+									<td align="center">0.86 (0.29–2.54)</td>
+								</tr>
+								<tr>
+									<td>Burden</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Light</td>
+									<td align="center">343</td>
+									<td align="center">6.7</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Moderate</td>
+									<td align="center">262</td>
+									<td align="center">5.0</td>
+									<td align="center">0.73 (0.38–1.43)</td>
+									<td align="center">0.96 (0.48–1.92)</td>
+									<td align="center">0.71 (0.35–1.40)</td>
+								</tr>
+								<tr>
+									<td>Heavy</td>
+									<td align="center">285</td>
+									<td align="center">10.5</td>
+									<td align="center">1.56 (0.93–2.64)</td>
+									<td align="center">1.93 (1.08–3.43)<sup>c</sup></td>
+									<td align="center">0.98 (0.47–2.05)</td>
+								</tr>
+								<tr>
+									<td>Current burden compared to that pre-COVID-19</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Same or decreased</td>
+									<td align="center">337</td>
+									<td align="center">5.6</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Increased</td>
+									<td align="center">553</td>
+									<td align="center">8.5</td>
+									<td align="center">1.50 (0.90–2.52)</td>
+									<td align="center">2.03 (1.13–3.64)<sup>c</sup></td>
+									<td align="center">1.61 (0.88–2.96)</td>
+								</tr>
+								<tr>
+									<td>Involvement with COVID-19 cases</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>None</td>
+									<td align="center">288</td>
+									<td align="center">5.9</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Indirect work (e.g., administrative)</td>
+									<td align="center">65</td>
+									<td align="center">9.2</td>
+									<td align="center">1.56 (0.64–3.81)</td>
+									<td align="center">1.84 (0.70–4.86)</td>
+									<td align="center">1.85 (0.72–4.71)</td>
+								</tr>
+								<tr>
+									<td>Contact with suspect cases</td>
+									<td align="center">310</td>
+									<td align="center">8.1</td>
+									<td align="center">1.36 (0.75–2.47)</td>
+									<td align="center">1.38 (0.74–2.56)</td>
+									<td align="center">1.20 (0.63–2.25)</td>
+								</tr>
+								<tr>
+									<td>Contact with confirmed cases</td>
+									<td align="center">277</td>
+									<td align="center">7.9</td>
+									<td align="center">1.34 (0.70–2.54)</td>
+									<td align="center">1.36 (0.69–2.71)</td>
+									<td align="center">1.25 (0.60–2.61)</td>
+								</tr>
+								<tr>
+									<td>COVID-19 workload proportion</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>None</td>
+									<td align="center">288</td>
+									<td align="center">5.9</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Up to one third</td>
+									<td align="center">169</td>
+									<td align="center">6.5</td>
+									<td align="center">1.10 (0.52–2.29)</td>
+									<td align="center">0.96 (0.43–2.17)</td>
+									<td align="center">0.91 (0.37–2.20)</td>
+								</tr>
+								<tr>
+									<td>Up to two thirds</td>
+									<td align="center">166</td>
+									<td align="center">9.6</td>
+									<td align="center">1.63 (0.84–3.14)</td>
+									<td align="center">1.76 (0.90–3.44)</td>
+									<td align="center">1.66 (0.86–3.21)</td>
+								</tr>
+								<tr>
+									<td>&gt; two thirds</td>
+									<td align="center">267</td>
+									<td align="center">8.2</td>
+									<td align="center">1.39 (0.75–2.57)</td>
+									<td align="center">1.48 (0.77–2.86)</td>
+									<td align="center">1.19 (0.60–2.33)</td>
+								</tr>
+								<tr>
+									<td>Lack of Personal Protective Equipment</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>No</td>
+									<td align="center">508</td>
+									<td align="center">6.5</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Yes</td>
+									<td align="center">382</td>
+									<td align="center">8.6</td>
+									<td align="center">1.32 (0.83–2.11)</td>
+									<td align="center">1.10 (0.67–1.80)</td>
+									<td align="center">0.76 (0.45–1.28)</td>
+								</tr>
+								<tr>
+									<td>Suspected COVID-19 infection</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>No</td>
+									<td align="center">574</td>
+									<td align="center">7.0</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Yes</td>
+									<td align="center">316</td>
+									<td align="center">8.2</td>
+									<td align="center">1.18 (0.73–1.89)</td>
+									<td align="center">1.42 (0.84–2.37)</td>
+									<td align="center">0.96 (0.55–1.65)</td>
+								</tr>
+								<tr>
+									<td>Absence from work due to suspected infection</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>No</td>
+									<td align="center">746</td>
+									<td align="center">7.6</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Yes</td>
+									<td align="center">144</td>
+									<td align="center">6.2</td>
+									<td align="center">0.81 (0.41–1.61)</td>
+									<td align="center">0.88 (0.43–1.80)</td>
+									<td align="center">0.65 (0.30–1.44)</td>
+								</tr>
+								<tr>
+									<td>Family or close friend with COVID-19</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>No</td>
+									<td align="center">616</td>
+									<td align="center">6.5</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Yes</td>
+									<td align="center">274</td>
+									<td align="center">9.5</td>
+									<td align="center">1.46 (0.91–2.34)</td>
+									<td align="center">1.58 (0.94–2.65)</td>
+									<td align="center">1.42 (0.84–2.41)</td>
+								</tr>
+								<tr>
+									<td>Degree of social distancing</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Light</td>
+									<td align="center">227</td>
+									<td align="center">8.8</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Moderate</td>
+									<td align="center">568</td>
+									<td align="center">7.6</td>
+									<td align="center">0.85 (0.51–1.42)</td>
+									<td align="center">0.99 (0.56–1.74)</td>
+									<td align="center">1.03 (0.58–1.81)</td>
+								</tr>
+								<tr>
+									<td>Intense</td>
+									<td align="center">95</td>
+									<td align="center">3.2</td>
+									<td align="center">0.35 (0.10–1.17)</td>
+									<td align="center">0.42 (0.13–1.38)</td>
+									<td align="center">0.53 (0.15–1.76)</td>
+								</tr>
+								<tr>
+									<td>Risk group</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>No</td>
+									<td align="center">606</td>
+									<td align="center">6.1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Yes</td>
+									<td align="center">284</td>
+									<td align="center">10.2</td>
+									<td align="center">1.67 (1.05–2.66)<sup>c</sup></td>
+									<td align="center">1.60 (0.96–2.65)</td>
+									<td align="center">1.37 (0.81–2.31)</td>
+								</tr>
+								<tr>
+									<td>Problems with/abuse of alcohol</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>No</td>
+									<td align="center">824</td>
+									<td align="center">6.8</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Yes</td>
+									<td align="center">66</td>
+									<td align="center">15.1</td>
+									<td align="center">2.22 (1.19–4.16)<sup>c</sup></td>
+									<td align="center">2.56 (1.31–4.96)<sup>c</sup></td>
+									<td align="center">1.92 (0.98–3.78)</td>
+								</tr>
+								<tr>
+									<td>Tobacco use</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>No</td>
+									<td align="center">748</td>
+									<td align="center">6.8</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Yes</td>
+									<td align="center">142</td>
+									<td align="center">10.6</td>
+									<td align="center">1.54 (0.89–2.67)</td>
+									<td align="center">1.42 (0.79–2.54)</td>
+									<td align="center">1.09 (0.62–1.92)</td>
+								</tr>
+								<tr>
+									<td>Current use of psychotropic drugs</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>No</td>
+									<td align="center">703</td>
+									<td align="center">4.8</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Yes</td>
+									<td align="center">187</td>
+									<td align="center">17.1</td>
+									<td align="center">3.53 (2.24–5.57)<sup>d</sup></td>
+									<td align="center">3.51 (2.14–5.76)<sup>d</sup></td>
+									<td align="center">3.14 (1.87–5.26)<sup>d</sup></td>
+								</tr>
+								<tr>
+									<td colspan="6">
+										<hr/>
+									</td>
+								</tr>
+								<tr>
+									<td><bold>TOTAL</bold></td>
+									<td align="center"><bold>880</bold></td>
+									<td align="center"><bold>7.4</bold></td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN9">
+								<p><sup>a</sup> Adjusted for: gender; age; and per capita income.</p>
+							</fn>
+							<fn id="TFN10">
+								<p><sup>b</sup> Adjusted for: per capita income; length of service at the institution; workload; second job; work conditions evaluation; burden comparison (post-COVID-19); COVID-19 case on family or close friend; alcohol problems; and current use of psychotropic drugs.</p>
+							</fn>
+							<fn id="TFN11">
+								<p><sup>c</sup> p-value &lt; 0.05</p>
+							</fn>
+							<fn id="TFN12">
+								<p><sup>d</sup> p-value &lt; 0.001</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p>In the model where the adjustment was performed for all potential confounders related to the outcome, suicidal ideation showed a strong positive association with psychotropic drug use (PR: 3.14; 95% CI: 1.87–5.26), but this outcome was inversely correlated with having a per capita income greater than three minimum monthly wages (PR: 0.28; 95% CI: 0.11–0.68). When only adjusted for gender, age, and per capita income, suicidal ideation was also associated with assessing one’s working conditions as poor (PR: 2.16; 96% CI: 1.13–4.13), reporting a heavy burden at work (PR: 1.93; 95% CI: 1.08–3.43), reporting increased burden post-pandemic (PR: 2.03; 95% CI: 1.13–3.64), and problems with alcohol (PR: 2.56; 95% CI: 1.31–4.96).</p>
+			</sec>
+		</sec>
+		<sec sec-type="discussion">
+			<title>DISCUSSION</title>
+			<p>The COVID-19 pandemic has had substantial negative effects on the mental health of many healthcare professionals. This study aimed to identify factors associated with mental health outcomes to develop strategies for mitigation. Importantly, our study design included a well-defined sample frame and strict recruitment protocol, thus meeting recommendations emerging from the field<sup><xref ref-type="bibr" rid="B12">12</xref></sup> .</p>
+			<p>The results notably indicated a high prevalence of major depressive episodes (36.6%) and MPDs (43.9%) in our sample, thus pointing to the need for interventions to promote mental health among nursing professionals.</p>
+			<p>However, the instruments used to track these outcomes vary among studies. For example, some authors have used the Patient Health Questionnaire-9 (PHQ-9)<sup><xref ref-type="bibr" rid="B6">6</xref></sup> , the Zung Self-Rating Depression Scale (SDS)<sup><xref ref-type="bibr" rid="B18">18</xref></sup> , and the Hamilton Depression Scale (HAMD)<sup><xref ref-type="bibr" rid="B19">19</xref></sup> (among others) to screen for depression among healthcare professionals since the pandemic began.</p>
+			<p>The prevalence of depression found in the current study was higher than that reported among other studies using the PHQ-9 [(12.2%)<sup><xref ref-type="bibr" rid="B20">20</xref></sup> and (13.5%)<sup><xref ref-type="bibr" rid="B9">9</xref></sup> ], but lower than the results observed by one study (50.4%)<sup><xref ref-type="bibr" rid="B6">6</xref></sup> . However, our results were similar to the pooled prevalence calculated in a meta-analysis which included the above three studies: 36.7% (95% CI: 7.7–69.2, I<sup><xref ref-type="bibr" rid="B2">2</xref></sup> = 100%)<sup><xref ref-type="bibr" rid="B7">7</xref></sup> .</p>
+			<p>The results reported herein suggest that pre- and post-pandemic depression prevalence is significantly higher among nursing professionals than in the general population. In a population-based study conducted before the pandemic in the same municipality (Pelotas), the prevalence of depression was 19.0% (CI: 15.4–22.7)<sup><xref ref-type="bibr" rid="B14">14</xref></sup> . In a cross-sectional online survey conducted among the general population in China, a prevalence of 20.1% (CI: 19.2–21.0) was reported<sup><xref ref-type="bibr" rid="B5">5</xref></sup> .</p>
+			<p>During the pre-pandemic period in Brazil, studies reported depression prevalence of 21.3% and 27%, respectively<sup><xref ref-type="bibr" rid="B21">21</xref> , <xref ref-type="bibr" rid="B22">22</xref></sup> . This suggests a potentially greater occurrence of depressive episodes among nursing professionals during the pandemic. However, few studies to date have compared results obtained from the same sample of nurses both before and during the pandemic.</p>
+			<p>Our results similarly suggest a greater occurrence of MPDs among the nursing professionals in our sample than both the general population and nursing professionals working in other countries (both pre and post-pandemic). Our results are similar to those found among Pakistani doctors, in whom a MPD prevalence of 42.7% was found using the SRQ-20<sup><xref ref-type="bibr" rid="B23">23</xref></sup> .</p>
+			<p>Two studies conducted in the pre-pandemic period among Brazilian nurses suggested the prevalence of MPD was 33.3%<sup><xref ref-type="bibr" rid="B24">24</xref></sup> and 35%<sup><xref ref-type="bibr" rid="B25">25</xref></sup> . We emphasize again the methodological variability among studies tracking these mental health outcomes both before and during the pandemic period.</p>
+			<p>We found a suicidal ideation prevalence of 7.4% in our sample. This is higher than that found for 12 months in a population-based study in Brazil conducted in 2003 but lower than that found for 30 days among the general population of the United States of America (10.7%) during the COVID-19 pandemic<sup><xref ref-type="bibr" rid="B26">26</xref></sup> .</p>
+			<p>Nursing professionals compose approximately half of the world’s health workforce<sup><xref ref-type="bibr" rid="B2">2</xref></sup> . Their work involves several challenges, including potential ethical dilemmas, working with human suffering, long hours, low pay, lack of time and appropriate space to rest, burden, lack of resources, and low appreciation by other team members. These factors have previously been recognized to cause worsening in the nurses’ mental health<sup><xref ref-type="bibr" rid="B24">24</xref> , <xref ref-type="bibr" rid="B25">25</xref> , <xref ref-type="bibr" rid="B27">27</xref></sup> , and their effects may be exacerbated by the pandemic.</p>
+			<p>Thus, we emphasize the associations found for both major depressive episodes and MPDs with burden, a poor assessment of the support received by one’s service, and suspected COVID-19 infection among our results. The association observed for major depressive episodes and lack of PPE is also noteworthy. These results are consistent with previous studies that investigated the repercussions of the pandemic in nurses from other countries.</p>
+			<p>Positive associations between depression and/or anxiety and suspected infection with COVID-19 have been reported in studies conducted in China<sup><xref ref-type="bibr" rid="B28">28</xref></sup> and Iran<sup><xref ref-type="bibr" rid="B20">20</xref> , <xref ref-type="bibr" rid="B29">29</xref></sup> . In turn, the perception of support received by the service was negatively associated with poor self-rated health in the study<sup><xref ref-type="bibr" rid="B28">28</xref></sup> , in addition to being seen as one of the greatest needs for reducing the psychological burden in a study conducted among German nurses<sup><xref ref-type="bibr" rid="B30">30</xref></sup> . Finally, studies conducted among healthcare professionals in Italy<sup><xref ref-type="bibr" rid="B31">31</xref></sup> , Iran<sup><xref ref-type="bibr" rid="B20">20</xref> , <xref ref-type="bibr" rid="B29">29</xref></sup> , and Portugal<sup><xref ref-type="bibr" rid="B32">32</xref></sup> observed that adequate PPE provision was an important predictor of better psychological outcomes.</p>
+			<p>Although the results in our sample suggest a higher prevalence of depression and MPD in comparison to the general population or other pre-pandemic samples of nurses, few pandemic-specific study variables were related to these outcomes in our study. However, we can suggest that common challenges faced by the nursing teams were exacerbated by the pandemic.</p>
+			<p>A note of caution is also necessary regarding interpretations of depression and MPD prevalence. Importantly, screening for these outcomes using instruments, even validated ones, does not confirm a diagnosis, and many responses to questions in these instruments may reflect normal adaptive responses to a stressful period. Therefore, it is not necessary to pathologize conditions that could be treated with the adoption of simple measures, such as improving professional support and working conditions.</p>
+			<p>Some hospitals in China implemented psychological assistance services in response to large numbers of workers screening positive for adverse mental health outcomes. Interestingly, workers were reluctant to participate in the interventions offered<sup><xref ref-type="bibr" rid="B4">4</xref></sup> . Through interviews with 13 medical teams at Xiangya Hospital, a study found that many workers were more immediately concerned on biosafety and lack of knowledge on COVID-19 among the reasons for refusing mental healthcare. Rather than mental health assistance, workers reported needing more uninterrupted rest and sufficient PPE to perform their duties.</p>
+			<p>Finally, readers should consider the limitations of the current study. First, our study was cross-sectional, therefore reverse causality cannot be ruled out. We must also consider the risk of response bias given that the research involved self-reporting by the participants.</p>
+			<p>We chose to exclude nursing professionals who were absent from work during the data collection period from our sample. This exclusion criterion must also be considered a limitation because it may be the case that such individuals were absent from work as a result of mental health issues related to the pandemic. Moreover, nursing professionals with mental healthcare needs may have been more likely among those eligible to participate in this study.</p>
+			<p>Although associations observed among our outcomes of interest and participant income are plausible and in line with prior study findings, one should consider that there were 80 missing observations for the income variable in our dataset. A lack of reference values for the same population in the pre-pandemic period represents another limitation. This makes the comparison and interpretation of results more difficult, highlighting that longitudinal studies are urgently needed.</p>
+			<p>We observed a limited number of observations for suicidal ideation. This outcome demonstrated only weak associations with several study variables (i.e., evaluation of support at work, current burden, and burden pre-pandemic comparison) after adjustment for confounders. A larger sample may be required to detect stronger associations of suicidal ideation with other variables of interest.</p>
+			<p>Finally, it is necessary to point out that the selection of variables to compose the model with purely statistical criteria has been criticized by epidemiology theorists<sup><xref ref-type="bibr" rid="B33">33</xref></sup> . However, we understand that the selection of confounders through a selection based on statistical criteria helped us to enrich the analysis through identifying and including new variables in the literature (those related to the context of the COVID-19 pandemic), for the which relationships were not yet well defined.</p>
+		</sec>
+		<sec sec-type="conclusions">
+			<title>CONCLUSIONS</title>
+			<p>Our results point to a high prevalence of major depressive episodes and MPDs among the nursing professionals studied. Associations observed for these outcomes included suspected COVID-19 infection, burden at work, a rating of support received by one’s service as poor, and a lack of PPE. Our study, therefore, suggests that factors related to services are associated with the mental health status of nursing professionals. There is a need to improve working conditions, especially by ensuring adequate dimensioning to avoid the burden. Employers should provide their employees with psychological and social support and implement adequate biosafety measures. Such measures are arguably needed to promote feelings of security and to reduce anxiety linked to pandemic-related uncertainties and risk of infection.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>REFERENCES</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. World Health Organization. Coronavirus Disease (COVID-19): events as they happen. Geneva (CH): WHO; 2020 [cited 2020 Oct 29]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/events-as-they-happen">https://www.who.int/emergencies/diseases/novel-coronavirus-2019/events-as-they-happen</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>World Health Organization</collab>
+					</person-group>
+					<source>Coronavirus Disease (COVID-19): events as they happen</source>
+					<publisher-loc>Geneva (CH)</publisher-loc>
+					<publisher-name>WHO</publisher-name>
+					<year>2020</year>
+					<date-in-citation content-type="cited-date">cited 2020 Oct 29</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/events-as-they-happen">https://www.who.int/emergencies/diseases/novel-coronavirus-2019/events-as-they-happen</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. World Health Organization. Global strategic directions for strengthening nursing and midwifery 2016-2020. Geneva (CH): WHO; 2016 [cited 2020 Oct 29]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.who.int/hrh/nursing_midwifery/global-strategic-midwifery2016-2020.pdf">https://www.who.int/hrh/nursing_midwifery/global-strategic-midwifery2016-2020.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>World Health Organization</collab>
+					</person-group>
+					<source>Global strategic directions for strengthening nursing and midwifery 2016-2020</source>
+					<publisher-loc>Geneva (CH)</publisher-loc>
+					<publisher-name>WHO</publisher-name>
+					<year>2016</year>
+					<date-in-citation content-type="cited-date">cited 2020 Oct 29</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.who.int/hrh/nursing_midwifery/global-strategic-midwifery2016-2020.pdf">https://www.who.int/hrh/nursing_midwifery/global-strategic-midwifery2016-2020.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. Hu D, Kong Y, Li W, Han Q, Zhang X, Zhu LX, et al. Frontline nurses’ burnout, anxiety, depression, and fear statuses and their associated factors during the COVID-19 outbreak in Wuhan, China: a large-scale cross-sectional study. EClinicalMedicine. 2020;24:100424. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.eclinm.2020.100424">https://doi.org/10.1016/j.eclinm.2020.100424</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hu</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Kong</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Li</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Han</surname>
+							<given-names>Q</given-names>
+						</name>
+						<name>
+							<surname>Zhang</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Zhu</surname>
+							<given-names>LX</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Frontline nurses’ burnout, anxiety, depression, and fear statuses and their associated factors during the COVID-19 outbreak in Wuhan, China: a large-scale cross-sectional study</article-title>
+					<source>EClinicalMedicine</source>
+					<year>2020</year>
+					<volume>24</volume>
+					<size units="pages">100424</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.eclinm.2020.100424">https://doi.org/10.1016/j.eclinm.2020.100424</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. Chen Q, Liang M, Li Y, Guo J, Fei D, Wang L, et al. Mental health care for medical staff in China during the COVID-19 outbreak. Lancet Psychiatry. 2020;7(4):e15-16. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S2215-0366(20)30078-X">https://doi.org/10.1016/S2215-0366(20)30078-X</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Chen</surname>
+							<given-names>Q</given-names>
+						</name>
+						<name>
+							<surname>Liang</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Li</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Guo</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Fei</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>L</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Mental health care for medical staff in China during the COVID-19 outbreak</article-title>
+					<source>Lancet Psychiatry</source>
+					<year>2020</year>
+					<volume>7</volume>
+					<issue>4</issue>
+					<fpage>e15</fpage>
+					<lpage>e16</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S2215-0366(20)30078-X">https://doi.org/10.1016/S2215-0366(20)30078-X</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Huang Y, Zhao N. Generalized anxiety disorder, depressive symptoms and sleep quality during COVID-19 outbreak in China: a web-based cross-sectional survey. Psychiatry Res. 2020;288:112954. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.psychres.2020.112954">https://doi.org/10.1016/j.psychres.2020.112954</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Huang</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Zhao</surname>
+							<given-names>N</given-names>
+						</name>
+					</person-group>
+					<article-title>Generalized anxiety disorder, depressive symptoms and sleep quality during COVID-19 outbreak in China: a web-based cross-sectional survey</article-title>
+					<source>Psychiatry Res</source>
+					<year>2020</year>
+					<volume>288</volume>
+					<size units="pages">112954</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.psychres.2020.112954">https://doi.org/10.1016/j.psychres.2020.112954</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. Lai J, Ma S, Wang Y, Ca Z, Hu J, Wei N, et al. Factors associated with mental health outcomes among health care workers exposed to Coronavirus Disease 2019. JAMA Network Open. 2020;3(3):e203976. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1001/jamanetworkopen.2020.3976">https://doi.org/10.1001/jamanetworkopen.2020.3976</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lai</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Ma</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Ca</surname>
+							<given-names>Z</given-names>
+						</name>
+						<name>
+							<surname>Hu</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Wei</surname>
+							<given-names>N</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Factors associated with mental health outcomes among health care workers exposed to Coronavirus Disease 2019</article-title>
+					<source>JAMA Network Open</source>
+					<year>2020</year>
+					<volume>3</volume>
+					<issue>3</issue>
+					<elocation-id>e203976</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1001/jamanetworkopen.2020.3976">https://doi.org/10.1001/jamanetworkopen.2020.3976</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. Pappa S, Ntella V, Giannakas T, Giannakoulis VG, Papoutsi E, Katsaounou P. Prevalence of depression, anxiety, and insomnia among healthcare workers during the COVID-19 pandemic: a systematic review and meta-analysis. Brain Behav Immun. 2020;88:901-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.bbi.2020.05.026">https://doi.org/10.1016/j.bbi.2020.05.026</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pappa</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Ntella</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Giannakas</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Giannakoulis</surname>
+							<given-names>VG</given-names>
+						</name>
+						<name>
+							<surname>Papoutsi</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Katsaounou</surname>
+							<given-names>P</given-names>
+						</name>
+					</person-group>
+					<article-title>Prevalence of depression, anxiety, and insomnia among healthcare workers during the COVID-19 pandemic: a systematic review and meta-analysis</article-title>
+					<source>Brain Behav Immun</source>
+					<year>2020</year>
+					<volume>88</volume>
+					<fpage>901</fpage>
+					<lpage>907</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.bbi.2020.05.026">https://doi.org/10.1016/j.bbi.2020.05.026</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Hacimusalar Y, Kahve AA, Yasar AB, Aydin MB. Anxiety and hopelessness levels in COVID-19 pandemic: a comparative study of healthcare professionals and other community sample in Turkey. J Psychiatric Res. 2020;129:181-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jpsychires.2020.07.024">https://doi.org/10.1016/j.jpsychires.2020.07.024</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hacimusalar</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Kahve</surname>
+							<given-names>AA</given-names>
+						</name>
+						<name>
+							<surname>Yasar</surname>
+							<given-names>AB</given-names>
+						</name>
+						<name>
+							<surname>Aydin</surname>
+							<given-names>MB</given-names>
+						</name>
+					</person-group>
+					<article-title>Anxiety and hopelessness levels in COVID-19 pandemic: a comparative study of healthcare professionals and other community sample in Turkey</article-title>
+					<source>J Psychiatric Res</source>
+					<year>2020</year>
+					<volume>129</volume>
+					<fpage>181</fpage>
+					<lpage>188</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jpsychires.2020.07.024">https://doi.org/10.1016/j.jpsychires.2020.07.024</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. Zhu Z, Xu S, Wang H. COVID-19 in Wuhan: immediate psychological impact on 5062 health workers. EClinical Medicine.2020 [cited 2020 Oct 29];24:100443. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.thelancet.com/pdfs/journals/eclinm/PIIS2589-5370(20)30187-5.pdf">https://www.thelancet.com/pdfs/journals/eclinm/PIIS2589-5370(20)30187-5.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Zhu</surname>
+							<given-names>Z</given-names>
+						</name>
+						<name>
+							<surname>Xu</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>H</given-names>
+						</name>
+					</person-group>
+					<article-title>COVID-19 in Wuhan: immediate psychological impact on 5062 health workers</article-title>
+					<source>EClinical Medicine</source>
+					<year>2020</year>
+					<date-in-citation content-type="cited-date">cited 2020 Oct 29</date-in-citation>
+					<volume>24</volume>
+					<size units="pages">100443</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.thelancet.com/pdfs/journals/eclinm/PIIS2589-5370(20)30187-5.pdf">https://www.thelancet.com/pdfs/journals/eclinm/PIIS2589-5370(20)30187-5.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. Greenberg N, Tracy D. What healthcare leaders need to do to protect the psychological well-being of frontline staff in the COVID-19 pandemic. BMJ Leader. 2020 May:leader-2020-000273. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/leader-2020-000273">https://doi.org/10.1136/leader-2020-000273</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Greenberg</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Tracy</surname>
+							<given-names>D</given-names>
+						</name>
+					</person-group>
+					<article-title>What healthcare leaders need to do to protect the psychological well-being of frontline staff in the COVID-19 pandemic</article-title>
+					<source>BMJ Leader</source>
+					<year>2020</year>
+					<month>05</month>
+					<comment>leader-2020-000273</comment>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/leader-2020-000273">https://doi.org/10.1136/leader-2020-000273</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. Williamson V, Greenberg N, Bowden G, Rothenfluh D, Nnadi C, Reynolds J. The mental health impact of providing spine care during COVID-19. Spine J. 2020;20(9):1363-6. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.spinee.2020.04.019">https://doi.org/10.1016/j.spinee.2020.04.019</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Williamson</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Greenberg</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Bowden</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Rothenfluh</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Nnadi</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Reynolds</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>The mental health impact of providing spine care during COVID-19</article-title>
+					<source>Spine J</source>
+					<year>2020</year>
+					<volume>20</volume>
+					<issue>9</issue>
+					<fpage>1363</fpage>
+					<lpage>1366</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.spinee.2020.04.019">https://doi.org/10.1016/j.spinee.2020.04.019</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. Lamb D, Greenberg N, Stevelink S, Wessely S. Mixed signals about the mental health of the NHS workforce. Lancet Psychiatry. 2020;7(12):1009-11. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S2215-0366(20)30379-5">https://doi.org/10.1016/S2215-0366(20)30379-5</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lamb</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Greenberg</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Stevelink</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Wessely</surname>
+							<given-names>S</given-names>
+						</name>
+					</person-group>
+					<article-title>Mixed signals about the mental health of the NHS workforce</article-title>
+					<source>Lancet Psychiatry</source>
+					<year>2020</year>
+					<volume>7</volume>
+					<issue>12</issue>
+					<fpage>1009</fpage>
+					<lpage>1011</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S2215-0366(20)30379-5">https://doi.org/10.1016/S2215-0366(20)30379-5</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. Conselho das Secretarias Municipais de Saúde do Rio Grande do Sul. Regiões de Saúde do Rio Grande do Sul. Porto Alegre, RS: Cosemsrs; 2020 [cited 2020 Oct 29]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.cosemsrs.org.br/regioes-de-saude">https://www.cosemsrs.org.br/regioes-de-saude</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Conselho das Secretarias Municipais de Saúde do Rio Grande do Sul</collab>
+					</person-group>
+					<source>Regiões de Saúde do Rio Grande do Sul</source>
+					<publisher-loc>Porto Alegre, RS</publisher-loc>
+					<publisher-name>Cosemsrs</publisher-name>
+					<year>2020</year>
+					<date-in-citation content-type="cited-date">cited 2020 Oct 29</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.cosemsrs.org.br/regioes-de-saude">https://www.cosemsrs.org.br/regioes-de-saude</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. Santos IS, Tavares BF, Munhoz TN, Almeida LSP, Silva NTB, Tams BD, et al. Sensibilidade e especificidade do Patient Health Questionnaire-9 (PHQ-9) entre adultos da população geral. Cad Saude Publica. 2013;29(8):1533-43. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0102-311X00144612">https://doi.org/10.1590/0102-311X00144612</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Santos</surname>
+							<given-names>IS</given-names>
+						</name>
+						<name>
+							<surname>Tavares</surname>
+							<given-names>BF</given-names>
+						</name>
+						<name>
+							<surname>Munhoz</surname>
+							<given-names>TN</given-names>
+						</name>
+						<name>
+							<surname>Almeida</surname>
+							<given-names>LSP</given-names>
+						</name>
+						<name>
+							<surname>Silva</surname>
+							<given-names>NTB</given-names>
+						</name>
+						<name>
+							<surname>Tams</surname>
+							<given-names>BD</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Sensibilidade e especificidade do Patient Health Questionnaire-9 (PHQ-9) entre adultos da população geral</article-title>
+					<source>Cad Saude Publica</source>
+					<year>2013</year>
+					<volume>29</volume>
+					<issue>8</issue>
+					<fpage>1533</fpage>
+					<lpage>1543</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0102-311X00144612">https://doi.org/10.1590/0102-311X00144612</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. Santos KO, Araújo TM, Pinho PDS, Silva ACC. Avaliação de um instrumento de mensuração de morbidade psíquica: estudo de validação do Self-Reporting Questionnaire (SRQ-20). Rev Baiana Saude Publica. 2011 [cited 2020 Oct 29];34(3):544-60. Available from: <ext-link ext-link-type="uri" xlink:href="http://files.bvs.br/upload/S/0100-0233/2010/v34n3/a1881.pdf">http://files.bvs.br/upload/S/0100-0233/2010/v34n3/a1881.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Santos</surname>
+							<given-names>KO</given-names>
+						</name>
+						<name>
+							<surname>Araújo</surname>
+							<given-names>TM</given-names>
+						</name>
+						<name>
+							<surname>Pinho</surname>
+							<given-names>PDS</given-names>
+						</name>
+						<name>
+							<surname>Silva</surname>
+							<given-names>ACC</given-names>
+						</name>
+					</person-group>
+					<article-title>Avaliação de um instrumento de mensuração de morbidade psíquica: estudo de validação do Self-Reporting Questionnaire (SRQ-20)</article-title>
+					<source>Rev Baiana Saude Publica</source>
+					<year>2011</year>
+					<date-in-citation content-type="cited-date">cited 2020 Oct 29</date-in-citation>
+					<volume>34</volume>
+					<issue>3</issue>
+					<fpage>544</fpage>
+					<lpage>560</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="http://files.bvs.br/upload/S/0100-0233/2010/v34n3/a1881.pdf">http://files.bvs.br/upload/S/0100-0233/2010/v34n3/a1881.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. Treichel CAS, Jardim VMR, Kantorski LP, Lima MG. Prevalence and factors associated with suicidal ideation among family caregivers of people with mental disorders. J Clin Nurs. 2019;28(19-20):3470-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/jocn.14938">https://doi.org/10.1111/jocn.14938</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Treichel</surname>
+							<given-names>CAS</given-names>
+						</name>
+						<name>
+							<surname>Jardim</surname>
+							<given-names>VMR</given-names>
+						</name>
+						<name>
+							<surname>Kantorski</surname>
+							<given-names>LP</given-names>
+						</name>
+						<name>
+							<surname>Lima</surname>
+							<given-names>MG</given-names>
+						</name>
+					</person-group>
+					<article-title>Prevalence and factors associated with suicidal ideation among family caregivers of people with mental disorders</article-title>
+					<source>J Clin Nurs</source>
+					<year>2019</year>
+					<volume>28</volume>
+					<season>19-20</season>
+					<fpage>3470</fpage>
+					<lpage>3477</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/jocn.14938">https://doi.org/10.1111/jocn.14938</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Maldonado G, Greenland S. Simulation study of confounder-selection strategies. Am J Epidemiol. 1993;138(11):923-36. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/oxfordjournals.aje.a116813">https://doi.org/10.1093/oxfordjournals.aje.a116813</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Maldonado</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Greenland</surname>
+							<given-names>S</given-names>
+						</name>
+					</person-group>
+					<article-title>Simulation study of confounder-selection strategies</article-title>
+					<source>Am J Epidemiol</source>
+					<year>1993</year>
+					<volume>138</volume>
+					<issue>11</issue>
+					<fpage>923</fpage>
+					<lpage>936</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/oxfordjournals.aje.a116813">https://doi.org/10.1093/oxfordjournals.aje.a116813</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18. Liu CY, Yang YZ, Zhang XM, Xu X, Dou QL, Zhang WW, et. al. The prevalence and influencing factors in anxiety in medical workers fighting COVID-19 in China: a cross-sectional survey. Epidemiol Infect. 2020;148:e98. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1017/S0950268820001107">https://doi.org/10.1017/S0950268820001107</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Liu</surname>
+							<given-names>CY</given-names>
+						</name>
+						<name>
+							<surname>Yang</surname>
+							<given-names>YZ</given-names>
+						</name>
+						<name>
+							<surname>Zhang</surname>
+							<given-names>XM</given-names>
+						</name>
+						<name>
+							<surname>Xu</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Dou</surname>
+							<given-names>QL</given-names>
+						</name>
+						<name>
+							<surname>Zhang</surname>
+							<given-names>WW</given-names>
+						</name>
+						<etal>et. al</etal>
+					</person-group>
+					<article-title>The prevalence and influencing factors in anxiety in medical workers fighting COVID-19 in China: a cross-sectional survey</article-title>
+					<source>Epidemiol Infect</source>
+					<year>2020</year>
+					<volume>148</volume>
+					<elocation-id>e98</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1017/S0950268820001107">https://doi.org/10.1017/S0950268820001107</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19. Lu W, Wang H, Lin Y, Li L. Psychological status of medical workforce during the COVID-19 pandemic: a cross-sectional study. Psychiatry Res. 2020;288:112936. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.psychres.2020.112936">https://doi.org/10.1016/j.psychres.2020.112936</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lu</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Lin</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Li</surname>
+							<given-names>L</given-names>
+						</name>
+					</person-group>
+					<article-title>Psychological status of medical workforce during the COVID-19 pandemic: a cross-sectional study</article-title>
+					<source>Psychiatry Res</source>
+					<year>2020</year>
+					<volume>288</volume>
+					<size units="pages">112936</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.psychres.2020.112936">https://doi.org/10.1016/j.psychres.2020.112936</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20. Zhang C, Yang L, Liu S, Ma S, Wang Y, Cai Z, et al. Survey of insomnia and related social psychological factors among medical staff involved in the 2019 novel coronavirus disease outbreak. Front Psychiatry. 2020;11:306. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3389/fpsyt.2020.00306">https://doi.org/10.3389/fpsyt.2020.00306</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Zhang</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Yang</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Liu</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Ma</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Cai</surname>
+							<given-names>Z</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Survey of insomnia and related social psychological factors among medical staff involved in the 2019 novel coronavirus disease outbreak</article-title>
+					<source>Front Psychiatry</source>
+					<year>2020</year>
+					<volume>11</volume>
+					<size units="pages">306</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3389/fpsyt.2020.00306">https://doi.org/10.3389/fpsyt.2020.00306</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>21. Junqueira MAB, Santos MA, Araújo LB, Ferreira MCM, Giuliani CD, Pillon SC. et al. Depressive symptoms and drug use among nursing staff professionals. Esc Anna Nery. 2018;22(4):e20180129. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/2177-9465-EAN-2018-0129">https://doi.org/10.1590/2177-9465-EAN-2018-0129</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Junqueira</surname>
+							<given-names>MAB</given-names>
+						</name>
+						<name>
+							<surname>Santos</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Araújo</surname>
+							<given-names>LB</given-names>
+						</name>
+						<name>
+							<surname>Ferreira</surname>
+							<given-names>MCM</given-names>
+						</name>
+						<name>
+							<surname>Giuliani</surname>
+							<given-names>CD</given-names>
+						</name>
+						<name>
+							<surname>Pillon</surname>
+							<given-names>SC.</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Depressive symptoms and drug use among nursing staff professionals</article-title>
+					<source>Esc Anna Nery</source>
+					<year>2018</year>
+					<volume>22</volume>
+					<issue>4</issue>
+					<elocation-id>e20180129</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/2177-9465-EAN-2018-0129">https://doi.org/10.1590/2177-9465-EAN-2018-0129</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>22. Freire FO, Marcon SR, Espinosa MM, Santos HGB, Kogien M, Lima NVP, et al. Factors associated with suicide risk among nurses and physicians: a cross-section study. Rev Bras Enferm. 2020;73 Suppl 1:e20200352. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0034-7167-2020-0352">https://doi.org/10.1590/0034-7167-2020-0352</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Freire</surname>
+							<given-names>FO</given-names>
+						</name>
+						<name>
+							<surname>Marcon</surname>
+							<given-names>SR</given-names>
+						</name>
+						<name>
+							<surname>Espinosa</surname>
+							<given-names>MM</given-names>
+						</name>
+						<name>
+							<surname>Santos</surname>
+							<given-names>HGB</given-names>
+						</name>
+						<name>
+							<surname>Kogien</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Lima</surname>
+							<given-names>NVP</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Factors associated with suicide risk among nurses and physicians: a cross-section study</article-title>
+					<source>Rev Bras Enferm</source>
+					<year>2020</year>
+					<volume>73</volume>
+					<supplement>Suppl 1</supplement>
+					<elocation-id>e20200352</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0034-7167-2020-0352">https://doi.org/10.1590/0034-7167-2020-0352</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>23. Amin F, Sharif S, Saeed R, Durranni N, Jilani D. COVID-19 pandemic- knowledge, perception, anxiety and depression among frontline doctors of Pakistan. BMC Psychiatry. 2020;20:459. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12888-020-02864-x">https://doi.org/10.1186/s12888-020-02864-x</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Amin</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Sharif</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Saeed</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Durranni</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Jilani</surname>
+							<given-names>D</given-names>
+						</name>
+					</person-group>
+					<article-title>COVID-19 pandemic- knowledge, perception, anxiety and depression among frontline doctors of Pakistan</article-title>
+					<source>BMC Psychiatry</source>
+					<year>2020</year>
+					<volume>20</volume>
+					<size units="pages">459</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12888-020-02864-x">https://doi.org/10.1186/s12888-020-02864-x</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>24. Alves AP, Pedrosa LAK, Coimbra MAR, Miranzi MAS, Hass VJ. Prevalência de transtornos mentais comuns entre profissionais de saúde. Rev Enferm UERJ. 2015;23(1):64-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.12957/reuerj.2015.8150">https://doi.org/10.12957/reuerj.2015.8150</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Alves</surname>
+							<given-names>AP</given-names>
+						</name>
+						<name>
+							<surname>Pedrosa</surname>
+							<given-names>LAK</given-names>
+						</name>
+						<name>
+							<surname>Coimbra</surname>
+							<given-names>MAR</given-names>
+						</name>
+						<name>
+							<surname>Miranzi</surname>
+							<given-names>MAS</given-names>
+						</name>
+						<name>
+							<surname>Hass</surname>
+							<given-names>VJ</given-names>
+						</name>
+					</person-group>
+					<article-title>Prevalência de transtornos mentais comuns entre profissionais de saúde</article-title>
+					<source>Rev Enferm UERJ</source>
+					<year>2015</year>
+					<volume>23</volume>
+					<issue>1</issue>
+					<fpage>64</fpage>
+					<lpage>69</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.12957/reuerj.2015.8150">https://doi.org/10.12957/reuerj.2015.8150</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>25. Rodrigues E, Rodrigues U, Oliveira L, Laudano R, Nascimento Sobrinho C. [Prevalence of common mental disorders in nursing workers at a hospital of Bahia]. Rev Bras Enferm. 2014;67(2):296-301. Portuguese. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5935/0034-7167.20140040">https://doi.org/10.5935/0034-7167.20140040</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rodrigues</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Rodrigues</surname>
+							<given-names>U</given-names>
+						</name>
+						<name>
+							<surname>Oliveira</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Laudano</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Nascimento</surname>
+							<given-names>C</given-names>
+							<suffix>Sobrinho</suffix>
+						</name>
+					</person-group>
+					<article-title>Prevalence of common mental disorders in nursing workers at a hospital of Bahia</article-title>
+					<source>Rev Bras Enferm</source>
+					<year>2014</year>
+					<volume>67</volume>
+					<issue>2</issue>
+					<fpage>296</fpage>
+					<lpage>301</lpage>
+					<comment>Portuguese</comment>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5935/0034-7167.20140040">https://doi.org/10.5935/0034-7167.20140040</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation>26. Czeisler ME, Lane RI, Petrosky E, Wiley JF, Christensen A, Njai R, et al. Mental health, substance use, and suicidal ideation during the COVID-19 pandemic - United States, June 24-30, 2020. MMWR Morb Mortal Wkly Rep. 2020;69(32):1049- 57. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.15585/mmwr.mm6932a1">https://doi.org/10.15585/mmwr.mm6932a1</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Czeisler</surname>
+							<given-names>ME</given-names>
+						</name>
+						<name>
+							<surname>Lane</surname>
+							<given-names>RI</given-names>
+						</name>
+						<name>
+							<surname>Petrosky</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Wiley</surname>
+							<given-names>JF</given-names>
+						</name>
+						<name>
+							<surname>Christensen</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Njai</surname>
+							<given-names>R</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Mental health, substance use, and suicidal ideation during the COVID-19 pandemic - United States, June 24-30, 2020</article-title>
+					<source>MMWR Morb Mortal Wkly Rep</source>
+					<year>2020</year>
+					<volume>69</volume>
+					<issue>32</issue>
+					<fpage>1049</fpage>
+					<lpage>1057</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.15585/mmwr.mm6932a1">https://doi.org/10.15585/mmwr.mm6932a1</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<mixed-citation>27. Silva MRG, Marcolan JF. Working conditions and depression in hospital emergency service nurses. Rev Bras Enferm. 2020;73 Suppl 1:e20180952. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0034-7167-2018-0952">https://doi.org/10.1590/0034-7167-2018-0952</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Silva</surname>
+							<given-names>MRG</given-names>
+						</name>
+						<name>
+							<surname>Marcolan</surname>
+							<given-names>JF</given-names>
+						</name>
+					</person-group>
+					<article-title>Working conditions and depression in hospital emergency service nurses</article-title>
+					<source>Rev Bras Enferm</source>
+					<year>2020</year>
+					<volume>73</volume>
+					<supplement>Suppl 1</supplement>
+					<elocation-id>e20180952</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0034-7167-2018-0952">https://doi.org/10.1590/0034-7167-2018-0952</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<mixed-citation>28. Li J, Xu J, Zhou H, You H, Wang X, Li Y, et al. Working condition and health status of 6,317 front line public health workers across 5 provinces in China during the COVID-19 epidemic: a cross-sectional study. BMC Public Health. 2021;21:106. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12889-020-10146-0">https://doi.org/10.1186/s12889-020-10146-0</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Li</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Xu</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Zhou</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>You</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Li</surname>
+							<given-names>Y</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Working condition and health status of 6,317 front line public health workers across 5 provinces in China during the COVID-19 epidemic: a cross-sectional study</article-title>
+					<source>BMC Public Health</source>
+					<year>2021</year>
+					<volume>21</volume>
+					<size units="pages">106</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12889-020-10146-0">https://doi.org/10.1186/s12889-020-10146-0</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B29">
+				<label>29</label>
+				<mixed-citation>29. Pouralizadeh M, Bostani Z, Maroufizadeh S, Ghanbari A, Khoshbakht M, Alavi SA, et al. Anxiety and depression and the related factors in nurses of Guilan University of Medical Sciences hospitals during COVID-19: a web-based cross-sectional study. Int J Afr Nurs Sci. 2020;13:100233. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ijans.2020.100233">https://doi.org/10.1016/j.ijans.2020.100233</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pouralizadeh</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Bostani</surname>
+							<given-names>Z</given-names>
+						</name>
+						<name>
+							<surname>Maroufizadeh</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Ghanbari</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Khoshbakht</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Alavi</surname>
+							<given-names>SA</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Anxiety and depression and the related factors in nurses of Guilan University of Medical Sciences hospitals during COVID-19: a web-based cross-sectional study</article-title>
+					<source>Int J Afr Nurs Sci</source>
+					<year>2020</year>
+					<volume>13</volume>
+					<size units="pages">100233</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ijans.2020.100233">https://doi.org/10.1016/j.ijans.2020.100233</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B30">
+				<label>30</label>
+				<mixed-citation>30. Zerbini G, Ebigbo A, Reicherts P, Kunz M, Messman H. Psychosocial burden of healthcare professionals in times of COVID-19: a survey conducted at the University Hospital Augsburg. GMS Ger Med Sci. 2020;18:Doc05. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3205/000281">https://doi.org/10.3205/000281</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Zerbini</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Ebigbo</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Reicherts</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Kunz</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Messman</surname>
+							<given-names>H</given-names>
+						</name>
+					</person-group>
+					<article-title>Psychosocial burden of healthcare professionals in times of COVID-19: a survey conducted at the University Hospital Augsburg</article-title>
+					<source>GMS Ger Med Sci</source>
+					<year>2020</year>
+					<volume>18</volume>
+					<size units="pages">Doc05</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3205/000281">https://doi.org/10.3205/000281</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B31">
+				<label>31</label>
+				<mixed-citation>31. Felice C, Di Tanna GL, Zanus G, Grossi U. Impact of COVID-19 outbreak on healthcare workers in Italy: results from a National E-Survey. J Commun Health. 2020;45(4):675-83. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s10900-020-00845-5">https://doi.org/10.1007/s10900-020-00845-5</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Felice</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Di Tanna</surname>
+							<given-names>GL</given-names>
+						</name>
+						<name>
+							<surname>Zanus</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Grossi</surname>
+							<given-names>U</given-names>
+						</name>
+					</person-group>
+					<article-title>Impact of COVID-19 outbreak on healthcare workers in Italy: results from a National E-Survey</article-title>
+					<source>J Commun Health</source>
+					<year>2020</year>
+					<volume>45</volume>
+					<issue>4</issue>
+					<fpage>675</fpage>
+					<lpage>683</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s10900-020-00845-5">https://doi.org/10.1007/s10900-020-00845-5</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B32">
+				<label>32</label>
+				<mixed-citation>32. Sampaio F, Sequeira C, Teixeira L. Nurses’ mental health during the Covid-19 outbreak: a cross-sectional study. J Occup Environ Med. 2020;62(10):783-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/JOM.0000000000001987">https://doi.org/10.1097/JOM.0000000000001987</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sampaio</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Sequeira</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Teixeira</surname>
+							<given-names>L</given-names>
+						</name>
+					</person-group>
+					<article-title>Nurses’ mental health during the Covid-19 outbreak: a cross-sectional study</article-title>
+					<source>J Occup Environ Med</source>
+					<year>2020</year>
+					<volume>62</volume>
+					<issue>10</issue>
+					<fpage>783</fpage>
+					<lpage>787</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/JOM.0000000000001987">https://doi.org/10.1097/JOM.0000000000001987</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B33">
+				<label>33</label>
+				<mixed-citation>33. VanderWeele TJ. Principles of confounder selection. Eur J Epidemiol. 2019;34(3):211-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s10654-019-00494-6">https://doi.org/10.1007/s10654-019-00494-6</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>VanderWeele</surname>
+							<given-names>TJ</given-names>
+						</name>
+					</person-group>
+					<article-title>Principles of confounder selection</article-title>
+					<source>Eur J Epidemiol</source>
+					<year>2019</year>
+					<volume>34</volume>
+					<issue>3</issue>
+					<fpage>211</fpage>
+					<lpage>219</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s10654-019-00494-6">https://doi.org/10.1007/s10654-019-00494-6</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="financial-disclosure" id="fn2">
+				<p><bold>Funding:</bold> Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul (Fapergs Emergency Notice nº 06/2020 - Science and technology in the fight against COVID-19). Ioannis Bakolis is supported by the NIHR Maudsley Biomedical Research Centre and by the NIHR Collaboration for Leadership in Applied Health Research and Care South London at King’s College Hospital NHS Foundation Trust, King’s College London.</p>
+			</fn>
+		</fn-group>
+	</back>
+</article>

@@ -1,0 +1,2677 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.1" specific-use="sps-1.9" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="nlm-ta">Rev Saude Publica</journal-id>
+			<journal-id journal-id-type="publisher-id">rsp</journal-id>
+			<journal-title-group>
+				<journal-title>Revista de Saúde Pública</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Rev. Saúde Pública</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="ppub">0034-8910</issn>
+			<issn pub-type="epub">1518-8787</issn>
+			<publisher>
+				<publisher-name>Faculdade de Saúde Pública da Universidade de São Paulo</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="other">00232</article-id>
+			<article-id pub-id-type="doi">10.11606/s1518-8787.2022056003291</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Original Article</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Determinants of late neonatal nosocomial infection: a case-control study in Ceará</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-2700-9913</contrib-id>
+					<name>
+						<surname>Lima</surname>
+						<given-names>Carmen Sulinete Suliano da Costa</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-9096-0969</contrib-id>
+					<name>
+						<surname>Rocha</surname>
+						<given-names>Hermano Alexandre Lima</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+					<xref ref-type="aff" rid="aff3"><sup>III</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-4082-1842</contrib-id>
+					<name>
+						<surname>Araújo</surname>
+						<given-names>David Augusto Batista Sá</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>III</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-9777-8406</contrib-id>
+					<name>
+						<surname>Silva</surname>
+						<given-names>Cláudia</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff4"><sup>IV</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>I</label>
+				<institution content-type="orgname">Universidade Fernando Pessoa</institution>
+				<institution content-type="orgdiv1">Faculdade de Ciências e Tecnologia</institution>
+				<addr-line>
+					<named-content content-type="city">Porto</named-content>
+				</addr-line>
+				<country country="PT">Portugal</country>
+				<institution content-type="original">Universidade Fernando Pessoa. Faculdade de Ciências e Tecnologia. Porto, Portugal</institution>
+			</aff>
+			<aff id="aff2">
+				<label>II</label>
+				<institution content-type="orgname">Harvard S,chool of Public Health</institution>
+				<addr-line>
+					<named-content content-type="city">Boston</named-content>
+					<named-content content-type="state">MA</named-content>
+				</addr-line>
+				<country country="US">USA</country>
+				<institution content-type="original">Harvard S,chool of Public Health. Global Health and Population. Boston, MA, USA</institution>
+			</aff>
+			<aff id="aff3">
+				<label>III</label>
+				<institution content-type="orgname">Universidade Federal do Ceará</institution>
+				<institution content-type="orgdiv1">Departamento de Saúde Comunitária</institution>
+				<addr-line>
+					<named-content content-type="city">Fortaleza</named-content>
+					<named-content content-type="state">CE</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Universidade Federal do Ceará. Departamento de Saúde Comunitária. Fortaleza, CE, Brasil</institution>
+			</aff>
+			<aff id="aff4">
+				<label>IV</label>
+				<institution content-type="orgname">Universidade Fernando Pessoa</institution>
+				<institution content-type="orgdiv1">Unidade de Investigação em Energia, Ambiente e Saúde</institution>
+				<addr-line>
+					<named-content content-type="city">Porto</named-content>
+				</addr-line>
+				<country country="PT">Portugal</country>
+				<institution content-type="original">Universidade Fernando Pessoa. Unidade de Investigação em Energia, Ambiente e Saúde. Porto, Portugal</institution>
+			</aff>
+			<author-notes>
+				<corresp id="c01"> Correspondence: Hermano Alexandre Lima Rocha Rua Papi Júnior, 1.223 60430-230 Fortaleza, Ceará, Brasil Email: <email>hermano@ufc.br</email>
+				</corresp>
+				<fn fn-type="con">
+					<p><bold>Authors’ Contribution:</bold> Study design and planning: CSSCL, HALR, CSAGS. Data collection, analysis, and interpretation: CSSCL, HALR, DABSA, CSAGS. Draft development and review: CSSCL, HALR, DABSA, CSAGS. Final draft approval: CSSCL, HALR, DABSA, CSAGS. Public responsibility for the content of the article: CSSCL, HALR, DABSA, CSAGS.</p>
+				</fn>
+				<fn fn-type="conflict">
+					<p><bold>Conflict of Interest:</bold> The authors declare no conflict of interest.</p>
+				</fn>
+			</author-notes>
+			<pub-date date-type="pub" publication-format="electronic">
+				<day>27</day>
+				<month>05</month>
+				<year>2022</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">
+				<year>2022</year>
+			</pub-date>
+			<volume>56</volume>
+			<elocation-id>40</elocation-id>
+			<history>
+				<date date-type="received">
+					<day>28</day>
+					<month>10</month>
+					<year>2020</year>
+				</date>
+				<date date-type="accepted">
+					<day>31</day>
+					<month>05</month>
+					<year>2021</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="en">
+					<license-p> This is an Open Access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. </license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>ABSTRACT</title>
+				<sec>
+					<title>OBJECTIVES</title>
+					<p> To assess the determining factors of late healthcare-associated infections (HAIs) and bacterial multiple drug resistance in neonatal intensive care.</p>
+				</sec>
+				<sec>
+					<title>METHODS</title>
+					<p> This is a case-control study, conducted between January 2013 and December 2017, in a neonatal intensive care unit in the state of Ceará, Brazil. Newborns showing late HAIs were considered cases and those without infection, the control. Variables with p-values ≤ 0.05 in our initial bivariate regressive analysis were included in a non-conditional hierarchical logistic model for multivariate analysis. P-values below 0.01 were considered significant.</p>
+				</sec>
+				<sec>
+					<title>RESULTS</title>
+					<p> Of the 1,132 participants, 427 (37.7%) showed late healthcare-associated infections. Of these, 54 (12.6%), positive blood cultures, of which 14.9% contained multidrug-resistant bacteria. Bivariate analysis showed the protective effect of the feminine phenotype (OR = 0.71; 95%CI: 0.56–0.90) and of gestational ages ≥ 34 weeks (OR = 0.48; 95%CI: 0.30–0.75). In earlier-born preterm infants, late infections were 18 times more likely in those with less than 30 week-gestations (OR = 18.61; 95%CI: 9.84–35.22) and four times higher in those weighing less than 1,500 g (OR = 4.18; 95%CI: 3.12–5.61). Mechanical ventilation increased infection odds by more than seven times (OR = 7.14; 95%CI: 5.26–9.09); as did parenteral nutrition (OR = 5.88; 95%CI: 4.54–7.69); central venous catheters (OR = 10.00; 95%CI: 6.66–16.66); the number of catheters used (OR = 3.93; 95%CI: 3.02–5.12); surgery (OR = 4.00; 95%CI: 2.27–7.14); and hospitalization time (OR = 1.06; 95%CI: 1.05–1.07). The association between preterm infants with less than 30 week-gestations (OR = 5.62; 95%CI: 1.83–17.28); mechanical ventilation (OR = 1.84; 95%CI: 1.26–2.68); central venous catheters (OR = 2.48; 95%CI: 1.40–4.37); and hospitalization time (OR = 1.06; 95%CI: 1.05–1.07) remained significant after adjustment. Among deaths, 41 (55.4%) were associated with late infections.</p>
+				</sec>
+				<sec>
+					<title>CONCLUSION</title>
+					<p> Better practices should be adopted in caring for the premature, as well as in the rational use of procedures, to avoid late healthcare-associated infections, preventable deaths, and risks of bacterial multiple drug resistance and environmental contamination.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="en">
+				<kwd>Infant, Newborn</kwd>
+				<kwd>Infant, Premature</kwd>
+				<kwd>Cross Infection, epidemiology</kwd>
+				<kwd>Drug Resistance, Multiple, Bacterial</kwd>
+				<kwd>Risk Factors</kwd>
+				<kwd>Case-Control Studies</kwd>
+			</kwd-group>
+			<funding-group>
+				<award-group>
+					<funding-source>Funcap</funding-source>
+					<award-id>02/2017</award-id>
+				</award-group>
+				<funding-statement>Funding: Fundação Cearense de Apoio ao Desenvolvimento Científico e Tecnológico (Funcap) - Edital Jovens Doutores – nº 02/2017).</funding-statement>
+			</funding-group>
+			<counts>
+				<fig-count count="2"/>
+				<table-count count="8"/>
+				<equation-count count="0"/>
+				<ref-count count="30"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>INTRODUCTION</title>
+			<p>Healthcare-associated infections (HAIs) are acquired in health services when infectious agents affect susceptible hosts, causing a disease. These infectious agents can be bacteria, viruses, fungi or parasites present in reservoirs, which could be patients, healthcare providers, visitors or hospital surfaces and inanimate objects<sup><xref ref-type="bibr" rid="B1">1</xref></sup> . Failures in environmental cleaning, article and clothing processing, and standard precautions cause surfaces or objects to harbor microorganisms which can lead to cross-contamination<sup><xref ref-type="bibr" rid="B2">2</xref> , <xref ref-type="bibr" rid="B3">3</xref></sup> . The term hospital infection has been gradually replaced by late HAIs, as it is more comprehensive and includes infections related to hospital care, care failures, prevention, diagnosis, and treatment<sup><xref ref-type="bibr" rid="B4">4</xref></sup> .</p>
+			<p>Neonatology defines hospital-derived late HAIs as infections whose diagnostic evidence occurs after hospitalized newborns’ first 48 hours of life<sup><xref ref-type="bibr" rid="B4">4</xref></sup> . These patients are more susceptible to infections, especially if premature and with very low weights since their immune systems are still in development and have inefficient mucous and cutaneous barriers, in addition to their greater exposure to objects used in care, which may be contaminated<sup><xref ref-type="bibr" rid="B3">3</xref> , <xref ref-type="bibr" rid="B5">5</xref></sup> , and to many high-risk therapeutic interventions, such as the use of broad-spectrum invasive and antimicrobial devices which influence colonization processes<sup><xref ref-type="bibr" rid="B6">6</xref> , <xref ref-type="bibr" rid="B7">7</xref></sup> .</p>
+			<p>In recent decades, the survival of premature neonates and patients with malformations previously considered incompatible with life increased. However, prolonging their hospitalization in neonatal intensive care units (NICUs) increased complications, such as late HAIs, which became a limiting factor for their survival<sup><xref ref-type="bibr" rid="B4">4</xref> , <xref ref-type="bibr" rid="B8">8</xref></sup> . According to a report released in 2016 by the United Nations Children’s Fund, infections (sepsis, meningitis, and pneumonia) are responsible for about 21% of neonatal deaths worldwide, representing a serious public health problem<sup><xref ref-type="bibr" rid="B9">9</xref></sup> . Infections relate to birth weight, especially in low birth weight newborns or preterm infants, and are associated with invasive procedures and long hospital stays<sup><xref ref-type="bibr" rid="B10">10</xref></sup> ; the use of a central venous catheter (CVC); and period of mechanical ventilation<sup><xref ref-type="bibr" rid="B4">4</xref> , <xref ref-type="bibr" rid="B11">11</xref></sup> , causing mainly pneumonia and primary bloodstream infections; the latter if hospitalized patients receive catheters<sup><xref ref-type="bibr" rid="B4">4</xref></sup> .</p>
+			<p>In Brazil, 60% of infant mortality occurs in the neonatal period<sup><xref ref-type="bibr" rid="B4">4</xref></sup> , and its main cause are infections<sup><xref ref-type="bibr" rid="B4">4</xref> , <xref ref-type="bibr" rid="B6">6</xref> , <xref ref-type="bibr" rid="B12">12</xref></sup> . Primary bloodstream infections associated with CVC are the main type of infection in Brazilian NICUs<sup><xref ref-type="bibr" rid="B4">4</xref></sup> . In a study of deaths in NICUs in the state of Ceará, Brazil, the main causes of death were HAIs (44%), followed by diseases related to prematurity, respiratory diseases, and asphyxia<sup><xref ref-type="bibr" rid="B13">13</xref></sup> . A Brazilian retrospective cohort study, conducted in Rio de Janeiro between 2008 and 2012, found an association between invasive procedures and infection, but only included 49 very low birth weight newborns<sup><xref ref-type="bibr" rid="B14">14</xref></sup> . A prospective cohort study, conducted in 2013 in a hospital in Porto Alegre, in the state of Rio Grande do Sul, analyzed 30 preterm infants weighing less than 1,500 g and neonatal infections, describing the clinical characteristics and use of technologies in that NICU, but without statistically associating risk factors<sup><xref ref-type="bibr" rid="B15">15</xref></sup> . Another descriptive study, conducted in 2010 in a NICU in the state of Santa Catarina, Brazil found that 45.8% of hospitalized patients had late HAIs, but failed to estimate measures of association<sup><xref ref-type="bibr" rid="B16">16</xref></sup> . Due to their scarcity, studies are needed in both Ceará and Northeastern Brazil which evaluate risk factors for late HAIs, assess this epidemiological reality, improve NICU practices and, consequently, reduce neonatal morbidity and mortality.</p>
+			<p>NICUs often face the empirical treatment of late HAIs. The inadequate use of several antimicrobials, in turn, is the main cause of bacterial resistance to drugs, which may cause the emergence of multidrug-resistant bacteria<sup><xref ref-type="bibr" rid="B17">17</xref></sup> , which would risk their eventual endemicity<sup><xref ref-type="bibr" rid="B18">18</xref></sup> . Since the late 1980s, Latin American NICUs have witnessed an increase in bacteria highly resistant to common antibiotics, mainly due to prolonged patient hospitalization, insertion of invasive devices, and non-compliance with safety and isolation standards<sup><xref ref-type="bibr" rid="B11">11</xref> , <xref ref-type="bibr" rid="B19">19</xref></sup> .</p>
+			<p>This study aimed to evaluate the risk factors associated with late HAIs to assess bacterial flora and its response to antimicrobials, pinpointing the presence or not of multidrug-resistant bacteria to propose strategies to prevent health problems, and reduce the occurrence of preventable deaths and the spread of harmful bacteria in NICUs. Late HAIs are a threat to neonates and the entire in-hospital environment, and constitute a risk of intrapersonal external and environmental contamination.</p>
+		</sec>
+		<sec sec-type="methods">
+			<title>METHODS</title>
+			<p>This is a case-control study, conducted between January 2013 and December 2017, on the characteristics of newborns diagnosed with late HAIs in a NICU of a public reference hospital in the state of Ceará, Brazil.</p>
+			<p>The <italic>Hospital Geral Waldemar Alcântara</italic> (Waldemar Alcântara General Hospital) is a secondary care unit within the public health network and the first public hospital in Northern and Northeastern Brazil to receive a level 2 hospital accreditation from the <italic>Organização Nacional de Acreditação</italic> (National Accreditation Organization). It is a support hospital for the tertiary care network of the state of Ceará, exclusively serving clients of the Unified Health System. It offers the population 336 beds, distributed in medical, surgical, and pediatric units, special care units, adult intensive care units, NICUs, pediatric intensive care units, and medium risk nurseries, as well as outpatient and home care.</p>
+			<p>Our studied population consisted of all the newborns hospitalized in the NICU aged up to incomplete 28 days, whether they were included as cases (with late HAIs) or controls (without late HAIs). All patients admitted for the first time to the NICU with 28 complete days of life or more and those with hospital stays shorter than 48 hours were excluded from our study. All patients who were affected by late HAIs during the study period were considered cases, according to the criteria standardized and notified by the national Hospital Infection Control Service. Those unaffected were considered the control. Data were collected from the medical records of hospitalized patients who met the inclusion criteria, via a checklist elaborated by the researcher.</p>
+			<p>Neonatology defines hospital-derived late HAIs as infections whose diagnostic evidence occurs after hospitalized newborns’ first 48 hours of life<sup><xref ref-type="bibr" rid="B4">4</xref></sup> . The dependent variable in this study was whether NICU patients showed late HAIs.</p>
+			<p>The independent variables collected were grouped into two hierarchical strata:</p>
+			<list list-type="alpha-lower">
+				<list-item>
+					<p>newborns’ clinical data (gestational age, in weeks by the Capurro or New-Ballard Method. Those born before 37 gestational weeks were considered premature. Their ages were stratified in: up to 29 weeks and six days, between 30 and 33 weeks and six days, between 34 and 36 weeks and six days, and greater than or equal to 37 weeks); sex (male or female); birth weight (in grams. Babies born with a weight below 2,500 g were considered with low birth weight, stratified in: less than 1,500 g, between 1,500 g and 2,499 g, and greater than or equal to 2,500 g); and the fifth-minute Apgar index as an indicator of asphyxia (&lt; 7 or ≥ 7 score);</p>
+				</list-item>
+				<list-item>
+					<p>hospital care data [use of mechanical ventilation (yes or no); ventilation period (in days); use of CVC (yes or no); number of CVCs used; CVC use period (in days); parenteral nutrition (yes or no); parenteral nutrition period (in days); surgery (yes or no); and total hospitalization period (in days)] ( <xref ref-type="fig" rid="f01">Figure</xref> ).</p>
+					<p>
+						<fig id="f01">
+							<label>Figure</label>
+							<caption>
+								<title>Hierarchical conceptual structure for the study of late HAIs in a Neonatal Intensive Care Unit.</title>
+							</caption>
+							<graphic xlink:href="1518-8787-rsp-56-40-gf01.tif"/>
+						</fig>
+					</p>
+				</list-item>
+			</list>
+			<p>The type of isolated microorganism (gram-negative, gram-positive, and anaerobic bacteria; or fungi) and the presence or not of multidrug-resistant bacteria were included; in addition to the occurrence of deaths among cases.</p>
+			<p>Initially, a univariate descriptive statistical analysis was performed for medians (continuous variables) and proportions (categorical variables). To estimate the association between dependent and independent variables, bivariate analyses were performed to evaluate the significance of the associations (Chi-square and Kruskal-Wallis tests). Odds Ratio (OR) were used as the association measure. Dependent (late HAIs: present or absent) and independent variables were submitted to bivariate analysis to estimate their OR, and their respective 95% confidence intervals (95%CI) were assessed via logistic regression models. Subsequently, the variables showing p ≤ 0.05 were included in the logistic model for a hierarchical multivariate analysis, according to our theoretical model, and considered as significant if their p-values ≤ 0.01, in the final model, after backward stepwise selection. Data were stored and analyzed by SAS 9.4, SAS Inc, and SPSS (Statistical Package for the Social Sciences) Statistics<sup>®</sup> 26.0, IBM Inc.</p>
+			<p>Our study was approved by the Ethics Committee of the hospital (Protocol 61/2017) and Plataforma Brasil (Opinion 160/2011).</p>
+		</sec>
+		<sec sec-type="results">
+			<title>RESULTS</title>
+			<p>We found 1,132 eligible records, of which we excluded 102 patients hospitalized during our study due to incomplete medical records in relation to variables of care and 22 patients since they died in less than 48 hours of hospitalization. Among the 74 deaths that remained in the analysis (6.5% of the records), 41 (55.4%) were due to HAIs, occurring between three and 114 days of life.</p>
+			<p>Regarding outcomes, 427 records (37.7%) showed late HAIs, of which most were males (59.9%). Gestational ages ranged from 22 to 42 weeks. In total, 62.5% of babies were premature whose gestational ages were predominantly greater than or equal to 30 weeks and less than 34 weeks (37.5%). Birth weight ranged from 415 g to 6,200 g, and 60.7% were underweight (less than 2,500 g). Of the valid scores of the fifth-minute Apgar index, 27% showed a value lower than seven.</p>
+			<p>In the bivariate analysis of newborns’ clinical variables, we found a protective effect against late HAIs in female infants (OR = 0.71; 95%CI: 0.56–0.90) and in premature newborns with gestational ages equal to 34 weeks or above and below 37 weeks (OR = 0.48; 95%CI: 0.30–0.75). The more premature, the greater the association with late HAIs; almost twice as high in preterm infants with gestational ages equal to 30 weeks or above and below 34 weeks (OR = 1.93; 95%CI: 1.45–2.57), and about 18 times higher in preterm infants with gestational ages below 30 weeks (OR = 18.61; 95%CI: 9.84–35.22). Newborns with birth weights below 1,500 g showed about four times as much association with late HAIs (OR = 4.18; 95%CI: 3.12–5.61), and children under 2,500 g showed a risk about twice as high of late HAIs (OR = 2.27; 95%CI: 1.75–2.94). Asphyxia was associated with a risk about three times higher of late HAIs (OR = 2.94; 95%CI: 2.17–3.84) ( <xref ref-type="table" rid="t1">Table 1</xref> ). We observed that all variables show statistically significant associations with late HAIs (p &lt; 0.0001), except sex ( <xref ref-type="table" rid="t1">Table 1</xref> ) and parenteral nutrition period ( <xref ref-type="table" rid="t2">Table 2</xref> ).</p>
+			<p>
+				<table-wrap id="t1">
+					<label>Table 1</label>
+					<caption>
+						<title>Distribution of cases and controls, with respective odds ratios for the variables related to newborns’ clinical data. Ceará, Brazil, 2013 to 2017.</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left" rowspan="2" style="font-weight:normal">
+								</th>
+								<th colspan="2">Late HAIs</th>
+								<th rowspan="2">OR (95%CI)</th>
+								<th rowspan="2">p</th>
+							</tr>
+							<tr>
+								<th>Present (n = 427) Cases</th>
+								<th>Absent (n = 705) Control</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Sex</td>
+								<td align="center">n (%)</td>
+								<td align="center">n (%)</td>
+								<td>
+								</td>
+								<td>0.0065<sup>b</sup></td>
+							</tr>
+							<tr>
+								<td>Feminine</td>
+								<td align="center">193 (45.2%)</td>
+								<td align="center">261 (37.0%)</td>
+								<td align="center">0.71 (0.56–0.90)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Masculine</td>
+								<td align="center">234 (54.8%)</td>
+								<td align="center">444 (63.0%)</td>
+								<td align="center">1.0</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Gestational age classes</td>
+								<td align="center">n (%)</td>
+								<td align="center">n (%)</td>
+								<td>
+								</td>
+								<td>&lt; 0.0001<sup>b</sup></td>
+							</tr>
+							<tr>
+								<td>≥ 37 weeks</td>
+								<td align="center">122 (28.6%)</td>
+								<td align="center">303 (43.0%)</td>
+								<td align="center">1.0</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>34 to 36 weeks</td>
+								<td align="center">29 (6.8%)</td>
+								<td align="center">151 (21.4%)</td>
+								<td align="center">0.48 (0.30–0.75)</td>
+								<td>0.0012<sup>a</sup></td>
+							</tr>
+							<tr>
+								<td>30 to 33 weeks</td>
+								<td align="center">186 (43.6%)</td>
+								<td align="center">239 (33.9%)</td>
+								<td align="center">1.93 (1.45–2.57)</td>
+								<td>&lt; 0.0001<sup>a</sup></td>
+							</tr>
+							<tr>
+								<td>&lt; 30 weeks</td>
+								<td align="center">90 (21.1%)</td>
+								<td align="center">12 (1.7%)</td>
+								<td align="center">18.61 (9.84–35.22)</td>
+								<td>&lt; 0.0001<sup>a</sup></td>
+							</tr>
+							<tr>
+								<td>Birth weight (g)</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>&lt; 0.0001<sup>a</sup></td>
+							</tr>
+							<tr>
+								<td>n</td>
+								<td align="center">427</td>
+								<td align="center">705</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Median (min-max)</td>
+								<td align="center">1,405 (415–5,085)</td>
+								<td align="center">2,370 (550–6,200)</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Birth weight classes</td>
+								<td align="center">n (%)</td>
+								<td align="center">n (%)</td>
+								<td>
+								</td>
+								<td>&lt; 0.0001<sup>b</sup></td>
+							</tr>
+							<tr>
+								<td>&gt; 2,500g</td>
+								<td align="center">118 (27.6%)</td>
+								<td align="center">327 (46.4%)</td>
+								<td align="center">1.0</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Between 1,500g and 2,499g</td>
+								<td align="center">78 (18.3%)</td>
+								<td align="center">225 (31.9%)</td>
+								<td align="center">0.96 (0.69–1.34)</td>
+								<td>0.8131<sup>a</sup></td>
+							</tr>
+							<tr>
+								<td>&lt; 1,500g</td>
+								<td align="center">231 (54.1%)</td>
+								<td align="center">153 (21.7%)</td>
+								<td align="center">4.18 (3.12–5.61)</td>
+								<td>&lt; 0.0001<sup>a</sup></td>
+							</tr>
+							<tr>
+								<td>Underweight</td>
+								<td align="center">n (%)</td>
+								<td align="center">n (%)</td>
+								<td>
+								</td>
+								<td>&lt; 0.0001<sup>b</sup></td>
+							</tr>
+							<tr>
+								<td>&gt; 2,500g</td>
+								<td align="center">118 (27.6%)</td>
+								<td align="center">327 (46.4%)</td>
+								<td align="center">1.0</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>&lt; 2,500g</td>
+								<td align="center">309 (72.4%)</td>
+								<td align="center">378 (53.6%)</td>
+								<td align="center">2.27 (1.75–2.94)</td>
+								<td>&lt; 0.0001<sup>a</sup></td>
+							</tr>
+							<tr>
+								<td>Fifth-minute Apgar &lt; 8</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>&lt; 0.0001<sup>a</sup></td>
+							</tr>
+							<tr>
+								<td>n</td>
+								<td align="center">385</td>
+								<td align="center">652</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Median (min-max)</td>
+								<td align="center">7.0 (0.0–10.0)</td>
+								<td align="center">8.0 (1.0–10.0)</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Asphyxia</td>
+								<td align="center">n (%)</td>
+								<td align="center">n (%)</td>
+								<td>
+								</td>
+								<td>&lt; 0.0001<sup>b</sup></td>
+							</tr>
+							<tr>
+								<td>Omitted values</td>
+								<td align="center">42</td>
+								<td align="center">53</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Apgar ≥ 7</td>
+								<td align="center">229 (59.5%)</td>
+								<td align="center">528 (81.0%)</td>
+								<td align="center">1.0</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Apgar &lt; 7</td>
+								<td align="center">156 (40.5%)</td>
+								<td align="center">124 (19.0%)</td>
+								<td align="center">2.94 (2.17–3.84)</td>
+								<td>&lt; 0.0001<sup>a</sup></td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN1">
+							<p><sup>a</sup> Kruskal-Wallis p-value.</p>
+						</fn>
+						<fn id="TFN2">
+							<p><sup>b</sup> Chi-square p-value.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>
+				<table-wrap id="t2">
+					<label>Table 2</label>
+					<caption>
+						<title>Distribution of cases and controls, with respective odds ratios for the variables related to newborns’ clinical data. Ceará, Brazil, 2013 to 2017.</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left" rowspan="2" style="font-weight:normal">
+								</th>
+								<th colspan="2">Late HAIs</th>
+								<th rowspan="2">OR (95%CI)</th>
+								<th rowspan="2">p</th>
+							</tr>
+							<tr>
+								<th>Present (n = 427) Cases</th>
+								<th>Absent (n = 705) Control</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Use of mechanical ventilation</td>
+								<td align="center">n (%)</td>
+								<td align="center">n (%)</td>
+								<td>
+								</td>
+								<td>&lt; 0.0001<sup>b</sup></td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">76 (17.8%)</td>
+								<td align="center">426 (60.4%)</td>
+								<td align="center">1.0</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">351 (82.2%)</td>
+								<td align="center">279 (39.6%)</td>
+								<td align="center">7.14 (5.26–9.09)</td>
+								<td>&lt; 0.0001<sup>a</sup></td>
+							</tr>
+							<tr>
+								<td>Ventilation period (days)</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td align="center">1.15 (1.11–1.20)</td>
+								<td>&lt; 0.0001<sup>a</sup></td>
+							</tr>
+							<tr>
+								<td>n</td>
+								<td align="center">351</td>
+								<td align="center">279</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Median (min-max)</td>
+								<td align="center">9 (1–88)</td>
+								<td align="center">4 (1–45)</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Use of parenteral nutrition</td>
+								<td align="center">n (%)</td>
+								<td align="center">n (%)</td>
+								<td>
+								</td>
+								<td>&lt; 0.0001<sup>b</sup></td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">117 (27.4%)</td>
+								<td align="center">484 (68.7%)</td>
+								<td align="center">1.0</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">310 (72.6%)</td>
+								<td align="center">221 (31.3%)</td>
+								<td align="center">5.88 (4.54–7.69)</td>
+								<td>&lt; 0.0001<sup>a</sup></td>
+							</tr>
+							<tr>
+								<td>Parenteral nutrition time (days)</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td align="center">1.08 (1.05–1.12)</td>
+								<td>0.0008<sup>a</sup></td>
+							</tr>
+							<tr>
+								<td>n</td>
+								<td align="center">310</td>
+								<td align="center">221</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Median (min-max)</td>
+								<td align="center">6 (1–59)</td>
+								<td align="center">6 (1–27)</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Use of central catheter</td>
+								<td align="center">n (%)</td>
+								<td align="center">n (%)</td>
+								<td>
+								</td>
+								<td>&lt; 0.0001<sup>b</sup></td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">21 (4.9%)</td>
+								<td align="center">246 (34.9%)</td>
+								<td align="center">1.0</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">406 (95.1%)</td>
+								<td align="center">459 (65.1%)</td>
+								<td align="center">10.00 (6.66–16.66)</td>
+								<td>&lt; 0.0001<sup>a</sup></td>
+							</tr>
+							<tr>
+								<td>Central catheter period (days)</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td align="center">1.09 (1.07–1.11)</td>
+								<td>&lt; 0.0001<sup>a</sup></td>
+							</tr>
+							<tr>
+								<td>n</td>
+								<td align="center">406</td>
+								<td align="center">459</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Median (min-max)</td>
+								<td align="center">10 (1–93)</td>
+								<td align="center">7 (1–34)</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Number of catheters</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td align="center">3.93 (3.02–5.12)</td>
+								<td>&lt; 0.0001<sup>a</sup></td>
+							</tr>
+							<tr>
+								<td>n</td>
+								<td align="center">406</td>
+								<td align="center">459</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Median (min-max)</td>
+								<td align="center">2 (1–5)</td>
+								<td align="center">1 (1–3)</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Surgery</td>
+								<td align="center">n (%)</td>
+								<td align="center">n (%)</td>
+								<td>
+								</td>
+								<td>&lt; 0.0001<sup>b</sup></td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">386 (90.4%)</td>
+								<td align="center">687 (97.4%)</td>
+								<td align="center">1.0</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">41 (9.6%)</td>
+								<td align="center">18 (2.6%)</td>
+								<td align="center">4.00 (2.27–7.14)</td>
+								<td>&lt; 0.0001<sup>a</sup></td>
+							</tr>
+							<tr>
+								<td>Hospitalization period (days)</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td align="center">1.06 (1.05–1.07)</td>
+								<td>&lt; 0.0001<sup>a</sup></td>
+							</tr>
+							<tr>
+								<td>n</td>
+								<td align="center">427</td>
+								<td align="center">705</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Median (min-max)</td>
+								<td align="center">50 (3–198)</td>
+								<td align="center">14 (2–100)</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Death</td>
+								<td align="center">n (%)</td>
+								<td align="center">n (%)</td>
+								<td>
+								</td>
+								<td>&lt; 0.0001<sup>b</sup></td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">368 (86.2%)</td>
+								<td align="center">690 (97.9%)</td>
+								<td align="center">1.0</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">59 (13.8%)</td>
+								<td align="center">15 (2.1%)</td>
+								<td align="center">7.14 (4.16–12.50)</td>
+								<td>&lt; 0.0001<sup>a</sup></td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN3">
+							<p><sup>a</sup> Kruskal-Wallis p-value.</p>
+						</fn>
+						<fn id="TFN4">
+							<p><sup>b</sup> Chi-square p-value.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>By analyzing clinical procedures, we found that 55.7% of patients received mechanical ventilation for a period ranging from one to 88 days and about half remained intubated for up to five days; 46.9%, parenteral nutrition; and 76.4%, CVC. Most cases (62.2%) received one catheter and 31.3%, two. We also found 59 surgery records (5.2%). Total hospitalization time (including the period at an intermediate risk unit) was up to 21 days for 50% of newborns, ranging from two to 198 days ( <xref ref-type="table" rid="t2">Table 2</xref> ).</p>
+			<p>By assessing these associations, we found that mechanical ventilation increased the risk of late HAIs by about seven times (OR = 7.14; 95%CI: 5.26–9.09); each day of mechanical ventilation increased the chances of infection by 15% (OR = 1.15; 95%CI: 1.11–1.20); whereas parenteral nutrition increased these chances sixfold (OR = 5.88; 95%CI: 4.54–7.69); as did parenteral nutrition period (in days) (OR = 1.08; 95%CI: 1.05–1.12). Moreover, CVCs increased the chance of late HAIs tenfold (OR = 10.00; 95%CI: 6.66–16.66), with each day with catheters increasing this chance by 9% (OR = 1.09; 95%CI: 1.07–1.11). This association also showed a gradient, it increased with the number of CVCs used (OR = 3.93; 95%CI: 3.02–5.12). Surgery was associated with a fourfold higher chance of HAIs (OR = 4.00; 95%CI: 2.27–7.14) and each additional day of hospitalization increased the chances of late HAIs by 6% (OR = 1.06; 95%CI: 1.05–1.07) ( <xref ref-type="table" rid="t2">Table 2</xref> ).</p>
+			<p>Of the cases analyzed, 164 had two or more infectious episodes, thus distributed: 50 patients had two late HAIs; 20, three; 10, four; six, five; two, six; and one, seven late HAIs. Among those reported with late HAIs, 54 (12.6%) showed a positive blood culture record for bacterial infections (n = 47); seven (14.9%), for multidrug-resistant bacteria; and seven (13%), for fungi. <xref ref-type="table" rid="t3">Table 3</xref> describes the bacteria and/or fungi found.</p>
+			<p>
+				<table-wrap id="t3">
+					<label>Table 3</label>
+					<caption>
+						<title>Results of positive blood cultures in late HAIs in the studied NICU. Ceará, Brazil, 2013 to 2017.</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left">Blood culture</th>
+								<th>Absolute frequency (n)</th>
+								<th>Relative frequency (%)</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Gram-negative bacteria</td>
+								<td align="center">26</td>
+								<td align="center">48.1</td>
+							</tr>
+							<tr>
+								<td>Gram-positive bacteria</td>
+								<td align="center">21</td>
+								<td align="center">38.9</td>
+							</tr>
+							<tr>
+								<td>Fungi</td>
+								<td align="center">7</td>
+								<td align="center">13.0</td>
+							</tr>
+							<tr>
+								<td>Total</td>
+								<td align="center">54</td>
+								<td align="center">100.0</td>
+							</tr>
+						</tbody>
+					</table>
+				</table-wrap>
+			</p>
+			<p>After adjustment in the final model, the hierarchical multivariate analysis of outcomes showed significant associations, such as gestational age lower than 30 weeks (OR = 5.62; 95%CI: 1.83–17.28), mechanical ventilation (OR = 1.84; 95%CI: 1.26–2.68), CVC (OR = 2.48; 95%CI: 1.40–4.37), and hospitalization time (OR = 1.06; 95%CI: 1.05–1.07) ( <xref ref-type="table" rid="t4">Table 4</xref> ).</p>
+			<p>
+				<table-wrap id="t4">
+					<label>Table 4</label>
+					<caption>
+						<title>Final model, according to clinical variables and procedures used during hospitalization, with respective odds ratios and 95%CI. Ceará, Brazil, 2013 to 2017.</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left" style="font-weight:normal">
+								</th>
+								<th>Odds ratio (95%CI)</th>
+								<th>p</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Premature &lt; 30 weeks</td>
+								<td align="center">5.62 (1.83–17.28)</td>
+								<td align="center">0.003<sup>a</sup></td>
+							</tr>
+							<tr>
+								<td>Use of mechanical ventilation</td>
+								<td align="center">1.84 (1.26–2.68)</td>
+								<td align="center">0.001<sup>b</sup></td>
+							</tr>
+							<tr>
+								<td>Use of central catheter</td>
+								<td align="center">2.48 (1.40–4.37)</td>
+								<td align="center">0.002<sup>b</sup></td>
+							</tr>
+							<tr>
+								<td>Total length of stay</td>
+								<td align="center">1.06 (1.05–1.07)</td>
+								<td align="center">&lt; 0.0001<sup>a</sup></td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN5">
+							<p><sup>a</sup> Covariate Wald p-value.</p>
+						</fn>
+						<fn id="TFN6">
+							<p><sup>b</sup> Type 3 Wald p-value.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+		</sec>
+		<sec sec-type="discussion">
+			<title>DISCUSSION</title>
+			<p>In this study, we observed a 37.7% occurrence of late HAIs. We also found that chances of infection increase according to how early babies were born, the need for mechanical ventilation and CVCs, and hospitalization periods.</p>
+			<p>The prevalence of late HAIs was similar to other studies: Egypt, 38.5%<sup><xref ref-type="bibr" rid="B20">20</xref></sup> ; Brazil, 34%<sup><xref ref-type="bibr" rid="B6">6</xref></sup> ; and India, 31%<sup><xref ref-type="bibr" rid="B21">21</xref></sup> ; but much higher than in Taiwan, 11.4%<sup><xref ref-type="bibr" rid="B22">22</xref></sup> and in a European multicenter study, 10.7%<sup><xref ref-type="bibr" rid="B23">23</xref></sup> . This outcome was associated with prematurity among children with gestational ages under 30 weeks, use of mechanical ventilation, CVC, and hospitalization time.</p>
+			<p>The predominant infectious agents in this study were gram-negative (48.1%) and gram-positive bacteria (38.9%), and fungi (13%); a predominance also observed in an Indian study, which found gram-negative (61%) and gram-positive bacteria (39%)<sup><xref ref-type="bibr" rid="B24">24</xref></sup> ; in an Iranian study, which observed gram-negative (40%) and gram-positive bacteria (20.7%); and fungi (6.7%)<sup><xref ref-type="bibr" rid="B25">25</xref></sup> ; and in an Jordanian study, which reported gram-negative (62%) and gram-positive bacteria (31%), fungi (7%)<sup><xref ref-type="bibr" rid="B26">26</xref></sup> , and high bacterial resistance (around 39%)<sup><xref ref-type="bibr" rid="B27">27</xref></sup> ; higher than in this study (14.9%).</p>
+			<p>Our bivariate analysis showed a significant association between HAIs and gestational age in preterm infants, in which children with gestational ages below 30 weeks had an 18-fold greater chance of infection, a value which remained in the final model after adjustments with other variables. Newborns are already naturally susceptible to infections due to the immaturity of their immune defenses<sup><xref ref-type="bibr" rid="B3">3</xref></sup> . In the presence of other factors, such as prematurity and/or low weight, complication risks increase, as does the need for more invasive procedures and longer hospitalization periods. Due to alveolar surfactant deficiency<sup><xref ref-type="bibr" rid="B28">28</xref></sup> , preterm infants often show pulmonary immaturity, characterized as respiratory distress syndrome (also called hyaline membrane disease - RDS). Due to RDS, mechanical ventilation is a common procedure to assist lungs in maintaining gas exchange<sup><xref ref-type="bibr" rid="B29">29</xref></sup> . Regardless of weight, the earlier the babies are born, the greater the RDS severity and the need for invasive procedures, which increase the risk of HAIs. As there is often a direct relationship between lower weight and prematurity, statistical analyses may confound these variables.</p>
+			<p>In this study, late HAIs was associated with CVC and mechanical ventilation, which also occurred in other studies, although with higher values: CVC (OR = 4.32; 95%CI: 1.95–9.56) and mechanical ventilation (OR = 3.42; 95%CI: 2.17–5.41)<sup><xref ref-type="bibr" rid="B6">6</xref></sup> . A cross-sectional study, conducted between 2013 and 2015 in Rio Grande do Sul, found that mechanical ventilation and surgery showed a statistically significant association with HAIs in neonates with positive blood cultures (47.97% of those infected)<sup><xref ref-type="bibr" rid="B10">10</xref></sup> . Another study, conducted from 2001 to 2005 in Londrina, Paraná State, observed a relevant association with intubation and use of CVC<sup><xref ref-type="bibr" rid="B21">21</xref></sup> .</p>
+			<p>A meta-analysis of 22 studies (with 2,270 infected and 21,605 healthy newborns), published in 2019<sup><xref ref-type="bibr" rid="B30">30</xref></sup> , associated as risks for late HAIs: weight &lt; 2,500 g (RR = 3.44; 95%CI: 2.31–5.11), prematurity (RR = 3.85; 95%CI: 1.87–7.92), mechanical ventilation (RR = 3.16; 95%CI: 2.21–4.50), and asphyxia (RR = 1.68; 95%CI: 1.04–2.71). This study also associated HAIs with prematurity and mechanical ventilation. An Indian study found an association with prematurity (OR = 3.05; 95%CI: 1.94–9.88), CVC (OR = 15.11; 95%CI: 3.40–67.01), mechanical ventilation (OR = 8.94; 95%CI: 1.32–60.31), and NICU stays greater than 10 days (OR = 4.09; 95%CI: 1.05–16.70)<sup><xref ref-type="bibr" rid="B25">25</xref></sup> , as did this study, although with lower values. The use of intravascular catheters has become, in recent years, indispensable in intensive care since it is a high-output vascular access<sup><xref ref-type="bibr" rid="B18">18</xref></sup> , in addition to the difficulty of peripheral vascular access in newborns. The disadvantage of central accesses is the increased risk of local or systemic infection, which may cause bloodstream infections associated with CVC<sup><xref ref-type="bibr" rid="B18">18</xref> ,31</sup>. As newborns often require more than one central access, care increases the risk of HAIs<sup><xref ref-type="bibr" rid="B18">18</xref></sup> . As newborns require longer hospital stays and more invasive procedures, such as central catheters and mechanical ventilation, for example, care also increases the risk of HAIs.</p>
+			<p>Though the results found in this study are consistent with the national and international literature, there are noteworthy limitations. The retrospective use of secondary data can lead to incomplete registers in the medical records, especially in relation to newborns’ data and the time of use of invasive procedures. This was circumvented by reviewing their entire hospitalization via live birth records, inter-hospital transfer reports, and the daily evolution of the entire multidisciplinary team.</p>
+			<p>We found that late HAIs are still very frequent in the studied NICU, that preterm infants are still a very vulnerable group to infection risks, and that invasive procedures, essential for most critically ill neonates, should be carefully prescribed.</p>
+		</sec>
+		<sec sec-type="conclusions">
+			<title>CONCLUSIONS</title>
+			<p>We conclude that, although it is impossible to avoid invasive procedures in critical neonates, insertion, installation, and maintenance of these devices should be rigorously reviewed with hospital infection control and care safety committees, following updated and vigilant protocols. The judicious use of antimicrobials, administered to prevent the emergence of multidrug-resistant bacteria is also a priority action. Regarding prematurity, the best strategy is to prevent premature deliveries since the intrauterine medium, with adequate prenatal follow-up, is most often the safest measure to maintain fetuses in the womb for as long as possible, until near or up to the gestational age of term.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>REFERENCES</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1 Organização Pan-Americana da Saúde, Centro Latino-Americano de Perinatologia, Saúde da Mulher e Reprodutiva. Prevenção de infecções relacionadas à assistência à saúde em neonatologia. Montevidéu (UY): OPAS; CLAP; 2016. (CLAP/SMR Publicação Científica; 1613-03).</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>Organização Pan-Americana da Saúde</collab>
+						<collab>Centro Latino-Americano de Perinatologia</collab>
+						<collab>Saúde da Mulher e Reprodutiva</collab>
+					</person-group>
+					<source>Prevenção de infecções relacionadas à assistência à saúde em neonatologia</source>
+					<publisher-loc>Montevidéu (UY)</publisher-loc>
+					<publisher-name>OPAS; CLAP</publisher-name>
+					<year>2016</year>
+					<comment>CLAP/SMR Publicação Científica; 1613-03</comment>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2 Ferreira AM, Barcelos LS, Rigotti MA, Andrade D, Andreotti JT, Almeida MG. Superfícies do ambiente hospitalar: um possível reservatório de micro-organismos subestimado? Revisão integrativa. Rev Enferm UFPE. 2013;7(5 nº espec):1549-60. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5205/reuol.4134-32743-1-SM-1.0705esp201310">https://doi.org/10.5205/reuol.4134-32743-1-SM-1.0705esp201310</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ferreira</surname>
+							<given-names>AM</given-names>
+						</name>
+						<name>
+							<surname>Barcelos</surname>
+							<given-names>LS</given-names>
+						</name>
+						<name>
+							<surname>Rigotti</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Andrade</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Andreotti</surname>
+							<given-names>JT</given-names>
+						</name>
+						<name>
+							<surname>Almeida</surname>
+							<given-names>MG</given-names>
+						</name>
+					</person-group>
+					<article-title>Superfícies do ambiente hospitalar: um possível reservatório de micro-organismos subestimado? Revisão integrativa</article-title>
+					<source>Rev Enferm UFPE</source>
+					<year>2013</year>
+					<volume>7</volume>
+					<issue>5</issue>
+					<fpage>1549</fpage>
+					<lpage>1560</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5205/reuol.4134-32743-1-SM-1.0705esp201310">https://doi.org/10.5205/reuol.4134-32743-1-SM-1.0705esp201310</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3 Paula AO, Salge AKM, Palos MAP. Infecciones relacionadas a la asistencia de la salud en unidades de terapia intensiva neonatal: una revisión integradora. Enferm Glob. 2017;(45):508-22. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.6018/eglobal.16.1.238041">https://doi.org/10.6018/eglobal.16.1.238041</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Paula</surname>
+							<given-names>AO</given-names>
+						</name>
+						<name>
+							<surname>Salge</surname>
+							<given-names>AKM</given-names>
+						</name>
+						<name>
+							<surname>Palos</surname>
+							<given-names>MAP</given-names>
+						</name>
+					</person-group>
+					<article-title>Infecciones relacionadas a la asistencia de la salud en unidades de terapia intensiva neonatal: una revisión integradora</article-title>
+					<source>Enferm Glob</source>
+					<year>2017</year>
+					<issue>45</issue>
+					<fpage>508</fpage>
+					<lpage>522</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.6018/eglobal.16.1.238041">https://doi.org/10.6018/eglobal.16.1.238041</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4 Agência Nacional de Vigilância Sanitária, Gerência de Vigilância e Monitoramento em Serviços de Saúde, Gerência Geral de Tecnologia em Serviços de Saúde. Critérios diagnósticos de infecção relacionada à Assistência à Saúde – Neonatologia. Brasília, DF: Anvisa; 2017. (Caderno 3).</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>Agência Nacional de Vigilância Sanitária</collab>
+						<collab>Gerência de Vigilância e Monitoramento em Serviços de Saúde</collab>
+						<collab>Gerência Geral de Tecnologia em Serviços de Saúde</collab>
+					</person-group>
+					<source>Critérios diagnósticos de infecção relacionada à Assistência à Saúde – Neonatologia</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<publisher-name>Anvisa</publisher-name>
+					<year>2017</year>
+					<comment>Caderno 3</comment>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5 Baptista AB, Ramos JMM, Neves RR, Souza DF, Pimenta RS. Diversity of environmental and patients bacteria in the Hospital Geral de Palmas-TO. J Bioenergy Food Sci. 2015;2(4):160-4. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.18067/jbfs.v2i4.63">https://doi.org/10.18067/jbfs.v2i4.63</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Baptista</surname>
+							<given-names>AB</given-names>
+						</name>
+						<name>
+							<surname>Ramos</surname>
+							<given-names>JMM</given-names>
+						</name>
+						<name>
+							<surname>Neves</surname>
+							<given-names>RR</given-names>
+						</name>
+						<name>
+							<surname>Souza</surname>
+							<given-names>DF</given-names>
+						</name>
+						<name>
+							<surname>Pimenta</surname>
+							<given-names>RS</given-names>
+						</name>
+					</person-group>
+					<article-title>Diversity of environmental and patients bacteria in the Hospital Geral de Palmas-TO</article-title>
+					<source>J Bioenergy Food Sci</source>
+					<year>2015</year>
+					<volume>2</volume>
+					<issue>4</issue>
+					<fpage>160</fpage>
+					<lpage>164</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.18067/jbfs.v2i4.63">https://doi.org/10.18067/jbfs.v2i4.63</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6 Távora ACVCF, Castro AB, Militão MAM, Girão JE, Ribeiro KCB, Távora LGF. Risk factors for nosocomial infection in a Brazilian neonatal intensive care unit. Braz J Infect Dis. 2008;12(1):75-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S1413-86702008000100016">https://doi.org/10.1590/S1413-86702008000100016</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Távora</surname>
+							<given-names>ACVCF</given-names>
+						</name>
+						<name>
+							<surname>Castro</surname>
+							<given-names>AB</given-names>
+						</name>
+						<name>
+							<surname>Militão</surname>
+							<given-names>MAM</given-names>
+						</name>
+						<name>
+							<surname>Girão</surname>
+							<given-names>JE</given-names>
+						</name>
+						<name>
+							<surname>Ribeiro</surname>
+							<given-names>KCB</given-names>
+						</name>
+						<name>
+							<surname>Távora</surname>
+							<given-names>LGF</given-names>
+						</name>
+					</person-group>
+					<article-title>Risk factors for nosocomial infection in a Brazilian neonatal intensive care unit</article-title>
+					<source>Braz J Infect Dis</source>
+					<year>2008</year>
+					<volume>12</volume>
+					<issue>1</issue>
+					<fpage>75</fpage>
+					<lpage>79</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S1413-86702008000100016">https://doi.org/10.1590/S1413-86702008000100016</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7 Kim JK, Chang YS, Sung S, Ahn SY, Park WS. Trends in the incidence and associated factors of late-onset sepsis associated with improved survival in extremely preterm infants born at 23-26 weeks’ gestation: a retrospective study. BMC Pediatr. 2018;18(1):172. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12887-018-1130-y">https://doi.org/10.1186/s12887-018-1130-y</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kim</surname>
+							<given-names>JK</given-names>
+						</name>
+						<name>
+							<surname>Chang</surname>
+							<given-names>YS</given-names>
+						</name>
+						<name>
+							<surname>Sung</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Ahn</surname>
+							<given-names>SY</given-names>
+						</name>
+						<name>
+							<surname>Park</surname>
+							<given-names>WS</given-names>
+						</name>
+					</person-group>
+					<article-title>Trends in the incidence and associated factors of late-onset sepsis associated with improved survival in extremely preterm infants born at 23-26 weeks’ gestation: a retrospective study</article-title>
+					<source>BMC Pediatr</source>
+					<year>2018</year>
+					<volume>18</volume>
+					<issue>1</issue>
+					<size units="pages">172</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12887-018-1130-y">https://doi.org/10.1186/s12887-018-1130-y</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8 Ponce CF, Madrid WA, Pineda IJ. Agentes bacterianos en la sepsis neonatal. Cuidados Intensivos Neonatales Hospital Mario Catarino Rivas. Acta Pediatr Hondur. 2017;6(2):479-85. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5377/pediatrica.v6i2.3538">https://doi.org/10.5377/pediatrica.v6i2.3538</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ponce</surname>
+							<given-names>CF</given-names>
+						</name>
+						<name>
+							<surname>Madrid</surname>
+							<given-names>WA</given-names>
+						</name>
+						<name>
+							<surname>Pineda</surname>
+							<given-names>IJ</given-names>
+						</name>
+					</person-group>
+					<article-title>Agentes bacterianos en la sepsis neonatal. Cuidados Intensivos Neonatales Hospital Mario Catarino Rivas</article-title>
+					<source>Acta Pediatr Hondur</source>
+					<year>2017</year>
+					<volume>6</volume>
+					<issue>2</issue>
+					<fpage>479</fpage>
+					<lpage>485</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5377/pediatrica.v6i2.3538">https://doi.org/10.5377/pediatrica.v6i2.3538</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9 United Nations Inter-agency Group for Child Mortality Estimation (UN IGME). Levels and trends in child mortality: report 2017, estimates developed by the UN Inter-agency Group for Child Mortality Estimation. New York: United Nations Children’s Fund; 2017.</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>United Nations Inter-agency Group for Child Mortality Estimation (UN IGME)</collab>
+					</person-group>
+					<source>Levels and trends in child mortality: report 2017, estimates developed by the UN Inter-agency Group for Child Mortality Estimation</source>
+					<publisher-loc>New York</publisher-loc>
+					<publisher-name>United Nations Children’s Fund</publisher-name>
+					<year>2017</year>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10 Feil AC, Kurtz T, Abreu PDO, Zanotto JC, Selbach LS, Bianchi MF, et al. Sepse tardia em Unidade de Tratamento Intensivo Neonatal. Rev Epidemiol Control Infecç. 2018;8(4):4506. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.17058/reci.v8i4.11581">https://doi.org/10.17058/reci.v8i4.11581</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Feil</surname>
+							<given-names>AC</given-names>
+						</name>
+						<name>
+							<surname>Kurtz</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Abreu</surname>
+							<given-names>PDO</given-names>
+						</name>
+						<name>
+							<surname>Zanotto</surname>
+							<given-names>JC</given-names>
+						</name>
+						<name>
+							<surname>Selbach</surname>
+							<given-names>LS</given-names>
+						</name>
+						<name>
+							<surname>Bianchi</surname>
+							<given-names>MF</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Sepse tardia em Unidade de Tratamento Intensivo Neonatal</article-title>
+					<source>Rev Epidemiol Control Infecç</source>
+					<year>2018</year>
+					<volume>8</volume>
+					<issue>4</issue>
+					<size units="pages">4506</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.17058/reci.v8i4.11581">https://doi.org/10.17058/reci.v8i4.11581</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11 Restrepo JL, Ospina ICM, Jaramillo FLO. Factores de riesgo asociados a infecciones por bacterias multirresistentes derivadas de la atención en salud en una institución hospitalaria de la ciudad de Medellín 2011-2014. Infectio. 2016;20(2):77-83. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.infect.2015.09.002">https://doi.org/10.1016/j.infect.2015.09.002</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Restrepo</surname>
+							<given-names>JL</given-names>
+						</name>
+						<name>
+							<surname>Ospina</surname>
+							<given-names>ICM</given-names>
+						</name>
+						<name>
+							<surname>Jaramillo</surname>
+							<given-names>FLO</given-names>
+						</name>
+					</person-group>
+					<article-title>Factores de riesgo asociados a infecciones por bacterias multirresistentes derivadas de la atención en salud en una institución hospitalaria de la ciudad de Medellín 2011-2014</article-title>
+					<source>Infectio</source>
+					<year>2016</year>
+					<volume>20</volume>
+					<issue>2</issue>
+					<fpage>77</fpage>
+					<lpage>83</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.infect.2015.09.002">https://doi.org/10.1016/j.infect.2015.09.002</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12 França E, Lansky S. Mortalidade infantil neonatal no Brasil: situação, tendências e perspectivas. In: Anais do 16. Encontro Nacional de Estudos Populacionais; 29 set – 3 out 2008; Caxambu, MG. Belo Horizonte, MG: Associação Brasileira de Estudos Populacionais; 2008. p.1-29.</mixed-citation>
+				<element-citation publication-type="confproc">
+					<person-group person-group-type="author">
+						<name>
+							<surname>França</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Lansky</surname>
+							<given-names>S</given-names>
+						</name>
+					</person-group>
+					<source>Mortalidade infantil neonatal no Brasil: situação, tendências e perspectivas</source>
+					<comment>Anais do</comment>
+					<conf-name>16. Encontro Nacional de Estudos Populacionais</conf-name>
+					<conf-date>29 set – 3 out 2008</conf-date>
+					<conf-loc>Caxambu, MG</conf-loc>
+					<publisher-loc>Belo Horizonte, MG</publisher-loc>
+					<publisher-name>Associação Brasileira de Estudos Populacionais</publisher-name>
+					<year>2008</year>
+					<fpage>1</fpage>
+					<lpage>29</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13 Lima CSSC. Fatores de risco para óbito infantil em Unidade de Terapia Intensiva Neonatal do Estado do Ceará: estudo caso-Control [dissertação]. Fortaleza, CE: Universidade de Fortaleza - UNIFOR; 2011.</mixed-citation>
+				<element-citation publication-type="thesis">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lima</surname>
+							<given-names>CSSC</given-names>
+						</name>
+					</person-group>
+					<source>Fatores de risco para óbito infantil em Unidade de Terapia Intensiva Neonatal do Estado do Ceará: estudo caso-Control</source>
+					<comment>dissertação].</comment>
+					<publisher-loc>Fortaleza, CE</publisher-loc>
+					<publisher-name>Universidade de Fortaleza - UNIFOR</publisher-name>
+					<year>2011</year>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14 Medeiros FVA, Alves VH, Valete COS, Paiva ED, Rodrigues DP. A correlação entre procedimentos assistenciais invasivos e a ocorrência de sepse neonatal. Acta Paul Enferm. 2016;29(5):573-81. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1982-0194201600079">https://doi.org/10.1590/1982-0194201600079</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Medeiros</surname>
+							<given-names>FVA</given-names>
+						</name>
+						<name>
+							<surname>Alves</surname>
+							<given-names>VH</given-names>
+						</name>
+						<name>
+							<surname>Valete</surname>
+							<given-names>COS</given-names>
+						</name>
+						<name>
+							<surname>Paiva</surname>
+							<given-names>ED</given-names>
+						</name>
+						<name>
+							<surname>Rodrigues</surname>
+							<given-names>DP</given-names>
+						</name>
+					</person-group>
+					<article-title>A correlação entre procedimentos assistenciais invasivos e a ocorrência de sepse neonatal</article-title>
+					<source>Acta Paul Enferm</source>
+					<year>2016</year>
+					<volume>29</volume>
+					<issue>5</issue>
+					<fpage>573</fpage>
+					<lpage>581</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1982-0194201600079">https://doi.org/10.1590/1982-0194201600079</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15 Silva SMR, Motta GCP, Nunes CR, Schardosim JM, Cunha MLC. Sepse neonatal tardia em recém-nascidos pré-termo com peso ao nascer inferior a 1.500g. Rev Gaucha Enferm. 2015;36(4):84-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1983-1447.2015.04.50892">https://doi.org/10.1590/1983-1447.2015.04.50892</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Silva</surname>
+							<given-names>SMR</given-names>
+						</name>
+						<name>
+							<surname>Motta</surname>
+							<given-names>GCP</given-names>
+						</name>
+						<name>
+							<surname>Nunes</surname>
+							<given-names>CR</given-names>
+						</name>
+						<name>
+							<surname>Schardosim</surname>
+							<given-names>JM</given-names>
+						</name>
+						<name>
+							<surname>Cunha</surname>
+							<given-names>MLC</given-names>
+						</name>
+					</person-group>
+					<article-title>Sepse neonatal tardia em recém-nascidos pré-termo com peso ao nascer inferior a 1.500g</article-title>
+					<source>Rev Gaucha Enferm</source>
+					<year>2015</year>
+					<volume>36</volume>
+					<issue>4</issue>
+					<fpage>84</fpage>
+					<lpage>89</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1983-1447.2015.04.50892">https://doi.org/10.1590/1983-1447.2015.04.50892</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16 Dal-Bó K, Silva RM, Sakae TM. Infecção hospitalar em uma unidade de terapia intensiva neonatal do Sul do Brasil. Rev Bras Ter Intensiva. 2012;24(4):381-5. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0103-507X2012000400015">https://doi.org/10.1590/S0103-507X2012000400015</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Dal-Bó</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Silva</surname>
+							<given-names>RM</given-names>
+						</name>
+						<name>
+							<surname>Sakae</surname>
+							<given-names>TM</given-names>
+						</name>
+					</person-group>
+					<article-title>Infecção hospitalar em uma unidade de terapia intensiva neonatal do Sul do Brasil</article-title>
+					<source>Rev Bras Ter Intensiva</source>
+					<year>2012</year>
+					<volume>24</volume>
+					<issue>4</issue>
+					<fpage>381</fpage>
+					<lpage>385</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0103-507X2012000400015">https://doi.org/10.1590/S0103-507X2012000400015</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17 Lawn JE, Cousens S, Zupan J. 4 million neonatal deaths: when? Where? Why? Lancet. 2005;365(9462):891-900. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(05)71048-5">https://doi.org/10.1016/S0140-6736(05)71048-5</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lawn</surname>
+							<given-names>JE</given-names>
+						</name>
+						<name>
+							<surname>Cousens</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Zupan</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>4 million neonatal deaths: when? Where? Why?</article-title>
+					<source>Lancet</source>
+					<year>2005</year>
+					<volume>365</volume>
+					<issue>9462</issue>
+					<fpage>891</fpage>
+					<lpage>900</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(05)71048-5">https://doi.org/10.1016/S0140-6736(05)71048-5</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18 Alves JB, Gabani FL, Ferrari RAP, Tacla MTGM, Linck Júnior A. Neonatal sepsis: mortality in a municipality in Southern Brazil, 2000 to 2013. Rev Paul Pediatr. 2018;36(2):132-40. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1984-0462/;2018;36;2;00001">https://doi.org/10.1590/1984-0462/;2018;36;2;00001</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Alves</surname>
+							<given-names>JB</given-names>
+						</name>
+						<name>
+							<surname>Gabani</surname>
+							<given-names>FL</given-names>
+						</name>
+						<name>
+							<surname>Ferrari</surname>
+							<given-names>RAP</given-names>
+						</name>
+						<name>
+							<surname>Tacla</surname>
+							<given-names>MTGM</given-names>
+						</name>
+						<name>
+							<surname>Linck</surname>
+							<given-names>A</given-names>
+							<suffix>Júnior</suffix>
+						</name>
+					</person-group>
+					<article-title>Neonatal sepsis: mortality in a municipality in Southern Brazil, 2000 to 2013</article-title>
+					<source>Rev Paul Pediatr</source>
+					<year>2018</year>
+					<volume>36</volume>
+					<issue>2</issue>
+					<fpage>132</fpage>
+					<lpage>140</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1984-0462/;2018;36;2;00001">https://doi.org/10.1590/1984-0462/;2018;36;2;00001</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19 Nunes BM, Xavier TC, Martins RR. Problemas relacionados a medicamentos antimicrobianos em unidade de terapia intensiva neonatal. Rev Bras Ter Intensiva. 2017;29(3):331-6. <ext-link ext-link-type="uri" xlink:href="https://doi.org/ 10.5935/0103-507X.20170040">https://doi.org/ 10.5935/0103-507X.20170040</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Nunes</surname>
+							<given-names>BM</given-names>
+						</name>
+						<name>
+							<surname>Xavier</surname>
+							<given-names>TC</given-names>
+						</name>
+						<name>
+							<surname>Martins</surname>
+							<given-names>RR</given-names>
+						</name>
+					</person-group>
+					<article-title>Problemas relacionados a medicamentos antimicrobianos em unidade de terapia intensiva neonatal</article-title>
+					<source>Rev Bras Ter Intensiva</source>
+					<year>2017</year>
+					<volume>29</volume>
+					<issue>3</issue>
+					<fpage>331</fpage>
+					<lpage>336</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/ 10.5935/0103-507X.20170040">https://doi.org/ 10.5935/0103-507X.20170040</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20 Pina E, Ferreira E, Marques A, Matos B. Infecções associadas aos cuidados de saúde e segurança do doente. Rev Port Saude Publica. 2010;(10):27-39.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pina</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Ferreira</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Marques</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Matos</surname>
+							<given-names>B</given-names>
+						</name>
+					</person-group>
+					<article-title>Infecções associadas aos cuidados de saúde e segurança do doente</article-title>
+					<source>Rev Port Saude Publica</source>
+					<year>2010</year>
+					<issue>10</issue>
+					<fpage>27</fpage>
+					<lpage>39</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>21 Tragante CR, Ceccon MEJR, Falcão MC, Seiti M, Sakita N, Vieira RA. Prevalência de sepse por bactérias Gram negativas produtoras de beta-lactamase de espectro estendido em Unidade de Cuidados Intensivos Neonatal. Rev Paul Pediatr. 2008;26(1):59-63. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/s0103-05822008000100010">https://doi.org/10.1590/s0103-05822008000100010</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Tragante</surname>
+							<given-names>CR</given-names>
+						</name>
+						<name>
+							<surname>Ceccon</surname>
+							<given-names>MEJR</given-names>
+						</name>
+						<name>
+							<surname>Falcão</surname>
+							<given-names>MC</given-names>
+						</name>
+						<name>
+							<surname>Seiti</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Sakita</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Vieira</surname>
+							<given-names>RA</given-names>
+						</name>
+					</person-group>
+					<article-title>Prevalência de sepse por bactérias Gram negativas produtoras de beta-lactamase de espectro estendido em Unidade de Cuidados Intensivos Neonatal</article-title>
+					<source>Rev Paul Pediatr</source>
+					<year>2008</year>
+					<volume>26</volume>
+					<issue>1</issue>
+					<fpage>59</fpage>
+					<lpage>63</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/s0103-05822008000100010">https://doi.org/10.1590/s0103-05822008000100010</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>22 Lopes GK, Rossetto EG, Belei RA, Capobiango JD, Matsuo T. Estudo epidemiológico das infecções neonatais no Hospital Universitário de Londrina, Estado do Paraná. Acta Sci Health Sci. 2008;30(1):55-63. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4025/actascihealthsci.v30i1.4386">https://doi.org/10.4025/actascihealthsci.v30i1.4386</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lopes</surname>
+							<given-names>GK</given-names>
+						</name>
+						<name>
+							<surname>Rossetto</surname>
+							<given-names>EG</given-names>
+						</name>
+						<name>
+							<surname>Belei</surname>
+							<given-names>RA</given-names>
+						</name>
+						<name>
+							<surname>Capobiango</surname>
+							<given-names>JD</given-names>
+						</name>
+						<name>
+							<surname>Matsuo</surname>
+							<given-names>T</given-names>
+						</name>
+					</person-group>
+					<article-title>Estudo epidemiológico das infecções neonatais no Hospital Universitário de Londrina, Estado do Paraná</article-title>
+					<source>Acta Sci Health Sci</source>
+					<year>2008</year>
+					<volume>30</volume>
+					<issue>1</issue>
+					<fpage>55</fpage>
+					<lpage>63</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4025/actascihealthsci.v30i1.4386">https://doi.org/10.4025/actascihealthsci.v30i1.4386</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>23 Rangelova V, Kevorkyan A, Krasteva M. Nosocomial infections in the neonatal intensive care unit. Arch Balk Med Union. 2020;55(1):121-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.31688/ABMU.2020.55.1.14">https://doi.org/10.31688/ABMU.2020.55.1.14</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rangelova</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Kevorkyan</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Krasteva</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>Nosocomial infections in the neonatal intensive care unit</article-title>
+					<source>Arch Balk Med Union</source>
+					<year>2020</year>
+					<volume>55</volume>
+					<issue>1</issue>
+					<fpage>121</fpage>
+					<lpage>127</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.31688/ABMU.2020.55.1.14">https://doi.org/10.31688/ABMU.2020.55.1.14</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>24 Dhaneria M, Jain S, Singh P, Mathur A, Lundborg C, Pathak A. Incidence and determinants of health care-associated blood stream infection at a neonatal intensive care unit in Ujjain, India: a prospective cohort study. Diseases. 2018;6(1):14. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3390/diseases6010014">https://doi.org/10.3390/diseases6010014</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Dhaneria</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Jain</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Singh</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Mathur</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Lundborg</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Pathak</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Incidence and determinants of health care-associated blood stream infection at a neonatal intensive care unit in Ujjain, India: a prospective cohort study</article-title>
+					<source>Diseases</source>
+					<year>2018</year>
+					<volume>6</volume>
+					<issue>1</issue>
+					<size units="pages">14</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3390/diseases6010014">https://doi.org/10.3390/diseases6010014</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>25 Su BH, Hsieh HY, Chiu HY, Lin HC, Lin HC. Nosocomial infection in a neonatal intensive care unit: a prospective study in Taiwan. Am J Infect Control. 2007;35(3):190-5. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ajic.2006.07.004">https://doi.org/10.1016/j.ajic.2006.07.004</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Su</surname>
+							<given-names>BH</given-names>
+						</name>
+						<name>
+							<surname>Hsieh</surname>
+							<given-names>HY</given-names>
+						</name>
+						<name>
+							<surname>Chiu</surname>
+							<given-names>HY</given-names>
+						</name>
+						<name>
+							<surname>Lin</surname>
+							<given-names>HC</given-names>
+						</name>
+						<name>
+							<surname>Lin</surname>
+							<given-names>HC</given-names>
+						</name>
+					</person-group>
+					<article-title>Nosocomial infection in a neonatal intensive care unit: a prospective study in Taiwan</article-title>
+					<source>Am J Infect Control</source>
+					<year>2007</year>
+					<volume>35</volume>
+					<issue>3</issue>
+					<fpage>190</fpage>
+					<lpage>195</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ajic.2006.07.004">https://doi.org/10.1016/j.ajic.2006.07.004</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation>26 Ertugrul S, Aktar F, Yolbas I, Yilmaz A, Elbey B, Yildirim A, et al. Risk factors for health care-associated bloodstream infections in a neonatal intensive care unit. Iran J Pediatr. 2016;26(5):e5213. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5812/ijp.5213">https://doi.org/10.5812/ijp.5213</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ertugrul</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Aktar</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Yolbas</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Yilmaz</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Elbey</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Yildirim</surname>
+							<given-names>A</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Risk factors for health care-associated bloodstream infections in a neonatal intensive care unit</article-title>
+					<source>Iran J Pediatr</source>
+					<year>2016</year>
+					<volume>26</volume>
+					<issue>5</issue>
+					<elocation-id>e5213</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5812/ijp.5213">https://doi.org/10.5812/ijp.5213</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<mixed-citation>27 Yusef D, Shalakhti T, Awad S, Algharaibeh H, Khasawneh W. Clinical characteristics and epidemiology of sepsis in the neonatal intensive care unit in the era of multi-drug resistant organisms: a retrospective review. Pediatr Neonatol. 2018;59(1):35-41. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.pedneo.2017.06.001">https://doi.org/10.1016/j.pedneo.2017.06.001</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Yusef</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Shalakhti</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Awad</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Algharaibeh</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Khasawneh</surname>
+							<given-names>W</given-names>
+						</name>
+					</person-group>
+					<article-title>Clinical characteristics and epidemiology of sepsis in the neonatal intensive care unit in the era of multi-drug resistant organisms: a retrospective review</article-title>
+					<source>Pediatr Neonatol</source>
+					<year>2018</year>
+					<volume>59</volume>
+					<issue>1</issue>
+					<fpage>35</fpage>
+					<lpage>41</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.pedneo.2017.06.001">https://doi.org/10.1016/j.pedneo.2017.06.001</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<mixed-citation>28 Sociedade Brasileira de Pediatria. Consenso Brasileiro em Ventilação Mecânica. Suporte ventilatório na síndrome do desconforto respiratório do recém-nascido. Miyoshi MH, relator. São Paulo; 2015 [cited 2020 Oct 15]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.sbp.com.br/fileadmin/user_upload/2015/02/SDR.pdf">https://www.sbp.com.br/fileadmin/user_upload/2015/02/SDR.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Sociedade Brasileira de Pediatria</collab>
+						<collab>Consenso Brasileiro em Ventilação Mecânica</collab>
+					</person-group>
+					<article-title>Suporte ventilatório na síndrome do desconforto respiratório do recém-nascido</article-title>
+					<source>Miyoshi MH, relator</source>
+					<publisher-loc>São Paulo</publisher-loc>
+					<year>2015</year>
+					<date-in-citation content-type="cited-date">cited 2020 Oct 15</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.sbp.com.br/fileadmin/user_upload/2015/02/SDR.pdf">https://www.sbp.com.br/fileadmin/user_upload/2015/02/SDR.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B29">
+				<label>29</label>
+				<mixed-citation>29 Wang L, Du KN, Zhao YL, Yu YJ, Sun L, Jiang HB. Risk factors of nosocomial infection for infants in neonatal intensive care units: a systematic review and meta-analysis. Med Sci Monit. 2019;25:8213-20. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.12659/MSM.917185">https://doi.org/10.12659/MSM.917185</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Wang</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Du</surname>
+							<given-names>KN</given-names>
+						</name>
+						<name>
+							<surname>Zhao</surname>
+							<given-names>YL</given-names>
+						</name>
+						<name>
+							<surname>Yu</surname>
+							<given-names>YJ</given-names>
+						</name>
+						<name>
+							<surname>Sun</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Jiang</surname>
+							<given-names>HB</given-names>
+						</name>
+					</person-group>
+					<article-title>Risk factors of nosocomial infection for infants in neonatal intensive care units: a systematic review and meta-analysis</article-title>
+					<source>Med Sci Monit</source>
+					<year>2019</year>
+					<volume>25</volume>
+					<fpage>8213</fpage>
+					<lpage>8220</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.12659/MSM.917185">https://doi.org/10.12659/MSM.917185</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B30">
+				<label>30</label>
+				<mixed-citation>30 Agência Nacional de Vigilância Sanitária, Gerência de Vigilância e Monitoramento em Serviços de Saúde, Gerência Geral de Tecnologia em Serviços de Saúde. Critérios diagnósticos das infecções relacionadas à Assistência à Saúde. Brasília, DF: Anvisa; 2019 [cited 2020 Oct 15]. (Nota Técnica GVIMS/GGTES; nº 3). Available from: <ext-link ext-link-type="uri" xlink:href="https://ameci.org.br/wp-content/uploads/2019/02/nota-tecnica03-2019-GVIMS-GGTES-anvisa.pdf">https://ameci.org.br/wp-content/uploads/2019/02/nota-tecnica03-2019-GVIMS-GGTES-anvisa.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Agência Nacional de Vigilância Sanitária</collab>
+						<collab>Gerência de Vigilância e Monitoramento em Serviços de Saúde</collab>
+						<collab>Gerência Geral de Tecnologia em Serviços de Saúde</collab>
+					</person-group>
+					<source>Critérios diagnósticos das infecções relacionadas à Assistência à Saúde</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<publisher-name>Anvisa</publisher-name>
+					<year>2019</year>
+					<date-in-citation content-type="cited-date">cited 2020 Oct 15</date-in-citation>
+					<comment>Nota Técnica GVIMS/GGTES; nº 3</comment>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://ameci.org.br/wp-content/uploads/2019/02/nota-tecnica03-2019-GVIMS-GGTES-anvisa.pdf">https://ameci.org.br/wp-content/uploads/2019/02/nota-tecnica03-2019-GVIMS-GGTES-anvisa.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="financial-disclosure" id="fn2">
+				<p><bold>Funding:</bold> Fundação Cearense de Apoio ao Desenvolvimento Científico e Tecnológico (Funcap) - <italic>Edital Jovens Doutores</italic> – nº 02/2017).</p>
+			</fn>
+		</fn-group>
+	</back>
+	<sub-article article-type="translation" id="TRpt" xml:lang="pt">
+		<front-stub>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artigo Original</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Determinantes de infecção nosocomial tardia neonatal: estudo de caso-controle no Ceará</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-2700-9913</contrib-id>
+					<name>
+						<surname>Lima</surname>
+						<given-names>Carmen Sulinete Suliano da Costa</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-9096-0969</contrib-id>
+					<name>
+						<surname>Rocha</surname>
+						<given-names>Hermano Alexandre Lima</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2002"><sup>II</sup></xref>
+					<xref ref-type="aff" rid="aff3002"><sup>III</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-4082-1842</contrib-id>
+					<name>
+						<surname>Araújo</surname>
+						<given-names>David Augusto Batista Sá</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3002"><sup>III</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-9777-8406</contrib-id>
+					<name>
+						<surname>Silva</surname>
+						<given-names>Cláudia</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff4002"><sup>IV</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1002">
+				<label>I</label>
+				<country country="PT">Portugal</country>
+				<institution content-type="original">Universidade Fernando Pessoa. Faculdade de Ciências e Tecnologia. Porto, Portugal</institution>
+			</aff>
+			<aff id="aff2002">
+				<label>II</label>
+				<country country="US">USA</country>
+				<institution content-type="original">Harvard School of Public Health. Global Health and Population. Boston, MA, USA</institution>
+			</aff>
+			<aff id="aff3002">
+				<label>III</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Universidade Federal do Ceará. Departamento de Saúde Comunitária. Fortaleza, CE, Brasil</institution>
+			</aff>
+			<aff id="aff4002">
+				<label>IV</label>
+				<country country="PT">Portugal</country>
+				<institution content-type="original">Universidade Fernando Pessoa. Unidade de Investigação em Energia, Ambiente e Saúde. Porto, Portugal</institution>
+			</aff>
+			<author-notes>
+				<corresp id="c01002">Correspondência: Hermano Alexandre Lima Rocha Rua Papi Júnior, 1.223 60430-230 Fortaleza, Ceará, Brasil Email: hermano@ufc.br</corresp>
+				<fn fn-type="con">
+					<p><bold>Contribuição dos Autores:</bold> Concepção e planejamento do estudo: CSSCL, HALR, CSAGS. Coleta, análise e interpretação dos dados: CSSCL, HALR, DABSA, CSAGS. Elaboração ou revisão do manuscrito: CSSCL, HALR, DABSA, CSAGS. Aprovação da versão final: CSSCL, HALR, DABSA, CSAGS. Responsabilidade pública pelo conteúdo do artigo: CSSCL, HALR, DABSA, CSAGS.</p>
+				</fn>
+				<fn fn-type="conflict">
+					<p><bold>Conflito de Interesses:</bold> Os autores declaram não haver conflito de interesses.</p>
+				</fn>
+			</author-notes>
+			<abstract>
+				<title>RESUMO</title>
+				<sec>
+					<title>OBJETIVO</title>
+					<p>Identificar os fatores determinantes para infecções relacionadas à assistência à saúde (IRAS) tardias em terapia intensiva neonatal e multirresistência bacteriana.</p>
+				</sec>
+				<sec>
+					<title>MÉTODOS</title>
+					<p>Estudo caso-controle em unidade de terapia intensiva neonatal do Estado do Ceará, entre janeiro de 2013 e dezembro de 2017. Considerado caso o recém-nascido notificado como IRAS tardia e, controle, aquele sem infecção. Variáveis com valor de p ≤ 0,05 em análise regressiva bivariada inicial foram incluídas em modelo logístico hierarquizado não condicional para análise multivariada. Valores de p menores que 0,01 foram considerados significativos.</p>
+				</sec>
+				<sec>
+					<title>RESULTADOS</title>
+					<p>Dos 1.132 participantes, 427 (37,7%) tiveram infecções tardias relacionadas a assistência à saúde, com 54 (12,6%) hemoculturas positivas e 14,9% dessas foram bactérias multirresistentes. Na análise bivariada observou-se efeito protetor do sexo feminino (OR = 0,71; IC95% 0,56–0,90) e recém-nascido ≥ 34 semanas (OR = 0,48; IC95% 0,30–0,75). Nos mais prematuros, as infecções tardias tiveram chance dezoito vezes maior em menores do que 30 semanas (OR = 18,61; IC95% 9,84–35,22); e nos menores de 1.500g, quatro vezes maior (OR = 4,18; IC95% 3,12–5,61). O uso de ventilação mecânica aumentou em mais de sete vezes a chance (OR = 7,14; IC95% 5,26–9,09); o mesmo aconteceu com o recurso da nutrição parenteral (OR = 5,88; IC95% 4,54–7,69), com o cateter venoso central (OR = 10,00; IC95% 6,66–16,66); o número de cateteres utilizado (OR = 3,93; IC95% 3,02–5,12); a realização de cirurgia (OR = 4,00; IC95% 2,27–7,14) e o tempo de internamento (OR = 1,06; IC95% 1,05–1,07). Permaneceram significativos após ajuste: prematuro menor do que 30 semanas (OR = 5,62; IC95% 1,83–17,28); uso de ventilação (OR = 1,84; IC95% 1,26–2,68); uso de cateter venoso central (OR = 2,48; IC95% 1,40–4,37) e tempo de internamento (OR = 1,06; IC95% 1,05–1,07). Dentre os óbitos, 41 (55,4%) foram associados às infecções tardias.</p>
+				</sec>
+				<sec>
+					<title>CONCLUSÃO</title>
+					<p>Melhores práticas devem ser adotadas no cuidado da prematuridade e o uso racional de procedimentos, para evitar infecções tardias relacionadas a assistência à saúde, óbitos preveníveis e riscos de multirresistência bacteriana e contaminação ambiental.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="pt">
+				<kwd>Recém-Nascido</kwd>
+				<kwd>Recém-Nascido Prematuro</kwd>
+				<kwd>Infecção Hospitalar, epidemiologia</kwd>
+				<kwd>Farmacorresistência Bacteriana Múltipla</kwd>
+				<kwd>Fatores de Risco</kwd>
+				<kwd>Estudos de Casos e Controles</kwd>
+			</kwd-group>
+		</front-stub>
+		<body>
+			<sec sec-type="intro">
+				<title>INTRODUÇÃO</title>
+				<p>As infecções relacionadas à assistência à saúde (IRAS) são adquiridas em serviços de saúde, um agente infeccioso acomete um hospedeiro suscetível, causando uma doença. Esse agente infeccioso pode ser uma bactéria, um vírus, fungo ou parasita, presente em um reservatório que pode ser um paciente, profissional de saúde, visitantes ou superfícies hospitalares e objetos inanimados<sup><xref ref-type="bibr" rid="B1">1</xref></sup> . As superfícies ou os objetos abrigam microrganismos quando ocorre falhas na limpeza ambiental, no processamento de artigos e roupas e no uso às precauções-padrão, podendo levar à contaminação cruzada<sup><xref ref-type="bibr" rid="B2">2</xref> , <xref ref-type="bibr" rid="B3">3</xref></sup> . O termo infecção hospitalar vem sendo substituído gradualmente por IRAS tardia, pois é mais abrangente e inclui as infecções relacionadas aos cuidados hospitalares, às falhas do cuidado, à prevenção, ao diagnóstico e ao tratamento<sup><xref ref-type="bibr" rid="B4">4</xref></sup> .</p>
+				<p>IRAS tardia de origem hospitalar em neonatologia é definida como a infecção em que a evidência diagnóstica ocorre após as primeiras 48 horas de vida do recém-nascido internado<sup><xref ref-type="bibr" rid="B4">4</xref></sup> . O recém-nascido é mais susceptível às infecções, principalmente os prematuros e de muito baixo peso, pois seu sistema imune ainda está em desenvolvimento, possui barreiras mucosas e cutâneas ineficientes, além de estarem mais expostos a objetos utilizados na assistência que podem estar contaminados<sup><xref ref-type="bibr" rid="B3">3</xref> , <xref ref-type="bibr" rid="B5">5</xref></sup> e a muitas intervenções terapêuticas de alto risco, como uso de dispositivos invasivos e antimicrobianos de amplo espectro, que influenciam no seu processo de colonização<sup><xref ref-type="bibr" rid="B6">6</xref> , <xref ref-type="bibr" rid="B7">7</xref></sup> .</p>
+				<p>Nas últimas décadas, a sobrevida de neonatos prematuros e de portadores de malformações antes consideradas incompatíveis com a vida aumentou, porém, com o prolongamento do tempo de internação em unidade de terapia intensiva neonatal (UTIN), aumentaram as complicações, entre elas, as IRAS tardias, que passaram a ser um dos fatores limitantes para a sobrevida<sup><xref ref-type="bibr" rid="B4">4</xref> , <xref ref-type="bibr" rid="B8">8</xref></sup> . A infecção (sepse, meningite e pneumonia) é responsável por cerca de 21% dos óbitos no período neonatal no mundo, segundo relatório divulgado em 2016 pelo Fundo das Nações Unidas para a Infância, representando um grave problema de saúde pública<sup><xref ref-type="bibr" rid="B9">9</xref></sup> . A infecção está relacionada ao peso no nascimento, principalmente em recém-nascidos de baixo peso ou em prematuros, e é associada ao uso de procedimentos invasivos e a longa permanência hospitalar<sup><xref ref-type="bibr" rid="B10">10</xref></sup> ; a utilização de cateter venoso central (CVC) e com o tempo de ventilação mecânica<sup><xref ref-type="bibr" rid="B4">4</xref> , <xref ref-type="bibr" rid="B11">11</xref></sup> , ocasionando principalmente pneumonia e infecção primária da corrente sanguínea, causada por cateter nos pacientes internados<sup><xref ref-type="bibr" rid="B4">4</xref></sup> .</p>
+				<p>No Brasil, 60% da mortalidade infantil ocorre no período neonatal<sup><xref ref-type="bibr" rid="B4">4</xref></sup> , sendo a infecção uma das principais causas<sup><xref ref-type="bibr" rid="B4">4</xref> , <xref ref-type="bibr" rid="B6">6</xref> , <xref ref-type="bibr" rid="B12">12</xref></sup> . A infecção primária da corrente sanguínea associada ao CVC é a principal infecção em UTIN no Brasil<sup><xref ref-type="bibr" rid="B4">4</xref></sup> . Em estudo de óbitos em UTIN no Ceará, as principais causas de óbito foram as IRAS (44%), seguidas por afecções relacionadas à prematuridade, afecções respiratórias e asfixia<sup><xref ref-type="bibr" rid="B13">13</xref></sup> . Em pesquisa brasileira de coorte retrospectivo, realizada no Rio de Janeiro, entre 2008 e 2012, observou-se a associação entre uso de procedimentos invasivos e infecção, porém foram incluídos no trabalho somente 49 recém-nascidos de muito baixo peso<sup><xref ref-type="bibr" rid="B14">14</xref></sup> . Outra investigação de coorte prospectivo, realizada em um hospital de Porto Alegre, durante o ano de 2013, analisou 30 prematuros com peso inferior a 1.500g e infecção neonatal, descrevendo as características clínicas e uso de tecnologias em UTIN, porém sem avaliar associação estatística dos fatores de risco<sup><xref ref-type="bibr" rid="B15">15</xref></sup> , e em outro estudo descritivo em uma UTIN de Santa Catarina, no ano de 2010, observou-se que 45,8% dos internados apresentaram IRAS tardia, porém também não foram calculadas medidas de associação<sup><xref ref-type="bibr" rid="B16">16</xref></sup> . São necessários estudos no Nordeste e no Ceará, que estimem fatores de risco para IRAS tardia, já que existem poucos estudos do tipo, para conhecer a realidade epidemiológica e melhorar as práticas em UTIN e, consequentemente, diminuir a morbimortalidade neonatal.</p>
+				<p>Em UTIN, o tratamento empírico de IRAS tardia é muito frequente e a utilização inadequada de vários antimicrobianos, por sua vez, é a principal causa de resistência bacteriana a fármacos, podendo ocasionar o aparecimento de bactérias multirresistentes<sup><xref ref-type="bibr" rid="B17">17</xref></sup> , que podem eventualmente tornar-se endêmicas<sup><xref ref-type="bibr" rid="B18">18</xref></sup> . Desde o final da década de 1980, na América Latina, há um aumento de bactérias com alta resistência a antibióticos usuais também em UTIN, devido principalmente à internação prolongada, inserção de dispositivos invasivos e ao descumprimento de normas de isolamento e de segurança<sup><xref ref-type="bibr" rid="B11">11</xref> , <xref ref-type="bibr" rid="B19">19</xref></sup> .</p>
+				<p>No presente estudo pretendeu-se avaliar os fatores de risco associados às IRAS tardias, conhecer a flora bacteriana e sua resposta aos antimicrobianos, identificando a presença ou não de bactérias multirresistentes, com a finalidade de propor estratégias de prevenção de agravos à saúde, diminuir a ocorrência de óbitos evitáveis e de propagação de bactérias nocivas na UTIN. As IRAS tardias representam um risco ao neonato e a todo o ambiente intra-hospitalar, além do risco de contaminação externa intrapessoal e ao meio ambiente.</p>
+			</sec>
+			<sec sec-type="methods">
+				<title>MÉTODOS</title>
+				<p>Trata-se de um estudo do tipo caso-controle sobre as características dos recém-nascidos diagnosticados com IRAS tardia em UTIN de um hospital público de referência no Estado do Ceará, no período entre janeiro de 2013 e dezembro de 2017.</p>
+				<p>O Hospital Geral Waldemar Alcântara é uma unidade de atenção secundária dentro da rede pública de saúde, o primeiro hospital público da região Norte e Nordeste do Brasil a receber o título de acreditação hospitalar nível 2, pela Organização Nacional de Acreditação. Trata-se de um hospital de apoio para a rede terciária de assistência do Estado do Ceará, atendendo exclusivamente à clientela do Sistema Único de Saúde. Oferece à população 336 leitos, distribuídos nas clínicas médicas, cirúrgica, pediátrica, unidade de cuidados especiais, unidade de terapia intensiva de adultos, UTIN, unidade de terapia intensiva pediátrica e berçário médio risco, além de assistência ambulatorial e domiciliar.</p>
+				<p>A população do estudo foi constituída por todos os recém-nascidos com internamento na UTIN e até 28 dias de vida incompletos, tanto casos (com IRAS tardia) como controles (sem IRAS tardia). Foram excluídos todos os pacientes admitidos pela primeira vez na UTIN com 28 dias de vida ou mais e aqueles com permanência hospitalar menor que 48 horas. Foram considerados casos todos os pacientes que foram acometidos por IRAS tardia no período em estudo, segundo os critérios padronizados e notificados pelo Serviço de Controle de Infecção Hospitalar, e, controles, os que não evoluíram com infecção. Os dados foram coletados de documentos dos prontuários dos pacientes internados que preencheram os critérios de inclusão, com o uso de uma lista de verificação elaborada pela pesquisadora.</p>
+				<p>IRAS tardia de origem hospitalar foi definida como a infecção que a evidência diagnóstica (clínica/laboratorial/microbiológica) ocorra após as primeiras 48 horas de vida<sup><xref ref-type="bibr" rid="B4">4</xref></sup> . A variável dependente neste estudo foi a existência de IRAS tardia em UTIN ou não.</p>
+				<p>As demais variáveis (independentes) recolhidas foram agrupadas em dois estratos hierárquicos:</p>
+				<list list-type="alpha-lower">
+					<list-item>
+						<p>dados clínicos do recém-nascido (idade gestacional, em semanas pelo Método de Capurro ou New-Ballard, considerados prematuros os nascidos com menos de 37 semanas e estratificadas as idades gestacionais em: até 29 semanas e seis dias, entre 30 semanas e 33 semanas e seis dias, entre 34 semanas e 36 semanas e seis dias e maior ou igual a 37 semanas); sexo (masculino ou feminino); peso de nascimento (em gramas; considerados de baixo peso os bebês nascidos com menos de 2.500g e estratificados os pesos em: menor do que 1.500g, entre 1.500g e 2.499g, e maior ou igual a 2.500g); e índice de Apgar do 5º minuto como um indicador de asfixia (escore &lt; 7 ou ≥ 7);</p>
+					</list-item>
+					<list-item>
+						<p>dados da assistência hospitalar [uso de ventilação mecânica (sim ou não); tempo de ventilação (em dias); uso de CVC (sim ou não); número de CVC utilizados; tempo de uso de CVC (em dias); uso de nutrição parenteral (sim ou não); tempo de nutrição parenteral (em dias); cirurgia (sim ou não) e tempo total de internamento (em dias)] ( <xref ref-type="fig" rid="f01002">Figura</xref> ).</p>
+						<p>
+							<fig id="f01002">
+								<label>Figura</label>
+								<caption>
+									<title>Estrutura conceitual hierarquizada para estudo de IRAS tardia em unidade de terapia intensiva neonatal.</title>
+								</caption>
+								<graphic xlink:href="1518-8787-rsp-56-40-gf01-pt.tif"/>
+							</fig>
+						</p>
+					</list-item>
+				</list>
+				<p>Foi incluído o tipo de microrganismo isolado (bactéria Gram negativa, bactéria Gram positiva ou anaeróbia; ou fungo) e a presença ou não de bactéria multirresistente; além da ocorrência ou não de óbitos entre os casos.</p>
+				<p>Inicialmente, realizou-se a análise estatística descritiva univariada para medianas (variáveis contínuas) e proporções (variáveis categóricas). Para estimar a associação entre a variável dependente e as variáveis independentes, foram realizadas análises bivariadas para testar significância das associações (teste Qui-quadrado e Kruskal-Wallis). A medida de associação utilizada foi <italic>odds ratio</italic> (OR). A variável dependente (IRAS tardia: presente ou ausente) e as variáveis independentes foram submetidas à análise bivariada para as estimativas de OR e respectivos intervalos de confiança de 95% (IC95%) por meio de modelos de regressão logística. Posteriormente, as variáveis que apresentaram valor de p ≤ 0,05 foram incluídas no modelo logístico para análise multivariada hierarquizada, conforme modelo teórico, e considerados como significantes valores de p ≤ 0,01 no modelo final após seleção por meio de <italic>backward stepwise</italic> . Os dados foram armazenados e analisados pelos programas SAS 9.4, SAS Inc, e SPSS <italic>(Statistical Package for the Social Sciences) Statistics</italic>
+ <sup>®</sup>
+ <italic>26.0, IBM Inc.</italic></p>
+				<p>O estudo foi aprovado pelo Comitê de Ética do hospital (Protocolo 61/ 2017) e Plataforma Brasil (Parecer 160/2011).</p>
+			</sec>
+			<sec sec-type="results">
+				<title>RESULTADOS</title>
+				<p>Foram identificados 1.132 registros elegíveis, sendo excluídos 102 pacientes internados no período em estudo por apresentarem dados incompletos no prontuário em relação às variáveis da assistência e 22 pacientes que evoluíram a óbito em menos de 48 horas de internamento. Dentre os 74 óbitos que permaneceram na análise (6,5% dos registros), 41 (55,4%) foram causados por IRAS e ocorreram entre três e 114 dias de vida.</p>
+				<p>Em relação ao desfecho, 427 registros (37,7%) tiveram IRAS tardia. A maioria dos recém-nascidos eram do sexo masculino (59,9%). A idade gestacional variou de 22 a 42 semanas, sendo que 62,5% eram prematuros, com predomínio de maiores ou iguais a 30 semanas e menores do que 34 semanas (37,5%). O peso ao nascer variou entre 415g e 6.200g, sendo que 60,7% eram de baixo peso (menos de 2.500g). Quanto ao índice de Apgar no 5º minuto de vida, dos valores válidos, 27% tinham índice menor do que sete.</p>
+				<p>Na análise bivariada das variáveis clínicas do recém-nascido observou-se um efeito protetor em relação a IRAS tardia em bebês do sexo feminino (OR = 0,71; IC95% 0,56–0,90) e em recém-nascido prematuro maior ou igual a 34 semanas e menor do que 37 semanas (OR = 0,48; IC95% 0,30–0,75). Quanto mais prematuro, maior é a associação com IRAS tardia, quase duas vezes maior no prematuro maior ou igual a 30 semanas e menor do que 34 semanas (OR = 1,93; IC95% 1,45–2,57) e cerca de dezoito vezes maior no prematuro menor do que 30 semanas (OR = 18,61; IC95% 9,84–35,22). O recém-nascido com peso ao nascer menor que 1.500g apresentou cerca de quatro vezes mais associação com IRAS tardia (OR = 4,18; IC95% 3,12–5,61), e o grupo dos menores que 2.500g apresentava um risco de cerca de duas vezes maior de IRAS tardia (OR = 2,27; IC95% 1,75–2,94). A asfixia associou-se a um risco cerca de três vezes maior de IRAS tardia (OR = 2,94; IC95% 2,17–3,84) ( <xref ref-type="table" rid="t1002">Tabela 1</xref> ). Foi observado que todas as variáveis apresentaram associação estatisticamente significativa a IRAS tardia (p &lt; 0,0001), exceto sexo ( <xref ref-type="table" rid="t1002">Tabela 1</xref> ) e tempo de nutrição parenteral ( <xref ref-type="table" rid="t2002">Tabela 2</xref> ).</p>
+				<p>
+					<table-wrap id="t1002">
+						<label>Tabela 1</label>
+						<caption>
+							<title>Distribuição de casos e controles, com respectivos <italic>odds ratio</italic> , das variáveis relacionadas aos dados clínicos do recém-nascido. Ceará, Brasil, 2013 a 2017.</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left" rowspan="2" style="font-weight:normal">
+									</th>
+									<th colspan="2">IRAS tardia</th>
+									<th rowspan="2">OR (IC95%)</th>
+									<th rowspan="2">p</th>
+								</tr>
+								<tr>
+									<th>Presente (n = 427) Caso</th>
+									<th>Ausente (n = 705) Controle</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Sexo</td>
+									<td align="center">n (%)</td>
+									<td align="center">n (%)</td>
+									<td>
+									</td>
+									<td>0,0065<sup>b</sup></td>
+								</tr>
+								<tr>
+									<td>Feminino</td>
+									<td align="center">193 (45,2%)</td>
+									<td align="center">261 (37,0%)</td>
+									<td align="center">0,71 (0,56–0,90)</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Masculino</td>
+									<td align="center">234 (54,8%)</td>
+									<td align="center">444 (63,0%)</td>
+									<td align="center">1,0</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Classes de idade gestacional</td>
+									<td align="center">n (%)</td>
+									<td align="center">n (%)</td>
+									<td>
+									</td>
+									<td>&lt; 0,0001<sup>b</sup></td>
+								</tr>
+								<tr>
+									<td>≥ 37 semanas</td>
+									<td align="center">122 (28,6%)</td>
+									<td align="center">303 (43,0%)</td>
+									<td align="center">1,0</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>34 a 36 semanas</td>
+									<td align="center">29 (6,8%)</td>
+									<td align="center">151 (21,4%)</td>
+									<td align="center">0,48 (0,30–0,75)</td>
+									<td>0,0012<sup>a</sup></td>
+								</tr>
+								<tr>
+									<td>30 a 33 semanas</td>
+									<td align="center">186 (43,6%)</td>
+									<td align="center">239 (33,9%)</td>
+									<td align="center">1,93 (1,45–2,57)</td>
+									<td>&lt; 0,0001<sup>a</sup></td>
+								</tr>
+								<tr>
+									<td>&lt; 30 semanas</td>
+									<td align="center">90 (21,1%)</td>
+									<td align="center">12 (1,7%)</td>
+									<td align="center">18,61 (9,84–35,22)</td>
+									<td>&lt; 0,0001<sup>a</sup></td>
+								</tr>
+								<tr>
+									<td>Peso de nascimento (g)</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>&lt; 0,0001<sup>a</sup></td>
+								</tr>
+								<tr>
+									<td>n</td>
+									<td align="center">427</td>
+									<td align="center">705</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Mediana (mín-máx)</td>
+									<td align="center">1.405 (415–5.085)</td>
+									<td align="center">2370 (550–6.200)</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Classes de peso de nascimento</td>
+									<td align="center">n (%)</td>
+									<td align="center">n (%)</td>
+									<td>
+									</td>
+									<td>&lt; 0,0001<sup>b</sup></td>
+								</tr>
+								<tr>
+									<td>≥ 2.500g</td>
+									<td align="center">118 (27,6%)</td>
+									<td align="center">327 (46,4%)</td>
+									<td align="center">1,0</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Entre 1.500g e 2.499g</td>
+									<td align="center">78 (18,3%)</td>
+									<td align="center">225 (31,9%)</td>
+									<td align="center">0,96 (0,69–1,34)</td>
+									<td>0,8131<sup>a</sup></td>
+								</tr>
+								<tr>
+									<td>&lt; 1.500g</td>
+									<td align="center">231 (54,1%)</td>
+									<td align="center">153 (21,7%)</td>
+									<td align="center">4,18 (3,12–5,61)</td>
+									<td>&lt; 0,0001<sup>a</sup></td>
+								</tr>
+								<tr>
+									<td>Baixo peso</td>
+									<td align="center">n (%)</td>
+									<td align="center">n (%)</td>
+									<td>
+									</td>
+									<td>&lt; 0,0001<sup>b</sup></td>
+								</tr>
+								<tr>
+									<td>≥ 2.500g</td>
+									<td align="center">118 (27,6%)</td>
+									<td align="center">327 (46,4%)</td>
+									<td align="center">1,0</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>&lt; 2.500g</td>
+									<td align="center">309 (72,4%)</td>
+									<td align="center">378 (53,6%)</td>
+									<td align="center">2,27 (1,75–2,94)</td>
+									<td>&lt; 0,0001<sup>a</sup></td>
+								</tr>
+								<tr>
+									<td>Apgar do 5º minuto</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>&lt; 0,0001<sup>a</sup></td>
+								</tr>
+								<tr>
+									<td>n</td>
+									<td align="center">385</td>
+									<td align="center">652</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Mediana (mín-máx)</td>
+									<td align="center">7,0 (0,0–10,0)</td>
+									<td align="center">8,0 (1.0–10.0)</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Asfixia</td>
+									<td align="center">n (%)</td>
+									<td align="center">n (%)</td>
+									<td>
+									</td>
+									<td>&lt; 0,0001<sup>b</sup></td>
+								</tr>
+								<tr>
+									<td>Valores omissos</td>
+									<td align="center">42</td>
+									<td align="center">53</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Apgar ≥ 7</td>
+									<td align="center">229 (59,5%)</td>
+									<td align="center">528 (81,0%)</td>
+									<td align="center">1,0</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Apgar &lt; 7</td>
+									<td align="center">156 (40,5%)</td>
+									<td align="center">124 (19,0%)</td>
+									<td align="center">2,94 (2,17–3,84)</td>
+									<td>&lt; 0,0001<sup>a</sup></td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN1002">
+								<p><sup>a</sup>Kruskal-Wallis p-value.</p>
+							</fn>
+							<fn id="TFN2002">
+								<p><sup>b</sup>Chi-Square p-value.</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p>
+					<table-wrap id="t2002">
+						<label>Tabela 2</label>
+						<caption>
+							<title>Distribuição de casos e controles, com respectivos <italic>odds ratio</italic> das variáveis relacionadas aos procedimentos utilizados durante o internamento e óbito. Ceará, Brasil, 2013 a 2017.</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left" rowspan="2" style="font-weight:normal">
+									</th>
+									<th colspan="2">IRAS tardia</th>
+									<th rowspan="2">OR (IC95%)</th>
+									<th rowspan="2">p</th>
+								</tr>
+								<tr>
+									<th>Presente (n = 427) Casos</th>
+									<th>Ausente (n = 705) Controles</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Uso de ventilação mecânica</td>
+									<td align="center">n (%)</td>
+									<td align="center">n (%)</td>
+									<td>
+									</td>
+									<td>&lt; 0,0001<sup>b</sup></td>
+								</tr>
+								<tr>
+									<td>Não</td>
+									<td align="center">76 (17,8%)</td>
+									<td align="center">426 (60,4%)</td>
+									<td align="center">1,0</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Sim</td>
+									<td align="center">351 (82,2%)</td>
+									<td align="center">279 (39,6%)</td>
+									<td align="center">7,14 (5,26–9,09)</td>
+									<td>&lt; 0,0001<sup>a</sup></td>
+								</tr>
+								<tr>
+									<td>Tempo de ventilação (dias)</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td align="center">1,15 (1,11–1,20)</td>
+									<td>&lt; 0,0001<sup>a</sup></td>
+								</tr>
+								<tr>
+									<td>n</td>
+									<td align="center">351</td>
+									<td align="center">279</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Mediana (mín-máx)</td>
+									<td align="center">9 (1–88)</td>
+									<td align="center">4 (1–45)</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Uso de nutrição parenteral</td>
+									<td align="center">n (%)</td>
+									<td align="center">n (%)</td>
+									<td>
+									</td>
+									<td>&lt; 0,0001<sup>b</sup></td>
+								</tr>
+								<tr>
+									<td>Não</td>
+									<td align="center">117 (27,4%)</td>
+									<td align="center">484 (68,7%)</td>
+									<td align="center">1,0</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Sim</td>
+									<td align="center">310 (72,6%)</td>
+									<td align="center">221 (31,3%)</td>
+									<td align="center">5,88 (4,54–7,69)</td>
+									<td>&lt; 0,0001<sup>a</sup></td>
+								</tr>
+								<tr>
+									<td>Tempo de nutrição parenteral (dias)</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td align="center">1,08 (1,05–1,12)</td>
+									<td>0,0008<sup>a</sup></td>
+								</tr>
+								<tr>
+									<td>n</td>
+									<td align="center">310</td>
+									<td align="center">221</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Mediana (mín-máx)</td>
+									<td align="center">6 (1–59)</td>
+									<td align="center">6 (1–27)</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Uso de cateter central</td>
+									<td align="center">n (%)</td>
+									<td align="center">n (%)</td>
+									<td>
+									</td>
+									<td>&lt; 0,0001<sup>b</sup></td>
+								</tr>
+								<tr>
+									<td>Não</td>
+									<td align="center">21 (4,9%)</td>
+									<td align="center">246 (34,9%)</td>
+									<td align="center">1,0</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Sim</td>
+									<td align="center">406 (95,1%)</td>
+									<td align="center">459 (65,1%)</td>
+									<td align="center">10,00 (6,66–16,66)</td>
+									<td>&lt; 0,0001<sup>a</sup></td>
+								</tr>
+								<tr>
+									<td>Tempo de cateter central (dias)</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td align="center">1,09 (1,07–1,11)</td>
+									<td>&lt; 0,0001<sup>a</sup></td>
+								</tr>
+								<tr>
+									<td>n</td>
+									<td align="center">406</td>
+									<td align="center">459</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Mediana (mín-máx)</td>
+									<td align="center">10 (1–93)</td>
+									<td align="center">7 (1–34)</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Número de cateteres</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td align="center">3,93 (3,02–5,12)</td>
+									<td>&lt; 0,0001<sup>a</sup></td>
+								</tr>
+								<tr>
+									<td>n</td>
+									<td align="center">406</td>
+									<td align="center">459</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Mediana (mín-máx)</td>
+									<td align="center">2 (1–5)</td>
+									<td align="center">1 (1–3)</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Realização de Cirurgia</td>
+									<td align="center">n (%)</td>
+									<td align="center">n (%)</td>
+									<td>
+									</td>
+									<td>&lt; 0,0001<sup>b</sup></td>
+								</tr>
+								<tr>
+									<td>Não</td>
+									<td align="center">386 (90,4%)</td>
+									<td align="center">687 (97,4%)</td>
+									<td align="center">1,0</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Sim</td>
+									<td align="center">41 (9,6%)</td>
+									<td align="center">18 (2,6%)</td>
+									<td align="center">4,00 (2,27–7,14)</td>
+									<td>&lt; 0,0001<sup>a</sup></td>
+								</tr>
+								<tr>
+									<td>Tempo total de internamento (dias)</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td align="center">1,06 (1,05–1,07)</td>
+									<td>&lt; 0,0001<sup>a</sup></td>
+								</tr>
+								<tr>
+									<td>n</td>
+									<td align="center">427</td>
+									<td align="center">705</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Mediana (mín-máx)</td>
+									<td align="center">50 (3–198)</td>
+									<td align="center">14 (2–100)</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Óbito</td>
+									<td align="center">n (%)</td>
+									<td align="center">n (%)</td>
+									<td>
+									</td>
+									<td>&lt; 0,0001<sup>b</sup></td>
+								</tr>
+								<tr>
+									<td>Não</td>
+									<td align="center">368 (86,2%)</td>
+									<td align="center">690 (97,9%)</td>
+									<td align="center">1,0</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Sim</td>
+									<td align="center">59 (13,8%)</td>
+									<td align="center">15 (2,1%)</td>
+									<td align="center">7,14 (4,16–12,50)</td>
+									<td>&lt; 0,0001<sup>a</sup></td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN3002">
+								<p><sup>a</sup>Kruskal-Wallis p-value.</p>
+							</fn>
+							<fn id="TFN4002">
+								<p><sup>b</sup>Chi-Square p-value.</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p>Na análise dos procedimentos, observou-se que 55,7% utilizaram ventilação mecânica e cerca de metade dos recém-nascidos permaneceram intubados até 5 dias, por um período que variou de um a 88 dias; 46,9% utilizaram nutrição parenteral; 76,4% utilizaram CVC, a maioria dos casos (62,2%) utilizou um cateter e 31,3%, dois cateteres; houve ainda 59 registros de cirurgia (5,2%). O tempo de internamento total (incluindo o período em unidade de risco intermediário), foi de até 21 dias para 50% dos recém-nascidos, com variação de dois a 198 dias ( <xref ref-type="table" rid="t2002">Tabela 2</xref> ).</p>
+				<p>Ao verificar as associações, observou-se que o uso de ventilação mecânica aumentou o risco de IRAS tardia em aproximadamente sete vezes (OR = 7,14; IC95% 5,26–9,09); cada dia de ventilação mecânica aumentou em 15% as chances de infecção (OR = 1,15; IC95% 1,11–1,20); o uso de nutrição parenteral, elevou quase seis vezes a chance (OR = 5,88; IC95% 4,54–7,69); bem como o tempo em dias de nutrição parenteral (OR = 1,08; IC95% 1,05–1,12). Além disso, o uso de CVC elevou a chance de infecção em dez vezes maior de IRAS tardia (OR = 10,00; IC95% 6,66–16,66) e cada dia de cateter aumentou em 9% essa chance (OR = 1,09; IC95% 1,07–1,11), e também identificou-se gradiente nessa associação, com o aumento do número de CVC utilizados, elevando a chance (OR = 3,93; IC95% 3,02–5,12). A realização de cirurgia, associou-se com chance quatro vezes maior de IRAS (OR = 4,00; IC95% 2,27–7,14); por fim, cada dia a mais de tempo total de internamento elevou em 6% as chances de IRAS tardia (OR = 1,06; IC95% 1,05–1,07) ( <xref ref-type="table" rid="t2002">Tabela 2</xref> ).</p>
+				<p>Dentre os casos encontrados, 164 tiveram dois ou mais episódios infecciosos assim distribuídos: 50 pacientes tiveram duas IRAS tardia, 20 tiveram três, 10 tiveram quatro, seis tiveram cinco, dois tiveram seis, e um teve sete IRAS tardia. Dentre os notificados como IRAS tardia, 54 (12,6%) apresentaram registro de hemocultura positiva para as infecções causadas por bactérias (n = 47), sete (14,9%) foram causadas por bactérias multirresistentes, as outras sete (13%) foram por fungos. As bactérias e/ou fungos identificados estão descritas na <xref ref-type="table" rid="t3002">Tabela 3</xref> .</p>
+				<p>
+					<table-wrap id="t3002">
+						<label>Tabela 3</label>
+						<caption>
+							<title>Resultados das hemoculturas positivas nas IRAS tardias em UTIN. Ceará, Brasil, 2013 a 2017.</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left">Hemocultura</th>
+									<th>Frequência absoluta (n)</th>
+									<th>Frequência relativa (%)</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Bactéria Gram-negativa</td>
+									<td align="center">26</td>
+									<td align="center">48,1</td>
+								</tr>
+								<tr>
+									<td>Bactéria Gram-positiva</td>
+									<td align="center">21</td>
+									<td align="center">38,9</td>
+								</tr>
+								<tr>
+									<td>Fungo</td>
+									<td align="center">7</td>
+									<td align="center">13,0</td>
+								</tr>
+								<tr>
+									<td>Total</td>
+									<td align="center">54</td>
+									<td align="center">100,0</td>
+								</tr>
+							</tbody>
+						</table>
+					</table-wrap>
+				</p>
+				<p>A análise multivariada hierarquizada para o desfecho evidenciou associação significativa após ajuste no modelo final, como idade gestacional menor do que 30 semanas (OR = 5,62; IC95% 1,83–17,28); uso de ventilação mecânica (OR = 1,84; IC95% 1,26–2,68); uso de CVC (OR = 2,48; IC95% 1,40–4,37) e tempo de internação (OR = 1,06; IC95% 1,05–1,07) ( <xref ref-type="table" rid="t4002">Tabela 4</xref> ).</p>
+				<p>
+					<table-wrap id="t4002">
+						<label>Tabela 4</label>
+						<caption>
+							<title>Modelo final de acordo com as variáveis clínicas e dos procedimentos utilizados durante o internamento, com respectivos <italic>odds ratio</italic> , IC95%. Ceará, Brasil, 2013 a 2017.</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left" style="font-weight:normal">
+									</th>
+									<th>Odds ratio (IC95%)</th>
+									<th>p</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Prematuro &lt; 30 semanas</td>
+									<td align="center">5,62 (1,83–17,28)</td>
+									<td align="center">0,003<sup>a</sup></td>
+								</tr>
+								<tr>
+									<td>Uso de ventilação mecânica</td>
+									<td align="center">1,84 (1,26–2,68)</td>
+									<td align="center">0,001<sup>b</sup></td>
+								</tr>
+								<tr>
+									<td>Uso de cateter central</td>
+									<td align="center">2,48 (1,40–4,37)</td>
+									<td align="center">0,002<sup>b</sup></td>
+								</tr>
+								<tr>
+									<td>Tempo total de internamento</td>
+									<td align="center">1,06 (1,05–1,07)</td>
+									<td align="center">&lt; 0,0001<sup>a</sup></td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN5002">
+								<p><sup>a</sup>Covariate Wald p-value.</p>
+							</fn>
+							<fn id="TFN6002">
+								<p><sup>b</sup>Type 3 Wald p-value.</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+			</sec>
+			<sec sec-type="discussion">
+				<title>DISCUSSÃO</title>
+				<p>Neste estudo, identificou-se que a ocorrência de IRAS tardia foi de 37,7%, e as chances de infecção aumentam conforme o nível de prematuridade, o uso de ventilação mecânica, o uso de CVC e o tempo de internamento.</p>
+				<p>A prevalência de IRAS tardia foi semelhante à de outros locais estudados: egípcio, 38,5%<sup><xref ref-type="bibr" rid="B20">20</xref></sup> , brasileiro, 34%<sup><xref ref-type="bibr" rid="B6">6</xref></sup> e indiano, 31%<sup><xref ref-type="bibr" rid="B21">21</xref></sup> , porém bem maior do que em Taiwan, 11,4%<sup><xref ref-type="bibr" rid="B22">22</xref></sup> e em estudo multicêntrico europeu, 10,7%<sup><xref ref-type="bibr" rid="B23">23</xref></sup> , esse desfecho esteve associado à prematuridade entre menores que 30 semanas de idade gestacional, uso de ventilação mecânica, uso de CVC e tempo de internamento.</p>
+				<p>Os agentes infecciosos predominantes neste estudo foram bactérias Gram-negativas (48,1%), Gram-positivas (38,9%) e fungos (13%), predomínio também observado em estudo indiano por bactérias Gram-negativas (61%) seguidos por Gram-positivas (39%)<sup><xref ref-type="bibr" rid="B24">24</xref></sup> ; em estudo iraniano, por Gram-negativas (40%), Gram-positivas (20,7%) e fungos (6,7%)<sup><xref ref-type="bibr" rid="B25">25</xref></sup> , e na Jordânia, por Gram-negativas (62%), Gram-positivas (31%), e fungos (7%)<sup><xref ref-type="bibr" rid="B26">26</xref></sup> , onde também foi observado alta resistência bacteriana de cerca de 39%<sup><xref ref-type="bibr" rid="B27">27</xref></sup> , maior do que a observada neste estudo que foi de 14,9%.</p>
+				<p>Houve significativa associação entre IRAS e a idade gestacional nos mais prematuros, na análise bivariada, houve chance 18 vezes maior em menores de 30 semanas, permanecendo no modelo final após ajustes com outras variáveis. O recém-nascido já é naturalmente susceptível às infecções pela imaturidade de suas defesas imunológicas<sup><xref ref-type="bibr" rid="B3">3</xref></sup> , quando existem outros fatores como prematuridade e/ou baixo peso, o risco de complicações aumenta e, portanto, a necessidade de mais procedimentos invasivos e maior tempo de internamento. O prematuro apresenta frequentemente imaturidade pulmonar caracterizada como síndrome do desconforto respiratório (SDR) ou doença da membrana hialina, decorrente da deficiência do surfactante alveolar<sup><xref ref-type="bibr" rid="B28">28</xref></sup> . Devido à SDR, é comum o uso da ventilação mecânica para auxiliar os pulmões na manutenção das trocas gasosas<sup><xref ref-type="bibr" rid="B29">29</xref></sup> . Quanto mais prematuro, independente do peso, maior a gravidade da SDR e da necessidade de procedimentos invasivos, com aumento do risco de IRAS. Como frequentemente há relação direta entre peso mais baixo e prematuridade, essas variáveis podem se confundir nas análises estatísticas.</p>
+				<p>Neste estudo houve associação a IRAS tardia com o uso de CVC e de ventilação mecânica, o que ocorreu também em outros estudos, embora com valores maiores: uso de CVC (OR = 4,32; IC95% 1,95–9,56) e uso de ventilação mecânica (OR = 3,42; IC95% 2,17–5,41)<sup><xref ref-type="bibr" rid="B6">6</xref></sup> . Em estudo transversal realizado entre 2013 e 2015, no Rio Grande do Sul, o uso de ventilação mecânica e realização de cirurgia apresentaram associação estatística significativa para IRAS em neonatos com hemocultura positiva (47,97% dos infectados)<sup><xref ref-type="bibr" rid="B10">10</xref></sup> ; outro trabalho em Londrina, no Paraná, no período de 2001 a 2005, observou associação relevante com intubação e uso de CVC<sup><xref ref-type="bibr" rid="B21">21</xref></sup> .</p>
+				<p>Em metanálise de 22 estudos (2.270 recém-nascidos com infecção e 21.605 sem infecção), publicada em 2019<sup><xref ref-type="bibr" rid="B30">30</xref></sup> , foram associados como risco para IRAS tardia: peso &lt; 2.500g (RR = 3,44; IC95% 2,31–5,11), prematuridade (RR = 3,85; IC95% 1,87–7,92), uso de ventilação mecânica (RR = 3,16; IC95% 2,21–4,50), e asfixia (RR = 1,68; IC95% 1,04–2,71). Este trabalho também associou IRAS a prematuridade e ventilação mecânica. Em estudo indiano, houve associação com prematuridade (OR = 3,05; IC95% 1,94–9,88), CVC (OR = 15,11; IC95% 3,40–67,01), ventilação mecânica (OR = 8,94; IC95% 1,32–60,31) e tempo de permanência em UTIN maior do que 10 dias (OR = 4,09; IC95% 1,05–16,70)<sup><xref ref-type="bibr" rid="B25">25</xref></sup> , o que também ocorreu neste estudo, embora com valores menores. A utilização de cateteres intravasculares tornou-se nos últimos anos uma prática quase indispensável em cuidados intensivos, por ser um acesso vascular de alto débito<sup><xref ref-type="bibr" rid="B18">18</xref></sup> , além da dificuldade de acesso vascular periférico em recém-nascidos. A desvantagem do acesso central é o aumento do risco de infecção local ou sistêmica, podendo ocasionar infecção da corrente sanguínea associada ao CVC<sup><xref ref-type="bibr" rid="B18">18</xref></sup> . Como frequentemente o recém-nascido faz uso de mais de um acesso central, maior é o manuseio e maior o risco de IRAS<sup><xref ref-type="bibr" rid="B18">18</xref></sup> . Quanto maior o tempo de internação e mais procedimentos invasivos forem necessários para assistência ao recém-nascido, com o uso de dispositivos invasivos como cateteres centrais e ventilação mecânica, por exemplo, maior o manuseio e risco de IRAS.</p>
+				<p>Apesar dos resultados encontrados neste estudo serem consistentes com a literatura nacional e internacional, existem limitações dignas de nota. O uso de dados secundários retrospectivamente pode levar a registros incompletos no prontuário, principalmente em relação aos dados do recém-nascido e ao tempo de uso dos procedimentos invasivos. Isso foi contornado através de revisão de todo o internamento por meio dos registros de declaração de nascido vivo e/ou de relatório de transferência inter-hospitalar e das evoluções diárias de toda a equipe multiprofissional.</p>
+				<p>Foi evidenciado que a IRAS tardia ainda é muito frequente em UTIN, que os prematuros ainda são um grupo de risco bastante vulnerável à infecção e que os procedimentos invasivos, essenciais para a maioria dos neonatos criticamente doentes, devem ser criteriosamente indicados.</p>
+			</sec>
+			<sec sec-type="conclusions">
+				<title>CONCLUSÕES</title>
+				<p>Concluímos que, embora não seja possível evitar procedimentos invasivos em neonatos críticos, as práticas de inserção, instalação e manutenção desses dispositivos devem ser rigorosamente revisadas junto às comissões de controle de infecção hospitalar e de segurança na assistência, obedecendo a protocolos atualizados e vigilantes. O uso criterioso de antimicrobianos, aplicados para evitar o aparecimento de bactérias multirresistentes também é ação prioritária. Para a prematuridade, a melhor estratégia é prevenir a ocorrência de partos prematuros, pois o meio intrauterino na maioria das vezes, com o seguimento pré-natal adequado, é o mais seguro para a permanência do feto o maior tempo possível, até próximo ou atingir a idade gestacional de termo.</p>
+			</sec>
+		</body>
+		<back>
+			<fn-group>
+				<fn fn-type="financial-disclosure" id="fn2002">
+					<p><bold>Financiamento:</bold> Fundação Cearense de Apoio ao Desenvolvimento Científico e Tecnológico (Funcap - Edital Jovens Doutores - nº 02/2017).</p>
+				</fn>
+			</fn-group>
+		</back>
+	</sub-article>
+</article>

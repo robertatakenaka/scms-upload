@@ -1,0 +1,2313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.1" specific-use="sps-1.9" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="nlm-ta">Rev Saude Publica</journal-id>
+			<journal-id journal-id-type="publisher-id">rsp</journal-id>
+			<journal-title-group>
+				<journal-title>Revista de Saúde Pública</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Rev. Saúde Pública</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="ppub">0034-8910</issn>
+			<issn pub-type="epub">1518-8787</issn>
+			<publisher>
+				<publisher-name>Faculdade de Saúde Pública da Universidade de São Paulo</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="other">00231</article-id>
+			<article-id pub-id-type="doi">10.11606/s1518-8787.2022056003546</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Original Article</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>ArboAlvo: stratification method for territorial receptivity to urban arboviruses</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-0326-6053</contrib-id>
+					<name>
+						<surname>Siqueira</surname>
+						<given-names>Alexandre San Pedro</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-5531-2832</contrib-id>
+					<name>
+						<surname>Praça</surname>
+						<given-names>Heitor Levy Ferreira</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff9"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-9780-9911</contrib-id>
+					<name>
+						<surname>Santos</surname>
+						<given-names>Jefferson Pereira Caldas dos</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff9"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-8883-2789</contrib-id>
+					<name>
+						<surname>Albuquerque</surname>
+						<given-names>Hermano Gomes</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff9"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-8110-7795</contrib-id>
+					<name>
+						<surname>Pereira</surname>
+						<given-names>Leandro Vouga</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff9"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-5849-343X</contrib-id>
+					<name>
+						<surname>Simões</surname>
+						<given-names>Taynãna Cesar</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>III</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-1871-711X</contrib-id>
+					<name>
+						<surname>Gusmão</surname>
+						<given-names>Eduardo Viana Vieira</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff4"><sup>IV</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-4171-431X</contrib-id>
+					<name>
+						<surname>Pereira</surname>
+						<given-names>Aline Aparecida Thomaz</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff5"><sup>V</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-2365-9660</contrib-id>
+					<name>
+						<surname>Pimenta</surname>
+						<given-names>Fabiano Geraldo</given-names>
+						<suffix>Júnior</suffix>
+					</name>
+					<xref ref-type="aff" rid="aff4"><sup>IV</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-6306-9257</contrib-id>
+					<name>
+						<surname>Nobre</surname>
+						<given-names>Aline Araújo</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff6"><sup>VI</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-2489-9300</contrib-id>
+					<name>
+						<surname>Alves</surname>
+						<given-names>Mariane Branco</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff7"><sup>VII</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-1161-2753</contrib-id>
+					<name>
+						<surname>Barcellos</surname>
+						<given-names>Christovam</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff8"><sup>VIII</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-9566-0284</contrib-id>
+					<name>
+						<surname>Carvalho</surname>
+						<given-names>Marilia Sá</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff6"><sup>VI</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-8235-0562</contrib-id>
+					<name>
+						<surname>Sabroza</surname>
+						<given-names>Paulo Chagastelles</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff9"><sup>IX</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-2535-3844</contrib-id>
+					<name>
+						<surname>Honório</surname>
+						<given-names>Nildimar Alves</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff9"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>I</label>
+				<institution content-type="orgname">Fundação Oswaldo Cruz</institution>
+				<institution content-type="orgdiv1">Instituto Oswaldo Cruz</institution>
+				<institution content-type="orgdiv2">Laboratório de Mosquitos Transmissores de Hematozoários</institution>
+				<addr-line>
+					<named-content content-type="city">Rio de Janeiro</named-content>
+					<named-content content-type="state">RJ</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Fundação Oswaldo Cruz. Instituto Oswaldo Cruz. Laboratório de Mosquitos Transmissores de Hematozoários. Rio de Janeiro, RJ, Brasil</institution>
+			</aff>
+			<aff id="aff2">
+				<label>II</label>
+				<institution content-type="orgname">Fundação Oswaldo Cruz</institution>
+				<institution content-type="orgdiv1">Núcleo Operacional Sentinela de Mosquitos Vetores-Nosmove</institution>
+				<addr-line>
+					<named-content content-type="city">Rio de Janeiro</named-content>
+					<named-content content-type="state">RJ</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Fundação Oswaldo Cruz. Núcleo Operacional Sentinela de Mosquitos Vetores-Nosmove. Rio de Janeiro, RJ, Brasil</institution>
+			</aff>
+			<aff id="aff3">
+				<label>III</label>
+				<institution content-type="orgname">Fundação Oswaldo Cruz</institution>
+				<institution content-type="orgdiv1">Instituto René Rachou</institution>
+				<institution content-type="orgdiv2">Núcleo de Estudos em Saúde Pública e Envelhecimento</institution>
+				<addr-line>
+					<named-content content-type="city">Minas Gerais</named-content>
+					<named-content content-type="state">MG</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Fundação Oswaldo Cruz. Instituto René Rachou. Núcleo de Estudos em Saúde Pública e Envelhecimento. Minas Gerais, MG, Brasil</institution>
+			</aff>
+			<aff id="aff4">
+				<label>IV</label>
+				<institution content-type="orgname">Secretaria Municipal de Saúde de Belo Horizonte</institution>
+				<institution content-type="orgdiv1">Subsecretaria de Promoção e Vigilância em Saúde</institution>
+				<addr-line>
+					<named-content content-type="city">Minas Gerais</named-content>
+					<named-content content-type="state">MG</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Secretaria Municipal de Saúde de Belo Horizonte. Subsecretaria de Promoção e Vigilância em Saúde. Minas Gerais, MG, Brasil</institution>
+			</aff>
+			<aff id="aff5">
+				<label>V</label>
+				<institution content-type="orgname">Secretaria de Estado de Saúde de Minas Gerais</institution>
+				<institution content-type="orgdiv1">Subsecretaria de Vigilância em Saúde</institution>
+				<institution content-type="orgdiv2">Superintendência de Vigilância Epidemiológica</institution>
+				<addr-line>
+					<named-content content-type="city">Minas Gerais</named-content>
+					<named-content content-type="state">MG</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Secretaria de Estado de Saúde de Minas Gerais. Subsecretaria de Vigilância em Saúde. Superintendência de Vigilância Epidemiológica. Minas Gerais, MG, Brasil</institution>
+			</aff>
+			<aff id="aff6">
+				<label>VI</label>
+				<institution content-type="orgname">Fundação Oswaldo Cruz</institution>
+				<institution content-type="orgdiv1">Programa de Computação Científica</institution>
+				<addr-line>
+					<named-content content-type="city">Rio de Janeiro</named-content>
+					<named-content content-type="state">RJ</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Fundação Oswaldo Cruz. Programa de Computação Científica. Rio de Janeiro, RJ, Brasil</institution>
+			</aff>
+			<aff id="aff7">
+				<label>VII</label>
+				<institution content-type="orgname">Universidade Federal do Rio de Janeiro</institution>
+				<institution content-type="orgdiv1">Instituto de Matemática</institution>
+				<addr-line>
+					<named-content content-type="city">Rio de Janeiro</named-content>
+					<named-content content-type="state">RJ</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Universidade Federal do Rio de Janeiro. Instituto de Matemática. Rio de Janeiro, RJ, Brasil</institution>
+			</aff>
+			<aff id="aff8">
+				<label>VIII</label>
+				<institution content-type="orgname">Fundação Oswaldo Cruz</institution>
+				<institution content-type="orgdiv1">Instituto de Comunicação e Informação Científica e Tecnológica em Saúde</institution>
+				<addr-line>
+					<named-content content-type="city">Rio de Janeiro</named-content>
+					<named-content content-type="state">RJ</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Fundação Oswaldo Cruz. Instituto de Comunicação e Informação Científica e Tecnológica em Saúde. Rio de Janeiro, RJ, Brasil</institution>
+			</aff>
+			<aff id="aff9">
+				<label>IX</label>
+				<institution content-type="orgname">Fundação Oswaldo Cruz</institution>
+				<institution content-type="orgdiv1">Escola Nacional de Saúde Pública</institution>
+				<addr-line>
+					<named-content content-type="city">Rio de Janeiro</named-content>
+					<named-content content-type="state">RJ</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Fundação Oswaldo Cruz. Escola Nacional de Saúde Pública. Rio de Janeiro, RJ, Brasil</institution>
+			</aff>
+			<author-notes>
+				<corresp id="c01"><bold>Correspondence:</bold> Alexandre San Pedro Siqueira Instituto Oswaldo Cruz Avenida Brasil, 4.365 21041-361 Rio de Janeiro, RJ, Brasil E-mail: <email>alexandre.siqueira@ioc.fiocruz.br</email>
+				</corresp>
+				<fn fn-type="con">
+					<p><bold>Authors’ Contribution:</bold> Study design and planning: ASPS, HLFP, JPCS, HGA, LVP, AAN, MBA, CB, MSC, PCS, NAH. Data collection, analysis, and interpretation: ASPS, HLFP, JPCS, HGA, LVP, TSC, EVVG, AATP, FGPJ, NAH. Drafting or revision of the manuscript: ASPS, HLFP, JPCS, HGA, LVP, TSC, EVVG, AATP, FGPJ, AAN, MBA, CB, MSC, PCS, NAH. Approval of final version : ASPS, HLFP, JPCS, HGA, LVP, TSC, EVVG, AATP, FGPJ, AAN, MBA, CB, MSC, PCS, NAH. Public responsibility for the content of the article: ASPS, HLFP, JPCS, HGA, LVP, TSC, EVVG, AATP, FGPJ, AAN, MBA, CB, MSC, PCS, NAH.</p>
+				</fn>
+				<fn fn-type="conflict">
+					<p><bold>Conflict of Interest:</bold> The authors declare no conflict of interest.</p>
+				</fn>
+			</author-notes>
+			<pub-date date-type="pub" publication-format="electronic">
+				<day>27</day>
+				<month>05</month>
+				<year>2022</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">
+				<year>2022</year>
+			</pub-date>
+			<volume>56</volume>
+			<elocation-id>39</elocation-id>
+			<history>
+				<date date-type="received">
+					<day>2</day>
+					<month>02</month>
+					<year>2021</year>
+				</date>
+				<date date-type="accepted">
+					<day>24</day>
+					<month>06</month>
+					<year>2021</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="en">
+					<license-p> This is an Open Access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. </license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>ABSTRACT</title>
+				<sec>
+					<title>OBJECTIVE</title>
+					<p> To present the urban arboviruses (dengue, zika and chikungunya) stratification methodology by the territorial receptivity Index, an instrument for the surveillance and control of these diseases, which considers the heterogeneity of an intra-municipal territory.</p>
+				</sec>
+				<sec>
+					<title>METHODS</title>
+					<p> Ecological study that uses as unit of analysis the areas covered by health centers in Belo Horizonte. For the development of a territorial receptivity index, indicators of socio-environmental determination of urban arboviruses were selected in order to integrate the analysis of main components. The resulting components were weighted by the analytic hierarchy process and combined via map algebra.</p>
+				</sec>
+				<sec>
+					<title>RESULTS</title>
+					<p> The territorial receptivity index showed great heterogeneity of urban infrastructure conditions. The areas classified with high and very high receptivity correspond to approximately 33% of the occupied area and are mainly concentrated in the administrative planning regions of East, Northeast, North, West, and Barreiro, especially in areas surrounding the municipality. When the density of dengue cases and <italic>Aedes</italic> eggs, from 2016, were superimposed with the stratification by the index of territorial receptivity to urban arboviruses, areas of very high receptivity had a high density of cases and <italic>Aedes</italic> eggs – higher than that observed in other areas of the city, which corresponds to a very small percentage of the municipal territory (13.5%).</p>
+				</sec>
+				<sec>
+					<title>CONCLUSION</title>
+					<p> The analyses indicate the need for the development of adequate surveillance and control actions for each context, overcoming the logic of homogeneous allocation throughout the territory.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="en">
+				<kwd>Arbovirus Infections, epidemiology</kwd>
+				<kwd>Risk Factors</kwd>
+				<kwd>Risk Zone, classification</kwd>
+				<kwd>Epidemiological Monitoring</kwd>
+				<kwd>Ecological Studies</kwd>
+			</kwd-group>
+			<funding-group>
+				<award-group>
+					<funding-source>Brazilian Ministry of Health</funding-source>
+					<award-id>90/2016</award-id>
+				</award-group>
+				<award-group>
+					<funding-source>Brazilian Ministry of Health</funding-source>
+					<award-id>139/2019</award-id>
+				</award-group>
+				<funding-statement>Funding: Brazilian Ministry of Health – National Health Fund/Decentralized execution terms (TED) number 90/2016 and 139/2019.</funding-statement>
+			</funding-group>
+			<counts>
+				<fig-count count="6"/>
+				<table-count count="6"/>
+				<equation-count count="0"/>
+				<ref-count count="32"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>INTRODUCTION</title>
+			<p>The emergence of zika virus and chikungunya in areas of high endemicity for dengue has proved to be a great challenge for surveillance and control services in several countries. The expansion of these arboviruses in urban areas is an important public health issue, whose etiological agents are transmitted by mosquitoes of the genus <italic>Aedes</italic> , especially <italic>Aedes aegypti</italic> . With approximately 390 million cases annually in the world, such endemics results in economic and social losses, of individual and collective nature, generating increasing expenditures on clinical care<sup><xref ref-type="bibr" rid="B1">1</xref></sup> .</p>
+			<p>The simultaneous occurrence of the three arboviruses in Brazil is an important challenge for the Unified Health System (SUS) due to the magnitude and severity of the cases, difficulties of a differential diagnosis, and to the wide geographical distribution of cases, reaching most municipalities of the five macro-regions of the country<sup><xref ref-type="bibr" rid="B5">5</xref></sup> .</p>
+			<p>The reproduction of these arboviruses in urban environments is conditioned by socio-environmental factors, demographic dynamics, high levels of infestation of the <italic>Aedes aegypti</italic> , and the viral circulation of different serotypes of dengue, zika, and chikungunya in each territory<sup><xref ref-type="bibr" rid="B6">6</xref> , <xref ref-type="bibr" rid="B7">7</xref></sup> .</p>
+			<p>Historically, surveillance and entomological control actions are based on surveys on <italic>Aedes aegypti</italic> infestation indices, which, disregarding other indicators and their respective contexts, have a low capacity to predict the risk of transmission for urban arboviruses<sup><xref ref-type="bibr" rid="B8">8</xref></sup> . Most control measures have shown a certain degree of effectiveness only when the actions are continuously applied in an intense, standardized, and wide-ranging manner<sup><xref ref-type="bibr" rid="B9">9</xref></sup> . Under the conditions of the municipal control services routine, none of the measures, so far, has demonstrated potential to prevent transmission in the long-term, which suggests the need for integrated and permanent approaches, capable of incorporating the territory’s socio-environmental complexity<sup><xref ref-type="bibr" rid="B3">3</xref> , <xref ref-type="bibr" rid="B10">10</xref></sup> .</p>
+			<p>Given the operational limitations for vector control actions throughout a specific territory, the current strategies should be reworked, considering the heterogeneity of socio-environmental conditions and their specificities, which are fundamental for the development of specific actions for each context. Thus, the new paradigm in the control of urban arboviruses associated with <italic>Aedes aegypti</italic> maintains that the risk of transmission is distributed heterogeneously throughout the territory, which calls for approaches that stratify and qualify intra-municipal territorial units (neighborhoods, districts, administrative areas) in terms of socio-environmental conditions, proposing differentiated surveillance and control actions<sup><xref ref-type="bibr" rid="B8">8</xref></sup> . This approach on surveillance and control is indicated by different institutions as the most suitable for the identification of areas with different levels of transmission risk<sup><xref ref-type="bibr" rid="B11">11</xref> , <xref ref-type="bibr" rid="B12">12</xref></sup> .</p>
+			<p>One research project, known as the ArboAlvo – funded by the Brazilian Ministry of Health and executed by the Oswaldo Fiocruz Institute/Oswaldo Cruz Foundation (IOC/Fiocruz) – seeks to develop risk stratification methodologies for urban arboviruses on an intra-municipal scale; thus, the method for territorial receptivity for urban arboviruses was developed.</p>
+			<p>The term “receptivity” has been used as part of the theoretical framework of studies on malaria and as a dimension of socio-environmental determinants related to the disease. This concept was expanded to the field of studies of arthropods-borne diseases in the late 1970s, from a study developed by the World Health Organization (WHO)<sup><xref ref-type="bibr" rid="B13">13</xref></sup> , and is still used to this day<sup><xref ref-type="bibr" rid="B14">14</xref> , <xref ref-type="bibr" rid="B15">15</xref></sup> . In this context, it refers to a characteristic of areas in which there is an “abundant presence of vector anophelines and the existence of other ecological and climatic factors favouring malaria transmission”<sup><xref ref-type="bibr" rid="B14">14</xref></sup> . In this regard, the ecological factors involved in the concept of receptivity to malaria presuppose the existence of factors related to rural or forest territories<sup><xref ref-type="bibr" rid="B16">16</xref></sup> .</p>
+			<p>If we consider the theoretical framework initially developed for malaria and analyze the production process of vector-borne arboviruses in urban environments, such as dengue, zika, and chikungunya, we can then understand the concept of receptivity according to different socio-environmental characteristics, in relation to the infrastructural conditions that provide the reproduction of <italic>Aedes aegypti</italic> . Thus, the territorial aspects related to the urban space occupation are relevant for identifying receptivity conditions. Since they are aimed at diseases with well-established social and environmental determinants, the surveillance and control of urban arboviruses must articulate a technical component that conceives the territory as the basis for the organization of health services and actions, for population sustainability and in which the context explains the production of health problems. That is, as a field of shared responsibilities and actions, which comprises, in addition to its morphological characteristics, an area for the exercise of knowledge and power<sup><xref ref-type="bibr" rid="B17">17</xref></sup> .</p>
+			<p>This article presents a stratification methodology via the territorial receptivity index (TRI) for urban arboviruses as a tool for the surveillance and control of dengue, zika, and chikungunya. Therefore, it considers the heterogeneity of the intra-municipal territory of Belo Horizonte, State of Minas Gerais (MG).</p>
+		</sec>
+		<sec sec-type="methods">
+			<title>METHODS</title>
+			<p>The process of creating a territorial receptivity index for urban arboviruses associated with the <italic>Aedes aegypti</italic> was carried out from an ecological design that uses as unit of analysis the areas covered by health centers<sup><xref ref-type="bibr" rid="B18">18</xref></sup> in Belo Horizonte. A series of indicators was synthesized in dimensions (by multivariate analysis), weighted by analytic hierarchy process (AHP)<sup><xref ref-type="bibr" rid="B19">19</xref></sup> , and synthesized again, which resulted in the aforementioned index. This study was conducted within the framework of ArboAlvo, approved by the Research Ethics Committee of the Oswaldo Cruz Institute (CEP-IOC), under Protocol No. 51057015.5.0000.5537.</p>
+			<sec>
+				<title>Area of Study</title>
+				<p>Belo Horizonte, capital of the state of Minas Gerais, has approximately 331.401 km<sup><xref ref-type="bibr" rid="B2">2</xref></sup> and, in 2019, an estimated urban population of 2,510,072 inhabitants, with a population density of approximately 7,167/ km<sup><xref ref-type="bibr" rid="B2">2</xref></sup> . The municipality is located at an average altitude of 852 meters above sea level and has high-altitude tropical climate, characterized by moderately hot and humid summers and dry winters with low temperatures. The average annual precipitation is about 1,400 mm<sup><xref ref-type="bibr" rid="B20">20</xref> , <xref ref-type="bibr" rid="B21">21</xref></sup> .</p>
+				<p>In social terms, Belo Horizonte has a high Human Development Index (0.81), a moderate income distribution inequality (Gini coefficient of 0.6), and a percentage of poor population of approximately 4% (100,402 inhabitants)<sup><xref ref-type="bibr" rid="B20">20</xref></sup> . The city is endemic to dengue and has reported cases of zika and chikungunya<sup><xref ref-type="bibr" rid="B22">22</xref></sup> .</p>
+				<p>The municipality is divided into nine administrative regions and 485 neighborhoods ( <xref ref-type="table" rid="t1">Table 1</xref> ). In addition to the administrative planning regions (APR) and neighborhoods, the municipality of Belo Horizonte has another territorial unit, defined by the Municipal Health Department (MHD), called the health center’s area of coverage (152 areas). In the study that originated this article, the areas of coverage were used as spatial units of analysis, since the stratification of the receptivity at the intramunicipal level should be able to communicate with the territorialization of the surveillance and control actions of urban arboviruses Belo Horizonte`s MHD<sup><xref ref-type="bibr" rid="B23">23</xref></sup> .</p>
+				<p>
+					<table-wrap id="t1">
+						<label>Table 1</label>
+						<caption>
+							<title>Geographical and demographic characteristics of the administrative regions (AR) of the municipality of Belo Horizonte, State of Minas Gerais.</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left">AR</th>
+									<th>Number of areas covered by health centers</th>
+									<th>Number of neighbourhoods</th>
+									<th>Area (km<sup>2</sup>)</th>
+									<th>% of total urban area</th>
+									<th>Total number of inhabitants</th>
+									<th>Population density (hab./ km<sup>2</sup>)</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Barreiro</td>
+									<td align="center">20</td>
+									<td align="center">73</td>
+									<td align="center">53.46</td>
+									<td align="center">16.14</td>
+									<td align="center">282,552</td>
+									<td align="center">5,242.3</td>
+								</tr>
+								<tr>
+									<td>South-Central</td>
+									<td align="center">12</td>
+									<td align="center">43</td>
+									<td align="center">31.73</td>
+									<td align="center">9.58</td>
+									<td align="center">283,776</td>
+									<td align="center">8,698.8</td>
+								</tr>
+								<tr>
+									<td>East</td>
+									<td align="center">14</td>
+									<td align="center">44</td>
+									<td align="center">27.89</td>
+									<td align="center">8.42</td>
+									<td align="center">238,539</td>
+									<td align="center">8,473.6</td>
+								</tr>
+								<tr>
+									<td>Northeast</td>
+									<td align="center">21</td>
+									<td align="center">68</td>
+									<td align="center">39.32</td>
+									<td align="center">11.87</td>
+									<td align="center">290,353</td>
+									<td align="center">7,347.0</td>
+								</tr>
+								<tr>
+									<td>Northwest</td>
+									<td align="center">16</td>
+									<td align="center">65</td>
+									<td align="center">30.07</td>
+									<td align="center">9.07</td>
+									<td align="center">268,038</td>
+									<td align="center">8,953.7</td>
+								</tr>
+								<tr>
+									<td>North</td>
+									<td align="center">20</td>
+									<td align="center">45</td>
+									<td align="center">32.56</td>
+									<td align="center">9.83</td>
+									<td align="center">212,055</td>
+									<td align="center">6,468.9</td>
+								</tr>
+								<tr>
+									<td>West</td>
+									<td align="center">18</td>
+									<td align="center">60</td>
+									<td align="center">35.93</td>
+									<td align="center">10.84</td>
+									<td align="center">308,549</td>
+									<td align="center">8,776.3</td>
+								</tr>
+								<tr>
+									<td>Pampulha</td>
+									<td align="center">14</td>
+									<td align="center">50</td>
+									<td align="center">51.03</td>
+									<td align="center">15.40</td>
+									<td align="center">226,110</td>
+									<td align="center">4,416.8</td>
+								</tr>
+								<tr>
+									<td>Venda Nova</td>
+									<td align="center">17</td>
+									<td align="center">37</td>
+									<td align="center">29.16</td>
+									<td align="center">8.80</td>
+									<td align="center">265,179</td>
+									<td align="center">9,109.4</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<attrib>Source: City Hall of Belo Horizonte, IBGE.</attrib>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+			</sec>
+			<sec>
+				<title>Composition of the TRI to Urban Arboviruses Associated with Aedes aegypti</title>
+				<p>From the adopted theoretical conception on territorial receptivity, 30 indicators were created based on literature review<sup><xref ref-type="bibr" rid="B24">24</xref></sup> and on the expertise of the authors, capable of identifying territory factors related to urban arboviruses. Indicators were elaborated regarding the municipality’s urban area growth, the population density per built area, the percentage of area with subnormal agglomerations, the altimetry, the constructed areas, the identification of vegetation areas, the conditions surrounding dwellings, and the housings sociosanitary characteristics.</p>
+				<p>For the development of Belo Horizonte’s urban growth indicator, a mapping of land use and occupancy was carried out for three years (1984, 2000, and 2017), using images from Landsat 5 and 8 (spatial resolution of 30 m) acquired via Google Engine (https://earthengine.google.com); they were analyzed by supervised classification, using the following land use classes: urban area, vegetation, exposed soil, water bodies, and roads. Finally, the percentage of urban area growth of two periods (1984–2000; 2000–2017) was calculated for each of the city’s areas of coverage.</p>
+				<p>For the identification of vegetation areas, additional mapping of land use and occupancy was carried out. Images from 2016 was used from the Pleiades satellites constellation (spatial resolution of 0.5 m), analyzed via supervised classification to identify five classes (water bodies, built-up area, exposed soil, trees, and herbaceous vegetation). We opted for images from 2016 since the index was evaluated by its relationship with the dengue occurrence data for that epidemic year.</p>
+				<p>For the development of the population density by built area indicator (hab./ km2), the denominator was estimated by the mapping of built areas, with the visual interpretation of the Pleiades satellites images from 2016. Unlike the identification of land use – in which the urban area was defined without considering the effective use by the population – this mapping delimited all areas with anthropogenic constructions, public or industrial, and excluded the green areas and incipient allotment. This process resulted in two indicators: percentage of occupied area and real population density.</p>
+				<p>The percentage of areas with subnormal clusters was obtained from the 2010 Census cartographic base. The subnormal agglomerations – often classified as <italic>favelas</italic> or other local denominations – are characterized by their difficult accessibility, high density of buildings, precarious housing, and insufficient public services, such as water supply and waste collection<sup><xref ref-type="bibr" rid="B25">25</xref></sup> . This basis was complemented by georeferencing the information on Belo Horizonte’s <italic>favelas</italic> and by the active search for visual interpretation of satellite images. After this information collection, a base of subnormal clusters (vectorization) was built. The mapping of these areas by spatial unit of analysis resulted in the percentage of area with subnormal clusters.</p>
+				<p>The indicators for the housing’s surrounding conditions (open sewage, accumulated garbage, and lack of public lighting, paving, and manholes) and for the household conditions (water supply, sewage, garbage collection, average of people per household, source of electricity, income, and population composition), were based on the 2010 Census data. The information was combined with the adopted spatial units (areas of coverage) through the relationship between the Geographic Information Systems (GIS) plans of information.</p>
+				<p>The indicator for average altitude was created by transforming the level curves (5 m) into a smoothed surface with interpolation made by the Inverse Distance Weighted (IDW) method and subsequent mean extraction for each area of coverage via geoprocessing tools. On the other hand, the average verticalization was developed by calculating the average of the elevations of all buildings per area of coverage. Altimetry data – from laser mapping via LIDAR ( <italic>Light Detection and Ranging</italic> ) – and the level curves were obtained with the City Hall of Belo Horizonte (https://prefeitura.pbh.gov.br/prodabel).</p>
+				<p>Subsequently, statistical exploratory analysis was performed to select the indicators for the analysis of main components ( <xref ref-type="table" rid="t3">Box</xref> ), whereby three criteria were evaluated: 1) minimum variation coefficient of 25%; 2) no high positive correlation (redundancy); and 3) epidemiological plausibility. The highly negatively correlated variables were maintained by the high power of discrimination between the territorial units of analysis.</p>
+				<p>
+					<table-wrap id="t3">
+						<label>Box</label>
+						<caption>
+							<title>Territorial indicators selected to compose the analysis of main components in the development of the territorial receptivity index (TRI) of urban arboviruses.</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left">Territorial indicators</th>
+									<th>Definition</th>
+									<th>Hypothesis for the development of the indicator</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Percentage of occupied area.</td>
+									<td align="center">Ratio between the area occupied (with anthropogenic constructions) and the total area of coverage.</td>
+									<td align="center">The larger the area effectively occupied, the greater the possibility of potential breeding grounds (vector-host contact) and greater influence on surface temperature (built-up areas).</td>
+								</tr>
+								<tr>
+									<td>Percentage of increase in urban area from 1985 to 2000.</td>
+									<td align="center">Ratio between the area occupied in 1985 and 2000.</td>
+									<td align="center" rowspan="2">Areas of urban expansion may have a greater possibility of vector reproduction due to the difference between urban growth and public investment in sanitation infrastructure.</td>
+								</tr>
+								<tr>
+									<td>Percentage of increase in urban area from 2000 to 2017.</td>
+									<td align="center">Ratio between the area occupied in 2000 and 2017.</td>
+								</tr>
+								<tr>
+									<td>Average Altitude of the areas of coverage, in meters.</td>
+									<td align="center">Average Altitude, in meters, of each area of coverage.</td>
+									<td align="center">Areas with lower altitude have greater possibility of vector reproduction due to higher temperatures when compared with areas with higher altitudes.</td>
+								</tr>
+								<tr>
+									<td>Construction of the areas of coverage, in meters.</td>
+									<td align="center">Average of the altimetries of all buildings by area of coverage.</td>
+									<td align="center">Areas with greater construction / verticalization have better urban structure, sanitation infrastructure and income, in addition to the built space being unfavorable for the maintenance of vector breeding grounds.</td>
+								</tr>
+								<tr>
+									<td>Percentage of vegetation.</td>
+									<td align="center">Ratio of the area occupied by vegetation (exposed soil, arboreal and herbaceous vegetation) to the total of area of coverage.</td>
+									<td align="center">Areas with less vegetation are more likely to have potential breeding grounds and vector-host contact, since <italic>Aedes aegypti</italic> is an urban vector and greater influence on surface temperature.</td>
+								</tr>
+								<tr>
+									<td>Population density per built area.</td>
+									<td align="center">Number of inhabitants per km<sup>2</sup> of area effectively occupied (with anthropogenic constructions).</td>
+									<td align="center">The higher the population density per built area the greater the possibility of vector-host contact.</td>
+								</tr>
+								<tr>
+									<td>Percentage of area with subnormal clusters.</td>
+									<td align="center">Ratio of the area occupied by subnormal clusters to the total of area of coverage.</td>
+									<td align="center">The larger the area with subnormal clusters, the greater the possibility of vector production due to living conditions.</td>
+								</tr>
+								<tr>
+									<td>Percentage of housings with garbage accumulated in the surroundings.</td>
+									<td align="center">Ratio of housings in which the storage and accumulation of waste are in the immediate surroundings, by area of coverage.</td>
+									<td align="center" rowspan="2">The higher the percentage of housings with garbage is accumulated in the surroundings or thrown in empty lot, the greater the amount of possible foci of vector reproduction.</td>
+								</tr>
+								<tr>
+									<td>Percentage of housings with garbage thrown in empty lots, Rivers and / or ponds.</td>
+									<td align="center">Ratio of housings in which the waste is thrown into empty lots or public land (river, lake, or sea), by area of coverage.</td>
+								</tr>
+								<tr>
+									<td>Percentage of housings with open sewer in the surroundings.</td>
+									<td align="center">Ratio of housings in which their immediate surroundings have ditch, stream, or a body of water where usually occurs release of domestic sewage, by area of coverage.</td>
+									<td align="center" rowspan="3">The higher the percentage of housings in these conditions, the lower the investment of the public power in terms of urban infrastructure.</td>
+								</tr>
+								<tr>
+									<td>Percentage of housings without public lighting in the surroundings.</td>
+									<td align="center">Ratio of housings in which their immediate surroundings does not have a fixed point (pole) of street lighting, per area of coverage.</td>
+								</tr>
+								<tr>
+									<td>Percentage of housings without paving in the surroundings.</td>
+									<td align="center">Ratio of housings in which the stretch of the path where it is located does not have paving (public road with asphalt, cement, cobblestones, stones etc.), by area of coverage.</td>
+								</tr>
+								<tr>
+									<td>Percentage of housings without manhole in the surroundings.</td>
+									<td align="center">Ratio of housings in which the immediate surroundings have a manhole or culvert, that is, opening that gives access to underground drainage, through which water from rains, watering etc. flow., by area of coverage.</td>
+									<td align="center">The higher the percentage of housings without manholes in the surroundings, the greater the amount of possible foci of vector reproduction due to water accumulation.</td>
+								</tr>
+								<tr>
+									<td>Percentage of housings supplied by well and / or rain stored in Cistern.</td>
+									<td align="center">Ratio of housings supplied by well and / or rain stored in cistern, per area of coverage.</td>
+									<td align="center" rowspan="2">The higher the percentage of housings supplied by well in urban areas, the lower the investment in housing infrastructure.</td>
+								</tr>
+								<tr>
+									<td>Percentage of housings with inadequate sanitary depletion.</td>
+									<td align="center">Ratio of housings with exclusive use bathroom and sanitary depletion via rudimentary cesspit, ditch, river, lake, sea or other, by area of coverage.</td>
+								</tr>
+								<tr>
+									<td>Percentage of irregular housings.</td>
+									<td align="center">Ratio of housings in irregular occupation (not own, assigned or rented), per area of coverage.</td>
+									<td align="center" rowspan="2">The higher the percentage of housings in these conditions, the lower the degree of regularization, suggesting lower performance of the public power in the provision of services, configuring worse living conditions.</td>
+								</tr>
+								<tr>
+									<td>Percentage of housings with irregular energy source.</td>
+									<td align="center">Ratio of housings with irregular energy supply, per area of coverage.</td>
+								</tr>
+								<tr>
+									<td>Percentage of poor.</td>
+									<td align="center">Ratio of housings with monthly income <italic>per capita</italic> up to a minimum wage, per area of coverage.</td>
+									<td align="center">The higher the percentage of housings with low income, the lower the capacity for individual resolution of infrastructure needs.</td>
+								</tr>
+								<tr>
+									<td>Density of poor.</td>
+									<td align="center">Housings with monthly income <italic>per capita</italic> of up to one minimum wage per km2 of built area of a given spatial unit of analysis.</td>
+									<td align="center">Indicator that marks the existence of an area with population density with low capacity of individual supply of infrastructure.</td>
+								</tr>
+								<tr>
+									<td>Percentage of self-declared white population.</td>
+									<td align="center">Ratio of people self-reported as being of white color/race, per area of coverage.</td>
+									<td align="center">It marks a process of territorial occupation where inequality is observed in terms of individual conditions related to income, but also in terms of public investment in infrastructure.</td>
+								</tr>
+							</tbody>
+						</table>
+					</table-wrap>
+				</p>
+			</sec>
+			<sec>
+				<title>Multivariate Analysis and Calculation of the Receptivity Index</title>
+				<p>The extension of the receptivity to urban arboviruses associated with <italic>Aedes aegypti</italic> were developed from the principal components analysis (PCA), using the 21 indicators described in <xref ref-type="table" rid="t3">Box</xref> . The PCA is a multivariate analysis technique that aims to transform the original variables into components (orthogonal linear combinations) by which a synthesis is obtained with the least possible loss of information<sup><xref ref-type="bibr" rid="B26">26</xref></sup> . The indicators were standardized using the Kaiser criterion (eigenvalues &gt; 1) and the visualization of variance decay between components (scree plot) to identify those to be selected. The importance of each main component (weight) was assessed by means of the proportion of the total variance explained by it. The loads of each indicator were used to determine their importance in the development of the component.</p>
+				<p>The Territorial Receptivity Index (TRI) was based on a multicriteria analysis<sup><xref ref-type="bibr" rid="B27">27</xref></sup> . This procedure involves map algebra, by which the different plans of information are crossed according to their weights and notes, resulting in the map synthesis. This integration requires the standardization of the criteria by unifying the units across all the maps<sup><xref ref-type="bibr" rid="B28">28</xref></sup> . In our study, the components used were from the PCA – such as the information plans – generating maps of receptivity with the multicriteria analysis using the method of weighted linear combination, in which the components are normalized and associated with weights obtained with the analytic hierarchy process (AHP). This method weighs each component resulting from the PCA with pairwise comparison by specialists in relation to the outcome, and then, through matrix algebra, the weight of each component is obtained. Subsequently, the TRI was divided into quintiles, so that the resulting map presents five classes (very high, high, medium, low, and very low).</p>
+				<p>To assess the relationship between the TRI and the occurrence of urban arboviruses associated with <italic>Aedes aegypti</italic> , overlappings were performed to the information plan, which included the density of dengue cases and <italic>Aedes</italic> eggs (kernel estimator) referring to the epidemic year of 2016. The statistical correlation between these variables was estimated by means of the Spearman coefficient (non-parametric), keeping the 152 areas covered by the health centers as the unit of analysis. The two overlappings of these information plans also allowed for the calculation of some indicators, such as the number of areas of coverage and average density of dengue cases and <italic>Aedes</italic> eggs according to TRI levels, with the aim of pointing out priority areas for control.</p>
+				<p>The data regarding the suspected cases of dengue reported in Belo Horizonte in 2016, georeferenced according to residential address, and the data regarding the number of eggs of <italic>Aedes</italic> collected by ovitrampas were provided by the Health Department of the municipality. Georeferenced information is available only for dengue cases, justifying the exclusive focus of this study, disregarding other urban arboviruses associated with <italic>Aedes aegypti</italic> , thus allowing for the estimation of the density of cases, which would be impossible otherwise. Moreover, the frequency of dengue cases in 2016 was predominant among all arboviruses (154,143 cases or 99%) in relation to zika (1,495 cases or 0.1%) and chikungunya (95 cases or 0.01%), so that the exclusion of these two arboviruses does not affect the evaluation of the relationship between the index and the occurrence of dengue cases<sup><xref ref-type="bibr" rid="B22">22</xref></sup> .</p>
+			</sec>
+		</sec>
+		<sec sec-type="results">
+			<title>RESULTS</title>
+			<p>The spatial exploratory analysis of the selected indicators points to a recent process of urban expansion directed to the northeast and northwest portions of the city, as well as to the occurrence of a territorial heterogeneity of socioeconomic conditions, housing infrastructure, and housing environment. <xref ref-type="fig" rid="f01">Figure 1</xref> shows, among the pre-selected indicators, those with greater epidemiological plausibility in the socio-environmental determination process and territorial variability.</p>
+			<p>
+				<fig id="f01">
+					<label>Figure 1</label>
+					<caption>
+						<title>Spatial distribution of territorial indicators according to the areas of coverage. Belo Horizonte, MG.</title>
+					</caption>
+					<graphic xlink:href="1518-8787-rsp-56-39-gf01.tif"/>
+					<attrib>Source: Based on the data provided by the Municipal Council of Belo Horizonte, IBGE, and Landsat.</attrib>
+				</fig>
+			</p>
+			<p>Based on the PCA result, we chose to work with the first four components generated by the analysis, which together explain approximately 61% of the observed variance. These components were spatialized and interpreted based on the municipal territory knowledge ( <xref ref-type="fig" rid="f02">Figure 2</xref> ).</p>
+			<p>
+				<fig id="f02">
+					<label>Figure 2</label>
+					<caption>
+						<title>Components of socio-environmental conditions resulting from the analysis of major components. Belo Horizonte, MG.</title>
+					</caption>
+					<graphic xlink:href="1518-8787-rsp-56-39-gf02.tif"/>
+					<attrib>Source: Based on the data provided by the Municipal Council of Belo Horizonte and IBGE.</attrib>
+				</fig>
+			</p>
+			<p>The first resulting component, which explains approximately 29% of the variability of the data set, was defined as peripheral areas of population and poverty concentration with urban infrastructure deficiency and low percentage of white people. Thus, areas with high value of this component have a high percentage of households with a monthly income <italic>per capita</italic> of up to one minimum wage, without pavement in the surroundings, and with water supply by well, rainwater stored in cisterns and / or other form of water supply.</p>
+			<p>The second component, defined as concentrated poverty in consolidated urban area, explains approximately 15% of the variability. In the spatial units of analysis in which the value of this component is high, it is observed: a higher density in population and poor people, higher percentage of housings as irregular occupation, and higher percentage of <italic>favela</italic> areas, that is, in subnormal agglomerations.</p>
+			<p>The third component explains approximately 10% of the variability of the data set and was defined as areas with high altitudes and high verticalization with heterogeneity of urban infrastructure. The fourth component has an explanation percentage of approximately 7% and designates a dense area with urban precariousness. In the areas with high value for this last component there is high population density, high percentage of housings in irregular occupation, high percentage of housings with accumulated garbage and with open sewage in the surroundings.</p>
+			<p>The weighting process of these components for the elaboration of the index through the AHP resulted in the following weights: 17.4% for the first; 34% for the second; 7.2% for the third; and 41.4% for the fourth. Based on these weights and through the map algebra technique, we obtained the TRI for each of the units of analysis. The index was spatialized with the areas of coverage of the basic health units, classified into five categories of receptivity: very low; low; average; high; and very high ( <xref ref-type="fig" rid="f03">Figure 3</xref> ).</p>
+			<p>
+				<fig id="f03">
+					<label>Figure 3</label>
+					<caption>
+						<title>(A) Index of territorial receptivity to urban arboviruses associated with the <italic>Aedes aegypti</italic> (B) density of dengue cases; (C) density of <italic>Aedes</italic> eggs. Belo Horizonte, MG, 2016.</title>
+					</caption>
+					<graphic xlink:href="1518-8787-rsp-56-39-gf03.tif"/>
+					<attrib>Source: Based on the data provided by the Municipal Council of Belo Horizonte and IBGE.</attrib>
+				</fig>
+			</p>
+			<p>The areas classified as high and very high receptivity, corresponding to approximately 33% of the occupied area of the municipality ( <xref ref-type="table" rid="t2">Table 2</xref> ), are mainly concentrated in the administrative planning regions (APR) of East, Northeast, North, West, and Barreiro, mainly in areas bordering other municipalities that make up the Metropolitan Region. However, the presence of areas classified as such is observed in all APR of the city. The areas classified as low or very low receptivity, on the other hand, are concentrated in the Central-South and Pampulha APR, characterized by the occupation of people with average and high incomes and by a good network of services and urban infrastructure. These areas correspond to about 52% of the occupied area of the municipality ( <xref ref-type="table" rid="t2">Table 2</xref> ).</p>
+			<p>
+				<table-wrap id="t2">
+					<label>Table 2</label>
+					<caption>
+						<title>Areas of coverage characterization according to receptivity index classes, total and occupied area, density of reported dengue cases, and density of <italic>Aedes</italic> eggs. Belo Horizonte, MG, 2016.</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left">Receptivity index</th>
+								<th>Total area (km<sup>2</sup>)</th>
+								<th>Occupied area (km<sup>2</sup>)</th>
+								<th>Number of areas covered by health centers</th>
+								<th>Dengue case density / km<sup>2</sup></th>
+								<th>Aedes eggs density/ km<sup>2</sup></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Very low</td>
+								<td align="center">108</td>
+								<td align="center">66</td>
+								<td align="center">31</td>
+								<td align="center">328</td>
+								<td align="center">1,863</td>
+							</tr>
+							<tr>
+								<td>Low</td>
+								<td align="center">73</td>
+								<td align="center">58</td>
+								<td align="center">31</td>
+								<td align="center">534</td>
+								<td align="center">2,211</td>
+							</tr>
+							<tr>
+								<td>Medium</td>
+								<td align="center">51</td>
+								<td align="center">35</td>
+								<td align="center">29</td>
+								<td align="center">591</td>
+								<td align="center">2,220</td>
+							</tr>
+							<tr>
+								<td>High</td>
+								<td align="center">59</td>
+								<td align="center">46</td>
+								<td align="center">30</td>
+								<td align="center">584</td>
+								<td align="center">2,065</td>
+							</tr>
+							<tr>
+								<td>Very High</td>
+								<td align="center">40</td>
+								<td align="center">32</td>
+								<td align="center">31</td>
+								<td align="center">696</td>
+								<td align="center">2,233</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<attrib>Source: Based on data provided by the Municipal Council of Belo Horizonte and IBGE.</attrib>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>When overlapping the density of dengue cases and <italic>Aedes</italic> eggs, from 2016, with the stratification by TRI classes to urban arboviruses, it is found that areas of very high receptivity have a certain density of cases, as well as higher amounts of <italic>Aedes</italic> eggs than that observed in the other areas of the city, which correspond to a very small percentage of the municipal territory (13.5%) ( <xref ref-type="fig" rid="f03">Figure 3</xref> , <xref ref-type="table" rid="t2">Table 2</xref> ). Spearman’s correlation coefficient between TRI and dengue case density was 0.45 (p-value &lt; 0.05; 95%CI: 0.27–0.53). For the correlation between receptivity and <italic>Aedes</italic> egg density, the value was 0.06 (p-value = 0.43). Although in the latter case the Spearman correlation is not significant, we emphasize that this analysis observes the existence of a linear relationship between the TRI and the density of <italic>Aedes</italic> eggs for each space unit. When we observe the relationship according to the TRI classes, we can verify higher density of <italic>Aedes</italic> eggs in the classes of higher receptivity.</p>
+		</sec>
+		<sec sec-type="discussion">
+			<title>DISCUSSION</title>
+			<p>The proposition and elaboration of a TRI to urban arboviruses associated with the <italic>Aedes aegypti</italic> was able to show intra-municipal heterogeneity regarding the infrastructure conditions of Belo Horizonte. The analyses highlight the need for the development of particular surveillance and control actions to each context, in order to overcome the logic of homogeneous allocation of actions throughout the territory.</p>
+			<p>The results here presented show the territorial characteristics in the scale of area of coverage (spatial unit used). This perspective makes visible some patterns of the distribution of living conditions and infrastructure of the territories but does not fully cover the phenomenon complexity. Had this study been conducted on another scale, the analysis would naturally present other results, which would enrich the understanding of the territorial context in which urban arboviruses occur<sup><xref ref-type="bibr" rid="B29">29</xref></sup> .</p>
+			<p>Since the TRI indicates areas more receptive to urban arboviruses associated with <italic>Aedes aegypti</italic> , depending on the organization and use of the territory, it is not primarily directed to deal with epidemic emergencies; however, in the absence of a more qualified information in a scenario such as this, the receptivity index can serve as a parameter for the allocation of surveillance and control actions in the territory.</p>
+			<p>Considering situations of explosive epidemics, indicative of high susceptibility in the population, such as the one that occurred in Belo Horizonte in 2016, with significant circulation of DENV1 serotype and an abrupt rise of the case notification curve with high levels maintained over several epidemiological weeks<sup><xref ref-type="bibr" rid="B22">22</xref></sup> , we observed in our study a higher density of dengue cases in spatial units classified as high or very high receptivity, which suggests the usefulness of this index as a predictor of risk areas for these situations. Additionally, the overlapping of <italic>Aedes</italic> egg density observed in that epidemic year with the stratification by the TRI indicated a similar result to that observed for the density of cases. However, we emphasize the need for TRI analysis in other cities and other epidemic years.</p>
+			<p>Therefore, this tool aims to strengthen the SUS, helping with the structural planning of local surveillance and control programs against urban arboviruses associated with the <italic>Aedes aegypti,</italic> indicating the portions of the city in which, in a general and systematic way, more intense actions are needed<sup><xref ref-type="bibr" rid="B8">8</xref> , <xref ref-type="bibr" rid="B11">11</xref></sup> . In this sense, considering the context of lack of human resources, one of the possible applications of TRI by local managers would be to subsidize the organization of control actions prioritizing areas with greater receptivity.</p>
+			<p>Moreover, we believe that the TRI is a strategic tool for intersectoral dialogue within the public administration, since it expresses the heterogeneity of territorial occupation and the quality of urban infrastructure and services in their relations with the potential occurrence of cases of arboviruses; thus, highlighting the need for changes in these socio-technical infrastructures, whose competencies go beyond individual ones, within the healthcare sector<sup><xref ref-type="bibr" rid="B30">30</xref></sup> .</p>
+			<p>In relation to its elaboration process, the strengths of the study are in the availability of sociodemographic and environmental data available in free databases that are accessible via the internet, as well as the possibility of being applied to other cities. In this sense, it is still important to emphasize that the technical procedures to which these data are submitted can be carried out in free computer programs, easy to obtain and install. As necessary resources for its elaboration, professionals are needed to perform the territorial analysis in health, as well as secondary data and spatial analysis. We emphasize, thus, the importance of regularly carrying out training processes for the improvement of the technical capacities of professionals for the surveillance of urban arboviruses.</p>
+			<p>Regarding the TRI index, we note as a great advantage the fact that it can synthesize the complex socio-environmental determinants for the occurrence of urban arboviruses (as demonstrated by the overlap of the density of dengue cases and <italic>Aedes</italic> eggs by this index) into an easily understandable and communicable numerical value. This index successfully answers the question posed by Machado et al.<sup><xref ref-type="bibr" rid="B28">28</xref></sup> on the importance of the development of composite indicators capable of combining different dimensions of the territory and, thus, encompassing the set of socio-environmental characteristics that determine the production and reproduction of urban arboviruses. In this sense, the Municipal Council of Belo Horizonte had already developed the health vulnerability index (IVS-BH), a composite indicator that synthesizes socioeconomic variables to differentiate areas with unfavorable conditions in the intra-urban space<sup><xref ref-type="bibr" rid="B31">31</xref></sup> . Although the IVS-BH is an important tool to guide public health policies and prioritize resource allocation, we note the need for a composite indicator specifically related to the socio-environmental determinants of urban arboviruses associated with the <italic>Aedes aegypti</italic> . Thus, the TRI uses more specific census indicators, as well as climate and territorial information from remote sensing.</p>
+			<p>Finally, as a development perspective in the characterization of territorial receptivity to urban arboviruses associated with the <italic>Aedes aegypti,</italic> we highlight the importance of incorporating indicators that reflect the dynamics and conjunctions of the territories, in the spatial and temporal perspectives, since the territory is constantly changing due to the dynamics that reflect the modeling flows of geographical space<sup><xref ref-type="bibr" rid="B32">32</xref></sup> .</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>REFERENCES</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1 Honório NA, Câmara DCP, Calvet GA, Brasil P. Chikungunya: uma arbovirose em estabelecimento e expansão no Brasil Cad Saude Publica. 2015;31(5):906-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0102-311XPE020515">https://doi.org/10.1590/0102-311XPE020515</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Honório</surname>
+							<given-names>NA</given-names>
+						</name>
+						<name>
+							<surname>Câmara</surname>
+							<given-names>DCP</given-names>
+						</name>
+						<name>
+							<surname>Calvet</surname>
+							<given-names>GA</given-names>
+						</name>
+						<name>
+							<surname>Brasil</surname>
+							<given-names>P</given-names>
+						</name>
+					</person-group>
+					<article-title>Chikungunya: uma arbovirose em estabelecimento e expansão no Brasil</article-title>
+					<source>Cad Saude Publica</source>
+					<year>2015</year>
+					<volume>31</volume>
+					<issue>5</issue>
+					<fpage>906</fpage>
+					<lpage>908</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0102-311XPE020515">https://doi.org/10.1590/0102-311XPE020515</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2 Zanluca C, Melo VC, Mosimann ALP, Santos GIV, Santos CND, Luz K. First report of autochthonous transmission of Zika virus in Brazil. Mem Inst Oswaldo Cruz. 2015;110(4):569-72. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0074-02760150192">https://doi.org/10.1590/0074-02760150192</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Zanluca</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Melo</surname>
+							<given-names>VC</given-names>
+						</name>
+						<name>
+							<surname>Mosimann</surname>
+							<given-names>ALP</given-names>
+						</name>
+						<name>
+							<surname>Santos</surname>
+							<given-names>GIV</given-names>
+						</name>
+						<name>
+							<surname>Santos</surname>
+							<given-names>CND</given-names>
+						</name>
+						<name>
+							<surname>Luz</surname>
+							<given-names>K</given-names>
+						</name>
+					</person-group>
+					<article-title>First report of autochthonous transmission of Zika virus in Brazil</article-title>
+					<source>Mem Inst Oswaldo Cruz</source>
+					<year>2015</year>
+					<volume>110</volume>
+					<issue>4</issue>
+					<fpage>569</fpage>
+					<lpage>572</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0074-02760150192">https://doi.org/10.1590/0074-02760150192</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3 Bhatt S, Gething PW, Brady OJ, Messina JP, Farlow AW, Moyes CL, et al. The global distribution and burden of dengue. Nature. 2013;496(7446):504-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nature12060">https://doi.org/10.1038/nature12060</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bhatt</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Gething</surname>
+							<given-names>PW</given-names>
+						</name>
+						<name>
+							<surname>Brady</surname>
+							<given-names>OJ</given-names>
+						</name>
+						<name>
+							<surname>Messina</surname>
+							<given-names>JP</given-names>
+						</name>
+						<name>
+							<surname>Farlow</surname>
+							<given-names>AW</given-names>
+						</name>
+						<name>
+							<surname>Moyes</surname>
+							<given-names>CL</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>The global distribution and burden of dengue</article-title>
+					<source>Nature</source>
+					<year>2013</year>
+					<volume>496</volume>
+					<issue>7446</issue>
+					<fpage>504</fpage>
+					<lpage>507</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nature12060">https://doi.org/10.1038/nature12060</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4 Beatty ME, Beutels P, Meltzer MI, Shepard DS, Hombach J, Hutubessy R, et al. Health economics of dengue: a systematic literature review and expert panel’s assessment. Am J Trop Med Hyg. 2011;84(3):473-88. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4269/ajtmh.2011.10-0521">https://doi.org/10.4269/ajtmh.2011.10-0521</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Beatty</surname>
+							<given-names>ME</given-names>
+						</name>
+						<name>
+							<surname>Beutels</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Meltzer</surname>
+							<given-names>MI</given-names>
+						</name>
+						<name>
+							<surname>Shepard</surname>
+							<given-names>DS</given-names>
+						</name>
+						<name>
+							<surname>Hombach</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Hutubessy</surname>
+							<given-names>R</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Health economics of dengue: a systematic literature review and expert panel’s assessment</article-title>
+					<source>Am J Trop Med Hyg</source>
+					<year>2011</year>
+					<volume>84</volume>
+					<issue>3</issue>
+					<fpage>473</fpage>
+					<lpage>488</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4269/ajtmh.2011.10-0521">https://doi.org/10.4269/ajtmh.2011.10-0521</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5 Ministério da Saúde (BR). Boletins Epidemiológicos. Brasília, DF; 2016 [cited 2020 Sep 9]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.gov.br/saude/pt-br/assuntos/boletins-epidemiologicos">https://www.gov.br/saude/pt-br/assuntos/boletins-epidemiologicos</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+					</person-group>
+					<source>Boletins Epidemiológicos</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<year>2016</year>
+					<date-in-citation content-type="cited-date">cited 2020 Sep 9</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.gov.br/saude/pt-br/assuntos/boletins-epidemiologicos">https://www.gov.br/saude/pt-br/assuntos/boletins-epidemiologicos</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6 Carvalho MS, Honório NA, Garcia LMT, Carvalho LCS. Aedes ægypti control in urban areas: a systemic approach to a complex dynamic. PLoS Negl Trop Dis. 2017;11(7):e0005632. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pntd.0005632">https://doi.org/10.1371/journal.pntd.0005632</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Carvalho</surname>
+							<given-names>MS</given-names>
+						</name>
+						<name>
+							<surname>Honório</surname>
+							<given-names>NA</given-names>
+						</name>
+						<name>
+							<surname>Garcia</surname>
+							<given-names>LMT</given-names>
+						</name>
+						<name>
+							<surname>Carvalho</surname>
+							<given-names>LCS</given-names>
+						</name>
+					</person-group>
+					<article-title>Aedes ægypti control in urban areas: a systemic approach to a complex dynamic</article-title>
+					<source>PLoS Negl Trop Dis</source>
+					<year>2017</year>
+					<volume>11</volume>
+					<issue>7</issue>
+					<elocation-id>e0005632</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pntd.0005632">https://doi.org/10.1371/journal.pntd.0005632</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7 Donnelly MAP, Kluh S, Snyder RE, Barker CM. Quantifying sociodemographic heterogeneities in the distribution of Aedes aegypti among California households. PLoS Negl Trop Dis. 2020;14(7):e0008408. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pntd.0008408">https://doi.org/10.1371/journal.pntd.0008408</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Donnelly</surname>
+							<given-names>MAP</given-names>
+						</name>
+						<name>
+							<surname>Kluh</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Snyder</surname>
+							<given-names>RE</given-names>
+						</name>
+						<name>
+							<surname>Barker</surname>
+							<given-names>CM</given-names>
+						</name>
+					</person-group>
+					<article-title>Quantifying sociodemographic heterogeneities in the distribution of Aedes aegypti among California households</article-title>
+					<source>PLoS Negl Trop Dis</source>
+					<year>2020</year>
+					<volume>14</volume>
+					<issue>7</issue>
+					<elocation-id>e0008408</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pntd.0008408">https://doi.org/10.1371/journal.pntd.0008408</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8 MacCormack-Gelles B, Lima Neto AS, Sousa GS, Nascimento OJ, Castro MC. Evaluation of the usefulness of Aedes aegypti rapid larval surveys to anticipate seasonal dengue transmission between 2012-2015 in Fortaleza, Brazil. Acta Trop. 2020;205:105391. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.actatropica.2020.105391">https://doi.org/10.1016/j.actatropica.2020.105391</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>MacCormack-Gelles</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Lima</surname>
+							<given-names>AS</given-names>
+							<suffix>Neto</suffix>
+						</name>
+						<name>
+							<surname>Sousa</surname>
+							<given-names>GS</given-names>
+						</name>
+						<name>
+							<surname>Nascimento</surname>
+							<given-names>OJ</given-names>
+						</name>
+						<name>
+							<surname>Castro</surname>
+							<given-names>MC</given-names>
+						</name>
+					</person-group>
+					<article-title>Evaluation of the usefulness of Aedes aegypti rapid larval surveys to anticipate seasonal dengue transmission between 2012-2015 in Fortaleza, Brazil</article-title>
+					<source>Acta Trop</source>
+					<year>2020</year>
+					<volume>205</volume>
+					<size units="pages">105391</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.actatropica.2020.105391">https://doi.org/10.1016/j.actatropica.2020.105391</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9 Bowman LR, Donegan S, Mccall PJ. Is dengue vector control deficient in effectiveness or evidence: systematic review and meta-analysis. PLoS Negl Trop Dis. 2016;10(3):e0004551. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pntd.0004551">https://doi.org/10.1371/journal.pntd.0004551</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bowman</surname>
+							<given-names>LR</given-names>
+						</name>
+						<name>
+							<surname>Donegan</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Mccall</surname>
+							<given-names>PJ</given-names>
+						</name>
+					</person-group>
+					<article-title>Is dengue vector control deficient in effectiveness or evidence: systematic review and meta-analysis</article-title>
+					<source>PLoS Negl Trop Dis</source>
+					<year>2016</year>
+					<volume>10</volume>
+					<issue>3</issue>
+					<elocation-id>e0004551</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pntd.0004551">https://doi.org/10.1371/journal.pntd.0004551</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10 Cattand P, Dejeux P, Guzmán MG, Janin J, Kroeger A, Medici A, et al. Tropical diseases lacking adequate control measures: Dengue, Leishmaniasis, and African Trypanosomiasis. In: Jamilson DT, Beman JG, Meashsam AR, Alleyne G, Claeson M, Evans DBV, et al, editors. Disease control priorities in developing countries. 2. ed. Washington, DC: The International Bank for Reconstruction and Development; New York: World Bank Publications; 2006 [cited 2020 Sep 9]. Chapter 25; p. 451-66. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/books/NBK11753/">https://www.ncbi.nlm.nih.gov/books/NBK11753/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cattand</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Dejeux</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Guzmán</surname>
+							<given-names>MG</given-names>
+						</name>
+						<name>
+							<surname>Janin</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Kroeger</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Medici</surname>
+							<given-names>A</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<chapter-title>Tropical diseases lacking adequate control measures: Dengue, Leishmaniasis, and African Trypanosomiasis</chapter-title>
+					<person-group person-group-type="editor">
+						<name>
+							<surname>Jamilson</surname>
+							<given-names>DT</given-names>
+						</name>
+						<name>
+							<surname>Beman</surname>
+							<given-names>JG</given-names>
+						</name>
+						<name>
+							<surname>Meashsam</surname>
+							<given-names>AR</given-names>
+						</name>
+						<name>
+							<surname>Alleyne</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Claeson</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Evans</surname>
+							<given-names>DBV</given-names>
+						</name>
+						<etal>et al</etal>
+						<role>editors</role>
+					</person-group>
+					<source>Disease control priorities in developing countries</source>
+					<edition>2</edition>
+					<publisher-loc>Washington, DC</publisher-loc>
+					<publisher-name>The International Bank for Reconstruction and Development</publisher-name>
+					<publisher-loc>New York</publisher-loc>
+					<publisher-name>World Bank Publications</publisher-name>
+					<year>2006</year>
+					<date-in-citation content-type="cited-date">cited 2020 Sep 9</date-in-citation>
+					<comment>Chapter 25</comment>
+					<fpage>451</fpage>
+					<lpage>466</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/books/NBK11753/">https://www.ncbi.nlm.nih.gov/books/NBK11753/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11 Pan American Health Organization. Technical document for the implementation of interventions based on generic operational scenarios for Aedes aegypti control. Washington, DC: PAHO; 2019 [cited 2020 Sep 9]. Available from: <ext-link ext-link-type="uri" xlink:href="https://iris.paho.org/handle/10665.2/51652">https://iris.paho.org/handle/10665.2/51652</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Pan American Health Organization</collab>
+					</person-group>
+					<source>Technical document for the implementation of interventions based on generic operational scenarios for Aedes aegypti control</source>
+					<publisher-loc>Washington, DC</publisher-loc>
+					<publisher-name>PAHO</publisher-name>
+					<year>2019</year>
+					<date-in-citation content-type="cited-date">cited 2020 Sep 9</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://iris.paho.org/handle/10665.2/51652">https://iris.paho.org/handle/10665.2/51652</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12 World Health Organization. Handbook for integrated vector management. Geneva (CH); WHO; 2012 [cited 2020 Sep 9]. Available from: <ext-link ext-link-type="uri" xlink:href="http://apps.who.int/iris/bitstream/handle/10665/44768/9789241502801_eng.pdf;jsessionid=6B69CE295A4ABE22DE977675414E596D?sequence=1">http://apps.who.int/iris/bitstream/handle/10665/44768/9789241502801_eng.pdf;jsessionid=6B69CE295A4ABE22DE977675414E596D?sequence=1</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>World Health Organization</collab>
+					</person-group>
+					<source>Handbook for integrated vector management</source>
+					<publisher-loc>Geneva (CH)</publisher-loc>
+					<publisher-name>WHO</publisher-name>
+					<year>2012</year>
+					<date-in-citation content-type="cited-date">cited 2020 Sep 9</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="http://apps.who.int/iris/bitstream/handle/10665/44768/9789241502801_eng.pdf;jsessionid=6B69CE295A4ABE22DE977675414E596D?sequence=1">http://apps.who.int/iris/bitstream/handle/10665/44768/9789241502801_eng.pdf;jsessionid=6B69CE295A4ABE22DE977675414E596D?sequence=1</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13 World Health Organization, Regional Office for Europe. Receptivity to malaria and other parasitic diseases: report on a WHO working group, Izmir, 11-15 september 1978. Copenhagen (DK); WHO Regional Office for Europe; 1978 [cited 2020 Aug 12]. Available from: <ext-link ext-link-type="uri" xlink:href="https://apps.who.int/iris/handle/10665/204466">https://apps.who.int/iris/handle/10665/204466</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>World Health Organization</collab>
+						<collab>Regional Office for Europe</collab>
+					</person-group>
+					<source>Receptivity to malaria and other parasitic diseases: report on a WHO working group, Izmir, 11-15 september 1978</source>
+					<publisher-loc>Copenhagen (DK)</publisher-loc>
+					<publisher-name>WHO Regional Office for Europe</publisher-name>
+					<year>1978</year>
+					<date-in-citation content-type="cited-date">cited 2020 Aug 12</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://apps.who.int/iris/handle/10665/204466">https://apps.who.int/iris/handle/10665/204466</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14 World Health Organization, Regional Office for the Eastern Mediterranean. Guidelines on prevention of the reintroduction of malaria. Cairo (EG): EMRO; 2007 [cited 2020 Aug 12]. (EMRO Technical Publications Series; nº 34). Available from: <ext-link ext-link-type="uri" xlink:href="https://apps.who.int/iris/handle/10665/119851">https://apps.who.int/iris/handle/10665/119851</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>World Health Organization</collab>
+						<collab>Regional Office for the Eastern Mediterranean</collab>
+					</person-group>
+					<source>Guidelines on prevention of the reintroduction of malaria</source>
+					<publisher-loc>Cairo (EG)</publisher-loc>
+					<publisher-name>EMRO</publisher-name>
+					<year>2007</year>
+					<date-in-citation content-type="cited-date">cited 2020 Aug 12</date-in-citation>
+					<comment>EMRO Technical Publications Series; nº 34</comment>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://apps.who.int/iris/handle/10665/119851">https://apps.who.int/iris/handle/10665/119851</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15 World Health Organization. Global malaria Programme: WHO malaria terminology. Geneva (CH): WHO; 2016 [cited 2020 Aug 12]. Available from: <ext-link ext-link-type="uri" xlink:href="https://apps.who.int/iris/bitstream/handle/10665/208815/WHO_HTM_GMP_2016.6_eng.pdf">https://apps.who.int/iris/bitstream/handle/10665/208815/WHO_HTM_GMP_2016.6_eng.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>World Health Organization</collab>
+					</person-group>
+					<source>Global malaria Programme: WHO malaria terminology</source>
+					<publisher-loc>Geneva (CH)</publisher-loc>
+					<publisher-name>WHO</publisher-name>
+					<year>2016</year>
+					<date-in-citation content-type="cited-date">cited 2020 Aug 12</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://apps.who.int/iris/bitstream/handle/10665/208815/WHO_HTM_GMP_2016.6_eng.pdf">https://apps.who.int/iris/bitstream/handle/10665/208815/WHO_HTM_GMP_2016.6_eng.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16 Tauil PL. Malária no Brasil: epidemiologia e controle. In: Ministério da Saúde (BR); Secretaria de Vigilância em Saúde, Departamento de Análise de Situação de Saúde. Saúde Brasil 2009: uma análise da situação de saúde e da agenda nacional e internacional de prioridades em saúde. Brasília, DF: MS; 2010. p. 223-40. (Série G. Estatística e Informação em Saúde).</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Tauil</surname>
+							<given-names>PL</given-names>
+						</name>
+					</person-group>
+					<chapter-title>Malária no Brasil: epidemiologia e controle</chapter-title>
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+						<collab>Secretaria de Vigilância em Saúde</collab>
+						<collab>Departamento de Análise de Situação de Saúde</collab>
+					</person-group>
+					<source>Saúde Brasil 2009: uma análise da situação de saúde e da agenda nacional e internacional de prioridades em saúde</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<publisher-name>MS</publisher-name>
+					<year>2010</year>
+					<fpage>223</fpage>
+					<lpage>240</lpage>
+					<comment>Série G. Estatística e Informação em Saúde</comment>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17 Monken M, Barcellos C. Vigilância em saúde e território utilizado: possibilidades teóricas e metodológicas. Cad Saude Publica. 2005;21(3):898-906. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0102-311X2005000300024">https://doi.org/10.1590/S0102-311X2005000300024</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Monken</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Barcellos</surname>
+							<given-names>C</given-names>
+						</name>
+					</person-group>
+					<article-title>Vigilância em saúde e território utilizado: possibilidades teóricas e metodológicas</article-title>
+					<source>Cad Saude Publica</source>
+					<year>2005</year>
+					<volume>21</volume>
+					<issue>3</issue>
+					<fpage>898</fpage>
+					<lpage>906</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0102-311X2005000300024">https://doi.org/10.1590/S0102-311X2005000300024</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18 Souza RCF, Oliveira VB, Pereira DB, Costa HSM, Caiaffa WT. Viver próximo à saúde em Belo Horizonte. Cad Metropole. 2016;18(36):325-44. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/2236-9996.2016-3601">https://doi.org/10.1590/2236-9996.2016-3601</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Souza</surname>
+							<given-names>RCF</given-names>
+						</name>
+						<name>
+							<surname>Oliveira</surname>
+							<given-names>VB</given-names>
+						</name>
+						<name>
+							<surname>Pereira</surname>
+							<given-names>DB</given-names>
+						</name>
+						<name>
+							<surname>Costa</surname>
+							<given-names>HSM</given-names>
+						</name>
+						<name>
+							<surname>Caiaffa</surname>
+							<given-names>WT</given-names>
+						</name>
+					</person-group>
+					<article-title>Viver próximo à saúde em Belo Horizonte</article-title>
+					<source>Cad Metropole</source>
+					<year>2016</year>
+					<volume>18</volume>
+					<issue>36</issue>
+					<fpage>325</fpage>
+					<lpage>344</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/2236-9996.2016-3601">https://doi.org/10.1590/2236-9996.2016-3601</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19 Albuquerque HG, Peiter PC, Toledo LM, Alencar JAF, Sabroza PC, Dias CG, et al. Geographical information system (GIS) modeling territory receptivity to strengthen entomological surveillance: Anopheles (Nyssorhynchus) case study in Rio de Janeiro state, Brazil. Parasit Vect. 2018;11(1):256-62. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s13071-018-2844-2">https://doi.org/10.1186/s13071-018-2844-2</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Albuquerque</surname>
+							<given-names>HG</given-names>
+						</name>
+						<name>
+							<surname>Peiter</surname>
+							<given-names>PC</given-names>
+						</name>
+						<name>
+							<surname>Toledo</surname>
+							<given-names>LM</given-names>
+						</name>
+						<name>
+							<surname>Alencar</surname>
+							<given-names>JAF</given-names>
+						</name>
+						<name>
+							<surname>Sabroza</surname>
+							<given-names>PC</given-names>
+						</name>
+						<name>
+							<surname>Dias</surname>
+							<given-names>CG</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Geographical information system (GIS) modeling territory receptivity to strengthen entomological surveillance: Anopheles (Nyssorhynchus) case study in Rio de Janeiro state, Brazil</article-title>
+					<source>Parasit Vect</source>
+					<year>2018</year>
+					<volume>11</volume>
+					<issue>1</issue>
+					<fpage>256</fpage>
+					<lpage>262</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s13071-018-2844-2">https://doi.org/10.1186/s13071-018-2844-2</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20 Instituto Brasileiro de Geografia e Estatística. Cidades: Belo Horizonte. Rio de Janeiro: IBGE; c2017 [cited 2020 Aug 12]. Available from: <ext-link ext-link-type="uri" xlink:href="https://cidades.ibge.gov.br/brasil/mg/belo-horizonte/panorama">https://cidades.ibge.gov.br/brasil/mg/belo-horizonte/panorama</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Instituto Brasileiro de Geografia e Estatística</collab>
+					</person-group>
+					<source>Cidades: Belo Horizonte</source>
+					<publisher-loc>Rio de Janeiro</publisher-loc>
+					<publisher-name>IBGE</publisher-name>
+					<year>c2017</year>
+					<date-in-citation content-type="cited-date">cited 2020 Aug 12</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://cidades.ibge.gov.br/brasil/mg/belo-horizonte/panorama">https://cidades.ibge.gov.br/brasil/mg/belo-horizonte/panorama</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>21 Assis WL. Os climas naturais do município de Belo Horizonte. Acta Geogr. 2012; Ed Espec:115-35. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5654/actageo2012.0002.0008">https://doi.org/10.5654/actageo2012.0002.0008</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Assis</surname>
+							<given-names>WL</given-names>
+						</name>
+					</person-group>
+					<article-title>Os climas naturais do município de Belo Horizonte</article-title>
+					<source>Acta Geogr</source>
+					<year>2012</year>
+					<comment>Ed Espec</comment>
+					<fpage>115</fpage>
+					<lpage>135</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5654/actageo2012.0002.0008">https://doi.org/10.5654/actageo2012.0002.0008</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>22 Secretaria Municipal de Saúde de Belo Horizonte. A experiência de Belo Horizonte no enfrentamento às arboviroses: dengue, zika e chikungunya. Bol Vigil Saude. 2016 [cited 2020 Aug 12];(7):1-26. Available from: <ext-link ext-link-type="uri" xlink:href="https://prefeitura.pbh.gov.br/sites/default/files/estrutura-de-governo/saude/2018/documentos/boletim-gvsiI-arboviroses-13-1-2017.pdf">https://prefeitura.pbh.gov.br/sites/default/files/estrutura-de-governo/saude/2018/documentos/boletim-gvsiI-arboviroses-13-1-2017.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<collab>Secretaria Municipal de Saúde de Belo Horizonte</collab>
+					</person-group>
+					<article-title>A experiência de Belo Horizonte no enfrentamento às arboviroses: dengue, zika e chikungunya</article-title>
+					<source>Bol Vigil Saude</source>
+					<year>2016</year>
+					<date-in-citation content-type="cited-date">cited 2020 Aug 12</date-in-citation>
+					<issue>7</issue>
+					<fpage>1</fpage>
+					<lpage>26</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://prefeitura.pbh.gov.br/sites/default/files/estrutura-de-governo/saude/2018/documentos/boletim-gvsiI-arboviroses-13-1-2017.pdf">https://prefeitura.pbh.gov.br/sites/default/files/estrutura-de-governo/saude/2018/documentos/boletim-gvsiI-arboviroses-13-1-2017.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>23 Barcellos C, Santos SM. Colocando dados no mapa: a escolha da unidade espacial de agregação e integração de bases de dados em saúde e ambiente através do geoprocessamento. Inf Epidemiol SUS. 1997;6(1):21-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5123/S0104-16731997000100003">https://doi.org/10.5123/S0104-16731997000100003</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Barcellos</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Santos</surname>
+							<given-names>SM</given-names>
+						</name>
+					</person-group>
+					<article-title>Colocando dados no mapa: a escolha da unidade espacial de agregação e integração de bases de dados em saúde e ambiente através do geoprocessamento</article-title>
+					<source>Inf Epidemiol SUS</source>
+					<year>1997</year>
+					<volume>6</volume>
+					<issue>1</issue>
+					<fpage>21</fpage>
+					<lpage>29</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5123/S0104-16731997000100003">https://doi.org/10.5123/S0104-16731997000100003</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>24 Flauzino RF, Souza-Santos R, Oliveira RM. Dengue, geoprocessamento e indicadores socioeconômicos e ambientais: um estudo de revisão. Rev Panam Salud Publica. 2009;25(5):456-61.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Flauzino</surname>
+							<given-names>RF</given-names>
+						</name>
+						<name>
+							<surname>Souza-Santos</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Oliveira</surname>
+							<given-names>RM</given-names>
+						</name>
+					</person-group>
+					<article-title>Dengue, geoprocessamento e indicadores socioeconômicos e ambientais: um estudo de revisão</article-title>
+					<source>Rev Panam Salud Publica</source>
+					<year>2009</year>
+					<volume>25</volume>
+					<issue>5</issue>
+					<fpage>456</fpage>
+					<lpage>461</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>25 Instituto Brasileiro de Geografia e Estatística. Aglomerados subnormais. O que é? Rio de Janeiro: IBGE; 2018 [cited 2021 Jan 11]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.ibge.gov.br/geociencias/organizacao-do-territorio/tipologias-do-territorio/15788-aglomerados-subnormais.html?=&amp;t=o-que-e">https://www.ibge.gov.br/geociencias/organizacao-do-territorio/tipologias-do-territorio/15788-aglomerados-subnormais.html?=&amp;t=o-que-e</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Instituto Brasileiro de Geografia e Estatística</collab>
+					</person-group>
+					<source>Aglomerados subnormais. O que é?</source>
+					<publisher-loc>Rio de Janeiro</publisher-loc>
+					<publisher-name>IBGE</publisher-name>
+					<year>2018</year>
+					<date-in-citation content-type="cited-date">cited 2021 Jan 11</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.ibge.gov.br/geociencias/organizacao-do-territorio/tipologias-do-territorio/15788-aglomerados-subnormais.html?=&amp;t=o-que-e">https://www.ibge.gov.br/geociencias/organizacao-do-territorio/tipologias-do-territorio/15788-aglomerados-subnormais.html?=&amp;t=o-que-e</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation>26 Jolliffe IT. Principal component analysis. 2. ed. New York: Springer International Publishing; 2002. (Springer Series in Statistics).</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Jolliffe</surname>
+							<given-names>IT</given-names>
+						</name>
+					</person-group>
+					<source>Principal component analysis</source>
+					<edition>2</edition>
+					<publisher-loc>New York</publisher-loc>
+					<publisher-name>Springer International Publishing</publisher-name>
+					<year>2002</year>
+					<comment>Springer Series in Statistics</comment>
+				</element-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<mixed-citation>27 Santos JPC, Caldas VISP, Silva AS, Santos JPC. Suscetibilidade à erosão dos solos da bacia hidrográfica lagos – São João, no Estado do Rio de Janeiro – Brasil, a partir do método AHP e análise multicritério. Rev Bras Geogr Fis. 2019;12(4):1415-30. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.26848/rbgf.v12.4p1415-1430">https://doi.org/10.26848/rbgf.v12.4p1415-1430</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Santos</surname>
+							<given-names>JPC</given-names>
+						</name>
+						<name>
+							<surname>Caldas</surname>
+							<given-names>VISP</given-names>
+						</name>
+						<name>
+							<surname>Silva</surname>
+							<given-names>AS</given-names>
+						</name>
+						<name>
+							<surname>Santos</surname>
+							<given-names>JPC</given-names>
+						</name>
+					</person-group>
+					<article-title>Suscetibilidade à erosão dos solos da bacia hidrográfica lagos – São João, no Estado do Rio de Janeiro – Brasil, a partir do método AHP e análise multicritério</article-title>
+					<source>Rev Bras Geogr Fis</source>
+					<year>2019</year>
+					<volume>12</volume>
+					<issue>4</issue>
+					<fpage>1415</fpage>
+					<lpage>1430</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.26848/rbgf.v12.4p1415-1430">https://doi.org/10.26848/rbgf.v12.4p1415-1430</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<mixed-citation>28 Jiang H, Eastman JR. Application of fuzzy measures in multi-criteria evaluation in GIS. Int J Geogr Inform Sci. 2000;14():173-84. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/136588100240903">https://doi.org/10.1080/136588100240903</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Jiang</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Eastman</surname>
+							<given-names>JR</given-names>
+						</name>
+					</person-group>
+					<article-title>Application of fuzzy measures in multi-criteria evaluation in GIS</article-title>
+					<source>Int J Geogr Inform Sci</source>
+					<year>2000</year>
+					<volume>14</volume>
+					<fpage>173</fpage>
+					<lpage>184</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/136588100240903">https://doi.org/10.1080/136588100240903</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B29">
+				<label>29</label>
+				<mixed-citation>29 Machado JP, Oliveira RM, Souza-Santos R. Análise espacial da ocorrência de dengue e condições de vida na cidade de Nova Iguaçu, Estado do Rio de Janeiro, Brasil. Cad Saude Publica. 2009;25(5):1025-34. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0102-311X2009000500009">https://doi.org/10.1590/S0102-311X2009000500009</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Machado</surname>
+							<given-names>JP</given-names>
+						</name>
+						<name>
+							<surname>Oliveira</surname>
+							<given-names>RM</given-names>
+						</name>
+						<name>
+							<surname>Souza-Santos</surname>
+							<given-names>R</given-names>
+						</name>
+					</person-group>
+					<article-title>Análise espacial da ocorrência de dengue e condições de vida na cidade de Nova Iguaçu, Estado do Rio de Janeiro, Brasil</article-title>
+					<source>Cad Saude Publica</source>
+					<year>2009</year>
+					<volume>25</volume>
+					<issue>5</issue>
+					<fpage>1025</fpage>
+					<lpage>1034</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0102-311X2009000500009">https://doi.org/10.1590/S0102-311X2009000500009</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B30">
+				<label>30</label>
+				<mixed-citation>30 World Health Organization. The 8. Global Conference on Health Promotion; 10-14 June 2013; Helsinki, Finland. Geneva (CH): WHO; 2013 [cited 2020 Aug 18]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.who.int/healthpromotion/conferences/8gchp/8gchp_helsinki_statement.pdf">https://www.who.int/healthpromotion/conferences/8gchp/8gchp_helsinki_statement.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>World Health Organization</collab>
+					</person-group>
+					<source>The 8. Global Conference on Health Promotion; 10-14 June 2013; Helsinki, Finland</source>
+					<publisher-loc>Geneva (CH)</publisher-loc>
+					<publisher-name>WHO</publisher-name>
+					<year>2013</year>
+					<date-in-citation content-type="cited-date">cited 2020 Aug 18</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.who.int/healthpromotion/conferences/8gchp/8gchp_helsinki_statement.pdf">https://www.who.int/healthpromotion/conferences/8gchp/8gchp_helsinki_statement.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B31">
+				<label>31</label>
+				<mixed-citation>31 Secretaria Municipal de Saúde de Belo Horizonte. Índice de vulnerabilidade da saúde. Belo Horizonte, MG; 2012 [cited 2020 Aug 12]. Available from: <ext-link ext-link-type="uri" xlink:href="https://prefeitura.pbh.gov.br/sites/default/files/estrutura-de-governo/saude/2018/publicacaoes-da-vigilancia-em-saude/indice_vulnerabilidade2012.pdf">https://prefeitura.pbh.gov.br/sites/default/files/estrutura-de-governo/saude/2018/publicacaoes-da-vigilancia-em-saude/indice_vulnerabilidade2012.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Secretaria Municipal de Saúde de Belo Horizonte</collab>
+					</person-group>
+					<source>Índice de vulnerabilidade da saúde</source>
+					<publisher-loc>Belo Horizonte, MG</publisher-loc>
+					<year>2012</year>
+					<date-in-citation content-type="cited-date">cited 2020 Aug 12</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://prefeitura.pbh.gov.br/sites/default/files/estrutura-de-governo/saude/2018/publicacaoes-da-vigilancia-em-saude/indice_vulnerabilidade2012.pdf">https://prefeitura.pbh.gov.br/sites/default/files/estrutura-de-governo/saude/2018/publicacaoes-da-vigilancia-em-saude/indice_vulnerabilidade2012.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B32">
+				<label>32</label>
+				<mixed-citation>32 Santos M. A natureza do espaço: técnica e tempo, razão e emoção. 4.ed. São Paulo: Editora da Universidade de São Paulo; 2006. (Coleção Milton Santos; nº 1).</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Santos</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<source>A natureza do espaço: técnica e tempo, razão e emoção</source>
+					<edition>4</edition>
+					<publisher-loc>São Paulo</publisher-loc>
+					<publisher-name>Editora da Universidade de São Paulo</publisher-name>
+					<year>2006</year>
+					<comment>Coleção Milton Santos; nº 1</comment>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="financial-disclosure" id="fn2">
+				<p><bold>Funding:</bold> Brazilian Ministry of Health – National Health Fund/Decentralized execution terms (TED) number 90/2016 and 139/2019.</p>
+			</fn>
+		</fn-group>
+	</back>
+	<sub-article article-type="translation" id="TRpt" xml:lang="pt">
+		<front-stub>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artigo Original</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>ArboAlvo: método de estratificação da receptividade territorial às arboviroses urbanas</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-0326-6053</contrib-id>
+					<name>
+						<surname>Siqueira</surname>
+						<given-names>Alexandre San Pedro</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff2002"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-5531-2832</contrib-id>
+					<name>
+						<surname>Praça</surname>
+						<given-names>Heitor Levy Ferreira</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff2002"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-9780-9911</contrib-id>
+					<name>
+						<surname>Santos</surname>
+						<given-names>Jefferson Pereira Caldas dos</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff2002"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-8883-2789</contrib-id>
+					<name>
+						<surname>Albuquerque</surname>
+						<given-names>Hermano Gomes</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff2002"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-8110-7795</contrib-id>
+					<name>
+						<surname>Pereira</surname>
+						<given-names>Leandro Vouga</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff2002"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-5849-343X</contrib-id>
+					<name>
+						<surname>Simões</surname>
+						<given-names>Taynãna Cesar</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3002"><sup>III</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-1871-711X</contrib-id>
+					<name>
+						<surname>Gusmão</surname>
+						<given-names>Eduardo Viana Vieira</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff4002"><sup>IV</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-4171-431X</contrib-id>
+					<name>
+						<surname>Pereira</surname>
+						<given-names>Aline Aparecida Thomaz</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff5002"><sup>V</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-2365-9660</contrib-id>
+					<name>
+						<surname>Pimenta</surname>
+						<given-names>Fabiano Geraldo</given-names>
+						<suffix>Júnior</suffix>
+					</name>
+					<xref ref-type="aff" rid="aff4002"><sup>IV</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-6306-9257</contrib-id>
+					<name>
+						<surname>Nobre</surname>
+						<given-names>Aline Araújo</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff6002"><sup>VI</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-2489-9300</contrib-id>
+					<name>
+						<surname>Alves</surname>
+						<given-names>Mariane Branco</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff7002"><sup>VII</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-1161-2753</contrib-id>
+					<name>
+						<surname>Barcellos</surname>
+						<given-names>Christovam</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff8002"><sup>VIII</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-9566-0284</contrib-id>
+					<name>
+						<surname>Carvalho</surname>
+						<given-names>Marilia Sá</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff6002"><sup>VI</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-8235-0562</contrib-id>
+					<name>
+						<surname>Sabroza</surname>
+						<given-names>Paulo Chagastelles</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff9002"><sup>IX</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-2535-3844</contrib-id>
+					<name>
+						<surname>Honório</surname>
+						<given-names>Nildimar Alves</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff2002"><sup>II</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1002">
+				<label>I</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Fundação Oswaldo Cruz. Instituto Oswaldo Cruz. Laboratório de Mosquitos Transmissores de Hematozoários. Rio de Janeiro, RJ, Brasil</institution>
+			</aff>
+			<aff id="aff2002">
+				<label>II</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Fundação Oswaldo Cruz. Núcleo Operacional Sentinela de Mosquitos Vetores-Nosmove. Rio de Janeiro, RJ, Brasil</institution>
+			</aff>
+			<aff id="aff3002">
+				<label>III</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Fundação Oswaldo Cruz. Instituto René Rachou. Núcleo de Estudos em Saúde Pública e Envelhecimento. Minas Gerais, MG, Brasil</institution>
+			</aff>
+			<aff id="aff4002">
+				<label>IV</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Secretaria Municipal de Saúde de Belo Horizonte. Subsecretaria de Promoção e Vigilância em Saúde. Minas Gerais, MG, Brasil</institution>
+			</aff>
+			<aff id="aff5002">
+				<label>V</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Secretaria de Estado de Saúde de Minas Gerais. Subsecretaria de Vigilância em Saúde. Superintendência de Vigilância Epidemiológica. Minas Gerais, MG, Brasil</institution>
+			</aff>
+			<aff id="aff6002">
+				<label>VI</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Fundação Oswaldo Cruz. Programa de Computação Científica. Rio de Janeiro, RJ, Brasil</institution>
+			</aff>
+			<aff id="aff7002">
+				<label>VII</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Universidade Federal do Rio de Janeiro. Instituto de Matemática. Rio de Janeiro, RJ, Brasil</institution>
+			</aff>
+			<aff id="aff8002">
+				<label>VIII</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Fundação Oswaldo Cruz. Instituto de Comunicação e Informação Científica e Tecnológica em Saúde. Rio de Janeiro, RJ, Brasil</institution>
+			</aff>
+			<aff id="aff9002">
+				<label>IX</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Fundação Oswaldo Cruz. Escola Nacional de Saúde Pública. Rio de Janeiro, RJ, Brasil</institution>
+			</aff>
+			<author-notes>
+				<corresp id="c01002">Correspondência: Alexandre San Pedro Siqueira Instituto Oswaldo Cruz Avenida Brasil, 4.365 21041-361 Rio de Janeiro, RJ, Brasil E-mail: alexandre.siqueira@ioc.fiocruz.br</corresp>
+				<fn fn-type="con">
+					<p><bold>Contribuição dos Autores:</bold> Concepção e planejamento do estudo: ASPS, HLFP, JPCS, HGA, LVP, AAN, MBA, CB, MSC, PCS, NAH. Coleta, análise e interpretação dos dados: ASPS, HLFP, JPCS, HGA, LVP, TSC, EVVG, AATP, FGPJ, NAH. Elaboração ou revisão do manuscrito: ASPS, HLFP, JPCS, HGA, LVP, TSC, EVVG, AATP, FGPJ, AAN, MBA, CB, MSC, PCS, NAH. Aprovação da versão final: ASPS, HLFP, JPCS, HGA, LVP, TSC, EVVG, AATP, FGPJ, AAN, MBA, CB, MSC, PCS, NAH. Responsabilidade pública pelo conteúdo do artigo: ASPS, HLFP, JPCS, HGA, LVP, TSC, EVVG, AATP, FGPJ, AAN, MBA, CB, MSC, PCS, NAH.</p>
+				</fn>
+				<fn fn-type="conflict">
+					<p><bold>Conflito de Interesses:</bold> Os autores declaram não haver conflito de interesses.</p>
+				</fn>
+			</author-notes>
+			<abstract>
+				<title>RESUMO</title>
+				<sec>
+					<title>OBJETIVO</title>
+					<p>Apresentar a metodologia de estratificação das arboviroses urbanas (dengue, zika e chikungunya) pelo índice de receptividade territorial, instrumento de vigilância e controle dessas doenças que considera a heterogeneidade territorial intramunicipal.</p>
+				</sec>
+				<sec>
+					<title>MÉTODOS</title>
+					<p>Estudo ecológico que utiliza como unidade de análise as áreas de abrangência dos centros de saúde de Belo Horizonte (MG). Para a construção do índice de receptividade territorial foram selecionados indicadores de determinação socioambiental das arboviroses urbanas a fim de integrar à análise de componentes principais. As componentes resultantes foram ponderadas por análise de processos hierárquicos e agregadas por meio de álgebra de mapas.</p>
+				</sec>
+				<sec>
+					<title>RESULTADOS</title>
+					<p>O índice de receptividade territorial evidenciou grande heterogeneidade das condições de infraestrutura urbana. As áreas classificadas como alta e muito alta receptividade correspondem a aproximadamente 33% da área ocupada e se concentram sobretudo nas regiões de planejamento administrativo Leste, Nordeste, Norte, Oeste e Barreiro, principalmente em áreas limítrofes do município. Quando sobrepostas à densidade de casos de dengue e de ovos de <italic>Aedes</italic> em 2016, a estratificação pelo índice de receptividade territorial às arboviroses urbanas demonstra que áreas de muito alta receptividade apresentam uma densidade de casos, bem como de ovos de <italic>Aedes</italic> superior àquela observada nas demais áreas da cidade, o que corresponde a um percentual bastante reduzido do território municipal (13,5%).</p>
+				</sec>
+				<sec>
+					<title>CONCLUSÕES</title>
+					<p>As análises indicam a necessidade do desenvolvimento de ações de vigilância e controle adequadas para cada contexto, superando, assim, a lógica de alocação homogênea em todo o território.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="pt">
+				<kwd>Infecções por Arbovirus, epidemiologia</kwd>
+				<kwd>Fatores de Risco</kwd>
+				<kwd>Zona de Risco, classificação</kwd>
+				<kwd>Monitoramento Epidemiológico</kwd>
+				<kwd>Estudos Ecológicos</kwd>
+			</kwd-group>
+		</front-stub>
+		<body>
+			<sec sec-type="intro">
+				<title>INTRODUÇÃO</title>
+				<p>A emergência do zika vírus e do chikungunya em áreas de alta endemicidade para a dengue tem se revelado um grande desafio para os serviços de vigilância e controle em diversos países. A expansão dessas arboviroses, cujos agentes etiológicos são transmitidos por mosquitos do gênero <italic>Aedes,</italic> principalmente o <italic>Aedes aegypti</italic> , em áreas urbanas é uma importante questão para a saúde pública que, com aproximadamente 390 milhões de casos anuais no mundo, resulta em perdas econômicas e sociais, de caráter individual e coletivo, além de gerar gastos crescentes com a assistência clínica<sup><xref ref-type="bibr" rid="B1">1</xref></sup> .</p>
+				<p>A ocorrência simultânea das três arboviroses no Brasil é um importante desafio para o Sistema Único de Saúde (SUS), tanto pela magnitude e gravidade dos casos, quanto pelas dificuldades de diagnóstico diferencial, além da ampla distribuição geográfica, que alcança a maioria dos municípios nas cinco macrorregiões do país<sup><xref ref-type="bibr" rid="B5">5</xref></sup> .</p>
+				<p>A reprodução dessas arboviroses em ambientes urbanos é condicionada por fatores relacionados às características socioambientais, à dinâmica demográfica, aos elevados níveis de infestação do <italic>Aedes aegypti</italic> e à circulação viral de diferentes sorotipos de dengue, zika e chikungunya em cada território<sup><xref ref-type="bibr" rid="B6">6</xref> , <xref ref-type="bibr" rid="B7">7</xref></sup> .</p>
+				<p>Historicamente, as ações de vigilância e controle entomológico são baseadas no levantamento de índices de infestação do <italic>Aedes aegypti</italic> , que, de maneira isolada, sem considerar outros indicadores e os seus respectivos contextos, possuem baixa capacidade preditora de risco de transmissão para as arboviroses urbanas<sup><xref ref-type="bibr" rid="B8">8</xref></sup> . A maioria das medidas de controle têm demonstrado certo grau de efetividade somente quando as ações são padronizadas, aplicadas de forma intensiva, com ampla cobertura territorial e sustentadas no tempo<sup><xref ref-type="bibr" rid="B9">9</xref></sup> . Sob as condições da rotina dos serviços municipais de controle, nenhuma das medidas tem demonstrado, até o momento, potencial para impedir a transmissão em longo prazo, o que sugere a necessidade de abordagens integradas e permanentes, capazes de incorporar a complexidade socioambiental do território<sup><xref ref-type="bibr" rid="B3">3</xref> , <xref ref-type="bibr" rid="B10">10</xref></sup> .</p>
+				<p>Diante das limitações operacionais para a execução de ações de controle vetorial em toda extensão de um determinado território, as estratégias vigentes devem ser repensadas, considerando a heterogeneidade das condições socioambientais e as suas especificidades, fundamentais para o desenvolvimento de ações específicas para cada contexto. Assim, o novo paradigma no controle das arboviroses urbanas associadas ao <italic>Aedes aegypti</italic> sustenta que o risco de transmissão se distribui de forma heterogênea pelo território, o que ressalta a necessidade de abordagens que busquem estratificar e qualificar unidades territoriais intramunicipais (bairros, distritos, áreas administrativas) em termos das condições socioambientais, visando à proposição de ações de vigilância e controle diferenciadas<sup><xref ref-type="bibr" rid="B8">8</xref></sup> . Essa abordagem de vigilância e controle é apontada por diferentes instituições como a mais adequada para a identificação de espaços com diferentes níveis de risco de transmissão<sup><xref ref-type="bibr" rid="B11">11</xref> , <xref ref-type="bibr" rid="B12">12</xref></sup> .</p>
+				<p>No Brasil, ela é desenvolvida por meio de um projeto de pesquisa financiado pelo Ministério da Saúde e executado pelo Instituto Oswaldo Fiocruz/Fundação Oswaldo Cruz (IOC/Fiocruz), conhecido como ArboAlvo, que busca desenvolver metodologias de estratificação de risco para as arboviroses urbanas em escala intramunicipal, e, nesse processo, elaborou o método para a receptividade territorial às arboviroses urbanas.</p>
+				<p>O termo receptividade vem sendo utilizado como parte do arcabouço teórico dos estudos sobre a malária e como dimensão dos determinantes socioambientais relacionados à doença. Esse conceito, que se ampliou no campo dos estudos das doenças associadas à artrópodes vetores no final da década de 1970 a partir de trabalhos elaborados pela Organização Mundial da Saúde (OMS)<sup><xref ref-type="bibr" rid="B13">13</xref></sup> , é utilizado até os dias atuais<sup><xref ref-type="bibr" rid="B14">14</xref> , <xref ref-type="bibr" rid="B15">15</xref></sup> . Neste contexto, ele se refere a uma característica de áreas onde há “presença abundante de mosquitos do gênero <italic>Anopheles</italic> , bem como existência de fatores ecológicos e climáticos que favoreçam a transmissão da malária”<sup><xref ref-type="bibr" rid="B14">14</xref></sup> . Sob este aspecto, os fatores ecológicos envolvidos no conceito de receptividade à malária pressuporiam a existência de relações com territórios rurais ou florestais<sup><xref ref-type="bibr" rid="B16">16</xref></sup> .</p>
+				<p>Ao considerarmos o marco teórico desenvolvido inicialmente para a malária e ao analisarmos o processo de produção das arboviroses de transmissão vetorial em ambientes urbanos, tais como dengue, zika e chikungunya, compreendemos o conceito de receptividade de acordo com características socioambientais distintas, relacionadas com as condições infraestruturais que propiciam a reprodução do <italic>Aedes aegypti</italic> . Nesse sentido, os aspectos territoriais relacionados ao modo de ocupação do espaço urbano são relevantes para a caracterização das condições de receptividade. Consequentemente, por estarem voltados para doenças com determinantes sociais e ambientais bem demarcados, a vigilância e o controle das arboviroses urbanas devem articular um componente técnico que conceba o território como a base para a organização dos serviços e das ações de saúde, suporte da vida da população e contexto que explica a produção dos problemas de saúde. Ou seja, como campo de responsabilidades e atuações compartilhadas, que compreende, além de suas características morfológicas, uma área de exercício de saberes e poderes<sup><xref ref-type="bibr" rid="B17">17</xref></sup> .</p>
+				<p>Este artigo apresenta a metodologia de estratificação pelo índice de receptividade territorial (IRT) às arboviroses urbanas como uma ferramenta para a vigilância e controle de dengue, zika e chikungunya. Para tanto, considera a heterogeneidade territorial intramunicipal correspondente ao município de Belo Horizonte (MG).</p>
+			</sec>
+			<sec sec-type="methods">
+				<title>MÉTODOS</title>
+				<p>O processo de construção do índice de receptividade territorial às arboviroses urbanas associadas ao <italic>Aedes aegypti</italic> foi realizado a partir de um delineamento ecológico que utilizou como unidade de análise as áreas de abrangência dos centros de saúde<sup><xref ref-type="bibr" rid="B18">18</xref></sup> de Belo Horizonte. Uma série de indicadores foi sintetizada em dimensões (por análise multivariada), ponderada por análise de processos hierárquicos (AHP)<sup><xref ref-type="bibr" rid="B19">19</xref></sup> e, novamente sintetizada, o que resultou no referido índice. Este estudo foi realizado no âmbito do ArboAlvo, aprovado pelo Comitê de Ética em Pesquisa do Instituto Oswaldo Cruz (CEP-IOC), sob o protocolo nº 51057015.5.0000.5537.</p>
+				<sec>
+					<title>Área de Estudo</title>
+					<p>Belo Horizonte, capital do estado de Minas Gerais, possui aproximadamente 331,401 km<sup>2</sup>e, em 2019, população urbana estimada em 2.510.072 habitantes, com densidade demográfica de aproximadamente 7.167 hab./km<sup>2</sup>. O município está localizado a uma altitude média de 852 metros acima do nível do mar, apresenta clima classificado como tropical de altitude, caracterizado por verões moderadamente quentes e úmidos e invernos secos com baixas temperaturas. A média anual de precipitação é de cerca de 1.400 mm<sup><xref ref-type="bibr" rid="B20">20</xref> , <xref ref-type="bibr" rid="B21">21</xref></sup> .</p>
+					<p>Em termos sociais, Belo Horizonte apresenta alto índice de desenvolvimento humano (0,81), uma moderada desigualdade de distribuição de renda (coeficiente de Gini de 0,6) e percentual de população pobre de aproximadamente 4% (100.402 habitantes)<sup><xref ref-type="bibr" rid="B20">20</xref></sup> . A cidade é endêmica para dengue e apresenta casos notificados de zika e chikungunya<sup><xref ref-type="bibr" rid="B22">22</xref></sup> .</p>
+					<p>O município é dividido em nove regiões administrativas e 485 bairros ( <xref ref-type="table" rid="t1002">Tabela 1</xref> ). Além das regiões de planejamento administrativo (RPA) e dos bairros, o município de Belo Horizonte tem outra unidade territorial, delimitada pela Secretaria Municipal de Saúde (SMS), denominada Área de Abrangência dos Centros de Saúde (152 áreas). No estudo que originou este artigo, as áreas de abrangência foram utilizadas como unidades espaciais de análise, pois a estratificação da receptividade em nível intramunicipal deve ser capaz de dialogar com a territorialização das ações de vigilância e controle das arboviroses urbanas da SMS de Belo Horizonte<sup><xref ref-type="bibr" rid="B23">23</xref></sup> .</p>
+					<p>
+						<table-wrap id="t1002">
+							<label>Tabela 1</label>
+							<caption>
+								<title>Características geográficas e demográficas das regiões administrativas (RA) do município de Belo Horizonte, MG.</title>
+							</caption>
+							<table frame="hsides" rules="groups">
+								<colgroup width="14%">
+									<col/>
+									<col/>
+									<col/>
+									<col/>
+									<col/>
+									<col/>
+									<col/>
+								</colgroup>
+								<thead>
+									<tr>
+										<th align="left">RA</th>
+										<th>Número de áreas de abrangência</th>
+										<th>Número de bairros</th>
+										<th>Área (km<sup>2</sup>)</th>
+										<th>% da área urbana total</th>
+										<th>Número total de habitantes</th>
+										<th>Densidade demográfica (hab./km<sup>2</sup>)</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Barreiro</td>
+										<td align="center">20</td>
+										<td align="center">73</td>
+										<td align="center">53,46</td>
+										<td align="center">16,14</td>
+										<td align="center">282.552</td>
+										<td align="center">5.242,3</td>
+									</tr>
+									<tr>
+										<td>Centro-Sul</td>
+										<td align="center">12</td>
+										<td align="center">43</td>
+										<td align="center">31,73</td>
+										<td align="center">9,58</td>
+										<td align="center">283.776</td>
+										<td align="center">8.698,8</td>
+									</tr>
+									<tr>
+										<td>Leste</td>
+										<td align="center">14</td>
+										<td align="center">44</td>
+										<td align="center">27,89</td>
+										<td align="center">8,42</td>
+										<td align="center">238.539</td>
+										<td align="center">8.473,6</td>
+									</tr>
+									<tr>
+										<td>Nordeste</td>
+										<td align="center">21</td>
+										<td align="center">68</td>
+										<td align="center">39,32</td>
+										<td align="center">11,87</td>
+										<td align="center">290.353</td>
+										<td align="center">7.347,0</td>
+									</tr>
+									<tr>
+										<td>Noroeste</td>
+										<td align="center">16</td>
+										<td align="center">65</td>
+										<td align="center">30,07</td>
+										<td align="center">9,07</td>
+										<td align="center">268.038</td>
+										<td align="center">8.953,7</td>
+									</tr>
+									<tr>
+										<td>Norte</td>
+										<td align="center">20</td>
+										<td align="center">45</td>
+										<td align="center">32,56</td>
+										<td align="center">9,83</td>
+										<td align="center">212.055</td>
+										<td align="center">6.468,9</td>
+									</tr>
+									<tr>
+										<td>Oeste</td>
+										<td align="center">18</td>
+										<td align="center">60</td>
+										<td align="center">35,93</td>
+										<td align="center">10,84</td>
+										<td align="center">308.549</td>
+										<td align="center">8.776,3</td>
+									</tr>
+									<tr>
+										<td>Pampulha</td>
+										<td align="center">14</td>
+										<td align="center">50</td>
+										<td align="center">51,03</td>
+										<td align="center">15,40</td>
+										<td align="center">226.110</td>
+										<td align="center">4.416,8</td>
+									</tr>
+									<tr>
+										<td>Venda Nova</td>
+										<td align="center">17</td>
+										<td align="center">37</td>
+										<td align="center">29,16</td>
+										<td align="center">8,80</td>
+										<td align="center">265.179</td>
+										<td align="center">9.109,4</td>
+									</tr>
+								</tbody>
+							</table>
+							<table-wrap-foot>
+								<attrib>Fonte: Prefeitura Municipal de Belo Horizonte, IBGE.</attrib>
+							</table-wrap-foot>
+						</table-wrap>
+					</p>
+				</sec>
+				<sec>
+					<title>Composição do IRT às Arboviroses Urbanas Associadas ao Aedes aegypti</title>
+					<p>A partir da concepção teórica sobre a receptividade territorial adotada, foram construídos 30 indicadores com base em revisão de literatura<sup><xref ref-type="bibr" rid="B24">24</xref></sup> e na expertise dos autores, capazes de caracterizar fatores do território relacionados à ocorrência das arboviroses urbanas. Foram elaborados indicadores referentes ao crescimento da mancha urbana do município, à densidade populacional por área edificada, ao percentual de área com aglomerados subnormais, à altimetria, à edificação, à caracterização da área com vegetação, às condições do entorno das moradias e às características sociossanitárias dos domicílios.</p>
+					<p>Para a construção do indicador crescimento da mancha urbana de Belo Horizonte foram realizados mapeamentos de uso e ocupação do solo de um período de três anos (1984, 2000 e 2017) por meio de imagens Landsat 5 e 8 (resolução espacial de 30 m) adquiridas via Google Engine (https://earthengine.google.com) e analisadas por classificação supervisionada, com a utilização das seguintes classes de uso do solo: área urbana, vegetação, solo exposto, corpos hídricos e vias. Por fim, foi calculado o percentual de crescimento de área urbana em dois períodos (1984–2000; 2000–2017) para cada área de abrangência do município.</p>
+					<p>Na caracterização da área vegetada, foi realizado mapeamento adicional de uso e ocupação do solo. Utilizou-se imagens de 2016 da constelação dos satélites Plêiades (resolução espacial de 0,5 m), analisadas por interpretação visual para identificação de cinco classes (corpos hídricos, área edificada, solo exposto, vegetação arbórea e herbácea). Optou-se por imagens de 2016 porque o índice foi avaliado em sua relação com os dados de ocorrência de dengue referente àquele ano epidêmico.</p>
+					<p>Para construção do indicador densidade populacional por área edificada (hab./km<sup>2</sup>) foi realizado o mapeamento das áreas edificadas para o cálculo do denominador por meio da interpretação visual de imagens de 2016 dos satélites Plêiades. Diferentemente da identificação do uso do solo, em que a área urbana foi definida sem considerar o uso efetivo pela população, neste mapeamento foram delimitadas todas as áreas com construções antrópicas de moradia, uso público ou industrial, excluindo-se as áreas verdes e de loteamento incipientes. Deste processo resultaram dois indicadores: percentual de área ocupada e densidade populacional real.</p>
+					<p>O percentual de áreas com aglomerados subnormais foi obtido a partir da base cartográfica do Censo 2010. Os aglomerados subnormais se caracterizam pela presença de dificuldades de acesso, alta densidade de construções, habitações precárias e insuficiente oferta de serviços públicos, como abastecimento de água e coleta de lixo, muitas vezes classificados como favelas ou outras denominações locais<sup><xref ref-type="bibr" rid="B25">25</xref></sup> . Essa base foi complementada pelo georreferenciamento de informações sobre favelas em Belo Horizonte e pela busca ativa por interpretação visual de imagens de satélite. Após essa coleta de informação foi construída uma base de aglomerados subnormais (vetorização). O mapeamento dessas áreas por unidade espacial de análise resultou no percentual da área com aglomerados subnormais.</p>
+					<p>Os indicadores de condições do entorno das moradias (presença de esgoto a céu aberto, lixo acumulado, ausência de iluminação pública, pavimentação e bueiros), bem como das condições dos domicílios (abastecimento de água, esgotamento sanitário, coleta de lixo, média de pessoas por domicílios, fonte de energia elétrica, renda e composição populacional), foram construídos com base nos dados censitários de 2010. As informações foram agregadas para as unidades espaciais adotadas (áreas de abrangência) por meio de relacionamento entre planos de informação em um Sistema de Informações Geográficas (SIG).</p>
+					<p>O indicador altitude média foi construído pela transformação das curvas de nível (5 m) em uma superfície suavizada pela interpolação feita pelo método Inverse Distance Weighted (IDW) e posterior extração da média para cada área de abrangência por meio de ferramentas de geoprocessamento. Já a verticalização média foi construída pelo cálculo da média das altimetrias de todas as edificações por área de abrangência. Os dados de altimetria, oriundos de mapeamento a laser via LIDAR ( <italic>Light Detection and Ranging</italic> ), e as curvas de nível foram obtidos junto à prefeitura de Belo Horizonte (https://prefeitura.pbh.gov.br/prodabel).</p>
+					<p>Posteriormente, foi realizada análise exploratória estatística para seleção dos indicadores para análise de componentes principais ( <xref ref-type="table" rid="t3002">Quadro</xref> ), meio pelo qual foram avaliados três critérios: 1) coeficiente de variação mínimo de 25%; 2) não apresentar alta correlação positiva (redundância); e 3) apresentar plausibilidade epidemiológica. As variáveis altamente correlacionadas negativamente foram mantidas pelo alto poder de discriminação entre as unidades territoriais de análise.</p>
+					<p>
+						<table-wrap id="t3002">
+							<label>Quadro</label>
+							<caption>
+								<title>Indicadores territoriais selecionados para compor a análise de componentes principais da construção do índice de receptividade territorial (IRT) das arboviroses urbanas.</title>
+							</caption>
+							<table frame="hsides" rules="groups">
+								<colgroup>
+									<col/>
+									<col/>
+									<col/>
+								</colgroup>
+								<thead>
+									<tr>
+										<th align="left">Indicadores territoriais</th>
+										<th>Definição</th>
+										<th>Hipótese para construção do indicador</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Percentual de área ocupada.</td>
+										<td align="center">Proporção entre a área efetivamente ocupada (com construções antrópicas) e a área total da área de abrangência.</td>
+										<td align="center">Quanto maior a área efetivamente ocupada maior a possibilidade de existência de potenciais criadouros (contato vetor – hospedeiro) e maior influência na temperatura de superfície (áreas edificadas).</td>
+									</tr>
+									<tr>
+										<td>Percentual de incremento da mancha urbana de 1985 a 2000.</td>
+										<td align="center">Proporção entre a área efetivamente ocupada em 1985 e 2000.</td>
+										<td align="center" rowspan="2">Áreas de expansão urbana podem apresentar maior possibilidade de reprodução do vetor em função do descompasso entre crescimento urbano e investimento público em infraestrutura de saneamento.</td>
+									</tr>
+									<tr>
+										<td>Percentual de incremento da mancha urbana de 2000 a 2017.</td>
+										<td align="center">Proporção entre a área efetivamente ocupada em 2000 e 2017.</td>
+									</tr>
+									<tr>
+										<td>Altitude média das áreas de abrangência, em metros.</td>
+										<td align="center">Altitude média, em metros, de cada área de abrangência.</td>
+										<td align="center">Áreas com menor altitude possuem maior possibilidade de reprodução de vetores devido às maiores temperaturas quando comparadas com áreas de maiores altitudes.</td>
+									</tr>
+									<tr>
+										<td>Edificação das áreas de abrangência, em metros.</td>
+										<td align="center">Média das altimetrias de todas as edificações por área de abrangência.</td>
+										<td align="center">Áreas com maior edificação/verticalização possuem melhor estrutura urbana, infraestrutura de saneamento e renda, além de o espaço predial não ser favorável para manutenção de criadouros do vetor.</td>
+									</tr>
+									<tr>
+										<td>Percentual de vegetação.</td>
+										<td align="center">Proporção entre a área ocupada por vegetação (solo exposto, vegetação arbórea e herbácea) e a área total da área de abrangência.</td>
+										<td align="center">Áreas com menos vegetação possuem maior probabilidade de possuir potenciais criadouros e contato vetor – hospedeiro, pelo <italic>Aedes aegypti</italic> ser um vetor urbano e maior influência na temperatura de superfície.</td>
+									</tr>
+									<tr>
+										<td>Densidade populacional por área edificada.</td>
+										<td align="center">Número de habitantes por km<sup>2</sup>de área efetivamente ocupada (com construções antrópicas).</td>
+										<td align="center">Quanto maior a densidade populacional por área edificada maior a possibilidade de contato vetor – hospedeiro.</td>
+									</tr>
+									<tr>
+										<td>Percentual de área com aglomerados subnormais.</td>
+										<td align="center">Proporção entre a área ocupada por aglomerados subnormais e a área total da área de abrangência.</td>
+										<td align="center">Quanto maior a área com aglomerados subnormais maior a possibilidade de produção de vetores em função das condições de vida.</td>
+									</tr>
+									<tr>
+										<td>Percentual de domicílios com lixo acumulado no entorno.</td>
+										<td align="center">Proporção de domicílios em que a face ou a confrontante tenha local de depósito e acúmulo de lixo, por área de abrangência.</td>
+										<td align="center" rowspan="2">Quanto maior o percentual de domicílio com lixo acumulado no entorno ou jogado em terreno baldio, maior a quantidade de possíveis focos de reprodução do vetor.</td>
+									</tr>
+									<tr>
+										<td>Percentual de domicílios com lixo jogado em terreno baldio, rio e/ou lagoa.</td>
+										<td align="center">Proporção de domicílios em que o lixo doméstico é jogado em terreno baldio ou logradouro público (rio, lago ou mar), por área de abrangência.</td>
+									</tr>
+									<tr>
+										<td>Percentual de domicílios com esgoto a céu aberto no entorno.</td>
+										<td align="center">Proporção de domicílios em que a face ou a confrontante tenham vala, córrego ou corpo de água onde habitualmente ocorre lançamento de esgoto doméstico, por área de abrangência.</td>
+										<td align="center" rowspan="3">Quanto maior o percentual de domicílios nestas condições, menor o investimento do poder público em termos de infraestrutura urbana.</td>
+									</tr>
+									<tr>
+										<td>Percentual de domicílios sem iluminação pública no entorno.</td>
+										<td align="center">Proporção de domicílios em que a face ou a confrontante não tenha ponto fixo (poste) de iluminação pública, por área de abrangência.</td>
+									</tr>
+									<tr>
+										<td>Percentual de domicílios sem pavimentação no entorno.</td>
+										<td align="center">Proporção de domicílios em que o trecho do logradouro, na face percorrida, não tenha pavimentação (cobertura da via pública com asfalto, cimento, paralelepípedos, pedras etc.), por área de abrangência.</td>
+									</tr>
+									<tr>
+										<td>Percentual de domicílios sem bueiro no entorno.</td>
+										<td align="center">Proporção de domicílios em que a face ou a confrontante tenha bueiro ou boca de lobo, ou seja, abertura que dá acesso a caixas subterrâneas, por onde escoam a água proveniente de chuvas, as regas etc., por área de abrangência.</td>
+										<td align="center">Quanto maior o percentual de domicílios sem bueiro no entorno, maior a quantidade de possíveis focos de reprodução do vetor em função de acúmulo de água.</td>
+									</tr>
+									<tr>
+										<td>Percentual de domicílios com abastecimento por poço e/ou chuva armazenada em cisterna.</td>
+										<td align="center">Proporção de domicílios com abastecimento por poço e/ou chuva armazenada em cisterna, por área de abrangência.</td>
+										<td align="center" rowspan="2">Quanto maior o percentual de domicílios abastecidos por poço em área urbana, menor o investimento em infraestrutura habitacional.</td>
+									</tr>
+									<tr>
+										<td>Percentual de domicílios com esgotamento sanitário inadequado.</td>
+										<td align="center">Proporção de domicílios com banheiro de uso exclusivo e esgotamento sanitário via fossa rudimentar, vala, rio, lago, mar ou outro, por área de abrangência.</td>
+									</tr>
+									<tr>
+										<td>Percentual de domicílios irregulares.</td>
+										<td align="center">Proporção de domicílios em situação de ocupação irregular (não próprio, cedido ou alugado), por área de abrangência.</td>
+										<td align="center" rowspan="2">Quanto maior o percentual de domicílios nestas condições, menor é o grau de regularização, sugerindo menor atuação do poder público na prestação de serviços, configurando piores condições de vida.</td>
+									</tr>
+									<tr>
+										<td>Percentual de domicílios com fonte de energia irregular.</td>
+										<td align="center">Proporção de domicílios com fornecimento de energia irregular, por área de abrangência.</td>
+									</tr>
+									<tr>
+										<td>Percentual de pobres.</td>
+										<td align="center">Proporção de domicílios com renda mensal <italic>per capita</italic> até um salário-mínimo, por área de abrangência.</td>
+										<td align="center">Quanto maior a percentual de domicílios com baixa renda menor a capacidade de resolução individual das necessidades infraestruturais.</td>
+									</tr>
+									<tr>
+										<td>Densidade de pobres.</td>
+										<td align="center">Domicílios com renda mensal <italic>per capita</italic> de até um salário-mínimo por km<sup>2</sup>de área edificada de uma determinada unidade espacial de análise.</td>
+										<td align="center">Indicador que marca a existência de área com densidade populacional com baixa capacidade de oferta individual de infraestrutura.</td>
+									</tr>
+									<tr>
+										<td>Percentual de população autodeclarada branca.</td>
+										<td align="center">Proporção de pessoas autodeclaradas como sendo da cor/raça branca, por área de abrangência.</td>
+										<td align="center">Marca um processo de ocupação territorial onde se observa uma desigualdade em termos de condições individuais relacionadas à renda, mas também quanto ao investimento público em infraestrutura.</td>
+									</tr>
+								</tbody>
+							</table>
+						</table-wrap>
+					</p>
+				</sec>
+				<sec>
+					<title>Análise Multivariada e Cálculo do Índice de Receptividade</title>
+					<p>Dimensões da receptividade às arboviroses urbanas associadas ao <italic>Aedes aegypti</italic> foram criadas a partir da análise de componentes principais (ACP), com o uso dos 21 indicadores descritos no <xref ref-type="table" rid="t3002">Quadro</xref> . A ACP é uma técnica de análise multivariada que tem como finalidade transformar as variáveis originais em componentes (combinações lineares ortogonais) pelos quais se obtém uma síntese com menor perda possível da informação<sup><xref ref-type="bibr" rid="B26">26</xref></sup> . Os indicadores foram padronizados por meio do critério de Kaiser (autovalores &gt; 1) e a visualização de decaimento da variância entre componentes (scree plot) para identificar aqueles a serem selecionados. A importância de cada componente principal (peso) é avaliada por meio da proporção da variância total explicada por ele. As cargas de cada indicador foram utilizadas para determinar sua importância na construção do componente.</p>
+					<p>O IRT foi construído com base em uma análise de multicritérios<sup><xref ref-type="bibr" rid="B27">27</xref></sup> . Esse procedimento envolve a álgebra de mapas, meio pelo qual os diferentes planos de informação são cruzados com seus pesos e notas, tendo como resultado o mapa síntese. Para fazer essa integração é necessário que os critérios sejam padronizados com a uniformização das unidades de todos os mapas<sup><xref ref-type="bibr" rid="B28">28</xref></sup> . No estudo que realizamos foram utilizadas as componentes resultantes da ACP, como os planos de informação, para gerar o mapa de receptividade a partir da análise multicritério, por meio do método de combinação linear ponderada, no qual as componentes são normalizadas e associadas a pesos obtidos com a análise de processos hierárquicos (AHP). Esse método pondera os pesos de cada componente resultante da ACP com a comparação par a par por especialistas em relação ao desfecho e, então, por meio de álgebra matricial, se obtém o peso de cada componente. Posteriormente, o IRT foi dividido em quintis, de modo que o mapa resultante apresenta cinco classes (muito alta, alta, média, baixa e muito baixa).</p>
+					<p>Como forma de avaliar a relação do IRT e a ocorrência de arboviroses urbanas associadas ao <italic>Aedes aegypti</italic> , foram realizadas as sobreposições ao plano de informação, que incluem a densidade de casos de dengue e de ovos de <italic>Aedes</italic> (estimador de Kernel) referente ao ano epidêmico de 2016. A correlação estatística entre essas variáveis foi estimada por meio do coeficiente de Spearman (não paramétrica), mantendo-se como unidade de análise as 152 áreas de abrangência dos centros de saúde. As duas sobreposições desses planos de informação também permitiram calcular alguns indicadores, como o número de áreas de abrangência e densidade média de casos de dengue e ovos de <italic>Aedes</italic> segundo níveis de IRT, com o objetivo de apontar áreas prioritárias para o controle.</p>
+					<p>Os dados referentes às suspeitas de casos de dengue notificados em Belo Horizonte em 2016, georreferenciados segundo o endereço de residência, e os dados referentes ao número de ovos de <italic>Aedes</italic> por ovitrampas, foram fornecidos pela SMS do município. A utilização apenas dos casos de dengue e não do conjunto das arboviroses urbanas associadas ao <italic>Aedes aegypti</italic> para essa avaliação se justifica pela existência de informação georreferenciada somente para eles, o que permite a estimativa da densidade de casos, o que não seria possível para as demais arboviroses. Adicionalmente, a frequência de casos de dengue em 2016 foi predominante entre todas as arboviroses (154.143 casos ou 99%) em relação à zika (1.495 casos ou 0,1%) e à chikungunya (95 casos ou 0,01%), de modo que a não inclusão dos casos dessas duas arboviroses não afeta a avaliação da relação do índice com a ocorrência de casos de dengue<sup><xref ref-type="bibr" rid="B22">22</xref></sup> .</p>
+				</sec>
+			</sec>
+			<sec sec-type="results">
+				<title>RESULTADOS</title>
+				<p>A análise exploratória espacial dos indicadores selecionados aponta para um processo recente de expansão urbana direcionado para as porções nordeste e noroeste da cidade, bem como para a ocorrência de uma heterogeneidade territorial das condições socioeconômicas, de infraestrutura habitacional e do entorno das moradias. Dentre os indicadores pré-selecionados, aqueles com maior plausibilidade epidemiológica no processo de determinação socioambiental e variabilidade territorial são apresentados na <xref ref-type="fig" rid="f01002">Figura 1</xref> .</p>
+				<p>
+					<fig id="f01002">
+						<label>Figura 1</label>
+						<caption>
+							<title>Distribuição espacial dos indicadores territoriais segundo as áreas de abrangência. Belo Horizonte, MG.</title>
+						</caption>
+						<graphic xlink:href="1518-8787-rsp-56-39-gf01-pt.tif"/>
+						<attrib>Fonte: Elaborado a partir de dados disponibilizados pela Prefeitura Municipal de Belo Horizonte, IBGE e Landsat.</attrib>
+					</fig>
+				</p>
+				<p>A partir do resultado da ACP optou-se por trabalhar com os quatro primeiros componentes gerados pela análise que, em conjunto, explicam aproximadamente 61% da variância observada. Esses componentes foram espacializados e interpretados à luz do conhecimento do território municipal ( <xref ref-type="fig" rid="f02002">Figura 2</xref> ).</p>
+				<p>
+					<fig id="f02002">
+						<label>Figura 2</label>
+						<caption>
+							<title>Componentes de condições socioambientais resultantes da análise de componentes principais. Belo Horizonte, MG.</title>
+						</caption>
+						<graphic xlink:href="1518-8787-rsp-56-39-gf02-pt.tif"/>
+						<attrib>Fonte: Elaborado a partir de dados disponibilizados pela Prefeitura Municipal de Belo Horizonte e IBGE.</attrib>
+					</fig>
+				</p>
+				<p>O primeiro componente resultante, que explica aproximadamente 29% da variabilidade do conjunto de dados, foi definido como áreas periféricas de concentração populacional e de pobreza com deficiência de infraestrutura urbana e baixo percentual de pessoas brancas. Assim, áreas com alto valor desse componente apresentam alto percentual de domicílios com renda mensal <italic>per capita</italic> de até um salário-mínimo, sem pavimentação no entorno e com abastecimento por poço, chuva armazenada em cisterna e/ou outra forma de abastecimento.</p>
+				<p>O segundo componente, designada pobreza concentrada em área urbana consolidada, explica aproximadamente 15% da variabilidade. Nas unidades espaciais de análise em que o valor desse componente é alto, observa-se: maior densidade populacional e de pessoas pobres, maior percentual de domicílios em situação de ocupação irregular, e maior percentual de áreas favelizadas, isto é, em aglomerados subnormais.</p>
+				<p>O terceiro componente explica aproximadamente 10% da variabilidade do conjunto de dados e designa áreas com altitudes elevadas e alta verticalização com heterogeneidade de infraestrutura urbana. O quarto componente apresenta percentual de explicação de aproximadamente 7% e designa área adensada com precariedade urbana. Nas áreas com alto valor para esse último componente existe alta densidade populacional, alto percentual de domicílios em situação de ocupação irregular, alto percentual de domicílios com lixo acumulado no entorno e alto percentual de domicílios com esgoto a céu aberto no entorno.</p>
+				<p>O processo de ponderação desses componentes para a elaboração do índice por meio da AHP resultou nos seguintes pesos: 17,4% para o primeiro; 34% para o segundo; 7,2% para o terceiro; e 41,4% para o quarto. Com base nesses pesos e por meio da técnica de álgebra de mapas, obtivemos o IRT para cada uma das unidades de análise. O índice foi espacializado com as áreas de abrangência das unidades básicas de saúde, classificadas em cinco categorias de receptividade: muito baixa; baixa; média; alta; e muito alta ( <xref ref-type="fig" rid="f03002">Figura 3</xref> ).</p>
+				<p>
+					<fig id="f03002">
+						<label>Figura 3</label>
+						<caption>
+							<title>(A) Índice de receptividade territorial às arboviroses urbanas associadas ao <italic>Aedes aegypti</italic> ; (B) densidade de casos de dengue; (C) densidade de ovos de <italic>Aedes</italic> . Belo Horizonte, MG, 2016.</title>
+						</caption>
+						<graphic xlink:href="1518-8787-rsp-56-39-gf03-pt.tif"/>
+						<attrib>Fonte: Elaborado a partir de dados disponibilizados pela Prefeitura Municipal de Belo Horizonte e IBGE.</attrib>
+					</fig>
+				</p>
+				<p>As áreas classificadas como de alta e muito alta receptividade, correspondentes a aproximadamente 33% da área ocupada do município ( <xref ref-type="table" rid="t2002">Tabela 2</xref> ), se concentram sobretudo nas RPA Leste, Nordeste, Norte, Oeste e Barreiro, principalmente em áreas limítrofes a outros municípios que compõem a região metropolitana. Observa-se, no entanto, a presença de áreas assim classificadas em todas as RPA da cidade. As áreas classificadas como de baixa ou muito baixa receptividade, por outro lado, se concentram nas RPA Centro-Sul e Pampulha, caracterizadas pela ocupação de pessoas com renda média e alta e por uma boa rede de serviços e infraestrutura urbana. Essas áreas correspondem a cerca de 52% da área ocupada do município ( <xref ref-type="table" rid="t2002">Tabela 2</xref> ).</p>
+				<p>
+					<table-wrap id="t2002">
+						<label>Tabela 2</label>
+						<caption>
+							<title>Caracterização das áreas de abrangência segundo classes do índice de receptividade, área total e ocupada, densidade de casos de dengue notificados e densidade de ovos de <italic>Aedes</italic> . Belo Horizonte, MG, 2016.</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup width="17%">
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left">Índice de receptividade</th>
+									<th>Área total (km<sup>2</sup>)</th>
+									<th>Área ocupada (km<sup>2</sup>)</th>
+									<th>Número de áreas de abrangência</th>
+									<th>Densidade de casos de dengue/km<sup>2</sup></th>
+									<th>Densidade de ovos de Aedes/km<sup>2</sup></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Muito baixo</td>
+									<td align="center">108</td>
+									<td align="center">66</td>
+									<td align="center">31</td>
+									<td align="center">328</td>
+									<td align="center">1.863</td>
+								</tr>
+								<tr>
+									<td>Baixo</td>
+									<td align="center">73</td>
+									<td align="center">58</td>
+									<td align="center">31</td>
+									<td align="center">534</td>
+									<td align="center">2.211</td>
+								</tr>
+								<tr>
+									<td>Médio</td>
+									<td align="center">51</td>
+									<td align="center">35</td>
+									<td align="center">29</td>
+									<td align="center">591</td>
+									<td align="center">2.220</td>
+								</tr>
+								<tr>
+									<td>Alto</td>
+									<td align="center">59</td>
+									<td align="center">46</td>
+									<td align="center">30</td>
+									<td align="center">584</td>
+									<td align="center">2.065</td>
+								</tr>
+								<tr>
+									<td>Muito alto</td>
+									<td align="center">40</td>
+									<td align="center">32</td>
+									<td align="center">31</td>
+									<td align="center">696</td>
+									<td align="center">2.233</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<attrib>Fonte: Elaborado a partir de dados disponibilizados pela Prefeitura Municipal de Belo Horizonte e IBGE.</attrib>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p>Quando sobrepostas a densidade de casos de dengue e de ovos de <italic>Aedes</italic> de 2016 à estratificação pelas classes do IRT às arboviroses urbanas, verifica-se que áreas de muito alta receptividade apresentam uma densidade de casos, bem como de ovos de <italic>Aedes</italic> superior àquela observada nas demais áreas da cidade, que correspondem a um percentual bastante reduzido do território municipal (13,5%) ( <xref ref-type="fig" rid="f03002">Figura 3</xref> , <xref ref-type="table" rid="t2002">Tabela 2</xref> ). O coeficiente de correlação de Spearman entre o IRT e a densidade de casos de dengue foi de 0,45 (p-valor &lt; 0,05; IC95% 0,27–0,53). Para a correlação entre a receptividade e a densidade de ovos de <italic>Aedes</italic> , o valor foi de 0,06 (p-valor = 0,43). Embora no último caso a correlação de Spearman não seja significativa, ressaltamos que essa análise observa a existência de uma relação linear entre o IRT e a densidade de ovos de <italic>Aedes</italic> para cada unidade espacial. Quanto observada a relação segundo as classes do IRT podemos verificar maior densidade de ovos de <italic>Aedes</italic> na classe de maior receptividade.</p>
+			</sec>
+			<sec sec-type="discussion">
+				<title>DISCUSSÃO</title>
+				<p>A proposição e elaboração de um IRT às arboviroses urbanas associadas ao <italic>Aedes aegypti</italic> foi capaz de evidenciar heterogeneidade intramunicipal quanto às condições de infraestrutura de Belo Horizonte. As análises ressaltam a necessidade do desenvolvimento de ações de vigilância e controle particulares para cada contexto, de modo a superar a lógica de alocação homogênea de ações em todo o território.</p>
+				<p>Os resultados aqui apresentados evidenciam as características territoriais na escala de área de abrangência (unidade espacial utilizada). Essa perspectiva torna visível alguns padrões da distribuição das condições de vida e infraestrutura dos territórios, mas não abrange totalmente a complexidade do fenômeno. Caso fosse realizada em outra escala, essa análise apresentaria, naturalmente, outros resultados, o que enriqueceria a compreensão do contexto territorial em que ocorrem as arboviroses urbanas<sup><xref ref-type="bibr" rid="B29">29</xref></sup> .</p>
+				<p>Por indicar áreas mais receptivas às arboviroses urbanas associadas ao <italic>Aedes aegypti</italic> em função da organização e do uso do território, o IRT não é direcionado primordialmente para o enfrentamento de emergências epidêmicas, ainda que na ausência de informações mais qualificadas em um cenário como esse, uma maior receptividade possa servir como parâmetro para a alocação de ações de vigilância e controle no território.</p>
+				<p>Considerando situações de epidemias explosivas, indicativo de alta susceptibilidade na população, como a que ocorreu em Belo Horizonte em 2016, com circulação expressiva do sorotipo DENV1, subida abrupta da curva de notificação de casos com manutenção em patamares elevados ao longo de várias semanas epidemiológicas<sup><xref ref-type="bibr" rid="B22">22</xref></sup> , foi observada, no presente estudo, uma maior densidade de casos de dengue nas unidades espaciais classificadas como de alta ou muito alta receptividade, o que sugere a utilidade desse índice como preditor de áreas de risco para essas situações. Ademais, a sobreposição da densidade de ovos de <italic>Aedes</italic> observada naquele ano epidêmico à estratificação pelo IRT apontou resultado similar ao observado para a densidade de casos. No entanto, ressaltamos a necessidade da análise do IRT em outras cidades e outros anos epidêmicos.</p>
+				<p>Portanto, essa ferramenta visa contribuir para fortalecer o SUS, na medida em que auxilia o planejamento estruturante dos programas locais de vigilância e controle de arboviroses urbanas associadas ao <italic>Aedes aegypti,</italic> com a indicação das porções da cidade em que, de uma maneira geral e sistemática, as suas ações precisam ocorrer de modo intensificado<sup><xref ref-type="bibr" rid="B8">8</xref> , <xref ref-type="bibr" rid="B11">11</xref></sup> . Nesse sentido, considerando um contexto de escassez de recursos humanos, uma das aplicações possíveis do IRT por parte dos gestores locais seria subsidiar a organização das ações de controle priorizando áreas com maior receptividade.</p>
+				<p>Além disso, acreditamos que o IRT é uma ferramenta estratégica para o diálogo intersetorial no âmbito da administração pública, uma vez que expressa a heterogeneidade da ocupação do território e da qualidade da infraestrutura e dos serviços urbanos nas suas relações com a potencial ocorrência de casos de arboviroses, e evidencia a necessidade de alterações nessas infraestruturas sociotécnicas, cujas competências vão além das individuais, inseridas no setor da saúde<sup><xref ref-type="bibr" rid="B30">30</xref></sup> .</p>
+				<p>Em relação a seu processo de elaboração, destacam-se como pontos fortes a disponibilidade de obtenção dos dados sociodemográficos e ambientais disponíveis em bases de dados gratuitas e acessíveis pela internet, além da possibilidade de ser aplicado em outras cidades. Nesse sentido, ainda é importante ressaltar que os procedimentos técnicos aos quais esses dados são submetidos podem ser realizados em programas de computação gratuitos, de fácil obtenção e instalação. Como recursos necessários à sua elaboração, demonstra-se a necessidade de profissionais para a realização da análise territorial em saúde, bem como da análise de dados secundários e das análises espaciais. Ressaltamos, nesse sentido, a importância da realização regular de processos formativos para o aprimoramento das capacidades técnicas dos profissionais da vigilância de arboviroses urbanas.</p>
+				<p>Em relação ao índice IRT observamos como uma grande vantagem o fato de ele conseguir sintetizar o complexo de determinantes socioambientais da ocorrência dessas arboviroses urbanas (como demonstrado pela sobreposição da densidade de casos de dengue e de ovos de <italic>Aedes</italic> à estratificação por esse índice) em um valor numérico facilmente compreensível e comunicável. Esse índice responde com sucesso à questão colocada por Machado et al.<sup><xref ref-type="bibr" rid="B28">28</xref></sup> sobre a importância da construção de indicadores compostos capazes de conjugar diferentes dimensões do território e, assim, abarcar o conjunto de características socioambientais que determinam a produção e reprodução das arboviroses urbanas. Neste sentido, a prefeitura municipal de Belo Horizonte já havia desenvolvido o índice de vulnerabilidade da saúde (IVS-BH), indicador composto que sintetiza variáveis socioeconômicas para diferenciação de áreas com condições desfavoráveis no espaço intraurbano<sup><xref ref-type="bibr" rid="B31">31</xref></sup> . Embora o IVS-BH seja uma importante ferramenta para nortear políticas públicas de saúde e priorizar alocação de recursos, observamos a necessidade de um indicador composto relacionado especificamente aos determinantes socioambientais das arboviroses urbanas associadas ao <italic>Aedes aegypti</italic> . Assim, o IRT utiliza indicadores censitários mais específicos, além de informações climáticas e territoriais provenientes de sensoriamento remoto.</p>
+				<p>Por fim, como perspectiva de desenvolvimento na caracterização da receptividade territorial às arboviroses urbanas associadas ao <italic>Aedes aegypti,</italic> destacamos a importância da incorporação de indicadores que reflitam as dinâmicas e conjunturas dos territórios, nas perspectivas espaciais e temporais, visto que o território está em constante mudança devido às dinâmicas que refletem os fluxos modeladores do espaço geográfico<sup><xref ref-type="bibr" rid="B32">32</xref></sup> .</p>
+			</sec>
+		</body>
+		<back>
+			<fn-group>
+				<fn fn-type="financial-disclosure" id="fn2002">
+					<p><bold>Financiamento:</bold> Ministério da Saúde – Fundo Nacional de Saúde/Termos de Execução Descentralizada (TED) número 90/2016 e 139/2019.</p>
+				</fn>
+			</fn-group>
+		</back>
+	</sub-article>
+</article>

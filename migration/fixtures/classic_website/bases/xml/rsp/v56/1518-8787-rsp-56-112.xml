@@ -1,0 +1,2436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article article-type="review-article" dtd-version="1.1" specific-use="sps-1.9" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="nlm-ta">Rev Saude Publica</journal-id>
+			<journal-id journal-id-type="publisher-id">rsp</journal-id>
+			<journal-title-group>
+				<journal-title>Revista de Saúde Pública</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Rev. Saúde Pública</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="ppub">0034-8910</issn>
+			<issn pub-type="epub">1518-8787</issn>
+			<publisher>
+				<publisher-name>Faculdade de Saúde Pública da Universidade de São Paulo</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="other">00510</article-id>
+			<article-id pub-id-type="doi">10.11606/s1518-8787.2022056004475</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Review</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Instruments to assess adherence to medication in people living with HIV: a scoping review</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-0055-4682</contrib-id>
+					<name>
+						<surname>Santos</surname>
+						<given-names>André Pereira dos</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+					<xref ref-type="aff" rid="aff3"><sup>III</sup></xref>
+					<xref ref-type="aff" rid="aff4"><sup>IV</sup></xref>
+					<role>Study conception and planning</role>
+					<role>Data collection, analysis and interpretation</role>
+					<role>Manuscript elaboration or review</role>
+					<role>Final version approval</role>
+					<role>Public responsibility for the article’s content</role>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-8212-9032</contrib-id>
+					<name>
+						<surname>Cordeiro</surname>
+						<given-names>Jéssica Fernanda Corrêa</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+					<role>Data collection, analysis and interpretation</role>
+					<role>Manuscript elaboration or review</role>
+					<role>Final version approval</role>
+					<role>Public responsibility for the article’s content</role>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-3180-328X</contrib-id>
+					<name>
+						<surname>Fracarolli</surname>
+						<given-names>Isabela Fernanda Larios</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+					<role>Data collection, analysis and interpretation</role>
+					<role>Manuscript elaboration or review</role>
+					<role>Final version approval</role>
+					<role>Public responsibility for the article’s content</role>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-0020-4682</contrib-id>
+					<name>
+						<surname>Gomide</surname>
+						<given-names>Euripedes Barsanulfo Gonçalves</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+					<xref ref-type="aff" rid="aff5"><sup>V</sup></xref>
+					<role>Manuscript elaboration or review</role>
+					<role>Final version approval</role>
+					<role>Public responsibility for the article’s content</role>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-3336-2695</contrib-id>
+					<name>
+						<surname>Andrade</surname>
+						<given-names>Denise de</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff4"><sup>IV</sup></xref>
+					<role>Study conception and planning</role>
+					<role>Manuscript elaboration or review</role>
+					<role>Final version approval</role>
+					<role>Public responsibility for the article’s content</role>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>I</label>
+				<institution content-type="orgname">Universidade de São Paulo</institution>
+				<institution content-type="orgdiv1">Escola de Enfermagem de Ribeirão Preto</institution>
+				<addr-line>
+					<named-content content-type="city">Ribeirão Preto</named-content>
+					<named-content content-type="state">SP</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Universidade de São Paulo. Escola de Enfermagem de Ribeirão Preto. Ribeirão Preto, SP, Brasil</institution>
+			</aff>
+			<aff id="aff2">
+				<label>II</label>
+				<institution content-type="orgname">Universidade de São Paulo</institution>
+				<institution content-type="orgdiv1">Escola de Educação Física e Esporte de Ribeirão Preto</institution>
+				<addr-line>
+					<named-content content-type="city">Ribeirão Preto</named-content>
+					<named-content content-type="state">SP</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Universidade de São Paulo. Escola de Educação Física e Esporte de Ribeirão Preto. Grupo de Estudos e Pesquisa em Antropometria, Treinamento e Esporte. Ribeirão Preto, SP, Brasil</institution>
+			</aff>
+			<aff id="aff3">
+				<label>III</label>
+				<institution content-type="orgname">Universidade de São Paulo</institution>
+				<institution content-type="orgdiv1">Escola de Educação Física e Esporte de Ribeirão Preto</institution>
+				<addr-line>
+					<named-content content-type="city">Ribeirão Preto</named-content>
+					<named-content content-type="state">SP</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Universidade de São Paulo. Escola de Educação Física e Esporte de Ribeirão Preto. Ribeirão Preto, SP, Brasil</institution>
+			</aff>
+			<aff id="aff4">
+				<label>IV</label>
+				<institution content-type="orgname">Human Exposome and Infectious Diseases Network</institution>
+				<addr-line>
+					<named-content content-type="city">Ribeirão Preto</named-content>
+					<named-content content-type="state">SP</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Human Exposome and Infectious Diseases Network. Ribeirão Preto, SP, Brasil</institution>
+			</aff>
+			<aff id="aff5">
+				<label>V</label>
+				<institution content-type="orgname">Claretiano – Centro Universitário</institution>
+				<addr-line>
+					<named-content content-type="city">Batatais</named-content>
+					<named-content content-type="state">SP</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Claretiano – Centro Universitário. Batatais, SP, Brasil</institution>
+			</aff>
+			<author-notes>
+				<corresp id="c01"> Correspondence: André Pereira dos Santos Avenida dos Bandeirantes, 3.900 Campus Universitário 14040-902 Ribeirão Preto, SP, Brasil E-mail: <email>andrepereira.educa@gmail.com</email>
+				</corresp>
+				<fn id="fn1">
+					<p>Conflict of Interest: The authors declare there is no conflict of interest.</p>
+				</fn>
+			</author-notes>
+			<pub-date date-type="pub" publication-format="electronic">
+				<day>06</day>
+				<month>01</month>
+				<year>2023</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">
+				<year>2022</year>
+			</pub-date>
+			<volume>56</volume>
+			<elocation-id>112</elocation-id>
+			<history>
+				<date date-type="received">
+					<day>8</day>
+					<month>12</month>
+					<year>2021</year>
+				</date>
+				<date date-type="accepted">
+					<day>18</day>
+					<month>02</month>
+					<year>2022</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="en">
+					<license-p> This is an Open Access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. </license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>ABSTRACT</title>
+				<sec>
+					<title>OBJECTIVE</title>
+					<p> To compile the instruments validated in Brazil for assessing adherence of people living with HIV to antiretroviral therapy.</p>
+				</sec>
+				<sec>
+					<title>METHODS</title>
+					<p> Scoping review using the Web of Science, Scopus, Medline (via PubMed), Embase, BDENF, CINAHL and Lilacs databases. In addition, the Preprints bioRxiv, Google Scholar and OpenGrey servers were checked. There was no language restriction for the search, and it considered articles published from the year 1996 onwards.</p>
+				</sec>
+				<sec>
+					<title>RESULTS</title>
+					<p> Three publications were included in the qualitative synthesis. Following were the instruments identified “<italic>Questionário para Avaliação da Adesão ao Tratamento Antirretroviral</italic>” (Questionnaire for Assessment of Adherence to Antiretroviral Treatment) developed in Porto Alegre (RS) and published in 2007; the “<italic>Escala de autoeficácia para adesão ao tratamento antirretroviral em crianças e adolescentes com HIV/Aids</italic>” (Self-efficacy Scale for Adherence to Antiretroviral Treatment in Children and Adolescents with HIV/Aids) developed in São Paulo (SP) and published in 2008; and the “<italic>WebAd-Q, um instrumento de autorrelato para monitorar a adesão à terapia antirretroviral em serviços de HIV/Aids no Brasil</italic>” (WebAd-Q, a self-report instrument to monitor adherence to antiretroviral therapy in HIV/Aids services in Brazil) developed in São Bernardo do Campo (SP) and published in 2018. The instruments were validated in Brazil, and presented statistically acceptable values for psychometric qualities.</p>
+				</sec>
+				<sec>
+					<title>CONCLUSION</title>
+					<p> The instruments to assess adherence of people living with HIV to antiretroviral therapy are validated strategies for the Brazilian context. However, their (re)use in different settings and contexts of the nation should be expanded. The use of these instruments by health professionals can improve the understanding of factors that act negatively and positively on antiretroviral therapy adherence, and the proposition of strategies intended to consolidate good adherence and intervene in the treatment of people with low therapeutic engagement.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="en">
+				<kwd>HIV Infections, therapy</kwd>
+				<kwd>Medication Adherence</kwd>
+				<kwd>Treatment Refusal</kwd>
+				<kwd>HIV Long-Term Survivors</kwd>
+				<kwd>Review</kwd>
+			</kwd-group>
+			<funding-group>
+				<award-group>
+					<funding-source>Coordenação de Aperfeiçoamento de Pessoal de Nível Superior</funding-source>
+					<award-id>001</award-id>
+				</award-group>
+				<award-group>
+					<funding-source>Programa Nacional de Pós-Doutorado</funding-source>
+					<award-id>88882.317622/2019-01</award-id>
+				</award-group>
+				<funding-statement>Funding: Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (Capes - funding code 001). Programa Nacional de Pós-Doutorado (Proceeding 88882.317622/2019-01)</funding-statement>
+			</funding-group>
+			<counts>
+				<fig-count count="2"/>
+				<table-count count="4"/>
+				<equation-count count="0"/>
+				<ref-count count="42"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>INTRODUCTION</title>
+			<p>With the advent of antiretroviral therapy (ART) after 1987 in some parts of the world, and in Brazil since 1996, with public, free, and universal access, advances in the constitution and strategy of administration of antiretroviral drugs transformed the understanding about human immunodeficiency virus (HIV) infection worldwide, whether or not associated with acquired immunodeficiency syndrome (Aids), changing the focus from a fatal disease to a chronic infection<sup><xref ref-type="bibr" rid="B1">1</xref>,<xref ref-type="bibr" rid="B2">2</xref></sup>.</p>
+			<p>Even with the prolonged remission of HIV described in literature<sup><xref ref-type="bibr" rid="B3">3</xref>,<xref ref-type="bibr" rid="B4">4</xref></sup>, to date there is no cure, and the treatment that brings the viral load to an undetectable level (&lt; 40 copies/ml) has as its main component the patient’s adherence to antiretroviral therapy<sup><xref ref-type="bibr" rid="B5">5</xref></sup>. HIV control and health maintenance are promoted by the continuous and appropriate use of the ART, whose effectiveness is linked to the intake of drugs as prescribed, determining adherence to treatment. For satisfactory adherence, the use of antiretroviral drugs should be as close as possible to the prescription provided by the healthcare team, in order to comply with schedules, doses, and other instructions<sup><xref ref-type="bibr" rid="B6">6</xref></sup>. High levels of adherence have been consistently associated with better virologic, immunological, and clinical outcomes, with consequent increases in survival and quality of life for people living with HIV<sup><xref ref-type="bibr" rid="B8">8</xref></sup>. Additionally, considering that one of the pillars of the HIV epidemic control programs around the world is the strategy called U = U (undetectable = untransmissible), adherence to therapy has a positive impact on reducing the number of bound partner transmissions<sup><xref ref-type="bibr" rid="B9">9</xref>,<xref ref-type="bibr" rid="B10">10</xref></sup>. On the other hand, drug treatment abandonment or incorrect adherence can facilitate infection by opportunistic diseases and lead to death. In short, non-adherence to antiretroviral therapy negatively impacts social and political aspects, both for the public investment made and for controlling the epidemic<sup><xref ref-type="bibr" rid="B11">11</xref></sup>.</p>
+			<p>In recent years, Brazil has seen a decrease in the number of HIV infections. Between 2007 and 2020, 342,459 cases of HIV infection were reported to the <italic>Sistema de Informação de Agravos de Notificação</italic> (Brazilian Case Registry Information System)<sup><xref ref-type="bibr" rid="B11">11</xref></sup>. The Unified Health System has sustained its actions to ensure diagnosis and treatment for HIV, even during the covid-19 pandemic. The Ministry of Health prepared a “<italic>Monitoramento durante a pandemia da covid-19 – dados relacionados ao HIV</italic>” (Monitoring during the covid-19 pandemic - HIV-related data) panel, in which it brought important information about the numbers of people who started antiretroviral therapy each year. For example, in 2019, a total of 68,482 patients adhered to the ART; the following year, in 2020, there were 55,180 new adhesions<sup><xref ref-type="bibr" rid="B12">12</xref></sup>.</p>
+			<p>The barriers and facilitators for adherence to antiretroviral therapy are multifactorial, involving social, economic, systemic/professional (healthcare teams) issues, side effects to treatment, to the disease, and the uniqueness of the person living with HIV<sup><xref ref-type="bibr" rid="B13">13</xref></sup>. Each country and their regions may have specificities that could be configured as barriers to treatment; for example, countries such as Uganda, Tanzania, and Botswana may present obstacles in which hunger, waiting time for medication, and transportation costs are strong complicators for adhering to the ART<sup><xref ref-type="bibr" rid="B14">14</xref></sup>. In Brazil, the main factors associated with non-adherence to therapy are sociodemographic aspects, such as age (young), marital status (single), self-reported skin color (non-white), education (low level), income (low socioeconomic status), and vulnerability to HIV/Aids, such as licit and illicit drug use, use of health services (non-adherence to visits and contact with more than one healthcare service), added with clinical laboratory follow-up (perception of side effects and complexity of the therapeutic regimen)<sup><xref ref-type="bibr" rid="B15">15</xref>,<xref ref-type="bibr" rid="B16">16</xref></sup>.</p>
+			<p>Due to the different measurement instruments adopted at regional level, there is no national estimate of adherence to antiretroviral therapy; however, a recent literature review found that this rate rages between 18% and 74.3% depending on the location<sup><xref ref-type="bibr" rid="B17">17</xref></sup>.</p>
+			<p>Among the different instruments and techniques used to assess adherence of people living with HIV to therapy are the antiretroviral dispensation record<sup><xref ref-type="bibr" rid="B18">18</xref></sup>, medical record analysis<sup><xref ref-type="bibr" rid="B19">19</xref></sup>, self-completion questionnaire<sup><xref ref-type="bibr" rid="B20">20</xref></sup>, simplified questionnaire for assessment of ART adherence-SMAQ21<sup><xref ref-type="bibr" rid="B21">21</xref></sup>, etc. It has been observed, however, that the proposals for this assessment in healthcare services in Brazil do not use validated instruments and techniques<sup><xref ref-type="bibr" rid="B17">17</xref></sup>, which can lead to errors in verification and interpretation of results<sup><xref ref-type="bibr" rid="B22">22</xref></sup>.</p>
+			<p>This study aimed at tracking the instruments validated in Brazil to assess adherence of people living with HIV to antiretroviral therapy.</p>
+		</sec>
+		<sec sec-type="methods">
+			<title>METHODS</title>
+			<sec>
+				<title>Study Design</title>
+				<p>A scoping review is intended to address broad issues, focusing on more comprehensive results. This type of review rigorously and effectively identifies, examines, and systematizes a concept or unique trait of each study by identifying the nature of a broad field of knowledge<sup><xref ref-type="bibr" rid="B23">23</xref>,<xref ref-type="bibr" rid="B24">24</xref></sup>. The scoping review is systematized, and some steps are required to conduct it. Among these steps, five stages are considered mandatory and one optional: (1) identification of the research question; (2) identification of relevant studies; (3) selection of studies; (4) data mapping; (5) pooling, analysis, and summary of data; and (6) consultation with researchers (optional)<sup><xref ref-type="bibr" rid="B23">23</xref>,<xref ref-type="bibr" rid="B24">24</xref></sup>. This scoping review followed the guidelines of the checklist for systematic reviews and extension of meta-analyses for scoping reviews (Prisma-ScR)<sup><xref ref-type="bibr" rid="B25">25</xref></sup>.</p>
+			</sec>
+			<sec>
+				<title>Definition of the Question</title>
+				<p>In determining the research question, we decided to use the population (P), concept (C) and context (C)<sup><xref ref-type="bibr" rid="B26">26</xref></sup> strategy. Here, (P) = people living with HIV who take antiretroviral therapy, (C) = instruments on adherence to antiretroviral therapy, and (C) = instruments validated in Brazil. The guiding question of this study was: Are there validated instruments in Brazil to assess adherence to antiretroviral therapy in people living with HIV?</p>
+			</sec>
+			<sec>
+				<title>Period</title>
+				<p>The search for studies was conducted in December 2020 by two researchers independently, avoiding bias in the number of articles.</p>
+			</sec>
+			<sec>
+				<title>Data Collection</title>
+				<p>Major healthcare databases were selected for search: Web of Science (WOS/ISI), Scopus, Medical Literature Analysis and Retrieval Online (Medline/PubMed), Embase, BDENF, The Cumulative Index to Nursing and Allied Health Literature (CINAHL), and <italic>Literatura Latino-Americana e do Caribe em Ciências da Saúde</italic> (Lilacs). In addition, the Preprints bioRxiv, Google Scholar and OpenGrey servers were checked for their recognition in the academic community, and due to the expressive number of documents available.</p>
+			</sec>
+			<sec>
+				<title>Selection Criteria</title>
+				<p>This search included primary studies, descriptive studies, reviews, editorials, and manuals published from 1996 onwards (the beginning of antiretroviral therapy implementation in Brazil as a universal and public access policy against HIV), without language restriction. The available full texts that answered the research question were selected. Articles repeated in more than one data source were counted only once. All studies found in the search were imported into Rayyan<sup>®</sup> software, where the entire analysis and selection process was performed.</p>
+			</sec>
+			<sec>
+				<title>Instrument Used to Collect Information</title>
+				<p>The descriptors used in this research were selected through the “<italic>Descritores em Ciências da Saúde</italic>” (DeCS) and “Medical Subject Headings” (MESH) databases, which are highlighted in <xref ref-type="table" rid="t1">Chart 1</xref>.</p>
+				<p>
+					<table-wrap id="t1">
+						<label>Chart 1</label>
+						<caption>
+							<title>Search strategies used on the databases and data repositories.</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left">Database</th>
+									<th>Search Strategy</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>PubMed/Medline</td>
+									<td align="center">(“Acquired Immunodeficiency Syndrome” OR HIV) AND (“medication adherence” OR compliance) AND (“Surveys and Questionnaires”)</td>
+								</tr>
+								<tr>
+									<td>CINAHL</td>
+									<td align="center">(“Human Immunodeficiency Virus” OR “Anti-HIV Agents”) AND (“Medication Compliance”) AND (“Structured Questionnaires” OR “Surveys”)</td>
+								</tr>
+								<tr>
+									<td>Web of Science</td>
+									<td align="center">(Acquired Immunodeficiency Syndrome OR HIV) AND (medication adherence OR compliance) AND (Surveys and Questionnaires)</td>
+								</tr>
+								<tr>
+									<td>Scopus</td>
+									<td align="center">(“Acquired Immunodeficiency Syndrome” OR HIV) AND (“medication adherence” OR compliance) AND (“Surveys and Questionnaires”)</td>
+								</tr>
+								<tr>
+									<td>Embase</td>
+									<td align="center">Acquired Immunodeficiency Syndrome AND medication compliance AND questionnaire</td>
+								</tr>
+								<tr>
+									<td rowspan="2">BVS (Lilacs, BDENF)</td>
+									<td align="center">(Acquired Immunodeficiency Syndrome OR HIV) AND (medication adherence OR compliance) AND (Surveys and Questionnaires)</td>
+								</tr>
+								<tr>
+									<td align="center">(Síndrome de inmunodeficiencia adquirida O VIH) Y (adherencia o cumplimiento a la medicación) Y (Encuestas y cuestionarios)</td>
+								</tr>
+								<tr>
+									<td>BioRxiv</td>
+									<td align="center">“Acquired Immunodeficiency Syndrome AND medication adherence AND Surveys and Questionnaires”</td>
+								</tr>
+								<tr>
+									<td>Google Scholar</td>
+									<td align="center">“Acquired Immunodeficiency Syndrome AND medication adherence AND Surveys and Questionnaires”</td>
+								</tr>
+								<tr>
+									<td>OpenGrey</td>
+									<td align="center">“Acquired Immunodeficiency Syndrome AND medication adherence AND Surveys and Questionnaires”</td>
+								</tr>
+							</tbody>
+						</table>
+					</table-wrap>
+				</p>
+			</sec>
+			<sec>
+				<title>Data Processing and Analysis</title>
+				<p>Next, the data extracted by two independent reviewers were pooled, analyzed, and summarized. Questions and inconsistencies were analyzed and discussed by a third reviewer. Data were recorded in Microsoft Office Excel<sup>®</sup> spreadsheet, version 2010, and presented as to identification (author and year), objective, method, main results, biases and limitations of the study<sup><xref ref-type="bibr" rid="B27">27</xref></sup>.</p>
+			</sec>
+		</sec>
+		<sec sec-type="results">
+			<title>RESULTS</title>
+			<p>The search in scientific literature for these validated instruments that assess patient adherence to antiretroviral therapy in Brazil resulted in the inclusion of three studies. The <xref ref-type="fig" rid="f01">Figure</xref> shows the studies’ search, identification, exclusion, and selection process, according to the Prisma recommendations.</p>
+			<p>
+				<fig id="f01">
+					<label>Figure</label>
+					<caption>
+						<title>Flowchart of the selection of studies retrieved from the databases, adapted from the Preferred Reporting Items for Systematic Review and Meta-Analyses (Prisma) on the validated instruments that assess adherence to antiretroviral therapy in people living with HIV in Brazil.</title>
+					</caption>
+					<graphic xlink:href="1518-8787-rsp-56-112-gf01.tif"/>
+				</fig>
+			</p>
+			<p>Following were the instruments identified “<italic>Questionário para Avaliação da Adesão ao Tratamento Antirretroviral</italic>” (Questionnaire for Assessment of Adherence to Antiretroviral Treatment) developed in Porto Alegre and published in 2007<sup><xref ref-type="bibr" rid="B28">28</xref></sup>; the “<italic>Escala de autoeficácia para adesão ao tratamento antirretroviral em crianças e adolescentes com HIV/Aids</italic>” (Self-efficacy Scale for Adherence to Antiretroviral Treatment in Children and Adolescents with HIV/Aids) developed in São Paulo and published in 2008<sup><xref ref-type="bibr" rid="B29">29</xref></sup>; and the “<italic>WebAd-Q, um instrumento de autorrelato para monitorar a adesão à terapia antirretroviral em serviços de HIV/Aids no Brasil</italic>” (WebAd-Q, a self-report instrument to monitor adherence to antiretroviral therapy in HIV/Aids services in Brazil) developed in São Bernardo do Campo and published in 2018<sup><xref ref-type="bibr" rid="B30">30</xref></sup>. All publications included in the qualitative synthesis of this scoping review were written in Portuguese and English, except the publication by Remor; Milner-Moskovics; Preussler, 2007<sup><xref ref-type="bibr" rid="B28">28</xref></sup>, published exclusively in Portuguese. The three publications included were found in the Scopus database. The information extracted from these studies on identification, objective, method, main results and biases/limitations are presented on <xref ref-type="table" rid="t2">Chart 2</xref>.</p>
+			<p>
+				<table-wrap id="t2">
+					<label>Chart 2</label>
+					<caption>
+						<title>Summary of studies included in the scoping review regarding the question: “Are there validated instruments in Brazil to assess adherence to antiretroviral therapy in people living with HIV?”</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left">Identification (author/year)</th>
+								<th>Objective</th>
+								<th>Method</th>
+								<th>Main results</th>
+								<th>Study limitations</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Remor E, Milner-Moskovics J, Preussler G., 2007<sup>28</sup></td>
+								<td align="center">Translate, adapt and validate the questionnaire for use in Brazil: <italic>Cuestionario para la Evaluación de la Adhesión al Tratamiento Antiretroviral (CEAT-VIH</italic>)”. It is a self-administered instrument to identify the degree of adherence to antiretroviral treatment in patients with HIV infection.</td>
+								<td align="center">
+									<list list-type="bullet">
+										<list-item>
+											<p>This methodological study was based on a questionnaire translated from the original Spanish into Portuguese, with a back translation process (Spanish/Portuguese/Spanish), and verbal evaluation of understanding with a small group of patients.</p>
+										</list-item>
+										<list-item>
+											<p>The analysis of psychometric properties involved 59 patients on antiretroviral treatment from Porto Alegre, Rio Grande do Sul, Brazil. Internal consistency and external criterion-related validity, sensitivity and specificity supported validation. For the final version of the CEAT-VIH (20 questions), the total score is obtained by the sum of all items (minimum possible value 17, maximum possible value 89).</p>
+										</list-item>
+									</list>
+								</td>
+								<td align="center">
+									<list list-type="bullet">
+										<list-item>
+											<p>Adequate reliability of the questionnaire (α = 0.64) and validity related to an external criterion (viral load; r = -0.48; p &lt; 0.001) were observed. Also, adequate sensitivity (79.2%) and specificity (57.1%) of the questionnaire were observed for detection between individuals with undetectable and detectable viral load.</p>
+										</list-item>
+										<list-item>
+											<p>The optimal cutoff point suggested by the analysis is ≥ 76. The values below indicate insufficient adherence to treatment, and association with a detectable viral load. This score is associated with a sensitivity of 79.2%, and specificity of 57.1%.</p>
+										</list-item>
+									</list>
+								</td>
+								<td align="center">
+									<list list-type="order">
+										<list-item>
+											<p>1) Calculation for sample size is not presented.</p>
+										</list-item>
+										<list-item>
+											<p>2) Study in only one institution, making generalization difficult; therefore, it is not a nationally representative study.</p>
+										</list-item>
+										<list-item>
+											<p>3) The established cutoff point should be used with caution as the questionnaire is a self-administered instrument.</p>
+										</list-item>
+										<list-item>
+											<p>4) Hawthorne’s effect.</p>
+										</list-item>
+									</list>
+								</td>
+							</tr>
+							<tr>
+								<td>Costa LS, Latorre M do RD de O, Silva MH da, Bertolini DV, Machado DM, Pimentel SR, et al., 2008<sup>29</sup></td>
+								<td align="center">Validate a self-efficacy scale for adherence to antiretroviral treatment in children and adolescents with HIV/Aids, taking into account the perspective of parents/guardians, and evaluate its reproducibility.</td>
+								<td align="center">
+									<list list-type="bullet">
+										<list-item>
+											<p>Methodological study conducted at the <italic>Hospital-Dia do Centro de Referência e Treinamento em DST/Aids</italic> (Day Hospital of the STD/Aids Reference and Training Center) in São Paulo. We interviewed the parents/guardians of 54 children and adolescents of 6 months to 20 years of age who went through routine consultation at the service. The self-efficacy data of adherence to antiretroviral prescription was calculated in two ways: factor analysis, and pre-defined formula. The internal consistency of the scale was verified by Cronbach’s α coefficient.</p>
+										</list-item>
+										<list-item>
+											<p>Validity was assessed by comparing the mean scores between groups of patients adherent and non-adherent to antiretroviral treatment (Mann-Whitney test), and calculation of Spearman’s correlation coefficient between scores and clinical parameters. Reproducibility was verified using the Wilcoxon test, the intraclass correlation coefficient, and Bland-Altman plots.</p>
+										</list-item>
+									</list>
+								</td>
+								<td align="center">
+									<list list-type="bullet">
+										<list-item>
+											<p>The self-efficacy scale consists of 21 questions. It showed good internal consistency (α = 0.87), and good reproducibility (ICC = 0.69 and ICC = 0.75). As for validity, the self-efficacy scale for following antiretroviral prescription was able to discriminate patients with adherence and with insufficient adherence to antiretroviral treatment (p = 0.002), and showed significant correlation with CD4 count (r = 0.28; p = 0.04).</p>
+										</list-item>
+										<list-item>
+											<p>Results are added with the fact that children/adolescents with adherence to antiretroviral treatment have higher expectancies of self-efficacy than those with insufficient adherence.</p>
+										</list-item>
+										<list-item>
+											<p>The self-efficacy scale for following antiretroviral prescription can be used to assess adherence to antiretroviral therapy in children and adolescents with HIV/ Aids, taking into account the perspective of parents/caregivers.</p>
+										</list-item>
+									</list>
+								</td>
+								<td align="center">
+									<list list-type="order">
+										<list-item>
+											<p>This is not a Nationally representative study.</p>
+										</list-item>
+										<list-item>
+											<p>Parents/caregivers responded for the children/adolescents. The perception of the target population of the study was not considered.</p>
+										</list-item>
+										<list-item>
+											<p>Hawthorne’s effect.</p>
+										</list-item>
+									</list>
+								</td>
+							</tr>
+							<tr>
+								<td>Vale FC, Santa-Helena ET de, Santos MA, Carvalho WM do ES, Menezes PR, Basso CR, et al., 2018<sup>30</sup></td>
+								<td align="center">Present the development and validation of the WebAd-Q Questionnaire, a self-report instrument to monitor adherence to antiretroviral therapy in HIV/Aids services in Brazil.</td>
+								<td align="center">
+									<list list-type="bullet">
+										<list-item>
+											<p>Methodological study. The WebAd-Q is an electronic questionnaire that contains three questions about taking antiretroviral drugs in the last week. It was constructed based on interviews and focus groups with 38 patients. Validity was verified in a study with a sample of 90 patients older than 18 years, on antiretroviral therapy for at least three months. The following comparative adherence measures were used: electronic monitoring, pill count, and self-report interview. The WebAd-Q was completed on day 6 twice, at least 1 hour apart.</p>
+										</list-item>
+										<list-item>
+											<p>The viral load of patients was obtained from service records. Agreement between WebAd-Q responses, associations and correlations with viral load and performance against other measures of adherence were analyzed.</p>
+										</list-item>
+									</list>
+								</td>
+								<td align="center">
+									<list list-type="bullet">
+										<list-item>
+											<p>Among guest patients, 74 (82.2%) responded to the WebAd-Q. No difficulties in answering the questionnaire were reported. The average response time was 5 min 47 sec.</p>
+										</list-item>
+										<list-item>
+											<p>The set of the three WebAd-Q questions obtained 89.8% agreement, with a Kappa of 0.77 (95% CI 0.61-0.94).</p>
+										</list-item>
+										<list-item>
+											<p>WebAd-Q insufficient adherence responses were associated with detectable viral load. Moderate correlations of viral load with insufficient adherence scale according to WebAd-Q were obtained. For all the three WebAd-Q questions, patients with responses of insufficient adherence were also noted as less adherent according to the other measures of adherence.</p>
+										</list-item>
+										<list-item>
+											<p>The WebAd-Q met the main requirements for questionnaire validation, showed high participant comprehension and association with viral load, and obtained agreement and good performance compared to competing measures.</p>
+										</list-item>
+									</list>
+								</td>
+								<td align="center">
+									<list list-type="order">
+										<list-item>
+											<p>This is not a Nationally representative study.</p>
+										</list-item>
+										<list-item>
+											<p>Sample loss may have reduced the statistical power of the study.</p>
+										</list-item>
+										<list-item>
+											<p>Hawthorne’s effect.</p>
+										</list-item>
+									</list>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</table-wrap>
+			</p>
+			<p>In summary, all studies included in this review validated their instruments, indicating statistically acceptable values regarding the psychometric qualities of each instrument. The main bias/limitation observed regards sample specificity, i.e., they suggest caution in using the instruments when verifying adherence to therapy by people from other regions of Brazil.</p>
+		</sec>
+		<sec sec-type="discussion">
+			<title>DISCUSSION</title>
+			<p>This scoping review was driven by the mapping of instruments to measure adherence to antiretroviral therapy by people living with HIV validated in Brazil. To the best of our knowledge, this is the first study that has gathered the strategies that could be used in Brazil. The identification of these instruments is the main finding of our study, and may guide the production of relevant knowledge for health service planning and management. This review also advances the field of adherence to ART by analyzing and compiling the instruments that, based on the results achieved, can be accurately and safely interpreted, in light of the psychometric rigor of each proposal.</p>
+			<p>Considering the positive impact on the quality of life of people living with HIV who present adequate adherence to antiretroviral therapy, as well as the harms of irregularity or discontinuation of treatment, it is important to highlight that adherence is a collaborative process linked to the principle of autonomy, which implies active participation of the patient in healthcare. This cooperation between the person living with HIV and the multiprofessional team promotes the acceptance and incorporation of the therapeutic scheme into the daily treatment routine<sup><xref ref-type="bibr" rid="B31">31</xref></sup>.</p>
+			<p>In studies involving public health in Brazil, the instruments presented in this review<sup><xref ref-type="bibr" rid="B28">28</xref></sup>may improve understanding of the prevalence, incidence, and risk factors for poor adherence to ART, as well as propose strategies to improve drug adherence. In addition, the use of validated instruments will contribute to health professionals’ interventions in healthcare and better outcomes on the overall well-being of people living with HIV. The questions in the instruments included in our review include the five determinants that act negatively or positively on long-term treatment adherence established by the World Health Organization: social and economic factors, health system/team, treatment, disease, and patient-related factors<sup><xref ref-type="bibr" rid="B13">13</xref></sup>.</p>
+			<p>The “<italic>Cuestionario para la Evaluación de la Adhesión al Tratamiento Antirretroviral</italic>” (CEAT-VIH), built in 2002<sup><xref ref-type="bibr" rid="B32">32</xref></sup>, is a simplified instrument comprising 20 questions applicable to adults living with HIV. In addition to its validation in Brazil<sup><xref ref-type="bibr" rid="B28">28</xref></sup>, the CEAT-HIV has been validated in Canada<sup><xref ref-type="bibr" rid="B33">33</xref></sup>, Portugal<sup><xref ref-type="bibr" rid="B34">34</xref></sup> and Peru<sup><xref ref-type="bibr" rid="B35">35</xref></sup>, suggesting its usefulness and validity to assess adherence to antiretroviral therapy in different contexts. In the validation study in Brazil, a significant and positive association was observed between the number of pills and viral load (r = 0.32; p = 0.01), suggesting that the number of pills of the therapy may be a hindering aspect for treatment adherence. Administration of a number ≤ 10 tablets is associated with better adherence. A significant inverse association was also observed between the degree of adherence to antiretroviral therapy and viral load (r = -0.48; p = 0.000). The optimal cutoff point suggested by the analysis is ≥ 76. The values below indicate insufficient adherence to treatment, and association with a detectable viral load. Viral load is the clinical indicator most adopted in studies evaluating the accuracy of instruments to assess adherence to ART, indicating the relevance of drug adherence for a better prognosis of disease recovery<sup><xref ref-type="bibr" rid="B17">17</xref>,<xref ref-type="bibr" rid="B36">36</xref></sup>. Most items of the CEAT-VIH met the expected quality criteria, and there were no lost values. It suggests that all questions were understood by patients and could be answered.</p>
+			<p>Some national studies used the CEAT-VIH, such as the one developed in the city of Fortaleza (CE)<sup><xref ref-type="bibr" rid="B37">37</xref></sup>, another in the mid-western region of the state of Rio Grande do Sul<sup><xref ref-type="bibr" rid="B38">38</xref></sup>, and in five specialized healthcare services in the state of Pernambuco<sup><xref ref-type="bibr" rid="B39">39</xref></sup>. Low adherence to antiretroviral therapy was observed in these different contexts. This reality that legitimizes the use of the CEAT-HIV as a tool to be used by health professionals in planning healthcare and intervention in situations that interfere with adherence.</p>
+			<p>To date, the study on validation and reproducibility of a self-efficacy scale for adherence to ART in parents or caregivers of children and adolescents living with HIV/Aids is the first in the Brazilian context. The good internal consistency of the scale in the total sample of children and adolescents (α = 0.87) showed high association between the scale items, suggesting that it is reliable to measure self-efficacy in children and adolescents with HIV/Aids, considering the perspective of parents/caregivers. It was also observed that children/adolescents adherent to antiretroviral therapy have higher expectancies of self-efficacy than those with insufficient adherence. This indicates that higher self-efficacy is associated with better TCD 4+ lymphocyte responses (r = 0.28; p = 0.040). The article on validation suggests that self-efficacy score 2 be used in clinical routine, as it is calculated by a predefined and easily applicable formula. On the other hand, score 1 - also presented in the article - is a score made up of the questions that most correlate with the questions in the scale, requiring the researcher to be familiar with factor analysis, in addition to the use of a statistical package.</p>
+			<p>Some national studies have used score 2 of the self-efficacy scale to assess adherence of children and adolescents to antiretroviral therapy, among them a study conducted in Brasilia-DF<sup><xref ref-type="bibr" rid="B40">40</xref></sup> and another in the city of São Paulo<sup><xref ref-type="bibr" rid="B41">41</xref></sup>. The study published in 2010<sup><xref ref-type="bibr" rid="B40">40</xref></sup> observed difficulties related to taking medication outside the home environment, missed doses, and delays in taking the medication. In the study published in 2012<sup><xref ref-type="bibr" rid="B41">41</xref></sup>, a high rate of adherence to ART was identified, regardless of the sociodemographic profile of parents/caregivers. The self-efficacy scale to assess adherence of children and adolescents to drug therapy consists of 21 questions. This scope of information allows greater detailing of the aspects that hinder non-adherence, as well as those that facilitate therapeutic adherence.</p>
+			<p>The WebAd-Q instrument is a self-administered questionnaire developed in services targeted to people living with HIV. In the development and validation study<sup><xref ref-type="bibr" rid="B30">30</xref></sup> a high level of test-retest agreement and good agreement between the responses and other indicators of adherence were observed. Similar to the two other instruments included in this scoping review<sup><xref ref-type="bibr" rid="B28">28</xref>,<xref ref-type="bibr" rid="B29">29</xref></sup>, the scale of insufficient adherence obtained by WebAd-Q showed moderate association when compared to the clinical outcome (viral load), i.e., the lower the adherence to antiretroviral therapy, the higher the viral load found. The WebAd-Q considers only the patient dimension within the five determinants associated with adherence to long-term treatment established by the World Health Organization<sup><xref ref-type="bibr" rid="B13">13</xref></sup>. It assesses whether all medications were taken at the prescribed times and doses during the last week, with good reliability.</p>
+			<p>The WebAd-Q was used to assess adherence to ART in a non-representative sample survey conducted in the five regions of Brazil<sup><xref ref-type="bibr" rid="B42">42</xref></sup>. A high proportion of non-adherence to antiretroviral therapy was observed. According to the authors, the WebAd-Q is a tool that can be quickly applied, favoring the routine care to people living with HIV, allowing the identification of gaps in the provision of counseling and guidance on therapy, and also allows the development of innovative strategies to prevent non-adherence.</p>
+			<p>We highlight the following strengths of the three studies included in this scoping review: (1) the measurement instruments involve simplified and objective questions, contributing to their understanding and facilitating the response; (2) adequate values of the psychometric analysis validation process, thus ensuring valid and accurate instruments to assess the adherence of people living with HIV to antiretroviral therapy in Brazil; and (3) situational diagnostic capacity regarding therapeutic adherence. The instruments enable continuous monitoring, contributing to decision-making together with the patient towards their effective adherence to the ART.</p>
+			<p>However, the instruments also present some weaknesses. As for the CEAT-HIV<sup><xref ref-type="bibr" rid="B28">28</xref></sup>, sample size bias is its weak point. In this study, we could identify whether the sample size considered is ideal for studies involving instrument validation. It is worth remembering that the established cutoff point should be used with caution as the questionnaire is a self-administered instrument. The proposed validation and reproducibility of a self-efficacy scale for adherence of children and adolescents to the ART<sup><xref ref-type="bibr" rid="B29">29</xref></sup> considered the responses of parents or caregivers rather than the perception of the target study population. This is so far the only instrument validated in Brazil that assesses adherence of children and adolescents to antiretroviral therapy.</p>
+			<p>The WebAd-Q<sup><xref ref-type="bibr" rid="B30">30</xref></sup> instrument, unlike the other two studies included, considers only the patient-related determinant associated with adherence. Finally, as these are self-administered instruments, they are subject to the Hawthorne’s effect, i.e., respondents may be influenced in their answers when considering the presence and/or possible “judgment” of the professional who will receive the answers regarding adherence to the ART. We highlight the fact that the studies were validated in people living with HIV in Brazil; however, the scope in the use of the questionnaires should be understood with caution, as instruments were validated considering the reality of a specific region or service in the country. In this sense, one should verify the feasibility of using the instruments in the scope of a national study, seeking to reflect the heterogeneity of both people under treatment in the country, and the traits of the services that assist them.</p>
+			<p>Even with the intrinsic limitations of this review, especially considering the large volume of studies that used different instruments to measure adherence of patients to antiretroviral therapy in Brazil, only three studies were validated from psychometric analyses for the national context. Thus, the quantity and methodological specificities of each study identified make it impossible to compare the realities and contexts in which instruments were validated. However, it reinforces the need for additional investments; that is, being (re)used in different settings. Furthermore, we believe that the results of this paper depict the scientific literature in this time and space, considering the consultation of the six main databases for the compilation of instruments to measure adherence to ART, validated in Brazil. For safety purposes, searches on the Preprints and gray literature servers were included.</p>
+			<p>We emphasize that this scoping review could gather and present, in a simplified and accessible way, the instruments validated in Brazil that assess adherence of people living with HIV to antiretroviral therapy. The studies included in this review enable the assessment of adherence of children, adolescents and adults living with HIV. In this sense, health professionals working in the care of these people can frequently identify and monitor their adherence and propose specific strategies for each person, in order to consolidate good adherence and intervene in the treatment of those not engaged in therapy. In summary, the use of validated instruments to measure adherence to long-term treatment can support public measures, as well as determine the influence or not of the determinants that act negatively on adherence, as established by the World Health Organization.</p>
+		</sec>
+		<sec sec-type="conclusions">
+			<title>CONCLUSION</title>
+			<p>The instruments to assess adherence to antiretroviral therapy for people living with HIV included in this scoping review are strategies validated for the Brazilian context. However, their (re)use in different settings and contexts of the nation should be expanded. The use of these instruments by health professionals can improve the understanding of factors that act negatively or positively on adherence to ART, and the proposition of strategies intended to consolidate good adherence and intervene in the treatment of patients with low therapeutic engagement. We emphasize the need for further studies to develop an instrument for national use, which has its validation process in more cities and regions of Brazil.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>REFERENCES</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. Wang X, Parameswaran S, Bagul D, Kishore R. Does online social support work in stigmatized chronic diseases? A study of the impacts of different facets of informational and emotional support on self-care behavior in an hiv online forum. In: Proceedings of ICIS 2017; December 10-13; Seoul, South Korea [cited 2021 Jul 16]. Presentation; Nº 22. Available from: <ext-link ext-link-type="uri" xlink:href="https://aisel.aisnet.org/icis2017/General/Presentations/22/">https://aisel.aisnet.org/icis2017/General/Presentations/22/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="confproc">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Wang</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Parameswaran</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Bagul</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Kishore</surname>
+							<given-names>R</given-names>
+						</name>
+					</person-group>
+					<source>Does online social support work in stigmatized chronic diseases? A study of the impacts of different facets of informational and emotional support on self-care behavior in an hiv online forum</source>
+					<comment>Proceedings of</comment>
+					<conf-name>ICIS 2017</conf-name>
+					<conf-date>December 10-13</conf-date>
+					<conf-loc>Seoul, South Korea</conf-loc>
+					<date-in-citation content-type="cited-date">cited 2021 Jul 16</date-in-citation>
+					<comment>Presentation; Nº 22</comment>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://aisel.aisnet.org/icis2017/General/Presentations/22/">https://aisel.aisnet.org/icis2017/General/Presentations/22/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. Deeks SG, Lewin SR, Havlir DV. The end of AIDS: HIV infection as a chronic disease. Lancet. 2013;382(9903):1525-33. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(13)61809-7">https://doi.org/10.1016/S0140-6736(13)61809-7</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Deeks</surname>
+							<given-names>SG</given-names>
+						</name>
+						<name>
+							<surname>Lewin</surname>
+							<given-names>SR</given-names>
+						</name>
+						<name>
+							<surname>Havlir</surname>
+							<given-names>DV</given-names>
+						</name>
+					</person-group>
+					<article-title>The end of AIDS: HIV infection as a chronic disease</article-title>
+					<source>Lancet</source>
+					<year>2013</year>
+					<volume>382</volume>
+					<issue>9903</issue>
+					<fpage>1525</fpage>
+					<lpage>1533</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(13)61809-7">https://doi.org/10.1016/S0140-6736(13)61809-7</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. Hütter G, Nowak D, Mossner M, Ganepola S, Müssig A, Müßig A, et al. Long-term control of HIV by CCR5 Delta32/Delta32 stem-cell transplantation. N Engl J Med. 2009;360(7):692-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1056/NEJMoa0802905">https://doi.org/10.1056/NEJMoa0802905</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hütter</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Nowak</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Mossner</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Ganepola</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Müssig</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Müßig</surname>
+							<given-names>A</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Long-term control of HIV by CCR5 Delta32/Delta32 stem-cell transplantation</article-title>
+					<source>N Engl J Med</source>
+					<year>2009</year>
+					<volume>360</volume>
+					<issue>7</issue>
+					<fpage>692</fpage>
+					<lpage>698</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1056/NEJMoa0802905">https://doi.org/10.1056/NEJMoa0802905</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. Gupta RK, Abdul-Jawad S, McCoy LE, Mok HP, Peppa D, Salgado M, et al. HIV-1 remission following CCR5Δ32/Δ32 haematopoietic stem-cell transplantation. Nature. 2019;568(7751):244-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s41586-019-1027-4">https://doi.org/10.1038/s41586-019-1027-4</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Gupta</surname>
+							<given-names>RK</given-names>
+						</name>
+						<name>
+							<surname>Abdul-Jawad</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>McCoy</surname>
+							<given-names>LE</given-names>
+						</name>
+						<name>
+							<surname>Mok</surname>
+							<given-names>HP</given-names>
+						</name>
+						<name>
+							<surname>Peppa</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Salgado</surname>
+							<given-names>M</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>HIV-1 remission following CCR5Δ32/Δ32 haematopoietic stem-cell transplantation</article-title>
+					<source>Nature</source>
+					<year>2019</year>
+					<volume>568</volume>
+					<issue>7751</issue>
+					<fpage>244</fpage>
+					<lpage>248</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s41586-019-1027-4">https://doi.org/10.1038/s41586-019-1027-4</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Lori EM, Cozzi-Lepri A, Tavelli A, Mercurio V, Ibba SV, Lo Caputo S, et al. Evaluation of the effect of protective genetic variants on cART success in HIV-1-infected patients. J Biol Regul Homeost Agents. 2020;34(4):1553-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.23812/19-527-L">https://doi.org/10.23812/19-527-L</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lori</surname>
+							<given-names>EM</given-names>
+						</name>
+						<name>
+							<surname>Cozzi-Lepri</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Tavelli</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Mercurio</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Ibba</surname>
+							<given-names>SV</given-names>
+						</name>
+						<name>
+							<surname>Lo Caputo</surname>
+							<given-names>S</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Evaluation of the effect of protective genetic variants on cART success in HIV-1-infected patients</article-title>
+					<source>J Biol Regul Homeost Agents</source>
+					<year>2020</year>
+					<volume>34</volume>
+					<issue>4</issue>
+					<fpage>1553</fpage>
+					<lpage>1559</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.23812/19-527-L">https://doi.org/10.23812/19-527-L</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. O’Connor J, Vjecha MJ, Phillips AN, Angus B, Cooper D, Grinsztejn B, et al. Effect of immediate initiation of antiretroviral therapy on risk of severe bacterial infections in HIV-positive people with CD4 cell counts of more than 500 cells per μL: secondary outcome results from a randomised controlled trial. Lancet HIV. 2017;4(3):e105-12 <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S2352-3018(16)30216-8">https://doi.org/10.1016/S2352-3018(16)30216-8</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>O’Connor</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Vjecha</surname>
+							<given-names>MJ</given-names>
+						</name>
+						<name>
+							<surname>Phillips</surname>
+							<given-names>AN</given-names>
+						</name>
+						<name>
+							<surname>Angus</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Cooper</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Grinsztejn</surname>
+							<given-names>B</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Effect of immediate initiation of antiretroviral therapy on risk of severe bacterial infections in HIV-positive people with CD4 cell counts of more than 500 cells per μL: secondary outcome results from a randomised controlled trial</article-title>
+					<source>Lancet HIV</source>
+					<year>2017</year>
+					<volume>4</volume>
+					<issue>3</issue>
+					<fpage>e105</fpage>
+					<lpage>e112</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S2352-3018(16)30216-8">https://doi.org/10.1016/S2352-3018(16)30216-8</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. Shoko C, Chikobvu D, Bessong PO. Effects of antiretroviral therapy on CD4+ cell count, HIV viral load and death in a South African cohort: a modelling study. Pak J Biol Sci. 2020;23(4):542-51. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3923/pjbs.2020.542.551">https://doi.org/10.3923/pjbs.2020.542.551</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Shoko</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Chikobvu</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Bessong</surname>
+							<given-names>PO</given-names>
+						</name>
+					</person-group>
+					<article-title>Effects of antiretroviral therapy on CD4+ cell count, HIV viral load and death in a South African cohort: a modelling study</article-title>
+					<source>Pak J Biol Sci</source>
+					<year>2020</year>
+					<volume>23</volume>
+					<issue>4</issue>
+					<fpage>542</fpage>
+					<lpage>551</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3923/pjbs.2020.542.551">https://doi.org/10.3923/pjbs.2020.542.551</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Silva ACO, Reis RK, Nogueira JA, Gir E. Quality of life, clinical characteristics and treatment adherence of people living with HIV/AIDS. Rev Lat Am Enfermagem. 2014;22(6):994-1000. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0104-1169.3534.2508">https://doi.org/10.1590/0104-1169.3534.2508</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Silva</surname>
+							<given-names>ACO</given-names>
+						</name>
+						<name>
+							<surname>Reis</surname>
+							<given-names>RK</given-names>
+						</name>
+						<name>
+							<surname>Nogueira</surname>
+							<given-names>JA</given-names>
+						</name>
+						<name>
+							<surname>Gir</surname>
+							<given-names>E</given-names>
+						</name>
+					</person-group>
+					<article-title>Quality of life, clinical characteristics and treatment adherence of people living with HIV/AIDS</article-title>
+					<source>Rev Lat Am Enfermagem</source>
+					<year>2014</year>
+					<volume>22</volume>
+					<issue>6</issue>
+					<fpage>994</fpage>
+					<lpage>1000</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0104-1169.3534.2508">https://doi.org/10.1590/0104-1169.3534.2508</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. Michienzi SM, Barrios M, Badowski ME. Evidence regarding rapid initiation of antiretroviral therapy in patients living with HIV. Curr Infect Dis Rep. 2021;23(5):7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s11908-021-00750-5">https://doi.org/10.1007/s11908-021-00750-5</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Michienzi</surname>
+							<given-names>SM</given-names>
+						</name>
+						<name>
+							<surname>Barrios</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Badowski</surname>
+							<given-names>ME</given-names>
+						</name>
+					</person-group>
+					<article-title>Evidence regarding rapid initiation of antiretroviral therapy in patients living with HIV</article-title>
+					<source>Curr Infect Dis Rep</source>
+					<year>2021</year>
+					<volume>23</volume>
+					<issue>5</issue>
+					<size units="pages">7</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s11908-021-00750-5">https://doi.org/10.1007/s11908-021-00750-5</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. Wu C, Zhang B, Dai Z, Zheng Q, Duan Z, He Q, et al. Impact of immediate initiation of antiretroviral therapy among men who have sex with men infected with HIV in Chengdu, southwest China: trends analysis, 2008-2018. BMC Public Health. 2021;21(1):689. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12889-021-10580-8">https://doi.org/10.1186/s12889-021-10580-8</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Wu</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Zhang</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Dai</surname>
+							<given-names>Z</given-names>
+						</name>
+						<name>
+							<surname>Zheng</surname>
+							<given-names>Q</given-names>
+						</name>
+						<name>
+							<surname>Duan</surname>
+							<given-names>Z</given-names>
+						</name>
+						<name>
+							<surname>He</surname>
+							<given-names>Q</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Impact of immediate initiation of antiretroviral therapy among men who have sex with men infected with HIV in Chengdu, southwest China: trends analysis, 2008-2018</article-title>
+					<source>BMC Public Health</source>
+					<year>2021</year>
+					<volume>21</volume>
+					<issue>1</issue>
+					<size units="pages">689</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12889-021-10580-8">https://doi.org/10.1186/s12889-021-10580-8</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. Ministério da Saúde (BR), Secretaria de Vigilância em Saúde. HIV/AIDS 2020. Bol Epidemiol. 2020 [cited 2021 May 8];Nº Espec:1-65. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/boletins/epidemiologicos/especiais/2020/boletim-hiv_aids-2020-internet.pdf">https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/boletins/epidemiologicos/especiais/2020/boletim-hiv_aids-2020-internet.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+						<collab>Secretaria de Vigilância em Saúde</collab>
+					</person-group>
+					<article-title>HIV/AIDS 2020</article-title>
+					<source>Bol Epidemiol</source>
+					<year>2020</year>
+					<date-in-citation content-type="cited-date">cited 2021 May 8</date-in-citation>
+					<issue>Espec</issue>
+					<fpage>1</fpage>
+					<lpage>65</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/boletins/epidemiologicos/especiais/2020/boletim-hiv_aids-2020-internet.pdf">https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/boletins/epidemiologicos/especiais/2020/boletim-hiv_aids-2020-internet.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. Ministério da Saúde (BR), Departamento de Condições Crônicas e Infecções Sexualmente Transmissíveis. Painel de monitoramento de dados de HIV durante a pandemia da COVID-19. Brasília, DF; 2020 [cited 2021 May 8]. Available from: <ext-link ext-link-type="uri" xlink:href="http://www.aids.gov.br/pt-br/painelcovidHIV#:~:text=LAI-,PaineldemonitoramentodedadosdeHIVduranteapandemia,prevençãoàinfecçãopelovírus">http://www.aids.gov.br/pt-br/painelcovidHIV#:~:text=LAI-,PaineldemonitoramentodedadosdeHIVduranteapandemia,prevençãoàinfecçãopelovírus</ext-link>.</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+						<collab>Departamento de Condições Crônicas e Infecções Sexualmente Transmissíveis</collab>
+					</person-group>
+					<source>Painel de monitoramento de dados de HIV durante a pandemia da COVID-19</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<year>2020</year>
+					<date-in-citation content-type="cited-date">cited 2021 May 8</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="http://www.aids.gov.br/pt-br/painelcovidHIV#:~:text=LAI-,PaineldemonitoramentodedadosdeHIVduranteapandemia,prevençãoàinfecçãopelovírus">http://www.aids.gov.br/pt-br/painelcovidHIV#:~:text=LAI-,PaineldemonitoramentodedadosdeHIVduranteapandemia,prevençãoàinfecçãopelovírus</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. World Health Organization. Diet, nutrition, and the prevention of chronic diseases: report of a joint WHO/FAO expert consultation. Geneva (CH): WHO; 2003 [cited 2021 Jul 16]. (WHO Technical Report Series; Nº 916). Available from: <ext-link ext-link-type="uri" xlink:href="http://apps.who.int/iris/bitstream/handle/10665/42665/WHO_TRS_916.pdf;jsessionid=2DC8A9F3975036E927DA4EAB3FDD4ED7?sequence=1">http://apps.who.int/iris/bitstream/handle/10665/42665/WHO_TRS_916.pdf;jsessionid=2DC8A9F3975036E927DA4EAB3FDD4ED7?sequence=1</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>World Health Organization</collab>
+					</person-group>
+					<source>Diet, nutrition, and the prevention of chronic diseases: report of a joint WHO/FAO expert consultation</source>
+					<publisher-loc>Geneva (CH)</publisher-loc>
+					<publisher-name>WHO</publisher-name>
+					<year>2003</year>
+					<date-in-citation content-type="cited-date">cited 2021 Jul 16</date-in-citation>
+					<comment>WHO Technical Report Series; Nº 916</comment>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="http://apps.who.int/iris/bitstream/handle/10665/42665/WHO_TRS_916.pdf;jsessionid=2DC8A9F3975036E927DA4EAB3FDD4ED7?sequence=1">http://apps.who.int/iris/bitstream/handle/10665/42665/WHO_TRS_916.pdf;jsessionid=2DC8A9F3975036E927DA4EAB3FDD4ED7?sequence=1</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. Hardon AP, Akurut D, Comoro C, Ekezie C, Irunde HF, Gerrits T, et al. Hunger, waiting time and transport costs: time to confront challenges to ART adherence in Africa. AIDS Care. 2007;19(5):658-65. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/09540120701244943">https://doi.org/10.1080/09540120701244943</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hardon</surname>
+							<given-names>AP</given-names>
+						</name>
+						<name>
+							<surname>Akurut</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Comoro</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Ekezie</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Irunde</surname>
+							<given-names>HF</given-names>
+						</name>
+						<name>
+							<surname>Gerrits</surname>
+							<given-names>T</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Hunger, waiting time and transport costs: time to confront challenges to ART adherence in Africa</article-title>
+					<source>AIDS Care</source>
+					<year>2007</year>
+					<volume>19</volume>
+					<issue>5</issue>
+					<fpage>658</fpage>
+					<lpage>665</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/09540120701244943">https://doi.org/10.1080/09540120701244943</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. Resende NH, Miranda SS, Ceccato MGB, Haddad JPA, Reis AMM, Silva DI, et al. Drug therapy problems for patients with tuberculosis and HIV/AIDS at a reference hospital. Einstein (São Paulo). 2019;17(4):eAO4696. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.31744/einstein_journal/2019AO4696">https://doi.org/10.31744/einstein_journal/2019AO4696</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Resende</surname>
+							<given-names>NH</given-names>
+						</name>
+						<name>
+							<surname>Miranda</surname>
+							<given-names>SS</given-names>
+						</name>
+						<name>
+							<surname>Ceccato</surname>
+							<given-names>MGB</given-names>
+						</name>
+						<name>
+							<surname>Haddad</surname>
+							<given-names>JPA</given-names>
+						</name>
+						<name>
+							<surname>Reis</surname>
+							<given-names>AMM</given-names>
+						</name>
+						<name>
+							<surname>Silva</surname>
+							<given-names>DI</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Drug therapy problems for patients with tuberculosis and HIV/AIDS at a reference hospital</article-title>
+					<source>Einstein (São Paulo)</source>
+					<year>2019</year>
+					<volume>17</volume>
+					<issue>4</issue>
+					<elocation-id>eAO4696</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.31744/einstein_journal/2019AO4696">https://doi.org/10.31744/einstein_journal/2019AO4696</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. Bonolo PF, Gomes RRFM, Guimarães MDC. Adesão à terapia anti-retroviral (HIV/AIDS): fatores associados e medidas da adesão. Epidemiol Serv Saude. 2007;16(4):267-78. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5123/S1679-49742007000400005">https://doi.org/10.5123/S1679-49742007000400005</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bonolo</surname>
+							<given-names>PF</given-names>
+						</name>
+						<name>
+							<surname>Gomes</surname>
+							<given-names>RRFM</given-names>
+						</name>
+						<name>
+							<surname>Guimarães</surname>
+							<given-names>MDC</given-names>
+						</name>
+					</person-group>
+					<article-title>Adesão à terapia anti-retroviral (HIV/AIDS): fatores associados e medidas da adesão</article-title>
+					<source>Epidemiol Serv Saude</source>
+					<year>2007</year>
+					<volume>16</volume>
+					<issue>4</issue>
+					<fpage>267</fpage>
+					<lpage>278</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5123/S1679-49742007000400005">https://doi.org/10.5123/S1679-49742007000400005</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Garbin CAS, Gatto RCJ, Garbin AJI. Adesão à terapia antirretroviral em pacientes HIV soropositivos no Brasil: uma revisão da literatura. Arch Health Investig. 2017;6(2):65-70. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.21270/archi.v6i2.1787">https://doi.org/10.21270/archi.v6i2.1787</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Garbin</surname>
+							<given-names>CAS</given-names>
+						</name>
+						<name>
+							<surname>Gatto</surname>
+							<given-names>RCJ</given-names>
+						</name>
+						<name>
+							<surname>Garbin</surname>
+							<given-names>AJI</given-names>
+						</name>
+					</person-group>
+					<article-title>Adesão à terapia antirretroviral em pacientes HIV soropositivos no Brasil: uma revisão da literatura</article-title>
+					<source>Arch Health Investig</source>
+					<year>2017</year>
+					<volume>6</volume>
+					<issue>2</issue>
+					<fpage>65</fpage>
+					<lpage>70</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.21270/archi.v6i2.1787">https://doi.org/10.21270/archi.v6i2.1787</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18. Gomes RRFM, Machado CJ, Acurcio FA, Guimarães MDC. Utilização dos registros de dispensação da farmácia como indicador da não-adesão à terapia anti-retroviral em indivíduos infectados pelo HIV. Cad Saude Publica. 2009;25(3):495-506. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0102-311X2009000300004">https://doi.org/10.1590/S0102-311X2009000300004</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Gomes</surname>
+							<given-names>RRFM</given-names>
+						</name>
+						<name>
+							<surname>Machado</surname>
+							<given-names>CJ</given-names>
+						</name>
+						<name>
+							<surname>Acurcio</surname>
+							<given-names>FA</given-names>
+						</name>
+						<name>
+							<surname>Guimarães</surname>
+							<given-names>MDC</given-names>
+						</name>
+					</person-group>
+					<article-title>Utilização dos registros de dispensação da farmácia como indicador da não-adesão à terapia anti-retroviral em indivíduos infectados pelo HIV</article-title>
+					<source>Cad Saude Publica</source>
+					<year>2009</year>
+					<volume>25</volume>
+					<issue>3</issue>
+					<fpage>495</fpage>
+					<lpage>506</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0102-311X2009000300004">https://doi.org/10.1590/S0102-311X2009000300004</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19. Trombini ES, Schermann LB. Prevalência e fatores associados à adesão de crianças na terapia antirretroviral em três centros urbanos do sul do Brasil. Cien Saude Colet. 2010;15(2):419-25. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S1413-81232010000200018">https://doi.org/10.1590/S1413-81232010000200018</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Trombini</surname>
+							<given-names>ES</given-names>
+						</name>
+						<name>
+							<surname>Schermann</surname>
+							<given-names>LB</given-names>
+						</name>
+					</person-group>
+					<article-title>Prevalência e fatores associados à adesão de crianças na terapia antirretroviral em três centros urbanos do sul do Brasil</article-title>
+					<source>Cien Saude Colet</source>
+					<year>2010</year>
+					<volume>15</volume>
+					<issue>2</issue>
+					<fpage>419</fpage>
+					<lpage>425</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S1413-81232010000200018">https://doi.org/10.1590/S1413-81232010000200018</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20. Leite LHM, Papa A, Valentini RC. Insatisfação com imagem corporal e adesão à terapia antirretroviral entre indivíduos com HIV/AIDS. Rev Nutr. 2011;24(6):873-82. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S1415-52732011000600008">https://doi.org/10.1590/S1415-52732011000600008</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Leite</surname>
+							<given-names>LHM</given-names>
+						</name>
+						<name>
+							<surname>Papa</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Valentini</surname>
+							<given-names>RC</given-names>
+						</name>
+					</person-group>
+					<article-title>Insatisfação com imagem corporal e adesão à terapia antirretroviral entre indivíduos com HIV/AIDS</article-title>
+					<source>Rev Nutr</source>
+					<year>2011</year>
+					<volume>24</volume>
+					<issue>6</issue>
+					<fpage>873</fpage>
+					<lpage>882</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S1415-52732011000600008">https://doi.org/10.1590/S1415-52732011000600008</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>21. Tufano CS, Amaral RA, Cardoso LRD, Malbergier A. The influence of depressive symptoms and substance use on adherence to antiretroviral therapy. A cross-sectional prevalence study. Sao Paulo Med J. 2015;133(3):179-86. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1516-3180.2013.7450010">https://doi.org/10.1590/1516-3180.2013.7450010</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Tufano</surname>
+							<given-names>CS</given-names>
+						</name>
+						<name>
+							<surname>Amaral</surname>
+							<given-names>RA</given-names>
+						</name>
+						<name>
+							<surname>Cardoso</surname>
+							<given-names>LRD</given-names>
+						</name>
+						<name>
+							<surname>Malbergier</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>The influence of depressive symptoms and substance use on adherence to antiretroviral therapy. A cross-sectional prevalence study</article-title>
+					<source>Sao Paulo Med J</source>
+					<year>2015</year>
+					<volume>133</volume>
+					<issue>3</issue>
+					<fpage>179</fpage>
+					<lpage>186</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1516-3180.2013.7450010">https://doi.org/10.1590/1516-3180.2013.7450010</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>22. Jacques IJAA, Santana JM, Moraes DCA, Souza AFM, Abrão FMS, Oliveira RC. Avaliação da adesão à terapia antirretroviralentre pacientes em atendimento ambulatorial. Rev Bras Cien Saude. 2015 [cited 2021 Jul 16];18(4):303-8. Available from: <ext-link ext-link-type="uri" xlink:href="https://periodicos.ufpb.br/index.php/rbcs/article/view/18326">https://periodicos.ufpb.br/index.php/rbcs/article/view/18326</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Jacques</surname>
+							<given-names>IJAA</given-names>
+						</name>
+						<name>
+							<surname>Santana</surname>
+							<given-names>JM</given-names>
+						</name>
+						<name>
+							<surname>Moraes</surname>
+							<given-names>DCA</given-names>
+						</name>
+						<name>
+							<surname>Souza</surname>
+							<given-names>AFM</given-names>
+						</name>
+						<name>
+							<surname>Abrão</surname>
+							<given-names>FMS</given-names>
+						</name>
+						<name>
+							<surname>Oliveira</surname>
+							<given-names>RC</given-names>
+						</name>
+					</person-group>
+					<article-title>Avaliação da adesão à terapia antirretroviralentre pacientes em atendimento ambulatorial</article-title>
+					<source>Rev Bras Cien Saude</source>
+					<year>2015</year>
+					<date-in-citation content-type="cited-date">cited 2021 Jul 16</date-in-citation>
+					<volume>18</volume>
+					<issue>4</issue>
+					<fpage>303</fpage>
+					<lpage>308</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://periodicos.ufpb.br/index.php/rbcs/article/view/18326">https://periodicos.ufpb.br/index.php/rbcs/article/view/18326</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>23. Munn Z, Peters MDJ, Stern C, Tufanaru C, McArthur A, Aromataris E. Systematic review or scoping review? Guidance for authors when choosing between a systematic or scoping review approach. BMC Med Res Methodol. 2018;18(1):143. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12874-018-0611-x">https://doi.org/10.1186/s12874-018-0611-x</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Munn</surname>
+							<given-names>Z</given-names>
+						</name>
+						<name>
+							<surname>Peters</surname>
+							<given-names>MDJ</given-names>
+						</name>
+						<name>
+							<surname>Stern</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Tufanaru</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>McArthur</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Aromataris</surname>
+							<given-names>E</given-names>
+						</name>
+					</person-group>
+					<article-title>Systematic review or scoping review? Guidance for authors when choosing between a systematic or scoping review approach</article-title>
+					<source>BMC Med Res Methodol</source>
+					<year>2018</year>
+					<volume>18</volume>
+					<issue>1</issue>
+					<size units="pages">143</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12874-018-0611-x">https://doi.org/10.1186/s12874-018-0611-x</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>24. Arksey H, O’Malley L. Scoping studies: towards a methodological framework. Int J Soc Res Methodol. 2005;8(1):19-32. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/1364557032000119616">https://doi.org/10.1080/1364557032000119616</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Arksey</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>O’Malley</surname>
+							<given-names>L</given-names>
+						</name>
+					</person-group>
+					<article-title>Scoping studies: towards a methodological framework</article-title>
+					<source>Int J Soc Res Methodol</source>
+					<year>2005</year>
+					<volume>8</volume>
+					<issue>1</issue>
+					<fpage>19</fpage>
+					<lpage>32</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/1364557032000119616">https://doi.org/10.1080/1364557032000119616</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>25. Tricco AC, Lillie E, Zarin W, O’Brien KK, Colquhoun H, Levac D, et al. PRISMA extension for scoping reviews (PRISMA-ScR): checklist and explanation. Ann Intern Med. 2018;169(7):467-73. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7326/M18-0850">https://doi.org/10.7326/M18-0850</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Tricco</surname>
+							<given-names>AC</given-names>
+						</name>
+						<name>
+							<surname>Lillie</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Zarin</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>O’Brien</surname>
+							<given-names>KK</given-names>
+						</name>
+						<name>
+							<surname>Colquhoun</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Levac</surname>
+							<given-names>D</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>PRISMA extension for scoping reviews (PRISMA-ScR): checklist and explanation</article-title>
+					<source>Ann Intern Med</source>
+					<year>2018</year>
+					<volume>169</volume>
+					<issue>7</issue>
+					<fpage>467</fpage>
+					<lpage>473</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7326/M18-0850">https://doi.org/10.7326/M18-0850</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation>26. The Joanna Briggs Institute. Reviewers’ manual 2015: methodology for JBI scoping reviews. Adelaide (AU): JBI; 2015 [cited 2021 Jul 16]. Available from: <ext-link ext-link-type="uri" xlink:href="https://nursing.lsuhsc.edu/JBI/docs/ReviewersManuals/Scoping-.pdf">https://nursing.lsuhsc.edu/JBI/docs/ReviewersManuals/Scoping-.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>The Joanna Briggs Institute</collab>
+					</person-group>
+					<source>Reviewers’ manual 2015: methodology for JBI scoping reviews</source>
+					<publisher-loc>Adelaide (AU)</publisher-loc>
+					<publisher-name>JBI</publisher-name>
+					<year>2015</year>
+					<date-in-citation content-type="cited-date">cited 2021 Jul 16</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://nursing.lsuhsc.edu/JBI/docs/ReviewersManuals/Scoping-.pdf">https://nursing.lsuhsc.edu/JBI/docs/ReviewersManuals/Scoping-.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<mixed-citation>27. Ursi ES, Galvão CM. Prevenção de lesões de pele no perioperatório: revisão integrativa da literatura. Rev Lat Am Enfermagem. 2006;14(1):124-31. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0104-11692006000100017">https://doi.org/10.1590/S0104-11692006000100017</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ursi</surname>
+							<given-names>ES</given-names>
+						</name>
+						<name>
+							<surname>Galvão</surname>
+							<given-names>CM</given-names>
+						</name>
+					</person-group>
+					<article-title>Prevenção de lesões de pele no perioperatório: revisão integrativa da literatura</article-title>
+					<source>Rev Lat Am Enfermagem</source>
+					<year>2006</year>
+					<volume>14</volume>
+					<issue>1</issue>
+					<fpage>124</fpage>
+					<lpage>131</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0104-11692006000100017">https://doi.org/10.1590/S0104-11692006000100017</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<mixed-citation>28. Remor E, Milner-Moskovics J, Preussler G. Adaptação brasileira do “Cuestionario para la Evaluación de la Adhesión al Tratamiento Antiretroviral”. Rev Saude Publica. 2007;41(5):685-94. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0034-89102006005000043">https://doi.org/10.1590/S0034-89102006005000043</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Remor</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Milner-Moskovics</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Preussler</surname>
+							<given-names>G</given-names>
+						</name>
+					</person-group>
+					<article-title>Adaptação brasileira do “Cuestionario para la Evaluación de la Adhesión al Tratamiento Antiretroviral”</article-title>
+					<source>Rev Saude Publica</source>
+					<year>2007</year>
+					<volume>41</volume>
+					<issue>5</issue>
+					<fpage>685</fpage>
+					<lpage>694</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0034-89102006005000043">https://doi.org/10.1590/S0034-89102006005000043</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B29">
+				<label>29</label>
+				<mixed-citation>29. Costa LS, Latorre MRDO, Silva MH, Bertolini DV, Machado DM, Pimentel SR, et al. Validity and reliability of a self-efficacy expectancy scale for adherence to antiretroviral therapy for parents and carers of children and adolescents with HIV/AIDS. J Pediatr (Rio J). 2008;84(1):41-6. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2223/JPED.1751">https://doi.org/10.2223/JPED.1751</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Costa</surname>
+							<given-names>LS</given-names>
+						</name>
+						<name>
+							<surname>Latorre</surname>
+							<given-names>MRDO</given-names>
+						</name>
+						<name>
+							<surname>Silva</surname>
+							<given-names>MH</given-names>
+						</name>
+						<name>
+							<surname>Bertolini</surname>
+							<given-names>DV</given-names>
+						</name>
+						<name>
+							<surname>Machado</surname>
+							<given-names>DM</given-names>
+						</name>
+						<name>
+							<surname>Pimentel</surname>
+							<given-names>SR</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Validity and reliability of a self-efficacy expectancy scale for adherence to antiretroviral therapy for parents and carers of children and adolescents with HIV/AIDS</article-title>
+					<source>J Pediatr (Rio J)</source>
+					<year>2008</year>
+					<volume>84</volume>
+					<issue>1</issue>
+					<fpage>41</fpage>
+					<lpage>46</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2223/JPED.1751">https://doi.org/10.2223/JPED.1751</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B30">
+				<label>30</label>
+				<mixed-citation>30. Vale FC, Santa-Helena ET, Santos MA, Carvalho WMES, Menezes PR, Basso CR, et al. Desenvolvimento e validação do Questionário WebAd-Q para monitorar adesão à terapia do HIV. Rev Saude Publica. 2018;52:62. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.11606/S1518-8787.2018052000337">https://doi.org/10.11606/S1518-8787.2018052000337</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Vale</surname>
+							<given-names>FC</given-names>
+						</name>
+						<name>
+							<surname>Santa-Helena</surname>
+							<given-names>ET</given-names>
+						</name>
+						<name>
+							<surname>Santos</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Carvalho</surname>
+							<given-names>WMES</given-names>
+						</name>
+						<name>
+							<surname>Menezes</surname>
+							<given-names>PR</given-names>
+						</name>
+						<name>
+							<surname>Basso</surname>
+							<given-names>CR</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Desenvolvimento e validação do Questionário WebAd-Q para monitorar adesão à terapia do HIV</article-title>
+					<source>Rev Saude Publica</source>
+					<year>2018</year>
+					<volume>52</volume>
+					<size units="pages">62</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.11606/S1518-8787.2018052000337">https://doi.org/10.11606/S1518-8787.2018052000337</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B31">
+				<label>31</label>
+				<mixed-citation>31. Santos AP, Alves TC, Navarro AM, Machado DRL. O desafio da adesão: a perspectiva do profissional de Educação Física. In: Bollela VR, Primo LP, Mauriz RCLF, Morejón KML, organizadores. Adesão: o presente e o futuro na luta para o controle do HIV/Aids. Ribeirão Preto, SP: FUNPEC-Editora; 2016. p. 57-76.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Santos</surname>
+							<given-names>AP</given-names>
+						</name>
+						<name>
+							<surname>Alves</surname>
+							<given-names>TC</given-names>
+						</name>
+						<name>
+							<surname>Navarro</surname>
+							<given-names>AM</given-names>
+						</name>
+						<name>
+							<surname>Machado</surname>
+							<given-names>DRL</given-names>
+						</name>
+					</person-group>
+					<chapter-title>O desafio da adesão: a perspectiva do profissional de Educação Física</chapter-title>
+					<person-group person-group-type="compiler">
+						<name>
+							<surname>Bollela</surname>
+							<given-names>VR</given-names>
+						</name>
+						<name>
+							<surname>Primo</surname>
+							<given-names>LP</given-names>
+						</name>
+						<name>
+							<surname>Mauriz</surname>
+							<given-names>RCLF</given-names>
+						</name>
+						<name>
+							<surname>Morejón</surname>
+							<given-names>KML</given-names>
+						</name>
+						<role>organizadores</role>
+					</person-group>
+					<source>Adesão: o presente e o futuro na luta para o controle do HIV/Aids</source>
+					<publisher-loc>Ribeirão Preto, SP</publisher-loc>
+					<publisher-name>FUNPEC-Editora</publisher-name>
+					<year>2016</year>
+					<fpage>57</fpage>
+					<lpage>76</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B32">
+				<label>32</label>
+				<mixed-citation>32. Remor E. Valoración de la adhesión al tratamiento antirretroviral en pacientes VIH+. Psicothema (Oviedo). 2002 [cited 2021 Jul 16];14(2):262-7. Available from: <ext-link ext-link-type="uri" xlink:href="http://www.psicothema.com/psicothema.asp?id=718">http://www.psicothema.com/psicothema.asp?id=718</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Remor</surname>
+							<given-names>E</given-names>
+						</name>
+					</person-group>
+					<article-title>Valoración de la adhesión al tratamiento antirretroviral en pacientes VIH+</article-title>
+					<source>Psicothema (Oviedo)</source>
+					<year>2002</year>
+					<date-in-citation content-type="cited-date">cited 2021 Jul 16</date-in-citation>
+					<volume>14</volume>
+					<issue>2</issue>
+					<fpage>262</fpage>
+					<lpage>267</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="http://www.psicothema.com/psicothema.asp?id=718">http://www.psicothema.com/psicothema.asp?id=718</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B33">
+				<label>33</label>
+				<mixed-citation>33. Godin G, Gagné C, Naccache H. Validation of a self-reported questionnaire assessing adherence to antiretroviral medication. AIDS Patient Care STDS. 2003;17(7):325-32. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1089/108729103322231268">https://doi.org/10.1089/108729103322231268</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Godin</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Gagné</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Naccache</surname>
+							<given-names>H</given-names>
+						</name>
+					</person-group>
+					<article-title>Validation of a self-reported questionnaire assessing adherence to antiretroviral medication</article-title>
+					<source>AIDS Patient Care STDS</source>
+					<year>2003</year>
+					<volume>17</volume>
+					<issue>7</issue>
+					<fpage>325</fpage>
+					<lpage>332</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1089/108729103322231268">https://doi.org/10.1089/108729103322231268</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B34">
+				<label>34</label>
+				<mixed-citation>34. Reis AC, Lencastre L, Guerra MP, Remor E. Adaptação portuguesa do questionário para a avaliação da adesão ao tratamento anti-retrovírico-VIH (CEAT-VIH). Psicol Saude Doenças. 2009 [cited 2021 Jul 16];10(2):175-91. Available from: <ext-link ext-link-type="uri" xlink:href="https://scielo.pt/pdf/psd/v10n2/v10n2a02.pdf">https://scielo.pt/pdf/psd/v10n2/v10n2a02.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Reis</surname>
+							<given-names>AC</given-names>
+						</name>
+						<name>
+							<surname>Lencastre</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Guerra</surname>
+							<given-names>MP</given-names>
+						</name>
+						<name>
+							<surname>Remor</surname>
+							<given-names>E</given-names>
+						</name>
+					</person-group>
+					<article-title>Adaptação portuguesa do questionário para a avaliação da adesão ao tratamento anti-retrovírico-VIH (CEAT-VIH)</article-title>
+					<source>Psicol Saude Doenças</source>
+					<year>2009</year>
+					<date-in-citation content-type="cited-date">cited 2021 Jul 16</date-in-citation>
+					<volume>10</volume>
+					<issue>2</issue>
+					<fpage>175</fpage>
+					<lpage>191</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://scielo.pt/pdf/psd/v10n2/v10n2a02.pdf">https://scielo.pt/pdf/psd/v10n2/v10n2a02.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B35">
+				<label>35</label>
+				<mixed-citation>35. Tafur-Valderrama E, Ortiz C, Alfaro CO, García-Jiménez E, Faus MJ. Adaptación del “Cuestionario de Evaluación de la Adhesión al Tratamiento antirretroviral” (CEAT-VIH) para su uso en Perú. Ars Pharm. 2008 [cited 2021 Jul 16];49(3):183-98. Available from: <ext-link ext-link-type="uri" xlink:href="https://revistaseug.ugr.es/index.php/ars/article/view/4967">https://revistaseug.ugr.es/index.php/ars/article/view/4967</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Tafur-Valderrama</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Ortiz</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Alfaro</surname>
+							<given-names>CO</given-names>
+						</name>
+						<name>
+							<surname>García-Jiménez</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Faus</surname>
+							<given-names>MJ</given-names>
+						</name>
+					</person-group>
+					<article-title>Adaptación del “Cuestionario de Evaluación de la Adhesión al Tratamiento antirretroviral” (CEAT-VIH) para su uso en Perú</article-title>
+					<source>Ars Pharm</source>
+					<year>2008</year>
+					<date-in-citation content-type="cited-date">cited 2021 Jul 16</date-in-citation>
+					<volume>49</volume>
+					<issue>3</issue>
+					<fpage>183</fpage>
+					<lpage>198</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://revistaseug.ugr.es/index.php/ars/article/view/4967">https://revistaseug.ugr.es/index.php/ars/article/view/4967</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B36">
+				<label>36</label>
+				<mixed-citation>36. Simoni JM, Kurth AE, Pearson CR, Pantalone DW, Merrill JO, Frick PA. Self-report measures of antiretroviral therapy adherence: a review with recommendations for HIV research and clinical management. AIDS Behav. 2006;10(3):227-45. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s10461-006-9078-6">https://doi.org/10.1007/s10461-006-9078-6</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Simoni</surname>
+							<given-names>JM</given-names>
+						</name>
+						<name>
+							<surname>Kurth</surname>
+							<given-names>AE</given-names>
+						</name>
+						<name>
+							<surname>Pearson</surname>
+							<given-names>CR</given-names>
+						</name>
+						<name>
+							<surname>Pantalone</surname>
+							<given-names>DW</given-names>
+						</name>
+						<name>
+							<surname>Merrill</surname>
+							<given-names>JO</given-names>
+						</name>
+						<name>
+							<surname>Frick</surname>
+							<given-names>PA</given-names>
+						</name>
+					</person-group>
+					<article-title>Self-report measures of antiretroviral therapy adherence: a review with recommendations for HIV research and clinical management</article-title>
+					<source>AIDS Behav</source>
+					<year>2006</year>
+					<volume>10</volume>
+					<issue>3</issue>
+					<fpage>227</fpage>
+					<lpage>245</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s10461-006-9078-6">https://doi.org/10.1007/s10461-006-9078-6</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B37">
+				<label>37</label>
+				<mixed-citation>37. Galvão MTG, Soares LL, Pedrosa SC, Fiuza MLT, Lemos LA. Qualidade de vida e adesão à medicação antirretroviral em pessoas com HIV. Acta Paul Enferm. 2015;28(1):48-53. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1982-0194201500009">https://doi.org/10.1590/1982-0194201500009</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Galvão</surname>
+							<given-names>MTG</given-names>
+						</name>
+						<name>
+							<surname>Soares</surname>
+							<given-names>LL</given-names>
+						</name>
+						<name>
+							<surname>Pedrosa</surname>
+							<given-names>SC</given-names>
+						</name>
+						<name>
+							<surname>Fiuza</surname>
+							<given-names>MLT</given-names>
+						</name>
+						<name>
+							<surname>Lemos</surname>
+							<given-names>LA</given-names>
+						</name>
+					</person-group>
+					<article-title>Qualidade de vida e adesão à medicação antirretroviral em pessoas com HIV</article-title>
+					<source>Acta Paul Enferm</source>
+					<year>2015</year>
+					<volume>28</volume>
+					<issue>1</issue>
+					<fpage>48</fpage>
+					<lpage>53</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1982-0194201500009">https://doi.org/10.1590/1982-0194201500009</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B38">
+				<label>38</label>
+				<mixed-citation>38. Primeira MR, Santos EEP, Züge SS, Magnago TSBS, Paula CC, Padoin SMM. Avaliação da adesão ao tratamento antirretroviral de pessoas vivendo com HIV. Saude Pesq. 2018;11(2):307-14. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.17765/1983-1870.2018v11n2p307-314">https://doi.org/10.17765/1983-1870.2018v11n2p307-314</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Primeira</surname>
+							<given-names>MR</given-names>
+						</name>
+						<name>
+							<surname>Santos</surname>
+							<given-names>EEP</given-names>
+						</name>
+						<name>
+							<surname>Züge</surname>
+							<given-names>SS</given-names>
+						</name>
+						<name>
+							<surname>Magnago</surname>
+							<given-names>TSBS</given-names>
+						</name>
+						<name>
+							<surname>Paula</surname>
+							<given-names>CC</given-names>
+						</name>
+						<name>
+							<surname>Padoin</surname>
+							<given-names>SMM</given-names>
+						</name>
+					</person-group>
+					<article-title>Avaliação da adesão ao tratamento antirretroviral de pessoas vivendo com HIV</article-title>
+					<source>Saude Pesq</source>
+					<year>2018</year>
+					<volume>11</volume>
+					<issue>2</issue>
+					<fpage>307</fpage>
+					<lpage>314</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.17765/1983-1870.2018v11n2p307-314">https://doi.org/10.17765/1983-1870.2018v11n2p307-314</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B39">
+				<label>39</label>
+				<mixed-citation>39. Cabral JR, Cabral LR, Moraes DCA, Oliveira ECS, Freire DA, Silva FP, et al. Fatores associados à autoeficácia e à adesão da terapia antirretroviral em pessoas com HIV: teoria social cognitiva. Cien Cuid Saude. 2021;20:e58781. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4025/cienccuidsaude.v20i0.58781">https://doi.org/10.4025/cienccuidsaude.v20i0.58781</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cabral</surname>
+							<given-names>JR</given-names>
+						</name>
+						<name>
+							<surname>Cabral</surname>
+							<given-names>LR</given-names>
+						</name>
+						<name>
+							<surname>Moraes</surname>
+							<given-names>DCA</given-names>
+						</name>
+						<name>
+							<surname>Oliveira</surname>
+							<given-names>ECS</given-names>
+						</name>
+						<name>
+							<surname>Freire</surname>
+							<given-names>DA</given-names>
+						</name>
+						<name>
+							<surname>Silva</surname>
+							<given-names>FP</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Fatores associados à autoeficácia e à adesão da terapia antirretroviral em pessoas com HIV: teoria social cognitiva</article-title>
+					<source>Cien Cuid Saude</source>
+					<year>2021</year>
+					<volume>20</volume>
+					<elocation-id>e58781</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4025/cienccuidsaude.v20i0.58781">https://doi.org/10.4025/cienccuidsaude.v20i0.58781</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B40">
+				<label>40</label>
+				<mixed-citation>40. Guerra CPP, Seidl EMF. Adesão em HIV/AIDS: estudo com adolescentes e seus cuidadores primários. Psicol Estud. 2010 [cited 2021 Jul 16];15(4):781-9. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.scielo.br/j/pe/a/sHz6CRWjc8BnYJHFdhp7m9h/?lang=pt">https://www.scielo.br/j/pe/a/sHz6CRWjc8BnYJHFdhp7m9h/?lang=pt</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Guerra</surname>
+							<given-names>CPP</given-names>
+						</name>
+						<name>
+							<surname>Seidl</surname>
+							<given-names>EMF</given-names>
+						</name>
+					</person-group>
+					<article-title>Adesão em HIV/AIDS: estudo com adolescentes e seus cuidadores primários</article-title>
+					<source>Psicol Estud</source>
+					<year>2010</year>
+					<date-in-citation content-type="cited-date">cited 2021 Jul 16</date-in-citation>
+					<volume>15</volume>
+					<issue>4</issue>
+					<fpage>781</fpage>
+					<lpage>789</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.scielo.br/j/pe/a/sHz6CRWjc8BnYJHFdhp7m9h/?lang=pt">https://www.scielo.br/j/pe/a/sHz6CRWjc8BnYJHFdhp7m9h/?lang=pt</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B41">
+				<label>41</label>
+				<mixed-citation>41. Lopes LK. A adesão ao tratamento antirretroviral por crianças e adolescentes com HIV/Aids [tese]. São Paulo: Faculdade de Saúde Pública da USP; 2012 [cited 2022 Feb 15]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.teses.usp.br/teses/disponiveis/6/6132/tde-22012013-114651/publico/TESE.pdf">https://www.teses.usp.br/teses/disponiveis/6/6132/tde-22012013-114651/publico/TESE.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="thesis">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lopes</surname>
+							<given-names>LK</given-names>
+						</name>
+					</person-group>
+					<source>A adesão ao tratamento antirretroviral por crianças e adolescentes com HIV/Aids</source>
+					<comment>tese</comment>
+					<publisher-loc>São Paulo</publisher-loc>
+					<publisher-name>Faculdade de Saúde Pública da USP</publisher-name>
+					<year>2012</year>
+					<date-in-citation content-type="cited-date">cited 2022 Feb 15</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.teses.usp.br/teses/disponiveis/6/6132/tde-22012013-114651/publico/TESE.pdf">https://www.teses.usp.br/teses/disponiveis/6/6132/tde-22012013-114651/publico/TESE.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B42">
+				<label>42</label>
+				<mixed-citation>42. Santos MA, Guimarães MDC, Santa Helena ET, Basso CR, Vale FC, Carvalho WMES, et al. Monitoring self-reported adherence to antiretroviral therapy in public HIV care facilities in Brazil: a national cross-sectional study. Medicine. 2018;97(1 Suppl):S38-45. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/MD.0000000000009015">https://doi.org/10.1097/MD.0000000000009015</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Santos</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Guimarães</surname>
+							<given-names>MDC</given-names>
+						</name>
+						<name>
+							<surname>Santa Helena</surname>
+							<given-names>ET</given-names>
+						</name>
+						<name>
+							<surname>Basso</surname>
+							<given-names>CR</given-names>
+						</name>
+						<name>
+							<surname>Vale</surname>
+							<given-names>FC</given-names>
+						</name>
+						<name>
+							<surname>Carvalho</surname>
+							<given-names>WMES</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Monitoring self-reported adherence to antiretroviral therapy in public HIV care facilities in Brazil: a national cross-sectional study</article-title>
+					<source>Medicine</source>
+					<year>2018</year>
+					<volume>97</volume>
+					<issue>1</issue>
+					<supplement>Suppl</supplement>
+					<fpage>S38</fpage>
+					<lpage>S45</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/MD.0000000000009015">https://doi.org/10.1097/MD.0000000000009015</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="financial-disclosure" id="fn2">
+				<p>Funding: <italic>Coordenação de Aperfeiçoamento de Pessoal de Nível Superior</italic> (Capes - funding code 001). <italic>Programa Nacional de Pós-Doutorado</italic> (Proceeding 88882.317622/2019-01)</p>
+			</fn>
+		</fn-group>
+	</back>
+	<sub-article article-type="translation" id="TRpt" xml:lang="pt">
+		<front-stub>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Revisão</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Instrumentos para avaliar a adesão medicamentosa em pessoas vivendo com HIV: uma revisão de escopo</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-0055-4682</contrib-id>
+					<name>
+						<surname>Santos</surname>
+						<given-names>André Pereira dos</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff2002"><sup>II</sup></xref>
+					<xref ref-type="aff" rid="aff3002"><sup>III</sup></xref>
+					<xref ref-type="aff" rid="aff4002"><sup>IV</sup></xref>
+					<role>Concepção e planejamento do estudo</role>
+					<role>Coleta, análise e interpretação dos dados</role>
+					<role>Elaboração ou revisão do manuscrito</role>
+					<role>Aprovação da versão final</role>
+					<role>Responsabilidade pública pelo conteúdo do artigo</role>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-8212-9032</contrib-id>
+					<name>
+						<surname>Cordeiro</surname>
+						<given-names>Jéssica Fernanda Corrêa</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+					<role>Coleta, análise e interpretação dos dados</role>
+					<role>Elaboração ou revisão do manuscrito</role>
+					<role>Aprovação da versão final</role>
+					<role>Responsabilidade pública pelo conteúdo do artigo</role>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-3180-328X</contrib-id>
+					<name>
+						<surname>Fracarolli</surname>
+						<given-names>Isabela Fernanda Larios</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+					<role>Coleta, análise e interpretação dos dados</role>
+					<role>Elaboração ou revisão do manuscrito</role>
+					<role>Aprovação da versão final</role>
+					<role>Responsabilidade pública pelo conteúdo do artigo</role>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-0020-4682</contrib-id>
+					<name>
+						<surname>Gomide</surname>
+						<given-names>Euripedes Barsanulfo Gonçalves</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff2002"><sup>II</sup></xref>
+					<xref ref-type="aff" rid="aff5002"><sup>V</sup></xref>
+					<role>Elaboração ou revisão do manuscrito</role>
+					<role>Aprovação da versão final</role>
+					<role>Responsabilidade pública pelo conteúdo do artigo</role>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-3336-2695</contrib-id>
+					<name>
+						<surname>Andrade</surname>
+						<given-names>Denise de</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff4002"><sup>IV</sup></xref>
+					<role>Concepção e planejamento do estudo</role>
+					<role>Elaboração ou revisão do manuscrito</role>
+					<role>Aprovação da versão final</role>
+					<role>Responsabilidade pública pelo conteúdo do artigo</role>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1002">
+				<label>I</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Universidade de São Paulo. Escola de Enfermagem de Ribeirão Preto. Ribeirão Preto, SP, Brasil</institution>
+			</aff>
+			<aff id="aff2002">
+				<label>II</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Universidade de São Paulo. Escola de Educação Física e Esporte de Ribeirão Preto. Grupo de Estudos e Pesquisa em Antropometria, Treinamento e Esporte. Ribeirão Preto, SP, Brasil</institution>
+			</aff>
+			<aff id="aff3002">
+				<label>III</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Universidade de São Paulo. Escola de Educação Física e Esporte de Ribeirão Preto. Ribeirão Preto, SP, Brasil</institution>
+			</aff>
+			<aff id="aff4002">
+				<label>IV</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Human Exposome and Infectious Diseases Network. Ribeirão Preto, SP, Brasil</institution>
+			</aff>
+			<aff id="aff5002">
+				<label>V</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Claretiano – Centro Universitário. Batatais, SP, Brasil</institution>
+			</aff>
+			<author-notes>
+				<corresp id="c01002"> Correspondência: André Pereira dos Santos Avenida dos Bandeirantes, 3.900 Campus Universitário 14040-902 Ribeirão Preto, SP, Brasil E-mail: andrepereira.educa@gmail.com </corresp>
+				<fn id="fn1002">
+					<p>Conflito de Interesses: Os autores declaram não haver conflito de interesses.</p>
+				</fn>
+			</author-notes>
+			<abstract>
+				<title>RESUMO</title>
+				<sec>
+					<title>OBJETIVO</title>
+					<p> Compilar os instrumentos validados no Brasil para avaliação da adesão de pessoas vivendo com HIV à terapia antirretroviral.</p>
+				</sec>
+				<sec>
+					<title>MÉTODOS</title>
+					<p> Revisão de escopo, utilizando as bases de dados Web of Science, Scopus, Medline (via PubMed), Embase, BDENF, CINAHL e Lilacs. Em complementação, os servidores Preprints bioRxiv, Google Scholar e OpenGrey foram verificados. Para a busca, não houve restrição de idioma e considerou artigos publicados a partir do ano de 1996.</p>
+				</sec>
+				<sec>
+					<title>RESULTADOS</title>
+					<p> Três publicações foram incluídas na síntese qualitativa. Os instrumentos identificados foram o “Questionário para Avaliação da Adesão ao Tratamento Antirretroviral”, desenvolvido em Porto Alegre (RS) e publicado em 2007; a “Escala de autoeficácia para adesão ao tratamento antirretroviral em crianças e adolescentes com HIV/Aids”, desenvolvida em São Paulo (SP) e publicada em 2008; e o “WebAd-Q, um instrumento de autorrelato para monitorar a adesão à terapia antirretroviral em serviços de HIV/Aids no Brasil”, desenvolvido em São Bernardo do Campo (SP) e publicado em 2018. Os instrumentos foram validados no Brasil e apresentaram valores estatisticamente aceitáveis para as qualidades psicométricas.</p>
+				</sec>
+				<sec>
+					<title>CONCLUSÃO</title>
+					<p> Os instrumentos para avaliar a adesão de pessoas vivendo com HIV à terapia antirretroviral são estratégias validadas para o contexto do Brasil. Todavia há que se expandir a (re)utilização em diferentes cenários e contextos da nação. A utilização desses instrumentos por profissionais da saúde pode melhorar a compreensão dos fatores que atuam negativa e positivamente na adesão à terapia antirretroviral, e a proposição de estratégias com o objetivo de consolidar a boa adesão e intervir no tratamento das pessoas com baixo engajamento terapêutico.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="pt">
+				<kwd>Infecções por HIV, terapia</kwd>
+				<kwd>Adesão à Medicação</kwd>
+				<kwd>Recusa do Paciente ao Tratamento</kwd>
+				<kwd>Sobreviventes de Longo Prazo ao HIV</kwd>
+				<kwd>Revisão</kwd>
+			</kwd-group>
+		</front-stub>
+		<body>
+			<sec sec-type="intro">
+				<title>INTRODUÇÃO</title>
+				<p>Com o advento da terapia antirretroviral (TARV), após 1987, em alguns lugares do mundo, e no Brasil a partir de 1996, com o acesso público, gratuito e universal, os avanços na constituição e na estratégia de administração dos antirretrovirais transformou mundialmente a compreensão da infecção pelo <italic>Human immunodeficiency virus</italic> (HIV), associado ou não a <italic>acquired immunodeficiency syndrome</italic> (Aids), de uma doença fatal, para uma infecção crônica<sup><xref ref-type="bibr" rid="B1">1</xref>,<xref ref-type="bibr" rid="B2">2</xref></sup>.</p>
+				<p>Mesmo com a remissão prolongada do HIV descrita na literatura<sup><xref ref-type="bibr" rid="B3">3</xref>,<xref ref-type="bibr" rid="B4">4</xref></sup>, até o momento, não há cura e o tratamento que leva a carga viral a nível indetectável (&lt; 40 cópias/ml), tem como principal componente a adesão do paciente à terapia antirretroviral<sup><xref ref-type="bibr" rid="B5">5</xref></sup>. O controle do HIV e a manutenção da saúde são promovidos pelo uso contínuo e adequado da TARV, cuja efetividade está atrelada à ingestão dos medicamentos conforme a prescrição, determinando sua adesão ao tratamento. Para uma adesão satisfatória, a utilização dos medicamentos antirretrovirais deve ser a mais próxima possível da prescrição fornecida pela equipe de saúde, de forma a cumprir horários, doses e demais indicações<sup><xref ref-type="bibr" rid="B6">6</xref></sup>. Altos níveis de adesão têm sido consistentemente associados a melhores resultados virológicos, imunológicos e clínicos, com consequente aumento na sobrevida e qualidade de vida de pessoas vivendo com HIV<sup><xref ref-type="bibr" rid="B8">8</xref></sup>. Adicionalmente, considerando que um dos pilares dos programas de controle da epidemia de HIV no mundo é a estratégia denominada I = I (indetectável = intransmissível), a adesão à terapia impacta positivamente na redução do número de transmissões de parceiros vinculados<sup><xref ref-type="bibr" rid="B9">9</xref>,<xref ref-type="bibr" rid="B10">10</xref></sup>. Por outro lado, o abandono do tratamento medicamentoso ou a adesão incorreta podem facilitar o contágio por doenças oportunistas e levar à morte. Em suma, a não adesão à terapia antirretroviral impacta negativamente em aspectos sociais e políticos, tanto pelo investimento público realizado quanto pelo controle da epidemia<sup><xref ref-type="bibr" rid="B11">11</xref></sup>.</p>
+				<p>Nos últimos anos, o Brasil registra uma diminuição no número de infecções pelo HIV. Entre os anos de 2007 e 2020, foram notificados no Sistema de Informação de Agravos de Notificação 342.459 casos de infecção pelo HIV<sup><xref ref-type="bibr" rid="B11">11</xref></sup>. O Sistema Único de Saúde manteve suas ações para garantir o diagnóstico e tratamento para o HIV, mesmo durante a pandemia da covid-19. O Ministério da Saúde elaborou um painel de “Monitoramento durante a pandemia da covid-19 – dados relacionados ao HIV”, em que apresentou informações importantes sobre os números de pessoas que iniciaram a terapia antirretroviral a cada ano, por exemplo, em 2019, um total de 68.482 pacientes aderiram à TARV; já no ano seguinte, em 2020, foram 55.180 novas adesões<sup><xref ref-type="bibr" rid="B12">12</xref></sup>.</p>
+				<p>As barreiras e os facilitadores para a adesão à terapia antirretroviral são multifatoriais, envolvendo questões sociais, econômicas, sistêmicas/profissionais (equipes de saúde), efeitos colaterais ao tratamento, à doença, e as particularidades da pessoa vivendo com HIV<sup><xref ref-type="bibr" rid="B13">13</xref></sup>. Cada país e suas regiões podem apresentar especificidades que se configuram como barreiras ao tratamento; por exemplo, países como Uganda, Tanzania e Botswana podem apresentar obstáculos em que a fome, o tempo de espera pelo medicamento e os custos de transporte são fortes complicadores para a adesão à TARV<sup><xref ref-type="bibr" rid="B14">14</xref></sup>. No Brasil, os principais fatores associados a não adesão a essa terapia são os aspectos sociodemográficos, como a idade (jovem), estado civil (solteiro), cor da pele autorreferida (não branca), escolaridade (baixo nível), renda (baixa condição socioeconômica) e a vulnerabilidade ao HIV/Aids, como o uso de drogas lícitas e ilícitas, uso dos serviços de saúde (não adesão às consultas e contato com mais de um serviço de saúde), e o acompanhamento clínico laboratorial (percepção dos efeitos colaterais e complexidade do regime terapêutico)<sup><xref ref-type="bibr" rid="B15">15</xref>,<xref ref-type="bibr" rid="B16">16</xref></sup>.</p>
+				<p>Devido aos diferentes instrumentos de medidas adotados regionalmente, não existe uma estimativa nacional de adesão à terapia antirretroviral, contudo, uma recente revisão de literatura observou que essa taxa varia entre 18% e 74,3%, dependendo da localidade<sup><xref ref-type="bibr" rid="B17">17</xref></sup>.</p>
+				<p>Dentre os diferentes instrumentos e técnicas utilizados para avaliar a adesão da pessoa vivendo com HIV à terapia estão o registro de dispensação dos antirretrovirais<sup><xref ref-type="bibr" rid="B18">18</xref></sup>, a análise do prontuário médico<sup><xref ref-type="bibr" rid="B19">19</xref></sup>, questionário de autopreenchimento<sup><xref ref-type="bibr" rid="B20">20</xref></sup>, o questionário simplificado para avaliação da adesão à TARV-SMAQ<sup><xref ref-type="bibr" rid="B21">21</xref></sup> etc. Contudo, observa-se que as propostas para essa avaliação em serviços de saúde no Brasil não utilizam instrumentos e técnicas validados<sup><xref ref-type="bibr" rid="B17">17</xref></sup>, o que pode levar a erro de verificação e interpretação dos resultados<sup><xref ref-type="bibr" rid="B22">22</xref></sup>.</p>
+				<p>Assim, o presente estudo teve como objetivo mapear os instrumentos validados no Brasil para avaliar a adesão de pessoas vivendo com HIV à terapia antirretroviral.</p>
+			</sec>
+			<sec sec-type="methods">
+				<title>MÉTODOS</title>
+				<sec>
+					<title>Delineamento do Estudo</title>
+					<p>Estudo de revisão do tipo <italic>scoping review</italic> ou revisão de escopo, com a intenção de abordar assuntos amplos, com foco em resultados mais abrangentes. Esse tipo de revisão identifica, examina e sistematiza rigorosamente e efetivamente um conceito ou características singulares de cada estudo ao identificar a natureza de um amplo campo do conhecimento<sup><xref ref-type="bibr" rid="B23">23</xref>,<xref ref-type="bibr" rid="B24">24</xref></sup>. A revisão de escopo é sistematizada e para sua realização, algumas etapas são exigidas. Dentre essas etapas, cinco estágios são considerados obrigatórios e um opcional: (1) identificação da questão de pesquisa; (2) identificação dos estudos relevantes; (3) seleção dos estudos; (4) mapeamento dos dados; (5) agrupamento, análise e resumo dos dados; e (6) consulta a pesquisadores (opcional)<sup><xref ref-type="bibr" rid="B23">23</xref>,<xref ref-type="bibr" rid="B24">24</xref></sup>. Esta revisão de escopo seguiu as diretrizes da lista de conferências de itens para revisões sistemáticas e extensão de metanálises para revisões de escopo (Prisma-ScR)<sup><xref ref-type="bibr" rid="B25">25</xref></sup>.</p>
+				</sec>
+				<sec>
+					<title>Definição da Pergunta</title>
+					<p>Ao determinar a pergunta de investigação, optou-se pela utilização da estratégia <italic>population (P), concept (C) and context (C)</italic><sup><xref ref-type="bibr" rid="B26">26</xref></sup>. Em que, (P) – pessoas vivendo com HIV que fazem uso de terapia antirretroviral, (C) instrumentos de adesão à terapia antirretroviral, e (C) instrumentos validados no Brasil. Assim, a questão norteadora deste estudo foi: Há instrumentos validados no Brasil para avaliar a adesão à terapia antirretroviral em pessoas vivendo com HIV?</p>
+				</sec>
+				<sec>
+					<title>Período</title>
+					<p>A busca dos estudos foi realizada em dezembro de 2020 por dois pesquisadores, de forma independente, evitando o viés no número de artigos.</p>
+				</sec>
+				<sec>
+					<title>Coleta de Dados</title>
+					<p>As principais bases de dados da área da saúde foram selecionadas para busca: <italic>Web of Science</italic> (WOS/ISI), Scopus, <italic>Medical Literature Analysis and Retrieval Online</italic> (Medline/PubMed), Embase, BDENF, <italic>The Cumulative Index to Nursing and Allied Health Literature</italic> (CINAHL) e Literatura Latino-Americana e do Caribe em Ciências da Saúde (Lilacs). Em complementação, os servidores <italic>Preprints bioRxiv, Google Scholar</italic> e <italic>OpenGrey</italic> foram verificados por apresentarem reconhecimento na comunidade acadêmica e devido ao expressivo número de documentos disponíveis.</p>
+				</sec>
+				<sec>
+					<title>Critérios de Seleção</title>
+					<p>Foram inseridos nesta pesquisa estudos primários, descritivos, revisões, editoriais e manuais publicados a partir de 1996 (início da implantação da terapia antirretroviral no Brasil como política de acesso público e universal contra o HIV), e sem restrição de idioma. Foram selecionados os textos completos disponíveis e que respondessem à pergunta de investigação. Artigos repetidos em mais de uma fonte de dados foram contabilizados apenas uma vez. Todos os estudos encontrados na busca foram importados para o <italic>software</italic> Rayyan<sup>®</sup>, no qual foi realizado todo o processo de análise e seleção.</p>
+				</sec>
+				<sec>
+					<title>Instrumento Utilizado para a Coleta das Informações</title>
+					<p>Os descritores utilizados nesta pesquisa foram selecionados por meio dos bancos de dados “Descritores em Ciências da Saúde” (DeCS) e “<italic>Medical Subject Head Medical Subject Headings</italic>” (MESH), que estão destacados no <xref ref-type="table" rid="t1002">Quadro 1</xref>.</p>
+					<p>
+						<table-wrap id="t1002">
+							<label>Quadro 1</label>
+							<caption>
+								<title>Estratégias de buscas utilizadas nas bases de dados e repositórios</title>
+							</caption>
+							<table frame="hsides" rules="groups">
+								<colgroup>
+									<col/>
+									<col/>
+								</colgroup>
+								<thead>
+									<tr>
+										<th align="left">Base de dados</th>
+										<th>Estratégia de busca</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>PubMed/Medline</td>
+										<td align="center">(“Acquired Immunodeficiency Syndrome” OR HIV) AND (“medication adherence” OR compliance) AND (“Surveys and Questionnaires”)</td>
+									</tr>
+									<tr>
+										<td>CINAHL</td>
+										<td align="center">(“Human Immunodeficiency Virus” OR “Anti-HIV Agents”) AND (“Medication Compliance”) AND (“Structured Questionnaires” OR “Surveys”)</td>
+									</tr>
+									<tr>
+										<td>Web of Science</td>
+										<td align="center">(Acquired Immunodeficiency Syndrome OR HIV) AND (medication adherence OR compliance) AND (Surveys and Questionnaires)</td>
+									</tr>
+									<tr>
+										<td>Scopus</td>
+										<td align="center">(“Acquired Immunodeficiency Syndrome” OR HIV) AND (“medication adherence” OR compliance) AND (“Surveys and Questionnaires”)</td>
+									</tr>
+									<tr>
+										<td>Embase</td>
+										<td align="center">Acquired Immunodeficiency Syndrome AND medication compliance AND questionnaire</td>
+									</tr>
+									<tr>
+										<td rowspan="2">BVS (Lilacs, BDENF)</td>
+										<td align="center">(Acquired Immunodeficiency Syndrome OR HIV) AND (medication adherence OR compliance) AND (Surveys and Questionnaires)</td>
+									</tr>
+									<tr>
+										<td align="center">(Síndrome de inmunodeficiencia adquirida O VIH) Y (adherencia o cumplimiento a la medicación) Y (Encuestas y cuestionarios)</td>
+									</tr>
+									<tr>
+										<td>BioRxiv</td>
+										<td align="center">“Acquired Immunodeficiency Syndrome AND medication adherence AND Surveys and Questionnaires”</td>
+									</tr>
+									<tr>
+										<td>Google Scholar</td>
+										<td align="center">“Acquired Immunodeficiency Syndrome AND medication adherence AND Surveys and Questionnaires”</td>
+									</tr>
+									<tr>
+										<td>OpenGrey</td>
+										<td align="center">“Acquired Immunodeficiency Syndrome AND medication adherence AND Surveys and Questionnaires”</td>
+									</tr>
+								</tbody>
+							</table>
+						</table-wrap>
+					</p>
+				</sec>
+				<sec>
+					<title>Tratamento e Análise dos Dados</title>
+					<p>Na sequência, realizou-se o agrupamento, análise e resumo dos dados extraídos por dois revisores independentes. As dúvidas e incongruências foram analisadas e discutidas por um terceiro revisor. Os dados foram registrados em planilha Microsoft Office Excel<sup>®</sup>, versão 2010, e apresentados quanto à identificação (autoria e ano), objetivo, método, principais resultados, vieses e limitações do estudo<sup><xref ref-type="bibr" rid="B27">27</xref></sup>.</p>
+				</sec>
+			</sec>
+			<sec sec-type="results">
+				<title>RESULTADOS</title>
+				<p>A busca na literatura científica por esses instrumentos validados que avaliam a adesão dos pacientes à terapia antirretroviral no Brasil resultou na inclusão de três estudos. Na <xref ref-type="fig" rid="f01002">Figura</xref> observa-se o processo de busca, identificação, exclusão e seleção dos estudos, de acordo com as recomendações do Prisma.</p>
+				<p>
+					<fig id="f01002">
+						<label>Figura</label>
+						<caption>
+							<title>Fluxograma da seleção dos estudos recuperados nas bases de dados, adaptado do <italic>Preferred Reporting Items for Systematic Review and Meta-Analyses</italic> (Prisma), sobre os instrumentos validados que avaliam a adesão à terapia antirretroviral em pessoas vivendo com HIV no Brasil.</title>
+						</caption>
+						<graphic xlink:href="1518-8787-rsp-56-112-gf01-pt.tif"/>
+					</fig>
+				</p>
+				<p>Os instrumentos identificados foram o “Questionário para Avaliação da Adesão ao Tratamento Antirretroviral”, desenvolvido em Porto Alegre e publicado em 2007<sup><xref ref-type="bibr" rid="B28">28</xref></sup>, a “Escala de autoeficácia para adesão ao tratamento antirretroviral em crianças e adolescentes com HIV/Aids”, desenvolvida em São Paulo e publicada em 2008<sup><xref ref-type="bibr" rid="B29">29</xref></sup>, e o “WebAd-Q, um instrumento de autorrelato para monitorar a adesão à terapia antirretroviral em serviços de HIV/Aids no Brasil”, desenvolvido em São Bernardo do Campo e publicado em 2018<sup><xref ref-type="bibr" rid="B30">30</xref></sup>. Todas as publicações incluídas na síntese qualitativa desta revisão de escopo foram escritas no idioma português e inglês, exceto a publicação de Remor; Milner-Moskovics; Preussler, 2007<sup><xref ref-type="bibr" rid="B28">28</xref></sup>, publicada exclusivamente no idioma português. As três publicações incluídas estavam presentes na base de dados Scopus. As informações extraídas desses estudos sobre identificação, objetivo, método, resultados principais e vieses/limitações estão apresentadas no <xref ref-type="table" rid="t2002">Quadro 2</xref>.</p>
+				<p>
+					<table-wrap id="t2002">
+						<label>Quadro 2</label>
+						<caption>
+							<title>Síntese dos estudos incluídos na revisão de escopo relativos à pergunta: “Há instrumentos validados no Brasil para avaliar a adesão à terapia antirretroviral em pessoas vivendo com HIV?”</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left">Identificação (autoria/ano)</th>
+									<th>Objetivo</th>
+									<th>Método</th>
+									<th>Principais resultados</th>
+									<th>Limitações do estudo</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Remor E, Milner-Moskovics J, Preussler G., 2007<sup>28</sup></td>
+									<td align="center">Traduzir, adaptar e validar o questionário para seu uso no Brasil: <italic>Cuestionario para la Evaluación de la Adhesión al Tratamiento Antiretroviral (CEAT-VIH)</italic>”. Trata-se de um instrumento autoaplicável para a identificação do grau de adesão ao tratamento antirretroviral em pacientes com infecção pelo HIV.</td>
+									<td align="center">Estudo metodológico subsidiado em um questionário traduzido do original em espanhol ao português, processo de retradução (espanhol/português/espanhol), com avaliação verbal da compreensão com um pequeno grupo de pacientes. A análise das propriedades psicométricas envolveu 59 pacientes em tratamento antirretroviral de Porto Alegre/ Rio Grande do Sul, Brasil. A consistência interna e a, validez relacionada a um critério externo, sensibilidade e especificidade subsidiaram a validação. A versão final do CEAT-VIH (20 perguntas), a pontuação total é obtida pela soma de todos os itens (valor mínimo possível 17, valor máximo possível 89).</td>
+									<td align="center">
+										<list list-type="bullet">
+											<list-item>
+												<p>Foi observada uma adequada confiabilidade do questionário (α = 0,64) e validade relacionada a um critério externo (carga viral; r = -0,48; p &lt; 0,001). Também, se observou adequada sensibilidade (79,2%) e especificidade (57,1%) do questionário para a detecção entre indivíduos com carga viral indetectável e detectável.</p>
+											</list-item>
+											<list-item>
+												<p>O ponto de corte ótimo sugerido pela análise é de ≥ 76.</p>
+											</list-item>
+											<list-item>
+												<p>Valores abaixo indicam insuficiente adesão ao tratamento e associação a uma carga viral detectável. A esta pontuação se associa uma sensibilidade de 79,2% e especificidade de 57,1%.</p>
+											</list-item>
+										</list>
+									</td>
+									<td align="center">
+										<list list-type="order">
+											<list-item>
+												<p>Não é apresentado o cálculo para o tamanho amostral.</p>
+											</list-item>
+											<list-item>
+												<p>Estudo em apenas uma única instituição dificultando a generalização; portanto, não é um estudo representativo Nacional.</p>
+											</list-item>
+											<list-item>
+												<p> O ponto de corte estabelecido deve ser utilizado com cautela pelo fato de o questionário ser um instrumento autoaplicável.</p>
+											</list-item>
+											<list-item>
+												<p>Efeito Hawthorne.</p>
+											</list-item>
+										</list>
+									</td>
+								</tr>
+								<tr>
+									<td>Costa LS, Latorre M do RD de O, Silva MH da, Bertolini DV, Machado DM, Pimentel SR, et al., 2008<sup>29</sup></td>
+									<td align="center">Validar uma escala de autoeficácia para adesão ao tratamento antirretroviral em crianças e adolescentes com HIV/Aids, levando em consideração a perspectiva dos pais/responsáveis, e avaliar a sua reprodutibilidade.</td>
+									<td align="center">
+										<list list-type="bullet">
+											<list-item>
+												<p>Estudo metodológico realizado no Hospital-Dia do Centro de Referência e Treinamento em DST/Aids de São Paulo. Foram entrevistados os pais/responsáveis de 54 crianças e adolescentes de 6 meses a 20 anos que passaram em consulta de rotina pelo serviço.</p>
+											</list-item>
+											<list-item>
+												<p>Os dados de autoeficácia da adesão à prescrição antirretroviral, foi calculada de duas maneiras: análise fatorial e fórmula já definida. A consistência interna da escala foi verificada pelo coeficiente α de Cronbach. A validade foi avaliada pela comparação das médias dos escores entre grupos de pacientes aderentes e não aderentes ao tratamento antirretroviral (teste de Mann-Whitney) e cálculo do coeficiente de correlação de Spearman entre os escores e parâmetros clínicos. A reprodutibilidade foi verificada por meio do teste de Wilcoxon, pelo coeficiente de correlação intraclasse e através dos Plots de Bland-Altman.</p>
+											</list-item>
+										</list>
+									</td>
+									<td align="center">
+										<list list-type="bullet">
+											<list-item>
+												<p>A escala de autoeficácia é constituída de 21 questões. Apresentou boa consistência interna (α = 0,87) e boa reprodutibilidade (CCI = 0,69 e CCI = 0,75).</p>
+											</list-item>
+											<list-item>
+												<p>Quanto à validade, a escala de autoeficácia para seguir prescrição antirretroviral conseguiu discriminar pacientes com adesão e com adesão insuficiente ao tratamento antirretroviral (p = 0,002) e apresentou correlação significativa com a contagem de CD4 (r = 0,28; p = 0,04).</p>
+											</list-item>
+											<list-item>
+												<p>Adicionam-se aos resultados que as crianças/adolescentes com adesão ao tratamento antirretroviral têm maior expectativa de autoeficácia do que aqueles com adesão insuficiente.</p>
+											</list-item>
+											<list-item>
+												<p>A escala de autoeficácia para seguir prescrição antirretroviral pode ser utilizada para avaliar a adesão à terapia antirretroviral em crianças e adolescentes com HIV/Aids, levando em consideração a perspectiva dos pais/cuidadores.</p>
+											</list-item>
+										</list>
+									</td>
+									<td align="center">
+										<list list-type="order">
+											<list-item>
+												<p>Não é um estudo representativo Nacional.</p>
+											</list-item>
+											<list-item>
+												<p>Foram os pais/cuidadores que responderam pelas crianças/adolescentes. Não foi considerada a percepção da população alvo do estudo.</p>
+											</list-item>
+											<list-item>
+												<p>Efeito Hawthorne.</p>
+											</list-item>
+										</list>
+									</td>
+								</tr>
+								<tr>
+									<td>Vale FC, Santa-Helena ET de, Santos MA, Carvalho WM do ES, Menezes PR, Basso CR, et al., 2018<sup>30</sup></td>
+									<td align="center">Apresentar o desenvolvimento e a validação do Questionário WebAd-Q, um instrumento de autorrelato para monitorar a adesão à terapia antirretroviral em serviços de HIV/Aids no Brasil.</td>
+									<td align="center">
+										<list list-type="bullet">
+											<list-item>
+												<p>Estudo metodológico. O O WebAd-Q é um questionário eletrônico que contém três perguntas sobre a tomada dos antirretrovirais na última semana. Foi construído a partir de entrevistas e grupos focais com 38 pacientes. Sua validade foi verificada em estudo com uma amostra de 90 pacientes maiores de 18 anos, sob terapia antirretroviral há pelo menos três meses. Foram utilizadas as seguintes medidas de adesão comparativas: monitoramento eletrônico, contagem de pílulas e entrevista de autorrelato.</p>
+											</list-item>
+											<list-item>
+												<p>O WebAd-Q foi respondido no sexagésimo dia por duas vezes, com intervalo mínimo de uma hora.</p>
+											</list-item>
+											<list-item>
+												<p>A carga viral dos pacientes foi obtida nos registros do serviço. Foi analisada a concordância entre as respostas ao WebAd-Q, associações e correlações com a carga viral e o desempenho em comparação às demais medidas de adesão.</p>
+											</list-item>
+										</list>
+									</td>
+									<td align="center">
+										<list list-type="bullet">
+											<list-item>
+												<p>Entre os pacientes convidados, 74 (82,2%) responderam ao WebAd-Q. Não foram relatadas dificuldades em responder ao questionário. O tempo médio de resposta foi de 5 min 47 seg. O conjunto das três questões do WebAd-Q obteve concordância de 89,8%, com Kappa de 0,77 (IC95% 0,61–0,94). As respostas de adesão insuficiente do WebAd-Q associaram-se à carga viral detectável. Foram obtidas correlações moderadas da carga viral com escala de adesão insuficiente segundo o WebAd-Q. Para as três perguntas do WebAd-Q, pacientes com respostas de adesão insuficiente foram também apontados como menos aderentes segundo as demais medidas de adesão.</p>
+											</list-item>
+											<list-item>
+												<p>O WebAd-Q atendeu aos principais requesitos de validação de questionários, apresentou elevada compreensão dos participantes e, associação com a carga viral, bem como obteve concordância e bom desempenho em comparação a medidas concorrentes.</p>
+											</list-item>
+										</list>
+									</td>
+									<td align="center">
+										<list list-type="order">
+											<list-item>
+												<p>Não é um estudo representativo Nacional.</p>
+											</list-item>
+											<list-item>
+												<p>Perda amostral que pode ter reduzido o poder estatístico do estudo.</p>
+											</list-item>
+											<list-item>
+												<p>Efeito Hawthorne.</p>
+											</list-item>
+										</list>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</table-wrap>
+				</p>
+				<p>Em síntese, todos os estudos incluídos nesta revisão validaram seus instrumentos, indicando valores estatisticamente aceitáveis no que tange às qualidades psicométricas de cada instrumento. O principal viés/limitação observado foi a especificidade da amostra, ou seja, sugerem cautela no uso dos instrumentos ao verificar a adesão à terapia por pessoas de outras regiões do Brasil.</p>
+			</sec>
+			<sec sec-type="discussion">
+				<title>DISCUSSÃO</title>
+				<p>Realizar o mapeamento dos instrumentos de medida da adesão à terapia antirretroviral por pessoas vivendo com HIV, validados no Brasil, norteou esta revisão de escopo. Até onde sabemos, este é o primeiro estudo que reuniu as estratégias passíveis de utilização no Brasil. A identificação desses instrumentos é o principal achado do nosso estudo, que poderá orientar a produção de conhecimento relevante para o planejamento e gestão do serviço de saúde. Esta revisão avança ainda no campo da adesão à TARV ao analisar e compilar os instrumentos, que a partir dos resultados obtidos, podem ser interpretados de forma precisa e segura, a luz do rigor psicométrico de cada proposta.</p>
+				<p>Considerando o impacto positivo na qualidade de vida das pessoas vivendo com HIV que apresentam adequada adesão à terapia antirretroviral, bem como os prejuízos da irregularidade ou descontinuação do tratamento, é importante destacar que a adesão é um processo colaborativo vinculado ao princípio da autonomia que implica na participação ativa do paciente no cuidado com sua saúde. Essa cooperação entre a pessoa vivendo com HIV e a equipe multiprofissional promove a aceitação e a incorporação do esquema terapêutico no cotidiano de seu tratamento<sup><xref ref-type="bibr" rid="B31">31</xref></sup>.</p>
+				<p>Em estudos envolvendo a saúde pública no Brasil, os instrumentos apresentados nesta revisão<sup><xref ref-type="bibr" rid="B28">28</xref></sup>podem melhorar a compreensão da prevalência, incidência e fatores de risco para a adesão insuficiente à TARV, bem como proposição de estratégias para melhorar à adesão medicamentosa. Além disso, a utilização de instrumentos validados contribuirá para intervenções de profissionais da saúde no cuidado e melhores resultados sobre o bem-estar geral das pessoas vivendo com HIV. As perguntas dos instrumentos incluídos em nossa revisão contemplam os cinco determinantes que atuam negativa ou positivamente na adesão a tratamentos de longa duração estabelecidos pela Organização Mundial da Saúde: fatores sociais e econômicos, relacionados ao sistema/equipe de saúde, ao tratamento, à doença, e ao paciente<sup><xref ref-type="bibr" rid="B13">13</xref></sup>.</p>
+				<p>O “Cuestionario para la Evaluación de la Adhesión al Tratamiento Antirretroviral” (CEAT-VIH), construído em 2002<sup><xref ref-type="bibr" rid="B32">32</xref></sup>, é um instrumento simplificado que contempla 20 perguntas e aplicável a pessoas adultas vivendo com o HIV. Além de sua validação no Brasil<sup><xref ref-type="bibr" rid="B28">28</xref></sup>, o CEAT-VIH foi validado no Canadá<sup><xref ref-type="bibr" rid="B33">33</xref></sup>, Portugal<sup><xref ref-type="bibr" rid="B34">34</xref></sup> e Peru<sup><xref ref-type="bibr" rid="B35">35</xref></sup>, indicando sua utilidade e validade para avaliar a adesão à terapia antirretroviral em diferentes contextos. No estudo de validação no Brasil, foi observado uma associação significativa e positiva entre o número de comprimidos e a carga viral (r = 0,32; p = 0,01), indicando que a quantidade de comprimidos da terapia pode ser um aspecto dificultador para a adesão ao tratamento. A administração de um número ≤ 10 comprimidos está associada à melhor adesão. Observou-se ainda associação inversa significativa entre o grau de adesão à terapia antirretroviral e a carga viral, (r = -0,48; p = 0,000). O ponto de corte ótimo sugerido pela análise é de ≥ 76. Valores abaixo indicam adesão insuficiente ao tratamento e associação a uma carga viral detectável. A carga viral é o indicador clínico mais adotado em estudos que avaliam a precisão de instrumentos para avaliar a adesão à TARV, indicando a relevância da adesão medicamentosa para um melhor prognóstico de recuperação da doença<sup><xref ref-type="bibr" rid="B17">17</xref>,<xref ref-type="bibr" rid="B36">36</xref></sup>. A maioria dos itens do CEAT-VIH cumpriu os critérios de qualidade esperados e não houve valores perdidos, o que indica que todas as perguntas foram compreendidas pelos pacientes e puderam ser respondidas.</p>
+				<p>Alguns estudos nacionais utilizaram o CEAT-VIH, como o desenvolvido na cidade de Fortaleza (CE)<sup><xref ref-type="bibr" rid="B37">37</xref></sup>, outro na região centro-oeste do estado do Rio Grande do Sul<sup><xref ref-type="bibr" rid="B38">38</xref></sup>, e em cinco serviços de assistência especializada no estado de Pernambuco<sup><xref ref-type="bibr" rid="B39">39</xref></sup>. Nesses diferentes contextos, observou-se baixa adesão à terapia antirretroviral. Uma realidade que legitima o uso do CEAT-VIH enquanto ferramenta a ser utilizada pelos profissionais da saúde no planejamento do cuidado e intervenção nas situações que interferem na adesão.</p>
+				<p>Até o presente momento, o estudo de validação e reprodutibilidade de uma escala de autoeficácia para adesão à TARV em pais ou cuidadores de crianças e adolescentes vivendo com HIV/Aids é o primeiro no contexto brasileiro. A boa consistência interna da escala na amostra total de crianças e adolescentes (α = 0,87) evidenciou alta associação entre os itens da escala, sugerindo que ela é confiável para medir autoeficácia em crianças e adolescentes com HIV/Aids, considerando a perspectiva dos pais/cuidadores. Também foi observado que as crianças/adolescentes aderentes à terapia antirretroviral têm maior expectativa de autoeficácia do que aqueles com adesão insuficiente, indicando que uma maior autoeficácia está associada a melhores respostas dos linfócitos TCD 4+ (r = 0,28; p = 0,040). É sugerido no artigo de validação que na rotina clínica seja utilizado o escore 2 de autoeficácia, pois é calculado por uma fórmula pré-definida e facilmente aplicável. Já o escore 1 – também apresentado no artigo – é um escore composto pelas questões que mais se correlacionaram com as perguntas da própria escala, sendo necessário que o pesquisador tenha familiaridade com análise fatorial, além do uso de um pacote estatístico.</p>
+				<p>Alguns estudos nacionais utilizaram o escore 2 da escala de autoeficácia para avaliar a adesão de crianças e adolescentes à terapia antirretroviral, dentre eles um estudo realizado em Brasilia-DF<sup><xref ref-type="bibr" rid="B40">40</xref></sup>e outro na cidade de São Paulo<sup><xref ref-type="bibr" rid="B41">41</xref></sup>. No estudo publicado em 2010<sup><xref ref-type="bibr" rid="B40">40</xref></sup>, observaram-se dificuldades relacionadas com a ingestão de medicamentos fora do ambiente doméstico, a perda de doses, e com atrasos na ingestão do medicamento. Já no estudo publicado em 2012<sup><xref ref-type="bibr" rid="B41">41</xref></sup>, foi identificada alta taxa de adesão à TARV, independentemente do perfil sociodemográfico dos pais/cuidadores. A escala de autoeficácia para avaliar a adesão de crianças e adolescentes à terapia medicamentosa é constituída por 21 questões. Essa abrangência de informações possibilita um detalhamento maior dos aspectos dificultadores para a não adesão, bem como aqueles que facilitam a adesão terapêutica.</p>
+				<p>O instrumento WebAd-Q é um questionário autoaplicável desenvolvido em serviços de atenção à pessoa vivendo com HIV. No estudo de desenvolvimento e validação<sup><xref ref-type="bibr" rid="B30">30</xref></sup> foi observado alto nível de concordância teste-reteste e boa concordância entre as respostas e outros indicadores de adesão. Em semelhança aos dois outros instrumentos incluídos nesta revisão de escopo<sup><xref ref-type="bibr" rid="B28">28</xref>,<xref ref-type="bibr" rid="B29">29</xref></sup>, a escala de adesão insuficiente obtida pelo WebAd-Q apresentou associação moderada quando comparada ao desfecho clínico (carga viral), ou seja, quanto menor a adesão à terapia antirretroviral, maior a carga viral verificada. O WebAd-Q contempla apenas a dimensão paciente dentro dos cinco determinantes associados à adesão a tratamentos de longa duração estabelecidos pela Organização Mundial da Saúde<sup><xref ref-type="bibr" rid="B13">13</xref></sup>. Ele avalia a tomada de todos os medicamentos nos horários e doses prescritas durante a última semana, com boa fidedignidade.</p>
+				<p>O WebAd-Q foi utilizado para avaliar a adesão à TARV em um <italic>Survey</italic> de amostra não representativa, realizado nas cinco regiões do Brasil<sup><xref ref-type="bibr" rid="B42">42</xref></sup>. Foi observada alta proporção de não adesão à terapia antirretroviral. Os autores mencionam que o WebAd-Q é um instrumento de rápida aplicação, o que favorece na rotina de atendimento à pessoa vivendo como HIV, possibilitando a identificação de lacunas no fornecimento de aconselhamento e orientação sobre a terapia e permite, ainda, o desenvolvimento de estratégias inovadoras para prevenir a não adesão.</p>
+				<p>Destacamos os seguintes pontos fortes dos três estudos incluídos nesta revisão de escopo: (1) os instrumentos de medida envolvem perguntas simplificadas e objetivas, contribuindo para sua compreensão e facilitação da resposta; (2) Valores adequados do processo de validação da análise psicométrica, garantindo, assim, instrumentos validos e precisos para avaliarem a adesão de pessoas vivendo com HIV à terapia antirretroviral no Brasil; e (3) Capacidade de diagnóstico situacional referente à adesão terapêutica; os instrumentos possibilitam o monitoramento contínuo, contribuindo para a tomada de decisão junto com o paciente em prol da sua efetiva adesão à TARV.</p>
+				<p>Contudo os instrumentos apresentam também algumas fragilidades. No caso do CEAT-VIH<sup><xref ref-type="bibr" rid="B28">28</xref></sup>, o viés do tamanho amostral se apresenta como seu ponto fraco. Neste trabalho, não foi possível identificar se o tamanho amostral considerado é o ideal para estudos que envolvem validação de instrumentos. É importante lembrar que o ponto de corte estabelecido deve ser utilizado com cautela, devido ao fato de o questionário ser um instrumento autoaplicável. A proposta de validação e reprodutibilidade de uma escala de autoeficácia para adesão de crianças e adolescentes à TARV<sup><xref ref-type="bibr" rid="B29">29</xref></sup> considerou as respostas de pais ou cuidadores, e não a percepção da população alvo do estudo. Contudo, esse é até o momento o único instrumento validado no Brasil que avalia a adesão de crianças e adolescentes à terapia antirretroviral.</p>
+				<p>O instrumento WebAd-Q<sup><xref ref-type="bibr" rid="B30">30</xref></sup>, diferente dos outros dois estudos incluídos, considera apenas o determinante associado à adesão relacionado ao paciente. Por fim, por serem instrumentos autoaplicáveis, pode haver o efeito Hawthorne, ou seja, os respondentes podem ser influenciados em suas respostas ao considerar a presença e/ou possível “julgamento” do profissional que receberá as respostas referentes à adesão à TARV. Salienta-se o fato de os estudos serem validados em pessoas vivendo com HIV do Brasil, contudo, a abrangência no uso dos questionários deve ser compreendida com cautela, pois os instrumentos foram validados considerando a realidade de uma região ou serviço específico da nação. Nesse sentido, é necessário verificar a viabilidade no uso dos instrumentos no escopo de um estudo nacional, buscando refletir a heterogeneidade, tanto das pessoas em tratamento no país quanto das características dos serviços que as assistem.</p>
+				<p>Mesmo diante das limitações intrínsecas desta revisão, especialmente, considerando o elevado volume de trabalhos que utilizaram diferentes instrumentos de medida da adesão de pacientes à terapia antirretroviral no Brasil, apenas três foram validados a partir de análises psicométricas para o contexto nacional. Assim, a quantidade e as especificidades metodológicas de cada estudo identificado inviabilizam a comparação das realidades e contextos em que os instrumentos foram validados. Todavia, reforça a necessidade de investimentos adicionais; ou seja, na (re)utilização em diferentes cenários. Além disso, acreditamos que os resultados deste trabalho expressam um retrato da literatura científica nesse tempo e espaço, considerando a consulta às seis principais bases de dados para a compilação dos instrumentos de medida da adesão à TARV, validados no Brasil. Por segurança, foram incluídas as pesquisas nos servidores <italic>Preprints</italic> e na literatura cinza.</p>
+				<p>Destacamos que esta revisão de escopo foi capaz de reunir e apresentar, de forma simplificada e acessível, quais são os instrumentos validados no Brasil que avaliam a adesão de pessoas vivendo com HIV à terapia antirretroviral. Os estudos incluídos nesta revisão possibilitam a avaliação da adesão de crianças, adolescentes e adultos vivendo com HIV. Nesse sentido, os profissionais da saúde que atuam no cuidado a essas pessoas podem identificar e monitorar frequentemente a sua adesão e propor estratégias específicas para cada pessoa, no intuito de consolidar a boa adesão e intervir no tratamento daqueles não engajados à terapia. Em síntese, a utilização de instrumentos validados para medir a adesão a tratamentos de longa duração pode subsidiar a ação de medidas públicas, bem como, determinar a influência ou não dos determinantes que atuam negativamente na adesão, conforme estabelecido pela Organização Mundial da Saúde.</p>
+			</sec>
+			<sec sec-type="conclusions">
+				<title>CONCLUSÃO</title>
+				<p>Os instrumentos para avaliar a adesão de pessoas vivendo com HIV à terapia antirretroviral incluídos nesta revisão de escopo são estratégias validadas para o contexto brasileiro. Todavia há que se expandir a (re)utilização em diferentes cenários e contextos da nação. A utilização desses instrumentos por profissionais da saúde, pode melhorar a compreensão dos fatores que atuam negativa ou positivamente na adesão à TARV, e a proposição de estratégias com o objetivo de consolidar a boa adesão e intervir no tratamento de pacientes com baixo engajamento terapêutico. Ressalta-se a necessidade de estudos posteriores para o desenvolvimento de um instrumento para uso nacional, que tenha seu processo de validação em mais cidades e regiões do Brasil.</p>
+			</sec>
+		</body>
+		<back>
+			<fn-group>
+				<fn fn-type="financial-disclosure" id="fn2002">
+					<p>Financiamento: Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Brasil (Capes - Código de Financiamento 001). Programa Nacional de Pós-doutorado (Processo 88882.317622/2019-01).</p>
+				</fn>
+			</fn-group>
+		</back>
+	</sub-article>
+</article>

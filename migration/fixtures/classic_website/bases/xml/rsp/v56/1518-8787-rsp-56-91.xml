@@ -1,0 +1,2712 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.1" specific-use="sps-1.9" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="nlm-ta">Rev Saude Publica</journal-id>
+			<journal-id journal-id-type="publisher-id">rsp</journal-id>
+			<journal-title-group>
+				<journal-title>Revista de Saúde Pública</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Rev. Saúde Pública</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="ppub">0034-8910</issn>
+			<issn pub-type="epub">1518-8787</issn>
+			<publisher>
+				<publisher-name>Faculdade de Saúde Pública da Universidade de São Paulo</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="other">00275</article-id>
+			<article-id pub-id-type="doi">10.11606/s1518-8787.2022056004132</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Original Article</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Association between socioeconomic level and cardiovascular risk in the Peruvian population</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-1604-8968</contrib-id>
+					<name>
+						<surname>Cerpa-Arana</surname>
+						<given-names>Stefany Katherine</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-7809-2070</contrib-id>
+					<name>
+						<surname>Rimarachín-Palacios</surname>
+						<given-names>Lourdes Magaly</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-6834-1376</contrib-id>
+					<name>
+						<surname>Bernabé-Ortiz</surname>
+						<given-names>Antonio</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>I</label>
+				<institution content-type="orgname">Universidad Científica del Sur</institution>
+				<institution content-type="orgdiv1">Facultad de Ciencias de la Salud</institution>
+				<addr-line>
+					<named-content content-type="city">Lima</named-content>
+				</addr-line>
+				<country country="PE">Perú</country>
+				<institution content-type="original"> Universidad Científica del Sur . Facultad de Ciencias de la Salud . Lima , Lima, Perú </institution>
+			</aff>
+			<aff id="aff2">
+				<label>II</label>
+				<institution content-type="orgname">Universidad Peruana Cayetano Heredia</institution>
+				<institution content-type="orgdiv1">Centro de Excelencia en Enfermedades Crónicas</institution>
+				<addr-line>
+					<named-content content-type="city">Lima</named-content>
+				</addr-line>
+				<country country="PE">Perú</country>
+				<institution content-type="original"> Universidad Peruana Cayetano Heredia . Centro de Excelencia en Enfermedades Crónicas . Lima , Lima, Perú </institution>
+			</aff>
+			<author-notes>
+				<corresp id="c01">Correspondence: Antonio Bernabe-Ortiz Universidad Científica del Sur Carr Panamericana Sur, km 19 Villa El Salvador, Lima, Perú E-mail: <email>abernabeo@cientifica.edu.pe</email>
+				</corresp>
+				<fn fn-type="con">
+					<p>Authors’ Contribution: Study design and planning: SKC-A, LMR-P, AB-O. Data collection, analysis and interpretation: SKC-A, LMR-P, AB-O. Drafting or revising the manuscript: SKC-A, LMR-P, AB-O. Approval of the final version: SKC-A, LMR-P, AB-O. Public responsibility for the article content: AB-O.</p>
+				</fn>
+				<fn fn-type="conflict">
+					<p>Conflict of Interest: The authors declare no conflict of interest.</p>
+				</fn>
+			</author-notes>
+			<pub-date date-type="pub" publication-format="electronic">
+				<day>24</day>
+				<month>10</month>
+				<year>2022</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">
+				<year>2022</year>
+			</pub-date>
+			<volume>56</volume>
+			<elocation-id>91</elocation-id>
+			<history>
+				<date date-type="received">
+					<day>10</day>
+					<month>08</month>
+					<year>2021</year>
+				</date>
+				<date date-type="accepted">
+					<day>22</day>
+					<month>11</month>
+					<year>2021</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="en">
+					<license-p>This is an Open Access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>ABSTRACT</title>
+				<sec>
+					<title>OBJECTIVE</title>
+					<p>To determine the association between socioeconomic level and the presence of obesity, hypertension and type 2 diabetes mellitus in the Peruvian population.</p>
+				</sec>
+				<sec>
+					<title>METHODS</title>
+					<p>Secondary analysis of data from the National Demographic and Family Health Survey ( <italic>Encuesta Nacional Demográfica y de Salud Familiar</italic> , Endes) from 2018 to 2020. The outcomes were obesity, hypertension, and type 2 diabetes mellitus. The exposure variables were two indicators of socioeconomic status: educational level (&lt; 7 years, 7–11 years, and 12+ years) and wealth index (in tertiles). Models were created using Poisson regression, reporting prevalence ratios (PR) and 95% confidence intervals (95%CI).</p>
+				</sec>
+				<sec>
+					<title>RESULTS</title>
+					<p>Data from 98,846 subjects were analyzed. Mean age: 45.3 (SD: 16.0) years, and 55.5% were women. The prevalence of obesity was 26.0% (95%CI: 25.4–26.6); of hypertension, 24.9% (95%CI: 24.3–25.5); and of type 2 diabetes mellitus, 4.8% (95%CI: 4.5–5.1). In multivariate model, and compared with those with a low wealth index, those with a high wealth index had a higher prevalence of obesity (PR = 1.49; 95%CI: 1.38–1.62), hypertension (PR = 1.09; 95%CI: 1.02–1.17) and type 2 diabetes mellitus (PR = 1.72; 95%CI: 1.29–2.29). On the other hand, higher educational level was only associated with a reduction in the prevalence of obesity (PR = 0.89; 95%CI: 0.84–0.95).</p>
+				</sec>
+				<sec>
+					<title>CONCLUSIONS</title>
+					<p>There is a differential association between the wealth index, educational level and markers of noncommunicable diseases. There is evidence of a positive association between wealth index and obesity, hypertension and type 2 diabetes mellitus, whereas educational level was only negatively associated with obesity.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="en">
+				<kwd>Chronic Disease, epidemiology</kwd>
+				<kwd>Heart Disease Risk Factors</kwd>
+				<kwd>Risk Factors</kwd>
+				<kwd>Socioeconomic Factors</kwd>
+				<kwd>Peru</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="0"/>
+				<table-count count="6"/>
+				<equation-count count="0"/>
+				<ref-count count="30"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>INTRODUCTION</title>
+			<p>Chronic noncommunicable diseases, including obesity, hypertension and type 2 diabetes mellitus, are on the rise, especially in low- and middle-income countries <sup><xref ref-type="bibr" rid="B1">1</xref></sup> . In Latin America, the situation is not different, and despite the existing heterogeneity, cases of obesity and type 2 diabetes mellitus have increased <sup><xref ref-type="bibr" rid="B4">4</xref></sup> .</p>
+			<p>In Peru, approximately 22.3% of the population suffers from obesity, and almost 14% have high blood pressure according to the results of the 2019 National Demographic and Health Survey <sup><xref ref-type="bibr" rid="B5">5</xref></sup> . The prevalence of type 2 diabetes mellitus reaches 7% at the national level <sup><xref ref-type="bibr" rid="B6">6</xref></sup> , with heterogeneous results between regions. Many noncommunicable diseases are determined by the interaction of genetic and metabolic factors, as well as risk factors, such as poor diet, low levels of physical activity, and aging <sup><xref ref-type="bibr" rid="B7">7</xref></sup> . All these behavioral changes have been associated with the epidemiological and nutritional transition that include social and economic growth, urbanization, globalization of technologies and food production, implying changes in the causes of morbidity and mortality in the population <sup><xref ref-type="bibr" rid="B8">8</xref></sup> .</p>
+			<p>Socioeconomic level is a total measure combining the economic and sociological part of a person’s attaintment <sup><xref ref-type="bibr" rid="B9">9</xref></sup> . This indicator can be used as a surrogate to assess the distribution of certain health risk factors, and to give an idea of the transition phase in which a given population is ongoing <sup><xref ref-type="bibr" rid="B10">10</xref></sup> . For example, the increase in the prevalence of obesity has been unequal when evaluated according to socioeconomic strata in different Latin American contexts <sup><xref ref-type="bibr" rid="B11">11</xref></sup> . On the other hand, although there are several indicators to determine socioeconomic status, two of them are the most commonly used, including educational level and wealth index <sup><xref ref-type="bibr" rid="B9">9</xref></sup> .</p>
+			<p>Thus, the present study aimed to evaluate the association at the population level between socioeconomic level, assessed using educational level and the wealth index, and the prevalence of cardiovascular risk factors (obesity, hypertension, and type 2 diabetes mellitus).</p>
+		</sec>
+		<sec sec-type="methods">
+			<title>METHODS</title>
+			<sec>
+				<title>Study Design</title>
+				<p>A secondary analysis was conducted using information from the National Demographic and Family Health Survey (Endes) <sup><xref ref-type="bibr" rid="B12">12</xref></sup> . The Endes is a population-based survey with national and regional representativeness, which is conducted annually by the National Institute of Statistics and Informatics ( <italic>Instituto Nacional de Estadística e Informática</italic> , INEI) in the 25 regions of Peru, and includes variables on poverty, fertility, violence and health. Since 2014, a specific module for noncommunicable diseases was included, and information from 2018 to 2020 was used for the present analysis.</p>
+			</sec>
+			<sec>
+				<title>Selection of Participants and Sampling</title>
+				<p>The selection criteria for participants were to be aged ≥ 20 years, and able to consent to their participation in the study. Pregnant women were excluded from the present analysis.</p>
+				<p>The Endes sampling followed a two-stage random approach. In rural areas, the primary sampling units are clusters of 500 to 2,000 subjects, while the secondary sampling units are households within clusters. In urban areas, the primary sampling units are blocks or groups of blocks with more than 2,000 subjects, and an average of 140 households, and the secondary sampling units are households as in rural areas <sup><xref ref-type="bibr" rid="B12">12</xref></sup> .</p>
+			</sec>
+			<sec>
+				<title>Sample Size and Power</title>
+				<p>To calculate the statistical power of this study, the OpenEpi <sup><xref ref-type="bibr" rid="B13">13</xref></sup> program was used, assuming a distribution of approximately one-third of the population in each socioeconomic level, and a difference in the prevalence of the event of interest of at least 5% (e.g., 14% obesity in the lower socioeconomic level versus 19% in the upper level) between groups to be compared. At a 95% confidence level, a power greater than 99% was obtained to find the associations of interest.</p>
+			</sec>
+			<sec>
+				<title>Definition of Variables</title>
+				<p>Three were the outcomes of interest: obesity, arterial hypertension, and type 2 diabetes mellitus. Obesity was defined as a body mass index (BMI) ≥ 30 kg/m <sup>2</sup> according to international guidelines <sup><xref ref-type="bibr" rid="B14">14</xref></sup> . The presence of hypertension was characterized by a systolic blood pressure ≥ 140 mm Hg or diastolic ≥ 90 mm Hg or as a self-reported prior diagnosis according to the JNC-7. Finally, and given that the Endes does not collect blood samples for fasting blood glucose, the presence of type 2 diabetes mellitus was defined according to a self-reported previous physician diagnosis.</p>
+				<p>The exposure variable of interest was the socioeconomic level, evaluated based on two indicators: educational level and wealth index. In the case of educational level, the years of education, reported by the participant, were used and then categorized into &lt; 7 years (compatible with completed primary school), between 7 and 11 years (compatible with completed secondary school), and ≥ 12 years (compatible with higher education). On the other hand, the wealth index is a composite measure of the standard of living in a household. It is calculated in a simple way with data collected on the respondent’s household assets and services (e.g., television, bicycle, roof, wall, floor material, etc.). This procedure is based on DHS Program techniques that are almost common to all countries participating in such program <sup><xref ref-type="bibr" rid="B15">15</xref></sup> . All these indicators were weighted, constructing a numerical wealth index that was subsequently categorized into tertiles (low, medium and high) for this analysis.</p>
+				<p>Other variables were also evaluated as potential confounders of the associations of interest. These included: sex (male <italic>versus</italic> female), age (in years, categorized into 20-40, 40-59, and ≤ 60 years), geographic setting (rural <italic>versus</italic> urban), altitude, defined based on meters above sea level (masl) of the individual’s area of residence, and further categorized (&lt; 501, 501–2,500, and ≥ 2,501 masl), and the year in which the Endes was conducted. This last variable was introduced to account for variations in results due to the effect of the Covid-19 pandemic.</p>
+			</sec>
+			<sec>
+				<title>Procedures</title>
+				<p>For the Endes’ data collection, there were several fieldwork teams, each consisting of a supervisor and fieldworkers, who were trained and standardized by the INEI staff. In recent years, data collection was done using tablets, but in 2020 it was done by telephone calls.</p>
+				<p>After the participants’ consent, data were collected using the different Endes questionnaires and instruments. Weight and height were collected with the use of scales and stadiometers calibrated by the supervisors in the study field. Blood pressure was evaluated using the OMRON automatic monitor, model HEM-713, with appropriate cuffs according to arm circumference. The blood pressure measurement was performed in duplicate, with the participant seated and the arm resting at the heart level. The first measurement was taken after a resting period of 5 minutes; and the second one, two minutes after the first measurement <sup><xref ref-type="bibr" rid="B16">16</xref></sup> .</p>
+			</sec>
+			<sec>
+				<title>Statistical analysis</title>
+				<p>Stata v.16.0 (StataCorp, College Station, TX, USA) was used for statistical analysis, and the complex sampling of the study was taken into consideration for all estimates. Initially, the population characteristics were described according to socioeconomic level (educational level and wealth index), and the outcomes of interest (obesity, hypertension and type 2 diabetes mellitus). A comparison of missing values by variable and year of the Endes was also performed, because a greater loss of data in anthropometric markers was expected in 2020 due to the Covid-19 pandemic. For comparisons, the Chi-squared test was applied according to study design with the Rao-Scott second-order correction for categorical variables. In addition, the prevalence of these outcomes was estimated and reported with their respective 95% confidence intervals (95%CI).</p>
+				<p>Finally, in order to evaluate the association between socioeconomic level (educational level and wealth index) and the outcome variables, crude and adjusted models were created using Poisson regression, with robust variance, reporting the prevalence ratio (PR) and their corresponding 95% confidence intervals (95%CI). The multivariate models were adjusted for sex, age, geographical area, altitude and year of the Endes. The variance inflation factor (VIF) was used to determine the presence of collinearity due to the multiple variables included in the model; however, all values were less than 5.</p>
+			</sec>
+			<sec>
+				<title>Ethics</title>
+				<p>The Endes database is publicly accessible. The INEI staff ensured the voluntary and informed participation of respondents through informed consent. The research protocol of this study was reviewed and approved by the Ethics Committee of the <italic>Universidad Científica del Sur</italic> complying with the Declaration of Helsinki (code: 726-2019-PRE15).</p>
+			</sec>
+		</sec>
+		<sec sec-type="results">
+			<title>RESULTS</title>
+			<sec>
+				<title>Characteristics of the Study Population</title>
+				<p>A total of 109,363 available records came from the 2018, 2019, and 2020 Endes. However, 10,517 (9.6%) records were excluded because they did not meet the inclusion criteria (9,364 because they were younger than 20 years, and 1,153 because they were pregnant women). Thus, a total of 98,846 records were analyzed, with a mean age of 45.3 years (SD: 16.0) and 52,259 (55.5%) females. Of note, a large number of missing data in the measurement of body mass index and blood pressure was found in 2020, especially due restrictions imposed by the Covid-19 pandemic.</p>
+			</sec>
+			<sec>
+				<title>Population Description According to Educational Level and Well-Being Index</title>
+				<p>According to the results in <xref ref-type="table" rid="t1">Table 1</xref> , those with high wealth index were mostly female (p &lt; 0.001), younger than 40 years (p &lt; 0.001), from urban area (p &lt; 0.001) and from sites below 500 masl (p &lt; 0.001). On the other hand, those with higher educational level were mostly female (p &lt; 0.001), younger than 40 years (p &lt; 0.001), from urban area (p &lt; 0.001), and from sites below 500 masl (p &lt; 0.001).</p>
+				<p>
+					<table-wrap id="t1">
+						<label>Table 1</label>
+						<caption>
+							<title>Population description according to well-being index and educational level taking into account the study design.</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left" rowspan="5" style="font-weight:normal">
+									</th>
+									<th colspan="4">Well-being index</th>
+									<th colspan="4">Educational level</th>
+								</tr>
+								<tr>
+									<th colspan="4">
+										<hr/>
+									</th>
+									<th colspan="4">
+										<hr/>
+									</th>
+								</tr>
+								<tr>
+									<th>Low</th>
+									<th>Medium</th>
+									<th>High</th>
+									<th rowspan="3">p</th>
+									<th>&lt; 7 years</th>
+									<th>7–11 years</th>
+									<th>≥ 12 years</th>
+									<th rowspan="3">p</th>
+								</tr>
+								<tr>
+									<th>
+										<hr/>
+									</th>
+									<th>
+										<hr/>
+									</th>
+									<th>
+										<hr/>
+									</th>
+									<th>
+										<hr/>
+									</th>
+									<th>
+										<hr/>
+									</th>
+									<th>
+										<hr/>
+									</th>
+								</tr>
+								<tr>
+									<th>(n = 31,061) n (%)</th>
+									<th>(n = 31,236) n (%)</th>
+									<th>(n = 31,948) n (%)</th>
+									<th>(n = 25,783) n (%)</th>
+									<th>(n = 36,333) n (%)</th>
+									<th>(n = 27,960) n (%)</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Sex</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Female</td>
+									<td align="center">16,934 (54.1)</td>
+									<td align="center">17,426 (54.6)</td>
+									<td align="center">17,899 (56.7)</td>
+									<td align="center" rowspan="2">&lt; 0.001</td>
+									<td align="center">15,753 (61.8)</td>
+									<td align="center">18,941 (50.9)</td>
+									<td align="center">15,316 (53.6)</td>
+									<td align="center" rowspan="2">&lt; 0.001</td>
+								</tr>
+								<tr>
+									<td>Male</td>
+									<td align="center">13,719 (45.9)</td>
+									<td align="center">13,207 (45.4)</td>
+									<td align="center">12,911 (43.3)</td>
+									<td align="center">9,895 (38.2)</td>
+									<td align="center">17,058 (49.1)</td>
+									<td align="center">12,379 (46.4)</td>
+								</tr>
+								<tr>
+									<td>Age (in years)</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>20–40</td>
+									<td align="center">14,913 (40.4)</td>
+									<td align="center">18,450 (49.0)</td>
+									<td align="center">16,238 (41.8)</td>
+									<td align="center" rowspan="3">&lt; 0.001</td>
+									<td align="center">8,064 (22.6)</td>
+									<td align="center">23,046 (49.8)</td>
+									<td align="center">18,420 (55.6)</td>
+									<td align="center" rowspan="3">&lt; 0.001</td>
+								</tr>
+								<tr>
+									<td>40–59</td>
+									<td align="center">9,335 (33.3)</td>
+									<td align="center">8,590 (33.3)</td>
+									<td align="center">9,862 (34.6)</td>
+									<td align="center">9,691 (38.3)</td>
+									<td align="center">10,181 (35.3)</td>
+									<td align="center">7,348 (30.7)</td>
+								</tr>
+								<tr>
+									<td>≥ 60</td>
+									<td align="center">6,547 (26.3)</td>
+									<td align="center">3,817 (17.7)</td>
+									<td align="center">5,101 (23.5)</td>
+									<td align="center">8,028 (39.1)</td>
+									<td align="center">3,106 (14.9)</td>
+									<td align="center">2,192 (13.7)</td>
+								</tr>
+								<tr>
+									<td>Geographic area</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Rural</td>
+									<td align="center">25,631 (79.4)</td>
+									<td align="center">5,923 (13.4)</td>
+									<td align="center">780 (1.2)</td>
+									<td align="center" rowspan="2">&lt; 0.001</td>
+									<td align="center">15,687 (46.9)</td>
+									<td align="center">11,326 (18.4)</td>
+									<td align="center">3,063 (5.5)</td>
+									<td align="center" rowspan="2">&lt; 0.001</td>
+								</tr>
+								<tr>
+									<td>Urban</td>
+									<td align="center">5,430 (20.6)</td>
+									<td align="center">25,313 (86.6)</td>
+									<td align="center">31,168 (98.8)</td>
+									<td align="center">10,096 (53.1)</td>
+									<td align="center">25,007 (81.6)</td>
+									<td align="center">24,897 (94.5)</td>
+								</tr>
+								<tr>
+									<td>Altitude (masl)</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>&lt; 501</td>
+									<td align="center">7,548 (26.1)</td>
+									<td align="center">17,121 (63.0)</td>
+									<td align="center">21,422 (79.6)</td>
+									<td align="center" rowspan="3">&lt; 0.001</td>
+									<td align="center">9,199 (46.6)</td>
+									<td align="center">19,639 (67.4)</td>
+									<td align="center">15,809 (71.7)</td>
+									<td align="center" rowspan="3">&lt; 0.001</td>
+								</tr>
+								<tr>
+									<td>501–2,500</td>
+									<td align="center">6,371 (22.2)</td>
+									<td align="center">6,250 (15.6)</td>
+									<td align="center">6,101 (11.1)</td>
+									<td align="center">5,587 (19.9)</td>
+									<td align="center">6,742 (14.1)</td>
+									<td align="center">5,670 (12.7)</td>
+								</tr>
+								<tr>
+									<td>&gt; 2,501</td>
+									<td align="center">17,142 (51.7)</td>
+									<td align="center">7,865 (21.4)</td>
+									<td align="center">4,425 (9.3)</td>
+									<td align="center">10,997 (34.5)</td>
+									<td align="center">9,952 (18.5)</td>
+									<td align="center">6,481 (15.6)</td>
+								</tr>
+								<tr>
+									<td>Year of the Endes</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>2018</td>
+									<td align="center">10,554 (34.2)</td>
+									<td align="center">10,546 (34.2)</td>
+									<td align="center">10,831 (33.5)</td>
+									<td align="center" rowspan="3">0.19</td>
+									<td align="center">8,450 (33.7)</td>
+									<td align="center">12,160 (33.0)</td>
+									<td align="center">9,377 (33.0)</td>
+									<td align="center" rowspan="3">0.01</td>
+								</tr>
+								<tr>
+									<td>2019</td>
+									<td align="center">10,368 (34.0)</td>
+									<td align="center">10,461 (33.3)</td>
+									<td align="center">10,684 (33.1)</td>
+									<td align="center">8,275 (32.1)</td>
+									<td align="center">11,713 (31.5)</td>
+									<td align="center">9,339 (33.4)</td>
+								</tr>
+								<tr>
+									<td>2020</td>
+									<td align="center">10,139 (31.8)</td>
+									<td align="center">10,229 (32.5)</td>
+									<td align="center">10,433 (33.4)</td>
+									<td align="center">9,058 (34.2)</td>
+									<td align="center">12,460 (35.5)</td>
+									<td align="center">9,244 (33.6)</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN1">
+								<p>Endes: <italic>Encuesta Nacional Demográfica y de Salud Familiar</italic> (National Demographic and Family Health Survey); masl: meters above sea level.</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+			</sec>
+			<sec>
+				<title>Population Description according to Cardiovascular Risk</title>
+				<p>The prevalence of obesity was 26.0% (95%CI: 25.4–26.6), and this prevalence was higher in women than in men (p &lt; 0.001), in those between 40 and 59 years of age (p &lt; 0.001), in urban residents (p &lt; 0.001), in those living below 500 masl (p &lt; 0.001), in those with 7–11 years of education (p &lt; 0.001), and in those with higher wealth index (p &lt; 0.001) ( <xref ref-type="table" rid="t2">Table 2</xref> ).</p>
+				<p>
+					<table-wrap id="t2">
+						<label>Table 2</label>
+						<caption>
+							<title>Population description according to cardiovascular risk (obesity, hypertension and type 2 diabetes mellitus) taking into account the study design.</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left" rowspan="3" style="font-weight:normal">
+									</th>
+									<th colspan="2">Obesity</th>
+									<th colspan="2">High blood pressure</th>
+									<th colspan="2">Diabetes mellitus type 2</th>
+								</tr>
+								<tr>
+									<th colspan="2">
+										<hr/>
+									</th>
+									<th colspan="2">
+										<hr/>
+									</th>
+									<th colspan="2">
+										<hr/>
+									</th>
+								</tr>
+								<tr>
+									<th>(n = 19,939/80,943)</th>
+									<th>p</th>
+									<th>(n = 14,946/77,332)</th>
+									<th>p</th>
+									<th>(n = 3,083/90,401)</th>
+									<th>p</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Sex</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Female</td>
+									<td align="center">13,193/45,903 (29.4)</td>
+									<td align="center" rowspan="2">&lt; 0.001</td>
+									<td align="center">7,570/43,870 (22.9)</td>
+									<td align="center" rowspan="2">&lt; 0.001</td>
+									<td align="center">1,787/50,600 (4.9)</td>
+									<td align="center" rowspan="2">0.36</td>
+								</tr>
+								<tr>
+									<td>Male</td>
+									<td align="center">6,746/35,040 (21.6)</td>
+									<td align="center">7,376/33,462 (27.4)</td>
+									<td align="center">1,296/39,801 (4.7)</td>
+								</tr>
+								<tr>
+									<td>Age (years)</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>20–40</td>
+									<td align="center">9,719/43,473 (21.6)</td>
+									<td align="center" rowspan="3">&lt; 0.001</td>
+									<td align="center">3,155/41,582 (8.6)</td>
+									<td align="center" rowspan="3">&lt; 0.001</td>
+									<td align="center">444/48,083 (1.1)</td>
+									<td align="center" rowspan="3">&lt; 0.001</td>
+								</tr>
+								<tr>
+									<td>40–59</td>
+									<td align="center">7,257/23,886 (32.0)</td>
+									<td align="center">5,416/22,761 (26.3)</td>
+									<td align="center">1,311/27,127 (5.5)</td>
+								</tr>
+								<tr>
+									<td>≥ 60</td>
+									<td align="center">2,963/13,584 (25.5)</td>
+									<td align="center">6,375/12,989 (54.4)</td>
+									<td align="center">1,328/15,191 (10.9)</td>
+								</tr>
+								<tr>
+									<td>Geographic area</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Rural</td>
+									<td align="center">4,507/28,188 (15.7)</td>
+									<td align="center" rowspan="2">&lt; 0.001</td>
+									<td align="center">4,898/26,807 (21.1)</td>
+									<td align="center" rowspan="2">&lt; 0.001</td>
+									<td align="center">6,06/31,577 (2.2)</td>
+									<td align="center" rowspan="2">&lt; 0.001</td>
+								</tr>
+								<tr>
+									<td>Urban</td>
+									<td align="center">15,432/52,755 (29.0)</td>
+									<td align="center">10,048/50,525 (26.1)</td>
+									<td align="center">2,477/58,824 (5.6)</td>
+								</tr>
+								<tr>
+									<td>Altitude (masl)</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>&lt; 501</td>
+									<td align="center">11,822/39,460 (29.6)</td>
+									<td align="center" rowspan="3">&lt; 0.001</td>
+									<td align="center">7,877/37,959 (26.9)</td>
+									<td align="center" rowspan="3">&lt; 0.001</td>
+									<td align="center">1,991/43,827 (5.9)</td>
+									<td align="center" rowspan="3">&lt; 0.001</td>
+								</tr>
+								<tr>
+									<td>501–2,500</td>
+									<td align="center">4,039/16,137 (23.8)</td>
+									<td align="center">2,906/15,354 (23.4)</td>
+									<td align="center">585/18,038 (4.2)</td>
+								</tr>
+								<tr>
+									<td>&gt; 2,501</td>
+									<td align="center">4,078/25,346 (17.5)</td>
+									<td align="center">4,163/24,019 (20.5)</td>
+									<td align="center">507/28,536 (2.4)</td>
+								</tr>
+								<tr>
+									<td>Year of the Endes</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>2018</td>
+									<td align="center">7,460/30,895 (25.8)</td>
+									<td align="center" rowspan="3">0.05</td>
+									<td align="center">5,351/29,151 (23.5)</td>
+									<td align="center" rowspan="3">&lt; 0.001</td>
+									<td align="center">936/31,036 (4.3)</td>
+									<td align="center" rowspan="3">0.004</td>
+								</tr>
+								<tr>
+									<td>2019</td>
+									<td align="center">7,220/30,017 (25.4)</td>
+									<td align="center">5,090/28,382 (23.1)</td>
+									<td align="center">975/30.185 (4.8)</td>
+								</tr>
+								<tr>
+									<td>2020</td>
+									<td align="center">5,259/20,031 (27.1)</td>
+									<td align="center">4,505/19,799 (29.5)</td>
+									<td align="center">1,172/29.180 (5.4)</td>
+								</tr>
+								<tr>
+									<td>Education level (years)</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>&lt; 7</td>
+									<td align="center">5,029/22,477 (25.0%)</td>
+									<td align="center" rowspan="3">&lt; 0.001</td>
+									<td align="center">5,583/21,457 (31.8%)</td>
+									<td align="center" rowspan="3">&lt; 0.001</td>
+									<td align="center">1,027/25,245 (5.8%)</td>
+									<td align="center" rowspan="3">0.001</td>
+								</tr>
+								<tr>
+									<td>7–11</td>
+									<td align="center">8,351/31,629 (28.2%)</td>
+									<td align="center">4,813/30,313 (22.6%)</td>
+									<td align="center">1,065/35,440 (4.4%)</td>
+								</tr>
+								<tr>
+									<td>≥ 12</td>
+									<td align="center">6,193/24,138 (25.2%)</td>
+									<td align="center">3,595/23,093 (20.9%)</td>
+									<td align="center">884/27,008 (4.6%)</td>
+								</tr>
+								<tr>
+									<td>Well-being index</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Low</td>
+									<td align="center">3,986/26,919 (15.0%)</td>
+									<td align="center" rowspan="3">&lt; 0.001</td>
+									<td align="center">4,662/25,561 (21.5%)</td>
+									<td align="center" rowspan="3">&lt; 0.001</td>
+									<td align="center">517/30,339 (2.2%)</td>
+									<td align="center" rowspan="3">&lt; 0.001</td>
+								</tr>
+								<tr>
+									<td>Medium</td>
+									<td align="center">7,429/27,032 (27.4%)</td>
+									<td align="center">4,618/25,910 (22.6%)</td>
+									<td align="center">1,061/30,167 (4.4%)</td>
+								</tr>
+								<tr>
+									<td>High</td>
+									<td align="center">8,524/26,992 (30.3%)</td>
+									<td align="center">5,666/25,861 (28.0%)</td>
+									<td align="center">1,505/29,895 (6.3%)</td>
+								</tr>
+							</tbody>
+						</table>
+					</table-wrap>
+				</p>
+				<p>On the other hand, the prevalence of hypertension was 24.9% (95%CI: 24.3–25.5), with higher frequency in males (p &lt; 0.001), in those of older age (p &lt; 0.001), in residents of urban areas (p &lt; 0.001), in those living below 500 masl (p &lt; 0.001), in those with lower educational level (p &lt; 0.001), in those with higher wealth index (p &lt; 0.001), and in those evaluated in the year 2020 (p &lt; 0.001) ( <xref ref-type="table" rid="t2">Table 2</xref> ).</p>
+				<p>Finally, the prevalence of type 2 diabetes mellitus was 4.8% (95%CI: 4.5–5.1), and was more frequent in older participants (p &lt; 0.001), in residents of urban areas (p &lt; 0.001), in those living below 500 masl (p &lt; 0.001), in those with lower educational level (p &lt; 0.001), those with a higher wealth index (p &lt; 0.001), and in those evaluated in the year 2020 (p = 0.004) ( <xref ref-type="table" rid="t2">Table 2</xref> ).</p>
+			</sec>
+			<sec>
+				<title>Association between Socioeconomic Level, Educational Level and Cardiovascular Risk.</title>
+				<p>In multivariate model ( <xref ref-type="table" rid="t3">Table 3</xref> ), there was an association between socioeconomic level, assessed by the wealth index, and the presence of obesity, hypertension, and type 2 diabetes mellitus. Thus, compared with participants with a low wealth index, those with a high wealth being index had a 49% higher prevalence of obesity (PR = 1.49; 95%CI: 1.38–1.62). Similarly, those with high wealth index had higher prevalence of hypertension (PR = 1.09; 95%CI: 1.02–1.17) and type 2 diabetes mellitus (PR = 1.72; 95%CI: 1.29–2.29) compared to those with low wealth index. The same finding was valid for those with the medium wealth index, except in the case of hypertension.</p>
+				<p>
+					<table-wrap id="t3">
+						<label>Table 3</label>
+						<caption>
+							<title>Association between socioeconomic level and cardiovascular risk. Raw and adjusted models taking into account the study design.</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left" rowspan="3" style="font-weight:normal">
+									</th>
+									<th colspan="2">Obesity</th>
+									<th colspan="2">High blood pressure</th>
+									<th colspan="2">Diabetes mellitus type 2</th>
+								</tr>
+								<tr>
+									<th colspan="2">
+										<hr/>
+									</th>
+									<th colspan="2">
+										<hr/>
+									</th>
+									<th colspan="2">
+										<hr/>
+									</th>
+								</tr>
+								<tr>
+									<th>RP <sub>crude</sub> (95%CI)</th>
+									<th>RP <sub>crude</sub> <sup>a</sup> (95%CI)</th>
+									<th>RP <sub>crude</sub> (95%CI)</th>
+									<th>RP <sub>crude</sub> <sup>a</sup> (95%CI)</th>
+									<th>RP <sub>crude</sub> (95%CI)</th>
+									<th>RP <sub>crude</sub> <sup>a</sup> (95%CI)</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Education level (years)</td>
+									<td align="center">(n = 82,845)</td>
+									<td align="center">(n = 82,845)</td>
+									<td align="center">(n = 79,464)</td>
+									<td align="center">(n = 79,464)</td>
+									<td align="center">(n = 92,294)</td>
+									<td align="center">(n = 92,294)</td>
+								</tr>
+								<tr>
+									<td>&lt; 7 (ref.)</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>7–11</td>
+									<td align="center"><bold>1.13 (1.07</bold> – <bold>1.19)</bold></td>
+									<td align="center">1.04 (0.98–1.10)</td>
+									<td align="center"><bold>0.71 (0.67</bold> – <bold>0.75)</bold></td>
+									<td align="center">0.97 (0.92–1.02)</td>
+									<td align="center"><bold>0.76 (0.66</bold> – <bold>0.88)</bold></td>
+									<td align="center">0.98 (0.84–1.14)</td>
+								</tr>
+								<tr>
+									<td>≥ 12</td>
+									<td align="center">1.01 (0.95–1.07)</td>
+									<td align="center"><bold>0.89 (0.84</bold> – <bold>0.95)</bold></td>
+									<td align="center"><bold>0.66 (0.62</bold> – <bold>0.70)</bold></td>
+									<td align="center">0.94 (0.89–1.01)</td>
+									<td align="center"><bold>0.80 (0.69</bold> – <bold>0.92)</bold></td>
+									<td align="center">1.06 (0.91–1.23)</td>
+								</tr>
+								<tr>
+									<td>Well-being index</td>
+									<td align="center">(n = 85,544)</td>
+									<td align="center">(n = 85,544)</td>
+									<td align="center">(n = 81,933)</td>
+									<td align="center">(n = 81,933)</td>
+									<td align="center">(n = 95,002)</td>
+									<td align="center">(n = 95,002)</td>
+								</tr>
+								<tr>
+									<td>Low (ref.)</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Medium</td>
+									<td align="center"><bold>1.83 (1.73</bold> – <bold>1.94)</bold></td>
+									<td align="center"><bold>1.46 (1.36</bold> – <bold>1.58)</bold></td>
+									<td align="center">1.05 (0.99–1.11)</td>
+									<td align="center">1.04 (0.97–1.11)</td>
+									<td align="center"><bold>2.02 (1.69</bold> – <bold>2.41)</bold></td>
+									<td align="center"><bold>1.55 (1.19</bold> – <bold>2.01)</bold></td>
+								</tr>
+								<tr>
+									<td>High</td>
+									<td align="center"><bold>2.03 (1.91</bold> – <bold>2.15)</bold></td>
+									<td align="center"><bold>1.49 (1.38</bold> – <bold>1.62)</bold></td>
+									<td align="center"><bold>1.30 (1.23</bold> – <bold>1.37)</bold></td>
+									<td align="center"><bold>1.09 (1.02</bold> – <bold>1.17)</bold></td>
+									<td align="center"><bold>2.88 (2.43</bold> – <bold>3.42)</bold></td>
+									<td align="center"><bold>1.72 (1.29</bold> – <bold>2.29)</bold></td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN2">
+								<p>In bold, estimates that are significant (p &lt; 0.05).</p>
+							</fn>
+							<fn id="TFN3">
+								<p><sup>a</sup> Model adjusted for sex, age, geographic area, altitude, and year of the <italic>Encuesta Nacional Demográfica y de Salud Familiar</italic> (Endes).</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p>On the other hand, in multivariate model we only found an association between educational level and obesity: those with the highest educational level were 11% less likely to present obesity (PR = 0.89; 95%CI: 0.84–0.95) compared to those with the lowest educational level ( <xref ref-type="table" rid="t3">Table 3</xref> ). This finding was not valid for hypertension or type 2 diabetes mellitus.</p>
+			</sec>
+		</sec>
+		<sec sec-type="discussion">
+			<title>DISCUSSION</title>
+			<p>This study evidences a differential association between indicators of socioeconomic level and the presence of noncommunicable diseases: wealth index was associated with the presence of obesity, hypertension, and type 2 diabetes mellitus. Thus, those with a medium or high wealth index had a higher prevalence of any of the cardiovascular risks evaluated. However, this was not the case for educational level, as those with higher education had lower prevalence of obesity, but not association was found with the other chronic conditions studied. Finally, 1 in 4 had obesity, 1 in 5 had hypertension, and about 1 in 20 had type 2 diabetes mellitus.</p>
+			<p>A cohort study in Brazil reported that participants with high socioeconomic status had a higher risk of overweight and obesity compared to those with low socioeconomic status, and this risk was higher in those who always remained in the high socioeconomic status <sup><xref ref-type="bibr" rid="B17">17</xref></sup> . Other studies have evaluated the association between socioeconomic level and cardiovascular risk using cross-sectional studies <sup><xref ref-type="bibr" rid="B18">18</xref></sup> . This association tends to vary depending on the socioeconomic indicator used and the phase of the nutritional and epidemiological transition in which the population is. Thus, in developed countries, cardiovascular risk factors are usually found in people with low socioeconomic status <sup><xref ref-type="bibr" rid="B20">20</xref> , <xref ref-type="bibr" rid="B22">22</xref></sup> , whereas in developing countries it tends to be variable.</p>
+			<p>A previous study in Peru, using data from the CRONICAS Cohort Study, reported that the population with higher income and asset index were more likely to have obesity, whereas those with higher levels of education had a lower prevalence of obesity <sup><xref ref-type="bibr" rid="B21">21</xref></sup> . This result is consistent with our findings using nationally representative data. Another study that reviewed the association between socioeconomic status, education and obesity in Peruvian women showed that obesity was more frequent in women with higher socioeconomic status; in addition, there was a lower prevalence of obesity in those with higher educational levels <sup><xref ref-type="bibr" rid="B23">23</xref></sup> .</p>
+			<p>Our results seem to be in agreement with previous studies, in which the wealth index, used as a surrogate of socioeconomic level, has a much clearer association with cardiovascular risk factors than educational level. It expands these results to conditions such as hypertension and type 2 diabetes mellitus that have been reported in international studies <sup><xref ref-type="bibr" rid="B24">24</xref></sup> . The apparently contradictory results, using the wealth index and educational level, could be supported by the nutritional transition that the Peruvian population is undergoing. Changes in dietary and physical activity patterns may be initially driven by the economic development of the country, evident in the last 30 years in Peru. Thus, the increase in the prevalence of obesity, hypertension and type 2 diabetes mellitus is due to the availability of processed and high-energy foods, associated with a sedentary lifestyle that is initially seen in the groups with higher economic income, and then affects those with lower income, with a subsequent reduction in the prevalence of these cardiovascular risk factors in the better educated groups <sup><xref ref-type="bibr" rid="B28">28</xref></sup> . This seems to be clear for obesity, but is not yet visible for hypertension or type 2 diabetes mellitus.</p>
+			<p>Our study could help to define prevention strategies aimed at the population most vulnerable to chronic diseases, usually the most economically vulnerable; however, there is still a higher prevalence of these risk factors in those with a medium-high socioeconomic level. Current evidence suggests that the impact of the transition is being observed more in rural areas than in urban areas, especially in the case of obesity. <sup><xref ref-type="bibr" rid="B29">29</xref></sup> Previous results suggest that Peru is in a post-transition epidemiological stage, in which more than 80% of deaths are attributed to non-communicable diseases <sup><xref ref-type="bibr" rid="B30">30</xref></sup> , which may pose a greater challenge to the health system. The interventions generated should be context-specific, especially where people may not have an appropriate access to the health system (rural and marginal urban areas), which is where the problem of noncommunicable conditions will be at the end of the transition.</p>
+			<p>This paper utilized data from a population-based study with regional and national representativeness to assess the associations of interest. However, there are some limitations that should be highlighted. First, as a cross-sectional study, it only allowed us to determine association and not causality between exposures and outcomes. Although temporality could be an issue, the probability of reverse causality in this analysis is almost negligible. Second, diabetes mellitus was assessed by self-report and not objectively. It is known that only 50% of the population with diabetes are aware of their condition, and getting tested probably depends on the socioeconomic status of the individuals, so this could have an effect on the reported associations. However, our findings show similar results to other studies. Finally, other variables of interest, potential confounders such as diet or physical activity levels, were not included because they are not routinely collected by the Endes.</p>
+			<p>In conclusion, there is a differential association between wealth index, educational level and markers of noncommunicable diseases. There is evidence of positive association between wealth index and obesity, hypertension and type 2 diabetes mellitus, while educational level was only negatively associated with obesity.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>REFERENCES</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. NCD-Risk Factor Collaboration (NCD-RisC). Worldwide trends in diabetes since 1980: a pooled analysis of 751 population-based studies with 4.4 million participants. Lancet. 2016;387(10027):1513-30. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/s0140-6736(16)00618-8">https://doi.org/10.1016/s0140-6736(16)00618-8</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<collab>NCD-Risk Factor Collaboration (NCD-RisC)</collab>
+					</person-group>
+					<article-title>Worldwide trends in diabetes since 1980: a pooled analysis of 751 population-based studies with 4.4 million participants</article-title>
+					<source>Lancet</source>
+					<year>2016</year>
+					<volume>387</volume>
+					<issue>10027</issue>
+					<fpage>1513</fpage>
+					<lpage>1530</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/s0140-6736(16)00618-8">https://doi.org/10.1016/s0140-6736(16)00618-8</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. NCD-Risk Factor Collaboration (NCD-RisC). Worldwide trends in body-mass index, underweight, overweight, and obesity from 1975 to 2016: a pooled analysis of 2416 population-based measurement studies in 128.9 million children, adolescents, and adults. Lancet. 2017;390(10113):2627-42. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/s0140-6736(17)32129-3">https://doi.org/10.1016/s0140-6736(17)32129-3</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<collab>NCD-Risk Factor Collaboration (NCD-RisC)</collab>
+					</person-group>
+					<article-title>Worldwide trends in body-mass index, underweight, overweight, and obesity from 1975 to 2016: a pooled analysis of 2416 population-based measurement studies in 128.9 million children, adolescents, and adults</article-title>
+					<source>Lancet</source>
+					<year>2017</year>
+					<volume>390</volume>
+					<issue>10113</issue>
+					<fpage>2627</fpage>
+					<lpage>2642</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/s0140-6736(17)32129-3">https://doi.org/10.1016/s0140-6736(17)32129-3</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. NCD-Risk Factor Collaboration (NCD-RisC). Worldwide trends in blood pressure from 1975 to 2015: a pooled analysis of 1479 population-based measurement studies with 19.1 million participants. Lancet. 2017;389(10064):37-55. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/s0140-6736(16)31919-5">https://doi.org/10.1016/s0140-6736(16)31919-5</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<collab>NCD-Risk Factor Collaboration (NCD-RisC)</collab>
+					</person-group>
+					<article-title>Worldwide trends in blood pressure from 1975 to 2015: a pooled analysis of 1479 population-based measurement studies with 19.1 million participants</article-title>
+					<source>Lancet</source>
+					<year>2017</year>
+					<volume>389</volume>
+					<issue>10064</issue>
+					<fpage>37</fpage>
+					<lpage>55</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/s0140-6736(16)31919-5">https://doi.org/10.1016/s0140-6736(16)31919-5</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. NCD Risk Factor Collaboration (NCD-RisC) - Americas Working Group. Trends in cardiometabolic risk factors in the Americas between 1980 and 2014: a pooled analysis of population-based surveys. Lancet Glob Health. 2020;8(1):e123-33. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/s2214-109x(19)30484-x">https://doi.org/10.1016/s2214-109x(19)30484-x</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<collab>NCD Risk Factor Collaboration (NCD-RisC) - Americas Working Group</collab>
+					</person-group>
+					<article-title>Trends in cardiometabolic risk factors in the Americas between 1980 and 2014: a pooled analysis of population-based surveys</article-title>
+					<source>Lancet Glob Health</source>
+					<year>2020</year>
+					<volume>8</volume>
+					<issue>1</issue>
+					<elocation-id>e123-33</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/s2214-109x(19)30484-x">https://doi.org/10.1016/s2214-109x(19)30484-x</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Instituto Nacional de Estadística e Informática. Perú: enfermedades no transmisibes y transmisibles, 2019. Lima (PE): INEI; 2020.</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>Instituto Nacional de Estadística e Informática</collab>
+					</person-group>
+					<source>Perú: enfermedades no transmisibes y transmisibles, 2019</source>
+					<publisher-loc>Lima (PE)</publisher-loc>
+					<publisher-name>INEI</publisher-name>
+					<year>2020</year>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. Seclen SN, Rosas ME, Arias AJ, Huayta E, Medina CA. Prevalence of diabetes and impaired fasting glucose in Peru: report from PERUDIAB, a national urban population-based longitudinal study. BMJ Open Diabetes Res Care. 2015;3:e000110. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/bmjdrc-2015-000110">https://doi.org/10.1136/bmjdrc-2015-000110</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Seclen</surname>
+							<given-names>SN</given-names>
+						</name>
+						<name>
+							<surname>Rosas</surname>
+							<given-names>ME</given-names>
+						</name>
+						<name>
+							<surname>Arias</surname>
+							<given-names>AJ</given-names>
+						</name>
+						<name>
+							<surname>Huayta</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Medina</surname>
+							<given-names>CA</given-names>
+						</name>
+					</person-group>
+					<article-title>Prevalence of diabetes and impaired fasting glucose in Peru: report from PERUDIAB, a national urban population-based longitudinal study</article-title>
+					<source>BMJ Open Diabetes Res Care</source>
+					<year>2015</year>
+					<volume>3</volume>
+					<elocation-id>e000110</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/bmjdrc-2015-000110">https://doi.org/10.1136/bmjdrc-2015-000110</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. World Health Organization. Noncommunicable diseases. Geneva (CH): WHO; 2018 [cited 2020 Dec 15]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.who.int/news-room/fact-sheets/detail/noncommunicable-diseases">https://www.who.int/news-room/fact-sheets/detail/noncommunicable-diseases</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>World Health Organization</collab>
+					</person-group>
+					<source>Noncommunicable diseases</source>
+					<publisher-loc>Geneva (CH)</publisher-loc>
+					<publisher-name>WHO</publisher-name>
+					<year>2018</year>
+					<date-in-citation content-type="cited-date">cited 2020 Dec 15</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.who.int/news-room/fact-sheets/detail/noncommunicable-diseases">https://www.who.int/news-room/fact-sheets/detail/noncommunicable-diseases</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Organización Mundial de la Salud. Dieta, nutrición y prevención de enfermedades crónicas: informe de uma Consulta Mixta de Expertos OMS/FAO. Ginebra (CH): OMS; 2003 [cited 2020 Dec 15]. (OMS-Serie de Informes Técnicos; nº 916). Available from: <ext-link ext-link-type="uri" xlink:href="https://www.fao.org/3/ac911s/ac911s.pdf">https://www.fao.org/3/ac911s/ac911s.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Organización Mundial de la Salud</collab>
+					</person-group>
+					<source>Dieta, nutrición y prevención de enfermedades crónicas: informe de uma Consulta Mixta de Expertos OMS/FAO</source>
+					<publisher-loc>Ginebra (CH)</publisher-loc>
+					<publisher-name>OMS</publisher-name>
+					<year>2003</year>
+					<date-in-citation content-type="cited-date">cited 2020 Dec 15</date-in-citation>
+					<comment>OMS-Serie de Informes Técnicos; nº 916</comment>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.fao.org/3/ac911s/ac911s.pdf">https://www.fao.org/3/ac911s/ac911s.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. Howe LD, Galobardes B, Matijasevich A, Gordon D, Johnston D, Onwujekwe O, et al. Measuring socio-economic position for epidemiological studies in low- and middle-income countries: a methods of measurement in epidemiology paper. Int J Epidemiol. 2012;41(3):871-86. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/ije/dys037">https://doi.org/10.1093/ije/dys037</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Howe</surname>
+							<given-names>LD</given-names>
+						</name>
+						<name>
+							<surname>Galobardes</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Matijasevich</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Gordon</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Johnston</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Onwujekwe</surname>
+							<given-names>O</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Measuring socio-economic position for epidemiological studies in low- and middle-income countries: a methods of measurement in epidemiology paper</article-title>
+					<source>Int J Epidemiol</source>
+					<year>2012</year>
+					<volume>41</volume>
+					<issue>3</issue>
+					<fpage>871</fpage>
+					<lpage>886</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/ije/dys037">https://doi.org/10.1093/ije/dys037</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. Panamerican Health Organization. Plan of Action for the Prevention and Control of Noncommunicable Diseases in the Americas 2013-2019. Washington DC: PAHO; 2014.</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>Panamerican Health Organization</collab>
+					</person-group>
+					<source>Plan of Action for the Prevention and Control of Noncommunicable Diseases in the Americas 2013-2019</source>
+					<publisher-loc>Washington DC</publisher-loc>
+					<publisher-name>PAHO</publisher-name>
+					<year>2014</year>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. Jiwani SS, Carrillo-Larco RM, Hernández-Vásquez A, Barrientos-Gutiérrez T, Basto-Abreu A, Gutierrez L, et al. The shift of obesity burden by socioeconomic status between 1998 and 2017 in Latin America and the Caribbean: a cross-sectional series study. Lancet Glob Health. 2019;7(12):e1644-54. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/s2214-109x(19)30421-8">https://doi.org/10.1016/s2214-109x(19)30421-8</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Jiwani</surname>
+							<given-names>SS</given-names>
+						</name>
+						<name>
+							<surname>Carrillo-Larco</surname>
+							<given-names>RM</given-names>
+						</name>
+						<name>
+							<surname>Hernández-Vásquez</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Barrientos-Gutiérrez</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Basto-Abreu</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Gutierrez</surname>
+							<given-names>L</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>The shift of obesity burden by socioeconomic status between 1998 and 2017 in Latin America and the Caribbean: a cross-sectional series study</article-title>
+					<source>Lancet Glob Health</source>
+					<year>2019</year>
+					<volume>7</volume>
+					<issue>12</issue>
+					<elocation-id>e1644-54</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/s2214-109x(19)30421-8">https://doi.org/10.1016/s2214-109x(19)30421-8</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. Instituto Nacional de Estadística e Informática. Perú - Encuesta Demográfica y de Salud 2018. Lima (PE): INEI; 2019 [cited 2021 Oct 19]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1656/index1.html">https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1656/index1.html</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Instituto Nacional de Estadística e Informática</collab>
+					</person-group>
+					<source>Perú - Encuesta Demográfica y de Salud 2018</source>
+					<publisher-loc>Lima (PE)</publisher-loc>
+					<publisher-name>INEI</publisher-name>
+					<year>2019</year>
+					<date-in-citation content-type="cited-date">cited 2021 Oct 19</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1656/index1.html">https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1656/index1.html</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. Dean AG, Sullivan KM, Soe MM, Sullivan KM. OpenEpi: open source epidemiologic statistics for public health, version 2.3.1. Boston, MA: ScienceOpen; 2013 [cited 2020 Nov 14]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.scienceopen.com/document?vid=61cdd360-9883-4330-8c18-3f0341b0f7">https://www.scienceopen.com/document?vid=61cdd360-9883-4330-8c18-3f0341b0f7</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Dean</surname>
+							<given-names>AG</given-names>
+						</name>
+						<name>
+							<surname>Sullivan</surname>
+							<given-names>KM</given-names>
+						</name>
+						<name>
+							<surname>Soe</surname>
+							<given-names>MM</given-names>
+						</name>
+						<name>
+							<surname>Sullivan</surname>
+							<given-names>KM</given-names>
+						</name>
+					</person-group>
+					<source>OpenEpi: open source epidemiologic statistics for public health, version 2.3.1</source>
+					<publisher-loc>Boston, MA</publisher-loc>
+					<publisher-name>ScienceOpen</publisher-name>
+					<year>2013</year>
+					<date-in-citation content-type="cited-date">cited 2020 Nov 14</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.scienceopen.com/document?vid=61cdd360-9883-4330-8c18-3f0341b0f7">https://www.scienceopen.com/document?vid=61cdd360-9883-4330-8c18-3f0341b0f7</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. World Health Organization. Obesity: preventing and managing the global epidemic: report of a WHO consultation. Geneva (CH): WHO; 2000 [cited 2020 Nov 14]. Available from: <ext-link ext-link-type="uri" xlink:href="https://apps.who.int/iris/handle/10665/42330">https://apps.who.int/iris/handle/10665/42330</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>World Health Organization</collab>
+					</person-group>
+					<source>Obesity: preventing and managing the global epidemic: report of a WHO consultation</source>
+					<publisher-loc>Geneva (CH)</publisher-loc>
+					<publisher-name>WHO</publisher-name>
+					<year>2000</year>
+					<date-in-citation content-type="cited-date">cited 2020 Nov 14</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://apps.who.int/iris/handle/10665/42330">https://apps.who.int/iris/handle/10665/42330</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. The DHS Program. Wealth Index construction. Rockvile, MD; 2021 [cited 2021 May 25]. Available from: <ext-link ext-link-type="uri" xlink:href="https://dhsprogram.com/topics/wealth-index/Wealth-Index-Construction.cfm">https://dhsprogram.com/topics/wealth-index/Wealth-Index-Construction.cfm</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>The DHS Program</collab>
+					</person-group>
+					<source>Wealth Index construction</source>
+					<publisher-loc>Rockvile, MD</publisher-loc>
+					<year>2021</year>
+					<date-in-citation content-type="cited-date">cited 2021 May 25</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://dhsprogram.com/topics/wealth-index/Wealth-Index-Construction.cfm">https://dhsprogram.com/topics/wealth-index/Wealth-Index-Construction.cfm</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. Instituto Nacional de Estadística e Informática. Encuesta Demográfica y de Salud Familiar: manual de la entrevistadora. Lima (PE): INEI; 2018 [cited 2021 May 25]. Available from: <ext-link ext-link-type="uri" xlink:href="https://proyectos.inei.gob.pe/endes/2018/documentos_2018/MANUAL_DE_LA_ENTREVISTADORA_2018_ENERO.pdf">https://proyectos.inei.gob.pe/endes/2018/documentos_2018/MANUAL_DE_LA_ENTREVISTADORA_2018_ENERO.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Instituto Nacional de Estadística e Informática</collab>
+					</person-group>
+					<source>Encuesta Demográfica y de Salud Familiar: manual de la entrevistadora</source>
+					<publisher-loc>Lima (PE)</publisher-loc>
+					<publisher-name>INEI</publisher-name>
+					<year>2018</year>
+					<date-in-citation content-type="cited-date">cited 2021 May 25</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://proyectos.inei.gob.pe/endes/2018/documentos_2018/MANUAL_DE_LA_ENTREVISTADORA_2018_ENERO.pdf">https://proyectos.inei.gob.pe/endes/2018/documentos_2018/MANUAL_DE_LA_ENTREVISTADORA_2018_ENERO.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Hallal PC, Clark VL, Assunção MC, Gonçalves H, Menezes AMB, Barros FC. Socioeconomic trajectories from birth to adolescence and risk factors for noncommunicable disease: prospective analyses. J Adolesc Health. 2012;51(6 Suppl):S32-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jadohealth.2012.06.022">https://doi.org/10.1016/j.jadohealth.2012.06.022</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hallal</surname>
+							<given-names>PC</given-names>
+						</name>
+						<name>
+							<surname>Clark</surname>
+							<given-names>VL</given-names>
+						</name>
+						<name>
+							<surname>Assunção</surname>
+							<given-names>MC</given-names>
+						</name>
+						<name>
+							<surname>Gonçalves</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Menezes</surname>
+							<given-names>AMB</given-names>
+						</name>
+						<name>
+							<surname>Barros</surname>
+							<given-names>FC</given-names>
+						</name>
+					</person-group>
+					<article-title>Socioeconomic trajectories from birth to adolescence and risk factors for noncommunicable disease: prospective analyses</article-title>
+					<source>J Adolesc Health</source>
+					<year>2012</year>
+					<volume>51</volume>
+					<issue>6</issue>
+					<supplement>Suppl</supplement>
+					<fpage>S32</fpage>
+					<lpage>S37</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jadohealth.2012.06.022">https://doi.org/10.1016/j.jadohealth.2012.06.022</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18. Aitsi-Selmi A, Bell R, Shipley MJ, Marmot MG. Education modifies the association of wealth with obesity in women in middle-income but not low-income countries: an interaction study using seven national datasets, 2005-2010. PloS One. 2014;9(3):e90403. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0090403">https://doi.org/10.1371/journal.pone.0090403</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Aitsi-Selmi</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Bell</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Shipley</surname>
+							<given-names>MJ</given-names>
+						</name>
+						<name>
+							<surname>Marmot</surname>
+							<given-names>MG</given-names>
+						</name>
+					</person-group>
+					<article-title>Education modifies the association of wealth with obesity in women in middle-income but not low-income countries: an interaction study using seven national datasets, 2005-2010</article-title>
+					<source>PloS One</source>
+					<year>2014</year>
+					<volume>9</volume>
+					<issue>3</issue>
+					<elocation-id>e90403</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0090403">https://doi.org/10.1371/journal.pone.0090403</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19. Ali MK, Bhaskarapillai B, Shivashankar R, Mohan D, Fatmi ZA, Pradeepa R, et al. Socioeconomic status and cardiovascular risk in urban South Asia: The CARRS Study. Eur J Prev Cardiol. 2016;23(4):408-19. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/2047487315580891">https://doi.org/10.1177/2047487315580891</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ali</surname>
+							<given-names>MK</given-names>
+						</name>
+						<name>
+							<surname>Bhaskarapillai</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Shivashankar</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Mohan</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Fatmi</surname>
+							<given-names>ZA</given-names>
+						</name>
+						<name>
+							<surname>Pradeepa</surname>
+							<given-names>R</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Socioeconomic status and cardiovascular risk in urban South Asia: The CARRS Study</article-title>
+					<source>Eur J Prev Cardiol</source>
+					<year>2016</year>
+					<volume>23</volume>
+					<issue>4</issue>
+					<fpage>408</fpage>
+					<lpage>419</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/2047487315580891">https://doi.org/10.1177/2047487315580891</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20. Metcalf P, Scragg R, Davis P. Relationship of different measures of socioeconomic status with cardiovascular disease risk factors and lifestyle in a New Zealand workforce survey. N Z Med J. 2007;120(1248):U2392.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Metcalf</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Scragg</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Davis</surname>
+							<given-names>P</given-names>
+						</name>
+					</person-group>
+					<article-title>Relationship of different measures of socioeconomic status with cardiovascular disease risk factors and lifestyle in a New Zealand workforce survey</article-title>
+					<source>N Z Med J</source>
+					<year>2007</year>
+					<volume>120</volume>
+					<issue>1248</issue>
+					<size units="pages">U2392</size>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>21. Quispe R, Benziger CP, Bazo-Alvarez JC, Howe LD, Checkley W, Gilman RH, et al. The relationship between socioeconomic status and CV risk factors: The CRONICAS Cohort Study of Peruvian Adults. Glob Heart. 2016;11(1):121-30.e2. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.gheart.2015.12.005">https://doi.org/10.1016/j.gheart.2015.12.005</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Quispe</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Benziger</surname>
+							<given-names>CP</given-names>
+						</name>
+						<name>
+							<surname>Bazo-Alvarez</surname>
+							<given-names>JC</given-names>
+						</name>
+						<name>
+							<surname>Howe</surname>
+							<given-names>LD</given-names>
+						</name>
+						<name>
+							<surname>Checkley</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Gilman</surname>
+							<given-names>RH</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>The relationship between socioeconomic status and CV risk factors: The CRONICAS Cohort Study of Peruvian Adults</article-title>
+					<source>Glob Heart</source>
+					<year>2016</year>
+					<volume>11</volume>
+					<issue>1</issue>
+					<fpage>121</fpage>
+					<lpage>30.e2</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.gheart.2015.12.005">https://doi.org/10.1016/j.gheart.2015.12.005</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>22. Metcalf PA, Scragg RR, Schaaf D, Dyall L, Black PN, Jackson RT. Comparison of different markers of socioeconomic status with cardiovascular disease and diabetes risk factors in the Diabetes, Heart and Health Survey. N Z Med J. 2008;121(1269):45-56.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Metcalf</surname>
+							<given-names>PA</given-names>
+						</name>
+						<name>
+							<surname>Scragg</surname>
+							<given-names>RR</given-names>
+						</name>
+						<name>
+							<surname>Schaaf</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Dyall</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Black</surname>
+							<given-names>PN</given-names>
+						</name>
+						<name>
+							<surname>Jackson</surname>
+							<given-names>RT</given-names>
+						</name>
+					</person-group>
+					<article-title>Comparison of different markers of socioeconomic status with cardiovascular disease and diabetes risk factors in the Diabetes, Heart and Health Survey</article-title>
+					<source>N Z Med J</source>
+					<year>2008</year>
+					<volume>121</volume>
+					<issue>1269</issue>
+					<fpage>45</fpage>
+					<lpage>56</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>23. Poterico JA, Stanojevic S, Ruiz-Grosso P, Barnabe-Ortiz A, Miranda JJ. The association between socioeconomic status and obesity in Peruvian women. Obesity (Silver Spring). 2012;20(11):2283-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/oby.2011.288">https://doi.org/10.1038/oby.2011.288</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Poterico</surname>
+							<given-names>JA</given-names>
+						</name>
+						<name>
+							<surname>Stanojevic</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Ruiz-Grosso</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Barnabe-Ortiz</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Miranda</surname>
+							<given-names>JJ</given-names>
+						</name>
+					</person-group>
+					<article-title>The association between socioeconomic status and obesity in Peruvian women</article-title>
+					<source>Obesity (Silver Spring)</source>
+					<year>2012</year>
+					<volume>20</volume>
+					<issue>11</issue>
+					<fpage>2283</fpage>
+					<lpage>2289</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/oby.2011.288">https://doi.org/10.1038/oby.2011.288</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>24. Hosseinpoor AR, Bergen N, Mendis S, Harper S, Verdes E, Chatterji S. Socioeconomic inequality in the prevalence of noncommunicable diseases in low- and middle-income countries: results from the World Health Survey. BMC Public Health. 2012;12:474. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1471-2458-12-474">https://doi.org/10.1186/1471-2458-12-474</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hosseinpoor</surname>
+							<given-names>AR</given-names>
+						</name>
+						<name>
+							<surname>Bergen</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Mendis</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Harper</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Verdes</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Chatterji</surname>
+							<given-names>S</given-names>
+						</name>
+					</person-group>
+					<article-title>Socioeconomic inequality in the prevalence of noncommunicable diseases in low- and middle-income countries: results from the World Health Survey</article-title>
+					<source>BMC Public Health</source>
+					<year>2012</year>
+					<volume>12</volume>
+					<size units="pages">474</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1471-2458-12-474">https://doi.org/10.1186/1471-2458-12-474</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>25. Kim YJ, Jeon JY, Han SJ, Kim HJ, Lee KW, Kim DJ. Effect of socio-economic status on the prevalence of diabetes. Yonsei Med J. 2015;56(3):641-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3349/ymj.2015.56.3.641">https://doi.org/10.3349/ymj.2015.56.3.641</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kim</surname>
+							<given-names>YJ</given-names>
+						</name>
+						<name>
+							<surname>Jeon</surname>
+							<given-names>JY</given-names>
+						</name>
+						<name>
+							<surname>Han</surname>
+							<given-names>SJ</given-names>
+						</name>
+						<name>
+							<surname>Kim</surname>
+							<given-names>HJ</given-names>
+						</name>
+						<name>
+							<surname>Lee</surname>
+							<given-names>KW</given-names>
+						</name>
+						<name>
+							<surname>Kim</surname>
+							<given-names>DJ</given-names>
+						</name>
+					</person-group>
+					<article-title>Effect of socio-economic status on the prevalence of diabetes</article-title>
+					<source>Yonsei Med J</source>
+					<year>2015</year>
+					<volume>56</volume>
+					<issue>3</issue>
+					<fpage>641</fpage>
+					<lpage>647</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3349/ymj.2015.56.3.641">https://doi.org/10.3349/ymj.2015.56.3.641</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation>26. Rabi DM, Edwards AL, Southern DA, Svenson LW, Sargious PM, Norton P, et al. Association of socio-economic status with diabetes prevalence and utilization of diabetes care services. BMC Health Serv Res. 2006;6:124. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1472-6963-6-124">https://doi.org/10.1186/1472-6963-6-124</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rabi</surname>
+							<given-names>DM</given-names>
+						</name>
+						<name>
+							<surname>Edwards</surname>
+							<given-names>AL</given-names>
+						</name>
+						<name>
+							<surname>Southern</surname>
+							<given-names>DA</given-names>
+						</name>
+						<name>
+							<surname>Svenson</surname>
+							<given-names>LW</given-names>
+						</name>
+						<name>
+							<surname>Sargious</surname>
+							<given-names>PM</given-names>
+						</name>
+						<name>
+							<surname>Norton</surname>
+							<given-names>P</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Association of socio-economic status with diabetes prevalence and utilization of diabetes care services</article-title>
+					<source>BMC Health Serv Res</source>
+					<year>2006</year>
+					<volume>6</volume>
+					<size units="pages">124</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1472-6963-6-124">https://doi.org/10.1186/1472-6963-6-124</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<mixed-citation>27. Tareque MI, Koshio A, Tiedt AD, Hasegawa T. Are the rates of hypertension and diabetes higher in people from lower socioeconomic status in Bangladesh? Results from a nationally representative survey. PloS One. 2015;10(5):e0127954. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0127954">https://doi.org/10.1371/journal.pone.0127954</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Tareque</surname>
+							<given-names>MI</given-names>
+						</name>
+						<name>
+							<surname>Koshio</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Tiedt</surname>
+							<given-names>AD</given-names>
+						</name>
+						<name>
+							<surname>Hasegawa</surname>
+							<given-names>T</given-names>
+						</name>
+					</person-group>
+					<article-title>Are the rates of hypertension and diabetes higher in people from lower socioeconomic status in Bangladesh? Results from a nationally representative survey</article-title>
+					<source>PloS One</source>
+					<year>2015</year>
+					<volume>10</volume>
+					<issue>5</issue>
+					<elocation-id>e0127954</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0127954">https://doi.org/10.1371/journal.pone.0127954</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<mixed-citation>28. Reddy KS, Naik N, Prabhakaran D. Hypertension in the developing world: a consequence of progress. Current Cardiol Rep. 2006;8(6):399-404. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s11886-006-0096-9">https://doi.org/10.1007/s11886-006-0096-9</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Reddy</surname>
+							<given-names>KS</given-names>
+						</name>
+						<name>
+							<surname>Naik</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Prabhakaran</surname>
+							<given-names>D</given-names>
+						</name>
+					</person-group>
+					<article-title>Hypertension in the developing world: a consequence of progress</article-title>
+					<source>Current Cardiol Rep</source>
+					<year>2006</year>
+					<volume>8</volume>
+					<issue>6</issue>
+					<fpage>399</fpage>
+					<lpage>404</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s11886-006-0096-9">https://doi.org/10.1007/s11886-006-0096-9</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B29">
+				<label>29</label>
+				<mixed-citation>29. NCD Risk Factor Collaboration (NCD-RisC). Rising rural body-mass index is the main driver of the global obesity epidemic in adults. Nature. 2019;569(7755):260-4. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s41586-019-1171-x">https://doi.org/10.1038/s41586-019-1171-x</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<collab>NCD Risk Factor Collaboration (NCD-RisC)</collab>
+					</person-group>
+					<article-title>Rising rural body-mass index is the main driver of the global obesity epidemic in adults</article-title>
+					<source>Nature</source>
+					<year>2019</year>
+					<volume>569</volume>
+					<issue>7755</issue>
+					<fpage>260</fpage>
+					<lpage>264</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s41586-019-1171-x">https://doi.org/10.1038/s41586-019-1171-x</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B30">
+				<label>30</label>
+				<mixed-citation>30. Bernabé-Ortiz A, Carrillo-Larco RM. La transición epidemiológica en el Perú: análisis de los registros de mortalidad del 2003 al 2016. Acta Med Peru 2020;37(3):258-66. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.35663/amp.2020.373.1550">https://doi.org/10.35663/amp.2020.373.1550</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bernabé-Ortiz</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Carrillo-Larco</surname>
+							<given-names>RM</given-names>
+						</name>
+					</person-group>
+					<article-title>La transición epidemiológica en el Perú: análisis de los registros de mortalidad del 2003 al 2016</article-title>
+					<source>Acta Med Peru</source>
+					<year>2020</year>
+					<volume>37</volume>
+					<issue>3</issue>
+					<fpage>258</fpage>
+					<lpage>266</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.35663/amp.2020.373.1550">https://doi.org/10.35663/amp.2020.373.1550</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+		</ref-list>
+	</back>
+	<sub-article article-type="translation" id="TRes" xml:lang="es">
+		<front-stub>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artículo Original</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Asociación entre nivel socioeconómico y riesgo cardiovascular en la población peruana</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-1604-8968</contrib-id>
+					<name>
+						<surname>Cerpa-Arana</surname>
+						<given-names>Stefany Katherine</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1003"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-7809-2070</contrib-id>
+					<name>
+						<surname>Rimarachín-Palacios</surname>
+						<given-names>Lourdes Magaly</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1003"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-6834-1376</contrib-id>
+					<name>
+						<surname>Bernabé-Ortiz</surname>
+						<given-names>Antonio</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1003"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff2003"><sup>II</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1003">
+				<label>I</label>
+				<country country="PE">Perú</country>
+				<institution content-type="original">Universidad Científica del Sur. Facultad de Ciencias de la Salud. Lima, Lima, Perú</institution>
+			</aff>
+			<aff id="aff2003">
+				<label>II</label>
+				<country country="PE">Perú</country>
+				<institution content-type="original">Universidad Peruana Cayetano Heredia. Centro de Excelencia en Enfermedades Crónicas. Lima, Lima, Perú</institution>
+			</aff>
+			<author-notes>
+				<corresp id="c01003">Correspondencia: Antonio Bernabe-Ortiz Universidad Científica del Sur Carr Panamericana Sur, km 19 Villa El Salvador, Lima, Perú E-mail: abernabeo@cientifica.edu.pe</corresp>
+				<fn fn-type="con">
+					<p>Contribución de los autores: Diseño y planificación del estudio: SKC-A, LMR-P, AB-O. Recopilación, análisis e interpretación de los datos: SKC-A, LMR-P, AB-O. Redacción o revisión del manuscrito: SKC-A, LMR-P, AB-O. Aprobación de la versión final: SKC-A, LMR-P, AB-O. Responsabilidad pública por el contenido del artículo: AB-O.</p>
+				</fn>
+				<fn fn-type="conflict">
+					<p>Conflicto de Intereses: Los autores declaran no haber conflicto de intereses.</p>
+				</fn>
+			</author-notes>
+			<abstract>
+				<title>RESUMEN</title>
+				<sec>
+					<title>OBJETIVO</title>
+					<p>Determinar la asociación entre el nivel socioeconómico y la presencia de obesidad, hipertensión y diabetes mellitus tipo 2 en la población peruana.</p>
+				</sec>
+				<sec>
+					<title>MÉTODOS</title>
+					<p>Análisis de datos secundarios de la Encuesta Nacional Demográfica y de Salud Familiar (Endes) del 2018 al 2020. Las variables dependientes fueron obesidad, hipertensión y diabetes mellitus tipo 2, y las variables independientes fueron dos indicadores de nivel socioeconómico: el nivel educativo (&lt; 7 años, 7–11 años y 12+ años) y el índice de bienestar (en terciles). Se crearon modelos usando regresión de Poisson, reportando razones de prevalencia (RP) e intervalos de confianza al 95% (IC95%).</p>
+				</sec>
+				<sec>
+					<title>RESULTADOS</title>
+					<p>Se analizaron los datos de 98.846 sujetos, edad promedio: 45,3 (DE: 16,0) años, y 55,5% fueron mujeres. La prevalencia de obesidad fue del 26% (IC95% 25,4–26,6); la de hipertensión, 24,9% (IC95% 24,3–25,5); y la de diabetes mellitus tipo 2, 4,8% (IC95% 4,5–5,1). En modelo multivariable y comparado con los de índice de bienestar bajo, aquellos con índice de bienestar alto tenían mayor prevalencia de obesidad (RP = 1,49; IC95% 1,38–1,62), de hipertensión (RP = 1,09; IC95% 1,02–1,17) y de diabetes mellitus tipo 2 (RP = 1,72; IC95% 1,29–2,29). De otro lado, mayor nivel educativo sólo se asoció a una reducción en la prevalencia de obesidad (RP = 0,89; IC95% 0,84–0,95).</p>
+				</sec>
+				<sec>
+					<title>CONCLUSIONES</title>
+					<p>Existe asociación diferencial entre el índice de bienestar, nivel educativo y marcadores de enfermedades no transmisibles: hay evidencia de asociación positiva entre el índice de bienestar y obesidad, hipertensión y diabetes mellitus tipo 2, mientras que el nivel educativo solo estuvo asociado de forma negativa a obesidad.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="es">
+				<kwd>Enfermedad Crónica, epidemiología</kwd>
+				<kwd>Factores de Riesgo de Enfermedad Cardiaca</kwd>
+				<kwd>Factores de Riesgo</kwd>
+				<kwd>Factores Socioeconómicos</kwd>
+				<kwd>Perú</kwd>
+			</kwd-group>
+		</front-stub>
+		<body>
+			<sec sec-type="intro">
+				<title>INTRODUCCIÓN</title>
+				<p>Las enfermedades crónicas no transmisibles, entre las que se encuentran la obesidad, hipertensión y diabetes mellitus tipo 2, están en aumento, especialmente en países de ingresos bajos y medios<sup><xref ref-type="bibr" rid="B1">1</xref></sup> . En Latinoamérica, la situación no es diferente, y a pesar de la heterogeneidad existente, se han incrementado los casos de obesidad y diabetes mellitus tipo 2<sup><xref ref-type="bibr" rid="B4">4</xref></sup> .</p>
+				<p>En Perú se estima que el 22,3% de la población sufre de obesidad y que casi el 14% presenta hipertensión arterial según los resultados de la Encuesta Nacional Demográfica y de Salud del 2019<sup><xref ref-type="bibr" rid="B5">5</xref></sup> , mientras que la prevalencia de diabetes mellitus tipo 2 llega al 7% a nivel nacional<sup><xref ref-type="bibr" rid="B6">6</xref></sup> , todas con resultados variables entre regiones. Muchas de las enfermedades no transmisibles se ven determinadas por la interacción de factores genéticos y metabólicos, así como de factores de riesgo, como la mala alimentación, los bajos niveles de actividad física y el envejecimiento<sup><xref ref-type="bibr" rid="B7">7</xref></sup> . Todos estos cambios conductuales han sido asociados a la transición epidemiológica y nutricional que incluyen el crecimiento social y económico, la urbanización, la globalización de las tecnologías y la producción de alimentos, implicando cambios en las causas de morbilidad y mortalidad en la población<sup><xref ref-type="bibr" rid="B8">8</xref></sup> .</p>
+				<p>El nivel socioeconómico es una medida total que combina la parte económica y sociológica de la preparación laboral de una persona<sup><xref ref-type="bibr" rid="B9">9</xref></sup> . Este indicador puede ser usado como un surrogado para evaluar la distribución de ciertos factores de riesgo para la salud y dar una idea de la fase de transición en la que determinada población se encuentra<sup><xref ref-type="bibr" rid="B10">10</xref></sup> . Por ejemplo, el incremento en la prevalencia de obesidad ha sido desigual cuando se evalúa según estratos socioeconómicos en diferentes contextos latinoamericanos<sup><xref ref-type="bibr" rid="B11">11</xref></sup> . De otro lado, aunque existen varios indicadores para determinar el nivel socioeconómico, dos de ellos son los más comúnmente usados, incluyendo nivel educativo e índice de bienestar<sup><xref ref-type="bibr" rid="B9">9</xref></sup> .</p>
+				<p>De esta manera, el objetivo del presente estudio fue evaluar la asociación a nivel poblacional entre el nivel socioeconómico, evaluado usando el nivel educativo y el índice de bienestar, y la prevalencia de factores de riesgo cardiovascular (obesidad, hipertensión y diabetes mellitus tipo 2).</p>
+			</sec>
+			<sec sec-type="methods">
+				<title>MÉTODOS</title>
+				<sec>
+					<title>Diseño de Estudio</title>
+					<p>Se realizó un análisis secundario usando la información de la Encuesta Nacional Demográfica y de Salud Familiar (Endes)<sup><xref ref-type="bibr" rid="B12">12</xref></sup> . La Endes es un estudio de base poblacional con representatividad nacional y regional, que es realizado anualmente por el Instituto Nacional de Estadística e Informática (INEI) en las 25 regiones del Perú, y que incluye variables de pobreza, fertilidad, violencia y salud. Desde el año 2014 se incluyó un módulo específico para enfermedades no transmisibles, y para el presente análisis se utilizó la información del 2018 al 2020.</p>
+				</sec>
+				<sec>
+					<title>Selección de Participantes y Muestreo</title>
+					<p>Los criterios de selección de los participantes fueron tener edad ≥ 20 años y ser capaces de dar consentimiento para su participación en el estudio. Las mujeres gestantes fueron excluidas del presente análisis.</p>
+					<p>El muestreo de la Endes sigue un diseño aleatorio bietápico. En las áreas rurales, las unidades primarias de muestreo son los conglomerados de entre 500 y 2.000 sujetos, mientras que las unidades secundarias de muestreo son las viviendas dentro de los conglomerados. En las áreas urbanas, las unidades primarias de muestreo son las cuadras o grupos de cuadras con más de 2.000 sujetos y un promedio de 140 viviendas, y las unidades secundarias de muestreo son las viviendas como en las áreas rurales<sup><xref ref-type="bibr" rid="B12">12</xref></sup> .</p>
+				</sec>
+				<sec>
+					<title>Tamaño de Muestra y Potencia</title>
+					<p>Para calcular la potencia estadística de este estudio se utilizó el programa OpenEpi<sup><xref ref-type="bibr" rid="B13">13</xref></sup> , asumiendo una distribución de aproximadamente un tercio de la población en cada nivel socioeconómico, y una diferencia en la prevalencia del evento de interés de al menos 5% (p. ej. 14% de obesidad en el nivel socioeconómico inferior <italic>versus</italic> 19% en el nivel superior) entre grupos a comparar. Con un nivel de confianza del 95%, se obtuvo una potencia mayor al 99% para encontrar las asociaciones de interés.</p>
+				</sec>
+				<sec>
+					<title>Definición de Variables</title>
+					<p>Tres fueron las variables dependientes de interés: obesidad, hipertensión arterial y diabetes mellitus 2. La obesidad se definió como un índice de masa corporal (IMC) ≥ 30 kg/m<sup>2</sup>según las guías internacionales<sup><xref ref-type="bibr" rid="B14">14</xref></sup> . La presencia de hipertensión se caracterizó por una presión arterial sistólica ≥ 140 mm Hg o diastólica ≥ 90 mm Hg o como autorreporte de diagnóstico previo de acuerdo al JNC-7. Finalmente, y dado que la Endes no colecta muestras de sangre para glucemia en ayunas, la presencia de diabetes mellitus tipo 2 se definió de acuerdo al autorreporte de diagnóstico previo, hecho por un médico.</p>
+					<p>La variable de exposición de interés fue el nivel socioeconómico, evaluado a partir de dos indicadores: nivel educativo e índice de bienestar. En el caso del nivel educativo se usó los años de educación reportado por el participante y luego categorizado en &lt; 7 años (compatible con primaria completa), entre 7 y 11 años (compatible con secundaria completa), y ≥ 12 años (compatible con educación superior). De otro lado, el índice de bienestar es una medida compuesta del estándar de vida en una vivienda. Se calcula en forma sencilla con datos colectados sobre las posesiones y servicios del hogar del encuestado (p. ej. televisión, bicicleta, material del techo, de las paredes, del piso, etc.). Este procedimiento se realiza con base en las técnicas del Programa DHS que es casi común a todos los países que participan en dicho programa<sup><xref ref-type="bibr" rid="B15">15</xref></sup> . Todos estos indicadores fueron ponderados, construyéndose un índice de bienestar numérico que fue posteriormente categorizado en terciles (bajo, medio y alto) para este análisis.</p>
+					<p>Otras variables fueron también evaluadas como potenciales confusores de las asociaciones planteadas. Estas incluyeron: sexo (varón <italic>versus</italic> mujer), edad (en años, categorizada en 20–40, 40–59, y ≤ 60 años), ámbito geográfico (rural <italic>versus</italic> urbano), altitud, definido con base en metros sobre el nivel del mar (msnm) de la zona de residencia del individuo y posteriormente categorizado (&lt; 501, 501–2.500, y ≥ 2.501 msnm), y el año en que se realizó la Endes. Esta última variable fue introducida para tomar en cuenta variaciones de resultados debido al efecto de la pandemia del covid-19 en la realización de la encuesta.</p>
+				</sec>
+				<sec>
+					<title>Procedimientos</title>
+					<p>Para la fase de recolección de información en la Endes se contó con varios equipos de trabajo de campo, cada uno conformado por un supervisor y encuestadores, que fueron capacitados y estandarizados por el personal del INEI. En los últimos años, la colección de los datos se hizo por medio de tabletas, pero en el 2020 se realizó por llamadas telefónicas.</p>
+					<p>Tras el consentimiento de los participantes, se procedió a recolectar los datos usando los diferentes cuestionarios e instrumentos de la Endes. El peso y la talla fueron colectados con el uso de balanzas y tallímetros calibrados por los supervisores en el terreno de estudio. La presión arterial se evaluó usando el tensiómetro automático OMRON, modelo HEM-713, con manguitos apropiados de acuerdo a la circunferencia del brazo. La medida de presión arterial fue realizada en duplicado, con el participante sentado y el brazo en reposo a la altura del corazón. La primera medida fue tomada después de 5 minutos de reposo; y la segunda, dos minutos después de la primera<sup><xref ref-type="bibr" rid="B16">16</xref></sup> .</p>
+				</sec>
+				<sec>
+					<title>Análisis Estadístico</title>
+					<p>Para el análisis estadístico se utilizó el programa Stata v.16.0 (StataCorp, College Station, TX, USA) y se tomó en consideración el muestreo complejo del estudio para todas las estimaciones. Inicialmente, se describió a la población según el nivel socioeconómico (nivel educativo e índice de bienestar) y las variables dependientes de interés (obesidad, hipertensión y diabetes mellitus tipo 2). Se realizó además una comparación de los valores faltantes por variable y año de la Endes, debido a que se esperaba una mayor pérdida de datos en los marcadores antropométricos en el 2020 debido a la pandemia del covid-19. Para las comparaciones se aplicó la prueba de chi-cuadrado según diseño del estudio con la corrección de segundo orden de Rao-Scott para variables categóricas. Además, se estimó la prevalencia de dichas variables dependientes reportando los intervalos de confianza al 95% (IC95%).</p>
+					<p>Por último, para evaluar la asociación entre nivel socioeconómico (nivel educativo e índice de bienestar) y las variables resultado se crearon modelos crudos y ajustados utilizando la regresión de Poisson, con varianza robusta, reportándose la razón de prevalencia (RP) y sus IC95% correspondientes. Los modelos multivariables fueron ajustados por sexo, edad, ámbito geográfico, altitud y año de la Endes. Se utilizó el valor de inflación de la varianza (VIF) para determinar la presencia de colinealidad debido a las múltiples variables incluidas en el modelo, sin embargo, todos los valores fueron inferiores a 5.</p>
+				</sec>
+				<sec>
+					<title>Ética</title>
+					<p>La base de datos de la Endes es de acceso público, dicho estudio aseguró la participación voluntaria e informada de los encuestados mediante el consentimiento informado. El protocolo de investigación de este estudio fue revisado y aprobado por el Comité de Ética de la Universidad Científica del Sur cumpliendo con la Declaración de Helsinki (código: 726-2019-PRE15).</p>
+				</sec>
+			</sec>
+			<sec sec-type="results">
+				<title>RESULTADOS</title>
+				<sec>
+					<title>Características de la Población de Estudio</title>
+					<p>Un total de 109.363 registros disponibles proceden de las Endes del 2018, 2019 y 2020. Sin embargo, se excluyeron 10.517 (9,6%) registros por no cumplir los criterios de inclusión (9.364 por ser menores de 20 años, y 1.153 por ser mujeres gestantes). Así, se analizaron un total de 98.846 registros, con una media de edad de 45.3 años (DE: 16,0) y 52.259 (55,5%) mujeres. De importancia, hubo un gran número de datos faltantes en la medición del índice de masa corporal y de la presión arterial en el 2020, debido especialmente a las restricciones de la pandemia por el covid-19.</p>
+				</sec>
+				<sec>
+					<title>Descripción de la Población Según el Nivel Educativo e Índice de Bienestar</title>
+					<p>De acuerdo con los resultados de la <xref ref-type="table" rid="t1003">Tabla 1</xref> , aquellos con alto índice de bienestar fueron mayormente mujeres (p &lt; 0,001), menores de 40 años (p &lt; 0,001), del área urbana (p &lt; 0,001) y de sitios por debajo de los 500 msnm (p &lt; 0,001). De otro lado, aquellos con mayor nivel educativo fueron mayormente mujeres (p &lt; 0,001), menores de 40 años (p &lt; 0,001), del ámbito urbano (p &lt; 0,001), y de sitios por debajo de los 500 msnm (p &lt; 0,001).</p>
+					<p>
+						<table-wrap id="t1003">
+							<label>Tabla 1</label>
+							<caption>
+								<title>Descripción de la población según índice de bienestar y nivel educativo tomando en cuenta el diseño del estudio.</title>
+							</caption>
+							<table frame="hsides" rules="groups">
+								<colgroup>
+									<col/>
+									<col/>
+									<col/>
+									<col/>
+									<col/>
+									<col/>
+									<col/>
+									<col/>
+									<col/>
+								</colgroup>
+								<thead>
+									<tr>
+										<th align="left" rowspan="5" style="font-weight:normal">
+										</th>
+										<th colspan="4">Índice de bienestar</th>
+										<th colspan="4">Nivel educativo</th>
+									</tr>
+									<tr>
+										<th colspan="4">
+											<hr/>
+										</th>
+										<th colspan="4">
+											<hr/>
+										</th>
+									</tr>
+									<tr>
+										<th>Bajo</th>
+										<th>Medio</th>
+										<th>Alto</th>
+										<th rowspan="3">p</th>
+										<th>&lt; 7 años</th>
+										<th>7–11 años</th>
+										<th>≥ 12 años</th>
+										<th rowspan="3">p</th>
+									</tr>
+									<tr>
+										<th>
+											<hr/>
+										</th>
+										<th>
+											<hr/>
+										</th>
+										<th>
+											<hr/>
+										</th>
+										<th>
+											<hr/>
+										</th>
+										<th>
+											<hr/>
+										</th>
+										<th>
+											<hr/>
+										</th>
+									</tr>
+									<tr>
+										<th>(n = 31.061) n (%)</th>
+										<th>(n = 31.236) n (%)</th>
+										<th>(n = 31.948) n (%)</th>
+										<th>(n = 25.783) n (%)</th>
+										<th>(n = 36.333) n (%)</th>
+										<th>(n = 27.960) n (%)</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Sexo</td>
+										<td>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+									</tr>
+									<tr>
+										<td>Mujer</td>
+										<td align="center">16.934 (54,1)</td>
+										<td align="center">17.426 (54.6)</td>
+										<td align="center">17.899 (56,7)</td>
+										<td align="center" rowspan="2">&lt; 0.001</td>
+										<td align="center">15.753 (61,8)</td>
+										<td align="center">18.941 (50,9)</td>
+										<td align="center">15.316 (53,6)</td>
+										<td align="center" rowspan="2">&lt; 0,001</td>
+									</tr>
+									<tr>
+										<td>Varón</td>
+										<td align="center">13.719 (45,9)</td>
+										<td align="center">13.207 (45,4)</td>
+										<td align="center">12.911 (43,3)</td>
+										<td align="center">9.895 (38,2)</td>
+										<td align="center">17.058 (49,1)</td>
+										<td align="center">12.379 (46,4)</td>
+									</tr>
+									<tr>
+										<td>Edad (años)</td>
+										<td>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+									</tr>
+									<tr>
+										<td>20–40</td>
+										<td align="center">14.913 (40,4)</td>
+										<td align="center">18.450 (49,0)</td>
+										<td align="center">16.238 (41,8)</td>
+										<td align="center" rowspan="3">&lt; 0,001</td>
+										<td align="center">8.064 (22,6)</td>
+										<td align="center">23.046 (49,8)</td>
+										<td align="center">18.420 (55,6)</td>
+										<td align="center" rowspan="3">&lt; 0,001</td>
+									</tr>
+									<tr>
+										<td>40–59</td>
+										<td align="center">9.335 (33,3)</td>
+										<td align="center">8.590 (33,3)</td>
+										<td align="center">9.862 (34,6)</td>
+										<td align="center">9.691 (38,3)</td>
+										<td align="center">10.181 (35,3)</td>
+										<td align="center">7.348 (30,7)</td>
+									</tr>
+									<tr>
+										<td>≥ 60</td>
+										<td align="center">6.547 (26,3)</td>
+										<td align="center">3.817 (17,7)</td>
+										<td align="center">5.101 (23,5)</td>
+										<td align="center">8.028 (39,1)</td>
+										<td align="center">3.106 (14,9)</td>
+										<td align="center">2.192 (13,7)</td>
+									</tr>
+									<tr>
+										<td>Ámbito geográfico</td>
+										<td>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+									</tr>
+									<tr>
+										<td>Rural</td>
+										<td align="center">25.631 (79,4)</td>
+										<td align="center">5.923 (13,4)</td>
+										<td align="center">780 (1,2)</td>
+										<td align="center" rowspan="2">&lt; 0,001</td>
+										<td align="center">15.687 (46,9)</td>
+										<td align="center">11.326 (18,4)</td>
+										<td align="center">3.063 (5,5)</td>
+										<td align="center" rowspan="2">&lt; 0,001</td>
+									</tr>
+									<tr>
+										<td>Urbano</td>
+										<td align="center">5.430 (20,6)</td>
+										<td align="center">25.313 (86,6)</td>
+										<td align="center">31.168 (98,8)</td>
+										<td align="center">10.096 (53,1)</td>
+										<td align="center">25.007 (81,6)</td>
+										<td align="center">24.897 (94,5)</td>
+									</tr>
+									<tr>
+										<td>Altitud (msnm)</td>
+										<td>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+									</tr>
+									<tr>
+										<td>&lt; 501</td>
+										<td align="center">7.548 (26,1)</td>
+										<td align="center">17.121 (63,0)</td>
+										<td align="center">21.422 (79,6)</td>
+										<td align="center" rowspan="3">&lt; 0,001</td>
+										<td align="center">9.199 (46,6)</td>
+										<td align="center">19.639 (67,4)</td>
+										<td align="center">15.809 (71,7)</td>
+										<td align="center" rowspan="3">&lt; 0,001</td>
+									</tr>
+									<tr>
+										<td>501–2.500</td>
+										<td align="center">6.371 (22,2)</td>
+										<td align="center">6.250 (15,6)</td>
+										<td align="center">6.101 (11,1)</td>
+										<td align="center">5.587 (19,9)</td>
+										<td align="center">6.742 (14,1)</td>
+										<td align="center">5.670 (12,7)</td>
+									</tr>
+									<tr>
+										<td>&gt; 2.501</td>
+										<td align="center">17.142 (51,7)</td>
+										<td align="center">7.865 (21,4)</td>
+										<td align="center">4.425 (9,3)</td>
+										<td align="center">10.997 (34,5)</td>
+										<td align="center">9.952 (18,5)</td>
+										<td align="center">6.481 (15,6)</td>
+									</tr>
+									<tr>
+										<td>Año de la Endes</td>
+										<td>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+									</tr>
+									<tr>
+										<td>2018</td>
+										<td align="center">10.554 (34,2)</td>
+										<td align="center">10.546 (34,2)</td>
+										<td align="center">10.831 (33,5)</td>
+										<td align="center" rowspan="3">0,19</td>
+										<td align="center">8.450 (33,7)</td>
+										<td align="center">12.160 (33,0)</td>
+										<td align="center">9.377 (33,0)</td>
+										<td align="center" rowspan="3">0,01</td>
+									</tr>
+									<tr>
+										<td>2019</td>
+										<td align="center">10.368 (34,0)</td>
+										<td align="center">10.461 (33,3)</td>
+										<td align="center">10.684 (33,1)</td>
+										<td align="center">8.275 (32,1)</td>
+										<td align="center">11.713 (31,5)</td>
+										<td align="center">9.339 (33,4)</td>
+									</tr>
+									<tr>
+										<td>2020</td>
+										<td align="center">10.139 (31,8)</td>
+										<td align="center">10.229 (32,5)</td>
+										<td align="center">10.433 (33,4)</td>
+										<td align="center">9.058 (34,2)</td>
+										<td align="center">12.460 (35,5)</td>
+										<td align="center">9.244 (33,6)</td>
+									</tr>
+								</tbody>
+							</table>
+							<table-wrap-foot>
+								<fn id="TFN1003">
+									<p>Endes: Encuesta Nacional Demográfica y de Salud Familiar; msnm: metros sobre el nivel del mar.</p>
+								</fn>
+							</table-wrap-foot>
+						</table-wrap>
+					</p>
+				</sec>
+				<sec>
+					<title>Descripción de la Población de Acuerdo a Riesgo Cardiovascular</title>
+					<p>La prevalencia de obesidad fue del 26% (IC95% 25,4–26,6), y esta prevalencia fue mayor en mujeres que en varones (p &lt; 0,001), en aquellos entre 40 y 59 años (p &lt; 0,001), en los residentes urbanos (p &lt; 0,001), en aquellos que vivían por debajo de los 500 msnm (p &lt; 0,001), en aquellos con 7–11 años de educación (p &lt; 0,001), y en aquellos con mayor índice de bienestar (p &lt; 0,001) ( <xref ref-type="table" rid="t2003">Tabla 2</xref> ).</p>
+					<p>
+						<table-wrap id="t2003">
+							<label>Tabla 2</label>
+							<caption>
+								<title>Descripción de la población según riesgo cardiovascular (obesidad, hipertensión y diabetes mellitus tipo 2) tomando en cuenta el diseño del estudio.</title>
+							</caption>
+							<table frame="hsides" rules="groups">
+								<colgroup>
+									<col/>
+									<col/>
+									<col/>
+									<col/>
+									<col/>
+									<col/>
+									<col/>
+								</colgroup>
+								<thead>
+									<tr>
+										<th align="left" rowspan="3" style="font-weight:normal">
+										</th>
+										<th colspan="2">Obesidad</th>
+										<th colspan="2">Hipertensión arterial</th>
+										<th colspan="2">Diabetes mellitus tipo 2</th>
+									</tr>
+									<tr>
+										<th colspan="2">
+											<hr/>
+										</th>
+										<th colspan="2">
+											<hr/>
+										</th>
+										<th colspan="2">
+											<hr/>
+										</th>
+									</tr>
+									<tr>
+										<th>(n = 19.939/80.943)</th>
+										<th>p</th>
+										<th>(n = 14.946/77.332)</th>
+										<th>p</th>
+										<th>(n = 3.083/90.401)</th>
+										<th>p</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Sexo</td>
+										<td>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+									</tr>
+									<tr>
+										<td>Mujer</td>
+										<td align="center">13.193/45.903 (29,4)</td>
+										<td align="center" rowspan="2">&lt; 0,001</td>
+										<td align="center">7.570/43.870 (22,9)</td>
+										<td align="center" rowspan="2">&lt; 0,001</td>
+										<td align="center">1.787/50.600 (4,9)</td>
+										<td align="center" rowspan="2">0,36</td>
+									</tr>
+									<tr>
+										<td>Varón</td>
+										<td align="center">6.746/35.040 (21,6)</td>
+										<td align="center">7.376/33.462 (27,4)</td>
+										<td align="center">1.296/39.801 (4,7)</td>
+									</tr>
+									<tr>
+										<td>Edad (años)</td>
+										<td>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+									</tr>
+									<tr>
+										<td>20–40</td>
+										<td align="center">9.719/43.473 (21,6)</td>
+										<td align="center" rowspan="3">&lt; 0,001</td>
+										<td align="center">3.155/41.582 (8,6)</td>
+										<td align="center" rowspan="3">&lt; 0,001</td>
+										<td align="center">444/48.083 (1,1)</td>
+										<td align="center" rowspan="3">&lt; 0,001</td>
+									</tr>
+									<tr>
+										<td>40–59</td>
+										<td align="center">7.257/23.886 (32,0)</td>
+										<td align="center">5.416/22.761 (26,3)</td>
+										<td align="center">1.311/27.127 (5,5)</td>
+									</tr>
+									<tr>
+										<td>≥ 60</td>
+										<td align="center">2.963/13.584 (25,5)</td>
+										<td align="center">6.375/12.989 (54,4)</td>
+										<td align="center">1.328/15.191 (10,9)</td>
+									</tr>
+									<tr>
+										<td>Ámbito geográfico</td>
+										<td>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+									</tr>
+									<tr>
+										<td>Rural</td>
+										<td align="center">4.507/28.188 (15,7)</td>
+										<td align="center" rowspan="2">&lt; 0,001</td>
+										<td align="center">4.898/26.807 (21,1)</td>
+										<td align="center" rowspan="2">&lt; 0,001</td>
+										<td align="center">6.06/31.577 (2,2)</td>
+										<td align="center" rowspan="2">&lt; 0,001</td>
+									</tr>
+									<tr>
+										<td>Urbano</td>
+										<td align="center">15.432/52.755 (29,0)</td>
+										<td align="center">10.048/50.525 (26,1)</td>
+										<td align="center">2.477/58.824 (5,6)</td>
+									</tr>
+									<tr>
+										<td>Altitud (msnm)</td>
+										<td>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+									</tr>
+									<tr>
+										<td>&lt; 501</td>
+										<td align="center">11.822/39.460 (29,6)</td>
+										<td align="center" rowspan="3">&lt; 0,001</td>
+										<td align="center">7.877/37.959 (26,9)</td>
+										<td align="center" rowspan="3">&lt; 0,001</td>
+										<td align="center">1.991/43.827 (5,9)</td>
+										<td align="center" rowspan="3">&lt; 0,001</td>
+									</tr>
+									<tr>
+										<td>501–2500</td>
+										<td align="center">4.039/16.137 (23,8)</td>
+										<td align="center">2.906/15.354 (23,4)</td>
+										<td align="center">585/18.038 (4,2)</td>
+									</tr>
+									<tr>
+										<td>&gt; 2501</td>
+										<td align="center">4.078/25.346 (17,5)</td>
+										<td align="center">4.163/24.019 (20,5)</td>
+										<td align="center">507/28.536 (2,4)</td>
+									</tr>
+									<tr>
+										<td>Año de la Endes</td>
+										<td>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+									</tr>
+									<tr>
+										<td>2018</td>
+										<td align="center">7.460/30.895 (25,8)</td>
+										<td align="center" rowspan="3">0,05</td>
+										<td align="center">5.351/29.151 (23,5)</td>
+										<td align="center" rowspan="3">&lt; 0,001</td>
+										<td align="center">936/31.036 (4,3)</td>
+										<td align="center" rowspan="3">0,004</td>
+									</tr>
+									<tr>
+										<td>2019</td>
+										<td align="center">7.220/30.017 (25,4)</td>
+										<td align="center">5.090/28.382 (23,1)</td>
+										<td align="center">975/30.185 (4,8)</td>
+									</tr>
+									<tr>
+										<td>2020</td>
+										<td align="center">5.259/20.031 (27,1)</td>
+										<td align="center">4.505/19.799 (29,5)</td>
+										<td align="center">1.172/29.180 (5,4)</td>
+									</tr>
+									<tr>
+										<td>Nivel educativo (años)</td>
+										<td>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+									</tr>
+									<tr>
+										<td>&lt; 7</td>
+										<td align="center">5029/22477 (25,0%)</td>
+										<td align="center" rowspan="3">&lt; 0,001</td>
+										<td align="center">5583/21457 (31,8%)</td>
+										<td align="center" rowspan="3">&lt; 0,001</td>
+										<td align="center">1027/25245 (5,8%)</td>
+										<td align="center" rowspan="3">0,001</td>
+									</tr>
+									<tr>
+										<td>7–11</td>
+										<td align="center">8351/31629 (28,2%)</td>
+										<td align="center">4813/30313 (22,6%)</td>
+										<td align="center">1065/35440 (4,4%)</td>
+									</tr>
+									<tr>
+										<td>≥ 12</td>
+										<td align="center">6193/24138 (25,2%)</td>
+										<td align="center">3595/23093 (20,9%)</td>
+										<td align="center">884/27008 (4,6%)</td>
+									</tr>
+									<tr>
+										<td>Índice de bienestar</td>
+										<td>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+										<td>
+										</td>
+									</tr>
+									<tr>
+										<td>Bajo</td>
+										<td align="center">3986/26919 (15,0%)</td>
+										<td align="center" rowspan="3">&lt; 0,001</td>
+										<td align="center">4662/25561 (21,5%)</td>
+										<td align="center" rowspan="3">&lt; 0,001</td>
+										<td align="center">517/30339 (2,2%)</td>
+										<td align="center" rowspan="3">&lt; 0,001</td>
+									</tr>
+									<tr>
+										<td>Medio</td>
+										<td align="center">7429/27032 (27,4%)</td>
+										<td align="center">4618/25910 (22,6%)</td>
+										<td align="center">1061/30167 (4,4%)</td>
+									</tr>
+									<tr>
+										<td>Alto</td>
+										<td align="center">8524/26992 (30,3%)</td>
+										<td align="center">5666/25861 (28,0%)</td>
+										<td align="center">1505/29895 (6,3%)</td>
+									</tr>
+								</tbody>
+							</table>
+						</table-wrap>
+					</p>
+					<p>De otro lado, la prevalencia de hipertensión arterial fue del 24,9% (IC95% 24,3–25,5), con más frecuencia en los varones (p &lt; 0,001), en aquellos de mayor edad (p &lt; 0,001), en los residentes de áreas urbanas (p &lt; 0,001), en aquellos que vivían por debajo de los 500 msnm (p &lt; 0,001), en aquellos con menor nivel educativo (p &lt; 0,001), en aquellos con mayor índice de bienestar (p &lt; 0,001), y en los evaluados en el año 2020 (p &lt; 0,001) ( <xref ref-type="table" rid="t2003">Tabla 2</xref> ).</p>
+					<p>Finalmente, la prevalencia de diabetes mellitus tipo 2 fue del 4,8% (IC95% 4,5–5,1), y fue más frecuente en los participantes de mayor edad (p &lt; 0,001), en los residentes de áreas urbanas (p &lt; 0,001), en aquellos que vivían por debajo de los 500 msnm (p &lt; 0,001), en aquellos con menor nivel educativo (p &lt; 0,001), los que tenían un mayor índice de bienestar (p &lt; 0,001), y en los evaluados en el año 2020 (p = 0,004) ( <xref ref-type="table" rid="t2003">Tabla 2</xref> ).</p>
+				</sec>
+				<sec>
+					<title>Asociación entre Nivel Socioeconómico, Nivel Educativo y Riesgo Cardiovascular</title>
+					<p>En modelo multivariable ( <xref ref-type="table" rid="t3003">Tabla 3</xref> ), hubo asociación entre el nivel socioeconómico, medido mediante el índice de bienestar y la presencia de obesidad, hipertensión y diabetes mellitus tipo 2. Así, comparado con los participantes con índice de bienestar bajo, aquellos con un índice de bienestar alto tenían 49% más prevalencia de obesidad (RP = 1,49; IC95% 1,38–1,62). De la misma forma, los de índice de bienestar alto tenían mayor prevalencia de hipertensión (RP = 1,09; IC95% 1,02–1,17) y de diabetes mellitus tipo 2 (RP = 1,72; IC95% 1,29–2,29) en comparación con los de índice de bienestar bajo. El mismo hallazgo de asociación fue válido para aquellos con el índice de bienestar medio, excepto para el caso de hipertensión.</p>
+					<p>
+						<table-wrap id="t3003">
+							<label>Tabla 3</label>
+							<caption>
+								<title>Asociación entre nivel socioeconómico y riesgo cardiovascular. Modelos crudos y ajustados tomando en cuenta el diseño del estudio.</title>
+							</caption>
+							<table frame="hsides" rules="groups">
+								<colgroup>
+									<col/>
+									<col/>
+									<col/>
+									<col/>
+									<col/>
+									<col/>
+									<col/>
+								</colgroup>
+								<thead>
+									<tr>
+										<th align="left" rowspan="3" style="font-weight:normal">
+										</th>
+										<th colspan="2">Obesidad</th>
+										<th colspan="2">Hipertensión arterial</th>
+										<th colspan="2">Diabetes mellitus tipo 2</th>
+									</tr>
+									<tr>
+										<th colspan="2">
+											<hr/>
+										</th>
+										<th colspan="2">
+											<hr/>
+										</th>
+										<th colspan="2">
+											<hr/>
+										</th>
+									</tr>
+									<tr>
+										<th>RP<sub>crudo</sub>(IC95%)</th>
+										<th>RP<sub>ajustada</sub><sup>a</sup>(IC95%)</th>
+										<th>RP<sub>crudo</sub>(IC95%)</th>
+										<th>RP<sub>ajustada</sub><sup>a</sup>(IC95%)</th>
+										<th>RP<sub>crudo</sub>(IC95%)</th>
+										<th>RP<sub>ajustada</sub><sup>a</sup>(IC95%)</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Nivel educativo (años)</td>
+										<td align="center">(n = 82.845)</td>
+										<td align="center">(n = 82.845)</td>
+										<td align="center">(n = 79.464)</td>
+										<td align="center">(n = 79.464)</td>
+										<td align="center">(n = 92.294)</td>
+										<td align="center">(n = 92.294)</td>
+									</tr>
+									<tr>
+										<td>&lt; 7 (ref.)</td>
+										<td align="center">1</td>
+										<td align="center">1</td>
+										<td align="center">1</td>
+										<td align="center">1</td>
+										<td align="center">1</td>
+										<td align="center">1</td>
+									</tr>
+									<tr>
+										<td>7–11</td>
+										<td align="center"><bold>1,13 (1,07–1,19)</bold></td>
+										<td align="center">1,04 (0,98–1,10)</td>
+										<td align="center"><bold>0,71 (0,67–0,75)</bold></td>
+										<td align="center">0,97 (0,92–1,02)</td>
+										<td align="center"><bold>0,76 (0,66–0,88)</bold></td>
+										<td align="center">0,98 (0,84–1,14)</td>
+									</tr>
+									<tr>
+										<td>≥ 12</td>
+										<td align="center">1,01 (0,95–1,07)</td>
+										<td align="center"><bold>0,89 (0,84–0,95)</bold></td>
+										<td align="center"><bold>0,66 (0,62–0.70)</bold></td>
+										<td align="center">0,94 (0,89–1,01)</td>
+										<td align="center"><bold>0,80 (0,69–0,92)</bold></td>
+										<td align="center">1,06 (0,91–1,23)</td>
+									</tr>
+									<tr>
+										<td>Índice de bienestar</td>
+										<td align="center">(n = 85.544)</td>
+										<td align="center">(n = 85.544)</td>
+										<td align="center">(n = 81.933)</td>
+										<td align="center">(n = 81.933)</td>
+										<td align="center">(n = 95.002)</td>
+										<td align="center">(n = 95.002)</td>
+									</tr>
+									<tr>
+										<td>Bajo (ref.)</td>
+										<td align="center">1</td>
+										<td align="center">1</td>
+										<td align="center">1</td>
+										<td align="center">1</td>
+										<td align="center">1</td>
+										<td align="center">1</td>
+									</tr>
+									<tr>
+										<td>Medio</td>
+										<td align="center"><bold>1,83 (1,73–1,94)</bold></td>
+										<td align="center"><bold>1,46 (1,36–1,58)</bold></td>
+										<td align="center">1,05 (0,99–1,11)</td>
+										<td align="center">1,04 (0,97–1,11)</td>
+										<td align="center"><bold>2,02 (1,69–2,41)</bold></td>
+										<td align="center"><bold>1,55 (1,19–2,01)</bold></td>
+									</tr>
+									<tr>
+										<td>Alto</td>
+										<td align="center"><bold>2,03 (1,91–2,15)</bold></td>
+										<td align="center"><bold>1,49 (1,38–1,62)</bold></td>
+										<td align="center"><bold>1,30 (1,23 - 1,37)</bold></td>
+										<td align="center"><bold>1,09 (1,02 - 1,17)</bold></td>
+										<td align="center"><bold>2,88 (2,43–3,42)</bold></td>
+										<td align="center"><bold>1,72 (1,29–2,29)</bold></td>
+									</tr>
+								</tbody>
+							</table>
+							<table-wrap-foot>
+								<fn id="TFN2003">
+									<p>En negrita, estimados que son significativos (p &lt; 0,05).</p>
+								</fn>
+								<fn id="TFN3003">
+									<p><sup>a</sup>Modelo ajustado por sexo, edad, ámbito geográfico, altitud, y año de la Encuesta Nacional Demográfica y de Salud Familiar (Endes).</p>
+								</fn>
+							</table-wrap-foot>
+						</table-wrap>
+					</p>
+					<p>De otro lado, en modelo multivariable solo se encontró asociación entre el nivel educativo y obesidad: aquellos con el mayor nivel educativo tenían el 11% menor probabilidad de presentar obesidad (RP = 0,89; IC95% 0,84–0,95) en comparación con los de menor nivel educativo ( <xref ref-type="table" rid="t3003">Tabla 3</xref> ). Este hallazgo no fue válido para hipertensión o diabetes mellitus tipo 2.</p>
+				</sec>
+			</sec>
+			<sec sec-type="discussion">
+				<title>DISCUSIÓN</title>
+				<p>Este estudio evidencia una asociación diferencial entre los indicadores de nivel socioeconómico y la presencia de enfermedades no transmisibles: el índice de bienestar estuvo asociado a la presencia de obesidad, hipertensión y diabetes mellitus tipo 2. Así, aquellos con un índice de bienestar medio o alto tuvieron mayor prevalencia de cualquiera de los riesgos cardiovasculares evaluados. Sin embargo, este no fue el caso para el nivel educativo, ya que aquellos con mayor educación tuvieron menor prevalencia de obesidad, pero no las otras condiciones crónicas estudiadas. Finalmente, 1 de cada 4 presentaron obesidad, 1 de cada 5 presentaron hipertensión, y alrededor de 1 de cada 20 tuvieron diabetes mellitus tipo 2.</p>
+				<p>Un estudio de cohorte en Brasil reportó que los participantes con nivel socioeconómico alto tuvieron mayor riesgo de sobrepeso y obesidad comparados con los de nivel bajo, y ese riego fue mayor en aquellos que siempre se mantuvieron en el nivel alto<sup><xref ref-type="bibr" rid="B17">17</xref></sup> . Otros estudios han evaluado la asociación entre nivel socioeconómico y riesgo cardiovascular usando estudios transversales<sup><xref ref-type="bibr" rid="B18">18</xref></sup> . Dicha asociación suele ser variable dependiendo del indicador socioeconómico usado y la fase de la transición nutricional y epidemiológica en el que la población se encuentra. Así, en los países desarrollados, usualmente los factores de riesgo cardiovascular se encuentran en las personas con bajo nivel socioeconómico<sup><xref ref-type="bibr" rid="B20">20</xref> , <xref ref-type="bibr" rid="B22">22</xref></sup> , mientras que en los países en desarrollo suele ser variable.</p>
+				<p>Un estudio previo en Perú, usando la cohorte CRONICAS, reportó que la población de mayores ingreso e índice de activos tuvo más chances de tener obesidad, mientras que aquellos con niveles más altos de educación tuvieron una menor prevalencia de obesidad<sup><xref ref-type="bibr" rid="B21">21</xref></sup> . Este resultado coincide con nuestros hallazgos usando datos representativos del país. Otro estudio que analizó la asociación entre nivel socioeconómico, educación y obesidad en mujeres peruanas mostró que la obesidad fue más frecuente en mujeres con posición socioeconómica más alta; además, hubo una menor prevalencia de obesidad en aquellas con mayor nivel educativo<sup><xref ref-type="bibr" rid="B23">23</xref></sup> .</p>
+				<p>Nuestros resultados parecen estar acordes a estudios previos, en que el índice de bienestar, usado como un surrogado del nivel socioeconómico, tiene una más clara asociación con los factores de riesgo cardiovascular que el nivel educativo; y expande estos resultados a condiciones como la hipertensión arterial y diabetes mellitus tipo 2 que han sido reportadas en trabajos internacionales<sup><xref ref-type="bibr" rid="B24">24</xref></sup> . Los resultados, aparentemente contradictorios y usando el índice de bienestar y el nivel educativo, podrían tener sustento en la transición nutricional que sufre la población peruana. Los cambios en patrones de dieta y de actividad física pueden verse empujados inicialmente por el desarrollo económico del país, el cual ha sido patente en los últimos treinta años en Perú. Así, el aumento en la prevalencia de obesidad, hipertensión y diabetes mellitus tipo 2 se debería a la disponibilidad de alimentos procesados y de alto contenido energético, asociado a un estilo de vida sedentario que se ve inicialmente en los grupos con mayor ingreso económico, para luego afectar a los de menores ingresos con la reducción subsecuente de la prevalencia de estos factores de riesgo cardiovascular en los grupos con mejor educación<sup><xref ref-type="bibr" rid="B28">28</xref></sup> . Esto parece ser claro para obesidad, pero no es visible aún para hipertensión o diabetes mellitus tipo 2.</p>
+				<p>Nuestro estudio podría ayudar a definir estrategias de prevención dirigidas a la población más vulnerable de tener enfermedades crónicas, usualmente los más vulnerables económicamente; sin embargo, aún existe una mayor prevalencia de estos factores de riesgo en los de nivel socioeconómico medio-alto. La evidencia actual sugiere que el impacto de la transición se está viendo más en las zonas rurales que en las urbanas, especialmente en el caso de obesidad<sup><xref ref-type="bibr" rid="B29">29</xref></sup> . Resultados previos sugieren que el Perú está en una etapa de postransición epidemiológica, en la cual más del 80% de las muertes son atribuidas a enfermedades no transmisibles<sup><xref ref-type="bibr" rid="B30">30</xref></sup> , lo que puede significar un mayor reto al sistema de salud. Las intervenciones generadas deberían ser específicas de cada contexto, especialmente en aquellos sitios donde el sistema de salud puede no tener un acceso apropiado (zonas rurales y urbano marginales) que es donde el problema de las condiciones no transmisibles terminará alojándose.</p>
+				<p>Este trabajo usa información de un estudio de base poblacional con representatividad regional y nacional para evaluar las asociaciones de interés. Sin embargo, hay algunas limitaciones que deben ser resaltadas. Primero, al ser un estudio transversal, solo permitió determinar asociación y no causalidad entre exposiciones y efectos. Aunque la temporalidad podría ser un problema, vemos poco probable que exista causalidad reversa en este análisis. En segundo lugar, diabetes mellitus fue evaluado por autoreporte y no en forma objetiva. Se sabe que solo el 50% de la población con diabetes sabe que tiene el diagnóstico, y realizarse la prueba, probablemente, dependa del nivel socioeconómico de las personas, por lo que esto podría tener un efecto en las asociaciones reportadas. Sin embargo, nuestros hallazgos muestran resultados similares a otros estudios. Finalmente, otras variables de interés, potenciales confusores como la dieta o los niveles de actividad física, no fueron incluidos por no ser colectados en forma rutinaria por la Endes.</p>
+				<p>En conclusión, existe asociación diferencial entre el índice de bienestar, el nivel educativo y los marcadores de enfermedades no transmisibles: hay evidencia de asociación positiva entre el índice de bienestar y obesidad, hipertensión y diabetes mellitus tipo 2, mientras que el nivel educativo solo estuvo asociado de forma negativa a obesidad.</p>
+			</sec>
+		</body>
+	</sub-article>
+</article>

@@ -1,0 +1,2006 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.1" specific-use="sps-1.9" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="nlm-ta">Rev Saude Publica</journal-id>
+			<journal-id journal-id-type="publisher-id">rsp</journal-id>
+			<journal-title-group>
+				<journal-title>Revista de Saúde Pública</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Rev. Saúde Pública</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="ppub">0034-8910</issn>
+			<issn pub-type="epub">1518-8787</issn>
+			<publisher>
+				<publisher-name>Faculdade de Saúde Pública da Universidade de São Paulo</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="other">00200</article-id>
+			<article-id pub-id-type="doi">10.11606/s1518-8787.2022056003680</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Original Article</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>The transmission of visceral leishmaniasis in the municipality of Guarujá, on the Coast of São Paulo state, Brazil</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-8944-0939</contrib-id>
+					<name>
+						<surname>Casanova</surname>
+						<given-names>Claudio</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-8841-2004</contrib-id>
+					<name>
+						<surname>Motoie</surname>
+						<given-names>Gabriela</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-0923-3156</contrib-id>
+					<name>
+						<surname>Domingos</surname>
+						<given-names>Maria de Fátima</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-5939-2868</contrib-id>
+					<name>
+						<surname>Silva</surname>
+						<given-names>Vanessa Gusmon da</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>III</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-2366-1576</contrib-id>
+					<name>
+						<surname>Silva</surname>
+						<given-names>Mariana Dantas da</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>III</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-4662-281X</contrib-id>
+					<name>
+						<surname>Galati</surname>
+						<given-names>Eunice Aparecida Bianchi</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff4"><sup>IV</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-2105-7941</contrib-id>
+					<name>
+						<surname>Galvis-Ovallos</surname>
+						<given-names>Fredy</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff4"><sup>IV</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>I</label>
+				<institution content-type="orgname">Superintendência de Controle de Endemias</institution>
+				<addr-line>
+					<named-content content-type="city">São Paulo</named-content>
+					<named-content content-type="state">SP</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Superintendência de Controle de Endemias. São Paulo, SP, Brasil</institution>
+			</aff>
+			<aff id="aff2">
+				<label>II</label>
+				<institution content-type="orgname">Instituto Adolfo Lutz</institution>
+				<addr-line>
+					<named-content content-type="city">São Paulo</named-content>
+					<named-content content-type="state">SP</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Instituto Adolfo Lutz. São Paulo, SP, Brasil</institution>
+			</aff>
+			<aff id="aff3">
+				<label>III</label>
+				<institution content-type="orgname">Universidade de São Paulo</institution>
+				<institution content-type="orgdiv1">Faculdade de Saúde Pública</institution>
+				<institution content-type="orgdiv2">Programa de Pós-Graduação em Saúde Pública</institution>
+				<addr-line>
+					<named-content content-type="city">São Paulo</named-content>
+					<named-content content-type="state">SP</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Universidade de São Paulo. Faculdade de Saúde Pública. Programa de Pós-Graduação em Saúde Pública. São Paulo, SP, Brasil</institution>
+			</aff>
+			<aff id="aff4">
+				<label>IV</label>
+				<institution content-type="orgname">Universidade de São Paulo</institution>
+				<institution content-type="orgdiv1">Faculdade de Saúde Pública</institution>
+				<institution content-type="orgdiv2">Departamento de Epidemiologia</institution>
+				<addr-line>
+					<named-content content-type="city">São Paulo</named-content>
+					<named-content content-type="state">SP</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Universidade de São Paulo. Faculdade de Saúde Pública. Departamento de Epidemiologia. São Paulo, SP, Brasil</institution>
+			</aff>
+			<author-notes>
+				<corresp id="c01"> Correspondence: Fredy Galvis Ovallos Av. Dr. Arnaldo, 715 012406-904 São Paulo, SP, Brasil E-mail: <email>fgalvis@usp.br</email>
+				</corresp>
+				<fn fn-type="con">
+					<p><bold>Authors’ Contribution:</bold> Study design and planning: CC, FGO. Data collection, analysis and interpretation: CC, MFD, GM, EABG, VGS, MDS, FGO. Manuscript drafting or review: FGO, CC, EABG. Approval of the final version: CC, MFD, GM, EABG, VGS, MDS, FGO. Public responsibility for the content of the article: CC, MFD, GM, EABG, VGS, MDS, FGO.</p>
+				</fn>
+				<fn fn-type="conflict">
+					<p><bold>Conflict of Interests:</bold> The authors declare no conflict of interest.</p>
+				</fn>
+			</author-notes>
+			<pub-date date-type="pub" publication-format="electronic">
+				<day>23</day>
+				<month>02</month>
+				<year>2022</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">
+				<year>2022</year>
+			</pub-date>
+			<volume>56</volume>
+			<elocation-id>1</elocation-id>
+			<history>
+				<date date-type="received">
+					<day>27</day>
+					<month>03</month>
+					<year>2021</year>
+				</date>
+				<date date-type="accepted">
+					<day>27</day>
+					<month>05</month>
+					<year>2021</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="en">
+					<license-p> This is an Open Access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. </license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>ABSTRACT</title>
+				<sec>
+					<title>OBJECTIVE</title>
+					<p> To perform an entomological survey, evaluating the circulation of <italic>Leishmania</italic> spp. in sand flies captured from the new foci of visceral leishmaniasis (VL) in the coastal region of São Paulo state.</p>
+				</sec>
+				<sec>
+					<title>METHODS</title>
+					<p> Sand flies were captured from November 2016 to September 2018 using light traps of the Centers for Disease Control (CDC), in the neighborhood where VL cases were reported. <italic>Leishmania</italic> spp. circulation was evaluated by gut dissection and molecular analysis of the females captured.</p>
+				</sec>
+				<sec>
+					<title>RESULTS</title>
+					<p><italic>Nyssomyia intermedia</italic> was the more frequent species (90,7%) within the 1,203 sand flies captured. We found no flagellates in dissected females, but two pools containing females of <italic>Ny. intermedia</italic> presented DNA of <italic>L. infantum</italic>.</p>
+				</sec>
+				<sec>
+					<title>CONCLUSION</title>
+					<p> Our results suggest that <italic>Ny. intermedia</italic> might be involved in the establishment of this new VL focus in Sao Paulo. However, before incriminating this species as a <italic>L. infantum</italic> vector, further studies should investigate other vectorial capacity parameters, including competence, survival, and feeding habits.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="en">
+				<kwd>Leishmaniasis, Visceral, transmission</kwd>
+				<kwd>Disease Vectors</kwd>
+				<kwd>Psychodidae, parasitology</kwd>
+				<kwd>Disease Outbreaks</kwd>
+			</kwd-group>
+			<funding-group>
+				<award-group>
+					<funding-source>Coordenação de Aperfeiçoamento de Pessoal de Nível Superior</funding-source>
+					<award-id>88882.315727/2019-01</award-id>
+				</award-group>
+				<funding-statement>Funding: Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (Capes - Fellowship FGO - Process 88882.315727/2019-01).</funding-statement>
+			</funding-group>
+			<counts>
+				<fig-count count="2"/>
+				<table-count count="1"/>
+				<equation-count count="0"/>
+				<ref-count count="48"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>INTRODUCTION</title>
+			<p>In America, Visceral Leishmaniasis (VL) is a neglected tropical disease (NTD) caused by the protozoan <italic>Leishmania</italic> (<italic>Leishmania</italic>) <italic>infantum</italic>, widely distributed from southern United States to Argentina<sup><xref ref-type="bibr" rid="B1">1</xref>,<xref ref-type="bibr" rid="B2">2</xref></sup>. The disease has been spreading in Brazil, especially in urban ecosystems due to the urbanization of <italic>Lutzomyia longipalpis</italic> species complex, its main vector <sup><xref ref-type="bibr" rid="B3">3</xref>,<xref ref-type="bibr" rid="B4">4</xref></sup>. Such complex can find several blood feeding sources in the urban environment, including domestic dogs (<italic>Canis familiaris</italic>) – the main urban reservoir of <italic>L. infantum</italic><sup><xref ref-type="bibr" rid="B5">5</xref></sup>. As a result of this agent-vector-host interaction, the incidence of both canine and human VL has increased in all the geographical regions of the country<sup><xref ref-type="bibr" rid="B6">6</xref></sup>, which recorded 27,233 cases from 2011 to 2018, representing an average of 3,404 new cases per year<sup><xref ref-type="bibr" rid="B10">10</xref></sup>.</p>
+			<p>Many factors have been associated with VL occurrence, including socioeconomic determinants such as poverty and limited access to health services<sup><xref ref-type="bibr" rid="B11">11</xref></sup>. However, factors related to the vector-host ecology and the landscape also help defining different transmission scenarios<sup><xref ref-type="bibr" rid="B3">3</xref>,<xref ref-type="bibr" rid="B14">14</xref></sup>. Two populations of the <italic>Lu. longipalpis</italic> complex have been reported in the state of São Paulo, namely Cembrene 1 and (S)-9-methylgermacrene-B<sup><xref ref-type="bibr" rid="B3">3</xref></sup>. Since the end of the 1990s, canine and human VL cases have been reported in areas where the (S)-9-methyllermacrene-B population is present<sup><xref ref-type="bibr" rid="B17">17</xref></sup>. Studies have shown that proximity to the Bolivia-Brazil gas pipeline and high annual average temperatures influenced <italic>Lu. longipalpis</italic> complex spread<sup><xref ref-type="bibr" rid="B18">18</xref></sup>. Moreover, the notification of infected dogs and their dispersion were associated with highways and previous reports of competent vectors<sup><xref ref-type="bibr" rid="B20">20</xref></sup>.</p>
+			<p>The dispersion of infected dogs is a key factor for the emergence of new foci of VL in locations with sand fly species, be them vectors of the LV agent or not<sup><xref ref-type="bibr" rid="B13">13</xref></sup>. Unlike areas where (S)-9-methylgermacrene-B and Cembrene 1 populations of <italic>Lu. longipalpis</italic> occur in São Paulo<sup><xref ref-type="bibr" rid="B3">3</xref>,<xref ref-type="bibr" rid="B21">21</xref></sup>, human VL cases were reported in the metropolitan region of São Paulo (Diadema municipality) in 1979<sup><xref ref-type="bibr" rid="B22">22</xref></sup>, and canine cases have been reported in the municipalities of Cotia and Embu das Artes since 2003 <sup><xref ref-type="bibr" rid="B23">23</xref></sup> – areas without the presence of <italic>Lu. longipalpis</italic> complex and where <italic>Pintomyia fischeri</italic> was the predominant sand fly species. Studies in these two municipalities have indicated <italic>Pi. fischeri</italic> as a potential vector of <italic>L. infantum</italic><sup><xref ref-type="bibr" rid="B24">24</xref></sup>.</p>
+			<p>A recent focus of VL has been reported in the municipality of Guarujá, with three human cases and two deaths registered between 2016 and 2017<sup><xref ref-type="bibr" rid="B25">25</xref></sup>, without the presence of <italic>Lutzomyia longipalpis</italic>. Thus, this study sought identify the phlebotomine fauna and investigate natural infection by <italic>L. infantum</italic> in this focus sand fly species, contributing to VL surveillance.</p>
+		</sec>
+		<sec sec-type="methods">
+			<title>METHODS</title>
+			<sec>
+				<title>Study Area</title>
+				<p>Guarujá (23º 59’ 35” S, 46º 15’ 23” W) is located on the coastal region of São Paulo (<xref ref-type="fig" rid="f01">Fig. 1</xref>), with a mean altitude of 140 meters above sea level (MASL) and highest altitude of 300 m<sup><xref ref-type="bibr" rid="B26">26</xref></sup>. The municipality’s population is 380,000 inhabitants<sup><xref ref-type="bibr" rid="B27">27</xref></sup>, and its climate is classified as tropical wet Af according to Köeppen’s climate classification<sup><xref ref-type="bibr" rid="B28">28</xref></sup>, with an average annual temperature of 21.8 ºC and an average annual rainfall of 2,556 mm. The first autochthonous VL cases in this municipality were reported in 2016/2017, in the Balneário Cidade Atlântica, on Enseada beach, Morro da Enseada (23°58’02.0”S, 46°13’27.8”W), two of which affected children and another one a dog. This locality is situated in a high altitude area, whose slopes are covered with original Atlantic forest vegetation<sup><xref ref-type="bibr" rid="B26">26</xref></sup>. The population consists of low-income residents living in shacks built on the edge of the native forest, with shelters for domestic animals such as dogs and chickens – a result of the haphazard urban growth.</p>
+				<p>
+					<fig id="f01">
+						<label>Figure 1</label>
+						<caption>
+							<title>Geographical localization of São Paulo state, the Guarujá municipality, and the municipalities with canine VL cases reported in the Alto Tiete Region.</title>
+						</caption>
+						<graphic xlink:href="1518-8787-rsp-56-1-gf01.tif"/>
+					</fig>
+				</p>
+			</sec>
+			<sec>
+				<title>Sand Flies: Collection, Identification, and Investigation of Flagellates and Leishmania infantum DNA</title>
+				<p>Collections were conducted from 5 pm to 8 am during 14 months, from November 2016 to September 2018, using light traps of the Center for Diseases Control (CDC). Traps were installed in the peridomicile of the house where cases had occurred, as well as in four nearby houses (about 300 meters away). Sand flies were transported to the LESP/Phlebotominae Laboratory of the School of Public Health of the University of São Paulo, where specimens were processed. For identification, males were clarified and mounted on slides, according to the method proposed by Forattini<sup><xref ref-type="bibr" rid="B29">29</xref></sup>, and females were dissected, as described in Diniz et al.<sup><xref ref-type="bibr" rid="B30">30</xref></sup>. Specimens were identified based on spermathecae and head characteristics during examination using a Galati’s key<sup><xref ref-type="bibr" rid="B31">31</xref></sup>.</p>
+				<p>Flagellates presence was investigated by dissecting some of the females captured and observing their guts under the optical microscope (400 X). To investigate the presence of <italic>Leishmania</italic> DNA, samples of these and other females that did not have their guts examined were grouped into pools, each consisting of a maximum of 20 females of the same species and that were collected in the same place and day. While awaiting the DNA extraction process, specimens were stored in 1.5 mL microtubes with isopropyl alcohol at 4 °C. To calculate the frequency of sand flies by month of capture, the numbers of males and females were plotted on an Excel matrix. Average monthly rainfall was obtained from the Accuweather website<sup><xref ref-type="bibr" rid="B32">32</xref></sup>.</p>
+			</sec>
+			<sec>
+				<title>Sand Fly DNA Extraction</title>
+				<p>DNA extraction was performed for individual samples as well as for pools of up to 30 sand fly specimens using a QIAamp DNA Mini Kit (Qiagen) according to the manufacturer’s instructions, as described by dos Santos Brighente et al.<sup><xref ref-type="bibr" rid="B33">33</xref></sup>. DNA concentration and purity were assessed by the ratio of optical density (OD) at 260 and 280 nm using the NanoDrop ND1000 (Thermo Scientific). DNA was stored at -20 °C until analysis.</p>
+			</sec>
+			<sec>
+				<title>PCR for Detection of <italic>Leishmania</italic> DNA</title>
+				<p><italic>Leishmania</italic> genus and <italic>L</italic>. (<italic>L</italic>.) <italic>infantum</italic> were identified by polymerase chain reaction (PCR), using the following primers: 150- 5’GGGKAGGGGCGTTCTSCGAA3’ and 152-5’SSSWCTATWTTACACCAACCCC3’ for <italic>Leishmania</italic> genus<sup><xref ref-type="bibr" rid="B34">34</xref></sup> and RV1- 5’CTTTTCTGGTCCCGCGGGTAGG3’ and RV2 -5’CCACCTGGCCTATTTTACACCA3’<sup><xref ref-type="bibr" rid="B35">35</xref>,<xref ref-type="bibr" rid="B36">36</xref></sup> for <italic>L</italic>. (<italic>L</italic>.) <italic>infantum</italic>. While the first primer amplifies the kDNA minicircle conserved region of <italic>Leishmania</italic> sp., the last one amplifies the kDNA minicircle variable region of <italic>L. donovani</italic> complex. PCR were performed with 25 μL Go Taq Green Master Mix (Promega) containing 1μM of each primer and 3 μL of DNA. All reactions included one positive (DNA extracted from L. infantum, reference strain MHOM/BR/74/PP75) and one negative control (ultrapure water). To assure the quality of the extracted DNA and the integrity of negative results, all samples were tested using the primers Lu.18S 1S- TGCCAGTAGTTATATGCTTG and Lu.18S AR- CACCTACGGAAACCTTGTTAC, which amplify the 18SrRNA gene – a conserved region of <italic>Lutzomyia</italic> species<sup><xref ref-type="bibr" rid="B37">37</xref></sup>. In these tests, PCR were performed in a final volume of 25 μL containing 0,45μM of each primer and 1 μL of DNA. PCR products were electrophoresed in 2% agarose gel stained with ethidium bromide and visualized under UV illumination.</p>
+			</sec>
+		</sec>
+		<sec sec-type="results">
+			<title>RESULTS</title>
+			<p><italic>Ny. intermedia</italic> was the most prevalent species (n = 1,091) within the 1,203 collected specimens, representing 90.7% of the total. The least common species among the study sample were <italic>Migonemyia migonei</italic> (5.2%), <italic>Psathyromyia pascalei</italic> (3.1%), <italic>Pintomyia fischeri</italic> (0.9%), and <italic>Psychodopygus ayrozai</italic> (0.1%).</p>
+			<p><italic>Nyssomyia intermedia</italic> was the only species present in all captures, so that this study description of sand flies monthly distribution refers to that species. In total, 723 females (66.3%) and 368 males (33.7%) of <italic>Ny. intermedia</italic> were captured throughout the study period (<xref ref-type="table" rid="t1">Table 1</xref>), with higher frequencies in the dry season, during June 2016 (16.6%) and June 2017 (18.0%), which were also the months with the lowest rainfall averages (<xref ref-type="fig" rid="f02">Fig. 2</xref>).</p>
+			<p>
+				<fig id="f02">
+					<label>Figure 2</label>
+					<caption>
+						<title>Monthly distribution of rainfall and number of <italic>Nyssomia intermedia</italic> sand flies collected from November 2016 to September 2018 in Morro da Enseada, Balneário Cidade Atlântica, Enseada beach, Guarujá, São Paulo, Brazil.</title>
+					</caption>
+					<graphic xlink:href="1518-8787-rsp-56-1-gf02.tif"/>
+				</fig>
+			</p>
+			<p>Samples of all species captured were analyzed by dissection and/or PCR assay. Regarding <italic>Ny. intermedia,</italic> 332 females (46%) were dissected and had their guts examined for the presence of flagellates. The same was performed with females of other species, including <italic>Mg. migonei</italic> (19/28), <italic>Pa. pascalei</italic> (3/26), <italic>Pi. fischeri</italic> (2/11), and <italic>Ps. ayrozai</italic> (1/1). However, we found no flagellates in dissected specimens.</p>
+			<p>In total, 345 females of all species underwent PCR analysis to detect the presence of <italic>Leishmania</italic> spp and <italic>L. infantum</italic> DNA. These females were captured in January and June 2017; and February, April, June, and September 2018 – an interval that includes both rainy and dry seasons. We analyzed 28 pools containing 337 females of <italic>Ny. intermedia</italic> (<xref ref-type="table" rid="t1">Table 1</xref>), as well as three pools and individual samples (n = 4) of <italic>Mg. migonei</italic>, and individual samples of <italic>Pi. fischeri</italic> (n = 2), <italic>Ps. ayrozai</italic> (n = 1), and <italic>Pa. pascalei</italic> (n = 1).</p>
+			<p><italic>Lutzomyia</italic> spp. housekeeping gene was amplified in all DNA samples.</p>
+			<p>We verified the presence of <italic>Leishmania</italic> DNA in two pools of <italic>Ny. intermedia</italic>: one of them containing 17 specimens (minimum rate: 1/17; 6.0%) collected in January 2017 and the other containing 20 specimens (minimum rate 1/20; 5.0%) collected in June 2018. Using the specific primers RV1/RV2 to detect <italic>L. donovani</italic> complex DNA, we verified the occurrence of <italic>L. infantum</italic> in both pools. Thus, the minimum rate of females of <italic>Ny. intermedia</italic> carrying <italic>L. infantum</italic> DNA was 1.9% among the total number of females examined in January 2017 (n = 42); 1% among females examined in June 2018 (n = 100); and 0.59% among the total sample (2/337). We detected no <italic>Leishmania</italic> DNA in the samples of <italic>Mg. migonei, Pi. fischeri, Pa. pascalei,</italic> and <italic>Ps. ayrozai</italic>. A total of 187 (55.5%) of females examined by PCR were also dissected, with negative results for both flagellates and <italic>L. infantum</italic> DNA.</p>
+		</sec>
+		<sec sec-type="discussion">
+			<title>DISCUSSION</title>
+			<p>When investigating specimens captured from a new focus of VL in Guarujá, where human and canine cases have been reported, we verified the predominance of <italic>Ny. intermedia</italic> sand flies and the presence of <italic>L. infantum</italic> DNA<sup><xref ref-type="bibr" rid="B38">38</xref></sup>. We captured no specimens of <italic>Lu. longipalpis</italic> during the study period, indicating that VL transmission in this area occurs by means of other sand fly species. Considering that density influences vector capacity<sup><xref ref-type="bibr" rid="B15">15</xref>,<xref ref-type="bibr" rid="B39">39</xref></sup> and that <italic>Ny. intermedia</italic> was the only species present in all captures, besides always being the most numerous, we may rightfully infer that this species participates in <italic>L. infantum</italic> transmission within this focus. Other potential vectors of <italic>L. infantum</italic> were identified in the area, such as <italic>Pi. fischeri</italic> and <italic>Mg. migonei</italic><sup><xref ref-type="bibr" rid="B24">24</xref>,<xref ref-type="bibr" rid="B40">40</xref></sup>; however, these species were low in density, indicating that they could not possibly maintain the transmission cycle – only 5% of females captured were of <italic>Mg. migonei</italic>, and the number falls even further with <italic>Pi. fischeri</italic>, accounting for 0.9%.</p>
+			<p><italic>Nyssomyia intermedia</italic> is a widespread sand fly species in Brazil, especially in the Atlantic Forest biome (Galati, 2018). As reported by Brito et al.<sup><xref ref-type="bibr" rid="B41">41</xref></sup> in a study conducted in a northern coastal area of São Paulo, its highest frequencies occur in the dry season (<xref ref-type="fig" rid="f02">Figure 2</xref>). However, <italic>Ny. intermedia</italic> occurrence peaked in both dry and humid seasons in the Ribeira Valley, a transitional area between the Atlantic plateau and the coastal plain in southeastern São Paulo, without significant correlation with the rainfall registered in the 30 days before each collection<sup><xref ref-type="bibr" rid="B42">42</xref></sup> The same occurred for a savannah area in Minas Gerais, where no clear seasonal distribution was observed for this species<sup><xref ref-type="bibr" rid="B43">43</xref></sup>. Such differences may possibly account for the degree of proximity to the Atlantic Ocean, vegetation cover, and observation interval.</p>
+			<p>Although recognized as a vector of <italic>Leishmania braziliensis</italic><sup><xref ref-type="bibr" rid="B1">1</xref>,<xref ref-type="bibr" rid="B44">44</xref></sup>, a previous study conducted with a focus of VL in Minas Gerais detected <italic>L. infantum</italic> DNA in <italic>Ny. intermedia</italic> (1/7; 14.3%), where <italic>Lu. longipalpis</italic> was found harboring <italic>L. infantum</italic> flagellates<sup><xref ref-type="bibr" rid="B43">43</xref></sup>. In our study, we found <italic>L. infantum</italic> DNA in two pools of <italic>Ny. intermedia</italic>, representing a minimum infection rate of 0.6% when considering the overall collection period and of 1.4% when considering females examined in the two months with positive results. These results suggest that <italic>Ny. intermedia</italic> could be a permissive vector<sup><xref ref-type="bibr" rid="B45">45</xref>,<xref ref-type="bibr" rid="B46">46</xref></sup>, for it might be enabling the development of two different <italic>Leishmania</italic> species. Despite the high sensitivity of molecular methods in investigating the presence of <italic>Leishmania</italic> DNA, promastigotes are not necessarily alive<sup><xref ref-type="bibr" rid="B47">47</xref></sup> nor will they survive the extrinsic incubation period. In this case, dissections enable the identification of flagellates and their development in metacyclogenesis. In our study, we found no flagellates in the gut of dissected females (55.5% of the females captured). Considering that some species can develop early <italic>Leishmania</italic> stages until blood digestion, when parasite development may fail<sup><xref ref-type="bibr" rid="B46">46</xref></sup>, and that <italic>Leishmania</italic> DNA detected through PCR may be due to blood meals ingested by sand flies<sup><xref ref-type="bibr" rid="B48">48</xref></sup>, further studies are required to evaluate these aspects.</p>
+			<p>Our results highlight the need for further information on the distribution of <italic>L. infantum</italic> permissive species, thus enabling a more precise identification of risk areas and more effective control programs. Although the detection of <italic>L. infantum</italic> DNA in predominant species and the lack of <italic>Lu. longipalpis</italic> do not suffice to incriminate this focus vector, our findings introduce elements that reinforce the suspicion as to the role of <italic>Ny. intermedia</italic> as a vector of this parasite. Regardless, further studies should evaluate other parameters of its vector capacity, including its competence. VL surveillance and control strategies recommended by the Brazilian Ministry of Health are directed to transmission areas with the presence of the <italic>Lu. longipalpis</italic> complex and <italic>Lu. cruzi</italic>. However, before the possibility of introduction of infected dogs, which may lead to the establishment of new transmission cycles, our results stress the need for expanding entomological surveillance to areas where other potential vectors of <italic>L. infantum</italic> occur.</p>
+			<p>We found <italic>Ny. intermedia</italic> species to play a potential role in the transmission of <italic>L. infantum</italic> within the focus of LV in Guarujá, reinforcing the need for entomological surveillance in locations where this sand fly species occurs to support the decisions made by the health authorities involved in the VL control program. Before incriminating this species as a <italic>L. infantum</italic> vector, further studies should investigate its vector capacity parameters, including competence, survival, and feeding habits.</p>
+			<p>
+				<table-wrap id="t1">
+					<label>Table</label>
+					<caption>
+						<title>Distribution of specimens of <italic>Nyssomyia intermedia</italic> according to sampling month and number of females captured in Guarujá-SP from November 2016 to September 2018 analyzed by dissection or PCR.</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left">Collection date</th>
+								<th>Female n</th>
+								<th>Male n</th>
+								<th>Total</th>
+								<th>Dissected</th>
+								<th>PCR Examined</th>
+								<th>Examined by dissection and PCR (%)</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>November/2016</td>
+								<td align="center">10</td>
+								<td align="center">11</td>
+								<td align="center">21</td>
+								<td align="center">0</td>
+								<td align="center">0</td>
+								<td align="center">1.4</td>
+							</tr>
+							<tr>
+								<td>December/2016</td>
+								<td align="center">47</td>
+								<td align="center">71</td>
+								<td align="center">118</td>
+								<td align="center">0</td>
+								<td align="center">0</td>
+								<td align="center">6.5</td>
+							</tr>
+							<tr>
+								<td>January/2017</td>
+								<td align="center">80</td>
+								<td align="center">67</td>
+								<td align="center">147</td>
+								<td align="center">30</td>
+								<td align="center">42</td>
+								<td align="center">11.1</td>
+							</tr>
+							<tr>
+								<td>February/2017</td>
+								<td align="center">17</td>
+								<td align="center">4</td>
+								<td align="center">21</td>
+								<td align="center">0</td>
+								<td align="center">0</td>
+								<td align="center">2.4</td>
+							</tr>
+							<tr>
+								<td>March/2017</td>
+								<td align="center">8</td>
+								<td align="center">3</td>
+								<td align="center">11</td>
+								<td align="center">8</td>
+								<td align="center">8</td>
+								<td align="center">1.1</td>
+							</tr>
+							<tr>
+								<td>April/2017</td>
+								<td align="center">2</td>
+								<td align="center">2</td>
+								<td align="center">4</td>
+								<td align="center">0</td>
+								<td align="center">0</td>
+								<td align="center">0.3</td>
+							</tr>
+							<tr>
+								<td>May/2017</td>
+								<td align="center">53</td>
+								<td align="center">18</td>
+								<td align="center">71</td>
+								<td align="center">0</td>
+								<td align="center">0</td>
+								<td align="center">7.3</td>
+							</tr>
+							<tr>
+								<td>June/2017</td>
+								<td align="center">130</td>
+								<td align="center">51</td>
+								<td align="center">181</td>
+								<td align="center">71</td>
+								<td align="center">29</td>
+								<td align="center">18.0</td>
+							</tr>
+							<tr>
+								<td>July/2017</td>
+								<td align="center">50</td>
+								<td align="center">32</td>
+								<td align="center">82</td>
+								<td align="center">0</td>
+								<td align="center">0</td>
+								<td align="center">6.9</td>
+							</tr>
+							<tr>
+								<td>October/2017</td>
+								<td align="center">1</td>
+								<td align="center">1</td>
+								<td align="center">2</td>
+								<td align="center">0</td>
+								<td align="center">0</td>
+								<td align="center">0.1</td>
+							</tr>
+							<tr>
+								<td>February/2018</td>
+								<td align="center">65</td>
+								<td align="center">19</td>
+								<td align="center">84</td>
+								<td align="center">65</td>
+								<td align="center">65</td>
+								<td align="center">9.0</td>
+							</tr>
+							<tr>
+								<td>April/2018</td>
+								<td align="center">22</td>
+								<td align="center">12</td>
+								<td align="center">34</td>
+								<td align="center">22</td>
+								<td align="center">21</td>
+								<td align="center">3.0</td>
+							</tr>
+							<tr>
+								<td>June/2018</td>
+								<td align="center">166</td>
+								<td align="center">30</td>
+								<td align="center">196</td>
+								<td align="center">66</td>
+								<td align="center">100</td>
+								<td align="center">23.0</td>
+							</tr>
+							<tr>
+								<td>September/2018</td>
+								<td align="center">72</td>
+								<td align="center">47</td>
+								<td align="center">119</td>
+								<td align="center">70</td>
+								<td align="center">66</td>
+								<td align="center">10.0</td>
+							</tr>
+							<tr>
+								<td>Total</td>
+								<td align="center">723</td>
+								<td align="center">368</td>
+								<td align="center">1,091</td>
+								<td align="center">332</td>
+								<td align="center">331</td>
+								<td align="center">100</td>
+							</tr>
+						</tbody>
+					</table>
+				</table-wrap>
+			</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>REFERENCES</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. Lainson R, Shaw JJ. New World Leishmaniasis. In: Cox FEG, Wakelin D, Gillespie SH, Despommier DD, editors. Topley &amp; Wilson’s microbiology and microbial infections. Vol. 5, Parasitology. London (UK): Hodder Arnold ASM Press; 2005. p. 313-49.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lainson</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Shaw</surname>
+							<given-names>JJ</given-names>
+						</name>
+					</person-group>
+					<chapter-title>New World Leishmaniasis</chapter-title>
+					<person-group person-group-type="editor">
+						<name>
+							<surname>Cox</surname>
+							<given-names>FEG</given-names>
+						</name>
+						<name>
+							<surname>Wakelin</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Gillespie</surname>
+							<given-names>SH</given-names>
+						</name>
+						<name>
+							<surname>Despommier</surname>
+							<given-names>DD</given-names>
+						</name>
+						<role>editors</role>
+					</person-group>
+					<source>Topley &amp; Wilson’s microbiology and microbial infections. Vol. 5, Parasitology</source>
+					<publisher-loc>London (UK)</publisher-loc>
+					<publisher-name>Hodder Arnold ASM Press</publisher-name>
+					<year>2005</year>
+					<fpage>313</fpage>
+					<lpage>349</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. Pan American Health Organization. Leishmaniases: epidemiological report of the Americas. Washington, DC: PAHO; 2019 [cited 2020 Jan 8]. (Leishmaniases Report; nº 8). Available from: <ext-link ext-link-type="uri" xlink:href="https://iris.paho.org/handle/10665.2/51734">https://iris.paho.org/handle/10665.2/51734</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Pan American Health Organization</collab>
+					</person-group>
+					<source>Leishmaniases: epidemiological report of the Americas</source>
+					<publisher-loc>Washington, DC</publisher-loc>
+					<publisher-name>PAHO</publisher-name>
+					<year>2019</year>
+					<date-in-citation content-type="cited-date">cited 2020 Jan 8</date-in-citation>
+					<comment>Leishmaniases Report; nº 8</comment>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://iris.paho.org/handle/10665.2/51734">https://iris.paho.org/handle/10665.2/51734</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. Casanova C, Colla-Jacques FE, Hamilton JGC, Brazil RP, Shaw JJ. Distribution of Lutzomyia longipalpis chemotype populations in São Paulo state, Brazil. PLoS Negl Trop Dis. 2015;9(3):e0003620. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pntd.0003620">https://doi.org/10.1371/journal.pntd.0003620</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Casanova</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Colla-Jacques</surname>
+							<given-names>FE</given-names>
+						</name>
+						<name>
+							<surname>Hamilton</surname>
+							<given-names>JGC</given-names>
+						</name>
+						<name>
+							<surname>Brazil</surname>
+							<given-names>RP</given-names>
+						</name>
+						<name>
+							<surname>Shaw</surname>
+							<given-names>JJ</given-names>
+						</name>
+					</person-group>
+					<article-title>Distribution of Lutzomyia longipalpis chemotype populations in São Paulo state, Brazil</article-title>
+					<source>PLoS Negl Trop Dis</source>
+					<year>2015</year>
+					<volume>9</volume>
+					<issue>3</issue>
+					<elocation-id>e0003620</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pntd.0003620">https://doi.org/10.1371/journal.pntd.0003620</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. Salomón OD, Feliciangeli MD, Quintana MG, Afonso MMS, Rangel EF. Lutzomyia longipalpis urbanisation and control. Mem Inst Oswaldo Cruz. 2015;110(7):831-46. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0074-02760150207">https://doi.org/10.1590/0074-02760150207</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Salomón</surname>
+							<given-names>OD</given-names>
+						</name>
+						<name>
+							<surname>Feliciangeli</surname>
+							<given-names>MD</given-names>
+						</name>
+						<name>
+							<surname>Quintana</surname>
+							<given-names>MG</given-names>
+						</name>
+						<name>
+							<surname>Afonso</surname>
+							<given-names>MMS</given-names>
+						</name>
+						<name>
+							<surname>Rangel</surname>
+							<given-names>EF</given-names>
+						</name>
+					</person-group>
+					<article-title>Lutzomyia longipalpis urbanisation and control</article-title>
+					<source>Mem Inst Oswaldo Cruz</source>
+					<year>2015</year>
+					<volume>110</volume>
+					<issue>7</issue>
+					<fpage>831</fpage>
+					<lpage>846</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0074-02760150207">https://doi.org/10.1590/0074-02760150207</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Alvar J, Cañavate C, Molina R, Moreno J, Nieto J. Canine Leishmaniasis. Adv Parasitol. 2004;57:1-88. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0065-308X(04)57001-X">https://doi.org/10.1016/S0065-308X(04)57001-X</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Alvar</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Cañavate</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Molina</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Moreno</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Nieto</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>Canine Leishmaniasis</article-title>
+					<source>Adv Parasitol</source>
+					<year>2004</year>
+					<volume>57</volume>
+					<fpage>1</fpage>
+					<lpage>88</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0065-308X(04)57001-X">https://doi.org/10.1016/S0065-308X(04)57001-X</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. Desjeux P. Leishmaniasis: current situation and new perspectives. Comp Immunol Microbiol Infect Dis. 2004;27(5):305-18. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.cimid.2004.03.004">https://doi.org/10.1016/j.cimid.2004.03.004</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Desjeux</surname>
+							<given-names>P</given-names>
+						</name>
+					</person-group>
+					<article-title>Leishmaniasis: current situation and new perspectives</article-title>
+					<source>Comp Immunol Microbiol Infect Dis</source>
+					<year>2004</year>
+					<volume>27</volume>
+					<issue>5</issue>
+					<fpage>305</fpage>
+					<lpage>318</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.cimid.2004.03.004">https://doi.org/10.1016/j.cimid.2004.03.004</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. Maia-Elkhoury ANS, Alves WA, Sousa-Gomes ML, Sena JM, Luna EA. Visceral leishmaniasis in Brazil: trends and challenges. Cad Saude Publica. 2008;24(12):2941-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/s0102-311x2008001200024">https://doi.org/10.1590/s0102-311x2008001200024</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Maia-Elkhoury</surname>
+							<given-names>ANS</given-names>
+						</name>
+						<name>
+							<surname>Alves</surname>
+							<given-names>WA</given-names>
+						</name>
+						<name>
+							<surname>Sousa-Gomes</surname>
+							<given-names>ML</given-names>
+						</name>
+						<name>
+							<surname>Sena</surname>
+							<given-names>JM</given-names>
+						</name>
+						<name>
+							<surname>Luna</surname>
+							<given-names>EA</given-names>
+						</name>
+					</person-group>
+					<article-title>Visceral leishmaniasis in Brazil: trends and challenges</article-title>
+					<source>Cad Saude Publica</source>
+					<year>2008</year>
+					<volume>24</volume>
+					<issue>12</issue>
+					<fpage>2941</fpage>
+					<lpage>2947</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/s0102-311x2008001200024">https://doi.org/10.1590/s0102-311x2008001200024</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Werneck GL. Forum: geographic spread and urbanization of visceral leishmaniasis in Brazil. Introduction. Cad Saude Publica. 2008;24(12):2937-40. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0102-311X2008001200023">https://doi.org/10.1590/S0102-311X2008001200023</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Werneck</surname>
+							<given-names>GL</given-names>
+						</name>
+					</person-group>
+					<article-title>Forum: geographic spread and urbanization of visceral leishmaniasis in Brazil. Introduction</article-title>
+					<source>Cad Saude Publica</source>
+					<year>2008</year>
+					<volume>24</volume>
+					<issue>12</issue>
+					<fpage>2937</fpage>
+					<lpage>2940</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0102-311X2008001200023">https://doi.org/10.1590/S0102-311X2008001200023</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. Ministério da Saúde (BR), Secretaria de Vigilância em Saúde, Departamento de Vigilância Epidemiológica. Manual de vigilância e controle da leishmaniose visceral. Brasília, DF; 2014 [cited 2020 Jan 8]. Available from: <ext-link ext-link-type="uri" xlink:href="https://bvsms.saude.gov.br/bvs/publicacoes/manual_vigilancia_controle_leishmaniose_visceral_1edicao.pdf">https://bvsms.saude.gov.br/bvs/publicacoes/manual_vigilancia_controle_leishmaniose_visceral_1edicao.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+						<collab>Secretaria de Vigilância em Saúde</collab>
+						<collab>Departamento de Vigilância Epidemiológica</collab>
+					</person-group>
+					<source>Manual de vigilância e controle da leishmaniose visceral</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<year>2014</year>
+					<date-in-citation content-type="cited-date">cited 2020 Jan 8</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://bvsms.saude.gov.br/bvs/publicacoes/manual_vigilancia_controle_leishmaniose_visceral_1edicao.pdf">https://bvsms.saude.gov.br/bvs/publicacoes/manual_vigilancia_controle_leishmaniose_visceral_1edicao.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. Ministério da Saúde (BR). DATASUS: informações de saúde: informações epidemiológicas e morbidade. Brasília, DF; 2021[cited 2020 Apr 1]. Available from: <ext-link ext-link-type="uri" xlink:href="https://datasus.saude.gov.br/epidemiologicas-e-morbidade/">https://datasus.saude.gov.br/epidemiologicas-e-morbidade/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+					</person-group>
+					<source>DATASUS: informações de saúde: informações epidemiológicas e morbidade</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<year>2021</year>
+					<date-in-citation content-type="cited-date">cited 2020 Apr 1</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://datasus.saude.gov.br/epidemiologicas-e-morbidade/">https://datasus.saude.gov.br/epidemiologicas-e-morbidade/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. Kamhawi S. The yin and yang of leishmaniasis control. PLoS Negl Trop Dis. 2017;11(4):e0005529. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pntd.0005529">https://doi.org/10.1371/journal.pntd.0005529</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kamhawi</surname>
+							<given-names>S</given-names>
+						</name>
+					</person-group>
+					<article-title>The yin and yang of leishmaniasis control</article-title>
+					<source>PLoS Negl Trop Dis</source>
+					<year>2017</year>
+					<volume>11</volume>
+					<issue>4</issue>
+					<elocation-id>e0005529</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pntd.0005529">https://doi.org/10.1371/journal.pntd.0005529</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. Molyneux DH, Savioli L, Engels D. Neglected tropical diseases: progress towards addressing the chronic pandemic. Lancet. 2017;389(10066):312-25. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(16)30171-4">https://doi.org/10.1016/S0140-6736(16)30171-4</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Molyneux</surname>
+							<given-names>DH</given-names>
+						</name>
+						<name>
+							<surname>Savioli</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Engels</surname>
+							<given-names>D</given-names>
+						</name>
+					</person-group>
+					<article-title>Neglected tropical diseases: progress towards addressing the chronic pandemic</article-title>
+					<source>Lancet</source>
+					<year>2017</year>
+					<volume>389</volume>
+					<issue>10066</issue>
+					<fpage>312</fpage>
+					<lpage>325</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(16)30171-4">https://doi.org/10.1016/S0140-6736(16)30171-4</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. Galvis-Ovallos F, Silva RA, Silva VG, Sabio PB, Galati EAB. Leishmanioses no Brasil: aspectos epidemiológicos, desafios e perspectivas. In: Meneguetti DUO, Oliveira J, Camargo LMA, editores. Atualidades em Medicina Tropical no Brasil: Protozoários. Rio Branco, AC: Strictu Sensu; 2020. p.227-52.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Galvis-Ovallos</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Silva</surname>
+							<given-names>RA</given-names>
+						</name>
+						<name>
+							<surname>Silva</surname>
+							<given-names>VG</given-names>
+						</name>
+						<name>
+							<surname>Sabio</surname>
+							<given-names>PB</given-names>
+						</name>
+						<name>
+							<surname>Galati</surname>
+							<given-names>EAB</given-names>
+						</name>
+					</person-group>
+					<chapter-title>Leishmanioses no Brasil: aspectos epidemiológicos, desafios e perspectivas</chapter-title>
+					<person-group person-group-type="editor">
+						<name>
+							<surname>Meneguetti</surname>
+							<given-names>DUO</given-names>
+						</name>
+						<name>
+							<surname>Oliveira</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Camargo</surname>
+							<given-names>LMA</given-names>
+						</name>
+						<role>editores</role>
+					</person-group>
+					<source>Atualidades em Medicina Tropical no Brasil: Protozoários</source>
+					<publisher-loc>Rio Branco, AC</publisher-loc>
+					<publisher-name>Strictu Sensu</publisher-name>
+					<year>2020</year>
+					<fpage>227</fpage>
+					<lpage>252</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. Killick-Kendrick R. The biology and control of phlebotomine sand flies. Clin Dermatol. 1999;17(3):279-89. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0738-081X(99)00046-2">https://doi.org/10.1016/S0738-081X(99)00046-2</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Killick-Kendrick</surname>
+							<given-names>R</given-names>
+						</name>
+					</person-group>
+					<article-title>The biology and control of phlebotomine sand flies</article-title>
+					<source>Clin Dermatol</source>
+					<year>1999</year>
+					<volume>17</volume>
+					<issue>3</issue>
+					<fpage>279</fpage>
+					<lpage>289</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0738-081X(99)00046-2">https://doi.org/10.1016/S0738-081X(99)00046-2</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. Reisen WK. Estimation of vectorial capacity: introduction. Bull Soc Vector Ecol. 1989;14:39-40.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Reisen</surname>
+							<given-names>WK</given-names>
+						</name>
+					</person-group>
+					<article-title>Estimation of vectorial capacity: introduction</article-title>
+					<source>Bull Soc Vector Ecol</source>
+					<year>1989</year>
+					<volume>14</volume>
+					<fpage>39</fpage>
+					<lpage>40</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. Casanova C, Hamilton JGC, Trigo JR, Costa AIP. Identification of sex pheromones of Lutzomyia longipalpis (Lutz &amp; Neiva, 1912) populations from the state of São Paulo, Brazil. Mem Inst Oswaldo Cruz. 2006;101(1):113-5. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0074-02762006000100023">https://doi.org/10.1590/S0074-02762006000100023</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Casanova</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Hamilton</surname>
+							<given-names>JGC</given-names>
+						</name>
+						<name>
+							<surname>Trigo</surname>
+							<given-names>JR</given-names>
+						</name>
+						<name>
+							<surname>Costa</surname>
+							<given-names>AIP</given-names>
+						</name>
+					</person-group>
+					<article-title>Identification of sex pheromones of Lutzomyia longipalpis (Lutz &amp; Neiva, 1912) populations from the state of São Paulo, Brazil</article-title>
+					<source>Mem Inst Oswaldo Cruz</source>
+					<year>2006</year>
+					<volume>101</volume>
+					<issue>1</issue>
+					<fpage>113</fpage>
+					<lpage>115</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0074-02762006000100023">https://doi.org/10.1590/S0074-02762006000100023</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Galimberti MZ, Katz G, Camargo-Neves VLF, Rodas LAC, Casanova C, Costa IP, et al. Leishmaniose visceral americana no Estado de São Paulo. Rev Soc Bras Med Trop. 1999;32 Supl 2:217-8.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Galimberti</surname>
+							<given-names>MZ</given-names>
+						</name>
+						<name>
+							<surname>Katz</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Camargo-Neves</surname>
+							<given-names>VLF</given-names>
+						</name>
+						<name>
+							<surname>Rodas</surname>
+							<given-names>LAC</given-names>
+						</name>
+						<name>
+							<surname>Casanova</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Costa</surname>
+							<given-names>IP</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Leishmaniose visceral americana no Estado de São Paulo</article-title>
+					<source>Rev Soc Bras Med Trop</source>
+					<year>1999</year>
+					<volume>32</volume>
+					<supplement>Supl 2</supplement>
+					<fpage>217</fpage>
+					<lpage>218</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18. Cardim MFM, Rodas LA, Dibo MR, Guirado MM, Oliveira AM, Chiaravalloti-Neto F. Introduction and expansion of human American visceral leishmaniasis in the state of São Paulo, Brazil, 1999–2011. Rev Saude Publica. 2013;47(4):1-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0034-8910.2013047004454">https://doi.org/10.1590/S0034-8910.2013047004454</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cardim</surname>
+							<given-names>MFM</given-names>
+						</name>
+						<name>
+							<surname>Rodas</surname>
+							<given-names>LA</given-names>
+						</name>
+						<name>
+							<surname>Dibo</surname>
+							<given-names>MR</given-names>
+						</name>
+						<name>
+							<surname>Guirado</surname>
+							<given-names>MM</given-names>
+						</name>
+						<name>
+							<surname>Oliveira</surname>
+							<given-names>AM</given-names>
+						</name>
+						<name>
+							<surname>Chiaravalloti-Neto</surname>
+							<given-names>F</given-names>
+						</name>
+					</person-group>
+					<article-title>Introduction and expansion of human American visceral leishmaniasis in the state of São Paulo, Brazil, 1999–2011</article-title>
+					<source>Rev Saude Publica</source>
+					<year>2013</year>
+					<volume>47</volume>
+					<issue>4</issue>
+					<fpage>1</fpage>
+					<lpage>9</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0034-8910.2013047004454">https://doi.org/10.1590/S0034-8910.2013047004454</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19. Oliveira AM, Vieira CP, Dibo MR, Guirado MM, Rodas LAC, Chiaravalloti-Neto F. Dispersal of Lutzomyia longipalpis and expansion of canine and human visceral leishmaniasis in São Paulo State, Brazil. Acta Trop. 2016;164:233-42. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.actatropica.2016.09.014">https://doi.org/10.1016/j.actatropica.2016.09.014</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Oliveira</surname>
+							<given-names>AM</given-names>
+						</name>
+						<name>
+							<surname>Vieira</surname>
+							<given-names>CP</given-names>
+						</name>
+						<name>
+							<surname>Dibo</surname>
+							<given-names>MR</given-names>
+						</name>
+						<name>
+							<surname>Guirado</surname>
+							<given-names>MM</given-names>
+						</name>
+						<name>
+							<surname>Rodas</surname>
+							<given-names>LAC</given-names>
+						</name>
+						<name>
+							<surname>Chiaravalloti-Neto</surname>
+							<given-names>F</given-names>
+						</name>
+					</person-group>
+					<article-title>Dispersal of Lutzomyia longipalpis and expansion of canine and human visceral leishmaniasis in São Paulo State, Brazil</article-title>
+					<source>Acta Trop</source>
+					<year>2016</year>
+					<volume>164</volume>
+					<fpage>233</fpage>
+					<lpage>242</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.actatropica.2016.09.014">https://doi.org/10.1016/j.actatropica.2016.09.014</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20. Sevá AP, Mao L, Galvis-Ovallos F, Lima JMT, Valle D. Risk analysis and prediction of visceral leishmaniasis dispersion in São Paulo State, Brazil. PLoS Negl Trop Dis. 2017;11(2):e0005353. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pntd.0005353">https://doi.org/10.1371/journal.pntd.0005353</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sevá</surname>
+							<given-names>AP</given-names>
+						</name>
+						<name>
+							<surname>Mao</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Galvis-Ovallos</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Lima</surname>
+							<given-names>JMT</given-names>
+						</name>
+						<name>
+							<surname>Valle</surname>
+							<given-names>D</given-names>
+						</name>
+					</person-group>
+					<article-title>Risk analysis and prediction of visceral leishmaniasis dispersion in São Paulo State, Brazil</article-title>
+					<source>PLoS Negl Trop Dis</source>
+					<year>2017</year>
+					<volume>11</volume>
+					<issue>2</issue>
+					<elocation-id>e0005353</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pntd.0005353">https://doi.org/10.1371/journal.pntd.0005353</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>21. Galvis-Ovallos F, Casanova C., Sevá AP,Galati EAB. Ecological parameters of the (S)-9-methylgermacrene-B population of the Lutzomyia longipalpis complex in a visceral leishmaniasis area in São Paulo state, Brazil. Parasit Vectors. 2017;10:269. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s13071-017-2211-8">https://doi.org/10.1186/s13071-017-2211-8</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Galvis-Ovallos</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Casanova</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Sevá</surname>
+							<given-names>AP</given-names>
+						</name>
+						<name>
+							<surname>Galati</surname>
+							<given-names>EAB</given-names>
+						</name>
+					</person-group>
+					<article-title>Ecological parameters of the (S)-9-methylgermacrene-B population of the Lutzomyia longipalpis complex in a visceral leishmaniasis area in São Paulo state, Brazil</article-title>
+					<source>Parasit Vectors</source>
+					<year>2017</year>
+					<volume>10</volume>
+					<size units="pages">269</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s13071-017-2211-8">https://doi.org/10.1186/s13071-017-2211-8</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>22. Iversson LB, Camargo ME, Rocha e Silva EO, Chieffi PP, Barros JAC. Investigação epidemiológica de um caso de leishmaniose visceral autóctone da Grande São Paulo, Brasil. Rev Saude Publica. 1979;13(2):159-67. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0034-89101979000200012">https://doi.org/10.1590/S0034-89101979000200012</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Iversson</surname>
+							<given-names>LB</given-names>
+						</name>
+						<name>
+							<surname>Camargo</surname>
+							<given-names>ME</given-names>
+						</name>
+						<name>
+							<surname>Rocha e Silva</surname>
+							<given-names>EO</given-names>
+						</name>
+						<name>
+							<surname>Chieffi</surname>
+							<given-names>PP</given-names>
+						</name>
+						<name>
+							<surname>Barros</surname>
+							<given-names>JAC</given-names>
+						</name>
+					</person-group>
+					<article-title>Investigação epidemiológica de um caso de leishmaniose visceral autóctone da Grande São Paulo, Brasil</article-title>
+					<source>Rev Saude Publica</source>
+					<year>1979</year>
+					<volume>13</volume>
+					<issue>2</issue>
+					<fpage>159</fpage>
+					<lpage>167</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0034-89101979000200012">https://doi.org/10.1590/S0034-89101979000200012</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>23. Superintendência de Controle de Endemias do Estado de São Paulo (Sucen). Infected Lutzomyia edwardsi found in the Greater Sao Paulo area. Rev Saude Publica. 2005;39(1):137-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/s0034-89102005000100018">https://doi.org/10.1590/s0034-89102005000100018</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<collab>Superintendência de Controle de Endemias do Estado de São Paulo (Sucen)</collab>
+					</person-group>
+					<article-title>Infected Lutzomyia edwardsi found in the Greater Sao Paulo area</article-title>
+					<source>Rev Saude Publica</source>
+					<year>2005</year>
+					<volume>39</volume>
+					<issue>1</issue>
+					<fpage>137</fpage>
+					<lpage>138</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/s0034-89102005000100018">https://doi.org/10.1590/s0034-89102005000100018</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>24. Galvis-Ovallos F, Silva MD, Bispo GBS, Oliveira AG, Gonçalo Neto JR, Malafronte RS, et al. Canine visceral leishmaniasis in the metropolitan area of São Paulo: Pintomyia fischeri as potential vector of Leishmania infantum. Parasite. 2017;24:2. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1051/parasite/2017002">https://doi.org/10.1051/parasite/2017002</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Galvis-Ovallos</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Silva</surname>
+							<given-names>MD</given-names>
+						</name>
+						<name>
+							<surname>Bispo</surname>
+							<given-names>GBS</given-names>
+						</name>
+						<name>
+							<surname>Oliveira</surname>
+							<given-names>AG</given-names>
+						</name>
+						<name>
+							<surname>Gonçalo</surname>
+							<given-names>JR</given-names>
+							<suffix>Neto</suffix>
+						</name>
+						<name>
+							<surname>Malafronte</surname>
+							<given-names>RS</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Canine visceral leishmaniasis in the metropolitan area of São Paulo: Pintomyia fischeri as potential vector of Leishmania infantum</article-title>
+					<source>Parasite</source>
+					<year>2017</year>
+					<volume>24</volume>
+					<size units="pages">2</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1051/parasite/2017002">https://doi.org/10.1051/parasite/2017002</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>25. Secretaria de Saúde do Estado de São Paulo. Dados estatísticos da Leishmaniose Visceral Americana de 1999 a 2020. São Paulo, SP; 2020 [cited 2020 June 22]. Available from: <ext-link ext-link-type="uri" xlink:href="http://www.cve.saude.sp.gov.br/htm/zoo/leishv_dados.html">http://www.cve.saude.sp.gov.br/htm/zoo/leishv_dados.html</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Secretaria de Saúde do Estado de São Paulo</collab>
+					</person-group>
+					<source>Dados estatísticos da Leishmaniose Visceral Americana de 1999 a 2020</source>
+					<publisher-loc>São Paulo, SP</publisher-loc>
+					<year>2020</year>
+					<date-in-citation content-type="cited-date">cited 2020 June 22</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="http://www.cve.saude.sp.gov.br/htm/zoo/leishv_dados.html">http://www.cve.saude.sp.gov.br/htm/zoo/leishv_dados.html</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation>26. Ribeiro ALM, Oliveira RC. Guarujá. In: Cunha CML, Oliveira RC, organizadores. Baixada Santista: uma contribuição à análise geoambiental. São Paulo: Editora UNESP; 2015 [cited 2020 June 22]. p. 117-36. Available from: <ext-link ext-link-type="uri" xlink:href="https://static.scielo.org/scielobooks/wg6rs/pdf/cunha-9788568334553.pdf">https://static.scielo.org/scielobooks/wg6rs/pdf/cunha-9788568334553.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ribeiro</surname>
+							<given-names>ALM</given-names>
+						</name>
+						<name>
+							<surname>Oliveira</surname>
+							<given-names>RC</given-names>
+						</name>
+					</person-group>
+					<chapter-title>Guarujá</chapter-title>
+					<person-group person-group-type="compiler">
+						<name>
+							<surname>Cunha</surname>
+							<given-names>CML</given-names>
+						</name>
+						<name>
+							<surname>Oliveira</surname>
+							<given-names>RC</given-names>
+						</name>
+						<role>organizadores</role>
+					</person-group>
+					<source>Baixada Santista: uma contribuição à análise geoambiental</source>
+					<publisher-loc>São Paulo</publisher-loc>
+					<publisher-name>Editora UNESP</publisher-name>
+					<year>2015</year>
+					<date-in-citation content-type="cited-date">cited 2020 June 22</date-in-citation>
+					<fpage>117</fpage>
+					<lpage>136</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://static.scielo.org/scielobooks/wg6rs/pdf/cunha-9788568334553.pdf">https://static.scielo.org/scielobooks/wg6rs/pdf/cunha-9788568334553.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<mixed-citation>27. Instituto Brasileiro de Geografia e Estatistica. Conheça as cidades e os estados do Brasil. Rio de Janeiro: IBGE; c2017 [cited 2020 July 20]. Available from: <ext-link ext-link-type="uri" xlink:href="https://cidades.ibge.gov.br">https://cidades.ibge.gov.br</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Instituto Brasileiro de Geografia e Estatistica</collab>
+					</person-group>
+					<source>Conheça as cidades e os estados do Brasil</source>
+					<publisher-loc>Rio de Janeiro</publisher-loc>
+					<publisher-name>IBGE</publisher-name>
+					<year>c2017</year>
+					<date-in-citation content-type="cited-date">cited 2020 July 20</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://cidades.ibge.gov.br">https://cidades.ibge.gov.br</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<mixed-citation>28. Peel MC, Finlayson BL, McMahon TA. Updated world map of the Köppen-Geiger climate classification. Hydrol Earth Syst Sci. 2007;11:1633-44. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5194/hess-11-1633-2007">https://doi.org/10.5194/hess-11-1633-2007</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Peel</surname>
+							<given-names>MC</given-names>
+						</name>
+						<name>
+							<surname>Finlayson</surname>
+							<given-names>BL</given-names>
+						</name>
+						<name>
+							<surname>McMahon</surname>
+							<given-names>TA</given-names>
+						</name>
+					</person-group>
+					<article-title>Updated world map of the Köppen-Geiger climate classification</article-title>
+					<source>Hydrol Earth Syst Sci</source>
+					<year>2007</year>
+					<volume>11</volume>
+					<fpage>1633</fpage>
+					<lpage>1644</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5194/hess-11-1633-2007">https://doi.org/10.5194/hess-11-1633-2007</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B29">
+				<label>29</label>
+				<mixed-citation>29. Forattini OP. Entomologia Médica. Vol. 4, Psychodidae. Phlebotominae, Leishmanioses, Bartonelose. São Paulo: Edgar Blucher; 1973.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Forattini</surname>
+							<given-names>OP</given-names>
+						</name>
+					</person-group>
+					<source>Entomologia Médica. Vol. 4, Psychodidae. Phlebotominae, Leishmanioses, Bartonelose</source>
+					<publisher-loc>São Paulo</publisher-loc>
+					<publisher-name>Edgar Blucher</publisher-name>
+					<year>1973</year>
+				</element-citation>
+			</ref>
+			<ref id="B30">
+				<label>30</label>
+				<mixed-citation>30. Diniz MMCSL, Ovallos FG, Gomes CMC, Lavitschka CO, Galati EAB. Host-biting rate and susceptibility of some suspected vectors to Leishmania braziliensis. Parasit Vectors. 2014;7:139. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1756-3305-7-139">https://doi.org/10.1186/1756-3305-7-139</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Diniz</surname>
+							<given-names>MMCSL</given-names>
+						</name>
+						<name>
+							<surname>Ovallos</surname>
+							<given-names>FG</given-names>
+						</name>
+						<name>
+							<surname>Gomes</surname>
+							<given-names>CMC</given-names>
+						</name>
+						<name>
+							<surname>Lavitschka</surname>
+							<given-names>CO</given-names>
+						</name>
+						<name>
+							<surname>Galati</surname>
+							<given-names>EAB</given-names>
+						</name>
+					</person-group>
+					<article-title>Host-biting rate and susceptibility of some suspected vectors to Leishmania braziliensis</article-title>
+					<source>Parasit Vectors</source>
+					<year>2014</year>
+					<volume>7</volume>
+					<size units="pages">139</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1756-3305-7-139">https://doi.org/10.1186/1756-3305-7-139</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B31">
+				<label>31</label>
+				<mixed-citation>31. Galati EAB. Morfologia e terminologia de Phlebotominae (Diptera: Psychodidae). Classificação e identificação de táxons das Américas. Vol I. São Paulo: Faculdade de Saúde Pública da Universidade de São Paulo; 2018 [cited 2020 July 20]. Apostila da Disciplina Bioecologia e Identificação de Phlebotominae do Programa de Pós-Graduação em Saúde Pública. Available from: <ext-link ext-link-type="uri" xlink:href="http://www.fsp.usp.br/egalati/wp-content/uploads/2018/07/Nova-Apostila-Vol-I_2018.pdf">http://www.fsp.usp.br/egalati/wp-content/uploads/2018/07/Nova-Apostila-Vol-I_2018.pdf</ext-link>.</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Galati</surname>
+							<given-names>EAB</given-names>
+						</name>
+					</person-group>
+					<source>Morfologia e terminologia de Phlebotominae (Diptera: Psychodidae). Classificação e identificação de táxons das Américas. Vol I</source>
+					<publisher-loc>São Paulo</publisher-loc>
+					<publisher-name>Faculdade de Saúde Pública da Universidade de São Paulo</publisher-name>
+					<year>2018</year>
+					<date-in-citation content-type="cited-date">cited 2020 July 20</date-in-citation>
+					<comment>Apostila da Disciplina Bioecologia e Identificação de Phlebotominae do Programa de Pós-Graduação em Saúde Pública</comment>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="http://www.fsp.usp.br/egalati/wp-content/uploads/2018/07/Nova-Apostila-Vol-I_2018.pdf">http://www.fsp.usp.br/egalati/wp-content/uploads/2018/07/Nova-Apostila-Vol-I_2018.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B32">
+				<label>32</label>
+				<mixed-citation>32. AccuWeather. [cited 2020 Jan 8]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.accuweather.com/">https://www.accuweather.com/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<source>AccuWeather</source>
+					<date-in-citation content-type="cited-date">cited 2020 Jan 8</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.accuweather.com/">https://www.accuweather.com/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B33">
+				<label>33</label>
+				<mixed-citation>33. Brighente KBS, Cutolo AA, Motoie G, Meira-Strejevitch CS, Pereira-Chioccola VL. Molecular detection of Leishmania (Leishmania) infantum in phlebotomine sandflies from a visceral leishmaniasis endemic area in northwestern of São Paulo State, Brazil. Acta Trop. 2018;181:1-5. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.actatropica.2018.01.012">https://doi.org/10.1016/j.actatropica.2018.01.012</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Brighente</surname>
+							<given-names>KBS</given-names>
+						</name>
+						<name>
+							<surname>Cutolo</surname>
+							<given-names>AA</given-names>
+						</name>
+						<name>
+							<surname>Motoie</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Meira-Strejevitch</surname>
+							<given-names>CS</given-names>
+						</name>
+						<name>
+							<surname>Pereira-Chioccola</surname>
+							<given-names>VL</given-names>
+						</name>
+					</person-group>
+					<article-title>Molecular detection of Leishmania (Leishmania) infantum in phlebotomine sandflies from a visceral leishmaniasis endemic area in northwestern of São Paulo State, Brazil</article-title>
+					<source>Acta Trop</source>
+					<year>2018</year>
+					<volume>181</volume>
+					<fpage>1</fpage>
+					<lpage>5</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.actatropica.2018.01.012">https://doi.org/10.1016/j.actatropica.2018.01.012</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B34">
+				<label>34</label>
+				<mixed-citation>34. Passos VMA, Fernandes O, Lacerda PAF, Volpini AC, Gontijo CMF, Degrave W, et al. Leishmania (Viannia) braziliensis is the predominant species infecting patients with American cutaneous leishmaniasis in the State of Minas Gerais, Southeast Brazil. Acta Trop. 1999;72(3):251-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/s0001-706x(98)00100-4">https://doi.org/10.1016/s0001-706x(98)00100-4</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Passos</surname>
+							<given-names>VMA</given-names>
+						</name>
+						<name>
+							<surname>Fernandes</surname>
+							<given-names>O</given-names>
+						</name>
+						<name>
+							<surname>Lacerda</surname>
+							<given-names>PAF</given-names>
+						</name>
+						<name>
+							<surname>Volpini</surname>
+							<given-names>AC</given-names>
+						</name>
+						<name>
+							<surname>Gontijo</surname>
+							<given-names>CMF</given-names>
+						</name>
+						<name>
+							<surname>Degrave</surname>
+							<given-names>W</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Leishmania (Viannia) braziliensis is the predominant species infecting patients with American cutaneous leishmaniasis in the State of Minas Gerais, Southeast Brazil</article-title>
+					<source>Acta Trop</source>
+					<year>1999</year>
+					<volume>72</volume>
+					<issue>3</issue>
+					<fpage>251</fpage>
+					<lpage>258</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/s0001-706x(98)00100-4">https://doi.org/10.1016/s0001-706x(98)00100-4</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B35">
+				<label>35</label>
+				<mixed-citation>35. Le Fichoux Y, Quaranta JF, Aufeuvre JP, Lelièvre A, Marty P, Suffia I, et al. Occurrence of Leishmania infantum parasitemia in asymptomatic blood donors living in an area of endemicity in southern France. J Clin Microbiol. 1999;37(6):1953-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JCM.37.6.1953-1957.1999">https://doi.org/10.1128/JCM.37.6.1953-1957.1999</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Le Fichoux</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Quaranta</surname>
+							<given-names>JF</given-names>
+						</name>
+						<name>
+							<surname>Aufeuvre</surname>
+							<given-names>JP</given-names>
+						</name>
+						<name>
+							<surname>Lelièvre</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Marty</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Suffia</surname>
+							<given-names>I</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Occurrence of Leishmania infantum parasitemia in asymptomatic blood donors living in an area of endemicity in southern France</article-title>
+					<source>J Clin Microbiol</source>
+					<year>1999</year>
+					<volume>37</volume>
+					<issue>6</issue>
+					<fpage>1953</fpage>
+					<lpage>1957</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JCM.37.6.1953-1957.1999">https://doi.org/10.1128/JCM.37.6.1953-1957.1999</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B36">
+				<label>36</label>
+				<mixed-citation>36. Lachaud L, Marchergui-Hammami S, Chabbert E, Dereure J, Dedet JP, Bastien P. Comparison of six PCR methods using peripheral blood for detection of canine visceral leishmaniasis. J Clin Microbiol. 2002;40(1):210-5. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JCM.40.1.210-215.2002">https://doi.org/10.1128/JCM.40.1.210-215.2002</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lachaud</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Marchergui-Hammami</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Chabbert</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Dereure</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Dedet</surname>
+							<given-names>JP</given-names>
+						</name>
+						<name>
+							<surname>Bastien</surname>
+							<given-names>P</given-names>
+						</name>
+					</person-group>
+					<article-title>Comparison of six PCR methods using peripheral blood for detection of canine visceral leishmaniasis</article-title>
+					<source>J Clin Microbiol</source>
+					<year>2002</year>
+					<volume>40</volume>
+					<issue>1</issue>
+					<fpage>210</fpage>
+					<lpage>215</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/JCM.40.1.210-215.2002">https://doi.org/10.1128/JCM.40.1.210-215.2002</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B37">
+				<label>37</label>
+				<mixed-citation>37. Kato H, Uezato H, Gomez EA, Terayama Y, Calvopiña M, Iwata H, et al. Establishment of a mass screening method of sand fly vectors for Leishmania infection by molecular biological methods. Am J Trop Med Hyg. 2007 [cited 2020 June 22];77(2):324-9. Available from: <ext-link ext-link-type="uri" xlink:href="https://core.ac.uk/reader/70354370">https://core.ac.uk/reader/70354370</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kato</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Uezato</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Gomez</surname>
+							<given-names>EA</given-names>
+						</name>
+						<name>
+							<surname>Terayama</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Calvopiña</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Iwata</surname>
+							<given-names>H</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Establishment of a mass screening method of sand fly vectors for Leishmania infection by molecular biological methods</article-title>
+					<source>Am J Trop Med Hyg</source>
+					<year>2007</year>
+					<date-in-citation content-type="cited-date">cited 2020 June 22</date-in-citation>
+					<volume>77</volume>
+					<issue>2</issue>
+					<fpage>324</fpage>
+					<lpage>329</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://core.ac.uk/reader/70354370">https://core.ac.uk/reader/70354370</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B38">
+				<label>38</label>
+				<mixed-citation>38. Hiramoto RM, Oliveira SS, Rangel O, Henriques LF, Taniguchi HH, Barbosa JER, et al. Classificação epidemiológica dos municípios do Estado de São Paulo segundo o Programa de Vigilância e Controle da Leishmaniose Visceral, 2017. BEPA Bol Epidemiol Paul. 20219;16(181-182):11-35.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hiramoto</surname>
+							<given-names>RM</given-names>
+						</name>
+						<name>
+							<surname>Oliveira</surname>
+							<given-names>SS</given-names>
+						</name>
+						<name>
+							<surname>Rangel</surname>
+							<given-names>O</given-names>
+						</name>
+						<name>
+							<surname>Henriques</surname>
+							<given-names>LF</given-names>
+						</name>
+						<name>
+							<surname>Taniguchi</surname>
+							<given-names>HH</given-names>
+						</name>
+						<name>
+							<surname>Barbosa</surname>
+							<given-names>JER</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Classificação epidemiológica dos municípios do Estado de São Paulo segundo o Programa de Vigilância e Controle da Leishmaniose Visceral, 2017</article-title>
+					<source>BEPA Bol Epidemiol Paul</source>
+					<year>2021</year>
+					<comment>9</comment>
+					<volume>16</volume>
+					<issue>181-182</issue>
+					<fpage>11</fpage>
+					<lpage>35</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B39">
+				<label>39</label>
+				<mixed-citation>39. Casanova C. Vetor ou vetores? Capacidade vetorial e estratégias de controle. Rev Inst Adolfo Lutz 2018: 77; e1757</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Casanova</surname>
+							<given-names>C</given-names>
+						</name>
+					</person-group>
+					<article-title>Vetor ou vetores? Capacidade vetorial e estratégias de controle</article-title>
+					<source>Rev Inst Adolfo Lutz</source>
+					<year>2018</year>
+					<volume>77</volume>
+					<elocation-id>e1757</elocation-id>
+				</element-citation>
+			</ref>
+			<ref id="B40">
+				<label>40</label>
+				<mixed-citation>40. Guimarães VCFV, Pruzinova K, Sadlova J, Volfova V, Myskova J, Brandão Filho SP, et al. Lutzomyia migonei is a permissive vector competent for Leishmania infantum. Parasit Vectors. 2016;9:159. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s13071-016-1444-2">https://doi.org/10.1186/s13071-016-1444-2</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Guimarães</surname>
+							<given-names>VCFV</given-names>
+						</name>
+						<name>
+							<surname>Pruzinova</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Sadlova</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Volfova</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Myskova</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Brandão</surname>
+							<given-names>SP</given-names>
+							<suffix>Filho</suffix>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Lutzomyia migonei is a permissive vector competent for Leishmania infantum</article-title>
+					<source>Parasit Vectors</source>
+					<year>2016</year>
+					<volume>9</volume>
+					<size units="pages">159</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s13071-016-1444-2">https://doi.org/10.1186/s13071-016-1444-2</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B41">
+				<label>41</label>
+				<mixed-citation>41. Brito M, Casanova C, Mascarini LM, Wanderley DMV, Corrêa FMA. Phlebotominae (Diptera: Psychodidae) em área de transmissão de leishmaniose tegumentar americana no litoral norte do Estado de São Paulo, Brasil. Rev Soc Bras Med Trop. 2002;35(5):431-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0037-86822002000500002">https://doi.org/10.1590/S0037-86822002000500002</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Brito</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Casanova</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Mascarini</surname>
+							<given-names>LM</given-names>
+						</name>
+						<name>
+							<surname>Wanderley</surname>
+							<given-names>DMV</given-names>
+						</name>
+						<name>
+							<surname>Corrêa</surname>
+							<given-names>FMA</given-names>
+						</name>
+					</person-group>
+					<article-title>Phlebotominae (Diptera: Psychodidae) em área de transmissão de leishmaniose tegumentar americana no litoral norte do Estado de São Paulo, Brasil</article-title>
+					<source>Rev Soc Bras Med Trop</source>
+					<year>2002</year>
+					<volume>35</volume>
+					<issue>5</issue>
+					<fpage>431</fpage>
+					<lpage>437</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0037-86822002000500002">https://doi.org/10.1590/S0037-86822002000500002</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B42">
+				<label>42</label>
+				<mixed-citation>42. Galati EAB, Marassá AM, Fonseca MB, Gonçalves-Andrade RM, Consales CA, Bueno EFM. Phlebotomines (Diptera, Psychodidae) in the Speleological Province of the Ribeira Valley: 3. Serra district - area of hostels for tourists who visit the Parque Estadual do Alto Ribeira (PETAR), state of São Paulo, Brazil. Rev Bras Entomol. 2010;54(4):665-76. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0085-56262010000400020">https://doi.org/10.1590/S0085-56262010000400020</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Galati</surname>
+							<given-names>EAB</given-names>
+						</name>
+						<name>
+							<surname>Marassá</surname>
+							<given-names>AM</given-names>
+						</name>
+						<name>
+							<surname>Fonseca</surname>
+							<given-names>MB</given-names>
+						</name>
+						<name>
+							<surname>Gonçalves-Andrade</surname>
+							<given-names>RM</given-names>
+						</name>
+						<name>
+							<surname>Consales</surname>
+							<given-names>CA</given-names>
+						</name>
+						<name>
+							<surname>Bueno</surname>
+							<given-names>EFM</given-names>
+						</name>
+					</person-group>
+					<article-title>Phlebotomines (Diptera, Psychodidae) in the Speleological Province of the Ribeira Valley: 3. Serra district - area of hostels for tourists who visit the Parque Estadual do Alto Ribeira (PETAR), state of São Paulo, Brazil</article-title>
+					<source>Rev Bras Entomol</source>
+					<year>2010</year>
+					<volume>54</volume>
+					<issue>4</issue>
+					<fpage>665</fpage>
+					<lpage>676</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0085-56262010000400020">https://doi.org/10.1590/S0085-56262010000400020</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B43">
+				<label>43</label>
+				<mixed-citation>43. Saraiva L, Carvalho GML, Sanguinette CC, Carvalho DAA, Andrade Filho JD. Biogeographical aspects of the occurrence of Nyssomyia neivai and Nyssomyia intermedia (Diptera: Psychodidae) in a sympatric area of the Brazilian savannah. Mem Inst Oswaldo Cruz. 2012;107(7):867-72. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0074-02762012000700005">https://doi.org/10.1590/S0074-02762012000700005</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Saraiva</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Carvalho</surname>
+							<given-names>GML</given-names>
+						</name>
+						<name>
+							<surname>Sanguinette</surname>
+							<given-names>CC</given-names>
+						</name>
+						<name>
+							<surname>Carvalho</surname>
+							<given-names>DAA</given-names>
+						</name>
+						<name>
+							<surname>Andrade</surname>
+							<given-names>JD</given-names>
+							<suffix>Filho</suffix>
+						</name>
+					</person-group>
+					<article-title>Biogeographical aspects of the occurrence of Nyssomyia neivai and Nyssomyia intermedia (Diptera: Psychodidae) in a sympatric area of the Brazilian savannah</article-title>
+					<source>Mem Inst Oswaldo Cruz</source>
+					<year>2012</year>
+					<volume>107</volume>
+					<issue>7</issue>
+					<fpage>867</fpage>
+					<lpage>872</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0074-02762012000700005">https://doi.org/10.1590/S0074-02762012000700005</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B44">
+				<label>44</label>
+				<mixed-citation>44. Meneguzzi VC, Santos CB, Leite GR, Fux B, Falqueto A. Environmental niche modelling of Phlebotomine sand flies and cutaneous leishmaniasis identifies Lutzomyia intermedia as the main vector species in Southeastern Brazil. PLoS One. 2016;11(10):e0164580. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0164580">https://doi.org/10.1371/journal.pone.0164580</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Meneguzzi</surname>
+							<given-names>VC</given-names>
+						</name>
+						<name>
+							<surname>Santos</surname>
+							<given-names>CB</given-names>
+						</name>
+						<name>
+							<surname>Leite</surname>
+							<given-names>GR</given-names>
+						</name>
+						<name>
+							<surname>Fux</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Falqueto</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Environmental niche modelling of Phlebotomine sand flies and cutaneous leishmaniasis identifies Lutzomyia intermedia as the main vector species in Southeastern Brazil</article-title>
+					<source>PLoS One</source>
+					<year>2016</year>
+					<volume>11</volume>
+					<issue>10</issue>
+					<elocation-id>e0164580</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0164580">https://doi.org/10.1371/journal.pone.0164580</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B45">
+				<label>45</label>
+				<mixed-citation>45. Kamhawi S. Phlebotomine sand flies and Leishmania parasites: friends or foes? Trends Parasitol. 2006;22(9):439-45. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.pt.2006.06.012">https://doi.org/10.1016/j.pt.2006.06.012</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kamhawi</surname>
+							<given-names>S</given-names>
+						</name>
+					</person-group>
+					<article-title>Phlebotomine sand flies and Leishmania parasites: friends or foes?</article-title>
+					<source>Trends Parasitol</source>
+					<year>2006</year>
+					<volume>22</volume>
+					<issue>9</issue>
+					<fpage>439</fpage>
+					<lpage>445</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.pt.2006.06.012">https://doi.org/10.1016/j.pt.2006.06.012</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B46">
+				<label>46</label>
+				<mixed-citation>46. Volf P, Peckova J. Sand flies and Leishmania: specific versus permissive vectors. Trends Parasitol. 2007;23(3):91-2. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.pt.2006.12.010">https://doi.org/10.1016/j.pt.2006.12.010</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Volf</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Peckova</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>Sand flies and Leishmania: specific versus permissive vectors</article-title>
+					<source>Trends Parasitol</source>
+					<year>2007</year>
+					<volume>23</volume>
+					<issue>3</issue>
+					<fpage>91</fpage>
+					<lpage>92</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.pt.2006.12.010">https://doi.org/10.1016/j.pt.2006.12.010</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B47">
+				<label>47</label>
+				<mixed-citation>47. Seblova V, Sadlova J, Carpenter S, Volf P. Speculations on biting midges and other bloodsucking arthropods as alternative vectors of Leishmania. Parasit Vectors. 2014;7:222. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1756-3305-7-222">https://doi.org/10.1186/1756-3305-7-222</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Seblova</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Sadlova</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Carpenter</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Volf</surname>
+							<given-names>P</given-names>
+						</name>
+					</person-group>
+					<article-title>Speculations on biting midges and other bloodsucking arthropods as alternative vectors of Leishmania</article-title>
+					<source>Parasit Vectors</source>
+					<year>2014</year>
+					<volume>7</volume>
+					<size units="pages">222</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1756-3305-7-222">https://doi.org/10.1186/1756-3305-7-222</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B48">
+				<label>48</label>
+				<mixed-citation>48. Missawa NA, Michalsky EM, Fortes-Dias CL, Dias ES. Lutzomyia longipalpis naturally infected by Leishmania (L.) chagasi in Várzea Grande, Mato Grosso State, Brazil, an area of intense transmission of visceral leishmaniasis. Cad Saude Publica. 2010;26(12):2414-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/s0102-311x2010001200020">https://doi.org/10.1590/s0102-311x2010001200020</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Missawa</surname>
+							<given-names>NA</given-names>
+						</name>
+						<name>
+							<surname>Michalsky</surname>
+							<given-names>EM</given-names>
+						</name>
+						<name>
+							<surname>Fortes-Dias</surname>
+							<given-names>CL</given-names>
+						</name>
+						<name>
+							<surname>Dias</surname>
+							<given-names>ES</given-names>
+						</name>
+					</person-group>
+					<article-title>Lutzomyia longipalpis naturally infected by Leishmania (L.) chagasi in Várzea Grande, Mato Grosso State, Brazil, an area of intense transmission of visceral leishmaniasis</article-title>
+					<source>Cad Saude Publica</source>
+					<year>2010</year>
+					<volume>26</volume>
+					<issue>12</issue>
+					<fpage>2414</fpage>
+					<lpage>2419</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/s0102-311x2010001200020">https://doi.org/10.1590/s0102-311x2010001200020</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="financial-disclosure" id="fn2">
+				<p><bold>Funding:</bold> <italic>Coordenação de Aperfeiçoamento de Pessoal de Nível Superior</italic> (Capes - Fellowship FGO - Process 88882.315727/2019-01).</p>
+			</fn>
+		</fn-group>
+	</back>
+</article>

@@ -1,0 +1,3075 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.1" specific-use="sps-1.9" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="nlm-ta">Rev Saude Publica</journal-id>
+			<journal-id journal-id-type="publisher-id">rsp</journal-id>
+			<journal-title-group>
+				<journal-title>Revista de Saúde Pública</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Rev. Saúde Pública</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="ppub">0034-8910</issn>
+			<issn pub-type="epub">1518-8787</issn>
+			<publisher>
+				<publisher-name>Faculdade de Saúde Pública da Universidade de São Paulo</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="other">00218</article-id>
+			<article-id pub-id-type="doi">10.11606/s1518-8787.2022056004040</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Original Article</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Covid-19 in Brazil in 2020: impact on deaths from cancer and cardiovascular diseases</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-3075-2591</contrib-id>
+					<name>
+						<surname>Jardim</surname>
+						<given-names>Beatriz Cordeiro</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-4861-2319</contrib-id>
+					<name>
+						<surname>Migowski</surname>
+						<given-names>Arn</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff3"><sup>III</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-1105-2397</contrib-id>
+					<name>
+						<surname>Corrêa</surname>
+						<given-names>Flávia de Miranda</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-8734-2799</contrib-id>
+					<name>
+						<surname>Silva</surname>
+						<given-names>Gulnar Azevedo e</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>I</label>
+				<institution content-type="orgname">Instituto Nacional de Câncer</institution>
+				<institution content-type="orgdiv1">Coordenação de Prevenção e Vigilância</institution>
+				<institution content-type="orgdiv2">Divisão de Detecção Precoce e Apoio à Organização de Rede</institution>
+				<addr-line>
+					<named-content content-type="city">Rio de Janeiro</named-content>
+					<named-content content-type="state">RJ</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Instituto Nacional de Câncer. Coordenação de Prevenção e Vigilância. Divisão de Detecção Precoce e Apoio à Organização de Rede. Rio de Janeiro, RJ, Brasil</institution>
+			</aff>
+			<aff id="aff2">
+				<label>II</label>
+				<institution content-type="orgname">Universidade do Estado do Rio de Janeiro</institution>
+				<institution content-type="orgdiv1">Instituto de Medicina Social Hésio Cordeiro</institution>
+				<addr-line>
+					<named-content content-type="city">Rio de Janeiro</named-content>
+					<named-content content-type="state">RJ</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Universidade do Estado do Rio de Janeiro. Instituto de Medicina Social Hésio Cordeiro. Rio de Janeiro, RJ, Brasil</institution>
+			</aff>
+			<aff id="aff3">
+				<label>III</label>
+				<institution content-type="orgname">Instituto Nacional de Cardiologia</institution>
+				<institution content-type="orgdiv1">Coordenação de Ensino e Pesquisa</institution>
+				<institution content-type="orgdiv2">Núcleo de Epidemiologia</institution>
+				<addr-line>
+					<named-content content-type="city">Rio de Janeiro</named-content>
+					<named-content content-type="state">RJ</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Instituto Nacional de Cardiologia. Coordenação de Ensino e Pesquisa. Núcleo de Epidemiologia. Rio de Janeiro, RJ, Brasil</institution>
+			</aff>
+			<author-notes>
+				<corresp id="c01"> Correspondence: Beatriz Cordeiro Jardim Instituto Nacional de Câncer Rua Marquês de Pombal, 125, 7º andar - centro 20230-240 Rio de Janeiro, RJ, Brasil E-mail: <email>beatrizjardim@gmail.com</email>
+				</corresp>
+				<fn fn-type="con">
+					<p><bold>Authors’ Contribution:</bold> Study design and planning: BCJ, AM, FMC, GAS. Data collection and organization: BCJ. Data analysis and interpretation of results: BCJ, AM, FMC, GAS. Writing of the manuscript: BCJ, AM, FMC, GAS. Revision and approval of the final version: BCJ, AM, FMC, GAS. Public responsibility for the content of the article: BCJ, AM, FMC, GAS.</p>
+				</fn>
+				<fn fn-type="conflict">
+					<p><bold>Conflict of Interest:</bold> The authors declare no conflict of interest.</p>
+				</fn>
+			</author-notes>
+			<pub-date date-type="pub" publication-format="electronic">
+				<day>22</day>
+				<month>04</month>
+				<year>2022</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">
+				<year>2022</year>
+			</pub-date>
+			<volume>56</volume>
+			<elocation-id>22</elocation-id>
+			<history>
+				<date date-type="received">
+					<day>7</day>
+					<month>07</month>
+					<year>2021</year>
+				</date>
+				<date date-type="accepted">
+					<day>20</day>
+					<month>10</month>
+					<year>2021</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="en">
+					<license-p> This is an Open Access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. </license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>ABSTRACT</title>
+				<sec>
+					<title>OBJECTIVE</title>
+					<p> To analyze the impact of the covid-19 pandemic on mortality from cancer and cardiovascular diseases (CVD) as underlying cause and comorbidity in Brazil and Brazilian regions in 2020.</p>
+				</sec>
+				<sec>
+					<title>METHODS</title>
+					<p> We used the 2019 and 2020 databases of the Mortality Information System (SIM) to analyze deaths occurring between March and December of each year that had cancer or CVD as the underlying cause or comorbidity. Deaths from covid-19 in 2020 were also analyzed. To estimate the Standardized Mortality Ratio (SMR) and the excess of deaths, 2019 data were considered as standard.</p>
+				</sec>
+				<sec>
+					<title>RESULTS</title>
+					<p> Between March and December 2020, there were 181,377 deaths from cancer and 291,375 deaths from cardiovascular diseases in Brazil, indicating reduction rates of 9.7% and 8.8%, respectively, compared to the same period of the previous year. The pattern was maintained in the five Brazilian regions, with lower variation for cancer (-8.4% in the South to -10.9% in the Midwest). For CVD, the variation was greater, from -2.2% in the North to -10.5 in the Southeast and South. In the same period of 2020, these diseases were classified as comorbidities in 18,133 deaths from cancer and 188,204 deaths from cardiovascular diseases, indicating a proportional excess compared to data from 2019, of 82.1% and 77.9%, respectively. This excess was most significant in the Northern Region, with a ratio of 2.5 between observed and expected deaths for the two conditions studied.</p>
+				</sec>
+				<sec>
+					<title>CONCLUSIONS</title>
+					<p> Excess deaths from cancer and CVD as comorbidities in 2020 may indicate that covid-19 had an important impact among patients with these conditions.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="en">
+				<kwd>COVID-19</kwd>
+				<kwd>Cardiovascular Diseases</kwd>
+				<kwd>Neoplasms</kwd>
+				<kwd>Comorbidity</kwd>
+				<kwd>Mortality</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="6"/>
+				<table-count count="4"/>
+				<equation-count count="4"/>
+				<ref-count count="54"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>INTRODUCTION</title>
+			<p>The covid-19 pandemic, a disease caused by the new coronavirus (SARS-CoV-2), has substantially changed the mortality profile in many countries. In 2020, approximately one million additional deaths occurred in 29 high-income countries compared to the previous four years<sup><xref ref-type="bibr" rid="B1">1</xref></sup>. In Brazil, several authors showed that, compared to previous years, in 2020 there was clearly an excess of deaths<sup><xref ref-type="bibr" rid="B2">2</xref></sup> as well as an increase in the hospital mortality rate<sup><xref ref-type="bibr" rid="B6">6</xref></sup>.</p>
+			<p>Historically, from the second half of the last century, the burden of chronic non-communicable diseases (NCDs) took center stage, accounting for more than 60% of deaths worldwide today<sup><xref ref-type="bibr" rid="B7">7</xref></sup>. Cardiovascular diseases (CVD) and cancer have been the two main causes of death in Brazil for many decades.</p>
+			<p>Experimental and observational evidence shows a consistently higher risk of evolution to severe case of covid-19 in older individuals and individuals with comorbidities<sup><xref ref-type="bibr" rid="B8">8</xref>,<xref ref-type="bibr" rid="B9">9</xref></sup> due to acute respiratory syndrome (SARS). Among patients with NCDs, such as cancer and CVD, health conditions may worsen as a direct or indirect result of the pandemic, either due to greater fragility or a worse response to infection by coronavirus type 2, which causes SARS (SARS-Cov-2), or to difficulty in accessing and continuing care of these chronic conditions in health services or due to impairment to actions of early detection, diagnostic confirmation and early treatment<sup><xref ref-type="bibr" rid="B10">10</xref></sup>. Consequently, assessing morbidity and mortality in individuals with increased risk of developing severe covid-19 is essential for determining preventive and therapeutic strategies for this specific group and for investigating the impact of the pandemic on their underlying diseases<sup><xref ref-type="bibr" rid="B11">11</xref></sup>.</p>
+			<p>The analysis of accessible information in the Brazilian Unified Health System (SUS) is essential for assessing how covid-19 has changed the country’s mortality profile, as well as for identifying situations aimed at improving health surveillance. The objective of this study was to analyze the impact of the covid-19 pandemic on mortality from cancer and CVDs, both as a underlying cause and as a comorbidity in Brazil and Brazilian regions in 2020.</p>
+		</sec>
+		<sec sec-type="methods">
+			<title>METHODS</title>
+			<p>The data on deaths occurred in 2019 and 2020 (preliminary basis available) used in this study were obtained from the Mortality Information System (SIM), on the homepage of the SUS Department of Informatics (Datasus)<sup><xref ref-type="fn" rid="fna">a</xref></sup>. The general and regional population data were obtained from the population projections of the Brazilian institute of geography and statistics (IBGE), 2018 edition<sup><xref ref-type="fn" rid="fnb">b</xref></sup>.</p>
+			<p>The SIM has been improved since its creation in 1975, and its quality and coverage are considered good by international standards<sup><xref ref-type="bibr" rid="B12">12</xref></sup>. The data in the medical certification of cause of death (MCCOD) that feed the SIM are filled in by doctors and divided according to rules that allow determining the underlying causes of death, the antecedent and contributory causes (also known as comorbidities). The MCCOD form adopted in Brazil classifies the causes of death according to the World Health Organization (WHO) standard. Following the causal chain of events, the underlying cause is the disease or injury (or circumstances in the case of external causes) that initiated the chain of pathological events expressed in the antecedent causes and which directly resulted in death. Comorbidities, described in the second part of the MCCOD, are significant morbid conditions that contributed to death, but were not directly part of the causal chain that culminated in death<sup><xref ref-type="bibr" rid="B13">13</xref></sup>. Currently, microdata regarding deaths that occurred in Brazil between 1980 and 2019 are available, but due to the covid-19 pandemic, preliminary data for 2020 were made available in advance in April 2021 and this is the information that is part of this study.</p>
+			<p>MCCOD were analyzed using the following codes of the tenth revision of the International Classification of Diseases (ICD-10)<sup><xref ref-type="bibr" rid="B14">14</xref></sup>: cancer (C00-C97), CVD (I00-I99), external causes (V, W, X, Y) and ill-defined (R00-R99). To classify covid-19 deaths, we used the guidelines of the Health Surveillance Department of the Ministry of Health to codify the causes of death in the midst of the pandemic, in which the code B34.2 was used for deaths whose underlying cause was covid-19 in Brazil<sup><xref ref-type="bibr" rid="B15">15</xref></sup>.</p>
+			<p>For all deaths occurring in 2020, we estimated the age-standardized rates by the direct method, considering the age groups (0 to 19 years; 20 to 29 years; 30 to 39 years; 40 to 49 years; 50 to 59 years; 60 to 69 years; 70 to 79 years and 80 years or older) and using as standard the Brazilian population projected for 2020 by the IBGE.</p>
+			<p>Then, we recorded the deaths from the two main causes nationally and regionally in 2020 (cancer and CVD) and the deaths from covid-19. Correction factors were applied to these deaths by proportional redistribution of those reported as ill-defined causes, considering the age groups already described and the geographical locations, according to the method proposed by Mathers et al.<sup><xref ref-type="bibr" rid="B16">16</xref></sup> Deaths from ill-defined causes were 5.55% and 6.44% of the total deaths recorded in 2019 and 2020, respectively. Among the Brazilian regions, this proportion ranged from 2.97% (Midwest) to 8.20% (North) in 2019 and from 4.68% (South) to 8.31% (North) in 2020. The largest increases were observed in the Midwest (from 2.97% in 2019 to 5.09% in 2020) and South (from 3.52% in 2019 to 4.48% in 2020).</p>
+			<p>To estimate age-standardized rates, deaths without information on age or date of birth were excluded: n = 2,358 (0.17%) in 2019 and n = 30,893 (1.98%) in 2020.</p>
+			<p>We then estimated the expected deaths by underlying cause of death (cancer or CVD) per month and for the period between March and December 2020, in addition to estimating the expected deaths with these diseases as comorbidities for the same period of pandemic in 2020. For this estimate, we applied the mortality coefficients by age groups (0 to 19 years; 20 to 29 years; 30 to 39 years; 40 to 49 years; 50 to 59 years; 60 to 69 years; 70 to 79 years and 80 years or older) for cause, period and region in 2019 as standard to the population projected for 2020, in the same age groups and regions. In this estimate, deaths with no information about age for the disease categories under study were excluded (2019: n = 246; 0.04%; 2020: n = 201; 0.02%).</p>
+			<p>We estimated the difference between the number of deaths observed and the number of deaths expected in this period, and the percentage change of this difference.</p>
+			<p>The standardized mortality ratio (RMP) was estimated as the ratio between observed and expected deaths in the period. The intervals with 95% confidence for each RMP were estimated by using a Poisson distribution, as described by Breslow and Day<sup><xref ref-type="bibr" rid="B17">17</xref></sup>:</p>
+			<disp-formula id="e1">
+				<mml:math>
+					<mml:mi>R</mml:mi>
+					<mml:mi>M</mml:mi>
+					<mml:msub>
+						<mml:mi>P</mml:mi>
+						<mml:mrow>
+							<mml:mi>I</mml:mi>
+						</mml:mrow>
+					</mml:msub>
+					<mml:mo>=</mml:mo>
+					<mml:mfrac>
+						<mml:mrow>
+							<mml:mi>D</mml:mi>
+							<mml:mrow>
+								<mml:mo>(</mml:mo>
+								<mml:mn>1</mml:mn>
+								<mml:mo>−</mml:mo>
+								<mml:mfrac>
+									<mml:mn>1</mml:mn>
+									<mml:mrow>
+										<mml:mn>9</mml:mn>
+										<mml:mi>D</mml:mi>
+									</mml:mrow>
+								</mml:mfrac>
+								<mml:mo>)</mml:mo>
+							</mml:mrow>
+							<mml:mo>−</mml:mo>
+							<mml:msup>
+								<mml:mrow>
+									<mml:mo>(</mml:mo>
+									<mml:mfrac>
+										<mml:mn>1.96</mml:mn>
+										<mml:mrow>
+											<mml:mn>3</mml:mn>
+											<mml:msqrt>
+												<mml:mi>D</mml:mi>
+											</mml:msqrt>
+										</mml:mrow>
+									</mml:mfrac>
+									<mml:mo>)</mml:mo>
+								</mml:mrow>
+								<mml:mrow>
+									<mml:mn>3</mml:mn>
+								</mml:mrow>
+							</mml:msup>
+						</mml:mrow>
+						<mml:mi>E</mml:mi>
+					</mml:mfrac>
+				</mml:math>
+			</disp-formula>
+			<disp-formula id="e2">
+				<mml:math>
+					<mml:mi>R</mml:mi>
+					<mml:mi>M</mml:mi>
+					<mml:msub>
+						<mml:mi>P</mml:mi>
+						<mml:mrow>
+							<mml:mi>s</mml:mi>
+						</mml:mrow>
+					</mml:msub>
+					<mml:mo>=</mml:mo>
+					<mml:mfrac>
+						<mml:mrow>
+							<mml:mo>(</mml:mo>
+							<mml:mi>D</mml:mi>
+							<mml:mo>+</mml:mo>
+							<mml:mn>1</mml:mn>
+							<mml:mo>)</mml:mo>
+							<mml:mrow>
+								<mml:mo>(</mml:mo>
+								<mml:mn>1</mml:mn>
+								<mml:mo>−</mml:mo>
+								<mml:mfrac>
+									<mml:mn>1</mml:mn>
+									<mml:mrow>
+										<mml:mn>9</mml:mn>
+										<mml:mo>(</mml:mo>
+										<mml:mi>D</mml:mi>
+										<mml:mo>+</mml:mo>
+										<mml:mn>1</mml:mn>
+										<mml:mo>)</mml:mo>
+									</mml:mrow>
+								</mml:mfrac>
+								<mml:mo>)</mml:mo>
+							</mml:mrow>
+							<mml:mo>−</mml:mo>
+							<mml:msup>
+								<mml:mrow>
+									<mml:mo>(</mml:mo>
+									<mml:mfrac>
+										<mml:mn>1.96</mml:mn>
+										<mml:mrow>
+											<mml:mn>3</mml:mn>
+											<mml:msqrt>
+												<mml:mo>(</mml:mo>
+												<mml:mi>D</mml:mi>
+												<mml:mo>+</mml:mo>
+												<mml:mn>1</mml:mn>
+												<mml:mo>)</mml:mo>
+											</mml:msqrt>
+										</mml:mrow>
+									</mml:mfrac>
+									<mml:mo>)</mml:mo>
+								</mml:mrow>
+								<mml:mrow>
+									<mml:mn>3</mml:mn>
+								</mml:mrow>
+							</mml:msup>
+						</mml:mrow>
+						<mml:mi>E</mml:mi>
+					</mml:mfrac>
+				</mml:math>
+			</disp-formula>
+			<p>Where:</p>
+			<p>RMP<sub>I</sub> is the lower limit for the 95% confidence interval of the SMR;</p>
+			<p>RMP<sub>S</sub> is the upper limit for the 95% confidence interval of the SMR;</p>
+			<p><italic>D</italic> is the number of deaths observed in 2020;</p>
+			<p><italic>E</italic> is the number of deaths expected for 2020.</p>
+			<p>Finally, we estimated the percentages of deaths observed in 2020 and expected by comorbidity – based on the profile observed in 2019 – having as a total the sum of deaths classified as underlying cause and the ones classified as comorbidity. The ratio between these percentages was checked to assess whether or not this ratio increased.</p>
+			<p>All estimates were made using the statistical software Stata<sup><xref ref-type="bibr" rid="B18">18</xref></sup>.</p>
+		</sec>
+		<sec sec-type="results">
+			<title>RESULTS</title>
+			<p>In 2020, there were 1,560,088 deaths in Brazil. Compared to 2019, the general mortality rate standardized by age increased by 10.15%, going from 655.63 to 722.15 deaths per 100 thousand inhabitants. The largest increases were observed in the North (25.90%; from 682.11/100 thousand in 2019 to 858.79/100 thousand in 2020) and in the Northeast (12.99%; from 676.48/100 thousand in 2019 to 764.33/100 thousand in 2020) (<xref ref-type="fig" rid="f01">Figure 1</xref>).</p>
+			<p>
+				<fig id="f01">
+					<label>Figure 1</label>
+					<caption>
+						<title>Distribution of mortality rates standardized by age for all causes of death in Brazil and Brazilian regions in 2019 and 2020.</title>
+					</caption>
+					<graphic xlink:href="1518-8787-rsp-56-22-gf01.tif"/>
+				</fig>
+			</p>
+			<p>In 2020, covid-19 was the third leading cause of death throughout Brazil and also in the Southeast and South regions, with an age-standardized rate of 97.58 per 100 thousand, second only to CVD (164.03/100 thousand) and cancer (103.60/100 thousand) and surpassing respiratory diseases (70.43/100 thousand). In the North (161.20/100 thousand), Northeast (100.50/100 thousand) and Midwest (125.21/100 thousand), covid-19 was the second only to CVD as a leading cause of death (<xref ref-type="fig" rid="f02">Figure 2</xref>).</p>
+			<p>
+				<fig id="f02">
+					<label>Figure 2</label>
+					<caption>
+						<title>Distribution of mortality rates corrected and standardized by age for the three main causes of death in 2020 in Brazil and Brazilian regions.</title>
+					</caption>
+					<graphic xlink:href="1518-8787-rsp-56-22-gf02.tif"/>
+				</fig>
+			</p>
+			<p>
+				<xref ref-type="fig" rid="f03">Figure 3</xref> shows the observed and expected deaths from cancer and CVD, and deaths from covid-19 in the months of 2020 for Brazil and Brazilian regions. It is possible to note that, with the arrival of the covid-19 pandemic, starting in March, the observed deaths for both cancer and CVD declines in Brazil as a whole and in each region. In the North, however, the visual difference between the expected and observed death curves is not as striking as in the other regions.</p>
+			<p>
+				<fig id="f03">
+					<label>Figure 3</label>
+					<caption>
+						<title>Observed and expected deaths from cancer, cardiovascular disease and covid-19 per month in 2020 in Brazil.</title>
+					</caption>
+					<graphic xlink:href="1518-8787-rsp-56-22-gf03.tif"/>
+				</fig>
+			</p>
+			<p>In the period between March and December 2020, a total of 181,377 cancer deaths were reported in the SIM as underlying cause. This figure was 10% lower than expected (200,876), based on the mortality profile in the same period in 2019 (RMP = 0.90; 95%CI 0.90–0.91). This pattern repeated itself in all regions of the country where the SMR were always lower than the unit and statistically significant. The same finding among observed and expected deaths occurred for CVD in 2020 in the period, both for Brazil (291,375 and 319,561, respectively; SMR = 0.91; 95%CI 0.91–0.920) and for all regions (<xref ref-type="table" rid="t1">Table 1</xref>).</p>
+			<p>
+				<table-wrap id="t1">
+					<label>Table 1</label>
+					<caption>
+						<title>Number of observed and expected deaths from cancer and cardiovascular diseases and standardized mortality ratio (SMR) in Brazil and Brazilian regions, between March and December 2020.</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left">Underlying cause</th>
+								<th>Region</th>
+								<th>Observed deaths</th>
+								<th>Expected deaths</th>
+								<th>SMR (95%CI)</th>
+								<th>Difference (n)</th>
+								<th>Variation (%)</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><bold>Cancer</bold></td>
+								<td align="center"><bold>North</bold></td>
+								<td align="center">9,416</td>
+								<td align="center">10,333</td>
+								<td align="center">0.91 (0.89–0.93)</td>
+								<td align="center">-917</td>
+								<td align="center">-8.87</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center"><bold>Northeast</bold></td>
+								<td align="center">40,047</td>
+								<td align="center">44,645</td>
+								<td align="center">0.90 (0.89–0.91)</td>
+								<td align="center">-4,598</td>
+								<td align="center">-10.30</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center"><bold>Southeast</bold></td>
+								<td align="center">85,302</td>
+								<td align="center">94,640</td>
+								<td align="center">0.90 (0.90–0.91)</td>
+								<td align="center">-9,338</td>
+								<td align="center">-9.87</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center"><bold>South</bold></td>
+								<td align="center">34,682</td>
+								<td align="center">37,878</td>
+								<td align="center">0.92 (0.91–0.93)</td>
+								<td align="center">-3,196</td>
+								<td align="center">-8.44</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center"><bold>Midwest</bold></td>
+								<td align="center">11,930</td>
+								<td align="center">13,394</td>
+								<td align="center">0.89 (0.87–0.91)</td>
+								<td align="center">-1,464</td>
+								<td align="center">-10.93</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center"><bold>Brazil</bold></td>
+								<td align="center">181,377</td>
+								<td align="center">200,876</td>
+								<td align="center">0.90 (0.90–0.91)</td>
+								<td align="center">-19,499</td>
+								<td align="center">-9.71</td>
+							</tr>
+							<tr>
+								<td><bold>Cardiovascular diseases</bold></td>
+								<td align="center"><bold>North</bold></td>
+								<td align="center">16,753</td>
+								<td align="center">17,132</td>
+								<td align="center">0.98 (0.96–0.99)</td>
+								<td align="center">-379</td>
+								<td align="center">-2.21</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center"><bold>Northeast</bold></td>
+								<td align="center">78,324</td>
+								<td align="center">83,630</td>
+								<td align="center">0.94 (0.93–0.94)</td>
+								<td align="center">-5,306</td>
+								<td align="center">-6.34</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center"><bold>Southeast</bold></td>
+								<td align="center">134,239</td>
+								<td align="center">150,050</td>
+								<td align="center">0.89 (0.89–0.90)</td>
+								<td align="center">-15,811</td>
+								<td align="center">-10.54</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center"><bold>South</bold></td>
+								<td align="center">43,028</td>
+								<td align="center">48,082</td>
+								<td align="center">0.89 (0.89–0.90)</td>
+								<td align="center">-5,054</td>
+								<td align="center">-10.51</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center"><bold>Midwest</bold></td>
+								<td align="center">19,031</td>
+								<td align="center">20,621</td>
+								<td align="center">0.92 (0.91–0.94)</td>
+								<td align="center">-1,590</td>
+								<td align="center">-7.71</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center"><bold>Brazil</bold></td>
+								<td align="center">291,375</td>
+								<td align="center">319,561</td>
+								<td align="center">0.91 (0.91–0.92)</td>
+								<td align="center">-28,186</td>
+								<td align="center">-8.82</td>
+							</tr>
+						</tbody>
+					</table>
+				</table-wrap>
+			</p>
+			<p>By analyzing the selected comorbidities separately, an opposite pattern was identified, with an increase in deaths observed for cancer, leading to an SMR of 1.82 (95%CI 1.79–1.85). A higher number of deaths observed than expected within this category was detected in all regions, especially in the North, where the SMR was 2.55 (95%CI 2.37–2.73). Regarding CVD as comorbidity, excess deaths were also found in Brazil as a whole (RMP = 1.78; 95%CI 1.77–1.79) and by regions. The highest SMR was also seen in the North (SMR = 2.46; 95%CI 2.41–2.50) (<xref ref-type="table" rid="t2">Table 2</xref>).</p>
+			<p>
+				<table-wrap id="t2">
+					<label>Table 2</label>
+					<caption>
+						<title>Number of observed and expected deaths from cancer and cardiovascular diseases as comorbidity and standardized mortality ratio (SMR) in Brazil and Brazilian regions between March and December 2020.</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left">Comorbidity</th>
+								<th>Region</th>
+								<th>Observed deaths</th>
+								<th>Expected deaths</th>
+								<th>SMR (95%CI)</th>
+								<th>Difference (n)</th>
+								<th>Variation (%)</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><bold>Cancer</bold></td>
+								<td align="center"><bold>North</bold></td>
+								<td align="center">744</td>
+								<td align="center">292</td>
+								<td align="center">2.55 (2.37–2.73)</td>
+								<td align="center">452</td>
+								<td align="center">154.87</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center"><bold>Northeast</bold></td>
+								<td align="center">3,776</td>
+								<td align="center">2,026</td>
+								<td align="center">1.86 (1.80–1.92)</td>
+								<td align="center">1,750</td>
+								<td align="center">86.41</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center"><bold>Southeast</bold></td>
+								<td align="center">9,928</td>
+								<td align="center">5,399</td>
+								<td align="center">1.84 (1.80–1.87)</td>
+								<td align="center">4,529</td>
+								<td align="center">83.87</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center"><bold>South</bold></td>
+								<td align="center">2,487</td>
+								<td align="center">1,561</td>
+								<td align="center">1.59 (1.53–1.66)</td>
+								<td align="center">926</td>
+								<td align="center">59.34</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center"><bold>Midwest</bold></td>
+								<td align="center">1,196</td>
+								<td align="center">683</td>
+								<td align="center">1.75 (1.65–1.85)</td>
+								<td align="center">513</td>
+								<td align="center">75.09</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center"><bold>Brazil</bold></td>
+								<td align="center"><bold>18,131</bold></td>
+								<td align="center"><bold>9,959</bold></td>
+								<td align="center"><bold>1.82 (1.79–1.85)</bold></td>
+								<td align="center"><bold>8,172</bold></td>
+								<td align="center"><bold>82.05</bold></td>
+							</tr>
+							<tr>
+								<td><bold>Cardiovascular diseases</bold></td>
+								<td align="center"><bold>North</bold></td>
+								<td align="center">11,651</td>
+								<td align="center">4,738</td>
+								<td align="center">2.46 (2.41–2.50)</td>
+								<td align="center">6,913</td>
+								<td align="center">145.90</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center"><bold>Northeast</bold></td>
+								<td align="center">45,298</td>
+								<td align="center">23,476</td>
+								<td align="center">1.93 (1.91–1.95)</td>
+								<td align="center">21,822</td>
+								<td align="center">92.96</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center"><bold>Southeast</bold></td>
+								<td align="center">91,923</td>
+								<td align="center">51,876</td>
+								<td align="center">1.77 (1.76–1.78)</td>
+								<td align="center">40,047</td>
+								<td align="center">77.20</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center"><bold>South</bold></td>
+								<td align="center">25,177</td>
+								<td align="center">17,832</td>
+								<td align="center">1.41 (1.39–1.43)</td>
+								<td align="center">7,345</td>
+								<td align="center">41.19</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center"><bold>Midwest</bold></td>
+								<td align="center">14,155</td>
+								<td align="center">7,899</td>
+								<td align="center">1.79 (1.76–1.82)</td>
+								<td align="center">6,256</td>
+								<td align="center">79.20</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center"><bold>Brazil</bold></td>
+								<td align="center"><bold>188,204</bold></td>
+								<td align="center"><bold>105,791</bold></td>
+								<td align="center"><bold>1.78 (1.77–1.79)</bold></td>
+								<td align="center"><bold>82,413</bold></td>
+								<td align="center"><bold>77.90</bold></td>
+							</tr>
+						</tbody>
+					</table>
+				</table-wrap>
+			</p>
+		</sec>
+		<sec sec-type="discussion">
+			<title>DISCUSSION</title>
+			<p>Covering the entire period of the pandemic in 2020 and using SIM data from all over Brazil, we were able to identify a decline of almost 10% in expected mortality from cancer and CVD, compared to 2019. This drop pattern occurred in the five regions of the country, with a slightly greater variation for CVD between the regions.</p>
+			<p>A possible explanation for the decline in mortality observed for the two groups of diseases studied here is the action of covid-19 as a competitive cause of death, resulting in migration of the underlying cause of death. Thus, prevalent cases of cancer and CVD, which would have a higher risk of death from these diseases, ended up having their deaths anticipated due to covid-19<sup><xref ref-type="bibr" rid="B19">19</xref></sup>. A study conducted in China between January and June 2020, covering three stages of the pandemic (first wave, second wave and recovery), showed a deficit in deaths from all causes, but did not present a statistically significant difference in cancer deaths and found excess in deaths from CVD<sup><xref ref-type="bibr" rid="B20">20</xref></sup>. Similar findings, without statistical significance, were reported in the first half of 2020 in the city of São Paulo for cancer (SMR = 0.9; 95%CI 0.67–1.20) and CVD (SMR = 0.9; 95%CI 0.68–1.15)<sup><xref ref-type="bibr" rid="B21">21</xref></sup>.</p>
+			<p>The competition for hospital beds and emergency care, as well as health professionals becoming ill, could have led to an increase in mortality from the chronic diseases studied. This would be expected particularly for acute manifestations of CVD, such as acute myocardial infarction (AMI), stroke and dissecting aortic aneurysm. Choudhary et al.<sup><xref ref-type="bibr" rid="B22">22</xref></sup> showed that treatment of severe cardiac emergencies decreased during the pandemic and that, among the cases of acute coronary syndrome, the proportion of patients treated with conservative therapy increased. In the US, in the early months of the pandemic there were fewer hospital admissions for conditions requiring emergency treatment, mainly AMI, stroke and heart failure<sup><xref ref-type="bibr" rid="B23">23</xref></sup>.</p>
+			<p>The reduction in mortality in Brazil from both cancer and CVD in 2020 may not continue in the coming years. A greater difficulty in the monitoring and control of chronic conditions such as systemic hypertension and diabetes mellitus should have a later impact on the increase in mortality in the coming years, and actions to mitigate this effect have been recommended, such as increased use of telemedicine<sup><xref ref-type="bibr" rid="B24">24</xref>,<xref ref-type="bibr" rid="B25">25</xref></sup>.</p>
+			<p>In cancer patients, postponing surgeries to remove tumors and delaying chemo or radiotherapy treatment can cause the disease to progress, decreasing the chances of cure<sup><xref ref-type="bibr" rid="B26">26</xref></sup>. In Brazil, the pandemic caused the need for adaptations in early detection recommendations in order to prioritize the investigation of cases with suspicious signs and symptoms<sup><xref ref-type="bibr" rid="B27">27</xref></sup>. The decrease in these actions perceived in 2020<sup><xref ref-type="bibr" rid="B28">28</xref></sup> is worrying because it implies a future impact on cancer mortality, particularly in low and middle income countries<sup><xref ref-type="bibr" rid="B29">29</xref></sup>.</p>
+			<p>Some studies have focused on estimating, through modeling, the future impact of the Covid-19 pandemic on mortality due to delayed diagnosis<sup><xref ref-type="bibr" rid="B30">30</xref></sup>. In the UK, it has been estimated that in the next five years there will be 15.3 to 16.6% of additional deaths from colorectal cancer and 7.9 to 9.6% from breast cancer, 5.8 to 6.0% from esophageal cancer and 4.8 to 5.3% from lung cancer<sup><xref ref-type="bibr" rid="B30">30</xref></sup>. In France, excess cancer mortality was estimated from one thousand to six thousand patients in the coming years<sup><xref ref-type="bibr" rid="B31">31</xref></sup>. In Australia, a significant impact is expected in terms of additional deaths and health costs due to changes in the stage of the disease at the beginning of treatment in cases of breast, lung, colorectal cancer (from stage I to II) and melanoma (from stage T1 to T2)<sup><xref ref-type="bibr" rid="B32">32</xref></sup>. In India, excess mortality related to cervical cancer is expected<sup><xref ref-type="bibr" rid="B33">33</xref></sup>.</p>
+			<p>The pandemic has been regarded by some as an opportunity to reduce the unnecessary and harmful use of health services, serving as a natural experiment in reducing the harms arising from these practices<sup><xref ref-type="bibr" rid="B34">34</xref></sup>. It is possible that overdiagnosis and overtreatment, resulting from screening without indication, especially for prostate and breast cancer, have decreased during the pandemic, especially because both are very prevalent practices in Brazil<sup><xref ref-type="bibr" rid="B35">35</xref>,<xref ref-type="bibr" rid="B36">36</xref></sup>. Although there is evidence of increased CVD mortality associated with overdiagnosis and overtreatment of cancer, and especially breast cancer, it is unlikely that a possible reduction has impacted the results presented here<sup><xref ref-type="bibr" rid="B37">37</xref></sup>.</p>
+			<p>The differences observed between the Brazilian regions are a reflection of the inequalities of access to health prior to the covid-19 pandemic<sup><xref ref-type="bibr" rid="B38">38</xref></sup>. As in other parts of the world, with the pandemic these inequalities have been amplified<sup><xref ref-type="bibr" rid="B39">39</xref></sup>, compromising the necessary measures to control the spread of the virus and highlighting the difficulties of access to health services. The North and Northeast regions have the lowest rates of human development in the country, the highest rates of inequality and the worst access to health services<sup><xref ref-type="bibr" rid="B38">38</xref></sup>. In addition, it is thought that the P1 variant emerged in the North<sup><xref ref-type="bibr" rid="B40">40</xref></sup>, possibly helping to increase cases and deaths at the end of 2020 because it is more transmissible<sup><xref ref-type="bibr" rid="B41">41</xref></sup>.</p>
+			<p>In the midst of the pandemic, these factors add to the already high load of NCDs in the North and Northeast regions, described since 2008 as resulting from the inequalities mentioned here<sup><xref ref-type="bibr" rid="B42">42</xref></sup>. Unlike the other regions of Brazil, the trend of mortality from CVD<sup><xref ref-type="bibr" rid="B43">43</xref></sup> and cancer<sup><xref ref-type="bibr" rid="B44">44</xref></sup> in these regions in years prior to the pandemic was upward, which may have led, especially in the North, to the largest excesses of deaths seen of these diseases as comorbidity during the pandemic.</p>
+			<p>In contrast to the fall in mortality of the diseases studied here as the underlying cause of death in Brazil, we observed a significant increase in mortality from cancer and CVD as comorbidities, respectively 82.1% and 77.9%. This increase ranged from 59.3% in the South to 154.9% in the North for cancer and from 41.2% in the South to 145.9% in the North for CVD.</p>
+			<p>The rules for reporting causes of death in the SIM are well established for cancer<sup><xref ref-type="bibr" rid="B45">45</xref></sup> which, is generally recorded as an underlying cause. In the case of CVD, the probability of being reported as comorbidity at death is higher than in the case of cancer. With the pandemic, Brazil followed the international standard proposed by the WHO for certifying causes of death applied to the SIM<sup><xref ref-type="bibr" rid="B46">46</xref></sup>, which indicates that comorbidities such as cancer should not be considered an undelying cause of death even if they triggered a severe course of covid-19; instead, they should be record in the second part of the MCCOD.</p>
+			<p>The findings of this study reinforce an important concern in the pandemic about cancer as a comorbidity of patients with covid-19, namely that cancer can affect the immune system, making cancer patients more susceptible to infections, whether by the immunosuppressive effect of chemotherapy and/or by the impairment of lung capacity, more common in patients with lung cancer.</p>
+			<p>CVD are recognized as one of the main comorbidities associated with a worse prognosis in covid-19 patients<sup><xref ref-type="bibr" rid="B47">47</xref></sup> and they may also be involved as antecedent causes in the causal chain of death of patients with covid-19, an aspect not investigated in this study. Cardiac patients infected with SARS-CoV-2 have shown a higher risk of morbidity and mortality. The pathophysiological mechanism of SARS caused by this virus is characterized by an overproduction of inflammatory cytokines that lead to systemic inflammation and multiple organ dysfunction that acutely affects the cardiovascular system<sup><xref ref-type="bibr" rid="B48">48</xref>,<xref ref-type="bibr" rid="B49">49</xref></sup>. Myocarditis is a major complication in covid-19<sup><xref ref-type="bibr" rid="B50">50</xref></sup>. Of the patients with covid-19, 7% have myocardial injury resulting from the infection, a number that rises to 22% in severe patients<sup><xref ref-type="bibr" rid="B51">51</xref></sup>. Disorders in angiotensin converting enzyme (ACE) receptors also play an important role in pathogenesis, leading to cardiomyopathy and heart failure<sup><xref ref-type="bibr" rid="B50">50</xref></sup>.</p>
+			<p>Systemic arterial hypertension, arrhythmias, cardiomyopathies and coronary artery disease are among the main comorbidities in patients with severe covid-19<sup><xref ref-type="bibr" rid="B50">50</xref></sup>. A study that analyzed the role of CVD as comorbidity and a poor prognostic factor with data from SIVEP-Gripe in patients aged 20 years or older, hospitalized with covid-19, confirmed by quantitative RT-PCR, until August 2020, showed that 84% of them had one or more comorbidities, including the following types of diseases: cardiovascular, renal, neurological, hematological, hepatic, diabetes, chronic respiratory diseases, obesity or immunosuppression. These patients presented higher mortality compared to those without comorbidity<sup><xref ref-type="bibr" rid="B52">52</xref></sup>.</p>
+			<p>The limitation of this study is the fact that the SIM data for 2020 is still preliminary and it is possible that the frequencies change after the definitive consolidation. As a result of the covid-19 pandemic, the Ministry of Health anticipated the release of the preliminary database, provided for by the regulations for the period between June 30 and August 30, 2021<sup><xref ref-type="bibr" rid="B53">53</xref></sup>. Previous studies on the impact of covid-19 on mortality in Brazil in 2020 used the Civil Registry database<sup><xref ref-type="bibr" rid="B4">4</xref></sup> or the respiratory syndrome notification database, SIVEP-Gripe<sup><xref ref-type="bibr" rid="B52">52</xref>,<xref ref-type="bibr" rid="B54">54</xref></sup>. These bases, however, do not allow to perform the analyzes presented here because they do not provide detailed information about underlying causes of death or comorbidities. For this reason, we chose to use data from the SIM for 2020, even if they are preliminary. In fact, we observed on this preliminary database that some fields, such as age or birth date, had a greater amount of ignored data. The percentage of MCCOD without this information was 0.17% in 2019, and in 2020 it rose to 1.98%. This amount, however, is small and should not significantly change the findings of this study. Similarly, the increase in deaths from ill-defined causes that after redistribution may have helped to attenuate the negative difference between expected and observed deaths from cancer and CVD in Brazil and Brazilian regions. The increase in ignored data and ill-defined causes in the period is a reflection of the health crisis, resulting from difficulties in accessing health services and difficulties related to the recording of information.</p>
+			<p>When considering the sum of deaths due to underlying cause and comorbidity, the proportion of deaths where each of them appears as comorbidity is lower than the proportion as underlying cause for CVD, and even lower for cancer. In 2020, however, there was a clear increase in the report of these two groups of death as comorbidity. For cancer, 4.7% was expected and 9.1% was observed, an increase of 92%. Among CVD, there was also an increase between expected and observed (24.9% to 39.2%, respectively) (data not presented). This situation reinforces the idea that covid-19 must have been responsible for a significant part of deaths in patients with cancer and CVD. The pandemic implied definitions in the chain of events rule related to death from covid-19, which may also have influenced the increase in the number of cancer records as comorbidity.</p>
+		</sec>
+		<sec sec-type="conclusions">
+			<title>CONCLUSIONS</title>
+			<p>The results presented here provide a preliminary analysis on the changes in the mortality pattern as a result of the pandemic. The increased number of deaths cited as comorbidities for both cancer and CVD deserves special attention and indicates the need to monitor the impact of covid-19 among patients with these morbidities. We should highlight the observation of a pattern of increased CVD as comorbidities in the North during the pandemic, which may be the result of a joint effect of the high burden of these diseases and lower access to health care. These analyses are important components to evaluate and guide health interventions and policies aimed at controlling deaths directly or indirectly associated with covid-19.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>REFERENCES</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. Islam N, Shkolnikov VM, Acosta RJ, Klimkin I, Kawachi I, Irizarry RA, et al. Excess deaths associated with covid-19 pandemic in 2020: age and sex disaggregated time series analysis in 29 high income countries. BMJ. 2021;373:n1137. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/bmj.n1137">https://doi.org/10.1136/bmj.n1137</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Islam</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Shkolnikov</surname>
+							<given-names>VM</given-names>
+						</name>
+						<name>
+							<surname>Acosta</surname>
+							<given-names>RJ</given-names>
+						</name>
+						<name>
+							<surname>Klimkin</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Kawachi</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Irizarry</surname>
+							<given-names>RA</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Excess deaths associated with covid-19 pandemic in 2020: age and sex disaggregated time series analysis in 29 high income countries</article-title>
+					<source>BMJ</source>
+					<year>2021</year>
+					<volume>373</volume>
+					<fpage>n1137</fpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/bmj.n1137">https://doi.org/10.1136/bmj.n1137</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. Candido DS, Claro IM, Jesus JG, Souza WM, Moreira FRR, Dellicour S, et al. Evolution and epidemic spread of SARS-CoV-2 in Brazil. Science. 2020;369(6508):1255-60. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1126/science.abd2161">https://doi.org/10.1126/science.abd2161</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Candido</surname>
+							<given-names>DS</given-names>
+						</name>
+						<name>
+							<surname>Claro</surname>
+							<given-names>IM</given-names>
+						</name>
+						<name>
+							<surname>Jesus</surname>
+							<given-names>JG</given-names>
+						</name>
+						<name>
+							<surname>Souza</surname>
+							<given-names>WM</given-names>
+						</name>
+						<name>
+							<surname>Moreira</surname>
+							<given-names>FRR</given-names>
+						</name>
+						<name>
+							<surname>Dellicour</surname>
+							<given-names>S</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Evolution and epidemic spread of SARS-CoV-2 in Brazil</article-title>
+					<source>Science</source>
+					<year>2020</year>
+					<volume>369</volume>
+					<issue>6508</issue>
+					<fpage>1255</fpage>
+					<lpage>1260</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1126/science.abd2161">https://doi.org/10.1126/science.abd2161</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. França EB, Ishitani LH, Teixeira RA, Abreu DMX, Corrêa PRL, Marinho F, et al. Óbitos por COVID-19 no Brasil: quantos e quais estamos identificando? Rev Bras Epidemiol. 2020;23:E200053. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1980-549720200053">https://doi.org/10.1590/1980-549720200053</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>França</surname>
+							<given-names>EB</given-names>
+						</name>
+						<name>
+							<surname>Ishitani</surname>
+							<given-names>LH</given-names>
+						</name>
+						<name>
+							<surname>Teixeira</surname>
+							<given-names>RA</given-names>
+						</name>
+						<name>
+							<surname>Abreu</surname>
+							<given-names>DMX</given-names>
+						</name>
+						<name>
+							<surname>Corrêa</surname>
+							<given-names>PRL</given-names>
+						</name>
+						<name>
+							<surname>Marinho</surname>
+							<given-names>F</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Óbitos por COVID-19 no Brasil: quantos e quais estamos identificando?</article-title>
+					<source>Rev Bras Epidemiol</source>
+					<year>2020</year>
+					<volume>23</volume>
+					<elocation-id>E200053</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1980-549720200053">https://doi.org/10.1590/1980-549720200053</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. Azevedo e Silva G, Jardim BC, Santos CVB. Excesso de mortalidade no Brasil em tempos de COVID-19. Cienc Saude Coletiva. 2020;25(9):3345-54. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1413-81232020259.23642020">https://doi.org/10.1590/1413-81232020259.23642020</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Azevedo e Silva</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Jardim</surname>
+							<given-names>BC</given-names>
+						</name>
+						<name>
+							<surname>Santos</surname>
+							<given-names>CVB</given-names>
+						</name>
+					</person-group>
+					<article-title>Excesso de mortalidade no Brasil em tempos de COVID-19</article-title>
+					<source>Cienc Saude Coletiva</source>
+					<year>2020</year>
+					<volume>25</volume>
+					<issue>9</issue>
+					<fpage>3345</fpage>
+					<lpage>3354</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1413-81232020259.23642020">https://doi.org/10.1590/1413-81232020259.23642020</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Orellana JDY, Cunha GM, Marrero L, Horta BL, Leite IC, Orellana JDY, et al. Explosão da mortalidade no epicentro amazônico da epidemia de COVID-19. Cad Saude Publica. 2020;36(7):e00120020 <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0102-311x00120020">https://doi.org/10.1590/0102-311x00120020</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Orellana</surname>
+							<given-names>JDY</given-names>
+						</name>
+						<name>
+							<surname>Cunha</surname>
+							<given-names>GM</given-names>
+						</name>
+						<name>
+							<surname>Marrero</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Horta</surname>
+							<given-names>BL</given-names>
+						</name>
+						<name>
+							<surname>Leite</surname>
+							<given-names>IC</given-names>
+						</name>
+						<name>
+							<surname>Orellana</surname>
+							<given-names>JDY</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Explosão da mortalidade no epicentro amazônico da epidemia de COVID-19</article-title>
+					<source>Cad Saude Publica</source>
+					<year>2020</year>
+					<volume>36</volume>
+					<issue>7</issue>
+					<elocation-id>e00120020</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0102-311x00120020">https://doi.org/10.1590/0102-311x00120020</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. Andrade CLT, Pereira CCA, Martins M, Lima SML, Portela MC. COVID-19 hospitalizations in Brazil’s Unified Health System (SUS). PLoS One. 2020;15(12):e0243126. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0243126">https://doi.org/10.1371/journal.pone.0243126</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Andrade</surname>
+							<given-names>CLT</given-names>
+						</name>
+						<name>
+							<surname>Pereira</surname>
+							<given-names>CCA</given-names>
+						</name>
+						<name>
+							<surname>Martins</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Lima</surname>
+							<given-names>SML</given-names>
+						</name>
+						<name>
+							<surname>Portela</surname>
+							<given-names>MC</given-names>
+						</name>
+					</person-group>
+					<article-title>COVID-19 hospitalizations in Brazil’s Unified Health System (SUS)</article-title>
+					<source>PLoS One</source>
+					<year>2020</year>
+					<volume>15</volume>
+					<issue>12</issue>
+					<fpage>e0243126</fpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0243126">https://doi.org/10.1371/journal.pone.0243126</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. The GBD 2019 Diseases and Injuries Collaborators. Global burden of 369 diseases and injuries in 204 countries and territories, 1990-2019: a systematic analysis for the Global Burden of Disease Study 2019. Lancet. 2020;396(10258):1204-22. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(20)30925-9">https://doi.org/10.1016/S0140-6736(20)30925-9</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<collab>The GBD 2019 Diseases and Injuries Collaborators</collab>
+					</person-group>
+					<article-title>Global burden of 369 diseases and injuries in 204 countries and territories, 1990-2019: a systematic analysis for the Global Burden of Disease Study 2019</article-title>
+					<source>Lancet.</source>
+					<year>2020</year>
+					<volume>396</volume>
+					<issue>10258</issue>
+					<fpage>1204</fpage>
+					<lpage>1222</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(20)30925-9">https://doi.org/10.1016/S0140-6736(20)30925-9</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Izcovich A, Ragusa MA, Tortosa F, Lavena Marzio MA, Agnoletti C, Bengolea A, et al. Prognostic factors for severity and mortality in patients infected with COVID-19: a systematic review. PLoS One. 2020;15(11):e0241955. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0241955">https://doi.org/10.1371/journal.pone.0241955</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Izcovich</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Ragusa</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Tortosa</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Lavena Marzio</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Agnoletti</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Bengolea</surname>
+							<given-names>A</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Prognostic factors for severity and mortality in patients infected with COVID-19: a systematic review</article-title>
+					<source>PLoS One</source>
+					<year>2020</year>
+					<volume>15</volume>
+					<issue>11</issue>
+					<fpage>e0241955</fpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0241955">https://doi.org/10.1371/journal.pone.0241955</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. Ng WH, Tipih T, Makoah NA, Vermeulen JG, Goedhals D, Sempa JB, et al. Comorbidities in SARS-CoV-2 patients: a systematic review and meta-analysis. MBio. 2021;12(1):e03647-20. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/mBio.03647-20">https://doi.org/10.1128/mBio.03647-20</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ng</surname>
+							<given-names>WH</given-names>
+						</name>
+						<name>
+							<surname>Tipih</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Makoah</surname>
+							<given-names>NA</given-names>
+						</name>
+						<name>
+							<surname>Vermeulen</surname>
+							<given-names>JG</given-names>
+						</name>
+						<name>
+							<surname>Goedhals</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Sempa</surname>
+							<given-names>JB</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Comorbidities in SARS-CoV-2 patients: a systematic review and meta-analysis</article-title>
+					<source>MBio</source>
+					<year>2021</year>
+					<volume>12</volume>
+					<issue>1</issue>
+					<fpage>e03647</fpage>
+					<lpage>e03620</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1128/mBio.03647-20">https://doi.org/10.1128/mBio.03647-20</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. Panamerican Health Organization. Considerations for the reorganization of cancer services during the COVID-19 pandemic. Washington, DC: PAHO: 2020 [cited 2021 Jun 6]. Available from: <ext-link ext-link-type="uri" xlink:href="https://iris.paho.org/bitstream/handle/10665.2/52263/PAHOEIHHACOVID-19200004_eng.pdf">https://iris.paho.org/bitstream/handle/10665.2/52263/PAHOEIHHACOVID-19200004_eng.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>Panamerican Health Organization</collab>
+					</person-group>
+					<source>Considerations for the reorganization of cancer services during the COVID-19 pandemic</source>
+					<publisher-loc>Washington, DC</publisher-loc>
+					<publisher-name>PAHO</publisher-name>
+					<year>2020</year>
+					<date-in-citation content-type="cited-date">cited 2021 Jun 6</date-in-citation>
+					<ext-link ext-link-type="uri" xlink:href="https://iris.paho.org/bitstream/handle/10665.2/52263/PAHOEIHHACOVID-19200004_eng.pdf">https://iris.paho.org/bitstream/handle/10665.2/52263/PAHOEIHHACOVID-19200004_eng.pdf</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. Asokan I, Rabadia SV, Yang EH. The COVID-19 pandemic and its impact on the cardio-oncology population. Curr Oncol Rep. 2020;22(6):60. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s11912-020-00945-4">https://doi.org/10.1007/s11912-020-00945-4</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Asokan</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Rabadia</surname>
+							<given-names>SV</given-names>
+						</name>
+						<name>
+							<surname>Yang</surname>
+							<given-names>EH</given-names>
+						</name>
+					</person-group>
+					<article-title>The COVID-19 pandemic and its impact on the cardio-oncology population</article-title>
+					<source>Curr Oncol Rep</source>
+					<year>2020</year>
+					<volume>22</volume>
+					<issue>6</issue>
+					<size units="pages">60</size>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s11912-020-00945-4">https://doi.org/10.1007/s11912-020-00945-4</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. Ferlay J, Soerjomataram I, Dikshit R, Eser S, Mathers C, Rebelo M, et al. Cancer incidence and mortality worldwide: sources, methods and major patterns in GLOBOCAN 2012. Int J Cancer. 2015;136(5):E359-86. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/ijc.29210">https://doi.org/10.1002/ijc.29210</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ferlay</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Soerjomataram</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Dikshit</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Eser</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Mathers</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Rebelo</surname>
+							<given-names>M</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Cancer incidence and mortality worldwide: sources, methods and major patterns in GLOBOCAN 2012</article-title>
+					<source>Int J Cancer</source>
+					<year>2015</year>
+					<volume>136</volume>
+					<issue>5</issue>
+					<fpage>E359</fpage>
+					<lpage>E386</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/ijc.29210">https://doi.org/10.1002/ijc.29210</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. Ministério da Saúde (BR), Fundação Nacional de Saúde. Manual de instruções para o preenchimento da declaração de óbito. Brasília, DF; 2011. (Série A. Normas e Manuais Técnicos).</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+						<collab>Fundação Nacional de Saúde</collab>
+					</person-group>
+					<source>Manual de instruções para o preenchimento da declaração de óbito</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<year>2011</year>
+					<comment>Série A. Normas e Manuais Técnicos</comment>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. World Health Organization. International Statistical Classification of Diseases and Related Health Problems. 10th revision. Geneva (CH): WHO; 2019 [cited 2021 May 2]. Available from: <ext-link ext-link-type="uri" xlink:href="https://icd.who.int/browse10/2019/en#/">https://icd.who.int/browse10/2019/en#/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>World Health Organization</collab>
+					</person-group>
+					<source>International Statistical Classification of Diseases and Related Health Problems</source>
+					<comment>10th revision</comment>
+					<publisher-loc>Geneva (CH)</publisher-loc>
+					<publisher-name>WHO</publisher-name>
+					<year>2019</year>
+					<date-in-citation content-type="cited-date">cited 2021 May 2</date-in-citation>
+					<ext-link ext-link-type="uri" xlink:href="https://icd.who.int/browse10/2019/en#/">https://icd.who.int/browse10/2019/en#/</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. Ministério da Saúde (BR), Secretaria de Vigilância em Saúde, Departamento de Análise em Saúde e Vigilância de Doenças não Transmissíveis. Orientações para codificação das causas de morte no contexto da COVID-19. Brasília, DF; 2020.</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+						<collab>Secretaria de Vigilância em Saúde</collab>
+						<collab>Departamento de Análise em Saúde e Vigilância de Doenças não Transmissíveis</collab>
+					</person-group>
+					<source>Orientações para codificação das causas de morte no contexto da COVID-19</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<year>2020</year>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. Mathers CD, Bernard C, Iburg KM, Inoue M, Fat DM, Shibuya K, et al. Global burden of disease in 2002: data sources, methods and results, results. Geneva (CH): WHO; 2003 [cited 2021 Jun 6]. (Global Programme on Evidence for Health Policy Discuss Paper; nº 54). Available from: <ext-link ext-link-type="uri" xlink:href="https://www.who.int/healthinfo/paper54.pdf">https://www.who.int/healthinfo/paper54.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Mathers</surname>
+							<given-names>CD</given-names>
+						</name>
+						<name>
+							<surname>Bernard</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Iburg</surname>
+							<given-names>KM</given-names>
+						</name>
+						<name>
+							<surname>Inoue</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Fat</surname>
+							<given-names>DM</given-names>
+						</name>
+						<name>
+							<surname>Shibuya</surname>
+							<given-names>K</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<source>Global burden of disease in 2002: data sources, methods and results, results</source>
+					<publisher-loc>Geneva (CH)</publisher-loc>
+					<publisher-name>WHO</publisher-name>
+					<year>2003</year>
+					<date-in-citation content-type="cited-date">cited 2021 Jun 6</date-in-citation>
+					<comment>Global Programme on Evidence for Health Policy Discuss Paper; nº 54</comment>
+					<ext-link ext-link-type="uri" xlink:href="https://www.who.int/healthinfo/paper54.pdf">https://www.who.int/healthinfo/paper54.pdf</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Breslow NE, Day NE. Statistical methods in cancer research. Vol. 2: The design and analysis of cohort studies. Lyon (FR): IARC; 1987. p. 69-71. (IARC Scientific Publication; nº 82).</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Breslow</surname>
+							<given-names>NE</given-names>
+						</name>
+						<name>
+							<surname>Day</surname>
+							<given-names>NE</given-names>
+						</name>
+					</person-group>
+					<source>Statistical methods in cancer research. Vol. 2: The design and analysis of cohort studies</source>
+					<publisher-loc>Lyon (FR)</publisher-loc>
+					<publisher-name>IARC</publisher-name>
+					<year>1987</year>
+					<fpage>69</fpage>
+					<lpage>71</lpage>
+					<comment>IARC Scientific Publication; nº 82</comment>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18. StataCorp. Stata Statistical Software: Release 17. College Station, TX: StataCorp LP; 2021.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>StataCorp</collab>
+					</person-group>
+					<source>Stata Statistical Software: Release 17</source>
+					<publisher-loc>College Station, TX</publisher-loc>
+					<publisher-name>StataCorp LP</publisher-name>
+					<year>2021</year>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19. Institute for Health Metrics and Evaluations. Estimation of total mortality due to COVID-19. Seattle, WA: IHME; 2021 [cited 2021 Jun 6]. Available from: <ext-link ext-link-type="uri" xlink:href="http://www.healthdata.org/special-analysis/estimation-excess-mortality-due-covid-19-and-scalars-reported-covid-19-deaths">http://www.healthdata.org/special-analysis/estimation-excess-mortality-due-covid-19-and-scalars-reported-covid-19-deaths</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Institute for Health Metrics and Evaluations</collab>
+					</person-group>
+					<source>Estimation of total mortality due to COVID-19</source>
+					<publisher-loc>Seattle, WA</publisher-loc>
+					<publisher-name>IHME</publisher-name>
+					<year>2021</year>
+					<date-in-citation content-type="cited-date">cited 2021 Jun 6</date-in-citation>
+					<ext-link ext-link-type="uri" xlink:href="http://www.healthdata.org/special-analysis/estimation-excess-mortality-due-covid-19-and-scalars-reported-covid-19-deaths">http://www.healthdata.org/special-analysis/estimation-excess-mortality-due-covid-19-and-scalars-reported-covid-19-deaths</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20. Li L, Hang D, Dong H, Yuan-Yuan C, Bo-Heng L, Ze-Lin Y, et al. Temporal dynamic in the impact of COVID−19 outbreak on cause-specific mortality in Guangzhou, China. BMC Public Health. 2021;21(1):883. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12889-021-10771-3">https://doi.org/10.1186/s12889-021-10771-3</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Li</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Hang</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Dong</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Yuan-Yuan</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Bo-Heng</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Ze-Lin</surname>
+							<given-names>Y</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Temporal dynamic in the impact of COVID−19 outbreak on cause-specific mortality in Guangzhou, China</article-title>
+					<source>BMC Public Health</source>
+					<year>2021</year>
+					<volume>21</volume>
+					<issue>1</issue>
+					<size units="pages">883</size>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12889-021-10771-3">https://doi.org/10.1186/s12889-021-10771-3</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>21. Fernandes GA, Nassar Junior AP, Azevedo e Silva G, Feriani D, Silva ILAF, Caruso P, et al. Excess mortality by specific causes of deaths in the city of São Paulo, Brazil, during the COVID-19 pandemic. PLoS One. 2021;16(6):e0252238. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0252238">https://doi.org/10.1371/journal.pone.0252238</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Fernandes</surname>
+							<given-names>GA</given-names>
+						</name>
+						<name>
+							<surname>Nassar</surname>
+							<given-names>AP</given-names>
+							<suffix>Junior</suffix>
+						</name>
+						<name>
+							<surname>Azevedo e Silva</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Feriani</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Silva</surname>
+							<given-names>ILAF</given-names>
+						</name>
+						<name>
+							<surname>Caruso</surname>
+							<given-names>P</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Excess mortality by specific causes of deaths in the city of São Paulo, Brazil, during the COVID-19 pandemic</article-title>
+					<source>PLoS One</source>
+					<year>2021</year>
+					<volume>16</volume>
+					<issue>6</issue>
+					<fpage>e0252238</fpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0252238">https://doi.org/10.1371/journal.pone.0252238</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>22. Choudhary R, Gautam D, Mathur R, Choudhary D. Management of cardiovascular emergencies during the COVID-19 pandemic. Emerg Med J. 2020;37(12):778-80. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/emermed-2020-210231">https://doi.org/10.1136/emermed-2020-210231</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Choudhary</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Gautam</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Mathur</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Choudhary</surname>
+							<given-names>D</given-names>
+						</name>
+					</person-group>
+					<article-title>Management of cardiovascular emergencies during the COVID-19 pandemic</article-title>
+					<source>Emerg Med J</source>
+					<year>2020</year>
+					<volume>37</volume>
+					<issue>12</issue>
+					<fpage>778</fpage>
+					<lpage>780</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/emermed-2020-210231">https://doi.org/10.1136/emermed-2020-210231</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>23. Baum A, Schwartz MD. Admissions to Veterans Affairs hospitals for emergency conditions during the COVID-19 pandemic. JAMA. 2020;324(1):96-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1001/jama.2020.9972">https://doi.org/10.1001/jama.2020.9972</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Baum</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Schwartz</surname>
+							<given-names>MD</given-names>
+						</name>
+					</person-group>
+					<article-title>Admissions to Veterans Affairs hospitals for emergency conditions during the COVID-19 pandemic</article-title>
+					<source>JAMA</source>
+					<year>2020</year>
+					<volume>324</volume>
+					<issue>1</issue>
+					<fpage>96</fpage>
+					<lpage>99</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1001/jama.2020.9972">https://doi.org/10.1001/jama.2020.9972</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>24. Gujral UP, Johnson L, Nielsen J, Vellanki P, Haw JS, Davis GM, et al. Preparedness cycle to address transitions in diabetes care during the COVID-19 pandemic and future outbreaks. BMJ Open Diabetes Res Care. 2020;8(1):e001520. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/bmjdrc-2020-001520">https://doi.org/10.1136/bmjdrc-2020-001520</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Gujral</surname>
+							<given-names>UP</given-names>
+						</name>
+						<name>
+							<surname>Johnson</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Nielsen</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Vellanki</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Haw</surname>
+							<given-names>JS</given-names>
+						</name>
+						<name>
+							<surname>Davis</surname>
+							<given-names>GM</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Preparedness cycle to address transitions in diabetes care during the COVID-19 pandemic and future outbreaks</article-title>
+					<source>BMJ Open Diabetes Res Care</source>
+					<year>2020</year>
+					<volume>8</volume>
+					<issue>1</issue>
+					<fpage>e001520</fpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/bmjdrc-2020-001520">https://doi.org/10.1136/bmjdrc-2020-001520</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>25. Malta DC, Gomes CS, Barros MBA, Lima MG, Almeida WS, Sá ACMGN, et al. Doenças crônicas não transmissíveis e mudanças nos estilos de vida durante a pandemia de COVID-19 no Brasil. Rev Bras Epidemiol. 2021;24:E210009. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1980-549720210009">https://doi.org/10.1590/1980-549720210009</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Malta</surname>
+							<given-names>DC</given-names>
+						</name>
+						<name>
+							<surname>Gomes</surname>
+							<given-names>CS</given-names>
+						</name>
+						<name>
+							<surname>Barros</surname>
+							<given-names>MBA</given-names>
+						</name>
+						<name>
+							<surname>Lima</surname>
+							<given-names>MG</given-names>
+						</name>
+						<name>
+							<surname>Almeida</surname>
+							<given-names>WS</given-names>
+						</name>
+						<name>
+							<surname>Sá</surname>
+							<given-names>ACMGN</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Doenças crônicas não transmissíveis e mudanças nos estilos de vida durante a pandemia de COVID-19 no Brasil</article-title>
+					<source>Rev Bras Epidemiol</source>
+					<year>2021</year>
+					<volume>24</volume>
+					<elocation-id>E210009</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1980-549720210009">https://doi.org/10.1590/1980-549720210009</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation>26. Riera R, Bagattini AM, Pacheco RL, Pachito DV, Roitberg F, Ilbawi A. Delays and disruptions in cancer health care due to COVID-19 pandemic: systematic review. JCO Glob Oncol. 2021;7:311-23. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1200/GO.20.00639">https://doi.org/10.1200/GO.20.00639</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Riera</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Bagattini</surname>
+							<given-names>AM</given-names>
+						</name>
+						<name>
+							<surname>Pacheco</surname>
+							<given-names>RL</given-names>
+						</name>
+						<name>
+							<surname>Pachito</surname>
+							<given-names>DV</given-names>
+						</name>
+						<name>
+							<surname>Roitberg</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Ilbawi</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Delays and disruptions in cancer health care due to COVID-19 pandemic: systematic review</article-title>
+					<source>JCO Glob Oncol</source>
+					<year>2021</year>
+					<issue>7</issue>
+					<fpage>311</fpage>
+					<lpage>323</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1200/GO.20.00639">https://doi.org/10.1200/GO.20.00639</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<mixed-citation>27. Migowski A, Corrêa FM. Recomendações para detecção precoce de câncer durante a pandemia de covid-19 em 2021. Rev APS. 2020;23(1):235-40.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Migowski</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Corrêa</surname>
+							<given-names>FM</given-names>
+						</name>
+					</person-group>
+					<article-title>Recomendações para detecção precoce de câncer durante a pandemia de covid-19 em 2021</article-title>
+					<source>Rev APS</source>
+					<year>2020</year>
+					<volume>23</volume>
+					<issue>1</issue>
+					<fpage>235</fpage>
+					<lpage>240</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<mixed-citation>28. Patt D, Gordan L, Diaz M, Okon T, Grady L, Harmison M, et al. Impact of COVID-19 on cancer care: how the pandemic is delaying cancer diagnosis and treatment for American seniors. JCO Clin Cancer Inform. 2020;4:1059-71. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1200/cci.20.00134">https://doi.org/10.1200/cci.20.00134</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Patt</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Gordan</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Diaz</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Okon</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Grady</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Harmison</surname>
+							<given-names>M</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Impact of COVID-19 on cancer care: how the pandemic is delaying cancer diagnosis and treatment for American seniors</article-title>
+					<source>JCO Clin Cancer Inform</source>
+					<year>2020</year>
+					<issue>4</issue>
+					<fpage>1059</fpage>
+					<lpage>1071</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1200/cci.20.00134">https://doi.org/10.1200/cci.20.00134</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B29">
+				<label>29</label>
+				<mixed-citation>29. Villain P, Carvalho AL, Lucas E, Mosquera I, Zhang L, Muwonge R, et al. Cross-sectional survey of the impact of the COVID-19 pandemic on cancer screening programs in selected low- and middle-income countries: study from the IARC COVID-19 impact study group. Int J Cancer. 2021;149(1):97-107. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/ijc.33500">https://doi.org/10.1002/ijc.33500</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Villain</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Carvalho</surname>
+							<given-names>AL</given-names>
+						</name>
+						<name>
+							<surname>Lucas</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Mosquera</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Zhang</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Muwonge</surname>
+							<given-names>R</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Cross-sectional survey of the impact of the COVID-19 pandemic on cancer screening programs in selected low- and middle-income countries: study from the IARC COVID-19 impact study group</article-title>
+					<source>Int J Cancer</source>
+					<year>2021</year>
+					<volume>149</volume>
+					<issue>1</issue>
+					<fpage>97</fpage>
+					<lpage>107</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/ijc.33500">https://doi.org/10.1002/ijc.33500</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B30">
+				<label>30</label>
+				<mixed-citation>30. Maringe C, Spicer J, Morris M, Purushotham A, Nolte E, Sullivan R, et al. The impact of the COVID-19 pandemic on cancer deaths due to delays in diagnosis in England, UK: a national, population-based, modelling study. Lancet Oncol. 2020;21(8):1023-34. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S1470-2045(20)30388-0">https://doi.org/10.1016/S1470-2045(20)30388-0</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Maringe</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Spicer</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Morris</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Purushotham</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Nolte</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Sullivan</surname>
+							<given-names>R</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>The impact of the COVID-19 pandemic on cancer deaths due to delays in diagnosis in England, UK: a national, population-based, modelling study</article-title>
+					<source>Lancet Oncol</source>
+					<year>2020</year>
+					<volume>21</volume>
+					<issue>8</issue>
+					<fpage>1023</fpage>
+					<lpage>1034</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S1470-2045(20)30388-0">https://doi.org/10.1016/S1470-2045(20)30388-0</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B31">
+				<label>31</label>
+				<mixed-citation>31. Blay JY, Boucher S, Le Vu B, Cropet C, Chabaud S, Perol D, et al. Delayed care for patients with newly diagnosed cancer due to COVID-19 and estimated impact on cancer mortality in France. ESMO Open. 2021;6(3):100134. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.esmoop.2021.100134">https://doi.org/10.1016/j.esmoop.2021.100134</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Blay</surname>
+							<given-names>JY</given-names>
+						</name>
+						<name>
+							<surname>Boucher</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Le Vu</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Cropet</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Chabaud</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Perol</surname>
+							<given-names>D</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Delayed care for patients with newly diagnosed cancer due to COVID-19 and estimated impact on cancer mortality in France</article-title>
+					<source>ESMO Open</source>
+					<year>2021</year>
+					<volume>6</volume>
+					<issue>3</issue>
+					<fpage>100134</fpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.esmoop.2021.100134">https://doi.org/10.1016/j.esmoop.2021.100134</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B32">
+				<label>32</label>
+				<mixed-citation>32. Degeling K, Baxter NN, Emery J, Jenkins MA, Franchini F, Gibbs P, et al. An inverse stage-shift model to estimate the excess mortality and health economic impact of delayed access to cancer services due to the COVID-19 pandemic. Asia Pac J Clin Oncol. 2021;17(4):359-67. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/ajco.13505">https://doi.org/10.1111/ajco.13505</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Degeling</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Baxter</surname>
+							<given-names>NN</given-names>
+						</name>
+						<name>
+							<surname>Emery</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Jenkins</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Franchini</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Gibbs</surname>
+							<given-names>P</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>An inverse stage-shift model to estimate the excess mortality and health economic impact of delayed access to cancer services due to the COVID-19 pandemic</article-title>
+					<source>Asia Pac J Clin Oncol</source>
+					<year>2021</year>
+					<volume>17</volume>
+					<issue>4</issue>
+					<fpage>359</fpage>
+					<lpage>367</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/ajco.13505">https://doi.org/10.1111/ajco.13505</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B33">
+				<label>33</label>
+				<mixed-citation>33. Gupta N, Chauhan AS, Prinja S, Pandey AK. Impact of COVID-19 on outcomes for patients with cervical cancer in India. JCO Glob Oncol. 2021;7:716-25. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1200/go.20.00654">https://doi.org/10.1200/go.20.00654</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Gupta</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Chauhan</surname>
+							<given-names>AS</given-names>
+						</name>
+						<name>
+							<surname>Prinja</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Pandey</surname>
+							<given-names>AK</given-names>
+						</name>
+					</person-group>
+					<article-title>Impact of COVID-19 on outcomes for patients with cervical cancer in India</article-title>
+					<source>JCO Glob Oncol</source>
+					<year>2021</year>
+					<volume>7</volume>
+					<fpage>716</fpage>
+					<lpage>725</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1200/go.20.00654">https://doi.org/10.1200/go.20.00654</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B34">
+				<label>34</label>
+				<mixed-citation>34. Moynihan R, Johansson M, Maybee A, Lang E, Légaré F. Covid-19: an opportunity to reduce unnecessary healthcare. BMJ. 2020;370:m2752. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/bmj.m2752">https://doi.org/10.1136/bmj.m2752</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Moynihan</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Johansson</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Maybee</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Lang</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Légaré</surname>
+							<given-names>F</given-names>
+						</name>
+					</person-group>
+					<article-title>Covid-19: an opportunity to reduce unnecessary healthcare</article-title>
+					<source>BMJ</source>
+					<year>2020</year>
+					<volume>370</volume>
+					<fpage>m2752</fpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/bmj.m2752">https://doi.org/10.1136/bmj.m2752</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B35">
+				<label>35</label>
+				<mixed-citation>35. Soares SCM, Cancela MC, Migowski A, Souza DLB. Digital rectal examination and its associated factors in the early detection of prostate cancer: a cross-sectional population-based study. BMC Public Health. 2019;19(1):1573. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12889-019-7946-z">https://doi.org/10.1186/s12889-019-7946-z</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Soares</surname>
+							<given-names>SCM</given-names>
+						</name>
+						<name>
+							<surname>Cancela</surname>
+							<given-names>MC</given-names>
+						</name>
+						<name>
+							<surname>Migowski</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Souza</surname>
+							<given-names>DLB</given-names>
+						</name>
+					</person-group>
+					<article-title>Digital rectal examination and its associated factors in the early detection of prostate cancer: a cross-sectional population-based study</article-title>
+					<source>BMC Public Health</source>
+					<year>2019</year>
+					<volume>19</volume>
+					<issue>1</issue>
+					<size units="pages">1573</size>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12889-019-7946-z">https://doi.org/10.1186/s12889-019-7946-z</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B36">
+				<label>36</label>
+				<mixed-citation>36. Migowski A, Dias MBK, Nadanovsky P, Azevedo e Silva G, Sant’Ana DR, Stein AT. Guidelines for early detection of breast cancer in Brazil. III – Challenges for implementation. Cad Saude Publica. 2018;34(6):e00046317. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0102-311X00046317">https://doi.org/10.1590/0102-311X00046317</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Migowski</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Dias</surname>
+							<given-names>MBK</given-names>
+						</name>
+						<name>
+							<surname>Nadanovsky</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Azevedo e Silva</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Sant’Ana</surname>
+							<given-names>DR</given-names>
+						</name>
+						<name>
+							<surname>Stein</surname>
+							<given-names>AT</given-names>
+						</name>
+					</person-group>
+					<article-title>Guidelines for early detection of breast cancer in Brazil. III – Challenges for implementation</article-title>
+					<source>Cad Saude Publica</source>
+					<year>2018</year>
+					<volume>34</volume>
+					<issue>6</issue>
+					<elocation-id>e00046317</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0102-311X00046317">https://doi.org/10.1590/0102-311X00046317</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B37">
+				<label>37</label>
+				<mixed-citation>37. Migowski A, Nadanovsky P, Vianna CMM. Mortalidade cardiovascular associada ao rastreamento mamográfico. Rev Bras Cancerol. 2019;65(3):e-02335. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.32635/2176-9745.RBC.2019v65n3.335">https://doi.org/10.32635/2176-9745.RBC.2019v65n3.335</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Migowski</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Nadanovsky</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Vianna</surname>
+							<given-names>CMM</given-names>
+						</name>
+					</person-group>
+					<article-title>Mortalidade cardiovascular associada ao rastreamento mamográfico</article-title>
+					<source>Rev Bras Cancerol</source>
+					<year>2019</year>
+					<volume>65</volume>
+					<issue>3</issue>
+					<elocation-id>e-02335</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.32635/2176-9745.RBC.2019v65n3.335">https://doi.org/10.32635/2176-9745.RBC.2019v65n3.335</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B38">
+				<label>38</label>
+				<mixed-citation>38. Dantas MNP, Souza DLB, Souza AMG, Aiquoc KM, Souza TA, Barbosa IR. Fatores associados ao acesso precário aos serviços de saúde no Brasil. Rev Bras Epidemiol. 2021;24:E210004. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1980-549720210004">https://doi.org/10.1590/1980-549720210004</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Dantas</surname>
+							<given-names>MNP</given-names>
+						</name>
+						<name>
+							<surname>Souza</surname>
+							<given-names>DLB</given-names>
+						</name>
+						<name>
+							<surname>Souza</surname>
+							<given-names>AMG</given-names>
+						</name>
+						<name>
+							<surname>Aiquoc</surname>
+							<given-names>KM</given-names>
+						</name>
+						<name>
+							<surname>Souza</surname>
+							<given-names>TA</given-names>
+						</name>
+						<name>
+							<surname>Barbosa</surname>
+							<given-names>IR</given-names>
+						</name>
+					</person-group>
+					<article-title>Fatores associados ao acesso precário aos serviços de saúde no Brasil</article-title>
+					<source>Rev Bras Epidemiol</source>
+					<year>2021</year>
+					<volume>24</volume>
+					<elocation-id>E210004</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1980-549720210004">https://doi.org/10.1590/1980-549720210004</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B39">
+				<label>39</label>
+				<mixed-citation>39. Marmot M, Allen J. COVID-19: exposing and amplifying inequalities. J Epidemiol Community Health. 2020;74(9):681-2. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/jech-2020-214720">https://doi.org/10.1136/jech-2020-214720</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Marmot</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Allen</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>COVID-19: exposing and amplifying inequalities</article-title>
+					<source>J Epidemiol Community Health</source>
+					<year>2020</year>
+					<volume>74</volume>
+					<issue>9</issue>
+					<fpage>681</fpage>
+					<lpage>682</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/jech-2020-214720">https://doi.org/10.1136/jech-2020-214720</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B40">
+				<label>40</label>
+				<mixed-citation>40. Fujino T, Nomoto H, Kutsuna S, Ujiie M, Suzuki T, Sato R, et al. Novel SARS-CoV-2 variant in travelers from Brazil to Japan. Emerg Infect Dis. 2021;27(4):1243-5. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3201/eid2704.210138">https://doi.org/10.3201/eid2704.210138</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Fujino</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Nomoto</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Kutsuna</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Ujiie</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Suzuki</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Sato</surname>
+							<given-names>R</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Novel SARS-CoV-2 variant in travelers from Brazil to Japan</article-title>
+					<source>Emerg Infect Dis</source>
+					<year>2021</year>
+					<volume>27</volume>
+					<issue>4</issue>
+					<fpage>1243</fpage>
+					<lpage>1245</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3201/eid2704.210138">https://doi.org/10.3201/eid2704.210138</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B41">
+				<label>41</label>
+				<mixed-citation>41. Kerr LRFS, Kendall C, Almeida RLF, Ichihara MY, Aquino EML, Silva AAM, et al. COVID-19 in northeast Brazil: first year of the pandemic and uncertainties to come. Rev Saude Publica. 2021;55:35. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.11606/s1518-8787.2021055003728">https://doi.org/10.11606/s1518-8787.2021055003728</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kerr</surname>
+							<given-names>LRFS</given-names>
+						</name>
+						<name>
+							<surname>Kendall</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Almeida</surname>
+							<given-names>RLF</given-names>
+						</name>
+						<name>
+							<surname>Ichihara</surname>
+							<given-names>MY</given-names>
+						</name>
+						<name>
+							<surname>Aquino</surname>
+							<given-names>EML</given-names>
+						</name>
+						<name>
+							<surname>Silva</surname>
+							<given-names>AAM</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>COVID-19 in northeast Brazil: first year of the pandemic and uncertainties to come</article-title>
+					<source>Rev Saude Publica</source>
+					<year>2021</year>
+					<volume>55</volume>
+					<fpage>35</fpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.11606/s1518-8787.2021055003728">https://doi.org/10.11606/s1518-8787.2021055003728</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B42">
+				<label>42</label>
+				<mixed-citation>42. Leite IC, Valente JG, Schramm JMA, Daumas RP, Rodrigues RN, Santos MF, et al. Carga de doença no Brasil e suas regiões, 2008. Cad Saude Publica. 2015;31(7):1551-64. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0102-311X00111614">https://doi.org/10.1590/0102-311X00111614</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Leite</surname>
+							<given-names>IC</given-names>
+						</name>
+						<name>
+							<surname>Valente</surname>
+							<given-names>JG</given-names>
+						</name>
+						<name>
+							<surname>Schramm</surname>
+							<given-names>JMA</given-names>
+						</name>
+						<name>
+							<surname>Daumas</surname>
+							<given-names>RP</given-names>
+						</name>
+						<name>
+							<surname>Rodrigues</surname>
+							<given-names>RN</given-names>
+						</name>
+						<name>
+							<surname>Santos</surname>
+							<given-names>MF</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Carga de doença no Brasil e suas regiões, 2008</article-title>
+					<source>Cad Saude Publica</source>
+					<year>2015</year>
+					<volume>31</volume>
+					<issue>7</issue>
+					<fpage>1551</fpage>
+					<lpage>1564</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0102-311X00111614">https://doi.org/10.1590/0102-311X00111614</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B43">
+				<label>43</label>
+				<mixed-citation>43. Baptista EA, Queiroz BL. The relation between cardiovascular mortality and development: a study of small areas in Brazil, 2001-2015. Demogr Res. 2019;41(51):1437-52. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4054/DemRes.2019.41.51">https://doi.org/10.4054/DemRes.2019.41.51</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Baptista</surname>
+							<given-names>EA</given-names>
+						</name>
+						<name>
+							<surname>Queiroz</surname>
+							<given-names>BL</given-names>
+						</name>
+					</person-group>
+					<article-title>The relation between cardiovascular mortality and development: a study of small areas in Brazil, 2001-2015</article-title>
+					<source>Demogr Res</source>
+					<year>2019</year>
+					<volume>41</volume>
+					<issue>51</issue>
+					<fpage>1437</fpage>
+					<lpage>1452</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4054/DemRes.2019.41.51">https://doi.org/10.4054/DemRes.2019.41.51</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B44">
+				<label>44</label>
+				<mixed-citation>44. Azevedo e Silva G, Jardim BC, Ferreira VM, Junger WL, Girianelli VR. Mortalidade por câncer nas capitais e no interior do Brasil: uma análise de quatro décadas. Rev Saude Publica. 2020;54:126. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.11606/s1518-8787.2020054002255">https://doi.org/10.11606/s1518-8787.2020054002255</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Azevedo e Silva</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Jardim</surname>
+							<given-names>BC</given-names>
+						</name>
+						<name>
+							<surname>Ferreira</surname>
+							<given-names>VM</given-names>
+						</name>
+						<name>
+							<surname>Junger</surname>
+							<given-names>WL</given-names>
+						</name>
+						<name>
+							<surname>Girianelli</surname>
+							<given-names>VR</given-names>
+						</name>
+					</person-group>
+					<article-title>Mortalidade por câncer nas capitais e no interior do Brasil: uma análise de quatro décadas</article-title>
+					<source>Rev Saude Publica</source>
+					<year>2020</year>
+					<volume>54</volume>
+					<fpage>126</fpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.11606/s1518-8787.2020054002255">https://doi.org/10.11606/s1518-8787.2020054002255</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B45">
+				<label>45</label>
+				<mixed-citation>45. Ministério da Saúde (BR), Secretaria de Vigilância em Saúde, Coordenação Geral de Informação e Análise Epidemiológica. Protocolos de codificações especiais em mortalidade. Brasília, DF; 2013.</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+						<collab>Secretaria de Vigilância em Saúde</collab>
+						<collab>Coordenação Geral de Informação e Análise Epidemiológica</collab>
+					</person-group>
+					<source>Protocolos de codificações especiais em mortalidade</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<year>2013</year>
+				</element-citation>
+			</ref>
+			<ref id="B46">
+				<label>46</label>
+				<mixed-citation>46. World Health Organization. International guidelines for certification and classification (coding) of COVID-19 as cause of death. Based on ICD International Statistical Classification of Diseases. Geneva (CH): WHO; 2020.</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>World Health Organization</collab>
+					</person-group>
+					<source>International guidelines for certification and classification (coding) of COVID-19 as cause of death. Based on ICD International Statistical Classification of Diseases</source>
+					<publisher-loc>Geneva (CH)</publisher-loc>
+					<publisher-name>WHO</publisher-name>
+					<year>2020</year>
+				</element-citation>
+			</ref>
+			<ref id="B47">
+				<label>47</label>
+				<mixed-citation>47. Nandy K, Salunke A, Pathak SK, Pandey A, Doctor C, Puj K, et al. Coronavirus disease (COVID-19): a systematic review and meta-analysis to evaluate the impact of various comorbidities on serious events. Diabetes Metab Syndr. 2020;14(5):1017-25. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.dsx.2020.06.064">https://doi.org/10.1016/j.dsx.2020.06.064</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Nandy</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Salunke</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Pathak</surname>
+							<given-names>SK</given-names>
+						</name>
+						<name>
+							<surname>Pandey</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Doctor</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Puj</surname>
+							<given-names>K</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Coronavirus disease (COVID-19): a systematic review and meta-analysis to evaluate the impact of various comorbidities on serious events</article-title>
+					<source>Diabetes Metab Syndr</source>
+					<year>2020</year>
+					<volume>14</volume>
+					<issue>5</issue>
+					<fpage>1017</fpage>
+					<lpage>1025</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.dsx.2020.06.064">https://doi.org/10.1016/j.dsx.2020.06.064</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B48">
+				<label>48</label>
+				<mixed-citation>48. Azevedo RB, Botelho BG, Hollanda JVG, Ferreira LVL, Andrade LZJ, Oei SSML, et al. Covid-19 and the cardiovascular system: a comprehensive review. J Hum Hypertens. 2021;35:4-11. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s41371-020-0387-4">https://doi.org/10.1038/s41371-020-0387-4</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Azevedo</surname>
+							<given-names>RB</given-names>
+						</name>
+						<name>
+							<surname>Botelho</surname>
+							<given-names>BG</given-names>
+						</name>
+						<name>
+							<surname>Hollanda</surname>
+							<given-names>JVG</given-names>
+						</name>
+						<name>
+							<surname>Ferreira</surname>
+							<given-names>LVL</given-names>
+						</name>
+						<name>
+							<surname>Andrade</surname>
+							<given-names>LZJ</given-names>
+						</name>
+						<name>
+							<surname>Oei</surname>
+							<given-names>SSML</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Covid-19 and the cardiovascular system: a comprehensive review</article-title>
+					<source>J Hum Hypertens</source>
+					<year>2021</year>
+					<volume>35</volume>
+					<fpage>4</fpage>
+					<lpage>11</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s41371-020-0387-4">https://doi.org/10.1038/s41371-020-0387-4</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B49">
+				<label>49</label>
+				<mixed-citation>49. Aleksova A, Gagno G, Sinagra G, Beltrami AP, Janjusevic M, Ippolito G, et al. Effects of SARS-CoV-2 on cardiovascular system: the dual role of angiotensin converting enzyme 2 (ACE2) as the virus receptor and homeostasis regulator review. Int J Mol Sci. 2021;22(9):4526. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3390/ijms22094526">https://doi.org/10.3390/ijms22094526</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Aleksova</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Gagno</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Sinagra</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Beltrami</surname>
+							<given-names>AP</given-names>
+						</name>
+						<name>
+							<surname>Janjusevic</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Ippolito</surname>
+							<given-names>G</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Effects of SARS-CoV-2 on cardiovascular system: the dual role of angiotensin converting enzyme 2 (ACE2) as the virus receptor and homeostasis regulator review</article-title>
+					<source>Int J Mol Sci</source>
+					<year>2021</year>
+					<volume>22</volume>
+					<issue>9</issue>
+					<fpage>4526</fpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3390/ijms22094526">https://doi.org/10.3390/ijms22094526</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B50">
+				<label>50</label>
+				<mixed-citation>50. Babapoor-Farrokhran S, Gill D, Walker J, Rasekhi RT, Bozorgnia B, Amanullah A. Myocardial injury and COVID-19: possible mechanisms. Life Sci. 2020;253:117723. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.lfs.2020.117723">https://doi.org/10.1016/j.lfs.2020.117723</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Babapoor-Farrokhran</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Gill</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Walker</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Rasekhi</surname>
+							<given-names>RT</given-names>
+						</name>
+						<name>
+							<surname>Bozorgnia</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Amanullah</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Myocardial injury and COVID-19: possible mechanisms</article-title>
+					<source>Life Sci</source>
+					<year>2020</year>
+					<volume>253</volume>
+					<fpage>117723</fpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.lfs.2020.117723">https://doi.org/10.1016/j.lfs.2020.117723</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B51">
+				<label>51</label>
+				<mixed-citation>51. Clerkin KJ, Fried JA, Raikhelkar J, Sayer G, Griffin JM, Masoumi A, et al. COVID-19 and cardiovascular disease. Circulation. 2020;141(20):1648-55. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1161/CIRCULATIONAHA.120.046941">https://doi.org/10.1161/CIRCULATIONAHA.120.046941</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Clerkin</surname>
+							<given-names>KJ</given-names>
+						</name>
+						<name>
+							<surname>Fried</surname>
+							<given-names>JA</given-names>
+						</name>
+						<name>
+							<surname>Raikhelkar</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Sayer</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Griffin</surname>
+							<given-names>JM</given-names>
+						</name>
+						<name>
+							<surname>Masoumi</surname>
+							<given-names>A</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>COVID-19 and cardiovascular disease</article-title>
+					<source>Circulation</source>
+					<year>2020</year>
+					<volume>141</volume>
+					<issue>20</issue>
+					<fpage>1648</fpage>
+					<lpage>1655</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1161/CIRCULATIONAHA.120.046941">https://doi.org/10.1161/CIRCULATIONAHA.120.046941</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B52">
+				<label>52</label>
+				<mixed-citation>52. Ranzani OT, Bastos LSL, Gelli JGM, Marchesi JF, Baião F, Hamacher S, et al. Characterisation of the first 250 000 hospital admissions for COVID-19 in Brazil: a retrospective analysis of nationwide data. Lancet Respir Med. 2021;9(4):407-18. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S2213-2600(20)30560-9">https://doi.org/10.1016/S2213-2600(20)30560-9</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ranzani</surname>
+							<given-names>OT</given-names>
+						</name>
+						<name>
+							<surname>Bastos</surname>
+							<given-names>LSL</given-names>
+						</name>
+						<name>
+							<surname>Gelli</surname>
+							<given-names>JGM</given-names>
+						</name>
+						<name>
+							<surname>Marchesi</surname>
+							<given-names>JF</given-names>
+						</name>
+						<name>
+							<surname>Baião</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Hamacher</surname>
+							<given-names>S</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Characterisation of the first 250 000 hospital admissions for COVID-19 in Brazil: a retrospective analysis of nationwide data</article-title>
+					<source>Lancet Respir Med</source>
+					<year>2021</year>
+					<volume>9</volume>
+					<issue>4</issue>
+					<fpage>407</fpage>
+					<lpage>418</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S2213-2600(20)30560-9">https://doi.org/10.1016/S2213-2600(20)30560-9</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B53">
+				<label>53</label>
+				<mixed-citation>53. Ministerio da Saúde (BR), Secretaria de Vigilância em Saúde. Portaria N<sup>o</sup> 116, de 11 de fevereiro de 2009. Regulamenta a coleta de dados, fluxo e periodicidade de envio das informações sobre óbitos e nascidos vivos para os Sistemas de Informações em Saúde sob gestão da Secretaria de Vigilância em Saúde. Brasília, DF; 2009.</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>Ministerio da Saúde (BR)</collab>
+						<collab>Secretaria de Vigilância em Saúde</collab>
+					</person-group>
+					<source>Portaria N<sup>o</sup> 116, de 11 de fevereiro de 2009. Regulamenta a coleta de dados, fluxo e periodicidade de envio das informações sobre óbitos e nascidos vivos para os Sistemas de Informações em Saúde sob gestão da Secretaria de Vigilância em Saúde</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<year>2009</year>
+				</element-citation>
+			</ref>
+			<ref id="B54">
+				<label>54</label>
+				<mixed-citation>54. Azevedo e Silva G, Jardim BC, Lotufo PA. Mortalidade por COVID-19 padronizada por idade nas capitais das diferentes regiões do Brasil. Cad Saude Publica. 2021;37(6):e00039221. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0102-311x00039221">https://doi.org/10.1590/0102-311x00039221</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Azevedo e Silva</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Jardim</surname>
+							<given-names>BC</given-names>
+						</name>
+						<name>
+							<surname>Lotufo</surname>
+							<given-names>PA</given-names>
+						</name>
+					</person-group>
+					<article-title>Mortalidade por COVID-19 padronizada por idade nas capitais das diferentes regiões do Brasil</article-title>
+					<source>Cad Saude Publica</source>
+					<year>2021</year>
+					<volume>37</volume>
+					<issue>6</issue>
+					<elocation-id>e00039221</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0102-311x00039221">https://doi.org/10.1590/0102-311x00039221</ext-link>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="other" id="fna">
+				<label>a</label>
+				<p>2019 data available at: <ext-link ext-link-type="uri" xlink:href="ftp://ftp.datasus.gov.br/dissemin/publicos/SIM/CID10/DORES">ftp://ftp.datasus.gov.br/dissemin/publicos/SIM/CID10/DORES</ext-link>; 2020 preliminary data available at <ext-link ext-link-type="uri" xlink:href="ftp://ftp.datasus.gov.br/dissemin/publicos/SIM/PRELIM/DORES">ftp://ftp.datasus.gov.br/dissemin/publicos/SIM/PRELIM/DORES</ext-link>; accessible via Internet Explorer or another application for FTP access. Last accessed on February 18, 2022.</p>
+			</fn>
+			<fn fn-type="other" id="fnb">
+				<label>b</label>
+				<p>Instituto Brasileiro de Geografia e Estatística, Sistema IBGE de Recuperação Automática -SIDRA. Projeções da População: projeção da população - edição 2018: tabelas. Rio de Janeiro: IBGE; 2018 [cited 2021 Apr 29]. Available from: <ext-link ext-link-type="uri" xlink:href="https://sidra.ibge.gov.br/pesquisa/projecao-da-populacao/tabelas">https://sidra.ibge.gov.br/pesquisa/projecao-da-populacao/tabelas</ext-link>
+				</p>
+			</fn>
+		</fn-group>
+	</back>
+	<sub-article article-type="translation" id="TRpt" xml:lang="pt">
+		<front-stub>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artigo Original</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Covid-19 no Brasil em 2020: impacto nas mortes por câncer e doenças cardiovasculares</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-3075-2591</contrib-id>
+					<name>
+						<surname>Jardim</surname>
+						<given-names>Beatriz Cordeiro</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff2002"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-4861-2319</contrib-id>
+					<name>
+						<surname>Migowski</surname>
+						<given-names>Arn</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff3002"><sup>III</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-1105-2397</contrib-id>
+					<name>
+						<surname>Corrêa</surname>
+						<given-names>Flávia de Miranda</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-8734-2799</contrib-id>
+					<name>
+						<surname>Silva</surname>
+						<given-names>Gulnar Azevedo e</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2002"><sup>II</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1002">
+				<label>I</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Instituto Nacional de Câncer. Coordenação de Prevenção e Vigilância. Divisão de Detecção Precoce e Apoio à Organização de Rede. Rio de Janeiro, RJ, Brasil</institution>
+			</aff>
+			<aff id="aff2002">
+				<label>II</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Universidade do Estado do Rio de Janeiro. Instituto de Medicina Social Hésio Cordeiro. Rio de Janeiro, RJ, Brasil</institution>
+			</aff>
+			<aff id="aff3002">
+				<label>III</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Instituto Nacional de Cardiologia. Coordenação de Ensino e Pesquisa. Núcleo de Epidemiologia. Rio de Janeiro, RJ, Brasil</institution>
+			</aff>
+			<author-notes>
+				<corresp id="c01002"> Correspondência: Beatriz Cordeiro Jardim Instituto Nacional de Câncer Rua Marquês de Pombal, 125, 7º andar - centro 20230-240 Rio de Janeiro, RJ, Brasil E-mail: beatrizjardim@gmail.com </corresp>
+				<fn fn-type="con">
+					<p><bold>Contribuição dos Autores:</bold> Concepção e planejamento do estudo: BCJ, AM, FMC, GAS. Coleta e organização dos dados: BCJ. Análise dos dados e interpretação dos resultados: BCJ, AM, FMC, GAS. Redação do manuscrito: BCJ, AM, FMC, GAS. Revisão e Aprovação da versão final: BCJ, AM, FMC, GAS. Responsabilidade pública pelo conteúdo do artigo: BCJ, AM, FMC, GAS.</p>
+				</fn>
+				<fn fn-type="conflict">
+					<p><bold>Conflito de Interesses:</bold> Os autores declaram não haver conflito de interesses.</p>
+				</fn>
+			</author-notes>
+			<abstract>
+				<title>RESUMO</title>
+				<sec>
+					<title>OBJETIVO</title>
+					<p> Analisar o impacto da pandemia de covid-19 sobre a mortalidade por câncer e por doenças cardiovasculares (DCV) como causa básica e comorbidade no Brasil e em suas regiões em 2020.</p>
+				</sec>
+				<sec>
+					<title>MÉTODOS</title>
+					<p> Foram utilizadas as bases de dados de 2019 e 2020 do Sistema de Informações de Mortalidade (SIM), analisando os óbitos ocorridos entre março e dezembro de cada ano que tiveram o câncer e as DCV como causa básica ou como comorbidade. Também foram analisados os óbitos por covid-19 em 2020. Para o cálculo da Razão de Mortalidade Padronizada (RMP) e estimativa do excesso de mortes, os dados de 2019 foram considerados como padrão.</p>
+				</sec>
+				<sec>
+					<title>RESULTADOS</title>
+					<p> Entre março e dezembro de 2020 ocorreram no Brasil 181.377 mortes por câncer e 291.375 mortes por doenças cardiovasculares, indicando redução de 9,7% e de 8,8%, respectivamente, em relação ao mesmo período do ano anterior. O padrão foi mantido nas cinco regiões brasileiras, com menor variação para o câncer (-8,4% na Região Sul a -10,9% na Região Centro-Oeste). Para as DCV houve uma maior variação, de -2,2% na Região Norte até -10,5 nas regiões Sudeste e Sul. No mesmo período de 2020, essas enfermidades foram classificadas como comorbidade em 18.133 óbitos por câncer e 188.204 óbitos por doenças cardiovasculares, indicando um excesso proporcional, se comparado aos dados de 2019, de 82,1% e 77,9%, respectivamente. Esse excesso foi mais expressivo na Região Norte, com razão de 2,5 entre mortes observadas e esperadas, para as duas condições estudadas.</p>
+				</sec>
+				<sec>
+					<title>CONCLUSÕES</title>
+					<p> O excesso de óbitos por câncer e DCV como comorbidade em 2020 pode indicar que a covid-19 teve um importante impacto entre pacientes portadores dessas condições.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="pt">
+				<kwd>Covid-19</kwd>
+				<kwd>Doenças Cardiovasculares</kwd>
+				<kwd>Neoplasias</kwd>
+				<kwd>Comorbidade</kwd>
+				<kwd>Mortalidade</kwd>
+			</kwd-group>
+		</front-stub>
+		<body>
+			<sec sec-type="intro">
+				<title>INTRODUÇÃO</title>
+				<p>A pandemia de covid-19, doença causada pelo novo coronavírus (SARS-CoV-2), modificou de forma substancial o perfil de mortalidade em muitos países. Em 2020, ocorreram aproximadamente um milhão de mortes adicionais em 29 países de alta renda em comparação aos quatro anos anteriores<sup><xref ref-type="bibr" rid="B1">1</xref></sup>. No Brasil, vários autores mostraram que ao comparar com anos anteriores, em 2020 houve claramente um excesso de mortes<sup><xref ref-type="bibr" rid="B2">2</xref></sup>, bem como aumento no índice de mortalidade hospitalar<sup><xref ref-type="bibr" rid="B6">6</xref></sup>.</p>
+				<p>Historicamente, a partir da segunda metade do século passado, a carga das doenças crônicas não transmissíveis (DCNT) assumiu protagonismo, sendo responsável por mais de 60% dos óbitos em todo o mundo atualmente<sup><xref ref-type="bibr" rid="B7">7</xref></sup>. As doenças cardiovasculares (DCV) e o câncer são as duas principais causas de morte no Brasil há muitas décadas.</p>
+				<p>Evidências experimentais e observacionais mostram um risco consistentemente maior de evolução para caso grave de covid-19 em indivíduos idosos e com comorbidades<sup><xref ref-type="bibr" rid="B8">8</xref>,<xref ref-type="bibr" rid="B9">9</xref></sup>, por conta da síndrome respiratória aguda (SARS). Entre pacientes com DCNT, como o câncer e as DCV, as condições de saúde podem se agravar em decorrência direta ou indireta da pandemia, seja por maior fragilidade ou pior resposta à infecção pelo coronavírus de tipo 2, causador da SARS (SARS-Cov-2), seja pelas dificuldades de acesso e continuidade do cuidado dessas condições crônicas nos serviços de saúde ou por prejuízo às ações de detecção precoce, confirmação diagnóstica e tratamento inicial<sup><xref ref-type="bibr" rid="B10">10</xref></sup>. Consequentemente, avaliar a morbimortalidade em indivíduos com risco aumentado para o desenvolvimento de covid-19 grave é imprescindível para determinar estratégias preventivas e terapêuticas para esse grupo específico, bem como investigar o impacto da pandemia em suas doenças de base<sup><xref ref-type="bibr" rid="B11">11</xref></sup>.</p>
+				<p>A análise das informações acessíveis no Sistema Único de Saúde (SUS) é essencial para avaliar como a covid-19 tem modificado o perfil de mortalidade do país, assim como para identificar situações que visem o aprimoramento da vigilância em saúde. O objetivo deste estudo foi analisar o impacto da pandemia de covid-19 na mortalidade por câncer e DCV, tanto como causa básica quanto como comorbidade no Brasil e em suas regiões em 2020.</p>
+			</sec>
+			<sec sec-type="methods">
+				<title>MÉTODOS</title>
+				<p>Os dados sobre óbitos ocorridos em 2019 e em 2020 (base preliminar disponibilizada) utilizados neste estudo foram obtidos do Sistema de Informação sobre Mortalidade (SIM), no portal do Departamento de Informática do SUS (Datasus)<sup><xref ref-type="fn" rid="fna002">a</xref></sup>. Já as informações populacionais geral e por região foram obtidas das projeções populacionais do Instituto Brasileiro de Geografia e Estatística (IBGE), edição de 2018<sup><xref ref-type="fn" rid="fnb002">b</xref></sup>.</p>
+				<p>O SIM tem sido aperfeiçoado desde sua criação, em 1975, e sua qualidade e cobertura são consideras boas dentro dos padrões internacionais<sup><xref ref-type="bibr" rid="B12">12</xref></sup>. Os dados das declarações de óbito (DO) que alimentam o SIM são preenchidos por médicos e classificados seguindo regras que permitem estabelecer a causa básica da morte, as causas antecedentes e as contribuintes (ou comorbidades). O modelo único de DO adotado no Brasil classifica as causas de morte conforme padrão da Organização Mundial da Saúde (OMS). Seguindo a cadeia causal de morte, a causa básica é a doença ou lesão (ou circunstâncias no caso de causas externas) que iniciou a cadeia de acontecimentos patológicos expressos nas causas antecedentes e que resultaram diretamente na morte. Já as comorbidades, descritas na segunda parte da DO, são condições mórbidas significativas que contribuíram para a morte, mas que não fizeram parte diretamente da cadeia causal que culminou com o óbito<sup><xref ref-type="bibr" rid="B13">13</xref></sup>. Atualmente, os microdados referentes aos óbitos ocorridos no Brasil entre 1980 e 2019 encontram-se disponíveis, sendo que, em função da pandemia de covid-19, os dados preliminares de 2020 foram disponibilizados antecipadamente em abril de 2021 e são essas informações que integram este estudo.</p>
+				<p>As declarações de óbito foram analisadas utilizando os seguintes códigos da Décima Revisão da Classificação Internacional de Doenças (CID-10)<sup><xref ref-type="bibr" rid="B14">14</xref></sup>: câncer (C00-C97), DCV (I00-I99), causas externas (V, W, X, Y) e mal definidas (R00-R99). Para classificar as mortes por covid-19 foram utilizadas as orientações da Secretaria de Vigilância em Saúde do Ministério da Saúde para codificação das causas de morte em meio à pandemia, em que o código B34.2 foi indicado para mortes cuja causa básica foi a covid-19 no Brasil<sup><xref ref-type="bibr" rid="B15">15</xref></sup>.</p>
+				<p>Para o conjunto dos óbitos ocorridos em 2020 foram calculadas taxas padronizadas por idade pelo método direto, considerando as faixas etárias (0 a 19 anos; 20 a 29 anos; 30 a 39 anos; 40 a 49 anos; 50 a 59 anos; 60 a 69 anos; 70 a 79 anos e 80 anos ou mais) e tendo como padrão a população brasileira projetada para 2020 pelo IBGE.</p>
+				<p>Posteriormente foram contabilizados os óbitos pelas duas principais causas nacional e regionalmente em 2020 (câncer e DCV) e os óbitos por covid-19. A esses óbitos foram aplicados fatores de correção por redistribuição proporcional daqueles classificados como causas mal definidas, considerando as faixas etárias já descritas e as localidades geográficas, de acordo com o método proposto por Mathers et al.<sup><xref ref-type="bibr" rid="B16">16</xref></sup> Os óbitos por causas mal definidas corresponderam a 5,55% e 6,44% do total de óbitos registrados em 2019 e 2020, respectivamente. Entre as regiões brasileiras, essa proporção variou de 2,97% (Centro-Oeste) a 8,20% (Norte) em 2019 e de 4,68% (Sul) a 8,31% (Norte) em 2020. Os maiores incrementos foram observados nas Regiões Centro-Oeste (de 2,97% em 2019 para 5,09% em 2020) e Sul (de 3,52% em 2019 para 4,48% em 2020).</p>
+				<p>Para o cálculo das taxas padronizadas por idade foram excluídos os óbitos sem informação sobre idade ou data de nascimento: n = 2.358 (0,17%) em 2019 e n = 30.893 (1,98%) em 2020.</p>
+				<p>Em seguida calculou-se os óbitos esperados pelas causas básicas de morte (câncer ou DCV), por mês e para o período entre março e dezembro de 2020, além de calcular os óbitos esperados com essas doenças como comorbidades para o mesmo período de pandemia em 2020. Para esse cálculo, os coeficientes de mortalidade por faixas etárias (0 a 19 anos; 20 a 29 anos; 30 a 39 anos; 40 a 49 anos; 50 a 59 anos; 60 a 69 anos; 70 a 79 anos e 80 anos ou mais) por causa, período e localidade em 2019 foram aplicados como padrão à população projetada para 2020, nas mesmas faixas etárias e localidades. Nesse cálculo foram excluídos os óbitos sem informação sobre idade para as categorias de doenças em estudo (2019: n = 246; 0,04%; 2020: n = 201; 0,02%).</p>
+				<p>Foi calculada a diferença entre o número de óbitos observados e o número de óbitos esperados nesse período e a variação percentual dessa diferença.</p>
+				<p>A razão de mortalidade padronizada (RMP) foi calculada como sendo a razão entre os óbitos observados e os óbitos esperados no período. Os intervalos com 95% de confiança para cada RMP foram calculados assumindo uma distribuição Poisson, conforme descrito por Breslow e Day<sup><xref ref-type="bibr" rid="B17">17</xref></sup>:</p>
+				<disp-formula id="e1002">
+					<mml:math>
+						<mml:mi>R</mml:mi>
+						<mml:mi>M</mml:mi>
+						<mml:msub>
+							<mml:mi>P</mml:mi>
+							<mml:mrow>
+								<mml:mi>I</mml:mi>
+							</mml:mrow>
+						</mml:msub>
+						<mml:mo>=</mml:mo>
+						<mml:mfrac>
+							<mml:mrow>
+								<mml:mi>D</mml:mi>
+								<mml:mrow>
+									<mml:mo>(</mml:mo>
+									<mml:mn>1</mml:mn>
+									<mml:mo>−</mml:mo>
+									<mml:mfrac>
+										<mml:mn>1</mml:mn>
+										<mml:mrow>
+											<mml:mn>9</mml:mn>
+											<mml:mi>D</mml:mi>
+										</mml:mrow>
+									</mml:mfrac>
+									<mml:mo>)</mml:mo>
+								</mml:mrow>
+								<mml:mo>−</mml:mo>
+								<mml:msup>
+									<mml:mrow>
+										<mml:mo>(</mml:mo>
+										<mml:mfrac>
+											<mml:mn>1.96</mml:mn>
+											<mml:mrow>
+												<mml:mn>3</mml:mn>
+												<mml:msqrt>
+													<mml:mi>D</mml:mi>
+												</mml:msqrt>
+											</mml:mrow>
+										</mml:mfrac>
+										<mml:mo>)</mml:mo>
+									</mml:mrow>
+									<mml:mrow>
+										<mml:mn>3</mml:mn>
+									</mml:mrow>
+								</mml:msup>
+							</mml:mrow>
+							<mml:mi>E</mml:mi>
+						</mml:mfrac>
+					</mml:math>
+				</disp-formula>
+				<disp-formula id="e2002">
+					<mml:math>
+						<mml:mi>R</mml:mi>
+						<mml:mi>M</mml:mi>
+						<mml:msub>
+							<mml:mi>P</mml:mi>
+							<mml:mrow>
+								<mml:mi>s</mml:mi>
+							</mml:mrow>
+						</mml:msub>
+						<mml:mo>=</mml:mo>
+						<mml:mfrac>
+							<mml:mrow>
+								<mml:mo>(</mml:mo>
+								<mml:mi>D</mml:mi>
+								<mml:mo>+</mml:mo>
+								<mml:mn>1</mml:mn>
+								<mml:mo>)</mml:mo>
+								<mml:mrow>
+									<mml:mo>(</mml:mo>
+									<mml:mn>1</mml:mn>
+									<mml:mo>−</mml:mo>
+									<mml:mfrac>
+										<mml:mn>1</mml:mn>
+										<mml:mrow>
+											<mml:mn>9</mml:mn>
+											<mml:mo>(</mml:mo>
+											<mml:mi>D</mml:mi>
+											<mml:mo>+</mml:mo>
+											<mml:mn>1</mml:mn>
+											<mml:mo>)</mml:mo>
+										</mml:mrow>
+									</mml:mfrac>
+									<mml:mo>)</mml:mo>
+								</mml:mrow>
+								<mml:mo>−</mml:mo>
+								<mml:msup>
+									<mml:mrow>
+										<mml:mo>(</mml:mo>
+										<mml:mfrac>
+											<mml:mn>1.96</mml:mn>
+											<mml:mrow>
+												<mml:mn>3</mml:mn>
+												<mml:msqrt>
+													<mml:mo>(</mml:mo>
+													<mml:mi>D</mml:mi>
+													<mml:mo>+</mml:mo>
+													<mml:mn>1</mml:mn>
+													<mml:mo>)</mml:mo>
+												</mml:msqrt>
+											</mml:mrow>
+										</mml:mfrac>
+										<mml:mo>)</mml:mo>
+									</mml:mrow>
+									<mml:mrow>
+										<mml:mn>3</mml:mn>
+									</mml:mrow>
+								</mml:msup>
+							</mml:mrow>
+							<mml:mi>E</mml:mi>
+						</mml:mfrac>
+					</mml:math>
+				</disp-formula>
+				<p>Onde:</p>
+				<p>RMP<sub>I</sub> é o limite inferior para o intervalo de confiança a 95% da RMP;</p>
+				<p>RMP<sub>S</sub> é o limite superior para o intervalo de confiança a 95% da RMP;</p>
+				<p><italic>D</italic> é o número de mortes observadas em 2020;</p>
+				<p><italic>E</italic> é o número de mortes esperadas para 2020.</p>
+				<p>Por fim, foram calculados os percentuais de óbitos observados no ano de 2020 e esperados por comorbidade – com base no perfil verificado em 2019 – tendo como total a soma dos óbitos classificados como causa básica mais os classificados como comorbidade. A razão entre esses percentuais foi verificada para avaliar se houve ou não aumento dessa relação.</p>
+				<p>Todos os cálculos foram realizados no programa estatístico Stata<sup><xref ref-type="bibr" rid="B18">18</xref></sup>.</p>
+			</sec>
+			<sec sec-type="results">
+				<title>RESULTADOS</title>
+				<p>No ano de 2020 ocorreram 1.560.088 mortes no Brasil. Comparando-se a 2019, a taxa de mortalidade geral padronizada por idade teve um incremento de 10,15%, passando de 655,63 para 722,15 mortes por 100 mil habitantes. Os maiores incrementos foram observados nas Regiões Norte (25,90%; de 682,11/100 mil em 2019 para 858,79/100 mil em 2020) e na Região Nordeste (12,99%; de 676,48/100 mil em 2019 para 764,33/100 mil em 2020) (<xref ref-type="fig" rid="f01002">Figura 1</xref>).</p>
+				<p>
+					<fig id="f01002">
+						<label>Figura 1</label>
+						<caption>
+							<title>Distribuição das taxas de mortalidade padronizadas por idade para o conjunto das causas de morte no Brasil e regiões em 2019 e 2020.</title>
+						</caption>
+						<graphic xlink:href="1518-8787-rsp-56-22-gf01-pt.tif"/>
+					</fig>
+				</p>
+				<p>Em 2020, a covid-19 foi a terceira principal causa de morte em todo o Brasil e também nas regiões Sudeste e Sul, com uma taxa padronizada por idade de 97,58 por 100 mil, posicionando-se após as DCV (164,03/100 mil) e câncer (103,60/100 mil), ultrapassando as doenças respiratórias (70,43/100 mil). Nas regiões Norte (161,20/100 mil), Nordeste (100,50/100 mil) e Centro-Oeste (125,21/100 mil) a covid-19 foi a segunda causa principal de morte, sendo superada apenas pelas DCV (<xref ref-type="fig" rid="f02002">Figura 2</xref>).</p>
+				<p>
+					<fig id="f02002">
+						<label>Figura 2</label>
+						<caption>
+							<title>Distribuição das taxas de mortalidade corrigidas e padronizadas por idade para as três principais causas de morte em 2020 no Brasil e Regiões.</title>
+						</caption>
+						<graphic xlink:href="1518-8787-rsp-56-22-gf02-pt.tif"/>
+					</fig>
+				</p>
+				<p>Na <xref ref-type="fig" rid="f03002">Figura 3</xref> são apresentados os números de óbitos observados e esperados de câncer e de DCV, e os óbitos por covid-19 durante os meses de 2020 para o Brasil e regiões. É possível notar que, com a chegada da pandemia de covid-19, a partir do mês de março, há um recuo do número de óbitos observados tanto para câncer quanto para DCV no Brasil como um todo e em cada região. Na Região Norte, porém, a diferença visual entre as curvas de óbitos esperados e observados não é tão marcante quanto nas demais.</p>
+				<p>
+					<fig id="f03002">
+						<label>Figura 3</label>
+						<caption>
+							<title>Mortes observadas e esperadas por câncer, doenças cardiovasculares e covid-19 por mês em 2020 no Brasil.</title>
+						</caption>
+						<graphic xlink:href="1518-8787-rsp-56-22-gf03-pt.tif"/>
+					</fig>
+				</p>
+				<p>No período entre março e dezembro de 2020 foram classificados no SIM um total de 181.377 óbitos que tiveram como causa básica câncer. Esse número foi 10% menor do que o esperado (200.876), tomando-se como base o perfil de mortalidade no mesmo período em 2019 (RMP = 0,90; IC95% 0,90–0,91). Esse padrão se repetiu em todas as regiões do país onde as RMP foram sempre menores que a unidade e estatisticamente significativas. A mesma constatação entre os óbitos observados e esperados ocorreu para DCV em 2020 no período, tanto para o Brasil (291.375 e 319.561, respectivamente; RMP = 0,91; IC95% 0,91–0,920) quanto para todas as regiões (<xref ref-type="table" rid="t1002">Tabela 1</xref>).</p>
+				<p>
+					<table-wrap id="t1002">
+						<label>Tabela 1</label>
+						<caption>
+							<title>Número de óbitos observados e esperados por câncer e por doenças cardiovasculares e razão de mortalidade padronizada (RMP) no Brasil e regiões, entre março e dezembro de 2020.</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left">Causa básica</th>
+									<th>Região</th>
+									<th>Óbitos observados</th>
+									<th>Óbitos esperados</th>
+									<th>RMP (IC95%)</th>
+									<th>Diferença (n)</th>
+									<th>Variação (%)</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td><bold>Câncer</bold></td>
+									<td align="center"><bold>Norte</bold></td>
+									<td align="center">9.416</td>
+									<td align="center">10.333</td>
+									<td align="center">0,91 (0,89–0,93)</td>
+									<td align="center">-917</td>
+									<td align="center">-8,87</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center"><bold>Nordeste</bold></td>
+									<td align="center">40.047</td>
+									<td align="center">44.645</td>
+									<td align="center">0,90 (0,89–0,91)</td>
+									<td align="center">-4.598</td>
+									<td align="center">-10,30</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center"><bold>Sudeste</bold></td>
+									<td align="center">85.302</td>
+									<td align="center">94.640</td>
+									<td align="center">0,90 (0,90–0,91)</td>
+									<td align="center">-9.338</td>
+									<td align="center">-9,87</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center"><bold>Sul</bold></td>
+									<td align="center">34.682</td>
+									<td align="center">37.878</td>
+									<td align="center">0,92 (0,91–0,93)</td>
+									<td align="center">-3.196</td>
+									<td align="center">-8,44</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center"><bold>Centro-Oeste</bold></td>
+									<td align="center">11.930</td>
+									<td align="center">13.394</td>
+									<td align="center">0,89 (0,87–0,91)</td>
+									<td align="center">-1.464</td>
+									<td align="center">-10,93</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center"><bold>Brasil</bold></td>
+									<td align="center"><bold>181.377</bold></td>
+									<td align="center"><bold>200.876</bold></td>
+									<td align="center"><bold>0,90 (0,90–0,91)</bold></td>
+									<td align="center"><bold>-19.499</bold></td>
+									<td align="center"><bold>-9,71</bold></td>
+								</tr>
+								<tr>
+									<td><bold>Doenças cardiovasculares</bold></td>
+									<td align="center"><bold>Norte</bold></td>
+									<td align="center">16.753</td>
+									<td align="center">17.132</td>
+									<td align="center">0,98 (0,96–0,99)</td>
+									<td align="center">-379</td>
+									<td align="center">-2,21</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center"><bold>Nordeste</bold></td>
+									<td align="center">78.324</td>
+									<td align="center">83.630</td>
+									<td align="center">0,94 (0,93–0,94)</td>
+									<td align="center">-5.306</td>
+									<td align="center">-6,34</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center"><bold>Sudeste</bold></td>
+									<td align="center">134.239</td>
+									<td align="center">150.050</td>
+									<td align="center">0,89 (0,89–0,90)</td>
+									<td align="center">-15.811</td>
+									<td align="center">-10,54</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center"><bold>Sul</bold></td>
+									<td align="center">43.028</td>
+									<td align="center">48.082</td>
+									<td align="center">0,89 (0,89–0,90)</td>
+									<td align="center">-5.054</td>
+									<td align="center">-10,51</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center"><bold>Centro-Oeste</bold></td>
+									<td align="center">19.031</td>
+									<td align="center">20.621</td>
+									<td align="center">0,92 (0,91–0,94)</td>
+									<td align="center">-1.590</td>
+									<td align="center">-7,71</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center"><bold>Brasil</bold></td>
+									<td align="center"><bold>291.375</bold></td>
+									<td align="center"><bold>319.561</bold></td>
+									<td align="center"><bold>0,91 (0,91–0,92)</bold></td>
+									<td align="center"><bold>-28.186</bold></td>
+									<td align="center"><bold>-8,82</bold></td>
+								</tr>
+							</tbody>
+						</table>
+					</table-wrap>
+				</p>
+				<p>Analisando-se em separado as comorbidades selecionadas, foi identificado um padrão oposto, com aumento de óbitos observados para câncer levando a uma RMP de 1,82 (IC95% 1,79–1,85). Um maior número de óbitos observados em relação ao esperado dentro dessa classificação seguiu-se em todas as regiões, com destaque para a região Norte, onde a RMP foi de 2,55 (IC95% 2,37–2,73). Em relação às DCV como comorbidade, também foi constatado excesso de óbitos no Brasil como um todo (RMP = 1,78; IC95% 1,77–1,79) e pelas regiões. A maior RMP também foi vista na região Norte (RMP = 2,46; IC95% 2,41–2,50) (<xref ref-type="table" rid="t2002">Tabela 2</xref>).</p>
+				<p>
+					<table-wrap id="t2002">
+						<label>Tabela 2</label>
+						<caption>
+							<title>Número de óbitos observados e esperados por câncer e por doenças cardiovasculares como comorbidade para a morte e razão de mortalidade padronizada (RMP) no Brasil e regiões entre março e dezembro de 2020.</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left">Comorbidade</th>
+									<th>Região</th>
+									<th>Óbitos observados</th>
+									<th>Óbitos esperados</th>
+									<th>RMP (IC95%)</th>
+									<th>Diferença (n)</th>
+									<th>Variação (%)</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td><bold>Câncer</bold></td>
+									<td align="center"><bold>Norte</bold></td>
+									<td align="center">744</td>
+									<td align="center">292</td>
+									<td align="center">2,55 (2,37–2,73)</td>
+									<td align="center">452</td>
+									<td align="center">154,87</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center"><bold>Nordeste</bold></td>
+									<td align="center">3.776</td>
+									<td align="center">2.026</td>
+									<td align="center">1,86 (1,80–1,92)</td>
+									<td align="center">1.750</td>
+									<td align="center">86,41</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center"><bold>Sudeste</bold></td>
+									<td align="center">9.928</td>
+									<td align="center">5.399</td>
+									<td align="center">1,84 (1,80–1,87)</td>
+									<td align="center">4.529</td>
+									<td align="center">83,87</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center"><bold>Sul</bold></td>
+									<td align="center">2.487</td>
+									<td align="center">1.561</td>
+									<td align="center">1,59 (1,53–1,66)</td>
+									<td align="center">926</td>
+									<td align="center">59,34</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center"><bold>Centro-Oeste</bold></td>
+									<td align="center">1.196</td>
+									<td align="center">683</td>
+									<td align="center">1,75 (1,65–1,85)</td>
+									<td align="center">513</td>
+									<td align="center">75,09</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center"><bold>Brasil</bold></td>
+									<td align="center"><bold>18.131</bold></td>
+									<td align="center"><bold>9.959</bold></td>
+									<td align="center"><bold>1,82 (1,79–1,85)</bold></td>
+									<td align="center"><bold>8.172</bold></td>
+									<td align="center"><bold>82,05</bold></td>
+								</tr>
+								<tr>
+									<td><bold>Doenças cardiovasculares</bold></td>
+									<td align="center"><bold>Norte</bold></td>
+									<td align="center">11.651</td>
+									<td align="center">4.738</td>
+									<td align="center">2,46 (2,41–2,50)</td>
+									<td align="center">6.913</td>
+									<td align="center">145,90</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center"><bold>Nordeste</bold></td>
+									<td align="center">45.298</td>
+									<td align="center">23.476</td>
+									<td align="center">1,93 (1,91–1,95)</td>
+									<td align="center">21.822</td>
+									<td align="center">92,96</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center"><bold>Sudeste</bold></td>
+									<td align="center">91.923</td>
+									<td align="center">51.876</td>
+									<td align="center">1,77 (1,76–1,78)</td>
+									<td align="center">40.047</td>
+									<td align="center">77,20</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center"><bold>Sul</bold></td>
+									<td align="center">25.177</td>
+									<td align="center">17.832</td>
+									<td align="center">1,41 (1,39–1,43)</td>
+									<td align="center">7.345</td>
+									<td align="center">41,19</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center"><bold>Centro-Oeste</bold></td>
+									<td align="center">14.155</td>
+									<td align="center">7.899</td>
+									<td align="center">1,79 (1,76–1,82)</td>
+									<td align="center">6.256</td>
+									<td align="center">79,20</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center"><bold>Brasil</bold></td>
+									<td align="center"><bold>188.204</bold></td>
+									<td align="center"><bold>105.791</bold></td>
+									<td align="center"><bold>1,78 (1,77–1,79)</bold></td>
+									<td align="center"><bold>82.413</bold></td>
+									<td align="center"><bold>77,90</bold></td>
+								</tr>
+							</tbody>
+						</table>
+					</table-wrap>
+				</p>
+			</sec>
+			<sec sec-type="discussion">
+				<title>DISCUSSÃO</title>
+				<p>Abrangendo todo o período da pandemia em 2020 e utilizando dados do SIM de todo o Brasil foi possível identificar redução de quase 10% na mortalidade esperada por câncer e por DCV, comparando-se ao ocorrido em 2019. Esse padrão de queda ocorreu nas cinco regiões do país, com uma variação um pouco maior para as DCV entre as regiões.</p>
+				<p>Uma possível explicação para a redução da mortalidade observada para os dois grupos de doenças aqui estudados é a atuação da covid-19 como causa de morte competitiva, resultando em migração da causa básica da morte. Assim, casos prevalentes de câncer e DCV, que teriam maior risco de óbito por essas doenças, acabaram tendo suas mortes antecipadas em função da covid-19<sup><xref ref-type="bibr" rid="B19">19</xref></sup>. Estudo realizado na China entre janeiro e junho de 2020, abrangendo três estágios da pandemia (primeira onda, segunda onda e recuperação), demonstrou déficit de mortalidade por todas as causas, porém não apresentou diferença estatisticamente significativa nas mortes por câncer e encontrou excesso nas mortes por DCV<sup><xref ref-type="bibr" rid="B20">20</xref></sup>. Achados semelhantes, mas que não alcançaram significância estatística, foram relatados no primeiro semestre de 2020 no município de São Paulo para câncer (RMP = 0,9; IC95% 0,67–1,20) e DCV (RMP = 0,9; IC95% 0,68–1,15)<sup><xref ref-type="bibr" rid="B21">21</xref></sup>.</p>
+				<p>A competição por leitos hospitalares e atendimento de emergências, bem como o adoecimento de profissionais de saúde, poderia ter levado a um aumento da mortalidade pelas doenças crônicas estudadas. Isso seria esperado em especial para manifestações agudas de DCV, como infarto agudo do miocárdio (IAM), acidente vascular cerebral (AVC) e aneurisma dissecante da aorta. Choudhary et al.<sup><xref ref-type="bibr" rid="B22">22</xref></sup> mostraram que o atendimento de emergências cardíacas graves diminuiu durante a pandemia e que, entre os casos atendidos de síndrome coronariana aguda, a proporção de pacientes tratados com terapia conservadora aumentou. Nos EUA, nos meses iniciais da pandemia houve menos internações hospitalares por condições que requerem tratamento de emergência, principalmente IAM, AVC e insuficiência cardíaca<sup><xref ref-type="bibr" rid="B23">23</xref></sup>.</p>
+				<p>A redução da mortalidade no Brasil tanto por câncer quanto por DCV em 2020 pode não se manter nos próximos anos. Uma maior dificuldade no acompanhamento e controle de condições crônicas como hipertensão arterial sistêmica e diabetes mellitus deve ter impacto mais tardio no aumento da mortalidade nos próximos anos e medidas para mitigar esse efeito têm sido recomendadas, como o maior uso da telemedicina<sup><xref ref-type="bibr" rid="B24">24</xref>,<xref ref-type="bibr" rid="B25">25</xref></sup>.</p>
+				<p>Em pacientes oncológicos, o adiamento de cirurgias para remoção de tumores e o atraso no tratamento quimio ou radioterápico podem fazer com que a doença progrida, diminuindo as chances de cura<sup><xref ref-type="bibr" rid="B26">26</xref></sup>. No Brasil, a pandemia provocou a necessidade de adaptações nas recomendações de detecção precoce, visando priorizar a investigação de casos com sinais e sintomas suspeitos<sup><xref ref-type="bibr" rid="B27">27</xref></sup>. A redução já percebida dessas ações em 2020<sup><xref ref-type="bibr" rid="B28">28</xref></sup> é preocupante por representar impacto futuro na mortalidade por câncer, particularmente em países de baixa e média renda<sup><xref ref-type="bibr" rid="B29">29</xref></sup>.</p>
+				<p>Alguns estudos têm se dedicado a estimar, por meio de modelagem, o impacto futuro da pandemia por covid-19 na mortalidade decorrente do retardo no diagnóstico<sup><xref ref-type="bibr" rid="B30">30</xref></sup>. No Reino Unido, estimou-se que nos próximos cinco anos ocorrerão de 15,3 a 16,6% de mortes adicionais por câncer colorretal e de 7,9 a 9,6% por câncer de mama, de 5,8 a 6,0% por câncer de esôfago e de 4,8 a 5,3% por câncer de pulmão<sup><xref ref-type="bibr" rid="B30">30</xref></sup>. Na França foi estimado excesso de mortalidade por câncer de mil a seis mil pacientes nos próximos anos<sup><xref ref-type="bibr" rid="B31">31</xref></sup>. Na Austrália foi previsto impacto importante, em termos de mortes adicionais e custos em saúde, ocasionado por mudanças no estágio da doença no início do tratamento em casos de câncer de mama, pulmão, colorretal (do estágio I para II) e melanoma (do estágio T1 para T2)<sup><xref ref-type="bibr" rid="B32">32</xref></sup>. Na Índia é esperado excesso de mortalidade relacionada ao câncer do colo do útero<sup><xref ref-type="bibr" rid="B33">33</xref></sup>.</p>
+				<p>A pandemia tem sido apontada por alguns como uma oportunidade para reduzir o uso desnecessário e prejudicial dos serviços de saúde, servindo como experimento natural na redução dos danos advindos dessas práticas<sup><xref ref-type="bibr" rid="B34">34</xref></sup>. É possível que o sobrediagnóstico e sobretratamento, resultantes de rastreamento sem indicação, especialmente para câncer de próstata e de mama, tenham reduzido durante a pandemia, especialmente por ambas serem práticas muito prevalentes no Brasil<sup><xref ref-type="bibr" rid="B35">35</xref>,<xref ref-type="bibr" rid="B36">36</xref></sup>. Embora existam evidências sobre aumento da mortalidade por DCV associada ao sobrediagnóstico e sobretratamento de câncer, e em especial do câncer de mama, é improvável que uma possível redução tenha impactado nos resultados aqui apresentados<sup><xref ref-type="bibr" rid="B37">37</xref></sup>.</p>
+				<p>As diferenças observadas entre as regiões brasileiras são reflexo das desigualdades de acesso à saúde, anteriores à pandemia de covid-19<sup><xref ref-type="bibr" rid="B38">38</xref></sup>. Assim como em outras partes do mundo, com a pandemia, essas desigualdades foram amplificadas<sup><xref ref-type="bibr" rid="B39">39</xref></sup>, comprometendo as medidas necessárias para controle da disseminação do vírus e evidenciando as dificuldades de acesso aos serviços de saúde. As regiões Norte e Nordeste possuem os menores índices de desenvolvimento humano do país, os maiores índices de desigualdade e o pior acesso aos serviços de saúde<sup><xref ref-type="bibr" rid="B38">38</xref></sup>. Além disso, suspeita-se que a variante P1 tenha emergido da região Norte<sup><xref ref-type="bibr" rid="B40">40</xref></sup>, possivelmente contribuindo para o aumento de casos e óbitos no final de 2020 por ser mais transmissível<sup><xref ref-type="bibr" rid="B41">41</xref></sup>.</p>
+				<p>A esses fatores, agrega-se ao cenário de pandemia a já alta carga de DCNT nas regiões Norte e Nordeste e descritas desde 2008 como resultantes das desigualdades aqui mencionadas<sup><xref ref-type="bibr" rid="B42">42</xref></sup>. Ao contrário das demais regiões do Brasil, a tendência da mortalidade por DCV<sup><xref ref-type="bibr" rid="B43">43</xref></sup> e por câncer<sup><xref ref-type="bibr" rid="B44">44</xref></sup> nessas regiões em anos anteriores à pandemia era de aumento, o que pode ter levado, em especial na região Norte, aos maiores excessos de mortes verificados dessas doenças como comorbidade no período da pandemia.</p>
+				<p>Em contraste à queda na mortalidade das doenças aqui estudadas como causa básica de óbito no Brasil, observamos aumento expressivo da mortalidade por câncer e DCV como comorbidade, respectivamente 82,1% e 77,9%. Esse aumento variou de 59,3% na Região Sul a 154,9% na Região Norte para câncer e de 41,2% na Região Sul a 145,9% na Região Norte para DCV.</p>
+				<p>As regras de classificação das causas de óbito no SIM são bem estabelecidas para o câncer<sup><xref ref-type="bibr" rid="B45">45</xref></sup> que, em geral, é classificado como causa básica. No caso das DCV a probabilidade de que sejam indicadas como comorbidade no óbito é maior do que no caso do câncer. Com a pandemia, o Brasil passou a seguir o padrão internacional proposto pela OMS para classificação das causas de óbito aplicadas ao SIM<sup><xref ref-type="bibr" rid="B46">46</xref></sup>, que indica que comorbidades como o câncer não devem ser consideradas como causa básica da morte ainda que tenham contribuído para o agravamento da covid-19, sendo registradas na segunda parte da declaração de óbito.</p>
+				<p>Os achados deste estudo reforçam uma preocupação importante na pandemia sobre o câncer como comorbidade de doentes com covid-19, a saber, de que o câncer pode afetar o sistema imunológico, fazendo com que pacientes com câncer sejam mais suscetíveis a infecções, seja pelo efeito imunossupressor da quimioterapia e/ou pelo comprometimento da capacidade pulmonar, mais frequente naqueles com câncer de pulmão.</p>
+				<p>As DCV são reconhecidamente uma das principais comorbidades associadas a um pior prognóstico em pacientes com covid-19<sup><xref ref-type="bibr" rid="B47">47</xref></sup> e podem também estar envolvidas como causas antecedentes na cadeia causal do óbito de pacientes com covid-19, aspecto não explorado no presente estudo. Pacientes cardíacos infectados pelo SARS-CoV-2 têm mostrado maior risco de morbimortalidade. O mecanismo fisiopatológico da SARS causada por esse vírus se caracteriza por uma superprodução de citocinas inflamatórias que levam a uma inflamação sistêmica e à disfunção múltipla de órgãos que afeta de forma aguda o sistema cardiovascular<sup><xref ref-type="bibr" rid="B48">48</xref>,<xref ref-type="bibr" rid="B49">49</xref></sup>. A miocardite é uma complicação importante na covid-19<sup><xref ref-type="bibr" rid="B50">50</xref></sup>. Dos pacientes com covid-19, 7% apresentam injúria miocárdica resultante da infecção, número que sobe para 22% em pacientes graves<sup><xref ref-type="bibr" rid="B51">51</xref></sup>. Distúrbios nos receptores da enzima conversora de angiotensina (ECA) também apresentam papel importante na patogênese, levando a cardiomiopatia e insuficiência cardíaca<sup><xref ref-type="bibr" rid="B50">50</xref></sup>.</p>
+				<p>Hipertensão arterial sistêmica, arritmias, cardiomiopatias e doença arterial coronariana estão entre as principais comorbidades em pacientes com quadro grave de covid-19<sup><xref ref-type="bibr" rid="B50">50</xref></sup>. Estudo que analisou o papel das DCV como comorbidade e fator de mal prognóstico com dados do SIVEP-Gripe entre pacientes com 20 anos ou mais, hospitalizados com covid-19, confirmado por RT-PCR quantitativo, até agosto de 2020, mostrou que 84% deles tinham uma ou mais comorbidades, incluindo os seguintes tipos de doenças: cardiovasculares, renais, neurológicas, hematológicas, hepáticas, diabetes, doenças respiratórias crônicas, obesidade ou imunossupressão. Esses pacientes apresentaram mortalidade maior quando comparados aos sem comorbidade<sup><xref ref-type="bibr" rid="B52">52</xref></sup>.</p>
+				<p>Deve-se destacar como limitação deste estudo o fato de que a base utilizada do SIM para 2020 ainda é preliminar e é possível que as frequências se modifiquem após a consolidação definitiva. Em decorrência da pandemia por covid-19, o Ministério da Saúde antecipou a liberação da base de dados preliminar, prevista pelas normativas para o período entre 30 de junho e 30 de agosto de 2021<sup><xref ref-type="bibr" rid="B53">53</xref></sup>. Estudos anteriores sobre o impacto da covid-19 na mortalidade no Brasil em 2020 utilizaram a base de dados do Registro Civil<sup><xref ref-type="bibr" rid="B4">4</xref></sup> ou o SIVEP-Gripe<sup><xref ref-type="bibr" rid="B52">52</xref>,<xref ref-type="bibr" rid="B54">54</xref></sup>. Essas bases não permitem, contudo, realizar as análises aqui apresentadas por não disponibilizarem a informação detalhada sobre causa básica do óbito ou comorbidades. Por esse motivo, optou-se por utilizar os dados do SIM para 2020, mesmo que preliminares. De fato, observou-se nessa base preliminar que alguns campos, como idade ou data de nascimento, tiveram uma maior quantidade de dados ignorados. O percentual de registros de óbito sem essa informação foi de 0,17% em 2019 passando para 1,98% em 2020. Essa quantidade, contudo, é pequena, não devendo modificar significativamente os achados deste estudo. Da mesma forma, o aumento nos óbitos por causas mal definidas que, após a redistribuição, pode ter contribuído para atenuar a diferença negativa entre os óbitos esperados e observados por câncer e DCV no Brasil e regiões. O incremento dos dados ignorados e de causas mal definidas no período são reflexo da crise sanitária, resultante das dificuldades no acesso aos serviços de saúde e de dificuldades relacionadas ao registro das informações.</p>
+				<p>Ao considerar a soma dos óbitos por causa básica e comorbidade, a proporção de óbitos onde cada uma delas aparece como comorbidade é inferior à proporção como causa básica para DCV e menor ainda para câncer. No ano de 2020, contudo, houve um claro aumento da citação desses dois grupos de óbito como comorbidade. Para o câncer esperava-se 4,7% e observou-se 9,1%, indicando um aumento de 92%. Entre as DCV, também se constatou um aumento entre o esperado e o observado (24,9% para 39,2%, respectivamente) (dados não apresentados). Essa situação reforça a ideia de que a covid-19 deve ter sido responsável por parte importante de óbitos em pacientes portadores de câncer e de DCV. A pandemia implicou em definições na regra da cadeia de eventos relacionados ao óbito por covid-19, o que pode também ter influenciado o aumento no número de registros do câncer como comorbidade.</p>
+			</sec>
+			<sec sec-type="conclusions">
+				<title>CONCLUSÕES</title>
+				<p>Os resultados aqui apresentados fornecem uma análise prévia sobre as mudanças no padrão de mortalidade em decorrência da pandemia. O crescimento do número de óbitos citados como comorbidade tanto para câncer como para DCV merece atenção especial e indica necessidade de monitoramento do impacto da covid-19 entre pacientes com essas morbidades. Um destaque deve ser dado à observação de um padrão de aumento das DCV como comorbidades na região Norte durante a pandemia, o que pode ser o resultado de um efeito conjunto da alta carga dessas doenças e menor acesso ao cuidado em saúde. Essas análises são componentes importantes para avaliar e orientar as intervenções e políticas de saúde voltadas para o controle das mortes diretamente ou indiretamente associadas à covid-19.</p>
+			</sec>
+		</body>
+		<back>
+			<fn-group>
+				<fn fn-type="other" id="fna002">
+					<label>a</label>
+					<p>Dados de 2019 disponíveis em <ext-link ext-link-type="uri" xlink:href="ftp://ftp.datasus.gov.br/dissemin/publicos/SIM/CID10/DORES">ftp://ftp.datasus.gov.br/dissemin/publicos/SIM/CID10/DORES</ext-link>; dados preliminares de 2020 disponíveis em <ext-link ext-link-type="uri" xlink:href="ftp://ftp.datasus.gov.br/dissemin/publicos/SIM/PRELIM/DORES">ftp://ftp.datasus.gov.br/dissemin/publicos/SIM/PRELIM/DORES</ext-link>; acessíveis via Internet Explorer ou outro aplicativo para acesso a FTP. Último acesso em 18 fevereiro 2022.</p>
+				</fn>
+				<fn fn-type="other" id="fnb002">
+					<label>b</label>
+					<p>Instituto Brasileiro de Geografia e Estatística, Sistema IBGE de Recuperação Automática - SIDRA. Projeções da População: projeção da população - edição 2018: tabelas. Rio de Janeiro: IBGE; 2018 [citado 29 abr 2021]. Disponível em: <ext-link ext-link-type="uri" xlink:href="https://sidra.ibge.gov.br/pesquisa/projecao-da-populacao/tabelas">https://sidra.ibge.gov.br/pesquisa/projecao-da-populacao/tabelas</ext-link>
+					</p>
+				</fn>
+			</fn-group>
+		</back>
+	</sub-article>
+</article>

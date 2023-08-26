@@ -1,0 +1,1579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.1" specific-use="sps-1.9" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="nlm-ta">Rev Saude Publica</journal-id>
+			<journal-id journal-id-type="publisher-id">rsp</journal-id>
+			<journal-title-group>
+				<journal-title>Revista de Saúde Pública</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Rev. Saúde Pública</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="ppub">0034-8910</issn>
+			<issn pub-type="epub">1518-8787</issn>
+			<publisher>
+				<publisher-name>Faculdade de Saúde Pública da Universidade de São Paulo</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="other">00242</article-id>
+			<article-id pub-id-type="doi">10.11606/s1518-8787.2022056004315</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Original Article</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Hospitalizations from covid-19: a health planning tool</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-0286-3673</contrib-id>
+					<name>
+						<surname>Santolino</surname>
+						<given-names>Miguel</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-5028-1926</contrib-id>
+					<name>
+						<surname>Alcañiz</surname>
+						<given-names>Manuela</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-5982-1538</contrib-id>
+					<name>
+						<surname>Bolancé</surname>
+						<given-names>Catalina</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>I</label>
+				<institution content-type="orgname">Universitat de Barcelona</institution>
+				<institution content-type="orgdiv1">Institut de Recerca en Economia Aplicada</institution>
+				<institution content-type="orgdiv2">Research Group on Risk in Insurance and Finance</institution>
+				<addr-line>
+					<named-content content-type="city">Barcelona</named-content>
+				</addr-line>
+				<country country="ES">España</country>
+				<institution content-type="original"> Universitat de Barcelona. Institut de Recerca en Economia Aplicada. Research Group on Risk in Insurance and Finance. Barcelona, España</institution>
+			</aff>
+			<author-notes>
+				<corresp id="c01"> Correspondence: Manuela Alcañiz Universitat de Barcelona Diagonal, 690 08034 Barcelona, España E-mail: <email>malcaniz@ub.edu</email>
+				</corresp>
+				<fn fn-type="con">
+					<p><bold>Authors’ Contribution:</bold> Study design and planning: MA, MS. Data gathering, analysis and interpretation: CB, MS. Draft and review of the manuscript: MA, MS. Approval of the final version: MA, CB, MS. Public responsibility of the article content: MA, MS.</p>
+				</fn>
+				<fn fn-type="conflict">
+					<p><bold>Conflict of Interest:</bold> The authors declare no conflict of interest.</p>
+				</fn>
+			</author-notes>
+			<pub-date date-type="pub" publication-format="electronic">
+				<day>13</day>
+				<month>06</month>
+				<year>2022</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">
+				<year>2022</year>
+			</pub-date>
+			<volume>56</volume>
+			<elocation-id>51</elocation-id>
+			<history>
+				<date date-type="received">
+					<day>19</day>
+					<month>10</month>
+					<year>2021</year>
+				</date>
+				<date date-type="accepted">
+					<day>4</day>
+					<month>01</month>
+					<year>2022</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="en">
+					<license-p> This is an Open Access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. </license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>ABSTRACT</title>
+				<sec>
+					<title>OBJECTIVE</title>
+					<p> Estimate the future number of hospitalizations from Covid-19 based on the number of diagnosed positive cases.</p>
+				</sec>
+				<sec>
+					<title>METHOD</title>
+					<p> Using the covid-19 Panel data recorded in Spain at the <italic>Red Nacional de Vigilancia Epidemiológica</italic>, Renave (Epidemiological Surveillance Network), a regression model with multiplicative structure is adjusted to explain and predict the number of hospitalizations from the lagged series of positive cases diagnosed from May 11, 2020 to September 20, 2021. The effect of the time elapsed since the vaccination program starting on the number of hospitalizations is reviewed.</p>
+				</sec>
+				<sec>
+					<title>RESULTS</title>
+					<p> Nine days is the number of lags in the positive cases series with greatest explanatory power on the number of hospitalizations. The variability of the number of hospitalizations explained by the model is high (adjusted R<sup>2</sup>: 96.6%). Before the vaccination program starting, the expected number of hospitalizations on day <italic>t</italic> was 20.2% of the positive cases on day <italic>t</italic>-9 raised to 0.906. After the vaccination program started, this percentage was reduced by 0.3% a day. Using the same model, we find that in the first pandemic wave the number of positive cases was more than six times that reported on official records.</p>
+				</sec>
+				<sec>
+					<title>CONCLUSIONS</title>
+					<p> Starting from the covid-19 cases detected up to a given date, the proposed model allows estimating the number of hospitalizations nine days in advance. Thus, it is a useful tool for forecasting the hospital pressure that health systems shall bear as a consequence of the disease.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="en">
+				<kwd>COVID-19, complications</kwd>
+				<kwd>Hospitalization</kwd>
+				<kwd>Length of Stay</kwd>
+				<kwd>Admitting Department, Hospital</kwd>
+				<kwd>Immunization</kwd>
+				<kwd>Regression Analysis</kwd>
+			</kwd-group>
+			<funding-group>
+				<award-group>
+					<funding-source>Secretaria d’Universitats i Recerca del Departament d’Empresa i Coneixement de la Generalitat de Catalunya</funding-source>
+					<award-id>2020-PANDE-00074</award-id>
+				</award-group>
+				<award-group>
+					<funding-source>Ministerio de Ciencia, Innovación y Universidades</funding-source>
+					<award-id>PID2019-105986GB-C21</award-id>
+				</award-group>
+				<funding-statement>Funding: Secretaria d’Universitats i Recerca del Departament d’Empresa i Coneixement de la Generalitat de Catalunya - Project 2020-PANDE-00074. Ministerio de Ciencia, Innovación y Universidades - Project PID2019-105986GB-C21.</funding-statement>
+			</funding-group>
+			<counts>
+				<fig-count count="8"/>
+				<table-count count="2"/>
+				<equation-count count="4"/>
+				<ref-count count="17"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>INTRODUCTION</title>
+			<p>The disease known as covid-19, caused by the SARS-CoV-2 virus, was declared a global pandemic by the World Health Organization in March 2020. It gave rise to an unprecedented health and social challenge<sup><xref ref-type="bibr" rid="B1">1</xref></sup>. The many pandemic waves have put the hospital system under stress, as it shall meet the new demand generated and, at the same time, maintain the care to patients with processes entailing from other pathologies<sup><xref ref-type="bibr" rid="B2">2</xref></sup>.</p>
+			<p>Several articles have focused on modeling the development of the number of new coronavirus infections, helping to understand the relationship between diagnosed cases and hospitalizations<sup><xref ref-type="bibr" rid="B3">3</xref></sup>. Some studies analyze the probability of hospitalization based on risk factors such as SARS-CoV-2 variant, age, sex or pre-existing diseases<sup><xref ref-type="bibr" rid="B6">6</xref></sup>. However, there are few studies that attempt to predict the future number of hospitalizations based on the number of newly infected cases detected, and the time elapsing between infection and hospitalization.</p>
+			<p>Nguyen et al.<sup><xref ref-type="bibr" rid="B8">8</xref></sup> apply a model to investigate the short-term multivariate association between the number of hospital beds occupied and the local incidence of SARS-CoV-2 infections in the metropolitan area of Charlotte, United States. López-Izquierdo et al.<sup><xref ref-type="bibr" rid="B2">2</xref></sup>analyze the association between the percentage of individuals with a positive PCR, and the number of hospitalizations for SARS-CoV-2 infection, using the Poisson regression model. They focus on the analysis of the relative risk of the number of daily admissions for every 1% or 5% daily increase of new positive PCR recorded in the previous ten days (lags from 0 to 10 days).</p>
+			<p>This work, thus, aims at estimating the future number of daily hospitalizations from covid-19 based on the number of positive cases detected. Conversely to López-Izquierdo et al.<sup><xref ref-type="bibr" rid="B2">2</xref></sup>, we propose a simple model relating the lags in the number of positive cases with greater explanatory capacity and the number of hospitalizations. This way, there is a tool to assist in hospital planning.</p>
+			<p>For that, a regression model with a multiplicative structure is used. Specifically, the impact of the number of positive cases on hospitalizations during the 20 days following the onset of symptoms is reviewed, as most hospitalizations occur during the first 14 days after laboratory confirmation of covid-19<sup><xref ref-type="bibr" rid="B6">6</xref></sup>. The lag that presents greatest explanatory and predictive capacity is selected to construct the model, and the effect on the expected number of hospitalizations during time elapsed since the start of the vaccination program, December 27, 2020, is investigated. Finally, the ability of the proposed model to predict the number of hospitalizations in the fifth pandemic wave is evaluated. The selected model allows us to estimate the number of positive cases in the first pandemic wave, when the capacity of diagnosing positive results was reduced, based on cases hospitalized from covid-19 in that period.</p>
+		</sec>
+		<sec sec-type="methods">
+			<title>METHODS</title>
+			<sec>
+				<title>Data</title>
+				<p>Data used in this study were extracted from the covid-19 Panel. This panel is built based on the declaration of positive cases registered in Spain to the <italic>Red Nacional de Vigilancia Epidemiológica</italic> (Renave) by the SiViEs platform (<italic>Sistema de Vigilancia de España</italic>, or Spain Surveillance System), which is managed by the <italic>Centro Nacional de Epidemiología</italic> (National Epidemiology Center). Specifically, two databases are used. The number of positive cases is obtained from the database containing the number of cases detected through diagnostic technique and <italic>Comunidad Autónoma</italic> (Autonomous Community) of residence (file <italic>casos_tecnica_ccaa.csv</italic>). The number of hospitalizations is extracted from the database that also contains the number of admissions to intensive care units, and the number of deaths by sex, age and province of residence (file <italic>casos_hosp_uci_def_sexo_edad_provres.csv</italic>).</p>
+			</sec>
+			<sec>
+				<title>Time Period</title>
+				<p>The time period of the series comprises from January 1, 2020 to September 20, 2021 (latest data available). It should be noted that on May 10, 2020 the criteria for counting positive cases and recording the start date were changed. Until then, the series included cases detected through a positive diagnostic test for active infection, as well as all hospitalized cases, cases admitted to intensive care units, and deaths. As of May 11, cases confirmed through PCR or antigen testing were included. On the other hand, the date of imputation of positive cases for patients with symptoms was recorded as the date of symptoms onset or, alternatively, the date of diagnosis minus six days (if registration was until May 10, 2020) or minus three days (from May 11 onward). For asymptomatic patients, the date of imputation always coincided with the date of diagnosis. Due to this change on the criteria for counting the number of positive cases detected, the analysis excluded the period prior to May 10, 2020. Thus, the period selected in this study runs from May 11, 2020 to September 20, 2021.</p>
+			</sec>
+			<sec>
+				<title>Model</title>
+				<p>To model the relationship between the number of covid-19 positive cases and the number of hospitalizations for the same disease, the multiplicative structure regression model is proposed: <inline-formula>
+						<mml:math>
+							<mml:msub>
+								<mml:mi>y</mml:mi>
+								<mml:mi>t</mml:mi>
+							</mml:msub>
+							<mml:mo>
+							</mml:mo>
+							<mml:mo>=</mml:mo>
+							<mml:mo>
+							</mml:mo>
+							<mml:msup>
+								<mml:mi>e</mml:mi>
+								<mml:mrow>
+									<mml:msub>
+										<mml:mi>β</mml:mi>
+										<mml:mn>1</mml:mn>
+									</mml:msub>
+									<mml:mo>
+									</mml:mo>
+								</mml:mrow>
+							</mml:msup>
+							<mml:mo>·</mml:mo>
+							<mml:mo>
+							</mml:mo>
+							<mml:msup>
+								<mml:mi>e</mml:mi>
+								<mml:mrow>
+									<mml:msub>
+										<mml:mi>β</mml:mi>
+										<mml:mn>2</mml:mn>
+									</mml:msub>
+									<mml:mo>·</mml:mo>
+									<mml:mi>d</mml:mi>
+									<mml:mi>a</mml:mi>
+									<mml:mi>y</mml:mi>
+									<mml:mi>s</mml:mi>
+									<mml:mi>_</mml:mi>
+									<mml:mi>v</mml:mi>
+									<mml:mi>a</mml:mi>
+									<mml:msub>
+										<mml:mi>c</mml:mi>
+										<mml:mrow>
+											<mml:mi>t</mml:mi>
+											<mml:mo>-</mml:mo>
+											<mml:mi>n</mml:mi>
+										</mml:mrow>
+									</mml:msub>
+								</mml:mrow>
+							</mml:msup>
+							<mml:mo>·</mml:mo>
+							<mml:msup>
+								<mml:msub>
+									<mml:mi>χ</mml:mi>
+									<mml:mrow>
+										<mml:mi>t</mml:mi>
+										<mml:mi>_</mml:mi>
+										<mml:mi>n</mml:mi>
+									</mml:mrow>
+								</mml:msub>
+								<mml:msub>
+									<mml:mi>β</mml:mi>
+									<mml:mn>3</mml:mn>
+								</mml:msub>
+							</mml:msup>
+							<mml:mo>
+							</mml:mo>
+							<mml:mo>·</mml:mo>
+							<mml:mo>
+							</mml:mo>
+							<mml:msup>
+								<mml:mi>e</mml:mi>
+								<mml:msub>
+									<mml:mi>β</mml:mi>
+									<mml:mi>t</mml:mi>
+								</mml:msub>
+							</mml:msup>
+						</mml:math>
+					</inline-formula>, with y<sub>t</sub> being the number of hospitalizations at time <italic>t</italic> (<italic>t</italic>=1,…,<italic>T</italic>, with <italic>T</italic> equal to the total number of observations in the series, i.e. 489 days), <italic>x</italic><sub><italic>t</italic>–<italic>n</italic></sub> the number of positive cases at time <italic>t-n</italic>, where <italic>n</italic> is the number of lags (<italic>n</italic>=0,1,2,…,<italic>t-1</italic>), and <italic>ε</italic><sub><italic>t</italic></sub> the error term which follows a normal distribution with null expectation and standard deviation <italic>σ.</italic> The expression <italic>days</italic>_<italic>vac</italic><sub><italic>t</italic>–<italic>n</italic></sub> takes the number of days elapsed between <italic>t-n</italic> timepoint and the day on which the vaccination period started, December 27, 2020, taking value zero if <italic>t-n</italic> timepoint is prior to this date. The parameters to be estimated are <italic>β</italic><sub>1</sub>, <italic>β</italic><sub>2</sub> and <italic>β</italic><sub>3</sub>. The multiplicative structure is widely used to study the long-term relationship between time series. By applying logarithms to both sides of the expression, the following linear relationship between the number of positive results and the number of hospitalizations is obtained:</p>
+				<disp-formula id="e1">
+					<mml:math>
+						<mml:mi>log</mml:mi>
+						<mml:mfenced>
+							<mml:msub>
+								<mml:mi>y</mml:mi>
+								<mml:mi>t</mml:mi>
+							</mml:msub>
+						</mml:mfenced>
+						<mml:mo>
+						</mml:mo>
+						<mml:mo>=</mml:mo>
+						<mml:mo>
+						</mml:mo>
+						<mml:msub>
+							<mml:mi>β</mml:mi>
+							<mml:mn>1</mml:mn>
+						</mml:msub>
+						<mml:mo>
+						</mml:mo>
+						<mml:mo>+</mml:mo>
+						<mml:mo>
+						</mml:mo>
+						<mml:msub>
+							<mml:mi>β</mml:mi>
+							<mml:mn>2</mml:mn>
+						</mml:msub>
+						<mml:mo>
+						</mml:mo>
+						<mml:mi>d</mml:mi>
+						<mml:mi>a</mml:mi>
+						<mml:mi>y</mml:mi>
+						<mml:mi>s</mml:mi>
+						<mml:mi>_</mml:mi>
+						<mml:mi>v</mml:mi>
+						<mml:mi>a</mml:mi>
+						<mml:msub>
+							<mml:mi>c</mml:mi>
+							<mml:mrow>
+								<mml:mi>t</mml:mi>
+								<mml:mi>_</mml:mi>
+								<mml:mi>n</mml:mi>
+							</mml:mrow>
+						</mml:msub>
+						<mml:mo>
+						</mml:mo>
+						<mml:mo>+</mml:mo>
+						<mml:mo>
+						</mml:mo>
+						<mml:msub>
+							<mml:mi>β</mml:mi>
+							<mml:mn>3</mml:mn>
+						</mml:msub>
+						<mml:mi>log</mml:mi>
+						<mml:mfenced>
+							<mml:msub>
+								<mml:mi>χ</mml:mi>
+								<mml:mrow>
+									<mml:mi>t</mml:mi>
+									<mml:mi>_</mml:mi>
+									<mml:mi>n</mml:mi>
+								</mml:mrow>
+							</mml:msub>
+						</mml:mfenced>
+						<mml:mo>
+						</mml:mo>
+						<mml:mo>+</mml:mo>
+						<mml:mo>
+						</mml:mo>
+						<mml:msub>
+							<mml:mi>ε</mml:mi>
+							<mml:mi>t</mml:mi>
+						</mml:msub>
+					</mml:math>
+				</disp-formula>
+				<p>whose parameters may be estimated by ordinary least squares.</p>
+				<p>The analysis is based on the econometric methodology for the treatment of time series<sup><xref ref-type="bibr" rid="B9">9</xref></sup>. First, it is investigated whether there is a seasonal component in the series associated with the day of the week (regular variations). The multiplicative model is considered for the correction of the seasonal component, i.e., it is assumed that a series may be represented as the product of three components that reflect the trend, the seasonality and error. The seasonal component is corrected by dividing the values observed by the factors associated with seasonality. Unit root tests of the series and cointegration tests are further performed to determine the number of lags to be considered in model (1). Finally, the regression model is estimated, using the variance and covariance matrix estimator that is consistent with the heteroscedasticity and autocorrelation of residuals.</p>
+			</sec>
+		</sec>
+		<sec sec-type="results">
+			<title>RESULTS</title>
+			<p>All calculations were performed in R 4.1.1.<sup><xref ref-type="bibr" rid="B10">10</xref></sup> A first descriptive data analysis shows that the mean number of positive cases and hospitalizations differs according to the day of the week. Specifically, there is a seasonal component in which Saturdays and Sundays systematically register lower values than the other days for both series. The estimated seasonality coefficients for each day of the week are: Mon: 1.097; Tue: 1.134; Wed: 1.083; Thu: 1.025; Fri: 1.081; Sat: 0.841; Sun: 0.738, for positive cases; and Mon: 1.118; Tue: 1.069; Wed: 1.055; Thu: 1.050; Fri: 1.087; Sat: 0.832; Sun: 0.789, for the number of hospitalizations. The seasonal component is corrected by dividing the observed values of the series by the seasonal coefficients, depending on the day of the week.</p>
+			<p>Once the seasonal component is corrected, the number of lags in the number of positive cases is selected. <xref ref-type="fig" rid="f01">Figure 1</xref> shows the time series of the number of positive cases (in tens), and the number of hospitalizations for the period under investigation. The behavior of both series is similar, although there is a certain lag in the number of positive cases in relation to the number of hospitalizations (translation). The seasonality of the series was analyzed using the augmented Dickey-Fuller (ADF) unit root test<sup><xref ref-type="bibr" rid="B11">11</xref></sup>. At a 5% significance level, the null hypothesis of non-seasonality of the series was rejected for the number of positive cases (ADF= -4.54; p = 0.01) and for the number of hospitalizations (ADF= -3.56; p = 0.03). On the other hand, the null hypothesis of non-seasonality is not rejected for positive results and hospitalizations on a logarithmic scale (ADF= -2.23; p = 0.48); ADF= -1.46; p = 0.81, respectively).</p>
+			<p>
+				<fig id="f01">
+					<label>Figure 1</label>
+					<caption>
+						<title>Daily series of the number of positive cases diagnosed, and the number of hospitalizations.</title>
+					</caption>
+					<graphic xlink:href="1518-8787-rsp-56-51-gf01.tif"/>
+				</fig>
+			</p>
+			<p>Since the series are not seasonal on a logarithmic scale, they shall be cointegrated in order to fit the linear regression (1), and ensure that the results obtained are not spurious<sup><xref ref-type="bibr" rid="B9">9</xref></sup>. The cointegration of the series in logarithmic scale is tested using the Phillips-Ouliaris (PO) cointegration test, which is based on the unit root test of the residuals of the cointegrating regression<sup><xref ref-type="bibr" rid="B12">12</xref></sup>. The series cointegration is analyzed on a logarithmic scale for the first twenty lags of the positive cases series. Among the lagged series of positive results cointegrated with the number of hospitalizations, the one showing the greatest explanatory capacity in model (1) is selected according to the goodness-of-fit measures. Based on the results found, 9 lags in the number of positive cases are selected (PO = -116.41; p &lt; 0.01). <xref ref-type="fig" rid="f02">Figure 2</xref> details the hospitalizations number series and the number of positive results with 9 lags on the original scale (left), and on logarithmic scale (right).</p>
+			<p>
+				<fig id="f02">
+					<label>Figure 2</label>
+					<caption>
+						<title>Series of the number of positive cases with 9 lags, and the number of hospitalizations (original scale and logarithmic scale).</title>
+					</caption>
+					<graphic xlink:href="1518-8787-rsp-56-51-gf02.tif"/>
+				</fig>
+			</p>
+			<p>For equation (1) the error term is assumed to be homoscedastic (constant variance), and uncorrelated with lags. When these assumptions are violated, the least squares estimator of the variance-covariance matrix is inconsistent. In this study, the consistent estimator with heteroscedasticity and autocorrelation (HAC) of the variance-covariance matrix is calculated<sup><xref ref-type="bibr" rid="B13">13</xref></sup>. The <xref ref-type="table" rid="t1">Table</xref> presents the results of the regression model fit using estimation errors consistent with heteroscedasticity and autocorrelation.</p>
+			<p>
+				<table-wrap id="t1">
+					<label>Table</label>
+					<caption>
+						<title>Fitting of the proposed regression model.</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup width="25%">
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left">Variable</th>
+								<th>Coefficient</th>
+								<th>Standard error</th>
+								<th>p</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Constant</td>
+								<td align="center">-1.601</td>
+								<td align="center">0.2029</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>days_vac (9 lags)</td>
+								<td align="center">-0.003</td>
+								<td align="center">0.0003</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>log_pos (9 lags)</td>
+								<td align="center">0.906</td>
+								<td align="center">0.0223</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN1">
+							<p>days_vac: days since the start of the vaccination program; log_pos: number of positive cases diagnosed (in logarithm).</p>
+						</fn>
+						<fn id="TFN2">
+							<p>Number of observations = 489.</p>
+						</fn>
+						<fn id="TFN3">
+							<p>Adjusted coefficient of determination (R<sup>2</sup>) = 0.9646.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>The adjusted coefficient of determination is 96.46%, so it may be concluded that the explanatory power of the model is very high. The coefficients associated with the number of positive cases, and number of days elapsed since the start of vaccination are significant at 1%, with t-statistic value = 40.70 (p &lt; 0.01) and t = -11.35 (p &lt; 0.01), respectively. The coefficient positive sign associated with the number of positive cases suggests that the expected number of hospitalizations increases with the number of positive cases. Likewise, the coefficient negative sign associated with the number of days since the start of vaccination reflects that the number of hospitalizations decreases as the time span since the vaccination period starting increases. The residuals’ normality is not rejected at 5% with the Shapiro-Wilk test (W = 0.998; p = 0.90). At a significance level of 10%, the null hypothesis of residuals’ non-seasonality is rejected (ADF= -3.34; p = 0.06).</p>
+			<p>The estimated coefficients for model (1) are organized as follows:</p>
+			<disp-formula id="e2">
+				<mml:math>
+					<mml:mover>
+						<mml:msub>
+							<mml:mi>y</mml:mi>
+							<mml:mi>t</mml:mi>
+						</mml:msub>
+						<mml:mo>^</mml:mo>
+					</mml:mover>
+					<mml:mo>=</mml:mo>
+					<mml:msup>
+						<mml:mi>e</mml:mi>
+						<mml:mrow>
+							<mml:mo>-</mml:mo>
+							<mml:mn>1</mml:mn>
+							<mml:mo>.</mml:mo>
+							<mml:mn>601</mml:mn>
+						</mml:mrow>
+					</mml:msup>
+					<mml:mo>·</mml:mo>
+					<mml:msup>
+						<mml:mfenced>
+							<mml:msup>
+								<mml:mi>e</mml:mi>
+								<mml:mrow>
+									<mml:mo>-</mml:mo>
+									<mml:mn>0</mml:mn>
+									<mml:mo>.</mml:mo>
+									<mml:mn>003</mml:mn>
+								</mml:mrow>
+							</mml:msup>
+						</mml:mfenced>
+						<mml:mrow>
+							<mml:mi>d</mml:mi>
+							<mml:mi>a</mml:mi>
+							<mml:mi>y</mml:mi>
+							<mml:mi>s</mml:mi>
+							<mml:mi>_</mml:mi>
+							<mml:mi>v</mml:mi>
+							<mml:mi>a</mml:mi>
+							<mml:msub>
+								<mml:mi>c</mml:mi>
+								<mml:mrow>
+									<mml:mi>t</mml:mi>
+									<mml:mo>-</mml:mo>
+									<mml:mi>n</mml:mi>
+								</mml:mrow>
+							</mml:msub>
+						</mml:mrow>
+					</mml:msup>
+					<mml:mo>·</mml:mo>
+					<mml:msup>
+						<mml:msub>
+							<mml:mi>χ</mml:mi>
+							<mml:mrow>
+								<mml:mi>t</mml:mi>
+								<mml:mo>-</mml:mo>
+								<mml:mi>n</mml:mi>
+							</mml:mrow>
+						</mml:msub>
+						<mml:mrow>
+							<mml:mn>0</mml:mn>
+							<mml:mo>.</mml:mo>
+							<mml:mn>906</mml:mn>
+						</mml:mrow>
+					</mml:msup>
+					<mml:mspace linebreak="newline"/>
+					<mml:mo>=</mml:mo>
+					<mml:mn>0</mml:mn>
+					<mml:mo>.</mml:mo>
+					<mml:mn>202</mml:mn>
+					<mml:mo>
+					</mml:mo>
+					<mml:mo>·</mml:mo>
+					<mml:mo>
+					</mml:mo>
+					<mml:msup>
+						<mml:mfenced>
+							<mml:mn>0997</mml:mn>
+						</mml:mfenced>
+						<mml:mrow>
+							<mml:mi>d</mml:mi>
+							<mml:mi>a</mml:mi>
+							<mml:mi>y</mml:mi>
+							<mml:mi>s</mml:mi>
+							<mml:mi>_</mml:mi>
+							<mml:mi>v</mml:mi>
+							<mml:mi>a</mml:mi>
+							<mml:msub>
+								<mml:mi>c</mml:mi>
+								<mml:mrow>
+									<mml:mi>t</mml:mi>
+									<mml:mo>-</mml:mo>
+									<mml:mi>n</mml:mi>
+								</mml:mrow>
+							</mml:msub>
+						</mml:mrow>
+					</mml:msup>
+					<mml:mo>·</mml:mo>
+					<mml:msup>
+						<mml:msub>
+							<mml:mi>χ</mml:mi>
+							<mml:mrow>
+								<mml:mi>t</mml:mi>
+								<mml:mo>-</mml:mo>
+								<mml:mi>n</mml:mi>
+							</mml:mrow>
+						</mml:msub>
+						<mml:mrow>
+							<mml:mn>0</mml:mn>
+							<mml:mo>.</mml:mo>
+							<mml:mn>906</mml:mn>
+						</mml:mrow>
+					</mml:msup>
+				</mml:math>
+			</disp-formula>
+			<p>This allows us to conclude that, before the vaccination program started, the expected number of hospitalizations on day <italic>t</italic> is 20.2% of the positive cases on day <italic>t</italic>-9 raised to 0.906. After the start of the vaccination program, the percentage of 20.2% is reduced to a rate of 0.3% a day.</p>
+			<sec>
+				<title>Predicted Number of Positive Cases and Hospitalizations</title>
+				<p>Information is available for the number of hospitalizations between January 1, 2020 and May 10, 2020. For the calculation of the number of hospitalizations, there was no change to the criteria at the end of that period, as was the case with the calculation of the number of positive cases. With the coefficients shown in the <xref ref-type="table" rid="t1">Table</xref>, the number of positive cases for the period January 1, 2020 to May 10, 2020 that would have predicted the number of hospitalizations we observed in that period, is calculated. <xref ref-type="fig" rid="f03">Figure 3</xref> compares the calculated number of positive cases with the number of positive cases actually recorded.</p>
+				<p>
+					<fig id="f03">
+						<label>Figure 3</label>
+						<caption>
+							<title>Comparison between the number of observed and predicted positive cases as a function of the number of hospitalizationsa.</title>
+						</caption>
+						<graphic xlink:href="1518-8787-rsp-56-51-gf03.tif"/>
+						<attrib><sup>a</sup> The data used to fit the model are from May 11, 2020 to September 20, 2021. The number of positive cases predicted between January 1, 2020 and May 10, 2020 (first pandemic wave) are calculated based on hospitalizations observed in that period, assuming the validity of the estimated model for the subsequent period.</attrib>
+					</fig>
+				</p>
+				<p>For the first pandemic wave, the number of daily positive cases that would predict the number of hospitalizations observed is much higher than that shown on the official records. The maximum number of positive cases between January 1, 2020 and May 10, 2020 would be 69,602 individuals a day, well above the recorded maximum of 10,743 individuals diagnosed positive. On more than 25% of the days in that period the computed number of positive cases exceeds the maximum value recorded.</p>
+				<p>Finally, the predictive ability of the model for the fifth pandemic wave is analyzed. The fifth wave is selected to evaluate the predictive ability of the model in order to have a large number of observations on the model calibration. Model (1) is refitted for the time period from May 11, 2020 to June 24, 2021. Once the model has been estimated, the prediction of the number of hospitalizations from June 25, 2021 to September 20, 2021 (out-of-sample prediction) is performed. <xref ref-type="fig" rid="f04">Figure 4</xref> shows the prediction of the number of hospitalized cases, and compares it with the observed number. As can be seen, the model satisfactorily predicts the number of hospitalizations for that period.</p>
+				<p>
+					<fig id="f04">
+						<label>Figure 4</label>
+						<caption>
+							<title>Comparison between the actual number of hospitalizations and the prediction made by the model based on observed positive casesa.</title>
+						</caption>
+						<graphic xlink:href="1518-8787-rsp-56-51-gf04.tif"/>
+						<attrib><sup>a</sup> The data used for the model fit are from May 11, 2020 to June 24, 2021. Predictions on the number of hospitalizations between June 25, 2021 and September 20, 2021 (fifth pandemic wave) are made for an out-of-sample data set.</attrib>
+					</fig>
+				</p>
+			</sec>
+		</sec>
+		<sec sec-type="discussion">
+			<title>DISCUSSION</title>
+			<p>A simple way of modeling the relationship between the number of positive cases detected and the number of hospitalizations due to covid-19 is proposed. The model shows satisfactory goodness-of-fit to the data, so one may conclude that there is a multiplicative relationship between the number of cases diagnosed and the number of hospitalizations (additive between logarithmic transformations). Other studies have considered the exponential relationship between the number of hospitalizations and the percentage of positive PCR tests<sup><xref ref-type="bibr" rid="B2">2</xref></sup>.</p>
+			<p>For the first wave of the pandemic there was a low diagnostic capacity due to very restricted testing<sup><xref ref-type="bibr" rid="B14">14</xref></sup>. In that period, official records probably recorded hospitalizations from covid-19 better than the number of infections. The proposed model allows us to approximate the actual number of positive cases in the first wave based on the number of hospitalized covid-19 cases reported on official records. The results suggest that positive cases in the first wave are strongly underreported on these records. It should be noted that positive cases in the first wave computed in this article are those that would have been detected had the same diagnostic capacity been available as of May 11, 2020. In other words, the proportion of infections that remained undetected after May 11 would not be included in this estimate<sup><xref ref-type="bibr" rid="B3">3</xref></sup>.</p>
+			<p>The different pandemic waves gave effect to significant hospital pressure<sup><xref ref-type="bibr" rid="B5">5</xref></sup> that should be managed with the available resources. The proposed model allows using the number of positive cases known to date to estimate the number of hospitalizations due to SARS-CoV-2 infection up to nine days in advance. The explanatory power and predictive behavior of the model in that time frame are very satisfactory. This makes it a useful tool for making decisions on hospital management issues. López-Izquierdo et al.<sup><xref ref-type="bibr" rid="B2">2</xref></sup> suggest that the second and sixth lags of the percentage of PCR-positive confirmed results express the strongest association with the number of hospital admissions. These results would be in line with this study, which concludes that the ninth lag (nine-day difference between the onset of symptoms and hospitalization) is the one that shows the best explanatory capacity for the number of positive results, followed by the fourth lag (four-day difference).</p>
+			<p>Vaccination against covid-19 drastically reduces the risk of hospitalization<sup><xref ref-type="bibr" rid="B15">15</xref>,<xref ref-type="bibr" rid="B16">16</xref></sup>. The proposed model includes a variable that accounts for the number of days elapsed since the start of the vaccination period in Spain. Results suggest that the number of hospitalizations in relation to the number of positive cases decreases as the start of the vaccination program increases. The effect of the time from the beginning of the pandemic to the start of the vaccination period was reviewed, and the coefficient associated with the time elapsed in this interval showed no relationship with the number of hospitalizations. However, after December 27, 2020, the number of hospitalizations declines as the time elapsed from that date increases. Before then, it does not seem to be a reduction in the percentage of hospitalizations in relation to the number of positive cases diagnosed, which could mean that the virus effects severity remained constant until the emergence of the vaccine.</p>
+			<p>This work is not exempt from limitations. For example, the proposed model does not include information on the sex of individuals, although some studies suggest that being male is a risk factor of hospitalization from covid-19<sup><xref ref-type="bibr" rid="B17">17</xref></sup>. Unfortunately, this information is not available on the databases used. On the other hand, this work is carried out for Spain as a whole. Although the vaccination campaign began nationwide on December 27, 2020, not all autonomous communities followed the same vaccination strategy or recorded their progress in the same way. This may have led to differences that are not visible in this analysis.</p>
+			<p>The methodology proposed herein may be used as a reference to investigate the relationship between diagnosed cases and hospitalizations in other pathologies susceptible to hospitalization, especially in epidemics with waves of contagion. Based on the cases detected in primary care, the number of patients requiring hospital stay could be approximated, as well as the expected lag between diagnosis and the need to admit the patient. It should be noted that this study highlights the importance of having reliable, homogeneous and updated information for predicting the behavior of indicators of great interest in public health.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>REFERENCES</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. García F, Santiago Melón DN, Paño JR, Galán JC. Organización del diagnóstico de SARS-CoV-2 y estrategias de optimización. Madrid. Sociedad Española de Enfermedades Infecciosas y Microbiología Clínica; 2021 [cited 2021 Nov 30]. Available from: <ext-link ext-link-type="uri" xlink:href="https://seimc.org/contenidos/documentoscientificos/recomendaciones/seimc-rc-2020-COVID19-OrganizacionDiagnostico.pdf">https://seimc.org/contenidos/documentoscientificos/recomendaciones/seimc-rc-2020-COVID19-OrganizacionDiagnostico.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<name>
+							<surname>García</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Santiago Melón</surname>
+							<given-names>DN</given-names>
+						</name>
+						<name>
+							<surname>Paño</surname>
+							<given-names>JR</given-names>
+						</name>
+						<name>
+							<surname>Galán</surname>
+							<given-names>JC</given-names>
+						</name>
+					</person-group>
+					<article-title>Organización del diagnóstico de SARS-CoV-2 y estrategias de optimización. Madrid</article-title>
+					<source>Sociedad Española de Enfermedades Infecciosas y Microbiología Clínica</source>
+					<year>2021</year>
+					<date-in-citation content-type="cited-date">cited 2021 Nov 30</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://seimc.org/contenidos/documentoscientificos/recomendaciones/seimc-rc-2020-COVID19-OrganizacionDiagnostico.pdf">https://seimc.org/contenidos/documentoscientificos/recomendaciones/seimc-rc-2020-COVID19-OrganizacionDiagnostico.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. López-Izquierdo R, Campo F, Eiros JM. Influencia de PCR SARS-CoV-2 positivas en los ingresos hospitalarios por COVID-19 en un área de salud española. Med Clin (Barc). 2021;156(8):407-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.medcli.2020.12.009">https://doi.org/10.1016/j.medcli.2020.12.009</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>López-Izquierdo</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Campo</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Eiros</surname>
+							<given-names>JM</given-names>
+						</name>
+					</person-group>
+					<article-title>Influencia de PCR SARS-CoV-2 positivas en los ingresos hospitalarios por COVID-19 en un área de salud española</article-title>
+					<source>Med Clin (Barc)</source>
+					<year>2021</year>
+					<volume>156</volume>
+					<issue>8</issue>
+					<fpage>407</fpage>
+					<lpage>408</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.medcli.2020.12.009">https://doi.org/10.1016/j.medcli.2020.12.009</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. Hyafil A, Moriña D. Analysis of the impact of lockdown on the reproduction number of the SARS-Cov-2 in Spain. Gac Sanit. 2021;35(5);453-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.gaceta.2020.05.003">https://doi.org/10.1016/j.gaceta.2020.05.003</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hyafil</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Moriña</surname>
+							<given-names>D</given-names>
+						</name>
+					</person-group>
+					<article-title>Analysis of the impact of lockdown on the reproduction number of the SARS-Cov-2 in Spain</article-title>
+					<source>Gac Sanit</source>
+					<year>2021</year>
+					<volume>35</volume>
+					<issue>5</issue>
+					<fpage>453</fpage>
+					<lpage>458</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.gaceta.2020.05.003">https://doi.org/10.1016/j.gaceta.2020.05.003</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. Sánchez-Villegas P, Daponte Codina A. Modelos predictivos de la epidemia de COVID-19 en España con curvas de Gompertz. Gac Sanit (Barc). 2021;35(6):585-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.gaceta.2020.05.005">https://doi.org/10.1016/j.gaceta.2020.05.005</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sánchez-Villegas</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Daponte Codina</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Modelos predictivos de la epidemia de COVID-19 en España con curvas de Gompertz</article-title>
+					<source>Gac Sanit (Barc)</source>
+					<year>2021</year>
+					<volume>35</volume>
+					<issue>6</issue>
+					<fpage>585</fpage>
+					<lpage>589</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.gaceta.2020.05.005">https://doi.org/10.1016/j.gaceta.2020.05.005</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Garrido JM, Martínez-Rodríguez D, Rodríguez-Serrano F, Pérez-Villanueva, Ferreiro-Marzal A, Jiménez-Quintana MM; Grupo de Estudio COVID-19_Granada. Modelo matemático optimizado para la predicción y planificación de la asistencia sanitaria por la COVID-19. Med Intensiva. 2021. En prensa. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.medin.2021.02.014">https://doi.org/10.1016/j.medin.2021.02.014</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Garrido</surname>
+							<given-names>JM</given-names>
+						</name>
+						<name>
+							<surname>Martínez-Rodríguez</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Rodríguez-Serrano</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Pérez-Villanueva</surname>
+						</name>
+						<name>
+							<surname>Ferreiro-Marzal</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Jiménez-Quintana</surname>
+							<given-names>MM</given-names>
+						</name>
+						<collab>Grupo de Estudio COVID-19_Granada</collab>
+					</person-group>
+					<article-title>Modelo matemático optimizado para la predicción y planificación de la asistencia sanitaria por la COVID-19</article-title>
+					<source>Med Intensiva</source>
+					<year>2021</year>
+					<comment>En prensa</comment>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.medin.2021.02.014">https://doi.org/10.1016/j.medin.2021.02.014</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. Nyberg T, Twohig KA, Harris RJ, Seaman SR, Flannagan J, Allen H, et al. Risk of hospital admission for patients with SARS-CoV-2 variant B.1.1.7: cohort analysis. BMJ 2021;373:n1412. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/bmj.n1412">https://doi.org/10.1136/bmj.n1412</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Nyberg</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Twohig</surname>
+							<given-names>KA</given-names>
+						</name>
+						<name>
+							<surname>Harris</surname>
+							<given-names>RJ</given-names>
+						</name>
+						<name>
+							<surname>Seaman</surname>
+							<given-names>SR</given-names>
+						</name>
+						<name>
+							<surname>Flannagan</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Allen</surname>
+							<given-names>H</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Risk of hospital admission for patients with SARS-CoV-2 variant B.1.1.7: cohort analysis</article-title>
+					<source>BMJ</source>
+					<year>2021</year>
+					<volume>373</volume>
+					<size units="pages">n1412</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/bmj.n1412">https://doi.org/10.1136/bmj.n1412</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. Chen Z, Russo NW, Miller MM, Murphy RX, Burmeister DB. An observational study to develop a scoring system and model to detect risk of hospital admission due to COVID-19. JACEP Open 2021;2(2):e12406. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/emp2.12406">https://doi.org/10.1002/emp2.12406</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Chen</surname>
+							<given-names>Z</given-names>
+						</name>
+						<name>
+							<surname>Russo</surname>
+							<given-names>NW</given-names>
+						</name>
+						<name>
+							<surname>Miller</surname>
+							<given-names>MM</given-names>
+						</name>
+						<name>
+							<surname>Murphy</surname>
+							<given-names>RX</given-names>
+						</name>
+						<name>
+							<surname>Burmeister</surname>
+							<given-names>DB</given-names>
+						</name>
+					</person-group>
+					<article-title>An observational study to develop a scoring system and model to detect risk of hospital admission due to COVID-19</article-title>
+					<source>JACEP Open</source>
+					<year>2021</year>
+					<volume>2</volume>
+					<issue>2</issue>
+					<elocation-id>e12406</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/emp2.12406">https://doi.org/10.1002/emp2.12406</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Nguyen HM, Turk PJ, McWilliams AD. Forecasting COVID-19 hospital census: a multivariate time-series model based on local infection incidence. JMIR Public Health Surveill. 2021;7(8):e28195. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2196/28195">https://doi.org/10.2196/28195</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Nguyen</surname>
+							<given-names>HM</given-names>
+						</name>
+						<name>
+							<surname>Turk</surname>
+							<given-names>PJ</given-names>
+						</name>
+						<name>
+							<surname>McWilliams</surname>
+							<given-names>AD</given-names>
+						</name>
+					</person-group>
+					<article-title>Forecasting COVID-19 hospital census: a multivariate time-series model based on local infection incidence</article-title>
+					<source>JMIR Public Health Surveill</source>
+					<year>2021</year>
+					<volume>7</volume>
+					<issue>8</issue>
+					<elocation-id>e28195</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2196/28195">https://doi.org/10.2196/28195</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. Hamilton JD. Time series analysis. Princeton, NJ: Princeton University Press; 1994.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hamilton</surname>
+							<given-names>JD</given-names>
+						</name>
+					</person-group>
+					<source>Time series analysis</source>
+					<publisher-loc>Princeton, NJ</publisher-loc>
+					<publisher-name>Princeton University Press</publisher-name>
+					<year>1994</year>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. R Core Team. R: A language and environment for statistical computing. Vienna (AT): R Foundation for Statistical Computing; 2021.</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>R Core Team</collab>
+					</person-group>
+					<source>R: A language and environment for statistical computing</source>
+					<publisher-loc>Vienna (AT)</publisher-loc>
+					<publisher-name>R Foundation for Statistical Computing</publisher-name>
+					<year>2021</year>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. Fuller WA. Introduction to statistical time series. 2. ed. New York: John Wiley and Sons; 1996.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Fuller</surname>
+							<given-names>WA</given-names>
+						</name>
+					</person-group>
+					<source>Introduction to statistical time series</source>
+					<edition>2</edition>
+					<publisher-loc>New York</publisher-loc>
+					<publisher-name>John Wiley and Sons</publisher-name>
+					<year>1996</year>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. Phillips PCB, Ouliaris S. Asymptotic properties of residual based tests for cointegration. Econometrica. 1990;58(1):165-93. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2307/2938339">https://doi.org/10.2307/2938339</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Phillips</surname>
+							<given-names>PCB</given-names>
+						</name>
+						<name>
+							<surname>Ouliaris</surname>
+							<given-names>S</given-names>
+						</name>
+					</person-group>
+					<article-title>Asymptotic properties of residual based tests for cointegration</article-title>
+					<source>Econometrica</source>
+					<year>1990</year>
+					<volume>58</volume>
+					<issue>1</issue>
+					<fpage>165</fpage>
+					<lpage>193</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2307/2938339">https://doi.org/10.2307/2938339</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. Newey WK, West KD. A simple, positive semi-definite, heteroskedasticity and autocorrelation consistent covariance matrix. Econometrica. 1987;55(3):703-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2307/1913610">https://doi.org/10.2307/1913610</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Newey</surname>
+							<given-names>WK</given-names>
+						</name>
+						<name>
+							<surname>West</surname>
+							<given-names>KD</given-names>
+						</name>
+					</person-group>
+					<article-title>A simple, positive semi-definite, heteroskedasticity and autocorrelation consistent covariance matrix</article-title>
+					<source>Econometrica</source>
+					<year>1987</year>
+					<volume>55</volume>
+					<issue>3</issue>
+					<fpage>703</fpage>
+					<lpage>708</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2307/1913610">https://doi.org/10.2307/1913610</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. Sidawi Urbano T, Garau Alemany J. Mortalidad de COVID-19. Tendencias en la evolución de la pandemia. Acad J Health Sci Med Balear. 2021;36(1):42-9.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sidawi Urbano</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Garau Alemany</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<chapter-title>Mortalidad de COVID-19. Tendencias en la evolución de la pandemia</chapter-title>
+					<source>J Health Sci Med Balear</source>
+					<year>2021</year>
+					<volume>36</volume>
+					<issue>1</issue>
+					<fpage>42</fpage>
+					<lpage>49</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. Moline H, Whitaker M, Deng L, Rhodes JC, Milucky J, Pham H, et al. Effectiveness of COVID-19 vaccines in preventing hospitalization among adults aged ≥65 years - COVID-NET, 13 States, February–April 2021. MMWR Morb Mortal Wkly Rep. 2021 Aug 13; 70:1088-93. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.15585/mmwr.mm7032e3">https://doi.org/10.15585/mmwr.mm7032e3</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Moline</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Whitaker</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Deng</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Rhodes</surname>
+							<given-names>JC</given-names>
+						</name>
+						<name>
+							<surname>Milucky</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Pham</surname>
+							<given-names>H</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Effectiveness of COVID-19 vaccines in preventing hospitalization among adults aged ≥65 years - COVID-NET, 13 States, February–April 2021</article-title>
+					<source>MMWR Morb Mortal Wkly Rep</source>
+					<year>2021</year>
+					<month>08</month>
+					<day>13</day>
+					<volume>70</volume>
+					<fpage>1088</fpage>
+					<lpage>1093</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.15585/mmwr.mm7032e3">https://doi.org/10.15585/mmwr.mm7032e3</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. Bajema K, Dahl RM, Prill MM, Meites E, Rodriguez-Barradas MC, Marconi VC, et al. Effectiveness of COVID-19 mRNA vaccines against COVID-19–associated hospitalization -five Veterans Affairs Medical Centers, United States, February 1- August 6, 2021. MMWR Morb Mortal Wkly Rep. 2021;70(37):1294-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.15585/mmwr.mm7037e3">https://doi.org/10.15585/mmwr.mm7037e3</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bajema</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Dahl</surname>
+							<given-names>RM</given-names>
+						</name>
+						<name>
+							<surname>Prill</surname>
+							<given-names>MM</given-names>
+						</name>
+						<name>
+							<surname>Meites</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Rodriguez-Barradas</surname>
+							<given-names>MC</given-names>
+						</name>
+						<name>
+							<surname>Marconi</surname>
+							<given-names>VC</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Effectiveness of COVID-19 mRNA vaccines against COVID-19–associated hospitalization -five Veterans Affairs Medical Centers, United States, February 1- August 6, 2021</article-title>
+					<source>MMWR Morb Mortal Wkly Rep</source>
+					<year>2021</year>
+					<volume>70</volume>
+					<issue>37</issue>
+					<fpage>1294</fpage>
+					<lpage>1299</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.15585/mmwr.mm7037e3">https://doi.org/10.15585/mmwr.mm7037e3</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Ruiz Cantero MT. Las estadísticas sanitarias y la invisibilidad por sexo y de género durante la epidemia de COVID-19. Gac Sanit. 2021;35(1):95-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.gaceta.2020.04.008">https://doi.org/10.1016/j.gaceta.2020.04.008</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ruiz Cantero</surname>
+							<given-names>MT</given-names>
+						</name>
+					</person-group>
+					<article-title>Las estadísticas sanitarias y la invisibilidad por sexo y de género durante la epidemia de COVID-19</article-title>
+					<source>Gac Sanit</source>
+					<year>2021</year>
+					<volume>35</volume>
+					<issue>1</issue>
+					<fpage>95</fpage>
+					<lpage>98</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.gaceta.2020.04.008">https://doi.org/10.1016/j.gaceta.2020.04.008</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="financial-disclosure" id="fn2">
+				<p><bold>Funding:</bold> <italic>Secretaria d’Universitats i Recerca del Departament d’Empresa i Coneixement de la Generalitat de Catalunya</italic> - Project 2020-PANDE-00074. <italic>Ministerio de Ciencia, Innovación y Universidades</italic> - Project PID2019-105986GB-C21.</p>
+			</fn>
+		</fn-group>
+	</back>
+	<sub-article article-type="translation" id="TRes" xml:lang="es">
+		<front-stub>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artículo Original</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Ingresos hospitalarios por covid-19: una herramienta de planificación sanitaria</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-0286-3673</contrib-id>
+					<name>
+						<surname>Santolino</surname>
+						<given-names>Miguel</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1003"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-5028-1926</contrib-id>
+					<name>
+						<surname>Alcañiz</surname>
+						<given-names>Manuela</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1003"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-5982-1538</contrib-id>
+					<name>
+						<surname>Bolancé</surname>
+						<given-names>Catalina</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1003"><sup>I</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1003">
+				<label>I</label>
+				<country country="ES">España</country>
+				<institution content-type="original"> Universitat de Barcelona. Institut de Recerca en Economia Aplicada. Research Group on Risk in Insurance and Finance. Barcelona, España</institution>
+			</aff>
+			<author-notes>
+				<corresp id="c01003"> Correspondencia: Manuela Alcañiz Universitat de Barcelona Diagonal, 690 08034 Barcelona, España E-mail: malcaniz@ub.edu </corresp>
+				<fn fn-type="con">
+					<p><bold>Contribución de los Autores:</bold> Diseño y planificación del estudio: MA, MS. Recopilación, análisis e interpretación de los datos: CB, MS. Redacción o revisión del manuscrito: MA, MS. Aprobación de la versión final: MA, CB, MS. Responsabilidad pública por el contenido del artículo: MA, MS.</p>
+				</fn>
+				<fn fn-type="conflict">
+					<p><bold>Conflicto de Intereses:</bold> Los autores declaran no haber conflicto de intereses.</p>
+				</fn>
+			</author-notes>
+			<abstract>
+				<title>RESUMEN</title>
+				<sec>
+					<title>OBJETIVO</title>
+					<p> Predecir el número futuro de hospitalizaciones por covid-19 a partir del número de casos positivos diagnosticados.</p>
+				</sec>
+				<sec>
+					<title>MÉTODO</title>
+					<p> Usando datos del Panel covid-19 registrados en España en la Red Nacional de Vigilancia Epidemiológica (Renave), se ajusta un modelo de regresión con estructura multiplicativa para explicar y predecir el número de hospitalizaciones a partir de la serie retardada de casos positivos diagnosticados durante el periodo entre el 11 de mayo de 2020 y el 20 de septiembre de 2021. Se analiza el efecto sobre el número de hospitalizaciones del tiempo transcurrido desde el inicio del programa de vacunación.</p>
+				</sec>
+				<sec>
+					<title>RESULTADOS</title>
+					<p> El número de retardos de la serie de casos positivos que mayor capacidad explicativa tiene sobre el número de hospitalizaciones es de nueve días. La variabilidad del número de hospitalizaciones explicada por el modelo es elevada (R<sup>2</sup> ajustado: 96,6%). Antes del inicio del programa de vacunación, el número esperado de ingresos hospitalarios en el día <italic>t</italic> era igual al 20,2% de los casos positivos del día <italic>t</italic>-9 elevado a 0,906. Iniciado el programa de vacunación, este porcentaje se redujo un 0,3% diario. Con el mismo modelo se obtiene que en la primera ola de la pandemia el número de casos positivos fue más de seis veces el que figura en los registros oficiales.</p>
+				</sec>
+				<sec>
+					<title>CONCLUSIONES</title>
+					<p> Partiendo de los casos de covid-19 detectados hasta una fecha, el modelo propuesto permite estimar el número de hospitalizaciones con nueve días de antelación. Ello lo convierte en una herramienta útil para prever con cierta anticipación la presión hospitalaria que el sistema sanitario tendrá que soportar como consecuencia de la enfermedad.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="es">
+				<kwd>COVID-19, complicaciones</kwd>
+				<kwd>Hospitalización</kwd>
+				<kwd>Tiempo de Internación</kwd>
+				<kwd>Servicio de Admisión en Hospital</kwd>
+				<kwd>Inmunización</kwd>
+				<kwd>Análisis de Regresión</kwd>
+			</kwd-group>
+		</front-stub>
+		<body>
+			<sec sec-type="intro">
+				<title>INTRODUCCIÓN</title>
+				<p>La enfermedad conocida como covid-19, causada por el virus SARS-CoV-2, fue declarada como pandemia global por la Organización Mundial de la Salud en marzo de 2020 originando un reto sociosanitario sin precedentes<sup><xref ref-type="bibr" rid="B1">1</xref></sup>. Las diferentes olas de la pandemia han puesto en tensión al sistema hospitalario, que debe atender a la nueva demanda generada y, al mismo tiempo, mantener la asistencia a los pacientes con procesos derivados de otras patologías<sup><xref ref-type="bibr" rid="B2">2</xref></sup>.</p>
+				<p>Diferentes artículos se han centrado en modelizar la evolución del número de nuevos infectados por coronavirus, ayudando a entender la relación entre los casos diagnosticados y las hospitalizaciones<sup><xref ref-type="bibr" rid="B3">3</xref></sup>. Algunos trabajos analizan la probabilidad de ingreso hospitalario del paciente según factores de riesgo como la variante de SARS-CoV-2, la edad, el sexo o enfermedades preexistentes<sup><xref ref-type="bibr" rid="B6">6</xref></sup>. Sin embargo, son escasos los estudios que tratan de predecir el número futuro de ingresos hospitalarios en función del número de casos detectados de recién infectados y del tiempo que transcurre entre la infección y el ingreso hospitalario.</p>
+				<p>Nguyen et al.<sup><xref ref-type="bibr" rid="B8">8</xref></sup> aplican un modelo para analizar la asociación multivariante a corto plazo entre el número de camas ocupadas en los hospitales y la incidencia local de infecciones por SARS-CoV-2 en el área metropolitana de Charlotte, Estados Unidos. López-Izquierdo et al.<sup><xref ref-type="bibr" rid="B2">2</xref></sup>analizan la asociación entre el porcentaje de individuos con una PCR positiva y el número de ingresos hospitalarios por una infección por SARS-CoV-2 mediante el modelo de regresión de Poisson. Se centran en el análisis del riesgo relativo del número de ingresos diario para cada aumento de un 1% o 5% diario de las PCR positivas nuevas registradas en los diez días anteriores (retardos de 0 a 10 días).</p>
+				<p>Ante esto, este trabajo se propone estimar el número futuro de hospitalizaciones diarias por covid-19 en base al número de casos positivos detectados. A diferencia de López-Izquierdo et al.<sup><xref ref-type="bibr" rid="B2">2</xref></sup>, proponemos un modelo simple que relacione el retardo en el número de casos positivos con mayor capacidad explicativa y el número de hospitalizaciones. De este modo, se dispone de una herramienta que ayude en la planificación hospitalaria.</p>
+				<p>Para ello, se utiliza un modelo de regresión con estructura multiplicativa. Concretamente, se analiza el impacto del número de casos positivos sobre las hospitalizaciones durante los 20 días siguientes al inicio de los síntomas, ya que la mayor parte de los ingresos hospitalarios se producen en los primeros 14 días desde la confirmación del covid-19 en laboratorio<sup><xref ref-type="bibr" rid="B6">6</xref></sup>. Se selecciona el retardo que muestra una mayor capacidad explicativa y predictiva para la construcción del modelo, y se analiza el efecto sobre el número esperado de hospitalizaciones del tiempo transcurrido desde el inicio del programa de vacunación, el 27 de diciembre de 2020. Por último, se evalúa la capacidad del modelo propuesto en pronosticar el número de hospitalizaciones en la quinta ola de la pandemia. El modelo seleccionado nos permite aproximar el número de casos positivos en la primera ola de la pandemia, cuando la capacidad diagnóstica de positivos era reducida, a partir de los casos hospitalizados por covid-19 durante ese periodo.</p>
+			</sec>
+			<sec sec-type="methods">
+				<title>MÉTODOS</title>
+				<sec>
+					<title>Datos</title>
+					<p>Los datos utilizados en este estudio proceden del Panel covid-19 que se construye a partir de la declaración de los casos positivos registrados en España a la Red Nacional de Vigilancia Epidemiológica (Renave) por la plataforma SiViEs (Sistema de Vigilancia de España), que gestiona el Centro Nacional de Epidemiología. En concreto se utilizan dos bases de datos. El número de casos positivos se obtiene a partir de la base de datos que recoge el número de casos detectados por técnica diagnóstica y Comunidad Autónoma de residencia (fichero <italic>casos_tecnica_ccaa.csv</italic>). A su vez, el número de hospitalizaciones se extrae de la base de datos que contiene también el número de ingresos en unidades de cuidados intensivos y el número de defunciones por sexo, edad y provincia de residencia (fichero <italic>casos_hosp_uci_def_sexo_edad_provres.csv</italic>).</p>
+				</sec>
+				<sec>
+					<title>Periodo Temporal</title>
+					<p>El periodo temporal de las series cubre desde el 1 de enero de 2020 hasta el 20 de septiembre de 2021 (último dato disponible). Es preciso tener en cuenta que el 10 de mayo de 2020 se produjo un cambio de criterio en el cómputo de casos positivos y en el registro de la fecha de inicio. Hasta esa fecha, la serie incluía casos detectados por una prueba diagnóstica positiva de infección activa, así como todos aquellos casos hospitalizados, ingresados en unidades de cuidados intensivos y defunciones; a partir del 11 de mayo se incluyeron casos confirmados por PCR o por pruebas de antígeno. Por otro lado, la fecha de imputación de los casos positivos para los pacientes con síntomas se consignó como la fecha en que estos se iniciaron o, en su defecto, la fecha de diagnóstico menos seis días (si el registro se hizo hasta el 10 de mayo de 2020) o menos tres días (a partir del 11 de mayo); para los asintomáticos, la fecha de imputación coincide siempre con la fecha de diagnóstico. Debido a este cambio de criterio en el cómputo de casos positivos detectados, se decidió excluir del análisis el periodo anterior al 10 de mayo de 2020. Así, el periodo seleccionado en este estudio abarca desde el 11 de mayo de 2020 hasta el 20 de septiembre de 2021.</p>
+				</sec>
+				<sec>
+					<title>Modelo</title>
+					<p>Para modelizar la relación entre el número de casos positivos por covid-19 y el número de hospitalizaciones por la misma enfermedad, se propone el modelo de regresión de estructura multiplicativa <inline-formula>
+							<mml:math>
+								<mml:msub>
+									<mml:mi>y</mml:mi>
+									<mml:mi>t</mml:mi>
+								</mml:msub>
+								<mml:mo>
+								</mml:mo>
+								<mml:mo>=</mml:mo>
+								<mml:mo>
+								</mml:mo>
+								<mml:mo>
+								</mml:mo>
+								<mml:msup>
+									<mml:mi>e</mml:mi>
+									<mml:mrow>
+										<mml:msub>
+											<mml:mi>β</mml:mi>
+											<mml:mn>1</mml:mn>
+										</mml:msub>
+										<mml:mo>
+										</mml:mo>
+										<mml:mo>·</mml:mo>
+										<mml:mo>
+										</mml:mo>
+										<mml:mi>e</mml:mi>
+										<mml:msub>
+											<mml:mi>β</mml:mi>
+											<mml:mn>2</mml:mn>
+										</mml:msub>
+										<mml:mo>
+										</mml:mo>
+										<mml:mo>·</mml:mo>
+										<mml:mo>
+										</mml:mo>
+										<mml:mi>d</mml:mi>
+										<mml:mi>í</mml:mi>
+										<mml:mi>a</mml:mi>
+										<mml:mi>s</mml:mi>
+										<mml:mi>_</mml:mi>
+										<mml:mi>v</mml:mi>
+										<mml:mi>a</mml:mi>
+										<mml:msub>
+											<mml:mi>c</mml:mi>
+											<mml:mrow>
+												<mml:mi>t</mml:mi>
+												<mml:mo>-</mml:mo>
+												<mml:mi>n</mml:mi>
+											</mml:mrow>
+										</mml:msub>
+									</mml:mrow>
+								</mml:msup>
+								<mml:mo>
+								</mml:mo>
+								<mml:mo>·</mml:mo>
+								<mml:mo>
+								</mml:mo>
+								<mml:msup>
+									<mml:msub>
+										<mml:mi>χ</mml:mi>
+										<mml:mrow>
+											<mml:mi>t</mml:mi>
+											<mml:mo>-</mml:mo>
+											<mml:mi>n</mml:mi>
+										</mml:mrow>
+									</mml:msub>
+									<mml:msub>
+										<mml:mi>β</mml:mi>
+										<mml:mn>3</mml:mn>
+									</mml:msub>
+								</mml:msup>
+								<mml:mo>
+								</mml:mo>
+								<mml:mo>·</mml:mo>
+								<mml:mo>
+								</mml:mo>
+								<mml:msup>
+									<mml:mi>e</mml:mi>
+									<mml:msub>
+										<mml:mi>β</mml:mi>
+										<mml:mi>t</mml:mi>
+									</mml:msub>
+								</mml:msup>
+							</mml:math>
+						</inline-formula>, siendo y<sub>t</sub> el número de hospitalizaciones en el momento <italic>t</italic> (<italic>t</italic>=1,…,<italic>T</italic>, con <italic>T</italic> igual al número total de observaciones en la serie, es decir, 489 días), <italic>x</italic><sub><italic>t</italic>–<italic>n</italic></sub> el número de casos positivos en el momento <italic>t-n</italic>, donde <italic>n</italic> es el número de retardos (<italic>n</italic>=0,1,2,…,<italic>t-1</italic>), y <italic>ε</italic><sub><italic>t</italic></sub> el término de error que se distribuye según una normal con esperanza nula y desviación típica <italic>σ.</italic> La expresión <italic>días</italic>_<italic>vac</italic><sub><italic>t</italic>–<italic>n</italic></sub> recoge el número de días transcurridos entre el momento <italic>t-n</italic> y el día en que se inició el periodo de vacunación, el 27 de diciembre de 2020, tomando valor cero si el momento <italic>t-n</italic> se sitúa antes de esta fecha. Los parámetros a estimar son <italic>β</italic><sub>1</sub>, <italic>β</italic><sub>2</sub> y <italic>β</italic><sub>3</sub>. La estructura multiplicativa es ampliamente utilizada para estudiar la relación a largo plazo entre series temporales, ya que, aplicando logaritmos a ambos lados de la expresión, se obtiene la siguiente relación lineal entre el número de positivos y el número de hospitalizaciones:</p>
+					<disp-formula id="e1003">
+						<mml:math>
+							<mml:mi>l</mml:mi>
+							<mml:mi>o</mml:mi>
+							<mml:mi>g</mml:mi>
+							<mml:mo>(</mml:mo>
+							<mml:msub>
+								<mml:mi>y</mml:mi>
+								<mml:mi>t</mml:mi>
+							</mml:msub>
+							<mml:mo>)</mml:mo>
+							<mml:mo>=</mml:mo>
+							<mml:msub>
+								<mml:mi>β</mml:mi>
+								<mml:mn>1</mml:mn>
+							</mml:msub>
+							<mml:mo>+</mml:mo>
+							<mml:mo>
+							</mml:mo>
+							<mml:msub>
+								<mml:mi>β</mml:mi>
+								<mml:mn>2</mml:mn>
+							</mml:msub>
+							<mml:mo>
+							</mml:mo>
+							<mml:mi>d</mml:mi>
+							<mml:mi>í</mml:mi>
+							<mml:mi>a</mml:mi>
+							<mml:mi>s</mml:mi>
+							<mml:mi>_</mml:mi>
+							<mml:mi>v</mml:mi>
+							<mml:mi>a</mml:mi>
+							<mml:msub>
+								<mml:mi>c</mml:mi>
+								<mml:mrow>
+									<mml:mi>t</mml:mi>
+									<mml:mo>-</mml:mo>
+									<mml:mi>n</mml:mi>
+								</mml:mrow>
+							</mml:msub>
+							<mml:mo>+</mml:mo>
+							<mml:mo>
+							</mml:mo>
+							<mml:msub>
+								<mml:mi>β</mml:mi>
+								<mml:mn>3</mml:mn>
+							</mml:msub>
+							<mml:mo>
+							</mml:mo>
+							<mml:mi>l</mml:mi>
+							<mml:mi>o</mml:mi>
+							<mml:mi>g</mml:mi>
+							<mml:mo>(</mml:mo>
+							<mml:msub>
+								<mml:mi>x</mml:mi>
+								<mml:mrow>
+									<mml:mi>t</mml:mi>
+									<mml:mo>-</mml:mo>
+									<mml:mi>n</mml:mi>
+								</mml:mrow>
+							</mml:msub>
+							<mml:mo>)</mml:mo>
+							<mml:mo>+</mml:mo>
+							<mml:msub>
+								<mml:mi>ε</mml:mi>
+								<mml:mi>t</mml:mi>
+							</mml:msub>
+						</mml:math>
+					</disp-formula>
+					<p>cuyos parámetros pueden ser estimados por mínimos cuadrados ordinarios.</p>
+					<p>El análisis se realiza a partir de metodología econométrica para el tratamiento de series temporales<sup><xref ref-type="bibr" rid="B9">9</xref></sup>. Primero, se investiga si existe en las series componente estacional asociada al día de la semana (variaciones regulares). Se considera el modelo multiplicativo para la corrección de la componente estacional, es decir, se asume que una serie se puede representar como el producto de tres componentes que reflejan la tendencia, la estacionalidad y el error. La corrección de la componente estacional se lleva a cabo dividiendo los valores observados entre los factores asociados a la estacionalidad. Posteriormente, se realizan las pruebas de raíces unitarias de las series y de cointegración para determinar el número de retardos que considerar en el modelo (1). Finalmente, se estima el modelo de regresión con el estimador de la matriz de varianzas y covarianzas consistente con heterocedasticidad y autocorrelación de los residuos.</p>
+				</sec>
+			</sec>
+			<sec sec-type="results">
+				<title>RESULTADOS</title>
+				<p>Todos los cálculos se realizan en R 4.1.1.<sup><xref ref-type="bibr" rid="B10">10</xref></sup> En un primer análisis descriptivo de los datos se detecta que el número medio de casos positivos y hospitalizaciones difiere según el día de la semana. Concretamente, se aprecia una componente estacional en la que los sábados y domingos registran de forma sistemática valores más bajos que el resto de los días para ambas series. Los coeficientes de estacionalidad estimados para cada día de la semana son: Lu: 1,097; Ma: 1,134; Mi: 1,083; Ju: 1,025; Vi: 1,081; Sa: 0,841; Do: 0,738, para casos positivos; y Lu: 1,118; Ma: 1,069; Mi: 1,055; Ju: 1,050; Vi: 1,087; Sa: 0,832; Do: 0,789, para el número de hospitalizaciones. La componente estacional se corrige dividiendo los valores observados de las series entre estos coeficientes estacionales, según el día de la semana.</p>
+				<p>Una vez corregida la componente estacional, se procede a la selección del número de retardos en el número de casos positivos. En la <xref ref-type="fig" rid="f01003">Figura 1</xref> se muestran las series temporales del número de casos positivos (en decenas) y el número de hospitalizaciones para el periodo analizado. El comportamiento de las dos series es similar, si bien se aprecia cierto retardo en el número de positivos respecto al número de hospitalizaciones (translación). Se analiza la estacionariedad de las series mediante la prueba de Dickey-Fuller aumentada (DFA) de raíz unitaria<sup><xref ref-type="bibr" rid="B11">11</xref></sup>. Con un nivel de significación del 5% se rechaza la hipótesis nula de no estacionariedad de las series para el número de casos positivos (DFA = - 4,54; p = 0,01) y para el número de hospitalizaciones (DFA = -3,56; p = 0,03). En cambio, en escala logarítmica no se rechaza la hipótesis nula de no estacionariedad para positivos ni hospitalizaciones (DFA = -2,23; p = 0,48) ; (DFA = -1,46; p = 0,81) , respectivamente.</p>
+				<p>
+					<fig id="f01003">
+						<label>Figura 1</label>
+						<caption>
+							<title>Series diarias del número de positivos diagnosticados y del número de hospitalizaciones.</title>
+						</caption>
+						<graphic xlink:href="1518-8787-rsp-56-51-gf01-es.tif"/>
+					</fig>
+				</p>
+				<p>Puesto que las series no son estacionarias en escala logarítmica se requiere que estén cointegradas para poder ajustar la regresión lineal (1) y garantizar que los resultados obtenidos no sean espurios<sup><xref ref-type="bibr" rid="B9">9</xref></sup>. Se realiza el contraste de cointegración de las series en escala logarítmica mediante la prueba de cointegración de Phillips-Ouliaris (PO) que se basa en realizar la prueba de raíz unitaria de los residuos de la regresión de cointegración<sup><xref ref-type="bibr" rid="B12">12</xref></sup>. Se analiza la cointegración de las series en escala logarítmica para los veinte primeros retardos de la serie de casos positivos. Entre las series retardadas de positivos cointegradas con el número de hospitalizaciones, se selecciona aquella que muestra una mayor capacidad explicativa en el modelo (1) según las medidas de bondad del ajuste. A partir de los resultados obtenidos, se seleccionan 9 retardos en el número de casos positivos (PO = -116,41; p &lt; 0,01). La <xref ref-type="fig" rid="f02003">Figura 2</xref> detalla las series del número de hospitalizaciones y el número de positivos con 9 retardos en escala original (izquierda) y en escala logarítmica (derecha).</p>
+				<p>
+					<fig id="f02003">
+						<label>Figura 2</label>
+						<caption>
+							<title>Series del número de casos positivos con 9 retardos y del número de hospitalizaciones (escala original y escala logarítmica).</title>
+						</caption>
+						<graphic xlink:href="1518-8787-rsp-56-51-gf02-es.tif"/>
+					</fig>
+				</p>
+				<p>En la ecuación (1) se asume que el término de error es homocedástico (varianza constante) y no correlacionado con los retardos. Cuando estos supuestos se violan, el estimador por mínimos cuadrados de la matriz de varianzas y covarianzas es no consistente. En este estudio se calcula el estimador consistente con heterocedasticidad y autocorrelación (HAC, según sus siglas en inglés) de la matriz de varianzas y covarianzas<sup><xref ref-type="bibr" rid="B13">13</xref></sup>. La <xref ref-type="table" rid="t1003">Tabla</xref> presenta los resultados del ajuste del modelo de regresión con los errores de estimación consistentes con heterocedasticidad y autocorrelación.</p>
+				<p>
+					<table-wrap id="t1003">
+						<label>Tabla</label>
+						<caption>
+							<title>Ajuste del modelo de regresión propuesto.</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left">Variable</th>
+									<th>Coeficiente</th>
+									<th>Error estándar</th>
+									<th>p</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Constante</td>
+									<td align="center">-1,601</td>
+									<td align="center">0,2029</td>
+									<td align="center">&lt; 0,001</td>
+								</tr>
+								<tr>
+									<td>días_vac (9 retardos)</td>
+									<td align="center">-0,003</td>
+									<td align="center">0,0003</td>
+									<td align="center">&lt; 0,001</td>
+								</tr>
+								<tr>
+									<td>log_pos (9 retardos)</td>
+									<td align="center">0,906</td>
+									<td align="center">0,0223</td>
+									<td align="center">&lt; 0,001</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN1003">
+								<p>días_vac: días desde el inicio del programa de vacunación; log_pos: número de casos positivos diagnosticados (en logaritmo).</p>
+							</fn>
+							<fn id="TFN2003">
+								<p>Número de observaciones = 489.</p>
+							</fn>
+							<fn id="TFN3003">
+								<p>Coeficiente de determinación ajustado (R<sup>2</sup>) = 0,9646.</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p>El coeficiente de determinación ajustado es del 96,46%, por lo que se puede concluir que la capacidad explicativa del modelo es muy alta. Los coeficientes asociados al número de casos positivos y número de días transcurridos desde el inicio de la vacunación son significativos al 1%, con valor del estadístico t = 40,70 (p &lt; 0,01) y t = -11,35 (p &lt; 0,01), respectivamente. El signo positivo del coeficiente asociado al número de casos positivos indica que el número esperado de hospitalizaciones aumenta con el número de casos positivos. Del mismo modo, el signo negativo del coeficiente asociado al número de días transcurridos desde el inicio de la vacunación refleja que el número de ingresos hospitalarios se reduce a medida que aumenta el tiempo desde que se inició el periodo de vacunación. La normalidad de los residuos no se rechaza al 5% con la prueba de Shapiro-Wilk (W = 0,998; p = 0,90). Con un nivel de significación del 10% se rechaza la hipótesis nula de no estacionariedad de los residuos (DFA = -3,34; p = 0,06).</p>
+				<p>Los coeficientes estimados del modelo (1) se organizan de la siguiente forma:</p>
+				<disp-formula id="e2003">
+					<mml:math>
+						<mml:mover>
+							<mml:msub>
+								<mml:mi>y</mml:mi>
+								<mml:mi>t</mml:mi>
+							</mml:msub>
+							<mml:mo>^</mml:mo>
+						</mml:mover>
+						<mml:mo>=</mml:mo>
+						<mml:msup>
+							<mml:mi>e</mml:mi>
+							<mml:mrow>
+								<mml:mo>-</mml:mo>
+								<mml:mn>1</mml:mn>
+								<mml:mo>,</mml:mo>
+								<mml:mn>601</mml:mn>
+							</mml:mrow>
+						</mml:msup>
+						<mml:mo>·</mml:mo>
+						<mml:msup>
+							<mml:mfenced>
+								<mml:msup>
+									<mml:mi>e</mml:mi>
+									<mml:mrow>
+										<mml:mo>-</mml:mo>
+										<mml:mn>0</mml:mn>
+										<mml:mo>,</mml:mo>
+										<mml:mn>003</mml:mn>
+									</mml:mrow>
+								</mml:msup>
+							</mml:mfenced>
+							<mml:mrow>
+								<mml:mi>d</mml:mi>
+								<mml:mi>í</mml:mi>
+								<mml:mi>a</mml:mi>
+								<mml:mi>s</mml:mi>
+								<mml:mi>_</mml:mi>
+								<mml:mi>v</mml:mi>
+								<mml:mi>a</mml:mi>
+								<mml:msub>
+									<mml:mi>c</mml:mi>
+									<mml:mrow>
+										<mml:mi>t</mml:mi>
+										<mml:mo>-</mml:mo>
+										<mml:mi>n</mml:mi>
+									</mml:mrow>
+								</mml:msub>
+							</mml:mrow>
+						</mml:msup>
+						<mml:mo>·</mml:mo>
+						<mml:msup>
+							<mml:msub>
+								<mml:mi>χ</mml:mi>
+								<mml:mrow>
+									<mml:mi>t</mml:mi>
+									<mml:mo>-</mml:mo>
+									<mml:mi>n</mml:mi>
+								</mml:mrow>
+							</mml:msub>
+							<mml:mrow>
+								<mml:mn>0</mml:mn>
+								<mml:mo>,</mml:mo>
+								<mml:mn>906</mml:mn>
+							</mml:mrow>
+						</mml:msup>
+						<mml:mspace linebreak="newline"/>
+						<mml:mo>=</mml:mo>
+						<mml:mn>0</mml:mn>
+						<mml:mo>.</mml:mo>
+						<mml:mn>202</mml:mn>
+						<mml:mo>
+						</mml:mo>
+						<mml:mo>·</mml:mo>
+						<mml:mo>
+						</mml:mo>
+						<mml:msup>
+							<mml:mfenced>
+								<mml:mrow>
+									<mml:mn>0</mml:mn>
+									<mml:mo>,</mml:mo>
+									<mml:mn>997</mml:mn>
+								</mml:mrow>
+							</mml:mfenced>
+							<mml:mrow>
+								<mml:mi>d</mml:mi>
+								<mml:mi>í</mml:mi>
+								<mml:mi>a</mml:mi>
+								<mml:mi>s</mml:mi>
+								<mml:mi>_</mml:mi>
+								<mml:mi>v</mml:mi>
+								<mml:mi>a</mml:mi>
+								<mml:msub>
+									<mml:mi>c</mml:mi>
+									<mml:mrow>
+										<mml:mi>t</mml:mi>
+										<mml:mo>-</mml:mo>
+										<mml:mi>n</mml:mi>
+									</mml:mrow>
+								</mml:msub>
+							</mml:mrow>
+						</mml:msup>
+						<mml:mo>·</mml:mo>
+						<mml:msup>
+							<mml:msub>
+								<mml:mi>χ</mml:mi>
+								<mml:mrow>
+									<mml:mi>t</mml:mi>
+									<mml:mo>-</mml:mo>
+									<mml:mi>n</mml:mi>
+								</mml:mrow>
+							</mml:msub>
+							<mml:mrow>
+								<mml:mn>0</mml:mn>
+								<mml:mo>,</mml:mo>
+								<mml:mn>906</mml:mn>
+							</mml:mrow>
+						</mml:msup>
+					</mml:math>
+				</disp-formula>
+				<p>Esto nos permite concluir que, antes del inicio del programa de vacunación, el número esperado de hospitalizaciones en el día <italic>t</italic> es el 20,2% de los casos positivos del día <italic>t</italic>-9 elevado a 0,906. Después del inicio del programa de vacunación, el porcentaje del 20,2% se reduce a una tasa del 0,3% diario.</p>
+				<sec>
+					<title>Predicción del Número de Casos Positivos y Hospitalizaciones</title>
+					<p>Se dispone de información del número de hospitalizaciones entre el 1 de enero de 2020 y el 10 de mayo de 2020. En el cómputo del número de hospitalizaciones no hubo un cambio de criterio al final de dicho periodo, como sí sucedió con el modo de computar los casos positivos. Con los coeficientes mostrados en la <xref ref-type="table" rid="t1003">Tabla</xref>, se calcula el número de casos positivos para el periodo entre el 1 de enero de 2020 y el 10 de mayo de 2020 que habría pronosticado el número de hospitalizaciones que observamos en ese periodo. En la <xref ref-type="fig" rid="f03003">Figura 3</xref> se compara este número calculado de casos positivos con el número de casos positivos realmente registrados.</p>
+					<p>
+						<fig id="f03003">
+							<label>Figura 3</label>
+							<caption>
+								<title>Comparación entre el número de casos positivos observados y pronosticados en función del número de hospitalizacionesa.</title>
+							</caption>
+							<graphic xlink:href="1518-8787-rsp-56-51-gf03-es.tif"/>
+							<attrib><sup>a</sup> Los datos utilizados para el ajuste del modelo se sitúan entre el 11 de mayo de 2020 y el 20 de septiembre del 2021. El número de casos positivos pronosticados entre el 1 de enero de 2020 y el 10 de mayo de 2020 (primera ola de la pandemia) se calculan en base a las hospitalizaciones observadas en ese periodo, asumiendo la validez del modelo estimado para el periodo posterior.</attrib>
+						</fig>
+					</p>
+					<p>En la primera ola de la pandemia, el número de casos positivos diarios que pronosticarían el número de hospitalizaciones observadas es muy superior al mostrado en los registros oficiales. El número máximo de casos positivos entre el 1 de enero de 2020 y el 10 de mayo de 2020 sería de 69.602 personas al día, muy por encima del máximo registrado de 10.743 personas diagnosticadas positivas. En más del 25% de los días en este periodo el número computado de casos positivos supera el valor máximo registrado.</p>
+					<p>Por último, se analiza la capacidad de predicción del modelo en la quinta ola de la pandemia. Se selecciona la quinta ola para evaluar la capacidad de predicción del modelo con el fin de disponer de un número elevado de observaciones en la calibración del modelo. Se ajusta nuevamente el modelo (1) para el periodo temporal entre el 11 de mayo de 2020 y el 24 de junio de 2021. Una vez estimado el modelo, se realiza la predicción del número de hospitalizaciones entre el 25 de junio de 2021 y el 20 de setiembre de 2021 (predicción fuera de la muestra). En la <xref ref-type="fig" rid="f04003">Figura 4</xref> se muestra la predicción del número de casos hospitalizados y se compara con el número observado. Como se puede apreciar, el modelo predice de forma satisfactoria el número de hospitalizaciones para dicho periodo.</p>
+					<p>
+						<fig id="f04003">
+							<label>Figura 4</label>
+							<caption>
+								<title>Comparación entre el número real de hospitalizaciones y la predicción realizada por el modelo en función de los casos positivos observadosa.</title>
+							</caption>
+							<graphic xlink:href="1518-8787-rsp-56-51-gf04-es.tif"/>
+							<attrib><sup>a</sup> Los datos utilizados para el ajuste del modelo se sitúan entre el 11 de mayo de 2020 y el 24 de junio de 2021. Las predicciones en el número de hospitalizaciones realizadas entre el 25 de junio de 2021 y el 20 setiembre de 2021 (quinta ola de la pandemia) se realizan para un conjunto de datos fuera de la muestra.</attrib>
+						</fig>
+					</p>
+				</sec>
+			</sec>
+			<sec sec-type="discussion">
+				<title>DISCUSIÓN</title>
+				<p>Se propone un modo sencillo de modelizar la relación entre el número de casos positivos detectados y el número de hospitalizaciones por covid-19. El modelo muestra un buen ajuste a los datos, por lo que se puede concluir que existe una relación multiplicativa entre el número de casos diagnosticados y el número de ingresos hospitalarios (aditiva entre las transformaciones logarítmicas). Otros trabajos han considerado la relación exponencial entre el número de hospitalizaciones y el porcentaje de positivos por PCR<sup><xref ref-type="bibr" rid="B2">2</xref></sup>.</p>
+				<p>En la primera ola de la pandemia hubo una baja capacidad diagnóstica al estar muy restringidas las pruebas<sup><xref ref-type="bibr" rid="B14">14</xref></sup>. Durante ese periodo, los registros oficiales contabilizaron probablemente mejor los ingresos hospitalarios por covid-19 que el número de contagios. El modelo propuesto permite aproximar el número real de casos positivos en la primera ola a partir de los casos hospitalizados por covid-19 que constan en los registros oficiales. Los resultados sugieren que los casos positivos en la primera ola están fuertemente infracontabilizados en dichos registros. Es necesario señalar que los casos positivos en la primera ola que se computan en este artículo son los que se habrían detectado si se hubiera dispuesto de la misma capacidad diagnóstica que a partir del 11 mayo de 2020. Es decir, la proporción de contagios que siguieron sin detectarse a partir del 11 de mayo no estaría recogida en esta estimación<sup><xref ref-type="bibr" rid="B3">3</xref></sup>.</p>
+				<p>Las diferentes olas de la pandemia generan una importante presión hospitalaria<sup><xref ref-type="bibr" rid="B5">5</xref></sup>, que es preciso gestionar con los recursos disponibles. El modelo propuesto permite usar el número de casos positivos conocidos hasta una fecha para estimar el número de ingresos hospitalarios por infección con SARS-CoV-2 con hasta nueve días de antelación. La capacidad explicativa y el comportamiento predictivo del modelo en ese lapso de tiempo son muy satisfactorios. Ello lo convierte en una herramienta útil para la toma de decisiones sobre gestión hospitalaria. López-Izquierdo et al.<sup><xref ref-type="bibr" rid="B2">2</xref></sup> indican que el segundo y sexto retardos del porcentaje de positivos confirmados por PCR son los que muestran una mayor asociación con el número de ingresos hospitalarios. Estos resultados estarían en línea con este estudio, en el que se concluye que el retardo noveno (diferencia de nueve días entre la aparición de los síntomas y la hospitalización) es el que muestra mejor capacidad explicativa del número de positivos, seguido del retardo cuarto (cuatro días de diferencia).</p>
+				<p>La vacunación contra el covid-19 reduce drásticamente el riesgo de hospitalización<sup><xref ref-type="bibr" rid="B15">15</xref>,<xref ref-type="bibr" rid="B16">16</xref></sup>. En el modelo propuesto se incluye una variable que contabiliza el número de días transcurridos desde el inicio del periodo de vacunación en España. Los resultados indican que el número de ingresos hospitalarios en relación al número de casos positivos se reduce a medida que aumenta el tiempo desde que se inició el programa de vacunación. Se analizó el efecto del tiempo desde el inicio de la pandemia hasta el inicio del periodo de vacunación, y el coeficiente asociado al tiempo transcurrido en este intervalo no mostró relación con el número de hospitalizaciones. Sin embargo, a partir del 27 de diciembre de 2020, el número de hospitalizaciones decae a medida que aumenta el tiempo transcurrido desde esa fecha. Antes de esta fecha no parece producirse una reducción en el porcentaje de hospitalizaciones en relación al número de positivos diagnosticados, lo que podría significar que la gravedad de los efectos del virus se mantuvo constante hasta la aparición de la vacuna.</p>
+				<p>Este trabajo no está exento de limitaciones. Por ejemplo, el modelo propuesto no incluye información sobre el sexo de los individuos, aunque algunos estudios sugieren que ser hombre es un factor de riesgo para el ingreso hospitalario por covid-19<sup><xref ref-type="bibr" rid="B17">17</xref></sup>. Desafortunadamente, no se dispone de esta información en las bases de datos utilizadas. Por otro lado, este trabajo se realiza para el conjunto de España. Si bien la campaña de vacunación empezó en todo el país el día 27 de diciembre de 2020, no todas las Comunidades Autónomas siguieron la misma estrategia de vacunación ni registraron su progreso del mismo modo; ello pudo dar lugar a diferencias que no son visibles en este análisis.</p>
+				<p>La metodología propuesta en este artículo puede servir de referencia para estudiar la relación entre casos diagnosticados e ingresos hospitalarios en otras patologías susceptibles de requerir hospitalización, especialmente en epidemias que cursan con olas de contagios. A partir de los casos detectados en atención primaria, se podría aproximar el número de pacientes que requerirán estancia hospitalaria, así como el retardo esperado entre el diagnóstico y la necesidad de ingresar al paciente. Cabe señalar que este estudio resalta la importancia de disponer de información fiable, homogénea y actualizada para la realización de predicciones del comportamiento de indicadores de gran interés en salud pública.</p>
+			</sec>
+		</body>
+		<back>
+			<fn-group>
+				<fn fn-type="financial-disclosure" id="fn2003">
+					<p><bold>Financiamiento:</bold> Secretaria d’Universitats i Recerca del Departament d’Empresa i Coneixement de la Generalitat de Catalunya - Proyecto 2020-PANDE-00074. Ministerio de Ciencia, Innovación y Universidades - Proyecto PID2019-105986GB-C21.</p>
+				</fn>
+			</fn-group>
+		</back>
+	</sub-article>
+</article>

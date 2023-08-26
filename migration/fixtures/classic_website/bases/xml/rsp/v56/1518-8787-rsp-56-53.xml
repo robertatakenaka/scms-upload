@@ -1,0 +1,2259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.1" specific-use="sps-1.9" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="nlm-ta">Rev Saude Publica</journal-id>
+			<journal-id journal-id-type="publisher-id">rsp</journal-id>
+			<journal-title-group>
+				<journal-title>Revista de Saúde Pública</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Rev. Saúde Pública</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="ppub">0034-8910</issn>
+			<issn pub-type="epub">1518-8787</issn>
+			<publisher>
+				<publisher-name>Faculdade de Saúde Pública da Universidade de São Paulo</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="other">00244</article-id>
+			<article-id pub-id-type="doi">10.11606/s1518-8787.2022056004020</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Original Article</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Performance evaluation of tuberculosis control in Brazilian municipalities</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-4314-5894</contrib-id>
+					<name>
+						<surname>Pinto</surname>
+						<given-names>Priscila Fernanda Porto Scaff</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-7598-4302</contrib-id>
+					<name>
+						<surname>Santos</surname>
+						<given-names>Beatriz Pinheiro Schindler dos</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-6340-7957</contrib-id>
+					<name>
+						<surname>Teixeira</surname>
+						<given-names>Camila Silveira Silva</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-1576-6418</contrib-id>
+					<name>
+						<surname>Nery</surname>
+						<given-names>Joilda Silva</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-1112-2332</contrib-id>
+					<name>
+						<surname>Amorim</surname>
+						<given-names>Leila Denise Alves Ferreira</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff3"><sup>III</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-0472-1804</contrib-id>
+					<name>
+						<surname>Sanchez</surname>
+						<given-names>Mauro Niskier</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff4"><sup>IV</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-0215-4930</contrib-id>
+					<name>
+						<surname>Barreto</surname>
+						<given-names>Mauricio Lima</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-8711-9589</contrib-id>
+					<name>
+						<surname>Pescarini</surname>
+						<given-names>Julia Moreira</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff5"><sup>V</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>I</label>
+				<institution content-type="orgname">Fundação Oswaldo Cruz</institution>
+				<institution content-type="orgdiv1">Centro de Integração de Dados e Conhecimentos para a Saúde</institution>
+				<addr-line>
+					<named-content content-type="city">Salvador</named-content>
+					<named-content content-type="state">BA</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Fundação Oswaldo Cruz. Centro de Integração de Dados e Conhecimentos para a Saúde. Salvador, BA, Brasil</institution>
+			</aff>
+			<aff id="aff2">
+				<label>II</label>
+				<institution content-type="orgname">Universidade Federal da Bahia</institution>
+				<institution content-type="orgdiv1">Instituto de Saúde Coletiva</institution>
+				<institution content-type="orgdiv2">Departamento de Saúde Coletiva I</institution>
+				<addr-line>
+					<named-content content-type="city">Salvador</named-content>
+					<named-content content-type="state">BA</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Universidade Federal da Bahia. Instituto de Saúde Coletiva. Departamento de Saúde Coletiva I. Salvador, BA, Brasil</institution>
+			</aff>
+			<aff id="aff3">
+				<label>III</label>
+				<institution content-type="orgname">Universidade Federal da Bahia</institution>
+				<institution content-type="orgdiv1">Instituto de Matemática</institution>
+				<institution content-type="orgdiv2">Departamento de Estatística</institution>
+				<addr-line>
+					<named-content content-type="city">Salvador</named-content>
+					<named-content content-type="state">BA</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Universidade Federal da Bahia. Instituto de Matemática. Departamento de Estatística. Salvador, BA, Brasil</institution>
+			</aff>
+			<aff id="aff4">
+				<label>IV</label>
+				<institution content-type="orgname">Universidade de Brasília</institution>
+				<institution content-type="orgdiv1">Faculdade de Ciências da Saúde</institution>
+				<institution content-type="orgdiv2">Departamento de Saúde Coletiva</institution>
+				<addr-line>
+					<named-content content-type="city">Brasília</named-content>
+					<named-content content-type="state">DF</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Universidade de Brasília. Faculdade de Ciências da Saúde. Departamento de Saúde Coletiva. Brasília, DF, Brasil</institution>
+			</aff>
+			<aff id="aff5">
+				<label>V</label>
+				<institution content-type="orgname">London School of Hygiene &amp; Tropical Medicine</institution>
+				<institution content-type="orgdiv1">Faculty of Epidemiology and Population Health</institution>
+				<addr-line>
+					<named-content content-type="city">London</named-content>
+				</addr-line>
+				<country country="GB">UK</country>
+				<institution content-type="original"> London School of Hygiene &amp; Tropical Medicine. Faculty of Epidemiology and Population Health. London, UK</institution>
+			</aff>
+			<author-notes>
+				<corresp id="c01"> Correspondence: Priscila Fernanda Porto Scaff Pinto Rua Mundo, 121, Trobogy 41745-715 Salvador, BA, Brasil E-mail: <email>priscila.scaff@fiocruz.br</email>
+				</corresp>
+				<fn fn-type="conflict">
+					<p><bold>Authors’ Contribution:</bold> Study design and planning: PFPSP, JMP. Data collection, analysis, and interpretation: PFPSP, BPSS, JMP. Writing and review of the unpublished study: PFPSP, BPSS, CSST, JSN, LDAFA, MNS, MLB, JMP. Approval of the final version: PFPSP, BPSS, CSST, JSN, LDAFA, MNS, MLB, JMP. Public responsibility for the content of the published study: PFPSP, JMP.</p>
+				</fn>
+				<fn fn-type="conflict">
+					<p><bold>Conflict of Interest:</bold> The authors declare no conflict of interest.</p>
+				</fn>
+			</author-notes>
+			<pub-date date-type="pub" publication-format="electronic">
+				<day>13</day>
+				<month>06</month>
+				<year>2022</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">
+				<year>2022</year>
+			</pub-date>
+			<volume>56</volume>
+			<elocation-id>53</elocation-id>
+			<history>
+				<date date-type="received">
+					<day>1</day>
+					<month>07</month>
+					<year>2021</year>
+				</date>
+				<date date-type="accepted">
+					<day>7</day>
+					<month>09</month>
+					<year>2021</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="en">
+					<license-p> This is an Open Access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. </license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>ABSTRACT</title>
+				<sec>
+					<title>OBJECTIVE</title>
+					<p> To evaluate the performance of tuberculosis control in Brazilian municipalities.</p>
+				</sec>
+				<sec>
+					<title>METHODS</title>
+					<p> This is an ecological study on Brazilian municipalities that notified at least four new cases of tuberculosis, with a minimum of one new case of pulmonary tuberculosis between 2015 and 2018. The municipalities were stratified according to the population in &lt; 50 thousand, 50–100 thousand, 100–300 thousand, and &gt; 300 thousand inhabitants, and the k-means method was used to group them within each population range according to the performance of six indicators of the disease.</p>
+				</sec>
+				<sec>
+					<title>RESULTS</title>
+					<p> A total of 2,845 Brazilian municipalities were included, comprising 98.5% (208,007/211,174) of new tuberculosis cases in the period. For each population range, three groups (A, B, and C) of municipalities were identified according to the performance of the indicators: A, the most satisfactory; B, the intermediates; and C, the least satisfactory. Municipalities in group A with &lt; 100 thousand inhabitants presented results above the targets for laboratory confirmation (≥ 72%), abandonment (≤ 5%), and cure (≥ 90%), and comprised 2% of new cases of the disease. Conversely, municipalities of groups B and C presented at least five indicators with results below the targets – HIV testing (&lt; 100%), contact investigation (&lt; 90%), directly observed therapy (&lt; 90%), abandonment (&gt; 5%), and cure (&lt; 90%) –, and corresponded to 66.7% of new cases of tuberculosis. In group C of municipalities with &gt; 300 thousand inhabitants, which included 19 of the 27 capitals and 43.1% of new cases of tuberculosis, the lowest percentages of contact investigation (mean = 56.4%) and directly observed therapy (mean = 15.4%) were verified, in addition to high abandonment (mean = 13.9%) and low coverage of primary health care (mean = 66.0%).</p>
+				</sec>
+				<sec>
+					<title>CONCLUSIONS</title>
+					<p> Most new cases of tuberculosis occurred in municipalities with unsatisfactory performance for disease control. Expanding the coverage of primary health care in these places can reduce abandonment and increase the contact investigation and directly observed therapy.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="en">
+				<kwd>Tuberculosis, prevention &amp; control</kwd>
+				<kwd>Outcome and Process Assessment, Health Care</kwd>
+				<kwd>Program Evaluation</kwd>
+				<kwd>Ecological Studies</kwd>
+			</kwd-group>
+			<funding-group>
+				<award-group>
+					<funding-source>Brazilian Ministry of Health</funding-source>
+					<award-id>VPGDI-003-FIO-19</award-id>
+				</award-group>
+				<funding-statement>Funding: Brazilian Ministry of Health - VPGDI-003-FIO-19 - Project “Fortalecimento do Sistema Nacional de Vigilância para a prevenção, detecção precoce e resposta rápida às emergências em saúde pública” [Strengthening the National Surveillance System for prevention, early detection, and rapid response to public health emergencies”].</funding-statement>
+			</funding-group>
+			<counts>
+				<fig-count count="6"/>
+				<table-count count="4"/>
+				<equation-count count="0"/>
+				<ref-count count="31"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>INTRODUCTION</title>
+			<p>Brazil is among the thirty countries with the highest number of tuberculosis cases<sup><xref ref-type="bibr" rid="B1">1</xref></sup>. In 2020, 66,800 new cases of the disease were notified and the incidence was 31.6 per 100 thousand inhabitants, values lower than expected due to the covid-19 pandemic, considering that in 2019 the incidence was 37.4 per 100 thousand inhabitants and mortality was 2.2 per 100 thousand inhabitants<sup><xref ref-type="bibr" rid="B2">2</xref></sup>. The <italic>Plano Nacional pelo Fim da Tuberculose como Problema de Saúde Pública</italic> (National Plan for Ending Tuberculosis as a Public Health Issue) was launched in 2017 with targets to reduce the incidence to less than 10/100 thousand inhabitants and mortality to less than 1/100 thousand inhabitants by 2035<sup><xref ref-type="bibr" rid="B3">3</xref></sup>.</p>
+			<p>The evaluation and monitoring of health indicators have emphasized the importance of the Brazilian Unified Health System (SUS) at all levels of health care<sup><xref ref-type="bibr" rid="B4">4</xref></sup>. The evaluation of operational indicators of tuberculosis guides decision-making and directs health actions and policies to tackle this health issue<sup><xref ref-type="bibr" rid="B2">2</xref></sup>. In 2019, the indicators of cure (70.1%) and abandonment (12%)<sup><xref ref-type="bibr" rid="B2">2</xref></sup> were below the expected for disease control<sup><xref ref-type="bibr" rid="B5">5</xref></sup>, considering that the World Health Organization recommends that the cure rate be at least 90% and up to 5% as for abandonment<sup><xref ref-type="bibr" rid="B6">6</xref></sup>. These treatment outcomes may be influenced by the quality of tuberculosis control programs<sup><xref ref-type="bibr" rid="B7">7</xref></sup>.</p>
+			<p>A previous evaluation of the performance of tuberculosis control initiatives performed between 2001 and 2003 identified that Brazilian municipalities with good performance were smaller in population size, and may or may not present a high performance of directly observed therapy (DOT). Conversely, municipalities with regular and moderate performance are medium- or large-sized, have high abandonment and higher incidences for tuberculosis and/or Aids<sup><xref ref-type="bibr" rid="B8">8</xref></sup>. A recent evaluation of tuberculosis control programs incorporated socioeconomic, epidemiological, and operational indicators to the classification of municipalities by priority of programmatic action of the Brazilian Ministry of Health, suggesting the adoption of intersectoral actions according to the incidence of the disease as per the specificity of each local reality<sup><xref ref-type="bibr" rid="B9">9</xref></sup>.</p>
+			<p>However, the classifications solely carried out by operational indicators of the disease allow evaluating tuberculosis care regardless of the incidence, which is useful, because it allows prioritizing programmatic actions on a local scale, aiming at a more effective control of the disease. Thus, the objective of this study was to evaluate the performance of Brazilian municipalities according to the operational indicators of tuberculosis and to describe/investigate its relationship with epidemiological and contextual indicators between 2015 and 2018.</p>
+		</sec>
+		<sec sec-type="methods">
+			<title>METHODS</title>
+			<sec>
+				<title>Study Design and Sources of Information</title>
+				<p>Ecological study whose units of analysis were the Brazilian municipalities classified based on operational indicators of tuberculosis between 2015 and 2018. A period of four years was chosen, aiming to mitigate the variations of indicators that could occur if only one year was chosen. The choice was also made considering that 2018 was the last year in which the treatment outcomes were still available in the data. The records of tuberculosis and Aids were extracted from the <italic>Sistema de Informação de Agravos de Notificação</italic> (Sinan – Notifiable Diseases Information System) (2015–2018) on October 17, 2020. The annual population estimates (2015–2018) and the unemployment rate per municipality among people ≥ 16 years old for 2010 were obtained from the <italic>Instituto Brasileiro de Geografia e Estatística</italic> (IBGE - Brazilian Institute of Geography and Statistics). The percentage of primary health care (PHC) coverage derives from the database <italic>Banco e-Gestor AB</italic> (e-Manager Database PHC) (December 2018).</p>
+			</sec>
+			<sec>
+				<title>Study Population</title>
+				<p>Brazilian municipalities that notified Sinan of at least four new cases of tuberculosis in the period (2015–2018) were included in the study, being at least one new case of pulmonary tuberculosis, a criterion used to include those that, on average, have reported a new case of tuberculosis per year and to avoid zero-inflated data and estimation of indicators with high variation due to a few cases. The new case of tuberculosis was defined as the person notified to Sinan with the active disease, regardless of the clinical classification, who has never undergone anti-tuberculosis treatment or did so for less than 30 days; and, as a new case of pulmonary tuberculosis, the person notified to Sinan with the active disease, whose clinical classification was pulmonary, that is, when the bacillus affects the lungs<sup><xref ref-type="bibr" rid="B10">10</xref></sup>.</p>
+			</sec>
+			<sec>
+				<title>Variables</title>
+				<p>Altogether, in the period from 2015 to 2018, the eleven operational indicators of tuberculosis of the <italic>Plano Nacional pelo Fim da Tuberculose como Problema de Saúde Pública</italic> (National Plan for Ending Tuberculosis as a Public Health Issue) were estimated. For this study, five indicators were excluded because they presented low coverage, that is, impossibility of estimation for at least 52.8% of the municipalities: number of tuberculosis cases notified as postmortem; sputum culture performance among cases of pulmonary tuberculosis retreatment; conducting sensitivity test among cases of pulmonary tuberculosis retreatment with positive culture; antiretroviral therapy among new cases of tuberculosis-HIV coinfection; and cure of new cases of multidrug-resistant tuberculosis. Thus, the six indicators evaluated were: laboratory confirmation among new cases of pulmonary tuberculosis; contact investigation of new pulmonary tuberculosis cases with laboratory confirmation; testing for the human immunodeficiency virus (HIV) among new cases of tuberculosis; DOT for new cases of pulmonary tuberculosis; treatment abandonment among new cases of pulmonary tuberculosis with laboratory confirmation; and cure of new cases of pulmonary tuberculosis with laboratory confirmation<sup><xref ref-type="bibr" rid="B5">5</xref></sup>.</p>
+				<p>Among the epidemiological indicators, the annual means of incidence and mortality for all types of tuberculosis and the Aids detection rate were estimated. Among the contextual indicators, that is, those that can influence the occurrence of the disease and the performance of programmatic actions<sup><xref ref-type="bibr" rid="B11">11</xref></sup>, the unemployment rate and coverage of primary health care were included for being associated with the incidence of tuberculosis in previous evaluation studies<sup><xref ref-type="bibr" rid="B9">9</xref>,<xref ref-type="bibr" rid="B12">12</xref></sup>.</p>
+			</sec>
+			<sec>
+				<title>Analysis</title>
+				<p>A descriptive analysis of the operational indicators of tuberculosis was performed in each municipality using the estimation of means and respective standard deviations. The means were chosen because they are the most common measure of central tendency for tuberculosis indicators; they are close to the medians; they consider all values of the data set; and they are comparable with the k-means method and other evaluations such as the present study. The municipalities were stratified in the following population ranges: ≤ 50 thousand inhabitants; 50 to 100 thousand inhabitants; 100 to 300 thousand inhabitants; and &gt; 300 thousand inhabitants. For each population range, the municipalities were grouped according to the performance of the operational indicators of tuberculosis by the non-hierarchical k-means method, which defines the total intragroup variation as the sum of squares of the Euclidean distances between the points and their respective centroids (within sum of squares – WSS). The k-means method identifies a k number of groups with similar characteristics, that is, whose distances between the means of a variable are minimum for the members of the same group and are maximum in relation to the other groups<sup><xref ref-type="bibr" rid="B13">13</xref></sup>. A total of 200 initial seeds were used to ensure the stability of the results. The value of k was defined by the elbow method, which draws a WSS chart according to the number of groups, allowing to identify an appropriate value, that is, the number of groups in which the data can be divided so that the groups are sufficiently distinct from each other<sup><xref ref-type="bibr" rid="B14">14</xref></sup>.</p>
+				<p>The operational indicators of tuberculosis were interpreted according to compliance or not with the targets and/or recommendations, namely: ≥ 72% for laboratory confirmation<sup><xref ref-type="bibr" rid="B10">10</xref></sup>, ≥ 90% for contact investigation<sup><xref ref-type="bibr" rid="B15">15</xref></sup>, 100% for HIV testing<sup><xref ref-type="bibr" rid="B10">10</xref></sup>, ≥ 90% for performing DOT<sup><xref ref-type="bibr" rid="B16">16</xref></sup>, ≤ 5% for abandonment<sup><xref ref-type="bibr" rid="B6">6</xref></sup>, and ≥ 90% for cure<sup><xref ref-type="bibr" rid="B15">15</xref></sup>.</p>
+				<p>After grouping the municipalities according to the performance of the operational indicators of tuberculosis, a descriptive analysis of the epidemiological indicators of tuberculosis and Aids was performed, in addition to analyzing the contextual indicators for each verified group based on the means and respective standard deviations, medians and respective interquartile ranges.</p>
+				<p>To test whether the groups generated by the k-means method were sensitive to the classification method, the groups were re-estimated and described by latent profile analysis (LPA). A diagonal covariance matrix was adopted, with different variances per profiles, considering between two and eight latent profiles. The Akaike Information Criterion (AIC), Bayesian Information Criterion (BIC), and entropy measures were evaluated. The latent profiles for each population range were characterized by means, standard deviations, and correlation matrix<sup><xref ref-type="bibr" rid="B17">17</xref></sup>.</p>
+				<p>The analyses were performed in the R Studio program linked to R, version 4.0.3, with the aid of tidyverse, factoextra, NbClust, and tidyLPA libraries.</p>
+			</sec>
+			<sec>
+				<title>Ethical Considerations</title>
+				<p>The study used administrative data of open access and aggregated by municipalities, thus exempt from variables that enable identifying people with tuberculosis and, therefore, no ethical approval was required.</p>
+			</sec>
+		</sec>
+		<sec sec-type="results">
+			<title>RESULTS</title>
+			<p>Between 2015 and 2018, 4,643 of the 5,570 Brazilian municipalities (83.3%) notified new cases of tuberculosis. We included 2,845 (61.3%) municipalities with at least four new cases of tuberculosis and one case of pulmonary tuberculosis in the study. Thus, the study comprised 98.5% (208,007 out of 211,174) of new cases of the disease in this period, of which 46.6% occurred in the Southeast, 25.6% in the Northeast, 11.6% in the South, 11.5% in the North, and 4.6% in the Midwest.</p>
+			<p>Small-sized municipalities (&lt; 50 thousand inhabitants) represented 19% of the total and 2.1% of new cases of tuberculosis. Small-medium-sized municipalities (50 to 100 thousand inhabitants) (32.9%) accounted for 5.4% of new cases; medium-large-sized municipalities (100 to 300 thousand inhabitants) (33%) accounted for 12.9% of new cases; and large-sized municipalities (&gt; 300 thousand inhabitants) (15.1%) accounted for 79.6% of new cases of tuberculosis (<xref ref-type="table" rid="t1">Table 1</xref>).</p>
+			<p>
+				<table-wrap id="t1">
+					<label>Table 1</label>
+					<caption>
+						<title>Distribution of municipalities and new cases of tuberculosis, according to population range and groups of performance of operational indicators of the disease, generated by cluster analysis, Brazil, 2015 to 2018.</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left" rowspan="5">Population range</th>
+								<th colspan="6">Groups of performance</th>
+								<th colspan="2" rowspan="2">Total</th>
+							</tr>
+							<tr>
+								<th colspan="2">A</th>
+								<th colspan="2">B</th>
+								<th colspan="2">C</th>
+							</tr>
+							<tr>
+								<th>Municipalities</th>
+								<th>New cases of tuberculosis</th>
+								<th>Municipalities</th>
+								<th>New cases of tuberculosis</th>
+								<th>Municipalities</th>
+								<th>New cases of tuberculosis</th>
+								<th>Municipalities</th>
+								<th>New cases of tuberculosis</th>
+							</tr>
+							<tr>
+								<th>n = 1,351</th>
+								<th>n = 69,236</th>
+								<th>n = 1,071</th>
+								<th>n = 43,488</th>
+								<th>n = 423</th>
+								<th>n = 95,283</th>
+								<th>n = 2,845</th>
+								<th>n = 208,007</th>
+							</tr>
+							<tr>
+								<th>n (%)</th>
+								<th>n (%)</th>
+								<th>n (%)</th>
+								<th>n (%)</th>
+								<th>n (%)</th>
+								<th>n (%)</th>
+								<th>n (%)</th>
+								<th>n (%)</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>&lt; 50 thousand inhab.</td>
+								<td align="center">292 (21.6)</td>
+								<td align="center">2.667 (3.9)</td>
+								<td align="center">218 (20.4)</td>
+								<td align="center">1.570 (3.6)</td>
+								<td align="center">30 (7.1)</td>
+								<td align="center">138 (0.14)</td>
+								<td align="center">540 (19.0)</td>
+								<td align="center">4,375 (2.1)</td>
+							</tr>
+							<tr>
+								<td>50–100 thousand inhab.</td>
+								<td align="center">460 (34.0)</td>
+								<td align="center">5.888 (8.5)</td>
+								<td align="center">375 (35.0)</td>
+								<td align="center">4,459 (10.3)</td>
+								<td align="center">100 (23.6)</td>
+								<td align="center">927 (1.0)</td>
+								<td align="center">935 (32.9)</td>
+								<td align="center">11,274 (5.4)</td>
+							</tr>
+							<tr>
+								<td>100–300 thousand inhab.</td>
+								<td align="center">433 (32.1)</td>
+								<td align="center">11,819 (17.1)</td>
+								<td align="center">333 (31.1)</td>
+								<td align="center">10,417 (24.0)</td>
+								<td align="center">174 (41.1)</td>
+								<td align="center">4.616 (4.8)</td>
+								<td align="center">940 (33.0)</td>
+								<td align="center">26,852 (12.9)</td>
+							</tr>
+							<tr>
+								<td>&gt; 300 thousand inhab.</td>
+								<td align="center">166 (12.3)</td>
+								<td align="center">48,862 (70.6)</td>
+								<td align="center">145 (13.5)</td>
+								<td align="center">27,042 (62.2)</td>
+								<td align="center">119 (28.1)</td>
+								<td align="center">89,602 (94.0)</td>
+								<td align="center">430 (15.1)</td>
+								<td align="center">165,506 (79.6)</td>
+							</tr>
+						</tbody>
+					</table>
+				</table-wrap>
+			</p>
+			<p>For each population range, the elbow method indicated a classification with a number of groups ranging from two to four. Thus, we opted for three groups that were named A, B, and C (<xref ref-type="fig" rid="f01">Figure 1</xref>). Overall, the municipalities of group A obtained more satisfactory indicators; those of group B, intermediate indicators; and those of group C, less satisfactory indicators, thus establishing the size of the municipality. Laboratory confirmation was above the target (≥ 72%) in all municipalities of group A and in municipalities with &gt; 300 thousand inhabitants of group C (45.2% of new cases). The contact investigation was above the target (≥ 90%) in municipalities with up to 300 thousand inhabitants (33.3% of new cases) of group A. HIV testing, DOT, and cure did not meet the target (&lt; 100%, &lt; 90%, and &lt; 90%, respectively) in any group. Abandonment was above the target (≤ 5%) only in group A of municipalities with &lt; 100 thousand inhabitants (4.1% of new cases) (<xref ref-type="fig" rid="f02">Figure 2</xref> and <xref ref-type="table" rid="t2">Table 2</xref>).</p>
+			<p>
+				<fig id="f01">
+					<label>Figure 1</label>
+					<caption>
+						<title>Distribution of Brazilian municipalities included in the study, according to population range and groups of performance of operational indicators of tuberculosis, generated by cluster analysis, Brazil, 2015 to 2018.</title>
+					</caption>
+					<graphic xlink:href="1518-8787-rsp-56-53-gf01.tif"/>
+					<attrib>Note: The gray area corresponds to the municipalities included in the study.</attrib>
+				</fig>
+			</p>
+			<p>
+				<fig id="f02">
+					<label>Figure 2</label>
+					<caption>
+						<title>Description of the operational indicators of tuberculosis, according to population range and groups of performance of operational indicators of the disease, generated by: a) cluster analysis (k-means); and b) latent profile analysis (LPA) method, Brazil, 2015–2018.</title>
+					</caption>
+					<graphic xlink:href="1518-8787-rsp-56-53-gf02.tif"/>
+					<attrib>Inhab.: inhabitants; HIV: human immunodeficiency virus; DOT: directly observed treatment.</attrib>
+				</fig>
+			</p>
+			<p>
+				<table-wrap id="t2">
+					<label>Table 2</label>
+					<caption>
+						<title>Description of the operational indicators of tuberculosis, according to population range and groups of performance of operational indicators, generated by cluster analysis, Brazil, 2015 to 2018.</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left" rowspan="2">Operational indicators of tuberculosis according to population range</th>
+								<th colspan="3">Groups of performance</th>
+								<th rowspan="3">Total n = 540</th>
+							</tr>
+							<tr>
+								<th>A</th>
+								<th>B</th>
+								<th>C</th>
+							</tr>
+							<tr>
+								<th align="left" colspan="1" rowspan="2">&lt; 50 thousand inhab.</th>
+								<th>n = 292</th>
+								<th>n = 218</th>
+								<th>n = 30</th>
+							</tr>
+							<tr>
+								<th>Mean (SD)</th>
+								<th>Mean (SD)</th>
+								<th>Mean (SD)</th>
+								<th rowspan="1">Mean (SD)</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>LC among new cases of pulmonary tuberculosis (%)</td>
+								<td align="center">77.4 (22.9)</td>
+								<td align="center">69.5 (25.1)</td>
+								<td align="center">11.8 (21.9)</td>
+								<td align="center">70.6 (28.0)</td>
+							</tr>
+							<tr>
+								<td>HIV test in new cases of tuberculosis (%)</td>
+								<td align="center">80.3 (23.1)</td>
+								<td align="center">70.3 (27.3)</td>
+								<td align="center">68.5 (33.5)</td>
+								<td align="center">75.6 (26.0)</td>
+							</tr>
+							<tr>
+								<td>DOT among new cases of pulmonary tuberculosis (%)</td>
+								<td align="center">85.3 (16.3)</td>
+								<td align="center">21.4 (18.3)</td>
+								<td align="center">52.5 (38.3)</td>
+								<td align="center">57.7 (36.1)</td>
+							</tr>
+							<tr>
+								<td>Examination of contacts in new cases of tuberculosis (%)</td>
+								<td align="center">91.9 (13.6)</td>
+								<td align="center">75.3 (26.7)</td>
+								<td align="center">80.7 (30.4)</td>
+								<td align="center">84.6 (22.4)</td>
+							</tr>
+							<tr>
+								<td>Cure among new cases of pulmonary tuberculosis with LC (%)</td>
+								<td align="center">87.3 (18.0)</td>
+								<td align="center">82.2 (21.5)</td>
+								<td align="center">0.0 (0.0)</td>
+								<td align="center">80.4 (27.4)</td>
+							</tr>
+							<tr>
+								<td>Abandonment among new cases of pulmonary tuberculosis with LC (%)</td>
+								<td align="center">4.5 (11.3)</td>
+								<td align="center">6.5 (13.4)</td>
+								<td align="center">9.2 (26.7)</td>
+								<td align="center">5.6 (13.5)</td>
+							</tr>
+							<tr>
+								<td rowspan="2"><bold>50 a 100 thousand inhab.</bold></td>
+								<td align="center"><bold>n = 460</bold></td>
+								<td align="center"><bold>n = 375</bold></td>
+								<td align="center"><bold>n = 100</bold></td>
+								<td align="center"><bold>n = 935</bold></td>
+							</tr>
+							<tr>
+								<td align="center"><bold>Mean (SD)</bold></td>
+								<td align="center"><bold>Mean (SD)</bold></td>
+								<td align="center"><bold>Mean (SD)</bold></td>
+								<td align="center"><bold>Mean (SD)</bold></td>
+							</tr>
+							<tr>
+								<td>LC among new cases of pulmonary tuberculosis (%)</td>
+								<td align="center">77.0 (19.1)</td>
+								<td align="center">69.6 (21.0)</td>
+								<td align="center">46.7 (24.9)</td>
+								<td align="center">70.8 (22.5)</td>
+							</tr>
+							<tr>
+								<td>HIV test in new cases of tuberculosis (%)</td>
+								<td align="center">83.0 (19.0)</td>
+								<td align="center">71.6 (24.9)</td>
+								<td align="center">71.2 (25.6)</td>
+								<td align="center">77.2 (23.0)</td>
+							</tr>
+							<tr>
+								<td>DOT among new cases of pulmonary tuberculosis (%)</td>
+								<td align="center">81.8 (16.3)</td>
+								<td align="center">20.4 (17.6)</td>
+								<td align="center">43.3 (28.8)</td>
+								<td align="center">53.1 (34.5)</td>
+							</tr>
+							<tr>
+								<td>Examination of contacts in new cases of tuberculosis (%)</td>
+								<td align="center">92.0 (13.8)</td>
+								<td align="center">81.3 (20.6)</td>
+								<td align="center">80.3 (22.2)</td>
+								<td align="center">86.4 (18.6)</td>
+							</tr>
+							<tr>
+								<td>Cure among new cases of pulmonary tuberculosis with LC (%)</td>
+								<td align="center">87.1 (14.6)</td>
+								<td align="center">86.4 (14.5)</td>
+								<td align="center">39.1 (24.6)</td>
+								<td align="center">81.7 (21.7)</td>
+							</tr>
+							<tr>
+								<td>Abandonment among new cases of pulmonary tuberculosis with LC (%)</td>
+								<td align="center">4.2 (8.3)</td>
+								<td align="center">5.3 (9.2)</td>
+								<td align="center">25.8 (28.8)</td>
+								<td align="center">7.0 (14.1)</td>
+							</tr>
+							<tr>
+								<td rowspan="2"><bold>100 a 300 thousand inhab.</bold></td>
+								<td align="center"><bold>n = 433</bold></td>
+								<td align="center"><bold>n = 333</bold></td>
+								<td align="center"><bold>n = 174</bold></td>
+								<td align="center"><bold>n = 940</bold></td>
+							</tr>
+							<tr>
+								<td align="center"><bold>Mean (SD)</bold></td>
+								<td align="center"><bold>Mean (SD)</bold></td>
+								<td align="center"><bold>Mean (SD)</bold></td>
+								<td align="center"><bold>Mean (SD)</bold></td>
+							</tr>
+							<tr>
+								<td>LC among new cases of pulmonary tuberculosis (%)</td>
+								<td align="center">73.5 (17.5)</td>
+								<td align="center">71.6 (17.8)</td>
+								<td align="center">64.9 (19.8)</td>
+								<td align="center">71.2 (18.3)</td>
+							</tr>
+							<tr>
+								<td>HIV test in new cases of tuberculosis (%)</td>
+								<td align="center">85.5 (17.1)</td>
+								<td align="center">86.6 (13.1)</td>
+								<td align="center">58.0 (20.2)</td>
+								<td align="center">80.8 (19.7)</td>
+							</tr>
+							<tr>
+								<td>DOT among new cases of pulmonary tuberculosis (%)</td>
+								<td align="center">79.6 (16.2)</td>
+								<td align="center">16.9 (15.6)</td>
+								<td align="center">23.0 (19.6)</td>
+								<td align="center">46.9 (34.6)</td>
+							</tr>
+							<tr>
+								<td>Examination of contacts in new cases of tuberculosis (%)</td>
+								<td align="center">91.9 (11.3)</td>
+								<td align="center">89.3 (10.9)</td>
+								<td align="center">58.2 (22.1)</td>
+								<td align="center">84.7 (18.8)</td>
+							</tr>
+							<tr>
+								<td>Cure among new cases of pulmonary tuberculosis with LC (%)</td>
+								<td align="center">84.4 (13.5)</td>
+								<td align="center">79.8 (15.2)</td>
+								<td align="center">75.1 (16.5)</td>
+								<td align="center">81.1 (15.1)</td>
+							</tr>
+							<tr>
+								<td>Abandonment among new cases of PTB with LC (%)</td>
+								<td align="center">5.5 (8.9)</td>
+								<td align="center">10.5 (11.3)</td>
+								<td align="center">12.1 (13.6)</td>
+								<td align="center">8.5 (11.1)</td>
+							</tr>
+							<tr>
+								<td rowspan="2"><bold>&gt; 300 thousand inhab.</bold></td>
+								<td align="center"><bold>n = 166</bold></td>
+								<td align="center"><bold>n = 145</bold></td>
+								<td align="center"><bold>n = 119</bold></td>
+								<td align="center"><bold>n = 430</bold></td>
+							</tr>
+							<tr>
+								<td align="center"><bold>Mean (SD)</bold></td>
+								<td align="center"><bold>Mean (SD)</bold></td>
+								<td align="center"><bold>Mean (SD)</bold></td>
+								<td align="center"><bold>Mean (SD)</bold></td>
+							</tr>
+							<tr>
+								<td>LC among new cases of pulmonary tuberculosis (%)</td>
+								<td align="center">75.8 (12.6)</td>
+								<td align="center">70.8 (14.9)</td>
+								<td align="center">72.7 (12.7)</td>
+								<td align="center">73.3 (13.6)</td>
+							</tr>
+							<tr>
+								<td>HIV test in new cases of tuberculosis (%)</td>
+								<td align="center">90.1 (9.1)</td>
+								<td align="center">87.9 (9.8)</td>
+								<td align="center">74.7 (17.7)</td>
+								<td align="center">85.1 (13.9)</td>
+							</tr>
+							<tr>
+								<td>DOT among new cases of pulmonary tuberculosis (%)</td>
+								<td align="center">74.5 (15.8)</td>
+								<td align="center">21.5 (15.6)</td>
+								<td align="center">15.4 (14.4)</td>
+								<td align="center">40.3 (31.3)</td>
+							</tr>
+							<tr>
+								<td>Examination of contacts in new cases of tuberculosis (%)</td>
+								<td align="center">88.5 (11.2)</td>
+								<td align="center">86.3 (9.3)</td>
+								<td align="center">56.4 (14.0)</td>
+								<td align="center">78.9 (18.1)</td>
+							</tr>
+							<tr>
+								<td>Cure among new cases of pulmonary tuberculosis with LC (%)</td>
+								<td align="center">80.7 (8.4)</td>
+								<td align="center">79.0 (8.4)</td>
+								<td align="center">74.9 (8.7)</td>
+								<td align="center">78.5 (8.8)</td>
+							</tr>
+							<tr>
+								<td>Abandonment among new cases of pulmonary tuberculosis with LC (%)</td>
+								<td align="center">8.1 (5.0)</td>
+								<td align="center">10.0 (6.2)</td>
+								<td align="center">13.9 (6.4)</td>
+								<td align="center">10.4 (6.3)</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN1">
+							<p>LC: laboratory confirmation; SD: standard deviation; DOT: directly observed treatment; Inhab.: inhabitants; HIV: human immunodeficiency virus.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>The municipalities of group A with &lt; 100 thousand inhabitants presented three of the six indicators of tuberculosis with results above the target (laboratory confirmation, contact investigation, and abandonment), and comprised 26.4% of the municipalities and 2% of new cases of the disease. Conversely, the municipalities of groups B and C presented five or all indicators of tuberculosis below the target (at least HIV testing, examination of contacts, DOT, abandonment, and cure), and corresponded to 52.5% of the municipalities and 66.7% of new cases (Tables 1 and 2).</p>
+			<p>The larger the size, the higher the percentages of laboratory confirmation and HIV testing; however, the greater the abandonment and the lower the DOT (<xref ref-type="table" rid="t2">Table 2</xref>). For small-sized municipalities (&lt; 50 thousand inhabitants), those classified in group A presented the highest values for laboratory confirmation (mean = 77.4%), DOT (mean = 85.3%), and cure (mean = 87.3 %), whereas the cities in group C presented the lowest percentages for laboratory confirmation (mean = 11.8%) and cure (mean = 0.0%) and DOT below the target (mean = 52.4%) (<xref ref-type="fig" rid="f02">Figure 2</xref> and <xref ref-type="table" rid="t2">Table 2</xref>).</p>
+			<p>In large municipalities (&gt; 300 thousand inhabitants), those classified as group A had abandonment below the target (mean = 8.1%) and HIV testing with a mean of 90.1%, which even below the target (&lt; 100%) was the highest among the 12 identified groups. Conversely, in group C of large municipalities, which includes 19 of the 27 capitals and 43.1% of new cases of tuberculosis, we found the lowest percentages of contact investigation (mean = 56.4%) and DOT (mean = 15.4%). In addition, HIV testing (mean = 74.7%) and abandonment (mean = 13.9%) were below the target (<xref ref-type="fig" rid="f02">Figure 2</xref> and <xref ref-type="table" rid="t2">Table 2</xref>).</p>
+			<p>Regarding epidemiological and contextual indicators, small municipalities in group C had the lowest rates of Aids detection (median = 4.5/100 thousand inhab.) and tuberculosis mortality (median = 0.0/100 thousand inhab.), lowest unemployment rate (median = 4.4%), and higher coverage of primary health care (median = 100.0%). Conversely, large municipalities in group C showed the highest rates of Aids detection (median = 20.1/100 thousand inhab.) and mortality due to tuberculosis (median = 1.0/100 thousand inhab.), the highest unemployment rate (median = 8.3%), and the lowest coverage of primary health care (median = 67.0%). Furthermore, the incidence of tuberculosis in large municipalities in group C was higher than that found in the small-sized municipalities in group C (median = 27.0/100 thousand inhab. <italic>versus</italic> 15.5/100 thousand inhab.). The general medians for each population range demonstrated that the larger the population, the higher the unemployment rate and the lower the coverage of primary health care (<xref ref-type="fig" rid="f03">Figure 3</xref>).</p>
+			<p>
+				<fig id="f03">
+					<label>Figure 3</label>
+					<caption>
+						<title>Epidemiological and contextual indicators of tuberculosis, according to population range and groups of performance of operational indicators of the disease, generated by cluster analysis, Brazil, 2015–2018.</title>
+					</caption>
+					<graphic xlink:href="1518-8787-rsp-56-53-gf03.tif"/>
+					<attrib>PHC: primary health care.</attrib>
+				</fig>
+			</p>
+			<p>In the sensitivity analysis by the LPA method, the use of two to four latent profiles was more adequate, that is, it presented lower values of AIC and BIC, being suggested the one with two profiles. Nevertheless, according to entropy, a measure of the amount of information gathered by the model, and to compare with the results obtained by the k-means method, we adopted three latent profiles for each population range of the municipalities. Among municipalities with &lt; 50 thousand inhabitants, the percentage of agreement of the k-means method in relation to the LPA, that is, the municipalities that were classified in the same groups A, B, or C, was 92.6% (500/540); among those with 50–100 thousand inhabitants, 93.2% (871/935); among those with 100–300 thousand inhabitants, 91.1% (856/940); and among those with &gt; 300 thousand inhabitants, 86.7% (373/430). The final agreement was 91.4% (2,600/2,845).</p>
+		</sec>
+		<sec sec-type="discussion">
+			<title>DISCUSSION</title>
+			<p>This study evaluated an important portion of Brazilian municipalities, which were responsible for notifying virtually all new cases of tuberculosis in the studied period (2015–2018). By classifying Brazilian municipalities according to the population range and the operational indicators of the disease, we observed, in most municipalities, an unsatisfactory performance for tuberculosis control. We highlight those with &gt; 300 thousand inhabitants in group C, which notified a high percentage of new cases and presented high rates of incidence and mortality from the disease, detection of Aids, unemployment, and low coverage of primary health care.</p>
+			<p>Laboratory confirmation was above the target for municipalities that notified a high percentage of new cases of tuberculosis, which demonstrates the progress of this indicator in recent years in the country<sup><xref ref-type="bibr" rid="B2">2</xref></sup>. Most of the new cases occurred in municipalities where the contact investigation is below the target, which may limit the adequate control of disease transmission from early diagnosis and treatment<sup><xref ref-type="bibr" rid="B10">10</xref></sup>. Although the national average of HIV testing increased from 65.3% in 2011 to 82.5% in 2019<sup><xref ref-type="bibr" rid="B2">2</xref></sup>, this indicator was below the target in all groups of municipalities, as also reported in Canada<sup><xref ref-type="bibr" rid="B18">18</xref></sup>. It is worth highlighting the potential for partnerships between tuberculosis and Aids programs to advance the implementation of rapid HIV testing<sup><xref ref-type="bibr" rid="B19">19</xref></sup>. The main action to support and monitor tuberculosis treatment<sup><xref ref-type="bibr" rid="B10">10</xref></sup>, namely DOT, did not reach the target in any group, being the indicator with the highest percentage of non-compliance of our study (19.2%), a difficulty previously pointed out<sup><xref ref-type="bibr" rid="B20">20</xref></sup>. Abandonment was above the target in few municipalities and cure in none of the groups. It is worth mentioning that these indicators of treatment outcome are sensitive to failures in the implementation of tuberculosis control programs<sup><xref ref-type="bibr" rid="B7">7</xref></sup>and may be related to the physical distance between patients and the health services that treat the disease<sup><xref ref-type="bibr" rid="B21">21</xref></sup>.</p>
+			<p>Large-sized municipalities have higher percentages of laboratory confirmation, HIV testing, and abandonment and lower percentages of contact investigation, DOT, and cure. In these locations, laboratory confirmation is higher, possibly due to the implementation of the <italic>Rede de Teste Rápido para Tuberculose</italic> (Network for Rapid Tuberculosis Testing) in mid-2014<sup><xref ref-type="bibr" rid="B22">22</xref></sup> and the wide range of procedures in public healthcare services<sup><xref ref-type="bibr" rid="B23">23</xref></sup>, which also ensures greater HIV testing. However, larger municipalities had lower coverage of primary health care, which may have repercussions on the lower performance of the contact investigation and DOT and on the higher occurrence of unfavorable treatment outcomes, as primary health care is closer to the residents of people with tuberculosis and can provide them with better treatment support and monitoring<sup><xref ref-type="bibr" rid="B7">7</xref></sup>.</p>
+			<p>In this study, municipalities with high coverage of primary health care, such as those in group A with &lt; 100 thousand inhabitants, presented good performance for tuberculosis control. Nevertheless, these municipalities comprised a few of the new cases of the disease. It is worth considering that, within primary health care, units with <italic>Estratégia de Saúde da Família</italic> (ESF – Family Health Strategy) offer regular actions to control tuberculosis and detect more cases of the disease in relation to health services without this strategy<sup><xref ref-type="bibr" rid="B24">24</xref></sup>.</p>
+			<p>Conversely, the municipalities with &lt; 50 thousand inhabitants in group C, although with high coverage of primary health care, presented poor performance for tuberculosis control, considering the low rates of laboratory confirmation, HIV testing, and cure, and high abandonment, while having a low incidence of tuberculosis, Aids, and low unemployment rate. In these locations, factors, such as low health budget and poor professional training, probably contribute more significantly to the unsatisfactory performance of tuberculosis control. The stratification of municipalities by population range before their classification by tuberculosis control performance was crucial to obtain more homogeneous results, considering that, as described in a previous study, this performance is not only related to population size<sup><xref ref-type="bibr" rid="B8">8</xref></sup>. Although larger municipalities generally provide tools to properly operationalize the tuberculosis program<sup><xref ref-type="bibr" rid="B17">17</xref></sup>, such as greater infrastructure for laboratory confirmation and HIV testing, effective disease control actions can be carried out in smaller locations with limited resources<sup><xref ref-type="bibr" rid="B9">9</xref></sup>.</p>
+			<p>It is noteworthy that among the municipalities with &gt; 300 thousand inhabitants in group C, in which a high percentage of new cases of tuberculosis were notified, HIV testing, contact investigation, DOT, abandonment, and cure were below the target. In addition, this group had the lowest coverage of primary health care and the highest rates of unemployment, incidence and mortality from tuberculosis, and detection of Aids. A previous study found an association between the incidence of tuberculosis and unemployment rates and Aids detection<sup><xref ref-type="bibr" rid="B12">12</xref></sup>. It is worth considering that the high incidence rates of tuberculosis and Aids represent a high risk of infection for these diseases and a higher demand for the health sector<sup><xref ref-type="bibr" rid="B8">8</xref></sup>. Therefore, in these larger municipalities with unsatisfactory performance for tuberculosis control, disease control initiatives should be prioritized<sup><xref ref-type="bibr" rid="B19">19</xref></sup>, especially in socioeconomically deprived areas, where mortality rates from the disease are higher<sup><xref ref-type="bibr" rid="B25">25</xref></sup> and, due to poor coverage of primary health care, abandonment is high<sup><xref ref-type="bibr" rid="B26">26</xref></sup>.</p>
+			<p>Moreover, in larger municipalities, population clusters whose residents have poor health status and greater susceptibility to tuberculosis<sup><xref ref-type="bibr" rid="B27">27</xref></sup>are common, considering that tuberculosis is a socially determined disease and poverty impacts all its stages, from transmission to treatment outcomes<sup><xref ref-type="bibr" rid="B28">28</xref></sup>. Cash transfer programs, such as <italic>Bolsa Família</italic> (Family Funding Program), can change this scenario, as they have been related to lower incidence of the disease<sup><xref ref-type="bibr" rid="B29">29</xref></sup>, higher cure<sup><xref ref-type="bibr" rid="B30">30</xref></sup>, and lower abandonment<sup><xref ref-type="bibr" rid="B31">31</xref></sup>.</p>
+			<p>A previous study evaluated tuberculosis control in Brazilian municipalities<sup><xref ref-type="bibr" rid="B9">9</xref></sup>. The contribution of our study is the classification of the performance of municipal disease control by its operational indicators, considering the size in virtually all municipalities where cases of the disease were notified in Brazil, thus having high internal validity. In addition, it was innovative in applying a second clustering method, the LPA, in such a way to complement the k-means method and obtain highly similar results, which is probably a unique use and comparison in the field of health.</p>
+			<p>However, this study has limitations. The first is the use of administrative data, which may have deficiencies in the quality of registration and may underestimate the percentage of contact investigation, DOT, and HIV testing. The second is that the most current values for the unemployment rate of the municipalities derive from the 2010 Demographic Census, which may not portray the reality of the evaluation period of tuberculosis indicators (2015 to 2018). In larger municipalities, the control evaluation should be carried out on an intramunicipal scale, considering its social and economic heterogeneity and the high number of cases of the disease, while in small municipalities this evaluation is also challenging due to the reduced number of cases of the disease, limitations minimized by the segmentation according to population range and analysis of the four-year period. In this study, we considered the process dimensions and results instead of the structure of the tuberculosis control program. Finally, the ecological approach makes it impossible for the results to be extrapolated to the individual level.</p>
+		</sec>
+		<sec sec-type="conclusions">
+			<title>CONCLUSION</title>
+			<p>In this study, we performed an evaluation of tuberculosis control in Brazilian municipalities based on the operational indicators of the disease, and verified that most new cases are followed up in larger municipalities with difficulties performing adequate control of the disease (that is, with low HIV testing, low contact investigation, low directly observed therapy, low cure, and high abandonment) and with high incidence and mortality from tuberculosis, detection of Aids, high unemployment rate, and low coverage of primary health care. In these locations, the expansion of primary health care and social protection programs can ensure better outcomes for tuberculosis indicators, especially those directly related to availability and access to health professionals such as contact investigation, directly observed therapy, cure, and abandonment.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>REFERENCES</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. World health Organization. WHO global lists of high burden countries for TB, multidrug/rifampicin-resistant TB (MDR/RR-TB) and TB/HIV, 2021-2025. Geneva (CH): WHO; 2021 [cited 2021 Jun 17]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.who.int/news/item/17-06-2021-who-releases-new-global-lists-of-high-burden-countries-for-tb-hiv-associated-tb-and-drug-resistant-tb">https://www.who.int/news/item/17-06-2021-who-releases-new-global-lists-of-high-burden-countries-for-tb-hiv-associated-tb-and-drug-resistant-tb</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>World health Organization</collab>
+					</person-group>
+					<source>WHO global lists of high burden countries for TB, multidrug/rifampicin-resistant TB (MDR/RR-TB) and TB/HIV, 2021-2025</source>
+					<publisher-loc>Geneva (CH)</publisher-loc>
+					<publisher-name>WHO</publisher-name>
+					<year>2021</year>
+					<date-in-citation content-type="cited-date">cited 2021 Jun 17</date-in-citation>
+					<ext-link ext-link-type="uri" xlink:href="https://www.who.int/news/item/17-06-2021-who-releases-new-global-lists-of-high-burden-countries-for-tb-hiv-associated-tb-and-drug-resistant-tb">https://www.who.int/news/item/17-06-2021-who-releases-new-global-lists-of-high-burden-countries-for-tb-hiv-associated-tb-and-drug-resistant-tb</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. Ministério da Saúde (BR), Secretaria de Vigilância em Saúde, Departamento de Doenças de Condições Crônicas e Infecções Sexualmente Transmissíveis, Coordenação Geral de Vigilância das Doenças de Transmissão Respiratória de Condições Crônicas. Bol Epidemiol Tuberculose; 2021 [cited 2021 May 12]; N° Espec. <ext-link ext-link-type="uri" xlink:href="http://www.aids.gov.br/pt-br/pub/2021/boletim-tuberculose-2021">http://www.aids.gov.br/pt-br/pub/2021/boletim-tuberculose-2021</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+						<collab>Secretaria de Vigilância em Saúde</collab>
+						<collab>Departamento de Doenças de Condições Crônicas e Infecções Sexualmente Transmissíveis</collab>
+						<collab>Coordenação Geral de Vigilância das Doenças de Transmissão Respiratória de Condições Crônicas</collab>
+					</person-group>
+					<source>Bol Epidemiol Tuberculose</source>
+					<year>2021</year>
+					<date-in-citation content-type="cited-date">cited 2021 May 12</date-in-citation>
+					<issue>Espec</issue>
+					<ext-link ext-link-type="uri" xlink:href="http://www.aids.gov.br/pt-br/pub/2021/boletim-tuberculose-2021">http://www.aids.gov.br/pt-br/pub/2021/boletim-tuberculose-2021</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. Ministério da Saúde (BR). Secretaria de Vigilância em Saúde. Departamento de Vigilância das Doenças Transmissíveis. Brasil Livre da Tuberculose: Plano Nacional pelo Fim da Tuberculose como Problema de Saúde Pública. Brasília (DF); 2017. Available from: <ext-link ext-link-type="uri" xlink:href="http://bvsms.saude.gov.br/bvs/publicacoes/brasil_livre_tuberculose_plano_nacional.pdf">http://bvsms.saude.gov.br/bvs/publicacoes/brasil_livre_tuberculose_plano_nacional.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+						<collab>Secretaria de Vigilância em Saúde</collab>
+						<collab>Departamento de Vigilância das Doenças Transmissíveis</collab>
+					</person-group>
+					<source>Brasil Livre da Tuberculose: Plano Nacional pelo Fim da Tuberculose como Problema de Saúde Pública</source>
+					<publisher-loc>Brasília (DF)</publisher-loc>
+					<year>2017</year>
+					<ext-link ext-link-type="uri" xlink:href="http://bvsms.saude.gov.br/bvs/publicacoes/brasil_livre_tuberculose_plano_nacional.pdf">http://bvsms.saude.gov.br/bvs/publicacoes/brasil_livre_tuberculose_plano_nacional.pdf</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. Barreto ML, Rasella D, Machado DB, Aquino R, Lima D, Garcia LP, et al. Monitoring and evaluating progress towards Universal Health Coverage in Brazil. PLoS Med. 2014;11(9):e1001692. <ext-link ext-link-type="uri" xlink:href="https://doi:10.1371/journal.pmed.1001692">https://doi:10.1371/journal.pmed.1001692</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Barreto</surname>
+							<given-names>ML</given-names>
+						</name>
+						<name>
+							<surname>Rasella</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Machado</surname>
+							<given-names>DB</given-names>
+						</name>
+						<name>
+							<surname>Aquino</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Lima</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Garcia</surname>
+							<given-names>LP</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Monitoring and evaluating progress towards Universal Health Coverage in Brazil</article-title>
+					<source>PLoS Med</source>
+					<year>2014</year>
+					<volume>11</volume>
+					<issue>9</issue>
+					<fpage>e1001692</fpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi:10.1371/journal.pmed.1001692">https://doi:10.1371/journal.pmed.1001692</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Ministério da Saúde (BR), Secretaria de Vigilância em Saúde. Indicadores prioritários para o monitoramento do Plano Nacional pelo Fim da Tuberculose como Problema de Saúde Pública no Brasil. Bol Epidemiol. 2017;48(8):1-11.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+						<collab>Secretaria de Vigilância em Saúde</collab>
+					</person-group>
+					<article-title>Indicadores prioritários para o monitoramento do Plano Nacional pelo Fim da Tuberculose como Problema de Saúde Pública no Brasil</article-title>
+					<source>Bol Epidemiol</source>
+					<year>2017</year>
+					<volume>48</volume>
+					<issue>8</issue>
+					<fpage>1</fpage>
+					<lpage>11</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. World Health Organization. Global tuberculosis report 2020. Geneva (CH): WHO; 2020 [cited 2021 Jun 17]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.who.int/publications/i/item/9789240013131">https://www.who.int/publications/i/item/9789240013131</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>World Health Organization</collab>
+					</person-group>
+					<source>Global tuberculosis report 2020</source>
+					<publisher-loc>Geneva (CH)</publisher-loc>
+					<publisher-name>WHO</publisher-name>
+					<year>2020</year>
+					<date-in-citation content-type="cited-date">cited 2021 Jun 17</date-in-citation>
+					<ext-link ext-link-type="uri" xlink:href="https://www.who.int/publications/i/item/9789240013131">https://www.who.int/publications/i/item/9789240013131</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. Bartholomay P, Pelissari DM, Araujo WN, Yadon ZE, Heldal E. Quality of tuberculosis care at different levels of health care in Brazil in 2013. Rev Panam Salud Publica. 2016;39(1):3-11. <ext-link ext-link-type="uri" xlink:href="https://www.scielosp.org/article/rpsp/2016.v39n1/3-11/">https://www.scielosp.org/article/rpsp/2016.v39n1/3-11/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bartholomay</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Pelissari</surname>
+							<given-names>DM</given-names>
+						</name>
+						<name>
+							<surname>Araujo</surname>
+							<given-names>WN</given-names>
+						</name>
+						<name>
+							<surname>Yadon</surname>
+							<given-names>ZE</given-names>
+						</name>
+						<name>
+							<surname>Heldal</surname>
+							<given-names>E</given-names>
+						</name>
+					</person-group>
+					<article-title>Quality of tuberculosis care at different levels of health care in Brazil in 2013</article-title>
+					<source>Rev Panam Salud Publica</source>
+					<year>2016</year>
+					<volume>39</volume>
+					<issue>1</issue>
+					<fpage>3</fpage>
+					<lpage>11</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://www.scielosp.org/article/rpsp/2016.v39n1/3-11/">https://www.scielosp.org/article/rpsp/2016.v39n1/3-11/</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Gonçalves MJF, Penna MLF. Morbidade por tuberculose e desempenho do programa de controle em municípios brasileiros, 2001-2003. Rev Saude Publica. 2007;41 Supl 1:95-102. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0034-89102007000800013">https://doi.org/10.1590/S0034-89102007000800013</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Gonçalves</surname>
+							<given-names>MJF</given-names>
+						</name>
+						<name>
+							<surname>Penna</surname>
+							<given-names>MLF</given-names>
+						</name>
+					</person-group>
+					<article-title>Morbidade por tuberculose e desempenho do programa de controle em municípios brasileiros, 2001-2003</article-title>
+					<source>Rev Saude Publica</source>
+					<year>2007</year>
+					<volume>41</volume>
+					<fpage>95</fpage>
+					<lpage>102</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0034-89102007000800013">https://doi.org/10.1590/S0034-89102007000800013</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. Pelissari DM, Rocha MS, Bartholomay P, Sanchez MN, Duarte EC, Arakaki-Sanchez D, et al. Identifying socioeconomic, epidemiological and operational scenarios for tuberculosis control in Brazil: an ecological study. BMJ Open. 2018;8(6):e018545. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/bmjopen-2017-018545">https://doi.org/10.1136/bmjopen-2017-018545</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pelissari</surname>
+							<given-names>DM</given-names>
+						</name>
+						<name>
+							<surname>Rocha</surname>
+							<given-names>MS</given-names>
+						</name>
+						<name>
+							<surname>Bartholomay</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Sanchez</surname>
+							<given-names>MN</given-names>
+						</name>
+						<name>
+							<surname>Duarte</surname>
+							<given-names>EC</given-names>
+						</name>
+						<name>
+							<surname>Arakaki-Sanchez</surname>
+							<given-names>D</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Identifying socioeconomic, epidemiological and operational scenarios for tuberculosis control in Brazil: an ecological study</article-title>
+					<source>BMJ Open</source>
+					<year>2018</year>
+					<volume>8</volume>
+					<issue>6</issue>
+					<fpage>e018545</fpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/bmjopen-2017-018545">https://doi.org/10.1136/bmjopen-2017-018545</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. Ministério da Saúde (BR), Secretaria de Vigilância em Saúde, Departamento de Vigilância das Doenças Transmissíveis. Manual de recomendações para o controle da tuberculose no Brasil. 2. ed. atual. Brasília (DF); 2019 [cited 2021 May 12]. Available from: <ext-link ext-link-type="uri" xlink:href="http://www.aids.gov.br/pt-br/pub/2019/manual-de-recomendacoes-para-o-controle-da-tuberculose-no-brasil">http://www.aids.gov.br/pt-br/pub/2019/manual-de-recomendacoes-para-o-controle-da-tuberculose-no-brasil</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+						<collab>Secretaria de Vigilância em Saúde</collab>
+						<collab>Departamento de Vigilância das Doenças Transmissíveis</collab>
+					</person-group>
+					<source>Manual de recomendações para o controle da tuberculose no Brasil</source>
+					<edition>2</edition>
+					<publisher-loc>Brasília (DF)</publisher-loc>
+					<year>2019</year>
+					<date-in-citation content-type="cited-date">cited 2021 May 12</date-in-citation>
+					<ext-link ext-link-type="uri" xlink:href="http://www.aids.gov.br/pt-br/pub/2019/manual-de-recomendacoes-para-o-controle-da-tuberculose-no-brasil">http://www.aids.gov.br/pt-br/pub/2019/manual-de-recomendacoes-para-o-controle-da-tuberculose-no-brasil</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. Matida AH, Camacho LAB. Pesquisa avaliativa e epidemiologia: movimentos e síntese no processo de avaliação de programas de saúde. Cad Saude Publica. 2004;20(1):37-47. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0102-311X2004000100017">https://doi.org/10.1590/S0102-311X2004000100017</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Matida</surname>
+							<given-names>AH</given-names>
+						</name>
+						<name>
+							<surname>Camacho</surname>
+							<given-names>LAB</given-names>
+						</name>
+					</person-group>
+					<article-title>Pesquisa avaliativa e epidemiologia: movimentos e síntese no processo de avaliação de programas de saúde</article-title>
+					<source>Cad Saude Publica</source>
+					<year>2004</year>
+					<volume>20</volume>
+					<issue>1</issue>
+					<fpage>37</fpage>
+					<lpage>47</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0102-311X2004000100017">https://doi.org/10.1590/S0102-311X2004000100017</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. Pelissari DM, Oliveira PB, Jacobs MG, Arakaki-Sanchez D, Anjos DSO, Costa MLS, et al. Oferta de serviços pela atenção básica e detecção da incidência de tuberculose no Brasil. Rev Saude Publica. 2018;52:53. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.11606/S1518-8787.2018052000131">https://doi.org/10.11606/S1518-8787.2018052000131</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pelissari</surname>
+							<given-names>DM</given-names>
+						</name>
+						<name>
+							<surname>Oliveira</surname>
+							<given-names>PB</given-names>
+						</name>
+						<name>
+							<surname>Jacobs</surname>
+							<given-names>MG</given-names>
+						</name>
+						<name>
+							<surname>Arakaki-Sanchez</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Anjos</surname>
+							<given-names>DSO</given-names>
+						</name>
+						<name>
+							<surname>Costa</surname>
+							<given-names>MLS</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Oferta de serviços pela atenção básica e detecção da incidência de tuberculose no Brasil</article-title>
+					<source>Rev Saude Publica</source>
+					<year>2018</year>
+					<volume>52</volume>
+					<fpage>53</fpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.11606/S1518-8787.2018052000131">https://doi.org/10.11606/S1518-8787.2018052000131</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. Tanaka OY, Drumond Júnior M, Cristo EB, Spedo SM, Pinto NRS. Uso da análise de clusters como ferramenta de apoio à gestão no SUS. Saude Soc. 2015;24(1):34-45. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0104-12902015000100003">https://doi.org/10.1590/S0104-12902015000100003</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Tanaka</surname>
+							<given-names>OY</given-names>
+						</name>
+						<name>
+							<surname>Drumond</surname>
+							<given-names>M</given-names>
+							<suffix>Júnior</suffix>
+						</name>
+						<name>
+							<surname>Cristo</surname>
+							<given-names>EB</given-names>
+						</name>
+						<name>
+							<surname>Spedo</surname>
+							<given-names>SM</given-names>
+						</name>
+						<name>
+							<surname>Pinto</surname>
+							<given-names>NRS</given-names>
+						</name>
+					</person-group>
+					<article-title>Uso da análise de clusters como ferramenta de apoio à gestão no SUS</article-title>
+					<source>Saude Soc</source>
+					<year>2015</year>
+					<volume>24</volume>
+					<issue>1</issue>
+					<fpage>34</fpage>
+					<lpage>45</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0104-12902015000100003">https://doi.org/10.1590/S0104-12902015000100003</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. Kodinariya TM, Makwana PR. Review on determining number of cluster in K-Means Clustering. Int J Adv Res Comput Sci Manag Stud. 2013 [cited 2021 Jun 24];1(6):90-5. Available from: <ext-link ext-link-type="uri" xlink:href="http://www.ijarcsms.com/docs/paper/volume1/issue6/V1I6-0015.pdf">http://www.ijarcsms.com/docs/paper/volume1/issue6/V1I6-0015.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kodinariya</surname>
+							<given-names>TM</given-names>
+						</name>
+						<name>
+							<surname>Makwana</surname>
+							<given-names>PR</given-names>
+						</name>
+					</person-group>
+					<article-title>Review on determining number of cluster in K-Means Clustering</article-title>
+					<source>Int J Adv Res Comput Sci Manag Stud</source>
+					<year>2013</year>
+					<date-in-citation content-type="cited-date">cited 2021 Jun 24</date-in-citation>
+					<volume>1</volume>
+					<issue>6</issue>
+					<fpage>90</fpage>
+					<lpage>95</lpage>
+					<ext-link ext-link-type="uri" xlink:href="http://www.ijarcsms.com/docs/paper/volume1/issue6/V1I6-0015.pdf">http://www.ijarcsms.com/docs/paper/volume1/issue6/V1I6-0015.pdf</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. Stop TB Partnership. Reaching the United Nations TB Targets. The Paradigm Shift. Global Plan to End TB: 2018-2022. Geneva (CH): Stop TB Partnership; 2019. Available from: <ext-link ext-link-type="uri" xlink:href="http://www.stoptb.org/global/plan/plan1822.asp">http://www.stoptb.org/global/plan/plan1822.asp</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>Stop TB Partnership</collab>
+					</person-group>
+					<source>Reaching the United Nations TB Targets. The Paradigm Shift. Global Plan to End TB: 2018-2022</source>
+					<publisher-loc>Geneva (CH)</publisher-loc>
+					<publisher-name>Stop TB Partnership</publisher-name>
+					<year>2019</year>
+					<ext-link ext-link-type="uri" xlink:href="http://www.stoptb.org/global/plan/plan1822.asp">http://www.stoptb.org/global/plan/plan1822.asp</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. Ministério da Saúde (BR), Secretaria de Vigilância em Saúde, Departamento de Doenças de Condições Crônicas e Infecções Sexualmente Transmissíveis. Bol Epidemiol Tuberculose; 2020 [cited 2021 May 17];Nº Espec. Available from: <ext-link ext-link-type="uri" xlink:href="http://www.aids.gov.br/pt-br/pub/2020/boletim-epidemiologico-de-turbeculose-2020">http://www.aids.gov.br/pt-br/pub/2020/boletim-epidemiologico-de-turbeculose-2020</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+						<collab>Secretaria de Vigilância em Saúde</collab>
+						<collab>Departamento de Doenças de Condições Crônicas e Infecções Sexualmente Transmissíveis</collab>
+					</person-group>
+					<source>Bol Epidemiol Tuberculose</source>
+					<year>2020</year>
+					<date-in-citation content-type="cited-date">cited 2021 May 17</date-in-citation>
+					<issue>Espec</issue>
+					<ext-link ext-link-type="uri" xlink:href="http://www.aids.gov.br/pt-br/pub/2020/boletim-epidemiologico-de-turbeculose-2020">http://www.aids.gov.br/pt-br/pub/2020/boletim-epidemiologico-de-turbeculose-2020</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Oberski D. Mixture models: latent profile and latent class analysis. In: Robertson J, Kaptein M, editors. Modern statistical methods for HCI. Cham (CH): Springer; 2016. (Human-Computer Interaction Series). <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/978-3-319-26633-6_12">https://doi.org/10.1007/978-3-319-26633-6_12</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Oberski</surname>
+							<given-names>D</given-names>
+						</name>
+					</person-group>
+					<chapter-title>Mixture models: latent profile and latent class analysis</chapter-title>
+					<person-group person-group-type="editor">
+						<name>
+							<surname>Robertson</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Kaptein</surname>
+							<given-names>M</given-names>
+						</name>
+						<role>editors</role>
+					</person-group>
+					<source>Modern statistical methods for HCI</source>
+					<publisher-loc>Cham (CH)</publisher-loc>
+					<publisher-name>Springer</publisher-name>
+					<year>2016</year>
+					<comment>Human-Computer Interaction Series</comment>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/978-3-319-26633-6_12">https://doi.org/10.1007/978-3-319-26633-6_12</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18. Basham CA, Elias B, Fanning A, Cook C, Orr P. Performance measurement of a Canadian provincial tuberculosis programme: Manitoba, 2008–2012. Int J Tuberc Lung Dis. 2018;22(4):437-43. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5588/ijtld.17.0508">https://doi.org/10.5588/ijtld.17.0508</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Basham</surname>
+							<given-names>CA</given-names>
+						</name>
+						<name>
+							<surname>Elias</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Fanning</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Cook</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Orr</surname>
+							<given-names>P</given-names>
+						</name>
+					</person-group>
+					<article-title>Performance measurement of a Canadian provincial tuberculosis programme: Manitoba, 2008–2012</article-title>
+					<source>Int J Tuberc Lung Dis</source>
+					<year>2018</year>
+					<volume>22</volume>
+					<issue>4</issue>
+					<fpage>437</fpage>
+					<lpage>443</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5588/ijtld.17.0508">https://doi.org/10.5588/ijtld.17.0508</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19. Arakawa T, Magnabosco GT, Andrade RLP, Brunello MEF, Monroe AA, Scatena LM, et al. Programa de controle da tuberculose no contexto municipal: avaliação de desempenho. Rev Saude Publica. 2017;51:23. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S1518-8787.2017051006553">https://doi.org/10.1590/S1518-8787.2017051006553</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Arakawa</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Magnabosco</surname>
+							<given-names>GT</given-names>
+						</name>
+						<name>
+							<surname>Andrade</surname>
+							<given-names>RLP</given-names>
+						</name>
+						<name>
+							<surname>Brunello</surname>
+							<given-names>MEF</given-names>
+						</name>
+						<name>
+							<surname>Monroe</surname>
+							<given-names>AA</given-names>
+						</name>
+						<name>
+							<surname>Scatena</surname>
+							<given-names>LM</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Programa de controle da tuberculose no contexto municipal: avaliação de desempenho</article-title>
+					<source>Rev Saude Publica</source>
+					<year>2017</year>
+					<volume>51</volume>
+					<size units="pages">23</size>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S1518-8787.2017051006553">https://doi.org/10.1590/S1518-8787.2017051006553</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20. Silva GDM, Bartholomay P, Cruz OG, Garcia LP. Avaliação da qualidade dos dados, oportunidade e aceitabilidade da vigilância da tuberculose nas microrregiões do Brasi. Cienc Saude Colet. 2017;22(10):3307-19. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1413-812320172210.18032017">https://doi.org/10.1590/1413-812320172210.18032017</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Silva</surname>
+							<given-names>GDM</given-names>
+						</name>
+						<name>
+							<surname>Bartholomay</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Cruz</surname>
+							<given-names>OG</given-names>
+						</name>
+						<name>
+							<surname>Garcia</surname>
+							<given-names>LP</given-names>
+						</name>
+					</person-group>
+					<article-title>Avaliação da qualidade dos dados, oportunidade e aceitabilidade da vigilância da tuberculose nas microrregiões do Brasi</article-title>
+					<source>Cienc Saude Colet</source>
+					<year>2017</year>
+					<volume>22</volume>
+					<issue>10</issue>
+					<fpage>3307</fpage>
+					<lpage>3319</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1413-812320172210.18032017">https://doi.org/10.1590/1413-812320172210.18032017</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>21. Dangisso MH, Datiko DG, Lindtjørn B. Accessibility to tuberculosis control services and tuberculosis programme performance in southern Ethiopia. Glob Health Action. 2015;8(1):29443. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3402/gha.v8.29443">https://doi.org/10.3402/gha.v8.29443</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Dangisso</surname>
+							<given-names>MH</given-names>
+						</name>
+						<name>
+							<surname>Datiko</surname>
+							<given-names>DG</given-names>
+						</name>
+						<name>
+							<surname>Lindtjørn</surname>
+							<given-names>B</given-names>
+						</name>
+					</person-group>
+					<article-title>Accessibility to tuberculosis control services and tuberculosis programme performance in southern Ethiopia</article-title>
+					<source>Glob Health Action</source>
+					<year>2015</year>
+					<volume>8</volume>
+					<issue>1</issue>
+					<fpage>29443</fpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3402/gha.v8.29443">https://doi.org/10.3402/gha.v8.29443</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>22. Ministério da Saúde (BR), Secretaria de Vigilância em Saúde, Departamento de Vigilância das Doenças Transmissíveis. Rede de Teste Rápido para Tuberculose no Brasil: primeiro ano da implantação. Brasília (DF); 2015.</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+						<collab>Secretaria de Vigilância em Saúde</collab>
+						<collab>Departamento de Vigilância das Doenças Transmissíveis</collab>
+					</person-group>
+					<source>Rede de Teste Rápido para Tuberculose no Brasil: primeiro ano da implantação</source>
+					<publisher-loc>Brasília (DF)</publisher-loc>
+					<year>2015</year>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>23. Ibañez N, Rocha JSY, Castro PC, Ribeiro MCSA, Forster AC, Novaes MHD, et al. Avaliação do desempenho da atenção básica no Estado de São Paulo. Cienc Saude Colet. 2006;11(3);683-703. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S1413-81232006000300016">https://doi.org/10.1590/S1413-81232006000300016</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ibañez</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Rocha</surname>
+							<given-names>JSY</given-names>
+						</name>
+						<name>
+							<surname>Castro</surname>
+							<given-names>PC</given-names>
+						</name>
+						<name>
+							<surname>Ribeiro</surname>
+							<given-names>MCSA</given-names>
+						</name>
+						<name>
+							<surname>Forster</surname>
+							<given-names>AC</given-names>
+						</name>
+						<name>
+							<surname>Novaes</surname>
+							<given-names>MHD</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Avaliação do desempenho da atenção básica no Estado de São Paulo</article-title>
+					<source>Cienc Saude Colet</source>
+					<year>2006</year>
+					<volume>11</volume>
+					<issue>3</issue>
+					<fpage>683</fpage>
+					<lpage>703</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S1413-81232006000300016">https://doi.org/10.1590/S1413-81232006000300016</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>24. Cardozo-Gonzales RI, Palha PF, Harter J, Alarcon E, Lima LM, Tomberg JO. Avaliação das ações de detecção de casos de tuberculose na atenção primária. Rev Eletron Enfermagem. 2015;17(4):1-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5216/ree.v17i4.32846">https://doi.org/10.5216/ree.v17i4.32846</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cardozo-Gonzales</surname>
+							<given-names>RI</given-names>
+						</name>
+						<name>
+							<surname>Palha</surname>
+							<given-names>PF</given-names>
+						</name>
+						<name>
+							<surname>Harter</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Alarcon</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Lima</surname>
+							<given-names>LM</given-names>
+						</name>
+						<name>
+							<surname>Tomberg</surname>
+							<given-names>JO</given-names>
+						</name>
+					</person-group>
+					<article-title>Avaliação das ações de detecção de casos de tuberculose na atenção primária</article-title>
+					<source>Rev Eletron Enfermagem</source>
+					<year>2015</year>
+					<volume>17</volume>
+					<issue>4</issue>
+					<fpage>1</fpage>
+					<lpage>8</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5216/ree.v17i4.32846">https://doi.org/10.5216/ree.v17i4.32846</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>25. Arcoverde MAM, Berra TZ, Alves LS, Santos DT, Belchior AS, Ramos ACV, et al. How do social-economic differences in urban areas affect tuberculosis mortality in a city in the tri-border region of Brazil, Paraguay and Argentina. BMC Public Health. 2018;18:795. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12889-018-5623-2">https://doi.org/10.1186/s12889-018-5623-2</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Arcoverde</surname>
+							<given-names>MAM</given-names>
+						</name>
+						<name>
+							<surname>Berra</surname>
+							<given-names>TZ</given-names>
+						</name>
+						<name>
+							<surname>Alves</surname>
+							<given-names>LS</given-names>
+						</name>
+						<name>
+							<surname>Santos</surname>
+							<given-names>DT</given-names>
+						</name>
+						<name>
+							<surname>Belchior</surname>
+							<given-names>AS</given-names>
+						</name>
+						<name>
+							<surname>Ramos</surname>
+							<given-names>ACV</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>How do social-economic differences in urban areas affect tuberculosis mortality in a city in the tri-border region of Brazil, Paraguay and Argentina</article-title>
+					<source>BMC Public Health</source>
+					<year>2018</year>
+					<volume>18</volume>
+					<size units="pages">795</size>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12889-018-5623-2">https://doi.org/10.1186/s12889-018-5623-2</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation>26. Maciel EMGS, Amancio JS, Castro DB, Braga JU. Social determinants of pulmonary tuberculosis treatment non-adherence in Rio de Janeiro, Brazil. 2018. PLoS On. 2018;13(1):e0190578. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10e.1371/journal.pone.0190578">https://doi.org/10e.1371/journal.pone.0190578</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Maciel</surname>
+							<given-names>EMGS</given-names>
+						</name>
+						<name>
+							<surname>Amancio</surname>
+							<given-names>JS</given-names>
+						</name>
+						<name>
+							<surname>Castro</surname>
+							<given-names>DB</given-names>
+						</name>
+						<name>
+							<surname>Braga</surname>
+							<given-names>JU</given-names>
+						</name>
+					</person-group>
+					<article-title>Social determinants of pulmonary tuberculosis treatment non-adherence in Rio de Janeiro, Brazil</article-title>
+					<comment>2018</comment>
+					<source>PLoS On</source>
+					<year>2018</year>
+					<volume>13</volume>
+					<issue>1</issue>
+					<elocation-id>e0190578</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10e.1371/journal.pone.0190578">https://doi.org/10e.1371/journal.pone.0190578</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<mixed-citation>27. Ezeh A, Oyebode O, Satterthwaite D, Chen YF, Ndugwa R, Sartori J, et al. The history, geography, and sociology of slums and the health problems of people who live in slums. Lancet. 2017;389(10068):547-58. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(16)31650-6">https://doi.org/10.1016/ S0140-6736(16)31650-6</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ezeh</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Oyebode</surname>
+							<given-names>O</given-names>
+						</name>
+						<name>
+							<surname>Satterthwaite</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Chen</surname>
+							<given-names>YF</given-names>
+						</name>
+						<name>
+							<surname>Ndugwa</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Sartori</surname>
+							<given-names>J</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>The history, geography, and sociology of slums and the health problems of people who live in slums</article-title>
+					<source>Lancet</source>
+					<year>2017</year>
+					<volume>389</volume>
+					<issue>10068</issue>
+					<fpage>547</fpage>
+					<lpage>558</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(16)31650-6">https://doi.org/10.1016/ S0140-6736(16)31650-6</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<mixed-citation>28. Lönnroth K, Jaramillo E, Williams BG, Dye C, Raviglione M. Drivers of tuberculosis epidemics: the role of risk factors and social determinants. Soc Sci Med. 2009;68(12):2240-6. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.socscimed.2009.03.041">https://doi.org/10.1016/j.socscimed.2009.03.041</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lönnroth</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Jaramillo</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Williams</surname>
+							<given-names>BG</given-names>
+						</name>
+						<name>
+							<surname>Dye</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Raviglione</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>Drivers of tuberculosis epidemics: the role of risk factors and social determinants</article-title>
+					<source>Soc Sci Med</source>
+					<year>2009</year>
+					<volume>68</volume>
+					<issue>12</issue>
+					<fpage>2240</fpage>
+					<lpage>2246</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.socscimed.2009.03.041">https://doi.org/10.1016/j.socscimed.2009.03.041</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B29">
+				<label>29</label>
+				<mixed-citation>29. Nery JS, Rodrigues LC, Rasella D, Aquino R, Barreira D, Torrens AW, et al. Effect of Brazil’s conditional cash transfer programme on tuberculosis incidence. Int J Tuberc Lung Dis. 2017;21(7):790-6. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5588/ijtld.16.0599">https://doi.org/10.5588/ijtld.16.0599</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Nery</surname>
+							<given-names>JS</given-names>
+						</name>
+						<name>
+							<surname>Rodrigues</surname>
+							<given-names>LC</given-names>
+						</name>
+						<name>
+							<surname>Rasella</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Aquino</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Barreira</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Torrens</surname>
+							<given-names>AW</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Effect of Brazil’s conditional cash transfer programme on tuberculosis incidence</article-title>
+					<source>Int J Tuberc Lung Dis</source>
+					<year>2017</year>
+					<volume>21</volume>
+					<issue>7</issue>
+					<fpage>790</fpage>
+					<lpage>796</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5588/ijtld.16.0599">https://doi.org/10.5588/ijtld.16.0599</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B30">
+				<label>30</label>
+				<mixed-citation>30. Carter DJ, Daniel R, Torrens AW, Sanchez MN, Maciel ELN, Bartholomay P, et al. The impact of a cash transfer programme on tuberculosis treatment success rate: a quasi-experimental study in Brazil. BMJ Glob Health. 2019;4:e001029. <ext-link ext-link-type="uri" xlink:href="https://doi:10.1136/bmjgh-2018-001029">https://doi:10.1136/ bmjgh-2018-001029</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Carter</surname>
+							<given-names>DJ</given-names>
+						</name>
+						<name>
+							<surname>Daniel</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Torrens</surname>
+							<given-names>AW</given-names>
+						</name>
+						<name>
+							<surname>Sanchez</surname>
+							<given-names>MN</given-names>
+						</name>
+						<name>
+							<surname>Maciel</surname>
+							<given-names>ELN</given-names>
+						</name>
+						<name>
+							<surname>Bartholomay</surname>
+							<given-names>P</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>The impact of a cash transfer programme on tuberculosis treatment success rate: a quasi-experimental study in Brazil</article-title>
+					<source>BMJ Glob Health</source>
+					<year>2019</year>
+					<volume>4</volume>
+					<fpage>e001029</fpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi:10.1136/bmjgh-2018-001029">https://doi:10.1136/ bmjgh-2018-001029</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B31">
+				<label>31</label>
+				<mixed-citation>31. Oliosi JGN, Reis-Santos B, Locatelli RL, Sales CMM, Silva Filho WG, Silva KC, et al. Effect of the Bolsa Familia Programme on the outcome of tuberculosis treatment: a prospective cohort study. Lancet Glob Health. 2019;7(2):219-26. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S2214-109X(18)30478-9">https://doi.org/10.1016/S2214-109X(18)30478-9</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Oliosi</surname>
+							<given-names>JGN</given-names>
+						</name>
+						<name>
+							<surname>Reis-Santos</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Locatelli</surname>
+							<given-names>RL</given-names>
+						</name>
+						<name>
+							<surname>Sales</surname>
+							<given-names>CMM</given-names>
+						</name>
+						<name>
+							<surname>Silva</surname>
+							<given-names>WG</given-names>
+							<suffix>Filho</suffix>
+						</name>
+						<name>
+							<surname>Silva</surname>
+							<given-names>KC</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Effect of the Bolsa Familia Programme on the outcome of tuberculosis treatment: a prospective cohort study</article-title>
+					<source>Lancet Glob Health</source>
+					<year>2019</year>
+					<volume>7</volume>
+					<issue>2</issue>
+					<fpage>219</fpage>
+					<lpage>226</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S2214-109X(18)30478-9">https://doi.org/10.1016/S2214-109X(18)30478-9</ext-link>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="supported-by">
+				<p><bold>Funding:</bold> Brazilian Ministry of Health - VPGDI-003-FIO-19 - Project <italic>“Fortalecimento do Sistema Nacional de Vigilância para a prevenção, detecção precoce e resposta rápida às emergências em saúde pública”</italic> [Strengthening the National Surveillance System for prevention, early detection, and rapid response to public health emergencies”].</p>
+			</fn>
+		</fn-group>
+	</back>
+	<sub-article article-type="translation" id="TRpt" xml:lang="pt">
+		<front-stub>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artigo Original</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Avaliação de desempenho do controle da tuberculose em municípios brasileiros</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-4314-5894</contrib-id>
+					<name>
+						<surname>Pinto</surname>
+						<given-names>Priscila Fernanda Porto Scaff</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-7598-4302</contrib-id>
+					<name>
+						<surname>Santos</surname>
+						<given-names>Beatriz Pinheiro Schindler dos</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff2002"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-6340-7957</contrib-id>
+					<name>
+						<surname>Teixeira</surname>
+						<given-names>Camila Silveira Silva</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-1576-6418</contrib-id>
+					<name>
+						<surname>Nery</surname>
+						<given-names>Joilda Silva</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff2002"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-1112-2332</contrib-id>
+					<name>
+						<surname>Amorim</surname>
+						<given-names>Leila Denise Alves Ferreira</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff3002"><sup>III</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-0472-1804</contrib-id>
+					<name>
+						<surname>Sanchez</surname>
+						<given-names>Mauro Niskier</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff4002"><sup>IV</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-0215-4930</contrib-id>
+					<name>
+						<surname>Barreto</surname>
+						<given-names>Mauricio Lima</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff2002"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-8711-9589</contrib-id>
+					<name>
+						<surname>Pescarini</surname>
+						<given-names>Julia Moreira</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff5002"><sup>V</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1002">
+				<label>I</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Fundação Oswaldo Cruz. Centro de Integração de Dados e Conhecimentos para a Saúde. Salvador, BA, Brasil</institution>
+			</aff>
+			<aff id="aff2002">
+				<label>II</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Universidade Federal da Bahia. Instituto de Saúde Coletiva. Departamento de Saúde Coletiva I. Salvador, BA, Brasil</institution>
+			</aff>
+			<aff id="aff3002">
+				<label>III</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Universidade Federal da Bahia. Instituto de Matemática. Departamento de Estatística. Salvador, BA, Brasil</institution>
+			</aff>
+			<aff id="aff4002">
+				<label>IV</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Universidade de Brasília. Faculdade de Ciências da Saúde. Departamento de Saúde Coletiva. Brasília, DF, Brasil</institution>
+			</aff>
+			<aff id="aff5002">
+				<label>V</label>
+				<country country="UK">UK</country>
+				<institution content-type="original"> London School of Hygiene &amp; Tropical Medicine. Faculty of Epidemiology and Population Health. London, UK</institution>
+			</aff>
+			<author-notes>
+				<corresp id="c01002"> Correspondência: Priscila Fernanda Porto Scaff Pinto Rua Mundo, 121, Trobogy 41745-715 Salvador, BA, Brasil E-mail: priscila.scaff@fiocruz.br </corresp>
+				<fn fn-type="con">
+					<p><bold>Contribuição dos Autores:</bold> Concepção e planejamento do estudo: PFPSP, JMP. Coleta, análise e interpretação dos dados: PFPSP, BPSS, JMP. Elaboração ou revisão do manuscrito: PFPSP, BPSS, CSST, JSN, LDAFA, MNS, MLB, JMP. Aprovação da versão final: PFPSP, BPSS, CSST, JSN, LDAFA, MNS, MLB, JMP. Responsabilidade pública pelo conteúdo do artigo: PFPSP, JMP.</p>
+				</fn>
+				<fn fn-type="conflict">
+					<p><bold>Conflito de Interesses:</bold> Os autores declaram não haver conflito de interesses.</p>
+				</fn>
+			</author-notes>
+			<abstract>
+				<title>RESUMO</title>
+				<sec>
+					<title>OBJETIVO</title>
+					<p> Avaliar o desempenho no controle da tuberculose dos municípios brasileiros.</p>
+				</sec>
+				<sec>
+					<title>MÉTODOS</title>
+					<p> Estudo ecológico com municípios brasileiros que notificaram pelo menos quatro casos novos de tuberculose, com no mínimo um caso novo de tuberculose pulmonar entre 2015 e 2018. Os municípios foram estratificados de acordo com a população em &lt; 50 mil, 50–100 mil, 100–300 mil e &gt; 300 mil habitantes e foi utilizado o método k-médias para agrupá-los dentro de cada faixa populacional segundo desempenho de seis indicadores da doença.</p>
+				</sec>
+				<sec>
+					<title>RESULTADOS</title>
+					<p> Foram incluídos 2.845 municípios brasileiros abrangendo 98,5% (208.007/211.174) dos casos novos de tuberculose do período. Para cada faixa populacional identificou-se três grupos (A, B e C) de municípios segundo desempenho dos indicadores: A os mais satisfatórios, B os intermediários e C os menos satisfatórios. Municípios do grupo A com &lt; 100 mil habitantes apresentaram resultados acima das metas para confirmação laboratorial (≥ 72%), abandono (≤ 5%) e cura (≥ 90%), e abrangeram 2% dos casos novos da doença. Por outro lado, os municípios dos grupos B e C apresentaram pelo menos cinco indicadores com resultados abaixo das metas – testagem HIV (&lt; 100%), exame de contatos (&lt; 90%), tratamento diretamente observado (&lt; 90%), abandono (&gt; 5%) e cura (&lt; 90%) –, e corresponderam a 66,7% dos casos novos de tuberculose. Já no grupo C dos municípios com &gt; 300 mil habitantes, que incluiu 19 das 27 capitais e 43,1% dos casos novos de tuberculose, encontrou-se os menores percentuais de exames de contatos (média = 56,4%) e tratamento diretamente observado (média = 15,4%), elevado abandono (média = 13,9%) e baixa cobertura da atenção básica (média = 66,0%).</p>
+				</sec>
+				<sec>
+					<title>CONCLUSÕES</title>
+					<p> Grande parte dos casos novos de tuberculose ocorreu em municípios com desempenho insatisfatório para o controle da doença, onde expandir a cobertura da atenção básica pode reduzir o abandono e elevar o exame de contatos e tratamento diretamente observado.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="pt">
+				<kwd>Tuberculose, prevenção &amp; controle</kwd>
+				<kwd>Avaliação de Processos e Resultados em Cuidados de Saúde</kwd>
+				<kwd>Avaliação de Programas e Projetos de Saúde</kwd>
+				<kwd>Estudos Ecológicos</kwd>
+			</kwd-group>
+		</front-stub>
+		<body>
+			<sec sec-type="intro">
+				<title>INTRODUÇÃO</title>
+				<p>O Brasil está entre os trinta países com maior número de casos de tuberculose<sup><xref ref-type="bibr" rid="B1">1</xref></sup>. Em 2020, foram notificados 66,8 mil casos novos da doença e a incidência foi de 31,6 por 100 mil habitantes, valores inferiores ao esperado devido à pandemia de covid-19, uma vez que em 2019 a incidência foi de 37,4 por 100 mil habitantes e a mortalidade foi de 2,2 por 100 mil habitantes<sup><xref ref-type="bibr" rid="B2">2</xref></sup>. O Plano Nacional pelo Fim da Tuberculose como Problema de Saúde Pública foi lançado em 2017 com metas para reduzir a incidência para menos de 10/100 mil habitantes e a mortalidade para menos de 1/100 mil habitantes até 2035<sup><xref ref-type="bibr" rid="B3">3</xref></sup>.</p>
+				<p>A avaliação e monitoramento dos indicadores de saúde têm reafirmado a importância do Sistema Único de Saúde (SUS) em todos os níveis de atenção<sup><xref ref-type="bibr" rid="B4">4</xref></sup>. A avaliação de indicadores operacionais da tuberculose orienta a tomada de decisões e direciona ações e políticas de saúde de combate a esse problema de saúde<sup><xref ref-type="bibr" rid="B2">2</xref></sup>. Em 2019, os indicadores de cura (70,1%) e abandono (12%)<sup><xref ref-type="bibr" rid="B2">2</xref></sup> estiveram aquém do almejado para controle da doença<sup><xref ref-type="bibr" rid="B5">5</xref></sup>, já que a Organização Mundial da Saúde recomenda que a taxa de cura seja de no mínimo 90% e o abandono seja até 5%<sup><xref ref-type="bibr" rid="B6">6</xref></sup>. Esses desfechos de tratamento podem ser influenciados pela qualidade dos programas de controle da tuberculose<sup><xref ref-type="bibr" rid="B7">7</xref></sup>.</p>
+				<p>Avaliação anterior do desempenho das atividades de controle da tuberculose realizada entre 2001 e 2003 identificou que os municípios brasileiros com bom desempenho eram menores em porte populacional, podendo apresentar ou não elevada realização de tratamento diretamente observado (TDO). Já aqueles com desempenho regular e moderado possuíam porte médio ou grande, abandono elevado e maiores incidências para tuberculose e/ou aids<sup><xref ref-type="bibr" rid="B8">8</xref></sup>. Avaliação recente dos programas de controle da tuberculose incorporou indicadores socioeconômicos, epidemiológicos e operacionais à classificação dos municípios por prioridade de atuação programática do Ministério da Saúde, sugerindo adoção de ações intersetoriais segundo incidência da doença, de acordo com a especificidade de cada realidade local<sup><xref ref-type="bibr" rid="B9">9</xref></sup>.</p>
+				<p>Entretanto, as classificações realizadas unicamente por indicadores operacionais da doença permitem avaliar a assistência à tuberculose de forma independente da incidência, o que é útil, pois permite priorizar ações programáticas em escala local, visando controle mais efetivo da doença. Assim, o objetivo deste estudo foi realizar uma avaliação do desempenho dos municípios brasileiros segundo os indicadores operacionais da tuberculose e descrever/investigar sua relação com indicadores epidemiológicos e contextuais entre 2015 e 2018.</p>
+			</sec>
+			<sec sec-type="methods">
+				<title>MÉTODOS</title>
+				<sec>
+					<title>Delineamento do Estudo e Fontes de Informação</title>
+					<p>Estudo ecológico cujas unidades de análise foram os municípios brasileiros classificados a partir de indicadores operacionais da tuberculose entre 2015 e 2018. Foi escolhido um período de quatro anos, visando suavizar as variações dos indicadores que poderiam ocorrer caso escolhêssemos apenas um ano, a escolha foi feita também levando em consideração que 2018 foi o último ano em que os dados ainda disponibilizavam os desfechos de tratamento. Os registros de tuberculose e aids foram extraídos do Sistema de Informação de Agravos de Notificação (Sinan) (2015–2018) em 17 de outubro de 2020. As estimativas populacionais anuais (2015–2018) e a taxa de desemprego por município entre pessoas ≥ 16 anos para 2010 foram obtidas no Instituto Brasileiro de Geografia e Estatística (IBGE). O percentual de cobertura da atenção básica (AB) provém do Banco e-Gestor da AB (dezembro de 2018).</p>
+				</sec>
+				<sec>
+					<title>População de Estudo</title>
+					<p>Foram incluídos municípios brasileiros que notificaram ao Sinan pelo menos quatro casos novos de tuberculose no período (2015–2018), sendo no mínimo um caso novo de tuberculose pulmonar, critério utilizado para inserir aqueles que, em média, tenham notificado um caso novo de tuberculose por ano e evitar a inflação de zeros nos dados e cálculo de indicadores com elevada variação devido aos poucos casos. Foi definido como caso novo de tuberculose a pessoa notificada ao Sinan com a doença ativa, independente da classificação clínica, que nunca se submeteu ao tratamento anti-tuberculose ou o fez por menos de 30 dias e, como caso novo de tuberculose pulmonar, a pessoa notificada ao Sinan com a doença ativa, cuja classificação clínica foi pulmonar, ou seja, quando o bacilo acomete os pulmões<sup><xref ref-type="bibr" rid="B10">10</xref></sup>.</p>
+				</sec>
+				<sec>
+					<title>Variáveis</title>
+					<p>No período de 2015 a 2018, conjuntamente, foram calculados os onze indicadores operacionais da tuberculose do Plano Nacional pelo Fim da Tuberculose como Problema de Saúde Pública. Para o presente estudo, cinco indicadores foram excluídos por apresentarem baixa abrangência, ou seja, impossibilidade de cálculo para no mínimo 52,8% dos municípios: número de casos de tuberculose notificados como pós-óbito; realização de cultura de escarro entre casos de retratamento de tuberculose pulmonar; realização de teste de sensibilidade entre casos de retratamento de tuberculose pulmonar com cultura positiva; realização de terapia antirretroviral entre casos novos de coinfecção tuberculose -HIV; e cura de casos novos de tuberculose multidrogarresistente. Assim, os seis indicadores avaliados foram: confirmação laboratorial entre casos novos de tuberculose pulmonar; exame entre contatos de casos novos de tuberculose pulmonar com confirmação laboratorial; testagem para o vírus da imunodeficiência humana (HIV) entre casos novos de tuberculose ; TDO entre casos novos de tuberculose pulmonar; abandono do tratamento entre casos novos de tuberculose pulmonar com confirmação laboratorial; e cura de casos novos de tuberculose pulmonar com confirmação laboratorial<sup><xref ref-type="bibr" rid="B5">5</xref></sup>.</p>
+					<p>Entre os indicadores epidemiológicos, foram calculadas as médias anuais de incidência e mortalidade por todas as formas de tuberculose e da taxa de detecção de aids. Entre os indicadores contextuais, ou seja, aqueles que podem influenciar a ocorrência da doença e o desempenho de ações programáticas<sup><xref ref-type="bibr" rid="B11">11</xref></sup>, foram incluídas a taxa de desemprego e a cobertura da atenção básica por se associarem com a incidência de tuberculose em estudos de avaliação anteriores<sup><xref ref-type="bibr" rid="B9">9</xref>,<xref ref-type="bibr" rid="B12">12</xref></sup>.</p>
+				</sec>
+				<sec>
+					<title>Análise</title>
+					<p>Foi realizada uma análise descritiva dos indicadores operacionais da tuberculose em cada município utilizando o cálculo das médias e respectivos desvios padrão. Optou-se pelas médias por serem a medida de tendência central mais comum para indicadores de tuberculose, por serem próximas das medianas, por considerarem todos os valores do conjunto de dados e por serem comparáveis com o método k-médias e com outras avaliações como o presente estudo. Os municípios foram estratificados nas seguintes faixas populacionais: ≤ 50 mil habitantes; 50 mil a 100 mil habitantes; 100 mil a 300 mil habitantes; e &gt; 300 mil habitantes. Para cada faixa populacional, os municípios foram agrupados de acordo com o desempenho dos indicadores operacionais da tuberculose por meio do método não-hierárquico k-médias, que define a variação total intragrupo como a soma de quadrados das distâncias euclidianas entre os pontos e seus respectivos centroides (within sum of squares – WSS). O método k-médias identifica um número k de grupos com características parecidas, ou seja, cujas distâncias entre as médias de uma variável são mínimas para os membros do mesmo grupo e são máximas em relação aos demais grupos<sup><xref ref-type="bibr" rid="B13">13</xref></sup>. Foram utilizadas 200 sementes iniciais para garantir a estabilidade dos resultados. O valor de k foi definido pelo método do cotovelo, que constrói um gráfico do WSS de acordo com o número de grupos, permitindo identificar um valor adequado, ou seja, a quantidade de grupos em que os dados podem ser divididos para que os grupos sejam suficientemente distintos entre si<sup><xref ref-type="bibr" rid="B14">14</xref></sup>.</p>
+					<p>Os indicadores operacionais da tuberculose foram interpretados conforme cumprimento ou não das metas e/ou recomendações sendo: ≥ 72% para confirmação laboratorial<sup><xref ref-type="bibr" rid="B10">10</xref></sup>, ≥ 90% para exame de contatos<sup><xref ref-type="bibr" rid="B15">15</xref></sup>, 100% para testagem HIV<sup><xref ref-type="bibr" rid="B10">10</xref></sup>, ≥ 90% para realização do TDO<sup><xref ref-type="bibr" rid="B16">16</xref></sup>, ≤ 5% para abandono<sup><xref ref-type="bibr" rid="B6">6</xref></sup> e ≥ 90% para cura<sup><xref ref-type="bibr" rid="B15">15</xref></sup>.</p>
+					<p>Após o agrupamento dos municípios, de acordo com o desempenho dos indicadores operacionais da tuberculose, foi realizada uma análise descritiva dos indicadores epidemiológicos da tuberculose e da aids, e dos indicadores contextuais para cada grupo encontrado a partir das médias e respectivos desvios padrão, medianas e respectivos intervalos interquartílicos.</p>
+					<p>Para testar se os grupos gerados pelo método k-médias eram sensíveis ao método de classificação, os grupos foram reestimados e descritos pela análise de perfis latentes (APL). Adotou-se uma matriz de covariâncias diagonal, com variâncias diferentes por perfis, considerando entre dois e oito perfis latentes. Foram avaliadas as medidas Critério de Informação de Akaike (AIC), Critério de Informação Bayesiano (BIC) e entropia. Os perfis latentes para cada faixa populacional foram caracterizados pelas médias, desvios padrão e matriz de correlações<sup><xref ref-type="bibr" rid="B17">17</xref></sup>.</p>
+					<p>As análises foram realizadas no programa R Studio vinculado ao R na versão 4.0.3, com auxílio das bibliotecas tidyverse, factoextra, NbClust e tidyLPA.</p>
+				</sec>
+				<sec>
+					<title>Considerações Éticas</title>
+					<p>O estudo utilizou dados administrativos de livre acesso e agregados por municípios, portanto isentos de variáveis que possibilitem identificar as pessoas com tuberculose e, por isso, não foi necessária aprovação ética.</p>
+				</sec>
+			</sec>
+			<sec sec-type="results">
+				<title>RESULTADOS</title>
+				<p>Entre 2015 e 2018, 4.643 dos 5.570 municípios brasileiros (83,3%) registraram novos casos de tuberculose. Foram incluídos no estudo 2.845 (61,3%) municípios com pelo menos quatro casos novos de tuberculose e um de tuberculose pulmonar. Dessa forma, o estudo abrangeu 98,5% (208.007 de 211.174) dos casos novos da doença nesse período, dos quais 46,6% ocorreram na Região Sudeste, 25,6% no Nordeste, 11,6% no Sul, 11,5% no Norte e 4,6% no Centro-Oeste.</p>
+				<p>Os municípios de pequeno porte (&lt; 50 mil habitantes) representaram 19% do total e 2,1% dos casos novos de tuberculose. Aqueles de baixo-médio porte (50 a 100 mil habitantes) (32,9%) incluíram 5,4% dos casos novos, os de médio-grande porte (100 a 300 mil habitantes) (33%) incluíram 12,9% dos casos novos e os de grande porte (&gt; 300 mil habitantes) (15,1%) incluíram 79,6% dos casos novos de tuberculose (<xref ref-type="table" rid="t1002">Tabela 1</xref>).</p>
+				<p>
+					<table-wrap id="t1002">
+						<label>Tabela 1</label>
+						<caption>
+							<title>Distribuição dos municípios e casos novos de tuberculose, segundo faixa populacional e grupos de desempenho dos indicadores operacionais da doença, gerados pela análise de agrupamentos, Brasil, 2015 a 2018.</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left" rowspan="5">Faixa populacional</th>
+									<th colspan="6">Grupos de desempenho</th>
+									<th colspan="2" rowspan="2">Total</th>
+								</tr>
+								<tr>
+									<th colspan="2">A</th>
+									<th colspan="2">B</th>
+									<th colspan="2">C</th>
+								</tr>
+								<tr>
+									<th>Municípios</th>
+									<th>Casos novos de tuberculose</th>
+									<th>Municípios</th>
+									<th>Casos novos de tuberculose</th>
+									<th>Municípios</th>
+									<th>Casos novos de tuberculose</th>
+									<th>Municípios</th>
+									<th>Casos novos de tuberculose</th>
+								</tr>
+								<tr>
+									<th>n = 1.351</th>
+									<th>n = 69.236</th>
+									<th>n = 1.071</th>
+									<th>n = 43.488</th>
+									<th>n = 423</th>
+									<th>n = 95.283</th>
+									<th>n = 2.845</th>
+									<th>n = 208.007</th>
+								</tr>
+								<tr>
+									<th>n (%)</th>
+									<th>n (%)</th>
+									<th>n (%)</th>
+									<th>n (%)</th>
+									<th>n (%)</th>
+									<th>n (%)</th>
+									<th>n (%)</th>
+									<th>n (%)</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>&lt; 50 mil hab.</td>
+									<td align="center">292 (21,6)</td>
+									<td align="center">2.667 (3,9)</td>
+									<td align="center">218 (20,4)</td>
+									<td align="center">1.570 (3,6)</td>
+									<td align="center">30 (7,1)</td>
+									<td align="center">138 (0,14)</td>
+									<td align="center">540 (19,0)</td>
+									<td align="center">4.375 (2,1)</td>
+								</tr>
+								<tr>
+									<td>50–100 mil hab.</td>
+									<td align="center">460 (34,0)</td>
+									<td align="center">5.888 (8,5)</td>
+									<td align="center">375 (35,0)</td>
+									<td align="center">4.459 (10,3)</td>
+									<td align="center">100 (23,6)</td>
+									<td align="center">927 (1,0)</td>
+									<td align="center">935 (32,9)</td>
+									<td align="center">11.274 (5,4)</td>
+								</tr>
+								<tr>
+									<td>100–300 mil hab.</td>
+									<td align="center">433 (32,1)</td>
+									<td align="center">11.819 (17,1)</td>
+									<td align="center">333 (31,1)</td>
+									<td align="center">10.417 (24,0)</td>
+									<td align="center">174 (41,1)</td>
+									<td align="center">4.616 (4,8)</td>
+									<td align="center">940 (33,0)</td>
+									<td align="center">26.852 (12,9)</td>
+								</tr>
+								<tr>
+									<td>&gt; 300 mil hab.</td>
+									<td align="center">166 (12,3)</td>
+									<td align="center">48.862 (70,6)</td>
+									<td align="center">145 (13,5)</td>
+									<td align="center">27.042 (62,2)</td>
+									<td align="center">119 (28,1)</td>
+									<td align="center">89.602 (94,0)</td>
+									<td align="center">430 (15,1)</td>
+									<td align="center">165.506 (79,6)</td>
+								</tr>
+							</tbody>
+						</table>
+					</table-wrap>
+				</p>
+				<p>Para cada faixa populacional, o método do cotovelo indicou uma classificação com número de grupos variando entre dois e quatro. Assim, optou-se por três grupos que foram denominados como A, B e C (<xref ref-type="fig" rid="f01002">Figura 1</xref>). De forma geral, os municípios do grupo A obtiveram indicadores mais satisfatórios, os do grupo B intermediários e os do grupo C menos satisfatórios, fixando-se o porte do município. A confirmação laboratorial foi acima da meta (≥ 72%) em todos os municípios dos grupos A e nos municípios com &gt; 300 mil habitantes do grupo C (45,2% dos casos novos). O exame de contatos foi acima da meta (≥ 90%) nos grupos A dos municípios com até 300 mil habitantes (33,3% dos casos novos). A testagem HIV, o TDO e a cura não alcançaram a meta (&lt; 100%, &lt; 90% e &lt; 90%, respectivamente) em nenhum grupo. O abandono foi acima da meta (≤ 5%) apenas no grupo A dos municípios com &lt; 100 mil habitantes (4,1% dos casos novos) (<xref ref-type="fig" rid="f02002">Figura 2</xref> e <xref ref-type="table" rid="t2002">Tabela 2</xref>).</p>
+				<p>
+					<fig id="f01002">
+						<label>Figura 1</label>
+						<caption>
+							<title>Distribuição dos municípios brasileiros incluídos no estudo, segundo faixa populacional e os grupos de desempenho dos indicadores operacionais da tuberculose, gerados pela análise de agrupamentos, Brasil, 2015 a 2018.</title>
+						</caption>
+						<graphic xlink:href="1518-8787-rsp-56-53-gf01-pt.tif"/>
+						<attrib>Nota: a área cinza corresponde aos municípios incluídos no estudo.</attrib>
+					</fig>
+				</p>
+				<p>
+					<fig id="f02002">
+						<label>Figura 2</label>
+						<caption>
+							<title>Descrição dos indicadores operacionais da tuberculose, segundo faixa populacional e grupos de desempenho dos indicadores operacionais da doença, gerados: a) pela análise de agrupamentos (k-médias); e b) pelo método análise de perfis latentes (APL), Brasil, 2015 a 2018.</title>
+						</caption>
+						<graphic xlink:href="1518-8787-rsp-56-53-gf02-pt.tif"/>
+						<attrib>Hab.: habitantes; HIV: vírus da imunodeficiência humana; TDO: tratamento diretamente observado.</attrib>
+					</fig>
+				</p>
+				<p>
+					<table-wrap id="t2002">
+						<label>Tabela 2</label>
+						<caption>
+							<title>Descrição dos indicadores operacionais da tuberculose, segundo faixa populacional e grupos de desempenho dos indicadores operacionais, gerados pela análise de agrupamentos, Brasil, 2015 a 2018.</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left" rowspan="2">Indicadores operacionais da tuberculose segundo faixa populacional</th>
+									<th colspan="3">Grupos de desempenho</th>
+									<th rowspan="3">Total n = 540</th>
+								</tr>
+								<tr>
+									<th>A</th>
+									<th>B</th>
+									<th>C</th>
+								</tr>
+								<tr>
+									<th align="left" colspan="1" rowspan="2">&lt; 50 mil hab.</th>
+									<th>n = 292</th>
+									<th>n = 218</th>
+									<th>n = 30</th>
+								</tr>
+								<tr>
+									<th>Média (DP)</th>
+									<th>Média (DP)</th>
+									<th>Média (DP)</th>
+									<th rowspan="1">Média (DP)</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>CL entre casos novos de tuberculose pulmonar (%)</td>
+									<td align="center">77,4 (22,9)</td>
+									<td align="center">69,5 (25,1)</td>
+									<td align="center">11,8 (21,9)</td>
+									<td align="center">70,6 (28,0)</td>
+								</tr>
+								<tr>
+									<td>Teste HIV em casos novos de tuberculose (%)</td>
+									<td align="center">80,3 (23,1)</td>
+									<td align="center">70,3 (27,3)</td>
+									<td align="center">68,5 (33,5)</td>
+									<td align="center">75,6 (26,0)</td>
+								</tr>
+								<tr>
+									<td>TDO em casos novos de tuberculose pulmonar (%)</td>
+									<td align="center">85,3 (16,3)</td>
+									<td align="center">21,4 (18,3)</td>
+									<td align="center">52,5 (38,3)</td>
+									<td align="center">57,7 (36,1)</td>
+								</tr>
+								<tr>
+									<td>Exame de contatos em casos novos de tuberculose (%)</td>
+									<td align="center">91,9 (13,6)</td>
+									<td align="center">75,3 (26,7)</td>
+									<td align="center">80,7 (30,4)</td>
+									<td align="center">84,6 (22,4)</td>
+								</tr>
+								<tr>
+									<td>Cura entre casos novos de tuberculose pulmonar com CL (%)</td>
+									<td align="center">87,3 (18,0)</td>
+									<td align="center">82,2 (21,5)</td>
+									<td align="center">0,0 (0,0)</td>
+									<td align="center">80,4 (27,4)</td>
+								</tr>
+								<tr>
+									<td>Abandono entre casos novos de tuberculose pulmonar com CL (%)</td>
+									<td align="center">4,5 (11,3)</td>
+									<td align="center">6,5 (13,4)</td>
+									<td align="center">9,2 (26,7)</td>
+									<td align="center">5,6 (13,5)</td>
+								</tr>
+								<tr>
+									<td rowspan="2"><bold>50 a 100 mil hab.</bold></td>
+									<td align="center"><bold>n = 460</bold></td>
+									<td align="center"><bold>n = 375</bold></td>
+									<td align="center"><bold>n = 100</bold></td>
+									<td align="center"><bold>n = 935</bold></td>
+								</tr>
+								<tr>
+									<td align="center"><bold>Média (DP)</bold></td>
+									<td align="center"><bold>Média (DP)</bold></td>
+									<td align="center"><bold>Média (DP)</bold></td>
+									<td align="center"><bold>Média (DP)</bold></td>
+								</tr>
+								<tr>
+									<td>CL entre casos novos de tuberculose pulmonar (%)</td>
+									<td align="center">77,0 (19,1)</td>
+									<td align="center">69,6 (21,0)</td>
+									<td align="center">46,7 (24,9)</td>
+									<td align="center">70,8 (22,5)</td>
+								</tr>
+								<tr>
+									<td>Teste HIV em casos novos de tuberculose (%)</td>
+									<td align="center">83,0 (19,0)</td>
+									<td align="center">71,6 (24,9)</td>
+									<td align="center">71,2 (25,6)</td>
+									<td align="center">77,2 (23,0)</td>
+								</tr>
+								<tr>
+									<td>TDO em casos novos de tuberculose pulmonar (%)</td>
+									<td align="center">81,8 (16,3)</td>
+									<td align="center">20,4 (17,6)</td>
+									<td align="center">43,3 (28,8)</td>
+									<td align="center">53,1 (34,5)</td>
+								</tr>
+								<tr>
+									<td>Exame de contatos entre casos novos de tuberculose (%)</td>
+									<td align="center">92,0 (13,8)</td>
+									<td align="center">81,3 (20,6)</td>
+									<td align="center">80,3 (22,2)</td>
+									<td align="center">86,4 (18,6)</td>
+								</tr>
+								<tr>
+									<td>Cura entre casos novos de tuberculose pulmonar com CL (%)</td>
+									<td align="center">87,1 (14,6)</td>
+									<td align="center">86,4 (14,5)</td>
+									<td align="center">39,1 (24,6)</td>
+									<td align="center">81,7 (21,7)</td>
+								</tr>
+								<tr>
+									<td>Abandono entre casos novos de tuberculose pulmonar com CL (%)</td>
+									<td align="center">4,2 (8,3)</td>
+									<td align="center">5,3 (9,2)</td>
+									<td align="center">25,8 (28,8)</td>
+									<td align="center">7,0 (14,1)</td>
+								</tr>
+								<tr>
+									<td rowspan="2"><bold>100 a 300 mil hab.</bold></td>
+									<td align="center"><bold>n = 433</bold></td>
+									<td align="center"><bold>n = 333</bold></td>
+									<td align="center"><bold>n = 174</bold></td>
+									<td align="center"><bold>n = 940</bold></td>
+								</tr>
+								<tr>
+									<td align="center"><bold>Média (DP)</bold></td>
+									<td align="center"><bold>Média (DP)</bold></td>
+									<td align="center"><bold>Média (DP)</bold></td>
+									<td align="center"><bold>Média (DP)</bold></td>
+								</tr>
+								<tr>
+									<td>CL entre casos novos de tuberculose pulmonar (%)</td>
+									<td align="center">73,5 (17,5)</td>
+									<td align="center">71,6 (17,8)</td>
+									<td align="center">64,9 (19,8)</td>
+									<td align="center">71,2 (18,3)</td>
+								</tr>
+								<tr>
+									<td>Teste HIV em casos novos de tuberculose (%)</td>
+									<td align="center">85,5 (17,1)</td>
+									<td align="center">86,6 (13,1)</td>
+									<td align="center">58,0 (20,2)</td>
+									<td align="center">80,8 (19,7)</td>
+								</tr>
+								<tr>
+									<td>TDO em casos novos de tuberculose pulmonar (%)</td>
+									<td align="center">79,6 (16,2)</td>
+									<td align="center">16,9 (15,6)</td>
+									<td align="center">23,0 (19,6)</td>
+									<td align="center">46,9 (34,6)</td>
+								</tr>
+								<tr>
+									<td>Exame de contatos entre casos novos de tuberculose (%)</td>
+									<td align="center">91,9 (11,3)</td>
+									<td align="center">89,3 (10,9)</td>
+									<td align="center">58,2 (22,1)</td>
+									<td align="center">84,7 (18,8)</td>
+								</tr>
+								<tr>
+									<td>Cura entre casos novos de tuberculose pulmonar com CL (%)</td>
+									<td align="center">84,4 (13,5)</td>
+									<td align="center">79,8 (15,2)</td>
+									<td align="center">75,1 (16,5)</td>
+									<td align="center">81,1 (15,1)</td>
+								</tr>
+								<tr>
+									<td>Abandono entre casos novos de tuberculose pulmonar com CL (%)</td>
+									<td align="center">5,5 (8,9)</td>
+									<td align="center">10,5 (11,3)</td>
+									<td align="center">12,1 (13,6)</td>
+									<td align="center">8,5 (11,1)</td>
+								</tr>
+								<tr>
+									<td rowspan="2"><bold>&gt; 300 mil hab.</bold></td>
+									<td align="center"><bold>n = 166</bold></td>
+									<td align="center"><bold>n = 145</bold></td>
+									<td align="center"><bold>n = 119</bold></td>
+									<td align="center"><bold>n = 430</bold></td>
+								</tr>
+								<tr>
+									<td align="center"><bold>Média (DP)</bold></td>
+									<td align="center"><bold>Média (DP)</bold></td>
+									<td align="center"><bold>Média (DP)</bold></td>
+									<td align="center"><bold>Média (DP)</bold></td>
+								</tr>
+								<tr>
+									<td>CL entre casos novos de tuberculose pulmonar (%)</td>
+									<td align="center">75,8 (12,6)</td>
+									<td align="center">70,8 (14,9)</td>
+									<td align="center">72,7 (12,7)</td>
+									<td align="center">73,3 (13,6)</td>
+								</tr>
+								<tr>
+									<td>Teste HIV em casos novos de tuberculose (%)</td>
+									<td align="center">90,1 (9,1)</td>
+									<td align="center">87,9 (9,8)</td>
+									<td align="center">74,7 (17,7)</td>
+									<td align="center">85,1 (13,9)</td>
+								</tr>
+								<tr>
+									<td>TDO em casos novos de tuberculose pulmonar (%)</td>
+									<td align="center">74,5 (15,8)</td>
+									<td align="center">21,5 (15,6)</td>
+									<td align="center">15,4 (14,4)</td>
+									<td align="center">40,3 (31,3)</td>
+								</tr>
+								<tr>
+									<td>Exame de contatos entre casos novos de tuberculose (%)</td>
+									<td align="center">88,5 (11,2)</td>
+									<td align="center">86,3 (9,3)</td>
+									<td align="center">56,4 (14,0)</td>
+									<td align="center">78,9 (18,1)</td>
+								</tr>
+								<tr>
+									<td>Cura entre casos novos de tuberculose pulmonar com CL (%)</td>
+									<td align="center">80,7 (8,4)</td>
+									<td align="center">79,0 (8,4)</td>
+									<td align="center">74,9 (8,7)</td>
+									<td align="center">78,5 (8,8)</td>
+								</tr>
+								<tr>
+									<td>Abandono entre casos novos de tuberculose pulmonar com CL (%)</td>
+									<td align="center">8,1 (5,0)</td>
+									<td align="center">10,0 (6,2)</td>
+									<td align="center">13,9 (6,4)</td>
+									<td align="center">10,4 (6,3)</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN1002">
+								<p>CL: confirmação laboratorial; DP: desvio padrão; TDO: tratamento diretamente observado; Hab.: habitantes; HIV: vírus da imunodeficiência humana.</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p>Os municípios do grupo A com &lt; 100 mil habitantes apresentaram três dos seis indicadores de tuberculose com resultados acima da meta (confirmação laboratorial, exame de contatos e abandono), e abrangeram 26,4% dos municípios e 2% dos casos novos da doença. Por outro lado, os municípios dos grupos B e C apresentaram cinco ou todos os indicadores de tuberculose abaixo da meta (ao menos testagem HIV, exame de contatos, TDO, abandono e cura), e corresponderam a 52,5% dos municípios e 66,7% dos casos novos (Tabelas 1 e 2).</p>
+				<p>Quanto maior o porte, maiores os percentuais de confirmação laboratorial e testagem HIV, entretanto, maior o abandono e menor o TDO (<xref ref-type="table" rid="t2002">Tabela 2</xref>). Para os municípios pequenos (&lt; 50 mil habitantes), aqueles classificados no grupo A apresentaram os valores mais elevados para confirmação laboratorial (média = 77,4%), TDO (média = 85,3%) e cura (média = 87,3%), enquanto as cidades do grupo C apresentaram os menores percentuais para confirmação laboratorial (média = 11,8%) e cura (média = 0,0%) e TDO abaixo da meta (média = 52,4%) (<xref ref-type="fig" rid="f02002">Figura 2</xref> e <xref ref-type="table" rid="t2002">Tabela 2</xref>).</p>
+				<p>Já nos municípios de grande porte (&gt; 300 mil habitantes), aqueles classificados como grupo A tiveram abandono abaixo da meta (média = 8,1%) e testagem HIV com média de 90,1%, que mesmo abaixo da meta (&lt; 100%) foi o maior entre os 12 grupos identificados. Já no grupo C dos municípios de grande porte, que inclui 19 das 27 capitais e 43,1% dos casos novos de tuberculose, foram encontrados os menores percentuais de exame de contatos (média = 56,4%) e TDO (média = 15,4%). Além disso, testagem HIV (média = 74,7%) e abandono (média = 13,9%) foram abaixo da meta (<xref ref-type="fig" rid="f02002">Figura 2</xref> e <xref ref-type="table" rid="t2002">Tabela 2</xref>).</p>
+				<p>Com relação aos indicadores epidemiológicos e contextuais, os municípios de pequeno porte do grupo C apresentaram as menores taxas de detecção de aids (mediana = 4,5/100 mil hab.) e de mortalidade por tuberculose (mediana = 0,0/100 mil hab.), a menor taxa de desemprego (mediana = 4,4%) e a maior cobertura da atenção básica (mediana = 100,0%). Já os municípios de grande porte do grupo C apresentaram as maiores taxas de detecção de aids (mediana = 20,1/100 mil hab.) e de mortalidade por tuberculose (mediana = 1,0/100 mil hab.), a maior taxa de desemprego (mediana = 8,3%) e a menor cobertura da atenção básica (mediana = 67,0%). Além disso, a incidência de tuberculose nos municípios de grande porte do grupo C foi superior à encontrada nos municípios do grupo C de menor porte (mediana = 27,0/100 mil hab. <italic>versus</italic> 15,5/100 mil hab. As medianas gerais para cada faixa populacional revelaram que, quanto maior a população, maior a taxa de desemprego e menor a cobertura da atenção básica (<xref ref-type="fig" rid="f03002">Figura 3</xref>).</p>
+				<p>
+					<fig id="f03002">
+						<label>Figura 3</label>
+						<caption>
+							<title>Indicadores epidemiológicos da tuberculose e de contexto, segundo faixa populacional e os grupos de desempenho dos indicadores operacionais da doença, gerados pela análise de agrupamentos, Brasil, 2015 a 2018.</title>
+						</caption>
+						<graphic xlink:href="1518-8787-rsp-56-53-gf03-pt.tif"/>
+						<attrib>AB: atenção básica.</attrib>
+					</fig>
+				</p>
+				<p>Na análise de sensibilidade pelo método APL, a utilização de dois a quatro perfis latentes se mostrou mais adequada, ou seja, apresentou menores valores de AIC e BIC, sendo sugerido aquele com dois perfis. No entanto, por meio da entropia, uma medida da quantidade de informação capturada pelo modelo, e para comparar com os resultados obtidos pelo método k-médias, adotou-se três perfis latentes para cada faixa populacional dos municípios. Entre municípios &lt; 50 mil habitantes o percentual de concordância do método k-médias em relação ao APL, ou seja, que foram classificados nos mesmos grupos A, B ou C, foi de 92,6% (500/540); entre os de 50–100 mil habitantes de 93,2% (871/935); entre os de 100–300 mil habitantes de 91,1% (856/940); e entre os com &gt; 300 mil habitantes de 86,7% (373/430). A concordância final foi de 91,4% (2.600/2.845).</p>
+			</sec>
+			<sec sec-type="discussion">
+				<title>DISCUSSÃO</title>
+				<p>Esse estudo avaliou uma parcela importante dos municípios brasileiros, que foram responsáveis por notificar praticamente todos os casos novos de tuberculose no período estudado (2015–2018). Ao classificar os municípios brasileiros de acordo com a faixa populacional e segundo os indicadores operacionais da doença, observamos, em grande parte dos municípios, um desempenho insatisfatório para o controle da tuberculose. Destacando-se aqueles com &gt; 300 mil habitantes do grupo C, que notificaram elevado percentual dos casos novos e apresentaram altas taxas de incidência e mortalidade pela doença, detecção de aids, desemprego e baixa cobertura da atenção básica.</p>
+				<p>A confirmação laboratorial foi acima da meta para os municípios que notificaram alto percentual dos casos novos de tuberculose, o que demonstra o avanço desse indicador nos últimos anos no país<sup><xref ref-type="bibr" rid="B2">2</xref></sup>. Grande parte dos casos novos ocorreram em municípios em que o exame de contatos se encontra abaixo da meta, o que pode limitar o controle adequado da transmissão da doença a partir do diagnóstico e tratamento precoce<sup><xref ref-type="bibr" rid="B10">10</xref></sup>. Embora a média nacional de testagem HIV tenha melhorado de 65,3% em 2011 para 82,5% em 2019<sup><xref ref-type="bibr" rid="B2">2</xref></sup>, esse indicador foi abaixo da meta em todos os grupos de municípios assim como encontrado no Canadá<sup><xref ref-type="bibr" rid="B18">18</xref></sup>. É importante destacar o potencial de parcerias entre os programas de tuberculose e aids para avançar na implantação do teste rápido de HIV<sup><xref ref-type="bibr" rid="B19">19</xref></sup>. O TDO, principal ação de apoio e monitoramento do tratamento da tuberculose<sup><xref ref-type="bibr" rid="B10">10</xref></sup>, não alcançou a meta em nenhum grupo, sendo o indicador com maior percentual de não preenchimento do presente estudo (19,2%), dificuldade já apontada anteriormente<sup><xref ref-type="bibr" rid="B20">20</xref></sup>. O abandono foi acima da meta em poucos municípios e a cura em nenhum grupo. Vale destacar que esses indicadores de desfecho de tratamento são sensíveis às falhas na execução dos programas de controle da tuberculose<sup><xref ref-type="bibr" rid="B7">7</xref></sup>e podem estar relacionadas à distância física existente entre pacientes e os serviços de saúde que tratam a doença<sup><xref ref-type="bibr" rid="B21">21</xref></sup>.</p>
+				<p>Municípios de grande porte possuem maiores percentuais de confirmação laboratorial, testagem HIV e abandono e menores percentuais de exame de contatos, TDO e cura. Nesses locais, a confirmação laboratorial é maior, possivelmente devido à implantação da Rede de Teste Rápido para Tuberculose em meados de 2014<sup><xref ref-type="bibr" rid="B22">22</xref></sup> e à ampla oferta de procedimentos nos serviços públicos<sup><xref ref-type="bibr" rid="B23">23</xref></sup>, que também garante maior testagem HIV. Entretanto, municípios maiores apresentaram menor cobertura da atenção básica, o que pode repercutir na menor realização de exame de contatos e de TDO e na maior ocorrência de desfechos desfavoráveis de tratamento uma vez que a atenção básica está mais próxima dos domicílios das pessoas com tuberculose e pode fornecer a elas apoio e monitoramento do tratamento melhores<sup><xref ref-type="bibr" rid="B7">7</xref></sup>.</p>
+				<p>Neste estudo, municípios com elevadas coberturas da atenção básica, como os do grupo A com &lt; 100 mil habitantes apresentaram bom desempenho para o controle da tuberculose. Entretanto, esses municípios abrangeram pequena parte dos casos novos da doença. Vale considerar que, dentro da atenção básica, as unidades com Estratégia de Saúde da Família (ESF) oferecem ações regulares de controle da tuberculose e detectam mais casos da doença em relação aos serviços de saúde sem essa estratégia<sup><xref ref-type="bibr" rid="B24">24</xref></sup>.</p>
+				<p>Por outro lado, os municípios com &lt; 50 mil habitantes do grupo C, ainda que tenham elevada cobertura da atenção básica, apresentaram desempenho insatisfatório para o controle da tuberculose, haja vista as baixas taxas de confirmação laboratorial, testagem HIV e cura, e elevado abandono, ao mesmo tempo em que possuem baixa incidência de tuberculose, aids e baixa taxa de desemprego. Nesses locais, é possível que existam fatores como baixo orçamento para saúde e pouco treinamento profissional, contribuindo de forma mais significativa para o desempenho insatisfatório do controle da tuberculose. A estratificação dos municípios por faixa populacional antes de sua classificação por desempenho do controle da tuberculose foi crucial para obtenção de resultados mais homogêneos, já que, como descrito em estudo anterior, tal desempenho não está unicamente relacionado ao tamanho populacional<sup><xref ref-type="bibr" rid="B8">8</xref></sup>. Embora os municípios maiores geralmente disponham de instrumentos para operacionalizar adequadamente o programa de tuberculose<sup><xref ref-type="bibr" rid="B17">17</xref></sup>, como maior infraestrutura para confirmação laboratorial e testagem HIV, é possível executar ações efetivas de controle da doença em localidades menores com recursos limitados<sup><xref ref-type="bibr" rid="B9">9</xref></sup>.</p>
+				<p>Destaca-se que, entre os municípios com &gt; 300 mil habitantes do grupo C, em que foi notificado elevado percentual dos casos novos de tuberculose, a testagem HIV, o exame de contatos, o TDO, o abandono e a cura foram abaixo da meta. Além disso, esse grupo apresentou as menores coberturas da atenção básica e as mais elevadas taxas de desemprego, incidência e mortalidade por tuberculose e detecção de aids. Estudo anterior encontrou associação entre a incidência de tuberculose e as taxas de desemprego e de detecção de aids<sup><xref ref-type="bibr" rid="B12">12</xref></sup>. Vale considerar que as elevadas taxas de incidência de tuberculose e de aids representam alto risco de infecção para essas doenças e maior demanda para o setor saúde<sup><xref ref-type="bibr" rid="B8">8</xref></sup>. Sendo assim, nesses municípios maiores com desempenho insatisfatório para o controle da tuberculose, as ações de controle da doença devem ser priorizadas<sup><xref ref-type="bibr" rid="B19">19</xref></sup>, especialmente nas áreas socioeconomicamente desfavoráveis, em que as taxas de mortalidade pela doença são maiores<sup><xref ref-type="bibr" rid="B25">25</xref></sup> e, devido à escassa cobertura da atenção básica, o abandono é alto<sup><xref ref-type="bibr" rid="B26">26</xref></sup>.</p>
+				<p>Ademais, em municípios maiores, são comuns os aglomerados populacionais cujos residentes possuem situação de saúde precária e maior suscetibilidade à tuberculose<sup><xref ref-type="bibr" rid="B27">27</xref></sup>, uma doença socialmente determinada já que a pobreza impacta todos os seus estágios, desde a transmissão até os desfechos de tratamento<sup><xref ref-type="bibr" rid="B28">28</xref></sup>. Programas de transferência de renda, como o Bolsa Família, podem mudar esse cenário, uma vez que foram relacionados com menor incidência da doença<sup><xref ref-type="bibr" rid="B29">29</xref></sup>, maior cura<sup><xref ref-type="bibr" rid="B30">30</xref></sup> e menor abandono<sup><xref ref-type="bibr" rid="B31">31</xref></sup>.</p>
+				<p>Estudo anterior avaliou o controle da tuberculose nos municípios brasileiros<sup><xref ref-type="bibr" rid="B9">9</xref></sup>. A contribuição do presente estudo é a classificação do desempenho do controle municipal da doença por seus indicadores operacionais, considerando o porte em praticamente todos os municípios onde houve notificação de casos da doença no Brasil, possuindo, assim, alta validade interna. Além disso, inovou em aplicar um segundo método de agrupamento, o APL, de forma complementar ao método k-médias, e obter resultados altamente similares, utilização e comparação provavelmente únicas no campo da saúde.</p>
+				<p>Contudo, este estudo apresenta limitações. A primeira é a utilização de dados administrativos, que podem ter deficiências na qualidade de registro, podendo subestimar o percentual de exame de contatos, TDO e testagem HIV. A segunda é que os valores mais atuais para taxa de desemprego dos municípios provêm do Censo Demográfico de 2010, o que pode não retratar a realidade do período de avaliação dos indicadores de tuberculose (2015 a 2018). Em municípios maiores, a avaliação do controle deveria ser realizada em escala intramunicipal, tendo em vista sua heterogeneidade social e econômica e elevado número de casos da doença, já em municípios pequenos essa avaliação também é desafiadora, devido ao reduzido número de casos da doença, limitações minimizadas pela segmentação por faixa populacional e análise do período de quatro anos. Neste estudo foram consideradas as dimensões de processo e resultados e não a estrutura do programa de controle da tuberculose. Por último, a abordagem ecológica impossibilita que os resultados sejam extrapolados para o nível individual.</p>
+			</sec>
+			<sec sec-type="conclusions">
+				<title>CONCLUSÕES</title>
+				<p>No presente estudo, realizamos uma avaliação do controle da tuberculose nos municípios brasileiros a partir dos indicadores operacionais da doença e encontramos que grande parte dos casos novos são acompanhados em municípios maiores e com dificuldades para desempenhar o controle adequado da doença (ou seja, com baixa testagem HIV, baixo exame de contatos, baixo tratamento diretamente observado, baixa cura e elevado abandono) e com elevadas incidência e mortalidade por tuberculose, detecção de aids, alta taxa de desemprego e baixa cobertura da atenção básica. Nesses locais, a expansão da atenção básica e dos programas de proteção social podem garantir melhores resultados para os indicadores da tuberculose, principalmente aqueles diretamente relacionados à disponibilidade e acesso a profissionais de saúde, como o exame de contatos, tratamento diretamente observado, cura e abandono.</p>
+			</sec>
+		</body>
+		<back>
+			<fn-group>
+				<fn fn-type="financial-disclosure">
+					<p><bold>Financiamento:</bold> Ministério da Saúde (ID: VPGDI-003-FIO-19 - Projeto “Fortalecimento do Sistema Nacional de Vigilância para a prevenção, detecção precoce e resposta rápida às emergências em saúde pública”).</p>
+				</fn>
+			</fn-group>
+		</back>
+	</sub-article>
+</article>

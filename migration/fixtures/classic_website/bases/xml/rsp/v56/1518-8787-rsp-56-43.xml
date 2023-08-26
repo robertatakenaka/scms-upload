@@ -1,0 +1,2979 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article article-type="review-article" dtd-version="1.1" specific-use="sps-1.9" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="nlm-ta">Rev Saude Publica</journal-id>
+			<journal-id journal-id-type="publisher-id">rsp</journal-id>
+			<journal-title-group>
+				<journal-title>Revista de Saúde Pública</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Rev. Saúde Pública</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="ppub">0034-8910</issn>
+			<issn pub-type="epub">1518-8787</issn>
+			<publisher>
+				<publisher-name>Faculdade de Saúde Pública da Universidade de São Paulo</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="other">00504</article-id>
+			<article-id pub-id-type="doi">10.11606/s1518-8787.2022056003964</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Review</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Tuberculosis, vulnerabilities, and HIV in homeless persons: a systematic review</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-5776-9510</contrib-id>
+					<name>
+						<surname>Gioseffi</surname>
+						<given-names>Janaína Rosenburg</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-4690-3611</contrib-id>
+					<name>
+						<surname>Batista</surname>
+						<given-names>Ramaiene</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-7728-2304</contrib-id>
+					<name>
+						<surname>Brignol</surname>
+						<given-names>Sandra Mara</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>III</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>I</label>
+				<institution content-type="orgname">Universidade Federal Fluminense</institution>
+				<institution content-type="orgdiv1">Instituto de Saúde Coletiva</institution>
+				<institution content-type="orgdiv2">Programa de Pós-Graduação em Saúde Coletiva</institution>
+				<addr-line>
+					<named-content content-type="city">Niterói</named-content>
+					<named-content content-type="state">RJ</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Universidade Federal Fluminense. Instituto de Saúde Coletiva. Programa de Pós-Graduação em Saúde Coletiva. Niterói, RJ, Brasil</institution>
+			</aff>
+			<aff id="aff2">
+				<label>II</label>
+				<institution content-type="orgname">Universidade Federal Fluminense</institution>
+				<institution content-type="orgdiv1">Faculdade de Medicina</institution>
+				<addr-line>
+					<named-content content-type="city">Niterói</named-content>
+					<named-content content-type="state">RJ</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Universidade Federal Fluminense. Faculdade de Medicina. Niterói, RJ, Brasil</institution>
+			</aff>
+			<aff id="aff3">
+				<label>III</label>
+				<institution content-type="orgname">Universidade Federal Fluminense</institution>
+				<institution content-type="orgdiv1">Instituto de Saúde Coletiva</institution>
+				<institution content-type="orgdiv2">Departamento de Epidemiologia e Estatística</institution>
+				<addr-line>
+					<named-content content-type="city">Niterói</named-content>
+					<named-content content-type="state">RJ</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Universidade Federal Fluminense. Instituto de Saúde Coletiva. Departamento de Epidemiologia e Estatística. Niterói, RJ, Brasil</institution>
+			</aff>
+			<author-notes>
+				<corresp id="c01"> Correspondence: Janaína Rosenburg Gioseffi Rua Marquês de Paraná, 303 3º andar 24033-900 Niterói, RJ, Brasil E-mail: <email>rosenburg.janaina@gmail.com</email>
+				</corresp>
+				<fn fn-type="con">
+					<p><bold>Authors’ Contribution:</bold> Study design and planning: JRG, SMB. Data collection, analysis, and interpretation: JRG, RB. Draft writing or review: JRG Final draft approval: JRG, SMB. Public responsibility for the content of the article: JRG.</p>
+				</fn>
+				<fn fn-type="conflict">
+					<p><bold>Conflict of Interest:</bold> The authors declare no conflict of interest.</p>
+				</fn>
+			</author-notes>
+			<pub-date date-type="pub" publication-format="electronic">
+				<day>27</day>
+				<month>05</month>
+				<year>2022</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">
+				<year>2022</year>
+			</pub-date>
+			<volume>56</volume>
+			<elocation-id>43</elocation-id>
+			<history>
+				<date date-type="received">
+					<day>14</day>
+					<month>06</month>
+					<year>2021</year>
+				</date>
+				<date date-type="accepted">
+					<day>13</day>
+					<month>07</month>
+					<year>2021</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="en">
+					<license-p> This is an Open Access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. </license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>ABSTRACT</title>
+				<sec>
+					<title>OBJECTIVE</title>
+					<p> Analyze, systematize, and compile social, individual, and programmatic vulnerability factors associated with tuberculosis and HIV in homeless persons.</p>
+				</sec>
+				<sec>
+					<title>METHODS</title>
+					<p> This is a systematic literature review assessing quantitative studies, published between 2014 and 2020, on the prevalence of tuberculosis in homeless persons. Our review grouped studies according to vulnerabilities, followed the PRISMA recommendation guide, and used the Joanna Briggs Institute Critical Appraisal tool for bias analysis.</p>
+				</sec>
+				<sec>
+					<title>RESULTS</title>
+					<p> Of the 372 publications found, 16 were selected according to our eligibility criteria. In total, 10 studies assessed tuberculosis and HIV. The most commonly described factors for individual, social, and programmatic vulnerability were drug use, HIV coinfection, and tuberculosis treatment failure, respectively. The literature also claims that average homelessness length related to a higher frequency of tuberculosis and latent tuberculosis infection.</p>
+				</sec>
+				<sec>
+					<title>CONCLUSION</title>
+					<p> All reviewed studies described how homeless persons suffer with stigma and dehumanization, which are important barriers to their access to health services. Homelessness enhances the risks of chronic and infectious diseases and prioritizes issues which are more pragmatic for the maintenance of life, such as safety and food, to the detriment of health. The results can be used to support hypotheses for future research and to reinforce and direct existing public health and social policies to cope with tuberculosis and HIV in homeless persons.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="en">
+				<kwd>Homeless Persons</kwd>
+				<kwd>Tuberculosis</kwd>
+				<kwd>HIV Infections</kwd>
+				<kwd>Coinfection, epidemiology</kwd>
+				<kwd>Health Vulnerability</kwd>
+				<kwd>Social Vulnerability</kwd>
+			</kwd-group>
+			<funding-group>
+				<award-group>
+					<funding-source>Capes</funding-source>
+					<award-id>88887.499588/2020-00</award-id>
+				</award-group>
+				<award-group>
+					<funding-source>Capes</funding-source>
+					<award-id>03/01/2020</award-id>
+				</award-group>
+				<award-group>
+					<funding-source>Capes</funding-source>
+					<award-id>03/31/2021</award-id>
+				</award-group>
+				<funding-statement>Funding: Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (Capes - Demanda Social grant for JRG; process no. 88887.499588/2020-00 from 03/01/2020 to 03/31/2021).</funding-statement>
+			</funding-group>
+			<counts>
+				<fig-count count="2"/>
+				<table-count count="8"/>
+				<equation-count count="0"/>
+				<ref-count count="52"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>INTRODUCTION</title>
+			<p>Tuberculosis is a respiratory disease caused by the agent <italic>Mycobacterium tuberculosis</italic> . It is currently among the 10 most lethal diseases in the world and the first, among infectious diseases<sup><xref ref-type="bibr" rid="B1">1</xref></sup> . Its transmission occurs by inhalation of aerosols leading to a granulomatous infection in the lower respiratory tract<sup><xref ref-type="bibr" rid="B2">2</xref></sup> . Its occurrence is associated with socioeconomic factors since, according to the UN, 95% of cases occur in low- and middle-income countries<sup><xref ref-type="bibr" rid="B3">3</xref></sup> . Africa and the Americas<sup><xref ref-type="bibr" rid="B1">1</xref></sup> are at the top of the ranking of estimated cases and deaths for the disease.</p>
+			<p>The global estimate of tuberculosis infection was 10 million cases in 2020, with an estimated incidence of 132/100,000 inhabitants, and 1.2 million deaths, of which 208,000 among people who are HIV+<sup><xref ref-type="bibr" rid="B1">1</xref></sup> . The END TB strategy, proposed by the World Health Organization, aims to reduce the incidence of tuberculosis to less than 10/100,000 inhabitants and decrease the number of deaths by at least 95% so tuberculosis could no longer be considered a global public health problem<sup><xref ref-type="bibr" rid="B4">4</xref></sup> .</p>
+			<p>In Brazil, tuberculosis is an important health problem, with a death rate of 2.2/100,000 and an incidence of 31.6/100,000 inhabitants<sup><xref ref-type="bibr" rid="B5">5</xref></sup> . The Sistema Único de Saúde ( <italic>SUS - Brazilian Unified Health System</italic> ) promotes specific programs to combat it, such as the <italic>Programa Nacional de Controle da Tuberculose</italic> (National Tuberculosis Control Program) and the establishment of treatment directly managed by the basic health network<sup><xref ref-type="bibr" rid="B6">6</xref></sup> . However, patient adherence is low<sup><xref ref-type="bibr" rid="B7">7</xref></sup> , and treatment abandonment and wrong or intermittent medication administration cause the number of deaths to remain high and the emergence of drug-resistant strands<sup><xref ref-type="bibr" rid="B7">7</xref></sup> .</p>
+			<p>Homeless persons (HP) are constantly exposed to different types of vulnerable and degrading living conditions, increasing the challenge for health care and requiring specific interventions for these people<sup><xref ref-type="bibr" rid="B4">4</xref> , <xref ref-type="bibr" rid="B8">8</xref></sup> . As a result of this exposure and the precarization of their lives, tuberculosis in HP is very frequent. This population is 56 times more likely to be affected by this disease in Brazil.</p>
+			<p>This vulnerabilization has three dimensions<sup><xref ref-type="bibr" rid="B9">9</xref></sup> : 1) Individual – determined by individuals’ access to information; their ability to put it into practice; and material, cultural, cognitive, and moral aspects – among many others participating in the construction of the human “being”; 2) Social – guided by social and cultural contexts and 3) programmatic – scenarios concerning social institutions (especially health, education, culture, and social assistance) which enable unfavorable contexts to increase these social conditions.</p>
+			<p>Treating tuberculosis in HP is more expensive and complex than in the rest of the population due to their lower treatment adherence, according to the Evidence Informed Policy Network of the Brazilian Ministry of Health<sup><xref ref-type="bibr" rid="B4">4</xref></sup> . Moreover, issues such as safety, food, and rest, compete in importance with health care. In addition to tuberculosis, HIV/Aids, dermatological diseases (including leprosy), and hypertension are the main diseases in this population. Psychosocial treatment due to drug and alcohol abuse is also prominent<sup><xref ref-type="bibr" rid="B10">10</xref></sup> . Homeless persons live marginalized and distant from public policies and lack the effective exercise of their basic rights, including access to medical primary care in SUS<sup><xref ref-type="bibr" rid="B11">11</xref></sup> .</p>
+			<p>Worldwide, tuberculosis is the leading cause of death in HIV-positive individuals, accounting for one third of their deaths<sup><xref ref-type="bibr" rid="B12">12</xref></sup> . People with HIV are 28 times more likely to become infected with tuberculosis<sup><xref ref-type="bibr" rid="B13">13</xref></sup> , a coinfection responsible for almost 29% of deaths from tuberculosis in Brazil<sup><xref ref-type="bibr" rid="B14">14</xref></sup> . In 2018, he incidence of tuberculosis in HIV-positive patients was 5.2/100,000 inhabitants in Brazil. In the same year, of the new cases of tuberculosis, 75.5% were tested for HIV and, among the affected, only 47.4% underwent antiretroviral treatment concomitantly with tuberculosis treatment<sup><xref ref-type="bibr" rid="B15">15</xref></sup> .</p>
+			<p>Due to the technological advances in tuberculosis and HIV/Aids treatment and the commitments made by World Health Organization member countries, this scenario is problematic and challenging since these diseases are historically important<sup><xref ref-type="bibr" rid="B16">16</xref></sup> . Fostering knowledge and debate on the tuberculosis epidemic, which is related to social, individual, and programmatic vulnerability in homeless persons, is fundamental to cope with these diseases in Brazil, especially due to the current covid-19 epidemic, in which healthcare struggles to meet different demands. This study aimed to analyze, systematize, and compile the individual, social, and programmatic vulnerability factors associated with tuberculosis and tuberculosis+HIV collected from studies on these illnesses in homeless persons which were conducted between 2014 and 2020.</p>
+		</sec>
+		<sec sec-type="methods">
+			<title>METHODS</title>
+			<p>A systematic literature review was conducted with studies, published from 2014 to 2020, assessing tuberculosis and tuberculosis+HIV in homeless persons. A systematic review is a research method which, in health, consists of seeking and selecting, evaluating, compiling, and showing the published evidence on an important topic and its impact on populations’ health. Preferred Reporting Items for Systematic Reviews and Meta-Analyses (Prisma) criteria were applied.</p>
+			<sec>
+				<title>Survey Strategy</title>
+				<p>References were surveyed by the descriptors Tuberculosis, Homeless Persons, HIV, Social Vulnerability, and Health Vulnerability (and their combinations) in the PubMed and Latin American and Caribbean Health Sciences Literature (Lilacs) platforms, as shown in <xref ref-type="table" rid="t1">Table 1</xref>
+					<xref ref-type="table" rid="t2"/> . Articles were analyzed by two researchers at two different moments and the results, compiled.</p>
+				<p>
+					<table-wrap id="t1">
+						<label>Table 1</label>
+						<caption>
+							<title>Search strategies.</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th>Platform</th>
+									<th>Descriptors</th>
+									<th>Results</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Pubmed http://www.ncbi.nlm.nih.gov/pub med</td>
+									<td align="center"><italic>(“homeless persons”[MeSH Major Topic] AND “tuberculosis”[MeSH Major Topic]) AND “hiv”[MeSH]</italic></td>
+									<td align="center">4</td>
+								</tr>
+								<tr>
+									<td>Pubmed http://www.ncbi.nlm.nih.gov/pub med</td>
+									<td align="center"><italic>(“tuberculosis”[MeSH Major Topic]) AND “homeless persons”[MeSH Major Topic]</italic></td>
+									<td align="center">229</td>
+								</tr>
+								<tr>
+									<td>Pubmed http://www.ncbi.nlm.nih.gov/pub med</td>
+									<td align="center"><italic>((“Tuberculosis/analysis”[Mesh] OR “Tuberculosis/epidemiology”[Mesh] OR “Tuberculosis/mortality”[Mesh] OR “Tuberculosis/statistics and numerical data”[Mesh] OR “Tuberculosis/transmission”[Mesh])) AND (“Homeless Persons/epidemiology”[Mesh] OR “Homeless Persons/mortality”[Mesh] OR “Homeless Persons/statistics and numerical data”[Mesh])</italic></td>
+									<td align="center">104</td>
+								</tr>
+								<tr>
+									<td>Lilacs http://lilacs.bvsalud.org/en/</td>
+									<td align="center"><italic>tuberculose [Descritor de assunto] AND pessoas em situação de rua [Descritor de assunto]</italic></td>
+									<td align="center">13</td>
+								</tr>
+								<tr>
+									<td>Lilacs http://lilacs.bvsalud.org/en/</td>
+									<td align="center"><italic>pessoas em situação de rua [Descritor de assunto] AND vulnerabilidade social [Descritor de assunto],</italic></td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Lilacs http://lilacs.bvsalud.org/en/</td>
+									<td align="center"><italic>pessoas em situação de rua [Descritor de assunto] AND vulnerabilidade social [Descritor de assunto] AND tuberculose [Descritor de assunto]</italic></td>
+									<td align="center">1</td>
+								</tr>
+								<tr>
+									<td>Lilacs http://lilacs.bvsalud.org/en/</td>
+									<td align="center"><italic>vulnerabilidade social [Descritor de assunto] AND tuberculose [Descritor de assunto]</italic></td>
+									<td align="center">5</td>
+								</tr>
+								<tr>
+									<td>Lilacs http://lilacs.bvsalud.org/en/</td>
+									<td align="center"><italic>vulnerabilidade em saúde [Descritor de assunto] AND tuberculose [Descritor de assunto]</italic></td>
+									<td align="center">5</td>
+								</tr>
+							</tbody>
+						</table>
+					</table-wrap>
+				</p>
+				<p>
+					<table-wrap id="t2">
+						<label>Table 2</label>
+						<caption>
+							<title>Descriptors and articles selected from the studies.</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left">Authors</th>
+									<th>Study population</th>
+									<th>Year</th>
+									<th>Country</th>
+									<th>Descriptors</th>
+									<th>Study Design</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Aldridge et al.<sup>21</sup></td>
+									<td align="center">491 homeless persons</td>
+									<td align="center">2018</td>
+									<td align="center">England</td>
+									<td align="center">Tuberculosis + Homeless persons</td>
+									<td align="center">Cross-sectional study</td>
+								</tr>
+								<tr>
+									<td>Semunigus et al.<sup>22</sup></td>
+									<td align="center">351 homeless persons</td>
+									<td align="center">2016</td>
+									<td align="center">Ethiopia</td>
+									<td align="center">Tuberculosis + Homeless persons + HIV</td>
+									<td align="center">Cross-sectional study</td>
+								</tr>
+								<tr>
+									<td>Vieira et al.<sup>23</sup></td>
+									<td align="center">Population of 18 Portuguese districts</td>
+									<td align="center">2018</td>
+									<td align="center">Portugal</td>
+									<td align="center">Tuberculosis + Homeless people</td>
+									<td align="center">Ecological study</td>
+								</tr>
+								<tr>
+									<td>Ranzani et al.<sup>24</sup></td>
+									<td align="center">1,726 homeless persons</td>
+									<td align="center">2016</td>
+									<td align="center">Brazil</td>
+									<td align="center">Tuberculosis + Homeless persons</td>
+									<td align="center">Cohort study</td>
+								</tr>
+								<tr>
+									<td>Hwang et al.<sup>25</sup></td>
+									<td align="center">3,292 homeless persons</td>
+									<td align="center">2017</td>
+									<td align="center">South Korea</td>
+									<td align="center">Tuberculosis + Homeless persons</td>
+									<td align="center">Cohort study</td>
+								</tr>
+								<tr>
+									<td>Dias et al.<sup>26</sup></td>
+									<td align="center">92,053 homeless persons</td>
+									<td align="center">2017</td>
+									<td align="center">Portugal</td>
+									<td align="center">Tuberculosis + Homeless persons</td>
+									<td align="center">Cohort study</td>
+								</tr>
+								<tr>
+									<td>Agarwal et al.<sup>27</sup></td>
+									<td align="center">543 homeless persons</td>
+									<td align="center">2019</td>
+									<td align="center">USA</td>
+									<td align="center">Tuberculosis + Homeless persons</td>
+									<td align="center">Cross-sectional study</td>
+								</tr>
+								<tr>
+									<td>Nwana et al.<sup>28</sup></td>
+									<td align="center">393 homeless persons</td>
+									<td align="center">2019</td>
+									<td align="center">USA</td>
+									<td align="center">Tuberculosis + Homeless persons</td>
+									<td align="center">Cohort study</td>
+								</tr>
+								<tr>
+									<td>Amiri et al.<sup>29</sup></td>
+									<td align="center">593 homeless persons</td>
+									<td align="center">2014</td>
+									<td align="center">Iran</td>
+									<td align="center">Tuberculosis + Homeless persons</td>
+									<td align="center">Cross-sectional study</td>
+								</tr>
+								<tr>
+									<td>Powell et al.<sup>30</sup></td>
+									<td align="center">110 occurrences of multidrug-resistant tuberculosis</td>
+									<td align="center">2017</td>
+									<td align="center">USA</td>
+									<td align="center">Tuberculosis + Homeless persons</td>
+									<td align="center">Cross-sectional study</td>
+								</tr>
+								<tr>
+									<td>Gomez et al.<sup>31</sup></td>
+									<td align="center">544 homeless persons with tuberculosis</td>
+									<td align="center">2019</td>
+									<td align="center">Colombia</td>
+									<td align="center">Tuberculosis + Homeless persons</td>
+									<td align="center">Cohort study</td>
+								</tr>
+								<tr>
+									<td>Munn et al.<sup>32</sup></td>
+									<td align="center">64 homeless persons</td>
+									<td align="center">2015</td>
+									<td align="center">USA</td>
+									<td align="center">Tuberculosis + Homeless persons</td>
+									<td align="center">Cohort study</td>
+								</tr>
+								<tr>
+									<td>Streit et al.<sup>33</sup></td>
+									<td align="center">142 homeless persons</td>
+									<td align="center">2019</td>
+									<td align="center">Germany</td>
+									<td align="center">Tuberculosis + Homeless persons</td>
+									<td align="center">Cross-sectional study</td>
+								</tr>
+								<tr>
+									<td>Dolla et al.<sup>34</sup></td>
+									<td align="center">301 homeless persons</td>
+									<td align="center">2017</td>
+									<td align="center">India</td>
+									<td align="center">Tuberculosis + Homeless persons</td>
+									<td align="center">Cross-sectional study</td>
+								</tr>
+								<tr>
+									<td>Korzeniewska-Koseła et al.<sup>35</sup></td>
+									<td align="center">2,349 homeless persons</td>
+									<td align="center">2015</td>
+									<td align="center">Poland</td>
+									<td align="center">Tuberculosis + Homeless persons</td>
+									<td align="center">Cohort study</td>
+								</tr>
+								<tr>
+									<td>Pendzich et al.<sup>36</sup></td>
+									<td align="center">117 homeless persons</td>
+									<td align="center">2015</td>
+									<td align="center">Poland</td>
+									<td align="center">Tuberculosis + Homeless persons</td>
+									<td align="center">Cohort study</td>
+								</tr>
+							</tbody>
+						</table>
+					</table-wrap>
+				</p>
+			</sec>
+			<sec>
+				<title>Eligibility Criteria</title>
+				<p>Analyses included studies with a quantitative design, written in English, Spanish, and Portuguese and published from 2014 to 2020, which assessed tuberculosis, tuberculosis+HIV, and the vulnerability factors associated with these illnesses.</p>
+			</sec>
+			<sec>
+				<title>Bias Analysis</title>
+				<p>Bias in the evaluated studies was assessed in pairs, using the Joanna Briggs Institute Critical Appraisal (JBI – Systematic Reviews tools). JBI is composed of questions assessing the methodological quality of a study according to its design. Cross-sectional studies were evaluated with the JBI Critical Appraisal Checklist for Analytical Cross Sectional Studies with the following questions: (i) clearly defined inclusion and exclusion criteria; (ii) theme and method described in detail; (iii) appropriately measured exposures; (iv) objective and standardized definition criteria to determine the condition studied; (v) confounding factor identification; (vi) strategies to deal with confounding factors; (vii) adequately measured outcomes; and (viii) appropriate statistical analyses<sup><xref ref-type="bibr" rid="B18">18</xref></sup> . To analyze cohort studies, 11 questions of the JBI Critical Appraisal Checklist for Analytical Cohort Studies were used: (i) both groups recruited from the same population; (ii) exposures similarly measured to identify exposed and unexposed groups; (iii) appropriately measured exposures; (iv) confounding factor identification; (v) strategies for dealing with confounding factors; (vi) participants free of outcomes at baseline; (vii) appropriately measured outcomes; (viii) sufficient time to study outcome occurrence; (ix) complete follow-ups/if not, described and explored reasons for it; (x) strategies to deal with incomplete follow-ups; and (xi) appropriate statistical analyses<sup><xref ref-type="bibr" rid="B19">19</xref></sup> . Ecological studies were evaluated by the JBI Critical Appraisal Checklist for Analytical Cross Sectional Studies, modified according to criteria in Dufault and Klar<sup><xref ref-type="bibr" rid="B20">20</xref></sup> for the methodological evaluation of this type of study design, with the following questions: (i) explained chosen design and sample size; (ii) clearly defined inclusion and exclusion criteria; (iii) theme and method described in detail; (iv) objective and standardized definition criteria to determine the condition studied; (v) appropriately measured exposures; (vi) confounding factor identification; (vii) strategies to deal with confounding factors; (viii) appropriately measured outcomes; (ix) efforts to reduce the possibility of bias; (x) appropriate statistical analyses; (xi) strategies to deal with incomplete follow-ups; and (xii) highlighted limitations<sup><xref ref-type="bibr" rid="B18">18</xref> , <xref ref-type="bibr" rid="B20">20</xref></sup> .</p>
+			</sec>
+		</sec>
+		<sec sec-type="results">
+			<title>RESULTS</title>
+			<p>We found 374 studies in the researched platforms, selecting 103 published within the study period and excluding two since they were official government documents for public policies, 23 for being duplicates, and nine because they were not indexed for full reading. Finally, 71 studies remained for analysis. We read their abstracts and browsed the entire articles, selecting 16 according to our eligibility criteria. Most studies were conducted in Europe (6/16), followed by Asia (3/16), North America (4/16), South America (2/16) – of which one was Brazilian, and Africa (1/16) ( <xref ref-type="fig" rid="f01">Figure</xref> ). In total, seven were cross-sectional studies; eight, cohort; and one, ecological. To this, we added the average of 2.7 studies published annually in the years analyzed, with a minimum of one and a maximum of four papers published each year.</p>
+			<p>
+				<fig id="f01">
+					<label>Figure</label>
+					<caption>
+						<title>Result flowchart.</title>
+					</caption>
+					<graphic xlink:href="1518-8787-rsp-56-43-gf01.tif"/>
+				</fig>
+			</p>
+			<p>We collected our sample between June 2019 and April 2021 and all data were entered into a Microsoft Excel spreadsheet containing the authors, study population, year of publication, country of publication, and study design.</p>
+			<p>Among the selected articles, we found the following vulnerability factors for their outcomes: alcohol use<sup><xref ref-type="bibr" rid="B21">21</xref></sup> ; smoking<sup><xref ref-type="bibr" rid="B21">21</xref> , <xref ref-type="bibr" rid="B22">22</xref> , <xref ref-type="bibr" rid="B25">25</xref> , <xref ref-type="bibr" rid="B28">28</xref> , <xref ref-type="bibr" rid="B29">29</xref></sup> ; use of illicit drugs<sup><xref ref-type="bibr" rid="B21">21</xref> , <xref ref-type="bibr" rid="B24">24</xref> , <xref ref-type="bibr" rid="B26">26</xref></sup> , such as injectable ones<sup><xref ref-type="bibr" rid="B21">21</xref> , <xref ref-type="bibr" rid="B27">27</xref></sup> - which may have caused needle sharing<sup><xref ref-type="bibr" rid="B29">29</xref> , <xref ref-type="bibr" rid="B30">30</xref></sup> - and methamphetamine<sup><xref ref-type="bibr" rid="B29">29</xref></sup> ; history of incarceration<sup><xref ref-type="bibr" rid="B21">21</xref> , <xref ref-type="bibr" rid="B29">29</xref></sup> ; immigration<sup><xref ref-type="bibr" rid="B26">26</xref> , <xref ref-type="bibr" rid="B32">32</xref> , <xref ref-type="bibr" rid="B33">33</xref></sup> ; psychological disorders<sup><xref ref-type="bibr" rid="B24">24</xref> , <xref ref-type="bibr" rid="B28">28</xref> , <xref ref-type="bibr" rid="B30">30</xref></sup> ; prostitution<sup><xref ref-type="bibr" rid="B29">29</xref></sup> , including among men who have sex with men; illiteracy<sup><xref ref-type="bibr" rid="B22">22</xref> , <xref ref-type="bibr" rid="B29">29</xref></sup> ; malnutrition<sup><xref ref-type="bibr" rid="B22">22</xref></sup> ; HIV coinfection<sup><xref ref-type="bibr" rid="B21">21</xref> , <xref ref-type="bibr" rid="B22">22</xref> , <xref ref-type="bibr" rid="B24">24</xref></sup> ; and other chronic diseases, such as diabetes<sup><xref ref-type="bibr" rid="B27">27</xref> , <xref ref-type="bibr" rid="B28">28</xref></sup> , chronic renal failure<sup><xref ref-type="bibr" rid="B27">27</xref> , <xref ref-type="bibr" rid="B28">28</xref></sup> , and hepatitis B and C<sup><xref ref-type="bibr" rid="B21">21</xref> , <xref ref-type="bibr" rid="B28">28</xref> , <xref ref-type="bibr" rid="B29">29</xref></sup> .</p>
+			<p>In all analyzed studies, most patients with tuberculosis were Black or mixed-race men<sup><xref ref-type="bibr" rid="B24">24</xref> , <xref ref-type="bibr" rid="B28">28</xref> , <xref ref-type="bibr" rid="B30">30</xref> , <xref ref-type="bibr" rid="B32">32</xref></sup> , with a mean age of 49.8 years (SD ± 5.2). The literature shows that average homelessness length related to a higher occurrence of tuberculosis and latent tuberculosis infection<sup><xref ref-type="bibr" rid="B21">21</xref> , <xref ref-type="bibr" rid="B22">22</xref> , <xref ref-type="bibr" rid="B29">29</xref></sup> .</p>
+			<p>
+				<xref ref-type="table" rid="t3">Table 3</xref>
+				<xref ref-type="table" rid="t4"/> shows the outcomes related to the occurrence of tuberculosis and latent tuberculosis infection: incomplete treatment<sup><xref ref-type="bibr" rid="B22">22</xref> , <xref ref-type="bibr" rid="B24">24</xref> , <xref ref-type="bibr" rid="B25">25</xref> , <xref ref-type="bibr" rid="B27">27</xref> , <xref ref-type="bibr" rid="B28">28</xref> , <xref ref-type="bibr" rid="B30">30</xref> , <xref ref-type="bibr" rid="B31">31</xref> , <xref ref-type="bibr" rid="B34">34</xref> , <xref ref-type="bibr" rid="B35">35</xref></sup> or its failure<sup><xref ref-type="bibr" rid="B2">2</xref> , <xref ref-type="bibr" rid="B24">24</xref> , <xref ref-type="bibr" rid="B26">26</xref></sup> , death<sup><xref ref-type="bibr" rid="B22">22</xref> , <xref ref-type="bibr" rid="B24">24</xref> , <xref ref-type="bibr" rid="B25">25</xref> , <xref ref-type="bibr" rid="B27">27</xref> , <xref ref-type="bibr" rid="B30">30</xref> , <xref ref-type="bibr" rid="B31">31</xref> , <xref ref-type="bibr" rid="B34">34</xref></sup> , development of treatment-resistance<sup><xref ref-type="bibr" rid="B22">22</xref> , <xref ref-type="bibr" rid="B25">25</xref></sup> , and occurrence of extrapulmonary tuberculosis<sup><xref ref-type="bibr" rid="B22">22</xref> , <xref ref-type="bibr" rid="B26">26</xref> , <xref ref-type="bibr" rid="B27">27</xref></sup> . The main diagnostic tools were sputum cytology<sup><xref ref-type="bibr" rid="B22">22</xref> , <xref ref-type="bibr" rid="B24">24</xref> , <xref ref-type="bibr" rid="B26">26</xref> , <xref ref-type="bibr" rid="B27">27</xref> , <xref ref-type="bibr" rid="B29">29</xref> , <xref ref-type="bibr" rid="B31">31</xref></sup> , thoracic X-rays<sup><xref ref-type="bibr" rid="B24">24</xref> , <xref ref-type="bibr" rid="B27">27</xref> , <xref ref-type="bibr" rid="B33">33</xref></sup> , culture<sup><xref ref-type="bibr" rid="B27">27</xref> , <xref ref-type="bibr" rid="B29">29</xref></sup> , molecular examination<sup><xref ref-type="bibr" rid="B27">27</xref></sup> , and clinical diagnosis<sup><xref ref-type="bibr" rid="B27">27</xref></sup> .</p>
+			<p>
+				<table-wrap id="t3">
+					<label>Table 3</label>
+					<caption>
+						<title>Summarization of vulnerability factors.</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left">Vulnerability factor</th>
+								<th>Vulnerability dimension</th>
+								<th>Author</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Psychological disorder</td>
+								<td align="center">Individual</td>
+								<td align="center">Ranzani et al.<sup>24</sup> (2016); Nwana et al.<sup>28</sup> (2019); Powell et al.<sup>30</sup> (2017)</td>
+							</tr>
+							<tr>
+								<td>Alcohol use</td>
+								<td align="center">Individual and social</td>
+								<td align="center">Aldridge et al.<sup>21</sup> (2018); Semunigus et al.<sup>22</sup> (2016); Vieira et al.<sup>23</sup> (2018); Ranzani et al.<sup>24</sup> (2016); Hwuang et al.<sup>25</sup> (2017); Dias et al.<sup>26</sup> (2017); Agarwal et al.<sup>27</sup> (2019); Nwana et al.<sup>28</sup> (2019)</td>
+							</tr>
+							<tr>
+								<td>Tobacco use</td>
+								<td align="center">Individual and social</td>
+								<td align="center">Aldridge et al.<sup>21</sup> (2018); Semunigus et al.<sup>22</sup> (2016); Hwuang et al.<sup>25</sup> (2017); Nwana et al.<sup>28</sup> (2019) Amiri et al.<sup>29</sup>(2014)</td>
+							</tr>
+							<tr>
+								<td>Drug use</td>
+								<td align="center">Individual and social</td>
+								<td align="center">Aldridge et al.<sup>21</sup> (2018); Ranzani et al.<sup>24</sup> (2016); Dias et al.<sup>26</sup> (2017); Agarwal et al.<sup>27</sup> (2019); Nwana et al.<sup>28</sup> (2019); Powell et al.<sup>30</sup> (2017)</td>
+							</tr>
+							<tr>
+								<td>Low educational attainment</td>
+								<td align="center">Individual and social</td>
+								<td align="center">Semunigus et al.<sup>22</sup> (2016); Ranzani et al.<sup>24</sup> (2016); Amiri et al.<sup>29</sup> (2014)</td>
+							</tr>
+							<tr>
+								<td>Immigration</td>
+								<td align="center">Social</td>
+								<td align="center">Dias et al.<sup>26</sup> (2017); Munn et al.<sup>32</sup> (2015); Streit et al.<sup>33</sup> (2019)</td>
+							</tr>
+							<tr>
+								<td>Imprisonment</td>
+								<td align="center">Social</td>
+								<td align="center">Aldridge et al.<sup>21</sup> (2018); Amiri et al.<sup>29</sup> (2014); Powell et al.<sup>30</sup> (2017)</td>
+							</tr>
+							<tr>
+								<td>Engaging in illegal activities (theft, drug trafficking, and prostitution)</td>
+								<td align="center">Social</td>
+								<td align="center">Amiri et al.<sup>29</sup> (2014)</td>
+							</tr>
+							<tr>
+								<td>Malnutrition</td>
+								<td align="center">Social</td>
+								<td align="center">Semunigus et al.<sup>22</sup> (2016)</td>
+							</tr>
+							<tr>
+								<td>Coinfection with HIV and other diseases such as hypertension, hepatitis, and syphilis, as well as tuberculosis recurrence</td>
+								<td align="center">Social</td>
+								<td align="center">Aldridge et al.<sup>21</sup> (2018); Semunigus et al.<sup>22</sup> (2016); Ranzani et al.<sup>24</sup> (2016); Hwuang et al.<sup>25</sup> (2017); Dias et al.<sup>26</sup> (2017); Agarwal et al.<sup>27</sup> (2019); Nwana et al.<sup>28</sup> (2019); Amiri et al.<sup>29</sup> (2014)</td>
+							</tr>
+							<tr>
+								<td>Mixed-race and Black people</td>
+								<td align="center">Social</td>
+								<td align="center">Powell et al.<sup>30</sup> (2017); Munn et al.<sup>32</sup> (2015); Dolla et al.<sup>34</sup> (2017)</td>
+							</tr>
+							<tr>
+								<td>Treatment failure</td>
+								<td align="center">Programmatic</td>
+								<td align="center">Semunigus et al.<sup>22</sup> (2016); Ranzani et al.<sup>24</sup> (2016); Hwuang et al.<sup>25</sup> (2017); Dias et al.<sup>26</sup> (2017); Agarwal et al.<sup>27</sup> (2019); Nwana et al.<sup>28</sup> (2019); Gomez et al.<sup>31</sup> (2019); Streit et al.<sup>33</sup> (2019); Dolla et al.<sup>34</sup> (2017); Korzeniewska-Koseła et al.<sup>35</sup> (2015)</td>
+							</tr>
+						</tbody>
+					</table>
+				</table-wrap>
+			</p>
+			<p>
+				<table-wrap id="t4">
+					<label>Table 4</label>
+					<caption>
+						<title>Incidences and prevalence found in the reviewed studies.</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left">Authors (year)</th>
+								<th>Tuberculosis incidence</th>
+								<th>Tuberculosis prevalence</th>
+								<th>Latent tuberculosis infection prevalence</th>
+								<th>Tuberculosis+HIV prevalence</th>
+								<th>Latent tuberculosis infection+HIV prevalence</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Aldridge et al.<sup>21</sup> (2018)</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td align="center">16,50%</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Semunigus et al.<sup>22</sup> (2016)</td>
+								<td align="center">505/100,000 inhabitants</td>
+								<td align="center">2,60%</td>
+								<td>
+								</td>
+								<td align="center">55,50%</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Ranzani et al.<sup>24</sup> (2016)</td>
+								<td>
+								</td>
+								<td align="center">2,80%</td>
+								<td>
+								</td>
+								<td align="center">17,30%</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Hwuang et al.<sup>25</sup> (2017)</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td align="center">5,70%</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Dias et al.<sup>26</sup> (2017)</td>
+								<td align="center">122/100,000 inhabitants</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td align="center">32,60%</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Agarwal et al.<sup>27</sup> (2019)</td>
+								<td>
+								</td>
+								<td align="center">4,10%</td>
+								<td>
+								</td>
+								<td align="center">16%</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Nwana et al.<sup>28</sup> (2019)</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td align="center">1,80%</td>
+							</tr>
+							<tr>
+								<td>Amiri et al.<sup>29</sup> (2014)</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td align="center">46,70%</td>
+								<td>
+								</td>
+								<td align="center">1,20%</td>
+							</tr>
+							<tr>
+								<td>Gomez et al.<sup>31</sup> (2019)</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td align="center">20,60%</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Streit et al.<sup>33</sup> (2019</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td align="center">16%</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Dolla et al.<sup>34</sup> (2017)</td>
+								<td align="center">270/100,000 inhabitants</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td align="center">20%</td>
+								<td>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</table-wrap>
+			</p>
+			<p>Among the 16 publications analyzed, 10 described the association between tuberculosis comorbidities and HIV. In Semunigus et al.<sup><xref ref-type="bibr" rid="B22">22</xref></sup> , the proportion of coinfection reached 55.5%. According to Dias et al.<sup><xref ref-type="bibr" rid="B26">26</xref></sup> , HIV-positive people were 2.1 times more likely to have an unfavorable outcome. Moreover, 32.6% of participants showed some comorbidity. In Ranzani et al.<sup><xref ref-type="bibr" rid="B24">24</xref></sup> , 17.3% of homeless persons were HIV positive. According to Agarwal et al.<sup><xref ref-type="bibr" rid="B27">27</xref></sup> , 16% of participants with tuberculosis were HIV positive and the chance ratio for mortality in these individuals was 3.57 higher than for those who were HIV negative. In Hwang et al.<sup><xref ref-type="bibr" rid="B25">25</xref></sup> , 5.7% showed tuberculosis+HIV coinfections. In Amiri et al.<sup><xref ref-type="bibr" rid="B29">29</xref></sup> , 1.2% of HP were HIV positive and had a latent tuberculosis infection, a similar proportion (1.8%) to the one in Nwana et al.<sup><xref ref-type="bibr" rid="B28">28</xref></sup> Gomez et al.<sup><xref ref-type="bibr" rid="B31">31</xref></sup> found that 20.6% of HP had comorbidities. Vieira et al.<sup><xref ref-type="bibr" rid="B23">23</xref></sup> report that a 100-case increase of HIV+tuberculosis coinfection in the general population raises the incidence of tuberculosis among homeless persons to 14 cases per 100,000 inhabitants. The only HIV+ patient in Dolla et al.<sup><xref ref-type="bibr" rid="B34">34</xref></sup> died.</p>
+			<p>Regarding biases, most studies showed dissimilar recruited groups<sup><xref ref-type="bibr" rid="B24">24</xref> , <xref ref-type="bibr" rid="B25">25</xref> , <xref ref-type="bibr" rid="B36">36</xref></sup> , confounding factor identification<sup><xref ref-type="bibr" rid="B26">26</xref> , <xref ref-type="bibr" rid="B27">27</xref> , <xref ref-type="bibr" rid="B29">29</xref> , <xref ref-type="bibr" rid="B30">30</xref> , <xref ref-type="bibr" rid="B33">33</xref></sup> , strategies to deal with these factors<sup><xref ref-type="bibr" rid="B26">26</xref> , <xref ref-type="bibr" rid="B27">27</xref> , <xref ref-type="bibr" rid="B29">29</xref> , <xref ref-type="bibr" rid="B30">30</xref> , <xref ref-type="bibr" rid="B32">32</xref></sup> or incomplete participant follow-ups<sup><xref ref-type="bibr" rid="B25">25</xref> , <xref ref-type="bibr" rid="B26">26</xref> , <xref ref-type="bibr" rid="B36">36</xref></sup> . Few studies indicated their limitations<sup><xref ref-type="bibr" rid="B24">24</xref> , <xref ref-type="bibr" rid="B26">26</xref> , <xref ref-type="bibr" rid="B28">28</xref> , <xref ref-type="bibr" rid="B29">29</xref> , <xref ref-type="bibr" rid="B31">31</xref> , <xref ref-type="bibr" rid="B34">34</xref></sup> and those that did showed flaws in how they described their methodology and results<sup><xref ref-type="bibr" rid="B29">29</xref> , <xref ref-type="bibr" rid="B30">30</xref> , <xref ref-type="bibr" rid="B32">32</xref> , <xref ref-type="bibr" rid="B36">36</xref></sup> .</p>
+		</sec>
+		<sec sec-type="discussion">
+			<title>DISCUSSION</title>
+			<p>We can observe a recurrence between alcohol, tobacco, and illicit drug consumption results – factors of individual susceptibility and social vulnerability (due to the stigma associated with addiction) – whether to escape the reality of suffering or to seek an improvement in general well-being<sup><xref ref-type="bibr" rid="B37">37</xref> , <xref ref-type="bibr" rid="B38">38</xref></sup> . Thus, this vulnerability overlap may increase exposure to tuberculosis and HIV in the study population. Gender, age, coinfection by other communicable diseases, and history of incarceration are also factors which arouse discrimination in our society, albeit at different levels.</p>
+			<p>Since it is a very important global public health problem (even listed among the Sustainable Development Goals), some methodological flaws in these studies draw our attention, such as their small sample size, weakening their results and conclusions; lack of direct access to tuberculosis-positive patients<sup><xref ref-type="bibr" rid="B29">29</xref></sup> ; underestimation of the actual number of homeless persons<sup><xref ref-type="bibr" rid="B24">24</xref> , <xref ref-type="bibr" rid="B26">26</xref></sup> and of the incidence and prevalence of tuberculosis in this population<sup><xref ref-type="bibr" rid="B26">26</xref> , <xref ref-type="bibr" rid="B34">34</xref></sup> ; and a sample composed only of people with tuberculosis<sup><xref ref-type="bibr" rid="B24">24</xref></sup> , excluding extrapulmonary forms of the illness.</p>
+			<sec>
+				<title>Individual Vulnerability</title>
+				<p>Constant drug use can lead to the development of mental disorders, as stated in the last World Drug Report in 2020 from the United Nations Office of Drugs and Crime (UNODC). In total, two publications<sup><xref ref-type="bibr" rid="B24">24</xref> , <xref ref-type="bibr" rid="B30">30</xref></sup> described the variable “mental disorder,” evincing its constant occurrence in the study samples. The break with family members either due to maladaptation to their structural model, a history of violence and harassment or unacceptance of reprehensible forms of sustenance and their own addiction, expose these people to social and individual vulnerability since they are unable to count on their families at a difficult time<sup><xref ref-type="bibr" rid="B39">39</xref> , <xref ref-type="bibr" rid="B40">40</xref></sup> .</p>
+			</sec>
+			<sec>
+				<title>Social Vulnerability</title>
+				<p>The State attempts to reduce social vulnerability by implementing income transfer programs to decrease the number of people below the poverty line and give them better feeding conditions<sup><xref ref-type="bibr" rid="B41">41</xref></sup> . This important measure is considered programmatic and affects social vulnerability and should be expanded as it can reduce the vulnerability of people below the poverty line. Since vulnerability dimensions may overlap or intersect, this helps to broaden the epidemiological view on the ways of getting sick and alert managers to health issues, resulting in a more qualified confrontation of these problems in HP.</p>
+				<p>Producing vulnerable and non-integrable lives forces HP to continuously live with access barriers to education, work, and health care and services, among others, in addition to their invisibility, which can lead some of them to engage in activities such as prostitution, association with trafficking, theft, and labor analogous to slavery.</p>
+				<p>Social vulnerability also involves characteristics marked by lower social classes, residence, and Black ethnicity, among others. Studies showed a 63.6% proportion of Black and mixed-race people among their results. The average age of participants is 49.8 years (SD ± 5.2), probably due to their greater spatial mobility, when compared to women or people of different age groups such as older adults, who move less through the streets, exposing themselves less in their journeys<sup><xref ref-type="bibr" rid="B42">42</xref></sup> .</p>
+				<p>History of incarceration was frequent among the reviewed studies. The prison system, tasked with rehabilitating and reinserting convicts into society, fails to do so due to the stigma inmates carry after their sentences are fulfilled either by society in general or by absent family support or unemployment. Thus, many lack the monetary resources to continue their lives, resorting to homelessness and sometimes engaging in illegal activities, which are incapable of breaking the recidivism cycle<sup><xref ref-type="bibr" rid="B43">43</xref></sup> .</p>
+				<p>According to a ranking conducted by the World Prison Brief (2021)<sup><xref ref-type="bibr" rid="B44">44</xref></sup> , Brazil has the third largest prison population in the world, a fact intrinsically linked to structural racism and, consequently, to the systematic marginalization of Black and mixed-race people, who comprise 61.7% of inmates<sup><xref ref-type="bibr" rid="B45">45</xref></sup> . Thus, we can observe that these vulnerability factors related to social, racial, and economic impacts are perpetuated in the most vulnerable populations.</p>
+			</sec>
+			<sec>
+				<title>Programmatic Vulnerability</title>
+				<p>This dimension, related to access to State public and institutional equipment, proved to be an important dimension to analyze vulnerable populations’ susceptibilities to tuberculosis and HIV in epidemiological studies<sup><xref ref-type="bibr" rid="B46">46</xref></sup> , as it evinces the precariousness and fragility of these resources. Incomplete treatment and the development of resistance to medication are included in this dimension, as they show the failure of the health system to provide adequate therapy, information, and structure to treat these patients<sup><xref ref-type="bibr" rid="B47">47</xref></sup> . Among its consequences is coinfection with other diseases since homelessness and environmental exposure enhance the risks for some chronic and infectious diseases<sup><xref ref-type="bibr" rid="B38">38</xref></sup> once priority issues for the maintenance of life, such as safety and food, are more urgent than health care. Due to access barriers, health care is relegated to the background or received only when opportune<sup><xref ref-type="bibr" rid="B38">38</xref> , <xref ref-type="bibr" rid="B48">48</xref></sup> .</p>
+			</sec>
+		</sec>
+		<sec sec-type="conclusions">
+			<title>CONCLUSION</title>
+			<p>According to the Institute of Applied Economic Research, Brazil had more than 100,000 homeless persons in 2016<sup><xref ref-type="bibr" rid="B49">49</xref></sup> . Due to the Brazilian socioeconomic perspective, including the covid-19 pandemic allied to the current economic and political scenario, Brazil witnessed an increase in poverty and the number of HP<sup><xref ref-type="bibr" rid="B50">50</xref></sup> . Among its consequences, we can observe, in the short term, an increase of tuberculosis in HP and other vulnerable populations, such as low-income families, <italic>favela</italic> dwellers or residents of precarious housing<sup><xref ref-type="bibr" rid="B51">51</xref></sup> since Brazil already has experienced an increase in poverty and misery, as have other Latin American countries<sup><xref ref-type="bibr" rid="B50">50</xref> , <xref ref-type="bibr" rid="B52">52</xref></sup> .</p>
+			<p>Our perspective of the concept of vulnerability allowed us to assess that the results found in the analyzed publications evinced the social and programmatic factors associated with tuberculosis and HIV in HP, highlighting the different dimensions of life and healthcare precarization. Thus, this concept was a fundamental support to classify and understand the different susceptibilities permeating HP’s life and hindering the treatment of tuberculosis and HIV, as well as treatment failures due to discontinuity and, consequently, the appearance of drug-resistant strains.</p>
+			<p>Even with established protocols, guidelines, ordinances, and technical standards to prevent and treat HP’s health, we noticed that the execution of the action plans outlined by government strategies shows important flaws, evincing weaknesses in the health system and public policies aimed at HP, and the stigma and social prejudices health services reproduce. Thus, some lives are more exposed to vulnerability situations and consequently show less access to prevention and protection and are more susceptible to violence from the State and society than others. This is due to various crossings marking these lives as more vulnerable and often unrecognized and invisible.</p>
+			<sec>
+				<title>Recommendations</title>
+				<p>Based on the results of this review, we recommend greater attention and investment in improving prevention actions and interventions for tuberculosis and tuberculosis+HIV in HP since primary care to routinely assess homeless persons’ vulnerabilities. We also suggest that managers and technicians evaluate the need to change and adjust primary care protocols for HP and integrally distribute resources to the demands which are already known and shown in this study. Political effort and commitment are also necessary to distribute resources destined to health, social policies, and HP assistance.</p>
+				<p>Systematizing vulnerability factors can support hypotheses for future research and subsidize public health and social policies to cope with tuberculosis and HIV in HP. Our findings, when compared to other systematic reviews, seem to advance the literature by its discussion from a perspective of the concept of vulnerability, unprecedented in national publications, for homeless persons and the prevalence of tuberculosis and tuberculosis+HIV.</p>
+			</sec>
+			<sec>
+				<title>Limitations</title>
+				<p>This study has limitations since, even if its two researchers conducted a wide search of the published studies, a number of texts may yet be digitally unavailable on the surveyed platforms; due to the quick dynamic of publishing, some studies may have escaped search and data collection.</p>
+			</sec>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>REFERENCES</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1 World Health Organization. Global tuberculosis report 2020: executive summary. Geneva (CH): WHO; 2020.</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>World Health Organization</collab>
+					</person-group>
+					<source>Global tuberculosis report 2020: executive summary</source>
+					<publisher-loc>Geneva (CH)</publisher-loc>
+					<publisher-name>WHO</publisher-name>
+					<year>2020</year>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2 Quinn PJ, Markey BK, Carter ME, Donnelly WJ, Leonard F. Microbiologia veterinária e doenças infecciosas. Vol. 5. Porto Alegre, RS: Artmed; 2005.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Quinn</surname>
+							<given-names>PJ</given-names>
+						</name>
+						<name>
+							<surname>Markey</surname>
+							<given-names>BK</given-names>
+						</name>
+						<name>
+							<surname>Carter</surname>
+							<given-names>ME</given-names>
+						</name>
+						<name>
+							<surname>Donnelly</surname>
+							<given-names>WJ</given-names>
+						</name>
+						<name>
+							<surname>Leonard</surname>
+							<given-names>F</given-names>
+						</name>
+					</person-group>
+					<source>Microbiologia veterinária e doenças infecciosas</source>
+					<volume>5</volume>
+					<publisher-loc>Porto Alegre, RS</publisher-loc>
+					<publisher-name>Artmed</publisher-name>
+					<year>2005</year>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3 Nações Unidas. ONU quer acabar com epidemia de tuberculose até 2030. ONU News. 24 mar 2016 [cited 2018 Nov 10]. Available from: <ext-link ext-link-type="uri" xlink:href="https://news.un.org/pt/story/2016/03/1545481-onu-quer-acabar-com-epidemia-de-tuberculose-ate-2030">https://news.un.org/pt/story/2016/03/1545481-onu-quer-acabar-com-epidemia-de-tuberculose-ate-2030</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Nações Unidas</collab>
+					</person-group>
+					<article-title>ONU quer acabar com epidemia de tuberculose até 2030</article-title>
+					<source>ONU News</source>
+					<day>24</day>
+					<month>03</month>
+					<year>2016</year>
+					<date-in-citation content-type="cited-date">cited 2018 Nov 10</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://news.un.org/pt/story/2016/03/1545481-onu-quer-acabar-com-epidemia-de-tuberculose-ate-2030">https://news.un.org/pt/story/2016/03/1545481-onu-quer-acabar-com-epidemia-de-tuberculose-ate-2030</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4 Ministério da Saúde (BR), Secretaria de Ciência, Tecnologia e Insumos Estratégicos, Departamento de Ciência e Tecnologia. Adesão ao tratamento de tuberculose pela população em situação de rua. Brasília, DF; 2016.</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+						<collab>Secretaria de Ciência, Tecnologia e Insumos Estratégicos</collab>
+						<collab>Departamento de Ciência e Tecnologia</collab>
+					</person-group>
+					<source>Adesão ao tratamento de tuberculose pela população em situação de rua</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<year>2016</year>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5 Ministério da Saúde (BR), Secretaria de Vigilância em Saúde. Tuberculose. 2021. Bol Epidemiológico. Número Especial. Brasília, DF; 2021 [cited 2021 Jun 3]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.gov.br/saude/pt-br/media/pdf/2021/marco/24/boletim-tuberculose-2021_24.03">https://www.gov.br/saude/pt-br/media/pdf/2021/marco/24/boletim-tuberculose-2021_24.03</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+						<collab>Secretaria de Vigilância em Saúde</collab>
+					</person-group>
+					<source>Tuberculose. 2021. Bol Epidemiológico</source>
+					<comment>Número Especial</comment>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<year>2021</year>
+					<date-in-citation content-type="cited-date">cited 2021 Jun 3</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.gov.br/saude/pt-br/media/pdf/2021/marco/24/boletim-tuberculose-2021_24.03">https://www.gov.br/saude/pt-br/media/pdf/2021/marco/24/boletim-tuberculose-2021_24.03</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6 Presidência da República (BR), Casa Civil, Subchefia para Assuntos Jurídicos. Emenda Constitucional Nº 95, de 15 de dezembro de 2016. Altera o Ato das Disposições Constitucionais Transitórias, para instituir o Novo Regime Fiscal, e dá outras providências. Brasília, DF; 2016.</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>Presidência da República (BR)</collab>
+						<collab>Casa Civil</collab>
+						<collab>Subchefia para Assuntos Jurídicos</collab>
+					</person-group>
+					<source>Emenda Constitucional Nº 95, de 15 de dezembro de 2016. Altera o Ato das Disposições Constitucionais Transitórias, para instituir o Novo Regime Fiscal, e dá outras providências</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<year>2016</year>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7 Rabahi MF, Silva Júnior JLR, Ferreira ACG, Tannus-Silva DGS, Conde MB. al. Tratamento da tuberculose. J Bras Pneumol. 2017;43(6):472-86. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S1806-37562016000000388">https://doi.org/10.1590/S1806-37562016000000388</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rabahi</surname>
+							<given-names>MF</given-names>
+						</name>
+						<name>
+							<surname>Silva</surname>
+							<given-names>JLR</given-names>
+							<suffix>Júnior</suffix>
+						</name>
+						<name>
+							<surname>Ferreira</surname>
+							<given-names>ACG</given-names>
+						</name>
+						<name>
+							<surname>Tannus-Silva</surname>
+							<given-names>DGS</given-names>
+						</name>
+						<name>
+							<surname>Conde</surname>
+							<given-names>MB</given-names>
+						</name>
+						<etal>al</etal>
+					</person-group>
+					<article-title>Tratamento da tuberculose</article-title>
+					<source>J Bras Pneumol</source>
+					<year>2017</year>
+					<volume>43</volume>
+					<issue>6</issue>
+					<fpage>472</fpage>
+					<lpage>486</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S1806-37562016000000388">https://doi.org/10.1590/S1806-37562016000000388</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8 Carmo ME, Guizardi FL. O conceito de vulnerabilidade e seus sentidos para as políticas públicas de saúde e assistência social. Cad Saude Publica. 2018;34(3):e00101417. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0102-311X00101417">https://doi.org/10.1590/0102-311X00101417</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Carmo</surname>
+							<given-names>ME</given-names>
+						</name>
+						<name>
+							<surname>Guizardi</surname>
+							<given-names>FL</given-names>
+						</name>
+					</person-group>
+					<article-title>O conceito de vulnerabilidade e seus sentidos para as políticas públicas de saúde e assistência social</article-title>
+					<source>Cad Saude Publica</source>
+					<year>2018</year>
+					<volume>34</volume>
+					<issue>3</issue>
+					<elocation-id>e00101417</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0102-311X00101417">https://doi.org/10.1590/0102-311X00101417</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9 Ayres JRCM, Paiva V, França Jr I, Gravato N, Lacerda R, Della Negra M, et al. Vulnerability human rights, and comprehensive health care needs of young people living with HIV/AIDS. Am J Public Health. 2006;96(6):1001-6. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2105/AJPH.2004.060905">https://doi.org/10.2105/AJPH.2004.060905</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ayres</surname>
+							<given-names>JRCM</given-names>
+						</name>
+						<name>
+							<surname>Paiva</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>França</surname>
+							<given-names>I</given-names>
+							<suffix>Jr</suffix>
+						</name>
+						<name>
+							<surname>Gravato</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Lacerda</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Della Negra</surname>
+							<given-names>M</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Vulnerability human rights, and comprehensive health care needs of young people living with HIV/AIDS</article-title>
+					<source>Am J Public Health</source>
+					<year>2006</year>
+					<volume>96</volume>
+					<issue>6</issue>
+					<fpage>1001</fpage>
+					<lpage>1006</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2105/AJPH.2004.060905">https://doi.org/10.2105/AJPH.2004.060905</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10 Governo Federal (BR). Política Nacional para Inclusão Social da População em Situação de Rua. Brasília, DF; 2008 [cited 2018 Nov 10]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.justica.pr.gov.br/sites/default/arquivos_restritos/files/documento/2019-08/pol.nacional-morad.rua_.pdf">https://www.justica.pr.gov.br/sites/default/arquivos_restritos/files/documento/2019-08/pol.nacional-morad.rua_.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Governo Federal (BR)</collab>
+					</person-group>
+					<source>Política Nacional para Inclusão Social da População em Situação de Rua</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<year>2008</year>
+					<date-in-citation content-type="cited-date">cited 2018 Nov 10</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.justica.pr.gov.br/sites/default/arquivos_restritos/files/documento/2019-08/pol.nacional-morad.rua_.pdf">https://www.justica.pr.gov.br/sites/default/arquivos_restritos/files/documento/2019-08/pol.nacional-morad.rua_.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11 Cunha JVQ, Rodrigues M, organizadores. Rua: aprendendo a contar. Pesquisa Nacional sobre População em Situação de Rua. Brasília, DF: Ministério do Desenvolvimento Social e Combate à Fome; 2009.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="compiler">
+						<name>
+							<surname>Cunha</surname>
+							<given-names>JVQ</given-names>
+						</name>
+						<name>
+							<surname>Rodrigues</surname>
+							<given-names>M</given-names>
+						</name>
+						<role>organizadores</role>
+					</person-group>
+					<source>Rua: aprendendo a contar. Pesquisa Nacional sobre População em Situação de Rua</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<publisher-name>Ministério do Desenvolvimento Social e Combate à Fome</publisher-name>
+					<year>2009</year>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12 UNAIDS. Estatísticas Globais sobre HIV 2020. Brasília, DF: UNAIDS Brasil; 2020 2008 [cited 2021 Jun 8]. Available from: <ext-link ext-link-type="uri" xlink:href="https://unaids.org.br/estatisticas/">https://unaids.org.br/estatisticas/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>UNAIDS</collab>
+					</person-group>
+					<source>Estatísticas Globais sobre HIV 2020</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<publisher-name>UNAIDS Brasil</publisher-name>
+					<season>2020 2008</season>
+					<date-in-citation content-type="cited-date">cited 2021 Jun 8</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://unaids.org.br/estatisticas/">https://unaids.org.br/estatisticas/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13 Ministério da Saúde (BR). Brasil Livre da Tuberculose: evolução dos cenários epidemiológicos e operacionais da doença. Bol Epidemiol. 2019 [cited 2020 Aug 10];50(9):18. Available from: <ext-link ext-link-type="uri" xlink:href="http://portalarquivos2.saude.gov.br/images/pdf/2019/marco/22/2019-009.pdf">http://portalarquivos2.saude.gov.br/images/pdf/2019/marco/22/2019-009.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+					</person-group>
+					<article-title>Brasil Livre da Tuberculose: evolução dos cenários epidemiológicos e operacionais da doença</article-title>
+					<source>Bol Epidemiol</source>
+					<year>2019</year>
+					<date-in-citation content-type="cited-date">cited 2020 Aug 10</date-in-citation>
+					<volume>50</volume>
+					<issue>9</issue>
+					<size units="pages">18</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="http://portalarquivos2.saude.gov.br/images/pdf/2019/marco/22/2019-009.pdf">http://portalarquivos2.saude.gov.br/images/pdf/2019/marco/22/2019-009.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14 Santos ML, Coeli CM, Batista JDL, Braga MC, Albuquerque MFPM. Factors associated with underreporting of tuberculosis based on data from Sinan Aids and Sinan TB. Rev Bras Epidemiol. 2018;21:e180019. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1980-549720180019">https://doi.org/10.1590/1980-549720180019</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Santos</surname>
+							<given-names>ML</given-names>
+						</name>
+						<name>
+							<surname>Coeli</surname>
+							<given-names>CM</given-names>
+						</name>
+						<name>
+							<surname>Batista</surname>
+							<given-names>JDL</given-names>
+						</name>
+						<name>
+							<surname>Braga</surname>
+							<given-names>MC</given-names>
+						</name>
+						<name>
+							<surname>Albuquerque</surname>
+							<given-names>MFPM</given-names>
+						</name>
+					</person-group>
+					<article-title>Factors associated with underreporting of tuberculosis based on data from Sinan Aids and Sinan TB</article-title>
+					<source>Rev Bras Epidemiol</source>
+					<year>2018</year>
+					<volume>21</volume>
+					<elocation-id>e180019</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1980-549720180019">https://doi.org/10.1590/1980-549720180019</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15 Ministério da Saúde (BR). Panorama epidemiológico da coinfecção TB-HIV no Brasil 2019. Bol Epidemiol TB-HIV. 2019 [cited 2021 Jun 3];50(26):23. Available from: <ext-link ext-link-type="uri" xlink:href="http://www.aids.gov.br/pt-br/pub/2019/boletim-epidemiologico-tb-hiv-2019">http://www.aids.gov.br/pt-br/pub/2019/boletim-epidemiologico-tb-hiv-2019</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+					</person-group>
+					<article-title>Panorama epidemiológico da coinfecção TB-HIV no Brasil 2019</article-title>
+					<source>Bol Epidemiol TB-HIV</source>
+					<year>2019</year>
+					<date-in-citation content-type="cited-date">cited 2021 Jun 3</date-in-citation>
+					<volume>50</volume>
+					<issue>26</issue>
+					<size units="pages">23</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="http://www.aids.gov.br/pt-br/pub/2019/boletim-epidemiologico-tb-hiv-2019">http://www.aids.gov.br/pt-br/pub/2019/boletim-epidemiologico-tb-hiv-2019</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16 Monteiro D. Tuberculose: pesquisas e melhorias no tratamento intensificam o combate à doença. Rio de Janeiro: Agência Fiocruz de Notícias; 2013 [cited 2021 Jun 8]. Available from: <ext-link ext-link-type="uri" xlink:href="https://agencia.fiocruz.br/tuberculose-pesquisas-e-melhorias-no-tratamento-intensificam-o-combate-a-doenca">https://agencia.fiocruz.br/tuberculose-pesquisas-e-melhorias-no-tratamento-intensificam-o-combate-a-doenca</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Monteiro</surname>
+							<given-names>D</given-names>
+						</name>
+					</person-group>
+					<source>Tuberculose: pesquisas e melhorias no tratamento intensificam o combate à doença</source>
+					<publisher-loc>Rio de Janeiro</publisher-loc>
+					<publisher-name>Agência Fiocruz de Notícias</publisher-name>
+					<year>2013</year>
+					<date-in-citation content-type="cited-date">cited 2021 Jun 8</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://agencia.fiocruz.br/tuberculose-pesquisas-e-melhorias-no-tratamento-intensificam-o-combate-a-doenca">https://agencia.fiocruz.br/tuberculose-pesquisas-e-melhorias-no-tratamento-intensificam-o-combate-a-doenca</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17 Moher D, Liberati A, Tetzlaff J, Altman DG; PRISMA Group. Preferred reporting items for systematic reviews and meta-analyses: The PRISMA satement. Phys Ther. 2009;89(9):873-80. Reprinted from Annals of Internal Medicine.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Moher</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Liberati</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Tetzlaff</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Altman</surname>
+							<given-names>DG</given-names>
+						</name>
+						<collab>PRISMA Group</collab>
+					</person-group>
+					<article-title>Preferred reporting items for systematic reviews and meta-analyses: The PRISMA satement</article-title>
+					<source>Phys Ther</source>
+					<year>2009</year>
+					<volume>89</volume>
+					<issue>9</issue>
+					<fpage>873</fpage>
+					<lpage>880</lpage>
+					<comment>Reprinted from Annals of Internal Medicine</comment>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18 Moola S, Munn Z, Tufanaru C, Aromataris &amp;, Sears K, Sfetcu R, Currie M, Qureshi R, Mattis P, Lisy K, Mu P-F. Systematic reviews of etiology and risk . In: Aromataris E, Munn Z, editors. Joanna Briggs Institute Reviewer’s Manual. Adelaide (AU): The Joanna Briggs Institute; 2017 [cited 2018 Nov 12]. Chapter 7. Available from: <ext-link ext-link-type="uri" xlink:href="https://reviewersmanual.joannabriggs.org/">https://reviewersmanual.joannabriggs.org/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Moola</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Munn</surname>
+							<given-names>Z</given-names>
+						</name>
+						<name>
+							<surname>Tufanaru</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Aromataris</surname>
+							<given-names>&amp;</given-names>
+						</name>
+						<name>
+							<surname>Sears</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Sfetcu</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Currie</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Qureshi</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Mattis</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Lisy</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Mu</surname>
+							<given-names>P-F</given-names>
+						</name>
+					</person-group>
+					<chapter-title>Systematic reviews of etiology and risk</chapter-title>
+					<person-group person-group-type="editor">
+						<name>
+							<surname>Aromataris</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Munn</surname>
+							<given-names>Z</given-names>
+						</name>
+						<role>editors</role>
+					</person-group>
+					<source>Joanna Briggs Institute Reviewer’s Manual</source>
+					<publisher-loc>Adelaide (AU)</publisher-loc>
+					<publisher-name>The Joanna Briggs Institute</publisher-name>
+					<year>2017</year>
+					<date-in-citation content-type="cited-date">cited 2018 Nov 12</date-in-citation>
+					<comment>Chapter 7</comment>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://reviewersmanual.joannabriggs.org/">https://reviewersmanual.joannabriggs.org/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19 Moola S, Munn Z, Tufanaru C, Aromataris E, Sears K, Sfetcu R, et al. Systematic reviews of etiology and risk. In: Aromataris E, Munn Z, editors. JBI manual for evidence synthesis. Adelaide (AU): Joanna Briggs Institute; 2020 [cited 2021 Mar 1]. Chapter 7. Available from: <ext-link ext-link-type="uri" xlink:href="https://jbi-global-wiki.refined.site/space/MANUAL/3283910762/Chapter+7%3A+Systematic+reviews+of+etiology+and+risk">https://jbi-global-wiki.refined.site/space/MANUAL/3283910762/Chapter+7%3A+Systematic+reviews+of+etiology+and+risk</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Moola</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Munn</surname>
+							<given-names>Z</given-names>
+						</name>
+						<name>
+							<surname>Tufanaru</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Aromataris</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Sears</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Sfetcu</surname>
+							<given-names>R</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<chapter-title>Systematic reviews of etiology and risk</chapter-title>
+					<person-group person-group-type="editor">
+						<name>
+							<surname>Aromataris</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Munn</surname>
+							<given-names>Z</given-names>
+						</name>
+						<role>editors</role>
+					</person-group>
+					<source>JBI manual for evidence synthesis</source>
+					<publisher-loc>Adelaide (AU)</publisher-loc>
+					<publisher-name>Joanna Briggs Institute</publisher-name>
+					<year>2020</year>
+					<date-in-citation content-type="cited-date">cited 2021 Mar 1</date-in-citation>
+					<comment>Chapter 7</comment>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://jbi-global-wiki.refined.site/space/MANUAL/3283910762/Chapter+7%3A+Systematic+reviews+of+etiology+and+risk">https://jbi-global-wiki.refined.site/space/MANUAL/3283910762/Chapter+7%3A+Systematic+reviews+of+etiology+and+risk</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20 Dufault B, Klar N. The quality of modern cross-sectional ecologic studies: a bibliometric review. Am J Epidemiol. 2011;174(10):1101-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/aje/kwr241">https://doi.org/10.1093/aje/kwr241</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Dufault</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Klar</surname>
+							<given-names>N</given-names>
+						</name>
+					</person-group>
+					<article-title>The quality of modern cross-sectional ecologic studies: a bibliometric review</article-title>
+					<source>Am J Epidemiol</source>
+					<year>2011</year>
+					<volume>174</volume>
+					<issue>10</issue>
+					<fpage>1101</fpage>
+					<lpage>1107</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/aje/kwr241">https://doi.org/10.1093/aje/kwr241</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>21 Aldridge RW, Hayward AC, Hemming S, Yates SK, Ferenando G, Possas L, et al. High prevalence of latent tuberculosis and bloodborne virus infection in a homeless population. Thorax. 2018;73(6):557-64. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/thoraxjnl-2016-209579">https://doi.org/10.1136/thoraxjnl-2016-209579</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Aldridge</surname>
+							<given-names>RW</given-names>
+						</name>
+						<name>
+							<surname>Hayward</surname>
+							<given-names>AC</given-names>
+						</name>
+						<name>
+							<surname>Hemming</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Yates</surname>
+							<given-names>SK</given-names>
+						</name>
+						<name>
+							<surname>Ferenando</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Possas</surname>
+							<given-names>L</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>High prevalence of latent tuberculosis and bloodborne virus infection in a homeless population</article-title>
+					<source>Thorax</source>
+					<year>2018</year>
+					<volume>73</volume>
+					<issue>6</issue>
+					<fpage>557</fpage>
+					<lpage>564</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/thoraxjnl-2016-209579">https://doi.org/10.1136/thoraxjnl-2016-209579</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>22 Semunigus T, Tessema B, Eshetie S, Moges F. Smear positive pulmonary tuberculosis and associated factors among homeless individuals in Dessie and Debre Birhan towns, Northeast Ethiopia. Ann Clin Microbiol Antimicrob. 2016;15(1):50. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12941-016-0165-x">https://doi.org/10.1186/s12941-016-0165-x</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Semunigus</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Tessema</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Eshetie</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Moges</surname>
+							<given-names>F</given-names>
+						</name>
+					</person-group>
+					<article-title>Smear positive pulmonary tuberculosis and associated factors among homeless individuals in Dessie and Debre Birhan towns, Northeast Ethiopia</article-title>
+					<source>Ann Clin Microbiol Antimicrob</source>
+					<year>2016</year>
+					<volume>15</volume>
+					<issue>1</issue>
+					<size units="pages">50</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12941-016-0165-x">https://doi.org/10.1186/s12941-016-0165-x</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>23 Vieira AL, Oliveira O, Gomes M, Gaio R, Duarte R. Tuberculosis incidence rate among the homeless population: the impact of socio-demographic and health-related variables. Pulmonology. 2018;24(5):309-11. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.pulmoe.2018.05.001">https://doi.org/10.1016/j.pulmoe.2018.05.001</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Vieira</surname>
+							<given-names>AL</given-names>
+						</name>
+						<name>
+							<surname>Oliveira</surname>
+							<given-names>O</given-names>
+						</name>
+						<name>
+							<surname>Gomes</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Gaio</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Duarte</surname>
+							<given-names>R</given-names>
+						</name>
+					</person-group>
+					<article-title>Tuberculosis incidence rate among the homeless population: the impact of socio-demographic and health-related variables</article-title>
+					<source>Pulmonology</source>
+					<year>2018</year>
+					<volume>24</volume>
+					<issue>5</issue>
+					<fpage>309</fpage>
+					<lpage>311</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.pulmoe.2018.05.001">https://doi.org/10.1016/j.pulmoe.2018.05.001</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>24 Ranzani OT, Carvalho CRR, Waldman EA, Rodrigues LC. The impact of being homeless on the unsuccessful outcome of treatment of pulmonary TB in São Paulo State, Brazil. BMC Med. 2016;14:41. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12916-016-0584-8">https://doi.org/10.1186/s12916-016-0584-8</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ranzani</surname>
+							<given-names>OT</given-names>
+						</name>
+						<name>
+							<surname>Carvalho</surname>
+							<given-names>CRR</given-names>
+						</name>
+						<name>
+							<surname>Waldman</surname>
+							<given-names>EA</given-names>
+						</name>
+						<name>
+							<surname>Rodrigues</surname>
+							<given-names>LC</given-names>
+						</name>
+					</person-group>
+					<article-title>The impact of being homeless on the unsuccessful outcome of treatment of pulmonary TB in São Paulo State, Brazil</article-title>
+					<source>BMC Med</source>
+					<year>2016</year>
+					<volume>14</volume>
+					<size units="pages">41</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12916-016-0584-8">https://doi.org/10.1186/s12916-016-0584-8</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>25 Hwang YW, Lee YJ, Kong SY. Epidemiology and clinical outcomes of tuberculosis among homeless persons visiting emergency department in public hospital. Am J Emerg Med. 2018;36(1):164-6. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ajem.2017.07.049">https://doi.org/10.1016/j.ajem.2017.07.049</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hwang</surname>
+							<given-names>YW</given-names>
+						</name>
+						<name>
+							<surname>Lee</surname>
+							<given-names>YJ</given-names>
+						</name>
+						<name>
+							<surname>Kong</surname>
+							<given-names>SY</given-names>
+						</name>
+					</person-group>
+					<article-title>Epidemiology and clinical outcomes of tuberculosis among homeless persons visiting emergency department in public hospital</article-title>
+					<source>Am J Emerg Med</source>
+					<year>2018</year>
+					<volume>36</volume>
+					<issue>1</issue>
+					<fpage>164</fpage>
+					<lpage>166</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ajem.2017.07.049">https://doi.org/10.1016/j.ajem.2017.07.049</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation>26 Dias M, Gaio R, Sousa P, Abranches M, Gomes M, Oliveira O, et al. Tuberculosis among the homeless: should we change the strategy? Int J Tuberc Lung Dis. 2017;21(3):327-32. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5588/ijtld.16.0597">https://doi.org/10.5588/ijtld.16.0597</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Dias</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Gaio</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Sousa</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Abranches</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Gomes</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Oliveira</surname>
+							<given-names>O</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Tuberculosis among the homeless: should we change the strategy?</article-title>
+					<source>Int J Tuberc Lung Dis</source>
+					<year>2017</year>
+					<volume>21</volume>
+					<issue>3</issue>
+					<fpage>327</fpage>
+					<lpage>332</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5588/ijtld.16.0597">https://doi.org/10.5588/ijtld.16.0597</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<mixed-citation>27 Agarwal S, Nguyen DT, Graviss EA. Homelessness and mortality among persons with tuberculosis in Texas, 2010-2017. Public Health Rep. 2019;134(6):643-50. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/0033354919874087">https://doi.org/10.1177/0033354919874087</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Agarwal</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Nguyen</surname>
+							<given-names>DT</given-names>
+						</name>
+						<name>
+							<surname>Graviss</surname>
+							<given-names>EA</given-names>
+						</name>
+					</person-group>
+					<article-title>Homelessness and mortality among persons with tuberculosis in Texas, 2010-2017</article-title>
+					<source>Public Health Rep</source>
+					<year>2019</year>
+					<volume>134</volume>
+					<issue>6</issue>
+					<fpage>643</fpage>
+					<lpage>650</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/0033354919874087">https://doi.org/10.1177/0033354919874087</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<mixed-citation>28 Nwana N, Marks SM, Lan E, Chang AH, Holcombe M, Morris SB. Treatment of latent Mycobacterium tuberculosis infection with 12 once weekly directly-observed doses of isoniazid and rifapentine among persons experiencing homelessness. PLoS One. 2019;14(3):e0213524. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0213524">https://doi.org/10.1371/journal.pone.0213524</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Nwana</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Marks</surname>
+							<given-names>SM</given-names>
+						</name>
+						<name>
+							<surname>Lan</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Chang</surname>
+							<given-names>AH</given-names>
+						</name>
+						<name>
+							<surname>Holcombe</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Morris</surname>
+							<given-names>SB</given-names>
+						</name>
+					</person-group>
+					<article-title>Treatment of latent Mycobacterium tuberculosis infection with 12 once weekly directly-observed doses of isoniazid and rifapentine among persons experiencing homelessness</article-title>
+					<source>PLoS One</source>
+					<year>2019</year>
+					<volume>14</volume>
+					<issue>3</issue>
+					<elocation-id>e0213524</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0213524">https://doi.org/10.1371/journal.pone.0213524</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B29">
+				<label>29</label>
+				<mixed-citation>29 Amiri FB, Gouya MM, Saifi M, Rohani M, Tabarsi P, Sedaghat A, et al. Vulnerability of homeless people in Tehran, Iran, to HIV, tuberculosis and viral hepatitis. PLoS One. 2014;9(6):e98742. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0098742">https://doi.org/10.1371/journal.pone.0098742</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Amiri</surname>
+							<given-names>FB</given-names>
+						</name>
+						<name>
+							<surname>Gouya</surname>
+							<given-names>MM</given-names>
+						</name>
+						<name>
+							<surname>Saifi</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Rohani</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Tabarsi</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Sedaghat</surname>
+							<given-names>A</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Vulnerability of homeless people in Tehran, Iran, to HIV, tuberculosis and viral hepatitis</article-title>
+					<source>PLoS One</source>
+					<year>2014</year>
+					<volume>9</volume>
+					<issue>6</issue>
+					<elocation-id>e98742</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0098742">https://doi.org/10.1371/journal.pone.0098742</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B30">
+				<label>30</label>
+				<mixed-citation>30 Powell KM, VanderEnde DS, Holland DP, Haddad MB, Yarn B, Yamin AS, et al. Outbreak of drug-resistant Mycobacterium tuberculosis among homeless people in Atlanta, Georgia, 2008-2015. Public Health Rep. 2017;132(2):231-40. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/0033354917694008">https://doi.org/10.1177/0033354917694008</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Powell</surname>
+							<given-names>KM</given-names>
+						</name>
+						<name>
+							<surname>VanderEnde</surname>
+							<given-names>DS</given-names>
+						</name>
+						<name>
+							<surname>Holland</surname>
+							<given-names>DP</given-names>
+						</name>
+						<name>
+							<surname>Haddad</surname>
+							<given-names>MB</given-names>
+						</name>
+						<name>
+							<surname>Yarn</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Yamin</surname>
+							<given-names>AS</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Outbreak of drug-resistant Mycobacterium tuberculosis among homeless people in Atlanta, Georgia, 2008-2015</article-title>
+					<source>Public Health Rep</source>
+					<year>2017</year>
+					<volume>132</volume>
+					<issue>2</issue>
+					<fpage>231</fpage>
+					<lpage>240</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/0033354917694008">https://doi.org/10.1177/0033354917694008</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B31">
+				<label>31</label>
+				<mixed-citation>31 Gómez LM, Paniagua-Saldarriaga LA, Richert Q, Keynan Y, Montes F, López L, et al. Homelessness and HIV: a combination predictive of poor tuberculosis treatment outcomes and in need of innovative strategies to improve treatment completion. Am J Trop Med Hyg. 2019;100(4):932-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4269/ajtmh.18-0305">https://doi.org/10.4269/ajtmh.18-0305</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Gómez</surname>
+							<given-names>LM</given-names>
+						</name>
+						<name>
+							<surname>Paniagua-Saldarriaga</surname>
+							<given-names>LA</given-names>
+						</name>
+						<name>
+							<surname>Richert</surname>
+							<given-names>Q</given-names>
+						</name>
+						<name>
+							<surname>Keynan</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Montes</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>López</surname>
+							<given-names>L</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Homelessness and HIV: a combination predictive of poor tuberculosis treatment outcomes and in need of innovative strategies to improve treatment completion</article-title>
+					<source>Am J Trop Med Hyg</source>
+					<year>2019</year>
+					<volume>100</volume>
+					<issue>4</issue>
+					<fpage>932</fpage>
+					<lpage>939</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4269/ajtmh.18-0305">https://doi.org/10.4269/ajtmh.18-0305</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B32">
+				<label>32</label>
+				<mixed-citation>32 Munn MS, Duchin JS, Kay M, Pecha M, Thibault CS, Narita M. Analysis of risk factors for tuberculous infection following exposure at a homeless shelter. Int J Tuberc Lung Dis. 2015;19(5):570-5. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5588/ijtld.14.0648">https://doi.org/10.5588/ijtld.14.0648</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Munn</surname>
+							<given-names>MS</given-names>
+						</name>
+						<name>
+							<surname>Duchin</surname>
+							<given-names>JS</given-names>
+						</name>
+						<name>
+							<surname>Kay</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Pecha</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Thibault</surname>
+							<given-names>CS</given-names>
+						</name>
+						<name>
+							<surname>Narita</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>Analysis of risk factors for tuberculous infection following exposure at a homeless shelter</article-title>
+					<source>Int J Tuberc Lung Dis</source>
+					<year>2015</year>
+					<volume>19</volume>
+					<issue>5</issue>
+					<fpage>570</fpage>
+					<lpage>575</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5588/ijtld.14.0648">https://doi.org/10.5588/ijtld.14.0648</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B33">
+				<label>33</label>
+				<mixed-citation>33 Streit F, Bartels C, Kuczius T, Cassier C, Gardemann J, Schaumburg F. Prevalence of latent tuberculosis in homeless persons: a single-centre cross-sectional study, Germany. PLoS One. 2019;14(3):e0214556. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0214556">https://doi.org/10.1371/journal.pone.0214556</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Streit</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Bartels</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Kuczius</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Cassier</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Gardemann</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Schaumburg</surname>
+							<given-names>F</given-names>
+						</name>
+					</person-group>
+					<article-title>Prevalence of latent tuberculosis in homeless persons: a single-centre cross-sectional study, Germany</article-title>
+					<source>PLoS One</source>
+					<year>2019</year>
+					<volume>14</volume>
+					<issue>3</issue>
+					<elocation-id>e0214556</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0214556">https://doi.org/10.1371/journal.pone.0214556</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B34">
+				<label>34</label>
+				<mixed-citation>34 Dolla C, Padmapriyadarsini C, Menon AP, Muniyandi M, Adinarayanan S, Sekar G, et al. Tuberculosis among the homeless in Chennai city, South India. Trans R Soc Trop Med Hyg. 2017;111(10):479-81. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/trstmh/trx081">https://doi.org/10.1093/trstmh/trx081</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Dolla</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Padmapriyadarsini</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Menon</surname>
+							<given-names>AP</given-names>
+						</name>
+						<name>
+							<surname>Muniyandi</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Adinarayanan</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Sekar</surname>
+							<given-names>G</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Tuberculosis among the homeless in Chennai city, South India</article-title>
+					<source>Trans R Soc Trop Med Hyg</source>
+					<year>2017</year>
+					<volume>111</volume>
+					<issue>10</issue>
+					<fpage>479</fpage>
+					<lpage>481</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/trstmh/trx081">https://doi.org/10.1093/trstmh/trx081</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B35">
+				<label>35</label>
+				<mixed-citation>35 Korzeniewska-Koseła M, Kuś J, Lewandowska K, Siemion-Szcześniak I. Tuberculosis in homeless persons in Poland. Przegl Epidemiol. 2015;69(3):445-51.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Korzeniewska-Koseła</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Kuś</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Lewandowska</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Siemion-Szcześniak</surname>
+							<given-names>I</given-names>
+						</name>
+					</person-group>
+					<article-title>Tuberculosis in homeless persons in Poland</article-title>
+					<source>Przegl Epidemiol</source>
+					<year>2015</year>
+					<volume>69</volume>
+					<issue>3</issue>
+					<fpage>445</fpage>
+					<lpage>451</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B36">
+				<label>36</label>
+				<mixed-citation>36 Pendzich J, Maksymowicz-Mazur W, Pawłowska J, Filipczyk Ł, Kulawik I, Zientek J, Kozielski J. Tuberculosis among the homeless and inmates kept in custody and in penitentiary institutions in the Silesia region. Pneumonol Alergol Pol. 2015;83(1):23-9. doi: 10.5603/PiAP.2015.0003. PMID: 25577530.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pendzich</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Maksymowicz-Mazur</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Pawłowska</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Filipczyk</surname>
+							<given-names>Ł</given-names>
+						</name>
+						<name>
+							<surname>Kulawik</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Zientek</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Kozielski</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>Tuberculosis among the homeless and inmates kept in custody and in penitentiary institutions in the Silesia region</article-title>
+					<source>Pneumonol Alergol Pol</source>
+					<year>2015</year>
+					<volume>83</volume>
+					<issue>1</issue>
+					<fpage>23</fpage>
+					<lpage>29</lpage>
+					<issue-id pub-id-type="doi">10.5603/PiAP.2015.0003</issue-id>
+					<comment>PMID: 25577530</comment>
+				</element-citation>
+			</ref>
+			<ref id="B37">
+				<label>37</label>
+				<mixed-citation>37 Zuim RCB, Trajman A. Itinerário terapêutico de doentes com tuberculose vivendo em situação de rua no Rio de Janeiro. Physis. 2018;28(2):e280205. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0103-73312018280205">https://doi.org/10.1590/S0103-73312018280205</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Zuim</surname>
+							<given-names>RCB</given-names>
+						</name>
+						<name>
+							<surname>Trajman</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Itinerário terapêutico de doentes com tuberculose vivendo em situação de rua no Rio de Janeiro</article-title>
+					<source>Physis</source>
+					<year>2018</year>
+					<volume>28</volume>
+					<issue>2</issue>
+					<elocation-id>e280205</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0103-73312018280205">https://doi.org/10.1590/S0103-73312018280205</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B38">
+				<label>38</label>
+				<mixed-citation>38 Hino P, Santos JO, Rosa AS. Pessoas que vivenciam situação de rua sob o olhar da saúde. Rev Bras Enferm. 2018;71 Supl 1:732-40. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0034-7167-2017-0547">https://doi.org/10.1590/0034-7167-2017-0547</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hino</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Santos</surname>
+							<given-names>JO</given-names>
+						</name>
+						<name>
+							<surname>Rosa</surname>
+							<given-names>AS</given-names>
+						</name>
+					</person-group>
+					<article-title>Pessoas que vivenciam situação de rua sob o olhar da saúde</article-title>
+					<source>Rev Bras Enferm</source>
+					<year>2018</year>
+					<volume>71</volume>
+					<supplement>Supl 1</supplement>
+					<fpage>732</fpage>
+					<lpage>740</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0034-7167-2017-0547">https://doi.org/10.1590/0034-7167-2017-0547</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B39">
+				<label>39</label>
+				<mixed-citation>39 Lindner LC. “Dando uma moral”: moralidades, prazeres e poderes no caminho da cura da tuberculose na população em situação de rua no município de São Paulo [tese]. São Paulo: Faculdade de Saúde Pública da Universidade de São Paulo; 2016.</mixed-citation>
+				<element-citation publication-type="thesis">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lindner</surname>
+							<given-names>LC</given-names>
+						</name>
+					</person-group>
+					<source>“Dando uma moral”: moralidades, prazeres e poderes no caminho da cura da tuberculose na população em situação de rua no município de São Paulo</source>
+					<comment>tese</comment>
+					<publisher-loc>São Paulo</publisher-loc>
+					<publisher-name>Faculdade de Saúde Pública da Universidade de São Paulo</publisher-name>
+					<year>2016</year>
+				</element-citation>
+			</ref>
+			<ref id="B40">
+				<label>40</label>
+				<mixed-citation>40 Oliveira RG. Práticas de saúde em contextos de vulnerabilização e negligência de doenças, sujeitos e territórios: potencialidades e contradições na atenção à saúde de pessoas em situação de rua. Saude Soc. 2018;27(1):37-50. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0104-12902018170915">https://doi.org/10.1590/S0104-12902018170915</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Oliveira</surname>
+							<given-names>RG</given-names>
+						</name>
+					</person-group>
+					<article-title>Práticas de saúde em contextos de vulnerabilização e negligência de doenças, sujeitos e territórios: potencialidades e contradições na atenção à saúde de pessoas em situação de rua</article-title>
+					<source>Saude Soc</source>
+					<year>2018</year>
+					<volume>27</volume>
+					<issue>1</issue>
+					<fpage>37</fpage>
+					<lpage>50</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0104-12902018170915">https://doi.org/10.1590/S0104-12902018170915</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B41">
+				<label>41</label>
+				<mixed-citation>41 Lopes AJ, Jansen U, Capone D, Jansen JM. História natural e apresentação clínica. Rev Hosp Univ Pedro Ernesto. 2006;5(2):40-5.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lopes</surname>
+							<given-names>AJ</given-names>
+						</name>
+						<name>
+							<surname>Jansen</surname>
+							<given-names>U</given-names>
+						</name>
+						<name>
+							<surname>Capone</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Jansen</surname>
+							<given-names>JM</given-names>
+						</name>
+					</person-group>
+					<article-title>História natural e apresentação clínica</article-title>
+					<source>Rev Hosp Univ Pedro Ernesto</source>
+					<year>2006</year>
+					<volume>5</volume>
+					<issue>2</issue>
+					<fpage>40</fpage>
+					<lpage>45</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B42">
+				<label>42</label>
+				<mixed-citation>42 San Pedro A, Oliveira RM. Tuberculose e indicadores socioeconômicos: Revisão sistemática da literatura. Rev Panam Salud Publica. 2013;33(4):294-301.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>San Pedro</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Oliveira</surname>
+							<given-names>RM</given-names>
+						</name>
+					</person-group>
+					<article-title>Tuberculose e indicadores socioeconômicos: Revisão sistemática da literatura</article-title>
+					<source>Rev Panam Salud Publica</source>
+					<year>2013</year>
+					<volume>33</volume>
+					<issue>4</issue>
+					<fpage>294</fpage>
+					<lpage>301</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B43">
+				<label>43</label>
+				<mixed-citation>43 Chagas B. Estigma e reinserção do preso na sociedade. Revista OAB Olinda. 2018;1:110-28.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Chagas</surname>
+							<given-names>B</given-names>
+						</name>
+					</person-group>
+					<article-title>Estigma e reinserção do preso na sociedade</article-title>
+					<source>Revista OAB Olinda</source>
+					<year>2018</year>
+					<volume>1</volume>
+					<fpage>110</fpage>
+					<lpage>128</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B44">
+				<label>44</label>
+				<mixed-citation>44 World Prison Brief [database]. About World Prison Brief. London (UK); Institute for Crime &amp; Justice Policy Research at Birbeck University of London; 2000 [cited 2018 Nov 10]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.prisonstudies.org/about-us">https://www.prisonstudies.org/about-us</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>World Prison Brief [database]</collab>
+					</person-group>
+					<source>About World Prison Brief</source>
+					<publisher-loc>London (UK)</publisher-loc>
+					<publisher-name>Institute for Crime &amp; Justice Policy Research at Birbeck University of London</publisher-name>
+					<year>2000</year>
+					<date-in-citation content-type="cited-date">cited 2018 Nov 10</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.prisonstudies.org/about-us">https://www.prisonstudies.org/about-us</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B45">
+				<label>45</label>
+				<mixed-citation>45 Câmara dos Deputados (BR), Comissão de Direitos Humanos e Minorias. Sistema carcerário brasileiro: negros e pobres na prisão. Brasília, DF: CDHM; 2018 [cited 2018 Nov 10]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-permanentes/cdhm/noticias/sistema-carcerario-brasileiro-negros-e-pobres-na-prisao">https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-permanentes/cdhm/noticias/sistema-carcerario-brasileiro-negros-e-pobres-na-prisao</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Câmara dos Deputados (BR)</collab>
+						<collab>Comissão de Direitos Humanos e Minorias</collab>
+					</person-group>
+					<source>Sistema carcerário brasileiro: negros e pobres na prisão</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<publisher-name>CDHM</publisher-name>
+					<year>2018</year>
+					<date-in-citation content-type="cited-date">cited 2018 Nov 10</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-permanentes/cdhm/noticias/sistema-carcerario-brasileiro-negros-e-pobres-na-prisao">https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-permanentes/cdhm/noticias/sistema-carcerario-brasileiro-negros-e-pobres-na-prisao</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B46">
+				<label>46</label>
+				<mixed-citation>46 Muñoz Sánchez AI, Bertolozzi MR. Pode o conceito de vulnerabilidade apoiar a construção do conhecimento em Saúde Coletiva? Cienc Saude Coletiva. 2007;12(2):319-24. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S1413-81232007000200007">https://doi.org/10.1590/S1413-81232007000200007</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Muñoz Sánchez</surname>
+							<given-names>AI</given-names>
+						</name>
+						<name>
+							<surname>Bertolozzi</surname>
+							<given-names>MR</given-names>
+						</name>
+					</person-group>
+					<article-title>Pode o conceito de vulnerabilidade apoiar a construção do conhecimento em Saúde Coletiva?</article-title>
+					<source>Cienc Saude Coletiva</source>
+					<year>2007</year>
+					<volume>12</volume>
+					<issue>2</issue>
+					<fpage>319</fpage>
+					<lpage>324</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S1413-81232007000200007">https://doi.org/10.1590/S1413-81232007000200007</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B47">
+				<label>47</label>
+				<mixed-citation>47 Paiva V, Ayres JR, Buchalla CM. Vulnerabilidade e direitos humanos: prevenção e promoção da saúde. Livro I: Da doença à cidadania. Curitiba, PR: Juruá Editora; 2012.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Paiva</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Ayres</surname>
+							<given-names>JR</given-names>
+						</name>
+						<name>
+							<surname>Buchalla</surname>
+							<given-names>CM</given-names>
+						</name>
+					</person-group>
+					<source>Vulnerabilidade e direitos humanos: prevenção e promoção da saúde. Livro I: Da doença à cidadania</source>
+					<publisher-loc>Curitiba, PR</publisher-loc>
+					<publisher-name>Juruá Editora</publisher-name>
+					<year>2012</year>
+				</element-citation>
+			</ref>
+			<ref id="B48">
+				<label>48</label>
+				<mixed-citation>48 Hino P, Monroe AA, Takahashi RF, Souza KMJ, Figueiredo TMRM, Bertolozzi MR. Tuberculosis control from the perspective of health professionals working in street clinics. Rev Lat Am Enfermagem. 2018;26:e3095. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1518-8345.2691.3095">https://doi.org/10.1590/1518-8345.2691.3095</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hino</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Monroe</surname>
+							<given-names>AA</given-names>
+						</name>
+						<name>
+							<surname>Takahashi</surname>
+							<given-names>RF</given-names>
+						</name>
+						<name>
+							<surname>Souza</surname>
+							<given-names>KMJ</given-names>
+						</name>
+						<name>
+							<surname>Figueiredo</surname>
+							<given-names>TMRM</given-names>
+						</name>
+						<name>
+							<surname>Bertolozzi</surname>
+							<given-names>MR</given-names>
+						</name>
+					</person-group>
+					<article-title>Tuberculosis control from the perspective of health professionals working in street clinics</article-title>
+					<source>Rev Lat Am Enfermagem</source>
+					<year>2018</year>
+					<volume>26</volume>
+					<elocation-id>e3095</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1518-8345.2691.3095">https://doi.org/10.1590/1518-8345.2691.3095</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B49">
+				<label>49</label>
+				<mixed-citation>49 Natalino MAC. Estimativa da população em situação de rua no Brasil. Brasília, DF: IPEA; 2016 [cited 2018 Nov 10]. (Texto para Discussão; 2246). Available from: <ext-link ext-link-type="uri" xlink:href="http://repositorio.ipea.gov.br/bitstream/11058/7289/1/td_2246.pdf">http://repositorio.ipea.gov.br/bitstream/11058/7289/1/td_2246.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Natalino</surname>
+							<given-names>MAC</given-names>
+						</name>
+					</person-group>
+					<source>Estimativa da população em situação de rua no Brasil</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<publisher-name>IPEA</publisher-name>
+					<year>2016</year>
+					<date-in-citation content-type="cited-date">cited 2018 Nov 10</date-in-citation>
+					<comment>Texto para Discussão; 2246</comment>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="http://repositorio.ipea.gov.br/bitstream/11058/7289/1/td_2246.pdf">http://repositorio.ipea.gov.br/bitstream/11058/7289/1/td_2246.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B50">
+				<label>50</label>
+				<mixed-citation>50 Sant’Anna E. Para 43% dos brasileiros, número de moradores de rua aumentou. Folha de São Paulo. 4 jan 2020 [cited 2020 Feb 10]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www1.folha.uol.com.br/cotidiano/2020/01/para-43-dos-brasileiros-numero-de-moradores-de-rua-aumentou.shtml">https://www1.folha.uol.com.br/cotidiano/2020/01/para-43-dos-brasileiros-numero-de-moradores-de-rua-aumentou.shtml</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sant’Anna</surname>
+							<given-names>E</given-names>
+						</name>
+					</person-group>
+					<article-title>Para 43% dos brasileiros, número de moradores de rua aumentou</article-title>
+					<source>Folha de São Paulo</source>
+					<day>4</day>
+					<month>01</month>
+					<year>2020</year>
+					<date-in-citation content-type="cited-date">cited 2020 Feb 10</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www1.folha.uol.com.br/cotidiano/2020/01/para-43-dos-brasileiros-numero-de-moradores-de-rua-aumentou.shtml">https://www1.folha.uol.com.br/cotidiano/2020/01/para-43-dos-brasileiros-numero-de-moradores-de-rua-aumentou.shtml</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B51">
+				<label>51</label>
+				<mixed-citation>51 Pereira AGL, Medronho R de A, Escosteguy CC, Valencia LIO, Magalhães MAFM. Spatial distribution and socioeconomic context of tuberculosis in Rio de Janeiro, Brazil. Rev Saude Publica. 2015;49:48. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0034-8910.2015049005470">https://doi.org/10.1590/S0034-8910.2015049005470</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pereira</surname>
+							<given-names>AGL</given-names>
+						</name>
+						<name>
+							<surname>Medronho</surname>
+							<given-names>R de A</given-names>
+						</name>
+						<name>
+							<surname>Escosteguy</surname>
+							<given-names>CC</given-names>
+						</name>
+						<name>
+							<surname>Valencia</surname>
+							<given-names>LIO</given-names>
+						</name>
+						<name>
+							<surname>Magalhães</surname>
+							<given-names>MAFM</given-names>
+						</name>
+					</person-group>
+					<article-title>Spatial distribution and socioeconomic context of tuberculosis in Rio de Janeiro, Brazil</article-title>
+					<source>Rev Saude Publica</source>
+					<year>2015</year>
+					<volume>49</volume>
+					<size units="pages">48</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0034-8910.2015049005470">https://doi.org/10.1590/S0034-8910.2015049005470</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B52">
+				<label>52</label>
+				<mixed-citation>52 Naciones Unidas, Comisión Económica para América Latina y e l Caribe. El COVID-19 y la crisis socioeconómica em América Latina y Caribe. Rev CEPAL. 2020;(32 ed espec):7-8.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<collab>Naciones Unidas</collab>
+						<collab>Comisión Económica para América Latina y e l Caribe</collab>
+					</person-group>
+					<article-title>El COVID-19 y la crisis socioeconómica em América Latina y Caribe</article-title>
+					<source>Rev CEPAL</source>
+					<year>2020</year>
+					<edition>32</edition>
+					<issue>espec</issue>
+					<fpage>7</fpage>
+					<lpage>8</lpage>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="financial-disclosure" id="fn2">
+				<p><bold>Funding:</bold> Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (Capes - <italic>Demanda Social</italic> grant for JRG; process no. 88887.499588/2020-00 from 03/01/2020 to 03/31/2021).</p>
+			</fn>
+		</fn-group>
+	</back>
+	<sub-article article-type="translation" id="TRpt" xml:lang="pt">
+		<front-stub>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Revisão</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Tuberculose, vulnerabilidades e HIV em pessoas em situação de rua: revisão sistemática</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-5776-9510</contrib-id>
+					<name>
+						<surname>Gioseffi</surname>
+						<given-names>Janaína Rosenburg</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-4690-3611</contrib-id>
+					<name>
+						<surname>Batista</surname>
+						<given-names>Ramaiene</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2002"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-7728-2304</contrib-id>
+					<name>
+						<surname>Brignol</surname>
+						<given-names>Sandra Mara</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3002"><sup>III</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1002">
+				<label>I</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Universidade Federal Fluminense. Instituto de Saúde Coletiva. Programa de Pós-Graduação em Saúde Coletiva. Niterói, RJ, Brasil</institution>
+			</aff>
+			<aff id="aff2002">
+				<label>II</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Universidade Federal Fluminense. Faculdade de Medicina. Niterói, RJ, Brasil</institution>
+			</aff>
+			<aff id="aff3002">
+				<label>III</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Universidade Federal Fluminense. Instituto de Saúde Coletiva. Departamento de Epidemiologia e Estatística. Niterói, RJ, Brasil</institution>
+			</aff>
+			<author-notes>
+				<corresp id="c01002">Correspondência: Janaína Rosenburg Gioseffi Rua Marquês de Paraná, 303 3º andar 24033-900 Niterói, RJ, Brasil E-mail: rosenburg.janaina@gmail.com</corresp>
+				<fn fn-type="con">
+					<p><bold>Contribuição dos Autores:</bold> Concepção e planejamento do estudo: JRG, SMB. Coleta, análise e interpretação dos dados: JRG, RB. Elaboração ou revisão do manuscrito: JRG. Aprovação da versão final: JRG, SMB. Responsabilidade pública pelo conteúdo do artigo: JRG.</p>
+				</fn>
+				<fn fn-type="conflict">
+					<p><bold>Conflito de Interesses:</bold> Os autores declaram não haver conflito de interesses.</p>
+				</fn>
+			</author-notes>
+			<abstract>
+				<title>RESUMO</title>
+				<sec>
+					<title>OBJETIVO</title>
+					<p>Analisar, sistematizar e compilar os fatores de vulnerabilidade (social, individual e programática) associados à tuberculose e HIV em pessoas em situação de rua.</p>
+				</sec>
+				<sec>
+					<title>MÉTODOS</title>
+					<p>Revisão sistemática de literatura de publicações quantitativas sobre tuberculose em pessoas em situação de rua entre os anos de 2014 e 2020, seguindo o guia de recomendações PRISMA e, para análise de viés, a ferramenta <italic>Joanna Briggs Institute Critical Appraisal.</italic> Agrupou-se as publicações segundo as vulnerabilidades.</p>
+				</sec>
+				<sec>
+					<title>RESULTADOS</title>
+					<p>Entre 372 publicações encontradas, selecionaram-se 16 segundo os critérios de elegibilidade. Em 10 estudos, foi descrita ocorrência de tuberculose e HIV. Os fatores de vulnerabilidade individual, social e programática mais descritas foram uso de drogas, coinfecção com HIV e falha no tratamento da tuberculose, respectivamente. A média de tempo em situação de rua também se mostrou relacionada à maior frequência de tuberculose e da infecção latente da tuberculose segundo literatura.</p>
+				</sec>
+				<sec>
+					<title>CONCLUSÃO</title>
+					<p>O estigma e a desumanização associados às pessoas em situação de rua foram descritos em todos os estudos revisados, sendo importantes barreiras no acesso aos serviços de saúde. A vivência na rua potencializa os riscos para a ocorrência de doenças crônicas e infecciosas, bem como a priorização de questões mais pragmáticas à manutenção da vida, como segurança e alimentação, em detrimento à saúde. Os resultados encontrados podem ser utilizados para embasar hipóteses para futuras pesquisas e para reforçar e direcionar políticas públicas de saúde e sociais já existentes para o enfrentamento da tuberculose e HIV na pessoa em situação de rua.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="pt">
+				<kwd>Pessoas em Situação de Rua</kwd>
+				<kwd>Tuberculose</kwd>
+				<kwd>Infecções por HIV</kwd>
+				<kwd>Coinfecção, epidemiologia</kwd>
+				<kwd>Vulnerabilidade em Saúde</kwd>
+				<kwd>Vulnerabilidade Social</kwd>
+			</kwd-group>
+		</front-stub>
+		<body>
+			<sec sec-type="intro">
+				<title>INTRODUÇÃO</title>
+				<p>A tuberculose é uma doença respiratória causada pelo agente <italic>Mycobacterium tuberculosis</italic> que está entre as dez doenças que mais matam no mundo atualmente e é a primeira colocada em causas de óbito entre as doenças infecciosas<sup><xref ref-type="bibr" rid="B1">1</xref></sup> . Sua transmissão ocorre por inalação de aerossóis e conduz a uma infecção granulomatosa em trato respiratório inferior<sup><xref ref-type="bibr" rid="B2">2</xref></sup> e sua ocorrência está associada a fatores socioeconômicos, visto que, segundo a ONU, 95% dos casos ocorrem em países de média e baixa renda<sup><xref ref-type="bibr" rid="B3">3</xref></sup> e, no topo do ranking de casos estimados e de mortes para a doença, estão o continente africano e as Américas<sup><xref ref-type="bibr" rid="B1">1</xref></sup> .</p>
+				<p>A estimativa global de infecção pela tuberculose em 2020 foi de 10 milhões de casos, com uma incidência estimada de 132/100.000 habitantes, e de 1,2 milhão de mortes no ano, além de 208 mil óbitos entre pessoas HIV+<sup><xref ref-type="bibr" rid="B1">1</xref></sup> . A estratégia <italic>END TB</italic> , proposta pela Organização Mundial da Saúde, tem como metas diminuir a incidência da tuberculose para menos de 10/100.000 habitantes e reduzir o número de óbitos em pelo menos 95%, dessa forma a tuberculose poderia deixar de ser considerada um problema de saúde pública mundial<sup><xref ref-type="bibr" rid="B4">4</xref></sup> .</p>
+				<p>No Brasil, a tuberculose é um importante problema de saúde, com uma taxa de óbitos de 2,2/100.000 habitantes e uma incidência de 31,6/100.000 habitantes<sup><xref ref-type="bibr" rid="B5">5</xref></sup> e conta com programas específicos do Sistema Único de Saúde (SUS) para seu combate, como o Programa Nacional de Controle da Tuberculose e o estabelecimento do tratamento diretamente observado pela rede básica de saúde<sup><xref ref-type="bibr" rid="B6">6</xref></sup> . Porém, a adesão dos pacientes é baixa<sup><xref ref-type="bibr" rid="B7">7</xref></sup> e o abandono do tratamento e a administração errada ou intermitente dos medicamentos fazem com que o número de óbitos permaneça elevado e que se crie resistência aos fármacos utilizados<sup><xref ref-type="bibr" rid="B7">7</xref></sup> .</p>
+				<p>As pessoas em situação de rua (PSR) estão constantemente expostas a diferentes tipos de vulnerabilização e condições de vida degradantes, o que aumenta o desafio para o cuidado em saúde, necessitando de intervenções específicas para essas pessoas<sup><xref ref-type="bibr" rid="B4">4</xref> , <xref ref-type="bibr" rid="B8">8</xref></sup> . Em consequência dessa exposição e precarização de suas vidas, a tuberculose entre PSR é muito frequente e apresentam 56 vezes mais chances de serem acometidas por esse agravo no Brasil.</p>
+				<p>Essa vulnerabilização tem três dimensões<sup><xref ref-type="bibr" rid="B9">9</xref></sup> : 1) Individual – determinada pelo que o indivíduo dispõe de informações, de sua capacidade de pô-las em prática, e de aspectos materiais, culturais, cognitivos e morais, entre tantos outros que participam da construção do “ser” humano; 2) Social – pautada pelos contextos sociais e cenários culturais; 3) Programática - que diz respeito às instituições, principalmente de saúde, educação, cultura e assistência social, permitindo contextos desfavoráveis, incrementando essas condições sociais.</p>
+				<p>O tratamento da tuberculose em PSR é mais caro e complexo quando comparado ao restante da população, com menor adesão ao tratamento, segundo a Rede para Políticas Informadas por Evidências do Ministério da Saúde do Brasil<sup><xref ref-type="bibr" rid="B4">4</xref></sup> , questões como segurança, alimentação e descanso competem em importância com o cuidado da saúde na PSR. Além da tuberculose, o HIV/aids, doenças dermatológicas (incluindo hanseníase) e hipertensão arterial são as principais doenças incidentes nessa população, bem como acompanhamento psicossocial devido ao abuso de drogas e álcool<sup><xref ref-type="bibr" rid="B10">10</xref></sup> . As pessoas em situação de rua vivem marginalizadas e distantes das políticas públicas e sem o efetivo cumprimento de seus direitos básicos, inclusive quando se trata de atendimento médico na atenção básica no SUS<sup><xref ref-type="bibr" rid="B11">11</xref></sup> .</p>
+				<p>Em todo o mundo, a tuberculose é a principal causa de morte em HIV positivos, representando um terço das mortes em decorrência da aids<sup><xref ref-type="bibr" rid="B12">12</xref></sup> . As pessoas HIV positivas têm 28 vezes mais chances de se infectar com a tuberculose<sup><xref ref-type="bibr" rid="B13">13</xref></sup> e essa coinfecção representa quase 29% das mortes no Brasil<sup><xref ref-type="bibr" rid="B14">14</xref></sup> . No ano de 2018 no Brasil, a incidência de tuberculose em pacientes HIV-positivos foi de 5,2/100.000 habitantes. No mesmo ano, dos novos casos de tuberculose, 75,5% foram testados para HIV e, dentre os positivos, apenas 47,4% fizeram o tratamento antirretroviral concomitantemente ao tratamento para a tuberculose<sup><xref ref-type="bibr" rid="B15">15</xref></sup> .</p>
+				<p>Diante dos avanços tecnológicos nos tratamentos de tuberculose e HIV/aids e dos compromissos assumidos pelos países membros da Organização Mundial da Saúde, esse cenário é problemático e desafiador, visto que essas doenças apresentam uma importância histórica<sup><xref ref-type="bibr" rid="B16">16</xref></sup> . Fomentar a produção de conhecimento e o debate no contexto da epidemia da tuberculose referente à vulnerabilidade social, individual e programática na população em situação de rua é fundamental para o enfrentamento desses agravos no país, principalmente no contexto atual da epidemia de covid-19, onde a atenção em saúde compete para os atendimentos das diferentes demandas. O objetivo do artigo foi analisar, sistematizar e compilar os fatores de vulnerabilidade (individual, social e programática) associados à tuberculose e tuberculose+HIV, coletados junto aos estudos sobre esses agravos na população das pessoas em situação de rua entre os anos de 2014 e 2020.</p>
+			</sec>
+			<sec sec-type="methods">
+				<title>MÉTODOS</title>
+				<p>Foi realizada uma revisão sistemática de literatura para os agravos de tuberculose e tuberculose+HIV no período de 2014 a 2020 na população em situação de rua. A revisão sistemática é um método de pesquisa que, na área da saúde, consiste em buscar e selecionar, avaliar, compilar e apresentar as evidências publicadas sobre um tema importante e de impacto na saúde das populações. Neste artigo, utilizamos o protocolo <italic>Preferred Reporting Items for Systematic Reviews and Meta-Analyses</italic> (PRISMA)<sup><xref ref-type="bibr" rid="B17">17</xref></sup> .</p>
+				<sec>
+					<title>Estratégia de Busca</title>
+					<p>A busca de referências foi realizada a partir dos descritores <italic>Tuberculosis, Homeless persons, HIV, Social Vulnerability, e Health Vulnerability</italic> e suas combinações entre si nas plataformas de pesquisa PubMed e Literatura Latino-americana e do Caribe em Ciências da Saúde (Lilacs), como pode ser observado na <xref ref-type="table" rid="t1002">tabela 1</xref>
+						<xref ref-type="table" rid="t2002"/> . As análises dos artigos foram realizadas por duas pesquisadoras em dois momentos distintos e os resultados foram compilados.</p>
+					<p>
+						<table-wrap id="t1002">
+							<label>Tabela 1</label>
+							<caption>
+								<title>Estratégias de busca.</title>
+							</caption>
+							<table frame="hsides" rules="groups">
+								<colgroup>
+									<col/>
+									<col/>
+									<col/>
+								</colgroup>
+								<thead>
+									<tr>
+										<th align="left">Plataforma</th>
+										<th>Descritores</th>
+										<th>Resultados</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Pubmed http://www.ncbi.nlm.nih.gov/pub med</td>
+										<td align="center"><italic>(“homeless persons”[MeSH Major Topic] AND “tuberculosis”[MeSH Major Topic]) AND “hiv”[MeSH]</italic></td>
+										<td align="center">4</td>
+									</tr>
+									<tr>
+										<td>Pubmed http://www.ncbi.nlm.nih.gov/pub med</td>
+										<td align="center"><italic>(“tuberculosis”[MeSH Major Topic]) AND “homeless persons”[MeSH Major Topic]</italic></td>
+										<td align="center">229</td>
+									</tr>
+									<tr>
+										<td>Pubmed http://www.ncbi.nlm.nih.gov/pub med</td>
+										<td align="center"><italic>((“Tuberculosis/analysis”[Mesh] OR “Tuberculosis/epidemiology”[Mesh] OR “Tuberculosis/mortality”[Mesh] OR “Tuberculosis/statistics and numerical data”[Mesh] OR “Tuberculosis/transmission”[Mesh])) AND (“Homeless Persons/epidemiology”[Mesh] OR “Homeless Persons/mortality”[Mesh] OR “Homeless Persons/statistics and numerical data”[Mesh])</italic></td>
+										<td align="center">104</td>
+									</tr>
+									<tr>
+										<td>Lilacs http://lilacs.bvsalud.org/en/</td>
+										<td align="center"><italic>tuberculose [Descritor de assunto] AND pessoas em situação de rua [Descritor de assunto]</italic></td>
+										<td align="center">13</td>
+									</tr>
+									<tr>
+										<td>Lilacs http://lilacs.bvsalud.org/en/</td>
+										<td align="center"><italic>pessoas em situação de rua [Descritor de assunto] AND vulnerabilidade social [Descritor de assunto],</italic></td>
+										<td>
+										</td>
+									</tr>
+									<tr>
+										<td>Lilacs http://lilacs.bvsalud.org/en/</td>
+										<td align="center"><italic>pessoas em situação de rua [Descritor de assunto] AND vulnerabilidade social [Descritor de assunto] AND tuberculose [Descritor de assunto]</italic></td>
+										<td align="center">1</td>
+									</tr>
+									<tr>
+										<td>Lilacs http://lilacs.bvsalud.org/en/</td>
+										<td align="center"><italic>vulnerabilidade social [Descritor de assunto] AND tuberculose [Descritor de assunto]</italic></td>
+										<td align="center">5</td>
+									</tr>
+									<tr>
+										<td>Lilacs http://lilacs.bvsalud.org/en/</td>
+										<td align="center"><italic>vulnerabilidade em saúde [Descritor de assunto] AND tuberculose [Descritor de assunto]</italic></td>
+										<td align="center">5</td>
+									</tr>
+								</tbody>
+							</table>
+						</table-wrap>
+					</p>
+					<p>
+						<table-wrap id="t2002">
+							<label>Tabela 2</label>
+							<caption>
+								<title>Descritores e artigos selecionados entre as publicações.</title>
+							</caption>
+							<table frame="hsides" rules="groups">
+								<colgroup>
+									<col/>
+									<col/>
+									<col/>
+									<col/>
+									<col/>
+									<col/>
+								</colgroup>
+								<thead>
+									<tr>
+										<th align="left">Autores</th>
+										<th>População de estudo</th>
+										<th>Ano</th>
+										<th>País</th>
+										<th>Descritores</th>
+										<th>Desenho de estudo</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Aldridge et al.<sup>21</sup></td>
+										<td align="center">491 pessoas em situação de rua</td>
+										<td align="center">2018</td>
+										<td align="center">Inglaterra</td>
+										<td align="center">Tuberculose + Pessoas em Situação de rua</td>
+										<td align="center">Estudo transversal</td>
+									</tr>
+									<tr>
+										<td>Semunigus et al.<sup>22</sup></td>
+										<td align="center">351 pessoas em situação de rua</td>
+										<td align="center">2016</td>
+										<td align="center">Etiópia</td>
+										<td align="center">Tuberculose + Pessoas em Situação de rua + HIV</td>
+										<td align="center">Estudo transversal</td>
+									</tr>
+									<tr>
+										<td>Vieira et al.<sup>23</sup></td>
+										<td align="center">População de 18 distritos portugueses</td>
+										<td align="center">2018</td>
+										<td align="center">Portugal</td>
+										<td align="center">Tuberculose + Pessoas em Situação de rua</td>
+										<td align="center">Estudo ecológico</td>
+									</tr>
+									<tr>
+										<td>Ranzani et al.<sup>24</sup></td>
+										<td align="center">1.726 pessoas em situação de rua</td>
+										<td align="center">2016</td>
+										<td align="center">Brasil</td>
+										<td align="center">Tuberculose + Pessoas em Situação de rua</td>
+										<td align="center">Estudo de coorte</td>
+									</tr>
+									<tr>
+										<td>Hwang et al.<sup>25</sup></td>
+										<td align="center">3.292 pessoas em situação de rua</td>
+										<td align="center">2017</td>
+										<td align="center">Coreia do Sul</td>
+										<td align="center">Tuberculose + Pessoas em Situação de rua</td>
+										<td align="center">Estudo de coorte</td>
+									</tr>
+									<tr>
+										<td>Dias et al.<sup>26</sup></td>
+										<td align="center">92.053 pessoas em situação de rua</td>
+										<td align="center">2017</td>
+										<td align="center">Portugal</td>
+										<td align="center">Tuberculose + Pessoas em Situação de rua</td>
+										<td align="center">Estudo de coorte</td>
+									</tr>
+									<tr>
+										<td>Agarwal et al.<sup>27</sup></td>
+										<td align="center">543 pessoas em situação de rua</td>
+										<td align="center">2019</td>
+										<td align="center">EUA</td>
+										<td align="center">Tuberculose + Pessoas em Situação de rua</td>
+										<td align="center">Estudo transversal</td>
+									</tr>
+									<tr>
+										<td>Nwana et al.<sup>28</sup></td>
+										<td align="center">393 pessoas em situação de rua</td>
+										<td align="center">2019</td>
+										<td align="center">Estados Unidos</td>
+										<td align="center">Tuberculose + Pessoas em Situação de rua</td>
+										<td align="center">Estudo de coorte</td>
+									</tr>
+									<tr>
+										<td>Amiri et al.<sup>29</sup></td>
+										<td align="center">593 pessoas em situação de rua</td>
+										<td align="center">2014</td>
+										<td align="center">Irã</td>
+										<td align="center">Tuberculose + Pessoas em Situação de rua</td>
+										<td align="center">Estudo transversal</td>
+									</tr>
+									<tr>
+										<td>Powell et al.<sup>30</sup></td>
+										<td align="center">110 ocorrências de tuberculose multirresistente</td>
+										<td align="center">2017</td>
+										<td align="center">EUA</td>
+										<td align="center">Tuberculose + Pessoas em Situação de rua</td>
+										<td align="center">Estudo transversal</td>
+									</tr>
+									<tr>
+										<td>Gomez et al.<sup>31</sup></td>
+										<td align="center">544 pessoas em situação de rua positivas para tuberculose</td>
+										<td align="center">2019</td>
+										<td align="center">Colômbia</td>
+										<td align="center">Tuberculose + Pessoas em Situação de rua</td>
+										<td align="center">Estudo de coorte</td>
+									</tr>
+									<tr>
+										<td>Munn et al.<sup>32</sup></td>
+										<td align="center">64 pessoas em situação de rua</td>
+										<td align="center">2015</td>
+										<td align="center">EUA</td>
+										<td align="center">Tuberculose + Pessoas em Situação de rua</td>
+										<td align="center">Estudo de coorte</td>
+									</tr>
+									<tr>
+										<td>Streit et al.<sup>33</sup></td>
+										<td align="center">142 pessoas em situação de rua</td>
+										<td align="center">2019</td>
+										<td align="center">Alemanha</td>
+										<td align="center">Tuberculose + Pessoas em Situação de rua</td>
+										<td align="center">Estudo transversal</td>
+									</tr>
+									<tr>
+										<td>Dolla et al.<sup>34</sup></td>
+										<td align="center">301 pessoas em situação de rua</td>
+										<td align="center">2017</td>
+										<td align="center">Índia</td>
+										<td align="center">Tuberculose + Pessoas em Situação de rua</td>
+										<td align="center">Estudo transversal</td>
+									</tr>
+									<tr>
+										<td>Korzeniewska-Koseła et al.<sup>35</sup></td>
+										<td align="center">2.349 pessoas em situação de rua</td>
+										<td align="center">2015</td>
+										<td align="center">Polônia</td>
+										<td align="center">Tuberculose + Pessoas em Situação de rua</td>
+										<td align="center">Estudo de coorte</td>
+									</tr>
+									<tr>
+										<td>Pendzich et al.<sup>36</sup></td>
+										<td align="center">117 pessoas em situação de rua</td>
+										<td align="center">2015</td>
+										<td align="center">Polônia</td>
+										<td align="center">Tuberculose + Pessoas em Situação de rua</td>
+										<td align="center">Estudo de coorte</td>
+									</tr>
+								</tbody>
+							</table>
+						</table-wrap>
+					</p>
+				</sec>
+				<sec>
+					<title>Critérios de Elegibilidade</title>
+					<p>Nas análises foram incluídas as publicações de delineamento quantitativo que abordavam a tuberculose e tuberculose+HIV e os fatores de vulnerabilidade associados aos agravos nos idiomas inglês, espanhol e português, publicados entre 2014 e 2020.</p>
+				</sec>
+				<sec>
+					<title>Análise de Viés</title>
+					<p>A análise de viés das publicações analisadas foi realizada por par e com o uso da ferramenta <italic>Joanna Briggs Institute Critical Appraisal (JBI – Systematic Rewiews tools)</italic> . O JBI é composto por perguntas que avaliam a qualidade metodológica do estudo segundo seu delineamento. Os estudos transversais foram avaliados com o <italic>JBI Critical Appraisal Checklist for Analytical Cross Sectional Studies</italic> com as perguntas: (i) critérios de inclusão e exclusão claramente definidos; (ii) temática e método descritos em detalhes; (iii) exposição mensurada de forma apropriada; (iv) critérios de definição objetivos e padronizados para determinar a condição estudada; (v) identificação de fatores de confundimento; (vi) estratégias para lidar com fatores de confundimento; (vii) desfecho mensurado de forma apropriada; (viii) análise estatística apropriada<sup><xref ref-type="bibr" rid="B18">18</xref></sup> . Para as análises dos estudos de coorte, utilizou-se o <italic>JBI Critical Appraisal Checklist for Analytical Cohort Studies</italic> , com 11 perguntas: (i) os dois grupos recrutados da mesma população; (ii) as exposições medidas de forma similar para atribuir os dois grupos, expostos e não expostos; (iii) exposição mensurada de forma apropriada; (iv) identificação de fatores de confundimento; (v) estratégias para lidar com fatores de confundimento; (vi) os participantes estavam livres do desfecho no início do estudo; (vii) desfecho mensurado de forma apropriada; (viii) o tempo de estudo suficiente a ocorrência do desfecho; (ix) acompanhamento completo/se não, suas razões descritas e exploradas; (x) estratégias para lidar com acompanhamento incompleto; (xi) análise estatística apropriada<sup><xref ref-type="bibr" rid="B19">19</xref></sup> . Os estudos ecológicos foram avaliados pelo <italic>JBI Critical Appraisal Checklist for Analytical Cross Sectional Studies</italic> modificado segundo critérios propostos por Dufault e Klar<sup><xref ref-type="bibr" rid="B20">20</xref></sup> , que descrevem a avaliação metodológica para esse tipo de desenho de estudo, com as seguintes perguntas: (i) explicação sobre delineamento e tamanho amostral escolhido; (ii) critérios de inclusão e exclusão claramente definidos; (iii) temática e método descritos em detalhes; (iv) critérios de definição objetivos e padronizados para determinar a condição estudada; (v) exposição mensurada de forma apropriada; (vi) identificação de fatores de confundimento; (vii) estratégias para lidar com fatores de confundimento; (viii) desfecho mensurado de forma apropriada; (ix) esforços para reduzir possibilidade de viés; (x) análise estatística apropriada; (xi) estratégias para lidar com acompanhamento incompleto; (xii) limitações do estudo apontadas<sup><xref ref-type="bibr" rid="B18">18</xref> , <xref ref-type="bibr" rid="B20">20</xref></sup> .</p>
+				</sec>
+			</sec>
+			<sec sec-type="results">
+				<title>RESULTADOS</title>
+				<p>Foram encontradas 374 produções nas plataformas pesquisadas, sendo selecionadas 103 de publicações dentro do período do estudo, das quais duas foram excluídas por serem documentos governamentais oficiais para políticas públicas, 23 foram descartadas por se apresentarem em duplicidade e nove por não estarem indexadas para leitura integral. Ao final, restaram 71 publicações para análise por meio da leitura dos resumos e leitura dinâmica, dos quais foram selecionados 16 segundo os critérios de elegibilidade. A maioria dos estudos se deu entre países do continente europeu (6/16), seguido pela Ásia (3/16), América do Norte (4/16), América do Sul (2/16), com uma publicação brasileira, e África (1/16) ( <xref ref-type="fig" rid="f01002">Figura</xref> ). Em relação ao delineamento, sete dos estudos quantitativos eram transversais, oito de coorte e um ecológico. Complementamos os resultados com a média de 2,7 publicações anuais, que se manteve entre os anos analisados, com o mínimo de um e o máximo de quatro trabalhos publicados em cada ano.</p>
+				<p>
+					<fig id="f01002">
+						<label>Figura</label>
+						<caption>
+							<title>Fluxograma de resultados.</title>
+						</caption>
+						<graphic xlink:href="1518-8787-rsp-56-43-gf01-pt.tif"/>
+					</fig>
+				</p>
+				<p>A coleta das publicações foi realizada entre junho de 2019 e abril de 2021 e todos os dados foram digitados em planilha <italic>Microsoft Excel</italic> contendo os segmentos: autores, população do estudo, ano de publicação, país de publicação e desenho de estudo.</p>
+				<p>Entre os artigos selecionados, identificamos os seguintes fatores de vulnerabilidade para os desfechos: uso de álcool<sup><xref ref-type="bibr" rid="B21">21</xref></sup> , tabagismo<sup><xref ref-type="bibr" rid="B21">21</xref> , <xref ref-type="bibr" rid="B22">22</xref> , <xref ref-type="bibr" rid="B25">25</xref> , <xref ref-type="bibr" rid="B28">28</xref> , <xref ref-type="bibr" rid="B29">29</xref></sup> , uso de drogas ilícitas<sup><xref ref-type="bibr" rid="B21">21</xref> , <xref ref-type="bibr" rid="B24">24</xref> , <xref ref-type="bibr" rid="B26">26</xref></sup> , entre elas, injetáveis<sup><xref ref-type="bibr" rid="B21">21</xref> , <xref ref-type="bibr" rid="B27">27</xref></sup> , podendo haver compartilhamento de agulhas<sup><xref ref-type="bibr" rid="B29">29</xref> , <xref ref-type="bibr" rid="B30">30</xref></sup> , e metanfetamina<sup><xref ref-type="bibr" rid="B29">29</xref></sup> , histórico de encarceramento<sup><xref ref-type="bibr" rid="B21">21</xref> , <xref ref-type="bibr" rid="B29">29</xref></sup> , imigração<sup><xref ref-type="bibr" rid="B26">26</xref> , <xref ref-type="bibr" rid="B32">32</xref> , <xref ref-type="bibr" rid="B33">33</xref></sup> , distúrbio psicológico<sup><xref ref-type="bibr" rid="B24">24</xref> , <xref ref-type="bibr" rid="B28">28</xref> , <xref ref-type="bibr" rid="B30">30</xref></sup> , prostituição<sup><xref ref-type="bibr" rid="B29">29</xref></sup> , inclusive entre homens que fizeram sexo com homens, analfabetismo<sup><xref ref-type="bibr" rid="B22">22</xref> , <xref ref-type="bibr" rid="B29">29</xref></sup> , desnutrição<sup><xref ref-type="bibr" rid="B22">22</xref></sup> , e coinfecção por HIV<sup><xref ref-type="bibr" rid="B21">21</xref> , <xref ref-type="bibr" rid="B22">22</xref> , <xref ref-type="bibr" rid="B24">24</xref></sup> e outras doenças crônicas como diabetes<sup><xref ref-type="bibr" rid="B27">27</xref> , <xref ref-type="bibr" rid="B28">28</xref></sup> , insuficiência renal crônica<sup><xref ref-type="bibr" rid="B27">27</xref> , <xref ref-type="bibr" rid="B28">28</xref></sup> e hepatites B e C<sup><xref ref-type="bibr" rid="B21">21</xref> , <xref ref-type="bibr" rid="B28">28</xref> , <xref ref-type="bibr" rid="B29">29</xref></sup> .</p>
+				<p>Em todos os estudos analisados, a maioria dos pacientes acometidos pela tuberculose era da raça/cor preta ou parda<sup><xref ref-type="bibr" rid="B24">24</xref> , <xref ref-type="bibr" rid="B28">28</xref> , <xref ref-type="bibr" rid="B30">30</xref> , <xref ref-type="bibr" rid="B32">32</xref></sup> , do gênero masculino e com de idade média de 49,8 anos (DP ± 5,2) e a média de tempo em situação de rua está relacionada à maior ocorrência de tuberculose e infecção latente de tuberculose segundo literatura<sup><xref ref-type="bibr" rid="B21">21</xref> , <xref ref-type="bibr" rid="B22">22</xref> , <xref ref-type="bibr" rid="B29">29</xref></sup> .</p>
+				<p>Os desfechos relacionados à ocorrência da tuberculose e infecção latente de tuberculose são apresentados na <xref ref-type="table" rid="t3002">tabela 3</xref>
+					<xref ref-type="table" rid="t4002"/> . A não completude do tratamento<sup><xref ref-type="bibr" rid="B22">22</xref> , <xref ref-type="bibr" rid="B24">24</xref> , <xref ref-type="bibr" rid="B25">25</xref> , <xref ref-type="bibr" rid="B27">27</xref> , <xref ref-type="bibr" rid="B28">28</xref> , <xref ref-type="bibr" rid="B30">30</xref> , <xref ref-type="bibr" rid="B31">31</xref> , <xref ref-type="bibr" rid="B34">34</xref> , <xref ref-type="bibr" rid="B35">35</xref></sup> ou seu fracasso<sup><xref ref-type="bibr" rid="B22">22</xref> , <xref ref-type="bibr" rid="B24">24</xref> , <xref ref-type="bibr" rid="B26">26</xref></sup> , o óbito<sup><xref ref-type="bibr" rid="B22">22</xref> , <xref ref-type="bibr" rid="B24">24</xref> , <xref ref-type="bibr" rid="B25">25</xref> , <xref ref-type="bibr" rid="B27">27</xref> , <xref ref-type="bibr" rid="B30">30</xref> , <xref ref-type="bibr" rid="B31">31</xref> , <xref ref-type="bibr" rid="B34">34</xref></sup> , desenvolvimento de resistência aos fármacos de tratamento<sup><xref ref-type="bibr" rid="B22">22</xref> , <xref ref-type="bibr" rid="B25">25</xref></sup> e ocorrência de tuberculose extrapulmonar<sup><xref ref-type="bibr" rid="B22">22</xref> , <xref ref-type="bibr" rid="B26">26</xref> , <xref ref-type="bibr" rid="B27">27</xref></sup> . Os principais meios diagnósticos foram citologia de escarro<sup><xref ref-type="bibr" rid="B22">22</xref> , <xref ref-type="bibr" rid="B24">24</xref> , <xref ref-type="bibr" rid="B26">26</xref> , <xref ref-type="bibr" rid="B27">27</xref> , <xref ref-type="bibr" rid="B29">29</xref> , <xref ref-type="bibr" rid="B31">31</xref></sup> , R-X torácico<sup><xref ref-type="bibr" rid="B24">24</xref> , <xref ref-type="bibr" rid="B27">27</xref> , <xref ref-type="bibr" rid="B33">33</xref></sup> , cultura<sup><xref ref-type="bibr" rid="B27">27</xref> , <xref ref-type="bibr" rid="B29">29</xref></sup> , exame molecular<sup><xref ref-type="bibr" rid="B27">27</xref></sup> e diagnóstico clínico<sup><xref ref-type="bibr" rid="B27">27</xref></sup> .</p>
+				<p>
+					<table-wrap id="t3002">
+						<label>Tabela 3</label>
+						<caption>
+							<title>Sumarização dos fatores de vulnerabilidade.</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left">Fator de vulnerabilidade</th>
+									<th>Dimensão de vulnerabilidade</th>
+									<th>Autor</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Distúrbio psicológico</td>
+									<td align="center">Individual</td>
+									<td align="center">Ranzani et al.<sup>24</sup>(2016); Nwana et al.<sup>28</sup>(2019); Powell et al.<sup>30</sup>(2017)</td>
+								</tr>
+								<tr>
+									<td>Uso de álcool</td>
+									<td align="center">Individual e social</td>
+									<td align="center">Aldridge et al.<sup>21</sup>(2018); Semunigus et al.<sup>22</sup>(2016); Vieira et al.<sup>23</sup>(2018); Ranzani et al.<sup>24</sup>(2016); Hwuang et al.<sup>25</sup>(2017); Dias et al.<sup>26</sup>(2017); Agarwal et al.<sup>27</sup>(2019); Nwana et al.<sup>28</sup>(2019)</td>
+								</tr>
+								<tr>
+									<td>Tabagismo</td>
+									<td align="center">Individual e social</td>
+									<td align="center">Aldridge et al.<sup>21</sup>(2018); Semunigus et al.<sup>22</sup>(2016); Hwuang et al.<sup>25</sup>(2017); Nwana et al.<sup>28</sup>(2019) Amiri et al.<sup>29</sup>(2014)</td>
+								</tr>
+								<tr>
+									<td>Uso de drogas</td>
+									<td align="center">Individual e social</td>
+									<td align="center">Aldridge et al.<sup>21</sup>(2018); Ranzani et al.<sup>24</sup>(2016); Dias et al.<sup>26</sup>(2017); Agarwal et al.<sup>27</sup>(2019); Nwana et al.<sup>28</sup>(2019); Powell et al.<sup>30</sup>(2017)</td>
+								</tr>
+								<tr>
+									<td>Baixa escolaridade</td>
+									<td align="center">Individual e social</td>
+									<td align="center">Semunigus et al.<sup>22</sup>(2016); Ranzani et al.<sup>24</sup>(2016); Amiri et al.<sup>29</sup>(2014)</td>
+								</tr>
+								<tr>
+									<td>Imigração</td>
+									<td align="center">Social</td>
+									<td align="center">Dias et al.<sup>26</sup>(2017); Munn et al.<sup>32</sup>(2015); Streit et al.<sup>33</sup>(2019)</td>
+								</tr>
+								<tr>
+									<td>Encarceramento</td>
+									<td align="center">Social</td>
+									<td align="center">Aldridge et al.<sup>21</sup>(2018); Amiri et al.<sup>29</sup>(2014); Powell et al.<sup>30</sup>(2017)</td>
+								</tr>
+								<tr>
+									<td>Atuação em trabalhos ilegais (roubo, furto, tráfico de drogas e prostituição)</td>
+									<td align="center">Social</td>
+									<td align="center">Amiri et al.<sup>29</sup>(2014)</td>
+								</tr>
+								<tr>
+									<td>Desnutrição</td>
+									<td align="center">Social</td>
+									<td align="center">Semunigus et al.<sup>22</sup>(2016)</td>
+								</tr>
+								<tr>
+									<td>Coinfecção por HIV e outras doenças como hipertensão arterial, hepatites e sífilis, além de recorrência da tuberculose</td>
+									<td align="center">Social</td>
+									<td align="center">Aldridge et al.<sup>21</sup>(2018); Semunigus et al.<sup>22</sup>(2016); Ranzani et al.<sup>24</sup>(2016); Hwuang et al.<sup>25</sup>(2017); Dias et al.<sup>26</sup>(2017); Agarwal et al.<sup>27</sup>(2019); Nwana et al.<sup>28</sup>(2019); Amiri et al.<sup>29</sup>(2014)</td>
+								</tr>
+								<tr>
+									<td>Pardos e negros</td>
+									<td align="center">Social</td>
+									<td align="center">Powell et al.<sup>30</sup>(2017); Munn et al.<sup>32</sup>(2015); Dolla et al.<sup>34</sup>(2017)</td>
+								</tr>
+								<tr>
+									<td>Falha no tratamento</td>
+									<td align="center">Programática</td>
+									<td align="center">Semunigus et al.<sup>22</sup>(2016); Ranzani et al.<sup>24</sup>(2016); Hwuang et al.<sup>25</sup>(2017); Dias et al.<sup>26</sup>(2017); Agarwal et al.<sup>27</sup>(2019); Nwana et al.<sup>28</sup>(2019); Gomez et al.<sup>31</sup>(2019); Streit et al.<sup>33</sup>(2019); Dolla et al.<sup>34</sup>(2017); Korzeniewska-Koseła et al.<sup>35</sup>(2015)</td>
+								</tr>
+							</tbody>
+						</table>
+					</table-wrap>
+				</p>
+				<p>
+					<table-wrap id="t4002">
+						<label>Tabela 4</label>
+						<caption>
+							<title>Incidências e prevalências achadas nos estudos revisados.</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left">Autores (ano)</th>
+									<th>Incidência para tuberculose</th>
+									<th>Prevalência para tuberculose</th>
+									<th>Prevalência infecção latente de tuberculose</th>
+									<th>Prevalência tuberculose+HIV</th>
+									<th>Prevalência infecção latente de tuberculose+HIV</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Aldridge et al.<sup>21</sup>(2018)</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td align="center">16,50%</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Semunigus et al.<sup>22</sup>(2016)</td>
+									<td align="center">505/100 mil hab</td>
+									<td align="center">2,60%</td>
+									<td>
+									</td>
+									<td align="center">55,50%</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Ranzani et al.<sup>24</sup>(2016)</td>
+									<td>
+									</td>
+									<td align="center">2,80%</td>
+									<td>
+									</td>
+									<td align="center">17,30%</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Hwuang et al.<sup>25</sup>(2017)</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td align="center">5,70%</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Dias et al.<sup>26</sup>(2017)</td>
+									<td align="center">122/100 mil hab</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td align="center">32,60%</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Agarwal et al.<sup>27</sup>(2019)</td>
+									<td>
+									</td>
+									<td align="center">4,10%</td>
+									<td>
+									</td>
+									<td align="center">16%</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Nwana et al.<sup>28</sup>(2019)</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td align="center">1,80%</td>
+								</tr>
+								<tr>
+									<td>Amiri et al.<sup>29</sup>(2014)</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td align="center">46,70%</td>
+									<td>
+									</td>
+									<td align="center">1,20%</td>
+								</tr>
+								<tr>
+									<td>Gomez et al.<sup>31</sup>(2019)</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td align="center">20,60%</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Streit et al.<sup>33</sup>(2019</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td align="center">16%</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Dolla et al.<sup>34</sup>(2017)</td>
+									<td align="center">270/100 mil hab</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td align="center">20%</td>
+									<td>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</table-wrap>
+				</p>
+				<p>Entre as 16 publicações analisadas, em 10 foi descrita a associação entre as comorbidades tuberculose e HIV. Na produção de Semunigus et al.<sup><xref ref-type="bibr" rid="B22">22</xref></sup> , a proporção de coinfecção chegou a 55,5%. Segundo Dias et al.<sup><xref ref-type="bibr" rid="B26">26</xref></sup> , ser HIV positivo se mostrou 2,1 vezes mais provável ter um desfecho desfavorável e a comorbidade estava presente em 32,6% dos pacientes analisados. Para Ranzani et al.<sup><xref ref-type="bibr" rid="B24">24</xref></sup> 17,3% das pessoas em situação de rua eram HIV positivas. Segundo Agarwal et al.<sup><xref ref-type="bibr" rid="B27">27</xref></sup> 16% dos participantes com tuberculose eram HIV positivos e a razão de chance para mortalidade nesses indivíduos foi 3.57 maior do que para os com exame de HIV negativo. Na publicação de Hwang et al.<sup><xref ref-type="bibr" rid="B25">25</xref></sup> 5,7% tinha coinfecção tuberculose+HIV. No estudo de Amiri et al.<sup><xref ref-type="bibr" rid="B29">29</xref></sup> 1,2% das PSR eram HIV positivos e tinham infecção latente de tuberculose, proporção similar (1,8%) ao achado por Nwana et al.<sup><xref ref-type="bibr" rid="B28">28</xref></sup> Gomez et al.<sup><xref ref-type="bibr" rid="B31">31</xref></sup> , em seu estudo, achou a proporção de 20,6% de PSR com as comorbidades. Vieira et al.<sup><xref ref-type="bibr" rid="B23">23</xref></sup> relatam que o aumento de 100 casos da coinfecção por HIV+tuberculose na população em geral leva ao aumento da incidência da tuberculose entre pessoas em situação de rua a 14 casos por 100 mil habitantes. No de Dolla et al.<sup><xref ref-type="bibr" rid="B34">34</xref></sup> , o único paciente HIV+ em sua amostra, veio a óbito.</p>
+				<p>Em relação aos vieses encontrados, grande parte dos estudos não apresentou similaridade dos grupos recrutados<sup><xref ref-type="bibr" rid="B24">24</xref> , <xref ref-type="bibr" rid="B25">25</xref> , <xref ref-type="bibr" rid="B36">36</xref></sup> , identificação dos fatores de confundimento<sup><xref ref-type="bibr" rid="B26">26</xref> , <xref ref-type="bibr" rid="B27">27</xref> , <xref ref-type="bibr" rid="B29">29</xref> , <xref ref-type="bibr" rid="B30">30</xref> , <xref ref-type="bibr" rid="B33">33</xref></sup> , estratégia para lidar com esses fatores<sup><xref ref-type="bibr" rid="B26">26</xref> , <xref ref-type="bibr" rid="B27">27</xref> , <xref ref-type="bibr" rid="B29">29</xref> , <xref ref-type="bibr" rid="B30">30</xref> , <xref ref-type="bibr" rid="B32">32</xref></sup> ou com o acompanhamento incompleto dos participantes<sup><xref ref-type="bibr" rid="B25">25</xref> , <xref ref-type="bibr" rid="B26">26</xref> , <xref ref-type="bibr" rid="B36">36</xref></sup> . Poucos estudos trouxeram suas limitações descritas<sup><xref ref-type="bibr" rid="B24">24</xref> , <xref ref-type="bibr" rid="B26">26</xref> , <xref ref-type="bibr" rid="B28">28</xref> , <xref ref-type="bibr" rid="B29">29</xref> , <xref ref-type="bibr" rid="B31">31</xref> , <xref ref-type="bibr" rid="B34">34</xref></sup> e aqueles que apresentaram tinham falhas na exposição da metodologia e dos resultados<sup><xref ref-type="bibr" rid="B29">29</xref> , <xref ref-type="bibr" rid="B30">30</xref> , <xref ref-type="bibr" rid="B32">32</xref> , <xref ref-type="bibr" rid="B36">36</xref></sup> .</p>
+			</sec>
+			<sec sec-type="discussion">
+				<title>DISCUSSÃO</title>
+				<p>Podemos observar uma recorrência entre os resultados relacionada ao consumo de álcool, tabaco e drogas ilícitas – fatores da vulnerabilidade social a partir do estigma associado ao vício e que também é uma susceptibilidade individual –, seja para a fuga da realidade de sofrimento ou ainda para buscar uma melhoria do bem-estar geral<sup><xref ref-type="bibr" rid="B37">37</xref> , <xref ref-type="bibr" rid="B38">38</xref></sup> . Assim, essa sobreposição de vulnerabilidades pode aumentar a exposição à tuberculose e HIV na população do estudo. O sexo e idade, assim como a coinfecção por outras doenças transmissíveis e histórico de encarceramento, também são fatores que despertam discriminação na nossa sociedade, embora em níveis diferentes.</p>
+				<p>A falta de completude do tratamento e desenvolvimento de resistência aos medicamentos de tratamento estão incluídos na esfera da vulnerabilidade programática, pois demonstram a falha do sistema de saúde em fornecer tratamento, informação e estrutura de forma adequada para o tratamento desses pacientes.</p>
+				<p>Encontramos uma variabilidade na quantidade de publicações anuais com os temas tuberculose e HIV para a população de PSR. A média anual foi de menos de três (2,67), considerado pouco na comparação com outras populações também classificadas como vulneráveis. Tratando-se de um agravo muito importante de saúde pública mundial, a ponto de estar listada entre os Objetivos do Desenvolvimento Sustentável, chama a atenção algumas falhas metodológicas como: pequeno tamanho da amostra, o que fragiliza os resultados e conclusões apresentados; falta de acesso direto aos pacientes positivos para tuberculose<sup><xref ref-type="bibr" rid="B29">29</xref></sup> ; subestimação do número real de pessoas em situação de rua<sup><xref ref-type="bibr" rid="B24">24</xref> , <xref ref-type="bibr" rid="B26">26</xref></sup> ; e da incidência e prevalência da tuberculose nessa população<sup><xref ref-type="bibr" rid="B26">26</xref> , <xref ref-type="bibr" rid="B34">34</xref></sup> ; amostra composta somente de pessoas com tuberculose<sup><xref ref-type="bibr" rid="B24">24</xref></sup> , excluindo-se as formas extrapulmonares.</p>
+				<sec>
+					<title>Vulnerabilidade Individual</title>
+					<p>Entre as publicações revisadas, o uso de drogas ilícitas, álcool ou tabaco que fazem parte dos fatores de vulnerabilidade individual e social apontaram para importância dessas susceptibilidades na vida da PSR, apontando para a necessidade de uma atenção singular desses aspectos no enfrentamento da tuberculose entre a PSR.</p>
+					<p>O uso constante de drogas pode levar ao desenvolvimento de transtornos mentais, como afirma o último relatório mundial sobre drogas, em 2020, do Escritório de Drogas e Crimes da Organização das Nações Unidas (UNODC). Em duas publicações<sup><xref ref-type="bibr" rid="B24">24</xref> , <xref ref-type="bibr" rid="B30">30</xref></sup> foi descrita a variável “transtorno mental”, evidenciando sua constante ocorrência entre as amostras usadas para os estudos. O rompimento com familiares, seja por não adequação ao seu modelo estrutural, seja por histórico de violência e assédio, ou mesmo por não aceitarem formas de sustento escusas e o próprio vício, expõe essas pessoas a uma condição de vulnerabilidade social e individual, pois não podem contar com suas famílias num momento de dificuldade<sup><xref ref-type="bibr" rid="B39">39</xref> , <xref ref-type="bibr" rid="B40">40</xref></sup> .</p>
+				</sec>
+				<sec>
+					<title>Vulnerabilidade Social</title>
+					<p>A redução da situação de vulnerabilidade social é enfrentada pelo Estado com a implantação de programas de transferência de renda pelo governo, que são artifícios para diminuir o número de pessoas abaixo da linha da pobreza e dar a elas melhores condições de alimentação<sup><xref ref-type="bibr" rid="B41">41</xref></sup> . Essa importante medida é considerada programática, com consequências sobre a vulnerabilidade social e deve ser ampliada, pois pode reduzir a vulnerabilidade das pessoas na linha abaixo da miséria. A sobreposição ou intersecção das dimensões de vulnerabilidade ajudam a ampliar o olhar da epidemiologia para a forma de adoecer e alertar os gestores para as questões de saúde oportunizando um enfrentamento mais qualificado desses problemas entre PSR.</p>
+					<p>A produção de vidas vulnerabilizadas e não integráveis faz com que as pessoas em situação de rua convivam continuamente com a dificuldade no acesso à educação, trabalho, cuidado e serviços de saúde, entre outros, além da sua invisibilidade, o que pode levar algumas dessas pessoas ao envolvimento em atividades como prostituição, associação ao tráfico, roubo e furto e trabalho análogo à escravidão.</p>
+					<p>A vulnerabilidade social também envolve características marcadas pela classe social baixa, local de moradia, raça negra, entre outras. A proporção de pretos e pardos entre os resultados encontrados nas publicações foi de 63,6%. A idade média dos participantes dos estudos é de 49,8 anos (DP ± 5,2), provavelmente devido à maior mobilidade espacial se comparado às mulheres ou pessoas de diferentes faixas etárias, como idosos, que transitam menos pelas ruas, se expondo menos em seus trajetos<sup><xref ref-type="bibr" rid="B42">42</xref></sup> .</p>
+					<p>O histórico de encarceramento foi frequente entre os estudos usados nessa revisão. O sistema prisional, incumbido de reabilitar e reinserir o apenado à sociedade, falha nessa tentativa de reinserção devido ao estigma que o condenado carrega após o cumprimento de sua pena, seja pela sociedade em geral, pela falta de apoio familiar ou pela falta de oportunidade de emprego, o que faz com que muitos acabem sem recursos monetários para continuarem sua vida e tenham que recorrer à vida nas ruas, algumas vezes atuando em trabalhos ilegais, o que não rompe o ciclo de reincidência<sup><xref ref-type="bibr" rid="B43">43</xref></sup> .</p>
+					<p>Segundo <italic>ranking</italic> realizado pelo <italic>World Prison Brief</italic> (2021)<sup><xref ref-type="bibr" rid="B44">44</xref></sup> , o Brasil tem a terceira maior população carcerária do mundo, fato intrinsecamente ligado ao racismo estrutural e, consequentemente, à marginalização sistemática de pessoas pretas e pardas, compreendendo 61,7% dos encarcerados<sup><xref ref-type="bibr" rid="B45">45</xref></sup> . Com isso, podemos observar que esses fatores de vulnerabilidade relacionados ao recorte social, racial e econômico se perpetuam nas populações mais precárizadas.</p>
+				</sec>
+				<sec>
+					<title>Vulnerabilidade Programática</title>
+					<p>Essa dimensão da vulnerabilidade, relacionada ao acesso aos equipamentos públicos e institucionais do Estado, revelou-se uma importante dimensão da análise das susceptibilidades de populações vulnerabilizadas em relação à tuberculose e ao HIV, nos estudos epidemiológicos<sup><xref ref-type="bibr" rid="B46">46</xref></sup> , pois fornece evidências da precariedade e fragilidade desses recursos. A falta de completude do tratamento e desenvolvimento de resistência aos medicamentos de tratamento estão incluídos nessa dimensão, pois demonstram a falha do sistema de saúde em fornecer tratamento, informação e estrutura adequados para o tratamento desses pacientes<sup><xref ref-type="bibr" rid="B47">47</xref></sup> . Entre as consequências está a coinfecção com outras doenças, visto que a habitação nas ruas e sua exposição ambiental potencializam os riscos para algumas doenças crônicas e infecciosas<sup><xref ref-type="bibr" rid="B38">38</xref></sup> , pois questões prioritárias à manutenção da vida, como segurança e alimentação, são mais urgentes que o cuidado com a saúde, e diante das dificuldades de acesso, o cuidado com a saúde fica em segundo plano ou quando surgir uma oportunidade<sup><xref ref-type="bibr" rid="B38">38</xref> , <xref ref-type="bibr" rid="B48">48</xref></sup> .</p>
+				</sec>
+			</sec>
+			<sec sec-type="conclusions">
+				<title>CONCLUSÃO</title>
+				<p>O Brasil, segundo o Instituto de Pesquisa Econômica Aplicada, contava com mais de 100 mil pessoas vivendo nas ruas em 2016<sup><xref ref-type="bibr" rid="B49">49</xref></sup> . Atualmente, diante das perspectivas socioeconômicas brasileiras, inclusive no contexto da pandemia da covid-19 aliado ao cenário econômico e político, já se observa um aumento da pobreza e na quantidade da PSR<sup><xref ref-type="bibr" rid="B50">50</xref></sup> . Entre as consequências é possível que se observe a curto prazo um aumento da tuberculose na PSR, como também em outras populações vulnerabilizadas, a exemplo das populações de baixa renda, moradores de favelas ou ainda nos moradores de habitação precária<sup><xref ref-type="bibr" rid="B51">51</xref></sup> , visto que já existe um panorama sobre o aumento da pobreza e miséria no Brasil, assim como em outros países da América Latina<sup><xref ref-type="bibr" rid="B50">50</xref> , <xref ref-type="bibr" rid="B52">52</xref></sup> .</p>
+				<p>Nosso olhar pela perspectiva do conceito de vulnerabilidade permitiu verificar que os resultados encontrados nas publicações analisadas evidenciaram a questão social e programática dos fatores associados à tuberculose e HIV entre PSR, destacando as diferentes dimensões da precarização das vidas e atenção a sua saúde. Assim, esse conceito foi um suporte fundamental para classificar e entender os diferentes tipos de susceptibilidades que permeiam a vida das PSR e dificultam o tratamento da tuberculose e HIV, bem como falha no tratamento por descontinuidade e, consequentemente, aparecimento de cepas resistentes.</p>
+				<p>Mesmo com protocolos e diretrizes estabelecidas, portarias e normas técnicas para a prevenção e tratamento dos agravos aqui abordados para a PSR, percebeu-se que a execução dos planos de ações traçados pelas estratégias governamentais apresenta importantes falhas, evidenciando as fragilidades do Sistema de Saúde e políticas públicas voltadas para PSR, bem como as questões de estigma e preconceitos sociais que se reproduzem nos serviços de saúde. Dessa forma, algumas vidas específicas estão mais expostas a situações de vulnerabilidade e, consequentemente, com menos acesso a prevenção e proteção, logo, mais susceptíveis à violência do Estado e da sociedade do que outras. Isso é produzido por variados atravessamentos que marcam essas vidas como mais vulneráveis e muitas vezes não reconhecidas, sendo invisibilizados.</p>
+				<sec>
+					<title>Recomendações</title>
+					<p>A partir dos resultados dessa revisão, recomenda-se uma maior atenção e investimento em melhoria das ações de prevenção e intervenções para a tuberculose e tuberculose+HIV na PSR, desde a atenção básica, mantendo uma rotina de avaliação das vulnerabilidades das pessoas em situação de rua. Aos gestores e técnicos, avaliar a necessidade de alteração e ajustes dos protocolos da atenção básica para as PSR, além da distribuição integral de recursos para as demandas já conhecidas e aqui apresentadas. Também é necessário esforço e comprometimento político com a distribuição dos recursos destinados à saúde, políticas sociais e de assistência as PSR.</p>
+					<p>A sistematização dos fatores de vulnerabilidade pode ser utilizada para embasar hipóteses para futuras pesquisas, subsidiar políticas públicas de saúde e sociais para o enfrentamento da tuberculose e HIV na PSR. Os achados, quando comparados a outras revisões sistemáticas, parecem avançar ao discutir pela ótica do conceito de vulnerabilidade, o que é inédito nas publicações nacionais, para a população das pessoas em situação de rua no contexto da tuberculose e tuberculose+HIV.</p>
+				</sec>
+				<sec>
+					<title>Limitações</title>
+					<p>Esse estudo apresenta limitações, visto que mesmo que realizada uma ampla busca de trabalhos publicados por duas pesquisadoras, uma quantidade de textos pode ainda não estar disponível de forma digital nas plataformas e, devido à velocidade da dinâmica das publicações, alguns trabalhos podem ter escapado à busca e coleta de dados.</p>
+				</sec>
+			</sec>
+		</body>
+		<back>
+			<fn-group>
+				<fn fn-type="financial-disclosure" id="fn2002">
+					<p><bold>Financiamento:</bold> Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (Capes – bolsa Demanda Social para JRG; processo 88887.499588/2020-00 de 01/03/2020 a 31/03/2021).</p>
+				</fn>
+			</fn-group>
+		</back>
+	</sub-article>
+</article>

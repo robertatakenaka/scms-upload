@@ -1,0 +1,2667 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.1" specific-use="sps-1.9" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="nlm-ta">Rev Saude Publica</journal-id>
+			<journal-id journal-id-type="publisher-id">rsp</journal-id>
+			<journal-title-group>
+				<journal-title>Revista de Saúde Pública</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Rev. Saúde Pública</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="ppub">0034-8910</issn>
+			<issn pub-type="epub">1518-8787</issn>
+			<publisher>
+				<publisher-name>Faculdade de Saúde Pública da Universidade de São Paulo</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="other">00202</article-id>
+			<article-id pub-id-type="doi">10.11606/s1518-8787.2022056004329</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Original Article</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Obesity and COVID-19 in-hospital fatality in southern Brazil: impact by age and skin color</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-3401-2547</contrib-id>
+					<name>
+						<surname>Houvèssou</surname>
+						<given-names>Gbènankpon Mathias</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-5229-5697</contrib-id>
+					<name>
+						<surname>Leventhal</surname>
+						<given-names>Daniel G P</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-6347-6431</contrib-id>
+					<name>
+						<surname>Silva</surname>
+						<given-names>Eduardo Viegas da</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>I</label>
+				<institution content-type="orgname">Universidade Federal de Pelotas</institution>
+				<institution content-type="orgdiv1">Faculdade de Medicina</institution>
+				<institution content-type="orgdiv2">Programa de Pós-Graduação em Epidemiologia</institution>
+				<addr-line>
+					<named-content content-type="city">Pelotas</named-content>
+					<named-content content-type="state">RS</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Universidade Federal de Pelotas. Faculdade de Medicina. Programa de Pós-Graduação em Epidemiologia. Pelotas, RS, Brasil</institution>
+			</aff>
+			<aff id="aff2">
+				<label>II</label>
+				<institution content-type="orgname">Centro de Vigilância em Saúde do Estado do Rio Grande do Sul</institution>
+				<addr-line>
+					<named-content content-type="city">Porto Alegre</named-content>
+					<named-content content-type="state">RS</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Centro de Vigilância em Saúde do Estado do Rio Grande do Sul. Porto Alegre, RS, Brasil</institution>
+			</aff>
+			<author-notes>
+				<corresp id="c01"> Correspondence: Gbènankpon Mathias Houvèssou Rua Marachel Deodoro, 1.160 – terceiro andar 96020-220 Pelotas, RS, Brasil E-mail: <email>gbemathg@gmail.com</email>
+				</corresp>
+				<fn fn-type="con">
+					<p><bold>Authors’ Contributions:</bold> Study design and planning: GMH, EVS. Data collection, analysis and interpretation: GMH, DGPL, EVS. Manuscript drafting or review: GMH, DGPL, EVS. Approval of the final version: GMH, DGPL, EVS. Public responsibility for the content of the article: GMH, DGPL, EVS.</p>
+				</fn>
+				<fn fn-type="conflict">
+					<p><bold>Conflict of Interests:</bold> The authors declare no conflict of interest.</p>
+				</fn>
+			</author-notes>
+			<pub-date date-type="pub" publication-format="electronic">
+				<day>23</day>
+				<month>02</month>
+				<year>2022</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">
+				<year>2022</year>
+			</pub-date>
+			<volume>56</volume>
+			<elocation-id>4</elocation-id>
+			<history>
+				<date date-type="received">
+					<day>24</day>
+					<month>10</month>
+					<year>2021</year>
+				</date>
+				<date date-type="accepted">
+					<day>29</day>
+					<month>11</month>
+					<year>2021</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="en">
+					<license-p> This is an Open Access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. </license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>ABSTRACT</title>
+				<sec>
+					<title>OBJECTIVES</title>
+					<p> To estimate the relative risk (RR) of death associated with obesity, the attributable fraction in the exposed/with obesity (AF<sub>o</sub>), and the hospitalized population attributable risk (hospitalized PAR) associated with obesity of death among all adults and among Black and non-Black adults hospitalized for severe COVID-19 in the state of Rio Grande do Sul, Brazil.</p>
+				</sec>
+				<sec>
+					<title>METHODS</title>
+					<p> This retrospective cohort study of prognostic factors analyzed all cases of adults hospitalized for severe COVID-19 in the state of Rio Grande do Sul, Brazil. The occurrence of obesity was measured using secondary data from hospital teams’ surveillance records. The outcome assessed was hospital deaths caused by severe COVID-19. Poisson regression was used to estimate RRs and 95% confidence intervals (95%CI).</p>
+				</sec>
+				<sec>
+					<title>RESULTS</title>
+					<p> The study sample consisted of 100,099 patients hospitalized for severe COVID-19, most of whom were White (84.7%) and male (54.7%). The effect of obesity was strongly modified by age, being higher in younger age groups. For the 18–39-year-old age group, RR = 2.54 (95%CI: 2.33–2.77), and in individuals 70 years and above, RR = 1.09 (95%CI: 1.05–1.13). For the 18–39-year-old age range, AF<sub>o</sub> = 60.6% and AF<sub>o</sub> = 42.5% in individuals 40–59 years old. For all hospitalizations, Hospitalized PAR measuring obesity for individuals 18–39 years old was 25.3%, while in the 40–59-year-old range, the hospitalized PAR = 11.2%. The hospitalized PAR was 31.7% in the Black population aged 18–39 years and 24.8% in non-Blacks. The hospitalized PAR was also larger in Blacks aged 40-59 years.</p>
+				</sec>
+				<sec>
+					<title>CONCLUSIONS</title>
+					<p> Obesity largely impacted in-hospital case-fatality rates among young adults and Black people contaminated by COVID-19. These data highlight the extent of the risk concerning obesity, a highly prevalent chronic condition.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="en">
+				<kwd>COVID-19, mortality</kwd>
+				<kwd>Obesity</kwd>
+				<kwd>Race Factors</kwd>
+				<kwd>Hospitalization</kwd>
+				<kwd>Retrospective Studies</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="0"/>
+				<table-count count="5"/>
+				<equation-count count="0"/>
+				<ref-count count="29"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>INTRODUCTION</title>
+			<p>Since its original recognition in the city of Wuhan, Hubei province, China, in December, 2019<sup><xref ref-type="bibr" rid="B1">1</xref></sup>, the new coronavirus (SARS-CoV-2) has caused an elevated incidence of COVID-19 globally with catastrophic consequences. Among countries most affected, Brazil displayed the greatest mortality rate per 100,000 worldwide, in September, 2021<sup><xref ref-type="bibr" rid="B2">2</xref></sup>, with 580,413 deaths as of September 1, 2021<sup><xref ref-type="bibr" rid="B3">3</xref></sup>.</p>
+			<p>Chronic conditions, including diabetes mellitus, cardiovascular diseases, chronic pulmonary diseases and others<sup><xref ref-type="bibr" rid="B4">4</xref></sup>, are prognostic factors associated with the aggravation of cases and with an outcome of death by COVID-19<sup><xref ref-type="bibr" rid="B5">5</xref></sup>. Obesity commonly co-occurs with such morbidities, but it also makes independent contributions in causal mechanisms of the aggravation of infectious cases and of resultant death<sup><xref ref-type="bibr" rid="B6">6</xref></sup>. This risk factor has become a greater concern as obesity prevalence is increasing in almost all countries, reaching a global rate of 13.2% among adults in 2019<sup><xref ref-type="bibr" rid="B7">7</xref></sup> and affecting more than 650 million adults and 124 million children worldwide<sup><xref ref-type="bibr" rid="B8">8</xref></sup>. In Brazil, estimated prevalence in adults was 26.8% in 2019<sup><xref ref-type="bibr" rid="B9">9</xref></sup>.</p>
+			<p>Obesity is also increasingly being recognized as a prognostic factor for severe cases of COVID-19<sup><xref ref-type="bibr" rid="B10">10</xref></sup>. Studies reporting its relation with the case fatality rate from the disease reveal that obese people have a 3.04<sup><xref ref-type="bibr" rid="B11">11</xref></sup>, 3.78<sup><xref ref-type="bibr" rid="B12">12</xref></sup>, and 1.45<sup><xref ref-type="bibr" rid="B13">13</xref></sup> times greater risk of death compared to non-obese people. However, some discrepancies are observed. A prospective cohort study with 1,150 adults hospitalized with COVID-19 in New York did not find evidence of obesity being an independent risk factor for hospital death<sup><xref ref-type="bibr" rid="B14">14</xref></sup>, and a systematic review found an association between obesity and severe cases of the disease, but not with a greater mortality<sup><xref ref-type="bibr" rid="B15">15</xref></sup>.</p>
+			<p>Such studies did not estimate effect modification by obesity on the hospital case-fatality rate by COVID-19 according to age<sup><xref ref-type="bibr" rid="B11">11</xref></sup>, and only two studies<sup><xref ref-type="bibr" rid="B16">16</xref>,<xref ref-type="bibr" rid="B17">17</xref></sup> in the literature evaluated age as an effect modifier of obesity. Moreover, we found no studies estimating the risk of death attributable to obesity in the adult population hospitalized for COVID-19 nor in the Black and non-Black adult demographic subgroups hospitalized for COVID-19. This knowledge is important for identifying those groups for which obesity displays a greater attributable risk and for estimating its impact. Such information would improve health promotion activities aimed at vulnerable groups, especially since the prevalence of this risk factor is high and its distribution in middle-income countries<sup><xref ref-type="bibr" rid="B18">18</xref></sup> is unequal.</p>
+			<p>This study aimed to estimate the relative risk associated with obesity for death among adults hospitalized for COVID-19 in the state of Rio Grande do Sul (RS), Brazil. The study also aimed to test the hypothesis of modification of the association according to age, to estimate the hospitalized population attributable risk (hospitalized PAR) with obesity, as well as that among Black and non-Black people hospitalized for COVID-19 in RS.</p>
+		</sec>
+		<sec sec-type="methods">
+			<title>METHODS</title>
+			<sec>
+				<title>Participants and Data Sources</title>
+				<p>This retrospective cohort study of prognostic factors analyzed cases hospitalized for severe COVID-19 of residents in the state of Rio Grande do Sul, which is located in the South of Brazil and has an estimated population of 11,466,630 inhabitants for the year 2021<sup><xref ref-type="bibr" rid="B19">19</xref></sup>. Secondary data of hospitalizations notified in the <italic>Sistema de Vigilância Epidemiológica da Gripe</italic> (SIVEP Gripe – Influenza Epidemiological Surveillance Information System) of the Ministry of Health were used. The analytical sample included confirmed hospitalizations for severe COVID-19 occurring since the beginning of the pandemic, for individuals 18 years or older, who had a recorded outcome of hospitalization (discharge or death) by 9/20/2021. Cases of severe COVID-19 were notified from public and private health facilities. Data on the origin of case notifications were obtained from the <italic>Cadastro Nacional de Estabelecimentos de Saúde</italic> (CNES – National Health Facility Registry) website<sup><xref ref-type="bibr" rid="B20">20</xref></sup>.</p>
+				<p>The primary instrument of data collection by health facility teams was the compulsory notification sheet of cases of hospitalized severe COVID-19 for the SIVEP Gripe. Cases of severe COVID-19 are defined as individuals with flu-like illness (acute respiratory illness, characterized by at least two of the following signs and symptoms: fever, chills, sore throat, headache, cough, runny nose, loss of smell or taste) who present with dyspnea/respiratory discomfort, persistent pressure in the thorax, O<sub>2</sub> saturation less than 95% in ambient air, or blueness in the lips or face<sup><xref ref-type="bibr" rid="B21">21</xref></sup>.</p>
+			</sec>
+			<sec>
+				<title>Exposure Assessed</title>
+				<p>The occurrence of obesity was primarily measured by health facility teams observing individuals’ medical records. SIVEP Gripe’s notification sheet contains, in field 35, the question <italic>“Does the patient possess any risk factors/comorbidities? If yes, which ones? (Mark x)”</italic> followed by a list of 12 comorbidities to be measured, obesity being one of them<sup><xref ref-type="bibr" rid="B21">21</xref></sup>. After filling out this form, data are typed into the online information system. As a result of the format of the question in the notification sheet (marking “x” only for the comorbidities present), individuals with a marking on the variable “Obesity” with the category “Yes” were considered to have obesity, while individuals marked with the category “No” or with the field “Blank” were considered non-obese. Finally, individuals marked with the category “Ignored” were excluded from the analyses.</p>
+			</sec>
+			<sec>
+				<title>Outcome</title>
+				<p>The outcome assessed was hospital death caused by COVID-19. The variable collected in the SIVEP Gripe contains three valid categories: hospital discharge (recovery)/death/death by other causes. Individuals who progressed to death by other causes (cases of severe COVID-19 whose subsequent death was not related to COVID-19) were excluded from the analytical sample, and the outcome was dichotomized into hospital discharge/death.</p>
+			</sec>
+			<sec>
+				<title>Covariates Used in the Multivariable Adjustment</title>
+				<p>The demographic covariates gender (female/male) and self-declared skin color (White/Black/Mixed-race/Yellow/Indigenous/Not informed), postpartum women (no/yes), comorbidities at least weakly associated with hospital death caused by COVID-19 in the study sample (p &lt; 0.20) (asthma, diabetes mellitus, chronic cardiovascular diseases, hematologic diseases, hepatic diseases, chronic neurological disease, chronic renal diseases, other pneumopathy, immunodeficiency diseases and Down syndrome), and the hospital region of residence were considered as potential confounders of the association between obesity and death.</p>
+				<p>In the initial stages of the pandemic response, the state was divided into 21 hospital regions to organize the referral network for the occupation of Intensive Care Unit (ICU) beds and for monitoring health system capacity. Considering the variability between regions, the COVID-19 region of residence was inserted into the multivariable adjustment with fixed effects.</p>
+				<p>The age range was evaluated as an effect modifier, stratified into four categories: 18–39 years, 40–59 years, 60–69 years, and 70 or more years.</p>
+			</sec>
+			<sec>
+				<title>Statistical Analysis</title>
+				<p>The analytical sample was described with absolute and relative frequencies. Bivariate analysis (between the exposure and the covariates, and between the outcome and the covariates) was conducted using a chi-squared test of heterogeneity. A Poisson regression was employed to estimate crude and adjusted relative risks (RR), with 95% confidence intervals (95%CI). A likelihood ratio test was utilized to assess the level of statistical significance of the interaction term between obesity and age range. The multicollinearity of the final model was tested using the variance inflation factor.</p>
+				<p>A sensitivity analysis with model adjustment was conducted without including the comorbidities diabetes mellitus and chronic cardiovascular disease, which could function as mediators of the effect of obesity on the outcome, in order to evaluate their influence over the association of interest. To measure the impact of obesity over the hospital case-fatality rate in the population of adults hospitalized for COVID-19 in Rio Grande do Sul, we calculated the attributable fraction in the exposed — or with obesity (AF<sub>o</sub>) (<inline-formula>
+						<mml:math>
+							<mml:mi>A</mml:mi>
+							<mml:mi>F</mml:mi>
+							<mml:mi>o</mml:mi>
+							<mml:mi>
+							</mml:mi>
+							<mml:mo>=</mml:mo>
+							<mml:mi>
+							</mml:mi>
+							<mml:mn>1</mml:mn>
+							<mml:mi>
+							</mml:mi>
+							<mml:mo>-</mml:mo>
+							<mml:mi>
+							</mml:mi>
+							<mml:mo>(</mml:mo>
+							<mml:mn>1</mml:mn>
+							<mml:mo>/</mml:mo>
+							<mml:mi>R</mml:mi>
+							<mml:mi>R</mml:mi>
+							<mml:mo>)</mml:mo>
+						</mml:math>
+					</inline-formula>). Being this a census for all hospitalized cases for COVID-19 in the state, the prevalence of obesity of the sample, for each age range, was considered to be the prevalence in this hospitalized population (Pe), and the hospitalized population attributable risk <inline-formula>
+						<mml:math>
+							<mml:mrow>
+								<mml:mi>P</mml:mi>
+								<mml:mi>A</mml:mi>
+								<mml:mi>R</mml:mi>
+							</mml:mrow>
+							<mml:mo>=</mml:mo>
+							<mml:msup>
+								<mml:mrow>
+									<mml:mi>P</mml:mi>
+									<mml:mi>e</mml:mi>
+								</mml:mrow>
+								<mml:mrow>
+									<mml:mo>∗</mml:mo>
+								</mml:mrow>
+							</mml:msup>
+							<mml:mfrac>
+								<mml:mrow>
+									<mml:mrow>
+										<mml:mi>R</mml:mi>
+										<mml:mi>R</mml:mi>
+									</mml:mrow>
+									<mml:mo>−</mml:mo>
+									<mml:mn>1</mml:mn>
+								</mml:mrow>
+								<mml:mrow>
+									<mml:mi>P</mml:mi>
+									<mml:mi>e</mml:mi>
+									<mml:mrow>
+										<mml:mo>∗</mml:mo>
+									</mml:mrow>
+									<mml:mo>(</mml:mo>
+									<mml:mrow>
+										<mml:mi>R</mml:mi>
+										<mml:mi>R</mml:mi>
+									</mml:mrow>
+									<mml:mo>−</mml:mo>
+									<mml:mn>1</mml:mn>
+									<mml:mo>)</mml:mo>
+									<mml:mo>+</mml:mo>
+									<mml:mn>1</mml:mn>
+								</mml:mrow>
+							</mml:mfrac>
+						</mml:math>
+					</inline-formula>, a measurement of the impact of obesity over the hospital case-fatality rate, was also calculated. Such measures aim to scale the impact of obesity as a prognostic factor in the group of cases of severe COVID-19. Moreover, the hospitalized PAR was calculated separately for Black people (those who declared themselves Black or Mixed-race) and other skin colors (White/Indigenous/Yellow) to observe the differential impact of obesity among Blacks and non-Blacks. In this analysis the category “not informed” for skin color was excluded. All analyses were conducted using Stata 14.0 software (Stata Corp., College Station, Texas, USA) and with a 95% significance level.</p>
+			</sec>
+			<sec>
+				<title>Ethical Considerations</title>
+				<p>The secondary data utilized from SIVEP Gripe are de-identified and publicly available on the OpenDataSUS website<sup><xref ref-type="bibr" rid="B22">22</xref></sup> maintained by the Ministry of Health. This study used aggregated data, with very little risk to participants.</p>
+			</sec>
+		</sec>
+		<sec sec-type="results">
+			<title>RESULTS</title>
+			<p>From the beginning of the COVID-19 pandemic until September 20, 2021, 108,293 hospitalizations for severe COVID-19 were recorded in the state of Rio Grande do Sul, Brazil. Among the 107,369 occurring in people aged 18 years or older, 98 progressed to death by other causes, 6,446 and 726 did not possess information on the studied outcome and exposure, respectively, on the date the database was accessed, leaving 100,099 hospitalizations in the analytical sample. Additionally, 38.98% of cases in the analytical sample were notified by public health facilities, 8.33% by private facilities, and 52.68% were notified by mixed health facilities (serving public and private).</p>
+			<p>The sample was mostly White (84.7%) and male (54.7%). Among the age strata generated by the analysis, 13.6% of the sample was between 18 and 39 years old, 36.7% between 40 and 59 years, 21.1% between 60 and 69 years, and 28.6% was 70 years or older. The most prevalent comorbidities were chronic cardiovascular disease (34.9%) and diabetes mellitus (24.0%) (<xref ref-type="table" rid="t1">Table 1</xref>).</p>
+			<p>
+				<table-wrap id="t1">
+					<label>Table 1</label>
+					<caption>
+						<title>Characteristics of individuals aged 18 and over hospitalized for severe COVID-19 as of September 20, 2021, in the state of Rio Grande do Sul, Brazil. (n = 100,099).</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th rowspan="3" scope="col">Variables</th>
+								<th rowspan="3" scope="col">Sample (total) n (%)</th>
+								<th colspan="4" scope="col">Age (ranges</th>
+							</tr>
+							<tr>
+								<th colspan="4" scope="col">
+									<hr/>
+								</th>
+							</tr>
+							<tr>
+								<th scope="col">18–39 (years) n (%)</th>
+								<th scope="col">40–59 (years) n (%)</th>
+								<th scope="col">60–69 (years) n (%)</th>
+								<th scope="col">70 (years or older) n (%)</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Gender</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Female</td>
+								<td align="center">45,380 (45.34)</td>
+								<td align="center">6,024 (44.09)</td>
+								<td align="center">15,376 (41.86)</td>
+								<td align="center">9,515 (45.08)</td>
+								<td align="center">14,465 (50.59)</td>
+							</tr>
+							<tr>
+								<td>Male</td>
+								<td align="center">54,719 (54.66)</td>
+								<td align="center">7,640 (55.91)</td>
+								<td align="center">21,359 (58.14)</td>
+								<td align="center">11,592 (54.92)</td>
+								<td align="center">14,128 (49.41)</td>
+							</tr>
+							<tr>
+								<td>Skin color</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>White</td>
+								<td align="center">84,796 (84.71)</td>
+								<td align="center">11,437 (83.70)</td>
+								<td align="center">30,948 (84.25)</td>
+								<td align="center">17,842 (84.53)</td>
+								<td align="center">24,569 (85.93)</td>
+							</tr>
+							<tr>
+								<td>Black</td>
+								<td align="center">4,054 (4.05)</td>
+								<td align="center">623 (4.56)</td>
+								<td align="center">1,485 (4.04)</td>
+								<td align="center">906 (4.29)</td>
+								<td align="center">1,040 (3.64)</td>
+							</tr>
+							<tr>
+								<td>Mixed-race</td>
+								<td align="center">3,903 (3.90)</td>
+								<td align="center">599 (4.38)</td>
+								<td align="center">1,567 (4.27)</td>
+								<td align="center">825 (3.91)</td>
+								<td align="center">912 (3.19)</td>
+							</tr>
+							<tr>
+								<td>Yellow</td>
+								<td align="center">258 (0.26)</td>
+								<td align="center">52 (0.38)</td>
+								<td align="center">93 (0.25)</td>
+								<td align="center">47 (0.22)</td>
+								<td align="center">66 (0.23)</td>
+							</tr>
+							<tr>
+								<td>Indigenous</td>
+								<td align="center">173 (0.17)</td>
+								<td align="center">37 (0.27)</td>
+								<td align="center">59 (0.16)</td>
+								<td align="center">35 (0.17)</td>
+								<td align="center">42 (0.15)</td>
+							</tr>
+							<tr>
+								<td>Not informed</td>
+								<td align="center">6,915 (6.91)</td>
+								<td align="center">916 (6.70)</td>
+								<td align="center">2,583 (7.03)</td>
+								<td align="center">1,452 (6.88)</td>
+								<td align="center">1,964 (6.87)</td>
+							</tr>
+							<tr>
+								<td>Asthma</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">95,982 (95.89)</td>
+								<td align="center">12,775 (93.49)</td>
+								<td align="center">35,272 (96.02)</td>
+								<td align="center">20,343 (96.38)</td>
+								<td align="center">27,592 (96.50)</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">4,117 (4.11)</td>
+								<td align="center">889 (6.51)</td>
+								<td align="center">1,463 (3.98)</td>
+								<td align="center">764 (3.62)</td>
+								<td align="center">1,001 (3.50)</td>
+							</tr>
+							<tr>
+								<td>Diabetes</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">76,066 (75.99)</td>
+								<td align="center">12,791 (93.61)</td>
+								<td align="center">30,002 (81.67)</td>
+								<td align="center">14,106 (66.83)</td>
+								<td align="center">19,167 (67.03)</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">24,033 (24.01)</td>
+								<td align="center">873 (6.39)</td>
+								<td align="center">6,733 (18.33)</td>
+								<td align="center">7,001 (33.17)</td>
+								<td align="center">9,426 (32.97)</td>
+							</tr>
+							<tr>
+								<td>Cardiovascular diseases</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">65,160 (65.10)</td>
+								<td align="center">12,485 (91.37)</td>
+								<td align="center">27,431 (74.67)</td>
+								<td align="center">11,861 (56.19)</td>
+								<td align="center">13,383 (46.81)</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">34,939 (34.90)</td>
+								<td align="center">1,179 (8.63)</td>
+								<td align="center">9,304 (25.33)</td>
+								<td align="center">9,246 (43.81)</td>
+								<td align="center">15,210 (54.19)</td>
+							</tr>
+							<tr>
+								<td>Hematologic diseases</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">99,327 (99.23)</td>
+								<td align="center">13,595 (99.50)</td>
+								<td align="center">36,536 (99.46)</td>
+								<td align="center">20,933 (99.18)</td>
+								<td align="center">28,263 (98.85)</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">772 (0.77)</td>
+								<td align="center">69 (0.50)</td>
+								<td align="center">199 (0.54)</td>
+								<td align="center">174 (0.82)</td>
+								<td align="center">330 (1.15)</td>
+							</tr>
+							<tr>
+								<td>Hepatic diseases</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">98,945 (98.85)</td>
+								<td align="center">13,595 (99.50)</td>
+								<td align="center">36,342 (98.93)</td>
+								<td align="center">20,757 (98.34)</td>
+								<td align="center">28,251 (98.80)</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">1,154 (1.15)</td>
+								<td align="center">69 (0.50)</td>
+								<td align="center">393 (1.07)</td>
+								<td align="center">350 (1.66)</td>
+								<td align="center">342 (1.20)</td>
+							</tr>
+							<tr>
+								<td>Neurological diseases</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">94,797 (94.70)</td>
+								<td align="center">13,408 (98.13)</td>
+								<td align="center">35,962 (97.90)</td>
+								<td align="center">20,253 (95.95)</td>
+								<td align="center">25,174 (88.04)</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">5,302 (5.30)</td>
+								<td align="center">256 (1.87)</td>
+								<td align="center">773 (2.10)</td>
+								<td align="center">854 (4.05)</td>
+								<td align="center">3,419 (11.96)</td>
+							</tr>
+							<tr>
+								<td>Chronic renal diseases</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">96,315 (96.22)</td>
+								<td align="center">13,455 (98.47)</td>
+								<td align="center">35,826 (97.53)</td>
+								<td align="center">20,147 (95.45)</td>
+								<td align="center">26,887 (94.03)</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">3,784 (3.78)</td>
+								<td align="center">209 (1.53)</td>
+								<td align="center">909 (2.47)</td>
+								<td align="center">960 (4.55)</td>
+								<td align="center">1,706 (5.97)</td>
+							</tr>
+							<tr>
+								<td>Other pneumopathy</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">94,882 (94.78)</td>
+								<td align="center">13,488 (98.71)</td>
+								<td align="center">35,932 (97.81)</td>
+								<td align="center">19,701 (93.34)</td>
+								<td align="center">25,761 (90.10)</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">5,217 (5.22)</td>
+								<td align="center">176 (1.29)</td>
+								<td align="center">803 (2.19)</td>
+								<td align="center">1,406 (6.66)</td>
+								<td align="center">2,832 (9.90)</td>
+							</tr>
+							<tr>
+								<td>Immunodeficiency diseases</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">96,783 (96.69)</td>
+								<td align="center">13,318 (97.47)</td>
+								<td align="center">35,610 (96.94)</td>
+								<td align="center">20,262 (96.00)</td>
+								<td align="center">27,593 (96.50)</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">3,316 (3.31)</td>
+								<td align="center">346 (2.53)</td>
+								<td align="center">1,125 (3.06)</td>
+								<td align="center">845 (4.00)</td>
+								<td align="center">1,000 (3.50)</td>
+							</tr>
+							<tr>
+								<td>Postpartum women</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">99,893 (99.79)</td>
+								<td align="center">13,472 (98.59)</td>
+								<td align="center">36,723 (99.97)</td>
+								<td align="center">21,107 (100.00)</td>
+								<td align="center">28,591 (99.99)</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">206 (0.21)</td>
+								<td align="center">192 (1.41)</td>
+								<td align="center">12 (0.03)</td>
+								<td align="center">0 (0.00)</td>
+								<td align="center">2 (0.01)</td>
+							</tr>
+							<tr>
+								<td>Down syndrome</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">99,821 (99.72)</td>
+								<td align="center">13,574 (99.34)</td>
+								<td align="center">36,636 (99.73)</td>
+								<td align="center">21,058 (99.77)</td>
+								<td align="center">28,553 (99.86)</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">278 (0.28)</td>
+								<td align="center">90 (0.66)</td>
+								<td align="center">99 (0.27)</td>
+								<td align="center">49 (0.23)</td>
+								<td align="center">40 (0.14)</td>
+							</tr>
+							<tr>
+								<td>Total</td>
+								<td align="center">100,099</td>
+								<td align="center">13,664 (13.65)</td>
+								<td align="center">36,735 (36.70)</td>
+								<td align="center">21,107 (21.09)</td>
+								<td align="center">28,593 (28.56)</td>
+							</tr>
+						</tbody>
+					</table>
+				</table-wrap>
+			</p>
+			<p>The overall prevalence of obesity was 14.4%, 22.0% among individuals aged 18-39 years, 17.1% among individuals 40–59 years old, 13.7% among individuals aged 60–69 years, and 7.8% for those aged 70 and up. Women (16.5%), Black and Mixed-race people (18.7%), and those with the chronic conditions Down syndrome (28.8%), asthma (26.0%), and diabetes mellitus (18.9%) exhibited the highest prevalence (<xref ref-type="table" rid="t2">Table 2</xref>).</p>
+			<p>
+				<table-wrap id="t2">
+					<label>Table 2</label>
+					<caption>
+						<title>Prevalence of obesity according to characteristics of individuals aged 18 and over hospitalized for severe COVID-19 as of September 20, 2021, in the state of Rio Grande do Sul, Brazil (n = 100,099).</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th rowspan="3" scope="col">Variables</th>
+								<th rowspan="3" scope="col">Total sample % p</th>
+								<th colspan="5" scope="col">Age ranges</th>
+							</tr>
+							<tr>
+								<th colspan="5" scope="col">
+									<hr/>
+								</th>
+							</tr>
+							<tr>
+								<th scope="col">18–39 years % p</th>
+								<th scope="col">40–59 years % p</th>
+								<th scope="col">60–69 years % p</th>
+								<th colspan="2" scope="col">70 years or older % p</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Gender</td>
+								<td align="center">&lt; 0.001</td>
+								<td align="center">&lt; 0.001</td>
+								<td align="center" colspan="2">&lt; 0.001</td>
+								<td align="center">&lt; 0.001</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>Female</td>
+								<td align="center">16.51</td>
+								<td align="center">24.22</td>
+								<td align="center" colspan="2">19.84</td>
+								<td align="center">16.46</td>
+								<td align="center">9.81</td>
+							</tr>
+							<tr>
+								<td>Male</td>
+								<td align="center">12.65</td>
+								<td align="center">20.20</td>
+								<td align="center" colspan="2">15.14</td>
+								<td align="center">11.46</td>
+								<td align="center">5.77</td>
+							</tr>
+							<tr>
+								<td>Skin color</td>
+								<td align="center">&lt; 0.001</td>
+								<td align="center">&lt; 0.001</td>
+								<td align="center" colspan="2">&lt; 0.001</td>
+								<td align="center">0.151</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>White</td>
+								<td align="center">14.10</td>
+								<td align="center">21.50</td>
+								<td align="center" colspan="2">16.66</td>
+								<td align="center">13.75</td>
+								<td align="center">7.70</td>
+							</tr>
+							<tr>
+								<td>Black</td>
+								<td align="center">18.55</td>
+								<td align="center">29.37</td>
+								<td align="center" colspan="2">22.02</td>
+								<td align="center">15.56</td>
+								<td align="center">9.71</td>
+							</tr>
+							<tr>
+								<td>Mixed-race</td>
+								<td align="center">18.81</td>
+								<td align="center">28.21</td>
+								<td align="center" colspan="2">22.21</td>
+								<td align="center">14.42</td>
+								<td align="center">10.75</td>
+							</tr>
+							<tr>
+								<td>Yellow</td>
+								<td align="center">15.12</td>
+								<td align="center">19.23</td>
+								<td align="center" colspan="2">13.98</td>
+								<td align="center">12.77</td>
+								<td align="center">15.15</td>
+							</tr>
+							<tr>
+								<td>Indigenous</td>
+								<td align="center">13.29</td>
+								<td align="center">5.41</td>
+								<td align="center" colspan="2">25.42</td>
+								<td align="center">8.57</td>
+								<td align="center">7.14</td>
+							</tr>
+							<tr>
+								<td>Not informed</td>
+								<td align="center">13.12</td>
+								<td align="center">19.54</td>
+								<td align="center" colspan="2">16.49</td>
+								<td align="center">11.85</td>
+								<td align="center">6.62</td>
+							</tr>
+							<tr>
+								<td>Asthma</td>
+								<td align="center">&lt; 0.001</td>
+								<td align="center">&lt; 0.001</td>
+								<td align="center" colspan="2">&lt; 0.001</td>
+								<td align="center">&lt; 0.001</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">13.90</td>
+								<td align="center">21.17</td>
+								<td align="center" colspan="2">16.57</td>
+								<td align="center">13.34</td>
+								<td align="center">7.54</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">25.97</td>
+								<td align="center">33.41</td>
+								<td align="center" colspan="2">30.01</td>
+								<td align="center">23.56</td>
+								<td align="center">15.28</td>
+							</tr>
+							<tr>
+								<td>Diabetes</td>
+								<td align="center">&lt; 0.001</td>
+								<td align="center">&lt; 0.001</td>
+								<td align="center" colspan="2">&lt; 0.001</td>
+								<td align="center">&lt; 0.001</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">12.97</td>
+								<td align="center">20.73</td>
+								<td align="center" colspan="2">15.00</td>
+								<td align="center">11.10</td>
+								<td align="center">5.96</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">18.94</td>
+								<td align="center">40,09</td>
+								<td align="center" colspan="2">26.48</td>
+								<td align="center">18.97</td>
+								<td align="center">11.57</td>
+							</tr>
+							<tr>
+								<td>Cardiovascular diseases</td>
+								<td align="center">&lt; 0.001</td>
+								<td align="center">&lt; 0.001</td>
+								<td align="center" colspan="2">&lt; 0.001</td>
+								<td align="center">&lt; 0.001</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">12.85</td>
+								<td align="center">20.04</td>
+								<td align="center" colspan="2">14.22</td>
+								<td align="center">10.35</td>
+								<td align="center">5.53</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">17.29</td>
+								<td align="center">42.41</td>
+								<td align="center" colspan="2">25.60</td>
+								<td align="center">18.02</td>
+								<td align="center">9.82</td>
+							</tr>
+							<tr>
+								<td>Hematologic diseases</td>
+								<td align="center">0.850</td>
+								<td align="center">0.529</td>
+								<td align="center" colspan="2">0.712</td>
+								<td align="center">0.043</td>
+								<td align="center">0.282</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">14.40</td>
+								<td align="center">21.99</td>
+								<td align="center" colspan="2">17.10</td>
+								<td align="center">13.67</td>
+								<td align="center">7.79</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">14.64</td>
+								<td align="center">18.84</td>
+								<td align="center" colspan="2">18.09</td>
+								<td align="center">18.97</td>
+								<td align="center">9.39</td>
+							</tr>
+							<tr>
+								<td>Hepatic diseases</td>
+								<td align="center">0.319</td>
+								<td align="center">0.592</td>
+								<td align="center" colspan="2">0.188</td>
+								<td align="center">0,209</td>
+								<td align="center">0.795</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">14.39</td>
+								<td align="center">21.96</td>
+								<td align="center" colspan="2">17.08</td>
+								<td align="center">13.67</td>
+								<td align="center">7.71</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">15.42</td>
+								<td align="center">24.64</td>
+								<td align="center" colspan="2">19.59</td>
+								<td align="center">16.00</td>
+								<td align="center">8.19</td>
+							</tr>
+							<tr>
+								<td>Neurological diseases</td>
+								<td align="center">&lt; 0.001</td>
+								<td align="center">0.237</td>
+								<td align="center" colspan="2">0.789</td>
+								<td align="center">0.032</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">14.72</td>
+								<td align="center">21.91</td>
+								<td align="center" colspan="2">17.10</td>
+								<td align="center">13.82</td>
+								<td align="center">8.21</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">8.71</td>
+								<td align="center">25.00</td>
+								<td align="center" colspan="2">17.46</td>
+								<td align="center">11.24</td>
+								<td align="center">4.88</td>
+							</tr>
+							<tr>
+								<td>Chronic renal diseases</td>
+								<td align="center">0.675</td>
+								<td align="center">0.877</td>
+								<td align="center" colspan="2">0.488</td>
+								<td align="center">0,140</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">14.41</td>
+								<td align="center">21.98</td>
+								<td align="center" colspan="2">17.08</td>
+								<td align="center">13.63</td>
+								<td align="center">7.64</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">14.16</td>
+								<td align="center">21.53</td>
+								<td align="center" colspan="2">18.04</td>
+								<td align="center">15.31</td>
+								<td align="center">10.55</td>
+							</tr>
+							<tr>
+								<td>Other pneumopathy</td>
+								<td align="center">0.016</td>
+								<td align="center">0.038</td>
+								<td align="center" colspan="2">&lt; 0.001</td>
+								<td align="center">0,305</td>
+								<td align="center">0.001</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">14.46</td>
+								<td align="center">21.89</td>
+								<td align="center" colspan="2">16.94</td>
+								<td align="center">13.78</td>
+								<td align="center">7.64</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">13.26</td>
+								<td align="center">28.41</td>
+								<td align="center" colspan="2">24.41</td>
+								<td align="center">12.80</td>
+								<td align="center">9.39</td>
+							</tr>
+							<tr>
+								<td>Immunodeficiency diseases</td>
+								<td align="center">&lt; 0.001</td>
+								<td align="center">&lt; 0.001</td>
+								<td align="center" colspan="2">&lt; 0.001</td>
+								<td align="center">0,157</td>
+								<td align="center">0.115</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">14.54</td>
+								<td align="center">22.18</td>
+								<td align="center" colspan="2">17.29</td>
+								<td align="center">13.78</td>
+								<td align="center">7.86</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">10.34</td>
+								<td align="center">13.87</td>
+								<td align="center" colspan="2">11.38</td>
+								<td align="center">12.07</td>
+								<td align="center">6.50</td>
+							</tr>
+							<tr>
+								<td>Postpartum women</td>
+								<td align="center">0.597</td>
+								<td align="center">0.005</td>
+								<td align="center" colspan="2">0,420</td>
+								<td align="center">---</td>
+								<td align="center">0.681</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">14.40</td>
+								<td align="center">22.09</td>
+								<td align="center" colspan="2">17.11</td>
+								<td align="center">13.71</td>
+								<td align="center">7.81</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">13.11</td>
+								<td align="center">13.54</td>
+								<td align="center" colspan="2">8.33</td>
+								<td align="center">0.00</td>
+								<td align="center">0.00</td>
+							</tr>
+							<tr>
+								<td>Down syndrome</td>
+								<td align="center">&lt; 0.001</td>
+								<td align="center">0.001</td>
+								<td align="center" colspan="2">0,059</td>
+								<td align="center">0.001</td>
+								<td align="center">0.004</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">14.36</td>
+								<td align="center">21.87</td>
+								<td align="center" colspan="2">17.09</td>
+								<td align="center">13.67</td>
+								<td align="center">7.80</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">28.78</td>
+								<td align="center">36.67</td>
+								<td align="center" colspan="2">24.24</td>
+								<td align="center">30.61</td>
+								<td align="center">20.00</td>
+							</tr>
+							<tr>
+								<td>Total</td>
+								<td align="center">14.40</td>
+								<td align="center">21.97</td>
+								<td align="center" colspan="2">17.11</td>
+								<td align="center">13.71</td>
+								<td align="center">7.81</td>
+							</tr>
+						</tbody>
+					</table>
+				</table-wrap>
+			</p>
+			<p>The overall in-hospital case fatality rate by COVID-19 was 33.1%, varying from 12.3% in 18-39-year-olds up to 53.9% in people aged 70 and older. Women had a slightly greater in-hospital case fatality rate (33.4%) compared to men (32.8%). Black people displayed the greatest in-hospital case fatality rate among all valid skin color categories. Individuals with several chronic conditions presented with a higher in-hospital case fatality rate. Those with neurological disease, who were generally of more advanced age and who possibly resided more frequently in long-term care institutions for older people, displayed the greatest in-hospital case fatality rate (60.0%) (<xref ref-type="table" rid="t3">Table 3</xref>).</p>
+			<p>
+				<table-wrap id="t3">
+					<label>Table 3</label>
+					<caption>
+						<title>Case fatality rate for COVID-19 according to characteristics of individuals aged 18 years or older hospitalized for severe COVID-19 as of September 20, 2021, in the state of Rio Grande do Sul, Brazil (n = 100,099).</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th rowspan="3" scope="col">Variables</th>
+								<th rowspan="3" scope="col">Total sample % p</th>
+								<th colspan="5" scope="col">Age ranges</th>
+							</tr>
+							<tr>
+								<th colspan="5" scope="col">
+									<hr/>
+								</th>
+							</tr>
+							<tr>
+								<th scope="col">18–39 years % p</th>
+								<th scope="col">40–59 years % p</th>
+								<th scope="col">60–69 years % p</th>
+								<th colspan="2" scope="col">70 years or older % p</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Gender</td>
+								<td align="center">0.036</td>
+								<td align="center">0.216</td>
+								<td align="center" colspan="2">0,188</td>
+								<td align="center">0.001</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>Female</td>
+								<td align="center">33.39</td>
+								<td align="center">12.65</td>
+								<td align="center" colspan="2">22.23</td>
+								<td align="center">36.49</td>
+								<td align="center">51.86</td>
+							</tr>
+							<tr>
+								<td>Male</td>
+								<td align="center">32.77</td>
+								<td align="center">11.95</td>
+								<td align="center" colspan="2">21.65</td>
+								<td align="center">38.79</td>
+								<td align="center">55.88</td>
+							</tr>
+							<tr>
+								<td>Skin color</td>
+								<td align="center">&lt; 0.001</td>
+								<td align="center">&lt; 0.001</td>
+								<td align="center" colspan="2">&lt; 0.001</td>
+								<td align="center">&lt; 0.001</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>White</td>
+								<td align="center">32.32</td>
+								<td align="center">11.71</td>
+								<td align="center" colspan="2">21.28</td>
+								<td align="center">36.45</td>
+								<td align="center">52.83</td>
+							</tr>
+							<tr>
+								<td>Black</td>
+								<td align="center">38.21</td>
+								<td align="center">15.25</td>
+								<td align="center" colspan="2">25.93</td>
+								<td align="center">47.46</td>
+								<td align="center">61.44</td>
+							</tr>
+							<tr>
+								<td>Mixed-race</td>
+								<td align="center">35.95</td>
+								<td align="center">17.20</td>
+								<td align="center" colspan="2">26.61</td>
+								<td align="center">43.15</td>
+								<td align="center">57.79</td>
+							</tr>
+							<tr>
+								<td>Yellow</td>
+								<td align="center">36.43</td>
+								<td align="center">19.23</td>
+								<td align="center" colspan="2">20.43</td>
+								<td align="center">57.45</td>
+								<td align="center">57.58</td>
+							</tr>
+							<tr>
+								<td>Indigenous</td>
+								<td align="center">28.90</td>
+								<td align="center">5.41</td>
+								<td align="center" colspan="2">13.56</td>
+								<td align="center">40.00</td>
+								<td align="center">61.90</td>
+							</tr>
+							<tr>
+								<td>Not informed</td>
+								<td align="center">37.30</td>
+								<td align="center">13.76</td>
+								<td align="center" colspan="2">24.35</td>
+								<td align="center">43.87</td>
+								<td align="center">60.44</td>
+							</tr>
+							<tr>
+								<td>Asthma</td>
+								<td align="center">&lt; 0.001</td>
+								<td align="center">0.004</td>
+								<td align="center" colspan="2">0.085</td>
+								<td align="center">0.345</td>
+								<td align="center">0.003</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">33.16</td>
+								<td align="center">12.05</td>
+								<td align="center" colspan="2">21.82</td>
+								<td align="center">37.81</td>
+								<td align="center">54.01</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">30.41</td>
+								<td align="center">15.30</td>
+								<td align="center" colspan="2">23.72</td>
+								<td align="center">36.13</td>
+								<td align="center">49.25</td>
+							</tr>
+							<tr>
+								<td>Diabetes</td>
+								<td align="center">&lt; 0.001</td>
+								<td align="center">&lt; 0.001</td>
+								<td align="center" colspan="2">&lt; 0.001</td>
+								<td align="center">&lt; 0.001</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">29.03</td>
+								<td align="center">11.16</td>
+								<td align="center" colspan="2">19.62</td>
+								<td align="center">33.97</td>
+								<td align="center">52.06</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">45.76</td>
+								<td align="center">28.41</td>
+								<td align="center" colspan="2">32.02</td>
+								<td align="center">45.36</td>
+								<td align="center">57.48</td>
+							</tr>
+							<tr>
+								<td>Cardiovascular diseases</td>
+								<td align="center">&lt; 0.001</td>
+								<td align="center">&lt; 0.001</td>
+								<td align="center" colspan="2">&lt; 0.001</td>
+								<td align="center">&lt; 0.001</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">27.28</td>
+								<td align="center">11.22</td>
+								<td align="center" colspan="2">19.60</td>
+								<td align="center">34.69</td>
+								<td align="center">51.42</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">43.82</td>
+								<td align="center">23.24</td>
+								<td align="center" colspan="2">28.67</td>
+								<td align="center">41.67</td>
+								<td align="center">55.98</td>
+							</tr>
+							<tr>
+								<td>Hematologic diseases</td>
+								<td align="center">&lt; 0.001</td>
+								<td align="center">&lt; 0.001</td>
+								<td align="center" colspan="2">&lt; 0.001</td>
+								<td align="center">&lt; 0.001</td>
+								<td align="center">0.001</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">32.89</td>
+								<td align="center">12.14</td>
+								<td align="center" colspan="2">21.78</td>
+								<td align="center">37.59</td>
+								<td align="center">53.74</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">54.02</td>
+								<td align="center">36.23</td>
+								<td align="center" colspan="2">42.21</td>
+								<td align="center">57.47</td>
+								<td align="center">63.03</td>
+							</tr>
+							<tr>
+								<td>Hepatic diseases</td>
+								<td align="center">&lt; 0.001</td>
+								<td align="center">&lt; 0.001</td>
+								<td align="center" colspan="2">&lt; 0.001</td>
+								<td align="center">&lt; 0.001</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">32.79</td>
+								<td align="center">12.13</td>
+								<td align="center" colspan="2">21.65</td>
+								<td align="center">37.38</td>
+								<td align="center">53.68</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">55.63</td>
+								<td align="center">37.68</td>
+								<td align="center" colspan="2">44.78</td>
+								<td align="center">60.00</td>
+								<td align="center">67.25</td>
+							</tr>
+							<tr>
+								<td>Neurological diseases</td>
+								<td align="center">&lt; 0.001</td>
+								<td align="center">&lt; 0.001</td>
+								<td align="center" colspan="2">&lt; 0.001</td>
+								<td align="center">&lt; 0.001</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">31.54</td>
+								<td align="center">11.87</td>
+								<td align="center" colspan="2">21.47</td>
+								<td align="center">37.12</td>
+								<td align="center">51.93</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">59.98</td>
+								<td align="center">32.81</td>
+								<td align="center" colspan="2">41.53</td>
+								<td align="center">52.81</td>
+								<td align="center">67.97</td>
+							</tr>
+							<tr>
+								<td>Chronic renal diseases</td>
+								<td align="center">&lt; 0.001</td>
+								<td align="center">&lt; 0.001</td>
+								<td align="center" colspan="2">&lt; 0.001</td>
+								<td align="center">&lt; 0.001</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">32.11</td>
+								<td align="center">11.89</td>
+								<td align="center" colspan="2">21.38</td>
+								<td align="center">36.89</td>
+								<td align="center">52.93</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">57.06</td>
+								<td align="center">35.89</td>
+								<td align="center" colspan="2">42.13</td>
+								<td align="center">55.73</td>
+								<td align="center">68.35</td>
+							</tr>
+							<tr>
+								<td>Other pneumopathy</td>
+								<td align="center">&lt; 0.001</td>
+								<td align="center">&lt; 0.001</td>
+								<td align="center" colspan="2">&lt; 0.001</td>
+								<td align="center">&lt; 0.001</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">31.85</td>
+								<td align="center">12.09</td>
+								<td align="center" colspan="2">21.54</td>
+								<td align="center">36.76</td>
+								<td align="center">52.80</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">54.92</td>
+								<td align="center">25.00</td>
+								<td align="center" colspan="2">37.61</td>
+								<td align="center">51.64</td>
+								<td align="center">63.31</td>
+							</tr>
+							<tr>
+								<td>Immunodeficiency diseases</td>
+								<td align="center">&lt; 0.001</td>
+								<td align="center">&lt; 0.001</td>
+								<td align="center" colspan="2">&lt; 0.001</td>
+								<td align="center">&lt; 0.001</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">32.30</td>
+								<td align="center">11.53</td>
+								<td align="center" colspan="2">21.21</td>
+								<td align="center">36.83</td>
+								<td align="center">53.32</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">54.79</td>
+								<td align="center">40.46</td>
+								<td align="center" colspan="2">43.47</td>
+								<td align="center">59.76</td>
+								<td align="center">68.30</td>
+							</tr>
+							<tr>
+								<td>Postpartum women</td>
+								<td align="center">&lt; 0.001</td>
+								<td align="center">0.061</td>
+								<td align="center" colspan="2">0.661</td>
+								<td align="center">---</td>
+								<td align="center">0.127</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">33.08</td>
+								<td align="center">12.20</td>
+								<td align="center" colspan="2">21.90</td>
+								<td align="center">37.75</td>
+								<td align="center">53.85</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">16.50</td>
+								<td align="center">16.67</td>
+								<td align="center" colspan="2">16.67</td>
+								<td align="center">0.00</td>
+								<td align="center">0.00</td>
+							</tr>
+							<tr>
+								<td>Down syndrome</td>
+								<td align="center">0.039</td>
+								<td align="center">&lt; 0.001</td>
+								<td align="center" colspan="2">&lt; 0.001</td>
+								<td align="center">0,185</td>
+								<td align="center">0.864</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">33.03</td>
+								<td align="center">12.10</td>
+								<td align="center" colspan="2">21.84</td>
+								<td align="center">37.77</td>
+								<td align="center">53.85</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">39.21</td>
+								<td align="center">36.67</td>
+								<td align="center" colspan="2">41.41</td>
+								<td align="center">28.57</td>
+								<td align="center">52.50</td>
+							</tr>
+							<tr>
+								<td>Total</td>
+								<td align="center">33.05</td>
+								<td align="center">12.26</td>
+								<td align="center" colspan="2">21.89</td>
+								<td align="center">37.75</td>
+								<td align="center">53.85</td>
+							</tr>
+						</tbody>
+					</table>
+				</table-wrap>
+			</p>
+			<p>The multivariate analysis found the covariate age range to modify the effect of obesity over the in-hospital case fatality rate (p &lt; 0.001 for interaction). The younger the age stratum, the greater the strength of association. For the 18–39 years range, people with obesity exhibited a 2.54 (95%CI: 2.33–2.77) times greater risk of death when compared to people without obesity. Individuals 70 years or older and with obesity displayed a 9% (RR = 1.09; 95%CI: 1.05–1.13) greater risk of death compared to people without obesity in the same age group (<xref ref-type="table" rid="t4">Table 4</xref>). There was no evidence of collinearity in the covariates studied.</p>
+			<p>
+				<table-wrap id="t4">
+					<label>Table 4</label>
+					<caption>
+						<title>Crude and adjusted analyses for association between obesity and the case fatality rate due to COVID-19 in individuals aged 18 years or more hospitalized for severe COVID-19 in the state of Rio Grande do Sul, Brazil.</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th scope="col">Variable</th>
+								<th scope="col">Crude RR</th>
+								<th scope="col">CI95%</th>
+								<th scope="col">p</th>
+								<th scope="col">Adjusted<sup>a</sup> RR</th>
+								<th scope="col">CI95%</th>
+								<th scope="col">p</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>
+								</td>
+								<td align="center" colspan="6"><bold>18–39 years</bold></td>
+							</tr>
+							<tr>
+								<td>Obesity</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">Ref</td>
+								<td align="center">2.44–2.91</td>
+								<td>
+								</td>
+								<td align="center">Ref</td>
+								<td align="center">2.33–2.77</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">2.66</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td align="center">2.54</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center" colspan="6"><bold>40–59 years</bold></td>
+							</tr>
+							<tr>
+								<td>Obesity</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">Ref</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td align="center">Ref</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">1.84</td>
+								<td align="center">1.76–1.91</td>
+								<td>
+								</td>
+								<td align="center">1.74</td>
+								<td align="center">1.67–1.81</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td align="center" colspan="2"><bold>60–69 years</bold></td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Obesity</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">Ref</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td align="center">Ref</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">1.36</td>
+								<td align="center">1.3 –1.42</td>
+								<td>
+								</td>
+								<td align="center">1.34</td>
+								<td align="center">1.28–1.39</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center" colspan="6"><bold>70 years or older</bold></td>
+							</tr>
+							<tr>
+								<td>Obesity</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">Ref</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td align="center">Ref</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">1.10</td>
+								<td align="center">1.06–1.14</td>
+								<td>
+								</td>
+								<td align="center">1.09</td>
+								<td align="center">1.05–1.13</td>
+								<td>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN1">
+							<p><sup>a</sup> Adjusted for gender, self-declared skin color, asthma, diabetes mellitus, chronic cardiovascular diseases, hematologic diseases, hepatic diseases, chronic neurological. disease, chronic renal diseases, other pneumopathy, Immunodeficiency diseases, postpartum women and Down syndrome, and the region of residence of the individual.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>
+				<xref ref-type="table" rid="t5">Table 5</xref> displays the attributable fraction among the exposed (AF<sub>o</sub>) of obesity for the outcome of death among adults hospitalized for severe COVID-19 and the attributable risk of obesity for the outcome of death in the overall population of adults hospitalized with severe COVID-19 (hospitalized PAR). For people with obesity at the time of hospitalization, 60.6% of deaths by COVID-19 in individuals 18–39 years old and 42.5% of deaths by COVID-19 in individuals 40–59 years old could have been prevented if obesity were eliminated. For all hospitalizations, both with and without obesity, the hospitalized PAR of obesity for individuals 18–39 years old was 25.3%, meaning that one-fourth of deaths among all individuals 18-39 years old who were hospitalized for COVID-19 could have been avoided if obesity were eliminated. Meanwhile, for the 40-59-year-old age range, the hospitalized PAR was 11.2%. Since the covariate skin color did not modify the effect of obesity on the in-hospital case-fatality rate (likelihood ratio test for interaction: p-value = 0.33) and the prevalence of obesity among Black and Mixed-race people hospitalized for COVID-19 was greater than that of the remaining skin color groups, <xref ref-type="table" rid="t5">Table 5</xref> also presents the hospitalized PARs calculated separately for Black people (Black or Mixed-race skin color) and for the remaining skin color categories (White/Indigenous/Yellow). Obesity was found to have a larger impact on the hospital case-fatality rate by COVID-19 among young Black people.</p>
+			<p>
+				<table-wrap id="t5">
+					<label>Table 5</label>
+					<caption>
+						<title>Attributable fraction among the exposed/with obesity (AFo), hospitalized population attributable risk (hospitalized PAR) in the adult population hospitalized for COVID-19 and among Black and non-Black people in the same population in the state of Rio Grande do Sul, Brazil.</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th rowspan="3" scope="col">Age range </th>
+								<th rowspan="3" scope="col">AF<sub>o</sub> in %</th>
+								<th colspan="2" scope="col">Hospitalized PAR in %</th>
+								<th colspan="3" scope="col">Hospitalized PAR in %</th>
+							</tr>
+							<tr>
+								<th colspan="5" rowspan="1" scope="col">
+									<hr/>
+								</th>
+							</tr>
+							<tr>
+								<th colspan="2" scope="col">
+								</th>
+								<th colspan="2" scope="col">Black</th>
+								<th scope="col">Non-Black</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>18–39 years</td>
+								<td align="center">60.63</td>
+								<td align="center" colspan="2">25.28</td>
+								<td align="center">31.73</td>
+								<td align="center" colspan="2">24.82</td>
+							</tr>
+							<tr>
+								<td>40–59 years</td>
+								<td align="center">42.53</td>
+								<td align="center" colspan="2">11.24</td>
+								<td align="center">14.07</td>
+								<td align="center" colspan="2">10.98</td>
+							</tr>
+							<tr>
+								<td>60–69 years</td>
+								<td align="center">25.37</td>
+								<td align="center" colspan="2">4.45</td>
+								<td align="center">4.86</td>
+								<td align="center" colspan="2">4.46</td>
+							</tr>
+							<tr>
+								<td>70 years or older</td>
+								<td align="center">8.26</td>
+								<td align="center" colspan="2">0.70</td>
+								<td align="center">0.91</td>
+								<td align="center" colspan="2">0.69</td>
+							</tr>
+						</tbody>
+					</table>
+				</table-wrap>
+			</p>
+			<p>In the sensitivity analysis, the covariates diabetes mellitus and chronic cardiovascular disease were excluded from the final model for being possible mediators of the association of interest and due to the fact that the cross-sectional nature of the data on comorbidities did not allow for the temporality or the directionality of the association between the different comorbidities recorded at the time of hospitalization to be established. In the absence of adjustment for diabetes mellitus and chronic cardiovascular disease, the magnitude of the effect of obesity on death increased only slightly. For the 18−39-year-old age range, people with obesity displayed a risk 2.59 (95%CI: 2.38–2.83) times greater of death when compared to people without obesity. Individuals 70 years or older and with obesity presented with a 14% (RR = 1.14; 95%CI: 1.09–1.18) greater risk of death compared to those without obesity in the same age group.</p>
+		</sec>
+		<sec sec-type="discussion">
+			<title>DISCUSSION</title>
+			<p>This study estimated the relative risk associated with obesity and the impact of this chronic condition on the hospital case-fatality rate due to COVID-19 in the adult population hospitalized for the disease in the state of Rio Grande do Sul, for the different demographic groups analyzed. The relative risk associated with obesity was notably higher for the younger age groups. Additionally, the prevalence of obesity was higher for the younger age ranges and for Black people, resulting in an impact estimate that pointed out that, in the hospitalized population aged 18−39 years, obesity was responsible for more than one-fourth of total deaths, with a hospitalized PAR of 31.7% for Black people and 24.8% for non-Black people.</p>
+			<p>Obesity alters pulmonary function via mechanic and inflammatory mechanisms, elevating the risk of displaying symptoms and progressing to more severe cases of respiratory failure for people with obesity<sup><xref ref-type="bibr" rid="B23">23</xref></sup>. Exposed individuals have chronically greater concentrations of leptin and smaller concentrations of adiponectin, leading to dysregulation of the immune system<sup><xref ref-type="bibr" rid="B24">24</xref></sup>. In addition, individuals with obesity present with larger concentrations of various pro-inflammatory cytokines, such as TNF-α, MCP-1 and IL-6, which affect immunity<sup><xref ref-type="bibr" rid="B25">25</xref></sup> and can exacerbate the inflammatory process in airways present in cases of severe COVID-19.</p>
+			<p>Obesity has been reported as the most common underlying condition for patients with COVID-19 younger than 64 years<sup><xref ref-type="bibr" rid="B26">26</xref></sup>. In addition, it frequently co-occurs with other chronic conditions. Studies evaluating the relationship between obesity and death by COVID-19<sup><xref ref-type="bibr" rid="B11">11</xref></sup> found association even without reporting an interaction with age. Hendren et al.<sup><xref ref-type="bibr" rid="B17">17</xref></sup> (2021) analyzed data of patients hospitalized with COVID-19 in 88 hospitals in the U.S. and found the association with death to be stronger than that of body-mass-index (BMI) in adults younger than 50 years, intermediate in adults aged 51–70 years and weaker in adults older than 70 years, corroborating the results of our study. Also, Klang et al.<sup><xref ref-type="bibr" rid="B16">16</xref></sup> (2020) estimated a strong association between BMI and death in individuals younger than 50 years, and a weaker though still significant association among patients aged 50 years and older.</p>
+			<p>The National Health Survey 2019 conducted in Brazil estimated that one-fourth of the Brazilian adult population had obesity. In the general population, those aged 18−24 years had less obesity (10.7%) while individuals aged 40–59 years had the most obesity (34.4%), followed by those aged 60 years and above (24.8%)<sup><xref ref-type="bibr" rid="B9">9</xref></sup>. However, in the hospitalized population analyzed, younger patients had more obesity. Although the youngest age group displayed a smaller risk of death by COVID-19, obesity is an extremely important prognostic factor of death in this age range.</p>
+			<p>The larger prevalence of obesity found in Black people could be due to the accumulation of adverse circumstances associated with their overall lower socioeconomic position, such as poorer access to healthy foods and less time available to practice physical activity. A study by De Azevedo Barros et al.<sup><xref ref-type="bibr" rid="B27">27</xref></sup> (2016) evaluated social inequalities in health behaviors among Brazilian adults and found a greater prevalence of smoking, physical inactivity during leisure, sedentary lifestyles, whole milk consumption and low consumption of leafy greens, vegetables, and fruits in the non-White population. Therefore, to improve indicators of chronic conditions such as obesity, it is necessary to reduce inequalities implementing population-level diet and exercise promotion-oriented interventions. Regular monitoring of nutrition data disaggregated by population subgroups such as wealth quintiles or deciles as well as skin color/ethnicity is also essential to track progress and guide public health actions with an equity lens<sup><xref ref-type="bibr" rid="B18">18</xref></sup>.</p>
+			<p>In Brazil, the Strategic Action Plan for Tackling Chronic Non-Communicable Diseases including obesity serves as a guideline for the prevention of risk factors for Non-Communicable Diseases and for population health promotion, with the aim of reducing health inequalities<sup><xref ref-type="bibr" rid="B28">28</xref></sup>. In this way, it will be important to implement the Global Strategy for Diet, Physical Activity and Health<sup><xref ref-type="bibr" rid="B29">29</xref></sup> to stop the increase in obesity. Our results are important for supporting the actions outlined in this strategic plan. Other actions to reduce the burden of disease caused by obesity are globally necessary, with a focus on youth and Black people in middle-income countries.</p>
+			<p>Our results must be interpreted considering certain limitations. Obesity as a variable was primarily collected from routine medical records from patients in health facilities in Rio Grande do Sul that received patients with severe COVID-19. It was not possible to describe the form of recording/collection conducted by each health facility. The variability in the measurement of the exposure tends to generate non-differential classification error, potentially underestimating the estimates of relative risk. The estimates of AF<sub>o</sub> and hospitalized PAR may also have been underestimated, in the event that the prevalence of obesity was underestimated. Nevertheless, the results show a sufficiently strong effect to justify the study’s conclusions of the elevated impact of obesity and of the groups for which there is a greater attributable risk. Another limitation related to the measurement of the exposure obesity was that the availability of the variable in dichotomic form precluded a dose-response analysis of the effect of increased BMI on relative risk of death. In addition, unfortunately, the variable level of schooling exhibited 57% missing data and was not included in the multivariate analysis for this reason. However, the variable skin color is a strong proxy for socioeconomic position in Brazil. There was a very discreet change in results from the restricted sample to when level of schooling was included in the multivariate model (data not shown).</p>
+			<p>This study also displays important strengths. First, we analyzed all recorded cases of admissions for severe COVID-19 in public and private health facilities in the state, resulting in a representative sample with maximum statistical power to identify existent associations. Second, we conducted an analysis of effect modification that was barely susceptible to exposure measurement error and, to the best of our knowledge, this study is the first to estimate the proportion of deaths that could be avoided among hospitalized people if obesity were completely prevented. In the sensitivity analysis there were no important differences observed in the effects of obesity when cardiovascular diseases and diabetes mellitus were removed from the final model, which probably indicates that the inclusion of other unanalyzed comorbidities would not significantly alter the estimates obtained.</p>
+		</sec>
+		<sec sec-type="conclusions">
+			<title>CONCLUSIONS</title>
+			<p>Obesity had a large impact on the in-hospital case-fatality rate due to COVID-19 among young adults who were hospitalized. Black people generally suffered a greater impact for displaying a higher prevalence of obesity in the study sample. The data highlight the magnitude of the risk attributable to obesity, a key chronic condition. In the context of the pandemic, prioritization of care measures that prevent contagion and of interventions for people with obesity have great potential for effectiveness in reducing years of life lost to COVID-19.</p>
+		</sec>
+	</body>
+	<back>
+		<ack>
+			<title>Acknowledgements</title>
+			<p>We would like to thank all health professionals in Brazil’s Health System for their work in the country’s response to the COVID-19 pandemic and for their collection of primary epidemiological surveillance data.</p>
+		</ack>
+		<ref-list>
+			<title>REFERENCES</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. Wang C, Horby PW, Hayden FG, Gao GF. A novel coronavirus outbreak of global health concern. Lancet. 2020;395(10223):470-3. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(20)30185-9">https://doi.org/10.1016/S0140-6736(20)30185-9</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Wang</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Horby</surname>
+							<given-names>PW</given-names>
+						</name>
+						<name>
+							<surname>Hayden</surname>
+							<given-names>FG</given-names>
+						</name>
+						<name>
+							<surname>Gao</surname>
+							<given-names>GF</given-names>
+						</name>
+					</person-group>
+					<article-title>A novel coronavirus outbreak of global health concern</article-title>
+					<source>Lancet</source>
+					<year>2020</year>
+					<volume>395</volume>
+					<issue>10223</issue>
+					<fpage>470</fpage>
+					<lpage>473</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(20)30185-9">https://doi.org/10.1016/S0140-6736(20)30185-9</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. Johns Hopkins University of Medicine, Coronavirus Research Center. Mortality analyses. Baltimore, MD; 2021 [cited 2021 Sept 1]. Available from: <ext-link ext-link-type="uri" xlink:href="https://coronavirus.jhu.edu/data/mortality">https://coronavirus.jhu.edu/data/mortality</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Johns Hopkins University of Medicine</collab>
+						<collab>Coronavirus Research Center</collab>
+					</person-group>
+					<source>Mortality analyses</source>
+					<publisher-loc>Baltimore, MD</publisher-loc>
+					<year>2021</year>
+					<date-in-citation content-type="cited-date">cited 2021 Sept 1</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://coronavirus.jhu.edu/data/mortality">https://coronavirus.jhu.edu/data/mortality</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. Ministério da Saúde (BR). Painel Coronavírus, Brasil. 2021. Brasília, DF: 2021 [cited 2021 Sept 1]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.gov.br/saude/pt-br/vacinacao/">https://www.gov.br/saude/pt-br/vacinacao/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+					</person-group>
+					<source>Painel Coronavírus, Brasil. 2021</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<year>2021</year>
+					<date-in-citation content-type="cited-date">cited 2021 Sept 1</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.gov.br/saude/pt-br/vacinacao/">https://www.gov.br/saude/pt-br/vacinacao/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. Centers for Disease Control and Prevention. National Center for Chronic Disease Prevention and Health Promotion (NCCDPHP), About Chronic Diseases. [cited 21 Sept 1]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.cdc.gov/chronicdisease/about/index.htm">https://www.cdc.gov/chronicdisease/about/index.htm</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Centers for Disease Control and Prevention</collab>
+					</person-group>
+					<source>National Center for Chronic Disease Prevention and Health Promotion (NCCDPHP), About Chronic Diseases</source>
+					<date-in-citation content-type="cited-date">cited 21 Sept 1</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.cdc.gov/chronicdisease/about/index.htm">https://www.cdc.gov/chronicdisease/about/index.htm</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Mesenburg MA, Hallal PC, Menezes AMB, Barros AJD, Horta BL, Barros FC, et al. Chronic non-communicable diseases and COVID-19: EPICOVID-19 Brazil results. Rev Saude Publica. 2021;55:38. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.11606/s1518-8787.2021055003673">https://doi.org/10.11606/s1518-8787.2021055003673</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Mesenburg</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Hallal</surname>
+							<given-names>PC</given-names>
+						</name>
+						<name>
+							<surname>Menezes</surname>
+							<given-names>AMB</given-names>
+						</name>
+						<name>
+							<surname>Barros</surname>
+							<given-names>AJD</given-names>
+						</name>
+						<name>
+							<surname>Horta</surname>
+							<given-names>BL</given-names>
+						</name>
+						<name>
+							<surname>Barros</surname>
+							<given-names>FC</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Chronic non-communicable diseases and COVID-19: EPICOVID-19 Brazil results</article-title>
+					<source>Rev Saude Publica</source>
+					<year>2021</year>
+					<volume>55</volume>
+					<size units="pages">38</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.11606/s1518-8787.2021055003673">https://doi.org/10.11606/s1518-8787.2021055003673</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. Frydrych LM, Bian G, O’Lone DE, Ward PA, Delano MJ. Obesity and type 2 diabetes mellitus drive immune dysfunction, infection development, and sepsis mortality. J Leukocyte Biol. 2018;104(3):525-34. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/JLB.5VMR0118-021RR">https://doi.org/10.1002/JLB.5VMR0118-021RR</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Frydrych</surname>
+							<given-names>LM</given-names>
+						</name>
+						<name>
+							<surname>Bian</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>O’Lone</surname>
+							<given-names>DE</given-names>
+						</name>
+						<name>
+							<surname>Ward</surname>
+							<given-names>PA</given-names>
+						</name>
+						<name>
+							<surname>Delano</surname>
+							<given-names>MJ</given-names>
+						</name>
+					</person-group>
+					<article-title>Obesity and type 2 diabetes mellitus drive immune dysfunction, infection development, and sepsis mortality</article-title>
+					<source>J Leukocyte Biol</source>
+					<year>2018</year>
+					<volume>104</volume>
+					<issue>3</issue>
+					<fpage>525</fpage>
+					<lpage>534</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/JLB.5VMR0118-021RR">https://doi.org/10.1002/JLB.5VMR0118-021RR</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. United Nations Food and Agriculture Organization. The state of food security and nutrition in the world 2019: safeguarding against economic slowdowns and downturns. Rome (IT): FAO; 2019.</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>United Nations Food and Agriculture Organization</collab>
+					</person-group>
+					<source>The state of food security and nutrition in the world 2019: safeguarding against economic slowdowns and downturns</source>
+					<publisher-loc>Rome (IT)</publisher-loc>
+					<publisher-name>FAO</publisher-name>
+					<year>2019</year>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. World Health Organization. Obesity and overweight. Geneva (CH): WHO; 2020 [cited 2021 Sept 1]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.who.int/newsroom/fact-sheets/detail/obesity-and-overweight">https://www.who.int/newsroom/fact-sheets/detail/obesity-and-overweight</ext-link>; 2020</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>World Health Organization</collab>
+					</person-group>
+					<source>Obesity and overweight</source>
+					<publisher-loc>Geneva (CH)</publisher-loc>
+					<publisher-name>WHO</publisher-name>
+					<year>2020</year>
+					<date-in-citation content-type="cited-date">cited 2021 Sept 1</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.who.int/newsroom/fact-sheets/detail/obesity-and-overweight">https://www.who.int/newsroom/fact-sheets/detail/obesity-and-overweight</ext-link>
+					</comment>
+					<comment>2020</comment>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. Instituto Brasileiro de Geografia e Estatísticas, Diretoria de Pesquisas, Coordenação de Trabalho e Rendimento. Pesquisa Nacional de Saúde 2019: atenção primária à saúde e informações antropométricas: Brasil. Rio de Janeiro: IBGE; 2020 [cited 2021 Sept 1]. Available from: <ext-link ext-link-type="uri" xlink:href="https://biblioteca.ibge.gov.br/visualizacao/livros/liv101758.pdf">https://biblioteca.ibge.gov.br/visualizacao/livros/liv101758.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Instituto Brasileiro de Geografia e Estatísticas, Diretoria de Pesquisas</collab>
+						<collab>Coordenação de Trabalho e Rendimento</collab>
+					</person-group>
+					<source>Pesquisa Nacional de Saúde 2019: atenção primária à saúde e informações antropométricas: Brasil</source>
+					<publisher-loc>Rio de Janeiro</publisher-loc>
+					<publisher-name>IBGE</publisher-name>
+					<year>2020</year>
+					<date-in-citation content-type="cited-date">cited 2021 Sept 1</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://biblioteca.ibge.gov.br/visualizacao/livros/liv101758.pdf">https://biblioteca.ibge.gov.br/visualizacao/livros/liv101758.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. Kassir R. Risk of COVID-19 for patients with obesity. Obes Rev. 2020;21(6):e13034. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/obr.13034">https://doi.org/10.1111/obr.13034</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kassir</surname>
+							<given-names>R</given-names>
+						</name>
+					</person-group>
+					<article-title>Risk of COVID-19 for patients with obesity</article-title>
+					<source>Obes Rev</source>
+					<year>2020</year>
+					<volume>21</volume>
+					<issue>6</issue>
+					<elocation-id>e13034</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/obr.13034">https://doi.org/10.1111/obr.13034</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. 11. Giacomelli A, Ridolfo AL, Milazzo L, Oreni L, Bernacchia D, Siano M, et al. 30-daymortality in patients hospitalized with COVID-19 during the first wave of the Italian epidemic: a prospective cohort study. Pharmacol Res. 2020;158:104931. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.phrs.2020.104931">https://doi.org/10.1016/j.phrs.2020.104931</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Giacomelli</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Ridolfo</surname>
+							<given-names>AL</given-names>
+						</name>
+						<name>
+							<surname>Milazzo</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Oreni</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Bernacchia</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Siano</surname>
+							<given-names>M</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>30-daymortality in patients hospitalized with COVID-19 during the first wave of the Italian epidemic: a prospective cohort study</article-title>
+					<source>Pharmacol Res</source>
+					<year>2020</year>
+					<volume>158</volume>
+					<size units="pages">104931</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.phrs.2020.104931">https://doi.org/10.1016/j.phrs.2020.104931</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. Palaiodimos L, Kokkinidis DG, Li W, Karamanis D, Ognibeneb J, Arora S, et al. Severe obesity, increasing age and male sex are independently associated with worse in-hospital outcomes, and higher in-hospital mortality, in a cohort of patients with COVID-19 in the Bronx, New York. Metabolism. 2020;108:154262. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.metabol.2020.154262">https://doi.org/10.1016/j.metabol.2020.154262</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Palaiodimos</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Kokkinidis</surname>
+							<given-names>DG</given-names>
+						</name>
+						<name>
+							<surname>Li</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Karamanis</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Ognibeneb</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Arora</surname>
+							<given-names>S</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Severe obesity, increasing age and male sex are independently associated with worse in-hospital outcomes, and higher in-hospital mortality, in a cohort of patients with COVID-19 in the Bronx, New York</article-title>
+					<source>Metabolism</source>
+					<year>2020</year>
+					<volume>108</volume>
+					<size units="pages">154262</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.metabol.2020.154262">https://doi.org/10.1016/j.metabol.2020.154262</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. Nakeshbandi M, Maini R, Daniel P, Rosengarten S, Parmar P, Wilson C, et al. The impact of obesity on COVID-19 complications: a retrospective cohort study. Int J Obes (Lond). 2020;44(9):1832-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s41366-020-0648-x">https://doi.org/10.1038/s41366-020-0648-x</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Nakeshbandi</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Maini</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Daniel</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Rosengarten</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Parmar</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Wilson</surname>
+							<given-names>C</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>The impact of obesity on COVID-19 complications: a retrospective cohort study</article-title>
+					<source>Int J Obes (Lond)</source>
+					<year>2020</year>
+					<volume>44</volume>
+					<issue>9</issue>
+					<fpage>1832</fpage>
+					<lpage>1837</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s41366-020-0648-x">https://doi.org/10.1038/s41366-020-0648-x</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. Cummings MJ, Baldwin MR, Abrams D, Jacobson SD, Meyer BJ, Balough EM, et al. Epidemiology, clinical course, and outcomes of critically ill adults with COVID-19 in New York City: a prospective cohort study. Lancet. 2020;395(10239):1763-70. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(20)31189-2">https://doi.org/10.1016/S0140-6736(20)31189-2</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cummings</surname>
+							<given-names>MJ</given-names>
+						</name>
+						<name>
+							<surname>Baldwin</surname>
+							<given-names>MR</given-names>
+						</name>
+						<name>
+							<surname>Abrams</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Jacobson</surname>
+							<given-names>SD</given-names>
+						</name>
+						<name>
+							<surname>Meyer</surname>
+							<given-names>BJ</given-names>
+						</name>
+						<name>
+							<surname>Balough</surname>
+							<given-names>EM</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Epidemiology, clinical course, and outcomes of critically ill adults with COVID-19 in New York City: a prospective cohort study</article-title>
+					<source>Lancet</source>
+					<year>2020</year>
+					<volume>395</volume>
+					<issue>10239</issue>
+					<fpage>1763</fpage>
+					<lpage>1770</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(20)31189-2">https://doi.org/10.1016/S0140-6736(20)31189-2</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. Zhang X, Lewis AM, Moley JR, Brestoff JR. A systematic review and meta-analysis of obesity and COVID-19 outcomes. Sci Rep. 2021;11:7193. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s41598-021-86694-1">https://doi.org/10.1038/s41598-021-86694-1</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Zhang</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Lewis</surname>
+							<given-names>AM</given-names>
+						</name>
+						<name>
+							<surname>Moley</surname>
+							<given-names>JR</given-names>
+						</name>
+						<name>
+							<surname>Brestoff</surname>
+							<given-names>JR</given-names>
+						</name>
+					</person-group>
+					<article-title>A systematic review and meta-analysis of obesity and COVID-19 outcomes</article-title>
+					<source>Sci Rep</source>
+					<year>2021</year>
+					<volume>11</volume>
+					<size units="pages">7193</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s41598-021-86694-1">https://doi.org/10.1038/s41598-021-86694-1</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. Klang E, Kassim G, Soffer S, Freeman R, Levin MA, Reich DL. Severe obesity as an independent risk factor for COVID-19 mortality in hospitalized patients younger than 50. Obesity (Silver Spring). 2020;28(9):1595-9. <ext-link ext-link-type="uri" xlink:href="https://10.1002/oby.22913">https://10.1002/oby.22913</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Klang</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Kassim</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Soffer</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Freeman</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Levin</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Reich</surname>
+							<given-names>DL</given-names>
+						</name>
+					</person-group>
+					<article-title>Severe obesity as an independent risk factor for COVID-19 mortality in hospitalized patients younger than 50</article-title>
+					<source>Obesity (Silver Spring)</source>
+					<year>2020</year>
+					<volume>28</volume>
+					<issue>9</issue>
+					<fpage>1595</fpage>
+					<lpage>1599</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://10.1002/oby.22913">https://10.1002/oby.22913</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Hendren NS, Lemos JA, Ayers C, Das SR, Rao A, Carter S, et al. Association of body mass index and age with morbidity and mortality in patients hospitalized with COVID-19 results from the American Heart Association COVID-19 Cardiovascular Disease Registry. Circulation. 2021;143:135-44. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1161/CIRCULATIONAHA.120.051936">https://doi.org/10.1161/CIRCULATIONAHA.120.051936</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hendren</surname>
+							<given-names>NS</given-names>
+						</name>
+						<name>
+							<surname>Lemos</surname>
+							<given-names>JA</given-names>
+						</name>
+						<name>
+							<surname>Ayers</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Das</surname>
+							<given-names>SR</given-names>
+						</name>
+						<name>
+							<surname>Rao</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Carter</surname>
+							<given-names>S</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Association of body mass index and age with morbidity and mortality in patients hospitalized with COVID-19 results from the American Heart Association COVID-19 Cardiovascular Disease Registry</article-title>
+					<source>Circulation</source>
+					<year>2021</year>
+					<volume>143</volume>
+					<fpage>135</fpage>
+					<lpage>144</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1161/CIRCULATIONAHA.120.051936">https://doi.org/10.1161/CIRCULATIONAHA.120.051936</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18. Matos UR, Mesenburg MA, Victora CG. Socioeconomic inequalities in the prevalence of underweight, overweight, and obesity among women aged 20-49 in low- and middle-income countries. Int J Obes (Lond). 2020;44(3):609-16. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s41366-019-0503-0">https://doi.org/10.1038/s41366-019-0503-0</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Matos</surname>
+							<given-names>UR</given-names>
+						</name>
+						<name>
+							<surname>Mesenburg</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Victora</surname>
+							<given-names>CG</given-names>
+						</name>
+					</person-group>
+					<article-title>Socioeconomic inequalities in the prevalence of underweight, overweight, and obesity among women aged 20-49 in low- and middle-income countries</article-title>
+					<source>Int J Obes (Lond)</source>
+					<year>2020</year>
+					<volume>44</volume>
+					<issue>3</issue>
+					<fpage>609</fpage>
+					<lpage>616</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s41366-019-0503-0">https://doi.org/10.1038/s41366-019-0503-0</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19. Instituto Brasileiro de Geografia e Estatística. Cidades e Estados, Rio Grande do Sul: IBGE; 2021 [cited 2021 Jul 30]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.ibge.gov.br/cidades-e-estados/rs.html">https://www.ibge.gov.br/cidades-e-estados/rs.html</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Instituto Brasileiro de Geografia e Estatística</collab>
+					</person-group>
+					<source>Cidades e Estados</source>
+					<publisher-loc>Rio Grande do Sul</publisher-loc>
+					<publisher-name>IBGE</publisher-name>
+					<year>2021</year>
+					<date-in-citation content-type="cited-date">cited 2021 Jul 30</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.ibge.gov.br/cidades-e-estados/rs.html">https://www.ibge.gov.br/cidades-e-estados/rs.html</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20. Ministério da Saúde (BR). Cadastro Nacional de Estabelecimentos de Saúde - CNES. Brasília, DF: Datasus; 2020 [cited 2021 Jul 30]. Available from: <ext-link ext-link-type="uri" xlink:href="http://cnes.datasus.gov.br/">http://cnes.datasus.gov.br/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+					</person-group>
+					<source>Cadastro Nacional de Estabelecimentos de Saúde - CNES</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<publisher-name>Datasus</publisher-name>
+					<year>2020</year>
+					<date-in-citation content-type="cited-date">cited 2021 Jul 30</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="http://cnes.datasus.gov.br/">http://cnes.datasus.gov.br/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>21. Ministério da Saúde (BR), Secretaria de Vigilância em Saúde. Ficha de Registro Individual - Casos de Síndrome Respiratória Aguda Grave Hospitalizado. Brasília, DF: 2021 [cited 2021 Jul 30]. Available from: <ext-link ext-link-type="uri" xlink:href="http://189.28.128.100/SIVEPGripe/Ficha_SRAG_Hospitalizado_23.03.2021.pdf">http://189.28.128.100/SIVEPGripe/Ficha_SRAG_Hospitalizado_23.03.2021.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+						<collab>Secretaria de Vigilância em Saúde</collab>
+					</person-group>
+					<source>Ficha de Registro Individual - Casos de Síndrome Respiratória Aguda Grave Hospitalizado</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<year>2021</year>
+					<date-in-citation content-type="cited-date">cited 2021 Jul 30</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="http://189.28.128.100/SIVEPGripe/Ficha_SRAG_Hospitalizado_23.03.2021.pdf">http://189.28.128.100/SIVEPGripe/Ficha_SRAG_Hospitalizado_23.03.2021.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>22. Ministério da Saúde (BR). SRAG 2021 - Banco de Dados de Síndrome Respiratória Aguda Grave - incluindo dados da COVID-19. Brasília, DF: Datasus; 2021 [cited 2021 Jul 30]. Available from: <ext-link ext-link-type="uri" xlink:href="https://opendatasus.saude.gov.br/dataset/bd-srag-2021/resource/42bd5e0e-d61a-4359-942e-ebc83391a137">https://opendatasus.saude.gov.br/dataset/bd-srag-2021/resource/42bd5e0e-d61a-4359-942e-ebc83391a137</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+					</person-group>
+					<source>SRAG 2021 - Banco de Dados de Síndrome Respiratória Aguda Grave - incluindo dados da COVID-19</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<publisher-name>Datasus</publisher-name>
+					<year>2021</year>
+					<date-in-citation content-type="cited-date">cited 2021 Jul 30</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://opendatasus.saude.gov.br/dataset/bd-srag-2021/resource/42bd5e0e-d61a-4359-942e-ebc83391a137">https://opendatasus.saude.gov.br/dataset/bd-srag-2021/resource/42bd5e0e-d61a-4359-942e-ebc83391a137</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>23. Dixon AE, Peters U. The effect of obesity on lung function. Expert Rev Respir Med. 2018;12(9):755-67. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/17476348.2018.1506331">https://doi.org/10.1080/17476348.2018.1506331</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Dixon</surname>
+							<given-names>AE</given-names>
+						</name>
+						<name>
+							<surname>Peters</surname>
+							<given-names>U</given-names>
+						</name>
+					</person-group>
+					<article-title>The effect of obesity on lung function</article-title>
+					<source>Expert Rev Respir Med</source>
+					<year>2018</year>
+					<volume>12</volume>
+					<issue>9</issue>
+					<fpage>755</fpage>
+					<lpage>767</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/17476348.2018.1506331">https://doi.org/10.1080/17476348.2018.1506331</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>24. Ouchi N, Parker JL, Lugus JJ, Walsh K. Adipokines in inflammation and metabolic disease. Nat Rev Immunol. 2011;11(2):85-97. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nri2921">https://doi.org/10.1038/nri2921</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ouchi</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Parker</surname>
+							<given-names>JL</given-names>
+						</name>
+						<name>
+							<surname>Lugus</surname>
+							<given-names>JJ</given-names>
+						</name>
+						<name>
+							<surname>Walsh</surname>
+							<given-names>K</given-names>
+						</name>
+					</person-group>
+					<article-title>Adipokines in inflammation and metabolic disease</article-title>
+					<source>Nat Rev Immunol</source>
+					<year>2011</year>
+					<volume>11</volume>
+					<issue>2</issue>
+					<fpage>85</fpage>
+					<lpage>97</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/nri2921">https://doi.org/10.1038/nri2921</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>25. Richard C, Wadowski M, Goruk S, Cameron L, Sharma AM, Field CJ. Individuals with obesity and type 2 diabetes have additional immune dysfunction compared with obese individuals who are metabolically healthy. BMJ Open Diabetes Res Care. 2017;5(1):e000379. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/bmjdrc-2016-000379">https://doi.org/10.1136/bmjdrc-2016-000379</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Richard</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Wadowski</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Goruk</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Cameron</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Sharma</surname>
+							<given-names>AM</given-names>
+						</name>
+						<name>
+							<surname>Field</surname>
+							<given-names>CJ</given-names>
+						</name>
+					</person-group>
+					<article-title>Individuals with obesity and type 2 diabetes have additional immune dysfunction compared with obese individuals who are metabolically healthy</article-title>
+					<source>BMJ Open Diabetes Res Care</source>
+					<year>2017</year>
+					<volume>5</volume>
+					<issue>1</issue>
+					<elocation-id>e000379</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/bmjdrc-2016-000379">https://doi.org/10.1136/bmjdrc-2016-000379</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation>26. Garg S, Kim L, Whitaker M, O’Halloran A, Cummings C, Holstein R, et al. Hospitalization rates and characteristics of patients hospitalized with laboratory confirmed coronavirus disease 2019 - COVID-NET, 14 states, March 1-30, 2020. MMWR Morb Mortal WklyRep. 2020;69(15):458-64. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.15585/mmwr.mm6915e3">https://doi.org/10.15585/mmwr.mm6915e3</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Garg</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Kim</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Whitaker</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>O’Halloran</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Cummings</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Holstein</surname>
+							<given-names>R</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Hospitalization rates and characteristics of patients hospitalized with laboratory confirmed coronavirus disease 2019 - COVID-NET, 14 states, March 1-30, 2020</article-title>
+					<source>MMWR Morb Mortal WklyRep</source>
+					<year>2020</year>
+					<volume>69</volume>
+					<issue>15</issue>
+					<fpage>458</fpage>
+					<lpage>464</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.15585/mmwr.mm6915e3">https://doi.org/10.15585/mmwr.mm6915e3</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<mixed-citation>27. Barros MBA, Lima MG, Medina LPB, Szwarcwald CL, Malta DC. Social inequalities in health behaviors among Brazilian adults: National Health Survey, 2013. Int J Equity Health. 2016;15:148. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12939-016-04390">https://doi.org/10.1186/s12939-016-04390</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Barros</surname>
+							<given-names>MBA</given-names>
+						</name>
+						<name>
+							<surname>Lima</surname>
+							<given-names>MG</given-names>
+						</name>
+						<name>
+							<surname>Medina</surname>
+							<given-names>LPB</given-names>
+						</name>
+						<name>
+							<surname>Szwarcwald</surname>
+							<given-names>CL</given-names>
+						</name>
+						<name>
+							<surname>Malta</surname>
+							<given-names>DC</given-names>
+						</name>
+					</person-group>
+					<article-title>Social inequalities in health behaviors among Brazilian adults: National Health Survey, 2013</article-title>
+					<source>Int J Equity Health</source>
+					<year>2016</year>
+					<volume>15</volume>
+					<size units="pages">148</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12939-016-04390">https://doi.org/10.1186/s12939-016-04390</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<mixed-citation>28. Ministério da Saúde (BR), Secretaria de Vigilância em Saúde. Plano de ações estratégicas para o enfrentamento das doenças crônicas e agravos não transmissíveis no Brasil 2021-2030. Brasília, DF; 2020 [cited 2021 Jul 30]. Available from: <ext-link ext-link-type="uri" xlink:href="https://antigo.saude.gov.br/images/pdf/2020/October/01/Plano-DANT-vers--o-Consulta-p--blica.pdf">https://antigo.saude.gov.br/images/pdf/2020/October/01/Plano-DANT-vers--o-Consulta-p--blica.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+						<collab>Secretaria de Vigilância em Saúde</collab>
+					</person-group>
+					<source>Plano de ações estratégicas para o enfrentamento das doenças crônicas e agravos não transmissíveis no Brasil 2021-2030</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<year>2020</year>
+					<date-in-citation content-type="cited-date">cited 2021 Jul 30</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://antigo.saude.gov.br/images/pdf/2020/October/01/Plano-DANT-vers--o-Consulta-p--blica.pdf">https://antigo.saude.gov.br/images/pdf/2020/October/01/Plano-DANT-vers--o-Consulta-p--blica.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B29">
+				<label>29</label>
+				<mixed-citation>29. World Health Organization. Global Strategy on Diet, Physical Activity and Health - 2004. Geneva (CH): WHO; 2004 [cited 2021 Jul 30]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.who.int/publications/i/item/9241592222">https://www.who.int/publications/i/item/9241592222</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>World Health Organization</collab>
+					</person-group>
+					<source>Global Strategy on Diet, Physical Activity and Health - 2004</source>
+					<publisher-loc>Geneva (CH)</publisher-loc>
+					<publisher-name>WHO</publisher-name>
+					<year>2004</year>
+					<date-in-citation content-type="cited-date">cited 2021 Jul 30</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.who.int/publications/i/item/9241592222">https://www.who.int/publications/i/item/9241592222</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="supported-by">
+				<p><bold>Funding:</bold> This study was sponsored in part by the <italic>Coordenação de Aperfeiçoamento de Pessoal de Nível Superior—Brasil</italic> (Capes – fellowship to some of the authors).</p>
+			</fn>
+		</fn-group>
+	</back>
+</article>

@@ -1,0 +1,904 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article article-type="other" dtd-version="1.1" specific-use="sps-1.9" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="nlm-ta">Rev Saude Publica</journal-id>
+			<journal-id journal-id-type="publisher-id">rsp</journal-id>
+			<journal-title-group>
+				<journal-title>Revista de Saúde Pública</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Rev. Saúde Pública</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="ppub">0034-8910</issn>
+			<issn pub-type="epub">1518-8787</issn>
+			<publisher>
+				<publisher-name>Faculdade de Saúde Pública da Universidade de São Paulo</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="other">00602</article-id>
+			<article-id pub-id-type="doi">10.11606/s1518-8787.2022056004461</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Comment</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>The regulation of artificial intelligence for health in Brazil begins with the General Personal Data Protection Law</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-9380-0768</contrib-id>
+					<name>
+						<surname>Dourado</surname>
+						<given-names>Daniel de Araujo</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-1971-9130</contrib-id>
+					<name>
+						<surname>Aith</surname>
+						<given-names>Fernando Mussa Abujamra</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+					<xref ref-type="aff" rid="aff3"><sup>III</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>I</label>
+				<institution content-type="orgname">Universidade de São Paulo</institution>
+				<institution content-type="orgdiv1">Centro de Pesquisa em Direito Sanitário</institution>
+				<addr-line>
+					<named-content content-type="city">São Paulo</named-content>
+					<named-content content-type="state">SP</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Universidade de São Paulo. Centro de Pesquisa em Direito Sanitário. São Paulo, SP, Brasil</institution>
+			</aff>
+			<aff id="aff2">
+				<label>II</label>
+				<institution content-type="orgname">Universidade de São Paulo</institution>
+				<institution content-type="orgdiv1">Faculdade de Medicina</institution>
+				<institution content-type="orgdiv2">Programa de Pós-Graduação em Saúde Coletiva</institution>
+				<addr-line>
+					<named-content content-type="city">São Paulo</named-content>
+					<named-content content-type="state">SP</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Universidade de São Paulo. Faculdade de Medicina. Programa de Pós-Graduação em Saúde Coletiva. São Paulo, SP, Brasil</institution>
+			</aff>
+			<aff id="aff3">
+				<label>III</label>
+				<institution content-type="orgname">Universidade de São Paulo</institution>
+				<institution content-type="orgdiv1">Faculdade de Saúde Pública</institution>
+				<institution content-type="orgdiv2">Departamento de Política</institution>
+				<addr-line>
+					<named-content content-type="city">São Paulo</named-content>
+					<named-content content-type="state">SP</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Universidade de São Paulo. Faculdade de Saúde Pública. Departamento de Política, Gestão e Saúde. São Paulo, SP, Brasil</institution>
+			</aff>
+			<author-notes>
+				<corresp id="c01"> Correspondence: Daniel A. Dourado Av. Dr. Arnaldo, 715 01246-904 São Paulo, SP, Brasil E-mail: <email>dadourado@usp.br</email>
+				</corresp>
+				<fn fn-type="con">
+					<p>Authors’ Contribution: Study design and planning: DAD, FMAA. Data collection, analysis, and interpretation: DAD. Manuscript development and review: DAD, FMAA. Approval of the final version: DAD, FMAA. Public responsibility for the content of the article: DAD, FMAA.</p>
+				</fn>
+				<fn fn-type="conflict">
+					<p>Conflict of Interest: The authors declare no conflict of interest.</p>
+				</fn>
+			</author-notes>
+			<pub-date date-type="pub" publication-format="electronic">
+				<day>09</day>
+				<month>09</month>
+				<year>2022</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">
+				<year>2022</year>
+			</pub-date>
+			<volume>56</volume>
+			<elocation-id>80</elocation-id>
+			<history>
+				<date date-type="received">
+					<day>4</day>
+					<month>12</month>
+					<year>2021</year>
+				</date>
+				<date date-type="accepted">
+					<day>4</day>
+					<month>02</month>
+					<year>2022</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="en">
+					<license-p> This is an Open Access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. </license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>ABSTRACT</title>
+				<p>Artificial intelligence develops rapidly and health is one of the areas where new technologies in this field are most promising. The use of artificial intelligence can modify the way health care and self-care are provided, besides influencing the organization of health systems. Therefore, the regulation of artificial intelligence in healthcare is an emerging and essential topic. Specific laws and regulations are being developed around the world. In Brazil, the starting point of this regulation is the <italic>Lei Geral de Proteção de Dados Pessoais</italic> (LGPD – General Personal Data Protection Law), which recognizes the right to explanation and review of automated decisions. Discussing the scope of this right is needed, considering the necessary instrumentalization of transparency in the use of artificial intelligence for health and the currently existing limits, such as the black-box system inherent to algorithms and the trade-off between explainability and accuracy of automated systems.</p>
+			</abstract>
+			<kwd-group xml:lang="en">
+				<kwd>Health Services Research</kwd>
+				<kwd>Artificial Intelligence, legislation &amp; jurisprudence</kwd>
+				<kwd>Machine Learning</kwd>
+				<kwd>Health Law</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="0"/>
+				<table-count count="0"/>
+				<equation-count count="0"/>
+				<ref-count count="22"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>INTRODUCTION</title>
+			<p>Artificial intelligence (AI) is beginning to change the world as we know it and is one of the most promising technologies for the health area. In the coming years, the use of AI in healthcare, particularly the deep learning subtype<sup><xref ref-type="bibr" rid="B1">1</xref></sup>, may significantly affect clinical practice, the management of health systems, and the relationship between patients and the healthcare network, by allowing them to process their own data to promote health<sup><xref ref-type="bibr" rid="B2">2</xref></sup>. Digital health will transform the structure of health services and national health systems, with great potential to improve quality and reduce costs in care<sup><xref ref-type="bibr" rid="B3">3</xref></sup>.</p>
+			<p>Therefore, AI regulation is now an essential issue in the health area. As well as every intervention that affects health, the incorporation of these new technologies needs to be stimulated while a regulatory structure, capable of ensuring that their use is entirely to the benefit of humans, is organized. AI systems must have proven quality and safety. Actions and services that have always been provided primarily by people begin to be heavily influenced and even performed by automated systems and it is a scenario that challenges basic premises of health regulation<sup><xref ref-type="bibr" rid="B4">4</xref></sup>.</p>
+			<p>Until the beginning of 2022, no specific guidelines or laws existed yet to regulate the use of artificial intelligence in health care<sup><xref ref-type="bibr" rid="B5">5</xref></sup>. This discussion is in progress in many countries and international bodies, and in Brazil, it starts with the <italic>Lei Geral de Proteção de Dados Pessoais</italic> (LGPD – General Personal Data Protection Law) (Federal Law no. 13,709/2018), which establishes the right to explanation and review of automated decisions in the Brazilian legal system. This is the normative expression of the principle of algorithmic transparency, which is central to the regulation of AI systems.</p>
+			<p>This article aims to discuss the scope of the right to explanation and review of automated decisions in AI regulation in health in Brazil starting from the LGPD, considering the international discussion on the topic and the currently existing limits for explainable AI in the health area.</p>
+			<sec>
+				<title>Principles for the Regulation of Artificial Intelligence in Health</title>
+				<p>Traditional AI, used since the 1950s, is different from the latest machine learning and deep learning techniques, which represent the great regulatory challenge. Machine learning is a type of AI that allows computers to learn automatically, without an explicit programming. Deep learning is a subtype of machine learning that works with a class of algorithms that uses models inspired by the central nervous system of living organisms, which are called artificial neural networks.</p>
+				<p>Deep learning algorithms can learn extremely complex relations to recognize patterns, therefore, they can make clinically relevant predictions from complex and heterogeneous data from medical records, clinical imaging, sensor continuous monitoring, as well as genomic data<sup><xref ref-type="bibr" rid="B6">6</xref></sup>. Different from traditional regulatory objects, such as medicines and medical devices, these “self-taught” algorithms are constantly changing. The ability of those systems to learn from real-world experience (training) and continuously improve their performance (adaptation) makes these technologies unique. Regulating them is like hitting a continuously moving target.</p>
+				<p>Algorithmic regulation has become a relevant concern in legal systems worldwide and is currently under construction in different countries and international bodies. Binding regulatory instruments (laws) are few and have been focusing mainly on data privacy. In other respects, regulation begins to be structured by codes of conduct and non-binding guidelines (soft law) created by government bodies, expert councils that advice public entities, research institutes, and private companies<sup><xref ref-type="bibr" rid="B7">7</xref></sup>.</p>
+				<p>The World Health Organization aims convergence to guide governments and other international bodies on the use of AI in health. Thus, based on general ethical principles for the development of AI and the incorporation of elements of bioethics and the current health regulation, we point out six key principles for the regulation of AI systems in health: 1) autonomy; 2) non-maleficence/beneficence; 3) transparency; 4) responsibility; 5) equity; 6) responsiveness/sustainability<sup><xref ref-type="bibr" rid="B5">5</xref></sup>. These principles are interconnected, without hierarchy between them, and need to be instrumentalized together.</p>
+			</sec>
+			<sec>
+				<title>Algorithmic Transparency and the Right to Explanation</title>
+				<p>Transparency is the ethical principle most frequently found in general guidelines for the use of AI<sup><xref ref-type="bibr" rid="B7">7</xref></sup> and is a key principle for AI in health. Transparency means that enough information about AI technologies is documented prior to their implementation, in order to facilitate public consultation and the understanding of how they work in the real world. These systems are expected to be intelligible and explainable to developers, health professionals, patients, users, and regulators, according to the ability of each group, and even each individual, to understand.</p>
+				<p>Instrumentalizing algorithmic transparency is necessary for other key principles for the use of AI in healthcare to be effective<sup><xref ref-type="bibr" rid="B8">8</xref></sup>: the protection of human autonomy (in order to ensure that people remain in control of health systems and medical decisions), safety and efficacy regulatory requirements (ensuring that AI will not harm people but promote well-being), accountability in the use of AI technologies<sup><xref ref-type="bibr" rid="B9">9</xref></sup>, and the search for equity (promoting social inclusion and ensuring that algorithms will not reproduce any kind of prejudice and discrimination). The expression of all these principles requires transparency of AI systems.</p>
+				<p>Nowadays, the main mechanism to express algorithmic transparency is the right to explanation of automated decisions, which is considered a fundamental element in algorithmic regulation. This concept has been consolidating since the drafting of the European General Data Protection Regulation (GDPR), in force since May 2018. The data subject shall have “the right to obtain human intervention, to express his or her point of view, to obtain an explanation of the decision reached after such assessment and to challenge the decision.” That is, besides receiving an intelligible explanation, the data subject also has the right to be heard, to question, and to request review of automated decisions. This is called “algorithmic due process”<sup><xref ref-type="bibr" rid="B10">10</xref></sup>.</p>
+				<p>Thus, the right to explanation regards the recognition that everyone shall be guaranteed the right to know how AI decisions that affect their lives are made. Since the publication of the GDPR—even before it came into force—the existence and scope of the right to explanation of automated decisions has been intensely discussed. As an AI algorithm can use numerous variables to reach a certain result, the complex mathematical representation is, in most cases, unintelligible to humans; thus, algorithms are commonly called black-box systems<sup><xref ref-type="bibr" rid="B11">11</xref></sup>.</p>
+				<p>The discussion is currently divided into two interpretations: on the one hand, those who advocate the feasibility and scope of the right to explanation only with regard to the overall system functionality, rather than specific decisions and individual circumstances<sup><xref ref-type="bibr" rid="B12">12</xref></sup>, and on the other hand, those who understand that the explanation shall also include specific decisions, with transparency limited only by the intrinsic black-box algorithmic system<sup><xref ref-type="bibr" rid="B13">13</xref></sup>.</p>
+				<p>The right to explanation is important as it gives patients the possibility to understand the logic of automated decisions that affect their health care. Such concern shall be increasingly present in several clinical situations. Nowadays, for example, deep learning algorithms that are able to define criteria for organ transplants, such as allocation, correspondence between donor and recipient, and chances of survival of transplant patients, already exist<sup><xref ref-type="bibr" rid="B14">14</xref></sup>. Soon these algorithms can be used for this purpose and cause differences in the order of transplant waiting lists in comparison with those based on clinical criteria made only by humans. The right to explanation is related to human dignity and this type of decision can not be made based only on black-box systems.</p>
+			</sec>
+			<sec>
+				<title>The Right to Explanation from the General Personal Data Protection Law</title>
+				<p>Brazil enacted the LGPD in August 2018 and it entered into force in September 2020 (provisions on administrative sanctions only entered into force in August 2021). The LGPD is essentially devoted to personal data privacy and does not specifically address AI regulation,the terms “artificial intelligence” and “algorithm” do not even appear in the text. However, as it was openly inspired by the European GDPR and incorporated much of its rationality, this law introduces in Brazil the right to explanation and review of automated decisions.</p>
+				<p>The right to review of automated decisions is described in Article 20 of the LGPD, which grants data subjects the right to request review of decisions that affect their interests made based only on the automated processing of personal data, such as the GDPR. However, different from the European law, this Brazilian law does not provide the right not to be subject to exclusively automated decisions or to obtain human intervention in the case of a review. The original draft approved by the National Congress of Brazil provided the right of data subjects to request review of automated decisions “by a natural person”, but the provision was amended by a provisional measure that later became a law. Although Brazil excluded the requirement of human supervision from the LGPD, no fence prevents it to be required in non-statutory regulations.</p>
+				<p>The right to explanation does not appear in the text of the law (such as in the GDPR), but stems from the systematic interpretation of the LGPD along with constitutional provisions and consumer protection legislation<sup><xref ref-type="bibr" rid="B15">15</xref></sup>. Brazilian law guarantees to all those affected by automated decisions the right to obtain clear and adequate information on the criteria and procedures used. This is the expression of the principle of transparency, which can only be guaranteed by explanation.</p>
+				<p>The LGPD protects trade and industrial secrets in this and several other provisions, so that this consideration shall be made in non-statutory regulations and even in the analysis of specific cases. This trade secret protection may seem a way to promote the algorithm-based business model, but it must necessarily be weighed with the right to explanation of automated decisions in order to observe the ethical principles of using AI in line with human rights. The law itself provides an audit in case of suspected discrimination.</p>
+				<p>The rights to explanation and review of decisions of AI systems are necessarily linked and need to be understood together. Based on the European model, the configuration of these rights in Brazil still needs regulation and future doctrinal and jurisprudential elaboration, as it may occur in other countries.</p>
+			</sec>
+			<sec>
+				<title>The Challenge of Explainable Artificial Intelligence in Health</title>
+				<p>The right to explanation is linked to the limits of algorithmic transparency. AI system transparency focuses mainly on the process, that is, it allows people to understand how algorithms are developed and implemented in general terms. It may eventually include factors of a specific prediction or decision, but it does not usually share codes or datasets.</p>
+				<p>Therefore, the existence of some opacity is inevitable. This opacity is related to the black-box system, due to the complexity of the systems, but an opacity (intentionally) imposed by corporate or state secrecy also exists, as sharing specific codes or datasets may expose trade secrets or disclose sensitive user data. The opacity may also be due to the users’ “technological illiteracy”<sup><xref ref-type="bibr" rid="B16">16</xref></sup>.</p>
+				<p>In this sense, an explanation providing the entire decision-making process of a system is neither feasible nor necessary. This explanation is essential in situations where some failure needs to be detected in a specific part of the system, especially when algorithms are increasingly being used to make recommendations or decisions currently subject to human discretion. However, an explanation shall respond to one of the following points<sup><xref ref-type="bibr" rid="B17">17</xref></sup>: 1) main decision factors: showing important factors for an AI prediction, preferably ordered by significance; 2) determining decision factors: clarifying factors that decisively affect results; 3) divergent results: explaining why two similar cases may give different results<sup><xref ref-type="bibr" rid="B18">18</xref></sup>.</p>
+				<p>The field of explainable AI is rapidly expanding. Nowadays, companies, standards bodies, non-profit organizations, and public institutions are developing much technical research to create AI systems that can explain their predictions. Designing systems to provide explanation is complex and expensive if they are developed with the possibility of providing a certain type of explanation (“inherent explainability”) and especially if the explanation comes after the algorithmic decision (“<italic>post hoc</italic> explainability”)<sup><xref ref-type="bibr" rid="B19">19</xref></sup>. Therefore, the search for explainable models for high-risk areas, such as health care, has been driving research<sup><xref ref-type="bibr" rid="B20">20</xref></sup>.</p>
+				<p>However, the limits for explainable AI in health are quite relevant.</p>
+				<p>First, the existence of a trade-off between explainability and accuracy must be considered<sup><xref ref-type="bibr" rid="B21">21</xref></sup>. An explainable AI system, most of the time, needs to reduce solution variables to a set small enough to become accessible to human understanding. It may hinder the use of some systems in complex problems. Some deep learning models can accurately predict probabilities of clinical diagnoses but they are humanly incomprehensible. In this sense, a broader right to explanation, based on maximum transparency, may conflicts with the use of automated systems with high predictive accuracy.</p>
+				<p>Moreover, the techniques currently available for explainability are able to broadly describe how AI systems work in general, but they are very superficial or unreliable for individual decisions<sup><xref ref-type="bibr" rid="B22">22</xref></sup>. In practice, explanations can be very useful in global AI processes, such as model development and auditing, but are rarely informative about specific results given by algorithms.</p>
+				<p>Therefore, this current lack of transparency may persist, at least for some time. To some extent, opacity is a usual feature in clinical activity. Medicine traditionally adopts practices that involve mechanisms that are not fully understood but that continue to be widely used due to their proven effects, such as many medications. We must recognized the obstacles to develop an explainable AI in health and carefully consider them when elaborating regulatory mechanisms that consider the limits of explainability and consequently the scope of the right to explanation and review of automated decisions in health.</p>
+			</sec>
+		</sec>
+		<sec sec-type="conclusions">
+			<title>CONCLUSION</title>
+			<p>The application of the right to explanation in health shall include specific complexities of AI regulation for clinical use. As this right is now present in Brazilian legislation, regulatory bodies are responsible to limit its scope and mechanisms so that it can be instrumentalized. Besides the actions of the <italic>Autoridade Nacional de Proteção de Dados</italic> (ANPD – National Data Protection Authority), other regulatory bodies, such as the <italic>Agência Nacional de Vigilância Sanitária</italic> (ANVISA – Brazilian Health Regulatory Agency), and regulatory authorities of regulated professions, such as medical councils, shall intervene.</p>
+			<p>The exercise of the right to explanation in health depends on the creation of mechanisms for the development of explainable AI systems and on the recognition of the limits of algorithm explainability. The scope of this right must be defined based on criteria to be elaborated by regulatory authorities and need to be widely discussed with society. This discussion is just beginning.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>REFERENCES</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. Obermeyer Z, Emanuel EJ. Predicting the future: big data, machine learning, and clinical medicine. N Engl J Med. 2016;375(13):1216-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1056/NEJMp1606181">https://doi.org/10.1056/NEJMp1606181</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Obermeyer</surname>
+							<given-names>Z</given-names>
+						</name>
+						<name>
+							<surname>Emanuel</surname>
+							<given-names>EJ</given-names>
+						</name>
+					</person-group>
+					<article-title>Predicting the future: big data, machine learning, and clinical medicine</article-title>
+					<source>N Engl J Med</source>
+					<year>2016</year>
+					<volume>375</volume>
+					<issue>13</issue>
+					<fpage>1216</fpage>
+					<lpage>1219</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1056/NEJMp1606181">https://doi.org/10.1056/NEJMp1606181</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. Topol EJ. High-performance medicine: the convergence of human and artificial intelligence. Nat Med. 2019;25:44-56. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s41591-018-0300-7">https://doi.org/10.1038/s41591-018-0300-7</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Topol</surname>
+							<given-names>EJ</given-names>
+						</name>
+					</person-group>
+					<article-title>High-performance medicine: the convergence of human and artificial intelligence</article-title>
+					<source>Nat Med</source>
+					<year>2019</year>
+					<volume>25</volume>
+					<fpage>44</fpage>
+					<lpage>56</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s41591-018-0300-7">https://doi.org/10.1038/s41591-018-0300-7</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. World Health Organization. mHealth: use of appropriate digital technologies for public health: report by the director-general. In: 71. WHO Assembly; 2018 Mar 26; Geneva, Switzerland. Geneva (CH): WHO; 2018 [cited 2022 Feb 1]. Available from: <ext-link ext-link-type="uri" xlink:href="https://apps.who.int/gb/ebwha/pdf_files/WHA71/A71_20-en.pdf">https://apps.who.int/gb/ebwha/pdf_files/WHA71/A71_20-en.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="confproc">
+					<person-group person-group-type="author">
+						<collab>World Health Organization</collab>
+					</person-group>
+					<source>mHealth: use of appropriate digital technologies for public health: report by the director-general</source>
+					<conf-name>71. WHO Assembly</conf-name>
+					<conf-date>2018 Mar 26</conf-date>
+					<conf-loc>Geneva, Switzerland</conf-loc>
+					<publisher-loc>Geneva (CH)</publisher-loc>
+					<publisher-name>WHO</publisher-name>
+					<year>2018</year>
+					<date-in-citation content-type="cited-date">cited 2022 Feb 1</date-in-citation>
+					<ext-link ext-link-type="uri" xlink:href="https://apps.who.int/gb/ebwha/pdf_files/WHA71/A71_20-en.pdf">https://apps.who.int/gb/ebwha/pdf_files/WHA71/A71_20-en.pdf</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. Richman B. Health regulation for the digital age: correcting the mismatch. N Engl J Med. 2018;379(18):1694-5. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1056/NEJMp1806848">https://doi.org/10.1056/NEJMp1806848</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Richman</surname>
+							<given-names>B</given-names>
+						</name>
+					</person-group>
+					<article-title>Health regulation for the digital age: correcting the mismatch</article-title>
+					<source>N Engl J Med</source>
+					<year>2018</year>
+					<volume>379</volume>
+					<issue>18</issue>
+					<fpage>1694</fpage>
+					<lpage>1695</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1056/NEJMp1806848">https://doi.org/10.1056/NEJMp1806848</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. World Health Organization. Ethics and governance of artificial intelligence for health: WHO guidance. Geneva (CH): WHO; 2021 [cited 2022 Feb 1]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.who.int/publications/i/item/9789240029200">https://www.who.int/publications/i/item/9789240029200</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>World Health Organization</collab>
+					</person-group>
+					<source>Ethics and governance of artificial intelligence for health: WHO guidance</source>
+					<publisher-loc>Geneva (CH)</publisher-loc>
+					<publisher-name>WHO</publisher-name>
+					<year>2021</year>
+					<date-in-citation content-type="cited-date">cited 2022 Feb 1</date-in-citation>
+					<ext-link ext-link-type="uri" xlink:href="https://www.who.int/publications/i/item/9789240029200">https://www.who.int/publications/i/item/9789240029200</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. Rajkomar A, Dean J, Kohane I. Machine learning in medicine. N Engl J Med. 2019;380(14):1347-58. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1056/NEJMra1814259">https://doi.org/10.1056/NEJMra1814259</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rajkomar</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Dean</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Kohane</surname>
+							<given-names>I</given-names>
+						</name>
+					</person-group>
+					<article-title>Machine learning in medicine</article-title>
+					<source>N Engl J Med</source>
+					<year>2019</year>
+					<volume>380</volume>
+					<issue>14</issue>
+					<fpage>1347</fpage>
+					<lpage>1358</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1056/NEJMra1814259">https://doi.org/10.1056/NEJMra1814259</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. Jobin A, Ienca M, Vayena E. The global landscape of AI ethics guidelines. Nat Mach Intell. 2019;1:389-99. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s42256-019-0088-2">https://doi.org/10.1038/s42256-019-0088-2</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Jobin</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Ienca</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Vayena</surname>
+							<given-names>E</given-names>
+						</name>
+					</person-group>
+					<article-title>The global landscape of AI ethics guidelines</article-title>
+					<source>Nat Mach Intell</source>
+					<year>2019</year>
+					<volume>1</volume>
+					<fpage>389</fpage>
+					<lpage>399</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s42256-019-0088-2">https://doi.org/10.1038/s42256-019-0088-2</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Watson DS, Krutzina J, Bruce IN, Griffiths CE, McInnes IB, Barnes MR et al. Clinical applications of machine learning algorithms: beyond the black box. BMJ. 2019;364:l886. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/bmj.l886">https://doi.org/10.1136/bmj.l886</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Watson</surname>
+							<given-names>DS</given-names>
+						</name>
+						<name>
+							<surname>Krutzina</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Bruce</surname>
+							<given-names>IN</given-names>
+						</name>
+						<name>
+							<surname>Griffiths</surname>
+							<given-names>CE</given-names>
+						</name>
+						<name>
+							<surname>McInnes</surname>
+							<given-names>IB</given-names>
+						</name>
+						<name>
+							<surname>Barnes</surname>
+							<given-names>MR</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Clinical applications of machine learning algorithms: beyond the black box</article-title>
+					<source>BMJ</source>
+					<year>2019</year>
+					<volume>364</volume>
+					<fpage>l886</fpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/bmj.l886">https://doi.org/10.1136/bmj.l886</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. Vayena E, Blasimme A, Cohen IG. Machine learning in medicine: addressing ethical challenges. PLoS Med. 2018;15(11):e1002689. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pmed.1002689">https://doi.org/10.1371/journal.pmed.1002689</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Vayena</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Blasimme</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Cohen</surname>
+							<given-names>IG</given-names>
+						</name>
+					</person-group>
+					<article-title>Machine learning in medicine: addressing ethical challenges</article-title>
+					<source>PLoS Med</source>
+					<year>2018</year>
+					<volume>15</volume>
+					<issue>11</issue>
+					<elocation-id>e1002689</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pmed.1002689">https://doi.org/10.1371/journal.pmed.1002689</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. Kaminski ME. The right to explanation, explained. Berkeley Technol Law J. 2019;34(1):189-218. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.15779/Z38TD9N83H">https://doi.org/10.15779/Z38TD9N83H</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kaminski</surname>
+							<given-names>ME</given-names>
+						</name>
+					</person-group>
+					<article-title>The right to explanation, explained</article-title>
+					<source>Berkeley Technol Law J</source>
+					<year>2019</year>
+					<volume>34</volume>
+					<issue>1</issue>
+					<fpage>189</fpage>
+					<lpage>218</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.15779/Z38TD9N83H">https://doi.org/10.15779/Z38TD9N83H</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. Price WN II. Medical malpractice and black-box medicine. In: Cohen IG, Lynch HF, Vayena E, Gasser U, editors. Big data, health law, and Bioethics. Cambridge (UK): Cambridge University Press; 2018. Chapter 20; p. 295-306. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1017/9781108147972.027">https://doi.org/10.1017/9781108147972.027</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Price</surname>
+							<given-names>WN</given-names>
+							<suffix>II</suffix>
+						</name>
+					</person-group>
+					<chapter-title>Medical malpractice and black-box medicine</chapter-title>
+					<person-group person-group-type="editor">
+						<name>
+							<surname>Cohen</surname>
+							<given-names>IG</given-names>
+						</name>
+						<name>
+							<surname>Lynch</surname>
+							<given-names>HF</given-names>
+						</name>
+						<name>
+							<surname>Vayena</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Gasser</surname>
+							<given-names>U</given-names>
+						</name>
+						<role>editors</role>
+					</person-group>
+					<source>Big data, health law, and Bioethics</source>
+					<publisher-loc>Cambridge (UK)</publisher-loc>
+					<publisher-name>Cambridge University Press</publisher-name>
+					<year>2018</year>
+					<comment>Chapter 20</comment>
+					<fpage>295</fpage>
+					<lpage>306</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1017/9781108147972.027">https://doi.org/10.1017/9781108147972.027</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. Wachter S, Mittelstadt B, Floridi L. Why a right to explanation of automated decision-making does not exist in the General Data Protection Regulation. Int Data Priv Law. 2017;7(2):76-99. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/idpl/ipx005">https://doi.org/10.1093/idpl/ipx005</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Wachter</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Mittelstadt</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Floridi</surname>
+							<given-names>L</given-names>
+						</name>
+					</person-group>
+					<article-title>Why a right to explanation of automated decision-making does not exist in the General Data Protection Regulation</article-title>
+					<source>Int Data Priv Law</source>
+					<year>2017</year>
+					<volume>7</volume>
+					<issue>2</issue>
+					<fpage>76</fpage>
+					<lpage>99</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/idpl/ipx005">https://doi.org/10.1093/idpl/ipx005</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. Selbst AD, Powles J. Meaningful information and the right to explanation. Int Data Priv Law. 2017;7(4):233-42. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/idpl/ipx022">https://doi.org/10.1093/idpl/ipx022</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Selbst</surname>
+							<given-names>AD</given-names>
+						</name>
+						<name>
+							<surname>Powles</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>Meaningful information and the right to explanation</article-title>
+					<source>Int Data Priv Law</source>
+					<year>2017</year>
+					<volume>7</volume>
+					<issue>4</issue>
+					<fpage>233</fpage>
+					<lpage>242</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/idpl/ipx022">https://doi.org/10.1093/idpl/ipx022</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. Khorsandi SE, Hardgrave HJ, Osborn T, Klutts G, Nigh J, Spencer-Cole RT, et al. Artificial intelligence in liver transplantation. Transplant Proc. 2021;53(10):2939-44. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.transproceed.2021.09.045">https://doi.org/10.1016/j.transproceed.2021.09.045</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Khorsandi</surname>
+							<given-names>SE</given-names>
+						</name>
+						<name>
+							<surname>Hardgrave</surname>
+							<given-names>HJ</given-names>
+						</name>
+						<name>
+							<surname>Osborn</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Klutts</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Nigh</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Spencer-Cole</surname>
+							<given-names>RT</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Artificial intelligence in liver transplantation</article-title>
+					<source>Transplant Proc</source>
+					<year>2021</year>
+					<volume>53</volume>
+					<issue>10</issue>
+					<fpage>2939</fpage>
+					<lpage>2944</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.transproceed.2021.09.045">https://doi.org/10.1016/j.transproceed.2021.09.045</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. Monteiro R, Machado C, Silva L. The right to explanation in Brazilian data protection law. RIDDN [Internet]. 2021 [cited 2022 Feb 1];7(1):119-136. Available from: <ext-link ext-link-type="uri" xlink:href="https://ojs.imodev.org/?journal=RIDDN&amp;page=article&amp;op=view&amp;path%5B%5D=406">https://ojs.imodev.org/?journal=RIDDN&amp;page=article&amp;op=view&amp;path%5B%5D=406</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Monteiro</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Machado</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Silva</surname>
+							<given-names>L</given-names>
+						</name>
+					</person-group>
+					<article-title>The right to explanation in Brazilian data protection law</article-title>
+					<source>RIDDN</source>
+					<comment>Internet</comment>
+					<year>2021</year>
+					<date-in-citation content-type="cited-date">cited 2022 Feb 1</date-in-citation>
+					<volume>7</volume>
+					<issue>1</issue>
+					<fpage>119</fpage>
+					<lpage>136</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://ojs.imodev.org/?journal=RIDDN&amp;page=article&amp;op=view&amp;path%5B%5D=406">https://ojs.imodev.org/?journal=RIDDN&amp;page=article&amp;op=view&amp;path%5B%5D=406</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. Burrell J. How the machine ‘thinks’: understanding opacity in machine learning algorithms. Big Data Soc. 2016;3(1):1-12. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/2053951715622512">https://doi.org/10.1177/2053951715622512</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Burrell</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>How the machine ‘thinks’: understanding opacity in machine learning algorithms</article-title>
+					<source>Big Data Soc</source>
+					<year>2016</year>
+					<volume>3</volume>
+					<issue>1</issue>
+					<fpage>1</fpage>
+					<lpage>12</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/2053951715622512">https://doi.org/10.1177/2053951715622512</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Organisation for Economic Co-Operation and Development. Artificial Intelligence in society. Paris (FR): Éditions OCDE; 2019.</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>Organisation for Economic Co-Operation and Development</collab>
+					</person-group>
+					<source>Artificial Intelligence in society</source>
+					<publisher-loc>Paris (FR)</publisher-loc>
+					<publisher-name>Éditions OCDE</publisher-name>
+					<year>2019</year>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18. Doshi-Velez F, Kortz M, Budish R, Bavitz C, Gershman S, O’Brien D, et al. Accountability of AI under the law: the role of explanation. arXiv:1711.01134v3 [Preprint]. 2017 [cited 2017 Nov 3; revised 2019 Dec 20]. Available from: <ext-link ext-link-type="uri" xlink:href="https://arxiv.org/abs/1711.01134v3">https://arxiv.org/abs/1711.01134v3</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Doshi-Velez</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Kortz</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Budish</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Bavitz</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Gershman</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>O’Brien</surname>
+							<given-names>D</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Accountability of AI under the law: the role of explanation</article-title>
+					<source>arXiv:1711.01134v3</source>
+					<comment>Preprint</comment>
+					<year>2017</year>
+					<date-in-citation content-type="cited-date">cited 2017 Nov 3</date-in-citation>
+					<comment>revised 2019 Dec 20</comment>
+					<ext-link ext-link-type="uri" xlink:href="https://arxiv.org/abs/1711.01134v3">https://arxiv.org/abs/1711.01134v3</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19. Lipton ZC. The mythos of model interpretability: in machine learning, the concept of interpretability is both important and slippery. Queue. 2018;16(3):31-57. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1145/3236386.3241340">https://doi.org/10.1145/3236386.3241340</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lipton</surname>
+							<given-names>ZC</given-names>
+						</name>
+					</person-group>
+					<article-title>The mythos of model interpretability: in machine learning, the concept of interpretability is both important and slippery</article-title>
+					<source>Queue</source>
+					<year>2018</year>
+					<volume>16</volume>
+					<issue>3</issue>
+					<fpage>31</fpage>
+					<lpage>57</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1145/3236386.3241340">https://doi.org/10.1145/3236386.3241340</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20. Holzinger A, Biemann C, Pattichis CS, Kell DB. What do we need to build explainable AI systems for the medical domain? arXiv:1712.09923v1 [Preprint]. 2017 [cited 2017 Dec 28]. Available from: <ext-link ext-link-type="uri" xlink:href="https://arxiv.org/abs/1712.09923v1">https://arxiv.org/abs/1712.09923v1</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Holzinger</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Biemann</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Pattichis</surname>
+							<given-names>CS</given-names>
+						</name>
+						<name>
+							<surname>Kell</surname>
+							<given-names>DB</given-names>
+						</name>
+					</person-group>
+					<article-title>What do we need to build explainable AI systems for the medical domain?</article-title>
+					<source>arXiv:1712.09923v1</source>
+					<comment>Preprint</comment>
+					<year>2017</year>
+					<date-in-citation content-type="cited-date">cited 2017 Dec 28</date-in-citation>
+					<ext-link ext-link-type="uri" xlink:href="https://arxiv.org/abs/1712.09923v1">https://arxiv.org/abs/1712.09923v1</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>21. London AJ. Artificial Intelligence and black-box medical decisions: accuracy versus explainability. Hastings Cent Rep. 2019;49(1):15-21. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/hast.973">https://doi.org/10.1002/hast.973</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>London</surname>
+							<given-names>AJ</given-names>
+						</name>
+					</person-group>
+					<article-title>Artificial Intelligence and black-box medical decisions: accuracy versus explainability</article-title>
+					<source>Hastings Cent Rep</source>
+					<year>2019</year>
+					<volume>49</volume>
+					<issue>1</issue>
+					<fpage>15</fpage>
+					<lpage>21</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/hast.973">https://doi.org/10.1002/hast.973</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>22. Ghassemi M, Oakden-Rayner Luke, Beam AL. The false hope of current approaches to explainable artificial intelligence in health care. Lancet Digit Health. 2021;3(11):e745-50. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S2589-7500(21)00208-9">https://doi.org/10.1016/S2589-7500(21)00208-9</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ghassemi</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Luke</surname>
+							<given-names>Oakden-Rayner</given-names>
+						</name>
+						<name>
+							<surname>Beam</surname>
+							<given-names>AL</given-names>
+						</name>
+					</person-group>
+					<article-title>The false hope of current approaches to explainable artificial intelligence in health care</article-title>
+					<source>Lancet Digit Health</source>
+					<year>2021</year>
+					<volume>3</volume>
+					<issue>11</issue>
+					<fpage>e745</fpage>
+					<lpage>e750</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S2589-7500(21)00208-9">https://doi.org/10.1016/S2589-7500(21)00208-9</ext-link>
+				</element-citation>
+			</ref>
+		</ref-list>
+	</back>
+	<sub-article article-type="translation" id="TRpt" xml:lang="pt">
+		<front-stub>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Comentário</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>A regulação da inteligência artificial na saúde no Brasil começa com a Lei Geral de Proteção de Dados Pessoais</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-9380-0768</contrib-id>
+					<name>
+						<surname>Dourado</surname>
+						<given-names>Daniel de Araujo</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff2002"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-1971-9130</contrib-id>
+					<name>
+						<surname>Aith</surname>
+						<given-names>Fernando Mussa Abujamra</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff2002"><sup>II</sup></xref>
+					<xref ref-type="aff" rid="aff3002"><sup>III</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1002">
+				<label>I</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Universidade de São Paulo. Centro de Pesquisa em Direito Sanitário. São Paulo, SP, Brasil</institution>
+			</aff>
+			<aff id="aff2002">
+				<label>II</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Universidade de São Paulo. Faculdade de Medicina. Programa de Pós-Graduação em Saúde Coletiva. São Paulo, SP, Brasil</institution>
+			</aff>
+			<aff id="aff3002">
+				<label>III</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Universidade de São Paulo. Faculdade de Saúde Pública. Departamento de Política, Gestão e Saúde. São Paulo, SP, Brasil</institution>
+			</aff>
+			<author-notes>
+				<corresp id="c01002"> Correspondência: Daniel A. Dourado Av. Dr. Arnaldo, 715 01246-904 São Paulo, SP, Brasil E-mail: dadourado@usp.br </corresp>
+				<fn fn-type="con">
+					<p>Contribuição dos Autores: Concepção e planejamento do estudo: DAD, FMAA. Coleta, análise e interpretação dos dados: DAD. Elaboração ou revisão do manuscrito: DAD, FMAA. Aprovação da versão final: DAD, FMAA. Responsabilidade pública pelo conteúdo do artigo: DAD, FMAA.</p>
+				</fn>
+				<fn fn-type="conflict">
+					<p>Conflito de Interesses: Os autores declaram não haver conflito de interesses.</p>
+				</fn>
+			</author-notes>
+			<abstract>
+				<title>RESUMO</title>
+				<p>A inteligência artificial se desenvolve rapidamente e a saúde é uma das áreas em que as novas tecnologias desse campo são mais promissoras. O uso de inteligência artificial tem potencial para modificar a forma de prestação da assistência à saúde e do autocuidado, além de influenciar a organização dos sistemas de saúde. Por isso, a regulação da inteligência artificial na saúde é um tema emergente e essencial. Leis e normas específicas são elaboradas em todo o mundo. No Brasil, o marco inicial dessa regulação é a Lei Geral de Proteção de Dados Pessoais, a partir do reconhecimento do direito à explicação e à revisão de decisões automatizadas. É preciso debater a abrangência desse direito, considerando a necessária instrumentalização da transparência no uso da inteligência artificial na saúde e os limites atualmente existentes, como a dimensão caixa-preta inerente aos algoritmos e o <italic>trade-off</italic> existente entre explicabilidade e precisão dos sistemas automatizados.</p>
+			</abstract>
+			<kwd-group xml:lang="pt">
+				<kwd>Pesquisa sobre Serviços de Saúde</kwd>
+				<kwd>Inteligência Artificial, legislação &amp; jurisprudência</kwd>
+				<kwd>Aprendizado de Máquina</kwd>
+				<kwd>Direito Sanitário</kwd>
+			</kwd-group>
+		</front-stub>
+		<body>
+			<sec sec-type="intro">
+				<title>INTRODUÇÃO</title>
+				<p>A inteligência artificial (IA) começa a mudar o mundo como conhecemos e é uma das tecnologias mais promissoras para a área da saúde. O uso da IA na saúde, particularmente o subtipo <italic>deep learning</italic><sup><xref ref-type="bibr" rid="B1">1</xref></sup>, deve ter impacto significativo nos próximos anos na prática clínica, na gestão de sistemas de saúde e na relação entre os pacientes e a rede assistencial – ao permitir que eles processem seus próprios dados para promover a saúde<sup><xref ref-type="bibr" rid="B2">2</xref></sup>. A Saúde Digital vai transformar a estrutura dos serviços de saúde e dos sistemas nacionais de saúde, com grande potencial para melhoria de qualidade e redução de custos na assistência<sup><xref ref-type="bibr" rid="B3">3</xref></sup>.</p>
+				<p>Por isso, a regulação da IA é hoje tema essencial no campo da saúde. Como toda intervenção que afeta a saúde, a incorporação dessas novas tecnologias precisa ser estimulada ao mesmo tempo em que se organiza uma estrutura regulatória capaz de assegurar que seu uso seja impreterivelmente em benefício dos seres humanos. Os sistemas de IA devem ter qualidade e segurança comprovadas e deve-se reconhecer que as ações e serviços, que sempre foram prestados principalmente por pessoas, começam a ser fortemente influenciados e até mesmo executados por sistemas automatizados. É um cenário que desafia pressupostos básicos da regulação em saúde<sup><xref ref-type="bibr" rid="B4">4</xref></sup>.</p>
+				<p>Até o início do ano de 2022, ainda não havia diretrizes ou leis específicas para regular o uso da inteligência artificial na assistência à saúde<sup><xref ref-type="bibr" rid="B5">5</xref></sup>. Esse debate está em andamento em muitos países e entidades internacionais e chega ao Brasil com a Lei Geral de Proteção de Dados Pessoais (LGPD – Lei Federal n<sup>o</sup> 13.709/2018), passando a vigorar e instituindo o direito à explicação e à revisão de decisões automatizadas no ordenamento jurídico brasileiro. Trata-se da expressão normativa do princípio da transparência de algoritmos, que é ponto central na regulação dos sistemas de IA.</p>
+				<p>Este artigo tem por objetivo discutir a abrangência do direito à explicação e à revisão de decisões automatizadas na regulação da IA na saúde no Brasil a partir do marco da LGPD, considerando o debate internacional sobre o tema os limites atualmente existentes para IA explicável na área da saúde.</p>
+				<sec>
+					<title>Princípios para Regulação da Inteligência Artificial na Saúde</title>
+					<p>É importante diferenciar a IA tradicional – usada desde a década de 1950 – das técnicas mais recentes de <italic>machine learning</italic> e <italic>deep learning</italic>, porque são elas que representam o grande desafio regulatório. <italic>Machine learning</italic> é um tipo de IA que permite aos computadores aprender automaticamente, sem programação explicíta. <italic>Deep learning</italic> é um subtipo de <italic>machine learning</italic> que consiste em uma classe de algoritmos que usam modelos inspirados no sistema nervoso central de organismos vivos, denominados redes neurais artificiais.</p>
+					<p>Os algoritmos de <italic>deep learning</italic> podem aprender relações extremamente complexas para reconhecimento de padrões e, por isso, podem ajudar a fazer previsões clinicamente relevantes a partir de dados complexos e heterogêneos, gerados em atendimento clínico, como registros médicos, imagens clínicas, dados de monitoramento contínuo de sensores e dados genômicos<sup><xref ref-type="bibr" rid="B6">6</xref></sup>. Diferentemente dos objetos da regulação tradicional, como medicamentos e dispositivos médicos, esses algoritmos “autodidatas” estão em constante mudança. A capacidade desses sistemas de aprender com a experiência do mundo real (treinamento) e melhorar continuamente o desempenho (adaptação) torna essas tecnologias únicas. Regulá-los é como atingir um alvo em contínuo movimento.</p>
+					<p>A regulação de algoritmos tem se tornado uma preocupação relevante nos sistemas jurídicos em todo o mundo e, atualmente, está em construção em diferentes países e órgãos internacionais. Os instrumentos normativos vinculantes (leis) são escassos e têm se concentrado principalmente no campo da privacidade dos dados. Nos demais aspectos, a abordagem regulatória começa a se estruturar por meio de códigos de conduta e diretrizes não vinculantes (<italic>soft law</italic>), produzidos por entidades governamentais, conselhos de especialistas para assessoramento de entes públicos, institutos de pesquisa e empresas privadas<sup><xref ref-type="bibr" rid="B7">7</xref></sup>.</p>
+					<p>A Organização Mundial da Saúde tem buscado convergência para orientar os governos e as demais entidades internacionais no uso da IA na saúde. Nesse sentido, a partir de princípios éticos gerais para desenvolvimento de IA e da incorporação de elementos da bioética e da atual regulação em saúde, identificam-se seis princípios-chave para a regulação dos sistemas de IA na saúde: 1) autonomia; 2) não-maleficência/beneficência; 3) transparência; 4) responsabilidade; 5) equidade; 6) responsividade/sustentabilidade<sup><xref ref-type="bibr" rid="B5">5</xref></sup>. Esses princípios estão interligados, sem hierarquia entre eles, e precisam ser instrumentalizados conjuntamente.</p>
+				</sec>
+				<sec>
+					<title>Transparência Algorítmica e Direito à Explicação</title>
+					<p>A transparência é o princípio ético mais frequentemente encontrado nos códigos de diretrizes gerais para o uso da IA<sup><xref ref-type="bibr" rid="B7">7</xref></sup> e é um princípio-chave para a IA na saúde. Transparência significa que informações suficientes sobre as tecnologias de IA sejam documentadas antes da implantação de modo a facilitar consulta pública e entendimento sobre seu funcionamento no mundo real. Espera-se que os sistemas sejam inteligíveis e explicáveis para desenvolvedores, profissionais de saúde, pacientes, usuários e reguladores, de acordo com a capacidade de compreensão de cada grupo e mesmo de cada indivíduo.</p>
+					<p>Instrumentalizar a transparência dos algoritmos é necessário para que outros princípios-chave do uso da IA na saúde tenham eficácia<sup><xref ref-type="bibr" rid="B8">8</xref></sup>: a proteção da autonomia humana, para assegurar que as pessoas permaneçam no controle dos sistemas de saúde e das decisões médicas; os requisitos regulatórios de segurança e eficácia, que garantam que a IA não prejudique as pessoas e promova o bem-estar; a prestação de contas (<italic>accountability</italic>) no uso de tecnologias de IA<sup><xref ref-type="bibr" rid="B9">9</xref></sup>; a busca de equidade, que promova inclusão social e assegure que algoritmos não reproduzam qualquer tipo de preconceito e discriminação. A expressão de todos esses princípios pressupõe transparência dos sistemas de IA.</p>
+					<p>Atualmente, o principal mecanismo para expressão da transparência algorítmica tem sido o direito à explicação (<italic>right to explanation</italic>) sobre decisões automatizadas, considerado elemento fundamental na regulação de algoritmos. Esse conceito vem se consolidando desde a elaboração do Regulamento Geral sobre a Proteção de Dados da União Europeia (mais comumente identificado pela sigla GDPR, do inglês <italic>General Data Protection Regulation</italic>), em vigor desde maio de 2018. O titular dos dados deve ter “o direito de obter a intervenção humana, de manifestar o seu ponto de vista, de obter uma explicação sobre a decisão tomada na sequência dessa avaliação e de contestar a decisão”. Ou seja, além de receber uma explicação inteligível, cria-se o direito à oportunidade de ser ouvido, de questionar e pedir revisão da decisão automatizada. É o que vem sendo chamado de “devido processo algorítmico”<sup><xref ref-type="bibr" rid="B10">10</xref></sup>.</p>
+					<p>Em suma, o direito à explicação diz respeito ao reconhecimento de que deve ser assegurado a todas as pessoas o direito de saber como são tomadas as decisões baseadas em IA que afetam suas vidas. Desde a publicação do GDPR, mesmo antes de sua entrada em vigor, há intensas discussões sobre a existência e o alcance do direito à explicação nas decisões automatizadas. Como um algoritmo de IA pode usar inúmeras variáveis para chegar a um determinado resultado, a forma complexa de representação matemática é, na maior parte das vezes, ininteligível para os humanos – por isso os algoritmos são comumente chamados de sistemas de “caixa-preta”<sup><xref ref-type="bibr" rid="B11">11</xref></sup>.</p>
+					<p>Em linhas gerais, o debate atualmente se divide em duas interpretações. Por um lado, os que defendem a viabilidade e o escopo do direito à explicação apenas no que diz respeito à funcionalidade geral do sistema, ao invés de sobre decisões específicas e circunstâncias individuais<sup><xref ref-type="bibr" rid="B12">12</xref></sup>. Por outro lado, há o entendimento de que a explicação também deve incluir decisões específicas, com transparência limitada apenas pela dimensão intrinsecamente de caixa-preta dos algoritmos<sup><xref ref-type="bibr" rid="B13">13</xref></sup>.</p>
+					<p>A importância do direito à explicação é dar aos pacientes a possibilidade de compreender a lógica de decisões automatizadas que impactem condutas tomadas nos seus cuidados de saúde. Tal preocupação deve estar cada vez mais presente em diversas situações clínicas. Por exemplo, atualmente já existem algoritmos de <italic>deep learning</italic> capazes de definir critérios para transplantes de órgãos, como alocação, correspondência entre doador e receptor e de previsão de sobrevida dos pacientes transplantados<sup><xref ref-type="bibr" rid="B14">14</xref></sup>. É bem possível que em breve esses algoritmos possam ser usados para essa finalidade e que haja diferenças de ordem nas filas de transplantes em comparação com as definidas por critérios clínicos feitas apenas por humanos. O direito à explicação relaciona-se à dignidade humana e não será aceitável que decisões dessa natureza sejam tomadas apenas com base em sistemas do tipo caixa-preta.</p>
+				</sec>
+				<sec>
+					<title>Direito à Explicação a Partir da Lei Geral de Proteção de Dados Pessoais</title>
+					<p>No Brasil, a LGPD foi promulgada em agosto de 2018 e entrou em vigor em setembro de 2020 (os dispositivos referentes às sanções administrativas só entraram em vigor em agosto de 2021). Fazendo jus a seu nome, a LGPD é essencialmente dedicada à privacidade de dados pessoais e não trata especificamente da regulação de IA – os termos “inteligência artificial” e “algoritmo” sequer aparecem no texto. Mas como foi abertamente inspirada no GDPR europeu e incorporou muito da sua racionalidade, a lei introduz no direito brasileiro o direito à explicação e à revisão de decisões automatizadas.</p>
+					<p>O direito à revisão de decisões automatizadas está definido explicitamente no texto do art. 20 da LGPD, que concede ao titular o direito a solicitar a revisão de decisões tomadas unicamente com base em tratamento automatizado de dados pessoais que afetem seus interesses, a exemplo do GDPR. Diferentemente da legislação europeia, a lei brasileira não prevê o direito de não se sujeitar a decisão exclusivamente automatizada e nem de obter intervenção humana em caso de revisão. A redação original aprovada pelo Congresso Nacional previa o direito do titular de solicitar revisão de decisões automatizadas “por pessoa natural”, mas o dispositivo foi alterado por medida provisória, posteriormente convertida em lei. Vale ressaltar que, embora a obrigação de supervisão humana tenha sido excluída da LGPD, não há vedação para que essa exigência seja feita na regulamentação infralegal.</p>
+					<p>O direito à explicação não aparece textualmente (assim como no GDPR), mas decorre da interpretação sistemática da própria LGPD em conjunto com dispositivos constitucionais e da legislação de proteção ao consumidor<sup><xref ref-type="bibr" rid="B15">15</xref></sup>. A lei brasileira garante a todo aquele afetado por decisões automatizadas o direito a obter informações claras e adequadas a respeito dos critérios e dos procedimentos utilizados. Isso é a expressão do princípio da transparência, que só pode ser garantido por meio da explicação.</p>
+					<p>A LGPD ressalva os segredos comercial e industrial nesse e em diversos outros dispositivos, de modo que essa ponderação deverá ser feita na regulamentação infralegal e mesmo na análise de casos concretos. A proteção dos segredos de negócio na LGPD pode ser vista como uma forma de fomentar o modelo empresarial baseado em algoritmos, mas deve necessariamente ser sopesada com o direito à explicação sobre decisões automatizadas a fim de observar os princípios éticos de uso da IA em harmonia com os direitos humanos. A própria lei sinaliza nesse sentido ao prever a realização de auditoria em caso de suspeita de discriminação.</p>
+					<p>Os direitos à explicação e à revisão de decisões de sistemas de IA estão necessariamente vinculados e precisam ser compreendidos conjuntamente. Assim como deve acontecer em outros países, com base no modelo europeu, a configuração desses direitos no Brasil ainda necessita de regulamentação e de futura elaboração doutrinária e jurisprudencial.</p>
+				</sec>
+				<sec>
+					<title>O Desafio da Inteligência Artificial Explicável na Saúde</title>
+					<p>O direito à explicação está vinculado aos limites da transparência algorítmica. A transparência de um sistema de IA se concentra principalmente no processo, ou seja, trata-se de permitir que as pessoas entendam como os algoritmos são desenvolvidos e implantados em termos gerais. Eventualmente pode incluir elementos sobre fatores de uma previsão ou decisão específica, mas em regra não inclui o compartilhamento de códigos ou conjuntos de dados.</p>
+					<p>Logo, a existência de alguma opacidade é inevitável. Essa opacidade tem relação com a dimensão de caixa-preta, pela complexidade dos sistemas, mas não só. Há também opacidade imposta por sigilo corporativo ou de Estado (intencional), pois o compartilhamento de códigos ou conjuntos de dados específicos pode revelar segredos comerciais ou divulgar dados confidenciais do usuário. E opacidade decorrente do próprio “analfabetismo técnico” dos usuários<sup><xref ref-type="bibr" rid="B16">16</xref></sup>.</p>
+					<p>Nesse sentido, não é viável nem necessário que uma explicação forneça todo o processo de tomada de decisão do sistema. A explicação é essencial para situações em que alguma falha precisa ser determinada em uma instância específica do sistema, sobretudo quando algoritmos começam a ser cada vez mais usados para fazer recomendações ou decisões atualmente sujeitas à discrição humana. Mas é suficiente que a explicação consiga responder a um dos seguintes pontos<sup><xref ref-type="bibr" rid="B17">17</xref></sup>: 1) principais fatores de decisão: indicar os fatores importantes para uma previsão de IA, preferencialmente ordenados por significância; 2) fatores determinantes de decisão: esclarecer fatores que afetam decisivamente o resultado; 3) resultados divergentes: explicar por que dois casos de aparência semelhante podem resultar em resultados diferentes<sup><xref ref-type="bibr" rid="B18">18</xref></sup>.</p>
+					<p>O campo de IA explicável está em acelerada expansão. Atualmente há muitas pesquisas técnicas em desenvolvimento por empresas, órgãos de normalização, organizações sem fins lucrativos e instituições públicas com intuito de criar sistemas de IA que possam explicar suas previsões. Projetar um sistema para fornecer explicações é complexo e caro, tanto se forem desenvolvidos prevendo a possibilidade de fornecer um certo tipo de explicação (“explicabilidade inerente”) quanto principalmente se explicações forem buscadas após a decisão algorítmica (“explicabilidade <italic>post hoc</italic>”)<sup><xref ref-type="bibr" rid="B19">19</xref></sup>. Por isso, as pesquisas têm sido impulsionadas sobretudo na busca de modelos explicáveis para áreas de alto risco, como é o caso do uso na assistência à saúde<sup><xref ref-type="bibr" rid="B20">20</xref></sup>.</p>
+					<p>No entanto, os limites para a IA explicável na saúde são bastante relevantes.</p>
+					<p>Primeiramente, é preciso considerar que existe um <italic>trade-off</italic> entre explicabilidade e precisão<sup><xref ref-type="bibr" rid="B21">21</xref></sup>. Para que um sistema de IA seja explicável, na maioria das vezes é necessária uma redução das variáveis da solução a um conjunto pequeno o suficiente para que fique acessível ao entendimento humano. Isso pode inviabilizar o uso de alguns sistemas em problemas complexos. Alguns modelos de <italic>deep learning</italic> podem prever probabilidades de diagnósticos clínicos com precisão, mas serem humanamente incompreensíveis. Nesse sentido, um direito à explicação mais amplo, baseado na máxima transparência, pode ser incompatível com o uso de sistemas automatizados que busquem alta acurácia preditiva.</p>
+					<p>Além disso, as técnicas atualmente disponíveis para explicabilidade são capazes de oferecer descrições amplas de como o sistema de IA funciona em sentido geral, mas são muito superficiais ou não confiáveis para decisões individuais<sup><xref ref-type="bibr" rid="B22">22</xref></sup>. Na prática, as explicações podem ser muito úteis em processos globais de IA, como desenvolvimento de modelo e auditoria, mas raramente são informativas com relação a resultados específicos dados pelos algoritmos.</p>
+					<p>Portanto, a atual falta de transparência deve persistir, ao menos por algum tempo. Em certa medida, opacidade é uma característica usual na atividade clínica. A medicina tradicionalmente adota práticas que envolvem mecanismos não totalmente compreendidos, mas que continuam sendo amplamente usados, devido aos efeitos comprovados, como é o caso de muitos medicamentos. Os obstáculos para desenvolver uma IA explicável na saúde devem ser reconhecidos e bem ponderados na construção de mecanismos regulatórios que considerem os limites da explicabilidade e consequentemente a abrangência do direito à explicação e à revisão de decisões automatizadas na assistência à saúde.</p>
+				</sec>
+			</sec>
+			<sec sec-type="conclusions">
+				<title>CONCLUSÃO</title>
+				<p>A aplicação do direito à explicação na saúde deverá contemplar complexidades específicas da regulação da IA para uso clínico. Partindo do entendimento de que esse direito está agora presente na legislação brasileira, caberá aos órgãos reguladores delimitar a sua amplitude e mecanismos para que possa ser instrumentalizado. Além da atuação da Autoridade Nacional de Proteção de Dados, deve haver intervenção de outros órgãos reguladores, como a Agência Nacional de Vigilância Sanitária e das autoridades reguladoras de profissões regulamentadas, como os conselhos de medicina.</p>
+				<p>O exercício do direito à explicação na saúde depende da criação de mecanismos para criação de sistemas de inteligência artificial explicáveis e do reconhecimento dos limites da explicabilidade de algoritmos. A abrangência desse direito deve ser definida a partir de critérios a serem elaborados por autoridades reguladoras e precisam ser amplamente discutidos com a sociedade. Esse debate está apenas começando.</p>
+			</sec>
+		</body>
+		<back/>
+	</sub-article>
+</article>

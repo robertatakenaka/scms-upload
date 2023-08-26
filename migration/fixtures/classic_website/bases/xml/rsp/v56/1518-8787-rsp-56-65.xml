@@ -1,0 +1,1812 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.1" specific-use="sps-1.9" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="nlm-ta">Rev Saude Publica</journal-id>
+			<journal-id journal-id-type="publisher-id">rsp</journal-id>
+			<journal-title-group>
+				<journal-title>Revista de Saúde Pública</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Rev. Saúde Pública</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="ppub">0034-8910</issn>
+			<issn pub-type="epub">1518-8787</issn>
+			<publisher>
+				<publisher-name>Faculdade de Saúde Pública da Universidade de São Paulo</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="other">00254</article-id>
+			<article-id pub-id-type="doi">10.11606/s1518-8787.2022056003681</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Original Article</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Mortality attributed to sickle cell disease in children and adolescents in Brazil, 2000–2019</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-9001-8543</contrib-id>
+					<name>
+						<surname>Nascimento</surname>
+						<given-names>Maria Isabel do</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-4635-2258</contrib-id>
+					<name>
+						<surname>Przibilski</surname>
+						<given-names>Ana Luísa Ferreira</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-7569-2465</contrib-id>
+					<name>
+						<surname>Coelho</surname>
+						<given-names>Carolina Sampaio Gomes</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-0794-8585</contrib-id>
+					<name>
+						<surname>Leite</surname>
+						<given-names>Katyslaine Frossard de Amorim</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-6796-4440</contrib-id>
+					<name>
+						<surname>Makenze</surname>
+						<given-names>Mariana</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-4032-446X</contrib-id>
+					<name>
+						<surname>Jesus</surname>
+						<given-names>Stella Bayer de</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>I</label>
+				<institution content-type="orgname">Universidade Federal Fluminense</institution>
+				<institution content-type="orgdiv1">Faculdade de Medicina</institution>
+				<addr-line>
+					<named-content content-type="city">Niterói</named-content>
+					<named-content content-type="state">RJ</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Universidade Federal Fluminense. Faculdade de Medicina. Mestrado Profissional em Saúde Materno Infantil. Niterói, RJ, Brasil</institution>
+			</aff>
+			<aff id="aff2">
+				<label>II</label>
+				<institution content-type="orgname">Universidade Federal Fluminense</institution>
+				<institution content-type="orgdiv1">Faculdade de Medicina</institution>
+				<institution content-type="orgdiv2">Programa de Iniciação Científica</institution>
+				<addr-line>
+					<named-content content-type="city">Niterói</named-content>
+					<named-content content-type="state">RJ</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Universidade Federal Fluminense. Faculdade de Medicina. Programa de Iniciação Científica. Niterói, RJ, Brasil</institution>
+			</aff>
+			<author-notes>
+				<corresp id="c01"> Correspondence: Maria Isabel do Nascimento Universidade Federal Fluminense Rua Marquês do Paraná, 303 2º andar 24033-900 Niterói, RJ, Brasil E-mail: <email>maria_isabel@id.uff.br</email>
+				</corresp>
+				<fn fn-type="con">
+					<p>Authors’ Contribution: Study design and planning: MIN, ALFP, CSGC, KFAL, MM, SBJ. Data collection, analysis, and interpretation: ALFP, CSGC, KFAL, MM, SBJ. Manuscript development and review: MIN, ALFP, CSGC, KFAL, MM, SBJ. All authors approved the final version and take responsibility for the content of the article.</p>
+				</fn>
+				<fn fn-type="conflict">
+					<p>Conflict of Interest: The authors declare no conflict of interest.</p>
+				</fn>
+			</author-notes>
+			<pub-date date-type="pub" publication-format="electronic">
+				<day>01</day>
+				<month>07</month>
+				<year>2022</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">
+				<year>2022</year>
+			</pub-date>
+			<volume>56</volume>
+			<elocation-id>65</elocation-id>
+			<history>
+				<date date-type="received">
+					<day>20</day>
+					<month>03</month>
+					<year>2021</year>
+				</date>
+				<date date-type="accepted">
+					<day>8</day>
+					<month>08</month>
+					<year>2021</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="en">
+					<license-p> This is an Open Access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. </license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>ABSTRACT</title>
+				<sec>
+					<title>OBJECTIVE</title>
+					<p> Estimate rates and describe mortality trends attributed to sickle cell disease in children and adolescents in Brazil from 2000 to 2019.</p>
+				</sec>
+				<sec>
+					<title>METHODS</title>
+					<p> This is an ecological study of the time-trend of mortality rates that used the autoregressive method, proposed by Prais-Winsten, to evaluate trends in the estimated rates of sickle cell disease deaths in children and adolescents in Brazil. Deaths with code D57 were obtained from the Mortality Information System, considering age groups (0–4, 5–9, 10–14, 15–19 years) and were used to estimate age-specific and standardized rates by gender and age.</p>
+				</sec>
+				<sec>
+					<title>RESULTS</title>
+					<p> From 2000 to 2019, Brazil had 2,422 deaths from sickle cell disease in people under 20 years of age, with higher frequency in the Northeast (40.46%), followed by the Southeast (39.02%), Midwest (9.58%), North (7.84%), and South (3.10%). The main victims were people of Black skin/race (78.73%). In Brazil, the global standardized average rate was 0.20/100,000 people-year, with an elevation trend (annual percentage change – APC = 5.44%; confidence interval – 95%CI: 2.57–8.39). The pattern was repeated in males (APC = 4.38%; 95%CI: 2.17–6.64) and females (APC = 6.96%; 95%CI: 3.05–11.01). Elaborating age-specific rates showed that the range up to four years experienced the highest rates, without distinction by region. The age group of 15 and 19 years was the second most affected in Brazil and in the Northeast, Southeast, and Midwest regions.</p>
+				</sec>
+				<sec>
+					<title>CONCLUSION</title>
+					<p> Deaths due to sickle cell disorders showed an elevation trend in children and adolescents. Considering that the magnitude of deaths was more evident in the first years (0–4) and late adolescence (15–19), the study suggests that age-specific approaches may impact the control of fatal outcomes caused by sickle cell disease in Brazil.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="en">
+				<kwd>Child</kwd>
+				<kwd>Adolescent</kwd>
+				<kwd>Anemia, Sickle Cell, epidemiology</kwd>
+				<kwd>Mortality, trends</kwd>
+				<kwd>Time Series Studies</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="4"/>
+				<table-count count="4"/>
+				<equation-count count="0"/>
+				<ref-count count="25"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>INTRODUCTION</title>
+			<p>Sickle cell disease (SCD) encompasses a group of β-hemoglobinopathies characterized by the predominance of sickle cell hemoglobin (HbS) within erythrocytes. The HbS mutation makes hemoglobin more likely to polymerize and damage the erythrocyte membrane, which assumes the appearance of a sickle. The useful life of these erythrocytes is reduced, culminating in hemolytic anemia, with painful vaso-occlusive manifestations, ischemic endothelial dysfunction and chronic inflammatory response<sup><xref ref-type="bibr" rid="B1">1</xref></sup>.</p>
+			<p>Hemoglobinopathies are the most frequent monogenic genetic diseases in the world, affecting approximately 7% of the world population<sup><xref ref-type="bibr" rid="B2">2</xref></sup>. Global estimates showed that, in 2010, 5,476,407 and 312,302 newborn babies could be affected by genetic defects of heterozygous hemoglobin (AS) and homozygous hemoglobin (SS), respectively<sup><xref ref-type="bibr" rid="B3">3</xref></sup>. In Brazil, 3.7% of the adult population reported hemoglobinopathies, and the sickle cell trait (2.49%) and thalassemia minor (0.8%) were the most prevalent types<sup><xref ref-type="bibr" rid="B4">4</xref></sup>. The Ministry of Health reports the incidence of sickle cell trait in 1:35 live births and estimates that, annually, 3,000 children are born with SCD and another 200,000 presenting traces of the disease<sup><xref ref-type="bibr" rid="B5">5</xref></sup>.</p>
+			<p>The year 2001 marked the inclusion of SCD screening in the National Neonatal Screening Program (PNTN) in the country and created an opportune scenario for the early implementation of clinical approaches aimed at preventing complications<sup><xref ref-type="bibr" rid="B6">6</xref></sup>. Recently, a review of international studies found scarce publications addressing the monitoring of this genetic anomaly by mortality studies<sup><xref ref-type="bibr" rid="B7">7</xref></sup>. A synthesis of seven studies conducted in Brazil showed that the indicators were only restricted to some federative units<sup><xref ref-type="bibr" rid="B8">8</xref></sup>, suggesting that studies focusing on SCD that make evident the magnitude of deaths on a national scale are lacking, particularly in the children and adolescents’ segment, after the implementation of screening by the PNTN. Thus, this study aimed to describe the mortality rates attributed to sickle cell disease in children and adolescents, in Brazil and in its geographic regions, from 2000 to 2019.</p>
+		</sec>
+		<sec sec-type="methods">
+			<title>METHODS</title>
+			<p>This is an ecological time series study that used an autoregressive modeling to describe the strength and trends with which SCD caused deaths in children and adolescents in Brazil, from the year 2000. The data were collected on the website of the <italic>Departamento de Informática do Sistema Único de Saúde</italic> (Datasus – Department of Informatics of the Unified Health System)<sup><xref ref-type="bibr" rid="B9">9</xref></sup>, consulting health information and vital statistics. The population data were extracted from the database of the <italic>Instituto Brasileiro de Geografia e Estatística</italic> (IBGE – Brazilian Institute of Geography and Statistics)<sup><xref ref-type="bibr" rid="B10">10</xref></sup>.</p>
+			<sec>
+				<title>Variables of Interest</title>
+				<p>The study covered Brazil as a whole and the five geographic regions separately (North, Northeast, Southeast, South, and Midwest) and focused on deaths with underlying cause of SCD (D57), according to the International Statistical Classification of Diseases and Related Health Problems – ICD 10. The research period covered the years 2000 to 2019, which comprised 10 biennia, starting in 2000–2001 and ending in 2018–2019. Correlation analyses between rates and biennia included gender (male and female) and age group (0–4, 5–9, 10–14, 15–19 years), as specified on the Datasus website.</p>
+				<p>Anticipating the importance of the race/skin color profile for sickle cell outcomes, the study provided a brief description of the distribution of deaths regarding this marker, in addition to age and gender. The race/skin color item was described according to the strata (white, black, mixed race, yellow, and indigenous) used in the TABNET platform of Datasus<sup><xref ref-type="bibr" rid="B9">9</xref></sup> and the category “black”, corresponds to the sum of “mixed race” and “black”, as used by IBGE<sup><xref ref-type="bibr" rid="B10">10</xref></sup>.</p>
+			</sec>
+			<sec>
+				<title>Mortality Rates</title>
+				<p>To calculate mortality rates, the number of deaths from Datasus was used as numerator and the population contingent projected by IBGE as denominator. The age-standardized mortality rates were calculated for each of the 10 biennia, considering the four age groups under analysis and the total Brazilian population targeted in the study. The rates were standardized by the direct method with reference to the world population<sup><xref ref-type="bibr" rid="B11">11</xref></sup>. Age-specific mortality rates were calculated for the five macro-regions and to Brazil as a whole, considering the four age groups. All indicators were presented per 100,000 people-year.</p>
+			</sec>
+			<sec>
+				<title>Time Trends</title>
+				<p>The indicators were arranged in line charts with the dependent variable (rate) on the <italic>y</italic> axis and the independent variable (biennium) on the <italic>x</italic> axis. The age-adjusted rates were calculated only for Brazil and were arranged considering the total Brazilian population targeted by the study and the strata defined by gender. Age-specific rates were plotted according to age groups, after smoothing the coefficients, using the technique of third order moving averages, and presented with results from Brazil and the five macro-regions.</p>
+			</sec>
+			<sec>
+				<title>Statistical Analysis</title>
+				<p>The statistical analysis was conducted using linear regression to verify the behavior of the estimated adjusted rates for Brazil. Seeking to reduce the effect of residual autocorrelation, determined by the proximity of the events computed throughout the biennia, the study followed the recommendations of Antunes and Cardoso<sup><xref ref-type="bibr" rid="B12">12</xref></sup> and applied the autoregressive method of Prais-Winsten<sup><xref ref-type="bibr" rid="B13">13</xref></sup>. The annual percentage changes (APC) were calculated after logarithmic transformation of the coefficients and presented with their respective 95% confidence intervals (95%CI). Trends were interpreted as stationary, decline or elevation. The analyses were conducted using the Microsoft Excel program<sup>®</sup> and the R platform.</p>
+			</sec>
+			<sec>
+				<title>Ethical Aspects</title>
+				<p>The study followed the International Ethical Guidelines for Health-related Research Involving Humans Beings and was developed with secondary data, made publicly available, online, by Datasus and IBGE, and is therefore free of formal ethical procedures.</p>
+			</sec>
+		</sec>
+		<sec sec-type="results">
+			<title>RESULTS</title>
+			<p>From 2000 to 2019, Brazil had 2,422 deaths from sickle cell disease among children and adolescents. The frequency was higher in males (54.24% <italic>versus</italic> 45.75%) and in the age group from zero to nine years (55.20% <italic>versus</italic> 45.80). The distribution by macro-region showed higher frequency in the Northeast (40.46%), followed by the Southeast (39.02%), Midwest (9.58%), North (7.84%), and South (3.10%).</p>
+			<p>In view of the importance of race/skin color in SCD studies, we analyzed the lack of information in this item. We observed that the proportion of data lost was 9.54%, which represents a considerable reduction, from 21.51% in 2000 to less than 10% from 2009 (8.06%), and to 3.01% in 2019. From the set of deaths with the variable race/skin color adequately registered (n = 2,191), we observed that the majority of fatal victims are people who were classified as black, representing 78.73% of deaths in Brazil and in four of the macro-regions: 85.16% of deaths in the North, 86.71% in the Northeast, 71.16% in the Southeast, and 80.47% in the Midwest. The South region, which has the highest concentration of white population in the country, showed a distribution of deaths by skin color of 50% in both whites and blacks (<xref ref-type="table" rid="t1">Table 1</xref>).</p>
+			<p>
+				<table-wrap id="t1">
+					<label>Table 1</label>
+					<caption>
+						<title>Deaths attributed to sickle cell disease in children and adolescents: distribution by age, gender, and skin color, according to Brazilian macro-regions, from 2000 to 2019.</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left" rowspan="2">Characteristics</th>
+								<th rowspan="2">Brazil</th>
+								<th colspan="5">Geographic macro-regions</th>
+							</tr>
+							<tr>
+								<th>North</th>
+								<th>Northeast</th>
+								<th>Southeast</th>
+								<th>South</th>
+								<th>Midwest</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>
+								</td>
+								<td align="center">n = 2,191</td>
+								<td align="center">n = 182</td>
+								<td align="center">n = 869</td>
+								<td align="center">n = 853</td>
+								<td align="center">n = 72</td>
+								<td align="center">n = 215</td>
+							</tr>
+							<tr>
+								<td>Age (years)</td>
+								<td align="center">n (%)</td>
+								<td align="center">n (%)</td>
+								<td align="center">n(%)</td>
+								<td align="center">n (%)</td>
+								<td align="center">n (%)</td>
+								<td align="center">n (%)</td>
+							</tr>
+							<tr>
+								<td>0–4</td>
+								<td align="center">797 (36.38)</td>
+								<td align="center">74 (40.66)</td>
+								<td align="center">325 (37.40)</td>
+								<td align="center">297 (34.82)</td>
+								<td align="center">23 (31.94)</td>
+								<td align="center">78 (36.28)</td>
+							</tr>
+							<tr>
+								<td>5–9</td>
+								<td align="center">406 (18.53)</td>
+								<td align="center">39 (21.43)</td>
+								<td align="center">163 (18.76)</td>
+								<td align="center">147 (17.23)</td>
+								<td align="center">12 (16.67)</td>
+								<td align="center">45 (20.93)</td>
+							</tr>
+							<tr>
+								<td>10–14</td>
+								<td align="center">344 (15.70)</td>
+								<td align="center">26 (14.28)</td>
+								<td align="center">133 (15.30)</td>
+								<td align="center">142 (16.65)</td>
+								<td align="center">15 (20.83)</td>
+								<td align="center">28 (13.02)</td>
+							</tr>
+							<tr>
+								<td>15–19</td>
+								<td align="center">644 (29.39)</td>
+								<td align="center">43 (23.63)</td>
+								<td align="center">248 (28.54)</td>
+								<td align="center">267 (31.30)</td>
+								<td align="center">22 (30.56)</td>
+								<td align="center">64 (29.77)</td>
+							</tr>
+							<tr>
+								<td>Gender</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Male</td>
+								<td align="center">1,189 (54.3)</td>
+								<td align="center">111 (60.99)</td>
+								<td align="center">467 (53.73)</td>
+								<td align="center">456 (53.5)</td>
+								<td align="center">38 (52.8)</td>
+								<td align="center">117 (54.4)</td>
+							</tr>
+							<tr>
+								<td>Female</td>
+								<td align="center">1,002 (45.7)</td>
+								<td align="center">71 (39.01)</td>
+								<td align="center">402 (46.26)</td>
+								<td align="center">397 (46.5)</td>
+								<td align="center">34 (47.2)</td>
+								<td align="center">98 (45.6)</td>
+							</tr>
+							<tr>
+								<td>Skin color/Race</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>White</td>
+								<td align="center">455 (20.77)</td>
+								<td align="center">26 (14.29)</td>
+								<td align="center">112 (12.89)</td>
+								<td align="center">241 (28.25)</td>
+								<td align="center">36 (50.00)</td>
+								<td align="center">40 (18.60)</td>
+							</tr>
+							<tr>
+								<td>Black</td>
+								<td align="center">416 (18.99)</td>
+								<td align="center">17 (9.34)</td>
+								<td align="center">147 (16.92)</td>
+								<td align="center">207 (24.27)</td>
+								<td align="center">21 (29.17)</td>
+								<td align="center">24 (11.16)</td>
+							</tr>
+							<tr>
+								<td>Yellow</td>
+								<td align="center">7 (0.32)</td>
+								<td align="center">1 (0.55)</td>
+								<td align="center">1 (0.11)</td>
+								<td align="center">4 (0.47)</td>
+								<td align="center">0 (0.00)</td>
+								<td align="center">1 (0.47)</td>
+							</tr>
+							<tr>
+								<td>Mixed race</td>
+								<td align="center">1,309 (59.74)</td>
+								<td align="center">138 (75.82)</td>
+								<td align="center">607 (69.85)</td>
+								<td align="center">400 (46.89)</td>
+								<td align="center">15 (20.83)</td>
+								<td align="center">149 (69.30)</td>
+							</tr>
+							<tr>
+								<td>Indigenous</td>
+								<td align="center">4 (0.18)</td>
+								<td align="center">0.00</td>
+								<td align="center">2 (0.23)</td>
+								<td align="center">1 (0.12)</td>
+								<td align="center">0 (0.00)</td>
+								<td align="center">1 (0.47)</td>
+							</tr>
+						</tbody>
+					</table>
+				</table-wrap>
+			</p>
+			<p>In Brazil, age-standardized mortality rates remained below 0.30 per 100,000 people-year throughout all biennia in the series. However, the rates presented a differential by gender, since the strength of the disease on deaths in the population as a whole, and in females, did not exceed that found in males in any biennium analyzed (<xref ref-type="fig" rid="f01">Figure 1</xref>). The trend analysis indicated a temporal elevation of mortality rates attributed to SCD in the three population strata. In the entire population, the behavior of these deaths presented APC with a mean increase of 5.44% (95%CI: 2.57–8.39). In male children and adolescents, APC was 4.38% (95%CI: 2.17–6.64) and in females it was 6.96% (95%CI: 3.05–11.01).</p>
+			<p>
+				<fig id="f01">
+					<label>Figure 1</label>
+					<caption>
+						<title>Age-standardized mortality rates per 100,000 people-year attributed to sickle cell disease in children (from zero to nine years) and adolescents (10–19 years), by bienniums, starting in 2000–2001 and ending in 2018–2019 in Brazil.</title>
+					</caption>
+					<graphic xlink:href="1518-8787-rsp-56-65-gf01.tif"/>
+				</fig>
+			</p>
+			<p>The epidemiological profile expressed by age-specific rates presented a particular pattern. SCD mortality was higher in the two age range extremities analyzed. In Brazil, the population of children aged from zero to four years had rates of 0.20 and 0.32 per 100,000 people-year in the initial biennium (2000–2001) and at the end (2018–2019), respectively. In the age group from 15 to 19 years, age-specific rates were 0.13 and 0.28 per 100,000 people-year in the same biennia. Regionally, the highest magnitude of deaths was repeated in the age group from zero to four years, but the pattern changed slightly in the age groups from five to nine years and from 10 to 14 years in the North and South regions, which presented higher rates than those observed in the 15 to 19 years age group (<xref ref-type="table" rid="t2">Table 2</xref>).</p>
+			<p>
+				<table-wrap id="t2">
+					<label>Table 2</label>
+					<caption>
+						<title>Age-specific rates attributed to sickle cell disease in children and adolescents, for bienniums, starting in 2000–2001 and ending in 2018–2019, in Brazil.</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left" rowspan="2">Location/biennium</th>
+								<th colspan="2">Rates<sup>a</sup> in children</th>
+								<th colspan="2">Rates<sup>a</sup> in adolescents</th>
+							</tr>
+							<tr>
+								<th>0–4 years</th>
+								<th>5–9 years</th>
+								<th>10–14 years</th>
+								<th>15–19 years</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Brazil</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>2000–2001</td>
+								<td align="center">0.20</td>
+								<td align="center">0.11</td>
+								<td align="center">0.08</td>
+								<td align="center">0.13</td>
+							</tr>
+							<tr>
+								<td>2018–2019</td>
+								<td align="center">0.32</td>
+								<td align="center">0.16</td>
+								<td align="center">0.09</td>
+								<td align="center">0.28</td>
+							</tr>
+							<tr>
+								<td>North</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>2000–2001</td>
+								<td align="center">0.22</td>
+								<td align="center">0.08</td>
+								<td align="center">0.03</td>
+								<td align="center">0.03</td>
+							</tr>
+							<tr>
+								<td>2018–2019</td>
+								<td align="center">0.31</td>
+								<td align="center">0.17</td>
+								<td align="center">0.03</td>
+								<td align="center">0.20</td>
+							</tr>
+							<tr>
+								<td>Northeast</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>2000–2001</td>
+								<td align="center">0.23</td>
+								<td align="center">0.08</td>
+								<td align="center">0.11</td>
+								<td align="center">0.16</td>
+							</tr>
+							<tr>
+								<td>2018–2019</td>
+								<td align="center">0.45</td>
+								<td align="center">0.17</td>
+								<td align="center">0.16</td>
+								<td align="center">0.51</td>
+							</tr>
+							<tr>
+								<td>Southeast</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>2000–2001</td>
+								<td align="center">0.20</td>
+								<td align="center">0.16</td>
+								<td align="center">0.07</td>
+								<td align="center">0.15</td>
+							</tr>
+							<tr>
+								<td>2018–2019</td>
+								<td align="center">0.27</td>
+								<td align="center">0.16</td>
+								<td align="center">0.07</td>
+								<td align="center">0.21</td>
+							</tr>
+							<tr>
+								<td>South</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>2000–2001</td>
+								<td align="center">0.08</td>
+								<td align="center">0.02</td>
+								<td align="center">0.06</td>
+								<td align="center">0</td>
+							</tr>
+							<tr>
+								<td>2018–2019</td>
+								<td align="center">0.05</td>
+								<td align="center">0.05</td>
+								<td align="center">0</td>
+								<td align="center">0.07</td>
+							</tr>
+							<tr>
+								<td>Midwest</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>2000–2001</td>
+								<td align="center">0.25</td>
+								<td align="center">0.12</td>
+								<td align="center">0.08</td>
+								<td align="center">0.24</td>
+							</tr>
+							<tr>
+								<td>2018–2019</td>
+								<td align="center">0.49</td>
+								<td align="center">0.30</td>
+								<td align="center">0.12</td>
+								<td align="center">0.26</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN1">
+							<p><sup>a</sup> Age-specific rates presented per 100,000 people-year.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>Visualizing the temporal disposition of the coefficients in graphs allows the interpretation of higher magnitude of deaths in the age groups from zero to four years and from 15 to 19 years, while suggesting a trend of rates increasing over time, both in Brazil and in the macro regions (<xref ref-type="fig" rid="f02">Figure 2</xref>).</p>
+			<p>
+				<fig id="f02">
+					<label>Figure 2</label>
+					<caption>
+						<title>Trends in mortality rates due to sickle cell disease, age-specific in children and adolescents, per 100,000 people-year, in Brazil (a) and in the geographic macro-regions (North (b), Northeast (c), Southeast (d), South (e), Midwest (f)), by bienniums, starting in 2000–2001 and ending in 2018–2019.</title>
+					</caption>
+					<graphic xlink:href="1518-8787-rsp-56-65-gf02.tif"/>
+				</fig>
+			</p>
+		</sec>
+		<sec sec-type="discussion">
+			<title>DISCUSSION</title>
+			<p>The study had the merit of analyzing sickle cell disease, a topic still scarcely explored scientifically in Brazil, despite causing important suffering to patients and their families. The focus on children and adolescents revealed that the age groups from zero to four years and from 15 to 19 years experienced the highest mortality rates, both in Brazil as a whole and in the macro-regions. Adjusted mortality rates point to a trend of these deaths increasing over the years in the country and suggest that, on average, Brazil loses about 125 children annually due to complications of sickle cell disorders.</p>
+			<p>We could verify that mixed race and black children and adolescents are the main fatal victims of SCD both in the national and the regional analysis. Despite being a common characteristic of the disease<sup><xref ref-type="bibr" rid="B14">14</xref></sup>, the goals of the National Policy of Integral Health of the Black Population<sup><xref ref-type="bibr" rid="B15">15</xref></sup> must be kept in mind, which emphasize the need to prioritize actions aimed at reducing ethnic-racial disparities in health conditions, highlighting SCD. In the ethnic-racial context, it stands out that, even in the South region, characterized by the dominance of the white population, half of the death number was recorded in white people and the other half in black people. Considering the typical miscegenation of the Brazilian population, the proportional distribution is expected to be possibly even greater among Afro-descendants than those presented in this study.</p>
+			<p>The two most affected age groups (zero to four and 15 to 19 years) also deserve reflection, since they represent moments of life with different meaning, demands, and needs. In the first years, the expectation would be the greater use of the National Policy for Comprehensive Care of Persons with Sickle Cell Disease and Other Hemoglobinopathies<sup><xref ref-type="bibr" rid="B16">16</xref></sup>, which guarantees the follow-up of people diagnosed by the National Neonatal Screening Program, offering effective therapeutic approaches, expanded educational measures to family members, increased access to specialized health services and, consequently, reduction of morbidity and mortality in children born with sickle cell defects<sup><xref ref-type="bibr" rid="B16">16</xref></sup>. But the stratum of zero to four years is precisely the one that experiences the highest death rates indistinctly in Brazil and in the geographical regions.</p>
+			<p>An evaluation of causes of death in people with SCD in Brazil showed that 10.4% of deaths occurred in children under five years of age<sup><xref ref-type="bibr" rid="B17">17</xref></sup>. In this study, the higher rates and an elevation trend of the stratum 0–4 years suggests that investments in SCD made so far lack greater effectiveness. Identifying where the failures are occurring is necessary to propose improvement measures that range from the adoption and/or revision of protocols to the expansion of these children’s access to health services that can make a difference in health conditions, quality of life, and survival with the disease.</p>
+			<p>The mortality of the disease is also important over the age group between 15 and 19 years, which is the second stratum in number of deaths, outlining a scenario of losses among those who overcame a long history of crises, illnesses, and hospitalizations. This issue needs to be investigated to find out what could be happening in late adolescence, causing an increase in the number of deaths due to SCD, a genetic defect that was controlled during the first years of life. Elucidating this problem will be essential to realign attention in this phase of life, which is full of challenges and uncertainties, aggravated by SCD. On the practical side, maintaining the treatment of the therapeutic regimen is a great challenge that the health professional needs to work on<sup><xref ref-type="bibr" rid="B18">18</xref></sup>. On the scientific side, filling gaps is necessary with the production of high-level evidence, clarifying, for example, the impact of the change in the place of care, which is now offered in environments intended for adults<sup><xref ref-type="bibr" rid="B19">19</xref></sup>.</p>
+			<p>In Brazil, the rate of deaths in the &lt; 5 age group increased by 60% comparing the 2000–2001 and 2018–2019 biennia. A study restricted to the black population in the United States pointed to the decline in deaths in the same age group with rates falling from 2.05 (1979–1989) to 0.47 (2015–2017) per 100,000 people-year<sup><xref ref-type="bibr" rid="B20">20</xref></sup>. In France, a 15-year follow-up study<sup><xref ref-type="bibr" rid="B21">21</xref></sup>, which ended in 2015, investigated the cause of death in children diagnosed with SCD at birth. The authors showed that complications involving infection and anemia were the most frequent causes and more than half of the deaths shared both conditions.</p>
+			<p>SCD has been gaining attention from Brazilian authorities since the beginning of the 21st century, even if slowly, with the creation of the National Neonatal Screening Program<sup><xref ref-type="bibr" rid="B6">6</xref></sup>, in which some responsibilities and attributions were defined. The National Policy for Comprehensive Care of Persons with Sickle Cell Disease and Other Hemoglobinopathies was launched in 2005 and emphasized the approach to the problem in the Unified Health System<sup><xref ref-type="bibr" rid="B16">16</xref></sup>. General measures were addressed in the Health Education Manual of the Ministry of Health<sup><xref ref-type="bibr" rid="B18">18</xref></sup>. In 2009, the disease was listed among the priorities defined by the National Comprehensive Health Policy for the Black Population<sup><xref ref-type="bibr" rid="B15">15</xref></sup>. A clinical protocol document and therapeutic guidelines were prepared in 2010, in which the use of hydroxyurea was evaluated<sup><xref ref-type="bibr" rid="B22">22</xref></sup>. The decision to incorporate hydroxyurea with an appropriate therapeutic dose for children aged two years or older was published in 2013<sup><xref ref-type="bibr" rid="B23">23</xref></sup>. The basic conducts for the treatment of SCD, launched in 2012, emphasize the adequacy of prophylactic measures, especially in children<sup><xref ref-type="bibr" rid="B5">5</xref></sup>. Despite all this framework of public policies, mortality in children by SCD is still increasing in the country. Infections, acute thoracic syndrome, and acute splenic sequestering are preventable but commonly reported conditions<sup><xref ref-type="bibr" rid="B8">8</xref></sup>, demonstrating that attention is still needed to discover the flaws and fix them.</p>
+			<p>The SCD penalizes patients doubly, considering both the avoidability of clinical manifestations and the low visibility that it experiences in Brazil, despite constituting a public health problem in developing countries<sup><xref ref-type="bibr" rid="B24">24</xref></sup>. In this sense, this study had the merit of addressing mortality indicators at the national level, however, we should list some limitations. First, considering the importance of epidemiological studies and their contribution to health policies aimed at reducing racial inequalities in health, one limitation was not estimating rates according to skin color, due to the unavailability of stratified population data according to this characteristic for each age group and time frame. However, we synthesized the demographic distribution, which reinforced the importance of the problem in the mixed race and black population group, regionally or nationally.</p>
+			<p>Another limitation was the focus on deaths coded as D57, not covering underlying causes attributed to other hemoglobinopathies (D56). Although the possibility of error in the classification of deaths and underestimation of rates should not be ignored, our results are close to those reported for children in the state of Maranhão<sup><xref ref-type="bibr" rid="B25">25</xref></sup>.</p>
+		</sec>
+		<sec sec-type="conclusions">
+			<title>CONCLUSION</title>
+			<p>The study showed that deaths due to sickle cell disorders had an elevation trend in children and adolescents. Considering that the magnitude of deaths was more evident in the first years (0–4) and late adolescence (15–19), the study suggests that age-specific approaches may impact the control of fatal outcomes caused by SCD in Brazil.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>REFERENCES</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. Quinn CT. Minireview: clinical severity in sickle cell disease: the challenges of definition and prognostication. Exp Biol Med (Maywood). 2016;241(7):679-88. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/1535370216640385">https://doi.org/10.1177/1535370216640385</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Quinn</surname>
+							<given-names>CT</given-names>
+						</name>
+					</person-group>
+					<article-title>Minireview: clinical severity in sickle cell disease: the challenges of definition and prognostication</article-title>
+					<source>Exp Biol Med (Maywood)</source>
+					<year>2016</year>
+					<volume>241</volume>
+					<issue>7</issue>
+					<fpage>679</fpage>
+					<lpage>688</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/1535370216640385">https://doi.org/10.1177/1535370216640385</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. Kohne E. Hemoglobinopathies: clinical manifestations, diagnosis, and treatment. Dtsch Ärztebl Int. 2011;108(31-32):532-40. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3238/arztebl.2011.0532">https://doi.org/10.3238/arztebl.2011.0532</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kohne</surname>
+							<given-names>E</given-names>
+						</name>
+					</person-group>
+					<article-title>Hemoglobinopathies: clinical manifestations, diagnosis, and treatment</article-title>
+					<source>Dtsch Ärztebl Int</source>
+					<year>2011</year>
+					<volume>108</volume>
+					<issue>31-32</issue>
+					<fpage>532</fpage>
+					<lpage>540</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3238/arztebl.2011.0532">https://doi.org/10.3238/arztebl.2011.0532</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. Piel FB, Patil AP, Howes RE, Nyangiri OA, Gething PW, Dewi M, et al. Global epidemiology of sickle haemoglobin in neonates: a contemporary geostatistical model-based map and population estimates. Lancet. 2013;381(9861):142-51. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(12)61229-X">https://doi.org/10.1016/S0140-6736(12)61229-X</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Piel</surname>
+							<given-names>FB</given-names>
+						</name>
+						<name>
+							<surname>Patil</surname>
+							<given-names>AP</given-names>
+						</name>
+						<name>
+							<surname>Howes</surname>
+							<given-names>RE</given-names>
+						</name>
+						<name>
+							<surname>Nyangiri</surname>
+							<given-names>OA</given-names>
+						</name>
+						<name>
+							<surname>Gething</surname>
+							<given-names>PW</given-names>
+						</name>
+						<name>
+							<surname>Dewi</surname>
+							<given-names>M</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Global epidemiology of sickle haemoglobin in neonates: a contemporary geostatistical model-based map and population estimates</article-title>
+					<source>Lancet</source>
+					<year>2013</year>
+					<volume>381</volume>
+					<issue>9861</issue>
+					<fpage>142</fpage>
+					<lpage>151</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(12)61229-X">https://doi.org/10.1016/S0140-6736(12)61229-X</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. Rosenfeld LG, Bacal NS, Cuder MAM, Silva AG, Machado IE, Pereira CA, et al. Prevalência de hemoglobinopatia na população brasileira: Pesquisa Nacional de Saúde 2014-2015. Rev Bras Epidemiol. 2019;22 Supl 2:E190007.supl.2. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1980-549720190007.supl.2">https://doi.org/10.1590/1980-549720190007.supl.2</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rosenfeld</surname>
+							<given-names>LG</given-names>
+						</name>
+						<name>
+							<surname>Bacal</surname>
+							<given-names>NS</given-names>
+						</name>
+						<name>
+							<surname>Cuder</surname>
+							<given-names>MAM</given-names>
+						</name>
+						<name>
+							<surname>Silva</surname>
+							<given-names>AG</given-names>
+						</name>
+						<name>
+							<surname>Machado</surname>
+							<given-names>IE</given-names>
+						</name>
+						<name>
+							<surname>Pereira</surname>
+							<given-names>CA</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Prevalência de hemoglobinopatia na população brasileira: Pesquisa Nacional de Saúde 2014-2015</article-title>
+					<source>Rev Bras Epidemiol</source>
+					<year>2019</year>
+					<volume>22</volume>
+					<supplement>Supl 2</supplement>
+					<elocation-id>E190007</elocation-id>
+					<comment>supl.2</comment>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1980-549720190007.supl.2">https://doi.org/10.1590/1980-549720190007.supl.2</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Ministério da Saúde (BR), Secretaria de Atenção à Saúde, Departamento de Atenção Especializada. Doença falciforme: condutas básicas para tratamento. Brasília, DF; 2012 [cited 2020 Sep 10]. Available from: <ext-link ext-link-type="uri" xlink:href="http://bvsms.saude.gov.br/bvs/publicacoes/doenca_falciforme_condutas_basicas.pdf">http://bvsms.saude.gov.br/bvs/publicacoes/doenca_falciforme_condutas_basicas.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+						<collab>Secretaria de Atenção à Saúde</collab>
+						<collab>Departamento de Atenção Especializada</collab>
+					</person-group>
+					<source>Doença falciforme: condutas básicas para tratamento</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<year>2012</year>
+					<date-in-citation content-type="cited-date">cited 2020 Sep 10</date-in-citation>
+					<ext-link ext-link-type="uri" xlink:href="http://bvsms.saude.gov.br/bvs/publicacoes/doenca_falciforme_condutas_basicas.pdf">http://bvsms.saude.gov.br/bvs/publicacoes/doenca_falciforme_condutas_basicas.pdf</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. Ministério da Saúde (BR). Portaria Nº 822, de 6 de junho de 2001. Institui, no âmbito do Sistema Único de Saúde, o Programa Nacional de Triagem Neonatal / PNTN. Diário Oficial da União. 15 out 2001 [cited 2020 Sep 10]; Seção 1: 64. Available from: <ext-link ext-link-type="uri" xlink:href="https://bvsms.saude.gov.br/bvs/saudelegis/gm/2001/prt0822_06_06_2001.html">https://bvsms.saude.gov.br/bvs/saudelegis/gm/2001/prt0822_06_06_2001.html</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="legal-doc">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+					</person-group>
+					<article-title>Portaria Nº 822, de 6 de junho de 2001. Institui, no âmbito do Sistema Único de Saúde, o Programa Nacional de Triagem Neonatal / PNTN</article-title>
+					<source>Diário Oficial da União</source>
+					<day>15</day>
+					<month>10</month>
+					<year>2001</year>
+					<date-in-citation content-type="cited-date">cited 2020 Sep 10</date-in-citation>
+					<comment>Seção 1</comment>
+					<size units="pages">64</size>
+					<ext-link ext-link-type="uri" xlink:href="https://bvsms.saude.gov.br/bvs/saudelegis/gm/2001/prt0822_06_06_2001.html">https://bvsms.saude.gov.br/bvs/saudelegis/gm/2001/prt0822_06_06_2001.html</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. Pompeo CM, Cardoso AIQ, Souza MC, Ferraz MB, Ferreira Júnior MA, Ivo ML. Fatores de risco para mortalidade em pacientes com doença falciforme: uma revisão integrativa. Esc Anna Nery. 2020;24(2):e20190194. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/2177-9465-ean-2019-0194">https://doi.org/10.1590/2177-9465-ean-2019-0194</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pompeo</surname>
+							<given-names>CM</given-names>
+						</name>
+						<name>
+							<surname>Cardoso</surname>
+							<given-names>AIQ</given-names>
+						</name>
+						<name>
+							<surname>Souza</surname>
+							<given-names>MC</given-names>
+						</name>
+						<name>
+							<surname>Ferraz</surname>
+							<given-names>MB</given-names>
+						</name>
+						<name>
+							<surname>Ferreira</surname>
+							<given-names>MA</given-names>
+							<suffix>Júnior</suffix>
+						</name>
+						<name>
+							<surname>Ivo</surname>
+							<given-names>ML</given-names>
+						</name>
+					</person-group>
+					<article-title>Fatores de risco para mortalidade em pacientes com doença falciforme: uma revisão integrativa</article-title>
+					<source>Esc Anna Nery</source>
+					<year>2020</year>
+					<volume>24</volume>
+					<issue>2</issue>
+					<elocation-id>e20190194</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/2177-9465-ean-2019-0194">https://doi.org/10.1590/2177-9465-ean-2019-0194</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Arduini GAO, Rodrigues LP, Marqui ABT. Mortality by sickle cell disease in Brazil. Rev Bras Hematol Hemoter. 2017;39(1):52-6. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.bjhh.2016.09.008">https://doi.org/10.1016/j.bjhh.2016.09.008</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Arduini</surname>
+							<given-names>GAO</given-names>
+						</name>
+						<name>
+							<surname>Rodrigues</surname>
+							<given-names>LP</given-names>
+						</name>
+						<name>
+							<surname>Marqui</surname>
+							<given-names>ABT</given-names>
+						</name>
+					</person-group>
+					<article-title>Mortality by sickle cell disease in Brazil</article-title>
+					<source>Rev Bras Hematol Hemoter</source>
+					<year>2017</year>
+					<volume>39</volume>
+					<issue>1</issue>
+					<fpage>52</fpage>
+					<lpage>56</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.bjhh.2016.09.008">https://doi.org/10.1016/j.bjhh.2016.09.008</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. Ministério da Saúde (BR), Secretaria de Gestão Estratégica e Participativa, Departamento de Informática do Sistema Único de Saúde. Informações de Saúde [TABNET]: Estatísticas Vitais: mortalidade desde 1996 pela CID-10. Brasília, DF: DATASUS; [cited 2020 Sep 10]. Available from: <ext-link ext-link-type="uri" xlink:href="https://datasus.saude.gov.br/mortalidade-desde-1996-pela-cid-10">https://datasus.saude.gov.br/mortalidade-desde-1996-pela-cid-10</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+						<collab>Secretaria de Gestão Estratégica e Participativa</collab>
+						<collab>Departamento de Informática do Sistema Único de Saúde</collab>
+					</person-group>
+					<source>Informações de Saúde [TABNET]: Estatísticas Vitais: mortalidade desde 1996 pela CID-10</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<publisher-name>DATASUS</publisher-name>
+					<date-in-citation content-type="cited-date">cited 2020 Sep 10</date-in-citation>
+					<ext-link ext-link-type="uri" xlink:href="https://datasus.saude.gov.br/mortalidade-desde-1996-pela-cid-10">https://datasus.saude.gov.br/mortalidade-desde-1996-pela-cid-10</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. Instituto Brasileiro de Geografia e Estatística. Projeções da população. Rio de Janeiro: IBGE; 2018 [cited 2020 Jan 10]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.ibge.gov.br/estatisticas/sociais/populacao/9109-projecao-da-populacao.html?=&amp;t=downloads">https://www.ibge.gov.br/estatisticas/sociais/populacao/9109-projecao-da-populacao.html?=&amp;t=downloads</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>Instituto Brasileiro de Geografia e Estatística</collab>
+					</person-group>
+					<source>Projeções da população</source>
+					<publisher-loc>Rio de Janeiro</publisher-loc>
+					<publisher-name>IBGE</publisher-name>
+					<year>2018</year>
+					<date-in-citation content-type="cited-date">cited 2020 Jan 10</date-in-citation>
+					<ext-link ext-link-type="uri" xlink:href="https://www.ibge.gov.br/estatisticas/sociais/populacao/9109-projecao-da-populacao.html?=&amp;t=downloads">https://www.ibge.gov.br/estatisticas/sociais/populacao/9109-projecao-da-populacao.html?=&amp;t=downloads</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. Segi M, Kurihara M, Matsuyama T. Cancer mortality for selected sites in 24 countries: N<sup>o</sup> 5 (1964-1965). Sendai (JP): Tohoku University School of Medicine; 1969.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Segi</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Kurihara</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Matsuyama</surname>
+							<given-names>T</given-names>
+						</name>
+					</person-group>
+					<source>Cancer mortality for selected sites in 24 countries: N<sup>o</sup> 5 (1964-1965)</source>
+					<publisher-loc>Sendai (JP)</publisher-loc>
+					<publisher-name>Tohoku University School of Medicine</publisher-name>
+					<year>1969</year>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. Antunes JLF, Cardoso MRA. Uso da análise de séries temporais em estudos epidemiológicos. Epidemiol Serv Saude. 2015;24(3):565-76. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5123/S1679-49742015000300024">https://doi.org/10.5123/S1679-49742015000300024</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Antunes</surname>
+							<given-names>JLF</given-names>
+						</name>
+						<name>
+							<surname>Cardoso</surname>
+							<given-names>MRA</given-names>
+						</name>
+					</person-group>
+					<article-title>Uso da análise de séries temporais em estudos epidemiológicos</article-title>
+					<source>Epidemiol Serv Saude</source>
+					<year>2015</year>
+					<volume>24</volume>
+					<issue>3</issue>
+					<fpage>565</fpage>
+					<lpage>576</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5123/S1679-49742015000300024">https://doi.org/10.5123/S1679-49742015000300024</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. Prais SJ, Winsten CB. Trend estimators and serial correlation. Chicago, Ill: Cowles Commission; 1954 [cited 2020 Jul 13]. (CCDP Statistics; no 383). Available from: <ext-link ext-link-type="uri" xlink:href="https://cowles.yale.edu/sites/default/files/files/pub/cdp/s-0383.pdf">https://cowles.yale.edu/sites/default/files/files/pub/cdp/s-0383.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Prais</surname>
+							<given-names>SJ</given-names>
+						</name>
+						<name>
+							<surname>Winsten</surname>
+							<given-names>CB</given-names>
+						</name>
+					</person-group>
+					<source>Trend estimators and serial correlation</source>
+					<publisher-loc>Chicago, Ill</publisher-loc>
+					<publisher-name>Cowles Commission</publisher-name>
+					<year>1954</year>
+					<date-in-citation content-type="cited-date">cited 2020 Jul 13</date-in-citation>
+					<comment>CCDP Statistics; no 383</comment>
+					<ext-link ext-link-type="uri" xlink:href="https://cowles.yale.edu/sites/default/files/files/pub/cdp/s-0383.pdf">https://cowles.yale.edu/sites/default/files/files/pub/cdp/s-0383.pdf</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. Marques T, Vidal AS, Braz AF, Teixeira MLH. Perfil clínico e assistencial de crianças e adolescentes com doença falciforme no Nordeste Brasileiro. Rev Bras Saude Mater Infant. 2019;19(4):889-96. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1806-93042019000400008">https://doi.org/10.1590/1806-93042019000400008</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Marques</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Vidal</surname>
+							<given-names>AS</given-names>
+						</name>
+						<name>
+							<surname>Braz</surname>
+							<given-names>AF</given-names>
+						</name>
+						<name>
+							<surname>Teixeira</surname>
+							<given-names>MLH</given-names>
+						</name>
+					</person-group>
+					<article-title>Perfil clínico e assistencial de crianças e adolescentes com doença falciforme no Nordeste Brasileiro</article-title>
+					<source>Rev Bras Saude Mater Infant</source>
+					<year>2019</year>
+					<volume>19</volume>
+					<issue>4</issue>
+					<fpage>889</fpage>
+					<lpage>896</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1806-93042019000400008">https://doi.org/10.1590/1806-93042019000400008</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. Ministério da Saúde (BR). Portaria Nº 992, de 13 de maio de 2009. Institui a Política Nacional de Saúde Integral da População Negra. Brasília, DF; 2009 [cited 2020 Dec 12]. Available from: <ext-link ext-link-type="uri" xlink:href="https://bvsms.saude.gov.br/bvs/saudelegis/gm/2009/prt0992_13_05_2009.html">https://bvsms.saude.gov.br/bvs/saudelegis/gm/2009/prt0992_13_05_2009.html</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+					</person-group>
+					<source>Portaria Nº 992, de 13 de maio de 2009. Institui a Política Nacional de Saúde Integral da População Negra</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<year>2009</year>
+					<date-in-citation content-type="cited-date">cited 2020 Dec 12</date-in-citation>
+					<ext-link ext-link-type="uri" xlink:href="https://bvsms.saude.gov.br/bvs/saudelegis/gm/2009/prt0992_13_05_2009.html">https://bvsms.saude.gov.br/bvs/saudelegis/gm/2009/prt0992_13_05_2009.html</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. Ministério da Saúde (BR). Portaria Nº 1.391, de 16 de agosto de 2005. Institui no âmbito do Sistema Único de Saúde, as diretrizes para a Política Nacional de Atenção Integral às Pessoas com Doença Falciforme e outras Hemoglobinopatias. Brasília, DF; 2005 [cited 2020 Dec 20]. Available from: <ext-link ext-link-type="uri" xlink:href="http://bvsms.saude.gov.br/bvs/saudelegis/gm/2005/prt1391_16_08_2005.html#:~:text=Institui%20no%20%C3%A2mbito%20do%20Sistema,Doen%C3%A7a%20Falciforme%20e%20outras%20Hemoglobinopatias">http://bvsms.saude.gov.br/bvs/saudelegis/gm/2005/prt1391_16_08_2005.html#:~:text=Institui%20no%20%C3%A2mbito%20do%20Sistema,Doen%C3%A7a%20Falciforme%20e%20outras%20Hemoglobinopatias</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+					</person-group>
+					<source>Portaria Nº 1.391, de 16 de agosto de 2005. Institui no âmbito do Sistema Único de Saúde, as diretrizes para a Política Nacional de Atenção Integral às Pessoas com Doença Falciforme e outras Hemoglobinopatias</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<year>2005</year>
+					<date-in-citation content-type="cited-date">cited 2020 Dec 20</date-in-citation>
+					<ext-link ext-link-type="uri" xlink:href="http://bvsms.saude.gov.br/bvs/saudelegis/gm/2005/prt1391_16_08_2005.html#:~:text=Institui%20no%20%C3%A2mbito%20do%20Sistema,Doen%C3%A7a%20Falciforme%20e%20outras%20Hemoglobinopatias">http://bvsms.saude.gov.br/bvs/saudelegis/gm/2005/prt1391_16_08_2005.html#:~:text=Institui%20no%20%C3%A2mbito%20do%20Sistema,Doen%C3%A7a%20Falciforme%20e%20outras%20Hemoglobinopatias</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Santo AH. Sickle cell disease related mortality in Brazil, 2000-2018. Hematol Transf Cell Ther. 2020 Dec 5:S2531-1379(20)31299-2. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.htct.2020.09.154">https://doi.org/10.1016/j.htct.2020.09.154</ext-link>. Epub ahead of print.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Santo</surname>
+							<given-names>AH</given-names>
+						</name>
+					</person-group>
+					<article-title>Sickle cell disease related mortality in Brazil, 2000-2018</article-title>
+					<source>Hematol Transf Cell Ther</source>
+					<year>2020</year>
+					<month>12</month>
+					<day>5</day>
+					<comment>S2531-1379(20)31299-2</comment>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.htct.2020.09.154">https://doi.org/10.1016/j.htct.2020.09.154</ext-link>
+					<comment>Epub ahead of print</comment>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18. Ministério da Saúde (BR), Secretaria de Atenção à Saúde, Departamento de Atenção Especializada. Manual de Educação em Saúde. Vol. 1: Autocuidado na Doença Falciforme. Brasília, DF; 2008 [cited 2020 Dec 12]. (Série A. Normas e Manuais Técnicos). Available from: <ext-link ext-link-type="uri" xlink:href="http://bvsms.saude.gov.br/bvs/publicacoes/manual_educacao_saude_volume1.pdf">http://bvsms.saude.gov.br/bvs/publicacoes/manual_educacao_saude_volume1.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+						<collab>Secretaria de Atenção à Saúde</collab>
+						<collab>Departamento de Atenção Especializada</collab>
+					</person-group>
+					<source>Manual de Educação em Saúde</source>
+					<volume>Vol. 1: Autocuidado na Doença Falciforme</volume>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<year>2008</year>
+					<date-in-citation content-type="cited-date">cited 2020 Dec 12</date-in-citation>
+					<comment>Série A. Normas e Manuais Técnicos</comment>
+					<ext-link ext-link-type="uri" xlink:href="http://bvsms.saude.gov.br/bvs/publicacoes/manual_educacao_saude_volume1.pdf">http://bvsms.saude.gov.br/bvs/publicacoes/manual_educacao_saude_volume1.pdf</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19. Feinstein R, Rabey C, Pilapil M. Evidence supporting the effectiveness of transition programs for youth with special health care needs. Curr Probl Pediatr Adolesc Health Care. 2017;47(8):208-11. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.cppeds.2017.07.005">https://doi.org/10.1016/j.cppeds.2017.07.005</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Feinstein</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Rabey</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Pilapil</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>Evidence supporting the effectiveness of transition programs for youth with special health care needs</article-title>
+					<source>Curr Probl Pediatr Adolesc Health Care</source>
+					<year>2017</year>
+					<volume>47</volume>
+					<issue>8</issue>
+					<fpage>208</fpage>
+					<lpage>211</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.cppeds.2017.07.005">https://doi.org/10.1016/j.cppeds.2017.07.005</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20. Payne AB, Mehal JM, Chapman C, Haberling DL, Richardson LC, Bean CJ, et al. Trends in sickle cell disease-related mortality in the United States, 1979 to 2017. Ann Emerg Med. 2020;76(3S):S28-36. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.annemergmed.2020.08.009">https://doi.org/10.1016/j.annemergmed.2020.08.009</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Payne</surname>
+							<given-names>AB</given-names>
+						</name>
+						<name>
+							<surname>Mehal</surname>
+							<given-names>JM</given-names>
+						</name>
+						<name>
+							<surname>Chapman</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Haberling</surname>
+							<given-names>DL</given-names>
+						</name>
+						<name>
+							<surname>Richardson</surname>
+							<given-names>LC</given-names>
+						</name>
+						<name>
+							<surname>Bean</surname>
+							<given-names>CJ</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Trends in sickle cell disease-related mortality in the United States, 1979 to 2017</article-title>
+					<source>Ann Emerg Med</source>
+					<year>2020</year>
+					<volume>76</volume>
+					<issue>3S</issue>
+					<fpage>S28</fpage>
+					<lpage>S36</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.annemergmed.2020.08.009">https://doi.org/10.1016/j.annemergmed.2020.08.009</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>21. Desselas E, Thuret I, Kaguelidou F, Benkerrou M, Montalembert M, Odièvre MH, et al. Mortality in children with sickle cell disease in mainland France from 2000 to 2015. Haematologica. 2020;105(9):e440-3. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3324/haematol.2019.237602">https://doi.org/10.3324/haematol.2019.237602</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Desselas</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Thuret</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Kaguelidou</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Benkerrou</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Montalembert</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Odièvre</surname>
+							<given-names>MH</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Mortality in children with sickle cell disease in mainland France from 2000 to 2015</article-title>
+					<source>Haematologica</source>
+					<year>2020</year>
+					<volume>105</volume>
+					<issue>9</issue>
+					<fpage>e440</fpage>
+					<lpage>e443</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3324/haematol.2019.237602">https://doi.org/10.3324/haematol.2019.237602</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>22. Ministério da Saúde (BR), Secretaria de Atenção à Saúde. Portaria SAS/MS Nº 55, de 29 de janeiro de 2010. Doença Falciforme: protocolo clínico e diretrizes terapêuticas. Brasília, DF; 2010 [cited 2020 Dec 16]. Available from: <ext-link ext-link-type="uri" xlink:href="http://bvsms.saude.gov.br/bvs/saudelegis/sas/2010/prt0055_29_01_2010.html">http://bvsms.saude.gov.br/bvs/saudelegis/sas/2010/prt0055_29_01_2010.html</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+						<collab>Secretaria de Atenção à Saúde</collab>
+					</person-group>
+					<source>Portaria SAS/MS Nº 55, de 29 de janeiro de 2010. Doença Falciforme: protocolo clínico e diretrizes terapêuticas</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<year>2010</year>
+					<date-in-citation content-type="cited-date">cited 2020 Dec 16</date-in-citation>
+					<ext-link ext-link-type="uri" xlink:href="http://bvsms.saude.gov.br/bvs/saudelegis/sas/2010/prt0055_29_01_2010.html">http://bvsms.saude.gov.br/bvs/saudelegis/sas/2010/prt0055_29_01_2010.html</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>23. Ministério da Saúde (BR), Secretaria de Ciência, Tecnologia e Insumos Estratégicos. Portaria Nº 27, de 12 de junho de 2013. Decisão de incorporar hidroxiuréia em crianças com doença falciforme no Sistema Único de Saúde – SUS. Brasília, DF; 2013 [cited 2020 Dec 20]. Available from: <ext-link ext-link-type="uri" xlink:href="http://bvsms.saude.gov.br/bvs/saudelegis/sctie/2013/prt0027_12_06_2013.html">http://bvsms.saude.gov.br/bvs/saudelegis/sctie/2013/prt0027_12_06_2013.html</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+						<collab>Secretaria de Ciência, Tecnologia e Insumos Estratégicos</collab>
+					</person-group>
+					<source>Portaria Nº 27, de 12 de junho de 2013. Decisão de incorporar hidroxiuréia em crianças com doença falciforme no Sistema Único de Saúde – SUS</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<year>2013</year>
+					<date-in-citation content-type="cited-date">cited 2020 Dec 20</date-in-citation>
+					<ext-link ext-link-type="uri" xlink:href="http://bvsms.saude.gov.br/bvs/saudelegis/sctie/2013/prt0027_12_06_2013.html">http://bvsms.saude.gov.br/bvs/saudelegis/sctie/2013/prt0027_12_06_2013.html</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>24. Viana MB. The invisibility of sickle cell disease in Brazil: lessons from a study in Maranhão. Rev Bras Hematol Hemoter. 2015;37(1):5-6. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.bjhh.2014.11.001">https://doi.org/10.1016/j.bjhh.2014.11.001</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Viana</surname>
+							<given-names>MB</given-names>
+						</name>
+					</person-group>
+					<article-title>The invisibility of sickle cell disease in Brazil: lessons from a study in Maranhão</article-title>
+					<source>Rev Bras Hematol Hemoter</source>
+					<year>2015</year>
+					<volume>37</volume>
+					<issue>1</issue>
+					<fpage>5</fpage>
+					<lpage>6</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.bjhh.2014.11.001">https://doi.org/10.1016/j.bjhh.2014.11.001</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>25. Lima ARG, Ribeiro VS, Nicolau DI. Trends in mortality and hospital admissions of sickle cell disease patients before and after the newborn screening program in Maranhão, Brazil. Rev Bras Hematol Hemoter. 2015;37(1):12-6. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.bjhh.2014.11.009">https://doi.org/10.1016/j.bjhh.2014.11.009</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lima</surname>
+							<given-names>ARG</given-names>
+						</name>
+						<name>
+							<surname>Ribeiro</surname>
+							<given-names>VS</given-names>
+						</name>
+						<name>
+							<surname>Nicolau</surname>
+							<given-names>DI</given-names>
+						</name>
+					</person-group>
+					<article-title>Trends in mortality and hospital admissions of sickle cell disease patients before and after the newborn screening program in Maranhão, Brazil</article-title>
+					<source>Rev Bras Hematol Hemoter</source>
+					<year>2015</year>
+					<volume>37</volume>
+					<issue>1</issue>
+					<fpage>12</fpage>
+					<lpage>16</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.bjhh.2014.11.009">https://doi.org/10.1016/j.bjhh.2014.11.009</ext-link>
+				</element-citation>
+			</ref>
+		</ref-list>
+	</back>
+	<sub-article article-type="translation" id="TRpt" xml:lang="pt">
+		<front-stub>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artigo Original</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Mortalidade atribuída à doença falciforme em crianças e adolescentes no Brasil, 2000–2019</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-9001-8543</contrib-id>
+					<name>
+						<surname>Nascimento</surname>
+						<given-names>Maria Isabel do</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff2002"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-4635-2258</contrib-id>
+					<name>
+						<surname>Przibilski</surname>
+						<given-names>Ana Luísa Ferreira</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2002"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-7569-2465</contrib-id>
+					<name>
+						<surname>Coelho</surname>
+						<given-names>Carolina Sampaio Gomes</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2002"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-0794-8585</contrib-id>
+					<name>
+						<surname>Leite</surname>
+						<given-names>Katyslaine Frossard de Amorim</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2002"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-6796-4440</contrib-id>
+					<name>
+						<surname>Makenze</surname>
+						<given-names>Mariana</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2002"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-4032-446X</contrib-id>
+					<name>
+						<surname>Jesus</surname>
+						<given-names>Stella Bayer de</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2002"><sup>II</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1002">
+				<label>I</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Universidade Federal Fluminense. Faculdade de Medicina. Mestrado Profissional em Saúde Materno Infantil. Niterói, RJ, Brasil</institution>
+			</aff>
+			<aff id="aff2002">
+				<label>II</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Universidade Federal Fluminense. Faculdade de Medicina. Programa de Iniciação Científica. Niterói, RJ, Brasil</institution>
+			</aff>
+			<author-notes>
+				<corresp id="c01002"> Correspondência: Maria Isabel do Nascimento Universidade Federal Fluminense Rua Marquês do Paraná, 303 2º andar 24033-900 Niterói, RJ, Brasil E-mail: maria_isabel@id.uff.br </corresp>
+				<fn fn-type="con">
+					<p><bold>Contribuição dos Autores:</bold> Concepção e planejamento do estudo: MIN, ALFP, CSGC, KFAL, MM, SBJ. Coleta, análise e interpretação dos dados: ALFP, CSGC, KFAL, MM, SBJ. Elaboração ou revisão do manuscrito: MIN, ALFP, CSGC, KFAL, MM, SBJ. Todas as autoras aprovaram a versão final e assumem responsabilidade pelo conteúdo do manuscrito.</p>
+				</fn>
+				<fn fn-type="conflict">
+					<p><bold>Conflito de Interesses:</bold> Os autores declaram não haver conflito de interesses.</p>
+				</fn>
+			</author-notes>
+			<abstract>
+				<title>RESUMO</title>
+				<sec>
+					<title>OBJETIVO</title>
+					<p> Estimar taxas e descrever tendências de mortalidade atribuídas à doença falciforme em crianças e adolescentes no Brasil, de 2000 a 2019.</p>
+				</sec>
+				<sec>
+					<title>MÉTODOS</title>
+					<p> Este é um estudo ecológico do tipo séries temporais de taxas de mortalidade que usou o método autorregressivo, proposto por Prais-Winsten, para avaliar tendências das taxas estimadas de mortes por doença falciforme em crianças e adolescentes no Brasil. Os óbitos com código D57 foram obtidos no Sistema de Informações sobre Mortalidade, considerando as faixas etárias (0–4, 5–9, 10–14, 15–19 anos) e usados para estimar taxas específicas por idade e taxas padronizadas por sexo e idade.</p>
+				</sec>
+				<sec>
+					<title>RESULTADOS</title>
+					<p> De 2000 a 2019, houve 2.422 óbitos por doença falciforme em menores de 20 anos no Brasil, com maior frequência na região Nordeste (40,46%), seguida de Sudeste (39,02%), Centro-Oeste (9,58%), Norte (7,84%) e Sul (3,10%). As principais vítimas foram pessoas de raça/cor da pele negra (78,73%). No Brasil, a taxa média padronizada global foi de 0,20/100 mil pessoa-ano, com tendência de elevação (mudança percentual anual – APC = 5,44%; intervalo de confiança – IC95% 2,57–8,39). O padrão se repetiu no sexo masculino (APC = 4,38%; IC95% 2,17–6,64) e no sexo feminino (APC = 6,96%; IC95% 3,05–11,01). A elaboração de taxas específicas por idade mostrou que a faixa até quatro anos experimentou as maiores taxas, sem distinção por região. A faixa etária de 15 e 19 anos foi a segunda mais afetada no Brasil e nas regiões Nordeste, Sudeste e Centro-Oeste.</p>
+				</sec>
+				<sec>
+					<title>CONCLUSÃO</title>
+					<p> Houve tendência de aumento dos óbitos por transtornos falciformes em crianças e adolescentes. Considerando que a magnitude dos óbitos foi mais evidente nos primeiros anos (0–4) e no final da adolescência (15–19), o estudo sugere que abordagens específicas por faixa etária podem impactar no controle dos desfechos fatais causados pela doença falciforme no Brasil.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="pt">
+				<kwd>Criança</kwd>
+				<kwd>Adolescente</kwd>
+				<kwd>Anemia Falciforme, epidemiologia</kwd>
+				<kwd>Mortalidade, tendências</kwd>
+				<kwd>Estudos de Séries Temporais</kwd>
+			</kwd-group>
+		</front-stub>
+		<body>
+			<sec sec-type="intro">
+				<title>INTRODUÇÃO</title>
+				<p>A doença falciforme (DF) engloba um grupo de β-hemoglobinopatias caracterizada pela predominância da hemoglobina falciforme (HbS) no interior dos eritrócitos. A mutação HbS torna a hemoglobina mais propensa a se polimerizar e danificar a membrana do eritrócito, o qual assume o aspecto de foice. A vida útil desses eritrócitos é reduzida, culminando em uma anemia hemolítica, com manifestações vaso-oclusivas dolorosas, disfunção endotelial isquêmica e resposta inflamatória crônica<sup><xref ref-type="bibr" rid="B1">1</xref></sup>.</p>
+				<p>As hemoglobinopatias são as doenças genéticas monogênicas mais frequentes no mundo, estando presente em aproximadamente 7% da população mundial<sup><xref ref-type="bibr" rid="B2">2</xref></sup>. Estimativas globais mostraram que no ano 2010, 5.476.407 e 312.302 bebês recém-nascidos poderiam estar afetados por defeitos genéticos da hemoglobina do tipo heterozigóticos (AS) e homozigóticos (SS), respectivamente<sup><xref ref-type="bibr" rid="B3">3</xref></sup>. No Brasil, a presença de hemoglobinopatias foi detectada em 3,7% da população adulta, sendo que o traço falciforme (2,49%) e a talassemia menor (0,8%) foram os tipos mais prevalentes<sup><xref ref-type="bibr" rid="B4">4</xref></sup>. O Ministério da Saúde reporta a incidência do traço falciforme em 1:35 nascidos vivos e estima que, anualmente, ocorra o nascimento de três mil crianças com DF e outras 200 mil apresentando traços da doença<sup><xref ref-type="bibr" rid="B5">5</xref></sup>.</p>
+				<p>O ano de 2001 marcou a inclusão do rastreamento da DF no Programa Nacional de Triagem Neonatal (PNTN) no país e criou um cenário oportuno para a implementação precoce de abordagens clínicas visando à prevenção de complicações<sup><xref ref-type="bibr" rid="B6">6</xref></sup>. Recentemente, uma revisão de estudos internacionais constatou a escassez de publicações abordando o monitoramento dessa anomalia genética via estudos de mortalidade<sup><xref ref-type="bibr" rid="B7">7</xref></sup>. Uma síntese de sete estudos conduzidos no Brasil mostrou que os indicadores apenas se restringiam à algumas unidades federativas<sup><xref ref-type="bibr" rid="B8">8</xref></sup>, sugerindo que há falta de estudos com enfoque na DF que tornem evidente a magnitude dos óbitos em escala nacional, particularmente no segmento de crianças e adolescentes, após a implantação da triagem pelo PNTN. Assim, o objetivo deste estudo foi descrever as taxas de mortalidade atribuída à doença falciforme em crianças e adolescentes, no Brasil e nas grandes regiões geográficas, de 2000 a 2019.</p>
+			</sec>
+			<sec sec-type="methods">
+				<title>MÉTODOS</title>
+				<p>Trata-se de um estudo ecológico do tipo séries temporais que usou uma modelagem autorregressiva para descrever a força e as tendências com que a DF provocou óbitos em crianças e adolescentes no Brasil, a partir do ano 2000. Os dados foram captados no site do Departamento de Informática do Sistema Único de Saúde (Datasus)<sup><xref ref-type="bibr" rid="B9">9</xref></sup>, consultando informações em saúde e estatísticas vitais. As estimativas populacionais foram obtidas no site do Instituto Brasileiro de Geografia e Estatística (IBGE)<sup><xref ref-type="bibr" rid="B10">10</xref></sup>.</p>
+				<sec>
+					<title>Variáveis de Interesse</title>
+					<p>O estudo abrangeu o Brasil como um todo e as cinco regiões geográficas separadamente (Norte, Nordeste, Sudeste, Sul e Centro Oeste) e teve enfoque nos óbitos com causa básica de DF (D57), conforme a Classificação Estatística Internacional de Doenças e Problemas Relacionados à Saúde – CID 10. O período pesquisado englobou os anos de 2000 até 2019, que compuseram 10 biênios, iniciados em 2000–2001 e finalizados em 2018–2019. As análises de correlação entre taxas e biênios abrangeram sexo (masculino e feminino) e faixa etária (0–4, 5–9, 10–14, 15–19 anos), conforme especificado no site do Datasus.</p>
+					<p>Antecipando a importância do perfil raça/cor da pele para os desfechos falciformes, o estudo forneceu uma breve descrição da distribuição dos óbitos também por esse marcador, além de idade e sexo. O quesito raça/cor foi descrito conforme os estratos (branco, preto, pardo, amarelo e indígena) utilizados na plataforma Tabnet do Datasus<sup><xref ref-type="bibr" rid="B9">9</xref></sup>e a categoria “negro”, corresponde à soma de “pardos” e de “pretos”, conforme utilizado pelo IBGE<sup><xref ref-type="bibr" rid="B10">10</xref></sup>.</p>
+				</sec>
+				<sec>
+					<title>Taxas de Mortalidade</title>
+					<p>Para o cálculo das taxas de mortalidade foram utilizados, no numerador, o número de óbitos captados no Datasus e, no denominador, o contingente populacional projetado pelo IBGE. As taxas de mortalidade padronizadas por idade foram calculadas para cada um dos 10 biênios, considerando as quatro faixas etárias em análise e o conjunto da população brasileira alvo do estudo. As taxas foram padronizadas pelo método direto tendo como referência a população mundial<sup><xref ref-type="bibr" rid="B11">11</xref></sup>. As taxas de mortalidade específicas por idade foram calculadas para as cinco macrorregiões, além do Brasil como um todo, considerando as quatro faixas etárias. Todos os indicadores foram apresentados por 100.000 pessoas-ano.</p>
+				</sec>
+				<sec>
+					<title>Tendências Temporais</title>
+					<p>Os indicadores foram dispostos em gráficos de linha tendo no eixo de <italic>y</italic> a variável dependente (taxa) e no eixo de <italic>x</italic> a variável independente (biênio). As taxas ajustadas por idade foram calculadas apenas para o Brasil e foram dispostas considerando o conjunto da população brasileira alvo do estudo, bem como estratos definidos por sexo. As taxas específicas por idade foram plotadas segundo faixas etárias, após alisamento dos coeficientes, utilizando a técnica de médias móveis de terceira ordem, sendo apresentadas com resultados do Brasil e das cinco macrorregiões.</p>
+				</sec>
+				<sec>
+					<title>Análise Estatística</title>
+					<p>A análise estatística foi conduzida empregando-se a regressão linear para verificar o comportamento das taxas ajustadas estimadas para o Brasil. Buscando reduzir o efeito da autocorrelação de resíduos, determinada pela proximidade dos eventos computados ao longo dos biênios, o estudo seguiu as recomendações de Antunes e Cardoso<sup><xref ref-type="bibr" rid="B12">12</xref></sup> e aplicou o método autorregressivo de Prais-Winsten<sup><xref ref-type="bibr" rid="B13">13</xref></sup>. As mudanças percentuais anuais (APC) foram calculadas após transformação logarítmica dos coeficientes e apresentadas com seus respectivos intervalos de confiança de 95% (IC95%). As tendências foram interpretadas como estacionária, declínio ou elevação. As análises foram conduzidas com o uso do programa Microsoft Excel<sup>®</sup> e da plataforma R.</p>
+				</sec>
+				<sec>
+					<title>Aspectos Éticos</title>
+					<p>O estudo obedeceu às Diretrizes Internacionais para Desenvolvimento de Pesquisa Envolvendo Seres Humanos e foi desenvolvido com dados secundários, disponibilizados publicamente, online, pelo Datasus e IBGE, estando, portanto, livre de procedimentos éticos formais.</p>
+				</sec>
+			</sec>
+			<sec sec-type="results">
+				<title>RESULTADOS</title>
+				<p>De 2000 a 2019, ocorreram 2.422 óbitos por doença falciforme entre crianças e adolescentes no Brasil. A frequência foi maior no sexo masculino (54,24% <italic>versus</italic> 45,75%) e na faixa etária de zero a nove anos (55,20% <italic>versus</italic> 45,80). A distribuição por macrorregião mostrou maior frequência na região Nordeste (40,46%), seguida da Sudeste (39,02%), Centro-Oeste (9,58%), Norte (7,84%) e Sul (3,10%).</p>
+				<p>Tendo em vista a importância da raça/cor da pele em estudos de DF, analisou-se a falta de informação nesse quesito. Observou-se que a proporção de dados perdidos foi de 9,54%, o que representa uma considerável redução, passando de 21,51% no ano 2000 para menos de 10% a partir de 2009 (8,06%), caindo para 3,01% em 2019. A partir do conjunto de óbitos com a variável raça/cor da pele adequadamente registrada (n = 2.191), observou-se que a maioria das vítimas fatais são pessoas que foram classificadas como negras, representando 78,73% dos óbitos no Brasil e em quatro das macrorregiões: 85,16% das mortes na Região Norte, 86,71% no Nordeste, 71,16% no Sudeste, e 80,47% no Centro-Oeste. Na região Sul, onde encontra-se a maior concentração de população branca do país, a distribuição de óbitos por cor da pele foi de 50% tanto em brancos quanto em negros (<xref ref-type="table" rid="t1002">Tabela 1</xref>).</p>
+				<p>
+					<table-wrap id="t1002">
+						<label>Tabela 1</label>
+						<caption>
+							<title>Óbitos atribuídos à doença falciforme em crianças e adolescentes: distribuição por idade, sexo e cor da pele, segundo as Macrorregiões do Brasil, de 2000–2019.</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left" rowspan="2">Características</th>
+									<th rowspan="2">Brasil</th>
+									<th colspan="5">Macrorregiões geográficas</th>
+								</tr>
+								<tr>
+									<th>Norte</th>
+									<th>Nordeste</th>
+									<th>Sudeste</th>
+									<th>Sul</th>
+									<th>Centro-Oeste</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>
+									</td>
+									<td align="center">n = 2.191</td>
+									<td align="center">n = 182</td>
+									<td align="center">n = 869</td>
+									<td align="center">n = 853</td>
+									<td align="center">n = 72</td>
+									<td align="center">n = 215</td>
+								</tr>
+								<tr>
+									<td>Idade (anos)</td>
+									<td align="center">n (%)</td>
+									<td align="center">n (%)</td>
+									<td align="center">n(%)</td>
+									<td align="center">n (%)</td>
+									<td align="center">n (%)</td>
+									<td align="center">n (%)</td>
+								</tr>
+								<tr>
+									<td>0–4</td>
+									<td align="center">797 (36,38)</td>
+									<td align="center">74 (40,66)</td>
+									<td align="center">325 (37,40)</td>
+									<td align="center">297 (34,82)</td>
+									<td align="center">23 (31,94)</td>
+									<td align="center">78 (36,28)</td>
+								</tr>
+								<tr>
+									<td>5–9</td>
+									<td align="center">406 (18,53)</td>
+									<td align="center">39 (21,43)</td>
+									<td align="center">163 (18,76)</td>
+									<td align="center">147 (17,23)</td>
+									<td align="center">12 (16,67)</td>
+									<td align="center">45 (20,93)</td>
+								</tr>
+								<tr>
+									<td>10–14</td>
+									<td align="center">344 (15,70)</td>
+									<td align="center">26 (14,28)</td>
+									<td align="center">133 (15,30)</td>
+									<td align="center">142 (16,65)</td>
+									<td align="center">15 (20,83)</td>
+									<td align="center">28 (13,02)</td>
+								</tr>
+								<tr>
+									<td>15–19</td>
+									<td align="center">644 (29,39)</td>
+									<td align="center">43 (23,63)</td>
+									<td align="center">248 (28,54)</td>
+									<td align="center">267 (31,30)</td>
+									<td align="center">22 (30,56)</td>
+									<td align="center">64 (29,77)</td>
+								</tr>
+								<tr>
+									<td>Sexo</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Masculino</td>
+									<td align="center">1.189 (54,3)</td>
+									<td align="center">111 (60,99)</td>
+									<td align="center">467 (53,73)</td>
+									<td align="center">456 (53,5)</td>
+									<td align="center">38 (52,8)</td>
+									<td align="center">117 (54,4)</td>
+								</tr>
+								<tr>
+									<td>Feminino</td>
+									<td align="center">1.002 (45,7)</td>
+									<td align="center">71 (39,01)</td>
+									<td align="center">402 (46,26)</td>
+									<td align="center">397 (46,5)</td>
+									<td align="center">34 (47,2)</td>
+									<td align="center">98 (45,6)</td>
+								</tr>
+								<tr>
+									<td>Cor/raça</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Branco</td>
+									<td align="center">455 (20,77)</td>
+									<td align="center">26 (14,29)</td>
+									<td align="center">112 (12,89)</td>
+									<td align="center">241 (28,25)</td>
+									<td align="center">36 (50,00)</td>
+									<td align="center">40 (18,60)</td>
+								</tr>
+								<tr>
+									<td>Preto</td>
+									<td align="center">416 (18,99)</td>
+									<td align="center">17 (9,34)</td>
+									<td align="center">147 (16,92)</td>
+									<td align="center">207 (24,27)</td>
+									<td align="center">21 (29,17)</td>
+									<td align="center">24 (11,16)</td>
+								</tr>
+								<tr>
+									<td>Amarelo</td>
+									<td align="center">7 (0,32)</td>
+									<td align="center">1 (0,55)</td>
+									<td align="center">1 (0,11)</td>
+									<td align="center">4 (0,47)</td>
+									<td align="center">0 (0,00)</td>
+									<td align="center">1 (0,47)</td>
+								</tr>
+								<tr>
+									<td>Pardo</td>
+									<td align="center">1.309 (59,74)</td>
+									<td align="center">138 (75,82)</td>
+									<td align="center">607 (69,85)</td>
+									<td align="center">400 (46,89)</td>
+									<td align="center">15 (20,83)</td>
+									<td align="center">149 (69,30)</td>
+								</tr>
+								<tr>
+									<td>Indígena</td>
+									<td align="center">4 (0,18)</td>
+									<td align="center">0,00</td>
+									<td align="center">2 (0,23)</td>
+									<td align="center">1 (0,12)</td>
+									<td align="center">0 (0,00)</td>
+									<td align="center">1 (0,47)</td>
+								</tr>
+							</tbody>
+						</table>
+					</table-wrap>
+				</p>
+				<p>No Brasil, as taxas de mortalidade padronizadas por idade permaneceram abaixo de 0,30 por 100 mil pessoas-ano ao longo de todos os biênios da série. No entanto, as taxas apresentaram um diferencial por sexo, pois a força da doença sobre os óbitos no conjunto da população, bem como no sexo feminino, não superou a encontrada no sexo masculino em nenhum biênio analisado (<xref ref-type="fig" rid="f01002">Figura 1</xref>). A análise de tendência indicou um crescimento temporal das taxas de mortalidade atribuídas à DF nos três estratos populacionais. No conjunto da população, o comportamento desses óbitos apresentou APC com elevação média de 5,44% (IC95% 2,57–8,39). Nas crianças e adolescentes do sexo masculino, o APC foi de 4,38% (IC95% 2,17–6,64) e no sexo feminino foi de 6,96% (IC95% 3,05–11,01).</p>
+				<p>
+					<fig id="f01002">
+						<label>Figura 1</label>
+						<caption>
+							<title>Taxas de mortalidade padronizadas por idade, por 100 mil pessoas-ano, atribuídas à doença falciforme, em crianças (de zero a nove anos) e adolescentes (de 10–19 anos), por biênios, iniciando em 2000–2001 e finalizando em 2018–2019, no Brasil.</title>
+						</caption>
+						<graphic xlink:href="1518-8787-rsp-56-65-gf01-pt.tif"/>
+					</fig>
+				</p>
+				<p>O perfil epidemiológico expressado por taxas específicas por idade apresentou um padrão particular. A mortalidade da DF foi maior nas duas faixas extremas de idade analisadas. No Brasil, a população de crianças da faixa etária de zero a quatro anos apresentou taxas de 0,20 e 0,32 por 100 mil pessoas-ano no biênio inicial (2000–2001) e no final (2018–2019), respectivamente. Na faixa etária de 15 a 19 anos as taxas específicas por idade foram 0,13 e 0,28 por 100 mil pessoas-ano, nos mesmos biênios. Regionalmente, a magnitude mais elevada de óbitos se repetiu na faixa etária de zero a quatro anos, mas mudou um pouco o padrão nas faixas etárias de cinco a nove anos e de 10 a 14 anos nas regiões Norte e Sul, que apresentaram taxas maiores do que as observadas na faixa de 15 a 19 anos (<xref ref-type="table" rid="t2002">Tabela 2</xref>).</p>
+				<p>
+					<table-wrap id="t2002">
+						<label>Tabela 2</label>
+						<caption>
+							<title>Taxas específicas por idade atribuídas à doença falciforme em crianças e adolescentes, por biênios, iniciados em 2000–2001 e finalizados em 2018–2019, no Brasil.</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left" rowspan="2">Localidade/biênio</th>
+									<th colspan="2">Taxas<sup>a</sup> em crianças</th>
+									<th colspan="2">Taxas<sup>a</sup> em adolescentes</th>
+								</tr>
+								<tr>
+									<th>0–4 anos</th>
+									<th>5–9 anos</th>
+									<th>10–14 anos</th>
+									<th>15–19 anos</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Brasil</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>2000–2001</td>
+									<td align="center">0,20</td>
+									<td align="center">0,11</td>
+									<td align="center">0,08</td>
+									<td align="center">0,13</td>
+								</tr>
+								<tr>
+									<td>2018–2019</td>
+									<td align="center">0,32</td>
+									<td align="center">0,16</td>
+									<td align="center">0,09</td>
+									<td align="center">0,28</td>
+								</tr>
+								<tr>
+									<td>Norte</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>2000–2001</td>
+									<td align="center">0,22</td>
+									<td align="center">0,08</td>
+									<td align="center">0,03</td>
+									<td align="center">0,03</td>
+								</tr>
+								<tr>
+									<td>2018–2019</td>
+									<td align="center">0,31</td>
+									<td align="center">0,17</td>
+									<td align="center">0,03</td>
+									<td align="center">0,20</td>
+								</tr>
+								<tr>
+									<td>Nordeste</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>2000–2001</td>
+									<td align="center">0,23</td>
+									<td align="center">0,08</td>
+									<td align="center">0,11</td>
+									<td align="center">0,16</td>
+								</tr>
+								<tr>
+									<td>2018–2019</td>
+									<td align="center">0,45</td>
+									<td align="center">0,17</td>
+									<td align="center">0,16</td>
+									<td align="center">0,51</td>
+								</tr>
+								<tr>
+									<td>Sudeste</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>2000–2001</td>
+									<td align="center">0,20</td>
+									<td align="center">0,16</td>
+									<td align="center">0,07</td>
+									<td align="center">0,15</td>
+								</tr>
+								<tr>
+									<td>2018–2019</td>
+									<td align="center">0,27</td>
+									<td align="center">0,16</td>
+									<td align="center">0,07</td>
+									<td align="center">0,21</td>
+								</tr>
+								<tr>
+									<td>Sul</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>2000–2001</td>
+									<td align="center">0,08</td>
+									<td align="center">0,02</td>
+									<td align="center">0,06</td>
+									<td align="center">0</td>
+								</tr>
+								<tr>
+									<td>2018–2019</td>
+									<td align="center">0,05</td>
+									<td align="center">0,05</td>
+									<td align="center">0</td>
+									<td align="center">0,07</td>
+								</tr>
+								<tr>
+									<td>Centro Oeste</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>2000–2001</td>
+									<td align="center">0,25</td>
+									<td align="center">0,12</td>
+									<td align="center">0,08</td>
+									<td align="center">0,24</td>
+								</tr>
+								<tr>
+									<td>2018–2019</td>
+									<td align="center">0,49</td>
+									<td align="center">0,30</td>
+									<td align="center">0,12</td>
+									<td align="center">0,26</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN1002">
+								<p><sup>a</sup> Taxas específicas por idade apresentadas por 100 mil pessoas-ano.</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p>A visualização da disposição temporal dos coeficientes em gráficos permite a interpretação de maior magnitude dos óbitos nas faixas etárias de zero a quatro anos e de 15 a 19 anos, ao mesmo tempo em que sugere tendência de elevação das taxas ao longo do tempo, tanto no Brasil quanto nas macrorregiões (<xref ref-type="fig" rid="f02002">Figura 2</xref>).</p>
+				<p>
+					<fig id="f02002">
+						<label>Figura 2</label>
+						<caption>
+							<title>Tendências das taxas de mortalidade por doença falciforme, específicas por idade em crianças e adolescentes, por 100 mil pessoas-ano, no Brasil (a) e nas macrorregiões geográficas (Norte (b), Nordeste (c), Sudeste (d), Sul (e), Centro-Oeste (f)), por biênios, iniciando em 2000–2001 e finalizando em 2018–2019.</title>
+						</caption>
+						<graphic xlink:href="1518-8787-rsp-56-65-gf02-pt.tif"/>
+					</fig>
+				</p>
+			</sec>
+			<sec sec-type="discussion">
+				<title>DISCUSSÃO</title>
+				<p>O estudo teve o mérito de analisar a doença falciforme, tema ainda pouco explorado cientificamente no Brasil, embora cause importante sofrimento aos pacientes e suas famílias. O enfoque em crianças e adolescentes revelou que as faixas etárias de zero a quatro anos e de 15 a 19 anos experimentaram as maiores taxas de mortalidade, tanto no Brasil como um todo quanto nas macrorregiões. As taxas de mortalidade ajustadas apontam para uma tendência de aumento desses óbitos ao longo dos anos no país e sugerem que, em média, o Brasil perde anualmente cerca de 125 crianças, devido às complicações de transtornos falciformes.</p>
+				<p>Foi possível verificar que crianças e adolescentes pardos e pretos são as principais vítimas fatais da DF nacional e regionalmente. Embora constitua uma característica comum da doença<sup><xref ref-type="bibr" rid="B14">14</xref></sup>, é preciso ter em mente as metas da Política Nacional de Saúde Integral da População Negra<sup><xref ref-type="bibr" rid="B15">15</xref></sup>, na qual se acentua a necessidade de priorizar ações que visem a redução das disparidades étnico-raciais nas condições de saúde, destacando a DF. No contexto étnico-racial, chama a atenção que, mesmo na região Sul, caracterizada pela dominância da população de cor branca, metade do contingente de óbitos foi registrada em pessoas brancas e a outra metade em pessoas negras. Levando em conta a miscigenação típica da população brasileira, a expectativa é que a distribuição proporcional seja, possivelmente, ainda maior entre afrodescendentes do que as apresentadas neste estudo.</p>
+				<p>Os dois estratos etários mais afetados (zero a quatro e 15 a 19 anos) também merecem reflexão, pois representam momentos da vida com significado, demandas e necessidades diferentes. Nos primeiros anos, a expectativa seria de maior usufruto da Política Nacional de Atenção Integral às Pessoas com Doença Falciforme e outras Hemoglobinopatias<sup><xref ref-type="bibr" rid="B16">16</xref></sup>, na qual se promove a garantia do seguimento das pessoas diagnosticadas pelo Programa Nacional de Triagem Neonatal, ofertando abordagens terapêuticas efetivas, medidas educacionais ampliadas aos familiares, aumento do acesso aos serviços de saúde especializados e, por consequência, redução da morbimortalidade nas crianças que nascem com defeitos falciformes<sup><xref ref-type="bibr" rid="B16">16</xref></sup>. Mas é justamente o estrato de zero a quatro anos que experimenta as maiores taxas de mortes indistintamente no Brasil e nas regiões geográficas.</p>
+				<p>Uma avaliação de causas de óbitos em pessoas com DF no Brasil, mostrou que 10,4% das mortes ocorreram em menores de cinco anos<sup><xref ref-type="bibr" rid="B17">17</xref></sup>. No presente estudo, o fato de o estrato 0–4 anos ter taxas mais elevadas e tendência de aumento sugere que os investimentos na DF feitos até então carecem de maior efetividade. É necessário identificar onde estão ocorrendo as falhas para propor medidas de aprimoramento que perpassem desde a adesão e/ou revisão dos protocolos até a ampliação do acesso dessas crianças aos serviços de saúde que possam fazer diferença nas condições de saúde, qualidade de vida e sobrevida com a doença.</p>
+				<p>A mortalidade da doença tem importância também sobre a faixa etária entre 15 e 19 anos, sendo o segundo estrato em número de mortes delineando um cenário de perdas entre aqueles que superaram longa trajetória de crises, adoecimentos e hospitalizações. Essa questão precisa ser investigada para que se possa indicar o que estaria acontecendo na adolescência tardia, causando aumento no número de mortes por DF como causa básica, um defeito genético que foi controlado durante os primeiros anos de vida. Elucidar essa problemática será essencial para readequar a atenção nessa fase da vida, a qual é impregnada de desafios e incertezas, agravados pela DF. Do lado prático, manter a adesão ao regime terapêutico é um grande desafio que deve ser trabalhado pelo profissional de saúde<sup><xref ref-type="bibr" rid="B18">18</xref></sup>. Do lado científico, falta suprir lacunas com produção de evidências de alto nível, esclarecendo, por exemplo, o impacto da mudança do local de atendimento, que passa a ser ofertado em ambientes destinados aos adultos<sup><xref ref-type="bibr" rid="B19">19</xref></sup>.</p>
+				<p>No Brasil, a taxa de óbitos na faixa &lt; 5 anos apresentou um aumento de 60% comparando-se os biênios 2000–2001 e 2018–2019. Um estudo restrito à população negra nos Estados Unidos apontou para o declínio de óbitos na mesma faixa etária com taxas caindo de 2,05 (1979–1989) para 0,47 (2015–2017), por 100 mil pessoas-ano<sup><xref ref-type="bibr" rid="B20">20</xref></sup>. Na França, a investigação da causa de óbito em crianças diagnosticadas com DF ao nascimento foi feita em um estudo<sup><xref ref-type="bibr" rid="B21">21</xref></sup> de seguimento de 15 anos, encerrado em 2015. Os autores mostraram que as complicações envolvendo infecção e anemia foram as causas mais frequentes e mais da metade dos óbitos compartilhavam as duas condições.</p>
+				<p>A DF vem ganhando atenção das autoridades brasileiras desde o início do século XXI, mesmo que lentamente, com a criação do Programa Nacional de Triagem Neonatal<sup><xref ref-type="bibr" rid="B6">6</xref></sup>, no qual foram definidas algumas responsabilidades e atribuições. A Política Nacional de Atenção Integral às Pessoas com Doença Falciforme e outras Hemoglobinopatias foi lançada em 2005 e deu ênfase à abordagem do problema no Sistema Único de Saúde<sup><xref ref-type="bibr" rid="B16">16</xref></sup>. Medidas gerais foram tratadas no Manual de Educação em Saúde do Ministério da Saúde<sup><xref ref-type="bibr" rid="B18">18</xref></sup>. Em 2009, a doença foi listada entre as prioridades elencadas pela Política Nacional de Saúde Integral da População Negra<sup><xref ref-type="bibr" rid="B15">15</xref></sup>. Um documento de protocolo clínico e diretrizes terapêuticas foi elaborado em 2010, no qual se avaliou o uso da hidroxiuréia<sup><xref ref-type="bibr" rid="B22">22</xref></sup>. A decisão de incorporar a hidroxiuréia com dose terapêutica adequada às crianças de dois anos ou mais foi publicada em 2013<sup><xref ref-type="bibr" rid="B23">23</xref></sup>. As condutas básicas para tratamento de DF, lançadas em 2012, dão ênfase à propriedade das medidas profiláticas, principalmente nas crianças<sup><xref ref-type="bibr" rid="B5">5</xref></sup>. Apesar de todo esse arcabouço de políticas públicas, a mortalidade em crianças por DF ainda é crescente no país. Infecções, síndrome torácica aguda e sequestração esplênica aguda são condições evitáveis, mas comumente reportadas<sup><xref ref-type="bibr" rid="B8">8</xref></sup>, demonstrando que ainda é preciso ter atenção para descobrir as falhas e consertá-las.</p>
+				<p>A DF penaliza os pacientes duplamente, tendo em vista tanto a evitabilidade das manifestações clínicas quanto a baixa visibilidade que ela experimenta no Brasil, ainda que constitua um problema de saúde pública nos países em desenvolvimento<sup><xref ref-type="bibr" rid="B24">24</xref></sup>. Nesse sentido, o estudo teve o mérito de abordar os indicadores de mortalidade em âmbito nacional, contudo, algumas limitações devem ser enumeradas. Primeiramente, considerando a importância dos estudos epidemiológicos e sua contribuição para as políticas de saúde que visam a redução das desigualdades raciais em saúde, uma limitação foi não estimar taxas segundo cor da pele, devido à indisponibilidade de dados populacionais estratificados de acordo com tal característica para cada faixa etária e marco temporal. No entanto, apresentamos uma síntese da distribuição demográfica, o que reforçou a importância do problema no grupo populacional pardo e preto, regional ou nacionalmente.</p>
+				<p>Outra limitação foi o enfoque nos óbitos codificados como D57, não abrangendo causas básicas atribuídas a outras hemoglobinopatias (D56). Embora a possibilidade de erro na classificação dos óbitos e de subestimação das taxas não devam ser ignoradas, nossos resultados são próximos daqueles reportados para crianças no estado do Maranhão<sup><xref ref-type="bibr" rid="B25">25</xref></sup>.</p>
+			</sec>
+			<sec sec-type="conclusions">
+				<title>CONCLUSÃO</title>
+				<p>O estudo mostrou tendência de aumento dos óbitos atribuídos aos transtornos falciformes em crianças e adolescentes. Considerando que a magnitude dos óbitos foi mais evidente nos primeiros anos (0–4) e no final da adolescência (15–19), o estudo sugere que abordagens específicas por idade podem impactar no controle dos desfechos fatais causados pela DF no Brasil.</p>
+			</sec>
+		</body>
+	</sub-article>
+</article>

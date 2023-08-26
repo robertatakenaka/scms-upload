@@ -1,0 +1,2062 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.1" specific-use="sps-1.9" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="nlm-ta">Rev Saude Publica</journal-id>
+			<journal-id journal-id-type="publisher-id">rsp</journal-id>
+			<journal-title-group>
+				<journal-title>Revista de Saúde Pública</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Rev. Saúde Pública</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="ppub">0034-8910</issn>
+			<issn pub-type="epub">1518-8787</issn>
+			<publisher>
+				<publisher-name>Faculdade de Saúde Pública da Universidade de São Paulo</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="other">00230</article-id>
+			<article-id pub-id-type="doi">10.11606/s1518-8787.2022056004175</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Original Article</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Microcephaly measurement in adults and its association with clinical variables</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-8420-1680</contrib-id>
+					<name>
+						<surname>Costa</surname>
+						<given-names>Nicole Rezende da</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-4123-4861</contrib-id>
+					<name>
+						<surname>Mancine</surname>
+						<given-names>Livia</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+					<xref ref-type="aff" rid="aff3"><sup>III</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-8889-6654</contrib-id>
+					<name>
+						<surname>Salvini</surname>
+						<given-names>Rogerio</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-7731-9464</contrib-id>
+					<name>
+						<surname>Teixeira</surname>
+						<given-names>Juliana de Melo</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-6544-7861</contrib-id>
+					<name>
+						<surname>Rodriguez</surname>
+						<given-names>Roberta Diehl</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-5878-398X</contrib-id>
+					<name>
+						<surname>Leite</surname>
+						<given-names>Renata Elaine Paraizo</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-8170-7635</contrib-id>
+					<name>
+						<surname>Nascimento</surname>
+						<given-names>Camila</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-6608-2473</contrib-id>
+					<name>
+						<surname>Pasqualucci</surname>
+						<given-names>Carlos Augusto</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-5721-1525</contrib-id>
+					<name>
+						<surname>Nitrini</surname>
+						<given-names>Ricardo</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-2290-4492</contrib-id>
+					<name>
+						<surname>Jacob-Filho</surname>
+						<given-names>Wilson</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-6132-9999</contrib-id>
+					<name>
+						<surname>Lafer</surname>
+						<given-names>Beny</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-6809-0618</contrib-id>
+					<name>
+						<surname>Grinberg</surname>
+						<given-names>Lea Tenenholz</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff4"><sup>IV</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-5942-4778</contrib-id>
+					<name>
+						<surname>Suemoto</surname>
+						<given-names>Claudia Kimie</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-5323-2110</contrib-id>
+					<name>
+						<surname>Nunes</surname>
+						<given-names>Paula Villela</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>I</label>
+				<institution content-type="orgname">Universidade de São Paulo</institution>
+				<institution content-type="orgdiv1">Faculdade de Medicina</institution>
+				<addr-line>
+					<named-content content-type="city">São Paulo</named-content>
+					<named-content content-type="state">SP</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Universidade de São Paulo. Faculdade de Medicina. São Paulo, SP, Brasil</institution>
+			</aff>
+			<aff id="aff2">
+				<label>II</label>
+				<institution content-type="orgname">Universidade Federal de Goiás</institution>
+				<institution content-type="orgdiv1">Instituto de Informática</institution>
+				<addr-line>
+					<named-content content-type="city">Goiânia</named-content>
+					<named-content content-type="state">GO</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Universidade Federal de Goiás. Instituto de Informática. Goiânia, GO, Brasil</institution>
+			</aff>
+			<aff id="aff3">
+				<label>III</label>
+				<institution content-type="orgname">Instituto Federal Goiano</institution>
+				<institution content-type="orgdiv1">Departamento de Ensino</institution>
+				<addr-line>
+					<named-content content-type="city">Iporá</named-content>
+					<named-content content-type="state">GO</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Instituto Federal Goiano. Departamento de Ensino. Iporá, GO, Brasil</institution>
+			</aff>
+			<aff id="aff4">
+				<label>IV</label>
+				<institution content-type="orgname">University of California</institution>
+				<institution content-type="orgdiv1">Memory and Aging Center</institution>
+				<addr-line>
+					<named-content content-type="city">San Francisco</named-content>
+					<named-content content-type="state">California</named-content>
+				</addr-line>
+				<country country="US">United States</country>
+				<institution content-type="original">University of California. Memory and Aging Center. San Francisco, California, United States</institution>
+			</aff>
+			<author-notes>
+				<corresp id="c01"> Correspondence: Paula Villela Nunes Universidade de São Paulo Rua Dr. Ovídio Pires de Campos, 785 01060-970 São Paulo, SP, Brasil E-mail: <email>paula@formato.com.br</email>
+				</corresp>
+				<fn fn-type="con">
+					<p><bold>Authors’ Contribution:</bold> Study design and planning: PVN, RS, CAP, RN, WJF, LG, CKS. Data collection, analysis and interpretation: PVN, RS, RDR, REPL, CN, CAP, RN, LM, WJF, LG, BL, CKS. Manuscript drafting or review: NRC, LM, RS, JMT, RDR, REPL, CN, CAP, RN, WJF, BL, LG, CKS, PVN. Approval of the final version: NRC, LM, RS, JMT, RDR, REPL, CN, CAP, RN, WJF, BL, LG, CKS, PVN. Public responsibility for the content of the article: NRC, LM, RS, JMT, RDR, REPL, CN, CAP, RN, WJF, BL, LG, CKS, PVN.</p>
+				</fn>
+				<fn fn-type="conflict">
+					<p><bold>Conflict of Interest:</bold> The authors declare no conflict of interest.</p>
+				</fn>
+				<fn fn-type="other">
+					<p><bold>Data Availability:</bold> The data that support the findings of this study are publicly unavailable due to information that could compromise the privacy of research participants, but data are available from the data sharing committee <email>(gerolab@gmail.com)</email> upon reasonable request.</p>
+				</fn>
+			</author-notes>
+			<pub-date date-type="pub" publication-format="electronic">
+				<day>27</day>
+				<month>05</month>
+				<year>2022</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">
+				<year>2022</year>
+			</pub-date>
+			<volume>56</volume>
+			<elocation-id>38</elocation-id>
+			<history>
+				<date date-type="received">
+					<day>27</day>
+					<month>08</month>
+					<year>2021</year>
+				</date>
+				<date date-type="accepted">
+					<day>1</day>
+					<month>12</month>
+					<year>2021</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="en">
+					<license-p> This is an Open Access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. </license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>ABSTRACT</title>
+				<sec>
+					<title>OBJECTIVE</title>
+					<p> To establish a microcephaly cut-off size in adults using head circumference as an indirect measure of brain size, as well as to explore factors associated with microcephaly via data mining.</p>
+				</sec>
+				<sec>
+					<title>METHODS</title>
+					<p> In autopsy studies, head circumference was measured with an inelastic tape placed around the skull. Total brain volume was also directly measured. A linear regression was used to determine the association of head circumference with brain volume and clinical variables. Microcephaly was defined as head circumference that were two standard deviations below the mean of significant clinical variables. We further applied an association rule mining to find rules associating microcephaly with several sociodemographic and clinical variables.</p>
+				</sec>
+				<sec>
+					<title>RESULTS</title>
+					<p> In our sample of 2,508 adults, the mean head circumference was 55.3 ± 2.7cm. Head circumference was related to height, cerebral volume, and sex (p &lt; 0.001 for all). Microcephaly was present in 4.7% of the sample (n = 119). Out of 34,355 association rules, we found significant relationships between microcephaly and a clinical dementia rating (CDR) &gt; 0.5 with an informant questionnaire on cognitive decline in the elderly (IQCODE) ≥ 3.4 (confidence: 100% and lift: 5.6), between microcephaly and a CDR &gt; 0.5 with age over 70 years (confidence: 42% and lift: 2.4), and microcephaly and males (confidence: 68.1% and lift: 1.3).</p>
+				</sec>
+				<sec>
+					<title>CONCLUSION</title>
+					<p> Head circumference was related to cerebral volume. Due to its low cost and easy use, head circumference can be used as a screening test for microcephaly, adjusting it for gender and height. Microcephaly was associated with dementia at old age.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="en">
+				<kwd>Adult</kwd>
+				<kwd>Microcephaly, classification</kwd>
+				<kwd>Cephalometry</kwd>
+				<kwd>Dementia</kwd>
+				<kwd>Data Mining</kwd>
+			</kwd-group>
+			<funding-group>
+				<award-group>
+					<funding-source>Fapesp</funding-source>
+					<award-id>2018/16626-0</award-id>
+				</award-group>
+				<award-group>
+					<funding-source>Fapesp</funding-source>
+					<award-id>2016/24326-0</award-id>
+				</award-group>
+				<award-group>
+					<funding-source>Fapesp</funding-source>
+					<award-id>2017-07089-8</award-id>
+				</award-group>
+				<award-group>
+					<funding-source>CNPq</funding-source>
+					<award-id>466763/2014-0</award-id>
+				</award-group>
+				<award-group>
+					<funding-source>AARF</funding-source>
+					<award-id>18-566005</award-id>
+				</award-group>
+				<award-group>
+					<funding-source>Instituto Federal Goiano – Campus Iporá</funding-source>
+					<award-id>23220.001846.2021-19</award-id>
+				</award-group>
+				<funding-statement>Funding: Fundação de Amparo à Pesquisa do Estado de São Paulo (Fapesp - Process 2018/16626-0; 2016/24326-0 and 2017-07089-8). Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq - Process 466763/2014-0). Alzheimer’s Association Research Fellowship (AARF - 18-566005). Instituto Federal Goiano – Campus Iporá (grant number 23220.001846.2021-19). Private donation from Paulo Sérgio Galvão to University of São Paulo Bipolar Disorder Research program (Promam) for funding this research.</funding-statement>
+			</funding-group>
+			<counts>
+				<fig-count count="0"/>
+				<table-count count="4"/>
+				<equation-count count="3"/>
+				<ref-count count="38"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>INTRODUCTION</title>
+			<p>Head circumference (HC) is an anthropometric parameter highly correlated with brain size<sup><xref ref-type="bibr" rid="B1">1</xref> , <xref ref-type="bibr" rid="B2">2</xref></sup> . A usual standard for microcephaly is an HC more than two standard deviations below the mean<sup><xref ref-type="bibr" rid="B3">3</xref></sup> . Microcephaly can be present at birth - primary microcephaly - or develop postnatally - secondary microcephaly<sup><xref ref-type="bibr" rid="B6">6</xref></sup> . Some causes of congenital microcephaly are genetic mutations, whereas other modifiable causes include prenatal infections (e.g., exposure to the Zika virus), maternal alcohol and substance abuse, and inadequate nutrition during pregnancy<sup><xref ref-type="bibr" rid="B7">7</xref></sup> . Secondary microcephaly can occur due to deceleration of brain growth in face of infection, trauma, intoxication, metabolic disease, and Rett syndrome, among other examples<sup><xref ref-type="bibr" rid="B4">4</xref></sup> . Moreover, microcephaly may lead to various developmental abnormalities and decreased cognitive reserve, with long-term consequences such as the increased risk for forms of dementia in vulnerable individuals<sup><xref ref-type="bibr" rid="B8">8</xref></sup> .</p>
+			<p>Microcephaly parameters are well established for children aged 0 to 18 months<sup><xref ref-type="bibr" rid="B11">11</xref></sup> , and the World Health Organization makes available charts for the HC growth in children from birth to the age of five years, plotted as standard deviations from the mean<sup><xref ref-type="bibr" rid="B12">12</xref></sup> . Nevertheless, even though HC is an accessible and inexpensive measure, we lack defined parameters for microcephaly in adults, and little is known about the clinical implications of microcephaly in this population.</p>
+			<p>This study aimed to establish a microcephaly cut-off size in adults using HC as an indirect measure of brain volume, as well as to investigate factors related to microcephaly via data mining to elicit several possible associations.</p>
+		</sec>
+		<sec sec-type="methods">
+			<title>METHODS</title>
+			<sec>
+				<title>Data Source</title>
+				<p>This cross-sectional study was conducted on subjects who underwent autopsy at the São Paulo Autopsy Service (SVOC-USP) between 2004 and 2019. In Brazil, autopsies are mandatory for all individuals whose cause of death was unidentified after death. The SVOC-USP is a community-based general autopsy service.</p>
+			</sec>
+			<sec>
+				<title>Study Population</title>
+				<p>Data were derived from the collection of the Biobank for Aging Studies at the Universidade de São Paulo (BAS-USP). Our study protocol was reviewed and approved by the ethics committee of the <italic>Faculdade de Medicina</italic> at the <italic>Universidade de São Paulo</italic> (approval number 458.272), following the World Medical Association Declaration of Helsinki. Subjects were included in our study after its procedures had been explained to family members and they had signed an informed consent form, thus agreeing to participate in our research.</p>
+				<p>The methodological procedures of the BAS-USP have been described elsewhere<sup><xref ref-type="bibr" rid="B13">13</xref></sup> . Subjects who were aged 50 years or older and who had died from natural (non-traumatic) causes were included. Cases without reliable informants, with a medical history of advanced chronic diseases or a prolonged agonal state were excluded. Subjects with significant cerebral lesions, including stroke and cerebral tumors, were excluded from the BAS-USP cohort because an immediate brain examination is required to confirm the cause of death. Nurses with expertise in gerontology invited knowledgeable informants to participate in our study. Knowledgeable informants were close family members or caregivers who had at least weekly contact with the deceased in the last six months before their death and could recount and provide details on subjects’ health information.</p>
+			</sec>
+			<sec>
+				<title>Clinical Post-Mortem Evaluation</title>
+				<p>Clinical evaluation consisted of assessing subjects’ clinical and functional status three months before death. A validated semi-structured clinical interview<sup><xref ref-type="bibr" rid="B16">16</xref></sup> assessed demographic variables (age, sex, and educational attainment), conditions related to death, past medical history, and cognitive status. For the association rule mining (ARM), age was also categorized according to the median of the sample as &lt; 70 and ≥ 70 years old, and education was stratified into illiterate, 1–4 years of study, and five years or more. Cognitive status in the three months before death was assessed by the informant questionnaire on cognitive decline in the elderly (IQCODE)<sup><xref ref-type="bibr" rid="B17">17</xref></sup> , and informants aided in the clinical dementia rating (CDR)<sup><xref ref-type="bibr" rid="B18">18</xref></sup> , validated for post-mortem use<sup><xref ref-type="bibr" rid="B16">16</xref></sup> . The IQCODE assesses the cognitive decline in the elderly in the past ten years, and the IQCODE cut-off was ≥ 3.4<sup><xref ref-type="bibr" rid="B19">19</xref></sup> . The CDR was used to identify the presence and stages of dementia, and a CDR &gt; 0.5 was considered indicative of cognitive impairment<sup><xref ref-type="bibr" rid="B18">18</xref></sup> .</p>
+				<p>Clinical medical history was assessed in detail during the interviews with informants, including history of hypertension, diabetes mellitus, coronary artery disease, congestive heart failure, dyslipidemia, cardiac arrhythmia, stroke, alcohol abuse/alcoholism, and tobacco use.</p>
+				<p>During the clinical evaluation, the interviewer continuously checked for data consistency and exclusion criteria to detect any conditions that might lead to the exclusion of the case at hand.</p>
+			</sec>
+			<sec>
+				<title>Morphometric Measurements</title>
+				<p>Head circumference was obtained before opening the skull. An inelastic tape was placed around the skull to obtain the largest perimeter when across the glabella and opstocranium<sup><xref ref-type="bibr" rid="B2">2</xref> , <xref ref-type="bibr" rid="B20">20</xref></sup> . Brain volume (in mL) was obtained by estimating the volume of water displaced by the submerged brain, according to Archimedes’ principle, a standard procedure for accurately measuring the volume of body regions<sup><xref ref-type="bibr" rid="B21">21</xref></sup> .</p>
+				<p>In this study, the microcephaly cut-off was defined in two steps. First, we analyzed which variables were associated with different HC measures. The variables tested were sex, height, age, and educational attainment. Second, microcephaly was set at two standard deviations below the mean HC for each group of clinical variables found to have a correlation with HC.</p>
+			</sec>
+			<sec>
+				<title>Statistical Analysis</title>
+				<p>Spearman correlation test was used to determine the association of HC with brain volume, height, age, and education. Moreover, differences in HC between sexes were tested with independent sample t-Tests. The significant associations or differences found were included in a multivariate linear regression analysis. The entire sample was divided into quartile measures of height to obtain the HC adjusted for height, with 10cm divisions; a sample division followed this step according to sex. The level of significance of the two-tailed tests was set at 0.05. The software Stata 12.0 (College Station, TX: StataCorp LP) was used to perform the statistical analyses.</p>
+			</sec>
+			<sec>
+				<title>Association Rule Mining</title>
+				<p>Association rule mining is a suitable method for discovering patterns or extracting co-occurrences of events from databases. It is a rule-based machine learning method for discovering multiple concomitant relations between variables in large databases. We can derive association rules from the frequency of variable sets, called itemsets, in an ordinal data set. An item is any variable characterizing a particular individual. A frequent itemset is any set of items with a frequency greater than or equal to a user’s predefined minimum threshold<sup><xref ref-type="bibr" rid="B22">22</xref></sup> .</p>
+				<p>An association rule has the form (X ⇒ Y) with the logical meaning “IF X, THEN Y”; in which X and Y are sets of non-overlapping items, i.e., X implies the occurrence of Y. X and Y are called the antecedent and consequent of the rule, respectively.</p>
+				<p>Association rule mining is probabilistic, and its primary measure assessments are values for support, confidence, and lift. Support is defined by the joint probability of X and Y in the data set, i.e., the percentage of records containing X and Y (Equation 1).</p>
+				<disp-formula id="e1">
+					<mml:math id="m1">
+						<mml:mtext>Equation 1: Support</mml:mtext>
+						<mml:mo stretchy="false">(</mml:mo>
+						<mml:mi>X</mml:mi>
+						<mml:mo stretchy="false">⇒</mml:mo>
+						<mml:mi>Y</mml:mi>
+						<mml:mo stretchy="false">)</mml:mo>
+						<mml:mo>=</mml:mo>
+						<mml:mfrac>
+							<mml:mrow>
+								<mml:mtext>Occurrences of both</mml:mtext>
+								<mml:mi>X</mml:mi>
+								<mml:mo>∧</mml:mo>
+								<mml:mi>Y</mml:mi>
+							</mml:mrow>
+							<mml:mtext>Total number of records</mml:mtext>
+						</mml:mfrac>
+					</mml:math>
+				</disp-formula>
+				<p>Confidence is defined by the conditional probability of Y occurring given X in the data set, i.e., the percentage of times both X and Y occur (Equation 2).</p>
+				<disp-formula id="e2">
+					<mml:math id="m2">
+						<mml:mtext>Equation 2: Confidence</mml:mtext>
+						<mml:mo stretchy="false">(</mml:mo>
+						<mml:mi>X</mml:mi>
+						<mml:mo stretchy="false">⇒</mml:mo>
+						<mml:mi>Y</mml:mi>
+						<mml:mo stretchy="false">)</mml:mo>
+						<mml:mo>=</mml:mo>
+						<mml:mfrac>
+							<mml:mrow>
+								<mml:mtext>Occurrences ofboth</mml:mtext>
+								<mml:mi>X</mml:mi>
+								<mml:mo>∧</mml:mo>
+								<mml:mi>Y</mml:mi>
+							</mml:mrow>
+							<mml:mrow>
+								<mml:mtext>Occurences of</mml:mtext>
+								<mml:mi>X</mml:mi>
+							</mml:mrow>
+						</mml:mfrac>
+					</mml:math>
+				</disp-formula>
+				<p>The lift measures the dependency relationship between X and Y (Equation 3) by assessing how many times more often X and Y occur together than expected if they were statistically independent. A lift value of one indicates X and Y are independent. A lift value greater than one means that X and Y are positively correlated, and a lift value lower than one, that X and Y are negatively correlated.</p>
+				<disp-formula id="e3">
+					<mml:math id="m3">
+						<mml:mtext>Equation 3: Lift</mml:mtext>
+						<mml:mo stretchy="false">(</mml:mo>
+						<mml:mrow>
+							<mml:mi mathvariant="normal">X</mml:mi>
+						</mml:mrow>
+						<mml:mo stretchy="false">⇒</mml:mo>
+						<mml:mrow>
+							<mml:mi mathvariant="normal">Y</mml:mi>
+						</mml:mrow>
+						<mml:mo stretchy="false">)</mml:mo>
+						<mml:mo>=</mml:mo>
+						<mml:mfrac>
+							<mml:mrow>
+								<mml:mtext>Occurrences of both</mml:mtext>
+								<mml:mi>X</mml:mi>
+								<mml:mo>∧</mml:mo>
+								<mml:mi>Y</mml:mi>
+							</mml:mrow>
+							<mml:mrow>
+								<mml:mtext>Occurrences of</mml:mtext>
+								<mml:mi>X</mml:mi>
+								<mml:mo>×</mml:mo>
+								<mml:mtext>Occurrences of</mml:mtext>
+								<mml:mi>Y</mml:mi>
+							</mml:mrow>
+						</mml:mfrac>
+					</mml:math>
+				</disp-formula>
+				<p>Association rule mining aims to discover frequent and reliable association rules, i.e., rules with user-specified minimum thresholds of support and confidence. Additionally, it can also specify the maximum size of a rule, defined as the number of items comprising it. For example, a rule of size three means that it consists of two items in the antecedent and one item in the consequent, whereas a rule of size two means that it consists of one item in the antecedent and one item in the consequent.</p>
+				<p>The most used ARM is the Apriori algorithm, introduced by Agrawal et al.<sup><xref ref-type="bibr" rid="B22">22</xref></sup> in 1993. It consists of two steps. In the first step, frequent patterns (itemsets with support greater than the predefined minimal support) are generated. In the second step, frequent pattern confidences are estimated, and those with confidence greater than the set minimal confidence are selected as the final rules. In this study, a 1% minimum support and a 30% minimum confidence were established. These thresholds were chosen due to the low frequency of microcephaly in the data set, thus requiring lower values to obtain microcephaly associations. Moreover, we set the maximum size of a rule as three; this meant that the generated rules were either size two or three. This rule size was chosen to help us interpret the associations since, with more extensive rules, it would be more challenging to analyse how microcephaly is associated with other variables. The package <italic>arules</italic> of the R language was used to perform the Apriori algorithms.</p>
+			</sec>
+			<sec>
+				<title>Ethics</title>
+				<p>Study approval statement: the data was derived from the collection of the Biobank for Aging Studies at the Universidade de São Paulo (BAS-USP). This study protocol was reviewed and approved by the ethics committee of the Escola de Medicina at the Universidade de São Paulo (approval number 458.272), following the World Medical Association Declaration of Helsinki.</p>
+				<p>Consent statement: a knowledgeable informant was a close family member or caregiver who had at least weekly contact with the deceased in the last six months before their death and could recount and provide details on the deceased’s health information.</p>
+			</sec>
+		</sec>
+		<sec sec-type="results">
+			<title>RESULTS</title>
+			<p>From 2004 to 2019, we obtained data from 2,508 individuals. Mean age was 70.8 (± 12.7) years, and average education, 4.7 (± 3.8) years. Mean brain volume was 1,169 (± 163) mL; mean HC, 55.3 (± 2.7) cm; and mean height, 1.68 (±10.3) m. We found smaller brain volumes in individuals with a CDR &gt; 0.5 than in individuals with a CDR ≤ 0.5 (1,090 ± 160; 1,179 ± 161 mL, respectively, p &lt; 0.001). <xref ref-type="table" rid="t1">Table 1</xref> shows the categorized sociodemographic and clinical variables for the ARM.</p>
+			<p>
+				<table-wrap id="t1">
+					<label>Table 1</label>
+					<caption>
+						<title>Sociodemographic and clinical variables of the sample (n = 2,508).</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left">Covariables</th>
+								<th>n (%)</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Age ≥ 70 years</td>
+								<td align="center">1,349 (53.8)</td>
+							</tr>
+							<tr>
+								<td>Female</td>
+								<td align="center">1,195 (47.7)</td>
+							</tr>
+							<tr>
+								<td>Education</td>
+								<td align="center">394 (15.8)</td>
+							</tr>
+							<tr>
+								<td>Illiterate</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>1–4 years</td>
+								<td align="center">1,368 (54.8)</td>
+							</tr>
+							<tr>
+								<td>≥ 5 years</td>
+								<td align="center">734 (29.4)</td>
+							</tr>
+							<tr>
+								<td>Hypertension</td>
+								<td align="center">1,482 (64.7)</td>
+							</tr>
+							<tr>
+								<td>Diabetes mellitus</td>
+								<td align="center">696 (27.8)</td>
+							</tr>
+							<tr>
+								<td>Coronary artery disease</td>
+								<td align="center">511 (20.4)</td>
+							</tr>
+							<tr>
+								<td>Congestive heart failure</td>
+								<td align="center">422 (16.8)</td>
+							</tr>
+							<tr>
+								<td>Dyslipidemia</td>
+								<td align="center">244 (9.7)</td>
+							</tr>
+							<tr>
+								<td>Cardiac arrhythmia</td>
+								<td align="center">174 (6.9)</td>
+							</tr>
+							<tr>
+								<td>Stroke</td>
+								<td align="center">298 (11.9)</td>
+							</tr>
+							<tr>
+								<td>Alcohol abuse/alcoholism</td>
+								<td align="center">375 (15.0)</td>
+							</tr>
+							<tr>
+								<td>Tobacco use</td>
+								<td align="center">790 (31.5)</td>
+							</tr>
+							<tr>
+								<td>CDR &gt; 0.5</td>
+								<td align="center">436 (17.5)</td>
+							</tr>
+							<tr>
+								<td>IQCODE ≥ 3.4</td>
+								<td align="center">446 (17.9)</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN1">
+							<p>CDR &gt; 0.5: clinical dementia rating indicative of cognitive impairment; IQCODE ≥ 3.4: cut-off for the informant questionnaire on cognitive decline in the elderly in the past 10 years.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>Head circumference was correlated to brain volume (rho = 0.466, p &lt; 0.001), height (rho = 0.394, p &lt; 0.001), age (rho = -0.25, p &lt; 0.001), and education (rho = 0.169, p &lt; 0.001), and differed between sexes (men = 56.3 ±2 .6 cm, women = 54.2 ± 2.4 cm, p &lt; 0.001).</p>
+			<p>In the multivariate analysis with brain volume, sex, height, age, and education as covariables, HC was related to brain volume, sex, height, but not age or education, as <xref ref-type="table" rid="t2">Table 2</xref> shows. If we excluded cases with a CDR &gt; 0.5 (as HC remains constant, but brain volume can atrophy), the significance of brain volume, sex, and height would have remained p &lt; 0.001. <xref ref-type="table" rid="t3">Table 3</xref> shows the number of participants with microcephaly according to height and sex. If we consider microcephaly to be an HC two standard deviations below the mean, according to height and sex, it was present in 4.7% of the sample (n = 119).</p>
+			<p>
+				<table-wrap id="t2">
+					<label>Table 2</label>
+					<caption>
+						<title>Association of head circumference with sociodemographic and clinical variables (n = 2,508).</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left">Covariables</th>
+								<th>β (95%CI)</th>
+								<th>p</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Brain volume (mL)</td>
+								<td align="center">0.005 (0.005 to 0.006)</td>
+								<td align="center"><bold>&lt; 0.001</bold></td>
+							</tr>
+							<tr>
+								<td>Age (years)</td>
+								<td align="center">-0.009 (-0.020 to 0.002)</td>
+								<td align="center">0.10</td>
+							</tr>
+							<tr>
+								<td>Sex (female)</td>
+								<td align="center">0.849 (0.573 to 1.124)</td>
+								<td align="center"><bold>&lt; 0.001</bold></td>
+							</tr>
+							<tr>
+								<td>Education (years)</td>
+								<td align="center">0.012 (-0.019 to 0.044)</td>
+								<td align="center">0.44</td>
+							</tr>
+							<tr>
+								<td>Height (cm)<sup>a</sup></td>
+								<td align="center">0.043 (0.029 to 0.058)</td>
+								<td align="center"><bold>&lt; 0.001</bold></td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN2">
+							<p><sup>a</sup> Multivariate linear regression analysis.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>
+				<table-wrap id="t3">
+					<label>Table 3</label>
+					<caption>
+						<title>Head circumference and microcephaly cut-off values according to sex and height (n = 2,508).</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left" rowspan="2">Distribution of height (m)</th>
+								<th colspan="3">Female</th>
+								<th colspan="3">Male</th>
+							</tr>
+							<tr>
+								<th>n</th>
+								<th>HC (cm), mean ± SD</th>
+								<th>Microcephaly cut-off (cm)</th>
+								<th>n</th>
+								<th>HC (cm)</th>
+								<th>Microcephaly cut-off (cm)</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Up to 1.59</td>
+								<td align="center">282</td>
+								<td align="center">53.5 ± 2.4</td>
+								<td align="center">&lt; 48.7</td>
+								<td align="center">46</td>
+								<td align="center">55.2 ± 2.3</td>
+								<td align="center">&lt; 50.6</td>
+							</tr>
+							<tr>
+								<td>1.60–1.69</td>
+								<td align="center">301</td>
+								<td align="center">54.3 ± 2.2</td>
+								<td align="center">&lt; 49.9</td>
+								<td align="center">198</td>
+								<td align="center">55.4 ± 2.4</td>
+								<td align="center">&lt; 51.0</td>
+							</tr>
+							<tr>
+								<td>1.70–1.79</td>
+								<td align="center">327</td>
+								<td align="center">54.7 ± 2.2</td>
+								<td align="center">&lt; 50.3</td>
+								<td align="center">427</td>
+								<td align="center">56.2 ± 2.4</td>
+								<td align="center">&lt; 51.8</td>
+							</tr>
+							<tr>
+								<td>1.8 or more</td>
+								<td align="center">45</td>
+								<td align="center">55.6 ± 2.6</td>
+								<td align="center">&lt; 50.4</td>
+								<td align="center">374</td>
+								<td align="center">56.7 ± 2.5</td>
+								<td align="center">&lt; 51.7</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN3">
+							<p>HC: head circumference.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<sec>
+				<title>Association Rules with Microcephaly</title>
+				<p>All variables assessed, via ARM, for their relationship to microcephaly were ordinal. Those variables included age, sex, education, hypertension, diabetes mellitus, coronary artery disease, congestive heart failure, dyslipidemia, cardiac arrhythmia, stroke, alcohol abuse/alcoholism, tobacco use, a CDR &gt; 0.5, and an IQCODE ≥ 3.4. The ARM produced 34,355 candidate rules that satisfied the required thresholds in the discovery data set. Then, we selected only the rules which included microcephaly to analyze possible associations with the other variables, resulting in 258 association rules. Finally, we evaluated the rules with the highest degree of association between microcephaly and the other variables by their lift values.</p>
+			</sec>
+			<sec>
+				<title>Analysis of the Rules of Size Three</title>
+				<p>Initially, we analyzed the rules of size three, i.e., rules with associations between three variables, one of them being microcephaly. Three rules had lift values of more than two, expressing the most significant associations: IF a CDR &gt; 0.5 AND microcephaly, THEN an IQCODE ≥ 3.4 (confidence: 100%, lift: 5.6); IF an IQCODE ≥ 3.4 AND microcephaly, THEN a CDR &gt; 0.5 (confidence: 100%, lift: 5.6); and IF age over 70 years AND microcephaly, THEN CDR &gt; 0.5 (confidence: 42%, lift: 2.4).</p>
+				<p>After this initial analysis, we sought rules which excluded microcephaly to investigate how it influenced these associations. <xref ref-type="table" rid="t4">Table 4</xref> shows a comparison between the association rules with and without microcephaly. Confidence and lift values were higher if microcephaly were present in the association.</p>
+				<p>
+					<table-wrap id="t4">
+						<label>Table 4</label>
+						<caption>
+							<title>Comparison between rules that show associations among CDR &gt; 0.5, IQCODE ≥ 3.4, and age over 70 years with and without the presence of microcephaly.</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left">Rules with microcephaly</th>
+									<th>Confidence</th>
+									<th>Lift</th>
+									<th>Rules without microcephaly</th>
+									<th>Confidence</th>
+									<th>Lift</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>IF CDR &gt; 0.5 AND microcephaly, THEN IQCODE ≥ 3.4</td>
+									<td align="center">100%</td>
+									<td align="center">5.6</td>
+									<td align="center">IF CDR &gt; 0.5 THEN IQCODE ≥ 3.4</td>
+									<td align="center">95.4%</td>
+									<td align="center">5.4</td>
+								</tr>
+								<tr>
+									<td>IF IQCODE ≥ 3.4 AND microcephaly, THEN CDR &gt; 0.5</td>
+									<td align="center">100%</td>
+									<td align="center">5.6</td>
+									<td align="center">IF IQCODE≥3.4 THEN CDR&gt;0.5</td>
+									<td align="center">93.3%</td>
+									<td align="center">5.4</td>
+								</tr>
+								<tr>
+									<td>IF age over 70 years AND microcephaly, THEN CDR &gt; 0.5</td>
+									<td align="center">42.0%</td>
+									<td align="center">2.4</td>
+									<td align="center">IF age over 70 years THEN CDR &gt; 0.5</td>
+									<td align="center">28.4%</td>
+									<td align="center">1.6</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN4">
+								<p>CDR &gt; 0.5: clinical dementia rating indicative of cognitive impairment; IQCODE ≥ 3.4: cut-off for the informant questionnaire on cognitive decline in the elderly in the past 10 years.</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+			</sec>
+			<sec>
+				<title>Analysis of the Rules of Size Two</title>
+				<p>We also analysed rules of size two, finding significant associations between lift values greater than one and males: IF microcephaly, THEN male (confidence: 68.1%, lift: 1.3). Then, we examined the association between microcephaly and females: IF microcephaly, THEN female (confidence: 31.9%, lift: 0.7), in which lift values below one indicate a negative association between microcephaly and females.</p>
+				<p>Finally, besides the associations related to microcephaly (the focus of this study), other rules produced associations, such as IF diabetes, THEN hypertension (confidence: 81.8%, lift: 1.4); IF stroke, THEN diabetes (confidence: 39.1%, lift: 1.4); IF stroke, THEN hypertension (confidence: 80.2%, lift: 1.4); IF an IQCODE ≥ 3.4, THEN female (confidence: 63.7%, lift: 1.3); and IF a CDR &gt; 0.5, THEN female (confidence: 63.5%, lift: 1.3).</p>
+			</sec>
+		</sec>
+		<sec sec-type="discussion">
+			<title>DISCUSSION</title>
+			<p>Our study is one of the few analyzing the relationship of microcephaly with clinical and sociodemographic variables and the only one that used ARM, a data mining approach. We found that microcephaly was associated with dementia or cognitive impairment, especially in individuals older than 70 years.</p>
+			<p>Head circumference correlated to adult brain volume without dementia, and it is a non-invasive, fast, and inexpensive method to indirectly measure child or adult brain volume. As HC remains constant across the life span, these results suggest that microcephaly might be a risk factor for dementia at old age, as structural changes in the brain may impact cognition across the older age span<sup><xref ref-type="bibr" rid="B23">23</xref></sup> .</p>
+			<p>The results of the association of microcephaly with a CDR &gt; 0.5 and an IQCODE ≥ 3.4 agree with previous studies. A longitudinal study evaluating 1,569 individuals, aged 60 and over, from a Korean community showed that the clinical expression of dementia related to brain volume. People with larger brains were more likely to remain nondemented<sup><xref ref-type="bibr" rid="B24">24</xref></sup> . Another frequently cited longitudinal study, in which 294 catholic sisters were assessed annually for dementia, found that high educational attainment and larger head size, either by themselves or in combination, may reduce the risk of the expression of dementia in later life<sup><xref ref-type="bibr" rid="B25">25</xref></sup> . A population study based on the Well-being of the Singapore Elderly survey assessed associations between dementia, HC, and leg length among the older adult population and found that HC is independently associated with dementia among that population, suggesting that the risk factors for dementia exert their influence since early life<sup><xref ref-type="bibr" rid="B9">9</xref></sup> . With more neurons and synapses, maximum brain volume may be an important variable associated with brain reserve<sup><xref ref-type="bibr" rid="B20">20</xref> , <xref ref-type="bibr" rid="B24">24</xref> , <xref ref-type="bibr" rid="B26">26</xref></sup> .</p>
+			<p>Machine learning algorithms can complement classical statistics<sup><xref ref-type="bibr" rid="B27">27</xref></sup> , helping researchers to create new hypotheses<sup><xref ref-type="bibr" rid="B28">28</xref></sup> . We used ARM in our study for two main reasons. First, ARM enabled us to observe all associations among the clinic and sociodemographic variables available in our database. Second, we could verify, by the ARM metrics, how strong the associations were when we compared the rules in the presence or absence of microcephaly.</p>
+			<p>The significant association we found between microcephaly and males agrees with the literature, as mental retardation is more frequent in boys than girls, a finding attributed to mutations in X-linked genes<sup><xref ref-type="bibr" rid="B28">28</xref> , <xref ref-type="bibr" rid="B29">29</xref></sup> . Besides the associations related to microcephaly (the focus of this study), ARM also produced associations which are well established in the literature, such as the ones between diabetes and hypertension, stroke and diabetes, stroke and hypertension, cognitive decline and females, and dementia and females<sup><xref ref-type="bibr" rid="B30">30</xref></sup> , reinforcing the use of this method in showing reliable associations.</p>
+			<p>In our study, we found that HC correlated with brain volume, sex, and height. Individuals with dementia showed a smaller brain volume, an expected atrophy due to their condition. Measuring HC has advantages since it is a non-invasive, fast, and inexpensive method to indirectly measure child or adult brain volume. To indirectly determine microcephaly via HC, we must, ideally, consider sex and height. In our sample, men with an HC &lt; 51cm and women with an HC &lt; 49cm are indicative of microcephaly; if height &gt; 1.7m, one should add 1cm to the HC. We also find significant associations of HC with brain volume in the few studies conducted in adults<sup><xref ref-type="bibr" rid="B1">1</xref> , <xref ref-type="bibr" rid="B2">2</xref> , <xref ref-type="bibr" rid="B31">31</xref></sup> . The relationship of HC with age and sex is well established in children aged 0 to 18 months<sup><xref ref-type="bibr" rid="B11">11</xref></sup> . In this study, we considered the corrections for sex and height, but not age, appropriate to determine microcephaly in adults, despite the century-long growth trend many countries show<sup><xref ref-type="bibr" rid="B34">34</xref></sup> — attributed to improved environmental conditions<sup><xref ref-type="bibr" rid="B34">34</xref></sup> . As a result, we now have progressively larger adults than in previous decades. Taller people often have larger brains and heads<sup><xref ref-type="bibr" rid="B35">35</xref> , <xref ref-type="bibr" rid="B36">36</xref></sup> . In this study, however, after the logistic regression, height and sex, but not age, related to HC and brain size.</p>
+			<p>Strengths of our study include its large sample size, community basis, and an ethnically and educationally diverse population. However, our study has some limitations: its cross-sectional nature fails to allow for causal relationships. Moreover, the use of informant-reported data is a concern, as informants can be unaware of some of the treatments and disorders the deceased may have had. However, we used a validated semi-structured clinical interview<sup><xref ref-type="bibr" rid="B16">16</xref></sup> which several other publications accept<sup><xref ref-type="bibr" rid="B13">13</xref></sup> . Our study assessed a community sample in Brazil. Samples from multiracial countries, such as ours, can add valuable data to the literature, but the validity of our findings to other populations needs further testing. Furthermore, to the best of our knowledge, this is the first study that applied ARM to detect rules associated with microcephaly in adults. This strategy has the advantage of setting high-accuracy standards and the analysis of multiple variables at the same time.</p>
+		</sec>
+		<sec sec-type="conclusions">
+			<title>CONCLUSION</title>
+			<p>This population-based cross-sectional study suggests that HC not only relates to cerebral volume but could also function as an accessible and inexpensive screening test for microcephaly, in conjunction with individuals’ height and sex. Moreover, we found an association between microcephaly and clinical variables often present in cognitive decline at older age which might be a risk factor for dementia.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>REFERENCES</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1 Weaver DD, Christian JC. Familial variation of head size and adjustment for parental head circumference. J Pediatr. 1980;96(6):990-4. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/s0022-3476(80)80623-8">https://doi.org/10.1016/s0022-3476(80)80623-8</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Weaver</surname>
+							<given-names>DD</given-names>
+						</name>
+						<name>
+							<surname>Christian</surname>
+							<given-names>JC</given-names>
+						</name>
+					</person-group>
+					<article-title>Familial variation of head size and adjustment for parental head circumference</article-title>
+					<source>J Pediatr</source>
+					<year>1980</year>
+					<volume>96</volume>
+					<issue>6</issue>
+					<fpage>990</fpage>
+					<lpage>994</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/s0022-3476(80)80623-8">https://doi.org/10.1016/s0022-3476(80)80623-8</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2 Hshieh TT, Fox ML, Kosar CM, Cavallari M, Guttmann CRG, Alsop D, et al. Head circumference as a useful surrogate for intracranial volume in older adults. Int Psychogeriatr. 2016;28(1):157-62. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1017/S104161021500037X">https://doi.org/10.1017/S104161021500037X</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hshieh</surname>
+							<given-names>TT</given-names>
+						</name>
+						<name>
+							<surname>Fox</surname>
+							<given-names>ML</given-names>
+						</name>
+						<name>
+							<surname>Kosar</surname>
+							<given-names>CM</given-names>
+						</name>
+						<name>
+							<surname>Cavallari</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Guttmann</surname>
+							<given-names>CRG</given-names>
+						</name>
+						<name>
+							<surname>Alsop</surname>
+							<given-names>D</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Head circumference as a useful surrogate for intracranial volume in older adults</article-title>
+					<source>Int Psychogeriatr</source>
+					<year>2016</year>
+					<volume>28</volume>
+					<issue>1</issue>
+					<fpage>157</fpage>
+					<lpage>162</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1017/S104161021500037X">https://doi.org/10.1017/S104161021500037X</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3 Ashwal S, Michelson D, Plawner L, Dobyns WB; Quality Standards Subcommittee of the American Academy of Neurology and the Practice Committee of the Child Neurology Society. Practice parameter: evaluation of the child with microcephaly (an evidence-based review): report of the Quality Standards Subcommittee of the American Academy of Neurology and the Practice Committee of the Child Neurology Society. Neurology. 2009;73(11):887-97. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1212/WNL.0b013e3181b783f7">https://doi.org/10.1212/WNL.0b013e3181b783f7</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ashwal</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Michelson</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Plawner</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Dobyns</surname>
+							<given-names>WB</given-names>
+						</name>
+						<collab>Quality Standards Subcommittee of the American Academy of Neurology and the Practice Committee of the Child Neurology Society</collab>
+					</person-group>
+					<article-title>Practice parameter: evaluation of the child with microcephaly (an evidence-based review): report of the Quality Standards Subcommittee of the American Academy of Neurology and the Practice Committee of the Child Neurology Society</article-title>
+					<source>Neurology</source>
+					<year>2009</year>
+					<volume>73</volume>
+					<issue>11</issue>
+					<fpage>887</fpage>
+					<lpage>897</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1212/WNL.0b013e3181b783f7">https://doi.org/10.1212/WNL.0b013e3181b783f7</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4 Opitz JM, Holt MC. Microcephaly: general considerations and aids to nosology. J Craniofac Genet Dev Biol. 1990;10(2):175-204.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Opitz</surname>
+							<given-names>JM</given-names>
+						</name>
+						<name>
+							<surname>Holt</surname>
+							<given-names>MC</given-names>
+						</name>
+					</person-group>
+					<article-title>Microcephaly: general considerations and aids to nosology</article-title>
+					<source>J Craniofac Genet Dev Biol</source>
+					<year>1990</year>
+					<volume>10</volume>
+					<issue>2</issue>
+					<fpage>175</fpage>
+					<lpage>204</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5 Roche AF, Mukherjee D, Guo SM. Head circumference growth patterns: birth to 18 years. Hum Biol. 1986 [cited 2021 April 15 ];58(6):893-906. Available from: <ext-link ext-link-type="uri" xlink:href="http://www.jstor.org/stable/41463831">http://www.jstor.org/stable/41463831</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Roche</surname>
+							<given-names>AF</given-names>
+						</name>
+						<name>
+							<surname>Mukherjee</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Guo</surname>
+							<given-names>SM</given-names>
+						</name>
+					</person-group>
+					<article-title>Head circumference growth patterns: birth to 18 years</article-title>
+					<source>Hum Biol</source>
+					<year>1986</year>
+					<date-in-citation content-type="cited-date">cited 2021 April 15</date-in-citation>
+					<volume>58</volume>
+					<issue>6</issue>
+					<fpage>893</fpage>
+					<lpage>906</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="http://www.jstor.org/stable/41463831">http://www.jstor.org/stable/41463831</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6 Abuelo D. Microcephaly syndromes. Semin Pediatr Neurol. 2007;14(3):118-27. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.spen.2007.07.003">https://doi.org/10.1016/j.spen.2007.07.003</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Abuelo</surname>
+							<given-names>D</given-names>
+						</name>
+					</person-group>
+					<article-title>Microcephaly syndromes</article-title>
+					<source>Semin Pediatr Neurol</source>
+					<year>2007</year>
+					<volume>14</volume>
+					<issue>3</issue>
+					<fpage>118</fpage>
+					<lpage>127</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.spen.2007.07.003">https://doi.org/10.1016/j.spen.2007.07.003</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7 Krauss MJ. Morrissey AE, Winn HN, Amon E, Leet TL. Microcephaly: an epidemiologic analysis. Am J Obstet Gynecol. 2003;188(6):1484-90. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1067/mob.2003.452">https://doi.org/10.1067/mob.2003.452</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Krauss</surname>
+							<given-names>MJ</given-names>
+						</name>
+						<name>
+							<surname>Morrissey</surname>
+							<given-names>AE</given-names>
+						</name>
+						<name>
+							<surname>Winn</surname>
+							<given-names>HN</given-names>
+						</name>
+						<name>
+							<surname>Amon</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Leet</surname>
+							<given-names>TL</given-names>
+						</name>
+					</person-group>
+					<article-title>Microcephaly: an epidemiologic analysis</article-title>
+					<source>Am J Obstet Gynecol</source>
+					<year>2003</year>
+					<volume>188</volume>
+					<issue>6</issue>
+					<fpage>1484</fpage>
+					<lpage>1490</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1067/mob.2003.452">https://doi.org/10.1067/mob.2003.452</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8 Graves AB, Mortimes JA, Larson EB, Wenzlow A, Bowen JD, McCormick WC. Head circumference as a measure of cognitive reserve. Association with severity of impairment in Alzheimer’s disease. Br J Psychiatry. 1996;169(1):86-92. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1192/bjp.169.1.86">https://doi.org/10.1192/bjp.169.1.86</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Graves</surname>
+							<given-names>AB</given-names>
+						</name>
+						<name>
+							<surname>Mortimes</surname>
+							<given-names>JA</given-names>
+						</name>
+						<name>
+							<surname>Larson</surname>
+							<given-names>EB</given-names>
+						</name>
+						<name>
+							<surname>Wenzlow</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Bowen</surname>
+							<given-names>JD</given-names>
+						</name>
+						<name>
+							<surname>McCormick</surname>
+							<given-names>WC</given-names>
+						</name>
+					</person-group>
+					<article-title>Head circumference as a measure of cognitive reserve. Association with severity of impairment in Alzheimer’s disease</article-title>
+					<source>Br J Psychiatry</source>
+					<year>1996</year>
+					<volume>169</volume>
+					<issue>1</issue>
+					<fpage>86</fpage>
+					<lpage>92</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1192/bjp.169.1.86">https://doi.org/10.1192/bjp.169.1.86</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9 Chang S, Ong HL, Abdin E, Vaingankar JA, Jeyagurunathan A, Shafie S, et al. Head circumference, leg length and its association with dementia among older adult population in Singapore. Int J Geriatr Psychiatry. 2017;32(12):e1-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/gps.4643">https://doi.org/10.1002/gps.4643</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Chang</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Ong</surname>
+							<given-names>HL</given-names>
+						</name>
+						<name>
+							<surname>Abdin</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Vaingankar</surname>
+							<given-names>JA</given-names>
+						</name>
+						<name>
+							<surname>Jeyagurunathan</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Shafie</surname>
+							<given-names>S</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Head circumference, leg length and its association with dementia among older adult population in Singapore</article-title>
+					<source>Int J Geriatr Psychiatry</source>
+					<year>2017</year>
+					<volume>32</volume>
+					<issue>12</issue>
+					<fpage>e1</fpage>
+					<lpage>e9</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/gps.4643">https://doi.org/10.1002/gps.4643</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10 Wang F, Mortimer JA, Ding D, Luo J, Zhao Q, Liang X, et al. Smaller head circumference combined with lower education predicts high risk of incident dementia: The Shanghai Aging Study. Neuroepidemiology. 2019;53(3-4):152-61. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1159/000501103">https://doi.org/10.1159/000501103</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Wang</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Mortimer</surname>
+							<given-names>JA</given-names>
+						</name>
+						<name>
+							<surname>Ding</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Luo</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Zhao</surname>
+							<given-names>Q</given-names>
+						</name>
+						<name>
+							<surname>Liang</surname>
+							<given-names>X</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Smaller head circumference combined with lower education predicts high risk of incident dementia: The Shanghai Aging Study</article-title>
+					<source>Neuroepidemiology</source>
+					<year>2019</year>
+					<volume>53</volume>
+					<issue>3-4</issue>
+					<fpage>152</fpage>
+					<lpage>161</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1159/000501103">https://doi.org/10.1159/000501103</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11 Illingworth RS, Eid EE. The head circumference in infants and other measurements to which it may be related. Acta Paediatr Scand. 1971;60(3):333-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1651-2227.1971.tb06666.x">https://doi.org/10.1111/j.1651-2227.1971.tb06666.x</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Illingworth</surname>
+							<given-names>RS</given-names>
+						</name>
+						<name>
+							<surname>Eid</surname>
+							<given-names>EE</given-names>
+						</name>
+					</person-group>
+					<article-title>The head circumference in infants and other measurements to which it may be related</article-title>
+					<source>Acta Paediatr Scand</source>
+					<year>1971</year>
+					<volume>60</volume>
+					<issue>3</issue>
+					<fpage>333</fpage>
+					<lpage>337</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1651-2227.1971.tb06666.x">https://doi.org/10.1111/j.1651-2227.1971.tb06666.x</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12 World Health Organization. head-circumference-for-age. Geneva (CH): WHO; 2021 [cited 15 April 2021]. Available from: <ext-link ext-link-type="uri" xlink:href="http://www.who.int/childgrowth/standards/hc_for_age/en/index.html">http://www.who.int/childgrowth/standards/hc_for_age/en/index.html</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>World Health Organization</collab>
+					</person-group>
+					<source>head-circumference-for-age</source>
+					<publisher-loc>Geneva (CH)</publisher-loc>
+					<publisher-name>WHO</publisher-name>
+					<year>2021</year>
+					<date-in-citation content-type="cited-date">cited 15 April 2021</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="http://www.who.int/childgrowth/standards/hc_for_age/en/index.html">http://www.who.int/childgrowth/standards/hc_for_age/en/index.html</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13 Grinberg LT, Ferretti RE, Farfel JM, Leite R, Pasqualucci CA, Rosemberg S, et al.; Brazilian Aging Brain Study Group. Brain bank of the Brazilian Aging Brain Study Group: a milestone reached and more than 1,600 collected brains. Cell Tissue Bank. 2007;8(2):151-62. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s10561-006-9022-z">https://doi.org/10.1007/s10561-006-9022-z</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Grinberg</surname>
+							<given-names>LT</given-names>
+						</name>
+						<name>
+							<surname>Ferretti</surname>
+							<given-names>RE</given-names>
+						</name>
+						<name>
+							<surname>Farfel</surname>
+							<given-names>JM</given-names>
+						</name>
+						<name>
+							<surname>Leite</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Pasqualucci</surname>
+							<given-names>CA</given-names>
+						</name>
+						<name>
+							<surname>Rosemberg</surname>
+							<given-names>S</given-names>
+						</name>
+						<etal>et al</etal>
+						<collab>Brazilian Aging Brain Study Group</collab>
+					</person-group>
+					<article-title>Brain bank of the Brazilian Aging Brain Study Group: a milestone reached and more than 1,600 collected brains</article-title>
+					<source>Cell Tissue Bank</source>
+					<year>2007</year>
+					<volume>8</volume>
+					<issue>2</issue>
+					<fpage>151</fpage>
+					<lpage>162</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s10561-006-9022-z">https://doi.org/10.1007/s10561-006-9022-z</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14 Suemoto CK, Damico MV, Ferretti RE, Grinberg LT, Farfel JM, Leite REP, et al.; Brazilian Aging Brain Study Group. Depression and cardiovascular risk factors: evidence from a large postmortem sample. Int J Geriatr Psychiatry. 2013;28(5):487-93. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/gps.3850">https://doi.org/10.1002/gps.3850</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Suemoto</surname>
+							<given-names>CK</given-names>
+						</name>
+						<name>
+							<surname>Damico</surname>
+							<given-names>MV</given-names>
+						</name>
+						<name>
+							<surname>Ferretti</surname>
+							<given-names>RE</given-names>
+						</name>
+						<name>
+							<surname>Grinberg</surname>
+							<given-names>LT</given-names>
+						</name>
+						<name>
+							<surname>Farfel</surname>
+							<given-names>JM</given-names>
+						</name>
+						<name>
+							<surname>Leite</surname>
+							<given-names>REP</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Depression and cardiovascular risk factors: evidence from a large postmortem sample</article-title>
+					<source>Int J Geriatr Psychiatry</source>
+					<year>2013</year>
+					<volume>28</volume>
+					<issue>5</issue>
+					<fpage>487</fpage>
+					<lpage>493</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/gps.3850">https://doi.org/10.1002/gps.3850</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15 Ferretti-Rebustini REL, Jacob-Filho W, Suemoto CK, Farfel JM, Leite REP, Grinberg LT, et al. Factors associated with morphometric brain changes in cognitively normal aging. Dement Neuropsychol. 2015;9(2):103-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1980-57642015DN92000004">https://doi.org/10.1590/1980-57642015DN92000004</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ferretti-Rebustini</surname>
+							<given-names>REL</given-names>
+						</name>
+						<name>
+							<surname>Jacob-Filho</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Suemoto</surname>
+							<given-names>CK</given-names>
+						</name>
+						<name>
+							<surname>Farfel</surname>
+							<given-names>JM</given-names>
+						</name>
+						<name>
+							<surname>Leite</surname>
+							<given-names>REP</given-names>
+						</name>
+						<name>
+							<surname>Grinberg</surname>
+							<given-names>LT</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Factors associated with morphometric brain changes in cognitively normal aging</article-title>
+					<source>Dement Neuropsychol</source>
+					<year>2015</year>
+					<volume>9</volume>
+					<issue>2</issue>
+					<fpage>103</fpage>
+					<lpage>109</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1980-57642015DN92000004">https://doi.org/10.1590/1980-57642015DN92000004</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16 Ferretti REL, Damim AE, Brucki SMD, Morillo LS, Perroco TR, Campora F, et al. Post-mortem diagnosis of dementia by informant interview. Dement Neuropsychol. 2010;4(2):138-44. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S1980-57642010DN40200011">https://doi.org/10.1590/S1980-57642010DN40200011</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ferretti</surname>
+							<given-names>REL</given-names>
+						</name>
+						<name>
+							<surname>Damim</surname>
+							<given-names>AE</given-names>
+						</name>
+						<name>
+							<surname>Brucki</surname>
+							<given-names>SMD</given-names>
+						</name>
+						<name>
+							<surname>Morillo</surname>
+							<given-names>LS</given-names>
+						</name>
+						<name>
+							<surname>Perroco</surname>
+							<given-names>TR</given-names>
+						</name>
+						<name>
+							<surname>Campora</surname>
+							<given-names>F</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Post-mortem diagnosis of dementia by informant interview</article-title>
+					<source>Dement Neuropsychol</source>
+					<year>2010</year>
+					<volume>4</volume>
+					<issue>2</issue>
+					<fpage>138</fpage>
+					<lpage>144</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S1980-57642010DN40200011">https://doi.org/10.1590/S1980-57642010DN40200011</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17 Jorm AF. A short form of the Informant Questionnaire on Cognitive Decline in the Elderly (IQCODE): development and cross-validation. Psychol Med. 1994;24(1):145-53. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1017/s003329170002691x">https://doi.org/10.1017/s003329170002691x</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Jorm</surname>
+							<given-names>AF</given-names>
+						</name>
+					</person-group>
+					<article-title>A short form of the Informant Questionnaire on Cognitive Decline in the Elderly (IQCODE): development and cross-validation</article-title>
+					<source>Psychol Med</source>
+					<year>1994</year>
+					<volume>24</volume>
+					<issue>1</issue>
+					<fpage>145</fpage>
+					<lpage>153</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1017/s003329170002691x">https://doi.org/10.1017/s003329170002691x</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18 Morris JC. The Clinical Dementia Rating (CDR): current version and scoring rules. Neurology.1993;43(11):2412-4. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1212/wnl.43.11.2412-a">https://doi.org/10.1212/wnl.43.11.2412-a</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Morris</surname>
+							<given-names>JC</given-names>
+						</name>
+					</person-group>
+					<article-title>The Clinical Dementia Rating (CDR): current version and scoring rules</article-title>
+					<source>Neurology</source>
+					<year>1993</year>
+					<volume>43</volume>
+					<issue>11</issue>
+					<fpage>2412</fpage>
+					<lpage>2414</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1212/wnl.43.11.2412-a">https://doi.org/10.1212/wnl.43.11.2412-a</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19 Harrison JK, Stott DJ, McShane R, Noel-Storr AH, Swann-Price RS, Quinn TJ. Informant Questionnaire on Cognitive Decline in the Elderly (IQCODE) for the early diagnosis of dementia across a variety of healthcare settings. Cochrane Database Syst Rev. 2016;(11):CD011333. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/14651858.CD011333.pub2">https://doi.org/10.1002/14651858.CD011333.pub2</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Harrison</surname>
+							<given-names>JK</given-names>
+						</name>
+						<name>
+							<surname>Stott</surname>
+							<given-names>DJ</given-names>
+						</name>
+						<name>
+							<surname>McShane</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Noel-Storr</surname>
+							<given-names>AH</given-names>
+						</name>
+						<name>
+							<surname>Swann-Price</surname>
+							<given-names>RS</given-names>
+						</name>
+						<name>
+							<surname>Quinn</surname>
+							<given-names>TJ</given-names>
+						</name>
+					</person-group>
+					<article-title>Informant Questionnaire on Cognitive Decline in the Elderly (IQCODE) for the early diagnosis of dementia across a variety of healthcare settings</article-title>
+					<source>Cochrane Database Syst Rev</source>
+					<year>2016</year>
+					<issue>11</issue>
+					<comment>CD011333</comment>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/14651858.CD011333.pub2">https://doi.org/10.1002/14651858.CD011333.pub2</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20 Son SJ, Lee KS, Oh BH, Hong CH. The effects of head circumference (HC) and lifetime alcohol consumption (AC) on cognitive function in the elderly. Arch Gerontol Geriatr. 2012;54(2):343-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.archger.2011.05.025">https://doi.org/10.1016/j.archger.2011.05.025</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Son</surname>
+							<given-names>SJ</given-names>
+						</name>
+						<name>
+							<surname>Lee</surname>
+							<given-names>KS</given-names>
+						</name>
+						<name>
+							<surname>Oh</surname>
+							<given-names>BH</given-names>
+						</name>
+						<name>
+							<surname>Hong</surname>
+							<given-names>CH</given-names>
+						</name>
+					</person-group>
+					<article-title>The effects of head circumference (HC) and lifetime alcohol consumption (AC) on cognitive function in the elderly</article-title>
+					<source>Arch Gerontol Geriatr</source>
+					<year>2012</year>
+					<volume>54</volume>
+					<issue>2</issue>
+					<fpage>343</fpage>
+					<lpage>347</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.archger.2011.05.025">https://doi.org/10.1016/j.archger.2011.05.025</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>21 Tie K, Wang H, Wang X, Chen L. Measurement of bone mineral density in the tunnel regions for anterior cruciate ligament reconstruction by dual-energy X-ray absorptiometry, computed tomography scan, and the immersion technique based on Archimedes’ principle. Arthroscopy. 2012;28(10):1464-71. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.arthro.2012.04.053">https://doi.org/10.1016/j.arthro.2012.04.053</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Tie</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Chen</surname>
+							<given-names>L</given-names>
+						</name>
+					</person-group>
+					<article-title>Measurement of bone mineral density in the tunnel regions for anterior cruciate ligament reconstruction by dual-energy X-ray absorptiometry, computed tomography scan, and the immersion technique based on Archimedes’ principle</article-title>
+					<source>Arthroscopy</source>
+					<year>2012</year>
+					<volume>28</volume>
+					<issue>10</issue>
+					<fpage>1464</fpage>
+					<lpage>1471</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.arthro.2012.04.053">https://doi.org/10.1016/j.arthro.2012.04.053</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>22 Agraawal R, Imieliński T, Swami A. Mining association rules between sets of items in large databases. ACM SIGMOD Rec. 1993;22(2):207-16. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1145/170036.170072">https://doi.org/10.1145/170036.170072</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Agraawal</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Imieliński</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Swami</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Mining association rules between sets of items in large databases</article-title>
+					<source>ACM SIGMOD Rec</source>
+					<year>1993</year>
+					<volume>22</volume>
+					<issue>2</issue>
+					<fpage>207</fpage>
+					<lpage>216</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1145/170036.170072">https://doi.org/10.1145/170036.170072</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>23 Raz N, Rodrigue KM. Differential aging of the brain: patterns, cognitive correlates and modifiers. Neurosci Biobehav Rev. 2006;30(6):730-48. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.neubiorev.2006.07.001">https://doi.org/10.1016/j.neubiorev.2006.07.001</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Raz</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Rodrigue</surname>
+							<given-names>KM</given-names>
+						</name>
+					</person-group>
+					<article-title>Differential aging of the brain: patterns, cognitive correlates and modifiers</article-title>
+					<source>Neurosci Biobehav Rev</source>
+					<year>2006</year>
+					<volume>30</volume>
+					<issue>6</issue>
+					<fpage>730</fpage>
+					<lpage>748</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.neubiorev.2006.07.001">https://doi.org/10.1016/j.neubiorev.2006.07.001</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>24 Katzman R, Terry R, DeTeresa R, Brown T, Davies P, Fuld P, et al. Clinical, pathological, and neurochemical changes in dementia: a subgroup with preserved mental status and numerous neocortical plaques. Ann Neurol. 1988;23(2):138-44. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/ana.410230206">https://doi.org/10.1002/ana.410230206</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Katzman</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Terry</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>DeTeresa</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Brown</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Davies</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Fuld</surname>
+							<given-names>P</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Clinical, pathological, and neurochemical changes in dementia: a subgroup with preserved mental status and numerous neocortical plaques</article-title>
+					<source>Ann Neurol</source>
+					<year>1988</year>
+					<volume>23</volume>
+					<issue>2</issue>
+					<fpage>138</fpage>
+					<lpage>144</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/ana.410230206">https://doi.org/10.1002/ana.410230206</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>25 Mortimer JA, Snowdon DA, Markesbery WR. Head circumference, education and risk of dementia: findings from the Nun Study. J Clin Exp Neuropsychol. 2003;25(5):671-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1076/jcen.25.5.671.14584">https://doi.org/10.1076/jcen.25.5.671.14584</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Mortimer</surname>
+							<given-names>JA</given-names>
+						</name>
+						<name>
+							<surname>Snowdon</surname>
+							<given-names>DA</given-names>
+						</name>
+						<name>
+							<surname>Markesbery</surname>
+							<given-names>WR</given-names>
+						</name>
+					</person-group>
+					<article-title>Head circumference, education and risk of dementia: findings from the Nun Study</article-title>
+					<source>J Clin Exp Neuropsychol</source>
+					<year>2003</year>
+					<volume>25</volume>
+					<issue>5</issue>
+					<fpage>671</fpage>
+					<lpage>679</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1076/jcen.25.5.671.14584">https://doi.org/10.1076/jcen.25.5.671.14584</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation>26 Joshi S, Morley JE. Cognitive impairment. Med Clin North Am. 2006;90(5):769-87. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.mcna.2006.05.014">https://doi.org/10.1016/j.mcna.2006.05.014</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Joshi</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Morley</surname>
+							<given-names>JE</given-names>
+						</name>
+					</person-group>
+					<article-title>Cognitive impairment</article-title>
+					<source>Med Clin North Am</source>
+					<year>2006</year>
+					<volume>90</volume>
+					<issue>5</issue>
+					<fpage>769</fpage>
+					<lpage>787</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.mcna.2006.05.014">https://doi.org/10.1016/j.mcna.2006.05.014</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<mixed-citation>27 Bzdok D, Meyer-Lindenberg A. Machine learning for precision psychiatry: opportunities and challenges. Biol Psychiatry Cogn Neurosci Neuroimaging. 2018;3(3):223-30. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.bpsc.2017.11.007">https://doi.org/10.1016/j.bpsc.2017.11.007</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bzdok</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Meyer-Lindenberg</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Machine learning for precision psychiatry: opportunities and challenges</article-title>
+					<source>Biol Psychiatry Cogn Neurosci Neuroimaging</source>
+					<year>2018</year>
+					<volume>3</volume>
+					<issue>3</issue>
+					<fpage>223</fpage>
+					<lpage>230</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.bpsc.2017.11.007">https://doi.org/10.1016/j.bpsc.2017.11.007</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<mixed-citation>28 Librenza-Garcia D, Kotzian BJ, Yang J, Mwangi B, Cao B, Lima LNP, et al. The impact of machine learning techniques in the study of bipolar disorder: a systematic review. Neurosci Biobehav Rev. 2017;80:538-54. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.neubiorev.2017.07.004">https://doi.org/10.1016/j.neubiorev.2017.07.004</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Librenza-Garcia</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Kotzian</surname>
+							<given-names>BJ</given-names>
+						</name>
+						<name>
+							<surname>Yang</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Mwangi</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Cao</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Lima</surname>
+							<given-names>LNP</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>The impact of machine learning techniques in the study of bipolar disorder: a systematic review</article-title>
+					<source>Neurosci Biobehav Rev</source>
+					<year>2017</year>
+					<volume>80</volume>
+					<fpage>538</fpage>
+					<lpage>554</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.neubiorev.2017.07.004">https://doi.org/10.1016/j.neubiorev.2017.07.004</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B29">
+				<label>29</label>
+				<mixed-citation>29 Chelly J, Mandel JL. Monogenic causes of X-linked mental retardation. Nat Rev Genet. 2001;2(9):669-80. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/35088558">https://doi.org/10.1038/35088558</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Chelly</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Mandel</surname>
+							<given-names>JL</given-names>
+						</name>
+					</person-group>
+					<article-title>Monogenic causes of X-linked mental retardation</article-title>
+					<source>Nat Rev Genet</source>
+					<year>2001</year>
+					<volume>2</volume>
+					<issue>9</issue>
+					<fpage>669</fpage>
+					<lpage>680</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/35088558">https://doi.org/10.1038/35088558</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B30">
+				<label>30</label>
+				<mixed-citation>30 Woodward M, Zhang X, Barzi F, Pan W, Ueshima H, Rodgers A, MacMahon S; Asia Pacific Cohort Studies Collaboration. The effects of diabetes on the risks of major cardiovascular diseases and death in the Asia-Pacific region. Diabetes Care. 2003;26(2):360-6. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2337/diacare.26.2.360">https://doi.org/10.2337/diacare.26.2.360</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Woodward</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Zhang</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Barzi</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Pan</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Ueshima</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Rodgers</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>MacMahon</surname>
+							<given-names>S</given-names>
+						</name>
+						<collab>Asia Pacific Cohort Studies Collaboration</collab>
+					</person-group>
+					<article-title>The effects of diabetes on the risks of major cardiovascular diseases and death in the Asia-Pacific region</article-title>
+					<source>Diabetes Care</source>
+					<year>2003</year>
+					<volume>26</volume>
+					<issue>2</issue>
+					<fpage>360</fpage>
+					<lpage>366</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2337/diacare.26.2.360">https://doi.org/10.2337/diacare.26.2.360</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B31">
+				<label>31</label>
+				<mixed-citation>31 Konishi M, Kimura K. Estimation of brain volume from physical measurements. Anthropol Sci. 1995;103(3):279-90. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1537/ase.103.279">https://doi.org/10.1537/ase.103.279</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Konishi</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Kimura</surname>
+							<given-names>K</given-names>
+						</name>
+					</person-group>
+					<article-title>Estimation of brain volume from physical measurements</article-title>
+					<source>Anthropol Sci</source>
+					<year>1995</year>
+					<volume>103</volume>
+					<issue>3</issue>
+					<fpage>279</fpage>
+					<lpage>290</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1537/ase.103.279">https://doi.org/10.1537/ase.103.279</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B32">
+				<label>32</label>
+				<mixed-citation>32 Baaré WFC, Hulshoff Pol HE, Boomsma DI, Posthuma D, Geus EJC, Schnack HG, et al. Quantitative genetic modeling of variation in human brain morphology. Cereb Cortex. 2001;11(9):816-24. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/cercor/11.9.816">https://doi.org/10.1093/cercor/11.9.816</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Baaré</surname>
+							<given-names>WFC</given-names>
+						</name>
+						<name>
+							<surname>Hulshoff Pol</surname>
+							<given-names>HE</given-names>
+						</name>
+						<name>
+							<surname>Boomsma</surname>
+							<given-names>DI</given-names>
+						</name>
+						<name>
+							<surname>Posthuma</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Geus</surname>
+							<given-names>EJC</given-names>
+						</name>
+						<name>
+							<surname>Schnack</surname>
+							<given-names>HG</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Quantitative genetic modeling of variation in human brain morphology</article-title>
+					<source>Cereb Cortex</source>
+					<year>2001</year>
+					<volume>11</volume>
+					<issue>9</issue>
+					<fpage>816</fpage>
+					<lpage>824</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/cercor/11.9.816">https://doi.org/10.1093/cercor/11.9.816</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B33">
+				<label>33</label>
+				<mixed-citation>33 Bartholomeusz HH, Courchesne E, Karns CM. Relationship between head circumference and brain volume in healthy normal toddlers, children, and adults. Neuropediatrics. 2002;33(5):239-41. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1055/s-2002-36735">https://doi.org/10.1055/s-2002-36735</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bartholomeusz</surname>
+							<given-names>HH</given-names>
+						</name>
+						<name>
+							<surname>Courchesne</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Karns</surname>
+							<given-names>CM</given-names>
+						</name>
+					</person-group>
+					<article-title>Relationship between head circumference and brain volume in healthy normal toddlers, children, and adults</article-title>
+					<source>Neuropediatrics</source>
+					<year>2002</year>
+					<volume>33</volume>
+					<issue>5</issue>
+					<fpage>239</fpage>
+					<lpage>241</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1055/s-2002-36735">https://doi.org/10.1055/s-2002-36735</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B34">
+				<label>34</label>
+				<mixed-citation>34 Kac G. [Secular height trend: a literature review]. Cad Saude Publica. 1999;15(3):451-61. Portuguese. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0102-311X1999000300002">https://doi.org/10.1590/S0102-311X1999000300002</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kac</surname>
+							<given-names>G</given-names>
+						</name>
+					</person-group>
+					<article-title>Secular height trend: a literature review</article-title>
+					<source>Cad Saude Publica</source>
+					<year>1999</year>
+					<volume>15</volume>
+					<issue>3</issue>
+					<fpage>451</fpage>
+					<lpage>461</lpage>
+					<comment>Portuguese</comment>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0102-311X1999000300002">https://doi.org/10.1590/S0102-311X1999000300002</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B35">
+				<label>35</label>
+				<mixed-citation>35 Ishikawa T, Furuyama M, Oqawa J, Wada Y. Growth in head circumference from birth to fifteen years of age in Japan. Acta Paediatr Scand. 1987;76(5):824-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1651-2227.1987.tb10571.x">https://doi.org/10.1111/j.1651-2227.1987.tb10571.x</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ishikawa</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Furuyama</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Oqawa</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Wada</surname>
+							<given-names>Y</given-names>
+						</name>
+					</person-group>
+					<article-title>Growth in head circumference from birth to fifteen years of age in Japan</article-title>
+					<source>Acta Paediatr Scand</source>
+					<year>1987</year>
+					<volume>76</volume>
+					<issue>5</issue>
+					<fpage>824</fpage>
+					<lpage>828</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1651-2227.1987.tb10571.x">https://doi.org/10.1111/j.1651-2227.1987.tb10571.x</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B36">
+				<label>36</label>
+				<mixed-citation>36 Ounsted M, Moar VA, Scott A. Head circumference charts updated. Arch Dis Child. 1985;60(10):936-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/adc.60.10.936">https://doi.org/10.1136/adc.60.10.936</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ounsted</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Moar</surname>
+							<given-names>VA</given-names>
+						</name>
+						<name>
+							<surname>Scott</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Head circumference charts updated</article-title>
+					<source>Arch Dis Child</source>
+					<year>1985</year>
+					<volume>60</volume>
+					<issue>10</issue>
+					<fpage>936</fpage>
+					<lpage>939</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/adc.60.10.936">https://doi.org/10.1136/adc.60.10.936</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B37">
+				<label>37</label>
+				<mixed-citation>37 Nunes PV, Suemoto CK, Leite REP, Ferretti-Rebustini REL, Pasqualucci CA, Nitrini R, et al. Factors associated with brain volume in major depression in older adults without dementia: results from a large autopsy study. Int J Geriatr Psychiatry. 2018;33(1):14-20. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/gps.4649">https://doi.org/10.1002/gps.4649</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Nunes</surname>
+							<given-names>PV</given-names>
+						</name>
+						<name>
+							<surname>Suemoto</surname>
+							<given-names>CK</given-names>
+						</name>
+						<name>
+							<surname>Leite</surname>
+							<given-names>REP</given-names>
+						</name>
+						<name>
+							<surname>Ferretti-Rebustini</surname>
+							<given-names>REL</given-names>
+						</name>
+						<name>
+							<surname>Pasqualucci</surname>
+							<given-names>CA</given-names>
+						</name>
+						<name>
+							<surname>Nitrini</surname>
+							<given-names>R</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Factors associated with brain volume in major depression in older adults without dementia: results from a large autopsy study</article-title>
+					<source>Int J Geriatr Psychiatry</source>
+					<year>2018</year>
+					<volume>33</volume>
+					<issue>1</issue>
+					<fpage>14</fpage>
+					<lpage>20</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/gps.4649">https://doi.org/10.1002/gps.4649</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B38">
+				<label>38</label>
+				<mixed-citation>38 Nunes PV, Nascimento CF, Kim HK, Andreazza AC, Brentani HP, Suemoto CK, et al. Low brain-derived neurotrophic factor levels in post-mortem brains of older adults with depression and dementia in a large clinicopathological sample. J Affect Disord. 2018;241:176-81. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jad.2018.08.025">https://doi.org/10.1016/j.jad.2018.08.025</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Nunes</surname>
+							<given-names>PV</given-names>
+						</name>
+						<name>
+							<surname>Nascimento</surname>
+							<given-names>CF</given-names>
+						</name>
+						<name>
+							<surname>Kim</surname>
+							<given-names>HK</given-names>
+						</name>
+						<name>
+							<surname>Andreazza</surname>
+							<given-names>AC</given-names>
+						</name>
+						<name>
+							<surname>Brentani</surname>
+							<given-names>HP</given-names>
+						</name>
+						<name>
+							<surname>Suemoto</surname>
+							<given-names>CK</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Low brain-derived neurotrophic factor levels in post-mortem brains of older adults with depression and dementia in a large clinicopathological sample</article-title>
+					<source>J Affect Disord</source>
+					<year>2018</year>
+					<volume>241</volume>
+					<fpage>176</fpage>
+					<lpage>181</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jad.2018.08.025">https://doi.org/10.1016/j.jad.2018.08.025</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="financial-disclosure" id="fn2">
+				<p><bold>Funding:</bold>
+ <italic>Fundação de Amparo à Pesquisa do Estado de São Paulo</italic> (Fapesp - Process 2018/16626-0; 2016/24326-0 and 2017-07089-8). <italic>Conselho Nacional de Desenvolvimento Científico e Tecnológico</italic> (CNPq - Process 466763/2014-0). Alzheimer’s Association Research Fellowship (AARF - 18-566005). <italic>Instituto Federal Goiano – Campus Iporá</italic> (grant number 23220.001846.2021-19). Private donation from Paulo Sérgio Galvão to University of São Paulo Bipolar Disorder Research program (Promam) for funding this research.</p>
+			</fn>
+		</fn-group>
+	</back>
+</article>

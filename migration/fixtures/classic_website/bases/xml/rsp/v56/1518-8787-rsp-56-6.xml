@@ -1,0 +1,1900 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.1" specific-use="sps-1.9" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="nlm-ta">Rev Saude Publica</journal-id>
+			<journal-id journal-id-type="publisher-id">rsp</journal-id>
+			<journal-title-group>
+				<journal-title>Revista de Saúde Pública</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Rev. Saúde Pública</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="ppub">0034-8910</issn>
+			<issn pub-type="epub">1518-8787</issn>
+			<publisher>
+				<publisher-name>Faculdade de Saúde Pública da Universidade de São Paulo</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="other">00203</article-id>
+			<article-id pub-id-type="doi">10.11606/s1518-8787.2022056004551</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Original Article</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Ultra-processed food intake and diet carbon and water footprints: a national study in Brazil</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-1671-5134</contrib-id>
+					<name>
+						<surname>Garzillo</surname>
+						<given-names>Josefa Maria Fellegger</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-7890-9770</contrib-id>
+					<name>
+						<surname>Poli</surname>
+						<given-names>Vanessa Fadanelli Schoenardie</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-0470-1974</contrib-id>
+					<name>
+						<surname>Leite</surname>
+						<given-names>Fernanda Helena Marrocos</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-2907-3153</contrib-id>
+					<name>
+						<surname>Steele</surname>
+						<given-names>Euridice Martinez</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-4607-5094</contrib-id>
+					<name>
+						<surname>Machado</surname>
+						<given-names>Priscila Pereira</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-3756-2301</contrib-id>
+					<name>
+						<surname>Louzada</surname>
+						<given-names>Maria Laura da Costa</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff3"><sup>III</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-5388-7002</contrib-id>
+					<name>
+						<surname>Levy</surname>
+						<given-names>Renata Bertazzi</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff4"><sup>IV</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-3777-1533</contrib-id>
+					<name>
+						<surname>Monteiro</surname>
+						<given-names>Carlos Augusto</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff3"><sup>III</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>I</label>
+				<institution content-type="orgname">Universidade de São Paulo</institution>
+				<institution content-type="orgdiv1">Núcleo de Pesquisas Epidemiológicas em Nutrição e Saúde</institution>
+				<addr-line>
+					<named-content content-type="city">São Paulo</named-content>
+					<named-content content-type="state">SP</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Universidade de São Paulo. Núcleo de Pesquisas Epidemiológicas em Nutrição e Saúde. São Paulo, SP, Brasil</institution>
+			</aff>
+			<aff id="aff2">
+				<label>II</label>
+				<institution content-type="orgname">Deakin University</institution>
+				<institution content-type="orgdiv1">Institute for Physical Activity and Nutrition</institution>
+				<addr-line>
+					<named-content content-type="city">Melbourne</named-content>
+				</addr-line>
+				<country country="AU">Austrália</country>
+				<institution content-type="original">Deakin University. Institute for Physical Activity and Nutrition. Melbourne, Austrália</institution>
+			</aff>
+			<aff id="aff3">
+				<label>III</label>
+				<institution content-type="orgname">Universidade de São Paulo</institution>
+				<institution content-type="orgdiv1">Faculdade de Saúde Pública</institution>
+				<institution content-type="orgdiv2">Departamento de Nutrição</institution>
+				<addr-line>
+					<named-content content-type="city">São Paulo</named-content>
+					<named-content content-type="state">SP</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Universidade de São Paulo. Faculdade de Saúde Pública. Departamento de Nutrição. São Paulo, SP, Brasil</institution>
+			</aff>
+			<aff id="aff4">
+				<label>IV</label>
+				<institution content-type="orgname">Universidade de São Paulo</institution>
+				<institution content-type="orgdiv1">Faculdade de Medicina</institution>
+				<institution content-type="orgdiv2">Departamento de Medicina Preventiva</institution>
+				<addr-line>
+					<named-content content-type="city">São Paulo</named-content>
+					<named-content content-type="state">SP</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Universidade de São Paulo. Faculdade de Medicina. Departamento de Medicina Preventiva. São Paulo, SP, Brasil</institution>
+			</aff>
+			<author-notes>
+				<corresp id="c01"> Correspondence: Carlos Augusto Monteiro Universidade de São Paulo Faculdade de Saúde Pública Departamento de Nutrição Av. Dr. Arnaldo, 715 01246-904 São Paulo, SP, Brasil E-mail: <email>carlosam@usp.br</email>
+				</corresp>
+				<fn fn-type="con">
+					<p><bold>Authors’ Contribution:</bold> Study design and planning: JMFG, CAM. Data collection, analysis and interpretation: JMFG, FHML, SEM, VFSP, PPM, MLCL, RBL, CAM. Manuscript drafting or review: JMFG, PPM, FHML, SEM, VFSP, MLCL, RBL, CAM. Approval of the final version: JMFG, CAM. Public responsibility for the content of the article: JMFG, CAM.</p>
+				</fn>
+				<fn fn-type="conflict">
+					<p><bold>Conflict of Interests:</bold> The authors declare no conflict of interest.</p>
+				</fn>
+			</author-notes>
+			<pub-date date-type="pub" publication-format="electronic">
+				<day>28</day>
+				<month>02</month>
+				<year>2022</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">
+				<year>2022</year>
+			</pub-date>
+			<volume>56</volume>
+			<elocation-id>6</elocation-id>
+			<history>
+				<date date-type="received">
+					<day>20</day>
+					<month>01</month>
+					<year>2022</year>
+				</date>
+				<date date-type="accepted">
+					<day>26</day>
+					<month>01</month>
+					<year>2022</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="en">
+					<license-p> This is an Open Access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. </license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>ABSTRACT</title>
+				<sec>
+					<title>OBJECTIVE</title>
+					<p> To study the association between ultra-processed food consumption and carbon and water footprints of the Brazilian diet.</p>
+				</sec>
+				<sec>
+					<title>METHODS</title>
+					<p> Cross-sectional analysis on data collected in 2008–2009 on a probabilistic sample of the Brazilian population aged ≥ 10 years (n = 32,886). Individual food intake was assessed using two 24-hour food records, on non-consecutive days. The environmental impact of individual diets was calculated by multiplying the amount of each food by coefficients that quantify the atmospheric emissions of greenhouse gases in grams of carbon dioxide equivalent (carbon footprint) and freshwater use in liters (water footprint), both per gram or milliliter of food. The two coefficients consider the food life cycle ‘from farm to fork.’ Crude and adjusted linear regression models and tests for linear trends assessed the association between the ultra-processed food contribution to total energy intake (quintiles) and the diet carbon and water footprints. Potential confounders included age, sex, education, income, and region. Total energy intake was assessed as a potential mediation variable.</p>
+				</sec>
+				<sec>
+					<title>RESULTS</title>
+					<p> In the crude models, the dietary contribution of ultra-processed foods was linearly associated with the carbon and water footprints of the Brazilian diet. After adjustment for potential confounders, the association remained significant only regarding the diet water footprint, which increased by 10.1% between the lowest and highest quintile of the contribution of ultra-processed foods. Additional adjustment for total energy intake eliminated this association indicating that the dietary contribution of ultra-processed foods increases the diet water footprint by increasing energy intake.</p>
+				</sec>
+				<sec>
+					<title>CONCLUSIONS</title>
+					<p> The negative impact of ultra-processed foods on the diet water footprint, shown for the first time in this study, adds to the negative impacts of these foods, already demonstrated regarding dietary nutrient profiles and the risk for several chronic non-communicable diseases. This reinforces the recommendation to avoid ultra-processed foods made in the official Brazilian Dietary Guidelines and increasingly in dietary guidelines of other countries.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="en">
+				<kwd>Diet</kwd>
+				<kwd>Ultra-Processed Food</kwd>
+				<kwd>Carbon Footprint</kwd>
+				<kwd>Water Footprint</kwd>
+				<kwd>Brazil</kwd>
+			</kwd-group>
+			<funding-group>
+				<award-group>
+					<funding-source>Fundação Faculdade de Medicina</funding-source>
+					<award-id>G-1910-56390</award-id>
+				</award-group>
+				<funding-statement>Funding: Climate and Land Use Alliance (CLUA - Fundação Faculdade de Medicina - Grant Number: G-1910-56390, December 2019 to May 2022); CLUA does not necessarily share the positions expressed in this publication.</funding-statement>
+			</funding-group>
+			<counts>
+				<fig-count count="0"/>
+				<table-count count="3"/>
+				<equation-count count="0"/>
+				<ref-count count="30"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>INTRODUCTION</title>
+			<p>Food systems and supplies are transforming into a global industrial system, with corresponding changes in the production, distribution, and consumption of food<sup><xref ref-type="bibr" rid="B1">1</xref></sup>. As shown by time series on annual food sales available in 81 countries, including Brazil, the most conspicuous change has been the increase in the supply and consumption of ultra-processed foods<sup><xref ref-type="bibr" rid="B2">2</xref></sup>. In Brazil, national household surveys on food purchases have documented, since the 1980s, the displacement of fresh and minimally processed foods and their culinary preparations as dishes and meals by ultra-processed foods<sup><xref ref-type="bibr" rid="B3">3</xref></sup>.</p>
+			<p>Ultra-processed foods, as defined by the Nova classification<sup><xref ref-type="bibr" rid="B4">4</xref></sup>, are industrial formulations made mostly or entirely with substances extracted from foods, often chemically modified, and from additives, with little if any whole food added<sup><xref ref-type="bibr" rid="B5">5</xref></sup>. Among the characteristics that explain their increase in production and consumption are the relatively affordable price (due to low-cost ingredients), convenience (long duration and no need for cooking), hyper-palatability (due to large amounts of salt, sugar and/or fats, and classes of additives with cosmetic functions), and aggressive and sophisticated advertising (enabled by the high profitability of the products)<sup><xref ref-type="bibr" rid="B4">4</xref></sup>. Typical examples of ultra-processed products are soft drinks, packaged snacks, confectionery, reconstituted meat products, and frozen or shelf-stable ready meals<sup><xref ref-type="bibr" rid="B4">4</xref></sup>.</p>
+			<p>A systematic review and meta-analysis of findings from national dietary surveys carried out in many countries, including Brazil, shows that increases in the dietary share of ultra-processed foods are systematically associated with unbalanced dietary nutrient profiles, including higher free sugars and unhealthy fats and lower protein, fiber, and several vitamins and minerals<sup><xref ref-type="bibr" rid="B6">6</xref></sup>. Systematic reviews and meta-analyses of findings from long-term longitudinal studies, also carried out in many countries, including Brazil, show that increases in the dietary share of ultra-processed foods are associated with higher risk of obesity, diabetes, cardiovascular diseases, depression, and several other chronic non-communicable diseases, in addition to higher all-cause mortality<sup><xref ref-type="bibr" rid="B7">7</xref></sup>.</p>
+			<p>Given the evidence on the harmful health effects of ultra-processed foods and other factors, such as the negative impact that their production has on the environment, dietary guidelines in Brazil<sup><xref ref-type="bibr" rid="B10">10</xref></sup>, other Latin American countries<sup><xref ref-type="bibr" rid="B11">11</xref></sup>, France<sup><xref ref-type="bibr" rid="B12">12</xref></sup>, Israel<sup><xref ref-type="bibr" rid="B13">13</xref></sup>, and Malaysia<sup><xref ref-type="bibr" rid="B14">14</xref></sup> state in their recommendations that the consumption of ultra-processed foods should be reduced or avoided.</p>
+			<p>The putative negative environmental aspects of production of ultra-processed foods include the reduced variety of species grown monoculturally on large tracts of land; the systematic use of fertilizers and pesticides on crops; the vast use of water; the many processes to formulate the final products; the transport over long distances; the waste generated by packaging; and the incentive to food consumption that exceeds physiological energy requirements<sup><xref ref-type="bibr" rid="B15">15</xref>,<xref ref-type="bibr" rid="B16">16</xref></sup>.</p>
+			<p>Empirical studies on the environmental impact of ultra-processed food production and consumption, although urgent, are still incipient<sup><xref ref-type="bibr" rid="B16">16</xref></sup>. A study carried out in the UK showed that industrially-prepared meals, probably ultra-processed, might have a greater environmental impact than equivalent homemade meals, in part due to storage in freezers and the quantity of package waste<sup><xref ref-type="bibr" rid="B17">17</xref></sup>. Another study showed that ‘discretionary foods,’ mostly ultra-processed, account already for more than a third of the carbon and water footprints of the Australian diet, a proportion expected to double by 2050<sup><xref ref-type="bibr" rid="B18">18</xref></sup>. In Brazilian metropolitan areas, the contribution of ultra-processed foods to the carbon and water footprints of the food baskets purchased by households has tripled in three decades (from 7.1% and 8.2% in 1987 to 20.4 % and 22.2% in 2018) following the increase in the consumption of those foods<sup><xref ref-type="bibr" rid="B19">19</xref></sup>.</p>
+			<p>In a previous study, based on a national dietary survey conducted in 2008–2009 in a probabilistic sample with more than 30,000 people, we estimated the carbon footprints of the Brazilian diet and its association with sociodemographic variables. The study identified larger footprints in diets consumed by men, by people between 20 and 49 years old, by people with higher income and higher education, and by residents in the North and Midwest regions of the country<sup><xref ref-type="bibr" rid="B20">20</xref></sup>. In our current study, we evaluate, for the first time in Brazil, and possibly in any country, the effect of the consumption of ultra-processed foods on the diet carbon and water footprints.</p>
+		</sec>
+		<sec sec-type="methods">
+			<title>METHODS</title>
+			<sec>
+				<title>Data Source</title>
+				<p>The data analyzed here are from the official national dietary survey conducted by the Brazilian Institute of Geography and Statistics (IBGE) between May 2008 and May 2009<sup><xref ref-type="bibr" rid="B21">21</xref></sup>.</p>
+				<p>The 2008–2009 IBGE dietary survey used a sampling plan by conglomerates created with the geographic and socioeconomic stratification of all census tracts of the country. Census tracts were drawn, in the first stage, and households, in the second stage. The final sample included 13,569 households. All residents aged 10 years or over were interviewed (n = 34,003).</p>
+				<p>Food intake was assessed using 24-hour food records, on non-consecutive days. Household members recorded all foods and culinary preparations with the amounts consumed and the form of preparation. Culinary preparations were separated into foods according to standard recipes<sup><xref ref-type="bibr" rid="B22">22</xref></sup>. The amounts of individual foods were transformed into grams or milliliters using the Brazilian Home Measures Table<sup><xref ref-type="bibr" rid="B23">23</xref></sup> and converted into energy (kcal) based on the Brazilian Food Composition Table<sup><xref ref-type="bibr" rid="B24">24</xref></sup>.</p>
+				<p>Data on gender, date of birth, education level, family income, number of residents in the household, and region of residence, were obtained by the 2008–2009 IBGE survey using standard questionnaires.</p>
+			</sec>
+			<sec>
+				<title>Data Analysis</title>
+				<p>The analyses used all the records of two days of food consumption (n = 32,886 or 96.8% of the total participants). Analyses have averaged the quantities of foods consumed in these two days.</p>
+				<p>The environmental footprints of the foods consumed were calculated by multiplying the average amount of each food by coefficients that quantify the atmospheric emissions of greenhouse gases, expressed in grams of carbon dioxide equivalent or gCO<sub>2</sub>eq (carbon footprint), and the use of fresh water, expressed in liters (water footprint), both per gram or milliliter of food.</p>
+				<p>The coefficients used were from the publication ‘Footprints of food and culinary preparations consumed in Brazil<sup><xref ref-type="bibr" rid="B22">22</xref></sup>. This provides the carbon and water footprints of all food items reported by the participants of the 2008–2009 IBGE survey. These coefficients consider the life cycle assessment of foods, including emissions from gas used in cooking (‘from farm to fork’). They were estimated from 569 primary sources of environmental food footprints, including scientific publications and reports prepared by industries on the environmental effects of their products. Arithmetical means were used when more than one value was available.</p>
+				<p>Using the Nova system<sup><xref ref-type="bibr" rid="B4">4</xref></sup>, all foods consumed by participants were classified into four groups consisting of unprocessed or minimally processed foods, processed culinary ingredients, processed foods, and ultra-processed foods.</p>
+				<p>Next, the dietary energy intake (kcal/person-day) and the dietary carbon and water footprints (gCO<sub>2</sub>eq/person-day and L/person-day, respectively) were estimated according to the four Nova food groups and subgroups (such as meat, plant oils, cheese, soft drinks). For each group and subgroup, the ratio between its percent contribution to the dietary carbon or water footprint and to the dietary energy intake was calculated. Thus, ratios equal to 1 identify food groups and subgroups with an environmental footprint (per unit of energy) identical to the whole diet. Ratios above 1 and below 1 identify food groups and subgroups with an environmental footprint (per unit of energy), respectively, higher and lower than the whole diet.</p>
+				<p>The effect that ultra-processed food consumption exerts on the carbon and water footprints of the Brazilian diet was then evaluated observing the diet footprints across five strata of the population corresponding to increasing quintiles of the contribution of ultra-processed foods to total energy intake. This was the same approach used by most of the studies evaluating the effect of consumption of ultra-processed foods on diet quality<sup><xref ref-type="bibr" rid="B6">6</xref></sup> or disease risk<sup><xref ref-type="bibr" rid="B7">7</xref></sup>. Crude and adjusted linear regression models and linear trend tests were used to assess the association between quintiles of ultra-processed food dietary contribution and the dietary environmental footprints. Adjustments for potential confounders were made for sociodemographic variables that were associated with dietary footprints in the 2008–2009 IBGE survey<sup><xref ref-type="bibr" rid="B21">21</xref></sup> (age, sex, education, income, and region of residence). Total energy intake was assessed as a potential mediation variable.</p>
+				<p>All analyses were performed using the software Stata/SE version 14.0 in the module survey, which considers the complex sample design of the 2008–2009 IBGE survey.</p>
+			</sec>
+		</sec>
+		<sec sec-type="results">
+			<title>RESULTS</title>
+			<p>
+				<xref ref-type="table" rid="t1">Table 1</xref> shows the distribution of the total dietary energy intake (1,905 kcal/person/day) and the total dietary carbon (4,488 gCO<sub>2</sub>eq/person-day) and water footprint (3,877 L/person/day) according to the Nova four food groups and corresponding subgroups.</p>
+			<p>
+				<table-wrap id="t1">
+					<label>Table 1</label>
+					<caption>
+						<title>Distribution of dietary energy intake and the diet environmental footprints according to NOVA food groups and subgroups. Brazilian population aged 10 years or over, 2008–2009. (n = 32,886)</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup width="11%">
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left" rowspan="3">NOVA food groups and subgroups</th>
+								<th colspan="2">Energy intake</th>
+								<th colspan="2">Carbon footprint</th>
+								<th colspan="2">Water footprint</th>
+								<th colspan="2">Ratio</th>
+							</tr>
+							<tr>
+								<th colspan="2">
+									<hr/>
+								</th>
+								<th colspan="2">
+									<hr/>
+								</th>
+								<th colspan="2">
+									<hr/>
+								</th>
+								<th colspan="2">
+									<hr/>
+								</th>
+							</tr>
+							<tr>
+								<th>Kcal per person-day</th>
+								<th>% of total (a)</th>
+								<th>gCO<sub>2</sub>eq per person-day</th>
+								<th>% of total (b)</th>
+								<th>L per person-day</th>
+								<th>% of total (c)</th>
+								<th>(b)/(a)</th>
+								<th>(c)/(a)</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Unprocessed or minimally processed foods</td>
+								<td align="center">1,035.0</td>
+								<td align="center">54.32</td>
+								<td align="center">3,490.0</td>
+								<td align="center">77.76</td>
+								<td align="center">2,782.0</td>
+								<td align="center">71.76</td>
+								<td align="center">1.43</td>
+								<td align="center">1.32</td>
+							</tr>
+							<tr>
+								<td>Rice</td>
+								<td align="center">178.3</td>
+								<td align="center">9.36</td>
+								<td align="center">117.9</td>
+								<td align="center">2.63</td>
+								<td align="center">60.1</td>
+								<td align="center">1.55</td>
+								<td align="center">0.28</td>
+								<td align="center">0.17</td>
+							</tr>
+							<tr>
+								<td>Meat<sup>a</sup></td>
+								<td align="center">170.9</td>
+								<td align="center">8.97</td>
+								<td align="center">2,583.0</td>
+								<td align="center">57.55</td>
+								<td align="center">1,786.0</td>
+								<td align="center">46.07</td>
+								<td align="center">6.42</td>
+								<td align="center">5.14</td>
+							</tr>
+							<tr>
+								<td>Legumes</td>
+								<td align="center">146.2</td>
+								<td align="center">7.67</td>
+								<td align="center">13.1</td>
+								<td align="center">0.29</td>
+								<td align="center">185.4</td>
+								<td align="center">4.78</td>
+								<td align="center">0.04</td>
+								<td align="center">0.62</td>
+							</tr>
+							<tr>
+								<td>Poultry</td>
+								<td align="center">125.4</td>
+								<td align="center">6.58</td>
+								<td align="center">275.9</td>
+								<td align="center">6.15</td>
+								<td align="center">373.7</td>
+								<td align="center">9.64</td>
+								<td align="center">0.93</td>
+								<td align="center">1.46</td>
+							</tr>
+							<tr>
+								<td>Cereals other than rice<sup>b</sup></td>
+								<td align="center">119.2</td>
+								<td align="center">6.26</td>
+								<td align="center">27.7</td>
+								<td align="center">0.62</td>
+								<td align="center">49.8</td>
+								<td align="center">1.28</td>
+								<td align="center">0.10</td>
+								<td align="center">0.21</td>
+							</tr>
+							<tr>
+								<td>Fruits</td>
+								<td align="center">90.4</td>
+								<td align="center">4.74</td>
+								<td align="center">93.3</td>
+								<td align="center">2.08</td>
+								<td align="center">104.3</td>
+								<td align="center">2.69</td>
+								<td align="center">0.44</td>
+								<td align="center">0.57</td>
+							</tr>
+							<tr>
+								<td>Roots and tubers</td>
+								<td align="center">79.8</td>
+								<td align="center">4.19</td>
+								<td align="center">20.1</td>
+								<td align="center">0.45</td>
+								<td align="center">59.3</td>
+								<td align="center">1.53</td>
+								<td align="center">0.11</td>
+								<td align="center">0.37</td>
+							</tr>
+							<tr>
+								<td>Milk</td>
+								<td align="center">29.5</td>
+								<td align="center">1.55</td>
+								<td align="center">61.6</td>
+								<td align="center">1.37</td>
+								<td align="center">65.0</td>
+								<td align="center">1.68</td>
+								<td align="center">0.89</td>
+								<td align="center">1.08</td>
+							</tr>
+							<tr>
+								<td>Fish</td>
+								<td align="center">27.4</td>
+								<td align="center">1.44</td>
+								<td align="center">122.8</td>
+								<td align="center">2.74</td>
+								<td align="center">-</td>
+								<td align="center">-</td>
+								<td align="center">1.90</td>
+								<td align="center">-</td>
+							</tr>
+							<tr>
+								<td>Eggs</td>
+								<td align="center">21.8</td>
+								<td align="center">1.14</td>
+								<td align="center">52.3</td>
+								<td align="center">1.17</td>
+								<td align="center">47.8</td>
+								<td align="center">1.23</td>
+								<td align="center">1.02</td>
+								<td align="center">1.08</td>
+							</tr>
+							<tr>
+								<td>Vegetables</td>
+								<td align="center">10.2</td>
+								<td align="center">0.54</td>
+								<td align="center">18.5</td>
+								<td align="center">0.41</td>
+								<td align="center">28.5</td>
+								<td align="center">0.74</td>
+								<td align="center">0.77</td>
+								<td align="center">1.37</td>
+							</tr>
+							<tr>
+								<td>Other<sup>c</sup></td>
+								<td align="center">35.5</td>
+								<td align="center">1.86</td>
+								<td align="center">9.2</td>
+								<td align="center">0.20</td>
+								<td align="center">16.0</td>
+								<td align="center">0.41</td>
+								<td align="center">0.11</td>
+								<td align="center">0.22</td>
+							</tr>
+							<tr>
+								<td>Processed culinary ingredients</td>
+								<td align="center">311.1</td>
+								<td align="center">16.33</td>
+								<td align="center">72.9</td>
+								<td align="center">1.62</td>
+								<td align="center">140.8</td>
+								<td align="center">3.63</td>
+								<td align="center">0.10</td>
+								<td align="center">0.22</td>
+							</tr>
+							<tr>
+								<td>Plant oils</td>
+								<td align="center">218.9</td>
+								<td align="center">11.49</td>
+								<td align="center">42.1</td>
+								<td align="center">0.94</td>
+								<td align="center">106.9</td>
+								<td align="center">2.76</td>
+								<td align="center">0.08</td>
+								<td align="center">0.24</td>
+							</tr>
+							<tr>
+								<td>Table sugar</td>
+								<td align="center">67.8</td>
+								<td align="center">3.56</td>
+								<td align="center">8.5</td>
+								<td align="center">0.19</td>
+								<td align="center">17.9</td>
+								<td align="center">0.46</td>
+								<td align="center">0.05</td>
+								<td align="center">0.13</td>
+							</tr>
+							<tr>
+								<td>Butter and other animal fat</td>
+								<td align="center">22.2</td>
+								<td align="center">1.17</td>
+								<td align="center">21.5</td>
+								<td align="center">0.48</td>
+								<td align="center">15.3</td>
+								<td align="center">0.39</td>
+								<td align="center">0.41</td>
+								<td align="center">0.34</td>
+							</tr>
+							<tr>
+								<td>Other<sup>d</sup></td>
+								<td align="center">2.2</td>
+								<td align="center">0.12</td>
+								<td align="center">0.7</td>
+								<td align="center">0.02</td>
+								<td align="center">0.5</td>
+								<td align="center">0.01</td>
+								<td align="center">0.14</td>
+								<td align="center">0.11</td>
+							</tr>
+							<tr>
+								<td>Processed foods</td>
+								<td align="center">185.5</td>
+								<td align="center">9.74</td>
+								<td align="center">393.7</td>
+								<td align="center">8.77</td>
+								<td align="center">370.8</td>
+								<td align="center">9.56</td>
+								<td align="center">0.90</td>
+								<td align="center">0.98</td>
+							</tr>
+							<tr>
+								<td>Fresh breads</td>
+								<td align="center">121.3</td>
+								<td align="center">6.37</td>
+								<td align="center">27.4</td>
+								<td align="center">0.61</td>
+								<td align="center">73.0</td>
+								<td align="center">1.88</td>
+								<td align="center">0.10</td>
+								<td align="center">0.30</td>
+							</tr>
+							<tr>
+								<td>Cheese</td>
+								<td align="center">20.6</td>
+								<td align="center">1.08</td>
+								<td align="center">56.9</td>
+								<td align="center">1.27</td>
+								<td align="center">38.3</td>
+								<td align="center">0.99</td>
+								<td align="center">1.17</td>
+								<td align="center">0.91</td>
+							</tr>
+							<tr>
+								<td>Processed meat</td>
+								<td align="center">20.1</td>
+								<td align="center">1.05</td>
+								<td align="center">252.5</td>
+								<td align="center">5.63</td>
+								<td align="center">231.7</td>
+								<td align="center">5.98</td>
+								<td align="center">5.33</td>
+								<td align="center">5.67</td>
+							</tr>
+							<tr>
+								<td>Beer and wine</td>
+								<td align="center">16.0</td>
+								<td align="center">0.84</td>
+								<td align="center">45.6</td>
+								<td align="center">1.02</td>
+								<td align="center">15.7</td>
+								<td align="center">0.40</td>
+								<td align="center">1.21</td>
+								<td align="center">0.48</td>
+							</tr>
+							<tr>
+								<td>Other</td>
+								<td align="center">7.4</td>
+								<td align="center">0.39</td>
+								<td align="center">11.2</td>
+								<td align="center">0.25</td>
+								<td align="center">12.0</td>
+								<td align="center">0.31</td>
+								<td align="center">0.64</td>
+								<td align="center">0.80</td>
+							</tr>
+							<tr>
+								<td>Ultra-processed foods</td>
+								<td align="center">373.7</td>
+								<td align="center">19.61</td>
+								<td align="center">531.8</td>
+								<td align="center">11.85</td>
+								<td align="center">583.1</td>
+								<td align="center">15.04</td>
+								<td align="center">0.60</td>
+								<td align="center">0.77</td>
+							</tr>
+							<tr>
+								<td>Ready meals<sup>e</sup></td>
+								<td align="center">80.8</td>
+								<td align="center">4.24</td>
+								<td align="center">148.1</td>
+								<td align="center">3.30</td>
+								<td align="center">104.0</td>
+								<td align="center">2.68</td>
+								<td align="center">0.78</td>
+								<td align="center">0.63</td>
+							</tr>
+							<tr>
+								<td>Pastries</td>
+								<td align="center">46.5</td>
+								<td align="center">2.44</td>
+								<td align="center">20.7</td>
+								<td align="center">0.46</td>
+								<td align="center">23.6</td>
+								<td align="center">0.61</td>
+								<td align="center">0.19</td>
+								<td align="center">0.25</td>
+							</tr>
+							<tr>
+								<td>Confectionery<sup>f</sup></td>
+								<td align="center">39.3</td>
+								<td align="center">2.06</td>
+								<td align="center">30.1</td>
+								<td align="center">0.67</td>
+								<td align="center">119.7</td>
+								<td align="center">3.09</td>
+								<td align="center">0.33</td>
+								<td align="center">1.50</td>
+							</tr>
+							<tr>
+								<td>Salty packaged snacks</td>
+								<td align="center">37.7</td>
+								<td align="center">1.98</td>
+								<td align="center">16.6</td>
+								<td align="center">0.37</td>
+								<td align="center">12.7</td>
+								<td align="center">0.33</td>
+								<td align="center">0.19</td>
+								<td align="center">0.17</td>
+							</tr>
+							<tr>
+								<td>Soft drinks</td>
+								<td align="center">35.9</td>
+								<td align="center">1.88</td>
+								<td align="center">55.6</td>
+								<td align="center">1.24</td>
+								<td align="center">45.1</td>
+								<td align="center">1.16</td>
+								<td align="center">0.66</td>
+								<td align="center">0.62</td>
+							</tr>
+							<tr>
+								<td>Sausages and other reconstituted meat products</td>
+								<td align="center">33.0</td>
+								<td align="center">1.73</td>
+								<td align="center">168.1</td>
+								<td align="center">3.75</td>
+								<td align="center">171.9</td>
+								<td align="center">4.43</td>
+								<td align="center">2.16</td>
+								<td align="center">2.56</td>
+							</tr>
+							<tr>
+								<td>Dairy drinks</td>
+								<td align="center">30.1</td>
+								<td align="center">1.58</td>
+								<td align="center">46.9</td>
+								<td align="center">1.04</td>
+								<td align="center">46.1</td>
+								<td align="center">1.19</td>
+								<td align="center">0.66</td>
+								<td align="center">0.75</td>
+							</tr>
+							<tr>
+								<td>Sauces</td>
+								<td align="center">26.4</td>
+								<td align="center">1.39</td>
+								<td align="center">9.9</td>
+								<td align="center">0.22</td>
+								<td align="center">10.7</td>
+								<td align="center">0.28</td>
+								<td align="center">0.16</td>
+								<td align="center">0.20</td>
+							</tr>
+							<tr>
+								<td>Mass-produced packaged breads</td>
+								<td align="center">24.1</td>
+								<td align="center">1.26</td>
+								<td align="center">11.9</td>
+								<td align="center">0.27</td>
+								<td align="center">9.3</td>
+								<td align="center">0.24</td>
+								<td align="center">0.21</td>
+								<td align="center">0.19</td>
+							</tr>
+							<tr>
+								<td>Other<sup>g</sup></td>
+								<td align="center">19.9</td>
+								<td align="center">1.04</td>
+								<td align="center">23.4</td>
+								<td align="center">0.52</td>
+								<td align="center">39.8</td>
+								<td align="center">1.03</td>
+								<td align="center">0.50</td>
+								<td align="center">0.98</td>
+							</tr>
+							<tr>
+								<td>Total</td>
+								<td align="center">1,905.3</td>
+								<td align="center">100.00</td>
+								<td align="center">4,488.4</td>
+								<td align="center">100.00</td>
+								<td align="center">3,876.7</td>
+								<td align="center">100.00</td>
+								<td align="center">1.00</td>
+								<td align="center">1.00</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN1">
+							<p><sup>a</sup> Beef, pork, lamb.</p>
+						</fn>
+						<fn id="TFN2">
+							<p><sup>b</sup> Corn and wheat grains and flours, couscous, fresh or dry pasta.</p>
+						</fn>
+						<fn id="TFN3">
+							<p><sup>c</sup> Plain yoghurt, coffee, tea, oilseeds</p>
+						</fn>
+						<fn id="TFN4">
+							<p><sup>d</sup> Vinegar, baking powder.</p>
+						</fn>
+						<fn id="TFN5">
+							<p><sup>e</sup> Instant soups and noodles, fast food meals, frozen pizza, and pasta dishes.</p>
+						</fn>
+						<fn id="TFN6">
+							<p><sup>f</sup> Chocolates, candies and gums, cereal bars, desserts, ice cream.</p>
+						</fn>
+						<fn id="TFN7">
+							<p><sup>g</sup> Distilled alcoholic drinks and non-alcoholic drinks other than soft drinks.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>The group of unprocessed or minimally processed foods contributed 54.32% of the total dietary energy intake and 77.76% and 71.76%, respectively, of the total dietary carbon and water footprints. The ratio between the contribution to footprints and the contribution to energy intake, referred to here as the footprint/intake ratio, was greater than 1 in this group, both for the carbon footprint (1.43) and for the water footprint (1.32), an environmental impact per unit of energy above that for the whole diet.</p>
+			<p>The group of processed culinary ingredients showed the opposite situation, corresponding to 16.33% of the energy intake and to only 1.62% of the carbon footprint and 3.63% of the water footprint of the diet. In this case, the footprint/intake ratio was well below 1 (0.10 for the carbon footprint and 0.22 for the water footprint), an environmental impact per unit of energy below that of the whole diet.</p>
+			<p>Usually consumed combined in dishes and meals, unprocessed or minimally processed foods and processed culinary ingredients have a joint environmental impact per unit of energy slightly higher than the whole diet: carbon footprint/intake ratio equal 1.13 and water footprint /intake ratio equal 1.07 (data not shown).</p>
+			<p>The group of processed foods contributed 9.74% of energy intake and 8.77% of the carbon footprint – footprint/intake ratio 0.90 – and 9.56% of the water footprint – footprint/intake ratio 0.98 – thus showing an environmental impact per unit of energy slightly lower than that of the whole diet.</p>
+			<p>The group of ultra-processed foods contributed 19.61% of energy intake and 11.85% of the carbon footprint – footprint/intake ratio 0.60 – and 15.04% of the water footprint – footprint/intake ratio 0.77 – also showing a lower environmental impact per unit of energy than that of the whole diet.</p>
+			<p>Within the Nova groups, the meat subgroups contributed disproportionately to the carbon and water footprints of diet, with footprint/intake ratios between 2.16 (for the carbon footprint of ultra-processed sausages and other reconstituted meat products) and 6.42 (for the carbon footprint of minimally processed meat). The lowest contribution of meat subgroups in the ultra-processed food group (1.73% in 19.61%, or 8.82% of the total energy intake from this group) and in the processed food group (10.78% of the total energy intake from this group) than in the unprocessed or minimally processed food group or in this group plus the group of processed culinary ingredients (16.51% or 12.70%, respectively) is also remarkable. This may explain why the environmental impact per unit of energy of the processed and the ultra-processed groups is lower than that of the whole diet.</p>
+			<p>
+				<xref ref-type="table" rid="t2">Table 2</xref> shows the total energy intake and the energy intake from ultra-processed foods across quintiles of their dietary contribution. This contribution ranged from 1.33% of the total energy intake in the lowest quintile to 44.64% in the highest quintile. The total energy intake increases linearly with the dietary contribution of ultra-processed foods: from 1,755.8 kcal/person-day in the lowest quintile to 2,075.3 kcal/person-day in the highest quintile.</p>
+			<p>
+				<table-wrap id="t2">
+					<label>Table 2</label>
+					<caption>
+						<title>Dietary energy intake and energy intake from ultra-processed foods (UPF) across quintiles of their dietary contribution. Brazilian population aged 10 years or over, (2008–2009). (n = 32,886)</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup width="20%">
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left" rowspan="3">Quintiles of UPF contribution (% of total energy intake)</th>
+								<th rowspan="3">Mean energy intake (kcal per person-day)</th>
+								<th rowspan="3">Mean energy intake from UPF (kcal per person-day)</th>
+								<th colspan="2">% of total energy intake from UPF</th>
+							</tr>
+							<tr>
+								<th colspan="2">
+									<hr/>
+								</th>
+							</tr>
+							<tr>
+								<th>Average</th>
+								<th>Range</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Q1</td>
+								<td align="center">1,755.8</td>
+								<td align="center">25.2</td>
+								<td align="center">1.33</td>
+								<td align="center">0–4.35</td>
+							</tr>
+							<tr>
+								<td>Q2</td>
+								<td align="center">1,848.2</td>
+								<td align="center">140.4</td>
+								<td align="center">7.56</td>
+								<td align="center">4.35–10.96</td>
+							</tr>
+							<tr>
+								<td>Q3</td>
+								<td align="center">1,878.4</td>
+								<td align="center">282.8</td>
+								<td align="center">15.02</td>
+								<td align="center">10.96–19.24</td>
+							</tr>
+							<tr>
+								<td>Q4</td>
+								<td align="center">1,946.4</td>
+								<td align="center">486.3</td>
+								<td align="center">24.94</td>
+								<td align="center">19.24–31.39</td>
+							</tr>
+							<tr>
+								<td>Q5</td>
+								<td align="center">2,075.3</td>
+								<td align="center">932.9</td>
+								<td align="center">44.64</td>
+								<td align="center">31.39–98.22</td>
+							</tr>
+							<tr>
+								<td>p</td>
+								<td align="center">&lt; 0.001</td>
+								<td align="center">&lt; 0.001</td>
+								<td align="center">-</td>
+								<td align="center">-</td>
+							</tr>
+						</tbody>
+					</table>
+				</table-wrap>
+			</p>
+			<p>
+				<xref ref-type="table" rid="t3">Table 3</xref> shows results from regression models that evaluated the association between quintiles of the dietary contribution of ultra-processed foods and the diet carbon and water footprints.</p>
+			<p>
+				<table-wrap id="t3">
+					<label>Table 3</label>
+					<caption>
+						<title>Diet environmental footprints across quintiles of the dietary contribution of ultra-processed foods (UPF). Brazilian population aged 10 years or over, (2008–2009). (n = 32,886)</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup width="14%">
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left" rowspan="3">Quintiles of UPF contribution (% of total energy intake)</th>
+								<th colspan="3">Carbon footprint (gCO<sub>2</sub>eq/person-day)</th>
+								<th colspan="3">Water footprint (L/person-day)</th>
+							</tr>
+							<tr>
+								<th colspan="3">
+									<hr/>
+								</th>
+								<th colspan="3">
+									<hr/>
+								</th>
+							</tr>
+							<tr>
+								<th>Crude</th>
+								<th>Adjusted<sup>a</sup></th>
+								<th>Adjusted<sup>b</sup></th>
+								<th>Crude</th>
+								<th>Adjusted<sup>a</sup></th>
+								<th>Adjusted<sup>b</sup></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Q1</td>
+								<td align="center">4,245</td>
+								<td align="center">4,302</td>
+								<td align="center">4,408</td>
+								<td align="center">3,571</td>
+								<td align="center">3,644</td>
+								<td align="center">3,736</td>
+							</tr>
+							<tr>
+								<td>Q2</td>
+								<td align="center">4,553</td>
+								<td align="center">4,598</td>
+								<td align="center">4,628</td>
+								<td align="center">3,860</td>
+								<td align="center">3,911</td>
+								<td align="center">3,938</td>
+							</tr>
+							<tr>
+								<td>Q3</td>
+								<td align="center">4,480</td>
+								<td align="center">4,495</td>
+								<td align="center">4,499</td>
+								<td align="center">3,836</td>
+								<td align="center">3,871</td>
+								<td align="center">3,875</td>
+							</tr>
+							<tr>
+								<td>Q4</td>
+								<td align="center">4,616</td>
+								<td align="center">4,590</td>
+								<td align="center">4,556</td>
+								<td align="center">3,989</td>
+								<td align="center">3,958</td>
+								<td align="center">3,928</td>
+							</tr>
+							<tr>
+								<td>Q5</td>
+								<td align="center">4,557</td>
+								<td align="center">4,449</td>
+								<td align="center">4,342</td>
+								<td align="center">4,134</td>
+								<td align="center">4,013</td>
+								<td align="center">3,919</td>
+							</tr>
+							<tr>
+								<td>p value for linear trend</td>
+								<td align="center">0.014</td>
+								<td align="center">0.338</td>
+								<td align="center">0.618</td>
+								<td align="center">&lt; 0.001</td>
+								<td align="center">0.001</td>
+								<td align="center">0.282</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN8">
+							<p><sup>a</sup> Adjusted for sex, age, education, income, and country’s region.</p>
+						</fn>
+						<fn id="TFN9">
+							<p><sup>b</sup> Adjusted additionally for total energy intake.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>In the crude model, the dietary contribution of ultra-processed foods showed a linear significant association with the diet carbon and water footprints. In the model adjusted for potential confounders (gender, age, income, education, region of residence), only the association with water footprint remained significant. From the bottom quintile to the top quintile of the dietary contribution of ultra-processed foods, the diet water footprint increased by 10.1% (from 3,644 to 4,013 L/person-day).</p>
+			<p>In the model adjusted additionally for total energy intake, the association between the dietary contribution of ultra-processed foods and the diet water footprint was no longer significant. This indicates that the dietary contribution of ultra-processed foods increases the diet water footprint by increasing energy intake.</p>
+		</sec>
+		<sec sec-type="discussion">
+			<title>DISCUSSION</title>
+			<p>Based on the analysis of data collected by two 24-hour food records in a probabilistic sample of the Brazilian population aged 10 years and over (n = 32,886), we found a significant linear association between the dietary contribution of the ultra-processed food group and the diet water footprint, even after adjusting for potential sociodemographic confounders. As far as we know, this is the first nationally representative study to show a negative environmental effect of consuming ultra-processed foods. The same linear association shown for the diet carbon footprint in the crude analysis was no longer significant after adjusting for the same sociodemographic variables.</p>
+			<p>Our results also showed that the additional adjustment for energy intake eliminated the association between the dietary contribution of ultra-processed foods and the diet water footprint, indicating the mediating role of total energy intake in that association.</p>
+			<p>The dietary contribution of ultra-processed foods was positively associated with the diet water footprint despite the lower water footprint of ultra-processed foods. This smaller footprint, apparently due to the smaller share of the meat subgroup in the ultra-processed group, failed to compensate for the higher total energy intake associated with the consumption of these foods. In any case, our results have shown that the association between the consumption of ultra-processed foods and diet environmental footprints cannot be predicted solely by comparing coefficients of the environmental impact of ultra-processed and non-ultra-processed foods, as it is sometimes done<sup><xref ref-type="bibr" rid="B25">25</xref></sup>.</p>
+			<p>Although we only evaluated two dimensions of the diet environmental impact in our study, the evidence that the consumption of ultra-processed foods increases the diet water footprint in Brazil, remaining neutral regarding the carbon footprint, adds to the evidence showing the negative effects of ultra-processed foods on the quality of the Brazilian diet<sup><xref ref-type="bibr" rid="B26">26</xref></sup> and on the risk of several non-communicable diseases in the Brazilian population<sup><xref ref-type="bibr" rid="B27">27</xref></sup>. This reinforces the recommendation of the Brazilian Dietary Guidelines to avoid the consumption of ultra-processed foods<sup><xref ref-type="bibr" rid="B10">10</xref></sup>.</p>
+			<p>Given that the impact of the dietary contribution of ultra-processed food on diet environmental footprints depends on the footprints per energy of the ultra-processed and non-ultra-processed fractions of the diet, which, in turn, depend on the profile of ultra-processed and non-ultra-processed foods consumed by the population, the results of our study cannot be extrapolated to countries with considerably different dietary patterns to those of Brazil.</p>
+			<p>As indicated in our study, the proportion of meat products in the ultra-processed fraction of the diet is particularly important: when this proportion is lower than that observed in the non-ultra-processed fraction, as in the Brazilian diet, increases in the dietary share of ultra-processed foods are less likely to increase the diet environmental footprints. Another relevant factor is the relationship between the consumption of ultra-processed foods and the total energy intake: when this relationship is positive, as in the Brazilian diet and often observed in other countries’ diets<sup><xref ref-type="bibr" rid="B6">6</xref></sup>, increases in the dietary share of ultra-processed foods are likely to increase dietary environmental footprints. Thus, carrying out new studies on the effects of ultra-processed foods on dietary environmental footprints in countries with dietary patterns different from Brazil, in particular those with the highest consumption of ultra-processed foods, is important. Studies should also be carried out in countries that have already adopted the recommendation to limit or to avoid the consumption of ultra-processed foods in their dietary guidelines<sup><xref ref-type="bibr" rid="B10">10</xref></sup>, or are considering doing so.</p>
+			<p>A strength of our study is the assessment of the environmental impact of ultra-processed foods as actually consumed by the population. We were able to consider the mix of varieties of ultra-processed foods that are part of the diet, changes in this mix with variations in the dietary contribution of ultra-processed foods, and simultaneous changes in the varieties of non-ultra-processed foods. Other strengths are the representative sample of the population, the objective measurement of the participants’ diet based on two 24-hour food records, and the use of environmental impact coefficients that consider the entire life cycle of foods, from ‘farm to fork’.</p>
+			<p>A limitation is the assessment of only two environmental footprints of diet, not including, for example, impact on agrobiodiversity and the generation of solid waste from packaging. Also, the table of environmental impact coefficients used in the study, includes estimates from studies carried out in countries other than Brazil, and reports prepared by the industry, and not from independent studies.</p>
+		</sec>
+		<sec sec-type="conclusions">
+			<title>CONCLUSION</title>
+			<p>The negative impact of ultra-processed foods on the diet water footprint shown for the first time in this study adds to the negative impacts of these foods, already demonstrated regarding dietary nutrient profiles and the risk for several chronic non-communicable diseases. This reinforces the recommendation to avoid these foods made in the official Brazilian Dietary Guidelines and increasingly in the dietary guidelines of other countries.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>REFERENCES</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. Béné C, Prager SD, Achicanoy HAE, Alvarez Toro P, Lamotte L, Bonilla Cedrez C, et al. Understanding food systems drivers: a critical review of the literature. Glob Food Sec. 2019;23(4):149-59. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.gfs.2019.04.009">https://doi.org/10.1016/j.gfs.2019.04.009</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Béné</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Prager</surname>
+							<given-names>SD</given-names>
+						</name>
+						<name>
+							<surname>Achicanoy</surname>
+							<given-names>HAE</given-names>
+						</name>
+						<name>
+							<surname>Alvarez Toro</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Lamotte</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Bonilla Cedrez</surname>
+							<given-names>C</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Understanding food systems drivers: a critical review of the literature</article-title>
+					<source>Glob Food Sec</source>
+					<year>2019</year>
+					<volume>23</volume>
+					<issue>4</issue>
+					<fpage>149</fpage>
+					<lpage>159</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.gfs.2019.04.009">https://doi.org/10.1016/j.gfs.2019.04.009</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. Monteiro CA, Moubarac JC, Cannon G, Ng SW, Popkin B. Ultra-processed products are becoming dominant in the global food system. Obes Rev. 2013;14 Suppl 2:21-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/obr.12107">https://doi.org/10.1111/obr.12107</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Monteiro</surname>
+							<given-names>CA</given-names>
+						</name>
+						<name>
+							<surname>Moubarac</surname>
+							<given-names>JC</given-names>
+						</name>
+						<name>
+							<surname>Cannon</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Ng</surname>
+							<given-names>SW</given-names>
+						</name>
+						<name>
+							<surname>Popkin</surname>
+							<given-names>B</given-names>
+						</name>
+					</person-group>
+					<article-title>Ultra-processed products are becoming dominant in the global food system</article-title>
+					<source>Obes Rev</source>
+					<year>2013</year>
+					<volume>14</volume>
+					<supplement>Suppl 2</supplement>
+					<fpage>21</fpage>
+					<lpage>28</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/obr.12107">https://doi.org/10.1111/obr.12107</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. Martins APB, Levy RB, Claro RM, Moubarac JC, Monteiro CA. Increased contribution of ultra-processed food products in the Brazilian diet (1987-2009). Rev Saude Publica. 2013;47(4):656-65. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0034-8910.2013047004968">https://doi.org/10.1590/S0034-8910.2013047004968</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Martins</surname>
+							<given-names>APB</given-names>
+						</name>
+						<name>
+							<surname>Levy</surname>
+							<given-names>RB</given-names>
+						</name>
+						<name>
+							<surname>Claro</surname>
+							<given-names>RM</given-names>
+						</name>
+						<name>
+							<surname>Moubarac</surname>
+							<given-names>JC</given-names>
+						</name>
+						<name>
+							<surname>Monteiro</surname>
+							<given-names>CA</given-names>
+						</name>
+					</person-group>
+					<article-title>Increased contribution of ultra-processed food products in the Brazilian diet (1987-2009)</article-title>
+					<source>Rev Saude Publica</source>
+					<year>2013</year>
+					<volume>47</volume>
+					<issue>4</issue>
+					<fpage>656</fpage>
+					<lpage>665</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0034-8910.2013047004968">https://doi.org/10.1590/S0034-8910.2013047004968</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. Monteiro CA, Cannon G, Moubarac JC, Levy RB, Louzada MLC, Jaime PC. The UN Decade of Nutrition, the NOVA food classification and the trouble with ultra-processing. Public Health Nutr. 2018;21(1):5-17. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1017/S1368980017000234">https://doi.org/10.1017/S1368980017000234</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Monteiro</surname>
+							<given-names>CA</given-names>
+						</name>
+						<name>
+							<surname>Cannon</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Moubarac</surname>
+							<given-names>JC</given-names>
+						</name>
+						<name>
+							<surname>Levy</surname>
+							<given-names>RB</given-names>
+						</name>
+						<name>
+							<surname>Louzada</surname>
+							<given-names>MLC</given-names>
+						</name>
+						<name>
+							<surname>Jaime</surname>
+							<given-names>PC</given-names>
+						</name>
+					</person-group>
+					<article-title>The UN Decade of Nutrition, the NOVA food classification and the trouble with ultra-processing</article-title>
+					<source>Public Health Nutr</source>
+					<year>2018</year>
+					<volume>21</volume>
+					<issue>1</issue>
+					<fpage>5</fpage>
+					<lpage>17</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1017/S1368980017000234">https://doi.org/10.1017/S1368980017000234</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Monteiro CA, Cannon G, Levy RB, Moubarac JC, Louzada MLC, Rauber F, et al. Ultra-processed foods: what they are and how to identify them. Public Health Nutr. 2019;22(5);936-41. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1017/S1368980018003762">https://doi.org/10.1017/S1368980018003762</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Monteiro</surname>
+							<given-names>CA</given-names>
+						</name>
+						<name>
+							<surname>Cannon</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Levy</surname>
+							<given-names>RB</given-names>
+						</name>
+						<name>
+							<surname>Moubarac</surname>
+							<given-names>JC</given-names>
+						</name>
+						<name>
+							<surname>Louzada</surname>
+							<given-names>MLC</given-names>
+						</name>
+						<name>
+							<surname>Rauber</surname>
+							<given-names>F</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Ultra-processed foods: what they are and how to identify them</article-title>
+					<source>Public Health Nutr</source>
+					<year>2019</year>
+					<volume>22</volume>
+					<issue>5</issue>
+					<fpage>936</fpage>
+					<lpage>941</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1017/S1368980018003762">https://doi.org/10.1017/S1368980018003762</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. Martini D, Godos J, Bonaccio M, Vitaglione P, Grosso G. Ultra-processed foods and nutritional dietary profile: a meta-analysis of nationally representative samples. Nutrients. 2021;13(10):3390. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3390/nu13103390">https://doi.org/10.3390/nu13103390</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Martini</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Godos</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Bonaccio</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Vitaglione</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Grosso</surname>
+							<given-names>G</given-names>
+						</name>
+					</person-group>
+					<article-title>Ultra-processed foods and nutritional dietary profile: a meta-analysis of nationally representative samples</article-title>
+					<source>Nutrients</source>
+					<year>2021</year>
+					<volume>13</volume>
+					<issue>10</issue>
+					<fpage>3390</fpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3390/nu13103390">https://doi.org/10.3390/nu13103390</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. Pagliai G, Dinu M, Madarena MP, Bonaccio M, Iacoviello L, Sofi F. Consumption of ultra-processed foods and health status: a systematic review and meta-analysis. Br J Nutr. 2021;125(3):308-18. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1017/S0007114520002688">https://doi.org/10.1017/S0007114520002688</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pagliai</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Dinu</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Madarena</surname>
+							<given-names>MP</given-names>
+						</name>
+						<name>
+							<surname>Bonaccio</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Iacoviello</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Sofi</surname>
+							<given-names>F</given-names>
+						</name>
+					</person-group>
+					<article-title>Consumption of ultra-processed foods and health status: a systematic review and meta-analysis</article-title>
+					<source>Br J Nutr</source>
+					<year>2021</year>
+					<volume>125</volume>
+					<issue>3</issue>
+					<fpage>308</fpage>
+					<lpage>318</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1017/S0007114520002688">https://doi.org/10.1017/S0007114520002688</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Delpino FM, Figueiredo LM, Bielemann RM, Silva BGC, Santos FS, Mintem GC, et al. Ultra-processed food and risk of type 2 diabetes: a systematic review and meta-analysis of longitudinal studies. Int J Epidemiol 2021:dyab247. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/ije/dyab247">https://doi.org/10.1093/ije/dyab247</ext-link>. Epub ahead of print.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Delpino</surname>
+							<given-names>FM</given-names>
+						</name>
+						<name>
+							<surname>Figueiredo</surname>
+							<given-names>LM</given-names>
+						</name>
+						<name>
+							<surname>Bielemann</surname>
+							<given-names>RM</given-names>
+						</name>
+						<name>
+							<surname>Silva</surname>
+							<given-names>BGC</given-names>
+						</name>
+						<name>
+							<surname>Santos</surname>
+							<given-names>FS</given-names>
+						</name>
+						<name>
+							<surname>Mintem</surname>
+							<given-names>GC</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Ultra-processed food and risk of type 2 diabetes: a systematic review and meta-analysis of longitudinal studies</article-title>
+					<source>Int J Epidemiol</source>
+					<year>2021</year>
+					<size units="pages">dyab247</size>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/ije/dyab247">https://doi.org/10.1093/ije/dyab247</ext-link>
+					<comment>Epub ahead of print</comment>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. Suksatan W, Moradi S, Naeini F, Bagheri R, Mohammadi H, Talebi S, et al. Ultra-processed food consumption and adult mortality risk: a systematic review and dose–response meta-analysis of 207,291 participants. Nutrients. 2022;14(1):174. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3390/nu14010174">https://doi.org/10.3390/nu14010174</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Suksatan</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Moradi</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Naeini</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Bagheri</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Mohammadi</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Talebi</surname>
+							<given-names>S</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Ultra-processed food consumption and adult mortality risk: a systematic review and dose–response meta-analysis of 207,291 participants</article-title>
+					<source>Nutrients</source>
+					<year>2022</year>
+					<volume>14</volume>
+					<issue>1</issue>
+					<fpage>174</fpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3390/nu14010174">https://doi.org/10.3390/nu14010174</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. Ministry of Health (BR), Secretariat of Health Care, Primary Health Care Department. Dietary guidelines for the Brazilian population. Brasília, DF; 2014 [cited 2022 Jan 1]. Available from: <ext-link ext-link-type="uri" xlink:href="https://bvsms.saude.gov.br/bvs/publicacoes/dietary_guidelines_brazilian_population.pdf">https://bvsms.saude.gov.br/bvs/publicacoes/dietary_guidelines_brazilian_population.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>Ministry of Health (BR)</collab>
+						<collab>Secretariat of Health Care</collab>
+						<collab>Primary Health Care Department</collab>
+					</person-group>
+					<source>Dietary guidelines for the Brazilian population</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<year>2014</year>
+					<date-in-citation content-type="cited-date">cited 2022 Jan 1</date-in-citation>
+					<ext-link ext-link-type="uri" xlink:href="https://bvsms.saude.gov.br/bvs/publicacoes/dietary_guidelines_brazilian_population.pdf">https://bvsms.saude.gov.br/bvs/publicacoes/dietary_guidelines_brazilian_population.pdf</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. Food and Agriculture Organization of the United Nations. Food-based dietary guidelines. Regions. Rome (IT): FAO; c2022 [cited 2022 Jan 1]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.fao.org/nutrition/education/food-dietary-guidelines/regions/en/">https://www.fao.org/nutrition/education/food-dietary-guidelines/regions/en/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>Food and Agriculture Organization of the United Nations</collab>
+					</person-group>
+					<source>Food-based dietary guidelines. Regions</source>
+					<publisher-loc>Rome (IT)</publisher-loc>
+					<publisher-name>FAO</publisher-name>
+					<year>c2022</year>
+					<date-in-citation content-type="cited-date">cited 2022 Jan 1</date-in-citation>
+					<ext-link ext-link-type="uri" xlink:href="https://www.fao.org/nutrition/education/food-dietary-guidelines/regions/en/">https://www.fao.org/nutrition/education/food-dietary-guidelines/regions/en/</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. Le Haut Conseil de la Santé Publique (FR). Avis: relatif aux objectifs de Santé Publique quantifiés pour la Politique Nutritionnelle de Santé Publique (PNNS) 2018-2022. Paris (FR): HCSP; 2018 [cited 2022 Jan 1]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.hcsp.fr/Explore.cgi/Telecharger?NomFichier=hcspa20180209_avisrelaauxobjequanpourlapolinut.pdf">https://www.hcsp.fr/Explore.cgi/Telecharger?NomFichier=hcspa20180209_avisrelaauxobjequanpourlapolinut.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>Le Haut Conseil de la Santé Publique (FR)</collab>
+					</person-group>
+					<source>Avis: relatif aux objectifs de Santé Publique quantifiés pour la Politique Nutritionnelle de Santé Publique (PNNS) 2018-2022</source>
+					<publisher-loc>Paris (FR)</publisher-loc>
+					<publisher-name>HCSP</publisher-name>
+					<year>2018</year>
+					<date-in-citation content-type="cited-date">cited 2022 Jan 1</date-in-citation>
+					<ext-link ext-link-type="uri" xlink:href="https://www.hcsp.fr/Explore.cgi/Telecharger?NomFichier=hcspa20180209_avisrelaauxobjequanpourlapolinut.pdf">https://www.hcsp.fr/Explore.cgi/Telecharger?NomFichier=hcspa20180209_avisrelaauxobjequanpourlapolinut.pdf</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. Ministry of Health (IL). Nutritional recommendations. Jerusalem (IL); 2019 [cited 2022 Jan 1]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.health.gov.il/PublicationsFiles/dietary%20guidelines%20EN.pdf">https://www.health.gov.il/PublicationsFiles/dietary%20guidelines%20EN.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>Ministry of Health (IL)</collab>
+					</person-group>
+					<source>Nutritional recommendations</source>
+					<publisher-loc>Jerusalem (IL)</publisher-loc>
+					<year>2019</year>
+					<date-in-citation content-type="cited-date">cited 2022 Jan 1</date-in-citation>
+					<ext-link ext-link-type="uri" xlink:href="https://www.health.gov.il/PublicationsFiles/dietary%20guidelines%20EN.pdf">https://www.health.gov.il/PublicationsFiles/dietary%20guidelines%20EN.pdf</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. Ministry of Health (MY). Malaysian dietary guidelines. Kuala Lampur (MY): National Coordinating Committee on Food and Nutrition; 2020 [cited 2022 Jan 1]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.moh.gov.my/index.php/pages/view/227">https://www.moh.gov.my/index.php/pages/view/227</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>Ministry of Health (MY)</collab>
+					</person-group>
+					<source>Malaysian dietary guidelines</source>
+					<publisher-loc>Kuala Lampur (MY)</publisher-loc>
+					<publisher-name>National Coordinating Committee on Food and Nutrition</publisher-name>
+					<year>2020</year>
+					<date-in-citation content-type="cited-date">cited 2022 Jan 1</date-in-citation>
+					<ext-link ext-link-type="uri" xlink:href="https://www.moh.gov.my/index.php/pages/view/227">https://www.moh.gov.my/index.php/pages/view/227</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. Fardet A, Rock E. Ultra-processed foods and food system sustainability: what are the links? Sustainability. 2020;12(15):6280. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3390/su12156280">https://doi.org/10.3390/su12156280</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Fardet</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Rock</surname>
+							<given-names>E</given-names>
+						</name>
+					</person-group>
+					<article-title>Ultra-processed foods and food system sustainability: what are the links?</article-title>
+					<source>Sustainability</source>
+					<year>2020</year>
+					<volume>12</volume>
+					<issue>15</issue>
+					<fpage>6280</fpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3390/su12156280">https://doi.org/10.3390/su12156280</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. Seferidi P, Scrinis G, Huybrechts I, Woods J, Vineis P, Millett C. The neglected environmental impacts of ultra-processed foods. Lancet Planet Health. 2020;4(10):e437-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S2542-5196(20)30177-7">https://doi.org/10.1016/S2542-5196(20)30177-7</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Seferidi</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Scrinis</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Huybrechts</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Woods</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Vineis</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Millett</surname>
+							<given-names>C</given-names>
+						</name>
+					</person-group>
+					<article-title>The neglected environmental impacts of ultra-processed foods</article-title>
+					<source>Lancet Planet Health</source>
+					<year>2020</year>
+					<volume>4</volume>
+					<issue>10</issue>
+					<fpage>e437</fpage>
+					<lpage>e438</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S2542-5196(20)30177-7">https://doi.org/10.1016/S2542-5196(20)30177-7</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Schmidt Rivera XC, Espinoza Orias N, Azapagic A. Life cycle environmental impacts of convenience food: comparison of ready and home-made meals. J. Clean Prod. 2014;73:294-309. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jclepro.2014.01.008">https://doi.org/10.1016/j.jclepro.2014.01.008</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Schmidt Rivera</surname>
+							<given-names>XC</given-names>
+						</name>
+						<name>
+							<surname>Espinoza Orias</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Azapagic</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Life cycle environmental impacts of convenience food: comparison of ready and home-made meals</article-title>
+					<source>J. Clean Prod</source>
+					<year>2014</year>
+					<volume>73</volume>
+					<fpage>294</fpage>
+					<lpage>309</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jclepro.2014.01.008">https://doi.org/10.1016/j.jclepro.2014.01.008</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18. Hadjikakou M. Trimming the excess: environmental impacts of discretionary food consumption in Australia. Ecol Econ. 2017;131:119-28. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ecolecon.2016.08.006">https://doi.org/10.1016/j.ecolecon.2016.08.006</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hadjikakou</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>Trimming the excess: environmental impacts of discretionary food consumption in Australia</article-title>
+					<source>Ecol Econ</source>
+					<year>2017</year>
+					<volume>131</volume>
+					<fpage>119</fpage>
+					<lpage>128</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ecolecon.2016.08.006">https://doi.org/10.1016/j.ecolecon.2016.08.006</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19. Silva JT, Garzillo JMF, Rauber F, Kluczkovski A, Rivera XS, Cruz GL, et al. Greenhouse gas emissions, water footprint, and ecological footprint of food purchases according to their degree of processing in Brazilian metropolitan areas: a time-series study from 1987 to 2018. Lancet Planet Health. 2021;5(11): E775-85. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S2542-5196(21)00254-0">https://doi.org/10.1016/S2542-5196(21)00254-0</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Silva</surname>
+							<given-names>JT</given-names>
+						</name>
+						<name>
+							<surname>Garzillo</surname>
+							<given-names>JMF</given-names>
+						</name>
+						<name>
+							<surname>Rauber</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Kluczkovski</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Rivera</surname>
+							<given-names>XS</given-names>
+						</name>
+						<name>
+							<surname>Cruz</surname>
+							<given-names>GL</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Greenhouse gas emissions, water footprint, and ecological footprint of food purchases according to their degree of processing in Brazilian metropolitan areas: a time-series study from 1987 to 2018</article-title>
+					<source>Lancet Planet Health</source>
+					<year>2021</year>
+					<volume>5</volume>
+					<issue>11</issue>
+					<fpage>E775</fpage>
+					<lpage>E785</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S2542-5196(21)00254-0">https://doi.org/10.1016/S2542-5196(21)00254-0</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20. Garzillo JMF, Machado PP, Leite FHM, Steele EM, Poli VFS, Louzada MLC, et al. Carbon footprint of the Brazilian diet. Rev Saude Publica. 2021;55:90. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.11606/s1518-8787.2021055003614">https://doi.org/10.11606/s1518-8787.2021055003614</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Garzillo</surname>
+							<given-names>JMF</given-names>
+						</name>
+						<name>
+							<surname>Machado</surname>
+							<given-names>PP</given-names>
+						</name>
+						<name>
+							<surname>Leite</surname>
+							<given-names>FHM</given-names>
+						</name>
+						<name>
+							<surname>Steele</surname>
+							<given-names>EM</given-names>
+						</name>
+						<name>
+							<surname>Poli</surname>
+							<given-names>VFS</given-names>
+						</name>
+						<name>
+							<surname>Louzada</surname>
+							<given-names>MLC</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Carbon footprint of the Brazilian diet</article-title>
+					<source>Rev Saude Publica</source>
+					<year>2021</year>
+					<volume>55</volume>
+					<fpage>90</fpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.11606/s1518-8787.2021055003614">https://doi.org/10.11606/s1518-8787.2021055003614</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>21. Instituto Brasileiro de Geografia e Estatística, Diretoria de Pesquisas, Coordenação de Trabalho e Rendimento. Pesquisa de Orçamentos Familiares 2008–2009: análise do consumo alimentar pessoal no Brasil. Rio de Janeiro: IBGE; 2011 [cited 2022 Jan 1]. Available from: <ext-link ext-link-type="uri" xlink:href="https://biblioteca.ibge.gov.br/visualizacao/livros/liv50063.pdf">https://biblioteca.ibge.gov.br/visualizacao/livros/liv50063.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>Instituto Brasileiro de Geografia e Estatística</collab>
+						<collab>Diretoria de Pesquisas</collab>
+						<collab>Coordenação de Trabalho e Rendimento</collab>
+					</person-group>
+					<source>Pesquisa de Orçamentos Familiares 2008–2009: análise do consumo alimentar pessoal no Brasil</source>
+					<publisher-loc>Rio de Janeiro</publisher-loc>
+					<publisher-name>IBGE</publisher-name>
+					<year>2011</year>
+					<date-in-citation content-type="cited-date">cited 2022 Jan 1</date-in-citation>
+					<ext-link ext-link-type="uri" xlink:href="https://biblioteca.ibge.gov.br/visualizacao/livros/liv50063.pdf">https://biblioteca.ibge.gov.br/visualizacao/livros/liv50063.pdf</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>22. Garzillo JMF, Machado PP, Louzada MLC, Levy RB, Monteiro, CA. Footprints of foods and culinary preparations consumed in Brazil. Morimura GS, translator. São Paulo, SP: Faculdade de Saúde Pública da USP; 2019 [cited 2022 Jan 1]. Available from: <ext-link ext-link-type="uri" xlink:href="http://www.livrosabertos.sibi.usp.br/portaldelivrosUSP/catalog/view/442/394/1603">http://www.livrosabertos.sibi.usp.br/portaldelivrosUSP/catalog/view/442/394/1603</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Garzillo</surname>
+							<given-names>JMF</given-names>
+						</name>
+						<name>
+							<surname>Machado</surname>
+							<given-names>PP</given-names>
+						</name>
+						<name>
+							<surname>Louzada</surname>
+							<given-names>MLC</given-names>
+						</name>
+						<name>
+							<surname>Levy</surname>
+							<given-names>RB</given-names>
+						</name>
+						<name>
+							<surname>Monteiro</surname>
+							<given-names>CA</given-names>
+						</name>
+					</person-group>
+					<source>Footprints of foods and culinary preparations consumed in Brazil</source>
+					<person-group person-group-type="translator">
+						<name>
+							<surname>Morimura</surname>
+							<given-names>GS</given-names>
+						</name>
+						<role>translator</role>
+					</person-group>
+					<publisher-loc>São Paulo, SP</publisher-loc>
+					<publisher-name>Faculdade de Saúde Pública da USP</publisher-name>
+					<year>2019</year>
+					<date-in-citation content-type="cited-date">cited 2022 Jan 1</date-in-citation>
+					<ext-link ext-link-type="uri" xlink:href="http://www.livrosabertos.sibi.usp.br/portaldelivrosUSP/catalog/view/442/394/1603">http://www.livrosabertos.sibi.usp.br/portaldelivrosUSP/catalog/view/442/394/1603</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>23. Instituto Brasileiro de Geografia e Estatística, Diretoria de Pesquisas, Coordenação de Trabalho e Rendimento. Pesquisa de Orçamentos Familiares 2008–2009: tabela de medidas referidas para os alimentos consumidos no Brasil. Rio de Janeiro: IBGE; 2011 [cited 2022 Jan 1]. <ext-link ext-link-type="uri" xlink:href="https://biblioteca.ibge.gov.br/visualizacao/livros/liv50000.pdf">https://biblioteca.ibge.gov.br/visualizacao/livros/liv50000.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Instituto Brasileiro de Geografia e Estatística</collab>
+						<collab>Diretoria de Pesquisas</collab>
+						<collab>Coordenação de Trabalho e Rendimento</collab>
+					</person-group>
+					<source>Pesquisa de Orçamentos Familiares 2008–2009: tabela de medidas referidas para os alimentos consumidos no Brasil</source>
+					<publisher-loc>Rio de Janeiro</publisher-loc>
+					<publisher-name>IBGE</publisher-name>
+					<year>2011</year>
+					<date-in-citation content-type="cited-date">cited 2022 Jan 1</date-in-citation>
+					<ext-link ext-link-type="uri" xlink:href="https://biblioteca.ibge.gov.br/visualizacao/livros/liv50000.pdf">https://biblioteca.ibge.gov.br/visualizacao/livros/liv50000.pdf</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>24. Instituto Brasileiro de Geografia e Estatística, Diretoria de Pesquisas, Coordenação de Trabalho e Rendimento. Pesquisa de Orçamentos Familiares 2008–2009: tabelas de composição nutricional dos alimentos consumidos no Brasil. Rio de Janeiro: IBGE; 2011 [cited 2022 Jan 1]. Available from: <ext-link ext-link-type="uri" xlink:href="https://biblioteca.ibge.gov.br/visualizacao/livros/liv50002.pdf">https://biblioteca.ibge.gov.br/visualizacao/livros/liv50002.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>Instituto Brasileiro de Geografia e Estatística</collab>
+						<collab>Diretoria de Pesquisas</collab>
+						<collab>Coordenação de Trabalho e Rendimento</collab>
+					</person-group>
+					<source>Pesquisa de Orçamentos Familiares 2008–2009: tabelas de composição nutricional dos alimentos consumidos no Brasil</source>
+					<publisher-loc>Rio de Janeiro</publisher-loc>
+					<publisher-name>IBGE</publisher-name>
+					<year>2011</year>
+					<date-in-citation content-type="cited-date">cited 2022 Jan 1</date-in-citation>
+					<ext-link ext-link-type="uri" xlink:href="https://biblioteca.ibge.gov.br/visualizacao/livros/liv50002.pdf">https://biblioteca.ibge.gov.br/visualizacao/livros/liv50002.pdf</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>25. Brown J. The truth about processed foods’ environmental impact. BBC Future. 17 Jun 2021 [cited 2022 Jan 1]; Section Beyond Natural: Food. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.bbc.com/future/article/20210617-the-truth-about-processed-foods-environmental-impact">https://www.bbc.com/future/article/20210617-the-truth-about-processed-foods-environmental-impact</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Brown</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<chapter-title>The truth about processed foods’ environmental impact</chapter-title>
+					<source>BBC Future</source>
+					<day>17</day>
+					<month>06</month>
+					<year>2021</year>
+					<date-in-citation content-type="cited-date">cited 2022 Jan 1</date-in-citation>
+					<publisher-name>Section Beyond Natural: Food</publisher-name>
+					<ext-link ext-link-type="uri" xlink:href="https://www.bbc.com/future/article/20210617-the-truth-about-processed-foods-environmental-impact">https://www.bbc.com/future/article/20210617-the-truth-about-processed-foods-environmental-impact</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation>26. Louzada MLC, Ricardo CZ, Martinez-Steele E, Levy RB, Cannon G, Monteiro CA. The share of ultra-processed foods determines the overall nutritional quality of diets in Brazil. Public Health Nutr. 2018;21(1):94-102. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1017/S1368980017001434">https://doi.org/10.1017/S1368980017001434</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Louzada</surname>
+							<given-names>MLC</given-names>
+						</name>
+						<name>
+							<surname>Ricardo</surname>
+							<given-names>CZ</given-names>
+						</name>
+						<name>
+							<surname>Martinez-Steele</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Levy</surname>
+							<given-names>RB</given-names>
+						</name>
+						<name>
+							<surname>Cannon</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Monteiro</surname>
+							<given-names>CA</given-names>
+						</name>
+					</person-group>
+					<article-title>The share of ultra-processed foods determines the overall nutritional quality of diets in Brazil</article-title>
+					<source>Public Health Nutr</source>
+					<year>2018</year>
+					<volume>21</volume>
+					<issue>1</issue>
+					<fpage>94</fpage>
+					<lpage>102</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1017/S1368980017001434">https://doi.org/10.1017/S1368980017001434</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<mixed-citation>27. Louzada MLC, Baraldi GL, Martinez-Steele E, Martins AP, Canella DS, Moubarac JC, et al. Consumption of ultra-processed foods and obesity in Brazilian adolescents and adults. Prev Med. 2015;81:9-15. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ypmed.2015.07.018">https://doi.org/10.1016/j.ypmed.2015.07.018</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Louzada</surname>
+							<given-names>MLC</given-names>
+						</name>
+						<name>
+							<surname>Baraldi</surname>
+							<given-names>GL</given-names>
+						</name>
+						<name>
+							<surname>Martinez-Steele</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Martins</surname>
+							<given-names>AP</given-names>
+						</name>
+						<name>
+							<surname>Canella</surname>
+							<given-names>DS</given-names>
+						</name>
+						<name>
+							<surname>Moubarac</surname>
+							<given-names>JC</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Consumption of ultra-processed foods and obesity in Brazilian adolescents and adults</article-title>
+					<source>Prev Med</source>
+					<year>2015</year>
+					<volume>81</volume>
+					<fpage>9</fpage>
+					<lpage>15</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ypmed.2015.07.018">https://doi.org/10.1016/j.ypmed.2015.07.018</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<mixed-citation>28. Canhada SL, Luft VC, Giatti L, Duncan BB, Chor D, Fonseca MJM, et al. Ultra-processed foods, incident overweight and obesity, and longitudinal changes in weight and waist circumference: the Brazilian Longitudinal Study of Adult Health (ELSA-Brasil). Public Health Nutr. 2020;23(6):1076-86. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1017/S1368980019002854">https://doi.org/10.1017/S1368980019002854</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Canhada</surname>
+							<given-names>SL</given-names>
+						</name>
+						<name>
+							<surname>Luft</surname>
+							<given-names>VC</given-names>
+						</name>
+						<name>
+							<surname>Giatti</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Duncan</surname>
+							<given-names>BB</given-names>
+						</name>
+						<name>
+							<surname>Chor</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Fonseca</surname>
+							<given-names>MJM</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Ultra-processed foods, incident overweight and obesity, and longitudinal changes in weight and waist circumference: the Brazilian Longitudinal Study of Adult Health (ELSA-Brasil)</article-title>
+					<source>Public Health Nutr</source>
+					<year>2020</year>
+					<volume>23</volume>
+					<issue>6</issue>
+					<fpage>1076</fpage>
+					<lpage>1086</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1017/S1368980019002854">https://doi.org/10.1017/S1368980019002854</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B29">
+				<label>29</label>
+				<mixed-citation>29. Scaranni POS, Cardoso LO, Chor D, Melo ECP, Matos SMA, Giatti L, et al. Ultra-processed foods, changes in blood pressure and incidence of hypertension: the Brazilian Longitudinal Study of Adult Health (ELSA-Brasil). Public Health Nutr. 2021;24(11):3352-60. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1017/S136898002100094X">https://doi.org/10.1017/S136898002100094X</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Scaranni</surname>
+							<given-names>POS</given-names>
+						</name>
+						<name>
+							<surname>Cardoso</surname>
+							<given-names>LO</given-names>
+						</name>
+						<name>
+							<surname>Chor</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Melo</surname>
+							<given-names>ECP</given-names>
+						</name>
+						<name>
+							<surname>Matos</surname>
+							<given-names>SMA</given-names>
+						</name>
+						<name>
+							<surname>Giatti</surname>
+							<given-names>L</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Ultra-processed foods, changes in blood pressure and incidence of hypertension: the Brazilian Longitudinal Study of Adult Health (ELSA-Brasil)</article-title>
+					<source>Public Health Nutr</source>
+					<year>2021</year>
+					<volume>24</volume>
+					<issue>11</issue>
+					<fpage>3352</fpage>
+					<lpage>3360</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1017/S136898002100094X">https://doi.org/10.1017/S136898002100094X</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B30">
+				<label>30</label>
+				<mixed-citation>30. Rauber F, Campagnolo PDB, Hoffman DJ, Vitolo MR. Consumption of ultra-processed food products and its effects on children’s lipid profiles: a longitudinal study. Nutr Metab Cardiovasc Dis. 2015;25(1):116-22. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.numecd.2014.08.001">https://doi.org/10.1016/j.numecd.2014.08.001</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rauber</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Campagnolo</surname>
+							<given-names>PDB</given-names>
+						</name>
+						<name>
+							<surname>Hoffman</surname>
+							<given-names>DJ</given-names>
+						</name>
+						<name>
+							<surname>Vitolo</surname>
+							<given-names>MR</given-names>
+						</name>
+					</person-group>
+					<article-title>Consumption of ultra-processed food products and its effects on children’s lipid profiles: a longitudinal study</article-title>
+					<source>Nutr Metab Cardiovasc Dis</source>
+					<year>2015</year>
+					<volume>25</volume>
+					<issue>1</issue>
+					<fpage>116</fpage>
+					<lpage>122</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.numecd.2014.08.001">https://doi.org/10.1016/j.numecd.2014.08.001</ext-link>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="financial-disclosure">
+				<p><bold>Funding:</bold> Climate and Land Use Alliance (CLUA - Fundação Faculdade de Medicina - Grant Number: G-1910-56390, December 2019 to May 2022); CLUA does not necessarily share the positions expressed in this publication.</p>
+			</fn>
+		</fn-group>
+	</back>
+</article>

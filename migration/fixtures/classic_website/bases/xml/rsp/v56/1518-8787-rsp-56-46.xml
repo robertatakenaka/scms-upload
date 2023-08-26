@@ -1,0 +1,1669 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.1" specific-use="sps-1.9" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="nlm-ta">Rev Saude Publica</journal-id>
+			<journal-id journal-id-type="publisher-id">rsp</journal-id>
+			<journal-title-group>
+				<journal-title>Revista de Saúde Pública</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Rev. Saúde Pública</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="ppub">0034-8910</issn>
+			<issn pub-type="epub">1518-8787</issn>
+			<publisher>
+				<publisher-name>Faculdade de Saúde Pública da Universidade de São Paulo</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="other">00237</article-id>
+			<article-id pub-id-type="doi">10.11606/s1518-8787.2022056004324</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Original Article</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Ambient air pollutants relate to hospital admissions for chronic obstructive pulmonary disease in Ganzhou, China</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-9218-2945</contrib-id>
+					<name>
+						<surname>Zhou</surname>
+						<given-names>Xingye</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-2199-2398</contrib-id>
+					<name>
+						<surname>Li</surname>
+						<given-names>Chenwei</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-0894-5394</contrib-id>
+					<name>
+						<surname>Gao</surname>
+						<given-names>Yanfang</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-1546-1590</contrib-id>
+					<name>
+						<surname>Zhou</surname>
+						<given-names>Chuanfei</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-5422-5470</contrib-id>
+					<name>
+						<surname>Huang</surname>
+						<given-names>Lei</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-8343-3754</contrib-id>
+					<name>
+						<surname>Zhang</surname>
+						<given-names>Xiaokang</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>I</label>
+				<institution content-type="orgname">Gannan Medical University</institution>
+				<institution content-type="orgdiv1">School of Public Health and Health Management</institution>
+				<addr-line>
+					<named-content content-type="city">Ganzhou</named-content>
+				</addr-line>
+				<country country="CN">China</country>
+				<institution content-type="original">Gannan Medical University. School of Public Health and Health Management. Ganzhou, China</institution>
+			</aff>
+			<author-notes>
+				<corresp id="c01"> Correspondence: Xiaokang Zhang Gannan Medical University College Park, Rongjiang New District 341000, Ganzhou City, Jiangxi Province, China E-mail: <email>Zhangxiaokaju@163.com</email>
+				</corresp>
+				<fn fn-type="con">
+					<p><bold>Authors’ Contribution:</bold> Study design and planning: Zhou X, Li C. Data collection, analysis and interpretation: Zhou X, Li C, Gao Y. Manuscript drafting or review: Zhou X, Zhou C, Huang L. Approval of the final version: Gao Y, Zhang X. Public responsibility for the content of the article: Zhang X.</p>
+				</fn>
+				<fn fn-type="conflict">
+					<p><bold>Conflict of Interest:</bold> The authors declare no conflict of interest.</p>
+				</fn>
+			</author-notes>
+			<pub-date date-type="pub" publication-format="electronic">
+				<day>13</day>
+				<month>06</month>
+				<year>2022</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">
+				<year>2022</year>
+			</pub-date>
+			<volume>56</volume>
+			<elocation-id>46</elocation-id>
+			<history>
+				<date date-type="received">
+					<day>25</day>
+					<month>10</month>
+					<year>2021</year>
+				</date>
+				<date date-type="accepted">
+					<day>27</day>
+					<month>12</month>
+					<year>2021</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="en">
+					<license-p> This is an Open Access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. </license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>ABSTRACT</title>
+				<sec>
+					<title>OBJECTIVE</title>
+					<p> To evaluate the relationship between ambient air pollutants and chronic obstructive pulmonary disease in relatively low-polluted areas in China.</p>
+				</sec>
+				<sec>
+					<title>METHODS</title>
+					<p> Atmospheric pollutants levels and meteorological data were obtained from January 2016 to December 2020. The medical database including daily hospital admissions for chronic obstructive pulmonary disease (ICD10: J44) was derived from the First Affiliated Hospital of Gannan Medical University. The generalized additive model was used to analyze the percentage change with 95% confidence interval in daily hospital admissions for chronic obstructive pulmonary disease associated with a 10 µg/m<sup>3</sup> increase in atmospheric pollutants levels.</p>
+				</sec>
+				<sec>
+					<title>RESULTS</title>
+					<p> In total, occurred 4,980 chronic obstructive pulmonary disease hospital admissions (not including emergency department visits) during 2016–2020. The mean concentrations of daily PM<sub>2.5</sub>, PM<sub>10</sub>, SO<sub>2</sub>, NO<sub>2</sub>, O<sub>3</sub>, and CO were 37.5 μg/m<sup>3</sup>, 60.1 μg/m<sup>3</sup>, 18.7 μg/m<sup>3</sup>, 23.5 μg/m<sup>3</sup>, 70.0 μg/m<sup>3</sup>, and 1.2 mg/m<sup>3</sup> in Ganzhou. Each 10 µg/m<sup>3</sup> increment of PM<sub>2.5</sub>, PM<sub>10</sub>, NO<sub>2</sub>, and O<sub>3</sub> were significantly associated with 2.8% (95%CI: 1.0–4.7), 1.3% (95%CI: 0.3–2.4), 2.8% (95%CI: 0.4–5.4), and 1.5% (95%CI: 0.2–2.7) elevation in daily chronic obstructive pulmonary disease hospital admissions. The estimates of delayed effects of PM<sub>2.5</sub>, PM<sub>10</sub>, NO<sub>2</sub>, and O<sub>3</sub> were observed at lag6, lag6, lag8, lag1, respectively. The health effects of particulate pollutants (PM<sub>2.5</sub> and PM<sub>10</sub>) may be independent of other pollutants. The adverse effects of air pollutants were more evident in the warm season (May–Oct) than in the cold season (Nov–Apr).</p>
+				</sec>
+				<sec>
+					<title>CONCLUSION</title>
+					<p> Our study demonstrated that elevated concentrations of atmospheric pollutant (PM<sub>2.5</sub>, PM<sub>10</sub>, NO<sub>2</sub>, and O<sub>3</sub>), especially particulate pollutants, can be associated with increased daily count of hospital admissions for chronic obstructive pulmonary disease , which may promote further understanding of the potential hazards of relatively low levels of air pollution on chronic obstructive pulmonary disease and other respiratory disorders.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="en">
+				<kwd>Pulmonary Disease, Chronic Obstructive, epidemiology</kwd>
+				<kwd>Hospitalization</kwd>
+				<kwd>Air Pollution, adverse effects</kwd>
+				<kwd>Air Quality Standards</kwd>
+				<kwd>Models, Statistical</kwd>
+			</kwd-group>
+			<funding-group>
+				<award-group>
+					<funding-source>Gannan Medical University</funding-source>
+					<award-id>QD201901</award-id>
+				</award-group>
+				<award-group>
+					<funding-source>Department of Education of Jiangxi Province</funding-source>
+					<award-id>GJJ190786</award-id>
+				</award-group>
+				<funding-statement>Funding: Gannan Medical University – Process QD201901. Department of Education of Jiangxi Province – Process GJJ190786.</funding-statement>
+			</funding-group>
+			<counts>
+				<fig-count count="2"/>
+				<table-count count="3"/>
+				<equation-count count="1"/>
+				<ref-count count="24"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>INTRODUCTION</title>
+			<p>Chronic obstructive pulmonary disease (COPD), the third leading cause of morbidity and mortality in the world<sup><xref ref-type="bibr" rid="B1">1</xref>,<xref ref-type="bibr" rid="B2">2</xref></sup>, is characterized by a chronic inflammation of the lung that is not fully reversible and persistently limited airflow<sup><xref ref-type="bibr" rid="B3">3</xref></sup>. Because of the slow and partly irreversible progression of the disease, COPD is difficult to treat and can impose a significant financial burden on society<sup><xref ref-type="bibr" rid="B4">4</xref></sup>. Several articles indicated that ambient air pollutants exposure is a non-negligible risk factor for COPD. A study by Hwang et al.<sup><xref ref-type="bibr" rid="B5">5</xref></sup> reported that particulate matter ≤ 2.5 µm in aerodynamic diameter (PM<sub>2.5</sub>) was positively associated with daily hospital admissions for acute exacerbation of COPD. Similarly, analyzing 73,076 hospital admission visits in Beijing, Gao et al.<sup><xref ref-type="bibr" rid="B6">6</xref></sup> confirmed a 10 mg/m<sup>3</sup> increase of PM<sub>2.5</sub>, particulate matter ≤ 10 µm in aerodynamic diameter(PM<sub>10</sub>), sulfur dioxide (SO<sub>2</sub>), nitrogen dioxide (NO<sub>2</sub>) and carbon monoxide (CO) concentration corresponded to a 0.8% ,0.9%, 2.1%, 3%, 6% increase in percent change in hospital admissions for COPD, respectively. In China, more attention was paid to air pollution prevention and control in the heavy pollution cities, such as Beijing, than in the low pollution cities, even though some articles indicated that the cities with less pollution showed greater risks of respiratory disorders<sup><xref ref-type="bibr" rid="B7">7</xref>,<xref ref-type="bibr" rid="B8">8</xref></sup>. Ganzhou is in the subtropical monsoon zone in the southern part of Jiangxi province. In 2020, the average daily concentration of PM<sub>2.5</sub>, PM<sub>10</sub>, SO<sub>2</sub>, NO<sub>2</sub>, ozone(O<sub>3</sub>), and CO in Ganzhou were 24 μg/m<sup>3</sup>, 41 μg/m<sup>3</sup>, 9 μg/m<sup>3</sup>, 17 μg/m<sup>3</sup>, 63 μg/m<sup>3</sup>, and 0.9 mg/m<sup>3</sup>, respectively, which are lower than the average concentration of 337 cities in China (33 μg/m<sup>3</sup>, 56 μg/m<sup>3</sup>, 10 μg/m<sup>3</sup>, 24 μg/m<sup>3</sup>, 138 μg/m<sup>3</sup>, and 1.3 mg/m<sup>3</sup>, respectively)<sup><xref ref-type="bibr" rid="B9">9</xref></sup>. Therefore, the cities with relatively low pollution levels, like Ganzhou, caught our attention.</p>
+			<p>To address the limitations of previous studies, we aimed to explore the association between ambient air pollutants and daily COPD hospital admissions in Ganzhou, China, from 2016 to 2020. Seasonal effects were also investigated.</p>
+		</sec>
+		<sec sec-type="methods">
+			<title>METHODS</title>
+			<sec>
+				<title>Data Collection</title>
+				<p>The data of COPD hospital admissions was obtained from First Affiliated Hospital of Gannan Medical University. Data elements of standardized electronic medical records include date of birth, date of hospital visit, gender, Chinese discharge diagnosis, 10th Revision (ICD-10) code, etc. Daily counts of hospital admissions for COPD (ICD-10 codes J44) were extracted from the medical database for the period of 2016–2020 (a total of 1,827 days). The health effects of exposure to atmospheric pollutants were evaluated by daily COPD hospital admissions.</p>
+				<p>The concentrations of air pollutants were measured by five fixed monitoring stations in Ganzhou, and the daily average concentrations at these monitoring stations were regarded as the daily level for each pollutant. In the study, we used daily means for PM<sub>2.5</sub>, PM<sub>10</sub>, SO<sub>2</sub>, NO<sub>2</sub>, and CO, and the daily maximum of 8-h means for O<sub>3</sub>. Furthermore, meteorological data, including relative humidity (%) and daily temperature (°C), were collected from Jiangxi Meteorological Bureau during the study period. No data for daily atmospheric pollutant concentration and meteorological characteristics are missing.</p>
+			</sec>
+			<sec>
+				<title>Statistical Analysis</title>
+				<p>The database was constructed using Microsoft Excel, including daily mean concentrations of atmospheric pollutants, meteorological factors and daily hospital admissions for COPD. The SPSS software was used for statistical description and the ‘mgcv’ package in R was used for statistical analysis. Spearman’s correlation test was selected to explore the correlation between ambient air pollutants and meteorological factors.</p>
+				<p>Compared with the total urban population, daily COPD hospital admissions are a small probability event, which conforms to the Poisson distribution of the generalized additive model (GAM)<sup><xref ref-type="bibr" rid="B10">10</xref>,<xref ref-type="bibr" rid="B11">11</xref></sup>. Therefore, GAM was selected to assess the relationship between hospital admissions and atmospheric pollutants in this study. The model is as follows:</p>
+				<disp-formula id="e1">
+					<mml:math>
+						<mml:mi>log</mml:mi>
+						<mml:mo>⁡</mml:mo>
+						<mml:mfenced close="]" open="[" separators="|">
+							<mml:mrow>
+								<mml:mi>E</mml:mi>
+								<mml:mfenced close=")" open="(" separators="|">
+									<mml:mrow>
+										<mml:msub>
+											<mml:mi>Y</mml:mi>
+											<mml:mrow>
+												<mml:mi>t</mml:mi>
+											</mml:mrow>
+										</mml:msub>
+									</mml:mrow>
+								</mml:mfenced>
+							</mml:mrow>
+						</mml:mfenced>
+						<mml:mo>=</mml:mo>
+						<mml:mi>α</mml:mi>
+						<mml:mo>+</mml:mo>
+						<mml:mi>β</mml:mi>
+						<mml:msub>
+							<mml:mi>X</mml:mi>
+							<mml:mrow>
+								<mml:mi>t</mml:mi>
+							</mml:mrow>
+						</mml:msub>
+						<mml:mo>+</mml:mo>
+						<mml:mi>n</mml:mi>
+						<mml:mi>s</mml:mi>
+						<mml:mo stretchy="false">(</mml:mo>
+						<mml:mtext>time</mml:mtext>
+						<mml:mo>,</mml:mo>
+						<mml:mi>d</mml:mi>
+						<mml:mi>f</mml:mi>
+						<mml:mo stretchy="false">)</mml:mo>
+						<mml:mo>+</mml:mo>
+						<mml:mi>n</mml:mi>
+						<mml:mi>s</mml:mi>
+						<mml:mo stretchy="false">(</mml:mo>
+						<mml:mtext>Temp</mml:mtext>
+						<mml:mo>,</mml:mo>
+						<mml:mi>d</mml:mi>
+						<mml:mi>f</mml:mi>
+						<mml:mo stretchy="false">)</mml:mo>
+						<mml:mo>+</mml:mo>
+						<mml:mi>n</mml:mi>
+						<mml:mi>s</mml:mi>
+						<mml:mo stretchy="false">(</mml:mo>
+						<mml:mi>R</mml:mi>
+						<mml:mi>H</mml:mi>
+						<mml:mo>,</mml:mo>
+						<mml:mi>d</mml:mi>
+						<mml:mi>f</mml:mi>
+						<mml:mo stretchy="false">)</mml:mo>
+						<mml:mo>+</mml:mo>
+						<mml:mi>D</mml:mi>
+						<mml:mi>O</mml:mi>
+						<mml:mi>W</mml:mi>
+					</mml:math>
+				</disp-formula>
+				<p>E(Y<sub>t</sub>) indicates the expected daily count of hospital admissions on day t; α means a constant; β and X<sub>t</sub> refer to the regression coefficient and the concentration of ambient air pollutant at day t, respectively; ns means natural spline function; df represent the degrees of freedom; DOW refers to the day of the week.</p>
+				<p>Several analyses were made to investigate the association between air pollution and hospital admissions for COPD. First, single-day lag models (lag0 to lag15) as well as cumulative lags models (lag01 to lag015) were selected to assess the effects of single atmospheric pollutant. Then, multi-pollutant models were used to check the effects of single air pollutant after adjustment by others. Finally, hospital admissions data were stratified by season to explore the relationship between atmospheric pollutants and COPD in different subgroups. Based on the local climate, November to April is considered the cold season and May to October the warm one.</p>
+				<p>In the study, the outcomes were described as the percentage change (PC) and 95% confidence interval (95%CI) of COPD hospital admissions with each 10 μg/m<sup>3</sup> increase of atmospheric pollutant per day. Statistical significance was considered when p &lt; 0.05.</p>
+			</sec>
+		</sec>
+		<sec sec-type="results">
+			<title>RESULTS</title>
+			<p>
+				<xref ref-type="table" rid="t1">Table 1</xref> shows the descriptive summary of daily COPD hospital admissions, air pollutants levels, and meteorological conditions. From January 1st, 2016 to December 31st, 2020, a total of 4,980 hospital admissions for COPD in Ganzhou, in which 81.6% were males and 70.4% were over 65 years old, formed the basis of our study. The annual number of the daily hospital admissions for COPD was 650 (13.1%), 648 (13.0%), 1,114 (22.4%), 1,502 (30.1%), and 1,066 (21.4%) for the five respective years (2016–2020). On average, occurred three hospital admissions per day due to COPD. During the study period, the daily mean concentrations (standard deviation) of PM<sub>2.5</sub>, PM<sub>10</sub>, SO<sub>2</sub>, NO<sub>2</sub>, O<sub>3</sub> and CO were 37.5 (21.2) μg/m<sup>3</sup>, 60.1 (33.8) μg/m<sup>3</sup>, 18.7 (11.3) μg/m<sup>3</sup>, 23.5 (13.6) μg/m<sup>3</sup>, 70.0 (32.6) μg/m<sup>3</sup>, and 1.2 (0.3) mg/m<sup>3</sup>, respectively. The daily mean temperature was 19.7°C and relative humidity was 74.4%.</p>
+			<p>
+				<table-wrap id="t1">
+					<label>Table 1</label>
+					<caption>
+						<title>Descriptive summary of daily COPD hospital admissions, atmospheric pollutants concentrations, and meteorological conditions.</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left" style="font-weight:normal">
+								</th>
+								<th>Mean ± SD</th>
+								<th>Minimum</th>
+								<th>P(<sub>25</sub>)</th>
+								<th>Median</th>
+								<th>P(<sub>75</sub>)</th>
+								<th>Maximum</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>COPD</td>
+								<td align="center">2.7 ± 2.0</td>
+								<td align="center">0</td>
+								<td align="center">1</td>
+								<td align="center">2</td>
+								<td align="center">4</td>
+								<td align="center">13</td>
+							</tr>
+							<tr>
+								<td>PM<sub>2.5</sub> (μg/m<sup>3</sup>)</td>
+								<td align="center">37.5 ± 21.2</td>
+								<td align="center">6</td>
+								<td align="center">23</td>
+								<td align="center">33</td>
+								<td align="center">47</td>
+								<td align="center">197</td>
+							</tr>
+							<tr>
+								<td>PM<sub>10</sub> (μg/m<sup>3</sup>)</td>
+								<td align="center">60.1 ± 33.8</td>
+								<td align="center">11</td>
+								<td align="center">36</td>
+								<td align="center">52</td>
+								<td align="center">76</td>
+								<td align="center">258</td>
+							</tr>
+							<tr>
+								<td>SO<sub>2</sub> (μg/m<sup>3</sup>)</td>
+								<td align="center">18.7 ± 11.3</td>
+								<td align="center">2</td>
+								<td align="center">11</td>
+								<td align="center">16</td>
+								<td align="center">23</td>
+								<td align="center">73</td>
+							</tr>
+							<tr>
+								<td>NO<sub>2</sub> (μg/m<sup>3</sup>)</td>
+								<td align="center">23.5 ± 13.6</td>
+								<td align="center">4</td>
+								<td align="center">14</td>
+								<td align="center">20</td>
+								<td align="center">28</td>
+								<td align="center">94</td>
+							</tr>
+							<tr>
+								<td>O<sub>3</sub> (μg/m<sup>3</sup>)</td>
+								<td align="center">70.0 ± 32.6</td>
+								<td align="center">4</td>
+								<td align="center">46</td>
+								<td align="center">67</td>
+								<td align="center">91</td>
+								<td align="center">194</td>
+							</tr>
+							<tr>
+								<td>CO (mg/m<sup>3</sup>)</td>
+								<td align="center">1.2 ± 0.3</td>
+								<td align="center">0.6</td>
+								<td align="center">1.0</td>
+								<td align="center">1.2</td>
+								<td align="center">1.4</td>
+								<td align="center">2.9</td>
+							</tr>
+							<tr>
+								<td>Temperature (°C)</td>
+								<td align="center">19.7 ± 8.1</td>
+								<td align="center">0</td>
+								<td align="center">13</td>
+								<td align="center">21</td>
+								<td align="center">27</td>
+								<td align="center">32</td>
+							</tr>
+							<tr>
+								<td>Relative humidity (%)</td>
+								<td align="center">74.4 ± 12.2</td>
+								<td align="center">35</td>
+								<td align="center">65</td>
+								<td align="center">74</td>
+								<td align="center">84</td>
+								<td align="center">99</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN1">
+							<p>SD: standard deviation; P: percentile; COPD: chronic obstructive pulmonary disease; PM<sub>2.5</sub>: particulate matter ≤ 2.5 µm in aerodynamic diameter; PM<sub>10</sub>: particulate matter ≤ 10 µm in aerodynamic diameter; SO<sub>2</sub>: sulfur dioxide; NO<sub>2</sub>: nitrogen dioxide; O<sub>3</sub>: ozone; CO: carbon monoxide.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>
+				<xref ref-type="table" rid="t2">Table 2</xref> shows the Spearman correlation between air pollutants and meteorological parameters. All the correlation coefficients between atmospheric pollutants and meteorological factors in this study were statistically significant. The levels of PM<sub>2.5</sub>, PM<sub>10</sub>, and SO<sub>2</sub> were positively correlated with other air pollutant (correlation coefficient = 0.22–0.96), whereas O<sub>3</sub> was negatively correlated with NO<sub>2</sub>, CO (correlation coefficient = -0.09 to -0.18). Temperature was negatively correlated with PM<sub>2.5</sub>, PM<sub>10</sub>, NO<sub>2</sub>, and CO (correlation coefficient = -0.13 to -0.39); however, it showed a significant positive correlation with SO<sub>2</sub> and O<sub>3</sub> (correlation coefficient = 0.07–0.37). Moreover, the relative humidity was negatively correlated with all the air pollutants (correlation coefficient = -0.08 to -0.65) except CO (correlation coefficient = 0.21).</p>
+			<p>
+				<table-wrap id="t2">
+					<label>Table 2</label>
+					<caption>
+						<title>Spearman’s correlation between atmospheric pollutants and meteorological parameters.</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left" style="font-weight:normal">
+								</th>
+								<th>PM<sub>2.5</sub></th>
+								<th>PM<sub>10</sub></th>
+								<th>SO<sub>2</sub></th>
+								<th>NO<sub>2</sub></th>
+								<th>O<sub>3</sub></th>
+								<th>CO</th>
+								<th>Temperature</th>
+								<th>Relative humidity</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>PM<sub>2.5</sub></td>
+								<td align="center">1</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>PM<sub>10</sub></td>
+								<td align="center">0.96</td>
+								<td align="center">1</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>SO<sub>2</sub></td>
+								<td align="center">0.69</td>
+								<td align="center">0.71</td>
+								<td align="center">1</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>NO<sub>2</sub></td>
+								<td align="center">0.62</td>
+								<td align="center">0.66</td>
+								<td align="center">0.51</td>
+								<td align="center">1</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>O<sub>3</sub></td>
+								<td align="center">0.26</td>
+								<td align="center">0.33</td>
+								<td align="center">0.22</td>
+								<td align="center">-0.09</td>
+								<td align="center">1</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>CO</td>
+								<td align="center">0.45</td>
+								<td align="center">0.39</td>
+								<td align="center">0.29</td>
+								<td align="center">0.40</td>
+								<td align="center">-0.18</td>
+								<td align="center">1</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Temperature</td>
+								<td align="center">-0.21</td>
+								<td align="center">-0.13</td>
+								<td align="center">0.07</td>
+								<td align="center">-0.39</td>
+								<td align="center">0.37</td>
+								<td align="center">-0.32</td>
+								<td align="center">1</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Relative humidity</td>
+								<td align="center">-0.23</td>
+								<td align="center">-0.36</td>
+								<td align="center">-0.29</td>
+								<td align="center">-0.08</td>
+								<td align="center">-0.65</td>
+								<td align="center">0.21</td>
+								<td align="center">-0.32</td>
+								<td align="center">1</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN2">
+							<p>PM<sub>2.5</sub>: particulate matter ≤ 2.5 µm in aerodynamic diameter; PM<sub>10</sub>: particulate matter ≤ 10 µm in aerodynamic diameter; SO<sub>2</sub>: sulfur dioxide; NO<sub>2</sub>: nitrogen dioxide; O<sub>3</sub>: ozone; CO: carbon monoxide.</p>
+						</fn>
+						<fn id="TFN3">
+							<p>Note: all correlation coefficients are statistically significant (p &lt; 0.05).</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>
+				<xref ref-type="fig" rid="f01">Figure 1</xref> summarizes the analysis results in both single-day lag models (lag0 to lag15) and cumulative lags models (lag01 to lag015) for the percentage change in daily hospital admissions for COPD with per 10 μg/m<sup>3</sup> increase of ambient air pollutants concentrations. The estimates using cumulative lags were higher than those using single-day lag. Overall, PM<sub>2.5</sub>, PM<sub>10</sub>, NO<sub>2</sub>, and O<sub>3</sub> were positively related to COPD hospital admissions, while SO<sub>2</sub> and CO showed no significant relationship in single-day lag models and cumulative lags models. In single-day lag model, the delayed effects of PM<sub>2.5</sub> and PM<sub>10</sub> were generally significant on lag6 and lag7, with the largest effect observed on lag6 (PM<sub>2.5</sub>: PC = 2.8%; 95%CI: 1–4.7; PM<sub>10</sub>: PC = 1.3%; 95%CI: 0.3–2.4). For NO<sub>2</sub>, the significant associations were observed on lag8 and lag9, and reached the maximum at lag9 (PC = 3.6%; 95%CI: 1.2–6.2). The single-day lag effects of O<sub>3</sub> were significant on lag1, lag4, and lag5, with the largest effect observed on lag1 (PC = 1.5%; 95%CI = 0.2–2.7). In cumulative lags model, increases of 10 μg/m<sup>3</sup> in the concentrations of PM<sub>2.5</sub>, PM<sub>10</sub>, NO<sub>2</sub>, and O<sub>3</sub> were associated with increases of 6.6% (95%CI: 2.3–11.0), 3.5% (95%CI: 1.3–5.9), 7.1% (95%CI: 0.5–14.1), and 2.9% (95%CI: 0.6–5.4), respectively, in daily hospital admissions for COPD.</p>
+			<p>
+				<fig id="f01">
+					<label>Figure 1</label>
+					<caption>
+						<title>Percentage changes with 95%CI in hospital admissions for COPD with each 10 µg/m3 increase in atmospheric pollutants levels by single-day lag models (A ~ F) and cumulative lags models (G ~ L).</title>
+					</caption>
+					<graphic xlink:href="1518-8787-rsp-56-46-gf01.tif"/>
+					<attrib>95%CI: 95% confidence interval; COPD: chronic obstructive pulmonary disease; PM<sub>2.5</sub>: particulate matter ≤ 2.5 µm in aerodynamic diameter; PM<sub>10</sub>: particulate matter ≤ 10 µm in aerodynamic diameter; SO<sub>2</sub>: sulfur dioxide; NO<sub>2</sub>: nitrogen dioxide; O<sub>3</sub>: ozone; CO: carbon monoxide.</attrib>
+					<attrib>Note: the lines in red color mean statistical significance.</attrib>
+				</fig>
+			</p>
+			<p>The results of the multiple pollutant models are showed in <xref ref-type="table" rid="t3">Table 3</xref>. When adjusted by NO<sub>2</sub> as well as O<sub>3</sub>, the association between particulate pollutants (PM<sub>2.5</sub> and PM<sub>10</sub>) and COPD hospital admissions slightly changed and still showed statistical significance. After NO<sub>2</sub> was controlled in the multi-pollutant model, the association between O<sub>3</sub> and hospital admissions were relatively stable. Adjusted by O<sub>3</sub>, the association between NO<sub>2</sub> and hospital admissions declined slightly, but still kept statistically significant. However, particulate pollutants weakened the effect of NO<sub>2</sub> and O<sub>3</sub>, making them meaningless.</p>
+			<p>
+				<table-wrap id="t3">
+					<label>Table 3</label>
+					<caption>
+						<title>Percent change (95%CI) in COPD hospital admissions in multi-pollutant models.</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left" style="font-weight:normal">
+								</th>
+								<th>Multi-pollutant models</th>
+								<th>Percent change</th>
+								<th>95%CI</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>PM<sub>2.5</sub></td>
+								<td>
+								</td>
+								<td align="center">6.6</td>
+								<td align="center">(2.3–11.0)<sup>a</sup></td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">+NO<sub>2</sub></td>
+								<td align="center">6.3</td>
+								<td align="center">(1.5–11.6)<sup>a</sup></td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">+O<sub>3</sub></td>
+								<td align="center">5.9</td>
+								<td align="center">(0.9–11.1)<sup>a</sup></td>
+							</tr>
+							<tr>
+								<td>PM<sub>10</sub></td>
+								<td>
+								</td>
+								<td align="center">3.5</td>
+								<td align="center">(1.3–5.8)<sup>a</sup></td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">+NO<sub>2</sub></td>
+								<td align="center">3.4</td>
+								<td align="center">(0.8–6.4)<sup>a</sup></td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">+O<sub>3</sub></td>
+								<td align="center">3.2</td>
+								<td align="center">(0.6–5.5)<sup>a</sup></td>
+							</tr>
+							<tr>
+								<td>NO<sub>2</sub></td>
+								<td>
+								</td>
+								<td align="center">7.1</td>
+								<td align="center">(0.5–14.1)<sup>a</sup></td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">+PM<sub>2.5</sub></td>
+								<td align="center">1.3</td>
+								<td align="center">(-6.3–9.4)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">+PM<sub>10</sub></td>
+								<td align="center">1.6</td>
+								<td align="center">(-7.4–11.3)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">+O<sub>3</sub></td>
+								<td align="center">6.8</td>
+								<td align="center">(0.4–12.3)<sup>a</sup></td>
+							</tr>
+							<tr>
+								<td>O<sub>3</sub></td>
+								<td>
+								</td>
+								<td align="center">2.9</td>
+								<td align="center">(0.6–5.4)<sup>a</sup></td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">+PM<sub>2.5</sub></td>
+								<td align="center">1.6</td>
+								<td align="center">(-1.3–4.7)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">+PM<sub>10</sub></td>
+								<td align="center">2.0</td>
+								<td align="center">(-1.0–5.2)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">+NO<sub>2</sub></td>
+								<td align="center">2.8</td>
+								<td align="center">(0.5–5.4)<sup>a</sup></td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN4">
+							<p>95%CI: 95% confidence interval; COPD: chronic obstructive pulmonary disease.</p>
+						</fn>
+						<fn id="TFN5">
+							<p><sup>a</sup> p &lt; 0.05</p>
+						</fn>
+						<fn id="TFN6">
+							<p>Note: the effects of multiday lag were used for daily COPD hospital admissions.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>As shown in <xref ref-type="fig" rid="f02">Figure 2</xref>, PM<sub>2.5</sub>, PM<sub>10</sub>, and O<sub>3</sub> were significantly associated with daily hospital admissions for COPD in the warm season (May–Oct). In contrast, the association between atmospheric pollutants and hospital admissions was not observed in the cold season (Nov–Apr). At lag07, each 10 μg/m<sup>3</sup> increase in concentrations of PM<sub>2.5</sub>, PM<sub>10</sub>, and O<sub>3</sub> corresponded to a 5.2% (95%CI: 0.5–10.0), 8.4% (95%CI: 3.8–13.3), and 3.5% (95%CI: 0.6–6.4) increase in daily COPD hospital admissions in the warm season, respectively.</p>
+			<p>
+				<fig id="f02">
+					<label>Figure 2</label>
+					<caption>
+						<title>Percentage changes with 95%CIs in COPD hospital admissions with each 10 μg/m3 increase in PM2.5 (A), PM10 (B), SO2 (C), NO2 (D), O3 (E), and CO (F) concentrations, stratified by seasons.</title>
+					</caption>
+					<graphic xlink:href="1518-8787-rsp-56-46-gf02.tif"/>
+					<attrib>95%CI: 95% confidence interval; COPD: chronic obstructive pulmonary disease; PM<sub>2.5</sub>: particulate matter ≤ 2.5 µm in aerodynamic diameter; PM<sub>10</sub>: particulate matter ≤ 10 µm in aerodynamic diameter; SO<sub>2</sub>: sulfur dioxide; NO<sub>2</sub>: nitrogen dioxide; O<sub>3</sub>: ozone; CO, carbon monoxide.</attrib>
+					<attrib>Note: November to April is considered the cold season (in blue color) and May to October is considered the warm season (in red color).</attrib>
+				</fig>
+			</p>
+		</sec>
+		<sec sec-type="discussion">
+			<title>DISCUSSION</title>
+			<p>This research is a quantitative assessment of the relationship between ambient air pollutants and the hospital admissions for COPD in Ganzhou in 2016–2020 using generalized additive models. In single-pollutant models, it was found that PM<sub>2.5</sub>, PM<sub>10</sub>, NO<sub>2</sub>, and O<sub>3</sub> were positively correlated to COPD hospital admissions. Only PM<sub>2.5</sub> and PM<sub>10</sub> kept stable in multi-pollutant models. Additionally, the association between hospital admissions for COPD and ambient air pollutants were stronger in the warm season (May–Oct) than in the cold season (Nov–Apr).</p>
+			<p>Previous studies are consistent with our results, showing that atmospheric pollutants were linked with COPD. According to the study of Tian et al.<sup><xref ref-type="bibr" rid="B12">12</xref></sup>, for an interquartile range (IQR) increase in PM<sub>2.5</sub>, the daily hospital admissions for COPD increased by 6.0% (95%CI: 5.2–6.9) in the concurrent day. As found by Li et al.<sup><xref ref-type="bibr" rid="B13">13</xref></sup> in their study on the effect of ambient fine particulate matter on hospitalizations in COPD: a 10 μg/m<sup>3</sup> increase in PM<sub>2.5</sub> was associated with a 3.1% (95%CI: 1.6–4.6) increase in COPD hospitalizations. Furthermore, Shin et al.<sup><xref ref-type="bibr" rid="B14">14</xref></sup> studied data of Canada, and found that each positive association of COPD with PM<sub>2.5</sub> increased the IQR in 3.4 μg/m<sup>3</sup> (hazard ratio: 1.1). An ecological study conducted in Beijing, China, reported per 10 µg/m<sup>3</sup> increments of the PM<sub>10</sub> levels corresponded to 0.5% (95%CI: 0.3–0.7) increases in COPD hospital visits at lag0<sup><xref ref-type="bibr" rid="B6">6</xref></sup>. The lag pattern of PM<sub>2.5</sub> and PM<sub>10</sub> in our study is later than previous reports. This may indicate the visiting habit of patients may be limited by inadequate medical resources. Moreover, it might also be connected with environmental factors, including land-cover characteristics<sup><xref ref-type="bibr" rid="B15">15</xref></sup>.</p>
+			<p>Weichenthal et al.<sup><xref ref-type="bibr" rid="B16">16</xref></sup> confirmed the relationship between the incidence of COPD and NO<sub>2</sub>. Another study covering the data from 218 Chinese cities also indicated that every 10 μg/m<sup>3</sup> increase in NO<sub>2</sub> was associated with a 1.7% (95%CI: 1.4–2.0) higher daily hospital admissions at the national-average level<sup><xref ref-type="bibr" rid="B17">17</xref></sup>. There already has toxicological study exploring the relationship between ozone and COPD. Wiegman et al.<sup><xref ref-type="bibr" rid="B18">18</xref></sup> reported that ozone exposure in mice causes activation of oxidative pathways resulting in chronic bronchial inflammation and COPD. A systematic review by Gao et al.<sup><xref ref-type="bibr" rid="B19">19</xref></sup> suggested that exposure to ozone was significantly positively associated with hospital admission for COPD. However, our results are inconsistent with several studies. For instance, a study conducted in Guangdong, China, found that concentrations of SO<sub>2</sub> may be linked with the number of hospital admissions for COPD<sup><xref ref-type="bibr" rid="B20">20</xref></sup>. The research by Gao et al.<sup><xref ref-type="bibr" rid="B6">6</xref></sup> showed that each 1 mg/m<sup>3</sup> increase in CO was associated with a 5.0% (95%CI: 3.1–7.0) increase in COPD hospital admissions. The relationship between ambient air pollutants and hospital admissions for COPD from different regions may also vary. Such difference may be attributed to the distinct characteristics of pollutants, study areas and research populations. Besides, different cultural factors, demographic characteristics, and eating habits may all lead to different susceptibility of people in different regions.</p>
+			<p>Results of our research also indicated that the relationship between particulate pollutants (PM<sub>2.5</sub> and PM<sub>10</sub>) and COPD hospital admissions kept robust in multi-pollutant models, which suggested the independent effects of particulate pollutants. Previous study has also provided similar results<sup><xref ref-type="bibr" rid="B21">21</xref></sup>. The effects of PM<sub>2.5</sub> and PM<sub>10</sub> were slightly reduced when NO<sub>2</sub> and O<sub>3</sub> were adjusted in the multi-pollutant model. A study by Liang et al.<sup><xref ref-type="bibr" rid="B22">22</xref></sup> reported that the attenuation of particle effect can be interpreted by the collinearity between air pollutants. However, the collinearity between atmospheric pollutants makes it difficult to precisely assess the independent effects of single pollutant on inpatient visits of COPD. Therefore, the results of the combined effects of air pollutants should be interpreted with caution even when using multi-pollutant models<sup><xref ref-type="bibr" rid="B23">23</xref></sup>.</p>
+			<p>Our research showed that the estimated risk was higher in the warm season when compared with the cold one. The result is consistent with mostly relevant studies<sup><xref ref-type="bibr" rid="B6">6</xref>,<xref ref-type="bibr" rid="B12">12</xref></sup>. However, our findings conflicted with others indicating greater adverse effects in the cold season<sup><xref ref-type="bibr" rid="B5">5</xref></sup>. During the cold seasons, residents are more likely to close the window and stay indoors. While during the warm seasons, most people may increase the outdoor activity time<sup><xref ref-type="bibr" rid="B12">12</xref></sup>. Thus, more exposure to atmospheric pollutants and adverse effects in the warm seasons may be incurred. In the future, it is necessary to investigate the seasonal variation of particulate components in detail to better explore the estimates in different seasons.</p>
+			<p>This study has some strengths. First, our study was based on daily hospital admissions data, which can be more sensitive to reflect the association between COPD and ambient air pollutants. Second, this study adopted a model controlling a series of covariates to explore the relationship between COPD hospital admissions and atmospheric pollutants in a city with relatively low levels of air pollution. Nevertheless, several limitations should be considered. First, the design of our study is a descriptive study, which can provide hypotheses for other studies, but may be limited in causal inference. Second, we only used five fixed air monitoring stations as a proxy for personal exposure, so exposure measurement errors are inevitable<sup><xref ref-type="bibr" rid="B24">24</xref></sup>. Third, the data of hospital admissions were only collected from single city in China, so the generality of the results may be limited. Fourth, several influencing factors such as legal holidays and pandemic influenza are not included in the model, which may not fully reflect the relationship between air pollutants and COPD hospital admissions.</p>
+		</sec>
+		<sec sec-type="conclusions">
+			<title>CONCLUSIONS</title>
+			<p>In Ganzhou, China, there is a positive association between COPD and ambient air pollutants composed of PM<sub>2.5</sub>, PM<sub>10</sub>, NO<sub>2</sub> and O<sub>3</sub>. The adverse effects of particulate pollutants (PM<sub>2.5</sub> and PM<sub>10</sub>) were more stable. Additionally, atmospheric pollutants were more closely related to COPD in the warm season. We hope that our findings can help alert the government to pay more attention to the health effects of air pollutants in low-pollution areas.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>REFERENCES</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. Burney PGJ, Patel J, Newson R, Minelli C, Naghavi M. Global and regional trends in COPD mortality, 1990-2010. Eur Respir J. 2015;45:1239-1247. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1183/09031936.00142414">https://doi.org/10.1183/09031936.00142414</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Burney</surname>
+							<given-names>PGJ</given-names>
+						</name>
+						<name>
+							<surname>Patel</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Newson</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Minelli</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Naghavi</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>Global and regional trends in COPD mortality, 1990-2010</article-title>
+					<source>Eur Respir J</source>
+					<year>2015</year>
+					<volume>45</volume>
+					<fpage>1239</fpage>
+					<lpage>1247</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1183/09031936.00142414">https://doi.org/10.1183/09031936.00142414</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. Chapman KR, Mannino DM, Soriano JB, Vemeire PA, Buist AS, Thun MJ, et al. Epidemiology and costs of chronic obstructive pulmonary disease. Eur Respir J. 2006;27:188-207. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1183/09031936.06.00024505">https://doi.org/10.1183/09031936.06.00024505</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Chapman</surname>
+							<given-names>KR</given-names>
+						</name>
+						<name>
+							<surname>Mannino</surname>
+							<given-names>DM</given-names>
+						</name>
+						<name>
+							<surname>Soriano</surname>
+							<given-names>JB</given-names>
+						</name>
+						<name>
+							<surname>Vemeire</surname>
+							<given-names>PA</given-names>
+						</name>
+						<name>
+							<surname>Buist</surname>
+							<given-names>AS</given-names>
+						</name>
+						<name>
+							<surname>Thun</surname>
+							<given-names>MJ</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Epidemiology and costs of chronic obstructive pulmonary disease</article-title>
+					<source>Eur Respir J</source>
+					<year>2006</year>
+					<volume>27</volume>
+					<fpage>188</fpage>
+					<lpage>207</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1183/09031936.06.00024505">https://doi.org/10.1183/09031936.06.00024505</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. Hogg JC. Pathophysiology of airflow limitation in chronic obstructive pulmonary disease. Lancet. 2004;364(9435):709-721. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(04)16900-6">https://doi.org/10.1016/S0140-6736(04)16900-6</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hogg</surname>
+							<given-names>JC</given-names>
+						</name>
+					</person-group>
+					<article-title>Pathophysiology of airflow limitation in chronic obstructive pulmonary disease</article-title>
+					<source>Lancet</source>
+					<year>2004</year>
+					<volume>364</volume>
+					<issue>9435</issue>
+					<fpage>709</fpage>
+					<lpage>721</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(04)16900-6">https://doi.org/10.1016/S0140-6736(04)16900-6</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. Mannino DM, Braman S. The epidemiology and economics of chronic obstructive pulmonary disease. Proc Am Thorac Soc. 2007;4(7):502-506. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1513/pats.200701-001FM">https://doi.org/10.1513/pats.200701-001FM</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Mannino</surname>
+							<given-names>DM</given-names>
+						</name>
+						<name>
+							<surname>Braman</surname>
+							<given-names>S</given-names>
+						</name>
+					</person-group>
+					<article-title>The epidemiology and economics of chronic obstructive pulmonary disease</article-title>
+					<source>Proc Am Thorac Soc</source>
+					<year>2007</year>
+					<volume>4</volume>
+					<issue>7</issue>
+					<fpage>502</fpage>
+					<lpage>506</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1513/pats.200701-001FM">https://doi.org/10.1513/pats.200701-001FM</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Hwang SL, Lin YC, Guo SE, Chou CT, Lin CM, Chi MC. Fine particulate matter on hospital admissions for acute exacerbation of chronic obstructive pulmonary disease in southwestern Taiwan during 2006-2012. Int J Environ Health Res. 2017;27(2):95-105. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/09603123.2017.1278748">https://doi.org/10.1080/09603123.2017.1278748</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hwang</surname>
+							<given-names>SL</given-names>
+						</name>
+						<name>
+							<surname>Lin</surname>
+							<given-names>YC</given-names>
+						</name>
+						<name>
+							<surname>Guo</surname>
+							<given-names>SE</given-names>
+						</name>
+						<name>
+							<surname>Chou</surname>
+							<given-names>CT</given-names>
+						</name>
+						<name>
+							<surname>Lin</surname>
+							<given-names>CM</given-names>
+						</name>
+						<name>
+							<surname>Chi</surname>
+							<given-names>MC</given-names>
+						</name>
+					</person-group>
+					<article-title>Fine particulate matter on hospital admissions for acute exacerbation of chronic obstructive pulmonary disease in southwestern Taiwan during 2006-2012</article-title>
+					<source>Int J Environ Health Res</source>
+					<year>2017</year>
+					<volume>27</volume>
+					<issue>2</issue>
+					<fpage>95</fpage>
+					<lpage>105</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/09603123.2017.1278748">https://doi.org/10.1080/09603123.2017.1278748</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. Gao N, Li C, Ji J, Yang Y, Wang S, Tian X, et al. Short-term effects of ambient air pollution on chronic obstructive pulmonary disease admissions in Beijing, China (2013-2017). Int J Chron Obstruct Pulmon Dis. 2019;14:297-309. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2147/COPD.S188900">https://doi.org/10.2147/COPD.S188900</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Gao</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Li</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Ji</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Yang</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Tian</surname>
+							<given-names>X</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Short-term effects of ambient air pollution on chronic obstructive pulmonary disease admissions in Beijing, China (2013-2017)</article-title>
+					<source>Int J Chron Obstruct Pulmon Dis</source>
+					<year>2019</year>
+					<volume>14</volume>
+					<fpage>297</fpage>
+					<lpage>309</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2147/COPD.S188900">https://doi.org/10.2147/COPD.S188900</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. Liu C, Liu Y, Zhou Y, Feng A, Wang C, Shi T. Short-term effect of relatively low level air pollution on outpatient visit in Shennongjia, China. Environ Pollut. 2019;245:419-426. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.envpol.2018.10.120">https://doi.org/10.1016/j.envpol.2018.10.120</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Liu</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Liu</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Zhou</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Feng</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Shi</surname>
+							<given-names>T</given-names>
+						</name>
+					</person-group>
+					<article-title>Short-term effect of relatively low level air pollution on outpatient visit in Shennongjia, China</article-title>
+					<source>Environ Pollut</source>
+					<year>2019</year>
+					<volume>245</volume>
+					<fpage>419</fpage>
+					<lpage>426</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.envpol.2018.10.120">https://doi.org/10.1016/j.envpol.2018.10.120</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Liu Y, Xie S, Yu Q, Huo X, Ming X, Wang J, et al. Short-term effects of ambient air pollution on pediatric outpatient visits for respiratory diseases in Yichang city, China. Environ Pollut. 2017;227:116-124. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.envpol.2017.04.029">https://doi.org/10.1016/j.envpol.2017.04.029</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Liu</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Xie</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Yu</surname>
+							<given-names>Q</given-names>
+						</name>
+						<name>
+							<surname>Huo</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Ming</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>J</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Short-term effects of ambient air pollution on pediatric outpatient visits for respiratory diseases in Yichang city, China</article-title>
+					<source>Environ Pollut</source>
+					<year>2017</year>
+					<volume>227</volume>
+					<fpage>116</fpage>
+					<lpage>124</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.envpol.2017.04.029">https://doi.org/10.1016/j.envpol.2017.04.029</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. The People’s Republic of China, Ministry of Ecology and Environment. Report on the State of the Ecology and Environment in China. Beijing (CN); 2019 [cited 2021 Dec 14]. Available from: <ext-link ext-link-type="uri" xlink:href="https://english.mee.gov.cn/Resources/Reports/soe/">https://english.mee.gov.cn/Resources/Reports/soe/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>The People’s Republic of China</collab>
+						<collab>Ministry of Ecology and Environment</collab>
+					</person-group>
+					<source>Report on the State of the Ecology and Environment in China</source>
+					<publisher-loc>Beijing (CN)</publisher-loc>
+					<year>2019</year>
+					<date-in-citation content-type="cited-date">cited 2021 Dec 14</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://english.mee.gov.cn/Resources/Reports/soe/">https://english.mee.gov.cn/Resources/Reports/soe/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. Nascimento AP, Santos JM, Mill JG, Albuquerque TTA, Reis Júnior NC, Reisen VA, et al. Association between the incidence of acute respiratory diseases in children and ambient concentrations of SO<sub>2</sub>, PM<sub>10</sub> and chemical elements in fine particles. Environ Res. 2020;188:109619. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.envres.2020.109619">https://doi.org/10.1016/j.envres.2020.109619</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Nascimento</surname>
+							<given-names>AP</given-names>
+						</name>
+						<name>
+							<surname>Santos</surname>
+							<given-names>JM</given-names>
+						</name>
+						<name>
+							<surname>Mill</surname>
+							<given-names>JG</given-names>
+						</name>
+						<name>
+							<surname>Albuquerque</surname>
+							<given-names>TTA</given-names>
+						</name>
+						<name>
+							<surname>Reis</surname>
+							<given-names>NC</given-names>
+							<suffix>Júnior</suffix>
+						</name>
+						<name>
+							<surname>Reisen</surname>
+							<given-names>VA</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Association between the incidence of acute respiratory diseases in children and ambient concentrations of SO<sub>2</sub>, PM<sub>10</sub> and chemical elements in fine particles</article-title>
+					<source>Environ Res</source>
+					<year>2020</year>
+					<volume>188</volume>
+					<size units="pages">109619</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.envres.2020.109619">https://doi.org/10.1016/j.envres.2020.109619</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. Raji H, Riahi A, Borsi SH, Masoumi K, Khanjani N, AhmadiAngali K, et al. Acute effects of air pollution on hospital admissions for asthma, COPD, and bronchiectasis in Ahvaz, Iran. Int J Chron Obstruct Pulmon Dis. 2020;15:501-514. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2147/COPD.S231317">https://doi.org/10.2147/COPD.S231317</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Raji</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Riahi</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Borsi</surname>
+							<given-names>SH</given-names>
+						</name>
+						<name>
+							<surname>Masoumi</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Khanjani</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>AhmadiAngali</surname>
+							<given-names>K</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Acute effects of air pollution on hospital admissions for asthma, COPD, and bronchiectasis in Ahvaz, Iran</article-title>
+					<source>Int J Chron Obstruct Pulmon Dis</source>
+					<year>2020</year>
+					<volume>15</volume>
+					<fpage>501</fpage>
+					<lpage>514</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2147/COPD.S231317">https://doi.org/10.2147/COPD.S231317</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. Tian Y, Xiang X, Juan J, Song J, Cao Y, Huang C, et al. Short-term effects of ambient fine particulate matter pollution on hospital visits for chronic obstructive pulmonary disease in Beijing, China. Environ Health. 2018;17:21. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12940-018-0369-y">https://doi.org/10.1186/s12940-018-0369-y</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Tian</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Xiang</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Juan</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Song</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Cao</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Huang</surname>
+							<given-names>C</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Short-term effects of ambient fine particulate matter pollution on hospital visits for chronic obstructive pulmonary disease in Beijing, China</article-title>
+					<source>Environ Health</source>
+					<year>2018</year>
+					<volume>17</volume>
+					<size units="pages">21</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12940-018-0369-y">https://doi.org/10.1186/s12940-018-0369-y</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. Li MH, Fan LC, Mao B, Yang JW, Choi AMK, Cao WJ, et al. Short-term exposure to ambient fine particulate matter increases hospitalizations and mortality in COPD: a systematic review and meta-analysis. Chest. 2016;149(2):447-458. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1378/chest.15-0513">https://doi.org/10.1378/chest.15-0513</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Li</surname>
+							<given-names>MH</given-names>
+						</name>
+						<name>
+							<surname>Fan</surname>
+							<given-names>LC</given-names>
+						</name>
+						<name>
+							<surname>Mao</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Yang</surname>
+							<given-names>JW</given-names>
+						</name>
+						<name>
+							<surname>Choi</surname>
+							<given-names>AMK</given-names>
+						</name>
+						<name>
+							<surname>Cao</surname>
+							<given-names>WJ</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Short-term exposure to ambient fine particulate matter increases hospitalizations and mortality in COPD: a systematic review and meta-analysis</article-title>
+					<source>Chest</source>
+					<year>2016</year>
+					<volume>149</volume>
+					<issue>2</issue>
+					<fpage>447</fpage>
+					<lpage>458</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1378/chest.15-0513">https://doi.org/10.1378/chest.15-0513</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. Shin S, Bai L, Burnett RT, Kwong JC, Hystad P, Donkellar A, et al. Air pollution as a risk factor for incident chronic obstructive pulmonary disease and asthma: a 15-year population-based cohort study. Am J Respir Crit Care Med. 2021;203(9):1138-1148. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1164/rccm.201909-1744OC">https://doi.org/10.1164/rccm.201909-1744OC</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Shin</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Bai</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Burnett</surname>
+							<given-names>RT</given-names>
+						</name>
+						<name>
+							<surname>Kwong</surname>
+							<given-names>JC</given-names>
+						</name>
+						<name>
+							<surname>Hystad</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Donkellar</surname>
+							<given-names>A</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Air pollution as a risk factor for incident chronic obstructive pulmonary disease and asthma: a 15-year population-based cohort study</article-title>
+					<source>Am J Respir Crit Care Med</source>
+					<year>2021</year>
+					<volume>203</volume>
+					<issue>9</issue>
+					<fpage>1138</fpage>
+					<lpage>1148</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1164/rccm.201909-1744OC">https://doi.org/10.1164/rccm.201909-1744OC</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. Chen G, Li S, Zhang Y, Zhang W, Li D, Wei X, et al. Effects of ambient PM<sub>1</sub> air pollution on daily emergency hospital visits in China: an epidemiological study. Lancet Planet Health. 2017;1(6):e221-e229. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S2542-5196(17)30100-6">https://doi.org/10.1016/S2542-5196(17)30100-6</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Chen</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Li</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Zhang</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Zhang</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Li</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Wei</surname>
+							<given-names>X</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Effects of ambient PM<sub>1</sub> air pollution on daily emergency hospital visits in China: an epidemiological study</article-title>
+					<source>Lancet Planet Health</source>
+					<year>2017</year>
+					<volume>1</volume>
+					<issue>6</issue>
+					<fpage>e221</fpage>
+					<lpage>e229</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S2542-5196(17)30100-6">https://doi.org/10.1016/S2542-5196(17)30100-6</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. Weichenthal S, Bai L, Hatzopoulou M, Van Ryswyk k, Kwong JC, Jerret M, et al. Long-term exposure to ambient ultrafine particles and respiratory disease incidence in in Toronto, Canada: a cohort study. Environ Health. 2017;16(1):64. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12940-017-0276-7">https://doi.org/10.1186/s12940-017-0276-7</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Weichenthal</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Bai</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Hatzopoulou</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>k</surname>
+							<given-names>Van Ryswyk</given-names>
+						</name>
+						<name>
+							<surname>Kwong</surname>
+							<given-names>JC</given-names>
+						</name>
+						<name>
+							<surname>Jerret</surname>
+							<given-names>M</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Long-term exposure to ambient ultrafine particles and respiratory disease incidence in in Toronto, Canada: a cohort study</article-title>
+					<source>Environ Health</source>
+					<year>2017</year>
+					<volume>16</volume>
+					<issue>1</issue>
+					<size units="pages">64</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12940-017-0276-7">https://doi.org/10.1186/s12940-017-0276-7</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Tian Y, Liu H, Liang T, Xiang X, Li M, Juan J, et al. Ambient air pollution and daily hospital admissions: a nationwide study in 218 Chinese cities. Environ Pollut. 2018;242(Part B):1042-1049. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.envpol.2018.07.116">https://doi.org/10.1016/j.envpol.2018.07.116</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Tian</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Liu</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Liang</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Xiang</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Li</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Juan</surname>
+							<given-names>J</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Ambient air pollution and daily hospital admissions: a nationwide study in 218 Chinese cities</article-title>
+					<source>Environ Pollut</source>
+					<year>2018</year>
+					<volume>242</volume>
+					<comment>Part B</comment>
+					<fpage>1042</fpage>
+					<lpage>1049</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.envpol.2018.07.116">https://doi.org/10.1016/j.envpol.2018.07.116</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18. Wiegman CH, Li F, Ryffel B, Togbe D, Chung KF. Oxidative stress in ozone-induced chronic lung inflammation and emphysema: a facet of chronic obstructive pulmonary disease. Front Immunol. 2020;11:1957. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3389/fimmu.2020.01957">https://doi.org/10.3389/fimmu.2020.01957</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Wiegman</surname>
+							<given-names>CH</given-names>
+						</name>
+						<name>
+							<surname>Li</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Ryffel</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Togbe</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Chung</surname>
+							<given-names>KF</given-names>
+						</name>
+					</person-group>
+					<article-title>Oxidative stress in ozone-induced chronic lung inflammation and emphysema: a facet of chronic obstructive pulmonary disease</article-title>
+					<source>Front Immunol</source>
+					<year>2020</year>
+					<volume>11</volume>
+					<size units="pages">1957</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3389/fimmu.2020.01957">https://doi.org/10.3389/fimmu.2020.01957</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19. Gao H, Wang K, Au WW, Zhao W, Xia ZL. A systematic review and meta-analysis of short-term ambient ozone exposure and COPD hospitalizations. Int J Environ Res Public Health. 2020;17(6):2130. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3390/ijerph17062130">https://doi.org/10.3390/ijerph17062130</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Gao</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Au</surname>
+							<given-names>WW</given-names>
+						</name>
+						<name>
+							<surname>Zhao</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Xia</surname>
+							<given-names>ZL</given-names>
+						</name>
+					</person-group>
+					<article-title>A systematic review and meta-analysis of short-term ambient ozone exposure and COPD hospitalizations</article-title>
+					<source>Int J Environ Res Public Health</source>
+					<year>2020</year>
+					<volume>17</volume>
+					<issue>6</issue>
+					<size units="pages">2130</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3390/ijerph17062130">https://doi.org/10.3390/ijerph17062130</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20. Wang Z, Zhou Y, Zhang Y, Huang X, Duan X, Chen D, et al. Association of change in air quality with hospital admission for acute exacerbation of chronic obstructive pulmonary disease in Guangdong, China: a province-wide ecological study. Ecotoxicol Environ Saf. 2021;208:111590. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ecoenv.2020.111590">https://doi.org/10.1016/j.ecoenv.2020.111590</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Wang</surname>
+							<given-names>Z</given-names>
+						</name>
+						<name>
+							<surname>Zhou</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Zhang</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Huang</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Duan</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Chen</surname>
+							<given-names>D</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Association of change in air quality with hospital admission for acute exacerbation of chronic obstructive pulmonary disease in Guangdong, China: a province-wide ecological study</article-title>
+					<source>Ecotoxicol Environ Saf</source>
+					<year>2021</year>
+					<volume>208</volume>
+					<size units="pages">111590</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ecoenv.2020.111590">https://doi.org/10.1016/j.ecoenv.2020.111590</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>21. Jiang J, Niu Y, Liu C, Chen R, Cao J, Kan H, et al. Short-term exposure to coarse particulate matter and outpatient visits for cardiopulmonary disease in a Chinese city. Ecotoxicol Environ Saf. 2020;199:110686. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ecoenv.2020.110686">https://doi.org/10.1016/j.ecoenv.2020.110686</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Jiang</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Niu</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Liu</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Chen</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Cao</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Kan</surname>
+							<given-names>H</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Short-term exposure to coarse particulate matter and outpatient visits for cardiopulmonary disease in a Chinese city</article-title>
+					<source>Ecotoxicol Environ Saf</source>
+					<year>2020</year>
+					<volume>199</volume>
+					<size units="pages">110686</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ecoenv.2020.110686">https://doi.org/10.1016/j.ecoenv.2020.110686</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>22. Li Y, Li G, Zeng Q, Liang F, Pan X. Projecting temperature-related years of life lost under different climate change scenarios in one temperate megacity, China. Environ Pollut. 2018;233:1068-1075. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.envpol.2017.10.008">https://doi.org/10.1016/j.envpol.2017.10.008</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Li</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Li</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Zeng</surname>
+							<given-names>Q</given-names>
+						</name>
+						<name>
+							<surname>Liang</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Pan</surname>
+							<given-names>X</given-names>
+						</name>
+					</person-group>
+					<article-title>Projecting temperature-related years of life lost under different climate change scenarios in one temperate megacity, China</article-title>
+					<source>Environ Pollut</source>
+					<year>2018</year>
+					<volume>233</volume>
+					<fpage>1068</fpage>
+					<lpage>1075</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.envpol.2017.10.008">https://doi.org/10.1016/j.envpol.2017.10.008</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>23. Liu M, Xue X, Zhou B, Zhang Y, Sun B, Chen J, et al. Population susceptibility differences and effects of air pollution on cardiovascular mortality: epidemiological evidence from a time-series study. Environ Sci Pollut Res Int. 2019;26:15943-15952. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s11356-019-04960-2">https://doi.org/10.1007/s11356-019-04960-2</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Liu</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Xue</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Zhou</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Zhang</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Sun</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Chen</surname>
+							<given-names>J</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Population susceptibility differences and effects of air pollution on cardiovascular mortality: epidemiological evidence from a time-series study</article-title>
+					<source>Environ Sci Pollut Res Int</source>
+					<year>2019</year>
+					<volume>26</volume>
+					<fpage>15943</fpage>
+					<lpage>15952</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s11356-019-04960-2">https://doi.org/10.1007/s11356-019-04960-2</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>24. Yang T, He T, Huang J, Li G. Impact of birth season on the years of life lost from respiratory diseases in the elderly related to ambient PM2.5 exposure in Ningbo, China. Environ Health Prev Med. 2021;26:74. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12199-021-00994-6">https://doi.org/10.1186/s12199-021-00994-6</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Yang</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>He</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Huang</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Li</surname>
+							<given-names>G</given-names>
+						</name>
+					</person-group>
+					<article-title>Impact of birth season on the years of life lost from respiratory diseases in the elderly related to ambient PM2.5 exposure in Ningbo, China</article-title>
+					<source>Environ Health Prev Med</source>
+					<year>2021</year>
+					<volume>26</volume>
+					<size units="pages">74</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12199-021-00994-6">https://doi.org/10.1186/s12199-021-00994-6</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="financial-disclosure" id="fn2">
+				<p><bold>Funding:</bold> Gannan Medical University – Process QD201901. Department of Education of Jiangxi Province – Process GJJ190786.</p>
+			</fn>
+		</fn-group>
+	</back>
+</article>

@@ -1,0 +1,1997 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.1" specific-use="sps-1.9" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="nlm-ta">Rev Saude Publica</journal-id>
+			<journal-id journal-id-type="publisher-id">rsp</journal-id>
+			<journal-title-group>
+				<journal-title>Revista de Saúde Pública</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Rev. Saúde Pública</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="ppub">0034-8910</issn>
+			<issn pub-type="epub">1518-8787</issn>
+			<publisher>
+				<publisher-name>Faculdade de Saúde Pública da Universidade de São Paulo</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="other">00216</article-id>
+			<article-id pub-id-type="doi">10.11606/s1518-8787.2022056003467</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Original Article</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Decision aid for prostate cancer screening in Brazil</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-6747-0184</contrib-id>
+					<name>
+						<surname>Santos</surname>
+						<given-names>Renata Oliveira Maciel dos</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-2264-0442</contrib-id>
+					<name>
+						<surname>Abreu</surname>
+						<given-names>Mirhelen Mendes de</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-4861-2319</contrib-id>
+					<name>
+						<surname>Migowski</surname>
+						<given-names>Arn</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>III</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-6149-3396</contrib-id>
+					<name>
+						<surname>Engstrom</surname>
+						<given-names>Elyne Montenegro</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff4"><sup>IV</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>I</label>
+				<institution content-type="orgname">Instituto Nacional de Câncer José Alencar Gomes da Silva</institution>
+				<addr-line>
+					<named-content content-type="city">Rio de Janeiro</named-content>
+					<named-content content-type="state">RJ</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Instituto Nacional de Câncer José Alencar Gomes da Silva. Rio de Janeiro, RJ, Brasil</institution>
+			</aff>
+			<aff id="aff2">
+				<label>II</label>
+				<institution content-type="orgname">Universidade Federal do Rio de Janeiro</institution>
+				<institution content-type="orgdiv2">Programa de Pós-Graduação em Clínica Médica</institution>
+				<institution content-type="orgdiv1">Faculdade de Medicina</institution>
+				<addr-line>
+					<named-content content-type="city">Rio de Janeiro</named-content>
+					<named-content content-type="state">RJ</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Universidade Federal do Rio de Janeiro. Programa de Pós-Graduação em Clínica Médica da Faculdade de Medicina. Rio de Janeiro, RJ, Brasil</institution>
+			</aff>
+			<aff id="aff3">
+				<label>III</label>
+				<institution content-type="orgname">Instituto Nacional de Câncer José Alencar Gomes da Silva</institution>
+				<institution content-type="orgdiv1">Instituto Nacional de Cardiologia</institution>
+				<addr-line>
+					<named-content content-type="city">Rio de Janeiro</named-content>
+					<named-content content-type="state">RJ</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Instituto Nacional de Câncer José Alencar Gomes da Silva. Instituto Nacional de Cardiologia. Rio de Janeiro, RJ, Brasil</institution>
+			</aff>
+			<aff id="aff4">
+				<label>IV</label>
+				<institution content-type="orgname">Fundação Oswaldo Cruz</institution>
+				<institution content-type="orgdiv1">Escola Nacional de Saúde Pública Sergio Arouca</institution>
+				<addr-line>
+					<named-content content-type="city">Rio de Janeiro</named-content>
+					<named-content content-type="state">RJ</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Fundação Oswaldo Cruz. Escola Nacional de Saúde Pública Sergio Arouca. Rio de Janeiro, RJ, Brasil</institution>
+			</aff>
+			<author-notes>
+				<corresp id="c01"> Correspondence: Renata Oliveira Maciel dos Santos Instituto Nacional de Câncer José Alencar Gomes da Silva Rua Marquês de Pombal, 125 20230-240 Rio de Janeiro, RJ, Brasil E-mail: <email>renata.santos@inca.gov.br</email>
+				</corresp>
+				<fn fn-type="con">
+					<p><bold>Authors’ Contribution:</bold> Study design and planning: ROMS, EME. Data collection, analysis, and interpretation: ROMS, EME, MMA. Draft writing and review: ROMS, MMA, AM, EME. Final draft approval: ROMS, MMA, AM, EME. Public responsibility for the content of the article: ROMS, MMA, AM, EME.</p>
+				</fn>
+				<fn fn-type="conflict">
+					<p><bold>Conflict of Interest:</bold> The authors declare no conflict of interest.</p>
+				</fn>
+			</author-notes>
+			<pub-date date-type="pub" publication-format="electronic">
+				<day>08</day>
+				<month>04</month>
+				<year>2022</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">
+				<year>2022</year>
+			</pub-date>
+			<volume>56</volume>
+			<elocation-id>19</elocation-id>
+			<history>
+				<date date-type="received">
+					<day>6</day>
+					<month>01</month>
+					<year>2021</year>
+				</date>
+				<date date-type="accepted">
+					<day>22</day>
+					<month>06</month>
+					<year>2021</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="en">
+					<license-p> This is an Open Access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. </license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>ABSTRACT</title>
+				<sec>
+					<title>OBJECTIVE</title>
+					<p> To present the development and validation processes of a decision aid for prostate cancer screening in Brazil.</p>
+				</sec>
+				<sec>
+					<title>METHODS</title>
+					<p> Study with qualitative-participatory design for the elaboration of a decision aid for prostate cancer screening, with the participation of a group of men and physicians inserted in primary health care in 11 Brazilian states. Evidence synthesis, field testing, and use in clinical scenarios were performed to adapt the content, format, language, and applicability towards the needs of the target audience in the years 2018 and 2019. The versions were subsequently evaluated by the participants and modified based on the data obtained.</p>
+				</sec>
+				<sec>
+					<title>RESULTS</title>
+					<p> We elaborated an unprecedented tool in Brazil, with information about the tests used in the screening, comparison of their possible benefits and harms and a numerical infographic with the consequences of this practice. We verified the decision aid usability to assist in the communication between the doctor and the man in the context of primary health care, besides identifying the need for greater discussion about sharing decisions in clinical scenarios.</p>
+				</sec>
+				<sec>
+					<title>CONCLUSION</title>
+					<p> The tool was easy to use, objective, and has little interference in consultation time. It is a technical-scientific material, produced by research, with the participation of its main target audience and which is available free of charge for use in Brazilian clinical scenarios.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="en">
+				<kwd>Prostatic Neoplasms, prevention &amp; control</kwd>
+				<kwd>Mass Screening. Clinical Decision-Making</kwd>
+				<kwd>Use of Scientific Information for Health Decision Making</kwd>
+				<kwd>Physician-Patient Relations</kwd>
+			</kwd-group>
+			<funding-group>
+				<award-group>
+					<funding-source>CAPES</funding-source>
+					<award-id>34</award-id>
+				</award-group>
+				<funding-statement>Funding: Internal Notice of Financial Support to Projects of Students of the Program – 2019, Ordinance No. 34, of May 30, 2006, which approves and regulates the Academic Excellence Program – PROEX/CAPES.</funding-statement>
+			</funding-group>
+			<counts>
+				<fig-count count="4"/>
+				<table-count count="4"/>
+				<equation-count count="0"/>
+				<ref-count count="28"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>INTRODUCTION</title>
+			<p>Prostate cancer screening is widespread in clinical practice, although the best available evidence points to an imbalance between the harms and possible benefits of this practice<sup><xref ref-type="bibr" rid="B1">1</xref></sup>. The routine performance of the prostate specific antigen (PSA) and/or digital rectal examination in asymptomatic men results in many diagnoses and is followed by important damage to the quality of life of men<sup><xref ref-type="bibr" rid="B2">2</xref></sup>.</p>
+			<p>These harms result from false-positive results, which may need a biopsy to rule out cancer, which may cause pain, bleeding, and infection<sup><xref ref-type="bibr" rid="B2">2</xref></sup>. Other harms are related to overdiagnosis and overtreatment, which are, respectively, to diagnose and treat a cancer that would not threaten life and have as more common complications erectile sexual dysfunction and urinary incontinence<sup><xref ref-type="bibr" rid="B2">2</xref>,<xref ref-type="bibr" rid="B3">3</xref></sup>, in addition to emotional effects to men and family members.</p>
+			<p>Considering this information, since 2008, the National Cancer Institute (INCA) recommends that screening should only be done in men who spontaneously demand these tests and after shared decision-making, considering the risks and the uncertainty benefits<sup><xref ref-type="bibr" rid="B4">4</xref>,<xref ref-type="bibr" rid="B5">5</xref></sup>.</p>
+			<p>Shared decision-making is characterized by a collaborative process, where care options and their possible consequences are discussed to achieve the decision most appropriate for the person’s life context. This approach is especially relevant in situations with some degree of uncertainty in the relationship between harms and benefits. To facilitate share decision-making, international experiences recommend the use of clinical tools, called decision aid, to facilitate communication and deliberation. These tools are indicated, especially when the health outcomes encompass reasonable options, which people value differently<sup><xref ref-type="bibr" rid="B6">6</xref></sup>.</p>
+			<p>Decision aids may have various formats, including printed material, videos, or electronic devices, which stimulate the participation of users in share decision-making, facilitating the increase of knowledge on the discussed theme<sup><xref ref-type="bibr" rid="B7">7</xref>,<xref ref-type="bibr" rid="B8">8</xref></sup>.</p>
+			<p>To assist in the clinical communication of the implications of prostate cancer screening, a sensitive practice to individual preferences, we proposed to build a material that can be used during consultation in primary health care, the responsible level for cancer early detection in the Unified Health System<sup><xref ref-type="bibr" rid="B9">9</xref></sup>. The tool is a technical material of a Brazilian federal institution, available and distributed to primary health units in Brazil. Thus, this study aims to present the development and validation processes of a decision aid for prostate cancer screening in Brazil.</p>
+		</sec>
+		<sec sec-type="methods">
+			<title>METHODS</title>
+			<p>Following the International Patient Decision Aid Standards and previous experiences<sup><xref ref-type="bibr" rid="B10">10</xref></sup>, a three-step approach was used to develop and validate the decision aid, considering the target audience evaluation: healthy men and primary health care physicians. The study design was qualitative-participative, which advocates the integration of the subjects along the production of the study, contributing not only with consent or information, but modifying its direction from their knowledge and experiences<sup><xref ref-type="bibr" rid="B13">13</xref>,<xref ref-type="bibr" rid="B14">14</xref></sup>, as described in the following steps:</p>
+			<sec>
+				<title>Step 1: Tool Design</title>
+				<p>The first stage aimed to define the content and build the first version of the decision aid alongside experts. A literature review was conducted, with synthesis of the main available evidence on prostate cancer screening, considering clinical trials and systematic reviews on the effectiveness and consequences of screening. The search keywords was “prostate cancer”, “screening”, and “decision aid” in a combined way, in MEDLINE database, in Portuguese and English, for studies published in the last five years, without language filter.</p>
+				<p>The search recovered initially 1,200 references, resulted in 150 articles after title selection to check the scope and deleting 247 duplicates. Evaluating these 150 abstracts led to 20 articles for complete reading and analysis of evidence. Websites of research institutions that develop decision aids were also consulted as additional sources and examples of infographics<sup><xref ref-type="bibr" rid="B15">15</xref>,<xref ref-type="bibr" rid="B16">16</xref></sup>. The search subsidized the decision aid first version , constructed based on the contribution of six experts in cancer early detection and family medicine.</p>
+			</sec>
+			<sec>
+				<title>Step 2: Calibration: Pilot Test.</title>
+				<p>The pilot test sought to adapt the format and language to the target audience: healthy men of mature age (approximately 40 years). The evaluation occurred by using a focus group, with 19 participants, employees of a public energy company, located in the municipality of Rio de Janeiro.</p>
+				<p>This scenario was chosen due to the company’s previous request to the federal institution for educational lectures on cancer for its workers. At the time, it was verified that the company had a considerable number of employees who fulfilled the inclusion criterion of the study. Thus, workers were invited to participate voluntarily in a research meeting during their work shift.</p>
+				<p>The meeting took place with audio recording, conducted by two facilitators, who worked on the research questions after individual and collective reading of the printed tool. The contributions were analyzed and incorporated into the second version, which followed the next stage of the study.</p>
+			</sec>
+			<sec>
+				<title>Step 3: Feasibility and Use of the Tool</title>
+				<p>At this stage, the decision aid was applied by physicians in primary health care settings to a sample of their target audience, aiming to evaluate its applicability. Physicians were asked to use the tool in their consultation when some man demanded tests for prostate cancer screening. As inclusion criteria, physicians should have been working for at least one year in a primary health unit.</p>
+				<p>The physicians were invited by e-mail, telephone, or messaging application, after dissemination of the study by using the researchers’ network. The invitation explained the research objectives , the criteria for participation and asked interested parties to contact the lead researcher by e-mail or telephone. The interviewees were also asked to appoint other physicians to be invited.</p>
+				<p>The researchers sent 93 invitations, resulting in 42 responses from physicians interested in receiving and testing the tool. Weekly contacts were made with the participants to follow the study and request videoconference interview scheduling, after at least three uses. No doctor reported giving up participating in the study, however, 21 did not return follow-up messages and 6 claimed to have had no opportunity to use the tool. In the end, 15 physicians from 11 Brazilian states (Espírito Santo, Minas Gerais (2), Rio de Janeiro (2), Paraná, Paraíba (2), São Paulo, Santa Catarina, Rio Grande do Sul, Goiás, Rondônia, and Sergipe (2)) were interviewed.</p>
+				<p>Physicians evaluated the tool for the following criteria<sup><xref ref-type="bibr" rid="B11">11</xref>,<xref ref-type="bibr" rid="B12">12</xref></sup>:</p>
+				<list list-type="bullet">
+					<list-item>
+						<p>Content quality: examine the quality of information and the accuracy of scientific evidence;</p>
+					</list-item>
+					<list-item>
+						<p>Layout: evaluate the layout and the infographic;</p>
+					</list-item>
+					<list-item>
+						<p>Applicability: verify its application in the clinical context, use, acceptability, and interference in the consultation time.</p>
+					</list-item>
+				</list>
+				<p>The interviews were recorded, fully transcribed, and analyzed based on the previously described criteria. The suggestions for changes were incorporated into the decision aid, which went to the final version with text and layout adjustments and was later published as a technical product of a national institution specialized in cancer. The final version was sent to ten interviewed physicians who expressed a desire to receive the tool and four sent back comments.</p>
+				<p>This study followed the requirements of Resolutions 466/2012 and 580/2018 of the National Health Council regarding ethics in research with human beings, and was approved by CEP/ENSP, CAE: 12165019.4.0000.5240. All participants provided their agreement by signing the informed consent form.</p>
+			</sec>
+		</sec>
+		<sec sec-type="results">
+			<title>RESULTS</title>
+			<p>We developed the decision aid during the years 2018 and 2019 resulting in a two-page material, composed of explanatory texts on prostate cancer screening, the tests used, a comparative table on its harms and benefits, ending with a numerical infographic on the consequences of this practice. The technical content was based on the evidence of screening effectiveness <sup><xref ref-type="bibr" rid="B2">2</xref>,<xref ref-type="bibr" rid="B15">15</xref></sup>, and we used the most current systematic review found, 2018<sup><xref ref-type="bibr" rid="B2">2</xref></sup>, as the main source of the infographic.</p>
+			<p>Following international models, the infographic starts with the estimated of screening in 1,000 men aged 55 to 69 years, followed-up throughout 13 years. The data presents the positivity rate of 10.2% for prostate cancer, followed by false-positive, which varied between 10.9% and 19.8% in studies, thus we used the 17.8% rate reported in five research centers monitored by the European randomized study of screening for prostate cancer (ERSPC)<sup><xref ref-type="bibr" rid="B18">18</xref></sup>. We also present the specific mortality reduction rates of 1.3% and the overdiagnosis rates of 50% based on this study<sup><xref ref-type="bibr" rid="B2">2</xref>,<xref ref-type="bibr" rid="B16">16</xref></sup>.</p>
+			<p>Regarding the consequences of treatment, we decided to highlight the potential harms of radical prostatectomy, since it is the most common type of treatment and the gold standard in the Brazilian guidelines for the diagnosis and treatment of prostate adenocarcinoma<sup><xref ref-type="bibr" rid="B19">19</xref></sup>. Thus, we presented the rates of 60% for sexual dysfunction, 20% for urinary incontinence and 0.5% for more severe complications and death<sup><xref ref-type="bibr" rid="B2">2</xref>,<xref ref-type="bibr" rid="B16">16</xref></sup>.</p>
+			<p>This first version of the tool went through the pilot test, being evaluated in a focus group composed of 19 men, aged between 38 and 72 years (mean = 51 years) and varied education levels and work function (<xref ref-type="table" rid="t1">Table 1</xref>).</p>
+			<p>
+				<table-wrap id="t1">
+					<label>Table 1</label>
+					<caption>
+						<title>Profile of the men participating in the focus group of the pilot test, Rio de Janeiro, 2019.</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left" style="font-weight:normal">
+								</th>
+								<th>n</th>
+								<th>%</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Group of men</td>
+								<td align="center">19</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td colspan="3">Age</td>
+							</tr>
+							<tr>
+								<td>25 to 29 years old</td>
+								<td align="center">0</td>
+								<td align="center">0</td>
+							</tr>
+							<tr>
+								<td>30 to 39 years old</td>
+								<td align="center">4</td>
+								<td align="center">21</td>
+							</tr>
+							<tr>
+								<td>40 to 49 years old</td>
+								<td align="center">3</td>
+								<td align="center">16</td>
+							</tr>
+							<tr>
+								<td>50 to 59 years old</td>
+								<td align="center">7</td>
+								<td align="center">37</td>
+							</tr>
+							<tr>
+								<td>≥ 60 years old</td>
+								<td align="center">5</td>
+								<td align="center">26</td>
+							</tr>
+							<tr>
+								<td colspan="3">Marital status</td>
+							</tr>
+							<tr>
+								<td>Married</td>
+								<td align="center">12</td>
+								<td align="center">63</td>
+							</tr>
+							<tr>
+								<td>Single</td>
+								<td align="center">6</td>
+								<td align="center">32</td>
+							</tr>
+							<tr>
+								<td>Widower</td>
+								<td align="center">1</td>
+								<td align="center">5</td>
+							</tr>
+							<tr>
+								<td colspan="3">Education level</td>
+							</tr>
+							<tr>
+								<td>Primary education</td>
+								<td align="center">4</td>
+								<td align="center">21</td>
+							</tr>
+							<tr>
+								<td>High school</td>
+								<td align="center">6</td>
+								<td align="center">32</td>
+							</tr>
+							<tr>
+								<td>Unfinished higher education</td>
+								<td align="center">1</td>
+								<td align="center">5</td>
+							</tr>
+							<tr>
+								<td>Complete higher education</td>
+								<td align="center">8</td>
+								<td align="center">42</td>
+							</tr>
+						</tbody>
+					</table>
+				</table-wrap>
+			</p>
+			<p>The group of men evaluation led changes in the amount of information (reduction of text and numerical data) and the infographic has been changed to a simpler and more linear presentation. We also modified some terms to facilitate understanding, but the content was considered appropriate and enlightening by most men. We also excluded reflective questions at the end of the material since mostly men considered them useless.</p>
+			<disp-quote>
+				<p><italic>This information is very important, here we can clearly see what can happen after taking these tests.</italic> M15</p>
+				<p><italic>The material is very good, the flowchart [infographic] shows what can happen… having a complication, doing the surgery, then we think about the possibilities.</italic> M2</p>
+			</disp-quote>
+			<p>The second version of the decision aid, a product of the modifications suggested by the group of men, was evaluated by physicians who used it between three and twelve times (mean = 6), aged between 25 and 46 years (mean = 35 years), more than half were female and most with a short time since graduation (&lt; 5 years) (<xref ref-type="table" rid="t2">Table 2</xref>). Due to the geographical heterogeneity of the physicians’ practices, who worked in urban (60%) and rural (40%) areas, the decision aid was used in men of different profiles, most of them with low level of education and low socioeconomic status, aged around 50 years.</p>
+			<p>
+				<table-wrap id="t2">
+					<label>Table 2</label>
+					<caption>
+						<title>Profile of the physicians who applied the tool, 2019.</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left" style="font-weight:normal">
+								</th>
+								<th>n</th>
+								<th>%</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Physicians</td>
+								<td align="center">15</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td colspan="3">Age</td>
+							</tr>
+							<tr>
+								<td>25 to 29 years old</td>
+								<td align="center">8</td>
+								<td align="center">53</td>
+							</tr>
+							<tr>
+								<td>30 to 39 years old</td>
+								<td align="center">4</td>
+								<td align="center">27</td>
+							</tr>
+							<tr>
+								<td>40 to 49 years old</td>
+								<td align="center">2</td>
+								<td align="center">13</td>
+							</tr>
+							<tr>
+								<td>50 to 59 years old</td>
+								<td align="center">0</td>
+								<td align="center">0</td>
+							</tr>
+							<tr>
+								<td>≥ 60 years old</td>
+								<td align="center">1</td>
+								<td align="center">7</td>
+							</tr>
+							<tr>
+								<td>Genre</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Female</td>
+								<td align="center">9</td>
+								<td align="center">60</td>
+							</tr>
+							<tr>
+								<td>Male</td>
+								<td align="center">6</td>
+								<td align="center">40</td>
+							</tr>
+							<tr>
+								<td>Time since graduation</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>1 and &lt; 2 years</td>
+								<td align="center">6</td>
+								<td align="center">40</td>
+							</tr>
+							<tr>
+								<td>≥ 2 and &lt; 5 years</td>
+								<td align="center">4</td>
+								<td align="center">27</td>
+							</tr>
+							<tr>
+								<td>≥ 5 and &lt; 8 years</td>
+								<td align="center">4</td>
+								<td align="center">27</td>
+							</tr>
+							<tr>
+								<td>≥ 8 years</td>
+								<td align="center">1</td>
+								<td align="center">7</td>
+							</tr>
+							<tr>
+								<td colspan="3">Specialization</td>
+							</tr>
+							<tr>
+								<td>Residency in family and community medicine</td>
+								<td align="center">8</td>
+								<td align="center">53</td>
+							</tr>
+							<tr>
+								<td>Other</td>
+								<td align="center">1</td>
+								<td align="center">7</td>
+							</tr>
+							<tr>
+								<td>Do not have</td>
+								<td align="center">6</td>
+								<td align="center">40</td>
+							</tr>
+							<tr>
+								<td colspan="3">Region</td>
+							</tr>
+							<tr>
+								<td>North</td>
+								<td align="center">1</td>
+								<td align="center">7</td>
+							</tr>
+							<tr>
+								<td>Northeast</td>
+								<td align="center">4</td>
+								<td align="center">27</td>
+							</tr>
+							<tr>
+								<td>Southeast</td>
+								<td align="center">6</td>
+								<td align="center">40</td>
+							</tr>
+							<tr>
+								<td>Midwest</td>
+								<td align="center">1</td>
+								<td align="center">7</td>
+							</tr>
+							<tr>
+								<td>South</td>
+								<td align="center">3</td>
+								<td align="center">19</td>
+							</tr>
+							<tr>
+								<td>Field of activity</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Urban</td>
+								<td align="center">9</td>
+								<td align="center">60</td>
+							</tr>
+							<tr>
+								<td>Rural</td>
+								<td align="center">6</td>
+								<td align="center">40</td>
+							</tr>
+						</tbody>
+					</table>
+				</table-wrap>
+			</p>
+			<p>Most physicians (86%) considered the decision aid useful for clinical practice and easy to use, highlighting its objectivity and design as the main potentialities. They qualified the technical content as adequate and correct, without disagreement with the information presented.</p>
+			<p>The form of use was at the discretion of each physician, on the computer screen or printed, however, neither was superiority to the other, even when interspersed by the professional. However, some reports suggest greater practicality when the tool is available on the office computer.</p>
+			<disp-quote>
+				<p><italic>It’s easier when the material is already available on the computer we are using to attend and fill out the information in the medical records… when the patient talks about the subject you just open it and show them.</italic> M5</p>
+			</disp-quote>
+			<p>On the other hand, two interviewees considered the decision aid as not very useful; the first states that the harms of screening should not be shown to men and suggested excluding this information; the second stated that the physician would not need to discuss the implications of the screening with the man since this practice is not recommended and suggested that the numerical data could hinder the understanding of men with low education level.<xref ref-type="fig" rid="f01"/>
+				<xref ref-type="fig" rid="f02"/>
+			</p>
+			<p>
+				<fig id="f01">
+					<label>Figure 1</label>
+					<caption>
+						<title>Final version of the decision aid tool for prostate cancer screening, page 1.</title>
+					</caption>
+					<graphic xlink:href="1518-8787-rsp-56-19-gf01.tif"/>
+					<attrib>Source: Brazilian National Cancer Institute José Alencar Gomes da Silva. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.inca.gov.br/publicacoes/infograficos/ferramenta-de-apoio-decisao-no-rastreamento-do-cancer-de-prostata">https://www.inca.gov.br/publicacoes/infograficos/ferramenta-de-apoio-decisao-no-rastreamento-do-cancer-de-prostata</ext-link>
+					</attrib>
+				</fig>
+			</p>
+			<p>
+				<fig id="f02">
+					<label>Figura 2</label>
+					<caption>
+						<title>Final version of the decision aid tool for prostate cancer screening, page 2.</title>
+					</caption>
+					<graphic xlink:href="1518-8787-rsp-56-19-gf02.tif"/>
+					<attrib>Source: Brazilian National Cancer Institute José Alencar Gomes da Silva. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.inca.gov.br/publicacoes/infograficos/ferramenta-de-apoio-decisao-no-rastreamento-do-cancer-de-prostata">https://www.inca.gov.br/publicacoes/infograficos/ferramenta-de-apoio-decisao-no-rastreamento-do-cancer-de-prostata</ext-link>
+					</attrib>
+				</fig>
+			</p>
+			<disp-quote>
+				<p><italic>I thought it was good for the doctor, but I found it hard to explain … I felt that the information is not well understood and ended up taking a little longer to ask the person to look… translate it to him… for me it was good, helped me to systematize the information, but for the public itself, I don’t think it was.</italic> M9</p>
+			</disp-quote>
+			<p>Regarding the interference in the consultation time, 53% of the physicians reported no change and 33% indicated a decrease in time, stating that the tool helps to remember all the points that should be addressed during the conversation, as highlighted in the speech below:</p>
+			<disp-quote>
+				<p><italic>It’s a lot that we have to say to the patient, I have to talk about diabetes, tuberculosis… when everything is already there, it helps a lot… and since I have little practice time, it makes it easier to remember everything I have to say.</italic> M3</p>
+			</disp-quote>
+			<p>Most physicians (67%) reported that men chose to screen less after exposure to the decision aid, compared with previous visits. This change was attributed to a greater understanding of the harms, facilitated by the graphic resources and the institutional credibility conferred on the tool.</p>
+			<disp-quote>
+				<p><italic>It makes a difference when you have an institution behind it. I’m not the one saying, it’s not just the city doctor… There’s a credibility there, I feel safer to say it and the patient sees it written… it makes a lot of difference.</italic> M8</p>
+			</disp-quote>
+			<p>Using the decision aid, physicians said they were more secure to transmit the information about the harms, due to the institutional support conferred by the material. Similarly, reports show that men were more confidence in not submit to the tests when they came across the tool. Physicians also reported that, without the decision aid, men knowing favorable information to screening often showed suspicion when presented to risks, especially those who had already undergone some previous examination.</p>
+			<disp-quote>
+				<p><italic>Some men get a little suspicious, especially the older ones, who have been doing these exams for years… I thought the material helped me show it to them, that there’s a science in it.</italic> M6</p>
+			</disp-quote>
+			<p>On the other hand, the analysis of the interviews also showed that even with the tool the physician’s opinion about screening maintains a great weight in the decision since his beliefs can determine the choice of the man, as highlighted below:</p>
+			<disp-quote>
+				<p><italic>Here’s what happens if you do [the screening] … the risks… but I already show that it has benefits, that I think it’s better to do it, then most choose to do it, right…</italic> M9</p>
+			</disp-quote>
+			<p>In this sense, as a negative point of the decision aid the physicians mentioned the frustration they feel when the man opts for a different decision from their own opinion and the time to incorporate a new tool in their routine. However, 13 interviewees (87%) answered that they would incorporate the tool into professional practice, and two of the physicians conditioned their use to changes in the layout and decrease in the amount of text, which were later incorporated into the final version.</p>
+			<p>The changes suggested by the physicians were excluding an explanatory text about the prostate cancer development, since 93% of the physicians considered it unnecessary, in addition to lengthening the material, and reduce the infographic text, heightening emphasis on numbers and graphic elements.</p>
+			<p>Another issue identified by the interviews was the unfamiliarity of some physicians on the decision aid, so we found necessary to add in the final version an instructional text about its purpose and the importance of discussing the risks and benefits with the man, when he demands the prostate cancer screening.</p>
+			<p>Physicians considered the final published version as easy to use and having appropriate language, content, attractive layout, and easy visualization of information. As external validation, we evaluated the tool using the International Patient Decision Aid Standards (IPDAS) to be incorporated into the International Inventory of Decision Aids<sup><xref ref-type="bibr" rid="B20">20</xref></sup>. The tool met all seven criteria that characterize a decision aid, the four criteria for a screening tool, six of the nine criteria for low risk of biases and 11 of the 13 quality criteria.</p>
+		</sec>
+		<sec sec-type="discussion">
+			<title>DISCUSSION</title>
+			<p>The process of elaboration and validation of the decision aid showed its usefulness in the context of primary health care in Brazil, from the perception of its target audience. The tool was considered easy to use and adequate for communication between the physician and the man, regarding the deliberation on the possible risks and benefits of prostate cancer screening. Among the advantages associated with its use are the systematization of information, objectivity, and little interference in the consultation time.</p>
+			<p>The little interference and even the decrease in consultation time, perceived by some physicians in this study, is an important characteristic for implementation in clinical practice since health professionals constantly face the challenge of balancing many tasks in their time<sup><xref ref-type="bibr" rid="B21">21</xref></sup>. Systematic reviews that evaluated decision aids state that, depending on the context, type of intervention and way of use, consultation time may increase or decrease<sup><xref ref-type="bibr" rid="B7">7</xref>,<xref ref-type="bibr" rid="B8">8</xref></sup>. However, considering that the time spent in quality communication results in satisfaction and better health outcomes, among these, reducing return consultations due to the same causes<sup><xref ref-type="bibr" rid="B22">22</xref>,<xref ref-type="bibr" rid="B23">23</xref></sup>.</p>
+			<p>Regarding the decision aid acceptability, only two physicians interviewed indicated that they would not incorporate it into their clinical practice. One is contrary to screening and, thus, prefers not to discuss this possibility with the man and the other, being favorable, believes that the man should not be exposed to information about the harms. In both cases, the positions denote disagreement with the shared decision to screen for prostate cancer and not with the tool itself.</p>
+			<p>Shared decision-making is characterized by an interpersonal process, in which those involved collaborate to achieve the most appropriate action<sup><xref ref-type="bibr" rid="B22">22</xref>,<xref ref-type="bibr" rid="B23">23</xref></sup>. Although decision aid facilitate this approach<sup><xref ref-type="bibr" rid="B24">24</xref></sup>, by itself, they do not correspond to the whole process, since we could perceive some barriers to its development, such as the omission of the screening risks or the physician’s resistance to accept the man’s opinion , when different from his own.</p>
+			<p>Despite a protectionist intention, regarding the transmission of complex information, this attitude is contradictory with health ethics, which focuses on the individual right to know the consequences of interventions in their body, especially those with uncertain or unfavorable balance between harms and benefits<sup><xref ref-type="bibr" rid="B25">25</xref></sup>.</p>
+			<p>Moreover, the fact that physicians were unfamiliar with the decision aid reveals the need to stimulate the discussion about people participation in health decisions. The few Brazilian studies on shared decision-making point to the lack of implementation and institutionalization of this approach in clinical scenarios, which demonstrates the need to encourage this practice, with educational actions aimed at professionals<sup><xref ref-type="bibr" rid="B26">26</xref></sup>.</p>
+			<p>Similar results are found in studies that evaluated international decision aids, such as the need to invest in visual resources, less text to transmit the content<sup><xref ref-type="bibr" rid="B23">23</xref>,<xref ref-type="bibr" rid="B24">24</xref></sup>, difficulty of professionals in sharing information considered difficult to understand, and resistance to incorporate something new to clinical practice<sup><xref ref-type="bibr" rid="B24">24</xref></sup>.</p>
+			<p>The main limitations of our study are the impossibility of capturing the direct interference of the tool in the men’s decision, due to the difficulty in synchronizing the demand for care with data collection and the absence of comparison between care with and without the decision aid. Moreover, we recommend caution in generalizing the results since this is a qualitative study.</p>
+			<p>As a contribution, we consider the methodological process of development, which involved the target audience in the production of a technical-institutional material to be implemented in primary health care in Brazil, which can be replicated for the elaboration of other materials, and the decision aid itself, which can also be adapted to other scenarios and countries. The decision aid final version is available for free download at: <ext-link ext-link-type="uri" xlink:href="https://www.inca.gov.br/publicacoes/infograficos/ferramenta-de-apoio-decisao-no-rastreamento-do-cancer-de-prostata, also distributed printed in small quantity">https://www.inca.gov.br/publicacoes/infograficos/ferramenta-de-apoio-decisao-no-rastreamento-do-cancer-de-prostata, also distributed printed in small quantity</ext-link>.</p>
+			<p>We conclude that the decision aid developed in this study is useful for clinical practice, assisting in communication between men and physicians, besides favoring the discussion about the risks and benefits of prostate cancer screening. We highlight objectivity, graphic elements, and credibility as positive points, in addition to the little interference in the consultation time.</p>
+			<p>Finally, note that the participation of patients and physicians in the decision aid development made it possible to approximate the content and language to the needs of the target audience reaching, thus, greater correspondence with the material. However, evaluating the direct interference of the tool in the decision of men in future studies and making an implementation plan for the country, considering its regional heterogeneity regarding the organization of primary health care services, are necessary.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>REFERENCES</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. Lowenstein LM, Basourakos SP, Williams MD, Troncoso P, Gregg JR, Thompson TC, et al. Active surveillance for prostate and thyroid cancers: evolution in clinical paradigms and lessons learned. Nat Rev Clin Oncol. 2019;16(3):168-84 <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s41571-018-0116-x">https://doi.org/10.1038/s41571-018-0116-x</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lowenstein</surname>
+							<given-names>LM</given-names>
+						</name>
+						<name>
+							<surname>Basourakos</surname>
+							<given-names>SP</given-names>
+						</name>
+						<name>
+							<surname>Williams</surname>
+							<given-names>MD</given-names>
+						</name>
+						<name>
+							<surname>Troncoso</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Gregg</surname>
+							<given-names>JR</given-names>
+						</name>
+						<name>
+							<surname>Thompson</surname>
+							<given-names>TC</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Active surveillance for prostate and thyroid cancers: evolution in clinical paradigms and lessons learned</article-title>
+					<source>Nat Rev Clin Oncol</source>
+					<year>2019</year>
+					<volume>16</volume>
+					<issue>3</issue>
+					<fpage>168</fpage>
+					<lpage>184</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s41571-018-0116-x">https://doi.org/10.1038/s41571-018-0116-x</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. Fenton JJ, Weyrich MS, Durbin S, Liu Y, Bang H, Melnikow J. Prostate-specific antigen–based screening for prostate cancer: evidence report and systematic review for the US Preventive Services Task Force. JAMA. 2018;319(18):1914-31. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1001/jama.2018.3712">https://doi.org/10.1001/jama.2018.3712</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Fenton</surname>
+							<given-names>JJ</given-names>
+						</name>
+						<name>
+							<surname>Weyrich</surname>
+							<given-names>MS</given-names>
+						</name>
+						<name>
+							<surname>Durbin</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Liu</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Bang</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Melnikow</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>Prostate-specific antigen–based screening for prostate cancer: evidence report and systematic review for the US Preventive Services Task Force</article-title>
+					<source>JAMA</source>
+					<year>2018</year>
+					<volume>319</volume>
+					<issue>18</issue>
+					<fpage>1914</fpage>
+					<lpage>1931</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1001/jama.2018.3712">https://doi.org/10.1001/jama.2018.3712</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. Modesto AAD, Lima RLB, D’Angelis AC, Augusto DK. Um novembro não tão azul: debatendo rastreamento de câncer de próstata e saúde do homem. Interface. 2018;22(64):251-62. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1807-57622016.0288">https://doi.org/10.1590/1807-57622016.0288</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Modesto</surname>
+							<given-names>AAD</given-names>
+						</name>
+						<name>
+							<surname>Lima</surname>
+							<given-names>RLB</given-names>
+						</name>
+						<name>
+							<surname>D’Angelis</surname>
+							<given-names>AC</given-names>
+						</name>
+						<name>
+							<surname>Augusto</surname>
+							<given-names>DK</given-names>
+						</name>
+					</person-group>
+					<article-title>Um novembro não tão azul: debatendo rastreamento de câncer de próstata e saúde do homem</article-title>
+					<source>Interface</source>
+					<year>2018</year>
+					<volume>22</volume>
+					<issue>64</issue>
+					<fpage>251</fpage>
+					<lpage>262</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1807-57622016.0288">https://doi.org/10.1590/1807-57622016.0288</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. Ministério da Saúde (BR), Secretaria de Atenção à Saúde, Coordenação Nacional de Saúde dos Homens, Coordenação de Saúde da Pessoa Idosa; Instituto Nacional do Câncer. Nota Técnica Conjunta n° 001/2015. Posicionamento do Ministério da Saúde acerca da integralidade da saúde dos homens no contexto do Novembro Azul. Brasília, DF; 2015 [cited 2019 Mar 3]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.inca.gov.br/sites/ufu.sti.inca.local/files/media/document/nota-tecnica-saude-do-homem-ms.pdf">https://www.inca.gov.br/sites/ufu.sti.inca.local/files/media/document/nota-tecnica-saude-do-homem-ms.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+						<collab>Secretaria de Atenção à Saúde</collab>
+						<collab>Coordenação Nacional de Saúde dos Homens</collab>
+						<collab>Coordenação de Saúde da Pessoa Idosa</collab>
+						<collab>Instituto Nacional do Câncer</collab>
+					</person-group>
+					<source>Nota Técnica Conjunta n° 001/2015. Posicionamento do Ministério da Saúde acerca da integralidade da saúde dos homens no contexto do Novembro Azul</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<year>2015</year>
+					<date-in-citation content-type="cited-date">cited 2019 Mar 3</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.inca.gov.br/sites/ufu.sti.inca.local/files/media/document/nota-tecnica-saude-do-homem-ms.pdf">https://www.inca.gov.br/sites/ufu.sti.inca.local/files/media/document/nota-tecnica-saude-do-homem-ms.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Instituto Nacional de Câncer. Rastreamento do Câncer de Próstata. Rio de Janeiro: INCA; 2013 [cited 2019 Mar 13]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.inca.gov.br/sites/ufu.sti.inca.local/files/media/document/rastreamento-prostata-2013.pdf">https://www.inca.gov.br/sites/ufu.sti.inca.local/files/media/document/rastreamento-prostata-2013.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Instituto Nacional de Câncer</collab>
+					</person-group>
+					<source>Rastreamento do Câncer de Próstata</source>
+					<publisher-loc>Rio de Janeiro</publisher-loc>
+					<publisher-name>INCA</publisher-name>
+					<year>2013</year>
+					<date-in-citation content-type="cited-date">cited 2019 Mar 13</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.inca.gov.br/sites/ufu.sti.inca.local/files/media/document/rastreamento-prostata-2013.pdf">https://www.inca.gov.br/sites/ufu.sti.inca.local/files/media/document/rastreamento-prostata-2013.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. Coylewright M, Keevil JG, Xu K, Dodge SE, Frosch D, Field ME. Pragmatic study of clinician use of a personalized patient decision aid integrated into the electronic health record: an 8-year experience. Telemed J E Health. 2020;26(5):597-602. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1089/tmj.2019.0112">https://doi.org/10.1089/tmj.2019.0112</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Coylewright</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Keevil</surname>
+							<given-names>JG</given-names>
+						</name>
+						<name>
+							<surname>Xu</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Dodge</surname>
+							<given-names>SE</given-names>
+						</name>
+						<name>
+							<surname>Frosch</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Field</surname>
+							<given-names>ME</given-names>
+						</name>
+					</person-group>
+					<article-title>Pragmatic study of clinician use of a personalized patient decision aid integrated into the electronic health record: an 8-year experience</article-title>
+					<source>Telemed J E Health</source>
+					<year>2020</year>
+					<volume>26</volume>
+					<issue>5</issue>
+					<fpage>597</fpage>
+					<lpage>602</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1089/tmj.2019.0112">https://doi.org/10.1089/tmj.2019.0112</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. Stacey D, Légaré F, Lewis K, Barry MJ, Bennett CL, Eden KB, et al. Decision aids for people facing health treatment or screening decisions. Cochrane Database Syst Rev. 2017;(4):CD001431. <ext-link ext-link-type="uri" xlink:href="https://doi.org/doi/10.1002/14651858.CD001431.pub5/full">https://doi.org/doi/10.1002/14651858.CD001431.pub5/full</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Stacey</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Légaré</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Lewis</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Barry</surname>
+							<given-names>MJ</given-names>
+						</name>
+						<name>
+							<surname>Bennett</surname>
+							<given-names>CL</given-names>
+						</name>
+						<name>
+							<surname>Eden</surname>
+							<given-names>KB</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Decision aids for people facing health treatment or screening decisions</article-title>
+					<source>Cochrane Database Syst Rev</source>
+					<year>2017</year>
+					<issue>4</issue>
+					<size units="pages">CD001431</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/doi/10.1002/14651858.CD001431.pub5/full">https://doi.org/doi/10.1002/14651858.CD001431.pub5/full</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Riikonen JM, Guyatt GH, Kilpeläinen TP, Craigie S, Agarwal A, Agoritsas T, et al. Decision aids for prostate cancer screening choice: a systematic review and meta-analysis. JAMA Intern Med. 2019;179(8):1072-82. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1001/jamainternmed.2019.0763">https://doi.org/10.1001/jamainternmed.2019.0763</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Riikonen</surname>
+							<given-names>JM</given-names>
+						</name>
+						<name>
+							<surname>Guyatt</surname>
+							<given-names>GH</given-names>
+						</name>
+						<name>
+							<surname>Kilpeläinen</surname>
+							<given-names>TP</given-names>
+						</name>
+						<name>
+							<surname>Craigie</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Agarwal</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Agoritsas</surname>
+							<given-names>T</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Decision aids for prostate cancer screening choice: a systematic review and meta-analysis</article-title>
+					<source>JAMA Intern Med</source>
+					<year>2019</year>
+					<volume>179</volume>
+					<issue>8</issue>
+					<fpage>1072</fpage>
+					<lpage>1082</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1001/jamainternmed.2019.0763">https://doi.org/10.1001/jamainternmed.2019.0763</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. Ministério da Saúde (BR). Portaria de Consolidação Nº 2. Consolidação das normas sobre as políticas de saúde do Sistema Único de Saúde. Anexo IX Política Nacional para Prevenção e Controle do Câncer (PNPCC). Art 3º. Brasília, DF; 2017 [cited 2018 Dec 11]. Available from: <ext-link ext-link-type="uri" xlink:href="https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/MatrizesConsolidacao/Matriz-2-Politicas.html">https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/MatrizesConsolidacao/Matriz-2-Politicas.html</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+					</person-group>
+					<source>Portaria de Consolidação Nº 2. Consolidação das normas sobre as políticas de saúde do Sistema Único de Saúde. Anexo IX Política Nacional para Prevenção e Controle do Câncer (PNPCC). Art 3º</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<year>2017</year>
+					<date-in-citation content-type="cited-date">cited 2018 Dec 11</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/MatrizesConsolidacao/Matriz-2-Politicas.html">https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/MatrizesConsolidacao/Matriz-2-Politicas.html</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. Sepucha KR, Abhyankar P, Hoffman AS, Bekker HL, LeBlanc A, Levin CA, et al. Standards for UNiversal reporting of patient decision aid evaluation studies: the development of SUNDAE Checklist. BMJ Qual Saf. 2018;27(5):380-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/bmjqs-2017-006986">https://doi.org/10.1136/bmjqs-2017-006986</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sepucha</surname>
+							<given-names>KR</given-names>
+						</name>
+						<name>
+							<surname>Abhyankar</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Hoffman</surname>
+							<given-names>AS</given-names>
+						</name>
+						<name>
+							<surname>Bekker</surname>
+							<given-names>HL</given-names>
+						</name>
+						<name>
+							<surname>LeBlanc</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Levin</surname>
+							<given-names>CA</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Standards for UNiversal reporting of patient decision aid evaluation studies: the development of SUNDAE Checklist</article-title>
+					<source>BMJ Qual Saf</source>
+					<year>2018</year>
+					<volume>27</volume>
+					<issue>5</issue>
+					<fpage>380</fpage>
+					<lpage>388</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/bmjqs-2017-006986">https://doi.org/10.1136/bmjqs-2017-006986</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. Abreu MM, Gafni A, Ferraz MB. The use of a decision board to elicit Brazilian patients’ and physicians’ preferences for treatment: the case of lupus nephritis. Value Health. 2011;14(5 Suppl):S141-6. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jval.2011.05.015">https://doi.org/10.1016/j.jval.2011.05.015</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Abreu</surname>
+							<given-names>MM</given-names>
+						</name>
+						<name>
+							<surname>Gafni</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Ferraz</surname>
+							<given-names>MB</given-names>
+						</name>
+					</person-group>
+					<article-title>The use of a decision board to elicit Brazilian patients’ and physicians’ preferences for treatment: the case of lupus nephritis</article-title>
+					<source>Value Health</source>
+					<year>2011</year>
+					<volume>14</volume>
+					<issue>5</issue>
+					<supplement>Suppl</supplement>
+					<fpage>S141</fpage>
+					<lpage>S146</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jval.2011.05.015">https://doi.org/10.1016/j.jval.2011.05.015</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. Ferraz MB, Ciconelli RM, Vilar MJ. Patient’s preference regarding the option of performing unselective liver biopsy following methotrexate treatment in rheumatoid arthritis. Clin Exp Rheumatol. 1994;12(6):621-5.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ferraz</surname>
+							<given-names>MB</given-names>
+						</name>
+						<name>
+							<surname>Ciconelli</surname>
+							<given-names>RM</given-names>
+						</name>
+						<name>
+							<surname>Vilar</surname>
+							<given-names>MJ</given-names>
+						</name>
+					</person-group>
+					<article-title>Patient’s preference regarding the option of performing unselective liver biopsy following methotrexate treatment in rheumatoid arthritis</article-title>
+					<source>Clin Exp Rheumatol</source>
+					<year>1994</year>
+					<volume>12</volume>
+					<issue>6</issue>
+					<fpage>621</fpage>
+					<lpage>625</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. Wallerstein NB, Duran B. Using community-based participatory research to address health disparities. Health Promot Pract. 2006;7(3):312-23. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/1524839906289376">https://doi.org/10.1177/1524839906289376</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Wallerstein</surname>
+							<given-names>NB</given-names>
+						</name>
+						<name>
+							<surname>Duran</surname>
+							<given-names>B</given-names>
+						</name>
+					</person-group>
+					<article-title>Using community-based participatory research to address health disparities</article-title>
+					<source>Health Promot Pract</source>
+					<year>2006</year>
+					<volume>7</volume>
+					<issue>3</issue>
+					<fpage>312</fpage>
+					<lpage>323</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/1524839906289376">https://doi.org/10.1177/1524839906289376</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. Parker M, Wallerstein N, Duran B, Magarati M, Burgess E, Sanchez-Youngman S, et al. Engage for equity: development of community-based participatory research tools. Health Educ Behav. 2020;47(3):359-71. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/1090198120921188">https://doi.org/10.1177/1090198120921188</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Parker</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Wallerstein</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Duran</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Magarati</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Burgess</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Sanchez-Youngman</surname>
+							<given-names>S</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Engage for equity: development of community-based participatory research tools</article-title>
+					<source>Health Educ Behav</source>
+					<year>2020</year>
+					<volume>47</volume>
+					<issue>3</issue>
+					<fpage>359</fpage>
+					<lpage>371</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/1090198120921188">https://doi.org/10.1177/1090198120921188</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. Canadian Task Force on Preventive Health Care. Ottawa (CA): CTFPHC; 2014 [cited 2019 Dec 31]. Available from: <ext-link ext-link-type="uri" xlink:href="https://canadiantaskforce.ca/">https://canadiantaskforce.ca/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<source>Canadian Task Force on Preventive Health Care</source>
+					<publisher-loc>Ottawa (CA)</publisher-loc>
+					<publisher-name>CTFPHC</publisher-name>
+					<year>2014</year>
+					<date-in-citation content-type="cited-date">cited 2019 Dec 31</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://canadiantaskforce.ca/">https://canadiantaskforce.ca/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. US Preventive Services Task Force. Final Recommendation Statement: Prostate Cancer: screening. Rockville, MD: USPSTF; 2018 [cited 2019 Dec 2]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.uspreventiveservicestaskforce.org/Page/Document/RecommendationStatementFinal/prostate-cancer-screening1">https://www.uspreventiveservicestaskforce.org/Page/Document/RecommendationStatementFinal/prostate-cancer-screening1</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>US Preventive Services Task Force</collab>
+					</person-group>
+					<source>Final Recommendation Statement: Prostate Cancer: screening</source>
+					<publisher-loc>Rockville, MD</publisher-loc>
+					<publisher-name>USPSTF</publisher-name>
+					<year>2018</year>
+					<date-in-citation content-type="cited-date">cited 2019 Dec 2</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.uspreventiveservicestaskforce.org/Page/Document/RecommendationStatementFinal/prostate-cancer-screening1">https://www.uspreventiveservicestaskforce.org/Page/Document/RecommendationStatementFinal/prostate-cancer-screening1</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Moyer VA; U.S. Preventive Services Task Force. Screening for prostate cancer: U.S. Preventive Services Task Force recommendation statement. Ann Intern Med. 2012;157(2):120-34. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7326/0003-4819-157-2-201207170-00459">https://doi.org/10.7326/0003-4819-157-2-201207170-00459</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Moyer</surname>
+							<given-names>VA</given-names>
+						</name>
+						<collab>U.S. Preventive Services Task Force</collab>
+					</person-group>
+					<article-title>Screening for prostate cancer: U.S. Preventive Services Task Force recommendation statement</article-title>
+					<source>Ann Intern Med</source>
+					<year>2012</year>
+					<volume>157</volume>
+					<issue>2</issue>
+					<fpage>120</fpage>
+					<lpage>134</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7326/0003-4819-157-2-201207170-00459">https://doi.org/10.7326/0003-4819-157-2-201207170-00459</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18. Schröder FH, Hugosson J, Roobol MJ, Tammela TLJ, Zappa M, Nelen V, et al. Screening and prostate cancer mortality: results of the European Randomised Study of Screening for Prostate Cancer (ERSPC) at 13 years of follow-up. Lancet. 2014;384(9959):2027-35. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(14)60525-0">https://doi.org/10.1016/S0140-6736(14)60525-0</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Schröder</surname>
+							<given-names>FH</given-names>
+						</name>
+						<name>
+							<surname>Hugosson</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Roobol</surname>
+							<given-names>MJ</given-names>
+						</name>
+						<name>
+							<surname>Tammela</surname>
+							<given-names>TLJ</given-names>
+						</name>
+						<name>
+							<surname>Zappa</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Nelen</surname>
+							<given-names>V</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Screening and prostate cancer mortality: results of the European Randomised Study of Screening for Prostate Cancer (ERSPC) at 13 years of follow-up</article-title>
+					<source>Lancet</source>
+					<year>2014</year>
+					<volume>384</volume>
+					<issue>9959</issue>
+					<fpage>2027</fpage>
+					<lpage>2035</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(14)60525-0">https://doi.org/10.1016/S0140-6736(14)60525-0</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19. Ministério da Saúde (BR), Secretaria de Atenção à Saúde. Portaria Nº 498, de 11 de maio de 2016. Aprova as Diretrizes Diagnósticas e Terapêuticas do Adenocarcinoma de Próstata. Brasília, DF; 2016 [cited 2020 Dec 23]. Available from: <ext-link ext-link-type="uri" xlink:href="http://conitec.gov.br/images/Protocolos/DDT/DDT_Adenocarcinoma_Prostata.pdf">http://conitec.gov.br/images/Protocolos/DDT/DDT_Adenocarcinoma_Prostata.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+						<collab>Secretaria de Atenção à Saúde</collab>
+					</person-group>
+					<source>Portaria Nº 498, de 11 de maio de 2016. Aprova as Diretrizes Diagnósticas e Terapêuticas do Adenocarcinoma de Próstata</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<year>2016</year>
+					<date-in-citation content-type="cited-date">cited 2020 Dec 23</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="http://conitec.gov.br/images/Protocolos/DDT/DDT_Adenocarcinoma_Prostata.pdf">http://conitec.gov.br/images/Protocolos/DDT/DDT_Adenocarcinoma_Prostata.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20. Ottawa Hospital. A to Z Inventory of Patient Decision Aids. Ottawa (CA): Hospital Research Institute; 2019 [cited 2020 Dec 23]. Available from: <ext-link ext-link-type="uri" xlink:href="https://decisionaid.ohri.ca/azinvent.php">https://decisionaid.ohri.ca/azinvent.php</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Ottawa Hospital</collab>
+					</person-group>
+					<source>A to Z Inventory of Patient Decision Aids</source>
+					<publisher-loc>Ottawa (CA)</publisher-loc>
+					<publisher-name>Hospital Research Institute</publisher-name>
+					<year>2019</year>
+					<date-in-citation content-type="cited-date">cited 2020 Dec 23</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://decisionaid.ohri.ca/azinvent.php">https://decisionaid.ohri.ca/azinvent.php</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>21. Santos ROM, Romano VF, Engstrom EM. Vínculo longitudinal na Saúde da Família: construção fundamentada no modelo de atenção, práticas interpessoais e organização dos serviços. Physis. 2018;28(2):e280206. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0103-73312018280206">https://doi.org/10.1590/S0103-73312018280206</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Santos</surname>
+							<given-names>ROM</given-names>
+						</name>
+						<name>
+							<surname>Romano</surname>
+							<given-names>VF</given-names>
+						</name>
+						<name>
+							<surname>Engstrom</surname>
+							<given-names>EM</given-names>
+						</name>
+					</person-group>
+					<article-title>Vínculo longitudinal na Saúde da Família: construção fundamentada no modelo de atenção, práticas interpessoais e organização dos serviços</article-title>
+					<source>Physis</source>
+					<year>2018</year>
+					<volume>28</volume>
+					<issue>2</issue>
+					<elocation-id>e280206</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0103-73312018280206">https://doi.org/10.1590/S0103-73312018280206</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>22. Pieterse AH, Stiggelbout AM, Montori VM. Shared decision making and the importance of time. JAMA. 2019;322(1):25-6. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1001/jama.2019.3785">https://doi.org/10.1001/jama.2019.3785</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pieterse</surname>
+							<given-names>AH</given-names>
+						</name>
+						<name>
+							<surname>Stiggelbout</surname>
+							<given-names>AM</given-names>
+						</name>
+						<name>
+							<surname>Montori</surname>
+							<given-names>VM</given-names>
+						</name>
+					</person-group>
+					<article-title>Shared decision making and the importance of time</article-title>
+					<source>JAMA</source>
+					<year>2019</year>
+					<volume>322</volume>
+					<issue>1</issue>
+					<fpage>25</fpage>
+					<lpage>26</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1001/jama.2019.3785">https://doi.org/10.1001/jama.2019.3785</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>23. Hargraves IG, Montori VM, Brito JP, Kunneman M, Shaw K, LaVecchia C, et al. Purposeful SDM: a problem-based approach to caring for patients with shared decision making. Patient Educ Couns. 2019;102(10):1786-92. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.pec.2019.07.020">https://doi.org/10.1016/j.pec.2019.07.020</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hargraves</surname>
+							<given-names>IG</given-names>
+						</name>
+						<name>
+							<surname>Montori</surname>
+							<given-names>VM</given-names>
+						</name>
+						<name>
+							<surname>Brito</surname>
+							<given-names>JP</given-names>
+						</name>
+						<name>
+							<surname>Kunneman</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Shaw</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>LaVecchia</surname>
+							<given-names>C</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Purposeful SDM: a problem-based approach to caring for patients with shared decision making</article-title>
+					<source>Patient Educ Couns</source>
+					<year>2019</year>
+					<volume>102</volume>
+					<issue>10</issue>
+					<fpage>1786</fpage>
+					<lpage>1792</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.pec.2019.07.020">https://doi.org/10.1016/j.pec.2019.07.020</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>24. Goldwag J, Marsicovetere P, Scalia P, Johnson HA, Durand MA, Elwyn G, et al. The impact of decision aids in patients with colorectal cancer: a systematic review. BMJ Open. 2019;9(9):e028379. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/bmjopen-2018-028379">https://doi.org/10.1136/bmjopen-2018-028379</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Goldwag</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Marsicovetere</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Scalia</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Johnson</surname>
+							<given-names>HA</given-names>
+						</name>
+						<name>
+							<surname>Durand</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Elwyn</surname>
+							<given-names>G</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>The impact of decision aids in patients with colorectal cancer: a systematic review</article-title>
+					<source>BMJ Open</source>
+					<year>2019</year>
+					<volume>9</volume>
+					<issue>9</issue>
+					<elocation-id>e028379</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/bmjopen-2018-028379">https://doi.org/10.1136/bmjopen-2018-028379</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>25. Nunes FDBRS, Almeida ADL. Informação médica e consentimento de pessoas com câncer. Rev Bioética. 2018;26(1):119-26. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1983-80422018261233">https://doi.org/10.1590/1983-80422018261233</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Nunes</surname>
+							<given-names>FDBRS</given-names>
+						</name>
+						<name>
+							<surname>Almeida</surname>
+							<given-names>ADL</given-names>
+						</name>
+					</person-group>
+					<article-title>Informação médica e consentimento de pessoas com câncer</article-title>
+					<source>Rev Bioética</source>
+					<year>2018</year>
+					<volume>26</volume>
+					<issue>1</issue>
+					<fpage>119</fpage>
+					<lpage>126</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1983-80422018261233">https://doi.org/10.1590/1983-80422018261233</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation>26. Stephan LS, Almeida ED, Guimarães RB, Ley AG, Mathias RG, Assis MV, et al. Anticoagulação oral na fibrilação atrial: desenvolvimento e avaliação de um aplicativo de saúde móvel para suporte à decisão compartilhada. Arq Bras Cardiol. 2018;110(1):7-15. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5935/abc.20170181">https://doi.org/10.5935/abc.20170181</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Stephan</surname>
+							<given-names>LS</given-names>
+						</name>
+						<name>
+							<surname>Almeida</surname>
+							<given-names>ED</given-names>
+						</name>
+						<name>
+							<surname>Guimarães</surname>
+							<given-names>RB</given-names>
+						</name>
+						<name>
+							<surname>Ley</surname>
+							<given-names>AG</given-names>
+						</name>
+						<name>
+							<surname>Mathias</surname>
+							<given-names>RG</given-names>
+						</name>
+						<name>
+							<surname>Assis</surname>
+							<given-names>MV</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Anticoagulação oral na fibrilação atrial: desenvolvimento e avaliação de um aplicativo de saúde móvel para suporte à decisão compartilhada</article-title>
+					<source>Arq Bras Cardiol</source>
+					<year>2018</year>
+					<volume>110</volume>
+					<issue>1</issue>
+					<fpage>7</fpage>
+					<lpage>15</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5935/abc.20170181">https://doi.org/10.5935/abc.20170181</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<mixed-citation>27. Abreu MM, Battisti R, Martins RS, Baumgratz TD, Cuziol M. Shared decision making in Brazil: history and current discussion. Z Evid Fortbild Qual Gesundhwes. 2011;105(4):240-4. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.zefq.2011.04.009">https://doi.org/10.1016/j.zefq.2011.04.009</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Abreu</surname>
+							<given-names>MM</given-names>
+						</name>
+						<name>
+							<surname>Battisti</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Martins</surname>
+							<given-names>RS</given-names>
+						</name>
+						<name>
+							<surname>Baumgratz</surname>
+							<given-names>TD</given-names>
+						</name>
+						<name>
+							<surname>Cuziol</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>Shared decision making in Brazil: history and current discussion</article-title>
+					<source>Z Evid Fortbild Qual Gesundhwes</source>
+					<year>2011</year>
+					<volume>105</volume>
+					<issue>4</issue>
+					<fpage>240</fpage>
+					<lpage>244</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.zefq.2011.04.009">https://doi.org/10.1016/j.zefq.2011.04.009</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<mixed-citation>28. Abreu MM, Kowalski SC, Ciconelli RM, Ferraz MB. Apoios de decisão: instrumento de auxílio à medicina baseada em preferências. Uma revisão conceitual. Rev Bras Reumatol. 2006;46(4):266-72. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0482-50042006000400006">https://doi.org/10.1590/S0482-50042006000400006</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Abreu</surname>
+							<given-names>MM</given-names>
+						</name>
+						<name>
+							<surname>Kowalski</surname>
+							<given-names>SC</given-names>
+						</name>
+						<name>
+							<surname>Ciconelli</surname>
+							<given-names>RM</given-names>
+						</name>
+						<name>
+							<surname>Ferraz</surname>
+							<given-names>MB</given-names>
+						</name>
+					</person-group>
+					<article-title>Apoios de decisão: instrumento de auxílio à medicina baseada em preferências. Uma revisão conceitual</article-title>
+					<source>Rev Bras Reumatol</source>
+					<year>2006</year>
+					<volume>46</volume>
+					<issue>4</issue>
+					<fpage>266</fpage>
+					<lpage>272</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0482-50042006000400006">https://doi.org/10.1590/S0482-50042006000400006</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="financial-disclosure">
+				<p><bold>Funding:</bold> Internal Notice of Financial Support to Projects of Students of the Program – 2019, Ordinance No. 34, of May 30, 2006, which approves and regulates the Academic Excellence Program – PROEX/CAPES.</p>
+			</fn>
+		</fn-group>
+	</back>
+	<sub-article article-type="translation" id="TRpt" xml:lang="pt">
+		<front-stub>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artigo Original</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Ferramenta de apoio à decisão sobre o rastreamento do câncer de próstata no Brasil</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-6747-0184</contrib-id>
+					<name>
+						<surname>Santos</surname>
+						<given-names>Renata Oliveira Maciel dos</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-2264-0442</contrib-id>
+					<name>
+						<surname>Abreu</surname>
+						<given-names>Mirhelen Mendes de</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2002"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-4861-2319</contrib-id>
+					<name>
+						<surname>Migowski</surname>
+						<given-names>Arn</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3002"><sup>III</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-6149-3396</contrib-id>
+					<name>
+						<surname>Engstrom</surname>
+						<given-names>Elyne Montenegro</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff4002"><sup>IV</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1002">
+				<label>I</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Instituto Nacional de Câncer José Alencar Gomes da Silva. Rio de Janeiro, RJ, Brasil</institution>
+			</aff>
+			<aff id="aff2002">
+				<label>II</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Universidade Federal do Rio de Janeiro. Programa de Pós-Graduação em Clínica Médica da Faculdade de Medicina. Rio de Janeiro, RJ, Brasil</institution>
+			</aff>
+			<aff id="aff3002">
+				<label>III</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Instituto Nacional de Câncer José Alencar Gomes da Silva. Instituto Nacional de Cardiologia. Rio de Janeiro, RJ, Brasil</institution>
+			</aff>
+			<aff id="aff4002">
+				<label>IV</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Fundação Oswaldo Cruz. Escola Nacional de Saúde Pública Sergio Arouca. Rio de Janeiro, RJ, Brasil</institution>
+			</aff>
+			<author-notes>
+				<corresp id="c01002"> Correspondência: Renata Oliveira Maciel dos Santos Instituto Nacional de Câncer José Alencar Gomes da Silva Rua Marquês de Pombal, 125 20230-240 Rio de Janeiro, RJ, Brasil E-mail: renata.santos@inca.gov.br </corresp>
+				<fn fn-type="con">
+					<p><bold>Contribuição dos Autores:</bold> Concepção e planejamento do estudo: ROMS, EME. Coleta, análise e interpretação dos dados: ROMS, EME, MMA. Elaboração ou revisão do manuscrito: ROMS, MMA, AM, EME. Aprovação da versão final: ROMS, MMA, AM, EME. Responsabilidade pública pelo conteúdo do artigo: ROMS, MMA, AM, EME.</p>
+				</fn>
+				<fn fn-type="conflict">
+					<p><bold>Conflito de Interesses:</bold> Os autores declaram não haver conflito de interesses.</p>
+				</fn>
+			</author-notes>
+			<abstract>
+				<title>RESUMO</title>
+				<sec>
+					<title>OBJETIVO</title>
+					<p> Apresentar o processo de desenvolvimento e validação de uma ferramenta de apoio à decisão para o rastreamento do câncer de próstata no Brasil.</p>
+				</sec>
+				<sec>
+					<title>MÉTODOS</title>
+					<p> Estudo com desenho qualitativo-participativo para elaboração de uma ferramenta de apoio à decisão para o rastreamento do câncer de próstata, com a participação de um grupo de homens e médicos inseridos na atenção primária à saúde de 11 estados brasileiros. Realizou-se síntese de evidências, teste de campo e utilização nos cenários clínicos, de modo a adaptar o conteúdo, formato, linguagem e a aplicabilidade às necessidades do público-alvo nos anos de 2018 e 2019. As versões foram avaliadas de forma subsequente pelos participantes, sendo modificada a partir dos dados obtidos.</p>
+				</sec>
+				<sec>
+					<title>RESULTADOS</title>
+					<p> Foi elaborada uma ferramenta inédita no Brasil, com informações sobre os exames utilizados no rastreamento, comparação dos seus possíveis benefícios e malefícios e um infográfico numérico com as consequências dessa prática. Verificou-se utilidade da ferramenta para auxiliar na comunicação entre o médico e o homem no contexto da atenção primária à saúde, além de identificar a necessidade de maior discussão sobre o compartilhamento das decisões nos cenários clínicos.</p>
+				</sec>
+				<sec>
+					<title>CONCLUSÃO</title>
+					<p> A ferramenta foi avaliada como de fácil utilização, objetiva e com pouca interferência no tempo de consulta. É um material técnico-científico, produzido por meio de pesquisa, com a participação do seu principal público-alvo e que se encontra disponível gratuitamente para utilização nos cenários clínicos do Brasil.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="pt">
+				<kwd>Neoplasias da Próstata, prevenção &amp; controle</kwd>
+				<kwd>Programas de Rastreamento</kwd>
+				<kwd>Tomada de Decisão Clínica</kwd>
+				<kwd>Uso da Informação Científica na Tomada de Decisões em Saúde</kwd>
+				<kwd>Relações Médico-Paciente</kwd>
+			</kwd-group>
+		</front-stub>
+		<body>
+			<sec sec-type="intro">
+				<title>INTRODUÇÃO</title>
+				<p>O rastreamento do câncer de próstata é amplamente difundido na prática clínica, embora as melhores evidências disponíveis apontem para um desequilíbrio entre os riscos e os possíveis benefícios dessa prática<sup><xref ref-type="bibr" rid="B1">1</xref></sup>. A realização rotineira do antígeno prostático específico (PSA) e/ou toque retal em homens assintomáticos resulta em muitos diagnósticos e é acompanhada de importantes danos à qualidade de vida do homem<sup><xref ref-type="bibr" rid="B2">2</xref></sup>.</p>
+				<p>Esses danos decorrem de resultados falso-positivos, que podem levar à necessidade de uma biópsia para descartar o câncer, podendo ocasionar dor, sangramento e infecção<sup><xref ref-type="bibr" rid="B2">2</xref></sup> como consequência desse procedimento. Outros riscos estão relacionados ao sobrediagnóstico e ao sobretratamento, que se caracterizam, respectivamente, a diagnosticar e tratar um câncer que não evoluiria a ponto de ameaçar a vida e tem por complicações mais comuns a disfunção sexual erétil e a incontinência urinária<sup><xref ref-type="bibr" rid="B2">2</xref>,<xref ref-type="bibr" rid="B3">3</xref></sup>, além de efeitos emocionais ao homem e aos familiares.</p>
+				<p>Considerando essas informações, a recomendação do Instituto Nacional do Câncer (INCA), desde 2008, é que o rastreamento só seja feito em homens que demandam espontaneamente esses exames e após um processo de decisão compartilhada, considerando os riscos e a incerteza sobre os benefícios<sup><xref ref-type="bibr" rid="B4">4</xref>,<xref ref-type="bibr" rid="B5">5</xref></sup>.</p>
+				<p>A tomada de decisão compartilhada se caracteriza por um processo colaborativo, onde são discutidas as opções de cuidado e suas possíveis consequências, de modo a alcançar a decisão mais adequada ao contexto de vida da pessoa. Essa abordagem é especialmente relevante em situações com algum grau de incerteza na relação entre riscos e benefícios. De modo a facilitar essa abordagem de cuidado, experiências internacionais recomendam a utilização de ferramentas clínicas, denominadas de apoio à decisão, para facilitar a comunicação e deliberação dessas informações. Essas ferramentas são indicadas, principalmente, quando há opções razoáveis em termos de resultados de saúde, as quais as pessoas valorizam de maneira diferente<sup><xref ref-type="bibr" rid="B6">6</xref></sup>.</p>
+				<p>As ferramentas de apoio à decisão são encontradas em diversos formatos, incluindo material impresso, vídeos ou dispositivos eletrônicos, que estimulam a participação dos usuários na tomada de decisão, facilitando o aumento de conhecimento sobre a temática discutida<sup><xref ref-type="bibr" rid="B7">7</xref>,<xref ref-type="bibr" rid="B8">8</xref></sup>.</p>
+				<p>Com intuito de auxiliar na comunicação clínica das implicações do rastreamento do câncer de próstata, prática sensível às preferências individuais, propôs-se construir um material que possa ser utilizado durante a consulta na atenção primária à saúde, nível responsável pela detecção precoce do câncer no Sistema Único de Saúde<sup><xref ref-type="bibr" rid="B9">9</xref></sup>. A ferramenta é um material técnico de uma instituição federal, sendo disponibilizada e distribuída para as unidades básicas de saúde no Brasil. Dessa forma, o objetivo desse estudo é apresentar o processo de desenvolvimento e validação de uma ferramenta de apoio à decisão para o rastreamento do câncer de próstata no Brasil.</p>
+			</sec>
+			<sec sec-type="methods">
+				<title>MÉTODOS</title>
+				<p>Seguindo as recomendações do <italic>International Patient Decision Aid Standards</italic> e experiências anteriores<sup><xref ref-type="bibr" rid="B10">10</xref></sup>, uma abordagem de três etapas foi utilizada para desenvolver e validar a ferramenta de apoio à decisão, considerando a avaliação do público-alvo: homens saudáveis e médicos inseridos na atenção primária à saúde. O desenho do estudo foi o qualitativo-participativo, que preconiza a integração dos sujeitos nos processos de produção da pesquisa, contribuindo não apenas com consentimento ou informação, mas modificando sua condução a partir de seus conhecimentos e vivências<sup><xref ref-type="bibr" rid="B13">13</xref>,<xref ref-type="bibr" rid="B14">14</xref></sup>, conforme descrito nas etapas a seguir:</p>
+				<sec>
+					<title>Etapa 1: Concepção da Ferramenta</title>
+					<p>A primeira etapa teve o intuito de definir o conteúdo e construir a primeira versão da ferramenta com especialistas. Foi realizada revisão de literatura, com síntese das principais evidências disponíveis sobre o rastreamento do câncer de próstata, considerando ensaios clínicos e revisões sistemáticas sobre a efetividade e as consequências do rastreamento. A busca foi por meio das palavras-chave “câncer de próstata”, “rastreamento” e “apoio à decisão” de forma combinada, na base de dados MEDLINE, em português e inglês, para estudos publicados nos últimos cinco anos, sem filtro de idioma.</p>
+					<p>Inicialmente, foram selecionadas 1.200 referências que, após leitura do título para verificar o escopo e excluir 247 duplicatas, resultou em 150 artigos. A avaliação desses 150 resumos, selecionou 20 artigos para leitura completa e análise das evidências. Sítios eletrônicos de instituições de pesquisa que desenvolvem ferramentas de apoio à decisão também foram consultados como fontes adicionais e exemplos de infográficos<sup><xref ref-type="bibr" rid="B15">15</xref>,<xref ref-type="bibr" rid="B16">16</xref></sup>. A busca subsidiou a primeira versão da ferramenta, construída a partir da contribuição de seis especialistas das áreas de detecção precoce do câncer e medicina de família.</p>
+				</sec>
+				<sec>
+					<title>Etapa 2: Calibração: Teste Piloto.</title>
+					<p>O teste piloto buscou adequar o formato e a linguagem ao público-alvo: homens saudáveis em idade madura (aproximadamente 40 anos). A avaliação ocorreu por meio de um grupo focal, com 19 participantes, funcionários de uma empresa pública de energia, localizada na cidade do Rio de Janeiro.</p>
+					<p>A escolha desse cenário se deu devido à solicitação prévia da empresa à instituição federal para palestras educativas sobre câncer para seus trabalhadores. Na ocasião, foi verificado que a empresa possuía considerável número de funcionários que correspondiam ao critério de inclusão do estudo. Dessa forma, realizou-se convite aberto aos trabalhadores para participação, de forma voluntária, em um encontro de pesquisa, realizado durante o turno de trabalho.</p>
+					<p>O encontro ocorreu com gravação de áudio, conduzido por dois facilitadores, que trabalharam as questões de pesquisas após leitura individual e coletiva da ferramenta impressa. As contribuições foram analisadas e incorporadas à segunda versão, que seguiu para a próxima etapa do estudo.</p>
+				</sec>
+				<sec>
+					<title>Etapa 3: Viabilidade e Uso da Ferramenta</title>
+					<p>Nesta etapa, a ferramenta foi aplicada pelos médicos que atuam na atenção primária à saúde a uma amostra de seu público-alvo, com o objetivo de avaliar sua aplicabilidade. Foi solicitado aos médicos que utilizassem a ferramenta em seus atendimentos, quando algum homem demandasse os exames para o rastreamento do câncer de próstata. Como critério de inclusão os médicos deveriam atuar há pelo menos um ano em uma unidade básica de saúde.</p>
+					<p>Os médicos foram convidados por e-mail, telefone ou aplicativo de mensagens, após divulgação da pesquisa pela rede de contato dos pesquisadores. O convite explicitava os objetivos da pesquisa, os critérios para participação e solicitava aos interessados contatar a pesquisadora principal por e-mail ou telefone. Também foi solicitado que os entrevistados indicassem outros médicos para serem convidados.</p>
+					<p>Os pesquisadores enviaram 93 convites, resultando em 42 respostas de médicos interessados em receber e testar a ferramenta. Realizou-se contatos semanais com os participantes para acompanhar a pesquisa e solicitar agendamento de entrevista por videoconferência, após no mínimo três utilizações. Nenhum médico informou desistir de participar do estudo, no entanto, 21 não retornaram as mensagens de acompanhamento e seis alegaram não ter tido nenhuma oportunidade para utilizar a ferramenta. Ao final, 15 médicos de 11 estados brasileiros (Espírito Santo, Minas Gerais (2), Rio de Janeiro (2), Paraná, Paraíba (2), São Paulo, Santa Catarina, Rio Grande do Sul, Goiás, Rondônia e Sergipe (2)) foram entrevistados.</p>
+					<p>Os médicos avaliaram a ferramenta quanto aos seguintes critérios<sup><xref ref-type="bibr" rid="B11">11</xref>,<xref ref-type="bibr" rid="B12">12</xref></sup>:</p>
+					<list list-type="bullet">
+						<list-item>
+							<p>Qualidade do conteúdo: examinar a qualidade da informação e a exatidão das evidências científicas;</p>
+						</list-item>
+						<list-item>
+							<p>Formato: avaliar o layout e o infográfico;</p>
+						</list-item>
+						<list-item>
+							<p>Aplicabilidade: verificar sua utilização no contexto clínico, uso, aceitabilidade e interferência no tempo de consulta.</p>
+						</list-item>
+					</list>
+					<p>As entrevistas foram gravadas, transcritas na íntegra e analisadas a partir dos critérios previamente descritos. As sugestões de mudanças foram incorporadas à ferramenta, que seguiu para a versão final com adequações de texto e formatação, sendo posteriormente publicada como produto técnico de uma instituição nacional especializada em câncer. A versão final foi enviada para dez médicos entrevistados que manifestaram desejo de receber a ferramenta e quatro enviaram comentários.</p>
+					<p>Esse estudo observou as exigências das Resoluções 466/2012 e 580/2018 do Conselho Nacional de Saúde no que concerne à ética em pesquisa com seres humanos, sendo aprovado pelo CEP/ENSP, CAE: 12165019.4.0000.5240. Todos os participantes forneceram sua concordância por meio da assinatura do Termo de Consentimento Livre e Esclarecido.</p>
+				</sec>
+			</sec>
+			<sec sec-type="results">
+				<title>RESULTADOS</title>
+				<p>O desenvolvimento da ferramenta ocorreu durante os anos de 2018 e 2019 e resultou em um material de duas páginas, composto por textos explicativos sobre o rastreamento do câncer de próstata, os exames utilizados, uma tabela comparativa sobre seus riscos e benefícios, finalizando com um infográfico numérico sobre as consequências dessa prática. O conteúdo técnico foi construído a partir de evidências sobre a efetividade do rastreamento<sup><xref ref-type="bibr" rid="B2">2</xref>,<xref ref-type="bibr" rid="B15">15</xref></sup>, sendo a revisão sistemática mais atual encontrada, 2018<sup><xref ref-type="bibr" rid="B2">2</xref></sup>, a principal fonte do infográfico.</p>
+				<p>Seguindo modelos internacionais, o infográfico inicia com a estimativa de rastreamento em 1.000 homens com idade de 55 a 69 anos, acompanhados por 13 anos. Os dados seguem com a taxa de positividade de 10,2% para câncer de próstata, seguido de falso-positivo, que apresentou variação nos estudos entre 10,9% e 19,8%, sendo utilizada a taxa de 17,8%, relatada em cinco centros de pesquisa monitorados pelo <italic>european randomized study of screening for prostate cancer</italic> (ERSPC)<sup><xref ref-type="bibr" rid="B18">18</xref></sup>. Desse estudo também foram extraídas as taxas de redução de mortalidade específica de 1,3% e a de sobrediagnóstico de 50%<sup><xref ref-type="bibr" rid="B2">2</xref>,<xref ref-type="bibr" rid="B16">16</xref></sup>.</p>
+				<p>Em relação às consequências do tratamento, optou-se por evidenciar os potenciais danos da prostatectomia radical, por ser o tipo de tratamento mais comum e o indicado como padrão-ouro nas diretrizes brasileiras para diagnóstico e tratamento do adenocarcinoma de próstata<sup><xref ref-type="bibr" rid="B19">19</xref></sup>. Assim, apresentou-se as taxas de 60% para disfunção sexual, 20% para incontinência urinária e 0,5% para complicações mais graves e morte<sup><xref ref-type="bibr" rid="B2">2</xref>,<xref ref-type="bibr" rid="B16">16</xref></sup>.</p>
+				<p>Essa primeira versão da ferramenta seguiu para o teste piloto, sendo avaliada em um grupo focal composto por 19 homens, com idade entre 38 e 72 anos (média = 51 anos) e variados níveis de escolaridade e função laboral (<xref ref-type="table" rid="t1002">Tabela 1</xref>).</p>
+				<p>
+					<table-wrap id="t1002">
+						<label>Tabela 1</label>
+						<caption>
+							<title>Perfil dos homens participantes do grupo focal do teste piloto, Rio de Janeiro, 2019.</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left" style="font-weight:normal">
+									</th>
+									<th>n</th>
+									<th>%</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Grupo de homens</td>
+									<td align="center">19</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td colspan="3">Idade</td>
+								</tr>
+								<tr>
+									<td>25 a 29 anos</td>
+									<td align="center">0</td>
+									<td align="center">0</td>
+								</tr>
+								<tr>
+									<td>30 a 39 anos</td>
+									<td align="center">4</td>
+									<td align="center">21</td>
+								</tr>
+								<tr>
+									<td>40 a 49 anos</td>
+									<td align="center">3</td>
+									<td align="center">16</td>
+								</tr>
+								<tr>
+									<td>50 a 59 anos</td>
+									<td align="center">7</td>
+									<td align="center">37</td>
+								</tr>
+								<tr>
+									<td>≥ 60 anos</td>
+									<td align="center">5</td>
+									<td align="center">26</td>
+								</tr>
+								<tr>
+									<td colspan="3">Estado civil</td>
+								</tr>
+								<tr>
+									<td>Casado</td>
+									<td align="center">12</td>
+									<td align="center">63</td>
+								</tr>
+								<tr>
+									<td>Solteiro</td>
+									<td align="center">6</td>
+									<td align="center">32</td>
+								</tr>
+								<tr>
+									<td>Viúvo</td>
+									<td align="center">1</td>
+									<td align="center">5</td>
+								</tr>
+								<tr>
+									<td colspan="3">Nível de escolaridade</td>
+								</tr>
+								<tr>
+									<td>Fundamental</td>
+									<td align="center">4</td>
+									<td align="center">21</td>
+								</tr>
+								<tr>
+									<td>Médio</td>
+									<td align="center">6</td>
+									<td align="center">32</td>
+								</tr>
+								<tr>
+									<td>Superior incompleto</td>
+									<td align="center">1</td>
+									<td align="center">5</td>
+								</tr>
+								<tr>
+									<td>Superior completo</td>
+									<td align="center">8</td>
+									<td align="center">42</td>
+								</tr>
+							</tbody>
+						</table>
+					</table-wrap>
+				</p>
+				<p>A avaliação do grupo de homens gerou modificações na quantidade de informação (diminuição de texto e dados numéricos) e o infográfico foi alterado para uma apresentação mais simples e linear. Alguns termos também foram modificados, de modo a facilitar a compreensão, porém o conteúdo foi considerado adequado e esclarecedor pela maioria dos homens. Perguntas reflexivas ao final do material também foram excluídas por terem sido consideradas de pouca utilidade pelos homens.</p>
+				<disp-quote>
+					<p><italic>Essas informações são muito importantes, aqui a gente consegue ver bem o que pode acontecer depois de fazer esses exames.</italic> M15</p>
+					<p><italic>O material está muito bom, o fluxograma [infográfico] mostra as possibilidades de acontecer alguma coisa… de ter uma complicação, fazer a cirurgia, daí a gente pensa nas possibilidades.</italic> M2</p>
+				</disp-quote>
+				<p>A segunda versão da ferramenta, produto resultante das modificações sugeridas pelo grupo de homens, foi avaliada por médicos que a utilizaram entre três e doze vezes (média = 6), possuíam idade entre 25 e 46 anos (média = 35 anos), mais da metade era do sexo feminino e a maioria com pouco tempo de formação (&lt; 5 anos) (<xref ref-type="table" rid="t2002">Tabela 2</xref>). Devido à heterogeneidade geográfica da inserção dos médicos, que atuavam em áreas urbana (60%) e rural (40%), a ferramenta foi utilizada em homens de diferentes perfis, sendo a maior parte de baixa escolaridade e baixo nível socioeconômico, com idade em torno de 50 anos.</p>
+				<p>
+					<table-wrap id="t2002">
+						<label>Tabela 2</label>
+						<caption>
+							<title>Perfil dos médicos que aplicaram a ferramenta, 2019.</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left" style="font-weight:normal">
+									</th>
+									<th>n</th>
+									<th>%</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Médicos</td>
+									<td align="center">15</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td colspan="3">Idade</td>
+								</tr>
+								<tr>
+									<td>25 a 29 anos</td>
+									<td align="center">8</td>
+									<td align="center">53</td>
+								</tr>
+								<tr>
+									<td>30 a 39 anos</td>
+									<td align="center">4</td>
+									<td align="center">27</td>
+								</tr>
+								<tr>
+									<td>40 a 49 anos</td>
+									<td align="center">2</td>
+									<td align="center">13</td>
+								</tr>
+								<tr>
+									<td>50 a 59 anos</td>
+									<td align="center">0</td>
+									<td align="center">0</td>
+								</tr>
+								<tr>
+									<td>≥ 60 anos</td>
+									<td align="center">1</td>
+									<td align="center">7</td>
+								</tr>
+								<tr>
+									<td>Gênero</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Feminino</td>
+									<td align="center">9</td>
+									<td align="center">60</td>
+								</tr>
+								<tr>
+									<td>Masculino</td>
+									<td align="center">6</td>
+									<td align="center">40</td>
+								</tr>
+								<tr>
+									<td>Tempo de graduação</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>1 e &lt; 2 anos</td>
+									<td align="center">6</td>
+									<td align="center">40</td>
+								</tr>
+								<tr>
+									<td>≥ 2 e &lt; 5 anos</td>
+									<td align="center">4</td>
+									<td align="center">27</td>
+								</tr>
+								<tr>
+									<td>≥ 5 e &lt; 8 anos</td>
+									<td align="center">4</td>
+									<td align="center">27</td>
+								</tr>
+								<tr>
+									<td>≥ 8 anos</td>
+									<td align="center">1</td>
+									<td align="center">7</td>
+								</tr>
+								<tr>
+									<td colspan="3">Especialização</td>
+								</tr>
+								<tr>
+									<td>Residência em medicina de família e comunidade</td>
+									<td align="center">8</td>
+									<td align="center">53</td>
+								</tr>
+								<tr>
+									<td>Outra</td>
+									<td align="center">1</td>
+									<td align="center">7</td>
+								</tr>
+								<tr>
+									<td>Não possui</td>
+									<td align="center">6</td>
+									<td align="center">40</td>
+								</tr>
+								<tr>
+									<td colspan="3">Região</td>
+								</tr>
+								<tr>
+									<td>Norte</td>
+									<td align="center">1</td>
+									<td align="center">7</td>
+								</tr>
+								<tr>
+									<td>Nordeste</td>
+									<td align="center">4</td>
+									<td align="center">27</td>
+								</tr>
+								<tr>
+									<td>Sudeste</td>
+									<td align="center">6</td>
+									<td align="center">40</td>
+								</tr>
+								<tr>
+									<td>Centro-Oeste</td>
+									<td align="center">1</td>
+									<td align="center">7</td>
+								</tr>
+								<tr>
+									<td>Sul</td>
+									<td align="center">3</td>
+									<td align="center">19</td>
+								</tr>
+								<tr>
+									<td>Área de atuação</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Urbana</td>
+									<td align="center">9</td>
+									<td align="center">60</td>
+								</tr>
+								<tr>
+									<td>Rural</td>
+									<td align="center">6</td>
+									<td align="center">40</td>
+								</tr>
+							</tbody>
+						</table>
+					</table-wrap>
+				</p>
+				<p>A ferramenta foi considerada útil para a prática clínica e de fácil utilização pela maioria dos médicos (86%), que destacaram a objetividade e o designer como as principais potencialidades. O conteúdo técnico foi qualificado como adequado e correto, não havendo discordância com as informações apresentadas.</p>
+				<p>A forma de utilização ficou a critério de cada médico, sendo utilizada na tela do computador ou impressa, porém, não foi identificada superioridade entre as duas formas, mesmo quando intercalada pelo profissional. No entanto, alguns relatos sugerem maior praticidade quando a ferramenta está disponível no computador do consultório.</p>
+				<disp-quote>
+					<p><italic>É mais fácil quando o material já está ali disponível no computador que a gente está atendendo e preenchendo as informações no prontuário… quando o paciente toca no assunto é só abrir e mostrar.</italic> M5</p>
+				</disp-quote>
+				<p>Em contrapartida, dois entrevistados consideraram a ferramenta pouco útil; o primeiro afirma que os riscos do rastreamento não deveriam ser apresentados aos homens e sugeriu excluir essas informações; o segundo afirmou que o médico não precisaria discutir as implicações do rastreamento com o homem, já que essa prática não é recomendada e sugeriu que os dados numéricos poderiam dificultar o entendimento de homens de baixa escolaridade sobre as informações.</p>
+				<disp-quote>
+					<p><italic>Eu achei bom para o médico, mas achei difícil passar daquela maneira… senti que a informação não é bem absorvida e acabei gastando um pouco mais de tempo para pedir para pessoa olhar… traduzir para ele… pra mim foi bom, me ajudou a sistematizar as informações, mas pro público em si, não achei muito.</italic> M9</p>
+				</disp-quote>
+				<p>Em relação a interferência no tempo de consulta, 53% dos médicos relataram não ter alteração e 33% apontaram diminuição do tempo, afirmando que a ferramenta ajuda a lembrar todos os pontos que devem ser abordados durante a conversa, conforme destacado na fala abaixo:</p>
+				<disp-quote>
+					<p><italic>É muita coisa que a gente tem que falar para o paciente, tenho que falar de diabetes, tuberculose… quando já está tudo ali, ajuda muito… e como eu tenho pouco tempo de prática, fica mais fácil lembrar tudo que tenho que dizer.</italic> M3</p>
+				</disp-quote>
+				<p>A maioria dos médicos (67%) informou que os homens optaram menos pelo rastreamento após exposição à ferramenta, em comparação aos atendimentos anteriores. Essa mudança foi atribuída à maior compreensão dos riscos, facilitada pelos recursos gráficos e pela credibilidade institucional conferida à ferramenta.</p>
+				<disp-quote>
+					<p><italic>Faz diferença quando você tem uma instituição por trás. Não sou eu que estou falando, não é só o médico da cidade… Tem uma credibilidade aí, eu fico mais seguro de falar e o paciente vê escrito… faz muita diferença.</italic> M8</p>
+				</disp-quote>
+				<p>Com a ferramenta, os médicos afirmaram ter mais segurança para transmitir as informações sobre os riscos, devido ao respaldo institucional conferido pelo material. Da mesma forma, há relatos de que os homens demonstraram mais confiança em não realizar os exames, quando se depararam com a ferramenta. Essa observação foi acrescida da afirmação de que, sem a ferramenta, os homens repletos de informações favoráveis ao rastreamento, frequentemente se mostravam desconfiados quando apresentados aos riscos, especialmente os que já haviam realizado algum exame anteriormente.</p>
+				<disp-quote>
+					<p><italic>Tem homem que fica um pouco desconfiado, principalmente os mais velhos, que já fazem esses exames há anos… eu achei que o material me ajudou a mostrar isso para eles, que tem uma ciência nisso.</italic> M6</p>
+				</disp-quote>
+				<p>Por outro lado, a análise das entrevistas também permitiu identificar que mesmo diante da ferramenta a opinião do médico sobre o rastreamento prevalece com grande peso na decisão, uma vez que, suas crenças podem determinar a escolha do homem, conforme destacado a seguir:</p>
+				<disp-quote>
+					<p><italic>Tem aqui o que acontece se fizer [rastreamento]… os riscos… mas eu já mostro que tem benefício, que eu acho melhor fazer, daí a maioria quer fazer né...</italic> M9</p>
+				</disp-quote>
+				<p>Nesse sentido, como ponto negativo da ferramenta houve menção ao sentimento de frustração do médico quando o homem opta por uma decisão diferente de sua opinião particular e o tempo para incorporar uma nova ferramenta na sua rotina. No entanto, 13 entrevistados (87%) responderam que incorporariam a ferramenta à prática profissional, sendo que dois dos médicos condicionaram seu uso a mudanças na formatação e diminuição na quantidade de texto, que foram posteriormente incorporadas à versão final.</p>
+				<p>As alterações sugeridas pelos médicos foram a exclusão de um texto explicativo sobre o desenvolvimento do câncer de próstata, uma vez que 93% dos médicos avaliaram como desnecessário, além de alongar o material, e a diminuição de texto no infográfico, colocando maior ênfase nos números e elementos gráficos.</p>
+				<p>Outra questão identificada pelas entrevistas foi o estranhamento de alguns médicos com uma ferramenta para compartilhar a decisão, sendo necessário inserir na versão final, um texto instrutivo sobre sua finalidade e a importância de discutir os riscos e benefícios com o homem, quando ele demandar o rastreamento do câncer de próstata.<xref ref-type="fig" rid="f01002"/>
+					<xref ref-type="fig" rid="f02002"/>
+				</p>
+				<p>
+					<fig id="f01002">
+						<label>Figura 1</label>
+						<caption>
+							<title>Versão final da ferramenta de apoio à decisão para o rastreamento do câncer de próstata, página 7.</title>
+						</caption>
+						<graphic xlink:href="1518-8787-rsp-56-19-gf01-pt.tif"/>
+						<attrib>Fonte: Instituto Nacional de Câncer José Alencar Gomes da Silva. Disponível em: <ext-link ext-link-type="uri" xlink:href="https://www.inca.gov.br/publicacoes/infograficos/ferramenta-de-apoio-decisao-no-rastreamento-do-cancer-de-prostata">https://www.inca.gov.br/publicacoes/infograficos/ferramenta-de-apoio-decisao-no-rastreamento-do-cancer-de-prostata</ext-link>
+						</attrib>
+					</fig>
+				</p>
+				<p>
+					<fig id="f02002">
+						<label>Figura 2</label>
+						<caption>
+							<title>Versão final da ferramenta de apoio à decisão para o rastreamento do câncer de próstata, página 8.</title>
+						</caption>
+						<graphic xlink:href="1518-8787-rsp-56-19-gf02-pt.tif"/>
+						<attrib>Fonte: Instituto Nacional de Câncer José Alencar Gomes da Silva. Disponível em: <ext-link ext-link-type="uri" xlink:href="https://www.inca.gov.br/publicacoes/infograficos/ferramenta-de-apoio-decisao-no-rastreamento-do-cancer-de-prostata">https://www.inca.gov.br/publicacoes/infograficos/ferramenta-de-apoio-decisao-no-rastreamento-do-cancer-de-prostata</ext-link>
+						</attrib>
+					</fig>
+				</p>
+				<p>A versão final publicada foi caracterizada pelos médicos como de fácil utilização, linguagem e conteúdo adequados, tendo o layout atrativo e de fácil visualização das informações. Como validação externa, a ferramenta foi avaliada pelos critérios do <italic>International Patient Decision Aid Standards</italic> (IPDAS) para ser incorporada ao <italic>International Inventory of Decision Aids</italic><sup><xref ref-type="bibr" rid="B20">20</xref></sup>. A ferramenta atendeu a todos os sete critérios que caracterizam uma ferramenta de apoio à decisão, os quatro critérios para ferramenta de rastreamento, seis dos nove critérios para baixo risco de víeis e 11 dos 13 critérios de qualidade.</p>
+			</sec>
+			<sec sec-type="discussion">
+				<title>DISCUSSÃO</title>
+				<p>O processo de elaboração e validação da ferramenta possibilitou demostrar sua utilidade no contexto da atenção primária à saúde no Brasil, a partir da percepção do seu público-alvo. A ferramenta foi considerada de fácil utilização e adequada para a comunicação entre o médico e o homem, no que se refere à deliberação sobre os possíveis riscos e benefícios do rastreamento do câncer de próstata. Dentre as vantagens associadas ao seu uso estão a sistematização das informações, objetividade e pouca interferência no tempo de consulta.</p>
+				<p>A pouca interferência e até mesmo a diminuição no tempo de consulta, percebida por alguns médicos neste estudo, confere à ferramenta uma importante característica para sua implementação na prática clínica, visto que os profissionais de saúde constantemente enfrentam o desafio de equilibrar seu tempo com muitas tarefas<sup><xref ref-type="bibr" rid="B21">21</xref></sup>. Revisões sistemáticas que avaliaram ferramentas de apoio à decisão afirmam que, a depender do contexto, do tipo de intervenção e a forma de uso, poderá haver aumento ou diminuição no tempo de consulta<sup><xref ref-type="bibr" rid="B7">7</xref>,<xref ref-type="bibr" rid="B8">8</xref></sup>. No entanto, é necessário ponderar que o tempo gasto em uma comunicação de qualidade, ganha-se em satisfação e melhores resultados em saúde, dentre esses, a diminuição do retorno às consultas pelas mesmas causas<sup><xref ref-type="bibr" rid="B22">22</xref>,<xref ref-type="bibr" rid="B23">23</xref></sup>.</p>
+				<p>No que se refere à aceitabilidade da ferramenta, apenas dois médicos entrevistados indicaram que não a incorporariam em sua prática clínica. Um refere ser contrário ao rastreamento e, assim, prefere não discutir essa possibilidade com o homem e o outro, por ser favorável, acredita que o homem não deveria ser exposto às informações sobre os riscos. Em ambos os casos, as posições denotam desacordo com a decisão compartilhada para rastrear o câncer de próstata e não a ferramenta em si.</p>
+				<p>A tomada de decisão compartilhada se caracteriza por um processo interpessoal, no qual os envolvidos colaboram entre si, de modo a alcançar a ação mais apropriada<sup><xref ref-type="bibr" rid="B22">22</xref>,<xref ref-type="bibr" rid="B23">23</xref></sup>. Embora as ferramentas de apoio à decisão facilitem essa abordagem<sup><xref ref-type="bibr" rid="B24">24</xref></sup>, por si só, não correspondem a todo o processo, uma vez que foi possível perceber algumas barreiras para seu desenvolvimento, tais como a omissão dos riscos do rastreamento ou a resistência do médico em aceitar a opinião do homem, quando diferente da sua.</p>
+				<p>A despeito de uma intenção protecionista, no que se refere à transmissão de informações complexas, tal postura é contraditória com a ética em saúde, que prima pelo direito individual de conhecer as consequências das intervenções em seu corpo, em especial aquelas com balanço incerto ou desfavoráveis entre os riscos e benefícios<sup><xref ref-type="bibr" rid="B25">25</xref></sup>.</p>
+				<p>Ademais, o estranhamento dos médicos com a ferramenta revela a necessidade de estimular a discussão sobre uma maior participação das pessoas nas decisões sobre saúde. Os poucos estudos nacionais sobre a decisão compartilhada apontam para a falta de implementação e institucionalização dessa abordagem nos cenários clínicos, o que demonstra a necessidade de incentivo a essa prática, com ações educacionais voltadas aos profissionais<sup><xref ref-type="bibr" rid="B26">26</xref></sup>.</p>
+				<p>Resultados semelhantes são encontrados em estudos de avaliação de ferramentas internacionais de apoio à decisão, tais como a necessidade de investir em recursos visuais, menor quantidade de texto para transmitir o conteúdo<sup><xref ref-type="bibr" rid="B23">23</xref>,<xref ref-type="bibr" rid="B24">24</xref></sup>, dificuldade dos profissionais em partilhar informações consideradas de difícil compreensão e a resistência para a incorporar algo novo à prática clínica<sup><xref ref-type="bibr" rid="B24">24</xref></sup>.</p>
+				<p>Como limitações do presente estudo destaca-se a impossibilidade de captar a interferência direta da ferramenta na decisão dos homens, devido à dificuldade em sincronizar a demanda do atendimento com a coleta de dados e a ausência de comparação dos atendimentos com e sem a ferramenta. No mais, recomenda-se cautela na generalização dos resultados por tratar-se de um estudo qualitativo.</p>
+				<p>Como contribuição considera-se o processo metodológico de desenvolvimento da ferramenta, que envolveu o público-alvo na produção de um material técnico-institucional a ser implementado na atenção primária à saúde no Brasil, que poderá ser replicado para a elaboração de outros materiais, assim como a própria ferramenta em si, que também poderá ser adaptada para outros cenários e países. A versão final da ferramenta se encontra disponível gratuitamente para download no endereço: <ext-link ext-link-type="uri" xlink:href="https://www.inca.gov.br/publicacoes/infograficos/ferramenta-de-apoio-decisao-no-rastreamento-do-cancer-de-prostata">https://www.inca.gov.br/publicacoes/infograficos/ferramenta-de-apoio-decisao-no-rastreamento-do-cancer-de-prostata</ext-link>, também distribuída impressa em pequena quantidade.</p>
+				<p>Conclui-se que a ferramenta desenvolvida neste estudo apresenta utilidade para a prática clínica, auxiliando na comunicação entre homens e médicos, além de favorecer a discussão sobre os riscos e benefícios do rastreamento do câncer de próstata. A objetividade, elementos gráficos e a credibilidade foram destacadas como pontos positivos, além da pouca interferência no tempo de consulta.</p>
+				<p>Por fim, destaca-se que a participação de pacientes e médicos no desenvolvimento da ferramenta possibilitou aproximar o conteúdo e a linguagem das necessidades do público-alvo e, assim, maior correspondência com o material. No entanto, há a necessidade de avaliar a interferência direta da ferramenta na decisão dos homens em estudos futuros, além da efetivação de um plano de implantação para o país, considerando sua heterogeneidade regional no que se refere à organização de serviços de atenção primária à saúde.</p>
+			</sec>
+		</body>
+		<back>
+			<fn-group>
+				<fn fn-type="financial-disclosure">
+					<p><bold>Financiamento:</bold> Edital Interno de Apoio Financeiro a Projetos de discentes do Programa - 2019, Portaria n.º 34, de 30 de maio de 2006, que aprova e regulamenta o Programa de Excelência Acadêmica - PROEX/CAPES.</p>
+				</fn>
+			</fn-group>
+		</back>
+	</sub-article>
+</article>

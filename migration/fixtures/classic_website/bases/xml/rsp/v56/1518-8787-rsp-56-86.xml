@@ -1,0 +1,3057 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.1" specific-use="sps-1.9" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="nlm-ta">Rev Saude Publica</journal-id>
+			<journal-id journal-id-type="publisher-id">rsp</journal-id>
+			<journal-title-group>
+				<journal-title>Revista de Saúde Pública</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Rev. Saúde Pública</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="ppub">0034-8910</issn>
+			<issn pub-type="epub">1518-8787</issn>
+			<publisher>
+				<publisher-name>Faculdade de Saúde Pública da Universidade de São Paulo</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="other">00272</article-id>
+			<article-id pub-id-type="doi">10.11606/s1518-8787.2022056003913</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Original Article</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Hospitalizations and adverse drug events in the Brazilian unified health system: a ten-year retrospective analysis of routine data</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-8358-8908</contrib-id>
+					<name>
+						<surname>Silva</surname>
+						<given-names>Lunara Teles</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-5083-237X</contrib-id>
+					<name>
+						<surname>Modesto</surname>
+						<given-names>Ana Carolina Figueiredo</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-3328-6669</contrib-id>
+					<name>
+						<surname>Oliveira</surname>
+						<given-names>Rodrigo Alves de</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-8890-0852</contrib-id>
+					<name>
+						<surname>Amaral</surname>
+						<given-names>Rita Goreti</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff3"><sup>III</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-0718-3992</contrib-id>
+					<name>
+						<surname>Lopes</surname>
+						<given-names>Flavio Marques</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff3"><sup>III</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>I</label>
+				<institution content-type="orgname">Universidade Federal de Goiás</institution>
+				<institution content-type="orgdiv1">Faculdade de Medicina</institution>
+				<institution content-type="orgdiv2">Programa de Pós-Graduação em Ciências da Saúde</institution>
+				<addr-line>
+					<named-content content-type="city">Goiânia</named-content>
+					<named-content content-type="state">GO</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Universidade Federal de Goiás. Faculdade de Medicina. Programa de Pós-Graduação em Ciências da Saúde. Goiânia, GO, Brasil</institution>
+			</aff>
+			<aff id="aff2">
+				<label>II</label>
+				<institution content-type="orgname">Universidade Federal de Goiás</institution>
+				<institution content-type="orgdiv1">Hospital das Clínicas</institution>
+				<addr-line>
+					<named-content content-type="city">Goiânia</named-content>
+					<named-content content-type="state">GO</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Universidade Federal de Goiás. Hospital das Clínicas. Goiânia, GO, Brasil</institution>
+			</aff>
+			<aff id="aff3">
+				<label>III</label>
+				<institution content-type="orgname">Universidade Federal de Goiás</institution>
+				<institution content-type="orgdiv1">Faculdade de Farmácia</institution>
+				<addr-line>
+					<named-content content-type="city">Goiânia</named-content>
+					<named-content content-type="state">GO</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Universidade Federal de Goiás. Faculdade de Farmácia. Goiânia, GO, Brasil</institution>
+			</aff>
+			<author-notes>
+				<corresp id="c01"> Correspondence: Flavio Marques Lopes Universidade Federal de Goiás Faculdade de Farmácia Rua 240 74605-170 Goiânia, GO, Brasil E-mail: <email>flaviomarques@ufg.br</email>
+				</corresp>
+				<fn fn-type="con">
+					<p>Authors’ Contribution: Study design and planning: LTS, ACFM, RAO, RGA, FML. Data collection, analysis and interpretation: LTS, ACFM, RAO. Manuscript drafting or review: LTS, ACFM. Approval of the final version: LTS, ACFM, RAO, RGA, FML. Public responsibility for the content of the article: LTS, ACFM, RAO, RGA, FML.</p>
+				</fn>
+				<fn fn-type="conflict">
+					<p>Conflict of Interest: The authors declare no conflict of interest.</p>
+				</fn>
+			</author-notes>
+			<pub-date date-type="pub" publication-format="electronic">
+				<day>10</day>
+				<month>10</month>
+				<year>2022</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">
+				<year>2022</year>
+			</pub-date>
+			<volume>56</volume>
+			<elocation-id>86</elocation-id>
+			<history>
+				<date date-type="received">
+					<day>30</day>
+					<month>05</month>
+					<year>2021</year>
+				</date>
+				<date date-type="accepted">
+					<day>12</day>
+					<month>12</month>
+					<year>2021</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="en">
+					<license-p> This is an Open Access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. </license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>ABSTRACT</title>
+				<sec>
+					<title>OBJECTIVE</title>
+					<p> To describe the frequency and characteristics of hospitalizations for/with adverse drug events in the Brazilian unified health system routine data.</p>
+				</sec>
+				<sec>
+					<title>METHODS</title>
+					<p> Nationwide retrospective study using data obtained from a period of ten years from the Brazil Hospital Information System (SIH-SUS), an administrative database that registers hospitalizations in the unified health system. We selected hospitalizations with primary and/or secondary diagnosis related to adverse drug events according to a list of validated International Classification Disease 10<sup>th</sup> edition (ICD-10) codes. These events were described according to year, age group, sex, length of hospital stay, mortality, hospital costs, Brazilian geographical region, and category of ICD-10 codes. Crude hospitalization rates of adverse drug events per 100,000 inhabitants were obtained and Joinpoint Regression was used to analyze temporal changes in these rates along the years. The most frequent ICD-10 codes were also identified.</p>
+				</sec>
+				<sec>
+					<title>RESULTS</title>
+					<p> Over ten years, 603,663 hospitalizations in Brazil were found in the database, out of which 2.5% of the patients died. Though 2009 had the highest prevalence of hospitalization per 100,000 inhabitants (32.57), no significant annual change in rates was found for the entire period. All age groups and sexes presented a jointpoint in temporal series; however, only women had a significative increase trend. The most frequent codes were from the chapter of mental and behavioral disorders (F19.2, F19.0, and F19.5 codes).</p>
+				</sec>
+				<sec>
+					<title>CONCLUSIONS</title>
+					<p> The database methodology can be useful to estimate frequencies of adverse drug events and perform characterization nationwide and to help monitor morbidity along the years.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="en">
+				<kwd>Drug-related side effects and adverse reactions</kwd>
+				<kwd>Pharmacoepidemiology</kwd>
+				<kwd>Hospitalization</kwd>
+				<kwd>Databases, factual</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="1"/>
+				<table-count count="4"/>
+				<equation-count count="0"/>
+				<ref-count count="30"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>INTRODUCTION</title>
+			<p>Adverse drug events (ADE) have been considered as a significant cause of hospital admission or complications during hospital stay<sup><xref ref-type="bibr" rid="B1">1</xref></sup> . ADE are estimated to occur in a mean of 21.6% of patients during hospitalization<sup><xref ref-type="bibr" rid="B4">4</xref></sup> . In Germany, around 5.0% of hospital admissions were related to ADE over five years<sup><xref ref-type="bibr" rid="B5">5</xref></sup> . ADE are also associated with increased length of hospital stay (LOS) and risk of death<sup><xref ref-type="bibr" rid="B2">2</xref> , <xref ref-type="bibr" rid="B6">6</xref></sup> . A study conducted at a university hospital found that length of stay increased in 1.13 days when an ADE was present<sup><xref ref-type="bibr" rid="B7">7</xref></sup> . Another study estimated a 10.5% drug-related mortality in a hospital in Spain<sup><xref ref-type="bibr" rid="B3">3</xref></sup> . ADE also have a great economic burden – ADE-related hospitalization in the USA from 2008 to 2011 totaled $142 billion<sup><xref ref-type="bibr" rid="B2">2</xref></sup> .</p>
+			<p>Assessing ADE occurrence nationwide remains a challenge despite the impact of these injuries because of the difficulties of assessment in a large population, the different strategies available for event reporting, incomplete information, or underreporting<sup><xref ref-type="bibr" rid="B1">1</xref> , <xref ref-type="bibr" rid="B8">8</xref></sup> . Administrative hospital data, which use International Classification of Diseases (ICD) codes, are being increasingly approached to assess ADE as a potential strategy to complement existing methods for ADE identification<sup><xref ref-type="bibr" rid="B2">2</xref> , <xref ref-type="bibr" rid="B5">5</xref></sup> . Studies have found that ICD codes can reasonably detect ADE in hospital routine data<sup><xref ref-type="bibr" rid="B9">9</xref> , <xref ref-type="bibr" rid="B10">10</xref></sup> . However, research on ADE using ICD codes varies regarding which codes to use. In Brazil, Mota et al.<sup><xref ref-type="bibr" rid="B11">11</xref></sup> validated a list of codes stratified by groups according to their probability of indicating a real ADE. To our knowledge, however, the list has not been applied to analyze hospitalizations related to ADE. This study thus aimed to describe the frequency and characteristics of hospitalizations for/with ADE in the Brazilian unified health system routine data.</p>
+		</sec>
+		<sec sec-type="methods">
+			<title>METHODS</title>
+			<sec>
+				<title>Study Design and Database</title>
+				<p>A retrospective study was conducted to describe ADE using data from the <italic>Sistema de Informação Hospitalar</italic> (SIH-SUS – Hospital Information System), an administrative database that registers hospitalizations in the Brazilian unified health system (used by more than 70% of the population) since 1992 and records a mean of 11 million registries per year for reimbursement. The database is maintained by the <italic>Departamento de Informática do Sistema Único de Saúde</italic> (DATASUS – Information Technology Department of the Brazilian Unified Health System), a service of the Ministry of Health.</p>
+				<p>The SIH-SUS collects information from the <italic>Autorização de Internação Hospitalar</italic> (AIH – Inpatient Hospital Authorization), which describes some characteristics of the hospital stay. AIH dataset is available for download and contains patients’ socioeconomic data (age, sex, and race) and clinical characteristics (LOS, costs incurred, and type of admission). It also includes information of patients’ primary and secondary diagnoses using the ICD-10 codes. Data from AIH are registered by coders in each public hospital after discharge and then sent to authorities. When a patient is admitted, an AIH number is generated for the new hospitalization, representing a line in the dataset. If the patient’s length of stay is prolongated, the hospital creates another AIH with the same number of the original. In this case, a new line is added in the dataset and the type of hospitalization changes from new AIH to prolongation AIH<sup><xref ref-type="bibr" rid="B12">12</xref></sup> .</p>
+			</sec>
+			<sec>
+				<title>Definitions</title>
+				<p>ADE is defined as “harm experienced by a patient as a result of exposure to a drug” and it involves, for example, anaphylaxis to penicillin or major hemorrhage from overdose of heparin<sup><xref ref-type="bibr" rid="B13">13</xref></sup> . This study considered two main categories as ADE: (1) adverse drug reaction (ADR) and (2) drug poisoning. ADR are classically defined as harms caused by the use of a drug in a recommended manner, being usually described in ICD as “adverse effects” or with the terms “due to a drug”, “drug-induced”, and “secondary to drugs”<sup><xref ref-type="bibr" rid="B13">13</xref> , <xref ref-type="bibr" rid="B14">14</xref></sup> . Vaccines were not included in this category. Drug poisoning was considered as unintentional or undetermined cause of poisoning or toxic effect by medication<sup><xref ref-type="bibr" rid="B14">14</xref></sup> . Hospitalizations with codes of intentional poisoning as the external cause were not included despite their other codes. “ADE” was the preferable term used in this paper and “hospitalization” was chosen for ADE related to hospital admissions and/or ADE occurring during inpatient treatment.</p>
+			</sec>
+			<sec>
+				<title>ADE Identifications and Data Processing</title>
+				<p>Hospitalization data were collected from a period of ten years (2009 to 2018) from SIH-SUS, in which hospitalizations with at least one ICD-10 code related to ADE as primary and/or secondary diagnosis were identified as cases. Cases in this study thus include hospitalization that ends in discharge, death, or change in number of the AIH with the ICD-10 codes predefined<sup><xref ref-type="bibr" rid="B11">11</xref></sup> . If a unique hospitalization had more than one line, data was gathered in a single line. If a patient identified more than one code, their hospitalization was counted only once.</p>
+				<p>In total, 618 ICD-10 codes were extracted and classified according a list previously validated by Mota et al.<sup><xref ref-type="bibr" rid="B11">11</xref></sup> The classification divides the ICD-10 codes into five categories based on the validity of each one as an indicator of event: Certain (A1 – adverse reaction caused by drug and B1 – poisoning by drugs), Probable (A2 – adverse reaction caused by drug or other causes and B2 – poisoning caused by drug or other causes), Possible (C – adverse event possibly expected by drug), and Occasional (D – adverse event occasionally expected by drug).<sup><xref ref-type="bibr" rid="B11">11</xref></sup> Supporting information summarizes the codes and categories.</p>
+			</sec>
+			<sec>
+				<title>Variables</title>
+				<p>The main outcome measure was the detection of ADE related to hospitalizations identified by ICD-10 codes. Secondary outcomes were: year of hospitalization, age group (≤ 4; 5–14; 15–24; 25–34; 35–44; 45–54; 55–64; 65–74; ≥ 75), sex (female and male), LOS, death in hospital, costs of the AIH (in dollars, costs in Brazilian reais were converted to US dollar before the publication of the dataset), geographical region, level of service complexity (moderate or high), and ICD-10 code category (A1/A2/B1/B2/C/D).</p>
+			</sec>
+			<sec>
+				<title>Statistical Analysis</title>
+				<p>The data were managed and analyzed with software R 3.6.3 (The R Foundation for Statistical Computing, 2019). Overall frequencies of hospitalizations with ADE were calculated by year, age group, sex, deaths, level of complexity, and geographical region. Median costs of the AIH and LOS were calculated overall and by year. Mean/median and standard deviation/interquartile range were computed when possible.</p>
+				<p>The annual prevalence of hospitalizations (per 100,000 inhabitants) was estimated overall and by sex, age group, and region of Brazil. The number of hospitalizations with at least one ADE code was used as the numerator whereas the population obtained from a Brazilian census projection was the denominator. Temporal trends in rates in the studied period were estimated using the Joinpoint Regression Program Version 4.8.0.1 (Statistical Research and Applications Branch, National Cancer Institute). This method identifies trend changes and describes the joinpoint model using annual percentage change (APC) during a particular trend and average annual percentage change (AAPC) for the entire period<sup><xref ref-type="bibr" rid="B15">15</xref></sup> .</p>
+				<p>The ADE frequencies were estimated by each ICD-10 code category regarding sex, age, age group, LOS, AIH costs, and deaths. Since some hospitalizations were registered with two or more ICD-10 codes included in different categories (A1/A2/B1/B2/C/D), the number of hospitalizations with at least one ADE was lower than the sum of identified episodes by each ICD category. The most frequent ICD-10 codes by year, sex, age group, and geographical region were identified. Moreover, ICD-10 codes from categories A1 and B1 were categorized by drug classes and costs of the AIH were studied.</p>
+			</sec>
+			<sec>
+				<title>Ethical Aspects</title>
+				<p>Data used in this study are public and accessible by all those interested. Nevertheless, the study was approved by the Research Ethics Committee of the <italic>Universidade Federal de Goiás</italic> - UFG (CAEE 32355720.9.0000.5083).</p>
+			</sec>
+		</sec>
+		<sec sec-type="results">
+			<title>RESULTS</title>
+			<sec>
+				<title>Overall and Ten-Year Trends in Hospitalizations Related to ADE</title>
+				<p>From 2009 to 2018, 607,663 hospitalizations had at least one ICD-10 related to ADE in the Brazilian unified health system. The mean of hospitalizations by year was 60,280.8. <xref ref-type="table" rid="t1">Table 1</xref> summarizes the baseline characteristics of the study population. The median age of all patients was 31.0 (IQT: 22.0–44.0) and 33.9% of the patients were women. By age group, was observed in patients aged 25 to 34 years had the highest number of adverse events. Patients were hospitalized for more than 11 days in 39.9% of the cases. ADE accounted for 9,558,623 hospital-bed days during the studied period. The median of health care cost of hospitalizations per year was US$ 25,995,036. In total, 15,486 (2.5%) patients died during hospitalization. Regarding discharge status, most patients were discharged after improving and 6.6% were discharged at their own request.</p>
+				<p>
+					<table-wrap id="t1">
+						<label>Table 1</label>
+						<caption>
+							<title>Characteristics of the hospitalizations with ICD-10 codes related to adverse drug event in the Brazilian Unified Health System.</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup width="8%">
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left">Variable</th>
+									<th>2009</th>
+									<th>2010</th>
+									<th>2011</th>
+									<th>2012</th>
+									<th>2013</th>
+									<th>2014</th>
+									<th>2015</th>
+									<th>2016</th>
+									<th>2017</th>
+									<th>2018</th>
+									<th>All years</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Number of hospitalizations</td>
+									<td align="center">63,044</td>
+									<td align="center">62,373</td>
+									<td align="center">61,658</td>
+									<td align="center">61,836</td>
+									<td align="center">59,152</td>
+									<td align="center">57,971</td>
+									<td align="center">56,508</td>
+									<td align="center">56,472</td>
+									<td align="center">61,818</td>
+									<td align="center">66,831</td>
+									<td align="center">607,663</td>
+								</tr>
+								<tr>
+									<td>Sex n (%)</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Female</td>
+									<td align="center">20,187 (32.0)</td>
+									<td align="center">19,818 (31.8)</td>
+									<td align="center">19,995 (32.4)</td>
+									<td align="center">20,027 (32.4)</td>
+									<td align="center">19,582 (33.1)</td>
+									<td align="center">19,988 (34.5)</td>
+									<td align="center">19,881 (35.2)</td>
+									<td align="center">20,177 (35.7)</td>
+									<td align="center">22,192 (35.9)</td>
+									<td align="center">24,351 (36.4)</td>
+									<td align="center">206,198 (33.9)</td>
+								</tr>
+								<tr>
+									<td>Male</td>
+									<td align="center">42,857 (68.0)</td>
+									<td align="center">42,555 (68.2)</td>
+									<td align="center">41,663 (67.6)</td>
+									<td align="center">41,809 (67.6)</td>
+									<td align="center">39,570 (66.9)</td>
+									<td align="center">37,983 (65.5)</td>
+									<td align="center">36,627 (64.8)</td>
+									<td align="center">36,295 (64.3)</td>
+									<td align="center">39,626 (64.1)</td>
+									<td align="center">42,480 (63.6)</td>
+									<td align="center">401,465 (66.1)</td>
+								</tr>
+								<tr>
+									<td>Age, years m (IQT)</td>
+									<td align="center">30.0 (22.0–43.0)</td>
+									<td align="center">30.0 (21.0–42.0)</td>
+									<td align="center">30.0 (22.0–42.0)</td>
+									<td align="center">30.0 (22.0–42.0)</td>
+									<td align="center">31.0 (22.0–43.0)</td>
+									<td align="center">32.0 (22.0–44.0)</td>
+									<td align="center">33.0 (23.0–46.0)</td>
+									<td align="center">33.0 (22.0–47.0)</td>
+									<td align="center">33.0 (22.0–46.0)</td>
+									<td align="center">33.0 (22.0–46.0)</td>
+									<td align="center">31.0 (22.0–44.0)</td>
+								</tr>
+								<tr>
+									<td colspan="12">Age group, years n (%)</td>
+								</tr>
+								<tr>
+									<td>≤ 4</td>
+									<td align="center">3,062 (4.8)</td>
+									<td align="center">3,089 (4.9)</td>
+									<td align="center">2,842 (4.6)</td>
+									<td align="center">2,911 (4.7)</td>
+									<td align="center">2,880 (4.8)</td>
+									<td align="center">2,810 (4.8)</td>
+									<td align="center">2,843 (5.0)</td>
+									<td align="center">2,997 (5.3)</td>
+									<td align="center">3,258 (5.2)</td>
+									<td align="center">3,349 (5.0)</td>
+									<td align="center">30,041 (4.9)</td>
+								</tr>
+								<tr>
+									<td>5–14</td>
+									<td align="center">3,021 (4.8)</td>
+									<td align="center">3,068 (4.9)</td>
+									<td align="center">3,049 (4.9)</td>
+									<td align="center">2,801 (4.5)</td>
+									<td align="center">2,614 (4.4)</td>
+									<td align="center">2,599 (4.5)</td>
+									<td align="center">2,558 (4.5)</td>
+									<td align="center">2,551 (4.5)</td>
+									<td align="center">2,865 (4.6)</td>
+									<td align="center">3,043 (4.6)</td>
+									<td align="center">28,169 (4.6)</td>
+								</tr>
+								<tr>
+									<td>15–24</td>
+									<td align="center">15,046 (23.9)</td>
+									<td align="center">14,973 (24.0)</td>
+									<td align="center">14,520 (23.5)</td>
+									<td align="center">14,359 (23.2)</td>
+									<td align="center">13,102 (22.2)</td>
+									<td align="center">12,238 (21.1)</td>
+									<td align="center">10,932 (19.3)</td>
+									<td align="center">11,190 (19.8)</td>
+									<td align="center">12,653 (20.6)</td>
+									<td align="center">13,555 (20.3)</td>
+									<td align="center">132,568 (21.8)</td>
+								</tr>
+								<tr>
+									<td>25–34</td>
+									<td align="center">17,475 (27.8)</td>
+									<td align="center">17,504 (28.2)</td>
+									<td align="center">17,637 (28.6)</td>
+									<td align="center">17,585 (28.5)</td>
+									<td align="center">16,671 (28.3)</td>
+									<td align="center">15,678 (27.1)</td>
+									<td align="center">14,372 (25.5)</td>
+									<td align="center">13,717 (24.3)</td>
+									<td align="center">14,797 (24.0)</td>
+									<td align="center">15,861 (23.7)</td>
+									<td align="center">161,297 (26.6)</td>
+								</tr>
+								<tr>
+									<td>35–44</td>
+									<td align="center">10,098 (16.0)</td>
+									<td align="center">9,985 (16.0)</td>
+									<td align="center">10,206 (16.6)</td>
+									<td align="center">10,599 (17.1)</td>
+									<td align="center">10,429 (17.6)</td>
+									<td align="center">10,558 (18.2)</td>
+									<td align="center">10,427 (18.5)</td>
+									<td align="center">10,103 (17.9)</td>
+									<td align="center">11,310 (18.3)</td>
+									<td align="center">12,735 (19.1)</td>
+									<td align="center">106,450 (17.5)</td>
+								</tr>
+								<tr>
+									<td>45–54</td>
+									<td align="center">6,017 (9.5)</td>
+									<td align="center">5,897 (9.5)</td>
+									<td align="center">5,951 (9.7)</td>
+									<td align="center">6,102 (9.9)</td>
+									<td align="center">5,881 (9.9)</td>
+									<td align="center">5,907 (10.2)</td>
+									<td align="center">6,149 (10.9)</td>
+									<td align="center">6,444 (11.4)</td>
+									<td align="center">6,702 (10.8)</td>
+									<td align="center">7,430 (11.1)</td>
+									<td align="center">62,480 (10.3)</td>
+								</tr>
+								<tr>
+									<td>55–64</td>
+									<td align="center">3,448 (5.5)</td>
+									<td align="center">3,455 (5.5)</td>
+									<td align="center">3,319 (5.4)</td>
+									<td align="center">3,316 (5.4)</td>
+									<td align="center">3,346 (5.7)</td>
+									<td align="center">3,650 (6.3)</td>
+									<td align="center">4,005 (7.1)</td>
+									<td align="center">4,215 (7.5)</td>
+									<td align="center">4,414 (7.1)</td>
+									<td align="center">4,900 (7.3)</td>
+									<td align="center">38,068 (6.3)</td>
+								</tr>
+								<tr>
+									<td>65–74</td>
+									<td align="center">2,606 (4.1)</td>
+									<td align="center">2,385 (3.8)</td>
+									<td align="center">2,165 (3.5)</td>
+									<td align="center">2,193 (3.5)</td>
+									<td align="center">2,312 (3.9)</td>
+									<td align="center">2,364 (4.1)</td>
+									<td align="center">2,713 (4.8)</td>
+									<td align="center">2,790 (4.9)</td>
+									<td align="center">3,153 (5.1)</td>
+									<td align="center">3,252 (4.9)</td>
+									<td align="center">25,933 (4.3)</td>
+								</tr>
+								<tr>
+									<td>≥ 75</td>
+									<td align="center">2,271 (3.6)</td>
+									<td align="center">2,017 (3.2)</td>
+									<td align="center">1,969 (3.2)</td>
+									<td align="center">1,970 (3.2)</td>
+									<td align="center">1,917 (3.2)</td>
+									<td align="center">2,167 (3.7)</td>
+									<td align="center">2,509 (4.4)</td>
+									<td align="center">2,465 (4.4)</td>
+									<td align="center">2,666 (4.3)</td>
+									<td align="center">2,706 (4.0)</td>
+									<td align="center">22,657 (3.7)</td>
+								</tr>
+								<tr>
+									<td>LOS, days m ( IQT)</td>
+									<td align="center">6.0 (3.0–19.0)</td>
+									<td align="center">7.0 (3.0–20.0)</td>
+									<td align="center">7.0 (3.0–20.0)</td>
+									<td align="center">7.0 (3.0–21.0)</td>
+									<td align="center">7.0 (2.0–21.0)</td>
+									<td align="center">7.0 (2.0–20.0)</td>
+									<td align="center">6.0 (2.0–20.0)</td>
+									<td align="center">6.0 (2.0–19.0)</td>
+									<td align="center">6.0 (2.0–19.0)</td>
+									<td align="center">7.0 (2.0–19.0)</td>
+									<td align="center">7.0 (3.0–20.0)</td>
+								</tr>
+								<tr>
+									<td>Hospitalization costs, Brazilian Real m (IQT)</td>
+									<td align="center">367.44 (160.95–849.40)</td>
+									<td align="center">407.17 (184.79–1,041.98)</td>
+									<td align="center">420.00 (184.79–1,080.57)</td>
+									<td align="center">438.68 (184.87–1,120.00)</td>
+									<td align="center">445.79 (183.72–1,140.00)</td>
+									<td align="center">416.39 (169.48–1,140.00)</td>
+									<td align="center">416.39 (171.00–1,140.00)</td>
+									<td align="center">426.10 (177.14–1,140.00)</td>
+									<td align="center">439.52 (184.87–1,140.00)</td>
+									<td align="center">456.00 (177.35–1,197.00)</td>
+									<td align="center">416.4 (173.90–1,104.20)</td>
+								</tr>
+								<tr>
+									<td>Hospitalization costs, US dollar m (IQT)</td>
+									<td align="center">191.22 (85.74–450.62)</td>
+									<td align="center">235.80 (102.79–598.80)</td>
+									<td align="center">251.78 (106.42–639.10)</td>
+									<td align="center">219.83 (91.20–560.35)</td>
+									<td align="center">198.80 (80.28–511.53)</td>
+									<td align="center">173.05 (69.76–479.20)</td>
+									<td align="center">117.19 (48.61–317.59)</td>
+									<td align="center">128.45 (52.59–347.11)</td>
+									<td align="center">136.78 (56.53–354.80)</td>
+									<td align="center">122.47 (47.77–321.05)</td>
+									<td align="center">173.95 (74.54–445.45)</td>
+								</tr>
+								<tr>
+									<td colspan="12">Inpatient deaths n (%)</td>
+								</tr>
+								<tr>
+									<td>Yes</td>
+									<td align="center">1,294 (2.1)</td>
+									<td align="center">1,271 (2.0)</td>
+									<td align="center">1,282 (2.1)</td>
+									<td align="center">1,278 (2.1)</td>
+									<td align="center">1,349 (2.3)</td>
+									<td align="center">1,341 (2.3)</td>
+									<td align="center">1,685 (3.0)</td>
+									<td align="center">1,907 (3.4)</td>
+									<td align="center">2,009 (3.2)</td>
+									<td align="center">2,070 (3.1)</td>
+									<td align="center">15,486 (2.5)</td>
+								</tr>
+								<tr>
+									<td>No</td>
+									<td align="center">61,750 (97.9)</td>
+									<td align="center">61,102 (98.0)</td>
+									<td align="center">60,376 (97.9)</td>
+									<td align="center">60,558 (97.9)</td>
+									<td align="center">57,803 (97.7)</td>
+									<td align="center">56,630 (97.7)</td>
+									<td align="center">54,823 (97.0)</td>
+									<td align="center">54,565 (96.6)</td>
+									<td align="center">59,809 (96.8)</td>
+									<td align="center">64,761 (96.9)</td>
+									<td align="center">592,177 (97.5)</td>
+								</tr>
+								<tr>
+									<td colspan="12">Level of complexity</td>
+								</tr>
+								<tr>
+									<td>Moderate</td>
+									<td align="center">62,399 (99.0)</td>
+									<td align="center">61,660 (98.9)</td>
+									<td align="center">60,990 (98.9)</td>
+									<td align="center">61,248 (99.0)</td>
+									<td align="center">58,562 (99.0)</td>
+									<td align="center">57,338 (98.9)</td>
+									<td align="center">55,792 (98.7)</td>
+									<td align="center">55,654 (98.6)</td>
+									<td align="center">60,760 (98.3)</td>
+									<td align="center">65,878 (98.6)</td>
+									<td align="center">600,281 (98.8)</td>
+								</tr>
+								<tr>
+									<td>High</td>
+									<td align="center">645 (1.0)</td>
+									<td align="center">713 (1.1)</td>
+									<td align="center">668 (1.1)</td>
+									<td align="center">588 (1.0)</td>
+									<td align="center">590 (1.0)</td>
+									<td align="center">633 (1.1)</td>
+									<td align="center">716 (1.3)</td>
+									<td align="center">818 (1.4)</td>
+									<td align="center">1,058 (1.7)</td>
+									<td align="center">953 (1.4)</td>
+									<td align="center">7,382 (1.2)</td>
+								</tr>
+								<tr>
+									<td>Intensive care</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Yes</td>
+									<td align="center">2,471 (3.9)</td>
+									<td align="center">2,514 (4.0)</td>
+									<td align="center">2,419 (3.9)</td>
+									<td align="center">2,514 (4.1)</td>
+									<td align="center">2,570 (4.3)</td>
+									<td align="center">2,666 (4.6)</td>
+									<td align="center">2,946 (5.2)</td>
+									<td align="center">3,296 (5.8)</td>
+									<td align="center">3,603 (5.8)</td>
+									<td align="center">3,914 (5.9)</td>
+									<td align="center">28,913 (4.8)</td>
+								</tr>
+								<tr>
+									<td>No</td>
+									<td align="center">60,573 (96.1)</td>
+									<td align="center">59,859 (96.0)</td>
+									<td align="center">59,239 (96.1)</td>
+									<td align="center">59,322 (95.9)</td>
+									<td align="center">56,582 (95.7)</td>
+									<td align="center">55,305 (95.4)</td>
+									<td align="center">53,562 (94.8)</td>
+									<td align="center">53,176 (94.2)</td>
+									<td align="center">58,215 (94.2)</td>
+									<td align="center">62,917 (94.1)</td>
+									<td align="center">578,750 (95.2)</td>
+								</tr>
+								<tr>
+									<td>Brazilian regions</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>North</td>
+									<td align="center">2,080 (3.2)</td>
+									<td align="center">2,034 (3.2)</td>
+									<td align="center">1,947 (3.1)</td>
+									<td align="center">2,139 (3.5)</td>
+									<td align="center">2,493 (4.1)</td>
+									<td align="center">2,567 (4.4)</td>
+									<td align="center">2,321 (4.1)</td>
+									<td align="center">2,197 (3.9)</td>
+									<td align="center">2,235 (3.6)</td>
+									<td align="center">2,309 (3.4)</td>
+									<td align="center">22,322 (3.7)</td>
+								</tr>
+								<tr>
+									<td>Northeast</td>
+									<td align="center">10,630 (16.9)</td>
+									<td align="center">10,085 (16.2)</td>
+									<td align="center">9,119 (14.8)</td>
+									<td align="center">8,941 (14.5)</td>
+									<td align="center">8,939 (15.1)</td>
+									<td align="center">8,929 (15.4)</td>
+									<td align="center">8,819 (15.6)</td>
+									<td align="center">8,819 (15.6)</td>
+									<td align="center">9,064 (14.7)</td>
+									<td align="center">9,328 (14.0)</td>
+									<td align="center">92,673 (15.3)</td>
+								</tr>
+								<tr>
+									<td>Midwest</td>
+									<td align="center">6,447 (10.2)</td>
+									<td align="center">5,584 (9.0)</td>
+									<td align="center">5,728 (9.3)</td>
+									<td align="center">6,145 (9.9)</td>
+									<td align="center">5,254 (8.9)</td>
+									<td align="center">4,247 (7.3)</td>
+									<td align="center">4,130 (7.3)</td>
+									<td align="center">3,827 (6.7)</td>
+									<td align="center">4,295 (6.9)</td>
+									<td align="center">4,911 (7.3)</td>
+									<td align="center">50,568 (8.3)</td>
+								</tr>
+								<tr>
+									<td>Southeast</td>
+									<td align="center">27,271 (43.3)</td>
+									<td align="center">27,887 (44.7)</td>
+									<td align="center">28,523 (46.3)</td>
+									<td align="center">28,967 (46.8)</td>
+									<td align="center">28,228 (47.8)</td>
+									<td align="center">27,324 (47.2)</td>
+									<td align="center">25,901 (45.9)</td>
+									<td align="center">25,735 (45.7)</td>
+									<td align="center">27,604 (44.7)</td>
+									<td align="center">29,994 (44.9)</td>
+									<td align="center">277,434 (45.7)</td>
+								</tr>
+								<tr>
+									<td>South</td>
+									<td align="center">16,616 (26.4)</td>
+									<td align="center">16,783 (26.9)</td>
+									<td align="center">16,341 (26.5)</td>
+									<td align="center">15,644 (25.3)</td>
+									<td align="center">14,238 (24.1)</td>
+									<td align="center">14,904 (25.7)</td>
+									<td align="center">15,337 (27.1)</td>
+									<td align="center">15,894 (28.1)</td>
+									<td align="center">18,620 (30.1)</td>
+									<td align="center">20,289 (30.4)</td>
+									<td align="center">164,666 (27.0)</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN1">
+								<p>ICD-10: International Classification of Disease 10<sup>th</sup> edition; LOS: length of hospital stay; m: mean; IQT: interquartile range.</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p>
+					<xref ref-type="table" rid="t2">Table 2</xref> describes crude rates of hospitalizations related to ADE per 100,000 inhabitants in Brazil and the trends in rates according to the joinpoints (i.e., a trend change). During the studied period, the highest rate of hospitalization for ADE was registered in Brazil in 2009 (32.57 per 100,000 inhabitants). Men and the age group 25 to 34 years old presented higher rates of ADE. A joinpoint was identified in rates by overall hospitalizations in 2016, leading to two periods with different trends: a decrease followed by an increase. The same occurred between the rates in women and men, but only women had a significant annual increase (1.4%) during the period. All age groups presented a joinpoint in time series; however, only segments represented by APC were significant. No joinpoints were found in the analysis of rates according to Brazilian regions, that is, APC equals AAPC, and only two regions showed a significant decrease in rates. The inpatient mortality rate related to ADE per 100,000 inhabitants showed a joinpoint in 2013, with 9.8% increase from 2013 to 2018 (data not shown in <xref ref-type="table" rid="t2">Table 2</xref> ).</p>
+				<p>
+					<table-wrap id="t2">
+						<label>Table 2</label>
+						<caption>
+							<title>Hospitalization in the Brazilian Unified Health System with ICD-10 codes of adverse drug event per 100,000 inhabitants (crude rates).</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup width="8%">
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left" style="font-weight:normal">
+									</th>
+									<th>2009</th>
+									<th>2010</th>
+									<th>2011</th>
+									<th>2012</th>
+									<th>2013</th>
+									<th>2014</th>
+									<th>2015</th>
+									<th>2016</th>
+									<th>2017</th>
+									<th>2018</th>
+									<th>APC (95%CI)</th>
+									<th>AAPC (95%CI)</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>All hospitalizations</td>
+									<td align="center">32.57</td>
+									<td align="center">32.00</td>
+									<td align="center">31.36</td>
+									<td align="center">31.18</td>
+									<td align="center">29.58</td>
+									<td align="center">28.74</td>
+									<td align="center">27.77</td>
+									<td align="center">27.53</td>
+									<td align="center">29.89</td>
+									<td align="center">32.05</td>
+									<td align="center">2009–2016: -2.6<sup>a</sup> (-3.2 to -1.9)</td>
+									<td align="center">-0.3 (-1.2 to 0.7)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td align="center">2016–2018: 8.2<sup>a</sup> (3.1 to 13.7)</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td colspan="13">Hospitalizations by sex</td>
+								</tr>
+								<tr>
+									<td>Female</td>
+									<td align="center">20.65</td>
+									<td align="center">19.94</td>
+									<td align="center">19.94</td>
+									<td align="center">19.79</td>
+									<td align="center">19.18</td>
+									<td align="center">19.41</td>
+									<td align="center">19.14</td>
+									<td align="center">19.26</td>
+									<td align="center">21.01</td>
+									<td align="center">22.86</td>
+									<td align="center">2009–2016: -0.9<sup>a</sup> (-1.5 to -0.4)</td>
+									<td align="center">1.4<sup>a</sup> (0.6 to 2.1)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td align="center">2016–2018: 9.8<sup>a</sup> (5.4 to 14.3)</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Male</td>
+									<td align="center">44.75</td>
+									<td align="center">44.55</td>
+									<td align="center">43.25</td>
+									<td align="center">43.04</td>
+									<td align="center">40.41</td>
+									<td align="center">38.47</td>
+									<td align="center">36.78</td>
+									<td align="center">36.16</td>
+									<td align="center">39.48</td>
+									<td align="center">41.66</td>
+									<td align="center">2009–2016: -3.3<sup>a</sup> (-4.4 to -2.2)</td>
+									<td align="center">-1.0 (-2.5 to 0.5)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td align="center">2016–2018: 7.5 (-1.0 to 16.7)</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td colspan="13">Hospitalizations by age group</td>
+								</tr>
+								<tr>
+									<td>≤ 4 years</td>
+									<td align="center">19.08</td>
+									<td align="center">20.79</td>
+									<td align="center">19.34</td>
+									<td align="center">19.91</td>
+									<td align="center">19.77</td>
+									<td align="center">19.29</td>
+									<td align="center">19.37</td>
+									<td align="center">20.37</td>
+									<td align="center">22.13</td>
+									<td align="center">22.65</td>
+									<td align="center">2009–2015: -0.3 (-2.3 to 1.7)</td>
+									<td align="center">1.6 (-0.2 to 3.5)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td align="center">2015–2018: 5.5 (-0.6 to 12.0)</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>5–14 years</td>
+									<td align="center">8.82</td>
+									<td align="center">9.22</td>
+									<td align="center">9.29</td>
+									<td align="center">8.68</td>
+									<td align="center">8.25</td>
+									<td align="center">8.34</td>
+									<td align="center">8.34</td>
+									<td align="center">8.44</td>
+									<td align="center">9.56</td>
+									<td align="center">10.24</td>
+									<td align="center">2009–2015: -2.0 (-4.1 to 0.2)</td>
+									<td align="center">1.1 (-0.8 to 3.1)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td align="center">2015–2018: 7.6<sup>a</sup> (1.0 to 14.7)</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>15–24 years</td>
+									<td align="center">43.40</td>
+									<td align="center">43.15</td>
+									<td align="center">41.92</td>
+									<td align="center">41.49</td>
+									<td align="center">37.87</td>
+									<td align="center">35.42</td>
+									<td align="center">31.75</td>
+									<td align="center">32.64</td>
+									<td align="center">37.19</td>
+									<td align="center">40.18</td>
+									<td align="center">2009–2016: -4.7<sup>a</sup> (-6.7 to -2.6)</td>
+									<td align="center">-1.2 (-4.1 to 1.8)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td align="center">2016–2018: 12.2 (-4.4 to 31.6)</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>25–34 years</td>
+									<td align="center">52.49</td>
+									<td align="center">52.58</td>
+									<td align="center">52.34</td>
+									<td align="center">51.69</td>
+									<td align="center">48.66</td>
+									<td align="center">45.55</td>
+									<td align="center">41.65</td>
+									<td align="center">39.73</td>
+									<td align="center">42.93</td>
+									<td align="center">46.15</td>
+									<td align="center">2009–2016: -4.2<sup>a</sup> (-6.2 to -2.2)</td>
+									<td align="center">-2.1 (-4.9 to 0.8)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td align="center">2016–2018: 5.7 (-9.4 to 23.3)</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>35–44 years</td>
+									<td align="center">37.67</td>
+									<td align="center">36.63</td>
+									<td align="center">36.90</td>
+									<td align="center">37.71</td>
+									<td align="center">36.48</td>
+									<td align="center">36.27</td>
+									<td align="center">35.14</td>
+									<td align="center">33.38</td>
+									<td align="center">36.60</td>
+									<td align="center">40.38</td>
+									<td align="center">2009–2016: -1.4<sup>a</sup> (-2.2 to -0.6)</td>
+									<td align="center">0.6 (-0.6 to 1.7)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td align="center">2016–2018: 7.8<sup>a</sup> (1.4 to 14.7)</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>45–54 years</td>
+									<td align="center">27.80</td>
+									<td align="center">26.48</td>
+									<td align="center">26.11</td>
+									<td align="center">26.20</td>
+									<td align="center">24.74</td>
+									<td align="center">24.40</td>
+									<td align="center">25.00</td>
+									<td align="center">25.82</td>
+									<td align="center">26.52</td>
+									<td align="center">29.05</td>
+									<td align="center">2009–2014: -2.6<sup>a</sup> (-4.2 to -1.0)</td>
+									<td align="center">0.3 (-0.8 to 1.3)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td align="center">2014–2018: 4.0<sup>a</sup> (1.6 to 6.5)</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>55–64 years</td>
+									<td align="center">24.61</td>
+									<td align="center">23.06</td>
+									<td align="center">21.36</td>
+									<td align="center">20.60</td>
+									<td align="center">20.09</td>
+									<td align="center">21.19</td>
+									<td align="center">22.49</td>
+									<td align="center">22.93</td>
+									<td align="center">23.27</td>
+									<td align="center">25.07</td>
+									<td align="center">2009–2012: -6.7<sup>a</sup> (-9.4 to -3.9)</td>
+									<td align="center">-0.0 (-0.9 to 0.9)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td align="center">2012–2018: 3.5<sup>a</sup> (2.5 to 4.5)</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>65–74 years</td>
+									<td align="center">33.02</td>
+									<td align="center">27.42</td>
+									<td align="center">24.10</td>
+									<td align="center">23.60</td>
+									<td align="center">24.01</td>
+									<td align="center">23.65</td>
+									<td align="center">26.10</td>
+									<td align="center">25.78</td>
+									<td align="center">27.95</td>
+									<td align="center">27.65</td>
+									<td align="center">2009–2011: -16.2<sup>a</sup> (-24.5 to -6.9)</td>
+									<td align="center">-1.9 (-3.8 to 0.0)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td align="center">2011–2018: 2.6<sup>a</sup> (1.2 to 4.0)</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>≥ 75 years</td>
+									<td align="center">46.29</td>
+									<td align="center">36.19</td>
+									<td align="center">34.09</td>
+									<td align="center">32.83</td>
+									<td align="center">30.73</td>
+									<td align="center">33.44</td>
+									<td align="center">37.35</td>
+									<td align="center">35.43</td>
+									<td align="center">37.00</td>
+									<td align="center">36.25</td>
+									<td align="center">2009–2011: -15.7 (-29.6 to 0.8)</td>
+									<td align="center">-2.2 (-5.4 to 1.2)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td align="center">2011–2018: 2.1 (-0.3 to 4.6)</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td colspan="13">Hospitalizations by Brazilian Regions</td>
+								</tr>
+								<tr>
+									<td>North</td>
+									<td align="center">13.05</td>
+									<td align="center">12.52</td>
+									<td align="center">11.81</td>
+									<td align="center">12.78</td>
+									<td align="center">14.69</td>
+									<td align="center">14.91</td>
+									<td align="center">13.29</td>
+									<td align="center">12.42</td>
+									<td align="center">12.47</td>
+									<td align="center">12.70</td>
+									<td align="center">2009–2018: 0.1 (-1.9 to 2.1)</td>
+									<td align="center">0.1 (-1.9 to 2.1)</td>
+								</tr>
+								<tr>
+									<td>Northeast</td>
+									<td align="center">19.67</td>
+									<td align="center">18.60</td>
+									<td align="center">16.72</td>
+									<td align="center">16.29</td>
+									<td align="center">16.20</td>
+									<td align="center">16.09</td>
+									<td align="center">15.80</td>
+									<td align="center">15.71</td>
+									<td align="center">16.06</td>
+									<td align="center">16.43</td>
+									<td align="center">2009–2018: -1.8<sup>a</sup> (-3.1 to -0.5)</td>
+									<td align="center">-1.8<sup>a</sup> (-3.1 to -0.5)</td>
+								</tr>
+								<tr>
+									<td>Midwest</td>
+									<td align="center">45.87</td>
+									<td align="center">38.91</td>
+									<td align="center">39.32</td>
+									<td align="center">41.57</td>
+									<td align="center">35.04</td>
+									<td align="center">27.91</td>
+									<td align="center">26.74</td>
+									<td align="center">24.44</td>
+									<td align="center">27.06</td>
+									<td align="center">30.53</td>
+									<td align="center">2009–2018: -6.0<sup>a</sup> (-8.8 to -3.0)</td>
+									<td align="center">-6.0<sup>a</sup> (-8.8 to -3.0)</td>
+								</tr>
+								<tr>
+									<td>Southeast</td>
+									<td align="center">33.40</td>
+									<td align="center">33.94</td>
+									<td align="center">34.43</td>
+									<td align="center">34.67</td>
+									<td align="center">33.50</td>
+									<td align="center">32.16</td>
+									<td align="center">30.23</td>
+									<td align="center">29.80</td>
+									<td align="center">31.72</td>
+									<td align="center">34.20</td>
+									<td align="center">2009–2018: -0.9 (-2.1 to 0.4)</td>
+									<td align="center">-0.9 (-2.1 to 0.4)</td>
+								</tr>
+								<tr>
+									<td>South</td>
+									<td align="center">59.64</td>
+									<td align="center">60.11</td>
+									<td align="center">58.06</td>
+									<td align="center">55.15</td>
+									<td align="center">49.79</td>
+									<td align="center">51.70</td>
+									<td align="center">52.76</td>
+									<td align="center">54.25</td>
+									<td align="center">63.06</td>
+									<td align="center">68.19</td>
+									<td align="center">2009–2018: 0.7 (-1.9 to 3.3)</td>
+									<td align="center">0.7 (-1.9 to 3.3)</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN2">
+								<p>ICD-10: International Classification Disease 10<sup>th</sup> edition; 95%CI: 95% confidence interval.</p>
+							</fn>
+							<fn id="TFN3">
+								<p><sup>a</sup> Indicates that the annual percent change (APC) or average annual percentage change (AAPC) is significantly different from zero at the alpha = 0.05 level.</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+			</sec>
+			<sec>
+				<title>Overall Description of the ICD-10 Codes</title>
+				<p>In total, 638,685 ICD-10 codes were assigned to hospitalizations related to ADE in the Brazilian unified health system. Codes from the category “certain” (A1 and B1) were found in 90,452 (14.9%) hospitalizations. Cases from this category accounted for 404,821 hospital-bed days. Around 9.3% of all costs were related to hospitalizations with codes of the category “certain”. Codes from the category “probable” (A2 and B2) appeared in 70.6% of cases ( <xref ref-type="table" rid="t3">Table 3</xref> ). Supporting information has the frequencies of hospitalizations with each ICD-10 code.</p>
+				<p>
+					<table-wrap id="t3">
+						<label>Table 3</label>
+						<caption>
+							<title>Distribution of hospitalizations in the Brazilian Unified Health System related to adverse drug event by ICD-10 codes category (A1/A2/B1/B2/C/D).</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup width="8%">
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left">Description of codes category</th>
+									<th>Number of codes</th>
+									<th>Number of hospitalizations<sup>a</sup></th>
+									<th>Female n (%)</th>
+									<th>Age m (IQT)</th>
+									<th>Age group n (%)</th>
+									<th>LOS (total)</th>
+									<th>LOS m (IQT)</th>
+									<th>Costs (total)</th>
+									<th>Costs m (IQT)</th>
+									<th>Intensive care n (%)</th>
+									<th>Deaths n (%)</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td rowspan="2">Certain (A1 e B1)</td>
+									<td align="center" rowspan="2">407</td>
+									<td align="center" rowspan="2">90,452</td>
+									<td align="center" rowspan="2">53,576 (59.2)</td>
+									<td align="center" rowspan="2">32.0 (19.0–50.0)</td>
+									<td align="center" rowspan="2">15–24 17,378 (19.2)</td>
+									<td align="center" rowspan="2">404,821</td>
+									<td align="center" rowspan="2">2.0 (2.0–4.0)</td>
+									<td align="center">59,727,310 (Real)<sup>b</sup></td>
+									<td align="center">197.1 (136.9–366.0)</td>
+									<td align="center" rowspan="2">8,432 (9.3)</td>
+									<td align="center" rowspan="2">2,441 (2.7)</td>
+								</tr>
+								<tr>
+									<td align="center">24,150,518 (US$)</td>
+									<td align="center">81.51 (57.78–148.73)</td>
+								</tr>
+								<tr>
+									<td rowspan="2">Probable (A2 e B2)</td>
+									<td align="center" rowspan="2">170</td>
+									<td align="center" rowspan="2">429,101</td>
+									<td align="center" rowspan="2">114,218 (26.6)</td>
+									<td align="center" rowspan="2">30.0 (22.0–39.0)</td>
+									<td align="center" rowspan="2">25–34 136,521 (31.8)</td>
+									<td align="center" rowspan="2">8,462,648</td>
+									<td align="center" rowspan="2">10.0 (3.0–25.0)</td>
+									<td align="center">463,955,617 (Real)<sup>b</sup></td>
+									<td align="center">546.7 (171.0–1,205.4)</td>
+									<td align="center" rowspan="2">12,839 (3.0)</td>
+									<td align="center" rowspan="2">4,411 (1.0)</td>
+								</tr>
+								<tr>
+									<td align="center">193,135,101 (US$)</td>
+									<td align="center">221.44 (76.79–512.32)</td>
+								</tr>
+								<tr>
+									<td rowspan="2">Possible (C)</td>
+									<td align="center" rowspan="2">18</td>
+									<td align="center" rowspan="2">16,911</td>
+									<td align="center" rowspan="2">7,366 (43.6)</td>
+									<td align="center" rowspan="2">48.0 (29.0–62.0)</td>
+									<td align="center" rowspan="2">45–54 2,996 (17.7)</td>
+									<td align="center" rowspan="2">150,830</td>
+									<td align="center" rowspan="2">6.0 (3.0–11.0)</td>
+									<td align="center">22,100,551 (Real)<sup>b</sup></td>
+									<td align="center">488.75 (416.39–821.62)</td>
+									<td align="center" rowspan="2">1,461 (8.6)</td>
+									<td align="center" rowspan="2">2,132 (12.6)</td>
+								</tr>
+								<tr>
+									<td align="center">8,101,549 (US$)</td>
+									<td align="center">213.53 (141.06–333.55)</td>
+								</tr>
+								<tr>
+									<td rowspan="2">Occasional (D)</td>
+									<td align="center" rowspan="2">23</td>
+									<td align="center" rowspan="2">81,282</td>
+									<td align="center" rowspan="2">37,225 (45.8)</td>
+									<td align="center" rowspan="2">47.0 (24.0–64.0)</td>
+									<td align="center" rowspan="2">55–64 12,679 (15.6)</td>
+									<td align="center" rowspan="2">570,988</td>
+									<td align="center" rowspan="2">4.0 (2.0–8.0)</td>
+									<td align="center">92,161,986 (Real)<sup>b</sup></td>
+									<td align="center">354.68 (210.06–717.97)</td>
+									<td align="center" rowspan="2">7,312 (9.0)</td>
+									<td align="center" rowspan="2">6,750 (8.3)</td>
+								</tr>
+								<tr>
+									<td align="center">36,127,441 (US$)</td>
+									<td align="center">143.43 (88.67–296.22)</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN4">
+								<p>ICD-10: International Classification of Disease 10<sup>th</sup> edition; LOS: length of hospital stay; m (IQT): mean interquartile range.</p>
+							</fn>
+							<fn id="TFN5">
+								<p><sup>a</sup> A number of hospitalizations with at least one code from the category.</p>
+							</fn>
+							<fn id="TFN6">
+								<p><sup>b</sup> Brazilian Real.</p>
+							</fn>
+							<fn id="TFN7">
+								<p>Note: A1: adverse reaction caused by drugs; A2: adverse reaction caused by drugs or other causes; B1: poisoning caused by drugs; B2: poisoning caused by drugs or other causes; C: adverse drug event possibly expected for a drug; D: adverse drug event occasionally expected for a drug.</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p>The three most common ICD-10 codes in numbers were those from chapter V (mental and behavioral disorders), F19.2 (187,130; 29.3%), F19.0 (45,635; 7.1%), and F19.5 (30,756; 4.8%), followed by the code of poisoning by unspecified substance T50.9 (27,873; 4.3%) and the code D70 (agranulocytosis) (23,813; 3.7%). <xref ref-type="fig" rid="f01">Figure</xref> A shows the ten codes most related to ADE in each of the ten years analyzed. These codes represent more than 57% of all events in each age group. <xref ref-type="fig" rid="f01">Figure</xref> B shows the distribution of the most prevalent codes except for F19.2, which had higher prevalence (43.5; 50.0%) than other principal codes in all years studied. Codes from chapter V appeared at least five times among the first ten most frequent codes in all years.</p>
+				<p>
+					<fig id="f01">
+						<label>Figure</label>
+						<caption>
+							<title>Most frequent ICD-10 codes related to hospitalization and adverse drug events in the Brazilian unified health system by year, sex, age group and geographical region. Continue</title>
+						</caption>
+						<graphic xlink:href="1518-8787-rsp-56-86-gf01.tif"/>
+						<attrib>D69.6 Thrombocytopenia, unspecified; D70 Agranulocytosis; F11.1 Mental and behavioral disorders due to use of opioids, harmful use; F19.0 Mental and behavioral disorders due to multiple drug use and use of other psychoactive substances, acute intoxication; F19.1 Mental and behavioral disorders due to multiple drug use and use of other psychoactive substances, harmful use; F19.2 Mental and behavioral disorders due to multiple drug use and use of other psychoactive substances, dependence syndrome; F19.3 Mental and behavioral disorders due to multiple drug use and use of other psychoactive substances, withdrawal state; F19.5 Mental and behavioral disorders due to multiple drug use and use of other psychoactive substances, psychotic disorder; F19.9 Mental and behavioral disorders due to multiple drug use and use of other psychoactive substances, unspecified; G40.5 Special epilepsy syndromes; G95.8 Other specified diseases of spinal cord; I42.7 Cardiomyopathy due to drugs and other external agents; K25.0 Gastric ulcer: acute with hemorrhage; K26.0 Duodenal ulcer: acute with hemorrhage; K26.2 Duodenal ulcer: acute with hemorrhage and perforation; O89.4 Spinal and epidural anesthesia-induced headache during the puerperium; P04.4 Fetus and newborn affected by maternal use of drugs of addiction; T36.0 Poisoning by Penicillins; T50.9 Other and unspecified drugs, medicaments and biological substances; X44.9 accidental poisoning by exposure to other and unspecified drugs, medications, and biological substances; Y42.5 Drugs, medications, and biological substances with adverse effects in therapeutic use, other estrogens and progestogens</attrib>
+					</fig>
+				</p>
+				<p>The database analysis identified 97,604 ICD-10 codes from category “certain”. The main codes from category A1 were O89.4 (spinal and epidural anesthesia-induced headache during the puerperium) (10,724; 1.7%), Y42.5 (events by estrogens and progestogens) (4,052; 0.6%), and Y57.8 (events by other drugs and medicaments) (3,895; 0.6%). In category B1, the most poisonings by unintentional or undetermined cause were T42.4 (benzodiazepines) (4,632; 0.7%), T36.9 (systemic antibiotic, unspecified) (4,236; 0.7%), and T45.5 (anticoagulants) (3,543; 0.6%).</p>
+				<p>The ten most frequent codes between sexes were almost equal except for O89.4 (spinal and epidural anesthesia-induced headache during the puerperium) and G95.8 (other specified diseases of spinal cord), which appeared only in women, and F19.1 (mental and behavioral disorders, harmful use) and F19.3 (mental and behavioral disorders, withdrawal state), which appeared only in men (Figures C and D). The five codes most prevalent among age groups were analyzed. None of the codes was repeated in any age group (Figures E and F). Four codes were most common in the five regions of Brazil: T50.9, K25.0, F19.5, F19.0, and F19.9 (Figures G and H).</p>
+				<p>
+					<xref ref-type="table" rid="t4">Table 4</xref> provides an overview of the most common classes of substances associated with ADE from codes of the category “certain” (A1 and B1). The most frequent drugs from category A1 were anesthetics and therapeutic gases and hormones (including synthetic substitutes and antagonists). In category B1, the two main classes related to drug poisoning were (1) systemic anti-infectives and (2) antiepileptics, antiparkinsonism drugs, sedatives-hypnotics and antianxiety drugs.</p>
+				<p>
+					<table-wrap id="t4">
+						<label>Table 4</label>
+						<caption>
+							<title>Description of codes related to adverse drug events according to drug class and costs related to hospitalization with at least one code from the class.</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left" rowspan="3">Medication group</th>
+									<th colspan="2">Category A1</th>
+									<th rowspan="3">Costs<sup>b</sup></th>
+									<th colspan="2">Category B1</th>
+									<th rowspan="3">Costs<sup>b</sup></th>
+								</tr>
+								<tr>
+									<th colspan="2">
+										<hr/>
+									</th>
+									<th colspan="2">
+										<hr/>
+									</th>
+								</tr>
+								<tr>
+									<th>ICD-10 codes</th>
+									<th>Frequency<sup>a</sup></th>
+									<th>ICD-10 codes</th>
+									<th>Frequency<sup>a</sup></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Systemic anti-infectives</td>
+									<td align="center">Y40, Y41, Z88.0-Z88.3</td>
+									<td align="center">2,459</td>
+									<td align="center">814,909.4</td>
+									<td align="center">T36, T37</td>
+									<td align="center">10,113</td>
+									<td align="center">1,879,595</td>
+								</tr>
+								<tr>
+									<td>Hormones, synthetic substitutes, and antagonists</td>
+									<td align="center">Y42</td>
+									<td align="center">4,485</td>
+									<td align="center">1,568,293</td>
+									<td align="center">T38</td>
+									<td align="center">1,450</td>
+									<td align="center">309,954.9</td>
+								</tr>
+								<tr>
+									<td>Steroids</td>
+									<td>
+									</td>
+									<td align="center">23</td>
+									<td align="center">-</td>
+									<td>
+									</td>
+									<td align="center">80</td>
+									<td align="center">-</td>
+								</tr>
+								<tr>
+									<td>Insulin and hypoglycemics</td>
+									<td>
+									</td>
+									<td align="center">230</td>
+									<td align="center">-</td>
+									<td>
+									</td>
+									<td align="center">411</td>
+									<td align="center">-</td>
+								</tr>
+								<tr>
+									<td>Thyroid hormones and antithyroid agents</td>
+									<td>
+									</td>
+									<td align="center">40</td>
+									<td align="center">-</td>
+									<td>
+									</td>
+									<td align="center">568</td>
+									<td align="center">-</td>
+								</tr>
+								<tr>
+									<td>Ovarian hormones</td>
+									<td>
+									</td>
+									<td align="center">4,079</td>
+									<td align="center">-</td>
+									<td>
+									</td>
+									<td align="center">208</td>
+									<td align="center">-</td>
+								</tr>
+								<tr>
+									<td>Androgens and anabolic congeners</td>
+									<td>
+									</td>
+									<td align="center">55</td>
+									<td align="center">-</td>
+									<td>
+									</td>
+									<td align="center">84</td>
+									<td align="center">-</td>
+								</tr>
+								<tr>
+									<td>Primarily systemic agents</td>
+									<td align="center">Y43</td>
+									<td align="center">1,853</td>
+									<td align="center">953,935.5</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+								</tr>
+								<tr>
+									<td>Antineoplastic and immunosuppressive drugs</td>
+									<td>
+									</td>
+									<td align="center">669</td>
+									<td align="center">-</td>
+									<td align="center">T45.1</td>
+									<td align="center">218</td>
+									<td align="center">***</td>
+								</tr>
+								<tr>
+									<td>Antiallergic and antiemetic drugs</td>
+									<td>
+									</td>
+									<td align="center">110</td>
+									<td align="center">-</td>
+									<td align="center">T45.0</td>
+									<td align="center">410</td>
+									<td align="center">***</td>
+								</tr>
+								<tr>
+									<td>Agents primarily affecting blood constituents</td>
+									<td align="center">Y44</td>
+									<td align="center">2,936</td>
+									<td align="center">581,367.2</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+								</tr>
+								<tr>
+									<td>Anticoagulants</td>
+									<td>
+									</td>
+									<td align="center">2,678</td>
+									<td align="center">-</td>
+									<td align="center">T45.5-T45.7</td>
+									<td align="center">4,071</td>
+									<td align="center">***</td>
+								</tr>
+								<tr>
+									<td>Analgesics, antipyretics, and anti-inflammatory agents</td>
+									<td align="center">Y45, F11.7, N14.0, Z88.6</td>
+									<td align="center">1,653</td>
+									<td align="center">547,044.7</td>
+									<td align="center">T39, T40.2, T40.3, T40.4 X40, Y10</td>
+									<td align="center">6,260</td>
+									<td align="center">915,774</td>
+								</tr>
+								<tr>
+									<td>Opioid/narcotics</td>
+									<td>
+									</td>
+									<td align="center">397</td>
+									<td align="center">-</td>
+									<td>
+									</td>
+									<td align="center">65</td>
+									<td align="center">-</td>
+								</tr>
+								<tr>
+									<td>Analgesics (nonopioid)</td>
+									<td>
+									</td>
+									<td align="center">478</td>
+									<td align="center">-</td>
+									<td>
+									</td>
+									<td align="center">6,195</td>
+									<td align="center">-</td>
+								</tr>
+								<tr>
+									<td>Antiepileptics, antiparkinsonian drugs, sedatives-hypnotics, and antianxiety drugs</td>
+									<td align="center">Y46, Y47, Q86.1</td>
+									<td align="center">1,450</td>
+									<td align="center">364,334.3</td>
+									<td align="center">T42</td>
+									<td align="center">7,636</td>
+									<td align="center">2,161,903</td>
+								</tr>
+								<tr>
+									<td>Antiepileptics</td>
+									<td>
+									</td>
+									<td align="center">397</td>
+									<td align="center">-</td>
+									<td>
+									</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+								</tr>
+								<tr>
+									<td>Antiparkinsonian</td>
+									<td>
+									</td>
+									<td align="center">4</td>
+									<td align="center">-</td>
+									<td>
+									</td>
+									<td align="center">837</td>
+									<td align="center">-</td>
+								</tr>
+								<tr>
+									<td>Benzodiazepines</td>
+									<td>
+									</td>
+									<td align="center">671</td>
+									<td align="center">-</td>
+									<td>
+									</td>
+									<td align="center">4,632</td>
+									<td align="center">-</td>
+								</tr>
+								<tr>
+									<td>Anesthetics and therapeutic gases</td>
+									<td align="center">Y48, Z88.4, O29.3, O74.4, O74.5, O89.3, O89.4, P04.0, T88.2, T88.3</td>
+									<td align="center">12,562</td>
+									<td align="center">1,242,493</td>
+									<td align="center">T41</td>
+									<td align="center">783</td>
+									<td align="center">175,980.5</td>
+								</tr>
+								<tr>
+									<td>Psychotropic drugs, not classified elsewhere</td>
+									<td align="center">Y49 (except Y49.6), G21.0</td>
+									<td align="center">1,996</td>
+									<td align="center">695,304.2</td>
+									<td align="center">T43</td>
+									<td align="center">7,460</td>
+									<td align="center">2,011,832</td>
+								</tr>
+								<tr>
+									<td>Antidepressants</td>
+									<td>
+									</td>
+									<td align="center">540</td>
+									<td align="center">-</td>
+									<td>
+									</td>
+									<td align="center">5,845</td>
+									<td align="center">-</td>
+								</tr>
+								<tr>
+									<td>Antipsychotics</td>
+									<td>
+									</td>
+									<td align="center">1,456</td>
+									<td align="center">-</td>
+									<td>
+									</td>
+									<td align="center">16,15</td>
+									<td align="center">-</td>
+								</tr>
+								<tr>
+									<td>Central nervous system stimulants (not classified elsewhere)</td>
+									<td align="center">Y50</td>
+									<td align="center">216</td>
+									<td align="center">43,850.1</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+								</tr>
+								<tr>
+									<td>Drugs primarily affecting the autonomic nervous system</td>
+									<td align="center">Y51</td>
+									<td align="center">858</td>
+									<td align="center">1,981,289</td>
+									<td align="center">T44, X43, Y13</td>
+									<td align="center">3,647</td>
+									<td align="center">1,164,609</td>
+								</tr>
+								<tr>
+									<td>Cholinergic</td>
+									<td>
+									</td>
+									<td align="center">8</td>
+									<td align="center">-</td>
+									<td>
+									</td>
+									<td align="center">386</td>
+									<td align="center">-</td>
+								</tr>
+								<tr>
+									<td>Anticholinergic</td>
+									<td>
+									</td>
+									<td align="center">60</td>
+									<td align="center">-</td>
+									<td>
+									</td>
+									<td align="center">1,266</td>
+									<td align="center">-</td>
+								</tr>
+								<tr>
+									<td>Adrenergic</td>
+									<td>
+									</td>
+									<td align="center">13</td>
+									<td align="center">-</td>
+									<td>
+									</td>
+									<td align="center">252</td>
+									<td align="center">-</td>
+								</tr>
+								<tr>
+									<td>Antiadrenergic</td>
+									<td>
+									</td>
+									<td align="center">192</td>
+									<td align="center">-</td>
+									<td>
+									</td>
+									<td align="center">225</td>
+									<td align="center">-</td>
+								</tr>
+								<tr>
+									<td>Agents primarily affecting the cardiovascular system</td>
+									<td align="center">Y52</td>
+									<td align="center">377</td>
+									<td align="center">146,324.9</td>
+									<td align="center">T46</td>
+									<td align="center">1,477</td>
+									<td align="center">324,338.2</td>
+								</tr>
+								<tr>
+									<td>Cardiac glycosides</td>
+									<td>
+									</td>
+									<td align="center">105</td>
+									<td align="center">-</td>
+									<td>
+									</td>
+									<td align="center">311</td>
+									<td align="center">-</td>
+								</tr>
+								<tr>
+									<td>Antihypertensives (diuretics and antiadrenergic drugs not included)</td>
+									<td>
+									</td>
+									<td align="center">174</td>
+									<td align="center">-</td>
+									<td>
+									</td>
+									<td align="center">766</td>
+									<td align="center">-</td>
+								</tr>
+								<tr>
+									<td>Antihyperlipidemic</td>
+									<td>
+									</td>
+									<td align="center">8</td>
+									<td align="center">-</td>
+									<td>
+									</td>
+									<td align="center">22</td>
+									<td align="center">-</td>
+								</tr>
+								<tr>
+									<td>Antiarrhythmic</td>
+									<td>
+									</td>
+									<td align="center">12</td>
+									<td align="center">-</td>
+									<td>
+									</td>
+									<td align="center">378</td>
+									<td align="center">-</td>
+								</tr>
+								<tr>
+									<td>Agents primarily affecting the gastrointestinal system</td>
+									<td align="center">Y53</td>
+									<td align="center">511</td>
+									<td align="center">118,984.9</td>
+									<td align="center">T47</td>
+									<td align="center">1,150</td>
+									<td align="center">173,544</td>
+								</tr>
+								<tr>
+									<td>Antacids and antiulcer secretion drugs</td>
+									<td>
+									</td>
+									<td align="center">85</td>
+									<td align="center">-</td>
+									<td>
+									</td>
+									<td align="center">77</td>
+									<td align="center">-</td>
+								</tr>
+								<tr>
+									<td>Laxatives and digestants</td>
+									<td>
+									</td>
+									<td align="center">72</td>
+									<td align="center">-</td>
+									<td>
+									</td>
+									<td align="center">930</td>
+									<td align="center">-</td>
+								</tr>
+								<tr>
+									<td>Antidiarrheal</td>
+									<td>
+									</td>
+									<td align="center">16</td>
+									<td align="center">-</td>
+									<td>
+									</td>
+									<td align="center">143</td>
+									<td align="center">-</td>
+								</tr>
+								<tr>
+									<td>Emetics</td>
+									<td>
+									</td>
+									<td align="center">15</td>
+									<td align="center">-</td>
+									<td>
+									</td>
+									<td align="center">93</td>
+									<td align="center">-</td>
+								</tr>
+								<tr>
+									<td>Agents primarily affecting water balance and mineral and uric acid metabolism</td>
+									<td align="center">Y54</td>
+									<td align="center">194</td>
+									<td align="center">48,432.29</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+								</tr>
+								<tr>
+									<td>Diuretics</td>
+									<td>
+									</td>
+									<td align="center">70</td>
+									<td>
+									</td>
+									<td align="center">T50.0-T50.2</td>
+									<td align="center">365</td>
+									<td align="center">****</td>
+								</tr>
+								<tr>
+									<td>Uric acid metabolism drugs</td>
+									<td>
+									</td>
+									<td align="center">29</td>
+									<td>
+									</td>
+									<td align="center">T50.4</td>
+									<td align="center">117</td>
+									<td align="center">****</td>
+								</tr>
+								<tr>
+									<td>Agents primarily acting on smooth and skeletal muscles and the respiratory system</td>
+									<td align="center">Y55</td>
+									<td align="center">174</td>
+									<td align="center">43,886.79</td>
+									<td align="center">T48</td>
+									<td align="center">557</td>
+									<td align="center">100,944</td>
+								</tr>
+								<tr>
+									<td>Muscle</td>
+									<td>
+									</td>
+									<td align="center">46</td>
+									<td align="center">-</td>
+									<td>
+									</td>
+									<td align="center">157</td>
+									<td align="center">-</td>
+								</tr>
+								<tr>
+									<td>Antitussives, expectorants, and common medications for colds</td>
+									<td>
+									</td>
+									<td align="center">36</td>
+									<td align="center">-</td>
+									<td>
+									</td>
+									<td align="center">302</td>
+									<td align="center">-</td>
+								</tr>
+								<tr>
+									<td>Asthma medications</td>
+									<td>
+									</td>
+									<td align="center">29</td>
+									<td align="center">-</td>
+									<td>
+									</td>
+									<td align="center">98</td>
+									<td align="center">-</td>
+								</tr>
+								<tr>
+									<td>Topical agents primarily affecting skin and mucous membrane and ophthalmological, otorhinolaryngological, and dental drugs</td>
+									<td align="center">Y56</td>
+									<td align="center">540</td>
+									<td align="center">120,397.6</td>
+									<td align="center">T49</td>
+									<td align="center">2,785</td>
+									<td align="center">730,399.2</td>
+								</tr>
+								<tr>
+									<td>Other and unspecified drugs and medications</td>
+									<td align="center">Y57</td>
+									<td align="center">4,463</td>
+									<td align="center">897,353.1</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+									<td align="center">-</td>
+								</tr>
+								<tr>
+									<td>Anorectics</td>
+									<td>
+									</td>
+									<td align="center">93</td>
+									<td align="center">-</td>
+									<td align="center">T50.5</td>
+									<td align="center">73</td>
+									<td align="center">****</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN8">
+								<p><sup>a</sup> Frequency of codes.</p>
+							</fn>
+							<fn id="TFN9">
+								<p><sup>b</sup> Costs of hospitalization with at least one of the codes.</p>
+							</fn>
+							<fn id="TFN10">
+								<p>*** T45 (T45.0-T45.9): poisoning by primarily systemic and hematological agents, not classified elsewhere (frequency = 5,246; costs = 1,205,318).</p>
+							</fn>
+							<fn id="TFN11">
+								<p>**** T50 (T50.0-T50.2 and T50.4-T50.8, except T50.3 and T50.9 because they are category; B2: poisoning by diuretics and other and unspecified drugs, medications, and biological substances (frequency = 1,119; costs = 291,761.3).</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+			</sec>
+		</sec>
+		<sec sec-type="discussion">
+			<title>DISCUSSION</title>
+			<p>Our study provided a comprehensive, population-level assessment of the impact of adverse drug events in Brazil’s unified health system. From 2009 to 2018, 607,663 hospitalizations were registered with at least one ICD-10 code related to ADE, out of which 2.5% patients died. Our results show that, overall, these rates of hospitalizations per 100,000 inhabitants had a pattern of decrease followed by an increase during the ten years in two temporal segments. Several studies show a yearly increasing trend in the prevalence and rates of ADE-related hospitalizations<sup><xref ref-type="bibr" rid="B2">2</xref> , <xref ref-type="bibr" rid="B6">6</xref> , <xref ref-type="bibr" rid="B16">16</xref> , <xref ref-type="bibr" rid="B17">17</xref></sup> . Santos and Boing<sup><xref ref-type="bibr" rid="B16">16</xref></sup> showed that hospitalizations caused by ADE in Brazil increased 1.6 times over 15 years. Cases of ADE are expected to increase with time considering the number of drugs that enter the market every year, the prescription/use of many drugs, and improvements in database registrations<sup><xref ref-type="bibr" rid="B17">17</xref></sup> . In recent years, national ADE patterns – as described by our results – have been addressed with greater awareness about patient safety and continuously improving pharmacovigilance practices, as seen with the Third Global Patient Safety Challenge: Medication Without Harm, launched in 2017<sup><xref ref-type="bibr" rid="B18">18</xref></sup> .</p>
+			<p>Our results on the frequencies of hospitalizations related to ADE were different from those of other authors. Two studies conducted in a Germany database found higher annual frequencies than our analysis<sup><xref ref-type="bibr" rid="B5">5</xref> , <xref ref-type="bibr" rid="B19">19</xref></sup> ; one of them identified 775,959 inpatient stays with ICD-10 codes related to ADE in a year<sup><xref ref-type="bibr" rid="B19">19</xref></sup> . Differences in frequencies and rates among studies can be partially explained by aspects such as the lack of standardization, especially regarding ADE definitions and ICD coding framework. We defined ADE as “any harm experienced as the result of drug exposure” and included ICD-10 codes of “adverse effects” and “poisoning of unintentional/undetermined cause” previously validated for the Brazilian reality for a wide approach of types of drug harm<sup><xref ref-type="bibr" rid="B11">11</xref></sup> . Other aspects that can contribute to differences between studies are the structure of the population involved – such as a higher presence of older age groups –, differences in prescribing standards, polypharmacy, as well as differences in documentation and database types<sup><xref ref-type="bibr" rid="B19">19</xref> , <xref ref-type="bibr" rid="B20">20</xref></sup> .</p>
+			<p>Codes associated with ADE-related hospitalizations usually vary between countries, although specific codes are common across studies. As an example, the codes T50.9 and D70 appeared both in our study and in a German study as two of the ten most frequent codes found in primary diagnosis<sup><xref ref-type="bibr" rid="B5">5</xref></sup> . In studies using Brazilian databases, codes related to “other and unspecified drugs” were common in national registries of hospitalizations, in which the most frequent code was T50.9<sup><xref ref-type="bibr" rid="B21">21</xref> , <xref ref-type="bibr" rid="B22">22</xref></sup> . On the other hand, in analyses of databases from Germany, England, and the USA, the most frequent ADE was enterocolitis caused by <italic>Clostridium difficile</italic> (code A04.7)<sup><xref ref-type="bibr" rid="B19">19</xref></sup> . Codes from chapter V (mental and behavioral disorders) were 52% of all codes studied, where F19.2 alone corresponded to 29.3% of the codes in our results. In Brazil, Chile, and England, F19 codes were one of the two main causes of events<sup><xref ref-type="bibr" rid="B16">16</xref> , <xref ref-type="bibr" rid="B17">17</xref> , <xref ref-type="bibr" rid="B20">20</xref> , <xref ref-type="bibr" rid="B23">23</xref> , <xref ref-type="bibr" rid="B24">24</xref></sup> .</p>
+			<p>By analyzing codes from the category “certain” only, we found that about 15% of hospitalizations were related to this category. These codes allow identifying a drug as the only one responsible for ADE, excluding confounding factors<sup><xref ref-type="bibr" rid="B11">11</xref></sup> . A German study, for example, found less cases of hospitalizations related to ADE with codes A1 and B1 (almost half of what we found)<sup><xref ref-type="bibr" rid="B5">5</xref></sup> . Moreover, “systemic anti-infectives” and “anesthetics and therapeutic gases” were the two main classes of drugs analyzed from codes of the “certain” category. Similarly to other studies<sup><xref ref-type="bibr" rid="B2">2</xref> , <xref ref-type="bibr" rid="B25">25</xref></sup> , our results reported anti-infectives as one of the most prevalent classes – likely because antibiotics are drugs commonly used in inpatient hospitalization. A study from the Johns Hopkins Hospital showed that 20% of hospitalized patients receiving antibiotics for at least one day developed an ADE<sup><xref ref-type="bibr" rid="B26">26</xref></sup> . Medications are currently not included in hospital routine data although some ICD-10 codes cover such information, including T36-T50 “poisoning” and Y40-Y59 “adverse effects”. Identifying similarities between causative medications could guide further investigation of underlying reasons for particular types of ADE.</p>
+			<p>During the studied period, registered ADE amounted to US$ 259.9 million in hospitalization costs and 9.5 million hospital-bed days. Considerable costs such as those described are generally associated with hospitalizations related to ADE. In Spain, ADR alone cost health systems around €1.533 billion for over six years<sup><xref ref-type="bibr" rid="B27">27</xref></sup> . The US, in turn, had US$ 1,851.43 of additional costs from ADE-related hospitalization<sup><xref ref-type="bibr" rid="B2">2</xref></sup> . The economic burden to the health system is thus related to the allocation of resources for symptoms diagnosis and treatment.</p>
+			<p>Studies using administrative databases generally report lower ADE frequencies than studies using intensive monitoring and higher frequencies than spontaneous reporting<sup><xref ref-type="bibr" rid="B27">27</xref> , <xref ref-type="bibr" rid="B28">28</xref></sup> . In African hospitals, the median of patients with ADE during hospital stay was 8.4% whereas the median of patients admitted for ADE was 2.8% considering studies that used record review, clinical examination, or interview<sup><xref ref-type="bibr" rid="B29">29</xref></sup> . Nevertheless, large health databases are great sources of real-world data regarding drug safety which allow characterizing ADE nationwide and indicating critical points<sup><xref ref-type="bibr" rid="B17">17</xref> , <xref ref-type="bibr" rid="B30">30</xref></sup> . The increasing availability of large databases offers opportunities to investigate several ADE and detect signals as a complement of spontaneous reporting<sup><xref ref-type="bibr" rid="B5">5</xref></sup> .</p>
+			<p>Our study provides evidence regarding the use of health system routine data to estimate the main features of hospitalizations for ADE during a decade in Brazil, showing increasing trends in hospitalizations and deaths. The study also showed that ICD-10 codes in the “certain” category of validity (A1 and B1) as ADE indicators were partly responsible for the costs of hospitalizations. Anti-infectives and anesthetics and therapeutic gases were the drugs most frequently involved in cases with “certain” codes, but ICD-10 codes related to unspecified drugs were prevalent overall. While this assessment focuses on frequency and tendency over time, future studies should determine patients at risk of hospitalization related to ADE nationwide for additional policy recommendations.</p>
+			<sec>
+				<title>Strengths and Limitations</title>
+				<p>This study has strengths, including the assessment of a period of ten years within a nationwide scope; in fact, one of the advantages of using administrative databases to study ADE is the possibility of efficiently assessing large populations over long periods of time. Moreover, the list of codes applied was previous validated and includes several situations related to drug use. However, the study has limitations. The use of ICD-10 codes and administrative databases, including the SIH-SUS dataset, to identify potential ADE themselves has limitations. Firstly, regarding the database, factors such as incompleteness, misclassification, and variation among codifiers must be emphasized even with coding-quality monitoring. In this study, we could not estimate error caused by biases<sup><xref ref-type="bibr" rid="B23">23</xref> ,36</sup>. Secondly, regarding ICD-10 codes, we were careful to exclude cases which might be related to drug abuse, use of illicit substance, and intentional overdose; however, we used some codes that include both illicit and licit drugs, which might be confounding.</p>
+			</sec>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>REFERENCES</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. Sousa-Pinto B, Marques B, Lopes F, Freitas A. Frequency and impact of adverse events in inpatients: a nationwide analysis of episodes between 2000 and 2015. J Med Syst. 2018;42(3):48. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s10916-018-0898-5">https://doi.org/10.1007/s10916-018-0898-5</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sousa-Pinto</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Marques</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Lopes</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Freitas</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Frequency and impact of adverse events in inpatients: a nationwide analysis of episodes between 2000 and 2015</article-title>
+					<source>J Med Syst</source>
+					<year>2018</year>
+					<volume>42</volume>
+					<issue>3</issue>
+					<size units="pages">48</size>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s10916-018-0898-5">https://doi.org/10.1007/s10916-018-0898-5</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. Poudel DR, Acharya P, Ghimire S, Dhital R, Bharati R. Burden of hospitalizations related to adverse drug events in the USA: a retrospective analysis from large inpatient database. Pharmacoepidemiol Drug Saf. 2017;26(6):635-41. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/pds.4184">https://doi.org/10.1002/pds.4184</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Poudel</surname>
+							<given-names>DR</given-names>
+						</name>
+						<name>
+							<surname>Acharya</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Ghimire</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Dhital</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Bharati</surname>
+							<given-names>R</given-names>
+						</name>
+					</person-group>
+					<article-title>Burden of hospitalizations related to adverse drug events in the USA: a retrospective analysis from large inpatient database</article-title>
+					<source>Pharmacoepidemiol Drug Saf</source>
+					<year>2017</year>
+					<volume>26</volume>
+					<issue>6</issue>
+					<fpage>635</fpage>
+					<lpage>641</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/pds.4184">https://doi.org/10.1002/pds.4184</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. Pardo Cabello AJ, Del Pozo Gavilán E, Gómez Jiménez FJ, Mota Rodríguez C, Luna Del Castillo JD, Puche Cañas P. Drug-related mortality among inpatients: a retrospective observational study. Eur J Clin Pharmacol. 2016;72(6):731-6. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s00228-016-2026-0">https://doi.org/10.1007/s00228-016-2026-0</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pardo Cabello</surname>
+							<given-names>AJ</given-names>
+						</name>
+						<name>
+							<surname>Del Pozo Gavilán</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Gómez Jiménez</surname>
+							<given-names>FJ</given-names>
+						</name>
+						<name>
+							<surname>Mota Rodríguez</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Luna Del Castillo</surname>
+							<given-names>JD</given-names>
+						</name>
+						<name>
+							<surname>Puche Cañas</surname>
+							<given-names>P.</given-names>
+						</name>
+					</person-group>
+					<article-title>Drug-related mortality among inpatients: a retrospective observational study</article-title>
+					<source>Eur J Clin Pharmacol</source>
+					<year>2016</year>
+					<volume>72</volume>
+					<issue>6</issue>
+					<fpage>731</fpage>
+					<lpage>736</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s00228-016-2026-0">https://doi.org/10.1007/s00228-016-2026-0</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. Laatikainen O, Miettunen J, Sneck S, Lehtiniemi H, Tenhunen O, Turpeinen M. The prevalence of medication-related adverse events in inpatients: a systematic review and meta-analysis. Eur J Clin Pharmacol. 2017;73(12):1539-49. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s00228-017-2330-3">https://doi.org/10.1007/s00228-017-2330-3</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Laatikainen</surname>
+							<given-names>O</given-names>
+						</name>
+						<name>
+							<surname>Miettunen</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Sneck</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Lehtiniemi</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Tenhunen</surname>
+							<given-names>O</given-names>
+						</name>
+						<name>
+							<surname>Turpeinen</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>The prevalence of medication-related adverse events in inpatients: a systematic review and meta-analysis</article-title>
+					<source>Eur J Clin Pharmacol</source>
+					<year>2017</year>
+					<volume>73</volume>
+					<issue>12</issue>
+					<fpage>1539</fpage>
+					<lpage>1549</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s00228-017-2330-3">https://doi.org/10.1007/s00228-017-2330-3</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Stausberg J, Hasford J. Drug-related admissions and hospital-acquired adverse drug events in Germany: a longitudinal analysis from 2003 to 2007 of ICD-10-coded routine data. BMC Health Serv Res. 2011;11:134. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1472-6963-11-134">https://doi.org/10.1186/1472-6963-11-134</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Stausberg</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Hasford</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>Drug-related admissions and hospital-acquired adverse drug events in Germany: a longitudinal analysis from 2003 to 2007 of ICD-10-coded routine data</article-title>
+					<source>BMC Health Serv Res</source>
+					<year>2011</year>
+					<volume>11</volume>
+					<size units="pages">134</size>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1472-6963-11-134">https://doi.org/10.1186/1472-6963-11-134</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. Shamliyan TA, Kane RL. Drug-related harms in hospitalized Medicare beneficiaries: results from the Healthcare Cost and Utilization Project, 2000-2008. J Patient Saf. 2016;12(2):89-107. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/PTS.0000000000000106">https://doi.org/10.1097/PTS.0000000000000106</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Shamliyan</surname>
+							<given-names>TA</given-names>
+						</name>
+						<name>
+							<surname>Kane</surname>
+							<given-names>RL</given-names>
+						</name>
+					</person-group>
+					<article-title>Drug-related harms in hospitalized Medicare beneficiaries: results from the Healthcare Cost and Utilization Project, 2000-2008</article-title>
+					<source>J Patient Saf</source>
+					<year>2016</year>
+					<volume>12</volume>
+					<issue>2</issue>
+					<fpage>89</fpage>
+					<lpage>107</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/PTS.0000000000000106">https://doi.org/10.1097/PTS.0000000000000106</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. Amelung S, Meid AD, Nafe M, Thalheimer M, Hoppe-Tichy T, Haefeli WE, et al. Association of preventable adverse drug events with inpatients’ length of stay: a propensity-matched cohort study. Int J Clin Pract. 2017;71(10):e12990. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/ijcp.12990">https://doi.org/10.1111/ijcp.12990</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Amelung</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Meid</surname>
+							<given-names>AD</given-names>
+						</name>
+						<name>
+							<surname>Nafe</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Thalheimer</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Hoppe-Tichy</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Haefeli</surname>
+							<given-names>WE</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Association of preventable adverse drug events with inpatients’ length of stay: a propensity-matched cohort study</article-title>
+					<source>Int J Clin Pract</source>
+					<year>2017</year>
+					<volume>71</volume>
+					<issue>10</issue>
+					<fpage>e12990</fpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/ijcp.12990">https://doi.org/10.1111/ijcp.12990</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Wu TY, Jen MH, Bottle A, Molokhia M, Aylin P, Bell D, et al. Ten-year trends in hospital admissions for adverse drug reactions in England 1999–2009. R Soc Med. 2010;103(6):239-50. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1258/jrsm.2010.100113">https://doi.org/10.1258/jrsm.2010.100113</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Wu</surname>
+							<given-names>TY</given-names>
+						</name>
+						<name>
+							<surname>Jen</surname>
+							<given-names>MH</given-names>
+						</name>
+						<name>
+							<surname>Bottle</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Molokhia</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Aylin</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Bell</surname>
+							<given-names>D</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Ten-year trends in hospital admissions for adverse drug reactions in England 1999–2009</article-title>
+					<source>R Soc Med.</source>
+					<year>2010</year>
+					<volume>103</volume>
+					<issue>6</issue>
+					<fpage>239</fpage>
+					<lpage>250</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1258/jrsm.2010.100113">https://doi.org/10.1258/jrsm.2010.100113</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. Kane-Gill SL, Van Den Bos J, Handler SM. Adverse drug reactions in hospital and ambulatory care settings identified using a large administrative database. Ann Pharmacother. 2010;44(6):983-93. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1345/aph.1M726">https://doi.org/10.1345/aph.1M726</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kane-Gill</surname>
+							<given-names>SL</given-names>
+						</name>
+						<name>
+							<surname>Van Den Bos</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Handler</surname>
+							<given-names>SM</given-names>
+						</name>
+					</person-group>
+					<article-title>Adverse drug reactions in hospital and ambulatory care settings identified using a large administrative database</article-title>
+					<source>Ann Pharmacother</source>
+					<year>2010</year>
+					<volume>44</volume>
+					<issue>6</issue>
+					<fpage>983</fpage>
+					<lpage>993</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1345/aph.1M726">https://doi.org/10.1345/aph.1M726</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. Kuklik N, Stausberg J, Jöckel KH. Adverse drug events in German hospital routine data: a validation of International Classification of Diseases, 10th revision (ICD-10) diagnostic codes. PLoS One. 2017;12(11):e0187510. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0187510">https://doi.org/10.1371/journal.pone.0187510</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kuklik</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Stausberg</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Jöckel</surname>
+							<given-names>KH</given-names>
+						</name>
+					</person-group>
+					<article-title>Adverse drug events in German hospital routine data: a validation of International Classification of Diseases, 10th revision (ICD-10) diagnostic codes</article-title>
+					<source>PLoS One</source>
+					<year>2017</year>
+					<volume>12</volume>
+					<issue>11</issue>
+					<fpage>e0187510</fpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0187510">https://doi.org/10.1371/journal.pone.0187510</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. Mota DM, Vigo A, Kuchenbecker RS. Recomendações de códigos da CID-10 para vigilância de reações adversas e intoxicações a medicamentos. Cienc Saude Colet. 2018;23(9):3041-54. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1413-81232018239.20692016">https://doi.org/10.1590/1413-81232018239.20692016</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Mota</surname>
+							<given-names>DM</given-names>
+						</name>
+						<name>
+							<surname>Vigo</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Kuchenbecker</surname>
+							<given-names>RS</given-names>
+						</name>
+					</person-group>
+					<article-title>Recomendações de códigos da CID-10 para vigilância de reações adversas e intoxicações a medicamentos</article-title>
+					<source>Cienc Saude Colet</source>
+					<year>2018</year>
+					<volume>23</volume>
+					<issue>9</issue>
+					<fpage>3041</fpage>
+					<lpage>3054</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1413-81232018239.20692016">https://doi.org/10.1590/1413-81232018239.20692016</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. Cerqueira DRC, Alves PP, Coelho DSC, Reis MVM, Lima AS. Uma análise da Base de Dados do Sistema de Informação Hospitalar entre 2001 e 2018: dicionário dinâmico, disponibilidade dos dados e aspectos metodológicos para a produção de indicadores sobre violência. Rio de Janeiro: Instituto de Pesquisa Econômica Aplicada; 2019.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cerqueira</surname>
+							<given-names>DRC</given-names>
+						</name>
+						<name>
+							<surname>Alves</surname>
+							<given-names>PP</given-names>
+						</name>
+						<name>
+							<surname>Coelho</surname>
+							<given-names>DSC</given-names>
+						</name>
+						<name>
+							<surname>Reis</surname>
+							<given-names>MVM</given-names>
+						</name>
+						<name>
+							<surname>Lima</surname>
+							<given-names>AS</given-names>
+						</name>
+					</person-group>
+					<source>Uma análise da Base de Dados do Sistema de Informação Hospitalar entre 2001 e 2018: dicionário dinâmico, disponibilidade dos dados e aspectos metodológicos para a produção de indicadores sobre violência</source>
+					<publisher-loc>Rio de Janeiro</publisher-loc>
+					<publisher-name>Instituto de Pesquisa Econômica Aplicada</publisher-name>
+					<year>2019</year>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. Agency for Healthcare Research and Quality, Patient Safety Network- PSNet. Medication errors and adverse drug events. Rockville, MD: AHRQ; 2019 [cited 2020 Mar 16]. Available from: <ext-link ext-link-type="uri" xlink:href="https://psnet.ahrq.gov/primer/medication-errors-and-adverse-drug-events">https://psnet.ahrq.gov/primer/medication-errors-and-adverse-drug-events</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Agency for Healthcare Research and Quality, Patient Safety Network- PSNet</collab>
+					</person-group>
+					<source>Medication errors and adverse drug events</source>
+					<publisher-loc>Rockville, MD</publisher-loc>
+					<publisher-name>AHRQ</publisher-name>
+					<year>2019</year>
+					<date-in-citation content-type="cited-date">cited 2020 Mar 16</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://psnet.ahrq.gov/primer/medication-errors-and-adverse-drug-events">https://psnet.ahrq.gov/primer/medication-errors-and-adverse-drug-events</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. World Health Organization. International Statistical Classification of Diseases and Related Health Problems - 10th revision; version 2019. Geneva (CH): WHO; 2019 [cited 2020 Mar 16]. Available from: <ext-link ext-link-type="uri" xlink:href="https://icd.who.int/browse10/2019/en">https://icd.who.int/browse10/2019/en</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>World Health Organization</collab>
+					</person-group>
+					<source>International Statistical Classification of Diseases and Related Health Problems - 10th revision</source>
+					<comment>version 2019</comment>
+					<publisher-loc>Geneva (CH)</publisher-loc>
+					<publisher-name>WHO</publisher-name>
+					<year>2019</year>
+					<date-in-citation content-type="cited-date">cited 2020 Mar 16</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://icd.who.int/browse10/2019/en">https://icd.who.int/browse10/2019/en</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. National Cancer Institute, Division of Cancer Control &amp; Population Sciences. Surveillance Research Program. The Joinpoint Regression Program, Version 4.8.0.1. Rockville, MD: NCI; 2020 [cited 2020 July 20]. Available from: <ext-link ext-link-type="uri" xlink:href="https://surveillance.cancer.gov/joinpoint/">https://surveillance.cancer.gov/joinpoint/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="software">
+					<person-group person-group-type="author"/>
+					<source>Surveillance Research Program. The Joinpoint Regression Program</source>
+					<comment>Version 4.8.0.1.</comment>
+					<publisher-loc>Rockville, MD</publisher-loc>
+					<publisher-name>NCI</publisher-name>
+					<year>2020</year>
+					<date-in-citation content-type="cited-date">cited 2020 July 20</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://surveillance.cancer.gov/joinpoint/">https://surveillance.cancer.gov/joinpoint/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. Santos GAS, Boing AC. [Hospitalizations and deaths from drug poisoning and adverse reactions in Brazil: an analysis from 2000 to 2014]. Cad Saude Publica. 2018;34(6):e00100917l. Portuguese. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0102-311X00100917">https://doi.org/10.1590/0102-311X00100917</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Santos</surname>
+							<given-names>GAS</given-names>
+						</name>
+						<name>
+							<surname>Boing</surname>
+							<given-names>AC</given-names>
+						</name>
+					</person-group>
+					<article-title>Hospitalizations and deaths from drug poisoning and adverse reactions in Brazil: an analysis from 2000 to 2014</article-title>
+					<source>Cad Saude Publica</source>
+					<year>2018</year>
+					<volume>34</volume>
+					<issue>6</issue>
+					<elocation-id>e00100917l</elocation-id>
+					<comment>Portuguese</comment>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0102-311X00100917">https://doi.org/10.1590/0102-311X00100917</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Miguel A, Marques B, Freitas A, Lopes F, Azevedo L, Pereira AC. Detection of adverse drug reactions using hospital databases: a nationwide study in Portugal. Pharmacoepidemiol Drug Saf. 2013;22(8):907-13. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/pds.3468">https://doi.org/10.1002/pds.3468</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Miguel</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Marques</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Freitas</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Lopes</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Azevedo</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Pereira</surname>
+							<given-names>AC</given-names>
+						</name>
+					</person-group>
+					<article-title>Detection of adverse drug reactions using hospital databases: a nationwide study in Portugal</article-title>
+					<source>Pharmacoepidemiol Drug Saf</source>
+					<year>2013</year>
+					<volume>22</volume>
+					<issue>8</issue>
+					<fpage>907</fpage>
+					<lpage>913</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/pds.3468">https://doi.org/10.1002/pds.3468</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18. Donaldson LJ, Kelley ET, Dhingra-Kumar N, Kieny MP; Sheikh A. Medication Without Harm: WHO’s Third Global Patient Safety Challenge. Lancet. 2017;389(10080):1680-1. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(17)31047-4">https://doi.org/10.1016/S0140-6736(17)31047-4</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Donaldson</surname>
+							<given-names>LJ</given-names>
+						</name>
+						<name>
+							<surname>Kelley</surname>
+							<given-names>ET</given-names>
+						</name>
+						<name>
+							<surname>Dhingra-Kumar</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Kieny</surname>
+							<given-names>MP</given-names>
+						</name>
+						<name>
+							<surname>Sheikh</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Medication Without Harm: WHO’s Third Global Patient Safety Challenge</article-title>
+					<source>Lancet</source>
+					<year>2017</year>
+					<volume>389</volume>
+					<issue>10080</issue>
+					<fpage>1680</fpage>
+					<lpage>1681</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(17)31047-4">https://doi.org/10.1016/S0140-6736(17)31047-4</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19. Stausberg J. International prevalence of adverse drug events in hospitals: an analysis of routine data from England, Germany, and the USA. BMC Health Serv Res. 2014;14:125. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1472-6963-14-125">https://doi.org/10.1186/1472-6963-14-125</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Stausberg</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>International prevalence of adverse drug events in hospitals: an analysis of routine data from England, Germany, and the USA</article-title>
+					<source>BMC Health Serv Res</source>
+					<year>2014</year>
+					<volume>14</volume>
+					<comment>125</comment>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1472-6963-14-125">https://doi.org/10.1186/1472-6963-14-125</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20. Patel H, Bell D, Molokhia M, Srishanmuganathan J, Patel M, Car J, et al. Trends in hospital admissions for adverse drug reactions in England: analysis of national hospital episode statistics 1998–2005. BMC Clin Pharmacol. 2007;7:9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1472-6904-7-9">https://doi.org/10.1186/1472-6904-7-9</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Patel</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Bell</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Molokhia</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Srishanmuganathan</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Patel</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Car</surname>
+							<given-names>J</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Trends in hospital admissions for adverse drug reactions in England: analysis of national hospital episode statistics 1998–2005</article-title>
+					<source>BMC Clin Pharmacol</source>
+					<year>2007</year>
+					<volume>7</volume>
+					<comment>9</comment>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1472-6904-7-9">https://doi.org/10.1186/1472-6904-7-9</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>21. Paula TC, Bochner R, Montilla DER. Clinical and epidemiological analysis of hospitalizations of elderly due to poisoning and adverse effects of medications, Brazil from 2004 to 2008. Rev Bras Epidemiol. 2010;15(4):828-44. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/s1415-790x2012000400014">https://doi.org/10.1590/s1415-790x2012000400014</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Paula</surname>
+							<given-names>TC</given-names>
+						</name>
+						<name>
+							<surname>Bochner</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Montilla</surname>
+							<given-names>DER</given-names>
+						</name>
+					</person-group>
+					<article-title>Clinical and epidemiological analysis of hospitalizations of elderly due to poisoning and adverse effects of medications, Brazil from 2004 to 2008</article-title>
+					<source>Rev Bras Epidemiol</source>
+					<year>2010</year>
+					<volume>15</volume>
+					<issue>4</issue>
+					<fpage>828</fpage>
+					<lpage>844</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/s1415-790x2012000400014">https://doi.org/10.1590/s1415-790x2012000400014</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>22. Lessa MA, Bochner R. Analysis of hospitalizations of children under one year of age due to drug intoxication and adverse events in Brazil. Rev Bras Epidemiol. 2008;11(4):660-74. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S1415-790X2008000400013">https://doi.org/10.1590/S1415-790X2008000400013</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lessa</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Bochner</surname>
+							<given-names>R</given-names>
+						</name>
+					</person-group>
+					<article-title>Analysis of hospitalizations of children under one year of age due to drug intoxication and adverse events in Brazil</article-title>
+					<source>Rev Bras Epidemiol</source>
+					<year>2008</year>
+					<volume>11</volume>
+					<issue>4</issue>
+					<fpage>660</fpage>
+					<lpage>674</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S1415-790X2008000400013">https://doi.org/10.1590/S1415-790X2008000400013</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>23. Collao JF, Favereau R, Miranda R, Aceitón C. [Drug related harm in Chilean hospitals: prevalence analysis 2010-2017]. Rev Med Chile. 2019;147(4):416-25. Spanish. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4067/S0034-98872019000400416">https://doi.org/10.4067/S0034-98872019000400416</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Collao</surname>
+							<given-names>JF</given-names>
+						</name>
+						<name>
+							<surname>Favereau</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Miranda</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Aceitón</surname>
+							<given-names>C</given-names>
+						</name>
+					</person-group>
+					<article-title>Drug related harm in Chilean hospitals: prevalence analysis 2010-2017</article-title>
+					<source>Rev Med Chile</source>
+					<year>2019</year>
+					<volume>147</volume>
+					<issue>4</issue>
+					<fpage>416</fpage>
+					<lpage>425</lpage>
+					<comment>Spanish</comment>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4067/S0034-98872019000400416">https://doi.org/10.4067/S0034-98872019000400416</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>24. Waller P, Shaw M, Ho D, Shakir S, Ebrahim S. Hospital admissions for ‘drug-induced’ disorders in England: a study using the Hospital Episodes Statistics (HES) database. Br J Clin Pharmacol. 2005;59(2):213-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1365-2125.2004.02236.x">https://doi.org/10.1111/j.1365-2125.2004.02236.x</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Waller</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Shaw</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Ho</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Shakir</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Ebrahim</surname>
+							<given-names>S</given-names>
+						</name>
+					</person-group>
+					<article-title>Hospital admissions for ‘drug-induced’ disorders in England: a study using the Hospital Episodes Statistics (HES) database</article-title>
+					<source>Br J Clin Pharmacol</source>
+					<year>2005</year>
+					<volume>59</volume>
+					<issue>2</issue>
+					<fpage>213</fpage>
+					<lpage>219</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1365-2125.2004.02236.x">https://doi.org/10.1111/j.1365-2125.2004.02236.x</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>25. Parikh S, Christensen D, Stuchbery P, Peterson J, Hutchinson A, Jackson T. Exploring in-hospital adverse drug events using ICD-10 codes. Aust Health Rev. 2014;38(4):454-60. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1071/AH13166">https://doi.org/10.1071/AH13166</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Parikh</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Christensen</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Stuchbery</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Peterson</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Hutchinson</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Jackson</surname>
+							<given-names>T</given-names>
+						</name>
+					</person-group>
+					<article-title>Exploring in-hospital adverse drug events using ICD-10 codes</article-title>
+					<source>Aust Health Rev</source>
+					<year>2014</year>
+					<volume>38</volume>
+					<issue>4</issue>
+					<fpage>454</fpage>
+					<lpage>460</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1071/AH13166">https://doi.org/10.1071/AH13166</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation>26. Tamma PD, Avdic E, Li DX, Dzintars K, Cosgrove SE. Association of adverse events with antibiotic use in hospitalized patients. JAMA Intern Med. 2017;177(9):1308-15. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1001/jamainternmed.2017.1938">https://doi.org/10.1001/jamainternmed.2017.1938</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Tamma</surname>
+							<given-names>PD</given-names>
+						</name>
+						<name>
+							<surname>Avdic</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Li</surname>
+							<given-names>DX</given-names>
+						</name>
+						<name>
+							<surname>Dzintars</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Cosgrove</surname>
+							<given-names>SE</given-names>
+						</name>
+					</person-group>
+					<article-title>Association of adverse events with antibiotic use in hospitalized patients</article-title>
+					<source>JAMA Intern Med</source>
+					<year>2017</year>
+					<volume>177</volume>
+					<issue>9</issue>
+					<fpage>1308</fpage>
+					<lpage>1315</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1001/jamainternmed.2017.1938">https://doi.org/10.1001/jamainternmed.2017.1938</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<mixed-citation>27. Carrasco-Garrido P, Andrés LA, Hernámdez Barrera V, Miguel GA, Jiménez-García R. Trends of adverse drug reactions related-hospitalizations in Spain (2001-2006). BMC Health Serv Res. 2010;10:287. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1472-6963-10-287">https://doi.org/10.1186/1472-6963-10-287</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Carrasco-Garrido</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Andrés</surname>
+							<given-names>LA</given-names>
+						</name>
+						<name>
+							<surname>Hernámdez Barrera</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Miguel</surname>
+							<given-names>GA</given-names>
+						</name>
+						<name>
+							<surname>Jiménez-García</surname>
+							<given-names>R</given-names>
+						</name>
+					</person-group>
+					<article-title>Trends of adverse drug reactions related-hospitalizations in Spain (2001-2006)</article-title>
+					<source>BMC Health Serv Res</source>
+					<year>2010</year>
+					<volume>10</volume>
+					<size units="pages">287</size>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1472-6963-10-287">https://doi.org/10.1186/1472-6963-10-287</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<mixed-citation>28. Scripcaru G, Mateus C, Nunes C. Adverse drug events: analysis of a decade. A Portuguese case-study, from 2004 to 2013 using hospital database. PLoS One. 2017;12(6):e0178626. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0178626">https://doi.org/10.1371/journal.pone.0178626</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Scripcaru</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Mateus</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Nunes</surname>
+							<given-names>C</given-names>
+						</name>
+					</person-group>
+					<article-title>Adverse drug events: analysis of a decade. A Portuguese case-study, from 2004 to 2013 using hospital database</article-title>
+					<source>PLoS One</source>
+					<year>2017</year>
+					<volume>12</volume>
+					<issue>6</issue>
+					<elocation-id>e0178626</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0178626">https://doi.org/10.1371/journal.pone.0178626</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B29">
+				<label>29</label>
+				<mixed-citation>29. Mekonnen AB, Alhawassi TM, McLachlan AJ, Brien JE. Adverse drug events and medication errors in African hospitals: a systematic review. Drugs Real World Outcomes. 2018;5(1):1-24. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s40801-017-0125-6">https://doi.org/10.1007/s40801-017-0125-6</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Mekonnen</surname>
+							<given-names>AB</given-names>
+						</name>
+						<name>
+							<surname>Alhawassi</surname>
+							<given-names>TM</given-names>
+						</name>
+						<name>
+							<surname>McLachlan</surname>
+							<given-names>AJ</given-names>
+						</name>
+						<name>
+							<surname>Brien</surname>
+							<given-names>JE</given-names>
+						</name>
+					</person-group>
+					<article-title>Adverse drug events and medication errors in African hospitals: a systematic review</article-title>
+					<source>Drugs Real World Outcomes</source>
+					<year>2018</year>
+					<volume>5</volume>
+					<issue>1</issue>
+					<fpage>1</fpage>
+					<lpage>24</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s40801-017-0125-6">https://doi.org/10.1007/s40801-017-0125-6</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B30">
+				<label>30</label>
+				<mixed-citation>30. Chan EW, Liu KQL, Chui CSL, Sing CW, Wong LYL, Wong ICK. Adverse drug reactions – examples of detection of rare events using databases. Br J Clin Pharmacol. 2015;80(4):855-61. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/bcp.12474">https://doi.org/10.1111/bcp.12474</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Chan</surname>
+							<given-names>EW</given-names>
+						</name>
+						<name>
+							<surname>Liu</surname>
+							<given-names>KQL</given-names>
+						</name>
+						<name>
+							<surname>Chui</surname>
+							<given-names>CSL</given-names>
+						</name>
+						<name>
+							<surname>Sing</surname>
+							<given-names>CW</given-names>
+						</name>
+						<name>
+							<surname>Wong</surname>
+							<given-names>LYL</given-names>
+						</name>
+						<name>
+							<surname>Wong</surname>
+							<given-names>ICK</given-names>
+						</name>
+					</person-group>
+					<article-title>Adverse drug reactions – examples of detection of rare events using databases</article-title>
+					<source>Br J Clin Pharmacol</source>
+					<year>2015</year>
+					<volume>80</volume>
+					<issue>4</issue>
+					<fpage>855</fpage>
+					<lpage>861</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/bcp.12474">https://doi.org/10.1111/bcp.12474</ext-link>
+				</element-citation>
+			</ref>
+		</ref-list>
+	</back>
+</article>

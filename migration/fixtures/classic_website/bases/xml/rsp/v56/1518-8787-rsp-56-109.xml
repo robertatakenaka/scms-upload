@@ -1,0 +1,1949 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.1" specific-use="sps-1.9" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="nlm-ta">Rev Saude Publica</journal-id>
+			<journal-id journal-id-type="publisher-id">rsp</journal-id>
+			<journal-title-group>
+				<journal-title>Revista de Saúde Pública</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Rev. Saúde Pública</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="ppub">0034-8910</issn>
+			<issn pub-type="epub">1518-8787</issn>
+			<publisher>
+				<publisher-name>Faculdade de Saúde Pública da Universidade de São Paulo</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="other">00300</article-id>
+			<article-id pub-id-type="doi">10.11606/s1518-8787.2022056004134</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Original Article</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>The association between vitamin D and BDNF on cognition in older adults in Southern Brazil</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-4168-6585</contrib-id>
+					<name>
+						<surname>Quialheiro</surname>
+						<given-names>Anna</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+					<role>Study design and planning. Data collection, analysis and interpretation. Manuscript drafting or review. Approval of the final version. Public responsibility for the content of the article</role>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-2027-1089</contrib-id>
+					<name>
+						<surname>d´Orsi</surname>
+						<given-names>Eleonora</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+					<role>Study design and planning. Data collection, analysis and interpretation. Manuscript drafting or review. Approval of the final version. Public responsibility for the content of the article</role>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-2256-7222</contrib-id>
+					<name>
+						<surname>Moreira</surname>
+						<given-names>Júlia Dubois</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>III</sup></xref>
+					<role>Data collection, analysis and interpretation. Manuscript drafting or review. Approval of the final version. Public responsibility for the content of the article</role>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-8282-0939</contrib-id>
+					<name>
+						<surname>Xavier</surname>
+						<given-names>André Junqueira</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff4"><sup>IV</sup></xref>
+					<role>Study design and planning. Data collection, analysis and interpretation. Manuscript drafting or review. Approval of the final version. Public responsibility for the content of the article</role>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-8329-2808</contrib-id>
+					<name>
+						<surname>Peres</surname>
+						<given-names>Marco Aurélio</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff5"><sup>V</sup></xref>
+					<xref ref-type="aff" rid="aff6"><sup>VI</sup></xref>
+					<role>Study design and planning. Data collection, analysis and interpretation. Manuscript drafting or review. Approval of the final version. Public responsibility for the content of the article</role>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>I</label>
+				<institution content-type="orgname">Universidade Federal de Santa Catarina</institution>
+				<institution content-type="orgdiv1">Programa de Pós-Graduação em Saúde Coletiva</institution>
+				<addr-line>
+					<named-content content-type="city">Florianópolis</named-content>
+					<named-content content-type="state">SC</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Universidade Federal de Santa Catarina. Programa de Pós-Graduação em Saúde Coletiva. Florianópolis, SC, Brasil</institution>
+			</aff>
+			<aff id="aff2">
+				<label>II</label>
+				<institution content-type="orgname">Universidade do Minho. Escola de Medicina</institution>
+				<institution content-type="orgdiv1">Instituto de Investigação em Ciências da Vida e da Saúde</institution>
+				<addr-line>
+					<named-content content-type="city">Braga</named-content>
+				</addr-line>
+				<country country="PT">Portugal</country>
+				<institution content-type="original"> Universidade do Minho. Escola de Medicina. Instituto de Investigação em Ciências da Vida e da Saúde. Braga, Portugal</institution>
+			</aff>
+			<aff id="aff3">
+				<label>III</label>
+				<institution content-type="orgname">Universidade Federal de Santa Catarina</institution>
+				<institution content-type="orgdiv1">Programa de Pós-Graduação em Nutrição</institution>
+				<addr-line>
+					<named-content content-type="city">Florianópolis</named-content>
+					<named-content content-type="state">SC</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Universidade Federal de Santa Catarina. Programa de Pós-Graduação em Nutrição. Florianópolis, SC, Brasil</institution>
+			</aff>
+			<aff id="aff4">
+				<label>IV</label>
+				<institution content-type="orgname">Universidade do Sul de Santa Catarina</institution>
+				<addr-line>
+					<named-content content-type="city">Palhoça</named-content>
+					<named-content content-type="state">SC</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Universidade do Sul de Santa Catarina. Curso de Medicina. Palhoça, SC, Brasil</institution>
+			</aff>
+			<aff id="aff5">
+				<label>V</label>
+				<institution content-type="orgname">National Dental Research Institute Singapore</institution>
+				<institution content-type="orgdiv1">National Dental Centre Singapore</institution>
+				<country country="SG">Singapore</country>
+				<institution content-type="original"> National Dental Research Institute Singapore. National Dental Centre Singapore. Singapore</institution>
+			</aff>
+			<aff id="aff6">
+				<label>VI</label>
+				<institution content-type="orgname">Duke-NUS Medical School</institution>
+				<institution content-type="orgdiv1">Oral Health ACP</institution>
+				<institution content-type="orgdiv2">HealthServices and Systems Research Programme</institution>
+				<country country="SG">Singapore</country>
+				<institution content-type="original"> Duke-NUS Medical School. Oral Health ACP. HealthServices and Systems Research Programme. Singapore</institution>
+			</aff>
+			<author-notes>
+				<corresp id="c01"><bold>Correspondence:</bold> Anna Quialheiro Universidade do Minho Escola de Medicina Campus Gualtar, Braga, Portugal 4710-057 Braga, Portugal E-mail: <email>aquialheiro@med.uminho.pt</email>
+				</corresp>
+				<fn fn-type="con">
+					<p><bold>Conflict of Interest:</bold> The authors declare no conflict of interest.</p>
+				</fn>
+			</author-notes>
+			<pub-date date-type="pub" publication-format="electronic">
+				<day>06</day>
+				<month>01</month>
+				<year>2023</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">
+				<year>2022</year>
+			</pub-date>
+			<volume>56</volume>
+			<elocation-id>109</elocation-id>
+			<history>
+				<date date-type="received">
+					<day>11</day>
+					<month>08</month>
+					<year>2021</year>
+				</date>
+				<date date-type="accepted">
+					<day>26</day>
+					<month>01</month>
+					<year>2022</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="en">
+					<license-p> This is an Open Access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. </license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>ABSTRACT</title>
+				<sec>
+					<title>OBJECTIVE</title>
+					<p> To estimate the association between vitamin D and the cognitive decline of older adults and evaluate whether this association is mediated by brain-derived neurotrophic factor (BDNF) serum concentration.</p>
+				</sec>
+				<sec>
+					<title>METHODS</title>
+					<p> Cross-sectional study nested in a population-based cohort. Of the 604 participants in the complementary examination of the EpiFloripa Study, 576 older adults (60 years or older) were eligible for the study. The outcome is cognitive decline evaluated by the Mini-Mental State Examination, the exposure is vitamin D, and BDNF is the mediator. The control variables are age, sex, per capita family income, and educational level. The direct effect of vitamin D and BDNF on cognitive decline and the indirect effect mediated by BDNF was evaluated using path analysis, with the estimation of standardized coefficients.</p>
+				</sec>
+				<sec>
+					<title>RESULTS</title>
+					<p> Among the participants, we observed a direct and positive effect of vitamin D on cognitive function (Coef: 0.06; 95%CI: 0.02 to 0.11; p &lt; 0.001) and serum BDNF concentration (Coef: 21.55; 95%CI: 9.92 to 33.17; p = 0.002), i.e., the higher the vitamin D, the higher the cognitive function and serum level of BDNF.</p>
+				</sec>
+				<sec>
+					<title>CONCLUSION</title>
+					<p> There was an association between vitamin D on serum BDNF and on cognitive decline in older adults. Moreover, BDNF did not have an effect on cognitive decline, so BDNF was not a mediator of the vitamin D effect on cognitive decline.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="en">
+				<kwd>Aged</kwd>
+				<kwd>Cognition</kwd>
+				<kwd>Vitamin D</kwd>
+				<kwd>Brain-Derived Neurotrophic Factor</kwd>
+			</kwd-group>
+			<funding-group>
+				<award-group>
+					<funding-source>Conselho Nacional de Desenvolvimento Científico e Tecnológico</funding-source>
+					<award-id>475.904/2013-3</award-id>
+				</award-group>
+				<funding-statement>Funding: Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq - grant number 475.904/2013-3).</funding-statement>
+			</funding-group>
+			<counts>
+				<fig-count count="3"/>
+				<table-count count="3"/>
+				<equation-count count="0"/>
+				<ref-count count="33"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>INTRODUCTION</title>
+			<p>Age-associated cognitive decline can be a confounding factor to incipient dementia since it results in mental alterations, especially Alzheimer’s disease. The World Health Organization (WHO) considers dementia to be a public health priority since it is the leading cause of disability and dependency in older people worldwide<sup><xref ref-type="bibr" rid="B1">1</xref></sup>.</p>
+			<p>Vitamin D, also referred to as 25-hydroxy-D or 25(OH)D, has been widely studied as a neuroprotective factor<sup><xref ref-type="bibr" rid="B2">2</xref></sup>. The meta-analysis results showed that individuals with vitamin D deficiency have a 21% greater risk of developing Alzheimer’s disease than those with normal levels<sup><xref ref-type="bibr" rid="B3">3</xref>,<xref ref-type="bibr" rid="B4">4</xref></sup>. Vitamin D at insufficient levels (hypovitaminosis), defined as &lt; 30 ng/mL, is described as a modifiable risk factor for dementia. In a systematic review on the relationship between vitamin D, cognition, and dementia, the authors reported that a concentration of less than 50 nmol/L of vitamin D is associated with a decline in cognitive function and a higher risk of Alzheimer’s disease<sup><xref ref-type="bibr" rid="B5">5</xref></sup>.</p>
+			<p>Brain-derived neurotrophic factor (BDNF) is a neurotrophin that plays a key role in inducing neuroplasticity, which promote the survival of neurons, and in modulating neuroplasticity in different interventions<sup><xref ref-type="bibr" rid="B6">6</xref></sup>. Moreover, BDNF plays an essential role in the central and peripheral nervous systems, especially in the hippocampus, favoring cognitive function during learning and memorization processes<sup><xref ref-type="bibr" rid="B7">7</xref></sup>. Little is known about the relationship between vitamin D and BDNF and its relevance in cognition. A population-based study on 300 Malaysian older adults identified that vitamin D derived from dietary intake, and not from supplementation, is a protective factor of cognitive function<sup><xref ref-type="bibr" rid="B8">8</xref></sup>. Another population-based study conducted in northern Germany analyzed the association between vitamin D and BDNF with depression and obesity and showed that non-obese individuals without depression had higher levels of vitamin D; however, no association with BDNF was found. The authors reinforced the role of vitamin D in mental health-related outcomes and suggested further studies to analyze this association with other health-related outcomes in the adult and older adult population<sup><xref ref-type="bibr" rid="B9">9</xref></sup>.</p>
+			<p>Cognition mainly involves the assessment of memory and learning, functions linked to the hippocampus, a region characterized by high concentrations of BDNF<sup><xref ref-type="bibr" rid="B10">10</xref></sup>.</p>
+			<p>Few studies were found regarding vitamin D and cognitive decline in the Brazilian population. According to the Brazilian Longitudinal Study of Aging (ELSI Study), the prevalence of vitamin D insufficiency in older adults was 17%, and the South region had the lowest serum concentration of vitamin D in the country<sup><xref ref-type="bibr" rid="B11">11</xref></sup>. Other studies show that vitamin D deficiency was highly prevalent in cognitive decline<sup><xref ref-type="bibr" rid="B12">12</xref></sup>, associated with diagnosed dementia, and it appears to be a marker of significant risk of functional decline. A systematic review with meta-analysis about nutritional strategies to manage Alzheimer’s disease showed that, in these patients, vitamin D supplementation had no significant effect on cognitive function or functional abilities<sup><xref ref-type="bibr" rid="B13">13</xref></sup>.</p>
+			<p>Within this context, a study on the association between vitamin D and BDNF on cognitive function in older adults is essential to prevent neurodegenerative diseases. Therefore, this study aims to estimate the association between vitamin D and cognitive decline of older adults and evaluate whether this association is mediated by BDNF serum concentration.</p>
+			<p>Thus, the following hypotheses were raised for this study: 1) there is an association between vitamin D and cognitive function; 2) there is an association between vitamin D and BDNF serum concentration; 3) there is an association between BDNF serum concentration and cognitive function, and therefore 4) BDNF serum concentration can be a mediator in the relationship between vitamin D and cognitive function.</p>
+		</sec>
+		<sec sec-type="methods">
+			<title>METHODS</title>
+			<p>This study is a cross-sectional analysis using data from the second wave of the EpiFloripa Aging Cohort Study, which included subjects aged 60 years or older living in the urban area of the city of Florianópolis, capital of the State of Santa Catarina, South Region of Brazil.</p>
+			<p>The baseline study (Wave 1) started in 2009–2010 and had two follow-ups: one in 2013–2015, called Wave 2; and another in 2017–2019, called Wave 3.</p>
+			<p>The study population was composed of older adults (60 years old or older) living in the urban region of Florianópolis in 2009–2010. The baseline sample size calculation was considered an expected prevalence of 50%, an error of four percentage points, and 95% confidence interval (95%CI), delineation effect (deff) for samples by clusters estimated as two. Clusters carried out the sample selection process in two stages. The first stage units were the census tracts (<italic>Instituto Brasileiro de Geografia e Estatística</italic> (IBGE) census units), and those in the second stage were the households. Further details of the study methodology can be found in previous studies<sup><xref ref-type="bibr" rid="B14">14</xref></sup>.</p>
+			<p>The sociodemographic and cognitive function data were collected using a pre-tested online questionnaire. After training, the interviewers went to the houses previously selected for data collection, where they conducted in-person interviews. The data consistency was verified weekly, and quality control was carried out by a telephone application of a reduced questionnaire to 10% of the participants, randomly selected by a supervisor<sup><xref ref-type="bibr" rid="B15">15</xref></sup>. Analysis of the reproducibility of the questions showed satisfactory to a good agreement (kappa of 0.5–0.9). During the interview, the subject was invited to attend a round of clinical tests at the university; upon accepting the invitation, a day, place, and time was appointed for sample collection, and the participants were given guidelines to be followed on the day of collection. They were oriented to fast 8–12 hours prior to the exam; in the examination room blood samples were collected for analysis in two steps. One aliquot was sent directly to the Clinical Analysis Laboratory of the University Hospital of the Federal University of Santa Catarina (UFSC) to analyze the lipid profile and vitamin D. Serum samples used to detect 25(OH)D were immediately processed using LIASON® 25 OH vitamin D assay (Diasorin, São Paulo, Brazil) accordingly to manufacture (Functional Sensitivity: ≤ 2.0 ng/mL; (inter-assay imprecision &lt; 20%), which is considered a rapid, accurate, and precise assay<sup><xref ref-type="bibr" rid="B16">16</xref></sup>.</p>
+			<p>An aliquot of the remaining sample stored at -80ºC was used to measure BDNF by plate-based immunoassay (ELISA) at the Biochemistry Laboratory of UFSC. BDNF was analyzed using a commercial kit (DuoSet Human BDNF, DY248, R&amp;D), and the plates were read in an M5 SpectraMax microplate reader (Molecular Devices, USA). The valid values followed the curve indicated in the commercial kit. Vitamin D was analyzed by microparticle chemiluminescence (Liaison method) in the same blood sample used to measure serum BDNF.</p>
+			<p>The serum concentration of 25-hydroxy vitamin D (25(OH)D; in ng/mL) was the exposure, analyzed as a continuous variable. The vitamin D levels were used as a categorical variable in the descriptive analysis according to Endocrine Society classifying in deficiency (under 20 ng/ml), insufficient (21 to 29 ng/ml), and normal level (30 ng/ml or higher)<sup><xref ref-type="bibr" rid="B17">17</xref></sup>.</p>
+			<p>The study’s outcome was the cognitive decline, which was assessed using the Mini-Mental State Examination (MMSE), validated for Brazil<sup><xref ref-type="bibr" rid="B18">18</xref></sup>. The MMSE is used to evaluate cognitive functions on a scale from 0 to 30, and the classification is made based on educational level, with older adults being classified as having possible cognitive impairment when they achieve a score &lt; 19 (illiterate) or &lt; 23 (formal education). Cognitive decline was used as a dichotomous variable in the descriptive analysis according to Almeida<sup><xref ref-type="bibr" rid="B18">18</xref></sup> (1998), and as a continuous variable in path analysis.</p>
+			<p>The serum BDNF concentration (in pg/mL) was also the mediator variable, analyzed as a continuous variable. The adjustment variables collected by interview were sex (man or woman); age group (60–64, 65–69, 70–74, 75–79, and ≥ 80 years); per capita family income in Brazilian minimum wage (≤ 1, 1–5, 5–10, and ≥ 10), educational level in complete years of schooling classified as formal education (no formal education, 0; 1–4 years; 5–8 year; 9–11 years; ≥ 12 years).</p>
+			<p>This study was approved by the Ethics Committee on Research Involving Humans of Federal University of Santa Catarina (Approval No. 16731313.0.0000.0121) in 2013, and all participants signed a free and informed consent form.</p>
+			<sec>
+				<title>Statistical Analysis</title>
+				<p>Age, family income, educational level, and vitamin D (ordinal polytomous variables) were compared between groups using one-way ANOVA. Descriptive statistics with absolute and relative frequencies were used to describe the sociodemographic profile of the participants by vitamin D and BDNF serum concentration. A t-test for independent samples was applied to determine whether the groups were comparable regarding sex and cognitive impairment (dichotomous variables). Differences were considered significant when p &lt; 0.05.</p>
+				<p>The relationship between variables by pathway was illustrated using Directed Acyclic Graphs (DAG). These graphs are a rapid and visual method to identify the effect of an exposure variable on the outcome and possible confounding variables. In the DAG of this study, vitamin D was the exposure, cognitive decline was the primary outcome, and sex, age, family income, and educational level were the adjustment variables. In this study, BDNF was considered a secondary outcome and the mediator of the pathway between vitamin D and cognitive decline (<xref ref-type="fig" rid="f01">Figure 1</xref>).</p>
+				<p>
+					<fig id="f01">
+						<label>Figure 1</label>
+						<caption>
+							<title>Directed acyclic graph, including the variables studied. (1) Direct effect of vitamin D on cognitive decline. (2) Direct effect of vitamin D on brain-derived neurotrophic factor (BDNF). (3) Direct effect of BDNF on cognitive decline. (2 + 3) Indirect effect of vitamin D on cognitive decline mediated by BDNF. The adjustment variables were age, sex, educational level, body mass index, and physical activity.</title>
+						</caption>
+						<graphic xlink:href="1518-8787-rsp-56-109-gf01.jpg"/>
+					</fig>
+				</p>
+				<p>To analyze the associations between vitamin D, BDNF, and cognitive decline, path analysis was used as an alternative approach to the traditional method for testing mediating effects and multivariate analysis of direct and indirect effects. Path analysis analyzes the mediating effect due to better power and more accurate type I error rates<sup><xref ref-type="bibr" rid="B19">19</xref></sup>. Thus, the path analysis was conducted to estimate the pathways among the main variables to analyze the effect of the vitamin D on (1) cognitive score and (2) BDNF serum levels. Additionally, indirect effects of BDNF on the relationship between vitamin D and cognitive score were analyzed through path analysis.</p>
+				<p>The standardized coefficients adjusted for sex, age, family income, and educational level, and their respective 95% confidence intervals, were calculated with the IBM Stata 14.0 software, adopting a level of significance of 5%.</p>
+				<p>The dataset was published in Mendeley Data and should be requested to the corresponding author, and it is available at http://dx.doi.org/10.17632/xfzkhn94dr.1.</p>
+			</sec>
+		</sec>
+		<sec sec-type="results">
+			<title>RESULTS</title>
+			<p>A total of 576 older adults participated in the study, corresponding to 48.1% of the eligible sample of Wave 2 (n = 1,197). There were 44.4% refusals (n = 531); 4.3% losses, since the subjects could not be located for scheduling the examination (n = 52); and 0,8% of deaths (n = 10), resulting in 604 older adults with a blood sample. Of those 604, there were 2.3% losses due to invalid values for vitamin D and BDNF (n = 28), resulting in 576 older adults for study analysis (<xref ref-type="fig" rid="f02">Figure 2</xref>).</p>
+			<p>
+				<fig id="f02">
+					<label>Figure 2</label>
+					<caption>
+						<title>Waves of the EpiFloripa Ageing Study, Wave 1 and 2.</title>
+					</caption>
+					<graphic xlink:href="1518-8787-rsp-56-109-gf02.jpg"/>
+				</fig>
+			</p>
+			<p>The mean age of the participants (n = 576) was 72.4 years (range 63–93 years); 65.2% were women, 42.6% had less than four years of schooling, 57,1% had a family income between 1 and 5 Brazilian minimal wage. Approximately one-fifth of the participants had cognitive impairment, and 26.4% had vitamin D insufficiency, i.e., levels &lt; 30 ng/mL, according to the Endocrine Society<sup><xref ref-type="bibr" rid="B17">17</xref></sup>.</p>
+			<p>Women had, on average, significantly lower vitamin D levels than men (25.2 <italic>versus</italic> 28.6 ng/mL). There was no difference in vitamin D with increasing age, family income, or education levels. Thus, older adults with cognitive impairment had a significantly lower average of vitamin D levels than older adults without cognitive impairment (<xref ref-type="table" rid="t1">Table 1</xref>).</p>
+			<p>
+				<table-wrap id="t1">
+					<label>Table 1</label>
+					<caption>
+						<title>Association of sociodemographic with vitamin D and serum BDNF concentration in the older adults, Brazil, 2019.</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup width="14%">
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left" rowspan="2" style="font-weight:normal">
+								</th>
+								<th colspan="2">Maximum sample (n = 576)</th>
+								<th colspan="2">Vitamin D (ng/ml)</th>
+								<th colspan="2">BDNF (pg/ml)</th>
+							</tr>
+							<tr>
+								<th>n</th>
+								<th>%</th>
+								<th>Mean ± SD</th>
+								<th>p<sup>a</sup></th>
+								<th>Mean ± SD</th>
+								<th>p<sup>a</sup></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Sex</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td align="center"><bold>&lt; 0.001</bold><sup>d</sup></td>
+								<td>
+								</td>
+								<td align="center">0.465</td>
+							</tr>
+							<tr>
+								<td>Women</td>
+								<td align="center">375</td>
+								<td align="center">65.1</td>
+								<td align="center">25.2 ± 8.2</td>
+								<td>
+								</td>
+								<td align="center">3,316.5 ± 1,264.9</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Men</td>
+								<td align="center">201</td>
+								<td align="center">34.9</td>
+								<td align="center">28.6 ± 10.3</td>
+								<td>
+								</td>
+								<td align="center">3,233.1 ± 1,333.8</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Age (years)</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td align="center">0.056</td>
+								<td>
+								</td>
+								<td align="center">0.501</td>
+							</tr>
+							<tr>
+								<td>60–69</td>
+								<td align="center">244</td>
+								<td align="center">42.4</td>
+								<td align="center">27.1 ± 9.5</td>
+								<td>
+								</td>
+								<td align="center">3,381.5 ± 1,387.2</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>70–79</td>
+								<td align="center">239</td>
+								<td align="center">41.5</td>
+								<td align="center">26.5 ± 8.4</td>
+								<td>
+								</td>
+								<td align="center">3,206.7 ± 1,233.2</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>80–89</td>
+								<td align="center">88</td>
+								<td align="center">15.3</td>
+								<td align="center">24.3 ± 9.8</td>
+								<td>
+								</td>
+								<td align="center">3,229.8 ± 1,148.1</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>≥ 90</td>
+								<td align="center">5</td>
+								<td align="center">0.8</td>
+								<td align="center">20.8 ± 8.9</td>
+								<td>
+								</td>
+								<td align="center">3,318.4 ± 1,003.0</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Family income (Brazilian minimal wage)<sup>b</sup></td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td align="center">0.105</td>
+								<td>
+								</td>
+								<td align="center">0.339</td>
+							</tr>
+							<tr>
+								<td>&lt; 1</td>
+								<td align="center">147</td>
+								<td align="center">26.4</td>
+								<td align="center">25.6 ± 7.9</td>
+								<td>
+								</td>
+								<td align="center">3,235.8 ± 1,304.5</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>1–5</td>
+								<td align="center">318</td>
+								<td align="center">57.1</td>
+								<td align="center">26.4 ± 9.9</td>
+								<td>
+								</td>
+								<td align="center">3,363.7 ± 1,297.1</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>5–10</td>
+								<td align="center">64</td>
+								<td align="center">11.5</td>
+								<td align="center">28.7 ± 8.6</td>
+								<td>
+								</td>
+								<td align="center">3,225.1 ± 1,262.1</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>≥ 10</td>
+								<td align="center">28</td>
+								<td align="center">5.0</td>
+								<td align="center">28.0 ± 6.9</td>
+								<td>
+								</td>
+								<td align="center">2,936.6 ± 1,183.3</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Education (years)</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td align="center">0.130</td>
+								<td>
+								</td>
+								<td align="center">0.431</td>
+							</tr>
+							<tr>
+								<td>0–4</td>
+								<td align="center">245</td>
+								<td align="center">42.6</td>
+								<td align="center">26.1 ± 9.8</td>
+								<td>
+								</td>
+								<td align="center">3,213.6 ± 1,236.7</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>5–8</td>
+								<td align="center">104</td>
+								<td align="center">18.1</td>
+								<td align="center">25.4 ± 8.5</td>
+								<td>
+								</td>
+								<td align="center">3,330.6 ± 1,313.5</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>9–11</td>
+								<td align="center">87</td>
+								<td align="center">15.1</td>
+								<td align="center">26.0 ± 8.8</td>
+								<td>
+								</td>
+								<td align="center">3,471.4 ± 1,384.8</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>≥ 12</td>
+								<td align="center">139</td>
+								<td align="center">24.2</td>
+								<td align="center">27.4 ± 8.4</td>
+								<td>
+								</td>
+								<td align="center">3,253.3 ± 1,297.4</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Cognitive function<sup>c</sup></td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td align="center"><bold>0.013</bold><sup>d</sup></td>
+								<td>
+								</td>
+								<td align="center">0.582</td>
+							</tr>
+							<tr>
+								<td>With cognitive deficit</td>
+								<td align="center">124</td>
+								<td align="center">21.5</td>
+								<td align="center">24.6 ± 8.8</td>
+								<td>
+								</td>
+								<td align="center">3,227.2 ± 1,258.4</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Without cognitive deficit</td>
+								<td align="center">448</td>
+								<td align="center">78.5</td>
+								<td align="center">27.0 ± 9.2</td>
+								<td>
+								</td>
+								<td align="center">3,299.9 ± 1,299.5</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Vitamin D</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td align="center">-</td>
+								<td>
+								</td>
+								<td align="center"><bold>0.007</bold><sup>d</sup></td>
+							</tr>
+							<tr>
+								<td>Deficiency</td>
+								<td align="center">152</td>
+								<td align="center">26.4</td>
+								<td align="center">15.5 ± 4.1</td>
+								<td>
+								</td>
+								<td align="center">3,038.0 ± 1,120.9</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Insufficiency</td>
+								<td align="center">231</td>
+								<td align="center">40.1</td>
+								<td align="center">25.6 ± 2.6</td>
+								<td>
+								</td>
+								<td align="center">3,288.9 ± 1,322.2</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Normal</td>
+								<td align="center">193</td>
+								<td align="center">33.5</td>
+								<td align="center">36.0 ± 6.4</td>
+								<td>
+								</td>
+								<td align="center">3,486.3 ± 1,333.7</td>
+								<td>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN1">
+							<p><sup>a</sup> The data was analyzed with a T-test for independent samples (dichotomous variables) and one-way ANOVA (polytomous variables).</p>
+						</fn>
+						<fn id="TFN2">
+							<p><sup>b</sup> Minimum sample is 557.</p>
+						</fn>
+						<fn id="TFN3">
+							<p><sup>c</sup> Classification based on Almeida<sup>18</sup>. <sup>d</sup> p &lt; 0.05.</p>
+						</fn>
+						<fn id="TFN4">
+							<p>SD: standard deviation; BDNF: brain-derived neurotrophic factor.</p>
+						</fn>
+						<fn id="TFN5">
+							<p>95%CI: 95% confidence interval; BDNF: brain-derived neurotrophic factor.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>No significant differences in BDNF concentration were observed when sex, age, family income, educational level, or cognitive decline were compared. On the other hand, there were a significant increase in the mean BDNF serum concentration between individuals with deficient (≤ 20 ng/mL), insufficient (21–29 ng/mL), and normal vitamin D levels (≥ 30 ng/mL) (<xref ref-type="fig" rid="f03">Figure 3</xref>).</p>
+			<p>
+				<fig id="f03">
+					<label>Figure 3</label>
+					<caption>
+						<title>(A) vitamin D levels and (B) BDNF levels according to cognitive decline.</title>
+					</caption>
+					<graphic xlink:href="1518-8787-rsp-56-109-gf03.jpg"/>
+				</fig>
+			</p>
+			<p>An association between vitamin D and cognitive decline (Coef: 0.06; 95%CI: 0.02–0.11; p &lt; 0.001) was observed, i.e., for each 10 ng/ml increase of vitamin D, the MMSE scores increased by 0.6 points . We observed an association between vitamin D and BDNF serum concentration (Coef: 22.55; 95%CI: 9.92–33.17; p = 0.002), i.e., for each 10 ng/ml increase of vitamin D, the BDNF increased by 225.5 pg/ml. This association was significant in crude and adjusted analysis by sex, age, family income, and educational level (<xref ref-type="table" rid="t2">Table 2</xref>).</p>
+			<p>
+				<table-wrap id="t2">
+					<label>Table 2</label>
+					<caption>
+						<title>Multivariate model for the association between vitamin D and cognitive decline mediated by BDNF serum concentration in older adults.</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup width="11%">
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left" rowspan="2">Path (n = 529)</th>
+								<th rowspan="2">Coef.</th>
+								<th colspan="3">Crude analysis</th>
+								<th colspan="4">Adjusted analysis<sup>a</sup></th>
+							</tr>
+							<tr>
+								<th colspan="2">95%CI</th>
+								<th>p</th>
+								<th>Coef.</th>
+								<th colspan="2">95%CI</th>
+								<th>p<sup>a</sup></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Vitamin D → Cog</td>
+								<td align="center">0.06</td>
+								<td align="center">0.02</td>
+								<td align="center">0.11</td>
+								<td align="center"><bold>&lt; 0.001</bold><sup>b</sup></td>
+								<td align="center">0.04</td>
+								<td align="center">0.001</td>
+								<td align="center">0.007</td>
+								<td align="center"><bold>0.040</bold><sup>b</sup></td>
+							</tr>
+							<tr>
+								<td>Vitamin D → BDNF</td>
+								<td align="center">21.55</td>
+								<td align="center">9.92</td>
+								<td align="center">33.17</td>
+								<td align="center"><bold>0.002</bold><sup>b</sup></td>
+								<td align="center">23.09</td>
+								<td align="center">11.1</td>
+								<td align="center">35.1</td>
+								<td align="center"><bold>&lt; 0.001</bold><sup>b</sup></td>
+							</tr>
+							<tr>
+								<td>BDNF → Cog</td>
+								<td align="center">-0.000</td>
+								<td align="center">-0.000</td>
+								<td align="center">0.000</td>
+								<td align="center">0.840</td>
+								<td align="center">-0.000</td>
+								<td align="center">-0.000</td>
+								<td align="center">0.000</td>
+								<td align="center">0.798</td>
+							</tr>
+							<tr>
+								<td>Vitamin D → BDNF → Cog</td>
+								<td align="center">-0.000</td>
+								<td align="center">-0.007</td>
+								<td align="center">0.006</td>
+								<td align="center">0.840</td>
+								<td align="center">-0.001</td>
+								<td align="center">-0.013</td>
+								<td align="center">0.011</td>
+								<td align="center">0.917</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN6">
+							<p><sup>a</sup> Pathway analysis adjusts by sex, age, family income, and education.</p>
+						</fn>
+						<fn id="TFN7">
+							<p><sup>b</sup> p &lt; 0.05</p>
+						</fn>
+						<fn id="TFN8">
+							<p>95%CI: 95% confidence interval; BDNF: brain-derived neurotrophic factor.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>There was no association between BDNF and cognitive decline, so serum BDNF concentration did not mediate the relationship between vitamin D and cognitive decline (<xref ref-type="table" rid="t2">Table 2</xref>).</p>
+		</sec>
+		<sec sec-type="discussion">
+			<title>DISCUSSION</title>
+			<p>This study found a direct and positive association of vitamin D on cognitive function and serum BDNF concentration, i.e., the higher the vitamin D level, the higher the cognitive function and the serum level of BDNF. There was no effect of BDNF on cognitive decline, so BDNF was not a mediator of the effect of vitamin D on cognitive decline.</p>
+			<p>The association between vitamin D and cognitive decline and BDNF serum concentration found in this study may indicate the importance of improving vitamin D levels, with supplementation or sun exposure, as a strategy for preventing and treating cognitive decline and increasing BDNF serum concentration in older adults<sup><xref ref-type="bibr" rid="B20">20</xref></sup>. A study investigating neuroprotective factors for successful aging in Malaysian older adults showed that higher vitamin D and BDNF serum concentration are associated with successful aging; however, the study did not analyze the effect of vitamin D on BDNF. That study defined successful aging when the individuals had no arterial hypertension, diabetes, cardiovascular and pulmonary diseases, had a good quality of life and health perception, good overall cognitive function indicated by an MMSE score higher than 22, fewer than five depressive symptoms by the Geriatric Depressive Scale, and no functional limitation in activities of daily living<sup><xref ref-type="bibr" rid="B8">8</xref></sup>.</p>
+			<p>The Yosefian et al.<sup><xref ref-type="bibr" rid="B21">21</xref></sup> study analyzed the effect of vitamin D on BDNF concentration with an animal model to investigate the use of vitamin D in treating depression, and the results showed that vitamin D did not affect BDNF concentration in the hippocampus. A study by Xu et al.<sup><xref ref-type="bibr" rid="B22">22</xref></sup>, also on depression and with an animal model, showed that the modulation of hippocampal BDNF by vitamin D treatment could be an effective strategy for preventing and treating post-stroke depression. The measurement of vitamin D and BDNF was within the hippocampus, and the results showed that the increase in vitamin D increased BDNF levels.</p>
+			<p>Despite the conflicting results found in the literature, experimental studies have pointed to the importance of vitamin D on hippocampal neurodevelopment during gestation and in the early stages of brain development after birth, and restoring vitamin D levels may represent a helpful strategy for healthy brain aging<sup><xref ref-type="bibr" rid="B2">2</xref>,<xref ref-type="bibr" rid="B23">23</xref></sup>.</p>
+			<p>According to a systematic review about the effect of low vitamin D on cognition, studies have presented different neuropsychological assessment methods. Most of the studies used MMSE to evaluate general cognition, whereas other studies used subdomains as executive function, verbal fluency, and verbal episodic memory. Evidence suggests psychomotor and executive functions are most susceptible to fluctuations in vitamin D physiology during aging. It is crucial to standardize methods and coverage of cognitive domains to draw firm conclusions on the differential effects of vitamin D on specific cognitive abilities. The mechanisms by which vitamin D modulates cognitive processes in aging and the neuro-pathophysiology of dementia are complex. Although vitamin D has been shown to elicit neuroprotective properties via calcium homeostasis and maintaining the integrity of nerve conduction, only observational studies indicated a true effect of vitamin D on cognition<sup><xref ref-type="bibr" rid="B24">24</xref></sup>.</p>
+			<p>There was no significant difference in the vitamin D and BDNF serum concentration between the compared groups analysis across categories of age, family income, or educational level. Regarding vitamin D and cognitive decline, higher vitamin D was observed in older adults without cognitive deficit. The literature suggests a concern with an increase in cognitive deficit, since the prevalence of hypovitaminosis D (deficiency and insufficiency) is increasing worldwide. Studies on older adults show that vitamin D deficiency increases the risk of loss in MMSE score<sup><xref ref-type="bibr" rid="B20">20</xref>,<xref ref-type="bibr" rid="B25">25</xref></sup>. Another study compared mean MMSE scores and found higher vitamin D levels in those with a higher test score<sup><xref ref-type="bibr" rid="B3">3</xref></sup>. Systematic reviews with meta-analysis demonstrated that a low vitamin D concentration is associated with a decline in cognitive function and an increased risk of Alzheimer’s disease<sup><xref ref-type="bibr" rid="B3">3</xref>,<xref ref-type="bibr" rid="B4">4</xref></sup>.</p>
+			<p>On the other hand, this study did not show the association between BDNF, a neuroplasticity factor, and cognitive decline or BDNF as a mediator between vitamin D and cognitive decline. Although studies investigating BDNF and cognitive function demonstrated that a reduction in the levels of this marker is associated with cognitive decline<sup><xref ref-type="bibr" rid="B26">26</xref>,<xref ref-type="bibr" rid="B27">27</xref></sup>, we believe that adaptive brain and body responses mediated by BDNF influence aren’t clear in the literature.</p>
+			<p>The relationship between physical activity, serum BDNF concentration, and cognitive function has been extensively studied, and the results show that acute or vigorous exercise increases peripheral BDNF concentration, with positive effects on cognition<sup><xref ref-type="bibr" rid="B28">28</xref>,<xref ref-type="bibr" rid="B29">29</xref></sup>. In our study, older adults who were physically active, i.e., performed more than 150 minutes of activity per week, had higher peripheral BDNF concentration. However, one study found that long-term habitual exercise is associated with lower peripheral BDNF in more active individuals, despite showing an improvement in memory<sup><xref ref-type="bibr" rid="B29">29</xref></sup>, one of the fundamental domains of cognitive function. An intervention study with mediation analysis involving individuals aged 55 to 80 years showed that serum BDNF concentration mediates the effects of walking on improvements in cognitive function as a function of age. However, no significant differences between the intervention and control groups were reported.</p>
+			<p>Although several studies show that physical activity increases BDNF, a systematic review showed that the significant increase in BDNF depends on the modality and intensity of the exercise. Eight studies examining BDNF changes were suited for metanalysis and showed that higher BDNF concentrations were reached post-intervention, but did not reach statistical significance<sup><xref ref-type="bibr" rid="B30">30</xref></sup>.</p>
+			<sec>
+				<title>Strengths and Limitations of the Study</title>
+				<p>The EpiFloripa Ageing Cohort Study has investigated older adults in three waves, with a response rate of 70.3% between Wave 1 and Wave 2, and 79.8% between Wave 2 and Wave 3. In this study, we used a population-based sample with a high response rate of more than 70% in the first two waves considering the age range of the study. The study was conducted by a team experienced in cohort studies, and internationally validated instruments were used. Additionally, statistical analysis permitted the correct identification of direct and mediated effects.</p>
+				<p>On the other hand, to the best of our knowledge there is no available literature on the reference values for serum BDNF concentration in older adults. Studies only show serum levels of this marker comparing its concentrations before and after an intervention or evaluating its association with cognitive outcomes<sup><xref ref-type="bibr" rid="B31">31</xref></sup>. For example, a study conducted in Brazil with 143 older adults reported high levels of BDNF serum concentration, above the fourth quartile (&gt; 2,378.4 pg/mL) of BDNF concentration of the control group, in individuals with mild cognitive impairment or Alzheimer’s disease<sup><xref ref-type="bibr" rid="B32">32</xref></sup>. Another study carried out in Ukraine with 59 older adults showed an increase in BDNF plasm concentration after drug treatment for comorbidities related to cognitive impairment (20,660.4 to 26,356.0 pg/ml)<sup><xref ref-type="bibr" rid="B33">33</xref></sup>. The values found in the studies with serum BDNF have a widely varied range.</p>
+				<p>Another limitation of this study is that it is a cross-sectional analysis, which limits the interpretation of the data. The loss of follow-up should also be considered a limitation since the data collection for this cohort was conducted via at-home interviews. The collection of blood data can only be carried out with the participants’ displacement to a collection center. Despite the 50.9% adherence of eligible older adults for blood collection in Wave 2, the number of participants remained relevant (n = 604) considering human studies with blood collection outside the home. The EpiFloripa Ageing Study has a Wave 3 with cognitive decline evaluation. A sensitive analysis was performed to verify the variation of the vitamin D and BDNF with cognitive decline in Wave 3. The results show that vitamin D had no direct effect on cognitive decline and BDNF had no significant effect on cognitive decline (<xref ref-type="table" rid="t3">Table 3</xref>).</p>
+				<p>
+					<table-wrap id="t3">
+						<label>Table 3</label>
+						<caption>
+							<title>Multivariate model for the association between vitamin D and cognitive decline on the next wave, mediated by BDNF serum concentration in older adults.</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup width="11%">
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left" rowspan="2">Path (n = 529)</th>
+									<th rowspan="2">Coef.</th>
+									<th colspan="3">Crude analysis</th>
+									<th colspan="4">Adjusted analysis<sup>a</sup></th>
+								</tr>
+								<tr>
+									<th colspan="2">95%CI</th>
+									<th>p</th>
+									<th>Coef.</th>
+									<th colspan="2">95%CI</th>
+									<th>p<sup>a</sup></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Vitamin D → Cog</td>
+									<td align="center">0.03</td>
+									<td align="center">-0.02</td>
+									<td align="center">0.08</td>
+									<td align="center">0.187</td>
+									<td align="center">0.01</td>
+									<td align="center">-0.03</td>
+									<td align="center">0.05</td>
+									<td align="center">0.523</td>
+								</tr>
+								<tr>
+									<td>Vitamin D → BDNF</td>
+									<td align="center">22.09</td>
+									<td align="center">7.6</td>
+									<td align="center">36.6</td>
+									<td align="center"><bold>0.003</bold><sup>b</sup></td>
+									<td align="center">21.91</td>
+									<td align="center">7.02</td>
+									<td align="center">36.79</td>
+									<td align="center"><bold>0.004</bold><sup>b</sup></td>
+								</tr>
+								<tr>
+									<td>BDNF → Cog</td>
+									<td align="center">-0.000</td>
+									<td align="center">-0.000</td>
+									<td align="center">0.000</td>
+									<td align="center">0.778</td>
+									<td align="center">-0.000</td>
+									<td align="center">-0.000</td>
+									<td align="center">0.000</td>
+									<td align="center">0.623</td>
+								</tr>
+								<tr>
+									<td>Vitamin D → BDNF → Cog</td>
+									<td align="center">-0.001</td>
+									<td align="center">-0.008</td>
+									<td align="center">0.006</td>
+									<td align="center">0.779</td>
+									<td align="center">-0.001</td>
+									<td align="center">-0.008</td>
+									<td align="center">0.006</td>
+									<td align="center">0.623</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN9">
+								<p><sup>a</sup> Pathway analysis adjusts by sex, age, educational level, body mass index, and physical activity</p>
+							</fn>
+							<fn id="TFN10">
+								<p><sup>b</sup> p-value &lt; 0.05.</p>
+							</fn>
+							<fn id="TFN11">
+								<p>95%CI: 95% confidence interval; BDNF: brain-derived neurotrophic factor; Cog: cognitive.</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p>This study shows an association between vitamin D on serum BDNF and vitamin D on cognitive decline in older adults. These results show the importance of increased vitamin D levels to improve mental health, especially related to cognition.</p>
+				<p>Regarding BDNF serum levels, this study shows no association between BDNF and cognitive scores. Since the literature presents studies in which higher serum BDNF is related to better mental health, the authors believe that investigations are still needed to confirm this evidence. However, further well-designed, longitudinal, and randomized controlled trials are required to assess the effects of vitamin D and BDNF on cognition.</p>
+			</sec>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>REFERENCES</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. World Health Organization; Azheimer’s Disease International. Dementia: a public health priority. Geneva (CH): WHO; 2012.</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>World Health Organization</collab>
+						<collab>Azheimer’s Disease International</collab>
+					</person-group>
+					<source>Dementia: a public health priority</source>
+					<publisher-loc>Geneva (CH)</publisher-loc>
+					<publisher-name>WHO</publisher-name>
+					<year>2012</year>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. Khairy EY, Attia MM. Protective effects of vitamin D on neurophysiologic alterations in brain aging: role of brain-derived neurotrophic factor (BDNF). Nutr Neurosci. 2021;24(8):650-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/1028415X.2019.1665854">https://doi.org/10.1080/1028415X.2019.1665854</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Khairy</surname>
+							<given-names>EY</given-names>
+						</name>
+						<name>
+							<surname>Attia</surname>
+							<given-names>MM</given-names>
+						</name>
+					</person-group>
+					<article-title>Protective effects of vitamin D on neurophysiologic alterations in brain aging: role of brain-derived neurotrophic factor (BDNF)</article-title>
+					<source>Nutr Neurosci</source>
+					<year>2021</year>
+					<volume>24</volume>
+					<issue>8</issue>
+					<fpage>650</fpage>
+					<lpage>659</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/1028415X.2019.1665854">https://doi.org/10.1080/1028415X.2019.1665854</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. Balion C, Griffith LE, Strifler L, Henderson M, Patterson C, Heckman G, et al. vitamin D, cognition, and dementia: a systematic review and meta-analysis. Neurology. 2012;79(13):1397-405. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1212/WNL.0b013e31826c197f">https://doi.org/10.1212/WNL.0b013e31826c197f</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Balion</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Griffith</surname>
+							<given-names>LE</given-names>
+						</name>
+						<name>
+							<surname>Strifler</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Henderson</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Patterson</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Heckman</surname>
+							<given-names>G</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>vitamin D, cognition, and dementia: a systematic review and meta-analysis</article-title>
+					<source>Neurology</source>
+					<year>2012</year>
+					<volume>79</volume>
+					<issue>13</issue>
+					<fpage>1397</fpage>
+					<lpage>1405</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1212/WNL.0b013e31826c197f">https://doi.org/10.1212/WNL.0b013e31826c197f</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. Shen L, Ji HF. Vitamin D deficiency is associated with increased risk of Alzheimer’s disease and dementia: evidence from meta-analysis. Nutr J. 2015;14:76. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12937-015-0063-7">https://doi.org/10.1186/s12937-015-0063-7</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Shen</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Ji</surname>
+							<given-names>HF</given-names>
+						</name>
+					</person-group>
+					<article-title>Vitamin D deficiency is associated with increased risk of Alzheimer’s disease and dementia: evidence from meta-analysis</article-title>
+					<source>Nutr J</source>
+					<year>2015</year>
+					<volume>14</volume>
+					<size units="pages">76</size>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12937-015-0063-7">https://doi.org/10.1186/s12937-015-0063-7</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Annweiler C, Dursun E, Féron F, Gezen-Ak D, Kalueff AV, Littlejohns T, et al. ‘vitamin D and cognition in older adults’: updated international recommendations. J Intern Med. 2015;277(1):45-57. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/joim.12279">https://doi.org/10.1111/joim.12279</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Annweiler</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Dursun</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Féron</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Gezen-Ak</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Kalueff</surname>
+							<given-names>AV</given-names>
+						</name>
+						<name>
+							<surname>Littlejohns</surname>
+							<given-names>T</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>‘vitamin D and cognition in older adults’: updated international recommendations</article-title>
+					<source>J Intern Med</source>
+					<year>2015</year>
+					<volume>277</volume>
+					<issue>1</issue>
+					<fpage>45</fpage>
+					<lpage>57</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/joim.12279">https://doi.org/10.1111/joim.12279</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. Pirotta S, Kidgell DJ, Daly RM. Effects of vitamin D supplementation on neuroplasticity in older adults: a double-blinded, placebo-controlled randomised trial. Osteoporos Int. 2015;26(1):131-40. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s00198-014-2855-6">https://doi.org/10.1007/s00198-014-2855-6</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pirotta</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Kidgell</surname>
+							<given-names>DJ</given-names>
+						</name>
+						<name>
+							<surname>Daly</surname>
+							<given-names>RM</given-names>
+						</name>
+					</person-group>
+					<article-title>Effects of vitamin D supplementation on neuroplasticity in older adults: a double-blinded, placebo-controlled randomised trial</article-title>
+					<source>Osteoporos Int</source>
+					<year>2015</year>
+					<volume>26</volume>
+					<issue>1</issue>
+					<fpage>131</fpage>
+					<lpage>140</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s00198-014-2855-6">https://doi.org/10.1007/s00198-014-2855-6</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. Hajiluian G, Nameni G, Shahabi P, Mesgari-Abbasi M, Sadigh-Eteghad S, Farhangi MA. Vitamin D administration, cognitive function, BBB permeability and neuroinflammatory factors in high-fat diet-induced obese rats. Int J Obes (Lond). 2017;41(4):639-44. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/ijo.2017.10">https://doi.org/10.1038/ijo.2017.10</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hajiluian</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Nameni</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Shahabi</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Mesgari-Abbasi</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Sadigh-Eteghad</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Farhangi</surname>
+							<given-names>MA</given-names>
+						</name>
+					</person-group>
+					<article-title>Vitamin D administration, cognitive function, BBB permeability and neuroinflammatory factors in high-fat diet-induced obese rats</article-title>
+					<source>Int J Obes (Lond)</source>
+					<year>2017</year>
+					<volume>41</volume>
+					<issue>4</issue>
+					<fpage>639</fpage>
+					<lpage>644</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/ijo.2017.10">https://doi.org/10.1038/ijo.2017.10</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Lau H, Mat Ludin AF, Rajab NF, Shahar S. Identification of neuroprotective factors associated with successful ageing and risk of cognitive impairment among Malaysia older adults. Curr Gerontol Geriatr Res. 2017:4218756. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1155/2017/4218756">https://doi.org/10.1155/2017/4218756</ext-link> Epub ahead of print.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lau</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Mat Ludin</surname>
+							<given-names>AF</given-names>
+						</name>
+						<name>
+							<surname>Rajab</surname>
+							<given-names>NF</given-names>
+						</name>
+						<name>
+							<surname>Shahar</surname>
+							<given-names>S</given-names>
+						</name>
+					</person-group>
+					<article-title>Identification of neuroprotective factors associated with successful ageing and risk of cognitive impairment among Malaysia older adults</article-title>
+					<source>Curr Gerontol Geriatr Res</source>
+					<year>2017</year>
+					<size units="pages">4218756</size>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1155/2017/4218756">https://doi.org/10.1155/2017/4218756</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. Goltz A, Janowitz D, Hannemann A, Nauck M, Hoffmann J, Seyfart T, et al. Association of brain-derived neurotrophic factor and vitamin D with depression and obesity: a population-based study. Neuropsychobiology. 2018;76(4):171-81. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1159/000489864">https://doi.org/10.1159/000489864</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Goltz</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Janowitz</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Hannemann</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Nauck</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Hoffmann</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Seyfart</surname>
+							<given-names>T</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Association of brain-derived neurotrophic factor and vitamin D with depression and obesity: a population-based study</article-title>
+					<source>Neuropsychobiology</source>
+					<year>2018</year>
+					<volume>76</volume>
+					<issue>4</issue>
+					<fpage>171</fpage>
+					<lpage>181</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1159/000489864">https://doi.org/10.1159/000489864</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. Munno D, Sterpone S, Fania S, Cappellin F, Mengozzi G, Saroldi M, et al. Plasma brain derived neurotrophic factor levels and neuropsychological aspects of depressed patients treated with paroxetine. Panminerva Med. 2013;55(4):377-84.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Munno</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Sterpone</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Fania</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Cappellin</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Mengozzi</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Saroldi</surname>
+							<given-names>M</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Plasma brain derived neurotrophic factor levels and neuropsychological aspects of depressed patients treated with paroxetine</article-title>
+					<source>Panminerva Med</source>
+					<year>2013</year>
+					<volume>55</volume>
+					<issue>4</issue>
+					<fpage>377</fpage>
+					<lpage>384</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. Lima-Costa MF, Mambrini JVM, Souza-Junior PRB, Andrade FB, Peixoto SV, Vidigal CM, et al. Nationwide vitamin D status in older Brazilian adults and its determinants: the Brazilian Longitudinal Study of Aging (ELSI). Sci Rep. 2020;10(1):13521. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s41598-020-70329-y">https://doi.org/10.1038/s41598-020-70329-y</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lima-Costa</surname>
+							<given-names>MF</given-names>
+						</name>
+						<name>
+							<surname>Mambrini</surname>
+							<given-names>JVM</given-names>
+						</name>
+						<name>
+							<surname>Souza</surname>
+							<given-names>PRB</given-names>
+							<suffix>Junior</suffix>
+						</name>
+						<name>
+							<surname>Andrade</surname>
+							<given-names>FB</given-names>
+						</name>
+						<name>
+							<surname>Peixoto</surname>
+							<given-names>SV</given-names>
+						</name>
+						<name>
+							<surname>Vidigal</surname>
+							<given-names>CM</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Nationwide vitamin D status in older Brazilian adults and its determinants: the Brazilian Longitudinal Study of Aging (ELSI)</article-title>
+					<source>Sci Rep</source>
+					<year>2020</year>
+					<volume>10</volume>
+					<issue>1</issue>
+					<size units="pages">13521</size>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s41598-020-70329-y">https://doi.org/10.1038/s41598-020-70329-y</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. Rosa MI, Beck WO, Colonetti T, Budni J, Falchetti ACB, Colonetti L, et al. Association of vitamin D and vitamin B12 with cognitive impairment in elderly aged 80 years or older: a cross-sectional study. J Hum Nutr Diet. 2019;32(4):518-24. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/jhn.12636">https://doi.org/10.1111/jhn.12636</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rosa</surname>
+							<given-names>MI</given-names>
+						</name>
+						<name>
+							<surname>Beck</surname>
+							<given-names>WO</given-names>
+						</name>
+						<name>
+							<surname>Colonetti</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Budni</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Falchetti</surname>
+							<given-names>ACB</given-names>
+						</name>
+						<name>
+							<surname>Colonetti</surname>
+							<given-names>L</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Association of vitamin D and vitamin B12 with cognitive impairment in elderly aged 80 years or older: a cross-sectional study</article-title>
+					<source>J Hum Nutr Diet</source>
+					<year>2019</year>
+					<volume>32</volume>
+					<issue>4</issue>
+					<fpage>518</fpage>
+					<lpage>524</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/jhn.12636">https://doi.org/10.1111/jhn.12636</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. Muñoz Fernández SS, Ivanauskas T, Ribeiro SML. Nutritional strategies in the management of Alzheimer Disease: systematic review with network meta-analysis. J Am Med Dir Assoc. 2017;18(10):897.e13-897.e30. <ext-link ext-link-type="uri" xlink:href="https://doi.org;10.1016/j.jamda.2017.06.015">https://doi.org;10.1016/j.jamda.2017.06.015</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Muñoz Fernández</surname>
+							<given-names>SS</given-names>
+						</name>
+						<name>
+							<surname>Ivanauskas</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Ribeiro</surname>
+							<given-names>SML</given-names>
+						</name>
+					</person-group>
+					<article-title>Nutritional strategies in the management of Alzheimer Disease: systematic review with network meta-analysis</article-title>
+					<source>J Am Med Dir Assoc</source>
+					<year>2017</year>
+					<volume>18</volume>
+					<issue>10</issue>
+					<fpage>897.e13</fpage>
+					<lpage>897.e30</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org;10.1016/j.jamda.2017.06.015">https://doi.org;10.1016/j.jamda.2017.06.015</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. Confortin SC, Schneider IJC, Antes DL, Cembranel F, Ono LM, Marques LP, et al. Condições de vida e saúde de idosos: resultados do estudo de coorte EpiFloripa Idoso. Epidemiol Serv Saude. 2017;26(2):305-17. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5123/S1679-49742017000200008">https://doi.org/10.5123/S1679-49742017000200008</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Confortin</surname>
+							<given-names>SC</given-names>
+						</name>
+						<name>
+							<surname>Schneider</surname>
+							<given-names>IJC</given-names>
+						</name>
+						<name>
+							<surname>Antes</surname>
+							<given-names>DL</given-names>
+						</name>
+						<name>
+							<surname>Cembranel</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Ono</surname>
+							<given-names>LM</given-names>
+						</name>
+						<name>
+							<surname>Marques</surname>
+							<given-names>LP</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Condições de vida e saúde de idosos: resultados do estudo de coorte EpiFloripa Idoso</article-title>
+					<source>Epidemiol Serv Saude</source>
+					<year>2017</year>
+					<volume>26</volume>
+					<issue>2</issue>
+					<fpage>305</fpage>
+					<lpage>317</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5123/S1679-49742017000200008">https://doi.org/10.5123/S1679-49742017000200008</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. Schneider IJC, Confortin SC, Bernardo CO, Bolsoni CC, Antes DL, Pereira KG, et al. EpiFloripa Aging cohort study: methods, operational aspects, and follow-up strategies. Rev Saude Publica. 2017;51:104. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.11606/S1518-8787.2017051006776">https://doi.org/10.11606/S1518-8787.2017051006776</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Schneider</surname>
+							<given-names>IJC</given-names>
+						</name>
+						<name>
+							<surname>Confortin</surname>
+							<given-names>SC</given-names>
+						</name>
+						<name>
+							<surname>Bernardo</surname>
+							<given-names>CO</given-names>
+						</name>
+						<name>
+							<surname>Bolsoni</surname>
+							<given-names>CC</given-names>
+						</name>
+						<name>
+							<surname>Antes</surname>
+							<given-names>DL</given-names>
+						</name>
+						<name>
+							<surname>Pereira</surname>
+							<given-names>KG</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>EpiFloripa Aging cohort study: methods, operational aspects, and follow-up strategies</article-title>
+					<source>Rev Saude Publica</source>
+					<year>2017</year>
+					<volume>51</volume>
+					<fpage>104</fpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.11606/S1518-8787.2017051006776">https://doi.org/10.11606/S1518-8787.2017051006776</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. Ceolin G, Matsuo LH, Confortin SC, D’Orsi E, Rieger DK, Moreira JD. Lower serum 25-hydroxycholecalciferol is associated with depressive symptoms in older adults in Southern Brazil. Nutr J. 2020;19:123. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12937-020-00638-5">https://doi.org/10.1186/s12937-020-00638-5</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ceolin</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Matsuo</surname>
+							<given-names>LH</given-names>
+						</name>
+						<name>
+							<surname>Confortin</surname>
+							<given-names>SC</given-names>
+						</name>
+						<name>
+							<surname>D’Orsi</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Rieger</surname>
+							<given-names>DK</given-names>
+						</name>
+						<name>
+							<surname>Moreira</surname>
+							<given-names>JD</given-names>
+						</name>
+					</person-group>
+					<article-title>Lower serum 25-hydroxycholecalciferol is associated with depressive symptoms in older adults in Southern Brazil</article-title>
+					<source>Nutr J</source>
+					<year>2020</year>
+					<volume>19</volume>
+					<size units="pages">123</size>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12937-020-00638-5">https://doi.org/10.1186/s12937-020-00638-5</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Holick MF, Binkley NC, Bischoff-Ferrari HA, Gordon CM, Hanley DA, Heaney RP, et al. Evaluation, treatment, and prevention of vitamin D deficiency: an endocrine society clinical practice guideline. J Clin Endocrinol Metab. 2011;96(7):1911-30. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1210/jc.2011-0385">https://doi.org/10.1210/jc.2011-0385</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Holick</surname>
+							<given-names>MF</given-names>
+						</name>
+						<name>
+							<surname>Binkley</surname>
+							<given-names>NC</given-names>
+						</name>
+						<name>
+							<surname>Bischoff-Ferrari</surname>
+							<given-names>HA</given-names>
+						</name>
+						<name>
+							<surname>Gordon</surname>
+							<given-names>CM</given-names>
+						</name>
+						<name>
+							<surname>Hanley</surname>
+							<given-names>DA</given-names>
+						</name>
+						<name>
+							<surname>Heaney</surname>
+							<given-names>RP</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Evaluation, treatment, and prevention of vitamin D deficiency: an endocrine society clinical practice guideline</article-title>
+					<source>J Clin Endocrinol Metab</source>
+					<year>2011</year>
+					<volume>96</volume>
+					<issue>7</issue>
+					<fpage>1911</fpage>
+					<lpage>1930</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1210/jc.2011-0385">https://doi.org/10.1210/jc.2011-0385</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18. Almeida OP. [The Mini Mental State Examination and the diagnosis of dementia in Brazil]. Arq Neuropsiquiatr. 1998;56(3B):605-12. Portuguese. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/s0004-282x1998000400014">https://doi.org/10.1590/s0004-282x1998000400014</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Almeida</surname>
+							<given-names>OP</given-names>
+						</name>
+					</person-group>
+					<article-title>The Mini Mental State Examination and the diagnosis of dementia in Brazil</article-title>
+					<source>Arq Neuropsiquiatr</source>
+					<year>1998</year>
+					<volume>56</volume>
+					<issue>3B</issue>
+					<fpage>605</fpage>
+					<lpage>612</lpage>
+					<comment>Portuguese</comment>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/s0004-282x1998000400014">https://doi.org/10.1590/s0004-282x1998000400014</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19. Sagong H, Yoon JY. Pathways among frailty, health literacy, acculturation, and social support of middle-aged and older Korean immigrants in the USA. Int J Environ Res Public Health. 2021;18(3):1245. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3390/ijerph18031245">https://doi.org/10.3390/ijerph18031245</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sagong</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Yoon</surname>
+							<given-names>JY</given-names>
+						</name>
+					</person-group>
+					<article-title>Pathways among frailty, health literacy, acculturation, and social support of middle-aged and older Korean immigrants in the USA</article-title>
+					<source>Int J Environ Res Public Health</source>
+					<year>2021</year>
+					<volume>18</volume>
+					<issue>3</issue>
+					<fpage>1245</fpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3390/ijerph18031245">https://doi.org/10.3390/ijerph18031245</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20. Llewellyn DJ, Lang IA, Langa KM, Muniz-Terrera G, Phillips CL, Cherubini A, et al. Vitamin D and risk of cognitive decline in elderly persons. Obstet Gynecol Surv. 2011;66(6):354-5.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Llewellyn</surname>
+							<given-names>DJ</given-names>
+						</name>
+						<name>
+							<surname>Lang</surname>
+							<given-names>IA</given-names>
+						</name>
+						<name>
+							<surname>Langa</surname>
+							<given-names>KM</given-names>
+						</name>
+						<name>
+							<surname>Muniz-Terrera</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Phillips</surname>
+							<given-names>CL</given-names>
+						</name>
+						<name>
+							<surname>Cherubini</surname>
+							<given-names>A</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Vitamin D and risk of cognitive decline in elderly persons</article-title>
+					<source>Obstet Gynecol Surv</source>
+					<year>2011</year>
+					<volume>66</volume>
+					<issue>6</issue>
+					<fpage>354</fpage>
+					<lpage>355</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>21. Yousefian Z, Khaleghian A, Parsaei H, Vafaei AA, Rashidy-Pour A, Sedaghat K. Effect of vitamin D on hippocampus brain-derived neurotrophic factor level in chronic mild stress model of depression in rats. Middle East J Rehabil Health. 2018;5(2):e63901. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5812/mejrh.63901">https://doi.org/10.5812/mejrh.63901</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Yousefian</surname>
+							<given-names>Z</given-names>
+						</name>
+						<name>
+							<surname>Khaleghian</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Parsaei</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Vafaei</surname>
+							<given-names>AA</given-names>
+						</name>
+						<name>
+							<surname>Rashidy-Pour</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Sedaghat</surname>
+							<given-names>K</given-names>
+						</name>
+					</person-group>
+					<article-title>Effect of vitamin D on hippocampus brain-derived neurotrophic factor level in chronic mild stress model of depression in rats</article-title>
+					<source>Middle East J Rehabil Health</source>
+					<year>2018</year>
+					<volume>5</volume>
+					<issue>2</issue>
+					<elocation-id>e63901</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5812/mejrh.63901">https://doi.org/10.5812/mejrh.63901</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>22. Xu Y, Liang L. Vitamin D3/vitamin D receptor signaling mitigates symptoms of post-stroke depression in mice by upregulating hippocampal BDNF expression. Neurosci Res. 2021;170:306-13. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.neures.2020.08.002">https://doi.org/10.1016/j.neures.2020.08.002</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Xu</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Liang</surname>
+							<given-names>L</given-names>
+						</name>
+					</person-group>
+					<article-title>Vitamin D3/vitamin D receptor signaling mitigates symptoms of post-stroke depression in mice by upregulating hippocampal BDNF expression</article-title>
+					<source>Neurosci Res</source>
+					<year>2021</year>
+					<volume>170</volume>
+					<fpage>306</fpage>
+					<lpage>313</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.neures.2020.08.002">https://doi.org/10.1016/j.neures.2020.08.002</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>23. Lardner AL. Vitamin D and hippocampal development: the story so far. Front Mol Neurosci. 2015;8:58. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3389/fnmol.2015.00058">https://doi.org/10.3389/fnmol.2015.00058</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lardner</surname>
+							<given-names>AL</given-names>
+						</name>
+					</person-group>
+					<article-title>Vitamin D and hippocampal development: the story so far</article-title>
+					<source>Front Mol Neurosci</source>
+					<year>2015</year>
+					<volume>8</volume>
+					<size units="pages">58</size>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3389/fnmol.2015.00058">https://doi.org/10.3389/fnmol.2015.00058</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>24. Goodwill AM, Szoeke C. A systematic review and meta-analysis of the effect of low vitamin D on cognition. J Am Geriatr Soc. 2017;65(10):2161-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/jgs.15012">https://doi.org/10.1111/jgs.15012</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Goodwill</surname>
+							<given-names>AM</given-names>
+						</name>
+						<name>
+							<surname>Szoeke</surname>
+							<given-names>C</given-names>
+						</name>
+					</person-group>
+					<article-title>A systematic review and meta-analysis of the effect of low vitamin D on cognition</article-title>
+					<source>J Am Geriatr Soc</source>
+					<year>2017</year>
+					<volume>65</volume>
+					<issue>10</issue>
+					<fpage>2161</fpage>
+					<lpage>2168</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/jgs.15012">https://doi.org/10.1111/jgs.15012</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>25. Annweiler C, Beauchet O. Vitamin D-mentia: randomized clinical trials should be the next step. Neuroepidemiology. 2011;37(3-4):249-58. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1159/000334177">https://doi.org/10.1159/000334177</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Annweiler</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Beauchet</surname>
+							<given-names>O</given-names>
+						</name>
+					</person-group>
+					<article-title>Vitamin D-mentia: randomized clinical trials should be the next step</article-title>
+					<source>Neuroepidemiology</source>
+					<year>2011</year>
+					<volume>37</volume>
+					<issue>3-4</issue>
+					<fpage>249</fpage>
+					<lpage>258</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1159/000334177">https://doi.org/10.1159/000334177</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation>26. Buchman AS, Yu L, Boyle PA, Schneider JA, De Jager PL, Bennett DA. Higher brain BDNF gene expression is associated with slower cognitive decline in older adults. Neurology. 2016;86(8):735-41. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1212/WNL.0000000000002387">https://doi.org/10.1212/WNL.0000000000002387</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Buchman</surname>
+							<given-names>AS</given-names>
+						</name>
+						<name>
+							<surname>Yu</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Boyle</surname>
+							<given-names>PA</given-names>
+						</name>
+						<name>
+							<surname>Schneider</surname>
+							<given-names>JA</given-names>
+						</name>
+						<name>
+							<surname>De Jager</surname>
+							<given-names>PL</given-names>
+						</name>
+						<name>
+							<surname>Bennett</surname>
+							<given-names>DA</given-names>
+						</name>
+					</person-group>
+					<article-title>Higher brain BDNF gene expression is associated with slower cognitive decline in older adults</article-title>
+					<source>Neurology</source>
+					<year>2016</year>
+					<volume>86</volume>
+					<issue>8</issue>
+					<fpage>735</fpage>
+					<lpage>741</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1212/WNL.0000000000002387">https://doi.org/10.1212/WNL.0000000000002387</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<mixed-citation>27. Jehn CF, Becker B, Flath B, Nogai H, Vuong L, Schmid P, et al. Neurocognitive function, brain-derived neurotrophic factor (BDNF) and IL-6 levels in cancer patients with depression. J Neuroimmunol. 2015;287:88-92. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jneuroim.2015.08.012">https://doi.org/10.1016/j.jneuroim.2015.08.012</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Jehn</surname>
+							<given-names>CF</given-names>
+						</name>
+						<name>
+							<surname>Becker</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Flath</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Nogai</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Vuong</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Schmid</surname>
+							<given-names>P</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Neurocognitive function, brain-derived neurotrophic factor (BDNF) and IL-6 levels in cancer patients with depression</article-title>
+					<source>J Neuroimmunol</source>
+					<year>2015</year>
+					<volume>287</volume>
+					<fpage>88</fpage>
+					<lpage>92</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jneuroim.2015.08.012">https://doi.org/10.1016/j.jneuroim.2015.08.012</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<mixed-citation>28. Nascimento CMC, Pereira JR, Andrade LP, Garuffi M, Talib LL, Forlenza OV. et al. Physical exercise in mci elderly promotes reduction of pro-inflammatory cytokines and improvements on cognition and BDNF peripheral levels. Curr Alzheimer Res. 2014;11(8):799-805. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2174/156720501108140910122849">https://doi.org/10.2174/156720501108140910122849</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Nascimento</surname>
+							<given-names>CMC</given-names>
+						</name>
+						<name>
+							<surname>Pereira</surname>
+							<given-names>JR</given-names>
+						</name>
+						<name>
+							<surname>Andrade</surname>
+							<given-names>LP</given-names>
+						</name>
+						<name>
+							<surname>Garuffi</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Talib</surname>
+							<given-names>LL</given-names>
+						</name>
+						<name>
+							<surname>Forlenza</surname>
+							<given-names>OV</given-names>
+						</name>
+						<etal>et al.</etal>
+					</person-group>
+					<article-title>Physical exercise in mci elderly promotes reduction of pro-inflammatory cytokines and improvements on cognition and BDNF peripheral levels</article-title>
+					<source>Curr Alzheimer Res</source>
+					<year>2014</year>
+					<volume>11</volume>
+					<issue>8</issue>
+					<fpage>799</fpage>
+					<lpage>805</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2174/156720501108140910122849">https://doi.org/10.2174/156720501108140910122849</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B29">
+				<label>29</label>
+				<mixed-citation>29. Babaei P, Damirchi A, Mehdipoor M, Therani BS. Long term habitual exercise is associated with lower resting level of serum BDNF. Neurosci Lett. 2014;566:304-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.neulet.2014.02.011">https://doi.org/10.1016/j.neulet.2014.02.011</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Babaei</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Damirchi</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Mehdipoor</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Therani</surname>
+							<given-names>BS</given-names>
+						</name>
+					</person-group>
+					<article-title>Long term habitual exercise is associated with lower resting level of serum BDNF</article-title>
+					<source>Neurosci Lett</source>
+					<year>2014</year>
+					<volume>566</volume>
+					<fpage>304</fpage>
+					<lpage>308</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.neulet.2014.02.011">https://doi.org/10.1016/j.neulet.2014.02.011</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B30">
+				<label>30</label>
+				<mixed-citation>30. Titus J, Bray NW, Kamkar N, Camicioli R, Nagamatsu LS, Speechley M, et al. The role of physical exercise in modulating peripheral inflammatory and neurotrophic biomarkers in older adults: a systematic review and meta-analysis. Mech Ageing Dev. 2021;194:111431. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.mad.2021.111431">https://doi.org/10.1016/j.mad.2021.111431</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Titus</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Bray</surname>
+							<given-names>NW</given-names>
+						</name>
+						<name>
+							<surname>Kamkar</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Camicioli</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Nagamatsu</surname>
+							<given-names>LS</given-names>
+						</name>
+						<name>
+							<surname>Speechley</surname>
+							<given-names>M</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>The role of physical exercise in modulating peripheral inflammatory and neurotrophic biomarkers in older adults: a systematic review and meta-analysis</article-title>
+					<source>Mech Ageing Dev</source>
+					<year>2021</year>
+					<volume>194</volume>
+					<fpage>111431</fpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.mad.2021.111431">https://doi.org/10.1016/j.mad.2021.111431</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B31">
+				<label>31</label>
+				<mixed-citation>31. Assis GG, Almondes KM. Exercise-dependent BDNF as a modulatory factor for the executive processing of individuals in course of cognitive decline: a systematic review. Front Psychol. 2017;8:584. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3389/fpsyg.2017.00584">https://doi.org/10.3389/fpsyg.2017.00584</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Assis</surname>
+							<given-names>GG</given-names>
+						</name>
+						<name>
+							<surname>Almondes</surname>
+							<given-names>KM</given-names>
+						</name>
+					</person-group>
+					<article-title>Exercise-dependent BDNF as a modulatory factor for the executive processing of individuals in course of cognitive decline: a systematic review</article-title>
+					<source>Front Psychol</source>
+					<year>2017</year>
+					<volume>8</volume>
+					<size units="pages">584</size>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3389/fpsyg.2017.00584">https://doi.org/10.3389/fpsyg.2017.00584</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B32">
+				<label>32</label>
+				<mixed-citation>32. Faria MC, Gonçalves GS, Rocha NP, Moraes EM, Bicalho MA, Cintra MTG, et al. Increased plasma levels of BDNF and inflammatory markers in Alzheimer’s disease. J Psychiatr Res. 2014;53:166-72. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jpsychires.2014.01.019">https://doi.org/10.1016/j.jpsychires.2014.01.019</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Faria</surname>
+							<given-names>MC</given-names>
+						</name>
+						<name>
+							<surname>Gonçalves</surname>
+							<given-names>GS</given-names>
+						</name>
+						<name>
+							<surname>Rocha</surname>
+							<given-names>NP</given-names>
+						</name>
+						<name>
+							<surname>Moraes</surname>
+							<given-names>EM</given-names>
+						</name>
+						<name>
+							<surname>Bicalho</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Cintra</surname>
+							<given-names>MTG</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Increased plasma levels of BDNF and inflammatory markers in Alzheimer’s disease</article-title>
+					<source>J Psychiatr Res</source>
+					<year>2014</year>
+					<volume>53</volume>
+					<fpage>166</fpage>
+					<lpage>172</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jpsychires.2014.01.019">https://doi.org/10.1016/j.jpsychires.2014.01.019</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B33">
+				<label>33</label>
+				<mixed-citation>33. Levada OA, Cherednichenko NV, Trailin AV, Troyan AS. Plasma brain-derived neurotrophic factor as a biomarker for the main types of mild neurocognitive disorders and treatment efficacy: a preliminary study. Dis Markers. 2016;2016:4095723. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1155/2016/4095723">https://doi.org/10.1155/2016/4095723</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Levada</surname>
+							<given-names>OA</given-names>
+						</name>
+						<name>
+							<surname>Cherednichenko</surname>
+							<given-names>NV</given-names>
+						</name>
+						<name>
+							<surname>Trailin</surname>
+							<given-names>AV</given-names>
+						</name>
+						<name>
+							<surname>Troyan</surname>
+							<given-names>AS</given-names>
+						</name>
+					</person-group>
+					<article-title>Plasma brain-derived neurotrophic factor as a biomarker for the main types of mild neurocognitive disorders and treatment efficacy: a preliminary study</article-title>
+					<source>Dis Markers</source>
+					<year>2016</year>
+					<volume>2016</volume>
+					<size units="pages">4095723</size>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1155/2016/4095723">https://doi.org/10.1155/2016/4095723</ext-link>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="financial-disclosure">
+				<p><bold>Funding:</bold> Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq - grant number 475.904/2013-3).</p>
+			</fn>
+		</fn-group>
+	</back>
+</article>

@@ -1,0 +1,5085 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.1" specific-use="sps-1.9" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="nlm-ta">Rev Saude Publica</journal-id>
+			<journal-id journal-id-type="publisher-id">rsp</journal-id>
+			<journal-title-group>
+				<journal-title>Revista de Saúde Pública</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Rev. Saúde Pública</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="ppub">0034-8910</issn>
+			<issn pub-type="epub">1518-8787</issn>
+			<publisher>
+				<publisher-name>Faculdade de Saúde Pública da Universidade de São Paulo</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="other">00201</article-id>
+			<article-id pub-id-type="doi">10.11606/s1518-8787.2022056003663</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Original Article</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Health services utilization in the Brazilian Amazon: panel of two cross-sectional studies</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-9518-7194</contrib-id>
+					<name>
+						<surname>Tiguman</surname>
+						<given-names>Gustavo Magno Baldin</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-7186-9075</contrib-id>
+					<name>
+						<surname>Silva</surname>
+						<given-names>Marcus Tolentino</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-2072-4834</contrib-id>
+					<name>
+						<surname>Galvão</surname>
+						<given-names>Taís Freire</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>I</label>
+				<institution content-type="orgname">Universidade Estadual de Campinas</institution>
+				<institution content-type="orgdiv1">Faculdade de Ciências Farmacêuticas</institution>
+				<addr-line>
+					<named-content content-type="city">Campinas</named-content>
+					<named-content content-type="state">São Paulo</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Universidade Estadual de Campinas. Faculdade de Ciências Farmacêuticas. Campinas, São Paulo, Brasil</institution>
+			</aff>
+			<aff id="aff2">
+				<label>II</label>
+				<institution content-type="orgname">Universidade de Sorocaba</institution>
+				<institution content-type="orgdiv1">Programa de Pós-Graduação em Ciências Farmacêuticas</institution>
+				<addr-line>
+					<named-content content-type="city">Sorocaba</named-content>
+					<named-content content-type="state">São Paulo</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Universidade de Sorocaba. Programa de Pós-Graduação em Ciências Farmacêuticas. Sorocaba, São Paulo, Brasil</institution>
+			</aff>
+			<author-notes>
+				<corresp id="c01"> Correspondence: Gustavo Magno Baldin Tiguman Universidade Estadual de Campinas Faculdade de Ciências Farmacêuticas Rua Cândido Portinari, 200 – Cidade Universitária 13083-871 Campinas, São Paulo, Brasil E-mail: <email>gustavo.tiguman@gmail.com</email>
+				</corresp>
+				<fn fn-type="con">
+					<p><bold>Authors’ Contribution:</bold> Study design and planning: MTS, TFG. Data collection, analysis and interpretation: GMBT, MTS, TFG. Manuscript drafting or review: GMBT, MTS, TFG. Approval of the final version: GMBT, MTS, TFG. Public responsibility for the content of the article: GMBT, MTS, TFG.</p>
+				</fn>
+				<fn fn-type="conflict">
+					<p><bold>Conflict of Interests:</bold> The authors declare no conflict of interest.</p>
+				</fn>
+			</author-notes>
+			<pub-date date-type="pub" publication-format="electronic">
+				<day>23</day>
+				<month>02</month>
+				<year>2022</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">
+				<year>2022</year>
+			</pub-date>
+			<volume>56</volume>
+			<elocation-id>2</elocation-id>
+			<history>
+				<date date-type="received">
+					<day>13</day>
+					<month>03</month>
+					<year>2021</year>
+				</date>
+				<date date-type="accepted">
+					<day>19</day>
+					<month>06</month>
+					<year>2021</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="en">
+					<license-p> This is an Open Access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. </license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>ABSTRACT</title>
+				<sec>
+					<title>OBJECTIVE</title>
+					<p> To investigate the use of health services among adults living in Manaus, Amazonas.</p>
+				</sec>
+				<sec>
+					<title>METHODS</title>
+					<p> This was a panel of two cross-sectional studies conducted in Manaus in 2015 and 2019. Individuals aged ≥ 18 years were selected by probabilistic sampling and interviewed at home. The study outcomes were doctor visits and hospitalizations in the previous 12 months, and unmet surgical needs. Variations between 2015 and 2019 were tested using chi-squared goodness-of-fit test. Poisson regression with robust variance was employed to calculate the prevalence ratios (PR) of the outcomes with 95% confidence intervals (95%CI).</p>
+				</sec>
+				<sec>
+					<title>RESULTS</title>
+					<p> The surveys included 5,800 participants in total. Visits to the doctor decreased from 2015 (78.7%) to 2019 (76.3%; p &lt; 0.001), hospital admissions increased from 2015 (7.9%) to 2019 (11.5%; p &lt; 0.001), and unmet surgical needs decreased in the period (15.9% to 12.1%; p &lt; 0.001). These variations were particularly observed in vulnerable individuals – sicker; poorer; non-whites; and those belonging to lower social classes, with less access to education, formal jobs, and health insurance (p &lt; 0.05). Doctor visits were higher in people with fair health status (PR = 1.09; 95%CI 1.06–1.12), health insurance (PR = 1.13; 95%CI 1.09–1.17), and chronic diseases (p &lt; 0.001) but lower in men (PR = 0.87; 95%CI 0.84–0.90) and informal workers (PR = 0.89; 95%CI 0.84–0.94). Hospitalizations were higher in people with worse health statuses (p &lt; 0.001), without partners (PR = 1.27; 95%CI 1.05–1.53), and with multimorbidity (PR = 1.68; 95%CI 1.33–2.12) but lower in men (PR = 0.55; 95%CI 0.44–0.68), older adults (p &lt; 0.001), informal workers (PR = 0.67; 95%CI 0.51–0.89), and unemployed (PR = 0.72; 95%CI 0.53–0.97). Unmet surgical needs were higher in older adults (p &lt; 0.001), middle-class people (PR = 1.24; 95%CI 1.01–1.55), worse health statuses (p &lt; 0.001), and chronic diseases (p &lt; 0.001) but lower in men (PR = 0.76; 95%CI 0.65–0.86).</p>
+				</sec>
+				<sec>
+					<title>CONCLUSIONS</title>
+					<p> From 2015 to 2019, less people visited the doctor, more were admitted to hospitals, and less were in need of surgery or aware of that need, potentially indicating poorer access to health services.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="en">
+				<kwd>Adult</kwd>
+				<kwd>Health Services Accessibility</kwd>
+				<kwd>Health Care Quality, Access, and Evaluation</kwd>
+				<kwd>Health Services Coverage, trends</kwd>
+			</kwd-group>
+			<funding-group>
+				<award-group>
+					<funding-source>National Council for Scientific and Technological Development</funding-source>
+					<award-id>404990/2013-4</award-id>
+				</award-group>
+				<award-group>
+					<funding-source>National Council for Scientific and Technological Development</funding-source>
+					<award-id>448093/2014-6</award-id>
+				</award-group>
+				<award-group>
+					<funding-source>National Council for Scientific and Technological Development</funding-source>
+					<award-id>310238/2020-0</award-id>
+				</award-group>
+				<funding-statement>Funding: National Council for Scientific and Technological Development (CNPq - Grants 404990/2013-4 and 448093/2014-6, productivity scholarship for TFG - Grant 310238/2020-0).</funding-statement>
+			</funding-group>
+			<counts>
+				<fig-count count="1"/>
+				<table-count count="5"/>
+				<equation-count count="0"/>
+				<ref-count count="51"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>INTRODUCTION</title>
+			<p>The use of health services comprises the direct and indirect contacts with healthcare resources and is associated with individual, financial, cultural, and health system factors<sup><xref ref-type="bibr" rid="B1">1</xref>,<xref ref-type="bibr" rid="B2">2</xref></sup>. Despite some conceptual limitations, access to health care is measured by health services utilization, since the use of such resources demonstrates the access<sup><xref ref-type="bibr" rid="B3">3</xref>,<xref ref-type="bibr" rid="B4">4</xref></sup>.</p>
+			<p>Universal healthcare is a constitutional right for Brazilian citizens, which was established by the creation of the Brazilian Unified Health System in early 1990’s<sup><xref ref-type="bibr" rid="B5">5</xref></sup>. Over 70% of the Brazilian population visited a doctor and one-tenth were hospitalized in the previous year up to 2017, with lower utilization in the Northern region<sup><xref ref-type="bibr" rid="B6">6</xref></sup>. The Brazilian population has relevant gaps in healthcare resources utilization, especially for the most vulnerable individuals<sup><xref ref-type="bibr" rid="B7">7</xref></sup>. Regional differences also occur: the most developed areas, such as the Southeast and South regions, presented the highest levels of access to health services in a previous national survey conducted in 2013<sup><xref ref-type="bibr" rid="B8">8</xref></sup>.</p>
+			<p>The Brazilian Amazon is a heterogeneous setting where large cities coexist with relatively small and isolated villages, in which inequalities in social, economic, and health indicators are present<sup><xref ref-type="bibr" rid="B9">9</xref></sup>. In 2015, a population-based study in the biggest metropolitan region of the Brazilian Amazon assessed the prevalence of health services usage among adults<sup><xref ref-type="bibr" rid="B10">10</xref>,<xref ref-type="bibr" rid="B11">11</xref></sup>. Self-reported medical consultations were 77% and were higher in women, older people, and those with health insurance, whereas hospitalizations amounted to 7%, were twice as frequent in women compared with men, and thrice as frequent in those who reported very poor health status<sup><xref ref-type="bibr" rid="B10">10</xref></sup>. Unmet need for surgery affected 14% of the adults and was higher among the elderly, women, and housewives<sup><xref ref-type="bibr" rid="B11">11</xref></sup>.</p>
+			<p>Since 2016, Brazil faces political and economic crises, which resulted in the implementation of austerity measures that reduced investments on social and health programs<sup><xref ref-type="bibr" rid="B12">12</xref></sup>. In 2017, a constitutional amendment established a ceiling for government spending in health, education and social investments for the next 20 years<sup><xref ref-type="bibr" rid="B13">13</xref></sup>. These austerity measures may significantly reduce primary health coverage, which could cause many avoidable adult and child deaths in the coming years<sup><xref ref-type="bibr" rid="B14">14</xref></sup>.</p>
+			<p>A new population-based study conducted in the city of Manaus in 2019 allows a comparison with the results from the previous survey. This analysis could provide important information about the use of health services in the region and the potential effects of Brazilian austerity measures in health care, which can be useful to health policy makers. We aimed to investigate the changes in health services utilization and associated factors among adults from Manaus between 2015 and 2019.</p>
+		</sec>
+		<sec sec-type="methods">
+			<title>METHODS</title>
+			<sec>
+				<title>Study Design</title>
+				<p>This study was a panel of two cross-sectional studies conducted in 2015 and 2019. The former was carried out in Manaus Metropolitan Region<sup><xref ref-type="bibr" rid="B15">15</xref></sup> – which comprises the capital (Manaus) and seven other adjacent municipalities (Careiro da Várzea, Iranduba, Manacapuru, Itacoatiara, Novo Airão, Presidente Figueiredo and Rio Preto da Eva) – and the latter was conducted exclusively in the municipality of Manaus<sup><xref ref-type="bibr" rid="B16">16</xref></sup>. For the 2015 survey, we only considered the results of Manaus to allow a fair comparison between both studies.</p>
+			</sec>
+			<sec>
+				<title>Setting</title>
+				<p>The municipality of Manaus is the capital of the state of Amazonas, which is in the North region of Brazil. In 2018, Manaus had 2,145,444 inhabitants, corresponding to more than 50% of Amazonas’ population. The city was in the 8<sup>th</sup> position for Gross Domestic Product in 2016<sup><xref ref-type="bibr" rid="B17">17</xref></sup> and in the 850<sup>th</sup>position on the Human Developing Index in 2010<sup><xref ref-type="bibr" rid="B18">18</xref></sup> among Brazilian cities. Manaus concentrates approximately 93% of the physicians from the state of Amazonas, with a density of 2.15 doctors for each 1,000 inhabitants in 2017<sup><xref ref-type="bibr" rid="B19">19</xref></sup>. Social and economic inequities in the use of health services, and in the consumption and access to medicines characterize the region<sup><xref ref-type="bibr" rid="B20">20</xref>,<xref ref-type="bibr" rid="B21">21</xref></sup>. Historically, the Brazilian Amazon is a region with noteworthy poor health indicators; problems faced by its inhabitants include low income, hazardous work conditions, high violence rates, increased exposure to infectious diseases, lack of household sanitation, and limited access to health services<sup><xref ref-type="bibr" rid="B9">9</xref></sup>.</p>
+			</sec>
+			<sec>
+				<title>Participants and Sample Size</title>
+				<p>In both surveys, participants were selected by a three-phase probabilistic sampling stratified by sex and age: census tracts (random), household (systematic), and individual (random)<sup><xref ref-type="bibr" rid="B15">15</xref>,<xref ref-type="bibr" rid="B16">16</xref></sup>. The sample size was estimated in 4,000 participants in the 2015 survey based on 50% of health services usage, confidence level of 95%, absolute precision of 2%, design effect of 1.5, and 2,106,322 adult inhabitants in the metropolitan region<sup><xref ref-type="bibr" rid="B15">15</xref></sup>. In 2019, the estimated number of participants was of 2,300 based on the 2015 prevalence of healthcare services usage of 20% (10), and considering 2,145,144 adults living in the city of Manaus and similar statistical parameters<sup><xref ref-type="bibr" rid="B16">16</xref></sup>.</p>
+			</sec>
+			<sec>
+				<title>Variables</title>
+				<p>The primary outcomes were visits to the doctor and hospitalizations in the previous 12 months and unmet surgical needs (lifetime). Independent variables included: sex (women, men), age group (18–24, 25–34, 34–44, 45–59, and ≥ 60 years old), race/skin color (White, Black, Asian, Brown [Brazilian mixed race], Indigenous), marital status (with partner, without partner), social class (A/B, C, D/E, where A refers to the wealthiest and E to the poorest according to the Brazilian Economic Criteria of each year<sup><xref ref-type="bibr" rid="B22">22</xref>,<xref ref-type="bibr" rid="B23">23</xref></sup>), educational level (higher education or above, high school, elementary school, less than elementary school), occupation (formal job [formal employment relationship which guarantees labor rights and social benefits], informal job [autonomous economic activity without social security or formal relationship with an employer], retired, student/housewife, unemployed), self-perception of health status (good, fair, poor), health insurance (no, yes), and number of chronic diseases (0, 1, ≥ 2).</p>
+			</sec>
+			<sec>
+				<title>Data Sources and Measurement</title>
+				<p>The primary outcomes were measured by the following questions: “In the last 12 months, how many times have you seen a doctor?”, “In the last 12 months, have you been admitted to the hospital for more than 24 hours?” and “Has any doctor ever said you should have a surgical procedure that you have not done yet?”. The number of doctor visits and hospitalizations was dichotomized to ‘yes’ (≥ 1 visits/hospitalizations) or ‘no’ (0 visits/hospitalizations).</p>
+				<p>Experienced interviewers were hired and trained by the research authors to proceed with the data collection. Data were obtained from face-to-face interviews with pre-configured questionnaires in the software SurveyToGo (Dooblo Ltd, Israel), using electronic devices (Tab3 SM-T110 Samsung<sup>®</sup> Galaxy [2015] and Intel TabPhone 710 Pro [2019]). After the interviews, the questionnaires were sent to the research server via internet connection.</p>
+			</sec>
+			<sec>
+				<title>Bias</title>
+				<p>A pilot study was conducted in both surveys with 150 participants to evaluate the understanding of the questionnaire; these participants were included in the final sample. In each survey, 20% of the interviews were audited by phone. The interviews were recorded and georeferenced by the electronic device.</p>
+			</sec>
+			<sec>
+				<title>Statistical Analysis</title>
+				<p>Descriptive statistics were used to calculate the absolute and relative frequencies of health services utilization in the previous 12 months. We calculated the absolute and relative variations in the outcomes between 2015 and 2019. The chi-square goodness-of-fit test was used to calculate the significant differences in prevalence between both years. The prevalence ratios (PR) of doctor visits, hospital admissions and unmet surgical needs by each independent variable were calculated using Poisson regression with robust variance with 95% confidence intervals (CI), considering the participants from both surveys. All of the independent variables were included in the adjusted multivariate regression. Wald test was used to assess the significance of the variables in multiple categories. Statistical significance was considered if p-value &lt; 0.05. All analyses were conducted in Stata 14.2 and considered the complex sampling design (svy command).</p>
+			</sec>
+			<sec>
+				<title>Ethics</title>
+				<p>The Ethics Research Committee from the University of Amazonas approved both studies through the approval letters No. 974.428 from 03 March 2015 and No. 3.102.942 from 28 December 2018. All the participants signed an informed consent form before any study procedure was performed.</p>
+			</sec>
+		</sec>
+		<sec sec-type="results">
+			<title>RESULTS</title>
+			<p>In total, 5,800 individuals were included in both surveys (<xref ref-type="fig" rid="f01">Figure 1</xref>). Out of the 3,479 participants interviewed in Manaus in 2015, 78.7% (95%CI 77.4%–80.1%) visited a doctor and 7.9% (95%CI 6.9%–8.8%) were hospitalized in the previous 12 months, while 15.9% (95%CI 14.7%–17.2%) reported unmet surgical need. In 2019, out of the 2,321 participants, 76.3% (95%CI 74.6%–78.1%) consulted a doctor and 11.5% (95%CI 10.1%–12.9%) were hospitalized in the previous 12 months, and 12.1% (95%CI 10.7%–13.5%) failed to have the surgery they needed (<xref ref-type="table" rid="t1">Table 1</xref>).</p>
+			<p>
+				<fig id="f01">
+					<label>Figure 1</label>
+					<caption>
+						<title>Recruitment processes for the population-based studies in Manaus (2015 and 2019).</title>
+					</caption>
+					<graphic xlink:href="1518-8787-rsp-56-2-gf01.tif"/>
+				</fig>
+			</p>
+			<p>
+				<table-wrap id="t1">
+					<label>Table 1</label>
+					<caption>
+						<title>Participants’ characteristics and frequencies of doctor visits and hospital admissions in the previous 12 months and unmet need for surgery in 2015 (n = 3,479) and 2019 (n = 2,321), adjusted for the complex sampling design.</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left" rowspan="5">Variables</th>
+								<th colspan="4">Participants’ characteristics</th>
+								<th colspan="4">Visits to the doctor</th>
+								<th colspan="4">Hospital admissions</th>
+								<th colspan="4">Unmet need for surgery</th>
+							</tr>
+							<tr>
+								<th colspan="4" style="font-weight:normal">
+									<hr/>
+								</th>
+								<th colspan="4" style="font-weight:normal">
+									<hr/>
+								</th>
+								<th colspan="4" style="font-weight:normal">
+									<hr/>
+								</th>
+								<th colspan="4" style="font-weight:normal">
+									<hr/>
+								</th>
+							</tr>
+							<tr>
+								<th colspan="2">2015</th>
+								<th colspan="2">2019</th>
+								<th colspan="2">2015</th>
+								<th colspan="2">2019</th>
+								<th colspan="2">2015</th>
+								<th colspan="2">2019</th>
+								<th colspan="2">2015</th>
+								<th colspan="2">2019</th>
+							</tr>
+							<tr>
+								<th colspan="2" style="font-weight:normal">
+									<hr/>
+								</th>
+								<th colspan="2" style="font-weight:normal">
+									<hr/>
+								</th>
+								<th colspan="2" style="font-weight:normal">
+									<hr/>
+								</th>
+								<th colspan="2" style="font-weight:normal">
+									<hr/>
+								</th>
+								<th colspan="2" style="font-weight:normal">
+									<hr/>
+								</th>
+								<th colspan="2" style="font-weight:normal">
+									<hr/>
+								</th>
+								<th colspan="2" style="font-weight:normal">
+									<hr/>
+								</th>
+								<th colspan="2" style="font-weight:normal">
+									<hr/>
+								</th>
+							</tr>
+							<tr>
+								<th>n</th>
+								<th>%</th>
+								<th>n</th>
+								<th>%</th>
+								<th>n</th>
+								<th>%</th>
+								<th>n</th>
+								<th>%</th>
+								<th>n</th>
+								<th>%</th>
+								<th>n</th>
+								<th>%</th>
+								<th>n</th>
+								<th>%</th>
+								<th>n</th>
+								<th>%</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Sex</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Women</td>
+								<td align="center">1,856</td>
+								<td align="center">65.1</td>
+								<td align="center">1,233</td>
+								<td align="center">64.7</td>
+								<td align="center">1,538</td>
+								<td align="center">83.1</td>
+								<td align="center">992</td>
+								<td align="center">80.7</td>
+								<td align="center">186</td>
+								<td align="center">9.9</td>
+								<td align="center">175</td>
+								<td align="center">14.1</td>
+								<td align="center">330</td>
+								<td align="center">18.0</td>
+								<td align="center">165</td>
+								<td align="center">13.6</td>
+							</tr>
+							<tr>
+								<td>Men</td>
+								<td align="center">1,623</td>
+								<td align="center">34.9</td>
+								<td align="center">1,088</td>
+								<td align="center">35.3</td>
+								<td align="center">1,139</td>
+								<td align="center">70.7</td>
+								<td align="center">742</td>
+								<td align="center">68.4</td>
+								<td align="center">67</td>
+								<td align="center">4.2</td>
+								<td align="center">75</td>
+								<td align="center">6.8</td>
+								<td align="center">188</td>
+								<td align="center">12.0</td>
+								<td align="center">99</td>
+								<td align="center">9.4</td>
+							</tr>
+							<tr>
+								<td>Age group (years)</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>18–24</td>
+								<td align="center">716</td>
+								<td align="center">16.2</td>
+								<td align="center">405</td>
+								<td align="center">13.5</td>
+								<td align="center">525</td>
+								<td align="center">75.5</td>
+								<td align="center">284</td>
+								<td align="center">71.2</td>
+								<td align="center">62</td>
+								<td align="center">9.9</td>
+								<td align="center">50</td>
+								<td align="center">13.6</td>
+								<td align="center">56</td>
+								<td align="center">8.3</td>
+								<td align="center">24</td>
+								<td align="center">6.0</td>
+							</tr>
+							<tr>
+								<td>25–34</td>
+								<td align="center">1,010</td>
+								<td align="center">31.4</td>
+								<td align="center">586</td>
+								<td align="center">25.2</td>
+								<td align="center">752</td>
+								<td align="center">76.8</td>
+								<td align="center">440</td>
+								<td align="center">77.4</td>
+								<td align="center">67</td>
+								<td align="center">7.5</td>
+								<td align="center">82</td>
+								<td align="center">16.0</td>
+								<td align="center">114</td>
+								<td align="center">12.1</td>
+								<td align="center">50</td>
+								<td align="center">8.9</td>
+							</tr>
+							<tr>
+								<td>35–44</td>
+								<td align="center">744</td>
+								<td align="center">22.2</td>
+								<td align="center">553</td>
+								<td align="center">25.0</td>
+								<td align="center">589</td>
+								<td align="center">80.2</td>
+								<td align="center">404</td>
+								<td align="center">74.4</td>
+								<td align="center">50</td>
+								<td align="center">7.2</td>
+								<td align="center">57</td>
+								<td align="center">10.7</td>
+								<td align="center">134</td>
+								<td align="center">19.2</td>
+								<td align="center">74</td>
+								<td align="center">14.6</td>
+							</tr>
+							<tr>
+								<td>45–59</td>
+								<td align="center">674</td>
+								<td align="center">19.0</td>
+								<td align="center">526</td>
+								<td align="center">23.9</td>
+								<td align="center">525</td>
+								<td align="center">78.6</td>
+								<td align="center">406</td>
+								<td align="center">78.3</td>
+								<td align="center">48</td>
+								<td align="center">7.6</td>
+								<td align="center">43</td>
+								<td align="center">8.7</td>
+								<td align="center">139</td>
+								<td align="center">21.0</td>
+								<td align="center">76</td>
+								<td align="center">14.7</td>
+							</tr>
+							<tr>
+								<td>≥ 60</td>
+								<td align="center">335</td>
+								<td align="center">11.2</td>
+								<td align="center">251</td>
+								<td align="center">12.4</td>
+								<td align="center">286</td>
+								<td align="center">86.4</td>
+								<td align="center">200</td>
+								<td align="center">80.0</td>
+								<td align="center">26</td>
+								<td align="center">8.1</td>
+								<td align="center">18</td>
+								<td align="center">7.2</td>
+								<td align="center">75</td>
+								<td align="center">22.6</td>
+								<td align="center">40</td>
+								<td align="center">15.4</td>
+							</tr>
+							<tr>
+								<td>Race/skin color</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>White</td>
+								<td align="center">545</td>
+								<td align="center">15.3</td>
+								<td align="center">283</td>
+								<td align="center">12.1</td>
+								<td align="center">406</td>
+								<td align="center">75.8</td>
+								<td align="center">220</td>
+								<td align="center">79.1</td>
+								<td align="center">40</td>
+								<td align="center">8.0</td>
+								<td align="center">31</td>
+								<td align="center">11.9</td>
+								<td align="center">76</td>
+								<td align="center">14.9</td>
+								<td align="center">27</td>
+								<td align="center">9.8</td>
+							</tr>
+							<tr>
+								<td>Black</td>
+								<td align="center">241</td>
+								<td align="center">6.7</td>
+								<td align="center">215</td>
+								<td align="center">8.7</td>
+								<td align="center">199</td>
+								<td align="center">83.4</td>
+								<td align="center">142</td>
+								<td align="center">67.7</td>
+								<td align="center">20</td>
+								<td align="center">8.9</td>
+								<td align="center">16</td>
+								<td align="center">8.0</td>
+								<td align="center">32</td>
+								<td align="center">13.2</td>
+								<td align="center">18</td>
+								<td align="center">8.3</td>
+							</tr>
+							<tr>
+								<td>Asian</td>
+								<td align="center">129</td>
+								<td align="center">3.9</td>
+								<td align="center">66</td>
+								<td align="center">2.8</td>
+								<td align="center">111</td>
+								<td align="center">86.2</td>
+								<td align="center">50</td>
+								<td align="center">77.9</td>
+								<td align="center">12</td>
+								<td align="center">10.2</td>
+								<td align="center">11</td>
+								<td align="center">16.7</td>
+								<td align="center">17</td>
+								<td align="center">14.2</td>
+								<td align="center">8</td>
+								<td align="center">14.6</td>
+							</tr>
+							<tr>
+								<td>Brown</td>
+								<td align="center">2,533</td>
+								<td align="center">73.1</td>
+								<td align="center">1,677</td>
+								<td align="center">72.9</td>
+								<td align="center">1,938</td>
+								<td align="center">78.5</td>
+								<td align="center">1,269</td>
+								<td align="center">77.3</td>
+								<td align="center">178</td>
+								<td align="center">7.6</td>
+								<td align="center">187</td>
+								<td align="center">11.9</td>
+								<td align="center">388</td>
+								<td align="center">16.5</td>
+								<td align="center">204</td>
+								<td align="center">13.0</td>
+							</tr>
+							<tr>
+								<td>Indigenous</td>
+								<td align="center">31</td>
+								<td align="center">1.0</td>
+								<td align="center">80</td>
+								<td align="center">3.5</td>
+								<td align="center">23</td>
+								<td align="center">77.9</td>
+								<td align="center">53</td>
+								<td align="center">66.6</td>
+								<td align="center">3</td>
+								<td align="center">11.8</td>
+								<td align="center">5</td>
+								<td align="center">6.2</td>
+								<td align="center">5</td>
+								<td align="center">19.4</td>
+								<td align="center">7</td>
+								<td align="center">8.8</td>
+							</tr>
+							<tr>
+								<td>Marital status</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>With partner</td>
+								<td align="center">1,266</td>
+								<td align="center">37.8</td>
+								<td align="center">898</td>
+								<td align="center">39.7</td>
+								<td align="center">1,020</td>
+								<td align="center">81.2</td>
+								<td align="center">683</td>
+								<td align="center">77.3</td>
+								<td align="center">89</td>
+								<td align="center">7.6</td>
+								<td align="center">76</td>
+								<td align="center">8.8</td>
+								<td align="center">220</td>
+								<td align="center">18.0</td>
+								<td align="center">107</td>
+								<td align="center">12.5</td>
+							</tr>
+							<tr>
+								<td>Without partner</td>
+								<td align="center">2,213</td>
+								<td align="center">62.2</td>
+								<td align="center">1,423</td>
+								<td align="center">60.3</td>
+								<td align="center">1,657</td>
+								<td align="center">77.3</td>
+								<td align="center">1,051</td>
+								<td align="center">75.7</td>
+								<td align="center">164</td>
+								<td align="center">8.0</td>
+								<td align="center">174</td>
+								<td align="center">13.3</td>
+								<td align="center">298</td>
+								<td align="center">14.7</td>
+								<td align="center">157</td>
+								<td align="center">11.9</td>
+							</tr>
+							<tr>
+								<td>Social class</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>A/B</td>
+								<td align="center">555</td>
+								<td align="center">14.9</td>
+								<td align="center">282</td>
+								<td align="center">11.5</td>
+								<td align="center">438</td>
+								<td align="center">80.6</td>
+								<td align="center">224</td>
+								<td align="center">80.0</td>
+								<td align="center">41</td>
+								<td align="center">8.1</td>
+								<td align="center">19</td>
+								<td align="center">7.0</td>
+								<td align="center">60</td>
+								<td align="center">11.2</td>
+								<td align="center">31</td>
+								<td align="center">11.6</td>
+							</tr>
+							<tr>
+								<td>C</td>
+								<td align="center">2,006</td>
+								<td align="center">57.5</td>
+								<td align="center">1,244</td>
+								<td align="center">53.5</td>
+								<td align="center">1,524</td>
+								<td align="center">77.8</td>
+								<td align="center">929</td>
+								<td align="center">76.5</td>
+								<td align="center">136</td>
+								<td align="center">7.5</td>
+								<td align="center">136</td>
+								<td align="center">11.7</td>
+								<td align="center">307</td>
+								<td align="center">16.6</td>
+								<td align="center">132</td>
+								<td align="center">11.5</td>
+							</tr>
+							<tr>
+								<td>D/E</td>
+								<td align="center">918</td>
+								<td align="center">27.6</td>
+								<td align="center">795</td>
+								<td align="center">35.0</td>
+								<td align="center">715</td>
+								<td align="center">79.7</td>
+								<td align="center">581</td>
+								<td align="center">74.9</td>
+								<td align="center">76</td>
+								<td align="center">8.7</td>
+								<td align="center">95</td>
+								<td align="center">12.7</td>
+								<td align="center">151</td>
+								<td align="center">17.1</td>
+								<td align="center">101</td>
+								<td align="center">13.3</td>
+							</tr>
+							<tr>
+								<td>Educational level</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Higher education or above</td>
+								<td align="center">131</td>
+								<td align="center">3.9</td>
+								<td align="center">153</td>
+								<td align="center">6.9</td>
+								<td align="center">101</td>
+								<td align="center">78.8</td>
+								<td align="center">127</td>
+								<td align="center">83.9</td>
+								<td align="center">13</td>
+								<td align="center">11.7</td>
+								<td align="center">10</td>
+								<td align="center">7.1</td>
+								<td align="center">21</td>
+								<td align="center">16.6</td>
+								<td align="center">24</td>
+								<td align="center">17.3</td>
+							</tr>
+							<tr>
+								<td>High school</td>
+								<td align="center">1,695</td>
+								<td align="center">47.2</td>
+								<td align="center">1,171</td>
+								<td align="center">49.4</td>
+								<td align="center">1,278</td>
+								<td align="center">77.3</td>
+								<td align="center">875</td>
+								<td align="center">76.3</td>
+								<td align="center">114</td>
+								<td align="center">7.4</td>
+								<td align="center">111</td>
+								<td align="center">10.7</td>
+								<td align="center">211</td>
+								<td align="center">13.3</td>
+								<td align="center">120</td>
+								<td align="center">11.2</td>
+							</tr>
+							<tr>
+								<td>Elementary school</td>
+								<td align="center">562</td>
+								<td align="center">15.6</td>
+								<td align="center">432</td>
+								<td align="center">18.0</td>
+								<td align="center">431</td>
+								<td align="center">78.4</td>
+								<td align="center">318</td>
+								<td align="center">75.9</td>
+								<td align="center">42</td>
+								<td align="center">7.9</td>
+								<td align="center">68</td>
+								<td align="center">16.1</td>
+								<td align="center">71</td>
+								<td align="center">13.5</td>
+								<td align="center">45</td>
+								<td align="center">11.4</td>
+							</tr>
+							<tr>
+								<td>Less than elementary school</td>
+								<td align="center">1,091</td>
+								<td align="center">33.3</td>
+								<td align="center">565</td>
+								<td align="center">25.7</td>
+								<td align="center">867</td>
+								<td align="center">81.0</td>
+								<td align="center">414</td>
+								<td align="center">74.8</td>
+								<td align="center">84</td>
+								<td align="center">8.1</td>
+								<td align="center">61</td>
+								<td align="center">11.0</td>
+								<td align="center">215</td>
+								<td align="center">20.7</td>
+								<td align="center">75</td>
+								<td align="center">13.1</td>
+							</tr>
+							<tr>
+								<td>Occupation</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Formal job</td>
+								<td align="center">652</td>
+								<td align="center">16.6</td>
+								<td align="center">415</td>
+								<td align="center">16.1</td>
+								<td align="center">515</td>
+								<td align="center">80.2</td>
+								<td align="center">315</td>
+								<td align="center">78.4</td>
+								<td align="center">53</td>
+								<td align="center">9.1</td>
+								<td align="center">34</td>
+								<td align="center">9.2</td>
+								<td align="center">80</td>
+								<td align="center">13.3</td>
+								<td align="center">47</td>
+								<td align="center">12.3</td>
+							</tr>
+							<tr>
+								<td>Informal job</td>
+								<td align="center">978</td>
+								<td align="center">26.2</td>
+								<td align="center">665</td>
+								<td align="center">27.5</td>
+								<td align="center">683</td>
+								<td align="center">72.3</td>
+								<td align="center">461</td>
+								<td align="center">70.7</td>
+								<td align="center">43</td>
+								<td align="center">4.7</td>
+								<td align="center">57</td>
+								<td align="center">9.1</td>
+								<td align="center">168</td>
+								<td align="center">18.4</td>
+								<td align="center">60</td>
+								<td align="center">9.6</td>
+							</tr>
+							<tr>
+								<td>Retired</td>
+								<td align="center">270</td>
+								<td align="center">8.7</td>
+								<td align="center">162</td>
+								<td align="center">7.6</td>
+								<td align="center">231</td>
+								<td align="center">86.4</td>
+								<td align="center">136</td>
+								<td align="center">83.7</td>
+								<td align="center">21</td>
+								<td align="center">8.3</td>
+								<td align="center">15</td>
+								<td align="center">9.5</td>
+								<td align="center">60</td>
+								<td align="center">23.2</td>
+								<td align="center">35</td>
+								<td align="center">20.5</td>
+							</tr>
+							<tr>
+								<td>Student/housewife</td>
+								<td align="center">1,069</td>
+								<td align="center">34.2</td>
+								<td align="center">632</td>
+								<td align="center">31.3</td>
+								<td align="center">838</td>
+								<td align="center">79.9</td>
+								<td align="center">506</td>
+								<td align="center">80.9</td>
+								<td align="center">106</td>
+								<td align="center">10.4</td>
+								<td align="center">92</td>
+								<td align="center">15.2</td>
+								<td align="center">153</td>
+								<td align="center">15.4</td>
+								<td align="center">80</td>
+								<td align="center">13.3</td>
+							</tr>
+							<tr>
+								<td>Unemployed</td>
+								<td align="center">510</td>
+								<td align="center">14.3</td>
+								<td align="center">447</td>
+								<td align="center">17.5</td>
+								<td align="center">410</td>
+								<td align="center">81.5</td>
+								<td align="center">316</td>
+								<td align="center">72.2</td>
+								<td align="center">30</td>
+								<td align="center">6.1</td>
+								<td align="center">52</td>
+								<td align="center">11.8</td>
+								<td align="center">57</td>
+								<td align="center">11.7</td>
+								<td align="center">42</td>
+								<td align="center">10.2</td>
+							</tr>
+							<tr>
+								<td>Health status</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Good</td>
+								<td align="center">2,243</td>
+								<td align="center">62.7</td>
+								<td align="center">1,498</td>
+								<td align="center">62.5</td>
+								<td align="center">1,641</td>
+								<td align="center">75.0</td>
+								<td align="center">1,059</td>
+								<td align="center">72.2</td>
+								<td align="center">130</td>
+								<td align="center">6.3</td>
+								<td align="center">114</td>
+								<td align="center">8.1</td>
+								<td align="center">226</td>
+								<td align="center">10.9</td>
+								<td align="center">107</td>
+								<td align="center">7.6</td>
+							</tr>
+							<tr>
+								<td>Fair</td>
+								<td align="center">1,012</td>
+								<td align="center">30.3</td>
+								<td align="center">671</td>
+								<td align="center">30.4</td>
+								<td align="center">852</td>
+								<td align="center">85.4</td>
+								<td align="center">548</td>
+								<td align="center">83.1</td>
+								<td align="center">92</td>
+								<td align="center">9.7</td>
+								<td align="center">106</td>
+								<td align="center">16.6</td>
+								<td align="center">236</td>
+								<td align="center">24.3</td>
+								<td align="center">113</td>
+								<td align="center">17.6</td>
+							</tr>
+							<tr>
+								<td>Poor</td>
+								<td align="center">224</td>
+								<td align="center">7.0</td>
+								<td align="center">152</td>
+								<td align="center">7.1</td>
+								<td align="center">184</td>
+								<td align="center">82.9</td>
+								<td align="center">127</td>
+								<td align="center">84.1</td>
+								<td align="center">31</td>
+								<td align="center">14.5</td>
+								<td align="center">30</td>
+								<td align="center">19.5</td>
+								<td align="center">56</td>
+								<td align="center">25.1</td>
+								<td align="center">44</td>
+								<td align="center">28.6</td>
+							</tr>
+							<tr>
+								<td>Health insurance</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">3,027</td>
+								<td align="center">87.0</td>
+								<td align="center">1,978</td>
+								<td align="center">85.3</td>
+								<td align="center">2,278</td>
+								<td align="center">77.2</td>
+								<td align="center">1,449</td>
+								<td align="center">74.9</td>
+								<td align="center">215</td>
+								<td align="center">7.7</td>
+								<td align="center">215</td>
+								<td align="center">11.6</td>
+								<td align="center">461</td>
+								<td align="center">16.3</td>
+								<td align="center">226</td>
+								<td align="center">12.1</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">452</td>
+								<td align="center">13.0</td>
+								<td align="center">343</td>
+								<td align="center">14.7</td>
+								<td align="center">399</td>
+								<td align="center">89.2</td>
+								<td align="center">285</td>
+								<td align="center">84.8</td>
+								<td align="center">38</td>
+								<td align="center">9.5</td>
+								<td align="center">35</td>
+								<td align="center">11.1</td>
+								<td align="center">57</td>
+								<td align="center">13.7</td>
+								<td align="center">38</td>
+								<td align="center">12.1</td>
+							</tr>
+							<tr>
+								<td>Number of chronic diseases</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>0</td>
+								<td align="center">1,377</td>
+								<td align="center">37.4</td>
+								<td align="center">921</td>
+								<td align="center">37.4</td>
+								<td align="center">970</td>
+								<td align="center">72.5</td>
+								<td align="center">594</td>
+								<td align="center">66.4</td>
+								<td align="center">66</td>
+								<td align="center">5.2</td>
+								<td align="center">80</td>
+								<td align="center">9.8</td>
+								<td align="center">113</td>
+								<td align="center">9.2</td>
+								<td align="center">46</td>
+								<td align="center">5.3</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td align="center">989</td>
+								<td align="center">28.1</td>
+								<td align="center">682</td>
+								<td align="center">29.0</td>
+								<td align="center">775</td>
+								<td align="center">79.9</td>
+								<td align="center">507</td>
+								<td align="center">75.0</td>
+								<td align="center">64</td>
+								<td align="center">7.0</td>
+								<td align="center">70</td>
+								<td align="center">10.9</td>
+								<td align="center">130</td>
+								<td align="center">13.5</td>
+								<td align="center">66</td>
+								<td align="center">9.9</td>
+							</tr>
+							<tr>
+								<td>≥ 2</td>
+								<td align="center">1,113</td>
+								<td align="center">34.5</td>
+								<td align="center">718</td>
+								<td align="center">33.6</td>
+								<td align="center">932</td>
+								<td align="center">84.6</td>
+								<td align="center">633</td>
+								<td align="center">88.6</td>
+								<td align="center">123</td>
+								<td align="center">11.4</td>
+								<td align="center">100</td>
+								<td align="center">13.9</td>
+								<td align="center">275</td>
+								<td align="center">25.3</td>
+								<td align="center">152</td>
+								<td align="center">21.7</td>
+							</tr>
+							<tr>
+								<td>Total</td>
+								<td align="center">3,479</td>
+								<td align="center">100.0</td>
+								<td align="center">2,321</td>
+								<td align="center">100.0</td>
+								<td align="center">2,677</td>
+								<td align="center">78.7</td>
+								<td align="center">1,734</td>
+								<td align="center">76.3</td>
+								<td align="center">253</td>
+								<td align="center">7.9</td>
+								<td align="center">250</td>
+								<td align="center">11.5</td>
+								<td align="center">518</td>
+								<td align="center">15.9</td>
+								<td align="center">264</td>
+								<td align="center">12.1</td>
+							</tr>
+						</tbody>
+					</table>
+				</table-wrap>
+			</p>
+			<p>Between 2015 and 2019, doctor visits decreased (−2.4%; p &lt; 0.001), hospital admissions increased (3.6%; p &lt; 0.001), unmet surgical needs decreased (−3.8%; p &lt; 0.001; <xref ref-type="table" rid="t2">Table 2</xref>). All variables that presented differences (p &lt; 0.05) between both years showed reductions in the prevalence of doctor visits and unmet surgical needs and an increase in hospital admissions (except for those with higher education or above, whose hospitalizations decreased). Medical consultations decreased in this period among women; ages 18–24 years, 35–44 years, and ≥60 years; all races/skin colors except for Whites; formal workers; unemployed; poorer people; those with lower educational achievement; those with better health statuses; and those with none or one chronic disease (p &lt; 0.05). Doctor visits increased only among people with multimorbidity (p = 0.008). Between 2015 and 2019, hospital admissions increased among younger, poorer, Brown, partnerless, less educated, without health insurance, and working informally or unemployed but decreased among people with higher education (p &lt; 0.05). Unmet surgical needs decreased, particularly among those older, poorer, less educated, working informally, with better health statuses, and without insurance (p &lt; 0.05).</p>
+			<p>
+				<table-wrap id="t2">
+					<label>Table 2</label>
+					<caption>
+						<title>Absolute and relative variations in doctor visits and hospital admissions in the previous 12 months and unmet need for surgery between 2015 (n = 3,479) and 2019 (n = 2,321).</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left" rowspan="3">Variables</th>
+								<th colspan="3">Visits to the doctor</th>
+								<th colspan="3">Hospitalizations</th>
+								<th colspan="3">Unmet need for surgery</th>
+							</tr>
+							<tr>
+								<th colspan="3" style="font-weight:normal">
+									<hr/>
+								</th>
+								<th colspan="3" style="font-weight:normal">
+									<hr/>
+								</th>
+								<th colspan="3" style="font-weight:normal">
+									<hr/>
+								</th>
+							</tr>
+							<tr>
+								<th>Absolute variation (%)</th>
+								<th>Relative variation</th>
+								<th>p</th>
+								<th>Absolute variation (%)</th>
+								<th>Relative variation</th>
+								<th>p</th>
+								<th>Absolute variation (%)</th>
+								<th>Relative variation</th>
+								<th>p</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Sex</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Women</td>
+								<td align="center">-2.4</td>
+								<td align="center">1.0</td>
+								<td align="center"><bold>0.013</bold></td>
+								<td align="center">4.2</td>
+								<td align="center">1.4</td>
+								<td align="center"><bold>&lt; 0.001</bold></td>
+								<td align="center">-4.4</td>
+								<td align="center">0.8</td>
+								<td align="center"><bold>&lt; 0.001</bold></td>
+							</tr>
+							<tr>
+								<td>Men</td>
+								<td align="center">-2.3</td>
+								<td align="center">1.0</td>
+								<td align="center">0.070</td>
+								<td align="center">2.6</td>
+								<td align="center">1.6</td>
+								<td align="center"><bold>&lt; 0.001</bold></td>
+								<td align="center">-2.6</td>
+								<td align="center">0.8</td>
+								<td align="center"><bold>0.003</bold></td>
+							</tr>
+							<tr>
+								<td>Age group (years)</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>18–24</td>
+								<td align="center">-4.3</td>
+								<td align="center">0.9</td>
+								<td align="center"><bold>0.012</bold></td>
+								<td align="center">3.7</td>
+								<td align="center">1.4</td>
+								<td align="center">0.099</td>
+								<td align="center">-2.3</td>
+								<td align="center">0.7</td>
+								<td align="center">0.083</td>
+							</tr>
+							<tr>
+								<td>25–34</td>
+								<td align="center">0.6</td>
+								<td align="center">1.0</td>
+								<td align="center">0.325</td>
+								<td align="center">8.5</td>
+								<td align="center">2.1</td>
+								<td align="center"><bold>&lt; 0.001</bold></td>
+								<td align="center">-3.2</td>
+								<td align="center">0.7</td>
+								<td align="center"><bold>0.008</bold></td>
+							</tr>
+							<tr>
+								<td>35–44</td>
+								<td align="center">-5.8</td>
+								<td align="center">0.9</td>
+								<td align="center"><bold>&lt; 0.001</bold></td>
+								<td align="center">3.5</td>
+								<td align="center">1.5</td>
+								<td align="center"><bold>0.005</bold></td>
+								<td align="center">-4.6</td>
+								<td align="center">0.8</td>
+								<td align="center"><bold>0.001</bold></td>
+							</tr>
+							<tr>
+								<td>45–59</td>
+								<td align="center">-0.3</td>
+								<td align="center">1.0</td>
+								<td align="center">0.429</td>
+								<td align="center">1.1</td>
+								<td align="center">1.1</td>
+								<td align="center">0.619</td>
+								<td align="center">-6.3</td>
+								<td align="center">0.7</td>
+								<td align="center"><bold>&lt; 0.001</bold></td>
+							</tr>
+							<tr>
+								<td>≥ 60</td>
+								<td align="center">-6.4</td>
+								<td align="center">0.9</td>
+								<td align="center"><bold>0.002</bold></td>
+								<td align="center">-0.9</td>
+								<td align="center">0.9</td>
+								<td align="center">0.590</td>
+								<td align="center">-7.2</td>
+								<td align="center">0.7</td>
+								<td align="center"><bold>0.012</bold></td>
+							</tr>
+							<tr>
+								<td>Race/skin color</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>White</td>
+								<td align="center">3.3</td>
+								<td align="center">1.0</td>
+								<td align="center">0.446</td>
+								<td align="center">3.9</td>
+								<td align="center">1.5</td>
+								<td align="center">0.067</td>
+								<td align="center">-5.1</td>
+								<td align="center">0.7</td>
+								<td align="center"><bold>0.011</bold></td>
+							</tr>
+							<tr>
+								<td>Black</td>
+								<td align="center">-15.7</td>
+								<td align="center">0.8</td>
+								<td align="center"><bold>&lt; 0.001</bold></td>
+								<td align="center">-0.9</td>
+								<td align="center">0.9</td>
+								<td align="center">0.453</td>
+								<td align="center">-4.9</td>
+								<td align="center">0.6</td>
+								<td align="center"><bold>0.036</bold></td>
+							</tr>
+							<tr>
+								<td>Asian</td>
+								<td align="center">-8.3</td>
+								<td align="center">0.9</td>
+								<td align="center"><bold>0.014</bold></td>
+								<td align="center">6.5</td>
+								<td align="center">1.6</td>
+								<td align="center">0.083</td>
+								<td align="center">0.4</td>
+								<td align="center">1.0</td>
+								<td align="center">0.629</td>
+							</tr>
+							<tr>
+								<td>Brown</td>
+								<td align="center">-1.2</td>
+								<td align="center">1.0</td>
+								<td align="center"><bold>0.005</bold></td>
+								<td align="center">4.3</td>
+								<td align="center">1.6</td>
+								<td align="center"><bold>&lt; 0.001</bold></td>
+								<td align="center">-3.5</td>
+								<td align="center">0.8</td>
+								<td align="center"><bold>&lt; 0.001</bold></td>
+							</tr>
+							<tr>
+								<td>Indigenous</td>
+								<td align="center">-11.3</td>
+								<td align="center">0.9</td>
+								<td align="center"><bold>0.012</bold></td>
+								<td align="center">-5.6</td>
+								<td align="center">0.5</td>
+								<td align="center">0.124</td>
+								<td align="center">-10.6</td>
+								<td align="center">0.5</td>
+								<td align="center"><bold>0.016</bold></td>
+							</tr>
+							<tr>
+								<td>Marital status</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>With partner</td>
+								<td align="center">-3.9</td>
+								<td align="center">1.0</td>
+								<td align="center"><bold>&lt; 0.001</bold></td>
+								<td align="center">1.2</td>
+								<td align="center">1.2</td>
+								<td align="center">0.329</td>
+								<td align="center">-5.5</td>
+								<td align="center">0.7</td>
+								<td align="center"><bold>&lt; 0.001</bold></td>
+							</tr>
+							<tr>
+								<td>Without partner</td>
+								<td align="center">-1.6</td>
+								<td align="center">1.0</td>
+								<td align="center"><bold>&lt; 0.001</bold></td>
+								<td align="center">5.3</td>
+								<td align="center">1.7</td>
+								<td align="center"><bold>&lt; 0.001</bold></td>
+								<td align="center">-2.8</td>
+								<td align="center">0.8</td>
+								<td align="center"><bold>&lt; 0.001</bold></td>
+							</tr>
+							<tr>
+								<td>Social class</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>A/B</td>
+								<td align="center">-0.6</td>
+								<td align="center">1.0</td>
+								<td align="center">0.620</td>
+								<td align="center">-1.1</td>
+								<td align="center">0.9</td>
+								<td align="center">0.402</td>
+								<td align="center">0.4</td>
+								<td align="center">1.0</td>
+								<td align="center">0.912</td>
+							</tr>
+							<tr>
+								<td>C</td>
+								<td align="center">-1.3</td>
+								<td align="center">1.0</td>
+								<td align="center"><bold>0.008</bold></td>
+								<td align="center">4.2</td>
+								<td align="center">1.6</td>
+								<td align="center"><bold>&lt; 0.001</bold></td>
+								<td align="center">-5.1</td>
+								<td align="center">0.7</td>
+								<td align="center"><bold>&lt; 0.001</bold></td>
+							</tr>
+							<tr>
+								<td>D/E</td>
+								<td align="center">-4.8</td>
+								<td align="center">0.9</td>
+								<td align="center"><bold>&lt; 0.001</bold></td>
+								<td align="center">4.0</td>
+								<td align="center">1.5</td>
+								<td align="center"><bold>0.001</bold></td>
+								<td align="center">-3.8</td>
+								<td align="center">0.8</td>
+								<td align="center"><bold>0.001</bold></td>
+							</tr>
+							<tr>
+								<td>Educational level</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Higher education or above</td>
+								<td align="center">5.1</td>
+								<td align="center">1.1</td>
+								<td align="center">0.203</td>
+								<td align="center">-4.6</td>
+								<td align="center">0.6</td>
+								<td align="center"><bold>0.047</bold></td>
+								<td align="center">0.7</td>
+								<td align="center">1.0</td>
+								<td align="center">0.761</td>
+							</tr>
+							<tr>
+								<td>High school</td>
+								<td align="center">-1.0</td>
+								<td align="center">1.0</td>
+								<td align="center"><bold>0.035</bold></td>
+								<td align="center">3.3</td>
+								<td align="center">1.4</td>
+								<td align="center"><bold>0.007</bold></td>
+								<td align="center">-2.1</td>
+								<td align="center">0.8</td>
+								<td align="center"><bold>0.002</bold></td>
+							</tr>
+							<tr>
+								<td>Elementary school</td>
+								<td align="center">-2.5</td>
+								<td align="center">1.0</td>
+								<td align="center"><bold>0.016</bold></td>
+								<td align="center">8.2</td>
+								<td align="center">2.0</td>
+								<td align="center"><bold>&lt; 0.001</bold></td>
+								<td align="center">-2.1</td>
+								<td align="center">0.8</td>
+								<td align="center">0.061</td>
+							</tr>
+							<tr>
+								<td>Less than elementary school</td>
+								<td align="center">-6.2</td>
+								<td align="center">0.9</td>
+								<td align="center"><bold>&lt; 0.001</bold></td>
+								<td align="center">2.9</td>
+								<td align="center">1.4</td>
+								<td align="center"><bold>0.019</bold></td>
+								<td align="center">-7.6</td>
+								<td align="center">0.6</td>
+								<td align="center"><bold>&lt; 0.001</bold></td>
+							</tr>
+							<tr>
+								<td>Occupation</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Formal job</td>
+								<td align="center">-1.8</td>
+								<td align="center">1.0</td>
+								<td align="center"><bold>0.028</bold></td>
+								<td align="center">0.1</td>
+								<td align="center">1.0</td>
+								<td align="center">0.520</td>
+								<td align="center">-1.0</td>
+								<td align="center">0.9</td>
+								<td align="center">0.236</td>
+							</tr>
+							<tr>
+								<td>Informal job</td>
+								<td align="center">-1.6</td>
+								<td align="center">1.0</td>
+								<td align="center">0.086</td>
+								<td align="center">4.4</td>
+								<td align="center">1.9</td>
+								<td align="center"><bold>&lt; 0.001</bold></td>
+								<td align="center">-8.8</td>
+								<td align="center">0.5</td>
+								<td align="center"><bold>&lt; 0.001</bold></td>
+							</tr>
+							<tr>
+								<td>Retired</td>
+								<td align="center">-2.7</td>
+								<td align="center">1.0</td>
+								<td align="center">0.363</td>
+								<td align="center">1.2</td>
+								<td align="center">1.1</td>
+								<td align="center">0.658</td>
+								<td align="center">-2.7</td>
+								<td align="center">0.9</td>
+								<td align="center">0.631</td>
+							</tr>
+							<tr>
+								<td>Student/housewife</td>
+								<td align="center">1.0</td>
+								<td align="center">1.0</td>
+								<td align="center">0.918</td>
+								<td align="center">4.8</td>
+								<td align="center">1.5</td>
+								<td align="center"><bold>0.001</bold></td>
+								<td align="center">-2.1</td>
+								<td align="center">0.9</td>
+								<td align="center">0.056</td>
+							</tr>
+							<tr>
+								<td>Unemployed</td>
+								<td align="center">-9.3</td>
+								<td align="center">0.9</td>
+								<td align="center"><bold>&lt; 0.001</bold></td>
+								<td align="center">5.7</td>
+								<td align="center">1.9</td>
+								<td align="center"><bold>&lt; 0.001</bold></td>
+								<td align="center">-1.5</td>
+								<td align="center">0.9</td>
+								<td align="center">0.130</td>
+							</tr>
+							<tr>
+								<td>Health status</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Good</td>
+								<td align="center">-2.8</td>
+								<td align="center">1.0</td>
+								<td align="center"><bold>&lt; 0.001</bold></td>
+								<td align="center">1.8</td>
+								<td align="center">1.3</td>
+								<td align="center"><bold>0.037</bold></td>
+								<td align="center">-3.3</td>
+								<td align="center">0.7</td>
+								<td align="center"><bold>&lt; 0.001</bold></td>
+							</tr>
+							<tr>
+								<td>Fair</td>
+								<td align="center">-2.3</td>
+								<td align="center">1.0</td>
+								<td align="center"><bold>0.006</bold></td>
+								<td align="center">6.9</td>
+								<td align="center">1.7</td>
+								<td align="center"><bold>&lt; 0.001</bold></td>
+								<td align="center">-6.7</td>
+								<td align="center">0.7</td>
+								<td align="center"><bold>&lt; 0.001</bold></td>
+							</tr>
+							<tr>
+								<td>Poor</td>
+								<td align="center">1.2</td>
+								<td align="center">1.0</td>
+								<td align="center">0.831</td>
+								<td align="center">5.0</td>
+								<td align="center">1.3</td>
+								<td align="center">0.067</td>
+								<td align="center">3.5</td>
+								<td align="center">1.1</td>
+								<td align="center">0.274</td>
+							</tr>
+							<tr>
+								<td>Health insurance</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">-2.3</td>
+								<td align="center">1.0</td>
+								<td align="center"><bold>&lt; 0.001</bold></td>
+								<td align="center">3.9</td>
+								<td align="center">1.5</td>
+								<td align="center"><bold>&lt; 0.001</bold></td>
+								<td align="center">-4.2</td>
+								<td align="center">0.7</td>
+								<td align="center"><bold>&lt; 0.001</bold></td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">-4.4</td>
+								<td align="center">1.0</td>
+								<td align="center"><bold>&lt; 0.001</bold></td>
+								<td align="center">1.6</td>
+								<td align="center">1.2</td>
+								<td align="center">0.657</td>
+								<td align="center">-1.6</td>
+								<td align="center">0.9</td>
+								<td align="center">0.158</td>
+							</tr>
+							<tr>
+								<td>Number of chronic diseases</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>0</td>
+								<td align="center">-6.1</td>
+								<td align="center">0.9</td>
+								<td align="center"><bold>&lt; 0.001</bold></td>
+								<td align="center">4.6</td>
+								<td align="center">1.9</td>
+								<td align="center"><bold>&lt; 0.001</bold></td>
+								<td align="center">-3.9</td>
+								<td align="center">0.6</td>
+								<td align="center"><bold>&lt; 0.001</bold></td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td align="center">-4.9</td>
+								<td align="center">0.9</td>
+								<td align="center"><bold>&lt; 0.001</bold></td>
+								<td align="center">3.9</td>
+								<td align="center">1.6</td>
+								<td align="center"><bold>0.001</bold></td>
+								<td align="center">-3.6</td>
+								<td align="center">0.7</td>
+								<td align="center"><bold>0.003</bold></td>
+							</tr>
+							<tr>
+								<td>≥ 2</td>
+								<td align="center">4.0</td>
+								<td align="center">1.0</td>
+								<td align="center"><bold>0.008</bold></td>
+								<td align="center">2.5</td>
+								<td align="center">1.2</td>
+								<td align="center"><bold>0.033</bold></td>
+								<td align="center">-3.6</td>
+								<td align="center">0.9</td>
+								<td align="center"><bold>0.011</bold></td>
+							</tr>
+							<tr>
+								<td>Total</td>
+								<td align="center">-2.4</td>
+								<td align="center">1.0</td>
+								<td align="center"><bold>&lt; 0.001</bold></td>
+								<td align="center">3.6</td>
+								<td align="center">1.5</td>
+								<td align="center"><bold>&lt; 0.001</bold></td>
+								<td align="center">-3.8</td>
+								<td align="center">0.8</td>
+								<td align="center"><bold>&lt; 0.001</bold></td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN1">
+							<p>Note: Statistically significant values are shown in bold.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>Doctor visits were higher among people with fair health status (PR = 1.09; 95%CI 1.06–1.12), with health insurance (PR = 1.13; 95%CI 1.09–1.17), and with 1 (PR = 1.10; 95%CI 1.06–1.14) or ≥ 2 chronic diseases (PR = 1.17; 95%CI 1.13–1.22). Medical consultations were lower in men (PR = 0.87; 95%CI 0.84–0.90) and informal workers (PR = 0.91; 95%CI 0.87–0.95; <xref ref-type="table" rid="t3">Table 3</xref>).</p>
+			<p>
+				<table-wrap id="t3">
+					<label>Table 3</label>
+					<caption>
+						<title>Unadjusted and adjusted prevalence ratios (PR) and 95% confidence intervals (CI) of doctor visits in the previous 12 months in Manaus (n = 5,800).</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left">Variables</th>
+								<th>PR (95%CI)</th>
+								<th>p</th>
+								<th>Adjusted PR (95%CI)</th>
+								<th>p</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Year</td>
+								<td>
+								</td>
+								<td align="center">0.036</td>
+								<td>
+								</td>
+								<td align="center">0.063</td>
+							</tr>
+							<tr>
+								<td>2015</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>2019</td>
+								<td align="center"><bold>0.97 (0.94–0.99)</bold></td>
+								<td>
+								</td>
+								<td align="center">0.97 (0.95–1.00)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Sex</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>Women</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Men</td>
+								<td align="center"><bold>0.85 (0.82–0.88)</bold></td>
+								<td>
+								</td>
+								<td align="center"><bold>0.87 (0.84–0.90)</bold></td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Age group (years)</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+								<td>
+								</td>
+								<td align="center">0.765</td>
+							</tr>
+							<tr>
+								<td>18–24</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>25–34</td>
+								<td align="center">1.04 (1.00–1.09)</td>
+								<td>
+								</td>
+								<td align="center">1.03 (0.98–1.08)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>35–44</td>
+								<td align="center">1.05 (1.00–1.10)</td>
+								<td>
+								</td>
+								<td align="center">1.02 (0.97–1.07)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>45–59</td>
+								<td align="center">1.06 (1.01–1.11)</td>
+								<td>
+								</td>
+								<td align="center">1.00 (0.96–1.06)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>≥ 60</td>
+								<td align="center"><bold>1.13 (1.08–1.19)</bold></td>
+								<td>
+								</td>
+								<td align="center">1.02 (0.96–1.09)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Race/skin color</td>
+								<td>
+								</td>
+								<td align="center">0.072</td>
+								<td>
+								</td>
+								<td align="center">0.371</td>
+							</tr>
+							<tr>
+								<td>White</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Black</td>
+								<td align="center">0.99 (0.93–1.06)</td>
+								<td>
+								</td>
+								<td align="center">1.00 (0.94–1.06)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Asian</td>
+								<td align="center"><bold>1.09 (1.01–1.17)</bold></td>
+								<td>
+								</td>
+								<td align="center">1.05 (0.97–1.13)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Brown</td>
+								<td align="center">1.02 (0.97–1.06)</td>
+								<td>
+								</td>
+								<td align="center">1.00 (0.96–1.04)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Indigenous</td>
+								<td align="center">0.91 (0.80–1.04)</td>
+								<td>
+								</td>
+								<td align="center">0.91 (0.80–1.03)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Marital status</td>
+								<td>
+								</td>
+								<td align="center">0.010</td>
+								<td>
+								</td>
+								<td align="center">0.114</td>
+							</tr>
+							<tr>
+								<td>With partner</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Without partner</td>
+								<td align="center"><bold>0.96 (0.94–0.99)</bold></td>
+								<td>
+								</td>
+								<td align="center">0.98 (0.95–1.01)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Social class</td>
+								<td>
+								</td>
+								<td align="center">0.128</td>
+								<td>
+								</td>
+								<td align="center">0.066</td>
+							</tr>
+							<tr>
+								<td>A/B</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>C</td>
+								<td align="center">0.96 (0.92–1.00)</td>
+								<td>
+								</td>
+								<td align="center">0.96 (0.92–1.00)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>D/E</td>
+								<td align="center">0.96 (0.92–1.01)</td>
+								<td>
+								</td>
+								<td align="center">0.95 (0.91–1.00)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Educational level</td>
+								<td>
+								</td>
+								<td align="center">0.139</td>
+								<td>
+								</td>
+								<td align="center">0.710</td>
+							</tr>
+							<tr>
+								<td>Higher education or above</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>High school</td>
+								<td align="center">0.94 (0.89–1.00)</td>
+								<td>
+								</td>
+								<td align="center">1.00 (0.94–1.06)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Elementary school</td>
+								<td align="center">0.95 (0.89–1.01)</td>
+								<td>
+								</td>
+								<td align="center">1.02 (0.95–1.09)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Less than elementary school</td>
+								<td align="center">0.97 (0.91–1.03)</td>
+								<td>
+								</td>
+								<td align="center">0.99 (0.93–1.06)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Occupation</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>Formal job</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Informal job</td>
+								<td align="center"><bold>0.90 (0.86–0.94)</bold></td>
+								<td>
+								</td>
+								<td align="center"><bold>0.91 (0.87–0.95)</bold></td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Retired</td>
+								<td align="center"><bold>1.07 (1.02–1.13)</bold></td>
+								<td>
+								</td>
+								<td align="center">1.00 (0.94–1.06)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Student/housewife</td>
+								<td align="center">1.01 (0.97–1.05)</td>
+								<td>
+								</td>
+								<td align="center">0.96 (0.92–1.00)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Unemployed</td>
+								<td align="center">0.97 (0.93–1.02)</td>
+								<td>
+								</td>
+								<td align="center">0.97 (0.93–1.02)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Health status</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>Good</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Fair</td>
+								<td align="center"><bold>1.14 (1.11–1.18)</bold></td>
+								<td>
+								</td>
+								<td align="center"><bold>1.09 (1.06–1.12)</bold></td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Poor</td>
+								<td align="center"><bold>1.13 (1.07–1.19)</bold></td>
+								<td>
+								</td>
+								<td align="center">1.05 (1.00–1.11)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Health insurance</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center"><bold>1.15 (1.11–1.18)</bold></td>
+								<td>
+								</td>
+								<td align="center"><bold>1.13 (1.09–1.17)</bold></td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Number of chronic diseases</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>0</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td align="center"><bold>1.11 (1.07–1.16)</bold></td>
+								<td>
+								</td>
+								<td align="center"><bold>1.10 (1.06–1.14)</bold></td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>≥ 2</td>
+								<td align="center"><bold>1.23 (1.19–1.27)</bold></td>
+								<td>
+								</td>
+								<td align="center"><bold>1.17 (1.13–1.22)</bold></td>
+								<td>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN2">
+							<p>Note: Statistically significant values are shown in bold.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>Hospital admissions were higher in 2019 than in 2015 (PR = 1.55; 95%CI 1.30–1.85) for those without partners (PR = 1.27; 95%CI 1.05–1.53), with fair (PR = 1.65; 95%CI 1.36–1.99) and poor health statuses (PR = 2.15; 95%CI 1.63–1.99), and with multimorbidity (PR = 1.68; 95%CI 1.33–2.12), whereas lower in men (PR = 0.55; 95%CI 0.44–0.68), older adults (35–44 years: PR = 0.73; 95%CI 0.56–0.95, 45–59 years: PR = 0.57; 95%CI 0.43–0.77, ≥ 60 years: PR = 0.41; 95%CI 0.27–0.63), informal workers (PR = 0.67; 95%CI 0.51–0.89), and unemployed (PR = 0.72; 95%CI 0.53–0.97; <xref ref-type="table" rid="t4">Table 4</xref>).</p>
+			<p>
+				<table-wrap id="t4">
+					<label>Table 4</label>
+					<caption>
+						<title>Unadjusted and adjusted prevalence ratios (PR) and 95% confidence intervals (CI) of hospital admissions in the previous 12 months in Manaus (n = 5,800).</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left">Variables</th>
+								<th>PR (95%CI)</th>
+								<th>p</th>
+								<th>Adjusted PR (95%CI)</th>
+								<th>p</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Year</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>2015</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>2019</td>
+								<td align="center"><bold>1.46 (1.23–1.73)</bold></td>
+								<td>
+								</td>
+								<td align="center"><bold>1.55 (1.30–1.85)</bold></td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Sex</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>Women</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Men</td>
+								<td align="center"><bold>0.45 (0.37–0.55)</bold></td>
+								<td>
+								</td>
+								<td align="center"><bold>0.55 (0.44–0.68)</bold></td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Age group (years)</td>
+								<td>
+								</td>
+								<td align="center">0.041</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>18–24</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>25–34</td>
+								<td align="center">0.93 (0.73–1.18)</td>
+								<td>
+								</td>
+								<td align="center">0.98 (0.77–1.24)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>35–44</td>
+								<td align="center">0.77 (0.60–1.00)</td>
+								<td>
+								</td>
+								<td align="center"><bold>0.73 (0.56–0.95)</bold></td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>45–59</td>
+								<td align="center"><bold>0.72 (0.55–0.94)</bold></td>
+								<td>
+								</td>
+								<td align="center"><bold>0.57 (0.43–0.77)</bold></td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>≥ 60</td>
+								<td align="center"><bold>0.69 (0.49–0.97)</bold></td>
+								<td>
+								</td>
+								<td align="center"><bold>0.41 (0.27–0.63)</bold></td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Race/skin color</td>
+								<td>
+								</td>
+								<td align="center">0.642</td>
+								<td>
+								</td>
+								<td align="center">0.481</td>
+							</tr>
+							<tr>
+								<td>White</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Black</td>
+								<td align="center">0.91 (0.61–1.34)</td>
+								<td>
+								</td>
+								<td align="center">0.86 (0.58–1.27)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Asian</td>
+								<td align="center">1.32 (0.84–2.07)</td>
+								<td>
+								</td>
+								<td align="center">1.18 (0.75–1.84)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Brown</td>
+								<td align="center">0.99 (0.78–1.27)</td>
+								<td>
+								</td>
+								<td align="center">0.88 (0.69–1.12)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Indigenous</td>
+								<td align="center">0.84 (0.41–1.73)</td>
+								<td>
+								</td>
+								<td align="center">0.69 (0.34–1.42)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Marital status</td>
+								<td>
+								</td>
+								<td align="center">0.018</td>
+								<td>
+								</td>
+								<td align="center">0.012</td>
+							</tr>
+							<tr>
+								<td>With partner</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Without partner</td>
+								<td align="center"><bold>1.25 (1.04–1.49)</bold></td>
+								<td>
+								</td>
+								<td align="center"><bold>1.27 (1.05–1.53)</bold></td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Social class</td>
+								<td>
+								</td>
+								<td align="center">0.074</td>
+								<td>
+								</td>
+								<td align="center">0.599</td>
+							</tr>
+							<tr>
+								<td>A/B</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>C</td>
+								<td align="center">1.17 (0.89–1.54)</td>
+								<td>
+								</td>
+								<td align="center">1.06 (0.81–1.39)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>D/E</td>
+								<td align="center"><bold>1.37 (1.02–1.82)</bold></td>
+								<td>
+								</td>
+								<td align="center">1.15 (0.85–1.55)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Educational level</td>
+								<td>
+								</td>
+								<td align="center">0.114</td>
+								<td>
+								</td>
+								<td align="center">0.334</td>
+							</tr>
+							<tr>
+								<td>Higher education or above</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>High school</td>
+								<td align="center">0.95 (0.63–1.43)</td>
+								<td>
+								</td>
+								<td align="center">1.01 (0.66–1.54)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Elementary school</td>
+								<td align="center">1.24 (0.80–1.91)</td>
+								<td>
+								</td>
+								<td align="center">1.23 (0.78–1.94)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Less than elementary school</td>
+								<td align="center">0.98 (0.64–1.50)</td>
+								<td>
+								</td>
+								<td align="center">1.03 (0.65–1.64)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Occupation</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+								<td>
+								</td>
+								<td align="center">0.012</td>
+							</tr>
+							<tr>
+								<td>Formal job</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Informal job</td>
+								<td align="center"><bold>0.71 (0.53–0.94)</bold></td>
+								<td>
+								</td>
+								<td align="center"><bold>0.67 (0.51–0.89)</bold></td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Retired</td>
+								<td align="center">0.96 (0.66–1.41)</td>
+								<td>
+								</td>
+								<td align="center">0.97 (0.63–1.51)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Student/housewife</td>
+								<td align="center"><bold>1.34 (1.05–1.71)</bold></td>
+								<td>
+								</td>
+								<td align="center">0.93 (0.72–1.22)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Unemployed</td>
+								<td align="center">0.95 (0.70–1.27)</td>
+								<td>
+								</td>
+								<td align="center"><bold>0.72 (0.53–0.97)</bold></td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Health status</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>Good</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Fair</td>
+								<td align="center"><bold>1.78 (1.48–2.13)</bold></td>
+								<td>
+								</td>
+								<td align="center"><bold>1.65 (1.36–1.99)</bold></td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Poor</td>
+								<td align="center"><bold>2.35 (1.80–3.07)</bold></td>
+								<td>
+								</td>
+								<td align="center"><bold>2.15 (1.63–2.84)</bold></td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Health insurance</td>
+								<td>
+								</td>
+								<td align="center">0.399</td>
+								<td>
+								</td>
+								<td align="center">0.137</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">1.11 (0.87–1.41)</td>
+								<td>
+								</td>
+								<td align="center">1.20 (0.94–1.52)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Number of chronic diseases</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>0</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td align="center">1.22 (0.97–1.54)</td>
+								<td>
+								</td>
+								<td align="center">1.19 (0.94–1.50)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>≥ 2</td>
+								<td align="center"><bold>1.77 (1.45–2.18)</bold></td>
+								<td>
+								</td>
+								<td align="center"><bold>1.68 (1.33–2.12)</bold></td>
+								<td>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN3">
+							<p>Note: Statistically significant values are shown in bold.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>Unmet need for surgery was higher in older adults (35–44 years: PR = 1.78; 95%CI 1.38–2.31, 45–59 years: PR = 1.54; 95%CI 1.18–2.01), middle-class people (PR = 1.24; 95%CI 1.01–1.55), those with fair (PR = 1.70; 95%CI 1.45–1.98) and poor (PR = 1.82; 95%CI 1.46–2.28) health statuses, and those with 1 (PR = 1.38; 95%CI 1.12–1.69) or ≥ 2 (PR = 2.16; 95%CI 1.76–2.64) chronic diseases. This outcome was lower in 2019 (PR = 0.75; 95%CI 0.65–0.86) and among men (PR = 0.76; 95%CI 0.65–0.88; <xref ref-type="table" rid="t5">Table 5</xref>).</p>
+			<p>
+				<table-wrap id="t5">
+					<label>Table 5</label>
+					<caption>
+						<title>Unadjusted and adjusted prevalence ratios (PR) and 95% confidence intervals (CI) of unmet need for surgery in Manaus (n = 5,800).</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left">Variables</th>
+								<th>PR (95%CI)</th>
+								<th>p</th>
+								<th>Adjusted PR (95%CI)</th>
+								<th>p</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Year</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>2015</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>2019</td>
+								<td align="center"><bold>0.76 (0.66–0.88)</bold></td>
+								<td>
+								</td>
+								<td align="center"><bold>0.75 (0.65–0.86)</bold></td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Sex</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>Women</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Men</td>
+								<td align="center"><bold>0.68 (0.59–0.78)</bold></td>
+								<td>
+								</td>
+								<td align="center"><bold>0.76 (0.65–0.88)</bold></td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Age group (years)</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>18–24</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>25–34</td>
+								<td align="center"><bold>1.48 (1.13–1.92)</bold></td>
+								<td>
+								</td>
+								<td align="center">1.28 (0.99–1.67)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>35–44</td>
+								<td align="center"><bold>2.32 (1.80–2.98)</bold></td>
+								<td>
+								</td>
+								<td align="center"><bold>1.78 (1.38–2.31)</bold></td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>45–59</td>
+								<td align="center"><bold>2.43 (1.89–3.12)</bold></td>
+								<td>
+								</td>
+								<td align="center"><bold>1.54 (1.18–2.01)</bold></td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>≥ 60</td>
+								<td align="center"><bold>2.63 (1.99–3.46)</bold></td>
+								<td>
+								</td>
+								<td align="center">1.29 (0.92–1.81)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Race/skin color</td>
+								<td>
+								</td>
+								<td align="center">0.150</td>
+								<td>
+								</td>
+								<td align="center">0.360</td>
+							</tr>
+							<tr>
+								<td>White</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Black</td>
+								<td align="center">0.84 (0.60–1.16)</td>
+								<td>
+								</td>
+								<td align="center">0.86 (0.62–1.19)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Asian</td>
+								<td align="center">1.09 (0.72–1.64)</td>
+								<td>
+								</td>
+								<td align="center">0.93 (0.62–1.41)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Brown</td>
+								<td align="center">1.15 (0.94–1.40)</td>
+								<td>
+								</td>
+								<td align="center">1.08 (0.89–1.32)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Indigenous</td>
+								<td align="center">0.91 (0.51–1.61)</td>
+								<td>
+								</td>
+								<td align="center">0.84 (0.50–1.40)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Marital status</td>
+								<td>
+								</td>
+								<td align="center">0.034</td>
+								<td>
+								</td>
+								<td align="center">0.511</td>
+							</tr>
+							<tr>
+								<td>With partner</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Without partner</td>
+								<td align="center"><bold>0.86 (0.76–0.99)</bold></td>
+								<td>
+								</td>
+								<td align="center">0.96 (0.84–1.09)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Social class</td>
+								<td>
+								</td>
+								<td align="center">0.032</td>
+								<td>
+								</td>
+								<td align="center">0.144</td>
+							</tr>
+							<tr>
+								<td>A/B</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>C</td>
+								<td align="center"><bold>1.29 (1.04–1.61)</bold></td>
+								<td>
+								</td>
+								<td align="center"><bold>1.24 (1.01–1.55)</bold></td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>D/E</td>
+								<td align="center"><bold>1.36 (1.08–1.71)</bold></td>
+								<td>
+								</td>
+								<td align="center">1.20 (0.94–1.52)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Educational level</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+								<td>
+								</td>
+								<td align="center">0.334</td>
+							</tr>
+							<tr>
+								<td>Higher education or above</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>High school</td>
+								<td align="center"><bold>0.74 (0.55–0.98)</bold></td>
+								<td>
+								</td>
+								<td align="center">0.77 (0.58–1.02)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Elementary school</td>
+								<td align="center">0.74 (0.54–1.02)</td>
+								<td>
+								</td>
+								<td align="center">0.77 (0.56–1.06)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Less than elementary school</td>
+								<td align="center">1.07 (0.80–1.43)</td>
+								<td>
+								</td>
+								<td align="center">0.79 (0.58–1.06)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Occupation</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+								<td>
+								</td>
+								<td align="center">0.135</td>
+							</tr>
+							<tr>
+								<td>Formal job</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Informal job</td>
+								<td align="center">1.15 (0.93–1.41)</td>
+								<td>
+								</td>
+								<td align="center">0.97 (0.79–1.21)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Retired</td>
+								<td align="center"><bold>1.73 (1.35–2.21)</bold></td>
+								<td>
+								</td>
+								<td align="center">1.11 (0.81–1.50)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Student/housewife</td>
+								<td align="center">1.13 (0.92–1.39)</td>
+								<td>
+								</td>
+								<td align="center">0.89 (0.71–1.12)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Unemployed</td>
+								<td align="center">0.85 (0.66–1.10)</td>
+								<td>
+								</td>
+								<td align="center">0.77 (0.60–1.00)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Health status</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>Good</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Fair</td>
+								<td align="center"><bold>2.26 (1.96–2.60)</bold></td>
+								<td>
+								</td>
+								<td align="center"><bold>1.70 (1.45–1.98)</bold></td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Poor</td>
+								<td align="center"><bold>2.77 (2.26–3.38)</bold></td>
+								<td>
+								</td>
+								<td align="center"><bold>1.82 (1.46–2.28)</bold></td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Health insurance</td>
+								<td>
+								</td>
+								<td align="center">0.150</td>
+								<td>
+								</td>
+								<td align="center">0.427</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">0.89 (0.73–1.09)</td>
+								<td>
+								</td>
+								<td align="center">0.92 (0.74–1.14)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Number of chronic diseases</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>0</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+								<td align="center">1.00</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td align="center"><bold>1.57 (1.28–1.93)</bold></td>
+								<td>
+								</td>
+								<td align="center"><bold>1.38 (1.12–1.69)</bold></td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>≥ 2</td>
+								<td align="center"><bold>3.12 (2.62–3.72)</bold></td>
+								<td>
+								</td>
+								<td align="center"><bold>2.16 (1.76–2.64)</bold></td>
+								<td>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN4">
+							<p>Note: Statistically significant values are shown in bold.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+		</sec>
+		<sec sec-type="discussion">
+			<title>DISCUSSION</title>
+			<p>Between 2015 and 2019, doctor visits and unmet surgical needs decreased in Manaus, whereas hospitalizations increased. These variations were particularly pronounced in vulnerable groups, such as poorer and less educated people, all races/skin colors except for Whites, individuals without health insurance, those with informal jobs or unemployed, and people with chronic diseases. Doctor visits were more frequent in people with fair health status, health insurance, and chronic diseases and negatively associated with men and informal workers. Hospital admissions were higher in those without partners, with worse health statuses, and chronic diseases but were lower in men, older adults, informal workers, and unemployed. Unmet need for surgery was higher in older, middle-class, poor health status, and chronically ill individuals and lower in men.</p>
+			<p>This research was not primarily designed as a comparative analysis but the similarities in the employed methodologies and the outcomes assessments in both surveys enabled the comparison between these two periods for Manaus. Despite the probabilistic sampling method applied in both surveys to minimize selection bias and increase the representativeness of the samples, our sample relied on individuals who were at home at the moment of the interview. All data were based on self-report measures, which are prone to information bias. Despite these limitations, the present analysis is an opportunity to assess the effects of austerity policies on health services utilization in Manaus, implemented after the first survey.</p>
+			<p>The decrease in doctor visits may be a consequence of the lack of access to primary care and less search for medical assistance for milder diseases, which increased hospital admissions due to worsening of conditions. Our hypothesis is that, as the population becomes sicker with limited access to preventive health care, hospitalization rates rise. In a longitudinal analysis of 5,565 Brazilian municipalities, the economic recession settled in Brazil since 2014 significantly contributed to mortality rate increases, which highlights the importance of health and social protection programs to mitigate health effects, especially in vulnerable individuals<sup><xref ref-type="bibr" rid="B24">24</xref></sup>. Previous analyses have also found that reducing primary health care coverage with austerity measures and terminating governmental primary care initiatives, such as <italic>Programa Mais Médicos</italic> (More Doctors Program), have potentially increased child and adult mortality in the country<sup><xref ref-type="bibr" rid="B14">14</xref></sup>. Changes in the Brazilian National Primary Healthcare Policy modified the primary care structure and reduced the Family Health Strategy teams, threatening the interdisciplinarity, accessibility , and community participation of the Brazilian Unified Health System<sup><xref ref-type="bibr" rid="B25">25</xref></sup>. Social protection, food security, and poverty reduction programs are being dismantled in Brazil, which may also impose health-related hazards to the Brazilian population<sup><xref ref-type="bibr" rid="B26">26</xref></sup>. Self-medication with antibiotics – potential indicators of poor health status and lack of access to treatments – increased from 2015 to 2019 in Manaus, corroborating this theory<sup><xref ref-type="bibr" rid="B27">27</xref></sup>.</p>
+			<p>Unmet need for surgery decreased in this four-year interval. Fewer adults were in need of a previously indicated surgery or aware of this medical need in 2019. Since doctor visits decreased and hospitalizations increased between both years, we hypothesize that Manaus had less diagnoses of health conditions that required surgical interventions and, consequently, less individuals self-reported the unmet surgical demand. Northern Brazil, where Manaus is located, lacks general physicians and surgeons in comparison to other regions since it has the lowest physician density in the country<sup><xref ref-type="bibr" rid="B28">28</xref></sup>. An ecological and time-series analysis of Brazilian data related to surgical procedures from 2008 to 2016 found that the number of surgeries performed in the North region declined in the period, which contrasts with the rest of the country<sup><xref ref-type="bibr" rid="B29">29</xref></sup>. This is considerably alarming since untreated surgical conditions burden individuals living in less developed countries, particularly those with the lowest income, those living in rural areas, and those who are marginalized<sup><xref ref-type="bibr" rid="B30">30</xref></sup>.</p>
+			<p>Vulnerable populations – such as all races except for Whites, poorer people, less educated people, individuals without health insurance, informal workers or unemployed, and people with chronic diseases – concentrated the poorer outcomes. Important inequities in health services utilization mark Manaus, with long waiting times and considerable discrimination by health professionals, which are significantly higher in socioeconomically disadvantaged people<sup><xref ref-type="bibr" rid="B20">20</xref>,<xref ref-type="bibr" rid="B31">31</xref>,<xref ref-type="bibr" rid="B32">32</xref></sup>. The austerity policies adopted in Brazil affect the population unequally, with worse effects to more vulnerable individuals, and hamper the universal, equal, and integral access to health services in Brazil<sup><xref ref-type="bibr" rid="B33">33</xref>,<xref ref-type="bibr" rid="B34">34</xref></sup>. Manaus was one of the Brazilian cities most affected by the COVID-19 pandemic with an explosion in overall mortality at home and on public byways, highlighting the heavy social inequalities and weak effectiveness of governmental policies in the health system<sup><xref ref-type="bibr" rid="B35">35</xref></sup>.</p>
+			<p>Individuals with fair health and chronic diseases had more medical appointments, whereas people with fair and poor health and chronically ill had more hospitalizations. A previous nationally representative population-based study conducted in 2013 confirms these findings: negative self-perceptions of health status and chronic diseases were associated with higher seeking for health services and hospitalizations due to worse health conditions<sup><xref ref-type="bibr" rid="B36">36</xref>,<xref ref-type="bibr" rid="B37">37</xref></sup>. Our study also found that unmet surgical needs were more frequent in these individuals. A cross-sectional study with 11,378 Korean adults in 2016 found a higher proportion of unmet medical needs, including surgery, among those with poor health status and with chronic diseases<sup><xref ref-type="bibr" rid="B38">38</xref></sup>. This finding suggests inequities in the access to these procedures among sicker individuals, who are in higher need of assistance.</p>
+			<p>Having a health insurance was associated with higher rates of doctor visits. The Brazilian population may face barriers and negative experiences while accessing the public health system, which might constitute important reasons for the pursuit of private health care alternatives<sup><xref ref-type="bibr" rid="B39">39</xref></sup>. A limited proportion of Manaus Metropolitan Region’s inhabitants has access to private health insurance since this prevalence was 13% in the 2015 survey and was lower among poorer people and those with less schooling<sup><xref ref-type="bibr" rid="B40">40</xref></sup>.</p>
+			<p>Medical consultations, hospitalizations and unmet demand for surgery were lower among men in comparison to women. A population-based study conducted in the South of Brazil with 1,297 individuals in 2016 observed that men were less likely to have consulted a physician in the last 12 months when compared to women<sup><xref ref-type="bibr" rid="B41">41</xref></sup>. A plausible explanation for these findings is that men tend to seek for health services and to care for their health less than women, mainly due to social and cultural influences<sup><xref ref-type="bibr" rid="B42">42</xref></sup>. Unhealthy diet and lifestyles such as tobacco and alcohol use, and underutilization of health services, disproportionally affect men as a consequence of gender differences dictated by society and the predominant norms of masculinity in health-seeking behaviors<sup><xref ref-type="bibr" rid="B45">45</xref></sup>. In contrast, women tend to be more health-conscious and engaged in preventive behaviors than men<sup><xref ref-type="bibr" rid="B46">46</xref></sup>.</p>
+			<p>Hospitalizations were lower among older adults, while unmet need for surgery was higher in this group. A previous analysis of Brazilian surveys showed a positive trend in self-perception of health as good or excellent among the aging people between 1998 and 2008<sup><xref ref-type="bibr" rid="B47">47</xref></sup>. This gain in health status and quality of life among the elderly may lead to more self-care and higher seeking for preventive care, resulting in less hospitalizations<sup><xref ref-type="bibr" rid="B48">48</xref></sup>. Among the Brazilian elderly, the demand for surgical care increased between 1998 and 2013 – a period that also experienced reductions in the availability of surgical beds<sup><xref ref-type="bibr" rid="B49">49</xref></sup>.</p>
+			<p>Doctor visits and hospitalizations were lower among informal workers and unemployed people. Our findings reinforce the results from the Brazilian National Household Sample Survey from 2008, which found that informal workers and unemployed individuals showed worse health statuses, greater difficulty in accessing health services, and lower health services seeking compared with formal workers<sup><xref ref-type="bibr" rid="B50">50</xref></sup>. Previous data from Manaus Metropolitan Region also suggest that the health-related quality of life is lower among informal workers when compared to those with formal jobs<sup><xref ref-type="bibr" rid="B51">51</xref></sup>.</p>
+		</sec>
+		<sec sec-type="conclusions">
+			<title>CONCLUSIONS</title>
+			<p>Between 2015 and 2019, visits to the doctor decreased whereas hospital admissions increased in Manaus, also less people were in need of surgery or aware of this need, which potentially indicates poorer access to health care and worsening of diseases. Socioeconomically disadvantaged and sicker individuals were those mainly affected by these outcomes, which may represent early effects of austerity policies in course in Brazil.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>REFERENCES</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. Alves JFS, Martins MAC, Borges FT, Silveira C, Muraro AP. Use of health services by Haitian immigrants in Cuiabá-Mato Grosso, Brazil. Cienc Saude Coletiva. 2019;24(12):4677-86. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1413-812320182412.32242017">https://doi.org/10.1590/1413-812320182412.32242017</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Alves</surname>
+							<given-names>JFS</given-names>
+						</name>
+						<name>
+							<surname>Martins</surname>
+							<given-names>MAC</given-names>
+						</name>
+						<name>
+							<surname>Borges</surname>
+							<given-names>FT</given-names>
+						</name>
+						<name>
+							<surname>Silveira</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Muraro</surname>
+							<given-names>AP</given-names>
+						</name>
+					</person-group>
+					<article-title>Use of health services by Haitian immigrants in Cuiabá-Mato Grosso, Brazil</article-title>
+					<source>Cienc Saude Coletiva</source>
+					<year>2019</year>
+					<volume>24</volume>
+					<issue>12</issue>
+					<fpage>4677</fpage>
+					<lpage>4686</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1413-812320182412.32242017">https://doi.org/10.1590/1413-812320182412.32242017</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. Travassos C, Martins M. [A review of concepts in health services access and utilization]. Cad Saude Publica. 2004;20 Suppl 2:S190-8. Portuguese. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/s0102-311x2004000800014">https://doi.org/10.1590/s0102-311x2004000800014</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Travassos</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Martins</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>A review of concepts in health services access and utilization</article-title>
+					<source>Cad Saude Publica</source>
+					<year>2004</year>
+					<volume>20</volume>
+					<supplement>Suppl 2</supplement>
+					<fpage>S190</fpage>
+					<lpage>S198</lpage>
+					<comment>Portuguese</comment>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/s0102-311x2004000800014">https://doi.org/10.1590/s0102-311x2004000800014</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. Rocha JVM, Sarmento J, Moita B, Marques AP, Santana R. Comparative research aspects on hospitalizations for ambulatory care sensitive conditions: the case of Brazil and Portugal. Cienc Saude Coletiva. 2020;25(4):1375-88. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1413-81232020254.13502019">https://doi.org/10.1590/1413-81232020254.13502019</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rocha</surname>
+							<given-names>JVM</given-names>
+						</name>
+						<name>
+							<surname>Sarmento</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Moita</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Marques</surname>
+							<given-names>AP</given-names>
+						</name>
+						<name>
+							<surname>Santana</surname>
+							<given-names>R</given-names>
+						</name>
+					</person-group>
+					<article-title>Comparative research aspects on hospitalizations for ambulatory care sensitive conditions: the case of Brazil and Portugal</article-title>
+					<source>Cienc Saude Coletiva</source>
+					<year>2020</year>
+					<volume>25</volume>
+					<issue>4</issue>
+					<fpage>1375</fpage>
+					<lpage>1388</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1413-81232020254.13502019">https://doi.org/10.1590/1413-81232020254.13502019</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. Acharya S, Ghimire S, Jeffers EM, Shrestha N. Health care utilization and health care expenditure of Nepali older adults. Front Public Health. 2019;7:24. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3389/fpubh.2019.00024">https://doi.org/10.3389/fpubh.2019.00024</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Acharya</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Ghimire</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Jeffers</surname>
+							<given-names>EM</given-names>
+						</name>
+						<name>
+							<surname>Shrestha</surname>
+							<given-names>N</given-names>
+						</name>
+					</person-group>
+					<article-title>Health care utilization and health care expenditure of Nepali older adults</article-title>
+					<source>Front Public Health</source>
+					<year>2019</year>
+					<volume>7</volume>
+					<size units="pages">24</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3389/fpubh.2019.00024">https://doi.org/10.3389/fpubh.2019.00024</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Barreto ML, Rasella D, Machado DB, Aquino R, Lima D, Garcia LP, et al. Monitoring and evaluating progress towards Universal Health Coverage in Brazil. PLoS Med. 2014;11(9):e1001692. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pmed.1001692">https://doi.org/10.1371/journal.pmed.1001692</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Barreto</surname>
+							<given-names>ML</given-names>
+						</name>
+						<name>
+							<surname>Rasella</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Machado</surname>
+							<given-names>DB</given-names>
+						</name>
+						<name>
+							<surname>Aquino</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Lima</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Garcia</surname>
+							<given-names>LP</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Monitoring and evaluating progress towards Universal Health Coverage in Brazil</article-title>
+					<source>PLoS Med</source>
+					<year>2014</year>
+					<volume>11</volume>
+					<issue>9</issue>
+					<elocation-id>e1001692</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pmed.1001692">https://doi.org/10.1371/journal.pmed.1001692</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. Araújo MEA, Silva MT, Andrade KRC, Galvão TF, Pereira MG. Prevalence of health services utilization in Brazil: a systematic review and meta-analysis. Epidemiol Serv Saude. 2017;26(3):589-604. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5123/S1679-49742017000300016">https://doi.org/10.5123/S1679-49742017000300016</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Araújo</surname>
+							<given-names>MEA</given-names>
+						</name>
+						<name>
+							<surname>Silva</surname>
+							<given-names>MT</given-names>
+						</name>
+						<name>
+							<surname>Andrade</surname>
+							<given-names>KRC</given-names>
+						</name>
+						<name>
+							<surname>Galvão</surname>
+							<given-names>TF</given-names>
+						</name>
+						<name>
+							<surname>Pereira</surname>
+							<given-names>MG</given-names>
+						</name>
+					</person-group>
+					<article-title>Prevalence of health services utilization in Brazil: a systematic review and meta-analysis</article-title>
+					<source>Epidemiol Serv Saude</source>
+					<year>2017</year>
+					<volume>26</volume>
+					<issue>3</issue>
+					<fpage>589</fpage>
+					<lpage>604</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5123/S1679-49742017000300016">https://doi.org/10.5123/S1679-49742017000300016</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. Boccolini CS, Souza Junior PRB. Inequities in Healthcare utilization: results of the Brazilian National Health Survey, 2013. Int J Equity Health. 2016;15(1):150. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12939-016-0444-3">https://doi.org/10.1186/s12939-016-0444-3</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Boccolini</surname>
+							<given-names>CS</given-names>
+						</name>
+						<name>
+							<surname>Souza</surname>
+							<given-names>PRB</given-names>
+							<suffix>Junior</suffix>
+						</name>
+					</person-group>
+					<article-title>Inequities in Healthcare utilization: results of the Brazilian National Health Survey, 2013</article-title>
+					<source>Int J Equity Health</source>
+					<year>2016</year>
+					<volume>15</volume>
+					<issue>1</issue>
+					<size units="pages">150</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12939-016-0444-3">https://doi.org/10.1186/s12939-016-0444-3</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Stopa SR, Malta DC, Monteiro CN, Szwarcwald CL, Goldbaum M, Cesar CLG. Use of and access to health services in Brazil, 2013 National Health Survey. Rev Saude Publica. 2017;51 Suppl 1:3s. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S1518-8787.2017051000074">https://doi.org/10.1590/S1518-8787.2017051000074</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Stopa</surname>
+							<given-names>SR</given-names>
+						</name>
+						<name>
+							<surname>Malta</surname>
+							<given-names>DC</given-names>
+						</name>
+						<name>
+							<surname>Monteiro</surname>
+							<given-names>CN</given-names>
+						</name>
+						<name>
+							<surname>Szwarcwald</surname>
+							<given-names>CL</given-names>
+						</name>
+						<name>
+							<surname>Goldbaum</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Cesar</surname>
+							<given-names>CLG</given-names>
+						</name>
+					</person-group>
+					<article-title>Use of and access to health services in Brazil, 2013 National Health Survey</article-title>
+					<source>Rev Saude Publica</source>
+					<year>2017</year>
+					<volume>51</volume>
+					<supplement>Suppl 1</supplement>
+					<size units="pages">3s</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S1518-8787.2017051000074">https://doi.org/10.1590/S1518-8787.2017051000074</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. Garnelo L. Specificities and challenges of public health policies in the Brazilian Amazon. Cad Saude Publica. 2019;35(12):e00220519. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0102-311X00220519">https://doi.org/10.1590/0102-311X00220519</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Garnelo</surname>
+							<given-names>L</given-names>
+						</name>
+					</person-group>
+					<article-title>Specificities and challenges of public health policies in the Brazilian Amazon</article-title>
+					<source>Cad Saude Publica</source>
+					<year>2019</year>
+					<volume>35</volume>
+					<issue>12</issue>
+					<elocation-id>e00220519</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0102-311X00220519">https://doi.org/10.1590/0102-311X00220519</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. Araujo MEA, Silva MT, Galvão TF, Pereira MG. Prevalence of health services usage and associated factors in the Amazon region of Brazil: a population-based cross-sectional study. BMJ Open. 2017;7(11):e017966. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/bmjopen-2017-017966">https://doi.org/10.1136/bmjopen-2017-017966</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Araujo</surname>
+							<given-names>MEA</given-names>
+						</name>
+						<name>
+							<surname>Silva</surname>
+							<given-names>MT</given-names>
+						</name>
+						<name>
+							<surname>Galvão</surname>
+							<given-names>TF</given-names>
+						</name>
+						<name>
+							<surname>Pereira</surname>
+							<given-names>MG</given-names>
+						</name>
+					</person-group>
+					<article-title>Prevalence of health services usage and associated factors in the Amazon region of Brazil: a population-based cross-sectional study</article-title>
+					<source>BMJ Open</source>
+					<year>2017</year>
+					<volume>7</volume>
+					<issue>11</issue>
+					<elocation-id>e017966</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/bmjopen-2017-017966">https://doi.org/10.1136/bmjopen-2017-017966</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. Ferreira PGS, Galvão TF, Silva MT. Pent-up demand for surgery in the Manaus metropolitan region: a population-based cross-sectional study. Medicine (Baltimore). 2017;96(31):e7660. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/MD.0000000000007660">https://doi.org/10.1097/MD.0000000000007660</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ferreira</surname>
+							<given-names>PGS</given-names>
+						</name>
+						<name>
+							<surname>Galvão</surname>
+							<given-names>TF</given-names>
+						</name>
+						<name>
+							<surname>Silva</surname>
+							<given-names>MT</given-names>
+						</name>
+					</person-group>
+					<article-title>Pent-up demand for surgery in the Manaus metropolitan region: a population-based cross-sectional study</article-title>
+					<source>Medicine (Baltimore)</source>
+					<year>2017</year>
+					<volume>96</volume>
+					<issue>31</issue>
+					<elocation-id>e7660</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/MD.0000000000007660">https://doi.org/10.1097/MD.0000000000007660</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. Machado CV, Silva GA. Political struggles for a universal health system in Brazil: successes and limits in the reduction of inequalities. Global Health. 2019;15:77. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12992-019-0523-5">https://doi.org/10.1186/s12992-019-0523-5</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Machado</surname>
+							<given-names>CV</given-names>
+						</name>
+						<name>
+							<surname>Silva</surname>
+							<given-names>GA</given-names>
+						</name>
+					</person-group>
+					<article-title>Political struggles for a universal health system in Brazil: successes and limits in the reduction of inequalities</article-title>
+					<source>Global Health</source>
+					<year>2019</year>
+					<volume>15</volume>
+					<size units="pages">77</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12992-019-0523-5">https://doi.org/10.1186/s12992-019-0523-5</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. Souza LEPF. The right to health in Brazil: a Constitutional guarantee threatened by fiscal austerity. J Public Health Policy. 2017;38(4):493-502. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1057/s41271-017-0083-y">https://doi.org/10.1057/s41271-017-0083-y</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Souza</surname>
+							<given-names>LEPF</given-names>
+						</name>
+					</person-group>
+					<article-title>The right to health in Brazil: a Constitutional guarantee threatened by fiscal austerity</article-title>
+					<source>J Public Health Policy</source>
+					<year>2017</year>
+					<volume>38</volume>
+					<issue>4</issue>
+					<fpage>493</fpage>
+					<lpage>502</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1057/s41271-017-0083-y">https://doi.org/10.1057/s41271-017-0083-y</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. Francesconi GV, Tasca R, Basu S, Rocha TAH, Rasella D. Mortality associated with alternative policy options for primary care and the Mais Medicos (More Doctors) Program in Brazil: forecasting future scenarios. Rev Panam Salud Publica. 2020;44:e31. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.26633/RPSP.2020.31">https://doi.org/10.26633/RPSP.2020.31</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Francesconi</surname>
+							<given-names>GV</given-names>
+						</name>
+						<name>
+							<surname>Tasca</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Basu</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Rocha</surname>
+							<given-names>TAH</given-names>
+						</name>
+						<name>
+							<surname>Rasella</surname>
+							<given-names>D</given-names>
+						</name>
+					</person-group>
+					<article-title>Mortality associated with alternative policy options for primary care and the Mais Medicos (More Doctors) Program in Brazil: forecasting future scenarios</article-title>
+					<source>Rev Panam Salud Publica</source>
+					<year>2020</year>
+					<volume>44</volume>
+					<elocation-id>e31</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.26633/RPSP.2020.31">https://doi.org/10.26633/RPSP.2020.31</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. Silva MT, Galvão TF. Use of health services among adults living in Manaus Metropolitan Region, Brazil: population-based survey, 2015. Epidemiol Serv Saude. 2017;26(4):725-34. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5123/S1679-49742017000400005">https://doi.org/10.5123/S1679-49742017000400005</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Silva</surname>
+							<given-names>MT</given-names>
+						</name>
+						<name>
+							<surname>Galvão</surname>
+							<given-names>TF</given-names>
+						</name>
+					</person-group>
+					<article-title>Use of health services among adults living in Manaus Metropolitan Region, Brazil: population-based survey, 2015</article-title>
+					<source>Epidemiol Serv Saude</source>
+					<year>2017</year>
+					<volume>26</volume>
+					<issue>4</issue>
+					<fpage>725</fpage>
+					<lpage>734</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5123/S1679-49742017000400005">https://doi.org/10.5123/S1679-49742017000400005</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. Silva MT, Nunes BP, Galvao TF. Use of health services by adults in Manaus, 2019: protocol of a population-based survey. Medicine (Baltimore). 2019;98(21):e15769. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/MD.0000000000015769">https://doi.org/10.1097/MD.0000000000015769</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Silva</surname>
+							<given-names>MT</given-names>
+						</name>
+						<name>
+							<surname>Nunes</surname>
+							<given-names>BP</given-names>
+						</name>
+						<name>
+							<surname>Galvao</surname>
+							<given-names>TF</given-names>
+						</name>
+					</person-group>
+					<article-title>Use of health services by adults in Manaus, 2019: protocol of a population-based survey</article-title>
+					<source>Medicine (Baltimore)</source>
+					<year>2019</year>
+					<volume>98</volume>
+					<issue>21</issue>
+					<elocation-id>e15769</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/MD.0000000000015769">https://doi.org/10.1097/MD.0000000000015769</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Instituto Brasileiro de Geografia e Estatística. Cidades: Manaus. Rio de Janeiro: IBGE; 2018 [cited 2021 Jul 17]. Available from: <ext-link ext-link-type="uri" xlink:href="https://cidades.ibge.gov.br/brasil/am/manaus/panorama">https://cidades.ibge.gov.br/brasil/am/manaus/panorama</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Instituto Brasileiro de Geografia e Estatística</collab>
+					</person-group>
+					<source>Cidades: Manaus</source>
+					<publisher-loc>Rio de Janeiro</publisher-loc>
+					<publisher-name>IBGE</publisher-name>
+					<year>2018</year>
+					<date-in-citation content-type="cited-date">cited 2021 Jul 17</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://cidades.ibge.gov.br/brasil/am/manaus/panorama">https://cidades.ibge.gov.br/brasil/am/manaus/panorama</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18. United Nations Development Programme. Atlas of Human Development in Brazil. Manaus, AM: UNDP; Institute of Applied Economic Research (IPEA); João Pinheiro Foundation; 2013 Available from: <ext-link ext-link-type="uri" xlink:href="http://www.atlasbrasil.org.br/">http://www.atlasbrasil.org.br/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>United Nations Development Programme</collab>
+					</person-group>
+					<source>Atlas of Human Development in Brazil</source>
+					<publisher-loc>Manaus, AM</publisher-loc>
+					<publisher-name>UNDP; Institute of Applied Economic Research (IPEA); João Pinheiro Foundation</publisher-name>
+					<year>2013</year>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="http://www.atlasbrasil.org.br/">http://www.atlasbrasil.org.br/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19. Scheffer M. Demografia Médica no Brasil 2018. São Paulo, SP: FMUSP, CFM, Cremesp; 2018.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Scheffer</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<source>Demografia Médica no Brasil 2018</source>
+					<publisher-loc>São Paulo, SP</publisher-loc>
+					<publisher-name>FMUSP, CFM, Cremesp</publisher-name>
+					<year>2018</year>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20. Galvao TF, Tiguman GMB, Caicedo Roa M, Silva MT. Inequity in utilizing health services in the Brazilian Amazon: A population-based survey, 2015. Int J Health Plann Manage. 2019;34(4):e1846-e1853. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/hpm.2902">https://doi.org/10.1002/hpm.2902</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Galvao</surname>
+							<given-names>TF</given-names>
+						</name>
+						<name>
+							<surname>Tiguman</surname>
+							<given-names>GMB</given-names>
+						</name>
+						<name>
+							<surname>Caicedo Roa</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Silva</surname>
+							<given-names>MT</given-names>
+						</name>
+					</person-group>
+					<article-title>Inequity in utilizing health services in the Brazilian Amazon: A population-based survey, 2015</article-title>
+					<source>Int J Health Plann Manage</source>
+					<year>2019</year>
+					<volume>34</volume>
+					<issue>4</issue>
+					<fpage>e1846</fpage>
+					<lpage>e1853</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/hpm.2902">https://doi.org/10.1002/hpm.2902</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>21. Tiguman GMB, Silva MT, Galvão TF. Consumption and lack of access to medicines and associated factors in the Brazilian Amazon: a cross-sectional study, 2019. Front Pharmacol. 2020;11:586559. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3389/fphar.2020.586559">https://doi.org/10.3389/fphar.2020.586559</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Tiguman</surname>
+							<given-names>GMB</given-names>
+						</name>
+						<name>
+							<surname>Silva</surname>
+							<given-names>MT</given-names>
+						</name>
+						<name>
+							<surname>Galvão</surname>
+							<given-names>TF</given-names>
+						</name>
+					</person-group>
+					<article-title>Consumption and lack of access to medicines and associated factors in the Brazilian Amazon: a cross-sectional study, 2019</article-title>
+					<source>Front Pharmacol</source>
+					<year>2020</year>
+					<volume>11</volume>
+					<size units="pages">586559</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3389/fphar.2020.586559">https://doi.org/10.3389/fphar.2020.586559</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>22. Associação Brasileira de Empresas de Pesquisa. Critérios Brasileiros de Classificação Econômica 2015. São Paulo: ABEP; 2015 [cited 2021 Jul 17]. Available from: <ext-link ext-link-type="uri" xlink:href="http://www.abep.org/criterio-brasil">http://www.abep.org/criterio-brasil</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Associação Brasileira de Empresas de Pesquisa</collab>
+					</person-group>
+					<source>Critérios Brasileiros de Classificação Econômica 2015</source>
+					<publisher-loc>São Paulo</publisher-loc>
+					<publisher-name>ABEP</publisher-name>
+					<year>2015</year>
+					<date-in-citation content-type="cited-date">cited 2021 Jul 17</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="http://www.abep.org/criterio-brasil">http://www.abep.org/criterio-brasil</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>23. Associação Brasileira de Empresas de Pesquisa. Critérios Brasileiros de Classificação Econômica 2018. São Paulo: ABEP; 2018 [cited 2021 Jul 17]. Available from: <ext-link ext-link-type="uri" xlink:href="http://www.abep.org/criterio-brasil">http://www.abep.org/criterio-brasil</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Associação Brasileira de Empresas de Pesquisa</collab>
+					</person-group>
+					<source>Critérios Brasileiros de Classificação Econômica 2018</source>
+					<publisher-loc>São Paulo</publisher-loc>
+					<publisher-name>ABEP</publisher-name>
+					<year>2018</year>
+					<date-in-citation content-type="cited-date">cited 2021 Jul 17</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="http://www.abep.org/criterio-brasil">http://www.abep.org/criterio-brasil</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>24. Hone T, Mirelman AJ, Rasella D, Paes-Sousa R, Barreto ML, Rocha R, et al. Effect of economic recession and impact of health and social protection expenditures on adult mortality: a longitudinal analysis of 5565 Brazilian municipalities. Lancet Glob Health. 2019;7(11):e1575-83. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S2214-109X(19)30409-7">https://doi.org/10.1016/S2214-109X(19)30409-7</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hone</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Mirelman</surname>
+							<given-names>AJ</given-names>
+						</name>
+						<name>
+							<surname>Rasella</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Paes-Sousa</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Barreto</surname>
+							<given-names>ML</given-names>
+						</name>
+						<name>
+							<surname>Rocha</surname>
+							<given-names>R</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Effect of economic recession and impact of health and social protection expenditures on adult mortality: a longitudinal analysis of 5565 Brazilian municipalities</article-title>
+					<source>Lancet Glob Health</source>
+					<year>2019</year>
+					<volume>7</volume>
+					<issue>11</issue>
+					<elocation-id>e1575-83</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S2214-109X(19)30409-7">https://doi.org/10.1016/S2214-109X(19)30409-7</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>25. Giovanella L, Franco CM, Almeida PF. National Primary Health Care Policy: where are we headed to? Cienc Saude Coletiva. 2020;25(4):1475-82. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1413-81232020254.01842020">https://doi.org/10.1590/1413-81232020254.01842020</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Giovanella</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Franco</surname>
+							<given-names>CM</given-names>
+						</name>
+						<name>
+							<surname>Almeida</surname>
+							<given-names>PF</given-names>
+						</name>
+					</person-group>
+					<article-title>National Primary Health Care Policy: where are we headed to?</article-title>
+					<source>Cienc Saude Coletiva</source>
+					<year>2020</year>
+					<volume>25</volume>
+					<issue>4</issue>
+					<fpage>1475</fpage>
+					<lpage>1482</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1413-81232020254.01842020">https://doi.org/10.1590/1413-81232020254.01842020</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation>26. Doniec K, Dall’Alba R, King L. Brazil’s health catastrophe in the making. Lancet. 2018;392(10149):731-2. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(18)30853-5">https://doi.org/10.1016/S0140-6736(18)30853-5</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Doniec</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Dall’Alba</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>King</surname>
+							<given-names>L</given-names>
+						</name>
+					</person-group>
+					<article-title>Brazil’s health catastrophe in the making</article-title>
+					<source>Lancet</source>
+					<year>2018</year>
+					<volume>392</volume>
+					<issue>10149</issue>
+					<fpage>731</fpage>
+					<lpage>732</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(18)30853-5">https://doi.org/10.1016/S0140-6736(18)30853-5</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<mixed-citation>27. Tiguman GMB, Silva MT, Galvão TF. Use and self-medication with antibiotics among adults in the Brazilian Amazon: a panel of two cross-sectional studies, 2015 and 2019. Expert Rev Anti Infect Ther. 2020;18(12)1263-70. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/14787210.2020.1798228">https://doi.org/10.1080/14787210.2020.1798228</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Tiguman</surname>
+							<given-names>GMB</given-names>
+						</name>
+						<name>
+							<surname>Silva</surname>
+							<given-names>MT</given-names>
+						</name>
+						<name>
+							<surname>Galvão</surname>
+							<given-names>TF</given-names>
+						</name>
+					</person-group>
+					<article-title>Use and self-medication with antibiotics among adults in the Brazilian Amazon: a panel of two cross-sectional studies, 2015 and 2019</article-title>
+					<source>Expert Rev Anti Infect Ther</source>
+					<year>2020</year>
+					<volume>18</volume>
+					<issue>12</issue>
+					<fpage>1263</fpage>
+					<lpage>1270</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/14787210.2020.1798228">https://doi.org/10.1080/14787210.2020.1798228</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<mixed-citation>28. Alonso N, Massenburg BB, Galli R, Sobrado L, Birolini D. Surgery in Brazilian Health Care: funding and physician distribution. Rev Col Bras Cir. 2017;44(2):202-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0100-69912017002016">https://doi.org/10.1590/0100-69912017002016</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Alonso</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Massenburg</surname>
+							<given-names>BB</given-names>
+						</name>
+						<name>
+							<surname>Galli</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Sobrado</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Birolini</surname>
+							<given-names>D</given-names>
+						</name>
+					</person-group>
+					<article-title>Surgery in Brazilian Health Care: funding and physician distribution</article-title>
+					<source>Rev Col Bras Cir</source>
+					<year>2017</year>
+					<volume>44</volume>
+					<issue>2</issue>
+					<fpage>202</fpage>
+					<lpage>207</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0100-69912017002016">https://doi.org/10.1590/0100-69912017002016</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B29">
+				<label>29</label>
+				<mixed-citation>29. Covre ER, Melo WA, Tostes MFP, Fernandes CAM. Trend of hospitalizations and mortality from surgical causes in Brazil, 2008 to 2016. Rev Col Bras Cir. 2019;46(1):e1979. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0100-6991e-20191979">https://doi.org/10.1590/0100-6991e-20191979</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Covre</surname>
+							<given-names>ER</given-names>
+						</name>
+						<name>
+							<surname>Melo</surname>
+							<given-names>WA</given-names>
+						</name>
+						<name>
+							<surname>Tostes</surname>
+							<given-names>MFP</given-names>
+						</name>
+						<name>
+							<surname>Fernandes</surname>
+							<given-names>CAM</given-names>
+						</name>
+					</person-group>
+					<article-title>Trend of hospitalizations and mortality from surgical causes in Brazil, 2008 to 2016</article-title>
+					<source>Rev Col Bras Cir</source>
+					<year>2019</year>
+					<volume>46</volume>
+					<issue>1</issue>
+					<elocation-id>e1979</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0100-6991e-20191979">https://doi.org/10.1590/0100-6991e-20191979</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B30">
+				<label>30</label>
+				<mixed-citation>30. Meara JG, Leather AJM, Hagander L, Alkire BC, Alonso N, Ameh EA, et al. Global Surgery 2030: evidence and solutions for achieving health, welfare, and economic development. Lancet. 2015;386(9993):569-624. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(15)60160-X">https://doi.org/10.1016/S0140-6736(15)60160-X</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Meara</surname>
+							<given-names>JG</given-names>
+						</name>
+						<name>
+							<surname>Leather</surname>
+							<given-names>AJM</given-names>
+						</name>
+						<name>
+							<surname>Hagander</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Alkire</surname>
+							<given-names>BC</given-names>
+						</name>
+						<name>
+							<surname>Alonso</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Ameh</surname>
+							<given-names>EA</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Global Surgery 2030: evidence and solutions for achieving health, welfare, and economic development</article-title>
+					<source>Lancet</source>
+					<year>2015</year>
+					<volume>386</volume>
+					<issue>9993</issue>
+					<fpage>569</fpage>
+					<lpage>624</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(15)60160-X">https://doi.org/10.1016/S0140-6736(15)60160-X</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B31">
+				<label>31</label>
+				<mixed-citation>31. Galvão TF, Tiguman GMB, Costa Filho DB, Silva MT. Waiting time and medical consultation length in the Manaus metropolitan region, Brazil: a cross-sectional, population-based study, 2015. Epidemiol Serv Saude. 2020;29(4):e2020026. <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.5123/s1679-49742020000400014">http://doi.org/10.5123/s1679-49742020000400014</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Galvão</surname>
+							<given-names>TF</given-names>
+						</name>
+						<name>
+							<surname>Tiguman</surname>
+							<given-names>GMB</given-names>
+						</name>
+						<name>
+							<surname>Costa</surname>
+							<given-names>DB</given-names>
+							<suffix>Filho</suffix>
+						</name>
+						<name>
+							<surname>Silva</surname>
+							<given-names>MT</given-names>
+						</name>
+					</person-group>
+					<article-title>Waiting time and medical consultation length in the Manaus metropolitan region, Brazil: a cross-sectional, population-based study, 2015</article-title>
+					<source>Epidemiol Serv Saude</source>
+					<year>2020</year>
+					<volume>29</volume>
+					<issue>4</issue>
+					<elocation-id>e2020026</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="http://doi.org/10.5123/s1679-49742020000400014">http://doi.org/10.5123/s1679-49742020000400014</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B32">
+				<label>32</label>
+				<mixed-citation>32. Galvão TF, Tiguman GMB, Antonio BVR, Alencar RRFR, Garcia LP, Silva MT. Perceived discrimination in health services and associated factors in Manaus Metropolitan Region, Brazil: a cross-sectional population-based study. Ethn Health. 2020 Sept 10:1-11. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/13557858.2020.1817341">https://doi.org/10.1080/13557858.2020.1817341</ext-link> Epub ahead of print</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Galvão</surname>
+							<given-names>TF</given-names>
+						</name>
+						<name>
+							<surname>Tiguman</surname>
+							<given-names>GMB</given-names>
+						</name>
+						<name>
+							<surname>Antonio</surname>
+							<given-names>BVR</given-names>
+						</name>
+						<name>
+							<surname>Alencar</surname>
+							<given-names>RRFR</given-names>
+						</name>
+						<name>
+							<surname>Garcia</surname>
+							<given-names>LP</given-names>
+						</name>
+						<name>
+							<surname>Silva</surname>
+							<given-names>MT</given-names>
+						</name>
+					</person-group>
+					<article-title>Perceived discrimination in health services and associated factors in Manaus Metropolitan Region, Brazil: a cross-sectional population-based study</article-title>
+					<source>Ethn Health</source>
+					<year>2020</year>
+					<month>09</month>
+					<volume>10</volume>
+					<fpage>1</fpage>
+					<lpage>11</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/13557858.2020.1817341">https://doi.org/10.1080/13557858.2020.1817341</ext-link>
+					</comment>
+					<comment>Epub ahead of print</comment>
+				</element-citation>
+			</ref>
+			<ref id="B33">
+				<label>33</label>
+				<mixed-citation>33. Santos IS, Vieira FS. The Right to healthcare and fiscal austerity: the Brazilian case from an international perspective. Cienc Saude Coletiva. 2018;23(7):2303-14. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1413-81232018237.09192018">https://doi.org/10.1590/1413-81232018237.09192018</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Santos</surname>
+							<given-names>IS</given-names>
+						</name>
+						<name>
+							<surname>Vieira</surname>
+							<given-names>FS</given-names>
+						</name>
+					</person-group>
+					<article-title>The Right to healthcare and fiscal austerity: the Brazilian case from an international perspective</article-title>
+					<source>Cienc Saude Coletiva</source>
+					<year>2018</year>
+					<volume>23</volume>
+					<issue>7</issue>
+					<fpage>2303</fpage>
+					<lpage>2314</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1413-81232018237.09192018">https://doi.org/10.1590/1413-81232018237.09192018</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B34">
+				<label>34</label>
+				<mixed-citation>34. Paes-Sousa R, Schramm JMA, Mendes LVP. Fiscal austerity and the health sector: the cost of adjustments. Cienc Saude Coletiva. 2019;24(12):4375-84. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1413-812320182412.23232019">https://doi.org/10.1590/1413-812320182412.23232019</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Paes-Sousa</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Schramm</surname>
+							<given-names>JMA</given-names>
+						</name>
+						<name>
+							<surname>Mendes</surname>
+							<given-names>LVP</given-names>
+						</name>
+					</person-group>
+					<article-title>Fiscal austerity and the health sector: the cost of adjustments</article-title>
+					<source>Cienc Saude Coletiva</source>
+					<year>2019</year>
+					<volume>24</volume>
+					<issue>12</issue>
+					<fpage>4375</fpage>
+					<lpage>4384</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1413-812320182412.23232019">https://doi.org/10.1590/1413-812320182412.23232019</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B35">
+				<label>35</label>
+				<mixed-citation>35. Orellana JDY, Cunha GM, Marrero L, Horta BL, Leite IC. Explosion in mortality in the Amazonian epicenter of the COVID-19 epidemic 19. Cad Saude Publica. 2020;36(7):e00120020. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0102-311X00120020">https://doi.org/10.1590/0102-311X00120020</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Orellana</surname>
+							<given-names>JDY</given-names>
+						</name>
+						<name>
+							<surname>Cunha</surname>
+							<given-names>GM</given-names>
+						</name>
+						<name>
+							<surname>Marrero</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Horta</surname>
+							<given-names>BL</given-names>
+						</name>
+						<name>
+							<surname>Leite</surname>
+							<given-names>IC</given-names>
+						</name>
+					</person-group>
+					<article-title>Explosion in mortality in the Amazonian epicenter of the COVID-19 epidemic 19</article-title>
+					<source>Cad Saude Publica</source>
+					<year>2020</year>
+					<volume>36</volume>
+					<issue>7</issue>
+					<elocation-id>e00120020</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0102-311X00120020">https://doi.org/10.1590/0102-311X00120020</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B36">
+				<label>36</label>
+				<mixed-citation>36. Zanesco C, Bordin D, Santos CB, Müller EV, Fadel CB. Factors determining the negative perception of the health of Brazilian elderly people. Rev Bras Geriat Gerontol. 2018;21(3):283-92. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1981-22562018021.170210">https://doi.org/10.1590/1981-22562018021.170210</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Zanesco</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Bordin</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Santos</surname>
+							<given-names>CB</given-names>
+						</name>
+						<name>
+							<surname>Müller</surname>
+							<given-names>EV</given-names>
+						</name>
+						<name>
+							<surname>Fadel</surname>
+							<given-names>CB</given-names>
+						</name>
+					</person-group>
+					<article-title>Factors determining the negative perception of the health of Brazilian elderly people</article-title>
+					<source>Rev Bras Geriat Gerontol</source>
+					<year>2018</year>
+					<volume>21</volume>
+					<issue>3</issue>
+					<fpage>283</fpage>
+					<lpage>292</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1981-22562018021.170210">https://doi.org/10.1590/1981-22562018021.170210</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B37">
+				<label>37</label>
+				<mixed-citation>37. Malta DC, Bernal RTI, Lima MG, Araújo SSC, Silva MMA, Freitas MIF, et al. Noncommunicable diseases and the use of health services: analysis of the National Health Survey in Brazil. Rev Saude Publica. 2017;51 Suppl 1:4s. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S1518-8787.2017051000090">https://doi.org/10.1590/S1518-8787.2017051000090</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Malta</surname>
+							<given-names>DC</given-names>
+						</name>
+						<name>
+							<surname>Bernal</surname>
+							<given-names>RTI</given-names>
+						</name>
+						<name>
+							<surname>Lima</surname>
+							<given-names>MG</given-names>
+						</name>
+						<name>
+							<surname>Araújo</surname>
+							<given-names>SSC</given-names>
+						</name>
+						<name>
+							<surname>Silva</surname>
+							<given-names>MMA</given-names>
+						</name>
+						<name>
+							<surname>Freitas</surname>
+							<given-names>MIF</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Noncommunicable diseases and the use of health services: analysis of the National Health Survey in Brazil</article-title>
+					<source>Rev Saude Publica</source>
+					<year>2017</year>
+					<volume>51</volume>
+					<supplement>Suppl 1</supplement>
+					<size units="pages">4s</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S1518-8787.2017051000090">https://doi.org/10.1590/S1518-8787.2017051000090</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B38">
+				<label>38</label>
+				<mixed-citation>38. Yoon YS, Jung B, Kim D, Ha IH. Factors underlying unmet medical needs: a cross-sectional study. Int J Environ Res Public Health. 2019;16(13):2391. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3390/ijerph16132391">https://doi.org/10.3390/ijerph16132391</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Yoon</surname>
+							<given-names>YS</given-names>
+						</name>
+						<name>
+							<surname>Jung</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Kim</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Ha</surname>
+							<given-names>IH</given-names>
+						</name>
+					</person-group>
+					<article-title>Factors underlying unmet medical needs: a cross-sectional study</article-title>
+					<source>Int J Environ Res Public Health</source>
+					<year>2019</year>
+					<volume>16</volume>
+					<issue>13</issue>
+					<size units="pages">2391</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3390/ijerph16132391">https://doi.org/10.3390/ijerph16132391</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B39">
+				<label>39</label>
+				<mixed-citation>39. Castiglione D, Lovasi GS, Carvalho MS. Perceptions and uses of public and private health care in a Brazilian favela. Qual Health Res. 2018;28(1):159-72. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/1049732317739611">https://doi.org/10.1177/1049732317739611</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Castiglione</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Lovasi</surname>
+							<given-names>GS</given-names>
+						</name>
+						<name>
+							<surname>Carvalho</surname>
+							<given-names>MS</given-names>
+						</name>
+					</person-group>
+					<article-title>Perceptions and uses of public and private health care in a Brazilian favela</article-title>
+					<source>Qual Health Res</source>
+					<year>2018</year>
+					<volume>28</volume>
+					<issue>1</issue>
+					<fpage>159</fpage>
+					<lpage>172</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/1049732317739611">https://doi.org/10.1177/1049732317739611</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B40">
+				<label>40</label>
+				<mixed-citation>40. Costa Filho DB, Galvão TF, Kelles SMB, Silva MT. Access to private health insurance in the metropolitan region of Manaus, AM, Brazil, in 2015: a cross-sectional population-based study. Epidemiol Serv Saude. 2020;29(1):e2018414. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5123/S1679-49742020000100001">https://doi.org/10.5123/S1679-49742020000100001</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Costa</surname>
+							<given-names>DB</given-names>
+							<suffix>Filho</suffix>
+						</name>
+						<name>
+							<surname>Galvão</surname>
+							<given-names>TF</given-names>
+						</name>
+						<name>
+							<surname>Kelles</surname>
+							<given-names>SMB</given-names>
+						</name>
+						<name>
+							<surname>Silva</surname>
+							<given-names>MT</given-names>
+						</name>
+					</person-group>
+					<article-title>Access to private health insurance in the metropolitan region of Manaus, AM, Brazil, in 2015: a cross-sectional population-based study</article-title>
+					<source>Epidemiol Serv Saude</source>
+					<year>2020</year>
+					<volume>29</volume>
+					<issue>1</issue>
+					<elocation-id>e2018414</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5123/S1679-49742020000100001">https://doi.org/10.5123/S1679-49742020000100001</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B41">
+				<label>41</label>
+				<mixed-citation>41. Almeida LMS, Ferreira LS, Teixeira TP, Dumith SC. Factors associated with not consulting a physician in the 12 months prior to interview with adults and elderly in the city of Rio Grande, Rio Grande do Sul, Brazil, 2016: a cross-sectional study. Epidemiol Serv Saude. 2020;29(1):e2018399. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5123/S1679-49742020000100004">https://doi.org/10.5123/S1679-49742020000100004</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Almeida</surname>
+							<given-names>LMS</given-names>
+						</name>
+						<name>
+							<surname>Ferreira</surname>
+							<given-names>LS</given-names>
+						</name>
+						<name>
+							<surname>Teixeira</surname>
+							<given-names>TP</given-names>
+						</name>
+						<name>
+							<surname>Dumith</surname>
+							<given-names>SC</given-names>
+						</name>
+					</person-group>
+					<article-title>Factors associated with not consulting a physician in the 12 months prior to interview with adults and elderly in the city of Rio Grande, Rio Grande do Sul, Brazil, 2016: a cross-sectional study</article-title>
+					<source>Epidemiol Serv Saude</source>
+					<year>2020</year>
+					<volume>29</volume>
+					<issue>1</issue>
+					<elocation-id>e2018399</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5123/S1679-49742020000100004">https://doi.org/10.5123/S1679-49742020000100004</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B42">
+				<label>42</label>
+				<mixed-citation>42. Mauvais-Jarvis F, Merz NB, Barnes PJ, Brinton RD, Carrero JJ, DeMeo DL, et al. Sex and gender: modifiers of health, disease, and medicine. Lancet. 2020;396(10250):565-82. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(20)31561-0">https://doi.org/10.1016/S0140-6736(20)31561-0</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Mauvais-Jarvis</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Merz</surname>
+							<given-names>NB</given-names>
+						</name>
+						<name>
+							<surname>Barnes</surname>
+							<given-names>PJ</given-names>
+						</name>
+						<name>
+							<surname>Brinton</surname>
+							<given-names>RD</given-names>
+						</name>
+						<name>
+							<surname>Carrero</surname>
+							<given-names>JJ</given-names>
+						</name>
+						<name>
+							<surname>DeMeo</surname>
+							<given-names>DL</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Sex and gender: modifiers of health, disease, and medicine</article-title>
+					<source>Lancet</source>
+					<year>2020</year>
+					<volume>396</volume>
+					<issue>10250</issue>
+					<fpage>565</fpage>
+					<lpage>582</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(20)31561-0">https://doi.org/10.1016/S0140-6736(20)31561-0</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B43">
+				<label>43</label>
+				<mixed-citation>43. Levorato CD, Mello LM, Silva AS, Nunes AA. [Factors associated with the demand for health services from a gender-relational perspective]. Cienc Saude Coletiva. 2014;19(4):1263-74. Portuguese. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1413-81232014194.01242013">https://doi.org/10.1590/1413-81232014194.01242013</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Levorato</surname>
+							<given-names>CD</given-names>
+						</name>
+						<name>
+							<surname>Mello</surname>
+							<given-names>LM</given-names>
+						</name>
+						<name>
+							<surname>Silva</surname>
+							<given-names>AS</given-names>
+						</name>
+						<name>
+							<surname>Nunes</surname>
+							<given-names>AA</given-names>
+						</name>
+					</person-group>
+					<article-title>Factors associated with the demand for health services from a gender-relational perspective</article-title>
+					<source>Cienc Saude Coletiva</source>
+					<year>2014</year>
+					<volume>19</volume>
+					<issue>4</issue>
+					<fpage>1263</fpage>
+					<lpage>1274</lpage>
+					<comment>Portuguese</comment>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1413-81232014194.01242013">https://doi.org/10.1590/1413-81232014194.01242013</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B44">
+				<label>44</label>
+				<mixed-citation>44. Pinkhasov RM, Wong J, Kashanian J, Lee M, Samadi DB, Pinkhasov MM, et al.Are men shortchanged on health? Perspective on health care utilization and health risk behavior in men and women in the United States. Int J Clin Pract. 2010;64(4):475-87. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1742-1241.2009.02290.x">https://doi.org/10.1111/j.1742-1241.2009.02290.x</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pinkhasov</surname>
+							<given-names>RM</given-names>
+						</name>
+						<name>
+							<surname>Wong</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Kashanian</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Lee</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Samadi</surname>
+							<given-names>DB</given-names>
+						</name>
+						<name>
+							<surname>Pinkhasov</surname>
+							<given-names>MM</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Are men shortchanged on health? Perspective on health care utilization and health risk behavior in men and women in the United States</article-title>
+					<source>Int J Clin Pract</source>
+					<year>2010</year>
+					<volume>64</volume>
+					<issue>4</issue>
+					<fpage>475</fpage>
+					<lpage>487</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1742-1241.2009.02290.x">https://doi.org/10.1111/j.1742-1241.2009.02290.x</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B45">
+				<label>45</label>
+				<mixed-citation>45. Etienne CF. Addressing masculinity and men’s health to advance universal health and gender equality. Rev Panam Salud Publica. 2018;42:e196. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.26633/RPSP.2018.196">https://doi.org/10.26633/RPSP.2018.196</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Etienne</surname>
+							<given-names>CF</given-names>
+						</name>
+					</person-group>
+					<article-title>Addressing masculinity and men’s health to advance universal health and gender equality</article-title>
+					<source>Rev Panam Salud Publica</source>
+					<year>2018</year>
+					<volume>42</volume>
+					<elocation-id>e196</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.26633/RPSP.2018.196">https://doi.org/10.26633/RPSP.2018.196</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B46">
+				<label>46</label>
+				<mixed-citation>46. Hiller J, Schatz K, Drexler H. Gender influence on health and risk behavior in primary prevention: a systematic review. J Public Health. 2017;25(4):339-49. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s10389-017-0798-z">https://doi.org/10.1007/s10389-017-0798-z</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hiller</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Schatz</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Drexler</surname>
+							<given-names>H</given-names>
+						</name>
+					</person-group>
+					<article-title>Gender influence on health and risk behavior in primary prevention: a systematic review</article-title>
+					<source>J Public Health</source>
+					<year>2017</year>
+					<volume>25</volume>
+					<issue>4</issue>
+					<fpage>339</fpage>
+					<lpage>349</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s10389-017-0798-z">https://doi.org/10.1007/s10389-017-0798-z</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B47">
+				<label>47</label>
+				<mixed-citation>47. Lima-Costa MF, Matos DL, Camargos VP, Macinko J. [10-year trends in the health of Brazilian elderly: evidence from the National Household Sample Survey (PNAD 1998, 2003, 2008)]. Cienc Saude Coletiva. 2011;16(9):3689-96. Portuguese. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/s1413-81232011001000006">https://doi.org/10.1590/s1413-81232011001000006</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lima-Costa</surname>
+							<given-names>MF</given-names>
+						</name>
+						<name>
+							<surname>Matos</surname>
+							<given-names>DL</given-names>
+						</name>
+						<name>
+							<surname>Camargos</surname>
+							<given-names>VP</given-names>
+						</name>
+						<name>
+							<surname>Macinko</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>10-year trends in the health of Brazilian elderly: evidence from the National Household Sample Survey (PNAD 1998, 2003, 2008)</article-title>
+					<source>Cienc Saude Coletiva</source>
+					<year>2011</year>
+					<volume>16</volume>
+					<issue>9</issue>
+					<fpage>3689</fpage>
+					<lpage>3696</lpage>
+					<comment>Portuguese</comment>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/s1413-81232011001000006">https://doi.org/10.1590/s1413-81232011001000006</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B48">
+				<label>48</label>
+				<mixed-citation>48. Sun JK, Smith J. Self-perceptions of aging and perceived barriers to care: reasons for health care delay. Gerontologist. 2017;57 Suppl 2:S216-26. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/geront/gnx014">https://doi.org/10.1093/geront/gnx014</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sun</surname>
+							<given-names>JK</given-names>
+						</name>
+						<name>
+							<surname>Smith</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>Self-perceptions of aging and perceived barriers to care: reasons for health care delay</article-title>
+					<source>Gerontologist</source>
+					<year>2017</year>
+					<volume>57</volume>
+					<supplement>Suppl 2</supplement>
+					<fpage>S216</fpage>
+					<lpage>S226</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/geront/gnx014">https://doi.org/10.1093/geront/gnx014</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B49">
+				<label>49</label>
+				<mixed-citation>49. Miranda GMD, Mendes ACG, Silva ALA. Population aging in Brazil: current and future social challenges and consequences. Rev Bras Geriatr Gerontol. 2016;19(3):507-19. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1809-98232016019.150140">https://doi.org/10.1590/1809-98232016019.150140</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Miranda</surname>
+							<given-names>GMD</given-names>
+						</name>
+						<name>
+							<surname>Mendes</surname>
+							<given-names>ACG</given-names>
+						</name>
+						<name>
+							<surname>Silva</surname>
+							<given-names>ALA</given-names>
+						</name>
+					</person-group>
+					<article-title>Population aging in Brazil: current and future social challenges and consequences</article-title>
+					<source>Rev Bras Geriatr Gerontol</source>
+					<year>2016</year>
+					<volume>19</volume>
+					<issue>3</issue>
+					<fpage>507</fpage>
+					<lpage>519</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1809-98232016019.150140">https://doi.org/10.1590/1809-98232016019.150140</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B50">
+				<label>50</label>
+				<mixed-citation>50. Miquilin IOC, Marín-León L, Monteiro MI, Corrêa Filho HR. [Inequalities in health services access and use among formal, informal, and unemployed workers, based on data from the Brazilian National Household Sample Survey, 2008]. Cad Saude Publica. 2013;29(7):1392-406. Portuguese. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/s0102-311x2013000700013">https://doi.org/10.1590/s0102-311x2013000700013</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Miquilin</surname>
+							<given-names>IOC</given-names>
+						</name>
+						<name>
+							<surname>Marín-León</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Monteiro</surname>
+							<given-names>MI</given-names>
+						</name>
+						<name>
+							<surname>Corrêa</surname>
+							<given-names>HR</given-names>
+							<suffix>Filho</suffix>
+						</name>
+					</person-group>
+					<article-title>Inequalities in health services access and use among formal, informal, and unemployed workers, based on data from the Brazilian National Household Sample Survey, 2008</article-title>
+					<source>Cad Saude Publica</source>
+					<year>2013</year>
+					<volume>29</volume>
+					<issue>7</issue>
+					<fpage>1392</fpage>
+					<lpage>1406</lpage>
+					<comment>Portuguese</comment>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/s0102-311x2013000700013">https://doi.org/10.1590/s0102-311x2013000700013</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B51">
+				<label>51</label>
+				<mixed-citation>51. Tiguman GMB, Caicedo-Roa M, Silva MT, Galvão TF. Occupational exposures and health-related quality of life in the Manaus Metropolitan Region, Amazonas State, Brazil: a cross-sectional study. Cad Saude Publica. 2020;36(12):e00074520. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0102-311X00074520">https://doi.org/10.1590/0102-311X00074520</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Tiguman</surname>
+							<given-names>GMB</given-names>
+						</name>
+						<name>
+							<surname>Caicedo-Roa</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Silva</surname>
+							<given-names>MT</given-names>
+						</name>
+						<name>
+							<surname>Galvão</surname>
+							<given-names>TF</given-names>
+						</name>
+					</person-group>
+					<article-title>Occupational exposures and health-related quality of life in the Manaus Metropolitan Region, Amazonas State, Brazil: a cross-sectional study</article-title>
+					<source>Cad Saude Publica</source>
+					<year>2020</year>
+					<volume>36</volume>
+					<issue>12</issue>
+					<elocation-id>e00074520</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0102-311X00074520">https://doi.org/10.1590/0102-311X00074520</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="financial-disclosure" id="fn2">
+				<p><bold>Funding:</bold> National Council for Scientific and Technological Development (CNPq - Grants 404990/2013-4 and 448093/2014-6, productivity scholarship for TFG - Grant 310238/2020-0).</p>
+			</fn>
+		</fn-group>
+	</back>
+</article>

@@ -1,0 +1,1607 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.1" specific-use="sps-1.9" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="nlm-ta">Rev Saude Publica</journal-id>
+			<journal-id journal-id-type="publisher-id">rsp</journal-id>
+			<journal-title-group>
+				<journal-title>Revista de Saúde Pública</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Rev. Saúde Pública</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="ppub">0034-8910</issn>
+			<issn pub-type="epub">1518-8787</issn>
+			<publisher>
+				<publisher-name>Faculdade de Saúde Pública da Universidade de São Paulo</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="other">00286</article-id>
+			<article-id pub-id-type="doi">10.11606/s1518-8787.2022056004907</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Original Article</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Covid-19: temporal evolution and immunization in the three epidemiological waves, Brazil, 2020–2022</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-9237-432X</contrib-id>
+					<name>
+						<surname>Moura</surname>
+						<given-names>Erly Catarina</given-names>
+					</name>
+					<role>Conception and planning of the study</role>
+					<role>Data collection</role>
+					<role>analysis</role>
+					<role>interpretation</role>
+					<role>Manuscript development and revision</role>
+					<role>Approval of the final version</role>
+					<role>Public responsibility for the content of the article</role>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+					<xref ref-type="corresp" rid="c1"/>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-2382-2213</contrib-id>
+					<name>
+						<surname>Cortez-Escalante</surname>
+						<given-names>Juan</given-names>
+					</name>
+					<role>Conception and planning of the study</role>
+					<role>Data collection</role>
+					<role>analysis</role>
+					<role>interpretation</role>
+					<role>Manuscript development and revision</role>
+					<role>Approval of the final version</role>
+					<role>Public responsibility for the content of the article</role>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-8706-0457</contrib-id>
+					<name>
+						<surname>Cavalcante</surname>
+						<given-names>Fabrício Vieira</given-names>
+					</name>
+					<role>Conception and planning of the study</role>
+					<role>Data collection</role>
+					<role>analysis</role>
+					<role>interpretation</role>
+					<role>Approval of the final version</role>
+					<role>Public responsibility for the content of the article</role>
+					<xref ref-type="aff" rid="aff3"><sup>III</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-8447-3654</contrib-id>
+					<name>
+						<surname>Barreto</surname>
+						<given-names>Ivana Cristina de Holanda Cunha</given-names>
+					</name>
+					<role>Manuscript development and revision</role>
+					<role>Approval of the final version</role>
+					<role>Public responsibility for the content of the article</role>
+					<xref ref-type="aff" rid="aff4"><sup>IV</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-0472-1804</contrib-id>
+					<name>
+						<surname>Sanchez</surname>
+						<given-names>Mauro Niskier</given-names>
+					</name>
+					<role>Manuscript development and revision</role>
+					<role>Approval of the final version</role>
+					<role>Public responsibility for the content of the article</role>
+					<xref ref-type="aff" rid="aff5"><sup>V</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-6739-6260</contrib-id>
+					<name>
+						<surname>Santos</surname>
+						<given-names>Leonor Maria Pacheco</given-names>
+					</name>
+					<role>Conception and planning of the study</role>
+					<role>Data collection</role>
+					<role>analysis</role>
+					<role>interpretation</role>
+					<role>Manuscript development and revision</role>
+					<role>Approval of the final version</role>
+					<role>Public responsibility for the content of the article</role>
+					<xref ref-type="aff" rid="aff3"><sup>III</sup></xref>
+				</contrib>
+				<aff id="aff1">
+					<label>I</label>
+					<institution content-type="orgname">Universidade de Brasília</institution>
+					<institution content-type="orgdiv1">Faculdade de Ciências da Saúde</institution>
+					<addr-line>
+						<named-content content-type="city">Brasília</named-content>
+						<named-content content-type="state">DF</named-content>
+					</addr-line>
+					<country country="BR">Brasil</country>
+					<institution content-type="original">Universidade de Brasília. Faculdade de Ciências da Saúde. Grupo de Estudos e Pesquisa de Avaliação, Políticas, Planejamento e Gestão Participativa em Saúde. Brasília, DF, Brasil</institution>
+				</aff>
+				<aff id="aff2">
+					<label>II</label>
+					<institution content-type="orgname">Organização Mundial da Saúde</institution>
+					<institution content-type="orgdiv1">Organização Pan-Americana da Saúde</institution>
+					<addr-line>
+						<named-content content-type="city">Brasília</named-content>
+						<named-content content-type="state">DF</named-content>
+					</addr-line>
+					<country country="BR">Brasil</country>
+					<institution content-type="original">Organização Mundial da Saúde. Organização Pan-Americana da Saúde. Brasília, DF, Brasil</institution>
+				</aff>
+				<aff id="aff3">
+					<label>III</label>
+					<institution content-type="orgname">Universidade de Brasília</institution>
+					<institution content-type="orgdiv1">Faculdade de Ciências da Saúde</institution>
+					<addr-line>
+						<named-content content-type="city">Brasília</named-content>
+						<named-content content-type="state">DF</named-content>
+					</addr-line>
+					<country country="BR">Brasil</country>
+					<institution content-type="original">Universidade de Brasília. Faculdade de Ciências da Saúde. Programa de Pós-Graduação em Saúde Coletiva. Brasília, DF, Brasil</institution>
+				</aff>
+				<aff id="aff4">
+					<label>IV</label>
+					<institution content-type="orgname">Fundação Oswaldo Cruz Ceará</institution>
+					<addr-line>
+						<named-content content-type="city">Eusébio</named-content>
+						<named-content content-type="state">CE</named-content>
+					</addr-line>
+					<country country="BR">Brasil</country>
+					<institution content-type="original">Fundação Oswaldo Cruz Ceará. Grupo de Pesquisa em Saúde da Família e Saúde Digital. Eusébio, CE, Brasil</institution>
+				</aff>
+				<aff id="aff5">
+					<label>V</label>
+					<institution content-type="orgname">Universidade de Brasília</institution>
+					<institution content-type="orgdiv1">Faculdade de Ciências da Saúde</institution>
+					<institution content-type="orgdiv2">Departamento de Saúde Coletiva</institution>
+					<addr-line>
+						<named-content content-type="city">Brasília</named-content>
+						<named-content content-type="state">DF</named-content>
+					</addr-line>
+					<country country="BR">Brasil</country>
+					<institution content-type="original">Universidade de Brasília. Faculdade de Ciências da Saúde. Departamento de Saúde Coletiva. Brasília, DF, Brasil</institution>
+				</aff>
+			</contrib-group>
+			<author-notes>
+				<corresp id="c1"><bold>Correspondence:</bold> Erly Catarina Moura Faculdade de Ciências da Saúde Campus Universitário Darcy Ribeiro, Asa Norte <postal-code>70.910-900</postal-code> Brasília, DF, Brasil E-mail: <email>erlycm@gmail.com</email>
+				</corresp>
+				<fn fn-type="conflict">
+					<p><bold>Conflict of Interest:</bold> The authors declare no conflict of interest.</p>
+				</fn>
+			</author-notes>
+			<pub-date date-type="pub" publication-format="electronic">
+				<day>09</day>
+				<month>12</month>
+				<year>2022</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">
+				<year>2022</year>
+			</pub-date>
+			<volume>56</volume>
+			<elocation-id>105</elocation-id>
+			<history>
+				<date date-type="received">
+					<day>15</day>
+					<month>06</month>
+					<year>2022</year>
+				</date>
+				<date date-type="accepted">
+					<day>23</day>
+					<month>06</month>
+					<year>2022</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="en">
+					<license-p>This is an Open Access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>ABSTRACT</title>
+				<sec>
+					<title>OBJECTIVE</title>
+					<p>Describe the temporal evolution of morbimortality due to Covid-19 and vaccination coverage during the health emergency in Brazil.</p>
+				</sec>
+				<sec>
+					<title>METHODS</title>
+					<p>Number of cases and deaths due to Covid-19 were extracted from the public panel of the Brazilian Ministry of Health, according to epidemiological week (EW) and geographic region. Data on vaccines and variants were obtained, respectively, from the Information System of the National Immunization Program and the Genomic Surveillance System of SARS-CoV-2.</p>
+				</sec>
+				<sec>
+					<title>RESULTS</title>
+					<p>Three peaks of deaths characterized the evolution of the Covid-19 pandemic: in EW 30 of 2020, in the EW 14 of 2021 and in the EW six of 2022; three case waves, starting in the North and Northeast regions, with higher rates in the third wave, mainly in the South region. Vaccination started in the epidemiological week three of 2021, rapidly reaching most of the population, particularly in the Southeast and South regions, coinciding with a reduction exclusively in the mortality rate in the third wave. Only from the beginning of the second wave, when Gama was the dominant variant, 146,718 genomes were sequenced. From the last EW of 2021, with vaccination coverage already approaching 70%, the Omicron variant caused an avalanche of cases, but with fewer deaths.</p>
+				</sec>
+				<sec>
+					<title>CONCLUSIONS</title>
+					<p>We noticed the presence of three waves of Covid-19, as well as the effect of immunization on the reduction of mortality in the second and third waves, attributed to the Delta and Omicron variants, respectively. However, the reduction of morbidity, which peaked in the third wave during the domination of the Omicron variant, remained the same. The national and centralized command of the pandemic confrontation did not occur; thus, public administrators took the lead in their territories. The overwhelming effect of the pandemic could have been minimized, if there had been a coordinated participation of three spheres of the Brazilian Unified Health System administration, in the joint governance of the pandemic fight.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="en">
+				<title>DESCRIPTORS</title>
+				<kwd>COVID-19, epidemiology</kwd>
+				<kwd>Indicators of Morbidity and Mortality</kwd>
+				<kwd>Vaccination Coverage</kwd>
+				<kwd>Health Status Disparities</kwd>
+			</kwd-group>
+			<funding-group>
+				<award-group>
+					<funding-source>Public call MCTI/CNPq/CT-Saúde/MS/SCTIE/Decit</funding-source>
+					<award-id>07/2020</award-id>
+				</award-group>
+				<funding-statement>Public call MCTI/CNPq/CT-Saúde/MS/SCTIE/Decit No. 07/2020.</funding-statement>
+			</funding-group>
+			<counts>
+				<fig-count count="8"/>
+				<table-count count="2"/>
+				<equation-count count="0"/>
+				<ref-count count="29"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>INTRODUCTION</title>
+			<p>Since its creation and during more than three decades of existence, the Brazilian Unified Health System (SUS) has advanced, despite many challenges. More recently the Covid-19 pandemic was the main confrontation, considering the country's population size and territorial diversity.</p>
+			<p>The Brazilian Ministry of Health created the Coronavirus Panel<sup><xref ref-type="bibr" rid="B1">1</xref></sup>, which daily summarizes the numbers of cases and deaths due to Covid-19 throughout the country, accounted more than 30 million cases and more than 660,000 deaths until May 21, 2022, showing three propagation waves of the disease in the country.</p>
+			<p>Regarding epidemics and pandemics, public health governance should be valued, by centering national leadership mainly on the Ministry of Health, based on scientific principles and responsibility<sup><xref ref-type="bibr" rid="B2">2</xref></sup>. Unfortunately, the absence of those measurements in Brazil, forced other spheres of public power to assume the federal role<sup><xref ref-type="bibr" rid="B3">3</xref></sup>. The present study highlights the performance of the States, the Federal District and the municipalities. However, the effect of the pandemic was so devastating that, even leading this fight in their respective territories, state and municipal public administrators, either due to their extensive size or the meagre resources available, did not manage to control this outcome. Public administrators could have handled the effect of the pandemic if SUS functioned with the coordinated participation of all government spheres of the Federation<sup><xref ref-type="bibr" rid="B4">4</xref></sup>. The nonexistence of central coordination hindered the fight against the pandemic and postponed the implementation of Covid-19 immunization in Brazil.</p>
+			<p>This study aimed to describe the temporal evolution of cases and deaths from Covid-19 in Brazil according to the advance of vaccination coverage, by geographic regions, and the dominant variants reported in the country.</p>
+		</sec>
+		<sec sec-type="methods">
+			<title>METHODS</title>
+			<p>This is a descriptive temporal study, based on public domain secondary data. The event evaluated was Covid-19, from the first notification until the end of the state of Public Health Emergency of National Importance (ESPIN)<sup><xref ref-type="bibr" rid="B5">5</xref></sup>, in May 21, 2022, or the epidemiological week (EW) 20 of 2022.</p>
+			<p>Number of cases and deaths due to Covid-19 were extracted from the public panel of the Brazilian Ministry of Health, according to epidemiological week and geographic region of residence. Morbidity rates per 10,000 inhabitants and mortality per 100,000 inhabitants were calculated, considering a population estimate for the year 2020<sup><xref ref-type="bibr" rid="B6">6</xref></sup>.</p>
+			<p>Vaccination coverage was estimated, in percentage, by region and epidemiological week, considering individuals with full immunization (one dose or two doses, according to the type of vaccine)<sup><xref ref-type="bibr" rid="B7">7</xref></sup>, also using the population estimate for 2020<sup><xref ref-type="bibr" rid="B6">6</xref></sup>, by region and EW. The evolution of morbidity and mortality rates was plotted for the country and geographic regions as well as vaccination coverage, according to these rates.</p>
+			<p>To identify the dominant variants, the results of the sequenced genomes were extracted from the Genomic Surveillance System of SARS-CoV-2 (Severe Acute Respiratory Syndrome CoronaVirus 2) database in Brazil<sup><xref ref-type="bibr" rid="B8">8</xref></sup>. Data were analyzed regarding the “Main variants by sampling period” by geographic region, from February 2020 to May 2022, according to the month of samples collection, and classified as Alpha, Beta, Gamma, Delta, Omicron and others. The total number of sequenced genomes was plotted, by type of variant, according to morbidity rate and mortality rate for the country.</p>
+			<p>Since the present study is based on secondary data in the public domain, it does not require approval by an ethics committee for research with human beings<sup><xref ref-type="bibr" rid="B9">9</xref></sup>.</p>
+		</sec>
+		<sec sec-type="results">
+			<title>RESULTS</title>
+			<p>The Brazilian Ministry of Health portal shows 30,945,384 cases and 666,391 deaths due to Covid-19 until May 21, 2022 (end of ESPIN), demonstrating three waves of deaths. The first wave was between February 23 (EW nine 2020) and July 25, 2020 (EW 45 2020), with 7,677 deaths weekly. The second, the longest and most lethal, occurred between November 8, 2020 (EW 46 2020) and April 10, 2021 (EW 5 2020), which ended with the triple of deaths: 21,141 in a week. The third wave was the shortest, from December 26, 2021 (EW 52 2021) to May 21, 2022, with 6,246 deaths in total (<xref ref-type="table" rid="t1">Chart</xref>).</p>
+			<table-wrap id="t1">
+				<label>Chart</label>
+				<caption>
+					<title>Characteristics of the three epidemiological waves of Covid-19, determined by the number of deaths. Brazil, 2020–2022.</title>
+				</caption>
+				<table frame="box" rules="groups">
+					<colgroup width="20%">
+						<col width="1%"/>
+						<col/>
+						<col/>
+						<col/>
+						<col/>
+					</colgroup>
+					<thead style="border-top: thin solid; border-bottom: thin solid; border-color: #000000">
+						<tr style="background-color:#D4DBEC">
+							<th align="center" colspan="2" rowspan="2" valign="middle">Characteristics</th>
+							<th align="center" colspan="3" style="border-bottom: thin solid; border-color: #000000;" valign="middle">Epidemiological waves</th>
+						</tr>
+						<tr style="background-color:#D4DBEC">
+							<th align="center" valign="middle">First</th>
+							<th align="center" valign="middle">Second</th>
+							<th align="center" valign="middle">Third</th>
+						</tr>
+					</thead>
+					<tbody style="border-bottom: thin solid; border-color: #000000">
+						<tr>
+							<td align="left" colspan="5" valign="middle">Beginning</td>
+						</tr>
+						<tr style="background-color:#EEF0F7">
+							<td align="left" valign="middle"/>
+							<td align="left" valign="middle">EW</td>
+							<td align="center" valign="middle">9/20</td>
+							<td align="center" valign="middle">46/20</td>
+							<td align="center" valign="middle">52/21</td>
+						</tr>
+						<tr>
+							<td align="left" valign="middle"/>
+							<td align="left" valign="middle">Date</td>
+							<td align="center" valign="middle">July 23, 2020</td>
+							<td align="center" valign="middle">Nov. 08, 2020</td>
+							<td align="center" valign="middle">Dec. 26, 2021</td>
+						</tr>
+						<tr style="background-color:#EEF0F7">
+							<td align="left" colspan="5" valign="middle">End</td>
+						</tr>
+						<tr>
+							<td align="left" valign="middle"/>
+							<td align="left" valign="middle">EW</td>
+							<td align="center" valign="middle">45/20</td>
+							<td align="center" valign="middle">51/21</td>
+							<td align="center" valign="middle">20/22</td>
+						</tr>
+						<tr style="background-color:#EEF0F7">
+							<td align="left" valign="middle"/>
+							<td align="left" valign="middle">Date</td>
+							<td align="center" valign="middle">Nov. 07, 2020</td>
+							<td align="center" valign="middle">Dec. 25, 2021</td>
+							<td align="center" valign="middle">May 21, 2022</td>
+						</tr>
+						<tr>
+							<td align="left" colspan="5" valign="middle">Duration</td>
+						</tr>
+						<tr style="background-color:#EEF0F7">
+							<td align="left" valign="middle"/>
+							<td align="left" valign="middle">EW</td>
+							<td align="center" valign="middle">37</td>
+							<td align="center" valign="middle">59</td>
+							<td align="center" valign="middle">23</td>
+						</tr>
+						<tr>
+							<td align="left" colspan="5" valign="middle">Peak</td>
+						</tr>
+						<tr style="background-color:#EEF0F7">
+							<td align="left" valign="middle"/>
+							<td align="left" valign="middle">EW</td>
+							<td align="center" valign="middle">30/20</td>
+							<td align="center" valign="middle">14/21</td>
+							<td align="center" valign="middle">6/22</td>
+						</tr>
+						<tr>
+							<td align="left" valign="middle"/>
+							<td align="left" valign="middle">Date</td>
+							<td align="center" valign="middle">July 25, 2020</td>
+							<td align="center" valign="middle">Apr. 10, 2021</td>
+							<td align="center" valign="middle">Feb. 12, 2022</td>
+						</tr>
+						<tr style="background-color:#EEF0F7">
+							<td align="left" colspan="5" valign="middle">Deaths</td>
+						</tr>
+						<tr>
+							<td align="left" valign="middle"/>
+							<td align="left" valign="middle">Number on wave</td>
+							<td align="center" valign="middle">162,269</td>
+							<td align="center" valign="middle">455,379</td>
+							<td align="center" valign="middle">46,046</td>
+						</tr>
+						<tr style="background-color:#EEF0F7">
+							<td align="left" valign="middle"/>
+							<td align="left" valign="middle">Number at peak</td>
+							<td align="center" valign="middle">7,677</td>
+							<td align="center" valign="middle">21,141</td>
+							<td align="center" valign="middle">6,246</td>
+						</tr>
+						<tr>
+							<td align="left" valign="middle"/>
+							<td align="left" valign="middle">Rate<xref ref-type="table-fn" rid="TFN2">a</xref> on the wave</td>
+							<td align="center" valign="middle">76.5</td>
+							<td align="center" valign="middle">214.7</td>
+							<td align="center" valign="middle">46.0</td>
+						</tr>
+						<tr style="background-color:#EEF0F7">
+							<td align="left" valign="middle"/>
+							<td align="left" valign="middle">Rate<xref ref-type="table-fn" rid="TFN2">a</xref> at peak</td>
+							<td align="center" valign="middle">3.6</td>
+							<td align="center" valign="middle">10.0</td>
+							<td align="center" valign="middle">2.9</td>
+						</tr>
+						<tr>
+							<td align="left" valign="middle"/>
+							<td align="left" valign="middle">Rate<xref ref-type="table-fn" rid="TFN2">a</xref> at the end</td>
+							<td align="center" valign="middle">1.1</td>
+							<td align="center" valign="middle">0.3</td>
+							<td align="center" valign="middle">0.1</td>
+						</tr>
+						<tr style="background-color:#EEF0F7">
+							<td align="left" colspan="2" valign="middle">EW (number)</td>
+							<td align="center" valign="middle">4,386</td>
+							<td align="center" valign="middle">7,718</td>
+							<td align="center" valign="middle">2,002</td>
+						</tr>
+					</tbody>
+				</table>
+				<table-wrap-foot>
+					<fn id="TFN1">
+						<p>EW: epidemiological week.</p>
+					</fn>
+					<attrib>Source: Coronavirus Panel data<sup><xref ref-type="bibr" rid="B1">1</xref></sup>.</attrib>
+					<fn id="TFN2">
+						<label>a</label>
+						<p>Per 100,000 inhabitants.</p>
+					</fn>
+				</table-wrap-foot>
+			</table-wrap>
+			<p>The first wave peaked in mortality at the epidemiological week 30 of 2020, the second wave at the EW 14 of 2021, and the third in the EW six of 2022. The peaks of the waves occurred at different epidemiological weeks in the five Brazilian regions (<xref ref-type="fig" rid="f1">Figure 1</xref>). The first two cases, recorded in the EW nine of 2020, occurred in the Southeast region. The evolution of the pandemic differed according to the region of the country: initially progressing in the North region, with a peak of cases during the first wave in the epidemiological week 26 of 2020, followed by the Northeast (EW 27), Midwest (EW 32), Southeast (EW 33) and, finally, the Southern (EW 36) region (<xref ref-type="fig" rid="f1">Figure 1</xref>). The second wave intensified first and was more prominent in the South region, reaching more than 50 cases per 10,000 inhabitants. The third wave abruptly increased hitting all regions, with the highest rate in the South (111 cases per 10,000 inhabitants), and almost 50,000 reported cases in a single day.</p>
+			<fig id="f1">
+				<label>Figure 1</label>
+				<caption>
+					<title>Morbidity (cases per 10,000 inhabitants) and mortality rates (deaths per 100,000 inhabitants) due to Covid-19, according to epidemiological week, country and geographic region. Brazil, 2020–2022.</title>
+				</caption>
+				<graphic xlink:href="1518-8787-rsp-56-105-gf01.tif"/>
+				<attrib>Source: Coronavirus Panel data<sup><xref ref-type="bibr" rid="B1">1</xref></sup>.</attrib>
+			</fig>
+			<p>Regarding mortality rates due to Covid-19 (<xref ref-type="fig" rid="f1">Figure 1</xref>), the second among the three waves had the highest peak in all regions. At that time, the country had more than 15,000 deaths per week for eight weeks in a row. The North region stands out with earlier peaks in the first and second waves, followed by the Northeast and Southeast regions and, finally, the South and Midwest regions. The lowest rates occurred during the third wave, and the Southeast region had the highest mortality rates.</p>
+			<p>
+				<xref ref-type="fig" rid="f2">Figure 2</xref> shows lower number of deaths with the increase in immunization against Covid-19, in the country in general and in all regions individually during the year 2021, but with a new increase in the first weeks of 2022. This scenario coincides with the increase in the number of cases (<xref ref-type="fig" rid="f3">Figure 3</xref>), whose peak occurred in the epidemiological week six of 2022, regardless of vaccination coverage. Although the vaccination initiated concomitantly in all regions, its evolution was distinct, advancing faster in the Southeast and South Regions, in which the Southeast Region reached coverage of 50% around the EW 38 of 2021 and the Northern Region only in the EW 38, and by the end of this study it was almost 40% higher in the Southeast region than in the North region, achieving coverage of 83 and 60%, respectively.</p>
+			<fig id="f2">
+				<label>Figure 2</label>
+				<caption>
+					<title>Mortality rates (deaths per 100,000 inhabitants) due to Covid-19 and vaccination coverage (%) against Covid-19, according to epidemiological week, country and geographic region. Brazil, 2020–2022.</title>
+				</caption>
+				<graphic xlink:href="1518-8787-rsp-56-105-gf02.tif"/>
+				<attrib>Source: Coronavirus Panel data<sup><xref ref-type="bibr" rid="B1">1</xref></sup> and the Information System of the National Immunization Program<sup><xref ref-type="bibr" rid="B7">7</xref></sup>.</attrib>
+			</fig>
+			<fig id="f3">
+				<label>Figura 3</label>
+				<caption>
+					<title>Morbidity rates (cases per 10,000 inhabitants) due to Covid-19 and vaccination coverage (%) against Covid-19, per epidemiological week, depending on the country and geographic region. Brazil, 2020–2022.</title>
+				</caption>
+				<graphic xlink:href="1518-8787-rsp-56-105-gf03.tif"/>
+				<attrib>Source: Coronavirus Panel<sup><xref ref-type="bibr" rid="B1">1</xref></sup> and the Information System of the National Immunization Program data<sup><xref ref-type="bibr" rid="B7">7</xref></sup>.</attrib>
+			</fig>
+			<p>Since the start of the pandemic, 148,839 genomes have been sequenced, slowly at first, then mainly increasing from March 2021 (start of the second wave), with a higher amount in January 2022 (peak of the third wave) (<xref ref-type="fig" rid="f4">Figure 4</xref>). We observed that, in 2020, practically no tests were made for the identification of strains, a period in which the Alpha variant is identified on a very small scale; in the second wave, the predominant variant was Gamma and then, Omicron. The Beta variant was not detected in Brazil. Regarding Covid-19 morbidity, the Omicron variant stands out, as for the mortality, the Gamma variant stands out.</p>
+			<fig id="f4">
+				<label>Figure 4</label>
+				<caption>
+					<title>Distribution (number) of sequenced genomes, second month of collection and type of variant, morbidity rates (cases per 10,000 inhabitants) and mortality rates (per 100,000 inhabitants) due to Covid-19, Brazil, 2020–2022.</title>
+				</caption>
+				<graphic xlink:href="1518-8787-rsp-56-105-gf04.tif"/>
+				<attrib>Source: Coronavirus Panel<sup><xref ref-type="bibr" rid="B1">1</xref></sup> and Genomic Surveillance System of SARS-CoV-2<sup><xref ref-type="bibr" rid="B8">8</xref></sup> data.</attrib>
+			</fig>
+		</sec>
+		<sec sec-type="discussion">
+			<title>DISCUSSION</title>
+			<p>The data of the present study show the evolution of morbidity and mortality rates due to Covid-19 and vaccine coverage against coronavirus, unequal among the different regions of the country. Despite the identification of three waves, all of them present a spread of the pandemic in the Northern Region and, then, in the Northeast — socioeconomically disadvantaged regions. This condition impacts the vaccination coverage, which is slower in these regions, and in the Midwest, falling below the national average.</p>
+			<p>Accurate or even approximate data on the number of cases of Covid-19 in Brazil have several limitations, such as: the decision not to perform mass testing; the low availability of diagnostic tests (imported); the uncertain quality of some types of tests; the low sensitivity and specificity of the tests; the absence of registration in the information systems on the type of test performed (antigen or PCR)<sup><xref ref-type="bibr" rid="B10">10</xref>–<xref ref-type="bibr" rid="B12">12</xref></sup>, especially during the first months of the pandemic.</p>
+			<p>Since January 28, 2022, the Brazilian Health Regulatory Agency (Anvisa) authorized the registration, distribution and commercialization of self-tests for antigen detection of SARS-CoV-2<sup><xref ref-type="bibr" rid="B13">13</xref></sup>. Thereafter, anyone could acquire and perform their own test. However, among the tests for detecting antibodies approved in Brazil for commercialization, sensitivity range levels are low to moderate, which can generate difficulty in diagnosing infected people<sup><xref ref-type="bibr" rid="B10">10</xref></sup>. Self-tests are available in pharmacies, however, patients are not obligated to report positive self-tests for epidemiological surveillance, only guidance to seek medical attention is required if the result is positive<sup><xref ref-type="bibr" rid="B14">14</xref></sup>. In mild to moderate cases of Covid-19, many people are unlikely to seek medical care, therefore, official systems of records cannot identify them. Thus, data on the number of cases for Covid-19 became even more fragile.</p>
+			<p>The absence of genomic sequencing in the first year of the pandemic, with insufficient testing, did not cover 0.5% of the reported number of Covid-19 cases. Since no sampling process could represent the different population groups, the samples for sequencing do not reflect the national reality, acting exclusively as markers (proxy) for the identification of the dominant variants during this period.</p>
+			<p>Hospital care was in high demand, especially in the second wave when health services were overloaded, starting with the collapse in the city of Manaus<sup><xref ref-type="bibr" rid="B15">15</xref>,<xref ref-type="bibr" rid="B16">16</xref></sup>. Data from the Influenza Epidemiological Surveillance Information System (SIVEP-Gripe)<sup><xref ref-type="bibr" rid="B17">17</xref>,<xref ref-type="bibr" rid="B18">18</xref></sup> show the highest hospital demand in the second wave, coinciding with high mortality. On the other hand, the low demand for hospitals in the third wave coincided with high vaccination coverage and the emergence of the less lethal variant — Omicron, when most cases were reported and assisted by primary and secondary care services.</p>
+			<p>The use of daily and up-to-date information on deaths enables an immediate response to the health needs imposed by the pandemic. However, the data provided by the Ministry of Health are synthesized, allowing the recording of the occurrence in a municipality different from the original, whose value is corrected in the epidemiological week <italic>a posteriori</italic>. Thus, the maintenance of two entries, one negative, does not give security regarding the number of occurrences of each municipality per week, also generating inaccuracy in the values per unit of the federation and region. On the other hand, the pandemic demanded speed in the information, which required immediate transparency of the data, although incomplete, but also exposes the unpreparedness regarding the quality of the information, showing mostly the need for improvement in the accuracy of the occurrence record and minimum completeness of variables such as gender, age group and municipality of residence. The pandemic also showed the possibility of implementing an agile system in a territory as large and heterogeneous as Brazil, alerting the urgency of human resources training and development of its own system for recording these data, even in the most distant locations.</p>
+			<p>Another limitation refers to the use of the 2020 population estimate, based on the 2010 census. The census in Brazil occurs every 10 years, but due to the pandemic, it did not occur in 2020. The pandemic also warns for the need of precise and safe alternatives for population counting that can be done remotely, such as several virtual visits, which surfaced during this period. However, to carry out the full census as soon as possible is urgent.</p>
+			<p>Comparing to the Mortality Information System<sup><xref ref-type="bibr" rid="B19">19</xref></sup>, considered the gold standard<sup><xref ref-type="bibr" rid="B20">20</xref></sup>, the terms of the death's registration in the Coronavirus Panel of the Brazilian Ministry of Health was delayed several weeks. Deaths due to Covid-19 started in the EW one of 2020 but were only recorded in the Panel from the EW 12, in greater number in relation to population density in the Northeast, a situation that repeated in the second wave of deaths, with higher values in the Southeast region, the most densely populated. The need to adapt health services in the first wave and high number of deaths in the second can explain these occurrences.</p>
+			<p>Moreover, the appearance of a new more lethal variant (Delta) in 2021<sup><xref ref-type="bibr" rid="B21">21</xref></sup>, may explain the sudden evolution of deaths in the second wave, contained by the beginning of immunization, which, although increasing, was scarce to prevent the high mortality rates in the second wave. The progressive increase in vaccination coverage in 2021 and 2022 was also unable to stop the occurrence and dispersion of cases of the Omicron variant, with high transmission power but lower lethality, reaching mostly the South region.</p>
+			<p>As other viruses, SARS-CoV-2 is also subject to mutations, by alteration in molecular structure, during the replication process. The first variant of concern (VOC) identified was Alpha (Alpha – B.1.1.7) in England; followed by Beta (Beta – B.1.351) in South Africa; Gamma (Gamma – P.1) in Brazil; Delta (Delta – B.1.617.2) in India and Omicron (Omicron – B.1.1.529) in Africa<sup><xref ref-type="bibr" rid="B22">22</xref></sup>. Mutations can make the virus more infectious, facilitating its entry into cells, or more transmissible, by increasing circulation, as in the case of Omicron, which quickly became the dominant variant worldwide<sup><xref ref-type="bibr" rid="B23">23</xref>,<xref ref-type="bibr" rid="B24">24</xref></sup>.</p>
+			<p>The mutation process also explains the reinfection of the disease and the drop in immunity, observed after a few months of the application of the primary vaccination schedule or the booster dose. This process contributes to the reduction of the vaccines effectiveness against infection and the decrease in sensitivity to diagnostic tests, which reinforces, from the clinical and epidemiological point of view, the need to maintain non-pharmacological measures and accelerate immunization, to reduce the circulation of the virus and the emergence of new mutations<sup><xref ref-type="bibr" rid="B25">25</xref></sup>. Reinfection may justify the pattern of morbidity and mortality during the third wave in this study. According to a survey conducted by the government of São Paulo, whose population has complete vaccination coverage of 88.5%, the Omicron variant caused an explosion of cases, but not deaths, in early 2022. The notification went from an average of 2,000 cases of Covid-19 daily to a peak of 14,542. However, in the same period (December 5, 2021 to February 26, 2022) the number of deaths due to Covid-19 among unvaccinated people was 26 times higher than fully immunized, showed the survey<sup><xref ref-type="bibr" rid="B26">26</xref></sup>. According to the Health Secretariat, in the Federal District 72% of deaths in the third wave were of unvaccinated people or those with an incomplete vaccination schedule. Complete vaccination coverage in the Federal District is 84.7%. Among the number of deaths, 85% of the people had comorbidities and the mean age was 80 years<sup><xref ref-type="bibr" rid="B27">27</xref></sup>.</p>
+			<p>The evolution of Covid-19 in three waves corroborates the trends observed in Europe, the Americas and Asia<sup><xref ref-type="bibr" rid="B28">28</xref></sup>.</p>
+			<p>The results of the present study confirm the difficulties that Brazil experienced against Covid-19. The speed with which the disease spread prevented the timely use of scientific evidence in support of government decisions<sup><xref ref-type="bibr" rid="B16">16</xref>,<xref ref-type="bibr" rid="B29">29</xref></sup>. Proposals to control the pandemic and treat the disease, without scientific support, such as the use of antibiotics, antiparasitic drugs and others, stood on the way, but then vaccines began to be tested, showing a reduction in the risk of moderate and severe complications. The beginning of vaccination was slow, with low coverage of the population at risk and amid false news about the benefit of immunization and unfounded side effects, combined with low acceptance of non-pharmacological protective measures, such as social isolation and mask use<sup><xref ref-type="bibr" rid="B16">16</xref></sup>.</p>
+			<p>In addition to the overload of the health system and the lack of essential inputs, such as oxygen, starting in the state of Amazonas<sup><xref ref-type="bibr" rid="B15">15</xref>,<xref ref-type="bibr" rid="B16">16</xref></sup> and spreading rapidly throughout the rest of the country, the differentiated distribution of scarce resources made the pandemic situation even harder.</p>
+			<p>We emphasize the role of the three spheres of government in health care, concomitant with other public policies of social security and ensuring universal, full and non-discriminatory access, based on personal autonomy, the right to scientifically proven information and social control. Thus, the responsibility of the SUS, in addition to ensuring community management and epidemiology as a management tool, must ensure political-administrative decentralization with a single direction in each governmental sphere. The leadership of municipal and state public administrators in combating the Covid-19, demonstrated the construction of their own strategies to deal with the effects of the pandemic on their populations, which explains part of the regional differences.</p>
+			<p>In addition to the strengthening of local managers, leaders in their territories, the fact that articulation between the three spheres of management of the SUS could have reduced the direct and indirect effects of the pandemic on the Brazilian population stays as a lesson.</p>
+		</sec>
+	</body>
+	<back>
+		<fn-group>
+			<fn fn-type="financial-disclosure" id="fn1">
+				<p><bold>Funding:</bold> Public call MCTI/CNPq/CT-Saúde/MS/SCTIE/Decit No. 07/2020.</p>
+			</fn>
+		</fn-group>
+		<ref-list>
+			<title>REFERENCES</title>
+			<ref id="B1">
+				<label>1</label>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+					</person-group>
+					<chapter-title>Secretaria de Vigilância em Saúde</chapter-title>
+					<source>COVID 19 Painel Coronavírus</source>
+					<publisher-loc>Brasíia, DF</publisher-loc>
+					<year>2020</year>
+					<date-in-citation content-type="access-date">[cited 2022 Jun 6]</date-in-citation>
+					<comment>Available from: <ext-link ext-link-type="uri" xlink:href="https://covid.saude.gov.br/">https://covid.saude.gov.br/</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>1 Ministério da Saúde (BR), Secretaria de Vigilância em Saúde. COVID 19 Painel Coronavírus. Brasíia, DF; 2020 [cited 2022 Jun 6]. Available from: <ext-link ext-link-type="uri" xlink:href="https://covid.saude.gov.br/">https://covid.saude.gov.br/</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Brasil, Constituição (1988)</collab>
+					</person-group>
+					<source>Constituição da República Federativa do Brasil</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<year>1988</year>
+					<date-in-citation content-type="access-date">[cited 2022 Jun 6]</date-in-citation>
+					<comment>Available from: <ext-link ext-link-type="uri" xlink:href="http://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm">http://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>2 Brasil, Constituição (1988). Constituição da República Federativa do Brasil. Brasília, DF; 1988 [cited 2022 Jun 6]. Available from: <ext-link ext-link-type="uri" xlink:href="http://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm">http://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Abrucio</surname>
+							<given-names>FL</given-names>
+						</name>
+						<name>
+							<surname>Grin</surname>
+							<given-names>EJ</given-names>
+						</name>
+						<name>
+							<surname>Franzese</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Segatto</surname>
+							<given-names>CI</given-names>
+						</name>
+						<name>
+							<surname>Couto</surname>
+							<given-names>CG</given-names>
+						</name>
+					</person-group>
+					<article-title>Combate à COVID-19 sob o federalismo bolsonarista: um caso de descoordenação intergovernamental</article-title>
+					<source>Rev Adm Publica</source>
+					<year>2020</year>
+					<volume>54</volume>
+					<issue>4</issue>
+					<fpage>663</fpage>
+					<lpage>677</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0034-761220200354">https://doi.org/10.1590/0034-761220200354</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>3 Abrucio FL, Grin EJ, Franzese C, Segatto CI, Couto CG. Combate à COVID-19 sob o federalismo bolsonarista: um caso de descoordenação intergovernamental. Rev Adm Publica. 2020;54(4):663-77. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0034-761220200354">https://doi.org/10.1590/0034-761220200354</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Shimizu</surname>
+							<given-names>HE</given-names>
+						</name>
+						<name>
+							<surname>Lima</surname>
+							<given-names>LD</given-names>
+						</name>
+						<name>
+							<surname>Carvalho</surname>
+							<given-names>ALB</given-names>
+						</name>
+						<name>
+							<surname>Carvalho</surname>
+							<given-names>BG</given-names>
+						</name>
+						<name>
+							<surname>Viana</surname>
+							<given-names>ALDA</given-names>
+						</name>
+					</person-group>
+					<article-title>Regionalização e crise federativa no contexto da pandemia da Covid 19: impasses e perspectivas</article-title>
+					<source>Saude Debate</source>
+					<year>2021</year>
+					<volume>45</volume>
+					<issue>131</issue>
+					<fpage>945</fpage>
+					<lpage>957</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0103-1104202113101i">https://doi.org/10.1590/0103-1104202113101i</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>4 Shimizu HE, Lima LD, Carvalho ALB, Carvalho BG, Viana ALDA. Regionalização e crise federativa no contexto da pandemia da Covid 19: impasses e perspectivas. Saude Debate. 2021;45(131):945-57. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0103-1104202113101i">https://doi.org/10.1590/0103-1104202113101i</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+					</person-group>
+					<comment>Portaria GM/MS N° 913, de 22 de abril de 2022</comment>
+					<source>Declara o encerramento da Emergência em Saúde Pública de Importância Nacional (ESPIN) em decorrência da infecção humana pelo novo coronavírus (2019-nCoV) e revoga a Portaria GM/MS n° 188, de 3 de fevereiro de 2020</source>
+					<publisher-name>Diário Oficial da União</publisher-name>
+					<day>22</day>
+					<month>04</month>
+					<year>2022</year>
+					<date-in-citation content-type="access-date">[cited 2022 May 22]</date-in-citation>
+					<comment>Seção 1-Extra E:1. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.in.gov.br/en/web/dou/-/portaria-gm/ms-n-913-de-22-de-abril-de-2022-394545491">https://www.in.gov.br/en/web/dou/-/portaria-gm/ms-n-913-de-22-de-abril-de-2022-394545491</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>5 Ministério da Saúde (BR). Portaria GM/MS N° 913, de 22 de abril de 2022. Declara o encerramento da Emergência em Saúde Pública de Importância Nacional (ESPIN) em decorrência da infecção humana pelo novo coronavírus (2019-nCoV) e revoga a Portaria GM/MS n° 188, de 3 de fevereiro de 2020. Diário Oficial da União. 22 abr 2022 [cited 2022 May 22]; Seção 1-Extra E:1. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.in.gov.br/en/web/dou/-/portaria-gm/ms-n-913-de-22-de-abril-de-2022-394545491">https://www.in.gov.br/en/web/dou/-/portaria-gm/ms-n-913-de-22-de-abril-de-2022-394545491</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR), DATASUS</collab>
+					</person-group>
+					<source>Projeção da população das unidades da Federação por sexo e grupos de idade: 2000-2030</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<date-in-citation content-type="access-date">[cited 2021 Mar 12]</date-in-citation>
+					<comment>Available from: <ext-link ext-link-type="uri" xlink:href="http://tabnet.datasus.gov.br/cgi/tabcgi.exe?ibge/cnv/projpopuf.def">http://tabnet.datasus.gov.br/cgi/tabcgi.exe?ibge/cnv/projpopuf.def</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>6 Ministério da Saúde (BR), DATASUS. Projeção da população das unidades da Federação por sexo e grupos de idade: 2000-2030. Brasília, DF; [cited 2021 Mar 12]. Available from: <ext-link ext-link-type="uri" xlink:href="http://tabnet.datasus.gov.br/cgi/tabcgi.exe?ibge/cnv/projpopuf.def">http://tabnet.datasus.gov.br/cgi/tabcgi.exe?ibge/cnv/projpopuf.def</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+					</person-group>
+					<chapter-title>Sistema de Informação do Programa de Imunizações (SI-PNI)</chapter-title>
+					<source>Campanha Nacional de Vacinação contra Covid-19</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<year>2021</year>
+					<date-in-citation content-type="access-date">[cited 2022 May 22]</date-in-citation>
+					<comment>Available from: <ext-link ext-link-type="uri" xlink:href="https://opendatasus.saude.gov.br/dataset/covid-19-vacinacao">https://opendatasus.saude.gov.br/dataset/covid-19-vacinacao</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>7 Ministério da Saúde (BR), Sistema de Informação do Programa de Imunizações (SI-PNI). Campanha Nacional de Vacinação contra Covid-19. Brasília, DF; 2021 [cited 2022 May 22]. Available from: <ext-link ext-link-type="uri" xlink:href="https://opendatasus.saude.gov.br/dataset/covid-19-vacinacao">https://opendatasus.saude.gov.br/dataset/covid-19-vacinacao</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+					</person-group>
+					<source>Vigilância Genômica do SARS-CoV-2 no Brasil: Principais variantes por período de amostragem</source>
+					<publisher-loc>Rio de Janeiro</publisher-loc>
+					<publisher-name>Fiocruz</publisher-name>
+					<year>2022</year>
+					<date-in-citation content-type="access-date">[cited 2022 Jun 4]</date-in-citation>
+					<comment>Available from: <ext-link ext-link-type="uri" xlink:href="http://www.genomahcov.fiocruz.br/dashboard-pt/">http://www.genomahcov.fiocruz.br/dashboard-pt/</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>8 Ministério da Saúde (BR). Vigilância Genômica do SARS-CoV-2 no Brasil: Principais variantes por período de amostragem. Rio de Janeiro: Fiocruz; 2022 [cited 2022 Jun 4]. Available from: <ext-link ext-link-type="uri" xlink:href="http://www.genomahcov.fiocruz.br/dashboard-pt/">http://www.genomahcov.fiocruz.br/dashboard-pt/</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+					</person-group>
+					<source>Conselho Nacional de Saúde</source>
+					<comment>Resolução N° 510, de 7 de abril de 2016</comment>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<year>2016</year>
+					<date-in-citation content-type="access-date">[cited 2021 Apr 1]</date-in-citation>
+					<comment>Available from: <ext-link ext-link-type="uri" xlink:href="http://www.conselho.saude.gov.br/resolucoes/2016/Reso510.pdf">http://www.conselho.saude.gov.br/resolucoes/2016/Reso510.pdf</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>9 Ministério da Saúde (BR), Conselho Nacional de Saúde. Resolução N° 510, de 7 de abril de 2016. Brasília, DF; 2016 [cited 2021 Apr 1]. Available from: <ext-link ext-link-type="uri" xlink:href="http://www.conselho.saude.gov.br/resolucoes/2016/Reso510.pdf">http://www.conselho.saude.gov.br/resolucoes/2016/Reso510.pdf</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Castro</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Luz</surname>
+							<given-names>PM</given-names>
+						</name>
+						<name>
+							<surname>Wakimoto</surname>
+							<given-names>MD</given-names>
+						</name>
+						<name>
+							<surname>Veloso</surname>
+							<given-names>VG</given-names>
+						</name>
+						<name>
+							<surname>Grinsztejn</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Perazzo</surname>
+							<given-names>H</given-names>
+						</name>
+					</person-group>
+					<article-title>COVID-19: a meta-analysis of diagnostic test accuracy of commercial assays registered in Brazil</article-title>
+					<source>Braz J Infect Dis</source>
+					<year>2020</year>
+					<volume>24</volume>
+					<issue>2</issue>
+					<fpage>180</fpage>
+					<lpage>187</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.bjid.2020.04.003">https://doi.org/10.1016/j.bjid.2020.04.003</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>10 Castro R, Luz PM, Wakimoto MD, Veloso VG, Grinsztejn B, Perazzo H. COVID-19: a meta-analysis of diagnostic test accuracy of commercial assays registered in Brazil. Braz J Infect Dis. 2020;24(2):180-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.bjid.2020.04.003">https://doi.org/10.1016/j.bjid.2020.04.003</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ernst</surname>
+							<given-names>DJ</given-names>
+						</name>
+						<name>
+							<surname>Martel</surname>
+							<given-names>AM</given-names>
+						</name>
+						<name>
+							<surname>Arbique</surname>
+							<given-names>JC</given-names>
+						</name>
+						<name>
+							<surname>Ernst</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Johnson</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>McCall</surname>
+							<given-names>RE</given-names>
+						</name>
+					</person-group>
+					<source>Collection of diagnostic venous blood specimens</source>
+					<edition>7. ed.</edition>
+					<publisher-loc>Wayne, PA</publisher-loc>
+					<publisher-name>Clinical and Laboratory Standards Institute</publisher-name>
+					<year>2017</year>
+					<date-in-citation content-type="access-date">[cited 2022 Jun 12]</date-in-citation>
+					<comment>(CLSI standard GP 41). Available from: <ext-link ext-link-type="uri" xlink:href="https://clsi.org/media/1372/gp41ed7_sample.pdf">https://clsi.org/media/1372/gp41ed7_sample.pdf</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>11 Ernst DJ, Martel AM, Arbique JC, Ernst C, Johnson S, McCall RE. Collection of diagnostic venous blood specimens. 7. ed. Wayne, PA: Clinical and Laboratory Standards Institute; 2017 [cited 2022 Jun 12]. (CLSI standard GP 41). Available from: <ext-link ext-link-type="uri" xlink:href="https://clsi.org/media/1372/gp41ed7_sample.pdf">https://clsi.org/media/1372/gp41ed7_sample.pdf</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Martinello</surname>
+							<given-names>F</given-names>
+						</name>
+					</person-group>
+					<article-title>Acurácia diagnóstica dos métodos sorológicos de detecção da COVID-19</article-title>
+					<source>Rev Bras Anal Clin</source>
+					<year>2021</year>
+					<volume>53</volume>
+					<issue>2</issue>
+					<fpage>155</fpage>
+					<lpage>162</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.21877/2448-3877.202100966">https://doi.org/10.21877/2448-3877.202100966</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>12 Martinello F. Acurácia diagnóstica dos métodos sorológicos de detecção da COVID-19. Rev Bras Anal Clin. 2021;53(2):155-62. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.21877/2448-3877.202100966">https://doi.org/10.21877/2448-3877.202100966</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR), Agência Nacional de Vigilância Sanitária</collab>
+					</person-group>
+					<comment>Resolução RDC N° 595, de 28 de janeiro de 2022</comment>
+					<source>Dispõe sobre os requisitos e procedimentos para a solicitação de registro, distribuição, comercialização e utilização de dispositivos médicos para diagnóstico in vitro como autoteste para detecção de antígeno do SARS-CoV-2, em consonância ao Plano Nacional de Expansão da Testagem para Covid-19 (PNE-Teste), e dá outras providências</source>
+					<publisher-name>Diário Oficial da União</publisher-name>
+					<day>28</day>
+					<month>01</month>
+					<year>2022</year>
+					<date-in-citation content-type="access-date">[cited 2022 Jun 8]</date-in-citation>
+					<comment>Seção 1-Extra A:1 Available from: <ext-link ext-link-type="uri" xlink:href="https://www.in.gov.br/web/dou/-/resolucao-rdc-n-595-de-28-de-janeiro-de-2022-376825970">https://www.in.gov.br/web/dou/-/resolucao-rdc-n-595-de-28-de-janeiro-de-2022-376825970</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>13 Ministério da Saúde (BR), Agência Nacional de Vigilância Sanitária. Resolução RDC N° 595, de 28 de janeiro de 2022. Dispõe sobre os requisitos e procedimentos para a solicitação de registro, distribuição, comercialização e utilização de dispositivos médicos para diagnóstico in vitro como autoteste para detecção de antígeno do SARS-CoV-2, em consonância ao Plano Nacional de Expansão da Testagem para Covid-19 (PNE-Teste), e dá outras providências. Diário Oficial da União. 28 jan 2022 [cited 2022 Jun 8]; Seção 1-Extra A:1 Available from: <ext-link ext-link-type="uri" xlink:href="https://www.in.gov.br/web/dou/-/resolucao-rdc-n-595-de-28-de-janeiro-de-2022-376825970">https://www.in.gov.br/web/dou/-/resolucao-rdc-n-595-de-28-de-janeiro-de-2022-376825970</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+					</person-group>
+					<source>Agência Nacional de Vigilância Sanitária. Perguntas frequentes: Autoteste Covid-19</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<publisher-name>Anvisa</publisher-name>
+					<year>2022</year>
+					<date-in-citation content-type="access-date">[cited 2022 Jun 8]</date-in-citation>
+					<comment>Available from: <ext-link ext-link-type="uri" xlink:href="https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2022/anvisa-regulamenta-a-utilizacao-de-autotestes-para-covid-19/PerguntasfrequentesAutotestesCovid.pdf">https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2022/anvisa-regulamenta-a-utilizacao-de-autotestes-para-covid-19/PerguntasfrequentesAutotestesCovid.pdf</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>14 Ministério da Saúde (BR), Agência Nacional de Vigilância Sanitária. Perguntas frequentes: Autoteste Covid-19. Brasília, DF: Anvisa; 2022 [cited 2022 Jun 8]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2022/anvisa-regulamenta-a-utilizacao-de-autotestes-para-covid-19/PerguntasfrequentesAutotestesCovid.pdf">https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2022/anvisa-regulamenta-a-utilizacao-de-autotestes-para-covid-19/PerguntasfrequentesAutotestesCovid.pdf</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sabino</surname>
+							<given-names>EC</given-names>
+						</name>
+						<name>
+							<surname>Buss</surname>
+							<given-names>LF</given-names>
+						</name>
+						<name>
+							<surname>Carvalho</surname>
+							<given-names>MPS</given-names>
+						</name>
+						<name>
+							<surname>Prete</surname>
+							<given-names>CA</given-names>
+							<suffix>Jr</suffix>
+						</name>
+						<name>
+							<surname>Crispim</surname>
+							<given-names>MAE</given-names>
+						</name>
+						<name>
+							<surname>Fraiji</surname>
+							<given-names>NA</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Resurgence of COVID-19 in Manaus, Brazil, despite high seroprevalence</article-title>
+					<source>Lancet</source>
+					<year>2021</year>
+					<volume>97</volume>
+					<issue>10273</issue>
+					<fpage>452</fpage>
+					<lpage>455</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(21)00183-5">https://doi.org/10.1016/S0140-6736(21)00183-5</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>15 Sabino EC, Buss LF, Carvalho MPS, Prete Jr CA, Crispim MAE, Fraiji NA, et al. Resurgence of COVID-19 in Manaus, Brazil, despite high seroprevalence. Lancet. 2021;97(10273):452-5. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(21)00183-5">https://doi.org/10.1016/S0140-6736(21)00183-5</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Barreto</surname>
+							<given-names>ICHC</given-names>
+						</name>
+						<name>
+							<surname>Costa</surname>
+							<given-names>RV</given-names>
+							<suffix>Filho</suffix>
+						</name>
+						<name>
+							<surname>Ramos</surname>
+							<given-names>RF</given-names>
+						</name>
+						<name>
+							<surname>Oliveira</surname>
+							<given-names>LG</given-names>
+						</name>
+						<name>
+							<surname>Martins</surname>
+							<given-names>NRAV</given-names>
+						</name>
+						<name>
+							<surname>Cavalcaanti</surname>
+							<given-names>FV</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>Colapso na saúde em Manaus: o fardo de não aderir às medidas não farmacológicas de redução da transmissão da Covid-19</article-title>
+					<source>Saude Debate</source>
+					<year>2021</year>
+					<volume>45</volume>
+					<issue>131</issue>
+					<fpage>1126</fpage>
+					<lpage>1139</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0103-1104202113114I">https://doi.org/10.1590/0103-1104202113114I</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>16 Barreto ICHC, Costa Filho RV, Ramos RF, Oliveira LG, Martins NRAV, Cavalcaanti FV, et al. Colapso na saúde em Manaus: o fardo de não aderir às medidas não farmacológicas de redução da transmissão da Covid-19. Saude Debate. 2021;45(131):1126-39. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0103-1104202113114I">https://doi.org/10.1590/0103-1104202113114I</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+					</person-group>
+					<source>SIVEP/ SRAG 2020 - Banco de Dados de Síndrome Respiratória Aguda Grave - incluindo dados da COVID-19</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<year>2020</year>
+					<date-in-citation content-type="access-date">[cited 2022 Jun 23]</date-in-citation>
+					<comment>Available from: <ext-link ext-link-type="uri" xlink:href="https://opendatasus.saude.gov.br/dataset/srag-2020">https://opendatasus.saude.gov.br/dataset/srag-2020</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>17 Ministério da Saúde (BR). SIVEP/ SRAG 2020 - Banco de Dados de Síndrome Respiratória Aguda Grave - incluindo dados da COVID-19. Brasília, DF: 2020 [cited 2022 Jun 23]. Available from: <ext-link ext-link-type="uri" xlink:href="https://opendatasus.saude.gov.br/dataset/srag-2020">https://opendatasus.saude.gov.br/dataset/srag-2020</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+					</person-group>
+					<source>SRAG 2021 e 2022. Banco de dados de Síndrome Respiratória Aguda Grave – incluindo dados da COVID-19</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<year>2021-2022</year>
+					<date-in-citation content-type="access-date">[cited 2022 Jun 11]</date-in-citation>
+					<comment>Available from: <ext-link ext-link-type="uri" xlink:href="https://opendatasus.saude.gov.br/dataset/srag-2021-e-2022/resource/9f0edb83-f8c2-4b53-99c1-099425ab634c">https://opendatasus.saude.gov.br/dataset/srag-2021-e-2022/resource/9f0edb83-f8c2-4b53-99c1-099425ab634c</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>18 Ministério da Saúde (BR). SRAG 2021 e 2022. Banco de dados de Síndrome Respiratória Aguda Grave – incluindo dados da COVID-19. Brasília, DF; 2021-2022 [cited 2022 Jun 11]. Available from: <ext-link ext-link-type="uri" xlink:href="https://opendatasus.saude.gov.br/dataset/srag-2021-e-2022/resource/9f0edb83-f8c2-4b53-99c1-099425ab634c">https://opendatasus.saude.gov.br/dataset/srag-2021-e-2022/resource/9f0edb83-f8c2-4b53-99c1-099425ab634c</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR), DATASUS</collab>
+					</person-group>
+					<source>SIM -- Sistema de Informações sobre Mortalidade</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<year>2022</year>
+					<date-in-citation content-type="access-date">[cited 2022 Jun 10]</date-in-citation>
+					<comment>Available from: <ext-link ext-link-type="uri" xlink:href="https://dados.gov.br/dataset/sistema-de-informacao-sobre-mortalidade">https://dados.gov.br/dataset/sistema-de-informacao-sobre-mortalidade</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>19 Ministério da Saúde (BR), DATASUS. SIM -- Sistema de Informações sobre Mortalidade. Brasília, DF; 2022 [cited 2022 Jun 10]. Available from: <ext-link ext-link-type="uri" xlink:href="https://dados.gov.br/dataset/sistema-de-informacao-sobre-mortalidade">https://dados.gov.br/dataset/sistema-de-informacao-sobre-mortalidade</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Morais</surname>
+							<given-names>RM</given-names>
+						</name>
+						<name>
+							<surname>Costa</surname>
+							<given-names>AL</given-names>
+						</name>
+					</person-group>
+					<article-title>Uma avaliação do Sistema de Informações sobre Mortalidade</article-title>
+					<source>Saude Debate</source>
+					<year>2017</year>
+					<volume>41</volume>
+					<comment>N° Espec</comment>
+					<fpage>101</fpage>
+					<lpage>117</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0103-11042017S09">https://doi.org/10.1590/0103-11042017S09</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>20 Morais RM, Costa AL. Uma avaliação do Sistema de Informações sobre Mortalidade. Saude Debate. 2017;41 N° Espec:101-17. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0103-11042017S09">https://doi.org/10.1590/0103-11042017S09</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Michelon</surname>
+							<given-names>C</given-names>
+						</name>
+					</person-group>
+					<article-title>Principais variantes do SARS-CoV-2 notificadas no Brasil</article-title>
+					<source>Rev Bras Anal Clin</source>
+					<year>2021</year>
+					<date-in-citation content-type="access-date">[cited 2022 May 7]</date-in-citation>
+					<volume>53</volume>
+					<issue>2</issue>
+					<fpage>109</fpage>
+					<lpage>106</lpage>
+					<comment>Available from: <ext-link ext-link-type="uri" xlink:href="https://www.rbac.org.br/artigos/principais-variantes-do-sars-cov-2-notificadas-no-brasil/">https://www.rbac.org.br/artigos/principais-variantes-do-sars-cov-2-notificadas-no-brasil/</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>21 Michelon C. Principais variantes do SARS-CoV-2 notificadas no Brasil. Rev Bras Anal Clin. 2021 [cited 2022 May 7];53(2):109-6. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.rbac.org.br/artigos/principais-variantes-do-sars-cov-2-notificadas-no-brasil/">https://www.rbac.org.br/artigos/principais-variantes-do-sars-cov-2-notificadas-no-brasil/</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Organização Pan-Americana da Saúde</collab>
+					</person-group>
+					<source>Folha informativa sobre COVID-19</source>
+					<publisher-loc>Washington, DC</publisher-loc>
+					<publisher-name>OPAS; s.d.</publisher-name>
+					<date-in-citation content-type="access-date">[cited 2022 May 7]</date-in-citation>
+					<comment>Available from: <ext-link ext-link-type="uri" xlink:href="https://www.paho.org/pt/covid19">https://www.paho.org/pt/covid19</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>22 Organização Pan-Americana da Saúde. Folha informativa sobre COVID-19. Washington, DC: OPAS; s.d. [cited 2022 May 7]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.paho.org/pt/covid19">https://www.paho.org/pt/covid19</ext-link>.</mixed-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Freitas</surname>
+							<given-names>ARR</given-names>
+						</name>
+						<name>
+							<surname>Giovanetti</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Alcantara</surname>
+							<given-names>LCJ</given-names>
+						</name>
+					</person-group>
+					<article-title>Emerging variants of SARS-CoV-2 and its public health implications</article-title>
+					<source>Interam J Med Health</source>
+					<year>2021</year>
+					<fpage>4</fpage>
+					<lpage>4</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.31005/iajmh.v4i.181">https://doi.org/10.31005/iajmh.v4i.181</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>23 Freitas ARR, Giovanetti M, Alcantara LCJ. Emerging variants of SARS-CoV-2 and its public health implications. Interam J Med Health. 2021;4. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.31005/iajmh.v4i.181">https://doi.org/10.31005/iajmh.v4i.181</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Dai</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Gao</surname>
+							<given-names>GF</given-names>
+						</name>
+					</person-group>
+					<article-title>Viral targets for vaccines against COVID-19</article-title>
+					<source>Nat Rev Immunol</source>
+					<year>2021</year>
+					<volume>21</volume>
+					<issue>2</issue>
+					<fpage>73</fpage>
+					<lpage>82</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s41577-020-00480-0">https://doi.org/10.1038/s41577-020-00480-0</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>24 Dai L, Gao GF. Viral targets for vaccines against COVID-19. Nat Rev Immunol. 2021;21(2):73-82. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s41577-020-00480-0">https://doi.org/10.1038/s41577-020-00480-0</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Naveca</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Costa</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Nascimento</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Souza</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Corado</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Nascimento</surname>
+							<given-names>F</given-names>
+						</name>
+						<etal/>
+					</person-group>
+					<article-title>SARS- CoV-2 reinfection by the new Variant of Concern (VOC) P.1 in Amazonas, Brazil</article-title>
+					<source>nCoV-2019 Genomic Epidemiology</source>
+					<month>01</month>
+					<year>2021</year>
+					<date-in-citation content-type="access-date">[cited 2022 Jun 11]</date-in-citation>
+					<comment>Available from: <ext-link ext-link-type="uri" xlink:href="https://virological.org/t/sars-cov-2-reinfection-by-the-new-variant-of-concern-voc-p-1-in-amazonas-brazil/596">https://virological.org/t/sars-cov-2-reinfection-by-the-new-variant-of-concern-voc-p-1-in-amazonas-brazil/596</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>25 Naveca F, Costa C, Nascimento V, Souza V, Corado A, Nascimento F, et al. SARS- CoV-2 reinfection by the new Variant of Concern (VOC) P.1 in Amazonas, Brazil. nCoV-2019 Genomic Epidemiology. Jan 2021 [cited 2022 Jun 11]. Available from: <ext-link ext-link-type="uri" xlink:href="https://virological.org/t/sars-cov-2-reinfection-by-the-new-variant-of-concern-voc-p-1-in-amazonas-brazil/596">https://virological.org/t/sars-cov-2-reinfection-by-the-new-variant-of-concern-voc-p-1-in-amazonas-brazil/596</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bergamo</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<source>Sem vacina, Covid mata 26 vezes mais: levantamento do governo paulista, entre dezembro e fevereiro de 2022</source>
+					<publisher-name>Folha de São Paulo</publisher-name>
+					<day>14</day>
+					<month>03</month>
+					<year>2022</year>
+					<date-in-citation content-type="access-date">[cited 2022 Jun 11]</date-in-citation>
+					<comment>Available from: <ext-link ext-link-type="uri" xlink:href="https://www1.folha.uol.com.br/colunas/monicabergamo/2022/03/mortes-por-covid-entre-nao-vacinados-em-sp-e-26-vezes-maior-do-que-naqueles-ja-imunizados.shtml">https://www1.folha.uol.com.br/colunas/monicabergamo/2022/03/mortes-por-covid-entre-nao-vacinados-em-sp-e-26-vezes-maior-do-que-naqueles-ja-imunizados.shtml</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>26 Bergamo M. Sem vacina, Covid mata 26 vezes mais: levantamento do governo paulista, entre dezembro e fevereiro de 2022. Folha de São Paulo. 14 mar 2022. [cited 2022 Jun 11]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www1.folha.uol.com.br/colunas/monicabergamo/2022/03/mortes-por-covid-entre-nao-vacinados-em-sp-e-26-vezes-maior-do-que-naqueles-ja-imunizados.shtml">https://www1.folha.uol.com.br/colunas/monicabergamo/2022/03/mortes-por-covid-entre-nao-vacinados-em-sp-e-26-vezes-maior-do-que-naqueles-ja-imunizados.shtml</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>Secretaria da Saúde do Distrito Federal</collab>
+					</person-group>
+					<source>Covid-19: 72% das mortes em 2022 no DF, foram de pessoas não vacinadas ou com esquema incompleto</source>
+					<publisher-name>G1/DF</publisher-name>
+					<day>27</day>
+					<month>04</month>
+					<year>2022</year>
+					<date-in-citation content-type="access-date">[cited 2022 Jun 11]</date-in-citation>
+					<comment>Available from: <ext-link ext-link-type="uri" xlink:href="https://g1.globo.com/df/distrito-federal/noticia/2022/04/27/covid-19-das-440-mortes-em-2022-no-df-72percent-foram-de-pessoas-nao-vacinadas-ou-com-esquema-incompleto-diz-saude.ghtml">https://g1.globo.com/df/distrito-federal/noticia/2022/04/27/covid-19-das-440-mortes-em-2022-no-df-72percent-foram-de-pessoas-nao-vacinadas-ou-com-esquema-incompleto-diz-saude.ghtml</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>27 Secretaria da Saúde do Distrito Federal. Covid-19: 72% das mortes em 2022 no DF, foram de pessoas não vacinadas ou com esquema incompleto. G1/DF. 27 abril 2022 [cited 2022 Jun 11]. Available from: <ext-link ext-link-type="uri" xlink:href="https://g1.globo.com/df/distrito-federal/noticia/2022/04/27/covid-19-das-440-mortes-em-2022-no-df-72percent-foram-de-pessoas-nao-vacinadas-ou-com-esquema-incompleto-diz-saude.ghtml">https://g1.globo.com/df/distrito-federal/noticia/2022/04/27/covid-19-das-440-mortes-em-2022-no-df-72percent-foram-de-pessoas-nao-vacinadas-ou-com-esquema-incompleto-diz-saude.ghtml</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>World Health Organization</collab>
+					</person-group>
+					<source>WHO Coronavirus (COVID-19) Dashboard</source>
+					<publisher-loc>Geneva (CH)</publisher-loc>
+					<publisher-name>WHO</publisher-name>
+					<year>2022</year>
+					<date-in-citation content-type="access-date">[cited 2022 Jun 11]</date-in-citation>
+					<comment>Available from: <ext-link ext-link-type="uri" xlink:href="https://covid19.who.int/">https://covid19.who.int/</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>28 World Health Organization. WHO Coronavirus (COVID-19) Dashboard. Geneva (CH): WHO; 2022 [cited 2022 Jun 11]. Available from: <ext-link ext-link-type="uri" xlink:href="https://covid19.who.int/">https://covid19.who.int/</ext-link>
+				</mixed-citation>
+			</ref>
+			<ref id="B29">
+				<label>29</label>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Libote</surname>
+							<given-names>GB</given-names>
+						</name>
+						<name>
+							<surname>Anjos</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Almeida</surname>
+							<given-names>RCC</given-names>
+						</name>
+						<name>
+							<surname>Malta</surname>
+							<given-names>SMC</given-names>
+						</name>
+						<name>
+							<surname>Medronho</surname>
+							<given-names>RA</given-names>
+						</name>
+					</person-group>
+					<article-title>Impacts of a delayed and slow-paced vaccination on cases and deaths during the COVID-19 pandemic: a modelling study</article-title>
+					<source>J R Soc Interface</source>
+					<year>2022</year>
+					<volume>19</volume>
+					<issue>190</issue>
+					<fpage>20220275</fpage>
+					<lpage>20220275</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1098/rsif.2022.0275">https://doi.org/10.1098/rsif.2022.0275</ext-link>
+					</comment>
+				</element-citation>
+				<mixed-citation>29 Libote GB, Anjos L, Almeida RCC, Malta SMC, Medronho RA. Impacts of a delayed and slow-paced vaccination on cases and deaths during the COVID-19 pandemic: a modelling study. J R Soc Interface. 2022;19(190):20220275. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1098/rsif.2022.0275">https://doi.org/10.1098/rsif.2022.0275</ext-link>
+				</mixed-citation>
+			</ref>
+		</ref-list>
+	</back>
+	<sub-article article-type="translation" id="S01" xml:lang="pt">
+		<front-stub>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artigo Original</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Covid-19: evolução temporal e imunização nas três ondas epidemiológicas, Brasil, 2020–2022</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-9237-432X</contrib-id>
+					<name>
+						<surname>Moura</surname>
+						<given-names>Erly Catarina</given-names>
+					</name>
+					<role>Concepção e planejamento do estudo</role>
+					<role>Coleta, análise e interpretação dos dados</role>
+					<role>Elaboração ou revisão do manuscrito</role>
+					<role>Aprovação da versão final</role>
+					<role>Responsabilidade pública pelo conteúdo do artigo</role>
+					<xref ref-type="aff" rid="aff6"><sup>I</sup></xref>
+					<xref ref-type="corresp" rid="c2"/>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-2382-2213</contrib-id>
+					<name>
+						<surname>Cortez-Escalante</surname>
+						<given-names>Juan</given-names>
+					</name>
+					<role>Concepção e planejamento do estudo</role>
+					<role>Coleta, análise e interpretação dos dados</role>
+					<role>Elaboração ou revisão do manuscrito</role>
+					<role>Aprovação da versão final</role>
+					<role>Responsabilidade pública pelo conteúdo do artigo</role>
+					<xref ref-type="aff" rid="aff7"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-8706-0457</contrib-id>
+					<name>
+						<surname>Cavalcante</surname>
+						<given-names>Fabrício Vieira</given-names>
+					</name>
+					<role>Concepção e planejamento do estudo</role>
+					<role>Coleta, análise e interpretação dos dados</role>
+					<role>Aprovação da versão final</role>
+					<role>Responsabilidade pública pelo conteúdo do artigo</role>
+					<xref ref-type="aff" rid="aff8"><sup>III</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-8447-3654</contrib-id>
+					<name>
+						<surname>Barreto</surname>
+						<given-names>Ivana Cristina de Holanda Cunha</given-names>
+					</name>
+					<role>Elaboração ou revisão do manuscrito</role>
+					<role>Aprovação da versão final</role>
+					<role>Responsabilidade pública pelo conteúdo do artigo</role>
+					<xref ref-type="aff" rid="aff9"><sup>IV</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-0472-1804</contrib-id>
+					<name>
+						<surname>Sanchez</surname>
+						<given-names>Mauro Niskier</given-names>
+					</name>
+					<role>Elaboração ou revisão do manuscrito</role>
+					<role>Aprovação da versão final</role>
+					<role>Responsabilidade pública pelo conteúdo do artigo</role>
+					<xref ref-type="aff" rid="aff10"><sup>V</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-6739-6260</contrib-id>
+					<name>
+						<surname>Santos</surname>
+						<given-names>Leonor Maria Pacheco</given-names>
+					</name>
+					<role>Concepção e planejamento do estudo</role>
+					<role>Coleta, análise e interpretação dos dados</role>
+					<role>Elaboração ou revisão do manuscrito</role>
+					<role>Aprovação da versão final</role>
+					<role>Responsabilidade pública pelo conteúdo do artigo</role>
+					<xref ref-type="aff" rid="aff8"><sup>III</sup></xref>
+				</contrib>
+				<aff id="aff6">
+					<label>I</label>
+					<addr-line>
+						<named-content content-type="city">Brasília</named-content>
+						<named-content content-type="state">DF</named-content>
+					</addr-line>
+					<country country="BR">Brasil</country>
+					<institution content-type="original">Universidade de Brasília. Faculdade de Ciências da Saúde. Grupo de Estudos e Pesquisa de Avaliação, Políticas, Planejamento e Gestão Participativa em Saúde. Brasília, DF, Brasil</institution>
+				</aff>
+				<aff id="aff7">
+					<label>II</label>
+					<addr-line>
+						<named-content content-type="city">Brasília</named-content>
+						<named-content content-type="state">DF</named-content>
+					</addr-line>
+					<country country="BR">Brasil</country>
+					<institution content-type="original">Organização Mundial da Saúde. Organização Pan-Americana da Saúde. Brasília, DF, Brasil</institution>
+				</aff>
+				<aff id="aff8">
+					<label>III</label>
+					<addr-line>
+						<named-content content-type="city">Brasília</named-content>
+						<named-content content-type="state">DF</named-content>
+					</addr-line>
+					<country country="BR">Brasil</country>
+					<institution content-type="original">Universidade de Brasília. Faculdade de Ciências da Saúde. Programa de Pós-Graduação em Saúde Coletiva. Brasília, DF, Brasil</institution>
+				</aff>
+				<aff id="aff9">
+					<label>IV</label>
+					<addr-line>
+						<named-content content-type="city">Eusébio</named-content>
+						<named-content content-type="state">CE</named-content>
+					</addr-line>
+					<country country="BR">Brasil</country>
+					<institution content-type="original">Fundação Oswaldo Cruz Ceará. Grupo de Pesquisa em Saúde da Família e Saúde Digital. Eusébio, CE, Brasil</institution>
+				</aff>
+				<aff id="aff10">
+					<label>V</label>
+					<addr-line>
+						<named-content content-type="city">Brasília</named-content>
+						<named-content content-type="state">DF</named-content>
+					</addr-line>
+					<country country="BR">Brasil</country>
+					<institution content-type="original">Universidade de Brasília. Faculdade de Ciências da Saúde. Departamento de Saúde Coletiva. Brasília, DF, Brasil</institution>
+				</aff>
+			</contrib-group>
+			<author-notes>
+				<corresp id="c2"><bold>Correspondência:</bold> Erly Catarina Moura Faculdade de Ciências da Saúde Campus Universitário Darcy Ribeiro, Asa Norte <postal-code>70.910-900</postal-code> Brasília, DF, Brasil. E-mail: <email>erlycm@gmail.com</email>
+				</corresp>
+				<fn fn-type="conflict">
+					<p><bold>Conflito de Interesses:</bold> Os autores declaram não haver conflito de interesses.</p>
+				</fn>
+			</author-notes>
+			<abstract>
+				<title>RESUMO</title>
+				<sec>
+					<title>OBJETIVO</title>
+					<p>Descrever a evolução temporal da morbimortalidade por covid-19 e da cobertura vacinal no período da emergência sanitária no Brasil.</p>
+				</sec>
+				<sec>
+					<title>MÉTODOS</title>
+					<p>Número de casos e óbitos por covid-19 foram extraídos do painel público do Ministério da Saúde, conforme semana epidemiológica (SE) e região geográfica. Dados sobre vacinas e variantes foram obtidos, respectivamente, do Sistema de Informação do Programa Nacional de Imunizações e do Sistema de Vigilância Genômica do SARS-CoV-2.</p>
+				</sec>
+				<sec>
+					<title>RESULTADOS</title>
+					<p>A evolução da pandemia de covid-19 caracterizou-se por três picos de óbitos: na 30ᵃ semana epidemiológica de 2020, na 14ᵃ de 2021 e na sexta de 2022; três ondas de casos, iniciando-se nas regiões Norte e Nordeste, com maiores taxas na terceira onda, principalmente na região Sul. A vacinação teve início na terceira semana epidemiológica de 2021, atingindo rapidamente a maior parte da população, particularmente nas regiões Sudeste e Sul, coincidindo com redução da taxa de mortalidade, mas não de morbidade na terceira onda. No total, 146.718 genomas foram sequenciados, mas somente a partir do início da segunda onda, na qual a variante dominante foi a Gama. A partir da última SE de 2021, quando a cobertura vacinal já se aproximava de 70%, a variante Ômicron causou uma avalanche de casos, porém com menos óbitos.</p>
+				</sec>
+				<sec>
+					<title>CONCLUSÕES</title>
+					<p>É nítida a presença de três ondas de covid-19, bem como o efeito da imunização na redução da mortalidade na segunda e na terceira ondas, atribuídas às variantes Delta e Ômicron, respectivamente. Contudo não houve efeito na redução da morbidade, que atingiu o pico na terceira onda, na qual dominou a variante Ômicron. O comando nacional e centralizado do enfrentamento à pandemia não ocorreu; assim, os gestores locais assumiram a liderança em seus territórios. O efeito avassalador da pandemia poderia ter sido minimizado, caso houvesse a participação coordenada das três esferas de governo no SUS.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="pt">
+				<title>DESCRITORES</title>
+				<kwd>COVID-19, epidemiologia</kwd>
+				<kwd>Indicadores de Morbimortalidade</kwd>
+				<kwd>Cobertura Vacinal</kwd>
+				<kwd>Disparidades nos Níveis de Saúde</kwd>
+			</kwd-group>
+			<funding-group>
+				<award-group>
+					<funding-source>Chamada MCTI/CNPq/CT-Saúde/MS/SCTIE/Decit</funding-source>
+					<award-id>07/2020</award-id>
+				</award-group>
+				<funding-statement>Chamada MCTI/CNPq/CT-Saúde/MS/SCTIE/Decit No. 07/2020.</funding-statement>
+			</funding-group>
+		</front-stub>
+		<body>
+			<sec sec-type="intro">
+				<title>INTRODUÇÃO</title>
+				<p>O Sistema Único de Saúde (SUS) no Brasil, desde a sua criação e durante mais de três décadas de existência, tem se caracterizado pelo avanço face a muitos desafios, destacando-se mais recentemente o enfrentamento contra a covid-19.</p>
+				<p>Nesse sentido, o Ministério da Saúde, criou o Painel Coronavírus<sup><xref ref-type="bibr" rid="B1">1</xref></sup>, atualizado diariamente, que sintetiza os números de casos e de óbitos por covid-19 em todo o país, contabilizando, até 21 de maio de 2022, mais de 30 milhões de casos e mais de 660 mil óbitos, evidenciando-se três ondas de propagação da doença no país.</p>
+				<p>No contexto de epidemias e/ou pandemias, a responsabilização sanitária deveria ser valorizada, com liderança nacional centralizada no Ministério da Saúde – por competência precípua – pautada em princípios científicos e responsabilidade<sup><xref ref-type="bibr" rid="B2">2</xref></sup>. Infelizmente, isso não ocorreu no Brasil, forçando outras esferas de poder público a assumirem o papel federal<sup><xref ref-type="bibr" rid="B3">3</xref></sup>. Salienta-se, aqui, o desempenho dos Estados, do Distrito Federal e dos municípios. Todavia, o efeito da pandemia foi avassalador e, mesmo tendo assumido a liderança do combate à pandemia em seus respectivos territórios, os gestores estaduais e municipais, seja pela sua extensa dimensão seja pelos parcos recursos disponíveis, não lograram controlá-la. Isso seria possível caso tivéssemos o Sistema Único de Saúde funcionando com a participação coordenada de todas as esferas de governo da Federação<sup><xref ref-type="bibr" rid="B4">4</xref></sup>. A inexistência de coordenação central dificultou o combate à pandemia e a implementação oportuna da imunização contra covid-19 no Brasil.</p>
+				<p>Este estudo teve como objetivo descrever a evolução temporal de casos e óbitos por covid-19 no Brasil, à luz do avanço da cobertura vacinal, conforme as regiões geográficas, e das variantes dominantes notificadas no país.</p>
+			</sec>
+			<sec sec-type="methods">
+				<title>MÉTODOS</title>
+				<p>Trata-se de estudo temporal descritivo, com dados secundários de domínio público. O evento avaliado foi a covid-19, desde a primeira notificação até o final do estado de Emergência em Saúde Pública de Importância Nacional (Espin)<sup><xref ref-type="bibr" rid="B5">5</xref></sup>, isto é, até 21 de maio de 2022, o que corresponde à 20ᵃ semana epidemiológica (SE) de 2022.</p>
+				<p>O número de casos e de óbitos por covid-19 foi obtido do portal do Ministério da Saúde<sup><xref ref-type="bibr" rid="B1">1</xref></sup>, conforme semana epidemiológica e região geográfica de residência. Taxas de morbidade por 10 mil habitantes e de mortalidade por 100 mil habitantes foram calculadas, considerando-se estimativa populacional para o ano de 2020<sup><xref ref-type="bibr" rid="B6">6</xref></sup>.</p>
+				<p>A cobertura vacinal foi calculada, em percentual, por região e semana epidemiológica, considerando-se indivíduos com imunização integral (uma dose ou duas doses, conforme o tipo de vacina)<sup><xref ref-type="bibr" rid="B7">7</xref></sup>, utilizando, também, a estimativa populacional para 2020<sup><xref ref-type="bibr" rid="B6">6</xref></sup>, por região e SE. A evolução das taxas de morbidade e mortalidade foi plotada para o país e regiões geográficas bem como a cobertura vacinal, conforme taxa de mortalidade e taxa de morbidade.</p>
+				<p>Para a identificação das variantes dominantes, os resultados dos genomas sequenciados foram extraídos do banco de dados da Vigilância Genônima do SARS-CoV-2 (<italic>Severe Acute Respiratory Syndrome CoronaVirus</italic> 2) no Brasil<sup><xref ref-type="bibr" rid="B8">8</xref></sup>. Foram analisados dados referentes às “Principais variantes por período de amostragem” por região, de fevereiro de 2020 a maio de 2022, conforme o mês de coleta das amostras, por região geográfica e classificadas como Alfa, Beta, Gama, Delta, Ômicron e Outra. O número total dos genomas sequenciados foi plotado, por tipo de variante, conforme taxa de morbidade e taxa de mortalidade para o país.</p>
+				<p>Por se tratar de dados secundários de domínio público, este estudo dispensa aprovação por comitê de ética em pesquisa com seres humanos<sup><xref ref-type="bibr" rid="B9">9</xref></sup>.</p>
+			</sec>
+			<sec sec-type="results">
+				<title>RESULTADOS</title>
+				<p>No portal do Ministério da Saúde, foram contabilizados até 21 de maio de 2022 (final da Espin), 30.945.384 de casos de covid-19 e 666.391 óbitos, evidenciando-se claramente três ondas de óbitos. A primeira onda estendeu-se de 23 de fevereiro (9ᵃ SE 2020) a 25 de julho de 2020 (45ᵃ SE 2020), quando foram notificados 7.677 óbitos semanais. A segunda, mais longa e mais letal, ocorreu entre 8 de novembro de 2020 (46ᵃ SE 2020) e 10 de abril de 2021 (51ᵃ SE), que terminou com o triplo de óbitos: 21.141 mortes em uma semana. A terceira onda foi a mais curta, de 26 de dezembro de 2021 (52ᵃ SE 2021) a 21 de maio de 2022, na qual ocorreram 6.246 óbitos no total (<xref ref-type="table" rid="t2">Quadro</xref>).</p>
+				<table-wrap id="t2">
+					<label>Quadro</label>
+					<caption>
+						<title>Características das três ondas epidemiológicas de covid-19, determinadas pelo número de óbitos. Brasil, 2020–2022.</title>
+					</caption>
+					<table frame="box" rules="groups">
+						<colgroup width="20%">
+							<col width="1%"/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead style="border-top: thin solid; border-bottom: thin solid; border-color: #000000">
+							<tr style="background-color:#D4DBEC">
+								<th align="left" colspan="2" rowspan="2" valign="middle">Características</th>
+								<th align="center" colspan="3" style="border-bottom: thin solid; border-color: #000000;" valign="middle">Ondas epidemiológicas</th>
+							</tr>
+							<tr style="background-color:#D4DBEC">
+								<th align="center" valign="middle">Primeira</th>
+								<th align="center" valign="middle">Segunda</th>
+								<th align="center" valign="middle">Terceira</th>
+							</tr>
+						</thead>
+						<tbody style="border-bottom: thin solid; border-color: #000000">
+							<tr>
+								<td align="left" colspan="5" valign="middle">Início</td>
+							</tr>
+							<tr style="background-color:#EEF0F7">
+								<td align="left" valign="middle"/>
+								<td align="left" valign="middle">SE</td>
+								<td align="center" valign="middle">9/20</td>
+								<td align="center" valign="middle">46/20</td>
+								<td align="center" valign="middle">52/21</td>
+							</tr>
+							<tr>
+								<td align="left" valign="middle"/>
+								<td align="left" valign="middle">Data</td>
+								<td align="center" valign="middle">23 fev 2020</td>
+								<td align="center" valign="middle">08 nov 2020</td>
+								<td align="center" valign="middle">26 dez 2021</td>
+							</tr>
+							<tr style="background-color:#EEF0F7">
+								<td align="left" colspan="5" valign="middle">Término</td>
+							</tr>
+							<tr>
+								<td align="left" valign="middle"/>
+								<td align="left" valign="middle">SE</td>
+								<td align="center" valign="middle">45/20</td>
+								<td align="center" valign="middle">51/21</td>
+								<td align="center" valign="middle">20/22</td>
+							</tr>
+							<tr style="background-color:#EEF0F7">
+								<td align="left" valign="middle"/>
+								<td align="left" valign="middle">Data</td>
+								<td align="center" valign="middle">07 nov 2020</td>
+								<td align="center" valign="middle">25 dez 2021</td>
+								<td align="center" valign="middle">21 mai 2022</td>
+							</tr>
+							<tr>
+								<td align="left" colspan="5" valign="middle">Duração</td>
+							</tr>
+							<tr style="background-color:#EEF0F7">
+								<td align="left" valign="middle"/>
+								<td align="left" valign="middle">SE</td>
+								<td align="center" valign="middle">37</td>
+								<td align="center" valign="middle">59</td>
+								<td align="center" valign="middle">23</td>
+							</tr>
+							<tr>
+								<td align="left" colspan="5" valign="middle">Pico</td>
+							</tr>
+							<tr style="background-color:#EEF0F7">
+								<td align="left" valign="middle"/>
+								<td align="left" valign="middle">SE</td>
+								<td align="center" valign="middle">30/20</td>
+								<td align="center" valign="middle">14/21</td>
+								<td align="center" valign="middle">6/22</td>
+							</tr>
+							<tr>
+								<td align="left" valign="middle"/>
+								<td align="left" valign="middle">Data</td>
+								<td align="center" valign="middle">25 jul 2020</td>
+								<td align="center" valign="middle">10 abr 2021</td>
+								<td align="center" valign="middle">12 fev 2022</td>
+							</tr>
+							<tr style="background-color:#EEF0F7">
+								<td align="left" colspan="5" valign="middle">Óbitos</td>
+							</tr>
+							<tr>
+								<td align="left" valign="middle"/>
+								<td align="left" valign="middle">Número na onda</td>
+								<td align="center" valign="middle">162.269</td>
+								<td align="center" valign="middle">455.379</td>
+								<td align="center" valign="middle">46.046</td>
+							</tr>
+							<tr style="background-color:#EEF0F7">
+								<td align="left" valign="middle"/>
+								<td align="left" valign="middle">Número no pico</td>
+								<td align="center" valign="middle">7.677</td>
+								<td align="center" valign="middle">21.141</td>
+								<td align="center" valign="middle">6.246</td>
+							</tr>
+							<tr>
+								<td align="left" valign="middle"/>
+								<td align="left" valign="middle">Taxa<xref ref-type="table-fn" rid="TFN4">a</xref> na onda</td>
+								<td align="center" valign="middle">76,5</td>
+								<td align="center" valign="middle">214,7</td>
+								<td align="center" valign="middle">46,0</td>
+							</tr>
+							<tr style="background-color:#EEF0F7">
+								<td align="left" valign="middle"/>
+								<td align="left" valign="middle">Taxa<xref ref-type="table-fn" rid="TFN4">a</xref> no pico</td>
+								<td align="center" valign="middle">3,6</td>
+								<td align="center" valign="middle">10,0</td>
+								<td align="center" valign="middle">2,9</td>
+							</tr>
+							<tr>
+								<td align="left" valign="middle"/>
+								<td align="left" valign="middle">Taxa<xref ref-type="table-fn" rid="TFN4">a</xref> ao término</td>
+								<td align="center" valign="middle">1,1</td>
+								<td align="center" valign="middle">0,3</td>
+								<td align="center" valign="middle">0,1</td>
+							</tr>
+							<tr style="background-color:#EEF0F7">
+								<td align="left" valign="middle"/>
+								<td align="left" valign="middle">SE(número)</td>
+								<td align="center" valign="middle">4.386</td>
+								<td align="center" valign="middle">7.718</td>
+								<td align="center" valign="middle">2.002</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN3">
+							<p>SE: semana epidemiológica.</p>
+						</fn>
+						<attrib>Fonte: dados do Painel Coronavírus<sup><xref ref-type="bibr" rid="B1">1</xref></sup>.</attrib>
+						<fn id="TFN4">
+							<label>a</label>
+							<p>Por 100 mil habitantes.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+				<p>A primeira onda teve pico de mortalidade na 30ᵃ semana epidemiológica de 2020; já na segunda o auge ocorreu na 14ᵃ semana de 2021 e a terceira na 6ᵃ SE de 2022. Os picos das ondas não foram coincidentes nas cinco regiões brasileiras (<xref ref-type="fig" rid="f5">Figura 1</xref>). Os dois primeiros casos, registrados na 9ᵃ SE de 2020, ocorreram na região Sudeste. Todavia, a evolução da pandemia diferiu conforme a região do país, progredindo inicialmente na região Norte, com pico de casos para a primeira onda na 26ᵃ semana epidemiológica de 2020, seguida pela região Nordeste (27ᵃ SE), Centro-Oeste (32ᵃ SE), Sudeste (33ᵃ SE) e, por último, a região Sul (36ᵃ SE), conforme ilustra a <xref ref-type="fig" rid="f5">Figura 1</xref>. A segunda onda recrudesceu primeiro e foi mais proeminente na região Sul, alcançando taxa maior do que 50 casos por 10 mil habitantes. A terceira onda irrompeu abruptamente atingindo todas as regiões, com maior taxa na região Sul (111 casos por 10 mil habitantes), com quase 50 mil casos notificados em um único dia.</p>
+				<fig id="f5">
+					<label>Figura 1</label>
+					<caption>
+						<title>Taxas de morbidade (casos por 10 mil habitantes) e de mortalidade (óbitos por 100 mil habitantes) por covid-19, de acordo com a semana epidemiológica, conforme o país e a região geográfica. Brasil, 2020–2022.</title>
+					</caption>
+					<graphic xlink:href="1518-8787-rsp-56-105-gf01-pt.tif"/>
+					<attrib>Fonte: dados do Painel Coronavírus<sup><xref ref-type="bibr" rid="B1">1</xref></sup>.</attrib>
+				</fig>
+				<p>Quanto às taxas de mortalidade por covid-19 (<xref ref-type="fig" rid="f5">Figura 1</xref>), também se notam três ondas, com maior pico na segunda onda em todas as regiões. Nessa época ocorreram no país mais de 15 mil óbitos por semana, durante oito semanas seguidas. Destaca-se a região Norte, com picos mais precoces na primeira e na segunda ondas, seguida pelas regiões Nordeste e Sudeste e, por último, as regiões Sul e Centro-Oeste. As menores taxas foram registradas na terceira onda, sendo que os maiores valores registrados foram registrados na região Sudeste.</p>
+				<p>Fica evidente (<xref ref-type="fig" rid="f6">Figura 2</xref>) o menor número de óbitos com o aumento da imunização contra a covid-19, no país em geral e em todas as regiões individualmente durante o ano de 2021, mas com novo aumento nas primeiras semanas de 2022. Esse cenário coincide com o aumento do número de casos (<xref ref-type="fig" rid="f7">Figura 3</xref>), cujo pico ocorre na 6ᵃ semana epidemiológica de 2022, independente da cobertura vacinal. Embora o lançamento da vacinação tenha sido concomitante em todas as regiões, a evolução foi distinta, mostrando avanço mais acelerado nas Regiões Sudeste e Sul, sendo que a Região Sudeste alcançou cobertura de 50% por volta da 38ᵃ semana de 2021 e a Região Norte somente na 48ᵃ, chegando ao final deste estudo com coberturas de 83 e 60%, respectivamente, isto é, quase 40% maior na região Sudeste do que na região Norte.</p>
+				<fig id="f6">
+					<label>Figura 2</label>
+					<caption>
+						<title>Taxas de mortalidade (óbitos por 100 mil habitantes) por covid-19 e cobertura vacinal (%) contra covid-19, e acordo com a semana epidemiológica, conforme o país e a região geográfica. Brasil, 2020–2022.</title>
+					</caption>
+					<graphic xlink:href="1518-8787-rsp-56-105-gf02-pt.tif"/>
+					<attrib>Fonte: dados do Painel Coronavírus<sup><xref ref-type="bibr" rid="B1">1</xref></sup> e do Sistema de Informação do Programa Nacional de Imunizações<sup><xref ref-type="bibr" rid="B7">7</xref></sup>.</attrib>
+				</fig>
+				<fig id="f7">
+					<label>Figura 3</label>
+					<caption>
+						<title>Taxas de morbidade (casos por 10 mil habitantes) por covid-19 e cobertura vacinal (%) contra covid-19, por semana epidemiológica, conforme o país e a região geográfica. Brasil, 2020–2022.</title>
+					</caption>
+					<graphic xlink:href="1518-8787-rsp-56-105-gf03-pt.tif"/>
+					<attrib>Fonte: dados do Painel Coronavírus<sup><xref ref-type="bibr" rid="B1">1</xref></sup> e do Sistema de Informação do Programa Nacional de Imunizações<sup><xref ref-type="bibr" rid="B7">7</xref></sup>.</attrib>
+				</fig>
+				<p>Desde o início da pandemia, 148.839 genomas foram sequenciados, timidamente ao início, aumentando principalmente a partir de março de 2021 (início da segunda onda), com maior quantidade em janeiro de 2022 (pico da terceira), conforme ilustra a <xref ref-type="fig" rid="f8">Figura 4</xref>. Observa-se que, em 2020, praticamente não houve testes para a identificação das linhagens, período no qual é identificada, em escala muito pequena, a variante Alfa; já na segunda onda, a variante predominante foi a Gama e, na sequência, a Ômicron. A variante Beta não foi detectada no Brasil. No que diz respeito à morbidade por covid-19, destaca-se a variante Ômicron, e quanto à mortalidade a variante Gama.</p>
+				<fig id="f8">
+					<label>Figura 4</label>
+					<caption>
+						<title>Distribuição (número) dos genomas sequenciados, segundo mês de coleta e tipo de variante, taxas de morbidade (casos por 10 mil habitantes) e de mortalidade (por 100 mil habitantes) por covid-19, Brasil, 2020–2022.</title>
+					</caption>
+					<graphic xlink:href="1518-8787-rsp-56-105-gf04-pt.tif"/>
+					<attrib>Fonte: dados do Painel Coronavírus<sup><xref ref-type="bibr" rid="B1">1</xref></sup> e do Sistema de Vigilância Genônima do SARS-CoV-2<sup><xref ref-type="bibr" rid="B8">8</xref></sup>.</attrib>
+				</fig>
+			</sec>
+			<sec sec-type="discussion">
+				<title>DISCUSSÃO</title>
+				<p>Os dados apresentados neste estudo mostram a evolução das taxas de morbimortalidade por covid-19, bem como da cobertura vacinal contra o coronavírus, de forma desigual, nas diferentes regiões do país. Apesar da identificação de três ondas, em todas elas se nota o alastramento da pandemia na Região Norte e, na sequência, Nordeste – regiões sabidamente mais desfavorecidas socioeconomicamente. Essa situação tem reflexos na cobertura vacinal, que também é mais lenta nessas regiões, ficando abaixo da média nacional, incluindo também a Região Centro-Oeste.</p>
+				<p>Dados precisos ou, mesmo, aproximados, sobre o número de casos de covid-19 no Brasil esbarram em várias limitações, como a decisão de não realizar testagem em massa; a baixa disponibilidade de testes diagnósticos (importados); a qualidade incerta de alguns tipos de testes; a pouca sensibilidade e especificidade dos testes; a ausência do registro, nos sistemas de informação sobre o tipo de teste realizado (antígeno ou PCR)<sup><xref ref-type="bibr" rid="B10">10</xref>–<xref ref-type="bibr" rid="B12">12</xref></sup>, em especial durante os primeiros meses da pandemia.</p>
+				<p>A partir de 28 janeiro de 2022, a Agência Nacional de Vigilância Sanitária autorizou o registro, a distribuição e a comercialização de autotestes para detecção de antígeno do SARS-CoV-2<sup><xref ref-type="bibr" rid="B13">13</xref></sup>. A partir de então, qualquer pessoa pôde adquirir e realizar seu próprio teste, no entanto, dentre os testes para detecção de anticorpos aprovados no Brasil para comercialização, a sensibilidade encontra-se na faixa de níveis baixos a moderados, o que pode gerar dificuldade de diagnóstico de pessoas infectadas<sup><xref ref-type="bibr" rid="B10">10</xref></sup>. Autotestes estão disponíveis nas farmácias, porém, não há obrigatoriedade de notificação de autotestes positivos para vigilância epidemiológica, apenas orientação para que o paciente procure assistência médica caso o resultado seja positivo<sup><xref ref-type="bibr" rid="B14">14</xref></sup>. Supõe-se que em casos leves a moderados de covid-19 muitas pessoas provavelmente não procurarão assistência médica, e, portanto, não poderão ser identificados em nenhum sistema oficial de registros. Desse modo, dados sobre o número de casos para covid-19 se tornaram ainda mais frágeis.</p>
+				<p>Verifica-se, ainda, a ausência de sequenciamento genômico no primeiro ano da pandemia, com testagem insuficiente, que não chegou a cobrir 0,5% do número notificado de casos por covid-19. Ademais, as amostras para sequenciamento não refletem a realidade nacional, uma vez que não houve qualquer processo de amostragem que pudesse representar os diferentes grupos populacionais, servindo exclusivamente como marcadores (<italic>proxy</italic>) para a identificação das variantes dominantes no decorrer desse período.</p>
+				<p>Houve alta procura por atendimento hospitalar, principalmente na segunda onda, quando os serviços de saúde ficaram sobrecarregados, iniciando com o colapso na cidade de Manaus<sup><xref ref-type="bibr" rid="B15">15</xref>,<xref ref-type="bibr" rid="B16">16</xref></sup>. Dados do Sistema de Informação da Vigilância Epidemiológica da Gripe (SIVEP-Gripe)<sup><xref ref-type="bibr" rid="B17">17</xref>,<xref ref-type="bibr" rid="B18">18</xref></sup> mostram claramente a maior procura hospitalar na segunda onda, coincidindo com alta mortalidade. Já a baixa procura por hospitais na terceira onda, coincidiu com altas coberturas vacinais e com o surgimento da variante menos letal – Ômicron – quando a maior parte dos casos foi notificada e atendida pelos serviços de atenção primária e secundária.</p>
+				<p>A utilização de informações diárias e atualizadas sobre óbitos possibilita responder de imediato às necessidades sanitárias impostas pela pandemia. Todavia, os dados disponibilizados pelo Ministério da Saúde são sintetizados, permitindo inclusive o registro da ocorrência em município distinto do original, cujo valor é corrigido na semana epidemiológica <italic>a posteriori</italic>. Assim, a manutenção de duas entradas, uma delas negativa, não dá segurança quanto ao número de ocorrências de cada município por semana, o que gera imprecisão também nos valores por unidade da federação e região. Por outro lado, a pandemia demandou rapidez na informação, o que exigia transparência imediata dos dados, ainda que incompletos, mas também expõe o despreparo quanto à qualidade da informação, mostrando além da necessidade de agilização, necessidade de aperfeiçoamento na precisão do registro da ocorrência e completude mínima de variáveis como sexo, faixa etária e município de residência. Positivamente, mostrou a possibilidade de implantação de um sistema ágil num território tão grande e heterogêneo como o Brasil, alertando para a urgência de treinamento de recursos humanos e desenvolvimento de um sistema próprio para registro desses dados, mesmo nos locais mais distantes.</p>
+				<p>Outra limitação se refere ao uso da estimativa populacional de 2020, baseada no censo de 2010. O Brasil tem sido recenseado a cada 10 anos, mas em 2020 não houve censo, por conta da pandemia. A pandemia também alerta para a necessidade de alternativas precisas e seguras para a contagem populacional que possam ser realizadas à distância, a exemplo de vários atendimentos virtuais, que afloraram nesse período. De qualquer modo, urge a realização do censo completo o mais brevemente possível.</p>
+				<p>Comparativamente, ao Sistema de Informações sobre Mortalidade<sup><xref ref-type="bibr" rid="B19">19</xref></sup>, considerado padrão-ouro<sup><xref ref-type="bibr" rid="B20">20</xref></sup>, nota-se atraso de várias semanas quanto ao registro de óbitos no Painel do Ministério da Saúde. De modo geral, as mortes por covid-19 tiveram início na primeira semana epidemiológica de 2020, mas só foram registradas no Painel a partir da 12ᵃ semana, em maior número em relação à densidade populacional no Nordeste, situação que se repetiu na segunda onda de óbitos, com maiores valores na região Sudeste, a mais densamente povoada. Essas ocorrências podem ser explicadas pela necessidade de adaptação dos serviços de saúde na primeira onda e alto número de óbitos na segunda.</p>
+				<p>Ademais, o aparecimento de uma nova variante mais letal (Delta) em 2021<sup><xref ref-type="bibr" rid="B21">21</xref></sup>, pode explicar a brusca evolução de óbitos na segunda onda, contida pelo início da imunização, que, apesar de crescente, não foi suficiente para impedir as elevadas taxas de mortalidade na segunda onda. O aumento progressivo nas coberturas vacinais, em 2021 e 2022, também não foram capazes de deter a ocorrência e dispersão de casos da variante Ômicron, de alto poder de transmissão, mas com menor letalidade, atingindo mais a região Sul.</p>
+				<p>Como os demais vírus, o SARS-CoV-2 também está sujeito a mutações, por alteração na estrutura molecular, durante o processo de replicação. A primeira variante de preocupação (VOC – <italic>variant of concern</italic>) identificada foi a Alfa (Alpha – B.1.1.7) na Inglaterra; seguida pela Beta (Beta – B.1.351) na África do Sul; Gama (Gamma – P.1) no Brasil; Delta (Delta – B.1.617.2) na Índia e Ômicron (Omicron – B.1.1.529) na África<sup><xref ref-type="bibr" rid="B22">22</xref></sup>. As mutações podem tornar o vírus mais infeccioso, facilitando sua entrada nas células, ou mais transmissível, pelo aumento da circulação, como no caso da Ômicron, que rapidamente se tornou a variante dominante no mundo todo<sup><xref ref-type="bibr" rid="B23">23</xref>,<xref ref-type="bibr" rid="B24">24</xref></sup>.</p>
+				<p>O processo de mutação também explica a reinfeção da doença, conjuntamente com a queda de imunidade que se observa após alguns meses da aplicação do esquema vacinal primário ou da dose de reforço. Também contribui para a redução da efetividade das vacinas contra a infecção e a diminuição da sensibilidade aos testes diagnósticos, o que reforça, do ponto de vista clínico e epidemiológico, a necessidade de manutenção das medidas não farmacológicas e aceleração da imunização, para reduzir a circulação do vírus e o aparecimento de novas mutações<sup><xref ref-type="bibr" rid="B25">25</xref></sup>. A reinfecção pode justificar o padrão de morbimortalidade observado durante a terceira onda neste presente estudo. Segundo levantamento realizado pelo governo de São Paulo, cuja população apresenta cobertura vacinal completa de 88,5%, a variante Ômicron causou uma explosão de casos, mas não de óbitos, no início de 2022. A notificação passou de uma média de dois mil casos diários de covid-19, para um pico de 14.542 casos por dia. Contudo, no mesmo período (5 de dezembro de 2021 a 26 de fevereiro de 2022) o número de óbitos por covid-19 entre pessoas não vacinadas foi 26 vezes maior do que entre as pessoas completamente imunizadas, revelou o levantamento<sup><xref ref-type="bibr" rid="B26">26</xref></sup>. Situação semelhante foi registrada no Distrito Federal, onde 72% dos óbitos na terceira onda foram de pessoas não vacinadas ou com esquema incompleto, revelou a Secretaria de Saúde. A cobertura vacinal completa no DF é de 84,7%. Entre os que foram a óbito 85% tinham comorbidades e idade média de 80 anos<sup><xref ref-type="bibr" rid="B27">27</xref></sup>.</p>
+				<p>De modo geral, a evolução do covid-19 em três ondas corrobora as tendências observadas na Europa, nas Américas e na Ásia<sup><xref ref-type="bibr" rid="B28">28</xref></sup>.</p>
+				<p>Os resultados do presente estudo confirmam as dificuldades que o Brasil passou no enfrentamento à covid-19. A rapidez com que a doença se disseminou não possibilitou o uso em tempo oportuno de evidências científicas no apoio às decisões governamentais<sup><xref ref-type="bibr" rid="B16">16</xref>,<xref ref-type="bibr" rid="B29">29</xref></sup>. Propostas de controle da pandemia e tratamento da doença, sem sustentação científica, ficaram no caminho, como uso de antibióticos, antiparasitários e outros, deram lugar às vacinas, que começaram a ser testadas, mostrando redução no risco de complicações moderadas e graves. O início da vacinação não foi ágil, com baixa cobertura da população em risco e em meio a notícias falsas sobre o benefício da imunização e sobre infundados efeitos colaterais, aliado à baixa aceitação a medidas não farmacológicas de proteção, como isolamento social e uso de máscara<sup><xref ref-type="bibr" rid="B16">16</xref></sup>.</p>
+				<p>Além da sobrecarga do sistema de saúde e da falta de insumos essenciais, como oxigênio, iniciando no estado do Amazonas<sup><xref ref-type="bibr" rid="B15">15</xref>,<xref ref-type="bibr" rid="B16">16</xref></sup> e se espalhando vertiginosamente pelo restante do país, a distribuição diferenciada dos parcos recursos dificultou mais ainda a situação pandêmica.</p>
+				<p>Aqui, cabe ressaltar o papel das três esferas de governo na assistência à saúde, concomitante às demais políticas públicas de seguridade social e garantindo o acesso universal, integral e não discriminatório, pautado na autonomia pessoal, no direito às informações cientificamente comprovadas e no controle social. Assim, a responsabilidade do SUS, além de garantir a gestão comunitária e a epidemiologia como instrumento de gestão, deve assegurar a descentralização política-administrativa com direção única em cada esfera governamental. É importante destacar a liderança no combate à covid-19 dos gestores municipais e estaduais, na construção de estratégias próprias para lidar com os efeitos da pandemia nas suas populações, o que explica parte das diferenças regionais.</p>
+				<p>Além do fortalecimento dos gestores locais, na liderança em seus territórios, fica como aprendizado que a articulação entre as três esferas de gestão do SUS poderia ter reduzido os efeitos diretos e indiretos da pandemia sobre a população brasileira.</p>
+			</sec>
+		</body>
+		<back>
+			<fn-group>
+				<fn fn-type="financial-disclosure" id="fn2">
+					<p><bold>Financiamento:</bold> Chamada MCTI/CNPq/CT-Saúde/MS/SCTIE/Decit No. 07/2020.</p>
+				</fn>
+			</fn-group>
+		</back>
+	</sub-article>
+</article>

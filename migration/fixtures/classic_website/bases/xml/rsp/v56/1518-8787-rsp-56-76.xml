@@ -1,0 +1,2572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.1" specific-use="sps-1.9" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="nlm-ta">Rev Saude Publica</journal-id>
+			<journal-id journal-id-type="publisher-id">rsp</journal-id>
+			<journal-title-group>
+				<journal-title>Revista de Saúde Pública</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Rev. Saúde Pública</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="ppub">0034-8910</issn>
+			<issn pub-type="epub">1518-8787</issn>
+			<publisher>
+				<publisher-name>Faculdade de Saúde Pública da Universidade de São Paulo</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="other">00265</article-id>
+			<article-id pub-id-type="doi">10.11606/s1518-8787.2022056004203</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Original Article</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Limits and possibilities for the development of public health research in the legal system</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-1909-7282</contrib-id>
+					<name>
+						<surname>Andrade</surname>
+						<given-names>Nayla Rochele Nogueira de</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-2827-898X</contrib-id>
+					<name>
+						<surname>Nunes</surname>
+						<given-names>Carlos Francisco Oliveira</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-7192-8186</contrib-id>
+					<name>
+						<surname>Albuquerque</surname>
+						<given-names>Felipe Braga</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>III</sup></xref>
+					<xref ref-type="aff" rid="aff4"><sup>IV</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-4322-8390</contrib-id>
+					<name>
+						<surname>Araújo</surname>
+						<given-names>Carmem E. Leitão</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff5"><sup>V</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-1816-9459</contrib-id>
+					<name>
+						<surname>Ferreira</surname>
+						<given-names>Anderson Fuentes</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-5397-1279</contrib-id>
+					<name>
+						<surname>Reis</surname>
+						<given-names>Adriana da Silva dos</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff6"><sup>VI</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-7982-1757</contrib-id>
+					<name>
+						<surname>Ramos</surname>
+						<given-names>Alberto Novaes</given-names>
+						<suffix>Jr.</suffix>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff5"><sup>V</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>I</label>
+				<institution content-type="orgname">Universidade Federal do Ceará</institution>
+				<institution content-type="orgdiv1">Faculdade de Medicina</institution>
+				<institution content-type="orgdiv2">Programa de Pós-Graduação em Saúde Pública</institution>
+				<addr-line>
+					<named-content content-type="city">Fortaleza</named-content>
+					<named-content content-type="state">CE</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Universidade Federal do Ceará. Faculdade de Medicina. Programa de Pós-Graduação em Saúde Pública. Fortaleza, CE, Brasil</institution>
+			</aff>
+			<aff id="aff2">
+				<label>II</label>
+				<institution content-type="orgname">Universidade Federal de Santa Catarina</institution>
+				<institution content-type="orgdiv1">Programa de Pós-Graduação em Engenharia e Gestão do Conhecimento</institution>
+				<addr-line>
+					<named-content content-type="city">Florianópolis</named-content>
+					<named-content content-type="state">Santa Catarina</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Universidade Federal de Santa Catarina. Programa de Pós-Graduação em Engenharia e Gestão do Conhecimento. Florianópolis, Santa Catarina, Brasil</institution>
+			</aff>
+			<aff id="aff3">
+				<label>III</label>
+				<institution content-type="orgname">Universidade Federal do Ceará</institution>
+				<institution content-type="orgdiv1">Faculdade de Direito</institution>
+				<institution content-type="orgdiv2">Departamento de Direito Público</institution>
+				<addr-line>
+					<named-content content-type="city">Fortaleza</named-content>
+					<named-content content-type="state">CE</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Universidade Federal do Ceará. Faculdade de Direito. Departamento de Direito Público. Fortaleza, CE, Brasil</institution>
+			</aff>
+			<aff id="aff4">
+				<label>IV</label>
+				<institution content-type="orgname">Universidade Federal do Ceará</institution>
+				<institution content-type="orgdiv1">Faculdade de Direito</institution>
+				<institution content-type="orgdiv2">Programa de Pós-Graduação em Direito</institution>
+				<addr-line>
+					<named-content content-type="city">Fortaleza</named-content>
+					<named-content content-type="state">CE</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Universidade Federal do Ceará. Faculdade de Direito. Programa de Pós-Graduação em Direito. Fortaleza, CE, Brasil</institution>
+			</aff>
+			<aff id="aff5">
+				<label>V</label>
+				<institution content-type="orgname">Universidade Federal do Ceará</institution>
+				<institution content-type="orgdiv1">Faculdade de Medicina</institution>
+				<institution content-type="orgdiv2">Departamento de Saúde Comunitária</institution>
+				<addr-line>
+					<named-content content-type="city">Fortaleza</named-content>
+					<named-content content-type="state">CE</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Universidade Federal do Ceará. Faculdade de Medicina. Departamento de Saúde Comunitária. Fortaleza, CE, Brasil</institution>
+			</aff>
+			<aff id="aff6">
+				<label>VI</label>
+				<institution content-type="orgname">NHR Brasil</institution>
+				<addr-line>
+					<named-content content-type="city">Fortaleza</named-content>
+					<named-content content-type="state">CE</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Netherlands Hanseniasis Relief Brasil - NHR Brasil. Fortaleza, CE, Brasil</institution>
+			</aff>
+			<author-notes>
+				<corresp id="c01"> Correspondence: Nayla Rochele Nogueira de Andrade Universidade Federal do Ceará Faculdade de Medicina Rua Professor Costa Mendes, 1.608 Rodolfo Teófilo 60430-140 Fortaleza, CE, Brasil E-mail: <email>naylarochele93@gmail.com</email>
+				</corresp>
+				<fn id="fn1">
+					<p>Authors’ Contribution: Study design and planning: EAM, ANRJ, GSMG. Data collection, analysis and interpretation: CFON, FBA, CELL. Preparation or revision of the manuscript: AFF, ASR. Approval of the final version: NRNA, ANRJ, CFON, FBA, CELA, AFF, ASR. Public responsibility for the content of the article: NRNA, ANRJ, CFON, FBA, CELA, AFF, ASR.</p>
+					<p>Conflict of Interest: The authors declare no conflict of interest.</p>
+				</fn>
+			</author-notes>
+			<pub-date date-type="pub" publication-format="electronic">
+				<day>29</day>
+				<month>08</month>
+				<year>2022</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">
+				<year>2022</year>
+			</pub-date>
+			<volume>56</volume>
+			<elocation-id>76</elocation-id>
+			<history>
+				<date date-type="received">
+					<day>06</day>
+					<month>09</month>
+					<year>2021</year>
+				</date>
+				<date date-type="accepted">
+					<day>31</day>
+					<month>10</month>
+					<year>2021</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="en">
+					<license-p> This is an Open Access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. </license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>ABSTRACT</title>
+				<sec>
+					<title>OBJECTIVE</title>
+					<p> To characterize databases of the courts of justice of Brazil as a potential tool for research in Collective Health, in its interface with the legal sciences.</p>
+				</sec>
+				<sec>
+					<title>METHODS</title>
+					<p> Cross-sectional study of quantitative and descriptive nature, focusing on analysis of strategic management and judicial systems.</p>
+				</sec>
+				<sec>
+					<title>RESULTS</title>
+					<p> Databases used by the Common Justice in the Federation Units to systematize judicial processes were identified and analyzed. A total of 123 databases were found in the courts of justice per state, with emphasis on the South and Northeast regions, in contrast to the North region, which has a smaller number of systems. This large number of judicial systems limits access to legal operators, and hinders the collection of evidence by health researchers and, consequently, impacts the strategic management of the Executive Branch. There were limitations from design to transparent and democratic data extraction by the users themselves, as well as restricted integration between bases.</p>
+				</sec>
+				<sec>
+					<title>CONCLUSIONS</title>
+					<p> Although advances have been made in recent years by the courts of justice to unify these databases, the multiplicity of information systems used in the Common State Justice complicates the management of knowledge, limits the development of research, even when carried out by lawyers or researchers in the legal area, as well as generates slow data extraction for public management. It is recognized the need for additional efforts for standardization, as well as for improvement of these databases, expanding access, transparency and integration with a view to a transdisciplinary look between the field of Law and Collective Health.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="en">
+				<kwd>Judicial Decisions</kwd>
+				<kwd>Jurisprudence</kwd>
+				<kwd>Resources for Research</kwd>
+				<kwd>Health Law</kwd>
+				<kwd>Public Health</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="0"/>
+				<table-count count="6"/>
+				<equation-count count="0"/>
+				<ref-count count="24"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>INTRODUCTION</title>
+			<p>Paths to reflection and research on potential conflicts between the political and legal systems in public health management necessarily include the recognition of aspects involving the distribution and allocation of scarce resources in society<sup><xref ref-type="bibr" rid="B1">1</xref></sup>. Particularly in a country with the territorial dimension of Brazil, with serious social inequalities that impact on distinct and transitional epidemiological patterns, it becomes even more complex to determine priorities in the health system<sup><xref ref-type="bibr" rid="B2">2</xref></sup>.</p>
+			<p>The number of lawsuits in the Judiciary requiring health goods and services has grown significantly in Brazil, especially after 2007, giving rise to the phenomenon of judicialization of the right to public health, which in this work is synonymous with lawsuits against a state entity, demanding health goods and/or services<sup><xref ref-type="bibr" rid="B3">3</xref></sup>.</p>
+			<p>The greater involvement of the Judiciary regarding health policies makes up a greater discussion on the “<italic>judicialization of politics</italic>”, an expression equivalent to the “<italic>politicization of justice</italic>”, a reflection of its expansion in the decision-making process of contemporary democracies. In this sense, the judicialization of the right to health emerges as a conflict between the institutionalized system of political action and the legal system<sup><xref ref-type="bibr" rid="B4">4</xref></sup>.</p>
+			<p>The judicialization of the right to health has generated increasingly frequent debates in view of its multiple uses and meanings<sup><xref ref-type="bibr" rid="B5">5</xref></sup>, on the one hand, it reinforces the legal dimension of citizenship, materializing a right guaranteed in the Federal Constitution of 1988, which in its Article 196 affirms that health is a right of all and a duty of the State<sup><xref ref-type="bibr" rid="B6">6</xref></sup>; on the other, it can reinforce conflicts in the federative governance of the Unified Health System (<italic>Sistema Único de Saúde -</italic> SUS), limiting the ability of the executive power to plan, implement and monitor health policies through rational and equitable criteria<sup><xref ref-type="bibr" rid="B7">7</xref></sup>. The individual character of interventions and the privilege of people with greater knowledge, financial resources or other conditions of differentiated access to justice are also pointed out as critical problems<sup><xref ref-type="bibr" rid="B8">8</xref></sup>.</p>
+			<p>Certainly, one of the effects of this judicialization phenomenon is the expansion of the interfaces between research in the fields of health and legal sciences. There is an increase in the number of studies and articles published on the subject, with a view to dimensioning and greater understanding of this phenomenon<sup><xref ref-type="bibr" rid="B3">3</xref>,<xref ref-type="bibr" rid="B9">9</xref></sup>. For example, there are studies with analysis of databases of the Judiciary in the state of Rio de Janeiro on the judicialization of health<sup><xref ref-type="bibr" rid="B10">10</xref>,<xref ref-type="bibr" rid="B11">11</xref></sup>, in the state of Ceará on the phenomenon with recognition of the limits for analysis in the light of epidemiology<sup><xref ref-type="bibr" rid="B3">3</xref></sup>, and the Federal District with the analysis of the reality of judicialization in health<sup><xref ref-type="bibr" rid="B12">12</xref></sup>. In a broader approach to the country, the National Council of Justice (<italic>Conselho Nacional de Justiça</italic> - CNJ) sought to characterize the phenomenon and bring additional reflections on the subject<sup><xref ref-type="bibr" rid="B1">1</xref>,<xref ref-type="bibr" rid="B13">13</xref></sup>.</p>
+			<p>As the phenomenon of judicialization grows, there is the weakness of the Judiciary’s information systems in the systematization of data and public access systems to several courts with the potential to access and use information systems. As a result, it may make it impossible or limit fundamental analyses for the implementation of public policies based on scientific evidence, due to limitations and inconsistencies between the databases, in addition to underestimating the processes of judicialization of health<sup><xref ref-type="bibr" rid="B1">1</xref>,<xref ref-type="bibr" rid="B9">9</xref>,<xref ref-type="bibr" rid="B11">11</xref>,<xref ref-type="bibr" rid="B13">13</xref>-<xref ref-type="bibr" rid="B15">15</xref></sup>.</p>
+			<p>The criticisms and limitations indicate the need to rethink and better understand the different databases, many of which do not have access to researchers<sup><xref ref-type="bibr" rid="B3">3</xref>,<xref ref-type="bibr" rid="B11">11</xref></sup>. This study aims to characterize the databases of the Courts of Justice (<italic>Tribunal de Justiça</italic> - TJ) of Brazil as a potential tool for research in Collective Health in its interfaces with the legal sciences. The recognition of the quantity and quality of information available is strategic for more consistent and purposeful analyses, which includes better delimitation of the phenomenon of judicialization of public health policy in Brazil.</p>
+		</sec>
+		<sec sec-type="methods">
+			<title>METHODS</title>
+			<sec>
+				<title>Study Design</title>
+				<p>Descriptive cross-sectional study of national scope based on data collected from the State Courts of Justice of the country. The data collection process was carried out between 2019 and 2021 with the identification and characterization of physical and virtual databases used to systematize judicial processes and to recognize the process of filing actions related to public health.</p>
+				<p>The study was carried out in two stages, both based on formal data and information requirements from the TJ’s ombudsmen via filling out electronic forms available to each one, a process complemented by systematic consultation of official websites. All manifestations followed the rules available in the electronic addresses and internal guidelines directed by each court.</p>
+				<p>The first stage with the ombudsmen was based on demand composition via e-mail, telephone contact, and specific electronic form available on the websites of the TJ, following specific internal protocols in each Federation Unit (<italic>Unidade da Federação</italic> - UF). The follow-up of the request was performed with the protocol number generated at the time of the request.</p>
+				<p>The TJs should respond to three specific items:</p>
+				<list list-type="alpha-lower">
+					<list-item>
+						<p>What are the names and dates of implementation of the systems used by the operators of law of this UF to register and monitor the physical judicial proceedings filed?</p>
+					</list-item>
+					<list-item>
+						<p>What are the names and dates of implementation of the systems used by the law operators of this UF to register and monitor the filing of virtual lawsuits?</p>
+					</list-item>
+					<list-item>
+						<p>Any observation that the TJ deems pertinent.</p>
+					</list-item>
+				</list>
+				<p>After completing the first stage, one decided to complement the data obtained from a second stage, which consisted of sending new requests to the TJ for further detailing of the process of protocol of actions that deal with public health from three questions:</p>
+				<list list-type="alpha-lower">
+					<list-item>
+						<p>In the available information systems, referred to by the court in the first stage, what is the branch, in the subject tree, to classify and file an action that deals with health? Is there a difference in the protocol when it comes to public health and private health?</p>
+					</list-item>
+					<list-item>
+						<p>Is it possible to carry out the protocol of a process in the competence of the public treasury that is in the health area, without the registration being identified that is in the health area, for example: register as “administrative act/annulment” – but be related to the supply of medicines?</p>
+					</list-item>
+					<list-item>
+						<p>Does the distribution sector make adequacy/compatibility in the registration of actions, correcting any petition errors by the professionals who make the registrations?</p>
+					</list-item>
+				</list>
+			</sec>
+			<sec>
+				<title>Data Analysis</title>
+				<p>For the first stage, in possession of the collected information, the data were consolidated and organized into tables, with preliminary descriptive analysis. In the few cases in which the same database was informed by the TJ as containing physical and virtual processes, this data was computed only once, to avoid overestimating the local reality.</p>
+				<p>For the second stage on the process of protocol of actions that deal with public health, the three questions answered by the TJ were consolidated and analyzed descriptively.</p>
+			</sec>
+			<sec>
+				<title>Ethical Aspects</title>
+				<p>The data in this study are secondary and public, according to the principle of advertising of Art. 5th, item LX, of the Federal Constitution of 1988, Art. 189 of the Code of Civil Procedure, and Law No. 12,527/11<sup><xref ref-type="bibr" rid="B11">11</xref></sup>, and other provisions.</p>
+				<p>In addition, the project was submitted to the Research Ethics Committee of the <italic>Universidade Federal do Ceará</italic> CEP/UFC/PROPESQ on the Brazil Platform, which had as its opinion a statement stating that “<italic>the project does not apply to the evaluation of the Research Ethics Committee, since it is a research that uses freely accessible information and because it uses a database, whose information is aggregated, without the possibility of individual identification, in a manner similar to the provisions of CNS Resolution No. 510, of April 7, 2016</italic>”.</p>
+			</sec>
+		</sec>
+		<sec sec-type="results">
+			<title>RESULTS</title>
+			<sec>
+				<title>Step 1</title>
+				<p>In the state of Ceará (CE), data were collected <italic>in loco</italic>, due to the ease of access of the research team.</p>
+				<p>The TJ of Acre (AC), Amapá (AP), Amazonas (AM), Pará (PA), Rondônia (RO), Roraima (RR), Alagoas (AL), Bahia (BA), Maranhão (MA), Rio Grande do Norte (RN), Distrito Federal (DF), Mato Grosso (MT), Espírito Santo (ES), Minas Gerais (MG), São Paulo (SP) and Rio Grande do Sul (RS) returned contacts via email, corresponding to 59.2% of the total.</p>
+				<p>For the TJ of Tocantins (TO), Sergipe (SE), Paraíba (PB), Pernambuco (PE), Piauí (PI), Goiás (GO), Mato Grosso do Sul (MS), Rio de Janeiro (RJ), Paraná (PR) and Santa Catarina (SC), direct telephone contacts were made to the ombudsmen, as well as to the sectors responsible for the information technology service of the courts. In addition, systematic searches were carried out on websites. In all cases, it was possible to compose perspectives for the three items of interest at this stage.</p>
+				<p>The result of the first stage of the study is summarized in <xref ref-type="table" rid="t1">Tables 1</xref> and <xref ref-type="table" rid="t2">2</xref>. <xref ref-type="table" rid="t1">Table 1</xref> characterizes the existing databases of information systems in each TJ of the UFs of the country, as well as those that are intended for the registration of physical processes (old databases) and the registration of virtual processes (modern databases).</p>
+				<p>
+					<table-wrap id="t1">
+						<label>Table 1</label>
+						<caption>
+							<title>Number and specification by federation unit and region of Brazil of the databases in State Courts of Justice, 2021.</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left" rowspan="2">Federative Units (UF)</th>
+									<th>Databases</th>
+									<th>Physical processes</th>
+									<th>Databases</th>
+									<th>Virtual Processes</th>
+									<th>Overall Total</th>
+									<th>Total without duplication</th>
+								</tr>
+								<tr>
+									<th>Abbreviation</th>
+									<th>n (%)</th>
+									<th>Abbreviation</th>
+									<th>n (%)</th>
+									<th>n (%)</th>
+									<th>n (%)</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>North</td>
+									<td>
+									</td>
+									<td align="center">9 (20.5)</td>
+									<td>
+									</td>
+									<td align="center">23 (23.7)</td>
+									<td align="center">32 (33.0)</td>
+									<td align="center">26 (26.8)</td>
+								</tr>
+								<tr>
+									<td>Acre (AC)</td>
+									<td align="center">No data</td>
+									<td align="center">0 (0)</td>
+									<td align="center">e-SAJPG/e-SAJSG/SEEU</td>
+									<td align="center">3 (13.0)</td>
+									<td align="center">3 (9.4)</td>
+									<td align="center">3 (11.5)</td>
+								</tr>
+								<tr>
+									<td>Amapá (AP)</td>
+									<td align="center">Tucujuris</td>
+									<td align="center">1 (11.1)</td>
+									<td align="center">Tucujurisweb/SEEU/PJE1G</td>
+									<td align="center">3 (13.0)</td>
+									<td align="center">4 (12.5)</td>
+									<td align="center">3 (11.5)</td>
+								</tr>
+								<tr>
+									<td>Amazonas (AM)</td>
+									<td align="center">e-SAJ PG/e-SAJ SG/Projudi</td>
+									<td align="center">3 (33.3)</td>
+									<td align="center">e-SAJ PG/e-SAJ SG/Projudi</td>
+									<td align="center">3 (13.0)</td>
+									<td align="center">6 (18.8)</td>
+									<td align="center">3 (11.5)</td>
+								</tr>
+								<tr>
+									<td>Pará (PA)</td>
+									<td align="center">Libra</td>
+									<td align="center">1 (11.1)</td>
+									<td align="center">PJE1G/PJE2G/SEEU/Projudi</td>
+									<td align="center">4 (17.4)</td>
+									<td align="center">5 (15.6)</td>
+									<td align="center">5 (19.2)</td>
+								</tr>
+								<tr>
+									<td>Rondônia (RO)</td>
+									<td align="center">PJE1G, PJE2G</td>
+									<td align="center">2 (22.2)</td>
+									<td align="center">PJE1G, PJE2G</td>
+									<td align="center">2 (8.7)</td>
+									<td align="center">4 (12.5)</td>
+									<td align="center">2 (7.7)</td>
+								</tr>
+								<tr>
+									<td>Roraima (RR)</td>
+									<td align="center">Siscom</td>
+									<td align="center">1 (11.1)</td>
+									<td align="center">Projudi, SEEU, PJE1G, PJE2G</td>
+									<td align="center">4 (17.4)</td>
+									<td align="center">5 (15.6)</td>
+									<td align="center">5 (19.2)</td>
+								</tr>
+								<tr>
+									<td>Tocantins (TO)</td>
+									<td align="center">Sicap</td>
+									<td align="center">1 (11.1)</td>
+									<td align="center">EPROC1G/EPRO2G/Projudi/SPROC</td>
+									<td align="center">4 (17.4)</td>
+									<td align="center">5 (15.6)</td>
+									<td align="center">5 (19.2)</td>
+								</tr>
+								<tr>
+									<td>Northeast</td>
+									<td>
+									</td>
+									<td align="center">15 (34.1)</td>
+									<td>
+									</td>
+									<td align="center">32 (33.0)</td>
+									<td align="center">47 (48.5)</td>
+									<td align="center">44 (45.4)</td>
+								</tr>
+								<tr>
+									<td>Alagoas (AL)</td>
+									<td align="center">e-SAJ PG/SAJ SG</td>
+									<td align="center">2 (13.3)</td>
+									<td align="center">e-SAJ PG/e-SAJ SG</td>
+									<td align="center">2 (6.3)</td>
+									<td align="center">4 (8.5)</td>
+									<td align="center">2 (4.5)</td>
+								</tr>
+								<tr>
+									<td>Bahia (BA)</td>
+									<td align="center">Saipro</td>
+									<td align="center">1 (6.7)</td>
+									<td align="center">e-SAJ PG/e-SAJ SG/PJE1G/Projudi</td>
+									<td align="center">4 (12.5)</td>
+									<td align="center">5 (10.6)</td>
+									<td align="center">5 (11.4)</td>
+								</tr>
+								<tr>
+									<td>Ceará (CE)</td>
+									<td align="center">Projudi/SPROC</td>
+									<td align="center">2 (13.3)</td>
+									<td align="center">e-SAJPG/e-SAJSG, PJE1, PJE2</td>
+									<td align="center">4 (12.5)</td>
+									<td align="center">6 (12.8)</td>
+									<td align="center">6 (13.6)</td>
+								</tr>
+								<tr>
+									<td>Maranhão (MA)</td>
+									<td align="center">THEMIS1G/THEMIS2G</td>
+									<td align="center">2 (13.3)</td>
+									<td align="center">Projudi/VEP/PJE1G/PJE2/SEEU</td>
+									<td align="center">5 (15.6)</td>
+									<td align="center">7 (14.9)</td>
+									<td align="center">7 (15.9)</td>
+								</tr>
+								<tr>
+									<td>Paraíba (PB)</td>
+									<td align="center">E-JUS/VEP</td>
+									<td align="center">2 (13.3)</td>
+									<td align="center">PJE1G/PJE2G/Consulta Unificada Beta</td>
+									<td align="center">3 (9.4)</td>
+									<td align="center">5 (10.6)</td>
+									<td align="center">5 (11.4)</td>
+								</tr>
+								<tr>
+									<td>Pernambuco (PE)</td>
+									<td align="center">JUDWIN</td>
+									<td align="center">1 (6.7)</td>
+									<td align="center">PJE1G, PJE2G, Projudi, SEEU</td>
+									<td align="center">4 (12.5)</td>
+									<td align="center">5 (10.6)</td>
+									<td align="center">5 (11.4)</td>
+								</tr>
+								<tr>
+									<td>Piauí (PI)</td>
+									<td align="center">Themisweb/Themiswebrecursal</td>
+									<td align="center">2 (13.3)</td>
+									<td align="center">Projudi/Projudirecursal/SEEU/e-TJPI PJ1G/PJE2G</td>
+									<td align="center">6 (18.8)</td>
+									<td align="center">8 (17.0)</td>
+									<td align="center">8 (18.2)</td>
+								</tr>
+								<tr>
+									<td>Rio Grande do Norte (RN)</td>
+									<td align="center">e-SAJ PG5, e-SAJ SG3</td>
+									<td align="center">2 (13.3)</td>
+									<td align="center">e-SAJ PG Digital, PJE1G, PJE2G</td>
+									<td align="center">3 (9.4)</td>
+									<td align="center">5 (10.6)</td>
+									<td align="center">5 (11.4)</td>
+								</tr>
+								<tr>
+									<td>Sergipe (SE)</td>
+									<td align="center">SCPV</td>
+									<td align="center">1 (6.7)</td>
+									<td align="center">SCPV</td>
+									<td align="center">1 (3.1)</td>
+									<td align="center">2 (4.3)</td>
+									<td align="center">1 (2.3)</td>
+								</tr>
+								<tr>
+									<td>Midwest</td>
+									<td>
+									</td>
+									<td align="center">7 (15.9)</td>
+									<td>
+									</td>
+									<td align="center">12 (12.4)</td>
+									<td align="center">19 (19.6)</td>
+									<td align="center">16 (16.5)</td>
+								</tr>
+								<tr>
+									<td>Federal District (DF)</td>
+									<td align="center">QVT/SISTJ Gráfico/SISTJWEB</td>
+									<td align="center">3 (42.9)</td>
+									<td align="center">Projudi/PJE1/PJE2/SEEU</td>
+									<td align="center">4 (33.3)</td>
+									<td align="center">7 (36.8)</td>
+									<td align="center">7 (43.8)</td>
+								</tr>
+								<tr>
+									<td>Goiás (GO)</td>
+									<td align="center">Physical proccess consultation portal 1st and 2nd degree</td>
+									<td align="center">1 (14.3)</td>
+									<td align="center">Projudi/SEEU</td>
+									<td align="center">2 (16.7)</td>
+									<td align="center">3 (15.8)</td>
+									<td align="center">3 (18.8)</td>
+								</tr>
+								<tr>
+									<td>Mato Grosso do Sul (MS)</td>
+									<td align="center">e- SAJPG/e-SAJSG</td>
+									<td align="center">2 (28.6)</td>
+									<td align="center">e-SAJPG/e-SAJSG</td>
+									<td align="center">2 (16.7)</td>
+									<td align="center">4 (21.1)</td>
+									<td align="center">2 (12.5)</td>
+								</tr>
+								<tr>
+									<td>Mato Grosso (MT)</td>
+									<td align="center">Sistema Apolo</td>
+									<td align="center">1 (14.3)</td>
+									<td align="center">Apolo Eletrônico/PJE1G/PJE2G Projudi</td>
+									<td align="center">4 (33.3)</td>
+									<td align="center">5 (26.3)</td>
+									<td align="center">4 (25.0)</td>
+								</tr>
+								<tr>
+									<td>Southeast</td>
+									<td>
+									</td>
+									<td align="center">7 (15.9)</td>
+									<td>
+									</td>
+									<td align="center">13 (13.4)</td>
+									<td align="center">20 (20.6)</td>
+									<td align="center">19 (19.6)</td>
+								</tr>
+								<tr>
+									<td>Espírito Santo (ES)</td>
+									<td align="center">Sistema de Segunda Instância EJUD/SIEP</td>
+									<td align="center">3 (42.9)</td>
+									<td align="center">Projudi/PJE1G/SEEU</td>
+									<td align="center">3 (23.1)</td>
+									<td align="center">6 (30.0)</td>
+									<td align="center">6 (31.6)</td>
+								</tr>
+								<tr>
+									<td>Minas Gerais (MG)</td>
+									<td align="center">SIAP/Siscom</td>
+									<td align="center">2 (28.6)</td>
+									<td align="center">PJE1G/PJE2G/Projudi/SEEU</td>
+									<td align="center">4 (30.8)</td>
+									<td align="center">6 (30.0)</td>
+									<td align="center">6 (31.6)</td>
+								</tr>
+								<tr>
+									<td>Rio de Janeiro (RJ)</td>
+									<td align="center">PJERJ</td>
+									<td align="center">1 (14,3)</td>
+									<td align="center">E-mail, Projudi, PJE1G, PJERJ</td>
+									<td align="center">4 (30.8)</td>
+									<td align="center">5 (25.0)</td>
+									<td align="center">4 (21.1)</td>
+								</tr>
+								<tr>
+									<td>São Paulo (SP)</td>
+									<td align="center">VEC</td>
+									<td align="center">1 (14,3)</td>
+									<td align="center">e-SAJPG/e-SAJSG</td>
+									<td align="center">2 (15.4)</td>
+									<td align="center">3 (15.0)</td>
+									<td align="center">3 (15.8)</td>
+								</tr>
+								<tr>
+									<td>South</td>
+									<td>
+									</td>
+									<td align="center">6 (13,6)</td>
+									<td>
+									</td>
+									<td align="center">17 (17.5)</td>
+									<td align="center">23 (23.7)</td>
+									<td align="center">18 (18.6)</td>
+								</tr>
+								<tr>
+									<td>Paraná (PR)</td>
+									<td align="center">Portal TJPR Varas Estatizadas com Processos Físicos (em papel)</td>
+									<td align="center">1 (16,7)</td>
+									<td align="center">Projudi/1GCÍVEL/1GVEP 1GCRIMINAL/2G</td>
+									<td align="center">5 (29.4)</td>
+									<td align="center">6 (26.1)</td>
+									<td align="center">6 (33.3)</td>
+								</tr>
+								<tr>
+									<td>Rio Grande do Sul (RS)</td>
+									<td align="center">THEMIS1G/THEMIS 2G/TJP</td>
+									<td align="center">3 (50,0)</td>
+									<td align="center">THEMIS1G/THEMIS2G/PJE1G, EPROC1G/EPROC2G/TJP/PJE2G</td>
+									<td align="center">7 (41.2)</td>
+									<td align="center">10 (43.5)</td>
+									<td align="center">7 (38.9)</td>
+								</tr>
+								<tr>
+									<td>Santa Catarina (SC)</td>
+									<td align="center">e-SAJPG/e-SAJSG</td>
+									<td align="center">2 (33,3)</td>
+									<td align="center">e-SAJPG/e-SAJSG/EPROC1G EPROC2G/SEEU</td>
+									<td align="center">5 (29.4)</td>
+									<td align="center">7 (30.4)</td>
+									<td align="center">5 (27.8)</td>
+								</tr>
+								<tr>
+									<td align="center">Total (Brazil)</td>
+									<td>
+									</td>
+									<td align="center">44</td>
+									<td>
+									</td>
+									<td align="center">97</td>
+									<td align="center">141</td>
+									<td align="center">123</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN1">
+								<p>e-SAJPG: First Degree Judicial Automation System; e-SAJSG: Second Degree Judicial Automation System; SEEU: Unified Electronic Execution System; PJE1G: 1st Degree Electronic Judicial Process; PJ2G: 2nd Degree Electronic Judicial Process; Projudi: Digital Judicial Process; LIBRA: Judicial Process Management System of the Judicial Branch of Pará; SISCOM: Computerization System of the District Services; SICAP: Process Control and Monitoring System; EPROC1G: First Degree Electronic Process; EPROC2G : Second Degree Electronic Process; SPROC: Procedural System; SAIPRO: Integrated Process Monitoring System Judicial; THEMIS1G: Electronic Petition and Process System 1st degree; THEMIS2G: Electronic Petition and Process System 2nd degree; VEP: System of Virtual Criminal Execution Courts; E-JUS: Electronic Process System; JUDWIN: Unified Procedural Consultation; THEMISWEBRECURSAL: Electronic Petition and Process System 2nd degree; Projudirecursal: Digital Judicial Process 2nd degree; SCPV: Virtual Procedural Control System; QVT: Applications for access to non-graphical systems; SISTJWEB: Graphic Integrated protocol module; E-JUD: Portal of the Judiciary of the State of Espírito Santo; SIEP: System of Criminal Execution; SIAP: Procedural Monitoring System; PJERJ: Electronic Judicial Process of Rio de Janeiro; VEC: Advanced research on physical processes; TJPR: Paraná Court of Justice.</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p>
+					<table-wrap id="t2">
+						<label>Table 2</label>
+						<caption>
+							<title>Description and frequency of systems of the State Courts of Justice, 2021.</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left">Systems in State Courts of Justice<sup>a</sup></th>
+									<th>n (%)</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Electronic Judicial Process 1st Degree (PJ1G)</td>
+									<td align="center">17 (13.8)</td>
+								</tr>
+								<tr>
+									<td>Electronic Judicial Process 2nd Degree (PJ2G)</td>
+									<td align="center">13 (10.5)</td>
+								</tr>
+								<tr>
+									<td>Digital Judicial Process (Projudi)</td>
+									<td align="center">16 (13.0)</td>
+								</tr>
+								<tr>
+									<td>Unified Electronic Execution System (SEEU)</td>
+									<td align="center">12 (9.7)</td>
+								</tr>
+								<tr>
+									<td>First Degree Judicial Automation System (e-SAJ PG)</td>
+									<td align="center">10 (8.1)</td>
+								</tr>
+								<tr>
+									<td>Electronic Transmission System of First Degree Procedural Acts (E-PROC1G)</td>
+									<td align="center">3 (2.4)</td>
+								</tr>
+								<tr>
+									<td>1st degree Electronic Petition and Process System (THEMIS1G)</td>
+									<td align="center">3 (2.4)</td>
+								</tr>
+								<tr>
+									<td>Electronic First Degree Process (EPROC1G)</td>
+									<td align="center">3 (2.4)</td>
+								</tr>
+								<tr>
+									<td>Electronic Second Degree Process (EPROC2G)</td>
+									<td align="center">3 (2.4)</td>
+								</tr>
+								<tr>
+									<td>Virtual Criminal Enforcement Courts System (VEP)</td>
+									<td align="center">2 (1.6)</td>
+								</tr>
+								<tr>
+									<td>Procedural System (SPROC)</td>
+									<td align="center">2 (1.6)</td>
+								</tr>
+								<tr>
+									<td>2nd degree Electronic Petition and Process System (THEMIS2G)</td>
+									<td align="center">2 (1.6)</td>
+								</tr>
+								<tr>
+									<td>Computerization System for Municipal Services (Siscom)</td>
+									<td align="center">2 (1.6)</td>
+								</tr>
+								<tr>
+									<td>Portal of the Judiciary of the State of Espírito Santo (E-JUD)</td>
+									<td align="center">1 (0.8)</td>
+								</tr>
+								<tr>
+									<td>Electronic Process System (E-JUS)</td>
+									<td align="center">1 (0.8)</td>
+								</tr>
+								<tr>
+									<td>Electronic Administrative Protocol System (E-MAIL)</td>
+									<td align="center">1 (0.8)</td>
+								</tr>
+								<tr>
+									<td>1st degree Electronic Petition and Process System (THEMISWEB)</td>
+									<td align="center">1 (0.8)</td>
+								</tr>
+								<tr>
+									<td>Electronic Judicial Process (Tucujuris)</td>
+									<td align="center">1 (0.8)</td>
+								</tr>
+								<tr>
+									<td>1st Degree Process Monitoring System (SISTJ Gráfico)</td>
+									<td align="center">1 (0.8)</td>
+								</tr>
+								<tr>
+									<td>Judicial Process Management System of the Judiciary of Pará (Libra)</td>
+									<td align="center">1 (0.8)</td>
+								</tr>
+								<tr>
+									<td>Physical proccess consultation portal 1st and 2nd degree</td>
+									<td align="center">1 (0.8)</td>
+								</tr>
+								<tr>
+									<td>2nd degree Electronic Petition and Process System (Themiswebrecursal)</td>
+									<td align="center">1 (0.8)</td>
+								</tr>
+								<tr>
+									<td>Electronic Judicial Process Rio de Janeiro (PJe-RJ)</td>
+									<td align="center">1 (0.8)</td>
+								</tr>
+								<tr>
+									<td>Portal Court of Justice of Paraná (TJPR) State Courts with Physical Processes (on paper)</td>
+									<td align="center">1 (0.8)</td>
+								</tr>
+								<tr>
+									<td>2nd degree Digital Judicial Process (ProjudiRecursal)</td>
+									<td align="center">1 (0.8)</td>
+								</tr>
+								<tr>
+									<td>Applications for access to non-graphical systems (QVT)</td>
+									<td align="center">1 (0.8)</td>
+								</tr>
+								<tr>
+									<td>Integrated Monitoring System of Judicial Processes (SAIPRO)</td>
+									<td align="center">1 (0.8)</td>
+								</tr>
+								<tr>
+									<td>Unified Beta Query</td>
+									<td align="center">1 (0.8)</td>
+								</tr>
+								<tr>
+									<td>Procedural monitoring system Court of Justice Piauí – 2nd instance (e-TJPI)</td>
+									<td align="center">1 (0.8)</td>
+								</tr>
+								<tr>
+									<td>Unified procedural consultation (JUDWIN)</td>
+									<td align="center">1 (0.8)</td>
+								</tr>
+								<tr>
+									<td>Integrated protocol module (SISTJWEB)</td>
+									<td align="center">1 (0.8)</td>
+								</tr>
+								<tr>
+									<td>Procedural Monitoring System (SIAP)</td>
+									<td align="center">1 (0.8)</td>
+								</tr>
+								<tr>
+									<td>Process Control and Monitoring System (SICAP)</td>
+									<td align="center">1 (0.8)</td>
+								</tr>
+								<tr>
+									<td>Electronic procedural search second degree (Second Instance System)</td>
+									<td align="center">1 (0.8)</td>
+								</tr>
+								<tr>
+									<td>Criminal Enforcement System (SIEP)</td>
+									<td align="center">1 (0.8)</td>
+								</tr>
+								<tr>
+									<td>Electronic Judicial Process (Tucujuris Web)</td>
+									<td align="center">1 (0.8)</td>
+								</tr>
+								<tr>
+									<td>Virtual procedural procedure in the Judiciary of Mato Grosso (Sistema Apolo)</td>
+									<td align="center">1 (0.8)</td>
+								</tr>
+								<tr>
+									<td>Virtual Procedural Control System (SCPV)</td>
+									<td align="center">1 (0.8)</td>
+								</tr>
+								<tr>
+									<td>Procedural Control System (Apolo Eletrônico)</td>
+									<td align="center">1 (0.8)</td>
+								</tr>
+								<tr>
+									<td>Advanced Physical Process Search (VEC)</td>
+									<td align="center">1 (0.8)</td>
+								</tr>
+								<tr>
+									<td>First Degree Judicial Automation System (e-SAJ PG5)</td>
+									<td align="center">1 (0.8)</td>
+								</tr>
+								<tr>
+									<td>First Degree Judicial Automation System (e-SAJ SG3)</td>
+									<td align="center">1 (0.8)</td>
+								</tr>
+								<tr>
+									<td>First Degree Judicial Automation System (e-SAJ Digital)</td>
+									<td align="center">1 (0.8)</td>
+								</tr>
+								<tr>
+									<td>First Civil Degree Procedural Consultation (1GCivel)</td>
+									<td align="center">1 (0.8)</td>
+								</tr>
+								<tr>
+									<td>Procedural consultation First Degree Court of criminal executions (1GVEP)</td>
+									<td align="center">1 (0.8)</td>
+								</tr>
+								<tr>
+									<td>Procedural consultation First Criminal Degree (1GCriminal)</td>
+									<td align="center">1 (0.8)</td>
+								</tr>
+								<tr>
+									<td>Second-degree procedural consultation (2G)</td>
+									<td align="center">1 (0.8)</td>
+								</tr>
+								<tr>
+									<td>Court of Justice – Cases (TJP)</td>
+									<td align="center">1 (0.8)</td>
+								</tr>
+								<tr>
+									<td><bold>Total</bold></td>
+									<td align="center"><bold>123 (100)</bold></td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN2">
+								<p><sup>a</sup> There are 48 types of systems in State Courts of Justice in the country.</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p>The TJ of Acre reported that it uses only electronic processes, presenting three virtual databases, while the TJ of Sergipe indicated having only one database that serves for protocol and monitoring of processes, both physical and virtual. The TJ of Alagoas, Mato Grosso do Sul and Rondônia presented two databases, indicated for both physical and virtual processes, one for first-degree processes and another for second-degree ones. The TJ of Amazonas presented three databases, also indicated for protocol and monitoring of physical and virtual processes.</p>
+				<p>On the other hand, Rio Grande do Sul, Maranhão and the Distrito Federal (DF) reported bases in each typology, seven in total. The state of Piauí counted two databases for physical processes and six for virtual ones, totaling eight databases. The other TJ have different operating characteristics, from which one can follow the physical and virtual processes (<xref ref-type="table" rid="t1">Table 1</xref>).</p>
+				<p>The advancement of electronic systems for the modality of virtual processes to the detriment of the records of physical processes was verified, the fact justifies the repetition of some bases in relation to physical and virtual processes. For example, in the state of Amazonas, there is the E-SAJ and Projudi system, which can both be used to monitor physical and virtual processes.</p>
+				<p>In the country, 141 databases were identified in the states and DF, 44 (31.2%) for physical processes and 97 (68.8%) for virtual ones (<xref ref-type="table" rid="t1">Table 1</xref>). There is a predominance of virtual bases in all regions of the country, with emphasis on the Northeast and South regions (<xref ref-type="table" rid="t1">Table 1</xref>).</p>
+				<p>A total of 123 databases were found in the TJ, with emphasis on the South and Northeast regions (<xref ref-type="table" rid="t1">Table 1</xref>). When disregarding the existence of duplication of databases, a total of 48 systems were found throughout the country (<xref ref-type="table" rid="t2">Table 2</xref>). The most frequent systems were: PJE1G (n = 17; 13.8%), PJE2G (n = 13; 10.5%), Projudi (n = 16; 13%), SEEU (n = 12; 9.7%) and E-SAJ PG (n = 10; 8.1%).</p>
+			</sec>
+			<sec>
+				<title>Stage 2</title>
+				<p>Responses were obtained to the requests of the TJ of Amapá (AP), Pará (PA), Rondônia (RO), Roraima (RR), Alagoas (AL), Ceará (CE), Maranhão (MA), Rio Grande do Norte (RN), Sergipe (SE), Distrito Federal (DF), Espírito Santo (ES), Minas Gerais (MG), São Paulo (SP) and Paraná (PR).</p>
+				<p>With the information of 14 participating courts of justice, it was noticed that the branch for protocols of actions related to health is established by the CNJ, based on the System of Unified Procedural Tables (<italic>Sistemas de Tabelas Processuais Unificadas</italic> - TPU), established by Resolution No. 46 of 2007 of the CNJ.</p>
+				<p>Based on the answer to question [A] according to the classification established by the CNJ table, there are differences in the form of registration and protocol when it comes to public or private health. In addition, the competence to process causes related to public health refers to special courts and courts of the public treasury, which judge civil lawsuits of interest to the state and municipalities, while for private health there are special civil courts. Such details are important for the extraction of reports and future research designs.</p>
+				<p>In another perspective already brought by question [B], in a common way, the legal operators responsible for the distribution of lawsuits incur error by classifying them in various subjects, such as, for example, “obligation to do<sup>”</sup> (lawsuit that aims at a provision of one person in relation to another). Although the judicial unit has the possibility to readjust the action, this aspect reflects a competence gap to be filled.</p>
+				<p>It was also mentioned that there are no specific rules linking competence to matters. The update/correction, however, can be done at any time by internal users of the system, with different profiles, such as protocol, distribution, notaries and/or offices.</p>
+				<p>Finally, question [C] revealed that in the TJ both the distribution sector and court notaries and the technical support centers of the Judiciary (NAT-Jus) can make adequacy/compatibility, correcting any registration errors.</p>
+				<p>The TJ of Roraima complemented the information that NAT-Jus “collects” the data, consolidates them, and monitors health actions, especially in tributary and childhood courts, considering the context on request basis. Even if the subject is not “health”, the court analyzes according to the subject, indicating greater rigor in relation to the information available from health actions.</p>
+				<p>One also found the websites of the TJ do not have a standardized data interface for the provision of processes related to public health, and there are also different obstacles to accessing this type of information. No information was found on how the content of the processes should be made available in the database, leaving at the discretion of each court how to make its data available on the various subjects, such as the processes of judicialization of public health.</p>
+				<p>Also as a result of this research, it was recognized that the greatest difficulty found in the activity of collecting data on health processes arises from problems in the access models (Judiciary Systems), in the availability and organization of the websites of the various state TJs, i.e., there is no uniformity for proper access, which requires the development of a system that reaches the demands in order to guarantee, in fact, the access of all legal operators, as well as society, including health researchers.</p>
+			</sec>
+		</sec>
+		<sec sec-type="discussion">
+			<title>DISCUSSION</title>
+			<p>The study allowed additional evidence that the large number of databases that store individual and collective actions involving SUS makes it difficult to carry out more substantiated and comparative analyses. There is a technical limitation for the systematic extraction of data compiled in each system, in addition to the lack of integration between them, compromising the planning, decision-making and development of health research. One also observed that these systems, in more than a hundred, are still of limited access to law operators and researchers, both in the field of law and in the health sciences, particularly Public Health, with potentially negative impacts for academic research in these fields of knowledge.</p>
+			<p>Although the computerization law of the judicial process No. 11,419 of 2006 and Bill No. 5,828 of 2001 have in their original proposal the prediction that each body of the legal system would develop software necessary for the use of the digital process, creating its own access base and which could be accessed from anywhere on the planet<sup><xref ref-type="bibr" rid="B12">12</xref></sup>; this administrative autonomy of each TJ, previously without a guiding legislation, generated multiplicity of systems in the courts with lack of uniformity in the databases and interfaces between information in the courts, evidenced in this study.</p>
+			<p>In 2005, the CNJ, the administrative and procedural control body of the legal system, established the statistics system of the Judiciary Power (Resolution No. of August 4, 2005), making it mandatory for the country’s TJ to send consolidated data on processes and sentences rendered to be centralized in the Council<sup><xref ref-type="bibr" rid="B18">18</xref></sup>. However, studies show there are limited concrete advances until the completion of this research<sup><xref ref-type="bibr" rid="B19">19</xref>,<xref ref-type="bibr" rid="B20">20</xref></sup>, the different databases limit the production of information that translates reality, reducing the potential for jurisdictional provision<sup><xref ref-type="bibr" rid="B9">9</xref></sup>. Therefore, compromising the description and broad and precise understanding of the phenomenon of health judicialization, as well as the planning of public policies by the Executive Branch<sup><xref ref-type="bibr" rid="B1">1</xref>,<xref ref-type="bibr" rid="B13">13</xref></sup>.</p>
+			<p>The automation of the legal system was rethought with the emergence of the electronic judicial process, proposal for integration of databases, and strategic management of information from the judiciary power<sup><xref ref-type="bibr" rid="B21">21</xref></sup>. It currently represents an important tool standardized by the ordinary Judiciary, a fact verified in this study, based on the finding that it is used by almost 20% of the country’s TJ, reinforcing its strategic implementation as a public policy of the Legal System provided for in CNJ Resolution No. 185 of 2013<sup><xref ref-type="bibr" rid="B22">22</xref></sup>.</p>
+			<p>This scenario points out that the use of judicial databases is a powerful tool for faster and more qualified procedural processing<sup><xref ref-type="bibr" rid="B20">20</xref></sup> and conducting empirical research in health<sup><xref ref-type="bibr" rid="B1">1</xref></sup>. However, it was noted that its existence by itself does not guarantee easy access, without being subject to personal, structural and social limitations, in view of the multiplicity, inconstancy and lack of uniformity, in addition to limiting access to the data of the possible analyses, making impossible a series of interfaces between the different bases to overcome possible inconsistencies<sup><xref ref-type="bibr" rid="B1">1</xref>,<xref ref-type="bibr" rid="B9">9</xref>,<xref ref-type="bibr" rid="B13">13</xref></sup>.</p>
+			<p>Another concern refers to the limitation of access for people who do not work in the field of law; based on the findings of this study and experience of linked data collection, it is inferred that the existence of structural barriers consistently limits the wide access to empirical data, objects of research on the judicialization of public health, a fact intensified by the wide variety of databases in the Legal System.</p>
+			<p>The importance of the proposal to consolidate databases in the Judiciary Branch promotes alignment with the sustainable development objective of Agenda 2030, number 16, which deals with a society with universal access to Justice, with effective and inclusive institutions at all levels<sup><xref ref-type="bibr" rid="B23">23</xref>,<xref ref-type="bibr" rid="B24">24</xref></sup>.</p>
+			<p>Another important aspect is the classification and protocol of actions related to health (“types” of matters that are the subject of litigation), due to the fact that some courts use as standard the subjects of the CNJ’s unified procedural table. However, there are other ways to proceed to branching, as can be seen from the response of the TJ of Minas Gerais.</p>
+			<p>The protocol of health actions represents relevant information, considering the large number of studies on health judicialization that require empirical data from the courts for research purposes<sup><xref ref-type="bibr" rid="B1">1</xref>,<xref ref-type="bibr" rid="B9">9</xref>,<xref ref-type="bibr" rid="B11">11</xref>,<xref ref-type="bibr" rid="B13">13</xref>,<xref ref-type="bibr" rid="B14">14</xref></sup>. In this study, the question of whether it is possible to file health actions in other matters was answered “yes” by most courts. Although the use of the managerial entitled “health processes” is regulated, many representatives classify demand differently. For example, in the public treasury there are processes classified with the managerial “obligation to do or not to do”, when in fact they are health processes (supply of medicines). The reasons for this imprecise classification may be related to the recent adoption of new policies for health actions, including the adoption of a specific classification (<xref ref-type="table" rid="t3">Box</xref>), which has shown limitations due to erroneous registrations referring to the ‘subject’ when distributing the process<sup><xref ref-type="bibr" rid="B1">1</xref>,<xref ref-type="bibr" rid="B11">11</xref>,<xref ref-type="bibr" rid="B13">13</xref>,<xref ref-type="bibr" rid="B14">14</xref></sup>.</p>
+			<p>
+				<table-wrap id="t3">
+					<label>Box</label>
+					<caption>
+						<title>Answers on the process of protocol and monitoring of health processes in the databases of the Courts of Justice of the States.</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left">Federative Units (UF)</th>
+								<th>Question A) In the systems (insert the systems according to the previous question), what is the branch (in the subject tree) to classify and protocol an action that deals with health? Is there a difference in the protocol when it comes to public health and private health?</th>
+								<th>Question B) Is it possible to carry out a protocol of a process in the competence of the public treasury that is of the health area, without the registration being identified that it is of the health, for example (register as “administrative act/annulment” – but be referring to the supply of medicines)?</th>
+								<th>Question C) Does the distribution sector make adequacy/compatibility in the registration of actions, correcting any petition errors by the professionals who make the registrations?</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Amapá (AP)</td>
+								<td align="center">Regarding the branch, in the subject tree, to classify and file an action that deals with health, the Tucujuris system – Electronic Judicial Process uses the System of Unified Procedural Tables (TPU), established by Resolution No. 46/2007 of the National Council of Justice (CNJ), available at: https://www.cnj.jus.br/sgt/consulta_publica_classes.php</td>
+								<td align="center">Yes, the lawyer is the one who classifies/registers among the rites available at the time of the Initial Petition, and it is possible that he/she selects or classifies a rite different from the intended action, and the Secretariat may perform the correction.</td>
+								<td align="center">The distribution is automatic, performed by the lawyer himself, and after distribution the office realizes the performance and the admissibility examination, and the Secretariat may perform the correction.</td>
+							</tr>
+							<tr>
+								<td>Pará (PA)</td>
+								<td align="center">The Court of Justice of Pará (TJPA) uses the electronic system PJE for the protocol of initial petitions. To register “subject” for an initial process, you must first select the “class” of the action. In view of the class, it is possible to classify the subject among those existing in the system, according to the object of the action. To make a difference between “public health” and “private health”, for the first case, the subject should be selected in the tree of “Administrative Law” and “Health Law”; and for the second, it should be in the tree of “Consumer Law”. In both cases, the one that best identifies the action should be verified as the main subject. We use this opportunity to clarify that nothing prevents other subsidiary matters from being selected. We also emphasize that the initial action protocol is the responsibility of the lawyer, who is responsible for class classification and the subject of the action to be filed, observing the jurisdiction of the court, before the final protocol.</td>
+								<td align="center">It is possible to perform the protocol of an action without performing the correct classification, because everything depends on the class and subject selected by the lawyer. It should also be noted that the subject tree used by this Court is that provided by the CNJ (Unified Procedural Table Management System – CNJ – https://www.cnj.jus.br/sgt/consulta_publica_assuntos.php). This body is better able to provide the clarifications questioned.</td>
+								<td align="center">The Distribution Sector does not have the competence to change/correct errors that occurred during the protocol of an action. If any adjustment has to be made, it must be carried out by the respective Registry of the Court.</td>
+							</tr>
+							<tr>
+								<td>Rondônia (RO)</td>
+								<td align="center">Regarding the branching of the subject tree used, the subjects belong to the tree: Health Law. The glossary of TPU explains when it comes to private and public health.</td>
+								<td align="center">There is a possibility of distribution with any matter that is associated with the jurisdiction of the Public Treasury court.</td>
+								<td align="center">Users with a secretary director profile are enabled to perform subject corrections.</td>
+							</tr>
+							<tr>
+								<td>Roraima (RR)</td>
+								<td align="center">The system currently widely used in the TJRR is the Projudi (there are still PJE and Siscom, however on a very small scale), so the TJRR adopts as a model of the unified tables of the CNJ, among the subjects or better managerial titles we have: “Health Processes”, it is this managerial that should be used at the time of filing the action to classify the newly filed process.</td>
+								<td align="center">As for the protocol, although the use of the managerial “Health processes” is regulated, many representatives end up classifying the demand in a different way, for example in the public treasury there are processes classified with the managerial “obligation to do or not to do” when in fact they are health processes, including the supply of medicines. I believe that one of the reasons is the recent adoption of new policies for health actions, including the adoption of a specific classification.</td>
+								<td align="center">With regard to the adequacy/ compatibility of any misconceptions in the definition of managerial in the register, both the distribution sector, the court registry office and NATJUS can change the classification when any misconceptions are found in the definition of managerial. Finally, it is relevant to note that NATJUS “collects” the statistical data and monitors health actions, especially in tributary and childhood courts, considering each request, i.e., NATJUS confers the daily collection that is distributed in the referred units, even though it is a managerial different from that indicated as “health process”, this nucleus records the process in its statistics since an analysis of the initials of each process is made to ensure the accuracy of the statistics.</td>
+							</tr>
+							<tr>
+								<td>Alagoas (AL)</td>
+								<td align="center">The branch is defined by the CNJ through the Management System of Unified Procedural Tables – (TPU), and applies to all courts in the country. Namely, any branch that is below the subject of code 12,480 (Health Law). About the difference in the protocol: Yes, there is a difference in the registration of these actions. When it comes to public health, the branch used is the subject of code 12,481 (public health), while in relation to private health, the branch of code 12,482 (supplementary health) is used. We should clarify that the CNJ identifies these matters by subject (complement) and not by class (action).</td>
+								<td align="center">Yes, that is possible. The subject matter is not a mandatory content of the process, so possible misunderstandings may occur.</td>
+								<td align="center">The distribution sector is not properly in charge of correcting and/or identifying matters, but rather of competence. In this case, the health theme (in the context presented here) is defined by the subject and the competence is the non-criminal – defined by the procedural class. Therefore, the judicial unit that receives the case is in charge of identifying the matter and correcting it, if necessary.</td>
+							</tr>
+							<tr>
+								<td>Ceará (CE)</td>
+								<td align="center">One informed according to resolution §§1 of 09/2019 of the ECJ as well as IN 03/2018 that the protocols were specifically and restricted to the areas of the right to public health, since the tree of Administrative Law is pertinent. However, the National Council of Justice (https://www.cnj.jus.br/sgt/consulta_publica_assuntos.php), promoted a recent change in the national table, including the branch of matters related to “Health Law”, repealing some codes of those that were standardized in the specialization carried out by the ECJ in 2018 and including several others related to the judicialization of private health.</td>
+								<td align="center">NR</td>
+								<td align="center">I inform that until the advent of automatic distribution in the Public Treasury Courts or the Civil Courts, the distributor user is authorized to correct the class eventually mistakenly elected by the petitioner.</td>
+							</tr>
+							<tr>
+								<td>Maranhão (MA)</td>
+								<td align="center">The Information Technology Advisory made a search in all the filed processes that contain “Health” in the subject. Thus, processes were found in the following branches: Administrative Law and other matters of Public Law, Health Law, Consumer Law and Tax Law. It can be seen from the definition of the subjects mentioned in the previous table that there is a way to separate public and private health.</td>
+								<td align="center">Computer Advisory reports that there is the concept of competence in judicial proceedings systems. Cross-referencing health issues (mentioned in the table provided) with the competencies of each process.</td>
+								<td align="center">The Computer Advisory can report that whenever the distribution departments of the forums receive the determination to correct the assessment of the processes, either by changing the class, competence, inclusion or exclusion of subjects, among other data, this is done in the system.</td>
+							</tr>
+							<tr>
+								<td>Rio Grande do Norte (RN)</td>
+								<td align="center">Health Law - 12,480 and its ramifications - There is a difference in the process record regarding public and private health according to codes provided by the TJ.</td>
+								<td align="center">It is possible, however, to minimize these misconceptions; the Secretariat for Strategic Management has been continuously disseminating information explaining the proper use of the Unified Procedural Tables. In addition to the Internal Affairs action in its Correction reports, in which the inconsistencies of registrations are pointed out.</td>
+								<td align="center">Registration errors are as far as possible corrected by the judicial units, there is no specific sector for this purpose. The Court has been preparing a compiled by jurisdiction, in which the classes, subjects and movements appropriate for each jurisdiction are identified, in order to avoid the occurrence of these misconceptions.</td>
+							</tr>
+							<tr>
+								<td>Sergipe (SE)</td>
+								<td align="center">The virtual procedural control system used by this Court is parameterized according to the Unified Procedural Tables of the National Council of Justice and, in the latter, it appears as a branch to classify and file an action that addresses the subject of Health Law (12,480), which has the following subdivisions: 1. Donation and transplantation of organs, tissues or parts (12,521). 2. Genetics/stem cells (12,520).</td>
+								<td align="center">Yes, it is possible given that the lawyer subscribing to the petition must provide the matter when filing the action under the caput of article 170-F of the Judicial Normative Consolidation with wording amended by Provision No. 22/2010 and, therefore, may be mistaken in the choice of matter.</td>
+								<td align="center">Article 170-F of the Judicial Normative Consolidation, in its paragraph 5, exposes that the distributor can remedy any inaccuracies and include data indispensable to the registration of the process, always using the initial petition as a parameter. On the other hand, the applicant informs that it sends the above questions to this Court of Justice with a view to making some requests, which are answered below: 1) Verification of the consolidated data in terms of its adequacy to the issues presented and the realities of this court. It was not clear what these consolidated data would be and it is also a subjective question, not recoverable in the virtual procedural control system of this Court.</td>
+							</tr>
+							<tr>
+								<td rowspan="2">Sergipe (SE)</td>
+								<td align="center" rowspan="2">3. Mental (12,507), which is subdivided into compulsory hospitalization (12,508), involuntary hospitalization (12,509) and voluntary hospitalization (12,510). 4.Public (12,481), which is subdivided into: 4.1) Supply of inputs (12,485), which is subdivided into wheelchair/bath chair/hospital bed (12,498), dressings/bandage (12,497) and diapers (12,499). 4.2) Supply of medicines (12,484), which is subdivided into oncology (12,496), registered with Anvisa (12,492) and without registration with Anvisa (12,493). It is noteworthy that the matter registered with Anvisa (12,492) is subdivided into non-standard (12,495) and standard (12,494). 4.3) hospitalization/ transfer (12,483), which is subdivided into ward/oncology bed (12,505) and intensive therapy unit (ITU)/intensive care unit (ICU) (12,506). 4.4) Unified Health System (SUS) (12,511), which is subdivided into Social Control and Health Councils (12,518), medical agreement with SUS (12,512), SUS financing (12,513), SUS table adjustment (12,514), transfer of SUS funds (12,515), SUS reimbursement (12,516) and SUS outsourcing (12,517). 4.5) Medical-hospital treatment (12,491), which is subdivided into consultation (12,500), dialysis/hemodialysis (12,504) and surgery (12,501). It is noteworthy that the subject of surgery (12,501) is subdivided into elective (12,502) and urgent (12,503). 4.6) Health and Epidemiological Surveillance (12,519). 5) Supplementary (12,482), which is subdivided into Health plans (12,486) and the latter is subdivided into supply of inputs (12,490), supply of medicines (12,487), contractual adjustment (12,488) and medical-hospital treatment (12,489). In addition, it is worth mentioning that there is no difference regarding the protocol of actions on public or private health, both of which must be filed electronically in compliance with Provision No. 22/2010 and the Judicial Normative Consolidation, both of which are of this Court.</td>
+								<td align="center" rowspan="2">Yes, it is possible given that the lawyer subscribing to the petition must provide the matter when filing the action under the caput of article 170-F of the Judicial Normative Consolidation with wording amended by Provision No. 22/2010 and, therefore, may be mistaken in the choice of matter.</td>
+								<td align="center">2) If they consider it necessary, they make adjustments with rectification of the data, to match the reality of each court. This process should be confirmed (ratified or rectified) in advance with the answer to the following question: Does this Court confirm the appropriateness of the results presented in the light of your particular reality? This is a subjective data, not recoverable in the virtual procedural control system. 3) Update of the answers of the Court of Justice considering the reality until May 2021, with a view to greater contextualization and comparison with the context of January 2019. In this sense, I request the demarcation of the existence or not of eventual changes and, if any, the specification. The system of electronic petitioning and monitoring of electronic processes remains similar to that used in January 2019, based on Provision No. 22/2010 and Judicial Normative Consolidation.</td>
+							</tr>
+							<tr>
+								<td align="center">In view of the foregoing, therefore, this Civil Division contends that the responses be forwarded to the requesting party of this Electronic Information System (SEI), remaining available for the provision of more information.</td>
+							</tr>
+							<tr>
+								<td>Distrito Federal (DF)</td>
+								<td align="center">The system performs the class and subject configuration to establish and fix the initial competency. For health competence, currently the system associates the class Common Civil Procedure (7), associated with the subjects of the tree of the table SGT of the CNJ of Health Law -12,480, always using the subjects children or father, from the 3rd level. The SGT table has tree branches dealing with public health matters (12,481) and supplementary health matters (12,482). Link to access and consult the SGT table of the CNJ: www.cnj.jus.br/sgt</td>
+								<td align="center">If the lawyer, attorney-in-fact or public defender, when filing an initial with a class and matter incompatible with civil jurisdiction, the case may be referred to Public Treasury jurisdiction. In these cases, the magistrate will analyze the request and when identifying that it is a health issue, determine the reclassification of the process and the redistribution to the specialized health court.</td>
+								<td align="center">Considering that the Court of Justice of the Federal District and Territories (TJDFT) implemented the PJe in all jurisdictions (Civil, Criminal, Family, Orphans and Successions, Special Civil and Criminal Courts, Domestic Violence Courts, Childhood Court and others), the distribution service was deactivated, being under the responsibility of the judicial units the prior analysis of the classification of the deeds. TJDFT is also developing a system that uses Artificial Intelligence to assist our users with the correct classification of processes. Currently, the robot is implemented in 11 pilot units.</td>
+							</tr>
+							<tr>
+								<td>Espírito Santo (ES)</td>
+								<td align="center">It uses the System of Unified Procedural Tables (TPU), established by Resolution No. 46/2007 of the National Council of Justice – CNJ, available at: https://www.cnj.jus.br/sgt/consulta_publica_classes.php</td>
+								<td align="center">It is indeed possible. There are no specific rules linking competence to subjects. The update/correction, however, can be done at any time by internal users of the system, with different profiles, such as protocol, distribution, notaries and/or offices.</td>
+								<td align="center">The system makes it possible to make the adjustment by the profiles described in item (ii), but we cannot say whether they are carried out.</td>
+							</tr>
+							<tr>
+								<td>Minas Gerais (MG)</td>
+								<td align="center">In the PJe, when distributing the case, the lawyer will choose the class and subject that best suits the intended situation. Several subjects will be presented for distribution and, if there is accumulation of supplementary and public health issues, it will be presented for which competence it wishes to distribute, whether Supplementary Health, State Public Health and Municipal Public Health. When making the choice, the process will be registered in the indicated jurisdiction and directed to the 2nd Civil Court or 2nd State Public Treasury Court or 2nd Municipal Treasury Court, respectively, in the case of for example the district of Belo Horizonte. In Projudi, the lawyer/terminated person will choose the competence first and after the class and subject, so the chances of distribution to the incompetent court are minimized. The competencies that deal with health in Projudi are: Special Civil Courts of Consumption and Special Civil Courts of the Public Treasury.</td>
+								<td align="center">Yes, because the distribution is made by the lawyer, that is, it is up to him to choose the appropriate competence, class and subject, and can be done mistakenly, as for example, in common justice if the Common Procedure class (7) is chosen with different health issues, the system will never present as a possible competence the health and the process will be registered in a different competence from the health. Consequently, it will be very likely to be distributed to a court that is not competent, in accordance with Resolution 829/2016, for judicial districts that have more than one civil and treasury court. On the other hand, if there is the choice of a health subject (supplementary or public), the PJe system will display among the alternatives of competence the health ones according to the indicated.</td>
+								<td align="center">The rectification of the registration of the shares is made by the secretariat at the time of issuance of the Screening Certificate, pursuant to art. 195 of Provision No. 355/CGJ/2018, since the distributor does not have access to the processes already distributed. In this situation, currently, even if there is a rectification of the matter, the jurisdiction in which the process was distributed will not be changed, due to the current functioning of the PJe System, which does not occur in PROJUDI. Improvement on this point, alteration/rectification of competence in distributed processes has already been requested from the CNJ and awaits development.</td>
+							</tr>
+							<tr>
+								<td>São Paulo (SP)</td>
+								<td align="center">As for classes and matters, the Court of Justice of São Paulo is adhering to the Unified Procedural Tables of the National Council of Justice, which standardize the petitions of initials in the courts of the country, including the matters that constitute the tree of “code 12,480 – Health Law”.</td>
+								<td align="center">The system allows the linking of the subjects “Administrative act or Annulment” during the electronic petition of an action under the jurisdiction of the Public Treasury, even if the content of the request is related to health. This is because the subjects codes “11,899 – Administrative Act” and “10,382 – Annulment” belong to the tree of the parent code “9,985 – Administrative Law and Other Matters of Public Law”, which is linked to the competence of the “Public Treasury”; the same happens, for example, with the subjects that belong to the trees of the parent codes “1,156 – Consumer Law”, “8,826 - Civil and Labor Procedural Law”, “9,633 – Child and Adolescent Law”, among others.</td>
+								<td align="center">The distributions of the initials sent via electronic petition occur automatically, without manual interference from the distributors. If necessary and if it is the magistrate’s understanding, the destination notary of that distributed action may make corrections to the data registered at the time of the petition.</td>
+							</tr>
+							<tr>
+								<td>Paraná (PR)</td>
+								<td align="center">There is no specific treatment for processes classified with health issues in the Projudi system.</td>
+								<td align="center">The Projudi system has the configuration of enabling classes and subjects by competencies. Once the specified subject is configured in the competence (area of sticks), there would be no impediment to protocolization.</td>
+								<td align="center">The Projudi system allows the registry to change the class, main and secondary subject of the proceedings at any time.</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN3">
+							<p>NR: did not respond; TJCE: Court of Justice of Ceará; TJRR: Court of Justice of Roraima; PJE: Electronic Judicial Process; Anvisa: National Health Surveillance Agency; Projudi: Digital Judicial Process; SGT: System of management of unified procedural tables of the National Council of Justice.</p>
+						</fn>
+						<fn id="TFN4">
+							<p>NATJUS: Nuclei of Technical Support to the Judiciary.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>Such a scenario points to a risk to the actual number of health judicialization processes in the courts already researched<sup><xref ref-type="bibr" rid="B11">11</xref></sup>, even though the courts respond that it is possible to make the adjustment. The inaccuracies and inclusions of inaccurate data are questioned, a fact found in the answers provided in the <xref ref-type="table" rid="t3">Box</xref>.</p>
+			<p>The limitations of the study refer to the degree of accuracy and systematization of information related to the information systems of the legal system that were formally returned by the TJ. Despite these issues, the national scope and the differentiated approach with interface from different perspectives in the field of Law and Collective Health reinforce its relevance, given the unprecedented and strategic character for the country.</p>
+		</sec>
+		<sec sec-type="conclusions">
+			<title>CONCLUSION</title>
+			<p>The multiplicity of information systems in the Brazilian Judiciary makes their use more complex for analysis with a view to health research, constituting an obstacle to the more effective updating of the Executive’s public policies. Additional efforts are needed not only to standardize, but also to improve the flows and structure of judicial databases, expanding access and transparency, seeking a transdisciplinary look at research in the fields of Law and Collective Health.</p>
+			<p>The lack of standardization in the organization of data or public access systems to the various TJs (and their statistical data) hinders the empirical research of health judicialization, which is fundamental for the elaboration of public policies. While the electronic database platforms of the Judiciary are not offered in a unified manner, in an equal manner, the virtualization of the processes will not be able to guarantee the expansion of access to Justice information, on the contrary, it may intensify the disparity between public and private access to Justice.</p>
+			<p>The future must be the digital process and, if it is to be effective, it must be carefully instituted, with analysis of results, failures and improvements, adapting operators and society as a whole. There is a huge potential for analysis and qualification of public policies, not only linked to the health sector. It is noteworthy that this movement demands strategic social policies that promote unrestricted access by society and health researchers, within the limits of current laws, including based on easily accessible data on their websites.</p>
+			<p>Therefore, the need for strategic improvement is reinforced to standardize the electronic systems used by the Legal System to govern judicial processes and empirical research in health, given that the configuration adopted limits and hinders research and analysis that can even guide the creation of public policies aimed at identifying and controlling the phenomenon of health judicialization.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>REFERENCES</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. Instituto de Ensino e Pesquisa. Judicialização da saúde no Brasil: perfil das demandas, causas e propostas de solução. Brasília, DF: Conselho Nacional de Justiça; 2019 [cited 2021 Oct 17]. (Série Justiça e Pesquisa). Available from: <ext-link ext-link-type="uri" xlink:href="https://www.cnj.jus.br/wpcontent/uploads/2019/03/66361404dd5ceaf8c5f7049223bdc709.pdf">https://www.cnj.jus.br/wpcontent/uploads/2019/03/66361404dd5ceaf8c5f7049223bdc709.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Instituto de Ensino e Pesquisa</collab>
+					</person-group>
+					<source>Judicialização da saúde no Brasil: perfil das demandas, causas e propostas de solução</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<publisher-name>Conselho Nacional de Justiça</publisher-name>
+					<year>2019</year>
+					<date-in-citation content-type="cited-date">cited 2021 Oct 17</date-in-citation>
+					<comment>Série Justiça e Pesquisa</comment>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.cnj.jus.br/wpcontent/uploads/2019/03/66361404dd5ceaf8c5f7049223bdc709.pdf">https://www.cnj.jus.br/wpcontent/uploads/2019/03/66361404dd5ceaf8c5f7049223bdc709.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. Barreto ML. Desigualdades em Saúde: uma perspectiva global. Cienc Saude Colet. 2017;22(7):2097-108. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1413-81232017227.02742017">https://doi.org/10.1590/1413-81232017227.02742017</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Barreto</surname>
+							<given-names>ML</given-names>
+						</name>
+					</person-group>
+					<article-title>Desigualdades em Saúde: uma perspectiva global</article-title>
+					<source>Cienc Saude Colet</source>
+					<year>2017</year>
+					<volume>22</volume>
+					<issue>7</issue>
+					<fpage>2097</fpage>
+					<lpage>2108</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1413-81232017227.02742017">https://doi.org/10.1590/1413-81232017227.02742017</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. Nunes CFO, Ramos Júnior AN. Judicialização do direito à saúde na região Nordeste, Brasil: dimensões e desafios. Cad Saude Colet. 2016;24(2):192-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1414-462X201600020070">https://doi.org/10.1590/1414-462X201600020070</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Nunes</surname>
+							<given-names>CFO</given-names>
+						</name>
+						<name>
+							<surname>Ramos</surname>
+							<given-names>AN</given-names>
+							<suffix>Júnior</suffix>
+						</name>
+					</person-group>
+					<article-title>Judicialização do direito à saúde na região Nordeste, Brasil: dimensões e desafios</article-title>
+					<source>Cad Saude Colet</source>
+					<year>2016</year>
+					<volume>24</volume>
+					<issue>2</issue>
+					<fpage>192</fpage>
+					<lpage>199</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1414-462X201600020070">https://doi.org/10.1590/1414-462X201600020070</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. Tate CN, Vallinder T, editors. The global expansion of Judicial Power. New York: New York University Press; 1995.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="editor">
+						<name>
+							<surname>Tate</surname>
+							<given-names>CN</given-names>
+						</name>
+						<name>
+							<surname>Vallinder</surname>
+							<given-names>T</given-names>
+						</name>
+						<role>editors</role>
+					</person-group>
+					<source>The global expansion of Judicial Power</source>
+					<publisher-loc>New York</publisher-loc>
+					<publisher-name>New York University Press</publisher-name>
+					<year>1995</year>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Ramos RS, Gomes GAT, Oliveira DC, Marques SC, Spindola T, Nogueira VPF. O acesso às ações e serviços do Sistema Único de Saúde na perspectiva da judicialização. Rev Lat Am Enfermagem. 2016;24:e2797. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1518-8345.1012.2689">https://doi.org/10.1590/1518-8345.1012.2689</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ramos</surname>
+							<given-names>RS</given-names>
+						</name>
+						<name>
+							<surname>Gomes</surname>
+							<given-names>GAT</given-names>
+						</name>
+						<name>
+							<surname>Oliveira</surname>
+							<given-names>DC</given-names>
+						</name>
+						<name>
+							<surname>Marques</surname>
+							<given-names>SC</given-names>
+						</name>
+						<name>
+							<surname>Spindola</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Nogueira</surname>
+							<given-names>VPF</given-names>
+						</name>
+					</person-group>
+					<article-title>O acesso às ações e serviços do Sistema Único de Saúde na perspectiva da judicialização</article-title>
+					<source>Rev Lat Am Enfermagem</source>
+					<year>2016</year>
+					<volume>24</volume>
+					<elocation-id>e2797</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1518-8345.1012.2689">https://doi.org/10.1590/1518-8345.1012.2689</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. Brasil. Constituição da República Federativa do Brasil (1988). Promulgada em 5 de outubro de 1988. Brasília, DF: Senado Federal; 1988. [cited 2021 May 20]. Available from:<ext-link ext-link-type="uri" xlink:href="http://www.planalto.gov.br/ccivil_03/Constituicao/Constituicao.htm">http://www.planalto.gov.br/ccivil_03/Constituicao/Constituicao.htm</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Brasil</collab>
+						<collab>Constituição da República Federativa do Brasil (1988)</collab>
+					</person-group>
+					<source>Promulgada em 5 de outubro de 1988</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<publisher-name>Senado Federal</publisher-name>
+					<year>1988</year>
+					<date-in-citation content-type="cited-date">cited 2021 May 20</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="http://www.planalto.gov.br/ccivil_03/Constituicao/Constituicao.htm">http://www.planalto.gov.br/ccivil_03/Constituicao/Constituicao.htm</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. Menicucci T, Machado JA. Judicialization of health policy in the definition of access to public goods: individual rights versus collective rights. Braz Pol Sci Rev. 2010 [cited 2021 May 20];5 Selec ed. Avialable from: <ext-link ext-link-type="uri" xlink:href="http://socialsciences.scielo.org/scielo.php?script=sci_arttext&amp;pid=S1981-38212010000100002#note">http://socialsciences.scielo.org/scielo.php?script=sci_arttext&amp;pid=S1981-38212010000100002#note</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Menicucci</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Machado</surname>
+							<given-names>JA</given-names>
+						</name>
+					</person-group>
+					<article-title>Judicialization of health policy in the definition of access to public goods: individual rights versus collective rights</article-title>
+					<source>Braz Pol Sci Rev</source>
+					<year>2010</year>
+					<date-in-citation content-type="cited-date">cited 2021 May 20</date-in-citation>
+					<comment>5 Selec ed</comment>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="http://socialsciences.scielo.org/scielo.php?script=sci_arttext&amp;pid=S1981-38212010000100002#note">http://socialsciences.scielo.org/scielo.php?script=sci_arttext&amp;pid=S1981-38212010000100002#note</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Araújo ICS, Machado FRS. A judicialização da saúde em Manaus: análise das demandas judiciais entre 2013 e 2017. Saude Soc. 2020;29(1):e190256. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0104-12902020190256">https://doi.org/10.1590/S0104-12902020190256</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Araújo</surname>
+							<given-names>ICS</given-names>
+						</name>
+						<name>
+							<surname>Machado</surname>
+							<given-names>FRS</given-names>
+						</name>
+					</person-group>
+					<article-title>A judicialização da saúde em Manaus: análise das demandas judiciais entre 2013 e 2017</article-title>
+					<source>Saude Soc</source>
+					<year>2020</year>
+					<volume>29</volume>
+					<issue>1</issue>
+					<elocation-id>e190256</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0104-12902020190256">https://doi.org/10.1590/S0104-12902020190256</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. Oliveira FL Cunha, LG. Os indicadores sobre o Judiciário brasileiro: limitações, desafios e o uso da tecnologia. Rev Direito GV. 2020;16(1):e1948. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/2317-6172201948">https://doi.org/10.1590/2317-6172201948</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Oliveira</surname>
+							<given-names>FL</given-names>
+						</name>
+						<name>
+							<surname>Cunha</surname>
+							<given-names>LG</given-names>
+						</name>
+					</person-group>
+					<article-title>Os indicadores sobre o Judiciário brasileiro: limitações, desafios e o uso da tecnologia</article-title>
+					<source>Rev Direito GV</source>
+					<year>2020</year>
+					<volume>16</volume>
+					<issue>1</issue>
+					<elocation-id>e1948</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/2317-6172201948">https://doi.org/10.1590/2317-6172201948</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. Pepe VLE, Ventura M, Sant’ana JMB, Figueiredo TA, Souza VR, Simas L, et al. Caracterização de demandas judiciais de fornecimento de medicamentos “essenciais” no Estado do Rio de Janeiro, Brasil. Cad Saude Publica. 2010;26(3):461-71. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0102-311X2010000300004">https://doi.org/10.1590/S0102-311X2010000300004</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pepe</surname>
+							<given-names>VLE</given-names>
+						</name>
+						<name>
+							<surname>Ventura</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Sant’ana</surname>
+							<given-names>JMB</given-names>
+						</name>
+						<name>
+							<surname>Figueiredo</surname>
+							<given-names>TA</given-names>
+						</name>
+						<name>
+							<surname>Souza</surname>
+							<given-names>VR</given-names>
+						</name>
+						<name>
+							<surname>Simas</surname>
+							<given-names>L</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Caracterização de demandas judiciais de fornecimento de medicamentos “essenciais” no Estado do Rio de Janeiro, Brasil</article-title>
+					<source>Cad Saude Publica</source>
+					<year>2010</year>
+					<volume>26</volume>
+					<issue>3</issue>
+					<fpage>461</fpage>
+					<lpage>471</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0102-311X2010000300004">https://doi.org/10.1590/S0102-311X2010000300004</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. Peçanha LO, Simas L, Luiza VL. Judicialização de medicamentos no Estado do Rio de Janeiro: evolução de 2010 a 2017. Saude Debate. 2019;43 (Nº Espec 4):61-70. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0103-11042019S406">https://doi.org/10.1590/0103-11042019S406</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Peçanha</surname>
+							<given-names>LO</given-names>
+						</name>
+						<name>
+							<surname>Simas</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Luiza</surname>
+							<given-names>VL</given-names>
+						</name>
+					</person-group>
+					<article-title>Judicialização de medicamentos no Estado do Rio de Janeiro: evolução de 2010 a 2017</article-title>
+					<source>Saude Debate</source>
+					<year>2019</year>
+					<volume>43</volume>
+					<issue>Espec 4</issue>
+					<fpage>61</fpage>
+					<lpage>70</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0103-11042019S406">https://doi.org/10.1590/0103-11042019S406</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. Diniz D, Machado TRC, Penalva J. A judicialização da saúde no Distrito Federal, Brasil. Cienc Saude Colet. 2014;19(2):591-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1413-81232014192.23072012">https://doi.org/10.1590/1413-81232014192.23072012</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Diniz</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Machado</surname>
+							<given-names>TRC</given-names>
+						</name>
+						<name>
+							<surname>Penalva</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>A judicialização da saúde no Distrito Federal, Brasil</article-title>
+					<source>Cienc Saude Colet</source>
+					<year>2014</year>
+					<volume>19</volume>
+					<issue>2</issue>
+					<fpage>591</fpage>
+					<lpage>598</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1413-81232014192.23072012">https://doi.org/10.1590/1413-81232014192.23072012</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. Conselho Nacional de Justiça; Programa das Nações Unidas para o Desenvolvimento. Judicialização e sociedade: ações para acesso à saúde pública de qualidade. Brasília, DF: CNJ; 2021 [cited 2021 Oct 16]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.cnj.jus.br/programas-e-acoes/forum-da-saude-3/judicializacao-e-sociedade-acoes-para-acesso-a-saude-publica-de-qualidade/">https://www.cnj.jus.br/programas-e-acoes/forum-da-saude-3/judicializacao-e-sociedade-acoes-para-acesso-a-saude-publica-de-qualidade/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Conselho Nacional de Justiça</collab>
+						<collab>Programa das Nações Unidas para o Desenvolvimento</collab>
+					</person-group>
+					<source>Judicialização e sociedade: ações para acesso à saúde pública de qualidade</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<publisher-name>CNJ</publisher-name>
+					<year>2021</year>
+					<date-in-citation content-type="cited-date">cited 2021 Oct 16</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.cnj.jus.br/programas-e-acoes/forum-da-saude-3/judicializacao-e-sociedade-acoes-para-acesso-a-saude-publica-de-qualidade/">https://www.cnj.jus.br/programas-e-acoes/forum-da-saude-3/judicializacao-e-sociedade-acoes-para-acesso-a-saude-publica-de-qualidade/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. Vieira FS. Direito à Saúde no Brasil: seus contornos, judicialização e a necessidade da macrojustiça. Brasília, DF: IPEA; 2020 [cited 2021 Oct 16]. (Texto para Discussão; nº 2547). Available from: <ext-link ext-link-type="uri" xlink:href="https://www.ipea.gov.br/portal/index.php?option=com_content&amp;view=article&amp;id=35360">https://www.ipea.gov.br/portal/index.php?option=com_content&amp;view=article&amp;id=35360</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Vieira</surname>
+							<given-names>FS</given-names>
+						</name>
+					</person-group>
+					<source>Direito à Saúde no Brasil: seus contornos, judicialização e a necessidade da macrojustiça</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<publisher-name>IPEA</publisher-name>
+					<year>2020</year>
+					<date-in-citation content-type="cited-date">cited 2021 Oct 16</date-in-citation>
+					<comment>Texto para Discussão; nº 2547</comment>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.ipea.gov.br/portal/index.php?option=com_content&amp;view=article&amp;id=35360">https://www.ipea.gov.br/portal/index.php?option=com_content&amp;view=article&amp;id=35360</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. Conselho Nacional de Justiça. Justiça em números 2021. Brasília, DF: CNJ; 2021 [cited 2021 Oct 16]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.cnj.jus.br/wp-content/uploads/2021/09/relatorio-justica-em-numeros2021-12.pdf">https://www.cnj.jus.br/wp-content/uploads/2021/09/relatorio-justica-em-numeros2021-12.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Conselho Nacional de Justiça</collab>
+					</person-group>
+					<source>Justiça em números 2021</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<publisher-name>CNJ</publisher-name>
+					<year>2021</year>
+					<date-in-citation content-type="cited-date">cited 2021 Oct 16</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.cnj.jus.br/wp-content/uploads/2021/09/relatorio-justica-em-numeros2021-12.pdf">https://www.cnj.jus.br/wp-content/uploads/2021/09/relatorio-justica-em-numeros2021-12.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. Brasil. Lei 12.527 de 18 de novembro de 2011. Regula o acesso a informações previsto no inciso XXXIII do art. 5º, no inciso II do § 3º do art. 37 e no § 2º do art. 216 da Constituição Federal; altera a Lei nº 8.112, de 11 de dezembro de 1990; revoga a Lei nº 11.111, de 5 de maio de 2005, e dispositivos da Lei nº 8.159, de 8 de janeiro de 1991; e dá outras providências. Diário Oficial da União. 18 nov 2011. Edição extra; Seção 1:1. [cited 2021 Mar 27]. Available from: <ext-link ext-link-type="uri" xlink:href="http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm">http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="legal-doc">
+					<person-group person-group-type="author">
+						<collab>Brasil</collab>
+					</person-group>
+					<article-title>Lei 12.527 de 18 de novembro de 2011. Regula o acesso a informações previsto no inciso XXXIII do art. 5º, no inciso II do § 3º do art. 37 e no § 2º do art. 216 da Constituição Federal; altera a Lei nº 8.112, de 11 de dezembro de 1990; revoga a Lei nº 11.111, de 5 de maio de 2005, e dispositivos da Lei nº 8.159, de 8 de janeiro de 1991; e dá outras providências</article-title>
+					<source>Diário Oficial da União</source>
+					<day>18</day>
+					<month>11</month>
+					<year>2011</year>
+					<comment>Edição extra; Seção 1:1</comment>
+					<date-in-citation content-type="cited-date">cited 2021 Mar 27</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm">http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Brasil. Lei Nº 11.419, de 19 de dezembro de 2006. Dispõe sobre a informatização do processo judicial; altera a Lei nº 5.869, de 11 de janeiro de 1973 – Código de Processo Civil; e dá outras providências. Diário Oficial da União. 20 nov 2006 [cited 2021 May 5];Seção 1:2. Available from: <ext-link ext-link-type="uri" xlink:href="http://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11419.htm">http://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11419.htm</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="legal-doc">
+					<person-group person-group-type="author">
+						<collab>Brasil</collab>
+					</person-group>
+					<article-title>Lei Nº 11.419, de 19 de dezembro de 2006. Dispõe sobre a informatização do processo judicial; altera a Lei nº 5.869, de 11 de janeiro de 1973 – Código de Processo Civil; e dá outras providências</article-title>
+					<source>Diário Oficial da União</source>
+					<day>20</day>
+					<month>11</month>
+					<year>2006</year>
+					<date-in-citation content-type="cited-date">cited 2021 May 5</date-in-citation>
+					<comment>Seção 1:2</comment>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="http://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11419.htm">http://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11419.htm</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18. Brasil. Conselho Nacional de Justiça. Resolução Nº 4 de 16 de agosto de 2005. Cria o Sistema de Estatística do Poder Judiciário e dá outras providências. Diário Oficial da União. 23 ago 2005 [cited 2021 Mar 27];Seção 1:64. Available from: <ext-link ext-link-type="uri" xlink:href="http://cnj.jus.br/atos-normativos?documento=188">http://cnj.jus.br/atos-normativos?documento=188</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Brasil</collab>
+						<collab>Conselho Nacional de Justiça</collab>
+					</person-group>
+					<article-title>Resolução Nº 4 de 16 de agosto de 2005. Cria o Sistema de Estatística do Poder Judiciário e dá outras providências</article-title>
+					<source>Diário Oficial da União</source>
+					<day>23</day>
+					<month>08</month>
+					<year>2005</year>
+					<date-in-citation content-type="cited-date">cited 2021 Mar 27</date-in-citation>
+					<comment>Seção 1:64</comment>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="http://cnj.jus.br/atos-normativos?documento=188">http://cnj.jus.br/atos-normativos?documento=188</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19. Conselho Nacional de Justiça. PJe: equipe do CNJ discute adesão da Justiça fluminense à plataforma. Brasília, DF: Agência CNJ de Notícias; 2019 [cited 2021 May 26]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.cnj.jus.br/pje-equipe-do-cnj-discute-adesao-da-justica-fluminense-a-plataforma/">https://www.cnj.jus.br/pje-equipe-do-cnj-discute-adesao-da-justica-fluminense-a-plataforma/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Conselho Nacional de Justiça</collab>
+					</person-group>
+					<source>PJe: equipe do CNJ discute adesão da Justiça fluminense à plataforma</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<publisher-name>Agência CNJ de Notícias</publisher-name>
+					<year>2019</year>
+					<date-in-citation content-type="cited-date">cited 2021 May 26</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.cnj.jus.br/pje-equipe-do-cnj-discute-adesao-da-justica-fluminense-a-plataforma/">https://www.cnj.jus.br/pje-equipe-do-cnj-discute-adesao-da-justica-fluminense-a-plataforma/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20. Repette PFR, Sell D, Bastos LC. Judiciário como plataforma: um caminho novo e promissor. Rev Eletron CNJ. 2020 [cited 2021 May 26];4(1):175-88. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.cnj.jus.br/ojs/index.php/revista-cnj/issue/view/5/4">https://www.cnj.jus.br/ojs/index.php/revista-cnj/issue/view/5/4</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Repette</surname>
+							<given-names>PFR</given-names>
+						</name>
+						<name>
+							<surname>Sell</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Bastos</surname>
+							<given-names>LC</given-names>
+						</name>
+					</person-group>
+					<article-title>Judiciário como plataforma: um caminho novo e promissor</article-title>
+					<source>Rev Eletron CNJ</source>
+					<year>2020</year>
+					<date-in-citation content-type="cited-date">cited 2021 May 26</date-in-citation>
+					<volume>4</volume>
+					<issue>1</issue>
+					<fpage>175</fpage>
+					<lpage>188</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.cnj.jus.br/ojs/index.php/revista-cnj/issue/view/5/4">https://www.cnj.jus.br/ojs/index.php/revista-cnj/issue/view/5/4</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>21. Conselho Nacional de Justiça. Processo Judicial Eletrônico (PJe), 2020. Brasilia, DF: CNJ; 2020 [cited 2021 Jul 27]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.cnj.jus.br/programas-e-acoes/processo-judicial-eletronico-pje/implantacao-do-pje/">https://www.cnj.jus.br/programas-e-acoes/processo-judicial-eletronico-pje/implantacao-do-pje/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Conselho Nacional de Justiça</collab>
+					</person-group>
+					<source>Processo Judicial Eletrônico (PJe), 2020</source>
+					<publisher-loc>Brasilia, DF</publisher-loc>
+					<publisher-name>CNJ</publisher-name>
+					<year>2020</year>
+					<date-in-citation content-type="cited-date">cited 2021 Jul 27</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.cnj.jus.br/programas-e-acoes/processo-judicial-eletronico-pje/implantacao-do-pje/">https://www.cnj.jus.br/programas-e-acoes/processo-judicial-eletronico-pje/implantacao-do-pje/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>22. Conselho Nacional de Justiça. Resolução Nº 185 de 18 de dezembro de 2013. Institui o Sistema Processo Judicial Eletrônico - PJe como sistema de processamento de informações e prática de atos processuais e estabelece os parâmetros para sua implementação e funcionamento. Brasília, CNJ; 2013 [cited 2020 Nov 14]. Available from: <ext-link ext-link-type="uri" xlink:href="https://atos.cnj.jus.br/atos/detalhar/1933">https://atos.cnj.jus.br/atos/detalhar/1933</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Conselho Nacional de Justiça</collab>
+					</person-group>
+					<source>Resolução Nº 185 de 18 de dezembro de 2013. Institui o Sistema Processo Judicial Eletrônico - PJe como sistema de processamento de informações e prática de atos processuais e estabelece os parâmetros para sua implementação e funcionamento</source>
+					<publisher-loc>Brasília</publisher-loc>
+					<publisher-name>CNJ</publisher-name>
+					<year>2013</year>
+					<date-in-citation content-type="cited-date">cited 2020 Nov 14</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://atos.cnj.jus.br/atos/detalhar/1933">https://atos.cnj.jus.br/atos/detalhar/1933</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>23. Organização das Nações Unidas. Transformando Nosso Mundo: a Agenda 2030 para o Desenvolvimento Sustentável. Brasília, DF: ONU; 2015. [cited 2021 Aug 30]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.undp.org/content/dam/brazil/docs/agenda2030/undp-br-Agenda2030-completo-pt-br-2016.pdf">https://www.undp.org/content/dam/brazil/docs/agenda2030/undp-br-Agenda2030-completo-pt-br-2016.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Organização das Nações Unidas</collab>
+					</person-group>
+					<source>Transformando Nosso Mundo: a Agenda 2030 para o Desenvolvimento Sustentável</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<publisher-name>ONU</publisher-name>
+					<year>2015</year>
+					<date-in-citation content-type="cited-date">cited 2021 Aug 30</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.undp.org/content/dam/brazil/docs/agenda2030/undp-br-Agenda2030-completo-pt-br-2016.pdf">https://www.undp.org/content/dam/brazil/docs/agenda2030/undp-br-Agenda2030-completo-pt-br-2016.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>24. Conselho Nacional de Justiça, Comitê Interinstitucional. Propostas de Indicadores da Agenda 2030 do Poder Judiciário (LIODS). Brasília, DF: CNJ; 2020 [cited 2021 Aug 21]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.cnj.jus.br/wpcontent/uploads/2019/08/df16d3f36b0278af465368355a01329d.pdf">https://www.cnj.jus.br/wpcontent/uploads/2019/08/df16d3f36b0278af465368355a01329d.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Conselho Nacional de Justiça, Comitê Interinstitucional</collab>
+					</person-group>
+					<source>Propostas de Indicadores da Agenda 2030 do Poder Judiciário (LIODS)</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<publisher-name>CNJ</publisher-name>
+					<year>2020</year>
+					<date-in-citation content-type="cited-date">cited 2021 Aug 21</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.cnj.jus.br/wpcontent/uploads/2019/08/df16d3f36b0278af465368355a01329d.pdf">https://www.cnj.jus.br/wpcontent/uploads/2019/08/df16d3f36b0278af465368355a01329d.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="financial-disclosure" id="fn2">
+				<p>Funding: Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (Capes/PROAP – PhD scholarship to AFF). <italic>Fundação Cearense de Apoio ao Desenvolvimento Científico e Tecnológico do Estado do Ceará</italic> (FUNCAP - master’s scholarship for NRNA). Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq – research productivity grant 2 for ANRJ).</p>
+			</fn>
+		</fn-group>
+	</back>
+	<sub-article article-type="translation" id="TRpt" xml:lang="pt">
+		<front-stub>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artigo Original</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Limites e possibilidades para desenvolvimento de pesquisas em saúde pública no judiciário</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-1909-7282</contrib-id>
+					<name>
+						<surname>Andrade</surname>
+						<given-names>Nayla Rochele Nogueira de</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-2827-898X</contrib-id>
+					<name>
+						<surname>Nunes</surname>
+						<given-names>Carlos Francisco Oliveira</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2002"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-7192-8186</contrib-id>
+					<name>
+						<surname>Albuquerque</surname>
+						<given-names>Felipe Braga</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3002"><sup>III</sup></xref>
+					<xref ref-type="aff" rid="aff4002"><sup>IV</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-4322-8390</contrib-id>
+					<name>
+						<surname>Araújo</surname>
+						<given-names>Carmem E. Leitão</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff5002"><sup>V</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-1816-9459</contrib-id>
+					<name>
+						<surname>Ferreira</surname>
+						<given-names>Anderson Fuentes</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-5397-1279</contrib-id>
+					<name>
+						<surname>Reis</surname>
+						<given-names>Adriana da Silva dos</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff6002"><sup>VI</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-7982-1757</contrib-id>
+					<name>
+						<surname>Ramos</surname>
+						<given-names>Alberto Novaes</given-names>
+						<suffix>Jr.</suffix>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff5002"><sup>V</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1002">
+				<label>I</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Universidade Federal do Ceará. Faculdade de Medicina. Programa de Pós-Graduação em Saúde Pública. Fortaleza, CE, Brasil</institution>
+			</aff>
+			<aff id="aff2002">
+				<label>II</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Universidade Federal de Santa Catarina. Programa de Pós-Graduação em Engenharia e Gestão do Conhecimento. Florianópolis, Santa Catarina, Brasil</institution>
+			</aff>
+			<aff id="aff3002">
+				<label>III</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Universidade Federal do Ceará. Faculdade de Direito. Departamento de Direito Público. Fortaleza, CE, Brasil</institution>
+			</aff>
+			<aff id="aff4002">
+				<label>IV</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Universidade Federal do Ceará. Faculdade de Direito. Programa de Pós-Graduação em Direito. Fortaleza, CE, Brasil</institution>
+			</aff>
+			<aff id="aff5002">
+				<label>V</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Universidade Federal do Ceará. Faculdade de Medicina. Departamento de Saúde Comunitária. Fortaleza, CE, Brasil</institution>
+			</aff>
+			<aff id="aff6002">
+				<label>VI</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Netherlands Hanseniasis Relief Brasil - NHR Brasil. Fortaleza, CE, Brasil</institution>
+			</aff>
+			<author-notes>
+				<corresp id="c01002"> Correspondência: Nayla Rochele Nogueira de Andrade Universidade Federal do Ceará Faculdade de Medicina Rua Professor Costa Mendes, 1.608 Rodolfo Teófilo 60430-140 - Fortaleza, CE, Brasil E-mail: naylarochele93@gmail.com </corresp>
+				<fn id="fn1002">
+					<p>Contribuição dos Autores: Concepção e planejamento do estudo: NRNA, ANRJ. Coleta, análise e interpretação dos dados: CFON, FBA, CELA. Elaboração ou revisão do manuscrito: AFF, ASR. Aprovação da versão final: NRNA, ANRJ, CFON, FBA, CELA, AFF, ASR. Responsabilidade pública pelo conteúdo do artigo: NRNA, ANRJ, CFON, FBA, CELA, AFF, ASR.</p>
+					<p>Conflito de Interesses: Os autores declaram não haver conflito de interesses.</p>
+				</fn>
+			</author-notes>
+			<abstract>
+				<title>RESUMO</title>
+				<sec>
+					<title>OBJETIVO</title>
+					<p> Caracterizar as bases de dados dos tribunais de justiça do Brasil como potencial ferramenta para a pesquisa em Saúde Coletiva em suas interfaces com as ciências jurídicas.</p>
+				</sec>
+				<sec>
+					<title>MÉTODOS</title>
+					<p> Estudo transversal de natureza quantitativa e descritiva com foco em análise de gestão estratégica e sistemas judiciários.</p>
+				</sec>
+				<sec>
+					<title>RESULTADOS</title>
+					<p> Foram identificadas e analisadas bases de dados utilizadas pela Justiça Comum nas Unidades da Federação para sistematizar processos judiciais. Verificou-se um total de 123 bases de dados nos tribunais de justiça por unidade de federação, com destaque para as regiões Sul e Nordeste, em contraste à região Norte que apresenta menor número de sistemas. Esse grande número de sistemas judiciais limita o acesso a operadores do direito, e dificulta levantamento de evidências por pesquisadores em saúde e, consequentemente, com impactos na gestão estratégica do Poder Executivo. Constatou-se limitações desde o design à extração transparente e democrática de dados pelos próprios usuários, bem como restrita integração entre bases.</p>
+				</sec>
+				<sec>
+					<title>CONCLUSÕES</title>
+					<p> Embora avanços tenham sidos empreendidos nos últimos anos pelos tribunais de justiça para unificação dessas bases, a multiplicidade de sistemas de informação utilizados na Justiça Comum estadual complexifica a gestão do conhecimento, limita o desenvolvimento de pesquisas, mesmo quando realizados por advogados ou pesquisadores da área jurídica, gera lentidão na extração de dados para a gestão pública. Reconhece-se a necessidade de esforços adicionais para a padronização, bem como para aprimoramento dessas bases de dados, ampliando acesso, transparência e integração com vistas a um olhar transdisciplinar entre o campo do Direito e da Saúde Coletiva.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="pt">
+				<kwd>Decisões Judiciais</kwd>
+				<kwd>Jurisprudência</kwd>
+				<kwd>Recursos para a Pesquisa</kwd>
+				<kwd>Direito Sanitário</kwd>
+				<kwd>Saúde Pública</kwd>
+			</kwd-group>
+		</front-stub>
+		<body>
+			<sec sec-type="intro">
+				<title>INTRODUÇÃO</title>
+				<p>Os caminhos para reflexão e pesquisa sobre potenciais conflitos entre sistema político e jurídico na gestão da saúde pública passam, necessariamente, pelo reconhecimento de aspectos que envolvem distribuição e alocação de recursos escassos na sociedade<sup><xref ref-type="bibr" rid="B1">1</xref></sup>. Particularmente em um país com a dimensão territorial do Brasil, com graves desigualdades sociais que repercutem em padrões epidemiológicos distintos e transicionais, torna-se ainda mais complexo determinar prioridades no sistema de saúde<sup><xref ref-type="bibr" rid="B2">2</xref></sup>.</p>
+				<p>O número de ações no Judiciário requerendo bens e serviços em saúde tem crescido de modo significativo no Brasil, sobretudo após 2007, ensejando o fenômeno da judicialização do direito à saúde pública, que neste trabalho é sinônimo de ações judiciais em face de um ente estatal, demandando bens e/ou serviços em saúde<sup><xref ref-type="bibr" rid="B3">3</xref></sup>.</p>
+				<p>O maior envolvimento do Poder Judiciário concernente às políticas de saúde, compõe uma discussão maior sobre a “<italic>judicialização da política</italic>”, expressão equivalente a “<italic>politização da justiça</italic>”, reflexo da sua expansão no processo decisório das democracias contemporâneas. Nessa direção, a judicialização do direito à saúde surge como um conflito entre o sistema institucionalizado de ação política e o sistema jurídico<sup><xref ref-type="bibr" rid="B4">4</xref></sup>.</p>
+				<p>A judicialização do direito à saúde tem gerado debates cada vez mais frequentes tendo em vista seus múltiplos usos e sentidos<sup><xref ref-type="bibr" rid="B5">5</xref></sup>, por um lado reforça a dimensão jurídica da cidadania, materializando um direito assegurado na Constituição Federal de 1988, que em seu Artigo 196, afirma ser a saúde um direito de todos e um dever do Estado<sup><xref ref-type="bibr" rid="B6">6</xref></sup>; por outro, pode reforçar conflitos na governança federativa do Sistema Único de Saúde, limitando a capacidade do poder executivo de planejar, implantar e acompanhar as políticas de saúde por meio de critérios racionais e equitativos<sup><xref ref-type="bibr" rid="B7">7</xref></sup>. O caráter individual das intervenções e o privilégio de pessoas com maior conhecimento, recursos financeiros ou outras condições de acesso diferenciado à Justiça também são apontados como problemas críticos<sup><xref ref-type="bibr" rid="B8">8</xref></sup>.</p>
+				<p>Por certo, um dos efeitos do fenômeno dessa judicialização é a expansão das interfaces entre pesquisas nos campos das ciências da saúde e jurídicas. Verifica-se aumento no número de pesquisas e artigos publicados sobre o tema, com vistas ao dimensionamento e maior compreensão desse fenômeno<sup><xref ref-type="bibr" rid="B3">3</xref>,<xref ref-type="bibr" rid="B9">9</xref></sup>. Por exemplo, há pesquisas com análise de bases de dados do Judiciário no estado do Rio de Janeiro sobre judicialização da saúde<sup><xref ref-type="bibr" rid="B10">10</xref>,<xref ref-type="bibr" rid="B11">11</xref></sup>, no estado do Ceará sobre o fenômeno com reconhecimento dos limites para análise à luz da epidemiologia<sup><xref ref-type="bibr" rid="B3">3</xref></sup>, e Distrito Federal com a análise da realidade da judicialização em saúde<sup><xref ref-type="bibr" rid="B12">12</xref></sup>. Em uma abordagem mais ampliada para o país, o Conselho Nacional de Justiça (CNJ) buscou caracterizar o fenômeno e trazer reflexões adicionais sobre o tema<sup><xref ref-type="bibr" rid="B1">1</xref>,<xref ref-type="bibr" rid="B13">13</xref></sup>.</p>
+				<p>Ao passo que o fenômeno da judicialização cresce, verifica-se a fragilidade dos sistemas de informação do Judiciário na sistematização de dados e de sistemas de acesso público a vários tribunais com potencial de acesso e utilização dos sistemas de informação. Como resultado, pode impossibilitar ou limitar análises fundamentais para implementação de políticas públicas fundamentadas em evidências científicas, em virtude de limitações e inconsistências entre as bases de dados, além de subdimensionamento dos processos de judicialização da saúde<sup><xref ref-type="bibr" rid="B1">1</xref>,<xref ref-type="bibr" rid="B9">9</xref>,<xref ref-type="bibr" rid="B11">11</xref>,<xref ref-type="bibr" rid="B13">13</xref></sup>.</p>
+				<p>As críticas e limitações indicam a necessidade de repensar e conhecer melhor as diferentes bases de dados, muitas das quais sem acesso a pesquisadores<sup><xref ref-type="bibr" rid="B3">3</xref>,<xref ref-type="bibr" rid="B11">11</xref></sup>. O presente estudo tem como objetivo caracterizar as bases de dados dos Tribunais de Justiça (TJ) do Brasil como potencial ferramenta para a pesquisa em Saúde Coletiva em suas interfaces com as ciências jurídicas. O reconhecimento da quantidade e qualidade das informações disponíveis é estratégico para análises mais consistentes e propositivas, o que inclui melhor delimitação do fenômeno da judicialização da política pública de saúde no Brasil.</p>
+			</sec>
+			<sec sec-type="methods">
+				<title>MÉTODOS</title>
+				<sec>
+					<title>Desenho do Estudo</title>
+					<p>Estudo transversal descritivo de abrangência nacional a partir de dados coletados junto aos Tribunais de Justiça Estaduais do país. O processo de coleta de dados foi realizado entre 2019 e 2021 com identificação e caracterização de bases de dados físicas e virtuais utilizadas para sistematização dos processos judiciais e para reconhecimento do processo de protocolo das ações relacionadas à saúde pública.</p>
+					<p>O estudo foi realizado em duas etapas, ambas fundamentadas em requerimentos formais de dados e informações junto às ouvidorias dos TJ via preenchimento de formulários eletrônicos disponíveis de cada um, processo complementado por meio de consultas sistemáticas a websites oficiais. Todas as manifestações seguiram as regras disponíveis nos endereços eletrônicos e nas diretrizes internas direcionadas por cada tribunal.</p>
+					<p>A primeira etapa junto às ouvidorias foi baseada em composição de demanda via e-mail, contato telefônico e formulário eletrônico específico disponível nos sites dos TJ, seguindo protocolos internos específicos em cada Unidade da Federação (UF). O acompanhamento da solicitação era realizado com o número de protocolo gerado no ato da solicitação.</p>
+					<p>Os TJ deveriam responder a três itens específicos:</p>
+					<list list-type="alpha-lower">
+						<list-item>
+							<p>Quais os nomes e as datas de implementação dos sistemas utilizados pelos operadores do direito desta UF para registrar e acompanhar os processos judiciais físicos protocolizados?</p>
+						</list-item>
+						<list-item>
+							<p>Quais os nomes e as datas de implementação dos sistemas utilizados pelos operadores do direito desta UF para registrar e acompanhar os processos judiciais virtuais protocolizados?</p>
+						</list-item>
+						<list-item>
+							<p>Alguma observação que o TJ entenda pertinente.</p>
+						</list-item>
+					</list>
+					<p>Concluída a primeira etapa, optou-se por complementar os dados obtidos a partir de uma segunda etapa, que consistiu em enviar novas solicitações aos TJ para detalhamento adicional do processo de protocolo de ações que versam sobre saúde pública a partir de três questionamentos:</p>
+					<list list-type="alpha-lower">
+						<list-item>
+							<p>Nos sistemas de informação disponíveis, sistemas referidos pelo tribunal na primeira etapa, qual a ramificação, na árvore de assuntos, para classificar e protocolar uma ação que trate de saúde? Existe diferença no protocolo quando se trata de saúde pública e saúde privada?</p>
+						</list-item>
+						<list-item>
+							<p>É possível realizar o protocolo de um processo na competência da fazenda pública que seja da área da saúde, sem que no cadastro seja identificado que seja da saúde, por exemplo: cadastrar como “ato administrativo/anulação” – mas ser referente à oferta de medicamentos?</p>
+						</list-item>
+						<list-item>
+							<p>O setor de distribuição faz adequação/compatibilização no cadastro de ações, corrigindo eventuais erros de peticionamento por parte dos profissionais que fazem os cadastros?</p>
+						</list-item>
+					</list>
+				</sec>
+				<sec>
+					<title>Análise de Dados</title>
+					<p>Para a primeira etapa, em posse das informações coletadas, os dados foram consolidados e organizados em tabelas, com análise descritiva preliminar. Nos poucos casos em que uma mesma base de dados foi informada pelos TJ, como contendo processos físicos e virtuais, computou-se esse dado apenas uma vez, para evitar superestimativas da realidade local.</p>
+					<p>Para a segunda etapa sobre o processo de protocolo das ações que versam sobre saúde pública, as três perguntas respondidas pelos TJ foram consolidadas e analisadas descritivamente.</p>
+				</sec>
+				<sec>
+					<title>Aspectos Éticos</title>
+					<p>Os dados deste estudo são secundários e públicos conforme princípio da publicidade do Art. 5º, inc. LX, da Constituição Federal de 1988, Art. 189 do Código de Processo Civil, e Lei 12.527/11<sup><xref ref-type="bibr" rid="B11">11</xref></sup>, e outros dispositivos.</p>
+					<p>Ademais, o projeto foi submetido na Plataforma Brasil, ao comitê de ética em pesquisa da Universidade Federal do Ceará-CEP/UFC/PROPESQ, que teve como parecer, declaração dispondo “<italic>o projeto não se aplica à avaliação do comitê de ética em pesquisa, posto se tratar de pesquisa que utiliza informações de acesso livre e por utilizar banco de dados, cujas informações são agregadas, sem possibilidade de identificação individual, de maneira similar ao disposto na Resolução CNS nº 510, de 07 de abril de 2016</italic>”.</p>
+				</sec>
+			</sec>
+			<sec sec-type="results">
+				<title>RESULTADOS</title>
+				<sec>
+					<title>Etapa 1</title>
+					<p>No estado do Ceará (CE) os dados foram coletados <italic>in loco</italic>, pela facilidade de acesso da equipe de pesquisadores.</p>
+					<p>Os TJ do Acre (AC), Amapá (AP), Amazonas (AM), Pará (PA), Rondônia (RO), Roraima (RR), Alagoas (AL), Bahia (BA), Maranhão (MA), Rio Grande do Norte (RN), Distrito Federal (DF), Mato Grosso (MT), Espírito Santo (ES), Minas Gerais (MG), São Paulo (SP) e Rio Grande do Sul (RS) retornaram os contatos via e-mail, correspondendo a 59,2% do total.</p>
+					<p>Para os TJ do Tocantins (TO), Sergipe (SE), Paraíba (PB), Pernambuco (PE), Piauí (PI), Goiás (GO), Mato Grosso do Sul (MS), Rio de Janeiro (RJ), Paraná (PR) e Santa Catarina (SC), foram realizados contatos telefônicos diretos às ouvidorias, assim como para os setores responsáveis pelo serviço de tecnologia da informação dos tribunais. Adicionalmente, foram realizadas buscas sistematizadas em websites. Em todos os casos, foi possível compor perspectivas aos três itens de interesse nessa etapa.</p>
+					<p>O resultado da primeira etapa do estudo está sintetizado nas <xref ref-type="table" rid="t1002">Tabelas 1</xref> e <xref ref-type="table" rid="t2002">2</xref>. A <xref ref-type="table" rid="t1002">Tabela 1</xref> caracteriza as bases de dados existentes dos sistemas de informação em cada TJ das UF do país, assim como aquelas que se destinam ao registro de processos físicos (bases antigas) e ao registro de processos virtuais (bases modernas).</p>
+					<p>
+						<table-wrap id="t1002">
+							<label>Tabela 1</label>
+							<caption>
+								<title>Número e especificação por unidade de federação e região do Brasil das bases de dados em Tribunais de Justiça Estaduais, 2021.</title>
+							</caption>
+							<table frame="hsides" rules="groups">
+								<colgroup>
+									<col/>
+									<col/>
+									<col/>
+									<col/>
+									<col/>
+									<col/>
+									<col/>
+								</colgroup>
+								<thead>
+									<tr>
+										<th align="left" rowspan="2">Unidade da Federação (UF)</th>
+										<th>Bases de dados</th>
+										<th>Processos físicos</th>
+										<th>Bases de dados</th>
+										<th>Processos virtuais</th>
+										<th>Total geral</th>
+										<th>Total sem duplicidade</th>
+									</tr>
+									<tr>
+										<th>Abreviação</th>
+										<th>n (%)</th>
+										<th>Abreviação</th>
+										<th>n (%)</th>
+										<th>n (%)</th>
+										<th>n (%)</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td><bold>Norte</bold></td>
+										<td>
+										</td>
+										<td align="center">9 (20,5)</td>
+										<td>
+										</td>
+										<td align="center">23 (23,7)</td>
+										<td align="center">32 (33,0)</td>
+										<td align="center">26 (26,8)</td>
+									</tr>
+									<tr>
+										<td>Acre (AC)</td>
+										<td align="center">Sem dados</td>
+										<td align="center">0 (0)</td>
+										<td align="center">e-SAJPG/e-SAJSG/SEEU</td>
+										<td align="center">3 (13,0)</td>
+										<td align="center">3 (9,4)</td>
+										<td align="center">3 (11,5)</td>
+									</tr>
+									<tr>
+										<td>Amapá (AP)</td>
+										<td align="center">Tucujuris</td>
+										<td align="center">1 (11,1)</td>
+										<td align="center">Tucujurisweb/SEEU/PJE1G</td>
+										<td align="center">3 (13,0)</td>
+										<td align="center">4 (12,5)</td>
+										<td align="center">3 (11,5)</td>
+									</tr>
+									<tr>
+										<td>Amazonas (AM)</td>
+										<td align="center">e-SAJ PG/e- SAJ SG/Projudi</td>
+										<td align="center">3 (33,3)</td>
+										<td align="center">e-SAJ PG/e -SAJ SG/Projudi</td>
+										<td align="center">3 (13,0)</td>
+										<td align="center">6 (18,8)</td>
+										<td align="center">3 (11,5)</td>
+									</tr>
+									<tr>
+										<td>Pará (PA)</td>
+										<td align="center">Libra</td>
+										<td align="center">1 (11,1)</td>
+										<td align="center">PJE1G/PJE2G/SEEU/Projudi</td>
+										<td align="center">4 (17,4)</td>
+										<td align="center">5 (15,6)</td>
+										<td align="center">5 (19,2)</td>
+									</tr>
+									<tr>
+										<td>Rondônia (RO)</td>
+										<td align="center">PJE1G, PJE2G</td>
+										<td align="center">2 (22,2)</td>
+										<td align="center">PJE1G, PJE2G</td>
+										<td align="center">2 (8,7)</td>
+										<td align="center">4 (12,5)</td>
+										<td align="center">2 (7,7)</td>
+									</tr>
+									<tr>
+										<td>Roraima (RR)</td>
+										<td align="center">Siscom</td>
+										<td align="center">1 (11,1)</td>
+										<td align="center">Projudi, SEEU, PJE1G, PJE2G</td>
+										<td align="center">4 (17,4)</td>
+										<td align="center">5 (15,6)</td>
+										<td align="center">5 (19,2)</td>
+									</tr>
+									<tr>
+										<td>Tocantins (TO)</td>
+										<td align="center">Sicap</td>
+										<td align="center">1 (11,1)</td>
+										<td align="center">EPROC1G/EPRO2G/Projudi/SPROC</td>
+										<td align="center">4 (17,4)</td>
+										<td align="center">5 (15,6)</td>
+										<td align="center">5 (19,2)</td>
+									</tr>
+									<tr>
+										<td><bold>Nordeste</bold></td>
+										<td>
+										</td>
+										<td align="center">15 (34,1)</td>
+										<td>
+										</td>
+										<td align="center">32 (33,0)</td>
+										<td align="center">47 (48,5)</td>
+										<td align="center">44 (45,4)</td>
+									</tr>
+									<tr>
+										<td>Alagoas (AL)</td>
+										<td align="center">e-SAJ PG/SAJ SG</td>
+										<td align="center">2 (13,3)</td>
+										<td align="center">e-SAJ PG/e-SAJ SG</td>
+										<td align="center">2 (6,3)</td>
+										<td align="center">4 (8,5)</td>
+										<td align="center">2 (4,5)</td>
+									</tr>
+									<tr>
+										<td>Bahia (BA)</td>
+										<td align="center">Saipro</td>
+										<td align="center">1 (6,7)</td>
+										<td align="center">e-SAJ PG/e-SAJ SG/PJE1G/Projudi</td>
+										<td align="center">4 (12,5)</td>
+										<td align="center">5 (10,6)</td>
+										<td align="center">5 (11,4)</td>
+									</tr>
+									<tr>
+										<td>Ceará (CE)</td>
+										<td align="center">Projudi/SPROC</td>
+										<td align="center">2 (13,3)</td>
+										<td align="center">e-SAJPG/e-SAJSG, PJE1, PJE2</td>
+										<td align="center">4 (12,5)</td>
+										<td align="center">6 (12,8)</td>
+										<td align="center">6 (13,6)</td>
+									</tr>
+									<tr>
+										<td>Maranhão (MA)</td>
+										<td align="center">THEMIS1G/THEMIS2G</td>
+										<td align="center">2 (13,3)</td>
+										<td align="center">Projudi/VEP/PJE1G/PJE2/SEEU</td>
+										<td align="center">5 (15,6)</td>
+										<td align="center">7 (14,9)</td>
+										<td align="center">7 (15,9)</td>
+									</tr>
+									<tr>
+										<td>Paraíba (PB)</td>
+										<td align="center">E-JUS/VEP</td>
+										<td align="center">2 (13,3)</td>
+										<td align="center">PJE1G/PJE2G/Consulta Unificada Beta</td>
+										<td align="center">3 (9,4)</td>
+										<td align="center">5 (10,6)</td>
+										<td align="center">5 (11,4)</td>
+									</tr>
+									<tr>
+										<td>Pernambuco (PE)</td>
+										<td align="center">JUDWIN</td>
+										<td align="center">1 (6,7)</td>
+										<td align="center">PJE1G, PJE2G, Projudi, SEEU</td>
+										<td align="center">4 (12,5)</td>
+										<td align="center">5 (10,6)</td>
+										<td align="center">5 (11,4)</td>
+									</tr>
+									<tr>
+										<td>Piauí (PI)</td>
+										<td align="center">Themisweb/Themiswebrecursal</td>
+										<td align="center">2 (13,3)</td>
+										<td align="center">Projudi/Projudirecursal/SEEU/e-TJPI PJ1G/PJE2G</td>
+										<td align="center">6 (18,8)</td>
+										<td align="center">8 (17,0)</td>
+										<td align="center">8 (18,2)</td>
+									</tr>
+									<tr>
+										<td>Rio Grande do Norte (RN)</td>
+										<td align="center">e-SAJ PG5, e-SAJ SG3</td>
+										<td align="center">2 (13,3)</td>
+										<td align="center">e-SAJ PG Digital, PJE1G, PJE2G</td>
+										<td align="center">3 (9,4)</td>
+										<td align="center">5 (10,6)</td>
+										<td align="center">5 (11,4)</td>
+									</tr>
+									<tr>
+										<td>Sergipe (SE)</td>
+										<td align="center">SCPV</td>
+										<td align="center">1 (6,7)</td>
+										<td align="center">SCPV</td>
+										<td align="center">1 (3,1)</td>
+										<td align="center">2 (4,3)</td>
+										<td align="center">1 (2,3)</td>
+									</tr>
+									<tr>
+										<td><bold>Centro-Oeste</bold></td>
+										<td>
+										</td>
+										<td align="center">7 (15,9)</td>
+										<td>
+										</td>
+										<td align="center">12 (12,4)</td>
+										<td align="center">19 (19,6)</td>
+										<td align="center">16 (16,5)</td>
+									</tr>
+									<tr>
+										<td>Distrito Federal (DF)</td>
+										<td align="center">QVT/SISTJ Gráfico/SISTJWEB</td>
+										<td align="center">3 (42,9)</td>
+										<td align="center">Projudi/PJE1/PJE2/SEEU</td>
+										<td align="center">4 (33,3)</td>
+										<td align="center">7 (36,8)</td>
+										<td align="center">7 (43,8)</td>
+									</tr>
+									<tr>
+										<td>Goiás (GO)</td>
+										<td align="center">Portal consulta processo físico 1º e 2º</td>
+										<td align="center">1 (14,3)</td>
+										<td align="center">Projudi/SEEU</td>
+										<td align="center">2 (16,7)</td>
+										<td align="center">3 (15,8)</td>
+										<td align="center">3 (18,8)</td>
+									</tr>
+									<tr>
+										<td>Mato Grosso do Sul (MS)</td>
+										<td align="center">e- SAJPG/e-SAJSG</td>
+										<td align="center">2 (28,6)</td>
+										<td align="center">e-SAJPG/e-SAJSG</td>
+										<td align="center">2 (16,7)</td>
+										<td align="center">4 (21,1)</td>
+										<td align="center">2 (12,5)</td>
+									</tr>
+									<tr>
+										<td>Mato Grosso (MT)</td>
+										<td align="center">Sistema Apolo</td>
+										<td align="center">1 (14,3)</td>
+										<td align="center">Apolo eletronico/PJE1G/PJE2G Projudi</td>
+										<td align="center">4 (33,3)</td>
+										<td align="center">5 (26,3)</td>
+										<td align="center">4 (25,0)</td>
+									</tr>
+									<tr>
+										<td><bold>Sudeste</bold></td>
+										<td>
+										</td>
+										<td align="center">7 (15,9)</td>
+										<td>
+										</td>
+										<td align="center">13 (13,4)</td>
+										<td align="center">20 (20,6)</td>
+										<td align="center">19 (19,6)</td>
+									</tr>
+									<tr>
+										<td>Espírito Santo (ES)</td>
+										<td align="center">Sistema de Segunda Instância EJUD/SIEP</td>
+										<td align="center">3 (42,9)</td>
+										<td align="center">Projudi/PJE1G/SEEU</td>
+										<td align="center">3 (23,1)</td>
+										<td align="center">6 (30,0)</td>
+										<td align="center">6 (31,6)</td>
+									</tr>
+									<tr>
+										<td>Minas Gerais (MG)</td>
+										<td align="center">SIAP/Siscom</td>
+										<td align="center">2 (28,6)</td>
+										<td align="center">PJE1G/PJE2G/Projudi/SEEU</td>
+										<td align="center">4 (30,8)</td>
+										<td align="center">6 (30,0)</td>
+										<td align="center">6 (31,6)</td>
+									</tr>
+									<tr>
+										<td>Rio de Janeiro (RJ)</td>
+										<td align="center">PJERJ</td>
+										<td align="center">1 (14,3)</td>
+										<td align="center">E-mail, Projudi, PJE1G, PJERJ</td>
+										<td align="center">4 (30,8)</td>
+										<td align="center">5 (25,0)</td>
+										<td align="center">4 (21,1)</td>
+									</tr>
+									<tr>
+										<td>São Paulo (SP)</td>
+										<td align="center">VEC</td>
+										<td align="center">1 (14,3)</td>
+										<td align="center">e-SAJPG/e-SAJSG</td>
+										<td align="center">2 (15,4)</td>
+										<td align="center">3 (15,0)</td>
+										<td align="center">3 (15,8)</td>
+									</tr>
+									<tr>
+										<td><bold>Sul</bold></td>
+										<td>
+										</td>
+										<td align="center">6 (13,6)</td>
+										<td>
+										</td>
+										<td align="center">17 (17,5)</td>
+										<td align="center">23 (23,7)</td>
+										<td align="center">18 (18,6)</td>
+									</tr>
+									<tr>
+										<td>Paraná (PR)</td>
+										<td align="center">Portal TJPR Varas Estatizadas com Processos Físicos (em papel)</td>
+										<td align="center">1 (16,7)</td>
+										<td align="center">Projudi 1GCÍVEL/1GVEP/1GCRIMINAL/2G</td>
+										<td align="center">5 (29,4)</td>
+										<td align="center">6 (26,1)</td>
+										<td align="center">6 (33,3)</td>
+									</tr>
+									<tr>
+										<td>Rio Grande do Sul (RS)</td>
+										<td align="center">THEMIS1G/THEMIS 2G/TJP</td>
+										<td align="center">3 (50)</td>
+										<td align="center">THEMIS1G/THEMIS2G/PJE1G, EPROC1G/EPROC2G/TJP/PJE2G</td>
+										<td align="center">7 (41,2)</td>
+										<td align="center">10 (43,5)</td>
+										<td align="center">7 (38,9)</td>
+									</tr>
+									<tr>
+										<td>Santa Catarina (SC)</td>
+										<td align="center">e-SAJPG/e-SAJSG</td>
+										<td align="center">2 (33,3)</td>
+										<td align="center">e-SAJPG/e-SAJSG/EPROC1G EPROC2G/SEEU</td>
+										<td align="center">5 (29,4)</td>
+										<td align="center">7 (30,4)</td>
+										<td align="center">5 (27,8)</td>
+									</tr>
+									<tr>
+										<td><bold>Total (Brasil)</bold></td>
+										<td>
+										</td>
+										<td align="center">44</td>
+										<td align="center">-</td>
+										<td align="center">97</td>
+										<td align="center">141</td>
+										<td align="center">123</td>
+									</tr>
+								</tbody>
+							</table>
+							<table-wrap-foot>
+								<fn id="TFN1002">
+									<p>e-SAJPG: Sistema de Automação Judicial do Primeiro Grau; e-SAJSG: Sistema de Automação Judicial do Segundo Grau; SEEU: Sistema Eletrônico de Execução Unificado; PJE1G: Processo Judicial Eletrônico 1ºGrau; PJ2G: Processo Judicial Eletrônico 2º Grau; Projudi: Processo Judicial Digital; LIBRA: Sistema de Gestão de Processos Judiciais do Poder Judiciário do Pará; Siscom: Sistema de Informatização dos Serviços das Comarcas; SICAP: Sistema de Controle e Acompanhamento de Processos; EPROC1G: Processo Eletrônico Primeiro Grau; EPROC2G: Processo Eletrônico Segundo Grau; SPROC: Sistema Processual; SAIPRO: Sistema de Acompanhamento Integrado de Processos Judiciais; THEMIS1G: Sistema de Peticionamento e de Processo Eletrônico 1º grau; THEMIS2G: Sistema de Peticionamento e de Processo Eletrônico 2º grau; VEP: Sistema de Varas de Execuções Penais Virtuais; E-JUS: Sistema de Processo Eletrônico; JUDWIN: Consulta Processual Unificada; THEMISWEBRECURSAL: Sistema de Peticionamento e de Processo Eletrônico 2º grau; Projudirecursal: Processo Judicial Digital 2º grau; SCPV: Sistema de Controle Processual Virtual ; QVT: Aplicativos para acesso a sistemas não gráficos; SISTJWEB: Gráfico Módulo de protocolo integrado; E-JUD: Portal do Poder Judiciário do Estado do Espírito Santo; SIEP: Sistema de Execução Penal; SIAP: Sistema de Acompanhamento Processual; PJERJ: Processo Judicial Eletrônico do Rio de Janeiro; VEC: Pesquisa avançada processos físicos; TJPR: Tribunal de Justiça do Paraná.</p>
+								</fn>
+							</table-wrap-foot>
+						</table-wrap>
+					</p>
+					<p>
+						<table-wrap id="t2002">
+							<label>Tabela 2</label>
+							<caption>
+								<title>Descrição e frequência de sistemas dos Tribunais de Justiça Estaduais, 2021.</title>
+							</caption>
+							<table frame="hsides" rules="groups">
+								<colgroup>
+									<col/>
+									<col/>
+								</colgroup>
+								<thead>
+									<tr>
+										<th align="left">Sistemas em Tribunais de Justiça Estaduais<sup>a</sup></th>
+										<th>n (%)</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Processo Judicial Eletrônico 1ºGrau (PJ1G)</td>
+										<td align="center">17 (13,8)</td>
+									</tr>
+									<tr>
+										<td>Processo Judicial Eletrônico 2º Grau (PJ2G)</td>
+										<td align="center">13 (10,5)</td>
+									</tr>
+									<tr>
+										<td>Processo Judicial Digital (Projudi)</td>
+										<td align="center">16 (13,0)</td>
+									</tr>
+									<tr>
+										<td>Sistema Eletrônico de Execução Unificado (SEEU)</td>
+										<td align="center">12 (9,7)</td>
+									</tr>
+									<tr>
+										<td>Sistema de Automação Judicial do Primeiro Grau (e- SAJ PG)</td>
+										<td align="center">10 (8,1)</td>
+									</tr>
+									<tr>
+										<td>Sistema de Transmissão Eletrônica de Atos Processuais Primeiro Grau (E-PROC1G)</td>
+										<td align="center">3 (2,4)</td>
+									</tr>
+									<tr>
+										<td>Sistema de Peticionamento e de Processo Eletrônico 1º grau (THEMIS1G)</td>
+										<td align="center">3 (2,4)</td>
+									</tr>
+									<tr>
+										<td>Processo Eletrônico Primeiro Grau (EPROC1G)</td>
+										<td align="center">3 (2,4)</td>
+									</tr>
+									<tr>
+										<td>Processo Eletrônico Segundo Grau (EPROC2G)</td>
+										<td align="center">3 (2,4)</td>
+									</tr>
+									<tr>
+										<td>Sistema de Varas de Execuções Penais Virtuais (VEP)</td>
+										<td align="center">2 (1,6)</td>
+									</tr>
+									<tr>
+										<td>Sistema Processual (SPROC)</td>
+										<td align="center">2 (1,6)</td>
+									</tr>
+									<tr>
+										<td>Sistema de Peticionamento e de Processo Eletrônico 2º grau (THEMIS2G)</td>
+										<td align="center">2 (1,6)</td>
+									</tr>
+									<tr>
+										<td>Sistema de Informatização dos Serviços das Comarcas (Siscom)</td>
+										<td align="center">2 (1,6)</td>
+									</tr>
+									<tr>
+										<td>Portal do Poder Judiciário do Estado do Espírito Santo (E-JUD)</td>
+										<td align="center">1 (0,8)</td>
+									</tr>
+									<tr>
+										<td>Sistema de Processo Eletrônico (E-JUS)</td>
+										<td align="center">1 (0,8)</td>
+									</tr>
+									<tr>
+										<td>Sistema de Protocolo Administrativo Eletrônico (E-MAIL)</td>
+										<td align="center">1 (0,8)</td>
+									</tr>
+									<tr>
+										<td>Sistema de Peticionamento e de Processo Eletrônico 1º grau (THEMISWEB)</td>
+										<td align="center">1 (0,8)</td>
+									</tr>
+									<tr>
+										<td>Processo Judicial Eletrônico (Tucujuris)</td>
+										<td align="center">1 (0,8)</td>
+									</tr>
+									<tr>
+										<td>Sistema de Acompanhamento de Processos 1º Grau (SISTJ Gráfico)</td>
+										<td align="center">1 (0,8)</td>
+									</tr>
+									<tr>
+										<td>Sistema de Gestão de Processos Judiciais do Poder Judiciário do Pará (Libra)</td>
+										<td align="center">1 (0,8)</td>
+									</tr>
+									<tr>
+										<td>Portal consulta processo físico 1º e 2º</td>
+										<td align="center">1 (0,8)</td>
+									</tr>
+									<tr>
+										<td>Sistema de Peticionamento e de Processo Eletrônico 2º grau (Themiswebrecursal)</td>
+										<td align="center">1 (0,8)</td>
+									</tr>
+									<tr>
+										<td>Processo Judicial Eletrônico Rio de Janeiro (PJe-RJ)</td>
+										<td align="center">1 (0,8)</td>
+									</tr>
+									<tr>
+										<td>Portal Tribunal Justiça do Paraná (TJPR) Varas Estatizadas com Processos Físicos (em papel)</td>
+										<td align="center">1 (0,8)</td>
+									</tr>
+									<tr>
+										<td>Processo Judicial Digital 2º grau (ProjudiRecursal)</td>
+										<td align="center">1 (0,8)</td>
+									</tr>
+									<tr>
+										<td>Aplicativos para acesso a sistemas não gráficos (QVT)</td>
+										<td align="center">1 (0,8)</td>
+									</tr>
+									<tr>
+										<td>Sistema de Acompanhamento Integrado de Processos Judiciais (SAIPRO)</td>
+										<td align="center">1 (0,8)</td>
+									</tr>
+									<tr>
+										<td>Consulta Unificada Beta</td>
+										<td align="center">1 (0,8)</td>
+									</tr>
+									<tr>
+										<td>Sistema de acompanhamento processual Tribunal de Justiça Piauí – 2ª instância (e-TJPI)</td>
+										<td align="center">1 (0,8)</td>
+									</tr>
+									<tr>
+										<td>Consulta processual unificada (JUDWIN)</td>
+										<td align="center">1 (0,8)</td>
+									</tr>
+									<tr>
+										<td>Módulo de protocolo integrado (SISTJWEB)</td>
+										<td align="center">1 (0,8)</td>
+									</tr>
+									<tr>
+										<td>Sistema de Acompanhamento Processual (SIAP)</td>
+										<td align="center">1 (0,8)</td>
+									</tr>
+									<tr>
+										<td>Sistema de Controle e Acompanhamento de Processos (SICAP)</td>
+										<td align="center">1 (0,8)</td>
+									</tr>
+									<tr>
+										<td>Busca processual eletrônica segundo grau (Sistema de Segunda Instância)</td>
+										<td align="center">1 (0,8)</td>
+									</tr>
+									<tr>
+										<td>Sistema de Execução Penal (SIEP)</td>
+										<td align="center">1 (0,8)</td>
+									</tr>
+									<tr>
+										<td>Processo Judicial Eletrônico (Tucujuris Web)</td>
+										<td align="center">1 (0,8)</td>
+									</tr>
+									<tr>
+										<td>Trâmite processual de forma virtual no Judiciário mato-grossense (Sistema Apolo)</td>
+										<td align="center">1 (0,8)</td>
+									</tr>
+									<tr>
+										<td>Sistema de Controle Processual Virtual (SCPV)</td>
+										<td align="center">1 (0,8)</td>
+									</tr>
+									<tr>
+										<td>Sistema de Controle Processual (Apolo Eletronico)</td>
+										<td align="center">1 (0,8)</td>
+									</tr>
+									<tr>
+										<td>Pesquisa avançada processos físicos (VEC)</td>
+										<td align="center">1 (0,8)</td>
+									</tr>
+									<tr>
+										<td>Sistema de Automação Judicial do Primeiro Grau (e-SAJ PG5)</td>
+										<td align="center">1 (0,8)</td>
+									</tr>
+									<tr>
+										<td>Sistema de Automação Judicial do Primeiro Grau (e-SAJ SG3)</td>
+										<td align="center">1 (0,8)</td>
+									</tr>
+									<tr>
+										<td>Sistema de Automação Judicial do Primeiro Grau (e-SAJ Digital)</td>
+										<td align="center">1 (0,8)</td>
+									</tr>
+									<tr>
+										<td>Consulta processual Primeiro Grau Cível (1GCivel)</td>
+										<td align="center">1 (0,8)</td>
+									</tr>
+									<tr>
+										<td>Consulta processual Primeiro Grau Vara de execuções penais (1GVEP)</td>
+										<td align="center">1 (0,8)</td>
+									</tr>
+									<tr>
+										<td>Consulta processual Primeiro Grau Criminal (1GCriminal)</td>
+										<td align="center">1 (0,8)</td>
+									</tr>
+									<tr>
+										<td>Consulta processual segundo grau (2G)</td>
+										<td align="center">1 (0,8)</td>
+									</tr>
+									<tr>
+										<td>Tribunal de Justiça – Processos (TJP)</td>
+										<td align="center">1 (0,8)</td>
+									</tr>
+									<tr>
+										<td><bold>Total</bold></td>
+										<td align="center"><bold>123 (100)</bold></td>
+									</tr>
+								</tbody>
+							</table>
+							<table-wrap-foot>
+								<fn id="TFN2002">
+									<p><sup>a</sup> Existem 48 tipos de sistemas em Tribunais de Justiça Estaduais no país.</p>
+								</fn>
+							</table-wrap-foot>
+						</table-wrap>
+					</p>
+					<p>O TJ do Acre informou que utiliza somente processos eletrônicos, apresentando três bases de dados virtuais, enquanto o TJ de Sergipe indicou ter somente uma base de dados que serve para protocolo e acompanhamento de processos, tanto físicos quanto virtuais. Os TJ de Alagoas, Mato Grosso do Sul e Rondônia apresentaram duas bases de dados, indicadas tanto para processos físicos quanto para processos virtuais, uma para processos de primeiro grau e outra para aqueles de segundo grau. O TJ do Amazonas apresentou três bases de dados, também indicadas para protocolo e acompanhamento de processos físicos e virtuais.</p>
+					<p>Por outro lado, Rio Grande do Sul, Maranhão e Distrito Federal informaram bases em cada tipologia, sete no total. O estado do Piauí contabilizou duas bases de dados para processos físicos e seis para virtuais, totalizando oito bases. Os demais TJ apresentam diferentes características de funcionamento, a partir das quais se pode acompanhar os processos físicos e virtuais (<xref ref-type="table" rid="t1002">Tabela 1</xref>).</p>
+					<p>Constatou-se o avanço dos sistemas eletrônicos para a modalidade de processos virtuais em detrimento aos autos de processos físicos, o fato justifica a repetição de algumas bases em relação a processos físicos e virtuais. Por exemplo, no estado do Amazonas, tem-se o sistema E-SAJ e Projudi, que tanto podem ser utilizados para acompanhamento de processos físicos quanto para processos virtuais.</p>
+					<p>Foram identificadas no país 141 bases de dados nos estados e DF, 44 (31,2%) para processos físicos e 97 (68,8%) para virtuais (<xref ref-type="table" rid="t1002">Tabela 1</xref>). Há um predomínio de bases virtuais em todas as regiões do país, com destaque para as regiões Nordeste e Sul (<xref ref-type="table" rid="t1002">Tabela 1</xref>).</p>
+					<p>Verificou-se um total de 123 bases de dados nos TJ, com destaque para as regiões Sul e Nordeste (<xref ref-type="table" rid="t1002">Tabela 1</xref>). Ao se desconsiderar a existência de duplicidade de bases de dados, constatou-se um total de 48 sistemas pelo país (<xref ref-type="table" rid="t2002">Tabela 2</xref>). Os sistemas mais frequentes foram: PJE1G (n = 17; 13,8%), PJE2G (n = 13; 10,5%), Projudi (n = 16; 13%), SEEU (n = 12; 9,7%) e E-SAJ PG (n = 10; 8,1%).</p>
+				</sec>
+				<sec>
+					<title>Etapa 2</title>
+					<p>Obteve-se respostas às solicitações dos TJ do Amapá (AP), Pará (PA), Rondônia (RO), Roraima (RR), Alagoas (AL), Ceará (CE), Maranhão (MA), Rio Grande do Norte (RN), Sergipe (SE), Distrito Federal (DF), Espírito Santo (ES), Minas Gerais (MG), São Paulo (SP) e Paraná (PR) (<xref ref-type="table" rid="t3002">Quadro</xref>).</p>
+					<p>
+						<table-wrap id="t3002">
+							<label>Quadro</label>
+							<caption>
+								<title>Respostas sobre o processo de protocolo e acompanhamento de processos de saúde nas bases de dados dos Tribunais de Justiça dos Estados.</title>
+							</caption>
+							<table frame="hsides" rules="groups">
+								<colgroup>
+									<col/>
+									<col/>
+									<col/>
+									<col/>
+								</colgroup>
+								<thead>
+									<tr>
+										<th align="left">Unidade da Federação (UF)</th>
+										<th>Pergunta A) Nos sistemas (inserir os sistemas conforme pergunta anterior), qual a ramificação (na árvore de assuntos) para classificar e protocolizar uma ação que trate de saúde? Existe diferença no protocolo quando se trata de saúde pública e saúde privada?</th>
+										<th>Pergunta B) É possível realizar um protocolo de um processo na competência da fazenda pública que seja da área da saúde, sem que no cadastro seja identificado que o mesmo é da saúde, por exemplo (cadastrar como “ato administrativo/anulação” – mas ser referente a oferta de medicamentos)?</th>
+										<th>Pergunta C) O setor de distribuição faz adequação/compatibilização no cadastro de ações corrigindo eventuais erros de peticionamento dos profissionais que fazem os cadastros?</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Amapá (AP)</td>
+										<td align="center">Referente à ramificação, na árvore de assuntos, para classificar e protocolar uma ação que trate de saúde, o sistema Tucujuris – Processo Judicial Eletrônico utiliza o Sistema de Tabelas Processuais Unificadas (TPU), instituída pela Resolução no 46/2007 do Conselho Nacional de Justiça (CNJ), disponível em: https://www.cnj.jus.br/sgt/consulta_publica_classes.php</td>
+										<td align="center">Sim, o advogado é quem classifica/cadastra entre os ritos disponíveis no momento da Petição Inicial, sendo possível que o mesmo selecione ou classifique um rito diferente da ação pretendida, podendo, a Secretaria realizar a correção.</td>
+										<td align="center">A distribuição é automática realizada pelo próprio advogado, após a distribuição o gabinete realiza a atuação e o exame de admissibilidade, podendo, a Secretaria realizar a correção.</td>
+									</tr>
+									<tr>
+										<td>Pará (PA)</td>
+										<td align="center">O Tribunal de Justiça do Pará (TJPA) utiliza o sistema eletrônico PJE para o protocolo de petições iniciais. Para que se possa cadastrar “assunto” para um processo inicial, primeiramente se terá que selecionar a “classe” da ação. Diante da classe, é que poderá se classificar o assunto, dentre os existentes no sistema, conforme o objeto da ação. Para se fazer diferença entre “saúde pública” e “saúde privada”, deverá ser selecionado, para o primeiro caso, assunto na árvore de “Direito Administrativo” e “Direito da Saúde”; e, para o segundo, deverá ser na árvore de “Direito do Consumidor”. Em ambos os casos, deverá ser verificado aquele que identifique melhor a ação, como assunto principal. Esclarecemos, na oportunidade, que nada impede de serem selecionados outros assuntos subsidiários. Ressaltamos, ainda, que o protocolo de ações iniciais está a cargo do advogado, que é responsável pela classificação da classe e do assunto da ação a ser ajuizada, observando a competência da vara, antes do protocolo final.</td>
+										<td align="center">É possível realizar o protocolo de uma ação sem que seja realizada a classificação correta, pois tudo depende da classe e do assunto selecionados pelo advogado. Frisa-se, também, que a árvore de assuntos, utilizada por este Tribunal, é a disponibilizada pelo CNJ (Sistema de Gestão de Tabelas Processuais Unificadas – CNJ – https://www.cnj.jus.br/sgt/consulta_publica_assuntos.php). Órgão aquele que está melhor capacitado a prestar os esclarecimentos questionados.</td>
+										<td align="center">O Setor de Distribuição não possui competência para alterar/corrigir erros ocorridos por ocasião do protocolo de uma ação. Caso tenha que ser realizada alguma adequação, esta deverá ser procedida pela Secretaria da Vara respectiva.</td>
+									</tr>
+									<tr>
+										<td>Rondônia (RO)</td>
+										<td align="center">Sobre a ramificação da árvore de assuntos utilizada, são os assuntos da árvore: Direito da Saúde. No glossário da TPU explica quando se trata de saúde privada e pública.</td>
+										<td align="center">Há possibilidade de distribuição com qualquer assunto que esteja associado à competência do juizado da Fazenda Pública.</td>
+										<td align="center">Os usuários com perfil de diretor de secretaria estão habilitados para realizar correções de assuntos.</td>
+									</tr>
+									<tr>
+										<td>Roraima (RR)</td>
+										<td align="center">O sistema amplamente empregado atualmente no TJRR é o Projudi (ainda existem PJE e Siscom, contudo numa escala muito reduzida), sendo assim o TJRR adota como modele de as tabelas unificadas do CNJ, dentre os assuntos ou melhor títulos de gerenciais temos: “Processos de Saúde”, é essa gerencial que dever ser utilizada no momento da propositura da ação para classificar o processo recém protocolado.</td>
+										<td align="center">Quanto ao protocolo, em que pese estar regulamentado o uso da gerencial “Processos de saúde” muitos representantes acabam classificando a demanda de forma diversa, por exemplo na fazenda pública existem processos classificados com a gerencial “obrigação de fazer ou não fazer” quando na verdade tratam-se de processos de saúde, inclusive de fornecimento de medicamentos. Acredito que um dos motivos seja a recente adoção de novas políticas para ações de saúde, inclusive a adoção de classificação específica.</td>
+										<td align="center">No que se refere à adequação/ compatibilização de eventuais equívocos na definição da gerencial no cadastro, tanto o setor de distribuição, quanto o cartório da vara e o NATJUS podem fazer a alteração da classificação quando constatados eventuais equívocos na definição da gerencial. Por fim, é relevante consignar que o NATJUS “coleta” os dados estatísticos e faz o acompanhando das ações de saúde, especialmente nas varas e juizados da fazenda e da infância, considerando pedido a pedido, ou seja, o NATJUS confere o acervo diário que é distribuído nas referidas unidades, mesmo constando gerencial diversa daquele indicada como “processo de saúde” este núcleo registra o processo em suas estatísticas visto que é feita uma análise das iniciais de cada processo para garantir a precisão das estatísticas.</td>
+									</tr>
+									<tr>
+										<td>Alagoas (AL)</td>
+										<td align="center">A ramificação é mesmo definida pelo CNJ por meio do Sistema de Gestão das Tabelas Processuais Unificadas – (TPU), e se aplica a todos os tribunais do país. A saber, toda a ramificação que estiver abaixo do assunto de código 12.480 (Direito da Saúde). Da diferença no protocolo: Sim, existe diferença no cadastramento dessas ações. Quando se trata de saúde pública a ramificação utilizada é a do assunto de código 12.481 (saúde pública), já em relação à saúde privada se utiliza a ramificação do código 12.482 (saúde suplementar). Esclarecendo que o CNJ identifica essas matérias pelo assunto (complemento) e não pela classe (ação).</td>
+										<td align="center">Sim, é possível. O assunto não é um conteúdo obrigatório do processo, por isso pode acontecer eventuais equívocos.</td>
+										<td align="center">O setor de distribuição não se encarrega propriamente de fazer a correção e/ou identificação dos assuntos e sim da competência. No caso, o tema saúde (no contexto aqui apresentado) é definido pelo assunto e a competência é a não criminal – definida pela classe processual. Sendo assim, a unidade judiciária que recebe o processo se encarrega de identificar o assunto e corrigi-lo, caso necessário.</td>
+									</tr>
+									<tr>
+										<td>Ceará (CE)</td>
+										<td align="center">Informou conforme a resolução §§1º da 09/2019 do TJCE bem como a IN 03/2018 que os protocolos se davam especifica e restritamente às áreas do direito à saúde pública, posto que pertinentes a árvore do Direito Administrativo. Contudo, O Conselho Nacional de Justiça (https://www.cnj.jus.br/sgt/consulta_publica_assuntos.php), promoveu alteração recente na tabela nacional, incluindo o ramo de assuntos atinentes ao “Direito da Saúde”, revogando alguns códigos daqueles que foram normatizados na especialização havida pelo TJCE em 2018 e incluindo vários outros relativos à judicialização da saúde privada.</td>
+										<td align="center">NR</td>
+										<td align="center">Informo que até o advento da distribuição automática nas Varas de Fazenda Pública ou das Varas Cíveis, o usuário distribuidor tem autorização para corrigir a classe eventualmente eleita com equívoco pelo peticionante.</td>
+									</tr>
+									<tr>
+										<td>Maranhão (MA)</td>
+										<td align="center">A Assessoria de Informática fez uma busca em todos os processos protocolados que contenham “Saúde” no assunto. Desta forma, encontrou-se processos nas seguintes ramificações: Direito Administrativo e outras matérias de Direito Público, Direito da Saúde, Direito do Consumidor e Direito Tributário. Verifica-se pela definição dos assuntos mencionados na tabela anterior que há como separar saúde pública e saúde privada.</td>
+										<td align="center">Assessoria de Informática relata que há o conceito de competência nos sistemas de processos judiciais. Fazendo um cruzamento dos assuntos relativos à saúde (mencionados na tabela fornecida) com as competências de cada processo.</td>
+										<td align="center">A Assessoria de Informática pode relatar que sempre que as secretarias de distribuição dos fóruns recebem a determinação para correção de retificar a autuação dos processos, seja pela mudança de classe, competência, inclusão ou exclusão de assuntos, dentre outros dados, isto é feito no sistema.</td>
+									</tr>
+									<tr>
+										<td>Rio Grande do Norte (RN)</td>
+										<td align="center">Direito da Saúde - 12.480 e suas ramificações - Existe diferença no cadastro de processo quanto a saúde pública e privada conforme códigos disponibilizados pelo TJ.</td>
+										<td align="center">É possível, todavia para minimizar esses equívocos a Secretaria de Gestão Estratégica, vem divulgando continuamente informativos explicando o uso adequado das Tabelas Processuais Unificadas. Além da ação da Corregedoria em seus relatórios de Correição, no qual são apontadas as inconsistências de cadastros.</td>
+										<td align="center">Os erros de cadastro são na medida do possível corrigidos pelas unidades judiciárias, não há um setor específico para esse fim. O Tribunal vem elaborando um compilado por competência, no qual são identificadas as classes, assuntos e movimentos adequados para cada competência, visando evitar a ocorrência desses equívocos.</td>
+									</tr>
+									<tr>
+										<td>Sergipe (SE)</td>
+										<td align="center">O sistema de controle processual virtual utilizado por este Tribunal está parametrizado de acordo comas Tabelas Processuais Unificadas do Conselho Nacional de Justiça e nestas últimas consta como ramificação para classificar e protocolar uma ação que trate de saúde o assunto Direito da Saúde (12.480), o qual possui as seguintes subdivisões: 1. Doação e transplante de órgãos, tecidos ou partes (12.521). 2. Genética/células tronco (12.520).</td>
+										<td align="center">Sim, é possível tendo em vista que o advogado subscritor da petição deve fornecer o assunto ao ajuizar a ação nos termos do caput do artigo 170-F da Consolidação Normativa Judicial com redação alterada pelo Provimento n° 22/2010 e, portanto, pode equivocar-se na escolha do assunto.</td>
+										<td align="center">O artigo 170-F da Consolidação Normativa Judicial, em seu parágrafo 5°, expõe que o distribuidor pode sanar eventuais incorreções e incluir dados indispensáveis ao cadastro do processo, sempre usando como parâmetro a petição inicial. Por outro lado, a requerente informa que envia as perguntas acima a este Tribunal de Justiça com vistas a realizar algumas solicitações, as quais são respondidas abaixo: 1) Verificação dos dados consolidados em termos de sua adequação frente às questões apresentadas e as realidades deste tribunal. Não ficou claro quais seriam esses dados consolidados e trata-se também de um questionamento de caráter subjetivo, não recuperável no sistema de controle processual virtual deste Tribunal.</td>
+									</tr>
+									<tr>
+										<td rowspan="2">Sergipe (SE)</td>
+										<td align="center" rowspan="2">3. Mental (12.507), sendo este subdividido nos assuntos internação compulsória (12.508), internação involuntária (12.509) e internação voluntária (12.510). 4.Pública (12.481), sendo este subdividido em: 4.1) Fornecimento de insumos (12.485), o qual é subdividido em cadeira de rodas/cadeira de banho/cama hospitalar (12.498), curativos/bandagem (12.497) e fraldas (12.499). 4.2) Fornecimento de medicamentos (12.484), o qual é subdividido em oncológico (12.496), registrado na Anvisa (12.492) e sem registro na Anvisa (12.493). Vale ressaltar que o assunto registrado na Anvisa (12.492) é subdividido em não padronizado (12.495) e padronizado (12.494). 4.3) internação/ transferência hospitalar (12.483), o qual é subdividido em leito de enfermaria/ leito oncológico (12.505) e unidade de terapia intensiva (UTI)/unidade de cuidados intensivos (UCI) (12.506). 4.4) Sistema Único de Saúde (SUS) (12.511), o qual é subdividido em Controle Social e Conselhos de Saúde (12.518), convênio médico com o SUS (12.512), financiamento do SUS (12.513), reajuste da tabela do SUS (12.514), repasse de verbas do SUS (12.515), ressarcimento do SUS (12.516) e terceirização do SUS (12.517). 4.5) Tratamento médico-hospitalar (12.491), o qual é subdividido em consulta (12.500), diálise/hemodiálise (12.504) e cirurgia (12.501). Vale ressaltar que o assunto cirurgia (12.501) é subdividido em eletiva (12.502) e urgência (12.503). 4.6) Vigilância Sanitária e Epidemiológica (12.519). 5) Suplementar (12.482), o qual se subdivide em planos de Saúde (12.486) e este último se subdivide em fornecimento de insumos (12.490), fornecimento de medicamentos (12.487), reajuste contratual (12.488) e tratamento médico-hospitalar (12.489). Ademais, vale ressaltar que não existe diferença quanto ao protocolo de ações acerca de saúde pública ou privada, devendo ambas serem protocoladas de forma eletrônica em observância ao Provimento n° 22/2010 e à Consolidação Normativa Judicial, ambos deste Tribunal.</td>
+										<td align="center" rowspan="2">Sim, é possível tendo em vista que o advogado subscritor da petição deve fornecer o assunto ao ajuizar a ação nos termos do caput do artigo 170-F da Consolidação Normativa Judicial com redação alterada pelo Provimento n° 22/2010 e, portanto, pode equivocar-se na escolha do assunto.</td>
+										<td align="center">2) Caso considerem necessário, a realização de ajustes com retificação dos dados, de modo a condizer com a realidade de cada tribunal. Este processo deverá ser confirmado (ratificação ou retificação) previamente com a resposta à seguinte questão: Este Tribunal confirma a adequação dos resultados apresentados à luz da sua realidade em particular? Trata-se de um dado de caráter subjetivo, não recuperável no sistema de controle processual virtual. 3) Atualização das respostas do Tribunal de Justiça considerando-se a realidade até maio de 2021, com vistas à maior contextualização e comparação com o contexto de janeiro de 2019. Neste sentido, solicito a demarcação da existência ou não de mudanças eventuais e caso existam, a especificação. O sistema de peticionamento eletrônico e acompanhamento de processos eletrônicos permanece semelhante ao utilizado em janeiro de 2019, com fundamento no Provimento n° 22/2010 e na Consolidação Normativa Judicial.</td>
+									</tr>
+									<tr>
+										<td align="center">Diante do exposto, portanto, esta Divisão Cível pugna que as respostas sejam encaminhadas à parte requerente do presente Sistema Eletrônico de Informações (SEI), permanecendo à disposição para o fornecimento de mais informações.</td>
+									</tr>
+									<tr>
+										<td>Distrito Federal (DF)</td>
+										<td align="center">O sistema realiza a configuração de classe e assunto para estabelecer e fixar a competência inicial. Para a competência de saúde, hoje o sistema associa a classe Procedimento Comum Cível (7), associada aos assuntos da árvore da tabela SGT do CNJ de Direito da Saúde -12.480, sempre utilizando os assuntos filhos ou pai, a partir do 3º nível. A tabela SGT tem as ramificações da árvore que tratam de assuntos de saúde pública (12.481) e assuntos de saúde suplementar (12.482). Link para acesso e consulta da tabela SGT do CNJ: www.cnj.jus.br/sgt</td>
+										<td align="center">Caso o advogado, procurador ou defensor público, ao protocolar uma inicial com uma classe e assunto incompatível com a competência cível, o processo poderá ser encaminhado a competência de Fazenda Pública. Nestes casos, o magistrado analisará o pedido e ao identificar que se trata de tema de saúde, determinará a reclassificação do processo e a redistribuição para a vara especializada de saúde.</td>
+										<td align="center">Tendo em vista que o Tribunal de Justiça do Distrito Federal e dos Territórios (TJDFT) implementou o PJe em todas as competências (Cível, Criminal, Família, Órfãos e Sucessões, Juizados Especais Cíveis e Criminais, Juizados de Violência Doméstica, Vara da Infância e outras), o serviço de distribuição foi desativado, ficando sob responsabilidades das unidades judiciais a análise prévia da classificação dos feitos. O TJDFT também está desenvolvendo um sistema que utiliza Inteligência Artificial para auxiliar nossos usuários com a correta classificação dos processos. Atualmente, o robô está implementado em 11 unidades piloto.</td>
+									</tr>
+									<tr>
+										<td>Espírito Santo (ES)</td>
+										<td align="center">Utiliza o Sistema de Tabelas Processuais Unificadas (TPU), instituída pela Resolução no 46/2007 do Conselho Nacional de Justiça – CNJ, disponível em: https://www.cnj.jus.br/sgt/consulta_publica_classes.php</td>
+										<td align="center">É possível. Não existem regras específicas que vinculem competência com assuntos. A atualização/correção, entretanto, pode ser feita a qualquer momento por usuários internos do sistema, com perfis diversos como protocolo, distribuição, cartórios e/ou gabinetes.</td>
+										<td align="center">O sistema possibilita que seja feita a adequação pelos perfis descritos no item (ii), mas não podemos afirmar se são realizadas.</td>
+									</tr>
+									<tr>
+										<td>Minas Gerais (MG)</td>
+										<td align="center">No PJe ao distribuir o processo o advogado escolherá a classe e assunto que melhor se adéqua à situação pretendida. Serão apresentados diversos assuntos para distribuição e, caso haja cumulação de assuntos de saúde suplementar e pública será apresentada para qual competência ele deseja distribuir, se Saúde Suplementar, Saúde Pública Estadual e Saúde Pública Municipal. Ao efetuar a escolha o processo será cadastrado na competência indicada e direcionado para a 2ª Vara Cível ou 2ª Vara da Fazenda Pública Estadual ou 2ª Vara da Fazenda Municipal, respectivamente, em se tratando por exemplo da comarca de Belo Horizonte. Já no Projudi o advogado/atermado escolherá a competência primeiro e após a classe e assunto, assim as chances da distribuição para a vara incompetente ficam minimizadas. As competências que tratam de saúde no Projudi são: Juizados Especiais Cíveis do Consumo e Juizados Especiais Cíveis da Fazenda Pública.</td>
+										<td align="center">Sim, pois a distribuição é feita pelo advogado, ou seja, cabe a ele escolher a competência, classe e assunto adequados, podendo ser feito equivocadamente, como por exemplo, na justiça comum se for escolhida a classe Procedimento Comum (7) com assuntos diversos de saúde, o sistema jamais apresentará como competência possível a de saúde e o processo será cadastrado em competência distinta da de saúde. Consequentemente, terá grande probabilidade de ser distribuído para vara que não é competente, de acordo com o que determina a Resolução 829/2016, isso para comarcas que possuem mais de uma vara cível e da fazenda. Em contrapartida, se houver a escolha de um assunto de saúde (suplementar ou pública), o sistema PJe exibirá dentre as alternativas de competência as de saúde de acordo com o indicado.</td>
+										<td align="center">A retificação do cadastro das ações é feita pela secretaria no momento de expedição da Certidão de Triagem, nos termos do art. 195 do Provimento nº 355/CGJ/2018, pois o distribuidor não tem acesso aos processos já distribuídos. Nessa situação, atualmente, ainda que haja a retificação do assunto a competência em que o processo foi distribuído não será alterada, isso em razão do atual funcionamento do Sistema PJe, o que não ocorre no Projudi. A melhoria quanto a esse ponto, alteração/retificação da competência em processos distribuídos já foi solicitada ao CNJ e aguarda desenvolvimento.</td>
+									</tr>
+									<tr>
+										<td>São Paulo (SP)</td>
+										<td align="center">Quanto às classes e assuntos, o Tribunal de Justiça de São Paulo está aderente às Tabelas Processuais Unificadas do Conselho Nacional de Justiça, que padronizam os peticionamentos de iniciais nos tribunais do país, incluindo os assuntos que constituem a árvore do “código 12.480 – Direito da Saúde”.</td>
+										<td align="center">O sistema permite a vinculação dos assuntos “Ato administrativo ou Anulação” durante o peticionamento eletrônico de uma ação na competência da Fazenda Pública, mesmo que o conteúdo do pedido esteja relacionado à saúde. Isto ocorre porque os assuntos códigos “11.899 – Ato administrativo” e “10.382 – Anulação” pertencem à árvore do código pai “9.985 – Direito Administrativo e Outras Matérias de Direito Público”, que está vinculado à competência da “Fazenda Pública”; o mesmo acontece, por exemplo com os assuntos que pertencem as árvores dos códigos pai “1.156 – Direito do Consumidor”, “8.826 – Direito Processual Civil e do Trabalho”, “9.633 – Direito da Criança e do Adolescente”, dentre outros.</td>
+										<td align="center">As distribuições das iniciais encaminhadas via peticionamento eletrônico ocorrem de maneira automática, sem interferência manual dos distribuidores. Caso haja necessidade e se for do entendimento do magistrado, o cartório de destino daquela ação distribuída poderá efetivar as correções dos dados cadastrados quando do peticionamento.</td>
+									</tr>
+									<tr>
+										<td>Paraná (PR)</td>
+										<td align="center">Não há tratamento específico para processos classificados com assuntos do ramo de saúde no sistema Projudi.</td>
+										<td align="center">O sistema Projudi possui a configuração de habilitação de classes e assuntos por competências. Estando o assunto especificado configurado na competência (área de varas), não haveria impedimento à protocolização.</td>
+										<td align="center">O sistema Projudi permite ao cartório alterar a classe, assunto principal e secundários dos processos a qualquer momento.</td>
+									</tr>
+								</tbody>
+							</table>
+							<table-wrap-foot>
+								<fn id="TFN3002">
+									<p>NR: não respondeu; TJCE: Tribunal de Justiça do Ceará; TJRR: Tribunal de Justiça de Roraima; PJE: Processo Judicial Eletrônico; Anvisa: Agência Nacional de Vigilância Sanitária; Projudi: Processo Judicial Digital; SGT: Sistema de gestão de tabelas processuais unificadas do Conselho Nacional de Justiça.</p>
+								</fn>
+								<fn id="TFN4002">
+									<p>NATJUS: Núcleos de Apoio Técnico ao Judiciário.</p>
+								</fn>
+							</table-wrap-foot>
+						</table-wrap>
+					</p>
+					<p>Com as informações de 14 tribunais de justiça participantes, percebeu-se que a ramificação para protocolos de ações relacionadas à saúde é estabelecida pelo CNJ, fundamentado no Sistema de Tabelas Processuais Unificadas (TPU), instituída pela Resolução n<sup>o</sup> 46 de 2007 do CNJ.</p>
+					<p>Com base na resposta à pergunta [A] segundo classificação estabelecida pela tabela do CNJ, há diferenças na forma de registro e protocolo quando se trata de saúde pública ou privada. Além disso, a competência para processamento de causas relacionadas à saúde pública remete-se a varas e juizados especiais da fazenda pública, que julga processos cíveis de interesse do estado e municípios, enquanto para a saúde privada há varas e juizados especiais cíveis. Tais detalhamentos são importantes para extração de relatórios e futuros delineamentos de pesquisa.</p>
+					<p>Em outra perspectiva já trazida pela pergunta [B], de forma corriqueira, os operadores do direito responsáveis pela distribuição das ações judiciais incorrem em erro classificando-as em assunto diversos, como, por exemplo, “obrigação de fazer” (ação judicial que objetiva uma prestação de uma pessoa em relação a outra). Embora a unidade judicial tenha possibilidade de readequar a ação, esse aspecto reflete uma lacuna de competência a ser suprida.</p>
+					<p>Mencionou-se ainda, que não existem regras específicas que vinculem a competência aos assuntos. A atualização/correção, entretanto, pode ser feita a qualquer momento por usuários internos do sistema, com perfis diversos, como protocolo, distribuição, cartórios e/ou gabinetes.</p>
+					<p>Por fim, a pergunta [C] revelou que nos TJ tanto o setor de distribuição quanto os cartórios da vara e os núcleos de apoio técnico do Poder Judiciário (NAT-Jus) podem fazer adequação/compatibilização, corrigindo eventuais erros cadastrais.</p>
+					<p>O TJ de Roraima complementou a informação de que o NAT-Jus “coleta” os dados, consolida-os, e faz acompanhamento das ações de saúde, especialmente nas varas e juizados da fazenda e infância, considerando o contexto, pedido a pedido. Mesmo que o assunto não seja “saúde” o tribunal analisa de acordo com o assunto, indicando maior rigor em relação às informações disponibilizadas das ações de saúde.</p>
+					<p>Constatou-se ainda que os websites dos TJ não dispõem de uma interface de dados padronizada para disponibilização de processos relativos à saúde pública, havendo também obstáculos distintos para o acesso a esse tipo de informação. Não foram encontradas informações sobre como o conteúdo dos processos deve ser disponibilizado na base de dados, ficando a critério de cada tribunal a forma como disponibiliza seus dados sobre os variados assuntos, como os processos da judicialização da saúde pública.</p>
+					<p>Ainda como resultado desta pesquisa, reconheceu-se que a maior dificuldade encontrada na atividade de coleta de dados sobre processos de saúde decorre de problemas nos modelos de acesso (Sistemas Judiciários), na disponibilização e organização dos websites dos vários TJ estaduais, ou seja, não há uniformidade para o devido acesso, o que requer o desenvolvimento de um sistema que alcance as demandas visando garantir, de fato, o acesso de todos os operadores do direito, bem como da sociedade, incluindo pesquisadores da saúde.</p>
+				</sec>
+			</sec>
+			<sec sec-type="discussion">
+				<title>DISCUSSÃO</title>
+				<p>O estudo possibilitou evidências adicionais de que o grande número de bases de dados que armazenam ações individuais e coletivas envolvendo o SUS dificulta a realização de análises mais consubstanciadas e comparativas. Há limitação técnica para a extração sistemática de dados compilados em cada sistema, além de não haver integração entre eles, comprometendo o planejamento, a tomada de decisão e o desenvolvimento de pesquisas em saúde. Observou-se ainda que esses sistemas, em número superior à centena, ainda são de acesso limitado aos operadores do direito e pesquisadores, tanto no campo do direito quanto das ciências da saúde, particularmente a Saúde Coletiva, com impactos potenciais negativos para a pesquisa acadêmica nesses campos do conhecimento.</p>
+				<p>Apesar de a lei de informatização do processo judicial n<sup>o</sup> 11.419 de 2006 e o projeto de Lei n<sup>o</sup> 5.828 de 2001 terem em sua proposta original a previsão de que cada órgão do poder judiciário desenvolveria softwares necessários à utilização do processo digital criando sua própria base de acesso e que pudesse ser acessado de qualquer lugar do planeta<sup><xref ref-type="bibr" rid="B12">12</xref></sup>, essa autonomia administrativa de cada TJ, previamente sem uma legislação orientadora, gerou multiplicidade de sistemas nos tribunais com falta de uniformização nas bases de dados e de interfaces entre as informações nos tribunais, evidenciado neste estudo.</p>
+				<p>Em 2005, o CNJ, órgão de controle da atuação administrativa e processual do Poder Judiciário, estabeleceu o sistema de estatística do Poder Judiciário (Resolução n<sup>o</sup> 4 de agosto de 2005), tornando obrigatório que TJ do país enviassem dados consolidados de processos e sentenças prolatadas para serem centralizados no Conselho<sup><xref ref-type="bibr" rid="B18">18</xref></sup>. Todavia, estudos mostram que há limitados avanços concretos até a finalização desta pesquisa<sup><xref ref-type="bibr" rid="B19">19</xref>,<xref ref-type="bibr" rid="B20">20</xref></sup>, as diferentes bases de dados limitam a produção de informações que traduzam a realidade, reduzindo o potencial de prestação jurisdicional<sup><xref ref-type="bibr" rid="B9">9</xref></sup>. Portanto, comprometendo a descrição e entendimento amplo e preciso do fenômeno da judicialização da saúde, assim como o planejamento nas políticas públicas por parte do Poder Executivo<sup><xref ref-type="bibr" rid="B1">1</xref>,<xref ref-type="bibr" rid="B13">13</xref></sup>.</p>
+				<p>A automação do judiciário foi repensada com o surgimento do processo judicial eletrônico, proposta de integração das bases de dados e gerenciamento estratégico das informações do judiciário<sup><xref ref-type="bibr" rid="B21">21</xref></sup>. Atualmente representa importante ferramenta uniformizada pelo Judiciário comum, fato verificado neste estudo, a partir da constatação de que é utilizado por quase 20% dos TJ do país, reforçando a sua implantação estratégica como política pública do Judiciário prevista na Resolução CNJ n<sup><xref ref-type="bibr" rid="B22">22</xref></sup>.</p>
+				<p>Tal cenário aponta que o uso de bases de dados do judiciário é uma ferramenta potente para tramitação processual mais célere e qualificada<sup><xref ref-type="bibr" rid="B20">20</xref></sup> e realização de pesquisas empíricas em saúde<sup><xref ref-type="bibr" rid="B1">1</xref></sup>. Contudo, notou-se que sua existência por si não garante o fácil acesso, sem estar sujeita a limitações pessoais, estruturais e sociais, tendo em vista a multiplicidade, inconstância e falta de uniformização, além da limitação de acesso aos dados das análises possíveis, inviabilizando uma série de interfaces entre as distintas bases para superar eventuais inconsistências<sup><xref ref-type="bibr" rid="B1">1</xref>,<xref ref-type="bibr" rid="B9">9</xref>,<xref ref-type="bibr" rid="B13">13</xref></sup>.</p>
+				<p>Outra preocupação remete à limitação ao acesso de pessoas que não têm atuação no campo do direito; com base nos achados deste estudo e experiência da coleta de dados vinculada, infere-se que a existência das barreiras estruturais limita de modo consistente o amplo acesso aos dados empíricos, objetos de pesquisas sobre a judicialização da saúde pública, fato intensificado pela grande variedade de bases de dados no Judiciário.</p>
+				<p>A importância da proposta de consolidação das bases de dados no Poder Judiciário promove o alinhamento ao objetivo de desenvolvimento sustentável da Agenda 2030, número 16 que versa sobre uma sociedade com acesso universal à Justiça, com instituições eficazes e inclusivas em todos os níveis<sup><xref ref-type="bibr" rid="B23">23</xref>,<xref ref-type="bibr" rid="B24">24</xref></sup>.</p>
+				<p>Outro aspecto importante é classificação e protocolo de ações relacionadas à saúde (“tipos” de matérias que são objeto de litígio), pelo fato de alguns tribunais utilizarem como padrão os assuntos da tabela processual unificada do CNJ. Contudo, há outras modalidades de se proceder à ramificação, como se constata da resposta do TJ de Minas Gerais.</p>
+				<p>O protocolo das ações de saúde representa informação relevante, levando-se em conta o grande número de pesquisas sobre judicialização da saúde que requerem junto aos tribunais dados empíricos para fins de pesquisa<sup><xref ref-type="bibr" rid="B1">1</xref>,<xref ref-type="bibr" rid="B9">9</xref>,<xref ref-type="bibr" rid="B11">11</xref>,<xref ref-type="bibr" rid="B13">13</xref>,<xref ref-type="bibr" rid="B14">14</xref></sup>. Neste estudo, à indagação se é possível protocolar ações de saúde em outros assuntos, obteve-se como resposta “sim” pela maioria dos tribunais. Embora regulamentado o uso da gerencial intitulada “processos de saúde”, muitos representantes classificam a demanda de forma diversa. Por exemplo, na fazenda pública existem processos classificados com a gerencial “obrigação de fazer ou não fazer”, quando na verdade tratam-se de processos de saúde (fornecimento de medicamentos). Os motivos para essa imprecisa classificação podem estar relacionados à recente adoção de novas políticas para ações de saúde, inclusive a adoção de classificação específica (<xref ref-type="table" rid="t3002">Quadro</xref>), que tem demonstrado limitações em virtude de cadastros errôneos referente ao ‘assunto’ quando da distribuição do processo<sup><xref ref-type="bibr" rid="B1">1</xref>,<xref ref-type="bibr" rid="B11">11</xref>,<xref ref-type="bibr" rid="B13">13</xref>,<xref ref-type="bibr" rid="B14">14</xref></sup>.</p>
+				<p>Tal cenário aponta um risco para o real número de processos de judicialização da saúde nos tribunais já pesquisados<sup><xref ref-type="bibr" rid="B11">11</xref></sup>, mesmo os tribunais respondendo que é possível fazer a adequação. Questionam-se as incorreções e inclusões de dados imprecisos, fato constatado nas respostas dispostas no <xref ref-type="table" rid="t3002">Quadro</xref>.</p>
+				<p>As limitações do estudo remetem-se ao grau de precisão e de sistematização das informações relacionadas aos sistemas de informação do judiciário que foram retornadas formalmente pelos TJ. A despeito dessas questões, a abrangência nacional e a abordagem diferenciada com interface de diferentes perspectivas do campo do Direito e da Saúde Coletiva reforça a sua relevância, dado o caráter inédito e estratégico para o país.</p>
+			</sec>
+			<sec sec-type="conclusions">
+				<title>CONCLUSÃO</title>
+				<p>A multiplicidade de sistemas de informação no Judiciário brasileiro complexifica a sua utilização para análises com vistas à pesquisa em saúde, consistindo em óbice à atualização mais eficaz das políticas públicas do Executivo. Reconhece-se a necessidade de esforços adicionais não apenas para a padronização, mas também para aprimoramento dos fluxos e da estrutura das bases de dados judiciais, ampliando o acesso e a transparência, buscando um olhar transdisciplinar em pesquisas nos campos do Direito e da Saúde Coletiva.</p>
+				<p>A ausência de padronização na organização de dados ou de sistemas de acesso públicos aos vários TJ (e seus dados estatísticos) dificulta a pesquisa empírica da judicialização da saúde, que é fundamental para elaboração de políticas públicas. Enquanto as plataformas eletrônicas de base de dados do Poder Judiciário não forem oferecidas em caráter unificado, de modo igualitário, a virtualização dos processos não conseguirá garantir a ampliação do acesso à informação da Justiça, pelo contrário, poderá intensificar a disparidade existente entre o acesso público e privado à Justiça.</p>
+				<p>O futuro há de ser o processo digital e para que seja de modo eficaz, deve ser cautelosamente instituído, com análise de resultados, falhas e melhoramentos, adaptando os operadores e a sociedade como um todo. Abre-se um enorme potencial para análise e qualificação das políticas públicas, não apenas vinculadas ao setor saúde. Ressalta-se que esse movimento demanda políticas sociais estratégicas que promovam acesso irrestrito da sociedade e pesquisadores (as) em saúde, dentro dos limites das leis vigentes, inclusive com base em dados de fácil acesso em seus sítios eletrônicos.</p>
+				<p>Portanto, reforça-se a necessidade de aperfeiçoamento estratégico no sentido de padronizar os sistemas eletrônicos usados pelo Poder Judiciário para reger processos judiciais e pesquisas empíricas em saúde, haja vista que a configuração adotada, limita e dificulta pesquisas e análises que podem inclusive nortear a criação de políticas públicas voltadas para a identificação e controle do fenômeno da judicialização da saúde.</p>
+			</sec>
+		</body>
+		<back>
+			<fn-group>
+				<fn fn-type="financial-disclosure" id="fn2002">
+					<p>Financiamento: Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (Capes/PROAP – bolsa de doutorado para AFF). Fundação Cearense de Apoio ao Desenvolvimento Científico e Tecnológico do Estado do Ceará (FUNCAP- bolsa de mestrado para NRNA). Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq – bolsa de produtividade em pesquisa 2 para ANRJ).</p>
+				</fn>
+			</fn-group>
+		</back>
+	</sub-article>
+</article>

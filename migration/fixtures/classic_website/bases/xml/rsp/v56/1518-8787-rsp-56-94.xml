@@ -1,0 +1,2569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article article-type="review-article" dtd-version="1.1" specific-use="sps-1.9" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="nlm-ta">Rev Saude Publica</journal-id>
+			<journal-id journal-id-type="publisher-id">rsp</journal-id>
+			<journal-title-group>
+				<journal-title>Revista de Saúde Pública</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Rev. Saúde Pública</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="ppub">0034-8910</issn>
+			<issn pub-type="epub">1518-8787</issn>
+			<publisher>
+				<publisher-name>Faculdade de Saúde Pública da Universidade de São Paulo</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="other">00508</article-id>
+			<article-id pub-id-type="doi">10.11606/s1518-8787.2022056004374</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Review</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Primary health care organization in the Covid-19 pandemic: scoping review</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-8121-8962</contrib-id>
+					<name>
+						<surname>Silva</surname>
+						<given-names>Breno Ribeiro Gonçalves da</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+					<role>Study design and planning</role>
+					<role>Data collection, analysis, and interpretation</role>
+					<role>Manuscript development and revision</role>
+					<role>Approval of the final version</role>
+					<role>Public responsibility for the content of the article</role>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-9098-3594</contrib-id>
+					<name>
+						<surname>Corrêa</surname>
+						<given-names>Ana Paula de Vechi</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+					<role>Study design and planning</role>
+					<role>Data collection, analysis, and interpretation</role>
+					<role>Manuscript development and revision</role>
+					<role>Approval of the final version</role>
+					<role>Public responsibility for the content of the article</role>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-0236-5025</contrib-id>
+					<name>
+						<surname>Uehara</surname>
+						<given-names>Sílvia Carla da Silva André</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>III</sup></xref>
+					<role>Study design and planning</role>
+					<role>Data collection, analysis, and interpretation</role>
+					<role>Manuscript development and revision</role>
+					<role>Approval of the final version</role>
+					<role>Public responsibility for the content of the article</role>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>I</label>
+				<institution content-type="orgname">Universidade Federal de São Carlos</institution>
+				<institution content-type="orgdiv1">Centro de Ciências Biológicas e da Saúde</institution>
+				<institution content-type="orgdiv2">Departamento de Enfermagem</institution>
+				<addr-line>
+					<named-content content-type="city">São Carlos</named-content>
+					<named-content content-type="state">SP</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Universidade Federal de São Carlos. Centro de Ciências Biológicas e da Saúde. Departamento de Enfermagem. Graduação em Enfermagem. São Carlos, SP, Brasil</institution>
+			</aff>
+			<aff id="aff2">
+				<label>II</label>
+				<institution content-type="orgname">Universidade Federal de São Carlos</institution>
+				<institution content-type="orgdiv1">Centro de Ciências Biológicas e da Saúde</institution>
+				<institution content-type="orgdiv2">Departamento de Enfermagem</institution>
+				<addr-line>
+					<named-content content-type="city">São Carlos</named-content>
+					<named-content content-type="state">SP</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Universidade Federal de São Carlos. Centro de Ciências Biológicas e da Saúde. Departamento de Enfermagem. Programa de Pós-Graduação em Enfermagem. São Carlos, SP, Brasil</institution>
+			</aff>
+			<aff id="aff3">
+				<label>III</label>
+				<institution content-type="orgname">Universidade Federal de São Carlos</institution>
+				<institution content-type="orgdiv1">Centro de Ciências Biológicas e da Saúde</institution>
+				<institution content-type="orgdiv2">Departamento de Enfermagem</institution>
+				<addr-line>
+					<named-content content-type="city">São Carlos</named-content>
+					<named-content content-type="state">SP</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Universidade Federal de São Carlos. Centro de Ciências Biológicas e da Saúde. Departamento de Enfermagem. São Carlos, SP, Brasil</institution>
+			</aff>
+			<author-notes>
+				<corresp id="c01"> Correspondence: Sílvia Carla da Silva André Uehara Universidade Federal de São Carlos Rodovia Washington Luis, s/n, km 235 Caixa Postal 676 13565-905 São Carlos, SP, Brasil E-mail: <email>silviacarla@ufscar.br</email>
+				</corresp>
+				<fn fn-type="conflict">
+					<p>Conflict of Interest: The authors declare no conflict of interest.</p>
+				</fn>
+			</author-notes>
+			<pub-date date-type="pub" publication-format="electronic">
+				<day>14</day>
+				<month>11</month>
+				<year>2022</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">
+				<year>2022</year>
+			</pub-date>
+			<volume>56</volume>
+			<elocation-id>94</elocation-id>
+			<history>
+				<date date-type="received">
+					<day>4</day>
+					<month>11</month>
+					<year>2021</year>
+				</date>
+				<date date-type="accepted">
+					<day>25</day>
+					<month>04</month>
+					<year>2022</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="en">
+					<license-p> This is an Open Access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. </license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>ABSTRACT</title>
+				<sec>
+					<title>OBJECTIVE</title>
+					<p> Mapping available scientific evidence on the organization of primary health care services and professionals during the Covid-19 pandemic.</p>
+				</sec>
+				<sec>
+					<title>METHODS</title>
+					<p> This is a scoping review that followed the Joanna Briggs Institute method. Articles published in Portuguese, Spanish, and English from January 2020 to January 2021 in the CINAHL, Lilacs, Medline, PubMed, and Web of Science databases were included.</p>
+				</sec>
+				<sec>
+					<title>RESULTS</title>
+					<p> We selected 24 articles that presented the reorganization of primary health care services and professionals to care suspected or confirmed Covid-19 cases. Coordination measures to tackle this disease in primary health care help to control its infection, especially by the active search for respiratory symptoms, the detection of new cases, and the monitoring of confirmed cases.</p>
+				</sec>
+				<sec>
+					<title>CONCLUSION</title>
+					<p> This study presents an overview of how primary health care services and professionals organized themselves to tackle the Covid-19 pandemic, addressing adjustments in infrastructure and care flows, such as establishing specific Covid-19 care units, separating infected and non-infected patients, using telemedicine as an alternative modality of care, and monitoring cases by applications and phone.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="en">
+				<kwd>Primary Health Care, organization &amp; administration</kwd>
+				<kwd>COVID-19, prevention &amp; control</kwd>
+				<kwd>Health Human Resource Training</kwd>
+				<kwd>Review</kwd>
+			</kwd-group>
+			<funding-group>
+				<award-group>
+					<funding-source>FAPESP</funding-source>
+					<award-id>2019/21219-7</award-id>
+				</award-group>
+				<award-group>
+					<funding-source>CNPq</funding-source>
+					<award-id>402507/2020-7</award-id>
+				</award-group>
+				<funding-statement>Funding: Fundação de Amparo à Pesquisa do Estado de São Paulo (FAPESP; Process No. 2019/21219-7). Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq; Process No. 402507/2020-7).</funding-statement>
+			</funding-group>
+			<counts>
+				<fig-count count="2"/>
+				<table-count count="4"/>
+				<equation-count count="0"/>
+				<ref-count count="48"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>INTRODUCTION</title>
+			<p>In order to tackle the pandemic of the new coronavirus, health systems worldwide had to adjusted themselves to provide different responses against its infection, prevent its spread, and reduce the sequelae caused by Covid-19 in the population. Due to the high transmissibility rate of this disease, it rapidly spread worldwide, resulting, from the beginning of the pandemic to the first quarter of 2022, in more than 500 million confirmed cases and more than six million deaths worldwide<sup><xref ref-type="bibr" rid="B1">1</xref></sup>. During the same period, Brazil had more than 30 million confirmed cases and the number of deaths has already exceeded 660,000<sup><xref ref-type="bibr" rid="B2">2</xref></sup>.</p>
+			<p>The pandemic posed challenges for health systems, showing their weaknesses by exposing chronic funding and management problems<sup><xref ref-type="bibr" rid="B3">3</xref></sup>. Preparing these systems to tackle emerging infectious diseases, by evidence-based planning and strategies and coordination between all segments of a system and the government, is important.</p>
+			<p>In Brazil, primary health care (PHC) stands out since it is generally the main gateway for health services in the Brazilian Unified Health System (SUS). PHC is organized in order to solve most health problems of individuals and their families and played a fundamental role in the fight against the pandemic, as most infected people developed a mild form of the disease, which allowed their follow-up to be performed at this level of care<sup><xref ref-type="bibr" rid="B4">4</xref></sup>.</p>
+			<p>Considering actions to be developed to tackle Covid-19, especially in PHC, the knowledge of the territory, the access, the link between patients and health teams, the integrality of care, the monitoring of vulnerable families and suspected and mild cases of the disease allow the development of essential strategies to contain the pandemic and prevent the worsening of Covid-19<sup><xref ref-type="bibr" rid="B7">7</xref></sup>.</p>
+			<p>In Brazil, PHC remains a central point in the organization of the SUS, thus, strengthening and organizing it is necessary, in order to make it a pillar to tackle Covid-19, due to its capacity to link, manage, and monitor cases during the pandemic, and resume its routines after the pandemic, based on the context of the Country as a whole<sup><xref ref-type="bibr" rid="B7">7</xref>,<xref ref-type="bibr" rid="B8">8</xref></sup>.</p>
+			<p>Thus, PHC is essential to tackle Covid-19 worldwide, developing educational, preventive, health-promoting, care, and administrative actions. All health professionals and managers are responsible for organizing PHC in order to provide effective services and it must be done not only in health units, but throughout Brazil and at home.</p>
+			<p>Studies on the evolution and treatment of Covid-19, as well as its vaccines, have been published, however, mapping scientific evidence on studies on the organization of PHC health services and professionals and its effect on tackling the pandemic is necessary.</p>
+			<p>Thus, this study shows gaps on the topic and reflects on the organization of actions to mitigate Covid-19 at this level of care, allowing the planning of strategies to tackle this disease in order to provide a resolutive and quality care of the population. Therefore, this study aimed to map available scientific evidence on the organization of PHC services and professionals during the Covid-19 pandemic.</p>
+		</sec>
+		<sec sec-type="methods">
+			<title>METHODS</title>
+			<p>This is a scoping review that followed the Joanna Briggs Institute (JBI) method: (1) identification of the research question, (2) identification of relevant articles, (3) selection of articles, (4) data extraction, (5) separation, summarization, and reporting of results, and (6) dissemination of results<sup><xref ref-type="bibr" rid="B9">9</xref></sup>.</p>
+			<p>For the search, the JBI method, which consists of an acronym (PCC)—”P” for population, “C” for concept, and “C” for context—was used. This study considered “P” health professionals, “C” primary health care, and “C” organization and Covid-19, and it was developed based on the question: How was the organization of PHC services and health professionals during the Covid-19 pandemic?</p>
+			<p>Articles were searched in the following databases: US National Library of Medicine – National Institutes of Health (PubMed), Medical Literature Analysis and Retrieval System Online (Medline), Institute for Scientific Information (Web of Science), <italic>Literatura Latino-Americana em Ciências da Saúde</italic> (Lilacs – Latin American Literature in Health Sciences), and Cumulative Index to Nursing and Allied Health Literature (CINAHL). Articles were searched from March to May 2021 using keywords and their synonyms—organization, care, PHC, Covid-19, and health professionals—which were included in the <italic>Descritor em Ciências da Saúde</italic> (DeCS – Health Sciences Descriptors) and the Medical Subject Headings (MeSH) in different languages (<xref ref-type="table" rid="t1">Box 1</xref>).</p>
+			<p>
+				<table-wrap id="t1">
+					<label>Box 1</label>
+					<caption>
+						<title>Search strategies used in the databases.</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left">Database</th>
+								<th>Search strategies</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>PubMed</td>
+								<td align="center">(((covid-19[Title]) OR coronavirus[Title])) AND (primary health care[Title] OR primary care[Title])) AND organization[Body - All Words]; (((covid-19[Title]) OR coronavirus[Title])) AND (primary health care[Title] OR primary care[Title])) AND assistance[Body - All Words]; (((covid-19[Title] OR coronavirus[Title])) AND (primary health care[Abstract] OR primary care[Abstract])) AND assistance[Body - All Words]; (((covid-19[Title] OR coronavirus[Title])) AND (primary health care[Abstract] OR primary care[Abstract])) AND organization[Body - All Words]; ((((covid-19[Title] OR coronavirus[Title])) AND (primary health care[Abstract] OR primary care[Abstract])) AND healthcare professionals[Abstract]) AND organization[Body - All Words]; (((covid-19[Title] OR coronavirus[Title])) AND (Family Health Strategy[Abstract] OR family health[Abstract])) AND organization[Body - All Words].</td>
+							</tr>
+							<tr>
+								<td>Medline</td>
+								<td align="center">TI (covid-19 OR coronavirus OR coronavírus) AND AB (primary health care OR primary care OR atenção primária OR primeros auxilios) AND AB (organization OR organização OR organización); TI (covid-19 OR coronavirus OR coronavírus) AND TI (primary health care OR primary care OR atenção primária OR primeros auxilios) AND AB (organization OR organização OR organización); TI (covid-19 OR coronavirus OR coronavírus) AND AB (primary health care OR primary care OR atenção primária OR primeros auxilios) AND AB (assistance OR assistência OR asistencia); TI (covid-19 OR coronavirus OR coronavírus) AND AB (primary health care OR primary care OR atenção primária OR primeros auxilios) AND AB (organization OR organização OR organización) AND AB (healthcare professionals OR profesionales de la salud OR profissionais de saúde OR profissionais OR profesionales OR professionals); TI (covid-19 OR coronavirus OR coronavírus) AND AB (Family Health Strategy OR family health OR Estratégia Saúde da Família OR Saúde da Família OR salud familiar) AND AB (organization OR organização OR organización).</td>
+							</tr>
+							<tr>
+								<td>Web of Science</td>
+								<td align="center">TÍTULO: (covid-19 OR coronavirus OR coronavírus) AND TÍTULO: (primary health care OR primary care OR atenção primária OR primeros auxilios) AND TÓPICO: (organization OR organização OR organización); TÍTULO: (covid-19 OR coronavirus OR coronavírus) AND TÓPICO: (primary health care OR primary care OR atenção primária OR primeros auxilios) AND TÓPICO: (organization OR organização OR organización); TÍTULO: (covid-19 OR coronavirus OR coronavírus) AND TÓPICO: (primary health care OR primary care OR atenção primária OR primeros auxilios) AND TÓPICO: (assistance OR assistência OR asistencia); TÍTULO: (covid-19 OR coronavirus OR coronavírus) AND TÓPICO: (primary health care OR primary care OR atenção primária OR primeros auxilios) AND TÓPICO: (organization OR organização OR organización) AND TÓPICO: (healthcare professionals OR profesionales de la salud OR profissionais de saúde OR profissionais OR profesionales OR professionals); TÍTULO: (covid-19 OR coronavirus OR coronavírus) AND TÓPICO: (Family Health Strategy OR family health OR Estratégia Saúde da Família OR Saúde da Família OR salud familiar) AND TÓPICO: (organization OR organização OR organización).</td>
+							</tr>
+							<tr>
+								<td>Lilacs</td>
+								<td align="center">covid-19 OR coronavirus OR coronavírus [Title words] and primary health care OR primary care OR atenção primária OR primeros auxilios [Words] and organization OR organização OR organización [Words]; covid-19 OR coronavirus OR coronavírus [Palavras do título] and primary health care OR primary care OR atenção primária OR primeros auxilios [Palavras] and assistance OR assistência OR asistencia [Palavras]; covid-19 OR coronavirus OR coronavírus [Palavras do título] and primary health care OR primary care OR atenção primária OR primeros auxilios [Palavras] and healthcare professionals OR profesionales de la salud OR profissionais de saúde OR profissionais OR profesionales OR professionals [Palavras].</td>
+							</tr>
+							<tr>
+								<td>CINAHL</td>
+								<td align="center">TI (covid-19 OR coronavirus OR coronavírus) AND AB (primary health care OR primary care OR atenção primária OR primeros auxilios) AND AB (organization OR organização OR organización); TI (covid-19 OR coronavirus OR coronavírus) AND AB (primary health care OR primary care OR atenção primária OR primeros auxilios) AND AB (organization OR organização OR organización) AND AB (healthcare professionals OR profesionales de la salud OR profissionais de saúde OR profissionais OR profesionales OR professionals); TI ( covid-19 OR coronavirus OR coronavírus ) AND AB ( Family Health Strategy OR family health OR Estratégia Saúde da Família OR Saúde da Família OR salud familiar) AND AB ( organization OR organização OR organización ); TI ( covid-19 OR coronavirus OR coronavírus ) AND AB ( primary health care OR primary care OR atenção primária OR primeros auxilios ) AND AB ( organization OR organização OR organización ) AND AB ( nursing OR nurse OR nursing care OR nursing practice OR enfermagem OR enfermería ).</td>
+							</tr>
+						</tbody>
+					</table>
+				</table-wrap>
+			</p>
+			<p>Primary articles in Portuguese, English, and Spanish, published from January 1, 2020, to January 31, 2021, and indexed in the aforementioned databases were included. Protocols, editorials, systematic reviews, and articles with titles and abstracts that did not answer the research question, as well as information from websites and reported by the media, were excluded.</p>
+			<p>Later, references were exported to the StArt (State of the Art through Systematic Review<italic>)</italic> application for the selection of articles on two levels. The first selection was performed by the reading of titles and abstracts, followed by the reading of the full text. StArt was developed by the <italic>Laboratório de Pesquisa em Engenharia de Software</italic> (LaPES – Software Engineering Research Laboratory) of the Universidade Federal de São Carlos (UFSCar)<sup><xref ref-type="bibr" rid="B10">10</xref></sup>.</p>
+			<p>Eligible articles were fully recovered and evaluated by two researchers. In both phases, divergences were discussed until reaching a consensus and making the final selection—in this last moment, a third researcher participated. This study was based on Preferred Reporting Items for Systematic Reviews and Meta-analyses Extension for Scoping Reviews (PRISMA-ScR)<sup><xref ref-type="bibr" rid="B11">11</xref></sup>.</p>
+			<p>Authorship, journal name, country where the study was performed, country of publication, study design, main results, and gaps were the relevant information collected from each selected article. Results on bibliometric aspects that answer the research question are presented in boxes and in the main text of this scoping review.</p>
+		</sec>
+		<sec sec-type="results">
+			<title>RESULTS</title>
+			<p>We found 1,262 articles in the databases used, however, we excluded 374 because they were duplicates, 833 after reading their titles and abstracts, and 31 after reading the full text. Thus, we studied 24 articles addressing the organization of PHC services and health professionals during the Covid-19 pandemic (<xref ref-type="fig" rid="f01">Figure</xref>).</p>
+			<p>
+				<fig id="f01">
+					<label>Figure</label>
+					<caption>
+						<title>Reference flowchart: inclusion and exclusion of articles.</title>
+					</caption>
+					<graphic xlink:href="1518-8787-rsp-56-94-gf01.tif"/>
+				</fig>
+			</p>
+			<p>All articles included in this study were published from January 1, 2020, to January 31, 2021. Five of them (21%) were performed in Brazil, four (17%) in the United States, two (8%) in Oman, the United Kingdom, Italy, and Belgium, and one (4%) in Spain, India, Flanders, Saudi Arabia, Botswana, France, and Iceland. Regarding languages, 20 (83%) articles were published in English and four (17%) in Portuguese.</p>
+			<p>Among these 24 articles, nine were experience reports, five were observational studies, four were descriptive studies, two were cross-sectional studies, two were qualitative studies, and two were case studies (<xref ref-type="table" rid="t2">Box 2</xref>).</p>
+			<p>
+				<table-wrap id="t2">
+					<label>Box 2</label>
+					<caption>
+						<title>Selected articles, according to place and year of publication, objective, type of study, and main results.</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left">Author, year, and place</th>
+								<th>Objective</th>
+								<th>Type of study</th>
+								<th>Main results</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Krist AH et al.<sup>18</sup>, 2020, United States</td>
+								<td align="center">Presenting actions to be adopted by PHC during the pandemic, according to the protocol of the Centers for Disease Control and Prevention (CDC).</td>
+								<td align="center">Descriptive study</td>
+								<td>The plan to tackle the Covid-19 pandemic in PHC was organized into six phases: 1) surveillance, notification, and monitoring of cases; 2) physical distancing, increasing virtual appointments, and postponing non-urgent appointments; 3) implementation of actions to flatten the epidemiological curve; 4) referral of only severe cases to hospitals; 5) care actions for convalescent patients; 6) addressing the consequences of the pandemic.</td>
+							</tr>
+							<tr>
+								<td>Morreel S et al.<sup>19</sup>, 2020, Belgium</td>
+								<td align="center">Assessing the organization and characteristics of PHC appointments performed outside office hours and comparing them with those in the same period in 2019.</td>
+								<td align="center">Observational study</td>
+								<td>By telephone screening, patients were classified as suspected or regular. All suspected Covid-19 cases were treated virtually, and, if necessary, referred to exclusive care units for Covid-19 suspected patients (Corona Units), or in home visits, or referred to emergency departments. In comparison with 2019, the workload increased due to phone calls, however, the number of face-to-face appointments decreased by 45%.</td>
+							</tr>
+							<tr>
+								<td>Fernandes LMM et al.<sup>20</sup>, 2020, Brazil</td>
+								<td align="center">Analyzing the adaptation of a PHC center in Recife, which improved its telehealth and remote monitoring.</td>
+								<td align="center">Case report</td>
+								<td>Reorganization of the internal flow of the unit, by separating symptomatic from asymptomatic patients; discontinuation of collective activities; maintenance of the follow-up of patients with chronic diseases; telemedicine and remote monitoring; and active surveillance actions promoted by the health team in the territory.</td>
+							</tr>
+							<tr>
+								<td>Sigurdsson EL et al.<sup>21</sup>, 2020, Iceland</td>
+								<td align="center">Analyzing how PHC in Iceland changed its strategy to tackle the Covid-19 pandemic.</td>
+								<td align="center">Observational descriptive study</td>
+								<td>Early detection of suspected cases; effective screening; separation of symptomatic and asymptomatic patients; maintenance of activities aimed at maternity and childcare; change from face-to-face care to telemedicine; alternative office hours. Change in the 10 main diagnoses—immunization, depression, hypothyroidism, and low back pain were no longer among the 10 main diagnoses. These changes showed a very solid PHC, with great flexibility in its organization.</td>
+							</tr>
+							<tr>
+								<td>Dias EG<sup>22</sup>, 2020, Brazil</td>
+								<td align="center">Discussing the management of care and health education in PHC to tackle the Covid-19 pandemic.</td>
+								<td align="center">Experience report</td>
+								<td>Immediate identification of respiratory symptoms; space reserved to wait for an appointment; discontinuation of some care activities; telemedicine and telemonitoring; home visit or face-to-face care, if necessary; health education by radio, sound cars, flyers, posters, social networks, and phone.</td>
+							</tr>
+							<tr>
+								<td>Vieira DS et al.<sup>23</sup>, 2020, Brazil</td>
+								<td align="center">Developing an experience of organizational planning in nursing along with the family health team in a rural area of Igreja Nova, AL, during the Covid-19 pandemic.</td>
+								<td align="center">Experience report</td>
+								<td>
+									<list list-type="bullet">
+										<list-item>
+											<p>This study followed three strategies:</p>
+										</list-item>
+										<list-item>
+											<p>•Community guidance on the problem of health prevention and promotion actions.</p>
+										</list-item>
+										<list-item>
+											<p>•Permanent health education for the health team, in order to qualify professionals.</p>
+										</list-item>
+										<list-item>
+											<p>•Organization of the provision of health services, establishment of an exclusive room to treat respiratory symptoms, and organization of the care of patients of programs in the unit.</p>
+										</list-item>
+									</list>
+								</td>
+							</tr>
+							<tr>
+								<td>Jacobson, NA et al.<sup>28</sup>, 2020, Brazil</td>
+								<td align="center">Addressing a collaborative effort to care for a community during the Covid-19 pandemic from the development of a clinic.</td>
+								<td align="center">Experience report</td>
+								<td>The authors analyzed the adaptation of a clinic with PHC exclusively for Covid-19 patients. Nurses determined if patients would need emergency care or care at the Covid-19 clinic by a virtual evaluation, by Zoom. Later, patients had a face-to-face appointment scheduled at the specific unit. In order to maximize social distancing, the physical space was adjusted.</td>
+							</tr>
+							<tr>
+								<td>Saint-Lary O et al.<sup>29</sup>, 2020, France</td>
+								<td align="center">Analyzing how general physicians adapted their practices to ensure and maintain access to care during the epidemic phase.</td>
+								<td align="center">Descriptive observational study</td>
+								<td>A total of 5,424 French general physicians were interviewed. Of them, 70.9% changed face-to-face care to remote care, 66.5% increased the number of remote appointments, and 42.7% created a specific flow for suspected Covid-19 patients. Of the 70.9% who adapted their practice, 91.7% used phones, 27.6% email, and 30.7% increased their use of video calls.</td>
+							</tr>
+							<tr>
+								<td>Majeed A et al.<sup>30</sup>, 2020, England</td>
+								<td align="center">Assessing the response of primary health care for Covid-19 in the National Health Service (NHS) in England.</td>
+								<td align="center">Descriptive observational study</td>
+								<td>Change from face-to-face care to remote care; care of suspected or confirmed Covid-19 patients in specific clinics; implementation of home visits specific for Covid-19 care; complete computerization of all National Health Service units; use of electronic medical records; online access of patients to health services (such as making appointments, asking for prescriptions, and seeing medical records); electronic sending of prescriptions, directly to the pharmacies of the patient’s choice.</td>
+							</tr>
+							<tr>
+								<td>Al Ghafri T et al.<sup>32</sup>, 2020, Oman</td>
+								<td align="center">Assessing experiences and perceptions of PHC health professionals during the Covid-19 pandemic in relation to medical response experiences, sociocultural and religious reforms, psychological impressions, and lessons learned.</td>
+								<td align="center">Qualitative and phenomenological study</td>
+								<td>Rapid reorganization of PHC services; use of technology; challenges of working in the Covid-19 pandemic; changes in social and religious standards; emergence of gaps in the access of vulnerable groups to health care; emergence of psychological disorders due to social distancing; management of corpses; exhaustion of health professionals; risk of exposure; and development of epidemiological and public health capacities, improving access to health care.</td>
+							</tr>
+							<tr>
+								<td>Blazey-Martin D et al.<sup>33</sup>, 2020, United States</td>
+								<td align="center">Developing an innovative population management approach to remotely manage Covid-19 patients.</td>
+								<td align="center">Experience report</td>
+								<td>An algorithm was used to guide screening decisions, including the frequency of contact with patients, depending on the day of the onset of symptoms and risk factors, and identify clinical findings that showed if patients were safe to stay at home or required further evaluation. These interventions, when performed on time, reduced the demand of hospitals and emergency care.</td>
+							</tr>
+							<tr>
+								<td>Verhoeven V et al.<sup>34</sup>, 2020, Flandres</td>
+								<td align="center">Assessing the consequences of the Covid-19 outbreak experienced by physicians on the front line on the core competencies of family and community medicine.</td>
+								<td align="center">Experience report</td>
+								<td>Screening and appointments performed by phone for all patients; clinical decision-making focused on respiratory evaluation and screening; impairment of acute care due to the change of focus to only Covid-19 and patients that did not seek care for problems that were not related to Covid-19; postponement of chronic care.</td>
+							</tr>
+							<tr>
+								<td>Karim SI et al.<sup>35</sup>, 2020, Saudi Arabia</td>
+								<td align="center">Analyzing the strategies adopted to reorganize PHC during the Covid-19 pandemic in a hospital in the capital of Saudi Arabia.</td>
+								<td align="center">Experience report</td>
+								<td>Services were adapted based on surveillance and case detection, clinical management, prevention of the spread, and maintenance of essential services. These changes were made by the Department of Family Medicine and all appointments started to be performed remotely, by WhatsApp and virtual clinics. Moreover, new means of communication, such as websites, portal messages, and social networking, started to be used.</td>
+							</tr>
+							<tr>
+								<td>Motlhatlhedi K et al.<sup>36</sup>, 2020, Botswana</td>
+								<td align="center">Assessing the action of family health physicians during the pandemic.</td>
+								<td align="center">Descriptive observational study</td>
+								<td>Family health physicians were responsible for infection control, disease prevention measures, identification of cases, dissemination of information, and continuity of medical care, especially for patients. The use of WhatsApp has expanded to include online webinars, as well as to disseminate information about Covid-19 from various sources and the national coordination center.</td>
+							</tr>
+							<tr>
+								<td>Sinha S et al.<sup>37</sup>, 2020, United States</td>
+								<td align="center">Evaluating the implementation of a video care program at a large academic PHC clinic in New York.</td>
+								<td align="center">Case study</td>
+								<td>In total, 1,030 video appointments were performed for 817 patients. Of them, 42% were due to Covid-19 symptoms and 58% due to acute or chronic conditions. Most patients were young adults, women, and people with commercial insurance. The degree of satisfaction was high (mean of 4.6 on a 5-point scale [SD = 0.97]).</td>
+							</tr>
+							<tr>
+								<td>Joy M et al.<sup>38</sup>, 2020, England</td>
+								<td align="center">Assessing the responsiveness and prioritization of the type of PHC appointment for older adults during the Covid-19 pandemic.</td>
+								<td align="center">Cross-sectional study</td>
+								<td>The rate of phone and video appointments more than doubled during the study period (106.0% and 102.8%, respectively). Face-to-face appointments decreased by 64.6% and home visits by 62.6%. This process coincided with national policy changes. The relative increase in the number of appointments was associated with people taking ≥ 10 medicines in comparison with those who did not take any.</td>
+							</tr>
+							<tr>
+								<td>Al Ghafri T et al.<sup>39</sup>, 2020, Oman</td>
+								<td align="center">Assessing responses to PHC units from January to April 2020, including public health measures in Muscate, Oman.</td>
+								<td align="center">Descriptive study</td>
+								<td>The number of appointments decreased from 115,324 in January to 109,719 in March 2020. Essential services were guaranteed in all health centers, especially for vulnerable groups, women, and children. Health centers were opened for 24 hours to ensure the force of testing and isolation. Telemedicine and virtual communications were adopted. Campaigns on the importance of social distancing and hand hygiene were promoted.</td>
+							</tr>
+							<tr>
+								<td>Bressy S<sup>40</sup>, 2020, Italy</td>
+								<td align="center">Assessing the experience of PHC management to tackle Covid-19 in Italy during the beginning of the pandemic.</td>
+								<td align="center">Experience report</td>
+								<td>Technological support and remote approach are essential to assess Covid-19 primary care. The use of telemedicine and the aid of technology allowed an efficient monitoring of patients at home, reducing inadequate hospitalizations, as patients were referred to a hospital only when necessary.</td>
+							</tr>
+							<tr>
+								<td>Mantovani W et al.<sup>41</sup>, 2020, Italy</td>
+								<td align="center">Assessing the organization and the role of the Department of Prevention of the Local Health Unit of Trento in the prevention of the dissemination and management of Covid-19, according to general physicians and pediatricians during the initial phase of the pandemic.</td>
+								<td align="center">Observational descriptive study</td>
+								<td>More than 80% of physicians notified patients. The waiting time for phone interviews, epidemiological investigation, and availability of isolation progressively decreased from an average of six days to 0.4 days in the 12th and 16th weeks of 2020, respectively. The cumulative weekly notification rate of new cases ranged from 3.54 to 6.84 cases per 1,000 inhabitants in the 12th and 16th weeks, respectively. From the epidemiological investigation of 1,471 probable cases, 2,514 close contacts were identified and, in turn, quarantined at home.</td>
+							</tr>
+							<tr>
+								<td>Duarte RB et al.<sup>43</sup>, 2020, Brazil</td>
+								<td align="center">Assessing the actions of nurses working in the <italic>Estratégia Saúde da Família</italic> (ESF – Family Health Strategy) with regard to the role that community health agents played along with the population during the Covid-19 pandemic.</td>
+								<td align="center">Experience report</td>
+								<td>The role of community health agents is to be a mediator between health teams and the population, developing guidance actions on the functioning of preventive services and self-care related to Covid-19 in the territories where they work. Nurses also play an important role in the training of community health agents regarding the reorganization of the work process during the pandemic and the appropriate use of personal protective equipment.</td>
+							</tr>
+							<tr>
+								<td>Ximenes Neto FRG et al.<sup>44</sup>, 2020, Brazil</td>
+								<td align="center">Assessing strategic actions of care coordination, monitoring, and surveillance of Covid-19 cases in PHC.</td>
+								<td align="center">Experience report</td>
+								<td>This study highlighted the importance of horizontal social isolation and home isolation of positive cases, the use of digital technologies to disseminate actions on the prevention of Covid-19 and implementation of telemedicine, the strengthening of intersectoral actions among health, education, and social assistance, and the structuring of the <italic>Rede de Atenção à Saúde</italic> (RAS – Health Care Network).</td>
+							</tr>
+							<tr>
+								<td>Coma E et al.<sup>46</sup>, 2020, Spain</td>
+								<td align="center">Analyzing the effect of the Covid-19 epidemic and lockdown measures based on health care quality indicators and the control of chronic diseases.</td>
+								<td align="center">Retrospective descriptive study</td>
+								<td>In total, 34 quality indicators were evaluated and 85% and 68% of them showed negative results in March and April 2020, respectively, when compared with the same period in 2019. Regarding treatment, monitoring, and chronic disease indicators, 100%, 80%, and 90% of them presented negative effects, respectively.</td>
+							</tr>
+							<tr>
+								<td>Garg S et al.<sup>47</sup>, 2020, India</td>
+								<td align="center">Determining the preparation of PHC units for the provision of safe outpatient services during the Covid-19 pandemic in India.</td>
+								<td align="center">Cross-sectional study</td>
+								<td>This study assessed 51 PHC services and identified problems in infrastructure and infection control. Care for chronic non-communicable diseases, immunization, prenatal care, and maternal and child health were the most affected areas. On the other hand, in screening sites for flu symptoms, the number of appointments increased.</td>
+							</tr>
+							<tr>
+								<td>Danhieux K et al.<sup>48</sup>, 2020, Belgium</td>
+								<td align="center">Evaluating how PHC services aimed at chronic conditions was affected during the pandemic in Belgium.</td>
+								<td align="center">Qualitative research</td>
+								<td>The health care organization changed, starting to focus on suspected Covid-19 cases and the use of telemedicine, and decreasing the provision of care for chronic conditions. Most professionals interviewed did not perform risk stratification and active search for patients at higher risk—telemedicine was used to evaluate and prescribe medicines and not to monitor chronic conditions. The provision of care for chronic conditions was sharply discontinued.</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN1">
+							<p>PHC: primary health care.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>The articles studied presented a global picture of how PHC professionals and services organized themselves to tackle the Covid-19 pandemic, especially by the use of technologies and telemedicine. In total, 17 (71%) articles addressed this alternative modality of care and the monitoring of cases by applications, phone, and online platforms (<xref ref-type="table" rid="t2">Box 2</xref>).</p>
+			<p>Moreover, 13 (54%) articles addressed adjustments in infrastructure and care flows, such as the adoption of specific Covid-19 care units, the separation of infected and non-infected patients in health units, and changes in the work process and infrastructure (<xref ref-type="table" rid="t2">Box 2</xref>).</p>
+			<p>Three (12.5%) articles studied the importance of health education on Covid-19 for the community and health teams and three (12.5%) analyzed the care of chronic patients during the pandemic. Two (8.5%) articles assessed the organization of PHC services and professionals based on previous experiences, such as the H1N1 pandemic (<xref ref-type="table" rid="t2">Box 2</xref>).</p>
+		</sec>
+		<sec sec-type="discussion">
+			<title>DISCUSSION</title>
+			<p>The 24 articles selected in this study addressed the reorganization of PHC services and professionals and the surveillance in the monitoring of Covid-19 cases for the care of suspected or confirmed cases.</p>
+			<p>In March 2020, after the declaration of community transmission of this disease throughout Brazil, the Secretariat of Health Surveillance of the Ministry of Health adapted the <italic>Sistema de Vigilância de Síndromes Respiratórias Agudas</italic> (SRAG <italic>–</italic> Acute Respiratory Syndromes Surveillance System), aiming to guide the <italic>Sistema Nacional de Vigilância em Saúde</italic> (SNVS – National Health Surveillance System) during the simultaneous circulation of SARS-CoV-2, influenza, and other respiratory viruses, within the scope of the <italic>Emergência em Saúde Pública de Importância Nacional</italic> (ESPIN – Public Health Emergency of National Importance)<sup><xref ref-type="bibr" rid="B12">12</xref></sup>.</p>
+			<p>This context shows the importance of the role of health surveillance in the notification, investigation, and monitoring of severe and confirmed Covid-19 cases<sup><xref ref-type="bibr" rid="B13">13</xref></sup>. Health surveillance actions are essential for the PHC organization in this new scenario, by the development of actions that enable the early identification of suspected cases, immediate notification, active search for contacts, reinforcement of home isolation, health education, and support to vulnerable groups in Brazil<sup><xref ref-type="bibr" rid="B14">14</xref></sup>.</p>
+			<p>The Covid-19 pandemic increased the demand for care in the SUS, which made the Brazilian Ministry of Health reinforce the need for organization of the care network and care flows both for people with flu-like diseases, including Covid-19, and who needed follow-up for other health conditions<sup><xref ref-type="bibr" rid="B12">12</xref></sup>.</p>
+			<p>Thus, during the Covid-19 pandemic in Brazil, the main strategy of PHC to tackle this disease was reorganizing the work process of health professionals, especially by health education activities, as it builds knowledge to provide self-care<sup><xref ref-type="bibr" rid="B15">15</xref></sup>. All countries had to reorganize and strengthen the responsiveness of PHC services, according to their public policies, and ensure care for other health demands of the population<sup><xref ref-type="bibr" rid="B16">16</xref></sup>.</p>
+			<p>Moreover, Brazil constantly updated epidemiological surveillance guides to direct the fight against Covid-19<sup><xref ref-type="bibr" rid="B12">12</xref></sup>. The Brazilian Ministry of Health published the <italic>Protocolo de Manejo Clínico do Coronavírus</italic> (Covid-19) <italic>na Atenção Primária à Saúde</italic> (Covid-19 Clinical Management in Primary Health Care Protocol), recommending the reorganization of PHC services and the work process to tackle the pandemic. This protocol established measures to prevent infection in health services, models for stratification of the severity of suspected cases, actions for therapeutic follow-up and home isolation of mild cases, measures for stabilization and referral to services of greater complexity, and actions to promote community prevention measures<sup><xref ref-type="bibr" rid="B17">17</xref></sup>.</p>
+			<p>The reorganization of the physical structure of PHC services was one of the main strategies to reduce risks of infection in health units, speed up services—avoiding contact between patients with and without suspected Covid-19—and protect professionals, maximizing the efficiency of the services provided.</p>
+			<p>Studies performed in Brazil, Belgium, Iceland, and the USA adapted health units to maintain physical distancing, adopted the immediate identification of symptomatic cases at reception, limited the number of companions, separated rooms for symptomatic and asymptomatic patients, and reorganized the care of priority groups assisted by the service<sup><xref ref-type="bibr" rid="B18">18</xref></sup>.</p>
+			<p>In Diadema, SP, the health management decentralized the care to respiratory symptomatic patients in all PHC units, considering the capillarity of PHC with family health teams. Thus, all services at this level of care adopted this demand<sup><xref ref-type="bibr" rid="B24">24</xref></sup>.</p>
+			<p>In Florianópolis, SC, Sobral, CE, and Belo Horizonte, MG, health units with adequate physical space also organized care flows separately: they treated suspected and confirmed Covid-19 patients in different places from other patients<sup><xref ref-type="bibr" rid="B25">25</xref></sup>.</p>
+			<p>On the other hand, one or more specific health units centralized the care of respiratory symptomatic patients. The organization of these services presented similarities, such as the respect for the instructions to patients on personal hygiene care and use of masks and the redesign of physical spaces to respect physical distancing<sup><xref ref-type="bibr" rid="B28">28</xref></sup>.</p>
+			<p>England created specific care units for Covid-19 patients and those who were unable to go to a health unit or did not need hospital care were monitored at home<sup><xref ref-type="bibr" rid="B30">30</xref></sup>.</p>
+			<p>In Rochester, Minnesota, USA, this same strategy was adopted to avoid contact between confirmed or suspected Covid-19 patients and other patients. Of the five health units in this city, one was adjusted to exclusively care for Covid-19 patients or people with symptoms of respiratory problems. Initially, they adopted phone screening to evaluate if patients needed hospital care or could be cared at the Covid-19 unit<sup><xref ref-type="bibr" rid="B28">28</xref></sup>.</p>
+			<p>Considering the need to adjust face-to-face care in health units in the pandemic context, strategies for remote care emerged as an alternative to monitor both Covid-19 and other patients<sup><xref ref-type="bibr" rid="B6">6</xref>,<xref ref-type="bibr" rid="B14">14</xref>,<xref ref-type="bibr" rid="B24">24</xref>,<xref ref-type="bibr" rid="B31">31</xref></sup>. Thus, telemedicine and remote monitoring were included in the routine of health professionals, aiming to decrease the number of patients in services and refer them to health units only when necessary. These measures aimed to reduce the circulation of SARS-CoV-2<sup><xref ref-type="bibr" rid="B20">20</xref></sup>.</p>
+			<p>In Australia, PHC started using telemedicine and call centers to screen people with respiratory symptoms, as well as developing a national network of complementary respiratory units. Moreover, health professionals participated in online trainings and health protection measures for Aboriginal communities and the population of the Torres Strait islands were disclosed<sup><xref ref-type="bibr" rid="B42">42</xref></sup>.</p>
+			<p>In the United Kingdom, the number of remote appointments doubled while face-to-face appointments and home visits decreased. In total, three-quarters of PHC patients were remotely cared<sup><xref ref-type="bibr" rid="B30">30</xref>,<xref ref-type="bibr" rid="B38">38</xref></sup>. In Iceland, the number of phone or online appointments increased by 127% and the number of remote medicine prescriptions and appointments also increased<sup><xref ref-type="bibr" rid="B18">18</xref></sup>. France, Italy, and Belgium also presented this increasing trend, since most general physicians adapted their activities to the remote modality<sup><xref ref-type="bibr" rid="B19">19</xref>,<xref ref-type="bibr" rid="B29">29</xref>,<xref ref-type="bibr" rid="B40">40</xref></sup>.</p>
+			<p>In Italy, the monitoring and follow-up of Covid-19 patients was performed remotely, by social networking applications, and twice a day, including the monitoring of the vital signs of patients, which were measured by smartphones. In cases of difficulty to monitor vital signs by technological devices, patients could borrow a pulse oximeter to check their saturation and heart rate at home<sup><xref ref-type="bibr" rid="B40">40</xref></sup>.</p>
+			<p>Although telemedicine allows the continuity of care remotely, this change can hinder the practice of general physicians due to the loss of non-verbal communication, the limited capacity of some patients to articulate their needs, and the association between intercultural communication and language problems, which are barriers in care<sup><xref ref-type="bibr" rid="B34">34</xref></sup>.</p>
+			<p>A study performed with the older adults cared by PHC in the United Kingdom showed that health professionals must be aware that remote appointments, especially in the case of video calls, may represent an additional barrier in the care of vulnerable groups, who have limited access to the Internet, smartphones, and other technologies<sup><xref ref-type="bibr" rid="B38">38</xref></sup>.</p>
+			<p>The Covid-19 pandemic promoted innovation in the care provided by PHC, since health units had to adapt themselves to physical distancing measures. However, PHC must evaluate the efficiency of remote care and identify the possible difficulties of a group in the use of the necessary technologies.</p>
+			<p>In the scope of PHC, education actions became stronger in the care provided by health professionals to limit the spread of Covid-19<sup><xref ref-type="bibr" rid="B22">22</xref>,<xref ref-type="bibr" rid="B23">23</xref>,<xref ref-type="bibr" rid="B32">32</xref>,<xref ref-type="bibr" rid="B34">34</xref>,<xref ref-type="bibr" rid="B43">43</xref>,<xref ref-type="bibr" rid="B44">44</xref></sup>. We highlight the difficulty of dealing with community rumors and misleading information, which directly affected the care process during the pandemic. Thus, integrating technology support and disseminating reliable guidelines is important<sup><xref ref-type="bibr" rid="B32">32</xref></sup>.</p>
+			<p>Adherence to prevention measures against Covid-19 is related to health education actions carried out by health professionals. In this sense, digital technologies are important to disseminate information about the prevention of this disease by social networks. They also reinforce the fundamental role of community health agents in health education, especially in the fight against fake news and the mediation between PHC and the community<sup><xref ref-type="bibr" rid="B22">22</xref>,<xref ref-type="bibr" rid="B43">43</xref></sup>.</p>
+			<p>In a Brazilian municipality, family health teams, along with community agents, carried out health education activities for the population. These actions aimed to guide the population on preventive measures against Covid-19 and disseminate epidemiological data by radio, sound cars, flyers, social networks, and phone. However, the number of suspected Covid-19 cases did not decrease, showing the importance of people’s adherence to the prevention measures<sup><xref ref-type="bibr" rid="B19">19</xref></sup>. For health education actions to achieve their objectives, developing different strategies to overcome social and cultural barriers that influence the choices of individuals is necessary<sup><xref ref-type="bibr" rid="B22">22</xref>,<xref ref-type="bibr" rid="B45">45</xref></sup>.</p>
+			<p>During the Covid-19 pandemic, the follow-up of patients with chronic non-communicable diseases (NCDs) was postponed and its number decreased worldwide, since the care of part of this cases was not urgent<sup><xref ref-type="bibr" rid="B21">21</xref>,<xref ref-type="bibr" rid="B22">22</xref>,<xref ref-type="bibr" rid="B29">29</xref>,<xref ref-type="bibr" rid="B32">32</xref>,<xref ref-type="bibr" rid="B34">34</xref>,<xref ref-type="bibr" rid="B46">46</xref></sup>. In Muscat, Oman, all health units suspended face-to-face care of patients with NCDs at the beginning of the pandemic<sup><xref ref-type="bibr" rid="B32">32</xref></sup>. In Spain and Belgium, although this suspension did not occur, the number of follow-ups of patients with diabetes mellitus and systemic arterial hypertension significantly decreased<sup><xref ref-type="bibr" rid="B46">46</xref>,<xref ref-type="bibr" rid="B48">48</xref></sup>.</p>
+			<p>The administration of vaccines in children reduced in Spain<sup><xref ref-type="bibr" rid="B46">46</xref></sup> and outpatient services related to maternal and child health were discontinued in India<sup><xref ref-type="bibr" rid="B47">47</xref></sup>. France maintained outpatient care for other health problems while the Covid-19 care was directed and concentrated in specific centers<sup><xref ref-type="bibr" rid="B16">16</xref></sup>.</p>
+			<p>The postponement of the care of patients with NCDs, childcare, and the reduced vaccination coverage may have consequences that will extend after the Covid-19 pandemic, causing an overload in health systems<sup><xref ref-type="bibr" rid="B21">21</xref>,<xref ref-type="bibr" rid="B29">29</xref>,<xref ref-type="bibr" rid="B34">34</xref>,<xref ref-type="bibr" rid="B46">46</xref></sup>. On the other hand, the reduced attendance of patients with NCDs to health units is probably related to the health authorities’ recommendations for people to stay at home and seek these services only if in case of Covid-19 symptoms<sup><xref ref-type="bibr" rid="B29">29</xref></sup>.</p>
+			<p>Although health professionals working in PHC quickly organized themselves in response to the beginning of the pandemic, the targeting of Covid-19 care can cause health complications for a part of the population, whose care was postponed or suspended, and burden the health system.</p>
+			<p>Thus, the guarantee of comprehensive care during the pandemic became a major challenge for PHC, due to the valorization of care in hospital services and the detriment of other needs of the population<sup><xref ref-type="bibr" rid="B5">5</xref>,<xref ref-type="bibr" rid="B22">22</xref>,<xref ref-type="bibr" rid="B43">43</xref>,<xref ref-type="bibr" rid="B45">45</xref></sup>. Therefore, the pandemic reinforces the need to strengthen the role of PHC in the organization of health services in the SUS, as a way to optimize expenses and reduce hospitalizations, both for Covid-19 and other causes related to this level of care.</p>
+			<p>In Brazil, the Ministry of Health published guides and ordinances to guide PHC services and professionals. Moreover, state health departments, along with the <italic>Conselho Nacional de Secretários de Saúde</italic> (CONASS – National Council of Health Secretaries), supported municipal managers when discussing about restructuring services; however, despite of regulations, each municipality adapted itself according to its local reality and epidemiological, political, and financial issues.</p>
+			<p>PHC works as an organizer in the health network, which increases its importance in the fight against the Covid-19 pandemic, as it manages the early identification of suspected cases, the monitoring of mild cases, and the identification and referral of severe cases, besides contributing to reduce the burden of specialized and hospital services, which, consequently, reduces public spending.</p>
+			<p>This study presents an overview of how PHC services and professionals organized themselves to tackle the Covid-19 pandemic, addressing adjustments in infrastructure and care flows, such as establishing specific Covid-19 care units, separating infected and non-infected patients, using telemedicine as an alternative modality of care, and monitoring cases by applications and phone. However, gaps still exist in the literature, such as the evaluation of the effect of these actions and their effectiveness in mitigating the Covid-19 transmission, the analysis of the consequences for patients whose care was postponed or reduced (patients with NCDs, childcare follow-up, prenatal care, and vaccination coverage, for example) during the pandemic.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>REFERENCES</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. World Health Organization. Coronavirus disease (COVID-19) pandemic. Geneva (CH): WHO; 2021 [cited 2022 Apr 17]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019">https://www.who.int/emergencies/diseases/novel-coronavirus-2019</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>World Health Organization</collab>
+					</person-group>
+					<source>Coronavirus disease (COVID-19) pandemic</source>
+					<publisher-loc>Geneva (CH)</publisher-loc>
+					<publisher-name>WHO</publisher-name>
+					<year>2021</year>
+					<date-in-citation content-type="cited-date">cited 2022 Apr 17</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019">https://www.who.int/emergencies/diseases/novel-coronavirus-2019</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. Ministério da Saúde (BR). Painel de casos de doença pelo coronavírus 2019 (COVID-19) no Brasil pelo Ministério da Saúde. Brasília, DF; 2022 [cited 2022 Apr 17]. Available from: <ext-link ext-link-type="uri" xlink:href="https://covid.saude.gov.br/">https://covid.saude.gov.br/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+					</person-group>
+					<source>Painel de casos de doença pelo coronavírus 2019 (COVID-19) no Brasil pelo Ministério da Saúde</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<year>2022</year>
+					<date-in-citation content-type="cited-date">cited 2022 Apr 17</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://covid.saude.gov.br/">https://covid.saude.gov.br/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. Tabish SA. COVID-19 pandemic: emerging perspectives and future trends. J Public Health Res. 2020;9(1):1786. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4081/jphr.2020.1786">https://doi.org/10.4081/jphr.2020.1786</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Tabish</surname>
+							<given-names>SA</given-names>
+						</name>
+					</person-group>
+					<article-title>COVID-19 pandemic: emerging perspectives and future trends</article-title>
+					<source>J Public Health Res</source>
+					<year>2020</year>
+					<volume>9</volume>
+					<issue>1</issue>
+					<size units="pages">1786</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4081/jphr.2020.1786">https://doi.org/10.4081/jphr.2020.1786</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. World Health Organization, Regional Office for the Western Pacific Region. Role of primary care in the COVID-19 Response: interim guidance. Manila (PH); 2021 [cited 2022 Apr 17]. Available from: <ext-link ext-link-type="uri" xlink:href="https://apps.who.int/iris/handle/10665/331921">https://apps.who.int/iris/handle/10665/331921</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>World Health Organization</collab>
+						<collab>Regional Office for the Western Pacific Region</collab>
+					</person-group>
+					<source>Role of primary care in the COVID-19 Response: interim guidance</source>
+					<publisher-loc>Manila (PH)</publisher-loc>
+					<year>2021</year>
+					<date-in-citation content-type="cited-date">cited 2022 Apr 17</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://apps.who.int/iris/handle/10665/331921">https://apps.who.int/iris/handle/10665/331921</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Alves MTG. Reflexões sobre o papel da Atenção Primária à Saúde na pandemia de COVID-19. Rev Bras Med Fam Comunidade. 2020;15(42):2496. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5712/rbmfc15(42)2496">https://doi.org/10.5712/rbmfc15(42)2496</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Alves</surname>
+							<given-names>MTG</given-names>
+						</name>
+					</person-group>
+					<article-title>Reflexões sobre o papel da Atenção Primária à Saúde na pandemia de COVID-19</article-title>
+					<source>Rev Bras Med Fam Comunidade</source>
+					<year>2020</year>
+					<volume>15</volume>
+					<issue>42</issue>
+					<size units="pages">2496</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5712/rbmfc15(42)2496">https://doi.org/10.5712/rbmfc15(42)2496</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. Cabral ERM, Bonfada D, Melo MC, Cesar ID, Oliveira REM, Bastos TF, et al. Contributions and challenges of the Primary Health Care across the pandemic COVID-19. InterAm J Med Health. 2020;3:e202003012. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.31005/iajmh.v3i0.87">https://doi.org/10.31005/iajmh.v3i0.87</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cabral</surname>
+							<given-names>ERM</given-names>
+						</name>
+						<name>
+							<surname>Bonfada</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Melo</surname>
+							<given-names>MC</given-names>
+						</name>
+						<name>
+							<surname>Cesar</surname>
+							<given-names>ID</given-names>
+						</name>
+						<name>
+							<surname>Oliveira</surname>
+							<given-names>REM</given-names>
+						</name>
+						<name>
+							<surname>Bastos</surname>
+							<given-names>TF</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Contributions and challenges of the Primary Health Care across the pandemic COVID-19</article-title>
+					<source>InterAm J Med Health</source>
+					<year>2020</year>
+					<volume>3</volume>
+					<elocation-id>e202003012</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.31005/iajmh.v3i0.87">https://doi.org/10.31005/iajmh.v3i0.87</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. Sarti TD, Lazarini WS, Fontenelle LF, Almeida APSC. What is the role of Primary Health Care in the COVID-19 pandemic? Epidemiol Serv Saude. 2020;29(2):e2020166. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5123/S1679-49742020000200024">https://doi.org/10.5123/S1679-49742020000200024</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sarti</surname>
+							<given-names>TD</given-names>
+						</name>
+						<name>
+							<surname>Lazarini</surname>
+							<given-names>WS</given-names>
+						</name>
+						<name>
+							<surname>Fontenelle</surname>
+							<given-names>LF</given-names>
+						</name>
+						<name>
+							<surname>Almeida</surname>
+							<given-names>APSC</given-names>
+						</name>
+					</person-group>
+					<article-title>What is the role of Primary Health Care in the COVID-19 pandemic?</article-title>
+					<source>Epidemiol Serv Saude</source>
+					<year>2020</year>
+					<volume>29</volume>
+					<issue>2</issue>
+					<elocation-id>e2020166</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5123/S1679-49742020000200024">https://doi.org/10.5123/S1679-49742020000200024</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Conselho Nacional de Secretários de Saúde. Guia orientador para o enfrentamento da pandemia COVID-19 na Rede de Atenção à Saúde. 2. ed. Brasília, DF: CONASS; 2020.</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>Conselho Nacional de Secretários de Saúde</collab>
+					</person-group>
+					<source>Guia orientador para o enfrentamento da pandemia COVID-19 na Rede de Atenção à Saúde</source>
+					<edition>2</edition>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<publisher-name>CONASS</publisher-name>
+					<year>2020</year>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. Aromataris E, Munn Z, editors. JBI manual for evidence synthesis. Adelaide (AU): JBI Faculty of Health and Medical Sciences, the University of Adelaide; 2020 [cited 2022 Apr 17]. Available from: <ext-link ext-link-type="uri" xlink:href="https://synthesismanual.jbi.global">https://synthesismanual.jbi.global</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="editor">
+						<name>
+							<surname>Aromataris</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Munn</surname>
+							<given-names>Z</given-names>
+						</name>
+						<role>editors</role>
+					</person-group>
+					<source>JBI manual for evidence synthesis</source>
+					<publisher-loc>Adelaide (AU)</publisher-loc>
+					<publisher-name>JBI Faculty of Health and Medical Sciences, the University of Adelaide</publisher-name>
+					<year>2020</year>
+					<date-in-citation content-type="cited-date">cited 2022 Apr 17</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://synthesismanual.jbi.global">https://synthesismanual.jbi.global</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. Fabbri S, Silva C, Hernandes E, Octaviano F, Di Thommazo A, Belgamo A. Improvements in the StArt tool to better support the systematic review process. In: Proceedings of the 20th International Conference on Evaluation and Assessment in Software Engineering (EASE ’16); 2016 June; Limerick, Ireland. p.1-5.</mixed-citation>
+				<element-citation publication-type="confproc">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Fabbri</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Silva</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Hernandes</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Octaviano</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Di Thommazo</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Belgamo</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<source>Improvements in the StArt tool to better support the systematic review process</source>
+					<comment>Proceedings of the</comment>
+					<conf-name>20th International Conference on Evaluation and Assessment in Software Engineering (EASE ’16)</conf-name>
+					<year>2016</year>
+					<conf-date>June</conf-date>
+					<conf-loc>Limerick, Ireland</conf-loc>
+					<fpage>1</fpage>
+					<lpage>5</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. Tricco AC, Lillie E, Zarin W, O’Brien KK, Colquhoun H, Levac D, et al. PRISMA Extension for Scoping Reviews (PRISMA-ScR): checklist and explanation. Ann Intern Med. 2018;169(7):467-73. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7326/M18-0850">https://doi.org/10.7326/M18-0850</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Tricco</surname>
+							<given-names>AC</given-names>
+						</name>
+						<name>
+							<surname>Lillie</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Zarin</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>O’Brien</surname>
+							<given-names>KK</given-names>
+						</name>
+						<name>
+							<surname>Colquhoun</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Levac</surname>
+							<given-names>D</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>PRISMA Extension for Scoping Reviews (PRISMA-ScR): checklist and explanation</article-title>
+					<source>Ann Intern Med</source>
+					<year>2018</year>
+					<volume>169</volume>
+					<issue>7</issue>
+					<fpage>467</fpage>
+					<lpage>473</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7326/M18-0850">https://doi.org/10.7326/M18-0850</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. Ministério da Saúde (BR), Secretaria de Vigilância em Saúde. Guia de vigilância epidemiológica: emergência de saúde pública de importância nacional pela doença pelo coronavírus 2019 – COVID-19. Brasília, DF; 2021 [cited 2022 Apr 9]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.gov.br/saude/pt-br/coronavirus/publicacoes-tecnicas/guias-e-planos/guia-de-vigilancia-epidemiologica-covid-19/view">https://www.gov.br/saude/pt-br/coronavirus/publicacoes-tecnicas/guias-e-planos/guia-de-vigilancia-epidemiologica-covid-19/view</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+						<collab>Secretaria de Vigilância em Saúde</collab>
+					</person-group>
+					<source>Guia de vigilância epidemiológica: emergência de saúde pública de importância nacional pela doença pelo coronavírus 2019 – COVID-19</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<year>2021</year>
+					<date-in-citation content-type="cited-date">cited 2022 Apr 9</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.gov.br/saude/pt-br/coronavirus/publicacoes-tecnicas/guias-e-planos/guia-de-vigilancia-epidemiologica-covid-19/view">https://www.gov.br/saude/pt-br/coronavirus/publicacoes-tecnicas/guias-e-planos/guia-de-vigilancia-epidemiologica-covid-19/view</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. Jesus AM, Oliveira KNR, Silva MPF, Matos RB, Dias CFMA. Rede de vigilância no monitoramento da Covid-19 na Bahia, Brasil, 2020. Rev Baiana Saude Publica. 2021;45 Nº Espec 1:62-78.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Jesus</surname>
+							<given-names>AM</given-names>
+						</name>
+						<name>
+							<surname>Oliveira</surname>
+							<given-names>KNR</given-names>
+						</name>
+						<name>
+							<surname>Silva</surname>
+							<given-names>MPF</given-names>
+						</name>
+						<name>
+							<surname>Matos</surname>
+							<given-names>RB</given-names>
+						</name>
+						<name>
+							<surname>Dias</surname>
+							<given-names>CFMA</given-names>
+						</name>
+					</person-group>
+					<article-title>Rede de vigilância no monitoramento da Covid-19 na Bahia, Brasil, 2020</article-title>
+					<source>Rev Baiana Saude Publica</source>
+					<year>2021</year>
+					<volume>45</volume>
+					<issue>Espec 1</issue>
+					<fpage>62</fpage>
+					<lpage>78</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. Giovanella L, Martufi V, Mendoza DCR, Mendonça MHM, Bousquat AEM, Aquino R, et al. A contribuição da Atenção Primária à Saúde na rede SUS de enfrentamento à Covid-19. Saude Debate. 2020;44 Nº Espec 4):1-21. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0103-11042020E410">https://doi.org/10.1590/0103-11042020E410</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Giovanella</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Martufi</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Mendoza</surname>
+							<given-names>DCR</given-names>
+						</name>
+						<name>
+							<surname>Mendonça</surname>
+							<given-names>MHM</given-names>
+						</name>
+						<name>
+							<surname>Bousquat</surname>
+							<given-names>AEM</given-names>
+						</name>
+						<name>
+							<surname>Aquino</surname>
+							<given-names>R</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>A contribuição da Atenção Primária à Saúde na rede SUS de enfrentamento à Covid-19</article-title>
+					<source>Saude Debate</source>
+					<year>2020</year>
+					<volume>44</volume>
+					<issue>Espec 4</issue>
+					<fpage>1</fpage>
+					<lpage>21</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0103-11042020E410">https://doi.org/10.1590/0103-11042020E410</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. Geraldo SM, Farias SJM, Sousa FOS. A atuação da Atenção Primária no contexto da pandemia da COVID-19 no Brasil. Res Soc Dev. 2021;10(8):e42010817359. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.33448/rsd-v10i8.17359">https://doi.org/10.33448/rsd-v10i8.17359</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Geraldo</surname>
+							<given-names>SM</given-names>
+						</name>
+						<name>
+							<surname>Farias</surname>
+							<given-names>SJM</given-names>
+						</name>
+						<name>
+							<surname>Sousa</surname>
+							<given-names>FOS</given-names>
+						</name>
+					</person-group>
+					<article-title>A atuação da Atenção Primária no contexto da pandemia da COVID-19 no Brasil</article-title>
+					<source>Res Soc Dev</source>
+					<year>2021</year>
+					<volume>10</volume>
+					<issue>8</issue>
+					<elocation-id>e42010817359</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.33448/rsd-v10i8.17359">https://doi.org/10.33448/rsd-v10i8.17359</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. Prado NMBL, Rossi TRA, Chaves SCL, Barros SG, Magno L, Santos HLPC, et al. The international response of primary health care to COVID-19: document analysis in selected countries. Cad Saude Publica. 2020;36(12):e00183820. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0102-311X00183820">https://doi.org/10.1590/0102-311X00183820</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Prado</surname>
+							<given-names>NMBL</given-names>
+						</name>
+						<name>
+							<surname>Rossi</surname>
+							<given-names>TRA</given-names>
+						</name>
+						<name>
+							<surname>Chaves</surname>
+							<given-names>SCL</given-names>
+						</name>
+						<name>
+							<surname>Barros</surname>
+							<given-names>SG</given-names>
+						</name>
+						<name>
+							<surname>Magno</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Santos</surname>
+							<given-names>HLPC</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>The international response of primary health care to COVID-19: document analysis in selected countries</article-title>
+					<source>Cad Saude Publica</source>
+					<year>2020</year>
+					<volume>36</volume>
+					<issue>12</issue>
+					<elocation-id>e00183820</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0102-311X00183820">https://doi.org/10.1590/0102-311X00183820</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Ministério da Saúde (BR), Secretaria de Atenção Primária à Saúde. Protocolo de manejo clínico do coronavírus (COVID-19) na Atenção Primária à Saúde - Versão 9. Brasília (DF); 2020 [cited 2022 Apr 17]. Available from: <ext-link ext-link-type="uri" xlink:href="https://docs.bvsalud.org/biblioref/2020/05/1095920/20200504-protocolomanejo-ver09.pdf">https://docs.bvsalud.org/biblioref/2020/05/1095920/20200504-protocolomanejo-ver09.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+						<collab>Secretaria de Atenção Primária à Saúde</collab>
+					</person-group>
+					<source>Protocolo de manejo clínico do coronavírus (COVID-19) na Atenção Primária à Saúde - Versão 9</source>
+					<publisher-loc>Brasília (DF)</publisher-loc>
+					<year>2020</year>
+					<date-in-citation content-type="cited-date">cited 2022 Apr 17</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://docs.bvsalud.org/biblioref/2020/05/1095920/20200504-protocolomanejo-ver09.pdf">https://docs.bvsalud.org/biblioref/2020/05/1095920/20200504-protocolomanejo-ver09.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18. Krist AH, DeVoe JE, Cheng A, Ehrlich T, Jones SM. Redesigning primary care to address the COVID-19 pandemic in the midst of the pandemic. Ann Fam Med. 2020;18(4):349-54. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1370/afm.2557">https://doi.org/10.1370/afm.2557</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Krist</surname>
+							<given-names>AH</given-names>
+						</name>
+						<name>
+							<surname>DeVoe</surname>
+							<given-names>JE</given-names>
+						</name>
+						<name>
+							<surname>Cheng</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Ehrlich</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Jones</surname>
+							<given-names>SM</given-names>
+						</name>
+					</person-group>
+					<article-title>Redesigning primary care to address the COVID-19 pandemic in the midst of the pandemic</article-title>
+					<source>Ann Fam Med</source>
+					<year>2020</year>
+					<volume>18</volume>
+					<issue>4</issue>
+					<fpage>349</fpage>
+					<lpage>354</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1370/afm.2557">https://doi.org/10.1370/afm.2557</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19. Morreel S, Philips H, Verhoeven V. Organisation and characteristics of out-of-hours primary care during a COVID-19 outbreak: a real-time observational study. PLoS One. 2020;15(8):e0237629. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0237629">https://doi.org/10.1371/journal.pone.0237629</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Morreel</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Philips</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Verhoeven</surname>
+							<given-names>V</given-names>
+						</name>
+					</person-group>
+					<article-title>Organisation and characteristics of out-of-hours primary care during a COVID-19 outbreak: a real-time observational study</article-title>
+					<source>PLoS One</source>
+					<year>2020</year>
+					<volume>15</volume>
+					<issue>8</issue>
+					<elocation-id>e0237629</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0237629">https://doi.org/10.1371/journal.pone.0237629</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20. Fernandes LMM, Pacheco RA, Fernandez M. How a Primary Health Care Clinic in Brazil faces coronavirus treatment within a vulnerable community: the experience of the Morro da Conceição area in Recife. NEJM Catal Innov Care Deliv. 2020;1(5). <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1056/CAT.20.0466">https://doi.org/10.1056/CAT.20.0466</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Fernandes</surname>
+							<given-names>LMM</given-names>
+						</name>
+						<name>
+							<surname>Pacheco</surname>
+							<given-names>RA</given-names>
+						</name>
+						<name>
+							<surname>Fernandez</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>How a Primary Health Care Clinic in Brazil faces coronavirus treatment within a vulnerable community: the experience of the Morro da Conceição area in Recife</article-title>
+					<source>NEJM Catal Innov Care Deliv</source>
+					<year>2020</year>
+					<volume>1</volume>
+					<issue>5</issue>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1056/CAT.20.0466">https://doi.org/10.1056/CAT.20.0466</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>21. Sigurdsson EL, Blondal AB, Jonsson JS, Tomasdottir MO, Hrafnkelsson H, Linnet K, et al. How primary healthcare in Iceland swiftly changed its strategy in response to the COVID-19 pandemic. BMJ Open. 2020;10(12):e043151. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/bmjopen-2020-043151">https://doi.org/10.1136/bmjopen-2020-043151</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sigurdsson</surname>
+							<given-names>EL</given-names>
+						</name>
+						<name>
+							<surname>Blondal</surname>
+							<given-names>AB</given-names>
+						</name>
+						<name>
+							<surname>Jonsson</surname>
+							<given-names>JS</given-names>
+						</name>
+						<name>
+							<surname>Tomasdottir</surname>
+							<given-names>MO</given-names>
+						</name>
+						<name>
+							<surname>Hrafnkelsson</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Linnet</surname>
+							<given-names>K</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>How primary healthcare in Iceland swiftly changed its strategy in response to the COVID-19 pandemic</article-title>
+					<source>BMJ Open</source>
+					<year>2020</year>
+					<volume>10</volume>
+					<issue>12</issue>
+					<elocation-id>e043151</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/bmjopen-2020-043151">https://doi.org/10.1136/bmjopen-2020-043151</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>22. Dias EG, Ribeiro DRSV. Manejo do cuidado e a educação em saúde na atenção básica na pandemia do Coronavírus. J Nurs Health. 2020;10(4):20104020.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Dias</surname>
+							<given-names>EG</given-names>
+						</name>
+						<name>
+							<surname>Ribeiro</surname>
+							<given-names>DRSV</given-names>
+						</name>
+					</person-group>
+					<article-title>Manejo do cuidado e a educação em saúde na atenção básica na pandemia do Coronavírus</article-title>
+					<source>J Nurs Health</source>
+					<year>2020</year>
+					<volume>10</volume>
+					<issue>4</issue>
+					<size units="pages">20104020</size>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>23. Vieira DS, Sá PC, Torres RC, Oliveira FT, Rocha KRSL, Vasconcelos TLC, et al. Planejamento da enfermagem frente à covid-19 numa estratégia de saúde da família: relato de experiência. Saude Coletiva (Barueri). 2020;10(54):2729-40. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.36489/saudecoletiva.2020v10i54p2729-2740">https://doi.org/10.36489/saudecoletiva.2020v10i54p2729-2740</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Vieira</surname>
+							<given-names>DS</given-names>
+						</name>
+						<name>
+							<surname>Sá</surname>
+							<given-names>PC</given-names>
+						</name>
+						<name>
+							<surname>Torres</surname>
+							<given-names>RC</given-names>
+						</name>
+						<name>
+							<surname>Oliveira</surname>
+							<given-names>FT</given-names>
+						</name>
+						<name>
+							<surname>Rocha</surname>
+							<given-names>KRSL</given-names>
+						</name>
+						<name>
+							<surname>Vasconcelos</surname>
+							<given-names>TLC</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Planejamento da enfermagem frente à covid-19 numa estratégia de saúde da família: relato de experiência</article-title>
+					<source>Saude Coletiva (Barueri)</source>
+					<year>2020</year>
+					<volume>10</volume>
+					<issue>54</issue>
+					<fpage>2729</fpage>
+					<lpage>2740</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.36489/saudecoletiva.2020v10i54p2729-2740">https://doi.org/10.36489/saudecoletiva.2020v10i54p2729-2740</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>24. Cirino FMSB, Aragão JB, Meyer G, Campos DS, Gryschek ALFPL, Nichiata LYI. Desafios da atenção primária no contexto da COVID-19: a experiência de Diadema, SP. Rev Bras Med Fam Comunidade. 2021;16(43):2665. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5712/rbmfc16(43)2665">https://doi.org/10.5712/rbmfc16(43)2665</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cirino</surname>
+							<given-names>FMSB</given-names>
+						</name>
+						<name>
+							<surname>Aragão</surname>
+							<given-names>JB</given-names>
+						</name>
+						<name>
+							<surname>Meyer</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Campos</surname>
+							<given-names>DS</given-names>
+						</name>
+						<name>
+							<surname>Gryschek</surname>
+							<given-names>ALFPL</given-names>
+						</name>
+						<name>
+							<surname>Nichiata</surname>
+							<given-names>LYI</given-names>
+						</name>
+					</person-group>
+					<article-title>Desafios da atenção primária no contexto da COVID-19: a experiência de Diadema, SP</article-title>
+					<source>Rev Bras Med Fam Comunidade</source>
+					<year>2021</year>
+					<volume>16</volume>
+					<issue>43</issue>
+					<fpage>2665</fpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5712/rbmfc16(43)2665">https://doi.org/10.5712/rbmfc16(43)2665</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>25. Silveira JPM, Zonta R. Experiência de reorganização da APS para o enfrentamento da COVID-19 em Florianópolis. APS Rev. 2020;2(2):91-6. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.14295/aps.v2i2.122">https://doi.org/10.14295/aps.v2i2.122</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Silveira</surname>
+							<given-names>JPM</given-names>
+						</name>
+						<name>
+							<surname>Zonta</surname>
+							<given-names>R</given-names>
+						</name>
+					</person-group>
+					<article-title>Experiência de reorganização da APS para o enfrentamento da COVID-19 em Florianópolis</article-title>
+					<source>APS Rev</source>
+					<year>2020</year>
+					<volume>2</volume>
+					<issue>2</issue>
+					<fpage>91</fpage>
+					<lpage>96</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.14295/aps.v2i2.122">https://doi.org/10.14295/aps.v2i2.122</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation>26. Ribeiro MA, Araújo Júnior DG, Cavalcante ASP, Martins AF, de Sousa LA, Carvalho RC, Cunha ICKO. (RE)Organização da Atenção Primária à Saúde para o enfrentamento da COVID-19: experiência de Sobral-CE. APS Rev. 2020;2(2):177-88. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.14295/aps.v2i2.125">https://doi.org/10.14295/aps.v2i2.125</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ribeiro</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Araújo</surname>
+							<given-names>DG</given-names>
+							<suffix>Júnior</suffix>
+						</name>
+						<name>
+							<surname>Cavalcante</surname>
+							<given-names>ASP</given-names>
+						</name>
+						<name>
+							<surname>Martins</surname>
+							<given-names>AF</given-names>
+						</name>
+						<name>
+							<surname>Sousa</surname>
+							<given-names>LA</given-names>
+						</name>
+						<name>
+							<surname>Carvalho</surname>
+							<given-names>RC</given-names>
+						</name>
+						<name>
+							<surname>Cunha</surname>
+							<given-names>ICKO</given-names>
+						</name>
+					</person-group>
+					<article-title>(RE)Organização da Atenção Primária à Saúde para o enfrentamento da COVID-19: experiência de Sobral-CE</article-title>
+					<source>APS Rev</source>
+					<year>2020</year>
+					<volume>2</volume>
+					<issue>2</issue>
+					<fpage>177</fpage>
+					<lpage>188</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.14295/aps.v2i2.125">https://doi.org/10.14295/aps.v2i2.125</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<mixed-citation>27. Guimarães FG, Carvalho TML, Bernardes RM. A organização da Atenção Primária à Saúde de Belo Horizonte no enfrentamento da pandemia Covid 19: relato de experiência. APS Rev. 2020;2(2):74-82. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.14295/aps.v2i2.128">https://doi.org/10.14295/aps.v2i2.128</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Guimarães</surname>
+							<given-names>FG</given-names>
+						</name>
+						<name>
+							<surname>Carvalho</surname>
+							<given-names>TML</given-names>
+						</name>
+						<name>
+							<surname>Bernardes</surname>
+							<given-names>RM</given-names>
+						</name>
+					</person-group>
+					<article-title>A organização da Atenção Primária à Saúde de Belo Horizonte no enfrentamento da pandemia Covid 19: relato de experiência</article-title>
+					<source>APS Rev</source>
+					<year>2020</year>
+					<volume>2</volume>
+					<issue>2</issue>
+					<fpage>74</fpage>
+					<lpage>82</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.14295/aps.v2i2.128">https://doi.org/10.14295/aps.v2i2.128</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<mixed-citation>28. Jacobson NA, Nagaraju D, Miller JM, Bernard ME. COVID Care Clinic: a unique way for family medicine to care for the community during the SARS-CoV-2 (COVID-19) pandemic. J Prim Care Community Health. 2020;11:2150132720957442. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/2150132720957442">https://doi.org/10.1177/2150132720957442</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Jacobson</surname>
+							<given-names>NA</given-names>
+						</name>
+						<name>
+							<surname>Nagaraju</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Miller</surname>
+							<given-names>JM</given-names>
+						</name>
+						<name>
+							<surname>Bernard</surname>
+							<given-names>ME</given-names>
+						</name>
+					</person-group>
+					<article-title>COVID Care Clinic: a unique way for family medicine to care for the community during the SARS-CoV-2 (COVID-19) pandemic</article-title>
+					<source>J Prim Care Community Health</source>
+					<year>2020</year>
+					<volume>11</volume>
+					<size units="pages">2150132720957442</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/2150132720957442">https://doi.org/10.1177/2150132720957442</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B29">
+				<label>29</label>
+				<mixed-citation>29. Saint-Lary O, Gautier S, Le Breton J, Gilberg S, Frappé P, Schuers M, et al. How GPs adapted their practices and organisations at the beginning of COVID-19 outbreak: a French national observational survey. BMJ Open. 2020;10(12):e042119. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/bmjopen-2020-042119">https://doi.org/10.1136/bmjopen-2020-042119</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Saint-Lary</surname>
+							<given-names>O</given-names>
+						</name>
+						<name>
+							<surname>Gautier</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Le Breton</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Gilberg</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Frappé</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Schuers</surname>
+							<given-names>M</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>How GPs adapted their practices and organisations at the beginning of COVID-19 outbreak: a French national observational survey</article-title>
+					<source>BMJ Open</source>
+					<year>2020</year>
+					<volume>10</volume>
+					<issue>12</issue>
+					<elocation-id>e042119</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/bmjopen-2020-042119">https://doi.org/10.1136/bmjopen-2020-042119</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B30">
+				<label>30</label>
+				<mixed-citation>30. Majeed A, Maile EJ, Bindman AB. The primary care response to COVID-19 in England’s National Health Service. J R Soc Med. 2020;113(6):208-10. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/0141076820931452">https://doi.org/10.1177/0141076820931452</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Majeed</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Maile</surname>
+							<given-names>EJ</given-names>
+						</name>
+						<name>
+							<surname>Bindman</surname>
+							<given-names>AB</given-names>
+						</name>
+					</person-group>
+					<article-title>The primary care response to COVID-19 in England’s National Health Service</article-title>
+					<source>J R Soc Med</source>
+					<year>2020</year>
+					<volume>113</volume>
+					<issue>6</issue>
+					<fpage>208</fpage>
+					<lpage>210</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/0141076820931452">https://doi.org/10.1177/0141076820931452</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B31">
+				<label>31</label>
+				<mixed-citation>31. Engstrom E, Melo E, Giovanella L, Mendes A, Grabois V, Mendonça MHM. Recomendações para a organização da Atenção Primária à Saúde no SUS no enfrentamento da COVID-19. Rio de Janeiro: Fiocruz; 2020 [cited 2022 Apr 17]. (Série Linha de Cuidado Covid-19 na Rede de Atenção à Saúde). Available from: <ext-link ext-link-type="uri" xlink:href="https://www.arca.fiocruz.br/bitstream/icict/41404/2/RecomendacoesAPSEnfrentamentoCovid-19.pdf">https://www.arca.fiocruz.br/bitstream/icict/41404/2/RecomendacoesAPSEnfrentamentoCovid-19.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Engstrom</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Melo</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Giovanella</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Mendes</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Grabois</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Mendonça</surname>
+							<given-names>MHM</given-names>
+						</name>
+					</person-group>
+					<source>Recomendações para a organização da Atenção Primária à Saúde no SUS no enfrentamento da COVID-19</source>
+					<publisher-loc>Rio de Janeiro</publisher-loc>
+					<publisher-name>Fiocruz</publisher-name>
+					<year>2020</year>
+					<date-in-citation content-type="cited-date">cited 2022 Apr 17</date-in-citation>
+					<comment>Série Linha de Cuidado Covid-19 na Rede de Atenção à Saúde</comment>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.arca.fiocruz.br/bitstream/icict/41404/2/RecomendacoesAPSEnfrentamentoCovid-19.pdf">https://www.arca.fiocruz.br/bitstream/icict/41404/2/RecomendacoesAPSEnfrentamentoCovid-19.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B32">
+				<label>32</label>
+				<mixed-citation>32. Al Ghafri T, Al Ajmi F, Anwar H, Al Balushi L, Al Balushi Z, Al Fahdi F, et al. The experiences and perceptions of health-care workers during the COVID-19 pandemic in Muscat, Oman: a qualitative study. J Prim Care Community Health. 2020;11:2150132720967514. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/2150132720967514">https://doi.org/10.1177/2150132720967514</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Al Ghafri</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Al Ajmi</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Anwar</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Al Balushi</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Al Balushi</surname>
+							<given-names>Z</given-names>
+						</name>
+						<name>
+							<surname>Al Fahdi</surname>
+							<given-names>F</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>The experiences and perceptions of health-care workers during the COVID-19 pandemic in Muscat, Oman: a qualitative study</article-title>
+					<source>J Prim Care Community Health</source>
+					<year>2020</year>
+					<volume>11</volume>
+					<comment>2150132720967514</comment>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/2150132720967514">https://doi.org/10.1177/2150132720967514</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B33">
+				<label>33</label>
+				<mixed-citation>33. Blazey-Martin D, Barnhart E, Gillis J Jr, Vazquez GA. Primary care population management for COVID-19 patients. J Gen Intern Med. 2020;35(10):3077-80. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s11606-020-05981-1">https://doi.org/10.1007/s11606-020-05981-1</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Blazey-Martin</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Barnhart</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Gillis</surname>
+							<given-names>J</given-names>
+							<suffix>Jr</suffix>
+						</name>
+						<name>
+							<surname>Vazquez</surname>
+							<given-names>GA</given-names>
+						</name>
+					</person-group>
+					<article-title>Primary care population management for COVID-19 patients</article-title>
+					<source>J Gen Intern Med</source>
+					<year>2020</year>
+					<volume>35</volume>
+					<issue>10</issue>
+					<fpage>3077</fpage>
+					<lpage>3080</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s11606-020-05981-1">https://doi.org/10.1007/s11606-020-05981-1</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B34">
+				<label>34</label>
+				<mixed-citation>34. Verhoeven V, Tsakitzidis G, Philips H, Van Royen P. Impact of the COVID-19 pandemic on the core functions of primary care: will the cure be worse than the disease? A qualitative interview study in Flemish GPs. BMJ Open. 2020;10(6):e039674. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/bmjopen-2020-039674">https://doi.org/10.1136/bmjopen-2020-039674</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Verhoeven</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Tsakitzidis</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Philips</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Van Royen</surname>
+							<given-names>P</given-names>
+						</name>
+					</person-group>
+					<article-title>Impact of the COVID-19 pandemic on the core functions of primary care: will the cure be worse than the disease? A qualitative interview study in Flemish GPs</article-title>
+					<source>BMJ Open</source>
+					<year>2020</year>
+					<volume>10</volume>
+					<issue>6</issue>
+					<elocation-id>e039674</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/bmjopen-2020-039674">https://doi.org/10.1136/bmjopen-2020-039674</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B35">
+				<label>35</label>
+				<mixed-citation>35. Karim SI, Irfan F, Batais MA. Becoming virtual: a preliminary experience of outpatient primary care during COVID-19 pandemic. Pan Afr Med J. 2020;37:262. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.11604/pamj.2020.37.262.26574">https://doi.org/10.11604/pamj.2020.37.262.26574</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Karim</surname>
+							<given-names>SI</given-names>
+						</name>
+						<name>
+							<surname>Irfan</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Batais</surname>
+							<given-names>MA</given-names>
+						</name>
+					</person-group>
+					<article-title>Becoming virtual: a preliminary experience of outpatient primary care during COVID-19 pandemic</article-title>
+					<source>Pan Afr Med J</source>
+					<year>2020</year>
+					<volume>37</volume>
+					<size units="pages">262</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.11604/pamj.2020.37.262.26574">https://doi.org/10.11604/pamj.2020.37.262.26574</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B36">
+				<label>36</label>
+				<mixed-citation>36. Motlhatlhedi K, Bogatsu Y, Maotwe K, Tsima B. Coronavirus disease 2019 in Botswana: contributions from family physicians. Afr J Prim Health Care Fam Med. 2020;12(1):a2497. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4102/phcfm.v12i1.2497">https://doi.org/10.4102/phcfm.v12i1.2497</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Motlhatlhedi</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Bogatsu</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Maotwe</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Tsima</surname>
+							<given-names>B</given-names>
+						</name>
+					</person-group>
+					<article-title>Coronavirus disease 2019 in Botswana: contributions from family physicians</article-title>
+					<source>Afr J Prim Health Care Fam Med</source>
+					<year>2020</year>
+					<volume>12</volume>
+					<issue>1</issue>
+					<size units="pages">a2497</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4102/phcfm.v12i1.2497">https://doi.org/10.4102/phcfm.v12i1.2497</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B37">
+				<label>37</label>
+				<mixed-citation>37. Sinha S, Kern LM, Gingras LF, Reshetnyak E, Tung J, Pelzman F, et al. Implementation of video visits during COVID-19: lessons learned from a primary care practice in New York City. Front Public Health, 2020;8:514. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3389/fpubh.2020.00514">https://doi.org/10.3389/fpubh.2020.00514</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sinha</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Kern</surname>
+							<given-names>LM</given-names>
+						</name>
+						<name>
+							<surname>Gingras</surname>
+							<given-names>LF</given-names>
+						</name>
+						<name>
+							<surname>Reshetnyak</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Tung</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Pelzman</surname>
+							<given-names>F</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Implementation of video visits during COVID-19: lessons learned from a primary care practice in New York City</article-title>
+					<source>Front Public Health</source>
+					<year>2020</year>
+					<volume>8</volume>
+					<size units="pages">514</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3389/fpubh.2020.00514">https://doi.org/10.3389/fpubh.2020.00514</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B38">
+				<label>38</label>
+				<mixed-citation>38. Joy M, McGagh D, Jones N, Liyanage H, Sherlock J, Parimalanathan V, et al. Reorganisation of primary care for older adults during COVID-19: a cross-sectional database study in the UK. Br J Gen Pract. 2020;70(697):e540-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3399/bjgp20X710933">https://doi.org/10.3399/bjgp20X710933</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Joy</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>McGagh</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Jones</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Liyanage</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Sherlock</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Parimalanathan</surname>
+							<given-names>V</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Reorganisation of primary care for older adults during COVID-19: a cross-sectional database study in the UK</article-title>
+					<source>Br J Gen Pract</source>
+					<year>2020</year>
+					<volume>70</volume>
+					<issue>697</issue>
+					<fpage>e540</fpage>
+					<lpage>e547</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3399/bjgp20X710933">https://doi.org/10.3399/bjgp20X710933</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B39">
+				<label>39</label>
+				<mixed-citation>39. Al Ghafri T, Al Ajmi F, Al Balushi L, Kurup PM, Al Ghamari A, Al Balushi Z, et al. Responses to the pandemic COVID-19 in Primary Health Care in Oman: Muscat experience. Oman Med J. 2021;36(1):e216. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5001/omj.2020.70">https://doi.org/10.5001/omj.2020.70</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Al Ghafri</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Al Ajmi</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Al Balushi</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Kurup</surname>
+							<given-names>PM</given-names>
+						</name>
+						<name>
+							<surname>Al Ghamari</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Al Balushi</surname>
+							<given-names>Z</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Responses to the pandemic COVID-19 in Primary Health Care in Oman: Muscat experience</article-title>
+					<source>Oman Med J</source>
+					<year>2021</year>
+					<volume>36</volume>
+					<issue>1</issue>
+					<elocation-id>e216</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5001/omj.2020.70">https://doi.org/10.5001/omj.2020.70</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B40">
+				<label>40</label>
+				<mixed-citation>40. Bressy S, Zingarelli EM. Technological devices in COVID-19 primary care management: the Italian experience. Fam Pract. 2020;37(5):725-6. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/fampra/cmaa055">https://doi.org/10.1093/fampra/cmaa055</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bressy</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Zingarelli</surname>
+							<given-names>EM</given-names>
+						</name>
+					</person-group>
+					<article-title>Technological devices in COVID-19 primary care management: the Italian experience</article-title>
+					<source>Fam Pract</source>
+					<year>2020</year>
+					<volume>37</volume>
+					<issue>5</issue>
+					<fpage>725</fpage>
+					<lpage>726</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/fampra/cmaa055">https://doi.org/10.1093/fampra/cmaa055</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B41">
+				<label>41</label>
+				<mixed-citation>41. Mantovani W, Franchini S, Mazzurana M, Zuccali MG, Pizzo F, Zanin A, et al. [Reorganization and public health management by the Department of Prevention during the COVID-19 emergency. An experience of integration between prevention and primary care in the proactive management of possible cases]. Epidemiol Prev. 2020;44(5-6 Suppl 2):104-12. Italian. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.19191/EP20.5-6.S2.108">https://doi.org/10.19191/EP20.5-6.S2.108</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Mantovani</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Franchini</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Mazzurana</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Zuccali</surname>
+							<given-names>MG</given-names>
+						</name>
+						<name>
+							<surname>Pizzo</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Zanin</surname>
+							<given-names>A</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Reorganization and public health management by the Department of Prevention during the COVID-19 emergency. An experience of integration between prevention and primary care in the proactive management of possible cases</article-title>
+					<source>Epidemiol Prev</source>
+					<year>2020</year>
+					<volume>44</volume>
+					<season>5-6</season>
+					<supplement>Suppl 2</supplement>
+					<fpage>104</fpage>
+					<lpage>112</lpage>
+					<comment>Italian</comment>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.19191/EP20.5-6.S2.108">https://doi.org/10.19191/EP20.5-6.S2.108</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B42">
+				<label>42</label>
+				<mixed-citation>42. Desborough J, Dykgraaf SH, Toca L, Davis S, Roberts L, Kelaher C, et al. Australia’s national COVID-19 primary care response. Med J Aust. 2020;213(3):104-6. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5694/mja2.50693">https://doi.org/10.5694/mja2.50693</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Desborough</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Dykgraaf</surname>
+							<given-names>SH</given-names>
+						</name>
+						<name>
+							<surname>Toca</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Davis</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Roberts</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Kelaher</surname>
+							<given-names>C</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Australia’s national COVID-19 primary care response</article-title>
+					<source>Med J Aust</source>
+					<year>2020</year>
+					<volume>213</volume>
+					<issue>3</issue>
+					<fpage>104</fpage>
+					<lpage>106</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5694/mja2.50693">https://doi.org/10.5694/mja2.50693</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B43">
+				<label>43</label>
+				<mixed-citation>43. Duarte RB, Medeiros LMF, Araújo MJAM, Cavalcante ASP, Souza EC, Alencar OM, et al. Agentes Comunitários de Saúde frente à COVID-19: vivências junto aos profissionais de enfermagem. Enferm Foco. 2020;11 (1 Nº Espec):252-6. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.21675/2357-707X.2020.v11.n1.ESP.3597">https://doi.org/10.21675/2357-707X.2020.v11.n1.ESP.3597</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Duarte</surname>
+							<given-names>RB</given-names>
+						</name>
+						<name>
+							<surname>Medeiros</surname>
+							<given-names>LMF</given-names>
+						</name>
+						<name>
+							<surname>Araújo</surname>
+							<given-names>MJAM</given-names>
+						</name>
+						<name>
+							<surname>Cavalcante</surname>
+							<given-names>ASP</given-names>
+						</name>
+						<name>
+							<surname>Souza</surname>
+							<given-names>EC</given-names>
+						</name>
+						<name>
+							<surname>Alencar</surname>
+							<given-names>OM</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Agentes Comunitários de Saúde frente à COVID-19: vivências junto aos profissionais de enfermagem</article-title>
+					<source>Enferm Foco</source>
+					<year>2020</year>
+					<volume>11</volume>
+					<issue>1</issue>
+					<comment>Nº Espec</comment>
+					<fpage>252</fpage>
+					<lpage>256</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.21675/2357-707X.2020.v11.n1.ESP.3597">https://doi.org/10.21675/2357-707X.2020.v11.n1.ESP.3597</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B44">
+				<label>44</label>
+				<mixed-citation>44. Ximenes Neto FRG, Araújo CRC, Silva RCC, Ribeiro MA, Sousa LA, Serafim TF, et al. Coordenação do cuidado, vigilância e monitoramento de casos da COVID-19 na Atenção Primária à Saúde. Enferm Foco. 2020;11(1 Nº Espec):239-45. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.21675/2357-707X.2020.v11.n1.ESP.3682">https://doi.org/10.21675/2357-707X.2020.v11.n1.ESP.3682</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ximenes</surname>
+							<given-names>FRG</given-names>
+							<suffix>Neto</suffix>
+						</name>
+						<name>
+							<surname>Araújo</surname>
+							<given-names>CRC</given-names>
+						</name>
+						<name>
+							<surname>Silva</surname>
+							<given-names>RCC</given-names>
+						</name>
+						<name>
+							<surname>Ribeiro</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Sousa</surname>
+							<given-names>LA</given-names>
+						</name>
+						<name>
+							<surname>Serafim</surname>
+							<given-names>TF</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Coordenação do cuidado, vigilância e monitoramento de casos da COVID-19 na Atenção Primária à Saúde</article-title>
+					<source>Enferm Foco</source>
+					<year>2020</year>
+					<volume>11</volume>
+					<issue>1</issue>
+					<comment>Nº Espec</comment>
+					<fpage>239</fpage>
+					<lpage>245</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.21675/2357-707X.2020.v11.n1.ESP.3682">https://doi.org/10.21675/2357-707X.2020.v11.n1.ESP.3682</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B45">
+				<label>45</label>
+				<mixed-citation>45. Rios AFM, Lira LSSP, Reis IM, Silva GA. Atenção Primária à Saúde frente à COVID-19: relato de experiência de um Centro de Saúde. Enferm Foco. 2020;11(1 Nº Espec):246-51. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.21675/2357-707X.2020.v11.n1.ESP.3666">https://doi.org/10.21675/2357-707X.2020.v11.n1.ESP.3666</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rios</surname>
+							<given-names>AFM</given-names>
+						</name>
+						<name>
+							<surname>Lira</surname>
+							<given-names>LSSP</given-names>
+						</name>
+						<name>
+							<surname>Reis</surname>
+							<given-names>IM</given-names>
+						</name>
+						<name>
+							<surname>Silva</surname>
+							<given-names>GA</given-names>
+						</name>
+					</person-group>
+					<article-title>Atenção Primária à Saúde frente à COVID-19: relato de experiência de um Centro de Saúde</article-title>
+					<source>Enferm Foco</source>
+					<year>2020</year>
+					<volume>11</volume>
+					<issue>1</issue>
+					<comment>Nº Espec</comment>
+					<fpage>246</fpage>
+					<lpage>251</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.21675/2357-707X.2020.v11.n1.ESP.3666">https://doi.org/10.21675/2357-707X.2020.v11.n1.ESP.3666</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B46">
+				<label>46</label>
+				<mixed-citation>46. Coma E, Mora E, Méndez L, Benítez M, Hermosilla E, Fàbregas M, et al. Primary care in the time of COVID-19: monitoring the effect of the pandemic and the lockdown measures on 34 quality of care indicators calculated for 288 primary care practices covering about 6 million people in Catalonia. BMC Fam Pract. 2020;21:208 <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12875-020-01278-8">https://doi.org/10.1186/s12875-020-01278-8</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Coma</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Mora</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Méndez</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Benítez</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Hermosilla</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Fàbregas</surname>
+							<given-names>M</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Primary care in the time of COVID-19: monitoring the effect of the pandemic and the lockdown measures on 34 quality of care indicators calculated for 288 primary care practices covering about 6 million people in Catalonia</article-title>
+					<source>BMC Fam Pract</source>
+					<year>2020</year>
+					<volume>21</volume>
+					<size units="pages">208</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12875-020-01278-8">https://doi.org/10.1186/s12875-020-01278-8</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B47">
+				<label>47</label>
+				<mixed-citation>47. Garg S, Basu S, Rustagi R, Borle A. Primary Health Care facility preparedness for outpatient service provision during the COVID-19 pandemic in India: cross-sectional study. JMIR Public Health Surveill. 2020;6(2):e19927. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2196/19927">https://doi.org/10.2196/19927</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Garg</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Basu</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Rustagi</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Borle</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Primary Health Care facility preparedness for outpatient service provision during the COVID-19 pandemic in India: cross-sectional study</article-title>
+					<source>JMIR Public Health Surveill</source>
+					<year>2020</year>
+					<volume>6</volume>
+					<issue>2</issue>
+					<elocation-id>e19927</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2196/19927">https://doi.org/10.2196/19927</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B48">
+				<label>48</label>
+				<mixed-citation>48. Danhieux K, Buffel V, Pairon A, Benkheil A, Remmen R, Wouters E, et al. The impact of COVID-19 on chronic care according to providers: a qualitative study among primary care practices in Belgium. BMC Fam Pract. 2020;21:255. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12875-020-01326-3">https://doi.org/10.1186/s12875-020-01326-3</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Danhieux</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Buffel</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Pairon</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Benkheil</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Remmen</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Wouters</surname>
+							<given-names>E</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>The impact of COVID-19 on chronic care according to providers: a qualitative study among primary care practices in Belgium</article-title>
+					<source>BMC Fam Pract</source>
+					<year>2020</year>
+					<volume>21</volume>
+					<size units="pages">255</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12875-020-01326-3">https://doi.org/10.1186/s12875-020-01326-3</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="financial-disclosure" id="fn2">
+				<p>Funding: <italic>Fundação de Amparo à Pesquisa do Estado de São Paulo</italic> (FAPESP; Process No. 2019/21219-7). <italic>Conselho Nacional de Desenvolvimento Científico e Tecnológico</italic> (CNPq; Process No. 402507/2020-7).</p>
+			</fn>
+		</fn-group>
+	</back>
+	<sub-article article-type="translation" id="TRpt" xml:lang="pt">
+		<front-stub>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Revisão</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Organização da atenção primária à saúde na pandemia de covid-19: revisão de escopo</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-8121-8962</contrib-id>
+					<name>
+						<surname>Silva</surname>
+						<given-names>Breno Ribeiro Gonçalves da</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+					<role>Concepção e planejamento do estudo</role>
+					<role>Coleta, análise e interpretação dos dados</role>
+					<role>Elaboração ou revisão do manuscrito</role>
+					<role>Responsabilidade pública pelo conteúdo do artigo</role>
+					<role>Aprovação da versão final</role>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-9098-3594</contrib-id>
+					<name>
+						<surname>Corrêa</surname>
+						<given-names>Ana Paula de Vechi</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2002"><sup>II</sup></xref>
+					<role>Concepção e planejamento do estudo</role>
+					<role>Coleta, análise e interpretação dos dados</role>
+					<role>Elaboração ou revisão do manuscrito</role>
+					<role>Responsabilidade pública pelo conteúdo do artigo</role>
+					<role>Aprovação da versão final</role>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-0236-5025</contrib-id>
+					<name>
+						<surname>Uehara</surname>
+						<given-names>Sílvia Carla da Silva André</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3002"><sup>III</sup></xref>
+					<role>Concepção e planejamento do estudo</role>
+					<role>Coleta, análise e interpretação dos dados</role>
+					<role>Elaboração ou revisão do manuscrito</role>
+					<role>Responsabilidade pública pelo conteúdo do artigo</role>
+					<role>Aprovação da versão final</role>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1002">
+				<label>I</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Universidade Federal de São Carlos. Centro de Ciências Biológicas e da Saúde. Departamento de Enfermagem. Graduação em Enfermagem. São Carlos, SP, Brasil</institution>
+			</aff>
+			<aff id="aff2002">
+				<label>II</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Universidade Federal de São Carlos. Centro de Ciências Biológicas e da Saúde. Departamento de Enfermagem. Programa de Pós-Graduação em Enfermagem. São Carlos, SP, Brasil</institution>
+			</aff>
+			<aff id="aff3002">
+				<label>III</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Universidade Federal de São Carlos. Centro de Ciências Biológicas e da Saúde. Departamento de Enfermagem. São Carlos, SP, Brasil</institution>
+			</aff>
+			<author-notes>
+				<corresp id="c01002"> Correspondência: Sílvia Carla da Silva André Uehara Universidade Federal de São Carlos Rodovia Washington Luis, s/n, km 235 Caixa Postal 676 13565-905 São Carlos, SP, Brasil E-mail: silviacarla@ufscar.br </corresp>
+				<fn fn-type="conflict">
+					<p>Conflito de Interesses: Os autores declaram não haver conflito de interesses.</p>
+				</fn>
+			</author-notes>
+			<abstract>
+				<title>RESUMO</title>
+				<sec>
+					<title>OBJETIVO</title>
+					<p> Mapear evidências científicas disponíveis sobre a organização dos serviços e profissionais da atenção primária à saúde durante o enfrentamento da covid-19.</p>
+				</sec>
+				<sec>
+					<title>MÉTODO</title>
+					<p> Trata-se de uma revisão de escopo, seguindo o método do Joanna Briggs Institute. Foram incluídos estudos publicados em português, espanhol e inglês, no período de janeiro/2020 a janeiro/2021, nas bases de dados CINAHL, Lilacs, Medline, PubMed e Web of Science.</p>
+				</sec>
+				<sec>
+					<title>RESULTADOS</title>
+					<p> Foram selecionados 24 artigos, que mostraram a reorganização dos serviços e profissionais da atenção primária à saúde para o atendimento de casos suspeitos ou confirmados de covid-19. As ações de coordenação do enfrentamento da doença na atenção primária à saúde colaboram no controle da infecção, especialmente por meio de busca ativa de sintomáticos respiratórios e detecção de casos novos, seguido do monitoramento dos casos confirmados.</p>
+				</sec>
+				<sec>
+					<title>CONCLUSÕES</title>
+					<p> O presente estudo mostra um panorama de como profissionais e serviços da atenção primária se organizaram no enfrentamento da pandemia, abordando as readequações adotadas na infraestrutura e fluxos de atendimentos, a exemplo da adoção de unidades específicas no atendimento para covid-19, separação de fluxos infectado/não infectado, telemedicina como alternativa de modalidade de atendimento e monitoramento dos casos por meio de aplicativos e telefone.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="pt">
+				<kwd>Atenção Primária à Saúde, organização &amp; administração</kwd>
+				<kwd>COVID-19, prevenção &amp; controle</kwd>
+				<kwd>Capacitação de Recursos Humanos em Saúde</kwd>
+				<kwd>Revisão</kwd>
+			</kwd-group>
+		</front-stub>
+		<body>
+			<sec sec-type="intro">
+				<title>INTRODUÇÃO</title>
+				<p>Enfrentar a pandemia causada pelo novo coronavírus exigiu que os sistemas de saúde de todo o mundo fossem remodelados, de modo que houvesse diferentes respostas no enfrentamento da infecção, a fim de impedir a sua disseminação e reduzir as sequelas causadas pela doença na população. Isso se deve, principalmente, à elevada taxa de transmissibilidade da covid-19, uma vez que a doença se espalhou rapidamente pelo mundo, resultando, desde o início da pandemia até o primeiro trimestre de 2022, em mais de 500 milhões de casos confirmados e mais de seis milhões de óbitos em todo o mundo<sup><xref ref-type="bibr" rid="B1">1</xref></sup>. No mesmo período, o Brasil apresentou mais de 30 milhões de casos confirmados e o número de óbitos acumulados já ultrapassou 660 mil<sup><xref ref-type="bibr" rid="B2">2</xref></sup>.</p>
+				<p>O contexto pandêmico desencadeou desafios para os sistemas de saúde, evidenciando as fragilidades a partir da exposição de problemas crônicos de financiamento e de gestão<sup><xref ref-type="bibr" rid="B3">3</xref></sup>. Ressalta-se a importância da preparação desses sistemas para o enfrentamento de doenças infecciosas emergentes, por meio de planejamento e estratégias embasadas em evidências, com coordenação entre todos os segmentos de um sistema e o governo.</p>
+				<p>Nessa perspectiva, no Brasil, a atenção primária à saúde (APS) se destaca, uma vez que está geralmente estruturada como a principal porta de entrada dos serviços de saúde no âmbito do Sistema Único de Saúde (SUS). A APS está organizada de forma a proporcionar a resolução da maior parte dos problemas de saúde dos indivíduos e de suas famílias, desempenhando um papel fundamental no enfrentamento da pandemia, uma vez que grande parte das pessoas infectadas desenvolvem a forma leve da doença, o que permite o seu acompanhamento nesse nível da assistência<sup><xref ref-type="bibr" rid="B4">4</xref></sup>.</p>
+				<p>Considerando as ações que devem ser desenvolvidas no enfrentamento da covid-19, em especial na atenção primária, o conhecimento do território, o acesso, o vínculo entre o usuário e a equipe de saúde, a integralidade da assistência, o monitoramento das famílias vulneráveis e o acompanhamento de casos suspeitos e leve da doença, proporciona a elaboração de estratégias fundamentais para a contenção da pandemia, bem como para o não agravamento da doença<sup><xref ref-type="bibr" rid="B7">7</xref></sup>.</p>
+				<p>No Brasil, a APS segue como ponto central na organização do SUS, comprovando a necessidade de fortalecê-la e organizá-la para que fosse o pilar do enfretamento da covid-19, devido a sua capacidade de vínculo, manejo e acompanhamento dos casos no momento da pandemia e para a retomada de suas rotinas no pós-pandemia, olhando para o contexto do território como um todo<sup><xref ref-type="bibr" rid="B7">7</xref>,<xref ref-type="bibr" rid="B8">8</xref></sup>.</p>
+				<p>Assim, considerando a pandemia de covid-19, enfatiza-se o papel fundamental da atenção primária no enfrentamento global à doença, desenvolvendo ações educativas, preventivas, promotoras da saúde, assistenciais e administrativas. A organização da APS para a oferta de serviços efetivos é responsabilidade de todos os profissionais de saúde e gestores, sendo desenvolvidos não somente nas unidades de saúde, mas em todo território e domicílio.</p>
+				<p>Estudos têm sido publicados sobre a evolução da doença, tratamento, vacina, entretanto, torna-se necessário o mapeamento das evidências científicas sobre estudos que investigam a organização dos serviços e profissionais de saúde da APS e o impacto no enfrentamento da pandemia.</p>
+				<p>Desse modo, esta revisão permite mostrar as lacunas persistentes sobre a temática, além de refletir sobre a organização das ações desse nível de assistência para a mitigação da doença e, assim, se poder planejar estratégias para o enfrentamento da covid-19, de modo a proporcionar uma assistência resolutiva e de qualidade à população assistida. Logo, este estudo tem como objetivo mapear as evidências científicas disponíveis sobre a organização dos serviços e dos profissionais de saúde na atenção primária à saúde durante o enfrentamento da covid-19.</p>
+			</sec>
+			<sec sec-type="methods">
+				<title>MÉTODOS</title>
+				<p>Trata-se de um estudo de <italic>scoping review</italic> com base nos princípios apresentados pelo <italic>Joanna Briggs Institute</italic> (JBI): (1) identificação da questão de pesquisa, (2) identificação de estudos relevantes, (3) seleção dos estudos, (4) extração de dados, (5) separação, sumarização e relatório de resultados e (6) divulgação dos resultados<sup><xref ref-type="bibr" rid="B9">9</xref></sup>.</p>
+				<p>Para realizar a estratégia de busca da revisão, foi utilizada a proposta do JBI, que consiste em um acrônimo “PCC”, que representa “P” população, “C” conceito e “C” contexto. A questão norteadora do estudo foi construída com base na estratégia PCC, sendo “P” (profissionais de saúde), “C” (atenção primária à saúde) e “C” (organização e covid-19), definida da seguinte forma: Como foi a organização dos serviços e dos profissionais de saúde da atenção primária à saúde durante a pandemia de covid-19?</p>
+				<p>A busca dos artigos foi realizada nas bases de dados eletrônicas: <italic>US National Library of Medicine National Institutes of Health</italic> (PubMed), <italic>Medical Literature Analysis and Retrieval System Online</italic> (Medline), <italic>Institute for Scientific Information</italic> (Web of Science), Literatura Latino-Americana e do Caribe em Ciências da Saúde (Lilacs) e <italic>Cumulative Index to Nursing and Allied Health Literature</italic> (CINAHL). As buscas foram realizadas entre os meses de março e maio de 2021 e conduzidas por meio de descritores e seus sinônimos que constam no Descritor em Ciências da Saúde (DeCS) e no <italic>Medical Subject Headings</italic> (MeSH), nos diferentes idiomas, sendo eles: organização, assistência, atenção primária à saúde, covid-19, profissionais de saúde (<xref ref-type="table" rid="t1002">Quadro 1</xref>).</p>
+				<p>
+					<table-wrap id="t1002">
+						<label>Quadro 1</label>
+						<caption>
+							<title>Estratégias de busca utilizadas nas bases de dados.</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left">Base de dados</th>
+									<th>Estratégias de busca</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>PubMed</td>
+									<td align="center">(((covid-19[Title]) OR coronavirus[Title])) AND (primary health care[Title] OR primary care[Title])) AND organization[Body - All Words]; (((covid-19[Title]) OR coronavirus[Title])) AND (primary health care[Title] OR primary care[Title])) AND assistance[Body - All Words]; (((covid-19[Title] OR coronavirus[Title])) AND (primary health care[Abstract] OR primary care[Abstract])) AND assistance[Body - All Words]; (((covid-19[Title] OR coronavirus[Title])) AND (primary health care[Abstract] OR primary care[Abstract])) AND organization[Body - All Words]; ((((covid-19[Title] OR coronavirus[Title])) AND (primary health care[Abstract] OR primary care[Abstract])) AND healthcare professionals[Abstract]) AND organization[Body - All Words]; (((covid-19[Title] OR coronavirus[Title])) AND (Family Health Strategy[Abstract] OR family health[Abstract])) AND organization[Body - All Words].</td>
+								</tr>
+								<tr>
+									<td>Medline</td>
+									<td align="center">TI (covid-19 OR coronavirus OR coronavírus) AND AB (primary health care OR primary care OR atenção primária OR primeros auxilios) AND AB (organization OR organização OR organización); TI (covid-19 OR coronavirus OR coronavírus) AND TI (primary health care OR primary care OR atenção primária OR primeros auxilios) AND AB (organization OR organização OR organización); TI (covid-19 OR coronavirus OR coronavírus) AND AB (primary health care OR primary care OR atenção primária OR primeros auxilios) AND AB (assistance OR assistência OR asistencia); TI (covid-19 OR coronavirus OR coronavírus) AND AB (primary health care OR primary care OR atenção primária OR primeros auxilios) AND AB (organization OR organização OR organización) AND AB (healthcare professionals OR profesionales de la salud OR profissionais de saúde OR profissionais OR profesionales OR professionals); TI (covid-19 OR coronavirus OR coronavírus) AND AB (Family Health Strategy OR family health OR Estratégia Saúde da Família OR Saúde da Família OR salud familiar) AND AB (organization OR organização OR organización).</td>
+								</tr>
+								<tr>
+									<td>Web of Science</td>
+									<td align="center">TÍTULO: (covid-19 OR coronavirus OR coronavírus) AND TÍTULO: (primary health care OR primary care OR atenção primária OR primeros auxilios) AND TÓPICO: (organization OR organização OR organización); TÍTULO: (covid-19 OR coronavirus OR coronavírus) AND TÓPICO: (primary health care OR primary care OR atenção primária OR primeros auxilios) AND TÓPICO: (organization OR organização OR organización); TÍTULO: (covid-19 OR coronavirus OR coronavírus) AND TÓPICO: (primary health care OR primary care OR atenção primária OR primeros auxilios) AND TÓPICO: (assistance OR assistência OR asistencia); TÍTULO: (covid-19 OR coronavirus OR coronavírus) AND TÓPICO: (primary health care OR primary care OR atenção primária OR primeros auxilios) AND TÓPICO: (organization OR organização OR organización) AND TÓPICO: (healthcare professionals OR profesionales de la salud OR profissionais de saúde OR profissionais OR profesionales OR professionals); TÍTULO: (covid-19 OR coronavirus OR coronavírus) AND TÓPICO: (Family Health Strategy OR family health OR Estratégia Saúde da Família OR Saúde da Família OR salud familiar) AND TÓPICO: (organization OR organização OR organización).</td>
+								</tr>
+								<tr>
+									<td>Lilacs</td>
+									<td align="center">covid-19 OR coronavirus OR coronavírus [Title words] and primary health care OR primary care OR atenção primária OR primeros auxilios [Words] and organization OR organização OR organización [Words]; covid-19 OR coronavirus OR coronavírus [Palavras do título] and primary health care OR primary care OR atenção primária OR primeros auxilios [Palavras] and assistance OR assistência OR asistencia [Palavras]; covid-19 OR coronavirus OR coronavírus [Palavras do título] and primary health care OR primary care OR atenção primária OR primeros auxilios [Palavras] and healthcare professionals OR profesionales de la salud OR profissionais de saúde OR profissionais OR profesionales OR professionals [Palavras].</td>
+								</tr>
+								<tr>
+									<td>CINAHL</td>
+									<td align="center">TI (covid-19 OR coronavirus OR coronavírus) AND AB (primary health care OR primary care OR atenção primária OR primeros auxilios) AND AB (organization OR organização OR organización); TI (covid-19 OR coronavirus OR coronavírus) AND AB (primary health care OR primary care OR atenção primária OR primeros auxilios) AND AB (organization OR organização OR organización) AND AB (healthcare professionals OR profesionales de la salud OR profissionais de saúde OR profissionais OR profesionales OR professionals); TI ( covid-19 OR coronavirus OR coronavírus ) AND AB ( Family Health Strategy OR family health OR Estratégia Saúde da Família OR Saúde da Família OR salud familiar ) AND AB ( organization OR organização OR organización ); TI ( covid-19 OR coronavirus OR coronavírus ) AND AB ( primary health care OR primary care OR atenção primária OR primeros auxilios ) AND AB ( organization OR organização OR organización ) AND AB ( nursing OR nurse OR nursing care OR nursing practice OR enfermagem OR enfermería ).</td>
+								</tr>
+							</tbody>
+						</table>
+					</table-wrap>
+				</p>
+				<p>Foram aplicados os seguintes critérios de inclusão: estudos primários, idiomas português, inglês e espanhol, publicação no período de 1 de janeiro de 2020 até 31 de janeiro de 2021, indexados nas bases de dados citadas. Foram excluídos protocolos, editoriais, revisões sistemáticas e estudos cujo título e resumo não responderam à pergunta problema, informações de websites e veiculadas pela mídia.</p>
+				<p>Na etapa seguinte, as referências foram exportadas para o aplicativo <italic>web StArt</italic> (<italic>State of the Art through Systematic Review</italic>), para a seleção dos estudos em dois níveis. A primeira seleção foi por meio da leitura de títulos e resumos, seguida pela leitura do artigo na íntegra. A ferramenta de revisão <italic>StArt</italic> foi desenvolvida pelo Laboratório de Pesquisa em Engenharia de Software (LaPES) da Universidade Federal de São Carlos (UFSCar)<sup><xref ref-type="bibr" rid="B10">10</xref></sup>.</p>
+				<p>Os estudos elegíveis foram recuperados na íntegra e avaliados por dois pesquisadores. Em ambas as fases, as divergências foram discutidas até chegar a um consenso e, então, realizar a seleção final, com a participação de um terceiro pesquisador. O relato do estudo foi pautado no <italic>Preferred Reporting Items for Systematic Reviews and Meta-analyses Extension for Scoping Reviews</italic> (PRISMA_ScR)<sup><xref ref-type="bibr" rid="B11">11</xref></sup>.</p>
+				<p>As informações relevantes foram coletadas de cada artigo selecionado: autores, nome do periódico, país onde o estudo foi realizado, país de publicação, desenho do estudo, principais resultados e lacunas. Os resultados revisados estão apresentados em quadros e no formato narrativo sobre aspectos bibliométricos e que respondem à questão que orientou esta revisão de escopo.</p>
+			</sec>
+			<sec sec-type="results">
+				<title>RESULTADOS</title>
+				<p>Foram identificados 1.262 artigos nas bases de dados, desses, foram excluídos 374 por serem duplicatas, 833 após a leitura dos títulos e resumos, e 31, após a leitura na íntegra. Assim, foram selecionados para o estudo 24 artigos que abordavam a organização dos serviços e dos profissionais de saúde da APS durante o enfrentamento da covid-19 (<xref ref-type="fig" rid="f01002">Figura</xref>).</p>
+				<p>
+					<fig id="f01002">
+						<label>Figura</label>
+						<caption>
+							<title>Fluxograma de referência: inclusão e exclusão dos artigos.</title>
+						</caption>
+						<graphic xlink:href="1518-8787-rsp-56-94-gf01-pt.tif"/>
+					</fig>
+				</p>
+				<p>Os estudos incluídos nesta revisão foram publicados entre 1 de janeiro de 2020 e 31 de janeiro de 2021, sendo que cinco (21%) foram realizados no Brasil; quatro (17%) nos Estados Unidos; dois (8%) em Omã, Reino Unido, Itália e Bélgica; e um (4%) na Espanha, Índia, Flandres, Arábia Saudita, Botsuana, França e Islândia. Quanto aos idiomas, 20 (83%) estudos foram publicados em inglês e quatro (17%) em português.</p>
+				<p>Dentre os 24 estudos que foram selecionados para análise, destacam-se nove relatos de experiência, cinco estudos observacionais, quatro descritivos, dois transversais, dois qualitativos e dois estudos de caso (<xref ref-type="table" rid="t2002">Quadro 2</xref>).</p>
+				<p>
+					<table-wrap id="t2002">
+						<label>Quadro 2</label>
+						<caption>
+							<title>Artigos selecionados na revisão, segundo local e ano do estudo, objetivo, tipo de estudo, principais resultados.</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left">Autor, ano e local</th>
+									<th>Objetivo</th>
+									<th>Tipo de estudo</th>
+									<th>Principais resultados</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Krist AH et al.<sup>18</sup>, 2020, Estados Unidos</td>
+									<td align="center">Apresentar ações a serem adotadas pela atenção primária durante a pandemia de acordo com protocolo do Centro de Controle e Prevenção de Doenças (CDC).</td>
+									<td align="center">Estudo descritivo</td>
+									<td>O enfrentamento da pandemia de covid-19 na atenção primária foi organizado em 6 fases: 1) vigilância e notificação e monitoramento dos casos; 2) distanciamento físico, aumentar as consultas virtuais e adiar consultas não urgentes; 3) implantação de ações para achatar a curva epidemiológica; 4) encaminhamento aos hospitais somente de casos graves; 5) ações de cuidados de pacientes em convalescença; 6) abordar as consequências da pandemia.</td>
+								</tr>
+								<tr>
+									<td>Morreel S et al.<sup>19</sup>, 2020, Bélgica</td>
+									<td align="center">Descrever a organização e as características das consultas na atenção primária realizadas fora do horário de expediente, e compará-las com o mesmo período em 2019.</td>
+									<td align="center">Estudo observacional</td>
+									<td>Triagem telefônica, classificando os paciente como suspeito ou regular. Casos suspeitos de covid-19 eram todos atendidos de forma virtual e caso necessário encaminhados para unidades de atendimento exclusivo de suspeitos de covid-19 (Unidades Corona), ou visita domiciliar, ou encaminhados ao pronto socorro. Em comparação com 2019, houve aumento na carga de trabalho devido a atendimentos por telefone, porém as consultas presenciais reduziram em 45%.</td>
+								</tr>
+								<tr>
+									<td>Fernandes LMM et al.<sup>20</sup>, 2020, Brasil</td>
+									<td align="center">Descrever a adaptação de um centro de atenção primária à saúde em Recife e aprimorou as capacidades de telessaúde e monitoramento remoto.</td>
+									<td align="center">Relato de caso</td>
+									<td>Reorganização do fluxo interno da unidade, separando pacientes sintomáticos de assintomáticos; suspensão das atividades coletivas; manutenção do acompanhamento dos pacientes com doenças crônicas; utilização de teleatendimento e monitoramento remoto; ações de vigilância ativa no território pela equipe.</td>
+								</tr>
+								<tr>
+									<td>Sigurdsson EL et al.<sup>21</sup>, 2020 Islândia</td>
+									<td align="center">Descrever como a atenção primária à saúde na Islândia mudou sua estratégia para lidar com a pandemia de covid-19.</td>
+									<td align="center">Descritivo observacional</td>
+									<td>Detecção precoce de casos suspeitos; triagem eficaz; separação de fluxo de pacientes sintomáticos e assintomáticos; manutenção das atividades voltadas à maternidade e puericultura; alteração do atendimento presencial para teleatendimento; atendimento em horário alternativo. Mudança nos 10 principais diagnósticos, sendo que imunização, depressão, hipotireoidismo e lombalgia não estavam mais entre os 10 principais diagnósticos. Essas mudanças apontaram para uma APS muito sólida e com grande flexibilidade em sua organização.</td>
+								</tr>
+								<tr>
+									<td>Dias EG<sup>22</sup>, 2020, Brasil</td>
+									<td align="center">Refletir sobre o manejo do cuidado e a educação em saúde na atenção básica no enfrentamento da pandemia do coronavírus.</td>
+									<td align="center">Relato de experiência</td>
+									<td>Identificação imediata do sintomático respiratório; espaço reservado para aguardar a consulta; suspensão de algumas atividades assistenciais; teleatendimento e telemonitoramento; visita domiciliar ou atendimento presencial para os casos necessários; educação em saúde por meio de rádios, carros de som, panfletos, cartazes, redes sociais, contato telefônico.</td>
+								</tr>
+								<tr>
+									<td>Vieira DS et al.<sup>23</sup>, 2020, Brasil</td>
+									<td align="center">Delinear uma experiência de planejamento organizacional da enfermagem junto à equipe de saúde da família frente à pandemia da covid-19, em uma área rural de Igreja Nova – AL.</td>
+									<td align="center">Relato de experiência</td>
+									<td>
+										<list list-type="bullet">
+											<list-item>
+												<p>Adotou-se três estratégias:</p>
+											</list-item>
+											<list-item>
+												<p>•Orientação da comunidade sobre o problema com ações de prevenção e promoção da saúde.</p>
+											</list-item>
+											<list-item>
+												<p>•Educação permanente em saúde para a equipe, para qualificação dos profissionais.</p>
+											</list-item>
+											<list-item>
+												<p>•Organização da oferta dos serviços de saúde com destinação de sala exclusiva para atendimento de sintomáticos respiratórios, além de organizar os atendimentos dos programas atendidos pela unidade.</p>
+											</list-item>
+										</list>
+									</td>
+								</tr>
+								<tr>
+									<td>Jacobson, NA et al.<sup>28</sup>, 2020, Brasil</td>
+									<td align="center">Descrever um esforço colaborativo para cuidar de uma comunidade durante a pandemia da covid-19 a partir do desenvolvimento de uma clínica.</td>
+									<td align="center">Relato de experiência</td>
+									<td>Adaptação de uma clínicas que realizava atendimento de atenção primária para atendimento exclusivo de covid-19. Avaliação virtual, pela plataforma Zoom, realizado por enfermeiros que definiam se o paciente precisaria de atendimento de emergência ou atendimento na clínica covid. Posteriormente, o paciente tinha uma consulta presencial agendada na unidade específica. Houve readequação do espaço físico para maximizar o distanciamento social.</td>
+								</tr>
+								<tr>
+									<td>Saint-Lary O et al.<sup>29</sup>, 2020, França</td>
+									<td align="center">Descrever como os médicos generalistas adaptaram suas práticas para garantir e manter o acesso aos cuidados na fase epidêmica.</td>
+									<td align="center">Observacional descritivo</td>
+									<td>A partir das respostas de 5.424 médicos generalistas franceses, evidenciou-se que 70,9% mudaram o atendimento presencial para atendimento remoto; 66,5% aumentaram as consultas remotas e 42,7% criaram um fluxo específico para pacientes suspeitos de covid-19. Dos 70,9% que adaptaram sua prática, 91,7% atenderam por telefone, 27,6% por e-mail e 30,7% aumentaram o uso de consultas por videochamadas.</td>
+								</tr>
+								<tr>
+									<td>Majeed A et al.<sup>30</sup>, 2020, Inglaterra</td>
+									<td align="center">Descrever a resposta da atenção primária ao covid-19 no Serviço Nacional de Saúde (NHS) da Inglaterra.</td>
+									<td align="center">Observacional descritivo</td>
+									<td>Adaptação dos atendimentos presenciais para o atendimento remoto; atendimento de pacientes suspeitos ou confirmados de covid-19 eram atendidos em clinicas específicas; implantação de visitas domiciliares específicas para atendimento de covid-19; informatização completa de todas as unidades do Serviço Nacional de Saúde, usando registros médicos eletrônicos; acesso online para pacientes a serviços como marcação de consultas, pedidos de repetição de prescrições e visualização de registros médicos; envio eletrônico de receitas diretamente às farmácias de escolha do próprio paciente.</td>
+								</tr>
+								<tr>
+									<td>Al Ghafri T et al.<sup>32</sup>, 2020, Omã</td>
+									<td align="center">Explorar as experiências e percepções dos profissionais de saúde na atenção primária à saúde na gestão da covid-19 com relação às experiências de resposta médica, reformas socioculturais e religiosas, impressões psicológicas e lições aprendidas.</td>
+									<td align="center">Estudo qualitativo com abordagem fenomenológica empírica</td>
+									<td>Emergiram as seguintes percepções: rápida reestruturação dos serviços de APS; uso da tecnologia e desafios de se trabalhar na pandemia de covid-19; mudanças nas normas sociais e religiosas; aparecimento das lacunas no acesso aos cuidados de saúde entre os grupos vulneráveis; surgimento de distúrbios psicológicos como consequências do distanciamento social, manejo de cadáveres, exaustão dos profissionais de saúde e risco de exposição; desenvolvimento de capacidades epidemiológicas e de saúde pública, melhorando o acesso aos cuidados de saúde.</td>
+								</tr>
+								<tr>
+									<td>Blazey-Martin D et al.<sup>33</sup>, 2020, Estados Unidos</td>
+									<td align="center">Desenvolvimento de uma abordagem inovadora de gerenciamento de população para o gerenciamento remoto de pacientes covid-19.</td>
+									<td align="center">Relato de experiência</td>
+									<td>Foi implementado um algoritmo com o objetivo de orientar as decisões de triagem, incluindo a frequência de contato com os pacientes, dependendo do dia do início dos sintomas e dos fatores de risco; identificar achados clínicos que indicam se o paciente está seguro para permanecer em casa ou necessitam de avaliação adicional. Essas intervenções quando realizadas em tempo hábil, aliviaram a demanda dos hospitais e pronto atendimentos.</td>
+								</tr>
+								<tr>
+									<td>Verhoeven V et al.<sup>34</sup>, 2020, Flandres</td>
+									<td align="center">Obter <italic>insights</italic> sobre as consequências do surto covid-19 nas competências essenciais da medicina de família e comunidade,vivenciadas por médicos na linha de frente.</td>
+									<td align="center">Relato de experiência</td>
+									<td>Adoção de triagem e consultas por telefone, para todos os pacientes. A tomada de decisão clínica focada na avaliação e triagem respiratória; comprometimento dos cuidados agudos pela mudança do foco apenas para a covid-19 e também pelo fato dos pacientes não procurarem atendimento para os problemas que não estão relacionados à covid-19; adiamento do cuidado crônico.</td>
+								</tr>
+								<tr>
+									<td>Karim SI et al.<sup>35</sup>, 2020, Arábia Saudita</td>
+									<td align="center">Descrever as estratégias adotas na reorganização dos atendimentos de atenção primária à saúde de um hospital da capital da Arábia Saudita, durante a pandemia de covid-19.</td>
+									<td align="center">Relato de experiência</td>
+									<td>Os serviços foram adaptados com base em quatro pilares principais: vigilância e detecção de casos, gerenciamento clínico, prevenção da disseminação e manutenção de serviços essenciais. Essas alterações foram feitas pelo Departamento de Medicina de Família, e os atendimentos passaram a ser realizados de maneira remota por WhatsApp e clínicas virtuais e novos modos de comunicação foram incorporados como sites, mensagens do portal e mídias sociais.</td>
+								</tr>
+								<tr>
+									<td>Motlhatlhedi K et al.<sup>36</sup>, 2020, Botsuana</td>
+									<td align="center">Explorar a ação de médicos de saúde da família durante a pandemia.</td>
+									<td align="center">Observacional descritivo</td>
+									<td>O papel dos médicos de família foram: controle de infecções e medidas de prevenção de doenças, identificação de casos e disseminação de informações, continuidade dos cuidados médicos, especialmente para pacientes. O uso de mídia social no WhatsApp se expandiu para incluir webinars online, disseminação de informações relacionadas à covid-19 de várias fontes e do centro de coordenação nacional.</td>
+								</tr>
+								<tr>
+									<td>Sinha S et al.<sup>37</sup>, 2020, estados Unidos</td>
+									<td align="center">Descrever a implementação e avaliação de um programa de atendimentos por vídeo em uma grande clínica acadêmica de atenção primária em Nova York.</td>
+									<td align="center">Estudo de caso</td>
+									<td>Foram realizados 1.030 atendimentos por vídeo para 817 pacientes. 42% dos atendimentos foram para sintomas de covid-19 e os demais para condições agudas ou crônicas; os adultos jovens, mulheres e aqueles com seguro comercial, foram mais frequentes; o grau de satisfação foi alto (média de 4,6 em uma escala de 5 pontos [SD = 0,97]).</td>
+								</tr>
+								<tr>
+									<td>Joy M et al.<sup>38</sup>, 2020, Inglaterra</td>
+									<td align="center">Avaliar a capacidade de resposta e a priorização do tipo de consulta de atenção primária para idosos durante a pandemia covid-19.</td>
+									<td align="center">Estudo transversal</td>
+									<td>A taxa de consultas por telefone e vídeo mais do que dobrou durante o período de estudo (106,0% e 102,8%, respectivamente). As consultas presenciais diminuíram em 64,6% e as visitas domiciliares em 62,6%, esse processo coincidiu com a mudança da política nacional. O aumento relativo nas consultas esteve associado entre as pessoas que tomavam ≥ 10 medicamentos em comparação com aqueles que não tomaram nenhum.</td>
+								</tr>
+								<tr>
+									<td>Al Ghafri T et al.<sup>39</sup>, 2020, Omã</td>
+									<td align="center">Descrever as respostas realizadas nas unidades de atenção primária à saúde de janeiro a abril de 2020, incluindo medidas de saúde pública em Muscate, Omã.</td>
+									<td align="center">Estudo descritivo</td>
+									<td>Houve redução nas consultas, de 115.324 em janeiro para 109.719 em março. Os serviços essenciais foram garantidos em todos os centros de saúde, principalmente para grupos vulneráveis, mulheres e crianças. Os centros de saúde foram abertos por 24 horas para garantir o vigor da testagem e isolamento. Adotou-se teleatendimento e comunicações virtuais. Realização de campanhas sobre a importância do distanciamento social e higienização das mãos.</td>
+								</tr>
+								<tr>
+									<td>Bressy S<sup>40</sup>, 2020, Itália</td>
+									<td align="center">Descrever a experiência da gestão da atenção primária no enfrentamento da covid-19 na Itália durante o início da pandemia.</td>
+									<td align="center">Relato de experiência</td>
+									<td>A partir da experiência italiana, conclui-se que o suporte tecnológico e a abordagem remota são essenciais na avaliação de cuidados primários de covid-19. O uso da telemedicina e o auxílio da tecnologia permitiram monitorar de forma eficiente os pacientes em casa, reduzindo internações inadequadas e encaminhando para um hospital apenas quando necessário.</td>
+								</tr>
+								<tr>
+									<td>Mantovani W et al.<sup>41</sup>, 2020, Itália</td>
+									<td align="center">Descrever a organização e o papel do Departamento de Prevenção da Unidade Local de Saúde de Trento contra disseminação e manejo da covid-19, relatados por médicos generalistas e pediatras da família durante a fase inicial da pandemia.</td>
+									<td align="center">Descritivo observacional</td>
+									<td>Mais de 80% dos médicos notificaram pacientes. O tempo de espera para entrevista telefônica, investigação epidemiológica e disponibilização de isolamento, diminuiu progressivamente de uma média de seis dias para 0,4 dias, respectivamente, na 12ª e 16ª semana de 2020. A taxa de notificação semanal acumulada de casos novos variou de 3,54 a 6,84 casos por 1.000 habitantes, respectivamente, na 12ª e 16ª semanas. A partir da investigação epidemiológica de 1.471 casos prováveis, foram identificados 2.514 contatos próximos, e por sua vez colocados em quarentena domiciliar.</td>
+								</tr>
+								<tr>
+									<td>Duarte RB et al.<sup>43</sup>, 2020, Brasil</td>
+									<td align="center">Descrever as ações de enfermeiras atuantes na estratégia saúde da família a respeito do papel que os agentes comunitários de saúde desenvolvem junto à população durante a pandemia da covid-19.</td>
+									<td align="center">Relato de experiência</td>
+									<td>Evidenciou-se o papel do agente comunitário de saúde como mediador entre a equipe de saúde e a população, desenvolvendo ações de orientação nos territórios sobre o funcionamento dos serviços e autocuidados preventivos relacionados à covid-19. As enfermeiras também desempenharam um importante papel nas capacitações dos agentes comunitários de saúde a respeito da reorganização do processo de trabalho durante a pandemia e do uso adequado de equipamentos de proteção individual.</td>
+								</tr>
+								<tr>
+									<td>Ximenes Neto FRG et al.<sup>44</sup>, 2020, Brasil</td>
+									<td align="center">Descrever as ações estratégicas de coordenação do cuidado, monitoramento e vigilância dos casos da covid-19 na atenção primária à saúde.</td>
+									<td align="center">Relato de experiência</td>
+									<td>Destacou-se a importância do isolamento social horizontal e o isolamento domiciliar dos casos positivos; uso de tecnologias digitais no território para divulgação das ações sobre a prevenção e a efetivação do teleatendimento; fortalecimento das ações intersetoriais entre saúde, educação e assistência social, e a estruturação da Rede de Atenção à Saúde.</td>
+								</tr>
+								<tr>
+									<td>Coma E et al.<sup>46</sup>, 2020, Espanha</td>
+									<td align="center">Analisar o impacto da epidemia de covid-19 e das medidas de lockdown nos indicadores de qualidade da atenção à saúde e no controle de doenças crônicas.</td>
+									<td align="center">Descritivo retrospectivo</td>
+									<td>Foram avaliados 34 indicadores de padrão de qualidade e 85% deles apresentaram resultado negativo no mês de março de 2020 e 68% em abril de 2020, quando comparados ao mesmo período de 2019. Destacam-se os indicadores de tratamento dos quais 100% apresentaram efeitos negativos; os de acompanhamento com 80% de efeitos negativos e os indicadores de controle das doenças crônicas, 90% apresentaram efeito negativo.</td>
+								</tr>
+								<tr>
+									<td>Garg S et al.<sup>47</sup>, 2020, Índia</td>
+									<td align="center">Determinar a preparação das unidades de saúde da atenção primária para a prestação de serviços ambulatoriais seguros durante a pandemia de covid-19 na Índia.</td>
+									<td align="center">Estudo transversal</td>
+									<td>Foram avaliados 51 serviços de atenção primária. Identificação de déficits na infraestrutura e controle de infecção. Redução dos atendimentos às doenças crônicas não transmissíveis, imunização, pré-natal e saúde materno-infantil, foram os mais afetados. Em contrapartida, nos locais de triagem para sintomas de gripe os atendimentos aumentaram.</td>
+								</tr>
+								<tr>
+									<td>Danhieux K et al.<sup>48</sup>, 2020, Bélgica</td>
+									<td align="center">Examinar como a prestação de cuidados de atenção primária às condições crônicas foram afetadas durante a pandemia na Bélgica.</td>
+									<td align="center">Estudo qualitativo</td>
+									<td>Houve mudanças na organização da atenção à saúde, com enfoque nos casos suspeitos de covid-19 e queda nos atendimentos às condições crônicas, uso de teleatendimento; a maioria dos profissionais entrevistados não realizou estratificação de risco e busca ativa dos pacientes de maior risco; uso de teleatendimento para avaliação e prescrição de medicamentos e não para o monitoramento das condições crônicas. Houve grave interrupção na prestação de cuidados crônicos.</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN1002">
+								<p>APS: atenção primária à saúde.</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p>Os estudos avaliados nesta revisão trouxeram um panorama mundial de como os profissionais e os serviços da atenção primária à saúde se organizaram para o enfrentamento da pandemia de covid-19, com destaque para o uso de tecnologias e da telemedicina. A alternativa de modalidade de atendimento e monitoramento dos casos por meio de aplicativos, telefone e plataformas online também foram amplamente abordados nos estudos, aparecendo em 17 (71%) estudos (<xref ref-type="table" rid="t2002">Quadro 2</xref>).</p>
+				<p>As readequações adotadas na infraestrutura e fluxos de atendimentos, a exemplo da adoção de unidades específicas no atendimento para covid-19, separação de fluxos infectado/não infectado nas unidades de saúde, readequação do processo de trabalho e infraestrutura foram descritos em 13 (54%) estudos (<xref ref-type="table" rid="t2002">Quadro 2</xref>).</p>
+				<p>A importância da educação em saúde sobre a covid-19 com a comunidade e com a própria equipe foi abordada em três estudos (12,5%); outras três pesquisas (12,5%) analisaram os cuidados direcionados aos pacientes crônicos durante a pandemia. Dois estudos (8,5%) investigaram a organização dos serviços e profissionais da APS, com base em experiências anteriores como na pandemia de influenza H1N1 (<xref ref-type="table" rid="t2002">Quadro 2</xref>).</p>
+			</sec>
+			<sec sec-type="discussion">
+				<title>DISCUSSÃO</title>
+				<p>Nos 24 artigos selecionados neste estudo destaca-se a abordagem sobre a reorganização dos serviços e dos profissionais de saúde da APS, além da vigilância no monitoramento dos casos de covid-19 para o atendimento de casos suspeitos ou confirmados da doença.</p>
+				<p>Ressalta-se que, no Brasil, em março de 2020, após a declaração da transmissão comunitária da doença causada pelo novo coronavírus em todo o território nacional, a Secretaria de Vigilância em Saúde do Ministério da Saúde realizou a adaptação do Sistema de Vigilância de Síndromes Respiratórias Agudas, visando orientar o Sistema Nacional de Vigilância em Saúde para a circulação simultânea do SARS-CoV-2, influenza e outros vírus respiratórios, no âmbito da Emergência de Saúde Pública de Importância Nacional<sup><xref ref-type="bibr" rid="B12">12</xref></sup>.</p>
+				<p>Diante de um cenário de enfrentamento de uma doença que foi considerada uma emergência de saúde pública, destaca-se o importante papel da vigilância em saúde na notificação, investigação e monitoramento dos casos supeitos e confirmados por covid-19<sup><xref ref-type="bibr" rid="B13">13</xref></sup>. As ações de vigilância em saúde no território mostra-se como um ponto essencial da organização da APS nesse novo cenário, por meio do desenvolvimento de ações que possibilitem a identificação precoce dos casos suspeitos, notificação imediata, busca ativa de contatos, reforço ao isolamento domiciliar dos casos e de seus contatos, educação em saúde e apoio aos grupos vulneráveis do território<sup><xref ref-type="bibr" rid="B14">14</xref></sup>.</p>
+				<p>É sabido que a pandemia da covid-19 resultou em um aumento da demanda assistencial sobre o SUS, fazendo o Ministério da Saúde reforçar o estabelecimento da organização da rede de atenção e dos fluxos, tanto para pessoas com síndrome gripal, incluindo a covid-19, quanto para as pessoas que necessitassem de acompanhamento por outras condições e agravos de saúde<sup><xref ref-type="bibr" rid="B12">12</xref></sup>.</p>
+				<p>Dessa forma, a atuação da APS, no contexto da pandemia de covid-19 no Brasil, evidenciou que a principal estratégia de enfrentamento foi a reorganização do processo de trabalho dos profissionais de saúde, destacando-se as atividades de educação em saúde, por construir saberes que propiciam o autocuidado<sup><xref ref-type="bibr" rid="B15">15</xref></sup>. Todos os países tiveram que se reorganizar e fortalecer a capacidade de resposta dos serviços da atenção primária à saúde, de acordo com suas políticas públicas, além de garantir a assistência às outras necessidades de saúde da população<sup><xref ref-type="bibr" rid="B16">16</xref></sup>.</p>
+				<p>Além disso, no Brasil, constantes atualizações de guias de vigilância epidemiológica foram realizadas para nortear o combate à covid-19<sup><xref ref-type="bibr" rid="B12">12</xref></sup>. Nesse contexto, o Ministério da Saúde publicou o “Protocolo de Manejo Clínico da covid-19 na Atenção Primária à Saúde” recomendando a reorganização dos serviços e do processo de trabalho da APS para o enfrentamento da pandemia. Esse protocolo definiu medidas para a prevenção de contágio nos serviços de saúde, modelos para estratificação da gravidade de casos suspeitos, ações para acompanhamento terapêutico e isolamento domiciliar dos casos leves, além da definição de medidas para estabilização e encaminhamento aos serviços de maior complexidade e ações de promoção de medidas de prevenção comunitária<sup><xref ref-type="bibr" rid="B17">17</xref></sup>.</p>
+				<p>A reorganização da estrutura física dos serviços da APS foi uma das principais estratégias adotadas a fim de minimizar os riscos de contágio dentro das unidades de saúde, além de propiciar agilidade aos atendimentos, evitar o contato entre os usuários suspeitos e não suspeitos de covid-19, bem como a proteção dos profissionais, maximizando a eficiência dos serviços prestados.</p>
+				<p>Estudos realizados no Brasil, EUA, Bélgica e Islândia adaptaram as unidades de saúde para manter o distanciamento físico, adotaram a identificação imediata de casos sintomáticos durante o acolhimento na recepção, limitação do número de acompanhantes, consultórios separados para usuários sintomáticos e assintomáticos e reorganização dos atendimentos dos grupos prioritários assistidos pelo serviço<sup><xref ref-type="bibr" rid="B18">18</xref></sup>.</p>
+				<p>Em Diadema (SP) a gestão da saúde optou por descentralizar os atendimentos aos sintomáticos respiratórios em todas as unidades da APS, apoiando-se na característica da capilaridade da atenção primária com as equipes de saúde da família , com isso, todos os serviços desse nível de assistência acolheram essa demanda<sup><xref ref-type="bibr" rid="B24">24</xref></sup>.</p>
+				<p>Em Florianópolis (SC), Sobral (CE) e Belo Horizonte (MG), as unidades de saúde que possuíam espaço físico adequado, também organizaram os fluxos de atendimentos separadamente, ou seja, usuários suspeitos e confirmados eram acolhidos e atendidos em locais separados das demais demandas<sup><xref ref-type="bibr" rid="B25">25</xref></sup>.</p>
+				<p>Por outro lado, foi verificado a experiência de serviços de saúde que optaram por centralizar os atendimentos de sintomáticos respiratórios em uma ou mais unidades de saúde específica. A organização desses serviços apresentou algumas similaridades, como o respeito às instruções aos usuários sobre os cuidados de higienização pessoal e uso de máscara, além de possuírem espaços físicos redesenhados para respeitar o distanciamento físico<sup><xref ref-type="bibr" rid="B28">28</xref></sup>.</p>
+				<p>Na Inglaterra, foram criadas unidades de atendimento específico para pessoas com diagnóstico de covid-19, além do monitoramento domiciliar de usuários que não tinham condições de se deslocarem para um serviço de saúde ou não necessitavam de atendimento hospitalar<sup><xref ref-type="bibr" rid="B30">30</xref></sup>.</p>
+				<p>Já em Rochester (Minnesota-EUA), essa mesma estratégia foi adotada para evitar o contato de casos confirmados ou em investigação com os outros usuários que necessitavam de atendimento. Das cinco unidades de saúde da cidade, uma delas foi readequada para atender exclusivamente usuários com diagnóstico de covid-19 ou com sintomas de problemas respiratórios, e inicialmente foi adotada a estratégia de triagem por telefone, identificando se a pessoa necessitava de atendimento hospitalar ou poderia ser atendido na unidade covid-19<sup><xref ref-type="bibr" rid="B28">28</xref></sup>.</p>
+				<p>Diante da necessidade de readequação do atendimento presencial nas unidades de saúde no contexto pandêmico, as estratégias para a assistência à distância surgiram como alternativa, tanto para realizar o monitoramento de usuários com o diagnóstico da doença quanto para o acompanhamento das outras demandas<sup><xref ref-type="bibr" rid="B6">6</xref>,<xref ref-type="bibr" rid="B14">14</xref>,<xref ref-type="bibr" rid="B24">24</xref>,<xref ref-type="bibr" rid="B31">31</xref></sup>. Assim, foram inseridas na rotina dos profissionais de saúde o teleatendimento e monitoramento remoto, visando a redução do número de usuários dentro dos serviços e encaminhamento para a unidade de saúde apenas quando necessário; tais medidas foram adotadas com o objetivo de reduzir a circulação do SARS-CoV-2<sup><xref ref-type="bibr" rid="B20">20</xref></sup>.</p>
+				<p>Na Austrália, a atenção primária reorganizou a assistência por meio da adoção de teleconsultas, call centers para triagem de pessoas com sintomas respiratórios e orientações, além do estabelecimento de uma rede nacional de unidades respiratórias em complemento. Também foram realizados treinamentos online para os profissionais da saúde e divulgação das medidas de proteção à saúde das comunidades remotas de aborígenes e da população das ilhas do Estreito de Torres<sup><xref ref-type="bibr" rid="B42">42</xref></sup>.</p>
+				<p>No Reino Unido, o número de consultas à distância dobrou, ao passo que as consultas presenciais e visitas domiciliares diminuíram, resultando no atendimento de três quartos dos usuários recepcionados pela atenção primária à distância<sup><xref ref-type="bibr" rid="B30">30</xref>,<xref ref-type="bibr" rid="B38">38</xref></sup>. Já na Islândia, houve um aumento de 127% nas consultas realizadas por telefone ou online, verificando ainda elevação no número de prescrições de medicamentos e consultas à distância<sup><xref ref-type="bibr" rid="B18">18</xref></sup>. Esse padrão de crescimento também foi observado na França, na Itália e na Bélgica, uma vez que a grande maioria dos médicos generalistas adaptaram suas atividades para a modalidade remota<sup><xref ref-type="bibr" rid="B19">19</xref>,<xref ref-type="bibr" rid="B29">29</xref>,<xref ref-type="bibr" rid="B40">40</xref></sup>.</p>
+				<p>Na Itália, o monitoramento e acompanhamento de usuários com covid-19 foi domiciliar, de forma remota, por meio de aplicativos de mídia social, sendo que esse acompanhamento era realizado duas vezes ao dia, monitorando inclusive os sinais vitais dos pacientes, mensurados por meio de smartphones. Em situações em que fosse identificada dificuldade de o usuário realizar o acompanhamento dos sinais vitais por meio desses dispositivos tecnológicos, era emprestado oxímetro de pulso, para que pudesse monitorar a saturação e a frequência cardíaca no domicílio<sup><xref ref-type="bibr" rid="B40">40</xref></sup>.</p>
+				<p>Embora o teleatendimento possibilite a continuidade da assistência à distância, essa mudança pode dificultar a prática dos médicos generalistas, uma vez que ocorre a perda de comunicação não verbal, além da capacidade limitada de alguns usuários em articular suas necessidades e a comunicação intercultural associada aos problemas de linguagem, que surgem como barreiras no atendimento<sup><xref ref-type="bibr" rid="B34">34</xref></sup>.</p>
+				<p>Estudo realizado com a população idosa atendida pela APS no Reino Unido mostrou que é pertinente que os profissionais de saúde tenham ciência de que consultas remotas, principalmente se tratando de videochamadas, podem representar uma barreira adicional ao acesso, quanto aos cuidados para grupos de classes sociais desfavorecidas, que possuem acesso limitado à internet, smartphones e demais tecnologias<sup><xref ref-type="bibr" rid="B38">38</xref></sup>.</p>
+				<p>A pandemia propiciou inovação no atendimento realizado pela APS, de forma a se adequar às medidas de distanciamento físico. Entretanto, a atenção primária deve avaliar a eficiência do atendimento remoto e reconhecer as possíveis dificuldades de uma população no que tange às tecnologias necessárias.</p>
+				<p>No âmbito da APS, as ações de educação se fortaleceram e se destacaram no cuidado oferecido pelos profissionais da saúde direcionado para limitar a propagação da covid-19<sup><xref ref-type="bibr" rid="B22">22</xref>,<xref ref-type="bibr" rid="B23">23</xref>,<xref ref-type="bibr" rid="B32">32</xref>,<xref ref-type="bibr" rid="B34">34</xref>,<xref ref-type="bibr" rid="B43">43</xref>,<xref ref-type="bibr" rid="B44">44</xref></sup>. Nesse sentido, destaca-se a dificuldade de se lidar com rumores da comunidade e informações enganosas, implicando diretamente no processo de cuidado da população durante a pandemia, situação que evidencia a importância da integração do suporte de tecnologia e divulgação de orientações confiáveis<sup><xref ref-type="bibr" rid="B32">32</xref></sup>.</p>
+				<p>A adesão às medidas de prevenção contra a covid-19 está relacionada às ações de educação em saúde realizadas pelos profissionais de saúde. Nesse sentido, enfatiza-se a importância de tecnologias digitais para disseminação de informações pelas redes sociais sobre a prevenção da doença, além de reforçarem o papel fundamental dos agentes comunitários de saúde na educação em saúde de uma comunidade, principalmente no combate às <italic>fake news</italic> e na mediação da APS com a comunidade<sup><xref ref-type="bibr" rid="B22">22</xref>,<xref ref-type="bibr" rid="B43">43</xref></sup>.</p>
+				<p>Em um município brasileiro, as equipes de saúde da família, juntamente com os agentes comunitários, realizaram atividades de educação em saúde direcionadas à população. Essas ações tinham como objetivo orientar a população sobre às medidas preventivas contra a covid-19, além de divulgar os dados epidemiológicos por meio da distribuição de panfletos, carro de som, rádio, redes sociais, contato telefônico. Entretanto, o número de casos suspeitos de covid-19 não foi reduzido, evidenciando a importância da adesão das pessoas às medidas de prevenção<sup><xref ref-type="bibr" rid="B19">19</xref></sup>. Para que as ações de educação em saúde atinjam seus objetivos é necessário o desenvolvimento de estratégias diversas, como forma de atravessar barreiras sociais e culturais que determinam as escolhas dos indivíduos<sup><xref ref-type="bibr" rid="B22">22</xref>,<xref ref-type="bibr" rid="B45">45</xref></sup>.</p>
+				<p>Durante a pandemia de covid-19, também se destaca o adiamento e a redução no acompanhamento de usuários com diagnóstico de doença crônica não transmissível (DCNT), de maneira global, uma vez que parte desses cuidados não são urgentes<sup><xref ref-type="bibr" rid="B21">21</xref>,<xref ref-type="bibr" rid="B22">22</xref>,<xref ref-type="bibr" rid="B29">29</xref>,<xref ref-type="bibr" rid="B32">32</xref>,<xref ref-type="bibr" rid="B34">34</xref>,<xref ref-type="bibr" rid="B46">46</xref></sup>. Em Mascate (Omã), todas as unidades de saúde suspenderam a assistência presencial de usuários com DCNT no início da pandemia<sup><xref ref-type="bibr" rid="B32">32</xref></sup>. Já na Espanha e na Bélgica, embora não tenha ocorrido a suspensão, houve uma significante diminuição do acompanhamento de usuários com diabetes mellitus e hipertensão arterial sistêmica<sup><xref ref-type="bibr" rid="B46">46</xref>,<xref ref-type="bibr" rid="B48">48</xref></sup>.</p>
+				<p>Quanto à população infantil, foi observado uma redução na administração de vacinas em crianças na Espanha<sup><xref ref-type="bibr" rid="B46">46</xref></sup> e uma interrupção na operação de serviços ambulatoriais relacionados à saúde materno-infantil na Índia<sup><xref ref-type="bibr" rid="B47">47</xref></sup>. Na França, o atendimento ambulatorial de outras demandas da população foi mantido, enquanto os atendimentos de covid-19 foram direcionados e concentrados em centros específicos para a assistência a esse público<sup><xref ref-type="bibr" rid="B16">16</xref></sup>.</p>
+				<p>O adiamento da assistência a usuários com DCNT, puericultura e redução da cobertura vacinal podem acarretar consequências que se estenderão após a crise pandêmica da covid-19, gerando uma sobrecarga nos sistemas de saúde<sup><xref ref-type="bibr" rid="B21">21</xref>,<xref ref-type="bibr" rid="B29">29</xref>,<xref ref-type="bibr" rid="B34">34</xref>,<xref ref-type="bibr" rid="B46">46</xref></sup>. Por outro lado, a redução do comparecimento de usuários com DCNT às unidades de saúde pode estar relacionada às recomendações das autoridades de saúde para que as pessoas permanecessem em casa e procurassem esses serviços somente se apresentassem sintomas de covid-19<sup><xref ref-type="bibr" rid="B29">29</xref></sup>.</p>
+				<p>Embora os profissionais de saúde que atuam na atenção primária tenham se organizado de maneira rápida em resposta ao início da pandemia, o direcionamento da assistência à covid-19 pode causar complicações à saúde de uma parcela da população que teve seus cuidados adiados ou suspensos, além de onerar o sistema de saúde.</p>
+				<p>Diante dessa situação, a garantia do cuidado integral, durante a pandemia, se tornou um grande desafio para a APS, como consequência da valorização do cuidado nos serviços hospitalares e detrimento das outras demandas da população<sup><xref ref-type="bibr" rid="B5">5</xref>,<xref ref-type="bibr" rid="B22">22</xref>,<xref ref-type="bibr" rid="B43">43</xref>,<xref ref-type="bibr" rid="B45">45</xref></sup>. Portanto, a pandemia reafirma a necessidade do fortalecimento do protagonismo da atenção primária na organização dos serviços de saúde no SUS, como forma de garantir a otimização de gastos, redução de hospitalizações, tanto pela covid-19 quanto por outras causas sensíveis a esse nível de assistência.</p>
+				<p>No Brasil, o Ministerio da Saúde publicou manuais e portarias que orientaram como os serviços de saúde e profissionais da APS deveriam proceder, além disso, as secretarias estaduais de saúde, juntamente com o Conselho Nacional de Secretarios Estaduais de Saúde , apoiaram os gestores municipais na tomada de decisão a respeito dessa reestruturação dos serviços; porém, apesar das normativas, cada município se adequaou conforme sua realidade local, influenciado tanto por questões epidemiológicas, quanto políticas e financeiras.</p>
+				<p>O fato de a atenção primária desempenhar um papel ordenador na rede de saúde fortalece a sua importância no enfrentamento da pandemia, identificando precocemente os casos suspeitos, além de acompanhar os casos leves, identificar e encaminhar os casos graves, e contribuir na redução da sobrecarga dos serviços especializados e hospitalares, o que, consequentemente, leva à redução nos gastos públicos.</p>
+				<p>O presente estudo mostra um panorama de como os profissionais e serviços da atenção primária à saúde se organizaram para o enfrentamento da pandemia, abordando as readequações adotadas na infraestrutura e fluxos de atendimentos, como por exemplo a adoção de unidades específicas no atendimento para covid-19, separação de fluxos contaminado e não contaminado, a telemedicina como alternativa de modalidade de atendimento e monitoramento dos casos por meio de aplicativos e via telefone. Entretanto, persiste lacunas na literatura como a avaliação do impacto dessas ações e a sua efetividade na mitigação da transmissão da covid-19; análise das consequências para os usuários que tiveram seus atendimentos adiados ou reduzidos, a exemplo das DCNT, acompanhamento de puericultura, pré-natal e cobertura vacinal durante o período pandêmico.</p>
+			</sec>
+		</body>
+		<back>
+			<fn-group>
+				<fn fn-type="financial-disclosure" id="fn2002">
+					<p>Financiamento: Fundação de Amparo à Pesquisa do Estado de São Paulo (Fapesp - Processo 2019/21219-7). Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq - Processo 402507/2020-7).</p>
+				</fn>
+			</fn-group>
+		</back>
+	</sub-article>
+</article>

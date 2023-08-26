@@ -1,0 +1,1868 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.1" specific-use="sps-1.9" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="nlm-ta">Rev Saude Publica</journal-id>
+			<journal-id journal-id-type="publisher-id">rsp</journal-id>
+			<journal-title-group>
+				<journal-title>Revista de Saúde Pública</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Rev. Saúde Pública</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="ppub">0034-8910</issn>
+			<issn pub-type="epub">1518-8787</issn>
+			<publisher>
+				<publisher-name>Faculdade de Saúde Pública da Universidade de São Paulo</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="other">00212</article-id>
+			<article-id pub-id-type="doi">10.11606/s1518-8787.2022056003868</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Original Article</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Spatial correlation of covid-19 with intensive care unit beds in Paraná</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-7338-121X</contrib-id>
+					<name>
+						<surname>Covre</surname>
+						<given-names>Eduardo Rocha</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-7116-0533</contrib-id>
+					<name>
+						<surname>Pereira</surname>
+						<given-names>Natan David</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-7239-4289</contrib-id>
+					<name>
+						<surname>Oliveira</surname>
+						<given-names>Natan Nascimento de</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-8262-2086</contrib-id>
+					<name>
+						<surname>Charlo</surname>
+						<given-names>Patrícia Bossolani</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-4095-9382</contrib-id>
+					<name>
+						<surname>Oliveira</surname>
+						<given-names>Magda Lúcia Félix de</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-3373-1654</contrib-id>
+					<name>
+						<surname>Oliveira</surname>
+						<given-names>Rosana Rosseto de</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-3891-4222</contrib-id>
+					<name>
+						<surname>Carreira</surname>
+						<given-names>Lígia</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-5746-5170</contrib-id>
+					<name>
+						<surname>Facchini</surname>
+						<given-names>Luiz Augusto</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>III</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-7276-0402</contrib-id>
+					<name>
+						<surname>Vissoci</surname>
+						<given-names>João Ricardo Nickenig</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff4"><sup>IV</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-6386-1962</contrib-id>
+					<name>
+						<surname>Salci</surname>
+						<given-names>Maria Aparecida</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>I</label>
+				<institution content-type="orgname">Universidade Estadual de Maringá</institution>
+				<institution content-type="orgdiv1">Programa de Pós-Graduação em Enfermagem</institution>
+				<addr-line>
+					<named-content content-type="city">Maringá</named-content>
+					<named-content content-type="state">PR</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Universidade Estadual de Maringá. Programa de Pós-Graduação em Enfermagem. Maringá, PR, Brasil</institution>
+			</aff>
+			<aff id="aff2">
+				<label>II</label>
+				<institution content-type="orgname">Centro Universitário Ingá</institution>
+				<institution content-type="orgdiv1">Departamento de Enfermagem</institution>
+				<addr-line>
+					<named-content content-type="city">Maringá</named-content>
+					<named-content content-type="state">PR</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Centro Universitário Ingá. Departamento de Enfermagem. Maringá, PR, Brasil</institution>
+			</aff>
+			<aff id="aff3">
+				<label>III</label>
+				<institution content-type="orgname">Universidade Federal de Pelotas</institution>
+				<institution content-type="orgdiv1">Programa de Pós-Graduação em Epidemiologia e Saúde da Família</institution>
+				<addr-line>
+					<named-content content-type="city">Pelotas</named-content>
+					<named-content content-type="state">RS</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Universidade Federal de Pelotas. Programa de Pós-Graduação em Epidemiologia e Saúde da Família. Pelotas, RS, Brasil</institution>
+			</aff>
+			<aff id="aff4">
+				<label>IV</label>
+				<institution content-type="orgname">Duke University</institution>
+				<institution content-type="orgdiv1">Duke University Medical Center</institution>
+				<addr-line>
+					<named-content content-type="city">Durham</named-content>
+					<named-content content-type="state">NC</named-content>
+				</addr-line>
+				<country country="US">United States</country>
+				<institution content-type="original">Duke University. Duke University Medical Center. Durham, NC, United States</institution>
+			</aff>
+			<author-notes>
+				<corresp id="c01"> Correspondence: Eduardo Rocha Covre Avenida Colombo, 5.790 87.020-900 Maringá, PR, Brasil E-mail: <email>eduardocovre@hotmail.com</email>
+				</corresp>
+				<fn fn-type="con">
+					<p><bold>Authors’ Contribution:</bold> Study design and planning: ERC, RRO, NNO, NDP, PBC. Data collection, analysis, and interpretation: ERC, NNO, RRO, LAF. Draft writing and review: ERC, MAS, LC. Final draft approval: ERC, NDP, NNO, PBC, MLFO, RRO, LC, LAF, JRNV, MAS. Public responsibility for the content of the article: ERC, NDP, NNO, PBC, MLFO, RRO, LC, LAF, JRNV, MAS.</p>
+				</fn>
+				<fn fn-type="conflict">
+					<p><bold>Conflict of Interest:</bold> The authors declare no conflict of interest.</p>
+				</fn>
+			</author-notes>
+			<pub-date date-type="pub" publication-format="electronic">
+				<day>01</day>
+				<month>04</month>
+				<year>2022</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">
+				<year>2022</year>
+			</pub-date>
+			<volume>56</volume>
+			<elocation-id>14</elocation-id>
+			<history>
+				<date date-type="received">
+					<day>17</day>
+					<month>05</month>
+					<year>2021</year>
+				</date>
+				<date date-type="accepted">
+					<day>13</day>
+					<month>09</month>
+					<year>2021</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="en">
+					<license-p> This is an Open Access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. </license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>ABSTRACT</title>
+				<sec>
+					<title>OBJECTIVE</title>
+					<p> To analyze the spatial correlation between confirmed cases of covid-19 and the intensive care unit beds exclusive to the disease in municipalities of Paraná.</p>
+				</sec>
+				<sec>
+					<title>METHODS</title>
+					<p> This is an epidemiological study of ecological type which used data from the Epidemiological Report provided by the Department of Health of Paraná on the confirmed cases of covid-19 from March 12, 2020, to January 18, 2021. The number of intensive care beds exclusive to covid-19 in each municipality of Paraná was obtained by the <italic>Cadastro Nacional de Estabelecimentos de Saúde</italic> (CNES - National Registry of Health Establishments), provided online by the <italic>Departamento de Informática do Sistema Único de Saúde</italic> (Datasus - Informatics Department of the Brazilian Unified Health System). The Bivariate Moran’s Index (local and global) was used to analyze the intensive care bed variable and spatial correlation, with a 5% significance level. LISA Map was used to identify critical and transition areas.</p>
+				</sec>
+				<sec>
+					<title>RESULTS</title>
+					<p> In the analyzed period, we found 499,777 confirmed cases of covid-19 and 1,029 intensive care beds exclusive to the disease in Paraná. We identified a positive spatial autocorrelation between the confirmed cases of covid-19 (0.404–p ≤ 0.001) and intensive care beds exclusive to the disease (0.085–p ≤ 0.001) and disparities between the regions of Paraná.</p>
+				</sec>
+				<sec>
+					<title>CONCLUSION</title>
+					<p> Spatial analysis indicated that confirmed cases of covid-19 are related to the distribution of intensive care beds exclusive to the disease in Paraná, allowing us to find priority areas of care in the state regarding the dissemination and control of the disease.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="en">
+				<kwd>COVID-19, complications</kwd>
+				<kwd>Intensive Care Units, supply &amp; distribution</kwd>
+				<kwd>Spatial Analysis</kwd>
+				<kwd>Health Services Needs and Demand</kwd>
+				<kwd>Ecological Studies</kwd>
+			</kwd-group>
+			<funding-group>
+				<award-group>
+					<funding-source>DECIT</funding-source>
+					<award-id>07/2020</award-id>
+				</award-group>
+				<funding-statement>Funding: Universal Call of the Ministério da Ciência, Tecnologia, Inovações e Comunicações (MCTIC – Ministry of Science, Technology, Innovation and Communications). Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq). Fundo Nacional de Desenvolvimento Científico e Tecnológico (FNDCT — National Development, Scientific and Technological Funding). Brazilian Ministry of Health (MOH)/Secretaria de Ciência, Tecnologia, Inovação e Insumos Estratégicos em Saúde (SCTIE — Secretariat of Science, Technology, Innovation and Strategic Inputs). Departamento de Ciência e Tecnologia (DECIT — Department of Science and Technology) — Process no. 07/2020.</funding-statement>
+			</funding-group>
+			<counts>
+				<fig-count count="8"/>
+				<table-count count="2"/>
+				<equation-count count="0"/>
+				<ref-count count="31"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>INTRODUCTION</title>
+			<p>Infectious diseases are still a major threat to global public health. In December 2019, China recorded the first cases of an infection caused by the new zoonotic coronavirus named coronavirus-2 (SARS-CoV-2)<sup><xref ref-type="bibr" rid="B1">1</xref></sup>. Infections caused by this type of coronavirus are recurrent, similarly to 2002 and 2012 epidemics of SARS-CoV and MERS-CoV, respectively, which infected more than 10,000 people worldwide<sup><xref ref-type="bibr" rid="B2">2</xref>,<xref ref-type="bibr" rid="B3">3</xref></sup>.</p>
+			<p>The new infection, first called 2019-nCov, is now called coronavirus disease 2019 (covid-19)<sup><xref ref-type="bibr" rid="B4">4</xref></sup>, considered a worldwide pandemic because of its high transmissibility and rapid evolution which overcomes continental barriers<sup><xref ref-type="bibr" rid="B1">1</xref>,<xref ref-type="bibr" rid="B5">5</xref></sup>. Estimates show that, as of April 26, 2021, more than 146.8 million people had been diagnosed with the disease worldwide, out of which 2.1% had died<sup><xref ref-type="bibr" rid="B6">6</xref></sup>.</p>
+			<p>Covid-19 mainly affects the human respiratory system, often evolving to acute respiratory distress and diffuse alveolar damage. Those infected have a high risk of mortality and therefore require intensive care<sup><xref ref-type="bibr" rid="B1">1</xref>,<xref ref-type="bibr" rid="B7">7</xref></sup>. A retrospective study conducted in China indicated that about 25% of infected people developed severe covid-19, out of which 80% required hospitalization in intensive care units (ICU)<sup><xref ref-type="bibr" rid="B8">8</xref></sup>. Many ICU beds are therefore essential to attend all those infected with severe covid-19.</p>
+			<p>Brazil was the first Latin-American country to report a case of covid-19, on February 26, 2020<sup><xref ref-type="bibr" rid="B9">9</xref></sup>. As of April 26, 2021, Brazil had more than 390,000 confirmed deaths and 14.3 million confirmed cases of the disease, ranking second in the world ranking of confirmed cases of contamination by the new coronavirus<sup><xref ref-type="bibr" rid="B6">6</xref></sup>. The state of Paraná had reported more than 21,000 deaths and 925,000 confirmed cases of covid-19<sup><xref ref-type="bibr" rid="B10">10</xref></sup>.</p>
+			<p>However, cases of covid-19 are distributed unevenly among regions and municipalities. The first cases were identified in national capitals and, over time, new cases appeared in more distant locations because of the virus’ community transmission<sup><xref ref-type="bibr" rid="B8">8</xref></sup>.</p>
+			<p>To understand covid-19 propagation, we must learn how it distributes itself spatially, from large urban centers to more remote and less developed areas of the country. Furthermore, observing how covid-19 expands geographically together with exclusive ICU beds can help understand accessibility to intensive care, essential for severe patients.</p>
+			<p>Thus, the following research question was asked: “Does the distribution of ICU beds exclusive to covid-19 reflect the spatial distribution of cases of the disease in municipalities of Paraná?”. This study therefore sought to analyze the spatial correlation between confirmed cases of covid-19 and intensive care unit beds exclusive to the disease in the municipalities of Paraná.</p>
+		</sec>
+		<sec sec-type="methods">
+			<title>METHODS</title>
+			<p>This is an epidemiological study of ecological type on the prevalence of confirmed cases of covid-19 and ICU beds exclusive to the disease in the municipalities of the state of Paraná. Confirmed cases of the disease, recorded between March 12, 2020 (first cases registered in the state) and January 18, 2021 (date of data collection for the study), were considered according to place of residence.</p>
+			<p>Paraná is one of the three states in Southern Brazil, with an estimated population of 11,516,840 inhabitants in 2020<sup><xref ref-type="bibr" rid="B11">11</xref></sup>. Its extensive border region meets the states of Santa Catarina, São Paulo, and Mato Grosso do Sul, the countries Argentina and Paraguay, and the Atlantic Ocean. The state is organized in 399 municipalities grouped into 22 health regions (HR) and four health macro-regions (<xref ref-type="fig" rid="f01">Figure 1</xref>), all integrated in the logic of health care network<sup><xref ref-type="bibr" rid="B12">12</xref></sup>.</p>
+			<p>
+				<fig id="f01">
+					<label>Figure 1</label>
+					<caption>
+						<title>Distribution of macro-regions and health regions in Paraná. Paraná, Brazil, 2021.</title>
+					</caption>
+					<graphic xlink:href="1518-8787-rsp-56-14-gf01.tif"/>
+					<attrib>Source: survey data, 2021.</attrib>
+				</fig>
+			</p>
+			<p>Data on the number of confirmed cases of the disease and population data were obtained from the Epidemiological Report provided by the <italic>Secretaria de Estado da Saúde do Paraná</italic> (SESA — Department of Health of Paraná) on January 18, 2021<sup><xref ref-type="bibr" rid="B13">13</xref></sup>. The number of ICU beds exclusive to covid-19 in each municipality of Paraná was obtained by the <italic>Cadastro Nacional de Estabelecimentos de Saúde</italic> (CNES – National Registry of Health Establishments) — physical resources, provided online by the <italic>Departamento de Informática do Sistema Único de Saúde</italic> (Datasus — Informatics Department of the Brazilian Unified Health System). Data were collected on January 18, 2021, at 8 p.m., considering adult and pediatric ICU beds of public and private hospitals. Data are constantly updated and the ICU beds exclusive to covid-19 available until December 2020 were considered<sup><xref ref-type="bibr" rid="B14">14</xref></sup>.</p>
+			<p>Municipalities of the state of Paraná were considered as the units of analysis for spatial distribution and autocorrelation analyses. The cartographic basis with the limits of the municipalities was obtained from the website of the Brazilian Institute of Geography and Statistics (IBGE). Considering that the number of cases and beds could change randomly, prevalence was calculated by the smoothed ratio of the number of cases and the number of ICU beds according to the estimated population of each municipality, multiplied by 100 and 100,000, respectively. Rate smoothing was conducted by queen contiguity-based spatial weights, which determine neighborhood from any common border to the municipalities.</p>
+			<p>The results were presented in choropleth maps, organized by the Jenks natural breaks optimization method. This type of classification ensures data homogeneity and heterogeneity by “breaking” the categories according to the variance of different groups, minimizing the variance within the groups themselves<sup><xref ref-type="bibr" rid="B15">15</xref></sup>.</p>
+			<p>The statistical analysis of spatial dependence used Moran I’s spatial autocorrelation coefficient, which is subdivided into Global Moran Index and Local Moran Index.</p>
+			<p>Firstly, the Global Moran Index was calculated. Statistics proposed by Moran<sup><xref ref-type="bibr" rid="B16">16</xref></sup> were used to analyze the spatial distribution pattern of the variable according to municipality. This index varies between -1 and 1, in which values close to zero indicate no spatial autocorrelation, positive values indicate positive spatial autocorrelation, and negative values indicate negative autocorrelation. Then, a pseudo p-value was estimated for the Global Moral index from 999 permutations.</p>
+			<p>The Local Moran Index was used to identify clusters of areas with similar risks for the occurrence of the outcome of interest if the Global Moran Index identified a significant spatial autocorrelation. This index allows analyzing the extent to which the value of a variable for a given area is similar or different to its neighboring areas<sup><xref ref-type="bibr" rid="B16">16</xref></sup>.</p>
+			<p>Clusters formed from the analysis of the Local Moran Index can be divided into four parameters: high-high, which represents high-rate municipalities and neighbors; low-low, of low-rate municipalities and neighbors; low-high, of low-rate cities and high-rate neighbors; and high-low, of high-rate cities and low-rate neighbors. These data were presented by the LISA (Local Indicators of Spatial Association) Map, which allows expressing local spatial dependence patterns using choropleth maps<sup><xref ref-type="bibr" rid="B17">17</xref></sup>.</p>
+			<p>The spatial correlation analysis between confirmed cases of covid-19 and ICU beds exclusive to the disease was conducted by Bivariate Moran’s Index. This index designates whether two variables in a given location in space are associated with each other<sup><xref ref-type="bibr" rid="B17">17</xref></sup>. The significance level was considered as 5%. Statistical analyses were performed by the GeoDa software version 1.18 and the maps were elaborated in the QGIS software version 3.10.</p>
+			<p>This study was not submitted to the <italic>Comissão Nacional de Ética em Pesquisa</italic> (Conep — National Research Ethics Committee) according to resolution no. 510, of April 7, 2016, since it uses data obtained from secondary sources, does not identify research subjects, and is available in public domain.</p>
+		</sec>
+		<sec sec-type="results">
+			<title>RESULTS</title>
+			<p>According to the epidemiological report of the Department of Health of Paraná, until January 18, 2021, 499,777 cases of covid-19 had been confirmed in the state, with a prevalence of 4.34 cases per 100 inhabitants. Health regions (HR) of Foz do Iguaçu (9th HR) and União da Vitória (6th HR) had the highest and lowest prevalence of cases, with 7.58 and 1.84 cases per 100 inhabitants, respectively (<xref ref-type="table" rid="t1">Table</xref>).</p>
+			<p>
+				<table-wrap id="t1">
+					<label>Table</label>
+					<caption>
+						<title>Prevalence of confirmed cases of covid-19a and ICU beds exclusive to the disease in health regions. Paraná, Brazil, March 2020 to January 2021.</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left">Health Region (HR)</th>
+								<th>Population</th>
+								<th>Confirmed cases</th>
+								<th>ICU beds<sup>b</sup></th>
+								<th>Prevalence of cases<sup>c</sup></th>
+								<th>Beds per inhabitants<sup>d</sup></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>1<sup>st</sup> HR Paranaguá</td>
+								<td align="center">299,824</td>
+								<td align="center">16,903</td>
+								<td align="center">20</td>
+								<td align="center">5.64</td>
+								<td align="center">6.68</td>
+							</tr>
+							<tr>
+								<td>2<sup>nd</sup> HR Metropolitana</td>
+								<td align="center">3,693,891</td>
+								<td align="center">157,945</td>
+								<td align="center">416</td>
+								<td align="center">4.27</td>
+								<td align="center">11.26</td>
+							</tr>
+							<tr>
+								<td>3<sup>rd</sup> HR Ponta Grossa</td>
+								<td align="center">642,624</td>
+								<td align="center">24,764</td>
+								<td align="center">30</td>
+								<td align="center">3.85</td>
+								<td align="center">4.67</td>
+							</tr>
+							<tr>
+								<td>4<sup>th</sup> HR Irati</td>
+								<td align="center">176,074</td>
+								<td align="center">5,558</td>
+								<td align="center">4</td>
+								<td align="center">3.15</td>
+								<td align="center">2.27</td>
+							</tr>
+							<tr>
+								<td>5<sup>th</sup> HR Guarapuava</td>
+								<td align="center">457,280</td>
+								<td align="center">12,331</td>
+								<td align="center">40</td>
+								<td align="center">2.70</td>
+								<td align="center">8.75</td>
+							</tr>
+							<tr>
+								<td>6<sup>th</sup> HR União da Vitória</td>
+								<td align="center">178,277</td>
+								<td align="center">3,285</td>
+								<td align="center">6</td>
+								<td align="center">1.84</td>
+								<td align="center">3.37</td>
+							</tr>
+							<tr>
+								<td>7<sup>th</sup> HR Pato Branco</td>
+								<td align="center">268,563</td>
+								<td align="center">11,550</td>
+								<td align="center">28</td>
+								<td align="center">4.30</td>
+								<td align="center">10.43</td>
+							</tr>
+							<tr>
+								<td>8<sup>th</sup> HR Francisco Beltrão</td>
+								<td align="center">359,601</td>
+								<td align="center">18,014</td>
+								<td align="center">10</td>
+								<td align="center">5.00</td>
+								<td align="center">2.78</td>
+							</tr>
+							<tr>
+								<td>9<sup>th</sup> HR Foz do Iguaçu</td>
+								<td align="center">405,246</td>
+								<td align="center">30,737</td>
+								<td align="center">50</td>
+								<td align="center">7.58</td>
+								<td align="center">12.34</td>
+							</tr>
+							<tr>
+								<td>10<sup>th</sup> HR Cascavel</td>
+								<td align="center">554,233</td>
+								<td align="center">27,861</td>
+								<td align="center">46</td>
+								<td align="center">5.03</td>
+								<td align="center">8.30</td>
+							</tr>
+							<tr>
+								<td>11<sup>th</sup> HR Campo Mourão</td>
+								<td align="center">327,595</td>
+								<td align="center">10,404</td>
+								<td align="center">31</td>
+								<td align="center">3.17</td>
+								<td align="center">9.46</td>
+							</tr>
+							<tr>
+								<td>12<sup>th</sup> HR Umuarama</td>
+								<td align="center">277,003</td>
+								<td align="center">12,076</td>
+								<td align="center">30</td>
+								<td align="center">4.36</td>
+								<td align="center">10.83</td>
+							</tr>
+							<tr>
+								<td>13<sup>th</sup> HR Cianorte</td>
+								<td align="center">162,273</td>
+								<td align="center">6,502</td>
+								<td align="center">8</td>
+								<td align="center">4.00</td>
+								<td align="center">4.93</td>
+							</tr>
+							<tr>
+								<td>14<sup>th</sup> HR Paranavaí</td>
+								<td align="center">277,060</td>
+								<td align="center">7,515</td>
+								<td align="center">10</td>
+								<td align="center">2.71</td>
+								<td align="center">3.61</td>
+							</tr>
+							<tr>
+								<td>15<sup>th</sup> HR Maringá</td>
+								<td align="center">847,559</td>
+								<td align="center">42,190</td>
+								<td align="center">94</td>
+								<td align="center">4.98</td>
+								<td align="center">11.09</td>
+							</tr>
+							<tr>
+								<td>16<sup>th</sup> HR Apucarana</td>
+								<td align="center">387,414</td>
+								<td align="center">13,469</td>
+								<td align="center">50</td>
+								<td align="center">3.48</td>
+								<td align="center">12.91</td>
+							</tr>
+							<tr>
+								<td>17<sup>th</sup> HR Londrina</td>
+								<td align="center">972,283</td>
+								<td align="center">47,998</td>
+								<td align="center">80</td>
+								<td align="center">4.94</td>
+								<td align="center">8.23</td>
+							</tr>
+							<tr>
+								<td>18<sup>th</sup> HR Cornélio Procópio</td>
+								<td align="center">221,744</td>
+								<td align="center">7,430</td>
+								<td align="center">8</td>
+								<td align="center">3.35</td>
+								<td align="center">3.61</td>
+							</tr>
+							<tr>
+								<td>19<sup>th</sup> HR Jacarezinho</td>
+								<td align="center">289,587</td>
+								<td align="center">7,772</td>
+								<td align="center">10</td>
+								<td align="center">2.68</td>
+								<td align="center">3.45</td>
+							</tr>
+							<tr>
+								<td>20<sup>th</sup> HR Toledo</td>
+								<td align="center">401,772</td>
+								<td align="center">22,640</td>
+								<td align="center">30</td>
+								<td align="center">5.63</td>
+								<td align="center">7.47</td>
+							</tr>
+							<tr>
+								<td>21<sup>st</sup> HR Telêmaco Borba</td>
+								<td align="center">189,750</td>
+								<td align="center">9,516</td>
+								<td align="center">24</td>
+								<td align="center">5.01</td>
+								<td align="center">12.65</td>
+							</tr>
+							<tr>
+								<td>22<sup>nd</sup> HR Ivaiporã</td>
+								<td align="center">127,237</td>
+								<td align="center">3,317</td>
+								<td align="center">4</td>
+								<td align="center">2.60</td>
+								<td align="center">3.14</td>
+							</tr>
+							<tr>
+								<td><bold>Paraná</bold></td>
+								<td align="center"><bold>11,516,840</bold></td>
+								<td align="center"><bold>499,777</bold></td>
+								<td align="center"><bold>1,029</bold></td>
+								<td align="center"><bold>4.34</bold></td>
+								<td align="center"><bold>8.93</bold></td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<attrib>Source: Preparation based on data from the <italic>Secretaria de Estado da Saúde do Paraná</italic> (SESA — Department of Health of Paraná) and the Brazilian Ministry of Health’s <italic>Departamento de Informática do Sistema Único de Saúde</italic> (Datasus — Informatics Department of the Brazilian Unified Health System).</attrib>
+						<fn id="TFN1">
+							<p><sup>a</sup> Coronavirus disease 2019.</p>
+						</fn>
+						<fn id="TFN2">
+							<p><sup>b</sup> ICU: intensive care unit, exclusive to covid-19.</p>
+						</fn>
+						<fn id="TFN3">
+							<p><sup>c</sup> Per 100 inhabitants.</p>
+						</fn>
+						<fn id="TFN4">
+							<p><sup>d</sup> Per 100,000 inhabitants.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>Paraná had 1,029 ICU beds exclusive to covid-19, with a prevalence of 8.93 beds per 100,000 inhabitants. Apucarana (16<sup>th</sup> HR) and Irati (4<sup>th</sup> HR) recorded the highest and lowest prevalence of beds, with 12.91 and 2.27 beds per 100,000 inhabitants, respectively (<xref ref-type="table" rid="t1">Table</xref>).</p>
+			<p>Confirmed cases of covid-19 and ICU beds exclusive to the disease were unevenly distributed in Paraná. Rates of covid-19 cases were lower in the 5<sup>th</sup> (Guarapuava) and the 11<sup>th</sup> (Campo Mourão) health regions and prevalent in the 1<sup>st</sup> (Paranaguá) and the 9<sup>th</sup> (Foz do Iguaçu). Of the 399 municipalities of Paraná, few had a high prevalence of ICU beds exclusive to covid-19 whereas 367 had none (<xref ref-type="fig" rid="f02">Figure 2</xref>).</p>
+			<p>
+				<fig id="f02">
+					<label>Figure 2</label>
+					<caption>
+						<title>Spatial distribution of the smoothed prevalence of confirmed cases of covid-19 (A) and intensive care unit beds (B) in municipalities and health regions. Paraná, Brazil, March 2020 to January 2021.</title>
+					</caption>
+					<graphic xlink:href="1518-8787-rsp-56-14-gf02.tif"/>
+				</fig>
+			</p>
+			<p>The Global Moran Index indicated a positive spatial autocorrelation of 0.404 (p ≤ 0.001) for covid-19 cases in Paraná. Municipalities of significant covid-19 rates and place of residence formed clusters. In total, 265 municipalities were not significant, 55 were of high-high pattern, 60 low-low, 12 low-high, and seven high-low (<xref ref-type="fig" rid="f03">Figure 3</xref>).</p>
+			<p>
+				<fig id="f03">
+					<label>Figure 3</label>
+					<caption>
+						<title>Spatial autocorrelation of confirmed cases of covid-19 in headquarter municipalities of health regions and neighboring regions, according to the analysis of Univariate Local Moran’s I (LISA — local indicator of spatial association). Paraná, Brazil, March 2020 to January 2021.</title>
+					</caption>
+					<graphic xlink:href="1518-8787-rsp-56-14-gf03.tif"/>
+				</fig>
+			</p>
+			<p>We identified three high-high clusters, one of which included the entire 9<sup>th</sup> HR (Foz do Iguaçu), with conglomerate municipalities from the 10<sup>th</sup> HR (Cascavel) and 20<sup>th</sup> HR (Toledo); another was formed by cities of the 1<sup>st</sup> HR (Paranaguá) and 2<sup>nd</sup> HR (Curitiba); and the other by municipalities of the 7<sup>th</sup> HR (Pato Branco) and 8<sup>th</sup> HR (Francisco Beltrão). Northern Paraná has a fourth high-high cluster, representing the regional cities of Maringá (15<sup>th</sup>HR) and Londrina (17<sup>th</sup> HR) (<xref ref-type="fig" rid="f03">Figure 3</xref>).</p>
+			<p>A large low-low cluster was formed with almost all municipalities of the 6<sup>th</sup> HR (União da Vitória) and some municipalities in the 3<sup>rd</sup> (Ponta Grossa), 4<sup>th</sup> (Irati), 5<sup>th</sup> (Guarapuava), 11<sup>th</sup> (Campo Mourão), and 12<sup>th</sup> (Umuarama) HRs, extended along South-Central Paraná. Moreover, Northern Paraná had two other low-low clusters, one of them formed by 14 municipalities in the 18<sup>th</sup> (Cornélio Procópio) and 19<sup>th</sup> (Jacarezinho) HRs and another composed by six cities of the 14<sup>th</sup> (Paranavaí) HR and a city of the 15<sup>th</sup> (Maringá) HR. Few municipalities along the state had low-high and high-low values (<xref ref-type="fig" rid="f03">Figure 3</xref>).</p>
+			<p>In the bivariate analysis, confirmed cases of covid-19 collected from the place of residence of those infected were positively or directly correlated with the smoothed distribution of ICU beds, with index 0.085 (p ≤ 0.001). Despite the statistical significance, the number of ICU beds and confirmed cases of covid-19 were little correlated, following the pattern of most municipalities in Paraná. Of all municipalities (399), 265 (66.4%) showed no significant correlation between number of beds and covid-19 prevalence. The remaining 134 (33.6%) municipalities formed clusters, two of which stand out: one is formed by municipalities with a strong correlation between high number of beds and high prevalence of covid-19 whereas another is formed by municipalities with low number of beds and low prevalence of covid-19. Correlation was 1.105 (p &lt; 0.05) in the high-high cluster and 0.499 (p &lt; 0.005) in the low-low cluster.</p>
+			<p>Among clusters of municipalities with a high number of ICU beds and a high prevalence of cases, Curitiba and Paranaguá stand out in the Eastern macro-region; Foz do Iguaçu and Toledo in the Western macro-region; Umuarama and Maringá in the Northwestern macro-region; and Londrina and Apucarana in the Northern macro-region (<xref ref-type="fig" rid="f04">Figure 4</xref>). <xref ref-type="fig" rid="f04">Figure 4</xref> shows the cluster of municipalities with a low number of ICU beds and low prevalence of covid-19 cases, particularly Cornelius Procópio, Jacarezinho, and Ivaiporã in the Northern macro-region; Irati, Guarapuava, and União da Vitória in the Eastern macro-region; and Campo Mourão in the Northwestern macro-region. The Western macro-region shows a low-low cluster of municipalities Guaraniaçu and Diamante do Sul from the Cascavel region, which is however added to the Guarapuava regional pattern.</p>
+			<p>
+				<fig id="f04">
+					<label>Figure 4</label>
+					<caption>
+						<title>Spatial distribution of the correlation between the rate of intensive care unit beds exclusive to covid-19 and confirmed cases of the disease, according to analysis of the Bivariate Local Moran’s I (LISA — local indicator of spatial association). Paraná, Brazil, March 2020 to January 2021.</title>
+					</caption>
+					<graphic xlink:href="1518-8787-rsp-56-14-gf04.tif"/>
+				</fig>
+			</p>
+			<p>A group of municipalities with a high number of ICU beds and low prevalence of covid-19 cases formed outliers, including the municipalities of Colorado and Paranavaí and the high-low cluster of Rancho Alegre D’Oeste, Janiópolis, and Mamborê, in the Northwestern macro-region. In the Eastern macro-regional, Guarapuava, Turvo, Marquinho, Laranjeiras do Sul, Cantagalo, and Goioxim also formed a high-low cluster. Geographically, high-low clusters are on the periphery of low-low clusters whereas low-high clusters surround high-high clusters (<xref ref-type="fig" rid="f04">Figure 4</xref>).</p>
+		</sec>
+		<sec sec-type="discussion">
+			<title>DISCUSSION</title>
+			<p>We found no studies in the scientific literature which correlate confirmed cases of covid-19 with intensive care unit beds in the state of Paraná. This correlation, analyzed by spatial analysis tools, allowed identifying vulnerable regions and municipalities in the state, understanding the relationship between the event and neighboring municipalities, and analyzing the covid-19 behavior in Paraná according to the availability of exclusive ICU beds.</p>
+			<p>A similar study analyzed the distribution of covid-19 cases and exclusive care beds in the state of Ceará<sup><xref ref-type="bibr" rid="B18">18</xref></sup>, showing that the disease went beyond the capital city Fortaleza and its metropolitan region and that regions with high rates of contamination lacked beds.</p>
+			<p>The number of confirmed cases and deaths by covid-19 worldwide increases constantly and Brazil is one of the disease’s epicenters. Such growth is caused by the virus’ high transmissibility and dissemination and the populations’ lack of prior immunity and vaccination against it<sup><xref ref-type="bibr" rid="B20">20</xref></sup>.</p>
+			<p>Until January 18, 2021, the prevalence of confirmed cases in Brazil was 4,039 per 100,000 inhabitants. Covid-19 cases increased in all regions of the country. The South had a rate of 5,470 confirmed cases per 100,000 inhabitants, of which Paraná had the lowest rate (4,339 confirmed cases – according to the results of this study), followed by Rio Grande do Sul (4,717) and Santa Catarina (7,915)<sup><xref ref-type="bibr" rid="B21">21</xref></sup>. Southern states have had the same ranking on the number of covid-19 cases since the beginning of the pandemic, according to results from other studies<sup><xref ref-type="bibr" rid="B21">21</xref></sup>.</p>
+			<p>New cases of covid-19 are growing in the South and particularly in the state of Paraná. Though the number of confirmed cases in this region is less worrisome than in other regions of the country<sup><xref ref-type="bibr" rid="B13">13</xref></sup>, specific actions must be developed to collectively control the disease and to contain the spread of the virus between municipalities and health regions.</p>
+			<p>Our results indicate that confirmed cases of covid-19 were unequally distributed among municipalities and health regions of Paraná because of the date in which the disease first occurred, demographic and population density, age distribution and population characteristics, health service conditions, control of disease dissemination in communities, practice and reliability of notification of cases, and diagnostic capacity<sup><xref ref-type="bibr" rid="B24">24</xref></sup>.</p>
+			<p>In Paraná, municipalities of the Foz do Iguaçu (9<sup>th</sup> HR), Paranaguá (1<sup>st</sup> HR), and Francisco Beltrão (8<sup>th</sup> HR) health regions had the highest prevalence of confirmed cases of covid-19, above the state average.</p>
+			<p>Cases of covid-19 from the metropolitan region of Curitiba, located in the Eastern macro-region, directly affect Paranaguá (neighboring city of the capital and border of the state of São Paulo)<sup><xref ref-type="bibr" rid="B21">21</xref></sup>. Cases were internalized in the 9<sup>th</sup> and 8<sup>th</sup> HRs of the Western macro-region since these regions are considerable commercial centers of the state, linked to the capital city by BR-376, BR-476, BR-153, and BR-277<sup><xref ref-type="bibr" rid="B21">21</xref></sup>. Therefore, to understand the territorial expansion of covid-19, we must learn about social, economic, and commercial networks and dependencies and the travel and transportation flow within the boundaries of a region or state<sup><xref ref-type="bibr" rid="B25">25</xref></sup>.</p>
+			<p>The Eastern macro-region of Paraná, specifically the municipalities of the 6<sup>th</sup> HR, União da Vitória, had the lowest prevalence of confirmed cases of covid-19 (1,843 confirmed cases per 100,000 inhabitants – lower than the state average). This region also had significant local spatial dependence, similarly to neighboring regions.</p>
+			<p>However, these regions still require more actions to prevent and control new cases caused by the commuting of infected people and consequent transmission of the virus. The population should be encouraged to maintain hygiene, distancing, and social isolation measures since the virus spreads rapidly with community transmission<sup><xref ref-type="bibr" rid="B8">8</xref></sup>. Moreover, the number of infected people has increased greatly in municipalities and regions that first had a low prevalence of cases<sup><xref ref-type="bibr" rid="B29">29</xref></sup>.</p>
+			<p>Brazil has a rate of 9.77 ICU beds exclusive to covid-19 per 100,000 inhabitants. The Southeast has the highest rate in the country (10.90 beds) whereas the South has a prevalence of 10.14. Among Southern states, Santa Catarina has the highest rate (12.82), followed by Rio Grande do Sul (9.59) and Paraná (8.99)<sup><xref ref-type="bibr" rid="B14">14</xref></sup>. We thus found that Paraná is the Southern state with the lowest rate of ICU beds exclusive to covid-19, corroborating with a previous study<sup><xref ref-type="bibr" rid="B28">28</xref></sup>.</p>
+			<p>This study’s results showed that municipalities in the 7<sup>th</sup> HR — Pato Branco (52.17), 2<sup>nd</sup> HR — Curitiba (45.78), and 20<sup>th</sup> HR — Toledo (41.99) had a higher prevalence of exclusive ICU beds per 100,000 inhabitants. Similarly to the prevalence of confirmed covid-19 cases, the distribution of exclusive beds differed among municipalities and health regions of Paraná, considering that Curitiba, Guarapuava, Pato Branco, Campo Mourão, Maringá, and Toledo had more beds exclusive to covid-19.</p>
+			<p>Bivariate analysis identified a cluster in which the high prevalence of covid-19 cases correlates positively with the high availability of ICU beds exclusive to the disease. Findings indicate that large and medium-sized municipalities with higher demographic density and high rates of the disease are often the headquarters of health regions (following the principle of regionalization of the Brazilian Unified Health System — SUS). Their distribution and centralization of ICU beds can be considered as valid strategies for a homogeneous and equal distribution. However, since the disease evolves rapidly, patients should have fast access to health services<sup><xref ref-type="bibr" rid="B24">24</xref>,<xref ref-type="bibr" rid="B30">30</xref>,<xref ref-type="bibr" rid="B31">31</xref></sup>. New studies on the spatial dimensioning of care services for severe cases of covid-19 could greatly contribute to the knowledge about this phenomenon.</p>
+			<p>This study has limitations. Data was collected in a single period, but the number of confirmed cases is constantly updating and therefore increasing. Regarding the number of beds exclusive to covid-19, we considered only the beds available in Paraná until the time of data collection. We identified no other studies on the geographic distribution of covid-19 in Paraná that could be used to expand and compare with the findings of this study. However, our study could support future epidemiological research on the spatial analysis of covid-19 and help state and municipal health managers in decision-making.</p>
+			<p>Nevertheless, our results allowed identifying the direct spatial autocorrelation of covid-19 cases in the state of Paraná and their positive correlation with ICU beds exclusive to the disease, indicated by the uneven distribution of cases and beds between municipalities and health regions. Finally, the Local Moran Index identified clusters which emphasize priority areas of care in the state.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>REFERENCES</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. Frater JL, Zini G, d’Onofrio G, Rogers HJ. COVID-19 and the clinical hematology laboratory. Int J Lab Hematol. 2020;42 Suppl 1:11-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/ijlh.13229">https://doi.org/10.1111/ijlh.13229</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Frater</surname>
+							<given-names>JL</given-names>
+						</name>
+						<name>
+							<surname>Zini</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>d’Onofrio</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Rogers</surname>
+							<given-names>HJ</given-names>
+						</name>
+					</person-group>
+					<article-title>COVID-19 and the clinical hematology laboratory</article-title>
+					<source>Int J Lab Hematol</source>
+					<year>2020</year>
+					<volume>42</volume>
+					<supplement>Suppl 1</supplement>
+					<fpage>11</fpage>
+					<lpage>18</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/ijlh.13229">https://doi.org/10.1111/ijlh.13229</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. World Health Organization. Middle East respiratory syndrome coronavirus (MERS-Cov). Geneva (CH): WHO; 2016 [cited 2021 Apr 26]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.who.int/emergencies/mers-cov/en/">https://www.who.int/emergencies/mers-cov/en/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>World Health Organization</collab>
+					</person-group>
+					<source>Middle East respiratory syndrome coronavirus (MERS-Cov)</source>
+					<publisher-loc>Geneva (CH)</publisher-loc>
+					<publisher-name>WHO</publisher-name>
+					<year>2016</year>
+					<date-in-citation content-type="cited-date">cited 2021 Apr 26</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.who.int/emergencies/mers-cov/en/">https://www.who.int/emergencies/mers-cov/en/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. Centers for Disease Control and Prevention, National Center for Immunization and Respiratory Diseases, Division of Viral Diseases. Severe Acute Respiratory Syndrome (SARS). Atanta, GA: CDC; 2005 [cited 2021 Apr 26]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.cdc.gov/sars/about/faq.html">https://www.cdc.gov/sars/about/faq.html</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Centers for Disease Control and Prevention</collab>
+						<collab>National Center for Immunization and Respiratory Diseases</collab>
+						<collab>Division of Viral Diseases</collab>
+					</person-group>
+					<source>Severe Acute Respiratory Syndrome (SARS)</source>
+					<publisher-loc>Atanta, GA</publisher-loc>
+					<publisher-name>CDC</publisher-name>
+					<year>2005</year>
+					<date-in-citation content-type="cited-date">cited 2021 Apr 26</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.cdc.gov/sars/about/faq.html">https://www.cdc.gov/sars/about/faq.html</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. World Health Organization. Laboratory testing for coronavirus disease 2019 (COVID-19) in suspected human cases: interim guidance. Geneva (CH): WHO; 2020. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.who.int/publications-detail/laboratory-testing-for-2019-novel-coronavirus-in-suspected-human-cases-20200117">https://www.who.int/publications-detail/laboratory-testing-for-2019-novel-coronavirus-in-suspected-human-cases-20200117</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<collab>World Health Organization</collab>
+					</person-group>
+					<source>Laboratory testing for coronavirus disease 2019 (COVID-19) in suspected human cases: interim guidance</source>
+					<publisher-loc>Geneva (CH)</publisher-loc>
+					<publisher-name>WHO</publisher-name>
+					<year>2020</year>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.who.int/publications-detail/laboratory-testing-for-2019-novel-coronavirus-in-suspected-human-cases-20200117">https://www.who.int/publications-detail/laboratory-testing-for-2019-novel-coronavirus-in-suspected-human-cases-20200117</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Yang WZ. [Thoughts of the COVID-19 outbreak phases changed from emergency response to the combination of emergent response and regular prevention and control activities]. Zhonghua Liu Xing Bing Xue Za Zhi. 2020;41(6):806-8. Chinese. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3760/cma.j.cn112338-20200404-00516">https://doi.org/10.3760/cma.j.cn112338-20200404-00516</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Yang</surname>
+							<given-names>WZ</given-names>
+						</name>
+					</person-group>
+					<article-title>Thoughts of the COVID-19 outbreak phases changed from emergency response to the combination of emergent response and regular prevention and control activities</article-title>
+					<source>Zhonghua Liu Xing Bing Xue Za Zhi</source>
+					<year>2020</year>
+					<volume>41</volume>
+					<issue>6</issue>
+					<fpage>806</fpage>
+					<lpage>808</lpage>
+					<comment>Chinese</comment>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3760/cma.j.cn112338-20200404-00516">https://doi.org/10.3760/cma.j.cn112338-20200404-00516</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. World Health Organization. WHO Coronavirus Disease (COVID-19) Dashboard. Geneva (CH): WHO; 2021 [cited 2021 Apr 26]. Available from: <ext-link ext-link-type="uri" xlink:href="https://covid19.who.int/">https://covid19.who.int/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>World Health Organization</collab>
+					</person-group>
+					<source>WHO Coronavirus Disease (COVID-19) Dashboard</source>
+					<publisher-loc>Geneva (CH)</publisher-loc>
+					<publisher-name>WHO</publisher-name>
+					<year>2021</year>
+					<date-in-citation content-type="cited-date">cited 2021 Apr 26</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://covid19.who.int/">https://covid19.who.int/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. Rothan HA, Byrareddy SN. The epidemiology and pathogenesis of coronavirus disease (COVID-19) outbreak. J Autoimmun. 2020;109:e102433. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jaut.2020.102433">https://doi.org/10.1016/j.jaut.2020.102433</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rothan</surname>
+							<given-names>HA</given-names>
+						</name>
+						<name>
+							<surname>Byrareddy</surname>
+							<given-names>SN</given-names>
+						</name>
+					</person-group>
+					<article-title>The epidemiology and pathogenesis of coronavirus disease (COVID-19) outbreak</article-title>
+					<source>J Autoimmun</source>
+					<year>2020</year>
+					<volume>109</volume>
+					<elocation-id>e102433</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jaut.2020.102433">https://doi.org/10.1016/j.jaut.2020.102433</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Zhang G, Hu C, Luo L, Fang F, Chen Y, Li J, et al. Clinical features and short-term outcomes of 221 patients with COVID-19 in Wuhan, China. J Clin Virol. 2020;127:104364. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jcv.2020.104364">https://doi.org/10.1016/j.jcv.2020.104364</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Zhang</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Hu</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Luo</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Fang</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Chen</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Li</surname>
+							<given-names>J</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Clinical features and short-term outcomes of 221 patients with COVID-19 in Wuhan, China</article-title>
+					<source>J Clin Virol</source>
+					<year>2020</year>
+					<volume>127</volume>
+					<size units="pages">104364</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jcv.2020.104364">https://doi.org/10.1016/j.jcv.2020.104364</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. World Health Organization. WHO Coronavirus Disease (COVID-19) Dashboard: Brazil situation. Geneva (CH): WHO; 2021 [cited 2021 Apr 26]. Available from: <ext-link ext-link-type="uri" xlink:href="https://covid19.who.int/region/amro/country/br">https://covid19.who.int/region/amro/country/br</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>World Health Organization</collab>
+					</person-group>
+					<source>WHO Coronavirus Disease (COVID-19) Dashboard: Brazil situation</source>
+					<publisher-loc>Geneva (CH)</publisher-loc>
+					<publisher-name>WHO</publisher-name>
+					<year>2021</year>
+					<date-in-citation content-type="cited-date">cited 2021 Apr 26</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://covid19.who.int/region/amro/country/br">https://covid19.who.int/region/amro/country/br</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. Secretaria da Saúde do Estado do Paraná. Coronavírus (COVID-19): panorama Covid 19. Inf Epidemiol. 24 abr 2021 [cited 2021 Apr 26]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.saude.pr.gov.br/sites/default/arquivos_restritos/files/documento/2021-04/informe_epidemiologico_26_04_2021.pdf">https://www.saude.pr.gov.br/sites/default/arquivos_restritos/files/documento/2021-04/informe_epidemiologico_26_04_2021.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Secretaria da Saúde do Estado do Paraná</collab>
+					</person-group>
+					<article-title>Coronavírus (COVID-19): panorama Covid 19</article-title>
+					<source>Inf Epidemiol</source>
+					<day>24</day>
+					<month>04</month>
+					<year>2021</year>
+					<date-in-citation content-type="cited-date">cited 2021 Apr 26</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.saude.pr.gov.br/sites/default/arquivos_restritos/files/documento/2021-04/informe_epidemiologico_26_04_2021.pdf">https://www.saude.pr.gov.br/sites/default/arquivos_restritos/files/documento/2021-04/informe_epidemiologico_26_04_2021.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. Instituto Brasileiro de Geografia e Estatística. Cidades. Paraná: Panorama. Rio de Janeiro; IBGE; 2020 [cited 2021 Jan 13]. Available from: <ext-link ext-link-type="uri" xlink:href="https://cidades.ibge.gov.br/brasil/pr/panorama">https://cidades.ibge.gov.br/brasil/pr/panorama</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Instituto Brasileiro de Geografia e Estatística</collab>
+					</person-group>
+					<source>Cidades</source>
+					<publisher-loc>Paraná</publisher-loc>
+					<publisher-name>Panorama</publisher-name>
+					<publisher-loc>Rio de Janeiro</publisher-loc>
+					<publisher-name>IBGE</publisher-name>
+					<year>2020</year>
+					<date-in-citation content-type="cited-date">cited 2021 Jan 13</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://cidades.ibge.gov.br/brasil/pr/panorama">https://cidades.ibge.gov.br/brasil/pr/panorama</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. Secretaria da Saúde do Estado do Paraná. Regionais de Saúde. Curitiba, PR; 2021 [cited 2021 Jan 13]. Available from: <ext-link ext-link-type="uri" xlink:href="http://www.saude.pr.gov.br/Pagina/Regionais-de-Saude">http://www.saude.pr.gov.br/Pagina/Regionais-de-Saude</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Secretaria da Saúde do Estado do Paraná</collab>
+					</person-group>
+					<source>Regionais de Saúde</source>
+					<publisher-loc>Curitiba, PR</publisher-loc>
+					<year>2021</year>
+					<date-in-citation content-type="cited-date">cited 2021 Jan 13</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="http://www.saude.pr.gov.br/Pagina/Regionais-de-Saude">http://www.saude.pr.gov.br/Pagina/Regionais-de-Saude</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. Secretaria da Saúde do Estado do Paraná. Coronavírus (COVID-19). Inf Epidemiol. 18 jan 2021 [cited 2021 Jan 18]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.saude.pr.gov.br/sites/default/arquivos_restritos/files/documento/2021-01/informe_epidemiologico_18_01_2021.pdf">https://www.saude.pr.gov.br/sites/default/arquivos_restritos/files/documento/2021-01/informe_epidemiologico_18_01_2021.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Secretaria da Saúde do Estado do Paraná</collab>
+					</person-group>
+					<article-title>Coronavírus (COVID-19)</article-title>
+					<source>Inf Epidemiol</source>
+					<day>18</day>
+					<month>01</month>
+					<year>2021</year>
+					<date-in-citation content-type="cited-date">cited 2021 Jan 18</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.saude.pr.gov.br/sites/default/arquivos_restritos/files/documento/2021-01/informe_epidemiologico_18_01_2021.pdf">https://www.saude.pr.gov.br/sites/default/arquivos_restritos/files/documento/2021-01/informe_epidemiologico_18_01_2021.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. Ministério da Saúde (BR), Departamento de Informática do Sistema Único de Saúde (DATASUS). CNES - recursos físicos - hospitalar - leitos complementares – Brasil. Brasília, DF; 2021 [cited 2021 Jan 18]. Available from: <ext-link ext-link-type="uri" xlink:href="http://tabnet.datasus.gov.br/cgi/tabcgi.exe?cnes/cnv/leiutibr.def">http://tabnet.datasus.gov.br/cgi/tabcgi.exe?cnes/cnv/leiutibr.def</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+						<collab>Departamento de Informática do Sistema Único de Saúde (DATASUS)</collab>
+					</person-group>
+					<source>CNES - recursos físicos - hospitalar - leitos complementares – Brasil</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<year>2021</year>
+					<date-in-citation content-type="cited-date">cited 2021 Jan 18</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="http://tabnet.datasus.gov.br/cgi/tabcgi.exe?cnes/cnv/leiutibr.def">http://tabnet.datasus.gov.br/cgi/tabcgi.exe?cnes/cnv/leiutibr.def</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. Melo JAVB. Policentralidade e mobilidade na Região Metropolitana do Rio de Janeiro. Bitácora Urbano Territorial. 2019;29(3):11-20. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.15446/bitacora.v29n3.62420">https://doi.org/10.15446/bitacora.v29n3.62420</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Melo</surname>
+							<given-names>JAVB</given-names>
+						</name>
+					</person-group>
+					<article-title>Policentralidade e mobilidade na Região Metropolitana do Rio de Janeiro</article-title>
+					<source>Bitácora Urbano Territorial</source>
+					<year>2019</year>
+					<volume>29</volume>
+					<issue>3</issue>
+					<fpage>11</fpage>
+					<lpage>20</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.15446/bitacora.v29n3.62420">https://doi.org/10.15446/bitacora.v29n3.62420</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. Moran PAP. Notes on continuous stochastic phenomena. Biometrika. 1950;37(1-2):17-23. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/biomet/37.1-2.17">https://doi.org/10.1093/biomet/37.1-2.17</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Moran</surname>
+							<given-names>PAP</given-names>
+						</name>
+					</person-group>
+					<article-title>Notes on continuous stochastic phenomena</article-title>
+					<source>Biometrika</source>
+					<year>1950</year>
+					<volume>37</volume>
+					<season>1-2</season>
+					<fpage>17</fpage>
+					<lpage>23</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/biomet/37.1-2.17">https://doi.org/10.1093/biomet/37.1-2.17</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Anselin L, Smimov O. Visualizing multivariate spatial correlation with dynamically linked Windows. In: Anselin L, Rey S. editors. New tools for spatial data analysis: proceedings of the Specialist Meeting. Santa Barbara, CA: Center for Spatially Integrated Social Science (CSISS), University of California; 2002 [cited 2021 Jan 18]. p. 1-20. Available from: <ext-link ext-link-type="uri" xlink:href="https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.201.2665&amp;rep=rep1&amp;type=pdf">https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.201.2665&amp;rep=rep1&amp;type=pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Anselin</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Smimov</surname>
+							<given-names>O</given-names>
+						</name>
+					</person-group>
+					<chapter-title>Visualizing multivariate spatial correlation with dynamically linked Windows</chapter-title>
+					<person-group person-group-type="editor">
+						<name>
+							<surname>Anselin</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Rey</surname>
+							<given-names>S.</given-names>
+						</name>
+						<role>editors</role>
+					</person-group>
+					<source>New tools for spatial data analysis: proceedings of the Specialist Meeting</source>
+					<publisher-loc>Santa Barbara, CA</publisher-loc>
+					<publisher-name>Center for Spatially Integrated Social Science (CSISS), University of California</publisher-name>
+					<year>2002</year>
+					<date-in-citation content-type="cited-date">cited 2021 Jan 18</date-in-citation>
+					<fpage>1</fpage>
+					<lpage>20</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.201.2665&amp;rep=rep1&amp;type=pdf">https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.201.2665&amp;rep=rep1&amp;type=pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18. Pedrosa NL, Albuquerque NLS. Análise espacial dos casos de COVID-19 e leitos de terapia intensiva no estado do Ceará, Brasil. Cienc Saude Colet. 2020;25 Suppl 1:2461-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1413-81232020256.1.10952020">https://doi.org/10.1590/1413-81232020256.1.10952020</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pedrosa</surname>
+							<given-names>NL</given-names>
+						</name>
+						<name>
+							<surname>Albuquerque</surname>
+							<given-names>NLS</given-names>
+						</name>
+					</person-group>
+					<article-title>Análise espacial dos casos de COVID-19 e leitos de terapia intensiva no estado do Ceará, Brasil</article-title>
+					<source>Cienc Saude Colet</source>
+					<year>2020</year>
+					<volume>25</volume>
+					<supplement>Suppl 1</supplement>
+					<fpage>2461</fpage>
+					<lpage>2468</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1413-81232020256.1.10952020">https://doi.org/10.1590/1413-81232020256.1.10952020</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19. Gomes GGC, Bisco NCB, Paulo MF, Fabrin SCV, Fioco EM, Verri ED, et al. Perfil epidemiológico da Nova Doença Infecciosa do Coronavírus - COVID-19 (Sars-Cov-2) no mundo: estudo descritivo, janeiro-junho de 2020. Braz J Health Rev. 2020;3(4):7993-8007. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.34119/bjhrv3n4-064">https://doi.org/10.34119/bjhrv3n4-064</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Gomes</surname>
+							<given-names>GGC</given-names>
+						</name>
+						<name>
+							<surname>Bisco</surname>
+							<given-names>NCB</given-names>
+						</name>
+						<name>
+							<surname>Paulo</surname>
+							<given-names>MF</given-names>
+						</name>
+						<name>
+							<surname>Fabrin</surname>
+							<given-names>SCV</given-names>
+						</name>
+						<name>
+							<surname>Fioco</surname>
+							<given-names>EM</given-names>
+						</name>
+						<name>
+							<surname>Verri</surname>
+							<given-names>ED</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Perfil epidemiológico da Nova Doença Infecciosa do Coronavírus - COVID-19 (Sars-Cov-2) no mundo: estudo descritivo, janeiro-junho de 2020</article-title>
+					<source>Braz J Health Rev</source>
+					<year>2020</year>
+					<volume>3</volume>
+					<issue>4</issue>
+					<fpage>7993</fpage>
+					<lpage>8007</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.34119/bjhrv3n4-064">https://doi.org/10.34119/bjhrv3n4-064</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20. Garcia LP, Duarte E. Intervenções não farmacológicas para o enfrentamento à epidemia da COVID-19 no Brasil. Epidemiol Serv Saude. 2020;29(2):e2020222. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5123/s1679-49742020000200009">https://doi.org/10.5123/s1679-49742020000200009</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Garcia</surname>
+							<given-names>LP</given-names>
+						</name>
+						<name>
+							<surname>Duarte</surname>
+							<given-names>E</given-names>
+						</name>
+					</person-group>
+					<article-title>Intervenções não farmacológicas para o enfrentamento à epidemia da COVID-19 no Brasil</article-title>
+					<source>Epidemiol Serv Saude</source>
+					<year>2020</year>
+					<volume>29</volume>
+					<issue>2</issue>
+					<elocation-id>e2020222</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5123/s1679-49742020000200009">https://doi.org/10.5123/s1679-49742020000200009</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>21. Ministério da Saúde (BR), Secretaria de Vigilância em Saúde. Doença pelo Coronavírus COVID-19. Bol Epidemiol: 2021[cited 2021 Jan 18];(52 Nº Espec):1-85. Available from: <ext-link ext-link-type="uri" xlink:href="http://saude.gov.br/images/pdf/2020/July/01/Boletim-epidemiologico-COVID-20-3.pdf">http://saude.gov.br/images/pdf/2020/July/01/Boletim-epidemiologico-COVID-20-3.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+						<collab>Secretaria de Vigilância em Saúde</collab>
+					</person-group>
+					<article-title>Doença pelo Coronavírus COVID-19</article-title>
+					<source>Bol Epidemiol</source>
+					<year>2021</year>
+					<date-in-citation content-type="cited-date">cited 2021 Jan 18</date-in-citation>
+					<volume>52</volume>
+					<comment>Nº Espec</comment>
+					<fpage>1</fpage>
+					<lpage>85</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="http://saude.gov.br/images/pdf/2020/July/01/Boletim-epidemiologico-COVID-20-3.pdf">http://saude.gov.br/images/pdf/2020/July/01/Boletim-epidemiologico-COVID-20-3.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>22. Lopes LFD, Faria RM, Lima MP, Kirchhof RS, Almeida DM, Moura GL. Descrição do perfil epidemiológico da Covid-19 na Região Sul do Brasil. Hygeia. 2020;16;188-98. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.14393/Hygeia16054772">https://doi.org/10.14393/Hygeia16054772</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lopes</surname>
+							<given-names>LFD</given-names>
+						</name>
+						<name>
+							<surname>Faria</surname>
+							<given-names>RM</given-names>
+						</name>
+						<name>
+							<surname>Lima</surname>
+							<given-names>MP</given-names>
+						</name>
+						<name>
+							<surname>Kirchhof</surname>
+							<given-names>RS</given-names>
+						</name>
+						<name>
+							<surname>Almeida</surname>
+							<given-names>DM</given-names>
+						</name>
+						<name>
+							<surname>Moura</surname>
+							<given-names>GL</given-names>
+						</name>
+					</person-group>
+					<article-title>Descrição do perfil epidemiológico da Covid-19 na Região Sul do Brasil</article-title>
+					<source>Hygeia</source>
+					<year>2020</year>
+					<volume>16</volume>
+					<fpage>188</fpage>
+					<lpage>198</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.14393/Hygeia16054772">https://doi.org/10.14393/Hygeia16054772</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>23. Crokidakis N. Modeling of the evolution of COVID-19 in Brazil: results from a Susceptible-Infectious-Quarantined-Recovered (SIQR) model. Int J Mod Phys C. 2020 [cited 2021 Jan 16];31(10):2050135. Available from: <ext-link ext-link-type="uri" xlink:href="https://arxiv.org/pdf/2003.12150.pdf">https://arxiv.org/pdf/2003.12150.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Crokidakis</surname>
+							<given-names>N</given-names>
+						</name>
+					</person-group>
+					<article-title>Modeling of the evolution of COVID-19 in Brazil: results from a Susceptible-Infectious-Quarantined-Recovered (SIQR) model</article-title>
+					<source>Int J Mod Phys C</source>
+					<year>2020</year>
+					<date-in-citation content-type="cited-date">cited 2021 Jan 16</date-in-citation>
+					<volume>31</volume>
+					<issue>10</issue>
+					<size units="pages">2050135</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://arxiv.org/pdf/2003.12150.pdf">https://arxiv.org/pdf/2003.12150.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>24. RankBR. Coronavírus a pandemia no Brasil [Internet]. Brasília; 2021 [cited 2021 Apr 20]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.rankbr.com.br/">https://www.rankbr.com.br/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>RankBR</collab>
+					</person-group>
+					<source>Coronavírus a pandemia no Brasil</source>
+					<comment>Internet</comment>
+					<publisher-loc>Brasília</publisher-loc>
+					<year>2021</year>
+					<date-in-citation content-type="cited-date">cited 2021 Apr 20</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.rankbr.com.br/">https://www.rankbr.com.br/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>25. CDC COVID-19 Response Team. Geographic differences in COVID-19 cases, deaths, and incidence - United States, February 12-April 7, 2020. MMWR Morb Mortal Wkly Rep. 2020;69(15):465-71. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.15585/mmwr.mm6915e4">https://doi.org/10.15585/mmwr.mm6915e4</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<collab>CDC COVID-19 Response Team</collab>
+					</person-group>
+					<article-title>Geographic differences in COVID-19 cases, deaths, and incidence - United States, February 12-April 7, 2020</article-title>
+					<source>MMWR Morb Mortal Wkly Rep</source>
+					<year>2020</year>
+					<volume>69</volume>
+					<issue>15</issue>
+					<fpage>465</fpage>
+					<lpage>471</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.15585/mmwr.mm6915e4">https://doi.org/10.15585/mmwr.mm6915e4</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation>26. Kuchler T, Russel D, Stroebel J. The geographic spread of COVID-19 correlates with structure of social networks as measured by Facebook. Cambridge, MA: National Bureau of Economic Research; 2020. (NBER Working Papers; nº 26990). <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3386/w26990">https://doi.org/10.3386/w26990</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kuchler</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Russel</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Stroebel</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<source>The geographic spread of COVID-19 correlates with structure of social networks as measured by Facebook</source>
+					<publisher-loc>Cambridge, MA</publisher-loc>
+					<publisher-name>National Bureau of Economic Research</publisher-name>
+					<year>2020</year>
+					<comment>NBER Working Papers; nº 26990</comment>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3386/w26990">https://doi.org/10.3386/w26990</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<mixed-citation>27. Zheng R, Xu Y, Wang W, Ning G, Bi Y. Spatial transmission of COVID-19 via public and private transportation in China. Travel Med Infect Dis. 2020;34:101626. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.tmaid.2020.101626">https://doi.org/10.1016/j.tmaid.2020.101626</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Zheng</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Xu</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Ning</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Bi</surname>
+							<given-names>Y</given-names>
+						</name>
+					</person-group>
+					<article-title>Spatial transmission of COVID-19 via public and private transportation in China</article-title>
+					<source>Travel Med Infect Dis</source>
+					<year>2020</year>
+					<volume>34</volume>
+					<size units="pages">101626</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.tmaid.2020.101626">https://doi.org/10.1016/j.tmaid.2020.101626</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<mixed-citation>28. Nascimento E, Tombini LHT, Ripplinger F. Espacialização da Covid-19 no Sul do Brasil: a interiorização da doença e o caso da mesorregião grande fronteira do Mercosul. Finisterra. 2020;55(115):27-35. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.18055/Finis20367">https://doi.org/10.18055/Finis20367</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Nascimento</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Tombini</surname>
+							<given-names>LHT</given-names>
+						</name>
+						<name>
+							<surname>Ripplinger</surname>
+							<given-names>F</given-names>
+						</name>
+					</person-group>
+					<article-title>Espacialização da Covid-19 no Sul do Brasil: a interiorização da doença e o caso da mesorregião grande fronteira do Mercosul</article-title>
+					<source>Finisterra</source>
+					<year>2020</year>
+					<volume>55</volume>
+					<issue>115</issue>
+					<fpage>27</fpage>
+					<lpage>35</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.18055/Finis20367">https://doi.org/10.18055/Finis20367</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B29">
+				<label>29</label>
+				<mixed-citation>29. Chen ZL, Zhang Q, Lu Y, Guo ZM, Zhang X, Zhang WJ, et al. Distribution of the COVID-19 epidemic and correlation with population emigration from Wuhan, China. Chin Med J (Engl). 2020;133(9):1044-50. <ext-link ext-link-type="uri" xlink:href="https://doi.orrg/10.1097/CM9.0000000000000782">https://doi.orrg/10.1097/CM9.0000000000000782</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Chen</surname>
+							<given-names>ZL</given-names>
+						</name>
+						<name>
+							<surname>Zhang</surname>
+							<given-names>Q</given-names>
+						</name>
+						<name>
+							<surname>Lu</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Guo</surname>
+							<given-names>ZM</given-names>
+						</name>
+						<name>
+							<surname>Zhang</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Zhang</surname>
+							<given-names>WJ</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Distribution of the COVID-19 epidemic and correlation with population emigration from Wuhan, China</article-title>
+					<source>Chin Med J (Engl)</source>
+					<year>2020</year>
+					<volume>133</volume>
+					<issue>9</issue>
+					<fpage>1044</fpage>
+					<lpage>1050</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.orrg/10.1097/CM9.0000000000000782">https://doi.orrg/10.1097/CM9.0000000000000782</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B30">
+				<label>30</label>
+				<mixed-citation>30. Moreira RS. COVID-19: unidades de terapia intensiva, ventiladores mecânicos e perfis latentes de mortalidade associados à letalidade no Brasil. Cad Saude Publica. 2020;36(5):e00080020. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0102-311X00080020">https://doi.org/10.1590/0102-311X00080020</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Moreira</surname>
+							<given-names>RS</given-names>
+						</name>
+					</person-group>
+					<article-title>COVID-19: unidades de terapia intensiva, ventiladores mecânicos e perfis latentes de mortalidade associados à letalidade no Brasil</article-title>
+					<source>Cad Saude Publica</source>
+					<year>2020</year>
+					<volume>36</volume>
+					<issue>5</issue>
+					<elocation-id>e00080020</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0102-311X00080020">https://doi.org/10.1590/0102-311X00080020</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B31">
+				<label>31</label>
+				<mixed-citation>31. Noronha KVMS, Guedes GR, Turra CM, Andrade MV, Botega L, Nogueira D, et al. Pandemia por COVID-19 no Brasil: análise da demanda e da oferta de leitos hospitalares e equipamentos de ventilação assistida segundo diferentes cenários. Cad Saude Publica. 2020;36(6):e00115320. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0102-311X00115320">https://doi.org/10.1590/0102-311X00115320</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Noronha</surname>
+							<given-names>KVMS</given-names>
+						</name>
+						<name>
+							<surname>Guedes</surname>
+							<given-names>GR</given-names>
+						</name>
+						<name>
+							<surname>Turra</surname>
+							<given-names>CM</given-names>
+						</name>
+						<name>
+							<surname>Andrade</surname>
+							<given-names>MV</given-names>
+						</name>
+						<name>
+							<surname>Botega</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Nogueira</surname>
+							<given-names>D</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Pandemia por COVID-19 no Brasil: análise da demanda e da oferta de leitos hospitalares e equipamentos de ventilação assistida segundo diferentes cenários</article-title>
+					<source>Cad Saude Publica</source>
+					<year>2020</year>
+					<volume>36</volume>
+					<issue>6</issue>
+					<elocation-id>e00115320</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0102-311X00115320">https://doi.org/10.1590/0102-311X00115320</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="financial-disclosure" id="fn2">
+				<p><bold>Funding:</bold> Universal Call of the <italic>Ministério da Ciência, Tecnologia, Inovações e Comunicações</italic> (MCTIC – Ministry of Science, Technology, Innovation and Communications). Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq). <italic>Fundo Nacional de Desenvolvimento Científico e Tecnológico</italic> (FNDCT — National Development, Scientific and Technological Funding). Brazilian Ministry of Health (MOH)/<italic>Secretaria de Ciência, Tecnologia, Inovação e Insumos Estratégicos em Saúde</italic> (SCTIE — Secretariat of Science, Technology, Innovation and Strategic Inputs). <italic>Departamento de Ciência e Tecnologia</italic> (DECIT — Department of Science and Technology) — Process no. 07/2020.</p>
+			</fn>
+		</fn-group>
+	</back>
+	<sub-article article-type="translation" id="TRpt" xml:lang="pt">
+		<front-stub>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artigo Original</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Correlação espacial da covid-19 com leitos de unidades de terapia intensiva no Paraná</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-7338-121X</contrib-id>
+					<name>
+						<surname>Covre</surname>
+						<given-names>Eduardo Rocha</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-7116-0533</contrib-id>
+					<name>
+						<surname>Pereira</surname>
+						<given-names>Natan David</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-7239-4289</contrib-id>
+					<name>
+						<surname>Oliveira</surname>
+						<given-names>Natan Nascimento de</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-8262-2086</contrib-id>
+					<name>
+						<surname>Charlo</surname>
+						<given-names>Patrícia Bossolani</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-4095-9382</contrib-id>
+					<name>
+						<surname>Oliveira</surname>
+						<given-names>Magda Lúcia Félix de</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-3373-1654</contrib-id>
+					<name>
+						<surname>Oliveira</surname>
+						<given-names>Rosana Rosseto de</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff2002"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-3891-4222</contrib-id>
+					<name>
+						<surname>Carreira</surname>
+						<given-names>Lígia</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-5746-5170</contrib-id>
+					<name>
+						<surname>Facchini</surname>
+						<given-names>Luiz Augusto</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3002"><sup>III</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-7276-0402</contrib-id>
+					<name>
+						<surname>Vissoci</surname>
+						<given-names>João Ricardo Nickenig</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff4002"><sup>IV</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-6386-1962</contrib-id>
+					<name>
+						<surname>Salci</surname>
+						<given-names>Maria Aparecida</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1002">
+				<label>I</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Universidade Estadual de Maringá. Programa de Pós-Graduação em Enfermagem. Maringá, PR, Brasil</institution>
+			</aff>
+			<aff id="aff2002">
+				<label>II</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Centro Universitário Ingá. Departamento de Enfermagem. Maringá, PR, Brasil</institution>
+			</aff>
+			<aff id="aff3002">
+				<label>III</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Universidade Federal de Pelotas. Programa de Pós-Graduação em Epidemiologia e Saúde da Família. Pelotas, RS, Brasil</institution>
+			</aff>
+			<aff id="aff4002">
+				<label>IV</label>
+				<country country="US">United States</country>
+				<institution content-type="original">Duke University. Duke University Medical Center. Durham, NC, United States</institution>
+			</aff>
+			<author-notes>
+				<corresp id="c01002"> Correspondência: Eduardo Rocha Covre Avenida Colombo, 5.790 87.020-900 Maringá, PR, Brasil E-mail: eduardocovre@hotmail.com </corresp>
+				<fn fn-type="con">
+					<p><bold>Contribuição dos Autores:</bold> Concepção e planejamento do estudo: ERC, RRO, NNO, NDP, PBC. Coleta, análise e interpretação dos dados: ERC, NNO, RRO, LAF. Elaboração ou revisão do manuscrito: ERC, MAS, LC. Aprovação da versão final: ERC, NDP, NNO, PBC, MLFO, RRO, LC, LAF, JRNV, MAS. Responsabilidade pública pelo conteúdo do artigo: ERC, NDP, NNO, PBC, MLFO, RRO, LC, LAF, JRNV, MAS.</p>
+				</fn>
+				<fn fn-type="conflict">
+					<p><bold>Conflito de Interesses:</bold> Os autores declaram não haver conflito de interesses.</p>
+				</fn>
+			</author-notes>
+			<abstract>
+				<title>RESUMO</title>
+				<sec>
+					<title>OBJETIVO</title>
+					<p> Analisar a correlação espacial entre os casos confirmados de covid-19 com os leitos de unidades de terapia intensiva exclusivos para a doença nos municípios do Paraná.</p>
+				</sec>
+				<sec>
+					<title>MÉTODO</title>
+					<p> Trata-se de um estudo epidemiológico, do tipo ecológico que utilizou dados do Informe Epidemiológico fornecido pela Secretaria de Estado da Saúde do Paraná sobre os casos confirmados de covid-19, no período de 12 de março de 2020 a 18 de janeiro de 2021. A quantidade de leitos de terapia intensiva exclusivos para covid-19 de cada município paranaense foi obtida pelo Cadastro Nacional de Estabelecimentos de Saúde disponibilizado online pelo Departamento de Informática do Sistema Único de Saúde. A variável leito de terapia intensiva foi analisada pelo Índice Bivariado de Moran (local e global). Para a identificação de áreas críticas e de transição utilizou-se o LISA Map. Para avaliar a correlação espacial foi utilizado o Índice Bivariado de Moran, considerando o nível de significância de 5%.</p>
+				</sec>
+				<sec>
+					<title>RESULTADOS</title>
+					<p> No período analisado foram confirmados 499.777 casos de covid-19 no Paraná e identificados 1.029 leitos de terapia intensiva exclusivos para a doença entre os municípios do estado. Foi identificado autocorrelação espacial positiva entre os casos confirmados de covid-19 (0,404–p ≤ 0,001) com os leitos de terapia intensiva exclusivos para a doença (0,085–p ≤ 0,001) e disparidades entre as regiões do Paraná.</p>
+				</sec>
+				<sec>
+					<title>CONCLUSÃO</title>
+					<p> A análise espacial permitiu confirmar a relação entre os casos confirmados de covid-19 e a distribuição de leitos de terapia intensiva exclusivos para a doença no Paraná e possibilitou identificar áreas prioritárias de atenção no estado, relacionadas à disseminação e controle da doença.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="pt">
+				<kwd>COVID-19, complicações</kwd>
+				<kwd>Unidades de Terapia Intensiva, provisão &amp; distribuição</kwd>
+				<kwd>Análise Espacial</kwd>
+				<kwd>Necessidades e Demandas de Serviços de Saúde</kwd>
+				<kwd>Estudos Ecológicos</kwd>
+			</kwd-group>
+		</front-stub>
+		<body>
+			<sec sec-type="intro">
+				<title>INTRODUÇÃO</title>
+				<p>As doenças infecciosas ainda representam uma grande ameaça à saúde pública mundial. Na China, em dezembro de 2019, foram registrados os primeiros casos de uma infecção causada pelo novo coronavírus zoonótico nomeado de síndrome respiratória aguda grave coronavírus-2 (SARS-CoV-2)<sup><xref ref-type="bibr" rid="B1">1</xref></sup>. Infecções causadas por esse tipo de coronavírus são recorrentes, como nas epidemias ocorridas em 2002 e 2012 por SARS-CoV e MERS-CoV, respectivamente, responsáveis pela infecção de mais de 10 mil pessoas em todo o mundo<sup><xref ref-type="bibr" rid="B2">2</xref>,<xref ref-type="bibr" rid="B3">3</xref></sup>.</p>
+				<p>A nova infecção, de início chamada 2019-nCov é denominada hoje por doença de coronavírus 2019 (covid-19)<sup><xref ref-type="bibr" rid="B4">4</xref></sup> e, devido ao alto poder de transmissibilidade e evolução rápida, tendo ultrapassado barreiras continentais, é considerada uma pandemia mundial<sup><xref ref-type="bibr" rid="B1">1</xref>,<xref ref-type="bibr" rid="B5">5</xref></sup>. Estimativas pontuam que no mundo, até 26 de abril de 2021, mais de 146,8 milhões de pessoas foram diagnosticadas com a doença, sendo que aproximadamente 2,1% delas evoluíram a óbito<sup><xref ref-type="bibr" rid="B6">6</xref></sup>.</p>
+				<p>A covid-19 tem como alvo principal o sistema respiratório humano, o que pode evoluir em sua maioria para desconforto respiratório agudo e dano alveolar difuso, com grande potencial de morte aos infectados, necessitando-se de cuidados intensivos<sup><xref ref-type="bibr" rid="B1">1</xref>,<xref ref-type="bibr" rid="B7">7</xref></sup>. Evidências trazidas por um estudo retrospectivo realizado na China demonstraram que cerca de 25% das pessoas diagnosticadas com covid-19 evoluíram para a forma grave da doença e 80% delas necessitaram de internamento em leitos de unidade de terapia intensiva (UTI)<sup><xref ref-type="bibr" rid="B8">8</xref></sup>. Diante disso, nota-se a necessidade de uma quantidade expressiva de leitos de UTI para atender à demanda da população que desenvolve a forma grave da patologia.</p>
+				<p>O Brasil foi o primeiro país da América Latina a notificar a covid-19, no dia 26 de fevereiro de 2020<sup><xref ref-type="bibr" rid="B9">9</xref></sup>. Até 26 de abril de 2021 foram confirmados mais de 390 mil óbitos e 14,3 milhões de casos confirmados da doença, colocando o país na segunda posição do ranking mundial de número de casos confirmados de contaminação pelo novo coronavírus<sup><xref ref-type="bibr" rid="B6">6</xref></sup>. No estado do Paraná, registram-se mais de 21 mil óbitos e 925 mil casos confirmados de covid-19<sup><xref ref-type="bibr" rid="B10">10</xref></sup>.</p>
+				<p>Entretanto, a distribuição de casos da covid-19 não se dá de forma homogênea nas regiões e nos municípios. Os primeiros casos foram identificados nas capitais dos países e, com o passar do tempo, novos casos começaram a ser detectados em regiões e municípios mais longínquos, por consequência da transmissão comunitária do vírus<sup><xref ref-type="bibr" rid="B8">8</xref></sup>.</p>
+				<p>Conhecer como a doença se distribui espacialmente em uma região permite a compreensão da sua propagação, no caso da covid-19, a dinâmica dos grandes centros urbanos para áreas mais remotas e menos desenvolvidas do interior. Ainda, observar como a doença se dispersa geograficamente aliado à expansão de leitos de UTI exclusivos para covid-19 facilita o entendimento sobre a acessibilidade a esse tipo de atendimento, que pode ser crucial ao paciente grave.</p>
+				<p>Diante desse cenário surgiu a seguinte questão de pesquisa: A distribuição de leitos de UTI exclusivos para covid-19 reflete a distribuição espacial de casos da doença nos municípios do Paraná? Assim, este estudo teve como objetivo analisar a correlação espacial entre os casos confirmados de covid-19 com os leitos de unidades de terapia intensiva exclusivos para a doença nos municípios do Paraná.</p>
+			</sec>
+			<sec sec-type="methods">
+				<title>MÉTODO</title>
+				<p>Trata-se de um estudo epidemiológico, do tipo ecológico, sobre a prevalência de casos confirmados de covid-19 e de leitos de UTI exclusivos para a doença nos municípios do estado do Paraná. Foram considerados os casos confirmados da doença, por local de residência, registrados entre 12 de março de 2020 (primeiros casos registrados no estado) e 18 de janeiro de 2021 (data da coleta dos dados para o estudo).</p>
+				<p>O Paraná é um dos três estados da região sul do Brasil, com população estimada em 11.516.840 habitantes no ano de 2020<sup><xref ref-type="bibr" rid="B11">11</xref></sup>. Possui extensa região de fronteira com os estados de Santa Catarina, São Paulo e Mato Grosso do Sul, e com os países Argentina, Paraguai e o Oceano Atlântico. Está organizado em 399 municípios, agrupados em 22 regionais de saúde (RS), articuladas em quatro macrorregionais de saúde (<xref ref-type="fig" rid="f01002">Figura 1</xref>), todas integradas na lógica de rede de atenção à saúde<sup><xref ref-type="bibr" rid="B12">12</xref></sup>.</p>
+				<p>
+					<fig id="f01002">
+						<label>Figura 1</label>
+						<caption>
+							<title>Distribuição das macrorregionais e das regionais de saúde do Paraná. Paraná, Brasil, 2021.</title>
+						</caption>
+						<graphic xlink:href="1518-8787-rsp-56-14-gf01-pt.tif"/>
+						<attrib>Fonte: dados da pesquisa, 2021.</attrib>
+					</fig>
+				</p>
+				<p>Os dados sobre o número de casos confirmados da doença e dados populacionais foram obtidos por meio do Informe Epidemiológico disponibilizado pela Secretaria de Estado da Saúde do Paraná (SESA) no dia 18 de janeiro de 2021<sup><xref ref-type="bibr" rid="B13">13</xref></sup>. O número de leitos de UTI exclusivos para covid-19 foi obtido do cadastro nacional de estabelecimentos de saúde (CNES – recursos físicos) disponibilizado online pelo departamento de informática do sistema único de saúde (Datasus). A coleta dos dados foi realizada no dia 18 de janeiro de 2021, às 20 horas, e foram considerados os leitos de UTI adulta e pediátrica de hospitais públicos e privados. Ressalta-se que os dados são atualizados constantemente e foram considerados os leitos de UTI exclusivos para covid-19 disponíveis até dezembro de 2020<sup><xref ref-type="bibr" rid="B14">14</xref></sup>.</p>
+				<p>Para a análise de distribuição e autocorrelação espacial, os municípios do estado do Paraná foram considerados como as unidades de análise. A base cartográfica com os limites dos municípios foi obtida no site do Instituto Brasileiro de Geografia e Estatística (IBGE). Considerando a possibilidade de flutuações aleatórias do número de casos e leitos, o cálculo da prevalência se deu pela razão suavizada do número de casos da doença e do número de leitos de UTI, pela população estimada de cada município, multiplicado por 100 e 100 mil, respectivamente. A suavização da taxa se deu pelo método de peso de contiguidade do tipo rainha, que determina vizinhança a partir de qualquer fronteira comum aos municípios.</p>
+				<p>Os resultados foram apresentados em mapas coropléticos, organizados a partir das quebras naturais de Jenks. Esse tipo de classificação garante a homogeneidade e a heterogeneidade dos dados, ao realizar a “quebra” das categorias de acordo com a variância de diferentes grupos, minimizando a variância dentro dos próprios grupos<sup><xref ref-type="bibr" rid="B15">15</xref></sup>.</p>
+				<p>Para a análise estatística da dependência espacial foi utilizado o Coeficiente de Autocorrelação Espacial de Moran, que é subdividido nos Índices de Moran Global e Índice de Moran Local.</p>
+				<p>Primeiramente foi calculado o Índice de Moran Global. A estatística proposta por Moran<sup><xref ref-type="bibr" rid="B16">16</xref></sup> foi utilizada para analisar o padrão da distribuição espacial da variável segundo o município. O valor desse índice varia entre -1 e 1, sendo que valores próximos de zero, indicam a ausência de autocorrelação espacial, enquanto valores positivos indicam autocorrelação espacial positiva e valores negativos indicam autocorrelação negativa. Além disso, foi estimado um pseudo p-valor para o Índice de Moral Global, a partir de 999 permutações.</p>
+				<p>Já o Índice de Moran Local foi utilizado para identificar aglomerados de áreas com riscos semelhantes para ocorrência do desfecho de interesse, caso fosse identificada uma autocorrelação espacial significativa pelo Índice de Moran Global. Tal índice permite analisar até que ponto o valor de uma variável para uma determinada área é similar ou diferente às suas áreas vizinhas<sup><xref ref-type="bibr" rid="B16">16</xref></sup>.</p>
+				<p>Os aglomerados formados a partir da análise do Índice de Moran Local podem ser divididos em quatro parâmetros: alto-alto, que representa municípios com altas taxas e vizinhos com altas taxas; baixo-baixo, que representa municípios com baixas taxas e vizinhos com taxas igualmente baixas; baixo-alto, representando cidades com baixas taxas e vizinhos com altas taxas; e alto-baixo, que identifica cidades que apresentam altas taxas e vizinhos com taxas baixas. Para apresentação desses dados foi utilizado o LISA (<italic>Local Indice of Spatial Association</italic>) <italic>Map</italic> que permite expressar os padrões de dependência espacial em nível local por meio de mapas cloropléticos<sup><xref ref-type="bibr" rid="B17">17</xref></sup>.</p>
+				<p>A análise de correlação espacial entre os casos confirmados de covid-19 e os leitos de UTI exclusivos para a doença foi realizada a partir do Índice Bivariado de Moran. Esse índice designa se há associação entre duas variáveis em um determinado local no espaço<sup><xref ref-type="bibr" rid="B17">17</xref></sup>. Foi considerado o nível de significância de 5%. As análises estatísticas foram realizadas pelo software GeoDa versão 1.18, e os mapas foram elaborados no software QGIS versão 3.10.</p>
+				<p>Por se tratar de um estudo com utilização de dados obtidos de fontes secundárias, sem identificação de sujeitos da pesquisa e cujo acesso é de domínio público, não foi necessária a submissão à Comissão Nacional de Ética em Pesquisa (Conep), conforme a resolução nº 510, de 7 de abril de 2016.</p>
+			</sec>
+			<sec sec-type="results">
+				<title>RESULTADOS</title>
+				<p>De acordo com as informações do boletim epidemiológico da Secretaria de Saúde do Estado do Paraná, até o dia 18 de janeiro de 2021, foram confirmados 499.777 casos da doença no estado, com uma prevalência de 4,34 casos por 100 habitantes. As regionais de saúde (RS) de Foz do Iguaçu (9ª RS) e União da Vitória (6ª RS) apresentaram a maior e menor prevalência, registrando 7,58 e 1,84 casos por 100 habitantes, respectivamente (<xref ref-type="table" rid="t1002">Tabela</xref>).</p>
+				<p>
+					<table-wrap id="t1002">
+						<label>Tabela</label>
+						<caption>
+							<title>Prevalência de casos confirmados de covid-19a e de leitos de UTI exclusivos para a doença nas regionais de saúde. Paraná, Brasil, março de 2020 a janeiro de 2021.</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left">Regional de Saúde (RS)</th>
+									<th>População</th>
+									<th>Casos confirmados</th>
+									<th>Leitos de UTI<sup>b</sup></th>
+									<th>Prevalência de casos<sup>c</sup></th>
+									<th>Leitos por habitantes<sup>d</sup></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>1ª RS Paranaguá</td>
+									<td align="center">299.824</td>
+									<td align="center">16.903</td>
+									<td align="center">20</td>
+									<td align="center">5,64</td>
+									<td align="center">6,68</td>
+								</tr>
+								<tr>
+									<td>2ª RS Metropolitana</td>
+									<td align="center">3.693.891</td>
+									<td align="center">157.945</td>
+									<td align="center">416</td>
+									<td align="center">4,27</td>
+									<td align="center">11,26</td>
+								</tr>
+								<tr>
+									<td>3ª RS Ponta Grossa</td>
+									<td align="center">642.624</td>
+									<td align="center">24.764</td>
+									<td align="center">30</td>
+									<td align="center">3,85</td>
+									<td align="center">4,67</td>
+								</tr>
+								<tr>
+									<td>4ª RS Irati</td>
+									<td align="center">176.074</td>
+									<td align="center">5.558</td>
+									<td align="center">4</td>
+									<td align="center">3,15</td>
+									<td align="center">2,27</td>
+								</tr>
+								<tr>
+									<td>5ª RS Guarapuava</td>
+									<td align="center">457.280</td>
+									<td align="center">12.331</td>
+									<td align="center">40</td>
+									<td align="center">2,70</td>
+									<td align="center">8,75</td>
+								</tr>
+								<tr>
+									<td>6ª RS União da Vitória</td>
+									<td align="center">178.277</td>
+									<td align="center">3.285</td>
+									<td align="center">6</td>
+									<td align="center">1,84</td>
+									<td align="center">3,37</td>
+								</tr>
+								<tr>
+									<td>7ª RS Pato Branco</td>
+									<td align="center">268.563</td>
+									<td align="center">11.550</td>
+									<td align="center">28</td>
+									<td align="center">4,30</td>
+									<td align="center">10,43</td>
+								</tr>
+								<tr>
+									<td>8ª RS Francisco Beltrão</td>
+									<td align="center">359.601</td>
+									<td align="center">18.014</td>
+									<td align="center">10</td>
+									<td align="center">5,00</td>
+									<td align="center">2,78</td>
+								</tr>
+								<tr>
+									<td>9ª RS Foz do Iguaçu</td>
+									<td align="center">405.246</td>
+									<td align="center">30.737</td>
+									<td align="center">50</td>
+									<td align="center">7,58</td>
+									<td align="center">12,34</td>
+								</tr>
+								<tr>
+									<td>10ª RS Cascavel</td>
+									<td align="center">554.233</td>
+									<td align="center">27.861</td>
+									<td align="center">46</td>
+									<td align="center">5,03</td>
+									<td align="center">8,30</td>
+								</tr>
+								<tr>
+									<td>11ª RS Campo Mourão</td>
+									<td align="center">327.595</td>
+									<td align="center">10.404</td>
+									<td align="center">31</td>
+									<td align="center">3,17</td>
+									<td align="center">9,46</td>
+								</tr>
+								<tr>
+									<td>12ª RS Umuarama</td>
+									<td align="center">277.003</td>
+									<td align="center">12.076</td>
+									<td align="center">30</td>
+									<td align="center">4,36</td>
+									<td align="center">10,83</td>
+								</tr>
+								<tr>
+									<td>13ª RS Cianorte</td>
+									<td align="center">162.273</td>
+									<td align="center">6.502</td>
+									<td align="center">8</td>
+									<td align="center">4,00</td>
+									<td align="center">4,93</td>
+								</tr>
+								<tr>
+									<td>14ª RS Paranavaí</td>
+									<td align="center">277.060</td>
+									<td align="center">7.515</td>
+									<td align="center">10</td>
+									<td align="center">2,71</td>
+									<td align="center">3,61</td>
+								</tr>
+								<tr>
+									<td>15ª RS Maringá</td>
+									<td align="center">847.559</td>
+									<td align="center">42.190</td>
+									<td align="center">94</td>
+									<td align="center">4,98</td>
+									<td align="center">11,09</td>
+								</tr>
+								<tr>
+									<td>16ª RS Apucarana</td>
+									<td align="center">387.414</td>
+									<td align="center">13.469</td>
+									<td align="center">50</td>
+									<td align="center">3,48</td>
+									<td align="center">12,91</td>
+								</tr>
+								<tr>
+									<td>17ª RS Londrina</td>
+									<td align="center">972.283</td>
+									<td align="center">47.998</td>
+									<td align="center">80</td>
+									<td align="center">4,94</td>
+									<td align="center">8,23</td>
+								</tr>
+								<tr>
+									<td>18ª RS Cornélio Procópio</td>
+									<td align="center">221.744</td>
+									<td align="center">7.430</td>
+									<td align="center">8</td>
+									<td align="center">3,35</td>
+									<td align="center">3,61</td>
+								</tr>
+								<tr>
+									<td>19ª RS Jacarezinho</td>
+									<td align="center">289.587</td>
+									<td align="center">7.772</td>
+									<td align="center">10</td>
+									<td align="center">2,68</td>
+									<td align="center">3,45</td>
+								</tr>
+								<tr>
+									<td>20ª RS Toledo</td>
+									<td align="center">401.772</td>
+									<td align="center">22.640</td>
+									<td align="center">30</td>
+									<td align="center">5,63</td>
+									<td align="center">7,47</td>
+								</tr>
+								<tr>
+									<td>21ª RS Telêmaco Borba</td>
+									<td align="center">189.750</td>
+									<td align="center">9.516</td>
+									<td align="center">24</td>
+									<td align="center">5,01</td>
+									<td align="center">12,65</td>
+								</tr>
+								<tr>
+									<td>22ª RS Ivaiporã</td>
+									<td align="center">127.237</td>
+									<td align="center">3.317</td>
+									<td align="center">4</td>
+									<td align="center">2,60</td>
+									<td align="center">3,14</td>
+								</tr>
+								<tr>
+									<td><bold>Paraná</bold></td>
+									<td align="center"><bold>11.516.840</bold></td>
+									<td align="center"><bold>499.777</bold></td>
+									<td align="center"><bold>1.029</bold></td>
+									<td align="center"><bold>4,34</bold></td>
+									<td align="center"><bold>8,93</bold></td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<attrib>Fonte: Elaboração a partir dos dados da Secretaria de Estado da Saúde do Paraná (SESA) e Ministério da Saúde (departamento de informática do sistema único de saúde – Datasus).</attrib>
+							<fn id="TFN1002">
+								<p><sup>a</sup> Doença de coronavírus 2019.</p>
+							</fn>
+							<fn id="TFN2002">
+								<p><sup>b</sup> UTI: unidade de terapia intensiva, exclusiva para covid-19.</p>
+							</fn>
+							<fn id="TFN3002">
+								<p><sup>c</sup> Por 100 habitantes.</p>
+							</fn>
+							<fn id="TFN4002">
+								<p><sup>d</sup> Por 100 mil habitantes.</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p>Os leitos de UTI exclusivos para covid-19 somaram 1.029 no estado, com prevalência de 8,93 leitos por 100 mil habitantes. Nas regionais de saúde de Apucarana (16ª RS) e Irati (4ª RS) registraram a maior e menor prevalência de leitos, apresentando 12,91 e 2,27 leitos por 100 mil habitantes, respectivamente (<xref ref-type="table" rid="t1002">Tabela</xref>).</p>
+				<p>Foram encontradas disparidades no estado na distribuição de casos confirmados da covid-19 e leitos de UTI exclusivos para a doença. Regionais de saúde como a 5ª (Guarapuava) e a 11ª (Campo Mourão) apresentaram menores taxas de casos, enquanto a 1ª (Paranaguá) e a 9ª (Foz do Iguaçu) obtiveram alta prevalência dos mesmos. Com relação aos leitos, poucos municípios, espalhados pelo estado, apresentaram uma alta prevalência. Dos 399 municípios do Paraná, 367 deles não apresentou nenhum leito de UTI exclusivo para covid-19 (<xref ref-type="fig" rid="f02002">Figura 2</xref>).</p>
+				<p>
+					<fig id="f02002">
+						<label>Figura 2</label>
+						<caption>
+							<title>Distribuição espacial da prevalência suavizada de casos confirmados da covid-19 (A) e de leitos de unidades de terapia intensiva (B) nos municípios e regionais de saúde. Paraná, Brasil, março de 2020 a janeiro de 2021.</title>
+						</caption>
+						<graphic xlink:href="1518-8787-rsp-56-14-gf02-pt.tif"/>
+					</fig>
+				</p>
+				<p>O Índice de Moran Global apontou autocorrelação espacial positiva para os casos de covid-19 no estado, com valor de 0,404 (p ≤ 0,001). <italic>Clusters</italic> foram formados a partir dos aglomerados constituídos pelos municípios que apresentaram significância quanto à relação das taxas de covid-19 e o local de residência. No total, 265 municípios não demonstraram significância, 55 apresentaram padrão alto-alto, 60 baixo-baixo, 12 baixo-alto e sete alto-baixo (<xref ref-type="fig" rid="f03002">Figura 3</xref>).</p>
+				<p>
+					<fig id="f03002">
+						<label>Figura 3</label>
+						<caption>
+							<title>Autocorrelação espacial dos casos confirmados de covid-19 em municípios sede de regionais de saúde e vizinhos, segundo a análise do Índice Local de Moran (LISA) Univariado. Paraná, Brasil, março de 2020 a janeiro de 2021.</title>
+						</caption>
+						<graphic xlink:href="1518-8787-rsp-56-14-gf03-pt.tif"/>
+					</fig>
+				</p>
+				<p>É possível verificar um <italic>cluster</italic> alto-alto que compreende toda a 9ª RS (Foz do Iguaçú), com munícipios conglomerados que pertencem à 10ª RS (Cascavel) e 20ª RS (Toledo), bem como dois outros <italic>clusters</italic> alto-alto, um deles formado por cidades da 1ª RS (Paranaguá) e 2ª RS (Curitiba) e o outro formado por municípios da 7ª RS (Pato Branco) e 8ª RS (Francisco Beltrão). Um quarto <italic>cluster</italic> alto-alto aparece no Norte do estado, representando as cidades das regionais de Maringá e Londrina, 15ª e 17ª RS respectivamente (<xref ref-type="fig" rid="f03002">Figura 3</xref>).</p>
+				<p>Um <italic>cluster</italic> grande baixo-baixo foi formado com quase todos os municípios da 6ª RS (União da Vitória) e alguns municípios que compõem a 3ª (Ponta Grossa), 4ª (Irati), 5ª (Guarapuava), 11ª (Campo Mourão) e 12ª (Umuarama) RS, se estenderam pela região Centro-sul do estado. Além dele, outros dois <italic>clusters</italic> baixo-baixo apareceram na Região Norte. Um deles, formado por 14 municípios pertencentes às 18ª (Cornélio Procópio) e 19ª (Jacarezinho) RS, outro composto por seis cidades da 14ª (Paranavaí) RS e uma cidade da 15ª (Maringá) RS. Os muncípios com valores baixo-alto e alto-baixo se apresentaram em pequeno número e espalhados pelo estado (<xref ref-type="fig" rid="f03002">Figura 3</xref>).</p>
+				<p>Na análise bivariada, os casos confirmados de covid-19, coletados a partir do local de residência das pessoas com a doença, tiveram correlação positiva ou direta com a distribuição suavizada dos leitos de UTI, com índice de 0,085 (p ≤ 0,001). Apesar da significância estatística, a correlação entre número de leitos de UTI e casos confirmados de covid-19 foi fraca, seguindo o padrão identificado na maioria dos municípios do estado. Do total de municípios (399), em 265 (66,4%) não houve correlação significativa entre número de leitos e prevalência de covid-19. Nos 134 (33,6%) municípios restantes observou-se formação de <italic>clusters</italic>, com dois destaques marcantes. Um formado por municípios com forte correlação entre alto número de leitos e alta prevalência de covid-19 e outro formado por municípios com baixo número de leitos e baixa prevalência de covid-19. No <italic>cluster</italic> alto-alto a correlação foi 1,105 (p &lt; 0,05), enquanto no <italic>cluster</italic> baixo-baixo foi 0,499 (p &lt; 0,005).</p>
+				<p>Ao observar o <italic>clusters</italic> formados por municípios com alto número de leitos de UTI e alta prevalência de casos, destaca-se Curitiba e Paranaguá na macrorregional leste; Foz do Iguaçu e Toledo na macrorregional Oeste; Umuarama e Maringá na macrorregional Noroeste e Londrina e Apucarana na macrorregional norte (<xref ref-type="fig" rid="f04002">Figura 4</xref>). A <xref ref-type="fig" rid="f04002">Figura 4</xref> identifica o <italic>cluster</italic> com municípios com baixo número de leitos de UTI e baixa prevalência de casos de covid-19, com destaque para Cornélio Procópio, Jacarezinho e Ivaiporã na macrorregional norte; Irati, Guarapuava e União da Vitória na macrorregional leste e Campo Mourão na macrorregional noroeste. Na macrorregional oeste observa-se um <italic>cluster</italic> baixo-baixo nos municípios de Guaraniaçu e Diamante do Sul na regional de Cascavel, mas agregado ao padrão da regional de Guarapuava.</p>
+				<p>
+					<fig id="f04002">
+						<label>Figura 4</label>
+						<caption>
+							<title>Distribuição espacial da correlação entre a taxa de leitos de unidade de terapia intesiva exclusivos para covid-19 e casos confirmados da doença, segundo a análise do Índice Local de Moran (LISA) Bivariado. Paraná, Brasil, março de 2020 a janeiro de 2021.</title>
+						</caption>
+						<graphic xlink:href="1518-8787-rsp-56-14-gf04-pt.tif"/>
+					</fig>
+				</p>
+				<p>Também se observam <italic>outliers</italic> formados por um grupo de municípios com alto número de leitos de UTI e baixa prevalência de casos da doença. Na macrorregional noroeste destacam o município de Colorado e Paranavaí. Ainda na macrorregional noroeste, encontram-se o <italic>cluster</italic> alto-baixo dos municípios de Rancho Alegre d’Oeste, Janiópolis e Mamborê. Na macrorregional leste, o <italic>cluster</italic> alto-baixo foi observado em Guarapuava, Turvo, Marquinho, Laranjeiras do Sul, Cantagalo e Goioxim. Geograficamente, os <italic>clusters</italic> alto-baixo estão na periferia dos <italic>clusters</italic> baixo-baixo; enquanto os <italic>clusters</italic> baixo-alto estão no entorno dos <italic>clusters</italic> alto-alto (<xref ref-type="fig" rid="f04002">Figura 4</xref>).</p>
+			</sec>
+			<sec sec-type="discussion">
+				<title>DISCUSSÃO</title>
+				<p>Estudos que correlacionam casos confirmados de covid-19 com leitos de unidades de terapia intensiva no estado do Paraná não foram identificados na literatura científica. Conhecer essa correlação a partir de ferramentas da análise espacial permitiu identificar regiões e municípios vulneráveis no estado, compreender a relação entre o evento e os municípios que fazem vizinhança entre si e analisar o comportamento da doença no Paraná, conforme a disponibilidade de leitos de UTI exclusivos para a doença.</p>
+				<p>Estudo similar analisou a distribuição de casos de covid-19 e de leitos de terapia exclusivos para a doença no estado do Ceará<sup><xref ref-type="bibr" rid="B18">18</xref></sup>, demonstrou a interioriazação da doença para além da capital Fortaleza e sua região metropolitana e observou a escassez de leitos em regiões com altos índices de contaminação por covid-19.</p>
+				<p>Observa-se um crescimento exponencial e constante do número de casos confirmados e óbitos por covid-19 em todo o mundo, o Brasil aparecendo é um dos epicentros do novo coronavírus<sup><xref ref-type="bibr" rid="B19">19</xref></sup>. Tal crescimento pode ser justificado, basicamente, devido ao alto poder de trasmissibilidade e disseminação do vírus, falta de imunidade prévia das populações e pela inexistência de vacinação contra o novo coronavírus<sup><xref ref-type="bibr" rid="B20">20</xref></sup>.</p>
+				<p>Até 18 de janeiro de 2021, a prevalência de casos confirmados no Brasil era de 4.039 a cada 100 mil habitantes e o aumento no número de casos da covid-19 foi evidenciado em todas as regiões do país. Especificamente na região sul, foi constatada uma taxa de 5.470 casos confirmados da covid-19 pelo mesmo coeficiente, sendo que o Paraná é o estado da Região Sul com a menor taxa (4.339 casos confirmados – segundo resultados deste estudo), seguido do Rio Grande do Sul (4.717) e Santa Catarina (7.915)<sup><xref ref-type="bibr" rid="B21">21</xref></sup> Esse ranking de classificação dos estados da Região Sul quanto ao número de casos de covid-19 vem sendo mantido desde o início da pandemia, segundo resultados apresentados em outros estudos<sup><xref ref-type="bibr" rid="B21">21</xref></sup>.</p>
+				<p>Embora a Região Sul e, principalmente o estado do Paraná, apresentem dados que os colocam em uma situação menos preocupante no que diz respeito aos números de casos confirmados de covid-19 em outras regiões do país, é evidente que o volume de novos casos comporta-se de forma crescente no estado<sup><xref ref-type="bibr" rid="B13">13</xref></sup>. Diante disso, é de suma importância o desenvolvimento de ações específicas de controle coletivo da doença, para conter a disseminação do vírus entre os municípios e as regionais de saúde do estado.</p>
+				<p>Os resultados específicos do Paraná apresentados neste estudo apontam que há importantes diferenças na distribuição dos casos confirmados de covid-19 entre os municípios e regionais de saúde do estado. As disparidades identificadas são justificadas por diversos fatores, tais como a data do início de ocorrência da doença nos municípios e regiões, densidade demográfica e populacional, distribuição etária e características das populações, condições dos serviços de saúde, controle de disseminação da doença nas comunidades, prática e fidedignidade de notificação dos casos e capacidade diagnóstica<sup><xref ref-type="bibr" rid="B24">24</xref></sup>.</p>
+				<p>As maiores prevalências de casos confirmados de covid-19 do Paraná foram observadas nos municípios pertencentes às regionais de saúde de Foz do Iguaçú (9ª RS), Paranaguá (1ª RS) e Francisco Beltrão (8ª RS), com valores acima da média do estado.</p>
+				<p>Destaca-se que os casos de covid-19 da grande Curitiba, localizada na macrorregional Leste, atingem diretamente Paranaguá (cidade vizinha da capital e fronteira com o estado de São Paulo)<sup><xref ref-type="bibr" rid="B21">21</xref></sup>. Observa-se ainda que nas 9ª e 8ª RS, pertencentes à macrorregião de saúde Oeste, ocorre a interiorização dos casos, justificada pelas características dessas regiões que são consideráveis polos comerciais do estado, ligadas à capital pelas BR-376, BR-476, BR-153 e BR-277<sup><xref ref-type="bibr" rid="B21">21</xref></sup>. Portanto, compreender redes e dependências sociais, econômicas, comerciais e o fluxo de viagens e transporte dentro dos limites de uma região ou estado são de suma importância para o entendimento da expansão territorial da covid-19<sup><xref ref-type="bibr" rid="B25">25</xref></sup>.</p>
+				<p>Já na macrorregião de saúde do Leste do Paraná, especificamente nos municípios da 6ª RS, de União da Vitória, concentraram-se as menores prevalências de casos confirmados de covid-19 (1.843 casos confirmados a cada 100 mil habitantes – menor do que o apresentado no estado). Também foi identificado nessa regional dependência espacial local significativa, apresentando baixa prevalência de casos, similares às regionais vizinhas.</p>
+				<p>Mesmo diante desses resultados, ações de prevenção e controle da doença devem ser intensificadas nessas regiões para evitar o surgimento de novos casos por meio do deslocamento das pessoas infectadas e consequente transmissão do vírus. Uma das medidas sugeridas é estimular a população na manutenção das medidas de higiene, distanciamento e isolamento social, uma vez que o vírus tem se propagado rapidamente devido à transmissão comunitária<sup><xref ref-type="bibr" rid="B8">8</xref></sup>. Ademais, já é evidenciado que municípios e regiões inicialmente com baixa prevalência de casos têm apresentado aumento exponencial do número de pessoas infectadas ao longo do tempo<sup><xref ref-type="bibr" rid="B29">29</xref></sup>.</p>
+				<p>Com relaçao ao número de leitos de UTI exclusivos para a covid-19 no Brasil, observa-se uma taxa de 9,77 leitos a cada 100 mil habitantes, sendo que a Região Sudeste apresenta a maior taxa do país (10,90 leitos). No que tange especificamente à Região Sul do país, observa-se uma prevalência de 10,14 leitos de UTI para covid-19 a cada 100 mil habitantes, sendo que o estado de Santa Catarina apresenta a maior taxa (12,82), seguido do Rio Grande do Sul (9,59) e Paraná (8,99)<sup><xref ref-type="bibr" rid="B14">14</xref></sup>. Evidencia-se, portanto, que o Paraná é o estado da Região Sul com a menor taxa de leitos de UTI exclusivos para a covid-19, como já demonstrado em outro estudo<sup><xref ref-type="bibr" rid="B28">28</xref></sup>.</p>
+				<p>Sobre as especificidades do número de leitos de UTI exclusivos para a covid-19 no estado do Paraná, os resultados deste estudo mostraram maior prevalência de leitos a cada 100 mil habitantes nos municípios pertencentes à 7ª RS – Pato Branco (52,17), 2ª RS – Curitiba (45,78) e 20ª RS – Toledo (41,99). Similarmente à prevalência de casos confirmados de covid-19, os resultados deste estudo demonstram que existe disparidade entre os municípios e regionais de saúde do Estado do Paraná quanto à distribuição do número de leitos exclusivos para a doença, sendo que em algumas RS apresentaram um maior número de leitos destinados especificamente à covid-19, como as de Curitiba, Guarapuava, Pato Branco, Campo Mourão, Maringá e Toledo.</p>
+				<p>Pela análise bivariada identifica-se um <italic>cluster</italic> em que a alta prevalência de casos de covid-19 se correlaciona positivamente com a alta disponibilidade de leitos de UTI exclusivos para a doença. Os achados indicam que esses municípios geralmente são sede das regionais de saúde (obedecendo à lógica do princípio de regionalização do Sistema Único de Saúde – SUS), municípios de grande e médio porte, com maior densidade demográfica e altas taxas da doença. A distribuição e a centralização dos leitos de UTI nesses municípios e regiões podem ser consideradas estratégias válidas para a homogeneidade e distribuição equitativa, porém, a distância percorrida pelo paciente para o acesso ao serviço de saúde não pode ser muito alta, devido à rápida evolução da doença<sup><xref ref-type="bibr" rid="B24">24</xref>,<xref ref-type="bibr" rid="B30">30</xref>,<xref ref-type="bibr" rid="B31">31</xref></sup>. Novos estudos avaliando o dimensionamento espacial dos serviços de atendimento para casos graves de covid-19 podem trazer contribuições valiosas para o conhecimento acerca desse fenômeno.</p>
+				<p>Como limitações, a coleta de dados foi realizada em um único período, sendo que os números são constantemente atualizados e, consequentemente, aumentando os casos confirmados. Quanto ao número de leitos exclusivos para a covid-19 foram considerados somente os leitos disponíveis no Paraná até o momento da coleta dos dados. E, para a comparabilidade e o aprofundamento na discussão dos achados deste estudo, não foram identificadas pesquisas sobre a distribuição geográfica da covid-19 no estado do Paraná. Contudo, este estudo pode subsidiar futuras pesquisas epidemiológicas sobre a análise espacial da covid-19 e auxiliar gestores de saúde estaduais e municipais na tomada de decisões.</p>
+				<p>Ainda assim, este estudo permitiu identificar a autocorrelação espacial direta dos casos de covid-19 no estado do Paraná, bem como a correlação positiva com os leitos exclusivos de UTI para a doença. Isso se mostra nas disparidades identificadas entre os municípios e as regionais de saúde no que diz respeito à distribuição de casos e leitos.Além disso, os <italic>clusters</italic> identificados pelo Índice de Moran Local, destacam áreas prioritárias de atenção no estado.</p>
+			</sec>
+		</body>
+		<back>
+			<fn-group>
+				<fn fn-type="financial-disclosure" id="fn2002">
+					<p><bold>Financiamento:</bold> Chamada Universal do Ministério da Ciência, Tecnologia, Inovações e Comunicações (MCTIC). Conselho Nacional de Desenvolvimento Científico Tecnológico (CNPq). Fundo Nacional de Desenvolvimento Científico e Tecnológico (FNDCT). Ministério da Saúde (MS)/Secretaria de Ciência, Tecnologia, Inovação e Insumos Estratégicos em Saúde (SCTIE)/Departamento de Ciência e Tecnologia (Decit) – Processo n. 07/2020.</p>
+				</fn>
+			</fn-group>
+		</back>
+	</sub-article>
+</article>

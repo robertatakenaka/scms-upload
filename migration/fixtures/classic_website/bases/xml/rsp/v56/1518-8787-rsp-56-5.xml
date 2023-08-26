@@ -1,0 +1,3879 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.1" specific-use="sps-1.9" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="nlm-ta">Rev Saude Publica</journal-id>
+			<journal-id journal-id-type="publisher-id">rsp</journal-id>
+			<journal-title-group>
+				<journal-title>Revista de Saúde Pública</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Rev. Saúde Pública</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="ppub">0034-8910</issn>
+			<issn pub-type="epub">1518-8787</issn>
+			<publisher>
+				<publisher-name>Faculdade de Saúde Pública da Universidade de São Paulo</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="other">00204</article-id>
+			<article-id pub-id-type="doi">10.11606/s1518-8787.2022056003405</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Original Article</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Implementation of the e-SUS Primary Care Strategy: an analysis based on official data</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-7873-3744</contrib-id>
+					<name>
+						<surname>Cielo</surname>
+						<given-names>Ana Claudia</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-9948-5164</contrib-id>
+					<name>
+						<surname>Raiol</surname>
+						<given-names>Tainá</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-8747-4185</contrib-id>
+					<name>
+						<surname>Silva</surname>
+						<given-names>Everton Nunes da</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-7648-0472</contrib-id>
+					<name>
+						<surname>Barreto</surname>
+						<given-names>Jorge Otávio Maia</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>I</label>
+				<institution content-type="orgname">Fundação Oswaldo Cruz</institution>
+				<institution content-type="orgdiv1">Programa de Mestrado Profissional em Políticas Públicas em Saúde</institution>
+				<addr-line>
+					<named-content content-type="city">Brasília</named-content>
+					<named-content content-type="state">DF</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Fundação Oswaldo Cruz. Programa de Mestrado Profissional em Políticas Públicas em Saúde. Brasília, DF, Brasil</institution>
+			</aff>
+			<aff id="aff2">
+				<label>II</label>
+				<institution content-type="orgname">Universidade de Brasília</institution>
+				<institution content-type="orgdiv1">Faculdade de Ceilândia</institution>
+				<addr-line>
+					<named-content content-type="city">Brasília</named-content>
+					<named-content content-type="state">DF</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Universidade de Brasília. Faculdade de Ceilândia. Brasília, DF, Brasil</institution>
+			</aff>
+			<author-notes>
+				<corresp id="c01"> Correspondence: Ana Claudia Cielo Esplanada dos Ministérios - Bloco G 7° andar - Edifício Sede 70058-900 Brasília, DF, Brasil E-mail: <email>anaclaudiacielo@gmail.com</email>
+				</corresp>
+				<fn fn-type="con">
+					<p>Contribution of the Authors: Conception and planning of the study: ACC, TR, JOMB. Data collection, analysis, and interpretation: ACC, TR, JOMB. Drafting or revising the manuscript: ACC, TR, JOMB, ENS. Approval of the final version: ACC, TR, JOMB, ENS. Public responsibility for the content of the article: ACC.</p>
+				</fn>
+				<fn fn-type="conflict">
+					<p>Conflict of Interest: The authors declare no conflict of interest.</p>
+				</fn>
+			</author-notes>
+			<pub-date date-type="pub" publication-format="electronic">
+				<day>07</day>
+				<month>03</month>
+				<year>2022</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">
+				<year>2022</year>
+			</pub-date>
+			<volume>56</volume>
+			<elocation-id>5</elocation-id>
+			<history>
+				<date date-type="received">
+					<day>15</day>
+					<month>12</month>
+					<year>2020</year>
+				</date>
+				<date date-type="accepted">
+					<day>2</day>
+					<month>05</month>
+					<year>2021</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="en">
+					<license-p> This is an Open Access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. </license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>ABSTRACT</title>
+				<sec>
+					<title>OBJETIVE</title>
+					<p> Analyze the implementation of the strategy <italic>e-SUS Atenção Básica</italic> (e-SUS AB – e-SUS Primary Care) in Brazil between the first years of the system, from 2013 to 2019.</p>
+				</sec>
+				<sec>
+					<title>METHODS</title>
+					<p> This is a quantitative, descriptive, and exploratory study. We considered official data from the Ministry of Health, submitted by Brazilian municipalities, in the period from April 2013 to December 2019. We categorized the municipalities as ‘not implemented’, ‘initial implementation’, ‘partial implementation’ and ‘implemented’ according to the criteria defined in this study. We also verified whether the type of municipality, according to the IBGE classification, influenced the degree of implementation of the e-SUS AB strategy. We performed descriptive analyses and investigated the association between the degrees of implementation of e-SUS AB and the typology of the IBGE classification and characterization of rural and urban spaces.</p>
+				</sec>
+				<sec>
+					<title>RESULTS</title>
+					<p> The implementation increased in the analyzed period. The implementation status of the e-SUS AB strategy in 2019 was ‘implemented’ in 20.2% (1,117) of the municipalities, ‘partial implementation’ in 32.9% (1,819), ‘initial implementation’ in 39.1% (2,159) and ‘not implemented’ in 7.8% (432). The South and Southeast regions presented the best implementation situation in all years, and the states of Rio Grande do Sul, São Paulo and Santa Catarina reached a higher percentage of municipalities with ‘implemented’ status in 2019.</p>
+				</sec>
+				<sec>
+					<title>CONCLUSIONS</title>
+					<p> We confirmed the progress in the implementation of the e-SUS AB strategy over the years. Most of the municipalities are between the status ‘initial implementation’ and ‘partial implementation’. Therefore, we conclude that investments in technological resources, training of professionals, and support are necessary to qualify the implementation and use of information systems in the country, especially for the e-SUS AB strategy.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="en">
+				<kwd>Unified Health System</kwd>
+				<kwd>Electronic Health Records</kwd>
+				<kwd>Health Information Systems</kwd>
+				<kwd>Primary Health Care</kwd>
+				<kwd>eHealth Strategies</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="8"/>
+				<table-count count="2"/>
+				<equation-count count="0"/>
+				<ref-count count="23"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>INTRODUCTION</title>
+			<p>Health information systems (HIS) are standardized data collection and monitoring tools designed to provide information for health analysis, aiming at improving the understanding of the population’s health problems<sup><xref ref-type="bibr" rid="B1">1</xref>,<xref ref-type="bibr" rid="B2">2</xref></sup>, subsidizing decision making in public policies<sup><xref ref-type="bibr" rid="B3">3</xref></sup>.</p>
+			<p>Historically, Brazilian HIS are fragmented. With multiple sources, the collected data is consolidated with low quality and its availability adopts a format that hinders its appropriation and use by health managers<sup><xref ref-type="bibr" rid="B4">4</xref>,<xref ref-type="bibr" rid="B5">5</xref></sup>. Thus, the monitoring of the quality of the data that serves the Brazilian Unified Health System (SUS) does not follow a regular plan of evaluations, with only isolated initiatives<sup><xref ref-type="bibr" rid="B6">6</xref></sup>.</p>
+			<p>The Brazilian government, inspired by successful experiences in countries in Europe, in Canada, Australia and New Zealand, among others, conceived and adopted the e-Health Strategy for Brazil. The e-Health Strategy aims to increase the quality and expand access to health care, qualify the teams, streamline care and improve the flow of information for clinical decision making, surveillance, regulation and health promotion. In addition, it aims at decision making focused on health management<sup><xref ref-type="bibr" rid="B7">7</xref></sup>, in line with the National Information and Informatics Policy, which, in its latest version in 2016, reinforced the importance of guiding information and communication technology (ICT) actions and standardizing the collection and processing of health system data<sup><xref ref-type="bibr" rid="B8">8</xref></sup>.</p>
+			<p>In primary care (PC), the strategy <italic>e-SUS Atenção Básica</italic> (e-SUS AB – e-SUS Primary Care) was created in 2013<sup><xref ref-type="bibr" rid="B9">9</xref>,<xref ref-type="bibr" rid="B10">10</xref></sup>. It proposed to offer a new health information system to meet the different informatization and organization needs of the municipalities. Its goal was to modernize the technological platform, supporting care management, optimizing data collection, interfacing with the various systems used by primary care, and improving the detailing of health information<sup><xref ref-type="bibr" rid="B11">11</xref></sup>. This would be possible through the National Health Card, which allows the individualization of records, which was a great challenge for Brazil, because it broke the logic of consolidated data used in primary care until then.</p>
+			<p>Three years after the system was made available, it became mandatory to send information to the database of the <italic>Sistema de Informação em Saúde para a Atenção Básica</italic> (SISAB – Health Information System for Primary Care)<sup><xref ref-type="bibr" rid="B10">10</xref></sup>.</p>
+			<p>The e-SUS AB strategy includes the national information repository SISAB and two collection software for entering primary data recorded by primary care professionals: 1) <italic>Coleta de Dados Simplificada</italic> (CDS – Simplified Data Collection), using paper forms; and 2) <italic>Prontuário Eletrônico do Cidadão</italic> (PEC – Electronic Citizen Record), a computational system. It also includes the systems sold by third parties or the municipalities’ own systems, integrated by means of a previously defined data import mechanism <sup><xref ref-type="bibr" rid="B1">1</xref></sup>.</p>
+			<p>The movement generated by the change in the information system impelled the informatization of primary care services throughout the country and can be considered a success story among the available systems at the federal level. Souza et al.<sup><xref ref-type="bibr" rid="B10">10</xref></sup> highlight that, in 2018, the e-SUS AB strategy was present in the 5,562 Brazilian municipalities with primary care services and around 98% of the family health teams (eSF– <italic>Saúde da Família</italic>), representing more than 42.8 thousand teams.</p>
+			<p>Despite the visible progress, studies analyzing the evolution of the e-SUS AB implementation are still scarce, as well as the factors that influence this process and the time needed to implement the strategy. It is plausible the existence of different degrees of implementation of the strategy, influenced by the characteristics of the municipalities, such as their location, population density, urbanization, level of informatization, etc. Geographic and socioeconomic factors, in general, are relevant for government initiatives that require the prior availability of specific resources for their implementation, while they are measurable and available, in official databases, facilitating their use for monitoring the progress of implementation.</p>
+			<p>This study analyzed the implementation of the e-SUS AB strategy in Brazil in the period from 2013 to 2019, also investigating municipal characteristics that potentially influenced the best performance in this process.</p>
+		</sec>
+		<sec sec-type="methods">
+			<title>METHODS</title>
+			<sec>
+				<title>Study Design</title>
+				<p>This is a quantitative, descriptive and exploratory study, based on administrative data. We estimated the degree of implementation of e-SUS AB at the municipal level, considering the period from April 2013 to December 2019. Thus, the study population consists of the Brazilian municipalities offering Primary Care services registered in the <italic>Cadastro Nacional de Estabelecimentos de Saúde</italic> (CNES – National Registry of Health Care Establishments). The number of municipalities presented a variation in the years studied: 5,454 (2013); 5,496 (2014); 5,514 (2015); 5,517 (2016); 5,522 (2017); 5,524 (2018); and 5,527 (2019). We based the stage of implementation in each municipality on data provided by the primary care/family health teams to the Ministry of Health regarding the use of e-SUS AB. We excluded from this study <italic>Atenção Básica Prisional</italic> (EABP – Prison Primary Care Teams), <italic>Núcleo de Apoio a Saúde da Família</italic> (NASF – Family Health Support Center), <italic>Consultório na Rua</italic> (CnR – Street Clinic), isolated Oral Health Teams (not linked to an ESF), and Basic Health Units with no linked teams.</p>
+			</sec>
+			<sec>
+				<title>Procedures Adopted to Estimate the Percentage of e-SUS Implementation</title>
+				<p>The variables used in this study reflect the systematic sending of data to SISAB: competence (month), Federated Unit (FU), municipality code from the Brazilian Institute of Geography and Statistics (IBGE), health unit code from CNES, team code from the <italic>Identificador Nacional de Equipes</italic> (INE – National Team Identifier), team type code from CNES, professional category, and valid records in the CNES national base.</p>
+				<p>The preparation of the database preceded the data analysis, comprising the following processing steps: identification of the active professional categories in the CNES per month; verification of the information sent to SISAB by the active professional categories in the CNES (doctor, nurse, nursing technician and assistant, dentist, oral health technician and assistant, and community health agent); analysis of the information sent to SISAB by Primary Care/Family Health team. In this step, we analyzed whether the professional categories of each team sent information, classifying the teams between those that sent information and those that did not, according to the criteria defined for the study.</p>
+				<p>In the next step, we defined and applied the criteria to characterize the degree of implementation of e-SUS AB, considering the frequency and regularity of data submission to SISAB. First, we considered data submission by team: a) Insufficient Submission – no submission of information or submission of less than 30% of the year’s competencies; b) Initial Submission – Submission of information above 30% of the year’s competencies or submission of information for three (3) consecutive competencies in the year; c) Partial Submission – Submission of information above 50% of the year’s competencies and submission of information for three (3) consecutive competencies in the year; d) Satisfactory Submission – Submission of information above 80% of the year’s competencies and three (3) consecutive competencies in the year.</p>
+				<p>Next, the results of the previous step were used to assess the degree of implementation of the e-SUS AB strategy in the municipalities: a) Not Implemented – more than 80% of the teams in the municipality classified as ‘insufficient submission’ in the previous phase; b) Initial Implementation – more than 80% of the teams in the municipality classified as ‘initial submission’ or between 50% and 80% of the teams classified as ‘partial submission’ or between 30% and 50% of the teams classified as ‘satisfactory submission’ in the previous phase; c) Partial Implementation – more than 80% of the municipality’s teams classified as ‘partial submission’ or between 50% and 80% of the teams classified as ‘satisfactory submission’ in the previous phase; d) Implemented – more than 80% of the municipality’s teams classified as ‘satisfactory submission’ in the previous phase. <xref ref-type="fig" rid="f01">Figure 1</xref> shows the flow of the classification performed.</p>
+				<p>
+					<fig id="f01">
+						<label>Figure 1</label>
+						<caption>
+							<title>Flowchart of the analysis of the implementation of the e-SUS AB Strategy.</title>
+						</caption>
+						<graphic xlink:href="1518-8787-rsp-56-5-gf01.tif"/>
+					</fig>
+				</p>
+			</sec>
+			<sec>
+				<title>Statistical Analysis</title>
+				<p>The data was calculated using the ‘team’ as the unit of analysis, and then aggregated by municipality, and finally by state, by geographic region, and nationally. We presented the data as maps and graphs and made the analysis using the programming language <italic>R</italic> and <italic>RStudio</italic> (version 1.1.463, 2009 – 2018<sup><xref ref-type="bibr" rid="B12">12</xref></sup>, package plyr, dplyr, readxl and rlist).</p>
+				<p>Finally, we also used the IBGE<sup><xref ref-type="bibr" rid="B13">13</xref></sup> classification for characterizing rural and urban spaces to investigate the implementation of e-SUS AB, considering the groups defined in it. This classification considers aspects related to population density and its distribution in the territory of the municipalities, to define five groups, applicable to the characterization of Brazilian municipalities: urban, adjacent intermediate, remote intermediate, adjacent rural, and remote rural.</p>
+			</sec>
+			<sec>
+				<title>Ethical Considerations</title>
+				<p>We conducted the research in accordance with ethical research standards. This study used secondary and unidentified data from official information systems of the Ministry of Health, exempted from ethics committee review, as provided in Resolution No. 510, April 7, 2016<sup><xref ref-type="bibr" rid="B14">14</xref></sup>.</p>
+			</sec>
+		</sec>
+		<sec sec-type="results">
+			<title>RESULTS</title>
+			<p>The aggregated national scale results of the implementation of the e-SUS AB strategy show expressive growth in the implementation of the system. The <xref ref-type="fig" rid="f02">Figure 2</xref> shows the evolution of the implementation of this strategy in Brazil from 2013 to 2019. In 2013 and 2014, the classification of the status of municipalities were 99.7% and 83.4% to ‘not implemented’, respectively. In 2015, 49.2% of municipalities achieved some degree of implementation other than ‘not implemented’ status. In 2016 and 2017, the ‘initial implementation’ and ‘partial implementation’ statuses exceeded the ‘not implemented’ percentage and the largest share was between the ‘initial implementation’ status, 49.7% and 48.3%, and ‘partial implementation’ status, 21.6% and 28.7%, respectively. In the last two years of analysis, 2018 and 2019, 37.9% and 39.1% of municipalities had ‘initial implementation’ status; 32.4% and 32.9%, ‘partial implementation’; and with ‘implemented’ status, 21.7% and 20.2%, respectively.</p>
+			<p>
+				<fig id="f02">
+					<label>Figure 2</label>
+					<caption>
+						<title>Evolution of the implementation status of the e-SUS AB Strategy by municipality, Brazil, from 2013 to 2019.</title>
+					</caption>
+					<graphic xlink:href="1518-8787-rsp-56-5-gf02.tif"/>
+				</fig>
+			</p>
+			<p>The evolution of the implementation of the e-SUS AB strategy happened differently among the country’s regions, as shown in <xref ref-type="fig" rid="f03">Figure 3</xref>. In terms of the percentage of implementation, the North, Northeast, and Midwest regions were below the national average in every year since 2015, while the Southeast and South regions were above the national average in the same period. In 2019, the percentages of municipalities in the ‘implemented’ and ‘partial implementation’ situation exceed the ‘not implemented’ and ‘initial implementation’ situation in Brazil. In this aspect, the Southeast region presents the best situation, with 56.8% of the municipalities in this situation; followed by the South region, 54.1%; the North, 53%; the Northeast, 51.4%; and the Midwest, 44.5%. The analysis of the best percentage of municipalities with ‘implemented’ status highlights the South region (24.8%); followed by the Southeast region (24.4%); the Midwest (16.9%); and the Northeast and North (15.4%) with the same percentage.</p>
+			<p>
+				<fig id="f03">
+					<label>Figure 3</label>
+					<caption>
+						<title>Status of implementation of the e-SUS AB Strategy by geographic region, Brazil, from 2013 to 2019.</title>
+					</caption>
+					<graphic xlink:href="1518-8787-rsp-56-5-gf03.tif"/>
+				</fig>
+			</p>
+			<p>In the analysis of implementation by State (<xref ref-type="table" rid="t1">Table</xref> 1), we observed that the highest percentage of municipalities with the ‘implemented’ situation in 2019 was in the state of Rio Grande do Sul (30.3%), followed by São Paulo (29.5%) and Santa Catarina (28.8%). The state with the most deficient situation is Amapá, with 4.5% of the municipalities with the ‘implemented’ status. Distrito Federal, despite its peculiarities, did not present the ‘implemented’ situation. The Brazilian states with the highest percentage of municipalities with the ‘not implemented’ situation were Roraima with 20%, Paraná with 15.3%, Rio Grande do Sul, and Goiás with 13.7%. Alagoas also had no municipality with a ‘not implemented’ situation.</p>
+			<p>
+				<table-wrap id="t1">
+					<label>Table</label>
+					<caption>
+						<title>Implementation of the e-SUS AB Strategy by state and region, 2013 to 2019.</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left">Region/FU</th>
+								<th>Status of implementation</th>
+								<th>2013 n (%)</th>
+								<th>2014 n (%)</th>
+								<th>2015 n (%)</th>
+								<th>2016 n (%)</th>
+								<th>2017 n (%)</th>
+								<th>2018 n (%)</th>
+								<th>2019 n (%)</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>North</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>AC</td>
+								<td align="center">Not implemented</td>
+								<td align="center">22 (100)</td>
+								<td align="center">18 (81.8)</td>
+								<td align="center">10 (45.4)</td>
+								<td align="center">6 (27.2)</td>
+								<td align="center">3 (13.6)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">2 (9)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Initial implementation</td>
+								<td align="center">0 (0)</td>
+								<td align="center">4 (18.1)</td>
+								<td align="center">12 (54.5)</td>
+								<td align="center">12 (54.5)</td>
+								<td align="center">12 (54.5)</td>
+								<td align="center">14 (63.6)</td>
+								<td align="center">14 (63.6)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Partial implementation</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">4 (18.1)</td>
+								<td align="center">7 (31.8)</td>
+								<td align="center">7 (31.8)</td>
+								<td align="center">5 (22.7)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Implemented</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">1 (4.5)</td>
+								<td align="center">1 (4.5)</td>
+							</tr>
+							<tr>
+								<td>AM</td>
+								<td align="center">Not implemented</td>
+								<td align="center">62 (100)</td>
+								<td align="center">57 (91.9)</td>
+								<td align="center">18 (29)</td>
+								<td align="center">4 (6.4)</td>
+								<td align="center">2 (3.2)</td>
+								<td align="center">1 (1.6)</td>
+								<td align="center">1 (1.6)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Initial implementation</td>
+								<td align="center">0 (0)</td>
+								<td align="center">5 (8)</td>
+								<td align="center">41 (66.1)</td>
+								<td align="center">43 (69.3)</td>
+								<td align="center">41 (66.1)</td>
+								<td align="center">30 (48.3)</td>
+								<td align="center">30 (48.3)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Partial implementation</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">3 (4.8)</td>
+								<td align="center">14 (22.5)</td>
+								<td align="center">16 (25.8)</td>
+								<td align="center">28 (45.1)</td>
+								<td align="center">27 (43.5)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Implemented</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">1 (1.6)</td>
+								<td align="center">3 (4.8)</td>
+								<td align="center">3 (4.8)</td>
+								<td align="center">4 (6.4)</td>
+							</tr>
+							<tr>
+								<td>AP</td>
+								<td align="center">Not implemented</td>
+								<td align="center">16 (100)</td>
+								<td align="center">13 (81.2)</td>
+								<td align="center">7 (43.7)</td>
+								<td align="center">8 (50)</td>
+								<td align="center">6 (37.5)</td>
+								<td align="center">3 (18.7)</td>
+								<td align="center">1 (6.2)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Initial implementation</td>
+								<td align="center">0 (0)</td>
+								<td align="center">3 (18.7)</td>
+								<td align="center">8 (50)</td>
+								<td align="center">7 (43.7)</td>
+								<td align="center">9 (56.2)</td>
+								<td align="center">10 (62.5)</td>
+								<td align="center">13 (81.2)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Partial implementation</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">1 (6.2)</td>
+								<td align="center">1 (6.2)</td>
+								<td align="center">1 (6.2)</td>
+								<td align="center">3 (18.7)</td>
+								<td align="center">2 (12.5)</td>
+							</tr>
+							<tr>
+								<td>PA</td>
+								<td align="center">Not implemented</td>
+								<td align="center">143 (100)</td>
+								<td align="center">107 (74.3)</td>
+								<td align="center">39 (27)</td>
+								<td align="center">7 (4.8)</td>
+								<td align="center">3 (2)</td>
+								<td align="center">2 (1.3)</td>
+								<td align="center">1 (0.6)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Initial implementation</td>
+								<td align="center">0 (0)</td>
+								<td align="center">37 (25.6)</td>
+								<td align="center">84 (58.3)</td>
+								<td align="center">91 (63.1)</td>
+								<td align="center">95 (65.9)</td>
+								<td align="center">74 (51.3)</td>
+								<td align="center">73 (50.6)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Partial implementation</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">20 (13.8)</td>
+								<td align="center">38 (26.3)</td>
+								<td align="center">34 (23.6)</td>
+								<td align="center">54 (37.5)</td>
+								<td align="center">57 (39.5)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Implemented</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">1 (0.6)</td>
+								<td align="center">8 (5.5)</td>
+								<td align="center">12 (8.3)</td>
+								<td align="center">14 (9.7)</td>
+								<td align="center">13 (9)</td>
+							</tr>
+							<tr>
+								<td>RO</td>
+								<td align="center">Not implemented</td>
+								<td align="center">52 (100)</td>
+								<td align="center">47 (90.3)</td>
+								<td align="center">26 (50)</td>
+								<td align="center">6 (11.5)</td>
+								<td align="center">3 (5.7)</td>
+								<td align="center">2 (3.8)</td>
+								<td align="center">1 (1.9)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Initial implementation</td>
+								<td align="center">0 (0)</td>
+								<td align="center">5 (9.6)</td>
+								<td align="center">23 (44.2)</td>
+								<td align="center">30 (57.6)</td>
+								<td align="center">27 (51.9)</td>
+								<td align="center">17 (32.6)</td>
+								<td align="center">19 (36.5)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Partial implementation</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">3 (5.7)</td>
+								<td align="center">13 (25)</td>
+								<td align="center">18 (34.6)</td>
+								<td align="center">24 (46.1)</td>
+								<td align="center">19 (36.5)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Implemented</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">3 (5.7)</td>
+								<td align="center">4 (7.6)</td>
+								<td align="center">9 (17.3)</td>
+								<td align="center">13 (25)</td>
+							</tr>
+							<tr>
+								<td>RR</td>
+								<td align="center">Not implemented</td>
+								<td align="center">15 (100)</td>
+								<td align="center">14 (93.3)</td>
+								<td align="center">12 (80)</td>
+								<td align="center">3 (20)</td>
+								<td align="center">4 (26.6)</td>
+								<td align="center">1 (6.6)</td>
+								<td align="center">3 (20)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Initial implementation</td>
+								<td align="center">0 (0)</td>
+								<td align="center">1 (6.6)</td>
+								<td align="center">3 (20)</td>
+								<td align="center">12 (80)</td>
+								<td align="center">8 (53.3)</td>
+								<td align="center">10 (66.6)</td>
+								<td align="center">8 (53.3)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Partial implementation</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">3 (20)</td>
+								<td align="center">4 (26.6)</td>
+								<td align="center">4 (26.6)</td>
+							</tr>
+							<tr>
+								<td>TO</td>
+								<td align="center">Not implemented</td>
+								<td align="center">139 (100)</td>
+								<td align="center">111 (79.8)</td>
+								<td align="center">84 (60.4)</td>
+								<td align="center">36 (25.8)</td>
+								<td align="center">19 (13.6)</td>
+								<td align="center">15 (10.8)</td>
+								<td align="center">13 (9.4)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Initial implementation</td>
+								<td align="center">0 (0)</td>
+								<td align="center">25 (17.9)</td>
+								<td align="center">43 (30.9)</td>
+								<td align="center">54 (38.8)</td>
+								<td align="center">50 (35.9)</td>
+								<td align="center">33 (23.9)</td>
+								<td align="center">32 (23.1)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Partial implementation</td>
+								<td align="center">0 (0)</td>
+								<td align="center">3 (2.1)</td>
+								<td align="center">10 (7.1)</td>
+								<td align="center">35 (25.1)</td>
+								<td align="center">48 (34.5)</td>
+								<td align="center">45 (32.6)</td>
+								<td align="center">55 (39.8)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Implemented</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">2 (1.4)</td>
+								<td align="center">14 (10)</td>
+								<td align="center">22 (15.8)</td>
+								<td align="center">45 (32.6)</td>
+								<td align="center">38 (27.5)</td>
+							</tr>
+							<tr>
+								<td>Northeast</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>AL</td>
+								<td align="center">Not implemented</td>
+								<td align="center">102 (100)</td>
+								<td align="center">98 (96)</td>
+								<td align="center">58 (56.8)</td>
+								<td align="center">2 (1.9)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Initial implementation</td>
+								<td align="center">0 (0)</td>
+								<td align="center">4 (3.9)</td>
+								<td align="center">40 (39.2)</td>
+								<td align="center">59 (57.8)</td>
+								<td align="center">51 (50)</td>
+								<td align="center">35 (34.3)</td>
+								<td align="center">27 (26.4)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Partial implementation</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">4 (3.9)</td>
+								<td align="center">36 (35.2)</td>
+								<td align="center">36 (35.2)</td>
+								<td align="center">41 (40.1)</td>
+								<td align="center">48 (47)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Implemented</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">5 (4.9)</td>
+								<td align="center">15 (14.7)</td>
+								<td align="center">26 (25.4)</td>
+								<td align="center">27 (26.4)</td>
+							</tr>
+							<tr>
+								<td>BA</td>
+								<td align="center">Not implemented</td>
+								<td align="center">417 (100)</td>
+								<td align="center">344 (82.4)</td>
+								<td align="center">200 (47.9)</td>
+								<td align="center">47 (11.2)</td>
+								<td align="center">11 (2.6)</td>
+								<td align="center">12 (2.8)</td>
+								<td align="center">5 (1.1)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Initial implementation</td>
+								<td align="center">0 (0)</td>
+								<td align="center">72 (17.2)</td>
+								<td align="center">187 (44.8)</td>
+								<td align="center">297 (71.2)</td>
+								<td align="center">267 (64)</td>
+								<td align="center">190 (45.5)</td>
+								<td align="center">190 (45.5)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Partial implementation</td>
+								<td align="center">0 (0)</td>
+								<td align="center">1 (0.2)</td>
+								<td align="center">25 (5.9)</td>
+								<td align="center">65 (15.5)</td>
+								<td align="center">113 (27)</td>
+								<td align="center">163 (39)</td>
+								<td align="center">158 (37.8)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Implemented</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">5 (1.1)</td>
+								<td align="center">8 (1.9)</td>
+								<td align="center">26 (6.2)</td>
+								<td align="center">52 (12.4)</td>
+								<td align="center">64 (15.3)</td>
+							</tr>
+							<tr>
+								<td>CE</td>
+								<td align="center">Not implemented</td>
+								<td align="center">184 (100)</td>
+								<td align="center">183 (99.4)</td>
+								<td align="center">92 (50)</td>
+								<td align="center">22 (11.9)</td>
+								<td align="center">7 (3.8)</td>
+								<td align="center">7 (3.8)</td>
+								<td align="center">5 (2.7)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Initial implementation</td>
+								<td align="center">0 (0)</td>
+								<td align="center">1 (0.5)</td>
+								<td align="center">88 (47.8)</td>
+								<td align="center">135 (73.3)</td>
+								<td align="center">126 (68.4)</td>
+								<td align="center">98 (53.2)</td>
+								<td align="center">91 (49.4)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Partial implementation</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">4 (2.1)</td>
+								<td align="center">21 (11.4)</td>
+								<td align="center">36 (19.5)</td>
+								<td align="center">62 (33.6)</td>
+								<td align="center">66 (35.8)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Implemented</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">6 (3.2)</td>
+								<td align="center">15 (8.1)</td>
+								<td align="center">17 (9.2)</td>
+								<td align="center">22 (11.9)</td>
+							</tr>
+							<tr>
+								<td>MA</td>
+								<td align="center">Not implemented</td>
+								<td align="center">216 (99.5)</td>
+								<td align="center">140 (64.5)</td>
+								<td align="center">82 (37.7)</td>
+								<td align="center">40 (18.4)</td>
+								<td align="center">16 (7.3)</td>
+								<td align="center">11 (5)</td>
+								<td align="center">13 (5.9)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Initial implementation</td>
+								<td align="center">1 (0.4)</td>
+								<td align="center">74 (34.1)</td>
+								<td align="center">118 (54.3)</td>
+								<td align="center">138 (63.5)</td>
+								<td align="center">149 (68.6)</td>
+								<td align="center">125 (57.6)</td>
+								<td align="center">119 (54.8)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Partial implementation</td>
+								<td align="center">0 (0)</td>
+								<td align="center">3 (1.3)</td>
+								<td align="center">14 (6.4)</td>
+								<td align="center">35 (16.1)</td>
+								<td align="center">41 (18.8)</td>
+								<td align="center">56 (25.8)</td>
+								<td align="center">61 (28.1)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Implemented</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">3 (1.3)</td>
+								<td align="center">4 (1.8)</td>
+								<td align="center">11 (5)</td>
+								<td align="center">25 (11.5)</td>
+								<td align="center">24 (11)</td>
+							</tr>
+							<tr>
+								<td>PB</td>
+								<td align="center">Not implemented</td>
+								<td align="center">220 (98.6)</td>
+								<td align="center">114 (51.1)</td>
+								<td align="center">43 (19.2)</td>
+								<td align="center">22 (9.8)</td>
+								<td align="center">10 (4.4)</td>
+								<td align="center">10 (4.4)</td>
+								<td align="center">10 (4.4)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Initial implementation</td>
+								<td align="center">2 (0.8)</td>
+								<td align="center">97 (43.4)</td>
+								<td align="center">104 (46.6)</td>
+								<td align="center">102 (45.7)</td>
+								<td align="center">95 (42.6)</td>
+								<td align="center">87 (39)</td>
+								<td align="center">92 (41.2)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Partial implementation</td>
+								<td align="center">1 (0.4)</td>
+								<td align="center">9 (4)</td>
+								<td align="center">58 (26)</td>
+								<td align="center">73 (32.7)</td>
+								<td align="center">85 (38.1)</td>
+								<td align="center">75 (33.6)</td>
+								<td align="center">84 (37.6)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Implemented</td>
+								<td align="center">0 (0)</td>
+								<td align="center">3 (1.3)</td>
+								<td align="center">18 (8)</td>
+								<td align="center">26 (11.6)</td>
+								<td align="center">33 (14.7)</td>
+								<td align="center">51 (22.8)</td>
+								<td align="center">37 (16.5)</td>
+							</tr>
+							<tr>
+								<td>PE</td>
+								<td align="center">Not implemented</td>
+								<td align="center">185 (100)</td>
+								<td align="center">161 (87)</td>
+								<td align="center">93 (50.2)</td>
+								<td align="center">15 (8.1)</td>
+								<td align="center">3 (1.6)</td>
+								<td align="center">1 (0.5)</td>
+								<td align="center">2 (1)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Initial implementation</td>
+								<td align="center">0 (0)</td>
+								<td align="center">23 (12.4)</td>
+								<td align="center">83 (44.8)</td>
+								<td align="center">131 (70.8)</td>
+								<td align="center">116 (62.7)</td>
+								<td align="center">94 (50.8)</td>
+								<td align="center">86 (46.4)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Partial implementation</td>
+								<td align="center">0 (0)</td>
+								<td align="center">1 (0.5)</td>
+								<td align="center">8 (4.3)</td>
+								<td align="center">32 (17.2)</td>
+								<td align="center">56 (30.2)</td>
+								<td align="center">61 (32.9)</td>
+								<td align="center">74 (40)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Implemented</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">1 (0.5)</td>
+								<td align="center">7 (3.7)</td>
+								<td align="center">10 (5.4)</td>
+								<td align="center">29 (15.6)</td>
+								<td align="center">23 (12.4)</td>
+							</tr>
+							<tr>
+								<td>PI</td>
+								<td align="center">Not implemented</td>
+								<td align="center">224 (100)</td>
+								<td align="center">212 (94.6)</td>
+								<td align="center">138 (61.6)</td>
+								<td align="center">62 (27.6)</td>
+								<td align="center">24 (10.7)</td>
+								<td align="center">18 (8)</td>
+								<td align="center">20 (8.9)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Initial implementation</td>
+								<td align="center">0 (0)</td>
+								<td align="center">11 (4.9)</td>
+								<td align="center">74 (33)</td>
+								<td align="center">110 (49.1)</td>
+								<td align="center">114 (50.8)</td>
+								<td align="center">103 (45.9)</td>
+								<td align="center">100 (44.6)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Partial implementation</td>
+								<td align="center">0 (0)</td>
+								<td align="center">1 (0.4)</td>
+								<td align="center">10 (4.4)</td>
+								<td align="center">45 (20)</td>
+								<td align="center">70 (31.2)</td>
+								<td align="center">70 (31.2)</td>
+								<td align="center">71 (31.6)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Implemented</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">2 (0.8)</td>
+								<td align="center">7 (3.1)</td>
+								<td align="center">16 (7.1)</td>
+								<td align="center">33 (14.7)</td>
+								<td align="center">33 (14.7)</td>
+							</tr>
+							<tr>
+								<td>RN</td>
+								<td align="center">Not implemented</td>
+								<td align="center">163 (97.6)</td>
+								<td align="center">110 (65.8)</td>
+								<td align="center">66 (39.5)</td>
+								<td align="center">30 (17.9)</td>
+								<td align="center">11 (6.5)</td>
+								<td align="center">7 (4.1)</td>
+								<td align="center">5 (2.9)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Initial implementation</td>
+								<td align="center">4 (2.3)</td>
+								<td align="center">48 (28.7)</td>
+								<td align="center">75 (44.9)</td>
+								<td align="center">93 (55.6)</td>
+								<td align="center">82 (49.1)</td>
+								<td align="center">81 (48.5)</td>
+								<td align="center">76 (45.5)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Partial implementation</td>
+								<td align="center">0 (0)</td>
+								<td align="center">9 (5.3)</td>
+								<td align="center">25 (14.9)</td>
+								<td align="center">37 (22.1)</td>
+								<td align="center">56 (33.5)</td>
+								<td align="center">56 (33.5)</td>
+								<td align="center">55 (32.9)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Implemented</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">1 (0.5)</td>
+								<td align="center">7 (4.1)</td>
+								<td align="center">18 (10.7)</td>
+								<td align="center">23 (13.7)</td>
+								<td align="center">31 (18.5)</td>
+							</tr>
+							<tr>
+								<td>SE</td>
+								<td align="center">Not implemented</td>
+								<td align="center">75 (100)</td>
+								<td align="center">45 (60)</td>
+								<td align="center">31 (41.3)</td>
+								<td align="center">10 (13.3)</td>
+								<td align="center">1 (1.3)</td>
+								<td align="center">4 (5.3)</td>
+								<td align="center">4 (5.3)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Initial implementation</td>
+								<td align="center">0 (0)</td>
+								<td align="center">28 (37.3)</td>
+								<td align="center">35 (46.6)</td>
+								<td align="center">47 (62.6)</td>
+								<td align="center">36 (48)</td>
+								<td align="center">28 (37.3)</td>
+								<td align="center">27 (36)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Partial implementation</td>
+								<td align="center">0 (0)</td>
+								<td align="center">2 (2.6)</td>
+								<td align="center">7 (9.3)</td>
+								<td align="center">13 (17.3)</td>
+								<td align="center">33 (44)</td>
+								<td align="center">32 (42.6)</td>
+								<td align="center">29 (38.6)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Implemented</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">2 (2.6)</td>
+								<td align="center">5 (6.6)</td>
+								<td align="center">5 (6.6)</td>
+								<td align="center">11 (14.6)</td>
+								<td align="center">15 (20)</td>
+							</tr>
+							<tr>
+								<td>Midwest</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>DF</td>
+								<td align="center">Not implemented</td>
+								<td align="center">1 (100)</td>
+								<td align="center">1 (100)</td>
+								<td align="center">1 (100)</td>
+								<td align="center">1 (100)</td>
+								<td align="center">1 (100)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Initial implementation</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">1 (100)</td>
+								<td align="center">0 (0)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Partial implementation</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">1 (100)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Implemented</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+							</tr>
+							<tr>
+								<td>GO</td>
+								<td align="center">Not implemented</td>
+								<td align="center">245 (99.5)</td>
+								<td align="center">219 (89)</td>
+								<td align="center">144 (58.5)</td>
+								<td align="center">73 (29.6)</td>
+								<td align="center">42 (17)</td>
+								<td align="center">39 (15.8)</td>
+								<td align="center">33 (13.4)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Initial implementation</td>
+								<td align="center">1 (0.4)</td>
+								<td align="center">25 (10.1)</td>
+								<td align="center">78 (31.7)</td>
+								<td align="center">113 (45.9)</td>
+								<td align="center">126 (51.2)</td>
+								<td align="center">108 (43.9)</td>
+								<td align="center">105 (42.6)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Partial implementation</td>
+								<td align="center">0 (0)</td>
+								<td align="center">1 (0.4)</td>
+								<td align="center">17 (6.9)</td>
+								<td align="center">50 (20.3)</td>
+								<td align="center">64 (26)</td>
+								<td align="center">65 (26.4)</td>
+								<td align="center">70 (28.4)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Implemented</td>
+								<td align="center">0 (0)</td>
+								<td align="center">1 (0.4)</td>
+								<td align="center">7 (2.8)</td>
+								<td align="center">10 (4)</td>
+								<td align="center">14 (5.6)</td>
+								<td align="center">34 (13.8)</td>
+								<td align="center">38 (15.4)</td>
+							</tr>
+							<tr>
+								<td>MS</td>
+								<td align="center">Not implemented</td>
+								<td align="center">79 (100)</td>
+								<td align="center">63 (79.7)</td>
+								<td align="center">44 (55.6)</td>
+								<td align="center">15 (18.9)</td>
+								<td align="center">6 (7.5)</td>
+								<td align="center">5 (6.3)</td>
+								<td align="center">3 (3.7)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Initial implementation</td>
+								<td align="center">0 (0)</td>
+								<td align="center">15 (18.9)</td>
+								<td align="center">31 (39.2)</td>
+								<td align="center">47 (59.4)</td>
+								<td align="center">52 (65.8)</td>
+								<td align="center">43 (54.4)</td>
+								<td align="center">46 (58.2)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Partial implementation</td>
+								<td align="center">0 (0)</td>
+								<td align="center">1 (1.2)</td>
+								<td align="center">3 (3.7)</td>
+								<td align="center">15 (18.9)</td>
+								<td align="center">17 (21.5)</td>
+								<td align="center">23 (29.1)</td>
+								<td align="center">16 (20.2)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Implemented</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">1 (1.2)</td>
+								<td align="center">2 (2.5)</td>
+								<td align="center">4 (5)</td>
+								<td align="center">8 (10.1)</td>
+								<td align="center">14 (17.7)</td>
+							</tr>
+							<tr>
+								<td>MT</td>
+								<td align="center">Not implemented</td>
+								<td align="center">141 (100)</td>
+								<td align="center">130 (92.1)</td>
+								<td align="center">102 (72.3)</td>
+								<td align="center">36 (25.5)</td>
+								<td align="center">21 (14.8)</td>
+								<td align="center">18 (12.7)</td>
+								<td align="center">16 (11.3)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Initial implementation</td>
+								<td align="center">0 (0)</td>
+								<td align="center">10 (7)</td>
+								<td align="center">32 (22.6)</td>
+								<td align="center">75 (53.1)</td>
+								<td align="center">76 (53.9)</td>
+								<td align="center">51 (36.1)</td>
+								<td align="center">56 (39.7)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Partial implementation</td>
+								<td align="center">0 (0)</td>
+								<td align="center">1 (0.7)</td>
+								<td align="center">7 (4.9)</td>
+								<td align="center">25 (17.7)</td>
+								<td align="center">36 (25.5)</td>
+								<td align="center">48 (34)</td>
+								<td align="center">42 (29.7)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Implemented</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">5 (3.5)</td>
+								<td align="center">8 (5.6)</td>
+								<td align="center">24 (17)</td>
+								<td align="center">27 (19.1)</td>
+							</tr>
+							<tr>
+								<td>Southeast</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>ES</td>
+								<td align="center">Not implemented</td>
+								<td align="center">78 (100)</td>
+								<td align="center">70 (89.7)</td>
+								<td align="center">33 (42.3)</td>
+								<td align="center">14 (17.9)</td>
+								<td align="center">9 (11.5)</td>
+								<td align="center">10 (12.8)</td>
+								<td align="center">8 (10.2)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Initial implementation</td>
+								<td align="center">0 (0)</td>
+								<td align="center">7 (8.9)</td>
+								<td align="center">39 (50)</td>
+								<td align="center">47 (60.2)</td>
+								<td align="center">51 (65.3)</td>
+								<td align="center">42 (53.8)</td>
+								<td align="center">48 (61.5)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Partial implementation</td>
+								<td align="center">0 (0)</td>
+								<td align="center">1 (1.2)</td>
+								<td align="center">3 (3.8)</td>
+								<td align="center">14 (17.9)</td>
+								<td align="center">16 (20.5)</td>
+								<td align="center">21 (26.9)</td>
+								<td align="center">17 (21.7)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Implemented</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">3 (3.8)</td>
+								<td align="center">3 (3.8)</td>
+								<td align="center">2 (2.5)</td>
+								<td align="center">5 (6.4)</td>
+								<td align="center">5 (6.4)</td>
+							</tr>
+							<tr>
+								<td>MG</td>
+								<td align="center">Not implemented</td>
+								<td align="center">850 (99.8)</td>
+								<td align="center">741 (86.9)</td>
+								<td align="center">486 (57)</td>
+								<td align="center">128 (15)</td>
+								<td align="center">76 (8.9)</td>
+								<td align="center">59 (6.9)</td>
+								<td align="center">63 (7.3)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Initial implementation</td>
+								<td align="center">1 (0.1)</td>
+								<td align="center">100 (11.7)</td>
+								<td align="center">285 (33.4)</td>
+								<td align="center">382 (44.8)</td>
+								<td align="center">360 (42.2)</td>
+								<td align="center">288 (33.7)</td>
+								<td align="center">287 (33.6)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Partial implementation</td>
+								<td align="center">0 (0)</td>
+								<td align="center">11 (1.2)</td>
+								<td align="center">70 (8.2)</td>
+								<td align="center">210 (24.6)</td>
+								<td align="center">275 (32.2)</td>
+								<td align="center">280 (32.8)</td>
+								<td align="center">295 (34.5)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Implemented</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">11 (1.2)</td>
+								<td align="center">132 (15.4)</td>
+								<td align="center">142 (16.6)</td>
+								<td align="center">226 (26.4)</td>
+								<td align="center">208 (24.3)</td>
+							</tr>
+							<tr>
+								<td>RJ</td>
+								<td align="center">Not implemented</td>
+								<td align="center">91 (100)</td>
+								<td align="center">68 (74.7)</td>
+								<td align="center">36 (39.1)</td>
+								<td align="center">5 (5.4)</td>
+								<td align="center">7 (7.6)</td>
+								<td align="center">3 (3.2)</td>
+								<td align="center">7 (7.6)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Initial implementation</td>
+								<td align="center">0 (0)</td>
+								<td align="center">22 (24.1)</td>
+								<td align="center">50 (54.3)</td>
+								<td align="center">76 (82.6)</td>
+								<td align="center">67 (72.8)</td>
+								<td align="center">57 (61.9)</td>
+								<td align="center">56 (60.8)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Partial implementation</td>
+								<td align="center">0 (0)</td>
+								<td align="center">1 (1)</td>
+								<td align="center">5 (5.4)</td>
+								<td align="center">8 (8.6)</td>
+								<td align="center">16 (17.3)</td>
+								<td align="center">25 (27.1)</td>
+								<td align="center">23 (25)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Implemented</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">1 (1)</td>
+								<td align="center">3 (3.2)</td>
+								<td align="center">2 (2.1)</td>
+								<td align="center">7 (7.6)</td>
+								<td align="center">6 (6.5)</td>
+							</tr>
+							<tr>
+								<td>SP</td>
+								<td align="center">Not implemented</td>
+								<td align="center">567 (99.1)</td>
+								<td align="center">512 (86)</td>
+								<td align="center">349 (57.7)</td>
+								<td align="center">140 (23)</td>
+								<td align="center">85 (13.9)</td>
+								<td align="center">51 (8.3)</td>
+								<td align="center">51 (8.3)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Initial implementation</td>
+								<td align="center">4 (0.6)</td>
+								<td align="center">71 (11.9)</td>
+								<td align="center">182 (30.1)</td>
+								<td align="center">226 (37.2)</td>
+								<td align="center">218 (35.7)</td>
+								<td align="center">167 (27.3)</td>
+								<td align="center">187 (30.5)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Partial implementation</td>
+								<td align="center">1 (0.1)</td>
+								<td align="center">10 (1.6)</td>
+								<td align="center">48 (7.9)</td>
+								<td align="center">137 (22.5)</td>
+								<td align="center">193 (31.6)</td>
+								<td align="center">197 (32.2)</td>
+								<td align="center">194 (31.6)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Implemented</td>
+								<td align="center">0 (0)</td>
+								<td align="center">2 (0.3)</td>
+								<td align="center">25 (4.1)</td>
+								<td align="center">104 (17.1)</td>
+								<td align="center">113 (18.5)</td>
+								<td align="center">195 (31.9)</td>
+								<td align="center">181 (29.5)</td>
+							</tr>
+							<tr>
+								<td>South</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>PR</td>
+								<td align="center">Not implemented</td>
+								<td align="center">398 (100)</td>
+								<td align="center">360 (90.2)</td>
+								<td align="center">231 (57.8)</td>
+								<td align="center">144 (36)</td>
+								<td align="center">80 (20)</td>
+								<td align="center">55 (13.8)</td>
+								<td align="center">61 (15.3)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Initial implementation</td>
+								<td align="center">0 (0)</td>
+								<td align="center">37 (9.2)</td>
+								<td align="center">134 (33.5)</td>
+								<td align="center">166 (41.6)</td>
+								<td align="center">200 (50.1)</td>
+								<td align="center">135 (33.9)</td>
+								<td align="center">170 (42.7)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Partial implementation</td>
+								<td align="center">0 (0)</td>
+								<td align="center">2 (0.5)</td>
+								<td align="center">28 (7)</td>
+								<td align="center">73 (18.2)</td>
+								<td align="center">85 (21.3)</td>
+								<td align="center">122 (30.6)</td>
+								<td align="center">107 (26.8)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Implemented</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">6 (1.5)</td>
+								<td align="center">16 (4)</td>
+								<td align="center">34 (8.5)</td>
+								<td align="center">86 (21.6)</td>
+								<td align="center">60 (15)</td>
+							</tr>
+							<tr>
+								<td>RS</td>
+								<td align="center">Not implemented</td>
+								<td align="center">459 (99.7)</td>
+								<td align="center">360 (75.7)</td>
+								<td align="center">175 (36.2)</td>
+								<td align="center">103 (21.3)</td>
+								<td align="center">94 (19.3)</td>
+								<td align="center">73 (14.9)</td>
+								<td align="center">67 (13.7)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Initial implementation</td>
+								<td align="center">1 (0.2)</td>
+								<td align="center">93 (19.5)</td>
+								<td align="center">149 (30.8)</td>
+								<td align="center">130 (26.9)</td>
+								<td align="center">125 (25.7)</td>
+								<td align="center">97 (19.8)</td>
+								<td align="center">120 (24.5)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Partial implementation</td>
+								<td align="center">0 (0)</td>
+								<td align="center">22 (4.6)</td>
+								<td align="center">105 (21.7)</td>
+								<td align="center">135 (27.9)</td>
+								<td align="center">146 (30.1)</td>
+								<td align="center">139 (28.4)</td>
+								<td align="center">153 (31.3)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Implemented</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">54 (11.1)</td>
+								<td align="center">115 (23.8)</td>
+								<td align="center">120 (24.7)</td>
+								<td align="center">179 (36.6)</td>
+								<td align="center">148 (30.3)</td>
+							</tr>
+							<tr>
+								<td>SC</td>
+								<td align="center">Not implemented</td>
+								<td align="center">294 (100)</td>
+								<td align="center">284 (96.2)</td>
+								<td align="center">203 (68.8)</td>
+								<td align="center">69 (23.3)</td>
+								<td align="center">44 (14.9)</td>
+								<td align="center">36 (12.2)</td>
+								<td align="center">37 (12.5)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Initial implementation</td>
+								<td align="center">0 (0)</td>
+								<td align="center">11 (3.7)</td>
+								<td align="center">75 (25.4)</td>
+								<td align="center">117 (39.6)</td>
+								<td align="center">114 (38.6)</td>
+								<td align="center">75 (25.4)</td>
+								<td align="center">87 (29.4)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Partial implementation</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">17 (5.7)</td>
+								<td align="center">65 (22)</td>
+								<td align="center">83 (28.1)</td>
+								<td align="center">91 (30.8)</td>
+								<td align="center">86 (29.1)</td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">Implemented</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">0 (0)</td>
+								<td align="center">44 (14.9)</td>
+								<td align="center">54 (18.3)</td>
+								<td align="center">93 (31.5)</td>
+								<td align="center">85 (28.8)</td>
+							</tr>
+							<tr>
+								<td>Overall Total</td>
+								<td>
+								</td>
+								<td align="center">5,454 (100)</td>
+								<td align="center">5,496 (100)</td>
+								<td align="center">5,514 (100)</td>
+								<td align="center">5,517 (100)</td>
+								<td align="center">5,522 (100)</td>
+								<td align="center">5,524 (100)</td>
+								<td align="center">5,527 (100)</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN1">
+							<p>FU: AC: Acre; AL: Alagoas; AP: Amapá; AM: Amazonas; BA: Bahia; CE: Ceará; DF: Distrito Federal; ES: Espírito Santo; GO: Goiás; MA: Maranhão; MT: Mato Grosso; MS: Mato Grosso do Sul; MG: Minas Gerais; PA: Pará; PB: Paraíba; PR: Paraná; PE: Pernambuco; PI: Piauí; RJ: Rio de Janeiro; RN: Rio Grande do Norte; RS: Rio Grande do Sul; RO: Rondônia; RR: Roraima; SC: Santa Catarina; SP: São Paulo; SE: Sergipe; TO: Tocantins.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>
+				<xref ref-type="fig" rid="f04">Figure 4</xref> shows the differences in relation to the classification and characterization of rural and urban spaces in Brazil. In 2019, the distribution of municipalities for each typology was ‘remote rural’ (322), ‘adjacent rural’ (3,022), ‘remote intermediate’ (60), ‘adjacent intermediate’ (680) and ‘urban’ (1,443). Municipalities classified as ‘adjacent rural’ and ‘urban’ had the highest percentage of implemented in all years of the study. In 2019, the highest percentage of ‘not implemented’ was from municipalities classified as ‘remote rural’ (9.9%).</p>
+			<p>
+				<fig id="f04">
+					<label>Figure 4</label>
+					<caption>
+						<title>Implementation status of the e-SUS AB Strategy stratified by classification and characterization of rural and urban spaces in Brazil, 2013 to 2019.</title>
+					</caption>
+					<graphic xlink:href="1518-8787-rsp-56-5-gf04.tif"/>
+				</fig>
+			</p>
+		</sec>
+		<sec sec-type="discussion">
+			<title>DISCUSSION</title>
+			<p>This is the first study conducted in Brazil to analyze the implementation of the e-SUS AB strategy. In addition, this study also considered the municipal sphere and the association between the characteristics of the municipalities and their performance in the strategy implementation process. The results mainly showed that, in 2019, 92.2% of Brazilian municipalities had a degree of e-SUS AB implementation distinct from ‘not implemented’. The South and Southeast regions stood out with higher percentages of strategy implementation, with the states with the highest percentages of ‘implemented’ status being Rio Grande do Sul (30.3%), São Paulo (29.5%), and Santa Catarina (28.8%).</p>
+			<p>Several factors and organizational arrangements affects the implementation of health information systems. Studies show that the degree of informatization, availability of internet connection, qualification and training of health professionals, and adequate IT (information technology) support<sup><xref ref-type="bibr" rid="B15">15</xref>,<xref ref-type="bibr" rid="B16">16</xref></sup>are key factors for the successful implementation of information systems. In addition, the characteristics of the system’s user interface may also influence the implementation process, including the functionality of the features and their usability, the quality of the data collected, and interoperability with other systems<sup><xref ref-type="bibr" rid="B17">17</xref></sup>.</p>
+			<p>A systematic review demonstrated that the process of implementing an information system is as important as the system itself. In this study, implementers’ concerns were patient privacy and safety, provider/patient relationship, staff anxiety, time required to implement the HIS, quality of care, financial issues, efficiency, and accountability<sup><xref ref-type="bibr" rid="B18">18</xref></sup>.</p>
+			<p>In Brazil, the e-SUS AB strategy was developed with support of the states and municipalities, represented by their entities, the <italic>Conselho Nacional de Secretários de Saúde</italic> (CONASS – National Council of Health Secretaries) and the <italic>Conselho Nacional de Secretarias Municipais de Saúde</italic> (CONASEMS – National Council of Municipal Health Secretaries). In the context of the results presented in this study, it is important to consider some previous actions of the Ministry of Health, developed since 2013, as preparatory to the implementation of the e-SUS AB strategy. Among these actions are the project <italic>QualiSUS-Rede</italic> (QualiSUS-Net), focused on the supply of equipment and peripherals for 486 municipalities; the support for the implementation for municipalities covered by 14 <italic>Telessaúde</italic> (Telehealth) centers; the training workshops for multipliers for municipalities with populations larger than 100 thousand inhabitants; the local support for municipalities via e-SUS AB consultants; the support for Dial 136 and for the Primary Care Department to solve doubts about the system and the supply of connectivity points for approximately 13 thousand Primary Care Units<sup><xref ref-type="bibr" rid="B11">11</xref>,<xref ref-type="bibr" rid="B19">19</xref>,<xref ref-type="bibr" rid="B20">20</xref></sup>.</p>
+			<p>In 2019, the Program to Support the Informatization and Qualification of Primary Health Care Data (<italic>Informatiza APS</italic>) was instituted by the Ministry of Health to computerize all Family Health Teams (eSF) and Primary Health Care Teams (eAP) in the country and to qualify the health data of the municipalities and the Federal District<sup><xref ref-type="bibr" rid="B21">21</xref></sup>, which certainly may have made an important contribution to the informatization scenario necessary for the implementation of the e-SUS AB strategy, especially in more vulnerable localities.</p>
+			<p>The results of this study showed that the e-SUS AB strategy has distinct moments of implementation, with the greatest degree of implementation at the beginning of the process, in 2013, in the Northeast and Southeast, while in subsequent years, the South region showed the greatest advance in implementation. This result may be influenced by the state of Rio Grande do Sul, which appears with one of the highest rates of implementation in recent years of the series studied, corroborating the results of a study that reported the experience of the participation of telehealth services to support the implementation, with better distribution of training in the local scenario, face-to-face and remote activities to support managers and professionals<sup><xref ref-type="bibr" rid="B20">20</xref></sup>.</p>
+			<p>The relationship between the degree of implementation and the type of municipality by the classification and characterization of rural and urban spaces in Brazil, made by IBGE, demonstrated the dependence between the variables. We saw lower implementation percentages in municipalities with the ‘remote rural’ and ‘remote intermediate’ typologies. Geographic and professional isolation may influence the implementation and require specific strategies to face the geographic barriers, such as the implementation of technologies of an interconnected communication network between health units and other levels of care that analyzes the peculiarities of the technological infrastructure, which are not always available in these locations<sup><xref ref-type="bibr" rid="B22">22</xref></sup>.</p>
+			<p>Another important aspect is the reliability of HIS. A systematic review evaluated studies conducted in Brazil and identified four priority dimensions of quality, which are reliability, validity, coverage and completeness<sup><xref ref-type="bibr" rid="B6">6</xref></sup>. The importance of good quality information indicates the need to establish a formal and regular evaluation policy for the HIS in Brazil, especially for those of national scope. This study did not directly address the quality of information provided in the e-SUS AB strategy, but the indicators used reflect, albeit in an exploratory way, some of the relevant aspects for information quality considerations.</p>
+			<p>In addition, computers and other technological resources are essential for the use of diagnostic and treatment systems, as well as information systems and electronic patient record systems that provide the information to support decision making. The better the computerized systems are able to record, store, and make available information, the better the information will be and the higher the quality in decision making will be<sup><xref ref-type="bibr" rid="B1">1</xref>,<xref ref-type="bibr" rid="B23">23</xref></sup>, with electronic medical record systems standing out.</p>
+			<p>Finally, the results of this study also add to the national discussion on monitoring and evaluation, in the scope of the <italic>Política Nacional de Informação e Informática em Saúde</italic> (PNIIS – National Health Information and Informatics Policy), establishing a series of guidelines that encourage, among other aspects, the promotion of strategies and mechanisms for the qualification of production and management of health information to strengthen e-Health, in the three spheres of SUS management<sup><xref ref-type="bibr" rid="B8">8</xref></sup>.</p>
+			<p>It is possible to understand the results of this study by considering its methodological limitations: first, other agents, in addition to health professionals, may have produced the records of the e-SUS AB strategy, since municipalities may adopt organizational arrangements where data entry and submission are performed outside the UBS, in administrative sectors of the health secretariats. On the other hand, there are municipalities using their own systems or systems marketed by third parties, where sending data in an adequate manner also depends on these service providers. Secondly, as the data in this study were not broken down at the sub-municipal level and in aggregate form, it is not possible to have an explicit vision of the flows of production and sending of the information analyzed.</p>
+			<p>Another important issue is that this study did not adopt a previous model validated by the literature to evaluate the degree of implementation of information systems, making it necessary to develop an original model for this analysis. Although not exactly a limitation, the discussion about the design adopted in this study to classify the implementation may benefit its validation and subsequent adoption, including in the health policy sphere, for monitoring and evaluation of this and other SUS strategies.</p>
+			<p>This study offers subsidies to support the public sector in monitoring and evaluating the implementation of information systems. It also presents useful solutions to improve the implementation of the e-SUS AB system, as well as contributing to the discussion about the model adopted in the provision of computerized systems, and to ground future studies in different areas of knowledge.</p>
+			<p>The results reinforce the need for consistent investments in the training of professionals to use the information system studied, systematic monitoring of the production of information – from collection to validation – and dissemination of data.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>REFERENCES</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. Marin HF. Sistemas de informação em saúde: considerações gerais. J Health Informatics. 2010 [cited 2020 Feb 24];2(1):20-4. Available from: <ext-link ext-link-type="uri" xlink:href="http://www.jhi-sbis.saude.ws/ojs-jhi/index.php/jhi-sbis/article/view/4">http://www.jhi-sbis.saude.ws/ojs-jhi/index.php/jhi-sbis/article/view/4</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Marin</surname>
+							<given-names>HF</given-names>
+						</name>
+					</person-group>
+					<article-title>Sistemas de informação em saúde: considerações gerais</article-title>
+					<source>J Health Informatics</source>
+					<year>2010</year>
+					<date-in-citation content-type="cited-date">cited 2020 Feb 24</date-in-citation>
+					<volume>2</volume>
+					<issue>1</issue>
+					<fpage>20</fpage>
+					<lpage>24</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="http://www.jhi-sbis.saude.ws/ojs-jhi/index.php/jhi-sbis/article/view/4">http://www.jhi-sbis.saude.ws/ojs-jhi/index.php/jhi-sbis/article/view/4</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. Thaines GHLS, Bellato R, Faria APS, Araújo LFS. Produção, fluxo e análise de dados do sistema de informação em saúde: um caso exemplar. Texto Context Enferm. 2009;18(3):466-74. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0104-07072009000300009">https://doi.org/10.1590/S0104-07072009000300009</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Thaines</surname>
+							<given-names>GHLS</given-names>
+						</name>
+						<name>
+							<surname>Bellato</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Faria</surname>
+							<given-names>APS</given-names>
+						</name>
+						<name>
+							<surname>Araújo</surname>
+							<given-names>LFS</given-names>
+						</name>
+					</person-group>
+					<article-title>Produção, fluxo e análise de dados do sistema de informação em saúde: um caso exemplar</article-title>
+					<source>Texto Context Enferm</source>
+					<year>2009</year>
+					<volume>18</volume>
+					<issue>3</issue>
+					<fpage>466</fpage>
+					<lpage>474</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0104-07072009000300009">https://doi.org/10.1590/S0104-07072009000300009</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. Pinheiro ALS, Andrade KTS, Silva DO, Zacharias FCM, Gomide MFS, Pinto IC. Gestão da saúde: o uso dos sistemas de informação e o compartilhamento de conhecimento para a tomada de decisão. Texto Contexto Enferm. 2016;25(3):9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0104-07072016003440015">https://doi.org/10.1590/0104-07072016003440015</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pinheiro</surname>
+							<given-names>ALS</given-names>
+						</name>
+						<name>
+							<surname>Andrade</surname>
+							<given-names>KTS</given-names>
+						</name>
+						<name>
+							<surname>Silva</surname>
+							<given-names>DO</given-names>
+						</name>
+						<name>
+							<surname>Zacharias</surname>
+							<given-names>FCM</given-names>
+						</name>
+						<name>
+							<surname>Gomide</surname>
+							<given-names>MFS</given-names>
+						</name>
+						<name>
+							<surname>Pinto</surname>
+							<given-names>IC</given-names>
+						</name>
+					</person-group>
+					<article-title>Gestão da saúde: o uso dos sistemas de informação e o compartilhamento de conhecimento para a tomada de decisão</article-title>
+					<source>Texto Contexto Enferm</source>
+					<year>2016</year>
+					<volume>25</volume>
+					<issue>3</issue>
+					<size units="pages">9</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0104-07072016003440015">https://doi.org/10.1590/0104-07072016003440015</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. Morais RM, Costa AL. Um modelo para avaliação de sistemas de informação do SUS de abrangência nacional: o processo de seleção e estruturação de indicadores. Rev Adm Publica. 2014;48(3):767-93. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0034-76121512">https://doi.org/10.1590/0034-76121512</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Morais</surname>
+							<given-names>RM</given-names>
+						</name>
+						<name>
+							<surname>Costa</surname>
+							<given-names>AL</given-names>
+						</name>
+					</person-group>
+					<article-title>Um modelo para avaliação de sistemas de informação do SUS de abrangência nacional: o processo de seleção e estruturação de indicadores</article-title>
+					<source>Rev Adm Publica</source>
+					<year>2014</year>
+					<volume>48</volume>
+					<issue>3</issue>
+					<fpage>767</fpage>
+					<lpage>793</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0034-76121512">https://doi.org/10.1590/0034-76121512</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Jorge MHPM, Laurenti R, Gotlieb SLD. Avaliação dos sistemas de informação em saúde no Brasil. Cad Saude Coletiva. 2010 [cited 2020 Feb 25];18(1):7-18. Available from: <ext-link ext-link-type="uri" xlink:href="http://www.cadernos.iesc.ufrj.br/cadernos/images/csc/2010_1/artigos/Modelo%20Livro%20UFRJ%201-a.pdf">http://www.cadernos.iesc.ufrj.br/cadernos/images/csc/2010_1/artigos/Modelo%20Livro%20UFRJ%201-a.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Jorge</surname>
+							<given-names>MHPM</given-names>
+						</name>
+						<name>
+							<surname>Laurenti</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Gotlieb</surname>
+							<given-names>SLD</given-names>
+						</name>
+					</person-group>
+					<article-title>Avaliação dos sistemas de informação em saúde no Brasil</article-title>
+					<source>Cad Saude Coletiva</source>
+					<year>2010</year>
+					<date-in-citation content-type="cited-date">cited 2020 Feb 25</date-in-citation>
+					<volume>18</volume>
+					<issue>1</issue>
+					<fpage>7</fpage>
+					<lpage>18</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="http://www.cadernos.iesc.ufrj.br/cadernos/images/csc/2010_1/artigos/Modelo%20Livro%20UFRJ%201-a.pdf">http://www.cadernos.iesc.ufrj.br/cadernos/images/csc/2010_1/artigos/Modelo%20Livro%20UFRJ%201-a.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. Lima CRA, Schramm JMA, Coeli CM, Silva MEM. Revisão das dimensões de qualidade dos dados e métodos aplicados na avaliação dos sistemas de informação em saúde. Cad Saude Publica. 2009;25(10):2095-109. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0102-311X2009001000002">https://doi.org/10.1590/S0102-311X2009001000002</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lima</surname>
+							<given-names>CRA</given-names>
+						</name>
+						<name>
+							<surname>Schramm</surname>
+							<given-names>JMA</given-names>
+						</name>
+						<name>
+							<surname>Coeli</surname>
+							<given-names>CM</given-names>
+						</name>
+						<name>
+							<surname>Silva</surname>
+							<given-names>MEM</given-names>
+						</name>
+					</person-group>
+					<article-title>Revisão das dimensões de qualidade dos dados e métodos aplicados na avaliação dos sistemas de informação em saúde</article-title>
+					<source>Cad Saude Publica</source>
+					<year>2009</year>
+					<volume>25</volume>
+					<issue>10</issue>
+					<fpage>2095</fpage>
+					<lpage>2109</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0102-311X2009001000002">https://doi.org/10.1590/S0102-311X2009001000002</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. Ministério da Saúde (BR), Comitê Gestor da Estratégia e-Saúde. Estratégia e-Saúde para o Brasil. Ministério. Brasília, DF; 2017 [cited 2020 Feb 24]. Available from: <ext-link ext-link-type="uri" xlink:href="http://portalarquivos.saude.gov.br/images/pdf/2017/julho/12/Estrategia-e-saude-para-o-Brasil.pdf">http://portalarquivos.saude.gov.br/images/pdf/2017/julho/12/Estrategia-e-saude-para-o-Brasil.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+						<collab>Comitê Gestor da Estratégia e-Saúde</collab>
+					</person-group>
+					<source>Estratégia e-Saúde para o Brasil. Ministério</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<year>2017</year>
+					<date-in-citation content-type="cited-date">cited 2020 Feb 24</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="http://portalarquivos.saude.gov.br/images/pdf/2017/julho/12/Estrategia-e-saude-para-o-Brasil.pdf">http://portalarquivos.saude.gov.br/images/pdf/2017/julho/12/Estrategia-e-saude-para-o-Brasil.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Ministério da Saúde (BR), Secretaria Executiva, Departamento de Monitoramento e Avaliação do SUS. Política Nacional de Informação e Informática em Saúde. Brasília, DF; 2016 [cited 2020 Feb 24]. Available from: <ext-link ext-link-type="uri" xlink:href="http://bvsms.saude.gov.br/bvs/publicacoes/politica_nacional_infor_informatica_saude_2016.pdf">http://bvsms.saude.gov.br/bvs/publicacoes/politica_nacional_infor_informatica_saude_2016.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+						<collab>Secretaria Executiva</collab>
+						<collab>Departamento de Monitoramento e Avaliação do SUS</collab>
+					</person-group>
+					<source>Política Nacional de Informação e Informática em Saúde</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<year>2016</year>
+					<date-in-citation content-type="cited-date">cited 2020 Feb 24</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="http://bvsms.saude.gov.br/bvs/publicacoes/politica_nacional_infor_informatica_saude_2016.pdf">http://bvsms.saude.gov.br/bvs/publicacoes/politica_nacional_infor_informatica_saude_2016.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. Ministério da Saúde (BR). Portaria N°1.412, de 10 de julho de 2013. Institui o Sistema de Informação em Saúde para a Atenção Básica (SISAB). Brasilia, DF; 2013 [cited 2020 Feb 24]. Available from: <ext-link ext-link-type="uri" xlink:href="http://bvsms.saude.gov.br/bvs/saudelegis/gm/2013/prt1412_10_07_2013.html">http://bvsms.saude.gov.br/bvs/saudelegis/gm/2013/prt1412_10_07_2013.html</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+					</person-group>
+					<source>Portaria N°1.412, de 10 de julho de 2013. Institui o Sistema de Informação em Saúde para a Atenção Básica (SISAB)</source>
+					<publisher-loc>Brasilia, DF</publisher-loc>
+					<year>2013</year>
+					<date-in-citation content-type="cited-date">cited 2020 Feb 24</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="http://bvsms.saude.gov.br/bvs/saudelegis/gm/2013/prt1412_10_07_2013.html">http://bvsms.saude.gov.br/bvs/saudelegis/gm/2013/prt1412_10_07_2013.html</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. Ministério da Saúde (BR). Portaria N<sup>o</sup> 1.113, de 31 de julho de 2015. Altera o § 3º do art. 3º da Portaria nº 1.412/GM/MS, de 10 de julho de 2013, que institui o Sistema de Informação em Saúde para a Atenção Básica (SISAB). Brasília, DF; 2015 [cited 2020 Feb 24]. Available from: <ext-link ext-link-type="uri" xlink:href="http://bvsms.saude.gov.br/bvs/saudelegis/gm/2015/prt1113_31_07_2015.html">http://bvsms.saude.gov.br/bvs/saudelegis/gm/2015/prt1113_31_07_2015.html</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+					</person-group>
+					<source>Portaria N<sup>o</sup> 1.113, de 31 de julho de 2015. Altera o § 3º do art. 3º da Portaria nº 1.412/GM/MS, de 10 de julho de 2013, que institui o Sistema de Informação em Saúde para a Atenção Básica (SISAB)</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<year>2015</year>
+					<date-in-citation content-type="cited-date">cited 2020 Feb 24</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="http://bvsms.saude.gov.br/bvs/saudelegis/gm/2015/prt1113_31_07_2015.html">http://bvsms.saude.gov.br/bvs/saudelegis/gm/2015/prt1113_31_07_2015.html</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. Comitê Gestor da Internet no Brasil, Núcleo de Informação e Coordenação do Ponto BR. TIC Saúde: pesquisa sobre o uso das tecnologias de informação e comunicação nos estabelecimentos de saúde brasileiros. Estratégia e-SUS AB: transformação digital na Atenção Básica do Brasil. São Paulo; 2018 [cited 2020 Feb 24]. Available from: <ext-link ext-link-type="uri" xlink:href="https://cetic.br/media/docs/publicacoes/2/tic_saude_2017_livro_eletronico.pdf">https://cetic.br/media/docs/publicacoes/2/tic_saude_2017_livro_eletronico.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Comitê Gestor da Internet no Brasil</collab>
+						<collab>Núcleo de Informação e Coordenação do Ponto BR</collab>
+					</person-group>
+					<source>TIC Saúde: pesquisa sobre o uso das tecnologias de informação e comunicação nos estabelecimentos de saúde brasileiros. Estratégia e-SUS AB: transformação digital na Atenção Básica do Brasil</source>
+					<publisher-loc>São Paulo</publisher-loc>
+					<year>2018</year>
+					<date-in-citation content-type="cited-date">cited 2020 Feb 24</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://cetic.br/media/docs/publicacoes/2/tic_saude_2017_livro_eletronico.pdf">https://cetic.br/media/docs/publicacoes/2/tic_saude_2017_livro_eletronico.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. R Core Team. R: a language and environment for statistical computing. Vienna (AT): R Foundation for Statistical Computing; 2018 [cited 2020 Feb 26]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.r-project.org/">https://www.r-project.org/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>R Core Team</collab>
+					</person-group>
+					<source>R: a language and environment for statistical computing</source>
+					<publisher-loc>Vienna (AT)</publisher-loc>
+					<publisher-name>R Foundation for Statistical Computing</publisher-name>
+					<year>2018</year>
+					<date-in-citation content-type="cited-date">cited 2020 Feb 26</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.r-project.org/">https://www.r-project.org/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. Instituto Brasileiro de Geografia e Estatística, Diretoria de Geociências, Coordenação de Geografia. Classificação e caracterização dos espaços rurais e urbanos do Brasil: uma primeira aproximação. Rio de Janeiro: IBGE; 2017 [cited 2020 Feb 24]. (Estudos e Pesquisas. Informação Geográfica; nº 11). Available from: <ext-link ext-link-type="uri" xlink:href="https://biblioteca.ibge.gov.br/visualizacao/livros/liv100643.pdf">https://biblioteca.ibge.gov.br/visualizacao/livros/liv100643.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Instituto Brasileiro de Geografia e Estatística</collab>
+						<collab>Diretoria de Geociências</collab>
+						<collab>Coordenação de Geografia</collab>
+					</person-group>
+					<source>Classificação e caracterização dos espaços rurais e urbanos do Brasil: uma primeira aproximação</source>
+					<publisher-loc>Rio de Janeiro</publisher-loc>
+					<publisher-name>IBGE</publisher-name>
+					<year>2017</year>
+					<date-in-citation content-type="cited-date">cited 2020 Feb 24</date-in-citation>
+					<comment>Estudos e Pesquisas. Informação Geográfica; nº 11</comment>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://biblioteca.ibge.gov.br/visualizacao/livros/liv100643.pdf">https://biblioteca.ibge.gov.br/visualizacao/livros/liv100643.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. Ministério da Saúde (BR), Conselho Nacional de Saúde. Resolução N<sup>o</sup> 510, de 07 de abril de 2016. Dispõe sobre as normas aplicáveis a pesquisas em Ciências Humanas e Sociais cujos procedimentos metodológicos envolvam a utilização de dados diretamente obtidos com os participantes ou de informações identificáveis ou que possam acarretar riscos maiores do que os existentes na vida cotidiana, na forma definida nesta Resolução. Brasília, DF: CNS; 2016 [cited 2020 Feb 24]. Available from: <ext-link ext-link-type="uri" xlink:href="http://conselho.saude.gov.br/resolucoes/2016/Reso510.pdf">http://conselho.saude.gov.br/resolucoes/2016/Reso510.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+						<collab>Conselho Nacional de Saúde</collab>
+					</person-group>
+					<source>Resolução N<sup>o</sup> 510, de 07 de abril de 2016. Dispõe sobre as normas aplicáveis a pesquisas em Ciências Humanas e Sociais cujos procedimentos metodológicos envolvam a utilização de dados diretamente obtidos com os participantes ou de informações identificáveis ou que possam acarretar riscos maiores do que os existentes na vida cotidiana, na forma definida nesta Resolução</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<publisher-name>CNS</publisher-name>
+					<year>2016</year>
+					<date-in-citation content-type="cited-date">cited 2020 Feb 24</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="http://conselho.saude.gov.br/resolucoes/2016/Reso510.pdf">http://conselho.saude.gov.br/resolucoes/2016/Reso510.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. Medeiros JB, Holmes ES, Albuquerque SGE, Santos SR, Candeia RMS, Costa T. O E-SUS Atenção Básica e a coleta de dados simplificada: relatos da implementação em uma estratégia saúde da família. Rev Atenção Primaria Saude. 2017;20(1):145-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.34019/1809-8363.2017.v20.15784">https://doi.org/10.34019/1809-8363.2017.v20.15784</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Medeiros</surname>
+							<given-names>JB</given-names>
+						</name>
+						<name>
+							<surname>Holmes</surname>
+							<given-names>ES</given-names>
+						</name>
+						<name>
+							<surname>Albuquerque</surname>
+							<given-names>SGE</given-names>
+						</name>
+						<name>
+							<surname>Santos</surname>
+							<given-names>SR</given-names>
+						</name>
+						<name>
+							<surname>Candeia</surname>
+							<given-names>RMS</given-names>
+						</name>
+						<name>
+							<surname>Costa</surname>
+							<given-names>T</given-names>
+						</name>
+					</person-group>
+					<article-title>O E-SUS Atenção Básica e a coleta de dados simplificada: relatos da implementação em uma estratégia saúde da família</article-title>
+					<source>Rev Atenção Primaria Saude</source>
+					<year>2017</year>
+					<volume>20</volume>
+					<issue>1</issue>
+					<fpage>145</fpage>
+					<lpage>149</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.34019/1809-8363.2017.v20.15784">https://doi.org/10.34019/1809-8363.2017.v20.15784</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. Ribeiro MA, Muniz TBF, Albuquerque IMN, Vasconcelos AA, Costa MM, Vasconcelos AMB. Processo de implantação do e-SUS Atenção Básica em Sobral – CE. Rev Eletron Comun Inform Inov Saude. 2018;12(3):258-67. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.29397/reciis.v12i3.1364">https://doi.org/10.29397/reciis.v12i3.1364</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ribeiro</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Muniz</surname>
+							<given-names>TBF</given-names>
+						</name>
+						<name>
+							<surname>Albuquerque</surname>
+							<given-names>IMN</given-names>
+						</name>
+						<name>
+							<surname>Vasconcelos</surname>
+							<given-names>AA</given-names>
+						</name>
+						<name>
+							<surname>Costa</surname>
+							<given-names>MM</given-names>
+						</name>
+						<name>
+							<surname>Vasconcelos</surname>
+							<given-names>AMB</given-names>
+						</name>
+					</person-group>
+					<article-title>Processo de implantação do e-SUS Atenção Básica em Sobral – CE</article-title>
+					<source>Rev Eletron Comun Inform Inov Saude</source>
+					<year>2018</year>
+					<volume>12</volume>
+					<issue>3</issue>
+					<fpage>258</fpage>
+					<lpage>267</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.29397/reciis.v12i3.1364">https://doi.org/10.29397/reciis.v12i3.1364</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Thum MA, Baldisserotto J, Celeste RK. Utilização do e-SUS AB e fatores associados ao registro de procedimentos e consultas da atenção básica nos municípios brasileiros. Cad Saude Publica. 2019;35(2): e00029418. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0102-311X00029418">https://doi.org/10.1590/0102-311X00029418</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Thum</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Baldisserotto</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Celeste</surname>
+							<given-names>RK</given-names>
+						</name>
+					</person-group>
+					<article-title>Utilização do e-SUS AB e fatores associados ao registro de procedimentos e consultas da atenção básica nos municípios brasileiros</article-title>
+					<source>Cad Saude Publica</source>
+					<year>2019</year>
+					<volume>35</volume>
+					<issue>2</issue>
+					<elocation-id>e00029418</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0102-311X00029418">https://doi.org/10.1590/0102-311X00029418</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18. Ludwick DA, Doucette J. Adopting electronic medical records in primary care: lessons learned from health information systems implementation experience in seven countries. Int J Med Inform. 2009;78(1):22-31. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ijmedinf.2008.06.005">https://doi.org/10.1016/j.ijmedinf.2008.06.005</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ludwick</surname>
+							<given-names>DA</given-names>
+						</name>
+						<name>
+							<surname>Doucette</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>Adopting electronic medical records in primary care: lessons learned from health information systems implementation experience in seven countries</article-title>
+					<source>Int J Med Inform</source>
+					<year>2009</year>
+					<volume>78</volume>
+					<issue>1</issue>
+					<fpage>22</fpage>
+					<lpage>31</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ijmedinf.2008.06.005">https://doi.org/10.1016/j.ijmedinf.2008.06.005</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19. Cielo AC, Costa ML, Fava V, Lora V, Gomes IC, Kitajima A, et al. Consultores e-SUS AB: A estratégia de apoio à implantação dos Sistemas e-SUS AB por meio de consultores externos. In: Anais do 12o Congresso Internacional da Rede Unida. Rev Saude Redes. 2016 [cited 2020 Feb 24];2(1 Supl):1. Available from: <ext-link ext-link-type="uri" xlink:href="http://conferencia2016.redeunida.org.br/ocs/index.php/congresso/2016/paper/view/5697">http://conferencia2016.redeunida.org.br/ocs/index.php/congresso/2016/paper/view/5697</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="confproc">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cielo</surname>
+							<given-names>AC</given-names>
+						</name>
+						<name>
+							<surname>Costa</surname>
+							<given-names>ML</given-names>
+						</name>
+						<name>
+							<surname>Fava</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Lora</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Gomes</surname>
+							<given-names>IC</given-names>
+						</name>
+						<name>
+							<surname>Kitajima</surname>
+							<given-names>A</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<source>Consultores e-SUS AB: A estratégia de apoio à implantação dos Sistemas e-SUS AB por meio de consultores externos</source>
+					<comment>Anais do</comment>
+					<conf-name>12o Congresso Internacional da Rede Unida. Rev Saude Redes</conf-name>
+					<year>2016</year>
+					<date-in-citation content-type="cited-date">cited 2020 Feb 24</date-in-citation>
+					<volume>2</volume>
+					<issue>1</issue>
+					<supplement>Supl</supplement>
+					<size units="pages">1</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="http://conferencia2016.redeunida.org.br/ocs/index.php/congresso/2016/paper/view/5697">http://conferencia2016.redeunida.org.br/ocs/index.php/congresso/2016/paper/view/5697</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20. Pilz C. Desafios e propostas para a informatização da Atenção Primária no Brasil na perspectiva de implantação do Prontuário Eletrônico do e-SUS AB [tese]. Porto Alegre, RS: Faculdade de Odontologia, Universidade Federal do Rio Grande do Sul; 2016.</mixed-citation>
+				<element-citation publication-type="thesis">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pilz</surname>
+							<given-names>C</given-names>
+						</name>
+					</person-group>
+					<source>Desafios e propostas para a informatização da Atenção Primária no Brasil na perspectiva de implantação do Prontuário Eletrônico do e-SUS AB</source>
+					<comment>tese</comment>
+					<publisher-loc>Porto Alegre, RS</publisher-loc>
+					<publisher-name>Faculdade de Odontologia, Universidade Federal do Rio Grande do Sul</publisher-name>
+					<year>2016</year>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>21. Ministério da Saúde (BR). Portaria N<sup>o</sup> 2.983, de 11 de novembro de 2019 Institui o Programa de Apoio à Informatização e Qualificação dos Dados da Atenção Primária à Saúde - Informatiza APS, por meio da alteração das Portarias de Consolidação nº 5/GM/MS e nº 6/GM/MS, de 28 de setembro de 2017. Diario Oficial da União. 13 nov 2019 [cited 2020 Feb 24]; Seção 1:99. Available from: <ext-link ext-link-type="uri" xlink:href="http://www.in.gov.br/en/web/dou/-/portaria-n-2.983-de-11-de-novembro-de-2019-227652196">http://www.in.gov.br/en/web/dou/-/portaria-n-2.983-de-11-de-novembro-de-2019-227652196</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="legal-doc">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+					</person-group>
+					<article-title>Portaria N<sup>o</sup> 2.983, de 11 de novembro de 2019 Institui o Programa de Apoio à Informatização e Qualificação dos Dados da Atenção Primária à Saúde - Informatiza APS, por meio da alteração das Portarias de Consolidação nº 5/GM/MS e nº 6/GM/MS, de 28 de setembro de 2017</article-title>
+					<source>Diario Oficial da União</source>
+					<day>13</day>
+					<month>11</month>
+					<year>2019</year>
+					<date-in-citation content-type="cited-date">cited 2020 Feb 24</date-in-citation>
+					<comment>Seção 1</comment>
+					<size units="pages">99</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="http://www.in.gov.br/en/web/dou/-/portaria-n-2.983-de-11-de-novembro-de-2019-227652196">http://www.in.gov.br/en/web/dou/-/portaria-n-2.983-de-11-de-novembro-de-2019-227652196</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>22. Pessoa VM, Almeida MM, Carneiro FF. Como garantir o direito à saúde para as populações do campo, da floresta e das águas no Brasil? Saude Debate. 2018;42(1):302-14. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0103-11042018s120">https://doi.org/10.1590/0103-11042018s120</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pessoa</surname>
+							<given-names>VM</given-names>
+						</name>
+						<name>
+							<surname>Almeida</surname>
+							<given-names>MM</given-names>
+						</name>
+						<name>
+							<surname>Carneiro</surname>
+							<given-names>FF</given-names>
+						</name>
+					</person-group>
+					<article-title>Como garantir o direito à saúde para as populações do campo, da floresta e das águas no Brasil?</article-title>
+					<source>Saude Debate</source>
+					<year>2018</year>
+					<volume>42</volume>
+					<issue>1</issue>
+					<fpage>302</fpage>
+					<lpage>314</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0103-11042018s120">https://doi.org/10.1590/0103-11042018s120</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>23. Gonçalves JPP, Batista LR, Carvalho LM, Oliveira MP, Moreira KS, Leite MTS. Prontuário Eletrônico: uma ferramenta que pode contribuir para a integração das Redes de Atenção à Saúde. Saude Debate. 2013 [cited 2020 Feb 24];37(96):43-50. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.scielo.br/j/sdeb/a/xLMq3HyhgqNwhX6y3jjpNff/?format=pdf&amp;lang=pt">https://www.scielo.br/j/sdeb/a/xLMq3HyhgqNwhX6y3jjpNff/?format=pdf&amp;lang=pt</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Gonçalves</surname>
+							<given-names>JPP</given-names>
+						</name>
+						<name>
+							<surname>Batista</surname>
+							<given-names>LR</given-names>
+						</name>
+						<name>
+							<surname>Carvalho</surname>
+							<given-names>LM</given-names>
+						</name>
+						<name>
+							<surname>Oliveira</surname>
+							<given-names>MP</given-names>
+						</name>
+						<name>
+							<surname>Moreira</surname>
+							<given-names>KS</given-names>
+						</name>
+						<name>
+							<surname>Leite</surname>
+							<given-names>MTS</given-names>
+						</name>
+					</person-group>
+					<article-title>Prontuário Eletrônico: uma ferramenta que pode contribuir para a integração das Redes de Atenção à Saúde</article-title>
+					<source>Saude Debate</source>
+					<year>2013</year>
+					<date-in-citation content-type="cited-date">cited 2020 Feb 24</date-in-citation>
+					<volume>37</volume>
+					<issue>96</issue>
+					<fpage>43</fpage>
+					<lpage>50</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.scielo.br/j/sdeb/a/xLMq3HyhgqNwhX6y3jjpNff/?format=pdf&amp;lang=pt">https://www.scielo.br/j/sdeb/a/xLMq3HyhgqNwhX6y3jjpNff/?format=pdf&amp;lang=pt</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+		</ref-list>
+	</back>
+	<sub-article article-type="translation" id="TRpt" xml:lang="pt">
+		<front-stub>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artigo Original</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Implantação da Estratégia e-SUS Atenção Básica: uma análise fundamentada em dados oficiais</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-7873-3744</contrib-id>
+					<name>
+						<surname>Cielo</surname>
+						<given-names>Ana Claudia</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-9948-5164</contrib-id>
+					<name>
+						<surname>Raiol</surname>
+						<given-names>Tainá</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-8747-4185</contrib-id>
+					<name>
+						<surname>Silva</surname>
+						<given-names>Everton Nunes da</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff2002"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-7648-0472</contrib-id>
+					<name>
+						<surname>Barreto</surname>
+						<given-names>Jorge Otávio Maia</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1002">
+				<label>I</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Fundação Oswaldo Cruz. Programa de Mestrado Profissional em Políticas Públicas em Saúde. Brasília, DF, Brasil</institution>
+			</aff>
+			<aff id="aff2002">
+				<label>II</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Universidade de Brasília. Faculdade de Ceilândia. Brasília, DF, Brasil</institution>
+			</aff>
+			<author-notes>
+				<corresp id="c01002"> Correspondência: Ana Claudia Cielo Esplanada dos Ministérios - Bloco G 7° andar - Edifício Sede 70058-900 Brasília, DF, Brasil E-mail: anaclaudiacielo@gmail.com </corresp>
+				<fn fn-type="con">
+					<p><bold>Contribuição dos Autores:</bold> Concepção e planejamento do estudo: ACC, TR, JOMB. Coleta, análise e interpretação dos dados: ACC, TR, JOMB. Elaboração ou revisão do manuscrito: ACC, TR, JOMB, ENS. Aprovação da versão final: ACC, TR, JOMB, ENS. Responsabilidade pública pelo conteúdo do artigo: ACC.</p>
+				</fn>
+				<fn fn-type="conflict">
+					<p><bold>Conflito de Interesses:</bold> Os autores declaram não haver conflito de interesses.</p>
+				</fn>
+			</author-notes>
+			<abstract>
+				<title>RESUMO</title>
+				<sec>
+					<title>OBJETIVO</title>
+					<p> Analisar a implantação da estratégia e-SUS Atenção Básica (e-SUS AB) no Brasil entre os anos iniciais do sistema, de 2013 até 2019.</p>
+				</sec>
+				<sec>
+					<title>MÉTODOS</title>
+					<p> Trata-se de um estudo quantitativo, descritivo e exploratório. Foram considerados os dados oficiais do Ministério da Saúde, enviados pelos municípios brasileiros, no período de abril de 2013 a dezembro de 2019. Os municípios foram categorizados como ‘não implantado’, ‘implantação inicial’, ‘implantação parcial’ e ‘implantado’, de acordo com os critérios definidos neste estudo. Verificou-se também se o tipo de município, segundo a classificação do IBGE, influenciou no grau de implantação da estratégia e-SUS AB. Foram realizadas análises descritivas e investigada a associação entre os graus de implantação do e-SUS AB e a tipologia da classificação e caracterização dos espaços rurais e urbanos do IBGE.</p>
+				</sec>
+				<sec>
+					<title>RESULTADOS</title>
+					<p> O grau de implantação aumentou no período analisado. A situação de implantação da estratégia e-SUS AB, em 2019, foi ‘implantado’ em 20,2% (1.117) dos municípios, ‘implantação parcial’ em 32,9% (1.819), ‘implantação inicial’ 39,1% (2.159) e a situação ‘não implantado’ foi atribuída em 7,8% (432). As regiões Sul e Sudeste apresentaram a melhor situação de implantação em todos os anos e os estados do Rio Grande do Sul, São Paulo e Santa Catarina alcançaram um maior percentual de municípios com a situação ‘implantado’ em 2019.</p>
+				</sec>
+				<sec>
+					<title>CONCLUSÕES</title>
+					<p> Houve avanço na implantação da estratégia e-SUS AB ao longo dos anos. A maior parte dos municípios encontra-se entre o status ‘implantação inicial’ e ‘implantação parcial’. Com isso, conclui-se que ainda são necessários investimentos em recursos tecnológicos, treinamento de profissionais e suporte para qualificar a implantação e uso de sistemas de informação no país, especialmente para a estratégia e-SUS AB.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="pt">
+				<kwd>Sistema Único de Saúde</kwd>
+				<kwd>Registros Eletrônicos de Saúde</kwd>
+				<kwd>Sistemas de Informação em Saúde</kwd>
+				<kwd>Atenção Primária à Saúde</kwd>
+				<kwd>Estratégias de eSaúde</kwd>
+			</kwd-group>
+		</front-stub>
+		<body>
+			<sec sec-type="intro">
+				<title>INTRODUÇÃO</title>
+				<p>Os sistemas de informação em saúde (SIS) são instrumentos padronizados de coleta de dados e monitoramento que têm como objetivo fornecer informações para análise em saúde, visando a melhoria do entendimento sobre os problemas de saúde da população<sup><xref ref-type="bibr" rid="B1">1</xref>,<xref ref-type="bibr" rid="B2">2</xref></sup>, subsidiando a tomada de decisão no âmbito das políticas públicas<sup><xref ref-type="bibr" rid="B3">3</xref></sup>.</p>
+				<p>Historicamente, os SIS brasileiros apresentam-se de forma fragmentada. Com múltiplas fontes, os dados coletados são consolidados com baixa qualidade e a sua disponibilização adota formato que dificulta sua apropriação e uso pelos gestores de saúde<sup><xref ref-type="bibr" rid="B4">4</xref>,<xref ref-type="bibr" rid="B5">5</xref></sup>. Desse modo, o monitoramento da qualidade dos dados que atendem ao Sistema Único de Saúde (SUS) não segue um plano regular de avaliações, havendo apenas iniciativas isoladas<sup><xref ref-type="bibr" rid="B6">6</xref></sup>.</p>
+				<p>O governo brasileiro, inspirado em experiências bem-sucedidas de países da Europa, Canadá, Austrália e Nova Zelândia, entre outros, concebeu e adotou a Estratégia e-Saúde para o Brasil. A Estratégia e-Saúde tem como objetivos aumentar a qualidade e ampliar o acesso à atenção à saúde, qualificar as equipes, agilizar o atendimento e melhorar o fluxo de informações para a tomada de decisão clínica, de vigilância, de regulação e de promoção da saúde, bem como a tomada de decisão voltada à gestão da saúde<sup><xref ref-type="bibr" rid="B7">7</xref></sup>, em consonância com a Política Nacional de Informação e Informática, que em sua última versão, de 2016, reforçou a importância de nortear as ações de tecnologia da informação e comunicação (TIC) e padronizar a obtenção e tratamento dos dados do sistema de saúde<sup><xref ref-type="bibr" rid="B8">8</xref></sup>.</p>
+				<p>No âmbito da atenção básica (AB), foi constituída a estratégia e-SUS Atenção Básica (e-SUS AB) no ano de 2013<sup><xref ref-type="bibr" rid="B9">9</xref>,<xref ref-type="bibr" rid="B10">10</xref></sup>, a qual se propunha oferecer um novo sistema de informação em saúde para atender às diferentes necessidades de informatização e organização dos municípios, visando à modernização da plataforma tecnológica, com apoio à gestão do cuidado, otimização da coleta de dados, interface com os diversos sistemas utilizados pela atenção básica e o aprimoramento do detalhamento das informações de saúde<sup><xref ref-type="bibr" rid="B11">11</xref></sup>, por meio do Cartão Nacional de Saúde, que permite a individualização dos registros, o que se apresentava como um grande desafio para o Brasil, pois rompia a lógica de dados consolidados utilizados na atenção básica até então.</p>
+				<p>Passados três anos da disponibilização do sistema, foi possível tornar obrigatório o envio de informações para a base de dados do Sistema de Informação em Saúde para a Atenção Básica (SISAB)<sup><xref ref-type="bibr" rid="B10">10</xref></sup>.</p>
+				<p>A estratégia e-SUS AB contempla o repositório nacional de informações SISAB e dois softwares de coleta para a entrada dos dados primários registrados pelos profissionais da AB: 1) Coleta de Dados Simplificada (CDS), por meio de fichas em papel e 2) Prontuário Eletrônico do Cidadão (PEC), que constitui um sistema informatizado. Além disso, ainda estão contemplados os sistemas comercializados por terceiros ou próprios já existentes nos municípios, integrados por meio de um mecanismo de importação de dados previamente definido<sup><xref ref-type="bibr" rid="B11">11</xref></sup>.</p>
+				<p>O movimento gerado pela mudança de sistema de informação impulsionou a informatização dos serviços de atenção básica em todo o país e pode ser considerado um caso de sucesso entre os sistemas disponibilizados em nível federal. Souza et al.<sup><xref ref-type="bibr" rid="B10">10</xref></sup>, destacam que, em 2018, a estratégia e-SUS AB estava presente nos 5.562 municípios brasileiros que possuem serviços de atenção básica e em torno de 98% das equipes de saúde da família (eSF), representando mais de 42,8 mil equipes.</p>
+				<p>Mesmo sendo visível o avanço, ainda são escassos os estudos que analisam a evolução da implantação do e-SUS AB, bem como dos fatores que influenciam esse processo e sobre o tempo necessário para a implantação da estratégia. É plausível que existam diferentes graus de implantação da estratégia, influenciados por características dos municípios, como sua localização, densidade populacional, urbanização, nível de informatização etc. Fatores geográficos e socioeconômicos, em geral, são relevantes para iniciativas governamentais que requerem a disponibilidade prévia de recursos específicos para sua implementação, ao passo que são mensuráreis e disponíveis, em bases de dados oficiais, facilitando seu uso para monitoramento dos avanços da implantação.</p>
+				<p>Este estudo analisou a implantação da estratégia e-SUS AB no Brasil no período de 2013 a 2019, investigando também características municipais que potencialmente influenciaram o melhor desempenho nesse processo.</p>
+			</sec>
+			<sec sec-type="methods">
+				<title>MÉTODOS</title>
+				<sec>
+					<title>Desenho do Estudo</title>
+					<p>Trata-se de um estudo quantitativo, descritivo e exploratório, com base em dados administrativos. O grau de implantação do e-SUS AB foi estimado em nível municipal, considerando o período de abril de 2013 a dezembro de 2019. Assim, a população do estudo consiste nos municípios brasileiros, que possuem oferta de serviços de AB registrados no Cadastro Nacional de Estabelecimentos de Saúde (CNES). O número de municípios apresentou variação nos anos estudados: 5.454 (2013); 5.496 (2014); 5.514 (2015); 5.517 (2016); 5.522 (2017); 5.524 (2018); e 5.527 (2019). O grau de implantação em cada município baseou-se nos dados fornecidos pelas equipes de atenção básica/saúde da família ao Ministério da Saúde referente ao uso do e-SUS AB. Foram excluídas deste estudo as equipes de Atenção Básica Prisional (EABP), Núcleo de Apoio a Saúde da Família (NASF), Consultório na Rua (CnR), Equipes de Saúde Bucal isolada (não vinculada a uma ESF) e Unidades Básicas de Saúde sem equipes vinculadas.</p>
+				</sec>
+				<sec>
+					<title>Procedimentos Adotados para Estimar o Percentual de Implantação do e-SUS</title>
+					<p>As variáveis usadas neste estudo refletem o envio de dados de forma sistemática para o SISAB: competência (mês), Unidade Federada (UF), código de município do Instituto Brasileiro de Geografia e Estatística (IBGE), código de unidade de saúde do CNES, código de equipe do Identificador Nacional de Equipes (INE), código do tipo de equipe do CNES, categoria profissional e registros válidos na base nacional do CNES.</p>
+					<p>A análise dos dados foi precedida pela preparação da base de dados, que, por sua vez, compreendeu as seguintes etapas de tratamento: identificação das categorias profissionais ativas no CNES por mês; verificação do envio de informação para o SISAB das categorias profissionais ativas no CNES (médico, enfermeiro, técnico e auxiliar de enfermagem, dentista, técnico e auxiliar de saúde bucal e agente comunitário de saúde); análise do envio de informação por equipe de Atenção Básica/Saúde da Família para o SISAB. Nessa etapa, analisou-se se as categorias profissionais de cada equipe realizaram o envio de informação, classificando as equipes entre as que enviaram e as que não enviaram informações, de acordo com os critérios definidos para o estudo.</p>
+					<p>Na etapa seguinte, foram definidos e aplicados os critérios para caracterizar o grau de implantação do e-SUS AB, considerando a frequência e a regularidade do envio de dados para o SISAB. Primeiro, considerou-se envio dos dados por equipe: a) Envio Insuficiente – sem envio de informação ou envio de informação inferior a 30% das competências do ano; b) Envio Inicial – Envio de informação acima de 30% das competências do ano ou envio de informação por três (3) competências consecutivas no ano; c) Envio Parcial – Envio de informação acima de 50% das competências do ano e envio de informação por três (3) competências consecutivas no ano; d) Envio Satisfatório – Envio de informação acima de 80% das competências do ano e três (3) competências consecutivas no ano.</p>
+					<p>Em seguida, utilizou-se o resultado da etapa anterior para aferir o grau de implantação da estratégia e-SUS AB nos municípios: a) Não Implantado – mais de 80% das equipes do município classificadas como ‘envio insuficiente’ na fase anterior; b) Implantação Inicial – mais de 80% das equipes do município classificadas como ‘envio inicial’ ou entre 50% e 80% das equipes classificadas como ‘envio parcial’ ou entre 30% e 50% das equipes classificadas como ‘envio satisfatório’ na fase anterior; c) Implantação Parcial – mais de 80% das equipes do município classificadas como ‘envio parcial’ ou entre 50% e 80% das equipes classificadas como ‘envio satisfatório’ na fase anterior; d) Implantado – mais de 80% das equipes do município classificadas como ‘envio satisfatório’ na fase anterior. A <xref ref-type="fig" rid="f01002">Figura 1</xref> apresenta o fluxo da classificação realizada.</p>
+					<p>
+						<fig id="f01002">
+							<label>Figura 1</label>
+							<caption>
+								<title>Fluxograma da análise da implantação da Estratégia e-SUS AB.</title>
+							</caption>
+							<graphic xlink:href="1518-8787-rsp-56-5-gf01-pt.tif"/>
+						</fig>
+					</p>
+				</sec>
+				<sec>
+					<title>Análise Estatística</title>
+					<p>O cálculo dos dados foi realizado tendo como unidade de análise a ‘equipe’, sendo posteriormente agregado por município e finalmente por estado, por região geográfica e nacional. A apresentação dos dados se deu no formato de mapas e gráficos e a análise foi feita usando o a linguagem de programação <italic>R</italic> e <italic>RStudio</italic> (versão 1.1.463, 2009 – 2018<sup><xref ref-type="bibr" rid="B12">12</xref></sup>, pacotes plyr, dplyr, readxl e rlist).</p>
+					<p>Por fim, também foi usada a classificação de caracterização dos espaços rurais e urbanos do IBGE<sup><xref ref-type="bibr" rid="B13">13</xref></sup>, para investigar a implantação do e-SUS AB, considerando os grupos nela definidos. Essa classificação leva em conta aspectos relacionados à densidade populacional e sua distribuição no território dos municípios, para definir cinco grupos, aplicáveis à caracterização dos municípios brasileiros: urbano, intermediário adjacente, intermediário remoto, rural adjacente e rural remoto.</p>
+				</sec>
+				<sec>
+					<title>Considerações Éticas</title>
+					<p>A pesquisa foi conduzida de acordo com os padrões éticos de pesquisa. Este estudo utilizou dados secundários e não identificados de sistemas de informação oficiais do Ministério da Saúde que está dispensado da apreciação do comitê de ética, conforme disposto na Resolução nº 510, de 7 de abril de 2016<sup><xref ref-type="bibr" rid="B14">14</xref></sup>.</p>
+				</sec>
+			</sec>
+			<sec sec-type="results">
+				<title>RESULTADOS</title>
+				<p>Os resultados agregados em escala nacional da implantação da estratégia e-SUS AB mostram crescimento expressivo na implantação do sistema. A evolução da implantação dessa estratégia no Brasil entre 2013 a 2019 está representada na <xref ref-type="fig" rid="f02002">Figura 2</xref>. Nos anos de 2013 e 2014, 99,7% e 83,4% dos municípios foram classificados com o status de ‘não implantado’, respectivamente. Em 2015, 49,2% dos municípios obtiveram algum grau de implantação diferente do status ‘não implantado’. Em 2016 e 2017, os status ‘implantação inicial’ e ‘implantação parcial’ ultrapassaram o percentual de ‘não implantado’ e a maior parcela encontrava-se entre os status ‘implantação inicial’, 49,7% e 48,3%, e ‘implantação parcial’, 21,6% e 28,7%, respectivamente. Nos dois últimos anos de análise, 2018 e 2019, 37,9% e 39,1%, dos municípios apresentavam o status ‘implantação inicial’, 32,4% e 32,9%, ‘implantação parcial’, e com status ‘implantado’, 21,7% e 20,2%, respectivamente.</p>
+				<p>
+					<fig id="f02002">
+						<label>Figura 2</label>
+						<caption>
+							<title>Evolução da situação de implantação da Estratégia e-SUS AB por município, Brasil, de 2013 a 2019.</title>
+						</caption>
+						<graphic xlink:href="1518-8787-rsp-56-5-gf02-pt.tif"/>
+					</fig>
+				</p>
+				<p>A evolução da implantação da estratégia e-SUS AB ocorreu de maneira distinta entre as regiões do país, conforme <xref ref-type="fig" rid="f03002">Figura 3</xref>. Em termos do percentual de implantação, as regiões Norte, Nordeste e Centro-Oeste ficaram abaixo da média nacional em todos os anos a partir de 2015, enquanto as regiões Sudeste e Sul ficaram acima da média nacional no mesmo período. No ano de 2019, os percentuais de municípios na situação ‘implantado’ e ‘implantação parcial’ superam a situação ‘não implantado’ e ‘implantação inicial’ no Brasil. Nesse aspecto, a região Sudeste apresenta a melhor situação, com 56,8% dos municípios nessa situação, seguida da região Sul, 54,1%, Norte, 53%, Nordeste, 51,4%, e Centro-Oeste, 44,5%. A análise de melhor percentual de municípios com status ‘implantado’ destaca a região Sul (24,8%), seguida da região Sudeste (24,4%), Centro-Oeste (16,9%), e Nordeste e Norte (15,4%), que apresentam o mesmo percentual.</p>
+				<p>
+					<fig id="f03002">
+						<label>Figura 3</label>
+						<caption>
+							<title>Situação de implantação da Estratégia e-SUS AB por região geográfica, Brasil, de 2013 a 2019.</title>
+						</caption>
+						<graphic xlink:href="1518-8787-rsp-56-5-gf03-pt.tif"/>
+					</fig>
+				</p>
+				<p>Na análise de implantação por Estado (<xref ref-type="table" rid="t1002">Tabela</xref> 1), observou-se que o maior percentual de municípios com a situação ‘implantado’, em 2019, estava no estado do Rio Grande do Sul (30,3%), seguido de São Paulo (29,5%) e Santa Catarina (28,8%). O estado com situação mais deficitária é o Amapá, com 4,5% dos municípios com status ‘implantado’. O Distrito Federal, apesar de suas peculiaridades, não apresentou a situação ‘implantado’. Os estados brasileiros com maior percentual de municípios com a situação ‘não implantado’ foram Roraima com 20%, Paraná com 15,3%, Rio Grande do Sul e Goiás com 13,7%. O estado de Alagoas também não apresentou nenhum município com a situação ‘não implantado’.</p>
+				<p>
+					<table-wrap id="t1002">
+						<label>Tabela</label>
+						<caption>
+							<title>Implantação da Estratégia e-SUS AB por estado e região, 2013 a 2019.</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left">Região/UF</th>
+									<th>Situação de implantação</th>
+									<th>2013 n (%)</th>
+									<th>2014 n (%)</th>
+									<th>2015 n (%)</th>
+									<th>2016 n (%)</th>
+									<th>2017 n (%)</th>
+									<th>2018 n (%)</th>
+									<th>2019 n (%)</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Norte</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>AC</td>
+									<td align="center">Não implantado</td>
+									<td align="center">22 (100)</td>
+									<td align="center">18 (81,8)</td>
+									<td align="center">10 (45,4)</td>
+									<td align="center">6 (27,2)</td>
+									<td align="center">3 (13,6)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">2 (9)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantação inicial</td>
+									<td align="center">0 (0)</td>
+									<td align="center">4 (18,1)</td>
+									<td align="center">12 (54,5)</td>
+									<td align="center">12 (54,5)</td>
+									<td align="center">12 (54,5)</td>
+									<td align="center">14 (63,6)</td>
+									<td align="center">14 (63,6)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantação parcial</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">4 (18,1)</td>
+									<td align="center">7 (31,8)</td>
+									<td align="center">7 (31,8)</td>
+									<td align="center">5 (22,7)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantado</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">1 (4,5)</td>
+									<td align="center">1 (4,5)</td>
+								</tr>
+								<tr>
+									<td>AM</td>
+									<td align="center">Não implantado</td>
+									<td align="center">62 (100)</td>
+									<td align="center">57 (91,9)</td>
+									<td align="center">18 (29)</td>
+									<td align="center">4 (6,4)</td>
+									<td align="center">2 (3,2)</td>
+									<td align="center">1 (1,6)</td>
+									<td align="center">1 (1,6)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantação inicial</td>
+									<td align="center">0 (0)</td>
+									<td align="center">5 (8)</td>
+									<td align="center">41 (66,1)</td>
+									<td align="center">43 (69,3)</td>
+									<td align="center">41 (66,1)</td>
+									<td align="center">30 (48,3)</td>
+									<td align="center">30 (48,3)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantação parcial</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">3 (4,8)</td>
+									<td align="center">14 (22,5)</td>
+									<td align="center">16 (25,8)</td>
+									<td align="center">28 (45,1)</td>
+									<td align="center">27 (43,5)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantado</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">1 (1,6)</td>
+									<td align="center">3 (4,8)</td>
+									<td align="center">3 (4,8)</td>
+									<td align="center">4 (6,4)</td>
+								</tr>
+								<tr>
+									<td>AP</td>
+									<td align="center">Não implantado</td>
+									<td align="center">16 (100)</td>
+									<td align="center">13 (81,2)</td>
+									<td align="center">7 (43,7)</td>
+									<td align="center">8 (50)</td>
+									<td align="center">6 (37,5)</td>
+									<td align="center">3 (18,7)</td>
+									<td align="center">1 (6,2)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantação inicial</td>
+									<td align="center">0 (0)</td>
+									<td align="center">3 (18,7)</td>
+									<td align="center">8 (50)</td>
+									<td align="center">7 (43,7)</td>
+									<td align="center">9 (56,2)</td>
+									<td align="center">10 (62,5)</td>
+									<td align="center">13 (81,2)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantação parcial</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">1 (6,2)</td>
+									<td align="center">1 (6,2)</td>
+									<td align="center">1 (6,2)</td>
+									<td align="center">3 (18,7)</td>
+									<td align="center">2 (12,5)</td>
+								</tr>
+								<tr>
+									<td>PA</td>
+									<td align="center">Não implantado</td>
+									<td align="center">143 (100)</td>
+									<td align="center">107 (74,3)</td>
+									<td align="center">39 (27)</td>
+									<td align="center">7 (4,8)</td>
+									<td align="center">3 (2)</td>
+									<td align="center">2 (1,3)</td>
+									<td align="center">1 (0,6)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantação inicial</td>
+									<td align="center">0 (0)</td>
+									<td align="center">37 (25,6)</td>
+									<td align="center">84 (58,3)</td>
+									<td align="center">91 (63,1)</td>
+									<td align="center">95 (65,9)</td>
+									<td align="center">74 (51,3)</td>
+									<td align="center">73 (50,6)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantação parcial</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">20 (13,8)</td>
+									<td align="center">38 (26,3)</td>
+									<td align="center">34 (23,6)</td>
+									<td align="center">54 (37,5)</td>
+									<td align="center">57 (39,5)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantado</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">1 (0,6)</td>
+									<td align="center">8 (5,5)</td>
+									<td align="center">12 (8,3)</td>
+									<td align="center">14 (9,7)</td>
+									<td align="center">13 (9)</td>
+								</tr>
+								<tr>
+									<td>RO</td>
+									<td align="center">Não implantado</td>
+									<td align="center">52 (100)</td>
+									<td align="center">47 (90,3)</td>
+									<td align="center">26 (50)</td>
+									<td align="center">6 (11,5)</td>
+									<td align="center">3 (5,7)</td>
+									<td align="center">2 (3,8)</td>
+									<td align="center">1 (1,9)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantação inicial</td>
+									<td align="center">0 (0)</td>
+									<td align="center">5 (9,6)</td>
+									<td align="center">23 (44,2)</td>
+									<td align="center">30 (57,6)</td>
+									<td align="center">27 (51,9)</td>
+									<td align="center">17 (32,6)</td>
+									<td align="center">19 (36,5)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantação parcial</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">3 (5,7)</td>
+									<td align="center">13 (25)</td>
+									<td align="center">18 (34,6)</td>
+									<td align="center">24 (46,1)</td>
+									<td align="center">19 (36,5)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantado</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">3 (5,7)</td>
+									<td align="center">4 (7,6)</td>
+									<td align="center">9 (17,3)</td>
+									<td align="center">13 (25)</td>
+								</tr>
+								<tr>
+									<td>RR</td>
+									<td align="center">Não implantado</td>
+									<td align="center">15 (100)</td>
+									<td align="center">14 (93,3)</td>
+									<td align="center">12 (80)</td>
+									<td align="center">3 (20)</td>
+									<td align="center">4 (26,6)</td>
+									<td align="center">1 (6,6)</td>
+									<td align="center">3 (20)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantação inicial</td>
+									<td align="center">0 (0)</td>
+									<td align="center">1 (6,6)</td>
+									<td align="center">3 (20)</td>
+									<td align="center">12 (80)</td>
+									<td align="center">8 (53,3)</td>
+									<td align="center">10 (66,6)</td>
+									<td align="center">8 (53,3)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantação parcial</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">3 (20)</td>
+									<td align="center">4 (26,6)</td>
+									<td align="center">4 (26,6)</td>
+								</tr>
+								<tr>
+									<td>TO</td>
+									<td align="center">Não implantado</td>
+									<td align="center">139 (100)</td>
+									<td align="center">111 (79,8)</td>
+									<td align="center">84 (60,4)</td>
+									<td align="center">36 (25,8)</td>
+									<td align="center">19 (13,6)</td>
+									<td align="center">15 (10,8)</td>
+									<td align="center">13 (9,4)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantação inicial</td>
+									<td align="center">0 (0)</td>
+									<td align="center">25 (17,9)</td>
+									<td align="center">43 (30,9)</td>
+									<td align="center">54 (38,8)</td>
+									<td align="center">50 (35,9)</td>
+									<td align="center">33 (23,9)</td>
+									<td align="center">32 (23,1)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantação parcial</td>
+									<td align="center">0 (0)</td>
+									<td align="center">3 (2,1)</td>
+									<td align="center">10 (7,1)</td>
+									<td align="center">35 (25,1)</td>
+									<td align="center">48 (34,5)</td>
+									<td align="center">45 (32,6)</td>
+									<td align="center">55 (39,8)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantado</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">2 (1,4)</td>
+									<td align="center">14 (10)</td>
+									<td align="center">22 (15,8)</td>
+									<td align="center">45 (32,6)</td>
+									<td align="center">38 (27,5)</td>
+								</tr>
+								<tr>
+									<td>Nordeste</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>AL</td>
+									<td align="center">Não implantado</td>
+									<td align="center">102 (100)</td>
+									<td align="center">98 (96)</td>
+									<td align="center">58 (56,8)</td>
+									<td align="center">2 (1,9)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantação inicial</td>
+									<td align="center">0 (0)</td>
+									<td align="center">4 (3,9)</td>
+									<td align="center">40 (39,2)</td>
+									<td align="center">59 (57,8)</td>
+									<td align="center">51 (50)</td>
+									<td align="center">35 (34,3)</td>
+									<td align="center">27 (26,4)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantação parcial</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">4 (3,9)</td>
+									<td align="center">36 (35,2)</td>
+									<td align="center">36 (35,2)</td>
+									<td align="center">41 (40,1)</td>
+									<td align="center">48 (47)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantado</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">5 (4,9)</td>
+									<td align="center">15 (14,7)</td>
+									<td align="center">26 (25,4)</td>
+									<td align="center">27 (26,4)</td>
+								</tr>
+								<tr>
+									<td>BA</td>
+									<td align="center">Não implantado</td>
+									<td align="center">417 (100)</td>
+									<td align="center">344 (82,4)</td>
+									<td align="center">200 (47,9)</td>
+									<td align="center">47 (11,2)</td>
+									<td align="center">11 (2,6)</td>
+									<td align="center">12 (2,8)</td>
+									<td align="center">5 (1,1)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantação inicial</td>
+									<td align="center">0 (0)</td>
+									<td align="center">72 (17,2)</td>
+									<td align="center">187 (44,8)</td>
+									<td align="center">297 (71,2)</td>
+									<td align="center">267 (64)</td>
+									<td align="center">190 (45,5)</td>
+									<td align="center">190 (45,5)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantação parcial</td>
+									<td align="center">0 (0)</td>
+									<td align="center">1 (0,2)</td>
+									<td align="center">25 (5,9)</td>
+									<td align="center">65 (15,5)</td>
+									<td align="center">113 (27)</td>
+									<td align="center">163 (39)</td>
+									<td align="center">158 (37,8)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantado</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">5 (1,1)</td>
+									<td align="center">8 (1,9)</td>
+									<td align="center">26 (6,2)</td>
+									<td align="center">52 (12,4)</td>
+									<td align="center">64 (15,3)</td>
+								</tr>
+								<tr>
+									<td>CE</td>
+									<td align="center">Não implantado</td>
+									<td align="center">184 (100)</td>
+									<td align="center">183 (99,4)</td>
+									<td align="center">92 (50)</td>
+									<td align="center">22 (11,9)</td>
+									<td align="center">7 (3,8)</td>
+									<td align="center">7 (3,8)</td>
+									<td align="center">5 (2,7)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantação inicial</td>
+									<td align="center">0 (0)</td>
+									<td align="center">1 (0,5)</td>
+									<td align="center">88 (47,8)</td>
+									<td align="center">135 (73,3)</td>
+									<td align="center">126 (68,4)</td>
+									<td align="center">98 (53,2)</td>
+									<td align="center">91 (49,4)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantação parcial</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">4 (2,1)</td>
+									<td align="center">21 (11,4)</td>
+									<td align="center">36 (19,5)</td>
+									<td align="center">62 (33,6)</td>
+									<td align="center">66 (35,8)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantado</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">6 (3,2)</td>
+									<td align="center">15 (8,1)</td>
+									<td align="center">17 (9,2)</td>
+									<td align="center">22 (11,9)</td>
+								</tr>
+								<tr>
+									<td>MA</td>
+									<td align="center">Não implantado</td>
+									<td align="center">216 (99,5)</td>
+									<td align="center">140 (64,5)</td>
+									<td align="center">82 (37,7)</td>
+									<td align="center">40 (18,4)</td>
+									<td align="center">16 (7,3)</td>
+									<td align="center">11 (5)</td>
+									<td align="center">13 (5,9)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantação inicial</td>
+									<td align="center">1 (0,4)</td>
+									<td align="center">74 (34,1)</td>
+									<td align="center">118 (54,3)</td>
+									<td align="center">138 (63,5)</td>
+									<td align="center">149 (68,6)</td>
+									<td align="center">125 (57,6)</td>
+									<td align="center">119 (54,8)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantação parcial</td>
+									<td align="center">0 (0)</td>
+									<td align="center">3 (1,3)</td>
+									<td align="center">14 (6,4)</td>
+									<td align="center">35 (16,1)</td>
+									<td align="center">41 (18,8)</td>
+									<td align="center">56 (25,8)</td>
+									<td align="center">61 (28,1)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantado</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">3 (1,3)</td>
+									<td align="center">4 (1,8)</td>
+									<td align="center">11 (5)</td>
+									<td align="center">25 (11,5)</td>
+									<td align="center">24 (11)</td>
+								</tr>
+								<tr>
+									<td>PB</td>
+									<td align="center">Não implantado</td>
+									<td align="center">220 (98,6)</td>
+									<td align="center">114 (51,1)</td>
+									<td align="center">43 (19,2)</td>
+									<td align="center">22 (9,8)</td>
+									<td align="center">10 (4,4)</td>
+									<td align="center">10 (4,4)</td>
+									<td align="center">10 (4,4)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantação inicial</td>
+									<td align="center">2 (0,8)</td>
+									<td align="center">97 (43,4)</td>
+									<td align="center">104 (46,6)</td>
+									<td align="center">102 (45,7)</td>
+									<td align="center">95 (42,6)</td>
+									<td align="center">87 (39)</td>
+									<td align="center">92 (41,2)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantação parcial</td>
+									<td align="center">1 (0,4)</td>
+									<td align="center">9 (4)</td>
+									<td align="center">58 (26)</td>
+									<td align="center">73 (32,7)</td>
+									<td align="center">85 (38,1)</td>
+									<td align="center">75 (33,6)</td>
+									<td align="center">84 (37,6)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantado</td>
+									<td align="center">0 (0)</td>
+									<td align="center">3 (1,3)</td>
+									<td align="center">18 (8)</td>
+									<td align="center">26 (11,6)</td>
+									<td align="center">33 (14,7)</td>
+									<td align="center">51 (22,8)</td>
+									<td align="center">37 (16,5)</td>
+								</tr>
+								<tr>
+									<td>PE</td>
+									<td align="center">Não implantado</td>
+									<td align="center">185 (100)</td>
+									<td align="center">161 (87)</td>
+									<td align="center">93 (50,2)</td>
+									<td align="center">15 (8,1)</td>
+									<td align="center">3 (1,6)</td>
+									<td align="center">1 (0,5)</td>
+									<td align="center">2 (1)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantação inicial</td>
+									<td align="center">0 (0)</td>
+									<td align="center">23 (12,4)</td>
+									<td align="center">83 (44,8)</td>
+									<td align="center">131 (70,8)</td>
+									<td align="center">116 (62,7)</td>
+									<td align="center">94 (50,8)</td>
+									<td align="center">86 (46,4)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantação parcial</td>
+									<td align="center">0 (0)</td>
+									<td align="center">1 (0,5)</td>
+									<td align="center">8 (4,3)</td>
+									<td align="center">32 (17,2)</td>
+									<td align="center">56 (30,2)</td>
+									<td align="center">61 (32,9)</td>
+									<td align="center">74 (40)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantado</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">1 (0,5)</td>
+									<td align="center">7 (3,7)</td>
+									<td align="center">10 (5,4)</td>
+									<td align="center">29 (15,6)</td>
+									<td align="center">23 (12,4)</td>
+								</tr>
+								<tr>
+									<td>PI</td>
+									<td align="center">Não implantado</td>
+									<td align="center">224 (100)</td>
+									<td align="center">212 (94,6)</td>
+									<td align="center">138 (61,6)</td>
+									<td align="center">62 (27,6)</td>
+									<td align="center">24 (10,7)</td>
+									<td align="center">18 (8)</td>
+									<td align="center">20 (8,9)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantação inicial</td>
+									<td align="center">0 (0)</td>
+									<td align="center">11 (4,9)</td>
+									<td align="center">74 (33)</td>
+									<td align="center">110 (49,1)</td>
+									<td align="center">114 (50,8)</td>
+									<td align="center">103 (45,9)</td>
+									<td align="center">100 (44,6)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantação parcial</td>
+									<td align="center">0 (0)</td>
+									<td align="center">1 (0,4)</td>
+									<td align="center">10 (4,4)</td>
+									<td align="center">45 (20)</td>
+									<td align="center">70 (31,2)</td>
+									<td align="center">70 (31,2)</td>
+									<td align="center">71 (31,6)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantado</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">2 (0,8)</td>
+									<td align="center">7 (3,1)</td>
+									<td align="center">16 (7,1)</td>
+									<td align="center">33 (14,7)</td>
+									<td align="center">33 (14,7)</td>
+								</tr>
+								<tr>
+									<td>RN</td>
+									<td align="center">Não implantado</td>
+									<td align="center">163 (97,6)</td>
+									<td align="center">110 (65,8)</td>
+									<td align="center">66 (39,5)</td>
+									<td align="center">30 (17,9)</td>
+									<td align="center">11 (6,5)</td>
+									<td align="center">7 (4,1)</td>
+									<td align="center">5 (2,9)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantação inicial</td>
+									<td align="center">4 (2,3)</td>
+									<td align="center">48 (28,7)</td>
+									<td align="center">75 (44,9)</td>
+									<td align="center">93 (55,6)</td>
+									<td align="center">82 (49,1)</td>
+									<td align="center">81 (48,5)</td>
+									<td align="center">76 (45,5)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantação parcial</td>
+									<td align="center">0 (0)</td>
+									<td align="center">9 (5,3)</td>
+									<td align="center">25 (14,9)</td>
+									<td align="center">37 (22,1)</td>
+									<td align="center">56 (33,5)</td>
+									<td align="center">56 (33,5)</td>
+									<td align="center">55 (32,9)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantado</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">1 (0,5)</td>
+									<td align="center">7 (4,1)</td>
+									<td align="center">18 (10,7)</td>
+									<td align="center">23 (13,7)</td>
+									<td align="center">31 (18,5)</td>
+								</tr>
+								<tr>
+									<td>SE</td>
+									<td align="center">Não implantado</td>
+									<td align="center">75 (100)</td>
+									<td align="center">45 (60)</td>
+									<td align="center">31 (41,3)</td>
+									<td align="center">10 (13,3)</td>
+									<td align="center">1 (1,3)</td>
+									<td align="center">4 (5,3)</td>
+									<td align="center">4 (5,3)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantação inicial</td>
+									<td align="center">0 (0)</td>
+									<td align="center">28 (37,3)</td>
+									<td align="center">35 (46,6)</td>
+									<td align="center">47 (62,6)</td>
+									<td align="center">36 (48)</td>
+									<td align="center">28 (37,3)</td>
+									<td align="center">27 (36)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantação parcial</td>
+									<td align="center">0 (0)</td>
+									<td align="center">2 (2,6)</td>
+									<td align="center">7 (9,3)</td>
+									<td align="center">13 (17,3)</td>
+									<td align="center">33 (44)</td>
+									<td align="center">32 (42,6)</td>
+									<td align="center">29 (38,6)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantado</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">2 (2,6)</td>
+									<td align="center">5 (6,6)</td>
+									<td align="center">5 (6,6)</td>
+									<td align="center">11 (14,6)</td>
+									<td align="center">15 (20)</td>
+								</tr>
+								<tr>
+									<td>Centro-oeste</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>DF</td>
+									<td align="center">Não implantado</td>
+									<td align="center">1 (100)</td>
+									<td align="center">1 (100)</td>
+									<td align="center">1 (100)</td>
+									<td align="center">1 (100)</td>
+									<td align="center">1 (100)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantação inicial</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">1 (100)</td>
+									<td align="center">0 (0)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantação parcial</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">1 (100)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantado</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+								</tr>
+								<tr>
+									<td>GO</td>
+									<td align="center">Não implantado</td>
+									<td align="center">245 (99,5)</td>
+									<td align="center">219 (89)</td>
+									<td align="center">144 (58,5)</td>
+									<td align="center">73 (29,6)</td>
+									<td align="center">42 (17)</td>
+									<td align="center">39 (15,8)</td>
+									<td align="center">33 (13,4)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantação inicial</td>
+									<td align="center">1 (0,4)</td>
+									<td align="center">25 (10,1)</td>
+									<td align="center">78 (31,7)</td>
+									<td align="center">113 (45,9)</td>
+									<td align="center">126 (51,2)</td>
+									<td align="center">108 (43,9)</td>
+									<td align="center">105 (42,6)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantação parcial</td>
+									<td align="center">0 (0)</td>
+									<td align="center">1 (0,4)</td>
+									<td align="center">17 (6,9)</td>
+									<td align="center">50 (20,3)</td>
+									<td align="center">64 (26)</td>
+									<td align="center">65 (26,4)</td>
+									<td align="center">70 (28,4)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantado</td>
+									<td align="center">0 (0)</td>
+									<td align="center">1 (0,4)</td>
+									<td align="center">7 (2,8)</td>
+									<td align="center">10 (4)</td>
+									<td align="center">14 (5,6)</td>
+									<td align="center">34 (13,8)</td>
+									<td align="center">38 (15,4)</td>
+								</tr>
+								<tr>
+									<td>MS</td>
+									<td align="center">Não implantado</td>
+									<td align="center">79 (100)</td>
+									<td align="center">63 (79,7)</td>
+									<td align="center">44 (55,6)</td>
+									<td align="center">15 (18,9)</td>
+									<td align="center">6 (7,5)</td>
+									<td align="center">5 (6,3)</td>
+									<td align="center">3 (3,7)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantação inicial</td>
+									<td align="center">0 (0)</td>
+									<td align="center">15 (18,9)</td>
+									<td align="center">31 (39,2)</td>
+									<td align="center">47 (59,4)</td>
+									<td align="center">52 (65,8)</td>
+									<td align="center">43 (54,4)</td>
+									<td align="center">46 (58,2)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantação parcial</td>
+									<td align="center">0 (0)</td>
+									<td align="center">1 (1,2)</td>
+									<td align="center">3 (3,7)</td>
+									<td align="center">15 (18,9)</td>
+									<td align="center">17 (21,5)</td>
+									<td align="center">23 (29,1)</td>
+									<td align="center">16 (20,2)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantado</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">1 (1,2)</td>
+									<td align="center">2 (2,5)</td>
+									<td align="center">4 (5)</td>
+									<td align="center">8 (10,1)</td>
+									<td align="center">14 (17,7)</td>
+								</tr>
+								<tr>
+									<td>MT</td>
+									<td align="center">Não implantado</td>
+									<td align="center">141 (100)</td>
+									<td align="center">130 (92,1)</td>
+									<td align="center">102 (72,3)</td>
+									<td align="center">36 (25,5)</td>
+									<td align="center">21 (14,8)</td>
+									<td align="center">18 (12,7)</td>
+									<td align="center">16 (11,3)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantação inicial</td>
+									<td align="center">0 (0)</td>
+									<td align="center">10 (7)</td>
+									<td align="center">32 (22,6)</td>
+									<td align="center">75 (53,1)</td>
+									<td align="center">76 (53,9)</td>
+									<td align="center">51 (36,1)</td>
+									<td align="center">56 (39,7)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantação parcial</td>
+									<td align="center">0 (0)</td>
+									<td align="center">1 (0,7)</td>
+									<td align="center">7 (4,9)</td>
+									<td align="center">25 (17,7)</td>
+									<td align="center">36 (25,5)</td>
+									<td align="center">48 (34)</td>
+									<td align="center">42 (29,7)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantado</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">5 (3,5)</td>
+									<td align="center">8 (5,6)</td>
+									<td align="center">24 (17)</td>
+									<td align="center">27 (19,1)</td>
+								</tr>
+								<tr>
+									<td>Sudeste</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>ES</td>
+									<td align="center">Não implantado</td>
+									<td align="center">78 (100)</td>
+									<td align="center">70 (89,7)</td>
+									<td align="center">33 (42,3)</td>
+									<td align="center">14 (17,9)</td>
+									<td align="center">9 (11,5)</td>
+									<td align="center">10 (12,8)</td>
+									<td align="center">8 (10,2)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantação inicial</td>
+									<td align="center">0 (0)</td>
+									<td align="center">7 (8,9)</td>
+									<td align="center">39 (50)</td>
+									<td align="center">47 (60,2)</td>
+									<td align="center">51 (65,3)</td>
+									<td align="center">42 (53,8)</td>
+									<td align="center">48 (61,5)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantação parcial</td>
+									<td align="center">0 (0)</td>
+									<td align="center">1 (1,2)</td>
+									<td align="center">3 (3,8)</td>
+									<td align="center">14 (17,9)</td>
+									<td align="center">16 (20,5)</td>
+									<td align="center">21 (26,9)</td>
+									<td align="center">17 (21,7)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantado</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">3 (3,8)</td>
+									<td align="center">3 (3,8)</td>
+									<td align="center">2 (2,5)</td>
+									<td align="center">5 (6,4)</td>
+									<td align="center">5 (6,4)</td>
+								</tr>
+								<tr>
+									<td>MG</td>
+									<td align="center">Não implantado</td>
+									<td align="center">850 (99,8)</td>
+									<td align="center">741 (86,9)</td>
+									<td align="center">486 (57)</td>
+									<td align="center">128 (15)</td>
+									<td align="center">76 (8,9)</td>
+									<td align="center">59 (6,9)</td>
+									<td align="center">63 (7,3)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantação inicial</td>
+									<td align="center">1 (0,1)</td>
+									<td align="center">100 (11,7)</td>
+									<td align="center">285 (33,4)</td>
+									<td align="center">382 (44,8)</td>
+									<td align="center">360 (42,2)</td>
+									<td align="center">288 (33,7)</td>
+									<td align="center">287 (33,6)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantação parcial</td>
+									<td align="center">0 (0)</td>
+									<td align="center">11 (1,2)</td>
+									<td align="center">70 (8,2)</td>
+									<td align="center">210 (24,6)</td>
+									<td align="center">275 (32,2)</td>
+									<td align="center">280 (32,8)</td>
+									<td align="center">295 (34,5)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantado</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">11 (1,2)</td>
+									<td align="center">132 (15,4)</td>
+									<td align="center">142 (16,6)</td>
+									<td align="center">226 (26,4)</td>
+									<td align="center">208 (24,3)</td>
+								</tr>
+								<tr>
+									<td>RJ</td>
+									<td align="center">Não implantado</td>
+									<td align="center">91 (100)</td>
+									<td align="center">68 (74,7)</td>
+									<td align="center">36 (39,1)</td>
+									<td align="center">5 (5,4)</td>
+									<td align="center">7 (7,6)</td>
+									<td align="center">3 (3,2)</td>
+									<td align="center">7 (7,6)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantação inicial</td>
+									<td align="center">0 (0)</td>
+									<td align="center">22 (24,1)</td>
+									<td align="center">50 (54,3)</td>
+									<td align="center">76 (82,6)</td>
+									<td align="center">67 (72,8)</td>
+									<td align="center">57 (61,9)</td>
+									<td align="center">56 (60,8)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantação parcial</td>
+									<td align="center">0 (0)</td>
+									<td align="center">1 (1)</td>
+									<td align="center">5 (5,4)</td>
+									<td align="center">8 (8,6)</td>
+									<td align="center">16 (17,3)</td>
+									<td align="center">25 (27,1)</td>
+									<td align="center">23 (25)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantado</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">1 (1)</td>
+									<td align="center">3 (3,2)</td>
+									<td align="center">2 (2,1)</td>
+									<td align="center">7 (7,6)</td>
+									<td align="center">6 (6,5)</td>
+								</tr>
+								<tr>
+									<td>SP</td>
+									<td align="center">Não implantado</td>
+									<td align="center">567 (99,1)</td>
+									<td align="center">512 (86)</td>
+									<td align="center">349 (57,7)</td>
+									<td align="center">140 (23)</td>
+									<td align="center">85 (13,9)</td>
+									<td align="center">51 (8,3)</td>
+									<td align="center">51 (8,3)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantação inicial</td>
+									<td align="center">4 (0,6)</td>
+									<td align="center">71 (11,9)</td>
+									<td align="center">182 (30,1)</td>
+									<td align="center">226 (37,2)</td>
+									<td align="center">218 (35,7)</td>
+									<td align="center">167 (27,3)</td>
+									<td align="center">187 (30,5)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantação parcial</td>
+									<td align="center">1 (0,1)</td>
+									<td align="center">10 (1,6)</td>
+									<td align="center">48 (7,9)</td>
+									<td align="center">137 (22,5)</td>
+									<td align="center">193 (31,6)</td>
+									<td align="center">197 (32,2)</td>
+									<td align="center">194 (31,6)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantado</td>
+									<td align="center">0 (0)</td>
+									<td align="center">2 (0,3)</td>
+									<td align="center">25 (4,1)</td>
+									<td align="center">104 (17,1)</td>
+									<td align="center">113 (18,5)</td>
+									<td align="center">195 (31,9)</td>
+									<td align="center">181 (29,5)</td>
+								</tr>
+								<tr>
+									<td>Sul</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>PR</td>
+									<td align="center">Não implantado</td>
+									<td align="center">398 (100)</td>
+									<td align="center">360 (90,2)</td>
+									<td align="center">231 (57,8)</td>
+									<td align="center">144 (36)</td>
+									<td align="center">80 (20)</td>
+									<td align="center">55 (13,8)</td>
+									<td align="center">61 (15,3)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantação inicial</td>
+									<td align="center">0 (0)</td>
+									<td align="center">37 (9,2)</td>
+									<td align="center">134 (33,5)</td>
+									<td align="center">166 (41,6)</td>
+									<td align="center">200 (50,1)</td>
+									<td align="center">135 (33,9)</td>
+									<td align="center">170 (42,7)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantação parcial</td>
+									<td align="center">0 (0)</td>
+									<td align="center">2 (0,5)</td>
+									<td align="center">28 (7)</td>
+									<td align="center">73 (18,2)</td>
+									<td align="center">85 (21,3)</td>
+									<td align="center">122 (30,6)</td>
+									<td align="center">107 (26,8)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantado</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">6 (1,5)</td>
+									<td align="center">16 (4)</td>
+									<td align="center">34 (8,5)</td>
+									<td align="center">86 (21,6)</td>
+									<td align="center">60 (15)</td>
+								</tr>
+								<tr>
+									<td>RS</td>
+									<td align="center">Não implantado</td>
+									<td align="center">459 (99,7)</td>
+									<td align="center">360 (75,7)</td>
+									<td align="center">175 (36,2)</td>
+									<td align="center">103 (21,3)</td>
+									<td align="center">94 (19,3)</td>
+									<td align="center">73 (14,9)</td>
+									<td align="center">67 (13,7)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantação inicial</td>
+									<td align="center">1 (0,2)</td>
+									<td align="center">93 (19,5)</td>
+									<td align="center">149 (30,8)</td>
+									<td align="center">130 (26,9)</td>
+									<td align="center">125 (25,7)</td>
+									<td align="center">97 (19,8)</td>
+									<td align="center">120 (24,5)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantação parcial</td>
+									<td align="center">0 (0)</td>
+									<td align="center">22 (4,6)</td>
+									<td align="center">105 (21,7)</td>
+									<td align="center">135 (27,9)</td>
+									<td align="center">146 (30,1)</td>
+									<td align="center">139 (28,4)</td>
+									<td align="center">153 (31,3)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantado</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">54 (11,1)</td>
+									<td align="center">115 (23,8)</td>
+									<td align="center">120 (24,7)</td>
+									<td align="center">179 (36,6)</td>
+									<td align="center">148 (30,3)</td>
+								</tr>
+								<tr>
+									<td>SC</td>
+									<td align="center">Não implantado</td>
+									<td align="center">294 (100)</td>
+									<td align="center">284 (96,2)</td>
+									<td align="center">203 (68,8)</td>
+									<td align="center">69 (23,3)</td>
+									<td align="center">44 (14,9)</td>
+									<td align="center">36 (12,2)</td>
+									<td align="center">37 (12,5)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantação inicial</td>
+									<td align="center">0 (0)</td>
+									<td align="center">11 (3,7)</td>
+									<td align="center">75 (25,4)</td>
+									<td align="center">117 (39,6)</td>
+									<td align="center">114 (38,6)</td>
+									<td align="center">75 (25,4)</td>
+									<td align="center">87 (29,4)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantação parcial</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">17 (5,7)</td>
+									<td align="center">65 (22)</td>
+									<td align="center">83 (28,1)</td>
+									<td align="center">91 (30,8)</td>
+									<td align="center">86 (29,1)</td>
+								</tr>
+								<tr>
+									<td>
+									</td>
+									<td align="center">Implantado</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">0 (0)</td>
+									<td align="center">44 (14,9)</td>
+									<td align="center">54 (18,3)</td>
+									<td align="center">93 (31,5)</td>
+									<td align="center">85 (28,8)</td>
+								</tr>
+								<tr>
+									<td>Total geral</td>
+									<td>
+									</td>
+									<td align="center">5.454 (100)</td>
+									<td align="center">5.496 (100)</td>
+									<td align="center">5.514 (100)</td>
+									<td align="center">5.517 (100)</td>
+									<td align="center">5.522 (100)</td>
+									<td align="center">5.524 (100)</td>
+									<td align="center">5.527 (100)</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN1002">
+								<p>UF: AC: Acre; AL: Alagoas; AP: Amapá; AM: Amazonas; BA: Bahia; CE: Ceará; DF: Distrito Federal; ES: Espírito Santo; GO: Goiás; MA: Maranhão; MT: Mato Grosso; MS: Mato Grosso do Sul; MG: Minas Gerais; PA: Pará; PB: Paraíba; PR: Paraná; PE: Pernambuco; PI: Piauí; RJ: Rio de Janeiro; RN: Rio Grande do Norte; RS: Rio Grande do Sul; RO: Rondônia; RR: Roraima; SC: Santa Catarina; SP: São Paulo; SE: Sergipe; TO: Tocantins.</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p>A <xref ref-type="fig" rid="f04002">Figura 4</xref> mostra as diferenças encontradas em relação à classificação e caracterização dos espaços rurais e urbanos do Brasil. No ano de 2019, a distribuição de municípios para cada tipologia era ‘rural remoto’ (322), ‘rural adjacente’ (3.022), ‘intermediário remoto’ (60), ‘intermediário adjacente’ (680) e ‘urbano’ (1.443). Os municípios com classificação ‘rural adjacente’ e ‘urbano’ foram os que apresentaram maior percentual de implantados em todos os anos do estudo. No ano de 2019, o maior percentual de ‘não implantado’ era dos municípios classificados como ‘rural remoto’ (9,9%).</p>
+				<p>
+					<fig id="f04002">
+						<label>Figura 4</label>
+						<caption>
+							<title>Situação de implantação da Estratégia e-SUS AB estratificada pela classificação e caracterização dos espaços rurais e urbanos do Brasil, 2013 a 2019.</title>
+						</caption>
+						<graphic xlink:href="1518-8787-rsp-56-5-gf04-pt.tif"/>
+					</fig>
+				</p>
+			</sec>
+			<sec sec-type="discussion">
+				<title>DISCUSSÃO</title>
+				<p>Este é o primeiro estudo realizado no Brasil a analisar a implantação da estratégia e-SUS AB. Além disso, este estudo considerou também a esfera municipal e a associação entre as características dos municípios e seu desempenho no processo de implantação da estratégia. Os resultados mostraram principalmente que, em 2019, 92,2% dos municípios brasileiros apresentavam grau de implantação do e-SUS AB diferente de ‘não implantado’. As regiões Sul e Sudeste se destacaram com maiores percentuais de implantação da estratégia, sendo que os estados com maiores percentuais de status ‘implantado’ foram Rio Grande do Sul (30,3%), São Paulo (29,5%) e Santa Catarina (28,8%).</p>
+				<p>A implantação de sistemas de informação em saúde é condicionada por diversos fatores e arranjos organizativos. Estudos apontam que o grau de informatização, disponibilidade de conexão com a internet, qualificação e treinamento dos profissionais de saúde e suporte adequado de TI (tecnologia da informação)<sup><xref ref-type="bibr" rid="B15">15</xref>,<xref ref-type="bibr" rid="B16">16</xref></sup> são fatores-chave para o sucesso da implantação de sistemas de informação. Além disso, o processo de implantação também pode ser influenciado pelas características da interface do sistema com o usuário, incluindo a funcionalidade dos recursos e sua usabilidade, a qualidade dos dados coletados e a interoperabilidade com outros sistemas<sup><xref ref-type="bibr" rid="B17">17</xref></sup>.</p>
+				<p>Uma revisão sistemática demonstrou que o processo de implantação de um sistema de informação é tão importante quanto o próprio sistema. Neste estudo, as preocupações dos implementadores foram a privacidade e a segurança dos pacientes, a relação fornecedor/paciente, a ansiedade da equipe, o tempo necessário para implementar o SIS, a qualidade do atendimento, as questões financeiras, a eficiência e a responsabilidade<sup><xref ref-type="bibr" rid="B18">18</xref></sup>.</p>
+				<p>No Brasil, a estratégia e-SUS AB foi desenvolvida com apoio dos estados e municípios, representados por suas entidades, o Conselho Nacional de Secretários de Saúde (CONASS) e o Conselho Nacional de Secretarias Municipais de Saúde (CONASEMS). No contexto dos resultados apresentados neste estudo, é importante registrar que algumas ações anteriores do Ministério da Saúde, desenvolvidas desde 2013, podem ser consideradas como preparatórias para a implantação da estratégia e-SUS AB. Entre essas ações estão o projeto QualiSUS-Rede, com enfoque na oferta de equipamentos e periféricos para 486 municípios; o apoio à implantação para municípios cobertos por 14 núcleos de Telessaúde; as oficinas de capacitação de multiplicadores para municípios com população maior que 100 mil habitantes; o apoio in loco para municípios por meio de consultores do e-SUS AB; o suporte do Disque 136 e do Departamento de Atenção Básica para solução de dúvidas sobre o sistema e a oferta de pontos de conectividade para aproximadamente 13 mil Unidades Básicas de Saúde<sup><xref ref-type="bibr" rid="B11">11</xref>,<xref ref-type="bibr" rid="B19">19</xref>,<xref ref-type="bibr" rid="B20">20</xref></sup>.</p>
+				<p>Já em 2019, o Programa de Apoio à Informatização e Qualificação dos Dados da Atenção Primária à Saúde (Informatiza APS) foi instituído pelo Ministério da Saúde para informatizar todas as equipes de Saúde da Família (eSF) e equipes de Atenção Primária à Saúde (eAP) do país e de qualificar os dados em saúde dos municípios e do Distrito Federal<sup><xref ref-type="bibr" rid="B21">21</xref></sup>, o que certamente pode ter contribuído de forma importante com o cenário de informatização necessário para a implantação da estratégia e-SUS AB, especialmente em localidades mais vulneráveis.</p>
+				<p>Os resultados deste estudo mostraram que a estratégia e-SUS AB tem momentos distintos de implantação, com maior grau de implantação no início do processo, em 2013, no Nordeste e no Sudeste, ao passo que, nos anos subsequentes, a região Sul mostrou o maior avanço de implantação. Esse resultado pode ter sido alavancado pelo estado do Rio Grande do Sul, que aparece com um dos maiores índices de implantação nos últimos anos da série estudada, corroborando os resultados de um estudo que relatou a experiência da participação de serviços de telessaúde para apoio à implantação, com capilarização dos treinamentos no cenário local, atividades presenciais e a distância de apoio a gestores e profissionais<sup><xref ref-type="bibr" rid="B20">20</xref></sup>.</p>
+				<p>A relação entre o grau de implantação e o tipo de município pela classificação e caracterização dos espaços rurais e urbanos do Brasil, feita pelo IBGE, demostrou a dependência entre as variáveis. Menores percentuais de implantação foram verificados em municípios com tipologia ‘rural remoto’ e ‘intermediário remoto’. O isolamento geográfico e profissional pode influenciar a implementação e requerer estratégias específicas para fazer frente às barreiras geográficas, como a implementação de tecnologias de uma rede interligada de comunicação entre unidades de saúde e outros níveis de atenção que analise as peculiaridades da infraestrutura tecnológica, que nem sempre estão disponíveis nesses locais<sup><xref ref-type="bibr" rid="B22">22</xref></sup>.</p>
+				<p>Outro aspecto a ser considerado é a fidedignidade dos SIS. Uma revisão sistemática avaliou estudos realizados no Brasil e identificou quatro dimensões prioritárias de qualidade, que são a confiabilidade, a validade, a cobertura e a completude<sup><xref ref-type="bibr" rid="B6">6</xref></sup>. A importância de informações com boa qualidade indica a necessidade de instituir no Brasil uma política de avaliação formal e regular dos SIS, especialmente para os de abrangência nacional. Este estudo não abordou diretamente a qualidade da informação provida na estratégia e-SUS AB, mas os indicadores utilizados refletem, ainda que de forma exploratória, alguns dos aspectos relevantes para considerações de qualidade da informação.</p>
+				<p>Ademais, computadores e outros recursos tecnológicos são essenciais para o uso de sistemas para elaboração de diagnósticos e tratamentos, bem como para a adoção de sistemas de informação e sistemas de prontuário eletrônico do paciente, que fornecem as informações para subsidiar o ato decisório. Quanto melhor os sistemas informatizados conseguem registrar, armazenar e disponibilizar informações, melhor será a informação e maior será a qualidade na tomada de decisão<sup><xref ref-type="bibr" rid="B1">1</xref>,<xref ref-type="bibr" rid="B23">23</xref></sup>, com destaque para os sistemas de prontuários eletrônicos.</p>
+				<p>Por fim, os resultados deste estudo também se agregam à discussão nacional sobre monitoramento e avaliação, no âmbito da Política Nacional de Informação e Informática em Saúde (PNIIS), estabelecendo uma série de diretrizes que incentivam, entre outros aspectos, a promoção de estratégias e mecanismos para a qualificação da produção e gestão da informação em saúde para fortalecer o e-Saúde, nas três esferas de gestão do SUS<sup><xref ref-type="bibr" rid="B8">8</xref></sup>.</p>
+				<p>Os resultados deste estudo devem ser interpretados considerando suas limitações metodológicas: em primeiro lugar, os registros realizados na estratégia e-SUS AB podem ter sido produzidos por outros agentes, além dos profissionais de saúde, dado que municípios podem adotar arranjos organizativos onde a digitação e envio dos dados são realizados fora das UBS, em setores administrativos das secretarias de saúde. Por outro lado, existem municípios que utilizam sistemas próprios ou comercializados por terceiros, onde o envio de dados de forma adequada depende também desses prestadores de serviços. Em segundo lugar, como os dados deste estudo não foram discriminados em nível submunicipal e de forma agregada, não é possível ter uma visão explícita sobre os fluxos de produção e envio da informação analisada.</p>
+				<p>Outra questão a ser considerada é que este estudo não adotou um modelo prévio validado pela literatura, para avaliação do grau de implantação de sistemas de informação, sendo necessário elaborar um modelo original para esta análise. Apesar de não ser exatamente uma limitação, a discussão sobre a modelagem adotada neste estudo para classificar a implantação, pode beneficiar sua validação e adoção posterior, inclusive no âmbito da política de saúde, para monitoramento e avaliação dessa e de outras estratégias do SUS.</p>
+				<p>Este estudo oferece subsídios para apoiar o setor público no monitoramento e avaliação da implantação de sistemas de informação. Também apresenta soluções úteis para melhorar a implantação do sistema e-SUS AB, além de contribuir para a discussão sobre o modelo adotado na disponibilização de sistemas informatizados, e de embasar estudos futuros nas diferentes áreas de conhecimento.</p>
+				<p>Os resultados reforçam a necessidade de investimentos consistentes em capacitação dos profissionais para o uso do sistema de informação estudado, acompanhamento sistemático da produção de informação – da coleta até a validação – e divulgação dos dados.</p>
+			</sec>
+		</body>
+	</sub-article>
+</article>

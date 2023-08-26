@@ -1,0 +1,1612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.1" specific-use="sps-1.9" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="nlm-ta">Rev Saude Publica</journal-id>
+			<journal-id journal-id-type="publisher-id">rsp</journal-id>
+			<journal-title-group>
+				<journal-title>Revista de Saúde Pública</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Rev. Saúde Pública</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="ppub">0034-8910</issn>
+			<issn pub-type="epub">1518-8787</issn>
+			<publisher>
+				<publisher-name>Faculdade de Saúde Pública da Universidade de São Paulo</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="other">00219</article-id>
+			<article-id pub-id-type="doi">10.11606/s1518-8787.2022056003731</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Original Article</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Implementation of Group Interpersonal Psychotherapy in primary care</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-2671-4290</contrib-id>
+					<name>
+						<surname>Mattos</surname>
+						<given-names>Maria Isabel Perez</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-4405-0718</contrib-id>
+					<name>
+						<surname>Mosqueiro</surname>
+						<given-names>Bruno Paz</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-2301-3405</contrib-id>
+					<name>
+						<surname>Stuart</surname>
+						<given-names>Scott</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-7537-7289</contrib-id>
+					<name>
+						<surname>Salum</surname>
+						<given-names>Giovanni</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-9477-3968</contrib-id>
+					<name>
+						<surname>Duzzo</surname>
+						<given-names>Rosana de Lima</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>III</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-6090-1845</contrib-id>
+					<name>
+						<surname>Souza</surname>
+						<given-names>Laura Wolf de</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-5848-9043</contrib-id>
+					<name>
+						<surname>Chini</surname>
+						<given-names>Ariane</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-3203-7951</contrib-id>
+					<name>
+						<surname>Fleck</surname>
+						<given-names>Marcelo Pio de Almeida</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>I</label>
+				<institution content-type="orgname">Universidade Federal do Rio Grande do Sul</institution>
+				<institution content-type="orgdiv1">Hospital de Clínicas de Porto Alegre</institution>
+				<institution content-type="orgdiv2">Departamento de Psiquiatria e Medicina Legal</institution>
+				<addr-line>
+					<named-content content-type="city">Porto Alegre</named-content>
+					<named-content content-type="state">RS</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Universidade Federal do Rio Grande do Sul. Hospital de Clínicas de Porto Alegre. Departamento de Psiquiatria e Medicina Legal. Porto Alegre, RS, Brasil</institution>
+			</aff>
+			<aff id="aff2">
+				<label>II</label>
+				<institution content-type="orgname">University of Southern California</institution>
+				<institution content-type="orgdiv1">Psychiatry Department</institution>
+				<addr-line>
+					<named-content content-type="city">Los Angeles</named-content>
+					<named-content content-type="state">California</named-content>
+				</addr-line>
+				<country country="US">United States of America</country>
+				<institution content-type="original">University of Southern California. Psychiatry Department. Los Angeles, California, United States of America</institution>
+			</aff>
+			<aff id="aff3">
+				<label>III</label>
+				<institution content-type="orgname">Prefeitura Municipal de Porto Alegre</institution>
+				<institution content-type="orgdiv1">Unidade de Atenção Primária à Saúde</institution>
+				<addr-line>
+					<named-content content-type="city">Porto Alegre</named-content>
+					<named-content content-type="state">RS</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Prefeitura Municipal de Porto Alegre. Unidade de Atenção Primária à Saúde. Porto Alegre, RS, Brasil</institution>
+			</aff>
+			<author-notes>
+				<corresp id="c01"> Correspondence: Maria Isabel Perez Mattos Universidade Federal do Rio Grande do Sul Faculdade de Medicina Rua Ramiro Barcelos, 2.400, 2º andar 90035-003 Porto Alegre, RS, Brasil E-mail: <email>ppgpsiq@ufrgs.br</email>
+				</corresp>
+				<fn fn-type="con">
+					<p><bold>Authors’ Contribution:</bold> Study design and planning: MIPM, MPAF. Data collection, analysis and interpretation: MIPM, LWS, AC. Manuscript drafting or review: MIPM, MPAF, GS, SS, BPM, RLD. Approval of the final version: MIPM, MPAF. Public responsibility for the content of the article: MIPM, MPAF, GS, SS, BPM, RLD, LWS, AC.</p>
+				</fn>
+				<fn fn-type="conflict">
+					<p><bold>Conflict of the Interest:</bold> The authors declare no conflict of interest.</p>
+				</fn>
+			</author-notes>
+			<pub-date date-type="pub" publication-format="electronic">
+				<day>22</day>
+				<month>04</month>
+				<year>2022</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">
+				<year>2022</year>
+			</pub-date>
+			<volume>56</volume>
+			<elocation-id>23</elocation-id>
+			<history>
+				<date date-type="received">
+					<day>11</day>
+					<month>04</month>
+					<year>2021</year>
+				</date>
+				<date date-type="accepted">
+					<day>9</day>
+					<month>08</month>
+					<year>2021</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="en">
+					<license-p> This is an Open Access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. </license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>ABSTRACT</title>
+				<sec>
+					<title>OBJECTIVE</title>
+					<p> To show the implementation process of IPT-G in primary care, including facilitating and obstructing factors, implementation strategies, and training and supervision of primary care professionals.</p>
+				</sec>
+				<sec>
+					<title>METHODS</title>
+					<p> Quantitative (cross-sectional and longitudinal) analysis of pre and post-knowledge tests; qualitative analyses of the training courses; patient recruitment; conduction of IPT-G sessions; supervision of IPT-G therapists; application of a semi-structured questionnaire to assess, investigate, and develop strategies against the identified barriers.</p>
+				</sec>
+				<sec>
+					<title>RESULTS</title>
+					<p> About 120 clinicians answered the pre-test; 84 completed the post-test. Pre- and post-test scores of IPT-G knowledge were significantly different. Twenty initially trained clinicians completed additional supervision in IPT-G. Qualitative analysis identified twelve barriers and six facilitators to IPT-G implementation in individual, organizational, and systemic contexts.</p>
+				</sec>
+				<sec>
+					<title>CONCLUSIONS</title>
+					<p> Implementation of IPT-G in primary care is a complex process with several steps. In the first step, health professionals were successfully trained in IPT-G. However, subsequent steps were more complex. Therefore, careful planning of IPT-G implementation is essential to maximize the success of this innovation.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="en">
+				<kwd>Health Personnel</kwd>
+				<kwd>Psychology</kwd>
+				<kwd>Primary Health Care</kwd>
+				<kwd>Group Interpersonal Psychotherapy</kwd>
+				<kwd>Communication Barriers</kwd>
+				<kwd>Health Plan Implementation</kwd>
+			</kwd-group>
+			<funding-group>
+				<award-group>
+					<funding-source>Capes</funding-source>
+					<award-id>001</award-id>
+				</award-group>
+				<award-group>
+					<funding-source>HCPA</funding-source>
+					<award-id>2018-0547</award-id>
+				</award-group>
+				<funding-statement>Funding: Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Brasil (Capes - Finance Code 001). FIPE – Hospital de Clínicas de Porto Alegre (HCPA – Registration number 2018-0547).</funding-statement>
+			</funding-group>
+			<counts>
+				<fig-count count="1"/>
+				<table-count count="4"/>
+				<equation-count count="0"/>
+				<ref-count count="26"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>INTRODUCTION</title>
+			<p>Most guidelines recommend psychotherapy for the treatment of mild and moderate depression and medication with psychotherapy for severe depression<sup><xref ref-type="bibr" rid="B1">1</xref></sup>. Several meta-analyses<sup><xref ref-type="bibr" rid="B2">2</xref></sup>conclude that psychological therapies, including those offered in primary healthcare, are effective against depression.</p>
+			<p>Interpersonal psychotherapy (IPT) is a first-line treatment in primary healthcare because it is brief, manualized, and cost-effective<sup><xref ref-type="bibr" rid="B1">1</xref>,<xref ref-type="bibr" rid="B7">7</xref>,<xref ref-type="bibr" rid="B8">8</xref></sup>. Moreover, it can be applied by health professionals who are not specialists in mental health<sup><xref ref-type="bibr" rid="B5">5</xref>,<xref ref-type="bibr" rid="B9">9</xref>,<xref ref-type="bibr" rid="B10">10</xref></sup>. The IPT was first adapted by Denise Wilfley and Roy MacKenzie for group therapy (IPT-G) to manage eating disorders<sup><xref ref-type="bibr" rid="B11">11</xref></sup>, and it could be even more cost-effective as a group intervention<sup><xref ref-type="bibr" rid="B11">11</xref></sup>.</p>
+			<p>Weissman<sup><xref ref-type="bibr" rid="B10">10</xref></sup> emphasizes that, especially in countries with limited mental health resources, community health workers should receive IPT-G training. In Uganda, for example, the IPT-G conducted in primary care by community health agents not specialized in mental health was more effective than treatment as usual<sup><xref ref-type="bibr" rid="B14">14</xref></sup>.</p>
+			<p>Therefore, if primary care professionals are adequately trained in IPT-G, they can significantly affect the healthcare of depressed patients<sup><xref ref-type="bibr" rid="B15">15</xref>,<xref ref-type="bibr" rid="B16">16</xref></sup>. Evidence shows that primary healthcare professionals are interested in obtaining psychotherapy training<sup><xref ref-type="bibr" rid="B15">15</xref></sup>. Ramanuj et al.<sup><xref ref-type="bibr" rid="B8">8</xref></sup> showed that patients showed fewer depressive symptoms after such professionals were trained in more complex interventions.</p>
+			<p>Despite evidence-based benefits of psychological treatments to low- and middle-income countries, few national health systems use psychotherapies as a care option<sup><xref ref-type="bibr" rid="B14">14</xref></sup>. In part, this is likely because professionals do not receive psychotherapy training<sup><xref ref-type="bibr" rid="B7">7</xref></sup>. In Brazil, for instance, medication is still the main treatment for depression in primary care<sup><xref ref-type="bibr" rid="B17">17</xref></sup>. However, evidence shows that most patients prefer psychotherapy to pharmacotherapy, especially in primary care settings and in cases of depression and anxiety<sup><xref ref-type="bibr" rid="B18">18</xref>,<xref ref-type="bibr" rid="B19">19</xref></sup>.</p>
+			<p>With training, brief psychotherapies can become effective treatments. The IPT identifies and treats psychosocial problems associated with depressive symptoms and could potentially benefit populations with high rates of psychosocial stressors, including those from middle- and low-income countries such as Brazil<sup><xref ref-type="bibr" rid="B19">19</xref></sup>.</p>
+			<p>The diffusion of innovations depends on scientific evidence and many other factors<sup><xref ref-type="bibr" rid="B20">20</xref></sup>. Implementation science<sup><xref ref-type="bibr" rid="B20">20</xref>,<xref ref-type="bibr" rid="B22">22</xref>,<xref ref-type="bibr" rid="B23">23</xref></sup>is a relatively new area of research in health that can be defined as “[...] the scientific study of methods that promote the systematic introduction of research findings and other evidence-based practices into routine practices and thus improve the quality and effectiveness of health services”<sup><xref ref-type="bibr" rid="B24">24</xref></sup>. Thus, in implementation science, the context in which an innovation is introduced should first be understood<sup><xref ref-type="bibr" rid="B25">25</xref></sup> instead of simply controlled or tolerated as in efficacy or effectiveness trials.</p>
+			<p>After identifying the lack of psychosocial approaches to depression, the coordination of the mental health service of the public primary care network in Porto Alegre sought a partnership with the Department of Psychiatry and Behavioral Sciences of the Universidade Federal do Rio Grande do Sul (UFRGS). They aimed to develop alternatives to drug treatment using evidence-based psychotherapies, expecting to reach many patients.</p>
+			<p>This study aims to: a) Describe the training of primary care professionals for IPT-G performance; b) Assess if training can effectively increase IPT-G proficiency of health professionals, using a pre- and post-knowledge test analysis; c) Describe the difficulties of IPT-G implementation in public primary health care; and d) Present implementation strategies that can contribute to new studies and processes for innovation in health services.</p>
+		</sec>
+		<sec sec-type="methods">
+			<title>METHODS</title>
+			<p>This project was carried out with a partnership between the Municipal Health Department (SMS) of the municipality of Porto Alegre and the postgraduate course in Psychiatry and Behavioral Sciences at UFRGS. The Primary Health Care and Health Policies Department (DAPPS) approved the use of data for health professionals. All data were anonymously used with consent of the Health Department of Porto Alegre. No specific consent form was given to any participant. However, after participants completed the enrollment form, they were informed that the DAPPS authorized anonymous use of all implementation process data in scientific publications.</p>
+			<p>In 2019, a training course aimed at providing basic knowledge of Interpersonal Group Therapy (IPT-G) was proposed for the qualification of general and mental health professionals, especially those in primary care.</p>
+			<p>In total, 1,194 health professionals were invited to the course and 140 of them accepted the invitation.</p>
+			<p>This study used a mixed methodology, combining quantitative (cross-sectional and longitudinal design) and qualitative research methods to describe and analyze data.</p>
+			<p>Participants were health professionals (nurses, psychologists, psychiatrists, community health agents, health technicians and residents) working in primary care at the healthcare centers (UBS) of the city of Porto Alegre (<xref ref-type="table" rid="t1">Table 1</xref>).</p>
+			<p>
+				<table-wrap id="t1">
+					<label>Table 1</label>
+					<caption>
+						<title>Sample characteristics (n = 120).</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left">Age</th>
+								<th align="left" style="font-weight:normal">
+								</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Mean (SD)</td>
+								<td align="center">39.96 (10.71)</td>
+							</tr>
+							<tr>
+								<td>Minimum/maximum</td>
+								<td align="center">20/64</td>
+							</tr>
+							<tr>
+								<td>Gender n (%)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Female</td>
+								<td align="center">107 (89%)</td>
+							</tr>
+							<tr>
+								<td>Male</td>
+								<td align="center">13 (11%)</td>
+							</tr>
+							<tr>
+								<td>Professionals n (%)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Nurses</td>
+								<td align="center">36 (30%)</td>
+							</tr>
+							<tr>
+								<td>Psychologists and psychiatrists</td>
+								<td align="center">19 (16%)</td>
+							</tr>
+							<tr>
+								<td>Other health professionals<sup>a</sup></td>
+								<td align="center">18 (15%)</td>
+							</tr>
+							<tr>
+								<td>Community agents</td>
+								<td align="center">17 (14%)</td>
+							</tr>
+							<tr>
+								<td>Health technicians<sup>b</sup></td>
+								<td align="center">13 (11%)</td>
+							</tr>
+							<tr>
+								<td>Non-psychiatric physicians</td>
+								<td align="center">11 (9%)</td>
+							</tr>
+							<tr>
+								<td>Residents</td>
+								<td align="center">6 (5%)</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN1">
+							<p><sup>a</sup> Dentists, nutritionists, speech therapists, physiotherapists, occupational therapists, and social workers.</p>
+						</fn>
+						<fn id="TFN2">
+							<p><sup>b</sup> Nursing technicians and oral health assistants.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>Health professionals were recruited by invitations sent via email and by advertisements about the training program posted in each primary care unit. Participation was optional and the training time was paid as working hours.</p>
+			<p>Those who chose to participate signed up and completed a form for demographic information collection. They also answered one qualitative open question about their motivation for training and the responses were organized in categories (<xref ref-type="table" rid="t2">Table 2</xref>).</p>
+			<p>
+				<table-wrap id="t2">
+					<label>Table 2</label>
+					<caption>
+						<title>Comparison of the baseline knowledge test results and the gross and adjusted changes between participant characteristics.</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left">Features</th>
+								<th>Pre-test mean (SD)</th>
+								<th>Mean change<sup>b</sup> (DP)</th>
+								<th>Adjusted mean change<sup>c</sup> (95%CI)</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Sex</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Female</td>
+								<td align="center">8.1 (2.5)</td>
+								<td align="center">4.2 (3.9)</td>
+								<td align="center">4.2 (3.4–4.9)</td>
+							</tr>
+							<tr>
+								<td>Male</td>
+								<td align="center">8.5 (3.1)</td>
+								<td align="center">0.3 (3.1)</td>
+								<td align="center">0.7 (-3–4,4)</td>
+							</tr>
+							<tr>
+								<td>Statistical test / p-value</td>
+								<td align="center">T[gl = 118] = -0.634/ p = 0.527</td>
+								<td>
+								</td>
+								<td align="center">F(gl = 1.81) = 3.395/ p = 0.069</td>
+							</tr>
+							<tr>
+								<td>Age</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>20–29</td>
+								<td align="center">8.5 (2.5)</td>
+								<td align="center">4.8 (3.6)</td>
+								<td align="center">5.5 (3.3–7.6)</td>
+							</tr>
+							<tr>
+								<td>30–39</td>
+								<td align="center">9.1 (2.4)</td>
+								<td align="center">3.0 (3.8)</td>
+								<td align="center">4.3 (3.0–5.5)</td>
+							</tr>
+							<tr>
+								<td>40–49</td>
+								<td align="center">6.7 (2.5)<sup>a</sup></td>
+								<td align="center">4.6 (3.9)</td>
+								<td align="center">3.3 (1.9–4.6)</td>
+							</tr>
+							<tr>
+								<td>≥ 50</td>
+								<td align="center">7.6 (2.4)<sup>a</sup></td>
+								<td align="center">4.5 (4.2)</td>
+								<td align="center">3.9 (2.5–5.4)</td>
+							</tr>
+							<tr>
+								<td>Statistical test / p-value</td>
+								<td align="center">F(gl = 3.116) = 6.641/ p &lt; 0.001</td>
+								<td>
+								</td>
+								<td align="center">F(gl = 3.79) = 0.983/ p = 0.405</td>
+							</tr>
+							<tr>
+								<td>Professional category</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Psychologists and Psychiatrists</td>
+								<td align="center">8.6 (2.4)</td>
+								<td align="center">3.7 (4.9)</td>
+								<td align="center">3.8 (1.8–5.7)</td>
+							</tr>
+							<tr>
+								<td>Non-psychiatric physicians</td>
+								<td align="center">7.5 (3.5)</td>
+								<td align="center">5.4 (2.9)</td>
+								<td align="center">4,9 (2.4–7.4)</td>
+							</tr>
+							<tr>
+								<td>Nurses</td>
+								<td align="center">8.4 (2.3)</td>
+								<td align="center">3.9 (3.6)</td>
+								<td align="center">4.2 (2.8–5.6)</td>
+							</tr>
+							<tr>
+								<td>Graduate health professionals</td>
+								<td align="center">8.1 (2.6)</td>
+								<td align="center">3.6 (4.7)</td>
+								<td align="center">3.9 (2.1–5.6)</td>
+							</tr>
+							<tr>
+								<td>Health technicians</td>
+								<td align="center">7.7 (2.9)</td>
+								<td align="center">3.8 (4.5)</td>
+								<td align="center">3.7 (1.7–5.7)</td>
+							</tr>
+							<tr>
+								<td>Community workers</td>
+								<td align="center">7.6 (2.8)</td>
+								<td align="center">4,9 (3.2)</td>
+								<td align="center">4.3 (2.4–6.2)</td>
+							</tr>
+							<tr>
+								<td>Residents</td>
+								<td align="center">8.5 (2.1)</td>
+								<td align="center">2.5 (1.3)</td>
+								<td align="center">2.7 (-0.6–6.0)</td>
+							</tr>
+							<tr>
+								<td>Statistical test/p-value</td>
+								<td align="center">F(gl = 6.113) = 0.437/ p = 0.853</td>
+								<td>
+								</td>
+								<td align="center">F(gl = 6.76) = 0.244/ p = 0.960</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN3">
+							<p><sup>a</sup> Means with statistically significant difference in relation to the 30–39 group by the Tukey test (α = 0.05).</p>
+						</fn>
+						<fn id="TFN4">
+							<p><sup>b</sup> Difference between pre- and post-test.</p>
+						</fn>
+						<fn id="TFN5">
+							<p><sup>c</sup> Results obtained by ANCOVA, adjusted by the baseline value of the knowledge test.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>The IPT-G implementation project was divided into five phases: a) Training of registered professionals; b) Identification of professionals interested in applying the IPT-G in their UBS; c) Supervision of professionals qualified and interested in the implementation; d) Application of IPT-G to groups of primary care patients; and e) Completion of a semi-structured questionnaire by participating health professionals to assess the IPT-G implementation process.</p>
+			<p>The IPT-G trainer is a psychologist and a doctoral student in Psychiatry and Behavioral Sciences at UFRGS. The trainer was certified in IPT-G by the IPT Institute (USA). In 2019, a training course aimed at providing basic knowledge of Group Interpersonal Therapy (IPT-G) was proposed for the qualification of general and mental health professionals, especially those in primary care units.</p>
+			<p>The course was divided into 5 weekly meetings (3 hours each; 15 hours total), with the following agenda: a) Introduction to IPT-G; b) IPT-G problem areas (grief, transitional roles, and interpersonal disputes); c) Pre-group individual assessment; d) Interventions and management of the group e) Individual post-group interview; f) Implementation.</p>
+			<p>The teaching methodologies used were expository classes with audiovisual support, the practice of “role-play”, and illustrative fictional sessions in IPT-G.</p>
+			<p>Participants were qualified for basic training in IPT-G if they attended all classes and completed a pre- and post-knowledge test.</p>
+			<p>The knowledge test consisted of 25 multiple-choice questions translated from IPT Institute’s assessment test for IPT-G certification.</p>
+			<p>The supervision phase began after the training classes. All professionals who qualified for basic training were encouraged to start applying the IPT-G technique under supervision. Participation was optional but paid as working hours. Monthly supervision was offered to all potential group coordinators so they could learn both with their own groups and from the experiences of their peers. Besides in-person supervision, a remote group contact was also available by a messaging service.</p>
+			<p>Following the technique proposed by Stuart<sup><xref ref-type="bibr" rid="B13">13</xref></sup>, the IPT-G was planned to be used with patients with depressive symptoms in the primary care units where the selected professionals worked. The IPT-G treatment included 12 weekly sessions of 75 minutes each.</p>
+			<p>After IPT-G supervision ended, clinicians were invited to complete a semi-structured questionnaire created by the researchers. This questionnaire included seven open questions that required written responses regarding the main facilitating or obstructing factors for IPT-G implementation and strategies for implementation in the municipal health care service. Content analysis of the data was conducted with category-systematized findings.</p>
+			<sec>
+				<title>Statistical Analysis</title>
+				<p>Descriptive analyses of the demographic characteristics of participants were carried out using absolute and relative frequencies. Additional tests were performed to assess the participants’ performance in the qualification test. The Shapiro-Wilks test was used to verify the normal distribution of the number of correct answers, described by the mean and standard deviation. The paired sample t-test was used to compare changes in the performance of pre-training and post-training participants in a 25-question knowledge test. Baseline knowledge was compared using an independent t-test and analysis of variances (ANOVA) according to participant characteristics. The difference (delta) between pre- and post-training was compared for the different characteristics of the sample by the analysis of covariance (ANCOVA) with adjustment for baseline values. The level of significance for all analyzes was 0.05. SPSS software version 18.0 was used for all statistical analyses.</p>
+			</sec>
+		</sec>
+		<sec sec-type="results">
+			<title>RESULTS</title>
+			<p>Around 11.7% (140/1194) of the 1,194 health professionals invited enrolled in the IPT-G training course; 120 completed the pre-test, which was optional, and the other 20 declined. In total, 84 professionals participated in the five training sessions and completed the post-test, also optional.</p>
+			<p>Most participants were female (89%) and 11% were male. These participants were classified as nurses (30%), psychologists and psychiatrists (16%), and other health care professionals (54%). For result presentation, participants were distributed into seven groups (<xref ref-type="table" rid="t1">Table 1</xref>).</p>
+			<p>Participants increased their scores from 8.2 (SD = 2.8) in the pre-knowledge test to 12.2 (SD = 3.3) in the post-knowledge test. This difference was statistically significant (t [gl = 83] = - 9.421; p &lt; 0.001), with a 4.02 difference between means (95%CI: 3.17–4.9) (<xref ref-type="table" rid="t2">Table 2</xref>).</p>
+			<p>Participants in the 30–39 age group performed better in the knowledge pre-test, which had significantly different results based on age. However, analysis of covariance showed that in the post-test the groups had no significant difference regarding age and professional categories (<xref ref-type="fig" rid="f01">Figure</xref>).</p>
+			<p>
+				<fig id="f01">
+					<label>Figure</label>
+					<caption>
+						<title>Number of correct answers in the pre- and post-training knowledge test.</title>
+					</caption>
+					<graphic xlink:href="1518-8787-rsp-56-23-gf01.tif"/>
+				</fig>
+			</p>
+			<p>Patients described motivations to participate in training, which were grouped into 10 empirical categories (<xref ref-type="table" rid="t3">Table 3</xref>). The main reason, mentioned by 68 participants (56.7%), was to increase knowledge about the technique and about Interpersonal Psychotherapy. Moreover, 35 participants (29.2%) wished to apply this group service in their units.</p>
+			<p>
+				<table-wrap id="t3">
+					<label>Table 3</label>
+					<caption>
+						<title>List of main motivations for training.</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left">Item</th>
+								<th>n (%)</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>To expand knowledge about interpersonal therapy</td>
+								<td align="center">68 (57%)</td>
+							</tr>
+							<tr>
+								<td>Implement group care at respective unit</td>
+								<td align="center">35 (29%)</td>
+							</tr>
+							<tr>
+								<td>Professional qualification</td>
+								<td align="center">27 (23%)</td>
+							</tr>
+							<tr>
+								<td>To handle situations with patients with mental disorders</td>
+								<td align="center">26 (22%)</td>
+							</tr>
+							<tr>
+								<td>To qualify for application in primary health care</td>
+								<td align="center">18 (15%)</td>
+							</tr>
+							<tr>
+								<td>Matrixing</td>
+								<td align="center">6 (5%)</td>
+							</tr>
+							<tr>
+								<td>Personal qualification</td>
+								<td align="center">5 (4%)</td>
+							</tr>
+							<tr>
+								<td>To have more tools to welcome users</td>
+								<td align="center">5 (4%)</td>
+							</tr>
+							<tr>
+								<td>To decrease demand for medical appointments</td>
+								<td align="center">1 (1%)</td>
+							</tr>
+							<tr>
+								<td>Pharmacological management</td>
+								<td align="center">1 (1%)</td>
+							</tr>
+						</tbody>
+					</table>
+				</table-wrap>
+			</p>
+			<p>Each of three IPT groups started training under one coordinator. New groups were scheduled to start following the supervision period; however, at the second supervision meeting, participants brought up the potential dismissal of health professionals, which would affect most individuals enrolled in the IPT-G training. Their distress was discussed in supervision meetings, and this dismissal became a substantial obstacle to IPT-G implementation.</p>
+			<p>Thus, implementation was interrupted because of the potential dismissal of most professionals who attended the course after unexpected changes in the structure of the municipality’s health system at the time of supervision. A judicial decision discontinued the Municipal Institute of Family Health Strategy (IMESF), which employed many of the health professionals in Porto Alegre. As a result, 1,194 employees (doctors, community health and endemic disease control agents, nursing technicians, nurses, dentists, dental assistants, and oral health technicians) were dismissed so new professionals could be hired under another labor regime. Supervisors reported signs of distress of professionals who could be affected by this change, including interruptions and uncertainties in work. Moreover, other barriers to IPT-G implementation were identified. Over half (56.7%) of the participants indicated that they attended training to expand their knowledge about the IPT-G, whereas only 29.2% wished to apply IPT-G in primary healthcare.</p>
+			<p>One group session was carried out during monthly supervision. This group included three adolescents who showed depressive symptoms and self-mutilated. They were supervised by a psychologist who was not affected by the dismissal situation. Clinicians progressively quit supervision: 20 attended the first supervised session, but only 10 attended the last session.</p>
+			<p>Responses to the semi-structured questionnaire were organized into three main categories: facilitators, barriers, and suggestions for the implementation process. Sub-categories were identified in each of the main categories.</p>
+			<p>The following implementation facilitators were identified and placed in sub-categories: funding of the scientific partnership initiative with the university; engagement of the Municipal Mental Health Coordinator; provision of adequate space for the course; and availability of paid time for students and clinicians to attend training.</p>
+			<p>The identified barriers were grouped in three dimensions: professional, organizational, and systematic. Suggestions for strategic alternatives to overcome barriers were described by researchers and grouped in the same three dimensions (<xref ref-type="table" rid="t4">Table 4</xref>).</p>
+			<p>
+				<table-wrap id="t4">
+					<label>Table 4</label>
+					<caption>
+						<title>Barriers and implementation strategies.</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left">Barriers </th>
+								<th>Implementation strategies</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td align="center" colspan="2"><bold>Professionals</bold></td>
+							</tr>
+							<tr>
+								<td>Different contexts in the Primary Care Units</td>
+								<td>
+									<list list-type="bullet">
+										<list-item>
+											<p>• Adjust the methodology to the context: expand application to different diagnostic groups;(e.g.: adolescents who self-mutilate, anxious patients).</p>
+										</list-item>
+									</list>
+								</td>
+							</tr>
+							<tr>
+								<td>Belief that open groups are easier</td>
+								<td>
+									<list list-type="bullet">
+										<list-item>
+											<p>• Study the effectiveness of the open group;</p>
+										</list-item>
+										<list-item>
+											<p>• Propose IPT-G experience (closed group) for assessment and results;</p>
+										</list-item>
+										<list-item>
+											<p>• Create a culture of result assessment.</p>
+										</list-item>
+									</list>
+								</td>
+							</tr>
+							<tr>
+								<td>Perception of work overload</td>
+								<td>
+									<list list-type="bullet">
+										<list-item>
+											<p>• Assess perceived or real overload;</p>
+										</list-item>
+										<list-item>
+											<p>• Familiarize professionals with IPT-G practice by continuous supervision;</p>
+										</list-item>
+										<list-item>
+											<p>• Include IPT-G in the activities agenda of professionals.</p>
+										</list-item>
+									</list>
+								</td>
+							</tr>
+							<tr>
+								<td>Inadequate physical space for care</td>
+								<td>
+									<list list-type="bullet">
+										<list-item>
+											<p>• Assess available and alternative spaces for group care;</p>
+										</list-item>
+										<list-item>
+											<p>• Adjust group size to the available space;</p>
+										</list-item>
+										<list-item>
+											<p>• Include coordinators of each unit in this decision.</p>
+										</list-item>
+									</list>
+								</td>
+							</tr>
+							<tr>
+								<td align="center" colspan="2"><bold>Organization</bold></td>
+							</tr>
+							<tr>
+								<td>Lack of support, integration, and co-participation of the broader network and local administrations</td>
+								<td>
+									<list list-type="bullet">
+										<list-item>
+											<p>• Include managers in project discussion meetings;</p>
+										</list-item>
+										<list-item>
+											<p>• Create a culture of result assessment.</p>
+										</list-item>
+									</list>
+								</td>
+							</tr>
+							<tr>
+								<td>Absence of surveys regarding previous needs of each unit</td>
+								<td>
+									<list list-type="bullet">
+										<list-item>
+											<p>• Discuss and adapt IPT-G to the needs of each unit.</p>
+										</list-item>
+									</list>
+								</td>
+							</tr>
+							<tr>
+								<td>Short-term supervision</td>
+								<td>
+									<list list-type="bullet">
+										<list-item>
+											<p>• Enable long-term supervision;</p>
+										</list-item>
+										<list-item>
+											<p>• Train supervisors within the public network.</p>
+										</list-item>
+									</list>
+								</td>
+							</tr>
+							<tr>
+								<td>Occupational instability (dismissals caused by changes in the work regime)</td>
+								<td>
+									<list list-type="bullet">
+										<list-item>
+											<p>• Forecast incentives and benefits for professionals involved in IPT-G;</p>
+										</list-item>
+										<list-item>
+											<p>• Connect the team and the manager to the IPT-G project;</p>
+										</list-item>
+										<list-item>
+											<p>• Manage the team at each unit to implement innovative projects.</p>
+										</list-item>
+									</list>
+								</td>
+							</tr>
+							<tr>
+								<td>Change of the municipality’s mental health coordinator</td>
+								<td>
+									<list list-type="bullet">
+										<list-item>
+											<p>• Maintain long-term policies that remain even after the change of coordination;</p>
+										</list-item>
+										<list-item>
+											<p>• Include and motivate the network, including teams and different levels of management.</p>
+										</list-item>
+									</list>
+								</td>
+							</tr>
+							<tr>
+								<td align="center" colspan="2"><bold>System</bold></td>
+							</tr>
+							<tr>
+								<td>Immediate care culture</td>
+								<td>
+									<list list-type="bullet">
+										<list-item>
+											<p>• Create a culture of result assessment and feedback to improve interventions.</p>
+										</list-item>
+									</list>
+								</td>
+							</tr>
+							<tr>
+								<td>Public policy instability</td>
+								<td>
+									<list list-type="bullet">
+										<list-item>
+											<p>• Develop evidence-based public policies (e.g.: IPT-G);</p>
+										</list-item>
+										<list-item>
+											<p>• Monitor implementation at long term seeking consolidation.</p>
+										</list-item>
+									</list>
+								</td>
+							</tr>
+							<tr>
+								<td>Suspension of the IPT-G project because of the covid-19 pandemic</td>
+								<td>
+									<list list-type="bullet">
+										<list-item>
+											<p>• Resume the project after the pandemic is controlled;</p>
+										</list-item>
+										<list-item>
+											<p>• Use virtual communication technology (IPT-G Remote);</p>
+										</list-item>
+										<list-item>
+											<p>• Provide Internet access for most users;</p>
+										</list-item>
+										<list-item>
+											<p>• Incorporate new remote technologies as a potential additional resource.</p>
+										</list-item>
+									</list>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</table-wrap>
+			</p>
+			<p>Data processing required 18 months between training disclosure until application of instruments.</p>
+		</sec>
+		<sec sec-type="discussion">
+			<title>DISCUSSION</title>
+			<p>Although the participants’ low performance suggests that the test was difficult, the training course had a statistically significant effect on their levels of IPT-G knowledge. We did not use a cut-off score for approval. The test was originally developed to assess a training course for health professionals who attended level A of the IPT Institute (USA).</p>
+			<p>All professional categories equally improved their test performance, which shows that IPT-G training is effective regardless of previous training. This finding corroborates to studies that indicate the potential of professionals from different areas of health and of community health agents to carry out psychological interventions such as IPT-G, especially in low-income countries, which need more interventions and mental health professionals<sup><xref ref-type="bibr" rid="B5">5</xref>,<xref ref-type="bibr" rid="B9">9</xref>,<xref ref-type="bibr" rid="B10">10</xref>,<xref ref-type="bibr" rid="B12">12</xref>,<xref ref-type="bibr" rid="B14">14</xref>,<xref ref-type="bibr" rid="B26">26</xref></sup>.</p>
+			<p>Responses to the questionnaire about facilitators, barriers, and suggestions for IPT-G implementation indicated that participants were motivated and in fact learning the IPT-G technique. Furthermore, they emphasized how much users could benefit from a non-pharmacological technique for the treatment of depression.</p>
+			<p>The barriers to IPT-G implementation seem unrelated to the course itself or to its modality (IPT-G). We emphasize that the only completed IPT Group was supervised by a professional who was not fired after the political decision to extinguish IMESF. Araújo et al.<sup><xref ref-type="bibr" rid="B26">26</xref></sup> identified that training alone seems unable to produce lasting effects on the participant’s behavior since it depends on the post-training context. Psychosocial support for immediate use was confirmed as the strongest predictor of training impact. It involves the support offered by managers, co-workers, and the organization so that the professional can participate in training and then apply the skills learned<sup><xref ref-type="bibr" rid="B26">26</xref></sup>.</p>
+			<p>Therefore, planned implementation strategies developed post-training can make the course effective<sup><xref ref-type="bibr" rid="B26">26</xref></sup>.</p>
+			<p>Mutamba et al.<sup><xref ref-type="bibr" rid="B14">14</xref></sup> found noteworthy effectiveness data on IPT-G implementation in Uganda: 90% of users completed the IPT-G program and the prevalence of mental health problems decreased. In their study, participants in training were not mental health specialists, but members of the community. The results were attributed to the implementation process. Strategies included logistics and technical advice with government working groups who managed public policies.</p>
+			<p>In our study, although most trained professionals were also not specialized in mental health, they acquired knowledge with the training process. However, the articulation and integration between work groups and primary healthcare service stakeholders was insufficient to implement public policies for innovations like IPT-G.</p>
+			<p>Although professionals felt initially motivated for training, IPT-G implementation was affected by several factors. The identified barriers can be attributed to factors of three levels: a) Professional (individual), b) Organizational (management, health unit to which the professional is connected), and c) Systemic (public health policies). Strategies were created to reduce these barriers and increase the effectiveness of IPT-G implementation (<xref ref-type="table" rid="t4">Table 4</xref>).</p>
+			<p>According to implementation science, innovations are consolidated by a project-execution-analysis-action cycle, which includes constant monitoring, evaluation, and feedback, besides financing, public policies, and management support. Thus, the organizational culture can change and innovate<sup><xref ref-type="bibr" rid="B21">21</xref></sup>.</p>
+			<p>However, researchers did not sufficiently predict implementation barriers, including the legal decision which dismissed most trained professionals. Moreover, we observed scheduling problems, inadequate physical space, poor integration of the IPT-G initiative with other initiatives of the primary healthcare services, and a lack of coordination between each unit and the Municipal Health Department. <xref ref-type="table" rid="t4">Table 4</xref> lists barriers and implementation suggestions such as a greater integration of the different levels in management, the possibility of adapting the IPT-G to the context of each unit, and the need for structural improvements.</p>
+			<p>Because of the covid-19 pandemic, we could not immediately resume an implementation strategy for the identified barriers.</p>
+			<p>The IPT-G training project presented in this study was an innovative experience to qualify health professionals for the application of an effective psychotherapeutic technique for the treatment of depression in primary care<sup><xref ref-type="bibr" rid="B1">1</xref>,<xref ref-type="bibr" rid="B6">6</xref>,<xref ref-type="bibr" rid="B7">7</xref>,<xref ref-type="bibr" rid="B13">13</xref></sup>. However, implementation was affected by various barriers. Our study could be the basis for a new initiative for the implementation of IPT-G or other strategies in public health.</p>
+			<sec>
+				<title>STUDY LIMITATIONS</title>
+				<p>This study involved a limited number of professionals in a single city. Thus, its findings cannot be applied to other contexts. After the initial course, few professionals were involved in the recruitment and execution of groups and few accepted to participate in the semi-structured interviews to identify barriers and facilitators. Although this limited us from obtaining information, we found that involving several professionals in innovative projects is difficult. Furthermore, our study was also limited by unique events of the health system restructuring and the covid-19 crisis. Despite its limitations, this study is original and relevant for understanding the training process and possible barriers in the implementation of new mental health treatment strategies in primary care.</p>
+			</sec>
+		</sec>
+		<sec sec-type="conclusions">
+			<title>CONCLUSIONS</title>
+			<p>This study describes an attempt of IPT-G implementation process in public primary healthcare.</p>
+			<p>The IPT-G implementation in primary care is a complex process with several steps. The first step relatively increased the health professionals’ knowledge of IPT-G. However, subsequent steps were more complex. Some of the barriers and impediments were unexpected, such as the dismissal of participating professionals.</p>
+			<p>To effectively implement the IPT-G in primary healthcare, we must offer training to healthcare professionals and plan several steps and strategies based on implementation science. Therefore, careful planning can anticipate difficulties and result in a well-articulated project, which will lead stakeholders and teams to help achieve positive results.</p>
+			<p>Stable public policies that are cost-effective and value evidence-based effective implementation measures are essential to identify and remove barriers by implementation science.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>REFERENCES</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. National Institute for Clinical Excellence. Depression in adults: treatment and management. NICE Guideline: Short Version Draft for Second Consultation, May 2018. London (UK): NICE; 2018 [cited 2021 Dec 15]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.nice.org.uk/guidance/gid-cgwave0725/documents/short-version-of-draft-guideline">https://www.nice.org.uk/guidance/gid-cgwave0725/documents/short-version-of-draft-guideline</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>National Institute for Clinical Excellence</collab>
+					</person-group>
+					<source>Depression in adults: treatment and management. NICE Guideline: Short Version Draft for Second Consultation, May 2018</source>
+					<publisher-loc>London (UK)</publisher-loc>
+					<publisher-name>NICE</publisher-name>
+					<year>2018</year>
+					<date-in-citation content-type="cited-date">cited 2021 Dec 15</date-in-citation>
+					<ext-link ext-link-type="uri" xlink:href="https://www.nice.org.uk/guidance/gid-cgwave0725/documents/short-version-of-draft-guideline">https://www.nice.org.uk/guidance/gid-cgwave0725/documents/short-version-of-draft-guideline</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. Cuijpers P, Donker T, Weissman MM, Ravitz P, Cristea IA. Interpersonal psychotherapy for mental health problems: a comprehensive meta-analysis. Am J Psychiatry. 2016;173(7):680-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1176/appi.ajp.2015.15091141">https://doi.org/10.1176/appi.ajp.2015.15091141</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cuijpers</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Donker</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Weissman</surname>
+							<given-names>MM</given-names>
+						</name>
+						<name>
+							<surname>Ravitz</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Cristea</surname>
+							<given-names>IA</given-names>
+						</name>
+					</person-group>
+					<article-title>Interpersonal psychotherapy for mental health problems: a comprehensive meta-analysis</article-title>
+					<source>Am J Psychiatry</source>
+					<year>2016</year>
+					<volume>173</volume>
+					<issue>7</issue>
+					<fpage>680</fpage>
+					<lpage>687</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1176/appi.ajp.2015.15091141">https://doi.org/10.1176/appi.ajp.2015.15091141</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. Cuijpers P, Quero S, DowrickC, Arroll B. Psychological treatment of depression in primary care: recent developments. Curr Psychiatry Rep. 2019;21:129. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s11920-019-1117-x">https://doi.org/10.1007/s11920-019-1117-x</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cuijpers</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Quero</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Dowrick</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Arroll</surname>
+							<given-names>B</given-names>
+						</name>
+					</person-group>
+					<article-title>Psychological treatment of depression in primary care: recent developments</article-title>
+					<source>Curr Psychiatry Rep</source>
+					<year>2019</year>
+					<volume>21</volume>
+					<size units="pages">129</size>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s11920-019-1117-x">https://doi.org/10.1007/s11920-019-1117-x</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. Cuijpers P, Geraedts AS, Oppen P, Andersson G, Markowitz JC, Straten A. Interpersonal psychotherapy for depression: a meta-analysis. Am J Psychiatry. 2011;168(6):581-92. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1176/appi.ajp.2010.10101411">https://doi.org/10.1176/appi.ajp.2010.10101411</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cuijpers</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Geraedts</surname>
+							<given-names>AS</given-names>
+						</name>
+						<name>
+							<surname>Oppen</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Andersson</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Markowitz</surname>
+							<given-names>JC</given-names>
+						</name>
+						<name>
+							<surname>Straten</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Interpersonal psychotherapy for depression: a meta-analysis</article-title>
+					<source>Am J Psychiatry</source>
+					<year>2011</year>
+					<volume>168</volume>
+					<issue>6</issue>
+					<fpage>581</fpage>
+					<lpage>592</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1176/appi.ajp.2010.10101411">https://doi.org/10.1176/appi.ajp.2010.10101411</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Cuijpers P, Karyotaki E, Wit L, Ebert DD. The effects of fifteen evidence-supported therapies for adult depression: a meta-analytic review. Psychother Res. 2020;30(3):279-93. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/10503307.2019.1649732">https://doi.org/10.1080/10503307.2019.1649732</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cuijpers</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Karyotaki</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Wit</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Ebert</surname>
+							<given-names>DD</given-names>
+						</name>
+					</person-group>
+					<article-title>The effects of fifteen evidence-supported therapies for adult depression: a meta-analytic review</article-title>
+					<source>Psychother Res</source>
+					<year>2020</year>
+					<volume>30</volume>
+					<issue>3</issue>
+					<fpage>279</fpage>
+					<lpage>293</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1080/10503307.2019.1649732">https://doi.org/10.1080/10503307.2019.1649732</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. Bernecker SL, Coyne AE, Constantino MJ, Ravitz P. For whom does interpersonal psychotherapy work? A systematic review. Clin Psychol Rev. 2017;56:82-93. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.cpr.2017.07.001">https://doi.org/10.1016/j.cpr.2017.07.001</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bernecker</surname>
+							<given-names>SL</given-names>
+						</name>
+						<name>
+							<surname>Coyne</surname>
+							<given-names>AE</given-names>
+						</name>
+						<name>
+							<surname>Constantino</surname>
+							<given-names>MJ</given-names>
+						</name>
+						<name>
+							<surname>Ravitz</surname>
+							<given-names>P</given-names>
+						</name>
+					</person-group>
+					<article-title>For whom does interpersonal psychotherapy work? A systematic review</article-title>
+					<source>Clin Psychol Rev</source>
+					<year>2017</year>
+					<volume>56</volume>
+					<fpage>82</fpage>
+					<lpage>93</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.cpr.2017.07.001">https://doi.org/10.1016/j.cpr.2017.07.001</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. Souza LH, Salum GA, Mosqueiro BP, Caldieraro MA, Guerra TA, Fleck MP. Interpersonal psychotherapy as add-on for treatment-resistant depression: a pragmatic randomized controlled trial. J Affect Disord. 2016;193:373-80. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jad.2016.01.004">https://doi.org/10.1016/j.jad.2016.01.004</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Souza</surname>
+							<given-names>LH</given-names>
+						</name>
+						<name>
+							<surname>Salum</surname>
+							<given-names>GA</given-names>
+						</name>
+						<name>
+							<surname>Mosqueiro</surname>
+							<given-names>BP</given-names>
+						</name>
+						<name>
+							<surname>Caldieraro</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Guerra</surname>
+							<given-names>TA</given-names>
+						</name>
+						<name>
+							<surname>Fleck</surname>
+							<given-names>MP</given-names>
+						</name>
+					</person-group>
+					<article-title>Interpersonal psychotherapy as add-on for treatment-resistant depression: a pragmatic randomized controlled trial</article-title>
+					<source>J Affect Disord</source>
+					<year>2016</year>
+					<volume>193</volume>
+					<fpage>373</fpage>
+					<lpage>380</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jad.2016.01.004">https://doi.org/10.1016/j.jad.2016.01.004</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Ramanuj P, Ferenchick EK, Pincus HA. Depression in primary care: part 2 - management. BMJ. 2019;365:l835. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/bmj.l835">https://doi.org/10.1136/bmj.l835</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ramanuj</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Ferenchick</surname>
+							<given-names>EK</given-names>
+						</name>
+						<name>
+							<surname>Pincus</surname>
+							<given-names>HA</given-names>
+						</name>
+					</person-group>
+					<article-title>Depression in primary care: part 2 - management</article-title>
+					<source>BMJ</source>
+					<year>2019</year>
+					<volume>365</volume>
+					<fpage>l835</fpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/bmj.l835">https://doi.org/10.1136/bmj.l835</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. Kontunen J, Timonen M, Muotka J, Liukkonen T. Is interpersonal counselling (IPC) sufficient treatment for depression in primary care patients? A pilot study comparing IPC and interpersonal psychotherapy (IPT). J Affect Disord. 2016;189:89-93. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jad.2015.09.032">https://doi.org/10.1016/j.jad.2015.09.032</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kontunen</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Timonen</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Muotka</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Liukkonen</surname>
+							<given-names>T</given-names>
+						</name>
+					</person-group>
+					<article-title>Is interpersonal counselling (IPC) sufficient treatment for depression in primary care patients? A pilot study comparing IPC and interpersonal psychotherapy (IPT)</article-title>
+					<source>J Affect Disord</source>
+					<year>2016</year>
+					<volume>189</volume>
+					<fpage>89</fpage>
+					<lpage>93</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jad.2015.09.032">https://doi.org/10.1016/j.jad.2015.09.032</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. Weissman MM. Interpersonal psychotherapy: history and future. Am J Psychother. 2020;73(1):3-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1176/appi.psychotherapy.20190032">https://doi.org/10.1176/appi.psychotherapy.20190032</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Weissman</surname>
+							<given-names>MM</given-names>
+						</name>
+					</person-group>
+					<article-title>Interpersonal psychotherapy: history and future</article-title>
+					<source>Am J Psychother</source>
+					<year>2020</year>
+					<volume>73</volume>
+					<issue>1</issue>
+					<fpage>3</fpage>
+					<lpage>7</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1176/appi.psychotherapy.20190032">https://doi.org/10.1176/appi.psychotherapy.20190032</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. Wilfley DE, MacKenzie KR, Welch RR, Ayres VE, Weissman MM. Interpersonal psychotherapy for group. New York: Basic Books; 2000. (Basic Behavioral Science).</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Wilfley</surname>
+							<given-names>DE</given-names>
+						</name>
+						<name>
+							<surname>MacKenzie</surname>
+							<given-names>KR</given-names>
+						</name>
+						<name>
+							<surname>Welch</surname>
+							<given-names>RR</given-names>
+						</name>
+						<name>
+							<surname>Ayres</surname>
+							<given-names>VE</given-names>
+						</name>
+						<name>
+							<surname>Weissman</surname>
+							<given-names>MM</given-names>
+						</name>
+					</person-group>
+					<source>Interpersonal psychotherapy for group</source>
+					<publisher-loc>New York</publisher-loc>
+					<publisher-name>Basic Books</publisher-name>
+					<year>2000</year>
+					<comment>Basic Behavioral Science</comment>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. World Health Organization; Columbia University. Group interpersonal therapy (IPT) for depression. Geneva (CH): WHO; 2016. (Series on Low-Intensity Psychological Interventions; nº 3).</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>World Health Organization</collab>
+						<collab>Columbia University</collab>
+					</person-group>
+					<source>Group interpersonal therapy (IPT) for depression</source>
+					<publisher-loc>Geneva (CH)</publisher-loc>
+					<publisher-name>WHO</publisher-name>
+					<year>2016</year>
+					<elocation-id>Series on Low-Intensity Psychological Interventions; nº 3</elocation-id>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. Stuart S, Schultz J: Interpersonal Psychotherapy for Groups: clinician handbook. Iowa City, IA: IPT Institute; 2016.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Stuart</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Schultz</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<source>Interpersonal Psychotherapy for Groups: clinician handbook</source>
+					<publisher-loc>Iowa City, IA</publisher-loc>
+					<publisher-name>IPT Institute</publisher-name>
+					<year>2016</year>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. Mutamba BB, Kane JC, Jong JTVM, Okello J, Musisi S, Kohrt BA. Psychological treatments delivered by community health workers in low-resource government health systems: effectiveness of group interpersonal psychotherapy for caregivers of children affected by nodding syndrome in Uganda. Psychol Med. 2018;48(15):2573-83. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1017/S0033291718000193">https://doi.org/10.1017/S0033291718000193</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Mutamba</surname>
+							<given-names>BB</given-names>
+						</name>
+						<name>
+							<surname>Kane</surname>
+							<given-names>JC</given-names>
+						</name>
+						<name>
+							<surname>Jong</surname>
+							<given-names>JTVM</given-names>
+						</name>
+						<name>
+							<surname>Okello</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Musisi</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Kohrt</surname>
+							<given-names>BA</given-names>
+						</name>
+					</person-group>
+					<article-title>Psychological treatments delivered by community health workers in low-resource government health systems: effectiveness of group interpersonal psychotherapy for caregivers of children affected by nodding syndrome in Uganda</article-title>
+					<source>Psychol Med</source>
+					<year>2018</year>
+					<volume>48</volume>
+					<issue>15</issue>
+					<fpage>2573</fpage>
+					<lpage>2583</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1017/S0033291718000193">https://doi.org/10.1017/S0033291718000193</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. Borins M, Holzapfel S, Tudiver F, Bader E. Counseling and psychotherapy skills training for family physicians. Fam Syst Health. 2007;25(4):382-91. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1037/1091-7527.25.4.382">https://doi.org/10.1037/1091-7527.25.4.382</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Borins</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Holzapfel</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Tudiver</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Bader</surname>
+							<given-names>E</given-names>
+						</name>
+					</person-group>
+					<article-title>Counseling and psychotherapy skills training for family physicians</article-title>
+					<source>Fam Syst Health</source>
+					<year>2007</year>
+					<volume>25</volume>
+					<issue>4</issue>
+					<fpage>382</fpage>
+					<lpage>391</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1037/1091-7527.25.4.382">https://doi.org/10.1037/1091-7527.25.4.382</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. Luoma JB, Martin CE, Pearson JL. Contact with mental health and primary care providers before suicide: a review of the evidence. Am J Psychiatry. 2002;159(6):909-16. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1176/appi.ajp.159.6.909">https://doi.org/10.1176/appi.ajp.159.6.909</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Luoma</surname>
+							<given-names>JB</given-names>
+						</name>
+						<name>
+							<surname>Martin</surname>
+							<given-names>CE</given-names>
+						</name>
+						<name>
+							<surname>Pearson</surname>
+							<given-names>JL</given-names>
+						</name>
+					</person-group>
+					<article-title>Contact with mental health and primary care providers before suicide: a review of the evidence</article-title>
+					<source>Am J Psychiatry</source>
+					<year>2002</year>
+					<volume>159</volume>
+					<issue>6</issue>
+					<fpage>909</fpage>
+					<lpage>916</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1176/appi.ajp.159.6.909">https://doi.org/10.1176/appi.ajp.159.6.909</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Fleck MP, Berlim MT, Lafer B, Sougey EB, Del Porto JA, Brasil MA, et al. Revisão das diretrizes da Associação Médica Brasileira para o tratamento da depressão (Versão integral). Rev Bras Psiquiatr. 2009;31 Suppl 1:S7-17. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S1516-44462009000500003">https://doi.org/10.1590/S1516-44462009000500003</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Fleck</surname>
+							<given-names>MP</given-names>
+						</name>
+						<name>
+							<surname>Berlim</surname>
+							<given-names>MT</given-names>
+						</name>
+						<name>
+							<surname>Lafer</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Sougey</surname>
+							<given-names>EB</given-names>
+						</name>
+						<name>
+							<surname>Del Porto</surname>
+							<given-names>JA</given-names>
+						</name>
+						<name>
+							<surname>Brasil</surname>
+							<given-names>MA</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Revisão das diretrizes da Associação Médica Brasileira para o tratamento da depressão (Versão integral)</article-title>
+					<source>Rev Bras Psiquiatr</source>
+					<year>2009</year>
+					<volume>31</volume>
+					<supplement>Suppl 1</supplement>
+					<fpage>S7</fpage>
+					<lpage>17</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S1516-44462009000500003">https://doi.org/10.1590/S1516-44462009000500003</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18. McHugh RK, Whitton SW, Peckham AD, Welge JA, Otto MW. Patient preference for psychological vs pharmacologic treatment of psychiatric disorders: a meta-analytic review. J Clin Psychiatry. 2013;74(6):595-602. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4088/JCP.12r07757">https://doi.org/10.4088/JCP.12r07757</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>McHugh</surname>
+							<given-names>RK</given-names>
+						</name>
+						<name>
+							<surname>Whitton</surname>
+							<given-names>SW</given-names>
+						</name>
+						<name>
+							<surname>Peckham</surname>
+							<given-names>AD</given-names>
+						</name>
+						<name>
+							<surname>Welge</surname>
+							<given-names>JA</given-names>
+						</name>
+						<name>
+							<surname>Otto</surname>
+							<given-names>MW</given-names>
+						</name>
+					</person-group>
+					<article-title>Patient preference for psychological vs pharmacologic treatment of psychiatric disorders: a meta-analytic review</article-title>
+					<source>J Clin Psychiatry</source>
+					<year>2013</year>
+					<volume>74</volume>
+					<issue>6</issue>
+					<fpage>595</fpage>
+					<lpage>602</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4088/JCP.12r07757">https://doi.org/10.4088/JCP.12r07757</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19. Cuijpers P, Andersson G, Donker T, Straten A. Psychological treatment of depression: results of a series of meta-analyses. Nord J Psychiatry. 2011;65(6):354-64. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3109/08039488.2011.596570">https://doi.org/10.3109/08039488.2011.596570</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cuijpers</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Andersson</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Donker</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Straten</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>Psychological treatment of depression: results of a series of meta-analyses</article-title>
+					<source>Nord J Psychiatry</source>
+					<year>2011</year>
+					<volume>65</volume>
+					<issue>6</issue>
+					<fpage>354</fpage>
+					<lpage>364</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3109/08039488.2011.596570">https://doi.org/10.3109/08039488.2011.596570</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20. Holtrop JS, Rabin BA, Glasgow RE. Dissemination and Implementation Science in primary care research and practice: contributions and opportunities. J Am Board Fam Med. 2018;31(3):466-78. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3122/jabfm.2018.03.170259">https://doi.org/10.3122/jabfm.2018.03.170259</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Holtrop</surname>
+							<given-names>JS</given-names>
+						</name>
+						<name>
+							<surname>Rabin</surname>
+							<given-names>BA</given-names>
+						</name>
+						<name>
+							<surname>Glasgow</surname>
+							<given-names>RE</given-names>
+						</name>
+					</person-group>
+					<article-title>Dissemination and Implementation Science in primary care research and practice: contributions and opportunities</article-title>
+					<source>J Am Board Fam Med</source>
+					<year>2018</year>
+					<volume>31</volume>
+					<issue>3</issue>
+					<fpage>466</fpage>
+					<lpage>478</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3122/jabfm.2018.03.170259">https://doi.org/10.3122/jabfm.2018.03.170259</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>21. Nilsen P, Birken SA, editors. Handbook on implementation science. Cheltenham (UK): Edward Elgar Publishing; 2020.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Nilsen</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Birken</surname>
+							<given-names>SA</given-names>
+						</name>
+						<role>editors</role>
+					</person-group>
+					<source>Handbook on implementation science</source>
+					<publisher-loc>Cheltenham (UK)</publisher-loc>
+					<publisher-name>Edward Elgar Publishing</publisher-name>
+					<year>2020</year>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>22. Damschroder LJ, Aron DC, Keith RE, Kirsh SR, Alexander JA, Lowery JC. Fostering implementation of health services research findings into practice: a consolidated framework for advancing implementation science. Implement Sci. 2009;4:50. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1748-5908-4-50">https://doi.org/10.1186/1748-5908-4-50</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Damschroder</surname>
+							<given-names>LJ</given-names>
+						</name>
+						<name>
+							<surname>Aron</surname>
+							<given-names>DC</given-names>
+						</name>
+						<name>
+							<surname>Keith</surname>
+							<given-names>RE</given-names>
+						</name>
+						<name>
+							<surname>Kirsh</surname>
+							<given-names>SR</given-names>
+						</name>
+						<name>
+							<surname>Alexander</surname>
+							<given-names>JA</given-names>
+						</name>
+						<name>
+							<surname>Lowery</surname>
+							<given-names>JC</given-names>
+						</name>
+					</person-group>
+					<article-title>Fostering implementation of health services research findings into practice: a consolidated framework for advancing implementation science</article-title>
+					<source>Implement Sci</source>
+					<year>2009</year>
+					<volume>4</volume>
+					<size units="pages">50</size>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1748-5908-4-50">https://doi.org/10.1186/1748-5908-4-50</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>23. Graham ID, Logan J, Harrison MB, Straus SE, Tetroe J, Caswell W, et al Lost in knowledge translation: time for a map? J Contin Educ Health Prof. 2006;26(1):13-24. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/chp.47">https://doi.org/10.1002/chp.47</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Graham</surname>
+							<given-names>ID</given-names>
+						</name>
+						<name>
+							<surname>Logan</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Harrison</surname>
+							<given-names>MB</given-names>
+						</name>
+						<name>
+							<surname>Straus</surname>
+							<given-names>SE</given-names>
+						</name>
+						<name>
+							<surname>Tetroe</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Caswell</surname>
+							<given-names>W</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Lost in knowledge translation: time for a map?</article-title>
+					<source>J Contin Educ Health Prof</source>
+					<year>2006</year>
+					<volume>26</volume>
+					<issue>1</issue>
+					<fpage>13</fpage>
+					<lpage>24</lpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/chp.47">https://doi.org/10.1002/chp.47</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>24. Eccles MP, Mittman BS. Welcome to Implementation Science. Implement Sci. 2006;1:1. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1748-5908-1-1">https://doi.org/10.1186/1748-5908-1-1</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Eccles</surname>
+							<given-names>MP</given-names>
+						</name>
+						<name>
+							<surname>Mittman</surname>
+							<given-names>BS</given-names>
+						</name>
+					</person-group>
+					<article-title>Welcome to Implementation Science</article-title>
+					<source>Implement Sci</source>
+					<year>2006</year>
+					<volume>1</volume>
+					<size units="pages">1</size>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1748-5908-1-1">https://doi.org/10.1186/1748-5908-1-1</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>25. Bauer MS, Kirchner J. Implementation science: what is it and why should I care? Psychiatry Res. 2020;283:112376. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.psychres.2019.04.025">https://doi.org/10.1016/j.psychres.2019.04.025</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bauer</surname>
+							<given-names>MS</given-names>
+						</name>
+						<name>
+							<surname>Kirchner</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>Implementation science: what is it and why should I care?</article-title>
+					<source>Psychiatry Res</source>
+					<year>2020</year>
+					<volume>283</volume>
+					<fpage>112376</fpage>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.psychres.2019.04.025">https://doi.org/10.1016/j.psychres.2019.04.025</ext-link>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation>26. Araujo MCSQ, Abbad GS, Freitas TR. Evaluation of learning, reaction and impact of corporate training at work. Psicol Teor Pesq. 2019;35:e3551. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0102.3772e35511">https://doi.org/10.1590/0102.3772e35511</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Araujo</surname>
+							<given-names>MCSQ</given-names>
+						</name>
+						<name>
+							<surname>Abbad</surname>
+							<given-names>GS</given-names>
+						</name>
+						<name>
+							<surname>Freitas</surname>
+							<given-names>TR</given-names>
+						</name>
+					</person-group>
+					<article-title>Evaluation of learning, reaction and impact of corporate training at work</article-title>
+					<source>Psicol Teor Pesq</source>
+					<year>2019</year>
+					<volume>35</volume>
+					<elocation-id>e3551</elocation-id>
+					<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0102.3772e35511">https://doi.org/10.1590/0102.3772e35511</ext-link>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="financial-disclosure">
+				<p><bold>Funding:</bold> <italic>Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Brasil</italic> (Capes - Finance Code 001). FIPE – <italic>Hospital de Clínicas de Porto Alegre</italic> (HCPA – Registration number 2018-0547).</p>
+			</fn>
+		</fn-group>
+	</back>
+</article>

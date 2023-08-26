@@ -1,0 +1,2161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.1" specific-use="sps-1.9" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="nlm-ta">Rev Saude Publica</journal-id>
+			<journal-id journal-id-type="publisher-id">rsp</journal-id>
+			<journal-title-group>
+				<journal-title>Revista de Saúde Pública</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Rev. Saúde Pública</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="ppub">0034-8910</issn>
+			<issn pub-type="epub">1518-8787</issn>
+			<publisher>
+				<publisher-name>Faculdade de Saúde Pública da Universidade de São Paulo</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="other">00209</article-id>
+			<article-id pub-id-type="doi">10.11606/s1518-8787.2022056004045</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Original Article</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Covid-19 vaccination priorities defined on machine learning</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-4907-6295</contrib-id>
+					<name>
+						<surname>Couto</surname>
+						<given-names>Renato Camargos</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-0042-8125</contrib-id>
+					<name>
+						<surname>Pedrosa</surname>
+						<given-names>Tania Moreira Grillo</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-9822-6056</contrib-id>
+					<name>
+						<surname>Seara</surname>
+						<given-names>Luciana Moreira</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-0373-3248</contrib-id>
+					<name>
+						<surname>Couto</surname>
+						<given-names>Carolina Seara</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>III</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-5218-2158</contrib-id>
+					<name>
+						<surname>Couto</surname>
+						<given-names>Vitor Seara</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-9510-6953</contrib-id>
+					<name>
+						<surname>Giacomin</surname>
+						<given-names>Karla</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff4"><sup>V</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-9929-7435</contrib-id>
+					<name>
+						<surname>Abreu</surname>
+						<given-names>Ana Claudia Couto de</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>I</label>
+				<institution content-type="orgname">Fundação Lucas Machado</institution>
+				<institution content-type="orgdiv1">Faculdade de Ciências Médicas de Minas Gerais</institution>
+				<addr-line>
+					<named-content content-type="city">Belo Horizonte</named-content>
+					<named-content content-type="state">MG</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Fundação Lucas Machado. Faculdade de Ciências Médicas de Minas Gerais. Belo Horizonte, MG, Brasil</institution>
+			</aff>
+			<aff id="aff2">
+				<label>II</label>
+				<institution content-type="orgname">Instituto de Acreditação e Gestão em Saúde</institution>
+				<institution content-type="orgdiv1">Departamento de Tecnologia da Informação</institution>
+				<addr-line>
+					<named-content content-type="city">Belo Horizonte</named-content>
+					<named-content content-type="state">MG</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Instituto de Acreditação e Gestão em Saúde. Departamento de Tecnologia da Informação. Belo Horizonte, MG, Brasil</institution>
+			</aff>
+			<aff id="aff3">
+				<label>III</label>
+				<institution content-type="orgname">Instituto de Assistência Médica ao Servidor Público Estadual de São Paulo.</institution>
+				<institution content-type="orgdiv1">Hospital do Servidor Público Estadual</institution>
+				<institution content-type="orgdiv2">Programa de Residência Médica</institution>
+				<addr-line>
+					<named-content content-type="city">São Paulo</named-content>
+					<named-content content-type="state">SP</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Instituto de Assistência Médica ao Servidor Público Estadual de São Paulo. Hospital do Servidor Público Estadual. Programa de Residência Médica. São Paulo, SP, Brasil</institution>
+			</aff>
+			<aff id="aff4">
+				<label>V</label>
+				<institution content-type="orgname">Centro Internacional de Longevidade</institution>
+				<addr-line>
+					<named-content content-type="city">Belo Horizonte</named-content>
+					<named-content content-type="state">MG</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Centro Internacional de Longevidade. Belo Horizonte, MG, Brasil</institution>
+			</aff>
+			<author-notes>
+				<corresp id="c01"> Correspondence: Renato Camargos Couto Faculdade de Ciências Médicas de Minas Gerais Alameda Ezequiel Dias, 275 - Centro 30130-110 Belo Horizonte, MG, Brasil E-mail: <email>renatoccouto@gmail.com</email>
+				</corresp>
+				<fn fn-type="con">
+					<p><bold>Authors’ Contribution:</bold> Study design and planning: RCC, TMGP e LMS. Data collection, analysis and interpretation: RCC, TMGP, LMS, CSC, VSC, KG, ACCA. Manuscript drafting or review: RCC, TMGP, LMS, CSC, VSC, KG, ACCA. Approval of the final version: RCC, LMS. Public responsibility for the content of the article: RCC.</p>
+				</fn>
+				<fn fn-type="conflict">
+					<p><bold>Conflict of Interests:</bold> The authors declare no conflict of interest.</p>
+				</fn>
+			</author-notes>
+			<pub-date date-type="pub" publication-format="electronic">
+				<day>21</day>
+				<month>03</month>
+				<year>2022</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">
+				<year>2022</year>
+			</pub-date>
+			<volume>56</volume>
+			<elocation-id>11</elocation-id>
+			<history>
+				<date date-type="received">
+					<day>7</day>
+					<month>07</month>
+					<year>2021</year>
+				</date>
+				<date date-type="accepted">
+					<day>9</day>
+					<month>11</month>
+					<year>2021</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="en">
+					<license-p> This is an Open Access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. </license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>ABSTRACT</title>
+				<sec>
+					<title>OBJECTIVE</title>
+					<p> Defining priority vaccination groups is a critical factor to reduce mortality rates.</p>
+				</sec>
+				<sec>
+					<title>METHODS</title>
+					<p> We sought to identify priority population groups for covid-19 vaccination, based on in-hospital risk of death, by using Extreme Gradient Boosting Machine Learning (ML) algorithm. We performed a retrospective cohort study comprising 49,197 patients (18 years or older), with RT-PCR-confirmed for covid-19, who were hospitalized in any of the 336 Brazilian hospitals considered in this study, from March 19th, 2020, to March 22nd, 2021. Independent variables encompassed age, sex, and chronic health conditions grouped into 179 large categories. Primary outcome was hospital discharge or in-hospital death. Priority population groups for vaccination were formed based on the different levels of in-hospital risk of death due to covid-19, from the ML model developed by taking into consideration the independent variables. All analysis were carried out in Python programming language (version 3.7) and R programming language (version 4.05).</p>
+				</sec>
+				<sec>
+					<title>RESULTS</title>
+					<p> Patients’ mean age was of 60.5 ± 16.8 years (mean ± SD), mean in-hospital mortality rate was 17.9%, and the mean number of comorbidities per patient was 1.97 ± 1.85 (mean ± SD). The predictive model of in-hospital death presented area under the Receiver Operating Characteristic Curve (AUC - ROC) equal to 0.80. The investigated population was grouped into eleven (11) different risk categories, based on the variables chosen by the ML model developed in this study.</p>
+				</sec>
+				<sec>
+					<title>CONCLUSIONS</title>
+					<p> The use of ML for defining population priorities groups for vaccination, based on risk of in-hospital death, can be easily applied by health system managers</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="en">
+				<kwd>COVID-19 vaccines, supply &amp; distribution</kwd>
+				<kwd>Immunization Programs</kwd>
+				<kwd>Health Priorities</kwd>
+				<kwd>Machine Learning</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="3"/>
+				<table-count count="2"/>
+				<equation-count count="0"/>
+				<ref-count count="32"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>INTRODUCTION</title>
+			<p>Brazil is an upper middle-income country with 213 million inhabitants and a large territorial area, an aggravating factor to the unprecedented pressure placed by the covid-19 pandemic on healthcare systems countrywide<sup><xref ref-type="bibr" rid="B1">1</xref></sup>. Among the many issues faced by the country is the increased hospitalization rates, as well as increased demand for intensive care unit (ICU) beds, advanced respiratory support, and trained health professionals<sup><xref ref-type="bibr" rid="B2">2</xref></sup>.</p>
+			<p>The first confirmed case of covid-19 in Brazil was reported on February 26<sup>th</sup>, 2020. A year and a half later, the country accounts for 21,810,855 cases and 607,824 deaths<sup><xref ref-type="bibr" rid="B2">2</xref></sup>.</p>
+			<p>A global equitable access to the covid-19 vaccine, mainly to protect health professionals and individuals at high risk, is the only way to mitigate the pandemic’s impact on the economy and public health<sup><xref ref-type="bibr" rid="B3">3</xref></sup>.</p>
+			<p>There is a severe shortage of vaccines and hospital resources worldwide, as well as huge imbalance in vaccine distribution between rich and poor countries. High-income countries currently have a total of 17.8 billion vaccine doses, 6.8 billion of which are reserved; whereas low-income countries have only 394.5 million doses<sup><xref ref-type="bibr" rid="B4">4</xref>,<xref ref-type="bibr" rid="B5">5</xref></sup>. This difference makes the determination of priorities even more urgent in countries with low resource availability.</p>
+			<p>Vaccinating the population, especially those at risk of death, is necessary to help minimizing the consequences of such an unequal distribution of vaccines and resources.</p>
+			<p>This study sought to define covid-19 vaccination priorities based on risk of in-hospital death by using the developed ML model, which was based on variables such as age, sex, and chronic health conditions.</p>
+		</sec>
+		<sec sec-type="methods">
+			<title>METHODS</title>
+			<p>In summary, the steps shown in <xref ref-type="fig" rid="f01">Figure 1</xref> were followed for the development of the predictive model through machine learning, applied to in-hospital death by covid-19, and the definition of priority groups for vaccination based on age, sex, and chronic health conditions:</p>
+			<p>
+				<fig id="f01">
+					<label>Figure 1</label>
+					<caption>
+						<title>Flowchart describing the development of the predictive model applied to in-hospital death due to covid-19, and the definition of priority groups for vaccination based on age, sex and chronic health conditions.</title>
+					</caption>
+					<graphic xlink:href="1518-8787-rsp-56-11-gf01.tif"/>
+				</fig>
+			</p>
+			<list list-type="bullet">
+				<list-item>
+					<p>Among the 864,531 patients admitted to 336 public and private Brazilian hospitals, during the study period, only the 49,197 patients with RT-PCR-confirmed for covid-19, who were discharged or died, were included in the study.</p>
+				</list-item>
+				<list-item>
+					<p>An anonymized database was created with the patients included in this study, where the independent variables were age, sex, and 179 chronic health conditions, and the outcome variable was the occurrence or not of death. For the purpose of our study, chronic health conditions comprise comorbidities that are defined as the coexistence of another medical condition alongside covid-19 infection at the time of the patients’ hospitalization or the use of external devices and interventions to keep the patient alive, such as tracheostomy, ventilatory support, and dialysis. This database was the input for the development of the covid-19 in-hospital mortality predictive model, with the use of the supervised machine learning algorithms.</p>
+				</list-item>
+				<list-item>
+					<p>The ML model chose the features to predict death, and population categories were created combining the main features chosen by the ML model.</p>
+				</list-item>
+				<list-item>
+					<p>The incidence of death in the categories created was compared using the Kruskal-Wallis and Dunn statistical tests – categories with similar risk were gathered into a single group.</p>
+				</list-item>
+				<list-item>
+					<p>Priority population groups for vaccination were created to turn the results into a recommendation that could be easily conveyed to national immunization program administrators. These groups were defined based on the different risks of in-hospital death determined by different combinations of sex, age, and chronic health conditions.</p>
+				</list-item>
+			</list>
+			<sec>
+				<title>Study Design and Participants</title>
+				<p>A retrospective cohort study was conducted with all patients, 18 years of age or older, who required hospitalization due to covid-19 infection – confirmed by positive result in polymerase chain reaction test applied to nasopharyngeal sample – and who died or were discharged, in any of the 336 hospitals in the Brazilian public and private healthcare system considered in this study, from March 19<sup>th</sup>, 2020, to March 22<sup>nd</sup>, 2021.</p>
+				<p>The study adopted anonymous convenience sample extracted from the DRG Brasil<sup>®</sup> database, which is used by Brazilian public and private hospitals for managerial purposes. Data collection was carried out by nurses trained in medical coding, who were exclusively dedicated to this function and fully read the medical records of all patients after hospital discharge or death, inserting their data in DRG Brasil<sup>®</sup> software. Diagnoses were classified based on ICD-10. The coding team was supervised by a support team, which, in turn, was supervised by authors 1 and 2 of this study, for data quality assurance purposes.</p>
+				<p>Acute complications due to covid-19 infection were excluded from the database, as well as chronic health conditions with less than 30 occurrences. This process resulted in dataset comprising of 181 independent variables such as age, sex, and 179 groups of chronic health conditions, whereas the outcome comprised hospital discharge or in-hospital death. Chronic health conditions were grouped into large categories comprising similar ICD-10 sets associated with the affected physiological system.</p>
+			</sec>
+			<sec>
+				<title>Outcomes</title>
+				<p>The primary outcome was in-hospital death or discharge.</p>
+				<sec>
+					<title><italic>Machine Learning model development</italic></title>
+					<p>The dataset was used as input for the supervised machine learning algorithms to develop the in-hospital death predictive model of covid-19 infected patients.</p>
+					<p>The predictive model development took into consideration 2 main goals<sup><xref ref-type="bibr" rid="B6">6</xref></sup>:</p>
+					<list list-type="bullet">
+						<list-item>
+							<p>Selecting the best model: estimating the performance of different models in order to select the best one.</p>
+						</list-item>
+						<list-item>
+							<p>Model evaluation: estimating the prediction error (generalization error) of the selected model based on new data.</p>
+						</list-item>
+					</list>
+					<p>We used three ML algorithms to develop the predictive model – Random Forest, XGBoost, and Logistic Regression – and their performance was evaluated based on the Area Under the Receiver Operating Characteristic Curve (AUC ROC).</p>
+					<p>To select the best model we split the database into two parts, training data (70%) and testing data (30%). Training data were used for learning (the algorithm learns from the data, which contains the correct answer) and the test data was used for the second purpose mentioned above, which is to evaluate the model’s performance and generalization error on new data.</p>
+					<p>For the training step, we used the K-fold cross validation method<sup><xref ref-type="bibr" rid="B7">7</xref></sup>. This procedure has a single parameter k, which refers to the number of groups the training dataset should be divided into for training and validation purposes. One way to use this technique is to randomly divide the training set into k parts of equal size: k-1 parts are used to adjust the model, whereas the k<sup>th</sup> part is used to estimate the model’s performance. The process continues until all parts have participated in both the training and validation processes – this procedure results in k performance estimates. The most common values used for k range from 5 to 10. We used k = 6 in all tested models, as higher k values did not result in better performances, but in longer processing time.</p>
+					<p>For the tree-based algorithms (Random Forest and XGBoosting), the algorithms’ hyperparameters were optimized during the cross-validation process and those that resulted in the best models were selected. The hyperparameters used for the XGBoost algorithm comprised learning rate – it determines the step size in each iteration as the model is optimized towards the goal (0.01, 0.05, 0.1, 0.2, and 0.25), max_depth – the maximum depth per tree (5, 10, 15, 20, 30), and n_estimators – The number of trees in final model (500, 1,000 and 2,000). The hyperparameters used for Random Forest were max_depth (15, 30, 50), n_estimators (100, 200, 500), and max_features – number of randomly selected predictors as candidates in each division of the decision trees (3, 6, 10)<sup><xref ref-type="bibr" rid="B7">7</xref></sup>.</p>
+					<p>Since logistic regression does not have hyperparameters, it was adjusted to training data once, based on the stepwise procedure.</p>
+					<p>AUC ROC were determined in each of the six cross-validation cycles and their respective confidence intervals (CI), calculated using the Delong method<sup><xref ref-type="bibr" rid="B8">8</xref></sup> (95%CI). Subsequently, the selected model was applied to test data in order to assess its prediction error in future observations, also based on AUC ROC. The mean AUC ROC values recorded for all three algorithms were statistically compared to each other through Friedman’s Test, which was followed by Mann-Whitney Post-hoc test (at 5% significance level) – the one presenting the best performance was selected.</p>
+					<p>A calibration curve was also built to assess the predictive ability of the selected model. Calibration diagrams built based on the likelihood (generated by the predictive model) of a given event to take place enabled evaluating the model’s ability to make predictions. Calibration diagram is a linear graph representing the relative frequency of what was observed (axis y) versus the likely frequency predicted by the model (axis x), which enables comparing the curve generated by the model’s predictions to a standard curve; thus, it illustrates the model’s prediction performance. Predicted likelihoods are divided into a fixed number of intervals along axis x. Then, the number of events (class = 1) of each interval is counted (e.g., the observed relative frequency). Finally, counts are normalized, and results are plotted as line graph<sup><xref ref-type="bibr" rid="B9">9</xref></sup>.</p>
+					<p>The SHAP (SHapley Additive Explanations) technique was used to select the most predictive variables of the developed model. SHAP values are an extension of SHapley values in the game theory. They describe the effects of variables on a model’s output, besides being defined as the contribution of a specific variable to a given prediction. The advantage of using SHAP values lies on the fact that they add interpretability to complex models<sup><xref ref-type="bibr" rid="B10">10</xref></sup>.</p>
+					<p>All analysis and figure generation processes were carried out in Python programming language (version 3.7).</p>
+				</sec>
+			</sec>
+		</sec>
+		<sec>
+			<title>Statistical Analysis</title>
+			<p>Population categories were created by combining variables chosen by the ML model to enable the transformation of results into recommendations that could easily be conveyed to national vaccination programs’ managers.</p>
+			<p>The incidence of death among categories created by the combination of variables chosen by the ML model was compared, through Kruskal Wallis statistical test, with the Dunn Post-hoc test – categories presenting similar risk were gathered in a single group.</p>
+			<p>We used medians and interquartile ranges (IQRs) or means and standard deviations (SDs) to summarize continuous variables, and calculate frequencies and proportions for categorical variables. Variables in the final model with a <italic>p</italic>-value of less than 0.05 were considered statistically significant.</p>
+			<p>All statistical analysis were performed in R programming language (version 4.05).</p>
+			<p>This study was approved by the Ethics and Research Committee of the Medical Sciences School of Minas Gerais (CAEE: 29000819.0.0000.5134). It was classified as low-risk study, since it used anonymous convenience sample extracted from the DRG Brasil<sup>®</sup> database, which is used by Brazilian public and private hospitals for managerial purposes. The study did not require participants to sign the informed consent form.</p>
+		</sec>
+		<sec sec-type="results">
+			<title>RESULTS</title>
+			<p>In total, 864,531 hospital discharges or deaths took place within the 336 investigated hospitals throughout this study. A total of 49,197 patients with RT-PCR-confirmed for covid-19 infection were hospitalized and 33.5% of the investigated hospitalizations took place in the Brazilian public health system (SUS).</p>
+			<p>Hospitalized patients’ mean age was 60.5 ± 16.9 years (18 to 108 years) and most of them were men (55.6%). In addition, 24,127 patients (49% of hospitalized patients) were 60 years old or younger, 10,335 patients (21.0%) were in the age group of 61–70 years, 8,187 patients (16.6%) were in the age group of 71–80 years, 5,208 patients (10.6%) were in the age group of 80–90 years and 1,340 patients (2.7%) were older than 90 years (<xref ref-type="table" rid="t1">Table 1</xref>).</p>
+			<p>
+				<table-wrap id="t1">
+					<label>Table 1</label>
+					<caption>
+						<title>Patients in each of the 17 groups of features chosen by the ML model: number, outcome (death) and incidence of death.</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left">Chronic health conditions</th>
+								<th>Patients, n/N (%)</th>
+								<th>Death, n<sub>d</sub>/N (%)</th>
+								<th>Incidence of death, n<sub>d</sub>/n (%)<sup>a</sup></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Age Group</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>≥ 90 years</td>
+								<td align="center">1,685/49,197 (3.4)</td>
+								<td align="center">856/49,197 (1.7)</td>
+								<td align="center">856/1,685 (50.8)</td>
+							</tr>
+							<tr>
+								<td>≥ 80 &lt; 90 years</td>
+								<td align="center">5,583/49,197 (11.3)</td>
+								<td align="center">2,243/49,197 (4.6)</td>
+								<td align="center">2,243/5,583 (40.2)</td>
+							</tr>
+							<tr>
+								<td>≥ 70 &lt; 80 years</td>
+								<td align="center">8,490/49,197 (17.3)</td>
+								<td align="center">2,370/9,197 (4.8)</td>
+								<td align="center">2,370/8,490 (27.9)</td>
+							</tr>
+							<tr>
+								<td>≥ 60 &lt; 70 years</td>
+								<td align="center">10,355/49,197 (21.1)</td>
+								<td align="center">1,848/49,197 (3.8)</td>
+								<td align="center">1,848/10,355 (17.8)</td>
+							</tr>
+							<tr>
+								<td>≥ 50 &lt; 60 years</td>
+								<td align="center">9,355/49,197 (19.0)</td>
+								<td align="center">897/49,197 (1.8)</td>
+								<td align="center">897/9,355 (9.6)</td>
+							</tr>
+							<tr>
+								<td>≥ 40 &lt; 50 years</td>
+								<td align="center">7,550/49,197 (15.4)</td>
+								<td align="center">388/49,197 (0.8)</td>
+								<td align="center">388/7,550 (5.1)</td>
+							</tr>
+							<tr>
+								<td>≥ 30 &lt; 40 years</td>
+								<td align="center">4,792/49,197 (9.7)</td>
+								<td align="center">179/49,197 (0.4)</td>
+								<td align="center">179/4,792 (3.7)</td>
+							</tr>
+							<tr>
+								<td>≥ 18 &lt; 30 years</td>
+								<td align="center">1,387/49,197 (2.8)</td>
+								<td align="center">42/49,197 (0.1)</td>
+								<td align="center">42/1,387 (3.0)</td>
+							</tr>
+							<tr>
+								<td>Sex</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Female</td>
+								<td align="center">21,875/49,197 (55.5)</td>
+								<td align="center">3,958/49,197 (8.0)</td>
+								<td align="center">3,958/21,875 (18.1)</td>
+							</tr>
+							<tr>
+								<td>Male</td>
+								<td align="center">27,322/49,197 (44.5)</td>
+								<td align="center">4,865/49,197 (9.9)</td>
+								<td align="center">4,865/27,322 (17.8)</td>
+							</tr>
+							<tr>
+								<td>Obesity</td>
+								<td align="center">6,891/49,197 (14.0)</td>
+								<td align="center">1,410/49,197 (2.9)</td>
+								<td align="center">1,410/6,891 (20.5)</td>
+							</tr>
+							<tr>
+								<td>Chronic renal failure with dialysis</td>
+								<td align="center">1,224/49,197 (2.5)</td>
+								<td align="center">906/49,197 (1.8)</td>
+								<td align="center">906/1,224 (74.0)</td>
+							</tr>
+							<tr>
+								<td>Chronic renal failure without dialysis</td>
+								<td align="center">2,278/49,197 (4.6)</td>
+								<td align="center">978/49,197 (2.0)</td>
+								<td align="center">978/2,278 (42.9)</td>
+							</tr>
+							<tr>
+								<td>Myocardial and valvular heart diseases, and arrhythmias</td>
+								<td align="center">3,319/49,197 (6.7)</td>
+								<td align="center">1,319/49,197 (2.7)</td>
+								<td align="center">1,319/3,319 (39.7)</td>
+							</tr>
+							<tr>
+								<td>Chronic arterial hypertension</td>
+								<td align="center">23,881/49,197 (48.5)</td>
+								<td align="center">5,592/49,197 (11.4)</td>
+								<td align="center">5,592/23,881 (23.4)</td>
+							</tr>
+							<tr>
+								<td>Diabetes mellitus</td>
+								<td align="center">12,549/49,197 (25.5)</td>
+								<td align="center">3,106/49,197 (6.3)</td>
+								<td align="center">3,106/12,549 (24.8)</td>
+							</tr>
+							<tr>
+								<td>Neoplasms</td>
+								<td align="center">1,607/49,197 (3.3)</td>
+								<td align="center">651/49,197 (1.3)</td>
+								<td align="center">651/1,607 (40.5)</td>
+							</tr>
+							<tr>
+								<td>Chronic respiratory diseases</td>
+								<td align="center">4,195/49,197 (8.5)</td>
+								<td align="center">1,065/49,197 (2.2)</td>
+								<td align="center">1,065/4,195 (25.4)</td>
+							</tr>
+							<tr>
+								<td>Cerebrovascular disease and its sequelae</td>
+								<td align="center">848/49,197 (1.7)</td>
+								<td align="center">363/49,197 (0.7)</td>
+								<td align="center">363/848 (42.8)</td>
+							</tr>
+							<tr>
+								<td>Degenerative diseases of the central nervous system</td>
+								<td align="center">980/49,197 (1.9)</td>
+								<td align="center">475/49,197 (0.9)</td>
+								<td align="center">475/980 (48.5)</td>
+							</tr>
+							<tr>
+								<td>Psychiatric disorders</td>
+								<td align="center">1,161/49,197 (2.4)</td>
+								<td align="center">189/49,197 (0.4)</td>
+								<td align="center">189/1,161 (16.3)</td>
+							</tr>
+							<tr>
+								<td>Thyroid disease</td>
+								<td align="center">3,736/49,197 (7.6)</td>
+								<td align="center">853/49,197 (1.7)</td>
+								<td align="center">853/3,736 (22.8)</td>
+							</tr>
+							<tr>
+								<td>Anemias</td>
+								<td align="center">603/49,197 (1.2)</td>
+								<td align="center">250/49,197 (0.5)</td>
+								<td align="center">250/603 (41.5)</td>
+							</tr>
+							<tr>
+								<td>Transplant recipients and patients depending on respiratory support equipment</td>
+								<td align="center">401/49,197 (0.8)</td>
+								<td align="center">139/49,197 (0.3)</td>
+								<td align="center">139/401 (34.7)</td>
+							</tr>
+							<tr>
+								<td>Hemorrhagic hematologic disease</td>
+								<td align="center">387/49,197 (0.8)</td>
+								<td align="center">166/49,197 (0.3)</td>
+								<td align="center">166/387 (42.9)</td>
+							</tr>
+							<tr>
+								<td>Patients without any of the 15 chronic health conditions listed above</td>
+								<td align="center">15,812/49,197 (31.2)</td>
+								<td align="center">1,185/49,197 (2.4)</td>
+								<td align="center">1,185/15,812 (7.5)</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN1">
+							<p>Total N = 49,197 patients; n = number of patients; n<sub>d</sub> = number of dead.</p>
+						</fn>
+						<fn id="TFN2">
+							<p><sup>a</sup> Comparing the incidence of death between age groups (Kruskal-Wallis test and post-hoc Dunn test) showed that all age groups are statistically different from each other (p-value &lt; 0.05).</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>In-hospital mortality of covid-19 patients was 18.7% (8,823 patients). Such a mortality rate increased as the age groups encompassed older patients: the incidence of death in the group younger than 30 years and in the one older than 90 years was 2.7% and 51.2%, respectively (<xref ref-type="table" rid="t1">Table 1</xref>). Moreover, 16,627 patients, hospitalized due to RT-PCR-confirmed covid-19 infection (33.8%), required intensive care, while 9,411 (19.1%) required invasive mechanical ventilation.</p>
+			<p>Mean number of chronic health conditions per patient was 1.97 ± 1.85 (mean ± SD); 11,695 (23.8%) patients included in this study did not have chronic health conditions, whereas 4,293 patients (8.7%) had more than 5 chronic health conditions. The most frequent chronic health conditions were: hypertensive diseases (23,881 patients; 48.5%), diabetes mellitus (12,549 patients; 25.5%;), obesity (6,891; 14.0%), chronic respiratory diseases (4,195; 8.5%), thyroid diseases (3,736; 7.6%), myocardial and valvular cardiac diseases and arrhythmias (3,319; 6.7%;), chronic renal failure (2,278; 4.6%), and neoplasms (1,607; 3.3%) (<xref ref-type="table" rid="t1">Table 1</xref>).</p>
+			<p>The model based on the Random Forest algorithm has shown the worst performance among the tested models. The other two models, which were based on the XGBoost and Logistic Regression algorithms, did not show significant differences from each other. Mean AUC ROC recorded for the model generated with the Random Forest algorithm was 0.762 (CI: 0.749, 0.775); it was significantly different (<italic>p</italic> &lt; 0.05) from areas calculated based on the other two algorithms. Mean AUC ROC recorded for the model based on the XGBoost algorithm was 0.803 (CI: 0.788, 0.818), whereas the mean AUC ROC recorded for the Logistic Regression model was 0.801 (CI: 0.790, 0.812). Learning rate = 0.2, max_depth = 20, and n_estimators = 500 were the best hyperparameters for XGBoost. On the other hand, the best hyperparameters for Random Forest were n_estimators = 500 and max_features = 6.</p>
+			<p>The XGBoost algorithm was selected due to its performance and greater robustness. Its calibration curve shows that the model performed reasonably well in predicting patients’ death. Predictions generated by the models and plotted on the graph were remarkably close to the reference curve. <xref ref-type="fig" rid="f02">Figure 2</xref> shows the ROC and the calibration curves for the model based on XGBoost algorithm. It is also possible to see in the figure the average area and their respective confidence intervals. The sensitivity and the specificity were 85% and 62.5%, respectively.</p>
+			<p>
+				<fig id="f02">
+					<label>Figure 2</label>
+					<caption>
+						<title>a) ROC curve for predictive model based on the XGBoost algorithm. b) Calibration curve for predictive model based on extreme gradient boosting (XGBoost) algorithm.</title>
+					</caption>
+					<graphic xlink:href="1518-8787-rsp-56-11-gf02.tif"/>
+					<attrib>Legenda: AUC ROC: area under the receiver operating characteristic curve; XGBoost: extreme gradient boosting. TPR: true positive rate; FPR: false positive rate; CI: confidence interval</attrib>
+				</fig>
+			</p>
+			<p>The SHAP method was applied to the model developed based on the XGBoost algorithm in order to define the most relevant features for incidence of death (<xref ref-type="fig" rid="f03">Figure 3</xref>). The 17 most important independent variables for this model comprised age (SHAP +0.79), obesity (SHAP +0.17), chronic kidney failure with dialysis (SHAP +0.11), male sex (SHAP +0.11), chronic renal failure without dialysis (SHAP +0.09), myocardial and valvular diseases and cardiac arrhythmias (SHAP +0.09), chronic arterial hypertension (SHAP +0.09), diabetes mellitus (SHAP +0.08), neoplasms (SHAP +0.04), chronic respiratory diseases (SHAP +0.04), cerebrovascular diseases and their sequelae (SHAP +0.02), degenerative diseases of the central nervous system (SHAP +0.02), thyroid diseases (SHAP +0.01), anemias (SHAP +0.01), , psychiatric disorders (SHAP +0.01), transplant recipients and patients depending on respiratory support equipment (SHAP +0.01), and hemorrhagic hematologic diseases (SHAP +0.01).</p>
+			<p>
+				<fig id="f03">
+					<label>Figure 3</label>
+					<caption>
+						<title>SHAP values recorded for the 17 main model features.</title>
+					</caption>
+					<graphic xlink:href="1518-8787-rsp-56-11-gf03.tif"/>
+					<attrib>Legenda: SRE = support respiratory equipment.</attrib>
+				</fig>
+			</p>
+			<p>Among the variables chosen by the ML model that best discriminated death or hospital discharge, 98% of the predictive power was determined by age, sex, and 15 chronic health conditions (<xref ref-type="table" rid="t1">Table 1</xref>, <xref ref-type="fig" rid="f03">Figure 3</xref>).</p>
+			<p>Population risk groups were created by combining these variables in order to turn the results into recommendations that could be easily conveyed to national vaccination program managers.</p>
+			<p>Age was divided into 8 groups: Age group 0: ≥ 18 &lt; 30 years; Age group 1: ≥ 30 &lt; 40 years; Age group 2: ≥ 40 &lt; 50 years; Age group 3: ≥ 50 &lt; 60 years; Age group 4: ≥ 60 &lt; 70 years; Age group 5: ≥ 70 &lt; 80 years; Age group 6: ≥ 80 &lt; 90 years; Age group 7: ≥ 90 years. Statistical analysis (Kruskal-Wallis test with Post-hoc Dunn test) showed that the incidence of death differed significantly between age groups (p &lt; 0.05) and increased with age (<xref ref-type="table" rid="t1">Table 1</xref>). Chronic health conditions were transformed into a dichotomous variable: present or absent.</p>
+			<p>The combination of age groups and other risk factors chosen by the ML model (gender: female or male; presence of at least one of the 15 chronic health conditions: yes or no) resulted in 32 categories for population at risk (<xref ref-type="table" rid="t2">Table 2</xref>). The incidence of death in the 32 categories was compared using the Kruskal_Wallis test with the Post-hoc Dunn test (significance level of 5%) – categories with no statistical difference between them (p &gt; 0.05) were combined into a single group, resulting in 11 sets of priorities for vaccination (<xref ref-type="table" rid="t2">Table 2</xref>).</p>
+			<p>
+				<table-wrap id="t2">
+					<label>Table 2</label>
+					<caption>
+						<title>Eleven (11) vaccination priority groups based on the incidence of death defined by the 32 risk groups.</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left">Group</th>
+								<th>Incidence of death (%)</th>
+								<th>Sex</th>
+								<th>Age group</th>
+								<th>Chronic health conditions</th>
+								<th>p</th>
+								<th>Risk-of-death priority level (Min-Max incidence of death, %)</th>
+								<th>Risk category-population feature</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Group I</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td align="center">Priority 1</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>grp32</td>
+								<td align="center">58.8</td>
+								<td align="center">1</td>
+								<td align="center">7</td>
+								<td align="center">1</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td align="center">Male and female, &gt; 90 years old, with comorbidities.</td>
+							</tr>
+							<tr>
+								<td>grp31</td>
+								<td align="center">50.2</td>
+								<td align="center">0</td>
+								<td align="center">7</td>
+								<td align="center">1</td>
+								<td align="center">&gt; 0.05</td>
+								<td align="center">48.7–58.8</td>
+								<td align="center">Male, 80 to 90 years old, with comorbidities.</td>
+							</tr>
+							<tr>
+								<td>grp28</td>
+								<td align="center">48.7</td>
+								<td align="center">1</td>
+								<td align="center">6</td>
+								<td align="center">1</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Group II</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td align="center">Priority 2</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>grp27</td>
+								<td align="center">38.5</td>
+								<td align="center">0</td>
+								<td align="center">6</td>
+								<td align="center">1</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td align="center">Female, 80 to 90 years old, with comorbidities.</td>
+							</tr>
+							<tr>
+								<td>grp30</td>
+								<td align="center">37.2</td>
+								<td align="center">1</td>
+								<td align="center">7</td>
+								<td align="center">0</td>
+								<td align="center">&gt; 0.05</td>
+								<td align="center">34.2–38.5</td>
+								<td align="center">Male and female, &gt; 90 years old, no comorbidities.</td>
+							</tr>
+							<tr>
+								<td>grp29</td>
+								<td align="center">37.2</td>
+								<td align="center">0</td>
+								<td align="center">7</td>
+								<td align="center">0</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td align="center">Male, 70 to 80 years old, with comorbidities.</td>
+							</tr>
+							<tr>
+								<td>grp24</td>
+								<td align="center">34.2</td>
+								<td align="center">1</td>
+								<td align="center">5</td>
+								<td align="center">1</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Group III</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td align="center">Priority 3</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>grp26</td>
+								<td align="center">28.9</td>
+								<td align="center">1</td>
+								<td align="center">6</td>
+								<td align="center">0</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td align="center">Female, 70 to 80 years old, with comorbidities.</td>
+							</tr>
+							<tr>
+								<td>grp23</td>
+								<td align="center">27.6</td>
+								<td align="center">0</td>
+								<td align="center">5</td>
+								<td align="center">1</td>
+								<td align="center">&gt; 0.05</td>
+								<td align="center">25.1–28.9</td>
+								<td align="center">Female, 80 to 90 years old, no comorbidities.</td>
+							</tr>
+							<tr>
+								<td>grp25</td>
+								<td align="center">26.8</td>
+								<td align="center">0</td>
+								<td align="center">6</td>
+								<td align="center">0</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td align="center">Male, 70 to 90 years old, no comorbidities.</td>
+							</tr>
+							<tr>
+								<td>grp22</td>
+								<td align="center">25.1</td>
+								<td align="center">1</td>
+								<td align="center">5</td>
+								<td align="center">0</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Group IV</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td align="center">Priority 4</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>grp20</td>
+								<td align="center">22.6</td>
+								<td align="center">1</td>
+								<td align="center">4</td>
+								<td align="center">1</td>
+								<td align="center">&lt; 0.001</td>
+								<td align="center">22.6</td>
+								<td align="center">Male, 60 to 70 years old, with comorbidities.</td>
+							</tr>
+							<tr>
+								<td>Group V</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>grp21</td>
+								<td align="center">18.5</td>
+								<td align="center">0</td>
+								<td align="center">5</td>
+								<td align="center">0</td>
+								<td align="center">&gt; 0.05</td>
+								<td align="center">Priority 5</td>
+								<td align="center">Female, 70 to 80 years old, no comorbidities.</td>
+							</tr>
+							<tr>
+								<td>grp19</td>
+								<td align="center">18.4</td>
+								<td align="center">0</td>
+								<td align="center">4</td>
+								<td align="center">1</td>
+								<td>
+								</td>
+								<td align="center">18.4–18.5</td>
+								<td align="center">Female, 60 to 70 years old, with comorbidities.</td>
+							</tr>
+							<tr>
+								<td>Group VI</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td align="center">Priority 6</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>grp16</td>
+								<td align="center">14.1</td>
+								<td align="center">1</td>
+								<td align="center">3</td>
+								<td align="center">1</td>
+								<td align="center">&lt; 0.001</td>
+								<td align="center">14.1</td>
+								<td align="center">Male, 50 to 60 years old, with comorbidities.</td>
+							</tr>
+							<tr>
+								<td>Group VII</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td align="center">Priority 7</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>grp18</td>
+								<td align="center">13.1</td>
+								<td align="center">1</td>
+								<td align="center">4</td>
+								<td align="center">0</td>
+								<td align="center">&lt; 0.001</td>
+								<td align="center">13.1</td>
+								<td align="center">Male, 60 to 70 years old, no comorbidities.</td>
+							</tr>
+							<tr>
+								<td>Group VIII</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>grp15</td>
+								<td align="center">11.4</td>
+								<td align="center">0</td>
+								<td align="center">3</td>
+								<td align="center">1</td>
+								<td align="center">&gt; 0.05</td>
+								<td align="center">Priority 8</td>
+								<td align="center">Female, 60 to 70 years old, no comorbidities.</td>
+							</tr>
+							<tr>
+								<td>grp17</td>
+								<td align="center">9.9</td>
+								<td align="center">0</td>
+								<td align="center">4</td>
+								<td align="center">0</td>
+								<td>
+								</td>
+								<td align="center">9.85–11.5</td>
+								<td align="center">Female, 50 to 60 years old, with comorbidities.</td>
+							</tr>
+							<tr>
+								<td>Group IX</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>grp12</td>
+								<td align="center">8.3</td>
+								<td align="center">1</td>
+								<td align="center">2</td>
+								<td align="center">1</td>
+								<td>
+								</td>
+								<td align="center">Priority 9</td>
+								<td align="center">Male, 50 to 60 years old, no comorbidities.</td>
+							</tr>
+							<tr>
+								<td>grp8</td>
+								<td align="center">7.9</td>
+								<td align="center">1</td>
+								<td align="center">1</td>
+								<td align="center">1</td>
+								<td>
+								</td>
+								<td align="center">5.5–8.5</td>
+								<td align="center">Male and female, 18 to 50 years old, with comorbidities.</td>
+							</tr>
+							<tr>
+								<td>grp11</td>
+								<td align="center">7.8</td>
+								<td align="center">0</td>
+								<td align="center">2</td>
+								<td align="center">1</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>grp7</td>
+								<td align="center">7.4</td>
+								<td align="center">0</td>
+								<td align="center">1</td>
+								<td align="center">1</td>
+								<td align="center">&gt; 0.05</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>grp14</td>
+								<td align="center">6.4</td>
+								<td align="center">1</td>
+								<td align="center">3</td>
+								<td align="center">0</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>grp3</td>
+								<td align="center">5.7</td>
+								<td align="center">0</td>
+								<td align="center">0</td>
+								<td align="center">1</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>grp4</td>
+								<td align="center">5.5</td>
+								<td align="center">1</td>
+								<td align="center">0</td>
+								<td align="center">1</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Group X</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>grp13</td>
+								<td align="center">3.6</td>
+								<td align="center">0</td>
+								<td align="center">3</td>
+								<td align="center">0</td>
+								<td>
+								</td>
+								<td align="center">Priority 10</td>
+								<td align="center">Male and female, 40 to 50 years old, no comorbidities.</td>
+							</tr>
+							<tr>
+								<td>grp9</td>
+								<td align="center">2.5</td>
+								<td align="center">0</td>
+								<td align="center">2</td>
+								<td align="center">0</td>
+								<td align="center">&gt; 0.05</td>
+								<td align="center">2.2–3.7</td>
+								<td align="center">Female, 50 to 60 years, no comorbidities.</td>
+							</tr>
+							<tr>
+								<td>grp10</td>
+								<td align="center">2.2</td>
+								<td align="center">1</td>
+								<td align="center">2</td>
+								<td align="center">0</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Group XI</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>grp6</td>
+								<td align="center">1.4</td>
+								<td align="center">1</td>
+								<td align="center">1</td>
+								<td align="center">0</td>
+								<td>
+								</td>
+								<td align="center">Priority 11</td>
+								<td align="center">Male and female, 18 to 40 years old, no comorbidities.</td>
+							</tr>
+							<tr>
+								<td>grp2</td>
+								<td align="center">1.4</td>
+								<td align="center">1</td>
+								<td align="center">0</td>
+								<td align="center">0</td>
+								<td align="center">&gt; 0.05</td>
+								<td align="center">0.1–0.2</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>grp5</td>
+								<td align="center">1.2</td>
+								<td align="center">0</td>
+								<td align="center">1</td>
+								<td align="center">0</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>grp1</td>
+								<td align="center">0.1</td>
+								<td align="center">0</td>
+								<td align="center">0</td>
+								<td align="center">0</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN3">
+							<p>Vaccination priority groups defined by Kruskal-Wallis and Post-hoc Dunn statistical tests in the 32 risk groups. p-value &gt; 0.05 indicates no statistically significant difference.</p>
+						</fn>
+						<fn id="TFN4">
+							<p>Sex 0: female; Sex 1: male. Age group 0: ≥ 18 &lt; 30 years; Age group 1: ≥ 30 &lt; 40 years; Age group 2: ≥ 40 &lt; 50 years; Age group 3: ≥ 50 &lt; 60 years; Age group 4: ≥ 60 &lt; 70 years; Age 5 group: ≥ 70 &lt; 80 years; Age group 6: ≥ 80 &lt; 90 years; Age group 7: ≥ 90 years. Chronic health conditions: 0 = no chronic health conditions; 1 = presence of at least one of the 15 main chronic health conditions chosen by the ML model.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+		</sec>
+		<sec sec-type="discussion">
+			<title>DISCUSSION</title>
+			<p>Vaccination priorities were established by multilateral organizations such as the World Health Organization and governments in different countries. Priorities are based on ethical principles such as Human Well-Being, Equal Respect, Global Equity, National Equity, Reciprocity, and Legitimacy<sup><xref ref-type="bibr" rid="B11">11</xref></sup>, or on ethical principles<sup><xref ref-type="bibr" rid="B12">12</xref></sup>set by the Institute of Medicine, which focus on the protection and promotion of public health and socio-economic well-being in the short- and long-term. According to these principles, each individual must be considered and treated with equal dignity and regard. Mitigating healthcare inequalities during the covid-19 pandemic requires explicitly addressing the heavier burden experienced by the most affected populations due to their higher exposure to economic and social inequities, as well as to their unequal access to health. In order to operationalize their fundamental principles, these entities have developed risk-based criteria to define priority populations to be vaccinated, namely: risk of acquiring SARS-CoV-2 infection due to exposure to high virus doses; risk of severe morbidity and mortality; individuals whose disability and death affect the lives and livelihood of other individuals; and risk of transmitting the infection to others<sup><xref ref-type="bibr" rid="B13">13</xref>,<xref ref-type="bibr" rid="B14">14</xref></sup>. Elderly individuals and populations with comorbidities are among the priority populations in all programs implemented worldwide since they are at high risk of morbidity and mortality<sup><xref ref-type="bibr" rid="B13">13</xref>,<xref ref-type="bibr" rid="B14">14</xref></sup>.</p>
+			<p>The definition of priority vaccination groups based on mortality risk becomes more sensitive and specific if sex, age, and comorbidities are assessed altogether. Who should have priority for vaccination? The 60–65-year-old population without comorbidities or the 39–45-year-old obese population? The current study tries to answer this question, which is of paramount importance to meet the ethical principles adopted worldwide.</p>
+			<p>The predictive model of death by covid-19 created by ML has been used to develop risk measurement tools to define priority populations to be targeted in public protection policies, such as the ones focused on vaccination. Anuj Tiwari et al. have developed a covid-19 risk of death and infection index, which was determined based on racial and economic inequalities, by using Random Forest machine learning. Populations living in American counties have been categorized into 4 risk levels (very high, high, low, and very low) to help public health authorities and disaster management agencies to develop effective mitigation strategies, especially for the high-risk communities due to their highly vulnerable condition<sup><xref ref-type="bibr" rid="B15">15</xref></sup>.</p>
+			<p>Elderly patients and individuals with pre-existing chronic health conditions were highly prevalent in this case study. Their mean age was approximately 60 years and most of them were men; this finding was similar to case studies reported in other countries and in other Brazilian studies<sup><xref ref-type="bibr" rid="B16">16</xref></sup>. Patients older than 60 years accounted for 15.7% of the Brazilian population, as well as for 51.1% of hospital discharges/deaths observed in the investigated sample<sup><xref ref-type="bibr" rid="B1">1</xref></sup>.</p>
+			<p>Hypertensive diseases, diabetes mellitus, obesity, cancer, heart failure, asthma, and obstructive pulmonary diseases were the chronic health conditions most often observed in the current study. These chronic health conditions were similar to the ones reported for the New York City area<sup><xref ref-type="bibr" rid="B16">16</xref></sup>, China<sup><xref ref-type="bibr" rid="B17">17</xref></sup> and Brazil<sup><xref ref-type="bibr" rid="B18">18</xref></sup>.</p>
+			<p>Mortality rate increased with the patients’ age. Overall hospital mortality was of 17.9% (8,823 patients), 16,627 hospitalized patients (33.8%) required intensive care, and 9,411 (19.1%) of them required invasive mechanical ventilation; these results were similar to the ones reported in other studies<sup><xref ref-type="bibr" rid="B17">17</xref>,<xref ref-type="bibr" rid="B18">18</xref></sup>.</p>
+			<p>The number of chronic health conditions per patient was higher than that observed in other studies conducted in Brazil<sup><xref ref-type="bibr" rid="B18">18</xref></sup>, 1.97 ± 1.85 (mean ± SD). This finding can be attributed to the quality of data analyzed in this study, since data collection was carried out by coders who were specially trained for this task, possibly increasing the number of properly collected data.</p>
+			<p>The 17 most relevant independent variables defined by the SHAP method, and used to determine patients’ risk of death, are also reported in the literature. Among them are: age<sup><xref ref-type="bibr" rid="B19">19</xref>,<xref ref-type="bibr" rid="B20">20</xref></sup>, male sex<sup><xref ref-type="bibr" rid="B21">21</xref></sup>, obesity<sup><xref ref-type="bibr" rid="B22">22</xref></sup>, diabetes<sup><xref ref-type="bibr" rid="B23">23</xref></sup>, chronic renal failure<sup><xref ref-type="bibr" rid="B24">24</xref></sup>, chronic arterial hypertension<sup><xref ref-type="bibr" rid="B22">22</xref>,<xref ref-type="bibr" rid="B24">24</xref>,<xref ref-type="bibr" rid="B25">25</xref></sup>, myocardial and cardiac valvular diseases and arrhythmias<sup><xref ref-type="bibr" rid="B20">20</xref>,<xref ref-type="bibr" rid="B22">22</xref>,<xref ref-type="bibr" rid="B24">24</xref></sup>, neoplasms<sup><xref ref-type="bibr" rid="B20">20</xref>,<xref ref-type="bibr" rid="B24">24</xref>,<xref ref-type="bibr" rid="B27">27</xref></sup>, chronic respiratory diseases<sup><xref ref-type="bibr" rid="B20">20</xref>,<xref ref-type="bibr" rid="B24">24</xref>,<xref ref-type="bibr" rid="B25">25</xref></sup>, cerebrovascular disease and its sequelae<sup><xref ref-type="bibr" rid="B20">20</xref>,<xref ref-type="bibr" rid="B22">22</xref>,<xref ref-type="bibr" rid="B24">24</xref></sup>, thyroid diseases<sup><xref ref-type="bibr" rid="B28">28</xref>,<xref ref-type="bibr" rid="B29">29</xref></sup>, anemias<sup><xref ref-type="bibr" rid="B30">30</xref></sup>, degenerative diseases of the central nervous system<sup><xref ref-type="bibr" rid="B24">24</xref>,<xref ref-type="bibr" rid="B25">25</xref></sup>, psychiatric diseases<sup><xref ref-type="bibr" rid="B31">31</xref></sup>, and transplant recipients<sup><xref ref-type="bibr" rid="B32">32</xref></sup> (<xref ref-type="table" rid="t1">Table 1</xref>).</p>
+			<p>Priority covid-19 vaccination population groups defined in this study (<xref ref-type="table" rid="t2">Table 2</xref>) will enable countries that do not have specific information about their populations to further refine priorities capable of saving lives.</p>
+			<p>Large sample size and quality of collected data are the strongest features of our study. On the other hand, the study has several limitations. We understand that other important variables can be used to create priority groups for vaccination. These variables are associated with the type and intensity of individuals’ exposure to risks, such as their occupation, social inequities, and others. However, as we did not have this information available, they were not included in this study. Furthermore, the proportion of hospitalizations in the public healthcare system was lower (33.47%) in the investigated sample than the one observed in Brazil (57.7%)<sup><xref ref-type="bibr" rid="B2">2</xref>,<xref ref-type="bibr" rid="B3">3</xref></sup>. The population in the private healthcare system comprises workers from Brazilian companies or individuals who can afford a private healthcare insurance; they account for 22.3% of the Brazilian population<sup><xref ref-type="bibr" rid="B1">1</xref>,<xref ref-type="bibr" rid="B4">4</xref></sup>. The population in the public system comprises several unemployed workers, but also employed and low-income workers. These differences in income, living conditions, and access to treatment were not evaluated in our study. It is necessary to conduct the external validation of this in-hospital predictive model for other populations.</p>
+			<p>Our study was based on data of thousands of covid-19 patients. Data were collected throughout the pandemic at a global epicenter (Brazil), a fact that led to relevant findings to the current context. Results were based on rigorous machine learning analyses powered by a robust sample comprising patients with laboratory-confirmed SARS-CoV-2 infection.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>REFERENCES</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. Instituto Brasileiro de Geografia e Estatística. Projeção da população do Brasil e das Unidades da Federação. Rio de Janeiro: IBGE; 2021 [cited 2021 May 28]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.ibge.gov.br/apps/populacao/projecao/index.html">https://www.ibge.gov.br/apps/populacao/projecao/index.html</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Instituto Brasileiro de Geografia e Estatística</collab>
+					</person-group>
+					<source>Projeção da população do Brasil e das Unidades da Federação</source>
+					<publisher-loc>Rio de Janeiro</publisher-loc>
+					<publisher-name>IBGE</publisher-name>
+					<year>2021</year>
+					<date-in-citation content-type="cited-date">cited 2021 May 28</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.ibge.gov.br/apps/populacao/projecao/index.html">https://www.ibge.gov.br/apps/populacao/projecao/index.html</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. Ministério da Saúde (BR). COVID-19 -Painel coronavirus. Brasília, DF; 2021 [cited 2021 Sept 19]. Available from: <ext-link ext-link-type="uri" xlink:href="https://covid.saude.gov.br">https://covid.saude.gov.br</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+					</person-group>
+					<source>COVID-19 -Painel coronavirus</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<year>2021</year>
+					<date-in-citation content-type="cited-date">cited 2021 Sept 19</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://covid.saude.gov.br">https://covid.saude.gov.br</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. GAVI The Vehicle Alliance. Geneva (CH); 2021 [cited 2021 May 20]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.gavi.org/vaccineswork?gclid=CjwKCAjwg4-EBhBwEiwAzYAlsmWCLaXZc2iUAPeOSYYoc_F5dHZzcylkzw_05Ux4ad5vZNyhRXBJexoCikYQAvD_BwE">https://www.gavi.org/vaccineswork?gclid=CjwKCAjwg4-EBhBwEiwAzYAlsmWCLaXZc2iUAPeOSYYoc_F5dHZzcylkzw_05Ux4ad5vZNyhRXBJexoCikYQAvD_BwE</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<source>GAVI The Vehicle Alliance</source>
+					<publisher-loc>Geneva (CH)</publisher-loc>
+					<year>2021</year>
+					<date-in-citation content-type="cited-date">cited 2021 May 20</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.gavi.org/vaccineswork?gclid=CjwKCAjwg4-EBhBwEiwAzYAlsmWCLaXZc2iUAPeOSYYoc_F5dHZzcylkzw_05Ux4ad5vZNyhRXBJexoCikYQAvD_BwE">https://www.gavi.org/vaccineswork?gclid=CjwKCAjwg4-EBhBwEiwAzYAlsmWCLaXZc2iUAPeOSYYoc_F5dHZzcylkzw_05Ux4ad5vZNyhRXBJexoCikYQAvD_BwE</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. The Duke Global Health Innovation Center. Launch and Scale Speedometer. Durham, CN; 2021 [cited 2021 May 20]. Available from: <ext-link ext-link-type="uri" xlink:href="https://launchandscalefaster.org/covid-19/vaccineprocurement">https://launchandscalefaster.org/covid-19/vaccineprocurement</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>The Duke Global Health Innovation Center</collab>
+					</person-group>
+					<source>Launch and Scale Speedometer</source>
+					<publisher-loc>Durham, CN</publisher-loc>
+					<year>2021</year>
+					<date-in-citation content-type="cited-date">cited 2021 May 20</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://launchandscalefaster.org/covid-19/vaccineprocurement">https://launchandscalefaster.org/covid-19/vaccineprocurement</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. International Federation of Pharmaceutical Manufactures &amp; Associations. Geneva (CH): IFPMA; 2021 [cited 2021 May 20]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.ifpma.org/wp-content/uploads/2021/03/Airfinity_global_summit_master_final.pdf">https://www.ifpma.org/wp-content/uploads/2021/03/Airfinity_global_summit_master_final.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<source>International Federation of Pharmaceutical Manufactures &amp; Associations</source>
+					<publisher-loc>Geneva (CH)</publisher-loc>
+					<publisher-name>IFPMA</publisher-name>
+					<year>2021</year>
+					<date-in-citation content-type="cited-date">cited 2021 May 20</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.ifpma.org/wp-content/uploads/2021/03/Airfinity_global_summit_master_final.pdf">https://www.ifpma.org/wp-content/uploads/2021/03/Airfinity_global_summit_master_final.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. Hastie T, Tibshirani R, Friedman J. The elements of statistical learning: data mining, inference, and prediction. New York: Springer; 2008.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hastie</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Tibshirani</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Friedman</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<source>The elements of statistical learning: data mining, inference, and prediction</source>
+					<publisher-loc>New York</publisher-loc>
+					<publisher-name>Springer</publisher-name>
+					<year>2008</year>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. Santos HG, Nascimento AF, Izbicki R, Duarte YAO, Chiavegatto Filho ADP. <italic>Machine Learning</italic> para análises preditivas em saúde. Cad Saude Publica. 2019;35(7):e00050818. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0102-311X00050818">https://doi.org/10.1590/0102-311X00050818</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Santos</surname>
+							<given-names>HG</given-names>
+						</name>
+						<name>
+							<surname>Nascimento</surname>
+							<given-names>AF</given-names>
+						</name>
+						<name>
+							<surname>Izbicki</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Duarte</surname>
+							<given-names>YAO</given-names>
+						</name>
+						<name>
+							<surname>Chiavegatto</surname>
+							<given-names>ADP</given-names>
+							<suffix>Filho</suffix>
+						</name>
+					</person-group>
+					<article-title>Machine Learning para análises preditivas em saúde</article-title>
+					<source>Cad Saude Publica</source>
+					<year>2019</year>
+					<volume>35</volume>
+					<issue>7</issue>
+					<elocation-id>e00050818</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0102-311X00050818">https://doi.org/10.1590/0102-311X00050818</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. DeLong ER, DeLong DM, Clarke-Pearson DL. Comparing the areas under two or more correlated receiver operating characteristic curves: a nonparametric approach. Biometrics. 1988;44(3):837-45.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>DeLong</surname>
+							<given-names>ER</given-names>
+						</name>
+						<name>
+							<surname>DeLong</surname>
+							<given-names>DM</given-names>
+						</name>
+						<name>
+							<surname>Clarke-Pearson</surname>
+							<given-names>DL</given-names>
+						</name>
+					</person-group>
+					<article-title>Comparing the areas under two or more correlated receiver operating characteristic curves: a nonparametric approach</article-title>
+					<source>Biometrics</source>
+					<year>1988</year>
+					<volume>44</volume>
+					<issue>3</issue>
+					<fpage>837</fpage>
+					<lpage>845</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. Caruana R, Niculescu-Mizil A. Predicting good probabilities with supervised learning. In: ICML ‘05: proceedings of the 22. International Conference on Machine Learning; 2005 Aug 7-11; Bonn, Germany [cited 2021 May 10]. p. 625-32. Available from: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1145/1102351.1102430">https://doi.org/10.1145/1102351.1102430</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="confproc">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Caruana</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Niculescu-Mizil</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<source>Predicting good probabilities with supervised learning</source>
+					<conf-name>ICML ‘05: proceedings of the 22. International Conference on Machine Learning</conf-name>
+					<year>2005</year>
+					<conf-date>Aug 7-11</conf-date>
+					<conf-loc>Bonn, Germany</conf-loc>
+					<date-in-citation content-type="cited-date">cited 2021 May 10</date-in-citation>
+					<fpage>625</fpage>
+					<lpage>632</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1145/1102351.1102430">https://doi.org/10.1145/1102351.1102430</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. Lundberg SM, Lee S. A unified approach to interpreting model predictions. In: 31. Conference on Neural Information Processing Systems (NIPS 2017); 2017 Dec 4-9; Long Beach, USA [cited 2021 May 10]. Available from: <ext-link ext-link-type="uri" xlink:href="https://dl.acm.org/doi/pdf/10.5555/3295222.3295230">https://dl.acm.org/doi/pdf/10.5555/3295222.3295230</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="confproc">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lundberg</surname>
+							<given-names>SM</given-names>
+						</name>
+						<name>
+							<surname>Lee</surname>
+							<given-names>S</given-names>
+						</name>
+					</person-group>
+					<source>A unified approach to interpreting model predictions</source>
+					<conf-name>31. Conference on Neural Information Processing Systems (NIPS 2017)</conf-name>
+					<year>2017</year>
+					<conf-date>Dec 4-9</conf-date>
+					<conf-loc>Long Beach, USA</conf-loc>
+					<date-in-citation content-type="cited-date">cited 2021 May 10</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://dl.acm.org/doi/pdf/10.5555/3295222.3295230">https://dl.acm.org/doi/pdf/10.5555/3295222.3295230</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. World Health Organization. WHO SAGE values framework for the allocation and prioritization of COVID-19 vaccination. Geneva (CH): WHO; 2020 [cited 2021 May 14]. Available from: <ext-link ext-link-type="uri" xlink:href="https://apps.who.int/iris/bitstream/handle/10665/334299/WHO-2019-nCoV-SAGE_Framework-Allocation_and_prioritization-2020.1-eng.pdf?sequence=1&amp;isAllowed=y">https://apps.who.int/iris/bitstream/handle/10665/334299/WHO-2019-nCoV-SAGE_Framework-Allocation_and_prioritization-2020.1-eng.pdf?sequence=1&amp;isAllowed=y</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>World Health Organization</collab>
+					</person-group>
+					<source>WHO SAGE values framework for the allocation and prioritization of COVID-19 vaccination</source>
+					<publisher-loc>Geneva (CH)</publisher-loc>
+					<publisher-name>WHO</publisher-name>
+					<year>2020</year>
+					<date-in-citation content-type="cited-date">cited 2021 May 14</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://apps.who.int/iris/bitstream/handle/10665/334299/WHO-2019-nCoV-SAGE_Framework-Allocation_and_prioritization-2020.1-eng.pdf?sequence=1&amp;isAllowed=y">https://apps.who.int/iris/bitstream/handle/10665/334299/WHO-2019-nCoV-SAGE_Framework-Allocation_and_prioritization-2020.1-eng.pdf?sequence=1&amp;isAllowed=y</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. National Academies of Sciences, Engineering, and Medicine. Framework for equitable allocation of COVID-19 vaccine. Washington, DC: The National Academies Press; 2020 [cited 2021 May 14] Available from: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.17226/25917">https://doi.org/10.17226/25917</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>National Academies of Sciences, Engineering, and Medicine</collab>
+					</person-group>
+					<source>Framework for equitable allocation of COVID-19 vaccine</source>
+					<publisher-loc>Washington, DC</publisher-loc>
+					<publisher-name>The National Academies Press</publisher-name>
+					<year>2020</year>
+					<date-in-citation content-type="cited-date">cited 2021 May 14</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.17226/25917">https://doi.org/10.17226/25917</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. GOV.UK, Department of Health and Social Care, Joint Committee on Vaccination and Immunization: advice on priority groups for COVID-19 vaccination, 30-December-2020, updated 6 January 2021. London (UK); 2021 [cited 2021 May 14]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.gov.uk/government/publications/priority-groups-for-coronavirus-covid-19-vaccination-advice-from-the-jcvi-30-december-2020">https://www.gov.uk/government/publications/priority-groups-for-coronavirus-covid-19-vaccination-advice-from-the-jcvi-30-december-2020</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>GOV.UK</collab>
+						<collab>Department of Health and Social Care</collab>
+					</person-group>
+					<source>Joint Committee on Vaccination and Immunization: advice on priority groups for COVID-19 vaccination, 30-December-2020</source>
+					<comment>updated 6 January 2021</comment>
+					<publisher-loc>London (UK)</publisher-loc>
+					<year>2021</year>
+					<date-in-citation content-type="cited-date">cited 2021 May 14</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.gov.uk/government/publications/priority-groups-for-coronavirus-covid-19-vaccination-advice-from-the-jcvi-30-december-2020">https://www.gov.uk/government/publications/priority-groups-for-coronavirus-covid-19-vaccination-advice-from-the-jcvi-30-december-2020</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. Ministério da Saúde (BR). 1ª edição - PNO - 16.12.2020.pdf. Brasília, DF; 2021 [cited 2021 May 14]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.gov.br/saude/pt-br/composicao/secovid/pno_edicoes/1a-edicao-pno-16-12-2020.pdf/view">https://www.gov.br/saude/pt-br/composicao/secovid/pno_edicoes/1a-edicao-pno-16-12-2020.pdf/view</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Ministério da Saúde (BR)</collab>
+					</person-group>
+					<source>1ª edição - PNO - 16.12.2020.pdf</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<year>2021</year>
+					<date-in-citation content-type="cited-date">cited 2021 May 14</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.gov.br/saude/pt-br/composicao/secovid/pno_edicoes/1a-edicao-pno-16-12-2020.pdf/view">https://www.gov.br/saude/pt-br/composicao/secovid/pno_edicoes/1a-edicao-pno-16-12-2020.pdf/view</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. Tiwari A, Dadhania AV, Ragunathrao VAB, Oliveira ERA. Using machine learning to develop a novel COVID-19 Vulnerability Index (C19VI). Sci Total Environ. 2021;773:145650. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.scitotenv.2021.145650">https://doi.org/10.1016/j.scitotenv.2021.145650</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Tiwari</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Dadhania</surname>
+							<given-names>AV</given-names>
+						</name>
+						<name>
+							<surname>Ragunathrao</surname>
+							<given-names>VAB</given-names>
+						</name>
+						<name>
+							<surname>Oliveira</surname>
+							<given-names>ERA</given-names>
+						</name>
+					</person-group>
+					<article-title>Using machine learning to develop a novel COVID-19 Vulnerability Index (C19VI)</article-title>
+					<source>Sci Total Environ</source>
+					<year>2021</year>
+					<volume>773</volume>
+					<size units="pages">145650</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.scitotenv.2021.145650">https://doi.org/10.1016/j.scitotenv.2021.145650</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. Richardson S, Hirsch JS, Narasimhan M, Crawford JM, McGinn T, Davidson KD; COVID-19 Research Consortium, et al. Presenting characteristics, comorbidities, and outcomes among 5700 patients hospitalized with COVID-19 in the New York City Area. JAMA. 2020;323(20):2052-9. <ext-link ext-link-type="uri" xlink:href="https://doi:10.1001/jama.2020.6775">https://doi:10.1001/jama.2020.6775</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Richardson</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Hirsch</surname>
+							<given-names>JS</given-names>
+						</name>
+						<name>
+							<surname>Narasimhan</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Crawford</surname>
+							<given-names>JM</given-names>
+						</name>
+						<name>
+							<surname>McGinn</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Davidson</surname>
+							<given-names>KD</given-names>
+						</name>
+						<collab>COVID-19 Research Consortium</collab>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Presenting characteristics, comorbidities, and outcomes among 5700 patients hospitalized with COVID-19 in the New York City Area</article-title>
+					<source>JAMA</source>
+					<year>2020</year>
+					<volume>323</volume>
+					<issue>20</issue>
+					<fpage>2052</fpage>
+					<lpage>2059</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi:10.1001/jama.2020.6775">https://doi:10.1001/jama.2020.6775</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Wu Z, McGoogan JM. Characteristics of and important lessons from the Coronavirus Disease 2019 (COVID-19) outbreak in China: summary of a report of 72314 cases from the Chinese Center for Disease Control and Prevention. JAMA. 2020;323(13):1239-42. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1001/jama.2020.2648">https://doi.org/10.1001/jama.2020.2648</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Wu</surname>
+							<given-names>Z</given-names>
+						</name>
+						<name>
+							<surname>McGoogan</surname>
+							<given-names>JM</given-names>
+						</name>
+					</person-group>
+					<article-title>Characteristics of and important lessons from the Coronavirus Disease 2019 (COVID-19) outbreak in China: summary of a report of 72314 cases from the Chinese Center for Disease Control and Prevention</article-title>
+					<source>JAMA</source>
+					<year>2020</year>
+					<volume>323</volume>
+					<issue>13</issue>
+					<fpage>1239</fpage>
+					<lpage>1242</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1001/jama.2020.2648">https://doi.org/10.1001/jama.2020.2648</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18. Ranzani OT, Leonardo SLB, Gelli JGM, Marchesi JF, Baião F, Hamacher S, et al. Characterization of the first 250 000 hospital admissions for COVID-19 in Brazil: a retrospective analysis of nationwide data. Lancet Respir Med. 2021;9(4):407-18. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S2213-2600(20)30560-9">https://doi.org/10.1016/S2213-2600(20)30560-9</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ranzani</surname>
+							<given-names>OT</given-names>
+						</name>
+						<name>
+							<surname>Leonardo</surname>
+							<given-names>SLB</given-names>
+						</name>
+						<name>
+							<surname>Gelli</surname>
+							<given-names>JGM</given-names>
+						</name>
+						<name>
+							<surname>Marchesi</surname>
+							<given-names>JF</given-names>
+						</name>
+						<name>
+							<surname>Baião</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Hamacher</surname>
+							<given-names>S</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Characterization of the first 250 000 hospital admissions for COVID-19 in Brazil: a retrospective analysis of nationwide data</article-title>
+					<source>Lancet Respir Med</source>
+					<year>2021</year>
+					<volume>9</volume>
+					<issue>4</issue>
+					<fpage>407</fpage>
+					<lpage>418</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S2213-2600(20)30560-9">https://doi.org/10.1016/S2213-2600(20)30560-9</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19. Zhou Y, Yang Q, Chi J, Dong B, Lv W, Shen L, et al. Comorbidities and the risk of severe or fatal outcomes associated with coronavirus disease 2019: a systematic review and meta-analysis. Int J Infect Dis. 2020;99:47-56. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ijid.2020.07.029">https://doi.org/10.1016/j.ijid.2020.07.029</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Zhou</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Yang</surname>
+							<given-names>Q</given-names>
+						</name>
+						<name>
+							<surname>Chi</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Dong</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Lv</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Shen</surname>
+							<given-names>L</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Comorbidities and the risk of severe or fatal outcomes associated with coronavirus disease 2019: a systematic review and meta-analysis</article-title>
+					<source>Int J Infect Dis</source>
+					<year>2020</year>
+					<volume>99</volume>
+					<fpage>47</fpage>
+					<lpage>56</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ijid.2020.07.029">https://doi.org/10.1016/j.ijid.2020.07.029</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20. Del Sole F, Farcomeni A, Loffredo L, Carnevale R, Munichelli D, Vicario T, et al. Features of severe COVID-19: a systematic review and meta-analysis. Eur J Clin Invest. 2020;50(10):e13378. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/eci.13378">https://doi.org/10.1111/eci.13378</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Del Sole</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Farcomeni</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Loffredo</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Carnevale</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Munichelli</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Vicario</surname>
+							<given-names>T</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Features of severe COVID-19: a systematic review and meta-analysis</article-title>
+					<source>Eur J Clin Invest</source>
+					<year>2020</year>
+					<volume>50</volume>
+					<issue>10</issue>
+					<elocation-id>e13378</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/eci.13378">https://doi.org/10.1111/eci.13378</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>21. Peckham H, Gruijter NM, Raine C, Radziszewska A, Ciurtin C, Wedderburn LR, et al. Male sex identified by global COVID-19 meta-analysis as a risk factor for death and ITU admission. Nat Commun. 2020;11:6317. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s41467-020-19741-6">https://doi.org/10.1038/s41467-020-19741-6</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Peckham</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Gruijter</surname>
+							<given-names>NM</given-names>
+						</name>
+						<name>
+							<surname>Raine</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Radziszewska</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Ciurtin</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Wedderburn</surname>
+							<given-names>LR</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Male sex identified by global COVID-19 meta-analysis as a risk factor for death and ITU admission</article-title>
+					<source>Nat Commun</source>
+					<year>2020</year>
+					<volume>11</volume>
+					<size units="pages">6317</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s41467-020-19741-6">https://doi.org/10.1038/s41467-020-19741-6</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>22. Yang J, Zheng Y, Gou X, Pu K, Chen Z, Guo Q, et al. Prevalence of comorbidities and its effects in patients infected with SARS-CoV-2: a systematic review and meta-analysis. Int J Infect Dis. 2020;94:91-5. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ijid.2020.03.017">https://doi.org/10.1016/j.ijid.2020.03.017</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Yang</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Zheng</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Gou</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Pu</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Chen</surname>
+							<given-names>Z</given-names>
+						</name>
+						<name>
+							<surname>Guo</surname>
+							<given-names>Q</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Prevalence of comorbidities and its effects in patients infected with SARS-CoV-2: a systematic review and meta-analysis</article-title>
+					<source>Int J Infect Dis</source>
+					<year>2020</year>
+					<volume>94</volume>
+					<fpage>91</fpage>
+					<lpage>95</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ijid.2020.03.017">https://doi.org/10.1016/j.ijid.2020.03.017</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>23. Fadini GP, Morieri ML, Boscari F, Fioretto P, Maran A, Busetto L, et al. Newly-diagnosed diabetes and admission hyperglycemia predict COVID-19 severity by aggravating respiratory deterioration. Diabetes Res Clin Pract. 2020;168:108374. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.diabres.2020.108374">https://doi.org/10.1016/j.diabres.2020.108374</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Fadini</surname>
+							<given-names>GP</given-names>
+						</name>
+						<name>
+							<surname>Morieri</surname>
+							<given-names>ML</given-names>
+						</name>
+						<name>
+							<surname>Boscari</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Fioretto</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Maran</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Busetto</surname>
+							<given-names>L</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Newly-diagnosed diabetes and admission hyperglycemia predict COVID-19 severity by aggravating respiratory deterioration</article-title>
+					<source>Diabetes Res Clin Pract</source>
+					<year>2020</year>
+					<volume>168</volume>
+					<size units="pages">108374</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.diabres.2020.108374">https://doi.org/10.1016/j.diabres.2020.108374</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>24. Khan MMA, Khan MN, Mustagir MG, Rana J, Islam MS, Kabir MI, et al. Effects of underlying morbidities on the occurrence of deaths in COVID-19 patients: a systematic review and meta-analysis. J Glob Health. 2020;10(2):020503. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7189/jogh.10.020503">https://doi.org/10.7189/jogh.10.020503</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Khan</surname>
+							<given-names>MMA</given-names>
+						</name>
+						<name>
+							<surname>Khan</surname>
+							<given-names>MN</given-names>
+						</name>
+						<name>
+							<surname>Mustagir</surname>
+							<given-names>MG</given-names>
+						</name>
+						<name>
+							<surname>Rana</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Islam</surname>
+							<given-names>MS</given-names>
+						</name>
+						<name>
+							<surname>Kabir</surname>
+							<given-names>MI</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Effects of underlying morbidities on the occurrence of deaths in COVID-19 patients: a systematic review and meta-analysis</article-title>
+					<source>J Glob Health</source>
+					<year>2020</year>
+					<volume>10</volume>
+					<issue>2</issue>
+					<size units="pages">020503</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.7189/jogh.10.020503">https://doi.org/10.7189/jogh.10.020503</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>25. Zheng Z, Peng F, Xu B, Zhao J, Liu H, Peng J, et al. Risk factors of critical &amp; mortal COVID-19 cases: a systematic literature review and meta-analysis. J Infect. 2020;81(2):e16-e25. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jinf.2020.04.021">https://doi.org/10.1016/j.jinf.2020.04.021</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Zheng</surname>
+							<given-names>Z</given-names>
+						</name>
+						<name>
+							<surname>Peng</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Xu</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Zhao</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Liu</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Peng</surname>
+							<given-names>J</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Risk factors of critical &amp; mortal COVID-19 cases: a systematic literature review and meta-analysis</article-title>
+					<source>J Infect</source>
+					<year>2020</year>
+					<volume>81</volume>
+					<issue>2</issue>
+					<fpage>e16</fpage>
+					<lpage>e25</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.jinf.2020.04.021">https://doi.org/10.1016/j.jinf.2020.04.021</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation>26. Matsushita K, Ding N, Kou M, Hu X, Chen M, Gao Y, et al. The relationship of COVID-19 severity with cardiovascular disease and its traditional risk factors: a systematic review and meta-analysis. Glob Heart. 2020;15(1):64. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5334/gh.814">https://doi.org/10.5334/gh.814</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Matsushita</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Ding</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Kou</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Hu</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Chen</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Gao</surname>
+							<given-names>Y</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>The relationship of COVID-19 severity with cardiovascular disease and its traditional risk factors: a systematic review and meta-analysis</article-title>
+					<source>Glob Heart</source>
+					<year>2020</year>
+					<volume>15</volume>
+					<issue>1</issue>
+					<size units="pages">64</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5334/gh.814">https://doi.org/10.5334/gh.814</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<mixed-citation>27. Saini KS, Tagliamento M, Lambertini M, McNally R, Romano M, Leone M, et al. Mortality in patients with cancer and coronavirus disease 2019: a systematic review and pooled analysis of 52 studies. Eur J Cancer. 2020;139:43-50. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ejca.2020.08.011">https://doi.org/10.1016/j.ejca.2020.08.011</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Saini</surname>
+							<given-names>KS</given-names>
+						</name>
+						<name>
+							<surname>Tagliamento</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Lambertini</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>McNally</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Romano</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Leone</surname>
+							<given-names>M</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Mortality in patients with cancer and coronavirus disease 2019: a systematic review and pooled analysis of 52 studies</article-title>
+					<source>Eur J Cancer</source>
+					<year>2020</year>
+					<volume>139</volume>
+					<fpage>43</fpage>
+					<lpage>50</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ejca.2020.08.011">https://doi.org/10.1016/j.ejca.2020.08.011</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<mixed-citation>28. Gerwen M, Alsen M, Little C, Barlow J, Naymagon L, Tremblay D, et al. Outcomes of patients with hypothyroidism and COVID-19: a retrospective cohort study. Front Endocrinol (Lausanne). 2020;11:565. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3389/fendo.2020.00565">https://doi.org/10.3389/fendo.2020.00565</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Gerwen</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Alsen</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Little</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Barlow</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Naymagon</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Tremblay</surname>
+							<given-names>D</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Outcomes of patients with hypothyroidism and COVID-19: a retrospective cohort study</article-title>
+					<source>Front Endocrinol (Lausanne)</source>
+					<year>2020</year>
+					<volume>11</volume>
+					<size units="pages">565</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3389/fendo.2020.00565">https://doi.org/10.3389/fendo.2020.00565</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B29">
+				<label>29</label>
+				<mixed-citation>29. Brix TH, Hegedüs L, Hallas J, Lund LC. Risk and course of SARS-CoV-2 infection in patients treated for hypothyroidism and hyperthyroidism. Lancet Diabetes Endocrinol. 2021;9(4):197-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S2213-8587(21)00028-0">https://doi.org/10.1016/S2213-8587(21)00028-0</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Brix</surname>
+							<given-names>TH</given-names>
+						</name>
+						<name>
+							<surname>Hegedüs</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Hallas</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Lund</surname>
+							<given-names>LC</given-names>
+						</name>
+					</person-group>
+					<article-title>Risk and course of SARS-CoV-2 infection in patients treated for hypothyroidism and hyperthyroidism</article-title>
+					<source>Lancet Diabetes Endocrinol</source>
+					<year>2021</year>
+					<volume>9</volume>
+					<issue>4</issue>
+					<fpage>197</fpage>
+					<lpage>199</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S2213-8587(21)00028-0">https://doi.org/10.1016/S2213-8587(21)00028-0</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B30">
+				<label>30</label>
+				<mixed-citation>30. Oh SM, Skendelas JP, Macdonald E, Bergamini M, Goel S, Choi J, et al. On-admission anemia predicts mortality in COVID-19 patients: a single center, retrospective cohort study. Am J Emerg Med. 2021;48:140-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ajem.2021.03.083">https://doi.org/10.1016/j.ajem.2021.03.083</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Oh</surname>
+							<given-names>SM</given-names>
+						</name>
+						<name>
+							<surname>Skendelas</surname>
+							<given-names>JP</given-names>
+						</name>
+						<name>
+							<surname>Macdonald</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Bergamini</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Goel</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Choi</surname>
+							<given-names>J</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>On-admission anemia predicts mortality in COVID-19 patients: a single center, retrospective cohort study</article-title>
+					<source>Am J Emerg Med</source>
+					<year>2021</year>
+					<volume>48</volume>
+					<fpage>140</fpage>
+					<lpage>147</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ajem.2021.03.083">https://doi.org/10.1016/j.ajem.2021.03.083</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B31">
+				<label>31</label>
+				<mixed-citation>31. Wang Q, Xu R, Volkow ND. Increased risk of COVID-19 infection and mortality in people with mental disorders: analysis from electronic health records in the United States. World Psychiatry. 2021;20(1):124-30. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/wps.20806">https://doi.org/10.1002/wps.20806</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Wang</surname>
+							<given-names>Q</given-names>
+						</name>
+						<name>
+							<surname>Xu</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Volkow</surname>
+							<given-names>ND</given-names>
+						</name>
+					</person-group>
+					<article-title>Increased risk of COVID-19 infection and mortality in people with mental disorders: analysis from electronic health records in the United States</article-title>
+					<source>World Psychiatry</source>
+					<year>2021</year>
+					<volume>20</volume>
+					<issue>1</issue>
+					<fpage>124</fpage>
+					<lpage>130</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/wps.20806">https://doi.org/10.1002/wps.20806</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B32">
+				<label>32</label>
+				<mixed-citation>32. Kates OS, Haydel BM, Florman SS, Rana MM, Chaudhry ZS, Ramesh MS, et al. COVID-19 in solid organ transplant: a multi-center cohort study. Clin Infect Dis. 2020 Aug 7:ciaa1097. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/cid/ciaa1097">https://doi.org/10.1093/cid/ciaa1097</ext-link>. Epub ahead of print.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kates</surname>
+							<given-names>OS</given-names>
+						</name>
+						<name>
+							<surname>Haydel</surname>
+							<given-names>BM</given-names>
+						</name>
+						<name>
+							<surname>Florman</surname>
+							<given-names>SS</given-names>
+						</name>
+						<name>
+							<surname>Rana</surname>
+							<given-names>MM</given-names>
+						</name>
+						<name>
+							<surname>Chaudhry</surname>
+							<given-names>ZS</given-names>
+						</name>
+						<name>
+							<surname>Ramesh</surname>
+							<given-names>MS</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>COVID-19 in solid organ transplant: a multi-center cohort study</article-title>
+					<source>Clin Infect Dis</source>
+					<year>2020</year>
+					<month>08</month>
+					<volume>7</volume>
+					<size units="pages">ciaa1097</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/cid/ciaa1097">https://doi.org/10.1093/cid/ciaa1097</ext-link>
+					</comment>
+					<comment>Epub ahead of print</comment>
+				</element-citation>
+			</ref>
+		</ref-list>
+	</back>
+</article>

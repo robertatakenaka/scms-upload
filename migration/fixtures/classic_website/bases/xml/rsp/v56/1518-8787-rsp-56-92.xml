@@ -1,0 +1,1722 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.1" specific-use="sps-1.9" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="nlm-ta">Rev Saude Publica</journal-id>
+			<journal-id journal-id-type="publisher-id">rsp</journal-id>
+			<journal-title-group>
+				<journal-title>Revista de Saúde Pública</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Rev. Saúde Pública</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="ppub">0034-8910</issn>
+			<issn pub-type="epub">1518-8787</issn>
+			<publisher>
+				<publisher-name>Faculdade de Saúde Pública da Universidade de São Paulo</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="other">00276</article-id>
+			<article-id pub-id-type="doi">10.11606/s1518-8787.2022056004282</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Original Article</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Differentials in death count records by databases in Brazil in 2010</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-4010-2699</contrib-id>
+					<name>
+						<surname>Diógenes</surname>
+						<given-names>Victor Hugo Dias</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-6977-2071</contrib-id>
+					<name>
+						<surname>Pinto</surname>
+						<given-names>Elzo Pereira</given-names>
+						<suffix>Júnior</suffix>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>III</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-6088-3453</contrib-id>
+					<name>
+						<surname>Gonzaga</surname>
+						<given-names>Marcos Roberto</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff4"><sup>IV</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-2890-1025</contrib-id>
+					<name>
+						<surname>Queiroz</surname>
+						<given-names>Bernardo Lanza</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff5"><sup>V</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-6275-9854</contrib-id>
+					<name>
+						<surname>Lima</surname>
+						<given-names>Everton E. C.</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff6"><sup>VI</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-5107-2723</contrib-id>
+					<name>
+						<surname>Costa</surname>
+						<given-names>Lilia Carolina C. da</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff7"><sup>VII</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-3806-6446</contrib-id>
+					<name>
+						<surname>Rocha</surname>
+						<given-names>Aline S.</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>III</sup></xref>
+					<xref ref-type="aff" rid="aff8"><sup>VIII</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-6884-3624</contrib-id>
+					<name>
+						<surname>Ferreira</surname>
+						<given-names>Andrêa J. F.</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>III</sup></xref>
+					<xref ref-type="aff" rid="aff9"><sup>IX</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-6340-7957</contrib-id>
+					<name>
+						<surname>Teixeira</surname>
+						<given-names>Camila S. S.</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>III</sup></xref>
+					<xref ref-type="aff" rid="aff9"><sup>IX</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-1613-2270</contrib-id>
+					<name>
+						<surname>Alves</surname>
+						<given-names>Flávia Jôse O.</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>III</sup></xref>
+					<xref ref-type="aff" rid="aff9"><sup>IX</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-9056-2928</contrib-id>
+					<name>
+						<surname>Rameh</surname>
+						<given-names>Leila</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>III</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-7639-2627</contrib-id>
+					<name>
+						<surname>Flores-Ortiz</surname>
+						<given-names>Renzo</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>III</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-3741-7099</contrib-id>
+					<name>
+						<surname>Leyland</surname>
+						<given-names>Alastair</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff10"><sup>X</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-3836-4286</contrib-id>
+					<name>
+						<surname>Dundas</surname>
+						<given-names>Ruth</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff10"><sup>X</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-0215-4930</contrib-id>
+					<name>
+						<surname>Barreto</surname>
+						<given-names>Maurício L.</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>III</sup></xref>
+					<xref ref-type="aff" rid="aff9"><sup>IX</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-8590-6212</contrib-id>
+					<name>
+						<surname>Ichihara</surname>
+						<given-names>Maria Yury Travassos</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>III</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>I</label>
+				<institution content-type="orgname">Universidade Federal do Rio Grande do Norte</institution>
+				<institution content-type="orgdiv1">Centro de Ciências Exatas e da Terra</institution>
+				<institution content-type="orgdiv2">Programa de Pós-Graduação em Demografia</institution>
+				<addr-line>
+					<named-content content-type="city">Natal</named-content>
+					<named-content content-type="state">RN</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Universidade Federal do Rio Grande do Norte . Centro de Ciências Exatas e da Terra . Programa de Pós-Graduação em Demografia . Natal , RN , Brasil </institution>
+			</aff>
+			<aff id="aff2">
+				<label>II</label>
+				<institution content-type="orgname">Universidade Federal da Paraíba</institution>
+				<institution content-type="orgdiv1">Centro de Ciências Sociais Aplicadas</institution>
+				<institution content-type="orgdiv2">Departamento de Finanças e Contabilidade</institution>
+				<addr-line>
+					<named-content content-type="city">João Pessoa</named-content>
+					<named-content content-type="state">PB</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Universidade Federal da Paraíba . Centro de Ciências Sociais Aplicadas . Departamento de Finanças e Contabilidade . João Pessoa , PB , Brasil </institution>
+			</aff>
+			<aff id="aff3">
+				<label>III</label>
+				<institution content-type="orgname">Fundação Oswaldo Cruz</institution>
+				<institution content-type="orgdiv1">Centro de Integração de Dados e Conhecimentos para Saúde</institution>
+				<addr-line>
+					<named-content content-type="city">Salvador</named-content>
+					<named-content content-type="state">BA</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Fundação Oswaldo Cruz . Centro de Integração de Dados e Conhecimentos para Saúde . Salvador , BA , Brasil </institution>
+			</aff>
+			<aff id="aff4">
+				<label>IV</label>
+				<institution content-type="orgname">Universidade Federal do Rio Grande do Norte</institution>
+				<institution content-type="orgdiv1">Centro de Ciências Exatas e da Terra</institution>
+				<institution content-type="orgdiv2">Departamento de Demografia e Ciências Atuariais</institution>
+				<addr-line>
+					<named-content content-type="city">Natal</named-content>
+					<named-content content-type="state">RN</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Universidade Federal do Rio Grande do Norte . Centro de Ciências Exatas e da Terra . Departamento de Demografia e Ciências Atuariais . Natal , RN , Brasil </institution>
+			</aff>
+			<aff id="aff5">
+				<label>V</label>
+				<institution content-type="orgname">Universidade Federal de Minas Gerais</institution>
+				<institution content-type="orgdiv1">Faculdade de Ciências Econômicas</institution>
+				<institution content-type="orgdiv2">Centro de Desenvolvimento e Planejamento Regional</institution>
+				<addr-line>
+					<named-content content-type="city">Belo Horizonte</named-content>
+					<named-content content-type="state">MG</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Universidade Federal de Minas Gerais . Faculdade de Ciências Econômicas . Centro de Desenvolvimento e Planejamento Regional . Belo Horizonte , MG , Brasil </institution>
+			</aff>
+			<aff id="aff6">
+				<label>VI</label>
+				<institution content-type="orgname">Universidade Estadual de Campinas</institution>
+				<institution content-type="orgdiv1">Instituto de Filosofia e Ciências Humanas</institution>
+				<institution content-type="orgdiv2">Núcleo de Estudos de População</institution>
+				<addr-line>
+					<named-content content-type="city">Campinas</named-content>
+					<named-content content-type="state">SP</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Universidade Estadual de Campinas . Instituto de Filosofia e Ciências Humanas e Núcleo de Estudos de População . Campinas , SP , Brasil </institution>
+			</aff>
+			<aff id="aff7">
+				<label>VII</label>
+				<institution content-type="orgname">Universidade Federal da Bahia</institution>
+				<institution content-type="orgdiv1">Instituto de Matemática e Estatística</institution>
+				<institution content-type="orgdiv2">Departamento de Estatística</institution>
+				<addr-line>
+					<named-content content-type="city">Salvador</named-content>
+					<named-content content-type="state">BA</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Universidade Federal da Bahia . Instituto de Matemática e Estatística . Departamento de Estatística . Salvador , BA , Brasil </institution>
+			</aff>
+			<aff id="aff8">
+				<label>VIII</label>
+				<institution content-type="orgname">Universidade Federal da Bahia</institution>
+				<institution content-type="orgdiv1">Escola de Nutrição</institution>
+				<institution content-type="orgdiv2">Programa de Pós-Graduação em Alimento, Nutrição e Saúde</institution>
+				<addr-line>
+					<named-content content-type="city">Salvador</named-content>
+					<named-content content-type="state">BA</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Universidade Federal da Bahia . Escola de Nutrição . Programa de Pós-Graduação em Alimento, Nutrição e Saúde . Salvador , BA , Brasil </institution>
+			</aff>
+			<aff id="aff9">
+				<label> IX </label>
+				<institution content-type="orgname">Universidade Federal da Bahia</institution>
+				<institution content-type="orgdiv1">Instituto de Saúde Coletiva</institution>
+				<institution content-type="orgdiv2">Programa de Pós-Graduação em Saúde Coletiva</institution>
+				<addr-line>
+					<named-content content-type="city">Salvador</named-content>
+					<named-content content-type="state">BA</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Universidade Federal da Bahia . Instituto de Saúde Coletiva . Programa de Pós-Graduação em Saúde Coletiva . Salvador , BA , Brasil </institution>
+			</aff>
+			<aff id="aff10">
+				<label> X </label>
+				<institution content-type="orgname">University of Glasgow</institution>
+				<institution content-type="orgdiv1">Medical Research Council</institution>
+				<addr-line>
+					<named-content content-type="city">Glasgow</named-content>
+				</addr-line>
+				<country country="GB">Scotland</country>
+				<institution content-type="original"> University of Glasgow . Medical Research Council . Glasgow , Scotland </institution>
+			</aff>
+			<author-notes>
+				<corresp id="c01">Correspondence: Victor Hugo Dias Diógenes Universidade Federal da Paraíba Campus I Via Expressa Padre Zé, 289 Castelo Branco III 58051-900 João Pessoa, PB, Brasil E-mail: <email>victordiogenes@gmail.com</email>
+				</corresp>
+				<fn fn-type="con">
+					<p>Authors’ Contribution: Study design and planning: VHDD, EPPJ, MRG, MYTI, BLQ, EECL. Data collection, analysis and interpretation: VHDD, EPPJ, MRG, MYTI, BLQ, EECL. Manuscript drafting or review: all authors. Approval of the final version: all authors. Public responsibility for the content of the article: all authors.</p>
+				</fn>
+				<fn fn-type="conflict">
+					<p>Conflict of Interest: The authors declare no conflict of interest.</p>
+				</fn>
+			</author-notes>
+			<pub-date date-type="pub" publication-format="electronic">
+				<day>24</day>
+				<month>10</month>
+				<year>2022</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">
+				<year>2022</year>
+			</pub-date>
+			<volume>56</volume>
+			<elocation-id>92</elocation-id>
+			<history>
+				<date date-type="received">
+					<day>07</day>
+					<month>10</month>
+					<year>2021</year>
+				</date>
+				<date date-type="accepted">
+					<day>07</day>
+					<month>12</month>
+					<year>2021</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="en">
+					<license-p>This is an Open Access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>ABSTRACT</title>
+				<sec>
+					<title>OBJECTIVE</title>
+					<p>To compare the death counts from three sources of information on mortality available in Brazil in 2010, the Mortality Information System (SIM - <italic>Sistema de Informações sobre Mortalidade</italic> ), Civil Registration Statistic System (RC - <italic>Sistema de Estatísticas de Resgistro Civil</italic> ), and the 2010 Demographic Census at various geographical levels, and to confirm the association between municipal socioeconomic characteristics and the source which showed the highest death count.</p>
+				</sec>
+				<sec>
+					<title>METHODS</title>
+					<p>This is a descriptive and comparative study of raw data on deaths in the SIM, RC and 2010 Census databases, the latter held in Brazilian states and municipalities between August 2009 and July 2010. The percentage of municipalities was confirmed by the database showing the highest death count. The association between the source of the highest death count and socioeconomic indicators - the <italic>Índice de Privação Brasileiro</italic> (IBP – Brazilian Deprivation Index) and <italic>Índice de Desenvolvimento Humano Municipal</italic> (IHDM – Municipal Human Development Index) - was performed by bivariate choropleth and Moran Local Index of Spatial Association (LISA) cluster maps.</p>
+				</sec>
+				<sec>
+					<title>RESULTS</title>
+					<p>Confirmed that the SIM is the database with the highest number of deaths counted for all Brazilian macroregions, except the North, in which the highest coverage was from the 2010 Census. Based on the indicators proposed, in general, the Census showed a higher coverage of deaths than the SIM and the RC in the most deprived (highest IBP values) and less developed municipalities (lowest IDHM values) in the country.</p>
+				</sec>
+				<sec>
+					<title>CONCLUSION</title>
+					<p>The results highlight regional inequalities in how the databases chosen for this study cover death records, and the importance of maintaining the issue of mortality on the basic census questionnaire.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="en">
+				<kwd>Mortality Registries</kwd>
+				<kwd>Information Storage and Retrieval</kwd>
+				<kwd>Health Information Systems</kwd>
+			</kwd-group>
+			<funding-group>
+				<award-group>
+					<funding-source>National Institute for Health Research</funding-source>
+					<award-id>NIHR-GHRG/16/137/99</award-id>
+				</award-group>
+				<award-group>
+					<funding-source>National Institute for Health Research</funding-source>
+					<award-id>OPP1142172</award-id>
+				</award-group>
+				<award-group>
+					<funding-source>National Institute for Health Research</funding-source>
+					<award-id>202912/Z/16/Z</award-id>
+				</award-group>
+				<award-group>
+					<funding-source>CNPq</funding-source>
+					<award-id>307467/2018-0</award-id>
+				</award-group>
+				<award-group>
+					<funding-source>CNPq</funding-source>
+					<award-id>308219/2019-8</award-id>
+				</award-group>
+				<award-group>
+					<funding-source>CNPq</funding-source>
+					<award-id>308219/2019-8</award-id>
+				</award-group>
+				<funding-statement>Funding: National Institute for Health Research (NIHR-GHRG/16/137/99). Fundação Bill &amp; Melinda Gates Brasil (OPP1142172), Wellcome Trust (202912/Z/16/Z). Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (Capes - doctoral scholarship for AJFF, CSST, ASR). Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq - Processes 307467/2018-0, 308219/2019-8 and 308219/2019-8 - research scholarship for MRG, EECL, BLQ).</funding-statement>
+			</funding-group>
+			<counts>
+				<fig-count count="3"/>
+				<table-count count="2"/>
+				<equation-count count="0"/>
+				<ref-count count="28"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>INTRODUCTION</title>
+			<p>Mortality indicators are critical to inform and monitor government public policies, especially those related to health. However, we emphasize the importance of using reliable estimates which reflect the epidemiological and demographic profile of the geographic areas studied <sup><xref ref-type="bibr" rid="B1">1</xref> , <xref ref-type="bibr" rid="B2">2</xref></sup> . Therefore, a high-quality mortality information system which accurately registers all the occurring deaths is essential. Hence, an investigation into the quality of death statistics is important for researchers and demographers of population health <sup><xref ref-type="bibr" rid="B3">3</xref></sup> .</p>
+			<p>In Brazil, mortality studies that assess data from municipalities in the entire national territory may include three main information sources: the <italic>Sistema de Informações sobre Mortalidade</italic> (SIM – Mortality Information System) and the <italic>Sistema de Estatísticas do Registro Civil</italic> (RC – Civil Registration Statistic System), both compiled from continuous administrative death records <sup><xref ref-type="bibr" rid="B4">4</xref></sup> ; and the <italic>Instituto Brasileiro de Geografia e Estatístic</italic> a (IBGE – Brazilian Institute of Geography and Statistics) 2010 Demographic Census, which includes information on deaths during the reference period of the census research <sup><xref ref-type="bibr" rid="B5">5</xref></sup> and considers the enumeration of death counts, unlike both SIM and RC.</p>
+			<p>However, one of the main problems related to the quality of information on deaths in Brazil is the under-recording of the event <sup><xref ref-type="bibr" rid="B6">6</xref> , <xref ref-type="bibr" rid="B7">7</xref></sup> , which may compromise estimates of mortality statistics, resulting in inaccurate indicators. Although this problem has decreased considerably in recent decades <sup><xref ref-type="bibr" rid="B8">8</xref> , <xref ref-type="bibr" rid="B9">9</xref></sup> , significant regional differences remain in the coverage of information <sup><xref ref-type="bibr" rid="B10">10</xref> , <xref ref-type="bibr" rid="B11">11</xref></sup> , which may relate to socioeconomic circumstances <sup><xref ref-type="bibr" rid="B12">12</xref></sup> . Moreover, there are several reasons for under-recording, and these may vary according to the database used <sup><xref ref-type="bibr" rid="B4">4</xref></sup> .</p>
+			<p>Historically, the comparison between the SIM and RC databases is used to validate and confirm the development and consolidation of both administrative registration systems <sup><xref ref-type="bibr" rid="B4">4</xref> , <xref ref-type="bibr" rid="B9">9</xref> , <xref ref-type="bibr" rid="B13">13</xref> , <xref ref-type="bibr" rid="B14">14</xref></sup> . However, only a limited number of studies compare these administrative death records (SIM and RC) with 2010 Census data. Some research has evaluated the quality of census mortality data <sup><xref ref-type="bibr" rid="B12">12</xref></sup> , or used this source to verify mortality differentials in the population and compare them with SIM data <sup><xref ref-type="bibr" rid="B15">15</xref></sup> . These databases use distinct death collection methods and they are subject to different under-notification errors, comparing the administrative registration systems and the 2010 Demographic Census may help us to understand the extent of under-registration across these different systems. Thus, we would be able to determine and quantify associations between specific characteristics of the areal unit of analysis and notification.</p>
+			<p>This study aims to conduct a comparative analysis of the death count in the SIM, RC, and 2010 Census databases by region, state, and municipality, and to assess the spatial association between the number of deaths recorded on each database and the socioeconomic characteristics of the municipalities in relation to the source of information with the highest death count. Our specific research questions are: Which database gathers more information on deaths in Brazil? Are there any differences in the absolute number of deaths if we consider the various subnational geographic levels? How different are the database coverages based on socioeconomic strata?</p>
+		</sec>
+		<sec sec-type="methods">
+			<title>METHODS</title>
+			<p>This study conducted a descriptive and comparative analysis of the number of deaths registered by the SIM, RC, and enumerated in 2010 Census database, the latter held during the reference period of the census research (August 2009 to June 2010) at different geographical levels (nation, regions, states, and municipalities). The 2010 Census gathered information on deaths which had taken place in households in the last 12 months, including the age and sex of the person who had passed away. The inclusion of this information was listed in the suggestions put forward by the United Nations in 1997, in the document “Principles and Recommendations for Population and Housing Censuses” for the round of 2000 and 2010 censuses <sup><xref ref-type="bibr" rid="B16">16</xref></sup> . The primary source for the SIM and RC data is the declaration of death, a document usually issued by a health institution. SIM data were downloaded from the public DATASUS website (https://datasus.saude.gov.br/mortalidade-desde-1996-pela-cid-10), and RC and 2010 Census data, from the IBGE website (https://sidra.ibge.gov.br/home/pnadcm).</p>
+			<p>The spatial association between the socioeconomic characteristics of municipalities and the highest death count of a database was estimated using two geostatistical methods. The first, descriptive, method comprised the construction of bivariate choropleth maps which use a matrix of colours to simultaneously represent, on a continuous scale, the values of two variables in a geographical space.</p>
+			<p>The second method was based on local bivariate spatial dependence, in which the value of a variable in one region is correlated in space with the values of neighbouring regions. The Moran Bivariate Local Index of Spatial Association - LISA - was used for this purpose <sup><xref ref-type="bibr" rid="B17">17</xref></sup> , from which the bivariate cluster maps derive. Spatial clusters can be identified by these maps, in which a statistically significant association between the values of a variable of a particular municipality and those of a neighbouring one can be observed.</p>
+			<p>In total, two socioeconomic measures available for municipalities were used. The <italic>Índice de Privação Brasileiro</italic> (IBP – Brazilian Deprivation Index) and the <italic>Índice de Desenvolvimento Humano Municipal</italic> (IHDM – Municipal Human Development Index). The IBP is a measure of material deprivation comprising income, educational attainment, and household conditions <sup><xref ref-type="bibr" rid="B18">18</xref></sup> . The IDHM, an indicator prepared by the United Nations Development Programme (UNDP), is a composite measure of human development in municipalities comprising the population’s lifespan, income, and education.</p>
+			<p>These indicators were spatially associated with the ratio of deaths recorded by the SIM and the Census (SIM/Census), considering that these databases showed the largest collection of information on deaths in most analyzed areas. This ratio indicates the extent to which SIM records vary from the Census.</p>
+			<p>Information on deaths is collected in municipalities, so the number of deaths in the states (Distrito Federal - DF), regions, and the whole country is obtained by the sum of these records for their respective municipalities. Therefore, there are slight differences in the number of SIM and RC registrations if data are directly collected by total amount for the DF, region, or Brazil, since they registered deaths in which the municipality was not identified. These differences failed to affect the analyses or conclusions of this study. We should clarify that our research refers to the death count from one source in relation to another, and not to the overall coverage in relation to the true number of deaths, which is unknown.</p>
+			<p>Microsoft Excel, R, and GeoDa were used for data analysis, and QGis and R to produce the data spatialization maps.</p>
+			<p>This study exclusively used secondary data in the public domain and, therefore, approval by a Research Ethics Committee was unrequired.</p>
+		</sec>
+		<sec sec-type="results">
+			<title>RESULTS</title>
+			<p>The SIM database shows a higher total death count in Brazil (1,114,568) than the other information sources ( <xref ref-type="table" rid="t1">Table 1</xref> ). The proportion of deaths registered in the SIM was 7.75% higher than the Census (1,034,418) and 1.8% higher than the RC (1,094,866). The SIM showed the highest death count in the Brazilian Midwest, Northeast, and Southeast. The RC registered the highest death count in the South, although the difference between this database and the SIM was slight. The Census showed a higher death count in the North than the SIM, which registered 91.12% of the deaths recorded by the census research ( <xref ref-type="table" rid="t1">Table 1</xref> ).</p>
+			<p>
+				<table-wrap id="t1">
+					<label>Table 1</label>
+					<caption>
+						<title>Deaths in Brazil and its macroregions between August 2009 and July 2010, according to the registration source.</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left">Region</th>
+								<th>Census</th>
+								<th>RC</th>
+								<th>SIM</th>
+								<th>Database with the highest death count</th>
+								<th>SIM/Census (%)</th>
+								<th>SIM/RC (%)</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Brazil</td>
+								<td align="center">1,034,418</td>
+								<td align="center">1,094,866</td>
+								<td align="center">1,114,568</td>
+								<td align="center">SIM</td>
+								<td align="center">107.75</td>
+								<td align="center">101.80</td>
+							</tr>
+							<tr>
+								<td>North</td>
+								<td align="center">70,034</td>
+								<td align="center">58,904</td>
+								<td align="center">63,813</td>
+								<td align="center">Census</td>
+								<td align="center">91.12</td>
+								<td align="center">108.33</td>
+							</tr>
+							<tr>
+								<td>Northeast</td>
+								<td align="center">276,535</td>
+								<td align="center">265,576</td>
+								<td align="center">278,710</td>
+								<td align="center">SIM</td>
+								<td align="center">100.79</td>
+								<td align="center">104.95</td>
+							</tr>
+							<tr>
+								<td>Southeast</td>
+								<td align="center">456,358</td>
+								<td align="center">521,768</td>
+								<td align="center">523,114</td>
+								<td align="center">SIM</td>
+								<td align="center">114.63</td>
+								<td align="center">100.26</td>
+							</tr>
+							<tr>
+								<td>Midwest</td>
+								<td align="center">69,193</td>
+								<td align="center">70,649</td>
+								<td align="center">71,099</td>
+								<td align="center">SIM</td>
+								<td align="center">102.75</td>
+								<td align="center">100.64</td>
+							</tr>
+							<tr>
+								<td>South</td>
+								<td align="center">162,298</td>
+								<td align="center">177,969</td>
+								<td align="center">177,832</td>
+								<td align="center">RC</td>
+								<td align="center">109.57</td>
+								<td align="center">99.92</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN1">
+							<p>SIM: <italic>Sistema de Informações sobre Mortalidade;</italic> RC: <italic>Sistema de Estatísticas do Registro Civil; IBGE: Instituto Brasileiro de Geografia e Estatística.</italic></p>
+						</fn>
+						<attrib>Source: The 2010 Demographic Census (IBGE), the Civil Registry (IBGE), and the SIM/Datasus/Ministry of Health (MS).</attrib>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>The SIM was the database with the highest death count in 14 states, the census in 8, and RC in 5 ( <xref ref-type="table" rid="t2">Table 2</xref> ). Generally speaking, the states in which the SIM has the highest death count are in the Southeast, Northeast, Midwest, and South. The demographic census showed the highest number of deaths predominantly in states in the North, corroborating the results <xref ref-type="table" rid="t1">Table 1</xref> shows.</p>
+			<p>
+				<table-wrap id="t2">
+					<label>Table 2</label>
+					<caption>
+						<title>Deaths by state between August 2009 and July 2010, according to the registration source.</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left">State</th>
+								<th>Region</th>
+								<th>Census</th>
+								<th>RC</th>
+								<th>SIM</th>
+								<th>Database with the highest death count</th>
+								<th>SIM/Census (%)</th>
+								<th>SIM/RC (%)</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>GO</td>
+								<td align="center">Midwest</td>
+								<td align="center">31,289</td>
+								<td align="center">32,322</td>
+								<td align="center">31,549</td>
+								<td align="center">RC</td>
+								<td align="center">100.83</td>
+								<td align="center">97.61</td>
+							</tr>
+							<tr>
+								<td>MS</td>
+								<td align="center">Midwest</td>
+								<td align="center">13,901</td>
+								<td align="center">13,631</td>
+								<td align="center">14,172</td>
+								<td align="center">SIM</td>
+								<td align="center">101.95</td>
+								<td align="center">103.97</td>
+							</tr>
+							<tr>
+								<td>MT</td>
+								<td align="center">Midwest</td>
+								<td align="center">14,038</td>
+								<td align="center">14.16</td>
+								<td align="center">14,697</td>
+								<td align="center">SIM</td>
+								<td align="center">104.69</td>
+								<td align="center">103.79</td>
+							</tr>
+							<tr>
+								<td>DF</td>
+								<td align="center">Midwest</td>
+								<td align="center">9,965</td>
+								<td align="center">10,536</td>
+								<td align="center">10,681</td>
+								<td align="center">SIM</td>
+								<td align="center">107.19</td>
+								<td align="center">101.38</td>
+							</tr>
+							<tr>
+								<td>AP</td>
+								<td align="center">North</td>
+								<td align="center">2,771</td>
+								<td align="center">2.22</td>
+								<td align="center">2,066</td>
+								<td align="center">Census</td>
+								<td align="center">74.56</td>
+								<td align="center">93.06</td>
+							</tr>
+							<tr>
+								<td>PA</td>
+								<td align="center">North</td>
+								<td align="center">34.65</td>
+								<td align="center">27,009</td>
+								<td align="center">30,643</td>
+								<td align="center">Census</td>
+								<td align="center">88.44</td>
+								<td align="center">113.45</td>
+							</tr>
+							<tr>
+								<td>AM</td>
+								<td align="center">North</td>
+								<td align="center">14.27</td>
+								<td align="center">11,899</td>
+								<td align="center">12,985</td>
+								<td align="center">Census</td>
+								<td align="center">91.00</td>
+								<td align="center">109.13</td>
+							</tr>
+							<tr>
+								<td>TO</td>
+								<td align="center">North</td>
+								<td align="center">6,741</td>
+								<td align="center">6,051</td>
+								<td align="center">6,336</td>
+								<td align="center">Census</td>
+								<td align="center">93.99</td>
+								<td align="center">104.71</td>
+							</tr>
+							<tr>
+								<td>RR</td>
+								<td align="center">North</td>
+								<td align="center">1,697</td>
+								<td align="center">1,518</td>
+								<td align="center">1,597</td>
+								<td align="center">Census</td>
+								<td align="center">94.11</td>
+								<td align="center">105.20</td>
+							</tr>
+							<tr>
+								<td>RO</td>
+								<td align="center">North</td>
+								<td align="center">7,022</td>
+								<td align="center">7,229</td>
+								<td align="center">7,194</td>
+								<td align="center">RC</td>
+								<td align="center">102.45</td>
+								<td align="center">99.52</td>
+							</tr>
+							<tr>
+								<td>AC</td>
+								<td align="center">North</td>
+								<td align="center">2,883</td>
+								<td align="center">2,978</td>
+								<td align="center">2,992</td>
+								<td align="center">SIM</td>
+								<td align="center">103.78</td>
+								<td align="center">100.47</td>
+							</tr>
+							<tr>
+								<td>MA</td>
+								<td align="center">Northeast</td>
+								<td align="center">31,765</td>
+								<td align="center">20,181</td>
+								<td align="center">25,293</td>
+								<td align="center">Census</td>
+								<td align="center">79.63</td>
+								<td align="center">125.33</td>
+							</tr>
+							<tr>
+								<td>BA</td>
+								<td align="center">Northeast</td>
+								<td align="center">75,459</td>
+								<td align="center">73,401</td>
+								<td align="center">74,198</td>
+								<td align="center">Census</td>
+								<td align="center">98.33</td>
+								<td align="center">101.09</td>
+							</tr>
+							<tr>
+								<td>RN</td>
+								<td align="center">Northeast</td>
+								<td align="center">16,224</td>
+								<td align="center">15,064</td>
+								<td align="center">16,053</td>
+								<td align="center">Census</td>
+								<td align="center">98.95</td>
+								<td align="center">106.57</td>
+							</tr>
+							<tr>
+								<td>PB</td>
+								<td align="center">Northeast</td>
+								<td align="center">21,685</td>
+								<td align="center">23,222</td>
+								<td align="center">22,716</td>
+								<td align="center">RC</td>
+								<td align="center">104.75</td>
+								<td align="center">97.82</td>
+							</tr>
+							<tr>
+								<td>PI</td>
+								<td align="center">Northeast</td>
+								<td align="center">15,207</td>
+								<td align="center">13,511</td>
+								<td align="center">15,285</td>
+								<td align="center">SIM</td>
+								<td align="center">100.51</td>
+								<td align="center">113.13</td>
+							</tr>
+							<tr>
+								<td>AL</td>
+								<td align="center">Northeast</td>
+								<td align="center">17,206</td>
+								<td align="center">15,682</td>
+								<td align="center">17,424</td>
+								<td align="center">SIM</td>
+								<td align="center">101.27</td>
+								<td align="center">111.11</td>
+							</tr>
+							<tr>
+								<td>CE</td>
+								<td align="center">Northeast</td>
+								<td align="center">40.82</td>
+								<td align="center">41,151</td>
+								<td align="center">43.2</td>
+								<td align="center">SIM</td>
+								<td align="center">105.83</td>
+								<td align="center">104.98</td>
+							</tr>
+							<tr>
+								<td>SE</td>
+								<td align="center">Northeast</td>
+								<td align="center">10,008</td>
+								<td align="center">9,868</td>
+								<td align="center">10.85</td>
+								<td align="center">SIM</td>
+								<td align="center">108.41</td>
+								<td align="center">109.95</td>
+							</tr>
+							<tr>
+								<td>PE</td>
+								<td align="center">Northeast</td>
+								<td align="center">48,161</td>
+								<td align="center">53,496</td>
+								<td align="center">53,691</td>
+								<td align="center">SIM</td>
+								<td align="center">111.48</td>
+								<td align="center">100.36</td>
+							</tr>
+							<tr>
+								<td>RS</td>
+								<td align="center">South</td>
+								<td align="center">68,608</td>
+								<td align="center">77,853</td>
+								<td align="center">77,238</td>
+								<td align="center">RC</td>
+								<td align="center">112.58</td>
+								<td align="center">99.21</td>
+							</tr>
+							<tr>
+								<td>SC</td>
+								<td align="center">South</td>
+								<td align="center">32,835</td>
+								<td align="center">34,406</td>
+								<td align="center">34.49</td>
+								<td align="center">SIM</td>
+								<td align="center">105.04</td>
+								<td align="center">100.24</td>
+							</tr>
+							<tr>
+								<td>PR</td>
+								<td align="center">South</td>
+								<td align="center">60,855</td>
+								<td align="center">65.71</td>
+								<td align="center">66,104</td>
+								<td align="center">SIM</td>
+								<td align="center">108.63</td>
+								<td align="center">100.60</td>
+							</tr>
+							<tr>
+								<td>MG</td>
+								<td align="center">Southeast</td>
+								<td align="center">109,091</td>
+								<td align="center">118,986</td>
+								<td align="center">116,782</td>
+								<td align="center">RC</td>
+								<td align="center">107.05</td>
+								<td align="center">98.15</td>
+							</tr>
+							<tr>
+								<td>ES</td>
+								<td align="center">Southeast</td>
+								<td align="center">18.4</td>
+								<td align="center">20,433</td>
+								<td align="center">20,755</td>
+								<td align="center">SIM</td>
+								<td align="center">112.80</td>
+								<td align="center">101.58</td>
+							</tr>
+							<tr>
+								<td>SP</td>
+								<td align="center">Southeast</td>
+								<td align="center">223,009</td>
+								<td align="center">258,955</td>
+								<td align="center">260,941</td>
+								<td align="center">SIM</td>
+								<td align="center">117.01</td>
+								<td align="center">100.77</td>
+							</tr>
+							<tr>
+								<td>RJ</td>
+								<td align="center">Southeast</td>
+								<td align="center">105,858</td>
+								<td align="center">123,394</td>
+								<td align="center">124,636</td>
+								<td align="center">SIM</td>
+								<td align="center">117.74</td>
+								<td align="center">101.01</td>
+							</tr>
+							<tr>
+								<td colspan="2"><bold>Total</bold></td>
+								<td align="center"><bold>1,034,418</bold></td>
+								<td align="center"><bold>1,094,866</bold></td>
+								<td align="center"><bold>1,114,568</bold></td>
+								<td align="center"><bold>SIM</bold></td>
+								<td align="center"><bold>107.75</bold></td>
+								<td align="center"><bold>101.80</bold></td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN2">
+							<p>SIM: <italic>Sistema de Informações sobre Mortalidade</italic> ; RC: <italic>Sistema de Estatísticas do Registro Civil</italic> ; IBGE <italic>: Instituto Brasileiro de Geografia e Estatística.</italic></p>
+						</fn>
+						<attrib>Source: The 2010 Demographic Census (IBGE), the Civil Registry (IBGE), and the SIM/Datasus/Ministry of Health (MS).</attrib>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>We found the greatest differences between the SIM and census records (SIM/Census ratio under 90%) in the states of Maranhão, Amapá, and Pará. Note that Amapá is the only state in which the SIM reports the lowest death count, representing only 74.56% and 93.06% of the deaths registered in the Census and the RC, respectively.</p>
+			<p>Analysis at the municipal level highlighted that most municipalities (42.52%) had the SIM as the database with the largest collection of information on deaths. Of the 449 municipalities in the North, 65.48% had the Census as the database with the highest relative coverage. In the Northeast and Midwest, the Census was the database with the highest number of deaths in most municipalities, at 44.43% and 39.27% respectively. However, the SIM showed the highest number of total deaths in these regions. This apparent contradiction is due to the different weights municipalities have in the total number of deaths. The same pattern takes place in the South, in which the database with the highest relative death record was the RC, although most municipalities (50.51%) had the SIM as the database which gathered more information on deaths. Lastly, in the Southeast, the SIM had the highest relative coverage for both the number of deaths and municipalities (50.3%).</p>
+			<p>We visually find a concentration of the Census as the database with the highest death count in the municipalities of the North and in some areas of the Northeast (Maranhão, northern Rio Grande do Norte, and northern and western Bahia) ( <xref ref-type="fig" rid="f01">Figure 1</xref> ). The SIM prevails as the database with the highest death count in Southern and Southeastern municipalities.</p>
+			<p>
+				<fig id="f01">
+					<label>Figure 1</label>
+					<caption>
+						<title>Brazilian municipalities according to the database with the highest death count, 2010.</title>
+					</caption>
+					<graphic xlink:href="1518-8787-rsp-56-92-gf01.jpg"/>
+					<attrib>IBGE: <italic>Instituto Brasileiro de Geografia e Estatístic</italic> a; SIM: <italic>Sistema de Informações sobre Mortalidade</italic> ; RC: <italic>Sistema de Estatísticas do Registro Civil</italic> .</attrib>
+					<attrib>Source: 2010 Demographic Census (IBGE), the Civil Registry (IBGE), and the SIM/Datasus/Ministry of Health (MS) data.</attrib>
+				</fig>
+			</p>
+			<p>In relation to the association between the predominance of the SIM or the Census and socioeconomic indicators, we found that, in general, the more materially deprived (highest IBP values) and less developed (lowest IDHM values) municipalities are in the Brazilian North and Northeast, and most show low SIM/Census ratio values, suggesting a higher Census coverage than the SIM ( <xref ref-type="fig" rid="f02">Figure 2</xref> ). However, the less deprived and more developed municipalities are in the South and Southeast whose SIM/Census ratio values are predominantly high.</p>
+			<p>
+				<fig id="f02">
+					<label>Figure 2</label>
+					<caption>
+						<title>Socioeconomic indicators (IBP and IDHM) X SIM/Census ratio, Brazil, 2010.</title>
+					</caption>
+					<graphic xlink:href="1518-8787-rsp-56-92-gf02.jpg"/>
+					<attrib>IBGE: <italic>Instituto Brasileiro de Geografia e Estatístic</italic> a; SIM: <italic>Sistema de Informações sobre Mortalidade;</italic> IBP: <italic>Índice de Privação Brasileiro;</italic> IDHM <italic>: Índice de Desenvolvimento Humano Municipal.</italic></attrib>
+					<attrib>Source: 2010 Demographic Census (IBGE), Civil Registry (IBGE), and SIM/Datasus/ Ministry of Health (MS) data.</attrib>
+				</fig>
+			</p>
+			<p>These results suggest an association between the database with a higher death count and the level of socioeconomic development of Brazilian municipalities. The Census reported more deaths than the SIM in the more deprived and less developed municipalities, whereas the SIM reported more deaths in the municipalities with higher socioeconomic levels. Exceptions to this pattern are the municipalities located more to the west of the Brazilian North and the towns in the countryside of the states of Piauí, Ceará, Paraíba, and Pernambuco since they show high IBP and low IDHM values and have the SIM as the database with the highest coverage.</p>
+			<p>We find a similar result if we consider the Moran LISA bivariate cluster maps ( <xref ref-type="fig" rid="f03">Figure 3</xref> ). Considering the IBP ( <xref ref-type="fig" rid="f03">Figure 3a</xref> ), we can confirm that the spatial clusters in pink consist of municipalities with high material deprivation values. Their neighbours show low SIM/Census ratio values (High-Low), and are mostly concentrated in the North and some areas of the Northeast. The areas in light blue, mainly located in the South and Southeast, consist of municipalities with a low IBP, and its neighbours show high SIM/Census values (Low-High). This method can also identify discrepancies. For example, the dark blue areas consist of municipalities with a low IBP, and their neighbours show low SIM/Census values (Low-Low).</p>
+			<p>
+				<fig id="f03">
+					<label>Figure 3</label>
+					<caption>
+						<title>Socioeconomic indicator (IBP and IDHM) bivariate cluster and SIM/Census ratio map, Brazil, 2010.</title>
+					</caption>
+					<graphic xlink:href="1518-8787-rsp-56-92-gf03.jpg"/>
+					<attrib>IBGE: <italic>Instituto Brasileiro de Geografia e Estatístic</italic> a; SIM: <italic>Sistema de Informações sobre Mortalidade;</italic> IBP: <italic>Índice de Privação Brasileiro;</italic> IDHM <italic>: Índice de Desenvolvimento Humano Municipal.</italic></attrib>
+					<attrib>Source: 2010 Demographic Census (IBGE), Civil Registry (IBGE), and SIM/Datasus/Ministry of Health (MS) data.</attrib>
+				</fig>
+			</p>
+			<p>If we consider the IDHM ( <xref ref-type="fig" rid="f03">Figure 3b</xref> ), we note an overlap of the highlighted areas. The dark blue areas consist of municipalities with a low IHDM which are surrounded by municipalities with a lower SIM/Census ratio (Low-Low). The dark red areas, notably concentrated in the Southeast, are municipalities with a high IDHM which are surrounded by cities with higher SIM/Census ratio values.</p>
+			<p>These results indicate that the presence of the Census as the database with the highest coverage is spatially related to the low development indices of neighbouring municipalities, and these spatial clusters are mainly concentrated in the North and, to a lesser extent, the Northeast.</p>
+		</sec>
+		<sec sec-type="discussion">
+			<title>DISCUSSION</title>
+			<p>Our analysis shows that the highest death count in the 2010 Demographic Census, compared to the SIM and RC, is concentrated in the Brazilian North and, to a lesser extent, the Northeast, observed in the less developed and more materially deprived municipalities. These results suggest that the database with the highest registration of deaths is associated with the socioeconomic characteristics of these municipalities, and that there is a clear pattern of spatial distribution in Brazil. We highlight that those socioeconomic levels and location are considerably correlated characteristics in the Brazilian territory, with the North and Northeast having the most deprived and less developed municipalities in the country. Therefore, the main finding of this study was that the lower the socioeconomic level of the municipality, the greater the possibility of the Census reporting a higher number of deaths, compared to the other databases. This fact may indicate that factors such as the municipal infrastructure in the health authorities (and others, such as the presence of a registry office) may severely impact the flow of SIM and RC registrations in relation to the Census.</p>
+			<p>Contrary to this overall trend, some of the municipalities in the Northeastern countryside, even with low socioeconomic levels, show a higher death count in the SIM than in the Census. Future studies should further explore this fact, but one hypothesis suggests this may be related to a programme to reduce the registration of deaths with poorly defined causes. This programme focused on the Brazilian North and Northeast and aimed to improve the collection and quality of information on deaths gathered by the SIM in these two regions, though it achieved more successful results in the Northeast <sup><xref ref-type="bibr" rid="B19">19</xref></sup> .</p>
+			<p>The literature reports failures in local mortality registration systems as one of the relevant reasons for the specific under-recording of deaths in the SIM <sup><xref ref-type="bibr" rid="B3">3</xref> , <xref ref-type="bibr" rid="B4">4</xref></sup> . There may also be cases in which families, even when they have the declaration of death, take time to issue (or even fail to acquire one) it at the Civil Registry Office, contributing to the under-recording in the RC database. Under-recording on both databases is associated with the existence of burials without the required documentation (such as death certificates) in irregular cemeteries, which still exist in poorer regions and rural areas <sup><xref ref-type="bibr" rid="B20">20</xref></sup> . These facts may partly explain why the Census reported more deaths in these regions than the SIM and the RC.</p>
+			<p>When comparing only the SIM with the RC, the former has a higher coverage in most territories, especially in the North and Northeast. Even with improvements and the convergence of RC and SIM coverage in recent decades <sup><xref ref-type="bibr" rid="B3">3</xref> , <xref ref-type="bibr" rid="B4">4</xref> , <xref ref-type="bibr" rid="B9">9</xref></sup> , there are still relevant regional disparities between them, mainly in favour of the SIM.</p>
+			<p>Despite official death registration systems, the inclusion of an item on death at home in the basic 2010 Census questionnaire provided a new possibility for mortality analyses <sup><xref ref-type="bibr" rid="B21">21</xref></sup> . We must highlight that the inclusion of this item was a suggestion by the United Nations for the round of subsequent censuses to try and obtain better mortality records for countries with lower-quality vital systems.</p>
+			<p>A major advantage of the Census is its capillarity, since, in theory, it covers the entire national territory. Thus, the items contained on the basic questionnaire enable a geographical breakdown of the data to its lowest levels. This characteristic offers a great opportunity for studies that aim to identify socioeconomic differences and inequities, particularly in health, in addition to research focused on mortality estimates in small areas <sup><xref ref-type="bibr" rid="B25">25</xref></sup> and mortality differentials by a range of population characteristics <sup><xref ref-type="bibr" rid="B26">26</xref> , <xref ref-type="bibr" rid="B27">27</xref></sup> .</p>
+			<p>In this context, the findings of this study suggest that the Census gained relevance, in relation to the SIM and the RC, in registering deaths in smaller and less developed municipalities, particularly those located in Northern Brazil, and also highlights the importance of the census research in regions with these sociodemographic characteristics. Furthermore, considering the recent discussion on the reduction of the number of items on census questionnaires, we highlight the immense value of retaining the mortality item on the basic questionnaire.</p>
+			<p>Despite this potential, census mortality data have limitations, such as its 10-year frequency; the 12-month reference period for deaths which fail to coincide with the year end of the calendar year; the under-recording of deaths caused by errors in understanding the reference period (since a household resident provides the information); the disregard of deaths, especially of new-born children; and the possibility of termination or dissolution of the household following the death of an individual <sup><xref ref-type="bibr" rid="B12">12</xref> , <xref ref-type="bibr" rid="B22">22</xref></sup> .</p>
+			<p>Moreover, as an inconsistency in the census data, we highlight that there may be errors when declaring the age of the deceased and of the people who live in the household <sup><xref ref-type="bibr" rid="B28">28</xref></sup> . Although this fails to influence the total death count, this problem may interfere in the age estimates of the mortality structure <sup>29</sup> .</p>
+			<p>We should clarify that census research should not be seen as a solution to this problem, but as an alternative to complement death data sources, and not lessen the importance of ensuring the existence of quality systems to record these crucial events. In this context, we can confirm that there is a consensus between mortality data users that the inclusion of the item recording a death in the household in the basic census questionnaire was of the utmost importance for studies on the topic, providing new possibilities for estimating mortality levels and structure which reflect a more likely reality.</p>
+			<p>In the context of the covid-19 pandemic, for example, the 2022 Brazilian demographic census data may provide an alternative to analyze its impact on mortality by estimating excess mortality and assist researchers in understanding the relation of the pandemic with other demographic variables.</p>
+			<p>As a research limitation, we highlight that the deaths gathered are included in the reference period for the last census, resulting in a scenario for mortality dating back more than 10 years. It is unlikely that there have been any significant changes in the structure and level of mortality in Brazil, especially at the highest geographical levels. However, differences in coverage between the SIM and the RC may be less accentuated than what this study ascertained, considering the continuous tendency of a convergence between the two databases observed in recent years.</p>
+			<p>As a recommendation for future studies that aim to estimate mortality in small areas, we suggest a conjugation of the Brazilian databases of death notification, considering that database which gathered the highest number of deaths by gender and age in each municipality. Although this would only be possible in years censuses are held, this approach may provide better and more accurate mortality measures.</p>
+			<p>We hope the results and the discussion of this study equip users of mortality data with important recommendations. We highlight that research should pay special attention to the selection and use of Brazilian mortality databases since the region studied and/or information database chosen may produce specific mortality outcomes. We must highlight that the quality of mortality records has evolved in recent years. However, we still observe a regional variability in data quality, and an evaluation of data quality based on the different methodologies available is, therefore, important.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>REFERENCES</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. AbouZahr C , Savigny ,D Mikkelsen L , Setel PW , Lozano R , Nichols E , et al . Civil registration and vital statistics : progress in the data revolution for counting and accountability . Lancet . 2015 ; 386 ( 1001 ): 1373 - 85 . <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(15)60173-8">https://doi.org/10.1016/S0140-6736(15)60173-8</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>AbouZahr</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Savigny</surname>
+							<given-names>,D</given-names>
+						</name>
+						<name>
+							<surname>Mikkelsen</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Setel</surname>
+							<given-names>PW</given-names>
+						</name>
+						<name>
+							<surname>Lozano</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Nichols</surname>
+							<given-names>E</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Civil registration and vital statistics : progress in the data revolution for counting and accountability</article-title>
+					<source>Lancet</source>
+					<year>2015</year>
+					<volume>386</volume>
+					<issue>1001</issue>
+					<fpage>1373</fpage>
+					<lpage>1385</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(15)60173-8">https://doi.org/10.1016/S0140-6736(15)60173-8</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. Setel PW , Macfarlane SB , Szreter S , Mikkelsen L , Jha P , Stout S , et al . A scandal of invisibility : making everyone count by counting . Lancet . 2007 ; 370 ( 9598 ): 1569 - 77 . <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(07)61307-5">https://doi.org/10.1016/S0140-6736(07)61307-5</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Setel</surname>
+							<given-names>PW</given-names>
+						</name>
+						<name>
+							<surname>Macfarlane</surname>
+							<given-names>SB</given-names>
+						</name>
+						<name>
+							<surname>Szreter</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Mikkelsen</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Jha</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Stout</surname>
+							<given-names>S</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>A scandal of invisibility : making everyone count by counting</article-title>
+					<source>Lancet</source>
+					<year>2007</year>
+					<volume>370</volume>
+					<issue>9598</issue>
+					<fpage>1569</fpage>
+					<lpage>1577</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(07)61307-5">https://doi.org/10.1016/S0140-6736(07)61307-5</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. Vasconcelos AMN . Qualidade das estatísticas de óbitos no Brasil: uma classificação das Unidades da Federação . In: Anais do 12. Encontro Nacional de Estudos Populacionais . Belo Horizonte, MG : ABEP ; 2000 . p. 14 .</mixed-citation>
+				<element-citation publication-type="confproc">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Vasconcelos</surname>
+							<given-names>AMN</given-names>
+						</name>
+					</person-group>
+					<source>Qualidade das estatísticas de óbitos no Brasil: uma classificação das Unidades da Federação</source>
+					<comment>Anais do</comment>
+					<conf-name>12. Encontro Nacional de Estudos Populacionais</conf-name>
+					<publisher-loc>Belo Horizonte, MG</publisher-loc>
+					<publisher-name>ABEP</publisher-name>
+					<year>2000</year>
+					<size units="pages">14</size>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. Lima EEC , Gonzaga MR , Freire FHMA , Queiroz BL . Alternative information sources on deaths in Brazil in the context of the COVID-19 pandemic . In: International Development Research Centre . Compendium of good practices: harnessing CRVS in conflict, emergencies and fragile settings . Ottawa (CA) : Centre of Excellence for Civil Registration and Vital Statistics Systems ; 2021 . p. 123 - 44 .</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lima</surname>
+							<given-names>EEC</given-names>
+						</name>
+						<name>
+							<surname>Gonzaga</surname>
+							<given-names>MR</given-names>
+						</name>
+						<name>
+							<surname>Freire</surname>
+							<given-names>FHMA</given-names>
+						</name>
+						<name>
+							<surname>Queiroz</surname>
+							<given-names>BL</given-names>
+						</name>
+					</person-group>
+					<chapter-title>Alternative information sources on deaths in Brazil in the context of the COVID-19 pandemic</chapter-title>
+					<person-group person-group-type="author">
+						<collab>International Development Research Centre</collab>
+					</person-group>
+					<source>Compendium of good practices: harnessing CRVS in conflict, emergencies and fragile settings</source>
+					<publisher-loc>Ottawa (CA)</publisher-loc>
+					<publisher-name>Centre of Excellence for Civil Registration and Vital Statistics Systems</publisher-name>
+					<year>2021</year>
+					<fpage>123</fpage>
+					<lpage>144</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Instituto Brasileiro de Geografia e Estatística . Censo Demográfico 2010: características da população e dos domicílios: resultados do universo . Rio de Janeiro : IBGE ; 2011 [ cited 2021 Feb 15 ]. Available from: <ext-link ext-link-type="uri" xlink:href="https://biblioteca.ibge.gov.br/visualizacao/periodicos/93/cd_2010_caracteristicas_populacao_domicilios.pdf">https://biblioteca.ibge.gov.br/visualizacao/periodicos/93/cd_2010_caracteristicas_populacao_domicilios.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Instituto Brasileiro de Geografia e Estatística</collab>
+					</person-group>
+					<source>Censo Demográfico 2010: características da população e dos domicílios: resultados do universo</source>
+					<publisher-loc>Rio de Janeiro</publisher-loc>
+					<publisher-name>IBGE</publisher-name>
+					<year>2011</year>
+					<date-in-citation content-type="cited-date">cited 2021 Feb 15</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://biblioteca.ibge.gov.br/visualizacao/periodicos/93/cd_2010_caracteristicas_populacao_domicilios.pdf">https://biblioteca.ibge.gov.br/visualizacao/periodicos/93/cd_2010_caracteristicas_populacao_domicilios.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. Queiroz BL , Lima EEC , Freire FHMA , Gonzaga MR . Temporal and spatial trends of adult mortality in small areas of Brazil, 1980-2010 . Genus . 2020 ; 76 : 36 . <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s41118-020-00105-3">https://doi.org/10.1186/s41118-020-00105-3</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Queiroz</surname>
+							<given-names>BL</given-names>
+						</name>
+						<name>
+							<surname>Lima</surname>
+							<given-names>EEC</given-names>
+						</name>
+						<name>
+							<surname>Freire</surname>
+							<given-names>FHMA</given-names>
+						</name>
+						<name>
+							<surname>Gonzaga</surname>
+							<given-names>MR</given-names>
+						</name>
+					</person-group>
+					<article-title>Temporal and spatial trends of adult mortality in small areas of Brazil, 1980-2010</article-title>
+					<source>Genus</source>
+					<year>2020</year>
+					<volume>76</volume>
+					<size units="pages">36</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s41118-020-00105-3">https://doi.org/10.1186/s41118-020-00105-3</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. Queiroz BL , Gonzaga MR , Vasconcelos AMN , Lopes BT , Abreu DMX . Comparative analysis of completeness of death registration, adult mortality and life expectancy at birth in Brazil at the subnational level . Popul Health Metr . 2020 ; 18 : 11 . <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12963-020-00213-4">https://doi.org/10.1186/s12963-020-00213-4</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Queiroz</surname>
+							<given-names>BL</given-names>
+						</name>
+						<name>
+							<surname>Gonzaga</surname>
+							<given-names>MR</given-names>
+						</name>
+						<name>
+							<surname>Vasconcelos</surname>
+							<given-names>AMN</given-names>
+						</name>
+						<name>
+							<surname>Lopes</surname>
+							<given-names>BT</given-names>
+						</name>
+						<name>
+							<surname>Abreu</surname>
+							<given-names>DMX</given-names>
+						</name>
+					</person-group>
+					<article-title>Comparative analysis of completeness of death registration, adult mortality and life expectancy at birth in Brazil at the subnational level</article-title>
+					<source>Popul Health Metr</source>
+					<year>2020</year>
+					<volume>18</volume>
+					<size units="pages">11</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12963-020-00213-4">https://doi.org/10.1186/s12963-020-00213-4</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Lima EEC , Queiroz BL . Evolution of the deaths registry system in Brazil: associations with changes in the mortality profile, under-registration of death counts, and ill-defined causes of death . Cad Saude Publica . 2014 ; 30 ( 8 ): 1721 - 30 . <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0102-311X00131113">https://doi.org/10.1590/0102-311X00131113</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lima</surname>
+							<given-names>EEC</given-names>
+						</name>
+						<name>
+							<surname>Queiroz</surname>
+							<given-names>BL</given-names>
+						</name>
+					</person-group>
+					<article-title>Evolution of the deaths registry system in Brazil: associations with changes in the mortality profile, under-registration of death counts, and ill-defined causes of death</article-title>
+					<source>Cad Saude Publica</source>
+					<year>2014</year>
+					<volume>30</volume>
+					<issue>8</issue>
+					<fpage>1721</fpage>
+					<lpage>1730</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0102-311X00131113">https://doi.org/10.1590/0102-311X00131113</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. Vasconcelos AMN . A qualidade das estatísticas de óbitos no Brasil . Rev Bras Estud Popul . 1998 [ cited 2021 Feb 15 ]; 15 ( 1 ): 115 - 24 . Available from: <ext-link ext-link-type="uri" xlink:href="https://rebep.org.br/revista/article/view/4164">https://rebep.org.br/revista/article/view/4164</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Vasconcelos</surname>
+							<given-names>AMN</given-names>
+						</name>
+					</person-group>
+					<article-title>A qualidade das estatísticas de óbitos no Brasil</article-title>
+					<source>Rev Bras Estud Popul</source>
+					<year>1998</year>
+					<date-in-citation content-type="cited-date">cited 2021 Feb 15</date-in-citation>
+					<volume>15</volume>
+					<issue>1</issue>
+					<fpage>115</fpage>
+					<lpage>124</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://rebep.org.br/revista/article/view/4164">https://rebep.org.br/revista/article/view/4164</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. Schmertmann CP , Gonzaga MR . Bayesian estimation of age-specific mortality and life expectancy for small areas with defective vital records . Demography . 2018 ; 55 ( 4 ): 1363 - 88 . <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s13524-018-0695-2">https://doi.org/10.1007/s13524-018-0695-2</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Schmertmann</surname>
+							<given-names>CP</given-names>
+						</name>
+						<name>
+							<surname>Gonzaga</surname>
+							<given-names>MR</given-names>
+						</name>
+					</person-group>
+					<article-title>Bayesian estimation of age-specific mortality and life expectancy for small areas with defective vital records</article-title>
+					<source>Demography</source>
+					<year>2018</year>
+					<volume>55</volume>
+					<issue>4</issue>
+					<fpage>1363</fpage>
+					<lpage>1388</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s13524-018-0695-2">https://doi.org/10.1007/s13524-018-0695-2</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. Queiroz BL , Freire FHMA , Gonzaga MR , Lima EEC . Completeness of death-count coverage and adult mortality (45q15) for Brazilian states from 1980 to 2010 . Rev Bras Epidemiol . 2017 ; 20 Suppl 1 : 21 - 33 . <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1980-5497201700050003">https://doi.org/10.1590/1980-5497201700050003</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Queiroz</surname>
+							<given-names>BL</given-names>
+						</name>
+						<name>
+							<surname>Freire</surname>
+							<given-names>FHMA</given-names>
+						</name>
+						<name>
+							<surname>Gonzaga</surname>
+							<given-names>MR</given-names>
+						</name>
+						<name>
+							<surname>Lima</surname>
+							<given-names>EEC</given-names>
+						</name>
+					</person-group>
+					<article-title>Completeness of death-count coverage and adult mortality (45q15) for Brazilian states from 1980 to 2010</article-title>
+					<source>Rev Bras Epidemiol</source>
+					<year>2017</year>
+					<volume>20</volume>
+					<supplement>Suppl 1</supplement>
+					<fpage>21</fpage>
+					<lpage>33</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1980-5497201700050003">https://doi.org/10.1590/1980-5497201700050003</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. Queiroz BL , Sawyer DOT . O que os dados de mortalidade do Censo de 2010 podem nos dizer? Rev Bras Estud Popul . 2012 ; 29 ( 2 ): 225 - 38 . <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0102-30982012000200002">https://doi.org/10.1590/S0102-30982012000200002</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Queiroz</surname>
+							<given-names>BL</given-names>
+						</name>
+						<name>
+							<surname>Sawyer</surname>
+							<given-names>DOT</given-names>
+						</name>
+					</person-group>
+					<article-title>O que os dados de mortalidade do Censo de 2010 podem nos dizer?</article-title>
+					<source>Rev Bras Estud Popul</source>
+					<year>2012</year>
+					<volume>29</volume>
+					<issue>2</issue>
+					<fpage>225</fpage>
+					<lpage>238</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0102-30982012000200002">https://doi.org/10.1590/S0102-30982012000200002</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. Paes NA . Avaliação da cobertura dos registros de óbitos dos Estados brasileiros em 2000 . Rev Saude Publica . 2005 ; 39 ( 6 ): 882 - 90 . <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0034-89102005000600003">https://doi.org/10.1590/S0034-89102005000600003</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Paes</surname>
+							<given-names>NA</given-names>
+						</name>
+					</person-group>
+					<article-title>Avaliação da cobertura dos registros de óbitos dos Estados brasileiros em 2000</article-title>
+					<source>Rev Saude Publica</source>
+					<year>2005</year>
+					<volume>39</volume>
+					<issue>6</issue>
+					<fpage>882</fpage>
+					<lpage>890</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0034-89102005000600003">https://doi.org/10.1590/S0034-89102005000600003</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. Costa LFL , Montenegro MMS , Rebello Neto DL , Oliveira ATR , Trindade JEO , Adair T , et al . Estimating completeness of national and subnational death reporting in Brazil : application of record linkage methods . Popul Health Metr . 2020 ; 18 : 22 . <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12963-020-00223-2">https://doi.org/10.1186/s12963-020-00223-2</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Costa</surname>
+							<given-names>LFL</given-names>
+						</name>
+						<name>
+							<surname>Montenegro</surname>
+							<given-names>MMS</given-names>
+						</name>
+						<name>
+							<surname>Rebello</surname>
+							<given-names>DL</given-names>
+							<suffix>Neto</suffix>
+						</name>
+						<name>
+							<surname>Oliveira</surname>
+							<given-names>ATR</given-names>
+						</name>
+						<name>
+							<surname>Trindade</surname>
+							<given-names>JEO</given-names>
+						</name>
+						<name>
+							<surname>Adair</surname>
+							<given-names>T</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Estimating completeness of national and subnational death reporting in Brazil : application of record linkage methods</article-title>
+					<source>Popul Health Metr</source>
+					<year>2020</year>
+					<volume>18</volume>
+					<size units="pages">22</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12963-020-00223-2">https://doi.org/10.1186/s12963-020-00223-2</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. Ribeiro MM , Turra CM , Pinto CCX . Mortalidade adulta por nível de escolaridade em São Paulo: análise comparativa a partir de diferentes estratégias metodológicas . Rev Bras Estud Popul . 2021 ; 38 : e0139 . <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.20947/S0102-3098a0139">https://doi.org/10.20947/S0102-3098a0139</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ribeiro</surname>
+							<given-names>MM</given-names>
+						</name>
+						<name>
+							<surname>Turra</surname>
+							<given-names>CM</given-names>
+						</name>
+						<name>
+							<surname>Pinto</surname>
+							<given-names>CCX</given-names>
+						</name>
+					</person-group>
+					<article-title>Mortalidade adulta por nível de escolaridade em São Paulo: análise comparativa a partir de diferentes estratégias metodológicas</article-title>
+					<source>Rev Bras Estud Popul</source>
+					<year>2021</year>
+					<volume>38</volume>
+					<elocation-id>e0139</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.20947/S0102-3098a0139">https://doi.org/10.20947/S0102-3098a0139</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. United Nations, Department of Economic and Social Affairs . Principles and recommendations for population and housing censuses . New York : UN Department of Economic and Social Affairs, Statistics Division ; 1997 . ( Statistical Papers Series M; Report Nº 67/Rev.1 ).</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>United Nations, Department of Economic and Social Affairs</collab>
+					</person-group>
+					<source>Principles and recommendations for population and housing censuses</source>
+					<publisher-loc>New York</publisher-loc>
+					<publisher-name>UN Department of Economic and Social Affairs, Statistics Division</publisher-name>
+					<year>1997</year>
+					<comment>Statistical Papers Series M; Report Nº 67/Rev.1</comment>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Anselin L , Syabri I , Smirnov O . Visualizing multivariate spatial correlation with dynamically linked . In: New Tools for Spatial Data Analysis: proceedings of the Specialist Meeting ; 2002 [ cited 2021 Feb 15 ] Mar 22-23 ; Los Angeles, Ca . Available from: <ext-link ext-link-type="uri" xlink:href="http://europa.nvc.cs.vt.edu/~ctlu/Project/SoftwareTools/multi_lisa.pdf">http://europa.nvc.cs.vt.edu/~ctlu/Project/SoftwareTools/multi_lisa.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Anselin</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Syabri</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Smirnov</surname>
+							<given-names>O</given-names>
+						</name>
+					</person-group>
+					<chapter-title>Visualizing multivariate spatial correlation with dynamically linked</chapter-title>
+					<source>New Tools for Spatial Data Analysis: proceedings of the Specialist Meeting</source>
+					<year>2002</year>
+					<date-in-citation content-type="cited-date">cited 2021 Feb 15</date-in-citation>
+					<month>03</month>
+					<season>22-23</season>
+					<publisher-loc>Los Angeles, Ca</publisher-loc>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="http://europa.nvc.cs.vt.edu/~ctlu/Project/SoftwareTools/multi_lisa.pdf">http://europa.nvc.cs.vt.edu/~ctlu/Project/SoftwareTools/multi_lisa.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18. Allik M , Ramos D , Agranonik M , Pinto Júnior EP , Ichihara MY , Barreto ML , et al . Developing a small-area deprivation measure for Brazil: technical report . Glasgow (UK) : University of Glasgow ; 2020 [ cited 2021 Feb 15 ]. Available from: <ext-link ext-link-type="uri" xlink:href="http://eprints.gla.ac.uk/215898/">http://eprints.gla.ac.uk/215898/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Allik</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Ramos</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Agranonik</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Pinto</surname>
+							<given-names>EP</given-names>
+							<suffix>Júnior</suffix>
+						</name>
+						<name>
+							<surname>Ichihara</surname>
+							<given-names>MY</given-names>
+						</name>
+						<name>
+							<surname>Barreto</surname>
+							<given-names>ML</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<source>Developing a small-area deprivation measure for Brazil: technical report</source>
+					<publisher-loc>Glasgow (UK)</publisher-loc>
+					<publisher-name>University of Glasgow</publisher-name>
+					<year>2020</year>
+					<date-in-citation content-type="cited-date">cited 2021 Feb 15</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="http://eprints.gla.ac.uk/215898/">http://eprints.gla.ac.uk/215898/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19. Cunha CC . Avaliação do programa de redução do percentual de óbitos por causas mal definidas no Brasil em 2010 [ tese ]. Belo Horizonte, MG : Universidade Federal de Minas Gerais ; 2017 .</mixed-citation>
+				<element-citation publication-type="thesis">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cunha</surname>
+							<given-names>CC</given-names>
+						</name>
+					</person-group>
+					<source>Avaliação do programa de redução do percentual de óbitos por causas mal definidas no Brasil em 2010</source>
+					<comment>tese</comment>
+					<publisher-loc>Belo Horizonte, MG</publisher-loc>
+					<publisher-name>Universidade Federal de Minas Gerais</publisher-name>
+					<year>2017</year>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20. Szwarcwald CL , Leal MC , Andrade CLT , Souza Jr PRB . Estimação da mortalidade infantil no Brasil: o que dizem as informações sobre óbitos e nascimentos do Ministério da Saúde? Cad Saude Publica . 2002 ; 18 ( 6 ): 1725 - 36 . <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0102-311X2002000600027">https://doi.org/10.1590/S0102-311X2002000600027</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Szwarcwald</surname>
+							<given-names>CL</given-names>
+						</name>
+						<name>
+							<surname>Leal</surname>
+							<given-names>MC</given-names>
+						</name>
+						<name>
+							<surname>Andrade</surname>
+							<given-names>CLT</given-names>
+						</name>
+						<name>
+							<surname>Souza</surname>
+							<given-names>PRB</given-names>
+							<suffix>Jr</suffix>
+						</name>
+					</person-group>
+					<article-title>Estimação da mortalidade infantil no Brasil: o que dizem as informações sobre óbitos e nascimentos do Ministério da Saúde?</article-title>
+					<source>Cad Saude Publica</source>
+					<year>2002</year>
+					<volume>18</volume>
+					<issue>6</issue>
+					<fpage>1725</fpage>
+					<lpage>1736</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0102-311X2002000600027">https://doi.org/10.1590/S0102-311X2002000600027</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>21. Queiroz BL , Sacco N . ¿Es relevante incorporar la medición de la mortalidad en los censos de América Latina y el Caribe? Rev Bras Estud Popul . 2018 ; 35 ( 2 ): 1 - 8 . <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.20947/S0102-3098a0042">https://doi.org/10.20947/S0102-3098a0042</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Queiroz</surname>
+							<given-names>BL</given-names>
+						</name>
+						<name>
+							<surname>Sacco</surname>
+							<given-names>N</given-names>
+						</name>
+					</person-group>
+					<article-title>¿Es relevante incorporar la medición de la mortalidad en los censos de América Latina y el Caribe?</article-title>
+					<source>Rev Bras Estud Popul</source>
+					<year>2018</year>
+					<volume>35</volume>
+					<issue>2</issue>
+					<fpage>1</fpage>
+					<lpage>8</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.20947/S0102-3098a0042">https://doi.org/10.20947/S0102-3098a0042</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>22. Borges GM . A investigação da saúde nos censos demográficos do Brasil: possibilidades de análise, vantagens e limitações. In: Derbli M, editor. A contribuição das bases de dados demográficos e dos Sistemas de Informação em Saúde para a gestão do SUS . BIS Bol Inst Saude Estado São Paulo . 2015 [ cited 2021 Feb 15 ]; 16 ( 2 ): 6 - 14 . Available from: <ext-link ext-link-type="uri" xlink:href="http://www.saude.sp.gov.br/resources/instituto-de-saude/homepage/pdfs/46042002miolointernet.pdf">http://www.saude.sp.gov.br/resources/instituto-de-saude/homepage/pdfs/46042002miolointernet.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Borges</surname>
+							<given-names>GM</given-names>
+						</name>
+					</person-group>
+					<article-title>A investigação da saúde nos censos demográficos do Brasil: possibilidades de análise, vantagens e limitações. In: Derbli M, editor. A contribuição das bases de dados demográficos e dos Sistemas de Informação em Saúde para a gestão do SUS</article-title>
+					<source>BIS Bol Inst Saude Estado São Paulo</source>
+					<year>2015</year>
+					<date-in-citation content-type="cited-date">cited 2021 Feb 15</date-in-citation>
+					<volume>16</volume>
+					<issue>2</issue>
+					<fpage>6</fpage>
+					<lpage>14</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="http://www.saude.sp.gov.br/resources/instituto-de-saude/homepage/pdfs/46042002miolointernet.pdf">http://www.saude.sp.gov.br/resources/instituto-de-saude/homepage/pdfs/46042002miolointernet.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>23. Campos MB , Borges GM , Queiroz BL , Santos RV . Diferenciais de mortalidade entre indígenas e não indígenas no Brasil com base no Censo Demográfico de 2010 . Cad Saude Publica . 2017 ; 33 ( 5 ): e00015017 <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/10.1590/0102-311X00015017">https://doi.org/10.1590/10.1590/0102-311X00015017</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Campos</surname>
+							<given-names>MB</given-names>
+						</name>
+						<name>
+							<surname>Borges</surname>
+							<given-names>GM</given-names>
+						</name>
+						<name>
+							<surname>Queiroz</surname>
+							<given-names>BL</given-names>
+						</name>
+						<name>
+							<surname>Santos</surname>
+							<given-names>RV</given-names>
+						</name>
+					</person-group>
+					<article-title>Diferenciais de mortalidade entre indígenas e não indígenas no Brasil com base no Censo Demográfico de 2010</article-title>
+					<source>Cad Saude Publica</source>
+					<year>2017</year>
+					<volume>33</volume>
+					<issue>5</issue>
+					<elocation-id>e00015017</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/10.1590/0102-311X00015017">https://doi.org/10.1590/10.1590/0102-311X00015017</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>24. Bilal U , Hessel P , Perez-Ferrer C , Michael YL , Alfaro T , Tenorio-Mucha J , et al . Life expectancy and mortality in 363 cities of Latin America . Nat Med . 2021 ; 27 : 463 - 70 . <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s41591-020-01214-4">https://doi.org/10.1038/s41591-020-01214-4</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bilal</surname>
+							<given-names>U</given-names>
+						</name>
+						<name>
+							<surname>Hessel</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Perez-Ferrer</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Michael</surname>
+							<given-names>YL</given-names>
+						</name>
+						<name>
+							<surname>Alfaro</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Tenorio-Mucha</surname>
+							<given-names>J</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Life expectancy and mortality in 363 cities of Latin America</article-title>
+					<source>Nat Med</source>
+					<year>2021</year>
+					<volume>27</volume>
+					<fpage>463</fpage>
+					<lpage>470</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s41591-020-01214-4">https://doi.org/10.1038/s41591-020-01214-4</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>25. Silva LE , Freire FHMA , Pereira RHM . Diferenciais de mortalidade por escolaridade da população adulta brasileira, em 2010 . Cad Saude Publica . 2016 ; 32 ( 4 ): e00019815 . <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0102-311X00019815">https://doi.org/10.1590/0102-311X00019815</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Silva</surname>
+							<given-names>LE</given-names>
+						</name>
+						<name>
+							<surname>Freire</surname>
+							<given-names>FHMA</given-names>
+						</name>
+						<name>
+							<surname>Pereira</surname>
+							<given-names>RHM</given-names>
+						</name>
+					</person-group>
+					<article-title>Diferenciais de mortalidade por escolaridade da população adulta brasileira, em 2010</article-title>
+					<source>Cad Saude Publica</source>
+					<year>2016</year>
+					<volume>32</volume>
+					<issue>4</issue>
+					<elocation-id>e00019815</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0102-311X00019815">https://doi.org/10.1590/0102-311X00019815</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation>26. Pereira FNA , Queiroz BL . Diferenciais de mortalidade jovem no Brasil: a importância dos fatores socioeconômicos dos domicílios e das condições de vida nos municípios e estados brasileiros . Cad Saude Publica . 2016 ; 32 ( 9 ): e00109315 . <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0102-311X00109315">https://doi.org/10.1590/0102-311X00109315</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pereira</surname>
+							<given-names>FNA</given-names>
+						</name>
+						<name>
+							<surname>Queiroz</surname>
+							<given-names>BL</given-names>
+						</name>
+					</person-group>
+					<article-title>Diferenciais de mortalidade jovem no Brasil: a importância dos fatores socioeconômicos dos domicílios e das condições de vida nos municípios e estados brasileiros</article-title>
+					<source>Cad Saude Publica</source>
+					<year>2016</year>
+					<volume>32</volume>
+					<issue>9</issue>
+					<elocation-id>e00109315</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0102-311X00109315">https://doi.org/10.1590/0102-311X00109315</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<mixed-citation>27. Agostinho CS . Estudo sobre a mortalidade adulta, para Brasil entre 1980 e 2000 e unidades da Federação em 2000: uma aplicação dos métodos de distribuição de mortes [ tese ]. Belo Horizonte, MG : Universidade Federal de Minas Gerais ; 2009 .</mixed-citation>
+				<element-citation publication-type="thesis">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Agostinho</surname>
+							<given-names>CS</given-names>
+						</name>
+					</person-group>
+					<source>Estudo sobre a mortalidade adulta, para Brasil entre 1980 e 2000 e unidades da Federação em 2000: uma aplicação dos métodos de distribuição de mortes</source>
+					<comment>tese</comment>
+					<publisher-loc>Belo Horizonte, MG</publisher-loc>
+					<publisher-name>Universidade Federal de Minas Gerais</publisher-name>
+					<year>2009</year>
+				</element-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<mixed-citation>28. Preston SH , Elo IT , Stewart Q . Effects of age misreporting on mortality estimates at older ages . Popul Stud . 1999 ; 53 ( 2 ): 165 - 77 . <ext-link ext-link-type="uri" xlink:href="https://www.jstor.org/stable/2584674">https://www.jstor.org/stable/2584674</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Preston</surname>
+							<given-names>SH</given-names>
+						</name>
+						<name>
+							<surname>Elo</surname>
+							<given-names>IT</given-names>
+						</name>
+						<name>
+							<surname>Stewart</surname>
+							<given-names>Q</given-names>
+						</name>
+					</person-group>
+					<article-title>Effects of age misreporting on mortality estimates at older ages</article-title>
+					<source>Popul Stud</source>
+					<year>1999</year>
+					<volume>53</volume>
+					<issue>2</issue>
+					<fpage>165</fpage>
+					<lpage>177</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.jstor.org/stable/2584674">https://www.jstor.org/stable/2584674</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="financial-disclosure" id="fn2">
+				<p>Funding: National Institute for Health Research (NIHR-GHRG/16/137/99). <italic>Fundação Bill &amp; Melinda Gates Brasil</italic> (OPP1142172), Wellcome Trust (202912/Z/16/Z). <italic>Coordenação de Aperfeiçoamento de Pessoal de Nível Superior</italic> (Capes - doctoral scholarship for AJFF, CSST, ASR). Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq - Processes 307467/2018-0, 308219/2019-8 and 308219/2019-8 - research scholarship for MRG, EECL, BLQ).</p>
+			</fn>
+		</fn-group>
+	</back>
+</article>

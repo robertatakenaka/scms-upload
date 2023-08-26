@@ -1,0 +1,1813 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.1" specific-use="sps-1.9" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="nlm-ta">Rev Saude Publica</journal-id>
+			<journal-id journal-id-type="publisher-id">rsp</journal-id>
+			<journal-title-group>
+				<journal-title>Revista de Saúde Pública</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Rev. Saúde Pública</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="ppub">0034-8910</issn>
+			<issn pub-type="epub">1518-8787</issn>
+			<publisher>
+				<publisher-name>Faculdade de Saúde Pública da Universidade de São Paulo</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="other">00229</article-id>
+			<article-id pub-id-type="doi">10.11606/s1518-8787.2022056004025</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Original Article</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Gender and education inequalities in dynapenia-free life expectancy: ELSI-Brazil</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-9308-1502</contrib-id>
+					<name>
+						<surname>Borges</surname>
+						<given-names>Viviane Santos</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-1151-3533</contrib-id>
+					<name>
+						<surname>Camargos</surname>
+						<given-names>Mirela Castro Santos</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-3467-3989</contrib-id>
+					<name>
+						<surname>Andrade</surname>
+						<given-names>Fabíola Bof de</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>I</label>
+				<institution content-type="orgdiv1">Instituto René Rachou</institution>
+				<institution content-type="orgname">Fundação Oswaldo Cruz</institution>
+				<addr-line>
+					<named-content content-type="city">Belo Horizonte</named-content>
+					<named-content content-type="state">MG</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Instituto René Rachou. Fundação Oswaldo Cruz. Belo Horizonte, MG, Brasil</institution>
+			</aff>
+			<aff id="aff2">
+				<label>II</label>
+				<institution content-type="orgname">Universidade Federal de Minas Gerais</institution>
+				<institution content-type="orgdiv1">Escola de Enfermagem</institution>
+				<institution content-type="orgdiv2">Departamento de Gestão em Saúde</institution>
+				<addr-line>
+					<named-content content-type="city">Belo Horizonte</named-content>
+					<named-content content-type="state">MG</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Universidade Federal de Minas Gerais. Escola de Enfermagem. Departamento de Gestão em Saúde. Belo Horizonte, MG, Brasil</institution>
+			</aff>
+			<author-notes>
+				<corresp id="c01"> Correspondence: Fabíola Bof de Andrade Instituto René Rachou Fundação Oswaldo Cruz Av. Augusto de Lima, 1.715 30190-002 Belo Horizonte, MG, Brasil E-mail: <email>fabiola.bof@fiocruz.br</email>
+				</corresp>
+				<fn fn-type="con">
+					<p><bold>Authors’ Contribution:</bold> Data analysis and interpretation: VSB, MCSC, FBA. Writing of the manuscript: VSB, MCSC, FBA. Critical review of the manuscript: VSB, MCSC, FBA. Final version approval: VSB, MCSC, FBA.</p>
+				</fn>
+				<fn fn-type="conflict">
+					<p><bold>Conflict of Interests:</bold> The authors declare no conflict of interest.</p>
+				</fn>
+			</author-notes>
+			<pub-date date-type="pub" publication-format="electronic">
+				<day>06</day>
+				<month>05</month>
+				<year>2022</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">
+				<year>2022</year>
+			</pub-date>
+			<volume>56</volume>
+			<elocation-id>36</elocation-id>
+			<history>
+				<date date-type="received">
+					<day>8</day>
+					<month>07</month>
+					<year>2021</year>
+				</date>
+				<date date-type="accepted">
+					<day>10</day>
+					<month>09</month>
+					<year>2021</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="en">
+					<license-p> This is an Open Access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. </license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>ABSTRACT</title>
+				<sec>
+					<title>OBJECTIVE</title>
+					<p> To estimate the dynapenia-free life expectancy among community-dwelling older Brazilian adults and evaluate gender-related and educational differences.</p>
+				</sec>
+				<sec>
+					<title>METHODS</title>
+					<p> This is a cross-sectional study. The data were obtained from the <italic>Estudo Longitudinal da Saúde dos Idosos Brasileiros</italic> (ELSI-Brazil – Brazilian Longitudinal Study of Aging), conducted from 2015 to 2016 in Brazil. Dynapenia is defined as low muscle strength (&lt; 27kg for men and &lt; 16kg for women), measured with a handgrip dynamometer. The dynapenia-free life expectancy was estimated using the Sullivan method based on the standard period life table and dynapenia prevalence, stratified by age groups, gender, and schooling.</p>
+				</sec>
+				<sec>
+					<title>RESULTS</title>
+					<p> A total of 8,827 participants, aged 50 and over (53.3% women), were investigated. The prevalence of dynapenia was 17.7% among men and 18.5% among women. The women live longer and with more years free of dynapenia than men. Those in the higher education category (four or more years) presented an advantage in the dynapenia-free life expectancy estimates.</p>
+				</sec>
+				<sec>
+					<title>CONCLUSIONS</title>
+					<p> The results of this study suggest the substantial impact of dynapenia on longer dynapenia-free life expectancy among older people. Understanding dynapenia prevalence and dynapenia-free life expectancy could assist in predicting care needs, as well as targeting efforts to delay the onset of complications related to it at older ages. Without the implementation of policy regarding dynapenia prevention, inequalities in health due to gender and socioeconomic status may continue to increase.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="en">
+				<kwd>Muscle Strength</kwd>
+				<kwd>Life Expectancy</kwd>
+				<kwd>Aging</kwd>
+				<kwd>Hand Strength</kwd>
+				<kwd>Socioeconomic Factors</kwd>
+				<kwd>Cross Sectional Studies</kwd>
+			</kwd-group>
+			<funding-group>
+				<award-group>
+					<funding-source>Conselho Nacional de Desenvolvimento Científico e Tecnológico </funding-source>
+					<award-id>307879/2019-4</award-id>
+				</award-group>
+				<funding-statement>Funding: Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq - Research productivity scholarship for MCSC - Process 307879/2019-4).</funding-statement>
+			</funding-group>
+			<counts>
+				<fig-count count="1"/>
+				<table-count count="3"/>
+				<equation-count count="1"/>
+				<ref-count count="37"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>INTRODUCTION</title>
+			<p>Worldwide, the populations are rapidly growing older<sup><xref ref-type="bibr" rid="B1">1</xref>,<xref ref-type="bibr" rid="B2">2</xref></sup>; the evidence, however, is inconsistent on whether additional years of life are accompanied by an increase of healthy ones<sup><xref ref-type="bibr" rid="B3">3</xref></sup>. Despite this being a worldwide achievement, aging is still an inexorable process that presents important economic and social challenges for all countries, such as the increase of chronic diseases and health-related long-term social care costs<sup><xref ref-type="bibr" rid="B6">6</xref>,<xref ref-type="bibr" rid="B7">7</xref></sup>, especially in developing countries where the majority of the world’s older populations live<sup><xref ref-type="bibr" rid="B8">8</xref></sup>. Aging aﬀects all organs and the musculoskeletal system is no exception. Older adults exhibit an increased risk of reduced muscle strength and power, a condition called dynapenia<sup><xref ref-type="bibr" rid="B9">9</xref></sup>.</p>
+			<p>Recent findings show a high prevalence of older adults living with dynapenia<sup><xref ref-type="bibr" rid="B12">12</xref></sup>. In high-income countries, such as England, the prevalence was found to be 12.3% among individuals aged 60 years<sup><xref ref-type="bibr" rid="B15">15</xref></sup>, whereas, in the United States, the prevalence among individuals 65 years or older was 44%<sup><xref ref-type="bibr" rid="B14">14</xref></sup>. In Brazil, almost one-fifth of older adults were classified as dynapenic, with reported rates for males and females estimated to be 16.6% and 17.7%, respectively<sup><xref ref-type="bibr" rid="B12">12</xref></sup>.</p>
+			<p>Dynapenia is associated with various adverse health outcomes including increased risk of falls<sup><xref ref-type="bibr" rid="B16">16</xref>,<xref ref-type="bibr" rid="B17">17</xref></sup>, functional<sup><xref ref-type="bibr" rid="B13">13</xref>,<xref ref-type="bibr" rid="B14">14</xref></sup> and cognitive decline<sup><xref ref-type="bibr" rid="B18">18</xref></sup>, disability<sup><xref ref-type="bibr" rid="B14">14</xref></sup>, and mortality<sup><xref ref-type="bibr" rid="B15">15</xref></sup>. Furthermore, significant inequalities have been found concerning this condition, meaning that individuals in lower socioeconomic positions have greater negative consequences<sup><xref ref-type="bibr" rid="B12">12</xref></sup>.</p>
+			<p>Despite a large body of literature showing a strong link between dynapenia, socioeconomic status<sup><xref ref-type="bibr" rid="B12">12</xref></sup>, and mortality<sup><xref ref-type="bibr" rid="B15">15</xref>,<xref ref-type="bibr" rid="B19">19</xref></sup>, there is no evidence on how dynapenia affects the healthy life expectancy (i.e., indicator that combines disease and mortality information). An estimation of dynapenia-free life expectancy (DFLE), as well as other measures of disability-free life expectancy<sup><xref ref-type="bibr" rid="B7">7</xref>,<xref ref-type="bibr" rid="B20">20</xref></sup>, might provide information on the average number of healthy years lived among older adults, as well as give insights into the impact of health policies on the populations and develop a more informed health care response.</p>
+			<p>Given the high prevalence of this condition in the Brazilian population<sup><xref ref-type="bibr" rid="B12">12</xref></sup> and the well-known inequalities within the country<sup><xref ref-type="bibr" rid="B21">21</xref></sup>, this study aimed to estimate the DFLE, by gender and education, among a representative national sample of community-dwelling older Brazilian adults.</p>
+		</sec>
+		<sec sec-type="methods">
+			<title>METHODS</title>
+			<p>This is a cross-sectional study with data obtained from the <italic>Estudo Longitudinal da Saúde dos Idosos Brasileiros</italic> (ELSI-Brazil – Brazilian Longitudinal Study of Aging), conducted from 2015 to 2016. This was a nationally representative population-based cohort study of non-institutionalized community-dwelling Brazilians aged 50 years and older, living in 70 municipalities, within the five major geographic regions of the country. The sample selection was based on a multistage area probability design, involving geographical stratification and clustering. All the details on sample design and methodology have been previously described<sup><xref ref-type="bibr" rid="B21">21</xref></sup>.</p>
+			<p>The ELSI-Brazil was approved by the ethics committee of the institution (protocol number: 34649814.3.0000.5091). All participants signed consent forms for the interviews and physical evaluation.</p>
+			<p>This study used data from 8,827 individuals aged 50 years or over, with full data on handgrip strength and other covariates.</p>
+			<p>Dynapenia was defined through the handgrip strength (i.e., maximal voluntary force)<sup><xref ref-type="bibr" rid="B9">9</xref></sup>, measured with a hydraulic handgrip dynamometer to assess isometric strength (SAEHAN Corporation, Korea, Model SH5001). Cut-off values for dynapenia were &lt; 27 kg for men and &lt; 16 kg for women<sup><xref ref-type="bibr" rid="B22">22</xref>,<xref ref-type="bibr" rid="B23">23</xref></sup>. In a sitting position, participants were instructed to squeeze the device with the dominant hand as hard as they could for two seconds. They were instructed to grasp the dynamometer in the hand and to keep their arms tight to the body with their dominant elbow forming a 90° angle. A familiarization test was first performed using the non-dominant hand<sup><xref ref-type="bibr" rid="B14">14</xref></sup>. The test was then performed three times with the dominant limb, with one-minute rest between tests, and the higher value of the three trials was used as the score.</p>
+			<sec>
+				<title>Statistical Analysis</title>
+				<p>We used the Sullivan method to compute DFLE and dynapenia life expectancy (DLE), as it can be applied with data from cross-sectional studies<sup><xref ref-type="bibr" rid="B24">24</xref></sup>. Dynapenia-free life expectancy and dynapenia life expectancy were estimated by combining the data from the life tables and current mortality experience among Brazilians of 2016, from the Brazilian Institute of Geography and Statistics (IBGE), with the prevalence of dynapenia among the population in the same period (ELSI-Brazil 2015–2016), thus estimating the number of years expected to be lived in a particular state of health. Dynapenia-free life expectancy was estimated by age, gender, and schooling. The following formula was used to estimate DFLE:</p>
+				<disp-formula id="e1">
+					<mml:math>
+						<mml:mi>D</mml:mi>
+						<mml:mi>F</mml:mi>
+						<mml:mi>L</mml:mi>
+						<mml:msub>
+							<mml:mi>E</mml:mi>
+							<mml:mrow>
+								<mml:mi>x</mml:mi>
+							</mml:mrow>
+						</mml:msub>
+						<mml:mo>=</mml:mo>
+						<mml:mfrac>
+							<mml:mrow>
+								<mml:mo>∑</mml:mo>
+								<mml:msub>
+									<mml:mrow>
+										<mml:mo>(</mml:mo>
+										<mml:msub>
+											<mml:mi/>
+											<mml:mrow>
+												<mml:mi>n</mml:mi>
+											</mml:mrow>
+										</mml:msub>
+										<mml:msub>
+											<mml:mi>π</mml:mi>
+											<mml:mrow>
+												<mml:mrow>
+													<mml:mi>x</mml:mi>
+												</mml:mrow>
+											</mml:mrow>
+										</mml:msub>
+										<mml:mo>)</mml:mo>
+									</mml:mrow>
+									<mml:mrow>
+										<mml:mrow>
+											<mml:mi>n</mml:mi>
+										</mml:mrow>
+									</mml:mrow>
+								</mml:msub>
+								<mml:msub>
+									<mml:mrow>
+										<mml:mi>L</mml:mi>
+									</mml:mrow>
+									<mml:mrow>
+										<mml:mrow>
+											<mml:mi>x</mml:mi>
+										</mml:mrow>
+									</mml:mrow>
+								</mml:msub>
+								<mml:mo/>
+							</mml:mrow>
+							<mml:msub>
+								<mml:mrow>
+									<mml:mi>I</mml:mi>
+								</mml:mrow>
+								<mml:mrow>
+									<mml:mrow>
+										<mml:mi>x</mml:mi>
+									</mml:mrow>
+								</mml:mrow>
+							</mml:msub>
+						</mml:mfrac>
+					</mml:math>
+				</disp-formula>
+				<p>In which:</p>
+				<p><bold>DFLE</bold><sub><bold>x</bold></sub> is dynapenia-free life expectancy, which comprises the average number of dynapenia-free years expected to be lived from age x.</p>
+				<p><sub><bold>n</bold></sub><bold>π</bold><sub><bold>x</bold></sub> is dynapenia-free prevalence in age group x to x+n.</p>
+				<p><sub><bold>n</bold></sub><bold>L</bold><sub><bold>x</bold></sub> is people-years lived from x to x+n, comprising the total number of years lived in each age interval.</p>
+				<p><bold>l</bold><sub><bold>x</bold></sub><bold>:</bold> probability of living until age x.</p>
+				<p>Dynapenia life expectancy is obtained by subtracting dynapenia-free life expectancy from total life expectancy. In addition, we estimated the proportion of years expected to be lived with dynapenia based on the ratio between the number of years expected to be lived with it and the total number of years expected to be lived. Separate life tables were produced by age subgroups, gender, and schooling. The number of years lived in each age in the life tables was distributed according to point and interval estimates of the prevalence of dynapenia in each specific age group. All estimates generated were stratified by gender, age (in 5-year intervals), and education level (0–3 years and ≥ 4 years). We computed 95% confidence intervals (95%CI) considering the interval estimates of dynapenia prevalence.</p>
+				<p>The standard errors were calculated considering only the variance of the prevalence rates. To compare the DFLE between females and males and individuals with different schooling, we estimated their standard errors (or variances) and then the z-statistic to find the p-value. The test of the hypothesis of equality was based on the tables of Jagger 2006<sup><xref ref-type="bibr" rid="B25">25</xref></sup>. Data analysis was carried out using Stata version 12.1 (StataCorp, College Station, TX, USA) and Microsoft Excel 2010 (Microsoft, USA).</p>
+			</sec>
+		</sec>
+		<sec sec-type="results">
+			<title>RESULTS</title>
+			<p>Participants’ mean age was 62.5 years, 53.3% were female, and 32% had 0–3 years of education. Prevalence of dynapenia was of 18% among individuals aged 50 years or more, comprehending 17.7% among men and 18.5% among women. In individuals aged 50 to 59 years, the prevalence of dynapenia was of 10.9%, whereas in individuals over 80, the prevalence was of 55.6% (<xref ref-type="table" rid="t1">Table 1</xref>).</p>
+			<p>
+				<table-wrap id="t1">
+					<label>Table 1</label>
+					<caption>
+						<title>Descriptive characteristics of participants by gender, age, schooling, and dynapenia. Brazilian Longitudinal Study of Ageing, 2015–2016 (n = 8,827).</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left">Variable</th>
+								<th>%</th>
+								<th>95%CI</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Gender</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Women</td>
+								<td align="center">53.3</td>
+								<td align="center">50.4–56.3</td>
+							</tr>
+							<tr>
+								<td>Men</td>
+								<td align="center">46.7</td>
+								<td align="center">43.7–49.6</td>
+							</tr>
+							<tr>
+								<td>Age (years)</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>50–59</td>
+								<td align="center">48.4</td>
+								<td align="center">44.4–52.5</td>
+							</tr>
+							<tr>
+								<td>60–69</td>
+								<td align="center">29.9</td>
+								<td align="center">28.1–31.7</td>
+							</tr>
+							<tr>
+								<td>70–79</td>
+								<td align="center">15.5</td>
+								<td align="center">13.6–17.5</td>
+							</tr>
+							<tr>
+								<td>≥ 80</td>
+								<td align="center">6.2</td>
+								<td align="center">4.6–6.8</td>
+							</tr>
+							<tr>
+								<td>Schooling (years)</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>0–3</td>
+								<td align="center">32.4</td>
+								<td align="center">29.1–35.9</td>
+							</tr>
+							<tr>
+								<td>≥ 4</td>
+								<td align="center">67.6</td>
+								<td align="center">64.1–70.9</td>
+							</tr>
+							<tr>
+								<td>Dynapenia total</td>
+								<td align="center">18.1</td>
+								<td align="center">16.3–20.0</td>
+							</tr>
+							<tr>
+								<td>Dynapenia men</td>
+								<td align="center">17.7</td>
+								<td align="center">15.6–19.9</td>
+							</tr>
+							<tr>
+								<td>Dynapenia women</td>
+								<td align="center">18.5</td>
+								<td align="center">16.3–20.9</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN1">
+							<p>95%CI: 95% confidence interval.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>
+				<xref ref-type="fig" rid="f01">Figure</xref> shows the estimates for total life expectancy (TLE), DFLE, DLE, and proportion of years expected to be lived without dynapenia (DFLE[%]), for all age groups. The 50-year-old individuals could expect to live 30 years, of which 22.2 years would be lived without dynapenia, which accounted for 73.3% of TLE. In older adults with 80 years of age, these figures were 18.5 years for TLE, 11.3 years for DFLE, or 61.1% for DFLE[%].</p>
+			<p>
+				<fig id="f01">
+					<label>Figure</label>
+					<caption>
+						<title>Estimates of total life expectancy (TLE), dynapenia-free life expectancy (DFLE), dynapenia life expectancy (DLE), and the proportion of years expected to be lived without dynapenia (DFLE[%]), by age, among older adults in Brazil. Brazilian Longitudinal Study of Ageing, 2015–2016 (n = 8,827).</title>
+					</caption>
+					<graphic xlink:href="1518-8787-rsp-56-36-gf01.tif"/>
+				</fig>
+			</p>
+			<p>
+				<xref ref-type="table" rid="t2">Table 2</xref> shows TLE, DFLE, and DFLE[%] by gender. TLE were lower for men than for women; for example, men in the age group of 60 and 70 years could expect to live an additional 20 and 13.6 years, respectively, of which 13.5 and 7.2 years will be lived without dynapenia, respectively. Among women of the same age groups, TLE at age 60 was 23.9 years and, at age 70, 16.3 years; the DFLE were 15.8 and 8.8 years, respectively (<xref ref-type="table" rid="t2">Table 2</xref>). Estimates of DFLE at the age of 50, 60, and 70 were significantly higher in women than in men. However, differences were not observed in the age group of 80 year.</p>
+			<p>
+				<table-wrap id="t2">
+					<label>Table 2</label>
+					<caption>
+						<title>Estimates of dynapenia, total life expectancy (TLE), dynapenia-free life expectancy (DFLE), and the proportion of years expected to be lived without dynapenia (DFLE[%]), by age and gender, among older adults in Brazil. Brazilian Longitudinal Study of Ageing, 2015–2016 (n = 8,827).</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left">Variable</th>
+								<th>Dynapenia (%)</th>
+								<th>TLE</th>
+								<th>DFLE </th>
+								<th>DFLE (%)</th>
+								<th>Dynapenia (%)</th>
+								<th>TLE</th>
+								<th>DFLE </th>
+								<th>DFLE (%)</th>
+								<th>DFLE comparisons p<sup>a</sup></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Age</td>
+								<td align="center" colspan="4">Women</td>
+								<td align="center" colspan="4">Men</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>50–59</td>
+								<td align="center">11.3</td>
+								<td align="center">32.5</td>
+								<td align="center">23.7</td>
+								<td align="center">72.9</td>
+								<td align="center">10.6</td>
+								<td align="center">28</td>
+								<td align="center">20.7</td>
+								<td align="center">73.9</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>60–69</td>
+								<td align="center">15.9</td>
+								<td align="center">23.9</td>
+								<td align="center">15.8</td>
+								<td align="center">66.1</td>
+								<td align="center">15.7</td>
+								<td align="center">20.3</td>
+								<td align="center">13.5</td>
+								<td align="center">66.5</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>70–79</td>
+								<td align="center">29.4</td>
+								<td align="center">16.3</td>
+								<td align="center">8.8</td>
+								<td align="center">54.0</td>
+								<td align="center">30.6</td>
+								<td align="center">13.6</td>
+								<td align="center">7.2</td>
+								<td align="center">52.9</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>≥ 80</td>
+								<td align="center">53.3</td>
+								<td align="center">10.2</td>
+								<td align="center">4.0</td>
+								<td align="center">39.2</td>
+								<td align="center">58.9</td>
+								<td align="center">8.5</td>
+								<td align="center">3</td>
+								<td align="center">35.3</td>
+								<td align="center">&gt; 0.05</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN2">
+							<p><sup>a</sup> z-statistic.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>The findings suggest inequalities in the prevalence of dynapenia for all ages, which was higher among older adults with lower educational levels. Educational differences in DFLE estimates were observed for all age groups (<xref ref-type="table" rid="t3">Table 3</xref>). Those with higher education levels (four or more years) had a higher DFLE than individuals with lower educational levels. For example, the DFLE is 5.9 percent points (1.3 years) higher for individuals aged 60 with four or more years of education than for those in the low education category, of the same age group.</p>
+			<p>
+				<table-wrap id="t3">
+					<label>Table 3</label>
+					<caption>
+						<title>Estimates of dynapenia, dynapenia-free life expectancy (DFLE), and the proportion of years expected to be lived without dynapenia (DFLE[%]), by age and education, among older adults in Brazil. Brazilian Longitudinal Study of Ageing, 2015–2016 (n = 8,827).</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left">Variable</th>
+								<th>Dynapenia (%)</th>
+								<th>DFLE </th>
+								<th>DFLE(%)</th>
+								<th>Dynapenia (%)</th>
+								<th>DFLE </th>
+								<th>DFLE (%)</th>
+								<th>DFLE comparisons p<sup>a</sup></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Age</td>
+								<td align="center" colspan="3">0–3 years of education</td>
+								<td align="center" colspan="3">4+ years of education</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>50–59</td>
+								<td align="center">14.6</td>
+								<td align="center">21.4</td>
+								<td align="center">70.6</td>
+								<td align="center">9.9</td>
+								<td align="center">23.0</td>
+								<td align="center">75.9</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>60–69</td>
+								<td align="center">19.6</td>
+								<td align="center">14.1</td>
+								<td align="center">63.5</td>
+								<td align="center">13.7</td>
+								<td align="center">15.4</td>
+								<td align="center">69.4</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>70–79</td>
+								<td align="center">33.0</td>
+								<td align="center">7.7</td>
+								<td align="center">51.0</td>
+								<td align="center">27.0</td>
+								<td align="center">8.7</td>
+								<td align="center">57.6</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>≥ 80</td>
+								<td align="center">57.0</td>
+								<td align="center">3.2</td>
+								<td align="center">34.0</td>
+								<td align="center">53.9</td>
+								<td align="center">4.2</td>
+								<td align="center">44.7</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN3">
+							<p><sup>a</sup> z-statistic.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+		</sec>
+		<sec sec-type="discussion">
+			<title>DISCUSSION</title>
+			<p>This study used a large, nationally representative, sample of Brazilian older adults to estimate dynapenia and DFLE. We found that almost one-fifth of Brazilian older adults were classified as dynapenic, raising public health concerns due to its significant impact on disability, long-term care needs<sup><xref ref-type="bibr" rid="B14">14</xref></sup>, and mortality<sup><xref ref-type="bibr" rid="B15">15</xref></sup>. The findings suggest significant gender and educational inequalities in healthy life expectancy. The population in the higher education category (four or more years) had an advantage in the estimates of DFLE and women can expect to live more years without dynapenia than men.</p>
+			<p>During the last decade, a large body of literature evaluated trends and determinants for the unequal distribution of disability-free life expectancy among older adults in several countries, most of which used daily life activities as disability indicator<sup><xref ref-type="bibr" rid="B5">5</xref>,<xref ref-type="bibr" rid="B24">24</xref>,<xref ref-type="bibr" rid="B26">26</xref>,<xref ref-type="bibr" rid="B27">27</xref></sup>. To our knowledge, our study is the first to estimate the impact of dynapenia on healthy life expectancy. Although direct comparison between studies is difficult, the consistent association between functional performance and muscle strength<sup><xref ref-type="bibr" rid="B10">10</xref>,<xref ref-type="bibr" rid="B14">14</xref></sup>, and the role of the latter as a prognostic factor for disability and physical dependence among older adults<sup><xref ref-type="bibr" rid="B28">28</xref></sup>, indicate that the relationship between dynapenia and healthy life expectancy might share similar pathways, as it was suggested by previous disability measures.</p>
+			<p>Our study confirms the existence of gender inequality and corroborates previous studies which used disability as a health measure<sup><xref ref-type="bibr" rid="B7">7</xref>,<xref ref-type="bibr" rid="B24">24</xref>,<xref ref-type="bibr" rid="B26">26</xref>,<xref ref-type="bibr" rid="B27">27</xref></sup>. Although women of all ages live longer and have more years free of dynapenia, after the seventh decade men presented higher proportional dynapenia life expectancy than women. Accordingly, Ling et al.<sup><xref ref-type="bibr" rid="B10">10</xref></sup> (2020) found that the decline in handgrip strength was steeper among men than women from age 85 to 89 years. Different to our findings, one study reported that women in Latin America and Asia spent more time in a state of disability and dependence than men, despite having longer life expectancies<sup><xref ref-type="bibr" rid="B7">7</xref></sup>. Freedman et al.<sup><xref ref-type="bibr" rid="B26">26</xref></sup> (2016) also showed that the active years of older American women were no greater than the men’s, despite living longer lives. Similarly, Santosa et al.<sup><xref ref-type="bibr" rid="B27">27</xref></sup> (2016) confirmed the existence of gender inequality in disability and life expectancy, in which they observed that women have longer life expectancy, but proportionally fewer years of disability-free life expectancy than men.</p>
+			<p>The differences across genders might be due to the biological and social determinants of healthy aging as women have higher prevalence of non-fatal chronic conditions compared with men, who are more likely to die from more fatal diseases before being disabled due to diseases<sup><xref ref-type="bibr" rid="B29">29</xref></sup>. Changes in healthy life expectancy can be driven by both changes in age-specific mortality and changes in disability prevalence. In women, for example, an increase in TLE combined with an increase disability prevalence may result in a greater number of years spent with disability. In contrast, a rise in mortality could reduce the number of years spent with disability, even with no changes to disability prevalence, thus reducing TLE while healthy life expectancy stays constant<sup><xref ref-type="bibr" rid="B3">3</xref></sup>.</p>
+			<p>Recent evidence suggests a strong link between socioeconomic status – particularly education – and disability-free life expectancy<sup><xref ref-type="bibr" rid="B3">3</xref>,<xref ref-type="bibr" rid="B30">30</xref></sup>. Our study corroborates previous findings<sup><xref ref-type="bibr" rid="B3">3</xref>,<xref ref-type="bibr" rid="B30">30</xref>,<xref ref-type="bibr" rid="B31">31</xref>,<xref ref-type="bibr" rid="B33">33</xref></sup> suggesting that individuals with a higher level of education can expect to live a greater number of years without dynapenia. In Chile, data from a longitudinal study confirmed that the trajectories of health, disability, and mortality are more adverse for Chilean older people in the lower socioeconomic position<sup><xref ref-type="bibr" rid="B34">34</xref></sup>. In the United States, a recent study found an increase in education-based inequalities in TLE and a greater widening in education healthy life-expectancy, in which individuals with less than a high school education live, on average, less than those with a college education, and are also more burdened with disability<sup><xref ref-type="bibr" rid="B3">3</xref></sup>. Data from the Health and Retirement Study<sup><xref ref-type="bibr" rid="B30">30</xref></sup> demonstrated that among older Americans with the same living arrangement, the higher educated live up to six years longer, in addition to eight more years in a disability free state and up to two fewer years in a disabled state. A previous study showed that educational attainment was responsible for a decline in the level of disability in the U.S. population from 1997 to 2010<sup><xref ref-type="bibr" rid="B33">33</xref></sup>.</p>
+			<p>Like previous studies, our findings underscore the important role of educational attainment in explaining trends in disability<sup><xref ref-type="bibr" rid="B30">30</xref>,<xref ref-type="bibr" rid="B32">32</xref></sup> and healthy life expectancy<sup><xref ref-type="bibr" rid="B3">3</xref>,<xref ref-type="bibr" rid="B31">31</xref></sup>. Since causes of death moved from communicable to chronic diseases, researchers have argued that education is increasingly shaping one’s risk of disability and mortality<sup><xref ref-type="bibr" rid="B3">3</xref></sup>. Furthermore, higher levels of education are directly associated with the adoption of healthier lifestyles<sup><xref ref-type="bibr" rid="B5">5</xref></sup>, greater healthcare utilization<sup><xref ref-type="bibr" rid="B35">35</xref></sup>, and consequently effective management of chronic diseases<sup><xref ref-type="bibr" rid="B3">3</xref>,<xref ref-type="bibr" rid="B31">31</xref>,<xref ref-type="bibr" rid="B35">35</xref></sup>, which are closely related to disability<sup><xref ref-type="bibr" rid="B11">11</xref></sup> and dynapenia<sup><xref ref-type="bibr" rid="B12">12</xref></sup>. Alternatively, the decrease in healthy life expectancy among less-educated individuals may be attributed to greater concentration of unhealthy behaviors<sup><xref ref-type="bibr" rid="B31">31</xref></sup>.</p>
+			<p>Among the strengths of this study, the use of a national representative sample to estimate dynapenia-free life expectancy might be acknowledged. Most of the previous studies, including the ones carried out in Brazil, evaluated limitations on basic and instrumental activities on daily living as the measure of disability. The use of dynapenia, which is closely related to disability, is particularly relevant for policy purposes, since it is directly linked to care needs, which is ultimately associated with economic burden<sup><xref ref-type="bibr" rid="B36">36</xref></sup>. A limitation of our study might be related to its cross-sectional design, despite using the Sullivan method, which is based on prevalence measures representing current health<sup><xref ref-type="bibr" rid="B37">37</xref></sup>. Additionally, this method is recommended due to its simplicity, relative accuracy, and ease of interpretation, which produces comparable results across many other countries.</p>
+		</sec>
+		<sec sec-type="conclusions">
+			<title>CONCLUSION</title>
+			<p>This study found significant gender and educational inequalities in the life expectancy of older adults. Women can expect to live more years without dynapenia than men. Regarding the socioeconomic status, the population in the higher education category had an advantage in the estimates of DFLE. These findings have implications for health policies directed towards predicting health care needs and preventing, or delaying, the onset of dynapenia. Further investigations are required to understand the underlying determinants and mechanisms of dynapenia on years of healthy life.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>REFERENCES</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. United Nations, Department of Economic and Social Affairs, Population Division. Commission on Population and Development. New York; 2021 [cited 2021 Jun 5]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.un.org/development/desa/pd/">https://www.un.org/development/desa/pd/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>United Nations</collab>
+						<collab>Department of Economic and Social Affairs</collab>
+						<collab>Population Division</collab>
+					</person-group>
+					<source>Commission on Population and Development</source>
+					<publisher-loc>New York</publisher-loc>
+					<year>2021</year>
+					<date-in-citation content-type="cited-date">cited 2021 Jun 5</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.un.org/development/desa/pd/">https://www.un.org/development/desa/pd/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. United Nations, Department of Economic and Social Affairs, Population Division. World Population Prospects -20219. New York; 2019 [cited 2019 Jul 10]. Available from: <ext-link ext-link-type="uri" xlink:href="https://population.un.org/wpp/">https://population.un.org/wpp/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>United Nations</collab>
+						<collab>Department of Economic and Social Affairs</collab>
+						<collab>Population Division</collab>
+					</person-group>
+					<source>World Population Prospects -20219</source>
+					<publisher-loc>New York</publisher-loc>
+					<year>2019</year>
+					<date-in-citation content-type="cited-date">cited 2019 Jul 10</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://population.un.org/wpp/">https://population.un.org/wpp/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. Cantu PA, Sheehan CM, Sasson I, Hayward MD. Increasing education-based disparities in healthy life expectancy among U.S. Non-Hispanic Whites, 2000–2010. J Gerontol B Psychol Sci Soc Sci. 2021;76(2):319-29. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/geronb/gbz145">https://doi.org/10.1093/geronb/gbz145</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cantu</surname>
+							<given-names>PA</given-names>
+						</name>
+						<name>
+							<surname>Sheehan</surname>
+							<given-names>CM</given-names>
+						</name>
+						<name>
+							<surname>Sasson</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Hayward</surname>
+							<given-names>MD</given-names>
+						</name>
+					</person-group>
+					<article-title>Increasing education-based disparities in healthy life expectancy among U.S. Non-Hispanic Whites, 2000–2010</article-title>
+					<source>J Gerontol B Psychol Sci Soc Sci</source>
+					<year>2021</year>
+					<volume>76</volume>
+					<issue>2</issue>
+					<fpage>319</fpage>
+					<lpage>329</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/geronb/gbz145">https://doi.org/10.1093/geronb/gbz145</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. Chirinda W, Chen H. Comparative study of disability-free life expectancy across six low- and middle-income countries. Geriatr Gerontol Int. 2017;17(4):637-44. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/ggi.12748">https://doi.org/10.1111/ggi.12748</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Chirinda</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Chen</surname>
+							<given-names>H</given-names>
+						</name>
+					</person-group>
+					<article-title>Comparative study of disability-free life expectancy across six low- and middle-income countries</article-title>
+					<source>Geriatr Gerontol Int</source>
+					<year>2017</year>
+					<volume>17</volume>
+					<issue>4</issue>
+					<fpage>637</fpage>
+					<lpage>644</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/ggi.12748">https://doi.org/10.1111/ggi.12748</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Matsuyama S, Murakami Y, Lu Y, Sone T, Sugawara Y, Tsuji I. Association between social participation and disability-free life expectancy in Japanese older people: the Ohsaki Cohort 2006 Study. J Epidemiol. 2021 Mar 27. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2188/jea.JE20200574">https://doi.org/10.2188/jea.JE20200574</ext-link>. Epub ahead of print</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Matsuyama</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Murakami</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Lu</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Sone</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Sugawara</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Tsuji</surname>
+							<given-names>I</given-names>
+						</name>
+					</person-group>
+					<article-title>Association between social participation and disability-free life expectancy in Japanese older people: the Ohsaki Cohort 2006 Study</article-title>
+					<source>J Epidemiol</source>
+					<year>2021</year>
+					<month>03</month>
+					<day>27</day>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2188/jea.JE20200574">https://doi.org/10.2188/jea.JE20200574</ext-link>
+					</comment>
+					<comment>Epub ahead of print</comment>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. Campolina AG, Adami F, Santos JLF, Lebrão ML. Effect of the elimination of chronic diseases on disability-free life expectancy among elderly individuals in Sao Paulo, Brazil, 2010. Cienc Saude Colet. 2014;19(8):3327-34. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1413-81232014198.06952013">https://doi.org/10.1590/1413-81232014198.06952013</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Campolina</surname>
+							<given-names>AG</given-names>
+						</name>
+						<name>
+							<surname>Adami</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Santos</surname>
+							<given-names>JLF</given-names>
+						</name>
+						<name>
+							<surname>Lebrão</surname>
+							<given-names>ML</given-names>
+						</name>
+					</person-group>
+					<article-title>Effect of the elimination of chronic diseases on disability-free life expectancy among elderly individuals in Sao Paulo, Brazil, 2010</article-title>
+					<source>Cienc Saude Colet</source>
+					<year>2014</year>
+					<volume>19</volume>
+					<issue>8</issue>
+					<fpage>3327</fpage>
+					<lpage>3334</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1413-81232014198.06952013">https://doi.org/10.1590/1413-81232014198.06952013</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. Prina AM, Wu YT, Kralj C, Acosta D, Acosta I, Guerra M, et al. Dependence- and disability-free life expectancy across eight low- and middle-income countries: a 10/66 study. J Aging Health. 2020;32(5-6):401-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/0898264319825767">https://doi.org/10.1177/0898264319825767</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Prina</surname>
+							<given-names>AM</given-names>
+						</name>
+						<name>
+							<surname>Wu</surname>
+							<given-names>YT</given-names>
+						</name>
+						<name>
+							<surname>Kralj</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Acosta</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Acosta</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Guerra</surname>
+							<given-names>M</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Dependence- and disability-free life expectancy across eight low- and middle-income countries: a 10/66 study</article-title>
+					<source>J Aging Health</source>
+					<year>2020</year>
+					<volume>32</volume>
+					<season>5-6</season>
+					<fpage>401</fpage>
+					<lpage>409</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/0898264319825767">https://doi.org/10.1177/0898264319825767</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Shrestha LB. Population aging in developing countries. Health Aff (Millwood). 2000;19(3):204-12. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1377/hlthaff.19.3.204">https://doi.org/10.1377/hlthaff.19.3.204</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Shrestha</surname>
+							<given-names>LB</given-names>
+						</name>
+					</person-group>
+					<article-title>Population aging in developing countries</article-title>
+					<source>Health Aff (Millwood)</source>
+					<year>2000</year>
+					<volume>19</volume>
+					<issue>3</issue>
+					<fpage>204</fpage>
+					<lpage>212</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1377/hlthaff.19.3.204">https://doi.org/10.1377/hlthaff.19.3.204</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. Clark BC, Manini TM. Sarcopenia ≠ Dynapenia. J Gerontol A Biol Sci Med Sci. 2008;63(8):829-34. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/gerona/63.8.829">https://doi.org/10.1093/gerona/63.8.829</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Clark</surname>
+							<given-names>BC</given-names>
+						</name>
+						<name>
+							<surname>Manini</surname>
+							<given-names>TM</given-names>
+						</name>
+					</person-group>
+					<article-title>Sarcopenia ≠ Dynapenia</article-title>
+					<source>J Gerontol A Biol Sci Med Sci</source>
+					<year>2008</year>
+					<volume>63</volume>
+					<issue>8</issue>
+					<fpage>829</fpage>
+					<lpage>834</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/gerona/63.8.829">https://doi.org/10.1093/gerona/63.8.829</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. Ling CHY, Gussekloo J, Trompet S, Meskers CGM, Maier AB. Clinical determinants of low handgrip strength and its decline in the oldest old: the Leiden 85-plus Study. Aging Clin Exp Res. 2021;33(5):1307-13. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s40520-020-01639-4">https://doi.org/10.1007/s40520-020-01639-4</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ling</surname>
+							<given-names>CHY</given-names>
+						</name>
+						<name>
+							<surname>Gussekloo</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Trompet</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Meskers</surname>
+							<given-names>CGM</given-names>
+						</name>
+						<name>
+							<surname>Maier</surname>
+							<given-names>AB</given-names>
+						</name>
+					</person-group>
+					<article-title>Clinical determinants of low handgrip strength and its decline in the oldest old: the Leiden 85-plus Study</article-title>
+					<source>Aging Clin Exp Res</source>
+					<year>2021</year>
+					<volume>33</volume>
+					<issue>5</issue>
+					<fpage>1307</fpage>
+					<lpage>1313</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s40520-020-01639-4">https://doi.org/10.1007/s40520-020-01639-4</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. Montes MC, Bortolotto CC, Tomasi E, Gonzalez MC, Barbosa-Silva TG, Domingues MR, et al. Strength and multimorbidity among community-dwelling elderly from southern Brazil. Nutrition. 2020;71:110636. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.nut.2019.110636">https://doi.org/10.1016/j.nut.2019.110636</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Montes</surname>
+							<given-names>MC</given-names>
+						</name>
+						<name>
+							<surname>Bortolotto</surname>
+							<given-names>CC</given-names>
+						</name>
+						<name>
+							<surname>Tomasi</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Gonzalez</surname>
+							<given-names>MC</given-names>
+						</name>
+						<name>
+							<surname>Barbosa-Silva</surname>
+							<given-names>TG</given-names>
+						</name>
+						<name>
+							<surname>Domingues</surname>
+							<given-names>MR</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Strength and multimorbidity among community-dwelling elderly from southern Brazil</article-title>
+					<source>Nutrition</source>
+					<year>2020</year>
+					<volume>71</volume>
+					<size units="pages">110636</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.nut.2019.110636">https://doi.org/10.1016/j.nut.2019.110636</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. Borges VS, Lima-Costa MFF, Andrade FB. A nationwide study on prevalence and factors associated with dynapenia in older adults: ELSI-Brazil. Cad Saude Publica. 2020;36(4):e00107319. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0102-311x00107319">https://doi.org/10.1590/0102-311x00107319</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Borges</surname>
+							<given-names>VS</given-names>
+						</name>
+						<name>
+							<surname>Lima-Costa</surname>
+							<given-names>MFF</given-names>
+						</name>
+						<name>
+							<surname>Andrade</surname>
+							<given-names>FB</given-names>
+						</name>
+					</person-group>
+					<article-title>A nationwide study on prevalence and factors associated with dynapenia in older adults: ELSI-Brazil</article-title>
+					<source>Cad Saude Publica</source>
+					<year>2020</year>
+					<volume>36</volume>
+					<issue>4</issue>
+					<elocation-id>e00107319</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0102-311x00107319">https://doi.org/10.1590/0102-311x00107319</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. Cheval B, Boisgontier MP, Orsholits D, Sieber S, Guessous I, Gabriel R, et al. Association of early- and adult-life socioeconomic circumstances with muscle strength in older age. Age Ageing. 2018;47(3):398-407. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/ageing/afy003">https://doi.org/10.1093/ageing/afy003</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cheval</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Boisgontier</surname>
+							<given-names>MP</given-names>
+						</name>
+						<name>
+							<surname>Orsholits</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Sieber</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Guessous</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Gabriel</surname>
+							<given-names>R</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Association of early- and adult-life socioeconomic circumstances with muscle strength in older age</article-title>
+					<source>Age Ageing</source>
+					<year>2018</year>
+					<volume>47</volume>
+					<issue>3</issue>
+					<fpage>398</fpage>
+					<lpage>407</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/ageing/afy003">https://doi.org/10.1093/ageing/afy003</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. Duchowny KA, Clarke PJ, Peterson MD. Muscle weakness and physical disability in older Americans: longitudinal findings from the U.S. Health and Retirement Study. J Nutr Health Aging. 2018;22(4):501-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s12603-017-0951-y">https://doi.org/10.1007/s12603-017-0951-y</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Duchowny</surname>
+							<given-names>KA</given-names>
+						</name>
+						<name>
+							<surname>Clarke</surname>
+							<given-names>PJ</given-names>
+						</name>
+						<name>
+							<surname>Peterson</surname>
+							<given-names>MD</given-names>
+						</name>
+					</person-group>
+					<article-title>Muscle weakness and physical disability in older Americans: longitudinal findings from the U.S. Health and Retirement Study</article-title>
+					<source>J Nutr Health Aging</source>
+					<year>2018</year>
+					<volume>22</volume>
+					<issue>4</issue>
+					<fpage>501</fpage>
+					<lpage>507</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s12603-017-0951-y">https://doi.org/10.1007/s12603-017-0951-y</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. Alexandre TS, Scholes S, Santos JLF, Duarte YAO, Oliveira C. Dynapenic abdominal obesity increases mortality risk among English and Brazilian older adults: a 10-Year follow-up of the ELSA and SABE studies. J Nutr Health Aging. 2018;22(1):138-44. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s12603-017-0966-4">https://doi.org/10.1007/s12603-017-0966-4</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Alexandre</surname>
+							<given-names>TS</given-names>
+						</name>
+						<name>
+							<surname>Scholes</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Santos</surname>
+							<given-names>JLF</given-names>
+						</name>
+						<name>
+							<surname>Duarte</surname>
+							<given-names>YAO</given-names>
+						</name>
+						<name>
+							<surname>Oliveira</surname>
+							<given-names>C</given-names>
+						</name>
+					</person-group>
+					<article-title>Dynapenic abdominal obesity increases mortality risk among English and Brazilian older adults: a 10-Year follow-up of the ELSA and SABE studies</article-title>
+					<source>J Nutr Health Aging</source>
+					<year>2018</year>
+					<volume>22</volume>
+					<issue>1</issue>
+					<fpage>138</fpage>
+					<lpage>144</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s12603-017-0966-4">https://doi.org/10.1007/s12603-017-0966-4</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. Moreland JD, Richardson JA, Goldsmith CH, Clase CM. muscle weakness and falls in older adults: a systematic review and meta-analysis. J Am Geriatr Soc. 2004;52(7):1121-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1532-5415.2004.52310.x">https://doi.org/10.1111/j.1532-5415.2004.52310.x</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Moreland</surname>
+							<given-names>JD</given-names>
+						</name>
+						<name>
+							<surname>Richardson</surname>
+							<given-names>JA</given-names>
+						</name>
+						<name>
+							<surname>Goldsmith</surname>
+							<given-names>CH</given-names>
+						</name>
+						<name>
+							<surname>Clase</surname>
+							<given-names>CM</given-names>
+						</name>
+					</person-group>
+					<article-title>muscle weakness and falls in older adults: a systematic review and meta-analysis</article-title>
+					<source>J Am Geriatr Soc</source>
+					<year>2004</year>
+					<volume>52</volume>
+					<issue>7</issue>
+					<fpage>1121</fpage>
+					<lpage>1129</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1532-5415.2004.52310.x">https://doi.org/10.1111/j.1532-5415.2004.52310.x</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Scott D, Daly RM, Sanders KM, Ebeling PR. Fall and fracture risk in sarcopenia and dynapenia with and without obesity: the role of lifestyle interventions. Curr Osteoporos Rep. 2015;13(4):235-44. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s11914-015-0274-z">https://doi.org/10.1007/s11914-015-0274-z</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Scott</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Daly</surname>
+							<given-names>RM</given-names>
+						</name>
+						<name>
+							<surname>Sanders</surname>
+							<given-names>KM</given-names>
+						</name>
+						<name>
+							<surname>Ebeling</surname>
+							<given-names>PR</given-names>
+						</name>
+					</person-group>
+					<article-title>Fall and fracture risk in sarcopenia and dynapenia with and without obesity: the role of lifestyle interventions</article-title>
+					<source>Curr Osteoporos Rep</source>
+					<year>2015</year>
+					<volume>13</volume>
+					<issue>4</issue>
+					<fpage>235</fpage>
+					<lpage>244</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s11914-015-0274-z">https://doi.org/10.1007/s11914-015-0274-z</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18. Sui SX, Williams LJ, Holloway-Kew KL, Hyde NK, Anderson KB, Tembo MC, et al. Skeletal muscle density and cognitive function: a cross-sectional study in men. Calcif Tissue Int. 2021;108(2):165-75. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s00223-020-00759-3">https://doi.org/10.1007/s00223-020-00759-3</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Sui</surname>
+							<given-names>SX</given-names>
+						</name>
+						<name>
+							<surname>Williams</surname>
+							<given-names>LJ</given-names>
+						</name>
+						<name>
+							<surname>Holloway-Kew</surname>
+							<given-names>KL</given-names>
+						</name>
+						<name>
+							<surname>Hyde</surname>
+							<given-names>NK</given-names>
+						</name>
+						<name>
+							<surname>Anderson</surname>
+							<given-names>KB</given-names>
+						</name>
+						<name>
+							<surname>Tembo</surname>
+							<given-names>MC</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Skeletal muscle density and cognitive function: a cross-sectional study in men</article-title>
+					<source>Calcif Tissue Int</source>
+					<year>2021</year>
+					<volume>108</volume>
+					<issue>2</issue>
+					<fpage>165</fpage>
+					<lpage>175</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s00223-020-00759-3">https://doi.org/10.1007/s00223-020-00759-3</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19. Newman AB, Kupelian V, Visser M, Simonsick EM, Goodpaster BH, Kritchevsky SB, et al. Strength, but not muscle mass, is associated with mortality in the Health, Aging and Body Composition study cohort. J Gerontol A Biol Sci Med Sci. 2006;61(1):72-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/gerona/61.1.72">https://doi.org/10.1093/gerona/61.1.72</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Newman</surname>
+							<given-names>AB</given-names>
+						</name>
+						<name>
+							<surname>Kupelian</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Visser</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Simonsick</surname>
+							<given-names>EM</given-names>
+						</name>
+						<name>
+							<surname>Goodpaster</surname>
+							<given-names>BH</given-names>
+						</name>
+						<name>
+							<surname>Kritchevsky</surname>
+							<given-names>SB</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Strength, but not muscle mass, is associated with mortality in the Health, Aging and Body Composition study cohort</article-title>
+					<source>J Gerontol A Biol Sci Med Sci</source>
+					<year>2006</year>
+					<volume>61</volume>
+					<issue>1</issue>
+					<fpage>72</fpage>
+					<lpage>77</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/gerona/61.1.72">https://doi.org/10.1093/gerona/61.1.72</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20. Murray CJL, Salomon JA, Mathers C. A critical examination of summary measures of population health. Bull World Health Organ. 2000 [cited 2021 Jun 5];78(8):981-94. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.who.int/healthinfo/paper02.pdf">https://www.who.int/healthinfo/paper02.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Murray</surname>
+							<given-names>CJL</given-names>
+						</name>
+						<name>
+							<surname>Salomon</surname>
+							<given-names>JA</given-names>
+						</name>
+						<name>
+							<surname>Mathers</surname>
+							<given-names>C</given-names>
+						</name>
+					</person-group>
+					<article-title>A critical examination of summary measures of population health</article-title>
+					<source>Bull World Health Organ</source>
+					<year>2000</year>
+					<date-in-citation content-type="cited-date">cited 2021 Jun 5</date-in-citation>
+					<volume>78</volume>
+					<issue>8</issue>
+					<fpage>981</fpage>
+					<lpage>994</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.who.int/healthinfo/paper02.pdf">https://www.who.int/healthinfo/paper02.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>21. Lima-Costa MF, Andrade FB, Souza Jr PRB de, Neri AL, Duarte YAO, Castro-Costa E, et al. The Brazilian Longitudinal Study of Aging (ELSI-Brazil): objectives and design. Am J Epidemiol. 2018;187(7):1345-53. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/aje/kwx387">https://doi.org/10.1093/aje/kwx387</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lima-Costa</surname>
+							<given-names>MF</given-names>
+						</name>
+						<name>
+							<surname>Andrade</surname>
+							<given-names>FB</given-names>
+						</name>
+						<name>
+							<surname>Souza</surname>
+							<given-names>PRB de</given-names>
+							<suffix>Jr</suffix>
+						</name>
+						<name>
+							<surname>Neri</surname>
+							<given-names>AL</given-names>
+						</name>
+						<name>
+							<surname>Duarte</surname>
+							<given-names>YAO</given-names>
+						</name>
+						<name>
+							<surname>Castro-Costa</surname>
+							<given-names>E</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>The Brazilian Longitudinal Study of Aging (ELSI-Brazil): objectives and design</article-title>
+					<source>Am J Epidemiol</source>
+					<year>2018</year>
+					<volume>187</volume>
+					<issue>7</issue>
+					<fpage>1345</fpage>
+					<lpage>1353</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/aje/kwx387">https://doi.org/10.1093/aje/kwx387</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>22. Cruz-Jentoft AJ, Bahat G, Bauer J, Boirie Y, Bruyère O, Cederholm T, et al. Sarcopenia: revised European consensus on definition and diagnosis. Age Aging; 2019;48(4):601. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/ageing/afz046">https://doi.org/10.1093/ageing/afz046</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cruz-Jentoft</surname>
+							<given-names>AJ</given-names>
+						</name>
+						<name>
+							<surname>Bahat</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Bauer</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Boirie</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Bruyère</surname>
+							<given-names>O</given-names>
+						</name>
+						<name>
+							<surname>Cederholm</surname>
+							<given-names>T</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Sarcopenia: revised European consensus on definition and diagnosis</article-title>
+					<source>Age Aging</source>
+					<year>2019</year>
+					<volume>48</volume>
+					<issue>4</issue>
+					<size units="pages">601</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/ageing/afz046">https://doi.org/10.1093/ageing/afz046</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>23. Dodds RM, Syddall HE, Cooper R, Benzeval M, Deary IJ, Dennison EM, et al. Grip strength across the life course: normative data from twelve British studies. PLoS One. 2014;9(12):e113637. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0113637">https://doi.org/10.1371/journal.pone.0113637</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Dodds</surname>
+							<given-names>RM</given-names>
+						</name>
+						<name>
+							<surname>Syddall</surname>
+							<given-names>HE</given-names>
+						</name>
+						<name>
+							<surname>Cooper</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Benzeval</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Deary</surname>
+							<given-names>IJ</given-names>
+						</name>
+						<name>
+							<surname>Dennison</surname>
+							<given-names>EM</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Grip strength across the life course: normative data from twelve British studies</article-title>
+					<source>PLoS One</source>
+					<year>2014</year>
+					<volume>9</volume>
+					<issue>12</issue>
+					<elocation-id>e113637</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0113637">https://doi.org/10.1371/journal.pone.0113637</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>24. Camargos MCS, Gonzaga MR, Costa JV, Bomfim WC. Estimativas de expectativa de vida livre de incapacidade funcional para Brasil e Grandes Regiões, 1998 e 2013. Cienc Saude Colet. 2019;24(3):737-47. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1413-81232018243.07612017">https://doi.org/10.1590/1413-81232018243.07612017</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Camargos</surname>
+							<given-names>MCS</given-names>
+						</name>
+						<name>
+							<surname>Gonzaga</surname>
+							<given-names>MR</given-names>
+						</name>
+						<name>
+							<surname>Costa</surname>
+							<given-names>JV</given-names>
+						</name>
+						<name>
+							<surname>Bomfim</surname>
+							<given-names>WC</given-names>
+						</name>
+					</person-group>
+					<article-title>Estimativas de expectativa de vida livre de incapacidade funcional para Brasil e Grandes Regiões, 1998 e 2013</article-title>
+					<source>Cienc Saude Colet</source>
+					<year>2019</year>
+					<volume>24</volume>
+					<issue>3</issue>
+					<fpage>737</fpage>
+					<lpage>747</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1413-81232018243.07612017">https://doi.org/10.1590/1413-81232018243.07612017</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>25. Jagger C, Cox B, Le Roy S; the EHEMU Team. Health expectancy calculation by the Sullivan Method: a practical guide. 3. ed. Montpellier (FR): European Health Expectancy Monitoring Unit; 2006. (EHEMU Technical Report 2006).</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Jagger</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Cox</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Le Roy</surname>
+							<given-names>S</given-names>
+						</name>
+						<collab>the EHEMU Team</collab>
+					</person-group>
+					<source>Health expectancy calculation by the Sullivan Method: a practical guide</source>
+					<edition>3</edition>
+					<publisher-loc>Montpellier (FR)</publisher-loc>
+					<publisher-name>European Health Expectancy Monitoring Unit</publisher-name>
+					<year>2006</year>
+					<comment>EHEMU Technical Report 2006</comment>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation>26. Freedman VA, Wolf DA, Spillman BC. Disability-free life expectancy over 30 years: a growing female disadvantage in the US population. Am J Public Health. 2016;106(6):1079-85. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2105/AJPH.2016.303089">https://doi.org/10.2105/AJPH.2016.303089</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Freedman</surname>
+							<given-names>VA</given-names>
+						</name>
+						<name>
+							<surname>Wolf</surname>
+							<given-names>DA</given-names>
+						</name>
+						<name>
+							<surname>Spillman</surname>
+							<given-names>BC</given-names>
+						</name>
+					</person-group>
+					<article-title>Disability-free life expectancy over 30 years: a growing female disadvantage in the US population</article-title>
+					<source>Am J Public Health</source>
+					<year>2016</year>
+					<volume>106</volume>
+					<issue>6</issue>
+					<fpage>1079</fpage>
+					<lpage>1085</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2105/AJPH.2016.303089">https://doi.org/10.2105/AJPH.2016.303089</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<mixed-citation>27. Santosa A, Schröders J, Vaezghasemi M, Ng N. Inequality in disability-free life expectancies among older men and women in six countries with developing economies. J Epidemiol Community Health. 2016;(9):855-61. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/jech-2015-206640">https://doi.org/10.1136/jech-2015-206640</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Santosa</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Schröders</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Vaezghasemi</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Ng</surname>
+							<given-names>N</given-names>
+						</name>
+					</person-group>
+					<article-title>Inequality in disability-free life expectancies among older men and women in six countries with developing economies</article-title>
+					<source>J Epidemiol Community Health</source>
+					<year>2016</year>
+					<issue>9</issue>
+					<fpage>855</fpage>
+					<lpage>861</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/jech-2015-206640">https://doi.org/10.1136/jech-2015-206640</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<mixed-citation>28. Taekema DG, Gussekloo J, Maier AB, Westendorp RGJ, Craen AJM. Handgrip strength as a predictor of functional, psychological and social health. A prospective population-based study among the oldest old. Age Ageing. 2010;39(3):331-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/ageing/afq022">https://doi.org/10.1093/ageing/afq022</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Taekema</surname>
+							<given-names>DG</given-names>
+						</name>
+						<name>
+							<surname>Gussekloo</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Maier</surname>
+							<given-names>AB</given-names>
+						</name>
+						<name>
+							<surname>Westendorp</surname>
+							<given-names>RGJ</given-names>
+						</name>
+						<name>
+							<surname>Craen</surname>
+							<given-names>AJM</given-names>
+						</name>
+					</person-group>
+					<article-title>Handgrip strength as a predictor of functional, psychological and social health. A prospective population-based study among the oldest old</article-title>
+					<source>Age Ageing</source>
+					<year>2010</year>
+					<volume>39</volume>
+					<issue>3</issue>
+					<fpage>331</fpage>
+					<lpage>337</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/ageing/afq022">https://doi.org/10.1093/ageing/afq022</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B29">
+				<label>29</label>
+				<mixed-citation>29. World Health Organization. Global health risks: mortality and burden of disease attributable to selected major risks. Geneva (CH): WHO; 2009 [cited 2021 Jun 5]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.who.int/healthinfo/global_burden_disease/GlobalHealthRisks_report_full.pdf">https://www.who.int/healthinfo/global_burden_disease/GlobalHealthRisks_report_full.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>World Health Organization</collab>
+					</person-group>
+					<source>Global health risks: mortality and burden of disease attributable to selected major risks</source>
+					<publisher-loc>Geneva (CH)</publisher-loc>
+					<publisher-name>WHO</publisher-name>
+					<year>2009</year>
+					<date-in-citation content-type="cited-date">cited 2021 Jun 5</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.who.int/healthinfo/global_burden_disease/GlobalHealthRisks_report_full.pdf">https://www.who.int/healthinfo/global_burden_disease/GlobalHealthRisks_report_full.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B30">
+				<label>30</label>
+				<mixed-citation>30. Chiu C-T. Living arrangements and disability-free life expectancy in the United States. PLoS One. 2019;14(2):e0211894. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0211894">https://doi.org/10.1371/journal.pone.0211894</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Chiu</surname>
+							<given-names>C-T</given-names>
+						</name>
+					</person-group>
+					<article-title>Living arrangements and disability-free life expectancy in the United States</article-title>
+					<source>PLoS One</source>
+					<year>2019</year>
+					<volume>14</volume>
+					<issue>2</issue>
+					<elocation-id>e0211894</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0211894">https://doi.org/10.1371/journal.pone.0211894</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B31">
+				<label>31</label>
+				<mixed-citation>31. Solé-Auró A, Beltrán-Sánchez H, Crimmins EM. Are differences in disability-free life expectancy by gender, race, and education widening at older ages? Popul Res Policy Rev. 2015;34(1):1-18. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s11113-014-9337-6">https://doi.org/10.1007/s11113-014-9337-6</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Solé-Auró</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Beltrán-Sánchez</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Crimmins</surname>
+							<given-names>EM</given-names>
+						</name>
+					</person-group>
+					<article-title>Are differences in disability-free life expectancy by gender, race, and education widening at older ages?</article-title>
+					<source>Popul Res Policy Rev</source>
+					<year>2015</year>
+					<volume>34</volume>
+					<issue>1</issue>
+					<fpage>1</fpage>
+					<lpage>18</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s11113-014-9337-6">https://doi.org/10.1007/s11113-014-9337-6</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B32">
+				<label>32</label>
+				<mixed-citation>32. Valverde JR, Mackenbach J, Bopp M, Brønnum-Hansen H, Deboosere P, Kalediene R, et al. Determinants of educational inequalities in disability-free life expectancy between ages 35 and 80 in Europe. SSM Popul Health. 2021;13:100740. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ssmph.2021.100740">https://doi.org/10.1016/j.ssmph.2021.100740</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Valverde</surname>
+							<given-names>JR</given-names>
+						</name>
+						<name>
+							<surname>Mackenbach</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Bopp</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Brønnum-Hansen</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Deboosere</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Kalediene</surname>
+							<given-names>R</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Determinants of educational inequalities in disability-free life expectancy between ages 35 and 80 in Europe</article-title>
+					<source>SSM Popul Health</source>
+					<year>2021</year>
+					<volume>13</volume>
+					<size units="pages">100740</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.ssmph.2021.100740">https://doi.org/10.1016/j.ssmph.2021.100740</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B33">
+				<label>33</label>
+				<mixed-citation>33. Martin LG, Schoeni RF. Trends in disability and related chronic conditions among the forty-and-over population: 1997-2010. Disabil Health J. 2014;7(1 Suppl):S4-14. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.dhjo.2013.06.007">https://doi.org/10.1016/j.dhjo.2013.06.007</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Martin</surname>
+							<given-names>LG</given-names>
+						</name>
+						<name>
+							<surname>Schoeni</surname>
+							<given-names>RF</given-names>
+						</name>
+					</person-group>
+					<article-title>Trends in disability and related chronic conditions among the forty-and-over population: 1997-2010</article-title>
+					<source>Disabil Health J</source>
+					<year>2014</year>
+					<volume>7</volume>
+					<issue>1</issue>
+					<supplement>Suppl</supplement>
+					<fpage>S4</fpage>
+					<lpage>14</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.dhjo.2013.06.007">https://doi.org/10.1016/j.dhjo.2013.06.007</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B34">
+				<label>34</label>
+				<mixed-citation>34. Moreno X, Lera L, Moreno F, Albala C. Socioeconomic inequalities in life expectancy and disability-free life expectancy among Chilean older adults: evidence from a longitudinal study. BMC Geriatr. 2021;21:176. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12877-021-02126-9">https://doi.org/10.1186/s12877-021-02126-9</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Moreno</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Lera</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Moreno</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Albala</surname>
+							<given-names>C</given-names>
+						</name>
+					</person-group>
+					<article-title>Socioeconomic inequalities in life expectancy and disability-free life expectancy among Chilean older adults: evidence from a longitudinal study</article-title>
+					<source>BMC Geriatr</source>
+					<year>2021</year>
+					<volume>21</volume>
+					<size units="pages">176</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12877-021-02126-9">https://doi.org/10.1186/s12877-021-02126-9</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B35">
+				<label>35</label>
+				<mixed-citation>35. Williams DR, Collins C. US Socioeconomic and racial differences in health: patterns and explanations. Annu Rev Sociol. 1995;21:349-86. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1146/annurev.so.21.080195.002025">https://doi.org/10.1146/annurev.so.21.080195.002025</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Williams</surname>
+							<given-names>DR</given-names>
+						</name>
+						<name>
+							<surname>Collins</surname>
+							<given-names>C</given-names>
+						</name>
+					</person-group>
+					<article-title>US Socioeconomic and racial differences in health: patterns and explanations</article-title>
+					<source>Annu Rev Sociol</source>
+					<year>1995</year>
+					<volume>21</volume>
+					<fpage>349</fpage>
+					<lpage>386</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1146/annurev.so.21.080195.002025">https://doi.org/10.1146/annurev.so.21.080195.002025</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B36">
+				<label>36</label>
+				<mixed-citation>36. Harper S. Economic and social implications of aging societies. Science. 2014;346(6209):587-91. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1126/science.1254405">https://doi.org/10.1126/science.1254405</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Harper</surname>
+							<given-names>S</given-names>
+						</name>
+					</person-group>
+					<article-title>Economic and social implications of aging societies</article-title>
+					<source>Science</source>
+					<year>2014</year>
+					<volume>346</volume>
+					<issue>6209</issue>
+					<fpage>587</fpage>
+					<lpage>591</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1126/science.1254405">https://doi.org/10.1126/science.1254405</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B37">
+				<label>37</label>
+				<mixed-citation>37. Mathers CD, Robine JM. How good is Sullivan’s method for monitoring changes in population health expectancies? J Epidemiol Community Health. 1997;51(1):80-6. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/jech.51.1.80">https://doi.org/10.1136/jech.51.1.80</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Mathers</surname>
+							<given-names>CD</given-names>
+						</name>
+						<name>
+							<surname>Robine</surname>
+							<given-names>JM</given-names>
+						</name>
+					</person-group>
+					<article-title>How good is Sullivan’s method for monitoring changes in population health expectancies?</article-title>
+					<source>J Epidemiol Community Health</source>
+					<year>1997</year>
+					<volume>51</volume>
+					<issue>1</issue>
+					<fpage>80</fpage>
+					<lpage>86</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/jech.51.1.80">https://doi.org/10.1136/jech.51.1.80</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="financial-disclosure" id="fn2">
+				<p><bold>Funding:</bold> <italic>Conselho Nacional de Desenvolvimento Científico e Tecnológico</italic> (CNPq - Research productivity scholarship for MCSC - Process 307879/2019-4).</p>
+			</fn>
+		</fn-group>
+	</back>
+</article>

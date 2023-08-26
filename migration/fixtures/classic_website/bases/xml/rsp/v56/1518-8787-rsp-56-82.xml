@@ -1,0 +1,1967 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.1" specific-use="sps-1.9" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="nlm-ta">Rev Saude Publica</journal-id>
+			<journal-id journal-id-type="publisher-id">rsp</journal-id>
+			<journal-title-group>
+				<journal-title>Revista de Saúde Pública</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Rev. Saúde Pública</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="ppub">0034-8910</issn>
+			<issn pub-type="epub">1518-8787</issn>
+			<publisher>
+				<publisher-name>Faculdade de Saúde Pública da Universidade de São Paulo</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="other">00269</article-id>
+			<article-id pub-id-type="doi">10.11606/s1518-8787.2022056004210</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Original Article</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Mortality in Brazilian federal highway police officers: time series from 2001 to 2020</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-4099-4022</contrib-id>
+					<name>
+						<surname>Marins</surname>
+						<given-names>Eduardo Frio</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-2616-0083</contrib-id>
+					<name>
+						<surname>Ferreira</surname>
+						<given-names>Rodrigo Wiltgen</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>III</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-2011-5529</contrib-id>
+					<name>
+						<surname>Freitas</surname>
+						<given-names>Flávio Castagna de</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-7837-6874</contrib-id>
+					<name>
+						<surname>Dutra</surname>
+						<given-names>Geovana Ferreira de Andrade Alves</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-8621-6002</contrib-id>
+					<name>
+						<surname>Vasconcelos</surname>
+						<given-names>José Rossy e</given-names>
+						<suffix>Júnior</suffix>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-3515-9308</contrib-id>
+					<name>
+						<surname>Caputo</surname>
+						<given-names>Eduardo Lucia</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>I</label>
+				<institution content-type="orgname">Polícia Rodoviária Federal</institution>
+				<addr-line>
+					<named-content content-type="city">Brasília</named-content>
+					<named-content content-type="state">DF</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Polícia Rodoviária Federal. Brasília, DF, Brasil</institution>
+			</aff>
+			<aff id="aff2">
+				<label>II</label>
+				<institution content-type="orgname">Universidade Federal de Pelotas</institution>
+				<institution content-type="orgdiv1">Escola Superior de Educação Física</institution>
+				<institution content-type="orgdiv2">Programa de Pós-Graduação em Educação Física</institution>
+				<addr-line>
+					<named-content content-type="city">Pelotas</named-content>
+					<named-content content-type="state">RS</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Universidade Federal de Pelotas. Escola Superior de Educação Física. Programa de Pós-Graduação em Educação Física. Pelotas, RS, Brasil</institution>
+			</aff>
+			<aff id="aff3">
+				<label>III</label>
+				<institution content-type="orgname">Instituto Federal de Educação, Ciência e Tecnologia Farroupilha</institution>
+				<addr-line>
+					<named-content content-type="city">São Borja</named-content>
+					<named-content content-type="state">RS</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Instituto Federal de Educação, Ciência e Tecnologia Farroupilha. Campus São Borja. São Borja, RS, Brasil</institution>
+			</aff>
+			<author-notes>
+				<corresp id="c01"> Correspondence: Eduardo Frio Marins Escola Superior de Educação Física Rua Luiz de Camões, 625 96055-630 Pelotas, RS, Brasil E-mail: <email>dudufrio@gmail.com</email>
+				</corresp>
+				<fn fn-type="con">
+					<p>Authors’ Contribution: Study design and planning: EFM, FCF, GFAAD, and JRVJ. Data collection, analysis, and interpretation: EFM, RWF, FCF, GFAAD, JRVJ, and ELC. Manuscript development and review: EFM, RWF, FCF, GFAAD, JRVJ, and ELC. Approval of the final version: EFM, RWF, FCF, GFAAD, JRVJ, and ELC. Public responsibility for the content of the article: EFM, RWF, FCF, GFAAD, JRVJ, and ELC.</p>
+				</fn>
+				<fn fn-type="conflict">
+					<p>Conflict of Interest: The authors declare no conflict of interest.</p>
+				</fn>
+			</author-notes>
+			<pub-date date-type="pub" publication-format="electronic">
+				<day>16</day>
+				<month>09</month>
+				<year>2022</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">
+				<year>2022</year>
+			</pub-date>
+			<volume>56</volume>
+			<elocation-id>82</elocation-id>
+			<history>
+				<date date-type="received">
+					<day>12</day>
+					<month>09</month>
+					<year>2021</year>
+				</date>
+				<date date-type="accepted">
+					<day>17</day>
+					<month>11</month>
+					<year>2021</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="en">
+					<license-p> This is an Open Access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. </license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>ABSTRACT</title>
+				<sec>
+					<title>OBJECTIVE</title>
+					<p> To analyze the mortality trend from all causes in Brazilian federal highway police officers from 2001 to 2020.</p>
+				</sec>
+				<sec>
+					<title>METHODS</title>
+					<p> This is an ecological time-series study based on mortality official data from the Brazilian federal highway police registry system and death certificates from the federal registry system. Deaths of active police officers from 2001 to 2020 were assessed. We performed a descriptive analysis reporting proportions and incidence rates per 1,000 police officers. The chi-square test was used for bivariate analyzes and Prais-Winsten regression was used for trend analysis.</p>
+				</sec>
+				<sec>
+					<title>RESULTS</title>
+					<p> Among 346 deaths, 146 were from natural and 189 from unnatural causes (11 were from undefined causes). Most deaths occurred among police officers who were men (n = 333; 96.3%), over 35 years old (n = 265; 76.6%), whose service time was up to 15 years (n = 185; 53.5%), living in Northeast Brazil, and from unnatural causes (n = 189; 56.4%). The absolute number of deaths presented a decreasing trend throughout the series (p = -0.78; 95%CI: -1.03 to -0.5). Traffic accidents (n = 96; 28.7%), cardiovascular diseases (n = 58; 17.3%), interpersonal violence (n = 51; 15.2%), suicides (n = 35; 10.5%), and malignant neoplasms (n = 35; 10.4%) were the main causes of death. Most natural deaths occurred among police officers who were 51–73 years old (68.3%; 95%CI: 58.6 to 76.7) and worked more than 26 years (64.7%; 95%CI: 52.7 to 75.1), while most unnatural deaths occurred among officers who were 19–35 years old (87.3%; 95%CI: 78.0 to 93.1) and worked up to 15 years (70.2%; 95%CI: 63.1 to 76.4).</p>
+				</sec>
+				<sec>
+					<title>CONCLUSION</title>
+					<p> The mortality trend in Brazilian federal highway police officers decreased within the period studied. Understanding mortality causes may help to develop policies for disease prevention and health protection of police officers.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="en">
+				<kwd>Police</kwd>
+				<kwd>Mortality, trends</kwd>
+				<kwd>Cause of Death</kwd>
+				<kwd>Time Series Studies</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="6"/>
+				<table-count count="6"/>
+				<equation-count count="0"/>
+				<ref-count count="25"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>INTRODUCTION</title>
+			<p>During their work routine, police officers perform a wide range of tasks that are risky and potentially harmful to health<sup><xref ref-type="bibr" rid="B1">1</xref> , <xref ref-type="bibr" rid="B2">2</xref></sup> . Intense physical efforts (e.g., pursuing criminals who resists arrest), traumatic events (e.g., attending accidents with victims), sound and chemical stress (e.g., exposure to high levels of noise and carbon dioxide), and threats to physical and psychological health (e.g., participation in armed confrontations) are some risks inherent in this profession<sup><xref ref-type="bibr" rid="B1">1</xref> , <xref ref-type="bibr" rid="B3">3</xref></sup> . Due to the characteristics of their work regime (shift work), police officers may undergo changes in circadian rhythm and sleep disorders<sup><xref ref-type="bibr" rid="B4">4</xref> , <xref ref-type="bibr" rid="B5">5</xref></sup> .</p>
+			<p>A study performed with New York police officers presented a significant increase in mortality rates from all causes of death, malignant and benign neoplasms, liver cirrhosis, and all diseases of the circulatory system from 1950 to 2005<sup><xref ref-type="bibr" rid="B6">6</xref></sup> . In Brazil, a study performed with Rio de Janeiro police officers (civil and military) and municipal guards showed that aggression and traffic accidents were the main causes of death from 1994 to 2004<sup><xref ref-type="bibr" rid="B7">7</xref></sup> . Moreover, these workers also suffer from other health problems, such as cancer and cardiovascular diseases<sup><xref ref-type="bibr" rid="B2">2</xref></sup> , and are highly exposed to risk situations inherent with their profession, which can increase the number of deaths from external causes, such as interpersonal violence and suicide<sup><xref ref-type="bibr" rid="B7">7</xref></sup> .</p>
+			<p>The existence of multiple risk factors in this profession provides a compelling reason to study the main causes of mortality among police officers. However, to date literature lacks on this topic regarding police officers, especially within Brazilian police forces, such as the federal highway police (FHP)<sup><xref ref-type="bibr" rid="B6">6</xref></sup> . Developing scientific knowledge to map and categorize the main causes of death in FHP officers may contribute in a great extent to decision makers when promoting public health policies, better professional training actions, and disease prevention projects, as well as in the police officers’ health promotion.</p>
+			<p>Therefore, this study aimed to describe and analyze the time series of mortality in active FHP officers from January 1, 2001 to December 31, 2020.</p>
+		</sec>
+		<sec sec-type="methods">
+			<title>METHODS</title>
+			<p>This is an observational study with an analytical and exploratory ecological design of FHP officers’ mortality time series from all over Brazil from 2001 to 2020.</p>
+			<p>Police officers who were active from January 1, 2001 to December 31, 2020, whose deaths were reported, were included in this study. Administrative staff and retired police officers were excluded.</p>
+			<p>Data on deaths were assessed from the responsible departments, according to the FHP organizational structure. <xref ref-type="fig" rid="f01">Figure 1</xref> shows the sampling process.</p>
+			<p>
+				<fig id="f01">
+					<label>Figure 1</label>
+					<caption>
+						<title>Flowchart of the sampling process to obtain data on deaths within the organizational structure of the FHP.</title>
+						<p>FHP: Brazilian federal highway police; DICAD: Registration Division.</p>
+					</caption>
+					<graphic xlink:href="1518-8787-rsp-56-82-gf01.tif"/>
+				</fig>
+			</p>
+			<p>The underlying causes of death were assessed from individuals death certificate, afterwards the authors of this study, who are health experts, (EFM, FCF, and JRVJ) grouped and coded each certificate according to the cause-of-death category and definition under the International Classification of Diseases 10<sup>th</sup> Revision (ICD-10)<sup><xref ref-type="bibr" rid="B12">12</xref></sup> . When the death was classified as undetermined in the death certificate, we classified as ill-defined/undetermined causes. Deaths were categorized as natural and unnatural, according to the Brazilian Ministry of Health classification.</p>
+			<p>Sex (men and women), age at the time of death (years), service time (full years), and the region of Brazil where the officer worked were the independent variables. Age and service time were later categorized based on the population distribution in each variable.</p>
+			<p>Data analyzes was based on descriptive statistics by the number of absolute and relative cases and their respective 95% confidence intervals (95%CI). Prais-Winsten regression with robust variance was used to analyze the mortality trend<sup><xref ref-type="bibr" rid="B13">13</xref></sup> . Deaths absolute frequency was the outcome variable used in the model. The years of the historical series was the exposure variable. The series increased when the model coefficient was positive, decreased when it was negative, and remained unchanged when its value and zero presented no significant difference (p &gt; 0.05)<sup><xref ref-type="bibr" rid="B13">13</xref></sup> . Bivariate analyzes between the outcome and exposures of interest were performed using the chi-square test. Finally, the outcome was assessed based on its relative incidence rate, according to the number of police officers in each year studied. The 5% significance level was considered. All analyzes were performed in the statistical software Stata 15.1.</p>
+			<p>This study was approved by the Research Ethics Committee of the <italic>Escola Superior de Educação Física</italic> of the <italic>Universidade Federal de Pelotas</italic> , RS, under protocol no. 47809721.8.0000.5313.</p>
+		</sec>
+		<sec sec-type="results">
+			<title>RESULTS</title>
+			<p>From 2001 to 2020, 346 active FHP officers died. Among these, 11 deaths (3.2%) were undetermined and were excluded from the bivariate analyzes, totaling 335 deaths with confirmed cause. The police officers included had a mean age of 44.7 years old (SD = 10.8) and worked in the FHP for 15.9 years (SD = 10.6). Most deaths during this period occurred among officers who were men, older than 35 years, worked up to 15 years, and lived in Northeast Brazil ( <xref ref-type="table" rid="t1">Table 1</xref> ). The proportion of unnatural deaths was higher (56.4%) ( <xref ref-type="table" rid="t1">Table 1</xref> ).</p>
+			<p>
+				<table-wrap id="t1">
+					<label>Table 1</label>
+					<caption>
+						<title>Number and percentage of deaths in federal highway police officers according to sex, age, service time, region of Brazil, and cause of death, under the categorization of the Brazilian Ministry of Health. Brazil, 2001–2021 (n = 346).</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup width="50%">
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left" rowspan="1" style="font-weight:normal">
+								</th>
+								<th>Deaths</th>
+							</tr>
+							<tr>
+								<th align="left" style="font-weight:normal">
+								</th>
+								<th>
+									<hr/>
+								</th>
+							</tr>
+							<tr>
+								<th align="left" style="font-weight:normal">
+								</th>
+								<th>n (%)</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Sex</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Men</td>
+								<td align="center">333 (96.3)</td>
+							</tr>
+							<tr>
+								<td>Women</td>
+								<td align="center">13 (3.7)</td>
+							</tr>
+							<tr>
+								<td>Age (years old)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>19–35</td>
+								<td align="center">81 (23.4)</td>
+							</tr>
+							<tr>
+								<td>36–50</td>
+								<td align="center">160 (46.2)</td>
+							</tr>
+							<tr>
+								<td>51–73</td>
+								<td align="center">105 (30.4)</td>
+							</tr>
+							<tr>
+								<td>Service time (years)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>≤ 15</td>
+								<td align="center">185 (53.5)</td>
+							</tr>
+							<tr>
+								<td>16–25</td>
+								<td align="center">90 (26.0)</td>
+							</tr>
+							<tr>
+								<td>≥ 26</td>
+								<td align="center">71 (20.5)</td>
+							</tr>
+							<tr>
+								<td>Region of Brazil</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>North</td>
+								<td align="center">35 (10.1)</td>
+							</tr>
+							<tr>
+								<td>Midwest</td>
+								<td align="center">44 (12.7)</td>
+							</tr>
+							<tr>
+								<td>Northeast</td>
+								<td align="center">114 (33.0)</td>
+							</tr>
+							<tr>
+								<td>Southeast</td>
+								<td align="center">98 (28.3)</td>
+							</tr>
+							<tr>
+								<td>South</td>
+								<td align="center">55 (15.9)</td>
+							</tr>
+							<tr>
+								<td>Cause of death<sup>a</sup></td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Natural death/disease</td>
+								<td align="center">146 (43.6)</td>
+							</tr>
+							<tr>
+								<td>Unnatural death/external cause</td>
+								<td align="center">189 (56.4)</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN1">
+							<p><sup>a</sup> 11 death reports were lost (undetermined cause).</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>The average number of deaths over the period was 17.4 deaths/year, ranging from seven to 29 deaths in 2013 and 2001, respectively ( <xref ref-type="fig" rid="f02">Figure 2</xref> ). The number of deaths, regarding the absolute amount and the mean value, decreased in the second decade of the period studied (2011–2020) when compared with the first (2001–2010) (12.3 and 22.3 mean deaths, respectively). Based on the Prais-Winsten regression results, we observed a significant decrease trend in the number of deaths over the period (-0.78 deaths/year) (95%CI: -1.03 to -0.50; p &lt; 0.001).</p>
+			<p>
+				<fig id="f02">
+					<label>Figure 2</label>
+					<caption>
+						<title>Absolute and relative frequencies (%) and Prais-Winsten regression of estimated deaths in federal highway police officers in the last 20 years (2001–2020) (n = 346).</title>
+					</caption>
+					<graphic xlink:href="1518-8787-rsp-56-82-gf02.tif"/>
+				</fig>
+			</p>
+			<p>
+				<xref ref-type="table" rid="t2">Table 2</xref> presents the absolute and relative values from specific causes of death, according to the Brazilian Ministry of Health classification. Traffic accidents (28.7%) were the main cause of death, followed by cardiovascular diseases (17.3%), interpersonal violence (15.2%), suicides (10.5%), and malignant neoplasms (10.4%). During the period studied, 54.4% of total deaths were from traffic accidents, interpersonal violence, and suicides (unnatural deaths), and they represent 96.3% of all unnatural deaths over the period.</p>
+			<p>
+				<table-wrap id="t2">
+					<label>Table 2</label>
+					<caption>
+						<title>Characteristics of deaths in federal highway police officers in descending order from 2001 to 2020, total and stratified, according to the categorization of the Brazilian Ministry of Health (n = 335).</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup width="25%">
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left" colspan="1" rowspan="5">Characteristics</th>
+								<th colspan="3">Deaths</th>
+							</tr>
+							<tr>
+								<th colspan="3">
+									<hr/>
+								</th>
+							</tr>
+							<tr>
+								<th>Total</th>
+								<th>Natural death/disease</th>
+								<th>Unnatural death/external cause</th>
+							</tr>
+							<tr>
+								<th>
+									<hr/>
+								</th>
+								<th>
+									<hr/>
+								</th>
+								<th>
+									<hr/>
+								</th>
+							</tr>
+							<tr>
+								<th>n (%)</th>
+								<th>% (95%Cl)</th>
+								<th>% (95%Cl)</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Traffic accident</td>
+								<td align="center">96 (28.7)</td>
+								<td>
+								</td>
+								<td align="center">50.5 (43.4–57.6)</td>
+							</tr>
+							<tr>
+								<td>Cardiovascular diseases</td>
+								<td align="center">58 (17.3)</td>
+								<td align="center">39.7 (32.1–47.9)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Interpersonal violence</td>
+								<td align="center">51 (15.2)</td>
+								<td>
+								</td>
+								<td align="center">26.8 (21.0–33.6)</td>
+							</tr>
+							<tr>
+								<td>Suicide</td>
+								<td align="center">36 (10.5)</td>
+								<td>
+								</td>
+								<td align="center">18.9 (14.0–25.2)</td>
+							</tr>
+							<tr>
+								<td>Malignant neoplasms</td>
+								<td align="center">35 (10.4)</td>
+								<td align="center">24.0 (17.7–31.6)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Digestive diseases</td>
+								<td align="center">20 (6.0)</td>
+								<td align="center">13.7 (9.0–20.3)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Infectious and parasitic diseases</td>
+								<td align="center">14 (4.2)</td>
+								<td align="center">9.6 (5.8–15.6)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Respiratory infection</td>
+								<td align="center">12 (3.6)</td>
+								<td align="center">8.2 (4.7–14.0)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Unintentional injuries</td>
+								<td align="center">7 (2.1)</td>
+								<td>
+								</td>
+								<td align="center">3.7 (1.8–7.6)</td>
+							</tr>
+							<tr>
+								<td>Respiratory diseases</td>
+								<td align="center">4 (1.2)</td>
+								<td align="center">2.7 (1.0–7.1)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Endocrine diseases</td>
+								<td align="center">3 (0.9)</td>
+								<td align="center">2.1 (0.7–6.2)</td>
+								<td>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</table-wrap>
+			</p>
+			<p>
+				<xref ref-type="table" rid="t3">Table 3</xref> shows that the proportion of deaths from unnatural causes was higher among police officers from 19 to 35 years old (87.3%; 95%CI: 78.0 to 93.1) and whose service time was up to 15 years (70.2%; 95%CI: 63.1 to 76.4). The proportion of deaths from natural causes was higher among officers from 51 to 73 years old (68.3%; 95%CI: 58.6 to 76.7) and with 26 or more years of service (64.7%; 95%CI: 52.7 to 75.1).</p>
+			<p>
+				<table-wrap id="t3">
+					<label>Table 3</label>
+					<caption>
+						<title>Percentage of deaths in federal highway police officers by death category, according to age, service time, and region of Brazil. Brazil, 2001–2021 (n = 335).</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup width="25%">
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left" rowspan="1" style="font-weight:normal">
+								</th>
+								<th>Natural death/disease</th>
+								<th>Unnatural death/external cause</th>
+								<th colspan="1" rowspan="3">p</th>
+							</tr>
+							<tr>
+								<th align="left" style="font-weight:normal">
+								</th>
+								<th>
+									<hr/>
+								</th>
+								<th>
+									<hr/>
+								</th>
+							</tr>
+							<tr>
+								<th align="left" style="font-weight:normal">
+								</th>
+								<th>% (95%Cl)</th>
+								<th>% (95%Cl)</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Age (years old)</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>19–35</td>
+								<td align="center">12.7 (6.9–22.0)</td>
+								<td align="center">87.3 (78.0–93.1)<sup>a</sup></td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>35–50</td>
+								<td align="center">43.0 (35.4–50.9)</td>
+								<td align="center">57.0 (49.1–64.6)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>51–73</td>
+								<td align="center">68.3 (58.6–76.7)<sup>a</sup></td>
+								<td align="center">31.7 (23.3–41.4)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Service time (years)</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>≤ 15</td>
+								<td align="center">29.8 (23.6–36.9)</td>
+								<td align="center">70.2 (63.1–76.4)<sup>a</sup></td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>16–25</td>
+								<td align="center">55.8 (45.1–65.9)</td>
+								<td align="center">44.2 (34.1–54.8)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>≥ 26</td>
+								<td align="center">64.7 (52.7–75.1)<sup>a</sup></td>
+								<td align="center">35.3 (24.9–47.3)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Region of Brazil</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td align="center">0.64</td>
+							</tr>
+							<tr>
+								<td>North</td>
+								<td align="center">38.7 (23.4–56.6)</td>
+								<td align="center">61.3 (43.4–76.6)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Midwest</td>
+								<td align="center">36.4 (23.5–51.4)</td>
+								<td align="center">63.6 (48.6–76.4)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Northeast</td>
+								<td align="center">44.6 (35.7–53.9)</td>
+								<td align="center">55.4 (46.0–64.3)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Southeast</td>
+								<td align="center">48.9 (39.0–59.0)</td>
+								<td align="center">51.1 (41.0–61.0)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>South</td>
+								<td align="center">40.7 (28.5–54.2)</td>
+								<td align="center">59.3 (45.8–71.5)</td>
+								<td>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN2">
+							<p>95%CI: 95% confidence interval.</p>
+						</fn>
+						<fn id="TFN3">
+							<p><sup>a</sup> Statistical difference in percentage of unnatural death/external cause in relation to natural death/disease.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>
+				<xref ref-type="fig" rid="f03">Figure 3</xref> shows mortality rates from 2001 to 2020. The overall mortality rate per 1,000 police officers decreased over the period: in 2001 it was close to four deaths per 1,000 police officers; however, in 2014 was close to 1.5 deaths per 1,000 police officers. Moreover, the rate of unnatural deaths was higher in almost every year, except for 2001, 2007, 2013, and 2019, when the rate of natural deaths was higher.</p>
+			<p>
+				<fig id="f03">
+					<label>Figure 3</label>
+					<caption>
+						<title>Mortality incidence rate in federal highway police officers from 2001 to 2020, total and stratified, according to the categorization of the Ministry of Health.</title>
+					</caption>
+					<graphic xlink:href="1518-8787-rsp-56-82-gf03.tif"/>
+				</fig>
+			</p>
+		</sec>
+		<sec sec-type="discussion">
+			<title>DISCUSSION</title>
+			<p>This study showed that mortality from all causes was higher among police officers who were men, over 35 years old, working for 15 years or less, and living in Northeast Brazil. Unnatural deaths were more prevalent and frequent among officers who were younger and worked for less time. Over the years, there was a decreasing trend in the number of deaths and the mortality rate decreased. Traffic accidents, cardiovascular diseases, interpersonal violence, suicides, and malignant neoplasms were the main causes of death among FHP officers.</p>
+			<p>In our study, police officers presented age and causes of death similar to those found in other forces<sup><xref ref-type="bibr" rid="B11">11</xref> , <xref ref-type="bibr" rid="B14">14</xref></sup> . Merino<sup><xref ref-type="bibr" rid="B15">15</xref></sup> performed an ecological time-series study from 2002 to 2006 and showed that 77% of São Paulo military police officers died from unnatural causes. Thus, police officers are exposed to risk factors specific to their profession (e.g., armed conflicts and vehicle pursuits), which may be related to this higher proportion of unnatural deaths.</p>
+			<p>Moreover, this higher percentage of unnatural deaths among officers with shorter service time corroborates the results from a study with Rio de Janeiro military police officers, in which those with shorter service time were 2.4 times more likely to die when compared to officers with longer service time<sup><xref ref-type="bibr" rid="B16">16</xref></sup> . The lack of perception and experience of the risks of work activities in younger police officers may explain this relation. In novice police officers, the adrenaline produced by the unusual and their motivation for action decreases their risk perception in pursuit or confrontation moments, putting these individuals at increased risk<sup><xref ref-type="bibr" rid="B17">17</xref></sup> .</p>
+			<p>As well as other police forces, FHP officers are more vulnerable to unnatural deaths (interpersonal violence, traffic accidents, and suicide) since proactive policing and prosecution of all types of crimes<sup><xref ref-type="bibr" rid="B18">18</xref></sup> in federal highways are some of their competencies and they expose their physical integrity to a greater risk. Thus, understanding the police officers victimization profile allows to identify the most reliable monitoring pattern, which helps in the assessment of investments priorities in health policies for FHP officers, aiming to implement more effective actions/programs to reduce mortality and costs for public administration in general.</p>
+			<p>The FHP does not have positions related to health professionals or sectors, such as walk-in clinics, outpatient clinics, and hospitals in its official staff. However, its organizational structure includes health management sectors that act at the basic level of care, providing generic interventions (e.g., physical tests<sup><xref ref-type="bibr" rid="B19">19</xref></sup> and lectures with guidelines on healthy lifestyles<sup><xref ref-type="bibr" rid="B20">20</xref></sup> ), procedural interventions (e.g., the registration of medical certificates and referral to official expert examination), and crisis management/critical incident interventions (e.g., telecare for servers involved in armed conflicts and traffic accidents, and affected by covid-19).</p>
+			<p>The absolute number of deaths decreased from 2011 to 2020, which may be related to health prevention and promotion programs implementation , as well as actions in the FHP, such as: i) the <italic>Patrulha da Saúde</italic> (Health’s Patrol Program), which aims to promote knowledge about disease prevention measures and healthy lifestyles, according to previously published data<sup><xref ref-type="bibr" rid="B20">20</xref></sup> ; ii) the inclusion of a course regarding health in the curriculum of police training courses, aiming the adoption of habits promoting the integral health of officers in training, focusing on techniques that involve the regular practice of physical exercises, healthy eating, quality of sleep, and issues related to psycho-emotional health; iii) the application of a physical fitness test, aiming to assess the physical fitness levels of police officers promoting career advancement and defining selection criteria for specific activities<sup><xref ref-type="bibr" rid="B21">21</xref></sup> ; and iv) the institutional physical education program, which encourages the physical activity practice outside the work environment<sup><xref ref-type="bibr" rid="B19">19</xref></sup> . Those actions will contribute to lifestyle changes and, consequently, reducing morbidity and mortality from natural causes among police officers; however, our study design did not allow us to analyze the causality between health initiatives in the FHP and mortality over the period<sup><xref ref-type="bibr" rid="B13">13</xref></sup> .</p>
+			<p>Traffic accidents were the main cause of death among police officers from 2001 to 2020 (28.7%), corroborating a recent study that assessed mortality among Rio Grande do Sul military police officers from 2006 to 2016<sup><xref ref-type="bibr" rid="B14">14</xref></sup> . Limeira and Donato<sup><xref ref-type="bibr" rid="B14">14</xref></sup> showed that traffic accidents were the main cause of death among active police officers (41.3% of all deaths during the period studied), being ahead of deaths from interpersonal violence (homicide) and suicides, as occurred among police officers over the 20 years. Both FHP officers and military police officers are part of the proactive Brazil and its states police, respectively, and their policing activities require the constant use of cars and motorcycles (police vehicles) and permanence in places with a large volume of vehicles to maintain road safety, which can increase the risk of hit-and-run accidents. Thus, institutionalizing prevention policies, based on police officers training and research on this topic, is important to improve their behavior in traffic accidents.</p>
+			<p>Cardiovascular diseases were the main cause of death among natural deaths in the time series (39.7%), which is similar to the results of studies with New York<sup><xref ref-type="bibr" rid="B6">6</xref></sup> and São Paulo<sup><xref ref-type="bibr" rid="B15">15</xref></sup> police officers. Vena et al.<sup><xref ref-type="bibr" rid="B6">6</xref></sup> presented a high number of deaths from diseases of the circulatory system (44.9% of all deaths) among New York police officers from 1950 to 2005. This high percentage is probably due to the high prevalence of some cardiovascular risk factors among police officers, such as long shifts, sleep disorders, psychological stress, unforeseen physical stress, and noise exposure<sup><xref ref-type="bibr" rid="B2">2</xref></sup> .</p>
+			<p>Moreover, Vena et al.<sup><xref ref-type="bibr" rid="B9">9</xref></sup> showed that mortality rates from arteriosclerotic heart disease and different types of cancers among U.S. police officers increased from 1950 to 1970. Similarly, Forastiere et al.<sup><xref ref-type="bibr" rid="B8">8</xref></sup> , when studying a historical cohort of police officers in Rome, Italy, showed that mortality rates from ischemic heart disease, as well as some types of cancers, increased in police officers under 50 years old. Violanti et al.<sup><xref ref-type="bibr" rid="B10">10</xref></sup> studied a U.S. police officers’ cohort from the 1950s to 1990s and mortality from all malignant neoplasms, as well as arteriosclerotic heart disease, significantly increased in police officers with longer service time. Therefore, these results, as well as those from our study, reinforce the relationship between age and service time and mortality from natural causes in police officers, especially from cardiovascular diseases and malignant neoplasms, which are possibly related to occupational risk factors and police officers lifestyle<sup><xref ref-type="bibr" rid="B2">2</xref></sup> .</p>
+			<p>During the 20 years studied, FHP officers suicides were among the four main causes of death and was the third main cause of unnatural deaths, in accordance with previous studies with military police officers<sup><xref ref-type="bibr" rid="B14">14</xref> , <xref ref-type="bibr" rid="B15">15</xref></sup> . Police officers are exposed to aspects (e.g., easy access to firearms) and specific professional situations (armed conflicts, violence, interaction with death scenes, etc.), which can be crucial to increase the risk of suicide among them<sup><xref ref-type="bibr" rid="B22">22</xref></sup> . Thus, all police forces shall monitor and analyze data on suicide (its profile and death rate) to guide the development, implementation, and evaluation of public policies on police officers mental health.</p>
+			<p>Considering the trend analysis on absolute deaths number and the mortality incidence rate found in our study, the time series reduction is different when compared to the results of a study with Rio de Janeiro military police officers<sup><xref ref-type="bibr" rid="B16">16</xref></sup> . Minayo et al.<sup><xref ref-type="bibr" rid="B16">16</xref></sup> collected mortality rate data in these officers and showed an increasing trend from 1994 to 2004 and values ranged from 12.1 to 17 deaths per 1,000 police officers from 2000 to 2004. These values are higher when compared to the same years in our study, which is probably due to the different characteristics of FHP officers and Rio de Janeiro military police officers, since the percentage of military police officers working in another activity on their day off (mainly in private security services) is very high<sup><xref ref-type="bibr" rid="B16">16</xref></sup> .</p>
+			<p>Our study has limitations. First, the quality of secondary data depend on their origin information system. In our study, we obtained death information from death certificates completed in registry offices from declarations of death filled by medical doctors. Thus, both death certificates filling and declarations of death transcription presented limitations of standardization that hindered the classification of death causes<sup><xref ref-type="bibr" rid="B25">25</xref></sup> . Secondly, we lacked FHP officers’ data such as the presence of preexisting diseases, physical fitness levels, police or military activity before joining the FHP, among other information that could help in to analyzed possible risk factors for mortality. However, our study stands out for its novelty regarding the topic of mortality in police officers in Brazil, as well as the time range studied (20 years) and the use of a current period in the time series evaluation (2001–2020).</p>
+			<p>The data presented in our study allows to make the situational diagnosis of deaths in Brazilian FHP officers. Such information is important to support the development of public health policies, as well as evidence-based practical actions of professional training in the FHP.</p>
+			<p>This study shows that public health policies implemented by the FHP probably contributed to decrease the number of deaths from all causes in active police officers from 2001 to 2020. However, actions and programs related to the prevention of the main causes of death among police officers, mainly traffic accidents, cardiovascular diseases, interpersonal violence, suicides, and malignant neoplasms, shall be implemented, aiming to reach the greatest number of police officers and reduce impacts on both health and its costs.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>REFERENCES</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. Violanti JM, Charles LE, McCanlies E, Hartley TA, Baughman P, Andrew ME, et al. Police stressors and health: a state-of-the-art review. Policing. 2017;40(4):642-56. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1108/PIJPSM-06-2016-0097">https://doi.org/10.1108/PIJPSM-06-2016-0097</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Violanti</surname>
+							<given-names>JM</given-names>
+						</name>
+						<name>
+							<surname>Charles</surname>
+							<given-names>LE</given-names>
+						</name>
+						<name>
+							<surname>McCanlies</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Hartley</surname>
+							<given-names>TA</given-names>
+						</name>
+						<name>
+							<surname>Baughman</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Andrew</surname>
+							<given-names>ME</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Police stressors and health: a state-of-the-art review</article-title>
+					<source>Policing</source>
+					<year>2017</year>
+					<volume>40</volume>
+					<issue>4</issue>
+					<fpage>642</fpage>
+					<lpage>656</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1108/PIJPSM-06-2016-0097">https://doi.org/10.1108/PIJPSM-06-2016-0097</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. Zimmerman FH. Cardiovascular disease and risk factors in law enforcement personnel. Cardiol Rev. 2012;20(4):159-66. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/CRD.0b013e318248d631">https://doi.org/10.1097/CRD.0b013e318248d631</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Zimmerman</surname>
+							<given-names>FH</given-names>
+						</name>
+					</person-group>
+					<article-title>Cardiovascular disease and risk factors in law enforcement personnel</article-title>
+					<source>Cardiol Rev</source>
+					<year>2012</year>
+					<volume>20</volume>
+					<issue>4</issue>
+					<fpage>159</fpage>
+					<lpage>166</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1097/CRD.0b013e318248d631">https://doi.org/10.1097/CRD.0b013e318248d631</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. Mona GG, Chimbari MJ, Hongoro C. A systematic review on occupational hazards, injuries and diseases among police officers worldwide: policy implications for the South African Police Service. J Occup Med Toxicol. 2019;14:2. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12995-018-0221-x">https://doi.org/10.1186/s12995-018-0221-x</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Mona</surname>
+							<given-names>GG</given-names>
+						</name>
+						<name>
+							<surname>Chimbari</surname>
+							<given-names>MJ</given-names>
+						</name>
+						<name>
+							<surname>Hongoro</surname>
+							<given-names>C</given-names>
+						</name>
+					</person-group>
+					<article-title>A systematic review on occupational hazards, injuries and diseases among police officers worldwide: policy implications for the South African Police Service</article-title>
+					<source>J Occup Med Toxicol</source>
+					<year>2019</year>
+					<volume>14</volume>
+					<size units="pages">2</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12995-018-0221-x">https://doi.org/10.1186/s12995-018-0221-x</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. Bannai A, Tamakoshi A. The association between long working hours and health: a systematic review of epidemiological evidence. Scand J Work Environ Health. 2014;40(1):5-18. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5271/sjweh.3388">https://doi.org/10.5271/sjweh.3388</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bannai</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Tamakoshi</surname>
+							<given-names>A</given-names>
+						</name>
+					</person-group>
+					<article-title>The association between long working hours and health: a systematic review of epidemiological evidence</article-title>
+					<source>Scand J Work Environ Health</source>
+					<year>2014</year>
+					<volume>40</volume>
+					<issue>1</issue>
+					<fpage>5</fpage>
+					<lpage>18</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5271/sjweh.3388">https://doi.org/10.5271/sjweh.3388</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Garbarino S, Guglielmi O, Puntoni M, Bragazzi NL, Magnavita N. Sleep quality among police officers: implications and insights from a systematic review and meta-analysis of the literature. Int J Environ Res Public Health. 2019;16(5):885. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3390/ijerph16050885">https://doi.org/10.3390/ijerph16050885</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Garbarino</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Guglielmi</surname>
+							<given-names>O</given-names>
+						</name>
+						<name>
+							<surname>Puntoni</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Bragazzi</surname>
+							<given-names>NL</given-names>
+						</name>
+						<name>
+							<surname>Magnavita</surname>
+							<given-names>N</given-names>
+						</name>
+					</person-group>
+					<article-title>Sleep quality among police officers: implications and insights from a systematic review and meta-analysis of the literature</article-title>
+					<source>Int J Environ Res Public Health</source>
+					<year>2019</year>
+					<volume>16</volume>
+					<issue>5</issue>
+					<size units="pages">885</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3390/ijerph16050885">https://doi.org/10.3390/ijerph16050885</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. Vena JE, Charles LE, Gu JK, Burchfiel CM, Andrew ME, Fekedulegn D, et al. Mortality of a Police Cohort: 1950-2005. J Law Enforc Leadersh Ethics. 2014;1(1):7-20. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4681405/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4681405/</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Vena</surname>
+							<given-names>JE</given-names>
+						</name>
+						<name>
+							<surname>Charles</surname>
+							<given-names>LE</given-names>
+						</name>
+						<name>
+							<surname>Gu</surname>
+							<given-names>JK</given-names>
+						</name>
+						<name>
+							<surname>Burchfiel</surname>
+							<given-names>CM</given-names>
+						</name>
+						<name>
+							<surname>Andrew</surname>
+							<given-names>ME</given-names>
+						</name>
+						<name>
+							<surname>Fekedulegn</surname>
+							<given-names>D</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Mortality of a Police Cohort: 1950-2005</article-title>
+					<source>J Law Enforc Leadersh Ethics</source>
+					<year>2014</year>
+					<volume>1</volume>
+					<issue>1</issue>
+					<fpage>7</fpage>
+					<lpage>20</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4681405/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4681405/</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. Souza ER, Minayo MCS. Policial, risco como profissão: morbimortalidade vinculada ao trabalho. Cienc Saude Colet. 2005;10(4):917-28. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S1413-81232005000400015">https://doi.org/10.1590/S1413-81232005000400015</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Souza</surname>
+							<given-names>ER</given-names>
+						</name>
+						<name>
+							<surname>Minayo</surname>
+							<given-names>MCS</given-names>
+						</name>
+					</person-group>
+					<article-title>Policial, risco como profissão: morbimortalidade vinculada ao trabalho</article-title>
+					<source>Cienc Saude Colet</source>
+					<year>2005</year>
+					<volume>10</volume>
+					<issue>4</issue>
+					<fpage>917</fpage>
+					<lpage>928</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S1413-81232005000400015">https://doi.org/10.1590/S1413-81232005000400015</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Forastiere F, Perucci CA, Di Pietro A, Miceli M, Rapiti E, Bargagli A, et al. Mortality among urban policemen in Rome. Am J Ind Med. 1994;26(6):785-98. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/ajim.4700260607">https://doi.org/10.1002/ajim.4700260607</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Forastiere</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Perucci</surname>
+							<given-names>CA</given-names>
+						</name>
+						<name>
+							<surname>Di Pietro</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Miceli</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Rapiti</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Bargagli</surname>
+							<given-names>A</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Mortality among urban policemen in Rome</article-title>
+					<source>Am J Ind Med</source>
+					<year>1994</year>
+					<volume>26</volume>
+					<issue>6</issue>
+					<fpage>785</fpage>
+					<lpage>798</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/ajim.4700260607">https://doi.org/10.1002/ajim.4700260607</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. Vena JE, Violanti JM, Marshall J, Fiedler RC. Mortality of a municipal worker cohort: III. Police officers. Am J Ind Med. 1986;10(4):383-97. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/ajim.4700100406">https://doi.org/10.1002/ajim.4700100406</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Vena</surname>
+							<given-names>JE</given-names>
+						</name>
+						<name>
+							<surname>Violanti</surname>
+							<given-names>JM</given-names>
+						</name>
+						<name>
+							<surname>Marshall</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Fiedler</surname>
+							<given-names>RC</given-names>
+						</name>
+					</person-group>
+					<article-title>Mortality of a municipal worker cohort: III. Police officers</article-title>
+					<source>Am J Ind Med</source>
+					<year>1986</year>
+					<volume>10</volume>
+					<issue>4</issue>
+					<fpage>383</fpage>
+					<lpage>397</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/ajim.4700100406">https://doi.org/10.1002/ajim.4700100406</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. Violanti JM, Vena JE, Petralia S. Mortality of a police cohort: 1950-1990. Am J Ind Med. 1998;33(4):366-73. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/(SICI)1097-0274(199804)33:4%3C366::AID-AJIM6%3E3.0.CO;2-S">https://doi.org/10.1002/(SICI)1097-0274(199804)33:4%3C366::AID-AJIM6%3E3.0.CO;2-S</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Violanti</surname>
+							<given-names>JM</given-names>
+						</name>
+						<name>
+							<surname>Vena</surname>
+							<given-names>JE</given-names>
+						</name>
+						<name>
+							<surname>Petralia</surname>
+							<given-names>S</given-names>
+						</name>
+					</person-group>
+					<article-title>Mortality of a police cohort: 1950-1990</article-title>
+					<source>Am J Ind Med</source>
+					<year>1998</year>
+					<volume>33</volume>
+					<issue>4</issue>
+					<fpage>366</fpage>
+					<lpage>373</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/(SICI)1097-0274(199804)33:4%3C366::AID-AJIM6%3E3.0.CO;2-S">https://doi.org/10.1002/(SICI)1097-0274(199804)33:4%3C366::AID-AJIM6%3E3.0.CO;2-S</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. Fórum Brasileiro de Segurança. Anuário Brasileiro de Segurança Pública 2020. 14. ed. São Paulo; 2020. Available from: <ext-link ext-link-type="uri" xlink:href="https://forumseguranca.org.br/wp-content/uploads/2021/02/anuario-2020-final-100221.pdf">https://forumseguranca.org.br/wp-content/uploads/2021/02/anuario-2020-final-100221.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Fórum Brasileiro de Segurança</collab>
+					</person-group>
+					<source>Anuário Brasileiro de Segurança Pública 2020</source>
+					<edition>14</edition>
+					<publisher-loc>São Paulo</publisher-loc>
+					<year>2020</year>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://forumseguranca.org.br/wp-content/uploads/2021/02/anuario-2020-final-100221.pdf">https://forumseguranca.org.br/wp-content/uploads/2021/02/anuario-2020-final-100221.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. Organização Mundial da Saúde. CID-10 Classificação Estatística Internacional de Doenças e Problemas Relacionados à Saúde. 10. rev. São Paulo, SP: Universidade de São Paulo; 1997.</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>Organização Mundial da Saúde</collab>
+					</person-group>
+					<source>CID-10 Classificação Estatística Internacional de Doenças e Problemas Relacionados à Saúde. 10. rev</source>
+					<publisher-loc>São Paulo, SP</publisher-loc>
+					<publisher-name>Universidade de São Paulo</publisher-name>
+					<year>1997</year>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. Antunes JLF, Cardoso MRA. Uso da análise de séries temporais em estudos epidemiológicos. Epidemiol Serv Saude. 2015;24(3):565-76. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5123/S1679-49742015000300024">https://doi.org/10.5123/S1679-49742015000300024</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Antunes</surname>
+							<given-names>JLF</given-names>
+						</name>
+						<name>
+							<surname>Cardoso</surname>
+							<given-names>MRA</given-names>
+						</name>
+					</person-group>
+					<article-title>Uso da análise de séries temporais em estudos epidemiológicos</article-title>
+					<source>Epidemiol Serv Saude</source>
+					<year>2015</year>
+					<volume>24</volume>
+					<issue>3</issue>
+					<fpage>565</fpage>
+					<lpage>576</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5123/S1679-49742015000300024">https://doi.org/10.5123/S1679-49742015000300024</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. Limeira MLC, Donato RS. Análise dos acidentes de trânsito com morte de policial militar em serviço na brigada militar – de 2006 a 2016. Prod Produção. 2019;20(2). Available from: <ext-link ext-link-type="uri" xlink:href="https://seer.ufrgs.br/ProdutoProducao/article/view/85905">https://seer.ufrgs.br/ProdutoProducao/article/view/85905</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Limeira</surname>
+							<given-names>MLC</given-names>
+						</name>
+						<name>
+							<surname>Donato</surname>
+							<given-names>RS</given-names>
+						</name>
+					</person-group>
+					<article-title>Análise dos acidentes de trânsito com morte de policial militar em serviço na brigada militar – de 2006 a 2016</article-title>
+					<source>Prod Produção</source>
+					<year>2019</year>
+					<volume>20</volume>
+					<issue>2</issue>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://seer.ufrgs.br/ProdutoProducao/article/view/85905">https://seer.ufrgs.br/ProdutoProducao/article/view/85905</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. Merino PS. Mortalidade em efetivos da Polícia Militar do Estado de São Paulo [dissertação]. São Paulo, SP: Universidade Federal de São Paulo; 2010.</mixed-citation>
+				<element-citation publication-type="thesis">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Merino</surname>
+							<given-names>PS</given-names>
+						</name>
+					</person-group>
+					<source>Mortalidade em efetivos da Polícia Militar do Estado de São Paulo</source>
+					<comment>dissertação</comment>
+					<publisher-loc>São Paulo, SP</publisher-loc>
+					<publisher-name>Universidade Federal de São Paulo</publisher-name>
+					<year>2010</year>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. Minayo MCS, Souza ER, Constantino P, organizadoras. Missão prevenir e proteger: condições de vida, trabalho e saúde dos policiais militares do Rio de Janeiro. Rio de Janeiro: Editora Fiocuz; 2008. Capítulo 10, Profissão de risco; p.178-204. Available from: <ext-link ext-link-type="uri" xlink:href="https://books.scielo.org/id/y28rt">https://books.scielo.org/id/y28rt</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="compiler">
+						<name>
+							<surname>Minayo</surname>
+							<given-names>MCS</given-names>
+						</name>
+						<name>
+							<surname>Souza</surname>
+							<given-names>ER</given-names>
+						</name>
+						<name>
+							<surname>Constantino</surname>
+							<given-names>P</given-names>
+						</name>
+						<role>organizadoras</role>
+					</person-group>
+					<source>Missão prevenir e proteger: condições de vida, trabalho e saúde dos policiais militares do Rio de Janeiro</source>
+					<publisher-loc>Rio de Janeiro</publisher-loc>
+					<publisher-name>Editora Fiocuz</publisher-name>
+					<year>2008</year>
+					<comment>Capítulo 10, Profissão de risco</comment>
+					<fpage>178</fpage>
+					<lpage>204</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://books.scielo.org/id/y28rt">https://books.scielo.org/id/y28rt</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Muniz JO. Ser policial é, sobretudo, uma razão de ser: Cultura e cotidiano da Polícia Militar do Estado do Rio de Janeiro [tese]. Rio de Janeiro, RJ: Instituto Universitário de Pesquisas do Rio de Janeiro; 1999.</mixed-citation>
+				<element-citation publication-type="thesis">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Muniz</surname>
+							<given-names>JO</given-names>
+						</name>
+					</person-group>
+					<source>Ser policial é, sobretudo, uma razão de ser: Cultura e cotidiano da Polícia Militar do Estado do Rio de Janeiro</source>
+					<comment>tese</comment>
+					<publisher-loc>Rio de Janeiro, RJ</publisher-loc>
+					<publisher-name>Instituto Universitário de Pesquisas do Rio de Janeiro</publisher-name>
+					<year>1999</year>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18. Brasil. Decreto N° 1.655, de 3 de outubro de 1995. Define a competência da Polícia Rodoviária Federal, e dá outras providências. Brasília, DF: Casa Civil; 1995.</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>Brasil</collab>
+					</person-group>
+					<source>Decreto N° 1.655, de 3 de outubro de 1995. Define a competência da Polícia Rodoviária Federal, e dá outras providências</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<publisher-name>Casa Civil</publisher-name>
+					<year>1995</year>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19. Marins EF, Ferreira RW, Del Vecchio FB. Cardiorespiratory and neuromuscular fitness of Federal Highway Police officers. Rev Bras Med Esporte. 2018;24(6):426-31. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1517-869220182406185222">https://doi.org/10.1590/1517-869220182406185222</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Marins</surname>
+							<given-names>EF</given-names>
+						</name>
+						<name>
+							<surname>Ferreira</surname>
+							<given-names>RW</given-names>
+						</name>
+						<name>
+							<surname>Del Vecchio</surname>
+							<given-names>FB</given-names>
+						</name>
+					</person-group>
+					<article-title>Cardiorespiratory and neuromuscular fitness of Federal Highway Police officers</article-title>
+					<source>Rev Bras Med Esporte</source>
+					<year>2018</year>
+					<volume>24</volume>
+					<issue>6</issue>
+					<fpage>426</fpage>
+					<lpage>431</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1517-869220182406185222">https://doi.org/10.1590/1517-869220182406185222</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20. Marins EF, Del Vecchio FB. Programa Patrulha da Saúde: indicadores de saúde em policiais rodoviários federais. Scientia Med (Porto Alegre). 2017;27(2):25855. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.15448/1980-6108.2017.2.25855">https://doi.org/10.15448/1980-6108.2017.2.25855</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Marins</surname>
+							<given-names>EF</given-names>
+						</name>
+						<name>
+							<surname>Del Vecchio</surname>
+							<given-names>FB</given-names>
+						</name>
+					</person-group>
+					<article-title>Programa Patrulha da Saúde: indicadores de saúde em policiais rodoviários federais</article-title>
+					<source>Scientia Med (Porto Alegre)</source>
+					<year>2017</year>
+					<volume>27</volume>
+					<issue>2</issue>
+					<size units="pages">25855</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.15448/1980-6108.2017.2.25855">https://doi.org/10.15448/1980-6108.2017.2.25855</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>21. Marins EF, Dawes JJ, Del Vecchio FB. Age and sex differences in fitness among Brazilian Federal Highway Patrol officers. J Strength Cond Res. 2021 Mar 16. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1519/JSC.0000000000004007">https://doi.org/10.1519/JSC.0000000000004007</ext-link> Ahead of Print.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Marins</surname>
+							<given-names>EF</given-names>
+						</name>
+						<name>
+							<surname>Dawes</surname>
+							<given-names>JJ</given-names>
+						</name>
+						<name>
+							<surname>Del Vecchio</surname>
+							<given-names>FB</given-names>
+						</name>
+					</person-group>
+					<article-title>Age and sex differences in fitness among Brazilian Federal Highway Patrol officers</article-title>
+					<source>J Strength Cond Res</source>
+					<year>2021</year>
+					<month>03</month>
+					<day>16</day>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1519/JSC.0000000000004007">https://doi.org/10.1519/JSC.0000000000004007</ext-link>
+					</comment>
+					<comment>Ahead of Print</comment>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>22. Violanti JM, Owens SL, McCanlies E, Fekedulegn D, Andrew ME. Law enforcement suicide: a review. Policing. 2019;42(2):141-64. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1108/PIJPSM-05-2017-0061">https://doi.org/10.1108/PIJPSM-05-2017-0061</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Violanti</surname>
+							<given-names>JM</given-names>
+						</name>
+						<name>
+							<surname>Owens</surname>
+							<given-names>SL</given-names>
+						</name>
+						<name>
+							<surname>McCanlies</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Fekedulegn</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Andrew</surname>
+							<given-names>ME</given-names>
+						</name>
+					</person-group>
+					<article-title>Law enforcement suicide: a review</article-title>
+					<source>Policing</source>
+					<year>2019</year>
+					<volume>42</volume>
+					<issue>2</issue>
+					<fpage>141</fpage>
+					<lpage>164</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1108/PIJPSM-05-2017-0061">https://doi.org/10.1108/PIJPSM-05-2017-0061</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>23. Stanley IH, Hom MA, Joiner TE. A systematic review of suicidal thoughts and behaviors among police officers, firefighters, EMTs, and paramedics. Clin Psychol Rev. 2016;44:25-44. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.cpr.2015.12.002">https://doi.org/10.1016/j.cpr.2015.12.002</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Stanley</surname>
+							<given-names>IH</given-names>
+						</name>
+						<name>
+							<surname>Hom</surname>
+							<given-names>MA</given-names>
+						</name>
+						<name>
+							<surname>Joiner</surname>
+							<given-names>TE</given-names>
+						</name>
+					</person-group>
+					<article-title>A systematic review of suicidal thoughts and behaviors among police officers, firefighters, EMTs, and paramedics</article-title>
+					<source>Clin Psychol Rev</source>
+					<year>2016</year>
+					<volume>44</volume>
+					<fpage>25</fpage>
+					<lpage>44</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.cpr.2015.12.002">https://doi.org/10.1016/j.cpr.2015.12.002</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>24. Bernert RA, Kim JS, Iwata NG, Perlis ML. Sleep disturbances as an evidence-based suicide risk factor. Curr Psychiatry Rep. 2015;17:15. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s11920-015-0554-4">https://doi.org/10.1007/s11920-015-0554-4</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Bernert</surname>
+							<given-names>RA</given-names>
+						</name>
+						<name>
+							<surname>Kim</surname>
+							<given-names>JS</given-names>
+						</name>
+						<name>
+							<surname>Iwata</surname>
+							<given-names>NG</given-names>
+						</name>
+						<name>
+							<surname>Perlis</surname>
+							<given-names>ML</given-names>
+						</name>
+					</person-group>
+					<article-title>Sleep disturbances as an evidence-based suicide risk factor</article-title>
+					<source>Curr Psychiatry Rep</source>
+					<year>2015</year>
+					<volume>17</volume>
+					<size units="pages">15</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s11920-015-0554-4">https://doi.org/10.1007/s11920-015-0554-4</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>25. Laurenti R, Mello Jorge MHP, Gotlieb SLD. Mortalidade segundo causas: considerações sobre a fidedignidade dos dados. Rev Panam Salud Publica. 2008;23(5):349-56. Available from: <ext-link ext-link-type="uri" xlink:href="https://scielosp.org/pdf/rpsp/2008.v23n5/349-356/pt">https://scielosp.org/pdf/rpsp/2008.v23n5/349-356/pt</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Laurenti</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Mello Jorge</surname>
+							<given-names>MHP</given-names>
+						</name>
+						<name>
+							<surname>Gotlieb</surname>
+							<given-names>SLD</given-names>
+						</name>
+					</person-group>
+					<article-title>Mortalidade segundo causas: considerações sobre a fidedignidade dos dados</article-title>
+					<source>Rev Panam Salud Publica</source>
+					<year>2008</year>
+					<volume>23</volume>
+					<issue>5</issue>
+					<fpage>349</fpage>
+					<lpage>356</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://scielosp.org/pdf/rpsp/2008.v23n5/349-356/pt">https://scielosp.org/pdf/rpsp/2008.v23n5/349-356/pt</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+		</ref-list>
+	</back>
+	<sub-article article-type="translation" id="TRpt" xml:lang="pt">
+		<front-stub>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artigo Original</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Mortalidade em agentes da polícia rodoviária federal: série temporal entre 2001 e 2020</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-4099-4022</contrib-id>
+					<name>
+						<surname>Marins</surname>
+						<given-names>Eduardo Frio</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+					<xref ref-type="aff" rid="aff2002"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-2616-0083</contrib-id>
+					<name>
+						<surname>Ferreira</surname>
+						<given-names>Rodrigo Wiltgen</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3002"><sup>III</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-2011-5529</contrib-id>
+					<name>
+						<surname>Freitas</surname>
+						<given-names>Flávio Castagna de</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-7837-6874</contrib-id>
+					<name>
+						<surname>Dutra</surname>
+						<given-names>Geovana Ferreira de Andrade Alves</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-8621-6002</contrib-id>
+					<name>
+						<surname>Vasconcelos</surname>
+						<given-names>José Rossy e</given-names>
+						<suffix>Júnior</suffix>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-3515-9308</contrib-id>
+					<name>
+						<surname>Caputo</surname>
+						<given-names>Eduardo Lucia</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2002"><sup>II</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1002">
+				<label>I</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Polícia Rodoviária Federal. Brasília, DF, Brasil</institution>
+			</aff>
+			<aff id="aff2002">
+				<label>II</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Universidade Federal de Pelotas. Escola Superior de Educação Física. Programa de Pós-Graduação em Educação Física. Pelotas, RS, Brasil</institution>
+			</aff>
+			<aff id="aff3002">
+				<label>III</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Instituto Federal de Educação, Ciência e Tecnologia Farroupilha. Campus São Borja. São Borja, RS, Brasil</institution>
+			</aff>
+			<author-notes>
+				<corresp id="c01002">Correspondência: Eduardo Frio Marins Escola Superior de Educação Física Rua Luiz de Camões, 625 96055-630 Pelotas, RS, Brasil E-mail: dudufrio@gmail.com</corresp>
+				<fn fn-type="con">
+					<p>Contribuição dos Autores: Concepção e planejamento do estudo: EFM, FCF, GFAAD e JRVJ. Coleta, análise e interpretação dos dados: EFM, RWF, FCF, GFAAD, JRVJ e ELC. Elaboração ou revisão do manuscrito: EFM, RWF, FCF, GFAAD, JRVJ e ELC. Aprovação da versão final: EFM, RWF, FCF, GFAAD, JRVJ e ELC. Responsabilidade pública pelo conteúdo do artigo: EFM, RWF, FCF, GFAAD, JRVJ e ELC.</p>
+				</fn>
+				<fn fn-type="conflict">
+					<p>Conflito de Interesses: Os autores declaram não haver conflito de interesses.</p>
+				</fn>
+			</author-notes>
+			<abstract>
+				<title>RESUMO</title>
+				<sec>
+					<title>OBJETIVO</title>
+					<p>Descrever e analisar a tendência de mortalidade, por todas as causas, em agentes da polícia rodoviária federal, entre os anos de 2001 e 2020.</p>
+				</sec>
+				<sec>
+					<title>MÉTODOS</title>
+					<p>Trata-se de um estudo ecológico de séries temporais, baseado em dados oficiais sobre mortalidade registrados no sistema de cadastro nacional da polícia rodoviária federal e de certidões de óbitos do sistema de cadastro federal. Foram coletados os óbitos de agentes que estavam em efetivo exercício entre 2001 e 2020. Realizou-se análise descritiva, calcularam-se proporções e taxas de incidência por 1.000 policiais. Utilizou-se qui-quadrado para análises bivariadas e regressão de <italic>Prais-Winsten</italic> para análise de tendência.</p>
+				</sec>
+				<sec>
+					<title>RESULTADOS</title>
+					<p>Ocorreram 346 óbitos (11 por causas indeterminadas), dos quais 146 foram por mortes naturais e 189 não naturais. A maioria das mortes ocorreu em policiais do sexo masculino (n = 333; 96,3%), acima de 35 anos (n = 265; 76,6%), tempo de serviço até 15 anos (n = 185; 53,5%), da região Nordeste e por causas não naturais (n = 189; 56,4%). O número absoluto de óbitos de agentes apresentou tendência decrescente ao longo da série (p = -0,78; IC95% -1,03 – -0,5). Entre as principais causas de morte estão acidentes de trânsito (n = 96; 28,7%), doenças cardiovasculares (n = 58; 17,3%), violência interpessoal (n = 51; 15,2%), suicídio (n = 35; 10,5%) e neoplasias malignas (n = 35; 10,4%). As mortes naturais predominaram entre os agentes com idade entre 51–73 anos (68,3%; IC95% 58,6–76,7) e mais de 26 anos de serviço (64,7%; IC95% 52,7–75,1), já as não naturais, entre a faixa etária de 19–35 anos (87,3%; IC95% 78,0–93,1) e de até 15 anos de serviço (70,2%; IC95% 63,1–76,4).</p>
+				</sec>
+				<sec>
+					<title>CONCLUSÕES</title>
+					<p>Conclui-se que a tendência das mortes de agentes da polícia rodoviária federal foi decrescente no período. O conhecimento das causas de mortalidade pode auxiliar no desenvolvimento de políticas de prevenção de doenças e proteção à saúde desses policiais.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="pt">
+				<kwd>Polícia</kwd>
+				<kwd>Mortalidade, tendências</kwd>
+				<kwd>Causas de Morte</kwd>
+				<kwd>Estudos de Séries Temporais</kwd>
+			</kwd-group>
+		</front-stub>
+		<body>
+			<sec sec-type="intro">
+				<title>INTRODUÇÃO</title>
+				<p>No desempenho de suas atividades ocupacionais, policiais executam uma ampla gama de tarefas arriscadas e potencialmente danosas à saúde<sup><xref ref-type="bibr" rid="B1">1</xref> , <xref ref-type="bibr" rid="B2">2</xref></sup> . Dentre os riscos inerentes dessa profissão estão incluídos esforços físicos intensos (perseguição a criminoso que resiste à prisão); eventos traumáticos (atendimento de acidentes com vítimas); estresse sonoro e químico (exposição a altos níveis de ruído e de dióxido de carbono); e ameaças à saúde física e psicológica (participação em confrontos armados)<sup><xref ref-type="bibr" rid="B1">1</xref> , <xref ref-type="bibr" rid="B3">3</xref></sup> . Devido às características do regime de trabalho dos agentes (trabalho por turnos), policiais podem sofrer alterações no ritmo circadiano e distúrbios do sono<sup><xref ref-type="bibr" rid="B4">4</xref> , <xref ref-type="bibr" rid="B5">5</xref></sup> .</p>
+				<p>Um estudo realizado com policiais de Nova York, observou um aumento significativo nas taxas de mortalidade para todas as causas de morte, neoplasias malignas, todas as neoplasias benignas, cirrose hepática e todas as doenças do sistema circulatório, entre os anos de 1950 e 2005<sup><xref ref-type="bibr" rid="B6">6</xref></sup> . No Brasil, estudo com policiais (civis e militares) e guardas municipais do estado do Rio de Janeiro indicou que agressões e acidentes de trânsito foram as principais causas de morte no período entre 1994 e 2004<sup><xref ref-type="bibr" rid="B7">7</xref></sup> . Ademais, esse grupo de trabalhadores também é acometido por outros problemas de saúde, como câncer e doenças cardiovasculares<sup><xref ref-type="bibr" rid="B2">2</xref></sup> , assim como apresentam maior exposição a situações de risco, inerentes ao exercício de sua profissão, o que pode gerar um aumento nas causas externas de morte, em decorrência de violência interpessoal e suicídio<sup><xref ref-type="bibr" rid="B7">7</xref></sup> .</p>
+				<p>Visto a presença de múltiplos fatores de risco à vitimização nessa profissão, tais acometimentos fornecem uma razão convincente para estudar as principais causas de mortalidade entre policiais. No entanto, até o momento, a população policial, em especial no Brasil, como os agentes da polícia rodoviária federal (PRF), vem sendo pouco estudada sob esse aspecto<sup><xref ref-type="bibr" rid="B6">6</xref></sup> . Diante disso, a geração de conhecimento científico sobre o mapeamento e categorização das principais causas de morte de agentes da PRF pode representar uma contribuição importante para os gestores no fomento de políticas públicas de saúde e melhores ações de capacitação profissional e projetos de prevenção de doenças e promoção à saúde dos servidores policiais.</p>
+				<p>Nesse sentido, o objetivo do presente estudo foi descrever e analisar a série temporal da mortalidade de agentes da PRF, em efetivo exercício, entre 1º de janeiro de 2001 e 31 de dezembro de 2020.</p>
+			</sec>
+			<sec sec-type="methods">
+				<title>MÉTODOS</title>
+				<p>Foi realizado um estudo observacional, com delineamento ecológico do tipo analítico-exploratório de séries temporais da mortalidade de agentes da PRF de todo o Brasil, no período de 2001 a 2020.</p>
+				<p>Foram incluídos no estudo os agentes em efetivo exercício da profissão, no período entre 1º de janeiro de 2001 e 31 de dezembro de 2020, que tiveram seus óbitos informados. Técnicos administrativos, assim como policiais que já estavam em regime de aposentadoria, foram excluídos do estudo.</p>
+				<p>Os dados sobre óbitos foram obtidos nos órgãos competentes, de acordo com a estrutura organizacional da PRF. A <xref ref-type="fig" rid="f01002">Figura 1</xref> ilustra o processo amostral.</p>
+				<p>
+					<fig id="f01002">
+						<label>Figura 1</label>
+						<caption>
+							<title>Fluxograma do processo amostral de obtenção dos dados sobre óbitos dentro da estrutura organizacional da PRF.</title>
+							<p>PRF: polícia rodoviária federal; DICAD: Divisão de cadastro; APRF: Agentes da polícia federal.</p>
+						</caption>
+						<graphic xlink:href="1518-8787-rsp-56-82-gf01-pt.tif"/>
+					</fig>
+				</p>
+				<p>As causas básicas de morte foram obtidas a partir do registro nas certidões de óbito de cada indivíduo, depois, foram agrupadas e codificadas pelos autores deste estudo, os quais são especialistas da área da saúde (EFM, FCF e JRVJ), conforme as categorias de causa de morte e suas definições em termos da classificação estatística internacional de doenças e problemas relacionados com a saúde em sua décima edição (CID-10)<sup><xref ref-type="bibr" rid="B12">12</xref></sup> . Foram classificadas como causas mal definidas/indeterminadas os casos em que a informação prestada na certidão de óbito constava como não determinada. As mortes foram categorizadas em naturais e não naturais, conforme classificação do Ministério da Saúde, utilizada em nossas análises.</p>
+				<p>As variáveis independentes incluídas foram o sexo (masculino e feminino); idade no momento do óbito (em anos completos); tempo de efetivo exercício no cargo (em anos completos); e região geográfica brasileira de lotação do servidor. As variáveis idade e tempo de exercício como agente foram categorizadas posteriormente, conforme melhor se distribuiu a população.</p>
+				<p>Os dados foram analisados com base em estatística descritiva pelo número de casos absolutos e relativos e seus respectivos intervalos de confiança de 95% (IC95%). Para análise da tendência de mortalidade, utilizou-se a regressão <italic>Prais-Winsten</italic> com variância robusta<sup><xref ref-type="bibr" rid="B13">13</xref></sup> . A variável dependente do modelo foi a frequência absoluta de mortes, a variável independente correspondeu aos anos da série histórica. A série foi considerada crescente, quando o coeficiente do modelo foi positivo, decrescente quando negativo e estacionário quando não houve diferença significante entre seu valor e o zero (p &gt; 0,05)<sup><xref ref-type="bibr" rid="B13">13</xref></sup> . As análises bivariadas entre o desfecho e as exposições de interesse foram realizadas valendo-se do teste de qui-quadrado. Por fim, o desfecho também foi estudado a partir de sua taxa de incidência relativa, de acordo com o efetivo de policiais, em cada ano do período analisado. Para tanto, adotou-se o nível de significância de 5%. Todas as análises foram realizadas no pacote estatístico Stata 15.1.</p>
+				<p>É importante destacar que este estudo obteve aprovação do Comitê de Ética em Pesquisa com Seres Humanos da Escola Superior de Educação Física da Universidade Federal de Pelotas – RS, sob o número de protocolo 47809721.8.0000.5313.</p>
+			</sec>
+			<sec sec-type="results">
+				<title>RESULTADOS</title>
+				<p>No período entre 2001 e 2020, foram registradas 346 mortes de agentes da PRF que estavam na ativa, sendo 11 mortes (3,2%) classificadas como indeterminadas, as quais foram excluídas das análises bivariadas, totalizando 335 óbitos com causas determinadas. Os agentes incluídos tinham em média 44,7 anos (DP = 10,8) e trabalhavam na PRF há 15,9 anos (DP = 10,6). Indivíduos do sexo masculino, com mais de 35 anos, com até 15 anos de serviço, e residentes na região Nordeste, estão entre os mais acometidos no período avaliado ( <xref ref-type="table" rid="t1002">Tabela 1</xref> ). Mortes provenientes de causas não naturais apresentaram maior proporção (56,4%) ( <xref ref-type="table" rid="t1002">Tabela 1</xref> ).</p>
+				<p>
+					<table-wrap id="t1002">
+						<label>Tabela 1</label>
+						<caption>
+							<title>Número e porcentagem de óbitos em agentes da polícia rodoviária federal, segundo sexo, idade, tempo de serviço, regiões e causa da morte, de acordo com a categorização do Ministério da Saúde. Brasil, 2001–2021 (n = 346).</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup width="50%">
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left" rowspan="1" style="font-weight:normal">
+									</th>
+									<th>Óbitos</th>
+								</tr>
+								<tr>
+									<th align="left" style="font-weight:normal">
+									</th>
+									<th>
+										<hr/>
+									</th>
+								</tr>
+								<tr>
+									<th align="left" style="font-weight:normal">
+									</th>
+									<th>n (%)</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Sexo</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Masculino</td>
+									<td align="center">333 (96,3)</td>
+								</tr>
+								<tr>
+									<td>Feminino</td>
+									<td align="center">13 (3,7)</td>
+								</tr>
+								<tr>
+									<td>Idade (anos)</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>19–35</td>
+									<td align="center">81 (23,4)</td>
+								</tr>
+								<tr>
+									<td>36–50</td>
+									<td align="center">160 (46,2)</td>
+								</tr>
+								<tr>
+									<td>51–73</td>
+									<td align="center">105 (30,4)</td>
+								</tr>
+								<tr>
+									<td>Tempo de serviço (anos)</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>≤ 15</td>
+									<td align="center">185 (53,5)</td>
+								</tr>
+								<tr>
+									<td>16–25</td>
+									<td align="center">90 (26,0)</td>
+								</tr>
+								<tr>
+									<td>≥ 26</td>
+									<td align="center">71 (20,5)</td>
+								</tr>
+								<tr>
+									<td>Região</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Norte</td>
+									<td align="center">35 (10,1)</td>
+								</tr>
+								<tr>
+									<td>Centro-Oeste</td>
+									<td align="center">44 (12,7)</td>
+								</tr>
+								<tr>
+									<td>Nordeste</td>
+									<td align="center">114 (33,0)</td>
+								</tr>
+								<tr>
+									<td>Sudeste</td>
+									<td align="center">98 (28,3)</td>
+								</tr>
+								<tr>
+									<td>Sul</td>
+									<td align="center">55 (15,9)</td>
+								</tr>
+								<tr>
+									<td>Causa da morte<sup>a</sup></td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Morte natural/doença</td>
+									<td align="center">146 (43,6)</td>
+								</tr>
+								<tr>
+									<td>Morte não natural/causas externas</td>
+									<td align="center">189 (56,4)</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN1002">
+								<p><sup>a</sup>11 informações de mortes foram perdidas (causa indeterminada).</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p>A média de óbitos, ao longo do período, foi de 17,4 mortes/ano, com amplitude variando de sete a 29 mortes nos anos de 2013 e 2001, respectivamente, conforme demonstrado na <xref ref-type="fig" rid="f02002">Figura 2</xref> . Analisando o período em décadas, é possível observar uma redução no número de mortes, tanto com relação à quantidade absoluta, quanto pelo valor médio, a partir da segunda década (2011–2020) em comparação ao período de 2001 até 2010 (12,3 e 22,3 mortes em média, respectivamente). Baseados nos resultados da regressão de <italic>Prais-Winsten</italic> , verifica-se que existe uma tendência significativa de diminuição do número de mortes ao longo do período, na ordem de -0,78 mortes por ano (IC95% -1,03 – -0,50; p &lt; 0,001).</p>
+				<p>
+					<fig id="f02002">
+						<label>Figura 2</label>
+						<caption>
+							<title>Frequências absoluta, relativa (%) e regressão de <italic>Prais-Winsten</italic> da estimativa de mortes ocorridas em agentes da polícia rodoviária federal nos últimos 20 anos, 2001–2020 (n = 346).</title>
+						</caption>
+						<graphic xlink:href="1518-8787-rsp-56-82-gf02-pt.tif"/>
+					</fig>
+				</p>
+				<p>A <xref ref-type="table" rid="t2002">Tabela 2</xref> apresenta as causas específicas de mortes, em valores absolutos e relativos, segundo a classificação do Ministério da Saúde. A principal causa de morte observada são os acidentes de trânsito (28,7%), seguida pelas doenças cardiovasculares (17,3%), violência interpessoal (15,2%), suicídios (10,5%) e neoplasias malignas (10,4%). É possível observar que 54,4% do total de mortes no período estudado é atribuído a acidentes de trânsito, violência interpessoal e suicídio (mortes não naturais), bem como correspondem à 96,3% das mortes por causas não naturais/externas ao longo do período.</p>
+				<p>
+					<table-wrap id="t2002">
+						<label>Tabela 2</label>
+						<caption>
+							<title>Características das mortes em ordem decrescente entre 2001 e 2020 de agentes da polícia rodoviária federal em sua totalidade e estratificada conforme a categorização do Ministério da Saúde (n = 335).</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup width="25%">
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left" colspan="1" rowspan="5">Características</th>
+									<th colspan="3">Mortes</th>
+								</tr>
+								<tr>
+									<th colspan="3">
+										<hr/>
+									</th>
+								</tr>
+								<tr>
+									<th>Total</th>
+									<th>Naturais/doenças</th>
+									<th>Não naturais/causas externas</th>
+								</tr>
+								<tr>
+									<th>
+										<hr/>
+									</th>
+									<th>
+										<hr/>
+									</th>
+									<th>
+										<hr/>
+									</th>
+								</tr>
+								<tr>
+									<th>n (%)</th>
+									<th>% (IC95%)</th>
+									<th>% (IC95%)</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Acidente de trânsito</td>
+									<td align="center">96 (28,7)</td>
+									<td align="center">-</td>
+									<td align="center">50,5 (43,4–57,6)</td>
+								</tr>
+								<tr>
+									<td>Doenças cardiovasculares</td>
+									<td align="center">58 (17,3)</td>
+									<td align="center">39,7 (32,1–47,9)</td>
+									<td align="center">-</td>
+								</tr>
+								<tr>
+									<td>Violência interpessoal</td>
+									<td align="center">51 (15,2)</td>
+									<td align="center">-</td>
+									<td align="center">26,8 (21,0–33,6)</td>
+								</tr>
+								<tr>
+									<td>Suicídio</td>
+									<td align="center">36 (10,5)</td>
+									<td align="center">-</td>
+									<td align="center">18,9 (14,0–25,2)</td>
+								</tr>
+								<tr>
+									<td>Neoplasias malignas</td>
+									<td align="center">35 (10,4)</td>
+									<td align="center">24,0 (17,7–31,6)</td>
+									<td align="center">-</td>
+								</tr>
+								<tr>
+									<td>Doenças digestivas</td>
+									<td align="center">20 (6,0)</td>
+									<td align="center">13,7 (9,0–20,3)</td>
+									<td align="center">-</td>
+								</tr>
+								<tr>
+									<td>Doenças infecciosas e parasitárias</td>
+									<td align="center">14 (4,2)</td>
+									<td align="center">9,6 (5,8–15,6)</td>
+									<td align="center">-</td>
+								</tr>
+								<tr>
+									<td>Infecção respiratória</td>
+									<td align="center">12 (3,6)</td>
+									<td align="center">8,2 (4,7–14,0)</td>
+									<td align="center">-</td>
+								</tr>
+								<tr>
+									<td>Lesões não-intencionais</td>
+									<td align="center">7 (2,1)</td>
+									<td align="center">-</td>
+									<td align="center">3,7 (1,8–7,6)</td>
+								</tr>
+								<tr>
+									<td>Doenças respiratórias</td>
+									<td align="center">4 (1,2)</td>
+									<td align="center">2,7 (1,0–7,1)</td>
+									<td align="center">-</td>
+								</tr>
+								<tr>
+									<td>Doenças endócrinas</td>
+									<td align="center">3 (0,9)</td>
+									<td align="center">2,1 (0,7–6,2)</td>
+									<td align="center">-</td>
+								</tr>
+							</tbody>
+						</table>
+					</table-wrap>
+				</p>
+				<p>Na <xref ref-type="table" rid="t3002">Tabela 3</xref> , observa-se que a proporção de óbitos por causas não naturais é maior nos policiais com faixa etária entre 19 e 35 anos (87,3%; IC95% 78,0–93,1) e com tempo de serviço de até 15 anos (70,2%; IC95% 63,1–76,4). Já a proporção de óbitos por causas naturais é maior entre os agentes na faixa etária entre 51 e 73 anos (68,3%; IC95% 58,6–76,7) e com 26 ou mais anos de serviço (64,7%; IC95% 52,7–75,1%).</p>
+				<p>
+					<table-wrap id="t3002">
+						<label>Tabela 3</label>
+						<caption>
+							<title>Porcentagem de óbitos por categoria de morte em agentes da polícia rodoviária federal, segundo idade, tempo de serviço e região. Brasil, 2001–2021 (n = 335).</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup width="25%">
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left" rowspan="1" style="font-weight:normal">
+									</th>
+									<th>Morte natural/doença</th>
+									<th>Morte não-natural/causas externas</th>
+									<th colspan="1" rowspan="3">p</th>
+								</tr>
+								<tr>
+									<th align="left" style="font-weight:normal">
+									</th>
+									<th>
+										<hr/>
+									</th>
+									<th>
+										<hr/>
+									</th>
+								</tr>
+								<tr>
+									<th align="left" style="font-weight:normal">
+									</th>
+									<th>% (IC95%)</th>
+									<th>% (IC95%)</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Idade (anos)</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td align="center">&lt; 0,001</td>
+								</tr>
+								<tr>
+									<td>19–35</td>
+									<td align="center">12,7 (6,9–22,0)</td>
+									<td align="center">87,3 (78,0–93,1)<sup>a</sup></td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>36–50</td>
+									<td align="center">43,0 (35,4–50,9)</td>
+									<td align="center">57,0 (49,1–64,6)</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>51–73</td>
+									<td align="center">68,3 (58,6–76,7)<sup>a</sup></td>
+									<td align="center">31,7 (23,3–41,4)</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Tempo de serviço (anos)</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td align="center">&lt; 0,001</td>
+								</tr>
+								<tr>
+									<td>≤ 15</td>
+									<td align="center">29,8 (23,6–36,9)</td>
+									<td align="center">70,2 (63,1–76,4)<sup>a</sup></td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>16–25</td>
+									<td align="center">55,8 (45,1–65,9)</td>
+									<td align="center">44,2 (34,1–54,8)</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>≥ 26</td>
+									<td align="center">64,7 (52,7–75,1)<sup>a</sup></td>
+									<td align="center">35,3 (24,9–47,3)</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Região</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td align="center">0,64</td>
+								</tr>
+								<tr>
+									<td>Norte</td>
+									<td align="center">38,7 (23,4–56,6)</td>
+									<td align="center">61,3 (43,4–76,6)</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Centro-Oeste</td>
+									<td align="center">36,4 (23,5–51,4)</td>
+									<td align="center">63,6 (48,6–76,4)</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Nordeste</td>
+									<td align="center">44,6 (35,7–53,9)</td>
+									<td align="center">55,4 (46,0–64,3)</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Sudeste</td>
+									<td align="center">48,9 (39,0–59,0)</td>
+									<td align="center">51,1 (41,0–61,0)</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Sul</td>
+									<td align="center">40,7 (28,5–54,2)</td>
+									<td align="center">59,3 (45,8–71,5)</td>
+									<td>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<fn id="TFN2002">
+								<p>IC95%: intervalo de confiança de 95%.</p>
+							</fn>
+							<fn id="TFN3002">
+								<p><sup>a</sup>Diferença estatística percentual de morte não natural/causas externas em relação a morte natural/doença.</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p>A <xref ref-type="fig" rid="f03002">Figura 3</xref> apresenta as taxas de mortalidade ocorridas no período analisado neste estudo, de 2001 a 2020. Dessa forma, sublinha-se que a taxa de mortalidade geral relativa a mil policiais vem decrescendo ao longo do período, sendo próxima a quatro mortes a cada mil policiais em 2001, chegando a taxas próximas a 1,5 mortes a cada mil policiais a partir de 2014. Além disso, é notável que a taxa de mortes não naturais foi maior em praticamente todos os anos analisados, com exceção dos anos de 2001, 2007, 2013 e 2019, em que a taxa de mortes naturais foi maior.</p>
+				<p>
+					<fig id="f03002">
+						<label>Figura 3</label>
+						<caption>
+							<title>Taxa de incidência de mortalidade em agentes da polícia rodoviária federal entre 2001 e 2020, total e estratificada, conforme o critério do Ministério da Saúde.</title>
+						</caption>
+						<graphic xlink:href="1518-8787-rsp-56-82-gf03-pt.tif"/>
+					</fig>
+				</p>
+			</sec>
+			<sec sec-type="discussion">
+				<title>DISCUSSÃO</title>
+				<p>O presente estudo mostrou que a mortalidade por todas as causas é maior entre agentes do sexo masculino, com idade acima de 35 anos, 15 anos ou menos de trabalho e residentes na região Nordeste. Mortes por causas não naturais apresentaram maior prevalência, as quais são mais frequentes entre aqueles mais novos e com menor tempo de serviço. Uma tendência decrescente no número de mortes ao longo dos anos e uma queda na taxa de mortalidade ao longo do período foi observada. Acidentes de trânsito, doenças cardiovasculares, violência interpessoal, suicídio e neoplasias malignas estão entre as principais causas de mortes entre agentes da PRF.</p>
+				<p>Em relação ao perfil de idade e as causas de morte encontradas no período, observa-se que os policiais apresentam faixa etária e causas semelhantes às encontradas em outras populações policiais<sup><xref ref-type="bibr" rid="B11">11</xref> , <xref ref-type="bibr" rid="B14">14</xref></sup> . Merino<sup><xref ref-type="bibr" rid="B15">15</xref></sup> observou, a partir de um estudo ecológico de série temporal entre 2002 e 2006, que 77% dos policiais militares do estado de São Paulo morreram por causas não naturais. Assim, percebe-se que esse grupo populacional está exposto a fatores de risco específicos da profissão (confrontos armados, perseguições a veículos) o que pode estar relacionado a essa maior proporção de mortes não naturais.</p>
+				<p>Além disso, o maior percentual de óbitos por causas não naturais entre os agentes com menor tempo de serviço corrobora o achado dentre policiais militares do Rio de Janeiro, onde aqueles com menor tempo de serviço apresentaram risco aumentado em 2,4 vezes de morrer, quando comparado aos com maior tempo<sup><xref ref-type="bibr" rid="B16">16</xref></sup> . Falta de percepção e vivência dos riscos das atividades da profissão pelos policiais mais novos pode explicar essa relação. Em policiais novatos a percepção de adrenalina produzida pelo inusitado e sua motivação para ação na profissão diminui a percepção do risco nos momentos de perseguições ou confrontos, colocando esses indivíduos em risco aumentado<sup><xref ref-type="bibr" rid="B17">17</xref></sup> .</p>
+				<p>Diante disso, os agentes da PRF estão, como outras forças policiais, mais vulneráveis às mortes não naturais (violência interpessoal, acidentes de trânsito e suicídio), visto que entre suas competências estão, no âmbito das rodovias federais, o patrulhamento ostensivo e a repressão a todos os tipos de crimes<sup><xref ref-type="bibr" rid="B18">18</xref></sup> , o que os expõem a um maior risco de sua integridade física. Assim, o conhecimento desse perfil de vitimização dos policiais possibilita uma identificação do padrão de monitoramento mais fidedigno e pode auxiliar na avaliação de prioridades dos investimentos em políticas de saúde para agentes da PRF, visando a implementação de ações/programas mais efetivos na redução da mortalidade, que podem promover a diminuição dos custos para a administração pública em geral.</p>
+				<p>Entretanto, a PRF não possui em seu quadro oficial de servidores cargos relacionados a profissionais da área de saúde nem setores de saúde como ambulatórios, policlínicas e hospitais. No entanto, em sua estrutura organizacional, há setores de gestão de saúde, que atuam em nível básico de atendimento, com intervenções genéricas (aplicação de testes físicos<sup><xref ref-type="bibr" rid="B19">19</xref></sup> , palestras com orientações de estilos de vida saudáveis<sup><xref ref-type="bibr" rid="B20">20</xref></sup> ), processuais (registro de atestados médicos e encaminhamentos para perícias oficiais), e de gestão de crises/incidentes críticos (teleatendimento do servidor envolvido em confronto armado, acidente de trânsito e adoecido por covid-19).</p>
+				<p>Uma redução no número absoluto de mortes foi observada, na última década da série temporal (2011–2020), o que pode estar relacionada à implementação de programas e ações de prevenção e promoção da saúde na PRF, como: i) Patrulha da saúde, cuja finalidade é promover conhecimento sobre medidas de prevenção a doenças e promoção de um estilo de vida saudável, conforme dados previamente publicados<sup><xref ref-type="bibr" rid="B20">20</xref></sup> ; ii) Disciplina relacionada à saúde, na matriz curricular dos cursos de formação policial, a qual tem por objetivo a adoção de hábitos que promovam a saúde integral dos agentes em formação, com foco em técnicas e cuidados que envolvam a prática de exercícios físicos regulares, alimentação saudável, qualidade do sono e questões relativas à saúde psicoemocional; iii) Teste de aptidão física, o qual visa aferir os níveis de aptidão física dos agentes para fins de promoção na carreira e critério de seleção para atividades específicas<sup><xref ref-type="bibr" rid="B21">21</xref></sup> ; e iv) Programa de educação física institucional, o qual incentiva à prática de atividade física fora do ambiente de trabalho<sup><xref ref-type="bibr" rid="B19">19</xref></sup> . Tais ações podem ter contribuído para mudanças de estilo de vida e, consequentemente, redução da morbimortalidade por causas naturais entre os agentes, porém, pelo delineamento do estudo realizado, não é possível analisar a causalidade entre as iniciativas de saúde na PRF e a mortalidade ao longo do período<sup><xref ref-type="bibr" rid="B13">13</xref></sup> .</p>
+				<p>Os acidentes de trânsito foram considerados como a principal causa de morte entre os agentes durante o período de 2001 a 2020 (28,7%), corroborando estudo recente que descreveu a mortalidade entre policiais militares do Rio Grande do Sul entre os anos de 2006 e 2016<sup><xref ref-type="bibr" rid="B14">14</xref></sup> . Limeira e Donato<sup><xref ref-type="bibr" rid="B14">14</xref></sup> observaram que o acidente de trânsito foi a principal causa de morte entre policiais da ativa em serviço, com 41,3% do total de mortes no período estudado, estando a frente das mortes por violência interpessoal (homicídio) e suicídio, conforme ocorreu entre os agentes deste estudo durante os 20 anos. Tanto agentes da PRF, como policiais militares, fazem parte da polícia ostensiva da União e dos estados, respectivamente, cujas atividades de policiamento exigem o constante uso de carros e motos (viaturas), assim como, para manutenção da segurança viária, permanecem em locais de grande volume de veículos, o que pode aumentar o risco de atropelamentos. Nesse contexto, é relevante a institucionalização de políticas de prevenção, a partir de capacitações dos agentes e pesquisas sobre o assunto, visando melhorar suas condutas em ocorrências de acidentes de trânsito.</p>
+				<p>As doenças cardiovasculares foram a principal causa de morte entre as mortes naturais ao longo da série temporal estudada (39,7%), sendo semelhante ao encontrado em estudos com policiais novaiorquinos<sup><xref ref-type="bibr" rid="B6">6</xref></sup> e paulistanos<sup><xref ref-type="bibr" rid="B15">15</xref></sup> . Vena et al.<sup><xref ref-type="bibr" rid="B6">6</xref></sup> relataram um elevado número de mortes por doenças relacionadas ao sistema circulatório (44,9% de todas as mortes) em policiais de Nova York entre 1950 e 2005. Esse elevado percentual pode ser justificado pela prevalência elevada de alguns fatores de risco cardiovasculares presentes na população policial, como turnos longos de trabalho, distúrbios de sono, estresse psicológico, estresse físico imprevisto e exposição a ruído<sup><xref ref-type="bibr" rid="B2">2</xref></sup> .</p>
+				<p>Além disso, os resultados de Vena et al.<sup><xref ref-type="bibr" rid="B9">9</xref></sup> apontam que policiais americanos tiveram um aumento nas taxas de mortes por doenças cardíacas arterioscleróticas e por diferentes tipos de cânceres entre 1950 e 1970. Similarmente, Forastiere et al.<sup><xref ref-type="bibr" rid="B8">8</xref></sup> estudando uma coorte histórica de policiais em Roma, na Itália, observaram aumento nas taxas de mortalidade por doença isquêmica do coração em policiais com menos de 50 anos de idade, bem como para alguns tipos de cânceres. Violanti et al.<sup><xref ref-type="bibr" rid="B10">10</xref></sup> , ao examinarem uma coorte de policiais americanos entre os anos de 1950 e 1990, encontraram um significativo aumento na mortalidade por todas as neoplasias malignas combinadas, bem como por doença cardíaca arteriosclerótica em policiais com maior tempo de serviço. Em resumo, esses resultados, bem como os do presente estudo, reforçam a relação entre tempo de serviço e idade na mortalidade policial por causas naturais, especialmente por doenças cardiovasculares e neoplasias malignas, possivelmente relacionadas aos fatores de risco ocupacionais e de estilo de vida dos policiais<sup><xref ref-type="bibr" rid="B2">2</xref></sup> .</p>
+				<p>Outro ponto importante é que, durante os 20 anos estudados, os suicídios de agentes da PRF estão entre as quatro principais causas de óbitos, sendo a terceira por causas externas, o que corrobora os achados prévios de estudos com policiais militares<sup><xref ref-type="bibr" rid="B14">14</xref> , <xref ref-type="bibr" rid="B15">15</xref></sup> . A profissão policial expõe seus profissionais a características (fácil acesso a arma de fogo, por exemplo) e situações específicas da profissão (confrontos armados, violência e convivência com cenas de óbitos, etc.), as quais podem ser determinantes para o aumento do risco de suicídio nessa população<sup><xref ref-type="bibr" rid="B22">22</xref></sup> . Dessa forma, qualquer instituição policial deve monitorar e analisar os dados sobre o perfil e a taxa de óbitos por suicídio, a fim de orientar a formulação, implementação e avaliação de políticas públicas na área de saúde mental policial.</p>
+				<p>Tendo por base a análise de tendência do número de mortes absolutas e a taxa de incidência de mortalidade, encontradas neste estudo, a redução demonstrada na série está em discordância com os resultados apresentados em estudo com policiais militares do Rio de Janeiro<sup><xref ref-type="bibr" rid="B16">16</xref></sup> . Minayo et al.<sup><xref ref-type="bibr" rid="B16">16</xref></sup> reuniram dados de taxa de mortalidade nessa população, os quais apresentaram tendência crescente no período entre 1994 e 2004, com valores entre 12,1 e 17 mortes por mil policiais entre os anos de 2000 e 2004. Esses valores estão muito acima dos encontrados, nos respectivos anos neste estudo, o que pode ser justificado pelas características distintas entre o perfil dos policiais de cada instituição (PRF e policiais militares do Rio de Janeiro), visto que o percentual de policiais militares que trabalham em outra atividade laboral na folga (principalmente em serviços de segurança privada) é muito elevado<sup><xref ref-type="bibr" rid="B16">16</xref></sup> .</p>
+				<p>Reconhece-se que este estudo tem limitações. Primeiramente, a qualidade de dados secundários é dependente do sistema de informação de onde os dados são originados. No caso deste estudo, as informações de óbito foram retiradas das certidões de óbitos, as quais são preenchidas nos cartórios a partir da declaração de óbito, que é preenchida por um médico. Assim, tanto no preenchimento das certidões de óbitos quanto nas transcrições da declaração de óbito há limitações de padronização que dificultaram a classificação das causas de morte<sup><xref ref-type="bibr" rid="B25">25</xref></sup> . Em segundo lugar, é importante destacar a ausência de dados completos da população, como presença de doenças preexistentes, medidas de aptidão física, atividade policial ou militar prévia ao ingresso na PRF, dentre outras exposições que poderiam auxiliar em uma análise de possíveis fatores de risco para mortalidade. Entretanto, o presente estudo destaca-se por seu caráter de ineditismo sobre o tema da mortalidade policial em âmbito nacional, bem como a amplitude (20 anos) e o período atual de avaliação da série temporal (2001–2020).</p>
+				<p>De acordo com os dados apresentados neste estudo será possível traçar o diagnóstico situacional das mortes de agentes da PRF no Brasil. Tais informações serão importantes para subsidiar a formulação de políticas públicas de saúde, bem como de ações práticas de capacitação profissional na PRF baseadas em evidências.</p>
+				<p>Os resultados deste artigo sugerem que as políticas públicas de saúde empregadas pela PRF podem ter contribuído para uma redução no número de mortes de agentes em efetivo exercício por todas as causas ao longo do período de 2001 a 2020. Contudo, devem ser implementadas ações e programas relacionados à prevenção das principais causas de morte entre os agentes, principalmente, por acidentes de trânsito, doenças cardiovasculares, violência interpessoal, suicídio e neoplasias malignas. Essas medidas precisam ser implementadas visando atingir o maior número de agentes, a fim de reduzir os impactos, tanto na saúde como nos custos decorrentes dela.</p>
+			</sec>
+		</body>
+	</sub-article>
+</article>

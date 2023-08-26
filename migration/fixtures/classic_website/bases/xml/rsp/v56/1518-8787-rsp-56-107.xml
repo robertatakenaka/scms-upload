@@ -1,0 +1,3594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.1" specific-use="sps-1.9" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="nlm-ta">Rev Saude Publica</journal-id>
+			<journal-id journal-id-type="publisher-id">rsp</journal-id>
+			<journal-title-group>
+				<journal-title>Revista de Saúde Pública</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Rev. Saúde Pública</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="ppub">0034-8910</issn>
+			<issn pub-type="epub">1518-8787</issn>
+			<publisher>
+				<publisher-name>Faculdade de Saúde Pública da Universidade de São Paulo</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="other">00287</article-id>
+			<article-id pub-id-type="doi">10.11606/s1518-8787.2022056004668</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Original Article</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Major depressive episode in hospital workers during the Covid-19 pandemic in Brazil</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-4245-3131</contrib-id>
+					<name>
+						<surname>Flesch</surname>
+						<given-names>Betina Daniele</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+					<role>Study design and planning</role>
+					<role>Data collection, analysis, and interpretation</role>
+					<role>Manuscript drafting or review</role>
+					<role>Approval of the final version</role>
+					<role>Public responsibility for the content of the article</role>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-0641-5883</contrib-id>
+					<name>
+						<surname>Szortyka</surname>
+						<given-names>Ana Laura Sica Cruzeiro</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+					<role>Study design and planning,</role>
+					<role>Data collection, analysis, and interpretation</role>
+					<role>Manuscript drafting or review</role>
+					<role>Approval of the final version</role>
+					<role>Public responsibility for the content of the article</role>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-1809-328X</contrib-id>
+					<name>
+						<surname>Carvalho</surname>
+						<given-names>Maitê Peres de</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>III</sup></xref>
+					<role>Study design and planning</role>
+					<role>Data collection, analysis, and interpretation</role>
+					<role>Approval of the final version</role>
+					<role>Public responsibility for the content of the article</role>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-9710-1761</contrib-id>
+					<name>
+						<surname>Goularte</surname>
+						<given-names>Laura Moreira</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+					<role>Data collection, analysis, and interpretation</role>
+					<role>Approval of the final version</role>
+					<role>Public responsibility for the content of the article</role>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-3562-3246</contrib-id>
+					<name>
+						<surname>Delpino</surname>
+						<given-names>Felipe Mendes</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff4"><sup>IV</sup></xref>
+					<role>Data collection, analysis, and interpretation</role>
+					<role>Approval of the final version</role>
+					<role>Public responsibility for the content of the article</role>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-6070-6214</contrib-id>
+					<name>
+						<surname>Fassa</surname>
+						<given-names>Anaclaudia Gastal</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+					<role>Study design and planning</role>
+					<role>Data collection, analysis, and interpretation</role>
+					<role>Manuscript drafting or review</role>
+					<role>Approval of the final version</role>
+					<role>Public responsibility for the content of the article</role>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>I</label>
+				<institution content-type="orgname">Universidade Federal de Pelotas</institution>
+				<institution content-type="orgdiv1">Departamento de Medicina Social</institution>
+				<institution content-type="orgdiv2">Programa de Pós-graduação em Epidemiologia</institution>
+				<addr-line>
+					<named-content content-type="city">Pelotas</named-content>
+					<named-content content-type="state">RS</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Universidade Federal de Pelotas. Departamento de Medicina Social. Programa de Pós-graduação em Epidemiologia. Pelotas, RS, Brasil</institution>
+			</aff>
+			<aff id="aff2">
+				<label>II</label>
+				<institution content-type="orgname">Universidade Federal de Pelotas</institution>
+				<institution content-type="orgdiv1">Faculdade de Medicina</institution>
+				<addr-line>
+					<named-content content-type="city">Pelotas</named-content>
+					<named-content content-type="state">RS</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Universidade Federal de Pelotas. Faculdade de Medicina. Curso de Psicologia. Pelotas, RS, Brasil</institution>
+			</aff>
+			<aff id="aff3">
+				<label>III</label>
+				<institution content-type="orgname">Universidade Federal de Pelotas</institution>
+				<institution content-type="orgdiv1">Faculdade de Medicina</institution>
+				<addr-line>
+					<named-content content-type="city">Pelotas</named-content>
+					<named-content content-type="state">RS</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Universidade Federal de Pelotas. Faculdade de Medicina. Curso de Terapia Ocupacional. Pelotas, RS, Brasil</institution>
+			</aff>
+			<aff id="aff4">
+				<label>IV</label>
+				<institution content-type="orgname">Universidade Federal de Pelotas</institution>
+				<institution content-type="orgdiv1">Faculdade de Enfermagem</institution>
+				<institution content-type="orgdiv2">Programa de Pós-graduação em Enfermagem</institution>
+				<addr-line>
+					<named-content content-type="city">Pelotas</named-content>
+					<named-content content-type="state">RS</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Universidade Federal de Pelotas. Faculdade de Enfermagem. Programa de Pós-graduação em Enfermagem. Pelotas, RS, Brasil</institution>
+			</aff>
+			<author-notes>
+				<corresp id="c01"> Correspondence: Betina Daniele Flesch Rua Marechal Deodoro, 1.160 3º andar 96020-220 Pelotas-RS, Brasil E-mail: <email>betinaflesch@gmail.com</email>
+				</corresp>
+				<fn fn-type="conflict">
+					<p>Conflict of Interest: The authors declare no conflict of interest.</p>
+				</fn>
+			</author-notes>
+			<pub-date date-type="pub" publication-format="electronic">
+				<day>06</day>
+				<month>01</month>
+				<year>2023</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">
+				<year>2022</year>
+			</pub-date>
+			<volume>56</volume>
+			<elocation-id>107</elocation-id>
+			<history>
+				<date date-type="received">
+					<day>7</day>
+					<month>03</month>
+					<year>2022</year>
+				</date>
+				<date date-type="accepted">
+					<day>29</day>
+					<month>06</month>
+					<year>2022</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="en">
+					<license-p> This is an Open Access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. </license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>ABSTRACT</title>
+				<sec>
+					<title>OBJECTIVES</title>
+					<p> To estimate prevalence and factors associated with major depressive episode (MDE), emphasizing occupational aspects, in workers of a public teaching hospital that is a reference for Covid-19 treatment.</p>
+				</sec>
+				<sec>
+					<title>METHODS</title>
+					<p> A cross-sectional study was carried out between October and December 2020, after the first peak of the pandemic, interviewing 1,155 workers. The prevalence of MDE was estimated using the Patient Health Questionnaire (PHQ-9) algorithm. Multivariate hierarchical analysis was conducted using Poisson regression to assess associated factors.</p>
+				</sec>
+				<sec>
+					<title>RESULTS</title>
+					<p> MDE prevalence was 15.3% (95%CI: 13.3–17.5) and was higher among young, white and female workers, those with a family history of depression, resident professionals, nursing professionals, workers who were exposed to three or more situations of moral dilemma, and those who had to put off a physiological need until later. Having a risk factor for Covid-19, being a smoker and being physically inactive were also positively associated with MDE.</p>
+				</sec>
+				<sec>
+					<title>CONCLUSIONS</title>
+					<p> The study points to the considerable prevalence of MDE among tertiary health care workers; reviewing work processes is essential to reduce occupational stress and minimize the effects of the pandemic on mental health, preventing those problems from becoming chronic.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="en">
+				<kwd>Patient Care Team</kwd>
+				<kwd>Depressive Disorder, Major, epidemiology</kwd>
+				<kwd>COVID-19</kwd>
+				<kwd>Working Conditions</kwd>
+				<kwd>Occupational Health</kwd>
+			</kwd-group>
+			<funding-group>
+				<award-group>
+					<funding-source>Capes</funding-source>
+					<award-id>001</award-id>
+				</award-group>
+				<funding-statement>Funding: This research was carried out with the support of the Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Brazil (Capes - Financing Code 001, through research grants, and the Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul (Fapergs), to main funding to carry out the study.</funding-statement>
+			</funding-group>
+			<counts>
+				<fig-count count="0"/>
+				<table-count count="5"/>
+				<equation-count count="0"/>
+				<ref-count count="43"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>INTRODUCTION</title>
+			<p>The health sector accounts for more than 4% of the formally employed population in the country, being very important to the Brazilian economy<sup><xref ref-type="bibr" rid="B1">1</xref></sup>. People who work in tertiary care include nursing professionals (nurses, nursing technicians, and nursing auxiliaries), physicians, administrative workers, support workers, and other professionals, either hired directly or outsourced. Studies before the pandemic already pointed that these workers face long working hours, a precarious work environment, lack of supplies and personnel, a lot of time spent doing bureaucratic tasks, moral harassment, low autonomy, and little participation in decision-making processes<sup><xref ref-type="bibr" rid="B2">2</xref>,<xref ref-type="bibr" rid="B3">3</xref></sup>. Studies conducted in Brazil before the pandemic, mostly with nurses and nursing technicians, already highlighted the impact of their work on mental health, finding depressive symptom prevalence rates of between 40% and 50%, varying according to the instruments used to assess symptoms and levels of severity of the disease<sup><xref ref-type="bibr" rid="B4">4</xref></sup>.</p>
+			<p>The Covid-19 pandemic led to intensified work in hospitals, as well as increased concerns about biosafety and important changes in work processes. Health professionals face ethical and moral dilemmas in their routine, as they are forced to make quick and difficult decisions to save or reduce damage to individual or collective health. During the pandemic, resource shortages and treatment controversies further exacerbated this problem<sup><xref ref-type="bibr" rid="B7">7</xref></sup>. The health emergency situation with longer working hours, lack of individual protection equipment, lack of training, fear of contamination, and of contaminating family members increased workers’ burnout<sup><xref ref-type="bibr" rid="B8">8</xref>,<xref ref-type="bibr" rid="B9">9</xref></sup>.</p>
+			<p>The first studies on workers’ depression during the pandemic were developed in China using the Patient Health Questionnaire-9 (PHQ-9). This instrument is based on DSM-5 criteria which characterizes major depressive episode (MDE) as the presence of depressed, empty, or irritable mood, accompanied by somatic and cognitive changes that affect the individual’s functional capacity for at least one week<sup><xref ref-type="bibr" rid="B10">10</xref></sup>. The Chinese studies found depression prevalence rates of between 30% and 40%. The study by Lai et al.<sup><xref ref-type="bibr" rid="B11">11</xref></sup>, conducted with 1,257 health care workers who were caring for Covid-19 patients, found that 50.4% of the participants reported symptoms of depression. The study conducted by Kang et al.<sup><xref ref-type="bibr" rid="B12">12</xref></sup> with 944 physicians and nurses found that 34.4% had mild depression symptoms (PHQ-9: 5.4), 22.4% had moderate symptoms (PHQ-9: 9.0), and 6.2% had severe symptoms (mean PHQ-9: 15.1) immediately following the peak of the pandemic(12). There was also a study conducted in Mexico that screened 5,938 health workers using the PHQ-2 test and found a depression prevalence rate of 37.7%.</p>
+			<p>Brazilian studies found a prevalence of depressive symptoms varying from 25% among hospital nurses to 60% among professionals from an intensive care unit<sup><xref ref-type="bibr" rid="B13">13</xref>,<xref ref-type="bibr" rid="B14">14</xref></sup>. Several studies are small, sampling less than 100 professionals, and the larger online-conducted studies often failed to reach a representative sample<sup><xref ref-type="bibr" rid="B14">14</xref>,<xref ref-type="bibr" rid="B15">15</xref></sup>.</p>
+			<p>We found the following online-conducted studies: one with 1,054 graduated health professionals (34.5% physicians, 19.1% nursing technicians, 14.2% nurses and 11.9% psychologists) that observed PHQ-9 scores suggestive of clinically significant depression, with higher rates among nursing technicians (68.2% with BP ≥ 50 and 68.7% with PHQ-9 ≥ 9) and front-line PS (61.3% with PB ≥ 50 and 58% with PHQ-9 ≥ 9)<sup><xref ref-type="bibr" rid="B16">16</xref></sup>. An online survey among 1,609 healthcare workers observed a depression prevalence of 57%, with the lowest scores among physicians having 38%<sup><xref ref-type="bibr" rid="B17">17</xref></sup>.</p>
+			<p>Depression in health professionals working during the pandemic was more frequent among women, nurses, and other health workers, in comparison to physicians, frontline health workers, and younger and less experienced health workers. Other factors positively associated with depression were bereavement, having a colleague infected with Covid-19 and/or quarantined, lack of emotional support, personal history of mental health problems, lack of adequate personal protective equipment, and exposure to moral dilemmas at work<sup><xref ref-type="bibr" rid="B11">11</xref>,<xref ref-type="bibr" rid="B12">12</xref>,<xref ref-type="bibr" rid="B18">18</xref></sup>.<sup>.</sup> Few Brazilian studies evaluated factors associated with depression, showing a direct association with age, length of service in the profession and a positive association with job and work shift satisfaction<sup><xref ref-type="bibr" rid="B21">21</xref>,<xref ref-type="bibr" rid="B22">22</xref></sup>.</p>
+			<p>Considering that health care workers in Brazil already faced precarious working conditions before the Covid-19 pandemic and that resulted in a greater workload, this study seeks to estimate prevalence of MDE among tertiary health care workers facing Covid-19 in the municipality of Pelotas - RS and associated sociodemographic, behavioral, and occupational factors. The study will count with a large representative sample of hospital workers, allowing more knowledge about the impact of the pandemic on those workers’ mental health.</p>
+		</sec>
+		<sec sec-type="methods">
+			<title>METHODS</title>
+			<p>A cross-sectional study was conducted with all 1,731 workers at a Brazilian National Health System (SUS) teaching hospital to which patients were referred for Covid-19 treatment between October and December 2020, after the first peak of the pandemic. During the study, the weekly average was of 87 Covid-19 cases per 100,000 people in October, and of 64 cases per 100,000 people in November. The study was completed before the increase in cases by the delta variant occurred in December. The study was conducted in a medium-sized city in Southern Brazil and included workers hired by the Brazilian Hospital Services Company (EBSERH) under the Single Legal Regime (RJU) and outsourced workers who worked on-site or remotely during the Covid-19 pandemic.</p>
+			<p>The sample size to estimate the prevalence of MDE took into account an expected depression prevalence of 30%<sup><xref ref-type="bibr" rid="B12">12</xref></sup>, 95% confidence intervals (acceptable error of 2pp). Adding 10% for losses, a sample of 1,026 workers was estimated. To evaluate the associations, a confidence level of 95%, a statistical power of 80%, and exposed/non-exposed ratio of 1:8 (profession – variable that needs larger sample size), with a prevalence in non-exposed of 10% were considered. Adding 10% for losses and 15% to control for confounding factors, a sample of 958 workers would be needed to estimate risks above 2.</p>
+			<p>The study investigated sociodemographic aspects of the health workers, including age, skin color (categories used by the Brazilian Institute of Geography and Statistics - IBGE), biological sex, level of education, socioeconomic level according to Brazil Social Classification Criteria (CCEB 2020) by Brazilian Association of Research Companies (ABEP) as well as family history of depression. Regarding occupational aspects, profession was categorized in nurses, physicians, residents, nursing auxiliaries and technicians, support workers, administrative workers, and other health workers (nutritionists, physiotherapists, among others). The residents’ category included workers of different professions who were doing training in the hospital. Among the occupational aspects, the type of contractual link with the teaching hospital was also evaluated, whether the health worker was working or had worked in sectors intended for Covid-19 patients, whether they had asked to change from one sector to another during the pandemic, and whether they had worked remotely any time during the pandemic.</p>
+			<p>Taking workloads into consideration, exposure to moral dilemma was examined by investigating whether workers witnessed clinical procedures they considered to be inappropriate, witnessed colleagues’ attitudes towards them or their patients they disagreed with, felt pressured by colleagues or superiors to act in ways they disagreed with regarding clinical procedures and contractual norms, and felt pressured by patients or family members to act in ways they disagreed with. The questions were subdivided in never or hardly ever and occasionally/frequently, then a score ranging from one to five was derived from the sum of the occasionally/frequently answers to these questions.</p>
+			<p>The study also assessed whether workers had to put off any physiological need until later they had during the work shift, such as drinking water, eating, and going to the bathroom; whether the number of health workers available was sufficient, whether they had adequate physical space to perform their activities and whether they had a place to rest.</p>
+			<p>Occupational stress was measured by the Portuguese version of the Job Stress Scale (JSS) validated in Brazil<sup><xref ref-type="bibr" rid="B23">23</xref></sup>, which includes the demand, control, and social support dimensions (internal consistency estimates (Cronbach’s alpha) were, respectively, 0.79 demand, 0.67 control, and 0.85 social support), classifying work as a high or low strain, active or passive job, as well as the presence or absence of social support. This scale is an abridged version of the Job Content Questionnaire (JCQ)<sup><xref ref-type="bibr" rid="B24">24</xref></sup>. Regarding behavioral aspects, we determined tobacco and alcoholic beverage consumption, as well as practicing of physical activity.</p>
+			<p>The MDE was investigated using the Portuguese version of the Patient Health Questionnaire-9 (PHQ-9)<sup><xref ref-type="bibr" rid="B25">25</xref></sup> and validated for Brazil. This instrument has nine questions that assess how each of the symptoms of MDE presents, as described in the Diagnostic and Statistical Manual of Mental Disorders (DSM-IV). MDE was investigated using the PHQ-9 algorithm (sensitivity 42.5%; 95%CI: 27.0–59.1 and specificity 95.3%; 95%CI: 92.8–97.2)<sup><xref ref-type="bibr" rid="B25">25</xref></sup>, considering it to exist when five or more symptoms were present, provided that at least one was depressed mood or anhedonia and that each symptom had occurred for “a week or more” or “almost every day”, except for symptom nine, when the criteria used were occurrence for “less than a week”, “a week or more”, or “almost every day”. The prevalence of depression was also evaluated, according to severity levels, classified as: without depression (1 to 4 points), mild depression (5 to 9), moderate depression (10 to 14), moderately severe depression (15 to 19), or severe depression (20 to 27 points)<sup><xref ref-type="bibr" rid="B26">26</xref></sup>.</p>
+			<p>The workers were invited to participate in the study through their institutional e-mail, posters, and the hospital’s website and social media. The researchers also contacted hospital sector managers to identify and release workers to participate in the research. At the end of the fieldwork, those who had still not answered the questionnaire were contacted by telephone.</p>
+			<p>The study was conducted using a self-administered digital questionnaire on tablets answered at the workplace or online outside the workplace. The study had four supervisors and 15 trained interviewers who were present at the data collection site and accessible by telephone, to welcome workers, guide them in completing the questionnaire and answer queries. All study personnel received training and personal protective equipment, following all biosafety protocols.</p>
+			<p>The data were analyzed using the STATA 15.1 program. A descriptive analysis of the independent variables and the outcome was performed in order to characterize the sample. Association between the independent variables and the outcome was estimated using prevalence ratios and their respective 95% confidence intervals (95%CI), the chi-square test for heterogeneity and the linear trend test. Multivariate hierarchical analysis was performed using Poisson<sup><xref ref-type="bibr" rid="B27">27</xref></sup> regression with robust variance and backward selection. To adjust for confounding factors, variables associated with the outcome with a p-value &lt; 0.20 were kept in the model. Variables with a p-value &lt; 0.05 were considered to be associated.</p>
+			<p>The study project was approved by the Research Ethics Committee of the Faculty of Medicine of the <italic>Universidade Federal de Pelotas</italic> as per Opinion No. 4.040.039 issued on May 21, 2020. All participants were informed about the research topic, the protection of identity regarding the information provided, and the right to not participate or to stop participating at any time. Those who agreed to participate in the research signed an informed consent form.</p>
+		</sec>
+		<sec sec-type="results">
+			<title>RESULTS</title>
+			<p>A total of 1,155 workers from different sectors of the hospital were interviewed, with a response rate of 66.7%. In the population studied, 39.9% were between 30 and 39 years old; 74.4% self-reported having white skin color; 76% were female; 38.5% had concluded postgraduate courses; 53.3% belonged to economic level B and 50.8% reported a family history of depression (<xref ref-type="table" rid="t1">Table 1</xref>).</p>
+			<p>
+				<table-wrap id="t1">
+					<label>Table 1</label>
+					<caption>
+						<title>Description of the sample according to sociodemographic and occupational characteristics of tertiary health care workers during the Covid-19 pandemic. Pelotas, RS, Brazil, 2021 (n = 1,155).</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left">Variables</th>
+								<th>n (%)</th>
+								<th>MDE (%)</th>
+								<th>p</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td align="center" colspan="4"><bold>Sociodemographic aspects</bold></td>
+							</tr>
+							<tr>
+								<td>Age</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>19–29</td>
+								<td align="center">133 (11.6)</td>
+								<td align="center">19.6</td>
+								<td align="center">0.043</td>
+							</tr>
+							<tr>
+								<td>30–39</td>
+								<td align="center">458 (39.9)</td>
+								<td align="center">15.7</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>40–49</td>
+								<td align="center">369 (32.1)</td>
+								<td align="center">16.5</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>≥ 50</td>
+								<td align="center">189 (16.4)</td>
+								<td align="center">9.7</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Skin color or race</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>White</td>
+								<td align="center">859 (74.4)</td>
+								<td align="center">16.1</td>
+								<td align="center">0.022</td>
+							</tr>
+							<tr>
+								<td>Black</td>
+								<td align="center">141 (12.2)</td>
+								<td align="center">18.4</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Brown</td>
+								<td align="center">143 (12.4)</td>
+								<td align="center">7.7</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Yellow</td>
+								<td align="center">7 (0.6)</td>
+								<td align="center">0</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Indigenous</td>
+								<td align="center">5 (0.4)</td>
+								<td align="center">40.0</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Sex</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Male</td>
+								<td align="center">277 (24.0)</td>
+								<td align="center">8.3</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>Female</td>
+								<td align="center">878 (76.0)</td>
+								<td align="center">17.5</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Schooling</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Illiterate/technical course</td>
+								<td align="center">329 (28.9)</td>
+								<td align="center">13.4</td>
+								<td align="center">0.017</td>
+							</tr>
+							<tr>
+								<td>Complete/incomplete higher education</td>
+								<td align="center">371 (32.6)</td>
+								<td align="center">19.7</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Complete postgraduate course</td>
+								<td align="center">437 (38.5)</td>
+								<td align="center">13.1</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Socioeconomic level (ABEP)</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>A</td>
+								<td align="center">163 (14.4)</td>
+								<td align="center">11.7</td>
+								<td align="center">0.358</td>
+							</tr>
+							<tr>
+								<td>B</td>
+								<td align="center">605 (53.3)</td>
+								<td align="center">15.7</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>C-D-E</td>
+								<td align="center">367 (32.3)</td>
+								<td align="center">16.4</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Family history of depression</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">568 (49.2)</td>
+								<td align="center">31.1</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">587 (50.8)</td>
+								<td align="center">68.9</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td align="center" colspan="4"><bold>Occupational aspects</bold></td>
+							</tr>
+							<tr>
+								<td>Profession</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Nurses</td>
+								<td align="center">136 (11.8)</td>
+								<td align="center">18.5</td>
+								<td align="center">0.009</td>
+							</tr>
+							<tr>
+								<td>Physicians</td>
+								<td align="center">107 (9.3)</td>
+								<td align="center">7.5</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Residents</td>
+								<td align="center">54 (4.7)</td>
+								<td align="center">29.6</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Nursing auxiliaries and technicians</td>
+								<td align="center">316 (27.4)</td>
+								<td align="center">16.5</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Support</td>
+								<td align="center">242 (20.9)</td>
+								<td align="center">15.0</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Administrative</td>
+								<td align="center">111 (10.1)</td>
+								<td align="center">15.7</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Other health workers</td>
+								<td align="center">183 (15.8)</td>
+								<td align="center">11.7</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Contractual link</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Employed directly</td>
+								<td align="center">718 (62.2)</td>
+								<td align="center">15.2</td>
+								<td align="center">0.019</td>
+							</tr>
+							<tr>
+								<td>Resident</td>
+								<td align="center">54 (4.7)</td>
+								<td align="center">29.6</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Emergency/temporary</td>
+								<td align="center">112 (9.7)</td>
+								<td align="center">11.6</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Outsourced</td>
+								<td align="center">271 (23.4)</td>
+								<td align="center">14.4</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td align="center" colspan="4"><bold>Work organization</bold></td>
+							</tr>
+							<tr>
+								<td>Worked in Covid-19 ICU</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">989 (85.6)</td>
+								<td align="center">16.2</td>
+								<td align="center">0.049</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">166 (14.4)</td>
+								<td align="center">10.2</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Worked in Covid-19 ward</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">987 (85.5)</td>
+								<td align="center">16.0</td>
+								<td align="center">0.118</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">168 (14.5)</td>
+								<td align="center">11.3</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Asked to change sectors during the pandemic</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">1,061 (91.9)</td>
+								<td align="center">14.1</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">94 (8.1)</td>
+								<td align="center">29.8</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Worked remotely</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">916 (79.3)</td>
+								<td align="center">15.0</td>
+								<td align="center">0.496</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">239 (20.7)</td>
+								<td align="center">16.7</td>
+								<td>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN1">
+							<p>N (%): number of observations (percentage); MDE (%): prevalence of major depressive episode according PHQ-9 algorithm. ABEP: Brazilian Association of Research Companies; CCEB 2020: Brazil Social Classification Criteria.</p>
+						</fn>
+						<fn id="TFN2">
+							<p>p-value - Person Chi<sup>2</sup> test.</p>
+						</fn>
+						<fn id="TFN3">
+							<p>Missing data: age (6), schooling (18), socioeconomic level (20).</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>Most of the surveyed health workers were nursing technicians and nursing auxiliaries (27.4%), followed by support workers (security, hygiene, maintenance, etc.) (20.9%); as for their contractual link with the teaching hospital, 62.2% of the workers were permanent, 23.4% were outsourced, 9.7% had emergency/temporary contracts, and 4.7% were resident professionals. As for the work routine, 14.4% worked in the Covid-19 ICU; 14.5% worked in Covid-19 wards; 8.1% asked to change sectors in the hospital during the pandemic and 20.7% worked remotely at some time during the pandemic (<xref ref-type="table" rid="t1">Table 1</xref>).</p>
+			<p>Of the workers interviewed, 37.7% reported having witnessed during the pandemic situations related to clinical procedures they judged incorrect, and 33.7% witnessed attitudes among colleagues or towards patients they disagreed with; 15.2% felt pressured by colleagues or superiors to act in ways they disagreed with in relation to clinical procedures; 11.3% felt pressured by colleagues or superiors to act in disagreement with contractual norms and 10.8% felt pressured by patients or family members to act in ways they disagreed with. Among the workers, 15.4% experienced three or more situations related to moral dilemma (<xref ref-type="table" rid="t2">Table 2</xref>).</p>
+			<p>
+				<table-wrap id="t2">
+					<label>Table 2</label>
+					<caption>
+						<title>Description of moral dilemma among tertiary health care workers during the Covid-19 pandemic. Pelotas, RS, Brazil, 2021 (n = 1,155).</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left">Variables</th>
+								<th>n (%)</th>
+								<th>% MDE</th>
+								<th>p</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td align="center" colspan="4"><bold>Moral dilemma</bold></td>
+							</tr>
+							<tr>
+								<td>Witnessed clinical procedures in disagreement with what he/she considers correct</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Never or hardly ever/rarely</td>
+								<td align="center">719 (62.3)</td>
+								<td align="center">11.8</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>Sometimes</td>
+								<td align="center">348 (30.1)</td>
+								<td align="center">17.5</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Frequently</td>
+								<td align="center">88 (7.6)</td>
+								<td align="center">35.2</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Witnessed attitudes of colleagues or attitudes towards patients in disagreement with what he/she considers correct</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Never or hardly ever/rarely</td>
+								<td align="center">766 (66.3)</td>
+								<td align="center">11.8</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>Sometimes</td>
+								<td align="center">318 (27.5)</td>
+								<td align="center">20.1</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Frequently</td>
+								<td align="center">71 (6.2)</td>
+								<td align="center">32.4</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Felt pressured by colleagues or superiors to act in disagreement with what he/she considers correct in relation to clinical procedures</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Never or hardly ever/rarely</td>
+								<td align="center">979 (84.8)</td>
+								<td align="center">13.0</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>Sometimes</td>
+								<td align="center">141 (12.2)</td>
+								<td align="center">24.1</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Frequently</td>
+								<td align="center">35 (3)</td>
+								<td align="center">45.7</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Felt pressured by colleagues or superiors to act contrary to contractual norms</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Never or hardly ever/rarely</td>
+								<td align="center">1,025 (88.7)</td>
+								<td align="center">13.5</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>Sometimes</td>
+								<td align="center">106 (9.2)</td>
+								<td align="center">28.3</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Frequently</td>
+								<td align="center">24 (2.1)</td>
+								<td align="center">37.5</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Felt pressured by patients or their family members to act in disagreement with what he/she considers correct</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Never or hardly ever/rarely</td>
+								<td align="center">1,030 (89.2)</td>
+								<td align="center">13.3</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>Sometimes</td>
+								<td align="center">99 (8.6)</td>
+								<td align="center">30.3</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Frequently</td>
+								<td align="center">26 (2.2)</td>
+								<td align="center">38.5</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Moral dilemma score</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>0</td>
+								<td align="center">589 (51.0)</td>
+								<td align="center">10.2</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td align="center">196 (17.0)</td>
+								<td align="center">14.8</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>2</td>
+								<td align="center">192 (16.6)</td>
+								<td align="center">16.7</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>≥ 3</td>
+								<td align="center">178 (15.4)</td>
+								<td align="center">31.5</td>
+								<td>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN4">
+							<p>N (%): number of observations (percentage); MDE (%): prevalence of major depressive episode according PHQ-9 algorithm.</p>
+						</fn>
+						<fn id="TFN5">
+							<p>p-value - Person Chi<sup>2</sup> test.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>Around half of the workers had to put off physiological needs until later, such as eating, drinking water, and going to the bathroom; 38.1% of the interviewees considered the hospital lacked enough workers; 42.4% considered that the hospital lacked enough physical space to perform the work and 48.8% informed there was no place for them rest (<xref ref-type="table" rid="t3">Table 3</xref>).</p>
+			<p>
+				<table-wrap id="t3">
+					<label>Table 3</label>
+					<caption>
+						<title>Description of workloads among tertiary health care workers during the Covid-19 pandemic. Pelotas, RS, Brazil, 2021 (n = 1,155).</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left">Variables</th>
+								<th>n (%)</th>
+								<th>MDE (%)</th>
+								<th>p</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td align="center" colspan="4"><bold>Workloads</bold></td>
+							</tr>
+							<tr>
+								<td>Needed to put off physiological needs until later, such as:</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Drinking water</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">606 (52.5)</td>
+								<td align="center">12.7</td>
+								<td align="center">0.009</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">549 (47.5)</td>
+								<td align="center">18.2</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Going to the bathroom</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">623 (53.9)</td>
+								<td align="center">12.4</td>
+								<td align="center">0.002</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">532 (46.1)</td>
+								<td align="center">18.8</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Eating</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">582 (50.4)</td>
+								<td align="center">13.0</td>
+								<td align="center">0.020</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">573 (49.6)</td>
+								<td align="center">17.8</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Needed to put off any physiological need until later</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">504 (43.6)</td>
+								<td align="center">11.3</td>
+								<td align="center">0.001</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">651 (56.4)</td>
+								<td align="center">18.4</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Sufficient numbers of staff</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">440 (38.1)</td>
+								<td align="center">19.3</td>
+								<td align="center">0.003</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">715 (61.9)</td>
+								<td align="center">12.9</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Adequate physical space</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">490 (42.4)</td>
+								<td align="center">20.8</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">665 (57.6)</td>
+								<td align="center">11.3</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Adequate place for resting during breaks</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">446 (48.8)</td>
+								<td align="center">21.5</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">468 (51.2)</td>
+								<td align="center">8.8</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td align="center" colspan="4"><bold>Occupational stress: demand, control, and social support – Job stress scale (JSS)</bold></td>
+							</tr>
+							<tr>
+								<td>High job strain</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">922 (79.8)</td>
+								<td align="center">13.2</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">233 (20.2)</td>
+								<td align="center">23.6</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Active job</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">768 (66.5)</td>
+								<td align="center">14.7</td>
+								<td align="center">0.417</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">387 (33.5)</td>
+								<td align="center">16.5</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Passive job</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">865 (74.9)</td>
+								<td align="center">16.3</td>
+								<td align="center">0.112</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">290 (25.1)</td>
+								<td align="center">12.4</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Low job strain</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">910 (78.8)</td>
+								<td align="center">17.1</td>
+								<td align="center">0.002</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">245 (21.2)</td>
+								<td align="center">8.9</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Social support</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Low</td>
+								<td align="center">408 (35.3)</td>
+								<td align="center">23.5</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>High</td>
+								<td align="center">747 (64.7)</td>
+								<td align="center">10.8</td>
+								<td>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN6">
+							<p>N (%): number of observations (percentage); MDE (%): prevalence of major depressive episode according PHQ-9 algorithm.</p>
+						</fn>
+						<fn id="TFN7">
+							<p>p-value - Person Chi<sup>2</sup> test.</p>
+						</fn>
+						<fn id="TFN8">
+							<p>Missing data: adequate place for resting during breaks (239).</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>According to the JSS occupational stress scale, 20.2% were exposed to high job strain, 33.5% to active job, 25.1% to passive work and 21.2% to low job strain and 35.3% had low social support (<xref ref-type="table" rid="t3">Table 3</xref>).</p>
+			<p>Among the workers, 42.5% had one or more Covid-19 risk factors, 74.2% were nonsmokers, and 52.4% declared themselves physically active. Regarding mental health, 16.2% of the workers consulted with a psychiatrist or psychologist and 20.2% used medication for mental health. MDE prevalence was 15.3% (95%CI: 13.3–17.5) and the evaluation of the depression severity levels pointed that 15.5% had moderate depression, 8.6% moderate severe depression, and 4.4% severe depression (<xref ref-type="table" rid="t4">Table 4</xref>).</p>
+			<p>
+				<table-wrap id="t4">
+					<label>Table 4</label>
+					<caption>
+						<title>Description of the sample according to behavioral aspects, Covid-19 risk factors and prevalence of major depressive episode among tertiary health care workers during the Covid-19 pandemic. Pelotas, RS, Brazil, 2021 (n = 1,155).</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left">Variables</th>
+								<th>n (%)</th>
+								<th>MDE (%)</th>
+								<th>p</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td align="center" colspan="4">Behavioral aspects and Covid-19 risk factors</td>
+							</tr>
+							<tr>
+								<td>Tobacco smoking</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Non-smoker</td>
+								<td align="center">857 (74.2)</td>
+								<td align="center">13.4</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>Former smoker</td>
+								<td align="center">182 (15.8)</td>
+								<td align="center">14.8</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Smoker</td>
+								<td align="center">116 (10.0)</td>
+								<td align="center">30.2</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Physical activity</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Inactive</td>
+								<td align="center">550 (47.6)</td>
+								<td align="center">21.8</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>Active</td>
+								<td align="center">605 (52.4)</td>
+								<td align="center">9.4</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Covid-19 risk factors</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">664 (57.5)</td>
+								<td align="center">10.4</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">491 (42.5)</td>
+								<td align="center">22.0</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td align="center" colspan="4"><bold>Mental health</bold></td>
+							</tr>
+							<tr>
+								<td>Consultation with psychologist or psychiatrist</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">967 (83.8)</td>
+								<td align="center">13.3</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">187 (16.2)</td>
+								<td align="center">25.7</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Use of mental health medication</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">914 (79.8)</td>
+								<td align="center">10.7</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">231 (20.2)</td>
+								<td align="center">33.7</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td align="center" colspan="4"><bold>Patient health questionnaire-9 (PHQ-9)</bold></td>
+							</tr>
+							<tr>
+								<td>
+								</td>
+								<td align="center">n (%)</td>
+								<td align="center">95%CI</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Major depressive episode</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">978 (84.7)</td>
+								<td align="center">82.5–86.6</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">177 (15.3)</td>
+								<td align="center">13.3–17.5</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Depression severity levels</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Without depression (&lt; 5)</td>
+								<td align="center">481 (41,7)</td>
+								<td align="center">38,8–44,5</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Mild (5/9)</td>
+								<td align="center">345 (29,9)</td>
+								<td align="center">27,3–32,6</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Moderate (10/14)</td>
+								<td align="center">179 (15,5)</td>
+								<td align="center">13,5–17,7</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Moderate severe (15/19)</td>
+								<td align="center">99 (8,6)</td>
+								<td align="center">7,1–10,3</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Severe (20/27)</td>
+								<td align="center">51 (4,4)</td>
+								<td align="center">3,4–5,7</td>
+								<td>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN9">
+							<p>N (%): number of observations (percentage); 95%CI: 95% confidence interval; MDE (%): prevalence of major depressive episode according PHQ-9 algorithm.</p>
+						</fn>
+						<fn id="TFN10">
+							<p>Depression severity levels - according PHQ-9 cut-off points.</p>
+						</fn>
+						<fn id="TFN11">
+							<p>p-value - Person Chi<sup>2</sup> test.</p>
+						</fn>
+						<fn id="TFN12">
+							<p>Missing data: consultation with psychologist or psychiatrist (1).</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>In the adjusted analysis, prevalence of MDE was 50% lower in workers aged 50 years or older (PR = 0.47; 95%CI: 0.27–0.82) when compared with those aged 19–29 years and in those of brown skin color when compared with those of white/yellow (Asian) skin color. MDE was twice as high among female workers and those with a family history of depression (PR = 1.93; 95%CI: 1.28–2.91; PR = 2.05; 95%CI: 1.52–2.77, respectively). When compared to physicians, the prevalence ratio of MDE among resident professionals was 3.83 (95%CI: 1.69–8.70), followed by nursing technicians and nursing auxiliaries with 2.25 (95%CI: 1.10–4.57), and nurses with 2.20 (95%CI: 1.02–4.77) (<xref ref-type="table" rid="t5">Table 5</xref>).</p>
+			<p>
+				<table-wrap id="t5">
+					<label>Table 5</label>
+					<caption>
+						<title>Factors associated with major depressive episode among tertiary health care workers during the Covid-19 pandemic. Pelotas, RS, Brazil, 2021 (n = 1,155).</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left" rowspan="3">Variables</th>
+								<th>PR (95%CI)</th>
+								<th rowspan="3">p</th>
+								<th>PR (95%CI)</th>
+								<th rowspan="3">p</th>
+							</tr>
+							<tr>
+								<th>
+									<hr/>
+								</th>
+								<th>
+									<hr/>
+								</th>
+							</tr>
+							<tr>
+								<th>Crude analysis</th>
+								<th>Adjusted analysis</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td align="center" colspan="5"><bold>1</bold><sup>st</sup> <bold>level: sociodemographic variables</bold></td>
+							</tr>
+							<tr>
+								<td>Age</td>
+								<td>
+								</td>
+								<td align="center">0.057</td>
+								<td>
+								</td>
+								<td align="center">0.054</td>
+							</tr>
+							<tr>
+								<td>19–29</td>
+								<td align="center">Ref</td>
+								<td>
+								</td>
+								<td align="center">Ref</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>30–39</td>
+								<td align="center">0.80 (0.54–1.21)</td>
+								<td>
+								</td>
+								<td align="center">0.81 (0.54–1.20)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>40–49</td>
+								<td align="center">0.85 (0.56–1.28)</td>
+								<td>
+								</td>
+								<td align="center">0.87 (0.58–1.30)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>≥ 50</td>
+								<td align="center">0.46 (0.26–0.81)</td>
+								<td>
+								</td>
+								<td align="center">0.47 (0.27–0.82)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Skin color or race</td>
+								<td>
+								</td>
+								<td align="center">0.024</td>
+								<td>
+								</td>
+								<td align="center">0.014</td>
+							</tr>
+							<tr>
+								<td>White/yellow</td>
+								<td align="center">Ref</td>
+								<td>
+								</td>
+								<td align="center">Ref</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Black/indigenous</td>
+								<td align="center">1.20 (0.83–1.74)</td>
+								<td>
+								</td>
+								<td align="center">1.33 (0.93–1.90)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Brown</td>
+								<td align="center">0.48 (0.27–0.87)</td>
+								<td>
+								</td>
+								<td align="center">0.51 (0.28–0.92)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Sex</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+								<td>
+								</td>
+								<td align="center">0.002</td>
+							</tr>
+							<tr>
+								<td>Male</td>
+								<td align="center">Ref</td>
+								<td>
+								</td>
+								<td align="center">Ref</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Female</td>
+								<td align="center">2.15 (1.60–2.89)</td>
+								<td>
+								</td>
+								<td align="center">1.93 (1.28–2.91)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Family history of depression</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">Ref</td>
+								<td>
+								</td>
+								<td align="center">Ref</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">2.15 (1.62–2.95)</td>
+								<td>
+								</td>
+								<td align="center">2.05 (1.52–2.77)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td align="center" colspan="5"><bold>2</bold><sup>nd</sup> <bold>level: work organization</bold></td>
+							</tr>
+							<tr>
+								<td>Profession</td>
+								<td>
+								</td>
+								<td align="center">0.008</td>
+								<td>
+								</td>
+								<td align="center">0.038</td>
+							</tr>
+							<tr>
+								<td>Physicians</td>
+								<td align="center">Ref</td>
+								<td>
+								</td>
+								<td align="center">Ref</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Nurses</td>
+								<td align="center">2.46 (1.16–5.23)</td>
+								<td>
+								</td>
+								<td align="center">2.20 (1.02–4.77)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Residents</td>
+								<td align="center">3.96 (1.81–8.67)</td>
+								<td>
+								</td>
+								<td align="center">3.83 (1.69–8.70)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Nursing auxiliaries and technicians</td>
+								<td align="center">2.24 (1.10–4.57)</td>
+								<td>
+								</td>
+								<td align="center">2.25 (1.10–4.57)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Support</td>
+								<td align="center">1.99 (0.96–4.14)</td>
+								<td>
+								</td>
+								<td align="center">2.07 (0.99–4.32)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Administrative</td>
+								<td align="center">2.06 (0.93–4.54)</td>
+								<td>
+								</td>
+								<td align="center">2.13 (0.97–4.71)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Other health workers</td>
+								<td align="center">1.53 (0.70–3.34)</td>
+								<td>
+								</td>
+								<td align="center">1.61 (0.74–3.53)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Works in the Covid-19 ICU</td>
+								<td>
+								</td>
+								<td align="center">0.058</td>
+								<td>
+								</td>
+								<td align="center">0.090</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">Ref</td>
+								<td>
+								</td>
+								<td align="center">Ref</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">0.63 (0.39–1.02)</td>
+								<td>
+								</td>
+								<td align="center">0.66 (0.40–1.07)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Asked to change sectors during the pandemic</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">Ref</td>
+								<td>
+								</td>
+								<td align="center">Ref</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">2.12 (1.50–2.99)</td>
+								<td>
+								</td>
+								<td align="center">1.89 (1.32–2.71)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td align="center" colspan="5"><bold>3</bold><sup>rd</sup> <bold>level: workloads</bold></td>
+							</tr>
+							<tr>
+								<td>Moral dilemma score</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+								<td>
+								</td>
+								<td align="center">0.001<sup>a</sup></td>
+							</tr>
+							<tr>
+								<td>0</td>
+								<td align="center">Ref</td>
+								<td>
+								</td>
+								<td align="center">Ref</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td align="center">1.45 (0.96–2.20)</td>
+								<td>
+								</td>
+								<td align="center">1.33 (0.82–2.15)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>2</td>
+								<td align="center">1.64 (1.10–2.43)</td>
+								<td>
+								</td>
+								<td align="center">1.37 (0.86–2.16)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>≥ 3</td>
+								<td align="center">3.09 (2.23–4.27)</td>
+								<td>
+								</td>
+								<td align="center">2.06 (1.36–3.13)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Needed to put off any physiological need until later</td>
+								<td>
+								</td>
+								<td align="center">0.001</td>
+								<td>
+								</td>
+								<td align="center">0.048</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">Ref</td>
+								<td>
+								</td>
+								<td align="center">Ref</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">1.63 (1.22–2.19)</td>
+								<td>
+								</td>
+								<td align="center">1.42 (1.01–2.01)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Adequate place for resting during breaks</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+								<td>
+								</td>
+								<td align="center">0.002</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">Ref</td>
+								<td>
+								</td>
+								<td align="center">Ref</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">0.41 (0.29–0.57)</td>
+								<td>
+								</td>
+								<td align="center">0.57 (0.40–0.81)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Low job strain</td>
+								<td>
+								</td>
+								<td align="center">0.003</td>
+								<td>
+								</td>
+								<td align="center">0.023</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">Ref</td>
+								<td>
+								</td>
+								<td align="center">Ref</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">0.53 (0.35–0.81)</td>
+								<td>
+								</td>
+								<td align="center">0.55 (0.32–0.92)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Social support</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+								<td>
+								</td>
+								<td align="center">0.004</td>
+							</tr>
+							<tr>
+								<td>Low</td>
+								<td align="center">Ref</td>
+								<td>
+								</td>
+								<td align="center">Ref</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>High</td>
+								<td align="center">0.46 (0.35–0.60)</td>
+								<td>
+								</td>
+								<td align="center">0.60 (0.43–0.85)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td align="center" colspan="5"><bold>4</bold><sup>th</sup> <bold>level: behavioral variables and comorbidities</bold></td>
+							</tr>
+							<tr>
+								<td>Covid-19 risk factors</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">Ref</td>
+								<td>
+								</td>
+								<td align="center">Ref</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">2.12 (1.60–2.80)</td>
+								<td>
+								</td>
+								<td align="center">1.85 (1.37–2.50)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Tobacco smoking</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+								<td>
+								</td>
+								<td align="center">0.001</td>
+							</tr>
+							<tr>
+								<td>Non-smoker</td>
+								<td align="center">Ref</td>
+								<td>
+								</td>
+								<td align="center">Ref</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Smoker</td>
+								<td align="center">2.21 (1.61–3.03)</td>
+								<td>
+								</td>
+								<td align="center">1.91 (1.31–2.79)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Physical activity</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>Inactive</td>
+								<td align="center">Ref</td>
+								<td>
+								</td>
+								<td align="center">Ref</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Active</td>
+								<td align="center">0.43 (0.32–0.58)</td>
+								<td>
+								</td>
+								<td align="center">0.53 (0.39–0.73)</td>
+								<td>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="TFN13">
+							<p>PR: prevalence ratio; 95%CI: 95% confidence interval; p-value: heterogeneity test.</p>
+						</fn>
+						<fn id="TFN14">
+							<p><sup>a</sup> p-value for linear trend.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>Professionals who worked in the Covid-19 ICU had around 30% lower prevalence of MDE compared to other professionals (PR = 0.66; 95%CI: 0.40–1.07). MDE was two times higher among professionals who asked to change sectors during the pandemic (PR = 1.89; 95%CI: 1.32–2.71) or who were exposed to three or more moral dilemma situations during their professional activity in the pandemic (PR = 2.06; 95%CI: 1.36–3.13). Professionals who had to put off physiological needs until later had 42% higher prevalence of MDE (PR = 1.42; 95%CI: 1.01–2.01). Having an adequate place to rest during breaks was a protective factor for depression (PR = 0.57; 95%CI: 0.40–0.81) (<xref ref-type="table" rid="t5">Table 5</xref>).</p>
+			<p>Low job strain (PR = 0.55; 95%CI: 0.32–0.92) and availability of social support (PR = 0.60; 95%CI: 0.43–0.85) were associated with a 50% reduction in MDE. Professionals with Covid-19 risk factors had 85% higher prevalence of depression (95%CI: 1.37–2.50); workers who smoked had 1.91 times (95%CI: 1.31–2.79) higher prevalence of depression and physically active workers had 53% less depression compared with physically inactive workers (95%CI: 0.39–0.73) (<xref ref-type="table" rid="t5">Table 5</xref>).</p>
+		</sec>
+		<sec sec-type="discussion">
+			<title>DISCUSSION</title>
+			<p>Hospital workers presented high prevalence of MDE and of moderate to severe depression, a condition that causes great limitations, affecting not only the ability to work, but also personal life. The use of mental health medication is also high, however the percentage of workers that consulted with psychologists or psychiatrists is low, explaining its high use. Studies highlight the importance of these workers’ psychological monitoring, especially after the health emergency. It also emphasizes the need of self-medication awareness, considering the easy access of health professionals to medicines<sup><xref ref-type="bibr" rid="B5">5</xref>,<xref ref-type="bibr" rid="B28">28</xref></sup>.</p>
+			<p>The study indicates important associations between some occupational aspects and MDE, as the higher prevalence of MDE among resident professionals, nursing technicians and auxiliaries, and nurses when compared to physicians, as well as, among workers who requested a change of sector in the teaching hospital during the pandemic, were exposed to three or more situations of moral dilemma or needed to put off a physiological need until later. Workers who had been working in the Covid-19 ICU, had an adequate place to rest, were exposed to low-demand work, and had social support reported less MDE.</p>
+			<p>Studies in other countries during the pandemic found MDE prevalence of around 10% in physicians and 20% in nurses<sup><xref ref-type="bibr" rid="B19">19</xref>,<xref ref-type="bibr" rid="B29">29</xref></sup>, these being similar to the prevalence rates found in this study. Nurses and nursing technicians and auxiliaries are the most numerous group of workers in hospitals, being responsible for tasks related to direct care of patients, such as those related to hygiene and comfort, as well as bureaucratic tasks<sup><xref ref-type="bibr" rid="B2">2</xref>,<xref ref-type="bibr" rid="B3">3</xref></sup>. Besides their formal employment, these workers, mostly women, also care for children and older adults, as well as doing household chores, demands that can overburden them physically, mentally and emotionally<sup><xref ref-type="bibr" rid="B19">19</xref></sup>.</p>
+			<p>The literature pointed a prevalence of MDE in young trainee workers, accounting for 20% of workers<sup><xref ref-type="bibr" rid="B19">19</xref>,<xref ref-type="bibr" rid="B29">29</xref>,<xref ref-type="bibr" rid="B30">30</xref></sup>, which is lower than the prevalence found in resident professionals in this study. Being a young professional or a resident was associated with higher prevalence of depression and other mental health problems among health care workers during the response to Covid-19<sup><xref ref-type="bibr" rid="B12">12</xref>,<xref ref-type="bibr" rid="B29">29</xref></sup>. Studies observed that the insecurity and concern about the future inherent to the academic period of life, added to overburdening, emotional exhaustion and lack of professional experience in dealing with the demands of the pandemic can lead to the exacerbation of depressive symptoms among resident professionals<sup><xref ref-type="bibr" rid="B31">31</xref>,<xref ref-type="bibr" rid="B32">32</xref></sup>. The studies did not address other categories of hospital workers, as support and administrative workers, that also presented high prevalence of MDE<sup><xref ref-type="bibr" rid="B11">11</xref>,<xref ref-type="bibr" rid="B12">12</xref></sup>.</p>
+			<p>Providing direct care to Covid-19 patients has been associated with higher levels of depressive symptoms, anxiety and post-traumatic stress disorder<sup><xref ref-type="bibr" rid="B33">33</xref>,<xref ref-type="bibr" rid="B34">34</xref></sup>. In the present study the negative association between working in the Covid-19 ICU and MDE may be related to the healthy worker effect, since only the healthiest professionals able to work under great pressure continue working in ICUs, especially during a health emergency.</p>
+			<p>Moral dilemma is characterized as a conflict between doing the ethical versus the possible at a given moment, such as a decision between personal life and professional life, or between justice and compassion<sup><xref ref-type="bibr" rid="B35">35</xref></sup>. In the period of the fight against Covid-19, health workers were exposed to moral dilemmas related to the scarcity of equipment and supplies, such as ICU beds, respirators, anesthetics, which determines life and death. In addition, the dissemination of anti-scientific information led health workers to be pressured by government officials and health service users to use treatment lacking scientific evidence of effectiveness against Covid-19<sup><xref ref-type="bibr" rid="B36">36</xref></sup>. In agreement with the literature, our study found that being exposed to situations of moral dilemma at work, such as witnessing or being pressured to act against one’s principles, is associated with a greater occurrence of depression among healthcare workers<sup><xref ref-type="bibr" rid="B20">20</xref></sup>.</p>
+			<p>Work overload reduces break time and, along with the flexibilization of labor laws, causes an increase in working hours. Scarcity of PPEs makes health workers avoid leaving the sector where they work to avoid having to change them. These aspects, along with a lack of appropriate places to rest, lead health workers to put off physiological needs until later, causing physical and emotional exhaustion<sup><xref ref-type="bibr" rid="B37">37</xref></sup></p>
+			<p>Similar to this study, several articles point to social support as a protective factor for depression among health care workers during the Covid-19 pandemic<sup><xref ref-type="bibr" rid="B38">38</xref></sup>. Health workers recognize the importance of social support, indicating that between 25% and 30% of them would like to receive emotional, psychological, and crisis management<sup><xref ref-type="bibr" rid="B38">38</xref></sup>. A study among nursing technicians before the pandemic found that having a high-demand job, according to the JSS, can even double the prevalence of depression. This is consistent with the negative association between low job strain and MDE<sup><xref ref-type="bibr" rid="B39">39</xref></sup>.</p>
+			<p>This study was consistent with the literature pointing that being younger, female, smoker, physically inactive, and reporting a family history of depression were associated with MDE<sup><xref ref-type="bibr" rid="B34">34</xref>,<xref ref-type="bibr" rid="B40">40</xref>,<xref ref-type="bibr" rid="B41">41</xref></sup>. The higher prevalence of depression among those of white skin color compared with those of brown skin color contradicts studies prior to the pandemic<sup><xref ref-type="bibr" rid="B42">42</xref></sup> and could indicate that the brown-skinned population is selected, and might have higher resilience than those with white skin color in facing the health emergency<sup><xref ref-type="bibr" rid="B29">29</xref></sup>.</p>
+			<p>One study found that fear of infection was associated with depression during the pandemic<sup><xref ref-type="bibr" rid="B18">18</xref></sup>. Greater MDE prevalence among workers with Covid-19 risk factor agrees with the findings of Shacham et al.<sup><xref ref-type="bibr" rid="B43">43</xref></sup>, and may be related to the dilemma between the need to keep working and exposure at work, since by belonging to a risk group they have a greater chance of becoming severely ill.</p>
+			<p>This is one of the first Brazilian studies on the mental health of hospital workers in the context of Covid-19. The study has a large sample size, allowing to evaluate occupational factors associated with MDE. The desire to respond to what would be considered socially appropriate might generate a social desirability bias (information bias) underestimating MDE. This bias is reduced by using a self-administered survey, providing more adequate conditions to address mental health, and by using PHQ-9, a standardized instrument, validated for the Brazilian population. The PHQ-9 allows to determine MDE and depression severity levels, however, MDE is not estimated in other health care worker studies, limiting the similarity of the findings. The study has a good response rate, but non-respondents and the lack of those who were off work could result in selection bias, underestimating the outcome.</p>
+		</sec>
+		<sec sec-type="conclusions">
+			<title>CONCLUSION</title>
+			<p>MDE prevalence is high among hospital workers, especially nursing workers and residents, and several occupational aspects are contributing to this mental health problem. It is necessary to examine work processes in hospitals, promote more horizontal, participatory relationships and teamwork, avoid work intensification, and value workers. The health of hospital workers is a very important subject but, considering the sanitary emergency and its potential effects on workers’ health, the monitoring gained even more relevance. In this sense, it is important to develop not only cross-sectional studies, but also cohort studies allowing to examine the occurrence of chronic conditions such as post-traumatic stress and its associated factors. Hospital occupational health services need to perform health surveillance in order to identify the main problems arising from this health emergency period, triggering health promotion actions and psychological support to those who need it.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>REFERENCES</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. Machado MH, Oliveira ES, Moyses NMN. Tendências do mercado de trabalho em saúde no Brasil. In: Pierantoni C, Dal Poz MR, França T, organizadores. O trabalho em saúde: abordagens quantitativas e qualitativas. Rio de Janeiro: CEPESC, UERJ; 2011. Vol 1; p. 103-16.</mixed-citation>
+				<element-citation publication-type="book">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Machado</surname>
+							<given-names>MH</given-names>
+						</name>
+						<name>
+							<surname>Oliveira</surname>
+							<given-names>ES</given-names>
+						</name>
+						<name>
+							<surname>Moyses</surname>
+							<given-names>NMN</given-names>
+						</name>
+					</person-group>
+					<chapter-title>Tendências do mercado de trabalho em saúde no Brasil</chapter-title>
+					<person-group person-group-type="compiler">
+						<name>
+							<surname>Pierantoni</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Dal Poz</surname>
+							<given-names>MR</given-names>
+						</name>
+						<name>
+							<surname>França</surname>
+							<given-names>T</given-names>
+						</name>
+						<role>organizadores</role>
+					</person-group>
+					<source>O trabalho em saúde: abordagens quantitativas e qualitativas</source>
+					<publisher-loc>Rio de Janeiro</publisher-loc>
+					<publisher-name>CEPESC, UERJ</publisher-name>
+					<year>2011</year>
+					<volume>1</volume>
+					<fpage>103</fpage>
+					<lpage>116</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. Araújo GS, Sampaio AS, Santos EM, Barreto SMG, Almeida NJV, Santos MLD. Perfil de trabalhadores de enfermagem acompanhados por equipe multiprofissional de saúde mental. Rev Rene. 2014;15(2):257-63.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Araújo</surname>
+							<given-names>GS</given-names>
+						</name>
+						<name>
+							<surname>Sampaio</surname>
+							<given-names>AS</given-names>
+						</name>
+						<name>
+							<surname>Santos</surname>
+							<given-names>EM</given-names>
+						</name>
+						<name>
+							<surname>Barreto</surname>
+							<given-names>SMG</given-names>
+						</name>
+						<name>
+							<surname>Almeida</surname>
+							<given-names>NJV</given-names>
+						</name>
+						<name>
+							<surname>Santos</surname>
+							<given-names>MLD</given-names>
+						</name>
+					</person-group>
+					<article-title>Perfil de trabalhadores de enfermagem acompanhados por equipe multiprofissional de saúde mental</article-title>
+					<source>Rev Rene</source>
+					<year>2014</year>
+					<volume>15</volume>
+					<issue>2</issue>
+					<fpage>257</fpage>
+					<lpage>263</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. Martinez MC, Latorre MRDO, Fischer FM. A cohort study of psychosocial work stressors on work ability among Brazilian hospital workers. Am J Ind Med. 2015;58(7):795-806. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/ajim.22476">https://doi.org/10.1002/ajim.22476</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Martinez</surname>
+							<given-names>MC</given-names>
+						</name>
+						<name>
+							<surname>Latorre</surname>
+							<given-names>MRDO</given-names>
+						</name>
+						<name>
+							<surname>Fischer</surname>
+							<given-names>FM</given-names>
+						</name>
+					</person-group>
+					<article-title>A cohort study of psychosocial work stressors on work ability among Brazilian hospital workers</article-title>
+					<source>Am J Ind Med</source>
+					<year>2015</year>
+					<volume>58</volume>
+					<issue>7</issue>
+					<fpage>795</fpage>
+					<lpage>806</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/ajim.22476">https://doi.org/10.1002/ajim.22476</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. Moura RS, Saraiva FJC, Rocha KRSL, Santos RM, Silva NAR, Albuquerque WDM. Estresse, burnout e depressão nos auxiliares e técnicos em enfermagem das unidades de terapia intensiva. Enferm Glob. 2019;18(2):54. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.6018/eglobal.18.2.337321">https://doi.org/10.6018/eglobal.18.2.337321</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Moura</surname>
+							<given-names>RS</given-names>
+						</name>
+						<name>
+							<surname>Saraiva</surname>
+							<given-names>FJC</given-names>
+						</name>
+						<name>
+							<surname>Rocha</surname>
+							<given-names>KRSL</given-names>
+						</name>
+						<name>
+							<surname>Santos</surname>
+							<given-names>RM</given-names>
+						</name>
+						<name>
+							<surname>Silva</surname>
+							<given-names>NAR</given-names>
+						</name>
+						<name>
+							<surname>Albuquerque</surname>
+							<given-names>WDM</given-names>
+						</name>
+					</person-group>
+					<article-title>Estresse, burnout e depressão nos auxiliares e técnicos em enfermagem das unidades de terapia intensiva</article-title>
+					<source>Enferm Glob</source>
+					<year>2019</year>
+					<volume>18</volume>
+					<issue>2</issue>
+					<size units="pages">54</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.6018/eglobal.18.2.337321">https://doi.org/10.6018/eglobal.18.2.337321</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Pereira IF, Faria LC, Vianna RSM, Corrêa PDS, Freitas DA, Soares WD. Depressão e uso de medicamentos em profissionais de enfermagem. Arq Cien Saude. 2017;24(1):70-4.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Pereira</surname>
+							<given-names>IF</given-names>
+						</name>
+						<name>
+							<surname>Faria</surname>
+							<given-names>LC</given-names>
+						</name>
+						<name>
+							<surname>Vianna</surname>
+							<given-names>RSM</given-names>
+						</name>
+						<name>
+							<surname>Corrêa</surname>
+							<given-names>PDS</given-names>
+						</name>
+						<name>
+							<surname>Freitas</surname>
+							<given-names>DA</given-names>
+						</name>
+						<name>
+							<surname>Soares</surname>
+							<given-names>WD</given-names>
+						</name>
+					</person-group>
+					<article-title>Depressão e uso de medicamentos em profissionais de enfermagem</article-title>
+					<source>Arq Cien Saude</source>
+					<year>2017</year>
+					<volume>24</volume>
+					<issue>1</issue>
+					<fpage>70</fpage>
+					<lpage>74</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. Silva MRG, Marcolan JF. Condições de trabalho e depressão em enfermeiros de serviço hospitalar de emergência. Rev Bras Enferm. 2020;73 Supl 1:e20180952. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0034-7167-2018-0952">https://doi.org/10.1590/0034-7167-2018-0952</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Silva</surname>
+							<given-names>MRG</given-names>
+						</name>
+						<name>
+							<surname>Marcolan</surname>
+							<given-names>JF</given-names>
+						</name>
+					</person-group>
+					<article-title>Condições de trabalho e depressão em enfermeiros de serviço hospitalar de emergência</article-title>
+					<source>Rev Bras Enferm</source>
+					<year>2020</year>
+					<volume>73</volume>
+					<supplement>Supl 1</supplement>
+					<elocation-id>e20180952</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0034-7167-2018-0952">https://doi.org/10.1590/0034-7167-2018-0952</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. Figueiredo IVO, Nogueira BGB, Veloso VM. Os dilemas do valor da vida humana diante do colapso do sistema de saúde. Braz J Health Pharmacy. 2020;2(4):1-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.29327/226760.2.4-1">https://doi.org/10.29327/226760.2.4-1</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Figueiredo</surname>
+							<given-names>IVO</given-names>
+						</name>
+						<name>
+							<surname>Nogueira</surname>
+							<given-names>BGB</given-names>
+						</name>
+						<name>
+							<surname>Veloso</surname>
+							<given-names>VM</given-names>
+						</name>
+					</person-group>
+					<article-title>Os dilemas do valor da vida humana diante do colapso do sistema de saúde</article-title>
+					<source>Braz J Health Pharmacy</source>
+					<year>2020</year>
+					<volume>2</volume>
+					<issue>4</issue>
+					<fpage>1</fpage>
+					<lpage>9</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.29327/226760.2.4-1">https://doi.org/10.29327/226760.2.4-1</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Jackson Filho JM, Assunção AA, Algranti E, Garcia EG, Saito CA, Maeno M. A saúde do trabalhador e o enfrentamento da COVID-19. Rev Bras Saude Ocup. 2020;45:e14. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/2317-6369ED0000120">https://doi.org/10.1590/2317-6369ED0000120</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Jackson</surname>
+							<given-names>JM</given-names>
+							<suffix>Filho</suffix>
+						</name>
+						<name>
+							<surname>Assunção</surname>
+							<given-names>AA</given-names>
+						</name>
+						<name>
+							<surname>Algranti</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Garcia</surname>
+							<given-names>EG</given-names>
+						</name>
+						<name>
+							<surname>Saito</surname>
+							<given-names>CA</given-names>
+						</name>
+						<name>
+							<surname>Maeno</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>A saúde do trabalhador e o enfrentamento da COVID-19</article-title>
+					<source>Rev Bras Saude Ocup</source>
+					<year>2020</year>
+					<volume>45</volume>
+					<elocation-id>e14</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/2317-6369ED0000120">https://doi.org/10.1590/2317-6369ED0000120</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. Silva AG, Pinheiro M, Trés LM, Malloy-Diniz LF. Working during pandemics: the need for mental health efforts to prevent the outbreak of mental disorders at the workplace. Braz J Psychiatr. 2021;43(1):116-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1516-4446-2020-1120">https://doi.org/10.1590/1516-4446-2020-1120</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Silva</surname>
+							<given-names>AG</given-names>
+						</name>
+						<name>
+							<surname>Pinheiro</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Trés</surname>
+							<given-names>LM</given-names>
+						</name>
+						<name>
+							<surname>Malloy-Diniz</surname>
+							<given-names>LF</given-names>
+						</name>
+					</person-group>
+					<article-title>Working during pandemics: the need for mental health efforts to prevent the outbreak of mental disorders at the workplace</article-title>
+					<source>Braz J Psychiatr</source>
+					<year>2021</year>
+					<volume>43</volume>
+					<issue>1</issue>
+					<fpage>116</fpage>
+					<lpage>117</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1516-4446-2020-1120">https://doi.org/10.1590/1516-4446-2020-1120</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. American Psychiatric Association. Manual diagnóstico e estatístico de transtornos mentais – DSM-5. 5. ed. Porto Alegre, RS: Artmed; 2014.</mixed-citation>
+				<element-citation publication-type="report">
+					<person-group person-group-type="author">
+						<collab>American Psychiatric Association</collab>
+					</person-group>
+					<source>Manual diagnóstico e estatístico de transtornos mentais – DSM-5</source>
+					<edition>5</edition>
+					<publisher-loc>Porto Alegre, RS</publisher-loc>
+					<publisher-name>Artmed</publisher-name>
+					<year>2014</year>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. Lai J, Ma S, Wang Y, Cai Z, Hu J, Wei N, et al. Factors associated with mental health outcomes among health care workers exposed to coronavirus disease 2019. JAMA Netw Open. 2020;3(3):e203976. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1001/jamanetworkopen.2020.3976">https://doi.org/10.1001/jamanetworkopen.2020.3976</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lai</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Ma</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Cai</surname>
+							<given-names>Z</given-names>
+						</name>
+						<name>
+							<surname>Hu</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Wei</surname>
+							<given-names>N</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Factors associated with mental health outcomes among health care workers exposed to coronavirus disease 2019</article-title>
+					<source>JAMA Netw Open</source>
+					<year>2020</year>
+					<volume>3</volume>
+					<issue>3</issue>
+					<elocation-id>e203976</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1001/jamanetworkopen.2020.3976">https://doi.org/10.1001/jamanetworkopen.2020.3976</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. Kang L, Ma S, Chen M, Yang J, Wang Y, Li R, et al. Impact on mental health and perceptions of psychological care among medical and nursing staff in Wuhan during the 2019 novel coronavirus disease outbreak: a cross-sectional study. Brain Behav Immun. 2020;87:11-7. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.bbi.2020.03.028">https://doi.org/10.1016/j.bbi.2020.03.028</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kang</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Ma</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Chen</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Yang</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Li</surname>
+							<given-names>R</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Impact on mental health and perceptions of psychological care among medical and nursing staff in Wuhan during the 2019 novel coronavirus disease outbreak: a cross-sectional study</article-title>
+					<source>Brain Behav Immun</source>
+					<year>2020</year>
+					<volume>87</volume>
+					<fpage>11</fpage>
+					<lpage>17</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.bbi.2020.03.028">https://doi.org/10.1016/j.bbi.2020.03.028</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. Nunes DP, Souza FP, Leppich CR. Sintomas depressivos e a qualidade de vida em profissionais da saúde durante a pandemia da COVID-19. Rev SBPH. 2021;24(2):33-47.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Nunes</surname>
+							<given-names>DP</given-names>
+						</name>
+						<name>
+							<surname>Souza</surname>
+							<given-names>FP</given-names>
+						</name>
+						<name>
+							<surname>Leppich</surname>
+							<given-names>CR</given-names>
+						</name>
+					</person-group>
+					<article-title>Sintomas depressivos e a qualidade de vida em profissionais da saúde durante a pandemia da COVID-19</article-title>
+					<source>Rev SBPH</source>
+					<year>2021</year>
+					<volume>24</volume>
+					<issue>2</issue>
+					<fpage>33</fpage>
+					<lpage>47</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. Dal’Bosco EB, Floriano LSM, Skupien SV, Arcaro G, Martins AR, Anselmo ACC. A saúde mental da enfermagem no enfrentamento da COVID-19 em um hospital universitário regional. Rev Bras Enferm. 2020;7 Supl 2: e20200434. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0034-7167-2020-0434">https://doi.org/10.1590/0034-7167-2020-0434</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Dal’Bosco</surname>
+							<given-names>EB</given-names>
+						</name>
+						<name>
+							<surname>Floriano</surname>
+							<given-names>LSM</given-names>
+						</name>
+						<name>
+							<surname>Skupien</surname>
+							<given-names>SV</given-names>
+						</name>
+						<name>
+							<surname>Arcaro</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Martins</surname>
+							<given-names>AR</given-names>
+						</name>
+						<name>
+							<surname>Anselmo</surname>
+							<given-names>ACC</given-names>
+						</name>
+					</person-group>
+					<article-title>A saúde mental da enfermagem no enfrentamento da COVID-19 em um hospital universitário regional</article-title>
+					<source>Rev Bras Enferm</source>
+					<year>2020</year>
+					<volume>7</volume>
+					<supplement>Supl 2</supplement>
+					<elocation-id>e20200434</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0034-7167-2020-0434">https://doi.org/10.1590/0034-7167-2020-0434</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. Appel AP, Carvalho ARS, Santos RP. Prevalência e fatores associados à ansiedade, depressão e estresse numa equipe de enfermagem COVID-19. Rev Gaucha Enferm. 2021;42 Nº Espec:e20200403. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1983-1447.2021.20200403">https://doi.org/10.1590/1983-1447.2021.20200403</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Appel</surname>
+							<given-names>AP</given-names>
+						</name>
+						<name>
+							<surname>Carvalho</surname>
+							<given-names>ARS</given-names>
+						</name>
+						<name>
+							<surname>Santos</surname>
+							<given-names>RP</given-names>
+						</name>
+					</person-group>
+					<article-title>Prevalência e fatores associados à ansiedade, depressão e estresse numa equipe de enfermagem COVID-19</article-title>
+					<source>Rev Gaucha Enferm</source>
+					<year>2021</year>
+					<volume>42</volume>
+					<issue>Espec</issue>
+					<elocation-id>e20200403</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1983-1447.2021.20200403">https://doi.org/10.1590/1983-1447.2021.20200403</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. Moser CM, Monteiro GC, Narvaez JCM, Ornell F, Calegaro VC, Bassols AMS, et al. Saúde mental dos profissionais da saúde na pandemia do coronavírus (Covid-19). Rev Bras Psicoter. 2021;23(1):107-25</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Moser</surname>
+							<given-names>CM</given-names>
+						</name>
+						<name>
+							<surname>Monteiro</surname>
+							<given-names>GC</given-names>
+						</name>
+						<name>
+							<surname>Narvaez</surname>
+							<given-names>JCM</given-names>
+						</name>
+						<name>
+							<surname>Ornell</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Calegaro</surname>
+							<given-names>VC</given-names>
+						</name>
+						<name>
+							<surname>Bassols</surname>
+							<given-names>AMS</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Saúde mental dos profissionais da saúde na pandemia do coronavírus (Covid-19)</article-title>
+					<source>Rev Bras Psicoter</source>
+					<year>2021</year>
+					<volume>23</volume>
+					<issue>1</issue>
+					<fpage>107</fpage>
+					<lpage>125</lpage>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Campos JADB, Martins BG, Campos LA, Valadão-Dias FF, Marôco J. Symptoms related to mental disorder in healthcare workers during the COVID-19 pandemic in Brazil. Int Arch Occup Environ Health. 2021;94(5):1023-32. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s00420-021-01656-4">https://doi.org/10.1007/s00420-021-01656-4</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Campos</surname>
+							<given-names>JADB</given-names>
+						</name>
+						<name>
+							<surname>Martins</surname>
+							<given-names>BG</given-names>
+						</name>
+						<name>
+							<surname>Campos</surname>
+							<given-names>LA</given-names>
+						</name>
+						<name>
+							<surname>Valadão-Dias</surname>
+							<given-names>FF</given-names>
+						</name>
+						<name>
+							<surname>Marôco</surname>
+							<given-names>J</given-names>
+						</name>
+					</person-group>
+					<article-title>Symptoms related to mental disorder in healthcare workers during the COVID-19 pandemic in Brazil</article-title>
+					<source>Int Arch Occup Environ Health</source>
+					<year>2021</year>
+					<volume>94</volume>
+					<issue>5</issue>
+					<fpage>1023</fpage>
+					<lpage>1032</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s00420-021-01656-4">https://doi.org/10.1007/s00420-021-01656-4</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18. Lu W, Wang H, Lin Y, Li L. Psychological status of medical workforce during the COVID-19 pandemic: a cross-sectional study. Psychiatry Res. 2020;288:112936. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.psychres.2020.112936">https://doi.org/10.1016/j.psychres.2020.112936</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lu</surname>
+							<given-names>W</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Lin</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Li</surname>
+							<given-names>L</given-names>
+						</name>
+					</person-group>
+					<article-title>Psychological status of medical workforce during the COVID-19 pandemic: a cross-sectional study</article-title>
+					<source>Psychiatry Res</source>
+					<year>2020</year>
+					<volume>288</volume>
+					<size units="pages">112936</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.psychres.2020.112936">https://doi.org/10.1016/j.psychres.2020.112936</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19. Rossi R, Socci V, Pacitti F, Di Lorenzo G, Di Marco A, Siracusano A, et al. Mental health outcomes among frontline and second-line health care workers during the coronavirus disease 2019 (COVID-19) pandemic in Italy. JAMA Netw Open. 2020;3(5):e2010185. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1001/jamanetworkopen.2020.10185">https://doi.org/10.1001/jamanetworkopen.2020.10185</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Rossi</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Socci</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Pacitti</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Di Lorenzo</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Di Marco</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Siracusano</surname>
+							<given-names>A</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Mental health outcomes among frontline and second-line health care workers during the coronavirus disease 2019 (COVID-19) pandemic in Italy</article-title>
+					<source>JAMA Netw Open</source>
+					<year>2020</year>
+					<volume>3</volume>
+					<issue>5</issue>
+					<elocation-id>e2010185</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1001/jamanetworkopen.2020.10185">https://doi.org/10.1001/jamanetworkopen.2020.10185</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20. Wanigasooriya K, Palimar P, Naumann DN, Ismail K, Fellows JL, Logan P, et al. Mental health symptoms in a cohort of hospital healthcare workers following the first peak of the COVID-19 pandemic in the UK. BJPsych Open. 2021;7(1):e24. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1192/bjo.2020.150">https://doi.org/10.1192/bjo.2020.150</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Wanigasooriya</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Palimar</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Naumann</surname>
+							<given-names>DN</given-names>
+						</name>
+						<name>
+							<surname>Ismail</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Fellows</surname>
+							<given-names>JL</given-names>
+						</name>
+						<name>
+							<surname>Logan</surname>
+							<given-names>P</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Mental health symptoms in a cohort of hospital healthcare workers following the first peak of the COVID-19 pandemic in the UK</article-title>
+					<source>BJPsych Open</source>
+					<year>2021</year>
+					<volume>7</volume>
+					<issue>1</issue>
+					<elocation-id>e24</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1192/bjo.2020.150">https://doi.org/10.1192/bjo.2020.150</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>21. Santos KMR, Galvão MHR, Gomes SM, Souza TA, Medeiros AA, Barbosa IR. Depressão e ansiedade em profissionais de enfermagem durante a pandemia da covid-19. Esc Anna Nery. 2021;25 Nº Espec:e20200370. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/2177-9465-EAN-2020-0370">https://doi.org/10.1590/2177-9465-EAN-2020-0370</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Santos</surname>
+							<given-names>KMR</given-names>
+						</name>
+						<name>
+							<surname>Galvão</surname>
+							<given-names>MHR</given-names>
+						</name>
+						<name>
+							<surname>Gomes</surname>
+							<given-names>SM</given-names>
+						</name>
+						<name>
+							<surname>Souza</surname>
+							<given-names>TA</given-names>
+						</name>
+						<name>
+							<surname>Medeiros</surname>
+							<given-names>AA</given-names>
+						</name>
+						<name>
+							<surname>Barbosa</surname>
+							<given-names>IR</given-names>
+						</name>
+					</person-group>
+					<article-title>Depressão e ansiedade em profissionais de enfermagem durante a pandemia da covid-19</article-title>
+					<source>Esc Anna Nery</source>
+					<year>2021</year>
+					<volume>25</volume>
+					<issue>Espec</issue>
+					<elocation-id>e20200370</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/2177-9465-EAN-2020-0370">https://doi.org/10.1590/2177-9465-EAN-2020-0370</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>22. Depolli GT, Brozzi JN, Perobelli AO, Alves BL, Barreira-Nielsen C. Ansiedade e depressão em atendimento presencial e telessaúde durante a pandemia de Covid-19: um estudo comparativo. Trab Educ Saude. 2021;19:e00317149. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1981-7746-sol00317">https://doi.org/10.1590/1981-7746-sol00317</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Depolli</surname>
+							<given-names>GT</given-names>
+						</name>
+						<name>
+							<surname>Brozzi</surname>
+							<given-names>JN</given-names>
+						</name>
+						<name>
+							<surname>Perobelli</surname>
+							<given-names>AO</given-names>
+						</name>
+						<name>
+							<surname>Alves</surname>
+							<given-names>BL</given-names>
+						</name>
+						<name>
+							<surname>Barreira-Nielsen</surname>
+							<given-names>C</given-names>
+						</name>
+					</person-group>
+					<article-title>Ansiedade e depressão em atendimento presencial e telessaúde durante a pandemia de Covid-19: um estudo comparativo</article-title>
+					<source>Trab Educ Saude</source>
+					<year>2021</year>
+					<volume>19</volume>
+					<elocation-id>e00317149</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1981-7746-sol00317">https://doi.org/10.1590/1981-7746-sol00317</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>23. Alves MGM, Chor D, Faerstein E, Lopes CS, Werneck GL. “Short version of the job stress scale”: a Portuguese-language adaptation]. Rev Saude Publica. 2004;38(2):164-71. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/s0034-89102004000200003">https://doi.org/10.1590/s0034-89102004000200003</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Alves</surname>
+							<given-names>MGM</given-names>
+						</name>
+						<name>
+							<surname>Chor</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Faerstein</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Lopes</surname>
+							<given-names>CS</given-names>
+						</name>
+						<name>
+							<surname>Werneck</surname>
+							<given-names>GL</given-names>
+						</name>
+					</person-group>
+					<article-title>“Short version of the job stress scale”: a Portuguese-language adaptation]</article-title>
+					<source>Rev Saude Publica</source>
+					<year>2004</year>
+					<volume>38</volume>
+					<issue>2</issue>
+					<fpage>164</fpage>
+					<lpage>171</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/s0034-89102004000200003">https://doi.org/10.1590/s0034-89102004000200003</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>24. Karasek R, Brisson C, Kawakami N, Houtman I, Bongers P, Amick B. The Job Content Questionnaire (JCQ): an instrument for internationally comparative assessments of psychosocial job characteristics. J Occup Health Psychol. 1998;3(4):322-55. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1037//1076-8998.3.4.322">https://doi.org/10.1037//1076-8998.3.4.322</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Karasek</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Brisson</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Kawakami</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Houtman</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Bongers</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Amick</surname>
+							<given-names>B</given-names>
+						</name>
+					</person-group>
+					<article-title>The Job Content Questionnaire (JCQ): an instrument for internationally comparative assessments of psychosocial job characteristics</article-title>
+					<source>J Occup Health Psychol</source>
+					<year>1998</year>
+					<volume>3</volume>
+					<issue>4</issue>
+					<fpage>322</fpage>
+					<lpage>355</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1037//1076-8998.3.4.322">https://doi.org/10.1037//1076-8998.3.4.322</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>25. Santos IS, Tavares BF, Munhoz TN, Almeida LSP, Silva NTB, Tams BD, et al. [Sensitivity and specificity of the Patient Health Questionnaire-9 (PHQ-9) among adults from the general population]. Cad Saude Publica. 2013;29(8):1533-43. Portuguese. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0102-311X00144612">https://doi.org/10.1590/0102-311X00144612</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Santos</surname>
+							<given-names>IS</given-names>
+						</name>
+						<name>
+							<surname>Tavares</surname>
+							<given-names>BF</given-names>
+						</name>
+						<name>
+							<surname>Munhoz</surname>
+							<given-names>TN</given-names>
+						</name>
+						<name>
+							<surname>Almeida</surname>
+							<given-names>LSP</given-names>
+						</name>
+						<name>
+							<surname>Silva</surname>
+							<given-names>NTB</given-names>
+						</name>
+						<name>
+							<surname>Tams</surname>
+							<given-names>BD</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Sensitivity and specificity of the Patient Health Questionnaire-9 (PHQ-9) among adults from the general population</article-title>
+					<source>Cad Saude Publica</source>
+					<year>2013</year>
+					<volume>29</volume>
+					<issue>8</issue>
+					<fpage>1533</fpage>
+					<lpage>1543</lpage>
+					<comment>Portuguese</comment>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0102-311X00144612">https://doi.org/10.1590/0102-311X00144612</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation>26. Kroenke K, Spitzer RL, Williams JBW. The PHQ‐9: validity of a brief depression severity measure. J Gen Intern Med. 2001;16(9):606-13. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1046/j.1525-1497.2001.016009606.x">https://doi.org/10.1046/j.1525-1497.2001.016009606.x</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Kroenke</surname>
+							<given-names>K</given-names>
+						</name>
+						<name>
+							<surname>Spitzer</surname>
+							<given-names>RL</given-names>
+						</name>
+						<name>
+							<surname>Williams</surname>
+							<given-names>JBW</given-names>
+						</name>
+					</person-group>
+					<article-title>The PHQ‐9: validity of a brief depression severity measure</article-title>
+					<source>J Gen Intern Med</source>
+					<year>2001</year>
+					<volume>16</volume>
+					<issue>9</issue>
+					<fpage>606</fpage>
+					<lpage>613</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1046/j.1525-1497.2001.016009606.x">https://doi.org/10.1046/j.1525-1497.2001.016009606.x</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<mixed-citation>27. Barros AJD, Hirakata VN. Alternatives for logistic regression in cross-sectional studies: an empirical comparison of models that directly estimate the prevalence ratio. BMC Med Res Methodol. 2003;3:21. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1471-2288-3-21">https://doi.org/10.1186/1471-2288-3-21</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Barros</surname>
+							<given-names>AJD</given-names>
+						</name>
+						<name>
+							<surname>Hirakata</surname>
+							<given-names>VN</given-names>
+						</name>
+					</person-group>
+					<article-title>Alternatives for logistic regression in cross-sectional studies: an empirical comparison of models that directly estimate the prevalence ratio</article-title>
+					<source>BMC Med Res Methodol</source>
+					<year>2003</year>
+					<volume>3</volume>
+					<size units="pages">21</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/1471-2288-3-21">https://doi.org/10.1186/1471-2288-3-21</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<mixed-citation>28. Felice C, Di Tanna GL, Zanus G, Grossi U. Impact of COVID-19 outbreak on healthcare workers in Italy: results from a national E-survey. J Community Health. 2020;45(4):675-83. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s10900-020-00845-5">https://doi.org/10.1007/s10900-020-00845-5</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Felice</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Di Tanna</surname>
+							<given-names>GL</given-names>
+						</name>
+						<name>
+							<surname>Zanus</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Grossi</surname>
+							<given-names>U</given-names>
+						</name>
+					</person-group>
+					<article-title>Impact of COVID-19 outbreak on healthcare workers in Italy: results from a national E-survey</article-title>
+					<source>J Community Health</source>
+					<year>2020</year>
+					<volume>45</volume>
+					<issue>4</issue>
+					<fpage>675</fpage>
+					<lpage>683</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s10900-020-00845-5">https://doi.org/10.1007/s10900-020-00845-5</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B29">
+				<label>29</label>
+				<mixed-citation>29. Dobson H, Malpas CB, Burrell AJC, Gurvich C, Chen L, Kulkarni J, et al. Burnout and psychological distress amongst Australian healthcare workers during the COVID-19 pandemic. Australas Psychiatry. 2021;29(1):26-30. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/1039856220965045">https://doi.org/10.1177/1039856220965045</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Dobson</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Malpas</surname>
+							<given-names>CB</given-names>
+						</name>
+						<name>
+							<surname>Burrell</surname>
+							<given-names>AJC</given-names>
+						</name>
+						<name>
+							<surname>Gurvich</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Chen</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Kulkarni</surname>
+							<given-names>J</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Burnout and psychological distress amongst Australian healthcare workers during the COVID-19 pandemic</article-title>
+					<source>Australas Psychiatry</source>
+					<year>2021</year>
+					<volume>29</volume>
+					<issue>1</issue>
+					<fpage>26</fpage>
+					<lpage>30</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/1039856220965045">https://doi.org/10.1177/1039856220965045</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B30">
+				<label>30</label>
+				<mixed-citation>30. Lasalvia A, Amaddeo F, Porru S, Carta A, Tardivo S, Bovo C, et al. Levels of burn-out among healthcare workers during the COVID-19 pandemic and their associated factors: a cross-sectional study in a tertiary hospital of a highly burdened area of north-east Italy. BMJ Open. 2021;11(1):e045127. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/bmjopen-2020-045127">https://doi.org/10.1136/bmjopen-2020-045127</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lasalvia</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Amaddeo</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Porru</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Carta</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Tardivo</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Bovo</surname>
+							<given-names>C</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Levels of burn-out among healthcare workers during the COVID-19 pandemic and their associated factors: a cross-sectional study in a tertiary hospital of a highly burdened area of north-east Italy</article-title>
+					<source>BMJ Open</source>
+					<year>2021</year>
+					<volume>11</volume>
+					<issue>1</issue>
+					<elocation-id>e045127</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1136/bmjopen-2020-045127">https://doi.org/10.1136/bmjopen-2020-045127</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B31">
+				<label>31</label>
+				<mixed-citation>31. Cavalcanti IL, Lima FLT, Souza TA, Silva MJS. Burnout e depressão em residentes de um programa multiprofissional em oncologia: estudo longitudinal prospectivo. Rev Bras Educ Med. 2018;42(1):188-6. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1981-52712018v42n1RB20170078">https://doi.org/10.1590/1981-52712018v42n1RB20170078</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cavalcanti</surname>
+							<given-names>IL</given-names>
+						</name>
+						<name>
+							<surname>Lima</surname>
+							<given-names>FLT</given-names>
+						</name>
+						<name>
+							<surname>Souza</surname>
+							<given-names>TA</given-names>
+						</name>
+						<name>
+							<surname>Silva</surname>
+							<given-names>MJS</given-names>
+						</name>
+					</person-group>
+					<article-title>Burnout e depressão em residentes de um programa multiprofissional em oncologia: estudo longitudinal prospectivo</article-title>
+					<source>Rev Bras Educ Med</source>
+					<year>2018</year>
+					<volume>42</volume>
+					<issue>1</issue>
+					<fpage>188</fpage>
+					<lpage>186</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1981-52712018v42n1RB20170078">https://doi.org/10.1590/1981-52712018v42n1RB20170078</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B32">
+				<label>32</label>
+				<mixed-citation>32. Silva GCC, Koch HA, Sousa EG, Gasparetto E, Buys RC. Ansiedade e depressão em residentes em Radiologia e Diagnóstico por Imagem. Rev Bras Educ Med. 2010;34(2):199-206. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0100-55022010000200003">https://doi.org/10.1590/S0100-55022010000200003</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Silva</surname>
+							<given-names>GCC</given-names>
+						</name>
+						<name>
+							<surname>Koch</surname>
+							<given-names>HA</given-names>
+						</name>
+						<name>
+							<surname>Sousa</surname>
+							<given-names>EG</given-names>
+						</name>
+						<name>
+							<surname>Gasparetto</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Buys</surname>
+							<given-names>RC</given-names>
+						</name>
+					</person-group>
+					<article-title>Ansiedade e depressão em residentes em Radiologia e Diagnóstico por Imagem</article-title>
+					<source>Rev Bras Educ Med</source>
+					<year>2010</year>
+					<volume>34</volume>
+					<issue>2</issue>
+					<fpage>199</fpage>
+					<lpage>206</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S0100-55022010000200003">https://doi.org/10.1590/S0100-55022010000200003</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B33">
+				<label>33</label>
+				<mixed-citation>33. Robles R, Rodríguez E, Vega-Ramírez H, Álvarez-Icaza D, Madrigal E, Durand S, et al. Mental health problems among healthcare workers involved with the COVID-19 outbreak. Braz J Psychiatry. 2020;43(5):494-503. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1516-4446-2020-1346">https://doi.org/10.1590/1516-4446-2020-1346</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Robles</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Rodríguez</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Vega-Ramírez</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Álvarez-Icaza</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Madrigal</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Durand</surname>
+							<given-names>S</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Mental health problems among healthcare workers involved with the COVID-19 outbreak</article-title>
+					<source>Braz J Psychiatry</source>
+					<year>2020</year>
+					<volume>43</volume>
+					<issue>5</issue>
+					<fpage>494</fpage>
+					<lpage>503</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1516-4446-2020-1346">https://doi.org/10.1590/1516-4446-2020-1346</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B34">
+				<label>34</label>
+				<mixed-citation>34. Cag Y, Erdem H, Gormez A, Ankarali H, Hargreaves S, Ferreira-Coimbra J, et al. Anxiety among front-line health-care workers supporting patients with COVID-19: a global survey. Gen Hosp Psychiatr. 2021;68:90-6. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.genhosppsych.2020.12.010">https://doi.org/10.1016/j.genhosppsych.2020.12.010</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cag</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Erdem</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Gormez</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Ankarali</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Hargreaves</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Ferreira-Coimbra</surname>
+							<given-names>J</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Anxiety among front-line health-care workers supporting patients with COVID-19: a global survey</article-title>
+					<source>Gen Hosp Psychiatr</source>
+					<year>2021</year>
+					<volume>68</volume>
+					<fpage>90</fpage>
+					<lpage>96</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.genhosppsych.2020.12.010">https://doi.org/10.1016/j.genhosppsych.2020.12.010</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B35">
+				<label>35</label>
+				<mixed-citation>35. Santos LS. Dilemas morais da gestão pública brasileira no enfrentamento da pandemia do novo coronavírus. Rev Adm Publica. 2020;54(4):909-22. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0034-761220200219">https://doi.org/10.1590/0034-761220200219</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Santos</surname>
+							<given-names>LS</given-names>
+						</name>
+					</person-group>
+					<article-title>Dilemas morais da gestão pública brasileira no enfrentamento da pandemia do novo coronavírus</article-title>
+					<source>Rev Adm Publica</source>
+					<year>2020</year>
+					<volume>54</volume>
+					<issue>4</issue>
+					<fpage>909</fpage>
+					<lpage>922</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0034-761220200219">https://doi.org/10.1590/0034-761220200219</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B36">
+				<label>36</label>
+				<mixed-citation>36. Aydogdu ALF. Violência e discriminação contra profissionais de saúde em tempos de novo coronavírus. J Nurs Health. 2020;10(4 Nº Espec): e20104006.</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Aydogdu</surname>
+							<given-names>ALF</given-names>
+						</name>
+					</person-group>
+					<article-title>Violência e discriminação contra profissionais de saúde em tempos de novo coronavírus</article-title>
+					<source>J Nurs Health</source>
+					<year>2020</year>
+					<volume>10</volume>
+					<issue>4</issue>
+					<comment>Nº Espec</comment>
+					<elocation-id>e20104006</elocation-id>
+				</element-citation>
+			</ref>
+			<ref id="B37">
+				<label>37</label>
+				<mixed-citation>37. Miranda FMD, Santana LL, Pizzolato AC, Sarquis LMM. Condições de trabalho e o impacto na saúde dos profissionais de enfermagem frente a Covid-19. Cogitare Enferm. 2020;25:e72702. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5380/ce.v25i0.72702">https://doi.org/10.5380/ce.v25i0.72702</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Miranda</surname>
+							<given-names>FMD</given-names>
+						</name>
+						<name>
+							<surname>Santana</surname>
+							<given-names>LL</given-names>
+						</name>
+						<name>
+							<surname>Pizzolato</surname>
+							<given-names>AC</given-names>
+						</name>
+						<name>
+							<surname>Sarquis</surname>
+							<given-names>LMM</given-names>
+						</name>
+					</person-group>
+					<article-title>Condições de trabalho e o impacto na saúde dos profissionais de enfermagem frente a Covid-19</article-title>
+					<source>Cogitare Enferm</source>
+					<year>2020</year>
+					<volume>25</volume>
+					<elocation-id>e72702</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.5380/ce.v25i0.72702">https://doi.org/10.5380/ce.v25i0.72702</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B38">
+				<label>38</label>
+				<mixed-citation>38. Fang XH, Wu L, Lu LS, Kan XH, Wang H, Xiong YJ, et al. Mental health problems and social supports in the COVID-19 healthcare workers: a Chinese explanatory study. BMC Psychiatry. 2021;21:34. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12888-020-02998-y">https://doi.org/10.1186/s12888-020-02998-y</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Fang</surname>
+							<given-names>XH</given-names>
+						</name>
+						<name>
+							<surname>Wu</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Lu</surname>
+							<given-names>LS</given-names>
+						</name>
+						<name>
+							<surname>Kan</surname>
+							<given-names>XH</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Xiong</surname>
+							<given-names>YJ</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Mental health problems and social supports in the COVID-19 healthcare workers: a Chinese explanatory study</article-title>
+					<source>BMC Psychiatry</source>
+					<year>2021</year>
+					<volume>21</volume>
+					<size units="pages">34</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12888-020-02998-y">https://doi.org/10.1186/s12888-020-02998-y</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B39">
+				<label>39</label>
+				<mixed-citation>39. Gherardi-Donato ECS, Cardoso L, Teixeira CAB, Pereira SS, Reisdorfer E. Associação entre depressão e estresse laboral em profissionais de enfermagem de nível médio 1. Rev Lat Am Enfermagem. 2015;23(4):733-40. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0104-1169.0069.2610">https://doi.org/10.1590/0104-1169.0069.2610</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Gherardi-Donato</surname>
+							<given-names>ECS</given-names>
+						</name>
+						<name>
+							<surname>Cardoso</surname>
+							<given-names>L</given-names>
+						</name>
+						<name>
+							<surname>Teixeira</surname>
+							<given-names>CAB</given-names>
+						</name>
+						<name>
+							<surname>Pereira</surname>
+							<given-names>SS</given-names>
+						</name>
+						<name>
+							<surname>Reisdorfer</surname>
+							<given-names>E</given-names>
+						</name>
+					</person-group>
+					<article-title>Associação entre depressão e estresse laboral em profissionais de enfermagem de nível médio 1</article-title>
+					<source>Rev Lat Am Enfermagem</source>
+					<year>2015</year>
+					<volume>23</volume>
+					<issue>4</issue>
+					<fpage>733</fpage>
+					<lpage>740</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0104-1169.0069.2610">https://doi.org/10.1590/0104-1169.0069.2610</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B40">
+				<label>40</label>
+				<mixed-citation>40. Barros MBA, Lima MG, Azevedo RCS, Medina LBP, Lopes CS, Menezes PR, et al. Depressão e comportamentos de saúde em adultos brasileiros–PNS 2013. Rev Saude Publica. 2017;51 Supl 1:8s. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S1518-8787.2017051000084">https://doi.org/10.1590/S1518-8787.2017051000084</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Barros</surname>
+							<given-names>MBA</given-names>
+						</name>
+						<name>
+							<surname>Lima</surname>
+							<given-names>MG</given-names>
+						</name>
+						<name>
+							<surname>Azevedo</surname>
+							<given-names>RCS</given-names>
+						</name>
+						<name>
+							<surname>Medina</surname>
+							<given-names>LBP</given-names>
+						</name>
+						<name>
+							<surname>Lopes</surname>
+							<given-names>CS</given-names>
+						</name>
+						<name>
+							<surname>Menezes</surname>
+							<given-names>PR</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Depressão e comportamentos de saúde em adultos brasileiros–PNS 2013</article-title>
+					<source>Rev Saude Publica</source>
+					<year>2017</year>
+					<volume>51</volume>
+					<supplement>Supl 1</supplement>
+					<size units="pages">8s</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/S1518-8787.2017051000084">https://doi.org/10.1590/S1518-8787.2017051000084</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B41">
+				<label>41</label>
+				<mixed-citation>41. Ramchandani P, Psychogiou L. Paternal psychiatric disorders and children’s psychosocial development. Lancet. 2009;374(9690):646-53. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(09)60238-5">https://doi.org/10.1016/S0140-6736(09)60238-5</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Ramchandani</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Psychogiou</surname>
+							<given-names>L</given-names>
+						</name>
+					</person-group>
+					<article-title>Paternal psychiatric disorders and children’s psychosocial development</article-title>
+					<source>Lancet</source>
+					<year>2009</year>
+					<volume>374</volume>
+					<issue>9690</issue>
+					<fpage>646</fpage>
+					<lpage>653</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/S0140-6736(09)60238-5">https://doi.org/10.1016/S0140-6736(09)60238-5</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B42">
+				<label>42</label>
+				<mixed-citation>42. Smolen JR, Araújo EM. Raça/cor da pele e transtornos mentais no Brasil: uma revisão sistemática. Cien Saude Colet. 2017;22(12):4021-30. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1413-812320172212.19782016">https://doi.org/10.1590/1413-812320172212.19782016</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Smolen</surname>
+							<given-names>JR</given-names>
+						</name>
+						<name>
+							<surname>Araújo</surname>
+							<given-names>EM</given-names>
+						</name>
+					</person-group>
+					<article-title>Raça/cor da pele e transtornos mentais no Brasil: uma revisão sistemática</article-title>
+					<source>Cien Saude Colet</source>
+					<year>2017</year>
+					<volume>22</volume>
+					<issue>12</issue>
+					<fpage>4021</fpage>
+					<lpage>4030</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1413-812320172212.19782016">https://doi.org/10.1590/1413-812320172212.19782016</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B43">
+				<label>43</label>
+				<mixed-citation>43. Shacham M, Hamama-Raz Y, Kolerman R, Mijiritsky O, Ben-Ezra M, Mijiritsky E. COVID-19 factors and psychological factors associated with elevated psychological distress among dentists and dental hygienists in Israel. Int J Environ Res Public Health. 2020;17(8):2900. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3390/ijerph17082900">https://doi.org/10.3390/ijerph17082900</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Shacham</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Hamama-Raz</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Kolerman</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Mijiritsky</surname>
+							<given-names>O</given-names>
+						</name>
+						<name>
+							<surname>Ben-Ezra</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Mijiritsky</surname>
+							<given-names>E</given-names>
+						</name>
+					</person-group>
+					<article-title>COVID-19 factors and psychological factors associated with elevated psychological distress among dentists and dental hygienists in Israel</article-title>
+					<source>Int J Environ Res Public Health</source>
+					<year>2020</year>
+					<volume>17</volume>
+					<issue>8</issue>
+					<size units="pages">2900</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3390/ijerph17082900">https://doi.org/10.3390/ijerph17082900</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn fn-type="financial-disclosure" id="fn2">
+				<p>Funding: This research was carried out with the support of the Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Brazil (Capes - Financing Code 001, through research grants, and the Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul (Fapergs), to main funding to carry out the study.</p>
+			</fn>
+		</fn-group>
+	</back>
+</article>

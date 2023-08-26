@@ -1,0 +1,3130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1 20151215//EN" "JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.1" specific-use="sps-1.9" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="nlm-ta">Rev Saude Publica</journal-id>
+			<journal-id journal-id-type="publisher-id">rsp</journal-id>
+			<journal-title-group>
+				<journal-title>Revista de Saúde Pública</journal-title>
+				<abbrev-journal-title abbrev-type="publisher">Rev. Saúde Pública</abbrev-journal-title>
+			</journal-title-group>
+			<issn pub-type="ppub">0034-8910</issn>
+			<issn pub-type="epub">1518-8787</issn>
+			<publisher>
+				<publisher-name>Faculdade de Saúde Pública da Universidade de São Paulo</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="other">00241</article-id>
+			<article-id pub-id-type="doi">10.11606/s1518-8787.2022056003805</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Original Article</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Measles resurgence in Brazil: analysis of the 2019 epidemic in the state of São Paulo</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-2957-5604</contrib-id>
+					<name>
+						<surname>Makarenko</surname>
+						<given-names>Cristina</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-0326-6053</contrib-id>
+					<name>
+						<surname>San Pedro</surname>
+						<given-names>Alexandre</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-0541-4686</contrib-id>
+					<name>
+						<surname>Paiva</surname>
+						<given-names>Natalia Santana</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-9780-9911</contrib-id>
+					<name>
+						<surname>Santos</surname>
+						<given-names>Jefferson Pereira Caldas dos</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3"><sup>III</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-4073-3930</contrib-id>
+					<name>
+						<surname>Medronho</surname>
+						<given-names>Roberto de Andrade</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-9499-731X</contrib-id>
+					<name>
+						<surname>Gibson</surname>
+						<given-names>Gerusa</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1"><sup>I</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>I</label>
+				<institution content-type="orgname">Universidade Federal do Rio de Janeiro</institution>
+				<institution content-type="orgdiv1">Instituto de Estudos em Saúde Coletiva</institution>
+				<addr-line>
+					<named-content content-type="city">Rio de Janeiro</named-content>
+					<named-content content-type="state">RJ</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Universidade Federal do Rio de Janeiro. Instituto de Estudos em Saúde Coletiva. Rio de Janeiro, RJ, Brasil</institution>
+			</aff>
+			<aff id="aff2">
+				<label>II</label>
+				<institution content-type="orgname">Fundação Oswaldo Cruz</institution>
+				<institution content-type="orgdiv1">Escola Nacional de Saúde Pública Sergio Arouca</institution>
+				<institution content-type="orgdiv2">Centro de Estudos, Políticas e Informação sobre Determinantes Sociais da Saúde</institution>
+				<addr-line>
+					<named-content content-type="city">Rio de Janeiro</named-content>
+					<named-content content-type="state">RJ</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Fundação Oswaldo Cruz. Escola Nacional de Saúde Pública Sergio Arouca. Centro de Estudos, Políticas e Informação sobre Determinantes Sociais da Saúde. Rio de Janeiro, RJ, Brasil</institution>
+			</aff>
+			<aff id="aff3">
+				<label>III</label>
+				<institution content-type="orgname">Fundação Oswaldo Cruz</institution>
+				<institution content-type="orgdiv1">Centro de Inovação em Biodiversidade e Saúde</institution>
+				<addr-line>
+					<named-content content-type="city">Rio de Janeiro</named-content>
+					<named-content content-type="state">RJ</named-content>
+				</addr-line>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Fundação Oswaldo Cruz. Centro de Inovação em Biodiversidade e Saúde. Rio de Janeiro, RJ, Brasil</institution>
+			</aff>
+			<author-notes>
+				<corresp id="c01"> Correspondence: Gerusa Gibson Avenida Horácio Macedo, s/n Ilha do Fundão - Cidade Universitária 21941-598 Rio de Janeiro, RJ, Brasil E-mail: <email>gibson.gerusa@iesc.ufrj.br</email>
+				</corresp>
+				<fn fn-type="con">
+					<p><bold>Authors’ Contribution:</bold> Study design and planning: CM, ASP, GG. Data collection, analysis and interpretation: CM, ASP, NSP, JPCS, RAM, GG. Preparation or revision of the manuscript: CM, GG, ASP. Final version approval: CM, ASP, NSP, JPCS, RAM, GG. Public responsibility for the content of the article: GG.</p>
+				</fn>
+				<fn fn-type="conflict">
+					<p><bold>Conflict of Interest:</bold> The authors declare no conflict of interest.</p>
+				</fn>
+			</author-notes>
+			<pub-date date-type="pub" publication-format="electronic">
+				<day>13</day>
+				<month>06</month>
+				<year>2022</year>
+			</pub-date>
+			<pub-date date-type="collection" publication-format="electronic">
+				<year>2022</year>
+			</pub-date>
+			<volume>56</volume>
+			<elocation-id>50</elocation-id>
+			<history>
+				<date date-type="received">
+					<day>26</day>
+					<month>04</month>
+					<year>2021</year>
+				</date>
+				<date date-type="accepted">
+					<day>8</day>
+					<month>08</month>
+					<year>2021</year>
+				</date>
+			</history>
+			<permissions>
+				<license license-type="open-access" xlink:href="https://creativecommons.org/licenses/by/4.0/" xml:lang="en">
+					<license-p> This is an Open Access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. </license-p>
+				</license>
+			</permissions>
+			<abstract>
+				<title>ABSTRACT</title>
+				<sec>
+					<title>OBJECTIVE</title>
+					<p> To analyze the epidemiological profile of cases and the pattern of spatial diffusion of the largest measles epidemic in Brazil that occurred in the post-elimination period in the state of São Paulo.</p>
+				</sec>
+				<sec>
+					<title>METHOD</title>
+					<p> A cross-sectional study based on confirmed measles cases in 2019. Bivariate analysis was performed for socioeconomic, clinical, and epidemiological variables, according to prior vaccination and hospitalization, combined with an analysis of spatial diffusion of cases using the Inverse Distance Weighting (IDW) method.</p>
+				</sec>
+				<sec>
+					<title>RESULTS</title>
+					<p> Of the 15,598 confirmed cases, 2,039 were hospitalized and 17 progressed to death. The epidemic peak occurred in epidemiological week 33, after confirmation of the first case, in the epidemiological week 6. Most cases were male (52.1%), aged between 18 and 29 years (38.7%), identified as whites (70%). Young adults (39.7%) and children under five years (32.8%) were the most affected age groups. A higher proportion of previous vaccination was observed in whites as compared to Blacks, browns, yellows and indigenous people (p &lt; 0.001), as well as in the most educated group compared to the other categories (p &lt; 0.001). The risk of hospitalization was higher in children than in the older age group (RI = 2.19; 95%CI: 1.66–2.88), as well as in the unvaccinated than in the vaccinated (RI = 1.59; 95%CI: 1.45–1.75). The pattern of diffusion by contiguity combined with diffusion by relocation followed the urban hierarchy of the main cities’ regions of influence.</p>
+				</sec>
+				<sec>
+					<title>CONCLUSION</title>
+					<p> In addition to routine vaccination in children, the findings indicate the need for immunization campaigns for young adults. In addition, studies that seek to investigate the occurrence of clusters of vulnerable populations, prone to lower vaccination coverage, are essential to broaden the understanding of the dynamics of transmission and, thus, reorienting control strategies that ensure disease elimination.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="en">
+				<kwd>Measles, epidemiology</kwd>
+				<kwd>Disease Transmission, Infectious</kwd>
+				<kwd>Epidemics</kwd>
+				<kwd>Communicable Disease Control</kwd>
+				<kwd>Vaccination Coverage</kwd>
+			</kwd-group>
+			<counts>
+				<fig-count count="4"/>
+				<table-count count="6"/>
+				<equation-count count="0"/>
+				<ref-count count="36"/>
+			</counts>
+		</article-meta>
+	</front>
+	<body>
+		<sec sec-type="intro">
+			<title>INTRODUCTION</title>
+			<p>Measles is a highly contagious and life-threatening disease that remains a public health problem, especially in children under five years of age, as well as malnourished and immunosuppressed young adults residing in countries where transmission has not been interrupted<sup><xref ref-type="bibr" rid="B1">1</xref></sup>.</p>
+			<p>Since the introduction of mass vaccination in Brazil and worldwide in the 1970s and 1980s, measles cases have decreased substantially. Among the six regions of the World Health Organization, the Americas was the first to have autochthonous transmission recognized as interrupted in 2002 and declared eliminated in 2016, the year in which Brazil was certified as a measles-free country, that is, with the occurrence of less than one case per million in a period of one year<sup><xref ref-type="bibr" rid="B6">6</xref></sup>.</p>
+			<p>Despite the advances made in controlling the disease worldwide, the maintenance of endemic transmission of the virus in some countries raises concerns about its re-establishment in regions where the disease had already been considered eliminated. The risk of importing cases and triggering new outbreaks is real, especially in situations where vaccination coverage is less than optimal, posing a challenge for surveillance systems<sup><xref ref-type="bibr" rid="B3">3</xref>,<xref ref-type="bibr" rid="B9">9</xref></sup>.</p>
+			<p>Recently, many countries in the Americas have reported measles cases, including Brazil, Venezuela, Canada, the United States, Mexico, Peru, and Argentina. In 2018, an outbreak that started in the Northern Region of Brazil, attributed to the D8 genotype imported from Venezuela, culminated in the occurrence of cases that spread to several states, in addition to indigenous communities in Roraima and Amazonas<sup><xref ref-type="bibr" rid="B10">10</xref>,<xref ref-type="bibr" rid="B11">11</xref></sup>. As a result, Brazil lost its status as a measles-free country<sup><xref ref-type="bibr" rid="B12">12</xref></sup>.</p>
+			<p>The measles vaccine in Brazil is part of the routine schedule of the National Immunization Program, being offered free of charge in the Unified Health System to the entire population. It is recommended to administer two doses with a minimum interval of 30 days. The first dose of the MMR (measles, mumps and rubella) vaccine should be given at 12 months of age, followed by a booster dose of the tetravalent vaccine (measles, mumps, rubella and varicella) at 15 months. The guarantee of 97% protection is afforded only after the complete vaccination schedule<sup><xref ref-type="bibr" rid="B11">11</xref>,<xref ref-type="bibr" rid="B13">13</xref></sup>.</p>
+			<p>A sensitive surveillance that effectively responds to the importation of the virus, associated with homogeneous and routine vaccination coverage above 95%, are some of the challenges that countries which have managed to eliminate the disease from their territories have faced<sup><xref ref-type="bibr" rid="B3">3</xref>,<xref ref-type="bibr" rid="B9">9</xref></sup>.</p>
+			<p>A broad understanding of the profile of those who are acquiring the disease, as well as of its spatial diffusion dynamics is a fundamental requirement to guide actions that guarantee the maintenance of measles elimination<sup><xref ref-type="bibr" rid="B14">14</xref></sup>. Considering that vaccination is the cornerstone of control efforts, detailed information on cases is essential to assess current vaccination strategies and reorient more targeted interventions, whether through routine immunization services or campaigns targeting specific subpopulations<sup><xref ref-type="bibr" rid="B14">14</xref></sup>.</p>
+			<p>This study was designed to analyze the epidemiological profile of measles cases and the pattern of spatial diffusion of measles case in São Paulo state in 2019.</p>
+		</sec>
+		<sec sec-type="methods">
+			<title>METHODS</title>
+			<p>This is a cross-sectional study based on measles cases confirmed by laboratory, clinical and epidemiological criteria, reported in the epidemic year of 2019 in São Paulo state, obtained from the <italic>Sistema de Informação de Agravos de Notificação</italic> (Sinan – Notifiable Diseases Information System).</p>
+			<p>The choice for São Paulo is due to the fact that the state was the scene of the largest epidemic in Brazil in the post-elimination period, accounting for about 74% of the cases reported in the country in 2019.</p>
+			<p>São Paulo is the most populous federative unit in the country and the second with the highest Human Development Index. In 2020, its estimated population was 46 million inhabitants spread over an area of 248,209 km<sup><xref ref-type="bibr" rid="B2">2</xref></sup>. It is located in the southeastern region of the country, and comprises 645 municipalities, distributed in 11 intermediate geographic regions and six metropolitan regions<sup><xref ref-type="bibr" rid="B15">15</xref></sup>.</p>
+			<p>For the bivariate descriptive analysis, Pearson’s chi-square test was used for differences in the proportion of previous vaccination of the cases, according to epidemiological, clinical and socioeconomic variables, considering p-value &lt; 0.05 as statistically significant. The hospitalization incidence ratios were also obtained, considering the variables gender, age group, schooling , race/skin color and vaccination status, with the respective intervals with 95% confidence levels.</p>
+			<p>Epidemiological weeks were considered as units of analysis of the temporal evolution of case notifications. The analyses were performed in the R software, using the EpiR package<sup><xref ref-type="bibr" rid="B16">16</xref></sup>. Additionally, sequential choropleth maps of the spatial distribution of measles incidence rates were created at municipality level . The rates were smoothed by the Local Empirical Bayesian method, using a neighborhood matrix by contiguity. We opted for a division into equal periods starting from the week of notification of the first case of the year (epidemiological week six). Thus, the periods were defined by the following epidemiological weeks of 2019: from 6 to 18, 19 to 30, 31 to 42, and 43 to 52. Data on population estimates by municipality were obtained from the Brazilian Institute of Geography and Statistics (IBGE).</p>
+			<p>In the spatial diffusion analysis, we used the cartographic mesh of geographic location of the cities’ headquarters because it is considered that, in some situations, the allocation of centroids by the geometric method may lead to less precision of territory representation, with allocation of points in uninhabited areas. In this way, the use of the cartographic mesh of the municipal headquarters ensures the geographic location of the point within the urban area of the municipality.</p>
+			<p>The inverse distance weighting (IDW) interpolation method was used to analyze the spatial diffusion of the first confirmed measles cases in each municipality. In this method, sample points are weighted according to the influence of one point relative to another, based on the inverse of the distance. The interpolation process was carried out from the punctual grid of the municipal headquarters, plus information on the dates of onset of symptoms of the first confirmed case and the number of days with confirmed cases notification during the period. The municipalities that did not present confirmed cases during the period received the value of the last date of the series, plus one day. This procedure aimed to ensure that these municipalities were portrayed in the interpolation product as the areas where the spatial spread of measles arrived last or did not arrive until the end of the study period.</p>
+			<p>We also considered the number of days that each municipality presented new cases as a parameter for interpolation , aiming to emphasize the role of cities that remained as a spreader over time. With this, we sought to mitigate the effect of municipalities that had the notification of the first case at the beginning of the series and the rest of the cases spaced out in time, in contrast to those that notified their first cases on similar dates, but that presented temporal persistence in case notification over the period. The IDW method and the geoprocessing and spatial diffusion mapping techniques were carried out in the QGIS 3.18.1 software.</p>
+			<p>The study was approved by the research ethics committee of the Collective Health Studies Institute of the Federal University of Rio de Janeiro (IESC/UFRJ) (CAAE protocol nr 4,410,876), with the waiver of free and informed consent, as it uses a secondary database and aggregated analyses, without risk of identifying subjects.</p>
+		</sec>
+		<sec sec-type="results">
+			<title>RESULTS</title>
+			<p>A total of 15,598 measles cases were confirmed in the state of São Paulo in 2019, of which 2,039 were hospitalized and 17 died. Approximately 40% of confirmed cases (6,302) reported prior measles vaccination. The first case, a 6-month-old child residing in the city of São Paulo, was reported on February 7, 2019, in epidemiological week (EW) six. The peak of transmission occurred six months later, in August (EW 33), when 5,539 cases were reported in 12.7% of the municipalities of São Paulo state, of which 759 (13.5%) cases were hospitalized and five died (<xref ref-type="table" rid="t1">Table 1</xref>).</p>
+			<p>
+				<table-wrap id="t1">
+					<label>Table 1</label>
+					<caption>
+						<title>Monthly frequency of notifications of confirmed, vaccinated, hospitalized cases and deaths in the state of São Paulo, 2019.</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left">Notification month</th>
+								<th>Total cases</th>
+								<th>Imported cases<sup>a</sup> (%)</th>
+								<th>Vaccinated(%)</th>
+								<th>Hospitalized (%)</th>
+								<th>Deaths</th>
+								<th>Affected municipalities(%)</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Jan</td>
+								<td align="center">0</td>
+								<td align="center">0</td>
+								<td align="center">0</td>
+								<td align="center">0</td>
+								<td align="center">0</td>
+								<td align="center">0</td>
+							</tr>
+							<tr>
+								<td>Feb</td>
+								<td align="center">5</td>
+								<td align="center">0</td>
+								<td align="center">4 (80.0)</td>
+								<td align="center">0</td>
+								<td align="center">0</td>
+								<td align="center">3 (0.5)</td>
+							</tr>
+							<tr>
+								<td>Mar</td>
+								<td align="center">11</td>
+								<td align="center">0</td>
+								<td align="center">4 (36.4)</td>
+								<td align="center">2 (18.2)</td>
+								<td align="center">0</td>
+								<td align="center">2 (0.3)</td>
+							</tr>
+							<tr>
+								<td>Apr</td>
+								<td align="center">24</td>
+								<td align="center">1 (4.2)</td>
+								<td align="center">12 (50.0)</td>
+								<td align="center">2 (8.3)</td>
+								<td align="center">0</td>
+								<td align="center">7 (1.1)</td>
+							</tr>
+							<tr>
+								<td>May</td>
+								<td align="center">57</td>
+								<td align="center">2 (5.3)</td>
+								<td align="center">24 (42.1)</td>
+								<td align="center">10 (17.5)</td>
+								<td align="center">0</td>
+								<td align="center">11 (1.7)</td>
+							</tr>
+							<tr>
+								<td>Jun</td>
+								<td align="center">460</td>
+								<td align="center">0</td>
+								<td align="center">198 (43.0)</td>
+								<td align="center">59 (12.8)</td>
+								<td align="center">0</td>
+								<td align="center">34 (5.3)</td>
+							</tr>
+							<tr>
+								<td>Jul</td>
+								<td align="center">2,957</td>
+								<td align="center">4 (0.1)</td>
+								<td align="center">1,199 (40.5)</td>
+								<td align="center">373 (12.6)</td>
+								<td align="center">2</td>
+								<td align="center">101 (15.7)</td>
+							</tr>
+							<tr>
+								<td>Aug</td>
+								<td align="center">5,539</td>
+								<td align="center">11 (0.2)</td>
+								<td align="center">2,237 (40.4)</td>
+								<td align="center">759 (13.7)</td>
+								<td align="center">5</td>
+								<td align="center">175 (27.1)</td>
+							</tr>
+							<tr>
+								<td>Sept</td>
+								<td align="center">3,765</td>
+								<td align="center">8 (0.2)</td>
+								<td align="center">1,502 (39.9)</td>
+								<td align="center">467 (12.4)</td>
+								<td align="center">8</td>
+								<td align="center">178 (27.6)</td>
+							</tr>
+							<tr>
+								<td>Oct</td>
+								<td align="center">1,429</td>
+								<td align="center">3 (0.2)</td>
+								<td align="center">571 (40.0)</td>
+								<td align="center">189 (13.2)</td>
+								<td align="center">1</td>
+								<td align="center">139 (21.6)</td>
+							</tr>
+							<tr>
+								<td>Nov</td>
+								<td align="center">843</td>
+								<td align="center">3 (0.4)</td>
+								<td align="center">338 (40.1)</td>
+								<td align="center">111 (13.2)</td>
+								<td align="center">0</td>
+								<td align="center">96 (14.9)</td>
+							</tr>
+							<tr>
+								<td>Dec</td>
+								<td align="center">508</td>
+								<td align="center">1 (0.2)</td>
+								<td align="center">213 (41.9)</td>
+								<td align="center">67 (13.2)</td>
+								<td align="center">1</td>
+								<td align="center">74 (11.5)</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<attrib>Source: Sinan, Datasus, 2019.</attrib>
+						<fn id="TFN1">
+							<p><sup>a</sup> Cases imported from other states or countries.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>Regarding the spatial evolution of incidence rates over epidemiological weeks, the highest were observed in municipalities located in the Intermediate Region of São Paulo, especially in those that make up the metropolitan region. A high incidence was also observed in Fernandópolis, a municipality located in the northwest of the state, which might be due to the unstable rates arising from small populations, although they have been smoothed (<xref ref-type="fig" rid="f01">Figure 1</xref>).</p>
+			<p>
+				<fig id="f01">
+					<label>Figure 1</label>
+					<caption>
+						<title>Evolution of measles incidence rates per 100,000 inhabitants by municipalities in the state of São Paulo during the 2019 epidemic year.</title>
+					</caption>
+					<graphic xlink:href="1518-8787-rsp-56-50-gf01.tif"/>
+					<attrib>Source: Sinan, Datasus.</attrib>
+				</fig>
+			</p>
+			<p>Over the period, 33 cases imported from outside the state of São Paulo were identified, of which 20 were from other federative units and 13 from other countries, such as Ivory Coast, Ghana and Bangladesh. The first four cases of the epidemic were classified as autochthonous in the city of São Paulo and were reported in February, followed by notification in surrounding cities. Cases classified as imported began to be reported two months (April) after the first case appeared, the first of which came from Minas Gerais State. The other cases classified as imported were registered in the following months, especially in the months with the highest number of notifications (July, August and September) (<xref ref-type="table" rid="t1">Table 1</xref>).</p>
+			<p>Considering the date of onset of symptoms, the first cases of 2019 were reported in the municipalities of São Bernardo do Campo and São Paulo on the dates of 01/01/2019 and 01/08/2019, respectively. Both municipalities are part of the intermediate region called São Paulo, which corresponds to the metropolitan regions of São Paulo and Baixada Santista. This region was the pioneer and main hub for the spread of measles throughout the state. In the subsequent four months, a radial (center-peripheral) spread of the disease was observed within the region itself. Subsequently, this diffusion takes place mainly in three main axes: the most expressive axis is the one that goes towards the intermediate region of Campinas, followed by the axis that goes towards the intermediate region of São José dos Campos (Vale do Paraíba) and the last one in the northeast direction of the intermediate region of Sorocaba (<xref ref-type="fig" rid="f02">Figure 2</xref>).</p>
+			<p>
+				<fig id="f02">
+					<label>Figure 2</label>
+					<caption>
+						<title>Diffusion of measles cases in the state of São Paulo, according to the date of onset of the first symptoms.</title>
+					</caption>
+					<graphic xlink:href="1518-8787-rsp-56-50-gf02.tif"/>
+					<attrib>Source: Sinan, Datasus.</attrib>
+				</fig>
+			</p>
+			<p>Finally, two other diffusion poles of lesser magnitude were also observed, the first formed by the municipalities of Ribeirão Preto, Dumont, Pitangueiras, Sertãozinho, Barrinha, Pontal and Jardinópolis, located in the intermediate region of Ribeirão Preto, and the second located in the intermediate region of São José do Rio Preto. The last city to report measles cases in 2019 considering the onset of the first symptoms (12/15/2019) was the municipality of Eldorado (<xref ref-type="fig" rid="f02">Figure 2</xref>).</p>
+			<p>Of the 15,598 confirmed cases in 2019, 52.1% were male (8,123) and 47.9% were female (7,471). The most affected age group was 18–29 years old (39.7%; 6,190), followed by children under five years old (32.8%; 5,124). Among those over 18 years old, 56.1% (1,987) had between 10 and 12 years of formal schooling, 24.1% (852) had between four and nine years of schooling, 14.2% (504) had 13 years or more of schooling. The less educated group (less than four years of schooling) corresponded to 5.6% (198) of cases aged over 18 years (<xref ref-type="table" rid="t2">Table 2</xref>).</p>
+			<p>
+				<table-wrap id="t2">
+					<label>Table 2</label>
+					<caption>
+						<title>Epidemiological and socioeconomic characteristics of measles cases, stratified according to previous vaccination. State of São Paulo, Brazil, 2019.</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left" rowspan="2">Variables</th>
+								<th colspan="2">Frequency<sup>a</sup></th>
+								<th colspan="2">Prior vaccination</th>
+								<th>p</th>
+							</tr>
+							<tr>
+								<th>n</th>
+								<th>%</th>
+								<th>Yes<sup>b</sup></th>
+								<th>No<sup>b</sup></th>
+								<th align="left" style="font-weight:normal">
+								</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Gender</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>Male</td>
+								<td align="center">8,123</td>
+								<td align="center">52.1</td>
+								<td align="center">3,074 (37.8)</td>
+								<td align="center">3,380 (41.6)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Female</td>
+								<td align="center">7,471</td>
+								<td align="center">47.9</td>
+								<td align="center">3,228 (43.2)</td>
+								<td align="center">2,728 (36.5)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Age group</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>&lt; 1 year</td>
+								<td align="center">2,841</td>
+								<td align="center">18.2</td>
+								<td align="center">1,112 (39.1)</td>
+								<td align="center">1,050 (36.9)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>1–4 years</td>
+								<td align="center">2,283</td>
+								<td align="center">14.6</td>
+								<td align="center">964 (42.2)</td>
+								<td align="center">879 (38.5)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>5–11 years</td>
+								<td align="center">499</td>
+								<td align="center">3.2</td>
+								<td align="center">222 (44.4)</td>
+								<td align="center">192 (38.4)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>12–17 years</td>
+								<td align="center">677</td>
+								<td align="center">4.3</td>
+								<td align="center">300 (44.3)</td>
+								<td align="center">226 (33.3)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>30–49 years</td>
+								<td align="center">2,678</td>
+								<td align="center">17.2</td>
+								<td align="center">994 (37.1)</td>
+								<td align="center">1,048 (39.1)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>18–29 years</td>
+								<td align="center">6,190</td>
+								<td align="center">39.7</td>
+								<td align="center">2,556 (41.2)</td>
+								<td align="center">2,579 (41.6)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>50 years or older</td>
+								<td align="center">430</td>
+								<td align="center">2.8</td>
+								<td align="center">154 (35.8)</td>
+								<td align="center">205 (47.6)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Schooling<sup>c</sup></td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>&lt; 4 years</td>
+								<td align="center">198</td>
+								<td align="center">5.6</td>
+								<td align="center">87 (43.9)</td>
+								<td align="center">85 (42.9)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>4–9 years</td>
+								<td align="center">852</td>
+								<td align="center">24.1</td>
+								<td align="center">281 (32.9)</td>
+								<td align="center">438 (51.4)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>10–12 years</td>
+								<td align="center">1,987</td>
+								<td align="center">56.1</td>
+								<td align="center">695 (34.9)</td>
+								<td align="center">947 (47.6)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>13 years or more</td>
+								<td align="center">504</td>
+								<td align="center">14.2</td>
+								<td align="center">224 (44.4)</td>
+								<td align="center">188 (37.3)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Race/skin color</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td align="center">&lt; 0.001</td>
+							</tr>
+							<tr>
+								<td>White</td>
+								<td align="center">9,246</td>
+								<td align="center">70.7</td>
+								<td align="center">4,046 (43.7)</td>
+								<td align="center">3,566 (38.5)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Black</td>
+								<td align="center">427</td>
+								<td align="center">3.3</td>
+								<td align="center">156 (36.5)</td>
+								<td align="center">198 (46.7)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Brown</td>
+								<td align="center">3,241</td>
+								<td align="center">24.8</td>
+								<td align="center">1,195 (36.8)</td>
+								<td align="center">1,505 (46.4)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Yellow</td>
+								<td align="center">130</td>
+								<td align="center">1.0</td>
+								<td align="center">53 (40.7)</td>
+								<td align="center">53 (40.7)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Indigenous</td>
+								<td align="center">37</td>
+								<td align="center">0.3</td>
+								<td align="center">14 (37.8)</td>
+								<td align="center">18 (48.6)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Source of transmission<sup>d</sup></td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td align="center">0.02</td>
+							</tr>
+							<tr>
+								<td>Imported</td>
+								<td align="center">33</td>
+								<td align="center">0.3</td>
+								<td align="center">20 (60.6)</td>
+								<td align="center">10 (30.3)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Autochthonous – ESP</td>
+								<td align="center">12,832</td>
+								<td align="center">99.7</td>
+								<td align="center">5,308 (41.3)</td>
+								<td align="center">5,076 (39.5)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Evolution</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td align="center">0.04</td>
+							</tr>
+							<tr>
+								<td>Cure</td>
+								<td align="center">13,019</td>
+								<td align="center">99.9</td>
+								<td align="center">5,387 (41.3)</td>
+								<td align="center">5,225 (40.1)</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Death</td>
+								<td align="center">17</td>
+								<td align="center">0.1</td>
+								<td align="center">3 (17.6)</td>
+								<td align="center">10 (58.8)</td>
+								<td>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<attrib>Source: Sinan, 2019.</attrib>
+						<fn id="TFN2">
+							<p><sup>a</sup> Cases with unknown information were excluded.</p>
+						</fn>
+						<fn id="TFN3">
+							<p><sup>b</sup> Absolute and relative frequencies.</p>
+						</fn>
+						<fn id="TFN4">
+							<p><sup>c</sup> Only cases aged 18 and over.</p>
+						</fn>
+						<fn id="TFN5">
+							<p><sup>d</sup> Autochthonous in the state of São Paulo, SP were considered.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>Whites made up the largest share of measles cases, equivalent to 70.7% (9,246), followed by browns 24.8% (3,241), Blacks 3.3% (427), yellows (Asians) 1% (130), and indigenous people 0.3% (37) (<xref ref-type="table" rid="t2">Table 2</xref>).</p>
+			<p>Most cases (12,832; 99.9%) were autochthonous from São Paulo State. Among imported cases, most (20/33) came from other states in the country, with the remaining (13/33) being international travelers (<xref ref-type="table" rid="t2">Table 2</xref>).</p>
+			<p>A significant difference (p &lt; 0.001) was observed in the proportions of previous vaccination between female (43.2%) and male (37.9%) cases. Regarding age, the frequencies of previous vaccination were higher in the younger than in the older groups (p &lt; 0.001). Regarding education, the largest proportions of previous vaccination were observed in the two extreme categories, that is, in the group with less than four years of schooling and in the group with more than 13 years of schooling (p &lt; 0.001) (<xref ref-type="table" rid="t2">Table 2</xref>).</p>
+			<p>In relation to race/skin color, a higher share of vaccination was observed among whites (43.7%) as compared to Blacks (36.5%), browns (36.8%), yellows (40.7%) and indigenous people (37.8%) (p &lt; 0.001). Similarly, a higher frequency of previous vaccination was observed among imported (60.6%) as compared to autochthonous cases (41.3%) (p = 0.02), as well as among those that progressed to cure (41.3%) compared to those who progressed to death (17.6%) (p = 0.04) (<xref ref-type="table" rid="t2">Table 2</xref>).</p>
+			<p>In addition to fever and skin rash, cough and runny nose were the most frequent signs and were present in 79.1% (11,871) and 65.4% (9,779) of the cases, respectively. On the other hand, conjunctivitis was less frequent and was present in 34.9% (5,144) of confirmed measles cases in 2019. When stratified by vaccination status, cough and conjunctivitis were significantly more frequent among unvaccinated cases compared to cases that reported previous vaccination (p &lt; 0.001).</p>
+			<p>Regarding the incidence of hospitalization, there was a higher risk (IR = 2.19; 95%CI: 1.66–2.88) in children under one year of age than in the older age group (50 years and over) (<xref ref-type="table" rid="t3">Table 3</xref>). Additionally, a higher risk of hospitalization was observed in unvaccinated cases than in those who reported previous vaccination (IR = 1.59; 95%CI: 1.45–1.75) (<xref ref-type="table" rid="t3">Table 3</xref>).</p>
+			<p>
+				<table-wrap id="t3">
+					<label>Table 3</label>
+					<caption>
+						<title>Incidence of hospitalization according to epidemiological and socioeconomic characteristics of measles cases. State of São Paulo, Brazil, 2019.</title>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<colgroup>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+							<col/>
+						</colgroup>
+						<thead>
+							<tr>
+								<th align="left" rowspan="2">Variables</th>
+								<th rowspan="2">Total cases<sup>a</sup></th>
+								<th colspan="2">Hospitalization</th>
+								<th rowspan="2">IR</th>
+								<th rowspan="2">95%CI</th>
+							</tr>
+							<tr>
+								<th>n</th>
+								<th>incidence<sup>a</sup></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Gender</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Male</td>
+								<td align="center">8,123</td>
+								<td align="center">1,086</td>
+								<td align="center">13.4</td>
+								<td align="center">1</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Female</td>
+								<td align="center">7,471</td>
+								<td align="center">952</td>
+								<td align="center">12.7</td>
+								<td align="center">0.95</td>
+								<td align="center">(0.87–1.03)</td>
+							</tr>
+							<tr>
+								<td>Age group</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>50 or older</td>
+								<td align="center">430</td>
+								<td align="center">47</td>
+								<td align="center">10.9</td>
+								<td align="center">1</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>30–49</td>
+								<td align="center">2,678</td>
+								<td align="center">279</td>
+								<td align="center">10.4</td>
+								<td align="center">1.03</td>
+								<td align="center">(0.77–1.38)</td>
+							</tr>
+							<tr>
+								<td>18–29</td>
+								<td align="center">6,190</td>
+								<td align="center">601</td>
+								<td align="center">9.7</td>
+								<td align="center">0.90</td>
+								<td align="center">(0.68–1.19)</td>
+							</tr>
+							<tr>
+								<td>12–17</td>
+								<td align="center">677</td>
+								<td align="center">68</td>
+								<td align="center">10.0</td>
+								<td align="center">0.92</td>
+								<td align="center">(0.65–1.30)</td>
+							</tr>
+							<tr>
+								<td>5–11</td>
+								<td align="center">499</td>
+								<td align="center">50</td>
+								<td align="center">10.0</td>
+								<td align="center">0.93</td>
+								<td align="center">(0.64–1.36)</td>
+							</tr>
+							<tr>
+								<td>1–4</td>
+								<td align="center">2,283</td>
+								<td align="center">304</td>
+								<td align="center">13.3</td>
+								<td align="center">1.22</td>
+								<td align="center">(0.92–1.63)</td>
+							</tr>
+							<tr>
+								<td>&lt; 1</td>
+								<td align="center">2,841</td>
+								<td align="center">690</td>
+								<td align="center">24.3</td>
+								<td align="center">2.19</td>
+								<td align="center">(1.66–2.88)</td>
+							</tr>
+							<tr>
+								<td>Schooling<sup>b</sup></td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>&lt; 4 years</td>
+								<td align="center">198</td>
+								<td align="center">10</td>
+								<td align="center">5.1</td>
+								<td align="center">1</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>4–9 years</td>
+								<td align="center">852</td>
+								<td align="center">44</td>
+								<td align="center">5.2</td>
+								<td align="center">1.07</td>
+								<td align="center">(0.55–2.08)</td>
+							</tr>
+							<tr>
+								<td>10–12 years</td>
+								<td align="center">1,987</td>
+								<td align="center">118</td>
+								<td align="center">5.9</td>
+								<td align="center">1.20</td>
+								<td align="center">(0.64–2.24)</td>
+							</tr>
+							<tr>
+								<td>13 years or more</td>
+								<td align="center">504</td>
+								<td align="center">45</td>
+								<td align="center">8.9</td>
+								<td align="center">1.14</td>
+								<td align="center">(0.58–2.25)</td>
+							</tr>
+							<tr>
+								<td>Registered race/color</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>White</td>
+								<td align="center">9,246</td>
+								<td align="center">1,168</td>
+								<td align="center">12.6</td>
+								<td align="center">1</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Black</td>
+								<td align="center">427</td>
+								<td align="center">44</td>
+								<td align="center">10.3</td>
+								<td align="center">0.82</td>
+								<td align="center">(0.62–1.09)</td>
+							</tr>
+							<tr>
+								<td>Brown</td>
+								<td align="center">3,241</td>
+								<td align="center">389</td>
+								<td align="center">12.0</td>
+								<td align="center">0.96</td>
+								<td align="center">(0.87–1.07)</td>
+							</tr>
+							<tr>
+								<td>Yellow</td>
+								<td align="center">130</td>
+								<td align="center">17</td>
+								<td align="center">13.1</td>
+								<td align="center">1.01</td>
+								<td align="center">(0.64–1.56)</td>
+							</tr>
+							<tr>
+								<td>Indigenous</td>
+								<td align="center">37</td>
+								<td align="center">8</td>
+								<td align="center">21.6</td>
+								<td align="center">1.84</td>
+								<td align="center">(1.01–3.34)</td>
+							</tr>
+							<tr>
+								<td>Prior vaccination</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>Yes</td>
+								<td align="center">6,302</td>
+								<td align="center">642</td>
+								<td align="center">10.2</td>
+								<td align="center">1</td>
+								<td>
+								</td>
+							</tr>
+							<tr>
+								<td>No</td>
+								<td align="center">6,179</td>
+								<td align="center">1,004</td>
+								<td align="center">16.2</td>
+								<td align="center">1.59</td>
+								<td align="center">(1.45–1.75)</td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<attrib>Source: Sinan, 2019.</attrib>
+						<fn id="TFN6">
+							<p>IR: incidence rate; 95%CI: 95% confidence interval.</p>
+						</fn>
+						<fn id="TFN7">
+							<p><sup>a</sup> Cases with unknown information were excluded.</p>
+						</fn>
+						<fn id="TFN8">
+							<p><sup>b</sup> Only cases aged 18 or over.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+		</sec>
+		<sec sec-type="discussion">
+			<title>DISCUSSION</title>
+			<p>The findings of the present study provide important reflections on the largest measles epidemic in Brazil in the post-elimination period. Regarding the origin of the epidemic, secondary data did not allow a definitive conclusion. Although there is no detail on the origin of the first case reported in the state of São Paulo in 2019, it is assumed that it is not the index case, as it involves a six-month-old infant, classified as autochthonous. The first cases of an outbreak in areas that have eliminated endemic transmission of measles virus can be confused with other non-specific exanthematous viral infections. In addition, clinical manifestations in vaccinated individuals (although with incomplete schedules) tend to be milder, which can lead to underreporting<sup><xref ref-type="bibr" rid="B9">9</xref>,<xref ref-type="bibr" rid="B17">17</xref>,<xref ref-type="bibr" rid="B18">18</xref></sup>.</p>
+			<p>The findings of the present study corroborate this fact by indicating a higher risk of hospitalization among unvaccinated than among vaccinated cases, as well as the differences observed in the clinical presentation of the disease, with a lower frequency of cough and conjunctivitis in vaccinated cases as compared to those with no vaccination history.</p>
+			<p>The considerable number of cases in individuals with a history of previous vaccination is a worrying fact that may suggest the vaccine’s loss of effectiveness or even limitations in the recording of this information in the notification systems. Some studies have reported the development of the disease in people who were vaccinated with both doses in childhood. Some possible reasons include the reduction of antibody levels over time and loss of effectiveness due to cold chain issues<sup><xref ref-type="bibr" rid="B19">19</xref></sup>. There is also evidence that differences between the genotypes of the virus used in the vaccine and the genotypes of the circulating strains may also contribute to the development of the disease in vaccinated individuals<sup><xref ref-type="bibr" rid="B23">23</xref>,<xref ref-type="bibr" rid="B24">24</xref></sup>.</p>
+			<p>Regarding the quality of the record, although there is technical guidance on checking the vaccination book of cases, it is more likely that this information in the routine of care services is self-reported. Additionally, it is important to note that the notification form does not specify whether the case had a complete vaccination schedule with two doses. Thus, it is possible that part of the cases in individuals who reported prior vaccination in the São Paulo epidemic had incomplete vaccination schedules, with a consequent reduction in vaccine effectiveness. The greater involvement of young adults in the São Paulo epidemic reinforces this hypothesis, since this age group has been identified in other studies as the most likely to have an incomplete vaccination schedule<sup><xref ref-type="bibr" rid="B4">4</xref>,<xref ref-type="bibr" rid="B25">25</xref></sup>.</p>
+			<p>Children under five years of age were the second age group most affected by the disease and, together with young adults, made up the predominant age profile of the São Paulo epidemic. This finding corroborates the trend of increased measles morbidity in young adults, previously restricted to children<sup><xref ref-type="bibr" rid="B4">4</xref></sup>.</p>
+			<p>If, on the one hand, there may be some loss in vaccination effectiveness or even incomplete vaccination schedules, on the other hand, the analysis of the data also pointed to a significant number of cases without prior vaccination, which, in any case, indicates low performance of the routine immunization programs or inadequacy in recording this information. The formation of clusters of susceptible populations resulting from inadequate vaccine coverage can act as initiators of outbreaks in areas where the disease is being eliminated, as demonstrated in previous studies<sup><xref ref-type="bibr" rid="B9">9</xref>,<xref ref-type="bibr" rid="B18">18</xref></sup>.</p>
+			<p>In children, there is a tendency for vaccine coverage to decrease with increasing age, especially in relation to vaccines administered in multiple doses, such as the MMR. In the first year of life, the child receives a large number of vaccines from the routine schedule, followed by an interval of months or years, which generates a sense of tranquility that can contribute to forgetfulness by parents and caregivers<sup><xref ref-type="bibr" rid="B31">31</xref>,<xref ref-type="bibr" rid="B32">32</xref></sup>. It is important to remember that in Brazil, the second dose of MMR, which was previously recommended at 4–6 years, was brought forward to 15 months of age in 2013<sup><xref ref-type="bibr" rid="B33">33</xref></sup>. This fact may explain, at least in part, the higher frequency of cases in young adults and in older birth cohorts. It is worth remembering that the measles vaccine is recommended up to 49 years of age, as it is assumed that above that age the person has already had natural contact with the virus, thus having lasting immunity.</p>
+			<p>The findings also revealed a lower proportion of vaccination in less educated groups compared to those with higher education (13 or more years of schooling), as well as in Black and brown individuals compared to whites, which suggest unequal access to vaccination<sup><xref ref-type="bibr" rid="B34">34</xref></sup>. The fact that 70% of the cases were identified as whites may be related to the greater purchasing power and possibilities of traveling to places with virus circulation of this group, and, as a consequence, a greater likelihood of infection of close people on return.</p>
+			<p>As for the spatial diffusion analysis, the findings revealed two main patterns. The first, characterized by a process of diffusion by contiguity, in which from the pioneer pole (metropolitan regions of São Paulo and Baixada Santista) three main axes were established that connect nearby municipalities located in the intermediate regions of Campinas, São José dos Campos and Sorocaba. The second pattern is characterized by the relationship between the pioneer hub and more distant municipalities, belonging to the intermediate regions of Ribeirão Preto and São José do Rio Preto, through a process of hierarchical diffusion by relocation.</p>
+			<p>Both patterns of measles diffusion reflect the structural characteristics of the territory, following trajectories similar to those of the main highways in the state and the urban hierarchy of cities’ regions of influence in relation to the centrality in the distribution of goods, equipment, services and population mobility. In this regard, the role of the greater São Paulo (a national metropolis), the regional centers Campinas, São José dos Campos, Sorocaba, Ribeirão Preto, Santos, Limeira, and the sub-regional centers Itapetinga, Fernandópolis and Registro is highlighted. In addition to being a pioneer hub and main spreader of cases to other regions, it is worth noting that the Greater São Paulo region maintained high incidences during most of the epidemic in 2019.</p>
+			<p>These findings reinforce the importance of urban hierarchy in the process of spreading diseases with transmission similar to measles’, as demonstrated in recent studies carried out for covid-19 in the states of São Paulo<sup><xref ref-type="bibr" rid="B35">35</xref></sup>and Rio de Janeiro<sup><xref ref-type="bibr" rid="B36">36</xref></sup>. The incorporation of other information on the territory not used in this study, such as the flows of people on air and road routes, can contribute to a better characterization of the processes involved in the spread of measles and support surveillance actions at the intercity level.</p>
+			<p>The limitations of this study are mainly related to the quality of the information coming from the information system. In the case of previous vaccination records, the information is likely to be self-reported in most cases, despite the guidance to check the vaccination record book. As for the race/skin color variable, although it is a field in the notification form intended for self-identification, it is relatively common in the routine of care services for it to be filled in by the professional who attended to the case. In this sense, depending on the perceptions of those who collect this information, the measurement of access inequities based on this variable can be biased.</p>
+			<p>Ultimately, the results reinforce the importance of prioritizing immunization strategies for the most affected subgroups, formed by young adults, in addition to routine vaccination in children. Additionally, studies that seek to investigate the occurrence of clusters of vulnerable populations, prone to lower vaccination coverage, are essential to broaden the understanding of the dynamics of disease transmission and thus reorient more effective control strategies to ensure the maintenance of the elimination of the disease.</p>
+		</sec>
+	</body>
+	<back>
+		<ref-list>
+			<title>REFERENCES</title>
+			<ref id="B1">
+				<label>1</label>
+				<mixed-citation>1. Anekwe TD, Newell ML, Tanser F, Pillay D, Bärnighausen T. The causal effect of childhood measles vaccination on educational attainment: a mother fixed-effects study in rural South Africa. Vaccine. 2015;33(38):5020-6. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.vaccine.2015.04.072">https://doi.org/10.1016/j.vaccine.2015.04.072</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Anekwe</surname>
+							<given-names>TD</given-names>
+						</name>
+						<name>
+							<surname>Newell</surname>
+							<given-names>ML</given-names>
+						</name>
+						<name>
+							<surname>Tanser</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Pillay</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Bärnighausen</surname>
+							<given-names>T</given-names>
+						</name>
+					</person-group>
+					<article-title>The causal effect of childhood measles vaccination on educational attainment: a mother fixed-effects study in rural South Africa</article-title>
+					<source>Vaccine</source>
+					<year>2015</year>
+					<volume>33</volume>
+					<issue>38</issue>
+					<fpage>5020</fpage>
+					<lpage>5026</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.vaccine.2015.04.072">https://doi.org/10.1016/j.vaccine.2015.04.072</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B2">
+				<label>2</label>
+				<mixed-citation>2. Brownwright TK, Dodson ZM, Willem GP. Spatial clustering of measles vaccination coverage among children in sub-Saharan Africa. BMC Public Health. 2017;17:957. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12889-017-4961-9">https://doi.org/10.1186/s12889-017-4961-9</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Brownwright</surname>
+							<given-names>TK</given-names>
+						</name>
+						<name>
+							<surname>Dodson</surname>
+							<given-names>ZM</given-names>
+						</name>
+						<name>
+							<surname>Willem</surname>
+							<given-names>GP</given-names>
+						</name>
+					</person-group>
+					<article-title>Spatial clustering of measles vaccination coverage among children in sub-Saharan Africa</article-title>
+					<source>BMC Public Health</source>
+					<year>2017</year>
+					<volume>17</volume>
+					<size units="pages">957</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1186/s12889-017-4961-9">https://doi.org/10.1186/s12889-017-4961-9</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B3">
+				<label>3</label>
+				<mixed-citation>3. Lemos DRQ, Franco AR, Garcia MHO, Pastor D, Bravo-Alcântara P, Moraes JC, et al. Risk analysis for the reintroduction and transmission of measles in the post-elimination period in the Americas. Rev Panam Salud Publica. 2017;41:e157. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.26633/RPSP.2017.157">https://doi.org/10.26633/RPSP.2017.157</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Lemos</surname>
+							<given-names>DRQ</given-names>
+						</name>
+						<name>
+							<surname>Franco</surname>
+							<given-names>AR</given-names>
+						</name>
+						<name>
+							<surname>Garcia</surname>
+							<given-names>MHO</given-names>
+						</name>
+						<name>
+							<surname>Pastor</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Bravo-Alcântara</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Moraes</surname>
+							<given-names>JC</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Risk analysis for the reintroduction and transmission of measles in the post-elimination period in the Americas</article-title>
+					<source>Rev Panam Salud Publica</source>
+					<year>2017</year>
+					<volume>41</volume>
+					<elocation-id>e157</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.26633/RPSP.2017.157">https://doi.org/10.26633/RPSP.2017.157</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B4">
+				<label>4</label>
+				<mixed-citation>4. Hagan JE, Takashima Y, Sarankhuu A, Dashpagma O, Jantsansengee B, Pastore R, et al. Risk factors for measles virus infection among adults during a large outbreak in postelimination era in Mongolia, 2015. J Infect Dis. 2017;216(10):1187-95. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/infdis/jix449">https://doi.org/10.1093/infdis/jix449</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hagan</surname>
+							<given-names>JE</given-names>
+						</name>
+						<name>
+							<surname>Takashima</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Sarankhuu</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Dashpagma</surname>
+							<given-names>O</given-names>
+						</name>
+						<name>
+							<surname>Jantsansengee</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Pastore</surname>
+							<given-names>R</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Risk factors for measles virus infection among adults during a large outbreak in postelimination era in Mongolia, 2015</article-title>
+					<source>J Infect Dis</source>
+					<year>2017</year>
+					<volume>216</volume>
+					<issue>10</issue>
+					<fpage>1187</fpage>
+					<lpage>1195</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/infdis/jix449">https://doi.org/10.1093/infdis/jix449</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B5">
+				<label>5</label>
+				<mixed-citation>5. Organização Pan-Americana de Saúde. Casos de sarampo têm aumentado de 300% no mundo conforme dados preliminares de 2019. Brasília, DF: OPAS; 2019 [cited 2022 14]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www.paho.org/bra/index.php?option=com_content&amp;view=article&amp;id=5913:casos-de-sarampo-cresceram-300-no-mundo-conforme-dados-preliminares-de-2019&amp;Itemid=820">https://www.paho.org/bra/index.php?option=com_content&amp;view=article&amp;id=5913:casos-de-sarampo-cresceram-300-no-mundo-conforme-dados-preliminares-de-2019&amp;Itemid=820</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Organização Pan-Americana de Saúde</collab>
+					</person-group>
+					<source>Casos de sarampo têm aumentado de 300% no mundo conforme dados preliminares de 2019</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<publisher-name>OPAS</publisher-name>
+					<year>2019</year>
+					<date-in-citation content-type="cited-date">cited 2022 14</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www.paho.org/bra/index.php?option=com_content&amp;view=article&amp;id=5913:casos-de-sarampo-cresceram-300-no-mundo-conforme-dados-preliminares-de-2019&amp;Itemid=820">https://www.paho.org/bra/index.php?option=com_content&amp;view=article&amp;id=5913:casos-de-sarampo-cresceram-300-no-mundo-conforme-dados-preliminares-de-2019&amp;Itemid=820</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B6">
+				<label>6</label>
+				<mixed-citation>6. Organização Pan-Americana de Saúde.CE160.R2 - Plano de ação para assegurar a sustentabilidade da eliminação do sarampo, rubéola e síndrome da rubéola congênita nas Américas 2018-2023. Brasília, DF: OPAS; 2017 [cited 2022 Jan 14]. Available from: <ext-link ext-link-type="uri" xlink:href="https://iris.paho.org/bitstream/handle/10665.2/34446/CSP29-8-p.pdf?sequence=4&amp;isAllowed=y">https://iris.paho.org/bitstream/handle/10665.2/34446/CSP29-8-p.pdf?sequence=4&amp;isAllowed=y</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Organização Pan-Americana de Saúde</collab>
+					</person-group>
+					<source>CE160.R2 - Plano de ação para assegurar a sustentabilidade da eliminação do sarampo, rubéola e síndrome da rubéola congênita nas Américas 2018-2023</source>
+					<publisher-loc>Brasília, DF</publisher-loc>
+					<publisher-name>OPAS</publisher-name>
+					<year>2017</year>
+					<date-in-citation content-type="cited-date">cited 2022 Jan 14</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://iris.paho.org/bitstream/handle/10665.2/34446/CSP29-8-p.pdf?sequence=4&amp;isAllowed=y">https://iris.paho.org/bitstream/handle/10665.2/34446/CSP29-8-p.pdf?sequence=4&amp;isAllowed=y</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B7">
+				<label>7</label>
+				<mixed-citation>7. Naouri B, Ahmed H, Bekhit R, Teleb N, Mohsni E, Alexander JP Jr. Progress toward measles elimination in the Eastern Mediterranean Region. J Infect Dis. 2011;204 Suppl 1:S289-98. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/infdis/jir140">https://doi.org/10.1093/infdis/jir140</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Naouri</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Ahmed</surname>
+							<given-names>H</given-names>
+						</name>
+						<name>
+							<surname>Bekhit</surname>
+							<given-names>R</given-names>
+						</name>
+						<name>
+							<surname>Teleb</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Mohsni</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Alexander</surname>
+							<given-names>JP</given-names>
+							<suffix>Jr</suffix>
+						</name>
+					</person-group>
+					<article-title>Progress toward measles elimination in the Eastern Mediterranean Region</article-title>
+					<source>J Infect Dis</source>
+					<year>2011</year>
+					<volume>204</volume>
+					<supplement>Suppl 1</supplement>
+					<fpage>S289</fpage>
+					<lpage>S298</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/infdis/jir140">https://doi.org/10.1093/infdis/jir140</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B8">
+				<label>8</label>
+				<mixed-citation>8. Pan American Health Organization. Region of the Americas is declared free of measles. Washington, DC:PAHO [cited 2022 Jan 14]. Available from: <ext-link ext-link-type="uri" xlink:href="https://www3.paho.org/hq/index.php?option=com_content&amp;view=article&amp;id=12528:region-americas-declared-free-measles&amp;Itemid=1926&amp;lang=">https://www3.paho.org/hq/index.php?option=com_content&amp;view=article&amp;id=12528:region-americas-declared-free-measles&amp;Itemid=1926&amp;lang=</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Pan American Health Organization</collab>
+					</person-group>
+					<source>Region of the Americas is declared free of measles</source>
+					<publisher-loc>Washington, DC</publisher-loc>
+					<publisher-name>PAHO</publisher-name>
+					<date-in-citation content-type="cited-date">cited 2022 Jan 14</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://www3.paho.org/hq/index.php?option=com_content&amp;view=article&amp;id=12528:region-americas-declared-free-measles&amp;Itemid=1926&amp;lang=">https://www3.paho.org/hq/index.php?option=com_content&amp;view=article&amp;id=12528:region-americas-declared-free-measles&amp;Itemid=1926&amp;lang=</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B9">
+				<label>9</label>
+				<mixed-citation>9. Dimala CA, Kadia BM, Nji MAM, Bechem NN. Factors associated with measles resurgence in the United States in the post-elimination era. Sci Rep. 2021;11:51. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s41598-020-80214-3">https://doi.org/10.1038/s41598-020-80214-3</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Dimala</surname>
+							<given-names>CA</given-names>
+						</name>
+						<name>
+							<surname>Kadia</surname>
+							<given-names>BM</given-names>
+						</name>
+						<name>
+							<surname>Nji</surname>
+							<given-names>MAM</given-names>
+						</name>
+						<name>
+							<surname>Bechem</surname>
+							<given-names>NN</given-names>
+						</name>
+					</person-group>
+					<article-title>Factors associated with measles resurgence in the United States in the post-elimination era</article-title>
+					<source>Sci Rep</source>
+					<year>2021</year>
+					<volume>11</volume>
+					<size units="pages">51</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1038/s41598-020-80214-3">https://doi.org/10.1038/s41598-020-80214-3</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B10">
+				<label>10</label>
+				<mixed-citation>10. Goldani LZ. Measles outbreak in Brazil, 2018 [editorial]. Braz J Infect Dis. 2018;22(5):358. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.bjid.2018.11.001">https://doi.org/10.1016/j.bjid.2018.11.001</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Goldani</surname>
+							<given-names>LZ</given-names>
+						</name>
+					</person-group>
+					<article-title>Measles outbreak in Brazil, 2018</article-title>
+					<source>Braz J Infect Dis</source>
+					<year>2018</year>
+					<volume>22</volume>
+					<issue>5</issue>
+					<size units="pages">358</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.bjid.2018.11.001">https://doi.org/10.1016/j.bjid.2018.11.001</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B11">
+				<label>11</label>
+				<mixed-citation>11. Medeiros EAS. Entendendo o ressurgimento e o controle do sarampo no Brasil [editorial]. Acta Paul Enferm. 2020;33:e-EDT20200001. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.37689/acta-ape/2020edt0001">https://doi.org/10.37689/acta-ape/2020edt0001</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Medeiros</surname>
+							<given-names>EAS</given-names>
+						</name>
+					</person-group>
+					<article-title>Entendendo o ressurgimento e o controle do sarampo no Brasil</article-title>
+					<comment>editorial</comment>
+					<source>Acta Paul Enferm</source>
+					<year>2020</year>
+					<volume>33</volume>
+					<elocation-id>e-EDT20200001</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.37689/acta-ape/2020edt0001">https://doi.org/10.37689/acta-ape/2020edt0001</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B12">
+				<label>12</label>
+				<mixed-citation>12. Litvoc MN, Lopes MIBF. From the measles-free status to the current outbreak in Brasil. Rev Assoc Med Bras. 2019;65(10):1229-30. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1806-9282.65.10.1129">https://doi.org/10.1590/1806-9282.65.10.1129</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Litvoc</surname>
+							<given-names>MN</given-names>
+						</name>
+						<name>
+							<surname>Lopes</surname>
+							<given-names>MIBF</given-names>
+						</name>
+					</person-group>
+					<article-title>From the measles-free status to the current outbreak in Brasil</article-title>
+					<source>Rev Assoc Med Bras</source>
+					<year>2019</year>
+					<volume>65</volume>
+					<issue>10</issue>
+					<fpage>1229</fpage>
+					<lpage>1230</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/1806-9282.65.10.1129">https://doi.org/10.1590/1806-9282.65.10.1129</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B13">
+				<label>13</label>
+				<mixed-citation>13. Borba RCN, Vidal VM, Moreira LO. The re-emergency and persistence of vaccine preventable diseases. An Acad Bras Cienc. 2015;87(2 Suppl):1311-22. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0001-3765201520140663">https://doi.org/10.1590/0001-3765201520140663</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Borba</surname>
+							<given-names>RCN</given-names>
+						</name>
+						<name>
+							<surname>Vidal</surname>
+							<given-names>VM</given-names>
+						</name>
+						<name>
+							<surname>Moreira</surname>
+							<given-names>LO</given-names>
+						</name>
+					</person-group>
+					<article-title>The re-emergency and persistence of vaccine preventable diseases</article-title>
+					<source>An Acad Bras Cienc</source>
+					<year>2015</year>
+					<volume>87</volume>
+					<issue>2</issue>
+					<supplement>Suppl</supplement>
+					<fpage>1311</fpage>
+					<lpage>1322</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/0001-3765201520140663">https://doi.org/10.1590/0001-3765201520140663</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B14">
+				<label>14</label>
+				<mixed-citation>14. Wang X, Boulton ML, Montgomery JP, Carlson B, Zhang Y, Gillespie B, et al. The epidemiology of measles in Tianjin, China, 2005-2014. Vaccine. 2015;33(46):6186-91. https://doi.org/</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Wang</surname>
+							<given-names>X</given-names>
+						</name>
+						<name>
+							<surname>Boulton</surname>
+							<given-names>ML</given-names>
+						</name>
+						<name>
+							<surname>Montgomery</surname>
+							<given-names>JP</given-names>
+						</name>
+						<name>
+							<surname>Carlson</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Zhang</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Gillespie</surname>
+							<given-names>B</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>The epidemiology of measles in Tianjin, China, 2005-2014</article-title>
+					<source>Vaccine</source>
+					<year>2015</year>
+					<volume>33</volume>
+					<issue>46</issue>
+					<fpage>6186</fpage>
+					<lpage>6191</lpage>
+					<comment>https://doi.org/</comment>
+				</element-citation>
+			</ref>
+			<ref id="B15">
+				<label>15</label>
+				<mixed-citation>15. Instituto Brasileiro de Geografia e Estatística. Cidades: São Paulo. Rio de Janeiro: IBGE; c2017 [cited 2021 Apr 19]. Available from: <ext-link ext-link-type="uri" xlink:href="https://cidades.ibge.gov.br/brasil/sp/panorama">https://cidades.ibge.gov.br/brasil/sp/panorama</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Instituto Brasileiro de Geografia e Estatística</collab>
+					</person-group>
+					<source>Cidades: São Paulo</source>
+					<publisher-loc>Rio de Janeiro</publisher-loc>
+					<publisher-name>IBGE</publisher-name>
+					<year>c2017</year>
+					<date-in-citation content-type="cited-date">cited 2021 Apr 19</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://cidades.ibge.gov.br/brasil/sp/panorama">https://cidades.ibge.gov.br/brasil/sp/panorama</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B16">
+				<label>16</label>
+				<mixed-citation>16. Stevenson M, Sergeant E. epiR: tools for the analysis of epidemiological data. R package version 2.0.19. Wien (AT): Institute for Statistics and Mathematics of WU; 2021 [cited 2021 Mar 15]. Available from: <ext-link ext-link-type="uri" xlink:href="https://CRAN.R-project.org/package=epiR">https://CRAN.R-project.org/package=epiR</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Stevenson</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Sergeant</surname>
+							<given-names>E</given-names>
+						</name>
+					</person-group>
+					<source>epiR: tools for the analysis of epidemiological data. R package version 2.0.19</source>
+					<publisher-loc>Wien (AT)</publisher-loc>
+					<publisher-name>Institute for Statistics and Mathematics of WU</publisher-name>
+					<year>2021</year>
+					<date-in-citation content-type="cited-date">cited 2021 Mar 15</date-in-citation>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://CRAN.R-project.org/package=epiR">https://CRAN.R-project.org/package=epiR</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B17">
+				<label>17</label>
+				<mixed-citation>17. Edmonson MB, Addiss DG, McPherson JT, Berg JL, Circo SR, Davis JP. Mild measles and secondary vaccine failure during a sustained outbreak in a highly vaccinated population. JAMA. 1990;263(18):2467-71. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1001/jama.1990.03440180073035">https://doi.org/10.1001/jama.1990.03440180073035</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Edmonson</surname>
+							<given-names>MB</given-names>
+						</name>
+						<name>
+							<surname>Addiss</surname>
+							<given-names>DG</given-names>
+						</name>
+						<name>
+							<surname>McPherson</surname>
+							<given-names>JT</given-names>
+						</name>
+						<name>
+							<surname>Berg</surname>
+							<given-names>JL</given-names>
+						</name>
+						<name>
+							<surname>Circo</surname>
+							<given-names>SR</given-names>
+						</name>
+						<name>
+							<surname>Davis</surname>
+							<given-names>JP</given-names>
+						</name>
+					</person-group>
+					<article-title>Mild measles and secondary vaccine failure during a sustained outbreak in a highly vaccinated population</article-title>
+					<source>JAMA</source>
+					<year>1990</year>
+					<volume>263</volume>
+					<issue>18</issue>
+					<fpage>2467</fpage>
+					<lpage>2471</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1001/jama.1990.03440180073035">https://doi.org/10.1001/jama.1990.03440180073035</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B18">
+				<label>18</label>
+				<mixed-citation>18. Risco-Risco C, Masa-Calles J, López-Perea N, Echevarría JE, Rodríguez-Caravaca G. Epidemiology of measles in vaccinated people, Spain 2003-2014. Enferm Infecc Microbiol Clin. 2017;35(9):569-73. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.eimc.2016.05.001">https://doi.org/10.1016/j.eimc.2016.05.001</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Risco-Risco</surname>
+							<given-names>C</given-names>
+						</name>
+						<name>
+							<surname>Masa-Calles</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>López-Perea</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Echevarría</surname>
+							<given-names>JE</given-names>
+						</name>
+						<name>
+							<surname>Rodríguez-Caravaca</surname>
+							<given-names>G</given-names>
+						</name>
+					</person-group>
+					<article-title>Epidemiology of measles in vaccinated people, Spain 2003-2014</article-title>
+					<source>Enferm Infecc Microbiol Clin</source>
+					<year>2017</year>
+					<volume>35</volume>
+					<issue>9</issue>
+					<fpage>569</fpage>
+					<lpage>573</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.eimc.2016.05.001">https://doi.org/10.1016/j.eimc.2016.05.001</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B19">
+				<label>19</label>
+				<mixed-citation>19. Damien B, Huiss S, Schneider F, Muller CP. Estimated susceptibility to asymptomatic secondary immune response against measles in late convalescent and vaccinated persons. J Med Virol. 1998;56(1):85-90. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/(SICI)1096-9071(199809)56:1&lt;85::AID-JMV14&gt;3.0.CO;2-V">https://doi.org/10.1002/(SICI)1096-9071(199809)56:1&lt;85::AID-JMV14&gt;3.0.CO;2-V</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Damien</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Huiss</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Schneider</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Muller</surname>
+							<given-names>CP</given-names>
+						</name>
+					</person-group>
+					<article-title>Estimated susceptibility to asymptomatic secondary immune response against measles in late convalescent and vaccinated persons</article-title>
+					<source>J Med Virol</source>
+					<year>1998</year>
+					<volume>56</volume>
+					<issue>1</issue>
+					<fpage>85</fpage>
+					<lpage>90</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/(SICI)1096-9071(199809)56:1&lt;85::AID-JMV14&gt;3.0.CO;2-V">https://doi.org/10.1002/(SICI)1096-9071(199809)56:1&lt;85::AID-JMV14&gt;3.0.CO;2-V</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B20">
+				<label>20</label>
+				<mixed-citation>20. Centers for Disease Control and Prevention. Measles vaccine efficacy -- United States. MMWR Morb Mortal Wkly Rep. 1980;29(39):470-2. Disponível em: <ext-link ext-link-type="uri" xlink:href="http://www.jstor.org/stable/23301238">http://www.jstor.org/stable/23301238</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<collab>Centers for Disease Control and Prevention</collab>
+					</person-group>
+					<article-title>Measles vaccine efficacy -- United States</article-title>
+					<source>MMWR Morb Mortal Wkly Rep</source>
+					<year>1980</year>
+					<volume>29</volume>
+					<issue>39</issue>
+					<fpage>470</fpage>
+					<lpage>472</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="http://www.jstor.org/stable/23301238">http://www.jstor.org/stable/23301238</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B21">
+				<label>21</label>
+				<mixed-citation>21. Coughlin MM, Beck AS, Bankamp B, Rota PA. Perspective on global measles epidemiology and control and the role of novel vaccination strategies. Viruses. 2017;9(1):11. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3390/v9010011">https://doi.org/10.3390/v9010011</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Coughlin</surname>
+							<given-names>MM</given-names>
+						</name>
+						<name>
+							<surname>Beck</surname>
+							<given-names>AS</given-names>
+						</name>
+						<name>
+							<surname>Bankamp</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Rota</surname>
+							<given-names>PA</given-names>
+						</name>
+					</person-group>
+					<article-title>Perspective on global measles epidemiology and control and the role of novel vaccination strategies</article-title>
+					<source>Viruses</source>
+					<year>2017</year>
+					<volume>9</volume>
+					<issue>1</issue>
+					<size units="pages">11</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3390/v9010011">https://doi.org/10.3390/v9010011</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B22">
+				<label>22</label>
+				<mixed-citation>22. Muscat M. Who gets measles in Europe? J Infect Dis. 2011;204 Suppl 1: S353-65. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/infdis/jir067">https://doi.org/10.1093/infdis/jir067</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Muscat</surname>
+							<given-names>M</given-names>
+						</name>
+					</person-group>
+					<article-title>Who gets measles in Europe?</article-title>
+					<source>J Infect Dis</source>
+					<year>2011</year>
+					<volume>204</volume>
+					<supplement>Suppl 1</supplement>
+					<fpage>S353</fpage>
+					<lpage>S365</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/infdis/jir067">https://doi.org/10.1093/infdis/jir067</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B23">
+				<label>23</label>
+				<mixed-citation>23. Plotkin SA. Measles: breakouts and breakthroughs. J Pediatric Infect Dis Soc. 2019;8(4):289-90. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/jpids/piz043">https://doi.org/10.1093/jpids/piz043</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Plotkin</surname>
+							<given-names>SA</given-names>
+						</name>
+					</person-group>
+					<article-title>Measles: breakouts and breakthroughs</article-title>
+					<source>J Pediatric Infect Dis Soc</source>
+					<year>2019</year>
+					<volume>8</volume>
+					<issue>4</issue>
+					<fpage>289</fpage>
+					<lpage>290</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/jpids/piz043">https://doi.org/10.1093/jpids/piz043</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B24">
+				<label>24</label>
+				<mixed-citation>24. Nasab GSF, Salimi V, Abbasi S, Fard FAN, Azad MT. Comparison of neutralizing antibody titers against outbreak-associated measles genotypes (D4, H1 and B3) in Iran. Pathog Dis. 2016;74(8):ftw089. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/femspd/ftw089">https://doi.org/10.1093/femspd/ftw089</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Nasab</surname>
+							<given-names>GSF</given-names>
+						</name>
+						<name>
+							<surname>Salimi</surname>
+							<given-names>V</given-names>
+						</name>
+						<name>
+							<surname>Abbasi</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Fard</surname>
+							<given-names>FAN</given-names>
+						</name>
+						<name>
+							<surname>Azad</surname>
+							<given-names>MT</given-names>
+						</name>
+					</person-group>
+					<article-title>Comparison of neutralizing antibody titers against outbreak-associated measles genotypes (D4, H1 and B3) in Iran</article-title>
+					<source>Pathog Dis</source>
+					<year>2016</year>
+					<volume>74</volume>
+					<issue>8</issue>
+					<size units="pages">ftw089</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/femspd/ftw089">https://doi.org/10.1093/femspd/ftw089</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B25">
+				<label>25</label>
+				<mixed-citation>25. Cheng WY, Tung HP, Wang HC, Lee LL, Wu HS, Liu MT. Molecular epidemiology of measles virus in Taiwan in 2010–2011: the common genotype changed from H1 to D9 and the first appearance of D4. J Med Virol. 2013;85(6):1095-9. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/jmv.23563">https://doi.org/10.1002/jmv.23563</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Cheng</surname>
+							<given-names>WY</given-names>
+						</name>
+						<name>
+							<surname>Tung</surname>
+							<given-names>HP</given-names>
+						</name>
+						<name>
+							<surname>Wang</surname>
+							<given-names>HC</given-names>
+						</name>
+						<name>
+							<surname>Lee</surname>
+							<given-names>LL</given-names>
+						</name>
+						<name>
+							<surname>Wu</surname>
+							<given-names>HS</given-names>
+						</name>
+						<name>
+							<surname>Liu</surname>
+							<given-names>MT</given-names>
+						</name>
+					</person-group>
+					<article-title>Molecular epidemiology of measles virus in Taiwan in 2010–2011: the common genotype changed from H1 to D9 and the first appearance of D4</article-title>
+					<source>J Med Virol</source>
+					<year>2013</year>
+					<volume>85</volume>
+					<issue>6</issue>
+					<fpage>1095</fpage>
+					<lpage>1099</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1002/jmv.23563">https://doi.org/10.1002/jmv.23563</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B26">
+				<label>26</label>
+				<mixed-citation>26. Woundenberg T, Binnendijk RS, Sanders EAM, Wallinga J, Melker HE, Ruijs WLM, et al. Large measles epidemic in the Netherlands, May 2013 to March 2014: changing epidemiology. Euro Surveill. 2017;22(3):30443. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2807/1560-7917.ES.2017.22.3.30443">https://doi.org/10.2807/1560-7917.ES.2017.22.3.30443</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Woundenberg</surname>
+							<given-names>T</given-names>
+						</name>
+						<name>
+							<surname>Binnendijk</surname>
+							<given-names>RS</given-names>
+						</name>
+						<name>
+							<surname>Sanders</surname>
+							<given-names>EAM</given-names>
+						</name>
+						<name>
+							<surname>Wallinga</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Melker</surname>
+							<given-names>HE</given-names>
+						</name>
+						<name>
+							<surname>Ruijs</surname>
+							<given-names>WLM</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Large measles epidemic in the Netherlands, May 2013 to March 2014: changing epidemiology</article-title>
+					<source>Euro Surveill</source>
+					<year>2017</year>
+					<volume>22</volume>
+					<issue>3</issue>
+					<size units="pages">30443</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2807/1560-7917.ES.2017.22.3.30443">https://doi.org/10.2807/1560-7917.ES.2017.22.3.30443</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B27">
+				<label>27</label>
+				<mixed-citation>27. Torner N, Anton A, Barrabeig I, Lafuente S, Parron I, Arias C, et al; Measles Elimination Program Surveillance Network of Catalonia, Spain. Epidemiology of two large measles virus outbreaks in Catalonia: what a difference the month of administration of the first dose of vaccine makes. Hum Vaccin Immunother. 2013;9(3):675-80. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4161/hv.23265">https://doi.org/10.4161/hv.23265</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Torner</surname>
+							<given-names>N</given-names>
+						</name>
+						<name>
+							<surname>Anton</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Barrabeig</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Lafuente</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Parron</surname>
+							<given-names>I</given-names>
+						</name>
+						<name>
+							<surname>Arias</surname>
+							<given-names>C</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Epidemiology of two large measles virus outbreaks in Catalonia: what a difference the month of administration of the first dose of vaccine makes</article-title>
+					<source>Hum Vaccin Immunother</source>
+					<year>2013</year>
+					<volume>9</volume>
+					<issue>3</issue>
+					<fpage>675</fpage>
+					<lpage>680</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4161/hv.23265">https://doi.org/10.4161/hv.23265</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B28">
+				<label>28</label>
+				<mixed-citation>28. Toure A, Saadatian-Elahi M, Floret D, Lina B, Casalegno JS, Vanhems P. Knowledge and risk perception of measles and factors associated with vaccination decisions in subjects consulting university affiliated public hospitals in Lyon, France, after measles infection. Hum Vaccin Immunother. 2014;10(6):1755-61. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4161/hv.28486">https://doi.org/10.4161/hv.28486</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Toure</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Saadatian-Elahi</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Floret</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Lina</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Casalegno</surname>
+							<given-names>JS</given-names>
+						</name>
+						<name>
+							<surname>Vanhems</surname>
+							<given-names>P</given-names>
+						</name>
+					</person-group>
+					<article-title>Knowledge and risk perception of measles and factors associated with vaccination decisions in subjects consulting university affiliated public hospitals in Lyon, France, after measles infection</article-title>
+					<source>Hum Vaccin Immunother</source>
+					<year>2014</year>
+					<volume>10</volume>
+					<issue>6</issue>
+					<fpage>1755</fpage>
+					<lpage>1761</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.4161/hv.28486">https://doi.org/10.4161/hv.28486</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B29">
+				<label>29</label>
+				<mixed-citation>29. De Serres G, Markowski F, Toth E, Landry M, Auger D, Mercier M, et al. Largest measles epidemic in North America in a decade--Quebec, Canada, 2011: contribution of susceptibility, serendipity, and superspreading events. J Infect Dis. 2013;207(6):990-8. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/infdis/jis923">https://doi.org/10.1093/infdis/jis923</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>De Serres</surname>
+							<given-names>G</given-names>
+						</name>
+						<name>
+							<surname>Markowski</surname>
+							<given-names>F</given-names>
+						</name>
+						<name>
+							<surname>Toth</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Landry</surname>
+							<given-names>M</given-names>
+						</name>
+						<name>
+							<surname>Auger</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Mercier</surname>
+							<given-names>M</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Largest measles epidemic in North America in a decade--Quebec, Canada, 2011: contribution of susceptibility, serendipity, and superspreading events</article-title>
+					<source>J Infect Dis</source>
+					<year>2013</year>
+					<volume>207</volume>
+					<issue>6</issue>
+					<fpage>990</fpage>
+					<lpage>998</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1093/infdis/jis923">https://doi.org/10.1093/infdis/jis923</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B30">
+				<label>30</label>
+				<mixed-citation>30. Delaporte E, Wyler Lazarevic CA, Iten A, Sudre P. Large measles outbreak in Geneva, Switzerland, January to August 2011: descriptive epidemiology and demonstration of quarantine effectiveness. Euro Surveill. 2013;18(6):20395. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2807/ese.18.06.20395-en">https://doi.org/10.2807/ese.18.06.20395-en</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Delaporte</surname>
+							<given-names>E</given-names>
+						</name>
+						<name>
+							<surname>Wyler Lazarevic</surname>
+							<given-names>CA</given-names>
+						</name>
+						<name>
+							<surname>Iten</surname>
+							<given-names>A</given-names>
+						</name>
+						<name>
+							<surname>Sudre</surname>
+							<given-names>P</given-names>
+						</name>
+					</person-group>
+					<article-title>Large measles outbreak in Geneva, Switzerland, January to August 2011: descriptive epidemiology and demonstration of quarantine effectiveness</article-title>
+					<source>Euro Surveill</source>
+					<year>2013</year>
+					<volume>18</volume>
+					<issue>6</issue>
+					<size units="pages">20395</size>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2807/ese.18.06.20395-en">https://doi.org/10.2807/ese.18.06.20395-en</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B31">
+				<label>31</label>
+				<mixed-citation>31. Oliveira MFS, Martinez EZ, Rocha JSY. Factors associated with vaccination coverage in children &lt; 5 years in Angola. Rev Saude Publica. 2014;48(6):906-15. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/s0034-8910.2014048005284">https://doi.org/10.1590/s0034-8910.2014048005284</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Oliveira</surname>
+							<given-names>MFS</given-names>
+						</name>
+						<name>
+							<surname>Martinez</surname>
+							<given-names>EZ</given-names>
+						</name>
+						<name>
+							<surname>Rocha</surname>
+							<given-names>JSY</given-names>
+						</name>
+					</person-group>
+					<article-title>Factors associated with vaccination coverage in children &lt; 5 years in Angola</article-title>
+					<source>Rev Saude Publica</source>
+					<year>2014</year>
+					<volume>48</volume>
+					<issue>6</issue>
+					<fpage>906</fpage>
+					<lpage>915</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1590/s0034-8910.2014048005284">https://doi.org/10.1590/s0034-8910.2014048005284</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B32">
+				<label>32</label>
+				<mixed-citation>32. Belmar-George S, Cassius-Frederick J, Leon P, Alexander S, Holder Y, Lewis-Bell KN, et al. MMR2 vaccination coverage and timeliness among children born in 2004 – 2009: a national survey in Saint Lucia, 2015. Rev Panam Salud Publica. 2018;42:e76. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.26633/RPSP.2018.76">https://doi.org/10.26633/RPSP.2018.76</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Belmar-George</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Cassius-Frederick</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Leon</surname>
+							<given-names>P</given-names>
+						</name>
+						<name>
+							<surname>Alexander</surname>
+							<given-names>S</given-names>
+						</name>
+						<name>
+							<surname>Holder</surname>
+							<given-names>Y</given-names>
+						</name>
+						<name>
+							<surname>Lewis-Bell</surname>
+							<given-names>KN</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>MMR2 vaccination coverage and timeliness among children born in 2004 – 2009: a national survey in Saint Lucia, 2015</article-title>
+					<source>Rev Panam Salud Publica</source>
+					<year>2018</year>
+					<volume>42</volume>
+					<elocation-id>e76</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.26633/RPSP.2018.76">https://doi.org/10.26633/RPSP.2018.76</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B33">
+				<label>33</label>
+				<mixed-citation>33. Sociedade Brasileira de Imunizações, Comissão Técnica para Revisão dos Calendários Vacinais e Consensos. Calendário de Vacinação da Criança. São Paulo: SBIM; 2013 [cited 2022 Jan 14]. (Informe técnico; nº 1). Available from: <ext-link ext-link-type="uri" xlink:href="https://sbim.org.br/images/files/informe-tecnico-001-2013_esquema-mmr-e-mmrv_130225.pdf">https://sbim.org.br/images/files/informe-tecnico-001-2013_esquema-mmr-e-mmrv_130225.pdf</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="webpage">
+					<person-group person-group-type="author">
+						<collab>Sociedade Brasileira de Imunizações</collab>
+						<collab>Comissão Técnica para Revisão dos Calendários Vacinais e Consensos</collab>
+					</person-group>
+					<source>Calendário de Vacinação da Criança</source>
+					<publisher-loc>São Paulo</publisher-loc>
+					<publisher-name>SBIM</publisher-name>
+					<year>2013</year>
+					<date-in-citation content-type="cited-date">cited 2022 Jan 14</date-in-citation>
+					<comment>Informe técnico; nº 1</comment>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://sbim.org.br/images/files/informe-tecnico-001-2013_esquema-mmr-e-mmrv_130225.pdf">https://sbim.org.br/images/files/informe-tecnico-001-2013_esquema-mmr-e-mmrv_130225.pdf</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B34">
+				<label>34</label>
+				<mixed-citation>34. Hunter PR, Colón-Gonzáles FJ, Brainard J, Majuru B, Pedrazzoli D, Abubakar I, et al. Can economic indicators predict infectious disease spread? A cross-country panel analysis of 13 European countries. Scand J Public Health. 2020;48(4):351-61. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/1403494819852830">https://doi.org/10.1177/1403494819852830</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Hunter</surname>
+							<given-names>PR</given-names>
+						</name>
+						<name>
+							<surname>Colón-Gonzáles</surname>
+							<given-names>FJ</given-names>
+						</name>
+						<name>
+							<surname>Brainard</surname>
+							<given-names>J</given-names>
+						</name>
+						<name>
+							<surname>Majuru</surname>
+							<given-names>B</given-names>
+						</name>
+						<name>
+							<surname>Pedrazzoli</surname>
+							<given-names>D</given-names>
+						</name>
+						<name>
+							<surname>Abubakar</surname>
+							<given-names>I</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>Can economic indicators predict infectious disease spread? A cross-country panel analysis of 13 European countries</article-title>
+					<source>Scand J Public Health</source>
+					<year>2020</year>
+					<volume>48</volume>
+					<issue>4</issue>
+					<fpage>351</fpage>
+					<lpage>361</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1177/1403494819852830">https://doi.org/10.1177/1403494819852830</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B35">
+				<label>35</label>
+				<mixed-citation>35. Fortaleza CMCB, Guimarães RB, Catão RC, Ferreira CP, Almeida GB, Vilches TN, et al. The use of health geography modeling to understand early dispersion of COVID-19 in São Paulo, Brazil. PLoS One. 2021;16(1):e0245051. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0245051">https://doi.org/10.1371/journal.pone.0245051</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Fortaleza</surname>
+							<given-names>CMCB</given-names>
+						</name>
+						<name>
+							<surname>Guimarães</surname>
+							<given-names>RB</given-names>
+						</name>
+						<name>
+							<surname>Catão</surname>
+							<given-names>RC</given-names>
+						</name>
+						<name>
+							<surname>Ferreira</surname>
+							<given-names>CP</given-names>
+						</name>
+						<name>
+							<surname>Almeida</surname>
+							<given-names>GB</given-names>
+						</name>
+						<name>
+							<surname>Vilches</surname>
+							<given-names>TN</given-names>
+						</name>
+						<etal>et al</etal>
+					</person-group>
+					<article-title>The use of health geography modeling to understand early dispersion of COVID-19 in São Paulo, Brazil</article-title>
+					<source>PLoS One</source>
+					<year>2021</year>
+					<volume>16</volume>
+					<issue>1</issue>
+					<elocation-id>e0245051</elocation-id>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1371/journal.pone.0245051">https://doi.org/10.1371/journal.pone.0245051</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+			<ref id="B36">
+				<label>36</label>
+				<mixed-citation>36. Santos JPC, Praça HLF, Pereira LV, Albuquerque HG, Siqueira ASP. A difusão espacial da Covid-19 no Estado do Rio de Janeiro. Hygeia. 2020 Ed. Espec:263-73. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.14393/Hygeia0054624">https://doi.org/10.14393/Hygeia0054624</ext-link>
+				</mixed-citation>
+				<element-citation publication-type="journal">
+					<person-group person-group-type="author">
+						<name>
+							<surname>Santos</surname>
+							<given-names>JPC</given-names>
+						</name>
+						<name>
+							<surname>Praça</surname>
+							<given-names>HLF</given-names>
+						</name>
+						<name>
+							<surname>Pereira</surname>
+							<given-names>LV</given-names>
+						</name>
+						<name>
+							<surname>Albuquerque</surname>
+							<given-names>HG</given-names>
+						</name>
+						<name>
+							<surname>Siqueira</surname>
+							<given-names>ASP</given-names>
+						</name>
+					</person-group>
+					<article-title>A difusão espacial da Covid-19 no Estado do Rio de Janeiro</article-title>
+					<source>Hygeia</source>
+					<year>2020</year>
+					<edition>Espec</edition>
+					<fpage>263</fpage>
+					<lpage>273</lpage>
+					<comment>
+						<ext-link ext-link-type="uri" xlink:href="https://doi.org/10.14393/Hygeia0054624">https://doi.org/10.14393/Hygeia0054624</ext-link>
+					</comment>
+				</element-citation>
+			</ref>
+		</ref-list>
+	</back>
+	<sub-article article-type="translation" id="TRpt" xml:lang="pt">
+		<front-stub>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Artigo Original</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Ressurgimento do sarampo no Brasil: análise da epidemia de 2019 no estado de São Paulo</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-2957-5604</contrib-id>
+					<name>
+						<surname>Makarenko</surname>
+						<given-names>Cristina</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-0326-6053</contrib-id>
+					<name>
+						<surname>Pedro</surname>
+						<given-names>Alexandre San</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2002"><sup>II</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-0541-4686</contrib-id>
+					<name>
+						<surname>Paiva</surname>
+						<given-names>Natalia Santana</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0001-9780-9911</contrib-id>
+					<name>
+						<surname>Santos</surname>
+						<given-names>Jefferson Pereira Caldas dos</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff3002"><sup>III</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0003-4073-3930</contrib-id>
+					<name>
+						<surname>Medronho</surname>
+						<given-names>Roberto de Andrade</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<contrib-id contrib-id-type="orcid">0000-0002-9499-731X</contrib-id>
+					<name>
+						<surname>Gibson</surname>
+						<given-names>Gerusa</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1002"><sup>I</sup></xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1002">
+				<label>I</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original">Universidade Federal do Rio de Janeiro. Instituto de Estudos em Saúde Coletiva. Rio de Janeiro, RJ, Brasil</institution>
+			</aff>
+			<aff id="aff2002">
+				<label>II</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Fundação Oswaldo Cruz. Escola Nacional de Saúde Pública Sergio Arouca. Centro de Estudos, Políticas e Informação sobre Determinantes Sociais da Saúde. Rio de Janeiro, RJ, Brasil</institution>
+			</aff>
+			<aff id="aff3002">
+				<label>III</label>
+				<country country="BR">Brasil</country>
+				<institution content-type="original"> Fundação Oswaldo Cruz. Centro de Inovação em Biodiversidade e Saúde. Rio de Janeiro, RJ, Brasil</institution>
+			</aff>
+			<author-notes>
+				<corresp id="c01002"> Correspondência: Gerusa Gibson Avenida Horácio Macedo, s/n Ilha do Fundão - Cidade Universitária 21941-598 Rio de Janeiro, RJ, Brasil E-mail: gibson.gerusa@iesc.ufrj.br </corresp>
+				<fn fn-type="con">
+					<p><bold>Contribuição dos Autores:</bold> Concepção e planejamento do estudo: CM, ASP, GG. Coleta, análise e interpretação dos dados: CM, ASP, NSP, JPCS, RAM, GG. Elaboração ou revisão do manuscrito: CM, GG, ASP. Aprovação da versão final: CM, ASP, NSP, JPCS, RAM, GG. Responsabilidade pública pelo conteúdo do artigo: GG.</p>
+				</fn>
+				<fn fn-type="conflict">
+					<p><bold>Conflito de Interesses:</bold> Os autores declaram não haver conflito de interesses.</p>
+				</fn>
+			</author-notes>
+			<abstract>
+				<title>RESUMO</title>
+				<sec>
+					<title>OBJETIVO</title>
+					<p> Analisar o perfil epidemiológico dos casos e o padrão de difusão espacial da maior epidemia de sarampo do Brasil ocorrida no período pós-eliminação, no estado de São Paulo.</p>
+				</sec>
+				<sec>
+					<title>MÉTODO</title>
+					<p> Estudo transversal, baseado em casos confirmados de sarampo em 2019. Foi conduzida análise bivariada das variáveis socioeconômicas, clínicas e epidemiológicas, segundo vacinação prévia e ocorrência de hospitalização, combinada a uma análise de difusão espacial dos casos por meio da metodologia de interpolação pela ponderação do inverso da distância.</p>
+				</sec>
+				<sec>
+					<title>RESULTADOS</title>
+					<p> Dos 15.598 casos confirmados, 2.039 foram hospitalizados e 17 evoluíram para o óbito. O pico epidêmico ocorreu na semana epidemiológica 33, após a confirmação do primeiro caso, na semana epidemiológica 6. A maioria dos casos era homem (52,1%), com idade entre 18 e 29 anos (38,7%), identificados como brancos (70%). Adultos jovens (39,7%) e menores de cinco anos (32,8%) foram as faixas etárias mais acometidas. Observou-se maior proporção de vacinação prévia em brancos, quando comparados a pretos, pardos, amarelos e indígenas (p &lt; 0,001), assim como no grupo mais escolarizado, quando comparado às demais categorias (p &lt; 0,001). O risco de hospitalização foi maior em crianças, quando comparado à faixa etária mais idosa (RI = 2,19; IC95% 1,66–2,88), assim como entre não vacinados, quando comparado a vacinados (RI = 1,59; IC95% 1,45–1,75). O padrão de difusão por contiguidade combinado à difusão por realocação seguiu a hierarquia urbana das regiões de influência das principais cidades.</p>
+				</sec>
+				<sec>
+					<title>CONCLUSÃO</title>
+					<p> Além da vacinação de rotina em crianças, os achados indicam a necessidade de campanhas de imunização de adultos jovens. Adicionalmente, estudos que busquem investigar a ocorrência de <italic>clusters</italic> de populações vulneráveis, propensas a menor cobertura de vacinação, são essenciais para ampliar a compreensão sobre a dinâmica de transmissão da doença e, assim, reorientar estratégias de controle que garantam a eliminação da doença.</p>
+				</sec>
+			</abstract>
+			<kwd-group xml:lang="pt">
+				<kwd>Sarampo, epidemiologia</kwd>
+				<kwd>Transmissão de Doença Infecciosa</kwd>
+				<kwd>Epidemias</kwd>
+				<kwd>Controle de Doenças Transmissíveis</kwd>
+				<kwd>Cobertura Vacinal</kwd>
+			</kwd-group>
+		</front-stub>
+		<body>
+			<sec sec-type="intro">
+				<title>INTRODUÇÃO</title>
+				<p>O sarampo é uma doença altamente contagiosa e potencialmente fatal que permanece como um problema de saúde pública, especialmente em crianças menores de cinco anos, assim como adultos jovens desnutridos e imunodeprimidos residentes de países em que a transmissão não foi interrompida<sup><xref ref-type="bibr" rid="B1">1</xref></sup>.</p>
+				<p>Desde a introdução da vacinação em massa no Brasil e no mundo nas décadas de 1970 e 1980, os casos de sarampo diminuíram substancialmente. Dentre as seis regiões da Organização Mundial da Saúde, a das Américas foi a primeira a ter transmissão autóctone reconhecida como interrompida em 2002 e declarada eliminada em 2016, ano em que o Brasil recebeu a certificação de país livre do sarampo, ou seja, quando constatada a ocorrência de menos de um caso por milhão no período de um ano<sup><xref ref-type="bibr" rid="B6">6</xref></sup>.</p>
+				<p>Apesar dos avanços alcançados no controle da doença em todo o mundo, a manutenção da transmissão endêmica do vírus em alguns países gera preocupação quanto ao seu restabelecimento em regiões onde a doença já fora considerada eliminada. O risco de importação de casos e desencadeamento de novos surtos é real, especialmente em situações em que as coberturas vacinais estão abaixo do ideal, configurando-se como um desafio para os sistemas de vigilância<sup><xref ref-type="bibr" rid="B3">3</xref>,<xref ref-type="bibr" rid="B9">9</xref></sup>.</p>
+				<p>Recentemente, muitos países das Américas notificaram a ocorrência de casos, incluindo Brasil, Venezuela, Canadá, Estados Unidos, México, Peru e Argentina. Em 2018, um surto iniciado na Região Norte do Brasil, atribuído ao genótipo D8, importado da Venezuela, culminou na ocorrência de casos que se disseminaram por vários estados, além de comunidades indígenas localizadas em Roraima e no Amazonas<sup><xref ref-type="bibr" rid="B10">10</xref>,<xref ref-type="bibr" rid="B11">11</xref></sup>. Como consequência, o Brasil perdeu o título de país livre do sarampo<sup><xref ref-type="bibr" rid="B12">12</xref></sup>.</p>
+				<p>A vacina contra o sarampo no Brasil faz parte do calendário de rotina do Programa Nacional de Imunizações, sendo ofertada gratuitamente no Sistema Único de Saúde a toda população. Recomenda-se a aplicação de duas doses com intervalo mínimo de 30 dias. A primeira dose da vacina tríplice viral (sarampo, caxumba e rubéola) deve ser aplicada aos 12 meses de vida, seguida de uma dose de reforço da vacina tetra viral (sarampo, caxumba, rubéola e varicela) aos 15 meses, sendo que a garantia de 97% de proteção ocorre somente após o esquema completo<sup><xref ref-type="bibr" rid="B11">11</xref>,<xref ref-type="bibr" rid="B13">13</xref></sup>.</p>
+				<p>A existência de uma vigilância sensível que responda de forma eficaz à importação do vírus, associada a coberturas vacinais homogêneas e de rotina acima de 95%, são alguns dos desafios que os países que conseguiram eliminar a doença dos seus territórios enfrentam<sup><xref ref-type="bibr" rid="B3">3</xref>,<xref ref-type="bibr" rid="B9">9</xref></sup>.</p>
+				<p>A ampla compreensão do perfil de quem está adquirindo a doença, assim como da sua dinâmica de difusão espacial é um requisito fundamental para orientar ações que garantam a manutenção da eliminação do sarampo<sup><xref ref-type="bibr" rid="B14">14</xref></sup>. Considerando que a vacinação é a base dos esforços de controle, informações detalhadas sobre os casos são essenciais para avaliar as estratégias de vacinação atuais e reorientar intervenções mais direcionadas, seja por meio dos serviços de imunização de rotina ou de campanhas orientadas a subpopulações específicas<sup><xref ref-type="bibr" rid="B14">14</xref></sup>.</p>
+				<p>O objetivo do presente estudo foi analisar o perfil epidemiológico dos casos de sarampo e o padrão de difusão espacial da epidemia no estado de São Paulo em 2019.</p>
+			</sec>
+			<sec sec-type="methods">
+				<title>MÉTODOS</title>
+				<p>Trata-se de um estudo transversal baseado nos casos de sarampo confirmados por critério laboratorial, clínico e vínculo epidemiológico, notificados no ano epidêmico de 2019, no estado de São Paulo, obtidos do Sistema de Informação de Agravos de Notificação (Sinan).</p>
+				<p>A escolha por São Paulo se dá devido ao fato de o estado ter sido cenário da maior epidemia do Brasil no período pós-eliminação, concentrando cerca de 74% dos casos notificados no país em 2019.</p>
+				<p>São Paulo é a unidade federativa mais populosa do país e a segunda com maior Índice de Desenvolvimento Humano. Em 2020 sua população estimada era de 46 milhões de habitantes distribuídos em uma área de 248.209 km<sup><xref ref-type="bibr" rid="B2">2</xref></sup>. Localiza-se na região sudeste do país, e é formado por 645 municípios, distribuídos em 11 regiões geográficas intermediárias e seis regiões metropolitanas<sup><xref ref-type="bibr" rid="B15">15</xref></sup>.</p>
+				<p>Para a análise descritiva bivariada foi utilizado o teste qui-quadrado de Pearson para as diferenças de proporção de vacinação prévia dos casos, conforme as variáveis epidemiológicas, clínicas e socioeconômicas, considerando estatisticamente significativo os valores de p &lt; 0,05. Foram também obtidas as razões de incidência de hospitalização, considerando as variáveis, sexo, faixa etária, escolaridade, raça/cor da pele e situação vacinal, com os respectivos intervalos com níveis de confiança de 95%.</p>
+				<p>As semanas epidemiológicas foram consideradas como unidades de análise da evolução temporal das notificações de casos. As análises foram realizadas no <italic>software</italic> R, usando o pacote EpiR<sup><xref ref-type="bibr" rid="B16">16</xref></sup>. Adicionalmente, foram elaborados mapas coropléticos sequenciais da distribuição espacial das taxas de incidência de sarampo, por municípios do estado de São Paulo. As taxas foram suavizadas pelo método Bayesiano Empírico Local, utilizando matriz de vizinhança por contiguidade. Optou-se por uma divisão em períodos iguais a partir da semana de notificação do primeiro caso do ano (semana epidemiológica seis). Dessa forma, os períodos foram definidos pelas seguintes semanas epidemiológicas de 2019: de seis a 18, de 19 a 30, 31 a 42, da 43 a 52. Os dados das estimativas populacionais por município foram obtidos do Instituto Brasileiro de Geografia e Estatística (IBGE).</p>
+				<p>Na análise da difusão espacial, foi utilizada a base cartográfica de localização geográfica das sedes dos municípios por se considerar que, em algumas situações, a alocação dos centroides pelo método geométrico pode resultar na perda de precisão da representação do território, com alocação do ponto em áreas não habitadas. Dessa maneira, a utilização da malha cartográfica das sedes municipais garante a localização geográfica do ponto dentro da área urbana do município.</p>
+				<p>A metodologia de interpolação pela ponderação do inverso da distância (IDW, do inglês <italic>inverse distance weighting</italic>) foi utilizada para análise da difusão espacial dos primeiros casos confirmados de sarampo em cada município. Nesse método, as amostras de pontos são ponderadas durante a interpolação de acordo com a influência de um ponto relativo a outro, baseada no inverso da distância. O processo de interpolação foi realizado a partir da malha pontual das sedes dos municípios do estado de São Paulo, acrescida das informações das datas de início de sintomas do primeiro caso confirmado e do número de dias com notificação de casos confirmados durante o período. Os municípios que não apresentaram casos confirmados durante o período analisado receberam o valor da última data da série, acrescida de um dia. Esse procedimento visou garantir que esses municípios fossem retratados no produto da interpolação como as áreas onde a difusão espacial de sarampo chegou por último ou não chegou até o fim do período do estudo.</p>
+				<p>Outro procedimento realizado foi a utilização do número de dias que o município apresentou novos casos como parâmetro na interpolação, visando enfatizar o papel das cidades que se mantiveram na função difusora ao longo do tempo. Com isso, buscou-se mitigar o efeito de municípios que apresentaram a notificação do primeiro caso no início da série e o restante dos casos espaçados no tempo, em contraposição àqueles que notificaram seus primeiros casos em datas semelhantes, mas que apresentaram persistência temporal na notificação de casos ao longo do período. A metodologia IDW e as técnicas de geoprocessamento e mapeamento da difusão espacial foram realizadas no programa QGIS 3.18.1.</p>
+				<p>O estudo foi aprovado pelo comitê de ética em pesquisa do Instituto de Estudos em Saúde Coletiva da Universidade do Rio de Janeiro (IESC/UFRJ), sob parecer número 4.410.876, com dispensa de termo de consentimento livre e esclarecido, por empregar base de dados secundários e análises agregadas, sem risco de identificação dos sujeitos.</p>
+			</sec>
+			<sec sec-type="results">
+				<title>RESULTADOS</title>
+				<p>Foram confirmados 15.598 casos de sarampo no estado de São Paulo no ano de 2019, dos quais 2.039 foram hospitalizados e 17 evoluíram para óbito. Aproximadamente 40% dos casos confirmados (6.302) relataram vacinação prévia para sarampo. O primeiro caso, uma criança de 6 meses residente da cidade de São Paulo, foi notificado no dia 7 de fevereiro de 2019, na semana epidemiológica (SE) seis. O pico de transmissão ocorreu seis meses depois, no mês de agosto (SE 33), quando 5.539 casos foram notificados em 12,7% dos municípios do estado, dos quais 759 (13,5%) casos foram hospitalizados e cinco evoluíram para óbito (<xref ref-type="table" rid="t1002">Tabela 1</xref>).</p>
+				<p>
+					<table-wrap id="t1002">
+						<label>Tabela 1</label>
+						<caption>
+							<title>Frequência mensal das notificações de casos confirmados, vacinados, hospitalizados e óbitos no estado de São Paulo, 2019.</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left">Mês de notificação</th>
+									<th>Total de casos</th>
+									<th>Casos<sup>a</sup> importados (%)</th>
+									<th>Vacinados (%)</th>
+									<th>Hospitalizados (%)</th>
+									<th>Óbitos</th>
+									<th>Municípios afetados (%)</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Jan</td>
+									<td align="center">0</td>
+									<td align="center">0</td>
+									<td align="center">0</td>
+									<td align="center">0</td>
+									<td align="center">0</td>
+									<td align="center">0</td>
+								</tr>
+								<tr>
+									<td>Fev</td>
+									<td align="center">5</td>
+									<td align="center">0</td>
+									<td align="center">4 (80,0)</td>
+									<td align="center">0</td>
+									<td align="center">0</td>
+									<td align="center">3 (0,5)</td>
+								</tr>
+								<tr>
+									<td>Mar</td>
+									<td align="center">11</td>
+									<td align="center">0</td>
+									<td align="center">4 (36,4)</td>
+									<td align="center">2 (18,2)</td>
+									<td align="center">0</td>
+									<td align="center">2 (0,3)</td>
+								</tr>
+								<tr>
+									<td>Abr</td>
+									<td align="center">24</td>
+									<td align="center">1 (4,2)</td>
+									<td align="center">12 (50,0)</td>
+									<td align="center">2 (8,3)</td>
+									<td align="center">0</td>
+									<td align="center">7 (1,1)</td>
+								</tr>
+								<tr>
+									<td>Mai</td>
+									<td align="center">57</td>
+									<td align="center">2 (5,3)</td>
+									<td align="center">24 (42,1)</td>
+									<td align="center">10 (17,5)</td>
+									<td align="center">0</td>
+									<td align="center">11 (1,7)</td>
+								</tr>
+								<tr>
+									<td>Jun</td>
+									<td align="center">460</td>
+									<td align="center">0</td>
+									<td align="center">198 (43,0)</td>
+									<td align="center">59 (12,8)</td>
+									<td align="center">0</td>
+									<td align="center">34 (5,3)</td>
+								</tr>
+								<tr>
+									<td>Jul</td>
+									<td align="center">2.957</td>
+									<td align="center">4 (0,1)</td>
+									<td align="center">1.199 (40,5)</td>
+									<td align="center">373 (12,6)</td>
+									<td align="center">2</td>
+									<td align="center">101 (15,7)</td>
+								</tr>
+								<tr>
+									<td>Ago</td>
+									<td align="center">5.539</td>
+									<td align="center">11 (0,2)</td>
+									<td align="center">2.237 (40,4)</td>
+									<td align="center">759 (13,7)</td>
+									<td align="center">5</td>
+									<td align="center">175 (27,1)</td>
+								</tr>
+								<tr>
+									<td>Set</td>
+									<td align="center">3.765</td>
+									<td align="center">8 (0,2)</td>
+									<td align="center">1.502 (39,9)</td>
+									<td align="center">467 (12,4)</td>
+									<td align="center">8</td>
+									<td align="center">178 (27,6)</td>
+								</tr>
+								<tr>
+									<td>Out</td>
+									<td align="center">1.429</td>
+									<td align="center">3 (0,2)</td>
+									<td align="center">571 (40,0)</td>
+									<td align="center">189 (13,2)</td>
+									<td align="center">1</td>
+									<td align="center">139 (21,6)</td>
+								</tr>
+								<tr>
+									<td>Nov</td>
+									<td align="center">843</td>
+									<td align="center">3 (0,4)</td>
+									<td align="center">338 (40,1)</td>
+									<td align="center">111 (13,2)</td>
+									<td align="center">0</td>
+									<td align="center">96 (14,9)</td>
+								</tr>
+								<tr>
+									<td>Dez</td>
+									<td align="center">508</td>
+									<td align="center">1 (0,2)</td>
+									<td align="center">213 (41,9)</td>
+									<td align="center">67 (13,2)</td>
+									<td align="center">1</td>
+									<td align="center">74 (11,5)</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<attrib>Fonte: Sinan, Datasus, 2019.</attrib>
+							<fn id="TFN1002">
+								<p><sup>a</sup> Casos importados de outros estados ou países.</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p>Em relação à evolução espacial das taxas de incidência ao longo das semanas epidemiológicas, as maiores foram observadas em municípios situados na Região Intermediária de São Paulo, em especial naqueles que compõem a região metropolitana. Foi observada também elevada incidência no município de Fernandópolis, no noroeste do estado, fato que se deve à instabilidade das taxas estimadas para populações pequenas, ainda que tenham sido suavizadas (<xref ref-type="fig" rid="f01002">Figura 1</xref>).</p>
+				<p>
+					<fig id="f01002">
+						<label>Figura 1</label>
+						<caption>
+							<title>Evolução das taxas de incidências de sarampo por 100.000 habitantes por municípios do estado de São Paulo ao longo do ano epidêmico de 2019.</title>
+						</caption>
+						<graphic xlink:href="1518-8787-rsp-56-50-gf01-pt.tif"/>
+						<attrib>Fonte: Sinan, Datasus.</attrib>
+					</fig>
+				</p>
+				<p>Ao longo do período foram identificados 33 casos importados de fora do estado de São Paulo, dos quais 20 eram procedentes de outras unidades federativas e 13 de outros países, como Costa do Marfim, Gana e Bangladesh. Os quatro primeiros casos da epidemia foram classificados como autóctones na cidade de São Paulo e foram notificados em fevereiro, seguido da notificação em cidades do entorno. Os casos classificados como importados começaram a ser notificados após dois meses (abril) do surgimento do primeiro caso, sendo o primeiro deles procedente de Minas Gerais. Os demais casos classificados como importados foram registrados nos meses seguintes, em especial nos meses de maior pico de notificações (julho, agosto e setembro) (<xref ref-type="table" rid="t1002">Tabela 1</xref>).</p>
+				<p>Considerando a data de início dos sintomas, os primeiros casos de 2019 foram notificados nos municípios de São Bernardo do Campo e em São Paulo nas datas de 01/01/2019 e 08/01/2019 respectivamente. Ambos os municípios fazem parte da região intermediária denominada de São Paulo, que corresponde às regiões metropolitanas de São Paulo e Baixada Santista. Essa região foi o polo pioneiro e principal de difusão de sarampo pelo estado. Nos quatro meses subsequentes, observou-se uma difusão radial (centro-periférica) da doença dentro da própria região. Posteriormente essa difusão se faz majoritariamente em três eixos principais: o eixo mais expressivo é o que vai na direção da região intermediária de Campinas, seguido do eixo que segue na direção da região intermediária de São José dos Campos (Vale do Paraíba) e do último na direção nordeste da região intermediária de Sorocaba (<xref ref-type="fig" rid="f02002">Figura 2</xref>).</p>
+				<p>
+					<fig id="f02002">
+						<label>Figura 2</label>
+						<caption>
+							<title>Difusão dos casos de sarampo no estado de São Paulo, segundo data de aparecimento dos primeiros sintomas.</title>
+						</caption>
+						<graphic xlink:href="1518-8787-rsp-56-50-gf02-pt.tif"/>
+						<attrib>Fonte: Sinan, Datasus.</attrib>
+					</fig>
+				</p>
+				<p>Por fim, também foram observados dois outros polos de difusão de menor magnitude, o primeiro formado pelos municípios de Ribeirão Preto, Dumont, Pitangueiras, Sertãozinho, Barrinha, Pontal e Jardinópolis, localizados na região intermediária de Ribeirão Preto, e o segundo localizado na região intermediária de São José do Rio Preto. A última cidade a notificar casos de sarampo em 2019 considerando o início dos primeiros sintomas (15/12/2019) foi o município de Eldorado (<xref ref-type="fig" rid="f02002">Figura 2</xref>).</p>
+				<p>Dos 15.598 casos confirmados em 2019, 52,1% eram do sexo masculino (8.123) e 47,9% do sexo feminino (7.471). A faixa etária mais acometida foi a de 18 a 29 anos (39,7%; 6.190), seguida da de crianças menores de cinco anos (32,8%; 5.124). Dentre os maiores de 18 anos de idade, 56,1% (1.987) tinham entre 10 e 12 anos de estudo formal, 24,1% (852) tinham entre quatro e nove anos de estudo, 14,2% (504) tinham 13 anos ou mais de estudo. O grupo com menor escolaridade (menos de quatro anos de estudo) correspondeu a 5,6% (198) dos casos com idade acima de 18 anos (<xref ref-type="table" rid="t2002">Tabela 2</xref>).</p>
+				<p>
+					<table-wrap id="t2002">
+						<label>Tabela 2</label>
+						<caption>
+							<title>Características epidemiológicas e socioeconômicas dos casos de sarampo, estratificadas segundo vacinação prévia. Estado de São Paulo, Brasil, 2019.</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left" rowspan="2">Variáveis</th>
+									<th colspan="2">Frequência<sup>a</sup></th>
+									<th colspan="2">Vacinação prévia</th>
+									<th rowspan="2">p</th>
+								</tr>
+								<tr>
+									<th>n</th>
+									<th>%</th>
+									<th>Sim<sup>b</sup></th>
+									<th>Não<sup>b</sup></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Sexo</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td align="center">&lt; 0,001</td>
+								</tr>
+								<tr>
+									<td>Masculino</td>
+									<td align="center">8.123</td>
+									<td align="center">52,1</td>
+									<td align="center">3.074 (37,8)</td>
+									<td align="center">3.380 (41,6)</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Feminino</td>
+									<td align="center">7.471</td>
+									<td align="center">47,9</td>
+									<td align="center">3.228 (43,2)</td>
+									<td align="center">2.728 (36,5)</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Faixa etária</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td align="center">&lt; 0,001</td>
+								</tr>
+								<tr>
+									<td>&lt; 1 ano</td>
+									<td align="center">2.841</td>
+									<td align="center">18,2</td>
+									<td align="center">1.112 (39,1)</td>
+									<td align="center">1.050 (36,9)</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>1 a 4 anos</td>
+									<td align="center">2.283</td>
+									<td align="center">14,6</td>
+									<td align="center">964 (42,2)</td>
+									<td align="center">879 (38,5)</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>5 a 11 anos</td>
+									<td align="center">499</td>
+									<td align="center">3,2</td>
+									<td align="center">222 (44,4)</td>
+									<td align="center">192 (38,4)</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>12 a 17 anos</td>
+									<td align="center">677</td>
+									<td align="center">4,3</td>
+									<td align="center">300 (44,3)</td>
+									<td align="center">226 (33,3)</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>30 a 49 anos</td>
+									<td align="center">2.678</td>
+									<td align="center">17,2</td>
+									<td align="center">994 (37,1)</td>
+									<td align="center">1.048 (39,1)</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>18 a 29 anos</td>
+									<td align="center">6.190</td>
+									<td align="center">39,7</td>
+									<td align="center">2.556 (41,2)</td>
+									<td align="center">2.579 (41,6)</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>50 anos ou mais</td>
+									<td align="center">430</td>
+									<td align="center">2,8</td>
+									<td align="center">154 (35,8)</td>
+									<td align="center">205 (47,6)</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Escolaridade<sup>c</sup></td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td align="center">&lt; 0,001</td>
+								</tr>
+								<tr>
+									<td>&lt; 4 anos</td>
+									<td align="center">198</td>
+									<td align="center">5,6</td>
+									<td align="center">87 (43,9)</td>
+									<td align="center">85 (42,9)</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>4 a 9 anos</td>
+									<td align="center">852</td>
+									<td align="center">24,1</td>
+									<td align="center">281 (32,9)</td>
+									<td align="center">438 (51,4)</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>10 a 12 anos</td>
+									<td align="center">1.987</td>
+									<td align="center">56,1</td>
+									<td align="center">695 (34,9)</td>
+									<td align="center">947 (47,6)</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>13 anos ou mais</td>
+									<td align="center">504</td>
+									<td align="center">14,2</td>
+									<td align="center">224 (44,4)</td>
+									<td align="center">188 (37,3)</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Raça/cor da pele</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td align="center">&lt; 0,001</td>
+								</tr>
+								<tr>
+									<td>Branco</td>
+									<td align="center">9.246</td>
+									<td align="center">70,7</td>
+									<td align="center">4.046 (43,7)</td>
+									<td align="center">3.566 (38,5)</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Preto</td>
+									<td align="center">427</td>
+									<td align="center">3,3</td>
+									<td align="center">156 (36,5)</td>
+									<td align="center">198 (46,7)</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Pardo</td>
+									<td align="center">3.241</td>
+									<td align="center">24,8</td>
+									<td align="center">1.195 (36,8)</td>
+									<td align="center">1.505 (46,4)</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Amarelo</td>
+									<td align="center">130</td>
+									<td align="center">1,0</td>
+									<td align="center">53 (40,7)</td>
+									<td align="center">53 (40,7)</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Indígena</td>
+									<td align="center">37</td>
+									<td align="center">0,3</td>
+									<td align="center">14 (37,8)</td>
+									<td align="center">18 (48,6)</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Origem da transmissão<sup>d</sup></td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td align="center">0,02</td>
+								</tr>
+								<tr>
+									<td>Importado</td>
+									<td align="center">33</td>
+									<td align="center">0,3</td>
+									<td align="center">20 (60,6)</td>
+									<td align="center">10 (30,3)</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Autóctone – ESP</td>
+									<td align="center">12.832</td>
+									<td align="center">99,7</td>
+									<td align="center">5.308 (41,3)</td>
+									<td align="center">5.076 (39,5)</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Evolução</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td align="center">0,04</td>
+								</tr>
+								<tr>
+									<td>Cura</td>
+									<td align="center">13.019</td>
+									<td align="center">99,9</td>
+									<td align="center">5.387 (41,3)</td>
+									<td align="center">5.225 (40,1)</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Óbito</td>
+									<td align="center">17</td>
+									<td align="center">0,1</td>
+									<td align="center">3 (17,6)</td>
+									<td align="center">10 (58,8)</td>
+									<td>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<attrib>Fonte: Sinan, 2019.</attrib>
+							<fn id="TFN2002">
+								<p><sup>a</sup> Exluídos os casos com informação ignorada.</p>
+							</fn>
+							<fn id="TFN3002">
+								<p><sup>b</sup> Frequências absolutas e relativas.</p>
+							</fn>
+							<fn id="TFN4002">
+								<p><sup>c</sup> Apenas casos com 18 anos ou mais de idade.</p>
+							</fn>
+							<fn id="TFN5002">
+								<p><sup>d</sup> Foram considerados autóctones do estado de São Paulo, SP.</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+				<p>Brancos compuseram a maior parcela dos casos de sarampo, o equivalente a 70,7% (9.246), seguidos de pardos 24,8% (3.241), pretos 3,3% (427), amarelos (asiáticos) 1% (130), e indígenas 0,3% (37) (<xref ref-type="table" rid="t2002">Tabela 2</xref>).</p>
+				<p>A maioria dos casos (12.832; 99,9%) foi originada por transmissão autóctone no próprio estado de São Paulo. Dentre os importados, a maior parte (20/33) era procedente de outros estados do país, sendo os demais (13/33) viajantes internacionais (<xref ref-type="table" rid="t2002">Tabela 2</xref>).</p>
+				<p>Foi observada diferença significativa (p &lt; 0,001) nas proporções de vacinação prévia entre casos femininos (43,2%) e masculinos (37,9%). Em relação à idade, as frequências de vacinação prévia foram maiores nas faixas etárias mais jovens, quando comparadas às faixas mais idosas (p &lt; 0,001). Quanto à escolaridade, as maiores proporções de vacinação prévia foram observadas nas duas categorias extremas, ou seja, no grupo com menos de quatro anos e no grupo com mais de 13 anos de estudo (p &lt; 0,001) (<xref ref-type="table" rid="t2002">Tabela 2</xref>).</p>
+				<p>Em relação à raça/cor da pele registrada, foi observada maior proporção de vacinação entre brancos (43,7%) quando comparada a pretos (36,5%), pardos (36,8%), amarelos (40,7%) e indígenas (37,8%) (p &lt; 0,001). De forma semelhante, observou-se maior proporção de vacinação prévia entre os casos importados (60,6%), quando comparado aos casos autóctones (41,3%) (p = 0,02), assim como entre os que evoluíram para cura (41,3%), quando comparado aos que evoluíram para óbito (17,6%) (p = 0,04) (<xref ref-type="table" rid="t2002">Tabela 2</xref>).</p>
+				<p>Além de febre e rash cutâneo, tosse e coriza foram os sinais mais frequentes e estiveram presentes em 79,1% (11.871) e 65,4% (9.779) dos casos, respectivamente. Em contrapartida, a conjuntivite foi menos frequente e esteve presente em 34,9% (5.144) dos casos confirmados de sarampo em 2019. Quando estratificados por situação vacinal, tosse e conjuntivite foram significativamente mais frequentes entre casos não vacinados quando comparado aos casos que referiram vacinação prévia (p &lt; 0,001).</p>
+				<p>Em relação à incidência de hospitalização, observou-se maior risco (RI = 2,19; IC95% 1,66–2,88) em crianças menores de um ano, quando comparado à faixa etária mais idosa (50 anos e mais) (<xref ref-type="table" rid="t3002">Tabela 3</xref>). Adicionalmente, observou-se maior risco de hospitalização nos casos não vacinados quando comparado aos que relataram vacinação anterior (RI = 1,59; IC95% 1,45–1,75) (<xref ref-type="table" rid="t3002">Tabela 3</xref>).</p>
+				<p>
+					<table-wrap id="t3002">
+						<label>Tabela 3</label>
+						<caption>
+							<title>Incidência de hospitalização segundo características epidemiológicas e socioeconômicas dos casos de sarampo. Estado de São Paulo, Brasil, 2019.</title>
+						</caption>
+						<table frame="hsides" rules="groups">
+							<colgroup>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+								<col/>
+							</colgroup>
+							<thead>
+								<tr>
+									<th align="left" rowspan="2">Variáveis</th>
+									<th rowspan="2">Total de casos<sup>a</sup></th>
+									<th colspan="2">Hospitalização</th>
+									<th rowspan="2">RI</th>
+									<th rowspan="2">IC95%</th>
+								</tr>
+								<tr>
+									<th>n</th>
+									<th>Incidência<sup>a</sup></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Sexo</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Masculino</td>
+									<td align="center">8.123</td>
+									<td align="center">1.086</td>
+									<td align="center">13,4</td>
+									<td align="center">1</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Feminino</td>
+									<td align="center">7.471</td>
+									<td align="center">952</td>
+									<td align="center">12,7</td>
+									<td align="center">0,95</td>
+									<td align="center">(0,87–1,03)</td>
+								</tr>
+								<tr>
+									<td>Faixa etária</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>50 ou mais</td>
+									<td align="center">430</td>
+									<td align="center">47</td>
+									<td align="center">10,9</td>
+									<td align="center">1</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>30 a 49</td>
+									<td align="center">2.678</td>
+									<td align="center">279</td>
+									<td align="center">10,4</td>
+									<td align="center">1,03</td>
+									<td align="center">(0,77–1,38)</td>
+								</tr>
+								<tr>
+									<td>18 a 29</td>
+									<td align="center">6.190</td>
+									<td align="center">601</td>
+									<td align="center">9,7</td>
+									<td align="center">0,90</td>
+									<td align="center">(0,68–1,19)</td>
+								</tr>
+								<tr>
+									<td>12 a 17</td>
+									<td align="center">677</td>
+									<td align="center">68</td>
+									<td align="center">10,0</td>
+									<td align="center">0,92</td>
+									<td align="center">(0,65–1,30)</td>
+								</tr>
+								<tr>
+									<td>5 a 11</td>
+									<td align="center">499</td>
+									<td align="center">50</td>
+									<td align="center">10,0</td>
+									<td align="center">0,93</td>
+									<td align="center">(0,64–1,36)</td>
+								</tr>
+								<tr>
+									<td>1 a 4</td>
+									<td align="center">2.283</td>
+									<td align="center">304</td>
+									<td align="center">13,3</td>
+									<td align="center">1,22</td>
+									<td align="center">(0,92–1,63)</td>
+								</tr>
+								<tr>
+									<td>&lt; 1</td>
+									<td align="center">2.841</td>
+									<td align="center">690</td>
+									<td align="center">24,3</td>
+									<td align="center">2,19</td>
+									<td align="center">(1,66–2,88)</td>
+								</tr>
+								<tr>
+									<td>Escolaridade <sup>b</sup></td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>&lt; 4 anos</td>
+									<td align="center">198</td>
+									<td align="center">10</td>
+									<td align="center">5,1</td>
+									<td align="center">1</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>4 a 9 anos</td>
+									<td align="center">852</td>
+									<td align="center">44</td>
+									<td align="center">5,2</td>
+									<td align="center">1,07</td>
+									<td align="center">(0,55–2,08)</td>
+								</tr>
+								<tr>
+									<td>10 a 12 anos</td>
+									<td align="center">1.987</td>
+									<td align="center">118</td>
+									<td align="center">5,9</td>
+									<td align="center">1,20</td>
+									<td align="center">(0,64–2,24)</td>
+								</tr>
+								<tr>
+									<td>13 anos ou mais</td>
+									<td align="center">504</td>
+									<td align="center">45</td>
+									<td align="center">8,9</td>
+									<td align="center">1,14</td>
+									<td align="center">(0,58–2,25)</td>
+								</tr>
+								<tr>
+									<td>Raça/cor registrada</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Branco</td>
+									<td align="center">9.246</td>
+									<td align="center">1.168</td>
+									<td align="center">12,6</td>
+									<td align="center">1</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Preto</td>
+									<td align="center">427</td>
+									<td align="center">44</td>
+									<td align="center">10,3</td>
+									<td align="center">0,82</td>
+									<td align="center">(0,62–1,09)</td>
+								</tr>
+								<tr>
+									<td>Pardo</td>
+									<td align="center">3.241</td>
+									<td align="center">389</td>
+									<td align="center">12,0</td>
+									<td align="center">0,96</td>
+									<td align="center">(0,87–1,07)</td>
+								</tr>
+								<tr>
+									<td>Amarelo</td>
+									<td align="center">130</td>
+									<td align="center">17</td>
+									<td align="center">13,1</td>
+									<td align="center">1,01</td>
+									<td align="center">(0,64–1,56)</td>
+								</tr>
+								<tr>
+									<td>Indígena</td>
+									<td align="center">37</td>
+									<td align="center">8</td>
+									<td align="center">21,6</td>
+									<td align="center">1,84</td>
+									<td align="center">(1,01–3,34)</td>
+								</tr>
+								<tr>
+									<td>Vacinação prévia</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Sim</td>
+									<td align="center">6.302</td>
+									<td align="center">642</td>
+									<td align="center">10,2</td>
+									<td align="center">1</td>
+									<td>
+									</td>
+								</tr>
+								<tr>
+									<td>Não</td>
+									<td align="center">6.179</td>
+									<td align="center">1.004</td>
+									<td align="center">16,2</td>
+									<td align="center">1,59</td>
+									<td align="center">(1,45–1,75)</td>
+								</tr>
+							</tbody>
+						</table>
+						<table-wrap-foot>
+							<attrib>Fonte: Sinan, 2019.</attrib>
+							<fn id="TFN6002">
+								<p>RI: razão de incidência; IC95%: intervalo de confiança de 95%.</p>
+							</fn>
+							<fn id="TFN7002">
+								<p><sup>a</sup> Excluídos os casos com informação ignorada.</p>
+							</fn>
+							<fn id="TFN8002">
+								<p><sup>b</sup> Apenas casos com 18 anos ou mais de idade.</p>
+							</fn>
+						</table-wrap-foot>
+					</table-wrap>
+				</p>
+			</sec>
+			<sec sec-type="discussion">
+				<title>DISCUSSÃO</title>
+				<p>Os achados do presente estudo propiciam reflexões importantes sobre a maior epidemia de sarampo do Brasil no período pós-eliminação. Em relação à origem da epidemia, os dados secundários não permitiram uma conclusão definitiva. Embora não haja um detalhamento sobre a origem do primeiro caso notificado no estado de São Paulo em 2019, supõe-se que ele não seja o caso índice, por ser tratar de um lactente de seis meses de idade, classificado como autóctone. Em um cenário de eliminação da transmissão, é possível que os primeiros casos sejam confundidos com outras infecções virais exantemáticas inespecíficas. Além disso, as manifestações clínicas em indivíduos vacinados (ainda que com esquemas incompletos) tendem a se apresentar de forma mais branda, o que pode levar à subnotificação<sup><xref ref-type="bibr" rid="B9">9</xref>,<xref ref-type="bibr" rid="B17">17</xref>,<xref ref-type="bibr" rid="B18">18</xref></sup>.</p>
+				<p>Os achados do presente estudo corroboram esse fato ao indicarem maior risco de hospitalização entre casos não vacinados, quando comparado aos vacinados, assim como as diferenças observadas na própria apresentação clínica da doença, com menor frequência de tosse e conjuntivite entre vacinados, quando comparado aos casos sem histórico de vacinação.</p>
+				<p>O número considerável de casos da doença entre indivíduos com histórico de vacinação prévia é um dado preocupante que pode sugerir perda da efetividade da vacina ou ainda limitações no registro dessa informação nos sistemas de notificação. Alguns estudos têm relatado o desenvolvimento da doença em pessoas que foram vacinadas com as duas doses na infância. Algumas razões possíveis incluem a redução dos níveis de anticorpos com o passar do tempo e perda de efetividade devido a problemas na cadeia de frios<sup><xref ref-type="bibr" rid="B19">19</xref></sup>. Há ainda evidências de que diferenças entre o genótipo do vírus utilizado na vacina e o genótipo das cepas circulantes também possam contribuir para o desenvolvimento da doença em indivíduos vacinados<sup><xref ref-type="bibr" rid="B23">23</xref>,<xref ref-type="bibr" rid="B24">24</xref></sup>.</p>
+				<p>Em relação à qualidade do registro sobre a vacinação, embora haja orientação técnica sobre a checagem da caderneta de vacinação dos casos, é mais provável que essa informação na rotina dos serviços assistenciais seja autorreferida. Adicionalmente, é importante salientar que a ficha de notificação não especifica se o caso tinha esquema vacinal completo com duas doses. Dessa forma, é possível que parte dos casos da doença entre indivíduos com vacinação prévia na epidemia de São Paulo seja consequência de esquemas vacinais incompletos, com consequente redução da eficácia da vacina. O maior acometimento de adultos jovens na epidemia de São Paulo reforça essa hipótese, uma vez que essa faixa etária tem sido apontada em outros estudos como a mais propensa a ter esquema vacinal incompleto<sup><xref ref-type="bibr" rid="B4">4</xref>,<xref ref-type="bibr" rid="B25">25</xref></sup>.</p>
+				<p>As crianças menores de cinco anos foram a segunda faixa etária mais atingida pela doença e, junto com adultos jovens, compuseram o perfil etário predominante da epidemia de São Paulo. Estes achados corroboram a tendência observada de aumento da morbidade por sarampo em adultos jovens, antes restrita às crianças<sup><xref ref-type="bibr" rid="B4">4</xref></sup>.</p>
+				<p>Se por um lado há indícios de falhas na imunização ou mesmo de esquemas vacinais incompletos, por outro, a análise dos dados também apontou um expressivo número de casos sem vacinação prévia, o que, em todo caso, indica baixa performance dos programas de imunização de rotina ou deficiência no registro dessa informação. A formação de <italic>clusters</italic> de populações suscetíveis decorrentes de coberturas vacinais inadequadas pode funcionar como iniciadores de surto em regiões em fase de eliminação da doença, conforme já demonstrado em estudos anteriores<sup><xref ref-type="bibr" rid="B9">9</xref>,<xref ref-type="bibr" rid="B18">18</xref></sup>.</p>
+				<p>Em crianças, há tendência de redução da cobertura vacinal com o aumento da idade, principalmente em relação às vacinas administradas em doses múltiplas, como é o caso da tríplice viral contendo sarampo. No primeiro ano de vida, a criança recebe uma grande quantidade de vacinas do calendário de rotina, seguido de um intervalo de meses ou anos, o que gera uma sensação de tranquilidade que pode contribuir para o esquecimento de pais e cuidadores<sup><xref ref-type="bibr" rid="B31">31</xref>,<xref ref-type="bibr" rid="B32">32</xref></sup>. Importante lembrar que no Brasil, a segunda dose da tríplice viral, que antes era recomendada aos 4–6 anos, passou a ser antecipada para os 15 meses em 2013<sup><xref ref-type="bibr" rid="B33">33</xref></sup>. Esse fato pode explicar, ao menos em parte, a maior frequência de casos em adultos jovens e em coortes de nascimentos mais antigas. Cabe lembrar que a vacina contra o sarampo é preconizada até os 49 anos de idade, pois presume-se que acima dessa idade a pessoa já teve contato natural com o vírus, tendo assim imunidade duradoura.</p>
+				<p>Os achados também revelaram menor proporção de vacinação em grupos menos escolarizados quando comparados aos de maior escolaridade (13 ou mais anos de estudo), assim como em indivíduos pretos e pardos quando comparados a brancos, achado que sugere acesso desigual à vacinação<sup><xref ref-type="bibr" rid="B34">34</xref></sup>. O fato de 70% dos casos terem sido identificados como brancos pode estar relacionado ao maior poder aquisitivo e possibilidades de viagens para locais com circulação do vírus e, como consequência, maior probabilidade de infecção de pessoas próximas no retorno.</p>
+				<p>Quanto à análise da difusão espacial, os achados revelaram dois padrões principais. O primeiro, caracterizado por um processo de difusão por contiguidade, no qual a partir do polo pioneiro (regiões metropolitanas de São Paulo e Baixada Santista) se estabeleceu três eixos principais que conectam municípios próximos localizados nas regiões intermediária de Campinas, São José dos Campos e Sorocaba. O segundo padrão se caracteriza pela relação do polo pioneiro com municípios mais distantes, pertencentes às regiões intermediárias de Ribeirão Preto e São José do Rio Preto, por meio de um processo de difusão hierárquica por realocação.</p>
+				<p>Ambos os padrões de difusão do sarampo refletem as características estruturais do território, seguindo trajetórias semelhantes às das principais rodovias do estado e da hierarquia urbana de regiões de influência das cidades em relação à centralidade na distribuição de bens, equipamentos, serviços e mobilidade populacional. Sob esse aspecto, ressalta-se o papel da grande São Paulo (Metrópole Nacional), das capitais regionais Campinas, São José dos Campos, Sorocaba, Ribeirão Preto, Santos, Limeira, e dos centros sub-regionais Itapetinga, Fernandópolis e Registro. Além de polo pioneiro e principal difusor de casos para as outras regiões, cabe destacar que a região da Grande São Paulo manteve altas incidências durante a maior parte da epidemia em 2019.</p>
+				<p>Esses achados reforçam a importância da hierarquia urbana no processo de difusão de doenças com transmissão semelhante à do sarampo, a exemplo de estudos recentes realizados para covid-19 nos estados de São Paulo<sup><xref ref-type="bibr" rid="B35">35</xref></sup> e do Rio de Janeiro<sup><xref ref-type="bibr" rid="B36">36</xref></sup>. A incorporação de outras informações do território não utilizadas neste estudo, a exemplo de fluxos de pessoas em rotas aéreas e rodoviárias, podem contribuir para melhor caracterização dos processos envolvidos na difusão de sarampo e subsidiar ações de vigilância no âmbito intermunicipal.</p>
+				<p>As limitações deste estudo estão relacionadas principalmente à qualidade da informação oriunda do sistema de informação. No caso do registro de vacinação prévia, é provável que a informação seja autorreferida na maioria dos casos, apesar da orientação de checagem da caderneta de vacinação. Já a variável raça/cor da pele, embora seja um campo da ficha de notificação destinado a autoidentificação, é relativamente comum na rotina dos serviços assistenciais que ele seja preenchido pelo próprio profissional que fez o atendimento do caso. Nesse sentido, a depender das percepções dos que coletam essa informação, a mensuração das iniquidades de acesso a partir dessa variável podem ser distorcidas.</p>
+				<p>Em última análise, os resultados reforçam a necessidade de priorização nas estratégias de imunização dos subgrupos mais acometidos, formado por adultos jovens, para além da vacinação de rotina em crianças. Adicionalmente, estudos que busquem investigar a ocorrência de <italic>clusters</italic> de populações vulneráveis, propensas a menor cobertura de vacinação, são essenciais para ampliar a compreensão sobre a dinâmica de transmissão da doença e assim reorientar estratégias de controle mais eficazes para garantir a manutenção da eliminação da doença.</p>
+			</sec>
+		</body>
+	</sub-article>
+</article>
