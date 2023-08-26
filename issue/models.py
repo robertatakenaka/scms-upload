@@ -113,10 +113,10 @@ class SciELOIssue(CommonControlField):
     """
 
     def __unicode__(self):
-        return "%s %s" % (self.scielo_journal, self.issue_pid)
+        return f"{self.scielo_journal} {self.issue_folder}"
 
     def __str__(self):
-        return "%s %s" % (self.scielo_journal, self.issue_pid)
+        return f"{self.scielo_journal} {self.issue_folder}"
 
     scielo_journal = models.ForeignKey(
         SciELOJournal, on_delete=models.SET_NULL, null=True

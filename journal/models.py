@@ -5,12 +5,7 @@ from django.db import models
 from django.utils.translation import gettext_lazy as _
 from modelcluster.fields import ParentalKey
 from modelcluster.models import ClusterableModel
-from wagtail.admin.panels import (
-    FieldPanel,
-    InlinePanel,
-    ObjectList,
-    TabbedInterface,
-)
+from wagtail.admin.panels import FieldPanel, InlinePanel, ObjectList, TabbedInterface
 from wagtail.models import Orderable
 
 from collection.models import Collection
@@ -369,10 +364,10 @@ class SciELOJournal(CommonControlField):
         ]
 
     def __unicode__(self):
-        return "%s %s" % (self.collection, self.scielo_issn)
+        return f"{self.collection} {self.acron}"
 
     def __str__(self):
-        return "%s %s" % (self.collection, self.scielo_issn)
+        return f"{self.collection} {self.acron}"
 
     @classmethod
     def get(cls, collection, official_journal=None, scielo_issn=None, acron=None):
