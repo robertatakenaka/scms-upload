@@ -13,42 +13,41 @@ from config.menu import get_menu_order
 
 from . import models
 
+# class MigrationFailureAdmin(ModelAdmin):
+#     model = models.MigrationFailure
+#     inspect_view_enabled = True
+#     menu_label = _("Migration Failures")
+#     menu_icon = "folder"
+#     menu_order = 200
+#     add_to_settings_menu = False
+#     exclude_from_explorer = False
 
-class MigrationFailureAdmin(ModelAdmin):
-    model = models.MigrationFailure
-    inspect_view_enabled = True
-    menu_label = _("Migration Failures")
-    menu_icon = "folder"
-    menu_order = 200
-    add_to_settings_menu = False
-    exclude_from_explorer = False
-
-    list_display = (
-        "action_name",
-        "migrated_item_name",
-        "migrated_item_id",
-        "message",
-        "updated",
-    )
-    list_filter = (
-        "action_name",
-        "migrated_item_name",
-        "exception_type",
-    )
-    search_fields = (
-        "action_name",
-        "migrated_item_id",
-        "message",
-        "exception_msg",
-    )
-    inspect_view_fields = (
-        "action_name",
-        "migrated_item_name",
-        "migrated_item_id",
-        "exception_type",
-        "exception_msg",
-        "updated",
-    )
+#     list_display = (
+#         "action_name",
+#         "migrated_item_name",
+#         "migrated_item_id",
+#         "message",
+#         "updated",
+#     )
+#     list_filter = (
+#         "action_name",
+#         "migrated_item_name",
+#         "exception_type",
+#     )
+#     search_fields = (
+#         "action_name",
+#         "migrated_item_id",
+#         "message",
+#         "exception_msg",
+#     )
+#     inspect_view_fields = (
+#         "action_name",
+#         "migrated_item_name",
+#         "migrated_item_id",
+#         "exception_type",
+#         "exception_msg",
+#         "updated",
+#     )
 
 
 class CoreCreateView(CreateView):
@@ -80,7 +79,7 @@ class ClassicWebsiteConfigurationModelAdmin(ModelAdmin):
 
 class MigratedJournalModelAdmin(ModelAdmin):
     model = models.MigratedJournal
-    menu_label = _("Journals")
+    menu_label = _("Migrated Journals")
     menu_icon = "doc-full"
     menu_order = 300
     add_to_settings_menu = False
@@ -94,20 +93,25 @@ class MigratedJournalModelAdmin(ModelAdmin):
         "scielo_journal",
         "status",
         "isis_updated_date",
+        # "incidents_number",
     )
-    list_filter = ("status",)
+    list_filter = (
+        "status",
+        # "incidents_number",
+    )
     search_fields = ("scielo_journal__acron",)
     inspect_view_fields = (
         "scielo_journal",
         "status",
         "isis_updated_date",
         "data",
+        "incident_report_data",
     )
 
 
 class MigratedIssueModelAdmin(ModelAdmin):
     model = models.MigratedIssue
-    menu_label = _("Issues")
+    menu_label = _("Migrated Issues")
     menu_icon = "doc-full"
     menu_order = 300
     add_to_settings_menu = False
@@ -121,12 +125,16 @@ class MigratedIssueModelAdmin(ModelAdmin):
         "scielo_issue",
         "status",
         "isis_updated_date",
+        # "incidents_number",
     )
-    list_filter = ("status",)
+    list_filter = (
+        "status",
+        # "incidents_number",
+    )
     search_fields = (
-        "migrated_journal__scielo_journal__title",
-        "migrated_journal__scielo_journal__acron",
-        "scielo_issue__official_issue__publication_date__year",
+        "scielo_issue__scielo_journal__journal__title",
+        "scielo_issue__scielo_journal__acron",
+        "scielo_issue__issue__publication_date__year",
         "scielo_issue__issue_folder",
     )
     inspect_view_fields = (
@@ -134,12 +142,13 @@ class MigratedIssueModelAdmin(ModelAdmin):
         "status",
         "isis_updated_date",
         "data",
+        "incident_report_data",
     )
 
 
 class MigratedDocumentModelAdmin(ModelAdmin):
     model = models.MigratedDocument
-    menu_label = _("Articles")
+    menu_label = _("Migrated Articles")
     menu_icon = "doc-full"
     menu_order = 300
     add_to_settings_menu = False
@@ -157,15 +166,17 @@ class MigratedDocumentModelAdmin(ModelAdmin):
         "status",
         "xml_status",
         "isis_updated_date",
+        # "incidents_number",
     )
     list_filter = (
         "status",
         "xml_status",
-        "migrated_issue__scielo_issue__official_issue__publication_year",
+        # "incidents_number",
+        "migrated_issue__scielo_issue__issue__publication_year",
     )
     search_fields = (
-        "migrated_issue__migrated_journal__scielo_journal__acron",
-        "migrated_issue__scielo_issue__official_issue__publication_year",
+        "migrated_issue__scielo_issue__scielo_journal__acron",
+        "migrated_issue__scielo_issue__issue__publication_year",
         "migrated_issue__scielo_issue__issue_folder",
     )
     inspect_view_fields = (
@@ -179,6 +190,7 @@ class MigratedDocumentModelAdmin(ModelAdmin):
         "isis_updated_date",
         "data",
         "file",
+        "incident_report_data",
     )
 
 
@@ -195,20 +207,21 @@ class MigratedFileModelAdmin(ModelAdmin):
     create_view_class = CoreCreateView
 
     list_display = (
-        "migrated_issue",
+        "scielo_issue",
         "created",
         "updated",
     )
-    search_fields = ("migrated_issue__scielo_issue__official_issue__publication_year",)
+    search_fields = ("scielo_issue__issue__publication_year",)
     inspect_view_fields = (
-        "migrated_issue",
+        "scielo_issue",
+        "original_path",
         "file",
     )
 
 
 class BodyAndBackFileModelAdmin(ModelAdmin):
     model = models.BodyAndBackFile
-    menu_label = _("XML with body and back")
+    menu_label = _("Body and back")
     menu_icon = "doc-full"
     menu_order = 300
     add_to_settings_menu = False
@@ -219,7 +232,7 @@ class BodyAndBackFileModelAdmin(ModelAdmin):
     create_view_class = CoreCreateView
 
     list_display = (
-        "migrated_issue",
+        "migrated_document_html",
         "pkg_name",
         "version",
         "created",
@@ -229,12 +242,14 @@ class BodyAndBackFileModelAdmin(ModelAdmin):
     search_fields = (
         "collection__acron",
         "collection__name",
-        "migrated_issue",
+        "migrated_document_html__migrated_issue__scielo_issue__scielo_journal__acron",
+        "migrated_document_html__migrated_issue__scielo_issue__issue__publication_year",
+        "migrated_document_html__migrated_issue__scielo_issue__issue_folder",
         "pkg_name",
     )
     inspect_view_fields = (
         "collection",
-        "migrated_issue",
+        "migrated_document_html",
         "pkg_name",
         "version",
         "file",
@@ -243,7 +258,7 @@ class BodyAndBackFileModelAdmin(ModelAdmin):
 
 class MigratedDocumentHTMLModelAdmin(ModelAdmin):
     model = models.MigratedDocumentHTML
-    menu_label = _("Migrated document (html)")
+    menu_label = _("Migrated Article HTML")
     menu_icon = "doc-full"
     menu_order = 300
     add_to_settings_menu = False
@@ -265,11 +280,11 @@ class MigratedDocumentHTMLModelAdmin(ModelAdmin):
     list_filter = (
         "status",
         "xml_status",
-        "migrated_issue__scielo_issue__official_issue__publication_year",
+        "migrated_issue__scielo_issue__issue__publication_year",
     )
     search_fields = (
-        "migrated_issue__migrated_journal__scielo_journal__acron",
-        "migrated_issue__scielo_issue__official_issue__publication_year",
+        "migrated_issue__scielo_issue__scielo_journal__acron",
+        "migrated_issue__scielo_issue__issue__publication_year",
         "migrated_issue__scielo_issue__issue_folder",
     )
     inspect_view_fields = (
@@ -316,7 +331,9 @@ class Html2xmlReportModelAdmin(ModelAdmin):
     search_fields = (
         "xml__collection__acron",
         "xml__pid",
-        "xml__migrated_issue",
+        "xml__migrated_issue__scielo_issue__scielo_journal__acron",
+        "xml__migrated_issue__scielo_issue__issue__publication_year",
+        "xml__migrated_issue__scielo_issue__issue_folder",
         "xml__pkg_name",
     )
 
@@ -328,10 +345,10 @@ class MigrationModelAdmin(ModelAdminGroup):
 
     items = (
         ClassicWebsiteConfigurationModelAdmin,
-        MigrationFailureAdmin,
+        # MigrationFailureAdmin,
         MigratedJournalModelAdmin,
-        MigratedIssueModelAdmin,
         MigratedFileModelAdmin,
+        MigratedIssueModelAdmin,
         MigratedDocumentModelAdmin,
         MigratedDocumentHTMLModelAdmin,
         Html2xmlReportModelAdmin,
