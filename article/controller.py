@@ -2,16 +2,19 @@ import logging
 from datetime import datetime
 
 from django.utils.translation import gettext_lazy as _
+
 from packtools.sps.models.article_ids import ArticleIds
 
 from . import exceptions
 from .models import Article, choices
 
 
-def create_article(sps_pkg, user):
+def create_article(sps_pkg, user, force_update):
     article = Article.create_or_update(user, sps_pkg)
     article.add_journal(user)
     article.add_issue(user)
+    article.save()
+    article.link_to_scielo_article(user, force_update)
     article.save()
     return {"article": article}
 

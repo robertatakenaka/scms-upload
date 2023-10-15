@@ -1,3 +1,4 @@
+import logging
 from datetime import datetime
 
 from django.contrib.auth import get_user_model
@@ -43,6 +44,12 @@ class SciELOArticle(CommonControlField):
         blank=True,
         choices=collection_choices.WS_PUBLICATION_STAGE,
     )
+
+    @property
+    def scielo_journal(self):
+        return SciELOJournal.get(
+            collection=self.collection, journal=self.article.journal
+        )
 
     @classmethod
     def get(cls, article=None, collection=None):
@@ -207,19 +214,31 @@ class Article(ClusterableModel, CommonControlField):
         obj.sps_pkg = sps_pkg
         obj.save()
 
-        for journal in SciELOJournal.objects.filter(journal=obj.journal).iterator():
-            SciELOArticle.create_or_update(
-                user=user,
-                collection=journal.collection,
-                article=obj,
-            )
         return obj
 
     def complete_data(self, user):
         self.add_journal()
         self.add_issue()
         # ...
-        article.save()
+        self.save()
+
+    def link_to_scielo_article(self, user, force_update):
+        if not self.journal:
+            raise ValueError(
+                "Unable to link article and scielo_article. Missing article.journal"
+            )
+        for scielo_journal in SciELOJournal.objects.filter(
+            journal=self.journal
+        ).iterator():
+            logging.info(scielo_journal)
+            scielo_article = SciELOArticle.create_or_update(
+                user=user,
+                collection=scielo_journal.collection,
+                article=self,
+            )
+            if force_update:
+                scielo_article.publication_stage = None
+                scielo_article.save()
 
     def add_type(self, article_type):
         self.article_type = article_type
