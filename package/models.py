@@ -8,17 +8,20 @@ from zipfile import ZipFile
 from django.core.files.base import ContentFile
 from django.db import models
 from django.utils.translation import gettext_lazy as _
-from packtools.sps.models.v2.article_assets import ArticleAssets
-from packtools.sps.pid_provider.xml_sps_lib import XMLWithPre, get_xml_with_pre
-from packtools.utils import SPPackage
-from wagtail.admin.panels import FieldPanel, InlinePanel
+from modelcluster.fields import ParentalKey
+from modelcluster.models import ClusterableModel
+from wagtail.admin.panels import FieldPanel, InlinePanel, ObjectList, TabbedInterface
 from wagtailautocomplete.edit_handlers import AutocompletePanel
+from wagtail.models import Orderable
 
-from collection.models import Language
 from collection import choices as collection_choices
+from collection.models import Language
 from core.models import CommonControlField
 from files_storage.models import FileLocation, MinioConfiguration
 from package import choices
+from packtools.sps.models.v2.article_assets import ArticleAssets
+from packtools.sps.pid_provider.xml_sps_lib import XMLWithPre, get_xml_with_pre
+from packtools.utils import SPPackage
 from pid_requester.controller import PidRequester
 
 pid_requester_app = PidRequester()
@@ -117,7 +120,7 @@ class BasicXMLFile(CommonControlField):
             return
 
 
-class PkgAnnotation(CommonControlField):
+class PkgAnnotation(CommonControlField, Orderable):
     sps_pkg = models.ForeignKey(
         "SPSPkg", on_delete=models.SET_NULL, null=True, blank=True
     )
@@ -175,7 +178,7 @@ def pkg_directory_path(instance, filename):
     return f"pkg/{subdir}/{filename}"
 
 
-class SPSComponent(FileLocation):
+class SPSComponent(FileLocation, Orderable):
     category = models.CharField(
         _("Package component type"),
         max_length=32,
@@ -188,6 +191,7 @@ class SPSComponent(FileLocation):
         null=True,
         blank=True,
     )
+    legacy_uri = models.TextField(null=True, blank=True)
 
     autocomplete_search_field = "uri"
 
@@ -199,7 +203,7 @@ class SPSComponent(FileLocation):
 
     panels = FileLocation.panels + [
         FieldPanel("category"),
-        AutocompletePanel("lang"),
+        FieldPanel("lang"),
     ]
 
     @classmethod
@@ -208,18 +212,21 @@ class SPSComponent(FileLocation):
             return cls.objects.get(uri=uri)
 
     @classmethod
-    def create_or_update(cls, user, uri, basename=None, category=None, lang=None):
+    def create_or_update(
+        cls, user, uri, basename=None, category=None, lang=None, legacy_uri=None
+    ):
         try:
             obj = cls.objects.get(uri=uri)
             obj.updated_by = user
         except cls.DoesNotExist:
             obj = cls()
             obj.uri = uri
-            obj.basename = basename
             obj.creator = user
 
         try:
-            obj.category = category
+            obj.legacy_uri = legacy_uri or obj.legacy_uri
+            obj.basename = basename or obj.basename
+            obj.category = category or obj.category
             if lang:
                 obj.lang = Language.get_or_create(creator=user, code2=lang)
             obj.save()
@@ -230,7 +237,7 @@ class SPSComponent(FileLocation):
             )
 
 
-class SPSPkg(CommonControlField):
+class SPSPkg(CommonControlField, ClusterableModel):
     pid_v3 = models.CharField(max_length=23, null=True, blank=True)
     sps_pkg_name = models.CharField(_("SPS Name"), max_length=32, null=True, blank=True)
     file = models.FileField(upload_to=pkg_directory_path, null=True, blank=True)
@@ -245,19 +252,36 @@ class SPSPkg(CommonControlField):
     )
     annotations = models.ManyToManyField(PkgAnnotation)
     is_published = models.BooleanField(null=True, blank=True)
-    panels = [
+
+    panel_identification = [
         FieldPanel("sps_pkg_name"),
-        # FieldPanel("file")
         FieldPanel("pid_v3"),
-        FieldPanel("xml_uri"),
-        InlinePanel("components"),
         FieldPanel("origin"),
+    ]
+
+    panel_files = [
+        FieldPanel("xml_uri"),
+        FieldPanel("file"),
+        InlinePanel("components"),
+    ]
+
+    panel_status = [
+        FieldPanel("is_published"),
         InlinePanel("annotations"),
     ]
+
+    edit_handler = TabbedInterface(
+        [
+            ObjectList(panel_status, heading=_("Status")),
+            ObjectList(panel_identification, heading=_("Identification")),
+            ObjectList(panel_files, heading=_("Files")),
+        ]
+    )
 
     class Meta:
         indexes = [
             models.Index(fields=["pid_v3"]),
+            models.Index(fields=["sps_pkg_name"]),
         ]
 
     def autocomplete_label(self):
@@ -367,7 +391,7 @@ class SPSPkg(CommonControlField):
                 PkgAnnotation.create(
                     creator=user,
                     annotation_type=choices.ANNOTATION_EXECUTION_FAILURE,
-                    annotation_text=message,
+                    annotation_text="pid requester response",
                     e=None,
                     sps_pkg=None,
                     detail={
@@ -420,10 +444,10 @@ class SPSPkg(CommonControlField):
         xml_with_pre = self._push_components(user, subdir)
 
         xml_assets = ArticleAssets(xml_with_pre.xmltree)
-        self._set_component_category_and_lang(xml_assets, user)
+        self._set_component_category_and_lang(sps_pkg_name, xml_assets, user)
 
         self._local_to_remote(xml_assets)
-        self._push_xml(user, xml_with_pre, subdir, self.sps_pkg_name + ".xml")
+        self._push_xml(user, xml_with_pre, subdir, sps_pkg_name + ".xml")
 
     def _push_components(self, user, subdir):
         xml_with_pre = None
@@ -448,7 +472,7 @@ class SPSPkg(CommonControlField):
                     )
         return xml_with_pre
 
-    def _set_component_category_and_lang(self, xml_assets, user):
+    def _set_component_category_and_lang(self, sps_pkg_name, xml_assets, user):
         for asset in xml_assets.items:
             try:
                 component = self.components.filter(
@@ -467,10 +491,12 @@ class SPSPkg(CommonControlField):
         for component in self.components.filter(category__isnull=True):
             name, ext = os.path.splitext(component.basename)
             if ext == ".pdf":
-                if name[-3] == "-":
-                    if name[-2:]:
+                lang = name.replace(sps_pkg_name, "")
+                if lang:
+                    lang = lang[-2:]
+                    if lang.isalpha():
                         component.lang = Language.get_or_create(
-                            creator=user, code2=name[-2:]
+                            creator=user, code2=lang[-2:]
                         )
                 component.category = "rendition"
             elif ext == ".xml":
