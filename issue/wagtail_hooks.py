@@ -26,18 +26,18 @@ class IssueAdmin(ModelAdmin):
     exclude_from_explorer = False
 
     list_display = (
-        "official_journal",
+        "journal",
         "publication_year",
         "volume",
         "number",
         "supplement",
     )
     list_filter = (
-        "official_journal",
+        "journal",
         "publication_year",
     )
     search_fields = (
-        "official_journal__title",
+        "journal__title",
         "publication_year",
         "volume",
         "number",
