@@ -8,11 +8,11 @@ from shutil import copyfile
 from django.core.files.base import ContentFile
 from django.db import models
 from django.utils.translation import gettext as _
-from packtools.sps.pid_provider import v3_gen, xml_sps_adapter
 from wagtail.admin.panels import FieldPanel
 
 from core.forms import CoreAdminModelForm
 from core.models import CommonControlField
+from packtools.sps.pid_provider import v3_gen, xml_sps_adapter
 from pid_requester import exceptions
 from xmlsps.models import XMLSPS, XMLIssue, XMLJournal, XMLVersion, xml_directory_path
 
@@ -555,14 +555,17 @@ class PidRequesterXML(CommonControlField):
     def _add_synchronization_status(self, error_msg, error_type, traceback, user):
         if error_msg or error_type or traceback:
             self.synchronized = False
+            self.save()
             self.sync_failure = SyncFailure.create(
                 error_msg,
                 error_type,
                 traceback,
                 user,
             )
+            self.save()
         else:
             self.synchronized = True
+            self.save()
             if self.sync_failure:
                 self.sync_failure.delete()
 
@@ -754,8 +757,7 @@ class PidRequesterXML(CommonControlField):
         self.current_version = XMLVersion.get_or_create(user, xml_adapter.xml_with_pre)
 
     def _add_related_items(self, xml_adapter, creator):
-        if xml_adapter.related_items:
-            self.save()
+        self.save()
         for related in xml_adapter.related_items:
             self.related_items.add(
                 XMLRelatedItem.get_or_create(related["href"], creator)
