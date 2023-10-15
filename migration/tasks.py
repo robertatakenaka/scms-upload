@@ -4,9 +4,9 @@ from django.contrib.auth import get_user_model
 from django.db.models import Q
 from django.utils.translation import gettext_lazy as _
 
+from bigbang import tasks_scheduler
 from collection.models import Collection
 from config import celery_app
-from bigbang import tasks_scheduler
 from migration.models import (
     MigratedDocument,
     MigratedDocumentHTML,
@@ -16,13 +16,17 @@ from migration.models import (
 
 from . import controller
 from .choices import (
+    DOC_TO_REPROCESS,
     DOC_GENERATED_SPS_PKG,
+    DOC_GENERATED_XML,
     DOC_TO_GENERATE_SPS_PKG,
     DOC_TO_GENERATE_XML,
-    DOC_GENERATED_XML,
     MS_IMPORTED,
     MS_TO_IGNORE,
     MS_TO_MIGRATE,
+    MS_TO_REPROCESS,
+    HTML2XML_TO_REPROCESS,
+    HTML2XML_TO_GENERATE,
 )
 
 User = get_user_model()
@@ -101,17 +105,22 @@ def task_migrate_title_db(
     """
     user = _get_user(user_id, username)
 
+    collection = Collection.get_or_create(acron=collection_acron)
+
     # Cria ou atualiza os registros de OfficialJournal, SciELOJournal e Journal
     # somente para os registros de MigratedJournal cujo status=MS_TO_MIGRATE
+    MigratedJournal.objects.filter(
+        collection=collection, status=MS_TO_REPROCESS
+    ).update(status=MS_TO_MIGRATE)
+
     if force_update:
         # modifica os status = MS_IMPORTED para MS_TO_MIGRATE
-        items = MigratedJournal.objects.filter(
+        MigratedJournal.objects.filter(
             collection=collection, status=MS_IMPORTED
         ).update(status=MS_TO_MIGRATE)
 
     # para cada registro da base de dados "title",
     # cria um registro MigratedJournal
-    collection = Collection.get_or_create(acron=collection_acron, user=user)
     controller.migrate_title_db(user, collection, force_update)
 
     # seleciona os registros MigratedJournal para disparar as tarefas
@@ -125,7 +134,7 @@ def task_migrate_title_db(
         task_create_or_update_journal.apply_async(
             kwargs=dict(
                 username=user.username,
-                migrated_item_id=item.id,
+                item_id=item.id,
                 force_update=force_update,
             )
         )
@@ -135,7 +144,7 @@ def task_migrate_title_db(
 def task_create_or_update_journal(
     self,
     username,
-    migrated_item_id,
+    item_id,
     force_update=False,
     user_id=None,
 ):
@@ -147,14 +156,14 @@ def task_create_or_update_journal(
     ----------
     username : str
         identificacao do usuário
-    migrated_item_id : int
+    item_id : int
         id de MigratedJournal
     force_update : bool
         atualiza mesmo se já existe
 
     """
     user = _get_user(user_id, username)
-    item = MigratedJournal.objects.get(pk=migrated_item_id)
+    item = MigratedJournal.objects.get(pk=item_id)
     controller.create_or_update_journal(user, item, force_update)
 
 
@@ -223,9 +232,14 @@ def task_migrate_issue_db(
 
     """
     user = _get_user(user_id, username)
+    collection = Collection.get_or_create(acron=collection_acron, user=user)
 
     # Cria ou atualiza os registros de SciELOIssue e Issue
     # somente para os registros de MigratedIssue cujo status=MS_TO_MIGRATE
+    MigratedIssue.objects.filter(collection=collection, status=MS_TO_REPROCESS).update(
+        status=MS_TO_MIGRATE
+    )
+
     if force_update:
         # modifica os status = MS_IMPORTED para MS_TO_MIGRATE
         items = MigratedIssue.objects.filter(
@@ -234,7 +248,6 @@ def task_migrate_issue_db(
 
     # para cada registro da base de dados "issue",
     # cria um registro MigratedIssue
-    collection = Collection.get_or_create(acron=collection_acron, user=user)
     controller.migrate_issue_db(user, collection, force_update)
 
     # seleciona os registros MigratedIssue para disparar as tarefas
@@ -248,7 +261,7 @@ def task_migrate_issue_db(
         task_create_or_update_issue.apply_async(
             kwargs=dict(
                 username=user.username,
-                migrated_item_id=item.id,
+                item_id=item.id,
                 force_update=force_update,
             )
         )
@@ -258,7 +271,7 @@ def task_migrate_issue_db(
 def task_create_or_update_issue(
     self,
     username,
-    migrated_item_id,
+    item_id,
     force_update=False,
     user_id=None,
 ):
@@ -270,14 +283,14 @@ def task_create_or_update_issue(
     ----------
     username : str
         identificacao do usuário
-    migrated_item_id : int
+    item_id : int
         id de MigratedIssue
     force_update : bool
         atualiza mesmo se já existe
 
     """
     user = _get_user(user_id, username)
-    item = MigratedIssue.objects.get(pk=migrated_item_id)
+    item = MigratedIssue.objects.get(pk=item_id)
     controller.create_or_update_issue(user, item, force_update)
 
 
@@ -303,6 +316,11 @@ def task_migrate_document_files(
 
     user = _get_user(user_id, username)
     for collection in collections:
+
+        MigratedIssue.objects.filter(
+            collection=collection, files_status=MS_TO_REPROCESS
+        ).update(files_status=MS_TO_MIGRATE)
+
         if force_update:
             items = MigratedIssue.objects.filter(
                 collection=collection, files_status=MS_IMPORTED
@@ -318,7 +336,7 @@ def task_migrate_document_files(
             task_import_one_issue_files.apply_async(
                 kwargs=dict(
                     username=user.username,
-                    migrated_item_id=item.id,
+                    item_id=item.id,
                     force_update=force_update,
                 )
             )
@@ -328,7 +346,7 @@ def task_migrate_document_files(
 def task_import_one_issue_files(
     self,
     username,
-    migrated_item_id,
+    item_id,
     force_update=False,
     user_id=None,
 ):
@@ -337,7 +355,7 @@ def task_import_one_issue_files(
     somente para os registros de MigratedIssue cujo files_status=MS_TO_MIGRATE
     """
     user = _get_user(user_id, username)
-    item = MigratedIssue.objects.get(pk=migrated_item_id)
+    item = MigratedIssue.objects.get(pk=item_id)
     controller.import_one_issue_files(user, item, force_update)
 
 
@@ -363,6 +381,11 @@ def task_migrate_document_records(
 
     user = _get_user(user_id, username)
     for collection in collections:
+
+        MigratedIssue.objects.filter(
+            collection=collection, docs_status=MS_TO_REPROCESS
+        ).update(docs_status=MS_TO_MIGRATE)
+
         if force_update:
             items = MigratedIssue.objects.filter(
                 collection=collection, docs_status=MS_IMPORTED
@@ -378,7 +401,7 @@ def task_migrate_document_records(
             task_import_one_issue_document_records.apply_async(
                 kwargs=dict(
                     username=user.username,
-                    migrated_item_id=item.id,
+                    item_id=item.id,
                     issue_folder=item.scielo_issue.issue_folder,
                     issue_pid=item.pid,
                     force_update=force_update,
@@ -390,7 +413,7 @@ def task_migrate_document_records(
 def task_import_one_issue_document_records(
     self,
     username,
-    migrated_item_id,
+    item_id,
     issue_folder=None,
     issue_pid=None,
     force_update=False,
@@ -400,7 +423,7 @@ def task_import_one_issue_document_records(
     Cria ou atualiza os registros de MigratedDocument
     """
     user = _get_user(user_id, username)
-    item = MigratedIssue.objects.get(pk=migrated_item_id)
+    item = MigratedIssue.objects.get(pk=item_id)
     controller.import_one_issue_document_records(
         user=user,
         migrated_issue=item,
@@ -432,10 +455,18 @@ def task_html_to_xmls(
         ] = journal_acron
     if publication_year:
         params[
-            "migrated_issue__scielo_issue__official_issue__publication_year"
+            "migrated_issue__scielo_issue__issue__publication_year"
         ] = publication_year
     if issue_folder:
         params["migrated_issue__scielo_issue__issue_folder"] = issue_folder
+
+    items = MigratedDocumentHTML.objects.filter(
+        Q(conversion_status=HTML2XML_TO_REPROCESS),
+        **params,
+    ).update(
+        xml_status=DOC_TO_GENERATE_XML,
+        conversion_status=HTML2XML_TO_GENERATE,
+    )
 
     if force_update:
         items = MigratedDocumentHTML.objects.filter(
@@ -454,7 +485,7 @@ def task_html_to_xmls(
         task_html_to_xml.apply_async(
             kwargs={
                 "username": user.username,
-                "migrated_item_id": migrated_doc.id,
+                "item_id": migrated_doc.id,
                 "body_and_back_xml": force_update,
                 "html_to_xml": force_update,
             }
@@ -465,13 +496,13 @@ def task_html_to_xmls(
 def task_html_to_xml(
     self,
     username,
-    migrated_item_id,
+    item_id,
     body_and_back_xml,
     html_to_xml,
     user_id=None,
 ):
     user = _get_user(user_id, username)
-    migrated_document = MigratedDocumentHTML.objects.get(pk=migrated_item_id)
+    migrated_document = MigratedDocumentHTML.objects.get(pk=item_id)
     migrated_document.html_to_xml(user, body_and_back_xml, html_to_xml)
 
 
@@ -498,23 +529,30 @@ def task_generate_sps_packages(
         ] = journal_acron
     if publication_year:
         params[
-            "migrated_issue__scielo_issue__official_issue__publication_year"
+            "migrated_issue__scielo_issue__issue__publication_year"
         ] = publication_year
     if issue_folder:
         params["migrated_issue__scielo_issue__issue_folder"] = issue_folder
 
+    items = MigratedDocument.objects.filter(
+        Q(sps_pkg__isnull=False) | Q(xml_status=DOC_TO_REPROCESS), **params
+    ).update(xml_status=DOC_TO_GENERATE_SPS_PKG)
+
     if force_update:
         # params["sps_pkg__isnull"] = False
         items = MigratedDocument.objects.filter(
-            Q(sps_pkg__isnull=False), **params
-        ).update(sps_pkg=None)
+            Q(xml_status=DOC_GENERATED_SPS_PKG), **params
+        ).update(xml_status=DOC_TO_GENERATE_SPS_PKG)
 
-    items = MigratedDocument.objects.filter(Q(sps_pkg__isnull=True), **params)
+    logging.info("!!!!")
+    items = MigratedDocument.objects.filter(
+        xml_status=DOC_TO_GENERATE_SPS_PKG, **params
+    )
     for migrated_doc in items.iterator():
         task_generate_sps_package.apply_async(
             kwargs={
                 "username": user.username,
-                "migrated_item_id": migrated_doc.id,
+                "item_id": migrated_doc.id,
                 "body_and_back_xml": body_and_back_xml,
                 "html_to_xml": html_to_xml,
             }
@@ -525,13 +563,13 @@ def task_generate_sps_packages(
 def task_generate_sps_package(
     self,
     username,
-    migrated_item_id,
+    item_id,
     body_and_back_xml=False,
     html_to_xml=False,
     user_id=None,
 ):
     user = _get_user(user_id, username)
-    migrated_document = MigratedDocument.objects.get(pk=migrated_item_id)
+    migrated_document = MigratedDocument.objects.get(pk=item_id)
     migrated_document.generate_sps_package(
         user,
         body_and_back_xml,
