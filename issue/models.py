@@ -146,6 +146,9 @@ class SciELOIssue(CommonControlField):
             models.Index(fields=["issue_folder"]),
         ]
 
+    def autocomplete_label(self):
+        return f"{self.scielo_journal.acron} {self.issue_folder}"
+
     @classmethod
     def get(cls, scielo_journal, issue_folder=None, issue_pid=None, issue=None):
         if not scielo_journal:
@@ -192,7 +195,7 @@ class SciELOIssue(CommonControlField):
     def items_to_publish(cls, website_kind, collection=None):
         params = {}
         if collection:
-            params["collection"] = collection
+            params["scielo_journal__collection"] = collection
         if website_kind == collection_choices.QA:
             # seleciona journals para publicar em QA
             return cls.objects.filter(
