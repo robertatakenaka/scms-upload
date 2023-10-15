@@ -31,11 +31,16 @@ def task_create_or_update_articles(
     user = _get_user(user_id, username)
 
     try:
+        from_date = "2000-01-01"
         if force_update:
-            from_date = "2000-01-01"
-        if from_date:
-            from_date = datetime.strptime(from_date, "%Y-%M-%d")
-        last = from_date or Article.get_latest_change()
+            last = datetime.strptime(from_date, "%Y-%M-%d")
+        else:
+            try:
+                last = SciELOArticle.get_latest_change()
+            except:
+                last = datetime.strptime(from_date, "%Y-%M-%d")
+
+        logging.info(f"Date to select articles {last.isoformat()}")
         items = SPSPkg.objects.filter(
             Q(updated__gte=last) | Q(created__gte=last),
             # is_approved=True
@@ -49,6 +54,7 @@ def task_create_or_update_articles(
             kwargs={
                 "username": user.username,
                 "pkg_id": item.id,
+                "force_update": force_update,
             }
         )
 
@@ -59,7 +65,8 @@ def task_create_or_update_article(
     user_id=None,
     username=None,
     pkg_id=None,
+    force_update=None,
 ):
     user = _get_user(user_id, username)
     item = SPSPkg.objects.get(id=pkg_id)
-    create_article(item, user)
+    create_article(item, user, force_update)
