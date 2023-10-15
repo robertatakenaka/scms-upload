@@ -14,6 +14,7 @@ def build_journal(scielo_journal, builder):
     official_journal = journal.official_journal
 
     builder.add_ids(journal_id)
+    builder.add_dates(scielo_journal.created, scielo_journal.updated)
     builder.add_acron(scielo_journal.acron)
     builder.add_contact(
         name=", ".join(classic_j.publisher_name),
@@ -33,7 +34,18 @@ def build_journal(scielo_journal, builder):
         builder.add_mission(item["language"], item["text"])
 
     # TODO
-    # factory.add_event_to_timeline(status, since, reason)
+    for item in classic_j.status_history:
+        # FIXME ver os demais valores:
+        # "interrupted": __("indexação interrompida pelo Comitê"),
+        # "finished": __("publicação finalizada"),
+        if item["status"] == "C":
+            item["status"] = "current"
+        elif item["status"] == "D":
+            item["status"] = "deceased"
+        elif item["status"] == "S":
+            item["status"] = "suspended"
+
+        builder.add_event_to_timeline(item["status"], item["date"], item.get("reason"))
     builder.add_journal_issns(
         scielo_issn=journal_id,
         eletronic_issn=official_journal.issn_electronic,
@@ -46,6 +58,7 @@ def build_journal(scielo_journal, builder):
     )
     builder.add_logo_url(journal.logo_url or "https://www.scielo.org/journal_logo_missing.gif")
     builder.add_online_submission_url(classic_j.submission_url)
+    # TODO
     # builder.add_related_journals(previous_journal, next_journal_title)
     for item in classic_j.sponsors:
         builder.add_sponsor(item)
@@ -53,4 +66,4 @@ def build_journal(scielo_journal, builder):
         subject_categories=None,
         subject_areas=classic_j.subject_areas,
     )
-    builder.add_is_public()
+    # builder.add_is_public()

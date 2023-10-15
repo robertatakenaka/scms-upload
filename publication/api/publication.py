@@ -1,6 +1,11 @@
 import logging
 import sys
+import traceback
+import json
+import urllib
 
+from requests.auth import HTTPBasicAuth
+from requests import HTTPError
 from django.utils.translation import gettext_lazy as _
 
 from core.utils.requester import post_data
@@ -19,21 +24,36 @@ class PublicationAPI:
         username=None,
         password=None,
         timeout=None,
+        token=None,
     ):
         self.timeout = timeout or 15
         self.post_data_url = post_data_url
         self.get_token_url = get_token_url
         self.username = username
         self.password = password
+        self.token = token
 
-    def post_data(self, payload):
+    @property
+    def data(self):
+        return dict(
+            post_data_url=self.post_data_url,
+            get_token_url=self.get_token_url,
+            username=self.username,
+            password=self.password,
+        )
+
+    def post_data(self, payload, kwargs=None):
         """
-        name : str
-            nome do arquivo xml
+        payload : dict
         """
+        logging.info(f"payload={payload}")
+        response = None
         try:
-            token = self._get_token()
-            return self._post_data(payload, token)
+            self.token = self.token or self.get_token()
+            response = self._post_data(payload, self.token, kwargs)
+        except HTTPError as e:
+            if e.code == 401:
+                response = self._get_token_and_post_data(payload, kwargs)
         except (
             exceptions.GetAPITokenError,
             exceptions.APIPostDataError,
@@ -46,10 +66,32 @@ class PublicationAPI:
                     str(item) for item in traceback.extract_tb(exc_traceback)
                 ],
             }
+        return response or {}
 
-    def _get_token(self):
+    def _get_token_and_post_data(self, payload, kwargs=None):
         """
-        curl -X POST 127.0.0.1:8000/api-token-auth/ \
+        payload : dict
+        """
+        try:
+            self.token = self.token or self.get_token()
+            return self._post_data(payload, self.token, kwargs)
+        except (
+            exceptions.GetAPITokenError,
+            exceptions.APIPostDataError,
+        ) as e:
+            exc_type, exc_value, exc_traceback = sys.exc_info()
+            logging.info(payload)
+            return {
+                "error_msg": str(e),
+                "error_type": str(type(e)),
+                "traceback": [
+                    str(item) for item in traceback.extract_tb(exc_traceback)
+                ],
+            }
+
+    def get_token(self):
+        """
+        curl -X POST 127.0.0.1:8000/api/v1/auth \
             --data 'username=x&password=x'
         """
         if not self.get_token_url:
@@ -58,13 +100,13 @@ class PublicationAPI:
         try:
             resp = post_data(
                 self.get_token_url,
-                data={"username": self.username, "password": self.password},
-                auth=HTTPBasicAuth(self.username, self.password),
+                # data={"username": self.username, "password": self.password},
+                auth=(self.username, self.password),
                 timeout=self.timeout,
                 json=True,
             )
             logging.info(resp)
-            return resp.get("access")
+            return resp.get("token")
         except Exception as e:
             # TODO tratar as exceções
             logging.exception(e)
@@ -76,30 +118,31 @@ class PublicationAPI:
                 )
             )
 
-    def _post_data(self, payload, token):
+    def _post_data(self, payload, token, kwargs=None):
         """
         payload : dict
         token : str
 
         curl -X POST -S \
-            -H "Content-Disposition: attachment;filename=arquivo.zip" \
-            -F "file=@path/arquivo.zip;type=application/zip" \
-            -H 'Authorization: Bearer eyJ0b2tlb' \
-            http://localhost:8000/api/v2/pid/pid_provider/ --output output.json
+            -H 'Authorization: Basic eyJ0b2tlb' \
+            http://localhost:8000/api/v1/journal/
         """
         if token:
             header = {
-                "Authorization": "Bearer " + token,
-                # "content-type": "multi-part/form-data",
-                # "Content-Disposition": "attachment; filename=%s" % basename,
+                "Authorization": "Basic " + token,
+                'Content-Type': 'application/json',
             }
         else:
             header = {}
         try:
             logging.info(self.post_data_url)
+            if kwargs:
+                params = "&" + urllib.parse.urlencode(kwargs)
+            else:
+                params = ""
             return post_data(
-                self.post_data_url,
-                data=payload,
+                f"{self.post_data_url}/?token={token}{params}",
+                data=json.dumps(payload),
                 headers=header,
                 timeout=self.timeout,
                 verify=False,

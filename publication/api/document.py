@@ -7,22 +7,22 @@ from publication.utils.document import build_article
 from publication.api.publication import PublicationAPI
 
 
-def publish_article(user, website, scielo_article):
+def publish_article(user, scielo_article, api_data):
     try:
         data = {}
         builder = ArticlePayload(data)
         build_article(
-            scielo_article.article, scielo_article.scielo_issue.scielo_journal, builder
+            scielo_article.article, scielo_article.scielo_journal, builder
         )
 
-        api = PublicationAPI(
-            post_data_url=website.api_url_article,
-            get_token_url=website.api_get_token_url,
-            username=website.api_username or user.username,
-            password=website.api_password or user.password,
-            timeout=website.api_timeout,
+        api = PublicationAPI(**api_data)
+        kwargs = dict(
+            article_id=data.get("_id"),
+            issue_id=data.get("issue_id"),
+            order=data.get("order"),
+            article_url=data.get("xml"),
         )
-        response = api.post_data(data)
+        response = api.post_data(data, kwargs)
         if response.get("result") == "OK":
             scielo_article.update_publication_stage()
             scielo_article.save()
@@ -33,14 +33,15 @@ def publish_article(user, website, scielo_article):
 
 
 class ArticlePayload:
+    # article_id, payload, issue_id, order, article_url
     # https://github.com/scieloorg/opac-airflow/blob/4103e6cab318b737dff66435650bc4aa0c794519/airflow/dags/operations/sync_kernel_to_website_operations.py#L82
-
     def __init__(self, data):
         self.data = data
         self.data["authors_meta"] = None
         self.data["authors"] = None
         self.data["translated_titles"] = None
         self.data["translated_sections"] = None
+        self.data["abstract"] = None
         self.data["abstracts"] = None
         self.data["keywords"] = None
         self.data["doi_with_lang"] = None
@@ -49,16 +50,18 @@ class ArticlePayload:
         self.data["pdfs"] = None
         self.data["mat_suppl_items"] = None
 
-    def add_journal(self, journal_id):
-        self.data["journal"] = journal_id
+    def add_dates(self, created, updated):
+        self.data["created"] = created.isoformat()
+        if updated:
+            self.data["updated"] = updated.isoformat()
 
     def add_issue(self, issue_id):
-        self.data["issue"] = issue_id
+        self.data["issue_id"] = issue_id
 
     def add_identifiers(self, v3, v2, aop_pid, other_pids=None):
         # Identificadores
-        self.data["_id"] = self.data["_id"] or v3
-        self.data["aid"] = self.data["aid"] or v3
+        self.data["_id"] = self.data.get("_id") or v3
+        self.data["aid"] = self.data.get("aid") or v3
         self.data["pid"] = v2
 
         self.data["scielo_pids"] = {}
@@ -74,9 +77,9 @@ class ArticlePayload:
 
     def add_other_pid(self, other_pid):
         if other_pid:
-            self.data["scielo_pids"].setdefault("other", [])
-            if other_pid not in self.data["scielo_pids"]["other"]:
-                self.data["scielo_pids"]["other"].append(other_pid)
+            self.data.setdefault("other_pids", [])
+            if other_pid not in self.data["other_pids"]:
+                self.data["other_pids"].append(other_pid)
 
     def add_main_metadata(self, title, section, abstract, lang, doi):
         # Dados principais (versão considerada principal)
@@ -108,8 +111,7 @@ class ArticlePayload:
     def add_author(self, surname, given_names, suffix, affiliation, orcid):
         # author meta
         # authors_meta"] = EmbeddedDocumentListField(AuthorMeta))
-        if self.data["authors_meta"] is None:
-            self.data["authors_meta"] = []
+        self.data["authors_meta"] = self.data["authors_meta"] or []
         author = {}
         author["surname"] = surname
         author["given_names"] = given_names
@@ -118,15 +120,15 @@ class ArticlePayload:
         author["orcid"] = orcid
         self.data["authors_meta"].append(author)
 
-        # author
-        if self.data["authors"] is None:
-            self.data["authors"] = []
-        _author = format_author_name(
-            surname,
-            given_names,
-            suffix,
-        )
-        self.data["authors"].append(_author)
+        # # author
+        # if self.data["authors"] is None:
+        #     self.data["authors"] = []
+        # _author = format_author_name(
+        #     surname,
+        #     given_names,
+        #     suffix,
+        # )
+        # self.data["authors"].append(_author)
 
     def add_translated_title(self, language, text):
         # translated_titles"] = EmbeddedDocumentListField(TranslatedTitle))
@@ -193,9 +195,9 @@ class ArticlePayload:
         if self.data["htmls"] is None:
             self.data["htmls"] = []
         self.data["htmls"].append({"lang": language, "uri": uri})
-        self.data["languages"] = [html["lang"] for html in self.data["htmls"]]
+        # self.data["languages"] = [html["lang"] for html in self.data["htmls"]]
 
-    def add_pdf(self, lang, url, filename, type, classic_uri):
+    def add_pdf(self, lang, url, filename, type, classic_uri=None):
         # pdfs"] = ListField(field=DictField()))
         """
         {
@@ -213,7 +215,7 @@ class ArticlePayload:
                 url=url,
                 filename=filename,
                 type=type,
-                # classic_uri=classic_uri,
+                classic_uri=classic_uri,
             )
         )
 
@@ -230,17 +232,8 @@ class ArticlePayload:
         # _mat_suppl_item.classic_uri"] = classic_uri
         self.data["mat_suppl_items"].append(_mat_suppl_item)
 
-    def add_aop_url_segs(self):
-        if self.data["issue"] and self.data["issue"]["number"] == "ahead":
-            self.data["aop_url_segs"] = {
-                "url_seg_article": self.data["url_segment"],
-                "url_seg_issue": self.data["issue"]["url_segment"],
-            }
-
     def add_status(self):
         # atualiza status
-        if self.data["issue"]:
-            self.data["issue"]["is_public"] = True
         self.data["is_public"] = True
 
 

@@ -32,7 +32,7 @@ def build_article(article, scielo_journal, builder):
         other_pids=None,
     )
 
-    builder.add_journal(scielo_journal.scielo_issn)
+    builder.add_dates(article.created, article.updated)
     builder.add_issue(
         get_bundle_id(
             issn_id=scielo_journal.scielo_issn,
@@ -51,7 +51,7 @@ def build_article(article, scielo_journal, builder):
     for item in sps_pkg.pdfs:
         lang = item.lang and item.lang.code2 or metadata.get("lang")
         builder.add_pdf(
-            lang=lang, url=item.uri, filename=item.basename, type=item.category
+            lang=lang, url=item.uri, filename=item.basename, type=item.category,
         )
     for item in sps_pkg.supplementary_material:
         builder.add_mat_suppl(
@@ -86,7 +86,6 @@ def build_article(article, scielo_journal, builder):
     for item in article_xml.get_related_articles():
         builder.add_related_article(**item)
 
-    builder.add_aop_url_segs()
     builder.add_status()
 
     for item in article_xml.get_abstracts():
@@ -113,9 +112,12 @@ class XMLArticle:
 
     def get_authors(self):
         for item in Authors(self.xmltree).contribs_with_affs:
-            affiliation = ", ".join(
-                [a.get("original") or a.get("orgname") for a in item["affs"]]
-            )
+            try:
+                affiliation = ", ".join(
+                    [a.get("original") or a.get("orgname") for a in item["affs"]]
+                )
+            except KeyError:
+                affiliation = None
             yield dict(
                 surname=item["surname"],
                 given_names=item["given_names"],
@@ -201,7 +203,7 @@ class XMLArticle:
         aids = ArticleIds(self.xmltree)
         article_meta_issue = ArticleMetaIssue(self.xmltree)
         return dict(
-            order=aids.other,
+            order=int(aids.other),
             fpage=article_meta_issue.fpage,
             fpage_seq=article_meta_issue.fpage_seq,
             lpage=article_meta_issue.lpage,
