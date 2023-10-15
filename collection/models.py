@@ -2,11 +2,12 @@ import logging
 
 from django.db import models
 from django.utils.translation import gettext_lazy as _
-from wagtailautocomplete.edit_handlers import AutocompletePanel
 from wagtail.admin.panels import FieldPanel, InlinePanel
+from wagtailautocomplete.edit_handlers import AutocompletePanel
 
 from core.forms import CoreAdminModelForm
 from core.models import CommonControlField
+
 from .choices import JOURNAL_AVAILABILTY_STATUS, WEBSITE_KIND
 
 
@@ -27,7 +28,7 @@ class Collection(CommonControlField):
     base_form_class = CoreAdminModelForm
 
     def autocomplete_label(self):
-        return self.name
+        return f"{self.name} ({self.acron})"
 
     @classmethod
     def get(cls, acron):
@@ -113,6 +114,8 @@ class WebSiteConfiguration(CommonControlField):
 
     @classmethod
     def get(cls, url=None, collection=None, purpose=None):
+        params = dict(url=url, collection=collection, purpose=purpose)
+        logging.info(f"Collection.get({params})")
         if url:
             return cls.objects.get(url=url)
         if collection and purpose:
