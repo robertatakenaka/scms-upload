@@ -10,6 +10,7 @@ from wagtail.contrib.modeladmin.options import (
 from wagtail.contrib.modeladmin.views import CreateView
 
 from config.menu import get_menu_order
+from core.models import Incident
 from files_storage.models import MinioConfiguration
 from migration.models import ClassicWebsiteConfiguration
 
@@ -119,6 +120,52 @@ class ClassicWebsiteConfigurationModelAdmin(ModelAdmin):
     )
 
 
+class IncidentModelAdmin(ModelAdmin):
+    model = Incident
+    inspect_view_enabled = True
+    menu_label = _("Incidents")
+    menu_icon = "folder"
+    menu_order = 200
+    add_to_settings_menu = False
+    exclude_from_explorer = False
+
+    list_display = (
+        "app_name",
+        "context",
+        "item_name",
+        "item_id",
+        "message",
+        "exception_msg",
+        "created",
+    )
+    list_filter = (
+        "collection_acron",
+        "app_name",
+        "context",
+        "item_name",
+        "exception_type",
+        "status",
+    )
+    search_fields = (
+        "app_name",
+        "context",
+        "item_id",
+        "message",
+        "exception_msg",
+    )
+    inspect_view_fields = (
+        "collection_acron",
+        "app_name",
+        "context",
+        "item_name",
+        "item_id",
+        "exception_type",
+        "exception_msg",
+        "traceback",
+        "created",
+    )
+
+
 class CollectionModelAdminGroup(ModelAdminGroup):
     menu_label = _("Collections")
     menu_icon = "folder-open-inverse"
@@ -129,6 +176,7 @@ class CollectionModelAdminGroup(ModelAdminGroup):
         WebSiteConfigurationModelAdmin,
         MinioConfigurationModelAdmin,
         ClassicWebsiteConfigurationModelAdmin,
+        IncidentModelAdmin,
     )
 
 
