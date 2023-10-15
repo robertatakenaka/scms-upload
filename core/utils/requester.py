@@ -28,6 +28,7 @@ class NonRetryableError(Exception):
 def _add_param(params, name, value):
     if value:
         params[name] = value
+    return params
 
 
 @retry(
@@ -67,9 +68,12 @@ def post_data(
             timeout=timeout,
             verify=verify,
         )
-        _add_param(params, "auth", auth)
-        _add_param(params, "files", files)
-        _add_param(params, "data", data)
+        params = _add_param(params, "auth", auth)
+        params = _add_param(params, "files", files)
+        params = _add_param(params, "data", data)
+        logging.info(f"data={data}")
+        for k, v in params.items():
+        	logging.info(f"{k}={v}")
         response = requests.post(url, **params)
     except (requests.exceptions.ConnectionError, requests.exceptions.Timeout) as exc:
         logger.error("Erro posting data: %s, retry..., erro: %s" % (url, exc))
