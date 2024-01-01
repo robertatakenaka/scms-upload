@@ -4,6 +4,7 @@ from django.contrib.auth import get_user_model
 
 from config import celery_app
 from pid_provider.controller import PidProvider
+from proc.models import ArticleProc
 
 User = get_user_model()
 
@@ -44,4 +45,4 @@ def task_synchronize_to_pid_provider(
     user = _get_user(self.request, username=username, user_id=user_id)
 
     pid_provider = PidProvider()
-    pid_provider.synchronize(user)
+    pid_provider.synchronize(user, ArticleProc)

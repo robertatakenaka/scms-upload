@@ -271,7 +271,7 @@ class PidProvider:
         response.update(demand)
         return response
 
-    def synchronize(self, user):
+    def synchronize(self, user, ArticleProc):
         """
         Identifica no pid provider local os registros que não
         estão sincronizados com o pid provider remoto (central) e
@@ -288,7 +288,9 @@ class PidProvider:
             xml_with_pre = item.xml_with_pre
             response = self.pid_provider_api.provide_pid(xml_with_pre, name)
             item.set_synchronized(user, **response)
-            # if response.get("synchronized"):
-            #     article_proc = ArticleProc.objects.get(sps_pkg__pid_v3=item.pid_v3)
-            #     article_proc.sps_pkg_status = tracker_choices.PROGRESS_STATUS_DONE
-            #     article_proc.save()
+            if response.get("synchronized") and ArticleProc:
+                try:
+                    article_proc = ArticleProc.objects.get(sps_pkg__pid_v3=item.pid_v3)
+                    article_proc.update_sps_pkg_status()
+                except ArticleProc.DoesNotExist:
+                    pass
