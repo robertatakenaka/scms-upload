@@ -194,6 +194,17 @@ class SPSPkgComponent(FileLocation, Orderable):
         FieldPanel("legacy_uri"),
     ]
 
+    @property
+    def data(self):
+        return dict(
+            basename=self.basename,
+            uri=self.uri,
+            component_type=self.component_type,
+            legacy_uri=self.legacy_uri,
+            lang=self.lang.code2,
+            xml_elem_id=self.xml_elem_id,
+        )
+
     @classmethod
     def get(cls, sps_pkg=None, uri=None, basename=None):
         if uri and sps_pkg:
@@ -323,17 +334,11 @@ class SPSPkg(CommonControlField, ClusterableModel):
         choices=choices.PKG_ORIGIN,
         default=choices.PKG_ORIGIN_INGRESS_WITHOUT_VALIDATION,
     )
-    # publicar somente a partir da data informada
-    scheduled = models.DateTimeField(null=True, blank=True)
 
     # o pacote pode ter pid_v3, sem estar registrado no pid provider core
     is_pid_provider_synchronized = models.BooleanField(null=True, blank=True)
 
-    # porcentagem de ativos digitais registrados no MinIO
-    storaged_files_total = models.PositiveSmallIntegerField(null=True, blank=True)
-    expected_components_total = models.PositiveSmallIntegerField(null=True, blank=True)
     valid_components = models.BooleanField(null=True, blank=True)
-
     texts = models.JSONField(null=True, blank=True)
     valid_texts = models.BooleanField(null=True, blank=True)
 
@@ -360,8 +365,6 @@ class SPSPkg(CommonControlField, ClusterableModel):
         FieldPanel("is_pid_provider_synchronized", read_only=True),
         FieldPanel("valid_texts", read_only=True),
         FieldPanel("valid_components", read_only=True),
-        FieldPanel("storaged_files_total", read_only=True),
-        FieldPanel("expected_components_total", read_only=True),
         FieldPanel("texts", read_only=True),
     ]
 
@@ -384,13 +387,15 @@ class SPSPkg(CommonControlField, ClusterableModel):
     def autocomplete_label(self):
         return f"{self.sps_pkg_name} {self.pid_v3}"
 
-    def set_is_pid_provider_synchronized(self):
+    def set_is_pid_provider_synchronized(self, save=False):
         try:
             self.is_pid_provider_synchronized = PidProviderXML.get(
                 v3=self.pid_v3
             ).synchronized
         except Exception as e:
             self.is_pid_provider_synchronized = None
+        if save:
+            self.save()
 
     @property
     def xml_with_pre(self):
@@ -416,7 +421,7 @@ class SPSPkg(CommonControlField, ClusterableModel):
         return cls.objects.get(pid_v3=pid_v3)
 
     @classmethod
-    def get_or_create(cls, user, pid_v3, sps_pkg_name):
+    def _get_or_create(cls, user, pid_v3, sps_pkg_name):
         try:
             obj = cls.objects.get(pid_v3=pid_v3)
             obj.updated_by = user
@@ -442,32 +447,62 @@ class SPSPkg(CommonControlField, ClusterableModel):
         obj = cls.add_pid_v3_to_zip(user, sps_pkg_zip_path, is_public, article_proc)
         obj.origin = origin or obj.origin
         obj.is_public = is_public or obj.is_public
-        obj.expected_component_total = len(components)
         obj.texts = texts
-        if texts.get("html_langs"):
-            obj.valid_texts = (
-                set(texts.get("xml_langs"))
-                == set(texts.get("pdf_langs"))
-                == set(texts.get("html_langs"))
-            )
-        else:
-            obj.valid_texts = set(texts.get("xml_langs")) == set(texts.get("pdf_langs"))
         obj.save()
 
         obj.optimise_pkg(user, sps_pkg_zip_path)
 
         obj.push_package(user, components)
-        obj.storaged_files_total = obj.components.filter(uri__isnull=False).count()
-        stored_components = len(
-            [item for item in components.values() if item.get("uri")]
-        )
-        if obj.xml_uri:
-            stored_components += 1
-        obj.valid_components = stored_components == obj.expected_component_total
-        obj.save()
 
         obj.generate_article_html_page(user)
+
+        obj.validate()
         return obj
+
+    def _validate_texts(self, save=False):
+        texts = self.texts
+        if texts.get("html_langs"):
+            self.valid_texts = (
+                set(texts.get("xml_langs"))
+                == set(texts.get("pdf_langs"))
+                == set(texts.get("html_langs"))
+            )
+        else:
+            self.valid_texts = set(texts.get("xml_langs")) == set(texts.get("pdf_langs"))
+        if save:
+            self.save()
+
+    def _validate_components(self, save=False):
+        for item in self.components.all():
+            if item.uri:
+                self.valid_components = True
+            else:
+                self.valid_components = False
+                break
+        if save:
+            self.save()
+
+    def validate(self):
+        self._validate_components()
+        self._validate_texts()
+        self.set_is_pid_provider_synchronized()
+        self.save()
+
+    @property
+    def data(self):
+        return dict(
+            is_pid_provider_synchronized=self.is_pid_provider_synchronized,
+            texts=self.texts,
+            components=[item.data for item in self.components.all()]
+        )
+
+    @property
+    def is_complete(self):
+        return (
+            self.is_pid_provider_synchronized
+            and self.valid_texts
+            and self.valid_components
+        )
 
     @classmethod
     def add_pid_v3_to_zip(cls, user, zip_xml_file_path, is_public, article_proc):
@@ -492,7 +527,7 @@ class SPSPkg(CommonControlField, ClusterableModel):
                             response["filename"], response["xml_with_pre"].tostring()
                         )
 
-                obj = cls.get_or_create(user, pid_v3, sps_pkg_name)
+                obj = cls._get_or_create(user, pid_v3, sps_pkg_name)
                 obj.is_pid_provider_synchronized = synchronized
                 obj.save()
                 detail = response.copy()

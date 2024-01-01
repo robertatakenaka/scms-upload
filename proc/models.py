@@ -1400,25 +1400,8 @@ class ArticleProc(BaseProc, BasicXMLFile, ClusterableModel):
                     article_proc=self,
                 )
 
-            detail = dict(
-                texts=texts,
-                components=components,
-                is_pid_provider_synchronized=self.sps_pkg.is_pid_provider_synchronized,
-            )
-            if (
-                self.sps_pkg.is_pid_provider_synchronized
-                and self.sps_pkg.valid_texts
-                and self.sps_pkg.valid_components
-            ):
-                self.sps_pkg_status = tracker_choices.PROGRESS_STATUS_DONE
-                self.save()
-                operation.finish(user, completed=True, detail=detail)
-            else:
-                self.sps_pkg_status = tracker_choices.PROGRESS_STATUS_PENDING
-                self.save()
-                operation.finish(
-                    user, completed=False, detail=detail
-                )
+            self.update_sps_pkg_status()
+            operation.finish(user, completed=self.sps_pkg.is_complete, detail=self.sps_pkg.data)
 
         except Exception as e:
             exc_type, exc_value, exc_traceback = sys.exc_info()
@@ -1429,6 +1412,13 @@ class ArticleProc(BaseProc, BasicXMLFile, ClusterableModel):
                 exc_traceback=exc_traceback,
                 exception=e,
             )
+
+    def update_sps_pkg_status(self):
+        if self.sps_pkg.is_complete:
+            self.sps_pkg_status = tracker_choices.PROGRESS_STATUS_DONE
+        else:
+            self.sps_pkg_status = tracker_choices.PROGRESS_STATUS_PENDING
+        self.save()
 
     @property
     def journal_proc(self):
