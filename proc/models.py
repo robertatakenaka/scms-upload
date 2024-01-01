@@ -340,7 +340,7 @@ class BaseProc(CommonControlField):
             migrated_data__content_type=content_type,
         )
         if content_type == "article":
-            params["xml_status"] = tracker_choices.PROGRESS_STATUS_DONE
+            params["sps_pkg__isnull"] = False
 
         q = Q(migration_status=tracker_choices.PROGRESS_STATUS_REPROC)
         if force_update:
