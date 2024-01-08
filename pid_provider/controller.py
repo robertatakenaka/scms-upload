@@ -286,8 +286,16 @@ class PidProvider:
         for item in PidProviderXML.unsynchronized():
             name = item.pkg_name
             xml_with_pre = item.xml_with_pre
-            response = self.pid_provider_api.provide_pid(xml_with_pre, name)
-            item.set_synchronized(user, **response)
+            # response = self.pid_provider_api.provide_pid(xml_with_pre, name)
+            response = self.provide_pid_for_xml_with_pre(
+                xml_with_pre,
+                name,
+                user,
+                origin_date=None,
+                force_update=None,
+                is_published=None,
+                origin=None,
+            )
             if response.get("synchronized") and ArticleProc:
                 try:
                     article_proc = ArticleProc.objects.get(sps_pkg__pid_v3=item.pid_v3)

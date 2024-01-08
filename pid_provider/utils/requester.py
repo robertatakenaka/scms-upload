@@ -61,7 +61,7 @@ def post_data(
         Raise a RetryableError to retry.
     """
     try:
-        logger.info("Posting data: %s" % url)
+        # logger.info("Posting data: %s" % url)
         params = dict(
             headers=headers,
             timeout=timeout,

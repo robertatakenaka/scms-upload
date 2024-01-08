@@ -52,7 +52,6 @@ def format_code(cols):
 
 
 def _fromstring(xml_content):
-    logging.info(f"_fromstring {type(xml_content)}")
     pref, xml = split_processing_instruction_doctype_declaration_and_xml(xml_content)
     return etree.fromstring(xml)
 

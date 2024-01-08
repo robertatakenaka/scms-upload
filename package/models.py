@@ -201,7 +201,7 @@ class SPSPkgComponent(FileLocation, Orderable):
             uri=self.uri,
             component_type=self.component_type,
             legacy_uri=self.legacy_uri,
-            lang=self.lang.code2,
+            lang=self.lang and self.lang.code2,
             xml_elem_id=self.xml_elem_id,
         )
 
@@ -389,10 +389,10 @@ class SPSPkg(CommonControlField, ClusterableModel):
 
     def set_is_pid_provider_synchronized(self, save=False):
         try:
-            self.is_pid_provider_synchronized = PidProviderXML.get(
+            self.is_pid_provider_synchronized = PidProviderXML.objects.get(
                 v3=self.pid_v3
             ).synchronized
-        except Exception as e:
+        except PidProviderXML.DoesNotExist:
             self.is_pid_provider_synchronized = None
         if save:
             self.save()
@@ -513,19 +513,39 @@ class SPSPkg(CommonControlField, ClusterableModel):
         try:
             response = None
             logging.info(f"Request PID V3 para {zip_xml_file_path}")
+
+            v3_ = None
+            for xml_with_pre in XMLWithPre.create(path=zip_xml_file_path):
+                v3 = xml_with_pre.v3
+                logging.info(f"INICIO: V3: {v3}")
+                break
+
             for response in pid_provider_app.provide_pid_for_xml_zip(
                 zip_xml_file_path, user, is_published=is_public
             ):
+                logging.info(f"Package: {response}")
+                # {'xml_with_pre': <packtools.sps.pid_provider.xml_sps_lib.XMLWithPre object at 0x7faf38e1c210>, 'filename': '1518-8787-rsp-38-05-623.xml', 'origin': '/tmp/tmpevr47rmm/1518-8787-rsp-38-05-623.zip', 'v3': 'xwsxzHj9PnqYKnNBNzmtpwJ', 'v2': 'S0034-89102004000500002', 'aop_pid': None, 'pkg_name': '1518-8787-rsp-38-05-623', 'created': '2024-01-07T19:10:29.447800+00:00', 'updated': '2024-01-07T19:10:29.499294+00:00', 'record_status': 'updated', 'synchronized': True, 'xml_changed': False}
                 operation = article_proc.start(user, "provide_pid_for_xml_zip")
                 pid_v3 = response["v3"]
                 sps_pkg_name = response["xml_with_pre"].sps_pkg_name
-                synchronized = response["synchronized"]
-                if response["xml_changed"]:
+                synchronized = response.get("synchronized")
+
+                logging.info(f"Response pid provider: {pid_v3}")
+
+                for xml_with_pre in XMLWithPre.create(zip_xml_file_path):
+                    logging.info(f"zip_xml_file_path xml_with_pre.v3: {xml_with_pre.v3}")
+                    break
+
+                if v3 != pid_v3:
                     # atualiza conteúdo de zip
                     with ZipFile(zip_xml_file_path, "a") as zf:
                         zf.writestr(
                             response["filename"], response["xml_with_pre"].tostring()
                         )
+
+                    for xml_with_pre in XMLWithPre.create(zip_xml_file_path):
+                        logging.info(f"Saved zip_xml_file_path xml_with_pre.v3: {xml_with_pre.v3}")
+                        break
 
                 obj = cls._get_or_create(user, pid_v3, sps_pkg_name)
                 obj.is_pid_provider_synchronized = synchronized

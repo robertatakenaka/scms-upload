@@ -36,7 +36,7 @@ def provide_pid_for_file(
     # return response
 
 
-@celery_app.task(bind=True, name="task_synchronize_to_pid_provider")
+@celery_app.task(bind=True)
 def task_synchronize_to_pid_provider(
     self,
     username=None,

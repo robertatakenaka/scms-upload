@@ -233,6 +233,8 @@ class PidRequest(CommonControlField):
     def cancel_failure(
         cls, user=None, origin=None, v3=None, detail=None, origin_date=None
     ):
+        if not origin:
+            return
         try:
             PidRequest.get(origin)
         except cls.DoesNotExist:
@@ -583,13 +585,15 @@ class PidProviderXML(CommonControlField):
             data = registered.data.copy()
             data["xml_changed"] = bool(changed_pids)
 
-            pid_request = PidRequest.cancel_failure(
-                user=user,
-                origin=origin,
-                origin_date=origin_date,
-                v3=data.get("v3"),
-                detail=data,
-            )
+            if synchronized:
+                pid_request = PidRequest.cancel_failure(
+                    user=user,
+                    origin=origin,
+                    origin_date=origin_date,
+                    v3=data.get("v3"),
+                    detail=data,
+                )
+
             response = input_data
             response.update(data)
             return response
@@ -695,12 +699,14 @@ class PidProviderXML(CommonControlField):
         então, recusar o registro,
         pois está tentando registrar uma versão desatualizada
         """
-        logging.info("PidProviderXML.skip_registration")
 
         if force_update:
             return
 
         if not registered:
+            return
+
+        if not registered.synchronized:
             return
 
         # verifica se é necessário atualizar
@@ -1131,10 +1137,12 @@ class PidProviderXML(CommonControlField):
                 traceback,
                 user,
             )
+            self.save()
         else:
             self.synchronized = True
             if self.sync_failure:
                 self.sync_failure.delete()
+            self.save()
 
     @classmethod
     def unsynchronized(cls):
