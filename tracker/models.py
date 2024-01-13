@@ -81,17 +81,23 @@ class UnexpectedEvent(models.Model):
     def create(
         cls,
         e=None,
+        exception=None,
         exc_traceback=None,
         detail=None,
     ):
         try:
+            e = e or exception
             if e:
                 logging.exception(e)
 
             obj = cls()
             obj.exception_msg = e
             obj.exception_type = type(e)
-            obj.detail = detail
+            try:
+                json.dumps(detail)
+                obj.detail = detail
+            except:
+                obj.detail = [str(detail)]
             if exc_traceback:
                 obj.traceback = traceback.format_tb(exc_traceback)
             obj.save()
@@ -126,9 +132,14 @@ class Event(CommonControlField):
     def data(self):
         d = {}
         d["created"] = self.created.isoformat()
+
+        try:
+            detail = json.dumps(self.detail)
+        except Exception as e:
+            detail = str(self.detail)
         d.update(
             dict(
-                message=self.message, message_type=self.message_type, detail=self.detail
+                message=self.message, message_type=self.message_type, detail=detail
             )
         )
         if self.unexpected_event:
@@ -150,7 +161,11 @@ class Event(CommonControlField):
             obj.creator = user
             obj.message = message
             obj.message_type = message_type
-            obj.detail = detail
+            try:
+                json.dumps(detail)
+                obj.detail = detail
+            except:
+                obj.detail = [str(detail)]
             obj.save()
 
             if e:
