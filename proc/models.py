@@ -1,6 +1,7 @@
 import logging
 import os
 import sys
+import json
 from datetime import datetime
 from tempfile import TemporaryDirectory
 from zipfile import ZipFile
@@ -331,21 +332,18 @@ class BaseProc(CommonControlField):
         Muda o migration_status de REPROC para TODO
         E se force_update = True, muda o migration_status de DONE para TODO
         """
-        logging.info(f"items_to_register: {collection}")
-        logging.info(f"items_to_register: {content_type}")
-        logging.info(f"items_to_register: {force_update}")
-
         params = dict(
             collection=collection,
             migrated_data__content_type=content_type,
         )
         if content_type == "article":
-            params["xml_status"] = tracker_choices.PROGRESS_STATUS_DONE
-
+            params["sps_pkg__pid_v3__isnull"] = False
         q = Q(migration_status=tracker_choices.PROGRESS_STATUS_REPROC)
         if force_update:
             q |= Q(migration_status=tracker_choices.PROGRESS_STATUS_DONE) | Q(
                 migration_status=tracker_choices.PROGRESS_STATUS_PENDING
+            ) | Q(
+                migration_status=tracker_choices.PROGRESS_STATUS_ERROR
             )
 
         cls.objects.filter(
@@ -358,7 +356,6 @@ class BaseProc(CommonControlField):
             migration_status=tracker_choices.PROGRESS_STATUS_TODO,
             **params,
         ).count()
-        logging.info(f"count: {count}")
         return cls.objects.filter(
             migration_status=tracker_choices.PROGRESS_STATUS_TODO,
             **params,
@@ -398,17 +395,25 @@ class BaseProc(CommonControlField):
         params = params or {}
         params["migrated_data__content_type"] = content_type
         params["migration_status"] = tracker_choices.PROGRESS_STATUS_DONE
+        if content_type == "article":
+            params["sps_pkg__pid_v3__isnull"] = False
 
         q = Q(qa_ws_status=tracker_choices.PROGRESS_STATUS_REPROC)
         if force_update:
             q = Q(qa_ws_status__isnull=tracker_choices.PROGRESS_STATUS_DONE) | Q(
                 qa_ws_status__isnull=tracker_choices.PROGRESS_STATUS_PENDING
-            )
+            ) | Q(
+                qa_ws_status__isnull=tracker_choices.PROGRESS_STATUS_ERROR
+            ) 
 
         cls.objects.filter(q, **params).update(
             qa_ws_status=tracker_choices.PROGRESS_STATUS_TODO
         )
 
+        count = cls.objects.filter(
+            qa_ws_status=tracker_choices.PROGRESS_STATUS_TODO, **params
+        ).count()
+        logging.info(f"It will publish: {count}")
         items = cls.objects.filter(
             qa_ws_status=tracker_choices.PROGRESS_STATUS_TODO, **params
         )
@@ -418,9 +423,11 @@ class BaseProc(CommonControlField):
     def publish(self, user, callable_publish, website_kind, api_data):
         operation = self.start(user, f"publication on {website_kind}")
         response = callable_publish(user, self, api_data)
-        if response.get("id") or response.get("result") == "OK":
+        logging.info(f"Publish response: {response}")
+        completed = bool(response.get("result") == "OK")
+        if completed:
             self.update_publication_stage()
-        operation.finish(user, completed=bool(response.get("id")))
+        operation.finish(user, completed=completed, detail=response)
 
     def update_publication_stage(self):
         """
@@ -460,12 +467,17 @@ class BaseProc(CommonControlField):
         params = params or {}
         params["migrated_data__content_type"] = content_type
         params["qa_ws_status"] = tracker_choices.PROGRESS_STATUS_DONE
+        if content_type == "article":
+            params["sps_pkg__pid_v3__isnull"] = False
+            params["sps_pkg__is_pid_provider_synchronized"] = True
 
         q = Q(public_ws_status=tracker_choices.PROGRESS_STATUS_REPROC)
 
         if force_update:
             q |= Q(public_ws_status=tracker_choices.PROGRESS_STATUS_DONE) | Q(
                 public_ws_status=tracker_choices.PROGRESS_STATUS_PENDING
+            ) | Q(
+                public_ws_status=tracker_choices.PROGRESS_STATUS_ERROR
             )
 
         cls.objects.filter(q, **params).update(
@@ -696,6 +708,8 @@ class IssueProc(BaseProc, ClusterableModel):
         if force_update:
             q |= Q(files_status=tracker_choices.PROGRESS_STATUS_DONE) | Q(
                 files_status=tracker_choices.PROGRESS_STATUS_PENDING
+            ) | Q(
+                files_status=tracker_choices.PROGRESS_STATUS_ERROR
             )
 
         cls.objects.filter(
@@ -746,7 +760,7 @@ class IssueProc(BaseProc, ClusterableModel):
 
         except Exception as e:
             exc_type, exc_value, exc_traceback = sys.exc_info()
-            self.files_status = tracker_choices.PROGRESS_STATUS_PENDING
+            self.files_status = tracker_choices.PROGRESS_STATUS_ERROR
             self.save()
             operation.finish(
                 user,
@@ -764,6 +778,8 @@ class IssueProc(BaseProc, ClusterableModel):
         if force_update:
             q |= Q(docs_status=tracker_choices.PROGRESS_STATUS_DONE) | Q(
                 docs_status=tracker_choices.PROGRESS_STATUS_PENDING
+            ) | Q(
+                docs_status=tracker_choices.PROGRESS_STATUS_ERROR
             )
 
         cls.objects.filter(
@@ -814,7 +830,7 @@ class IssueProc(BaseProc, ClusterableModel):
             )
         except Exception as e:
             exc_type, exc_value, exc_traceback = sys.exc_info()
-            self.docs_status = tracker_choices.PROGRESS_STATUS_PENDING
+            self.docs_status = tracker_choices.PROGRESS_STATUS_ERROR
             self.save()
             operation.finish(
                 user,
@@ -961,7 +977,7 @@ class ArticleProc(BaseProc, BasicXMLFile, ClusterableModel):
 
         except Exception as e:
             exc_type, exc_value, exc_traceback = sys.exc_info()
-            self.xml_status = tracker_choices.PROGRESS_STATUS_PENDING
+            self.xml_status = tracker_choices.PROGRESS_STATUS_ERROR
             self.save()
             operation.finish(
                 user,
@@ -1013,6 +1029,8 @@ class ArticleProc(BaseProc, BasicXMLFile, ClusterableModel):
         if force_update:
             q |= Q(xml_status=tracker_choices.PROGRESS_STATUS_DONE) | Q(
                 xml_status=tracker_choices.PROGRESS_STATUS_PENDING
+            ) | Q(
+                xml_status=tracker_choices.PROGRESS_STATUS_ERROR
             )
 
         cls.objects.filter(
@@ -1041,6 +1059,7 @@ class ArticleProc(BaseProc, BasicXMLFile, ClusterableModel):
         E se force_update = True, muda o status de DONE para TODO
         """
         params = {}
+        params["xml_status"] = tracker_choices.PROGRESS_STATUS_DONE
         if collection_acron:
             params["collection__acron"] = collection_acron
         if journal_acron:
@@ -1054,66 +1073,19 @@ class ArticleProc(BaseProc, BasicXMLFile, ClusterableModel):
         if force_update:
             q |= Q(sps_pkg_status=tracker_choices.PROGRESS_STATUS_DONE) | Q(
                 sps_pkg_status=tracker_choices.PROGRESS_STATUS_PENDING
+            ) | Q(
+                sps_pkg_status=tracker_choices.PROGRESS_STATUS_ERROR
             )
         cls.objects.filter(
             q,
-            xml_status=tracker_choices.PROGRESS_STATUS_DONE,
             **params,
         ).update(
             sps_pkg_status=tracker_choices.PROGRESS_STATUS_TODO,
         )
         return cls.objects.filter(
             sps_pkg_status=tracker_choices.PROGRESS_STATUS_TODO,
-            xml_status=tracker_choices.PROGRESS_STATUS_DONE,
             **params,
         ).iterator()
-
-    @classmethod
-    def items_to_publish_on_qa(cls, user, content_type, force_update=None, params=None):
-        """
-        ArtcleProc
-        """
-        params = params or {}
-        params["migrated_data__content_type"] = content_type
-        params["migration_status"] = tracker_choices.PROGRESS_STATUS_DONE
-        params["sps_pkg__isnull"] = False
-
-        q = Q(qa_ws_status=tracker_choices.PROGRESS_STATUS_REPROC)
-        if force_update:
-            q |= Q(qa_ws_status=tracker_choices.PROGRESS_STATUS_DONE) | Q(
-                qa_ws_status=tracker_choices.PROGRESS_STATUS_PENDING
-            )
-
-        cls.objects.filter(q, **params,).update(
-            qa_ws_status=tracker_choices.PROGRESS_STATUS_TODO,
-        )
-        items = cls.objects.filter(
-            qa_ws_status=tracker_choices.PROGRESS_STATUS_TODO, **params
-        )
-        return items.iterator()
-
-    @classmethod
-    def items_to_publish_on_public(
-        cls, user, content_type, force_update=None, params=None
-    ):
-        params = params or {}
-        params["migrated_data__content_type"] = content_type
-        params["sps_pkg__isnull"] = False
-        params["qa_ws_status"] = tracker_choices.PROGRESS_STATUS_DONE
-
-        q = Q(public_ws_status=tracker_choices.PROGRESS_STATUS_REPROC)
-        if force_update:
-            q |= Q(public_ws_status=tracker_choices.PROGRESS_STATUS_DONE) | Q(
-                public_ws_status=tracker_choices.PROGRESS_STATUS_PENDING
-            )
-
-        cls.objects.filter(q, **params,).update(
-            public_ws_status=tracker_choices.PROGRESS_STATUS_TODO,
-        )
-        items = cls.objects.filter(
-            public_ws_status=tracker_choices.PROGRESS_STATUS_TODO, **params
-        )
-        return items.iterator()
 
     @property
     def renditions(self):
@@ -1139,24 +1111,10 @@ class ArticleProc(BaseProc, BasicXMLFile, ClusterableModel):
 
     @property
     def translation_files(self):
-        logging.info(
-            dict(
-                component_type="html",
-                pkg_name=self.pkg_name,
-            )
-        )
         items = self.issue_proc.issue_files.filter(
             component_type="html",
             pkg_name=self.pkg_name,
         )
-        count = items.count()
-        logging.info(count)
-        if count > 0:
-            for item in self.issue_proc.issue_files.filter(
-                component_type="html",
-                pkg_name=self.pkg_name,
-            ):
-                logging.info(f"{self.pkg_name} {item.part} {item.original_path}")
         return self.issue_proc.issue_files.filter(
             component_type="html",
             pkg_name=self.pkg_name,
@@ -1178,7 +1136,6 @@ class ArticleProc(BaseProc, BasicXMLFile, ClusterableModel):
             lang = item.lang
             xhtmls.setdefault(lang, {})
             xhtmls[lang][part[item.part]] = hc.content
-            logging.info(f"{lang} {part[item.part]}")
         return xhtmls
 
     def build_sps_package(self, user, output_folder, components, texts):
@@ -1399,36 +1356,26 @@ class ArticleProc(BaseProc, BasicXMLFile, ClusterableModel):
                     texts=texts,
                     article_proc=self,
                 )
-
-            detail = dict(
-                texts=texts,
-                components=components,
-                is_pid_provider_synchronized=self.sps_pkg.is_pid_provider_synchronized,
-            )
-            if (
-                self.sps_pkg.is_pid_provider_synchronized
-                and self.sps_pkg.valid_texts
-                and self.sps_pkg.valid_components
-            ):
-                self.sps_pkg_status = tracker_choices.PROGRESS_STATUS_DONE
-                self.save()
-                operation.finish(user, completed=True, detail=detail)
-            else:
-                self.sps_pkg_status = tracker_choices.PROGRESS_STATUS_PENDING
-                self.save()
-                operation.finish(
-                    user, completed=False, detail=detail
-                )
+            logging.info(f"Depois de criar sps_pkg.pid_v3: {self.sps_pkg.pid_v3}")
+            self.update_sps_pkg_status()
+            operation.finish(user, completed=self.sps_pkg.is_complete, detail=self.sps_pkg.data)
 
         except Exception as e:
             exc_type, exc_value, exc_traceback = sys.exc_info()
-            self.sps_pkg_status = tracker_choices.PROGRESS_STATUS_PENDING
+            self.sps_pkg_status = tracker_choices.PROGRESS_STATUS_ERROR
             self.save()
             operation.finish(
                 user,
                 exc_traceback=exc_traceback,
                 exception=e,
             )
+
+    def update_sps_pkg_status(self):
+        if self.sps_pkg.is_complete:
+            self.sps_pkg_status = tracker_choices.PROGRESS_STATUS_DONE
+        else:
+            self.sps_pkg_status = tracker_choices.PROGRESS_STATUS_PENDING
+        self.save()
 
     @property
     def journal_proc(self):
