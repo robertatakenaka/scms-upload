@@ -696,6 +696,8 @@ class PidProviderXML(CommonControlField):
             xml_adapter = xml_sps_adapter.PidProviderXMLAdapter(xml_with_pre)
             registered = cls._query_document(xml_adapter)
             return registered.data
+        except cls.DoesNotExist:
+            return {"filename": xml_with_pre.filename, "registered": False}
         except Exception as e:
             # except (
             #     exceptions.NotEnoughParametersToGetDocumentRecordError,
@@ -769,6 +771,7 @@ class PidProviderXML(CommonControlField):
                 raise exceptions.QueryDocumentMultipleObjectsReturnedError(
                     str({"params": adapted_params, "items": items})
                 )
+        raise cls.DoesNotExist
 
     def _add_data(self, xml_adapter, user):
         self.pkg_name = xml_adapter.sps_pkg_name
