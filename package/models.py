@@ -384,14 +384,6 @@ class SPSPkg(CommonControlField, ClusterableModel):
     def autocomplete_label(self):
         return f"{self.sps_pkg_name} {self.pid_v3}"
 
-    def set_is_pid_provider_synchronized(self):
-        try:
-            self.is_pid_provider_synchronized = PidProviderXML.get(
-                v3=self.pid_v3
-            ).synchronized
-        except Exception as e:
-            self.is_pid_provider_synchronized = None
-
     @property
     def xml_with_pre(self):
         for item in XMLWithPre.create(path=self.file.path):
