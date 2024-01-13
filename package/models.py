@@ -535,20 +535,25 @@ class SPSPkg(CommonControlField, ClusterableModel):
         except Exception as e:
             logging.exception(f"PreviewArticlePage {self.sps_pkg_name} {e}")
 
-    def push_package(self, user, components):
-        self.save()
+    @property
+    def subdir(self):
         sps_pkg_name = self.sps_pkg_name
         subdir = sps_pkg_name[:9]
         suffix = sps_pkg_name[10:]
-        subdir = os.path.join(subdir, "/".join(suffix.split("-")))
+        return os.path.join(subdir, "/".join(suffix.split("-")))
 
-        xml_with_pre = self._push_components(user, subdir, components)
+    def push_package(self, user, components):
+        self.save()
+        sps_pkg_name = self.sps_pkg_name
+
+        xml_with_pre = self._push_components(user, components)
 
         xml_assets = ArticleAssets(xml_with_pre.xmltree)
         self._local_to_remote(xml_assets)
-        self._push_xml(user, xml_with_pre, subdir, sps_pkg_name + ".xml")
+        self._push_xml(user, xml_with_pre, sps_pkg_name + ".xml")
 
-    def _push_components(self, user, subdir, components):
+    def _push_components(self, user, components):
+        subdir = self.subdir
         xml_with_pre = None
         mimetypes.init()
         self.components.all().delete()
@@ -620,7 +625,8 @@ class SPSPkg(CommonControlField, ClusterableModel):
             {item.basename: item.uri for item in self.components.iterator()}
         )
 
-    def _push_xml(self, user, xml_with_pre, subdir, filename):
+    def _push_xml(self, user, xml_with_pre, filename):
+        subdir = self.subdir
         try:
             response = minio_push_file_content(
                 content=xml_with_pre.tostring().encode("utf-8"),
@@ -643,3 +649,26 @@ class SPSPkg(CommonControlField, ClusterableModel):
                 legacy_uri=None,
             )
         )
+
+    def synchronize(self, user):
+        zip_xml_file_path = self.file.path
+
+        logging.info(f"Synchronize {zip_xml_file_path}")
+        for response in pid_provider_app.provide_pid_for_xml_zip(
+            zip_xml_file_path, user, is_published=self.is_public
+        ):
+            if not response["synchronized"]:
+                continue
+
+            if response.get("v3") and self.pid_v3 != response.get("v3"):
+                # atualiza conteúdo de zip
+                with ZipFile(zip_xml_file_path, "a") as zf:
+                    zf.writestr(
+                        response["filename"], response["xml_with_pre"].tostring()
+                    )
+
+                self._push_xml(user, response["xml_with_pre"], self.sps_pkg_name + ".xml")
+                self.generate_article_html_page(user)
+
+            self.is_pid_provider_synchronized = response["synchronized"]
+            self.save()
