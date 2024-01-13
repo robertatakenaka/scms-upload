@@ -194,6 +194,17 @@ class SPSPkgComponent(FileLocation, Orderable):
         FieldPanel("legacy_uri"),
     ]
 
+    @property
+    def data(self):
+        return dict(
+            basename=self.basename,
+            uri=self.uri,
+            component_type=self.component_type,
+            legacy_uri=self.legacy_uri,
+            lang=self.lang and self.lang.code2,
+            xml_elem_id=self.xml_elem_id,
+        )
+
     @classmethod
     def get(cls, sps_pkg=None, uri=None, basename=None):
         if uri and sps_pkg:
