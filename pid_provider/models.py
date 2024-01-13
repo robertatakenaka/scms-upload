@@ -31,34 +31,6 @@ def xml_directory_path(instance, subdir):
     return f"xml_pid_provider/{subdir}/{instance.pid_v3[0]}/{instance.pid_v3[-1]}/{instance.pid_v3}/{instance.finger_print}"
 
 
-class SyncFailure(CommonControlField):
-    error_type = models.CharField(
-        _("Exception Type"), max_length=255, null=True, blank=True
-    )
-    error_msg = models.TextField(_("Exception Msg"), null=True, blank=True)
-    traceback = models.JSONField(null=True, blank=True)
-
-    @property
-    def data(self):
-        return {
-            "error_type": self.error_type,
-            "error_msg": self.error_msg,
-            "traceback": self.traceback,
-        }
-
-    @classmethod
-    def create(cls, error_msg, error_type, traceback, creator):
-        logging.info(f"SyncFailure.create {error_msg}")
-        obj = cls()
-        obj.error_msg = error_msg
-        obj.error_type = error_type
-        obj.traceback = traceback
-        obj.creator = creator
-        obj.created = utcnow()
-        obj.save()
-        return obj
-
-
 class PidProviderConfig(CommonControlField):
     """
     Tem função de guardar XML que falhou no registro
@@ -233,6 +205,8 @@ class PidRequest(CommonControlField):
     def cancel_failure(
         cls, user=None, origin=None, v3=None, detail=None, origin_date=None
     ):
+        if not origin:
+            return
         try:
             PidRequest.get(origin)
         except cls.DoesNotExist:
@@ -379,10 +353,6 @@ class PidProviderXML(CommonControlField):
     website_publication_date = models.CharField(
         _("Website publication date"), max_length=10, null=True, blank=True
     )
-    synchronized = models.BooleanField(null=True, blank=True, default=False)
-    sync_failure = models.ForeignKey(
-        SyncFailure, null=True, blank=True, on_delete=models.SET_NULL
-    )
 
     base_form_class = CoreAdminModelForm
 
@@ -410,8 +380,6 @@ class PidProviderXML(CommonControlField):
         # FieldPanel("z_links", read_only=True),
         # FieldPanel("z_partial_body", read_only=True),
         AutocompletePanel("current_version", read_only=True),
-        FieldPanel("synchronized", read_only=True),
-        FieldPanel("sync_failure", read_only=True),
     ]
 
     class Meta:
@@ -435,7 +403,6 @@ class PidProviderXML(CommonControlField):
             models.Index(fields=["z_collab"]),
             models.Index(fields=["z_links"]),
             models.Index(fields=["z_partial_body"]),
-            models.Index(fields=["synchronized"]),
         ]
 
     def __str__(self):
@@ -463,10 +430,7 @@ class PidProviderXML(CommonControlField):
             "created": self.created and self.created.isoformat(),
             "updated": self.updated and self.updated.isoformat(),
             "record_status": "updated" if self.updated else "created",
-            "synchronized": self.synchronized,
         }
-        if self.sync_failure:
-            _data.update(self.sync_failure.data)
         return _data
 
     @classmethod
@@ -495,7 +459,6 @@ class PidProviderXML(CommonControlField):
         is_published=False,
         website_publication_date=None,
         origin=None,
-        synchronized=None,
         error_msg=None,
         error_type=None,
         traceback=None,
@@ -570,7 +533,6 @@ class PidProviderXML(CommonControlField):
                 user,
                 changed_pids,
                 origin_date,
-                synchronized,
                 error_type,
                 error_msg,
                 traceback,
@@ -583,13 +545,6 @@ class PidProviderXML(CommonControlField):
             data = registered.data.copy()
             data["xml_changed"] = bool(changed_pids)
 
-            pid_request = PidRequest.cancel_failure(
-                user=user,
-                origin=origin,
-                origin_date=origin_date,
-                v3=data.get("v3"),
-                detail=data,
-            )
             response = input_data
             response.update(data)
             return response
@@ -638,10 +593,6 @@ class PidProviderXML(CommonControlField):
         user,
         changed_pids,
         origin_date=None,
-        synchronized=None,
-        error_type=None,
-        error_msg=None,
-        traceback=None,
     ):
         if registered:
             registered.updated_by = user
@@ -652,40 +603,24 @@ class PidProviderXML(CommonControlField):
             registered.created = utcnow()
 
         # evita que artigos WIP fique disponíveis antes de estarem públicos
-        registered.website_publication_date = (
-            xml_adapter.xml_with_pre.article_publication_date or origin_date
-        )
+        try:
+            registered.website_publication_date = (
+                xml_adapter.xml_with_pre.article_publication_date
+            )
+        except Exception as e:
+            # packtools error
+            registered.website_publication_date = origin_date
 
         registered.origin_date = origin_date
         registered._add_data(xml_adapter, user)
         registered._add_journal(xml_adapter)
         registered._add_issue(xml_adapter)
         registered._add_current_version(xml_adapter, user)
-
-        registered._add_synchronization_status(error_msg, error_type, traceback, user)
-
         registered.save()
 
         registered._add_pid_changes(changed_pids, user)
 
         return registered
-
-    def _add_synchronization_status(self, error_msg, error_type, traceback, user):
-        self.save()
-        if error_msg or error_type or traceback:
-            self.sync_failure = SyncFailure.create(
-                error_msg,
-                error_type,
-                traceback,
-                user,
-            )
-            self.synchronized = False
-            self.save()
-        else:
-            self.synchronized = True
-            if self.sync_failure:
-                self.sync_failure.delete()
-            self.save()
 
     @classmethod
     def skip_registration(cls, xml_adapter, registered, force_update, origin_date):
@@ -695,7 +630,6 @@ class PidProviderXML(CommonControlField):
         então, recusar o registro,
         pois está tentando registrar uma versão desatualizada
         """
-        logging.info("PidProviderXML.skip_registration")
 
         if force_update:
             return
@@ -1122,38 +1056,6 @@ class PidProviderXML(CommonControlField):
             )
         return True
 
-    def _add_synchronization_status(self, error_msg, error_type, traceback, user):
-        if error_msg or error_type or traceback:
-            self.synchronized = False
-            self.sync_failure = SyncFailure.create(
-                error_msg,
-                error_type,
-                traceback,
-                user,
-            )
-        else:
-            self.synchronized = True
-            if self.sync_failure:
-                self.sync_failure.delete()
-
-    @classmethod
-    def unsynchronized(cls):
-        """
-        Identifica no pid provideer os registros que não
-        estão sincronizados com o pid provider (central) e
-        faz a sincronização, registrando o XML local no pid provider
-        """
-        return cls.objects.filter(synchronized=False).iterator()
-
-    def set_synchronized(
-        self, user, xml_uri=None, error_type=None, error_msg=None, traceback=None
-    ):
-        logging.info("PidProviderXML.set_synchronized")
-        self._add_synchronization_status(error_type, error_msg, traceback)
-        self.updated_by = user
-        self.updated = utcnow()
-        self.save()
-
     @classmethod
     def check_registration_demand(cls, xml_with_pre):
         """
@@ -1183,7 +1085,6 @@ class PidProviderXML(CommonControlField):
         required_remote = (
             not registered
             or not registered.is_equal_to(xml_adapter)
-            or not registered.synchronized
         )
         required_local = not registered or required_remote
 
