@@ -1385,3 +1385,22 @@ class ArticleProc(BaseProc, BasicXMLFile, ClusterableModel):
     def article(self):
         if self.sps_pkg is not None:
             return Article.objects.get(sps_pkg=self.sps_pkg)
+
+    def synchronize(self, user):
+        try:
+            self.sps_pkg_status = tracker_choices.PROGRESS_STATUS_DOING
+            self.save()
+
+            operation = self.start(user, "synchronize to core")
+            self.sps_pkg.synchronize(user)
+            operation.finish(user, completed=self.sps_pkg.is_pid_provider_synchronized, detail=response)
+
+        except Exception as e:
+            exc_type, exc_value, exc_traceback = sys.exc_info()
+            self.sps_pkg_status = tracker_choices.PROGRESS_STATUS_ERROR
+            self.save()
+            operation.finish(
+                user,
+                exc_traceback=exc_traceback,
+                exception=e,
+            )
