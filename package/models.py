@@ -340,7 +340,6 @@ class SPSPkg(CommonControlField, ClusterableModel):
     # o pacote pode ter pid_v3, sem estar registrado no pid provider core
     is_pid_provider_synchronized = models.BooleanField(null=True, blank=True)
 
-    # porcentagem de ativos digitais registrados no MinIO
     valid_components = models.BooleanField(null=True, blank=True)
 
     texts = models.JSONField(null=True, blank=True)
@@ -464,6 +463,50 @@ class SPSPkg(CommonControlField, ClusterableModel):
 
         obj.generate_article_html_page(user)
         return obj
+
+    def _validate_texts(self, save=False):
+        texts = self.texts
+        if texts.get("html_langs"):
+            self.valid_texts = (
+                set(texts.get("xml_langs"))
+                == set(texts.get("pdf_langs"))
+                == set(texts.get("html_langs"))
+            )
+        else:
+            self.valid_texts = set(texts.get("xml_langs")) == set(texts.get("pdf_langs"))
+        if save:
+            self.save()
+
+    def _validate_components(self, save=False):
+        for item in self.components.all():
+            if item.uri:
+                self.valid_components = True
+            else:
+                self.valid_components = False
+                break
+        if save:
+            self.save()
+
+    def validate(self):
+        self._validate_components()
+        self._validate_texts()
+        self.save()
+
+    @property
+    def is_complete(self):
+        return (
+            self.is_pid_provider_synchronized
+            and self.valid_texts
+            and self.valid_components
+        )
+
+    @property
+    def data(self):
+        return dict(
+            is_pid_provider_synchronized=self.is_pid_provider_synchronized,
+            texts=self.texts,
+            components=[item.data for item in self.components.all()]
+        )
 
     @classmethod
     def add_pid_v3_to_zip(cls, user, zip_xml_file_path, is_public, article_proc):
