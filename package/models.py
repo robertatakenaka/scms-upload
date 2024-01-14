@@ -441,27 +441,15 @@ class SPSPkg(CommonControlField, ClusterableModel):
         obj.origin = origin or obj.origin
         obj.is_public = is_public or obj.is_public
         obj.texts = texts
-        if texts.get("html_langs"):
-            obj.valid_texts = (
-                set(texts.get("xml_langs"))
-                == set(texts.get("pdf_langs"))
-                == set(texts.get("html_langs"))
-            )
-        else:
-            obj.valid_texts = set(texts.get("xml_langs")) == set(texts.get("pdf_langs"))
         obj.save()
 
         obj.optimise_pkg(user, sps_pkg_zip_path)
 
         obj.push_package(user, components)
-        stored_components = len(
-            [item for item in components.values() if item.get("uri")]
-        )
-        if obj.xml_uri:
-            stored_components += 1
-        obj.save()
 
         obj.generate_article_html_page(user)
+
+        obj.validate()
         return obj
 
     def _validate_texts(self, save=False):
