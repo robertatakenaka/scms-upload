@@ -415,7 +415,7 @@ class SPSPkg(CommonControlField, ClusterableModel):
         return cls.objects.get(pid_v3=pid_v3)
 
     @classmethod
-    def get_or_create(cls, user, pid_v3, sps_pkg_name):
+    def _get_or_create(cls, user, pid_v3, sps_pkg_name):
         try:
             obj = cls.objects.get(pid_v3=pid_v3)
             obj.updated_by = user
@@ -488,7 +488,7 @@ class SPSPkg(CommonControlField, ClusterableModel):
                             response["filename"], response["xml_with_pre"].tostring()
                         )
 
-                obj = cls.get_or_create(user, pid_v3, sps_pkg_name)
+                obj = cls._get_or_create(user, pid_v3, sps_pkg_name)
                 obj.is_pid_provider_synchronized = synchronized
                 obj.save()
                 detail = response.copy()
