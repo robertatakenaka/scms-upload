@@ -497,6 +497,21 @@ class SPSPkg(CommonControlField, ClusterableModel):
         )
 
     @classmethod
+    def is_registered_xml_zip(cls, zip_xml_file_path):
+        """
+        Check if zip_xml_file_path is registered
+        """
+        for item in pid_provider_app.is_registered_xml_zip(zip_xml_file_path):
+            pid_v3 = item.get("v3")
+            if pid_v3:
+                try:
+                    obj = cls.objects.get(pid_v3=pid_v3)
+                    item["synchronized"] = obj.is_pid_provider_synchronized
+                except cls.DoesNotExist:
+                    pass
+            yield item
+
+    @classmethod
     def add_pid_v3_to_zip(cls, user, zip_xml_file_path, is_public, article_proc):
         """
         Solicita PID versão 3
