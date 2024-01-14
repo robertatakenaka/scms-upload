@@ -341,8 +341,6 @@ class SPSPkg(CommonControlField, ClusterableModel):
     is_pid_provider_synchronized = models.BooleanField(null=True, blank=True)
 
     # porcentagem de ativos digitais registrados no MinIO
-    storaged_files_total = models.PositiveSmallIntegerField(null=True, blank=True)
-    expected_components_total = models.PositiveSmallIntegerField(null=True, blank=True)
     valid_components = models.BooleanField(null=True, blank=True)
 
     texts = models.JSONField(null=True, blank=True)
@@ -371,8 +369,6 @@ class SPSPkg(CommonControlField, ClusterableModel):
         FieldPanel("is_pid_provider_synchronized", read_only=True),
         FieldPanel("valid_texts", read_only=True),
         FieldPanel("valid_components", read_only=True),
-        FieldPanel("storaged_files_total", read_only=True),
-        FieldPanel("expected_components_total", read_only=True),
         FieldPanel("texts", read_only=True),
     ]
 
@@ -445,7 +441,6 @@ class SPSPkg(CommonControlField, ClusterableModel):
         obj = cls.add_pid_v3_to_zip(user, sps_pkg_zip_path, is_public, article_proc)
         obj.origin = origin or obj.origin
         obj.is_public = is_public or obj.is_public
-        obj.expected_component_total = len(components)
         obj.texts = texts
         if texts.get("html_langs"):
             obj.valid_texts = (
@@ -460,13 +455,11 @@ class SPSPkg(CommonControlField, ClusterableModel):
         obj.optimise_pkg(user, sps_pkg_zip_path)
 
         obj.push_package(user, components)
-        obj.storaged_files_total = obj.components.filter(uri__isnull=False).count()
         stored_components = len(
             [item for item in components.values() if item.get("uri")]
         )
         if obj.xml_uri:
             stored_components += 1
-        obj.valid_components = stored_components == obj.expected_component_total
         obj.save()
 
         obj.generate_article_html_page(user)
