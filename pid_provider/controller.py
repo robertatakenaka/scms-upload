@@ -313,48 +313,14 @@ class PidProvider(BasePidProvider):
     def pre_registration(self, xml_with_pre, name):
         # verifica a necessidade de registro local e/ou remoto
 
-        demand = PidProviderXML.check_registration_demand(xml_with_pre)
+        registered = PidProviderXML.is_registered(xml_with_pre)
 
-        logging.info(f"demand={demand}")
-        if demand.get("error_type"):
-            return demand
+        if registered.get("error_type"):
+            return registered
 
-        response = {}
-        if demand.pop("required_remote_registration"):
-            response = self.pid_provider_api.provide_pid(xml_with_pre, name)
+        if not registered:
+            registered = self.pid_provider_api.provide_pid(xml_with_pre, name)
+            registered["required_local_registration"] = True
 
-        response.update(demand)
-        logging.info(f"PidProvider.pre_registration: response: {response}")
-        return response
-
-    # def synchronize(self, user, ArticleProc):
-    #     """
-    #     Identifica no pid provider local os registros que não
-    #     estão sincronizados com o pid provider remoto (central) e
-    #     faz a sincronização, registrando o XML local no pid provider remoto
-    #     """
-    #     if not self.pid_provider_api.pid_provider_api_post_xml:
-    #         raise ValueError(
-    #             _(
-    #                 "Unable to synchronized data with central pid provider because API URI is missing"
-    #             )
-    #         )
-    #     for item in PidProviderXML.unsynchronized():
-    #         name = item.pkg_name
-    #         xml_with_pre = item.xml_with_pre
-
-    #         response = self.provide_pid_for_xml_with_pre(
-    #             xml_with_pre,
-    #             name,
-    #             user,
-    #             origin_date=None,
-    #             force_update=None,
-    #             is_published=None,
-    #             origin=None,
-    #         )
-    #         if response.get("synchronized") and ArticleProc:
-    #             try:
-    #                 article_proc = ArticleProc.objects.get(sps_pkg__pid_v3=item.pid_v3)
-    #                 article_proc.update_sps_pkg_status()
-    #             except ArticleProc.DoesNotExist:
-    #                 pass
+        logging.info(f"PidProvider.pre_registration: response: {registered}")
+        return registered
