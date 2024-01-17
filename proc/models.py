@@ -37,9 +37,9 @@ from migration.models import (
     MigratedIssue,
     MigratedJournal,
 )
-from migration.controller import PkgZipBuilder
+from migration.controller import PkgZipBuilder, get_migrated_xml_with_pre
 from package import choices as package_choices
-from package.models import BasicXMLFile, SPSPkg
+from package.models import SPSPkg
 from proc import exceptions
 from proc.forms import ProcAdminModelForm
 from tracker import choices as tracker_choices
@@ -854,7 +854,7 @@ class ArticleEventReportCreateError(Exception):
     ...
 
 
-class ArticleProc(BaseProc, BasicXMLFile, ClusterableModel):
+class ArticleProc(BaseProc, ClusterableModel):
     # Armazena os IDs dos artigos no contexto de cada coleção
     # serve para conseguir recuperar artigos pelo ID do site clássico
     issue_proc = models.ForeignKey(
@@ -968,11 +968,11 @@ class ArticleProc(BaseProc, BasicXMLFile, ClusterableModel):
             self.save()
 
             if htmlxml:
-                self.html_to_xml(user, htmlxml, body_and_back_xml)
-            else:
-                self.add_xml(user, source_path=self.migrated_xml.file.path)
+                xml_content = htmlxml.html_to_xml(user, body_and_back_xml)
+                htmlxml.generate_report(user, xml_content)
 
-            operation.finish(user, completed=bool(self.file.path))
+            xml = get_migrated_xml_with_pre(self)
+            operation.finish(user, completed=bool(xml))
 
         except Exception as e:
             exc_type, exc_value, exc_traceback = sys.exc_info()
@@ -983,19 +983,6 @@ class ArticleProc(BaseProc, BasicXMLFile, ClusterableModel):
                 exc_traceback=exc_traceback,
                 exception=e,
             )
-
-    def html_to_xml(self, user, htmlxml, body_and_back_xml):
-
-        operation = self.start(user, "generate xml from html")
-
-        xml_content = htmlxml.html_to_xml(user, body_and_back_xml)
-        self.add_xml(user=user, xml_content=xml_content)
-        htmlxml.generate_report(user, xml_content)
-
-        operation.finish(
-            user,
-            completed=(htmlxml.html2xml_status == tracker_choices.PROGRESS_STATUS_DONE),
-        )
 
     @classmethod
     def items_to_get_xml(
@@ -1092,15 +1079,6 @@ class ArticleProc(BaseProc, BasicXMLFile, ClusterableModel):
             pkg_name=self.pkg_name, component_type="rendition"
         ).iterator()
 
-    def add_xml(self, user, source_path=None, xml_content=None):
-        if source_path:
-            with open(source_path) as fp:
-                xml_content = fp.read()
-        if xml_content:
-            self.save_file(self.pkg_name + ".xml", xml_content)
-            self.xml_status = tracker_choices.PROGRESS_STATUS_DONE
-            self.save()
-
     @property
     def migrated_xml(self):
         for item in self.issue_proc.issue_files.filter(
@@ -1151,7 +1129,8 @@ class ArticleProc(BaseProc, BasicXMLFile, ClusterableModel):
 
             with TemporaryDirectory() as output_folder:
 
-                builder = PkgZipBuilder(self.xml_with_pre)
+                xml_with_pre = get_migrated_xml_with_pre(self)
+                builder = PkgZipBuilder(xml_with_pre)
                 sps_pkg_zip_path = builder.build_sps_package(
                     output_folder,
                     renditions=self.renditions,
