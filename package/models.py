@@ -446,7 +446,7 @@ class SPSPkg(CommonControlField, ClusterableModel):
             obj.texts = texts
             obj.save()
 
-            obj.obj.optimise_pkg(user, sps_pkg_zip_path)
+            obj.save_pkg_zip_file(user, sps_pkg_zip_path)
 
             obj.push_package(user, components)
 
@@ -562,27 +562,22 @@ class SPSPkg(CommonControlField, ClusterableModel):
                 f"Unable to add pid v3 to {zip_xml_file_path}, got {response}. Exception {type(e)} {e}"
             )
 
-    def optimise_pkg(self, user, zip_file_path):
+    def save_pkg_zip_file(self, user, zip_file_path):
+        filename = self.sps_pkg_name + ".zip"
         try:
             with TemporaryDirectory() as targetdir:
-                logging.info(f"Cria diretorio destino {targetdir}")
-
                 with TemporaryDirectory() as workdir:
-                    logging.info(f"Cria diretorio de trabalho {workdir}")
-
-                    optimised_zip_sps_name = self.sps_pkg_name + ".zip"
-                    target = os.path.join(targetdir, optimised_zip_sps_name)
-
+                    target = os.path.join(targetdir, filename)
                     package = SPPackage.from_file(zip_file_path, workdir)
                     package.optimise(new_package_file_path=target, preserve_files=False)
 
                 with open(target, "rb") as fp:
-                    logging.info(f"Save optimised package {optimised_zip_sps_name}")
-                    self.file.save(optimised_zip_sps_name, ContentFile(fp.read()))
+                    # saved optimised
+                    self.file.save(filename, ContentFile(fp.read()))
         except Exception as e:
-            raise SPSPkgOptimizeError(
-                f"Unable to optimize package {self.sps_pkg_name}.zip. Exception {type(e)} {e}"
-            )
+            with open(zip_file_path, "rb") as fp:
+                # saved original
+                self.file.save(filename, ContentFile(fp.read()))
 
     def generate_article_html_page(self, user):
         try:
