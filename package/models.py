@@ -88,8 +88,14 @@ class PreviewArticlePageFileSaveError(Exception):
 
 
 def basic_xml_directory_path(instance, filename):
-    # file will be uploaded to MEDIA_ROOT/user_<id>/<filename>
-    return f"package/basic_xml/{filename[0]}/{filename[-1]}/{filename}"
+    try:
+        pid = instance.pid
+        subdir = os.path.join(pid[1:10], pid[10:14], pid[14:18], pid[18:])
+    except AttributeError:
+        # file will be uploaded to MEDIA_ROOT/user_<id>/<filename>
+        name, ext = os.path.splitext(filename)
+        subdir = f"{name[0]}/{name[-1]}"
+    return f"package/xml/{subdir}/{filename}"
 
 
 class BasicXMLFile(models.Model):
@@ -122,9 +128,6 @@ class BasicXMLFile(models.Model):
 
     def save_file(self, name, content):
         try:
-            if self.text == content:
-                # it is already updated
-                return
             self.file.delete(save=True)
         except Exception as e:
             pass
