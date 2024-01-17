@@ -437,20 +437,36 @@ class SPSPkg(CommonControlField, ClusterableModel):
         texts,
         article_proc,
     ):
-        obj = cls.add_pid_v3_to_zip(user, sps_pkg_zip_path, is_public, article_proc)
-        obj.origin = origin or obj.origin
-        obj.is_public = is_public or obj.is_public
-        obj.texts = texts
-        obj.save()
+        try:
+            operation = article_proc.start(user, "SPSPkg.create_or_update")
 
-        obj.optimise_pkg(user, sps_pkg_zip_path)
+            obj = cls.add_pid_v3_to_zip(user, sps_pkg_zip_path, is_public, article_proc)
+            obj.origin = origin or obj.origin
+            obj.is_public = is_public or obj.is_public
+            obj.texts = texts
+            obj.save()
 
-        obj.push_package(user, components)
+            obj.obj.optimise_pkg(user, sps_pkg_zip_path)
 
-        obj.generate_article_html_page(user)
+            obj.push_package(user, components)
 
-        obj.validate()
-        return obj
+            obj.generate_article_html_page(user)
+
+            obj.validate()
+
+            logging.info(f"Depois de criar sps_pkg.pid_v3: {obj.pid_v3}")
+            article_proc.update_sps_pkg_status()
+            operation.finish(user, completed=obj.is_complete, detail=obj.data)
+
+            return obj
+
+        except Exception as e:
+            exc_type, exc_value, exc_traceback = sys.exc_info()
+            operation.finish(
+                user,
+                exc_traceback=exc_traceback,
+                exception=e,
+            )
 
     def _validate_texts(self, save=False):
         texts = self.texts
