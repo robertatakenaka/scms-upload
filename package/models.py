@@ -433,7 +433,7 @@ class SPSPkg(CommonControlField, ClusterableModel):
         sps_pkg_zip_path,
         origin,
         is_public,
-        components,
+        original_pkg_components,
         texts,
         article_proc,
     ):
@@ -448,7 +448,7 @@ class SPSPkg(CommonControlField, ClusterableModel):
 
             obj.save_pkg_zip_file(user, sps_pkg_zip_path)
 
-            obj.save_package_in_cloud(user, components)
+            obj.save_package_in_cloud(user, original_pkg_components)
 
             obj.generate_article_html_page(user)
 
@@ -618,17 +618,17 @@ class SPSPkg(CommonControlField, ClusterableModel):
         suffix = sps_pkg_name[10:]
         return os.path.join(subdir, "/".join(suffix.split("-")))
 
-    def save_package_in_cloud(self, user, components):
+    def save_package_in_cloud(self, user, original_pkg_components):
         self.save()
         sps_pkg_name = self.sps_pkg_name
 
-        xml_with_pre = self._save_components_in_cloud(user, components)
+        xml_with_pre = self._save_components_in_cloud(user, original_pkg_components)
 
         xml_assets = ArticleAssets(xml_with_pre.xmltree)
         self._local_to_remote(xml_assets)
         self._save_xml_in_cloud(user, xml_with_pre, sps_pkg_name + ".xml")
 
-    def _save_components_in_cloud(self, user, components):
+    def _save_components_in_cloud(self, user, original_pkg_components):
         subdir = self.subdir
         xml_with_pre = None
         mimetypes.init()
@@ -638,7 +638,7 @@ class SPSPkg(CommonControlField, ClusterableModel):
         # que gera novos componentes (miniatura e imagem para web)
         THUMB = ".thumbnail"
         optimised_components = {}
-        for k, v in components.items():
+        for k, v in original_pkg_components.items():
             name, ext = os.path.splitext(k)
             if THUMB in name:
                 name = name[: name.find(THUMB)]
@@ -675,9 +675,9 @@ class SPSPkg(CommonControlField, ClusterableModel):
                 except Exception as e:
                     uri = None
 
-                component_data = components.get(item) or {}
+                component_data = original_pkg_components.get(item) or {}
                 if component_data:
-                    components[item]["uri"] = uri
+                    original_pkg_components[item]["uri"] = uri
                 else:
                     if THUMB in name:
                         name = name[: name.find(THUMB)]
