@@ -535,29 +535,44 @@ class SPSPkg(CommonControlField, ClusterableModel):
         """
         try:
             response = None
-            logging.info(f"Request PID V3 para {zip_xml_file_path}")
+            operation = None
+
             for response in pid_provider_app.provide_pid_for_xml_zip(
                 zip_xml_file_path, user, is_published=is_public
             ):
                 operation = article_proc.start(user, "provide_pid_for_xml_zip")
-                pid_v3 = response["v3"]
-                sps_pkg_name = response["xml_with_pre"].sps_pkg_name
-                synchronized = response["synchronized"]
-                if response["xml_changed"]:
+
+                xml_with_pre = response.pop("xml_with_pre")
+
+                obj = cls._get_or_create(
+                    user=user,
+                    pid_v3=response["v3"],
+                    sps_pkg_name=xml_with_pre.sps_pkg_name,
+                    is_pid_provider_synchronized=response["synchronized"],
+                )
+
+                if response.get("xml_changed"):
                     # atualiza conteúdo de zip
                     with ZipFile(zip_xml_file_path, "a") as zf:
                         zf.writestr(
-                            response["filename"], response["xml_with_pre"].tostring()
+                            response["filename"], xml_with_pre.tostring()
                         )
 
-                obj = cls._get_or_create(user, pid_v3, sps_pkg_name)
-                obj.is_pid_provider_synchronized = synchronized
-                obj.save()
-                detail = response.copy()
-                detail["xml_with_pre"] = str(detail.get("xml_with_pre"))
-                operation.finish(user, completed=synchronized, detail=detail)
+                operation.finish(
+                    user,
+                    completed=obj.is_pid_provider_synchronized,
+                    detail=response,
+                )
                 return obj
         except Exception as e:
+            exc_type, exc_value, exc_traceback = sys.exc_info()
+            if operation:
+                operation.finish(
+                    user,
+                    exc_traceback=exc_traceback,
+                    exception=e,
+                    detail=response,
+                )
             raise SPSPkgAddPidV3ToZipFileError(
                 f"Unable to add pid v3 to {zip_xml_file_path}, got {response}. Exception {type(e)} {e}"
             )
