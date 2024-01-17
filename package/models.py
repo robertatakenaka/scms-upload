@@ -448,7 +448,7 @@ class SPSPkg(CommonControlField, ClusterableModel):
 
             obj.save_pkg_zip_file(user, sps_pkg_zip_path)
 
-            obj.save_package_in_cloud(user, original_pkg_components)
+            obj.save_package_in_cloud(user, original_pkg_components, article_proc)
 
             obj.generate_article_html_page(user)
 
@@ -468,9 +468,11 @@ class SPSPkg(CommonControlField, ClusterableModel):
                 exception=e,
             )
 
-    def _validate_texts(self, save=False):
+    def validate(self, save=False):
         texts = self.texts
-        if texts.get("html_langs"):
+        if not texts:
+            self.valid_texts = False
+        elif texts.get("html_langs"):
             self.valid_texts = (
                 set(texts.get("xml_langs"))
                 == set(texts.get("pdf_langs"))
@@ -480,21 +482,6 @@ class SPSPkg(CommonControlField, ClusterableModel):
             self.valid_texts = set(texts.get("xml_langs")) == set(texts.get("pdf_langs"))
         if save:
             self.save()
-
-    def _validate_components(self, save=False):
-        for item in self.components.all():
-            if item.uri:
-                self.valid_components = True
-            else:
-                self.valid_components = False
-                break
-        if save:
-            self.save()
-
-    def validate(self):
-        self._validate_components()
-        self._validate_texts()
-        self.save()
 
     @property
     def is_complete(self):
@@ -593,6 +580,7 @@ class SPSPkg(CommonControlField, ClusterableModel):
             with open(zip_file_path, "rb") as fp:
                 # saved original
                 self.file.save(filename, ContentFile(fp.read()))
+        self.save()
 
     def generate_article_html_page(self, user):
         try:
@@ -613,41 +601,30 @@ class SPSPkg(CommonControlField, ClusterableModel):
 
     @property
     def subdir(self):
-        sps_pkg_name = self.sps_pkg_name
-        subdir = sps_pkg_name[:9]
-        suffix = sps_pkg_name[10:]
-        return os.path.join(subdir, "/".join(suffix.split("-")))
+        if not hasattr(self, '_subdir') or not self._subdir:
+            sps_pkg_name = self.sps_pkg_name
+            subdir = sps_pkg_name[:9]
+            suffix = sps_pkg_name[10:]
+            self._subdir = os.path.join(subdir, "/".join(suffix.split("-")))
+        return self._subdir
 
-    def save_package_in_cloud(self, user, original_pkg_components):
+    def save_package_in_cloud(self, user, original_pkg_components, article_proc):
         self.save()
-        sps_pkg_name = self.sps_pkg_name
+        xml_with_pre = self._save_components_in_cloud(
+            user, original_pkg_components, article_proc,
+        )
+        self._local_to_remote(xml_with_pre)
+        self._save_xml_in_cloud(user, xml_with_pre, article_proc)
+        self.valid_components = self.components.filter(uri__isnull=True).count() == 0
+        self.save()
 
-        xml_with_pre = self._save_components_in_cloud(user, original_pkg_components)
-
-        xml_assets = ArticleAssets(xml_with_pre.xmltree)
-        self._local_to_remote(xml_assets)
-        self._save_xml_in_cloud(user, xml_with_pre, sps_pkg_name + ".xml")
-
-    def _save_components_in_cloud(self, user, original_pkg_components):
-        subdir = self.subdir
+    def _save_components_in_cloud(self, user, original_pkg_components, article_proc):
+        op = article_proc.start(user, "_save_components_in_cloud")
         xml_with_pre = None
         mimetypes.init()
         self.components.all().delete()
 
-        # components contém os components antes da otimização
-        # que gera novos componentes (miniatura e imagem para web)
-        THUMB = ".thumbnail"
-        optimised_components = {}
-        for k, v in original_pkg_components.items():
-            name, ext = os.path.splitext(k)
-            if THUMB in name:
-                name = name[: name.find(THUMB)]
-            optimised_components[name] = v.copy()
-            try:
-                optimised_components[name].pop("legacy_uri")
-            except KeyError:
-                logging.info(v)
-
+        failures = []
         with ZipFile(self.file.path) as optimised_fp:
             for item in optimised_fp.namelist():
                 name, ext = os.path.splitext(item)
@@ -656,62 +633,65 @@ class SPSPkg(CommonControlField, ClusterableModel):
                     content = optimised_item_fp.read()
 
                 if ext == ".xml":
-                    xml_name = item
-                    try:
-                        xml_with_pre = get_xml_with_pre(content.decode("utf-8"))
-                    except Exception as e:
-                        logging.info(self)
-                        logging.exception(e)
-                    # registrará XML após trocar o xlink:href por URI do MinIO
-                    continue
-
-                try:
-                    response = minio_push_file_content(
-                        content=content,
-                        mimetype=mimetypes.types_map[ext],
-                        object_name=f"{subdir}/{item}",
-                    )
-                    uri = response["uri"]
-                except Exception as e:
-                    uri = None
+                    xml_with_pre = get_xml_with_pre(content.decode("utf-8"))
 
                 component_data = original_pkg_components.get(item) or {}
-                if component_data:
-                    original_pkg_components[item]["uri"] = uri
-                else:
-                    if THUMB in name:
-                        name = name[: name.find(THUMB)]
-                    component_data = optimised_components.get(name) or {}
-                self.components.add(
-                    SPSPkgComponent.create_or_update(
-                        user=user,
-                        sps_pkg=self,
-                        uri=uri,
-                        basename=item,
-                        component_type=component_data.get("component_type"),
-                        lang=component_data.get("lang"),
-                        legacy_uri=component_data.get("legacy_uri"),
-                    )
+                self._save_component_in_cloud(
+                    user, item, content, ext, component_data, failures,
                 )
+        op.finish(user, completed=not failures, detail=failures)
         return xml_with_pre
 
-    def _local_to_remote(self, xml_assets):
-        # Troca href local por href remoto (sps_filename -> uri)
-        xml_assets.replace_names(
-            {item.basename: item.uri for item in self.components.iterator()}
-        )
-
-    def _save_xml_in_cloud(self, user, xml_with_pre, filename):
-        subdir = self.subdir
+    def _save_component_in_cloud(self, user, item, content, ext, component_data, failures):
         try:
             response = minio_push_file_content(
-                content=xml_with_pre.tostring().encode("utf-8"),
-                mimetype=mimetypes.types_map[".xml"],
-                object_name=f"{subdir}/{filename}",
+                content=content,
+                mimetype=mimetypes.types_map[ext],
+                object_name=f"{self.subdir}/{item}",
             )
             uri = response["uri"]
         except Exception as e:
             uri = None
+            failures.append(
+                dict(
+                    item_id=item,
+                    response=response,
+                )
+            )
+        self.components.add(
+            SPSPkgComponent.create_or_update(
+                user=user,
+                sps_pkg=self,
+                uri=uri,
+                basename=item,
+                component_type=component_data.get("component_type"),
+                lang=component_data.get("lang"),
+                legacy_uri=component_data.get("legacy_uri"),
+            )
+        )
+
+    def _local_to_remote(self, xml_with_pre):
+        replacements = {
+            item.basename: item.uri
+            for item in self.components.filter(uri__isnull=False).iterator()
+        }
+        if replacements:
+            xml_assets = ArticleAssets(xml_with_pre.xmltree)
+            xml_assets.replace_names(replacements)
+
+    def _save_xml_in_cloud(self, user, xml_with_pre, article_proc):
+        op = article_proc.start(user, "_save_xml_in_cloud")
+        filename = self.sps_pkg_name + ".xml"
+        try:
+            response = minio_push_file_content(
+                content=xml_with_pre.tostring().encode("utf-8"),
+                mimetype=mimetypes.types_map[".xml"],
+                object_name=f"{self.subdir}/{filename}",
+            )
+            uri = response["uri"]
+        except Exception as e:
+            uri = None
+            op.finish(user, completed=False, detail=response)
         self.xml_uri = uri
         self.save()
         self.components.add(
@@ -725,8 +705,9 @@ class SPSPkg(CommonControlField, ClusterableModel):
                 legacy_uri=None,
             )
         )
+        op.finish(user, completed=True)
 
-    def synchronize(self, user):
+    def synchronize(self, user, article_proc):
         zip_xml_file_path = self.file.path
 
         logging.info(f"Synchronize {zip_xml_file_path}")
@@ -743,7 +724,7 @@ class SPSPkg(CommonControlField, ClusterableModel):
                         response["filename"], response["xml_with_pre"].tostring()
                     )
 
-                self._save_xml_in_cloud(user, response["xml_with_pre"], self.sps_pkg_name + ".xml")
+                self._save_xml_in_cloud(user, response["xml_with_pre"], article_proc)
                 self.generate_article_html_page(user)
 
             self.is_pid_provider_synchronized = response["synchronized"]
