@@ -12,8 +12,6 @@ from django.db.models import Q
 from django.utils.translation import gettext_lazy as _
 from modelcluster.fields import ParentalKey
 from modelcluster.models import ClusterableModel
-from packtools.sps.models.article_and_subarticles import ArticleAndSubArticles
-from packtools.sps.models.v2.article_assets import ArticleAssets
 from scielo_classic_website.htmlbody.html_body import HTMLContent
 from wagtail.admin.panels import (
     FieldPanel,
@@ -39,6 +37,7 @@ from migration.models import (
     MigratedIssue,
     MigratedJournal,
 )
+from migration.controller import PkgZipBuilder
 from package import choices as package_choices
 from package.models import BasicXMLFile, SPSPkg
 from proc import exceptions
@@ -1138,189 +1137,6 @@ class ArticleProc(BaseProc, BasicXMLFile, ClusterableModel):
             xhtmls[lang][part[item.part]] = hc.content
         return xhtmls
 
-    def build_sps_package(self, user, output_folder, components, texts):
-        """
-        A partir do XML original ou gerado a partir do HTML, e
-        dos ativos digitais, todos registrados em MigratedFile,
-        cria o zip com nome no padrão SPS (ISSN-ACRON-VOL-NUM-SUPPL-ARTICLE) e
-        o armazena em SPSPkg.not_optimised_zip_file.
-        Neste momento o XML não contém pid v3.
-        """
-        # gera nome de pacote padrão SPS ISSN-ACRON-VOL-NUM-SUPPL-ARTICLE
-        xml_with_pre = self.xml_with_pre
-        sps_pkg_name = xml_with_pre.sps_pkg_name
-
-        sps_pkg_zip_path = os.path.join(output_folder, f"{sps_pkg_name}.zip")
-
-        # cria pacote zip
-        with ZipFile(sps_pkg_zip_path, "w") as zf:
-
-            # A partir do XML, obtém os nomes dos arquivos dos ativos digitais
-            self._build_sps_package_add_assets(
-                zf, user, xml_with_pre, sps_pkg_name, components
-            )
-
-            # add renditions (pdf) to zip
-            result = self._build_sps_package_add_renditions(
-                zf, user, xml_with_pre, sps_pkg_name, components
-            )
-            texts.update(result)
-
-            # adiciona XML em zip
-            self._build_sps_package_add_xml(
-                zf, user, xml_with_pre, sps_pkg_name, components
-            )
-
-        return sps_pkg_zip_path
-
-    def _build_sps_package_add_renditions(
-        self, zf, user, xml_with_pre, sps_pkg_name, components
-    ):
-        xml = ArticleAndSubArticles(xml_with_pre.xmltree)
-        xml_langs = []
-        for item in xml.data:
-            if item.get("lang"):
-                xml_langs.append(item.get("lang"))
-
-        pdf_langs = []
-
-        for rendition in self.renditions:
-            try:
-                if rendition.lang:
-                    sps_filename = f"{sps_pkg_name}-{rendition.lang}.pdf"
-                else:
-                    sps_filename = f"{sps_pkg_name}.pdf"
-                pdf_langs.append(rendition.lang or xml.main_lang)
-
-                zf.write(rendition.file.path, arcname=sps_filename)
-
-                components[sps_filename] = {
-                    "lang": rendition.lang,
-                    "legacy_uri": rendition.original_href,
-                    "component_type": "rendition",
-                }
-            except Exception as e:
-                exc_type, exc_value, exc_traceback = sys.exc_info()
-                components[rendition.original_name] = {
-                    "failures": format_traceback(exc_traceback),
-                }
-        html_langs = list(self.translations.keys())
-        try:
-            if self.migrated_data.n_paragraphs:
-                html_langs.append(self.main_lang)
-        except Exception as e:
-            pass
-
-        return {
-            "xml_langs": xml_langs,
-            "pdf_langs": pdf_langs,
-            "html_langs": html_langs,
-        }
-
-    def _build_sps_package_add_assets(
-        self, zf, user, xml_with_pre, sps_pkg_name, components
-    ):
-        replacements = {}
-        subdir = os.path.join(
-            self.issue_proc.journal_proc.acron,
-            self.issue_proc.issue_folder,
-        )
-        xml_assets = ArticleAssets(xml_with_pre.xmltree)
-        for xml_graphic in xml_assets.items:
-            try:
-                if replacements.get(xml_graphic.xlink_href):
-                    continue
-
-                basename = os.path.basename(xml_graphic.xlink_href)
-                name, ext = os.path.splitext(basename)
-
-                found = False
-
-                # procura a "imagem" no contexto do "issue"
-                for asset in self.issue_proc.find_asset(basename, name):
-                    found = True
-                    self._build_sps_package_add_asset(
-                        zf,
-                        asset,
-                        xml_graphic,
-                        replacements,
-                        components,
-                        user,
-                        sps_pkg_name,
-                    )
-                if not found:
-                    # procura a "imagem" no contexto da coleção
-                    for asset in MigratedFile.find(
-                        collection=self.collection,
-                        xlink_href=xml_graphic.xlink_href,
-                        subidr=subdir,
-                    ):
-                        found = True
-                        self._build_sps_package_add_asset(
-                            zf,
-                            asset,
-                            xml_graphic,
-                            replacements,
-                            components,
-                            user,
-                            sps_pkg_name,
-                        )
-
-                if not found:
-                    components[xml_graphic.xlink_href] = {
-                        "failures": "Not found",
-                    }
-
-            except Exception as e:
-                exc_type, exc_value, exc_traceback = sys.exc_info()
-                components[xml_graphic.xlink_href] = {
-                    "failures": format_traceback(exc_traceback),
-                }
-        xml_assets.replace_names(replacements)
-
-    def _build_sps_package_add_asset(
-        self, zf, asset, xml_graphic, replacements, components, user, sps_pkg_name
-    ):
-        try:
-            # obtém o nome do arquivo no padrão sps
-            sps_filename = xml_graphic.name_canonical(sps_pkg_name)
-
-            # indica a troca de href original para o padrão SPS
-            replacements[xml_graphic.xlink_href] = sps_filename
-
-            # adiciona arquivo ao zip
-            zf.write(asset.file.path, arcname=sps_filename)
-
-            component_type = (
-                "supplementary-material"
-                if xml_graphic.is_supplementary_material
-                else "asset"
-            )
-            components[sps_filename] = {
-                "xml_elem_id": xml_graphic.id,
-                "legacy_uri": asset.original_href,
-                "component_type": component_type,
-            }
-        except Exception as e:
-            exc_type, exc_value, exc_traceback = sys.exc_info()
-            components[xml_graphic.xlink_href] = {
-                "failures": format_traceback(exc_traceback),
-            }
-
-    def _build_sps_package_add_xml(
-        self, zf, user, xml_with_pre, sps_pkg_name, components
-    ):
-        try:
-            sps_xml_name = sps_pkg_name + ".xml"
-            zf.writestr(sps_xml_name, xml_with_pre.tostring())
-            components[sps_xml_name] = {"component_type": "xml"}
-        except Exception as e:
-            exc_type, exc_value, exc_traceback = sys.exc_info()
-            components[sps_xml_name] = {
-                "component_type": "xml",
-                "failures": format_traceback(exc_traceback),
-            }
-
     def generate_sps_package(
         self,
         user,
@@ -1333,14 +1149,15 @@ class ArticleProc(BaseProc, BasicXMLFile, ClusterableModel):
             self.sps_pkg_status = tracker_choices.PROGRESS_STATUS_DOING
             self.save()
 
-            components = {}
-            texts = {}
             with TemporaryDirectory() as output_folder:
-                sps_pkg_zip_path = self.build_sps_package(
-                    user,
+
+                builder = PkgZipBuilder(self.xml_with_pre)
+                sps_pkg_zip_path = builder.build_sps_package(
                     output_folder,
-                    components,
-                    texts,
+                    renditions=self.renditions,
+                    translations=self.translations,
+                    main_paragraphs_lang=self.n_paragraphs and self.main_lang,
+                    issue_proc=self.issue_proc,
                 )
 
                 # FIXME assumindo que isso será executado somente na migração
@@ -1352,11 +1169,10 @@ class ArticleProc(BaseProc, BasicXMLFile, ClusterableModel):
                     sps_pkg_zip_path,
                     origin=package_choices.PKG_ORIGIN_MIGRATION,
                     is_public=True,
-                    components=components,
-                    texts=texts,
+                    components=builder.components,
+                    texts=builder.texts,
                     article_proc=self,
                 )
-            logging.info(f"Depois de criar sps_pkg.pid_v3: {self.sps_pkg.pid_v3}")
             self.update_sps_pkg_status()
             operation.finish(user, completed=self.sps_pkg.is_complete, detail=self.sps_pkg.data)
 
@@ -1371,8 +1187,14 @@ class ArticleProc(BaseProc, BasicXMLFile, ClusterableModel):
             )
 
     def update_sps_pkg_status(self):
-        if self.sps_pkg.is_complete:
+        if not self.sps_pkg:
+            self.sps_pkg_status = tracker_choices.PROGRESS_STATUS_ERROR
+        elif self.sps_pkg.is_complete:
             self.sps_pkg_status = tracker_choices.PROGRESS_STATUS_DONE
+        elif not self.sps_pkg.is_pid_provider_synchronized:
+            self.sps_pkg_status = tracker_choices.PROGRESS_STATUS_TODO
+        elif not self.sps_pkg.valid_components:
+            self.sps_pkg_status = tracker_choices.PROGRESS_STATUS_TODO
         else:
             self.sps_pkg_status = tracker_choices.PROGRESS_STATUS_PENDING
         self.save()
