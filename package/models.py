@@ -448,7 +448,7 @@ class SPSPkg(CommonControlField, ClusterableModel):
 
             obj.save_pkg_zip_file(user, sps_pkg_zip_path)
 
-            obj.push_package(user, components)
+            obj.save_package_in_cloud(user, components)
 
             obj.generate_article_html_page(user)
 
@@ -618,17 +618,17 @@ class SPSPkg(CommonControlField, ClusterableModel):
         suffix = sps_pkg_name[10:]
         return os.path.join(subdir, "/".join(suffix.split("-")))
 
-    def push_package(self, user, components):
+    def save_package_in_cloud(self, user, components):
         self.save()
         sps_pkg_name = self.sps_pkg_name
 
-        xml_with_pre = self._push_components(user, components)
+        xml_with_pre = self._save_components_in_cloud(user, components)
 
         xml_assets = ArticleAssets(xml_with_pre.xmltree)
         self._local_to_remote(xml_assets)
-        self._push_xml(user, xml_with_pre, sps_pkg_name + ".xml")
+        self._save_xml_in_cloud(user, xml_with_pre, sps_pkg_name + ".xml")
 
-    def _push_components(self, user, components):
+    def _save_components_in_cloud(self, user, components):
         subdir = self.subdir
         xml_with_pre = None
         mimetypes.init()
@@ -701,7 +701,7 @@ class SPSPkg(CommonControlField, ClusterableModel):
             {item.basename: item.uri for item in self.components.iterator()}
         )
 
-    def _push_xml(self, user, xml_with_pre, filename):
+    def _save_xml_in_cloud(self, user, xml_with_pre, filename):
         subdir = self.subdir
         try:
             response = minio_push_file_content(
@@ -743,7 +743,7 @@ class SPSPkg(CommonControlField, ClusterableModel):
                         response["filename"], response["xml_with_pre"].tostring()
                     )
 
-                self._push_xml(user, response["xml_with_pre"], self.sps_pkg_name + ".xml")
+                self._save_xml_in_cloud(user, response["xml_with_pre"], self.sps_pkg_name + ".xml")
                 self.generate_article_html_page(user)
 
             self.is_pid_provider_synchronized = response["synchronized"]
