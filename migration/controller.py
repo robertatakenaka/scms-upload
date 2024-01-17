@@ -18,6 +18,10 @@ from tracker.models import UnexpectedEvent, format_traceback
 from .models import ClassicWebsiteConfiguration
 
 
+class XMLVersionXmlWithPreError(Exception):
+    ...
+
+
 def get_classic_website(collection_acron):
     try:
         config = ClassicWebsiteConfiguration.objects.get(
@@ -464,3 +468,21 @@ class PkgZipBuilder:
                 "component_type": "xml",
                 "failures": format_traceback(exc_traceback),
             }
+
+
+def get_migrated_xml_with_pre(article_proc):
+    try:
+        xml_file_path = HTMLXML.get(article_proc=article_proc).file.path
+        origin = "HTML"
+    except HTMLXML.DoesNotExist:
+        xml_file_path = self.migrated_xml.file.path
+        origin = "XML"
+    try:
+        for item in XMLWithPre.create(path=xml_file_path):
+            return item
+    except Exception as e:
+        raise XMLVersionXmlWithPreError(
+            _("Unable to get xml with pre from migrated article ({}) {}: {} {}").format(
+                origin, xml_file_path, type(e), e
+            )
+        )
