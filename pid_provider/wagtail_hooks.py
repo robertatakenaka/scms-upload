@@ -168,6 +168,12 @@ class PidConflictAdmin(ModelAdmin):
     )
 
 
+class PidProviderConfigCreateView(CreateView):
+    def form_valid(self, form):
+        self.object = form.save_all(self.request.user)
+        return HttpResponseRedirect(self.get_success_url())
+
+
 class PidProviderConfigAdmin(ModelAdmin):
     list_per_page = 10
     model = PidProviderConfig
