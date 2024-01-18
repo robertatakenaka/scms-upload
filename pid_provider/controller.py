@@ -4,6 +4,7 @@ import sys
 # from django.utils.translation import gettext as _
 from packtools.sps.pid_provider.xml_sps_lib import XMLWithPre
 
+from package.models import SPSPkg
 from pid_provider.models import PidProviderXML
 from pid_provider.client import PidProviderAPIClient
 from tracker.models import UnexpectedEvent
@@ -207,53 +208,6 @@ class BasePidProvider:
                 "error_type": str(type(e)),
             }
 
-    def provide_pid_for_xml_with_pre(
-        self,
-        xml_with_pre,
-        name,
-        user,
-        origin_date=None,
-        force_update=None,
-        is_published=None,
-        origin=None,
-    ):
-        """
-        Recebe um xml_with_pre para solicitar o PID da versão 3
-        para o Pid Provider
-
-        Se o xml_with_pre já está registrado local e remotamente,
-        apenas retorna os dados registrados
-        {
-            'registered': {...},
-            'required_local_registration': False,
-            'required_remote_registration': False,
-        }
-
-        Caso contrário, solicita PID versão 3 para o Pid Provider e
-        armazena o resultado
-        """
-        v3 = xml_with_pre.v3
-        response = self.pre_registration(xml_with_pre, name)
-        if response.get("required_local_registration"):
-            registered = PidProviderXML.register(
-                xml_with_pre,
-                name,
-                user,
-                origin_date=origin_date,
-                force_update=force_update,
-                is_published=is_published,
-                origin=origin,
-            )
-        else:
-            registered = response.get("registered")
-
-        # registered["xml_changed"] = v3 != xml_with_pre.v3
-        # registered["xml_uri"] = response.get("xml_uri")
-        logging.info(f"PidProvider.provide_pid_for_xml_with_pre: registered={registered}")
-
-        response.update(registered)
-        return response
-
 
 class PidProvider(BasePidProvider):
     """
@@ -275,22 +229,12 @@ class PidProvider(BasePidProvider):
     ):
         """
         Recebe um xml_with_pre para solicitar o PID da versão 3
-        para o Pid Provider
-
-        Se o xml_with_pre já está registrado local e remotamente,
-        apenas retorna os dados registrados
-        {
-            'registered': {...},
-            'required_local_registration': False,
-            'required_remote_registration': False,
-        }
-
-        Caso contrário, solicita PID versão 3 para o Pid Provider e
-        armazena o resultado
         """
         v3 = xml_with_pre.v3
-        response = self.pre_registration(xml_with_pre, name)
-        if response.get("required_local_registration"):
+        resp = self.pre_registration(xml_with_pre, name)
+
+        if not resp["registered_in_upload"]:
+            # não está registrado em Upload, realizar registro
             registered = PidProviderXML.register(
                 xml_with_pre,
                 name,
@@ -300,27 +244,61 @@ class PidProvider(BasePidProvider):
                 is_published=is_published,
                 origin=origin,
             )
-        else:
-            registered = response.get("registered")
+            logging.info(f"PidProviderXML.register: {registered}")
+            registered = registered or {}
+            resp["registered_in_upload"] = bool(registered.get("v3"))
+            resp.update(registered)
 
-        response.update(registered)
-
-        response["xml_changed"] = v3 != xml_with_pre.v3
-        logging.info(f"PidProvider.provide_pid_for_xml_with_pre: registered={response}")
-
-        return response
+        resp["synchronized"] = resp["registered_in_core"] and resp["registered_in_upload"]
+        resp["xml_with_pre"] = xml_with_pre
+        resp["filename"] = name
+        logging.info(f"PidProvider.provide_pid_for_xml_with_pre: resp={resp}")
+        return resp
 
     def pre_registration(self, xml_with_pre, name):
-        # verifica a necessidade de registro local e/ou remoto
+        """
+        Verifica a necessidade de registro no Upload e/ou Core
+        Se aplicável, faz registro no Core
+        Se aplicável, informa necessidade de registro no Upload
 
+        Returns
+        -------
+        {'filename': '1518-8787-rsp-38-suppl-65.xml',
+        'origin': '/app/core/media/1518-8787-rsp-38-suppl-65_wScfJap.zip',
+        'v3': 'Lfh9K7RWn4Wt9XFfx3dY8vj',
+        'v2': 'S0034-89102004000700010',
+        'aop_pid': None,
+        'pkg_name': '1518-8787-rsp-38-suppl-65',
+        'created': '2024-01-16T19:35:21.454225+00:00',
+        'updated': '2024-01-18T21:33:11.805681+00:00',
+        'record_status': 'updated',
+        'xml_changed': False}
+
+        ou
+
+        {"error_type": "ERROR ..."}
+
+        """
+        # retorna os dados se está registrado e é igual a xml_with_pre
         registered = PidProviderXML.is_registered(xml_with_pre)
 
         if registered.get("error_type"):
             return registered
 
-        if not registered:
-            registered = self.pid_provider_api.provide_pid(xml_with_pre, name)
-            registered["required_local_registration"] = True
+        registered = registered or {}
+
+        pid_v3 = registered.get("v3")
+
+        registered["registered_in_upload"] = bool(pid_v3)
+        registered["registered_in_core"] = SPSPkg.is_registered_in_core(pid_v3)
+
+        if not registered["registered_in_core"]:
+            # registra em Core
+            response = self.pid_provider_api.provide_pid(xml_with_pre, name)
+            if response.get("v3"):
+                # está registrado em core
+                registered["registered_in_core"] = True
+                registered.update(response)
 
         logging.info(f"PidProvider.pre_registration: response: {registered}")
         return registered
