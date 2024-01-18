@@ -138,6 +138,7 @@ class Operation(CommonControlField):
                 if not completed:
                     message_type = "ERROR"
 
+            detail = detail or {}
             if message_type or exception or exc_traceback:
                 self.event = Event.create(
                     user=user,
@@ -147,8 +148,12 @@ class Operation(CommonControlField):
                     exc_traceback=exc_traceback,
                     detail=detail,
                 )
-                detail = self.event.data
-            self.detail = detail
+                detail.update(self.event.data)
+            try:
+                json.dumps(detail)
+                self.detail = detail
+            except TypeError:
+                self.detail = str(detail)
             self.completed = completed
             self.updated_by = user
             self.save()
@@ -162,8 +167,16 @@ class Operation(CommonControlField):
                 exc_traceback=exc_traceback,
                 detail=detail,
             )
+            error = []
+            for k, v in data.items():
+                try:
+                    json.dumps(v)
+                    error.append(k)
+                except TypeError:
+                    pass
+
             raise OperationFinishError(
-                f"Unable to finish ({self.name}). Input: {data}. EXCEPTION: {type(exc)} {exc}"
+                f"Unable to finish ({self.name}). Input: {error}. EXCEPTION: {type(exc)} {exc}"
             )
 
 
@@ -188,9 +201,6 @@ class BaseProc(CommonControlField):
 
     pid = models.CharField(_("PID"), max_length=23, null=True, blank=True)
 
-    migrated_data = models.ForeignKey(
-        MigratedData, on_delete=models.SET_NULL, null=True, blank=True
-    )
     migration_status = models.CharField(
         _("Status"),
         max_length=8,
@@ -217,7 +227,7 @@ class BaseProc(CommonControlField):
             models.Index(fields=["pid"]),
         ]
 
-    MigratedDataClass = MigratedData
+    # MigratedDataClass = MigratedData
     base_form_class = ProcAdminModelForm
 
     panel_status = [
@@ -492,6 +502,9 @@ class BaseProc(CommonControlField):
 
 class JournalProc(BaseProc, ClusterableModel):
     """ """
+    migrated_data = models.ForeignKey(
+        MigratedJournal, on_delete=models.SET_NULL, null=True, blank=True
+    )
 
     acron = models.CharField(_("Acronym"), max_length=25, null=True, blank=True)
     title = models.TextField(_("Title"), null=True, blank=True)
@@ -593,6 +606,9 @@ def is_out_of_date(file_path, file_date):
 class IssueProc(BaseProc, ClusterableModel):
     """ """
 
+    migrated_data = models.ForeignKey(
+        MigratedIssue, on_delete=models.SET_NULL, null=True, blank=True
+    )
     def __unicode__(self):
         return f"{self.journal_proc} {self.issue_folder}"
 
@@ -857,6 +873,9 @@ class ArticleEventReportCreateError(Exception):
 class ArticleProc(BaseProc, ClusterableModel):
     # Armazena os IDs dos artigos no contexto de cada coleção
     # serve para conseguir recuperar artigos pelo ID do site clássico
+    migrated_data = models.ForeignKey(
+        MigratedArticle, on_delete=models.SET_NULL, null=True, blank=True
+    )
     issue_proc = models.ForeignKey(
         IssueProc, on_delete=models.SET_NULL, null=True, blank=True
     )
@@ -894,7 +913,6 @@ class ArticleProc(BaseProc, ClusterableModel):
 
     ProcResult = ArticleProcResult
     panel_files = [
-        FieldPanel("file"),
         AutocompletePanel("sps_pkg"),
     ]
     panel_status = [
@@ -968,11 +986,17 @@ class ArticleProc(BaseProc, ClusterableModel):
             self.save()
 
             if htmlxml:
-                xml_content = htmlxml.html_to_xml(user, body_and_back_xml)
-                htmlxml.generate_report(user, xml_content)
+                htmlxml.html_to_xml(user, self, body_and_back_xml)
 
-            xml = get_migrated_xml_with_pre(self)
-            operation.finish(user, completed=bool(xml))
+            xml = get_migrated_xml_with_pre(self.migrated_data)
+
+            completed = bool(xml)
+            if completed:
+                self.xml_status = tracker_choices.PROGRESS_STATUS_DONE
+            else:
+                self.xml_status = tracker_choices.PROGRESS_STATUS_PENDING
+            self.save()
+            operation.finish(user, completed=completed)
 
         except Exception as e:
             exc_type, exc_value, exc_traceback = sys.exc_info()
@@ -1129,13 +1153,14 @@ class ArticleProc(BaseProc, ClusterableModel):
 
             with TemporaryDirectory() as output_folder:
 
-                xml_with_pre = get_migrated_xml_with_pre(self)
+                xml_with_pre = get_migrated_xml_with_pre(self.migrated_data)
+                logging.info(type(self.migrated_data))
                 builder = PkgZipBuilder(xml_with_pre)
                 sps_pkg_zip_path = builder.build_sps_package(
                     output_folder,
                     renditions=self.renditions,
                     translations=self.translations,
-                    main_paragraphs_lang=self.n_paragraphs and self.main_lang,
+                    main_paragraphs_lang=self.migrated_data.n_paragraphs and self.main_lang,
                     issue_proc=self.issue_proc,
                 )
 
@@ -1148,12 +1173,16 @@ class ArticleProc(BaseProc, ClusterableModel):
                     sps_pkg_zip_path,
                     origin=package_choices.PKG_ORIGIN_MIGRATION,
                     is_public=True,
-                    components=builder.components,
+                    original_pkg_components=builder.components,
                     texts=builder.texts,
                     article_proc=self,
                 )
             self.update_sps_pkg_status()
-            operation.finish(user, completed=self.sps_pkg.is_complete, detail=self.sps_pkg.data)
+            operation.finish(
+                user,
+                completed=bool(self.sps_pkg and self.sps_pkg.is_complete),
+                detail=self.sps_pkg and self.sps_pkg.data or None,
+            )
 
         except Exception as e:
             exc_type, exc_value, exc_traceback = sys.exc_info()
