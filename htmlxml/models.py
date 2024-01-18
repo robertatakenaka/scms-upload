@@ -62,8 +62,8 @@ def body_and_back_directory_path(instance, filename):
     # file will be uploaded to MEDIA_ROOT/user_<id>/<filename>
     migrated_article = instance.bb_parent.migrated_article
     pkg_path = (
-        f"{migrated_article.journal.acronym}/"
-        f"{migrated_article.issue.issue_label}/"
+        f"{migrated_article.document.journal.acronym}/"
+        f"{migrated_article.document.issue.issue_label}/"
         f"{migrated_article.pkg_name}"
     )
     return f"migration/{pkg_path}/" f"bb/{filename}"
@@ -133,7 +133,7 @@ class BodyAndBackFile(BasicXMLFile, Orderable):
         except Exception as e:
             raise exceptions.CreateOrUpdateBodyAndBackFileError(
                 _(
-                    "Unable to create_or_update_body and back file {} {} {} {} {}"
+                    "Unable to create_or_update_body and back file {} {} {} {}"
                 ).format(bb_parent, version, type(e), e)
             )
 
@@ -141,8 +141,8 @@ class BodyAndBackFile(BasicXMLFile, Orderable):
 def generated_xml_report_directory_path(instance, filename):
     migrated_article = instance.migrated_article
     pkg_path = (
-        f"{migrated_article.journal.acronym}/"
-        f"{migrated_article.issue.issue_label}/"
+        f"{migrated_article.document.journal.acronym}/"
+        f"{migrated_article.document.issue.issue_label}/"
         f"{migrated_article.pkg_name}"
     )
     return f"migration/{pkg_path}/html2xml_report/{filename}"
@@ -591,7 +591,7 @@ class HTMLXML(CommonControlField, ClusterableModel, Html2xmlAnalysis, BasicXMLFi
     def generate_report(self, user, article_proc):
         html = _fromstring(self.first_bb_file)
 
-        for xml_with_pre in XMLWithPre.create(file_path=self.file.path):
+        for xml_with_pre in XMLWithPre.create(path=self.file.path):
             xml = xml_with_pre.xmltree
 
         self.evaluate_xml(html, xml)

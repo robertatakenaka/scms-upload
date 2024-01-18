@@ -3,12 +3,14 @@ import os
 import sys
 from copy import deepcopy
 from datetime import datetime
+from zipfile import ZipFile
 
 from django.utils.translation import gettext_lazy as _
 from scielo_classic_website import classic_ws
 
 from htmlxml.models import HTMLXML
 from migration.models import MigratedFile
+from packtools.sps.pid_provider.xml_sps_lib import XMLWithPre
 from packtools.sps.models.article_and_subarticles import ArticleAndSubArticles
 from packtools.sps.models.v2.article_assets import ArticleAssets
 
@@ -469,9 +471,9 @@ class PkgZipBuilder:
             }
 
 
-def get_migrated_xml_with_pre(article_proc):
+def get_migrated_xml_with_pre(migrated_article):
     try:
-        xml_file_path = HTMLXML.get(article_proc=article_proc).file.path
+        xml_file_path = HTMLXML.get(migrated_article=migrated_article).file.path
         origin = "HTML"
     except HTMLXML.DoesNotExist:
         xml_file_path = self.migrated_xml.file.path
