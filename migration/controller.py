@@ -276,8 +276,7 @@ class DocumentRecordsImporter:
         if classic_ws_doc.file_type == "html":
             HTMLXML.create_or_update(
                 user=self.user,
-                article_proc=article_proc,
-                n_paragraphs=len(classic_ws_doc.p_records or []),
+                migrated_article=article_proc.migrated_data,
                 n_references=len(classic_ws_doc.citations or []),
                 record_types="|".join(classic_ws_doc.record_types or []),
             )
