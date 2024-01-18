@@ -416,6 +416,16 @@ class SPSPkg(CommonControlField, ClusterableModel):
     def get(cls, pid_v3):
         return cls.objects.get(pid_v3=pid_v3)
 
+    @staticmethod
+    def is_registered_in_core(pid_v3):
+        if not pid_v3:
+            return False
+        try:
+            obj = cls.objects.get(pid_v3=pid_v3)
+            return obj.is_pid_provider_synchronized
+        except cls.DoesNotExist:
+            return False
+
     @classmethod
     def _get_or_create(cls, user, pid_v3, sps_pkg_name):
         try:
@@ -537,8 +547,8 @@ class SPSPkg(CommonControlField, ClusterableModel):
                 obj = cls._get_or_create(
                     user=user,
                     pid_v3=response["v3"],
-                    sps_pkg_name=xml_with_pre.sps_pkg_name,
-                    is_pid_provider_synchronized=response["synchronized"],
+                    sps_pkg_name=response["pkg_name"],
+                    is_pid_provider_synchronized=response.get("synchronized"),
                 )
 
                 if response.get("xml_changed"):
