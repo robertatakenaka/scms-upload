@@ -339,13 +339,15 @@ class PkgZipBuilder:
 
         pdf_langs = []
 
+        logging.info(renditions)
         for rendition in renditions:
             try:
                 if rendition.lang:
-                    sps_filename = f"{sps_pkg_name}-{rendition.lang}.pdf"
+                    sps_filename = f"{self.sps_pkg_name}-{rendition.lang}.pdf"
+                    pdf_langs.append(rendition.lang)
                 else:
-                    sps_filename = f"{sps_pkg_name}.pdf"
-                pdf_langs.append(rendition.lang or xml.main_lang)
+                    sps_filename = f"{self.sps_pkg_name}.pdf"
+                    pdf_langs.append(xml_langs[0])
 
                 zf.write(rendition.file.path, arcname=sps_filename)
 

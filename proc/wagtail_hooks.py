@@ -134,8 +134,8 @@ class HTMLXMLModelAdmin(ModelAdmin):
         "pdf_langs",
     )
     search_fields = (
-        "article_proc__migrated_data__pid",
-        "article_proc__pkg_name",
+        "migrated_article__pid",
+        "migrated_article__pkg_name",
         "html2xml_status",
         "article_type",
     )
@@ -153,7 +153,7 @@ class SPSPkgModelAdmin(ModelAdmin):
     list_display = (
         "sps_pkg_name",
         "pid_v3",
-        "is_pid_provider_synchronized",
+        "registered_in_core",
         "valid_texts",
         "valid_components",
         "is_public",
@@ -164,7 +164,7 @@ class SPSPkgModelAdmin(ModelAdmin):
 
     list_filter = (
         "origin",
-        "is_pid_provider_synchronized",
+        "registered_in_core",
         "valid_texts",
         "valid_components",
         "is_public",

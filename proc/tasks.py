@@ -438,7 +438,7 @@ def task_synchronize_to_pid_provider(
 
     for item in ArticleProc.objects.filter(
         sps_pkg__isnull=False,
-        sps_pkg__is_pid_provider_synchronized=False,
+        sps_pkg__registered_in_core=False,
     ).iterator():
         try:
             subtask_synchronize_to_pid_provider.apply_async(

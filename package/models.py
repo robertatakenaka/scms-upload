@@ -341,7 +341,7 @@ class SPSPkg(CommonControlField, ClusterableModel):
     scheduled = models.DateTimeField(null=True, blank=True)
 
     # o pacote pode ter pid_v3, sem estar registrado no pid provider core
-    is_pid_provider_synchronized = models.BooleanField(null=True, blank=True)
+    registered_in_core = models.BooleanField(null=True, blank=True)
 
     valid_components = models.BooleanField(null=True, blank=True)
 
@@ -368,7 +368,7 @@ class SPSPkg(CommonControlField, ClusterableModel):
     panel_status = [
         FieldPanel("origin", read_only=True),
         FieldPanel("is_public", read_only=True),
-        FieldPanel("is_pid_provider_synchronized", read_only=True),
+        FieldPanel("registered_in_core", read_only=True),
         FieldPanel("valid_texts", read_only=True),
         FieldPanel("valid_components", read_only=True),
         FieldPanel("texts", read_only=True),
@@ -387,7 +387,7 @@ class SPSPkg(CommonControlField, ClusterableModel):
             models.Index(fields=["sps_pkg_name"]),
             models.Index(fields=["valid_texts"]),
             models.Index(fields=["valid_components"]),
-            models.Index(fields=["is_pid_provider_synchronized"]),
+            models.Index(fields=["registered_in_core"]),
         ]
 
     def autocomplete_label(self):
@@ -422,12 +422,12 @@ class SPSPkg(CommonControlField, ClusterableModel):
             return False
         try:
             obj = cls.objects.get(pid_v3=pid_v3)
-            return obj.is_pid_provider_synchronized
+            return obj.registered_in_core
         except cls.DoesNotExist:
             return False
 
     @classmethod
-    def _get_or_create(cls, user, pid_v3, sps_pkg_name):
+    def _get_or_create(cls, user, pid_v3, sps_pkg_name, registered_in_core):
         try:
             obj = cls.objects.get(pid_v3=pid_v3)
             obj.updated_by = user
@@ -436,6 +436,7 @@ class SPSPkg(CommonControlField, ClusterableModel):
             obj.creator = user
             obj.pid_v3 = pid_v3
         obj.sps_pkg_name = sps_pkg_name
+        obj.registered_in_core = registered_in_core
         obj.save()
         return obj
 
@@ -499,7 +500,7 @@ class SPSPkg(CommonControlField, ClusterableModel):
     @property
     def is_complete(self):
         return (
-            self.is_pid_provider_synchronized
+            self.registered_in_core
             and self.valid_texts
             and self.valid_components
         )
@@ -507,7 +508,7 @@ class SPSPkg(CommonControlField, ClusterableModel):
     @property
     def data(self):
         return dict(
-            is_pid_provider_synchronized=self.is_pid_provider_synchronized,
+            registered_in_core=self.registered_in_core,
             texts=self.texts,
             components=[item.data for item in self.components.all()]
         )
@@ -522,7 +523,7 @@ class SPSPkg(CommonControlField, ClusterableModel):
             if pid_v3:
                 try:
                     obj = cls.objects.get(pid_v3=pid_v3)
-                    item["synchronized"] = obj.is_pid_provider_synchronized
+                    item["synchronized"] = obj.registered_in_core
                 except cls.DoesNotExist:
                     pass
             yield item
@@ -540,6 +541,7 @@ class SPSPkg(CommonControlField, ClusterableModel):
             for response in pid_provider_app.provide_pid_for_xml_zip(
                 zip_xml_file_path, user, is_published=is_public
             ):
+                logging.info(f"package response: {response}")
                 operation = article_proc.start(user, "provide_pid_for_xml_zip")
 
                 xml_with_pre = response.pop("xml_with_pre")
@@ -548,7 +550,7 @@ class SPSPkg(CommonControlField, ClusterableModel):
                     user=user,
                     pid_v3=response["v3"],
                     sps_pkg_name=response["pkg_name"],
-                    is_pid_provider_synchronized=response.get("synchronized"),
+                    registered_in_core=response.get("synchronized"),
                 )
 
                 if response.get("xml_changed"):
@@ -560,7 +562,7 @@ class SPSPkg(CommonControlField, ClusterableModel):
 
                 operation.finish(
                     user,
-                    completed=obj.is_pid_provider_synchronized,
+                    completed=obj.registered_in_core,
                     detail=response,
                 )
                 return obj
@@ -740,5 +742,5 @@ class SPSPkg(CommonControlField, ClusterableModel):
                 self._save_xml_in_cloud(user, response["xml_with_pre"], article_proc)
                 self.generate_article_html_page(user)
 
-            self.is_pid_provider_synchronized = response["synchronized"]
+            self.registered_in_core = response["synchronized"]
             self.save()

@@ -148,7 +148,7 @@ class Operation(CommonControlField):
                     exc_traceback=exc_traceback,
                     detail=detail,
                 )
-                detail.update(self.event.data)
+                detail = self.event.data
             try:
                 json.dumps(detail)
                 self.detail = detail
@@ -478,7 +478,7 @@ class BaseProc(CommonControlField):
         params["qa_ws_status"] = tracker_choices.PROGRESS_STATUS_DONE
         if content_type == "article":
             params["sps_pkg__pid_v3__isnull"] = False
-            params["sps_pkg__is_pid_provider_synchronized"] = True
+            params["sps_pkg__registered_in_core"] = True
 
         q = Q(public_ws_status=tracker_choices.PROGRESS_STATUS_REPROC)
 
@@ -913,6 +913,7 @@ class ArticleProc(BaseProc, ClusterableModel):
 
     ProcResult = ArticleProcResult
     panel_files = [
+        FieldPanel("pkg_name"),
         AutocompletePanel("sps_pkg"),
     ]
     panel_status = [
@@ -1158,7 +1159,7 @@ class ArticleProc(BaseProc, ClusterableModel):
                 builder = PkgZipBuilder(xml_with_pre)
                 sps_pkg_zip_path = builder.build_sps_package(
                     output_folder,
-                    renditions=self.renditions,
+                    renditions=list(self.renditions),
                     translations=self.translations,
                     main_paragraphs_lang=self.migrated_data.n_paragraphs and self.main_lang,
                     issue_proc=self.issue_proc,
@@ -1192,6 +1193,7 @@ class ArticleProc(BaseProc, ClusterableModel):
                 user,
                 exc_traceback=exc_traceback,
                 exception=e,
+                detail=self.sps_pkg and self.sps_pkg.data or None
             )
 
     def update_sps_pkg_status(self):
@@ -1199,10 +1201,10 @@ class ArticleProc(BaseProc, ClusterableModel):
             self.sps_pkg_status = tracker_choices.PROGRESS_STATUS_ERROR
         elif self.sps_pkg.is_complete:
             self.sps_pkg_status = tracker_choices.PROGRESS_STATUS_DONE
-        elif not self.sps_pkg.is_pid_provider_synchronized:
+        elif not self.sps_pkg.registered_in_core:
             self.sps_pkg_status = tracker_choices.PROGRESS_STATUS_TODO
         elif not self.sps_pkg.valid_components:
-            self.sps_pkg_status = tracker_choices.PROGRESS_STATUS_TODO
+            self.sps_pkg_status = tracker_choices.PROGRESS_STATUS_PENDING
         else:
             self.sps_pkg_status = tracker_choices.PROGRESS_STATUS_PENDING
         self.save()
@@ -1223,7 +1225,7 @@ class ArticleProc(BaseProc, ClusterableModel):
 
             operation = self.start(user, "synchronize to core")
             self.sps_pkg.synchronize(user)
-            operation.finish(user, completed=self.sps_pkg.is_pid_provider_synchronized, detail=response)
+            operation.finish(user, completed=self.sps_pkg.registered_in_core, detail=response)
 
         except Exception as e:
             exc_type, exc_value, exc_traceback = sys.exc_info()

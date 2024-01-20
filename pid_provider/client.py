@@ -219,7 +219,17 @@ class PidProviderAPIClient:
             if not item.get("xml_changed"):
                 return
             try:
-                xml_with_pre = get_xml_with_pre(item["xml"])
+                for pid_type, pid_value in item["xml_changed"].items():
+                    try:
+                        if pid_type == 'pid_v3':
+                            xml_with_pre.v3 = pid_value
+                        elif pid_type == 'pid_v2':
+                            xml_with_pre.v2 = pid_value
+                        elif pid_type == 'aop_pid':
+                            xml_with_pre.aop_pid = pid_value
+                    except Exception as e:
+                        pass
+
             except KeyError:
                 pass
             try:
