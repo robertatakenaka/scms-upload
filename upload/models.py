@@ -57,9 +57,6 @@ class Package(CommonControlField):
 
     panels = [
         FieldPanel("file"),
-        FieldPanel("category"),
-        AutocompletePanel("article"),
-        AutocompletePanel("issue"),
     ]
 
     def __str__(self):
@@ -186,7 +183,7 @@ class ValidationResult(models.Model):
     id = models.AutoField(primary_key=True)
     category = models.CharField(
         _("Error category"),
-        max_length=64,
+        max_length=32,
         choices=choices.VALIDATION_ERROR_CATEGORY,
         null=False,
         blank=False,
