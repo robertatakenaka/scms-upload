@@ -122,7 +122,7 @@ def receive_package(package):
                     data={},
                 )
                 # falhou, retorna response
-                return package
+                return response
         # sucesso, retorna package
         package._add_validation_result(
             error_category=choices.VE_XML_FORMAT_ERROR,
@@ -132,11 +132,10 @@ def receive_package(package):
                 "xml_path": package.file.path,
             },
         )
-        return package
+        return response
     except GetXMLItemsError as exc:
         # identifica os erros do arquivo Zip / XML
-        _identify_file_error(package)
-        return package
+        return _identify_file_error(package)
 
 
 def _identify_file_error(package):
@@ -145,6 +144,7 @@ def _identify_file_error(package):
         xml_path = None
         xml_str = file_utils.get_xml_content_from_zip(package.file.path, xml_path)
         xml_utils.get_etree_from_xml_content(xml_str)
+        return {}
     except (
         file_utils.BadPackageFileError,
         file_utils.PackageWithoutXMLFileError,
@@ -155,6 +155,7 @@ def _identify_file_error(package):
             status=choices.VS_DISAPPROVED,
             data={"exception": str(exc), "exception_type": str(type(exc))},
         )
+        return {"error": str(exc), "error_type": choices.VE_PACKAGE_FILE_ERROR}
 
     except xml_utils.XMLFormatError as e:
         data = {
@@ -169,6 +170,7 @@ def _identify_file_error(package):
             data=data,
             status=choices.VS_DISAPPROVED,
         )
+        return {"error": str(e), "error_type": choices.VE_XML_FORMAT_ERROR}
 
 
 def _check_article_and_journal(xml_with_pre):
@@ -291,12 +293,12 @@ def _get_journal(journal_title, issn_electronic, issn_print):
 
     if not j and journal_title:
         try:
-            j = OfficialJournal.objects.get(journal_title=journal_title)
+            j = OfficialJournal.objects.get(title=journal_title)
         except OfficialJournal.DoesNotExist:
             pass
 
     if j:
-        return Journal.objects.get(official=j)
+        return Journal.objects.get(official_journal=j)
     raise Journal.DoesNotExist(f"{journal_title} {issn_electronic} {issn_print}")
 
 
@@ -308,11 +310,11 @@ def _check_journal(origin, xmltree):
         xml = ISSN(xmltree)
         issn_electronic = xml.epub
         issn_print = xml.ppub
-
         return dict(journal=_get_journal(journal_title, issn_electronic, issn_print))
-    except Journal.DoesNotExist:
+    except Journal.DoesNotExist as exc:
+        logging.exception(exc)
         return dict(
-            error=f"Journal in XML is not registered in Upload: {journal_title} {issn_electronic} (electronic) {issn_print} (print)",
+            error=f"Journal in XML is not registered in Upload: {journal_title} (electronic: {issn_electronic}, print: {issn_print})",
             error_type=choices.VE_ARTICLE_JOURNAL_INCOMPATIBILITY_ERROR,
         )
     except Exception as e:
