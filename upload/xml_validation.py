@@ -189,7 +189,7 @@ def validate_article_id_other(sps_pkg_name, xmltree, data):
     xml = ArticleIdValidation(xmltree)
 
     try:
-        yield xml.validate_article_id_other()
+        yield from xml.validate_article_id_other()
     except Exception as exc:
         exc_type, exc_value, exc_traceback = sys.exc_info()
         UnexpectedEvent.create(
@@ -206,7 +206,7 @@ def validate_subjects(sps_pkg_name, xmltree, data):
     xml = ArticleSubjectsValidation(xmltree)
 
     try:
-        yield xml.validate_without_subjects()
+        yield from xml.validate_without_subjects()
     except Exception as exc:
         exc_type, exc_value, exc_traceback = sys.exc_info()
         UnexpectedEvent.create(
