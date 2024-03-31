@@ -556,10 +556,13 @@ def task_validate_original_zip_file(
     for xml_with_pre in XMLWithPre.create(path=file_path):
         xml_path = xml_with_pre.filename
 
+        # FIXME nao usar o otimizado neste momento
+        optimised_filepath = task_optimise_package(file_path)
+
         # Aciona validação de Assets
         task_validate_assets.apply_async(
             kwargs={
-                "file_path": file_path,
+                "file_path": optimised_filepath,
                 "xml_path": xml_path,
                 "package_id": package_id,
             },
@@ -568,7 +571,7 @@ def task_validate_original_zip_file(
         # Aciona validação de Renditions
         task_validate_renditions.apply_async(
             kwargs={
-                "file_path": file_path,
+                "file_path": optimised_filepath,
                 "xml_path": xml_path,
                 "package_id": package_id,
             },
