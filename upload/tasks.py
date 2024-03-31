@@ -1,4 +1,6 @@
 import json
+import sys
+import logging
 
 from celery.result import AsyncResult
 from django.contrib.auth import get_user_model
@@ -15,9 +17,11 @@ from article.controller import create_article_from_etree, update_article
 from article.models import Article
 from config import celery_app
 from issue.models import Issue
+from journal.models import Journal
 from journal.controller import get_journal_dict_for_validation
 from libs.dsm.publication.documents import get_document, get_similar_documents
 
+from tracker.models import UnexpectedEvent
 from . import choices, controller, exceptions
 from .utils import file_utils, package_utils, xml_utils
 from upload.models import Package
@@ -26,6 +30,7 @@ from upload.models import Package
 User = get_user_model()
 
 
+# TODO REMOVE
 def run_validations(
     filename, package_id, package_category, article_id=None, issue_id=None
 ):
@@ -440,6 +445,7 @@ def task_validate_renditions(file_path, xml_path, package_id):
         return True
 
 
+# TODO REMOVE
 @celery_app.task(name="Validate XML")
 def task_validate_content_xml(file_path, xml_path, package_id):
     xml_str = file_utils.get_xml_content_from_zip(file_path)
@@ -539,3 +545,75 @@ def _get_user(request, user_id):
 def task_request_pid_for_accepted_packages(self, user_id):
     user = _get_user(self.request, user_id)
     controller.request_pid_for_accepted_packages(user)
+
+
+@celery_app.task(bind=True)
+def task_validate_original_zip_file(
+    self, package_id, file_path, journal_id, issue_id, article_id
+):
+
+    for xml_with_pre in XMLWithPre.create(path=file_path):
+        xml_path = xml_with_pre.filename
+
+        # FIXME nao usar o otimizado neste momento
+        optimised_filepath = task_optimise_package(file_path)
+
+        # Aciona validação de Assets
+        task_validate_assets.apply_async(
+            kwargs={
+                "file_path": optimised_filepath,
+                "xml_path": xml_path,
+                "package_id": package_id,
+            },
+        )
+
+        # Aciona validação de Renditions
+        task_validate_renditions.apply_async(
+            kwargs={
+                "file_path": optimised_filepath,
+                "xml_path": xml_path,
+                "package_id": package_id,
+            },
+        )
+
+        # Aciona validacao do conteudo do XML
+        task_validate_xml_content.apply_async(
+            kwargs={
+                "file_path": file_path,
+                "xml_path": xml_path,
+                "package_id": package_id,
+                "journal_id": journal_id,
+                "issue_id": issue_id,
+                "article_id": article_id,
+            },
+        )
+
+
+@celery_app.task(bind=True)
+def task_validate_xml_content(
+    self, file_path, xml_path, package_id, journal_id, issue_id, article_id
+):
+    try:
+        package = Package.objects.get(pk=package_id)
+        if journal_id:
+            journal = Journal.objects.get(pk=journal_id)
+        else:
+            journal = None
+
+        if issue_id:
+            issue = Issue.objects.get(pk=issue_id)
+        else:
+            issue = None
+
+        controller.validate_xml_content(package, journal, issue)
+
+    except Exception as e:
+        exc_type, exc_value, exc_traceback = sys.exc_info()
+        UnexpectedEvent.create(
+            exception=e,
+            exc_traceback=exc_traceback,
+            detail={
+                "operation": "upload.tasks.task_validate_xml_content",
+                "detail": dict(file_path=file_path, xml_path=xml_path),
+            },
+        )
