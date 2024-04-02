@@ -221,6 +221,10 @@ class Journal(CommonControlField, ClusterableModel):
         logging.info(f"return {obj}")
         return obj
 
+    @property
+    def any_issn(self):
+        return self.official_journal and (self.official_journal.issn_electronic or self.official_journal.issn_print)
+
 
 class Owner(Orderable, InstitutionHistory):
     journal = ParentalKey(Journal, related_name="owner", null=True, blank=True, on_delete=models.SET_NULL)
