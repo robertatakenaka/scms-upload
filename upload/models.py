@@ -109,6 +109,14 @@ class Package(CommonControlField):
         return val_res
 
     def update_status(self, validation_result):
+        if validation_result.status == choices.VALIDATION_RESULT_SUCCESS:
+            self.status = choices.PS_ENQUEUED_FOR_VALIDATION
+            self.save()
+            return
+        if validation_result.status == choices.VALIDATION_RESULT_FAILURE:
+            self.status = choices.PS_REJECTED
+            self.save()
+            return
         if validation_result.status == choices.VS_DISAPPROVED:
             self.status = choices.PS_REJECTED
             self.save()
@@ -476,6 +484,20 @@ class ValidationReport(BaseValidationReport, ClusterableModel):
         InlinePanel("validation_result", label=_("Result"))
     ]
 
+    def add_validation_result(
+        self, status=None, message=None, data=None, subject=None,
+    ):
+        validation_result = PkgValidationResult.create(
+            subject=subject or data.get("subject"),
+            status=status,
+            message=message,
+            data=data,
+            creator=self.creator,
+        )
+        validation_result.report = self
+        validation_result.save()
+        return validation_result
+
 
 class XMLInfoReport(BaseValidationReport, ClusterableModel):
     panels = super().panels + [
@@ -547,19 +569,22 @@ class BaseValidationResult(CommonControlField):
         ]
 
     @classmethod
-    def create(cls, subject=None, status=None, message=None, data=None):
+    def create(cls, subject=None, status=None, message=None, data=None, creator=None):
         val_res = cls()
         val_res.subject = subject
         val_res.status = status
         val_res.message = message
         val_res.data = data
+        val_res.creator = creator
+
         val_res.save()
         return val_res
 
-    def update(self, status=None, message=None, data=None):
+    def update(self, status=None, message=None, data=None, updated_by=None):
         self.status = status
         self.message = message
         self.data = data
+        self.updated_by = updated_by
         self.save()
 
     @property
