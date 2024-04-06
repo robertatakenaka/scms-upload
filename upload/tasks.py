@@ -25,7 +25,7 @@ from libs.dsm.publication.documents import get_document, get_similar_documents
 from tracker.models import UnexpectedEvent
 from . import choices, controller, exceptions
 from .utils import file_utils, package_utils, xml_utils
-from upload.models import Package
+from upload.models import Package, ValidationReport
 
 
 User = get_user_model()
@@ -347,14 +347,25 @@ def task_validate_assets(file_path, xml_path, package_id):
     )
 
     has_errors = False
+    package = Package.objects.get(pk=package_id)
 
+    report = ValidationReport.get_or_create(
+        package.creator, package, _("Assets Report"), choices.VE_ASSET_ERROR)
+
+    items = []
     for asset_result in package_utils.evaluate_assets(article_assets, package_files):
         asset, is_present = asset_result
 
+        items.append(
+            {
+                "name": asset.name,
+                "id": asset.id,
+                "type": asset.type,
+            }
+        )
         if not is_present:
             has_errors = True
-            Package.add_validation_result(
-                package_id,
+            package._add_validation_result(
                 error_category=choices.VE_ASSET_ERROR,
                 status=choices.VS_DISAPPROVED,
                 message=f'{asset.name} {_("file is mentioned in the XML but not present in the package.")}',
@@ -365,9 +376,19 @@ def task_validate_assets(file_path, xml_path, package_id):
                     "missing_file": asset.name,
                 },
             )
+            validation_result = report.add_validation_result(
+                status=choices.VALIDATION_RESULT_FAILURE,
+                message=f'{asset.name} {_("file is mentioned in the XML but not present in the package.")}',
+                data={
+                    "xml_path": xml_path,
+                    "id": asset.id,
+                    "type": asset.type,
+                    "missing_file": asset.name,
+                },
+                subject=asset.name,
+            )
 
-            Package.add_validation_result(
-                package_id,
+            package._add_validation_result(
                 error_category=choices.VE_ASSET_ERROR,
                 status=choices.VS_DISAPPROVED,
                 message=f'{asset.name} {_("file is mentioned in the XML but its optimised version not present in the package.")}',
@@ -380,9 +401,21 @@ def task_validate_assets(file_path, xml_path, package_id):
                     ),
                 },
             )
+            validation_result = report.add_validation_result(
+                status=choices.VALIDATION_RESULT_FAILURE,
+                message=f'{asset.name} {_("file is mentioned in the XML but its optimised version not present in the package.")}',
+                data={
+                    "xml_path": xml_path,
+                    "id": asset.id,
+                    "type": "optimised",
+                    "missing_file": file_utils.generate_filepath_with_new_extension(
+                        asset.name, ".png"
+                    ),
+                },
+                subject=asset.name,
+            )
 
-            Package.add_validation_result(
-                package_id,
+            package._add_validation_result(
                 error_category=choices.VE_ASSET_ERROR,
                 status=choices.VS_DISAPPROVED,
                 message=f'{asset.name} {_("file is mentioned in the XML but its thumbnail version not present in the package.")}',
@@ -395,15 +428,36 @@ def task_validate_assets(file_path, xml_path, package_id):
                     ),
                 },
             )
+            validation_result = report.add_validation_result(
+                status=choices.VALIDATION_RESULT_FAILURE,
+                message=f'{asset.name} {_("file is mentioned in the XML but its thumbnail version not present in the package.")}',
+                data={
+                    "xml_path": xml_path,
+                    "id": asset.id,
+                    "type": "thumbnail",
+                    "missing_file": file_utils.generate_filepath_with_new_extension(
+                        asset.name, ".thumbnail.jpg"
+                    ),
+                },
+                subject=asset.name,
+            )
 
     if not has_errors:
-        Package.add_validation_result(
+        package._add_validation_result(
             package_id,
             error_category=choices.VE_ASSET_ERROR,
             status=choices.VS_APPROVED,
             data={"xml_path": xml_path},
         )
+        validation_result = report.add_validation_result(
+            status=choices.VALIDATION_RESULT_SUCCESS,
+            message=_("Package has all the expected asset files"),
+            data=items,
+            subject=_("assets"),
+        )
+        package.update_status(validation_result)
         return True
+    package.update_status(validation_result)
 
 
 @celery_app.task()
