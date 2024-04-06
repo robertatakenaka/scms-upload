@@ -141,3 +141,36 @@ ERROR_RESOLUTION_OPINION = (
     (ER_OPINION_FIXED, _("Fixed")),
     (ER_OPINION_FIX_DEMANDED, _("Error has to be fixed")),
 )
+
+
+# Model ValidationResult, Field status
+VALIDATION_RESULT_SUCCESS = "success"
+VALIDATION_RESULT_FAILURE = "failure"
+VALIDATION_RESULT_UNKNOWN = "unknown"
+
+VALIDATION_RESULT = (
+    (VALIDATION_RESULT_SUCCESS, "success"),
+    (VALIDATION_RESULT_FAILURE, "failure"),
+    (VALIDATION_RESULT_UNKNOWN, "unknown"),
+)
+
+# Model ErrorResolution, Field action
+ER_REACTION_FIX = "fix"
+ER_REACTION_JUSTIFY = "justify"
+ER_REACTION_ABSENT_DATA = "absence"
+
+ERROR_REACTION = (
+    (ER_REACTION_FIX, _("I will fix this error")),
+    (ER_REACTION_ABSENT_DATA, _("Data is absent")),
+    (ER_REACTION_JUSTIFY, _("I am adding a justification not to correct")),
+)
+
+
+# Model ErrorResolution, Field opinion
+ER_DECISION_NO_CORRECTION_NEEDED = "accepted"
+ER_DECISION_CORRECTION_REQUIRED = "to-fix"
+
+ERROR_DECISION = (
+    (ER_DECISION_NO_CORRECTION_NEEDED, _("Accepted")),
+    (ER_DECISION_CORRECTION_REQUIRED, _("Correction required")),
+)
