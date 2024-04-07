@@ -468,17 +468,28 @@ def task_validate_renditions(file_path, xml_path, package_id):
     )
 
     has_errors = False
+    package = Package.objects.get(pk=package_id)
 
+    report = ValidationReport.get_or_create(
+        package.creator, package, _("Renditions Report"), choices.VE_RENDITION_ERROR)
+
+    items = []
     for rendition_result in package_utils.evaluate_renditions(
         article_renditions, package_files
     ):
         rendition, expected_filename, is_present = rendition_result
 
+        items.append(
+            {
+                "language": rendition.language,
+                "expected_filename": expected_filename,
+                "is_present": is_present,
+            }
+        )
         if not is_present:
             has_errors = True
 
-            Package.add_validation_result(
-                package_id=package_id,
+            package._add_validation_result(
                 error_category=choices.VE_RENDITION_ERROR,
                 status=choices.VS_DISAPPROVED,
                 message=f'{rendition.language} {_("language is mentioned in the XML but its PDF file not present in the package.")}',
@@ -489,15 +500,33 @@ def task_validate_renditions(file_path, xml_path, package_id):
                     "missing_file": expected_filename,
                 },
             )
+            validation_result = report.add_validation_result(
+                status=choices.VALIDATION_RESULT_FAILURE,
+                message=f'{rendition.language} {_("language is mentioned in the XML but its PDF file not present in the package.")}',
+                data={
+                    "xml_path": xml_path,
+                    "language": rendition.language,
+                    "is_main_language": rendition.is_main_language,
+                    "missing_file": expected_filename,
+                },
+                subject=rendition.language,
+            )
 
     if not has_errors:
-        Package.add_validation_result(
-            package_id=package_id,
+        package._add_validation_result(
             error_category=choices.VE_RENDITION_ERROR,
             status=choices.VS_APPROVED,
             data={"xml_path": xml_path},
         )
+        validation_result = report.add_validation_result(
+            status=choices.VALIDATION_RESULT_SUCCESS,
+            message=_("Package has all the expected rendition files"),
+            data=items,
+            subject=_("Renditions"),
+        )
+        package.update_status(validation_result)
         return True
+    package.update_status(validation_result)
 
 
 # TODO REMOVE
