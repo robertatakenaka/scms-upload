@@ -480,12 +480,14 @@ class BaseValidationReport(CommonControlField):
 
 
 class ValidationReport(BaseValidationReport, ClusterableModel):
-    panels = super().panels + [
-        InlinePanel("validation_result", label=_("Result"))
-    ]
+    panels = super().panels + [InlinePanel("validation_result", label=_("Result"))]
 
     def add_validation_result(
-        self, status=None, message=None, data=None, subject=None,
+        self,
+        status=None,
+        message=None,
+        data=None,
+        subject=None,
     ):
         validation_result = PkgValidationResult.create(
             subject=subject or data.get("subject"),
@@ -500,15 +502,11 @@ class ValidationReport(BaseValidationReport, ClusterableModel):
 
 
 class XMLInfoReport(BaseValidationReport, ClusterableModel):
-    panels = super().panels + [
-        InlinePanel("xml_info", label=_("Result"))
-    ]
+    panels = super().panels + [InlinePanel("xml_info", label=_("Result"))]
 
 
 class XMLErrorReport(BaseValidationReport, ClusterableModel):
-    panels = super().panels + [
-        InlinePanel("xml_error", label=_("Error"))
-    ]
+    panels = super().panels + [InlinePanel("xml_error", label=_("Error"))]
 
 
 class BaseValidationResult(CommonControlField):
@@ -660,7 +658,7 @@ class BaseXMLValidationResult(BaseValidationResult):
     class Meta:
         verbose_name = _("XML validation result")
         verbose_name_plural = _("XML validation results")
-        
+
         indexes = [
             models.Index(
                 fields=[
@@ -678,6 +676,8 @@ class BaseXMLValidationResult(BaseValidationResult):
                 ]
             ),
         ]
+
+
 class XMLInfo(BaseXMLValidationResult):
     report = models.ForeignKey(
         ValidationReport,
@@ -801,5 +801,8 @@ class ErrorNegativeReactionDecision(CommonControlField):
 
     class Meta:
         permissions = (
-            (ANALYSE_VALIDATION_ERROR_RESOLUTION, _("Can decide about the correction demand")),
+            (
+                ANALYSE_VALIDATION_ERROR_RESOLUTION,
+                _("Can decide about the correction demand"),
+            ),
         )

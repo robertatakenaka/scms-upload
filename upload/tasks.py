@@ -350,7 +350,8 @@ def task_validate_assets(file_path, xml_path, package_id):
     package = Package.objects.get(pk=package_id)
 
     report = ValidationReport.get_or_create(
-        package.creator, package, _("Assets Report"), choices.VE_ASSET_ERROR)
+        package.creator, package, _("Assets Report"), choices.VE_ASSET_ERROR
+    )
 
     items = []
     for asset_result in package_utils.evaluate_assets(article_assets, package_files):
@@ -471,7 +472,8 @@ def task_validate_renditions(file_path, xml_path, package_id):
     package = Package.objects.get(pk=package_id)
 
     report = ValidationReport.get_or_create(
-        package.creator, package, _("Renditions Report"), choices.VE_RENDITION_ERROR)
+        package.creator, package, _("Renditions Report"), choices.VE_RENDITION_ERROR
+    )
 
     items = []
     for rendition_result in package_utils.evaluate_renditions(

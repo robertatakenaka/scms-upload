@@ -34,7 +34,6 @@ from upload.tasks import task_validate_original_zip_file
 
 
 class PackageCreateView(CreateView):
-
     def form_valid(self, form):
 
         package = form.save_all(self.request.user)
