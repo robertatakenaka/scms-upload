@@ -422,9 +422,9 @@ class BaseValidationReport(CommonControlField):
         related_name="package",
     )
     category = models.CharField(
-        _("Error category"),
+        _("Validation category"),
         max_length=32,
-        choices=choices.VALIDATION_ERROR_CATEGORY,
+        choices=choices.VALIDATION_CATEGORY,
         null=False,
         blank=False,
     )
@@ -680,7 +680,7 @@ class BaseXMLValidationResult(BaseValidationResult):
 
 class XMLInfo(BaseXMLValidationResult):
     report = models.ForeignKey(
-        ValidationReport,
+        XMLInfoReport,
         on_delete=models.CASCADE,
         null=True,
         blank=True,
@@ -690,7 +690,7 @@ class XMLInfo(BaseXMLValidationResult):
 
 class XMLError(BaseXMLValidationResult, ClusterableModel):
     report = models.ForeignKey(
-        ValidationReport,
+        XMLErrorReport,
         on_delete=models.CASCADE,
         null=True,
         blank=True,
