@@ -25,7 +25,12 @@ from .models import (
     Package,
     QAPackage,
     ValidationResult,
+    ValidationReport,
     choices,
+    XMLError,
+    XMLErrorReport,
+    XMLInfo,
+    XMLInfoReport,
 )
 from .permission_helper import UploadPermissionHelper
 from .controller import receive_package
@@ -125,6 +130,9 @@ class PackageAdminInspectView(InspectView):
             "category": self.instance.category,
             "languages": package_utils.get_languages(self.instance.file.name),
             "pdfs": [],
+            "reports": list(self.instance.reports),
+            "xml_error_reports": list(self.instance.xml_error_reports),
+            "xml_info_reports": list(self.instance.xml_info_reports),
         }
 
         optz_file_path, optz_dir = self.get_optimized_package_filepath_and_directory()
@@ -349,10 +357,128 @@ class QualityAnalysisPackageAdmin(ModelAdmin):
         return qs.none()
 
 
+class ValidationReportAdmin(ModelAdmin):
+    model = ValidationReport
+    permission_helper_class = UploadPermissionHelper
+    # create_view_class = ValidationReportCreateView
+    inspect_view_enabled = True
+    # inspect_view_class = ValidationReportAdminInspectView
+    menu_label = _("Validation Reports")
+    menu_icon = "error"
+    add_to_settings_menu = False
+    exclude_from_explorer = False
+    list_display = (
+        "package",
+        "category",
+        "title",
+        "conclusion",
+    )
+    list_filter = (
+        "category",
+    )
+    search_fields = (
+        "title",
+        "package__file",
+    )
+
+    def get_queryset(self, request):
+        if (
+            request.user.is_superuser
+            or self.permission_helper.user_can_access_all_packages(request.user, None)
+        ):
+            return super().get_queryset(request)
+
+        return super().get_queryset(request).filter(package__creator=request.user)
+
+
+class XMLErrorReportAdmin(ModelAdmin):
+    model = XMLErrorReport
+    permission_helper_class = UploadPermissionHelper
+    # create_view_class = XMLErrorReportCreateView
+    inspect_view_enabled = True
+    # inspect_view_class = XMLErrorReportAdminInspectView
+    menu_label = _("XML Error Reports")
+    menu_icon = "error"
+    add_to_settings_menu = False
+    exclude_from_explorer = False
+    list_display = (
+        "package",
+        "category",
+        "title",
+        "conclusion",
+    )
+    list_filter = (
+        "category",
+    )
+    search_fields = (
+        "title",
+        "package__file",
+    )
+
+    def get_queryset(self, request):
+        if (
+            request.user.is_superuser
+            or self.permission_helper.user_can_access_all_packages(request.user, None)
+        ):
+            return super().get_queryset(request)
+
+        return super().get_queryset(request).filter(package__creator=request.user)
+
+
+class XMLErrorAdmin(ModelAdmin):
+    model = XMLError
+    permission_helper_class = UploadPermissionHelper
+    # create_view_class = XMLErrorCreateView
+    inspect_view_enabled = True
+    # inspect_view_class = XMLErrorAdminInspectView
+    menu_label = _("XML errors")
+    menu_icon = "error"
+    add_to_settings_menu = False
+    exclude_from_explorer = False
+    list_display = (
+        "report",
+        "subject",
+        "attribute",
+        "focus",
+        "message",
+        "advice",
+    )
+    list_filter = (
+        "status",
+        "validation_type",
+        "parent",
+        "parent_id",
+        "subject",
+        "attribute",
+    )
+    search_fields = (
+        "focus",
+        "message",
+        "advice",
+        "package__file",
+    )
+
+    def get_queryset(self, request):
+        if (
+            request.user.is_superuser
+            or self.permission_helper.user_can_access_all_packages(request.user, None)
+        ):
+            return super().get_queryset(request)
+
+        return super().get_queryset(request).filter(package__creator=request.user)
+
+
 class UploadModelAdminGroup(ModelAdminGroup):
     menu_icon = "folder"
     menu_label = "Upload"
-    items = (PackageAdmin, ValidationResultAdmin, QualityAnalysisPackageAdmin)
+    items = (
+        PackageAdmin,
+        ValidationReportAdmin,
+        XMLErrorReportAdmin,
+        XMLErrorAdmin,
+        ValidationResultAdmin,
+        QualityAnalysisPackageAdmin,
+    )
     menu_order = get_menu_order("upload")
 
 

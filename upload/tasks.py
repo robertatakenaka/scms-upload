@@ -445,7 +445,6 @@ def task_validate_assets(file_path, xml_path, package_id):
 
     if not has_errors:
         package._add_validation_result(
-            package_id,
             error_category=choices.VE_ASSET_ERROR,
             status=choices.VS_APPROVED,
             data={"xml_path": xml_path},
@@ -456,9 +455,9 @@ def task_validate_assets(file_path, xml_path, package_id):
             data=items,
             subject=_("assets"),
         )
-        package.update_status(validation_result)
+        report.finish()
         return True
-    package.update_status(validation_result)
+    report.finish()
 
 
 @celery_app.task()
@@ -526,9 +525,9 @@ def task_validate_renditions(file_path, xml_path, package_id):
             data=items,
             subject=_("Renditions"),
         )
-        package.update_status(validation_result)
+        report.finish()
         return True
-    package.update_status(validation_result)
+    report.finish()
 
 
 # TODO REMOVE

@@ -5,7 +5,6 @@ from django.db import models, IntegrityError
 from django.utils.translation import gettext_lazy as _
 from wagtail.admin.panels import FieldPanel, MultiFieldPanel, InlinePanel
 from wagtailautocomplete.edit_handlers import AutocompletePanel
-from modelcluster.fields import ParentalKey
 from modelcluster.models import ClusterableModel
 
 from article.models import Article
@@ -14,12 +13,7 @@ from issue.models import Issue
 from journal.models import Journal
 
 from . import choices
-from .forms import (
-    UploadPackageForm,
-    ValidationResultForm,
-    ErrorNegativeReactionForm,
-    ErrorNegativeReactionDecisionForm,
-)
+from .forms import UploadPackageForm, ValidationResultForm, QuestionableErrorForm
 from .permission_helper import (
     ACCESS_ALL_PACKAGES,
     ANALYSE_VALIDATION_ERROR_RESOLUTION,
@@ -32,7 +26,7 @@ from .utils import file_utils
 User = get_user_model()
 
 
-class Package(CommonControlField, ClusterableModel):
+class Package(CommonControlField):
     file = models.FileField(_("Package File"), null=False, blank=False)
     signature = models.CharField(_("Signature"), max_length=32, null=True, blank=True)
     category = models.CharField(
@@ -115,14 +109,6 @@ class Package(CommonControlField, ClusterableModel):
         return val_res
 
     def update_status(self, validation_result):
-        if validation_result.status == choices.VALIDATION_RESULT_SUCCESS:
-            self.status = choices.PS_ENQUEUED_FOR_VALIDATION
-            self.save()
-            return
-        if validation_result.status == choices.VALIDATION_RESULT_FAILURE:
-            self.status = choices.PS_REJECTED
-            self.save()
-            return
         if validation_result.status == choices.VS_DISAPPROVED:
             self.status = choices.PS_REJECTED
             self.save()
@@ -206,25 +192,6 @@ class Package(CommonControlField, ClusterableModel):
             expiration_date=str(expiration_date),
         )
 
-    @property
-    def reports(self):
-        for report in self.validation_report.all():
-            yield report.data
-
-    @property
-    def xml_info_reports(self):
-        for report in self.xml_info_report.all():
-            yield report.data
-
-    @property
-    def xml_error_reports(self):
-        for report in self.xml_error_report.all():
-            yield report.data
-
-    def finish_xml_reports(self):
-        for report in self.xml_error_report.all():
-            report.finish()
-
 
 class QAPackage(Package):
     class Meta:
@@ -251,7 +218,7 @@ class ValidationResult(models.Model):
     )
 
     package = models.ForeignKey(
-        "Package", on_delete=models.CASCADE, null=False, blank=False,
+        "Package", on_delete=models.CASCADE, null=False, blank=False
     )
 
     def __str__(self):
@@ -437,256 +404,15 @@ class ErrorResolutionOpinion(CommonControlField):
         return obj
 
 
-class BaseValidationResult(CommonControlField):
-    subject = models.CharField(
-        _("Subject"),
-        null=True,
-        blank=True,
-        max_length=128,
-        help_text=_("Item is being analyzed"),
-    )
-    data = models.JSONField(_("Data"), default=dict, null=True, blank=True)
-    message = models.TextField(_("Message"), null=True, blank=True)
-    status = models.CharField(
-        _("Result"),
-        max_length=16,
-        choices=choices.VALIDATION_RESULT,
-        default=choices.VALIDATION_RESULT_UNKNOWN,
-        null=True,
-        blank=True,
-    )
-
-    base_form_class = ValidationResultForm
-    panels = [
-        FieldPanel("subject", read_only=True),
-        FieldPanel("status", read_only=True),
-        FieldPanel("message", read_only=True),
-        FieldPanel("data", read_only=True),
-    ]
-
-    autocomplete_search_field = "subject"
-
-    def autocomplete_label(self):
-        return self.info
-
-    def __str__(self):
-        return "-".join(
-            [
-                self.subject,
-                self.status,
-            ]
-        )
-
-    class Meta:
-        abstract = True
-        verbose_name = _("Validation result")
-        verbose_name_plural = _("Validation results")
-        indexes = [
-            models.Index(
-                fields=[
-                    "subject",
-                ]
-            ),
-            models.Index(
-                fields=[
-                    "status",
-                ]
-            ),
-        ]
-
-    @classmethod
-    def create(cls, subject=None, status=None, message=None, data=None, creator=None):
-        val_res = cls()
-        val_res.subject = subject
-        val_res.status = status
-        val_res.message = message
-        val_res.data = data
-        val_res.creator = creator
-
-        val_res.save()
-        return val_res
-
-    def update(self, status=None, message=None, data=None, updated_by=None):
-        self.status = status
-        self.message = message
-        self.data = data
-        self.updated_by = updated_by
-        self.save()
-
-    @property
-    def info(self):
-        return dict(
-            subject=self.subject,
-            status=self.status,
-            message=self.message,
-            data=self.data,
-        )
-
-
-class BaseXMLValidationResult(BaseValidationResult):
-    # BaseValidationResult.status = response (ok -> success, 'error' -> failure)
-    # BaseValidationResult.subject = item do resultado de validação do packtools
-    # BaseValidationResult.message = message
-    # BaseValidationResult.data = data
-
-    # attribute = sub_item do resultado de validação do packtools
-    attribute = models.CharField(
-        _("Subject Attribute"), null=True, blank=True, max_length=32
-    )
-    # geralemente article / sub-article e id
-    parent = models.CharField(_("Parent"), null=True, blank=True, max_length=32)
-    parent_id = models.CharField(_("Parent id"), null=True, blank=True, max_length=8)
-
-    # focus = title do resultado de validação do packtools
-    focus = models.CharField(_("Analysis focus"), null=True, blank=True, max_length=64)
-    # validation_type = packtools validation_type
-    validation_type = models.CharField(
-        _("Validation type"),
-        max_length=32,
-        null=False,
-        blank=False,
-    )
-
-    panels = [
-        FieldPanel("status", read_only=True),
-        FieldPanel("subject", read_only=True),
-        FieldPanel("attribute", read_only=True),
-        FieldPanel("focus", read_only=True),
-        FieldPanel("parent", read_only=True),
-        FieldPanel("parent_id", read_only=True),
-        FieldPanel("data", read_only=True),
-        FieldPanel("message", read_only=True),
-    ]
-
-    @property
-    def info(self):
-        return dict(
-            status=self.status,
-            subject=self.subject,
-            attribute=self.attribute,
-            focus=self.focus,
-            parent=self.parent,
-            parent_id=self.parent_id,
-            data=self.data,
-            message=self.message,
-        )
-
-    def __str__(self):
-        return str(self.info)
-
-    class Meta:
-        verbose_name = _("XML validation result")
-        verbose_name_plural = _("XML validation results")
-
-        indexes = [
-            models.Index(
-                fields=[
-                    "attribute",
-                ]
-            ),
-            models.Index(
-                fields=[
-                    "validation_type",
-                ]
-            ),
-            models.Index(
-                fields=[
-                    "focus",
-                ]
-            ),
-
-        ]
-
-
-class XMLInfo(BaseXMLValidationResult):
-    report = ParentalKey(
-        "XMLInfoReport",
-        on_delete=models.CASCADE,
-        null=True,
-        blank=True,
-        related_name="xml_info",
-    )
-
-    class Meta:
-        verbose_name = _("XML info")
-        verbose_name_plural = _("XML infos")
-
-    panels = BaseXMLValidationResult.panels
-
-
-class XMLError(BaseXMLValidationResult, ClusterableModel):
-    report = ParentalKey(
-        "XMLErrorReport",
-        on_delete=models.CASCADE,
-        null=True,
-        blank=True,
-        related_name="xml_error",
-    )
-    expected_value = models.JSONField(
-        _("Expected value"),
-        null=True,
-        blank=True,
-    )
-    got_value = models.JSONField(_("Got value"), null=True, blank=True)
-    advice = models.CharField(_("Advice"), null=True, blank=True, max_length=128)
-    reaction = models.CharField(
-        _("Reaction"),
-        max_length=32,
-        choices=choices.ERROR_REACTION,
-        default=choices.ER_REACTION_FIX,
-        null=True,
-        blank=True,
-    )
-    base_form_class = ValidationResultForm
-
-    panels = [
-        FieldPanel("status", read_only=True),
-        FieldPanel("subject", read_only=True),
-        FieldPanel("attribute", read_only=True),
-        FieldPanel("focus", read_only=True),
-        FieldPanel("parent", read_only=True),
-        FieldPanel("parent_id", read_only=True),
-        FieldPanel("data", read_only=True),
-        FieldPanel("expected_value", read_only=True),
-        FieldPanel("got_value", read_only=True),
-        FieldPanel("message", read_only=True),
-        FieldPanel("advice", read_only=True),
-        FieldPanel("reaction"),
-        InlinePanel(
-            "non_error_justification", max_num=1, label=_("Non-error justification")
-        ),
-    ]
-
-    class Meta:
-        verbose_name = _("XML error")
-        verbose_name_plural = _("XML errors")
-        indexes = [
-            models.Index(
-                fields=[
-                    "reaction",
-                ]
-            ),
-        ]
-
-
 class BaseValidationReport(CommonControlField):
     title = models.CharField(_("Title"), null=True, blank=True, max_length=128)
-    category = models.CharField(
-        _("Validation category"),
-        max_length=32,
-        choices=choices.VALIDATION_CATEGORY,
-        null=False,
-        blank=False,
+    package = models.ForeignKey(
+        Package,
+        on_delete=models.CASCADE,
+        null=True,
+        blank=True,
+        related_name="package",
     )
-    conclusion = models.CharField(
-        _("conclusion"),
-        max_length=16,
-        choices=choices.REPORT_CONCLUSION,
-        default=choices.REPORT_CONCLUSION_NONE,
-        null=False,
-        blank=False,
-    )
-    ValidationResultClass = BaseValidationResult
 
     panels = [
         AutocompletePanel("package", read_only=True),
@@ -698,8 +424,8 @@ class BaseValidationReport(CommonControlField):
 
     class Meta:
         abstract = True
-        verbose_name = _("Validation Report")
-        verbose_name_plural = _("Validation Reports")
+        verbose_name = _("Error Report")
+        verbose_name_plural = _("Error Reports")
         unique_together = [
             (
                 "package",
@@ -715,183 +441,390 @@ class BaseValidationReport(CommonControlField):
         ]
 
     @classmethod
-    def get(cls, package=None, title=None, category=None):
-        return cls.objects.get(package=package, title=title, category=category)
+    def get(cls, package=None, title=None):
+        return cls.objects.get(package=package, title=title)
 
     @classmethod
-    def create(cls, user, package=None, title=None, category=None):
+    def create(cls, user, package=None, title=None):
         try:
-            obj = cls()
-            obj.creator = user
-            obj.package = package
-            obj.title = title
-            obj.category = category
-            obj.save()
-            return obj
+            val_res = cls()
+            val_res.user = user
+            val_res.package = package
+            val_res.title = title
+            val_res.save()
+            return val_res
         except IntegrityError:
-            return cls.get(package, title, category)
+            return cls.get(package, title)
 
     @classmethod
-    def get_or_create(cls, user, package, title, category):
+    def get_or_create(cls, user, package, title):
         try:
-            return cls.get(package, title, category)
+            return cls.get(package, title)
         except cls.DoesNotExist:
-            return cls.create(user, package, title, category)
+            return cls.create(user, package, title)
 
-    def add_validation_result(
-        self,
-        status=None,
-        message=None,
-        data=None,
-        subject=None,
-    ):
-        validation_result = self.ValidationResultClass.create(
-            subject=subject or data.get("subject"),
-            status=status,
-            message=message,
-            data=data,
-            creator=self.creator,
+
+class BaseValidationResult(CommonControlField):
+    title = models.CharField(_("Title"), null=True, blank=True, max_length=128)
+    data = models.JSONField(_("Error data"), default=dict, null=True, blank=True)
+    message = models.TextField(_("Error message"), null=True, blank=True)
+    status = models.CharField(
+        _("Status"),
+        max_length=16,
+        choices=choices.VALIDATION_STATUS,
+        null=True,
+        blank=True,
+    )
+
+    base_form_class = ValidationResultForm
+    panels = [
+        FieldPanel("title", read_only=True),
+        FieldPanel("status", read_only=True),
+        FieldPanel("message", read_only=True),
+        FieldPanel("data", read_only=True),
+    ]
+
+    autocomplete_search_field = "title"
+
+    def autocomplete_label(self):
+        return self.info
+
+    def __str__(self):
+        return "-".join(
+            [
+                self.title,
+                self.status,
+            ]
         )
-        validation_result.report = self
-        validation_result.save()
-        return validation_result
 
-    @property
-    def data(self):
-        return {
-            "conclusion": self.conclusion,
-            "id": self.id,
-            "category": self.category,
-            "title": self.title,
-            "count": self.count,
-        }
+    class Meta:
+        abstract = True
+        verbose_name = _("Validation result")
+        verbose_name_plural = _("Validation results")
+        indexes = [
+            models.Index(
+                fields=[
+                    "title",
+                ]
+            ),
+            models.Index(
+                fields=[
+                    "status",
+                ]
+            ),
+        ]
 
-    @property
-    def count(self):
-        return self._validation_results.count()
+    @classmethod
+    def create(cls, status=None, message=None, data=None):
+        val_res = cls()
+        val_res.status = status
+        val_res.message = message
+        val_res.data = data
+        val_res.save()
+        return val_res
 
-    def finish(self, error_tolerance=None):
-        try:
-            status = choices.VALIDATION_RESULT_FAILURE
-            self._validation_results.filter(status=status)[0]
-            if error_tolerance:
-                self.conclusion = choices.REPORT_CONCLUSION_ACCEPTED_WITH_ERRORS
-            else:
-                self.conclusion = choices.REPORT_CONCLUSION_REJECTED
-        except IndexError:
-            self.conclusion = choices.REPORT_CONCLUSION_APPROVED
+    def update(self, status=None, message=None, data=None):
+        self.status = status
+        self.message = message
+        self.data = data
         self.save()
 
-
-class PkgValidationResult(BaseValidationResult):
-    report = ParentalKey(
-        "ValidationReport",
-        on_delete=models.CASCADE,
-        null=True,
-        blank=True,
-        related_name="pkg_validation_result",
-    )
-
-
-class ValidationReport(BaseValidationReport, ClusterableModel):
-    package = ParentalKey(
-        Package,
-        on_delete=models.CASCADE,
-        null=True,
-        blank=True,
-        related_name="validation_report",
-    )
-    panels = BaseValidationReport.panels + [
-        InlinePanel("pkg_validation_result", label=_("Result"))
-    ]
-
-    ValidationResultClass = PkgValidationResult
+        self.package.update_status(self)
 
     @property
-    def _validation_results(self):
-        return ValidationResult.objects.filter(package=self.package)
+    def info(self):
+        return dict(
+            title=self.title,
+            status=self.status,
+            message=self.message,
+        )
 
 
-class XMLInfoReport(BaseValidationReport, ClusterableModel):
-    package = ParentalKey(
-        Package,
-        on_delete=models.CASCADE,
+class XMLValidationIdentification(CommonControlField):
+    title = models.CharField(_("title"), null=True, blank=True, max_length=32)
+    item = models.CharField(_("Item"), null=True, blank=True, max_length=32)
+    sub_item = models.CharField(_("Sub item"), null=True, blank=True, max_length=32)
+    validation_type = models.CharField(
+        _("Validation type"),
+        max_length=16,
+        null=False,
+        blank=False,
+    )
+    expected_value = models.JSONField(
+        _("Expected value"),
         null=True,
         blank=True,
-        related_name="xml_info_report",
     )
-    panels = BaseValidationReport.panels + [
-        InlinePanel("xml_info", label=_("XML info"))
+
+    panels = [
+        FieldPanel("title", read_only=True),
+        FieldPanel("item", read_only=True),
+        FieldPanel("sub_item", read_only=True),
+        FieldPanel("validation_type", read_only=True),
+        FieldPanel("expected_value", read_only=True),
     ]
 
-    ValidationResultClass = XMLInfo
+    autocomplete_search_field = "title"
+
+    def autocomplete_label(self):
+        return str(self.info)
 
     @property
-    def _validation_results(self):
-        return self.xml_info
+    def info(self):
+        return dict(
+            title=self.title,
+            item=self.item,
+            sub_item=self.sub_item,
+            validation_type=self.validation_type,
+            expected_value=self.expected_value,
+        )
+
+    def __str__(self):
+        return str(self.info)
+
+    class Meta:
+        verbose_name = _("XML Validation")
+        verbose_name_plural = _("XML Validations")
+        unique_together = [("title", "item", "sub_item", "validation_type")]
+        indexes = [
+            models.Index(
+                fields=[
+                    "title",
+                ]
+            ),
+            models.Index(
+                fields=[
+                    "item",
+                ]
+            ),
+            models.Index(
+                fields=[
+                    "sub_item",
+                ]
+            ),
+            models.Index(
+                fields=[
+                    "validation_type",
+                ]
+            ),
+        ]
+
+    @classmethod
+    def get(cls, title=None, item=None, sub_item=None, validation_type=None):
+        return cls.objects.get(
+            title=title,
+            item=item,
+            sub_item=sub_item,
+            validation_type=validation_type,
+        )
+
+    @classmethod
+    def create(cls, user, title=None, item=None, sub_item=None, validation_type=None):
+        try:
+            val_res = cls()
+            val_res.user = user
+            val_res.title = title
+            val_res.item = item
+            val_res.sub_item = sub_item
+            val_res.validation_type = validation_type
+            val_res.save()
+            return val_res
+        except IntegrityError:
+            return cls.get(title, item, sub_item, validation_type)
+
+    @classmethod
+    def get_or_create(
+        cls, user, title=None, item=None, sub_item=None, validation_type=None
+    ):
+        try:
+            return cls.get(title, item, sub_item, validation_type)
+        except cls.DoesNotExist:
+            return cls.create(user, title, item, sub_item, validation_type)
 
 
-class XMLErrorReport(BaseValidationReport, ClusterableModel):
-    package = ParentalKey(
-        Package,
+class BaseXMLValidationResult(BaseValidationResult):
+    validation_identification = models.ForeignKey(
+        _("Validation Identification"),
         on_delete=models.CASCADE,
+        null=False,
+        blank=False,
+    )
+    parent = models.CharField(_("Parent"), null=True, blank=True, max_length=32)
+    parent_id = models.CharField(_("Parent id"), null=True, blank=True, max_length=32)
+    expected_value = models.JSONField(
+        _("Expected value"),
         null=True,
         blank=True,
-        related_name="xml_error_report",
     )
-    panels = BaseValidationReport.panels + [
-        InlinePanel("xml_error", label=_("XML error"))
+    got_value = models.JSONField(_("Got value"), null=True, blank=True, max_length=16)
+    advice = models.CharField(_("Advice"), null=True, blank=True, max_length=128)
+
+    # base_form_class = ValidationResultForm
+    panels = [
+        FieldPanel("title", read_only=True),
+        FieldPanel("category", read_only=True),
+        FieldPanel("status", read_only=True),
+        FieldPanel("data", read_only=True),
+        AutocompletePanel("validation_identification", read_only=True),
+        FieldPanel("parent", read_only=True),
+        FieldPanel("parent_id", read_only=True),
+        FieldPanel("expected_value", read_only=True),
+        FieldPanel("got_value", read_only=True),
+        FieldPanel("message", read_only=True),
+        FieldPanel("advice", read_only=True),
     ]
 
-    ValidationResultClass = XMLError
-
     @property
-    def _validation_results(self):
-        return self.xml_error
+    def info(self):
+        d = self.validation_identification.info
+        d.update(
+            dict(
+                title=self.title,
+                category=self.category,
+                status=self.status,
+                data=self.data,
+                parent=self.parent,
+                parent_id=self.parent_id,
+                expected_value=self.expected_value,
+                message=self.message,
+                advice=self.advice,
+            )
+        )
+        return d
+
+    def __str__(self):
+        return str(self.info)
 
 
-class ErrorNegativeReaction(CommonControlField, ClusterableModel):
-    error = ParentalKey(
-        XMLError,
+class BaseValidationError(BaseValidationResult, ClusterableModel):
+    category = models.CharField(
+        _("Error category"),
+        max_length=32,
+        choices=choices.VALIDATION_ERROR_CATEGORY,
+        null=False,
+        blank=False,
+    )
+
+    panels = super().panels + [
+        FieldPanel("category"),
+    ]
+
+    class Meta:
+        # verbose_name = _("Validation result")
+        # verbose_name_plural = _("Validation results")
+        indexes = [
+            models.Index(
+                fields=[
+                    "category",
+                ]
+            ),
+        ]
+
+
+class InfoReport(BaseValidationReport):
+
+    panels = super().panels + [InlinePanel("info", label=_("Info"))]
+
+
+class ErrorReport(BaseValidationReport):
+    base_form_class = ErrorReportForm
+
+    panels = super().panels + [InlinePanel("error", label=_("Error"))]
+
+
+class ValidationInfo(BaseValidationResult):
+    class Meta:
+        proxy = True
+
+
+class ValidationError(BaseValidationError, ClusterableModel):
+    report = models.ForeignKey(
+        ReportError,
         on_delete=models.CASCADE,
         null=True,
         blank=True,
-        related_name="non_error_justification",
+        related_name="error",
     )
+    panels = super().panels + [
+        InlinePanel(
+            "error_negative_reaction", max_num=1, label=_("Error negative reaction")
+        ),
+    ]
 
-    justification = models.CharField(
-        _("Non-error justification"), max_length=128, null=True, blank=True
+
+class XMLError(BaseValidationError, ClusterableModel, BaseXMLError):
+    report = models.ForeignKey(
+        XMLReportError,
+        on_delete=models.CASCADE,
+        null=True,
+        blank=True,
+        related_name="error",
+    )
+    panels = super().panels + [
+        InlinePanel(
+            "error_negative_reaction", max_num=1, label=_("Error negative reaction")
+        ),
+    ]
+
+
+class ErrorNegativeReaction(CommonControlField):
+    error = models.ForeignKey(
+        ValidationError,
+        on_delete=models.CASCADE,
+        null=True,
+        blank=True,
+        related_name="error_negative_reaction",
+    )
+    reaction = models.CharField(
+        _("Reaction"),
+        max_length=32,
+        choices=choices.ERROR_RESOLUTION_ACTION,
+        default=choices.ER_ACTION_TO_FIX,
+        null=True,
+        blank=True,
+    )
+    reaction_argument = models.CharField(
+        _("Reaction argument"), max_length=128, null=True, blank=True
     )
 
     base_form_class = ErrorNegativeReactionForm
 
     panels = [
-        FieldPanel("justification"),
-        InlinePanel("qa_decision", label=_("Quality Analyst Decision")),
+        AutocompletePanel("error_result", read_only=True),
+        FieldPanel("reaction"),
+        FieldPanel("reaction_argument"),
     ]
 
     class Meta:
-        verbose_name = _("Non-error justification")
-        verbose_name_plural = _("Non-error justifications")
+        verbose_name = _("Error negative reaction")
+        verbose_name_plural = _("Error negative reactions")
+        indexes = [
+            models.Index(
+                fields=[
+                    "reaction",
+                ]
+            ),
+        ]
+
+    class Meta:
         permissions = (
-            (SEND_VALIDATION_ERROR_RESOLUTION, _("Can send justification not to fix")),
+            (SEND_VALIDATION_ERROR_RESOLUTION, _("Can send error resolution")),
         )
 
 
 class ErrorNegativeReactionDecision(CommonControlField):
-    error_negative_reaction = ParentalKey(
+    error_negative_reaction = models.ForeignKey(
         ErrorNegativeReaction,
         on_delete=models.CASCADE,
         null=True,
         blank=True,
-        related_name="qa_decision",
+        related_name="error_negative_reaction",
     )
 
     decision = models.CharField(
         _("Decision"),
         max_length=32,
-        choices=choices.ERROR_DECISION,
-        default=choices.ER_DECISION_CORRECTION_REQUIRED,
+        choices=choices.ERROR_RESOLUTION_OPINION,
         null=True,
         blank=True,
     )
@@ -902,14 +835,74 @@ class ErrorNegativeReactionDecision(CommonControlField):
     base_form_class = ErrorNegativeReactionDecisionForm
 
     panels = [
+        AutocompletePanel("error_negative_reaction", read_only=True),
         FieldPanel("decision"),
         FieldPanel("decision_argument"),
     ]
 
     class Meta:
         permissions = (
-            (
-                ANALYSE_VALIDATION_ERROR_RESOLUTION,
-                _("Can decide about the correction demand"),
-            ),
+            (ANALYSE_VALIDATION_ERROR_RESOLUTION, _("Can analyse error resolution")),
+        )
+
+
+class XMLInfoReport(BaseValidationReport):
+
+    panels = super().panels + [InlinePanel("xml_info", label=_("Info"))]
+
+
+class XMLErrorReport(BaseValidationReport):
+    base_form_class = ErrorReportForm
+
+    panels = super().panels + [InlinePanel("xml_error", label=_("XML Error"))]
+
+
+class XMLValidationResult(BaseValidationResult, ClusterableModel):
+    validation_type = models.CharField(
+        _("Validation type"),
+        max_length=16,
+        choices=choices.VALIDATION_TYPE,
+        null=False,
+        blank=False,
+    )
+    parent = models.CharField(_("Parent"), null=True, blank=True, max_length=32)
+    parent_id = models.CharField(_("Parent id"), null=True, blank=True, max_length=32)
+    item = models.CharField(_("Item"), null=True, blank=True, max_length=32)
+    sub_item = models.CharField(_("Sub item"), null=True, blank=True, max_length=32)
+    expected_value = models.JSONField(
+        _("Expected value"), null=True, blank=True, max_length=16
+    )
+    got_value = models.JSONField(_("Got value"), null=True, blank=True, max_length=16)
+    advice = models.CharField(_("Advice"), null=True, blank=True, max_length=128)
+
+    base_form_class = ValidationResultForm
+    panels = [
+        FieldPanel("title"),
+        FieldPanel("error_category"),
+        FieldPanel("status"),
+        FieldPanel("data"),
+        FieldPanel("validation_type"),
+        FieldPanel("parent"),
+        FieldPanel("parent_id"),
+        FieldPanel("sub_item"),
+        FieldPanel("sub_item"),
+        FieldPanel("expected_value"),
+        FieldPanel("got_value"),
+        FieldPanel("message"),
+        FieldPanel("advice"),
+    ]
+
+    def __str__(self):
+        return "-".join(
+            [
+                str(self.package),
+                self.category,
+                self.status,
+            ]
+        )
+
+    class Meta:
+        permissions = (
+            (SEND_VALIDATION_ERROR_RESOLUTION, _("Can send error resolution")),
+            (ANALYSE_VALIDATION_ERROR_RESOLUTION, _("Can analyse error resolution")),
         )

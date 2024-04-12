@@ -145,7 +145,7 @@ ERROR_RESOLUTION_OPINION = (
 VAL_CAT_PACKAGE_FILE = "package-file"
 VAL_CAT_UNEXPECTED = "unexpected"
 VAL_CAT_FORBIDDEN_UPDATE = "forbidden-update"
-VAL_CAT_ARTICLE_JOURNAL_INCOMPATIBILITY = "journal-incompatibility"
+VAL_CAT_ARTICLE_JOURNAL_COMPATIBILITY = "journal-incompatibility"
 VAL_CAT_ARTICLE_IS_NOT_NEW = "article-is-not-new"
 VAL_CAT_XML_FORMAT = "xml-format"
 VAL_CAT_XML_CONTENT = "xml-content"
@@ -169,6 +169,20 @@ VALIDATION_CATEGORY = (
     (VAL_CAT_CRITERIA_ISSUES, "CRITERIA_ISSUES"),
     (VAL_CAT_ASSET, "ASSET"),
     (VAL_CAT_RENDITION, "RENDITION"),
+)
+
+
+# Model ValidationResult, Field status
+REPORT_CONCLUSION_REJECTED = "rejected"
+REPORT_CONCLUSION_ACCEPTED_WITH_ERRORS = "has-errors"
+REPORT_CONCLUSION_APPROVED = "approved"
+REPORT_CONCLUSION_NONE = ""
+
+REPORT_CONCLUSION = (
+    (REPORT_CONCLUSION_NONE, ""),
+    (REPORT_CONCLUSION_REJECTED, "rejected"),
+    (REPORT_CONCLUSION_ACCEPTED_WITH_ERRORS, "has-errors"),
+    (REPORT_CONCLUSION_APPROVED, "approved"),
 )
 
 # Model ValidationResult, Field status
@@ -196,9 +210,11 @@ ERROR_REACTION = (
 
 # Model ErrorResolution, Field opinion
 ER_DECISION_NO_CORRECTION_NEEDED = "accepted"
+ER_DECISION_ACCEPTED_WITH_ERRORS = "accepted-with-error"
 ER_DECISION_CORRECTION_REQUIRED = "to-fix"
 
 ERROR_DECISION = (
+    (ER_DECISION_ACCEPTED_WITH_ERRORS, _("Accepted with errors")),
     (ER_DECISION_NO_CORRECTION_NEEDED, _("Accepted")),
     (ER_DECISION_CORRECTION_REQUIRED, _("Correction required")),
 )
