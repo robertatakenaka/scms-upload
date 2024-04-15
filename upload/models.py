@@ -1,5 +1,10 @@
+import os
+import json
+import csv
 from datetime import date, timedelta, datetime
+from tempfile import TemporaryDirectory
 
+from django.core.files.base import ContentFile
 from django.contrib.auth import get_user_model
 from django.db import models, IntegrityError
 from django.utils.translation import gettext_lazy as _
@@ -32,8 +37,22 @@ from .utils import file_utils
 User = get_user_model()
 
 
+def upload_package_directory_path(instance, filename):
+    name, ext = os.path.splitext(filename)
+    try:
+        sps_pkg_name = instance.name
+    except AttributeError:
+        sps_pkg_name = instance.package.name
+
+    subdirs = (sps_pkg_name or name).split("-")
+    subdir_sps_pkg_name = "/".join(subdirs)
+
+    return f"upload/{subdir_sps_pkg_name}/{ext[1:]}/{filename}"
+
+
 class Package(CommonControlField, ClusterableModel):
-    file = models.FileField(_("Package File"), null=False, blank=False)
+    file = models.FileField(_("Package File"), upload_to=upload_package_directory_path, null=False, blank=False)
+    name = models.CharField(_("SPS Package name"), max_length=32, null=True, blank=True)
     signature = models.CharField(_("Signature"), max_length=32, null=True, blank=True)
     category = models.CharField(
         _("Category"),
@@ -111,21 +130,7 @@ class Package(CommonControlField, ClusterableModel):
         self, error_category=None, status=None, message=None, data=None
     ):
         val_res = ValidationResult.create(error_category, self, status, message, data)
-        self.update_status(val_res)
         return val_res
-
-    def update_status(self, validation_result):
-        if validation_result.status == choices.VALIDATION_RESULT_SUCCESS:
-            self.status = choices.PS_ENQUEUED_FOR_VALIDATION
-            self.save()
-            return
-        if validation_result.status == choices.VALIDATION_RESULT_FAILURE:
-            self.status = choices.PS_REJECTED
-            self.save()
-            return
-        if validation_result.status == choices.VS_DISAPPROVED:
-            self.status = choices.PS_REJECTED
-            self.save()
 
     @classmethod
     def get(cls, pkg_id=None, article=None):
@@ -222,8 +227,16 @@ class Package(CommonControlField, ClusterableModel):
             yield report.data
 
     def finish_xml_reports(self):
+        status = set()
         for report in self.xml_error_report.all():
             report.finish()
+            status.add(report.conclusion)
+        for report in self.xml_info_report.all():
+            report.finish()
+            status.add(report.conclusion)
+        if choices.REPORT_CONCLUSION_REJECTED in status:
+            self.status = choices.PS_PENDING_CORRECTION
+            self.save()
 
 
 class QAPackage(Package):
@@ -312,8 +325,6 @@ class ValidationResult(models.Model):
         self.message = message
         self.data = data
         self.save()
-
-        self.package.update_status(self)
 
     @classmethod
     def add_resolution(cls, user, data):
@@ -548,7 +559,6 @@ class BaseXMLValidationResult(BaseValidationResult):
     )
 
     panels = [
-        FieldPanel("status", read_only=True),
         FieldPanel("subject", read_only=True),
         FieldPanel("attribute", read_only=True),
         FieldPanel("focus", read_only=True),
@@ -640,7 +650,6 @@ class XMLError(BaseXMLValidationResult, ClusterableModel):
     base_form_class = ValidationResultForm
 
     panels = [
-        FieldPanel("status", read_only=True),
         FieldPanel("subject", read_only=True),
         FieldPanel("attribute", read_only=True),
         FieldPanel("focus", read_only=True),
@@ -746,7 +755,7 @@ class BaseValidationReport(CommonControlField):
         subject=None,
     ):
         validation_result = self.ValidationResultClass.create(
-            subject=subject or data.get("subject"),
+            subject=subject or data and data.get("subject"),
             status=status,
             message=message,
             data=data,
@@ -809,7 +818,7 @@ class ValidationReport(BaseValidationReport, ClusterableModel):
 
     @property
     def _validation_results(self):
-        return ValidationResult.objects.filter(package=self.package)
+        return self.pkg_validation_result
 
 
 class XMLInfoReport(BaseValidationReport, ClusterableModel):
@@ -820,15 +829,40 @@ class XMLInfoReport(BaseValidationReport, ClusterableModel):
         blank=True,
         related_name="xml_info_report",
     )
-    panels = BaseValidationReport.panels + [
-        InlinePanel("xml_info", label=_("XML info"))
-    ]
+    file = models.FileField(_("Report File"), upload_to=upload_package_directory_path, null=True, blank=True)
+    panels = BaseValidationReport.panels + [FieldPanel("file")]
 
     ValidationResultClass = XMLInfo
 
     @property
     def _validation_results(self):
         return self.xml_info
+
+    def save_file(self, filename, content):
+        try:
+            self.file.delete(save=True)
+        except Exception as e:
+            pass
+        self.file.save(filename, ContentFile(content))
+
+    def finish(self):
+        filename = self.package.name + ".csv"
+        with TemporaryDirectory() as targetdir:
+            target = os.path.join(targetdir, filename)
+            item = self._validation_results.first()
+            with open(target, 'w', newline='') as csvfile:
+                fieldnames = list(item.data.keys())
+                writer = csv.DictWriter(
+                    csvfile, fieldnames=fieldnames)
+                writer.writeheader()
+                for item in self._validation_results.all():
+                    writer.writerow(item.data)
+
+            # saved optimised
+            with open(target, "rb") as fp:
+                self.save_file(filename, fp.read())
+            self.conclusion = choices.REPORT_CONCLUSION_DONE
+            self.save()
 
 
 class XMLErrorReport(BaseValidationReport, ClusterableModel):

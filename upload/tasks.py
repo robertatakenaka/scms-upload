@@ -12,6 +12,7 @@ from packtools.sps.validation import article as sps_validation_article
 from packtools.sps.validation import journal as sps_validation_journal
 from packtools.validator import ValidationReportXML
 from packtools.sps.pid_provider.xml_sps_lib import XMLWithPre
+from packtools.sps.validation.xml_structure import StructureValidator
 
 from article.choices import AS_CHANGE_SUBMITTED
 from article.controller import create_article_from_etree, update_article
@@ -640,6 +641,11 @@ def task_validate_original_zip_file(
     for xml_with_pre in XMLWithPre.create(path=file_path):
         xml_path = xml_with_pre.filename
 
+        logging.info(f"xmlpre: {xml_with_pre.xmlpre}")
+        package = Package.objects.get(pk=package_id)
+        package.name = xml_with_pre.sps_pkg_name
+        package.save()
+
         # FIXME nao usar o otimizado neste momento
         optimised_filepath = task_optimise_package(file_path)
 
@@ -661,6 +667,17 @@ def task_validate_original_zip_file(
             },
         )
 
+        task_validate_xml_structure.apply_async(
+            kwargs={
+                "file_path": file_path,
+                "xml_path": xml_path,
+                "package_id": package_id,
+                "journal_id": journal_id,
+                "issue_id": issue_id,
+                "article_id": article_id,
+            },
+        )
+
         # Aciona validacao do conteudo do XML
         task_validate_xml_content.apply_async(
             kwargs={
@@ -672,6 +689,59 @@ def task_validate_original_zip_file(
                 "article_id": article_id,
             },
         )
+
+
+@celery_app.task(bind=True)
+def task_validate_xml_structure(
+    self, file_path, xml_path, package_id, journal_id, issue_id, article_id
+):
+    package = Package.objects.get(pk=package_id)
+    for xml_with_pre in XMLWithPre.create(path=file_path):
+        # {'is_valid': True,
+        #    'errors_number': 0,
+        #    'doctype_validation_result': [],
+        #    'dtd_is_valid': True,
+        #    'dtd_errors': [],
+        #    'style_is_valid': True,
+        #    'style_errors': []}
+        sv = StructureValidator(xml_with_pre)
+        summary = sv.validate()
+
+        report = ValidationReport.get_or_create(
+            package.creator, package, _("DTD Report"), choices.VAL_CAT_XML_FORMAT
+        )
+        for item in summary["dtd_errors"]:
+            validation_result = report.add_validation_result(
+                status=choices.VALIDATION_RESULT_FAILURE,
+                message=item["message"],
+                data={
+                    "apparent_line": apparent_line,
+                },
+            )
+        if summary["dtd_is_valid"]:
+            validation_result = report.add_validation_result(
+                status=choices.VALIDATION_RESULT_SUCCESS,
+                message=_("No error found"),
+            )
+        report.finish()
+
+        report = ValidationReport.get_or_create(
+            package.creator, package, _("Style checker Report"), choices.VAL_CAT_STYLE
+        )
+        for item in summary["style_errors"]:
+            validation_result = report.add_validation_result(
+                status=choices.VALIDATION_RESULT_FAILURE,
+                message=item["message"],
+                data={
+                    "apparent_line": apparent_line,
+                },
+            )
+        if summary["style_is_valid"]:
+            validation_result = report.add_validation_result(
+                status=choices.VALIDATION_RESULT_SUCCESS,
+                message=_("No error found"),
+            )
+        report.finish()
 
 
 @celery_app.task(bind=True)
