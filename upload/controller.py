@@ -2,14 +2,11 @@ import logging
 from datetime import datetime
 from zipfile import ZipFile, ZIP_DEFLATED
 
-<<<<<<< HEAD
-=======
 from django.utils.translation import gettext as _
 from packtools.sps.models.journal_meta import Title, ISSN
 from packtools.sps.pid_provider.xml_sps_lib import XMLWithPre, GetXMLItemsError
 from packtools.sps.models.front_articlemeta_issue import ArticleMetaIssue
 
->>>>>>> 73bf729 (Modifica a entrada do pacote pelo upload e adiciona novas validações do XML (#426))
 from article.controller import create_article
 from collection.models import WebSiteConfiguration
 from libs.dsm.publication.db import exceptions, mk_connection
@@ -23,8 +20,6 @@ from .models import (
     ValidationResult,
     choices,
 )
-<<<<<<< HEAD
-=======
 from .utils import file_utils, package_utils, xml_utils
 
 from upload import xml_validation
@@ -43,7 +38,6 @@ from upload.xml_validation import (
 from upload.models import XMLErrorReport, XMLInfoReport
 
 pp = PidRequester()
->>>>>>> 73bf729 (Modifica a entrada do pacote pelo upload e adiciona novas validações do XML (#426))
 
 
 def create_package(
