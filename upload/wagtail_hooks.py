@@ -299,6 +299,7 @@ class ValidationResultAdmin(ModelAdmin):
     )
     search_fields = (
         "message",
+        "package__name",
         "package__file",
     )
     inspect_view_fields = {
@@ -375,9 +376,11 @@ class ValidationReportAdmin(ModelAdmin):
     )
     list_filter = (
         "category",
+        "conclusion",
     )
     search_fields = (
         "title",
+        "package__name",
         "package__file",
     )
 
@@ -409,9 +412,11 @@ class XMLErrorReportAdmin(ModelAdmin):
     )
     list_filter = (
         "category",
+        "conclusion",
     )
     search_fields = (
         "title",
+        "package__name",
         "package__file",
     )
 
@@ -436,12 +441,90 @@ class XMLErrorAdmin(ModelAdmin):
     add_to_settings_menu = False
     exclude_from_explorer = False
     list_display = (
-        "report",
         "subject",
         "attribute",
         "focus",
         "message",
         "advice",
+        "report",
+    )
+    list_filter = (
+        "validation_type",
+        "parent",
+        "parent_id",
+        "subject",
+        "attribute",
+    )
+    search_fields = (
+        "focus",
+        "message",
+        "advice",
+        "package__name",
+        "package__file",
+    )
+
+    def get_queryset(self, request):
+        if (
+            request.user.is_superuser
+            or self.permission_helper.user_can_access_all_packages(request.user, None)
+        ):
+            return super().get_queryset(request)
+
+        return super().get_queryset(request).filter(package__creator=request.user)
+
+
+class XMLInfoReportAdmin(ModelAdmin):
+    model = XMLInfoReport
+    permission_helper_class = UploadPermissionHelper
+    # create_view_class = XMLInfoReportCreateView
+    inspect_view_enabled = True
+    # inspect_view_class = XMLInfoReportAdminInspectView
+    menu_label = _("XML Info Reports")
+    menu_icon = "error"
+    add_to_settings_menu = False
+    exclude_from_explorer = False
+    list_display = (
+        "package",
+        "category",
+        "title",
+        "conclusion",
+    )
+    list_filter = (
+        "category",
+        "conclusion",
+    )
+    search_fields = (
+        "title",
+        "package__name",
+        "package__file",
+    )
+
+    def get_queryset(self, request):
+        if (
+            request.user.is_superuser
+            or self.permission_helper.user_can_access_all_packages(request.user, None)
+        ):
+            return super().get_queryset(request)
+
+        return super().get_queryset(request).filter(package__creator=request.user)
+
+
+class XMLInfoAdmin(ModelAdmin):
+    model = XMLInfo
+    permission_helper_class = UploadPermissionHelper
+    # create_view_class = XMLInfoCreateView
+    inspect_view_enabled = True
+    # inspect_view_class = XMLInfoAdminInspectView
+    menu_label = _("XML errors")
+    menu_icon = "error"
+    add_to_settings_menu = False
+    exclude_from_explorer = False
+    list_display = (
+        "subject",
+        "attribute",
+        "focus",
+        "message",
+        "report",
     )
     list_filter = (
         "status",
@@ -454,7 +537,7 @@ class XMLErrorAdmin(ModelAdmin):
     search_fields = (
         "focus",
         "message",
-        "advice",
+        "package__name",
         "package__file",
     )
 
@@ -476,6 +559,8 @@ class UploadModelAdminGroup(ModelAdminGroup):
         ValidationReportAdmin,
         XMLErrorReportAdmin,
         XMLErrorAdmin,
+        # XMLInfoAdmin,
+        XMLInfoReportAdmin,
         ValidationResultAdmin,
         QualityAnalysisPackageAdmin,
     )
