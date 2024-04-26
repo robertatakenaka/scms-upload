@@ -10,6 +10,7 @@ from wagtail.snippets.models import register_snippet
 
 from . import choices
 from .exceptions import PressReleaseInvalidURL
+from collection.models import Language
 
 User = get_user_model()
 
@@ -57,9 +58,7 @@ class CommonControlField(models.Model):
 
 class RichTextWithLang(models.Model):
     text = RichTextField(null=False, blank=False)
-    language = models.CharField(
-        _("Language"), max_length=2, choices=choices.LANGUAGE, null=False, blank=False
-    )
+    language = models.ForeignKey(Language, null=True, blank=True, on_delete=models.SET_NULL)
 
     panels = [FieldPanel("text"), FieldPanel("language")]
 
@@ -69,9 +68,7 @@ class RichTextWithLang(models.Model):
 
 class TextWithLangAndValidity(models.Model):
     text = models.TextField(_("Text"), null=False, blank=False)
-    language = models.CharField(
-        _("Language"), max_length=2, choices=choices.LANGUAGE, null=False, blank=False
-    )
+    language = models.ForeignKey(Language, null=True, blank=True, on_delete=models.SET_NULL)
     initial_date = models.DateField(null=True, blank=True)
     final_date = models.DateField(null=True, blank=True)
 
@@ -103,9 +100,7 @@ class RichTextWithLangAndValidity(RichTextWithLang):
 
 class TextWithLang(models.Model):
     text = models.TextField(_("Text"), null=False, blank=False)
-    language = models.CharField(
-        _("Language"), max_length=2, choices=choices.LANGUAGE, null=False, blank=False
-    )
+    language = models.ForeignKey(Language, null=True, blank=True, on_delete=models.SET_NULL)
 
     panels = [FieldPanel("text"), FieldPanel("language")]
 
