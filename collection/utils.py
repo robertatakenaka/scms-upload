@@ -1,8 +1,12 @@
 import re
-from langcodes import standardize_tag, tag_is_valid
+import logging
+from iso639 import Lang
+from iso639.exceptions import InvalidLanguageValue
 
 def language_iso(code):
     code = re.split(r"-|_", code)[0] if code else ""
-    if tag_is_valid(code):
-        return standardize_tag(code)
-    return ""
+    try:
+        return Lang(code).pt1
+    except InvalidLanguageValue as e:
+        logging.error(f"{e.msg} ({code})")
+        return ''
