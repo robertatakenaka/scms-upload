@@ -36,7 +36,7 @@ from upload.xml_validation import (
     add_sps_data,
     add_journal_data,
 )
-from upload.models import XMLErrorReport, XMLInfoReport
+from upload.models import XMLErrorReport, XMLInfoReport, ValidationReport
 
 pp = PidRequester()
 
@@ -170,13 +170,13 @@ def _identify_file_error(package):
         file_utils.BadPackageFileError,
         file_utils.PackageWithoutXMLFileError,
     ) as exc:
-        package._add_validation_result(
+        result = dict(
             error_category=choices.VE_PACKAGE_FILE_ERROR,
             message=exc.message,
             status=choices.VS_DISAPPROVED,
             data={"exception": str(exc), "exception_type": str(type(exc))},
         )
-        return {"error": str(exc), "error_type": choices.VE_PACKAGE_FILE_ERROR}
+        error = {"error": str(exc), "error_type": choices.VE_PACKAGE_FILE_ERROR}
 
     except xml_utils.XMLFormatError as e:
         data = {
@@ -185,13 +185,25 @@ def _identify_file_error(package):
             "row": e.start_row,
             "snippet": xml_utils.get_snippet(xml_str, e.start_row, e.end_row),
         }
-        package._add_validation_result(
+        result = dict(
             error_category=choices.VE_XML_FORMAT_ERROR,
             message=e.message,
             data=data,
             status=choices.VS_DISAPPROVED,
         )
-        return {"error": str(e), "error_type": choices.VE_XML_FORMAT_ERROR}
+        error = {"error": str(e), "error_type": choices.VE_XML_FORMAT_ERROR}
+
+    package._add_validation_result(**result)
+
+    report = ValidationReport.get_or_create(
+        package.creator, package, _("File Report"), choices.VAL_CAT_PACKAGE_FILE
+    )
+    validation_result = report.add_validation_result(
+        status=choices.VALIDATION_RESULT_FAILURE,
+        message=result["message"],
+        data=result["data"],
+    )
+    return error
 
 
 def _check_article_and_journal(xml_with_pre):
