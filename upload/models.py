@@ -80,10 +80,15 @@ class Package(CommonControlField, ClusterableModel):
     assignee = models.ForeignKey(User, blank=True, null=True, on_delete=models.SET_NULL)
     expiration_date = models.DateField(_("Expiration date"), null=True, blank=True)
 
+    validations = models.PositiveIntegerField(default=0)
+    errors = models.PositiveIntegerField(default=0)
+    blocking_errors = models.PositiveIntegerField(default=0)
+    percentual = models.FloatField(default=0)
+
     autocomplete_search_field = "file"
 
     def autocomplete_label(self):
-        return f"{self.file.name} - {self.category} - {self.article or self.issue} ({self.status})"
+        return f"{self.name or self.file.name} - {self.category} - {self.article or self.issue} ({self.status})"
 
     panels = [
         FieldPanel("file"),
@@ -226,20 +231,32 @@ class Package(CommonControlField, ClusterableModel):
         for report in self.xml_error_report.all():
             yield report.data
 
-    def finish_xml_reports(self):
-        status = set()
+    def finish(self):
+        self.validations = 0
+        self.errors = 0
+        self.blocking_errors = 0
+
+        for report in self.validation_report.all():
+            report.finish()
+            self.validations += report.validations
+            self.errors += report.errors
+            self.blocking_errors += report.blocking_errors
         for report in self.xml_error_report.all():
             report.finish()
-            status.add(report.conclusion)
+            self.validations += report.validations
+            self.errors += report.errors
         for report in self.xml_info_report.all():
             report.finish()
-            status.add(report.conclusion)
-        if choices.REPORT_CONCLUSION_REJECTED in status:
+            self.validations += report.validations
+        if self.blocking_errors:
+            self.status = choices.PS_REJECTED
+        elif self.errors:
             self.status = choices.PS_PENDING_CORRECTION
-            self.save()
-        elif len(status) == 1 and choices.REPORT_CONCLUSION_APPROVED in status:
+        elif self.errors == 0 and self.blocking_errors == 0 and self.validations:
             self.status = choices.PS_ACCEPTED
-            self.save()
+        elif not self.validations:
+            self.status = choices.PS_ENQUEUED_FOR_VALIDATION
+        self.save()
 
 
 class QAPackage(Package):
@@ -778,21 +795,32 @@ class BaseValidationReport(CommonControlField):
             "count": self.count,
         }
 
-    @property
-    def count(self):
-        return self._validation_results.count()
-
-    def finish(self, error_tolerance=None):
+    def finish(self):
         try:
             status = choices.VALIDATION_RESULT_FAILURE
             self._validation_results.filter(status=status)[0]
-            if error_tolerance:
-                self.conclusion = choices.REPORT_CONCLUSION_ACCEPTED_WITH_ERRORS
-            else:
+            if self.category in choices.ZERO_TOLERANCE:
                 self.conclusion = choices.REPORT_CONCLUSION_REJECTED
+            else:
+                self.conclusion = choices.REPORT_CONCLUSION_ACCEPTED_WITH_ERRORS
         except IndexError:
             self.conclusion = choices.REPORT_CONCLUSION_APPROVED
         self.save()
+
+    @property
+    def validations(self):
+        return self._validation_results.count()
+
+    @property
+    def errors(self):
+        return self._validation_results.filter(status=choices.VALIDATION_RESULT_FAILURE).count()
+
+    @property
+    def blocking_errors(self):
+        if self.category in choices.ZERO_TOLERANCE:
+            return self.errors
+        else:
+            return 0
 
 
 class PkgValidationResult(BaseValidationResult):
