@@ -468,7 +468,7 @@ def _validate_xml_content(package, xml_with_pre, data):
                 info_report,
                 error_report,
             )
-        package.finish_xml_reports()
+        package.finish()
     except Exception as e:
         exc_type, exc_value, exc_traceback = sys.exc_info()
         UnexpectedEvent.create(
