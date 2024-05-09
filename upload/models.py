@@ -790,11 +790,14 @@ class BaseValidationReport(CommonControlField):
     @property
     def data(self):
         return {
+            "updated": self.updated.isoformat(),
             "conclusion": self.conclusion,
             "id": self.id,
             "category": self.category,
             "title": self.title,
-            "count": self.count,
+            "count": self.validations,
+            "errors": self.errors,
+            "blocking_errors": self.blocking_errors,
         }
 
     def finish(self):
@@ -879,10 +882,14 @@ class XMLInfoReport(BaseValidationReport, ClusterableModel):
         self.file.save(filename, ContentFile(content))
 
     def finish(self):
-        filename = self.package.name + ".csv"
+        filename = self.package.name + "_xml_info_report.csv"
         with TemporaryDirectory() as targetdir:
             target = os.path.join(targetdir, filename)
             item = self._validation_results.first()
+
+            if not item:
+                return
+
             with open(target, 'w', newline='') as csvfile:
                 fieldnames = list(item.data.keys())
                 writer = csv.DictWriter(
