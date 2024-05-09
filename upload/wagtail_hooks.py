@@ -324,7 +324,7 @@ class QualityAnalysisPackageAdmin(ModelAdmin):
     model = QAPackage
     button_helper_class = UploadButtonHelper
     permission_helper_class = UploadPermissionHelper
-    menu_label = _("Waiting for QA")
+    menu_label = _("Quality analysis")
     menu_icon = "folder"
     menu_order = 200
     inspect_view_enabled = True
@@ -357,7 +357,7 @@ class QualityAnalysisPackageAdmin(ModelAdmin):
         qs = super().get_queryset(request)
 
         if self.permission_helper.user_can_access_all_packages(request.user, None):
-            return qs.filter(status=choices.PS_QA)
+            return qs.filter(status__in=[choices.PS_QA, choices.PS_VALIDATED_WITH_ERRORS])
 
         return qs.none()
 
@@ -560,18 +560,32 @@ class UploadModelAdminGroup(ModelAdminGroup):
     menu_label = "Upload"
     items = (
         PackageAdmin,
-        ValidationReportAdmin,
-        XMLErrorReportAdmin,
-        XMLErrorAdmin,
-        # XMLInfoAdmin,
-        XMLInfoReportAdmin,
-        ValidationResultAdmin,
         QualityAnalysisPackageAdmin,
+        XMLErrorAdmin,
+
+        # o item abaixo é necessário para apresentar 'inspect' de Package
+        ValidationResultAdmin,
     )
     menu_order = get_menu_order("upload")
 
 
 modeladmin_register(UploadModelAdminGroup)
+
+
+class UploadReportsModelAdminGroup(ModelAdminGroup):
+    menu_icon = "folder"
+    menu_label = _("Upload reports")
+    items = (
+
+        # os itens a seguir possibilitam que na página Package.inspect
+        # funcionem os links para os relatórios
+        ValidationReportAdmin,
+        XMLErrorReportAdmin,
+        XMLInfoReportAdmin,
+    )
+    menu_order = get_menu_order("upload")
+
+modeladmin_register(UploadReportsModelAdminGroup)
 
 
 @hooks.register("register_admin_urls")
