@@ -256,6 +256,8 @@ class Package(CommonControlField, ClusterableModel):
             self.status = choices.PS_ACCEPTED
         elif not self.validations:
             self.status = choices.PS_ENQUEUED_FOR_VALIDATION
+
+        self.percentual = self.errors / self.validations
         self.save()
 
 
