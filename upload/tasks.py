@@ -457,8 +457,10 @@ def task_validate_assets(file_path, xml_path, package_id):
             subject=_("assets"),
         )
         report.finish()
+        package.finish()
         return True
     report.finish()
+    package.finish()
 
 
 @celery_app.task()
@@ -527,8 +529,10 @@ def task_validate_renditions(file_path, xml_path, package_id):
             subject=_("Renditions"),
         )
         report.finish()
+        package.finish()
         return True
     report.finish()
+    package.finish()
 
 
 # TODO REMOVE
@@ -724,6 +728,7 @@ def task_validate_xml_structure(
                 message=_("No error found"),
             )
         report.finish()
+        package.finish()
 
         report = ValidationReport.get_or_create(
             package.creator, package, _("Style checker Report"), choices.VAL_CAT_STYLE
@@ -742,6 +747,7 @@ def task_validate_xml_structure(
                 message=_("No error found"),
             )
         report.finish()
+        package.finish()
 
 
 @celery_app.task(bind=True)
