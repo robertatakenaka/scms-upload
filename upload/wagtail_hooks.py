@@ -231,21 +231,21 @@ class PackageAdmin(ModelAdmin):
     exclude_from_explorer = False
 
     list_display = (
-        "article",
-        "issue",
-        "category",
         "file",
+        "validations",
+        "errors",
+        "blocking_errors",
+        "percentual",
+        "category",
         "status",
-        "assignee",
         "creator",
-        "created",
         "updated",
-        "updated_by",
         "expiration_date",
     )
     list_filter = (
         "category",
         "status",
+
     )
     search_fields = (
         "file",
@@ -336,12 +336,16 @@ class QualityAnalysisPackageAdmin(ModelAdmin):
     list_display = (
         "file",
         "assignee",
-        "creator",
-        "created",
+        "validations",
+        "errors",
+        "blocking_errors",
+        "percentual",
+        "category",
+        "status",
         "updated",
-        "updated_by",
+        "expiration_date",
     )
-    list_filter = ("assignee",)
+    list_filter = ("assignee", "status", "category")
     search_fields = (
         "file",
         "assignee__username",
