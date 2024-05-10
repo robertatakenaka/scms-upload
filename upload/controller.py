@@ -89,7 +89,7 @@ def establish_site_connection(url="scielo.br"):
 def request_pid_for_accepted_packages(user):
     # FIXME Usar package.SPSPkg no lugar de Package
     for pkg in Package.objects.filter(
-        status=choices.PS_ACCEPTED, article__isnull=True
+        status__in=[choices.PS_APPROVED, choices.PS_APPROVED_WITH_ERRORS], article__isnull=True
     ).iterator():
         # FIXME indicar se é atualização (True) ou novo (False)
         is_published = None

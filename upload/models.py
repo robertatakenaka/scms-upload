@@ -172,36 +172,46 @@ class Package(CommonControlField, ClusterableModel):
             )
 
     def check_resolutions(self):
+        """
+        O produtor de XML verifica os erros indicados e informa se corrigirá ou
+        se não concorda com o resultado da validação.
+        Mas também é possível que não exista nenhum defeito no XML.
+        """
         try:
             item = self.validationresult_set.filter(
                 status=choices.VS_DISAPPROVED,
                 resolution__action__in=[choices.ER_ACTION_TO_FIX, ""],
             )[0]
+            # produtor de XML aceita corrigir os defeitos
             self.status = choices.PS_PENDING_CORRECTION
         except IndexError:
-            self.status = choices.PS_READY_TO_BE_FINISHED
+            # havendo defeitos, mas o produtor de XML não concorda com alguns erros,
+            # a análise manual é solicitada
+            self.status = choices.PS_QA
         self.save()
         return self.status
 
     def check_opinions(self):
+        """
+        O analista de qualidade verifica os erros indicados e
+        aceita as justificativas do produtor de XML ou
+        lhe solicita correções.
+        """
         try:
             item = self.validationresult_set.filter(
                 status=choices.VS_DISAPPROVED,
                 analysis__opinion__in=[choices.ER_OPINION_FIX_DEMANDED, ""],
             )[0]
+            # o analista de qualidade solicita as correções
             self.status = choices.PS_PENDING_CORRECTION
         except IndexError:
-            self.status = choices.PS_ACCEPTED
+            # o analista de qualidade aprovou
+            self.status = choices.PS_APPROVED_WITH_ERRORS
         self.save()
         return self.status
 
     def check_finish(self):
-        if self.status == choices.PS_READY_TO_BE_FINISHED:
-            self.status = choices.PS_QA
-            self.save()
-            return True
-
-        return False
+        return self.status == choices.PS_QA
 
     @property
     def data(self):
@@ -251,9 +261,9 @@ class Package(CommonControlField, ClusterableModel):
         if self.blocking_errors:
             self.status = choices.PS_REJECTED
         elif self.errors:
-            self.status = choices.PS_PENDING_CORRECTION
+            self.status = choices.PS_VALIDATED_WITH_ERRORS
         elif self.errors == 0 and self.blocking_errors == 0 and self.validations:
-            self.status = choices.PS_ACCEPTED
+            self.status = choices.PS_APPROVED
         elif not self.validations:
             self.status = choices.PS_ENQUEUED_FOR_VALIDATION
 
