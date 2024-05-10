@@ -448,14 +448,9 @@ def _validate_xml_content(package, xml_with_pre, data):
         info_report = XMLInfoReport.get_or_create(
             package.creator, package, _("XML Info Report"), choices.VAL_CAT_XML_CONTENT
         )
-        info_report.conclusion = choices.REPORT_CONCLUSION_WIP
-        info_report.save()
-
         error_report = XMLErrorReport.get_or_create(
             package.creator, package, _("XML Error Report"), choices.VAL_CAT_XML_CONTENT
         )
-        error_report.conclusion = choices.REPORT_CONCLUSION_WIP
-        error_report.save()
 
         results = xml_validation.validate_xml_content(
             xml_with_pre.sps_pkg_name, xml_with_pre.xmltree, data
@@ -469,8 +464,13 @@ def _validate_xml_content(package, xml_with_pre, data):
                 error_report,
             )
         info_report.finish()
-        error_report.finish()
+        for error_report in package.xml_error_report.all():
+            error_report.finish()
+        # devido às tarefas serem executadas concorrentemente,
+        # necessário verificar se todas tarefas finalizaram e
+        # então finalizar o pacote
         package.finish()
+
     except Exception as e:
         exc_type, exc_value, exc_traceback = sys.exc_info()
         UnexpectedEvent.create(
@@ -510,8 +510,6 @@ def _handle_xml_content_validation_result(
                     _("XML Error Report") + f": {group}",
                     group,
                 )
-                report.conclusion = report.conclusion or choices.REPORT_CONCLUSION_WIP
-                report.save()
             else:
                 report = error_report
 

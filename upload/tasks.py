@@ -456,10 +456,11 @@ def task_validate_assets(file_path, xml_path, package_id):
             data=items,
             subject=_("assets"),
         )
-        report.finish()
-        package.finish()
-        return True
+
     report.finish()
+    # devido às tarefas serem executadas concorrentemente,
+    # necessário verificar se todas tarefas finalizaram e
+    # então finalizar o pacote
     package.finish()
 
 
@@ -528,10 +529,11 @@ def task_validate_renditions(file_path, xml_path, package_id):
             data=items,
             subject=_("Renditions"),
         )
-        report.finish()
-        package.finish()
-        return True
+
     report.finish()
+    # devido às tarefas serem executadas concorrentemente,
+    # necessário verificar se todas tarefas finalizaram e
+    # então finalizar o pacote
     package.finish()
 
 
@@ -728,7 +730,6 @@ def task_validate_xml_structure(
                 message=_("No error found"),
             )
         report.finish()
-        package.finish()
 
         report = ValidationReport.get_or_create(
             package.creator, package, _("Style checker Report"), choices.VAL_CAT_STYLE
@@ -747,6 +748,9 @@ def task_validate_xml_structure(
                 message=_("No error found"),
             )
         report.finish()
+        # devido às tarefas serem executadas concorrentemente,
+        # necessário verificar se todas tarefas finalizaram e
+        # então finalizar o pacote
         package.finish()
 
 

@@ -241,22 +241,45 @@ class Package(CommonControlField, ClusterableModel):
         for report in self.xml_error_report.all():
             yield report.data
 
+    @property
+    def validated(self):
+        if self.validation_report.count():
+            try:
+                self.validation_report.filter(conclusion=choices.REPORT_CONCLUSION_WIP)[0]
+                return False
+            except IndexError:
+                pass
+        if self.xml_error_report.count():
+            try:
+                self.xml_error_report.filter(conclusion=choices.REPORT_CONCLUSION_WIP)[0]
+                return False
+            except IndexError:
+                pass
+        if self.xml_info_report.count():
+            try:
+                self.xml_info_report.filter(conclusion=choices.REPORT_CONCLUSION_WIP)[0]
+                return False
+            except IndexError:
+                pass
+
+        return True
+
     def finish(self):
+        if not self.validated:
+            return
+
         self.validations = 0
         self.errors = 0
         self.blocking_errors = 0
 
         for report in self.validation_report.all():
-            report.finish()
             self.validations += report.validations
             self.errors += report.errors
             self.blocking_errors += report.blocking_errors
         for report in self.xml_error_report.all():
-            report.finish()
             self.validations += report.validations
             self.errors += report.errors
         for report in self.xml_info_report.all():
-            report.finish()
             self.validations += report.validations
         if self.blocking_errors:
             self.status = choices.PS_REJECTED
@@ -767,6 +790,7 @@ class BaseValidationReport(CommonControlField):
             obj.package = package
             obj.title = title
             obj.category = category
+            obj.conclusion = choices.REPORT_CONCLUSION_WIP
             obj.save()
             return obj
         except IntegrityError:
@@ -891,7 +915,7 @@ class XMLInfoReport(BaseValidationReport, ClusterableModel):
             pass
         self.file.save(filename, ContentFile(content))
 
-    def finish(self):
+    def generate_report(self):
         filename = self.package.name + "_xml_info_report.csv"
         with TemporaryDirectory() as targetdir:
             target = os.path.join(targetdir, filename)
@@ -911,8 +935,11 @@ class XMLInfoReport(BaseValidationReport, ClusterableModel):
             # saved optimised
             with open(target, "rb") as fp:
                 self.save_file(filename, fp.read())
-            self.conclusion = choices.REPORT_CONCLUSION_DONE
-            self.save()
+
+    def finish(self):
+        self.generate_report()
+        self.conclusion = choices.REPORT_CONCLUSION_DONE
+        self.save()
 
 
 class XMLErrorReport(BaseValidationReport, ClusterableModel):
