@@ -602,6 +602,7 @@ class BaseXMLValidationResult(BaseValidationResult):
     # geralemente article / sub-article e id
     parent = models.CharField(_("Parent"), null=True, blank=True, max_length=32)
     parent_id = models.CharField(_("Parent id"), null=True, blank=True, max_length=8)
+    parent_article_type = models.CharField(_("Parent article type"), null=True, blank=True, max_length=32)
 
     # focus = title do resultado de validação do packtools
     focus = models.CharField(_("Analysis focus"), null=True, blank=True, max_length=64)
