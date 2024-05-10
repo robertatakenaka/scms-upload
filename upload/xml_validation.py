@@ -37,11 +37,6 @@ def orcid_callable_get_validate(orcid):
     return {}
 
 
-def add_app_data(data, app_data):
-    # TODO
-    data["country_codes"] = []
-
-
 def add_journal_data(data, journal, issue):
     # TODO
     # específico do periódico
@@ -69,7 +64,7 @@ def add_journal_data(data, journal, issue):
     data["expected_license_code"] = journal.license_code
 
 
-def add_sps_data(data, version, sps_data):
+def add_sps_data(data, version):
     """
     results: [
         {
@@ -87,13 +82,10 @@ def add_sps_data(data, version, sps_data):
         data[c.get("key")] = c.get("value")
 
 
-def validate_xml_content(sps_pkg_name, xmltree, data):
-    # TODO adicionar error_category
-    # VE_XML_CONTENT_ERROR: generic usage
-    # VE_BIBLIOMETRICS_DATA_ERROR: used in metrics
-    # VE_SERVICES_DATA_ERROR: used in reports
-    # VE_DATA_CONSISTENCY_ERROR: data consistency
-    # VE_CRITERIA_ISSUES_ERROR: required by the criteria document
+def validate_xml_content(sps_pkg_name, xmltree, journal, issue):
+
+    add_sps_data(data, version=xmltree.find(".").get("specific-use"))
+    add_journal_data(data, journal, issue)
 
     validation_group_and_function_items = (
         ("affiliations", validate_affiliations),

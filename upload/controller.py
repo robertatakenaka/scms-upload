@@ -30,12 +30,7 @@ from article.models import Article
 from issue.models import Issue
 from journal.models import OfficialJournal, Journal
 from tracker.models import UnexpectedEvent, serialize_detail
-from upload.xml_validation import (
-    validate_xml_content,
-    add_app_data,
-    add_sps_data,
-    add_journal_data,
-)
+from upload.xml_validation import validate_xml_content
 from upload.models import XMLErrorReport, XMLInfoReport, ValidationReport
 
 pp = PidRequester()
@@ -411,20 +406,9 @@ def _compare_journal_and_issue_from_xml_to_journal_and_issue_from_article(
 
 
 def validate_xml_content(package, journal, issue):
-    # VE_BIBLIOMETRICS_DATA_ERROR = "bibliometrics-data-error"
-    # VE_SERVICES_DATA_ERROR = "services-data-error"
-    # VE_DATA_CONSISTENCY_ERROR = "data-consistency-error"
-    # VE_CRITERIA_ISSUES_ERROR = "criteria-issues-error"
-
-    # TODO completar data
-    data = {}
-    # add_app_data(data, app_data)
-    # add_journal_data(data, journal, issue)
-    # add_sps_data(data, sps_data)
-
     try:
         for xml_with_pre in XMLWithPre.create(path=package.file.path):
-            _validate_xml_content(package, xml_with_pre, data)
+            _validate_xml_content(xml_with_pre, package, journal, issue)
     except Exception as e:
         exc_type, exc_value, exc_traceback = sys.exc_info()
         UnexpectedEvent.create(
@@ -437,12 +421,7 @@ def validate_xml_content(package, journal, issue):
         )
 
 
-def _validate_xml_content(package, xml_with_pre, data):
-    # TODO completar data
-    data = {}
-    # xml_validation.add_app_data(data, app_data)
-    # xml_validation.add_journal_data(data, journal, issue)
-    # xml_validation.add_sps_data(data, sps_data)
+def _validate_xml_content(xml_with_pre, package, journal, issue):
 
     try:
         info_report = XMLInfoReport.get_or_create(
@@ -453,7 +432,7 @@ def _validate_xml_content(package, xml_with_pre, data):
         )
 
         results = xml_validation.validate_xml_content(
-            xml_with_pre.sps_pkg_name, xml_with_pre.xmltree, data
+            xml_with_pre.sps_pkg_name, xml_with_pre.xmltree, journal, issue
         )
         for result in results:
             _handle_xml_content_validation_result(
@@ -503,6 +482,8 @@ def _handle_xml_content_validation_result(
             status_ = choices.VALIDATION_RESULT_FAILURE
 
             group = result.get("group") or result.get("item")
+            if not group and result.get("exception_type"):
+                group = "configuration"
             if group:
                 report = XMLErrorReport.get_or_create(
                     package.creator,
@@ -517,8 +498,8 @@ def _handle_xml_content_validation_result(
         # VE_DATA_CONSISTENCY_ERROR, VE_CRITERIA_ISSUES_ERROR,
         error_category = result.get("error_category") or choices.VE_XML_CONTENT_ERROR
 
-        message = result["message"]
-        advice = result["advice"] or ""
+        message = result.get("message") or ""
+        advice = result.get("advice") or ""
         message = ". ".join([_(message), _(advice)])
         package._add_validation_result(
             error_category=error_category,
@@ -536,6 +517,7 @@ def _handle_xml_content_validation_result(
         validation_result.attribute = result.get("sub_item")
         validation_result.parent = result.get("parent")
         validation_result.parent_id = result.get("parent_id")
+        validation_result.parent_article_type = result.get("parent_article_type")
         validation_result.validation_type = result.get("validation_type")
 
         if status_ == choices.VALIDATION_RESULT_FAILURE:
