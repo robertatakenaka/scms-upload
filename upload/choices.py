@@ -1,15 +1,53 @@
 from django.utils.translation import gettext as _
 
 # Model Package, Field status
+
+"""
+# SYSTEM
+1. PS_SUBMITTED --> primeira avaliação --> 2
+
+# SYSTEM
+2.1. PS_ENQUEUED_FOR_VALIDATION --> 3
+2.2. PS_REJECTED --> 10
+
+# SYSTEM
+3.1. PS_APPROVED --> 4
+3.2. PS_REJECTED --> 10
+3.3. PS_VALIDATED_WITH_ERRORS --> 7
+
+# QA USER
+4.1. PS_PUBLISHED --> FIM
+4.2. PS_SCHEDULED_FOR_PUBLICATION --> 4.1
+
+# XML PRODUCTOR USER
+5.1. PS_PENDING_CORRECTION --> 10
+5.2. PS_QA --> 6
+
+# QA USER
+6.1. PS_PENDING_CORRECTION --> 10
+6.2. PS_APPROVED_WITH_ERRORS --> 4
+
+# SYSTEM / CONFIGURAÇÃO DO FLUXO
+7.1. 5 (MENOR TOLERÂNCIA) - GARGALO NOS PRODUTORES
+7.2. 6 (MAIS TOLERANTE - GARGALO NA UNIDADE SCIELO)
+
+# ANY USER
+8.1. PS_REQUIRED_ERRATUM --> 11
+8.2. PS_REQUIRED_UPDATE --> 11
+
+# EDITOR | ?
+11.1. ASSIGN XML PRODUCTOR --> 10
+
+10. produtor de XML terá que corrigir e re-submeter
+"""
 PS_SUBMITTED = "submitted"
 PS_ENQUEUED_FOR_VALIDATION = "enqueued-for-validation"
 PS_VALIDATED_WITH_ERRORS = "validated-with-errors"
-PS_VALIDATED_WITHOUT_ERRORS = "validated-without-errors"
+PS_APPROVED_WITH_ERRORS = "approved-with-errors"
 PS_PENDING_CORRECTION = "pending-correction"
-PS_READY_TO_BE_FINISHED = "ready-to-be-finished"
 PS_QA = "quality-analysis"
 PS_REJECTED = "rejected"
-PS_ACCEPTED = "accepted"
+PS_APPROVED = "approved"
 PS_SCHEDULED_FOR_PUBLICATION = "scheduled-for-publication"
 PS_PUBLISHED = "published"
 
@@ -20,12 +58,11 @@ PACKAGE_STATUS = (
     (PS_SUBMITTED, _("Submitted")),
     (PS_ENQUEUED_FOR_VALIDATION, _("Enqueued for validation")),
     (PS_VALIDATED_WITH_ERRORS, _("Validated with errors")),
-    (PS_VALIDATED_WITHOUT_ERRORS, _("Validated without errors")),
+    (PS_APPROVED_WITH_ERRORS, _("Approved with errors")),
     (PS_PENDING_CORRECTION, _("Pending for correction")),
-    (PS_READY_TO_BE_FINISHED, _("Ready to be finished")),
     (PS_QA, _("Waiting for quality analysis")),
     (PS_REJECTED, _("Rejected")),
-    (PS_ACCEPTED, _("Accepted")),
+    (PS_APPROVED, _("Approved")),
     (PS_SCHEDULED_FOR_PUBLICATION, _("Scheduled for publication")),
     (PS_PUBLISHED, _("Published")),
 )
