@@ -67,6 +67,13 @@ PACKAGE_STATUS = (
     (PS_PUBLISHED, _("Published")),
 )
 
+QA_DECISION = (
+    (PS_APPROVED_WITH_ERRORS, _("Approved with errors")),
+    (PS_PENDING_CORRECTION, _("Pending for correction")),
+    (PS_REJECTED, _("Rejected")),
+    (PS_APPROVED, _("Approved")),
+)
+
 # Model Package, Field category
 PC_ERRATUM = "erratum"
 PC_UPDATE = "update"

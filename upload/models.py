@@ -67,6 +67,14 @@ class Package(CommonControlField, ClusterableModel):
         choices=choices.PACKAGE_STATUS,
         default=choices.PS_ENQUEUED_FOR_VALIDATION,
     )
+    qa_decision = models.CharField(
+        _("Quality analysis decision"),
+        max_length=32,
+        choices=choices.QA_DECISION,
+        null=True,
+        blank=True,
+    )
+
     article = models.ForeignKey(
         Article,
         blank=True,
@@ -295,6 +303,11 @@ class Package(CommonControlField, ClusterableModel):
 
 
 class QAPackage(Package):
+
+    panels = [
+        FieldPanel("qa_decision"),
+    ]
+
     class Meta:
         proxy = True
 
