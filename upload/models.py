@@ -24,6 +24,7 @@ from .forms import (
     ValidationResultForm,
     ErrorNegativeReactionForm,
     ErrorNegativeReactionDecisionForm,
+    XMLErrorReportForm,
 )
 from .permission_helper import (
     ACCESS_ALL_PACKAGES,
@@ -301,12 +302,20 @@ class Package(CommonControlField, ClusterableModel):
         self.percentual = self.errors / self.validations
         self.save()
 
+    @property
+    def justified_errors(self):
+        for report in self.xml_error_report.filter(total_not_to_fix__gte=0):
+            yield from report.justified_errors
+
 
 class QAPackage(Package):
 
     panels = [
         FieldPanel("qa_decision"),
+
     ]
+
+    base_form_class = UploadPackageForm
 
     class Meta:
         proxy = True
@@ -517,6 +526,7 @@ class ErrorResolutionOpinion(CommonControlField):
 
 
 class BaseValidationResult(CommonControlField):
+
     subject = models.CharField(
         _("Subject"),
         null=True,
@@ -894,6 +904,7 @@ class ValidationReport(BaseValidationReport, ClusterableModel):
         blank=True,
         related_name="validation_report",
     )
+
     panels = BaseValidationReport.panels + [
         InlinePanel("pkg_validation_result", label=_("Result"))
     ]
@@ -964,15 +975,35 @@ class XMLErrorReport(BaseValidationReport, ClusterableModel):
         blank=True,
         related_name="xml_error_report",
     )
+
+    total_to_fix = models.PositiveIntegerField(default=0)
+    total_absent_data = models.PositiveIntegerField(default=0)
+    total_not_to_fix = models.PositiveIntegerField(default=0)
+
     panels = BaseValidationReport.panels + [
         InlinePanel("xml_error", label=_("XML error"))
     ]
 
+    base_form_class = XMLErrorReportForm
     ValidationResultClass = XMLError
 
     @property
     def _validation_results(self):
         return self.xml_error
+
+    @property
+    def data(self):
+        d = super().data
+        d["total_to_fix"] = self.total_to_fix
+        d["total_absent_data"] = self.total_absent_data
+        d["total_not_to_fix"] = self.total_not_to_fix
+        return d
+
+    @property
+    def justified_errors(self):
+        if self.total_not_to_fix:
+            return self.xml_error.filter(non_error_justification__isnull=False)
+        return []
 
 
 class ErrorNegativeReaction(CommonControlField, ClusterableModel):
@@ -987,12 +1018,21 @@ class ErrorNegativeReaction(CommonControlField, ClusterableModel):
     justification = models.CharField(
         _("Non-error justification"), max_length=128, null=True, blank=True
     )
+    decision = models.CharField(
+        _("Decision"),
+        max_length=32,
+        choices=choices.ERROR_DECISION,
+        null=True,
+        blank=True,
+    )
+    decision_argument = models.CharField(
+        _("Decision argument"), max_length=128, null=True, blank=True
+    )
 
     base_form_class = ErrorNegativeReactionForm
 
     panels = [
         FieldPanel("justification"),
-        InlinePanel("qa_decision", label=_("Quality Analyst Decision")),
     ]
 
     class Meta:
@@ -1003,38 +1043,17 @@ class ErrorNegativeReaction(CommonControlField, ClusterableModel):
         )
 
 
-class ErrorNegativeReactionDecision(CommonControlField):
-    error_negative_reaction = ParentalKey(
-        ErrorNegativeReaction,
-        on_delete=models.CASCADE,
-        null=True,
-        blank=True,
-        related_name="qa_decision",
-    )
-
-    decision = models.CharField(
-        _("Decision"),
-        max_length=32,
-        choices=choices.ERROR_DECISION,
-        default=choices.ER_DECISION_CORRECTION_REQUIRED,
-        null=True,
-        blank=True,
-    )
-    decision_argument = models.CharField(
-        _("Decision argument"), max_length=128, null=True, blank=True
-    )
-
+class ErrorNegativeReactionDecision(ErrorNegativeReaction):
     base_form_class = ErrorNegativeReactionDecisionForm
 
     panels = [
+        FieldPanel("justification", read_only=True),
         FieldPanel("decision"),
         FieldPanel("decision_argument"),
     ]
 
     class Meta:
+        proxy = True
         permissions = (
-            (
-                ANALYSE_VALIDATION_ERROR_RESOLUTION,
-                _("Can decide about the correction demand"),
-            ),
+            (ANALYSE_VALIDATION_ERROR_RESOLUTION, _("Can analyse error justification")),
         )

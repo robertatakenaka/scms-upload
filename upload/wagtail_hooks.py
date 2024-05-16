@@ -31,6 +31,7 @@ from .models import (
     XMLErrorReport,
     XMLInfo,
     XMLInfoReport,
+    ErrorNegativeReactionDecision,
 )
 from .permission_helper import UploadPermissionHelper
 from .controller import receive_package
@@ -133,6 +134,7 @@ class PackageAdminInspectView(InspectView):
             "reports": list(self.instance.reports),
             "xml_error_reports": list(self.instance.xml_error_reports),
             "xml_info_reports": list(self.instance.xml_info_reports),
+            "justified_errors": list(self.instance.justified_errors),
         }
 
         optz_file_path, optz_dir = self.get_optimized_package_filepath_and_directory()
@@ -477,6 +479,38 @@ class XMLErrorAdmin(ModelAdmin):
         return super().get_queryset(request).filter(package__creator=request.user)
 
 
+class ErrorNegativeReactionDecisionAdmin(ModelAdmin):
+    model = ErrorNegativeReactionDecision
+    permission_helper_class = UploadPermissionHelper
+    menu_label = _("Quality analysis decision")
+    menu_icon = "folder"
+    add_to_settings_menu = False
+    exclude_from_explorer = False
+    list_display = (
+        "error",
+        "creator",
+        "created",
+        "updated_by",
+        "updated",
+    )
+    list_filter = (
+        "decision",
+    )
+    search_fields = (
+        "error__message",
+        "error__advice",
+    )
+
+    def get_queryset(self, request):
+        if (
+            request.user.is_superuser
+            or self.permission_helper.user_can_analyse_error_validation_resolution(request.user, None)
+        ):
+            return super().get_queryset(request)
+
+        return super().get_queryset(request).filter(package__creator=request.user)
+
+
 class XMLInfoReportAdmin(ModelAdmin):
     model = XMLInfoReport
     permission_helper_class = UploadPermissionHelper
@@ -563,7 +597,7 @@ class UploadModelAdminGroup(ModelAdminGroup):
         QualityAnalysisPackageAdmin,
         XMLErrorAdmin,
 
-        # o item abaixo é necessário para apresentar 'inspect' de Package
+        # ValidationResultAdmin é necessário para apresentar 'inspect' de Package
         ValidationResultAdmin,
     )
     menu_order = get_menu_order("upload")
@@ -582,6 +616,7 @@ class UploadReportsModelAdminGroup(ModelAdminGroup):
         ValidationReportAdmin,
         XMLErrorReportAdmin,
         XMLInfoReportAdmin,
+        ErrorNegativeReactionDecisionAdmin,
     )
     menu_order = get_menu_order("upload")
 

@@ -33,6 +33,15 @@ def ajx_error_resolution(request):
         return JsonResponse({"status": "success"})
 
 
+def add_decision(request):
+    package_id = request.GET.get("package_id")
+
+    if package_id:
+        package = get_object_or_404(Package, pk=package_id)
+
+    return redirect(f"/admin/upload/qapackage/edit/{package_id}")
+
+
 def error_resolution(request):
     """
     This view function enables the user to:

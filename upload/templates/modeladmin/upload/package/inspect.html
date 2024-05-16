@@ -157,8 +157,6 @@
                     <th>{% trans 'Name' %}</th>
                     <th>{% trans 'Date' %}</th>
                     <th>{% trans 'Errors' %}</th>
-                    <th>{% trans 'Validations' %}</th>
-                    <th>{% trans 'Result' %}</th>
                     <th>{% trans 'Link' %}</th>
                 </tr>
             </thead>
@@ -168,32 +166,72 @@
                         <td class='title'>{{ report.title }}</td>
                         <td>{{ report.updated }}</td>
                         <td>{{ report.errors }}</td>
-                        <td>{{ report.count }}</td>
-                        <td>{{ report.conclusion }}</td>
                         <td>
-                            <a class="button is-small" href="/admin/upload/validationreport/edit/{{ report.id }}">{% trans 'View report' %}</a>
+                            <a class="button is-small" href="/admin/upload/validationreport/edit/{{ report.id }}">
+                                {% if perms.upload.send_validation_error_resolution and report.errors %}
+                                    {% trans 'Resolve errors' %}
+                                {% else %}
+                                    {% trans 'View report' %}
+                                {% endif %}
+                            </a>                         
                         </td>
                     </tr>
                 {% endfor %}
+            </tbody>
+        </table>
+    
+        <table class="listing">
+            <thead>
+                <tr>
+                    <th>{% trans 'Name' %}</th>
+                    <th>{% trans 'Date' %}</th>
+                    <th>{% trans 'Errors' %}</th>
+                    <th>{% trans 'Errors to fix' %}</th>
+                    <th>{% trans 'Errors of absent data' %}</th>
+                    <th>{% trans 'Errors to justify' %}</th>
+                    <th>{% trans 'Link' %}</th>
+                </tr>
+            </thead>
+            <tbody>
                 {% for report in xml_error_reports %}
                     <tr>
                         <td class='title'>{{ report.title }}</td>
                         <td>{{ report.updated }}</td>
                         <td>{{ report.errors }}</td>
-                        <td>{{ report.count }}</td>
-                        <td>{{ report.conclusion }}</td>
+                        <td>{{ report.total_to_fix }}</td>
+                        <td>{{ report.total_absent_data }}</td>
+                        <td>{{ report.total_not_to_fix }}</td>
                         <td>
-                            <a class="button is-small" href="/admin/upload/xmlerrorreport/edit/{{ report.id }}">{% trans 'View report' %}</a>
+                            {% if perms.upload.send_validation_error_resolution %}
+                            <a class="button is-small" href="/admin/upload/xmlerrorreport/edit/{{ report.id }}">
+                                {% trans 'Resolve errors' %}
+                            </a>
+                            {% elif perms.upload.analyse_validation_error_resolution %}
+                            <a class="button is-small" href="/admin/upload/xmlerrorreport/inspect/{{ report.id }}">
+                                {% trans 'Analyse justifications' %}
+                            </a>
+                            {% endif %}
                         </td>
                     </tr>
                 {% endfor %}
+            </tbody>
+        </table>
+        
+        <table class="listing">
+            <thead>
+                <tr>
+                    <th>{% trans 'Name' %}</th>
+                    <th>{% trans 'Date' %}</th>
+                    <th>{% trans 'Validations' %}</th>
+                    <th>{% trans 'Link' %}</th>
+                </tr>
+            </thead>
+            <tbody>
                 {% for report in xml_info_reports %}
                     <tr>
                         <td class='title'>{{ report.title }}</td>
                         <td>{{ report.updated }}</td>
-                        <td>{{ report.errors }}</td>
-                        <td>{{ report.count }}</td>
-                        <td>{{ report.conclusion }}</td>
+                        <td>{{ report.count }}</td>    
                         <td>
                             <a class="button is-small" href="/admin/upload/xmlinforeport/edit/{{ report.id }}">{% trans 'View report' %}</a>
                         </td>
@@ -202,7 +240,6 @@
             </tbody>
         </table>
     </div>
-
     {% endif %}
     
     {% if validation_results.xml_or_dtd.status == 'approved' %}
@@ -211,19 +248,15 @@
 
     {% include 'modeladmin/upload/package/inspect_buttons_download.html' %}
 
-    {% if status == 'validated-with-errors' or status == 'quality-analysis' %}
+
+    {% if (status == 'validated-with-errors' or status == 'quality-analysis') and perms.upload.perms.upload.analyse_validation_error_resolution %}
         <div class="nice-padding row">
             <h3>{% trans "Actions" %}</h3>
             <div class="col2">
-                {% if status == 'validated-with-errors' and perms.upload.send_validation_error_resolution %}
-                    <a class="button is-small" href="{% url 'upload:error_resolution' %}?package_id={{ package_id }}">{% trans 'Start Error Resolution' %}</a>
-                {% else %}
-                    {% if status == 'quality-analysis' and perms.upload.analyse_validation_error_resolution %}
-                        <a class="button is-small" href="{% url 'upload:error_resolution' %}?scope=analyse&package_id={{ package_id }}">{% trans 'Analyse Error Resolution' %}</a>
-                    {% endif %}
-                {% endif %}
+                <a class="button is-small" href="{% url 'upload:add_decision' %}?package_id={{ package_id }}">{% trans 'Add decision' %}</a>
             </div>
         </div>
+        {% endif %}
     {% endif %}
 
 {% endblock %}
