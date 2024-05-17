@@ -21,6 +21,7 @@ from .forms import (
     ValidationResultForm,
     ErrorNegativeReactionForm,
     ErrorNegativeReactionDecisionForm,
+    XMLErrorReportForm,
 )
 from .permission_helper import (
     ACCESS_ALL_PACKAGES,
@@ -64,6 +65,14 @@ class Package(CommonControlField, ClusterableModel):
         choices=choices.PACKAGE_STATUS,
         default=choices.PS_ENQUEUED_FOR_VALIDATION,
     )
+    qa_decision = models.CharField(
+        _("Quality analysis decision"),
+        max_length=32,
+        choices=choices.QA_DECISION,
+        null=True,
+        blank=True,
+    )
+
     article = models.ForeignKey(
         "article.Article",
         blank=True,
@@ -75,10 +84,15 @@ class Package(CommonControlField, ClusterableModel):
     assignee = models.ForeignKey(User, blank=True, null=True, on_delete=models.SET_NULL)
     expiration_date = models.DateField(_("Expiration date"), null=True, blank=True)
 
+    validations = models.PositiveIntegerField(default=0)
+    errors = models.PositiveIntegerField(default=0)
+    blocking_errors = models.PositiveIntegerField(default=0)
+    percentual = models.FloatField(default=0)
+
     autocomplete_search_field = "file"
 
     def autocomplete_label(self):
-        return f"{self.file.name} - {self.category} - {self.article or self.issue} ({self.status})"
+        return f"{self.name or self.file.name} - {self.category} - {self.article or self.issue} ({self.status})"
 
     panels = [
         FieldPanel("file"),
@@ -162,36 +176,46 @@ class Package(CommonControlField, ClusterableModel):
             )
 
     def check_resolutions(self):
+        """
+        O produtor de XML verifica os erros indicados e informa se corrigirá ou
+        se não concorda com o resultado da validação.
+        Mas também é possível que não exista nenhum defeito no XML.
+        """
         try:
             item = self.validationresult_set.filter(
                 status=choices.VS_DISAPPROVED,
                 resolution__action__in=[choices.ER_ACTION_TO_FIX, ""],
             )[0]
+            # produtor de XML aceita corrigir os defeitos
             self.status = choices.PS_PENDING_CORRECTION
         except IndexError:
-            self.status = choices.PS_READY_TO_BE_FINISHED
+            # havendo defeitos, mas o produtor de XML não concorda com alguns erros,
+            # a análise manual é solicitada
+            self.status = choices.PS_QA
         self.save()
         return self.status
 
     def check_opinions(self):
+        """
+        O analista de qualidade verifica os erros indicados e
+        aceita as justificativas do produtor de XML ou
+        lhe solicita correções.
+        """
         try:
             item = self.validationresult_set.filter(
                 status=choices.VS_DISAPPROVED,
                 analysis__opinion__in=[choices.ER_OPINION_FIX_DEMANDED, ""],
             )[0]
+            # o analista de qualidade solicita as correções
             self.status = choices.PS_PENDING_CORRECTION
         except IndexError:
-            self.status = choices.PS_ACCEPTED
+            # o analista de qualidade aprovou
+            self.status = choices.PS_APPROVED_WITH_ERRORS
         self.save()
         return self.status
 
     def check_finish(self):
-        if self.status == choices.PS_READY_TO_BE_FINISHED:
-            self.status = choices.PS_QA
-            self.save()
-            return True
-
-        return False
+        return self.status == choices.PS_QA
 
     @property
     def data(self):
@@ -221,23 +245,73 @@ class Package(CommonControlField, ClusterableModel):
         for report in self.xml_error_report.all():
             yield report.data
 
-    def finish_xml_reports(self):
-        status = set()
+    @property
+    def validated(self):
+        if self.validation_report.count():
+            try:
+                self.validation_report.filter(conclusion=choices.REPORT_CONCLUSION_WIP)[0]
+                return False
+            except IndexError:
+                pass
+        if self.xml_error_report.count():
+            try:
+                self.xml_error_report.filter(conclusion=choices.REPORT_CONCLUSION_WIP)[0]
+                return False
+            except IndexError:
+                pass
+        if self.xml_info_report.count():
+            try:
+                self.xml_info_report.filter(conclusion=choices.REPORT_CONCLUSION_WIP)[0]
+                return False
+            except IndexError:
+                pass
+
+        return True
+
+    def finish(self):
+        if not self.validated:
+            return
+
+        self.validations = 0
+        self.errors = 0
+        self.blocking_errors = 0
+
+        for report in self.validation_report.all():
+            self.validations += report.validations
+            self.errors += report.errors
+            self.blocking_errors += report.blocking_errors
         for report in self.xml_error_report.all():
-            report.finish()
-            status.add(report.conclusion)
+            self.validations += report.validations
+            self.errors += report.errors
         for report in self.xml_info_report.all():
-            report.finish()
-            status.add(report.conclusion)
-        if choices.REPORT_CONCLUSION_REJECTED in status:
-            self.status = choices.PS_PENDING_CORRECTION
-            self.save()
-        elif len(status) == 1 and choices.REPORT_CONCLUSION_APPROVED in status:
-            self.status = choices.PS_ACCEPTED
-            self.save()
+            self.validations += report.validations
+        if self.blocking_errors:
+            self.status = choices.PS_REJECTED
+        elif self.errors:
+            self.status = choices.PS_VALIDATED_WITH_ERRORS
+        elif self.errors == 0 and self.blocking_errors == 0 and self.validations:
+            self.status = choices.PS_APPROVED
+        elif not self.validations:
+            self.status = choices.PS_ENQUEUED_FOR_VALIDATION
+
+        self.percentual = self.errors / self.validations
+        self.save()
+
+    @property
+    def justified_errors(self):
+        for report in self.xml_error_report.filter(total_not_to_fix__gte=0):
+            yield from report.justified_errors
 
 
 class QAPackage(Package):
+
+    panels = [
+        FieldPanel("qa_decision"),
+
+    ]
+
+    base_form_class = UploadPackageForm
+
     class Meta:
         proxy = True
 
@@ -447,6 +521,7 @@ class ErrorResolutionOpinion(CommonControlField):
 
 
 class BaseValidationResult(CommonControlField):
+
     subject = models.CharField(
         _("Subject"),
         null=True,
@@ -545,6 +620,7 @@ class BaseXMLValidationResult(BaseValidationResult):
     # geralemente article / sub-article e id
     parent = models.CharField(_("Parent"), null=True, blank=True, max_length=32)
     parent_id = models.CharField(_("Parent id"), null=True, blank=True, max_length=8)
+    parent_article_type = models.CharField(_("Parent article type"), null=True, blank=True, max_length=32)
 
     # focus = title do resultado de validação do packtools
     focus = models.CharField(_("Analysis focus"), null=True, blank=True, max_length=64)
@@ -733,6 +809,7 @@ class BaseValidationReport(CommonControlField):
             obj.package = package
             obj.title = title
             obj.category = category
+            obj.conclusion = choices.REPORT_CONCLUSION_WIP
             obj.save()
             return obj
         except IntegrityError:
@@ -766,28 +843,42 @@ class BaseValidationReport(CommonControlField):
     @property
     def data(self):
         return {
+            "updated": self.updated.isoformat(),
             "conclusion": self.conclusion,
             "id": self.id,
             "category": self.category,
             "title": self.title,
-            "count": self.count,
+            "count": self.validations,
+            "errors": self.errors,
+            "blocking_errors": self.blocking_errors,
         }
 
-    @property
-    def count(self):
-        return self._validation_results.count()
-
-    def finish(self, error_tolerance=None):
+    def finish(self):
         try:
             status = choices.VALIDATION_RESULT_FAILURE
             self._validation_results.filter(status=status)[0]
-            if error_tolerance:
-                self.conclusion = choices.REPORT_CONCLUSION_ACCEPTED_WITH_ERRORS
-            else:
+            if self.category in choices.ZERO_TOLERANCE:
                 self.conclusion = choices.REPORT_CONCLUSION_REJECTED
+            else:
+                self.conclusion = choices.REPORT_CONCLUSION_ACCEPTED_WITH_ERRORS
         except IndexError:
             self.conclusion = choices.REPORT_CONCLUSION_APPROVED
         self.save()
+
+    @property
+    def validations(self):
+        return self._validation_results.count()
+
+    @property
+    def errors(self):
+        return self._validation_results.filter(status=choices.VALIDATION_RESULT_FAILURE).count()
+
+    @property
+    def blocking_errors(self):
+        if self.category in choices.ZERO_TOLERANCE:
+            return self.errors
+        else:
+            return 0
 
 
 class PkgValidationResult(BaseValidationResult):
@@ -808,6 +899,7 @@ class ValidationReport(BaseValidationReport, ClusterableModel):
         blank=True,
         related_name="validation_report",
     )
+
     panels = BaseValidationReport.panels + [
         InlinePanel("pkg_validation_result", label=_("Result"))
     ]
@@ -843,11 +935,15 @@ class XMLInfoReport(BaseValidationReport, ClusterableModel):
             pass
         self.file.save(filename, ContentFile(content))
 
-    def finish(self):
-        filename = self.package.name + ".csv"
+    def generate_report(self):
+        filename = self.package.name + "_xml_info_report.csv"
         with TemporaryDirectory() as targetdir:
             target = os.path.join(targetdir, filename)
             item = self._validation_results.first()
+
+            if not item:
+                return
+
             with open(target, 'w', newline='') as csvfile:
                 fieldnames = list(item.data.keys())
                 writer = csv.DictWriter(
@@ -859,8 +955,11 @@ class XMLInfoReport(BaseValidationReport, ClusterableModel):
             # saved optimised
             with open(target, "rb") as fp:
                 self.save_file(filename, fp.read())
-            self.conclusion = choices.REPORT_CONCLUSION_DONE
-            self.save()
+
+    def finish(self):
+        self.generate_report()
+        self.conclusion = choices.REPORT_CONCLUSION_DONE
+        self.save()
 
 
 class XMLErrorReport(BaseValidationReport, ClusterableModel):
@@ -871,15 +970,35 @@ class XMLErrorReport(BaseValidationReport, ClusterableModel):
         blank=True,
         related_name="xml_error_report",
     )
+
+    total_to_fix = models.PositiveIntegerField(default=0)
+    total_absent_data = models.PositiveIntegerField(default=0)
+    total_not_to_fix = models.PositiveIntegerField(default=0)
+
     panels = BaseValidationReport.panels + [
         InlinePanel("xml_error", label=_("XML error"))
     ]
 
+    base_form_class = XMLErrorReportForm
     ValidationResultClass = XMLError
 
     @property
     def _validation_results(self):
         return self.xml_error
+
+    @property
+    def data(self):
+        d = super().data
+        d["total_to_fix"] = self.total_to_fix
+        d["total_absent_data"] = self.total_absent_data
+        d["total_not_to_fix"] = self.total_not_to_fix
+        return d
+
+    @property
+    def justified_errors(self):
+        if self.total_not_to_fix:
+            return self.xml_error.filter(non_error_justification__isnull=False)
+        return []
 
 
 class ErrorNegativeReaction(CommonControlField, ClusterableModel):
@@ -894,12 +1013,21 @@ class ErrorNegativeReaction(CommonControlField, ClusterableModel):
     justification = models.CharField(
         _("Non-error justification"), max_length=128, null=True, blank=True
     )
+    decision = models.CharField(
+        _("Decision"),
+        max_length=32,
+        choices=choices.ERROR_DECISION,
+        null=True,
+        blank=True,
+    )
+    decision_argument = models.CharField(
+        _("Decision argument"), max_length=128, null=True, blank=True
+    )
 
     base_form_class = ErrorNegativeReactionForm
 
     panels = [
         FieldPanel("justification"),
-        InlinePanel("qa_decision", label=_("Quality Analyst Decision")),
     ]
 
     class Meta:
@@ -910,38 +1038,17 @@ class ErrorNegativeReaction(CommonControlField, ClusterableModel):
         )
 
 
-class ErrorNegativeReactionDecision(CommonControlField):
-    error_negative_reaction = ParentalKey(
-        ErrorNegativeReaction,
-        on_delete=models.CASCADE,
-        null=True,
-        blank=True,
-        related_name="qa_decision",
-    )
-
-    decision = models.CharField(
-        _("Decision"),
-        max_length=32,
-        choices=choices.ERROR_DECISION,
-        default=choices.ER_DECISION_CORRECTION_REQUIRED,
-        null=True,
-        blank=True,
-    )
-    decision_argument = models.CharField(
-        _("Decision argument"), max_length=128, null=True, blank=True
-    )
-
+class ErrorNegativeReactionDecision(ErrorNegativeReaction):
     base_form_class = ErrorNegativeReactionDecisionForm
 
     panels = [
+        FieldPanel("justification", read_only=True),
         FieldPanel("decision"),
         FieldPanel("decision_argument"),
     ]
 
     class Meta:
+        proxy = True
         permissions = (
-            (
-                ANALYSE_VALIDATION_ERROR_RESOLUTION,
-                _("Can decide about the correction demand"),
-            ),
+            (ANALYSE_VALIDATION_ERROR_RESOLUTION, _("Can analyse error justification")),
         )
