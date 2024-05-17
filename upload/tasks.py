@@ -456,9 +456,12 @@ def task_validate_assets(file_path, xml_path, package_id):
             data=items,
             subject=_("assets"),
         )
-        report.finish()
-        return True
+
     report.finish()
+    # devido às tarefas serem executadas concorrentemente,
+    # necessário verificar se todas tarefas finalizaram e
+    # então finalizar o pacote
+    package.finish()
 
 
 @celery_app.task()
@@ -526,9 +529,12 @@ def task_validate_renditions(file_path, xml_path, package_id):
             data=items,
             subject=_("Renditions"),
         )
-        report.finish()
-        return True
+
     report.finish()
+    # devido às tarefas serem executadas concorrentemente,
+    # necessário verificar se todas tarefas finalizaram e
+    # então finalizar o pacote
+    package.finish()
 
 
 # TODO REMOVE
@@ -742,6 +748,10 @@ def task_validate_xml_structure(
                 message=_("No error found"),
             )
         report.finish()
+        # devido às tarefas serem executadas concorrentemente,
+        # necessário verificar se todas tarefas finalizaram e
+        # então finalizar o pacote
+        package.finish()
 
 
 @celery_app.task(bind=True)
