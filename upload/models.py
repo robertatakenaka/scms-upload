@@ -85,6 +85,7 @@ class Package(CommonControlField, ClusterableModel):
     expiration_date = models.DateField(_("Expiration date"), null=True, blank=True)
 
     validations = models.PositiveIntegerField(default=0)
+    warnings = models.PositiveIntegerField(default=0)
     errors = models.PositiveIntegerField(default=0)
     blocking_errors = models.PositiveIntegerField(default=0)
     percentual = models.FloatField(default=0)
@@ -274,6 +275,7 @@ class Package(CommonControlField, ClusterableModel):
 
         self.validations = 0
         self.errors = 0
+        self.warnings = 0
         self.blocking_errors = 0
 
         for report in self.validation_report.all():
@@ -283,18 +285,19 @@ class Package(CommonControlField, ClusterableModel):
         for report in self.xml_error_report.all():
             self.validations += report.validations
             self.errors += report.errors
+            self.warnings += report.warnings
         for report in self.xml_info_report.all():
             self.validations += report.validations
         if self.blocking_errors:
             self.status = choices.PS_REJECTED
-        elif self.errors:
+        elif self.errors or self.warnings:
             self.status = choices.PS_VALIDATED_WITH_ERRORS
-        elif self.errors == 0 and self.blocking_errors == 0 and self.validations:
+        elif self.errors == 0 and self.warnings == 0 and self.blocking_errors == 0 and self.validations:
             self.status = choices.PS_APPROVED
         elif not self.validations:
             self.status = choices.PS_ENQUEUED_FOR_VALIDATION
 
-        self.percentual = self.errors / self.validations
+        self.percentual = (self.errors + self.warnings)/ self.validations
         self.save()
 
     @property
@@ -706,6 +709,14 @@ class XMLError(BaseXMLValidationResult, ClusterableModel):
         blank=True,
         related_name="xml_error",
     )
+    error_level = models.CharField(
+        _("Error level"),
+        max_length=32,
+        choices=choices.ERROR_LEVEL,
+        default=choices.ERROR_LEVEL_ERROR,
+        null=True,
+        blank=True,
+    )
     expected_value = models.JSONField(
         _("Expected value"),
         null=True,
@@ -849,6 +860,7 @@ class BaseValidationReport(CommonControlField):
             "category": self.category,
             "title": self.title,
             "count": self.validations,
+            "warnings": self.warnings,
             "errors": self.errors,
             "blocking_errors": self.blocking_errors,
         }
@@ -970,6 +982,14 @@ class XMLErrorReport(BaseValidationReport, ClusterableModel):
         blank=True,
         related_name="xml_error_report",
     )
+
+    @property
+    def warnings(self):
+        return self.xml_error.filter(error_level=choices.ERROR_LEVEL_WARNING).count()
+
+    @property
+    def errors(self):
+        return self.xml_error.filter(error_level=choices.ERROR_LEVEL_ERROR).count()
 
     total_to_fix = models.PositiveIntegerField(default=0)
     total_absent_data = models.PositiveIntegerField(default=0)

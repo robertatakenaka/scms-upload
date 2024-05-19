@@ -274,3 +274,12 @@ ERROR_DECISION = (
     (ER_DECISION_NO_CORRECTION_NEEDED, _("Accepted")),
     (ER_DECISION_CORRECTION_REQUIRED, _("Correction required")),
 )
+
+
+ERROR_LEVEL_ERROR = "ERROR"
+ERROR_LEVEL_WARNING = "WARNING"
+
+ERROR_LEVEL = (
+    (ERROR_LEVEL_ERROR, _("error")),
+    (ERROR_LEVEL_WARNING, _("warning")),
+)
