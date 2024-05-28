@@ -156,7 +156,6 @@
                 <tr>
                     <th>{% trans 'Name' %}</th>
                     <th>{% trans 'Date' %}</th>
-                    <th>{% trans 'Status' %}</th>
                     <th>{% trans 'Errors' %}</th>
                     <th>{% trans 'Link' %}</th>
                 </tr>
@@ -166,7 +165,6 @@
                     <tr>
                         <td class='title'>{{ report.title }}</td>
                         <td>{{ report.updated }}</td>
-                        <td>{{ report.status }}</td>
                         <td>{{ report.errors }}</td>
                         <td>
                             <a class="button is-small" href="/admin/upload/validationreport/edit/{{ report.id }}">
@@ -181,62 +179,50 @@
                 {% endfor %}
             </tbody>
         </table>
-    
+
         <table class="listing">
             <thead>
                 <tr>
                     <th>{% trans 'Name' %}</th>
                     <th>{% trans 'Date' %}</th>
-                    <th>{% trans 'Status' %}</th>
                     <th>{% trans 'Errors' %}</th>
                     <th>{% trans 'Errors to fix' %}</th>
                     <th>{% trans 'Errors of absent data' %}</th>
-                    <th>{% trans 'Errors not to fix' %}</th>
+                    <th>{% trans 'Errors to justify' %}</th>
                     <th>{% trans 'Link' %}</th>
                 </tr>
             </thead>
             <tbody>
                 {% for report in xml_error_reports %}
                     <tr>
-                        <td class="title">{{ report.title }}</td>
+                        <td class='title'>{{ report.title }}</td>
                         <td>{{ report.updated }}</td>
-                        <td>{{ report.status }}</td>
                         <td>{{ report.errors }}</td>
-                        <td>{{ report.reaction_to_fix }}</td>
-                        <td>{{ report.reaction_absent_data }}</td>
-                        <td>{{ report.reaction_not_to_fix }}</td>
+                        <td>{{ report.total_to_fix }}</td>
+                        <td>{{ report.total_absent_data }}</td>
+                        <td>{{ report.total_not_to_fix }}</td>
                         <td>
-                            <a name="xer{{ report.id }}"/>
-                            {% if perms.upload.send_validation_error_resolution %}
-                            <a class="button is-small" href="/admin/upload/xmlerrorreport/edit/{{ report.id }}">
-                                {% trans 'Review errors' %}
-                                {% if report.xml_producer_ack %}
-                                    ({% trans 'done' %})
-                                {% else %}
-                                    ({% trans 'pending' %})
-                                {% endif %}
-                            </a>
-                            {% elif perms.upload.analyse_validation_error_resolution %}
-                            <a class="button is-small" href="/admin/upload/xmlerrorreport/inspect/{{ report.id }}">
-                                {% if report.xml_producer_ack %}
-                                    {% trans 'Analyse XML producer responses' %}
-                                {% else %}
-                                    {% trans 'Analyse errors' %}
-                                {% endif %}
-                            </a>
+                            
+                            {% if perms.upload.send_validation_error_resolution and report.errors %}
+                                <a class="button is-small" href="/admin/upload/xmlerrorreport/edit/{{ report.id }}">
+                                    {% trans 'Resolve errors' %}
+                                </a>
+                            {% else %}
+                                <a class="button is-small" href="/admin/upload/xmlerrorreport/edit/{{ report.id }}">
+                                    {% trans 'View report' %}
+                                </a>
                             {% endif %}
+                        
                         </td>
                     </tr>
                 {% endfor %}
             </tbody>
         </table>
-        
         <table class="listing">
             <thead>
                 <tr>
                     <th>{% trans 'Name' %}</th>
                     <th>{% trans 'Date' %}</th>
-                    <th>{% trans 'Status' %}</th>
                     <th>{% trans 'Validations' %}</th>
                     <th>{% trans 'Link' %}</th>
                 </tr>
@@ -246,7 +232,6 @@
                     <tr>
                         <td class='title'>{{ report.title }}</td>
                         <td>{{ report.updated }}</td>
-                        <td>{{ report.status }}</td>
                         <td>{{ report.count }}</td>    
                         <td>
                             <a class="button is-small" href="/admin/upload/xmlinforeport/edit/{{ report.id }}">{% trans 'View report' %}</a>
@@ -264,108 +249,15 @@
 
     {% include 'modeladmin/upload/package/inspect_buttons_download.html' %}
 
-    {% if perms.upload.send_validation_error_resolution or perms.upload.analyse_validation_error_resolution %}
-        <div class="nice-padding row">
-            <h3>{% trans "Summary" %}</h3>
 
-            <div class="row">
-                <div class="12">
-                    <ul>
-                        <li>{% trans "Warnings" %}: {{ summary.warnings }} / {{ summary.validations }}</li>
-                        <li>{% trans "Errors" %}: {{ summary.errors }} / {{ summary.validations }}</li>
-                        <li>{% trans "Blocking errors" %}: {{ summary.blocking_errors }} / {{ summary.validations }}</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+    {% if (status == 'validated-with-errors' or status == 'quality-analysis') and perms.upload.perms.upload.analyse_validation_error_resolution %}
         <div class="nice-padding row">
             <h3>{% trans "Actions" %}</h3>
-            <div class="row">
-                <div class="12">
-                {% if summary.is_validation_finished %}
-                    <p>{% trans 'Validations finished!' %}</p>
-
-                    {% if status == 'pending-correction' or status == 'rejected' %}
-                        {% trans 'The XML producer must correct the package and submit again' %}
-
-                    {% elif perms.upload.send_validation_error_resolution and status == 'pending-deposit' %}
-                        {% if summary.xml_errors_to_fix %}
-                            
-                            {% if not summary.is_error_review_finished %}
-                                <a class="button is-small" href="#xer2">
-                                    <!-- User must finish the error review -->
-                                    {% trans 'Review and comment the errors' %}
-                                </a>
-                            {% endif %}
-
-                            <a class="button is-small" href="{% url 'upload:download_errors' %}?package_id={{ package_id }}">
-                                <!-- User must finish the error review -->
-                                {% trans 'I will correct the errors, then submit the corrected package' %}
-                            </a>
-
-                        {% elif summary.xml_errors_not_to_fix %}
-                            {% if summary.allow_finish_deposit_with_errors and summary.is_error_review_finished %}
-                                <a class="button is-small" href="{% url 'upload:finish_deposit' %}?package_id={{ package_id }}">
-                                    {% trans 'I declare that the' %}{{ summary.xml_errors_not_to_fix }}{% trans 'are not errors' %}.
-                                </a>
-                            {% elif summary.is_error_review_finished %}
-                                <!-- not allowed to finish deposit with errors -->
-                                {% trans 'The XML producer must correct the package and submit again' %}
-                            {% else %}
-                                <a class="button is-small" href="#xer2">
-                                    <!-- User must finish the error review -->
-                                    {% trans 'Review and comment the errors' %}
-                                </a>
-                            {% endif %}
-
-                        {% elif summary.xml_errors_absent_data %}
-                            {% if summary.allow_finish_deposit_with_absent_data and summary.is_error_review_finished %}
-                                <a class="button is-small" href="{% url 'upload:finish_deposit' %}?package_id={{ package_id }}">
-                                    {% trans 'I declare that the' %}{{ summary.xml_errors_absent_data }}{% trans 'are errors caused by absent data' %}.
-                                </a>
-                            {% elif summary.is_error_review_finished %}
-                                <!-- not allowed to finish deposit with absent data -->
-                                {% trans 'The XML producer must correct the package and submit again' %}
-                            {% else %}
-                                <a class="button is-small" href="#xer2">
-                                    <!-- User must finish the error review -->
-                                    {% trans 'Review and comment the errors' %}
-                                </a>
-                            {% endif %}
-
-                        {% elif summary.errors %}
-                            <a class="button is-small" href="{% url 'upload:download_errors' %}?package_id={{ package_id }}">
-                                <!-- User must finish the error review -->
-                                {% trans 'I will correct the errors, then submit the corrected package' %}
-                            </a>
-                        
-                        {% else %}
-                            <a class="button is-small" href="{% url 'upload:finish_deposit' %}?package_id={{ package_id }}">
-                                {% trans 'Finish deposit' %}
-                            </a>
-                        {% endif %}
-                    {% elif perms.upload.analyse_validation_error_resolution %}
-                        {% if status == 'pending-qa-decision' %}
-                            {% trans 'The XML producer reviewed the errors and commented them' %}
-                        {% elif status == 'validated-with-errors' %}
-                            {% trans 'The XML producer is reviewing the errors' %}
-                        {% endif %}
-                        <a class="button is-small" href="/admin/upload/qapackage/edit/{{ package_id }}">{% trans 'Add quality analysis conclusion' %}</a>
-
-                    {% else %}
-                        {% trans '{{ status }}' %}
-                    {% endif %}
-                {% else %}
-                    <a class="button is-small" href="#">
-                        {% trans 'Processing validations. Reload page' %}
-                    </a>
-                {% endif %}
-                </div>
+            <div class="col2">
+                <a class="button is-small" href="{% url 'upload:add_decision' %}?package_id={{ package_id }}">{% trans 'Add decision' %}</a>
             </div>
         </div>
-        <div class="nice-padding row">
-            <div>...........</div>
-        </div>
-
+        {% endif %}
     {% endif %}
+
 {% endblock %}

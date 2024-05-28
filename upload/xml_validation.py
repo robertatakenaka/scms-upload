@@ -1,4 +1,5 @@
 import sys
+import logging
 
 from packtools.sps.validation.aff import AffiliationsListValidation
 from packtools.sps.validation.article_and_subarticles import (
@@ -40,14 +41,14 @@ def orcid_callable_get_validate(orcid):
 def add_journal_data(data, journal, issue):
     # TODO
     # específico do periódico
-    data["language_codes"] = []
+    # data["language_codes"] = []
 
-    if issue:
-        data["subjects"] = issue.subjects_list
-        data["expected_toc_sections"] = issue.toc_sections
-    else:
-        data["subjects"] = journal.subjects_list
-        data["expected_toc_sections"] = journal.toc_sections
+    # if issue:
+    #     data["subjects"] = issue.subjects_list
+    #     data["expected_toc_sections"] = issue.toc_sections
+    # else:
+    #     data["subjects"] = journal.subjects_list
+    #     data["expected_toc_sections"] = journal.toc_sections
 
     # {
     #     'issns': {
@@ -61,7 +62,7 @@ def add_journal_data(data, journal, issue):
     #     'nlm-ta': 'Rev Saude Publica'
     #     }
     data["journal"] = journal.data
-    data["expected_license_code"] = journal.license_code
+    # data["expected_license_code"] = journal.license_code
 
 
 def add_sps_data(data, version):
@@ -76,13 +77,19 @@ def add_sps_data(data, version):
     # TODO
     # depende do SPS / JATS / Critérios
     url = "https://core.scielo.org/api/v1/xml_validation/"
-    content = fetch_data(url, params={'version': version}, json=True, timeout=1)
+    try:
+        content = fetch_data(url, params={'version': version}, json=True, timeout=1)
+    except Exception as e:
+        logging.exception(e)
+        return
+
     results = content.get("results")
     for c in results:
         data[c.get("key")] = c.get("value")
 
 
 def validate_xml_content(sps_pkg_name, xmltree, journal, issue):
+    data = {}
 
     add_sps_data(data, version=xmltree.find(".").get("specific-use"))
     add_journal_data(data, journal, issue)

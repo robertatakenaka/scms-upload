@@ -1,16 +1,12 @@
 {"user_id":1,
  "collection_acron": "scl",
  "collection_name": "SciELO Brasil",
- "db_uri": "mongodb://192.168.1.97:27017/scielo_qa",
- "db_name": ""
  "url": "new.scielo.br",
 
  "websites": [
     {
-        "url": "http://192.168.1.97:8014",
+        "url": "http://192.168.1.97:8000",
         "purpose": "QA",
-        "db_name": "qa",
-        "db_uri": "mongodb://192.168.1.97:27017/scielo_qa",
         "api_url_article": null,
         "api_url_issue": null,
         "api_url_journal": null,
@@ -21,13 +17,11 @@
         "enabled": true
     },
     {
-        "url": "http://192.168.1.97:8015",
+        "url": "http://192.168.1.97:8000",
         "purpose": "PUBLIC",
-        "db_name": "prod",
-        "db_uri": null,
-        "api_url_article": "http://192.168.1.97:8015/api/v1/article",
-        "api_url_issue": "http://192.168.1.97:8015/api/v1/issue",
-        "api_url_journal": "http://192.168.1.97:8015/api/v1/journal",
+        "api_url_article": "http://192.168.1.97:8000/api/v1/article",
+        "api_url_issue": "http://192.168.1.97:8000/api/v1/issue",
+        "api_url_journal": "http://192.168.1.97:8000/api/v1/journal",
         "api_get_token_url": null,
         "api_username": "x",
         "api_password": "x",
@@ -57,9 +51,9 @@
     "SERIAL_PATH": "/app/migration/fixtures/classic_website/serial"
     },
 "pid_provider": {
-    "token": "http://192.168.1.97:8000/api/v2/auth/token/",
-    "pid_provider": "http://192.168.1.97:8000/api/v2/pid/pid_provider/"
+    "token": "http://192.168.1.97:8009/api/v2/auth/token/",
+    "pid_provider": "http://192.168.1.97:8009/api/v2/pid/pid_provider/",
     "name": "adm",
-    "pp": "x",
+    "pp": "x"
     }
 }

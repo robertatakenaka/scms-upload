@@ -1,7 +1,6 @@
 import logging
 
 from django import forms
-from django.shortcuts import get_object_or_404, redirect, render
 from django.utils.translation import gettext_lazy as _
 from wagtail.admin.forms import WagtailAdminModelForm
 
@@ -40,24 +39,28 @@ class ValidationResultForm(WagtailAdminModelForm):
         return vr_obj
 
 
+ErrorNegativeReactionForm = ValidationResultForm
+ErrorNegativeReactionDecisionForm = ValidationResultForm
+
+
 class XMLErrorReportForm(WagtailAdminModelForm):
+    def clean(self):
+        cleaned_data = super().clean()
+        xml_error = cleaned_data.get("xml_error")
 
-    def save_all(self, user):
-        vr_obj = super().save(commit=False)
-
-        if self.instance.pk is None:
-            vr_obj.creator = user
-
-        self.save()
-
-        return vr_obj
-
-    def save(self, commit=True):
-        report = super().save(commit=False)
-        if report.package.creator == report.updated_by and report.xml_producer_ack:
-            report.conclusion = choices.REPORT_CONCLUSION_DONE
-        repport.package.calculate_xml_error_declaration_numbers()
-        return report
+        for item in self.xml_error.filter(reaction=choices.ER_REACTION_JUSTIFY):
+            if item.non_error_justification.count() == 0:
+                self.add_error(
+                    "xml_error",
+                    _(f"Error {item.error_id} requires justification for not correcting")
+                )
+            else:
+                for just in item.non_error_justification.all():
+                    if not just.justification.strip():
+                        self.add_error(
+                            "xml_error",
+                            _(f"Error {item.error_id} requires justification for not correcting")
+                        )
 
 
 class ValidationResultErrorResolutionForm(forms.Form):

@@ -457,11 +457,11 @@ def task_validate_assets(file_path, xml_path, package_id):
             subject=_("assets"),
         )
 
-    report.finish()
+    report.finish_validations()
     # devido às tarefas serem executadas concorrentemente,
     # necessário verificar se todas tarefas finalizaram e
     # então finalizar o pacote
-    package.finish()
+    package.finish_validations()
 
 
 @celery_app.task()
@@ -530,11 +530,11 @@ def task_validate_renditions(file_path, xml_path, package_id):
             subject=_("Renditions"),
         )
 
-    report.finish()
+    report.finish_validations()
     # devido às tarefas serem executadas concorrentemente,
     # necessário verificar se todas tarefas finalizaram e
     # então finalizar o pacote
-    package.finish()
+    package.finish_validations()
 
 
 # TODO REMOVE
@@ -729,7 +729,7 @@ def task_validate_xml_structure(
                 status=choices.VALIDATION_RESULT_SUCCESS,
                 message=_("No error found"),
             )
-        report.finish()
+        report.finish_validations()
 
         report = ValidationReport.get_or_create(
             package.creator, package, _("Style checker Report"), choices.VAL_CAT_STYLE
@@ -747,11 +747,11 @@ def task_validate_xml_structure(
                 status=choices.VALIDATION_RESULT_SUCCESS,
                 message=_("No error found"),
             )
-        report.finish()
+        report.finish_validations()
         # devido às tarefas serem executadas concorrentemente,
         # necessário verificar se todas tarefas finalizaram e
         # então finalizar o pacote
-        package.finish()
+        package.finish_validations()
 
 
 @celery_app.task(bind=True)

@@ -32,3 +32,24 @@ WEBSITE_KIND = [
     (QA, _("QA")),
     (PUBLIC, _("PUBLIC")),
 ]
+
+COLLECTION_TEAM = "collection"
+JOURNAL_EDITORIAL_TEAM = "journal"
+XML_PRODUCTION_TEAM = "xml"
+
+TEAM_TYPES = [
+    (XML_PRODUCTION_TEAM, _("XML production team")),
+    (JOURNAL_EDITORIAL_TEAM, _("editorial team")),
+    (COLLECTION_TEAM, _("collection team")),
+]
+
+
+QA = "qa"
+MANAGEMENT = "management"
+XML_PRODUCTION = "xml"
+
+TEAM_ROLES = [
+    (XML_PRODUCTION, _("XML production")),
+    (MANAGEMENT, _("editorial management")),
+    (QA, _("quality assurance")),
+]

@@ -21,15 +21,15 @@ from django.utils.translation import gettext as _
 
 # XML PRODUCTOR USER
 5.1. PS_PENDING_CORRECTION --> 10
-5.2. PS_QA --> 6
+5.2. PS_PENDING_QA_DECISION --> 6
 
 # QA USER
 6.1. PS_PENDING_CORRECTION --> 10
 6.2. PS_APPROVED_WITH_ERRORS --> 4
 
 # SYSTEM / CONFIGURAÇÃO DO FLUXO
-7.1. 5 (MENOR TOLERÂNCIA) - GARGALO NOS PRODUTORES
-7.2. 6 (MAIS TOLERANTE - GARGALO NA UNIDADE SCIELO)
+7.1. PS_PENDING_DEPOSIT --> 5 (MENOR TOLERÂNCIA) - GARGALO NOS PRODUTORES
+7.2. PS_PENDING_QA_DECISION --> 6 (MAIS TOLERANTE - GARGALO NA UNIDADE SCIELO)
 
 # ANY USER
 8.1. PS_REQUIRED_ERRATUM --> 11
@@ -45,7 +45,8 @@ PS_ENQUEUED_FOR_VALIDATION = "enqueued-for-validation"
 PS_VALIDATED_WITH_ERRORS = "validated-with-errors"
 PS_APPROVED_WITH_ERRORS = "approved-with-errors"
 PS_PENDING_CORRECTION = "pending-correction"
-PS_QA = "quality-analysis"
+PS_PENDING_DEPOSIT = "pending-deposit"
+PS_PENDING_QA_DECISION = "pending-qa-decision"
 PS_REJECTED = "rejected"
 PS_APPROVED = "approved"
 PS_SCHEDULED_FOR_PUBLICATION = "scheduled-for-publication"
@@ -60,7 +61,9 @@ PACKAGE_STATUS = (
     (PS_VALIDATED_WITH_ERRORS, _("Validated with errors")),
     (PS_APPROVED_WITH_ERRORS, _("Approved with errors")),
     (PS_PENDING_CORRECTION, _("Pending for correction")),
-    (PS_QA, _("Waiting for quality analysis")),
+    (PS_PENDING_DEPOSIT, _("Pending deposit")),
+    (PS_PENDING_QA_DECISION, _("Pending quality analysis decision")),
+    (PS_PENDING_CORRECTION, _("Pending for correction")),
     (PS_REJECTED, _("Rejected")),
     (PS_APPROVED, _("Approved")),
     (PS_SCHEDULED_FOR_PUBLICATION, _("Scheduled for publication")),
@@ -225,9 +228,7 @@ ZERO_TOLERANCE = (
 )
 
 # Model ValidationResult, Field status
-REPORT_CONCLUSION_REJECTED = "rejected"
-REPORT_CONCLUSION_ACCEPTED_WITH_ERRORS = "has-errors"
-REPORT_CONCLUSION_APPROVED = "approved"
+REPORT_CONCLUSION_TO_REVIEW = "to-review"
 REPORT_CONCLUSION_NONE = ""
 REPORT_CONCLUSION_WIP = "doing"
 REPORT_CONCLUSION_DONE = "done"
@@ -236,9 +237,7 @@ REPORT_CONCLUSION = (
     (REPORT_CONCLUSION_DONE, "done"),
     (REPORT_CONCLUSION_WIP, "doing"),
     (REPORT_CONCLUSION_NONE, ""),
-    (REPORT_CONCLUSION_REJECTED, "rejected"),
-    (REPORT_CONCLUSION_ACCEPTED_WITH_ERRORS, "has-errors"),
-    (REPORT_CONCLUSION_APPROVED, "approved"),
+    (REPORT_CONCLUSION_TO_REVIEW, "to-review"),
 )
 
 # Model ValidationResult, Field status
@@ -253,14 +252,14 @@ VALIDATION_RESULT = (
 )
 
 # Model ErrorResolution, Field action
-ER_REACTION_FIX = "fix"
-ER_REACTION_JUSTIFY = "justify"
+ER_REACTION_FIX = "to-fix"
+ER_REACTION_NOT_TO_FIX = "not-to-fix"
 ER_REACTION_ABSENT_DATA = "absence"
 
 ERROR_REACTION = (
     (ER_REACTION_FIX, _("I will fix this error")),
     (ER_REACTION_ABSENT_DATA, _("Data is absent")),
-    (ER_REACTION_JUSTIFY, _("I am adding a justification not to correct")),
+    (ER_REACTION_NOT_TO_FIX, _("It is correct")),
 )
 
 
