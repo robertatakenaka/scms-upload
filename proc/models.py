@@ -1498,36 +1498,11 @@ class ArticleProc(BaseProc, ClusterableModel):
             self.sps_pkg_status = tracker_choices.PROGRESS_STATUS_DOING
             self.save()
 
-            with TemporaryDirectory() as output_folder:
+            if self.package:
+                self._generate_sps_package_for_uploaded_package(user)
+            else:
+                self._generate_sps_package_for_migrated_package(user)
 
-                xml_with_pre = self.get_xml_with_pre()
-
-                builder = PkgZipBuilder(xml_with_pre)
-                sps_pkg_zip_path = builder.build_sps_package(
-                    output_folder,
-                    renditions=list(self.renditions),
-                    translations=self.translations,
-                    main_paragraphs_lang=self.migrated_data.n_paragraphs
-                    and self.main_lang,
-                    issue_proc=self.issue_proc,
-                )
-
-                # FIXME assumindo que isso será executado somente na migração
-                # verificar se este código pode ser aproveitado pelo fluxo
-                # de ingresso, se sim, ajustar os valores dos parâmetros
-                # origin e is_published
-
-                self.fix_pid_v2(user)
-
-                self.sps_pkg = SPSPkg.create_or_update(
-                    user,
-                    sps_pkg_zip_path,
-                    origin=package_choices.PKG_ORIGIN_MIGRATION,
-                    is_public=True,
-                    original_pkg_components=builder.components,
-                    texts=builder.texts,
-                    article_proc=self,
-                )
             self.update_sps_pkg_status()
             operation.finish(
                 user,
@@ -1545,6 +1520,47 @@ class ArticleProc(BaseProc, ClusterableModel):
                 exception=e,
                 detail=self.sps_pkg and self.sps_pkg.data,
             )
+
+    def _generate_sps_package_for_migrated_package(self, user):
+        with TemporaryDirectory() as output_folder:
+
+            xml_with_pre = self.get_xml_with_pre()
+
+            builder = PkgZipBuilder(xml_with_pre)
+            sps_pkg_zip_path = builder.build_sps_package(
+                output_folder,
+                renditions=list(self.renditions),
+                translations=self.translations,
+                main_paragraphs_lang=self.migrated_data.n_paragraphs
+                and self.main_lang,
+                issue_proc=self.issue_proc,
+            )
+            self.fix_pid_v2(user)
+
+            self.sps_pkg = SPSPkg.create_or_update(
+                user,
+                sps_pkg_zip_path,
+                origin=package_choices.PKG_ORIGIN_MIGRATION,
+                is_public=True,
+                original_pkg_components=builder.components,
+                texts=builder.texts,
+                article_proc=self,
+            )
+
+    def _generate_sps_package_for_uploaded_package(self, user):
+        # Aplica-se também para um pacote de atualização de um conteúdo anteriormente migrado
+        # TODO components, texts
+        components = {}
+        texts = {}
+        self.sps_pkg = SPSPkg.create_or_update(
+            user,
+            sps_pkg_zip_path=self.package.file.path,
+            origin=package_choices.PKG_ORIGIN_UPLOAD,
+            is_public=self.package.is_public,
+            original_pkg_components=components,
+            texts=texts,
+            article_proc=self,
+        )
 
     def fix_pid_v2(self, user):
         if self.sps_pkg:

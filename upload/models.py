@@ -14,6 +14,7 @@ from modelcluster.models import ClusterableModel
 from wagtail.admin.panels import FieldPanel, InlinePanel
 from wagtailautocomplete.edit_handlers import AutocompletePanel
 
+from article import choices as article_choices
 from core.models import CommonControlField
 from team.models import CollectionTeamMember
 from upload import choices
@@ -220,6 +221,20 @@ class Package(CommonControlField, ClusterableModel):
             ...
 
         return files
+
+    @property
+    def is_published(self):
+        return bool(self.article and self.article.status == article_choices.AS_PUBLISHED)
+
+    @property
+    def components(self):
+        # TODO
+        return {}
+
+    @property
+    def texts(self):
+        # TODO
+        return {}
 
     @property
     def package_name(self):
@@ -624,11 +639,12 @@ class BaseXMLValidationResult(BaseValidationResult):
     # BaseValidationResult.data = data
 
     # attribute = sub_item do resultado de validação do packtools
+    # '@content-type="https://credit.niso.org/contributor-roles/*'
     attribute = models.CharField(
-        _("Subject Attribute"), null=True, blank=True, max_length=32
+        _("Subject Attribute"), null=True, blank=True, max_length=64
     )
     # geralemente article / sub-article e id
-    parent = models.CharField(_("Parent"), null=True, blank=True, max_length=32)
+    parent = models.CharField(_("Parent"), null=True, blank=True, max_length=16)
     parent_id = models.CharField(_("Parent id"), null=True, blank=True, max_length=8)
     parent_article_type = models.CharField(
         _("Parent article type"), null=True, blank=True, max_length=32

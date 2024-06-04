@@ -345,7 +345,6 @@ class SPSPkg(CommonControlField, ClusterableModel):
         null=True,
         blank=True,
         choices=choices.PKG_ORIGIN,
-        default=choices.PKG_ORIGIN_INGRESS_WITHOUT_VALIDATION,
     )
     # publicar somente a partir da data informada
     scheduled = models.DateTimeField(null=True, blank=True)
