@@ -1,6 +1,7 @@
 import logging
 from datetime import datetime
 
+from django.conf import settings
 from django.db import models, IntegrityError
 from django.utils.translation import gettext_lazy as _
 from modelcluster.fields import ParentalKey
@@ -18,6 +19,7 @@ from institution.models import InstitutionHistory
 from . import choices
 from .forms import OfficialJournalForm
 from . exceptions import MissionCreateOrUpdateError, MissionGetError, SubjectCreationOrUpdateError
+
 
 class OfficialJournal(CommonControlField):
     """
@@ -199,6 +201,79 @@ class Journal(CommonControlField, ClusterableModel):
     @property
     def logo_url(self):
         return self.logo and self.logo.url
+
+    @staticmethod
+    def exists(journal_title, issn_electronic, issn_print, user):
+        try:
+            return Journal.get_registered(
+                journal_title, issn_electronic, issn_print
+            )
+        except Journal.DoesNotExist:
+            return Journal.fetch_and_create_journal(
+                journal_title, issn_electronic, issn_print, user
+            )
+
+    @staticmethod
+    def get_registered(journal_title, issn_electronic, issn_print):
+        j = None
+        if issn_electronic:
+            try:
+                j = OfficialJournal.objects.get(issn_electronic=issn_electronic)
+            except OfficialJournal.DoesNotExist:
+                pass
+
+        if not j and issn_print:
+            try:
+                j = OfficialJournal.objects.get(issn_print=issn_print)
+            except OfficialJournal.DoesNotExist:
+                pass
+
+        if not j and journal_title:
+            try:
+                j = OfficialJournal.objects.get(title=journal_title)
+            except OfficialJournal.DoesNotExist:
+                pass
+
+        if j:
+            return Journal.objects.get(official_journal=j)
+        raise Journal.DoesNotExist(f"{journal_title} {issn_electronic} {issn_print}")
+
+    @staticmethod
+    def fetch_and_create_journal(
+        journal_title, issn_electronic, issn_print, user,
+    ):
+        try:
+            response = fetch_data(
+                url=settings.JOURNAL_API_URL,
+                params={
+                    "title": journal_title,
+                    "issn_print": issn_print,
+                    "issn_electronic": issn_electronic,
+                },
+                json=True,
+            )
+        except Exception as e:
+            logging.exception(e)
+            return
+
+        for journal in response.get("results"):
+            official = journal["official"]
+            official_journal = OfficialJournal.create_or_update(
+                title=official["title"],
+                title_iso=official["iso_short_title"],
+                issn_print=official["issn_print"],
+                issn_electronic=official["issn_electronic"],
+                issnl=official["issnl"],
+                foundation_year=official.get("foundation_year"),
+                user=user,
+            )
+            journal = Journal.create_or_update(
+                user=user,
+                official_journal=official_journal,
+                title=journal.get("title"),
+                short_title=journal.get("short_title"),
+            )
+            return journal
 
     @classmethod
     def get(cls, official_journal):

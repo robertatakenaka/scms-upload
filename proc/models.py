@@ -13,7 +13,6 @@ from django.utils.translation import gettext_lazy as _
 from modelcluster.fields import ParentalKey
 from modelcluster.models import ClusterableModel
 from scielo_classic_website.htmlbody.html_body import HTMLContent
-from packtools.sps.models.article_and_subarticles import ArticleAndSubArticles
 from htmlxml.models import HTMLXML
 from packtools.sps.pid_provider.xml_sps_lib import XMLWithPre
 
@@ -31,6 +30,7 @@ from wagtailautocomplete.edit_handlers import AutocompletePanel
 from collection import choices as collection_choices
 from collection.models import Collection
 from core.models import CommonControlField
+from journal.models import Journal, OfficialJournal
 from journal.choices import JOURNAL_AVAILABILTY_STATUS
 from migration.models import (
     MigratedArticle,
@@ -1334,8 +1334,8 @@ class ArticleProc(BaseProc, ClusterableModel):
             ]
 
         cls.objects.filter(
-            Q(package__isnull=False)
-            | Q(issue_proc__files_status=tracker_choices.PROGRESS_STATUS_DONE),
+            issue_proc__docs_status=tracker_choices.PROGRESS_STATUS_DONE,
+            issue_proc__files_status=tracker_choices.PROGRESS_STATUS_DONE,
             **params,
         ).update(
             xml_status=tracker_choices.PROGRESS_STATUS_TODO,
@@ -1351,64 +1351,64 @@ class ArticleProc(BaseProc, ClusterableModel):
             **params,
         ).iterator()
 
-    @classmethod
-    def get_approved_packages(
-        cls,
-    ):
-        """ """
-        return Package.objects.filter(
-            status__in=(
-                upload_choices.PS_APPROVED_WITH_ERRORS,
-                upload_choices.PS_APPROVED,
-            ),
-            journal__isnull=False,
-            issue__isnull=False,
-        ).iterator()
+    # @classmethod
+    # def get_approved_packages(
+    #     cls,
+    # ):
+    #     """ """
+    #     return Package.objects.filter(
+    #         status__in=(
+    #             upload_choices.PS_APPROVED_WITH_ERRORS,
+    #             upload_choices.PS_APPROVED,
+    #         ),
+    #         journal__isnull=False,
+    #         issue__isnull=False,
+    #     ).iterator()
 
-    @classmethod
-    def create_or_update_article_proc_from_approved_package(
-        cls,
-        user,
-        package_id,
-        force_update=None,
-    ):
-        """ """
-        try:
-            article_proc = None
-            op = None
-            package = Package.objects.get(pk=package_id)
-            for xml_with_pre in XMLWithPre.create(path=package.file.path):
-                xml = ArticleAndSubArticles(xml_with_pre.xmltree)
+    # @classmethod
+    # def create_or_update_article_proc_from_approved_package(
+    #     cls,
+    #     user,
+    #     package_id,
+    #     force_update=None,
+    # ):
+    #     """ """
+    #     try:
+    #         article_proc = None
+    #         op = None
+    #         package = Package.objects.get(pk=package_id)
+    #         for xml_with_pre in XMLWithPre.create(path=package.file.path):
+    #             xml = ArticleAndSubArticles(xml_with_pre.xmltree)
 
-                logging.info(package.data)
-                logging.info(f"journal={package.journal}")
-                for journal_collection in journal.collections:
-                    article_proc = cls.create_or_update_article_proc(
-                        user=user,
-                        collection=journal_collection,
-                        pid_v2=xml_with_pre.v2,
-                        issue_proc=package.issue
-                        and IssueProc.objects.get(
-                            collection=journal_collection, issue=package.issue
-                        ),
-                        pkg_name=xml_with_pre.sps_pkg,
-                        main_lang=xml.main_lang,
-                        # records=None,
-                        force_update=force_update,
-                        package=package,
-                    )
+    #             logging.info(package.data)
+    #             logging.info(f"journal={package.journal}")
+    #             for journal_collection in journal.collections:
+    #                 article_proc = cls.create_or_update_article_proc(
+    #                     user=user,
+    #                     collection=journal_collection,
+    #                     pid_v2=xml_with_pre.v2,
+    #                     issue_proc=package.issue
+    #                     and IssueProc.objects.get(
+    #                         collection=journal_collection, issue=package.issue
+    #                     ),
+    #                     pkg_name=xml_with_pre.sps_pkg,
+    #                     main_lang=xml.main_lang,
+    #                     # records=None,
+    #                     force_update=force_update,
+    #                     package=package,
+    #                 )
 
-        except Exception as e:
-            exc_type, exc_value, exc_traceback = sys.exc_info()
-            if article_proc:
-                article_proc.xml_status = tracker_choices.PROGRESS_STATUS_BLOCKED
-                article_proc.save()
-            if op:
-                op.finish(
-                    user,
-                    exc_traceback=exc_traceback,
-                    exception=e,
-                )
+    #     except Exception as e:
+    #         exc_type, exc_value, exc_traceback = sys.exc_info()
+    #         if article_proc:
+    #             article_proc.xml_status = tracker_choices.PROGRESS_STATUS_BLOCKED
+    #             article_proc.save()
+    #         if op:
+    #             op.finish(
+    #                 user,
+    #                 exc_traceback=exc_traceback,
+    #                 exception=e,
+    #             )
 
     @classmethod
     def items_to_build_sps_pkg(
@@ -1498,10 +1498,7 @@ class ArticleProc(BaseProc, ClusterableModel):
             self.sps_pkg_status = tracker_choices.PROGRESS_STATUS_DOING
             self.save()
 
-            if self.package:
-                self._generate_sps_package_for_uploaded_package(user)
-            else:
-                self._generate_sps_package_for_migrated_package(user)
+            self._generate_sps_package_for_migrated_package(user)
 
             self.update_sps_pkg_status()
             operation.finish(
@@ -1526,16 +1523,21 @@ class ArticleProc(BaseProc, ClusterableModel):
 
             xml_with_pre = self.get_xml_with_pre()
 
-            builder = PkgZipBuilder(xml_with_pre)
-            sps_pkg_zip_path = builder.build_sps_package(
-                output_folder,
+            builder = PkgZipBuilder(
+                xml_with_pre,
                 renditions=list(self.renditions),
-                translations=self.translations,
-                main_paragraphs_lang=self.migrated_data.n_paragraphs
-                and self.main_lang,
                 issue_proc=self.issue_proc,
             )
+
+            # TODO? instanciar Package com sps_pkg_zip_path?
+            sps_pkg_zip_path = builder.build_sps_package(output_folder)
+
             self.fix_pid_v2(user)
+
+            html_langs = list(self.translations.keys())
+            if self.main_lang:
+                html_langs.append(self.main_lang)
+            build.texts["html_langs"] = html_langs
 
             self.sps_pkg = SPSPkg.create_or_update(
                 user,
@@ -1547,20 +1549,26 @@ class ArticleProc(BaseProc, ClusterableModel):
                 article_proc=self,
             )
 
-    def _generate_sps_package_for_uploaded_package(self, user):
-        # Aplica-se também para um pacote de atualização de um conteúdo anteriormente migrado
-        # TODO components, texts
-        components = {}
-        texts = {}
-        self.sps_pkg = SPSPkg.create_or_update(
-            user,
-            sps_pkg_zip_path=self.package.file.path,
-            origin=package_choices.PKG_ORIGIN_UPLOAD,
-            is_public=self.package.is_public,
-            original_pkg_components=components,
-            texts=texts,
-            article_proc=self,
-        )
+    # def _generate_sps_package_for_uploaded_package(self, user):
+    #     # Aplica-se também para um pacote de atualização de um conteúdo anteriormente migrado
+    #     # TODO components, texts
+    #     texts = {
+    #         "xml_langs": self.package.langs,
+    #         "pdf_langs": [
+    #             rendition["lang"]
+    #             for rendition in self.package.renditions
+    #             if rendition in self.package.filenames
+    #         ]
+    #     }
+    #     self.sps_pkg = SPSPkg.create_or_update(
+    #         user,
+    #         sps_pkg_zip_path=self.package.file.path,
+    #         origin=package_choices.PKG_ORIGIN_UPLOAD,
+    #         is_public=self.package.is_public,
+    #         original_pkg_components=self.package.components,
+    #         texts=texts,
+    #         article_proc=self,
+    #     )
 
     def fix_pid_v2(self, user):
         if self.sps_pkg:

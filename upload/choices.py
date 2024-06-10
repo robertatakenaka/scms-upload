@@ -11,7 +11,7 @@ from django.utils.translation import gettext as _
 2.2. PS_REJECTED --> 10
 
 # SYSTEM
-3.1. PS_APPROVED --> 4
+3.1. PS_APPROVED --> 9
 3.2. PS_REJECTED --> 10
 3.3. PS_VALIDATED_WITH_ERRORS --> 7
 
@@ -25,7 +25,7 @@ from django.utils.translation import gettext as _
 
 # QA USER
 6.1. PS_PENDING_CORRECTION --> 10
-6.2. PS_APPROVED_WITH_ERRORS --> 4
+6.2. PS_APPROVED_WITH_ERRORS --> 9
 
 # SYSTEM / CONFIGURAÇÃO DO FLUXO
 7.1. PS_PENDING_DEPOSIT --> 5 (MENOR TOLERÂNCIA) - GARGALO NOS PRODUTORES
@@ -34,6 +34,9 @@ from django.utils.translation import gettext as _
 # ANY USER
 8.1. PS_REQUIRED_ERRATUM --> 11
 8.2. PS_REQUIRED_UPDATE --> 11
+
+# SYSTEM / CONFIGURAÇÃO DO FLUXO
+9. PS_PREPARE_PUBLICATION --> 4
 
 # EDITOR | ?
 11.1. ASSIGN XML PRODUCTOR --> 10
@@ -49,7 +52,10 @@ PS_PENDING_DEPOSIT = "pending-deposit"
 PS_PENDING_QA_DECISION = "pending-qa-decision"
 PS_REJECTED = "rejected"
 PS_APPROVED = "approved"
-PS_SCHEDULED_FOR_PUBLICATION = "scheduled-for-publication"
+
+PS_PREPARE_PUBLICATION = "prepare-publication"
+PS_READY_TO_PUBLISH = "ready-to-publish"
+PS_SCHEDULED_PUBLICATION = "scheduled-publication"
 PS_PUBLISHED = "published"
 
 PS_REQUIRED_ERRATUM = "required-erratum"
@@ -66,7 +72,9 @@ PACKAGE_STATUS = (
     (PS_PENDING_CORRECTION, _("Pending for correction")),
     (PS_REJECTED, _("Rejected")),
     (PS_APPROVED, _("Approved")),
-    (PS_SCHEDULED_FOR_PUBLICATION, _("Scheduled for publication")),
+    (PS_PREPARE_PUBLICATION, _("Preparing publication")),
+    (PS_READY_TO_PUBLISH, _("Ready to publish")),
+    (PS_SCHEDULED_PUBLICATION, _("Scheduled publication")),
     (PS_PUBLISHED, _("Published")),
 )
 
@@ -88,23 +96,6 @@ PACKAGE_CATEGORY = (
     (PC_ERRATUM, _("Erratum")),
     (PC_NEW_DOCUMENT, _("New document")),
 )
-
-
-# Model ValidationResult, Field category, VE = Validation Error
-VE_PACKAGE_FILE_ERROR = "package-file-error"
-VE_UNEXPECTED_ERROR = "unexpected-error"
-VE_FORBIDDEN_UPDATE_ERROR = "forbidden-update-error"
-VE_ARTICLE_JOURNAL_INCOMPATIBILITY_ERROR = "journal-incompatibility-error"
-VE_ARTICLE_IS_NOT_NEW_ERROR = "article-is-not-new-error"
-VE_XML_FORMAT_ERROR = "xml-format-error"
-VE_XML_CONTENT_ERROR = "xml-content-error"
-VE_BIBLIOMETRICS_DATA_ERROR = "bibliometrics-data-error"
-VE_SERVICES_DATA_ERROR = "services-data-error"
-VE_DATA_CONSISTENCY_ERROR = "data-consistency-error"
-VE_CRITERIA_ISSUES_ERROR = "criteria-issues-error"
-VE_ASSET_ERROR = "asset-error"
-VE_RENDITION_ERROR = "rendition-error"
-VE_GROUP_DATA_ERROR = "group-error"
 
 
 # Model ValidationResult, campo que agrupo tipos de erro de validação, VR = Validation Report

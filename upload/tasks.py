@@ -135,8 +135,6 @@ def task_validate_assets(package_id, xml_path, package_files, xml_assets):
         package.creator, package, _("Assets Report"), choices.VAL_CAT_ASSET
     )
 
-    items = []
-
     for asset in xml_assets:
         is_present = asset["name"] in package_files
         asset.update({"xml_path": xml_path})
@@ -154,7 +152,7 @@ def task_validate_assets(package_id, xml_path, package_files, xml_assets):
         validation_result = report.add_validation_result(
             status=choices.VALIDATION_RESULT_SUCCESS,
             message=_("Package has all the expected asset files"),
-            data=items,
+            data=list(xml_assets),
             subject=_("assets"),
         )
 
@@ -175,27 +173,22 @@ def task_validate_renditions(package_id, xml_path, package_files, xml_renditions
         package.creator, package, _("Renditions Report"), choices.VAL_CAT_RENDITION
     )
 
-    items = []
     for xml_rendition in xml_renditions:
-        is_present = xml_rendition["filename"] in package_files
-        xml_rendition.update({
-            "xml_path": xml_path,
-        })
-        items.append(xml_rendition)
+        is_present = xml_rendition["name"] in package_files
         if not is_present:
             has_errors = True
             validation_result = report.add_validation_result(
                 status=choices.VALIDATION_RESULT_FAILURE,
-                message=f'{xml_rendition["language"]} {_("language is mentioned in the XML but its PDF file not present in the package.")}',
+                message=f'{xml_rendition["lang"]} {_("language is mentioned in the XML but its PDF file not present in the package.")}',
                 data=xml_rendition,
-                subject=xml_rendition["language"],
+                subject=xml_rendition["lang"],
             )
 
     if not has_errors:
         validation_result = report.add_validation_result(
             status=choices.VALIDATION_RESULT_SUCCESS,
             message=_("Package has all the expected rendition files"),
-            data=items,
+            data=list(xml_renditions),
             subject=_("Renditions"),
         )
 
@@ -214,7 +207,6 @@ def task_validate_original_zip_file(
     for xml_with_pre in XMLWithPre.create(path=file_path):
         xml_path = xml_with_pre.filename
         name, ext = os.path.splitext(xml_path)
-
         logging.info(f"xmlpre: {xml_with_pre.xmlpre}")
         package = Package.objects.get(pk=package_id)
         package.name = xml_with_pre.sps_pkg_name
@@ -224,75 +216,61 @@ def task_validate_original_zip_file(
         optimised_filepath = task_optimise_package(file_path)
 
         for optimised_xml_with_pre in XMLWithPre.create(path=optimised_filepath):
-            package_files = [os.path.basename(item) for item in optimised_xml_with_pre.files]
 
-            article_renditions = []
-            for item in ArticleRenditions(optimised_xml_with_pre.xmltree).article_renditions:
-                filename = (
-                    f"{name}.pdf" if item.is_main_language else f"{name}-{item.language}.pdf"
-                )
-                article_renditions.append({"filename": filename, "language": item.language})
+            package_files = optimised_xml_with_pre.filenames
+            # Aciona validação de Assets
+            task_validate_assets.apply_async(
+                kwargs={
+                    "package_id": package_id,
+                    "xml_path": xml_path,
+                    "package_files": package_files,
+                    "xml_assets": [
+                        item
+                        for item in optimised_xml_with_pre.components
+                        if item["component_type"] != "rendition"],
+                },
+            )
 
-            article_assets = []
-            for asset in ArticleAssets(optimised_xml_with_pre.xmltree).article_assets:
-                article_assets.append(
-                    {
-                        "name": asset.name,
-                        "id": asset.id,
-                        "type": asset.type,
-                    }
-                )
-            # considerando que 1 zip tenha 1 artigo
-            break
+            # Aciona validação de Renditions
+            task_validate_renditions.apply_async(
+                kwargs={
+                    "package_id": package_id,
+                    "xml_path": xml_path,
+                    "package_files": package_files,
+                    "xml_renditions": list(optimised_xml_with_pre.renditions),
+                },
+            )
 
-        # Aciona validação de Assets
-        task_validate_assets.apply_async(
-            kwargs={
-                "package_id": package_id,
-                "xml_path": xml_path,
-                "package_files": package_files,
-                "xml_assets": article_assets,
-            },
-        )
+            task_validate_xml_structure.apply_async(
+                kwargs={
+                    "file_path": file_path,
+                    "xml_path": xml_path,
+                    "package_id": package_id,
+                    "journal_id": journal_id,
+                    "issue_id": issue_id,
+                    "article_id": article_id,
+                },
+            )
 
-        # Aciona validação de Renditions
-        task_validate_renditions.apply_async(
-            kwargs={
-                "package_id": package_id,
-                "xml_path": xml_path,
-                "package_files": package_files,
-                "xml_renditions": article_renditions,
-            },
-        )
-
-        task_validate_xml_structure.apply_async(
-            kwargs={
-                "file_path": file_path,
-                "xml_path": xml_path,
-                "package_id": package_id,
-                "journal_id": journal_id,
-                "issue_id": issue_id,
-                "article_id": article_id,
-            },
-        )
-
-        # Aciona validacao do conteudo do XML
-        task_validate_xml_content.apply_async(
-            kwargs={
-                "file_path": file_path,
-                "xml_path": xml_path,
-                "package_id": package_id,
-                "journal_id": journal_id,
-                "issue_id": issue_id,
-                "article_id": article_id,
-            },
-        )
+            # Aciona validacao do conteudo do XML
+            task_validate_xml_content.apply_async(
+                kwargs={
+                    "file_path": file_path,
+                    "xml_path": xml_path,
+                    "package_id": package_id,
+                    "journal_id": journal_id,
+                    "issue_id": issue_id,
+                    "article_id": article_id,
+                },
+            )
 
 
 @celery_app.task(bind=True)
 def task_validate_xml_structure(
     self, file_path, xml_path, package_id, journal_id, issue_id, article_id
 ):
+    # TODO REFATORAR
+    # TODO levar este código para o packtools / XMLWithPre
     package = Package.objects.get(pk=package_id)
     for xml_with_pre in XMLWithPre.create(path=file_path):
         # {'is_valid': True,

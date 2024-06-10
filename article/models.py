@@ -23,7 +23,7 @@ from package.models import SPSPkg
 from researcher.models import Researcher
 
 from . import choices
-from .forms import ArticleForm, RelatedItemForm, RequestArticleChangeForm
+from .forms import ArticleForm, RelatedItemForm, RequestArticleChangeForm, ScheduledArticleModelForm
 from .permission_helper import MAKE_ARTICLE_CHANGE, REQUEST_ARTICLE_CHANGE
 
 User = get_user_model()
@@ -59,6 +59,8 @@ class Article(ClusterableModel, CommonControlField):
         blank=True,
         null=True,
     )
+    position = models.PositiveSmallIntegerField(_("Order"), blank=True, null=True)
+    website_publication_date = models.date
 
     # Page
     elocation_id = models.CharField(
@@ -124,6 +126,13 @@ class Article(ClusterableModel, CommonControlField):
 
     def __str__(self):
         return f"{self.sps_pkg.sps_pkg_name}"
+
+    @property
+    def order(self):
+        try:
+            return int(self.fpage)
+        except (TypeError, ValueError):
+            return self.position
 
     @property
     def data(self):
@@ -213,6 +222,27 @@ class Article(ClusterableModel, CommonControlField):
                 issn_print=xml_with_pre.journal_issn_print,
             ),
         )
+
+    def change_status_to_submitted(self):
+        if self.status in (choices.AS_REQUIRE_UPDATE, choices.AS_REQUIRE_ERRATUM):
+            self.status = choices.AS_CHANGE_SUBMITTED
+            self.save()
+            return True
+        else:
+            return False
+
+
+class ScheduledArticle(Article):
+
+    panels = [
+        FieldPanel("publication_date"),
+    ]
+
+    base_form_class = ScheduledArticleModelForm
+
+    class Meta:
+        proxy = True
+
 
 
 class ArticleAuthor(Orderable, Researcher):
@@ -314,3 +344,19 @@ class RequestArticleChange(CommonControlField):
         return f"{self.article or self.pid_v3} - {self.deadline}"
 
     base_form_class = RequestArticleChangeForm
+
+
+
+
+
+class TOC(CommonControlField, ClusterableModel):
+
+    panels = [
+        InlinePanel("articles", label=_("Articles")),
+    ]
+
+
+class PagelessArticle(CommonControlField, Orderable):
+
+    toc = ParentalKey(TOC, null=True, blank=True, on_delete=models.SET_NULL, related_name="articles")
+    article = models.ForeignKey(Article, null=True, blank=True, on_delete=models.SET_NULL)

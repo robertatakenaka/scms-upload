@@ -13,7 +13,6 @@ from core.models import CommonControlField
 from collection import choices
 
 
-
 class LanguageGetOrCreateError(Exception):
     ...
 

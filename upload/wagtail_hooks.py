@@ -45,10 +45,10 @@ class PackageCreateView(CreateView):
 
         response = receive_package(self.request, package)
 
-        if response.get("error_type") == choices.VE_PACKAGE_FILE_ERROR:
-            # error no arquivo
-            messages.error(self.request, response.get("error"))
-            return HttpResponseRedirect(self.request.META["HTTP_REFERER"])
+        # if response.get("error_type") == choices.VE_PACKAGE_FILE_ERROR:
+        #     # error no arquivo
+        #     messages.error(self.request, response.get("error"))
+        #     return HttpResponseRedirect(self.request.META["HTTP_REFERER"])
 
         if response.get("error"):
             # error
@@ -63,21 +63,12 @@ class PackageCreateView(CreateView):
         # dispara a tarefa que realiza as validações de
         # assets, renditions, XML content etc
 
-        try:
-            journal_id = response["journal"].id
-        except (KeyError, AttributeError):
-            journal_id = None
-        try:
-            issue_id = response["issue"].id
-        except (KeyError, AttributeError):
-            issue_id = None
-
         task_validate_original_zip_file.apply_async(
             kwargs=dict(
                 package_id=package.id,
                 file_path=package.file.path,
-                journal_id=journal_id,
-                issue_id=issue_id,
+                journal_id=response["journal"].id,
+                issue_id=response["issue"].id,
                 article_id=package.article and package.article.id or None,
             )
         )
@@ -136,9 +127,9 @@ class PackageAdminInspectView(InspectView):
             "summary": self.instance.summary,
         }
 
-        optz_file_path, optz_dir = self.get_optimized_package_filepath_and_directory()
-        data["optimized_pkg"] = optz_file_path
-        self.set_pdf_paths(data, optz_dir)
+        # optz_file_path, optz_dir = self.get_optimized_package_filepath_and_directory()
+        # data["optimized_pkg"] = optz_file_path
+        # self.set_pdf_paths(data, optz_dir)
 
         return super().get_context_data(**data)
 

@@ -15,7 +15,10 @@ from wagtail.admin.panels import FieldPanel, InlinePanel
 from wagtailautocomplete.edit_handlers import AutocompletePanel
 
 from article import choices as article_choices
+from article.models import Article
 from core.models import CommonControlField
+from package.models import SPSPkg
+from package import choices as package_choices
 from team.models import CollectionTeamMember
 from upload import choices
 from upload.forms import (
@@ -28,6 +31,21 @@ from upload.permission_helper import ACCESS_ALL_PACKAGES, ASSIGN_PACKAGE, FINISH
 from upload.utils import file_utils
 
 User = get_user_model()
+
+
+class FakeArticleProc:
+    def __init__(self):
+        pass
+
+    def start(
+        cls,
+        user,
+        proc,
+    ):
+        pass
+
+    def update_sps_pkg_status(self):
+        pass
 
 
 def now():
@@ -80,6 +98,12 @@ class Package(CommonControlField, ClusterableModel):
     )
     analyst = models.ForeignKey(
         CollectionTeamMember, blank=True, null=True, on_delete=models.SET_NULL
+    )
+    sps_pkg = models.ForeignKey(
+        SPSPkg,
+        blank=True,
+        null=True,
+        on_delete=models.SET_NULL,
     )
     article = models.ForeignKey(
         "article.Article",
@@ -225,16 +249,6 @@ class Package(CommonControlField, ClusterableModel):
     @property
     def is_published(self):
         return bool(self.article and self.article.status == article_choices.AS_PUBLISHED)
-
-    @property
-    def components(self):
-        # TODO
-        return {}
-
-    @property
-    def texts(self):
-        # TODO
-        return {}
 
     @property
     def package_name(self):
@@ -530,6 +544,44 @@ class Package(CommonControlField, ClusterableModel):
                 content = fp.read()
 
         return {"content": content, "filename": filename, "columns": fieldnames}
+
+    def prepare_publication(self, user):
+        # Aplica-se também para um pacote de atualização de um conteúdo anteriormente migrado
+        # TODO components, texts
+
+        # if self.status in (choices.PS_APPROVED, choices.PS_APPROVED_WITH_ERRORS):
+        if self.status == choices.PS_PREPARE_PUBLICATION:
+
+            for xml_with_pre in XMLWithPre.create(path=self.file.path):
+
+                texts = {
+                    "xml_langs": xml_with_pre.langs,
+                    "pdf_langs": [
+                        rendition["lang"]
+                        for rendition in xml_with_pre.renditions
+                        if rendition in xml_with_pre.filenames
+                    ]
+                }
+                self.sps_pkg = SPSPkg.create_or_update(
+                    user,
+                    sps_pkg_zip_path=self.file.path,
+                    origin=package_choices.PKG_ORIGIN_UPLOAD,
+                    is_public=self.is_public,
+                    original_pkg_components=xml_with_pre.components,
+                    texts=texts,
+                    article_proc=FakeArticleProc(),
+                )
+                if self.sps_pkg.is_complete:
+                    self.status = choices.PS_READY_TO_PUBLISH
+                    self.save()
+
+                if self.sps_pkg.pid_v3:
+                    self.article = Article.create_or_update(user, self.sps_pkg)
+                    self.article.journal = self.journal
+                    self.article.issue = self.issue
+                    if self.status == choices.PS_READY_TO_PUBLISH:
+                        self.article.status = article_choices.AS_READ_TO_PUBLISH
+                    self.article.save()
 
 
 class QAPackage(Package):

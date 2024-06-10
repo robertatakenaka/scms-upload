@@ -114,10 +114,6 @@ def validate_xml_content(sps_pkg_name, xmltree, journal, issue):
 
     for validation_group, f in validation_group_and_function_items:
         for item in f(sps_pkg_name, xmltree, data):
-            error_category = None
-            if item.get("validation_type") in ("value in list", "value", "match"):
-                error_category = choices.VE_DATA_CONSISTENCY_ERROR
-            item["error_category"] = item.get("error_category") or error_category
             item["group"] = validation_group
             yield item
 

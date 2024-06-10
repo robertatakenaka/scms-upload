@@ -1,5 +1,6 @@
 import logging
 
+from django.conf import settings
 from django.db import models, IntegrityError
 from django.db.models import Q
 from django.utils.translation import gettext_lazy as _
@@ -160,3 +161,56 @@ class Issue(CommonControlField, IssuePublicationDate):
                 user,
                 journal, volume, supplement, number, publication_year
             )
+
+    @staticmethod
+    def exists(journal, volume, suppl, number, user):
+        if not any((volume, number)):
+            return
+        try:
+            return Issue.get(
+                journal=journal,
+                volume=volume,
+                supplement=supplement,
+                number=number,
+            )
+        except Issue.DoesNotExist:
+            return Issue.fetch_and_create_issue(journal, volume, suppl, number, user)
+
+    @staticmethod
+    def fetch_and_create_issue(journal, volume, suppl, number, user):
+        if journal and any((volume, number)):
+            issn_print = journal.official_journal.issn_print
+            issn_electronic = journal.official_journal.issn_electronic
+            try:
+                response = fetch_data(
+                    url=settings.ISSUE_API_URL,
+                    params={
+                        "issn_print": issn_print,
+                        "issn_electronic": issn_electronic,
+                        "number": number,
+                        "supplement": suppl,
+                        "volume": volume,
+                    },
+                    json=True,
+                )
+
+            except Exception as e:
+                logging.exception(e)
+                return
+
+            for issue in response.get("results"):
+                official_journal = OfficialJournal.get(
+                    issn_electronic=issue["issn_electronic"],
+                    issn_print=issue["issn_print"],
+                    issnl=issue["issn_issnl"],
+                )
+                journal = Journal.get(official_journal=official_journal)
+                issue = Issue.get_or_create(
+                    journal=journal,
+                    volume=issue["volume"],
+                    supplement=issue["supplement"],
+                    number=issue["number"],
+                    publication_year=issue["year"],
+                    user=user,
+                )
+                return issue

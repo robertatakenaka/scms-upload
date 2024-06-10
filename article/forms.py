@@ -39,3 +39,18 @@ class RequestArticleChangeForm(WagtailAdminModelForm):
         self.save()
 
         return request_article_change
+
+
+class ScheduledArticleModelForm(WagtailAdminModelForm):
+
+    def save_all(self, user):
+        article = super().save(commit=False)
+
+        if self.instance.pk is not None:
+            article.updated_by = user
+        else:
+            article.creator = user
+
+        self.save()
+
+        return article
