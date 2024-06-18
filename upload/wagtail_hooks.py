@@ -11,127 +11,28 @@ from wagtail.contrib.modeladmin.options import (
     ModelAdminGroup,
     modeladmin_register,
 )
-from wagtail.contrib.modeladmin.views import CreateView, InspectView
 
-from article.models import Article
 from config.menu import get_menu_order
-from issue.models import Issue
-from upload.tasks import task_validate_original_zip_file
-from upload.utils import file_utils
-from upload.utils.xml_utils import XMLFormatError
-from upload.views import XMLErrorReportEditView, QAPackageEditView
+from upload.views import (
+    PackageAdminInspectView,
+    PackageCreateView,
+    QAPackageEditView,
+    XMLErrorReportEditView,
+)
 
 from .button_helper import UploadButtonHelper
-from .controller import receive_package
 from .models import (
     Package,
+    PkgValidationResult,
     QAPackage,
+    ValidationReport,
     XMLError,
     XMLErrorReport,
     XMLInfo,
     XMLInfoReport,
-    ValidationReport,
-    PkgValidationResult,
     choices,
 )
 from .permission_helper import UploadPermissionHelper
-from .utils import package_utils
-
-
-class PackageCreateView(CreateView):
-    def form_valid(self, form):
-
-        package = form.save_all(self.request.user)
-
-        response = receive_package(self.request, package)
-
-        # if response.get("error_type") == choices.VE_PACKAGE_FILE_ERROR:
-        #     # error no arquivo
-        #     messages.error(self.request, response.get("error"))
-        #     return HttpResponseRedirect(self.request.META["HTTP_REFERER"])
-
-        if response.get("error"):
-            # error
-            messages.error(self.request, response.get("error"))
-            return redirect(f"/admin/upload/package/inspect/{package.id}")
-
-        messages.success(
-            self.request,
-            _("Package has been successfully submitted and will be analyzed"),
-        )
-
-        # dispara a tarefa que realiza as validações de
-        # assets, renditions, XML content etc
-
-        task_validate_original_zip_file.apply_async(
-            kwargs=dict(
-                package_id=package.id,
-                file_path=package.file.path,
-                journal_id=response["journal"].id,
-                issue_id=response["issue"].id,
-                article_id=package.article and package.article.id or None,
-            )
-        )
-        return HttpResponseRedirect(self.get_success_url())
-
-
-class PackageAdminInspectView(InspectView):
-    def get_optimized_package_filepath_and_directory(self):
-        # Obtém caminho do pacote otimizado
-        _path = package_utils.generate_filepath_with_new_extension(
-            self.instance.file.name,
-            ".optz",
-            True,
-        )
-
-        # Obtém diretório em que o pacote otimizado foi extraído
-        _directory = file_utils.get_file_url(
-            dirname="", filename=file_utils.get_filename_from_filepath(_path)
-        )
-
-        return _path, _directory
-
-    def set_pdf_paths(self, data, optz_dir):
-        try:
-            for rendition in package_utils.get_article_renditions_from_zipped_xml(
-                self.instance.file.name
-            ):
-                package_files = file_utils.get_file_list_from_zip(
-                    self.instance.file.name
-                )
-                document_name = package_utils.get_xml_filename(package_files)
-                rendition_name = package_utils.get_rendition_expected_name(
-                    rendition, document_name
-                )
-                data["pdfs"].append(
-                    {
-                        "base_uri": file_utils.os.path.join(optz_dir, rendition_name),
-                        "language": rendition.language,
-                    }
-                )
-        except XMLFormatError:
-            data["pdfs"] = []
-
-    def get_context_data(self):
-        data = {
-            "validation_results": {},
-            "package_id": self.instance.id,
-            "original_pkg": self.instance.file.name,
-            "status": self.instance.status,
-            "category": self.instance.category,
-            "languages": package_utils.get_languages(self.instance.file.name),
-            "pdfs": [],
-            "reports": list(self.instance.reports),
-            "xml_error_reports": list(self.instance.xml_error_reports),
-            "xml_info_reports": list(self.instance.xml_info_reports),
-            "summary": self.instance.summary,
-        }
-
-        # optz_file_path, optz_dir = self.get_optimized_package_filepath_and_directory()
-        # data["optimized_pkg"] = optz_file_path
-        # self.set_pdf_paths(data, optz_dir)
-
-        return super().get_context_data(**data)
 
 
 class PackageAdmin(ModelAdmin):
@@ -237,7 +138,7 @@ class QualityAnalysisPackageAdmin(ModelAdmin):
                 status__in=[
                     choices.PS_PENDING_QA_DECISION,
                     choices.PS_VALIDATED_WITH_ERRORS,
-                    choices.PS_APPROVED_WITH_ERRORS,
+                    # choices.PS_APPROVED_WITH_ERRORS,
                     choices.PS_REJECTED,
                 ]
             )

@@ -6,12 +6,12 @@ from publication.api.publication import PublicationAPI
 from publication.utils.issue import build_issue
 
 
-def publish_issue(user, issue_proc, api_data):
+def publish_issue(issue, issue_pid, issue_order, api_data):
     data = {}
     builder = IssuePayload(data)
-    build_issue(issue_proc, issue_proc.journal_proc.pid, builder)
+    build_issue(issue, builder, issue_pid, issue_order)
     api = PublicationAPI(**api_data)
-    return api.post_data(data, {"journal_id": issue_proc.journal_proc.pid})
+    return api.post_data(data, {"journal_id": issue.journal.scielo_issn})
 
 
 class IssuePayload:

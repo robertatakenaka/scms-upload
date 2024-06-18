@@ -2,7 +2,7 @@ import os
 from datetime import datetime
 
 from django.contrib.auth import get_user_model
-from django.db import models
+from django.db import models, IntegrityError
 from django.utils.translation import gettext as _
 from wagtail.admin.panels import FieldPanel
 from wagtail.fields import RichTextField
@@ -55,56 +55,52 @@ class CommonControlField(models.Model):
         abstract = True
 
 
-class RichTextWithLang(models.Model):
-    text = RichTextField(null=False, blank=False)
+class TextModel(CommonControlField):
+    plain_text = models.TextField(_("Text"), null=False, blank=False)
     language = models.ForeignKey("collection.Language", null=True, blank=True, on_delete=models.SET_NULL)
 
     panels = [FieldPanel("text"), FieldPanel("language")]
 
-    class Meta:
-        abstract = True
+    @classmethod
+    def get(cls, parent, language):
+        return cls.objects.get(parent=parent, language=language)
+
+    @classmethod
+    def create(cls, user, parent, language, **kwargs):
+        try:
+            obj = cls(creator=user, parent=parent, language=language, **kwargs)
+            obj.save()
+            return obj
+        except IntegrityError as e:
+            return cls.get(parent=parent, language=language)
+
+    @classmethod
+    def create_or_update(cls, user, parent, language=None, lang_code2=None, **kwargs):
+        if not lang_code2 and not language:
+            data = {
+                "parent": str(parent),
+            }
+            data.update(kwargs)
+            raise ValueError(f"{str(type(cls))}.create_or_update requires language or lang_code2 {data}")
+        language = language or Language.get_or_create(code2=lang_code2, creator=user)
+
+        try:
+            obj = cls.get(parent=parent, language=language)
+            for name, value in kwargs.items():
+                try:
+                    obj.setattr(name, value)
+                except AttributeError:
+                    pass
+            obj.save()
+            return obj
+        except cls.DoesNotExist:
+            return cls.create(user, parent, language, **kwargs)
 
 
-class TextWithLangAndValidity(models.Model):
-    text = models.TextField(_("Text"), null=False, blank=False)
-    language = models.ForeignKey("collection.Language", null=True, blank=True, on_delete=models.SET_NULL)
-    initial_date = models.DateField(null=True, blank=True)
-    final_date = models.DateField(null=True, blank=True)
+class HTMLTextModel(TextModel):
+    html_text = RichTextField(null=False, blank=False)
 
-    panels = [
-        FieldPanel("text"),
-        FieldPanel("language"),
-        FieldPanel("initial_date"),
-        FieldPanel("final_date"),
-    ]
-
-    class Meta:
-        abstract = True
-
-
-class RichTextWithLangAndValidity(RichTextWithLang):
-    initial_date = models.DateField(null=True, blank=True)
-    final_date = models.DateField(null=True, blank=True)
-
-    panels = [
-        FieldPanel("text"),
-        FieldPanel("language"),
-        FieldPanel("initial_date"),
-        FieldPanel("final_date"),
-    ]
-
-    class Meta:
-        abstract = True
-
-
-class TextWithLang(models.Model):
-    text = models.TextField(_("Text"), null=False, blank=False)
-    language = models.ForeignKey("collection.Language", null=True, blank=True, on_delete=models.SET_NULL)
-
-    panels = [FieldPanel("text"), FieldPanel("language")]
-
-    class Meta:
-        abstract = True
+    panels = [FieldPanel("html_text"), FieldPanel("plain_text"), FieldPanel("language")]
 
 
 class PublicationMonthModel(models.Model):

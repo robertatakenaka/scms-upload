@@ -36,12 +36,18 @@ from django.utils.translation import gettext as _
 8.2. PS_REQUIRED_UPDATE --> 11
 
 # SYSTEM / CONFIGURAÇÃO DO FLUXO
-9. PS_PREPARE_PUBLICATION --> 4
+9.1 PS_READY_TO_QA_WEBSITE --> 12
+9.2 PS_APPROVED_WITH_ERRORS --> 9
+9.3 PS_APPROVED --> 9
+
+10. produtor de XML terá que corrigir e re-submeter
 
 # EDITOR | ?
 11.1. ASSIGN XML PRODUCTOR --> 10
 
-10. produtor de XML terá que corrigir e re-submeter
+# EDITOR | ?
+12.1. ASSIGN XML PRODUCTOR --> 10
+
 """
 PS_SUBMITTED = "submitted"
 PS_ENQUEUED_FOR_VALIDATION = "enqueued-for-validation"
@@ -52,8 +58,9 @@ PS_PENDING_DEPOSIT = "pending-deposit"
 PS_PENDING_QA_DECISION = "pending-qa-decision"
 PS_REJECTED = "rejected"
 PS_APPROVED = "approved"
-
+PS_PREPARE_SPSPKG = "prepare-sps-pkg"
 PS_PREPARE_PUBLICATION = "prepare-publication"
+PS_READY_TO_QA_WEBSITE = "ready-to-qa"
 PS_READY_TO_PUBLISH = "ready-to-publish"
 PS_SCHEDULED_PUBLICATION = "scheduled-publication"
 PS_PUBLISHED = "published"
@@ -72,14 +79,15 @@ PACKAGE_STATUS = (
     (PS_PENDING_CORRECTION, _("Pending for correction")),
     (PS_REJECTED, _("Rejected")),
     (PS_APPROVED, _("Approved")),
-    (PS_PREPARE_PUBLICATION, _("Preparing publication")),
+    (PS_PREPARE_SPSPKG, _("Optimizing package"))
+    (PS_PREPARE_PUBLICATION, _("Prepare publication"))
+    (PS_READY_TO_QA_WEBSITE, _("Ready to QA website")),
     (PS_READY_TO_PUBLISH, _("Ready to publish")),
     (PS_SCHEDULED_PUBLICATION, _("Scheduled publication")),
     (PS_PUBLISHED, _("Published")),
 )
 
 QA_DECISION = (
-    (PS_APPROVED_WITH_ERRORS, _("Approved with errors")),
     (PS_PENDING_CORRECTION, _("Pending for correction")),
     (PS_REJECTED, _("Rejected")),
     (PS_APPROVED, _("Approved")),

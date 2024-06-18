@@ -7,12 +7,12 @@ from publication.api.publication import PublicationAPI
 from publication.utils.document import build_article
 
 
-def publish_article(user, article_proc, api_data):
+def publish_article(article, scielo_issn, api_parameters):
     data = {}
     builder = ArticlePayload(data)
-    build_article(article_proc.article, article_proc.journal_proc, builder)
+    build_article(article, scielo_issn, builder)
 
-    api = PublicationAPI(**api_data)
+    api = PublicationAPI(**api_parameters)
     kwargs = dict(
         article_id=data.get("_id"),
         issue_id=data.get("issue_id"),

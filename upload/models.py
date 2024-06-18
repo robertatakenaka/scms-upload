@@ -13,6 +13,7 @@ from modelcluster.fields import ParentalKey
 from modelcluster.models import ClusterableModel
 from wagtail.admin.panels import FieldPanel, InlinePanel
 from wagtailautocomplete.edit_handlers import AutocompletePanel
+from packtools.sps.pid_provider.xml_sps_lib import XMLWithPre
 
 from article import choices as article_choices
 from article.models import Article
@@ -31,21 +32,6 @@ from upload.permission_helper import ACCESS_ALL_PACKAGES, ASSIGN_PACKAGE, FINISH
 from upload.utils import file_utils
 
 User = get_user_model()
-
-
-class FakeArticleProc:
-    def __init__(self):
-        pass
-
-    def start(
-        cls,
-        user,
-        proc,
-    ):
-        pass
-
-    def update_sps_pkg_status(self):
-        pass
 
 
 def now():
@@ -117,6 +103,7 @@ class Package(CommonControlField, ClusterableModel):
     issue = models.ForeignKey(
         "issue.Issue", blank=True, null=True, on_delete=models.SET_NULL
     )
+
     assignee = models.ForeignKey(User, blank=True, null=True, on_delete=models.SET_NULL)
     expiration_date = models.DateField(_("Expiration date"), null=True, blank=True)
 
@@ -545,12 +532,13 @@ class Package(CommonControlField, ClusterableModel):
 
         return {"content": content, "filename": filename, "columns": fieldnames}
 
-    def prepare_publication(self, user):
+    def prepare_sps_package(self, user):
         # Aplica-se também para um pacote de atualização de um conteúdo anteriormente migrado
         # TODO components, texts
 
-        # if self.status in (choices.PS_APPROVED, choices.PS_APPROVED_WITH_ERRORS):
-        if self.status == choices.PS_PREPARE_PUBLICATION:
+        if self.status == choices.PS_APPROVED:
+            self.status = choices.PS_PREPARE_SPSPKG
+            self.save()
 
             for xml_with_pre in XMLWithPre.create(path=self.file.path):
 
@@ -569,19 +557,29 @@ class Package(CommonControlField, ClusterableModel):
                     is_public=self.is_public,
                     original_pkg_components=xml_with_pre.components,
                     texts=texts,
-                    article_proc=FakeArticleProc(),
+                    article_proc=self,
                 )
-                if self.sps_pkg.is_complete:
-                    self.status = choices.PS_READY_TO_PUBLISH
-                    self.save()
 
-                if self.sps_pkg.pid_v3:
-                    self.article = Article.create_or_update(user, self.sps_pkg)
-                    self.article.journal = self.journal
-                    self.article.issue = self.issue
-                    if self.status == choices.PS_READY_TO_PUBLISH:
-                        self.article.status = article_choices.AS_READ_TO_PUBLISH
-                    self.article.save()
+    def start(
+        cls,
+        user,
+        proc,
+    ):
+        pass
+
+    def update_sps_pkg_status(self):
+        if self.sps_pkg.xml_uri:
+            # conseguiu registrar no minio
+            user = self.updated_by or self.creator
+            self.article = Article.create_or_update(user, self.sps_pkg, self.issue, self.journal)
+            self.article.prepare_publication(user)
+            # TODO melhora a atribuição do status
+            self.status = choices.PS_PREPARE_PUBLICATION
+            self.save()
+        else:
+            # TODO melhora a atribuição do status
+            self.status = choices.PS_APPROVED_WITH_ERRORS
+            self.save()
 
 
 class QAPackage(Package):
@@ -663,7 +661,6 @@ class BaseValidationResult(CommonControlField):
         val_res.message = message
         val_res.data = data
         val_res.creator = creator
-
         val_res.save()
         return val_res
 

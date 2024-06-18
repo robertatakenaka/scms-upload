@@ -7,10 +7,20 @@ from django.utils.translation import gettext_lazy as _
 from wagtail.admin.panels import FieldPanel
 from wagtailautocomplete.edit_handlers import AutocompletePanel
 
+from core.utils.requester import fetch_data
 from core.models import CommonControlField, IssuePublicationDate
+from collection.models import WebsitePublication
 from journal.models import Journal
 
 from .forms import IssueForm
+
+
+def _get_digits(value):
+    d = "".join([c for c in value if c.isdigit()])
+    try:
+        return int(d)
+    except ValueError:
+        return 0
 
 
 class IssueGetOrCreateError(Exception):
@@ -47,6 +57,7 @@ class Issue(CommonControlField, IssuePublicationDate):
     number = models.CharField(_("Number"), max_length=16, null=True, blank=True)
     supplement = models.CharField(_("Supplement"), max_length=16, null=True, blank=True)
     publication_year = models.CharField(_("Year"), max_length=4, null=True, blank=True)
+    grid_position = models.PositiveSmallIntegerField(null=True, blank=True, help_text=_("This number controls the order issues appear for a specific year on the website grid"))
 
     @property
     def data(self):
@@ -59,6 +70,40 @@ class Issue(CommonControlField, IssuePublicationDate):
             created=self.created.isoformat(),
             updated=self.updated.isoformat(),
         )
+
+    @property
+    def issue_label(self):
+        items = []
+        if self.volume is not None:
+            items.append(f"v{self.volume}")
+        if self.number is not None:
+            items.append(f"n{self.number}")
+        if self.supplement is not None:
+            items.append(f"s{self.supplement}")
+        return "".join(items)
+
+    def generate_order(self, suppl_start=300, spe_start=200):
+        if self.supplement is not None:
+            try:
+                suppl = int(self.suppl)
+            except (ValueError, TypeError):
+                suppl = _get_digits(self.supplement)
+            return suppl_start + suppl
+
+        number = self.number
+        spe = None
+        if "spe" in number:
+            parts = number.split("spe")
+            spe = int(parts[-1] or 0)
+            return spe_start + spe
+        elif number == "ahead":
+            return 9999
+
+        try:
+            number = int(number)
+        except (ValueError, TypeError):
+            number = _get_digits(number)
+        return number or 1
 
     @staticmethod
     def autocomplete_custom_queryset_filter(search_term):
@@ -86,6 +131,7 @@ class Issue(CommonControlField, IssuePublicationDate):
         FieldPanel("volume"),
         FieldPanel("number"),
         FieldPanel("supplement"),
+        FieldPanel("grid_position"),
     ]
 
     base_form_class = IssueForm
@@ -129,6 +175,7 @@ class Issue(CommonControlField, IssuePublicationDate):
             obj.supplement = supplement
             obj.number = number
             obj.publication_year = publication_year
+            obj.grid_position = self.generate_order()
             obj.creator = user
             obj.save()
             return obj
@@ -213,4 +260,5 @@ class Issue(CommonControlField, IssuePublicationDate):
                     publication_year=issue["year"],
                     user=user,
                 )
+                # TODO dados das coleções pid
                 return issue

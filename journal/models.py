@@ -13,9 +13,9 @@ from wagtailautocomplete.edit_handlers import AutocompletePanel
 from collection.models import Collection
 from core.choices import MONTHS
 from core.forms import CoreAdminModelForm
-from core.models import CommonControlField, RichTextWithLang
+from core.models import CommonControlField, HTMLText
+from core.utils.requester import fetch_data
 from institution.models import InstitutionHistory
-
 from . import choices
 from .forms import OfficialJournalForm
 from . exceptions import MissionCreateOrUpdateError, MissionGetError, SubjectCreationOrUpdateError
@@ -150,6 +150,7 @@ class Journal(CommonControlField, ClusterableModel):
         verbose_name=_("Study Areas"),
         blank=True,
     )
+
     def __unicode__(self):
         return self.title or self.short_title or str(self.official_journal)
 
@@ -273,6 +274,7 @@ class Journal(CommonControlField, ClusterableModel):
                 title=journal.get("title"),
                 short_title=journal.get("short_title"),
             )
+            # TODO journal collection events, dados das coleções (acron, pid, ...)
             return journal
 
     @classmethod
@@ -316,7 +318,7 @@ class Journal(CommonControlField, ClusterableModel):
     @property
     def max_error_percentage_accepted(self):
         values = []
-        for collection in JournalHistory.journal_collections(journal=self):
+        for collection in self.journal_collections:
             values.append(collection.max_error_percentage_accepted)
         # obtém o valor mais rígido se participa de mais de 1 coleção
         return min(values) or 0
@@ -324,7 +326,7 @@ class Journal(CommonControlField, ClusterableModel):
     @property
     def max_absent_data_percentage_accepted(self):
         values = []
-        for collection in JournalHistory.journal_collections(journal=self):
+        for collection in self.journal_collections:
             values.append(collection.max_absent_data_percentage_accepted)
         # obtém o valor mais rígido se participa de mais de 1 coleção
         return min(values) or 0
@@ -342,7 +344,7 @@ class Sponsor(Orderable, InstitutionHistory):
     journal = ParentalKey(Journal, related_name="sponsor", null=True, blank=True, on_delete=models.SET_NULL)
 
 
-class Mission(Orderable, RichTextWithLang, CommonControlField):
+class Mission(Orderable, HTMLText, CommonControlField):
     journal = ParentalKey(
         Journal, on_delete=models.SET_NULL, related_name="mission", null=True
     )
@@ -402,24 +404,21 @@ class Mission(Orderable, RichTextWithLang, CommonControlField):
             raise MissionCreateOrUpdateError(
                 _("Unable to create or update journal {}").format(e)
             )
-        obj.text = mission_text or obj.text
+        obj.html_text = mission_html_text or obj.html_text
+        obj.plain_text = mission_plain_text or obj.plain_text
         obj.language = language or obj.language
         obj.journal = journal or obj.journal
         obj.save()
         return obj
 
-    @property
-    def collections(self):
-        return JournalHistory.journal_collections(journal=self)
 
-
-class JournalHistory(CommonControlField, Orderable):
+class JournalCollection(CommonControlField):
     journal = ParentalKey(
         Journal,
         on_delete=models.SET_NULL,
         null=True,
         blank=True,
-        related_name="journal_history",
+        related_name="journal_collections",
     )
     collection = models.ForeignKey(
         Collection,
@@ -427,6 +426,23 @@ class JournalHistory(CommonControlField, Orderable):
         blank=True,
         on_delete=models.SET_NULL,
     )
+    pid = models.CharField(_("Journal PID"), null=True, blank=True, max_length=9)
+    journal_acron = models.CharField(_("Journal acron"), null=True, blank=True, max_length=16)
+    website_publication_date = models.DateTimeField(
+        blank=True,
+        null=True,
+    )
+
+
+class JournalCollectionEvent(CommonControlField):
+    journal_collection = ParentalKey(
+        JournalCollection,
+        on_delete=models.SET_NULL,
+        null=True,
+        blank=True,
+        related_name="journal_events",
+    )
+
     year = models.CharField(_("Event year"), max_length=4, null=True, blank=True)
     month = models.CharField(
         _("Event month"),
@@ -465,7 +481,8 @@ class JournalHistory(CommonControlField, Orderable):
     class Meta:
         verbose_name = _("Event")
         verbose_name_plural = _("Events")
-        unique_together = ("journal", "collection", "event_type", "year", "month", "day")
+        unique_together = ("journal_collection", "event_type", "year", "month", "day")
+        ordering = ("journal_collection", "-year", "-month", "-day")
         indexes = [
             models.Index(
                 fields=[
@@ -475,10 +492,9 @@ class JournalHistory(CommonControlField, Orderable):
         ]
 
     @classmethod
-    def get(cls, journal, collection, event_type, year, month, day, interruption_reason=None):
+    def get(cls, journal_collection, event_type, year, month, day, interruption_reason=None):
         return cls.objects.get(
-            journal=journal,
-            collection=collection,
+            journal_collection=journal_collection,
             event_type=event_type,
             year=year,
             month=month,
@@ -486,11 +502,10 @@ class JournalHistory(CommonControlField, Orderable):
         )
 
     @classmethod
-    def create(cls, user, journal, collection, event_type, year, month, day, interruption_reason=None):
+    def create(cls, user, journal_collection, event_type, year, month, day, interruption_reason=None):
         try:
             obj = cls()
-            obj.journal = journal
-            obj.collection = collection
+            obj.journal_collection = journal_collection
             obj.event_type = event_type
             obj.year = year
             obj.month = month
@@ -500,25 +515,20 @@ class JournalHistory(CommonControlField, Orderable):
             obj.save()
             return obj
         except IntegrityError:
-            return cls.get(journal, collection, event_type, year, month, day)
+            return cls.get(journal_collection, event_type, year, month, day)
 
     @classmethod
-    def create_or_update(cls, user, journal, collection, event_type, year, month, day, interruption_reason=None):
+    def create_or_update(cls, user, journal_collection, event_type, year, month, day, interruption_reason=None):
         try:
-            obj = cls.get(journal, collection, event_type, year, month, day)
+            obj = cls.get(journal_collection, event_type, year, month, day)
             obj.interruption_reason = interruption_reason
             obj.creator = obj.creator or user
             obj.updated_by = obj.updated_by or user
             obj.save()
         except cls.DoesNotExist:
             return cls.create(
-                user, journal, collection, event_type, year, month, day, interruption_reason
+                user, journal_collection, event_type, year, month, day, interruption_reason
             )
-
-    @staticmethod
-    def journal_collections(journal):
-        for item in JournalHistory.objects.filter(journal=journal).iterator():
-            yield item.collection
 
     @property
     def data(self):
@@ -546,57 +556,6 @@ class JournalHistory(CommonControlField, Orderable):
 
     def __str__(self):
         return f"{self.event_type} {self.interruption_reason} {self.year}/{self.month}/{self.day}"
-
-    @classmethod
-    def am_to_core(
-        cls,
-        scielo_journal,
-        initial_year,
-        initial_month,
-        initial_day,
-        final_year,
-        final_month,
-        final_day,
-        event_type,
-        interruption_reason,
-    ):
-        """
-        Funcao para API article meta.
-        Atualiza o Type Event de JournalHistory.
-        """
-        try:
-            obj = cls.objects.get(
-                scielo_journal=scielo_journal,
-                year=initial_year,
-                month=initial_month,
-                day=initial_day,
-            )
-        except cls.DoesNotExist:
-            obj = cls()
-            obj.scielo_journal = scielo_journal
-            obj.year = initial_year
-            obj.month = initial_month
-            obj.day = initial_day
-        obj.event_type = "ADMITTED"
-        obj.save()
-
-        if final_year and event_type:
-            try:
-                obj = cls.objects.get(
-                    scielo_journal=scielo_journal,
-                    year=final_year,
-                    month=final_month,
-                    day=final_day,
-                )
-            except cls.DoesNotExist:
-                obj = cls()
-                obj.scielo_journal = scielo_journal
-                obj.year = final_year
-                obj.month = final_month
-                obj.day = final_day
-            obj.event_type = "INTERRUPTED"
-            obj.interruption_reason = reasons.get(interruption_reason)
-            obj.save()
 
 
 class Subject(CommonControlField):

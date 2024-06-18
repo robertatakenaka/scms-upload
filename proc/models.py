@@ -644,10 +644,10 @@ class BaseProc(CommonControlField):
         # seleciona itens para publicar em produção
         return items.iterator()
 
-    def publish(self, user, callable_publish, website_kind, api_data):
+    def publish(self, user, callable_publish, website_kind, api_parameters):
         operation = self.start(user, f"publication on {website_kind}")
-        response = callable_publish(user, self, api_data)
-        logging.info(f"Publish response: {response}")
+        response = callable_publish(self, api_parameters)
+        logging.info(f"Publishing {self} - response: {response}")
         completed = bool(response.get("result") == "OK")
         if completed:
             self.update_publication_stage()
@@ -798,6 +798,15 @@ class JournalProc(BaseProc, ClusterableModel):
     @property
     def max_absent_data_percentage_accepted(self):
         return self.collection.max_absent_data_percentage_accepted
+
+    def publish(self, user, callable_publish, website_kind, api_parameters):
+        operation = self.start(user, f"publication on {website_kind}")
+        response = callable_publish(self, self.journal_acron, self.scielo_issn, api_parameters)
+        logging.info(f"Publishing {self} - response: {response}")
+        completed = bool(response.get("result") == "OK")
+        if completed:
+            self.update_publication_stage()
+        operation.finish(user, completed=completed, detail=response)
 
 
 ################################################
@@ -1108,6 +1117,15 @@ class IssueProc(BaseProc, ClusterableModel):
         return self.issue_files.filter(
             Q(original_name=basename) | Q(original_name__startswith=name + ".")
         ).iterator()
+
+    def publish(self, user, callable_publish, website_kind, api_parameters):
+        operation = self.start(user, f"publication on {website_kind}")
+        response = callable_publish(self.issue, self.pid, self.pid[-4:], api_parameters)
+        logging.info(f"Publishing {self} - response: {response}")
+        completed = bool(response.get("result") == "OK")
+        if completed:
+            self.update_publication_stage()
+        operation.finish(user, completed=completed, detail=response)
 
 
 class ArticleEventCreateError(Exception):
@@ -1650,3 +1668,12 @@ class ArticleProc(BaseProc, ClusterableModel):
                     xml_file_path, type(e), e
                 )
             )
+
+    def publish(self, user, callable_publish, website_kind, api_parameters):
+        operation = self.start(user, f"publication on {website_kind}")
+        response = callable_publish(self.article, self.journal_proc.pid, api_parameters)
+        logging.info(f"Publishing {self} - response: {response}")
+        completed = bool(response.get("result") == "OK")
+        if completed:
+            self.update_publication_stage()
+        operation.finish(user, completed=completed, detail=response)

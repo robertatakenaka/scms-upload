@@ -27,6 +27,7 @@ from journal.models import Journal
 from libs.dsm.publication.documents import get_document, get_similar_documents
 from tracker.models import UnexpectedEvent
 from upload.models import Package, ValidationReport
+from upload import choices
 
 from . import choices, controller, exceptions
 from .utils import file_utils, package_utils, xml_utils
@@ -161,6 +162,8 @@ def task_validate_assets(package_id, xml_path, package_files, xml_assets):
     # necessário verificar se todas tarefas finalizaram e
     # então finalizar o pacote
     package.finish_validations()
+    task_prepare_sps_package.apply_async(
+        kwargs=dict(package_id=package.id, package_status=package.status))
 
 
 @celery_app.task()
@@ -197,6 +200,8 @@ def task_validate_renditions(package_id, xml_path, package_files, xml_renditions
     # necessário verificar se todas tarefas finalizaram e
     # então finalizar o pacote
     package.finish_validations()
+    task_prepare_sps_package.apply_async(
+        kwargs=dict(package_id=package.id, package_status=package.status))
 
 
 @celery_app.task(bind=True)
@@ -324,6 +329,8 @@ def task_validate_xml_structure(
         # necessário verificar se todas tarefas finalizaram e
         # então finalizar o pacote
         package.finish_validations()
+        task_prepare_sps_package.apply_async(
+            kwargs=dict(package_id=package.id, package_status=package.status))
 
 
 @celery_app.task(bind=True)
@@ -354,3 +361,12 @@ def task_validate_xml_content(
                 "detail": dict(file_path=file_path, xml_path=xml_path),
             },
         )
+
+
+celery_app.task(bind=True)
+def task_prepare_sps_package(
+    self, package_id, package_status,
+):
+    package = Package.objects.get(pk=package_id)
+    user = package.updated_by or package.creator
+    return package.prepare_publication(user)

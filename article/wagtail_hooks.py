@@ -9,106 +9,24 @@ from wagtail.contrib.modeladmin.options import (
     ModelAdminGroup,
     modeladmin_register,
 )
-from wagtail.contrib.modeladmin.views import CreateView, InspectView
 
 from config.menu import get_menu_order
 
+from article.views import (
+    ArticleCreateView,
+    ArticleAdminInspectView,
+    RequestArticleChangeCreateView,
+    RelatedItemCreateView,
+    ApprovedArticleEditView,
+    TOCEditView,
+)
 from .button_helper import ArticleButtonHelper, RequestArticleChangeButtonHelper
-from .models import Article, RelatedItem, RequestArticleChange, choices
+from .models import Article, RelatedItem, RequestArticleChange, choices, ApprovedArticle, TOC
 from .permission_helper import ArticlePermissionHelper
 
 # from upload import exceptions as upload_exceptions
 # from upload.models import Package
 # from upload.tasks import get_or_create_package
-
-
-class ArticleCreateView(CreateView):
-    def form_valid(self, form):
-        self.object = form.save_all(self.request.user)
-        return HttpResponseRedirect(self.get_success_url())
-
-
-class RelatedItemCreateView(CreateView):
-    def form_valid(self, form):
-        self.object = form.save_all(self.request.user)
-        return HttpResponseRedirect(self.get_success_url())
-
-
-class RequestArticleChangeCreateView(CreateView):
-    def get_instance(self):
-        change_request_obj = super().get_instance()
-
-        article_id = self.request.GET.get("article_id")
-        if article_id:
-            article = Article.objects.get(pk=article_id)
-
-            if article:
-                change_request_obj.pid_v3 = article.pid_v3
-
-        return change_request_obj
-
-    # # FIXME
-    # def form_valid(self, form):
-    #     pid_v3 = self.request.POST['pid_v3']
-
-    #     try:
-    #         package_id = get_or_create_package(
-    #             pid_v3=pid_v3,
-    #             user_id=self.request.user.id
-    #         )
-    #     except upload_exceptions.XMLUriIsUnavailableError as e:
-    #         messages.error(
-    #             self.request,
-    #             _('It was not possible to submit the request. XML Uri is unavailable: %s.') % e.uri,
-    #         )
-    #         return redirect(self.request.META.get('HTTP_REFERER'))
-    #     except upload_exceptions.PIDv3DoesNotExistInSiteDatabase:
-    #         messages.error(
-    #             self.request,
-    #             _('It was not possible to submit the request. PIDv3 does not exist in the site database.'),
-    #         )
-    #         return redirect(self.request.META.get('HTTP_REFERER'))
-    #     except upload_exceptions.SiteDatabaseIsUnavailableError:
-    #         messages.error(
-    #             self.request,
-    #             _('It was not possible to submit the request. Site database is unavailable.'),
-    #         )
-    #         return redirect(self.request.META.get('HTTP_REFERER'))
-
-    #     article = Package.objects.get(pk=package_id).article
-
-    #     change_request_obj = form.save_all(self.request.user, article)
-
-    #     if change_request_obj.change_type == choices.RCT_ERRATUM:
-    #         article.status =  choices.AS_REQUIRE_ERRATUM
-    #     elif change_request_obj.change_type ==  choices.RCT_UPDATE:
-    #         article.status = choices.AS_REQUIRE_UPDATE
-
-    #     article.save()
-
-    #     messages.success(
-    #         self.request,
-    #         _('Change request submitted with success.')
-    #     )
-    #     return HttpResponseRedirect(self.get_success_url())
-
-
-class ArticleAdminInspectView(InspectView):
-    def get_context_data(self):
-        data = {
-            "status": self.instance.status,
-            "packages": self.instance.package_set.all(),
-        }
-
-        if self.instance.status in (
-            choices.AS_REQUIRE_UPDATE,
-            choices.AS_REQUIRE_ERRATUM,
-        ):
-            data["requested_changes"] = []
-            for rac in self.instance.requestarticlechange_set.all():
-                data["requested_changes"].append(rac)
-
-        return super().get_context_data(**data)
 
 
 class ArticleModelAdmin(ModelAdmin):
@@ -125,11 +43,7 @@ class ArticleModelAdmin(ModelAdmin):
     exclude_from_explorer = False
 
     list_display = (
-        "pid_v3",
-        # "pid_v2",
-        # "doi_list",
-        # "aop_pid",
-        # "article_type",
+        "sps_pkg",
         "status",
         "issue",
         "journal",
@@ -139,6 +53,7 @@ class ArticleModelAdmin(ModelAdmin):
     )
     list_filter = ("status",)
     search_fields = (
+        "sps_pkg__sps_pkg_name",
         "pid_v3",
         "issue__publication_year",
     )
@@ -159,6 +74,84 @@ class ArticleModelAdmin(ModelAdmin):
         "elocation_id",
         "fpage",
         "lpage",
+    )
+
+
+class ApprovedArticleModelAdmin(ModelAdmin):
+    model = ApprovedArticle
+    menu_label = _("Articles")
+    edit_view_class = ApprovedArticleEditView
+    button_helper_class = ArticleButtonHelper
+    permission_helper_class = ArticlePermissionHelper
+    inspect_view_enabled = False
+    menu_icon = "doc-full"
+    menu_order = get_menu_order("article")
+    add_to_settings_menu = False
+    exclude_from_explorer = False
+
+    list_display = (
+        "sps_pkg",
+        "website_publication_date",
+        "position",
+        "status",
+        "issue",
+        "journal",
+        "created",
+        "updated",
+        # "updated_by",
+    )
+    list_filter = ("status",)
+    search_fields = (
+        "sps_pkg__sps_pkg_name",
+        "pid_v3",
+        "issue__publication_year",
+    )
+    inspect_view_fields = (
+        "created",
+        "updated",
+        "creator",
+        "updated_by",
+        "pid_v3",
+        # "pid_v2",
+        # "aop_pid",
+        "doi_with_lang",
+        "article_type",
+        "status",
+        "issue",
+        # "author",
+        # "title_with_lang",
+        "elocation_id",
+        "fpage",
+        "lpage",
+    )
+
+
+class TOCModelAdmin(ModelAdmin):
+    model = TOC
+    menu_label = _("Table of contents")
+    edit_view_class = TOCEditView
+    # button_helper_class = ArticleButtonHelper
+    # permission_helper_class = ArticlePermissionHelper
+    inspect_view_enabled = False
+    menu_icon = "doc-full"
+    menu_order = get_menu_order("article")
+    add_to_settings_menu = False
+    exclude_from_explorer = False
+
+    list_display = (
+        "issue",
+        "main_section",
+        "created",
+        "updated",
+    )
+    search_fields = (
+        "issue__journal__title",
+        "issue__publication_year",
+        "issue__volume",
+        "issue__number",
+        "issue__supplement",
+        "main_section__plain_text",
+        "translated_sections__plain_text",
     )
 
 
@@ -241,6 +234,7 @@ class ArticleModelAdminGroup(ModelAdminGroup):
         ArticleModelAdmin,
         # RelatedItemModelAdmin,
         # RequestArticleChangeModelAdmin,
+        ApprovedArticleModelAdmin,
     )
 
 

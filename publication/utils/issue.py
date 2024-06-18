@@ -30,8 +30,7 @@ def get_bundle_id(issn_id, year, volume=None, number=None, supplement=None):
     return "-".join(_id)
 
 
-def build_issue(issue_proc, journal_id, builder):
-    issue = issue_proc.issue
+def build_issue(issue, builder, issue_pid, issue_order):
     year = issue.publication_year
     volume = issue.volume
     number = issue.number
@@ -40,23 +39,23 @@ def build_issue(issue_proc, journal_id, builder):
         supplement = "0"
 
     issue_id = get_bundle_id(
-        issn_id=journal_id,
+        issn_id=issue.journal.scielo_issn,
         year=year,
         volume=volume,
         number=number,
         supplement=supplement,
     )
     builder.add_ids(issue_id)
-    builder.add_dates(issue_proc.created, issue_proc.updated)
+    builder.add_dates(issue.created, issue.updated)
     builder.add_identification(volume, number, supplement)
-    builder.add_order(order=int(issue_proc.pid[-4:]))
-    builder.add_pid(pid=issue_proc.pid)
+    builder.add_order(order=issue_order)
+    builder.add_pid(pid=issue_pid)
     builder.add_publication_date(year=year, start_month=None, end_month=None)
     # TODO obj_setter.has_docs(self)
     # builder.has_docs(documents)
     builder.identify_outdated_ahead()
     builder.add_issue_type()
     # builder.add_is_public()
-    # builder.add_journal(journal_id)
+    builder.add_journal(issue.journal.scielo_issn)
 
     return builder.data

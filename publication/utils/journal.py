@@ -1,16 +1,9 @@
-from datetime import datetime
-
-
-def build_journal(journal_proc, builder):
-    journal_id = journal_proc.pid
-    migrated_journal_data = journal_proc.migrated_data.data
-
-    journal = journal_proc.journal
+def build_journal(builder, journal, journal_acron, journal_id):
     official_journal = journal.official_journal
 
     builder.add_ids(journal_id)
-    builder.add_dates(journal_proc.created, journal_proc.updated)
-    builder.add_acron(journal_proc.acron)
+    builder.add_dates(journal.created, journal.updated)
+    builder.add_acron(journal_acron)
     for publisher in journal.publisher.all():
         builder.add_contact(
             name=publisher.institution.name,
@@ -35,7 +28,7 @@ def build_journal(journal_proc, builder):
         print_issn=official_journal.issn_print,
     )
     builder.add_journal_titles(
-        title=journal_proc.title,
+        title=journal.title,
         title_iso=official_journal.title_iso,
         short_title=journal.short_title,
     )
@@ -44,13 +37,12 @@ def build_journal(journal_proc, builder):
         builder.add_logo_url(journal.logo_url)
     except AttributeError:
         builder.add_logo_url("https://www.scielo.org/journal_logo_missing.gif")
-    
+
     builder.add_online_submission_url(journal.submission_online_url) #Adicionar
     # TODO
     # builder.add_related_journals(previous_journal, next_journal_title)
     for sponsor in journal.sponsor.all(): #Adicionar
         builder.add_sponsor(sponsor.institution.name)
-    
     for subject_area in journal.subject.all():
         builder.add_thematic_scopes(
             subject_categories=None,

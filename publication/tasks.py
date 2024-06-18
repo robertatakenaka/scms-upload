@@ -4,6 +4,7 @@ import sys
 from django.contrib.auth import get_user_model
 from django.utils.translation import gettext_lazy as _
 
+from article.models import Article
 from collection.choices import QA
 from collection.models import Collection, WebSiteConfiguration
 from config import celery_app
@@ -12,6 +13,7 @@ from publication.api.document import publish_article
 from publication.api.issue import publish_issue
 from publication.api.journal import publish_journal
 from publication.api.publication import PublicationAPI
+from publication.models import ArticlePublication
 from tracker.models import UnexpectedEvent
 
 User = get_user_model()
@@ -64,26 +66,6 @@ def _get_collections(collection_acron):
                 "collection_acron": collection_acron,
             },
         )
-
-
-def _get_api_data(collection, website_kind, item_name):
-    website = WebSiteConfiguration.get(
-        collection=collection,
-        purpose=website_kind,
-    )
-    API_URLS = {
-        "journal": website.api_url_journal,
-        "issue": website.api_url_issue,
-        "article": website.api_url_article,
-    }
-    api = PublicationAPI(
-        post_data_url=API_URLS.get(item_name),
-        get_token_url=website.api_get_token_url,
-        username=website.api_username,
-        password=website.api_password,
-    )
-    api.get_token()
-    return api.data
 
 
 @celery_app.task(bind=True)
@@ -220,7 +202,14 @@ def task_publish_model(
 
     SciELOModel = SCIELO_MODELS.get(model_name)
 
-    api_data = _get_api_data(collection, website_kind, model_name)
+    website = WebSiteConfiguration.get(
+        collection=collection,
+        purpose=website_kind,
+    )
+    api_parameters = website.get_api_parameters(model_name)
+
+    api = PublicationAPI(**api_parameters)
+    api.get_token()
 
     for item in SciELOModel.items_to_publish(
         user, website_kind, model_name, collection
@@ -230,7 +219,7 @@ def task_publish_model(
                 user_id=user_id,
                 username=username,
                 item_id=item.id,
-                api_data=api_data,
+                api_parameters=api_parameters,
                 model_name=model_name,
                 website_kind=website_kind,
             )
@@ -243,7 +232,7 @@ def task_publish_item(
     user_id,
     username,
     item_id,
-    api_data,
+    api_parameters,
     model_name,
     website_kind,
 ):
@@ -252,7 +241,7 @@ def task_publish_item(
         user = _get_user(user_id, username)
         SciELOModel = SCIELO_MODELS.get(model_name)
         item = SciELOModel.objects.get(pk=item_id)
-        item.publish(user, PUBLISH_FUNCTIONS.get(model_name), website_kind, api_data)
+        item.publish(user, PUBLISH_FUNCTIONS.get(model_name), website_kind, api_parameters)
     except Exception as e:
         exc_type, exc_value, exc_traceback = sys.exc_info()
         UnexpectedEvent.create(
@@ -261,5 +250,38 @@ def task_publish_item(
             detail=dict(
                 item_id=item_id,
                 model_name=model_name,
+            ),
+        )
+
+
+@celery_app.task(bind=True)
+def task_publish_article(
+    self,
+    user_id,
+    item_id,
+    website_kind,
+    username=None,
+):
+    try:
+        user = _get_user(user_id, username=username)
+        article = Article.objects.get(pk=item_id)
+
+        for collection in article.journal.collections:
+            website = WebSiteConfiguration.get(
+                collection=collection,
+                purpose=website_kind,
+            )
+            article_publication = ArticlePublication.create_or_update(
+                user, article, website,
+            )
+            article_publication.publish()
+    except Exception as e:
+        exc_type, exc_value, exc_traceback = sys.exc_info()
+        UnexpectedEvent.create(
+            e=e,
+            exc_traceback=exc_traceback,
+            detail=dict(
+                item_id=item_id,
+                model_name="article",
             ),
         )

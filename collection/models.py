@@ -2,6 +2,7 @@ import logging
 
 from django.contrib.auth import get_user_model
 from django.db import models
+from django.db.models import IntegrityError
 from django.utils.translation import gettext_lazy as _
 from wagtail.admin.panels import FieldPanel, InlinePanel
 from wagtailautocomplete.edit_handlers import AutocompletePanel
@@ -166,6 +167,19 @@ class WebSiteConfiguration(CommonControlField):
         obj.save()
         return obj
 
+    def get_api_parameters(self, entity_name):
+        API_URLS = {
+            "journal": self.api_url_journal,
+            "issue": self.api_url_issue,
+            "article": self.api_url_article,
+        }
+        return dict(
+            post_data_url=API_URLS.get(entity_name),
+            get_token_url=self.api_get_token_url,
+            username=self.api_username,
+            password=self.api_password,
+        )
+
 
 class Language(CommonControlField):
     """
@@ -232,3 +246,70 @@ class Language(CommonControlField):
             return obj
 
     base_form_class = CoreAdminModelForm
+
+
+# class WebsitePublication(CommonControlField):
+#     """
+#     Represents a website publication with website, pid, and publication date.
+
+#     Fields:
+#         website (ForeignKey): A foreign key to a WebSiteConfiguration model.
+#         pid (CharField): Publication ID (unique, max length 30).
+#         website_publication_date (DateField): Date of website publication.
+#     """
+
+#     website = models.ForeignKey(
+#         "WebSiteConfiguration", on_delete=models.SET_NULL, verbose_name=_("Website"), null=True, blank=True
+#     )
+#     pid = models.CharField(_("PID"), max_length=30, null=True, blank=True)
+#     name = models.CharField(_("Name"), max_length=16, null=True, blank=True)
+#     status = models.CharField(_("Name"), max_length=16, null=True, blank=True)
+#     panels = [
+#         FieldPanel("name"),
+#         FieldPanel("pid"),
+#         FieldPanel("status"),
+#         AutocompletePanel("website"),
+#     ]
+
+#     class Meta:
+#         verbose_name = _("Website Publication")
+#         verbose_name_plural = _("Website Publications")
+#         unique_together = (("website", "pid"),)  # Ensure unique combination of website and pid
+
+#     def __str__(self):
+#         return f"{self.website} - {self.pid} ({self.status})"
+
+#     @classmethod
+#     def create(cls, user, website, pid, name, status, **kwargs):
+#         try:
+#             obj = cls()
+#             obj.website = website
+#             obj.pid = pid
+#             obj.name = name
+#             obj.status = status
+#             for k, v in kwargs.items():
+#                 obj.setattr(k, v)
+#             obj.save()
+#             return obj
+#         except IntegrityError as e:
+#             return cls.get(
+#                 website=website, pid=pid,
+#             )
+
+#     @classmethod
+#     def get(cls, website, pid):
+#         return cls.objects.get(website=website, pid=pid)
+
+#     @classmethod
+#     def create_or_update(cls, website, pid, name, status, **kwargs):
+#         try:
+#             obj = cls.get(website=website, pid=pid)
+#             obj.status = status
+#             for k, v in kwargs.items():
+#                 obj.setattr(k, v)
+#             obj.save()
+#             return obj
+#         except cls.DoesNotExist:
+#             return cls.create(
+#                 user, website, pid, name, status, **kwargs
+#             )

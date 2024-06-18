@@ -9,8 +9,8 @@ class ArticleForm(WagtailAdminModelForm):
         for dwl in article.doi_with_lang.all():
             dwl.creator = user
 
-        for a in article.author.all():
-            a.creator = user
+        # for a in article.author.all():
+        #     a.creator = user
 
         for t in article.title_with_lang.all():
             t.creator = user
@@ -18,6 +18,37 @@ class ArticleForm(WagtailAdminModelForm):
         self.save()
 
         return article
+
+
+class JournalTocSectionForm(WagtailAdminModelForm):
+    def save_all(self, user):
+        obj = super().save(commit=False)
+        if obj.creator:
+            obj.updated_by = user
+        else:
+            obj.creator = user
+        self.save()
+        return obj
+
+
+class TOCForm(WagtailAdminModelForm):
+    def save_all(self, user):
+        obj = super().save(commit=False)
+        if obj.creator:
+            obj.updated_by = user
+        else:
+            obj.creator = user
+
+        for position, item in enumerate(obj.toc_articles.all()):
+            item.article.position = position
+            item.article.save()
+            item.position = position
+            item.save()
+
+            item.article.publish(user)
+        self.save()
+
+        return obj
 
 
 class RelatedItemForm(WagtailAdminModelForm):

@@ -6,12 +6,12 @@ from publication.api.publication import PublicationAPI
 from publication.utils.journal import build_journal
 
 
-def publish_journal(user, journal_proc, api_data):
-    logging.info(f"publish_journal {journal_proc}")
+def publish_journal(journal, journal_acron, journal_id, api_data):
+    logging.info(f"publish_journal {journal}")
     payload = {}
 
     journal_payload_builder = JournalPayload(payload)
-    build_journal(journal_proc, journal_payload_builder)
+    build_journal(journal_payload_builder, journal, journal_acron, journal_id)
 
     api = PublicationAPI(**api_data)
     return api.post_data(payload)
