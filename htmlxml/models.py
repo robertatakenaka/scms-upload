@@ -490,6 +490,9 @@ class HTMLXML(CommonControlField, ClusterableModel, Html2xmlAnalysis, BasicXMLFi
         ]
     )
 
+    def __str__(self):
+        return f"{self.migrated_article}"
+
     def autocomplete_label(self):
         return self.migrated_article
 
@@ -661,6 +664,7 @@ class HTMLXML(CommonControlField, ClusterableModel, Html2xmlAnalysis, BasicXMLFi
             detail = {"warning": str(e)}
             done = False
 
+        logging.info(f"filename: {article_proc.pkg_name} {document.filename_without_extension}")
         # guarda cada versão de body/back
         if document.xml_body_and_back:
             for i, xml_body_and_back in enumerate(document.xml_body_and_back, start=1):
@@ -669,7 +673,7 @@ class HTMLXML(CommonControlField, ClusterableModel, Html2xmlAnalysis, BasicXMLFi
                     bb_parent=self,
                     version=i,
                     file_content=xml_body_and_back,
-                    pkg_name=article_proc.pkg_name,
+                    pkg_name=article_proc.pkg_name or document.filename_without_extension,
                 )
                 detail["xml_to_html_steps"] = i
         operation.finish(user, done, detail=detail)
