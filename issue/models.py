@@ -15,6 +15,14 @@ from journal.models import Journal, JournalSection
 from issue.forms import IssueForm, TOCForm
 
 
+def _get_digits(value):
+    d = "".join([c for c in value if c.isdigit()])
+    try:
+        return int(d)
+    except ValueError:
+        return 0
+
+
 class IssueGetOrCreateError(Exception):
     ...
 
@@ -33,6 +41,8 @@ class Issue(CommonControlField, IssuePublicationDate):
     publication_year = models.CharField(_("Year"), max_length=4, null=True, blank=True)
     total_documents = models.PositiveSmallIntegerField(null=True, blank=True)
     is_continuous_publishing_model = models.BooleanField(null=True, blank=True)
+    order = models.PositiveSmallIntegerField(
+        null=True, blank=True, help_text=_("This number controls the order issues appear for a specific year on the website grid"))
 
     def __unicode__(self):
         return "%s %s" % (
@@ -142,6 +152,7 @@ class Issue(CommonControlField, IssuePublicationDate):
             obj.supplement = supplement
             obj.number = number
             obj.publication_year = publication_year
+            obj.order = obj.generate_order()
             obj.is_continuous_publishing_model = is_continuous_publishing_model
             obj.total_documents = total_documents
             obj.creator = user
@@ -194,6 +205,80 @@ class Issue(CommonControlField, IssuePublicationDate):
                 is_continuous_publishing_model,
                 total_documents,
             )
+
+    def generate_order(self, suppl_start=1000, spe_start=2000):
+        x = 0
+        if self.supplement is not None:
+            x = suppl_start
+            try:
+                suppl = int(self.supplement)
+            except (ValueError, TypeError):
+                suppl = _get_digits(self.supplement)
+            return x + suppl
+
+        number = self.number
+        spe = None
+        if "spe" in number:
+            x = spe_start
+            parts = number.split("spe")
+            spe = int(parts[-1] or 0)
+            return x + spe
+        elif number == "ahead":
+            return 9999
+
+        try:
+            number = int(number)
+        except (ValueError, TypeError):
+            number = _get_digits(number)
+        return number or 1
+
+    @staticmethod
+    def exists(journal, volume, suppl, number, user):
+        if not any((volume, number)):
+            return
+        try:
+            return Issue.get(
+                journal=journal,
+                volume=volume,
+                supplement=suppl,
+                number=number,
+            )
+        except Issue.DoesNotExist:
+            return Issue.fetch_and_create_issue(journal, volume, suppl, number, user)
+
+    @staticmethod
+    def fetch_and_create_issue(journal, volume, suppl, number, user):
+        if journal and any((volume, number)):
+            issn_print = journal.official_journal.issn_print
+            issn_electronic = journal.official_journal.issn_electronic
+            try:
+                response = fetch_data(
+                    url=settings.ISSUE_API_URL,
+                    params={
+                        "issn_print": issn_print,
+                        "issn_electronic": issn_electronic,
+                        "number": number,
+                        "supplement": suppl,
+                        "volume": volume,
+                    },
+                    json=True,
+                )
+
+            except Exception as e:
+                logging.exception(e)
+                return
+
+            for issue in response.get("results"):
+                issue = Issue.get_or_create(
+                    journal=journal,
+                    volume=issue["volume"],
+                    supplement=issue["supplement"],
+                    number=issue["number"],
+                    publication_year=issue["year"],
+                    user=user,
+                )
+                # TODO dados das coleções pid
+                return issue
 
 
 class TOC(CommonControlField, ClusterableModel):
