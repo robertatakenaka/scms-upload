@@ -17,7 +17,7 @@ from core.controller import parse_yyyymmdd
 from collection.models import Language
 from htmlxml.models import HTMLXML
 from issue.models import Issue, IssueSection, TOC
-from journal.models import Journal, OfficialJournal, JournalSection
+from journal.models import Journal, OfficialJournal, JournalSection, JournalCollection, JournalHistory
 from migration.models import IdFileRecord, JournalAcronIdFile, MigratedFile
 from tracker import choices as tracker_choices
 from tracker.models import UnexpectedEvent, format_traceback
@@ -69,7 +69,38 @@ def create_or_update_journal(
         force_update=force_update,
     )
 
+    jc = JournalCollection.create_or_update(
+        user, collection, journal, journal_proc.pid, journal_proc.acron)
+
+    create_journal_history(user, jc, classic_website_journal)
     return journal
+
+
+def create_journal_history(user, jc, classic_website_journal):
+    status_items = {
+        "D": "INTERRUPTED",
+        "S": "INTERRUPTED",
+        "C": "ADMITTED",
+    }
+    for event in classic_website_journal.status_history:
+        # obtém year, month, day
+        _date = event["date"]
+        year, month, day = parse_yyyymmdd(_date)
+
+        # obtém event_type
+        _status = event["status"]
+        event_type = status_items.get(_status)
+
+        # obtém interruption_reason
+        _reason = event.get("reason")
+        interruption_reason = None
+        if _status == "D":
+            interruption_reason = "ceased"
+        else:
+            interruption_reason = _reason
+
+        JournalHistory.create_or_update(
+            user, jc, event_type, year, month, day, interruption_reason)
 
 
 def create_or_update_issue(
