@@ -1,7 +1,9 @@
 import logging
 from datetime import datetime
 
-from django.db import models
+from django.conf import settings
+from django.db import IntegrityError, models
+from django.db.models import Q
 from django.utils.translation import gettext_lazy as _
 from modelcluster.fields import ParentalKey
 from modelcluster.models import ClusterableModel
@@ -9,10 +11,19 @@ from wagtail.admin.panels import FieldPanel, InlinePanel, ObjectList, TabbedInte
 from wagtail.models import Orderable
 from wagtailautocomplete.edit_handlers import AutocompletePanel
 
-from core.models import CommonControlField, TextModel
+from collection.models import Collection
+from core.choices import MONTHS
+from core.forms import CoreAdminModelForm
+from core.models import CommonControlField, HTMLTextModel, TextModel
+from core.utils.requester import fetch_data
 from institution.models import InstitutionHistory
 
 from . import choices
+from .exceptions import (
+    MissionCreateOrUpdateError,
+    MissionGetError,
+    SubjectCreationOrUpdateError,
+)
 from .forms import OfficialJournalForm
 
 
@@ -71,6 +82,8 @@ class JournalSection(TextModel, CommonControlField):
         if not language:
             data = {
                 "parent": str(parent),
+                "code": code,
+                "text": text,
             }
         try:
             obj = cls.get(parent=parent, language=language, code=code, text=text)
@@ -211,13 +224,20 @@ class Journal(CommonControlField, ClusterableModel):
         _("Short Title"), max_length=100, null=True, blank=True
     )
     title = models.CharField(_("Title"), max_length=265, null=True, blank=True)
-    journal_acron = models.TextField(_("Journal Acronym"), null=True, blank=True)
     official_journal = models.ForeignKey(
         "OfficialJournal",
         null=True,
         blank=True,
         related_name="+",
         on_delete=models.SET_NULL,
+    )
+    submission_online_url = models.URLField(
+        _("Submission online URL"), null=True, blank=True
+    )
+    subject = models.ManyToManyField(
+        "Subject",
+        verbose_name=_("Study Areas"),
+        blank=True,
     )
 
     def __unicode__(self):
@@ -231,7 +251,6 @@ class Journal(CommonControlField, ClusterableModel):
     panels_identification = [
         AutocompletePanel("official_journal"),
         FieldPanel("short_title"),
-        FieldPanel("journal_acron"),
     ]
 
     panels_owner = [
@@ -242,11 +261,16 @@ class Journal(CommonControlField, ClusterableModel):
         InlinePanel("publisher", label=_("Publisher"), classname="collapsed"),
     ]
 
+    panels_mission = [
+        InlinePanel("mission", label=_("Mission"), classname="collapsed"),
+    ]
+
     edit_handler = TabbedInterface(
         [
             ObjectList(panels_identification, heading=_("Identification")),
             ObjectList(panels_owner, heading=_("Owners")),
             ObjectList(panels_publisher, heading=_("Publisher")),
+            ObjectList(panels_mission, heading=_("Mission")),
         ]
     )
 
@@ -268,11 +292,78 @@ class Journal(CommonControlField, ClusterableModel):
     def logo_url(self):
         return self.logo and self.logo.url
 
+    @staticmethod
+    def exists(journal_title, issn_electronic, issn_print, user):
+        try:
+            return Journal.get_registered(journal_title, issn_electronic, issn_print)
+        except Journal.DoesNotExist:
+            return Journal.fetch_and_create_journal(
+                journal_title, issn_electronic, issn_print, user
+            )
+
+    @staticmethod
+    def get_registered(journal_title, issn_electronic, issn_print):
+        q = Q()
+        if journal_title:
+            q |= Q(title=journal_title)
+        if issn_electronic:
+            q |= Q(issn_electronic=issn_electronic)
+        if issn_print:
+            q |= Q(issn_print=issn_print)
+
+        try:
+            j = OfficialJournal.objects.get(q)
+            return Journal.objects.get(official_journal=j)
+        except OfficialJournal.DoesNotExist:
+            raise Journal.DoesNotExist(
+                f"{journal_title} {issn_electronic} {issn_print}")
+
+    @staticmethod
+    def fetch_and_create_journal(
+        journal_title,
+        issn_electronic,
+        issn_print,
+        user,
+    ):
+        try:
+            response = fetch_data(
+                url=settings.JOURNAL_API_URL,
+                params={
+                    "title": journal_title,
+                    "issn_print": issn_print,
+                    "issn_electronic": issn_electronic,
+                },
+                json=True,
+            )
+        except Exception as e:
+            logging.exception(e)
+            return
+
+        for journal in response.get("results"):
+            official = journal["official"]
+            official_journal = OfficialJournal.create_or_update(
+                title=official["title"],
+                title_iso=official["iso_short_title"],
+                issn_print=official["issn_print"],
+                issn_electronic=official["issn_electronic"],
+                issnl=official["issnl"],
+                foundation_year=official.get("foundation_year"),
+                user=user,
+            )
+            journal = Journal.create_or_update(
+                user=user,
+                official_journal=official_journal,
+                title=journal.get("title"),
+                short_title=journal.get("short_title"),
+            )
+            # TODO journal collection events, dados das coleções (acron, pid, ...)
+            return journal
+
     @classmethod
     def get(cls, official_journal):
-        logging.info(f"Journal.get({official_journal})")
         if official_journal:
             return cls.objects.get(official_journal=official_journal)
+        raise ValueError("Journal.get requires official_journal")
 
     @classmethod
     def create_or_update(
@@ -302,6 +393,36 @@ class Journal(CommonControlField, ClusterableModel):
         logging.info(f"return {obj}")
         return obj
 
+    @property
+    def any_issn(self):
+        return self.official_journal and (
+            self.official_journal.issn_electronic or self.official_journal.issn_print
+        )
+
+    @property
+    def max_error_percentage_accepted(self):
+        values = []
+        for collection in self.journal_collections:
+            values.append(collection.max_error_percentage_accepted)
+        # obtém o valor mais rígido se participa de mais de 1 coleção
+        return min(values) or 0
+
+    @property
+    def max_absent_data_percentage_accepted(self):
+        values = []
+        for collection in self.journal_collections:
+            values.append(collection.max_absent_data_percentage_accepted)
+        # obtém o valor mais rígido se participa de mais de 1 coleção
+        return min(values) or 0
+
+    @property
+    def is_multilingual(self):
+        try:
+            return self.journal.text_language.count() > 1
+        except AttributeError:
+            # na dúvida, retorna True
+            return True
+
 
 class Owner(Orderable, InstitutionHistory):
     journal = ParentalKey(
@@ -317,3 +438,331 @@ class Publisher(Orderable, InstitutionHistory):
         blank=True,
         on_delete=models.SET_NULL,
     )
+
+
+class Sponsor(Orderable, InstitutionHistory):
+    journal = ParentalKey(
+        Journal,
+        related_name="sponsor",
+        null=True,
+        blank=True,
+        on_delete=models.SET_NULL,
+    )
+
+
+class Mission(CommonControlField, HTMLTextModel):
+    journal = ParentalKey(
+        Journal, on_delete=models.SET_NULL, related_name="mission", null=True
+    )
+
+    class Meta:
+        indexes = [
+            models.Index(
+                fields=[
+                    "journal",
+                ]
+            ),
+        ]
+
+    @property
+    def data(self):
+        d = {}
+
+        if self.journal:
+            d.update(self.journal.data)
+
+        return d
+
+    @classmethod
+    def get(
+        cls,
+        journal,
+        language,
+    ):
+        if journal and language:
+            return cls.objects.filter(journal=journal, language=language)
+        raise MissionGetError("Mission.get requires journal and language parameters")
+
+    @classmethod
+    def create_or_update(
+        cls,
+        user,
+        journal,
+        language,
+        mission_text,
+    ):
+        if not mission_text:
+            raise MissionCreateOrUpdateError(
+                "Mission.create_or_update requires mission_rich_text parameter"
+            )
+        try:
+            obj = cls.get(journal, language)
+            obj.updated_by = user
+        except IndexError:
+            obj = cls()
+            obj.creator = user
+        except (MissionGetError, cls.MultipleObjectsReturned) as e:
+            raise MissionCreateOrUpdateError(
+                _("Unable to create or update journal {}").format(e)
+            )
+        obj.text = mission_text or obj.text
+        obj.language = language or obj.language
+        obj.journal = journal or obj.journal
+        obj.save()
+        return obj
+
+
+class JournalCollection(CommonControlField, ClusterableModel):
+    journal = ParentalKey(
+        Journal,
+        on_delete=models.SET_NULL,
+        null=True,
+        blank=True,
+        related_name="journal_collections",
+    )
+    collection = models.ForeignKey(
+        Collection,
+        null=True,
+        blank=True,
+        on_delete=models.SET_NULL,
+    )
+
+    base_form_class = CoreAdminModelForm
+
+    panels = [
+        AutocompletePanel("journal"),
+        AutocompletePanel("collection"),
+    ]
+
+    class Meta:
+        verbose_name = _("Journal collection")
+        verbose_name_plural = _("Journal collections")
+        unique_together = [("journal", "collection", )]
+
+    @classmethod
+    def get(cls, collection, journal):
+        return cls.objects.get(
+            journal=journal,
+            collection=collection,
+        )
+
+    @classmethod
+    def create(cls, user, collection, journal):
+        try:
+            obj = cls()
+            obj.journal = journal
+            obj.collection = collection
+            obj.pid = pid
+            obj.journal_acron = journal_acron
+            obj.creator = user
+            obj.save()
+            return obj
+        except IntegrityError:
+            return cls.get(collection, journal)
+
+    @classmethod
+    def create_or_update(cls, user, collection, journal):
+        try:
+            obj = cls.get(collection, journal)
+            obj.updated_by = obj.updated_by or user
+            obj.save()
+        except cls.DoesNotExist:
+            return cls.create(
+                user, collection, journal
+            )
+
+    def __str__(self):
+        return f"{self.collection} {self.journal}"
+
+
+class JournalHistory(CommonControlField):
+    journal_collection = ParentalKey(
+        JournalCollection,
+        on_delete=models.SET_NULL,
+        null=True,
+        blank=True,
+        related_name="journal_history",
+    )
+
+    year = models.CharField(_("Event year"), max_length=4, null=True, blank=True)
+    month = models.CharField(
+        _("Event month"),
+        max_length=2,
+        choices=MONTHS,
+        null=True,
+        blank=True,
+    )
+    day = models.CharField(_("Event day"), max_length=2, null=True, blank=True)
+
+    event_type = models.CharField(
+        _("Event type"),
+        null=True,
+        blank=True,
+        max_length=16,
+        choices=choices.JOURNAL_EVENT_TYPE,
+    )
+    interruption_reason = models.CharField(
+        _("Indexing interruption reason"),
+        null=True,
+        blank=True,
+        max_length=24,
+        choices=choices.INDEXING_INTERRUPTION_REASON,
+    )
+
+    base_form_class = CoreAdminModelForm
+
+    panels = [
+        FieldPanel("year"),
+        FieldPanel("month"),
+        FieldPanel("day"),
+        FieldPanel("event_type"),
+        FieldPanel("interruption_reason"),
+    ]
+
+    class Meta:
+        verbose_name = _("Collection journal event")
+        verbose_name_plural = _("Collection journal events")
+        unique_together = ("journal_collection", "event_type", "year", "month", "day")
+        ordering = ("journal_collection", "-year", "-month", "-day")
+        indexes = [
+            models.Index(
+                fields=[
+                    "event_type",
+                ]
+            ),
+        ]
+
+    @classmethod
+    def get(
+        cls, journal_collection, event_type, year, month, day, interruption_reason=None
+    ):
+        return cls.objects.get(
+            journal_collection=journal_collection,
+            event_type=event_type,
+            year=year,
+            month=month,
+            day=day,
+        )
+
+    @classmethod
+    def create(
+        cls,
+        user,
+        journal_collection,
+        event_type,
+        year,
+        month,
+        day,
+        interruption_reason=None,
+    ):
+        try:
+            obj = cls()
+            obj.journal_collection = journal_collection
+            obj.event_type = event_type
+            obj.year = year
+            obj.month = month
+            obj.day = day
+            obj.interruption_reason = interruption_reason
+            obj.creator = user
+            obj.save()
+            return obj
+        except IntegrityError:
+            return cls.get(journal_collection, event_type, year, month, day)
+
+    @classmethod
+    def create_or_update(
+        cls,
+        user,
+        journal_collection,
+        event_type,
+        year,
+        month,
+        day,
+        interruption_reason=None,
+    ):
+        try:
+            obj = cls.get(journal_collection, event_type, year, month, day)
+            obj.interruption_reason = interruption_reason
+            obj.updated_by = obj.updated_by or user
+            obj.save()
+        except cls.DoesNotExist:
+            return cls.create(
+                user,
+                journal_collection,
+                event_type,
+                year,
+                month,
+                day,
+                interruption_reason,
+            )
+
+    @property
+    def data(self):
+        d = {
+            "event_type": self.event_type,
+            "interruption_reason": self.interruption_reason,
+            "year": self.year,
+            "month": self.month,
+            "day": self.day,
+        }
+
+        return d
+
+    @property
+    def date(self):
+        return f"{self.year}-{str(self.month).zfill(2)}-{str(self.day).zfill(2)}"
+
+    @property
+    def opac_event_type(self):
+        if self.event_type == "ADMITTED":
+            return "current"
+        if "suspended" in self.interruption_reason:
+            return "suspended"
+        return "inprogress"
+
+    def __str__(self):
+        return f"{self.event_type} {self.interruption_reason} {self.year}/{self.month}/{self.day}"
+
+
+class Subject(CommonControlField):
+    code = models.CharField(max_length=30, null=True, blank=True)
+    value = models.CharField(max_length=100, null=True, blank=True)
+
+    def __str__(self):
+        return f"{self.value}"
+
+    @classmethod
+    def load(cls, user):
+        if not cls.objects.exists():
+            for item in choices.STUDY_AREA:
+                code, _ = item
+                cls.create_or_update(
+                    code=code,
+                    user=user,
+                )
+
+    @classmethod
+    def get(cls, code):
+        if not code:
+            raise ValueError("Subject.get requires code parameter")
+        return cls.objects.get(code=code)
+
+    @classmethod
+    def create_or_update(
+        cls,
+        code,
+        user,
+    ):
+        try:
+            obj = cls.get(code=code)
+        except cls.DoesNotExist:
+            obj = cls()
+            obj.code = code
+            obj.creator = user
+        except SubjectCreationOrUpdateError as e:
+            raise SubjectCreationOrUpdateError(code=code, message=e)
+
+        obj.value = dict(choices.STUDY_AREA).get(code) or obj.value
+        obj.updated = user
+        obj.save()
+        return obj
