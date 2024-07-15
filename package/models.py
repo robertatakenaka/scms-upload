@@ -415,17 +415,23 @@ class SPSPkg(CommonControlField, ClusterableModel):
     @property
     def pdfs(self):
         for item in self.components.filter(component_type="rendition"):
-            yield {"lang": item.lang, "url": item.uri, "legacy_uri": item.legacy_uri}
+            yield {"lang": item.lang and item.lang.code2, "url": item.uri, "basename": item.basename, "legacy_uri": item.legacy_uri}
 
     @property
     def htmls(self):
         for item in self.components.filter(component_type="html"):
-            yield {"lang": item.lang, "url": item.uri}
+            yield {"lang": item.lang and item.lang.code2, "url": item.uri}
 
     @property
     def supplementary_materials(self):
         for item in self.components.filter(component_type="supplementary-material"):
-            yield {"lang": item.lang, "url": item.uri, "basename": item.basename, "legacy_uri": item.legacy_uri}
+            yield {
+                "lang": item.lang and item.lang.code2,
+                "url": item.uri,
+                "basename": item.basename,
+                "legacy_uri": item.legacy_uri,
+                "xml_elem_id": item.xml_elem_id,
+            }
 
     @classmethod
     def get(cls, pid_v3):
@@ -648,6 +654,14 @@ class SPSPkg(CommonControlField, ClusterableModel):
             self.upload_assets_to_the_cloud,
             **{"original_pkg_components": original_pkg_components},
         )
+
+        try:
+            # article_proc igual a upload.Package
+            new_pubdate = article_proc.new_pubdate
+            update_pubdate = article_proc.update_pubdate
+        except AttributeError:
+            new_pubdate = None
+            update_pubdate = False
         self.upload_items_to_the_cloud(
             user,
             article_proc,
@@ -661,12 +675,12 @@ class SPSPkg(CommonControlField, ClusterableModel):
             "upload_article_page_to_the_cloud",
             self.upload_article_page_to_the_cloud,
         )
-        self.valid_components = self.components.filter(uri__isnull=True).count() == 0
+        self.valid_components = not self.components.filter(uri__isnull=True).exists()
         self.save()
 
     def upload_items_to_the_cloud(self, user, article_proc, operation_title, callable_get_items, **params):
         op = article_proc.start(user, operation_title)
-        response = callable_get_items(**params)
+        response = callable_get_items(user, **params)
         detail = dict(response)
         try:
             xml_with_pre = detail.pop("xml_with_pre")
@@ -742,14 +756,14 @@ class SPSPkg(CommonControlField, ClusterableModel):
                         item,
                         ext,
                         content,
-                        component["component_type"],
+                        component.get("component_type") or "asset",
                         component.get("lang"),
                         component.get("legacy_uri"),
                     )
                     items.append(result)
         return {"xml_with_pre": xml_with_pre, "items": items}
 
-    def upload_xml_to_the_cloud(self, user, article_proc,  xml_with_pre):
+    def upload_xml_to_the_cloud(self, user, xml_with_pre):
         replacements = {
             item.basename: item.uri
             for item in self.components.filter(uri__isnull=False).iterator()
@@ -757,6 +771,7 @@ class SPSPkg(CommonControlField, ClusterableModel):
         if replacements:
             xml_assets = ArticleAssets(xml_with_pre.xmltree)
             xml_assets.replace_names(replacements)
+
         content = xml_with_pre.tostring(pretty_print=True).encode("utf-8")
 
         filename = self.sps_pkg_name + ".xml"
@@ -769,26 +784,29 @@ class SPSPkg(CommonControlField, ClusterableModel):
         return {"items": [result]}
 
     def generate_article_html_pages(self):
-        generator = HTMLGenerator.parse(
-            file=self.xml_uri,
-            valid_only=False,
-            xslt="3.0",
-        )
-        for lang in generator.languages:
-            suffix = f"-{lang}"
-            yield {
-                "filename": f"{self.sps_pkg_name}{suffix}.html",
-                "content": str(generator.generate(lang)),
-                "lang": lang,
-                "ext": ".html",
-                "component_type": "html",
-            }
+        try:
+            generator = HTMLGenerator.parse(
+                file=self.xml_uri,
+                valid_only=False,
+                xslt="3.0",
+            )
+            for lang in generator.languages:
+                suffix = f"-{lang}"
+                yield {
+                    "filename": f"{self.sps_pkg_name}{suffix}.html",
+                    "content": str(generator.generate(lang)),
+                    "lang": lang,
+                    "ext": ".html",
+                    "component_type": "html",
+                }
+        except Exception as exc:
+            logging.exception(f"{self.xml_uri} {exc}")
 
-    def upload_article_page_to_the_cloud(self, user, article_proc):
+    def upload_article_page_to_the_cloud(self, user):
         items = []
         for item in self.generate_article_html_pages():
             lang = item["lang"]
-            content = item["content"]
+            content = item["content"].encode("utf-8")
             PreviewArticlePage.create_or_update(
                 user,
                 self,
@@ -799,12 +817,12 @@ class SPSPkg(CommonControlField, ClusterableModel):
                 user,
                 item["filename"],
                 item["ext"],
-                item["content"],
+                content,
                 item["component_type"],
                 lang,
             )
             items.append(response)
-        return items
+        return {"items": items}
 
     def synchronize(self, user, article_proc):
         pass
