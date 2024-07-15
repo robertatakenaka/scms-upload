@@ -217,6 +217,9 @@ class Issue(CommonControlField, IssuePublicationDate):
             return x + suppl
 
         number = self.number
+        if not number:
+            return 1
+
         spe = None
         if "spe" in number:
             x = spe_start
@@ -335,6 +338,9 @@ class IssueSection(CommonControlField, Orderable):
         AutocompletePanel("translations"),
     ]
 
+    class Meta:
+        ordering = ["position"]
+
     @classmethod
     def create(cls, user, toc, main_section):
         try:
@@ -356,3 +362,9 @@ class IssueSection(CommonControlField, Orderable):
     @classmethod
     def get(cls, toc, main_section):
         return cls.objects.get(toc=toc, main_section=main_section)
+
+    @property
+    def data(self):
+        yield self.main_section.data
+        for item in self.translations.all():
+            yield item.data
