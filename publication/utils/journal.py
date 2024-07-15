@@ -18,10 +18,24 @@ def build_journal(builder, journal, journal_id, journal_acron, journal_history):
         builder.add_mission(mission.language, mission.text)
 
     for journal_history in journal_history.all():
+        if journal_history.event_type == "ADMITTED":
+            event_type = "current"
+        elif journal_history.interruption_reason == "ceased":
+            # deceased está incorreto no opac
+            event_type = "deceased"
+        elif journal_history.interruption_reason == "suspended-by-committee":
+            event_type = "suspended"
+        elif journal_history.interruption_reason == "suspended-by-editor":
+            event_type = "suspended"
+        elif journal_history.interruption_reason == "not-open-access":
+            event_type = "suspended"
+        else:
+            event_type = "inprogress"
+
         builder.add_event_to_timeline(
-            journal_history.event_type,
+            event_type,
             journal_history.date,
-            journal_history.reason,
+            journal_history.interruption_reason,
         )
     builder.add_journal_issns(
         scielo_issn=journal_id,
@@ -29,7 +43,7 @@ def build_journal(builder, journal, journal_id, journal_acron, journal_history):
         print_issn=official_journal.issn_print,
     )
     builder.add_journal_titles(
-        title=journal.title,
+        title=journal.title or official_journal.title,
         title_iso=official_journal.title_iso,
         short_title=journal.short_title,
     )
@@ -48,4 +62,5 @@ def build_journal(builder, journal, journal_id, journal_acron, journal_history):
             subject_categories=None,
             subject_areas=subject_area.value,
         )
+
     # builder.add_is_public()
