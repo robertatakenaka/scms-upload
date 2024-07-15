@@ -167,6 +167,8 @@ class Article(ClusterableModel, CommonControlField):
 
     @property
     def order(self):
+        if self.position:
+            return self.position
         try:
             return int(self.fpage)
         except (TypeError, ValueError):
@@ -241,6 +243,7 @@ class Article(ClusterableModel, CommonControlField):
         self.fpage_seq = xml_with_pre.fpage_seq
         self.lpage = xml_with_pre.lpage
         self.elocation_id = xml_with_pre.elocation_id
+        self.position = xml_with_pre.order
 
     def add_issue(self, user):
         xml_with_pre = self.sps_pkg.xml_with_pre
@@ -299,16 +302,41 @@ class Article(ClusterableModel, CommonControlField):
                 self.sps_pkg.xml_with_pre.article_publication_date, "%Y-%m-%d"
             )
 
+    def set_position(self, position=None):
+        if position:
+            self.position = position
+            self.save()
+            return
+        try:
+            toc = TOC.objects.get(issue=self.issue)
+            if toc.ordered:
+                sections = [item.text for item in self.sections.all()]
+                if sections:
+                    section_position = toc.issue_sections.filter(
+                        Q(main_section__text__in=sections) |
+                        Q(translations__text__in=sections),
+                    ).position * 1000
+                    self.position = section_position + Article.objects.filter(
+                        sections__text__in=sections,
+                        issue=self.issue,
+                    ).count() + 1
+                else:
+                    self.position = Article.objects.filter(
+                        issue=self.issue).count() + 1
+                self.save()
+        except TOC.DoesNotExist:
+            pass
+
     @property
     def multilingual_sections(self):
         sections = [item.text for item in self.sections.all()]
-        for issue_section in IssueSection.objects.filter(
-            Q(main_section__text__in=sections) | Q(translations__text__in=sections),
-            toc__issue=self.issue,
-        ):
-            yield issue_section.main_section.data
-            for item in issue_section.translations.all():
-                yield item.data
+        if sections:
+            for issue_section in IssueSection.objects.filter(
+                Q(main_section__text__in=sections) |
+                Q(translations__text__in=sections),
+                toc__issue=self.issue,
+            ):
+                yield from issue_section.data
 
 
 class ArticleDOIWithLang(Orderable, DOIWithLang):
