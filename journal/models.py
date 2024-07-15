@@ -94,7 +94,7 @@ class JournalSection(TextModel, CommonControlField):
 
     @property
     def data(self):
-        return {"language": self.language, "code": self.code, "text": self.text}
+        return {"language": self.language.code2, "code": self.code, "text": self.text}
 
     @staticmethod
     def sections(journal):
@@ -400,22 +400,6 @@ class Journal(CommonControlField, ClusterableModel):
         )
 
     @property
-    def max_error_percentage_accepted(self):
-        values = []
-        for collection in self.journal_collections:
-            values.append(collection.max_error_percentage_accepted)
-        # obtém o valor mais rígido se participa de mais de 1 coleção
-        return min(values) or 0
-
-    @property
-    def max_absent_data_percentage_accepted(self):
-        values = []
-        for collection in self.journal_collections:
-            values.append(collection.max_absent_data_percentage_accepted)
-        # obtém o valor mais rígido se participa de mais de 1 coleção
-        return min(values) or 0
-
-    @property
     def is_multilingual(self):
         try:
             return self.journal.text_language.count() > 1
@@ -552,8 +536,6 @@ class JournalCollection(CommonControlField, ClusterableModel):
             obj = cls()
             obj.journal = journal
             obj.collection = collection
-            obj.pid = pid
-            obj.journal_acron = journal_acron
             obj.creator = user
             obj.save()
             return obj
