@@ -156,7 +156,7 @@ class JournalPayload:
         self.data["short_title"] = short_title
 
     def add_journal_issns(self, scielo_issn, eletronic_issn, print_issn=None):
-        # self.data["scielo_issn"] = scielo_issn
+        self.data["scielo_issn"] = scielo_issn
         self.data["print_issn"] = print_issn
         self.data["eletronic_issn"] = eletronic_issn
 
@@ -217,7 +217,7 @@ class JournalPayload:
                     "reason": reason or "",
                 }
             )
-            # self.data["current_status"] = self.data["status_history"][-1].status
+            self.data["current_status"] = self.data["status_history"][-1]["status"]
 
     def add_mission(self, language, description):
         """
