@@ -58,6 +58,7 @@ def create_or_update_journal(
     # TODO
     # for publisher_name in classic_website_journal.raw_publisher_names:
     #     journal.add_publisher(user, publisher_name)
+    # journal.subject.add()
 
     journal_proc.update(
         user=user,
@@ -69,8 +70,7 @@ def create_or_update_journal(
         force_update=force_update,
     )
 
-    jc = JournalCollection.create_or_update(
-        user, collection, journal, journal_proc.pid, journal_proc.acron)
+    jc = JournalCollection.create_or_update(user, collection, journal)
 
     create_journal_history(user, jc, classic_website_journal)
     return journal
