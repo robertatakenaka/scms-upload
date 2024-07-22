@@ -315,7 +315,7 @@ class Article(ClusterableModel, CommonControlField):
                     section_position = toc.issue_sections.filter(
                         Q(main_section__text__in=sections) |
                         Q(translations__text__in=sections),
-                    ).position * 1000
+                    ).order_by("-position").first().position * 1000
                     self.position = section_position + Article.objects.filter(
                         sections__text__in=sections,
                         issue=self.issue,
@@ -337,6 +337,17 @@ class Article(ClusterableModel, CommonControlField):
                 toc__issue=self.issue,
             ):
                 yield from issue_section.data
+
+    def update_status(self, new_status=None):
+        # AS_CHANGE_SUBMITTED = "change-submitted"
+        # AS_REQUIRE_UPDATE = "required-update"
+        # AS_REQUIRE_ERRATUM = "required-erratum"
+        # AS_PREPARE_TO_PUBLISH = "prepare-to-publish"
+        # AS_READY_TO_PUBLISH = "ready-to-publish"
+        # AS_SCHEDULED_TO_PUBLISH = "scheduled-to-publish"
+        # AS_PUBLISHED = "published"
+        self.status = new_status or choices.AS_PUBLISHED
+        self.save()
 
 
 class ArticleDOIWithLang(Orderable, DOIWithLang):
