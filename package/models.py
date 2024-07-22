@@ -495,6 +495,7 @@ class SPSPkg(CommonControlField, ClusterableModel):
             return obj
 
         except Exception as e:
+            logging.exception(e)
             exc_type, exc_value, exc_traceback = sys.exc_info()
             operation.finish(
                 user,
@@ -654,14 +655,6 @@ class SPSPkg(CommonControlField, ClusterableModel):
             self.upload_assets_to_the_cloud,
             **{"original_pkg_components": original_pkg_components},
         )
-
-        try:
-            # article_proc igual a upload.Package
-            new_pubdate = article_proc.new_pubdate
-            update_pubdate = article_proc.update_pubdate
-        except AttributeError:
-            new_pubdate = None
-            update_pubdate = False
         self.upload_items_to_the_cloud(
             user,
             article_proc,
