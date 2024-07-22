@@ -1,5 +1,6 @@
 import logging
 
+from django.conf import settings
 from django.db import IntegrityError, models
 from django.db.models import Q
 from django.utils.translation import gettext_lazy as _
@@ -10,6 +11,7 @@ from wagtailautocomplete.edit_handlers import AutocompletePanel
 from wagtail.models import Orderable
 
 from core.models import CommonControlField, IssuePublicationDate
+from core.utils.requester import fetch_data
 from journal.models import Journal, JournalSection
 
 from issue.forms import IssueForm, TOCForm
@@ -144,6 +146,7 @@ class Issue(CommonControlField, IssuePublicationDate):
         publication_year,
         is_continuous_publishing_model=None,
         total_documents=None,
+        order=None,
     ):
         try:
             obj = cls()
@@ -152,7 +155,7 @@ class Issue(CommonControlField, IssuePublicationDate):
             obj.supplement = supplement
             obj.number = number
             obj.publication_year = publication_year
-            obj.order = obj.generate_order()
+            obj.order = order or obj.generate_order()
             obj.is_continuous_publishing_model = is_continuous_publishing_model
             obj.total_documents = total_documents
             obj.creator = user
@@ -182,6 +185,7 @@ class Issue(CommonControlField, IssuePublicationDate):
         user,
         is_continuous_publishing_model=None,
         total_documents=None,
+        order=None,
     ):
         try:
             obj = cls.get(
@@ -190,9 +194,12 @@ class Issue(CommonControlField, IssuePublicationDate):
                 supplement=supplement,
                 number=number,
             )
-            obj.is_continuous_publishing_model = is_continuous_publishing_model
-            obj.total_documents = total_documents
-            obj.publication_year = publication_year
+            obj.is_continuous_publishing_model = is_continuous_publishing_model or obj.is_continuous_publishing_model
+            obj.total_documents = total_documents or obj.total_documents
+            obj.publication_year = publication_year or obj.publication_year
+            obj.order = order or obj.order
+            obj.updated_by = user
+            obj.save()
             return obj
         except cls.DoesNotExist:
             return cls.create(
@@ -204,6 +211,7 @@ class Issue(CommonControlField, IssuePublicationDate):
                 publication_year,
                 is_continuous_publishing_model,
                 total_documents,
+                order
             )
 
     def generate_order(self, suppl_start=1000, spe_start=2000):
