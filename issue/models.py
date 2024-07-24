@@ -45,6 +45,7 @@ class Issue(CommonControlField, IssuePublicationDate):
     is_continuous_publishing_model = models.BooleanField(null=True, blank=True)
     order = models.PositiveSmallIntegerField(
         null=True, blank=True, help_text=_("This number controls the order issues appear for a specific year on the website grid"))
+    issue_pid_suffix = models.CharField(max_length=4, null=True, blank=True)
 
     def __unicode__(self):
         return "%s %s" % (
@@ -101,6 +102,8 @@ class Issue(CommonControlField, IssuePublicationDate):
         FieldPanel("supplement"),
         FieldPanel("is_continuous_publishing_model"),
         FieldPanel("total_documents"),
+        FieldPanel("order"),
+        FieldPanel("issue_pid_suffix", read_only=True),
     ]
 
     base_form_class = IssueForm
@@ -147,6 +150,7 @@ class Issue(CommonControlField, IssuePublicationDate):
         is_continuous_publishing_model=None,
         total_documents=None,
         order=None,
+        issue_pid_suffix=None,
     ):
         try:
             obj = cls()
@@ -156,6 +160,7 @@ class Issue(CommonControlField, IssuePublicationDate):
             obj.number = number
             obj.publication_year = publication_year
             obj.order = order or obj.generate_order()
+            obj.issue_pid_suffix = issue_pid_suffix or str(obj.generate_order()).zfill(4)
             obj.is_continuous_publishing_model = is_continuous_publishing_model
             obj.total_documents = total_documents
             obj.creator = user
@@ -186,6 +191,7 @@ class Issue(CommonControlField, IssuePublicationDate):
         is_continuous_publishing_model=None,
         total_documents=None,
         order=None,
+        issue_pid_suffix=None,
     ):
         try:
             obj = cls.get(
@@ -197,7 +203,10 @@ class Issue(CommonControlField, IssuePublicationDate):
             obj.is_continuous_publishing_model = is_continuous_publishing_model or obj.is_continuous_publishing_model
             obj.total_documents = total_documents or obj.total_documents
             obj.publication_year = publication_year or obj.publication_year
-            obj.order = order or obj.order
+            obj.order = order or obj.order or obj.generate_order()
+            obj.issue_pid_suffix = issue_pid_suffix or obj.issue_pid_suffix
+            if not obj.issue_pid_suffix and self.order:
+                obj.issue_pid_suffix = str(obj.order).zfill(4)
             obj.updated_by = user
             obj.save()
             return obj
@@ -211,7 +220,8 @@ class Issue(CommonControlField, IssuePublicationDate):
                 publication_year,
                 is_continuous_publishing_model,
                 total_documents,
-                order
+                order,
+                issue_pid_suffix,
             )
 
     def generate_order(self, suppl_start=1000, spe_start=2000):
@@ -303,6 +313,9 @@ class TOC(CommonControlField, ClusterableModel):
 
     base_form_class = TOCForm
 
+    def __str__(self):
+        return f"{self.issue}"
+
     @classmethod
     def create(cls, user, issue, ordered):
         try:
@@ -329,50 +342,58 @@ class TOC(CommonControlField, ClusterableModel):
     @property
     def ordered_sections(self):
         sections = {}
-        for item in IssueSection.objects.filter(toc=self):
-            sections.setdefault(item["order"], [])
-            sections[item["order"]].append(item)
+        for item in TocSection.objects.filter(toc=self).order_by("position"):
+            key = (item.position, item.group)
+            sections.setdefault(key, {})
+            sections[key].update({item.section.language.code2: item.section.text})
         return sections
 
 
-class IssueSection(CommonControlField, Orderable):
+class TocSection(CommonControlField, Orderable):
     toc = ParentalKey(TOC, on_delete=models.CASCADE, related_name="issue_sections")
-    main_section = models.ForeignKey(JournalSection, null=True, blank=True, on_delete=models.SET_NULL, related_name="main_section_toc")
-    translations = models.ManyToManyField(JournalSection, related_name="translated_section_toc")
+    group = models.CharField(max_length=16, null=True, blank=True)
+    section = models.ForeignKey(JournalSection, null=True, blank=True, on_delete=models.CASCADE)
     position = models.PositiveSmallIntegerField(_("Position"), blank=True, null=True)
 
     panels = [
-        AutocompletePanel("main_section"),
-        AutocompletePanel("translations"),
+        FieldPanel("position"),
+        FieldPanel("group"),
+        AutocompletePanel("section"),
     ]
 
     class Meta:
-        ordering = ["position"]
+        ordering = ["group", "position"]
+        unique_together = [("toc", "group", "section")]
 
     @classmethod
-    def create(cls, user, toc, main_section):
+    def create(cls, user, toc, group):
         try:
-            obj = cls(creator=user, toc=toc, main_section=main_section)
+            obj = cls(creator=user, toc=toc, group=group, section=section)
             obj.save()
             return obj
         except IntegrityError as e:
-            return cls.get(toc, main_section)
+            return cls.get(toc, group)
 
     @classmethod
-    def create_or_update(cls, user, toc, main_section):
+    def create_or_update(cls, user, toc, group, section):
         try:
-            obj = cls.get(toc, main_section)
-            obj.save()
-            return obj
+            return cls.get(toc, group, section)
         except cls.DoesNotExist:
-            return cls.create(user, toc, main_section)
+            return cls.create(user, toc, group, section)
 
     @classmethod
-    def get(cls, toc, main_section):
-        return cls.objects.get(toc=toc, main_section=main_section)
+    def get(cls, toc, group, section):
+        return cls.objects.get(toc=toc, group=group, section=section)
 
-    @property
-    def data(self):
-        yield self.main_section.data
-        for item in self.translations.all():
-            yield item.data
+    @staticmethod
+    def get_section_position(issue, section_title=None, group=None):
+        params = {}
+        if section_title:
+            params["section__text"] = section_title
+        if group:
+            params["group"] = group
+        try:
+            if params:
+                return TocSection.objects.filter(toc__issue=issue, **params).first().position
+        except AttributeError:
+            return 0

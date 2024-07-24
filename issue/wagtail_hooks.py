@@ -37,6 +37,7 @@ class IssueAdmin(ModelAdmin):
     list_display = (
         "journal",
         "publication_year",
+        "order",
         "volume",
         "number",
         "supplement",

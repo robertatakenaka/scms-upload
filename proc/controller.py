@@ -197,7 +197,7 @@ def create_journal_procs(user, journal):
         if response:
             for journal_data in response.get("results"):
                 for item in journal_data["scielo_journal"]:
-                    _collection = Collection.objects.get(collection__acron=item["collection"])
+                    _collection = Collection.objects.get(collection__acron=item["collection_acron"])
                     journal_proc = JournalProc.get_or_create(
                         user, _collection, item["issn_scielo"],
                     )
@@ -254,19 +254,16 @@ def create_issue_from_fetched_data(journal, volume, suppl, number, user):
 
 def create_issue_procs(user, issue):
     if not IssueProc.objects.filter(issue=issue).exists():
-        response = fetch_issue_data(issue.journal, issue.volume, issue.suppl, issue.number)
         try:
-            for issue_data in response.get("results"):
+            for journal_proc in JournalProc.objects.filter(journal=issue.journal):
                 try:
-                    for item in issue_data["scielo_issue"]:
-                        _collection = Collection.objects.get(collection__acron=item["collection"])
-                        journal_proc = JournalProc.objects.get(collection=_collection, journal=issue.journal)
-                        issue_proc = IssueProc.get_or_create(
-                            user, _collection, item["pid"],
-                        )
-                        issue_proc.journal_proc = journal_proc
-                        issue_proc.save()
-                        yield issue_proc
+                    issue_pid_suffix = issue.order.zfill(4)
+                    issue_proc = IssueProc.get_or_create(
+                        user, journal_proc.collection, pid=f"{journal_proc.pid}{issue.publication_year}{issue_pid_suffix}",
+                    )
+                    issue_proc.journal_proc = journal_proc
+                    issue_proc.save()
+                    yield issue_proc
                 except Exception as e:
                     raise UnableToCreateIssueProcsError()
         except Exception as e:

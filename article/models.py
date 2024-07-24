@@ -24,7 +24,7 @@ from collection import choices as collection_choices
 from collection.models import Collection, Language
 from core.models import CommonControlField, HTMLTextModel
 from doi.models import DOIWithLang
-from issue.models import Issue, TOC, IssueSection
+from issue.models import Issue, TOC, TocSection
 from journal.models import Journal, OfficialJournal, JournalSection
 from package.models import SPSPkg
 from researcher.models import Researcher
@@ -67,9 +67,7 @@ class Article(ClusterableModel, CommonControlField):
         null=True,
     )
     position = models.PositiveSmallIntegerField(_("Position"), blank=True, null=True)
-    first_publication_date = models.DateField(
-        null=True, blank=True
-    )
+    first_publication_date = models.DateField(null=True, blank=True)
 
     # Page
     elocation_id = models.CharField(
@@ -175,6 +173,14 @@ class Article(ClusterableModel, CommonControlField):
             return self.position
 
     @property
+    def is_public(self):
+        return bool(
+            self.first_publication_date
+            and self.first_publication_date.isoformat()[:10]
+            <= datetime.utcnow().isoformat()[:10]
+        )
+
+    @property
     def data(self):
         # TODO completar com itens que identifique o artigo
         return dict(
@@ -218,7 +224,7 @@ class Article(ClusterableModel, CommonControlField):
         else:
             obj.add_issue(user)
 
-        obj.status = choices.AS_READY_TO_PUBLISH
+        obj.status = obj.status or choices.AS_READY_TO_PUBLISH
         obj.add_pages()
         obj.add_sections(user)
         obj.add_article_publication_date()
@@ -273,7 +279,7 @@ class Article(ClusterableModel, CommonControlField):
                 user,
                 parent=self,
                 text=title.get("html_text"),
-                language=Language.get(code2=title.get("language") or title.get("lang"))
+                language=Language.get(code2=title.get("language") or title.get("lang")),
             )
             self.title_with_lang.add(obj)
 
@@ -281,19 +287,37 @@ class Article(ClusterableModel, CommonControlField):
         self.save()
         self.sections.all().delete()
 
-        items = ArticleTocSections(
+        xml_sections = ArticleTocSections(
             xmltree=self.sps_pkg.xml_with_pre.xmltree,
-        ).article_section
+        )
 
-        issue_section = None
+        items = xml_sections.article_section
+        items.extend(xml_sections.sub_article_section)
+
+        logging.info(list(items))
+
+        try:
+            toc = TOC.objects.get(issue=issue)
+        except TOC.DoesNotExist:
+            toc = TOC.create_or_update(user, issue, ordered=False)
+
         for item in items:
-            section = JournalSection.create_or_update(
-                user,
-                parent=self.journal,
-                language=Language.get(code2=item.get("lang")),
-                text=item.get("text"),
-                code=item.get("code")
-            )
+            logging.info(f"section: {item}")
+            try:
+                language = Language.get(code2=item.get("lang"))
+                section = JournalSection.objects.get(
+                    parent=self.journal,
+                    language=language,
+                    text=item.get("text"),
+                )
+            except JournalSection.DoesNotExist:
+                section = JournalSection.create_or_update(
+                    user,
+                    parent=self.journal,
+                    language=language,
+                    text=item.get("text"),
+                    code=item.get("code"),
+                )
             self.sections.add(section)
 
     def add_article_publication_date(self):
@@ -307,36 +331,50 @@ class Article(ClusterableModel, CommonControlField):
             self.position = position
             self.save()
             return
-        try:
-            toc = TOC.objects.get(issue=self.issue)
-            if toc.ordered:
-                sections = [item.text for item in self.sections.all()]
-                if sections:
-                    section_position = toc.issue_sections.filter(
-                        Q(main_section__text__in=sections) |
-                        Q(translations__text__in=sections),
-                    ).order_by("-position").first().position * 1000
-                    self.position = section_position + Article.objects.filter(
-                        sections__text__in=sections,
-                        issue=self.issue,
-                    ).count() + 1
-                else:
-                    self.position = Article.objects.filter(
-                        issue=self.issue).count() + 1
-                self.save()
-        except TOC.DoesNotExist:
-            pass
+
+        if self.position:
+            return self.position
+
+        sections = [item.text for item in self.sections.all()]
+        position = 0
+        for item in self.sections.all():
+            group = item.code
+            section_title = item.text
+            position = TocSection.get_section_position(self.issue, section_title, group) or 0
+            break
+
+        self.position = position * 10000 + Article.objects.filter(sections__text__in=sections).count()
+        self.save()
 
     @property
     def multilingual_sections(self):
+        items = {}
+        sections = [item.code for item in self.sections.all()]
+        if sections:
+            for item in TocSection.objects.filter(
+                toc__issue=self.issue, group=sections[0]
+            ):
+                items[item.language.code2] = item.text
+            return items
+
         sections = [item.text for item in self.sections.all()]
         if sections:
-            for issue_section in IssueSection.objects.filter(
-                Q(main_section__text__in=sections) |
-                Q(translations__text__in=sections),
-                toc__issue=self.issue,
+            for item in TocSection.objects.filter(
+                toc__issue=self.issue, section__text__in=sections
             ):
-                yield from issue_section.data
+                items[item.section.language.code2] = item.section.text
+
+            if not items:
+                for item in JournalSection.objects.filter(
+                    journal=self.issue.journal, text__in=sections
+                ):
+                    items[item.language.code2] = item.text
+
+        return items
+
+    @property
+    def display_sections(self):
+        return str(self.multilingual_sections)
 
     def update_status(self, new_status=None):
         # AS_CHANGE_SUBMITTED = "change-submitted"

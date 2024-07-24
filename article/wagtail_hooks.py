@@ -45,6 +45,7 @@ class ArticleModelAdmin(ModelAdmin):
     list_display = (
         "__str__",
         "status",
+        "display_sections",
         "order",
         "fpage",
         "position",

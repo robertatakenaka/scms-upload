@@ -874,10 +874,10 @@ class IssueProc(BaseProc, ClusterableModel):
     )
 
     def __unicode__(self):
-        return f"{self.journal_proc.acron} {self.issue_folder} ({self.collection.name})"
+        return f"{self.journal_proc.acron} {self.issue_folder} ({self.collection})"
 
     def __str__(self):
-        return f"{self.journal_proc.acron} {self.issue_folder} ({self.collection.name})"
+        return f"{self.journal_proc.acron} {self.issue_folder} ({self.collection})"
 
     journal_proc = models.ForeignKey(
         JournalProc, on_delete=models.SET_NULL, null=True, blank=True

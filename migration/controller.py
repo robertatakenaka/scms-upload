@@ -16,7 +16,7 @@ from article.models import Article
 from core.controller import parse_yyyymmdd
 from collection.models import Language
 from htmlxml.models import HTMLXML
-from issue.models import Issue, IssueSection, TOC
+from issue.models import Issue, TocSection, TOC
 from journal.models import Journal, OfficialJournal, JournalSection, JournalCollection, JournalHistory
 from migration.models import IdFileRecord, JournalAcronIdFile, MigratedFile
 from tracker import choices as tracker_choices
@@ -139,6 +139,8 @@ def create_or_update_issue(
             not classic_website_issue.number and not classic_website_issue.supplement
         ),
         total_documents=classic_website_issue.total_documents,
+        order=int(classic_website_issue.order[-4:]),
+        issue_pid_suffix=classic_website_issue.order[-4:],
     )
     issue_proc.update(
         user=user,
@@ -152,20 +154,25 @@ def create_or_update_issue(
     toc = TOC.create_or_update(
         user, issue, ordered=True,
     )
+    languages = {}
     for code, sections in classic_website_issue.sections_by_code.items():
         issue_section = None
         for section in sections:
+            lang_code = section.get("language")
+
+            # reduz consulta em banco de dados
+            try:
+                language = languages[lang_code]
+            except KeyError:
+                languages[lang_code] = Language.get_or_create(creator=user, code2=lang_code)
             sec = JournalSection.create_or_update(
                 user,
                 issue_proc.journal_proc.journal,
-                language=Language.get_or_create(creator=user, code2=section.get("language")),
+                language=languages[lang_code],
                 code=section.get("code"),
                 text=section.get("text")
             )
-            if issue_section is None:
-                issue_section = IssueSection.create_or_update(user, toc, sec)
-            else:
-                issue_section.translations.add(sec)
+            TocSection.create_or_update(user, toc, section.get("code"), sec)
     return issue
 
 

@@ -81,9 +81,9 @@ def build_article(builder, article, journal_id, order, pub_date):
     for item in article_xml.get_translated_title():
         builder.add_translated_title(**item)
 
-    for item in article.multilingual_sections:
+    for language, text in article.multilingual_sections.items():
         # pega as seções a partir do Article
-        builder.add_section(**item)
+        builder.add_section(language=language, text=text, code=None)
 
     for item in article_xml.get_keywords():
         builder.add_keywords(**item)
