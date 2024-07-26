@@ -820,7 +820,7 @@ class JournalProc(BaseProc, ClusterableModel):
 
     def issues_with_modified_articles(self):
         for item in JournalAcronIdFile.issues_with_modified_articles(
-            collection=self.collection, journal=self.journal
+            collection=self.collection, journal_acron=self.acron
         ):
             yield from IssueProc.objects.filter(
                 collection=self.collection,
@@ -829,13 +829,13 @@ class JournalProc(BaseProc, ClusterableModel):
             )
 
     @classmethod
-    def journals_with_modified_articles(cls, collection=None, journal=None):
+    def journals_with_modified_articles(cls, collection=None, journal_acron=None):
         for item in JournalAcronIdFile.journals_with_modified_articles(
-            collection=collection, journal=journal
+            collection=collection, journal_acron=journal_acron
         ):
             yield from JournalProc.objects.filter(
                 collection=item.collection,
-                journal=item.journal,
+                acron=item.journal_acron,
             )
 
 
@@ -875,10 +875,10 @@ class IssueProc(BaseProc, ClusterableModel):
     )
 
     def __unicode__(self):
-        return f"{self.journal_proc.acron} {self.issue_folder} ({self.collection.name})"
+        return f"{self.journal_proc.acron} {self.issue_folder} ({self.collection})"
 
     def __str__(self):
-        return f"{self.journal_proc.acron} {self.issue_folder} ({self.collection.name})"
+        return f"{self.journal_proc.acron} {self.issue_folder} ({self.collection})"
 
     journal_proc = models.ForeignKey(
         JournalProc, on_delete=models.SET_NULL, null=True, blank=True
@@ -1137,7 +1137,7 @@ class IssueProc(BaseProc, ClusterableModel):
         id_file_records = list(
             JournalAcronIdFile.modified_articles(
                 collection=self.journal_proc.collection,
-                journal=self.journal_proc.journal,
+                journal_acron=self.journal_proc.acron,
                 issue_folder=self.issue_folder,
             )
         )
@@ -1215,6 +1215,17 @@ class IssueProc(BaseProc, ClusterableModel):
                 force_update=force_update,
             )
         return article_proc
+
+    @staticmethod
+    def get_or_generate_issue_pid(issue):
+        try:
+            issue_proc = IssueProc.objects.filter(issue=issue).first()
+            return issue_proc.pid
+        except AttributeError:
+            issn_id = issue_proc.journal_proc.pid
+            year = issue.publication_year
+            issue_order = str(issue.order).zfill(4)
+            return f"{issn_id}{year}{issue_order}"
 
 
 class ArticleEventCreateError(Exception):
