@@ -23,7 +23,11 @@ from journal.models import (
     JournalHistory,
     JournalSection,
     OfficialJournal,
+    Subject,
+    Owner,
+    Publisher,
 )
+from institution.models import Institution
 from migration.models import IdFileRecord, JournalAcronIdFile, MigratedFile
 from tracker import choices as tracker_choices
 from tracker.models import UnexpectedEvent, format_traceback
@@ -60,11 +64,32 @@ def create_or_update_journal(
     journal = Journal.create_or_update(
         user=user,
         official_journal=official_journal,
+        short_title=classic_website_journal.abbreviated_title,
+        title=classic_website_journal.title,
+        acron=classic_website_journal.acronym,
     )
-    # TODO
-    # for publisher_name in classic_website_journal.raw_publisher_names:
-    #     journal.add_publisher(user, publisher_name)
-    # journal.subject.add()
+    journal.license_code = classic_website_journal.permissions
+    journal.nlm_title = classic_website_journal.title_nlm
+    journal.doi_prefix = None
+    journal.save()
+
+    for code in classic_website_journal.subject_areas:
+        journal.subjects.add(Subject.create_or_update(user, code))
+
+    for publisher_name in classic_website_journal.raw_publisher_names:
+        institution = Institution.get_or_create(
+            inst_name=publisher_name,
+            inst_acronym=None,
+            level_1=None,
+            level_2=None,
+            level_3=None,
+            location=None,
+            user=user,
+        )
+        p = Publisher(journal=journal, institution=institution, creator=user)
+        p.save()
+        p = Owner(journal=journal, institution=institution, creator=user)
+        p.save()
 
     journal_proc.update(
         user=user,

@@ -16,7 +16,7 @@ from core.choices import MONTHS
 from core.forms import CoreAdminModelForm
 from core.models import CommonControlField, HTMLTextModel, TextModel
 from core.utils.requester import fetch_data
-from institution.models import InstitutionHistory
+from institution.models import Institution, InstitutionHistory
 
 from . import choices
 from .exceptions import (
@@ -29,7 +29,11 @@ from .forms import OfficialJournalForm
 
 class JournalSection(TextModel, CommonControlField):
     parent = models.ForeignKey(
-        "Journal", blank=True, null=True, on_delete=models.SET_NULL
+        "Journal",
+        blank=True,
+        null=True,
+        on_delete=models.SET_NULL,
+        related_name="j_sections",
     )
     code = models.CharField(max_length=16, null=True, blank=True)
 
@@ -104,17 +108,31 @@ class JournalSection(TextModel, CommonControlField):
 
     @staticmethod
     def sections(journal):
-        for item in JournalSection.objects.filter(journal=journal):
+        for item in JournalSection.objects.filter(parent=journal):
             yield item.data
 
     @staticmethod
     def sections_by_code(journal):
-        if JournalSection.objects.filter(journal=journal, code__isnull=False).exists():
-            items = {}
-            for item in JournalSection.objects.filter(journal=journal):
+        items = {}
+        if JournalSection.objects.filter(parent=journal, code__isnull=False).exists():
+            for item in JournalSection.objects.filter(parent=journal):
                 items.setdefault(item.code, [])
                 items[item.code].append(item.data)
-        return []
+        return items
+
+    @staticmethod
+    def section_titles_by_language(journal):
+        # expected_toc_sections : dict, such as:
+        #     {
+        #         "en": ["Health Sciences"],
+        #         "pt": ["Ciências da Saúde"]
+        #     }
+        d = {}
+        for item in JournalSection.objects.filter(parent=journal).iterator():
+            language = item.language.code2
+            d.setdefault(language, [])
+            d[language].append(item.text)
+        return d
 
 
 class OfficialJournal(CommonControlField):
@@ -230,6 +248,7 @@ class Journal(CommonControlField, ClusterableModel):
         _("Short Title"), max_length=100, null=True, blank=True
     )
     title = models.CharField(_("Title"), max_length=265, null=True, blank=True)
+    acron = models.CharField(_("Journal Acronym"), max_length=8, null=True, blank=True)
     official_journal = models.ForeignKey(
         "OfficialJournal",
         null=True,
@@ -245,6 +264,9 @@ class Journal(CommonControlField, ClusterableModel):
         verbose_name=_("Study Areas"),
         blank=True,
     )
+    license_code = models.CharField(max_length=16, null=True, blank=True)
+    nlm_title = models.CharField(max_length=265, null=True, blank=True)
+    doi_prefix = models.CharField(max_length=16, null=True, blank=True)
 
     def __unicode__(self):
         return self.title or self.short_title or str(self.official_journal)
@@ -307,6 +329,7 @@ class Journal(CommonControlField, ClusterableModel):
 
     @staticmethod
     def exists(journal_title, issn_electronic, issn_print, user):
+        logging.info(f"journal.exists: {(journal_title, issn_electronic, issn_print)}")
         try:
             return Journal.get_registered(journal_title, issn_electronic, issn_print)
         except Journal.DoesNotExist:
@@ -353,8 +376,8 @@ class Journal(CommonControlField, ClusterableModel):
             logging.exception(e)
             return
 
-        for journal in response.get("results"):
-            official = journal["official"]
+        for result in response.get("results"):
+            official = result["official"]
             official_journal = OfficialJournal.create_or_update(
                 title=official["title"],
                 title_iso=official["iso_short_title"],
@@ -367,11 +390,84 @@ class Journal(CommonControlField, ClusterableModel):
             journal = Journal.create_or_update(
                 user=user,
                 official_journal=official_journal,
-                title=journal.get("title"),
-                short_title=journal.get("short_title"),
+                title=result.get("title"),
+                short_title=result.get("short_title"),
             )
-            # TODO journal collection events, dados das coleções (acron, pid, ...)
-            return journal
+            journal.license_code = result.get("journal_use_license")
+            journal.nlm_title = result.get("nlm_title")
+            journal.doi_prefix = result.get("doi_prefix")
+            journal.save()
+
+        for item in result.get("Subject") or []:
+            journal.subjects.add(Subject.create_or_update(user, item["value"]))
+
+        for item in result.get("publisher") or []:
+            institution = Institution.get_or_create(
+                inst_name=item["name"],
+                inst_acronym=None,
+                level_1=None,
+                level_2=None,
+                level_3=None,
+                location=None,
+                user=user,
+            )
+            p = Publisher(journal=journal, institution=institution, creator=user)
+            p.save()
+
+        for item in result.get("owner") or []:
+            institution = Institution.get_or_create(
+                inst_name=item["name"],
+                inst_acronym=None,
+                level_1=None,
+                level_2=None,
+                level_3=None,
+                location=None,
+                user=user,
+            )
+            p = Owner(journal=journal, institution=institution, creator=user)
+            p.save()
+
+        for item in result.get("scielo_journal") or []:
+            try:
+                collection = Collection.objects.get(acron=item["collection_acron"])
+            except Collection.DoesNotExist:
+                continue
+            journal.acron = item.get("journal_acron")
+            journal_collection = JournalCollection.create_or_update(
+                user, collection, journal
+            )
+            for jh in item.get("journal_history") or []:
+                JournalHistory.create_or_update(
+                    user,
+                    journal_collection,
+                    jh["event_type"],
+                    jh["year"],
+                    jh["month"],
+                    jh["day"],
+                    jh["interruption_reason"],
+                )
+        return journal
+
+    @classmethod
+    def create(
+        cls,
+        user,
+        official_journal=None,
+        title=None,
+        short_title=None,
+        acron=None,
+    ):
+        try:
+            obj = cls()
+            obj.creator = user
+            obj.official_journal = official_journal
+            obj.title = title or obj.title
+            obj.short_title = short_title or obj.short_title
+            obj.acron = acron
+            obj.save()
+            return obj
+        except IntegrityError:
+            return cls.get(official_journal)
 
     @classmethod
     def get(cls, official_journal):
@@ -386,6 +482,7 @@ class Journal(CommonControlField, ClusterableModel):
         official_journal=None,
         title=None,
         short_title=None,
+        acron=None,
     ):
         logging.info(f"Journal.create_or_update({official_journal}")
         try:
@@ -393,19 +490,14 @@ class Journal(CommonControlField, ClusterableModel):
             logging.info("update {}".format(obj))
             obj.updated_by = user
             obj.updated = datetime.utcnow()
+            obj.official_journal = official_journal or obj.official_journal
+            obj.title = title or obj.title
+            obj.short_title = short_title or obj.short_title
+            obj.acron = acron
+            obj.save()
+            return obj
         except cls.DoesNotExist:
-            obj = cls()
-            obj.official_journal = official_journal
-            obj.creator = user
-            logging.info("create {}".format(obj))
-
-        obj.official_journal = official_journal or obj.official_journal
-        obj.title = title or obj.title
-        obj.short_title = short_title or obj.short_title
-
-        obj.save()
-        logging.info(f"return {obj}")
-        return obj
+            return cls.create(user, official_journal, title, short_title, acron)
 
     @property
     def any_issn(self):
@@ -416,10 +508,29 @@ class Journal(CommonControlField, ClusterableModel):
     @property
     def is_multilingual(self):
         try:
-            return self.journal.text_language.count() > 1
+            return len(self.j_sections.all().values("language__code2")) > 1
         except AttributeError:
             # na dúvida, retorna True
             return True
+
+    @property
+    def toc_sections(self):
+        return JournalSection.section_titles_by_language(self)
+
+    def is_indexed_at(self, database):
+        # TODO
+        return True
+
+    @property
+    def publisher_names(self):
+        # TODO verificar se é owner ou publisher ou ambos
+        names = []
+        for item in self.owner.all():
+            names.append(item.institution.name)
+        for item in self.publisher.all():
+            if item.institution.name not in names:
+                names.append(item.institution.name)
+        return names
 
 
 class Owner(Orderable, InstitutionHistory):
