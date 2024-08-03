@@ -342,9 +342,6 @@ class SPSPkg(CommonControlField, ClusterableModel):
         blank=True,
         choices=choices.PKG_ORIGIN,
     )
-    # publicar somente a partir da data informada
-    scheduled = models.DateTimeField(null=True, blank=True)
-
     # o pacote pode ter pid_v3, sem estar registrado no pid provider core
     registered_in_core = models.BooleanField(null=True, blank=True)
 

@@ -5,6 +5,7 @@ from django.conf import settings
 
 from collection.models import Collection
 from core.utils.requester import fetch_data
+from issue.models import Issue
 from journal.models import Journal, OfficialJournal
 from migration import controller
 from proc.models import IssueProc, JournalProc
@@ -225,8 +226,8 @@ def create_journal_procs(user, journal):
 def fetch_and_create_issue(journal, volume, suppl, number, user):
     response = fetch_issue_data(journal, volume, suppl, number)
     if response:
-        for issue_data in response.get("results"):
-            return create_issue_from_fetched_data(issue_data, user)
+        for result in response.get("results"):
+            return create_issue_from_fetched_data(journal, result, user)
 
 
 def fetch_issue_data(journal, volume, suppl, number, user):
@@ -251,17 +252,15 @@ def fetch_issue_data(journal, volume, suppl, number, user):
             return
 
 
-def create_issue_from_fetched_data(journal, volume, suppl, number, user):
-    for issue in response.get("results"):
-        issue = Issue.get_or_create(
-            journal=journal,
-            volume=issue["volume"],
-            supplement=issue["supplement"],
-            number=issue["number"],
-            publication_year=issue["year"],
-            user=user,
-        )
-        return issue
+def create_issue_from_fetched_data(journal, result, user):
+    return Issue.get_or_create(
+        journal=journal,
+        volume=result["volume"],
+        supplement=result["supplement"],
+        number=result["number"],
+        publication_year=result["year"],
+        user=user,
+    )
 
 
 def create_issue_procs(user, issue):

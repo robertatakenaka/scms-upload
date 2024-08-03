@@ -2,6 +2,7 @@ import logging
 import sys
 from datetime import datetime
 from zipfile import ZIP_DEFLATED, ZipFile
+import traceback
 
 from django.utils.translation import gettext as _
 from packtools.sps.models.front_articlemeta_issue import ArticleMetaIssue
@@ -20,11 +21,15 @@ from package.models import SPSPkg
 from pid_provider.requester import PidRequester
 from tracker.models import UnexpectedEvent
 from upload import xml_validation
-from upload.models import ValidationReport, XMLError, XMLErrorReport, XMLInfoReport
-from upload.xml_validation import validate_xml_content
-
-from .models import Package, choices
-from .utils import file_utils, package_utils, xml_utils
+from upload.models import (
+    Package,
+    ValidationReport,
+    XMLError,
+    XMLErrorReport,
+    XMLInfoReport,
+    choices,
+)
+from upload.utils import file_utils, package_utils, xml_utils
 
 pp = PidRequester()
 
@@ -61,8 +66,8 @@ def receive_package(request, package):
                     )
 
             package.article = response.get("article")
-            package.issue = response.get("issue") or package.article.issue
-            package.journal = response.get("journal") or package.article.journal
+            package.issue = response.get("issue") or package.article and package.article.issue
+            package.journal = response.get("journal") or package.article and package.article.journal
             package.category = response.get("package_category")
             package.status = response.get("package_status")
             package.expiration_date = response.get("previous_package")
@@ -76,7 +81,7 @@ def receive_package(request, package):
             package.xml_pubdate = article_pubdate
             package.save()
 
-            error = response.get("blocking_error")
+            error = response.get("blocking_error") or not package.journal or not package.issue
             if error:
                 report = ValidationReport.create_or_update(
                     user=user,
@@ -147,18 +152,23 @@ def _check_article_and_journal(xml_with_pre, user):
     response = {}
     try:
         response = pp.is_registered_xml_with_pre(xml_with_pre, xml_with_pre.filename)
+        logging.info(f"is_registered_xml_with_pre: {response}")
         # verifica se o XML é esperado (novo, requer correção, requer atualização)
         _check_package_is_expected(response)
+        logging.info(f"_check_package_is_expected: {response}")
 
         # verifica se journal e issue estão registrados
         xmltree = xml_with_pre.xmltree
 
         _check_journal(response, xmltree, user)
+        logging.info(f"_check_journal: {response}")
         _check_issue(response, xmltree, user)
+        logging.info(f"_check_issue: {response}")
 
         # verifica a consistência dos dados de journal e issue
         # no XML e na base de dados
         _check_xml_and_registered_data_compability(response)
+        logging.info(f"_check_xml_and_registered_data_compability: {response}")
 
         response["package_status"] = choices.PS_ENQUEUED_FOR_VALIDATION
         return response
@@ -258,10 +268,19 @@ def _check_xml_and_registered_data_compability(response):
             )
 
 
-def validate_xml_content(package, journal, issue):
+def validate_xml_content(package, journal):
+    params = {
+        # "get_doi_data": callable_get_doi_data,
+        "doi_required": journal.doi_prefix,
+        "expected_toc_sections": journal.toc_sections,
+        "journal_acron": journal.acron,
+        "publisher_name_list": journal.publisher_names,
+        "nlm_ta": journal.nlm_title,
+        "journal_license_code": journal.license_code,
+    }
     try:
         for xml_with_pre in XMLWithPre.create(path=package.file.path):
-            _validate_xml_content(xml_with_pre, package, journal, issue)
+            _validate_xml_content(xml_with_pre, package, params)
     except Exception as e:
         exc_type, exc_value, exc_traceback = sys.exc_info()
         UnexpectedEvent.create(
@@ -274,7 +293,7 @@ def validate_xml_content(package, journal, issue):
         )
 
 
-def _validate_xml_content(xml_with_pre, package, journal, issue):
+def _validate_xml_content(xml_with_pre, package, params):
 
     try:
         info_report = XMLInfoReport.create_or_update(
@@ -294,16 +313,19 @@ def _validate_xml_content(xml_with_pre, package, journal, issue):
         )
 
         results = xml_validation.validate_xml_content(
-            xml_with_pre.sps_pkg_name, xml_with_pre.xmltree, journal, issue
+            xml_with_pre.sps_pkg_name, xml_with_pre.xmltree, params
         )
         for result in results:
-            _handle_xml_content_validation_result(
-                package,
-                xml_with_pre.sps_pkg_name,
-                result,
-                info_report,
-                error_report,
-            )
+            if result.get("exception"):
+                _handle_exception(**result)
+            else:
+                _handle_xml_content_validation_result(
+                    package,
+                    xml_with_pre.sps_pkg_name,
+                    result,
+                    info_report,
+                    error_report,
+                )
         info_report.finish_validations()
         for error_report in package.xml_error_report.all():
             if error_report.xml_error.count():
@@ -374,13 +396,20 @@ def _handle_xml_content_validation_result(
         validation_result.parent_article_type = result.get("parent_article_type")
         validation_result.validation_type = result.get("validation_type") or "xml"
 
-        if status_ == choices.VALIDATION_RESULT_FAILURE:
+        if status_ != "OK":
             validation_result.advice = result.get("advice")
             validation_result.expected_value = result.get("expected_value")
             validation_result.got_value = result.get("got_value")
             validation_result.reaction = choices.ER_REACTION_FIX
 
-        validation_result.save()
+        try:
+            validation_result.save()
+        except Exception as e:
+            print(result)
+            logging.exception(e)
+            for k, v in result.items():
+                print((k, len(str(v)), v))
+
         return validation_result
     except Exception as e:
         exc_type, exc_value, exc_traceback = sys.exc_info()
@@ -398,3 +427,16 @@ def _handle_xml_content_validation_result(
                 },
             },
         )
+
+
+def _handle_exception(exception, exc_traceback, function, sps_pkg_name, item=None):
+    detail = {
+        "function": function,
+        "sps_pkg_name": sps_pkg_name,
+        "item": item and str(item),
+    }
+    UnexpectedEvent.create(
+        exception=exception,
+        exc_traceback=exc_traceback,
+        detail=detail,
+    )

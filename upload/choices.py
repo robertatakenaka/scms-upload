@@ -87,6 +87,11 @@ PACKAGE_STATUS = (
     (PS_PUBLISHED, _("Published")),
 )
 
+CRITICAL_ERROR_DECISION = (
+    (PS_REJECTED, _("Rejected")),
+    (PS_APPROVED_WITH_ERRORS, _("Approved with errors")),
+)
+
 QA_DECISION = (
     (PS_PENDING_CORRECTION, _("Pending for correction")),
     (PS_REJECTED, _("Rejected")),

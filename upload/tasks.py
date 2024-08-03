@@ -362,7 +362,7 @@ def task_validate_xml_content(
         else:
             issue = None
 
-        controller.validate_xml_content(package, journal, issue)
+        controller.validate_xml_content(package, journal)
 
     except Exception as e:
         exc_type, exc_value, exc_traceback = sys.exc_info()

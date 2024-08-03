@@ -72,10 +72,10 @@ class XMLErrorReportForm(CoreAdminModelForm):
             obj.package.save()
 
         if obj.xml_producer_ack:
-            obj.conclusion = choices.REPORT_CONCLUSION_DONE
+            obj.conclusion = choices.REPORT_CREATION_DONE
         self.save()
 
-        obj.package.calculate_error_review_stats()
+        obj.package.calculate_validation_numbers()
         return obj
 
 

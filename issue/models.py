@@ -215,7 +215,7 @@ class Issue(CommonControlField, IssuePublicationDate):
             obj.publication_year = publication_year or obj.publication_year
             obj.order = order or obj.order or obj.generate_order()
             obj.issue_pid_suffix = issue_pid_suffix or obj.issue_pid_suffix
-            if not obj.issue_pid_suffix and self.order:
+            if not obj.issue_pid_suffix and obj.order:
                 obj.issue_pid_suffix = str(obj.order).zfill(4)
             obj.updated_by = user
             obj.save()
@@ -400,8 +400,12 @@ class TocSection(CommonControlField, Orderable):
 
     @staticmethod
     def get_section_position(issue, sections=None):
-        codes = [item.code for item in self.sections.all() if item.code]
-        sections = [item.text for item in self.sections.all()]
+        codes = []
+        sections = []
+        for item in sections.all():
+            if item.code:
+                codes.append(item.code)
+            sections.append(item.text)
         params = {}
         if sections:
             params["section__text__in"] = sections

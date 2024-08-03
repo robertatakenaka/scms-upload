@@ -336,6 +336,7 @@ class Article(ClusterableModel, CommonControlField):
 
         position = TocSection.get_section_position(self.issue, self.sections) or 0
 
+        sections = [item.text for item in self.sections.all()]
         self.position = (
             position * 10000
             + Article.objects.filter(sections__text__in=sections).count()

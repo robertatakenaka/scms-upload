@@ -17,7 +17,14 @@ from packtools.sps.pid_provider.xml_sps_lib import (
     XMLWithPreArticlePublicationDateError,
     update_zip_file_xml,
 )
-from wagtail.admin.panels import FieldPanel, InlinePanel
+from wagtail.admin.panels import (
+    FieldPanel,
+    InlinePanel,
+    MultiFieldPanel,
+    ObjectList,
+    TabbedInterface,
+)
+from wagtail.models import Orderable
 from wagtailautocomplete.edit_handlers import AutocompletePanel
 
 from article import choices as article_choices
@@ -27,7 +34,7 @@ from core.models import CommonControlField
 from issue.models import Issue
 from package import choices as package_choices
 from package.models import SPSPkg
-from proc.models import IssueProc, JournalProc
+from proc.models import IssueProc, JournalProc, Operation
 from team.models import CollectionTeamMember
 from upload import choices
 from upload.forms import (
@@ -37,6 +44,7 @@ from upload.forms import (
     UploadValidatorForm,
     ValidationResultForm,
     XMLErrorReportForm,
+    UploadValidatorForm,
 )
 from upload.permission_helper import ACCESS_ALL_PACKAGES, ASSIGN_PACKAGE, FINISH_DEPOSIT
 from upload.utils import file_utils
@@ -49,24 +57,12 @@ class NotFinishedValitionsError(Exception):
 User = get_user_model()
 
 
-class Step:
-    def finish(
-        self,
-        user,
-        completed=False,
-        exception=None,
-        message_type=None,
-        message=None,
-        exc_traceback=None,
-        detail=None,
-    ):
-        pass
+class UploadProcResult(Operation, Orderable):
+    proc = ParentalKey("Package", related_name="upload_proc_result")
 
 
-def now():
-    return (
-        datetime.utcnow().isoformat().replace(":", "").replace(" ", "").replace(".", "")
-    )
+def report_datetime():
+    return datetime.utcnow().strftime("%Y-%d-%m-%H%M%S")
 
 
 def upload_package_directory_path(instance, filename):
@@ -95,8 +91,8 @@ class Package(CommonControlField, ClusterableModel):
         _("Category"),
         max_length=32,
         choices=choices.PACKAGE_CATEGORY,
-        null=False,
-        blank=False,
+        null=True,
+        blank=True,
     )
     status = models.CharField(
         _("Status"),
@@ -136,7 +132,7 @@ class Package(CommonControlField, ClusterableModel):
     assignee = models.ForeignKey(User, blank=True, null=True, on_delete=models.SET_NULL)
     expiration_date = models.DateField(_("Expiration date"), null=True, blank=True)
 
-    numbers = models.JSONField(null=True, default=dict())
+    numbers = models.JSONField(null=True, default=dict)
 
     blocking_errors = models.PositiveSmallIntegerField(default=0)
     xml_errors_percentage = models.DecimalField(
@@ -231,6 +227,14 @@ class Package(CommonControlField, ClusterableModel):
         if self.status in (choices.PS_REJECTED, choices.PS_PENDING_CORRECTION):
             if self.article:
                 self.article.update_status()
+        if not self.qa_decision and self.status in (
+            choices.PS_REJECTED,
+            choices.PS_PENDING_CORRECTION,
+            choices.PS_APPROVED,
+            choices.PS_APPROVED_WITH_ERRORS,
+        ):
+            self.qa_decision = self.status
+
         super(Package, self).save(*args, **kwargs)
 
     def files_list(self):
@@ -270,8 +274,9 @@ class Package(CommonControlField, ClusterableModel):
         obj.creator_id = user_id
         obj.created = datetime.utcnow()
         obj.file = file
-        obj.category = category or choices.PC_SYSTEM_GENERATED
-        obj.status = status or choices.PS_PUBLISHED
+        obj.category = category
+        obj.status = status
+        obj.qa_decision = None
         obj.save()
         return obj
 
@@ -305,17 +310,17 @@ class Package(CommonControlField, ClusterableModel):
 
     @property
     def reports(self):
-        for report in self.validation_report.all():
+        for report in self.validation_report.order_by("created").all():
             yield report.data
 
     @property
     def xml_info_reports(self):
-        for report in self.xml_info_report.all():
+        for report in self.xml_info_report.order_by("created").all():
             yield report.data
 
     @property
     def xml_error_reports(self):
-        for report in self.xml_error_report.all():
+        for report in self.xml_error_report.order_by("created").all():
             yield report.data
 
     @property
@@ -361,7 +366,7 @@ class Package(CommonControlField, ClusterableModel):
         # verifica status a partir destes números
         if self.blocking_errors:
             # pacote tem erros indiscutíveis
-            self.status = choices.PS_REJECTED
+            self.status = UploadValidator.get_decision_for_blocking_errors()
         elif metrics["total_validations"] == 0:
             self.status = choices.PS_APPROVED
         else:
@@ -426,6 +431,7 @@ class Package(CommonControlField, ClusterableModel):
 
         # TODO abater as validações com status=WARNING e reação IMPOSSIBLE_TO_FIX
         numbers = XMLError.get_numbers(package=self)
+        total_xml_issues = numbers.get("total_xml_issues")
 
         total_contested_xml_errors = numbers.get("reaction_not_to_fix") or 0
         self.contested_xml_errors_percentage = round(
@@ -588,47 +594,30 @@ class Package(CommonControlField, ClusterableModel):
                 self.declared_impossible_to_fix_percentage
             )
 
-    def generate_error_report_content(self):
-        first = XMLError.objects.filter(report__package=self).first()
-
-        if not first:
-            return
-
-        with TemporaryDirectory() as targetdir:
-            target = os.path.join(targetdir, self.package_name + "_xml_errors.csv")
-
-            with open(target, "w", newline="") as csvfile:
-                fieldnames = list(first.data.keys())
-                writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-                writer.writeheader()
-                for report in self.xml_error_report.all():
-                    for item in report.xml_error.all():
-                        writer.writerow(item.data)
-
-            # saved optimised
-            with open(target, "rb") as fp:
-                content = fp.read()
-
-        return content
-
     def get_errors_report_content(self):
-        filename = self.name + f"-errors-to-fix-{now()}.csv"
+        filename = self.name + f"-{report_datetime()}-errors.csv"
 
         item = XMLError.objects.filter(report__package=self).first()
         item2 = PkgValidationResult.objects.filter(report__package=self).first()
 
         content = None
         fieldnames = (
-            "subject",
-            "attribute",
-            "focus",
-            "parent",
-            "parent_id",
-            "expected_value",
-            "got_value",
+            "package",
+            "group",
+            "article / sub-article",
+            "@id",
+            "@article-type",
+            "item",
+            "sub-item",
+            "validation type",
+            "focus on",
+            "status",
+            "expected value",
+            "got value",
             "message",
             "advice",
             "reaction",
+            "data",
         )
         default_data = {k: None for k in fieldnames}
 
@@ -638,21 +627,11 @@ class Package(CommonControlField, ClusterableModel):
             with open(target, "w", newline="") as csvfile:
                 writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
                 writer.writeheader()
-                for item in PkgValidationResult.objects.filter(
-                    report__package=self
-                ).iterator():
-                    data = dict(default_data)
-                    data.update(item.row)
-                    _data = {k: data[k] for k in fieldnames}
-                    writer.writerow(_data)
+                for row in PkgValidationResult.rows(self, fieldnames):
+                    writer.writerow(row)
 
-                for item in XMLError.objects.filter(
-                    report__package=self, reaction=choices.ER_REACTION_FIX
-                ).iterator():
-                    data = dict(default_data)
-                    data.update(item.row)
-                    _data = {k: data[k] for k in fieldnames}
-                    writer.writerow(_data)
+                for row in XMLError.rows(self, fieldnames):
+                    writer.writerow(row)
 
             # saved optimised
             with open(target, "rb") as fp:
@@ -662,63 +641,65 @@ class Package(CommonControlField, ClusterableModel):
 
     def process_approved_package(self, user):
         logging.info(f"process_approved_package - status: {self.status}")
+
+        save = False
+
         if self.is_allowed_to_change_publication_parameters:
             self.updated_by = user
             self.status = choices.PS_PREPARE_SPSPKG
+
+            if not self.approved_date:
+                self.approved_date = datetime.utcnow()
+
+            if not self.order and self.article:
+                # se package.order is None, regasta de article.order
+                self.order = self.article.order
+
+            if not self.website_pub_date:
+                if self.article:
+                    # se not package.website_pub_date, regasta de article.first_publication_date
+                    self.website_pub_date = self.article.first_publication_date
+
             self.save()
 
         self.prepare_sps_package(user)
         self.prepare_article_publication(user)
 
-    def prepare_xml_file(self, xml_with_pre):
+    def update_xml_file(self, xml_with_pre):
         changed = False
-        try:
-            self.order = int(self.order or xml_with_pre.order or xml_with_pre.fpage)
-            save = True
-        except (TypeError, ValueError):
-            self.order = None
 
-        logging.info(f"xml_with_pre.v2: {xml_with_pre.v2}")
-        logging.info(f"pid_v2: {self.pid_v2}")
-        if not self.pid_v2:
-            self.pid_v2 = xml_with_pre.v2 or self.get_or_generate_pid_v2()
-            save = True
-
-        if not xml_with_pre.v2:
-            xml_with_pre.v2 = self.pid_v2
-            changed = True
+        if not self.order:
+            try:
+                self.order = int(xml_with_pre.order or xml_with_pre.fpage)
+            except (TypeError, ValueError):
+                pass
 
         try:
             article_publication_date = xml_with_pre.article_publication_date
-        except XMLWithPreArticlePublicationDateError as e:
+            article_publication_date = datetime.fromisoformat(article_publication_date)
+        except Exception as e:
             article_publication_date = None
 
-        if not self.website_pub_date or not self.approved_date:
-            self.approved_date = self.approved_date or datetime.utcnow()
-            self.website_pub_date = (
-                self.website_pub_date
-                or (
-                    article_publication_date
-                    and datetime.strptime(article_publication_date, "%Y-%m-%d")
+        if not self.website_pub_date:
+            try:
+                self.website_pub_date = article_publication_date
+            except XMLWithPreArticlePublicationDateError as e:
+                self.website_pub_date = UploadValidator.calculate_publication_date(
+                    datetime.utcnow()
                 )
-                or UploadValidator.calculate_publication_date(datetime.utcnow())
-            )
-            logging.info(f"XXXX: {self.website_pub_date}")
-            save = True
 
-        if self.website_pub_date.isoformat()[:10] != article_publication_date:
+        if self.website_pub_date != article_publication_date:
             # atualiza a data de publicação do artigo no site público
             xml_with_pre.article_publication_date = {
                 "year": self.website_pub_date.year,
                 "month": self.website_pub_date.month,
                 "day": self.website_pub_date.day,
             }
-            xml_with_pre.update_xml_in_zip_file()
             changed = True
 
-        if save:
-            self.save()
-        logging.info(f"save changed {save} {changed}")
+        if changed:
+            xml_with_pre.update_xml_in_zip_file()
+
         return changed
 
     def get_or_generate_pid_v2(self):
@@ -732,7 +713,7 @@ class Package(CommonControlField, ClusterableModel):
         # TODO components, texts
         for xml_with_pre in XMLWithPre.create(path=self.file.path):
             if (
-                self.prepare_xml_file(xml_with_pre)
+                self.update_xml_file(xml_with_pre)
                 or not self.sps_pkg
                 or not self.sps_pkg.valid_components
             ):
@@ -753,13 +734,14 @@ class Package(CommonControlField, ClusterableModel):
                     texts=texts,
                     article_proc=self,
                 )
+                self.save()
 
-    def start(
-        cls,
-        user,
-        proc,
-    ):
-        return Step()
+    def start(self, user, name):
+        # self.save()
+        # operation = Operation.start(user, name)
+        # self.operations.add(operation)
+        # return operation
+        return UploadProcResult.start(user, self, name)
 
     @property
     def is_approved(self):
@@ -819,6 +801,7 @@ class Package(CommonControlField, ClusterableModel):
 class QAPackage(Package):
 
     panels = [
+        FieldPanel("status", read_only=True),
         AutocompletePanel("analyst"),
         FieldPanel("qa_decision"),
     ]
@@ -832,6 +815,7 @@ class QAPackage(Package):
 class ApprovedPackage(Package):
 
     panels = [
+        FieldPanel("status", read_only=True),
         AutocompletePanel("analyst", read_only=True),
         FieldPanel("qa_decision", read_only=True),
         FieldPanel("approved_date", read_only=True),
@@ -853,7 +837,7 @@ class BaseValidationResult(CommonControlField):
         null=True,
         blank=True,
         max_length=64,
-        help_text=_("Item is being analyzed"),
+        help_text=_("Item being analyzed"),
     )
     data = models.JSONField(_("Data"), default=dict, null=True, blank=True)
     message = models.TextField(_("Message"), null=True, blank=True)
@@ -952,6 +936,17 @@ class BaseValidationResult(CommonControlField):
             "total_warnings": items.get(choices.VALIDATION_RESULT_WARNING) or 0,
         }
 
+    @classmethod
+    def rows(cls, package, fieldnames):
+        default_data = {k: None for k in fieldnames}
+
+        for item in cls.objects.filter(report__package=package).iterator():
+            data = dict(default_data)
+            data.update(item.row)
+            data["package"] = package.package_name
+            data["report"] = item.report.title
+            yield {k: data.get(k) or "" for k in fieldnames}
+
 
 class BaseXMLValidationResult(BaseValidationResult):
     # BaseValidationResult.status = response (ok -> success, 'error' -> failure)
@@ -962,10 +957,10 @@ class BaseXMLValidationResult(BaseValidationResult):
     # attribute = sub_item do resultado de validação do packtools
     # '@content-type="https://credit.niso.org/contributor-roles/*'
     attribute = models.CharField(
-        _("Subject Attribute"), null=True, blank=True, max_length=64
+        _("Sub-item being analyzed"), null=True, blank=True, max_length=64
     )
     # focus = title do resultado de validação do packtools
-    focus = models.CharField(_("Analysis focus"), null=True, blank=True, max_length=64)
+    focus = models.CharField(_("Focus on"), null=True, blank=True, max_length=64)
     # validation_type = packtools validation_type
     validation_type = models.CharField(
         _("Validation type"),
@@ -974,10 +969,12 @@ class BaseXMLValidationResult(BaseValidationResult):
         blank=False,
     )
     # geralemente article / sub-article e id
-    parent = models.CharField(_("Parent"), null=True, blank=True, max_length=16)
-    parent_id = models.CharField(_("Parent id"), null=True, blank=True, max_length=8)
+    parent = models.CharField(
+        "article / sub-article", null=True, blank=True, max_length=16
+    )
+    parent_id = models.CharField("@id", null=True, blank=True, max_length=8)
     parent_article_type = models.CharField(
-        _("Parent article type"), null=True, blank=True, max_length=32
+        "@article-type", null=True, blank=True, max_length=32
     )
 
     panels = [
@@ -993,17 +990,18 @@ class BaseXMLValidationResult(BaseValidationResult):
 
     @property
     def row(self):
-        return dict(
-            status=self.status,
-            subject=self.subject,
-            attribute=self.attribute,
-            focus=self.focus,
-            parent=self.parent,
-            parent_id=self.parent_id,
-            parent_article_type=self.parent_article_type,
-            message=self.message,
-            data=str(self.data),
-        )
+        return {
+            "status": self.status,
+            "item": self.subject,
+            "sub-item": self.attribute,
+            "focus on": self.focus,
+            "article / sub-article": self.parent,
+            "@id": self.parent_id,
+            "@article-type": self.parent_article_type,
+            "message": self.message,
+            "validation type": self.validation_type,
+            "data": str(self.data),
+        }
 
     # def __str__(self):
     #     return str(self.row)
@@ -1079,6 +1077,7 @@ class XMLError(BaseXMLValidationResult, ClusterableModel):
     )
 
     panels = [
+        FieldPanel("status", read_only=True),
         FieldPanel("subject", read_only=True),
         FieldPanel("attribute", read_only=True),
         FieldPanel("focus", read_only=True),
@@ -1110,21 +1109,22 @@ class XMLError(BaseXMLValidationResult, ClusterableModel):
 
     @property
     def row(self):
-        data = dict(
-            status=self.status,
-            subject=self.subject,
-            attribute=self.attribute,
-            focus=self.focus,
-            parent=self.parent,
-            parent_id=self.parent_id,
-            parent_article_type=self.parent_article_type,
-            expected_value=self.expected_value,
-            got_value=self.got_value,
-            message=self.message,
-            advice=self.advice,
-            reaction=self.reaction,
-        )
-        data["data"] = str(self.data)
+        data = {
+            "status": self.status,
+            "item": self.subject,
+            "sub-item": self.attribute,
+            "focus on": self.focus,
+            "article / sub-article": self.parent,
+            "@id": self.parent_id,
+            "@article-type": self.parent_article_type,
+            "expected value": self.expected_value,
+            "got value": self.got_value,
+            "message": self.message,
+            "advice": self.advice,
+            "reaction": self.reaction,
+            "validation type": self.validation_type,
+            "data": str(self.data),
+        }
         return data
 
 
@@ -1325,16 +1325,29 @@ class XMLInfoReport(BaseValidationReport, ClusterableModel):
         if not item:
             return
 
-        filename = self.package.name + "_xml_info_report.csv"
+        fieldnames = (
+            "package",
+            "article / sub-article",
+            "@id",
+            "@article-type",
+            "item",
+            "sub-item",
+            "validation type",
+            "focus on",
+            "message",
+            "data",
+        )
+
+        filename = self.package.name + f"-{report_datetime()}-xml_info.csv"
         with TemporaryDirectory() as targetdir:
             target = os.path.join(targetdir, filename)
 
             with open(target, "w", newline="") as csvfile:
-                fieldnames = list(item.row.keys())
                 writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
                 writer.writeheader()
-                for item in self.validation_results.all():
-                    writer.writerow(item.row)
+
+                for row in self.ValidationResultClass.rows(self.package, fieldnames):
+                    writer.writerow(row)
 
             # saved optimised
             with open(target, "rb") as fp:
@@ -1440,20 +1453,43 @@ class UploadValidator(CommonControlField):
             "Enter the number of days for quality control before publishing. Articles are automatically visible after this time."
         ),
     )
+    decision_for_blocking_errors = models.CharField(
+        max_length=32,
+        null=True,
+        blank=True,
+        choices=choices.CRITICAL_ERROR_DECISION,
+        default=choices.PS_VALIDATED_WITH_ERRORS,
+    )
 
     panels = [
         FieldPanel("max_xml_warnings_percentage"),
         FieldPanel("max_xml_errors_percentage"),
         FieldPanel("max_impossible_to_fix_percentage"),
         FieldPanel("days_in_qa_before_publication"),
+        FieldPanel("decision_for_blocking_errors"),
     ]
+    base_form_class = UploadValidatorForm
+
+    @classmethod
+    def create_default(cls):
+        obj = UploadValidator(creator_id=1, collection=None)
+        obj.save()
+        return obj
+
+    @staticmethod
+    def get_decision_for_blocking_errors(collection=None):
+        try:
+            obj = UploadValidator.objects.get(collection=collection)
+        except UploadValidator.DoesNotExist:
+            obj = UploadValidator.create_default()
+        return obj.decision_for_blocking_errors
 
     @staticmethod
     def calculate_publication_date(qa_publication_date, collection=None):
         try:
             obj = UploadValidator.objects.get(collection=collection)
         except UploadValidator.DoesNotExist:
-            return datetime.utcnow()
+            obj = UploadValidator.create_default()
         return obj.get_publication_date(qa_publication_date)
 
     @staticmethod
@@ -1461,7 +1497,7 @@ class UploadValidator(CommonControlField):
         try:
             obj = UploadValidator.objects.get(collection=collection)
         except UploadValidator.DoesNotExist:
-            return 0
+            obj = UploadValidator.create_default()
         return value <= obj.max_xml_errors_percentage
 
     @staticmethod
@@ -1469,7 +1505,7 @@ class UploadValidator(CommonControlField):
         try:
             obj = UploadValidator.objects.get(collection=collection)
         except UploadValidator.DoesNotExist:
-            return 0
+            obj = UploadValidator.create_default()
         return value <= obj.max_xml_warnings_percentage
 
     @staticmethod
@@ -1477,7 +1513,7 @@ class UploadValidator(CommonControlField):
         try:
             obj = UploadValidator.objects.get(collection=collection)
         except UploadValidator.DoesNotExist:
-            return 0
+            obj = UploadValidator.create_default()
         return value <= obj.max_impossible_to_fix_percentage
 
     def check_xml_errors_percentage(self, value):

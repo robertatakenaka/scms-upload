@@ -181,7 +181,6 @@ class SPSPkgModelAdmin(ModelAdmin):
     search_fields = (
         "pid_v3",
         "sps_pkg_name",
-        "scheduled",
     )
 
 

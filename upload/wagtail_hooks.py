@@ -35,6 +35,7 @@ from .models import (
     XMLInfo,
     XMLInfoReport,
     choices,
+    UploadValidator,
 )
 from .permission_helper import UploadPermissionHelper
 
@@ -450,6 +451,40 @@ class ValidationAdmin(ModelAdmin):
         return super().get_queryset(request).filter(package__creator=request.user)
 
 
+class UploadValidatorAdmin(ModelAdmin):
+    model = UploadValidator
+    permission_helper_class = UploadPermissionHelper
+    # create_view_class = ValidationCreateView
+    inspect_view_enabled = False
+    # inspect_view_class = ValidationAdminInspectView
+    menu_label = _("Upload Validator")
+    menu_icon = "folder"
+    add_to_settings_menu = False
+    exclude_from_explorer = False
+    list_display = (
+        "collection",
+        "max_xml_warnings_percentage",
+        "max_xml_errors_percentage",
+        "max_impossible_to_fix_percentage",
+        "days_in_qa_before_publication",
+        "decision_for_blocking_errors",
+    )
+    list_filter = ("collection",)
+    search_fields = (
+        "collection__acron",
+        "collection__name",
+    )
+
+    def get_queryset(self, request):
+        if (
+            request.user.is_superuser
+            or self.permission_helper.user_can_access_all_packages(request.user, None)
+        ):
+            return super().get_queryset(request)
+
+        return super().get_queryset(request).none()
+
+
 class UploadModelAdminGroup(ModelAdminGroup):
     menu_icon = "folder"
     menu_label = "Upload"
@@ -475,6 +510,7 @@ class UploadReportsModelAdminGroup(ModelAdminGroup):
         XMLInfoReportAdmin,
         ValidationAdmin,
         ValidationReportAdmin,
+        UploadValidatorAdmin,
     )
     menu_order = get_menu_order("upload")
 

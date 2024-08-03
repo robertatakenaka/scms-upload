@@ -105,11 +105,11 @@ class Operation(CommonControlField):
 
     @classmethod
     def create(cls, user, proc, name):
-        # FUTURE
-        cls.archive_events(user, proc, name)
+        name = name[:64]
+        cls.exclude_events(user, proc, name)
         obj = cls()
         obj.proc = proc
-        obj.name = name[:64]
+        obj.name = name
         obj.creator = user
         obj.save()
         return obj
@@ -126,42 +126,10 @@ class Operation(CommonControlField):
         #     return obj
 
     @classmethod
-    def archive_events(cls, user, proc, name):
-        # obtém o primeiro ocorrência de proc e name
-        item = cls.objects.filter(proc=proc, name=name).order_by("created").first()
-        if not item:
-            return
-
-        # obtém todos os ítens criados após este evento
-        rows = []
-        for row in cls.objects.filter(proc=proc, created__gte=item.created).order_by(
-            "created"
-        ):
-            rows.append(row.data)
-
-        try:
-            # converte para json
-            file_content = json.dumps(rows)
-            file_extension = ".json"
-        except Exception as e:
-            # caso não seja serializável, converte para str
-            file_content = str(rows)
-            file_extension = ".txt"
-
-        report_date = item.created.isoformat()
-        # cria um arquivo com o conteúdo
-        ProcReport.create_or_update(
-            user,
-            proc,
-            name,
-            report_date,
-            file_content,
-            file_extension,
-        )
+    def exclude_events(cls, user, proc, name):
         # apaga todas as ocorrências que foram armazenadas no arquivo
-        created = item.created
         try:
-            cls.objects.filter(proc=proc, created__gte=created).delete()
+            cls.objects.filter(proc=proc, name=name).delete()
         except Exception as e:
             pass
 

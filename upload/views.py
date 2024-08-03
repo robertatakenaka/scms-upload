@@ -166,6 +166,12 @@ class ApprovedPackageEditView(EditView):
         return HttpResponseRedirect(self.get_success_url())
 
 
+class UploadValidatorEditView(EditView):
+    def form_valid(self, form):
+        obj = form.save_all(self.request.user)
+        return HttpResponseRedirect(self.get_success_url())
+
+
 def finish_deposit(request):
     """
     This view function enables the user to finish deposit of a package through the graphic-interface.
