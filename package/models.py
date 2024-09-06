@@ -735,17 +735,14 @@ class SPSPkg(CommonControlField, ClusterableModel):
         xml_with_pre = None
         items = []
         with ZipFile(self.file.path) as optimised_fp:
-            for item in optimised_fp.namelist():
+            for item in set(optimised_fp.namelist()):
                 name, ext = os.path.splitext(item)
-
-                component = original_pkg_components.get(item) or {}
-                with optimised_fp.open(item, "r") as optimised_item_fp:
-                    content = optimised_item_fp.read()
-
+                content = optimised_fp.read(item)
                 if ext == ".xml":
                     xml_with_pre = get_xml_with_pre(content.decode("utf-8"))
 
                 else:
+                    component = original_pkg_components.get(item) or {}
                     result = self.upload_to_the_cloud(
                         user,
                         item,

@@ -351,13 +351,14 @@ class TocSection(CommonControlField, Orderable):
         return cls.objects.get(toc=toc, group=group, section=section)
 
     @staticmethod
-    def get_section_position(issue, sections=None):
+    def get_section_position(issue, article_sections):
         codes = []
         sections = []
-        for item in sections.all():
+        for item in article_sections.all():
             if item.code:
                 codes.append(item.code)
             sections.append(item.text)
+
         params = {}
         if sections:
             params["section__text__in"] = sections

@@ -171,9 +171,15 @@ def create_or_update_journal(
     journal_title, issn_electronic, issn_print, user, force_update=None
 ):
     if force_update:
-        return fetch_and_create_journal(
-            journal_title, issn_electronic, issn_print, user, force_update
-        )
+        try:
+            journal = fetch_and_create_journal(
+                journal_title, issn_electronic, issn_print, user, force_update
+            )
+        except Exception as e:
+            journal = None
+
+        if journal:
+            return journal
     try:
         return Journal.get_registered(journal_title, issn_electronic, issn_print)
     except Journal.DoesNotExist:
@@ -193,11 +199,12 @@ def fetch_and_create_journal(
         response = fetch_data(
             url=settings.JOURNAL_API_URL,
             params={
-                "title": journal_title,
+                # "title": journal_title,
                 "issn_print": issn_print,
                 "issn_electronic": issn_electronic,
             },
             json=True,
+            timeout=5,
         )
     except Exception as e:
         logging.exception(e)
@@ -220,74 +227,89 @@ def fetch_and_create_journal(
             title=result.get("title"),
             short_title=result.get("short_title"),
         )
-        journal.license_code = result.get("journal_use_license")
+        journal.license_code = result.get("journal_use_license", {}).get("license_type")
         journal.nlm_title = result.get("nlm_title")
         journal.doi_prefix = result.get("doi_prefix")
         journal.save()
 
-    for item in result.get("Subject") or []:
-        journal.subjects.add(Subject.create_or_update(user, item["value"]))
+        for item in result.get("Subject") or []:
+            journal.subjects.add(Subject.create_or_update(user, item["value"]))
 
-    for item in result.get("publisher") or []:
-        institution = Institution.get_or_create(
-            inst_name=item["name"],
-            inst_acronym=None,
-            level_1=None,
-            level_2=None,
-            level_3=None,
-            location=None,
-            user=user,
-        )
-        journal.publisher.add(Publisher.create_or_update(user, journal, institution))
-
-    for item in result.get("owner") or []:
-        institution = Institution.get_or_create(
-            inst_name=item["name"],
-            inst_acronym=None,
-            level_1=None,
-            level_2=None,
-            level_3=None,
-            location=None,
-            user=user,
-        )
-        journal.owner.add(Owner.create_or_update(user, journal, institution))
-
-    for item in result.get("scielo_journal") or []:
-        try:
-            collection = Collection.objects.get(acron=item["collection_acron"])
-        except Collection.DoesNotExist:
-            continue
-
-        journal_proc = JournalProc.get_or_create(user, collection, item["scielo_issn"])
-        journal_proc.update(
-            user=user,
-            journal=journal,
-            acron=item["journal_acron"],
-            title=journal.title,
-            availability_status="C",
-            migration_status=tracker_choices.PROGRESS_STATUS_DONE,
-            force_update=force_update,
-        )
-        journal.journal_acron = item.get("journal_acron")
-        journal_collection = JournalCollection.create_or_update(
-            user, collection, journal
-        )
-        for jh in item.get("journal_history") or []:
-            JournalHistory.create_or_update(
-                user,
-                journal_collection,
-                jh["event_type"],
-                jh["year"],
-                jh["month"],
-                jh["day"],
-                jh["interruption_reason"],
+        for item in result.get("publisher") or []:
+            institution = Institution.get_or_create(
+                inst_name=item["name"],
+                inst_acronym=None,
+                level_1=None,
+                level_2=None,
+                level_3=None,
+                location=None,
+                user=user,
             )
+            journal.publisher.add(Publisher.create_or_update(user, journal, institution))
+
+        for item in result.get("owner") or []:
+            institution = Institution.get_or_create(
+                inst_name=item["name"],
+                inst_acronym=None,
+                level_1=None,
+                level_2=None,
+                level_3=None,
+                location=None,
+                user=user,
+            )
+            journal.owner.add(Owner.create_or_update(user, journal, institution))
+
+        for item in result.get("scielo_journal") or []:
+            try:
+                collection = Collection.objects.get(acron=item["collection_acron"])
+            except Collection.DoesNotExist:
+                continue
+
+            journal_proc = JournalProc.get_or_create(user, collection, item["issn_scielo"])
+            journal_proc.update(
+                user=user,
+                journal=journal,
+                acron=item["journal_acron"],
+                title=journal.title,
+                availability_status="C",
+                migration_status=tracker_choices.PROGRESS_STATUS_DONE,
+                force_update=force_update,
+            )
+            journal.journal_acron = item.get("journal_acron")
+            journal_collection = JournalCollection.create_or_update(
+                user, collection, journal
+            )
+            for jh in item.get("journal_history") or []:
+                JournalHistory.create_or_update(
+                    user,
+                    journal_collection,
+                    jh["event_type"],
+                    jh["year"],
+                    jh["month"],
+                    jh["day"],
+                    jh["interruption_reason"],
+                )
     return journal
 
 
-def create_or_update_issue(journal, volume, suppl, number, user, force_update=None):
-    if force_update:
-        return fetch_and_create_issue(journal, volume, suppl, number, user)
+def create_or_update_issue(journal, pub_year, volume, suppl, number, user, force_update=None):
+    if not force_update:
+        try:
+            return Issue.get(
+                journal=journal,
+                volume=volume,
+                supplement=suppl,
+                number=number,
+            )
+        except Issue.DoesNotExist:
+            pass
+
+    try:
+        fetch_and_create_issues(
+            journal, pub_year, volume, suppl, number, user)
+    except Exception as exc:
+        pass
+
     try:
         return Issue.get(
             journal=journal,
@@ -296,33 +318,37 @@ def create_or_update_issue(journal, volume, suppl, number, user, force_update=No
             number=number,
         )
     except Issue.DoesNotExist:
-        return fetch_and_create_issue(journal, volume, suppl, number, user)
+        pass
 
 
 @staticmethod
-def fetch_and_create_issue(journal, volume, suppl, number, user):
+def fetch_and_create_issues(journal, pub_year, volume, suppl, number, user):
     if journal and any((volume, number)):
         issn_print = journal.official_journal.issn_print
         issn_electronic = journal.official_journal.issn_electronic
         try:
+            params = {
+                "issn_print": issn_print,
+                "issn_electronic": issn_electronic,
+                "volume": volume,
+            }
+            params = {k: v for k, v in params.items() if v}
+            logging.info(params)
             response = fetch_data(
                 url=settings.ISSUE_API_URL,
-                params={
-                    "issn_print": issn_print,
-                    "issn_electronic": issn_electronic,
-                    "number": number,
-                    "supplement": suppl,
-                    "volume": volume,
-                },
+                params=params,
                 json=True,
+                timeout=5,
             )
 
         except Exception as e:
             logging.exception(e)
             return
 
+        logging.info(f"REsponse {response}")
         issue = None
         for result in response.get("results"):
+            logging.info(f"result: {result}")
             issue = Issue.get_or_create(
                 journal=journal,
                 volume=result["volume"],
@@ -346,4 +372,3 @@ def fetch_and_create_issue(journal, volume, suppl, number, user):
                     )
                     issue_proc.journal_proc = journal_proc
                     issue_proc.save()
-        return issue

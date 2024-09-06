@@ -9,6 +9,7 @@ from collection.models import Collection, WebSiteConfiguration
 from config import celery_app
 from core.models import PressRelease
 from proc.models import ArticleProc, IssueProc, JournalProc
+from upload.models import Package
 from publication.api.document import publish_article
 from publication.api.issue import publish_issue
 from publication.api.journal import publish_journal
@@ -357,9 +358,12 @@ def task_publish_article(
 
         article = manager.article
 
+        logging.info(article.journal)
+
         for journal_proc in JournalProc.objects.filter(
             journal=article.journal
         ).iterator():
+            logging.info(journal_proc)
             try:
                 website = WebSiteConfiguration.get(
                     collection=journal_proc.collection,

@@ -240,12 +240,21 @@ class Article(ClusterableModel, CommonControlField):
 
     def add_issue(self, user):
         xml_with_pre = self.sps_pkg.xml_with_pre
-        self.issue = Issue.get(
-            journal=self.journal,
-            volume=xml_with_pre.volume,
-            supplement=xml_with_pre.suppl,
-            number=xml_with_pre.number,
-        )
+        try:
+            self.issue = Issue.get(
+                journal=self.journal,
+                volume=xml_with_pre.volume,
+                supplement=xml_with_pre.suppl,
+                number=xml_with_pre.number,
+            )
+        except Issue.DoesNotExist as exc:
+            data = dict(
+                journal=self.journal,
+                volume=xml_with_pre.volume,
+                supplement=xml_with_pre.suppl,
+                number=xml_with_pre.number,
+            )
+            logging.exception(f"{exc}: {data}")
 
     def add_journal(self, user):
         xml_with_pre = self.sps_pkg.xml_with_pre

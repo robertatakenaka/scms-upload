@@ -251,7 +251,6 @@ class Journal(CommonControlField, ClusterableModel):
         "OfficialJournal",
         null=True,
         blank=True,
-        related_name="+",
         on_delete=models.SET_NULL,
     )
     submission_online_url = models.URLField(
@@ -330,21 +329,25 @@ class Journal(CommonControlField, ClusterableModel):
 
     @staticmethod
     def get_registered(journal_title, issn_electronic, issn_print):
-        q = Q()
-        if journal_title:
-            q |= Q(title=journal_title)
-        if issn_electronic:
-            q |= Q(issn_electronic=issn_electronic)
-        if issn_print:
-            q |= Q(issn_print=issn_print)
-
         try:
-            j = OfficialJournal.objects.get(q)
-            return Journal.objects.get(official_journal=j)
-        except OfficialJournal.DoesNotExist:
-            raise Journal.DoesNotExist(
-                f"{journal_title} {issn_electronic} {issn_print}"
+            return Journal.objects.get(
+                official_journal__issn_electronic=issn_electronic,
+                official_journal__issn_print=issn_print,
+                title=journal_title,
             )
+        except (Journal.DoesNotExist, Journal.MultipleObjectsReturned):
+            journal = Journal.objects.filter(
+                Q(official_journal__issn_electronic=issn_electronic)|
+                Q(official_journal__issn_print=issn_print)|
+                Q(official_journal__title=journal_title) |
+                Q(title=journal_title)
+            ).first()
+            if not journal:
+                raise Journal.DoesNotExist({
+                    "journal_title": journal_title,
+                    "issn_electronic": issn_electronic,
+                    "issn_print": issn_print,
+                })
 
     @classmethod
     def create(
