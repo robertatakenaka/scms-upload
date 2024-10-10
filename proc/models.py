@@ -48,7 +48,7 @@ from migration.models import (
 from package import choices as package_choices
 from package.models import SPSPkg
 from proc import exceptions
-from proc.forms import ProcAdminModelForm
+from proc.forms import ProcAdminModelForm, IssueProcAdminModelForm
 from publication.api.publication import get_api_data
 from tracker import choices as tracker_choices
 from tracker.models import Event, UnexpectedEvent, format_traceback
@@ -377,6 +377,11 @@ class BaseProc(CommonControlField):
     # MigratedDataClass = MigratedData
     base_form_class = ProcAdminModelForm
 
+    panel_data = [
+        FieldPanel("collection"),
+        FieldPanel("pid"),
+    ]
+
     panel_status = [
         FieldPanel("migration_status"),
         FieldPanel("qa_ws_status"),
@@ -644,8 +649,15 @@ class BaseProc(CommonControlField):
         website_kind=None,
         api_data=None,
         force_update=None,
+        content_type=None,
     ):
         website_kind = website_kind or collection_choices.QA
+
+        if not content_type:
+            try:
+                content_type = self.migrated_data.content_type
+            except AttributeError:
+                raise Exception("*Proc.publish requires content_type parameter")
 
         doit = False
         if website_kind == collection_choices.QA:
@@ -658,7 +670,7 @@ class BaseProc(CommonControlField):
             return
 
         operation = self.start(
-            user, f"publish {self.migrated_data.content_type} {self} on {website_kind}"
+            user, f"publish {content_type} {self} on {website_kind}"
         )
         logging.info(f"publish {self} on {website_kind}")
         if website_kind == collection_choices.QA:
@@ -669,7 +681,7 @@ class BaseProc(CommonControlField):
         self.save()
 
         api_data = api_data or get_api_data(
-            self.collection, self.migrated_data.content_type, website_kind
+            self.collection, content_type, website_kind
         )
         if api_data.get("error"):
             response = api_data
@@ -764,6 +776,10 @@ class JournalProc(BaseProc, ClusterableModel):
     ProcResult = JournalProcResult
     base_form_class = ProcAdminModelForm
 
+    panel_data = BaseProc.panel_data + [
+        AutocompletePanel("journal"),
+        FieldPanel("acron"),
+    ]
     panel_proc_result = [
         InlinePanel("journal_proc_result", label=_("Event newest to oldest")),
     ]
@@ -773,6 +789,7 @@ class JournalProc(BaseProc, ClusterableModel):
         [
             ObjectList(BaseProc.panel_status, heading=_("Status")),
             ObjectList(panel_proc_result, heading=_("Events")),
+            ObjectList(panel_data, heading=_("Data")),
         ]
     )
 
@@ -790,13 +807,10 @@ class JournalProc(BaseProc, ClusterableModel):
 
     @staticmethod
     def autocomplete_custom_queryset_filter(search_term):
-        return IssueProc.objects.filter(
-            Q(acron__icontains=search_term)
-            | Q(collection__acron__icontains=search_term)
-        )
+        return JournalProc.objects.filter(acron__icontains=search_term)
 
     def autocomplete_label(self):
-        return f"{self.collection} {self.acron}"
+        return f"{self.acron} ({self.collection})"
 
     def update(
         self,
@@ -882,10 +896,10 @@ class IssueProc(BaseProc, ClusterableModel):
     )
 
     def __unicode__(self):
-        return f"{self.journal_proc.acron} {self.issue_folder} ({self.collection})"
+        return f"{self.journal_proc and self.journal_proc.acron} {self.issue_folder} ({self.collection})"
 
     def __str__(self):
-        return f"{self.journal_proc.acron} {self.issue_folder} ({self.collection})"
+        return f"{self.journal_proc and self.journal_proc.acron} {self.issue_folder} ({self.collection})"
 
     journal_proc = models.ForeignKey(
         JournalProc, on_delete=models.SET_NULL, null=True, blank=True
@@ -912,7 +926,7 @@ class IssueProc(BaseProc, ClusterableModel):
     resumption_date = models.DateTimeField(null=True, blank=True)
 
     MigratedDataClass = MigratedIssue
-    base_form_class = ProcAdminModelForm
+    base_form_class = IssueProcAdminModelForm
     ProcResult = IssueProcResult
 
     panel_status = [
@@ -922,16 +936,21 @@ class IssueProc(BaseProc, ClusterableModel):
         FieldPanel("qa_ws_status"),
         FieldPanel("public_ws_status"),
     ]
-    panel_files = [
-        AutocompletePanel("issue_files"),
-    ]
+    # panel_files = [
+    #     AutocompletePanel("issue_files"),
+    # ]
     panel_proc_result = [
         InlinePanel("issue_proc_result", label=_("Event newest to oldest")),
+    ]
+    panel_data = BaseProc.panel_data + [
+        AutocompletePanel("journal_proc"),
+        AutocompletePanel("issue"),
     ]
     edit_handler = TabbedInterface(
         [
             ObjectList(panel_status, heading=_("Status")),
             ObjectList(panel_proc_result, heading=_("Events")),
+            ObjectList(panel_data, heading=_("Data")),
         ]
     )
 
