@@ -946,6 +946,10 @@ class IssueProc(BaseProc, ClusterableModel):
         AutocompletePanel("journal_proc"),
         AutocompletePanel("issue"),
     ]
+    panel_data = BaseProc.panel_data + [
+        AutocompletePanel("journal_proc"),
+        AutocompletePanel("issue"),
+    ]
     edit_handler = TabbedInterface(
         [
             ObjectList(panel_status, heading=_("Status")),
