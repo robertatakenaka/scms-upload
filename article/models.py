@@ -218,7 +218,7 @@ class Article(ClusterableModel, CommonControlField):
         obj.status = obj.status or choices.AS_READY_TO_PUBLISH
         obj.add_pages()
         obj.add_position(position, xml_with_pre.fpage)
-        obj.add_article_publication_date()
+        # FIXME obj.add_article_publication_date()
         obj.save()
 
         obj.add_sections(user)
@@ -330,6 +330,7 @@ class Article(ClusterableModel, CommonControlField):
             self.first_publication_date = datetime.strptime(
                 self.sps_pkg.xml_with_pre.article_publication_date, "%Y-%m-%d"
             )
+            self.save()
 
     def add_position(self, position=None, fpage=None):
         try:

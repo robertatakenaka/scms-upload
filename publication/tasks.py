@@ -380,6 +380,9 @@ def task_publish_article(
         journal = article.journal
         issue = article.issue
 
+        if website_kind == PUBLIC:
+            article.add_publication_date()
+
         if not JournalProc.objects.filter(journal=journal).exists():
             op_journal_proc = manager.start(user, f"publish on {website_kind} - create_or_update_journal")
             created = create_or_update_journal(

@@ -21,9 +21,10 @@ from publication.tasks import task_publish_article
 from tracker.models import UnexpectedEvent
 from upload import choices
 from upload.controller import receive_package
-from upload.models import Package, ValidationReport, PackageZip
+from upload.models import Package, ValidationReport, PackageZip, UploadValidator
 from upload.validation.rendition_validation import validate_rendition
 from upload.validation.html_validation import validate_webpage
+from upload.validation.xml_data_checker import XMLDataChecker
 
 from . import choices, controller, exceptions
 from .utils import file_utils, package_utils, xml_utils
@@ -157,7 +158,7 @@ def task_validate_assets(package_id, xml_path, package_files, xml_assets):
     # devido às tarefas serem executadas concorrentemente,
     # necessário verificar se todas tarefas finalizaram e
     # então finalizar o pacote
-    package.finish_validations(task_process_qa_decision)
+    package.finish_reception(task_process_qa_decision)
     # if package.is_approved:
     #     task_process_approved_package.apply_async(
     #         kwargs=dict(package_id=package.id, package_status=package.status)
@@ -198,7 +199,7 @@ def task_validate_renditions(package_id, xml_path, package_files, xml_renditions
         )
 
     report.finish_validations()
-    package.finish_validations(task_process_qa_decision)
+    package.finish_reception(task_process_qa_decision)
     # devido às tarefas serem executadas concorrentemente,
     # necessário verificar se todas tarefas finalizaram e
     # então finalizar o pacote
@@ -244,7 +245,7 @@ def task_validate_renditions_content(package_id, xml_path):
             },
         )
     report.finish_validations()
-    package.finish_validations(task_process_qa_decision)
+    package.finish_reception(task_process_qa_decision)
 
 
 @celery_app.task(bind=True, priority=0)
@@ -280,31 +281,20 @@ def task_receive_package(
     package = Package.objects.get(pk=pkg_id)
 
     response = receive_package(user, package)
+
     logging.info(response)
     if response.get("error_level") != choices.VALIDATION_RESULT_BLOCKING:
-        task_validate_original_zip_file.apply_async(
-            kwargs=dict(
-                package_id=package.id,
-                file_path=package.file.path,
-                journal_id=response["journal"].id,
-                issue_id=response["issue"].id,
-                article_id=package.article and package.article.id or None,
-            )
-        )
 
+        file_path = package.file.path
+        journal_id = response["journal"].id
+        issue_id = response["issue"].id
+        article_id = package.article and package.article.id or None
 
-@celery_app.task(bind=True, priority=0)
-def task_validate_original_zip_file(
-    self, package_id, file_path, journal_id, issue_id, article_id
-):
-
-    for xml_with_pre in XMLWithPre.create(path=file_path):
+        xml_with_pre = package.xml_with_pre
         xml_path = xml_with_pre.filename
         name, ext = os.path.splitext(xml_path)
-        logging.info(f"xmlpre: {xml_with_pre.xmlpre}")
-        package = Package.objects.get(pk=package_id)
 
-        # FIXME nao usar o otimizado neste momento
+        # FIXME para nao usar o otimizado
         optimised_filepath = task_optimise_package(file_path)
 
         for optimised_xml_with_pre in XMLWithPre.create(path=optimised_filepath):
@@ -451,7 +441,7 @@ def task_validate_xml_structure(
         # devido às tarefas serem executadas concorrentemente,
         # necessário verificar se todas tarefas finalizaram e
         # então finalizar o pacote
-        package.finish_validations(task_process_qa_decision)
+        package.finish_reception(task_process_qa_decision)
         # if package.is_approved:
         #     task_process_approved_package.apply_async(
         #         kwargs=dict(package_id=package.id)
@@ -474,8 +464,14 @@ def task_validate_xml_content(
         else:
             issue = None
 
-        if controller.validate_xml_content(package, journal):
-            package.finish_validations(task_process_qa_decision)
+        try:
+            params = UploadValidator.get().validation_params
+        except Exception as e:
+            params = {}
+
+        xml_data_checker = XMLDataChecker(package, journal, issue, params)
+        xml_data_checker.validate()
+        package.finish_reception(task_process_qa_decision)
 
     except Exception as e:
         exc_type, exc_value, exc_traceback = sys.exc_info()
@@ -583,4 +579,4 @@ def task_validate_webpages_content(package_id):
             },
         )
     report.finish_validations()
-    package.finish_validations(task_process_qa_decision)
+    package.finish_reception(task_process_qa_decision)
