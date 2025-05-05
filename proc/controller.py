@@ -459,22 +459,26 @@ def create_collection_procs_from_pid_list(
 
 
 def migrate_journal(
-    user, journal_proc, issue_filter, force_update, force_import_acron_id_file, force_migrate_document_records, migrate_issues, migrate_articles
+    user, journal_proc, force_update
 ):
     try:
         # cria ou atualiza Journal e atualiza journal_proc
+        event = None
+        detail = {
+            "journal_proc": str(journal_proc),
+            "force_update": force_update,
+        }
+        event = journal_proc.start(user, "create or update Journal")
         journal_proc.create_or_update_item(
             user, force_update, controller.create_or_update_journal
         )
-        # acron.id
-        controller.register_acron_id_file_content(
-            user,
-            journal_proc,
-            force_update=force_import_acron_id_file,
-        )
-
+        event.finish(user, completed=True, detail=detail)
     except Exception as e:
         exc_type, exc_value, exc_traceback = sys.exc_info()
+        if event:
+            event.finish(user, completed=False, exception=e, exc_traceback=exc_traceback, detail=detail)
+            return
+
         UnexpectedEvent.create(
             e=e,
             exc_traceback=exc_traceback,
@@ -482,14 +486,8 @@ def migrate_journal(
                 "task": "proc.controller.migrate_journal",
                 "user_id": user.id,
                 "username": user.username,
-                "collection": journal_proc.collection.acron,
-                "pid": journal_proc.pid,
-                "issue_filter": issue_filter,
+                "journal_proc": str(journal_proc),
                 "force_update": force_update,
-                "force_import_acron_id_file": force_import_acron_id_file,
-                "force_migrate_document_records": force_migrate_document_records,
-                "migrate_issues": migrate_issues,
-                "migrate_articles": migrate_articles,
             },
         )
 
