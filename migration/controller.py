@@ -899,6 +899,18 @@ def get_migrated_xml_with_pre(article_proc):
         )
 
 
+def create_journal_acron_id_files(user, collection_acron, journal_filter, force_update):
+    for journal_proc in JournalProc.objects.filter(
+        collection__acron=collection_acron, **journal_filter
+    ):
+        # cria ou atualiza Journal e atualiza journal_proc
+        register_acron_id_file_content(
+            user,
+            journal_proc,
+            force_update=force_update,
+        )
+
+
 def register_acron_id_file_content(
     user,
     journal_proc,
