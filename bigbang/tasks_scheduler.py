@@ -154,10 +154,11 @@ def _schedule_migrate_and_publish_journals(username, enabled):
         task="proc.tasks.task_migrate_and_publish_journals",
         name="migrate_and_publish_journals",
         kwargs=dict(
-            username=None,
+            username=username,
             collection_acron=None,
             journal_acron=None,
             force_update=False,
+            status=["REPROC", "TODO", "DOING", "DONE", "PENDING", "BLOCKED"],
             force_import_acron_id_file=False,
         ),
         description=_("Migra e publica os periódicos"),
