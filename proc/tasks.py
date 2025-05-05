@@ -7,7 +7,7 @@ from django.utils.translation import gettext_lazy as _
 from collection.choices import QA, PUBLIC
 from collection.models import Collection, WebSiteConfiguration
 from config import celery_app
-from migration import controller
+from migration.controller import create_journal_acron_id_files, get_classic_website, get_classic_website_config
 from proc.controller import (
     create_or_update_migrated_issue,
     create_or_update_migrated_journal,
@@ -96,7 +96,7 @@ def task_migrate_and_publish(
 
         for collection in _get_collections(collection_acron):
             # obtém os dados do site clássico
-            classic_website = controller.get_classic_website(collection.acron)
+            classic_website = get_classic_website(collection.acron)
 
             # import title.id, cria MigratedJournal
             create_or_update_migrated_journal(
@@ -116,16 +116,7 @@ def task_migrate_and_publish(
             items = JournalProc.items_to_process(collection, "journal", journal_filter, force_update)
             logging.info(f"journals to process: {items.count()}")
             for journal_proc in items:
-                migrate_journal(
-                    user,
-                    journal_proc,
-                    issue_filter,
-                    force_update,
-                    force_import_acron_id_file=force_import_acron_id_file,
-                    force_migrate_document_records=force_migrate_document_records,
-                    migrate_issues=False,
-                    migrate_articles=False,
-                )
+                migrate_journal(user, journal_proc, force_update)
 
             items = IssueProc.items_to_process(
                 collection,
@@ -245,13 +236,25 @@ def task_migrate_and_publish_journals(
 
         for collection in _get_collections(collection_acron):
             # obtém os dados do site clássico
-            classic_website = controller.get_classic_website(collection.acron)
+            classic_website = get_classic_website(collection.acron)
 
+            # cria / atualiza JournalProc
             create_or_update_migrated_journal(
                 user,
                 collection,
                 classic_website,
                 force_update,
+            )
+
+            # cria / atualiza JournalAcronIdFile
+            task_create_journal_acron_id_files.apply_async(
+                kwargs=dict(
+                    user_id=user_id,
+                    username=username,
+                    collection_acron=collection.acron,
+                    journal_filter=journal_filter,
+                    force_update=force_import_acron_id_file,
+                )
             )
 
             qa_api_data = get_api_data(collection, "journal", "QA")
@@ -262,16 +265,8 @@ def task_migrate_and_publish_journals(
             ):
                 try:
                     # cria ou atualiza Journal e atualiza journal_proc
-                    migrate_journal(
-                        user,
-                        journal_proc,
-                        issue_filter=None,
-                        force_update=force_update,
-                        force_import_acron_id_file=force_import_acron_id_file,
-                        force_migrate_document_records=force_migrate_document_records,
-                        migrate_issues=False,
-                        migrate_articles=False,
-                    )
+                    migrate_journal(user, journal_proc, force_update)
+
                     task_publish_journal.apply_async(
                         kwargs=dict(
                             user_id=user_id,
@@ -324,6 +319,34 @@ def task_migrate_and_publish_journals(
             },
         )
 
+
+@celery_app.task(bind=True)
+def task_create_journal_acron_id_files(
+    self,
+    user_id=None,
+    username=None,
+    collection_acron=None,
+    journal_filter=None,
+    force_update=False,
+):
+    try:
+        user = _get_user(user_id, username)
+        create_journal_acron_id_files(user, collection_acron, journal_filter, force_update)
+    except Exception as e:
+        exc_type, exc_value, exc_traceback = sys.exc_info()
+        UnexpectedEvent.create(
+            e=e,
+            exc_traceback=exc_traceback,
+            detail={
+                "task": "proc.tasks.task_create_journal_acron_id_files",
+                "user_id": user_id,
+                "username": username,
+                "collection_acron": collection_acron,
+                "journal_filter": journal_filter,
+                "force_update": force_update,
+            },
+        )
+    
 
 @celery_app.task(bind=True)
 def task_publish_journals(
@@ -467,7 +490,7 @@ def task_migrate_and_publish_issues(
         logging.info(params)
         for collection in _get_collections(collection_acron):
             # obtém os dados do site clássico
-            classic_website = controller.get_classic_website(collection.acron)
+            classic_website = get_classic_website(collection.acron)
 
             create_or_update_migrated_issue(
                 user,
@@ -871,7 +894,7 @@ def task_create_procs_from_pid_list(self, username, user_id=None, collection_acr
 def task_create_collection_procs_from_pid_list(self, username, collection_acron, force_update):
     user = _get_user(user_id=None, username=username)
     try:
-        classic_website_config = controller.get_classic_website_config(collection_acron)
+        classic_website_config = get_classic_website_config(collection_acron)
         collection = classic_website_config.collection
         create_collection_procs_from_pid_list(
             user,
