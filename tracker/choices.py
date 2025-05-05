@@ -44,6 +44,21 @@ PROGRESS_STATUS_REGULAR_TODO = [
     PROGRESS_STATUS_TODO,
 ]
 
+def get_valid_status(status):
+    VALID_STATUS = (
+        PROGRESS_STATUS_REPROC,
+        PROGRESS_STATUS_TODO,
+        PROGRESS_STATUS_DOING,
+        PROGRESS_STATUS_DONE,
+        PROGRESS_STATUS_PENDING,
+        PROGRESS_STATUS_BLOCKED,
+    )
+    if isinstance(status, str):
+        status = [status]
+    if isinstance(status, list):
+        return list(set(status) & set(VALID_STATUS)) or list(VALID_STATUS)
+    return list(VALID_STATUS)
+
 
 def allowed_to_run(status, force_update):
     return force_update and status in PROGRESS_STATUS_FORCE_UPDATE or status in PROGRESS_STATUS_REGULAR_TODO
