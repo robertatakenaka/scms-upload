@@ -16,6 +16,8 @@ from proc.controller import (
     migrate_issue,
     publish_journals,
     create_collection_procs_from_pid_list,
+    migrate_document_records,
+    get_files_from_classic_website,
 )
 from proc.models import ArticleProc, IssueProc, JournalProc
 from publication.api.document import publish_article
@@ -565,6 +567,90 @@ def task_migrate_and_publish_issues(
                 "issue_folder": issue_folder,
                 "force_update": force_update,
                 "force_migrate_document_records": force_migrate_document_records,
+            },
+        )
+
+
+@celery_app.task(bind=True)
+def task_get_files_from_classic_website(
+    self,
+    user_id=None,
+    username=None,
+    collection_acron=None,
+    journal_acron=None,
+    issue_folder=None,
+    publication_year=None,
+    status=None,
+    force_update=None,
+):
+    try:
+        user = _get_user(user_id, username)
+        get_files_from_classic_website(
+            user,
+            collection_acron,
+            journal_acron,
+            issue_folder,
+            publication_year,
+            status,
+            force_update,
+        )
+    except Exception as e:
+        exc_type, exc_value, exc_traceback = sys.exc_info()
+        UnexpectedEvent.create(
+            e=e,
+            exc_traceback=exc_traceback,
+            detail={
+                "task": "proc.tasks.task_get_files_from_classic_website",
+                "user_id": user_id,
+                "username": username,
+                "collection_acron": collection_acron,
+                "journal_acron": journal_acron,
+                "issue_folder": issue_folder,
+                "publication_year": publication_year,
+                "status": status,
+                "force_update": force_update,
+            },
+        )
+
+
+@celery_app.task(bind=True)
+def task_migrate_document_records(
+    self,
+    user_id=None,
+    username=None,
+    collection_acron=None,
+    journal_acron=None,
+    issue_folder=None,
+    publication_year=None,
+    status=None,
+    force_update=None,
+):
+    try:
+        user = _get_user(user_id, username)
+        migrate_document_records(
+            user,
+            collection_acron,
+            journal_acron,
+            issue_folder,
+            publication_year,
+            status,
+            force_update,
+        )
+    except Exception as e:
+        exc_type, exc_value, exc_traceback = sys.exc_info()
+        UnexpectedEvent.create(
+            e=e,
+            exc_traceback=exc_traceback,
+            detail={
+                "task": "proc.tasks.task_get_files_from_classic_website",
+                "user_id": user_id,
+                "username": username,
+                "collection_acron": collection_acron,
+                "journal_acron": journal_acron,
+                "issue_folder": issue_folder,
+                "publication_year": publication_year,
+                "status": status,
+                "force_update": force_update,
             },
         )
 
