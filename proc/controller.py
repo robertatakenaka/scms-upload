@@ -494,6 +494,12 @@ def migrate_journal(
 
 def migrate_issue(user, issue_proc, force_update):
     try:
+        event = None
+        detail = {
+            "issue_proc": str(issue_proc),
+            "force_update": force_update,
+        }
+        event = issue_proc.start(user, "create or update Issue")
         collection = issue_proc.collection
         issue_proc.create_or_update_item(
             user,
@@ -501,8 +507,13 @@ def migrate_issue(user, issue_proc, force_update):
             controller.create_or_update_issue,
             JournalProc=JournalProc,
         )
+        event.finish(user, completed=True, detail=detail)
     except Exception as e:
         exc_type, exc_value, exc_traceback = sys.exc_info()
+        if event:
+            event.finish(user, completed=False, exception=e, exc_traceback=exc_traceback, detail=detail)
+            return
+
         UnexpectedEvent.create(
             e=e,
             exc_traceback=exc_traceback,
