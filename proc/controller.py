@@ -492,7 +492,7 @@ def migrate_journal(
         )
 
 
-def migrate_issue(user, issue_proc, force_update, force_migrate_document_records, migrate_articles):
+def migrate_issue(user, issue_proc, force_update):
     try:
         collection = issue_proc.collection
         issue_proc.create_or_update_item(
@@ -501,23 +501,6 @@ def migrate_issue(user, issue_proc, force_update, force_migrate_document_records
             controller.create_or_update_issue,
             JournalProc=JournalProc,
         )
-
-        issue_proc.migrate_document_records(
-            user,
-            force_update=force_migrate_document_records,
-        )
-
-        issue_proc.get_files_from_classic_website(
-            user, force_update, controller.import_one_issue_files
-        )
-
-        if migrate_articles:
-            article_filter = {"issue_proc": issue_proc}
-            items = ArticleProc.items_to_process(issue_proc.collection, "article", article_filter, force_update)
-            logging.info(f"articles to process: {items.count()}")
-            logging.info(f"article_filter: {article_filter}")
-            for article_proc in items:
-                article_proc.migrate_article(user, force_update)
     except Exception as e:
         exc_type, exc_value, exc_traceback = sys.exc_info()
         UnexpectedEvent.create(
@@ -530,8 +513,6 @@ def migrate_issue(user, issue_proc, force_update, force_migrate_document_records
                 "collection": issue_proc.collection.acron,
                 "pid": issue_proc.pid,
                 "force_update": force_update,
-                "force_migrate_document_records": force_migrate_document_records,
-                "migrate_articles": migrate_articles,
             },
         )
 
