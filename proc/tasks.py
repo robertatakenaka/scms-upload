@@ -340,8 +340,9 @@ def task_migrate_and_publish_issues(
     journal_acron=None,
     publication_year=None,
     issue_folder=None,
+    status=None,
     force_update=False,
-    force_migrate_document_records=False
+    force_migrate_document_records=False,
 ):
     try:
         user = _get_user(user_id, username)
@@ -353,6 +354,15 @@ def task_migrate_and_publish_issues(
         if publication_year:
             params["issue__publication_year"] = publication_year
 
+        query_by_status = Q()
+        if status:
+            status = tracker_choices.get_valid_status(status)
+            query_by_status = (
+                Q(migration_status__in=status) |
+                Q(qa_ws_status__in=status) |
+                Q(public_status__in=status)
+            )
+  
         logging.info(params)
         for collection in _get_collections(collection_acron):
             # obtém os dados do site clássico
@@ -392,9 +402,10 @@ def task_migrate_and_publish_issues(
             )
             qa_api_data = get_api_data(collection, "issue", "QA")
             public_api_data = get_api_data(collection, "issue", "PUBLIC")
-            items = IssueProc.items_to_process(collection, "issue", params, force_update)
-            logging.info(items.count())
-            for issue_proc in items:
+            
+            for issue_proc in IssueProc.objects.filter(
+                query_by_status, collection=collection, **params,
+            ).iterator():
                 try:
                     migrate_issue(
                         user,
