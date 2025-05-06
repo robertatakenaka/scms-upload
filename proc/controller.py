@@ -544,16 +544,7 @@ def migrate_document_records(
     publication_year=None,
     status=None,
     force_update=None,
-):
-    query_by_status = Q()
-    if status:
-        status = tracker_choices.get_valid_status(status)
-        query_by_status = (
-            Q(docs_status__in=status) |
-            Q(qa_ws_status__in=status) |
-            Q(public_status__in=status)
-        )
-
+):        
     params = {}
     if collection_acron:
         params["collection__acron"] = collection_acron
@@ -563,6 +554,8 @@ def migrate_document_records(
         params["issue_folder"] = str(issue_folder)
     if publication_year:
         params["issue__publication_year"] = str(publication_year)
+    if status:
+        params["docs_status__in"] = tracker_choices.get_valid_status(status)
 
     for issue_proc in IssueProc.objects.filter(
         query_by_status, **params
@@ -581,15 +574,6 @@ def get_files_from_classic_website(
     status=None,
     force_update=None,
 ):
-    query_by_status = Q()
-    if status:
-        status = tracker_choices.get_valid_status(status)
-        query_by_status = (
-            Q(files_status__in=status) |
-            Q(qa_ws_status__in=status) |
-            Q(public_status__in=status)
-        )
-
     params = {}
     if collection_acron:
         params["collection__acron"] = collection_acron
@@ -599,6 +583,8 @@ def get_files_from_classic_website(
         params["issue_folder"] = str(issue_folder)
     if publication_year:
         params["issue__publication_year"] = str(publication_year)
+    if status:
+        params["files_status__in"] = tracker_choices.get_valid_status(status)
 
     for issue_proc in IssueProc.objects.filter(
         query_by_status, **params
