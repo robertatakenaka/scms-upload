@@ -81,143 +81,7 @@ def task_migrate_and_publish(
     force_import_acron_id_file=False,
     force_migrate_document_records=False,
 ):
-    try:
-        user = _get_user(user_id, username)
-        journal_filter = {}
-        if journal_acron:
-            journal_filter["acron"] = journal_acron
-
-        issue_filter = {}
-        if journal_acron:
-            issue_filter["journal_proc__acron"] = journal_acron
-        if issue_folder:
-            issue_filter["issue_folder"] = issue_folder
-        if publication_year:
-            issue_filter["issue__publication_year"] = publication_year
-
-        logging.info(f"journal_filter: {journal_filter}")
-        logging.info(f"issue_filter: {issue_filter}")
-
-        for collection in _get_collections(collection_acron):
-            # obtém os dados do site clássico
-            classic_website = get_classic_website(collection.acron)
-
-            # import title.id, cria MigratedJournal
-            create_or_update_migrated_journal(
-                user,
-                collection,
-                classic_website,
-                force_update,
-            )
-            # import issue.id, cria MigratedIssue
-            create_or_update_migrated_issue(
-                user,
-                collection,
-                classic_website,
-                force_update,
-            )
-
-            items = JournalProc.items_to_process(collection, "journal", journal_filter, force_update)
-            logging.info(f"journals to process: {items.count()}")
-            for journal_proc in items:
-                migrate_journal(user, journal_proc, force_update)
-
-            items = IssueProc.items_to_process(
-                collection,
-                "issue",
-                issue_filter,
-                force_update,
-            )
-            logging.info(f"issues to process: {items.count()}")
-            for issue_proc in items:
-                migrate_issue(
-                    user,
-                    issue_proc,
-                    force_update,
-                    force_migrate_document_records=force_migrate_document_records,
-                    migrate_articles=False,
-                )
-
-            article_filter = {}
-            if issue_filter:
-                article_filter = {f"issue_proc__{k}": v for k, v in issue_filter.items()}
-
-            logging.info(f"article_filter: {article_filter}")
-            items = ArticleProc.items_to_process(collection, "article", article_filter, force_update)
-            logging.info(f"articles to process: {items.count()}")
-            for article_proc in items:
-                article_proc.migrate_article(user, force_update)
-
-            for website_kind in (QA, PUBLIC):
-                publish_journals(
-                    user,
-                    website_kind,
-                    collection,
-                    journal_filter,
-                    issue_filter,
-                    force_update,
-                    run_publish_issues=False,
-                    run_publish_articles=False,
-                    task_publish_article=task_publish_article,
-                )
-
-                items = IssueProc.items_to_publish(
-                    website_kind=website_kind,
-                    content_type="issue",
-                    collection=collection,
-                    force_update=force_update,
-                    params=issue_filter,
-                )
-                logging.info(f"publish_issues: {issue_filter} {items.count()}")
-                api_data = get_api_data(collection, "issue", website_kind)
-                for issue_proc in items:
-                    published = issue_proc.publish(
-                        user,
-                        publish_issue,
-                        website_kind=website_kind,
-                        api_data=api_data,
-                        force_update=force_update,
-                    )
-
-                items = ArticleProc.items_to_publish(
-                    website_kind=website_kind,
-                    content_type="article",
-                    collection=collection,
-                    force_update=force_update,
-                    params=article_filter,
-                )
-                api_data = get_api_data(collection, "article", website_kind)
-                logging.info(f"publish_articles: {article_filter} {items.count()}")
-                for article_proc in items:
-                    task_publish_article.apply_async(
-                        kwargs=dict(
-                            user_id=user.id,
-                            username=user.username,
-                            website_kind=website_kind,
-                            article_proc_id=article_proc.id,
-                            api_data=api_data,
-                            force_update=force_update,
-                        )
-                    )
-
-    except Exception as e:
-        exc_type, exc_value, exc_traceback = sys.exc_info()
-        UnexpectedEvent.create(
-            e=e,
-            exc_traceback=exc_traceback,
-            detail={
-                "task": "proc.tasks.task_migrate_and_publish",
-                "user_id": user_id,
-                "username": username,
-                "collection_acron": collection_acron,
-                "journal_acron": journal_acron,
-                "publication_year": publication_year,
-                "issue_folder": issue_folder,
-                "force_update": force_update,
-                "force_import_acron_id_file": force_import_acron_id_file,
-                "force_migrate_document_records": force_migrate_document_records,
-            },
-        )
+    logging.info("Use task_migrate_and_publish_journals, task_migrate_and_publish_issues, task_migrate_and_publish_articles")
 
 
 ############################################
@@ -501,6 +365,31 @@ def task_migrate_and_publish_issues(
                 force_update,
             )
 
+            task_get_files_from_classic_website.apply_async(
+                kwargs=dict(
+                    user_id=user_id,
+                    username=username,
+                    collection_acron=collection.acron,
+                    journal_acron=journal_acron,
+                    issue_folder=issue_folder,
+                    publication_year=publication_year,
+                    status=status,
+                    force_update=force_update,
+                )
+            )
+
+            task_migrate_document_records.apply_async(
+                kwargs=dict(
+                    user_id=user_id,
+                    username=username,
+                    collection_acron=collection.acron,
+                    journal_acron=journal_acron,
+                    issue_folder=issue_folder,
+                    publication_year=publication_year,
+                    status=status,
+                    force_update=force_migrate_document_records,
+                )
+            )
             qa_api_data = get_api_data(collection, "issue", "QA")
             public_api_data = get_api_data(collection, "issue", "PUBLIC")
             items = IssueProc.items_to_process(collection, "issue", params, force_update)
@@ -511,10 +400,7 @@ def task_migrate_and_publish_issues(
                         user,
                         issue_proc,
                         force_update,
-                        force_migrate_document_records=force_migrate_document_records,
-                        migrate_articles=False,
                     )
-
                     task_publish_issue.apply_async(
                         kwargs=dict(
                             user_id=user_id,
@@ -642,7 +528,7 @@ def task_migrate_document_records(
             e=e,
             exc_traceback=exc_traceback,
             detail={
-                "task": "proc.tasks.task_get_files_from_classic_website",
+                "task": "proc.tasks.task_migrate_document_records",
                 "user_id": user_id,
                 "username": username,
                 "collection_acron": collection_acron,
