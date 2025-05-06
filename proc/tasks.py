@@ -142,31 +142,29 @@ def task_migrate_and_publish_journals(
                 # cria ou atualiza Journal e atualiza journal_proc
                 migrate_journal(user, journal_proc, force_update)
 
-                if qa_api_data.get("error"):
-                    continue
-                task_publish_journal.apply_async(
-                    kwargs=dict(
-                        user_id=user_id,
-                        username=username,
-                        website_kind="QA",
-                        journal_proc_id=journal_proc.id,
-                        api_data=qa_api_data,
-                        force_update=force_update,
+                if not qa_api_data.get("error"):
+                    task_publish_journal.apply_async(
+                        kwargs=dict(
+                            user_id=user_id,
+                            username=username,
+                            website_kind="QA",
+                            journal_proc_id=journal_proc.id,
+                            api_data=qa_api_data,
+                            force_update=force_update,
+                        )
                     )
-                )
 
-                if public_api_data.get("error"):
-                    continue
-                task_publish_journal.apply_async(
-                    kwargs=dict(
-                        user_id=user_id,
-                        username=username,
-                        website_kind="PUBLIC",
-                        journal_proc_id=journal_proc.id,
-                        api_data=public_api_data,
-                        force_update=force_update,
+                if not public_api_data.get("error"):
+                    task_publish_journal.apply_async(
+                        kwargs=dict(
+                            user_id=user_id,
+                            username=username,
+                            website_kind="PUBLIC",
+                            journal_proc_id=journal_proc.id,
+                            api_data=public_api_data,
+                            force_update=force_update,
+                        )
                     )
-                )
 
     except Exception as e:
         exc_type, exc_value, exc_traceback = sys.exc_info()
@@ -406,12 +404,12 @@ def task_migrate_and_publish_issues(
             for issue_proc in IssueProc.objects.filter(
                 query_by_status, collection=collection, **params,
             ).iterator():
-                try:
-                    migrate_issue(
-                        user,
-                        issue_proc,
-                        force_update,
-                    )
+                migrate_issue(
+                    user,
+                    issue_proc,
+                    force_update,
+                )
+                if not qa_api_data.get("error"):
                     task_publish_issue.apply_async(
                         kwargs=dict(
                             user_id=user_id,
@@ -422,6 +420,7 @@ def task_migrate_and_publish_issues(
                             force_update=force_update,
                         )
                     )
+                if not public_api_data.get("error"):
                     task_publish_issue.apply_async(
                         kwargs=dict(
                             user_id=user_id,
@@ -431,22 +430,6 @@ def task_migrate_and_publish_issues(
                             api_data=public_api_data,
                             force_update=force_update,
                         )
-                    )
-
-                except Exception as e:
-                    exc_type, exc_value, exc_traceback = sys.exc_info()
-                    UnexpectedEvent.create(
-                        e=e,
-                        exc_traceback=exc_traceback,
-                        detail={
-                            "task": "proc.task.migrate_and_publish_issues",
-                            "user_id": user.id,
-                            "username": user.username,
-                            "collection": collection.acron,
-                            "pid": issue_proc.pid,
-                            "force_update": force_update,
-                            "force_migrate_document_records": force_migrate_document_records,
-                        },
                     )
 
     except Exception as e:
