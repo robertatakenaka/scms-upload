@@ -185,6 +185,7 @@ def _schedule_migrate_and_publish_issues(username, enabled):
             journal_acron=None,
             publication_year=None,
             issue_folder=None,
+            status=["REPROC", "TODO", "DOING", "DONE", "PENDING", "BLOCKED"],
             force_update=False,
             force_migrate_document_records=False,
         ),
