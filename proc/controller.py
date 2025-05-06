@@ -536,6 +536,78 @@ def migrate_issue(user, issue_proc, force_update, force_migrate_document_records
         )
 
 
+def migrate_document_records(
+    user, status,
+    collection_acron=None,
+    journal_acron=None,
+    issue_folder=None,
+    publication_year=None,
+    status=None,
+    force_update=None,
+):
+    query_by_status = Q()
+    if status:
+        status = tracker_choices.get_valid_status(status)
+        query_by_status = (
+            Q(docs_status__in=status) |
+            Q(qa_ws_status__in=status) |
+            Q(public_status__in=status)
+        )
+
+    params = {}
+    if collection_acron:
+        params["collection__acron"] = collection_acron
+    if journal_acron:
+        params["journal_proc__acron"] = journal_acron
+    if issue_folder:
+        params["issue_folder"] = str(issue_folder)
+    if publication_year:
+        params["issue__publication_year"] = str(publication_year)
+
+    for issue_proc in IssueProc.objects.filter(
+        query_by_status, **params
+    ):
+        issue_proc.migrate_document_records(
+            user, force_update
+        )
+
+
+def get_files_from_classic_website(
+    user, status,
+    collection_acron=None,
+    journal_acron=None,
+    issue_folder=None,
+    publication_year=None,
+    status=None,
+    force_update=None,
+):
+    query_by_status = Q()
+    if status:
+        status = tracker_choices.get_valid_status(status)
+        query_by_status = (
+            Q(files_status__in=status) |
+            Q(qa_ws_status__in=status) |
+            Q(public_status__in=status)
+        )
+
+    params = {}
+    if collection_acron:
+        params["collection__acron"] = collection_acron
+    if journal_acron:
+        params["journal_proc__acron"] = journal_acron
+    if issue_folder:
+        params["issue_folder"] = str(issue_folder)
+    if publication_year:
+        params["issue__publication_year"] = str(publication_year)
+
+    for issue_proc in IssueProc.objects.filter(
+        query_by_status, **params
+    ):
+        issue_proc.get_files_from_classic_website(
+            user, force_update, controller.import_one_issue_files
+        )
+
+
 def publish_journals(
     user,
     website_kind,
