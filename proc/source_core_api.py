@@ -22,7 +22,7 @@ from collection.models import Collection
 from proc.models import IssueProc, JournalProc
 from pid_provider.models import PidProviderConfig
 from tracker import choices as tracker_choices
-from ..exceptions import ProcBaseException
+from proc.exceptions import ProcBaseException
 
 
 # Constantes específicas da Core API
