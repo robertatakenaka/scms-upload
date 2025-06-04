@@ -23,6 +23,7 @@ from collection.models import Collection
 from proc.models import IssueProc, JournalProc
 from pid_provider.models import PidProviderConfig
 from tracker import choices as tracker_choices
+from tracker.models import UnexpectedEvent
 from proc.exceptions import ProcBaseException
 
 
@@ -117,7 +118,7 @@ def fetch_and_create_journal(
     # Conta os resultados primeiro para validação
 
     try:
-        check_collection = False
+        block_unregistered_collection = not collection_acron
         results = fetch_journal_data_with_pagination(
             collection_acron=collection_acron,
             issn_electronic=issn_electronic,
@@ -129,8 +130,7 @@ def fetch_and_create_journal(
 
         # api ainda não está aceitando o param collection_acron,
         # consulta api com collection_acron=None e
-        # check_collection=True
-        check_collection = False
+        # block_unregistered_collection=True
         results = fetch_journal_data_with_pagination(
             issn_electronic=issn_electronic,
             issn_print=issn_print,
@@ -139,9 +139,10 @@ def fetch_and_create_journal(
     for result in results:
         try:
             process_journal_result(
-                user, result, check_collection, force_update
+                user, result, block_unregistered_collection, force_update
             )
         except Exception as e:
+            logging.exception(e)
             exc_type, exc_value, exc_traceback = sys.exc_info()
             UnexpectedEvent.create(
                 e=e,
@@ -194,15 +195,15 @@ def fetch_journal_data_with_pagination(
             yield from response.get("results") or []
 
 
-def process_journal_result(user, result, check_collection, force_update=None):
+def process_journal_result(user, result, block_unregistered_collection, force_update=None):
     """
     Processa um único resultado de journal da API e cria/atualiza as entidades correspondentes.
     """
 
-    if check_collection:
+    if block_unregistered_collection:
         collections = []
         for item in result.get("scielo_journal") or []:
-            collections.append(acron=item["collection_acron"])
+            collections.append(item["collection_acron"])
         if not collections:
             return
         if not Collection.objects.filter(acron__in=collections).exists():
@@ -269,10 +270,8 @@ def process_journal_result(user, result, check_collection, force_update=None):
             user=user,
         )
         journal.owner.add(Owner.create_or_update(user, journal, institution))
-
     # Processa dados específicos do SciELO
     for item in result.get("scielo_journal") or []:
-        logging.info(f"process_journal_result: scielo_journal {item}")
         try:
             collection = Collection.objects.get(acron=item["collection_acron"])
         except Collection.DoesNotExist:
@@ -304,7 +303,6 @@ def process_journal_result(user, result, check_collection, force_update=None):
                 jh["day"],
                 jh["interruption_reason"],
             )
-
     return journal
 
 
