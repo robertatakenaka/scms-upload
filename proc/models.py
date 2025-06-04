@@ -51,7 +51,7 @@ from proc import exceptions
 from proc.forms import ProcAdminModelForm, IssueProcAdminModelForm
 from publication.api.publication import get_api_data
 from tracker import choices as tracker_choices
-from tracker.models import Event, UnexpectedEvent, format_traceback
+from tracker.models import UnexpectedEvent, format_traceback
 
 
 class Operation(CommonControlField):
