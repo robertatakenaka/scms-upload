@@ -271,7 +271,8 @@ class OfficialJournal(CommonControlField):
 
     def add_related_journal(self, previous_journal_title, next_journal_title):
         self.previous_journal_title = previous_journal_title
-        self.next_journal_title = next_journal_title
+        if next_journal_title:
+            self.next_journal_title = next_journal_title.get("next_journal_title")
         self.save()
 
 
