@@ -861,9 +861,9 @@ def task_create_collection_procs_from_pid_list(
 
 @celery_app.task(bind=True)
 def task_fetch_and_create_journal(
-    self, username, collection_acron=None, issn_electronic=None, issn_print=None, force_update=None
+    self, user_id, username, collection_acron=None, issn_electronic=None, issn_print=None, force_update=None
 ):
-    user = _get_user(user_id=None, username=username)
+    user = _get_user(user_id=user_id, username=username)
     try:
         fetch_and_create_journal(
             user,

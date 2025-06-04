@@ -107,16 +107,16 @@ def schedule_subtasks(username):
     _schedule_fetch_and_create_journal(username, enabled)  # Nova tarefa adicionada
 
 
-def _schedule_check_article_availability(username, enabled):
+def _schedule_check_article_availability(username, enabled=False):
     """
     Agenda a tarefa de migrar os registros da base de dados TITLE
     Deixa a tarefa desabilitada
     """
     schedule_task(
-        task="proc.tasks.task_check_article_availability",
-        name="check_article_availability",
+        task="publication.tasks.task_check_article_availability",
+        name="task_check_article_availability",
         kwargs=dict(
-            username,
+            username=username,
             issn_print=None,
             issn_electronic=None,
             publication_year=None,
