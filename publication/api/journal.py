@@ -1,11 +1,12 @@
 import logging
-
+import sys
 from django.utils.translation import gettext_lazy as _
 
 from journal.models import JournalHistory
 from publication.api.publication import PublicationAPI
 from publication.utils.journal import build_journal
 from proc.source_core_api import fetch_and_create_journal
+from tracker.models import UnexpectedEvent
 
 
 def publish_journal(journal_proc, api_data):
@@ -16,6 +17,9 @@ def publish_journal(journal_proc, api_data):
 
     if not journal.required_data_completed:
         try:
+            user = journal_proc.updated_by or journal_proc.creator
+            event = None
+            event = journal_proc.start(user, "get data from core")
             fetch_and_create_journal(
                 user=journal_proc.updated_by or journal_proc.creator,
                 collection_acron=journal_proc.collection.acron,
@@ -23,8 +27,20 @@ def publish_journal(journal_proc, api_data):
                 issn_print=journal.issn_electronic,
                 force_update=True,
             )
-        except:
-            pass
+        except Exception as e:
+            exc_type, exc_value, exc_traceback = sys.exc_info()
+            if event:
+                event.finish(user, exc_traceback=exc_traceback, exception=e)
+            else:
+                UnexpectedEvent.create(
+                    e=e,
+                    exc_traceback=exc_traceback,
+                    detail={
+                        "task": "publication.api.journal",
+                        "username": user.username,
+                        "journal_proc": str(journal_proc),
+                    },
+                )
 
     journal_pid = journal_proc.pid
     journal_acron = journal_proc.acron
