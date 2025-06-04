@@ -3,6 +3,7 @@ Módulo responsável pela busca e processamento de dados da API Core externa.
 """
 
 import logging
+import sys
 from django.conf import settings
 from django.db.models import Q
 
@@ -136,9 +137,25 @@ def fetch_and_create_journal(
         )
 
     for result in results:
-        process_journal_result(
-            user, result, check_collection, force_update
-        )
+        try:
+            process_journal_result(
+                user, result, check_collection, force_update
+            )
+        except Exception as e:
+            exc_type, exc_value, exc_traceback = sys.exc_info()
+            UnexpectedEvent.create(
+                e=e,
+                exc_traceback=exc_traceback,
+                detail={
+                    "task": "proc.source_core_api",
+                    "username": user.username,
+                    "collection": collection_acron,
+                    "issn_electronic": issn_electronic,
+                    "issn_print": issn_print,
+                    "force_update": force_update,
+                    "data": result
+                },
+            )    
 
 
 def fetch_journal_data_with_pagination(
@@ -181,7 +198,6 @@ def process_journal_result(user, result, check_collection, force_update=None):
     """
     Processa um único resultado de journal da API e cria/atualiza as entidades correspondentes.
     """
-    logging.info(f"process_journal_result: {result}")
 
     if check_collection:
         collections = []
