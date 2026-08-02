@@ -682,7 +682,9 @@ def get_migrated_xml_with_pre(article_proc):
     try:
         xml_file_path = None
         xml_file_path = obj.file.path
-        for item in XMLWithPre.create(path=xml_file_path):
+        html_name = article_proc.migrated_data.html_name
+        xml_name = article_proc.migrated_data.xml_name
+        for item in XMLWithPre.create(path=xml_file_path, html_name=html_name, xml_native_name=xml_name):
             if article_proc.pid and item.v2 != article_proc.pid:
                 # corrige ou adiciona pid v2 no XML nativo ou obtido do html
                 # usando o valor do pid v2 do site clássico
