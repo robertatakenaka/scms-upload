@@ -182,6 +182,7 @@ def receive_package(user, package):
         zip_xml_file_path = package.file.path
         response = {}
         for xml_with_pre in XMLWithPre.create(path=zip_xml_file_path):
+            xml_with_pre.provided_sps_pkg_name = package.xml_name
 
             # atualiza package name e linked
             # TODO melhorar a forma de fazer link entre os artigos do pacote
