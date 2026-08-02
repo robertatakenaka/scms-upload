@@ -101,7 +101,7 @@ def create_report(report_file_path, xml_path, params, fieldnames=None):
             "nlm_ta": params.get("nlm_ta"),
         }
     for xml_with_pre in XMLWithPre.create(path=xml_path):
-        rows = validate_xml_content(xml_with_pre.filename, xml_with_pre.xmltree, params)
+        rows = validate_xml_content(xml_with_pre.xml_name, xml_with_pre.xmltree, params)
         save_csv(report_file_path, rows, fieldnames)
         print(f"Created {report_file_path}")
 
