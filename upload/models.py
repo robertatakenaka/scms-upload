@@ -86,14 +86,14 @@ def report_datetime():
 def upload_package_directory_path(instance, filename):
     name, ext = os.path.splitext(filename)
     try:
-        sps_pkg_name = instance.name
+        xml_name = instance.name
     except AttributeError:
-        sps_pkg_name = instance.package.name
+        xml_name = instance.package.name
 
-    subdirs = (sps_pkg_name or name).split("-")
-    subdir_sps_pkg_name = "/".join(subdirs)
+    subdirs = (xml_name or name).split("-")
+    subdir_xml_name = "/".join(subdirs)
 
-    return f"upload/{subdir_sps_pkg_name}/{ext[1:]}/{filename}"
+    return f"upload/{subdir_xml_name}/{ext[1:]}/{filename}"
 
 
 class PackageZip(CommonControlField):
@@ -966,7 +966,11 @@ class Package(CommonControlField, ClusterableModel):
         Atualiza data de publicação do artigo e/ou pid v2, se necessário
         """
         try:
-            xml_pub_date = datetime.fromisoformat(xml_with_pre.article_publication_date)
+            xml_pub_date = xml_with_pre.article_publication_date
+        except Exception as e:
+            xml_pub_date = xml_with_pre.get_complete_publication_date()
+        try:
+            xml_pub_date = datetime.fromisoformat(xml_pub_date)
         except Exception as e:
             xml_pub_date = None
 
@@ -2211,12 +2215,14 @@ class PidReservation(models.Model):
         ]
 
     @classmethod
-    def get(cls, pid_v2=None, pkg_name=None):
+    def get(cls, pid_v2=None, pkg_name=None, name_list=None):
         params = {}
         if pid_v2:
             params["pid_v2"] = pid_v2
         if pkg_name:
             params["pkg_name"] = pkg_name
+        if name_list:
+            params["pkg_name__in"] = name_list
         if not params:
             raise ValueError("PidReservation.is_reserved requires params")
         return cls.objects.get(**params)
@@ -2248,30 +2254,30 @@ class PidV2Generator:
 
     def generate(self, user, journal, issue):
         self.log = []
-        logging.info("PidV2Generator.generate PidProviderXML")
         registered = PidProviderXML.is_registered(self.xml_with_pre)
         if registered and registered.get("v2"):
             self.log.append(_("Setting package.pid_v2 from PidProviderXML"))
             return registered.get("v2")
 
-        logging.info("PidV2Generator.generate PidReservation")
         try:
-            return PidReservation.get(pkg_name=self.xml_with_pre.sps_pkg_name).pid_v2
+            try:
+                name_list = self.xml_with_pre.pkg_name_variations
+            except AttributeError:
+                name_list = [self.xml_with_pre.sps_pkg_name]
+                name_list.extend(self.xml_with_pre.deprecated_sps_pkg_name_list)
+            return PidReservation.get(name_list=name_list).pid_v2
         except PidReservation.DoesNotExist:
             pass
-
-        logging.info("PidV2Generator.generate IssueProc")
-
+        
         self.issue_pid = self.get_issue_pid(user, journal, issue)
         if not self.issue_pid:
             self.log.append(
                 _(
                     "Unable to set package.pid_v2 because issue ({}) is not registered"
-                ).format(self.issue)
+                ).format(issue)
             )
             raise ValueError("Package.generate_pid_v2: Missing issue_pid")
 
-        logging.info("PidV2Generator.generate generate_pid_v2_from_metadata")
         pid_v2 = self.generate_pid_v2_from_metadata()
         # if not pid_v2:
         #     logging.info("PidV2Generator.generate get_random_pid_v2")
@@ -2282,10 +2288,8 @@ class PidV2Generator:
                 f"Unable to get pid v2 for {self.xml_with_pre.sps_pkg_name}"
             )
 
-        logging.info("PidV2Generator.generate reserve_pid_v2")
         self.reserve_pid_v2(pid_v2)
         if registered:
-            logging.info("PidV2Generator.generate update_pid_provider_v2")
             self.update_pid_provider_v2(registered.get("v3"), pid_v2)
 
         return pid_v2
@@ -2347,9 +2351,6 @@ class PidV2Generator:
         for name, source in sources:
             if not source:
                 continue
-            logging.info(
-                f"PidV2Generator.generate generate_pid_v2_from_metadata {name}"
-            )
             pid_v2 = self.generate_pid_v2_from_source(source)
             if pid_v2:
                 self.log.append(_("Setting v2 ({}) from {}").format(pid_v2, name))
