@@ -2258,13 +2258,13 @@ class ArticleProc(BaseProc, ClusterableModel):
             if detail["file_type"] == "html":
                 xml_file_path = self.get_xml_from_html(user, detail)
                 # o arquivo não existe no sistema de arquivos
-                html_name = document.filename_without_extension + ".html"
+                html_name = migrated_data.html_name
                 xml_name = None
                 xml_with_pre = None
             else:
                 xml_with_pre = self.get_xml_from_native(detail)
                 xml_file_path = None
-                xml_name = document.filename_without_extension + ".xml"
+                xml_name = migrated_data.xml_name
                 html_name = None
 
             self.save_processed_xml(
@@ -2291,7 +2291,10 @@ class ArticleProc(BaseProc, ClusterableModel):
     def get_xml_from_native(self, detail):
         try:
             xml_with_pre = list(
-                XMLWithPre.create(path=self.migrated_xml.file.path)
+                XMLWithPre.create(
+                    path=self.migrated_xml.file.path,
+                    xml_native_name=self.migrated_data.xml_name,
+                )
             )[0]
         except IndexError as e:
             raise XMLVersionXmlWithPreError(
@@ -2361,20 +2364,9 @@ class ArticleProc(BaseProc, ClusterableModel):
     ):
         try:
             if not xml_with_pre and xml_file_path:
-                try:
-                    xml_with_pre = list(
-                        XMLWithPre.create(path=xml_file_path, html_name=html_name, xml_native_name=xml_name)
-                    )
-                except TypeError:
-                    xml_with_pre = list(
-                        XMLWithPre.create(path=xml_file_path)
-                    )
-                try:
-                    xml_with_pre = xml_with_pre[0]
-                except IndexError:
-                    raise ValueError(
-                        "No XML with pre to process from {}".format(xml_file_path)
-                    )
+                xml_with_pre = list(
+                    XMLWithPre.create(path=xml_file_path, html_name=html_name, xml_native_name=xml_name)
+                )[0]
             if self.pid and xml_with_pre.v2 != self.pid:
                 xml_with_pre.v2 = self.pid
             order = str(int(self.pid[-5:]))
