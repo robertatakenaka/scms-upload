@@ -148,8 +148,7 @@ class PackageZip(CommonControlField):
     @property
     def xmls(self):
         for item in XMLWithPre.create(path=self.file.path):
-            logging.info(item.filename)
-            yield item.filename
+            yield item.xml_name
 
     def split(self, user):
         pkg_zip = PkgZip(self.file.path)
@@ -400,6 +399,7 @@ class Package(CommonControlField, ClusterableModel):
     @property
     def xml_with_pre(self):
         for item in XMLWithPre.create(path=self.file.path):
+            item.provided_sps_pkg_name = self.xml_name
             return item
 
     @classmethod
