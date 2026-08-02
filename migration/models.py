@@ -703,6 +703,16 @@ class MigratedArticle(MigratedData):
             return None
 
     @property
+    def xml_name(self):
+        if self.file_type == "xml":
+            return self.document.filename_without_extension
+
+    @property
+    def html_name(self):
+        if self.file_type == "html":
+            return self.document.filename_without_extension
+
+    @property
     def path(self):
         document = self.document
         try:
