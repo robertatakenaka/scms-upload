@@ -126,19 +126,18 @@ def basic_xml_directory_path(instance, filename):
 
 class BasicXMLFile(models.Model):
     file = models.FileField(upload_to=basic_xml_directory_path, null=True, blank=True, max_length=300)
+    xml_name = models.CharField(max_length=300, null=True, blank=True)
 
     panels = [
         FieldPanel("file"),
+        FieldPanel("xml_name"),
     ]
 
     class Meta:
         abstract = True
 
     def __str__(self):
-        try:
-            return f"{self.file.path}"
-        except Exception as e:
-            return str(e)
+        return self.xml_name or self.file.path
 
     @property
     def xml_with_pre(self):
@@ -177,26 +176,26 @@ class BasicXMLFile(models.Model):
 
     @property
     def filename(self):
+        if self.xml_name:
+            return self.xml_name + ".xml"
         return f"{now()}.xml"
 
-    @property
-    def sps_pkg_name(self):
-        try:
-            return self.xml_with_pre.sps_pkg_name
-        except AttributeError:
-            return
+    # @property
+    # def sps_pkg_name(self):
+    #     try:
+    #         return self.xml_with_pre.sps_pkg_name
+    #     except AttributeError:
+    #         return
 
 
 def pkg_directory_path(instance, filename):
-    sps_pkg_name = instance.sps_pkg_name
-    subdir = "/".join(sps_pkg_name.split("-"))
+    xml_name = instance.sps_pkg_name
+    subdir = "/".join(xml_name.split("-"))
     return f"sps_pkg/{subdir}/{filename}"
 
 
-def preview_page_directory_path(instance, filename):
-    sps_pkg_name = instance.sps_pkg.sps_pkg_name
-    subdir = "/".join(sps_pkg_name.split("-"))
-    return f"sps_pkg/{subdir}/{filename}"
+# apenas para compatibilidade com o código legado, que utiliza o mesmo diretório para os arquivos de preview
+preview_page_directory_path = pkg_directory_path
 
 
 class SPSPkgComponent(FileLocation, Orderable):
@@ -428,11 +427,13 @@ class SPSPkg(CommonControlField, ClusterableModel):
             return False
 
     @classmethod
-    def _get_or_create(cls, user, pid_v3, sps_pkg_name, registered_in_core, pid_v2):
+    def _get_or_create(cls, user, pid_v3, sps_pkg_name, registered_in_core, pid_v2, sps_pkg_name_list=None):
         try:
-            obj = cls.objects.get(sps_pkg_name=sps_pkg_name)            
+            if not sps_pkg_name_list:
+                sps_pkg_name_list = [sps_pkg_name]
+            obj = cls.objects.get(sps_pkg_name__in=sps_pkg_name_list)
         except cls.MultipleObjectsReturned:
-            items = cls.objects.filter(sps_pkg_name=sps_pkg_name).order_by("-updated")
+            items = cls.objects.filter(sps_pkg_name__in=sps_pkg_name_list).order_by("-updated")
             obj = items.first()
             cls.delete_queryset(items.exclude(id=obj.id))
         except cls.DoesNotExist:
@@ -577,12 +578,19 @@ class SPSPkg(CommonControlField, ClusterableModel):
 
                 xml_with_pre = response.pop("xml_with_pre")
 
+                try:
+                    name_list = xml_with_pre.pkg_name_variations
+                except AttributeError:
+                    name_list = [xml_with_pre.sps_pkg_name]
+                    name_list.extend(xml_with_pre.deprecated_sps_pkg_name_list)
+
                 obj = cls._get_or_create(
                     user=user,
                     pid_v3=response["v3"],
                     sps_pkg_name=response["pkg_name"],
                     registered_in_core=response.get("registered_in_core"),
                     pid_v2=response["v2"],
+                    sps_pkg_name_list=name_list
                 )
 
                 if response.get("changed"):
@@ -916,11 +924,12 @@ class SPSPkg(CommonControlField, ClusterableModel):
         xml_with_pre = self.xml_with_pre
         if not xml_with_pre:
             return None
-        pub_date = xml_with_pre.article_publication_date
-        if not pub_date:
-            return None
-        if len(pub_date) == 10:
-            return pub_date
+        try:
+            pub_date = xml_with_pre.article_publication_date
+            if len(pub_date) == 10:
+                return pub_date
+        except Exception:
+            pass
         # em caso de data incompleta, tenta retornar a data completa, completando com 06 o mes ausente e com 15 o dia ausente
         return xml_with_pre.get_complete_publication_date()
     
