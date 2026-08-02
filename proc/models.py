@@ -2254,16 +2254,24 @@ class ArticleProc(BaseProc, ClusterableModel):
                 migrated_data.save()
 
             detail["file_type"] = migrated_data.file_type
+    
             if detail["file_type"] == "html":
                 xml_file_path = self.get_xml_from_html(user, detail)
+                # o arquivo não existe no sistema de arquivos
+                html_name = document.filename_without_extension + ".html"
+                xml_name = None
                 xml_with_pre = None
             else:
                 xml_with_pre = self.get_xml_from_native(detail)
                 xml_file_path = None
+                xml_name = document.filename_without_extension + ".xml"
+                html_name = None
 
             self.save_processed_xml(
                 xml_with_pre, xml_file_path, detail,
                 migrated_document_publication_day,
+                html_name=html_name,
+                xml_name=xml_name,
             )
             self.xml_status = tracker_choices.PROGRESS_STATUS_DONE
             self.save()
@@ -2304,19 +2312,22 @@ class ArticleProc(BaseProc, ClusterableModel):
                 not article_publication_date
                 or len(article_publication_date) != 10
             ):
-                processing_date = self.migrated_data.document.processing_date
-                if processing_date:
-                    article_publication_date = datetime.strptime(
-                        processing_date, "%Y%m%d"
-                    ).strftime("%Y-%m-%d")
-                else:
-                    article_publication_date = (
-                        xml_with_pre.get_complete_publication_date()
+                raise ValueError(
+                    "Invalid article_publication_date: {}".format(
+                        article_publication_date
                     )
-                xml_with_pre.article_publication_date = article_publication_date
+                )
         except Exception as e:
-            logging.exception(e)
-            raise
+            processing_date = self.migrated_data.document.processing_date
+            if processing_date:
+                article_publication_date = datetime.strptime(
+                    processing_date, "%Y%m%d"
+                ).strftime("%Y-%m-%d")
+            else:
+                article_publication_date = (
+                    xml_with_pre.get_complete_publication_date()
+                )
+            xml_with_pre.article_publication_date = article_publication_date
         return xml_with_pre
 
     def get_xml_from_html(self, user, detail):
@@ -2345,14 +2356,25 @@ class ArticleProc(BaseProc, ClusterableModel):
     def save_processed_xml(
         self, xml_with_pre, xml_file_path, detail,
         migrated_document_publication_day,
+        html_name,
+        xml_name,
     ):
         try:
             if not xml_with_pre and xml_file_path:
-                xml_with_pre = list(
-                    XMLWithPre.create(path=xml_file_path)
-                )[0]
-            if not xml_with_pre:
-                raise ValueError("No XML with pre to process")
+                try:
+                    xml_with_pre = list(
+                        XMLWithPre.create(path=xml_file_path, html_name=html_name, xml_native_name=xml_name)
+                    )
+                except TypeError:
+                    xml_with_pre = list(
+                        XMLWithPre.create(path=xml_file_path)
+                    )
+                try:
+                    xml_with_pre = xml_with_pre[0]
+                except IndexError:
+                    raise ValueError(
+                        "No XML with pre to process from {}".format(xml_file_path)
+                    )
             if self.pid and xml_with_pre.v2 != self.pid:
                 xml_with_pre.v2 = self.pid
             order = str(int(self.pid[-5:]))
