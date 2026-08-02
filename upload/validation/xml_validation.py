@@ -124,7 +124,7 @@ def save_csv(filepath, rows, fieldnames=None):
             writer.writerow(row)
 
 
-def validate_xml_content(sps_pkg_name, xmltree, params):
+def validate_xml_content(pkg_name, xmltree, params):
     logging.info("")
     # params = {
     #     "get_doi_data": callable_get_doi_data,
@@ -180,7 +180,8 @@ def validate_xml_content(sps_pkg_name, xmltree, params):
                         exception=exc,
                         exc_traceback=exc_traceback,
                         function=validation_group,
-                        sps_pkg_name=sps_pkg_name,
+                        pkg_name=pkg_name,
+                        sps_pkg_name=pkg_name,
                         item=item,
                     )
         except Exception as exc:
@@ -189,7 +190,8 @@ def validate_xml_content(sps_pkg_name, xmltree, params):
                 exception=exc,
                 exc_traceback=exc_traceback,
                 function=validation_group,
-                sps_pkg_name=sps_pkg_name,
+                pkg_name=pkg_name,
+                sps_pkg_name=pkg_name,
             )
 
 
