@@ -327,16 +327,17 @@ def task_receive_package(self, user_id, pkg_id):
         article_id = package.article and package.article.id or None
 
         xml_with_pre = package.xml_with_pre
-        xml_path = xml_with_pre.filename
-        name, ext = os.path.splitext(xml_path)
+        xml_path = xml_with_pre.xml_name
 
         # FIXME para nao usar o otimizado
         optimised_filepath = task_optimise_package(file_path)
         logging.info(optimised_filepath)
 
-        for optimised_xml_with_pre in XMLWithPre.create(path=optimised_filepath):
-
-            package_files = optimised_xml_with_pre.filenames
+        for optimised_xml_with_pre in XMLWithPre.create(
+            path=optimised_filepath,
+            xml_native_name=xml_path,
+        ):
+            package_files = optimised_xml_with_pre.zip_namelist
 
             # Aciona validação de Assets
             task_validate_assets.apply_async(
