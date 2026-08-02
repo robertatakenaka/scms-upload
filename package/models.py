@@ -142,7 +142,7 @@ class BasicXMLFile(models.Model):
     @property
     def xml_with_pre(self):
         try:
-            for item in XMLWithPre.create(path=self.file.path):
+            for item in XMLWithPre.create(path=self.file.path, xml_native_name=self.xml_name):
                 return item
         except Exception as e:
             raise XMLVersionXmlWithPreError(
