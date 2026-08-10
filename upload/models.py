@@ -39,7 +39,7 @@ from package import choices as package_choices
 from package.models import SPSPkg
 from pid_provider.models import PidProviderXML
 from proc.models import IssueProc, Operation
-from proc.source_core_api import create_or_update_issue
+from proc.source_core_api import IssueDataChecker
 from team.models import CollectionTeamMember
 from upload import choices
 from upload.forms import (
@@ -86,14 +86,14 @@ def report_datetime():
 def upload_package_directory_path(instance, filename):
     name, ext = os.path.splitext(filename)
     try:
-        sps_pkg_name = instance.name
+        xml_name = instance.name
     except AttributeError:
-        sps_pkg_name = instance.package.name
+        xml_name = instance.package.name
 
-    subdirs = (sps_pkg_name or name).split("-")
-    subdir_sps_pkg_name = "/".join(subdirs)
+    subdirs = (xml_name or name).split("-")
+    subdir_xml_name = "/".join(subdirs)
 
-    return f"upload/{subdir_sps_pkg_name}/{ext[1:]}/{filename}"
+    return f"upload/{subdir_xml_name}/{ext[1:]}/{filename}"
 
 
 class PackageZip(CommonControlField):
@@ -148,7 +148,6 @@ class PackageZip(CommonControlField):
     @property
     def xmls(self):
         for item in XMLWithPre.create(path=self.file.path):
-            logging.info(item.filename)
             yield item.filename
 
     def split(self, user):
@@ -440,20 +439,21 @@ class Package(CommonControlField, ClusterableModel):
     @property
     def renditions(self):
         """
-        Retorna um gerador de itens com este formato
+        Retorna um lista de itens com este formato
         {
             "name": name,
             "lang": item.language,
             "component_type": "rendition",
             "main": item.is_main_language,
-            "content": b'',
+            "sps_pkg_name": "dado ou construido ou ...",
+            "path_in_zip": "",
         }
         """
         renditions = self.xml_with_pre.renditions
 
         with ZipFile(self.file.path) as zf:
             for rendition in renditions:
-                rendition["content"] = zf.read(rendition["name"])
+                rendition["content"] = zf.read(rendition["path_in_zip"])
                 yield rendition
 
     def files_list(self):
@@ -523,7 +523,7 @@ class Package(CommonControlField, ClusterableModel):
             return False
         return True
 
-    def finish_reception(self, task_publish_article=None, blocking_error_status=None):
+    def finish_reception(self, task_upload_workflow_publish_article=None, blocking_error_status=None):
         """
         1. Verifica se as validações que executaram em paralelo, finalizaram
         2. Calcula os números de problemas do pacote
@@ -540,9 +540,9 @@ class Package(CommonControlField, ClusterableModel):
 
         self.calculate_validation_numbers()
         self.evaluate_validation_numbers(blocking_error_status)
-        self.process_system_decision(task_publish_article)
+        self.process_system_decision(task_upload_workflow_publish_article)
 
-    def process_system_decision(self, task_publish_article):
+    def process_system_decision(self, task_upload_workflow_publish_article):
         is_ready_to_preview = False
 
         if self.status in (
@@ -551,7 +551,7 @@ class Package(CommonControlField, ClusterableModel):
         ):
             is_ready_to_preview = True
 
-        if task_publish_article and is_ready_to_preview:
+        if task_upload_workflow_publish_article and is_ready_to_preview:
             try:
                 user = self.updated_by or self.creator
                 # é desejável que o artigo seja publicado diretamente
@@ -564,7 +564,8 @@ class Package(CommonControlField, ClusterableModel):
                 detail = {"is_ready_to_publish": is_ready_to_publish}
 
                 response = self.prepare_to_publish(
-                    user, qa=is_ready_to_preview, public=is_ready_to_publish
+                    user, qa=is_ready_to_preview, public=is_ready_to_publish,
+                    force_update=None
                 )
                 detail.update(response or {})
 
@@ -573,9 +574,9 @@ class Package(CommonControlField, ClusterableModel):
                 )
                 event.finish(user, completed=True, detail=detail)
 
-                self.run_task_publish_article(
+                self.run_task_upload_workflow_publish_article(
                     user,
-                    task_publish_article,
+                    task_upload_workflow_publish_article,
                     response.get("websites") or [],
                     self.upload_validator.publication_rule,
                     True,
@@ -726,7 +727,7 @@ class Package(CommonControlField, ClusterableModel):
         data.update(self.metrics)
         return data
 
-    def finish_deposit(self, task_publish_article):
+    def finish_deposit(self, task_upload_workflow_publish_article):
         """
         1. Analisa as respostas do produtor de XML aos problemas encontrados no pacote
         O produtor de XML pode concordar ou discordar com os erros
@@ -757,7 +758,7 @@ class Package(CommonControlField, ClusterableModel):
         if self.is_acceptable_package:
             # pode finalizar, se a quantidade de erros é tolerável
             # para passar para o próximo passo
-            self.process_system_decision(task_publish_article)
+            self.process_system_decision(task_upload_workflow_publish_article)
             return True
 
         if not self.is_error_review_finished:
@@ -814,7 +815,7 @@ class Package(CommonControlField, ClusterableModel):
     def process_qa_decision(
         self,
         user,
-        task_publish_article=None,
+        task_upload_workflow_publish_article=None,
         force_journal_publication=None,
         force_issue_publication=None,
     ):
@@ -853,7 +854,7 @@ class Package(CommonControlField, ClusterableModel):
 
                 # é desejável que qa e public sejam publicados simultaneamente
                 # exceto se há impedimento de em tornar público
-                response = self.prepare_to_publish(user, qa, public)
+                response = self.prepare_to_publish(user, qa, public, True)
                 self.update_status_and_add_comments(
                     user, response.get("result"), response.get("new_status")
                 )
@@ -861,9 +862,9 @@ class Package(CommonControlField, ClusterableModel):
                 detail.update(response or {})
                 operation.finish(user, completed=True, detail=detail)
 
-                self.run_task_publish_article(
+                self.run_task_upload_workflow_publish_article(
                     user,
-                    task_publish_article,
+                    task_upload_workflow_publish_article,
                     response.get("websites") or [],
                     self.upload_validator.publication_rule,
                     force_journal_publication,
@@ -950,11 +951,11 @@ class Package(CommonControlField, ClusterableModel):
             self.status = new_status
             save = True
 
-        if comments:
-            if not self.qa_comment:
-                self.qa_comment = ""
-            self.qa_comment += "\n".join(comments)
-            save = True
+        # não acrescentar os erros na caixa qa_comments
+        # if comments:
+        #     self.qa_comment = self.qa_comment or ""
+        #     self.qa_comment += "\n".join(str(c) for c in comments)
+        #     save = True
 
         if save:
             self.save()
@@ -967,7 +968,11 @@ class Package(CommonControlField, ClusterableModel):
         Atualiza data de publicação do artigo e/ou pid v2, se necessário
         """
         try:
-            xml_pub_date = datetime.fromisoformat(xml_with_pre.article_publication_date)
+            xml_pub_date = xml_with_pre.article_publication_date
+        except Exception as e:
+            xml_pub_date = xml_with_pre.get_complete_publication_date()
+        try:
+            xml_pub_date = datetime.fromisoformat(xml_pub_date)
         except Exception as e:
             xml_pub_date = None
 
@@ -1019,7 +1024,7 @@ class Package(CommonControlField, ClusterableModel):
             )
             raise
 
-    def prepare_sps_package(self, user, xml_with_pre, xml_file_changed):
+    def prepare_sps_package(self, user, xml_with_pre, xml_file_changed, force_update=None):
         # Aplica-se também para um pacote de atualização de um conteúdo anteriormente migrado
         # TODO components, texts
         if xml_file_changed:
@@ -1031,6 +1036,7 @@ class Package(CommonControlField, ClusterableModel):
             or not self.sps_pkg
             or not self.sps_pkg.registered_in_core
             or not self.sps_pkg.valid_components
+            or force_update
         ):
 
             texts = {
@@ -1038,7 +1044,6 @@ class Package(CommonControlField, ClusterableModel):
                 "pdf_langs": [
                     rendition["lang"]
                     for rendition in xml_with_pre.renditions
-                    if rendition["name"] in xml_with_pre.filenames
                 ],
             }
             self.sps_pkg = SPSPkg.create_or_update(
@@ -1213,7 +1218,7 @@ class Package(CommonControlField, ClusterableModel):
         report.creation = choices.REPORT_CREATION_DONE
         report.save()
 
-    def prepare_to_publish(self, user, qa=None, public=None):
+    def prepare_to_publish(self, user, qa=None, public=None, force_update=None):
         # verifica se há impedimentos de tornar o artigo público
         detail = {"qa": qa, "public": public}
         if not qa and not public:
@@ -1226,7 +1231,7 @@ class Package(CommonControlField, ClusterableModel):
             xml_with_pre = self.xml_with_pre
 
             xml_changed = self.check_xml_changed(user, xml_with_pre, public)
-            self.prepare_sps_package(user, xml_with_pre, xml_changed)
+            self.prepare_sps_package(user, xml_with_pre, xml_changed, force_update)
             result = self.analyze_sps_package(qa, public, xml_changed)
 
             detail.update(result)
@@ -1288,10 +1293,10 @@ class Package(CommonControlField, ClusterableModel):
                 )
             raise
 
-    def run_task_publish_article(
+    def run_task_upload_workflow_publish_article(
         self,
         user,
-        task_publish_article,
+        task_upload_workflow_publish_article,
         websites,
         publication_rule,
         force_journal_publication,
@@ -1300,7 +1305,7 @@ class Package(CommonControlField, ClusterableModel):
         if not websites:
             return
 
-        task_publish_article.apply_async(
+        task_upload_workflow_publish_article.apply_async(
             kwargs=dict(
                 user_id=user.id,
                 username=user.username,
@@ -1314,7 +1319,7 @@ class Package(CommonControlField, ClusterableModel):
         )
         if "PUBLIC" in websites:
             for item in self.linked.all():
-                task_publish_article.apply_async(
+                task_upload_workflow_publish_article.apply_async(
                     kwargs=dict(
                         user_id=user.id,
                         username=user.username,
@@ -2212,12 +2217,14 @@ class PidReservation(models.Model):
         ]
 
     @classmethod
-    def get(cls, pid_v2=None, pkg_name=None):
+    def get(cls, pid_v2=None, pkg_name=None, name_list=None):
         params = {}
         if pid_v2:
             params["pid_v2"] = pid_v2
         if pkg_name:
             params["pkg_name"] = pkg_name
+        if name_list:
+            params["pkg_name__in"] = name_list
         if not params:
             raise ValueError("PidReservation.is_reserved requires params")
         return cls.objects.get(**params)
@@ -2249,30 +2256,30 @@ class PidV2Generator:
 
     def generate(self, user, journal, issue):
         self.log = []
-        logging.info("PidV2Generator.generate PidProviderXML")
         registered = PidProviderXML.is_registered(self.xml_with_pre)
         if registered and registered.get("v2"):
             self.log.append(_("Setting package.pid_v2 from PidProviderXML"))
             return registered.get("v2")
 
-        logging.info("PidV2Generator.generate PidReservation")
         try:
-            return PidReservation.get(pkg_name=self.xml_with_pre.sps_pkg_name).pid_v2
+            try:
+                name_list = self.xml_with_pre.pkg_name_variations
+            except AttributeError:
+                name_list = [self.xml_with_pre.sps_pkg_name]
+                name_list.extend(self.xml_with_pre.deprecated_sps_pkg_name_list)
+            return PidReservation.get(name_list=name_list).pid_v2
         except PidReservation.DoesNotExist:
             pass
-
-        logging.info("PidV2Generator.generate IssueProc")
-
+        
         self.issue_pid = self.get_issue_pid(user, journal, issue)
         if not self.issue_pid:
             self.log.append(
                 _(
                     "Unable to set package.pid_v2 because issue ({}) is not registered"
-                ).format(self.issue)
+                ).format(issue)
             )
             raise ValueError("Package.generate_pid_v2: Missing issue_pid")
 
-        logging.info("PidV2Generator.generate generate_pid_v2_from_metadata")
         pid_v2 = self.generate_pid_v2_from_metadata()
         # if not pid_v2:
         #     logging.info("PidV2Generator.generate get_random_pid_v2")
@@ -2283,10 +2290,8 @@ class PidV2Generator:
                 f"Unable to get pid v2 for {self.xml_with_pre.sps_pkg_name}"
             )
 
-        logging.info("PidV2Generator.generate reserve_pid_v2")
         self.reserve_pid_v2(pid_v2)
         if registered:
-            logging.info("PidV2Generator.generate update_pid_provider_v2")
             self.update_pid_provider_v2(registered.get("v3"), pid_v2)
 
         return pid_v2
@@ -2348,9 +2353,6 @@ class PidV2Generator:
         for name, source in sources:
             if not source:
                 continue
-            logging.info(
-                f"PidV2Generator.generate generate_pid_v2_from_metadata {name}"
-            )
             pid_v2 = self.generate_pid_v2_from_source(source)
             if pid_v2:
                 self.log.append(_("Setting v2 ({}) from {}").format(pid_v2, name))
@@ -2406,13 +2408,13 @@ class PidV2Generator:
 
     def get_issue_pid(self, user, journal, issue):
         if not issue:
-            issue = create_or_update_issue(
+            checker = IssueDataChecker(
                 journal=journal,
-                pub_year=self.xml_with_pre.pub_year,
+                publication_year=self.xml_with_pre.pub_year,
                 volume=self.xml_with_pre.volume,
                 suppl=self.xml_with_pre.suppl,
                 number=self.xml_with_pre.number,
                 user=user,
-                force_update=True,
             )
+            issue = checker.ensure_proc_exists()
         return IssueProc.get_issue_pid(issue)

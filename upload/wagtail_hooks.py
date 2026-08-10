@@ -3,11 +3,11 @@ import logging
 from django.urls import include, path
 from django.utils.translation import gettext_lazy as _
 from django.db.models import Q
-
 from wagtail import hooks
 from wagtail.snippets.models import register_snippet
 from wagtail.snippets.views.snippets import SnippetViewSet, SnippetViewSetGroup
 
+from core.views import CommonControlFieldViewSet
 from config.menu import get_menu_order
 from upload.views import (
     ReadyToPublishPackageEditView,
@@ -37,9 +37,61 @@ from .models import (
 )
 from .permission_helper import UploadPermissionHelper
 from team.models import has_permission
+from upload.bulk_actions.republish import RepublishPublicBulkAction, RepublishQABulkAction
+
+from django.contrib.admin.utils import quote
+from wagtail.admin.ui.tables import TitleColumn
+from wagtail.snippets.views.snippets import IndexView as SnippetIndexView
 
 
-class PackageZipViewSet(SnippetViewSet):
+class InspectFirstIndexView(SnippetIndexView):
+    """
+    Restaura o comportamento do ModelAdmin legado: clicar no item da
+    listagem abre a INSPECT view (se disponível), em vez da edit view.
+    O botão 'Edit' continua disponível normalmente no menu de ações "...".
+    """
+
+    def _get_title_column(self, field_name, column_class=TitleColumn, **kwargs):
+        column_class = self._get_title_column_class(column_class)
+
+        def get_url(instance):
+            if inspect_url := self.get_inspect_url(instance):
+                return inspect_url
+            return self.get_edit_url(instance)
+
+        kwargs.setdefault(
+            "get_title_id",
+            lambda instance: f"snippet_{quote(instance.pk)}_title",
+        )
+
+        if not self.model:
+            return column_class(
+                "name", label="Name", accessor=str, get_url=get_url, **kwargs
+            )
+        return self._get_custom_column(
+            field_name, column_class, get_url=get_url, **kwargs
+        )
+
+
+hooks.register("register_bulk_action", RepublishQABulkAction)
+hooks.register("register_bulk_action", RepublishPublicBulkAction)
+
+
+class PermissionHelperMixin:
+    @property
+    def permission_helper(self):
+        try:
+            return self._permission_helper
+        except AttributeError:
+            self._permission_helper = self.permission_helper_class(self.model)
+            return self._permission_helper
+
+
+class BaseUploadViewSet(CommonControlFieldViewSet, PermissionHelperMixin):
+    ...
+
+
+class PackageZipViewSet(BaseUploadViewSet):
     model = PackageZip
     # button_helper_class = UploadButtonHelper
     permission_helper_class = UploadPermissionHelper
@@ -74,10 +126,14 @@ class PackageZipViewSet(SnippetViewSet):
         return super().get_queryset(request).filter(**params)
 
 
-class PackageViewSet(SnippetViewSet):
+class PackageViewSet(BaseUploadViewSet):
     model = Package
     button_helper_class = UploadButtonHelper
     permission_helper_class = UploadPermissionHelper
+
+    index_view_class = InspectFirstIndexView
+
+    inspect_view_enabled = True
     inspect_view_class = PackageAdminInspectView
     inspect_template_name = "modeladmin/upload/package/inspect.html"
     menu_label = _("Package admin")
@@ -186,7 +242,7 @@ class PackageViewSet(SnippetViewSet):
         return super().get_queryset(request).filter(status__in=status, **params)
 
 
-class QualityAnalysisPackageViewSet(SnippetViewSet):
+class QualityAnalysisPackageViewSet(BaseUploadViewSet):
     model = QAPackage
     button_helper_class = UploadButtonHelper
     permission_helper_class = UploadPermissionHelper
@@ -194,6 +250,7 @@ class QualityAnalysisPackageViewSet(SnippetViewSet):
     menu_icon = "folder"
     menu_order = 200
     edit_view_class = QAPackageEditView
+    inspect_view_enabled = True
     inspect_view_class = PackageAdminInspectView
     inspect_template_name = "modeladmin/upload/package/inspect.html"
     add_to_settings_menu = False
@@ -266,7 +323,7 @@ class QualityAnalysisPackageViewSet(SnippetViewSet):
         return super().get_queryset(request).filter(status__in=status, **params)
 
 
-class ReadyToPublishPackageViewSet(SnippetViewSet):
+class ReadyToPublishPackageViewSet(BaseUploadViewSet):
     model = ReadyToPublishPackage
 
     button_helper_class = UploadButtonHelper
@@ -275,6 +332,7 @@ class ReadyToPublishPackageViewSet(SnippetViewSet):
     menu_icon = "folder"
     menu_order = 200
     edit_view_class = ReadyToPublishPackageEditView
+    inspect_view_enabled = True
     inspect_view_class = PackageAdminInspectView
     inspect_template_name = "modeladmin/upload/package/inspect.html"
     add_to_settings_menu = False
@@ -329,7 +387,7 @@ class ReadyToPublishPackageViewSet(SnippetViewSet):
         return super().get_queryset(request).filter(status__in=status, **params)
 
 
-class XMLErrorReportViewSet(SnippetViewSet):
+class XMLErrorReportViewSet(BaseUploadViewSet):
     model = XMLErrorReport
     permission_helper_class = UploadPermissionHelper
     edit_view_class = XMLErrorReportEditView
@@ -361,10 +419,10 @@ class XMLErrorReportViewSet(SnippetViewSet):
         if self.permission_helper.user_is_analyst_team_member(request.user, None):
             return super().get_queryset(request)
 
-        return super().get_queryset(request).filter(package__creator=request.user)
+        return super().get_queryset(request).filter(status__in=status, **params)
 
 
-class XMLErrorViewSet(SnippetViewSet):
+class XMLErrorViewSet(BaseUploadViewSet):
     model = XMLError
     permission_helper_class = UploadPermissionHelper
     # create_view_class = XMLErrorCreateView
@@ -404,7 +462,8 @@ class XMLErrorViewSet(SnippetViewSet):
         return super().get_queryset(request).filter(package__creator=request.user)
 
 
-class XMLInfoReportViewSet(SnippetViewSet):
+
+class XMLInfoReportViewSet(BaseUploadViewSet):
     model = XMLInfoReport
     permission_helper_class = UploadPermissionHelper
     edit_view_class = XMLInfoReportEditView
@@ -439,7 +498,7 @@ class XMLInfoReportViewSet(SnippetViewSet):
         return super().get_queryset(request).filter(package__creator=request.user)
 
 
-class XMLInfoViewSet(SnippetViewSet):
+class XMLInfoViewSet(BaseUploadViewSet):
     model = XMLInfo
     permission_helper_class = UploadPermissionHelper
     # create_view_class = XMLInfoCreateView
@@ -479,7 +538,7 @@ class XMLInfoViewSet(SnippetViewSet):
         return super().get_queryset(request).filter(package__creator=request.user)
 
 
-class ValidationReportViewSet(SnippetViewSet):
+class ValidationReportViewSet(BaseUploadViewSet):
     model = ValidationReport
     permission_helper_class = UploadPermissionHelper
     # create_view_class = ValidationReportCreateView
@@ -515,7 +574,7 @@ class ValidationReportViewSet(SnippetViewSet):
         return super().get_queryset(request).filter(package__creator=request.user)
 
 
-class ValidationViewSet(SnippetViewSet):
+class ValidationViewSet(BaseUploadViewSet):
     model = PkgValidationResult
     permission_helper_class = UploadPermissionHelper
     # create_view_class = ValidationCreateView
@@ -546,7 +605,7 @@ class ValidationViewSet(SnippetViewSet):
         return super().get_queryset(request).filter(package__creator=request.user)
 
 
-class UploadValidatorViewSet(SnippetViewSet):
+class UploadValidatorViewSet(BaseUploadViewSet):
     model = UploadValidator
     permission_helper_class = UploadPermissionHelper
     # create_view_class = ValidationCreateView
@@ -577,7 +636,7 @@ class UploadValidatorViewSet(SnippetViewSet):
         return super().get_queryset(request).none()
 
 
-class ArchivedPackageViewSet(SnippetViewSet):
+class ArchivedPackageViewSet(BaseUploadViewSet):
     model = ArchivedPackage
     button_helper_class = UploadButtonHelper
     permission_helper_class = UploadPermissionHelper
