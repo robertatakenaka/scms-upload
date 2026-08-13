@@ -2,7 +2,7 @@ import logging
 import mimetypes
 import os
 import sys
-import glob
+import traceback
 from io import BytesIO
 from shutil import copyfile
 from datetime import datetime
@@ -11,6 +11,7 @@ from zipfile import ZIP_DEFLATED, ZipFile
 
 from django.core.files.base import ContentFile
 from django.db import models
+from django.db.models import Q
 from django.utils.translation import gettext_lazy as _
 from modelcluster.fields import ParentalKey
 from modelcluster.models import ClusterableModel
@@ -47,6 +48,9 @@ class SPSPkgAddPidV3ToZipFileError(Exception):
 
 
 class AddPidV3ToXMLFileError(Exception):
+    ...
+
+class SPSPkgMultipleObjectReturnedException(Exception):
     ...
 
 
@@ -362,13 +366,31 @@ class SPSPkg(CommonControlField, ClusterableModel):
     def autocomplete_label(self):
         return f"{self.sps_pkg_name} {self.pid_v3}"
 
-    def fix_sps_pkg_name(self):
-        sps_pkg_name = self.xml_with_pre.sps_pkg_name
+    def fix_sps_pkg_name(self, save=False):
+        try:
+            sps_pkg_name = self.xml_with_pre.sps_pkg_name
+        except Exception as e:
+            return False
         if self.sps_pkg_name != sps_pkg_name:
             self.sps_pkg_name = sps_pkg_name
-            self.save()
+            if save:
+                self.save()
             return True
         return False
+
+    @classmethod
+    def fix_sps_pkg_names(cls, pid_v3, pid_v2, pkg_name_list, batch_size=200):
+        to_update = []
+        for item in cls.objects.filter(
+            Q(sps_pkg_name__in=pkg_name_list) |
+            Q(pid_v2=pid_v2, sps_pkg_name__isnull=True) |
+            Q(pid_v3=pid_v3, sps_pkg_name__isnull=True)
+        ):
+            if item.fix_sps_pkg_name():  # calcula mas não salva
+                to_update.append(item)
+        if to_update:
+            cls.objects.bulk_update(to_update, ["sps_pkg_name"], batch_size=batch_size)
+        return len(to_update)
 
     @property
     def xml_with_pre(self):
@@ -406,39 +428,75 @@ class SPSPkg(CommonControlField, ClusterableModel):
             }
 
     @classmethod
-    def get(cls, pid_v3):
-        return cls.objects.get(pid_v3=pid_v3)
+    def get(cls, pid_v3=None, sps_pkg_name=None, pkg_name_list=None, pid_v2=None):
+        qs = Q()
+        params = {}
+        if pid_v3:
+            params["pid_v3"] = pid_v3
+            qs |= Q(pid_v3=pid_v3)
+        if pid_v2:
+            params["pid_v2"] = pid_v2
+            qs |= Q(pid_v2=pid_v2)
+        if sps_pkg_name:
+            params["sps_pkg_name"] = sps_pkg_name
+            qs |= Q(sps_pkg_name=sps_pkg_name)
+        if pkg_name_list:
+            params["sps_pkg_name__in"] = pkg_name_list
+            qs |= Q(sps_pkg_name__in=pkg_name_list)
+
+        if not params:
+            raise ValueError("SPSPkg.get requires at least one of pid_v3, sps_pkg_name, pkg_name_list, pid_v2")
+
+        items = cls.objects.filter(qs)
+        found = list(items)
+        if not found:
+            raise cls.DoesNotExist
+        if len(found) == 1:
+            return found[0]
+
+        found2 = cls.objects.filter(**params)
+        if len(found) == len(found2):
+            # todos os encontrados tem a mesma identificação, então está duplicado
+            raise cls.MultipleObjectsReturned
+        # possíveis causas de multiplicidade:
+        # - defeitos nos metadados que foram o nome do pacote
+        # - defeitos no pid provider
+        # - multiplicidade nos pid v2 (participação em multicoleções)
+        raise SPSPkgMultipleObjectReturnedException
 
     @classmethod
-    def delete_queryset(cls, qs):
+    def delete_related_items(cls, qs):
         SPSPkgComponent.objects.filter(sps_pkg__in=qs).delete()
         qs.delete()
 
     def set_registered_in_core(self, value):
         PidRequester.set_registered_in_core(self.pid_v3, value)
 
-    @staticmethod
-    def is_registered_in_core(pid_v3):
-        if not pid_v3:
-            return False
-        try:
-            obj = SPSPkg.objects.get(pid_v3=pid_v3)
-            return obj.registered_in_core
-        except SPSPkg.DoesNotExist:
-            return False
-
     @classmethod
-    def _get_or_create(cls, user, pid_v3, sps_pkg_name, registered_in_core, pid_v2):
+    def _create_or_update(cls, user, pid_v3, sps_pkg_name, registered_in_core, pid_v2, pkg_name_list):
         try:
-            obj = cls.objects.get(sps_pkg_name=sps_pkg_name)            
+            obj = cls.get(
+                pid_v3=pid_v3, sps_pkg_name=sps_pkg_name, pkg_name_list=None, pid_v2=pid_v2
+            )           
         except cls.MultipleObjectsReturned:
-            items = cls.objects.filter(sps_pkg_name=sps_pkg_name).order_by("-updated")
+            items = cls.objects.filter(
+                pid_v3=pid_v3, sps_pkg_name=sps_pkg_name, pid_v2=pid_v2,
+            ).order_by("-updated")
             obj = items.first()
-            cls.delete_queryset(items.exclude(id=obj.id))
+            cls.delete_related_items(items.exclude(id=obj.id))
+        except SPSPkgMultipleObjectReturnedException:
+            items = []
+            for item in cls.objects.filter(
+                Q(pid_v3=pid_v3) |
+                Q(pid_v2=pid_v2) |
+                Q(sps_pkg_name=sps_pkg_name)
+            ):
+                items.append(item.data)
+            raise SPSPkgMultipleObjectReturnedException(str(items))
         except cls.DoesNotExist:
             obj = cls()
             obj.creator = user
-            obj.sps_pkg_name = sps_pkg_name
+        obj.sps_pkg_name = sps_pkg_name
         obj.pid_v3 = pid_v3
         obj.pid_v2 = pid_v2
         obj.registered_in_core = registered_in_core
@@ -510,6 +568,9 @@ class SPSPkg(CommonControlField, ClusterableModel):
     @property
     def data(self):
         return dict(
+            sps_pkg_name=self.sps_pkg_name,
+            pid_v3=self.pid_v3,
+            pid_v2=self.pid_v2,
             is_complete=self.is_complete,
             registered_in_core=self.registered_in_core,
             valid_texts=self.valid_texts,
@@ -517,21 +578,6 @@ class SPSPkg(CommonControlField, ClusterableModel):
             texts=self.texts,
             components=[item.data for item in self.components.all()],
         )
-
-    @classmethod
-    def is_registered_xml_zip(cls, zip_xml_file_path):
-        """
-        Check if zip_xml_file_path is registered
-        """
-        for item in pid_provider_app.is_registered_xml_zip(zip_xml_file_path):
-            pid_v3 = item.get("v3")
-            if pid_v3:
-                try:
-                    obj = cls.objects.get(pid_v3=pid_v3)
-                    item["synchronized"] = obj.registered_in_core
-                except cls.DoesNotExist:
-                    pass
-            yield item
 
     def fix_pid_v2(self, user, correct_pid_v2):
         return pid_provider_app.fix_pid_v2(user, self.pid_v3, correct_pid_v2)
@@ -542,18 +588,15 @@ class SPSPkg(CommonControlField, ClusterableModel):
         Solicita PID versão 3
 
         """
-        xml = None
         with TemporaryDirectory() as targetdir:
-            xml_zip_path = os.path.join(targetdir, os.path.basename(zip_xml_file_path))
             with ZipFile(zip_xml_file_path) as zipf_source:
                 for item in zipf_source.namelist():
-                    if item.endswith(".xml"):
-                        xml = item
-                        with ZipFile(xml_zip_path, "w", compression=ZIP_DEFLATED) as zipf_destination:
-                            zipf_destination.writestr(item, zipf_source.read(item))
-                        break
-            if xml:
-                return cls._add_pid_v3_to_zip(user, zip_xml_file_path, is_public, article_proc, xml_zip_path)
+                    if not item.endswith(".xml"):
+                        continue
+                    xml_zip_path = os.path.join(targetdir, os.path.basename(zip_xml_file_path))
+                    with ZipFile(xml_zip_path, "w", compression=ZIP_DEFLATED) as zipf_destination:
+                        zipf_destination.writestr(item, zipf_source.read(item))
+                    return cls._add_pid_v3_to_zip(user, zip_xml_file_path, is_public, article_proc, xml_zip_path)
 
     @classmethod
     def _add_pid_v3_to_zip(cls, user, zip_xml_file_path, is_public, article_proc, xml_zip_path):
@@ -577,12 +620,16 @@ class SPSPkg(CommonControlField, ClusterableModel):
 
                 xml_with_pre = response.pop("xml_with_pre")
 
-                obj = cls._get_or_create(
+                pkg_name_list = xml_with_pre.pkg_name_variations
+                cls.fix_sps_pkg_names(response["v3"], response["v2"], pkg_name_list)
+
+                obj = cls._create_or_update(
                     user=user,
                     pid_v3=response["v3"],
-                    sps_pkg_name=response["pkg_name"],
+                    sps_pkg_name=response["sps_pkg_name"],
                     registered_in_core=response.get("registered_in_core"),
                     pid_v2=response["v2"],
+                    pkg_name_list=pkg_name_list,
                 )
 
                 if response.get("changed"):
@@ -597,9 +644,9 @@ class SPSPkg(CommonControlField, ClusterableModel):
         except Exception as e:
             exc_type, exc_value, exc_traceback = sys.exc_info()
             if operation:
+                response["traceback"] = traceback.format_exc()
                 operation.finish(
                     user,
-                    exc_traceback=exc_traceback,
                     exception=e,
                     detail=response,
                 )
