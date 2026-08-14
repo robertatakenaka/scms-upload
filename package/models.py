@@ -34,6 +34,7 @@ from core.utils.file_utils import delete_files
 from files_storage.models import FileLocation, MinioConfiguration
 from package import choices
 from pid_provider.requester import PidRequester
+from pid_provider.models import PidProviderXML
 
 
 pid_provider_app = PidRequester()
@@ -300,6 +301,12 @@ class SPSPkg(CommonControlField, ClusterableModel):
     # zip
     file = models.FileField(upload_to=pkg_directory_path, null=True, blank=True, max_length=150)
 
+    ppx = models.ForeignKey(
+        PidProviderXML,
+        null=True,
+        blank=True,
+        on_delete=models.SET_NULL,
+    )
     # XML URI
     xml_uri = models.URLField(null=True, blank=True)
 
@@ -473,7 +480,7 @@ class SPSPkg(CommonControlField, ClusterableModel):
         PidRequester.set_registered_in_core(self.pid_v3, value)
 
     @classmethod
-    def _create_or_update(cls, user, pid_v3, sps_pkg_name, registered_in_core, pid_v2, pkg_name_list):
+    def _create_or_update(cls, user, pid_v3, sps_pkg_name, registered_in_core, pid_v2, pkg_name_list, ppx_id):
         try:
             obj = cls.get(
                 pid_v3=pid_v3, sps_pkg_name=sps_pkg_name, pkg_name_list=None, pid_v2=pid_v2
@@ -501,6 +508,7 @@ class SPSPkg(CommonControlField, ClusterableModel):
         obj.pid_v2 = pid_v2
         obj.registered_in_core = registered_in_core
         obj.updated_by = user
+        obj.ppx_id = ppx_id
         obj.save()
         return obj
 
@@ -630,6 +638,7 @@ class SPSPkg(CommonControlField, ClusterableModel):
                     registered_in_core=response.get("registered_in_core"),
                     pid_v2=response["v2"],
                     pkg_name_list=pkg_name_list,
+                    ppx_id=response.get("ppx_id")
                 )
 
                 if response.get("changed"):
