@@ -307,8 +307,10 @@ class Article(ClusterableModel, CommonControlField):
     # ── get / dedup ──
 
     @classmethod
-    def get(cls, pid_v2=None, sps_pkg_name=None, pid_v3=None):
+    def get(cls, pid_v2=None, sps_pkg_name=None, pid_v3=None, sps_pkg=None):
         params = {}
+        if sps_pkg:
+            params["sps_pkg"] = sps_pkg
         if pid_v2:
             params["pid_v2"] = pid_v2
         if pid_v3:
@@ -317,30 +319,12 @@ class Article(ClusterableModel, CommonControlField):
             params["sps_pkg__sps_pkg_name"] = sps_pkg_name
 
         if not params:
-            raise ValueError("Article.get requires pid_v3 or pid_v2 or sps_pkg_name")
+            raise ValueError("Article.get requires sps_pkg or spid_v3 or pid_v2 or sps_pkg_name")
         
         return cls.objects.get(**params)
-    
-    @classmethod
-    def get_first(cls, pid_v2=None, sps_pkg_name=None, pid_v3=None, delete=False):
-        q = Q()
-        if pid_v2:
-            q |= Q(pid_v2=pid_v2)
-        if sps_pkg_name:
-            q |= Q(sps_pkg__sps_pkg_name=sps_pkg_name)
-        qs = cls.objects.filter(q).order_by("-updated")
-        obj = qs.first()
-        if obj is None:
-            qs = cls.objects.filter(pid_v3=pid_v3).order_by("-updated")
-            obj = qs.first()
-            if obj is None:
-                raise cls.DoesNotExist            
-        if delete:
-            cls.delete_queryset(qs.exclude(pk=obj.pk))
-        return obj
 
     @classmethod
-    def delete_queryset(cls, qs):
+    def delete_related_items(cls, qs):
         ArticleDOIWithLang.objects.filter(article__in=qs).delete()
         ArticleTitle.objects.filter(parent__in=qs).delete()
         ArticleCollection.objects.filter(article__in=qs).delete()
@@ -358,40 +342,39 @@ class Article(ClusterableModel, CommonControlField):
         if not xml_with_pre:
             raise ValueError(f"SPSPkg {sps_pkg} is missing xml_with_pre")
 
-        pid_v2 = xml_with_pre.v2
-        pid_v3 = sps_pkg.pid_v3
-        if not pid_v2:
-            raise ValueError(f"SPSPkg {sps_pkg} xml_with_pre is missing pid_v2")
-
         try:
-            obj = cls.get_first(sps_pkg.sps_pkg_name, pid_v2, pid_v3, delete=True)
+            obj = cls.get(sps_pkg=sps_pkg)
         except cls.DoesNotExist:
             obj = cls()
             obj.creator = user
+            obj.sps_pkg = sps_pkg
+        except cls.MultipleObjectsReturned:
+            items = cls.objects.filter(sps_pkg=sps_pkg).order_by("-updated")
+            obj = items.first()
+            cls.delete_related_items(items.exclude(id=obj.id))
 
-        obj.pid_v3 = pid_v3
-        obj.pid_v2 = pid_v2
-        obj.sps_pkg = sps_pkg
+        obj.pid_v3 = sps_pkg.pid_v3
+        obj.pid_v2 = sps_pkg.pid_v2
         obj.article_type = xml_with_pre.xmltree.find(".").get("article-type")
 
         if journal:
             obj.journal = journal
         else:
-            obj.add_journal(user)
+            obj.add_journal(xml_with_pre)
         if issue:
             obj.issue = issue
         else:
-            obj.add_issue(user)
+            obj.add_issue(xml_with_pre)
 
         obj.status = obj.status or choices.AS_READY_TO_PUBLISH
-        obj.add_pages()
-        obj.add_position(position, xml_with_pre.fpage)
+        obj.add_pages(xml_with_pre)
         obj.add_article_publication_date()
         obj.add_pp_xml()
         obj.save()
 
-        obj.add_sections(user)
-        obj.add_article_titles(user)
+        obj.add_sections(user, xml_with_pre)
+        obj.add_position(position, xml_with_pre.fpage)
+        obj.add_article_titles(user, xml_with_pre)
         obj.add_doi_with_lang(user, xml_with_pre.article_doi_with_lang)
         return obj
 
@@ -420,15 +403,13 @@ class Article(ClusterableModel, CommonControlField):
     def add_related_item(self, target_doi, target_article_type):
         self.save()
 
-    def add_pages(self):
-        xml_with_pre = self.sps_pkg.xml_with_pre
+    def add_pages(self, xml_with_pre):
         self.fpage = xml_with_pre.fpage
         self.fpage_seq = xml_with_pre.fpage_seq
         self.lpage = xml_with_pre.lpage
         self.elocation_id = xml_with_pre.elocation_id
 
-    def add_issue(self, user):
-        xml_with_pre = self.sps_pkg.xml_with_pre
+    def add_issue(self, xml_with_pre):
         self.issue = Issue.get(
             journal=self.journal,
             volume=xml_with_pre.volume,
@@ -436,8 +417,7 @@ class Article(ClusterableModel, CommonControlField):
             number=xml_with_pre.number,
         )
 
-    def add_journal(self, user):
-        xml_with_pre = self.sps_pkg.xml_with_pre
+    def add_journal(self, xml_with_pre):
         self.journal = Journal.get(
             official_journal=OfficialJournal.get(
                 issn_electronic=xml_with_pre.journal_issn_electronic,
@@ -445,11 +425,11 @@ class Article(ClusterableModel, CommonControlField):
             ),
         )
 
-    def add_article_titles(self, user):
+    def add_article_titles(self, user, xml_with_pre):
         titles = ArticleTitles(
-            xmltree=self.sps_pkg.xml_with_pre.xmltree,
+            xmltree=xml_with_pre.xmltree,
         ).article_title_list
-        self.title_with_lang.all().delete()
+        self.title_with_lang.all().clear()
         for title in titles:
             try:
                 language_code2 = title.get("language") or title.get("lang")
@@ -475,11 +455,11 @@ class Article(ClusterableModel, CommonControlField):
             except Exception as e:
                 logging.exception(e)
 
-    def add_sections(self, user):
-        self.sections.all().delete()
+    def add_sections(self, user, xml_with_pre):
+        self.sections.all().clear()
 
         xml_sections = ArticleTocSections(
-            xmltree=self.sps_pkg.xml_with_pre.xmltree,
+            xmltree=xml_with_pre.xmltree,
         )
 
         items = xml_sections.article_section
@@ -698,7 +678,8 @@ class Article(ClusterableModel, CommonControlField):
     def fix_sps_pkg_names(cls, items=None):
         if not items:
             items = cls.objects
-        items.filter(
+
+        items = items.filter(
             sps_pkg__isnull=False,
             issue__supplement__isnull=False,
         ).select_related(
@@ -732,7 +713,7 @@ class Article(ClusterableModel, CommonControlField):
 
     def fix_sps_pkg_name(self):
         if self.sps_pkg:
-            return self.sps_pkg.fix_sps_pkg_name()
+            return self.sps_pkg.fix_sps_pkg_name(save=True)
 
     # ── ArticleCollection: ponto de entrada ──
 
@@ -800,7 +781,7 @@ class Article(ClusterableModel, CommonControlField):
 
         try:
             xmltree = self.sps_pkg.xml_with_pre.xmltree
-            contribs = xmltree.findall(
+            contribs = xmltree.xpath(
                 ".//front/article-meta/contrib-group/"
                 "contrib[@contrib-type='author']"
             )
@@ -949,9 +930,8 @@ class Article(ClusterableModel, CommonControlField):
                     sps_pkg_to_delete.add(sps_pkg_id)
                     sps_pkg_names.append(sps_pkg_name)
             response["sps_pkg_with_invalid_pid_v2"] = sps_pkg_names
-            qtd_deleted, _ignored = cls.delete_queryset(qs)
+            qtd_deleted, _ignored = cls.delete_related_items(qs)
             total_deletado += qtd_deleted
-
         # 1. Remoção por falta de pp_xml
         qs = cls.objects.select_related("pp_xml").filter(issue=issue)
         sps_pkg_names = []
@@ -968,9 +948,8 @@ class Article(ClusterableModel, CommonControlField):
                     sps_pkg_names.append(item.sps_pkg.sps_pkg_name)
         if article_ids:
             response["ppxml_invalid"] = sps_pkg_names
-            qtd_deleted, _ignored = cls.delete_queryset(qs.filter(id__in=article_ids))
+            qtd_deleted, _ignored = cls.delete_related_items(qs.filter(id__in=article_ids))
             total_deletado += qtd_deleted
-
         # 2. Remoção por duplicidade
         for field_name in ("sps_pkg__sps_pkg_name", "pid_v2"):
             response.setdefault(f"repeated_{field_name}", [])
@@ -993,11 +972,11 @@ class Article(ClusterableModel, CommonControlField):
                     try:
                         item.create_or_update_article_collections(user)
                         item.check_availability(user, force_update=True, timeout=timeout)
-                        for coll in item.article_collections:
-                            response = item.available_on_public_website(coll.collection)
-                            events.append(_("Checking {} is available. Result: {}").format(item, response))
+                        for coll in item.article_collections.all():
+                            page_status = item.available_on_public_website(coll.collection)
+                            events.append(_("Checking {} is available. Result: {}").format(item, page_status))
                             
-                            if response.get("valid"):
+                            if page_status.get("valid"):
                                 keep = item
                                 break
                     except Exception as e:
@@ -1019,9 +998,8 @@ class Article(ClusterableModel, CommonControlField):
                     response[f"repeated_{field_name}"].append((value, sps_pkg_names))
                     
                     # Executa a deleção e soma ao totalizador
-                    qtd_deletada, _ignored = cls.delete_queryset(remover_qs)
+                    qtd_deletada, _ignored = cls.delete_related_items(remover_qs)
                     total_deletado += qtd_deletada
-
         # Se você precisar retornar o total_deletado junto com o dicionário, 
         # pode adicioná-lo ao dicionário ou retornar uma tupla. 
         # Como o seu esqueleto final pedia apenas o retorno do dicionário, mantive assim:
@@ -1045,9 +1023,9 @@ class Article(ClusterableModel, CommonControlField):
         
         qs = cls.objects.filter(Q(sps_pkg__isnull=True) | Q(pp_xml__isnull=True), issue=issue)
         response["deleted_article_ids"] = list(qs.values_list("id", flat=True))
-        qtd_deleted, _ignored = cls.delete_queryset(qs)
+        qtd_deleted, _ignored = cls.delete_related_items(qs)
         total_deletado += qtd_deleted
-        
+    
         response["total_deleted_items"] = total_deletado
         response["events"] = events
         response["exceptions"] = exceptions
