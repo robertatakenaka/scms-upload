@@ -370,12 +370,13 @@ class Article(ClusterableModel, CommonControlField):
         obj.add_pages(xml_with_pre)
         obj.add_article_publication_date()
         obj.add_pp_xml()
+        obj.add_position(position, xml_with_pre.fpage)
         obj.save()
 
         obj.add_sections(user, xml_with_pre)
-        obj.add_position(position, xml_with_pre.fpage)
         obj.add_article_titles(user, xml_with_pre)
         obj.add_doi_with_lang(user, xml_with_pre.article_doi_with_lang)
+        obj.add_position_in_table_of_contents()
         return obj
 
     # ── add_* helpers ──
@@ -465,10 +466,7 @@ class Article(ClusterableModel, CommonControlField):
         items = xml_sections.article_section
         items.extend(xml_sections.sub_article_section)
 
-        try:
-            toc = TOC.objects.get(issue=self.issue)
-        except TOC.DoesNotExist:
-            toc = TOC.create_or_update(user, self.issue, ordered=False)
+        toc = TOC.create_or_update(user, self.issue, ordered=False)
 
         group = None
         for item in items:
@@ -499,17 +497,19 @@ class Article(ClusterableModel, CommonControlField):
     def add_position(self, position=None, fpage=None):
         try:
             self.position = int(position or fpage)
-            return
         except (ValueError, TypeError):
-            pass
-        if not self.created:
-            self.save()
+            self.position = None
+
+    def add_position_in_table_of_contents(self):
+        if self.position:
+            return
         position = TocSection.get_section_position(self.issue, self.sections) or 0
         sections = [item.text for item in self.sections.all()]
         self.position = (
             position * 10000
             + Article.objects.filter(sections__text__in=sections).count()
         )
+        self.save()
 
     # ── display properties ──
 
