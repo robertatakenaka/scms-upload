@@ -99,3 +99,42 @@ def get_xml_collections(xml_with_pre):
         items.insert(0, main_item)
 
     return items
+
+
+def get_collection_acron(collection):
+    """
+    Acrônimo da coleção: Collection.acron3 (Core) ou Collection.acron (Upload)
+    """
+    return getattr(collection, "acron3", None) or getattr(collection, "acron", None)
+
+
+def get_collection_acron_by_pid_v2(pid_v2, xml_collections):
+    """
+    Identifica a coleção de origem do XML que não a informa (custom-meta)
+    pelo PID do periódico contido no pid v2 (issn_scielo), entre as coleções
+    do periódico (ver get_xml_collections)
+
+    Havendo mais de uma coleção com o mesmo PID do periódico, prefere a
+    coleção principal (nacional, classificada como scielonetwork)
+
+    Returns
+    -------
+    str
+        acrônimo da coleção ou None, se o pid v2 não identificar a coleção
+        (pid v2 ausente, PID do periódico desconhecido ou mais de uma coleção
+        candidata, nenhuma delas a principal)
+    """
+    journal_pid = get_journal_pid_from_v2(pid_v2)
+    if not journal_pid:
+        return None
+    candidates = [
+        item
+        for item in xml_collections or []
+        if (item["journal_pid"] or "").upper() == journal_pid.upper()
+    ]
+    main = next((item for item in candidates if item["is_main"]), None)
+    if main:
+        return get_collection_acron(main["collection"])
+    if len(candidates) == 1:
+        return get_collection_acron(candidates[0]["collection"])
+    return None
