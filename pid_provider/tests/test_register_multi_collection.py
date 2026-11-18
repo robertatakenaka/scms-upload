@@ -33,6 +33,7 @@ from pid_provider.models import (
     PidProviderXML,
     XMLVersion,
 )
+from pid_provider.provider import PidProvider
 from pid_provider.tasks import task_complete_collection_pid_v2_sps_pkg_name
 from proc.models import JournalProc
 
@@ -585,6 +586,102 @@ class RegisterXMLWithCollectionOfLegacyRegisteredTest(
         self.assert_current_version_is_from(registered, self.scl)
         self.assertEqual(registered.v2, SCL_V2)
         self.assert_no_pid_v2_change(registered)
+
+
+class ProvidePidForXMLWithoutCollectionTest(
+    RegisterSameArticleInDifferentCollectionsTestBase
+):
+    """
+    XML sem a coleção de origem (ex.: no Core, enviado por versão do Upload
+    anterior à inserção da coleção no XML) tem a coleção identificada pelo
+    pid v2 antes do registro, de preferência a principal
+    (BasePidProvider, ver get_collection_acron_by_pid_v2)
+    """
+
+    def provide(self, xml_with_pre, filename, collection_acron=None):
+        response = PidProvider().provide_pid_for_xml_with_pre(
+            xml_with_pre,
+            filename,
+            self.user,
+            origin_date="2026-01-01",
+            collection_acron=collection_acron,
+        )
+        self.assertIsNone(
+            response.get("error_type"),
+            f"{response.get('error_msg')} {response.get('traceback')}",
+        )
+        return response
+
+    def same_journal_pid_in_collections(self):
+        JournalProc.objects.filter(collection=self.psi).update(pid=ISSN_PRINT)
+
+    def test_collection_is_identified_by_journal_pid_of_pid_v2(self):
+        response = self.provide(make_xml_with_pre(PSI_V2, "psicousp"), "psi")
+
+        registered = PidProviderXML.objects.get()
+        self.assertEqual(response["v2"], PSI_V2)
+        self.assertEqual(
+            set(registered.collections.values_list("acron", flat=True)),
+            {"scl", "psi"},
+        )
+        self.assertEqual(registered.collection_pids_v2_data, [PSI_DATA])
+        # a versão registrada informa a coleção identificada
+        self.assertEqual(
+            registered.get_current_version(self.psi).xml_with_pre.collection, "psi"
+        )
+        # current_version vazio é completado com a versão de outra coleção,
+        # até que o XML da coleção principal seja registrado
+        self.assert_current_version_is_from(registered, self.psi)
+        self.assertEqual(registered.v2, PSI_V2)
+
+    def test_main_collection_xml_is_the_current_version(self):
+        self.provide(make_xml_with_pre(SCL_V2, "pusp"), "scl")
+
+        registered = PidProviderXML.objects.get()
+        self.assertEqual(registered.v2, SCL_V2)
+        self.assertEqual(registered.collection_pids_v2_data, [SCL_DATA])
+        self.assert_current_version_is_from(registered, self.scl)
+
+    def test_same_journal_pid_identifies_the_main_collection(self):
+        self.same_journal_pid_in_collections()
+
+        self.provide(make_xml_with_pre(SCL_V2, "pusp"), "scl")
+
+        registered = PidProviderXML.objects.get()
+        self.assertEqual(
+            registered.get_current_version(self.scl).xml_with_pre.collection, "scl"
+        )
+        self.assertIsNone(registered.get_current_version(self.psi))
+        self.assert_current_version_is_from(registered, self.scl)
+
+    def test_unidentified_collection_is_registered_as_legacy(self):
+        # mesmo PID do periódico nas coleções, nenhuma delas a principal:
+        # segue sem a coleção (registro legado)
+        self.same_journal_pid_in_collections()
+        Collection.objects.filter(pk=self.scl.pk).update(
+            network_classification=["thematic"]
+        )
+
+        response = self.provide(make_xml_with_pre(SCL_V2, "pusp"), "scl")
+
+        registered = PidProviderXML.objects.get()
+        self.assertEqual(response["v2"], SCL_V2)
+        self.assertFalse(CollectionPidV2.objects.exists())
+        self.assertEqual(registered.v2, SCL_V2)
+        self.assertEqual(registered.current_version, XMLVersion.objects.get())
+
+    def test_collection_acron_prevails_over_identification(self):
+        self.provide(make_xml_with_pre(PSI_V2, "psicousp"), "psi", "scl")
+
+        registered = PidProviderXML.objects.get()
+        self.assertEqual(
+            list(
+                registered.collection_pids_v2.values_list(
+                    "collection__acron", flat=True
+                )
+            ),
+            ["scl"],
+        )
 
 
 class XMLVersionByCollectionTest(RegisterSameArticleInDifferentCollectionsTestBase):
