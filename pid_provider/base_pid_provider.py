@@ -7,6 +7,10 @@ from core.utils.profiling_tools import (  # ajuste o import conforme sua estrutu
     profile_method,
 )
 from pid_provider.models import PidProviderXML
+from pid_provider.multi_collection import (
+    get_collection_acron_by_pid_v2,
+    get_xml_collections,
+)
 from tracker.models import UnexpectedEvent
 
 
@@ -80,7 +84,14 @@ class BasePidProvider:
         # prevalece; collection_acron só completa a ausente, como na coleta
         # de artigos do OPAC (task_load_record_from_xml_url), cujo XML pode
         # não informar a coleção. No Upload / migração, a coleção já vem no
-        # XML (ver ArticleProc)
+        # XML (ver ArticleProc). No Core, o XML pode chegar sem a coleção,
+        # por exemplo, enviado (API) por versão do Upload anterior à inserção
+        # da coleção no XML: a coleção é identificada pelo pid v2, de
+        # preferência a principal (ver get_collection_acron_by_pid_v2)
+        if not xml_with_pre.collection and not collection_acron:
+            collection_acron = get_collection_acron_by_pid_v2(
+                xml_with_pre.v2, get_xml_collections(xml_with_pre)
+            )
         if collection_acron and not xml_with_pre.collection:
             xml_with_pre.collection = collection_acron
 
