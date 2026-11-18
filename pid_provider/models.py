@@ -1993,11 +1993,22 @@ class PidProviderXML(BasePidProviderXML, CommonControlField, ClusterableModel):
         try:
             if correct_pid_v2 == item.v2:
                 return item.data
+            incorrect_pid_v2 = item.v2
             xml_with_pre = item.get_current_version().xml_with_pre
             xml_with_pre.v2 = correct_pid_v2
             item._add_current_version(xml_with_pre, user, delete=True)
             item.v2 = correct_pid_v2
             item.save()
+            # a versão anterior foi apagada (current_version = NULL)
+            # no registro da coleção do pid v2 corrigido
+            if incorrect_pid_v2:
+                for collection_pid_v2 in item.collection_pids_v2.filter(
+                    pid_v2=incorrect_pid_v2
+                ):
+                    collection_pid_v2.pid_v2 = correct_pid_v2
+                    collection_pid_v2.current_version = item.current_version
+                    collection_pid_v2.updated_by = user
+                    collection_pid_v2.save()
             return item.data
         except Exception as e:
             raise exceptions.PidProviderXMLFixPidV2Error(

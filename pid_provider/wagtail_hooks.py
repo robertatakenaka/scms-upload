@@ -179,9 +179,8 @@ class XMLVersionViewSet(CommonControlFieldViewSet):
         "pid_provider_xml__v2",
         "pid_provider_xml__aop_pid",
         "pid_provider_xml__pkg_name",
-        "pub_year",
-        "available_since",
     )
+
 
 class PidProviderXMLRegistrationViewSet(CommonControlFieldViewSet):
     model = PidProviderXMLRegistration
