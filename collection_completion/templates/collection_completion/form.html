@@ -1,0 +1,10 @@
+{% extends "collection_completion/base.html" %}
+{% load i18n %}
+{% block completion_content %}
+    <form method="post" action="{% url 'collection_completion:create' %}">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="button">{% trans "List the issues of the source collection" %}</button>
+        <a class="button button-secondary" href="{% url 'collection_completion:list' %}">{% trans "Cancel" %}</a>
+    </form>
+{% endblock %}
