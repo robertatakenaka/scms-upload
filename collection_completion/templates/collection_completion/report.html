@@ -1,0 +1,64 @@
+{% extends "collection_completion/base.html" %}
+{% load i18n %}
+{% block extra_css %}
+    {{ block.super }}
+    {% if not is_finished %}<meta http-equiv="refresh" content="15">{% endif %}
+{% endblock %}
+{% block completion_content %}
+    <p>
+        <strong>{% trans "Journal" %}:</strong> {{ completion.journal }}<br>
+        <strong>{% trans "Source collection" %}:</strong> {{ completion.source_collection }}<br>
+        <strong>{% trans "Target collection" %}:</strong> {{ completion.target_collection }}<br>
+        <strong>{% trans "Years" %}:</strong> {{ completion.start_year }}-{{ completion.end_year }}<br>
+        <strong>{% trans "Created" %}:</strong> {{ completion.created }} ({{ completion.creator }})<br>
+        <strong>{% trans "Status" %}:</strong>
+        {% if is_finished %}{% trans "Finished" %}{% else %}{% trans "Running (this page is updated every 15 seconds)" %}{% endif %}
+    </p>
+
+    <h2>{% trans "Totals" %}</h2>
+    <table class="listing">
+        <thead>
+            <tr>
+                <th></th>
+                {% for label in status_labels %}<th>{{ label }}</th>{% endfor %}
+            </tr>
+        </thead>
+        <tbody>
+            {% for row in rows %}
+                <tr>
+                    <td>{{ row.item_type }}</td>
+                    {% for value in row.values %}<td>{{ value }}</td>{% endfor %}
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    {% for section in sections %}
+        <h2>{{ section.label }} ({{ section.items|length }})</h2>
+        <table class="listing">
+            <thead>
+                <tr>
+                    <th>{% trans "Item type" %}</th>
+                    <th>{% trans "Label" %}</th>
+                    <th>{% trans "Source PID" %}</th>
+                    <th>{% trans "Target PID" %}</th>
+                    <th>{% trans "Issue" %}</th>
+                    <th>{% trans "Reason" %}</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for item in section.items %}
+                    <tr>
+                        <td>{{ item.get_item_type_display }}</td>
+                        <td>{{ item.label|default:"-" }}</td>
+                        <td>{{ item.source_pid|default:"-" }}</td>
+                        <td>{{ item.target_pid|default:"-" }}</td>
+                        <td>{{ item.parent.label|default:"-" }}</td>
+                        <td>{{ item.reason|default:"" }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% endfor %}
+    <p><a class="button button-secondary" href="{% url 'collection_completion:list' %}">{% trans "Back" %}</a></p>
+{% endblock %}
