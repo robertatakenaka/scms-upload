@@ -1,0 +1,24 @@
+{% extends "collection_completion/base.html" %}
+{% load i18n %}
+{% block completion_content %}
+    <p>
+        <strong>{% trans "Journal" %}:</strong> {{ form.cleaned_data.journal }}<br>
+        <strong>{% trans "Source collection" %}:</strong> {{ form.cleaned_data.source_collection }}<br>
+        <strong>{% trans "Target collection" %}:</strong> {{ form.cleaned_data.target_collection }}<br>
+        <strong>{% trans "Years" %}:</strong> {{ form.cleaned_data.start_year }}-{{ form.cleaned_data.end_year }}
+    </p>
+    <p>
+        {% blocktrans trimmed %}
+            Unselect the issues that must not be completed. The articles of the selected issues are also completed. Each issue and article is completed by a task; follow the progress in the report.
+        {% endblocktrans %}
+    </p>
+    <form method="post" action="{% url 'collection_completion:confirm' %}">
+        {% csrf_token %}
+        {% for field in form %}{{ field.as_hidden }}{% endfor %}
+        {{ issues_form.non_field_errors }}
+        {{ issues_form.issues.errors }}
+        {{ issues_form.issues }}
+        <button type="submit" class="button">{% trans "Complete the target collection" %}</button>
+        <a class="button button-secondary" href="{% url 'collection_completion:create' %}">{% trans "Cancel" %}</a>
+    </form>
+{% endblock %}
