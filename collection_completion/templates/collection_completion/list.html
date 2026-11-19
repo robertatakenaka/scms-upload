@@ -1,0 +1,36 @@
+{% extends "collection_completion/base.html" %}
+{% load i18n %}
+{% block completion_content %}
+    <p>
+        {% blocktrans trimmed %}
+            Adds to the target collection the issues and articles that a journal present in more than one collection has in the source collection. The content is not published: publication is another action.
+        {% endblocktrans %}
+    </p>
+    <p><a class="button" href="{% url 'collection_completion:create' %}">{% trans "New collection completion" %}</a></p>
+    <table class="listing">
+        <thead>
+            <tr>
+                <th>{% trans "Created" %}</th>
+                <th>{% trans "Journal" %}</th>
+                <th>{% trans "Source collection" %}</th>
+                <th>{% trans "Target collection" %}</th>
+                <th>{% trans "Years" %}</th>
+                <th>{% trans "Creator" %}</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for completion in completions %}
+                <tr>
+                    <td><a href="{% url 'collection_completion:report' completion.pk %}">{{ completion.created }}</a></td>
+                    <td>{{ completion.journal }}</td>
+                    <td>{{ completion.source_collection }}</td>
+                    <td>{{ completion.target_collection }}</td>
+                    <td>{{ completion.start_year }}-{{ completion.end_year }}</td>
+                    <td>{{ completion.creator }}</td>
+                </tr>
+            {% empty %}
+                <tr><td colspan="6">{% trans "No collection completion yet" %}</td></tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
