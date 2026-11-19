@@ -1,0 +1,16 @@
+{% extends "wagtailadmin/base.html" %}
+{% load i18n %}
+{% block titletag %}{% trans "Collection completion" %}{% endblock %}
+{% block content %}
+    {% include "wagtailadmin/shared/header.html" with title=page_title|default:_("Collection completion") icon="list-ul" %}
+    <div class="nice-padding">
+        {% if messages %}
+            <ul class="messages">
+                {% for message in messages %}
+                    <li class="{{ message.tags }}">{{ message }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+        {% block completion_content %}{% endblock %}
+    </div>
+{% endblock %}
